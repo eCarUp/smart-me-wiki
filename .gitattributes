@@ -1,0 +1,13 @@
+# Einheitliche Zeilenenden im Repository – wichtig, weil Seiten auch über den
+# GitHub-Web-Editor bearbeitet werden.
+* text=auto eol=lf
+
+# Binärdateien nie anfassen.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.avif binary
+*.ico binary
+*.pdf binary

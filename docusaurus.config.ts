@@ -54,6 +54,9 @@ const config: Config = {
           // Docs-only-Modus: Dokumentation liegt direkt unter /
           routeBasePath: '/',
           sidebarPath: './sidebars.ts',
+          // Dateinamen wie "1-phasen-zaehler.md" stammen aus den alten URLs.
+          // Ohne diese Zeile würde Docusaurus die "1-" als Positionspräfix deuten.
+          numberPrefixParser: false,
           editUrl: 'https://github.com/ecarup/smart-me-wiki/edit/main/',
           // Übersetzungen werden generiert – kein Edit-Link auf i18n-Dateien.
           editLocalizedFiles: false,

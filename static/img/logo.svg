@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" width="40" height="40" role="img" aria-label="smart-me">
+  <title>smart-me (Platzhalter-Logo)</title>
+  <rect width="40" height="40" rx="8" fill="#8CC63F"/>
+  <path d="M11 27c3.2 0 4.6-2.1 6.2-6.1C19 16.3 20.8 13 25 13c3 0 4.9 1.9 4.9 4.6"
+        fill="none" stroke="#fff" stroke-width="3.2" stroke-linecap="round"/>
+  <circle cx="11" cy="27" r="2.6" fill="#fff"/>
+</svg>

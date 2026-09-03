@@ -122,7 +122,7 @@ export function renderFull(opts: {
   return `${parts.join('\n').trimEnd()}\n`;
 }
 
-export default function llmsTxtPlugin(context: LoadContext): Plugin<void> {
+export default function llmsTxtPlugin(context: LoadContext): Plugin<unknown> {
   return {
     name: 'smart-me-llms-txt',
 

@@ -48,13 +48,35 @@ Der Build bricht bei defekten internen Links ab (`onBrokenLinks: 'throw'`).
 | `i18n/<locale>/` | Generierte Übersetzungen – nicht von Hand pflegen |
 | `static/img/<seiten-slug>/` | Bilder, nach Seite gruppiert |
 | `src/components/` | Eigene MDX-Komponenten (z.B. `<Video>`) |
-| `src/css/custom.css` | Branding und Farben |
+| `src/css/tokens.css` | Design Tokens, unverändert aus den Design Guidelines |
+| `src/css/custom.css` | Zuordnung der Tokens auf Docusaurus |
 | `sidebars.ts` | Navigationsstruktur |
 | `redirects.ts` | Weiterleitungen von den alten Google-Sites-URLs |
 | `scripts/` | Migrations- und Übersetzungsskripte |
 | `glossary.md` | Begriffe für die Übersetzung (fixe Übersetzungen, Produktnamen) |
 | `plugins/llms-txt/` | Erzeugt `llms.txt` und `llms-full.txt` je Sprache |
 | `migration-report.md` | Protokoll der Migration inkl. offener Punkte |
+
+## Design
+
+Die Gestaltung folgt den **smart-me Design Guidelines**
+(`design-guidelines/smart-me/design.md`, Quelle: internes Design Wiki):
+
+- Primärfarbe smart-me Blau `#28599A`, Grün als unterstützende Farbe
+- Weiss als Grundfläche, Blau 5 % (`#F4F6FA`) für ruhige Flächen
+- Schrift **Noto Sans** (400/500/700), selbst ausgeliefert über `@fontsource`
+- Überschriften in smart-me Blau, Fliesstext `#272727`, linksbündig
+- Links im Fliesstext immer unterstrichen
+- Semantische Farbquartette für Hinweise, Warnungen und Fehler
+
+`src/css/tokens.css` ist eine unveränderte Kopie der `tokens.css` aus den
+Guidelines und sollte nur bei einer Aktualisierung dort angefasst werden. Die
+Abbildung auf die Variablen von Docusaurus steht in `src/css/custom.css`.
+
+Offen: Der **Dark Mode** ist in den Guidelines nicht beschrieben – er verwendet
+hier hellere Stufen derselben Blau-Rampe. Ebenso ist kein **Favicon** definiert;
+aktuell dient die Wortmarke als Platzhalter. Beides gehört vor dem
+Produktivgang zu design@smart-me.com.
 
 ## Für AI-Werkzeuge
 

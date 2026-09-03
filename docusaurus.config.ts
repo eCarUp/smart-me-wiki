@@ -12,7 +12,7 @@ const baseUrl = process.env.BASE_URL ?? '/smart-me-wiki/';
 const config: Config = {
   title: 'smart-me Support',
   tagline: 'Dokumentation und Support für smart-me Produkte',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/smartme-logo.png',
 
   url,
   baseUrl,
@@ -65,7 +65,15 @@ const config: Config = {
         },
         blog: false,
         theme: {
-          customCss: './src/css/custom.css',
+          customCss: [
+            // Noto Sans wird selbst ausgeliefert – keine Anfragen an Google Fonts.
+            require.resolve('@fontsource/noto-sans/400.css'),
+            require.resolve('@fontsource/noto-sans/500.css'),
+            require.resolve('@fontsource/noto-sans/700.css'),
+            // Unveraenderte Design Tokens, danach die Zuordnung auf Docusaurus.
+            './src/css/tokens.css',
+            './src/css/custom.css',
+          ],
         },
         sitemap: {
           changefreq: 'weekly',
@@ -110,10 +118,12 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'smart-me Support',
+      // Die Wortmarke traegt bereits den Namen – daneben steht nur noch der
+      // Zusatz, zusammen ergibt das "smart-me Support".
+      title: 'Support',
       logo: {
         alt: 'smart-me',
-        src: 'img/logo.svg',
+        src: 'img/smartme-logo.png',
       },
       items: [
         {

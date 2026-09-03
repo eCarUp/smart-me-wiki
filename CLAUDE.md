@@ -64,6 +64,18 @@ Begriffe, die nie übersetzt werden (Produktnamen, Protokolle), Abschnitt 2 die
 festen Fachbegriffs-Übersetzungen (ZEV → RCP und so weiter). Ändert sich das
 Glossar, müssen die betroffenen Seiten mit `--all` neu übersetzt werden.
 
+## Design
+
+Die Gestaltung folgt den smart-me Design Guidelines: Primärfarbe ist
+smart-me Blau `#28599A` (nicht Grün – Grün ist die unterstützende Farbe),
+Schrift ist Noto Sans, Überschriften stehen in Blau, Links im Fliesstext sind
+unterstrichen.
+
+`src/css/tokens.css` ist eine **unveränderte Kopie** aus den Guidelines. Farben
+dort nicht anpassen – wird ein Wert gebraucht, der fehlt, gehört er zuerst in
+die Guidelines. Die Abbildung auf die Docusaurus-Variablen steht in
+`src/css/custom.css`.
+
 ## Schreibweise
 
 Schweizer Rechtschreibung: **ss statt ß**. Das gilt für Inhalte, Kommentare und
@@ -78,6 +90,8 @@ Commit-Nachrichten.
 | `static/img/<seiten-slug>/` | Bilder, nach Seite gruppiert |
 | `static/img/_en/` | Bilder aus dem alten englischen Wiki |
 | `src/components/Video/` | Video-Einbettung, global in MDX verfügbar |
+| `src/css/tokens.css` | Design Tokens, unveränderte Kopie aus den Guidelines |
+| `src/css/custom.css` | Zuordnung der Tokens auf Docusaurus |
 | `sidebars.ts` | Navigationsstruktur (generiert, siehe unten) |
 | `redirects.ts` | Weiterleitungen von den alten Google-Sites-URLs |
 | `scripts/translate.ts` | Übersetzungs-Pipeline |

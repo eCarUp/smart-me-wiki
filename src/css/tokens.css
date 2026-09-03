@@ -1,0 +1,102 @@
+/* ============================================================
+   smart-me Design Tokens
+   ============================================================
+   Unveraendert uebernommen aus den smart-me Design Guidelines
+   (C:/git/design-guidelines/smart-me/tokens.css), Quelle ist das
+   interne smart-me Design Wiki (Product Design).
+
+   Diese Datei nicht anpassen. Die Zuordnung der Tokens auf die
+   Docusaurus-Variablen steht in custom.css.
+
+   Design-Kontakt: design@smart-me.com
+   ============================================================ */
+
+:root {
+  /* ---------- Brand / Primary ---------- */
+  --sm-blue:        #28599A;  /* primary brand color  rgb(40,89,154)   */
+  --sm-blue-dark:   #003061;  /* rgb(0,48,97)    */
+  --sm-blue-50pct:  #93ACCC;  /* blue 50%  rgb(147,172,204) */
+  --sm-blue-25pct:  #C9D5E6;  /* blue 25%  rgb(201,213,230) */
+  --sm-blue-10pct:  #E9EEF5;  /* blue 10%  rgb(233,238,245) */
+  --sm-blue-5pct:   #F4F6FA;  /* blue 5% – primary light background  rgb(244,246,250) */
+
+  /* ---------- Secondary (green) ---------- */
+  --sm-green:        #52AE32;  /* rgb(82,174,50)  */
+  --sm-green-dark:   #21570F;  /* rgb(33,87,15)   */
+  --sm-green-light:  #A8D698;  /* rgb(168,214,152)*/
+  --sm-green-hover:  #EEF7EB;  /* rgb(238,247,235)*/
+
+  /* ---------- Neutral grey ---------- */
+  --sm-ci-grey:     #F0F0F0;  /* corporate identity grey */
+  --sm-grey-200:    #FFFFFF;
+  --sm-grey-400:    #F2F2F2;
+  --sm-grey-500:    #DDDDDD;
+  --sm-grey-600:    #CCCCCC;
+  --sm-grey-800:    #666666;
+  --sm-grey-900:    #434343;
+  --sm-grey-1000:   #272727;  /* near-black text */
+
+  /* ---------- Semantic ---------- */
+  --sm-success:        #52AE32;  --sm-success-dark: #3E722B;  --sm-success-light: #EEF7EB;  --sm-success-hover: #D3EACB;
+  --sm-warning:        #FF9800;  --sm-warning-dark: #D68100;  --sm-warning-light: #FFCB7F;  --sm-warning-hover: #FFF0D9;
+  --sm-error:          #D12604;  --sm-error-dark:   #AA1F04;  --sm-error-light:   #E79281;  --sm-error-hover:   #F8DFDA;
+  --sm-info:           #2196F3;  --sm-info-dark:    #0E6CB9;  --sm-info-light:    #F2F9FF;  --sm-info-hover:    #DEEFFD;
+
+  /* ---------- Multi-energy (energy-type accent colors) ----------
+     Each has: base / dark / light / hover                          */
+  --sm-energy-yellow:        #F2CB47;  --sm-energy-yellow-dark:  #DDAE13;  --sm-energy-yellow-light:  #F9E5A3;  --sm-energy-yellow-hover:  #FDF7E4;
+  --sm-energy-lime:          #B4D23B;  --sm-energy-lime-dark:    #7DA638;  --sm-energy-lime-light:    #D9E89C;  --sm-energy-lime-hover:    #F4F8E2;
+  --sm-energy-celeste:       #7DCDEB;  --sm-energy-celeste-dark: #41A7CD;  --sm-energy-celeste-light: #BDE5F4;  --sm-energy-celeste-hover: #ECF8FC;
+  --sm-energy-orange:        #F29844;  --sm-energy-orange-dark:  #C9720E;  --sm-energy-orange-light:  #F8CBA1;  --sm-energy-orange-hover:  #FDF0E3;
+  --sm-energy-red:           #D55700;  --sm-energy-red-dark:     #AD4C00;  --sm-energy-red-light:     #E9AE7F;  --sm-energy-red-hover:     #F9E7D9;
+  --sm-energy-mint:          #00C28D;  --sm-energy-mint-dark:    #037354;  --sm-energy-mint-light:    #7FE0C5;  --sm-energy-mint-hover:    #D9F6EE;
+  --sm-energy-purple:        #8574F2;  --sm-energy-purple-dark:  #3A2BA1;  --sm-energy-purple-light:  #C1B9F8;  --sm-energy-purple-hover:  #EDEAFD;
+
+  /* ---------- Illustration blue ramp (for illustrations/diagrams) ---------- */
+  --sm-illu-blue-900: #112541;
+  --sm-illu-blue-800: #163155;
+  --sm-illu-blue-700: #1C3F6D;
+  --sm-illu-blue-600: #24518C;
+  --sm-illu-blue-500: #28599A;
+  --sm-illu-blue-400: #537AAE;
+  --sm-illu-blue-300: #6F90BB;
+  --sm-illu-blue-200: #9CB3D1;
+  --sm-illu-blue-100: #BCCCE0;
+  --sm-illu-blue-50:  #EAEEF5;
+
+  /* ---------- Semantic aliases (adjust to taste) ---------- */
+  --sm-bg:            var(--sm-grey-200);   /* white primary background        */
+  --sm-bg-tint:       var(--sm-blue-5pct);  /* light-blue background for space  */
+  --sm-text:          var(--sm-grey-1000);  /* body text (near-black)           */
+  --sm-text-muted:    var(--sm-grey-800);
+  --sm-primary:       var(--sm-blue);
+  --sm-primary-hover: var(--sm-blue-dark);
+  --sm-link:          var(--sm-blue);
+  --sm-border:        var(--sm-grey-500);
+
+  /* ---------- Typography ---------- */
+  --sm-font: 'Noto Sans', 'Segoe UI', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  --sm-fw-regular: 400;  /* body text, input fields, labels            */
+  --sm-fw-medium:  500;  /* emphasis, buttons, form labels             */
+  --sm-fw-bold:    700;  /* headings, key figures, highlights          */
+  /* Rule: max 2–3 weights per view.                                   */
+  /* TODO confirm in Figma: full size/line-height scale (the wiki      */
+  /* "Text sizes" table was incomplete/placeholder at extraction).     */
+
+  /* ---------- Icons ---------- */
+  --sm-icon-size: 24px;   /* default 24×24 for UI elements */
+
+  /* ---------- Corner radius (icons/UI use a rounded style; exact tokens TODO) ---------- */
+  --sm-radius-sm: 4px;
+  --sm-radius-md: 8px;
+  --sm-radius-pill: 9999px;
+}
+
+/* ---- Suggested base type rules (confirm sizes in Figma) ---- */
+/*
+body         { font-family: var(--sm-font); font-weight: var(--sm-fw-regular); color: var(--sm-text); background: var(--sm-bg); }
+h1,h2,h3,h4  { font-family: var(--sm-font); font-weight: var(--sm-fw-bold); color: var(--sm-blue); }
+a            { color: var(--sm-link); text-decoration: underline; }   // links in body text are always underlined
+strong       { font-weight: var(--sm-fw-bold); color: var(--sm-blue); }
+button       { font-family: var(--sm-font); font-weight: var(--sm-fw-medium); }
+*/

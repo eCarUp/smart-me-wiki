@@ -1,41 +1,211 @@
 /**
- * smart-me Branding.
- * Primärfarbe: smart-me Grün (#8CC63F). Alle Abstufungen sind hier zentral
- * definiert und können bei einem Rebranding an einer Stelle angepasst werden.
+ * smart-me Branding für Docusaurus.
+ *
+ * Die Farb- und Schriftwerte selbst stehen in tokens.css und stammen
+ * unverändert aus den smart-me Design Guidelines. Diese Datei bildet sie nur
+ * auf die Variablen von Infima (dem Design-System von Docusaurus) ab.
+ *
+ * Umgesetzte Vorgaben aus den Guidelines:
+ * - Primärfarbe ist smart-me Blau (#28599A), Grün ist unterstützende Farbe.
+ * - Weiss als Grundfläche, Blau 5% (#F4F6FA) für ruhige Flächen.
+ * - Schrift Noto Sans, Gewichte 400/500/700, höchstens drei pro Ansicht.
+ * - Überschriften in smart-me Blau, Fliesstext #272727, linksbündig.
+ * - Links im Fliesstext immer unterstrichen.
+ * - Semantische Farbquartette für Hinweise und Warnungen.
+ *
+ * Der Dark Mode ist in den Guidelines nicht beschrieben. Er übernimmt hier die
+ * Markenfarben, hellt Blau aber so weit auf, dass der Kontrast auf dunklem
+ * Grund ausreicht – siehe Abschnitt "Dark Mode".
  */
 
+/* ==========================================================================
+   Light Mode
+   ========================================================================== */
+
 :root {
-  --ifm-color-primary: #6f9f2f;
-  --ifm-color-primary-dark: #648f2a;
-  --ifm-color-primary-darker: #5f8728;
-  --ifm-color-primary-darkest: #4e6f21;
-  --ifm-color-primary-light: #7aaf34;
-  --ifm-color-primary-lighter: #80b736;
-  --ifm-color-primary-lightest: #91c94c;
+  /* ---------- Primärfarbe: smart-me Blau ---------- */
+  --ifm-color-primary: var(--sm-blue);
+  --ifm-color-primary-dark: #24508b;
+  --ifm-color-primary-darker: #224c83;
+  --ifm-color-primary-darkest: #1c3e6c;
+  --ifm-color-primary-light: #2c62a9;
+  --ifm-color-primary-lighter: #2e66b1;
+  --ifm-color-primary-lightest: #3576c8;
 
-  --smart-me-green: #8cc63f;
+  /* ---------- Semantische Farben ---------- */
+  --ifm-color-success: var(--sm-success);
+  --ifm-color-success-dark: var(--sm-success-dark);
+  --ifm-color-success-contrast-background: var(--sm-success-light);
+  --ifm-color-warning: var(--sm-warning);
+  --ifm-color-warning-dark: var(--sm-warning-dark);
+  --ifm-color-warning-contrast-background: var(--sm-warning-hover);
+  --ifm-color-danger: var(--sm-error);
+  --ifm-color-danger-dark: var(--sm-error-dark);
+  --ifm-color-danger-contrast-background: var(--sm-error-hover);
+  --ifm-color-info: var(--sm-info);
+  --ifm-color-info-dark: var(--sm-info-dark);
+  --ifm-color-info-contrast-background: var(--sm-info-hover);
 
-  --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  /* ---------- Flächen ---------- */
+  --ifm-background-color: var(--sm-bg);
+  --ifm-background-surface-color: var(--sm-bg);
+  --ifm-color-emphasis-100: var(--sm-blue-5pct);
+  --ifm-color-emphasis-200: var(--sm-grey-400);
+  --ifm-color-emphasis-300: var(--sm-grey-500);
+  --ifm-toc-border-color: var(--sm-grey-500);
+  --ifm-hr-border-color: var(--sm-grey-500);
+
+  /* ---------- Schrift ---------- */
+  --ifm-font-family-base: var(--sm-font);
+  --ifm-heading-font-family: var(--sm-font);
+  --ifm-font-color-base: var(--sm-text);
+  --ifm-font-weight-semibold: var(--sm-fw-medium);
+  --ifm-font-weight-bold: var(--sm-fw-bold);
+  --ifm-heading-font-weight: var(--sm-fw-bold);
+  --ifm-heading-color: var(--sm-blue);
+
+  /* ---------- Links: im Fliesstext immer unterstrichen ---------- */
+  --ifm-link-color: var(--sm-link);
+  --ifm-link-hover-color: var(--sm-blue-dark);
+  --ifm-link-decoration: none;
+
+  /* ---------- Kanten ---------- */
+  --ifm-global-radius: var(--sm-radius-md);
+  --ifm-button-border-radius: var(--sm-radius-sm);
+
+  /* ---------- Navigation ---------- */
+  --ifm-navbar-background-color: var(--sm-bg);
+  --ifm-navbar-link-color: var(--sm-text);
+  --ifm-navbar-link-hover-color: var(--sm-blue);
+  --ifm-navbar-shadow: 0 1px 0 var(--sm-grey-500);
+  --ifm-menu-color: var(--sm-grey-900);
+  --ifm-menu-color-active: var(--sm-blue);
+  --ifm-menu-color-background-active: var(--sm-blue-10pct);
+  --ifm-menu-color-background-hover: var(--sm-blue-5pct);
+  --ifm-breadcrumb-color-active: var(--sm-blue);
+  --ifm-breadcrumb-item-background-active: var(--sm-blue-10pct);
+
+  /* ---------- Code ---------- */
+  --ifm-code-font-size: 92%;
+  --ifm-code-background: var(--sm-blue-5pct);
+  --ifm-pre-background: var(--sm-blue-5pct);
+  --docusaurus-highlighted-code-line-bg: var(--sm-blue-10pct);
 }
 
-/* Im Dark Mode braucht das Grün mehr Leuchtkraft für ausreichenden Kontrast. */
-[data-theme='dark'] {
-  --ifm-color-primary: #8cc63f;
-  --ifm-color-primary-dark: #7eb432;
-  --ifm-color-primary-darker: #77aa2f;
-  --ifm-color-primary-darkest: #628c27;
-  --ifm-color-primary-light: #99cd57;
-  --ifm-color-primary-lighter: #a0d063;
-  --ifm-color-primary-lightest: #b5da85;
+/* ==========================================================================
+   Dark Mode
 
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+   Nicht Teil der Guidelines. smart-me Blau (#28599A) hat auf dunklem Grund zu
+   wenig Kontrast, deshalb übernehmen hier die helleren Stufen derselben
+   Blau-Rampe die Rolle der Primärfarbe. Grün und die semantischen Farben
+   bleiben unverändert – sie tragen auf dunklem Grund.
+   ========================================================================== */
+
+[data-theme='dark'] {
+  --ifm-color-primary: var(--sm-illu-blue-200);
+  --ifm-color-primary-dark: var(--sm-illu-blue-300);
+  --ifm-color-primary-darker: var(--sm-illu-blue-400);
+  --ifm-color-primary-darkest: var(--sm-illu-blue-500);
+  --ifm-color-primary-light: var(--sm-blue-25pct);
+  --ifm-color-primary-lighter: #d6dfec;
+  --ifm-color-primary-lightest: var(--sm-illu-blue-50);
+
+  --ifm-background-color: #16202e;
+  --ifm-background-surface-color: #1b2939;
+  --ifm-font-color-base: #e6ebf2;
+  --ifm-heading-color: var(--sm-blue-25pct);
+
+  --ifm-navbar-background-color: #1b2939;
+  --ifm-navbar-link-color: #e6ebf2;
+  --ifm-navbar-shadow: 0 1px 0 #2b3d52;
+  --ifm-menu-color: #c3cddb;
+  --ifm-menu-color-background-active: #22344a;
+  --ifm-menu-color-background-hover: #1f2f43;
+  --ifm-breadcrumb-item-background-active: #22344a;
+  --ifm-toc-border-color: #2b3d52;
+  --ifm-hr-border-color: #2b3d52;
+
+  --ifm-link-color: var(--sm-illu-blue-100);
+  --ifm-link-hover-color: var(--sm-blue-25pct);
+
+  --ifm-footer-background-color: #101924;
+
+  --ifm-code-background: #22344a;
+  --ifm-pre-background: #101924;
+  --docusaurus-highlighted-code-line-bg: #22344a;
+}
+
+/* ==========================================================================
+   Feinheiten aus den Guidelines
+   ========================================================================== */
+
+/* Die Fusszeile in smart-me Blau dunkel. Infima setzt seine eigenen Werte auf
+   .footer--dark selbst, ein :root-Wert würde deshalb nicht greifen. */
+.footer--dark {
+  --ifm-footer-background-color: var(--sm-blue-dark);
+  --ifm-footer-color: var(--sm-grey-200);
+  --ifm-footer-link-color: var(--sm-blue-25pct);
+  --ifm-footer-link-hover-color: var(--sm-grey-200);
+  --ifm-footer-title-color: var(--sm-grey-200);
+}
+
+[data-theme='dark'] .footer--dark {
+  --ifm-footer-background-color: #101924;
+}
+
+/* Links im Fliesstext sind immer unterstrichen. Navigation, Sidebar und
+   Kacheln bleiben ausgenommen – dort ist die Position bereits eindeutig. */
+.markdown a:not(.card):not(.button) {
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
+/* Fliesstext linksbündig mit Flattersatz, nie Blocksatz. */
+.markdown p,
+.markdown li {
+  text-align: left;
+}
+
+/* Hervorhebungen im Fliesstext in smart-me Blau. */
+.markdown strong {
+  color: var(--sm-blue);
+}
+
+[data-theme='dark'] .markdown strong {
+  color: var(--sm-blue-25pct);
+}
+
+/* Das Logo ist eine Wortmarke und darf nicht verändert werden. Auf dunklem
+   Grund reicht der Kontrast des Blauanteils nicht, deshalb steht es dort auf
+   einer hellen Fläche – die von den Guidelines vorgesehene Ausnahme. */
+.navbar__logo {
+  height: 1.6rem;
+  display: flex;
+  align-items: center;
+}
+
+.navbar__logo img {
+  height: 100%;
+  width: auto;
+}
+
+[data-theme='dark'] .navbar__logo {
+  background: var(--sm-grey-200);
+  border-radius: var(--sm-radius-sm);
+  padding: 0.2rem 0.4rem;
+}
+
+/* Der Seitentitel steht direkt neben der Wortmarke und ergänzt sie zu
+   "smart-me Support" – deshalb nur "Support". */
+.navbar__title {
+  font-weight: var(--sm-fw-medium);
 }
 
 /* Aus dem Wiki migrierte Screenshots sollen nie über den Inhalt hinauslaufen. */
 .markdown img {
   max-width: 100%;
   height: auto;
+  border-radius: var(--sm-radius-sm);
 }
 
 /* Migrierte Tabellen sind teilweise breit – horizontal scrollbar statt gequetscht. */
@@ -43,4 +213,13 @@
   display: block;
   overflow-x: auto;
   max-width: 100%;
+}
+
+/* Ruhige Fläche für die Suchergebnisse und die Sidebar-Kopfzeile. */
+.theme-doc-sidebar-container {
+  background: var(--sm-blue-5pct);
+}
+
+[data-theme='dark'] .theme-doc-sidebar-container {
+  background: #101924;
 }

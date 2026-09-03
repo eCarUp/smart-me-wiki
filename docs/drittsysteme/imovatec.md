@@ -35,10 +35,10 @@ Rothusstrasse 23
 
 info@imovatec.ch
 
-<Video src="" title="Video" />
+<Embed src="https://player.vimeo.com/video/688333625" aspect="1.474" title="IMOVATEC" />
 
 ## Was benötigst du für eine Zusammenarbeit mit IMOVATEC
 
-<Video src="" title="Video" />
+<Embed src="https://drive.google.com/file/d/13AMtUN1izNeD-wy2U51vCFgojXhCdzN7/preview" aspect="1.350" title="Drive, Checkliste_IMOVATEC_IMOVAcharge_ Installateur.pdf" />
 
 Checkliste\_IMOVATEC\_IMOVAcharge\_ Installateur.pdf

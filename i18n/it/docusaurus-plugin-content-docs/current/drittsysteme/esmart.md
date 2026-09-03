@@ -4,13 +4,9 @@ slug: '/drittsysteme/esmart'
 description: 'eSMART può recuperare i dati dei nostri contatori dal cloud ed elaborarli ulteriormente.'
 sidebar_label: 'eSMART'
 ---
-eSMART può recuperare i dati dei nostri contatori dal cloud ed elaborarli ulteriormente. eSMART sviluppa sistemi di controllo intelligenti per la tua casa o il tuo posto di lavoro. Questi permettono di monitorare sul posto o da remoto dove e in che modo viene consumata quanta energia. Inoltre eSMART mette a disposizione strumenti per ridurre il consumo. I dati energetici di smart-me vengono integrati direttamente tramite API.
+eSMART può recuperare i dati dei nostri contatori dal cloud ed elaborarli ulteriormente. eSMART sviluppa sistemi di controllo intelligenti per la tua casa o il tuo posto di lavoro. Questi permettono di monitorare, sul posto o da remoto, dove e in che modo viene consumata quanta energia. Inoltre eSMART mette a disposizione strumenti per ridurre i consumi. I dati energetici di smart-me vengono integrati direttamente tramite API.
 
-[
-
-![eSMART – Figura 1](/img/drittsysteme-esmart/01.jpg)
-
-](https://vimeo.com/776506780)
+[![eSMART – Figura 1](/img/drittsysteme-esmart/01.jpg)](https://vimeo.com/776506780)
 
 eSMART Technologies AG
 

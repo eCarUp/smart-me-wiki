@@ -16,7 +16,7 @@ import GithubSlugger from 'github-slugger';
 import TurndownService from 'turndown';
 // @ts-expect-error – das GFM-Plugin bringt keine Typen mit.
 import {gfm} from 'turndown-plugin-gfm';
-import {cachePath, loadManifest, type Manifest} from './crawl';
+import {cachePath, imageDirSlug, loadManifest, type Manifest} from './crawl';
 import {contentSections, stripChrome, unwrapGoogleRedirect} from './googleSites';
 import {buildPathMapping, crossSiteMap, DE_HOSTS} from './mapping';
 
@@ -25,7 +25,8 @@ const ORIGIN = `https://${HOST}`;
 const DOCS_ROOT = 'docs';
 
 /** Platzhalter, die erst nach dem MDX-Escaping durch echtes JSX ersetzt werden. */
-const VIDEO_TOKEN = (id: string, title: string) => `@@VIDEO|${id}|${title}@@`;
+const EMBED_TOKEN = (kind: string, value: string, aspect: string, title: string) =>
+  `@@EMBED|${kind}|${value}|${aspect}|${title}@@`;
 
 export type PageInfo = {
   /** Alter Pfad, z.B. /konfiguration/billing/vewa-abrechnung */
@@ -117,7 +118,7 @@ export function deriveDescription(markdown: string): string | null {
       .replace(/&#125;/g, '}')
       .replace(/\s+/g, ' ')
       .trim();
-    if (line.length < 25 || /^(@@VIDEO|<Video)/.test(line)) continue;
+    if (line.length < 25 || /^(@@EMBED|<Video|<Embed)/.test(line)) continue;
     // Absätze, die im Original nur aus einem Link bestehen, beschreiben nichts.
     if (/^\[[^\]]*\]\([^)]*\)$/.test(raw.trim())) continue;
     const sentence = line.match(/^.{25,180}?[.!?](?:\s|$)/);
@@ -166,6 +167,8 @@ export type ConvertedPage = {
   languageLinks: Record<string, string>;
   /** Anzahl Bilder, die statt eines echten Alt-Textes einen Platzhalter tragen. */
   altPlaceholders: number;
+  /** Frei eingefügtes HTML, das als eigene Datei ausgeliefert werden muss. */
+  embedFiles: EmbedFile[];
   warnings: string[];
 };
 
@@ -181,15 +184,17 @@ function buildTurndown(): TurndownService {
   });
   td.use(gfm);
 
-  // Google Sites bettet Videos als iframe ein.
+  // Einbettungen wurden vorher von resolveEmbeds() normalisiert.
   td.addRule('iframe', {
     filter: 'iframe',
     replacement: (_content, node) => {
       const el = node as unknown as {getAttribute(name: string): string | null};
-      const src = el.getAttribute('src') ?? '';
-      const title = (el.getAttribute('title') ?? 'Video').replace(/\|/g, '-');
-      const id = youtubeId(src);
-      return `\n\n${VIDEO_TOKEN(id ?? src, title)}\n\n`;
+      const kind = el.getAttribute('data-embed-kind') ?? 'url';
+      const value = el.getAttribute('data-embed-value') ?? '';
+      const aspect = el.getAttribute('data-embed-aspect') ?? '';
+      const title = (el.getAttribute('title') ?? 'Einbettung').replace(/\|/g, '-');
+      if (!value) return '';
+      return `\n\n${EMBED_TOKEN(kind, value, aspect, title)}\n\n`;
     },
   });
 
@@ -203,6 +208,116 @@ function buildTurndown(): TurndownService {
   });
 
   return td;
+}
+
+/** Eine Einbettung, die als eigene Datei unter static/embeds/ landen muss. */
+export type EmbedFile = {file: string; code: string};
+
+/**
+ * Rahmen, die Google Sites um eine Einbettung legt. Sie enthalten nicht den
+ * Inhalt, sondern laden ihn nach – ohne Google Sites sind sie wertlos. Das
+ * eigentliche Ziel steht daneben in `data-url` oder `data-code`.
+ */
+function isGoogleWrapperFrame(url: string): boolean {
+  return /gstatic\.com\/atari\/embeds\//.test(url) || /atari-embeds\.googleusercontent\.com/.test(url);
+}
+
+/**
+ * Seitenverhältnis einer Einbettung, so wie Google Sites es festhält: als
+ * `padding-top` in Prozent auf einem Element in der Nähe des iframes.
+ * 58.6 % entspricht z.B. dem Verhältnis 1.71.
+ */
+export function aspectRatioNear($: CheerioAPI, el: Element): string | undefined {
+  let node: Element | null = el;
+  for (let level = 0; level < 6 && node; level += 1) {
+    const candidates = [$(node), $(node).prev(), $(node).children().first()];
+    for (const $candidate of candidates) {
+      const match = ($candidate.attr('style') ?? '').match(/padding-top:\s*([\d.]+)%/);
+      if (match) {
+        const percent = Number(match[1]);
+        if (percent > 5 && percent < 400) return (100 / percent).toFixed(3);
+      }
+    }
+    node = node.parent as Element | null;
+  }
+  return undefined;
+}
+
+/**
+ * Normalisiert die Einbettungen einer Seite.
+ *
+ * Google Sites liefert nur einen Teil der Einbettungen als `iframe` mit `src`
+ * aus. Bei allen übrigen steht im HTML ein leerer Platzhalter, und die
+ * eigentliche Quelle hängt als Datenattribut daran oder am umgebenden `div`:
+ *
+ * - `data-src` am iframe – Vorschauen von Google-Drive-Dateien
+ * - `data-url` am Wrapper – eingebettete URLs (Vimeo, eigene Anwendungen)
+ * - `data-code` am Wrapper – frei eingefügtes HTML, etwa die Rechner
+ *
+ * Ohne diesen Schritt gingen 34 der 64 Einbettungen verloren.
+ *
+ * Das gefundene Ziel wird als `data-embed-kind`/`data-embed-value` an den
+ * iframe geschrieben; die Turndown-Regel macht daraus den Platzhalter. Frei
+ * eingefügtes HTML wird als eigene Datei zurückgegeben, damit die Einbettung
+ * ohne Google Sites weiterlebt.
+ */
+export function resolveEmbeds(
+  $: CheerioAPI,
+  $sections: Cheerio<Element>,
+  pageSlug: string,
+  pageTitle: string,
+): EmbedFile[] {
+  const files: EmbedFile[] = [];
+
+  $sections.find('iframe').each((index, el) => {
+    const $frame = $(el);
+    const directRaw = $frame.attr('src') ?? $frame.attr('data-src');
+    const direct = directRaw && !isGoogleWrapperFrame(directRaw) ? directRaw : undefined;
+    const wrapperRaw = $frame.closest('[data-url]').attr('data-url');
+    const wrapperUrl = wrapperRaw && !isGoogleWrapperFrame(wrapperRaw) ? wrapperRaw : undefined;
+    const code = $frame.closest('[data-code]').attr('data-code')?.trim();
+
+    // Enthält das eingefügte HTML nur einen iframe, ist dessen Ziel gemeint –
+    // eine Datei drumherum wäre nur ein zusätzlicher Rahmen.
+    const codeFrameSrc =
+      code && !/<script/i.test(code) ? cheerio.load(code)('iframe[src]').first().attr('src') : undefined;
+
+    // data-url zeigt bei eingefügtem HTML nur auf Googles Render-Frame
+    // (…-atari-embeds.googleusercontent.com). Der lebt ohne Google Sites nicht
+    // weiter, deshalb hat das eingefügte HTML selbst Vorrang.
+    const url =
+      direct ??
+      codeFrameSrc ??
+      (code ? undefined : wrapperUrl ? unwrapGoogleRedirect(wrapperUrl) : undefined);
+
+    // Google Sites hält das Seitenverhältnis als padding-top in Prozent fest.
+    const aspect = aspectRatioNear($, el);
+    if (aspect) $frame.attr('data-embed-aspect', aspect);
+
+    if (url) {
+      const id = youtubeId(url);
+      $frame.attr('data-embed-kind', id ? 'youtube' : 'url');
+      $frame.attr('data-embed-value', id ?? url);
+    } else if (code) {
+      const file = `static/embeds/${pageSlug}-${String(index + 1).padStart(2, '0')}.html`;
+      files.push({file, code});
+      $frame.attr('data-embed-kind', 'file');
+      $frame.attr('data-embed-value', file.replace(/^static/, ''));
+    } else {
+      // Ohne auffindbare Quelle bleibt nichts zu übernehmen; die Turndown-Regel
+      // lässt den leeren iframe dann weg.
+      $frame.attr('data-embed-value', '');
+    }
+
+    // Der Titel "Custom embed" stammt von Google Sites und sagt nichts.
+    const title = ($frame.attr('title') ?? '').trim();
+    if (!title || title.toLowerCase() === 'custom embed') {
+      const label = ($frame.attr('aria-label') ?? '').trim();
+      $frame.attr('title', label && label.toLowerCase() !== 'custom embed' ? label : pageTitle);
+    }
+  });
+
+  return files;
 }
 
 /** Schriftarten, mit denen Google Sites Code auszeichnet – ein <pre> gibt es dort nicht. */
@@ -321,6 +436,8 @@ export function convertPage(
   const {languageLinks} = stripChrome($, $sections);
   const warnings: string[] = [];
 
+  const embedFiles = resolveEmbeds($, $sections, imageDirSlug(ctx.path), ctx.fallbackTitle);
+
   groupCodeBlocks($, $sections);
 
   // Google Sites packt den Überschriftentext in ein Wrapper-<div> (mitsamt der
@@ -398,6 +515,14 @@ export function convertPage(
       return;
     }
 
+    // Einzelne Seiten verlinken noch auf die Bearbeitungsadresse von Google
+    // Sites (sites.google.com/smart-me.com/wiki/<pfad>). Dahinter steckt
+    // dieselbe Seite, nur mit einem Präfix davor.
+    href = href.replace(
+      /^https?:\/\/sites\.google\.com\/(?:u\/\d+\/)?smart-me\.com\/wiki/,
+      ORIGIN,
+    );
+
     // Absolute Links auf die eigene Site relativ machen – die alten Sites sind
     // teils über mehrere Domains erreichbar (z.B. dok. und wiki.smart-me.com).
     // Verweise auf die andere Sprachfassung werden auf dieselbe Seite in dieser
@@ -438,6 +563,21 @@ export function convertPage(
     $a.attr('href', href);
   });
 
+  // --- Verlinkte Bilder ---------------------------------------------------
+  // Google Sites verschachtelt ein verlinktes Bild in mehrere <div>. Turndown
+  // sieht darin Blockelemente und bricht den Link um – heraus käme
+  // "[\n\n![alt](bild)\n\n](/ziel)", was Markdown nicht mehr als Link liest
+  // und stattdessen die Klammern als Text anzeigt. Deshalb bekommt so ein
+  // Link nur noch das Bild als Inhalt.
+  $sections.find('a').each((_, el) => {
+    const $a = $(el);
+    const $images = $a.find('img');
+    if ($images.length !== 1) return;
+    if ($a.text().replace(/\s+/g, '').length > 0) return;
+    const $img = $images.first().clone();
+    $a.empty().append($img);
+  });
+
   // --- Google-Sites-Schaltflächen ----------------------------------------
   // "Zurück zu ..."-Knöpfe sind reine Navigation – Docusaurus bietet dafür
   // Sidebar und Breadcrumbs. Alle übrigen Knöpfe werden zu normalen Links.
@@ -470,11 +610,16 @@ export function convertPage(
   );
 
 
-  // Videos einsetzen.
-  markdown = markdown.replace(/@@VIDEO\|([^|]*)\|([^@]*)@@/g, (_m, id: string, videoTitle: string) => {
-    const safeTitle = videoTitle.replace(/"/g, '&quot;').trim() || 'Video';
-    return `<Video src="${id}" title="${safeTitle}" />`;
-  });
+  // Einbettungen einsetzen: YouTube als <Video>, alles andere als <Embed>.
+  markdown = markdown.replace(
+    /@@EMBED\|([^|]*)\|([^|]*)\|([^|]*)\|([^@]*)@@/g,
+    (_m, kind: string, value: string, aspect: string, embedTitle: string) => {
+      const safeTitle = embedTitle.replace(/"/g, '&quot;').trim() || 'Einbettung';
+      if (kind === 'youtube') return `<Video src="${value}" title="${safeTitle}" />`;
+      const ratio = aspect ? ` aspect="${aspect}"` : '';
+      return `<Embed src="${value}"${ratio} title="${safeTitle}" />`;
+    },
+  );
 
   markdown = markdown
     // Turndown rückt Listen mit drei Leerzeichen ein – auf die übliche Form bringen.
@@ -486,7 +631,7 @@ export function convertPage(
   const description = deriveDescription(markdown);
   if (!description) warnings.push('Keine Beschreibung ableitbar – Frontmatter ohne description.');
 
-  return {title, markdown, description, languageLinks, altPlaceholders, warnings};
+  return {title, markdown, description, languageLinks, altPlaceholders, embedFiles, warnings};
 }
 
 // ---------------------------------------------------------------------------
@@ -683,6 +828,7 @@ export async function run(): Promise<MigrationResult> {
   let videoCount = 0;
   let missingImages = 0;
   let altPlaceholders = 0;
+  const embedFiles: EmbedFile[] = [];
 
   for (const page of pages) {
     const html = htmlByPath.get(page.path)!;
@@ -713,6 +859,7 @@ export async function run(): Promise<MigrationResult> {
     videoCount += (result.markdown.match(/<Video /g) ?? []).length;
     missingImages += manifest.pages[page.path].images.filter((i) => !i.file).length;
     altPlaceholders += result.altPlaceholders;
+    embedFiles.push(...result.embedFiles);
 
     const slug = page.path === '/home' ? '/' : page.path;
     const frontmatter = [
@@ -727,6 +874,14 @@ export async function run(): Promise<MigrationResult> {
 
     await mkdir(dirname(page.file), {recursive: true});
     await writeFile(page.file, `${frontmatter}${result.markdown}\n`, 'utf8');
+  }
+
+  // --- Eingebettetes HTML als eigene Dateien ------------------------------
+  // Damit die Einbettungen ohne Google Sites weiterleben.
+  await rm('static/embeds', {recursive: true, force: true});
+  for (const embed of embedFiles) {
+    await mkdir(dirname(embed.file), {recursive: true});
+    await writeFile(embed.file, embed.code, 'utf8');
   }
 
   // --- sidebars.ts --------------------------------------------------------

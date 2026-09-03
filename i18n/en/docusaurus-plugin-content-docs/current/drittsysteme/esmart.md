@@ -4,13 +4,9 @@ slug: '/drittsysteme/esmart'
 description: 'eSMART can retrieve our meter data from the cloud and process it further.'
 sidebar_label: 'eSMART'
 ---
-eSMART can retrieve our meter data from the cloud and process it further. eSMART develops intelligent control systems for your home or workplace. These make it possible to monitor, on site or while on the move, where and in what way how much energy is consumed. In addition, eSMART provides tools for reducing consumption. The smart-me energy data is integrated directly via API.
+eSMART can retrieve our meter data from the cloud and process it further. eSMART develops intelligent control systems for your home or workplace. These make it possible to monitor, on site or on the move, where and in what way how much energy is consumed. In addition, eSMART provides tools for reducing consumption. The smart-me energy data is integrated directly via API.
 
-[
-
-![eSMART – Figure 1](/img/drittsysteme-esmart/01.jpg)
-
-](https://vimeo.com/776506780)
+[![eSMART – Figure 1](/img/drittsysteme-esmart/01.jpg)](https://vimeo.com/776506780)
 
 eSMART Technologies AG
 

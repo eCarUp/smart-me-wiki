@@ -1,688 +1,312 @@
 ---
 title: 'Technical data & manuals'
 slug: '/'
-description: 'Access a comprehensive collection of technical data, operating instructions, and installation instructions for smart-me products and software settings.'
-sidebar_label: 'Technical data & manuals'
+description: 'Access a comprehensive collection of technical data, operating instructions and installation notes for smart-me products as well as the software settings.'
+sidebar_label: 'Home'
 ---
-Access a comprehensive collection of technical data, operating instructions, and installation instructions for smart-me products and software settings.
+Access a comprehensive collection of technical data, operating instructions and installation notes for smart-me products as well as the software settings.
 
 ## News
 
-## NEW: Invoice Preview V1
+## NEW: Invoice preview V1
 
-Generate a new invoice preview before creating final invoices.
+Generate an invoice preview before you create live invoices.
 
-- Quickly and easily check your settings.
+- Check your configurations quickly and easily.
 
-- Validate your invoices more easily
+- Validate your billing more easily
 
-- Stop generating incorrect invoices without prior validation.
+- Never generate faulty invoices again without prior validation.
 
 
 Where?
 
-Billing --> Invoices
+Billing (Rechnungsstellung) --> Invoices (Rechnungen)
 
-![Technical data & manuals – figure 1](/img/_en/home/01.png)
+![Technical data & manuals – Figure 1](/img/home/01.png)
 
-![Technical data & manuals – figure 2](/img/_en/home/02.png)
+![Technical data & manuals – Figure 2](/img/home/02.png)
 
-## Update to our Terms & Conditions and Privacy Policy
+## Update to our GTC & privacy policy
 
-We have updated our Terms and Conditions (T&C) and privacy policies. To ensure the best legal framework for data processing within our corporate group, the documents have been supplemented with a so-called "Joint Controller Agreement" (JCA). The updated versions are now available online for your review.
+We have revised our General Terms and Conditions (GTC) and privacy statements. To provide the best possible legal framework for data processing within our group of companies, the documents have been supplemented with a so-called "Joint Controller Agreement" (JCA). The updated versions are available online for review with immediate effect.
 
-[→ To the Terms & Conditions & Privacy Policy](https://web.smart-me.com/en/general-terms-and-conditions-of-smart-me-ag/)
+[→ To the GTC & privacy policy](https://web.smart-me.com/agb-smart-me-ag/)
 
-## Update: Electricity and Solar Rate Calculator
+## Important: Our new online shop from 1 July 2026
 
-- Advanced Input Options
+Prepare for the smooth switch to our new, modern platform. Get a quick overview of:  
 
-- Customizable Components
+- Order deadline in the old shop: Complete urgent orders by 26\. June 2026 at 11:00. The old system will be shut down after that. 
 
-- Specific Specification of Entries in smart-me Billing
+- Bridging by email & telephone: During the transition phase (29 June – 1 July), simply order directly from us. 
+
+- Activation for existing accounts: Use the activation link that you will receive by email on 30\. June from our new service provider Odoo.  
+
+- Familiar discounts & prices: Continue to benefit from your individual terms, which are already stored in the new system. 
+
+- Launch of the new platform: From 1\. July 2026, shop quickly and easily in the new shop.  
 
 
-[→ To the tariff caluclator](https://doc.smart-me.com/configuration/billing/define-electrical-tariffs/smart-me-tariff-calculator)
+## Update: Online electricity and solar tariff calculator
 
-![Technical data & manuals – figure 3](/img/_en/home/03.png)
+- Extended input
 
-## New: Billing for Dynamic Grid Rates
+- Customizable components
 
-You can now also bill your tenants for dynamic grid rates. 
+- Dedicated indication of the entries in smart-me Billing
 
-We import the dynamic rate from your provider and apply it every 15 minutes to each consumer’s actual grid consumption.
 
-[→ More Information about tariffs](/konfiguration/billing/stromtarife-definieren)
+[→ To the tariff calculator for electricity and solar](/konfiguration/billing/stromtarife-definieren/stromtarif-rechner)
 
-![Technical data & manuals – figure 4](/img/_en/home/04.png)
+![Technical data & manuals – Figure 3](/img/home/03.png)
 
-![Technical data & manuals – figure 5](/img/_en/home/05.png)
+## New: Billing dynamic grid tariffs
+
+You can now also bill dynamic grid tariffs to your tenants. 
+
+We import the dynamic tariff from your provider and apply it every 15 minutes to the actual grid consumption of the respective consumer.
+
+[→ More information on the tariffs](/konfiguration/billing/stromtarife-definieren)
+
+![Technical data & manuals – Figure 4](/img/home/04.png)
+
+![Technical data & manuals – Figure 5](/img/home/05.png)
 
 ## New: My Dashboards
 
-Allows you to create personalized dashboards, such as energy flow charts and overviews of your building.
+Lets you create personalized dashboards such as energy flows and overview displays of your building.
 
 
 
-![Technical data & manuals – figure 6](/img/_en/home/06.png)
+![Technical data & manuals – Figure 6](/img/home/06.png)
 
-[→ More information](/konfiguration/my-dashboards)
+[→ Learn more](/konfiguration/my-dashboards)
 
-- My Energy Card
+- Energy map
 
-- My Energy Flow
-
-
-![Technical data & manuals – figure 7](/img/_en/home/07.png)
-
-## New: Technical Tools
-
-In the new "Technical Tools" section, you'll find resources for installing and maintaining the installation.
+- Energy flows
 
 
+![Technical data & manuals – Figure 7](/img/home/07.png)
 
-![Technical data & manuals – figure 8](/img/_en/home/08.png)
+## New: Technical tools
 
-[→ More information](https://doc.smart-me.com/configuration/technical-tools)
+In the new Technical tools (Technische Tools) section you will find aids for installation and maintenance of the installation.
+
+
+
+![Technical data & manuals – Figure 8](/img/home/08.png)
+
+[→ Learn more](/konfiguration/technische-tools)
 
 - Installation check
 
 
-![Technical data & manuals – figure 9](/img/_en/home/09.png)
+![Technical data & manuals – Figure 9](/img/home/09.png)
 
 ## New: AppLAB
 
-The new AppLAB department is a testing environment that provides various features to test their effectiveness.
+The new AppLAB section is an experimental area and provides various features to test their effectiveness.
+
+![Technical data & manuals – Figure 10](/img/home/10.png)
+
+[→ Learn more](/konfiguration/applab)
+
+- Peak load explorer
+
+- Reactive power report
+
+- Battery emulator
+
+- ESG report
+
+- Autobill setup assistant
 
 
+## New: UI overhaul
 
-![Technical data & manuals – figure 10](/img/_en/home/10.png)
+The complete smart-me UI has received a design refresh.
 
-[→ More information](/konfiguration/applab)
-
-- Peakload\-Explorer
-
-- Reactive Energy Report
-
-- Battery\-Emulator
-
-- ESG-Report
-
-- Autobill Setup WIzard
+- Nothing has changed in terms of use.
 
 
-## New: Complete overhaul of the UI
+![Technical data & manuals – Figure 11](/img/home/11.png)
 
-The entire smart-me UI has been given a design refresh.
+## New: ZEV performance overview
 
-- Nothing has changed in terms of how it is used.
+Check the production and yields of your ZEV (association for own consumption) in the new "ZEV Performance" visualization. Get a quick overview of:
 
-
-![Technical data & manuals – figure 11](/img/_en/home/11.png)
-
-## New: ZEV Performance Overview
-
-Check your ZEV’s production and output in the new “ZEV Performance” visualization. Get a quick overview of:
 
 - Energy flows with the new energy flow visualization
 
-- Energy production and output
+- Energy production and yield
 
-- Peaks in consumption and feed-in from and to the grid
+- Peaks in consumption from and feed-in to the grid
 
 - Identify high-production days with the heat map visualization
 
-- Analyze your battery’s efficiency in the ZEV
+- Analyze the efficiency of your battery in the ZEV
 
 
-[→ More information about the new visuals](https://doc.smart-me.com/configuration/visualisations)
 
-![Technical data & manuals – figure 12](/img/_en/home/12.png)
 
-## Visuals Update
+[→ More information on the new visualizations](/konfiguration/visualisierung)
 
-Existing visuals:
+![Technical data & manuals – Figure 12](/img/home/12.png)
 
-Existing visualisations are being given a new look. These do update automatically without additional configuration.
+## Visualization update
 
-New Pico visual:
+Existing visualizations:
 
-Check the new Pico visualisation, which shows all Pico charging points and their charging groups at a glance with current draw, occupation, max power reception and more.
+Existing visualizations are getting a new design. These are updated automatically without additional configuration.
 
+New Pico visualization:
 
+Take a look at the new Pico visualization, which shows all Pico charge points and their charging groups at a glance – with current draw, occupancy, maximum power consumption and much more.
 
-[→ More information about the new visuals](https://doc.smart-me.com/configuration/visualisations)
 
-![Technical data & manuals – figure 13](/img/_en/home/13.png)
 
-![Technical data & manuals – figure 14](/img/_en/home/14.png)
+[→ More information on the new visualizations](/konfiguration/visualisierung)
 
-## The new Sirius M-Bus gateway is here!
+![Technical data & manuals – Figure 13](/img/home/13.png)
 
-Our product range continues to grow: with the Sirius, we are launching our most powerful gateway to date for large building infrastructures.
+![Technical data & manuals – Figure 14](/img/home/14.png)
 
-- Massive capacity – Up to 250 M-Bus standard lodas in a single device.
+## The new M-Bus Gateway Sirius is here!
 
-- Multi-energy – Centralised control of water, heating, cooling and gas.
+Our product family keeps growing: With the Sirius we are launching our most powerful gateway to date for large building infrastructures.
 
-- Maximum security – Huge data storage capacity in the event of connection failures.
+- Massive capacity – Up to 250 M-Bus standard loads in a single device. 
 
+- Multi-energy – Water, heat, cooling and gas centrally under control. 
 
-[→ More information about Sirius](/produkte/m-bus-gateway#m-bus-gateway-sirius-250-standard-lodas)
+- Maximum security – Huge data storage in the event of connection failures.
 
-![Technical data & manuals – figure 15](/img/_en/home/15.jpg)
 
-## NEW: VAT - correctly applied
+[→ More information on the Sirius](/produkte/m-bus-gateway#m-bus-gateway-sirius-250-standard-loads)
 
-Applying VAT is an important part of accounting. To avoid making mistakes, here are instructions on how to correctly report VAT for your specific case.
+![Technical data & manuals – Figure 15](/img/home/15.jpg)
 
-The VAT law on ZEV is changing as rapidly as technology itself.
+## NEW: VAT - Billing correctly
 
-[→ Details](https://doc.smart-me.com/configuration/billing/vat-zev-heat-charge-settlement)
+Applying VAT is an important point in billing. To avoid making mistakes there, you will find here a guide to correctly showing VAT for your case.
 
-![Technical data & manuals – figure 16](/img/_en/home/16.png)
+The VAT law regarding ZEV is changing almost as quickly as the technology.
 
-## NEW: The smart-me system is a certified Minergie monitoring provider
+[→ More information for our partners](/konfiguration/billing/mwst-zev-nebenkosten)
 
-The smart-me system, with its hardware and cloud solution, has been a certified Minergie monitoring system since September 10, 2025, and also supports Minergie Monitoring+.
+![Technical data & manuals – Figure 16](/img/home/16.png)
 
-The certification can also be used for systems that have already been installed and can be selected directly in the Minergie label platform for subsequent Minergie Monitoring+.
-
-Become a smart-me Minergie specialist partner today and implement the upcoming Minergie buildings with our system.
-
-[More information for our partners](/planung/minergie) 
-
-![Technical data & manuals – figure 17](/img/_en/home/17.jpg)
-
-## NEW: smart-me Projekt Configurator
-
-Let our new project configurator help you plan your project:
-
-- Creates parts lists based on your individual site or building
-
-- Creates a visual diagram for filing and checking
-
-- Alerts you to planning deficiencies
-
-- Helps you procure additional materials
-
-- Reminds you of components that need to be procured externally.
-
-
-[Project Configurator](https://doc.smart-me.com/planning/project-configurator)
-
-![Technical data & manuals – figure 18](/img/_en/home/18.png)
-
-## NEW: Online electricity and solar tariff calculator
-
-Calculating grid tariffs and solar tariffs can sometimes be complicated and confusing.
-
-To simplify this, we offer our online electricity and solar tariff calculator.
-
-By entering the individual parameters from your tariff sheets or bills, it will find the correct individual tariffs and solar tariffs for you based on your preferred calculation method.
-
-
-
-[smart-me tariff caluclator](https://doc.smart-me.com/configuration/billing/define-electrical-tariffs/smart-me-tariff-calculator)
-
-![Technical data & manuals – figure 19](/img/_en/home/19.png)
-
-## Enhanced billing report (Summary CSV)
-
-Verify your bills with the new extended bill summary.
-
-- Quick overview of energy tariffs and billed costs
-
-- Detailed breakdown per energy tariff
-
-- Broken down per bill recipient and billing unit
-
-- Totals of total consumption and costs per tariff
-
-
-Can be used for bookings in real estate systems or for general verification of total billed costs.
-
-![Technical data & manuals – figure 20](/img/_en/home/20.png)
-
-![Technical data & manuals – figure 21](/img/_en/home/21.png)
-
-## New pricing for ZEV & vZEV – simpler, faster, cheaper
-
-With the new solar tariff (including vZEV), you can easily price both vZEV and normal ZEV systems using only the net meter and the solar and/or battery meters – saving you time, hassle, and money.
-
-Requirements:
-
-- No price difference between solar and battery tariffs
-
-- The balance meter is physically measured
-
-
-Your advantages:
-
-- No license for virtual total consumption required
-
-- Less configuration effort – faster, more stable, and less prone to errors
-
-- Ideal for installations that grow over a longer period of time
-
-
-For better orientation, the tariff names in smart-me Billing have also been renamed.
-
-Note: In developments with multiple solar systems, the regulation for the virtual total production license remains in place for the time being – for certain visualizations.
-
-[→ Define electricity tariffs](/konfiguration/billing/stromtarife-definieren)
-
-## Instructions: Configuring peak power (e.g., CKW)
-
-<Video src="mK1HYLRtBUI" title="Video" />
-
-Video content:
-
-- Configuring high and low tariffs to a flat rate
-
-- Price adjustment of virtual tariffs
-
-- Peak power
-
-- Meter rental
-
-
-
-
-
-<Video src="ju7m6Bs8U_M" title="Video" />
-
-Video content:
-
-- Example of price calculation in a ZEV
-
-
-[→ Define electricity tariffs](/konfiguration/billing/stromtarife-definieren)
-
-[→ Example: Set prices in ZEV.xlsx](https://drive.google.com/uc?export=download&id=1cGOAL1UIo4ZmvW55drHcfdPw0v4vnJ9Z)
-
-Note: The video was recorded using an older version of Excel. There was an error in the formulas in the file, which has since been corrected.
-
-
-
-## Enhanced support for Bexio and DTA-VHKA-Interface
-
-### New Supported:
-
-- Peak tariff exports in Bexio
-
-- Peak tariff exports via DTA-VHKA interface
-
-- Combine peak tariffs with consumption tariffs in
-    DTA-VHKA
-
-
-The extension enables simplified use of the transfer to external systems and a standardized query independent of the individual tariff systems of the properties.
-
-17.04.2025
-
-[→ Find out more](/schnittstellen/dta-vhka-files#define-tariffs-and-external-keys)
-
-![Technical data & manuals – figure 22](/img/_en/home/22.png)
-
-## New function: vZEV tariffs
-
-Now create a virtual ZEV in smart-me and bill the following vZEV variants in full:
-
-- Single building as vZEV with DSO meters
-
-- Extended VZEVs with several buildings from DSO meters
-
-- Extended vZEVs combined with DSO meters and smart-me ZEVs
-
-
-20.01.2025
-
-[→ Read more](/planung/virtuelle-zev-vzev)
-
-![Technical data & manuals – figure 23](/img/_en/home/23.png)
-
-## Peak load tariffs
-
-New function: Peak load tariffs
-
-This function is available to our customers and partners to enable full billing of peak load tariff models.
-
-Industrial customers as well as the new CKW models can thus be fully realized.
-
-[→  Find out more](/konfiguration/billing/stromtarife-definieren)
-
-![Technical data & manuals – figure 24](/img/_en/home/24.png)
-
-## smart-me Cloud: System Health
-
-New function: System health
-
-With this new overview, you can now see at a glance:
-
-- All devices that are offline
-
-- The connection type (Wifi or 4G)
-
-- SSID of the connected WLAN
-
-- The API device ID
-
-
-21.10.2024
-
-![Technical data & manuals – figure 25](/img/_en/home/25.png)
-
-![Technical data & manuals – figure 26](/img/_en/home/26.png)
-
-## Pico: Internal RCD reaches conformity according IEC 60947-2 RCD
-
-All Pico charging stations from year of manufacture 2024 and serial number 7002702 have an IEC60947-2 compliant internal RCD + the well-known IEC62955 compliant DC fault detection.
-
-All Pico charging stations from this date onwards no longer require a type A serial RCD for installation.
-
-02.10.2024
-
-[→  More details](https://doc.smart-me.com/products/pico-ev-charger/installation-planning)
-
-![Technical data & manuals – figure 27](/img/_en/home/27.png)
-
-## New Naviagtion and Login on the Web Portal
-
-The smart-me cloud receives a new look.
-
-### Whats new?
-
-- New login and register page
-
-- Email verification process
-
-- Always stay on navigation bars
-
-- Help fucntion for each page in the bottom right corner
-
-- Language selection button for German, English, French and Italian
-
-
-### Known Issues:
-
-- Infinite Loading
-
-    - Press F12
-
-    - Right click on the "Reload" button
-
-    - click on "Empty Cache and refresh completly"
-
-
-02.10.2024
-
-![Technical data & manuals – figure 28](/img/_en/home/28.png)
-
-![Technical data & manuals – figure 29](/img/_en/home/29.png)
-
-Reload page button in Chrome
-
-## VEWA webinar now available online
-
-Watch on:
-
-- [Vimeo](https://vimeo.com/1008345077)
-
-- [YouTube](https://youtu.be/nrziX2lLI0s)
-
-    - [Introduction to smart-me](https://youtu.be/nrziX2lLI0s?si=ufIjxwLFavDER5VH&t=140) from 2min 20sec
-
-    - [VEWA](https://youtu.be/nrziX2lLI0s?si=O-Q5qFbhTNm4v4s-&t=770) from 12min 50sec
-
-    - [Live](https://youtu.be/nrziX2lLI0s?si=CYljDSjMHWwKagCu&t=1498) demo from 24min 58sec
-
-    - [Questions](https://youtu.be/nrziX2lLI0s?si=sr3GAi-mrt6gyLyQ&t=2432) from 40min 32sec
-
-
-Further content in the wiki:
-
-[→ Billing basic configuration](/konfiguration/billing)
-
-[→ VEWA - Billing](/konfiguration/billing/vewa-abrechnung)
-
-<Video src="nrziX2lLI0s" title="Video" />
-
-## M-Bus Gateway: Prevent detection of new devices
-
-![Technical data & manuals – figure 30](/img/_en/home/30.png)
-
-Activate option
-
-- Select M-Bus Gateway.
-
-
-- Select the M-Bus Gateway gear wheel (top right).
-    Note: Do not select the upper gear wheel, which is used to configure the meters, but the lower one.
-
-- Edit
-
-- Check the box “Don't allow to add additional meters”.
-
-- Save
-
-
-What is the effect of this option?
-
-- Activating the “Don't allow to add additional meters” option prevents devices that are not yet available in the cloud from being saved. 
-
-
-What needs to be considered?
-
-- If new devices are added, this option must be deactivated again before the search.
-
-
-When is this option recommended?
-
-- If M-Bus devices keep popping up in the portal that do not actually exist.
-
-- For preventive reasons :-)
-
-
-In which circumstances can this occur?
-
-- In the event of errors in data transmission. This occurs more frequently if the M-Bus cable is excessively long and therefore the quality of the data transmission decreases, or if the cable is poorly shielded or exposed to external interference.
-
-
-Technical explanation
-
-- The standardized M-Bus protocol has only 1 byte for the checksum. The checksum is intended to detect certain errors in the data transmission. Unfortunately, 1 byte is not much and can always lead to a corrupted data packet being regarded as valid and correct. In some installations where M-Bus Gateways are used, this repeatedly leads to corrupt data packets being classified as valid and correct and these are then recognized and added as a new M-Bus device in our cloud. The account then drops from Professional to Basic, as the license coverage is no longer sufficient.
-
-
-## NEW: smart-me billing with VEWA
-
-You can now create VEWA bills with smart-me Billing.
-
-[→  VEWA - Billing](/konfiguration/billing/vewa-abrechnung) 
-
-[→  DTA-VHKA Files](/schnittstellen/dta-vhka-files) 
-
-![Technical data & manuals – figure 31](/img/_en/home/31.png)
-
-## NEW in Multilevel load management
-
-Load shedding can now be carried out via the digital input of the Telstar 80A or Telstar CT.
-
-You can link one or two meters to the MLM and decide for yourself how high the reduction is.
-
-[→  More details](/konfiguration/multilevel-lastmanagement)
-
-![Technical data & manuals – figure 32](/img/_en/home/32.png)
-
-## New smart-me Installer App
-
-smart-me has developed a new app. The smart-me Installer app is designed to make it easier to install devices.
-
-Open bugs:
-
-Location must be active in the settings before the app is started.
-
-download now:
-
-[Download in App Store Download in Play Store](https://play.google.com/store/apps/details?id=smartme.installer&hl=de_CH)
-
-[→ instructions](https://sites.google.com/d/1aCvQ4VBGjc0Zn6Acdv_my2AEp54cDrdX/p/1MWSyGCj7D2YNWOCPIC26B1Vt6eyiTkRQ/edit)
-
-![Technical data & manuals – figure 33](/img/_en/home/33.png)
-
-## FAQ
+## FAQs
 
 ### Where can I change my login password / email address?
 
-To change your login password, go to [smart-me.com](http://smart-me.com) and log in with your existing user account. Click on your user name (top right) and select Settings. Click on Change Password.
+To change your login password, go to [smart-me.com](https://web.smart-me.com/login/) and log in with your existing user account. Click on your user name (top right) and select Settings (Einstellungen). Click on Change password (Passwort ändern).
 
-If you can't remember your password, it can be reset using the forgotten-password-function. For this, however, a valid e-mail address must have been used when creating the account.
+If you no longer know your password, it can be reset using the forgotten-password function. However, a valid email address must have been used when the account was created.
 
-### Why does my deleted counter reappear in the Cloud?
+### How can I cancel my subscription?
 
-If a meter is deleted in the Cloud, all its data is deleted in the Cloud. If this meter sends data to the cloud again after the deletion process, the cloud recreates the meter (including a new meter ID). However, the meter's past measurement data is irretrievably deleted. If/then actions or settings in billing also do not refer to the "new" meter and would have to be reconfigured accordingly. 
+To cancel your cloud licenses subscription, go to smart-me.com and log in.
+Then click on the user name at the top right and select Settings (Einstellungen).
+Then go to Payment (Bezahlung), Cancel subscription (Abo kündigen) and confirm this with Yes (Ja).
 
-The following points can prevent the meter from sending data to the cloud again and thus being recreated: 
+### Why does my deleted meter reappear in the cloud?
 
-- Install the meter in another account where it can then send the data. 
+If a meter is deleted in the cloud, all of its data in the cloud is deleted. If this meter sends data to the cloud again after the deletion, the cloud creates the meter anew (including a new meter ID). The meter's past measurement data, however, is irretrievably deleted. If/then actions or settings in Billing also do not refer to the "new" meter and would have to be reconfigured accordingly. 
 
-- Do not supply the meter any more. As soon as the meter is powered and has an internet connection again, it will send the data to the cloud again. 
+The following points can prevent the meter from sending data to the cloud again and thus being recreated: 
 
-- Delete the WLAN from the meter.  The meter can no longer send data without the Internet. 
+- Install the meter in another account, where it can then send the data. 
+
+- Stop powering the meter. As soon as the meter is powered and has an internet connection again, however, it sends the data to the cloud again. 
+
+- Delete the WLAN from the meter (see "[Can the stored WiFi information be deleted?](/konfiguration/inbetriebnahme#can-the-mesh-network-be-deactivated)").  Without internet, the meter can no longer send data. 
 
 
-Alternatively, you can deactivate the meter in the Cloud. A deactivated meter does not need any licences and you can reactivate it at any time and access its data. 
+Alternatively, you can also deactivate the meter in the cloud. A deactivated meter does not require any licenses and you can reactivate it at any time and access its data. 
 
 ### How do I deactivate my meter?
 
-If the account is in Basic license model.
+If the account is on the Basic license model.
 
-1.  Login smart-me.com
+1.  Log in to the smart-me portal 
 
-2.  Select counter
+2.   Select the meter
 
-3.  Select the cogwheel at the top right
+3.  Select the gear icon at the top right
 
-4.  Advanced settings 
+4.  Advanced settings (Erweiterte Einstellungen) 
 
-5.  Set enable meter to No
+5.  Set Meter active (Zähler aktiv) to No (Nein)
 
 6.  Save
 
-7.  Back to main overview or Refresh browser
-
-
-If the account is in Limited or Professional license model.
-
-1.  Log in to the smart-me portal. 
-
-2.  Click on configure
-
-3.  Click on Meter/Folder Configuration
-
-4.  Select the meter you want to deactivate
-
-5.  Click on Edit Node (green button at the top)
-
-6.  Remove the tick from Meter active
-
-7.  Click on Save
-
-
-Alternatively, you can also drag the meters all into one folder (e.g. "deactivated meters") and deactivate all meters at once by right-clicking on the relevant folder, Mass Actions, Deactivate All Meters. 
-
-Note on deactivated meters: A deactivated meter no longer costs a licence, but you can also no longer access the past data of the counter as long as it is deactivated. During the time the meter is deactivated, no new measurement data of the meter will be saved on the Cloud.  
-
-### How to calculate the correction factor?
-
-If the account is on the Basic license model.
-
-1.  Log in to the smart-me portal.
-
-2.  Select the meter.
-
-3.  Select the gear icon in the top right corner.
-
-4.  Advanced settings.
-
-5.  Set meter active to No.
-
-6.  Save.
-
-7.  Return to the main overview or refresh your browser.
+7.  Return to the main overview or refresh the browser
 
 
 If the account is on the Limited or Professional license model.
 
-1.  Log in to the smart-me portal.
+1.  Log in to the smart-me portal 
 
-2.  Click on Configure.
+2.  Click on Configure (konfigurieren)
 
-3.  Click on Meter/Folder Configuration.
+3.  Click on Meter/folder configuration (Zähler/Ordner-Konfiguration)
 
-4.  Select the meter you want to deactivate.
+4.  Select the meter to be deactivated
 
-5.  Click on Edit Node (green tile at the top).
+5.  Click on Edit node (Knoten editieren) (at the top on the green tile)
 
-6.  Uncheck the box next to Meter Active.
+6.  Clear the check mark at Meter active (Zähler aktiv)
 
 7.  Press Save.
 
 
-Alternatively, you can drag the meters and all those in a folder (e.g., “deactivated meters”) and right-click on the corresponding folder, select Bulk Actions, Deactivate All Meters, and deactivate all meters at once.
+Alternatively, you can drag the meters all into one folder (e.g. "deactivated meters") and, with a right-click on the corresponding folder, Bulk actions (Massenaktionen), Deactivate all meters (Alle Zähler deaktivieren), deactivate all meters at once. 
 
-Note on deactivated counters: A deactivated counter no longer costs a license, but you will no longer be able to access the counter's past data while it is deactivated. Furthermore, no new measurement data from the counter will be stored in the cloud while the counter is deactivated.
-
-### How can I cancel my subscription?
-
-To cancel your cloud licence subscription, go to smart-me.com and log in.
-Then click on the user name in the top right-hand corner and select Settings.
-Here go to Payment, Cancel Subscription and confirm with Yes.
+Note on deactivated meters: A deactivated meter no longer costs a license, but you can also no longer access the meter's past data as long as it is deactivated. In addition, no new measurement data from the meter is stored in the cloud for the time during which the meter is deactivated.  
 
 ## Contact
 
-If you can't find the answer to your question here, our support team will be happy to assist you.
+If you do not find an answer to your question here, our support team is happy to help.
 
 ### Important to know
 
-smart-me is a hardware and technology supplier. We do not implement projects or configure systems for end customers. Our technical support is generally aimed exclusively at certified partners.
+smart-me is a hardware and technology supplier. We do not implement projects and do not configure systems for end customers. Our technical support is generally aimed exclusively at certified partners.
 
 ### For private customers
 
-As a private customer, you can find our project partners on this map:
+As a private customer, you will find our project partners here on this map:
 
 [Show project partners on the map](https://web.smart-me.com/projektpartner/)
 
-### Become a partner
+### Becoming a partner
 
 Would you like to become a partner or attend a training course?
 
-[Register for partner training](https://web.smart-me.com/partner-werden/#pll_switcher)
+[To the registration for the partner training](https://web.smart-me.com/partner-werden/)
 
 ### Contact for sales & partnerships
 
-Phone: +41 41 511 09 99 Email: [info@smart-me.com](mailto:info@smart-me.com)
+Telephone: +41 41 511 09 99 Email: [info@smart-me.com](mailto:info@smart-me.com)
 
 ### Initial contact / quotes:
 
 verkauf@smart-me.com / +41 41 511 09 99
 
-### Activate licenses:
+### Activating licenses:
 
-administration@smart-me.com / +41 41 511 09 99
+administration@smart-me.com / +41 41 511 09  99
 
 ### Technical support:
 
 support@smart-me.com / +41 41 511 09 70
 
-Teamviewer: 
+TeamViewer support:
 
-Only after an agreement by phone
+Only available by prior telephone arrangement.
 
-[
-
-![Technical data & manuals – figure 34](/img/_en/home/34.jpg)
-
-](https://get.teamviewer.com/68stbb8)
+[![Technical data & manuals – Figure 17](/img/home/17.jpg)](https://get.teamviewer.com/68stbb8)
 
 [Download Team Viewer for smart-me](https://get.teamviewer.com/68stbb8)

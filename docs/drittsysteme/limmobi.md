@@ -19,7 +19,7 @@ Die Prozessautomation, Zusatzdienstleistungen und intuitive Benutzerführung erm
 
 Das Video Tutorial zeigt, wie einfach smart-me und LIMMOBI integriert werden können. Damit können die Zählerstände aus smart-me automatisch für die Heiz- und Nebenkostenabrechnung in LIMMOBI verwendet werden. 
 
-<Video src="XIlkmWgBjn4" title="Video" />
+<Video src="XIlkmWgBjn4" title="YouTube Video, Live Demo LIMMOBI" />
 
 Kontakt:
 

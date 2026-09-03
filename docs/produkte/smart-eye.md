@@ -27,7 +27,7 @@ Das smart-me System ist mehrspartenfähig: auch die Messwerte anderer Zähler wi
 - Einfache Installation mit der kostenlosen smart-me App für Android und iOS
 
 
-<Video src="0bvtbGs8G94" title="Video" />
+<Video src="0bvtbGs8G94" title="YouTube Video, smart eye für FNN Basiszähler" />
 
 Installation und Inbetriebnahme des smart-eye Moduls
 
@@ -61,7 +61,7 @@ Montage Magnetisch
 
 [](https://drive.google.com/open?id=1WURxhIS6zPpfSeOv-tfZqnRQKIBkGNP9x4_n1r5iVds "Open Spreadsheet, Getestete Zähler in new window")
 
-<Video src="" title="Video" />
+<Embed src="https://docs.google.com/spreadsheets/d/1WURxhIS6zPpfSeOv-tfZqnRQKIBkGNP9x4_n1r5iVds/htmlembed?gid=0" title="Spreadsheet, Getestete Zähler" />
 
 Getestete Zähler
 
@@ -69,7 +69,7 @@ Getestete Zähler
 
 [](https://drive.google.com/open?id=10sNiDg0g8cwomZ-aEWn7gpCKbZLiay4X1O_fOJmM-QY "Open Spreadsheet, smart-eye LED blink codes in new window")
 
-<Video src="" title="Video" />
+<Embed src="https://docs.google.com/spreadsheets/d/10sNiDg0g8cwomZ-aEWn7gpCKbZLiay4X1O_fOJmM-QY/htmlembed" title="Spreadsheet, smart-eye LED blink codes" />
 
 smart-eye LED blink codes
 

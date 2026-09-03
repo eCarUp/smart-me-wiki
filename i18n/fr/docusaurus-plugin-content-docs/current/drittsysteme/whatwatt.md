@@ -5,13 +5,13 @@ description: 'Le module whatwatt est un petit module matériel permettant de rel
 sidebar_label: 'whatwatt'
 ---
 Le module whatwatt est un petit module matériel permettant de relever les compteurs d'énergie utilisés par le fournisseur d'électricité.
-Les relevés du compteur, les profils de charge et les valeurs de puissance en direct pertinents sont transmis.
+Les relevés du compteur pertinents, les profils de charge et les valeurs en direct de la puissance sont transmis.
 
 Le module transmet ses données directement à notre cloud via une interface API.
 
 
 
-Conditions requises :
+Conditions préalables :
 
 - Module matériel
 
@@ -28,7 +28,7 @@ Applications :
 
 - Capteur de mesure pour la commande de produits de tiers via Modbus TCP, MQTT ou API
 
-- Compatible avec smart-me Nimbus 100A pour le relevé local via Modbus TCP
+- Compatible avec le smart-me Nimbus 100A pour la lecture locale via Modbus TCP
 
 
 ![whatwatt – Illustration 1](/img/drittsysteme-whatwatt/01.png)
@@ -56,7 +56,7 @@ L'heure transmise doit être réglée sur l'heure NTP pour chaque module.
 
 Guide d'intégration :
 
-<Video src="" title="Video" />
+<Embed src="https://drive.google.com/file/d/1J5iwfbUOJA5ZBVfDcz7xM2ouiSC38hOw/preview" aspect="0.721" title="Drive, whatwatt_Go_smart-me_Integration_v1.0.pdf" />
 
 whatwatt\_Go\_smart-me\_Integration\_v1.0.pdf
 

@@ -26,7 +26,7 @@ Lösung zusammen mit dem Support
 3.  Installiere die Picos mit der RFID-Karte, indem du die RFID-Karte an die Pico haltest. Achte darauf, die mit der Pico mitgelieferte Karte zu verwenden und halte sie so lange hin, bis der grüne Haken erscheint.
 
 
-<Video src="" title="Video" />
+<Embed src="https://drive.google.com/file/d/1OgRKSQ0eyxUsqPxcM7ngkiJCvakHourV/preview" aspect="0.445" title="Drive, Pico IBN RFID Karte.mp4" />
 
 Pico IBN RFID Karte.mp4
 

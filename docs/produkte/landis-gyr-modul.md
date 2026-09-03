@@ -36,7 +36,7 @@ Mit einem Professional Abo können die Zählerwerte auch über die Modbus TCP Sc
 Hinweis:
 Die Batterie kann nach der Inbetriebnahme wieder entfernt werden, da das Modul vom Zähler gespeist wird.
 
-<Video src="35_hjsvRtwM" title="Video" />
+<Video src="35_hjsvRtwM" title="YouTube Video, smart-me for Landis+Gyr" />
 
 ## Technische Daten
 

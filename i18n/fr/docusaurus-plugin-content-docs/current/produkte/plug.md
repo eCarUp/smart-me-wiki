@@ -8,7 +8,7 @@ Le smart-me Plug est à la fois appareil de mesure du courant, thermostat et min
 
 Vente arrêtée le 30.03.2021
 Support technique arrêté le 30.03.2025
-Matériel et fonctions cloud : exploitation toujours assurée
+Matériel et fonctions cloud : exploitation toujours garantie
 
 ![Plug – Illustration 1](/img/produkte-plug/01.jpg)
 
@@ -25,13 +25,13 @@ Disponible dans les versions Europe, Suisse et Grande-Bretagne.
 
 ## Fonctions
 
-- Appareil de mesure d'énergie : outre la puissance actuelle, le smart-me Plug mesure l'énergie, le courant, la tension et le facteur de puissance. smart-me garantit une précision de 99% (max. 1% d'erreur).
+- Appareil de mesure d'énergie : outre la puissance actuelle, le smart-me Plug mesure l'énergie, le courant, la tension et le facteur de puissance. smart-me garantit une précision de 99% (erreur max. 1%).
 
 - Appareil de mesure de température : surveillez la température en direct et analysez les données historiques.
 
 - Interrupteur à distance : activez ou désactivez le courant via l'application ou le portail web.
 
-- Minuterie : réglez l'heure à laquelle le Plug doit commuter.
+- Minuterie : définissez l'heure à laquelle le Plug doit commuter.
 
 - Connexion directe et chiffrée au cloud smart-me (WiFi)
 
@@ -45,7 +45,7 @@ Disponible dans les versions Europe, Suisse et Grande-Bretagne.
     - Installation simple avec l'application smart-me gratuite pour Android et iOS
 
 
-<Video src="r1NFkuI7CUM" title="Video" />
+<Video src="r1NFkuI7CUM" title="Vidéo YouTube, installation du Plug" />
 
 Vidéo d'installation
 
@@ -67,7 +67,7 @@ Consommation propre 0.1W
 
 Dimensions 95 x 54 x 29 mm (3.7 x 2.1 x 1.1 in)
 
-## Le relevé du compteur peut-il être remis à zéro.
+## Le relevé du compteur peut-il être réinitialisé.
 
 Non.
 

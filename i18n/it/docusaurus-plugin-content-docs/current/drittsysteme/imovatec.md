@@ -8,18 +8,18 @@ Un fornitore di servizi per l'intera prestazione e il conteggio relativi a RCP e
 
 ## IMOVATEC per il RCP
 
-Ottieni rapidamente e facilmente una panoramica di ciò che IMOVATEC può offrirti nel webinar qui accanto.
+Nel webinar qui accanto ottieni rapidamente e facilmente una panoramica di ciò che IMOVATEC può offrirti.
 
 - Conteggio e incasso RCP
 
-- Prestazione di servizi e supporto
+- Servizio e supporto
 
-- Conteggio delle stazioni di ricarica elettrica
-
-
+- Conteggio delle stazioni di ricarica
 
 
-Interesse come cliente finale, amministrazione immobiliare o come partner e fornitore della soluzione completa?
+
+
+Interessato come cliente finale, amministrazione immobiliare o come partner e fornitore della soluzione completa?
 
 Contatta direttamente IMOVATEC per un colloquio.
 
@@ -35,10 +35,10 @@ Rothusstrasse 23
 
 info@imovatec.ch
 
-<Video src="" title="Video" />
+<Embed src="https://player.vimeo.com/video/688333625" aspect="1.474" title="IMOVATEC" />
 
-## Cosa ti serve per una collaborazione con IMOVATEC
+## Di cosa hai bisogno per una collaborazione con IMOVATEC
 
-<Video src="" title="Video" />
+<Embed src="https://drive.google.com/file/d/13AMtUN1izNeD-wy2U51vCFgojXhCdzN7/preview" aspect="1.350" title="Drive, Checkliste_IMOVATEC_IMOVAcharge_ Installateur.pdf" />
 
 Checkliste\_IMOVATEC\_IMOVAcharge\_ Installateur.pdf

@@ -1,22 +1,22 @@
 ---
 title: 'Dati tecnici e manuali'
 slug: '/'
-description: 'Accedi a una raccolta completa di dati tecnici, istruzioni per l''uso e indicazioni di installazione per i prodotti smart-me, nonché alle impostazioni del software.'
+description: 'Accedi a una raccolta completa di dati tecnici, istruzioni per l''uso e indicazioni di installazione sui prodotti smart-me e sulle impostazioni del software.'
 sidebar_label: 'Home'
 ---
-Accedi a una raccolta completa di dati tecnici, istruzioni per l'uso e indicazioni di installazione per i prodotti smart-me, nonché alle impostazioni del software.
+Accedi a una raccolta completa di dati tecnici, istruzioni per l'uso e indicazioni di installazione sui prodotti smart-me e sulle impostazioni del software.
 
 ## Novità
 
-## NUOVO: Anteprima fattura V1
+## NUOVO: Anteprima della fattura V1
 
 Genera ora un'anteprima della fattura prima di creare le fatture definitive.
 
-- Verifica in modo rapido e semplice le tue configurazioni.
+- Verifica le tue configurazioni in modo rapido e semplice.
 
-- Convalida più facilmente i tuoi conteggi
+- Convalida i tuoi conteggi più facilmente
 
-- Non generare più fatture errate senza una convalida preventiva.
+- Non generare più fatture errate senza una convalida preliminare.
 
 
 Dove?
@@ -29,7 +29,7 @@ Fatturazione (Rechnungsstellung) --> Fatture (Rechnungen)
 
 ## Aggiornamento delle nostre CG e informative sulla protezione dei dati
 
-Abbiamo adeguato le nostre Condizioni generali (CG) e le informative sulla protezione dei dati. Per disciplinare in modo giuridicamente ottimale il trattamento dei dati all'interno del nostro gruppo aziendale, i documenti sono stati integrati con un cosiddetto «Joint Controller Agreement» (JCA). Le versioni aggiornate sono consultabili online già da ora.
+Abbiamo adeguato le nostre Condizioni generali (CG) e le informative sulla protezione dei dati. Per disciplinare in modo giuridicamente ottimale il trattamento dei dati all'interno del nostro gruppo aziendale, i documenti sono stati integrati con un cosiddetto «Joint Controller Agreement» (JCA). Le versioni aggiornate sono da subito disponibili online per la consultazione.
 
 [→ Alle CG e alle disposizioni sulla protezione dei dati](https://web.smart-me.com/agb-smart-me-ag/)
 
@@ -39,25 +39,25 @@ Preparati al passaggio senza intoppi alla nostra nuova e moderna piattaforma. Ot
 
 - Termine per gli ordini nel vecchio shop: effettua gli ordini urgenti entro il 26\. giugno 2026 alle ore 11:00. Successivamente il vecchio sistema verrà disattivato. 
 
-- Soluzione ponte via e-mail e telefono: durante la fase di transizione (29 giugno – 1° luglio) ordina in tutta semplicità direttamente da noi. 
+- Soluzione ponte via e-mail e telefono: durante la fase di transizione (29 giugno – 1 luglio) ordina in modo semplice direttamente da noi. 
 
 - Attivazione per i conti esistenti: utilizza il link di attivazione che riceverai il 30\. giugno via e-mail dal nostro nuovo fornitore di servizi Odoo.  
 
-- Sconti e prezzi abituali: continua a beneficiare delle tue condizioni individuali, già registrate nel nuovo sistema. 
+- Sconti e prezzi consueti: continua a beneficiare delle tue condizioni individuali, già registrate nel nuovo sistema. 
 
 - Avvio della nuova piattaforma: dal 1\. luglio 2026 acquista in modo semplice e veloce nel nuovo shop.  
 
 
 ## Update: calcolatore online per tariffe elettriche e solari
 
-- Inserimento ampliato
+- Immissione ampliata
 
 - Componenti personalizzabili
 
-- Indicazione dedicata delle registrazioni nello smart-me Billing
+- Indicazione dedicata delle voci nel smart-me Billing
 
 
-[→ Al calcolatore tariffario per elettricità e solare](/konfiguration/billing/stromtarife-definieren/stromtarif-rechner)
+[→ Al calcolatore di tariffe per elettricità e solare](/konfiguration/billing/stromtarife-definieren/stromtarif-rechner)
 
 ![Dati tecnici e manuali – Figura 3](/img/home/03.png)
 
@@ -75,7 +75,7 @@ Importiamo dal tuo provider la tariffa dinamica e la applichiamo ogni 15 minuti 
 
 ## Novità: My Dashboards
 
-Ti permette di creare dashboard personalizzati come flussi di energia e rappresentazioni panoramiche del tuo edificio.
+Ti consente di creare dashboard personalizzate, come flussi energetici e rappresentazioni panoramiche del tuo edificio.
 
 
 
@@ -83,9 +83,9 @@ Ti permette di creare dashboard personalizzati come flussi di energia e rapprese
 
 [→ Scopri di più](/konfiguration/my-dashboards)
 
-- Mappa dell'energia
+- Mappa energetica
 
-- Flussi di energia
+- Flussi energetici
 
 
 ![Dati tecnici e manuali – Figura 7](/img/home/07.png)
@@ -124,9 +124,9 @@ La nuova sezione AppLAB è un'area sperimentale e mette a disposizione diverse f
 - Assistente di configurazione Autobill
 
 
-## Novità: revisione generale della UI
+## Novità: revisione generale dell'interfaccia utente
 
-L'intera UI di smart-me ha ricevuto un rinnovamento del design.
+L'intera interfaccia utente di smart-me ha ricevuto un rinnovamento del design.
 
 - Nell'utilizzo non è cambiato nulla.
 
@@ -138,13 +138,13 @@ L'intera UI di smart-me ha ricevuto un rinnovamento del design.
 Verifica la produzione e i ricavi del tuo RCP (raggruppamento ai fini del consumo proprio) nella nuova visualizzazione "ZEV Performance". Ottieni una rapida panoramica su:
 
 
-- Flussi di energia con la nuova visualizzazione dei flussi di energia
+- Flussi energetici con la nuova visualizzazione dei flussi energetici
 
-- Produzione di energia e ricavi
+- Produzione e ricavo di energia
 
 - Picchi di prelievo e immissione dalla e nella rete
 
-- Identifica le giornate a elevata produzione con la visualizzazione Heat-Map
+- Identifica i giorni con produzione elevata grazie alla visualizzazione Heat-Map
 
 - Analizza l'efficienza della tua batteria nel RCP
 
@@ -155,7 +155,7 @@ Verifica la produzione e i ricavi del tuo RCP (raggruppamento ai fini del consum
 
 ![Dati tecnici e manuali – Figura 12](/img/home/12.png)
 
-## Update della visualizzazione
+## Update delle visualizzazioni
 
 Visualizzazioni esistenti:
 
@@ -163,7 +163,7 @@ Le visualizzazioni esistenti ricevono un nuovo design. Vengono aggiornate automa
 
 Nuova visualizzazione Pico:
 
-Dai un'occhiata alla nuova visualizzazione Pico, che mostra a colpo d'occhio tutti i punti di ricarica Pico e i relativi gruppi di ricarica – con assorbimento di corrente, occupazione, potenza massima assorbita e molto altro.
+Guarda la nuova visualizzazione Pico, che mostra a colpo d'occhio tutti i punti di ricarica Pico e i loro gruppi di ricarica – con assorbimento di corrente, occupazione, potenza massima assorbita e molto altro.
 
 
 
@@ -175,11 +175,11 @@ Dai un'occhiata alla nuova visualizzazione Pico, che mostra a colpo d'occhio tut
 
 ## Il nuovo M-Bus Gateway Sirius è arrivato!
 
-La nostra famiglia di prodotti continua a crescere: con il Sirius presentiamo il nostro gateway finora più performante per grandi infrastrutture di edifici.
+La nostra famiglia di prodotti continua a crescere: con il Sirius lanciamo il nostro gateway finora più potente per grandi infrastrutture di edifici.
 
-- Capacità massiccia – Fino a 250 carichi standard M-Bus in un unico dispositivo. 
+- Capacità enorme – Fino a 250 carichi standard M-Bus in un unico apparecchio. 
 
-- Multi-energia – Acqua, calore, freddo e gas gestiti centralmente. 
+- Multi-energia – Acqua, calore, freddo e gas sotto controllo in modo centralizzato. 
 
 - Massima sicurezza – Enorme memoria dati in caso di interruzioni della connessione.
 
@@ -188,11 +188,11 @@ La nostra famiglia di prodotti continua a crescere: con il Sirius presentiamo il
 
 ![Dati tecnici e manuali – Figura 15](/img/home/15.jpg)
 
-## NUOVO: IVA – conteggiare correttamente
+## NUOVO: IVA - conteggiare correttamente
 
-Applicare l'IVA è un punto importante nel conteggio. Per non commettere errori, qui trovate una guida alla corretta esposizione dell'IVA per il vostro caso.
+Applicare l'IVA è un punto importante nel conteggio. Per non commettere errori, qui trovate una guida alla corretta indicazione dell'IVA per il vostro caso.
 
-La legge sull'IVA riferita al RCP cambia quasi con la stessa rapidità della tecnica.
+La legge sull'IVA relativa al RCP cambia quasi con la stessa rapidità della tecnica.
 
 [→ Maggiori informazioni per i nostri partner](/konfiguration/billing/mwst-zev-nebenkosten)
 
@@ -202,53 +202,53 @@ La legge sull'IVA riferita al RCP cambia quasi con la stessa rapidità della tec
 
 ### Dove posso modificare la password di login / l'indirizzo e-mail?
 
-Per modificare la password di login, vai su [smart-me.com](https://web.smart-me.com/login/) ed esegui il login con il tuo account utente esistente. Clicca sul tuo nome utente (in alto a destra) e seleziona Impostazioni (Einstellungen). Clicca su Cambia password (Passwort ändern).
+Per modificare la password di login, vai su [smart-me.com](https://web.smart-me.com/login/) e accedi con il tuo account utente esistente. Clicca sul tuo nome utente (in alto a destra) e seleziona Impostazioni (Einstellungen). Clicca su Cambia password (Passwort ändern).
 
-Se non ricordi più la password, questa può essere reimpostata tramite la funzione password dimenticata. Per farlo, però, al momento della creazione dell'account deve essere stato utilizzato un indirizzo e-mail valido.
+Se non ricordi più la password, puoi reimpostarla tramite la funzione password dimenticata. A tal fine, però, al momento della creazione dell'account deve essere stato utilizzato un indirizzo e-mail valido.
 
 ### Come posso disdire il mio abbonamento?
 
-Per disdire il tuo abbonamento alle licenze cloud, vai su smart-me.com ed esegui il login.
+Per disdire il tuo abbonamento alle licenze cloud, vai su smart-me.com e accedi.
 Clicca poi in alto a destra sul nome utente e seleziona Impostazioni (Einstellungen).
 Vai quindi su Pagamento (Bezahlung), Disdire abbonamento (Abo kündigen) e conferma con Sì (Ja).
 
-### Perché il mio contatore eliminato ricompare nel cloud?
+### Perché il mio contatore cancellato ricompare nel cloud?
 
-Se un contatore viene eliminato nel cloud, tutti i suoi dati nel cloud vengono cancellati. Se dopo l'eliminazione questo contatore invia nuovamente dati al cloud, quest'ultimo lo ricrea (inclusa una nuova ID contatore). I dati di misura passati del contatore sono però cancellati in modo irrecuperabile. Anche le azioni se/allora o le impostazioni nel Billing non si riferiscono al "nuovo" contatore e dovrebbero pertanto essere riconfigurate. 
+Se un contatore viene cancellato nel cloud, tutti i suoi dati nel cloud vengono eliminati. Se dopo la cancellazione questo contatore invia nuovamente dati al cloud, quest'ultimo ricrea il contatore (compreso un nuovo ID contatore). I dati di misura passati del contatore sono però cancellati in modo irrecuperabile. Anche le azioni se/allora o le impostazioni nel Billing non si riferiscono al "nuovo" contatore e dovrebbero pertanto essere configurate nuovamente. 
 
 Con i seguenti punti si può impedire che il contatore invii nuovamente dati al cloud e venga quindi ricreato: 
 
-- Installare il contatore in un altro account, dove potrà inviare i dati. 
+- Installare il contatore in un altro account, dove potrà poi inviare i dati. 
 
-- Non alimentare più il contatore. Non appena il contatore viene però alimentato e dispone di nuovo di una connessione a Internet, invia nuovamente i dati al cloud. 
+- Non alimentare più il contatore. Non appena il contatore viene però alimentato e dispone nuovamente di una connessione a Internet, invia di nuovo i dati al cloud. 
 
-- Eliminare la WLAN dal contatore (vedi "[Le informazioni WiFi memorizzate possono essere eliminate?](/konfiguration/inbetriebnahme#le-informazioni-wifi-memorizzate-possono-essere-eliminate)").  Senza Internet il contatore non può più inviare dati. 
+- Cancellare il WLAN dal contatore (vedi "[Le informazioni WiFi memorizzate possono essere cancellate?](/konfiguration/inbetriebnahme#le-informazioni-wifi-memorizzate-possono-essere-eliminate)").  Senza Internet il contatore non può più inviare dati. 
 
 
-In alternativa puoi anche disattivare il contatore nel cloud. Un contatore disattivato non richiede licenze e puoi riattivarlo in qualsiasi momento e accedere ai suoi dati. 
+In alternativa puoi anche disattivare il contatore nel cloud. Un contatore disattivato non necessita di licenze e puoi riattivarlo in qualsiasi momento e accedere ai suoi dati. 
 
 ### Come disattivo il mio contatore?
 
 Se il conto è nel modello di licenza Basic.
 
-1.  Esegui il login nel portale smart-me 
+1.  Accedi al portale smart-me 
 
 2.   Seleziona il contatore
 
-3.  Seleziona la rotellina dentata in alto a destra
+3.  Seleziona la rotella dentata in alto a destra
 
 4.  Impostazioni avanzate (Erweiterte Einstellungen) 
 
-5.  Impostare Contatore attivo (Zähler aktiv) su No (Nein)
+5.  Imposta Contatore attivo (Zähler aktiv) su No
 
-6.  Salvare (Speichern)
+6.  Salva
 
-7.  Tornare alla panoramica principale o aggiornare il browser
+7.  Torna alla panoramica principale o aggiorna il browser
 
 
 Se il conto è nel modello di licenza Limited o Professional.
 
-1.  Esegui il login nel portale smart-me 
+1.  Accedi al portale smart-me 
 
 2.  Clicca su configurare (konfigurieren)
 
@@ -256,16 +256,16 @@ Se il conto è nel modello di licenza Limited o Professional.
 
 4.  Seleziona il contatore da disattivare
 
-5.  Clicca su Modificare nodo (Knoten editieren) (in alto sulla piastrella verde)
+5.  Clicca su Modifica nodo (Knoten editieren) (in alto sulla piastrella verde)
 
-6.  Rimuovi il segno di spunta da Contatore attivo (Zähler aktiv)
+6.  Togli il segno di spunta da Contatore attivo (Zähler aktiv)
 
-7.  Premi su Salvare (Speichern).
+7.  Premi su Salva.
 
 
-In alternativa puoi trascinare i contatori tutti in una cartella (ad es. "contatori disattivati") e, con un clic destro sulla rispettiva cartella, Azioni di massa (Massenaktionen), Disattivare tutti i contatori (Alle Zähler deaktivieren), disattivare contemporaneamente tutti i contatori. 
+In alternativa puoi trascinare i contatori tutti in una cartella (ad es. "contatori disattivati") e disattivarli tutti contemporaneamente con un clic destro sulla cartella corrispondente, Azioni di massa (Massenaktionen), Disattiva tutti i contatori (Alle Zähler deaktivieren). 
 
-Nota sui contatori disattivati: un contatore disattivato non costa più alcuna licenza, ma finché è disattivato non puoi nemmeno più accedere ai dati passati del contatore. Inoltre, per il periodo in cui il contatore è disattivato non vengono salvati nel cloud nuovi dati di misura del contatore.  
+Nota sui contatori disattivati: un contatore disattivato non costa più alcuna licenza, ma finché è disattivato non puoi nemmeno più accedere ai dati passati del contatore. Inoltre, per il periodo in cui il contatore è disattivato, non vengono salvati nel cloud nuovi dati di misura del contatore.  
 
 ## Contatto
 
@@ -273,13 +273,13 @@ Se qui non trovi una risposta alla tua domanda, il nostro supporto è volentieri
 
 ### Importante da sapere
 
-smart-me è un fornitore di hardware e tecnologia. Non realizziamo progetti e non eseguiamo configurazioni di impianti per clienti finali. Il nostro supporto tecnico si rivolge di norma esclusivamente a partner certificati.
+smart-me è un fornitore di hardware e tecnologia. Non realizziamo progetti e non eseguiamo configurazioni di impianti per clienti finali. Il nostro supporto tecnico si rivolge di regola esclusivamente a partner certificati.
 
-### Per i clienti privati
+### Per clienti privati
 
 Come cliente privato trovi qui su questa mappa i nostri partner di progetto:
 
-[Mostra i partner di progetto sulla mappa](https://web.smart-me.com/projektpartner/)
+[Mostrare i partner di progetto sulla mappa](https://web.smart-me.com/projektpartner/)
 
 ### Diventare partner
 
@@ -295,7 +295,7 @@ Telefono: +41 41 511 09 99 E-mail: [info@smart-me.com](mailto:info@smart-me.com)
 
 verkauf@smart-me.com / +41 41 511 09 99
 
-### Attivare le licenze:
+### Attivare licenze:
 
 administration@smart-me.com / +41 41 511 09  99
 
@@ -307,10 +307,6 @@ Supporto TeamViewer:
 
 Disponibile solo previo accordo telefonico.
 
-[
-
-![Dati tecnici e manuali – Figura 17](/img/home/17.jpg)
-
-](https://get.teamviewer.com/68stbb8)
+[![Dati tecnici e manuali – Figura 17](/img/home/17.jpg)](https://get.teamviewer.com/68stbb8)
 
 [Download Team Viewer per smart-me](https://get.teamviewer.com/68stbb8)

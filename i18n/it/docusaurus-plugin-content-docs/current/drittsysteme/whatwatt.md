@@ -5,7 +5,7 @@ description: 'Il modulo whatwatt è un piccolo modulo hardware per la lettura de
 sidebar_label: 'whatwatt'
 ---
 Il modulo whatwatt è un piccolo modulo hardware per la lettura dei contatori di energia in uso presso l'azienda elettrica.
-Vengono trasmessi le letture del contatore rilevanti, i profili di carico e i valori in tempo reale della potenza.
+Vengono trasmessi le letture del contatore, i profili di carico e i valori live della potenza rilevanti.
 
 Il modulo trasmette i suoi dati tramite interfaccia API direttamente al nostro cloud.
 
@@ -28,12 +28,12 @@ Applicazioni:
 
 - Trasduttore di misura per il comando di prodotti di terzi via Modbus TCP, MQTT o API
 
-- Compatibile con smart-me Nimbus 100A per la lettura locale via Modbus TCP
+- Compatibile con smart-me Nimbus 100A per la lettura locale tramite Modbus TCP
 
 
 ![whatwatt – Figura 1](/img/drittsysteme-whatwatt/01.png)
 
-Impostazioni lato hardware:
+Impostazioni sul lato hardware:
 
 L'ora trasmessa deve essere impostata su ora NTP per ogni modulo.
 
@@ -56,7 +56,7 @@ L'ora trasmessa deve essere impostata su ora NTP per ogni modulo.
 
 Istruzioni per l'integrazione:
 
-<Video src="" title="Video" />
+<Embed src="https://drive.google.com/file/d/1J5iwfbUOJA5ZBVfDcz7xM2ouiSC38hOw/preview" aspect="0.721" title="Drive, whatwatt_Go_smart-me_Integration_v1.0.pdf" />
 
 whatwatt\_Go\_smart-me\_Integration\_v1.0.pdf
 

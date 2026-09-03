@@ -1,13 +1,13 @@
 ---
 title: 'API'
 slug: '/schnittstellen/api'
-description: 'Les fonctions de base de l''API sont disponibles dans le modèle Basic pour une utilisation non commerciale.'
+description: 'Les fonctions de base de l''API sont disponibles dans le modèle Basic pour un usage non commercial.'
 sidebar_label: 'API'
 ---
-### Conditions requises
+### Conditions préalables
 
-Les fonctions de base de l'API sont disponibles dans le modèle Basic pour une utilisation non commerciale.
-Pour une utilisation commerciale et une limite de débit plus élevée, la licence Professional est nécessaire.
+Les fonctions de base de l'API sont disponibles dans le modèle Basic pour un usage non commercial.
+Pour un usage commercial et un rate limit plus élevé, la licence Professional est nécessaire.
 
 ## Description de l'API
 
@@ -17,16 +17,16 @@ Tous les appels API sont documentés sur la page suivante : [smart-me API](https
 
 ### Codes Obis
 
-Les codes Obis sont des identifiants normalisés pour les valeurs de mesure des compteurs d'énergie. Chaque code Obis décrit de manière univoque quelle valeur est mesurée (p. ex. consommation électrique actuelle, relevé du compteur, tension par phase).
+Les codes Obis sont des identifiants normalisés pour les valeurs de mesure des compteurs d'énergie. Chaque code Obis décrit de manière univoque quelle valeur est mesurée (par ex. consommation de courant actuelle, relevé du compteur, tension par phase).
 
 [Codes Obis (Excel)](https://drive.google.com/open?id=1eTs4ZXD9AUagGxNEQSof0IWHkZg54nsK6SyHp4ygDSc&authuser=0)
 
-Conseil de décodage : sur ce [site web](https://www.kbr.de/de/obis-kennzeichen/obis-kennzeichen#obis-kennzeichensystem), tu peux consulter la systématique du codage. Si tu y cliques sur un fluide, tu vois à quoi correspond chacun des chiffres du code. 
+Conseil pour le déchiffrage : sur ce [site web](https://www.kbr.de/de/obis-kennzeichen/obis-kennzeichen#obis-kennzeichensystem), tu peux consulter la systématique du codage. Si tu y cliques sur un médium, tu vois à quoi correspondent les différents chiffres du code. 
 
 ### DeviceID
 
-La DeviceID est une affectation unique à un point de mesure, indépendante du nom.
-Elle est indiquée aussi bien dans l'API que dans la [santé du système](/stoerungsbehebung/systemgesundheit) (fonction Professional)
+La DeviceID est une attribution unique et indépendante du nom à un point de mesure.
+Elle est indiquée à la fois dans l'API et dans la [santé du système](/stoerungsbehebung/systemgesundheit) (fonction Professional)
 
 ![API – Illustration 1](/img/schnittstellen-api/01.png)
 
@@ -35,6 +35,7 @@ Elle est indiquée aussi bien dans l'API que dans la [santé du système](/stoer
 ### Basic Auth (non recommandé / obsolète)
 
 Actuellement, Basic Auth est possible comme méthode d'authentification. Cette option sera toutefois supprimée à moyen terme en raison d'un manque de sécurité. Les API Keys constituent une alternative.
+
 Le client secret correspond à username:password encodé en Base64.
 
 Chaque appel de l'API doit contenir l'authentification dans l'en-tête HTTP : Authorization: Basic &lt;client secret>
@@ -44,7 +45,7 @@ curl -X "PUT" "https://api.smart-me.com/Devices/6a7fae30-c598-4778-8f1f-a1462055
 
 ### API Keys (recommandé)
 
-Les API Keys permettent une authentification similaire à Basic Auth pour un accès simple à un compte. Une clé est créée dans le portail smart-me et se voit attribuer certaines autorisations (Claims (voir ci-dessous)). La clé peut ensuite être ajoutée dans l'en-tête HTTP, de la même manière que le secret Basic Auth. 
+Les API Keys permettent une authentification semblable à Basic Auth pour un accès simple à un compte. Une clé est créée dans le portail Smart-me et certaines autorisations (Claims (voir ci-dessous)) lui sont attribuées. La clé peut ensuite être ajoutée dans l'en-tête HTTP, de la même manière que le secret Basic Auth. 
 
 Chaque appel de l'API doit contenir l'authentification dans l'en-tête HTTP : Authorization: ApiKey &lt;api key>
 
@@ -59,19 +60,19 @@ Les clés peuvent être créées dans le portail web sous API, Api Keys :
 
 ### Claims
 
-Les ApiKeys comme oAuth 2.0 prennent en charge les Claims afin de ne libérer que des autorisations limitées.
+Les ApiKeys ainsi que oAuth 2.0 prennent en charge les Claims afin de n'accorder que des autorisations limitées.
 
-Vous trouverez ici une liste de la correspondance entre les endpoints et les Claims : 
+Vous trouverez ici une liste du mapping des endpoints vers les Claims : 
 
-[](https://drive.google.com/open?id=1b2bYdjBi4iCf7fUxpEPO9e8DNuhtEvA4_wIDKAJsiq0 "Open Spreadsheet, Claims in new window")
+[](https://drive.google.com/open?id=1b2bYdjBi4iCf7fUxpEPO9e8DNuhtEvA4_wIDKAJsiq0 "Ouvrir la feuille de calcul, Claims dans une nouvelle fenêtre")
 
-<Video src="" title="Video" />
+<Embed src="https://docs.google.com/spreadsheets/d/1b2bYdjBi4iCf7fUxpEPO9e8DNuhtEvA4_wIDKAJsiq0/htmlembed" aspect="2.353" title="Feuille de calcul, Claims" />
 
 Claims
 
 ## OAuth 2.0 (recommandé)
 
-smart-me prend en charge le framework d'autorisation OAuth 2.0. Des applications externes peuvent demander l'accès à un compte sans connaître les données de connexion. Tu trouveras d'autres informations plus bas.
+smart-me prend en charge le framework d'autorisation OAuth 2.0. Des applications externes peuvent demander l'accès à un compte sans connaître les données de connexion. Tu trouveras de plus amples informations ci-dessous.
 
 ### Informations OAuth
 
@@ -79,7 +80,7 @@ smart-me prend en charge le framework d'autorisation OAuth 2.0. Des applications
 
 ### Configuration d'OAuth dans le portail smart-me
 
-L'utilisation d'oAuth requiert un compte avec le [modèle de licence](/planung/cloud-lizenzen) professional. Si tu n'as pas encore de compte avec le modèle de licence Professional, tu dois acquérir 1 licence.
+L'utilisation d'oAuth requiert un compte avec le [modèle de licence](/planung/cloud-lizenzen) professional. Si tu ne disposes pas encore d'un compte avec le modèle de licence Professional, tu dois acquérir 1 licence.
 
 - [Connexion au portail smart-me](https://www.smart-me.com/Login.aspx)
 
@@ -90,7 +91,7 @@ L'utilisation d'oAuth requiert un compte avec le [modèle de licence](/planung/c
 
 Ajouter des applications oAuth
 
-- Confidentielle (limitée à 3 Client ID)
+- Confidentiel (limité à 3 Client ID)
 
     - Un Client ID et un Client secret sont générés
 
@@ -98,19 +99,19 @@ Ajouter des applications oAuth
 
     - Nous recommandons l'utilisation de l'« Authorization Code Flow avec PKCE » et du « Device Code Flow ».
 
-- Publique (limitée à 3 Client ID)
+- Public (limité à 3 Client ID)
 
     - Un Client ID est généré
 
-    - Pour les applications publiques qui ne peuvent pas garder le Secret confidentiel, p. ex. les applications web ou mobiles.
+    - Pour les applications publiques qui ne peuvent pas garder le Secret confidentiel, par ex. les applications web ou mobiles.
 
     - Nous recommandons l'utilisation de l'« Authorization Code Flow avec PKCE » et du « Device Code Flow »
 
-- Appareil (limitée à 50 Client ID)
+- Appareil (limité à 50 Client ID)
 
     - Un Client ID et un Client secret sont générés
 
-    - Peut être utilisée en remplacement de Basic Authentication dans des appareils embarqués qui ne disposent pas d'interface graphique.
+    - Peut être utilisé en remplacement de la Basic Authentication dans des appareils embarqués qui ne disposent pas d'interface graphique.
 
     - Prend uniquement en charge l'OAuth Flow « client credentials ».
 
@@ -128,7 +129,7 @@ Informations nécessaires :
 
 ### Grants & Endpoints
 
-L'implémentation d'OAuth n'est pas décrite sur notre wiki. Tu trouves sur cette page les informations nécessaires pour implémenter oAuth : [https://oauth.net/2/](https://oauth.net/2/) 
+L'implémentation d'OAuth n'est pas décrite dans notre wiki. Tu trouveras sur cette page les informations nécessaires pour implémenter oAuth : [https://oauth.net/2/](https://oauth.net/2/) 
 
 Supported Grants (Flows) for oAuth Confidential and Public Applications:
 
@@ -154,9 +155,9 @@ smart-me Endpoints
 
 \- Device Code: /api/oauth/device
 
-## API temps réel (Webhook)
+## API en temps réel (Webhook)
 
-L'API temps réel smart-me (Webhooks) te permet de t'abonner aux nouvelles données d'un appareil. Tu peux t'inscrire pour un seul appareil ou pour tous les appareils d'un utilisateur. Lorsqu'un appareil envoie de nouvelles données au cloud, un webhook transmet ces données sous forme de requête POST à une URL nouvellement configurée. Tu trouveras d'autres informations [ici](https://www.smart-me.com/Description/api/realtimeapi.aspx).
+L'API en temps réel de smart-me (Webhooks) te permet de t'abonner aux nouvelles données d'un appareil. Tu peux t'abonner pour un seul appareil ou pour tous les appareils d'un utilisateur. Lorsqu'un appareil envoie de nouvelles données au cloud, un webhook envoie ces données sous forme de requête POST à une URL nouvellement configurée. Tu trouveras de plus amples informations [ici](https://www.smart-me.com/Description/api/realtimeapi.aspx).
 
 Fichier proto
 
@@ -246,9 +247,9 @@ message DeviceValue {
 }
 ```
 
-## Goldpartner - API
+## API Goldpartner
 
-Pour pouvoir utiliser notre API - Goldpartner, tu dois disposer du modèle de licence smart-me Goldpartner. D'autres informations sur ce modèle de licence peuvent être demandées auprès du service commercial.
+Pour pouvoir utiliser notre API Goldpartner, tu dois disposer du modèle de licence smart-me Goldpartner. De plus amples informations sur ce modèle de licence peuvent être demandées auprès du service commercial.
 
 ### Endpoints
 
@@ -390,9 +391,9 @@ PartnerVisualization
 
 ### REST API Samples
 
-Cela te permet de récupérer les jeux de données que nous mettons à disposition. [https://api.smart-me.com/swagger/index.html](https://api.smart-me.com/swagger/index.html) 
+Cela te permet de récupérer n'importe quel jeu de données que nous mettons à disposition. [https://api.smart-me.com/swagger/index.html](https://api.smart-me.com/swagger/index.html) 
 
-Python (piloter les entrées et sorties)
+Python (commander les entrées et sorties)
 
 ![API – Illustration 6](/img/schnittstellen-api/06.png)
 
@@ -566,9 +567,9 @@ Bibliothèque client API pour .Net
 
 Pour intégrer les fonctionnalités de l'API smart-me dans votre application .Net, vous pouvez utiliser [cette bibliothèque](https://github.com/eCarUp/smartme-api-client-library-dotnet). Elle envoie des requêtes HTTP à l'API REST smart-me. Tous les corps de requête et de réponse HTTP sont mappés sur des classes .Net.
 
-## Exemples d'API temps réel (Webhook)
+## Exemples d'API en temps réel (Webhook)
 
-L'API temps réel smart-me envoie les données sérialisées avec google protobuffer
+L'API Realtime de smart-me envoie les données sérialisées avec google protobuffer
 
 Fichier proto
 

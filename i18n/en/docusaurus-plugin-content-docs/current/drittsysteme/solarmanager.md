@@ -1,71 +1,87 @@
 ---
 title: 'Solar Manager'
 slug: '/drittsysteme/solarmanager'
-description: 'Smart-me devices can be integrated in the Solar Manager directly via the cloud.'
+description: 'smart-me devices can be integrated into Solar Manager directly via the cloud.'
 sidebar_label: 'Solar Manager'
 ---
-Smart-me devices can be integrated in the Solar Manager directly via the cloud. [Virtual meters](/konfiguration/billing/virtuelle-zaehler) can also be adopted.
+smart-me devices can be integrated into Solar Manager directly via the cloud. [Virtual meters](/konfiguration/billing/virtuelle-zaehler) can be transferred as well. 
 
-There are several options for using the smart-me meter in the Solar Manager:
+In Solar Manager there are several options for using the smart-me meter and Pico charging stations:
 
-- As a smart meter, i.e. balance meter directly after the utility meter
+- As a smart meter or balancing meter directly after the utility meter
 
-- To measure the consumption of devices such as charging stations, heat pumps, etc.
+- As consumption metering for devices such as charging stations, heat pumps, etc.
 
-- As a production measurement of PV generation
+- As production metering for PV generation
 
-- As a switch to use the relay contact on the meter
+- As a switch, in order to use the relay contact on the meter.
 
-
-## Integration in general
-
-For the integration, the cloud access data with user name and password are required, as well as the serial number of the meter. This can be seen directly in the smart-me portal as a serial number, and it is also listed on the devices. Only use all digits there before the hyphen.
+- As a data source for e-mobility load management
 
 
 
-![Solar Manager – figure 1](/img/_en/third-party-systems-solarmanager/01.png)
+
+Target group: single-family and multi-family homes
+
+<Video src="D3Mh-cAyHvw" title="YouTube video, demo of the Solar Manager integration of smart-me meters" />
+
+## General integration
+
+The cloud credentials (user name and password) as well as the serial number of the meter are required for integration. The serial number can be seen directly in the smart-me portal and on the devices themselves. For the serial number, use only the digits before the hyphen!
+
+![Solar Manager – figure 1](/img/drittsysteme-solarmanager/01.png)
 
 ### Example:
 
-Web portal serial number: 07907952
+Serial number web portal: 07907952
 
-Serial number counter: 07907952-123 (omit -123)
+Serial number meter: 07907952-123 (omit -123)
 
-## Smart-me meter as smart meter
+## smart-me meter as a smart meter
 
-One smart meter can be added to the Solar Manager at a time; it can be installed in two ways:
+A smart meter can be added in Solar Manager; it can be installed in two ways:
 
-- Directly after the house connection box, whereby production (-) and consumption (+) are measured directly
+- Directly after the utility meter (balancing meter), where production (-) and consumption (+) are measured directly 
 
-- Pure consumption measurement, production is recorded separately
-
-
-To set it up, you add a smart meter and select smart-me cloud. The smart meter is connected with the access data and the 8-digit serial number.
-
-- Installation location: As described above
-
-- Invert measurement: If the counter were mounted inverted, the sign could be changed here.
+- Pure consumption metering, with production recorded separately
 
 
-![Solar Manager – figure 2](/img/_en/third-party-systems-solarmanager/02.png)
+To set it up, add a smart meter and select smart-me Cloud there. The smart meter is connected using the credentials and the 8-digit serial number. 
 
-## Use smart-me relay
+- Installation location:  As described above
 
-The smart-me 3-phase counter has two potential-free contact outputs for controlling external devices, one of them with an integrated 8A relay. This can be switched in the Solar Manager. One “switch” is recorded and parameterized for each relay.
+- Invert measurement: If the meter were installed inverted, you could change the sign here. 
 
-To set it up, add a new “switch” under Devices and select “Relay on the smart-me 3-phase meter”. The meter is connected with the access data and the 8-digit serial number.
 
-### Parameter
+![Solar Manager – figure 2](/img/drittsysteme-solarmanager/02.png)
 
-Switch-on power (W): What power must be available as a surplus so that it is switched.
+## Using the smart-me relay
 
-Switch-on delay (min): How long must the defined power be present before it is switched.
+The [3-phase meter Telstar](/produkte/telstar) has two potential-free contact outputs for controlling external devices, one of them with an integrated 8A relay. It can be switched in Solar Manager. One «switch» is created and parameterised per relay. The switches must first be defined as digital outputs in the smart-me portal (see [Inputs & outputs](/)) 
 
-Switch-off delay (min): How long should you wait after falling below the power level before switching off (e.g. to bridge a cloud)
+To set it up, add a new «switch» under Devices and select «Relay on the smart-me 3-phase meter» there. The meter is connected using the credentials and the 8-digit serial number. 
 
-Minimum duration (min): How long must the device run at least. Practical for heat pumps with compressors etc.
+### Parameters
 
-![Solar Manager – figure 3](/img/_en/third-party-systems-solarmanager/03.png)
+Switch-on power (W):
+
+How much power must be available as surplus for switching to occur.
+
+Switch-on delay (min):
+
+How long the defined power must be present before switching occurs.
+
+Switch-off delay (min):
+
+How long to wait after the power falls below the threshold before switching off (e.g. to bridge a passing cloud)
+
+Minimum runtime (min): 
+
+How long the device must run at minimum. Practical for heat pumps with compressors, etc.
+
+![Solar Manager – figure 3](/img/drittsysteme-solarmanager/03.png)
+
+![Solar Manager – figure 4](/img/drittsysteme-solarmanager/04.png)
 
 ## Contact:
 
@@ -75,24 +91,21 @@ Schlyffistäg 36
 
 CH-5630 Muri
 
-[https://www.solarmanager.ch/](https://www.solarmanager.ch/) 
+[https://www.solarmanager.ch/](https://www.solarmanager.ch/) 
 
-[info@solarmanager.ch](mailto:info@solarmanager.ch) 
+[info@solarmanager.ch](mailto:info@solarmanager.ch) 
 
 +41 56 512 92 08
 
-
-
-
 ## FAQ
 
-## Power release on the Pico charging station does not work with 4200W
+## Current release for the Pico charging station does not work from 4200W
 
-The Pico charging station is supplied as standard with a minimum current of 8A to ensure immediate support for all possible vehicle types following installation.
+The Pico charging station is delivered with a minimum current of 8A by default, in order to directly support all possible vehicle types after installation.
 
-However, when used in conjunction with SolarManager, the system defaults to a minimum current of 6A to control the Pico.
+When used together with Solar Manager, however, Solar Manager assumes a minimum current of 6A by default in order to control the Pico.
 
-Select the scenario that applies to your vehicle to ensure your desired configuration is supported correctly:
+Select the case that applies to your vehicle in order to support your desired configuration without errors:
 
 Case A: You have a vehicle that can handle a 6A starting current
 
@@ -100,8 +113,8 @@ Case A: You have a vehicle that can handle a 6A starting current
 
 
 
-![Solar Manager – figure 4](/img/_en/third-party-systems-solarmanager/04.png)
+![Solar Manager – figure 5](/img/drittsysteme-solarmanager/05.png)
 
-Case B: You have a vehicle that is known not to be able to cope with a 6A starting current (e.g. Renault Zoe)
+Case B: You have a vehicle that is known not to cope with a 6A starting current (e.g. Renault Zoe)
 
-- In the Solar Manager, under vehicle selection, set the option to "Renault Zoe 9A"
+- In Solar Manager, set the "Renault Zoe 9A" setting in the vehicle selection

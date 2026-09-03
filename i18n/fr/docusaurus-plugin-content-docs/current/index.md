@@ -1,12 +1,12 @@
 ---
 title: 'Données techniques & manuels'
 slug: '/'
-description: 'Accède à une collection complète de données techniques, de modes d''emploi et d''instructions d''installation pour les produits smart-me ainsi que pour les réglages du logiciel.'
+description: 'Accède à une collection complète de données techniques, de modes d''emploi et d''instructions d''installation relatifs aux produits smart-me ainsi qu''aux réglages logiciels.'
 sidebar_label: 'Accueil'
 ---
-Accède à une collection complète de données techniques, de modes d'emploi et d'instructions d'installation pour les produits smart-me ainsi que pour les réglages du logiciel.
+Accède à une collection complète de données techniques, de modes d'emploi et d'instructions d'installation relatifs aux produits smart-me ainsi qu'aux réglages logiciels.
 
-## Actualités
+## Nouveautés
 
 ## NOUVEAU : aperçu de facture V1
 
@@ -29,23 +29,23 @@ Facturation (Rechnungsstellung) --> Factures (Rechnungen)
 
 ## Mise à jour de nos CG & de nos directives de protection des données
 
-Nous avons adapté nos conditions générales (CG) et nos déclarations de protection des données. Afin de régler de manière juridiquement optimale le traitement des données au sein de notre groupe d'entreprises, les documents ont été complétés par un « Joint Controller Agreement » (JCA). Les versions actualisées sont dès à présent disponibles en ligne pour consultation.
+Nous avons adapté nos conditions générales (CG) et nos déclarations de protection des données. Afin de régler de manière juridiquement optimale le traitement des données au sein de notre groupe d'entreprises, les documents ont été complétés par un «Joint Controller Agreement» (JCA). Les versions actualisées sont dès à présent disponibles en ligne pour consultation.
 
-[→ Vers les CG & les dispositions de protection des données](https://web.smart-me.com/agb-smart-me-ag/)
+[→ Vers les CG & les dispositions relatives à la protection des données](https://web.smart-me.com/agb-smart-me-ag/)
 
 ## Important : notre nouvelle boutique en ligne dès le 1er juillet 2026
 
-Prépare-toi au passage sans accroc vers notre nouvelle plateforme moderne. Obtiens un aperçu rapide de :  
+Prépare-toi au passage en douceur vers notre nouvelle plateforme moderne. Obtiens un aperçu rapide de :  
 
-- Délai de commande dans l'ancienne boutique : effectue tes commandes urgentes jusqu'au 26\. juin 2026 à 11h00. Ensuite, l'ancien système sera désactivé. 
+- Délai de commande dans l'ancienne boutique : effectue tes commandes urgentes jusqu'au 26\. juin 2026 à 11h00. L'ancien système sera ensuite désactivé. 
 
-- Transition par e-mail & téléphone : pendant la phase de migration (29 juin – 1er juillet), commande tout simplement directement chez nous. 
+- Transition par e-mail & téléphone : pendant la phase de migration (29 juin – 1er juillet), commande très simplement directement chez nous. 
 
-- Activation pour les comptes existants : utilise le lien d'activation que tu recevras le 30\. juin par e-mail de notre nouveau prestataire Odoo.  
+- Activation des comptes existants : utilise le lien d'activation que tu recevras le 30\. juin par e-mail de notre nouveau prestataire Odoo.  
 
-- Remises & prix habituels : continue de profiter de tes conditions individuelles, déjà enregistrées dans le nouveau système. 
+- Rabais & prix habituels : continue de profiter de tes conditions individuelles, déjà enregistrées dans le nouveau système. 
 
-- Lancement de la nouvelle plateforme : achète dès le 1\. juillet 2026 simplement et rapidement dans la nouvelle boutique.  
+- Lancement de la nouvelle plateforme : dès le 1\. juillet 2026, fais tes achats simplement et rapidement dans la nouvelle boutique.  
 
 
 ## Mise à jour : calculateur en ligne de tarifs d'électricité et solaires
@@ -61,7 +61,7 @@ Prépare-toi au passage sans accroc vers notre nouvelle plateforme moderne. Obti
 
 ![Données techniques & manuels – illustration 3](/img/home/03.png)
 
-## Nouveau : décompter les tarifs de réseau dynamiques
+## Nouveau : décompte des tarifs de réseau dynamiques
 
 Décompte désormais aussi les tarifs de réseau dynamiques auprès de tes locataires. 
 
@@ -75,7 +75,7 @@ Nous importons le tarif dynamique depuis ton fournisseur et l'appliquons toutes 
 
 ## Nouveau : My Dashboards
 
-Te permet de créer des tableaux de bord personnalisés, comme les flux d'énergie et les vues d'ensemble de ton bâtiment.
+Te permet de créer des tableaux de bord personnalisés, comme des flux d'énergie et des vues d'ensemble de ton bâtiment.
 
 
 
@@ -92,7 +92,7 @@ Te permet de créer des tableaux de bord personnalisés, comme les flux d'énerg
 
 ## Nouveau : outils techniques
 
-Dans la nouvelle rubrique Outils techniques (Technische Tools), tu trouveras des aides pour l'installation et la maintenance de l'installation.
+Dans la nouvelle section Outils techniques (Technische Tools), tu trouveras des aides pour l'installation et la maintenance de l'installation.
 
 
 
@@ -107,7 +107,7 @@ Dans la nouvelle rubrique Outils techniques (Technische Tools), tu trouveras des
 
 ## Nouveau : AppLAB
 
-La nouvelle rubrique AppLAB est un espace d'expérimentation et met à disposition différentes fonctionnalités afin d'en tester l'efficacité.
+La nouvelle section AppLAB est un espace d'expérimentation et met à disposition différentes fonctionnalités afin d'en tester l'efficacité.
 
 ![Données techniques & manuels – illustration 10](/img/home/10.png)
 
@@ -124,23 +124,23 @@ La nouvelle rubrique AppLAB est un espace d'expérimentation et met à dispositi
 - Assistant de configuration Autobill
 
 
-## Nouveau : refonte générale de l'UI
+## Nouveau : refonte générale de l'interface utilisateur
 
-L'ensemble de l'UI smart-me a bénéficié d'un renouvellement du design.
+L'ensemble de l'interface utilisateur smart-me a bénéficié d'une refonte du design.
 
-- Rien n'a changé dans l'utilisation.
+- Rien n'a changé à l'utilisation.
 
 
 ![Données techniques & manuels – illustration 11](/img/home/11.png)
 
 ## Nouveau : vue d'ensemble RCP Performance
 
-Vérifie la production et les rendements de ton RCP (regroupement dans le cadre de la consommation propre) dans la nouvelle visualisation « ZEV Performance ». Obtiens un aperçu rapide de :
+Vérifie la production et les rendements de ton RCP (regroupement dans le cadre de la consommation propre) dans la nouvelle visualisation «ZEV Performance». Obtiens un aperçu rapide de :
 
 
 - Les flux d'énergie avec la nouvelle visualisation des flux d'énergie
 
-- La production et le rendement énergétiques
+- La production et le rendement d'énergie
 
 - Les pointes de soutirage et d'injection depuis et vers le réseau
 
@@ -163,7 +163,7 @@ Les visualisations existantes reçoivent un nouveau design. Elles sont mises à 
 
 Nouvelle visualisation Pico :
 
-Découvre la nouvelle visualisation Pico, qui affiche d'un seul coup d'œil tous les points de recharge Pico et leurs groupes de recharge – avec le courant absorbé, l'occupation, la puissance absorbée maximale et bien plus encore.
+Découvrez la nouvelle visualisation Pico, qui affiche d'un seul coup d'œil tous les points de recharge Pico et leurs groupes de recharge – avec l'intensité absorbée, l'occupation, la puissance maximale absorbée et bien plus encore.
 
 
 
@@ -175,13 +175,13 @@ Découvre la nouvelle visualisation Pico, qui affiche d'un seul coup d'œil tous
 
 ## Le nouveau M-Bus Gateway Sirius est arrivé !
 
-Notre famille de produits continue de s'agrandir : avec le Sirius, nous lançons notre gateway le plus performant à ce jour pour les grandes infrastructures de bâtiment.
+Notre famille de produits continue de croître : avec le Sirius, nous lançons notre gateway le plus performant à ce jour pour les grandes infrastructures de bâtiments.
 
-- Capacité massive – Jusqu'à 250 charges standard M-Bus dans un seul appareil. 
+- Capacité massive – jusqu'à 250 charges standard M-Bus dans un seul appareil. 
 
-- Multi-énergie – Eau, chaleur, froid et gaz maîtrisés de manière centralisée. 
+- Multi-énergie – eau, chaleur, froid et gaz gérés de manière centralisée. 
 
-- Sécurité maximale – Énorme mémoire de données en cas de coupure de connexion.
+- Sécurité maximale – énorme mémoire de données en cas de coupure de connexion.
 
 
 [→ Plus d'informations sur le Sirius](/produkte/m-bus-gateway#m-bus-gateway-sirius-250-charges-standard)
@@ -190,9 +190,9 @@ Notre famille de produits continue de s'agrandir : avec le Sirius, nous lançons
 
 ## NOUVEAU : TVA - facturer correctement
 
-L'application de la TVA est un point important du décompte. Afin de ne pas commettre d'erreurs, tu trouveras ici un guide pour l'indication correcte de la TVA dans ton cas.
+Appliquer la TVA est un point important du décompte. Pour ne pas commettre d'erreurs, tu trouveras ici un guide pour l'indication correcte de la TVA dans ton cas de figure.
 
-La loi sur la TVA relative au RCP évolue presque aussi vite que la technique.
+La loi sur la TVA relative au RCP évolue presque aussi rapidement que la technique.
 
 [→ Plus d'informations pour nos partenaires](/konfiguration/billing/mwst-zev-nebenkosten)
 
@@ -202,30 +202,30 @@ La loi sur la TVA relative au RCP évolue presque aussi vite que la technique.
 
 ### Où puis-je modifier mon mot de passe de connexion / mon adresse e-mail ?
 
-Pour modifier ton mot de passe de connexion, rends-toi sur [smart-me.com](https://web.smart-me.com/login/) et connecte-toi avec ton compte utilisateur existant. Clique sur ton nom d'utilisateur (en haut à droite) et sélectionne Réglages (Einstellungen). Clique sur Modifier le mot de passe (Passwort ändern).
+Pour modifier ton mot de passe de connexion, va sur [smart-me.com](https://web.smart-me.com/login/) et connecte-toi avec ton compte utilisateur existant. Clique sur ton nom d'utilisateur (en haut à droite) et choisis Réglages (Einstellungen). Clique sur Modifier le mot de passe (Passwort ändern).
 
-Si tu ne connais plus ton mot de passe, celui-ci peut être réinitialisé via la fonction de mot de passe oublié. Pour cela, une adresse e-mail valide doit toutefois avoir été utilisée lors de la création du compte.
+Si tu ne connais plus ton mot de passe, celui-ci peut être réinitialisé via la fonction de mot de passe oublié. Il faut toutefois qu'une adresse e-mail valide ait été utilisée lors de la création du compte.
 
 ### Comment puis-je résilier mon abonnement ?
 
-Pour résilier ton abonnement de licences cloud, rends-toi sur smart-me.com et connecte-toi.
-Clique ensuite en haut à droite sur le nom d'utilisateur et sélectionne Réglages (Einstellungen).
+Pour résilier ton abonnement aux licences cloud, va sur smart-me.com et connecte-toi.
+Clique ensuite en haut à droite sur le nom d'utilisateur et choisis Réglages (Einstellungen).
 Va ensuite sur Paiement (Bezahlung), Résilier l'abonnement (Abo kündigen) et confirme avec Oui (Ja).
 
 ### Pourquoi mon compteur supprimé réapparaît-il dans le cloud ?
 
-Lorsqu'un compteur est supprimé dans le cloud, toutes ses données y sont supprimées. Si ce compteur envoie à nouveau des données au cloud après la suppression, celui-ci recrée le compteur (y compris un nouvel ID de compteur). Les données de mesure passées du compteur sont toutefois définitivement supprimées. Les actions si/alors ou les réglages dans le Billing ne se réfèrent pas non plus au « nouveau » compteur et devraient par conséquent être reconfigurés. 
+Lorsqu'un compteur est supprimé dans le cloud, toutes ses données y sont supprimées. Si ce compteur envoie à nouveau des données au cloud après la suppression, celui-ci recrée le compteur (avec un nouvel ID de compteur). Les données de mesure passées du compteur sont toutefois définitivement supprimées. Les actions si/alors ou les réglages dans le Billing ne se rapportent pas non plus au «nouveau» compteur et devraient donc être reconfigurés. 
 
-Les points suivants permettent d'éviter que le compteur envoie à nouveau des données au cloud et soit ainsi recréé : 
+Les points suivants permettent d'éviter que le compteur renvoie des données au cloud et soit ainsi recréé : 
 
 - Installer le compteur dans un autre compte, où il pourra alors envoyer les données. 
 
 - Ne plus alimenter le compteur. Mais dès que le compteur est alimenté et dispose à nouveau d'une connexion Internet, il renvoie les données au cloud. 
 
-- Supprimer le WLAN du compteur (voir « [Les informations WiFi enregistrées peuvent-elles être supprimées ?](/konfiguration/inbetriebnahme#les-informations-wifi-enregistrées-peuvent-elles-être-supprimées) »).  Sans Internet, le compteur ne peut plus envoyer de données. 
+- Supprimer le WLAN du compteur (voir «[Les informations WiFi enregistrées peuvent-elles être supprimées ?](/konfiguration/inbetriebnahme#les-informations-wifi-enregistrées-peuvent-elles-être-supprimées)»).  Sans Internet, le compteur ne peut plus envoyer de données. 
 
 
-Tu peux également désactiver le compteur dans le cloud. Un compteur désactivé ne nécessite aucune licence et tu peux le réactiver à tout moment et accéder à ses données. 
+Tu peux aussi, en alternative, désactiver le compteur dans le cloud. Un compteur désactivé ne nécessite aucune licence et tu peux le réactiver à tout moment et accéder à ses données. 
 
 ### Comment désactiver mon compteur ?
 
@@ -235,13 +235,13 @@ Si le compte est dans le modèle de licence Basic.
 
 2.   Sélectionne le compteur
 
-3.  Sélectionne la roue dentée en haut à droite
+3.  Choisis la roue dentée en haut à droite
 
 4.  Réglages avancés (Erweiterte Einstellungen) 
 
 5.  Mettre Compteur actif (Zähler aktiv) sur Non (Nein)
 
-6.  Enregistrer
+6.  Enregistrer (Speichern)
 
 7.  Retour à la vue d'ensemble principale ou actualiser le navigateur
 
@@ -250,7 +250,7 @@ Si le compte est dans le modèle de licence Limited ou Professional.
 
 1.  Connecte-toi au portail smart-me 
 
-2.  Clique sur configurer
+2.  Clique sur configurer (konfigurieren)
 
 3.  Clique sur Configuration des compteurs/dossiers (Zähler/Ordner-Konfiguration)
 
@@ -260,12 +260,12 @@ Si le compte est dans le modèle de licence Limited ou Professional.
 
 6.  Décoche la case Compteur actif (Zähler aktiv)
 
-7.  Appuie sur Enregistrer.
+7.  Appuie sur Enregistrer (Speichern).
 
 
-Tu peux également déplacer les compteurs tous dans un dossier (p. ex. « compteurs désactivés ») et, par un clic droit sur le dossier correspondant, Actions de masse (Massenaktionen), Désactiver tous les compteurs (Alle Zähler deaktivieren), désactiver tous les compteurs simultanément. 
+En alternative, tu peux glisser les compteurs tous dans un dossier (p. ex. «compteurs désactivés») et, par un clic droit sur le dossier correspondant, Actions de masse (Massenaktionen), Désactiver tous les compteurs (Alle Zähler deaktivieren), désactiver tous les compteurs simultanément. 
 
-Remarque concernant les compteurs désactivés : un compteur désactivé ne coûte plus de licence, mais tu ne peux plus accéder non plus aux données passées du compteur tant qu'il est désactivé. De plus, pendant la période durant laquelle le compteur est désactivé, aucune nouvelle donnée de mesure du compteur n'est enregistrée dans le cloud.  
+Remarque concernant les compteurs désactivés : un compteur désactivé ne coûte plus de licence, mais tu ne peux plus accéder aux données passées du compteur tant qu'il est désactivé. Pendant la période où le compteur est désactivé, aucune nouvelle donnée de mesure du compteur n'est en outre enregistrée dans le cloud.  
 
 ## Contact
 
@@ -277,7 +277,7 @@ smart-me est un fournisseur de matériel et de technologie. Nous ne réalisons p
 
 ### Pour les clients privés
 
-En tant que client privé, tu trouveras nos partenaires de projet ici sur cette carte :
+En tant que client privé, tu trouveras nos partenaires de projet sur cette carte :
 
 [Afficher les partenaires de projet sur la carte](https://web.smart-me.com/projektpartner/)
 
@@ -287,7 +287,7 @@ Tu souhaites devenir partenaire ou suivre une formation ?
 
 [Vers l'inscription à la formation partenaire](https://web.smart-me.com/partner-werden/)
 
-### Contact pour la vente & les partenariats
+### Contact pour les ventes & les partenariats
 
 Téléphone : +41 41 511 09 99 E-mail : [info@smart-me.com](mailto:info@smart-me.com)
 
@@ -307,10 +307,6 @@ Support TeamViewer :
 
 Disponible uniquement sur rendez-vous téléphonique.
 
-[
-
-![Données techniques & manuels – illustration 17](/img/home/17.jpg)
-
-](https://get.teamviewer.com/68stbb8)
+[![Données techniques & manuels – illustration 17](/img/home/17.jpg)](https://get.teamviewer.com/68stbb8)
 
 [Télécharger Team Viewer pour smart-me](https://get.teamviewer.com/68stbb8)

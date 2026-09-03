@@ -3,4 +3,4 @@ title: 'Projektkonfigurator'
 slug: '/planung/Projektkonfigurator'
 sidebar_label: 'Projektkonfigurator'
 ---
-<Video src="" title="Custom embed" />
+<Embed src="/embeds/planung-projektkonfigurator-01.html" aspect="1.217" title="Projektkonfigurator" />

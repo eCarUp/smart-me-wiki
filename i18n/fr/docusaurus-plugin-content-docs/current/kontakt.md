@@ -1,10 +1,10 @@
 ---
 title: 'Contact'
 slug: '/kontakt'
-description: 'Si vous n''avez pas trouvé de réponse à votre question ici, notre support se tient volontiers à votre disposition.'
+description: 'Si vous n''avez pas trouvé ici de réponse à votre question, notre support se tient volontiers à votre disposition.'
 sidebar_label: 'Contact'
 ---
-Si vous n'avez pas trouvé de réponse à votre question ici, notre support se tient volontiers à votre disposition.
+Si vous n'avez pas trouvé ici de réponse à votre question, notre support se tient volontiers à votre disposition.
 
 ### Important à savoir
 
@@ -22,7 +22,7 @@ Vous souhaitez devenir partenaire ou suivre une formation ?
 
 [Vers l'inscription à la formation partenaire](https://web.smart-me.com/partner-werden/)
 
-### Contact pour la vente et les partenariats
+### Contact pour les ventes et les partenariats
 
 Téléphone : +41 41 511 09 99 E-mail : [info@smart-me.com](mailto:info@smart-me.com)
 
@@ -30,7 +30,7 @@ Téléphone : +41 41 511 09 99 E-mail : [info@smart-me.com](mailto:info@smart-me
 
 verkauf@smart-me.com / +41 41 511 09 99
 
-### Activation des licences :
+### Activer des licences :
 
 administration@smart-me.com / +41 41 511 09  99
 
@@ -42,10 +42,6 @@ Support TeamViewer :
 
 Disponible uniquement sur rendez-vous téléphonique.
 
-[
+[![Contact – illustration 1](/img/kontakt/01.jpg)](https://get.teamviewer.com/68stbb8)
 
-![Contact – illustration 1](/img/kontakt/01.jpg)
-
-](https://get.teamviewer.com/68stbb8)
-
-[Télécharger TeamViewer pour smart-me](https://get.teamviewer.com/68stbb8)
+[Télécharger Team Viewer pour smart-me](https://get.teamviewer.com/68stbb8)

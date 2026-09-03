@@ -201,9 +201,19 @@
   font-weight: var(--sm-fw-medium);
 }
 
-/* Aus dem Wiki migrierte Screenshots sollen nie über den Inhalt hinauslaufen. */
+/**
+ * Aus dem Wiki migrierte Bilder.
+ *
+ * Google Sites steuerte die Anzeigegrösse über eigene Layout-Klassen, die sich
+ * nicht rekonstruieren lassen. Ohne Begrenzung würde ein hochformatiges
+ * Produktfoto die volle Spaltenbreite einnehmen und damit über 700 Pixel hoch.
+ * Die Höhenbegrenzung greift nur dort: Die breiten Screenshots, die den
+ * Grossteil ausmachen, bleiben unverändert.
+ */
 .markdown img {
   max-width: 100%;
+  max-height: 480px;
+  width: auto;
   height: auto;
   border-radius: var(--sm-radius-sm);
 }

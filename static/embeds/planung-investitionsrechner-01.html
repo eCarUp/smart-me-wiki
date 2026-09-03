@@ -1,0 +1,1572 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZEV vs. REV Kostenvergleichsrechner</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Noto sans', sans-serif; }
+        .toggle-checkbox:checked { right: 0; border-color: #10B981; }
+        .toggle-checkbox:checked + .toggle-label { background-color: #10B981; }
+        #realTimeCostContainer, #spitzenTarifContainer, #peakCostCard, #zevMeterRentContainer, #zevBaseCostContainer, #batteryOptionsContainer, #spitzenTarifRevContainer, #revAccordionContainer { display: none; }
+        #erweiterteEinstellungen.hidden + div #erweitertButtonIcon { transform: rotate(0deg); }
+        #erweiterteEinstellungen:not(.hidden) + div #erweitertButtonIcon { transform: rotate(-180deg); }
+        .accordion-toggle svg { transition: transform 0.2s ease; }
+        .accordion-toggle.open svg { transform: rotate(0deg); }
+        .accordion-toggle:not(.open) svg { transform: rotate(-90deg); }
+        
+        /* NEU: REGELN FÜR MOBILE OPTIMIERUNG UND KLEINERE INPUTS */
+        @media (max-width: 1023px) { /* Laptops und kleiner */
+            .calculator-input-field {
+                padding: 0.375rem 0.5rem; /* py-1.5 px-2 anstelle von py-2 px-3 */
+                font-size: 0.875rem; /* text-sm */
+            }
+            .calculator-input-label {
+                font-size: 0.75rem; /* text-xs */
+            }
+        }
+    </style>
+</head>
+<body class="bg-gray-50 flex items-center justify-center min-h-screen p-4">
+    
+    <div class="w-full max-w-6xl bg-white p-6 sm:p-8 rounded-2xl shadow-lg relative">
+        
+        <div class="absolute top-6 right-6 sm:top-8 sm:right-8 z-10">
+            <button onclick="switchLanguage()" class="bg-white border border-gray-300 text-gray-700 px-3 py-1.5 rounded-lg shadow-sm hover:bg-gray-50 font-bold text-sm flex items-center gap-2 transition-colors">
+                <span id="langIcon">🇩🇪</span> <span id="langText">DE / EN</span>
+            </button>
+        </div>
+
+        <div class="mb-6 pr-32"> <h1 class="text-2xl sm:text-3xl font-bold text-gray-800" data-i18n="header_title">Interaktiver Kostenrechner:</h1>
+            <p class="text-gray-600 mt-2" data-i18n="header_subtitle">Passen Sie die Werte an, um die Rentabilität der Zählerinvestition zu vergleichen.</p>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            <div class="lg:col-span-1 bg-gray-50 p-6 rounded-xl border border-gray-200 flex flex-col">
+                <div class="flex-grow">
+                    <h2 class="text-xl font-semibold text-gray-700 mb-4" data-i18n="section_parameters">Parameter</h2>
+
+                    <div class="space-y-5">
+                        <div>
+                            <label for="messpunkte" class="block text-sm font-medium text-gray-700"><span data-i18n="label_units">Anzahl Wohneinheiten:</span> <span id="messpunkteValue" class="font-bold text-green-600">10</span></label>
+                            <input type="range" id="messpunkte" min="2" max="400" value="10" class="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer">
+                        </div>
+                        <div>
+                            <label for="eMobilitySlider" class="block text-sm font-medium text-gray-700"><span data-i18n="label_evs">Anzahl E-Fahrzeuge:</span> <span id="eMobilityValue" class="font-bold text-green-600">5</span></label>
+                            <input type="range" id="eMobilitySlider" min="0" max="100" value="5" class="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer">
+                        </div>
+                        <div>
+                            <label for="solarInvestmentSlider" class="block text-sm font-medium text-gray-700"><span data-i18n="label_solar_size">Anlagengrösse:</span> <span id="solarInvestmentValue" class="font-bold text-green-600">30 kWp</span></label>
+                            <input type="range" id="solarInvestmentSlider" min="0" max="15" value="3" step="1" class="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer">
+                        </div>
+                    </div>
+
+                    <div class="mt-5 space-y-2">
+                        <div class="space-y-2">
+                            <button id="toggleTarifEbene" class="accordion-toggle flex justify-between items-center w-full p-3 bg-gray-100 rounded-lg font-medium text-gray-700 hover:bg-gray-200">
+                                <span data-i18n="tab_grid_tariff">Netztarif Definition</span>
+                                <svg class="w-4 h-4 transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                            </button>
+                            <div id="tarifEbeneContent" class="accordion-content hidden space-y-4 p-4 border rounded-b-lg">
+                                <div>
+                                    <label class="calculator-input-label block text-sm font-medium text-gray-700" data-i18n="label_rev_meter_rent">Zählermiete Energieversorger (CHF/Monat)</label>
+                                    <input type="number" id="revMeterRentOnly" value="6.50" step="0.1" class="calculator-input-field mt-1 block w-full px-3 py-2 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-green-500 focus:border-green-500">
+                                </div>
+                                <div>
+                                    <label class="calculator-input-label block text-sm font-medium text-gray-700" data-i18n="label_rev_base_cost">Grundkosten Energieversorger inkl. MWST (CHF/Monat)</label>
+                                    <input type="number" id="revBaseCost" value="4.10" step="0.1" class="calculator-input-field mt-1 block w-full px-3 py-2 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-green-500 focus:border-green-500">
+                                </div>
+                                <div>
+                                    <label class="calculator-input-label block text-sm font-medium text-gray-700" data-i18n="label_grid_tariff_ref">Normalverbraucher Netztarif (Referenz) inkl. MWST (CHF/kWh)</label>
+                                    <input type="number" id="netzTarif" value="0.22" step="0.01" class="calculator-input-field mt-1 block w-full px-3 py-2 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-green-500 focus:border-green-500">
+                                </div>
+                                <div>
+                                    <label class="calculator-input-label block text-sm font-medium text-gray-700" data-i18n="label_feed_in">Rückliefervergütung (Einspeisung) (CHF/kWh)</label>
+                                    <input type="number" id="feedInTariff" value="0.06" step="0.01" class="calculator-input-field mt-1 block w-full px-3 py-2 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-green-500 focus:border-green-500">
+                                </div>
+                                <div class="p-2 bg-white rounded-lg border">
+                                    <div class="flex items-center justify-between">
+                                        <span class="block text-sm font-medium text-gray-700" data-i18n="label_grid_usage">Netzbezug</span>
+                                        <span id="netzbezugDisplay" class="text-sm font-bold text-gray-800">0 kWh</span>
+                                    </div>
+                                    <p id="netzbezugHinweis" class="mt-2 text-xs text-yellow-800 bg-yellow-100 p-2 rounded-md" style="display: none;" data-i18n="warning_grid_usage">
+                                        Wenn der Netzbezug > 50'000 kWh beträgt ist es wahrscheinlich das der Tarif zu einem Spitzentarif wechselt!
+                                    </p>
+                                </div>
+                                <div class="flex items-center justify-between p-2 bg-white rounded-lg border">
+                                    <label class="block text-sm font-medium text-gray-700" data-i18n="label_with_peak_tariff">Mit Spitzentarif</label>
+                                    <div class="relative inline-block w-10 align-middle select-none">
+                                        <input type="checkbox" name="spitzenTarifToggle" id="spitzenTarifToggle" class="toggle-checkbox absolute block w-6 h-6 rounded-full bg-white border-4 appearance-none cursor-pointer transition-all duration-300"/>
+                                        <label for="spitzenTarifToggle" class="toggle-label block overflow-hidden h-6 rounded-full bg-gray-300 cursor-pointer"></label>
+                                    </div>
+                                </div>
+                                <div id="spitzenTarifContainer" class="space-y-4">
+                                    <div>
+                                        <label class="calculator-input-label block text-sm font-medium text-gray-700" data-i18n="label_bulk_tariff">Grossverbraucher Netztarif inkl. MWST (CHF/kWh)</label>
+                                        <input type="number" id="netzTarifZevKwh" value="0.18" step="0.01" class="calculator-input-field mt-1 block w-full px-3 py-2 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-green-500 focus:border-green-500">
+                                    </div>
+                                     <div>
+                                        <label class="calculator-input-label block text-sm font-medium text-gray-700" data-i18n="label_bulk_peak">Grossverbraucher Spitzentarif (CHF/kW pro Monat)</label>
+                                        <input type="number" id="spitzenTarifZev" value="9.5" step="0.1" class="calculator-input-field mt-1 block w-full px-3 py-2 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-green-500 focus:border-green-500">
+                                    </div>
+                                    <div id="zevMeterRentContainer">
+                                        <label class="calculator-input-label block text-sm font-medium text-gray-700" data-i18n="label_bulk_meter_rent">Grossverbraucher Zählermiete (CHF/Monat)</label>
+                                        <input type="number" id="zevMeterRentOnly" value="13" step="0.1" class="calculator-input-field mt-1 block w-full px-3 py-2 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-green-500 focus:border-green-500">
+                                    </div>
+                                    <div id="zevBaseCostContainer">
+                                        <label class="calculator-input-label block text-sm font-medium text-gray-700" data-i18n="label_bulk_base_cost">Grossverbraucher Grundkosten (CHF/Monat)</label>
+                                        <input type="number" id="zevBaseCost" value="4.1" step="0.1" class="calculator-input-field mt-1 block w-full px-3 py-2 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-green-500 focus:border-green-500">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- NEU: HINWEIS ZUR GENAUEN EINGABE -->
+                        <div class="p-3 bg-indigo-50 border border-indigo-200 rounded-lg text-xs text-indigo-800" id="inputHint">
+                            <span data-i18n="hint_input_precision">💡 Für präzise Eingaben verwenden Sie die Pfeil-Tasten (↑↓) auf dem Desktop oder klicken Sie direkt in das Feld.</span>
+                        </div>
+                        <!-- ENDE HINWEIS -->
+
+                    </div>
+
+
+                    <div class="mt-5">
+                        <div class="flex items-center justify-between p-2 bg-white rounded-lg border border-blue-300">
+                            <label class="block text-sm font-medium text-blue-700" data-i18n="toggle_zev_rev">ZEV vs. REV Vergleich</label>
+                            <div class="relative inline-block w-10 align-middle select-none">
+                                <input type="checkbox" name="vergleichsModusToggle" id="vergleichsModusToggle" class="toggle-checkbox absolute block w-6 h-6 rounded-full bg-white border-4 appearance-none cursor-pointer transition-all duration-300"/>
+                                <label for="vergleichsModusToggle" class="toggle-label block overflow-hidden h-6 rounded-full bg-gray-300 cursor-pointer"></label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="revAccordionContainer" class="hidden mt-5 space-y-2">
+                        <div class="space-y-2">
+                            <button id="toggleRevOptionen" class="accordion-toggle open flex justify-between items-center w-full p-3 bg-blue-100 rounded-lg font-medium text-blue-700 hover:bg-blue-200">
+                                <span data-i18n="tab_rev_params">Parameter (REV-Vergleichsmodell)</span>
+                                <svg class="w-4 h-4 transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                            </button>
+                            <div id="revOptionenContent" class="accordion-content space-y-4 p-4 border rounded-b-lg">
+                                <div id="revParameterContainer" class="space-y-5">
+                                    <h4 class="text-md font-semibold text-gray-600 pt-2 border-b" data-i18n="header_rev_tariff">Tarif-Ebene (REV)</h4>
+                                    <div id="spitzenTarifRevContainer">
+                                        <label class="calculator-input-label block text-sm font-medium text-gray-700" data-i18n="label_rev_peak_tariff">Spitzentarif REV (CHF/kW pro Monat)</label>
+                                        <input type="number" id="spitzenTarifRev" value="0" step="0.1" class="calculator-input-field mt-1 block w-full px-3 py-2 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500">
+                                    </div>
+                                    <div>
+                                        <label class="calculator-input-label block text-sm font-medium text-gray-700" data-i18n="label_rev_solar_tariff">REV Solartarif (CHF/kWh)</label>
+                                        <input type="number" id="revSolarTarif" value="0.18" step="0.01" class="calculator-input-field mt-1 block w-full px-3 py-2 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-green-500 focus:border-green-500">
+                                    </div>
+                                    <div>
+                                        <label class="calculator-input-label block text-sm font-medium text-gray-700" data-i18n="label_rev_service_tariff">Dienstleistungstarif REV (CHF/kWh)</label>
+                                        <input type="number" id="revServiceTariff" value="0.03" step="0.01" class="calculator-input-field mt-1 block w-full px-3 py-2 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-green-500 focus:border-green-500">
+                                    </div>
+
+                                    <h4 class="text-md font-semibold text-gray-600 pt-2 border-b" data-i18n="header_rev_infra">Infrastruktur-Ebene (REV)</h4>
+                                    <div>
+                                        <label class="calculator-input-label block text-sm font-medium text-gray-700" data-i18n="label_rev_setup_cost">Einrichtungskosten REV (CHF/Messpunkt)</label>
+                                        <input type="number" id="revSetupCostPerMeter" value="99" class="calculator-input-field mt-1 block w-full px-3 py-2 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-green-500 focus:border-green-500">
+                                    </div>
+                                    <div id="realTimeCostContainer">
+                                        <label class="calculator-input-label block text-sm font-medium text-gray-700" data-i18n="label_rev_adapter_cost">Zusatzkosten Adapter REV inkl. MWST (CHF/Messpunkt)</label>
+                                        <input type="number" id="realTimeCostPerMeter" value="120" class="calculator-input-field mt-1 block w-full px-3 py-2 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-green-500 focus:border-green-500">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-5">
+                        <button id="toggleErweitertButton" class="w-full px-4 py-2 bg-gray-200 text-gray-700 font-medium rounded-lg hover:bg-gray-300 transition-all flex items-center justify-center">
+                            <span id="erweitertButtonText" data-i18n="btn_advanced_show">Erweiterte Gebäude Einstellungen anzeigen</span>
+                            <svg id="erweitertButtonIcon" class="w-4 h-4 ml-2 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                        </button>
+                    </div>
+
+                    <div id="erweiterteEinstellungen" class="hidden mt-5 space-y-4 p-4 border rounded-lg bg-gray-100"> 
+                        <div class="flex items-center justify-between p-2 bg-white rounded-lg border">
+                            <label class="block text-sm font-medium text-gray-700" data-i18n="toggle_heating">Elektrisches Heizsystem</label>
+                            <div class="relative inline-block w-10 align-middle select-none">
+                                <input type="checkbox" name="heizungToggle" id="heizungToggle" class="toggle-checkbox absolute block w-6 h-6 rounded-full bg-white border-4 appearance-none cursor-pointer transition-all duration-300" checked/>
+                                <label for="heizungToggle" class="toggle-label block overflow-hidden h-6 rounded-full bg-gray-300 cursor-pointer"></label>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center justify-between p-2 bg-white rounded-lg border">
+                            <label class="block text-sm font-medium text-gray-700" data-i18n="toggle_storage">Mit Speicher</label>
+                            <div class="relative inline-block w-10 align-middle select-none">
+                                <input type="checkbox" name="speicherToggle" id="speicherToggle" class="toggle-checkbox absolute block w-6 h-6 rounded-full bg-white border-4 appearance-none cursor-pointer transition-all duration-300"/>
+                                <label for="speicherToggle" class="toggle-label block overflow-hidden h-6 rounded-full bg-gray-300 cursor-pointer"></label>
+                            </div>
+                        </div>
+                        <div id="batteryOptionsContainer" class="p-2 bg-white rounded-lg border">
+                            <label for="batterySizeSlider" class="block text-sm font-medium text-gray-700">
+                                <span data-i18n="label_storage_size">Speichergrösse:</span> <span id="batterySizeValue" class="font-bold text-green-600">5 kWh</span>
+                            </label>
+                            <!-- ANPASSUNG: max-Wert auf 80 und step auf 10 erhöht -->
+                            <input id="batterySizeSlider" type="range" min="5" max="80" step="5" value="5" class="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer mt-1">
+                        </div>
+                        <div class="flex items-center justify-between p-2 bg-white rounded-lg border">
+                            <label class="block text-sm font-medium text-gray-700" data-i18n="toggle_realtime">Mit Echtzeitdaten-Steuerung</label>
+                            <div class="relative inline-block w-10 align-middle select-none">
+                                <input type="checkbox" name="realTimeToggle" id="realTimeToggle" class="toggle-checkbox absolute block w-6 h-6 rounded-full bg-white border-4 appearance-none cursor-pointer transition-all duration-300"/>
+                                <label for="realTimeToggle" class="toggle-label block overflow-hidden h-6 rounded-full bg-gray-300 cursor-pointer"></label>
+                            </div>
+                        </div>
+                         <div class="flex items-center justify-between p-2 bg-white rounded-lg border">
+                            <label class="block text-sm font-medium text-gray-700" data-i18n="toggle_smartme">Abrechnungsdienstleistung smart-me Autobill</label>
+                            <div class="relative inline-block w-10 align-middle select-none">
+                                <input type="checkbox" name="smartmeToggle" id="smartmeToggle" class="toggle-checkbox absolute block w-6 h-6 rounded-full bg-white border-4 appearance-none cursor-pointer transition-all duration-300"/>
+                                <label for="smartmeToggle" class="toggle-label block overflow-hidden h-6 rounded-full bg-gray-300 cursor-pointer"></label>
+                            </div>
+                        </div>
+
+                    </div> 
+
+                </div>
+            </div>
+
+
+            <div class="lg:col-span-2">
+                <div class="h-96 sm:h-[500px]">
+                    <canvas id="costComparisonChart"></canvas>
+                </div>
+                <div id="infokartenContainer" class="mt-8 grid grid-cols-1 md:grid-cols-2 gap-6 text-sm">
+                    <div id="zevInfokarte" class="bg-green-50 border-l-4 border-green-500 p-4 rounded-r-lg">
+                        <h3 class="font-bold text-green-800" data-i18n="card_zev_title">ZEV (Zusammenschluss zum Eigenverbrauch)</h3>
+                        <p class="text-green-700 mt-1" data-i18n="card_zev_desc">Höhere Anfangsinvestition in Zähler, aber durch optimierten Eigenverbrauch und höhere Solarstromgewinne langfristig deutlich profitabler.</p>
+                        <ul class="text-green-700 list-none space-y-1 mt-2">
+                            <li class="flex"><span class="text-green-500 font-bold w-4 flex-shrink-0">+</span><span data-i18n="card_zev_point1">Inflationsschutz durch Investition</span></li>
+                            <li class="flex"><span class="text-green-500 font-bold w-4 flex-shrink-0">+</span><span data-i18n="card_zev_point2">Freie Solartarifwahl</span></li>
+                            <li class="flex"><span class="text-green-500 font-bold w-4 flex-shrink-0">+</span><span data-i18n="card_zev_point3">Freie Wahl des Abrechnungsdienstleisters</span></li>
+                            <li class="flex"><span class="text-green-500 font-bold w-4 flex-shrink-0">+</span><span data-i18n="card_zev_point4">Echtzeitsteuerung ist Teil der Kernaufgabe</span></li>
+                        </ul>
+                    </div>
+                    <div id="revInfokarte" class="bg-blue-50 border-l-4 border-blue-500 p-4 rounded-r-lg">
+                        <h3 class="font-bold text-blue-800" data-i18n="card_rev_title">REV (Regel-Eigenverbrauch)</h3>
+                        <p class="text-blue-700 mt-1" data-i18n="card_rev_desc">Geringere Einstiegskosten für Zähler, jedoch schmälern laufende Kosten und geringere Einnahmen den Gesamtgewinn über die Laufzeit.</p>
+                         <ul class="text-blue-700 list-none space-y-1 mt-2">
+                            <li class="flex"><span class="text-blue-500 font-bold w-4 flex-shrink-0">-</span><span data-i18n="card_rev_point1">Inflationsgefahr durch Mietkosten</span></li>
+                            <li class="flex"><span class="text-blue-500 font-bold w-4 flex-shrink-0">-</span><span data-i18n="card_rev_point2">Fixierter und gewählter Solartarif durch Versorger</span></li>
+                            <li class="flex"><span class="text-blue-500 font-bold w-4 flex-shrink-0">-</span><span data-i18n="card_rev_point3">Steuerung ist Nebenschauplatz mit Adaptern</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="mt-4 space-y-4">
+                    <div id="mieterVorteilContainer" class="bg-gray-100 p-4 rounded-lg">
+                        <h4 class="font-semibold text-gray-800 text-center" data-i18n="card_tenant_benefit">Preisvorteil für Mieter / Teilnehmer</h4>
+                        <div id="mieterVorteilGrid" class="grid grid-cols-2 gap-4 mt-2 text-center">
+                            <div id="mieterVorteilZev" class="space-y-2">
+                                <p class="text-sm font-semibold text-gray-600" data-i18n="benefit_zev_header">ZEV (Vorteil vs. Netz)</p>
+                                <div>
+                                    <p class="text-xs text-gray-500" data-i18n="benefit_solar">Solarstrom-Vorteil</p>
+                                    <p class="text-md font-bold text-green-600" id="zevSolarSavingsDisplay"></p>
+                                </div>
+                                <div id="zevGridSavingContainer" style="display: none;">
+                                    <p class="text-xs text-gray-500" data-i18n="benefit_grid">Netzstrom-Vorteil</p>
+                                    <p class="text-md font-bold text-green-600" id="zevGridSavingsDisplay"></p>
+                                </div>
+                                <div>
+                                    <p class="text-xs text-gray-500" data-i18n="benefit_meter">Zählerkosten-Vorteil</p>
+                                    <p class="text-md font-bold text-green-600" id="zevMeterSavingsDisplay"></p>
+                                </div>
+                                <div id="zevPeakSavingContainer" style="display: none;">
+                                    <p class="text-xs text-gray-500" data-i18n="benefit_peak">Spitzenlast-Vorteil</p>
+                                    <p class="text-md font-bold text-green-600" id="zevPeakSavingsDisplay"></p>
+                                </div>
+                                <div class="pt-2 border-t mt-2">
+                                     <p class="text-sm font-semibold text-gray-700" data-i18n="benefit_total_25">Gesamtersparnis (25 J.)</p>
+                                     <p class="text-lg font-bold text-green-700" id="zevTotalSavings25"></p>
+                                </div>
+                            </div>
+                            <div id="mieterVorteilRev" class="space-y-2">
+                                <p class="text-sm font-semibold text-gray-600" data-i18n="benefit_rev_header">REV (Vorteil vs. Netz)</p>
+                                <div>
+                                    <p class="text-xs text-gray-500" data-i18n="benefit_solar">Solarstrom-Vorteil</p>
+                                    <p class="text-md font-bold text-blue-600" id="revSolarSavingsDisplay"></p>
+                                </div>
+                                 <div class="pt-2 border-t mt-2">
+                                     <p class="text-sm font-semibold text-gray-700" data-i18n="benefit_total_25">Gesamtersparnis (25 J.)</p>
+                                     <p class="text-lg font-bold text-blue-700" id="revTotalSavings25"></p>
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="gesamtbilanzContainer" class="bg-gray-100 p-4 rounded-lg text-center">
+                        <h4 class="font-semibold text-gray-800" data-i18n="card_project_balance">Projekt-Gesamtbilanz (inkl. PV-Investition)</h4>
+                        <div id="gesamtbilanzGrid" class="grid grid-cols-2 gap-4 mt-2">
+                            <div id="gesamtbilanzZev" class="space-y-2">
+                                <div>
+                                    <p class="text-sm text-gray-600" data-i18n="balance_zev_19">ZEV nach 19 J.</p>
+                                    <p class="text-lg font-bold" id="zevBalance19"></p>
+                                </div>
+                                <div>
+                                    <p class="text-sm text-gray-600" data-i18n="balance_zev_25">ZEV nach 25 J.</p>
+                                    <p class="text-lg font-bold" id="zevBalance25"></p>
+                                </div>
+                                <div>
+                                    <p class="text-sm text-gray-600" data-i18n="balance_zev_30">ZEV nach 30 J.</p>
+                                    <p class="text-lg font-bold" id="zevBalance30"></p>
+                                </div>
+                            </div>
+                            <div id="gesamtbilanzRev" class="space-y-2">
+                                <div>
+                                    <p class="text-sm text-gray-600" data-i18n="balance_rev_19">REV nach 19 J.</p>
+                                    <p class="text-lg font-bold" id="revBalance19"></p>
+                                </div>
+                                <div>
+                                    <p class="text-sm text-gray-600" data-i18n="balance_rev_25">REV nach 25 J.</p>
+                                    <p class="text-lg font-bold" id="revBalance25"></p>
+                                </div>
+                                <div>
+                                    <p class="text-sm text-gray-600" data-i18n="balance_rev_30">REV nach 30 J.</p>
+                                    <p class="text-lg font-bold" id="revBalance30"></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="pvAmortisationContainer" class="bg-gray-100 p-4 rounded-lg text-center">
+                        <h4 id="pvAmortizationTitle" class="font-semibold text-gray-800" data-i18n="card_pv_amortization">Amortisation der PV-Anlage</h4>
+                        <div id="pvAmortisationGrid" class="grid grid-cols-2 gap-4 mt-2">
+                            <div id="pvAmortisationZev">
+                                <p class="text-sm text-gray-600">ZEV</p>
+                                <p class="text-lg font-bold text-green-600" id="zevPvAmortization"></p>
+                            </div>
+                            <div id="pvAmortisationRev">
+                                <p class="text-sm text-gray-600">REV</p>
+                                <p class="text-lg font-bold text-blue-600" id="revPvAmortization"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="infraAmortisationContainer" class="bg-gray-100 p-4 rounded-lg text-center">
+                        <h4 class="font-semibold text-gray-800" data-i18n="card_infra_amortization">Amortisation der Infrastruktur</h4>
+                        <div id="infraAmortisationGrid" class="grid grid-cols-2 gap-4 mt-2">
+                            <div id="infraAmortisationZev">
+                                <p class="text-sm text-gray-600" data-i18n="infra_zev">ZEV (Zähler)</p>
+                                <p class="text-lg font-bold text-green-600" id="zevAmortization"></p>
+                            </div>
+                            <div id="infraAmortisationRev">
+                                <p class="text-sm text-gray-600" data-i18n="infra_rev">REV (Adapter)</p>
+                                <p class="text-lg font-bold text-blue-600" id="revAmortization"></p>
+                            </div>
+                        </div>
+                    </div>
+                     <div id="gesamtvorteilContainer" class="bg-yellow-50 border-l-4 border-yellow-500 p-4 rounded-r-lg text-center">
+                        <h4 class="font-bold text-yellow-800" data-i18n="card_total_eco_benefit">Gesamtwirtschaftlicher Vorteil (Eigentümer + Mieter)</h4>
+                        <div id="gesamtvorteilGrid" class="grid grid-cols-2 gap-4 mt-2">
+                            <div id="gesamtvorteilZev" class="space-y-2">
+                                <div>
+                                    <p class="text-sm text-gray-600" data-i18n="balance_zev_25">ZEV nach 25 J.</p>
+                                    <p class="text-xl font-extrabold text-green-700" id="zevTotalAdvantage25"></p>
+                                </div>
+                                <div>
+                                    <p class="text-sm text-gray-600" data-i18n="balance_zev_30">ZEV nach 30 J.</p>
+                                    <p class="text-xl font-extrabold text-green-700" id="zevTotalAdvantage30"></p>
+
+                                </div>
+                            </div>
+                            <div id="gesamtvorteilRev" class="space-y-2">
+                                <div>
+                                    <p class="text-sm text-gray-600" data-i18n="balance_rev_25">REV nach 25 J.</p>
+                                    <p class="text-xl font-extrabold text-blue-700" id="revTotalAdvantage25"></p>
+                                </div>
+                                <div>
+                                    <p class="text-sm text-gray-600" data-i18n="balance_rev_30">REV nach 30 J.</p>
+                                    <p class="text-xl font-extrabold text-blue-700" id="revTotalAdvantage30"></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                 <div class="mt-6 bg-gray-50 p-4 rounded-lg border border-gray-200 text-sm text-gray-600">
+                    <h4 class="font-semibold text-gray-800 mb-2" data-i18n="calc_basis_title">Berechnungsgrundlagen</h4>
+                    <ul class="list-disc list-inside space-y-1">
+                        <li><span data-i18n="calc_consumption_unit">Wohnungsverbrauch p. WE (Total):</span> <strong id="wohnungVerbrauchDisplay" class="text-gray-900">0 kWh</strong></li>
+                        <li><span class="ml-4">└ <span data-i18n="calc_season"> (Sommer/Winter):</span> <strong id="wohnungVerbrauchSaisonDisplay" class="text-gray-900">0 kWh / 0 kWh</strong></span></li>
+                        <li><span data-i18n="calc_consumption_heating">Heizungsverbrauch p. WE (Total):</span> <strong id="heizungVerbrauchDisplay" class="text-gray-900">0 kWh</strong></li>
+                        <li><span class="ml-4">└ <span data-i18n="calc_season"> (Sommer/Winter):</span> <strong id="heizungVerbrauchSaisonDisplay" class="text-gray-900">0 kWh / 0 kWh</strong></span></li>
+                        <li><span data-i18n="calc_consumption_ev">Verbrauch E-Fahrzeug p.a. (Total):</span> <strong id="emobVerbrauchDisplay" class="text-gray-900">0 kWh</strong></li>
+                        <li><span class="ml-4">└ <span data-i18n="calc_season"> (Sommer/Winter):</span> <strong id="emobVerbrauchSaisonDisplay" class="text-gray-900">0 kWh / 0 kWh</strong></span></li>
+
+                        <li class="pt-2 font-semibold"><span data-i18n="calc_total_property">Total Liegenschaftsverbrauch:</span> <strong id="liegenschaftGesamtverbrauchDisplay" class="text-gray-900">0 kWh</strong></li>
+                        <li id="virtuellerPeakContainer" style="display: none;"><span data-i18n="calc_virtual_peak">Virtueller Hausanschlusspeak (ZEV):</span> <strong id="virtuellerPeakDisplay" class="text-gray-900">0 kW</strong></li>
+                        <hr class="my-2 border-gray-300">
+                        <li><span data-i18n="calc_solar_production">Jährliche Solarproduktion:</span> <strong id="solarProductionDisplay" class="text-gray-900">0 kWh</strong></li>
+                        <!-- NEU: Detaillierte Aufteilung der Produktion -->
+                        <li><span class="ml-4">└ <span data-i18n="calc_production_season"> (Sommer/Winter Aufteilung):</span> <strong class="text-gray-900">70% / 30%</strong></span></li>
+                        <!-- ENDE NEU -->
+                        <li><span data-i18n="calc_production_cost">Produktionskosten:</span> <strong id="productionCostDisplay" class="text-gray-900">0.00 CHF/kWh</strong></li>
+                        <li><span data-i18n="calc_invest_gross">Investition (Brutto):</span> <strong id="investitionBruttoDisplay" class="text-gray-900">0 CHF</strong></li>
+                        <li><span data-i18n="calc_subsidy">Förderung (EIV):</span> <strong id="foerderungDisplay" class="text-gray-900">0 CHF</strong>
+                            <!-- NEU: Pronovo-Hinweis -->
+                            <span class="ml-4 text-xs italic text-gray-500" data-i18n="calc_subsidy_basis">(Basierend auf Pronovo-Tarifen 2025)</span>
+                            <!-- ENDE NEU -->
+                        </li>
+                        <li class="font-semibold"><span data-i18n="calc_cost_net">Zu amortisierende Kosten (Netto):</span> <strong id="kostenNettoDisplay" class="text-gray-900">0 CHF</strong></li>
+                        <li id="batteryAmortizationCostContainer" style="display: none;" class="font-semibold"><span data-i18n="calc_cost_battery">Zu amortisierende Kosten (Batterie):</span> <strong id="batteryAmortizationCostDisplay" class="text-gray-900">0 CHF</strong></li>
+                        <li id="totalAmortizationCostContainer" style="display: none;" class="font-bold">└ <span data-i18n="calc_cost_total_net">Total zu amortisierende Kosten (Netto):</span> <strong id="totalAmortizationCostDisplay" class="text-gray-900">0 CHF</strong></li>
+                        <hr class="my-2 border-gray-300">
+                        <li><span data-i18n="calc_self_consumption">Eigenverbrauchsgrad (dynamisch):</span> <strong id="eigenverbrauchDisplay" class="text-gray-900">40.0%</strong></li>
+                        <!-- NEUE ERGÄNZUNG: Batterie-Ladung -->
+                        <li id="batterySourceNote" style="display: none;"><span data-i18n="calc_battery_source" class="font-medium text-gray-700">Batterieversorgung:</span> <strong class="text-gray-900">Ausschließlich Eigenproduktion (Solarstrom).</strong></li>
+                        <!-- ENDE NEUE ERGÄNZUNG -->
+                        <li><span data-i18n="calc_fed_in">Eingespeister Solarstrom:</span> <strong id="eingespeistDisplay" class="text-gray-900">0%</strong></li>
+                        <li><span data-i18n="calc_feed_in_tariff">Rückvergütungstarif für eingespeiste Energie:</span> <strong id="feedInTariffDisplay" class="text-gray-900">0.06 CHF/kWh</strong></li>
+                        <li><span data-i18n="calc_amortization_period">Amortisationsdauer der Solaranlage:</span> <strong class="text-gray-900">25 <span data-i18n="years">Jahre</span></strong></li>
+                        <li><span data-i18n="calc_zev_rule">Der ZEV-Solartarif ist fix mit der</span> <strong class="text-gray-900">80%-Regel</strong> <span data-i18n="calc_zev_rule_suffix">vom Netztarif umgesetzt.</span></li>
+                    </ul>
+                    <p class="mt-4 text-xs italic text-gray-500" data-i18n="calc_disclaimer">*Alle gezeigten Berechnungen sind auf obigen Berechnungsgrundlagen basierend. Dies lässt keine genaue Berechnung ihrer individuellen Anlage zu und dient nur de Veranschaulichung der Situation und dem Vergleich ZEV vs. REV. Beim Vergleich sind beide Modelle den gleichen Regeln unterworfen z.B . wenn das Gebäude mit Echtzeitdaten optimiert ist, gilt dies für beide Modelle.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // --- Übersetzungswörterbuch ---
+        const translations = {
+            de: {
+                header_title: "Interaktiver Kostenrechner:",
+                header_subtitle: "Passen Sie die Werte an, um die Rentabilität der Zählerinvestition zu vergleichen.",
+                section_parameters: "Parameter",
+                label_units: "Anzahl Wohneinheiten:",
+                label_evs: "Anzahl E-Fahrzeuge:",
+                label_solar_size: "Anlagengrösse:",
+                tab_grid_tariff: "Netztarif Definition",
+                label_rev_meter_rent: "Zählermiete Energieversorger (CHF/Monat)",
+                label_rev_base_cost: "Grundkosten Energieversorger inkl. MWST (CHF/Monat)",
+                label_grid_tariff_ref: "Normalverbraucher Netztarif (Referenz) inkl. MWST (CHF/kWh)",
+                label_feed_in: "Rückliefervergütung (Einspeisung) (CHF/kWh)",
+                label_grid_usage: "Netzbezug",
+                warning_grid_usage: "Wenn der Netzbezug > 50'000 kWh beträgt ist es wahrscheinlich das der Tarif zu einem Spitzentarif wechselt!",
+                label_with_peak_tariff: "Mit Spitzentarif",
+                label_bulk_tariff: "Grossverbraucher Netztarif inkl. MWST (CHF/kWh)",
+                label_bulk_peak: "Grossverbraucher Spitzentarif (CHF/kW pro Monat)",
+                label_bulk_meter_rent: "Grossverbraucher Zählermiete (CHF/Monat)",
+                label_bulk_base_cost: "Grossverbraucher Grundkosten (CHF/Monat)",
+                toggle_zev_rev: "ZEV vs. REV Vergleich",
+                tab_rev_params: "Parameter (REV-Vergleichsmodell)",
+                header_rev_tariff: "Tarif-Ebene (REV)",
+                label_rev_peak_tariff: "Spitzentarif REV (CHF/kW pro Monat)",
+                label_rev_solar_tariff: "REV Solartarif (CHF/kWh)",
+                label_rev_service_tariff: "Dienstleistungstarif REV (CHF/kWh)",
+                header_rev_infra: "Infrastruktur-Ebene (REV)",
+                label_rev_setup_cost: "Einrichtungskosten REV (CHF/Messpunkt)",
+                label_rev_adapter_cost: "Zusatzkosten Adapter REV inkl. MWST (CHF/Messpunkt)",
+                btn_advanced_show: "Erweiterte Gebäude Einstellungen anzeigen",
+                btn_advanced_hide: "Erweiterte Gebäude Einstellungen ausblenden",
+                toggle_heating: "Elektrisches Heizsystem",
+                toggle_storage: "Mit Speicher",
+                label_storage_size: "Speichergrösse:",
+                toggle_realtime: "Mit Echtzeitdaten-Steuerung",
+                toggle_smartme: "Abrechnungsdienstleistung smart-me Autobill",
+                card_zev_title: "ZEV (Zusammenschluss zum Eigenverbrauch)",
+                card_zev_desc: "Höhere Anfangsinvestition in Zähler, aber durch optimierten Eigenverbrauch und höhere Solarstromgewinne langfristig deutlich profitabler.",
+                card_zev_point1: "Inflationsschutz durch Investition",
+                card_zev_point2: "Freie Solartarifwahl",
+                card_zev_point3: "Freie Wahl des Abrechnungsdienstleisters",
+                card_zev_point4: "Echtzeitsteuerung ist Teil der Kernaufgabe",
+                card_rev_title: "REV (Regel-Eigenverbrauch)",
+                card_rev_desc: "Geringere Einstiegskosten für Zähler, jedoch schmälern laufende Kosten und geringere Einnahmen den Gesamtgewinn über die Laufzeit.",
+                card_rev_point1: "Inflationsgefahr durch Mietkosten",
+                card_rev_point2: "Fixierter und gewählter Solartarif durch Versorger",
+                card_rev_point3: "Steuerung ist Nebenschauplatz mit Adaptern",
+                card_tenant_benefit: "Preisvorteil für Mieter / Teilnehmer",
+                benefit_zev_header: "ZEV (Vorteil vs. Netz)",
+                benefit_rev_header: "REV (Vorteil vs. Netz)",
+                benefit_solar: "Solarstrom-Vorteil",
+                benefit_grid: "Netzstrom-Vorteil",
+                benefit_meter: "Zählerkosten-Vorteil",
+                benefit_peak: "Spitzenlast-Vorteil",
+                benefit_total_25: "Gesamtersparnis (25 J.)",
+                card_project_balance: "Projekt-Gesamtbilanz (inkl. PV-Investition)",
+                balance_zev_19: "ZEV nach 19 J.",
+                balance_zev_25: "ZEV nach 25 J.",
+                balance_zev_30: "ZEV nach 30 J.",
+                balance_rev_19: "REV nach 19 J.",
+                balance_rev_25: "REV nach 25 J.",
+                balance_rev_30: "REV nach 30 J.",
+                card_pv_amortization: "Amortisation der PV-Anlage",
+                card_pv_amortization_batt: "Amortisation PV + Batterie",
+                card_infra_amortization: "Amortisation der Infrastruktur",
+                infra_zev: "ZEV (Zähler)",
+                infra_rev: "REV (Adapter)",
+                card_total_eco_benefit: "Gesamtwirtschaftlicher Vorteil (Eigentümer + Mieter)",
+                calc_basis_title: "Berechnungsgrundlagen",
+                calc_consumption_unit: "Wohnungsverbrauch p. WE (Total):",
+                calc_season: "(Sommer/Winter):",
+                calc_consumption_heating: "Heizungsverbrauch p. WE (Total):",
+                calc_consumption_ev: "Verbrauch E-Fahrzeug p.a. (Total):",
+                calc_total_property: "Total Liegenschaftsverbrauch:",
+                calc_virtual_peak: "Virtueller Hausanschlusspeak (ZEV):",
+                calc_solar_production: "Jährliche Solarproduktion:",
+                calc_production_season: "(Sommer/Winter Aufteilung):", // NEU
+                calc_production_cost: "Produktionskosten:",
+                calc_invest_gross: "Investition (Brutto):",
+                calc_subsidy: "Förderung (EIV):",
+                calc_subsidy_basis: "(Basierend auf Pronovo-Tarifen 2025)", // NEU
+                calc_cost_net: "Zu amortisierende Kosten (Netto):",
+                calc_cost_battery: "Zu amortisierende Kosten (Batterie):",
+                calc_cost_total_net: "Total zu amortisierende Kosten (Netto):",
+                calc_self_consumption: "Eigenverbrauchsgrad (dynamisch):",
+                calc_battery_source: "Batterieversorgung:", // NEU
+                calc_fed_in: "Eingespeister Solarstrom:",
+                calc_feed_in_tariff: "Rückvergütungstarif für eingespeiste Energie:",
+                calc_amortization_period: "Amortisationsdauer der Solaranlage:",
+                years: "Jahre",
+                calc_zev_rule: "Der ZEV-Solartarif ist fix mit der",
+                calc_zev_rule_suffix: "vom Netztarif umgesetzt.",
+                calc_disclaimer: "*Alle gezeigten Berechnungen sind auf obigen Berechnungsgrundlagen basierend. Dies lässt keine genaue Berechnung ihrer individuellen Anlage zu und dient nur de Veranschaulichung der Situation und dem Vergleich ZEV vs. REV. Beim Vergleich sind beide Modelle den gleichen Regeln unterworfen z.B . wenn das Gebäude mit Echtzeitdaten optimiert ist, gilt dies für beide Modelle.",
+                
+                // NEU: Übersetzung für Hinweis
+                hint_input_precision: "💡 Für präzise Eingaben verwenden Sie die Pfeil-Tasten (↑↓) auf dem Desktop oder klicken Sie direkt in das Feld.",
+
+                // JS Strings
+                month: "/ Monat",
+                chart_time: "Zeitverlauf",
+                chart_amount: "Betrag in CHF",
+                chart_year: "Jahr",
+                chart_profit_zev: "Gewinn ZEV-Infra.",
+                chart_amort_zev: "Gesamtamortisation ZEV",
+                chart_profit_rev: "Gewinn REV-Infra.",
+                chart_amort_rev: "Gesamtamortisation REV",
+                chart_invest_batt: "Investition Speicher",
+                chart_invest_pv: "Investition PV",
+                chart_invest_zev: "Invest. ZEV-Infra.",
+                chart_invest_rev: "Invest. REV-Infra.",
+                battery_extra_cost: "(+{{cost}} CHF/kWh für {{size}} kWh Speicher, amortisiert über {{years}} Jahre)",
+                battery_initial_reinvest: "(initial + Reinvestition nach 15 J.)",
+                never: "Nie",
+                years_suffix: "Jahre",
+                more_than_30: "> 30 Jahre",
+                more_than: "> ",
+                none: "Keine"
+            },
+            en: {
+                header_title: "Interactive Cost Calculator:",
+                header_subtitle: "Adjust the values to compare the profitability of metering investments.",
+                section_parameters: "Parameters",
+                label_units: "Number of Residential Units:",
+                label_evs: "Number of EVs:",
+                label_solar_size: "System Size:",
+                tab_grid_tariff: "Grid Tariff Definition",
+                label_rev_meter_rent: "Utility Meter Rent (CHF/Month)",
+                label_rev_base_cost: "Utility Base Cost incl. VAT (CHF/Month)",
+                label_grid_tariff_ref: "Standard Grid Tariff (Reference) incl. VAT (CHF/kWh)",
+                label_feed_in: "Feed-in Tariff (CHF/kWh)",
+                label_grid_usage: "Grid Usage",
+                warning_grid_usage: "If grid usage > 50'000 kWh, the tariff will likely switch to a peak load tariff!",
+                label_with_peak_tariff: "With Peak Load Tariff",
+                label_bulk_tariff: "Large Consumer Grid Tariff incl. VAT (CHF/kWh)",
+                label_bulk_peak: "Large Consumer Peak Tariff (CHF/kW per Month)",
+                label_bulk_meter_rent: "Large Consumer Meter Rent (CHF/Month)",
+                label_bulk_base_cost: "Large Consumer Base Cost (CHF/Month)",
+                toggle_zev_rev: "ZEV vs. REV Comparison",
+                tab_rev_params: "Parameters (REV Comparison Model)",
+                header_rev_tariff: "Tariff Level (REV)",
+                label_rev_peak_tariff: "REV Peak Tariff (CHF/kW per Month)",
+                label_rev_solar_tariff: "REV Solar Tariff (CHF/kWh)",
+                label_rev_service_tariff: "REV Service Tariff (CHF/kWh)",
+                header_rev_infra: "Infrastructure Level (REV)",
+                label_rev_setup_cost: "REV Setup Cost (CHF/Metering Point)",
+                label_rev_adapter_cost: "REV Adapter Add-on Cost incl. VAT (CHF/Metering Point)",
+                btn_advanced_show: "Show Advanced Building Settings",
+                btn_advanced_hide: "Hide Advanced Building Settings",
+                toggle_heating: "Electric Heating System",
+                toggle_storage: "With Storage",
+                label_storage_size: "Storage Size:",
+                toggle_realtime: "With Real-Time Data Control",
+                toggle_smartme: "smart-me Autobill Service",
+                card_zev_title: "ZEV (Self-Consumption Association)",
+                card_zev_desc: "Higher initial meter investment, but significantly more profitable long-term due to optimized self-consumption and higher solar revenues.",
+                card_zev_point1: "Inflation protection through investment",
+                card_zev_point2: "Free choice of solar tariff",
+                card_zev_point3: "Free choice of billing service provider",
+                card_zev_point4: "Real-time control is a core function",
+                card_rev_title: "REV (Regulated Self-Consumption)",
+                card_rev_desc: "Lower entry costs for meters, but ongoing costs and lower revenues reduce total profit over the term.",
+                card_rev_point1: "Inflation risk due to rental costs",
+                card_rev_point2: "Fixed solar tariff chosen by utility",
+                card_rev_point3: "Control is secondary via adapters",
+                card_tenant_benefit: "Price Benefit for Tenants / Participants",
+                benefit_zev_header: "ZEV (Benefit vs. Grid)",
+                benefit_rev_header: "REV (Benefit vs. Grid)",
+                benefit_solar: "Solar Power Benefit",
+                benefit_grid: "Grid Power Benefit",
+                benefit_meter: "Meter Cost Benefit",
+                benefit_peak: "Peak Load Benefit",
+                benefit_total_25: "Total Savings (25 Yrs)",
+                card_project_balance: "Total Project Balance (incl. PV Invest)",
+                balance_zev_19: "ZEV after 19 Yrs",
+                balance_zev_25: "ZEV after 25 Yrs",
+                balance_zev_30: "ZEV after 30 Yrs",
+                balance_rev_19: "REV after 19 Yrs",
+                balance_rev_25: "REV after 25 Yrs",
+                balance_rev_30: "REV after 30 Yrs",
+                card_pv_amortization: "Amortization of PV System",
+                card_pv_amortization_batt: "Amortization PV + Battery",
+                card_infra_amortization: "Amortization of Infrastructure",
+                infra_zev: "ZEV (Meters)",
+                infra_rev: "REV (Adapters)",
+                card_total_eco_benefit: "Total Economic Benefit (Owner + Tenant)",
+                calc_basis_title: "Calculation Basis",
+                calc_consumption_unit: "Consumption per Unit (Total):",
+                calc_season: "(Summer/Winter):",
+                calc_consumption_heating: "Heating Consumption per Unit (Total):",
+                calc_consumption_ev: "EV Consumption p.a. (Total):",
+                calc_total_property: "Total Property Consumption:",
+                calc_virtual_peak: "Virtual Grid Connection Peak (ZEV):",
+                calc_solar_production: "Annual Solar Production:",
+                calc_production_season: "(Summer/Winter Split):", // NEU
+                calc_production_cost: "Production Costs:",
+                calc_invest_gross: "Investment (Gross):",
+                calc_subsidy: "Subsidy (EIV):",
+                calc_subsidy_basis: "(Based on Pronovo Tariffs 2025)", // NEU
+                calc_cost_net: "Costs to Amortize (Net):",
+                calc_cost_battery: "Costs to Amortize (Battery):",
+                calc_cost_total_net: "Total Costs to Amortize (Net):",
+                calc_self_consumption: "Self-Consumption Rate (dynamic):",
+                calc_battery_source: "Battery Supply:", // NEU
+                calc_fed_in: "Fed-in Solar Power:",
+                calc_feed_in_tariff: "Feed-in Tariff for Exported Energy:",
+                calc_amortization_period: "Amortization Period of Solar System:",
+                years: "Years",
+                calc_zev_rule: "The ZEV solar tariff is fixed using the",
+                calc_zev_rule_suffix: "from the grid tariff.",
+                calc_disclaimer: "*All calculations shown are based on the above calculation basis. This does not allow for an exact calculation of your individual system and serves only to illustrate the situation and compare ZEV vs. REV.",
+                
+                // NEU: Übersetzung für Hinweis
+                hint_input_precision: "💡 For precise input, use the arrow keys (↑↓) on desktop or click directly into the field.",
+
+                // JS Strings
+                month: "/ Month",
+                chart_time: "Timeline",
+                chart_amount: "Amount in CHF",
+                chart_year: "Year",
+                chart_profit_zev: "Profit ZEV-Infra.",
+                chart_amort_zev: "Total Amortization ZEV",
+                chart_profit_rev: "Profit REV-Infra.",
+                chart_amort_rev: "Total Amortization REV",
+                chart_invest_batt: "Investment Storage",
+                chart_invest_pv: "Investment PV",
+                chart_invest_zev: "Invest. ZEV-Infra.",
+                chart_invest_rev: "Invest. REV-Infra.",
+                battery_extra_cost: "(+{{cost}} CHF/kWh for {{size}} kWh storage, amortized over {{years}} years)",
+                battery_initial_reinvest: "(initial + reinvestment after 15 yrs)",
+                never: "Never",
+                years_suffix: "Years",
+                more_than_30: "> 30 Years",
+                more_than: "> ",
+                none: "None"
+            }
+        };
+
+        let currentLang = 'de';
+
+        function t(key) {
+            return translations[currentLang][key] || key;
+        }
+
+        function switchLanguage() {
+            currentLang = currentLang === 'de' ? 'en' : 'de';
+            
+            // Update Button
+            document.getElementById('langIcon').textContent = currentLang === 'de' ? '🇩🇪' : '🇬🇧';
+            
+            // Update Static Text
+            document.querySelectorAll('[data-i18n]').forEach(el => {
+                const key = el.getAttribute('data-i18n');
+                if(translations[currentLang][key]) {
+                    el.textContent = translations[currentLang][key];
+                }
+            });
+
+            // Trigger Calculation to update dynamic text and chart
+            document.getElementById('messpunkte').dispatchEvent(new Event('input'));
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            // --- Daten aus der Tabelle (Anlagengrössen, Kosten, Förderung) ---
+            const solarData = [
+		{ Anlagengroesse_kWp: 10, Produktion_pro_Jahr_kWh: 10000, Kosten_pro_kWp_CHF: 2500, Investition_Brutto_CHF: 25000, Abzug_EIV_CHF: 3600, Kosten_nach_Foerderung_CHF: 21400, Steuervorteil_Beispiel_25_Prozent_CHF: 5350, Effektive_Nettokosten_CHF: 16050 },
+            	{ Anlagengroesse_kWp: 20, Produktion_pro_Jahr_kWh: 20000, Kosten_pro_kWp_CHF: 2431, Investition_Brutto_CHF: 48623, Abzug_EIV_CHF: 7200, Kosten_nach_Foerderung_CHF: 41423, Steuervorteil_Beispiel_25_Prozent_CHF: 10355.75, Effektive_Nettokosten_CHF: 31067.25 },
+            	{ Anlagengroesse_kWp: 30, Produktion_pro_Jahr_kWh: 30000, Kosten_pro_kWp_CHF: 2150, Investition_Brutto_CHF: 64500, Abzug_EIV_CHF: 9000, Kosten_nach_Foerderung_CHF: 55500, Steuervorteil_Beispiel_25_Prozent_CHF: 13875, Effektive_Nettokosten_CHF: 41625 },
+                // NEU HINZUGEFÜGTER DATENSATZ FÜR 40 KWP ANLAGE
+                { Anlagengroesse_kWp: 40, Produktion_pro_Jahr_kWh: 40000, Kosten_pro_kWp_CHF: 2000, Investition_Brutto_CHF: 80000, Abzug_EIV_CHF: 13800, Kosten_nach_Foerderung_CHF: 66200, Steuervorteil_Beispiel_25_Prozent_CHF: 16550, Effektive_Nettokosten_CHF: 49650 },
+            	{ Anlagengroesse_kWp: 50, Produktion_pro_Jahr_kWh: 50000, Kosten_pro_kWp_CHF: 1900, Investition_Brutto_CHF: 95000, Abzug_EIV_CHF: 15000, Kosten_nach_Foerderung_CHF: 80000, Steuervorteil_Beispiel_25_Prozent_CHF: 20000, Effektive_Nettokosten_CHF: 60000 },
+            	{ Anlagengroesse_kWp: 70, Produktion_pro_Jahr_kWh: 70000, Kosten_pro_kWp_CHF: 1750, Investition_Brutto_CHF: 122500, Abzug_EIV_CHF: 21000, Kosten_nach_Foerderung_CHF: 101500, Steuervorteil_Beispiel_25_Prozent_CHF: 25375, Effektive_Nettokosten_CHF: 76125 },
+            	{ Anlagengroesse_kWp: 100, Produktion_pro_Jahr_kWh: 100000, Kosten_pro_kWp_CHF: 1600, Investition_Brutto_CHF: 160000, Abzug_EIV_CHF: 30000, Kosten_nach_Foerderung_CHF: 130000, Steuervorteil_Beispiel_25_Prozent_CHF: 32500, Effektive_Nettokosten_CHF: 97500 },
+            	{ Anlagengroesse_kWp: 200, Produktion_pro_Jahr_kWh: 200000, Kosten_pro_kWp_CHF: 1450, Investition_Brutto_CHF: 290000, Abzug_EIV_CHF: 50000, Kosten_nach_Foerderung_CHF: 240000, Steuervorteil_Beispiel_25_Prozent_CHF: 60000, Effektive_Nettokosten_CHF: 180000 },
+            	{ Anlagengroesse_kWp: 300, Produktion_pro_Jahr_kWh: 300000, Kosten_pro_kWp_CHF: 1350, Investition_Brutto_CHF: 405000, Abzug_EIV_CHF: 75000, Kosten_nach_Foerderung_CHF: 330000, Steuervorteil_Beispiel_25_Prozent_CHF: 82500, Effektive_Nettokosten_CHF: 247500 },
+            	{ Anlagengroesse_kWp: 400, Produktion_pro_Jahr_kWh: 400000, Kosten_pro_kWp_CHF: 1300, Investition_Brutto_CHF: 520000, Abzug_EIV_CHF: 100000, Kosten_nach_Foerderung_CHF: 420000, Steuervorteil_Beispiel_25_Prozent_CHF: 105000, Effektive_Nettokosten_CHF: 315000 },
+            	{ Anlagengroesse_kWp: 500, Produktion_pro_Jahr_kWh: 500000, Kosten_pro_kWp_CHF: 1250, Investition_Brutto_CHF: 625000, Abzug_EIV_CHF: 125000, Kosten_nach_Foerderung_CHF: 500000, Steuervorteil_Beispiel_25_Prozent_CHF: 125000, Effektive_Nettokosten_CHF: 375000 },
+            	{ Anlagengroesse_kWp: 600, Produktion_pro_Jahr_kWh: 600000, Kosten_pro_kWp_CHF: 1220, Investition_Brutto_CHF: 732000, Abzug_EIV_CHF: 150000, Kosten_nach_Foerderung_CHF: 582000, Steuervorteil_Beispiel_25_Prozent_CHF: 145500, Effektive_Nettokosten_CHF: 436500 },
+            	{ Anlagengroesse_kWp: 700, Produktion_pro_Jahr_kWh: 700000, Kosten_pro_kWp_CHF: 1190, Investition_Brutto_CHF: 833000, Abzug_EIV_CHF: 175000, Kosten_nach_Foerderung_CHF: 658000, Steuervorteil_Beispiel_25_Prozent_CHF: 164500, Effektive_Nettokosten_CHF: 493500 },
+            	{ Anlagengroesse_kWp: 800, Produktion_pro_Jahr_kWh: 800000, Kosten_pro_kWp_CHF: 1160, Investition_Brutto_CHF: 928000, Abzug_EIV_CHF: 200000, Kosten_nach_Foerderung_CHF: 728000, Steuervorteil_Beispiel_25_Prozent_CHF: 182000, Effektive_Nettokosten_CHF: 546000 },
+            	{ Anlagengroesse_kWp: 900, Produktion_pro_Jahr_kWh: 900000, Kosten_pro_kWp_CHF: 1130, Investition_Brutto_CHF: 1017000, Abzug_EIV_CHF: 225000, Kosten_nach_Foerderung_CHF: 792000, Steuervorteil_Beispiel_25_Prozent_CHF: 198000, Effektive_Nettokosten_CHF: 594000 },
+            	{ Anlagengroesse_kWp: 1000, Produktion_pro_Jahr_kWh: 1000000, Kosten_pro_kWp_CHF: 1100, Investition_Brutto_CHF: 1100000, Abzug_EIV_CHF: 250000, Kosten_nach_Foerderung_CHF: 850000, Steuervorteil_Beipiel_25_Prozent_CHF: 212500, Effektive_Nettokosten_CHF: 637500 }
+            ];
+
+            // --- DOM Element Referenzen (Variablen für HTML-Elemente) ---
+            const inputs = {
+                messpunkte: document.getElementById('messpunkte'),
+                eMobilitySlider: document.getElementById('eMobilitySlider'),
+                solarInvestmentSlider: document.getElementById('solarInvestmentSlider'),
+                // Erweiterte Inputs
+                vergleichsModusToggle: document.getElementById('vergleichsModusToggle'),
+                // NEU: Heizung Toggle
+                heizungToggle: document.getElementById('heizungToggle'),
+                speicherToggle: document.getElementById('speicherToggle'),
+                batterySizeSlider: document.getElementById('batterySizeSlider'),
+                smartmeToggle: document.getElementById('smartmeToggle'),
+                netzTarif: document.getElementById('netzTarif'),
+                // NEU: Feed-in Tarif
+                feedInTariff: document.getElementById('feedInTariff'),
+                spitzenTarifToggle: document.getElementById('spitzenTarifToggle'),
+                spitzenTarifRev: document.getElementById('spitzenTarifRev'),
+                spitzenTarifZev: document.getElementById('spitzenTarifZev'),
+                netzTarifZevKwh: document.getElementById('netzTarifZevKwh'),
+                revSolarTarif: document.getElementById('revSolarTarif'),
+                revServiceTariff: document.getElementById('revServiceTariff'),
+                revSetupCostPerMeter: document.getElementById('revSetupCostPerMeter'),
+                revMeterRentOnly: document.getElementById('revMeterRentOnly'),
+                revBaseCost: document.getElementById('revBaseCost'),
+                zevMeterRentOnly: document.getElementById('zevMeterRentOnly'),
+                zevBaseCost: document.getElementById('zevBaseCost'),
+                realTimeToggle: document.getElementById('realTimeToggle'),
+                realTimeCostPerMeter: document.getElementById('realTimeCostPerMeter'),
+            };
+
+            // --- DOM Referenzen für erweiterte UI ---
+            const toggleErweitertButton = document.getElementById('toggleErweitertButton');
+            const erweiterteEinstellungen = document.getElementById('erweiterteEinstellungen');
+            const erweitertButtonText = document.getElementById('erweitertButtonText');
+            const erweitertButtonIcon = document.getElementById('erweitertButtonIcon');
+            // NEU: Eigener Container für REV Akkordeon
+            const revAccordionContainer = document.getElementById('revAccordionContainer');
+            // ALT: Container *innerhalb* des Akkordeons
+            const revParameterContainer = document.getElementById('revParameterContainer');
+            
+            // Container für dynamische UI-Elemente
+            const batteryOptionsContainer = document.getElementById('batteryOptionsContainer'); 
+            const batterySizeValue = document.getElementById('batterySizeValue'); 
+            const realTimeCostContainer = document.getElementById('realTimeCostContainer');
+            const spitzenTarifContainer = document.getElementById('spitzenTarifContainer');
+            const spitzenTarifRevContainer = document.getElementById('spitzenTarifRevContainer');
+            const zevMeterRentContainer = document.getElementById('zevMeterRentContainer');
+            const zevBaseCostContainer = document.getElementById('zevBaseCostContainer');
+            
+            // Anzeige-Elemente für Slider-Werte
+            const messpunkteValueDisplay = document.getElementById('messpunkteValue');
+            const eMobilityValueDisplay = document.getElementById('eMobilityValue');
+            const solarInvestmentValueDisplay = document.getElementById('solarInvestmentValue');
+            
+            // Anzeige-Elemente für Berechnungs-Grundlagen
+            const solarProductionDisplay = document.getElementById('solarProductionDisplay');
+            const productionCostDisplay = document.getElementById('productionCostDisplay');
+            const eingespeistDisplay = document.getElementById('eingespeistDisplay');
+            const feedInTariffDisplay = document.getElementById('feedInTariffDisplay');
+            const eigenverbrauchDisplay = document.getElementById('eigenverbrauchDisplay');
+            const investitionBruttoDisplay = document.getElementById('investitionBruttoDisplay');
+            const foerderungDisplay = document.getElementById('foerderungDisplay');
+            const kostenNettoDisplay = document.getElementById('kostenNettoDisplay');
+            const batteryAmortizationCostContainer = document.getElementById('batteryAmortizationCostContainer');
+            const batteryAmortizationCostDisplay = document.getElementById('batteryAmortizationCostDisplay');
+            const totalAmortizationCostContainer = document.getElementById('totalAmortizationCostContainer');
+            const totalAmortizationCostDisplay = document.getElementById('totalAmortizationCostDisplay');
+            const virtuellerPeakDisplay = document.getElementById('virtuellerPeakDisplay');
+            const virtuellerPeakContainer = document.getElementById('virtuellerPeakContainer');
+            const netzbezugDisplay = document.getElementById('netzbezugDisplay');
+            const netzbezugHinweis = document.getElementById('netzbezugHinweis');
+            
+            // Verbrauchsanzeigen
+            const wohnungVerbrauchDisplay = document.getElementById('wohnungVerbrauchDisplay');
+            const heizungVerbrauchDisplay = document.getElementById('heizungVerbrauchDisplay');
+            const emobVerbrauchDisplay = document.getElementById('emobVerbrauchDisplay');
+            const liegenschaftGesamtverbrauchDisplay = document.getElementById('liegenschaftGesamtverbrauchDisplay');
+            const wohnungVerbrauchSaisonDisplay = document.getElementById('wohnungVerbrauchSaisonDisplay');
+            const heizungVerbrauchSaisonDisplay = document.getElementById('heizungVerbrauchSaisonDisplay');
+            const emobVerbrauchSaisonDisplay = document.getElementById('emobVerbrauchSaisonDisplay');
+            
+            // --- DOM Referenzen für rechte Spalte (Ergebnisse) ---
+            const infokartenContainer = document.getElementById('infokartenContainer');
+            const zevInfokarte = document.getElementById('zevInfokarte');
+            const revInfokarte = document.getElementById('revInfokarte');
+            
+            const mieterVorteilGrid = document.getElementById('mieterVorteilGrid');
+            const mieterVorteilZev = document.getElementById('mieterVorteilZev');
+            const mieterVorteilRev = document.getElementById('mieterVorteilRev');
+            const zevSolarSavingsDisplay = document.getElementById('zevSolarSavingsDisplay');
+            const zevGridSavingsDisplay = document.getElementById('zevGridSavingsDisplay');
+            const zevMeterSavingsDisplay = document.getElementById('zevMeterSavingsDisplay');
+            const zevPeakSavingsDisplay = document.getElementById('zevPeakSavingsDisplay');
+            const zevGridSavingContainer = document.getElementById('zevGridSavingContainer');
+            const zevPeakSavingContainer = document.getElementById('zevPeakSavingContainer');
+            const revSolarSavingsDisplay = document.getElementById('revSolarSavingsDisplay');
+            const zevTotalSavings25Display = document.getElementById('zevTotalSavings25');
+            const revTotalSavings25Display = document.getElementById('revTotalSavings25');
+
+            const gesamtbilanzGrid = document.getElementById('gesamtbilanzGrid');
+            const gesamtbilanzZev = document.getElementById('gesamtbilanzZev');
+            const gesamtbilanzRev = document.getElementById('gesamtbilanzRev');
+            const zevBalance19Display = document.getElementById('zevBalance19');
+            const revBalance19Display = document.getElementById('revBalance19');
+            const zevBalance25Display = document.getElementById('zevBalance25');
+            const revBalance25Display = document.getElementById('revBalance25');
+            const zevBalance30Display = document.getElementById('zevBalance30');
+            const revBalance30Display = document.getElementById('revBalance30');
+
+            const pvAmortisationGrid = document.getElementById('pvAmortisationGrid');
+            const pvAmortisationZev = document.getElementById('pvAmortisationZev');
+            const pvAmortisationRev = document.getElementById('pvAmortisationRev');
+            const zevAmortizationDisplay = document.getElementById('zevAmortization');
+            const revAmortizationDisplay = document.getElementById('revAmortization');
+            const pvAmortizationTitle = document.getElementById('pvAmortizationTitle');
+            const zevPvAmortizationDisplay = document.getElementById('zevPvAmortization');
+            const revPvAmortizationDisplay = document.getElementById('revPvAmortization');
+            
+            const infraAmortisationGrid = document.getElementById('infraAmortisationGrid');
+            const infraAmortisationZev = document.getElementById('infraAmortisationZev');
+            const infraAmortisationRev = document.getElementById('infraAmortisationRev');
+            
+            const gesamtvorteilGrid = document.getElementById('gesamtvorteilGrid');
+            const gesamtvorteilZev = document.getElementById('gesamtvorteilZev');
+            const gesamtvorteilRev = document.getElementById('gesamtvorteilRev');
+            const zevTotalAdvantage25Display = document.getElementById('zevTotalAdvantage25');
+            const zevTotalAdvantage30Display = document.getElementById('zevTotalAdvantage30');
+            const revTotalAdvantage25Display = document.getElementById('revTotalAdvantage25');
+            const revTotalAdvantage30Display = document.getElementById('revTotalAdvantage30');
+
+            let costComparisonChart;
+
+            function initializeChart() {
+                const ctx = document.getElementById('costComparisonChart').getContext('2d');
+                costComparisonChart = new Chart(ctx, {
+                    type: 'bar', // Gemischter Chart-Typ (Balken und Linien)
+                    data: { 
+                        labels: [], // Jahre (wird dynamisch gefüllt)
+                        datasets: [] 
+                    },
+                    options: { 
+                        responsive: true, 
+                        maintainAspectRatio: false, 
+                        plugins: { 
+                            legend: { 
+                                position: 'top', 
+                                labels: { 
+                                    font: { size: 14, family: 'Inter' }
+                                }
+                            }, 
+                            tooltip: { 
+                                mode: 'index', 
+                                intersect: false, 
+                                callbacks: { 
+                                    // Formatierung der Tooltip-Werte als Währung
+                                    label: (context) => `${context.dataset.label || ''}: ${new Intl.NumberFormat('de-CH', { style: 'currency', currency: 'CHF' }).format(context.parsed.y)}` 
+                                } 
+                            } 
+                        }, 
+                        scales: { 
+                            x: { 
+                                stacked: true, // Investitionsbalken stapeln
+                                title: { display: true, text: t('chart_time'), font: { size: 14, weight: '500' }, color: '#4b5563' }, 
+                                grid: { display: false } 
+                            }, 
+                            y: { 
+                                stacked: false, // Linien nicht stapeln
+                                beginAtZero: false, 
+                                title: { display: true, text: t('chart_amount'), font: { size: 14, weight: '500' }, color: '#4b5563' }, 
+                                ticks: { callback: (value) => new Intl.NumberFormat('de-CH', { style: 'currency', currency: 'CHF', maximumFractionDigits: 0 }).format(value) } 
+                            } 
+                        }, 
+                        interaction: { mode: 'index', intersect: false } // Tooltip für alle Datensätze an einem x-Punkt anzeigen
+                    }
+                });
+            }
+
+
+            // --- Hauptfunktion zur Berechnung und Aktualisierung ---
+            function updateChart() {
+                // Chart Labels Update
+                if(costComparisonChart && costComparisonChart.options) {
+                    costComparisonChart.options.scales.x.title.text = t('chart_time');
+                    costComparisonChart.options.scales.y.title.text = t('chart_amount');
+                }
+
+                // 1. Aktuelle Werte aus den Eingabefeldern holen
+                const isVergleichsModus = inputs.vergleichsModusToggle.checked;
+                const isRealTime = inputs.realTimeToggle.checked;
+                const mitSpeicher = inputs.speicherToggle.checked;
+                const useSmartMe = inputs.smartmeToggle.checked;
+                const mitSpitzenTarif = inputs.spitzenTarifToggle.checked;
+                // NEU: Heizung Check
+                const mitHeizung = inputs.heizungToggle.checked;
+                
+                const anzahlMesspunkte = parseInt(inputs.messpunkte.value);
+                const anzahlLadepunkte = parseInt(inputs.eMobilitySlider.value);
+                
+                // Solardaten basierend auf dem Slider auswählen
+                const selectedIndex = parseInt(inputs.solarInvestmentSlider.value);
+                const selectedSolarData = solarData[selectedIndex];
+                const totalAnnualProductionKwh = selectedSolarData.Produktion_pro_Jahr_kWh;
+                const kostenNachFoerderung = selectedSolarData.Kosten_nach_Foerderung_CHF;
+                const investitionBrutto = selectedSolarData.Investition_Brutto_CHF;
+                const foerderung = selectedSolarData.Abzug_EIV_CHF;
+
+                // Tarif-Werte holen
+                const netzTarif = parseFloat(inputs.netzTarif.value) || 0;
+                const netzTarifZevKwh = mitSpitzenTarif ? (parseFloat(inputs.netzTarifZevKwh.value) || 0) : netzTarif;
+                const spitzenTarifRev = mitSpitzenTarif ? (parseFloat(inputs.spitzenTarifRev.value) || 0) : 0;
+                const spitzenTarifZev = mitSpitzenTarif ? (parseFloat(inputs.spitzenTarifZev.value) || 0) : 0;
+                const revSolarTarif = parseFloat(inputs.revSolarTarif.value) || 0;
+                const revServiceTariff = parseFloat(inputs.revServiceTariff.value) || 0;
+                // REV Kosten
+                const revSetupCostPerMeter = parseFloat(inputs.revSetupCostPerMeter.value) || 0;
+                const revMeterRentOnly = parseFloat(inputs.revMeterRentOnly.value) || 0;
+                const revBaseCost = parseFloat(inputs.revBaseCost.value) || 0;
+                const totalRevMonthlyCost = revMeterRentOnly + revBaseCost;
+                
+                // ZEV Kosten (abhängig vom Spitzentarif)
+                let zevMeterRentOnly, zevBaseCost;
+                if (mitSpitzenTarif) {
+                    zevMeterRentOnly = parseFloat(inputs.zevMeterRentOnly.value) || 0;
+                    zevBaseCost = parseFloat(inputs.zevBaseCost.value) || 0;
+                } else {
+                    // Wenn kein Spitzentarif, ZEV-Kosten gleich REV-Kosten setzen
+                    zevMeterRentOnly = revMeterRentOnly;
+                    zevBaseCost = revBaseCost;
+                }
+
+                const realTimeCostPerMeter = isRealTime ? (parseFloat(inputs.realTimeCostPerMeter.value) || 0) : 0;
+                
+                // --- Steuerung der Sichtbarkeit (UI-Logik) ---
+                
+                // 1a. Linke Spalte (Parameter)
+                revAccordionContainer.style.display = isVergleichsModus ? 'block' : 'none';
+                
+                // Container innerhalb des REV-Parameters (abhängig von anderen Toggles)
+                if(spitzenTarifRevContainer) { 
+                    spitzenTarifRevContainer.style.display = mitSpitzenTarif ? 'block' : 'none';
+                }
+                
+                // 1b. Rechte Spalte (Ergebnisse)
+                revInfokarte.style.display = isVergleichsModus ? 'block' : 'none';
+                mieterVorteilRev.style.display = isVergleichsModus ? 'block' : 'none';
+                gesamtbilanzRev.style.display = isVergleichsModus ? 'block' : 'none';
+                pvAmortisationRev.style.display = isVergleichsModus ? 'block' : 'none';
+                infraAmortisationRev.style.display = isVergleichsModus ? 'block' : 'none';
+                gesamtvorteilRev.style.display = isVergleichsModus ? 'block' : 'none';
+
+                // Grid-Layouts anpassen
+                [infokartenContainer, mieterVorteilGrid, gesamtbilanzGrid, pvAmortisationGrid, infraAmortisationGrid, gesamtvorteilGrid].forEach(grid => {
+                    if (grid) { 
+                        grid.classList.toggle('md:grid-cols-2', isVergleichsModus);
+                        grid.classList.toggle('grid-cols-2', isVergleichsModus);
+                        grid.classList.toggle('md:grid-cols-1', !isVergleichsModus);
+                        grid.classList.toggle('grid-cols-1', !isVergleichsModus);
+                    }
+                });
+                
+                // 2. Konstanten definieren
+                const years = 30; // Betrachtungszeitraum
+                const pvAmortizationYearsAssumption = 25; // Annahme für Amortisationsdauer der PV-Anlage
+                const peakPerWohnung = 4; // Annahme Spitzenlast pro Wohnung (kW)
+                const peakPerEV = 11; // Annahme Spitzenlast pro E-Fahrzeug (kW)
+                
+                // Basis-Produktionskosten berechnen
+                let basisProduktionskosten = totalAnnualProductionKwh > 0 ? (kostenNachFoerderung / pvAmortizationYearsAssumption) / totalAnnualProductionKwh : 0;
+                let productionCostKwh = basisProduktionskosten;
+                let speicherZusatzkostenText = "";
+                let batteryInvestment = 0;
+                let totalAmortizableInvestment = kostenNachFoerderung; // Gesamte zu amortisierende Investition
+
+                // ZEV-spezifische Kosten
+                const zevZaehlerCost = 360; // Kosten ZEV-Zähler
+                const zevSoftwareCost = 169; // Kosten ZEV-Software/Gateway
+                const zevFixedCost = 0; // Fixkosten ZEV
+                // NEU: Variable statt fixem Wert
+                const feedInTariff = parseFloat(inputs.feedInTariff.value) || 0;
+                const smartMeAnnualCostPerMeter = 55; // Jährliche Kosten smart-me Dienstleistung
+
+                // 3. Kernberechnungen (Verbrauch, Produktion, Eigenverbrauch)
+                const totalSummerProductionKwh = totalAnnualProductionKwh * 0.70; // 70% Produktion im Sommer
+                const totalWinterProductionKwh = totalAnnualProductionKwh * 0.30; // 30% Produktion im Winter
+                
+                const eMobilityAnnualKwh = 2400; // Jahresverbrauch pro E-Fahrzeug
+
+                // NEU: Dynamische Heizungswerte basierend auf Toggle
+                const heizungSummerKwh = mitHeizung ? 1000 : 0;
+                const heizungWinterKwh = mitHeizung ? 2150 : 0;
+
+                // Verbrauchsprofile (Sommer/Winter) und Solar-Deckungsgrade (Normal/Echtzeit)
+                const consumptionComponents = {
+                    wohnung: { summer: { totalKwh: 800, solarShareNormal: 0.35, solarShareRealTime: 0.45 }, winter: { totalKwh: 1600, solarShareNormal: 0.05, solarShareRealTime: 0.15 } },
+                    // NEU: Verwendung der dynamischen Variablen
+                    heizung: { summer: { totalKwh: heizungSummerKwh, solarShareNormal: 0.00, solarShareRealTime: 0.00 }, winter: { totalKwh: heizungWinterKwh, solarShareNormal: 0.30, solarShareRealTime: 0.45 } },
+                    emobilitaet: { summer: { totalKwh: eMobilityAnnualKwh / 2, solarShareNormal: 0.35, solarShareRealTime: 0.45 }, winter: { totalKwh: eMobilityAnnualKwh / 2, solarShareNormal: 0.005, solarShareRealTime: 0.15 } }
+                };
+
+                // Funktion zur Berechnung des saisonalen Eigenverbrauchs
+                const calculateSeasonalSolarConsumption = (seasonData) => {
+                    const solarShareWohnung = isRealTime ? seasonData.wohnung.solarShareRealTime : seasonData.wohnung.solarShareNormal;
+                    const solarShareHeizung = isRealTime ? seasonData.heizung.solarShareRealTime : seasonData.heizung.solarShareNormal;
+                    const solarShareEmobilitaet = isRealTime ? seasonData.emobilitaet.solarShareRealTime : seasonData.emobilitaet.solarShareNormal;
+                    const solarFromWohnungHeizung = anzahlMesspunkte * ((seasonData.wohnung.totalKwh * solarShareWohnung) + (seasonData.heizung.totalKwh * solarShareHeizung));
+                    const solarFromEmob = anzahlLadepunkte * (seasonData.emobilitaet.totalKwh * solarShareEmobilitaet);
+                    return solarFromWohnungHeizung + solarFromEmob;
+                };
+                
+                // Potenziellen und tatsächlichen Eigenverbrauch berechnen
+                const potentialSolarConsumptionKwh_Summer = calculateSeasonalSolarConsumption({ wohnung: consumptionComponents.wohnung.summer, heizung: consumptionComponents.heizung.summer, emobilitaet: consumptionComponents.emobilitaet.summer });
+                const selfConsumedKwh_Summer = Math.min(potentialSolarConsumptionKwh_Summer, totalSummerProductionKwh);
+                const potentialSolarConsumptionKwh_Winter = calculateSeasonalSolarConsumption({ wohnung: consumptionComponents.wohnung.winter, heizung: consumptionComponents.heizung.winter, emobilitaet: consumptionComponents.emobilitaet.winter });
+                const selfConsumedKwh_Winter = Math.min(potentialSolarConsumptionKwh_Winter, totalWinterProductionKwh);
+
+                let selfConsumedKwh = selfConsumedKwh_Summer + selfConsumedKwh_Winter;
+                
+                // Hilfsfunktion zur Währungsformatierung
+                const formatCurrency = (value) => new Intl.NumberFormat('de-CH', { style: 'currency', currency: 'CHF' }).format(value);
+                
+                // Speicherlogik
+                if (mitSpeicher) {
+                    const batteryAmortizationYears = 15; // Annahme Amortisationsdauer Batterie
+                    const batterySize = parseInt(inputs.batterySizeSlider.value, 10);
+                    // ANPASSUNG: Kosten für Speicher bleiben gleich (600 CHF/kWh + 5000 CHF Fixkosten)
+                    batteryInvestment = (batterySize * 600) + 5000; // Annahme Kosten Batterie (pro kWh + Fixkosten)
+                    // Die zu amortisierende Summe beinhaltet die Erstinvestition UND eine Reinvestition nach 15 Jahren
+                    totalAmortizableInvestment += (batteryInvestment * 2);
+                    const batteryYearlyAmortization = batteryInvestment / batteryAmortizationYears;
+
+                    if (totalAnnualProductionKwh > 0) {
+                        // Zusatzkosten pro kWh durch Batterie
+                        const batteryCostPerKwh = batteryYearlyAmortization / totalAnnualProductionKwh;
+                        productionCostKwh += batteryCostPerKwh;
+                        let extraText = t('battery_extra_cost');
+                        extraText = extraText.replace('{{cost}}', batteryCostPerKwh.toFixed(3))
+                                             .replace('{{size}}', batterySize)
+                                             .replace('{{years}}', batteryAmortizationYears);
+                        speicherZusatzkostenText = `<span class="text-xs font-normal text-gray-500 block">${extraText}</span>`;
+                    }
+                    
+                    // Dynamische Erhöhung des Eigenverbrauchsgrads durch Speicher
+                    const exportedKwhWithoutBattery = totalAnnualProductionKwh - selfConsumedKwh;
+                    const potentialAnnualStorage = batterySize * 300; // Annahme: 300 volle Zyklen pro Jahr
+                    const additionalSelfConsumptionFromBattery = Math.min(exportedKwhWithoutBattery, potentialAnnualStorage);
+                    selfConsumedKwh += additionalSelfConsumptionFromBattery;
+                    
+                    // Anzeigen in den Berechnungsgrundlagen aktualisieren
+                    batteryAmortizationCostDisplay.textContent = `${formatCurrency(batteryInvestment)} ${t('battery_initial_reinvest')}`;
+                    batteryAmortizationCostContainer.style.display = 'list-item';
+                    
+                    totalAmortizationCostDisplay.textContent = formatCurrency(totalAmortizableInvestment);
+                    totalAmortizationCostContainer.style.display = 'list-item';
+
+                    pvAmortizationTitle.textContent = t('card_pv_amortization_batt');
+                    document.getElementById('batterySourceNote').style.display = 'list-item'; // NEU: Zeige Batterie-Hinweis
+                } else {
+                    // Anzeigen ausblenden, wenn kein Speicher gewählt
+                    batteryAmortizationCostContainer.style.display = 'none';
+                    totalAmortizationCostContainer.style.display = 'none';
+                    pvAmortizationTitle.textContent = t('card_pv_amortization');
+                    document.getElementById('batterySourceNote').style.display = 'none'; // NEU: Verstecke Batterie-Hinweis
+                }
+
+                // Neuberechnung des Eigenverbrauchsgrads (könnte sich durch Speicher geändert haben)
+                let eigenverbrauchsgrad = totalAnnualProductionKwh > 0 ? (selfConsumedKwh / totalAnnualProductionKwh) : 0;
+
+                const exportedKwh = totalAnnualProductionKwh - selfConsumedKwh;
+                // Basis-Einkommen aus PV (für Amortisationsberechnung der Gesamt-Investition)
+                const pvBaseIncome = selfConsumedKwh * 0.10; // Annahme eines internen Basis-Gewnns pro kWh
+
+                // Anzeigen der Berechnungsgrundlagen aktualisieren
+                const formatNumber = (value, digits = 0) => new Intl.NumberFormat('de-CH', { maximumFractionDigits: digits }).format(value);
+
+                // Verbrauchsdaten berechnen und anzeigen
+                const wohnungVerbrauch = consumptionComponents.wohnung.summer.totalKwh + consumptionComponents.wohnung.winter.totalKwh;
+                const heizungVerbrauch = consumptionComponents.heizung.summer.totalKwh + consumptionComponents.heizung.winter.totalKwh;
+                const emobVerbrauch = anzahlLadepunkte > 0 ? (consumptionComponents.emobilitaet.summer.totalKwh + consumptionComponents.emobilitaet.winter.totalKwh) : 0;
+                const liegenschaftGesamtverbrauch = (wohnungVerbrauch + heizungVerbrauch) * anzahlMesspunkte + emobVerbrauch * anzahlLadepunkte;
+                
+                // Netzbezug berechnen und Warnhinweis anzeigen
+                const gridConsumptionKwh = Math.max(0, liegenschaftGesamtverbrauch - selfConsumedKwh);
+                netzbezugDisplay.textContent = `${formatNumber(gridConsumptionKwh)} kWh`;
+
+                if (gridConsumptionKwh > 50000) {
+                    netzbezugHinweis.style.display = 'block';
+                    netzbezugDisplay.classList.add('text-red-600');
+                    netzbezugDisplay.classList.remove('text-gray-800');
+                } else {
+                    netzbezugHinweis.style.display = 'none';
+                    netzbezugDisplay.classList.remove('text-red-600');
+                    netzbezugDisplay.classList.add('text-gray-800');
+                }
+
+                // Verbrauchs-Anzeigen füllen
+                wohnungVerbrauchDisplay.textContent = `${formatNumber(wohnungVerbrauch)} kWh`;
+                heizungVerbrauchDisplay.textContent = `${formatNumber(heizungVerbrauch)} kWh`;
+                emobVerbrauchDisplay.textContent = `${formatNumber(emobVerbrauch)} kWh`;
+                liegenschaftGesamtverbrauchDisplay.textContent = `${formatNumber(liegenschaftGesamtverbrauch)} kWh`;
+                
+                wohnungVerbrauchSaisonDisplay.textContent = `${formatNumber(consumptionComponents.wohnung.summer.totalKwh)} kWh / ${formatNumber(consumptionComponents.wohnung.winter.totalKwh)} kWh`;
+                heizungVerbrauchSaisonDisplay.textContent = `${formatNumber(consumptionComponents.heizung.summer.totalKwh)} kWh / ${formatNumber(consumptionComponents.heizung.winter.totalKwh)} kWh`;
+                emobVerbrauchSaisonDisplay.textContent = `${formatNumber(consumptionComponents.emobilitaet.summer.totalKwh)} kWh / ${formatNumber(consumptionComponents.emobilitaet.winter.totalKwh)} kWh`;
+                
+                // PV-Anzeigen füllen
+                solarProductionDisplay.textContent = `${formatNumber(totalAnnualProductionKwh)} kWh`;
+                productionCostDisplay.innerHTML = `${productionCostKwh.toFixed(3)} CHF/kWh ${speicherZusatzkostenText}`;
+                eingespeistDisplay.textContent = `${(exportedKwh / totalAnnualProductionKwh * 100).toFixed(1)}%`;
+                eigenverbrauchDisplay.textContent = `${(eigenverbrauchsgrad * 100).toFixed(1)}%`;
+                // NEU: Dynamische Anzeige Einspeisetarif
+                feedInTariffDisplay.textContent = `${feedInTariff.toFixed(2)} CHF/kWh`;
+
+                
+                // Investitions-Anzeigen füllen
+                solarInvestmentValueDisplay.textContent = `${formatNumber(selectedSolarData.Anlagengroesse_kWp)} kWp`;
+                investitionBruttoDisplay.textContent = formatCurrency(investitionBrutto);
+                foerderungDisplay.textContent = formatCurrency(foerderung);
+                kostenNettoDisplay.textContent = formatCurrency(kostenNachFoerderung);
+
+                // 4. ZEV-Finanzen berechnen
+                const zevMeteringInvestment = zevFixedCost + (zevZaehlerCost + zevSoftwareCost) * anzahlMesspunkte;
+                const zevInitialInvestment = -zevMeteringInvestment; // Anfangsinvestition (negativ)
+                
+                // ZEV Solartarif (80%-Regel)
+                let zevSolarTarif;
+                if (mitSpitzenTarif) {
+                    zevSolarTarif = netzTarifZevKwh * 0.80;
+                } else {
+                    zevSolarTarif = netzTarif * 0.80;
+                }
+                
+                // Jährlicher Nutzen ZEV
+                const zevMonthlyMeterCost = zevMeterRentOnly + zevBaseCost;
+                const meterRentBenefit = zevMonthlyMeterCost * 12 * anzahlMesspunkte; // Einnahmen aus Zählermiete (vom Mieter)
+                const zevSolarProfit = selfConsumedKwh * (zevSolarTarif - productionCostKwh); // Profit aus Solarstromverkauf an Mieter
+                const zevExportProfit = exportedKwh * (feedInTariff); // Profit aus Einspeisung
+                const totalSmartMeCost = useSmartMe ? smartMeAnnualCostPerMeter * anzahlMesspunkte : 0; // Kosten für Abrechnungsdienstleister
+                const zevAnnualBenefit = zevSolarProfit + zevExportProfit + meterRentBenefit - totalSmartMeCost; // Jährlicher Gesamtgewinn ZEV-Infra
+
+                // 5. REV-Finanzen berechnen
+                const revSetupInvestment = -(revSetupCostPerMeter * anzahlMesspunkte); // Setup-Kosten (negativ)
+                const revAdapterInvestment = isRealTime ? -(realTimeCostPerMeter * anzahlMesspunkte) : 0; // Adapter-Kosten (negativ)
+                const revInitialInvestment = revSetupInvestment + revAdapterInvestment; // Gesamte Anfangsinvestition REV
+
+                // Jährlicher Nutzen REV
+                const revProfitMargin = revSolarTarif - revServiceTariff - productionCostKwh; // Marge pro kWh
+                const revInternalProfit = selfConsumedKwh * revProfitMargin; // Profit aus Solarstromverkauf an Mieter
+                const revExportProfit = exportedKwh * (feedInTariff); // Profit aus Einspeisung
+                const revAnnualBenefit = revInternalProfit + revExportProfit;
+                const revAnnualNetPosition = revAnnualBenefit; // Jährlicher Gesamtgewinn REV-Infra
+
+                // 6. Preisvorteile für Mieter berechnen
+                let annualPeakCostSaving = 0; // Jährliche Einsparung Spitzenlast
+                let annualGridTariffSavingZev = 0; // Jährliche Einsparung Netztarif
+
+                if (mitSpitzenTarif) {
+                    // Berechnung des "virtuellen" Peaks im ZEV mittels Gleichzeitigkeitsfaktor
+                    const g_wohnungen = anzahlMesspunkte > 1 ? 1 / Math.sqrt(anzahlMesspunkte) : 1;
+                    const g_evs = anzahlLadepunkte > 1 ? 1 / Math.sqrt(anzahlLadepunkte) : 1;
+                    const peak_wohnungen_effektiv = (anzahlMesspunkte * peakPerWohnung) * g_wohnungen;
+                    const peak_evs_effektiv = (anzahlLadepunkte * peakPerEV) * g_evs;
+                    let virtuellerPeak = peak_wohnungen_effektiv + peak_evs_effektiv;
+                    
+                    // Peak-Reduktion durch Steuerung/Speicher
+                    let peakReductionFactor = 0.15; // Standard 15%
+                    if (isRealTime && mitSpeicher) {
+                        peakReductionFactor = 0.40; // 40% mit Echtzeit und Speicher
+                    } else if (isRealTime) {
+                        peakReductionFactor = 0.30; // 30% mit Echtzeit
+                    } else if (mitSpeicher) {
+                        peakReductionFactor = 0.25; // 25% mit Speicher
+                    }
+                    virtuellerPeak *= (1 - peakReductionFactor);
+
+                    virtuellerPeakDisplay.textContent = `${virtuellerPeak.toFixed(2)} kW`;
+                    virtuellerPeakContainer.style.display = 'list-item';
+
+                    // Kostenvergleich Spitzenlast
+                    const annualPeakCost_REV = ((anzahlMesspunkte * peakPerWohnung) + (anzahlLadepunkte * peakPerEV)) * spitzenTarifRev * 12;
+                    const annualPeakCost_ZEV = virtuellerPeak * spitzenTarifZev * 12;
+                    annualPeakCostSaving = annualPeakCost_REV - annualPeakCost_ZEV;
+                    
+                    // Einsparung durch günstigeren kWh-Tarif im ZEV
+                    annualGridTariffSavingZev = gridConsumptionKwh * (netzTarif - netzTarifZevKwh);
+                    
+                    zevGridSavingContainer.style.display = 'block';
+                    zevPeakSavingContainer.style.display = 'block';
+                } else {
+                    virtuellerPeakContainer.style.display = 'none';
+                    zevGridSavingContainer.style.display = 'none';
+                    zevPeakSavingContainer.style.display = 'none';
+                }
+
+                // Einsparung durch Solarstrom (Differenz Netztarif zu Solartarif)
+                const annualSolarSavingZev = (netzTarif - zevSolarTarif) * selfConsumedKwh;
+                
+                // Einsparung bei Zählerkosten (Mieter zahlt im ZEV nur 80% der normalen Kosten)
+                const totalAnnualRevMeterCost = totalRevMonthlyCost * 12 * anzahlMesspunkte;
+                const totalAnnualZevMeterCost = (zevMeterRentOnly + zevBaseCost) * 12 * anzahlMesspunkte;
+                const annualMeterSavingZev = totalAnnualRevMeterCost - (totalAnnualZevMeterCost * 0.80);
+                
+                // Mieter-Vorteile anzeigen (pro Monat)
+                zevSolarSavingsDisplay.textContent = `${formatCurrency(annualSolarSavingZev / 12)} ${t('month')}`;
+                zevGridSavingsDisplay.textContent = `${formatCurrency(annualGridTariffSavingZev / 12)} ${t('month')}`;
+                zevMeterSavingsDisplay.textContent = `${formatCurrency(annualMeterSavingZev / 12)} ${t('month')}`;
+                zevPeakSavingsDisplay.textContent = `${formatCurrency(annualPeakCostSaving / 12)} ${t('month')}`;
+
+                // Gesamtersparnis Mieter ZEV (25 Jahre)
+                const totalAnnualTenantSavingZev = annualSolarSavingZev + annualGridTariffSavingZev + annualMeterSavingZev + annualPeakCostSaving;
+                zevTotalSavings25Display.textContent = formatCurrency(totalAnnualTenantSavingZev * 25);
+
+                // Gesamtersparnis Mieter REV (25 Jahre)
+                const totalAnnualTenantSavingRev = (netzTarif - revSolarTarif) * selfConsumedKwh;
+                revSolarSavingsDisplay.textContent = `${formatCurrency(totalAnnualTenantSavingRev / 12)} ${t('month')}`;
+                revTotalSavings25Display.textContent = formatCurrency(totalAnnualTenantSavingRev * 25);
+
+
+                // 7. Daten für das Diagramm generieren (kumulativer Gewinn über 30 Jahre)
+                const labels = Array.from({ length: years + 1 }, (_, i) => `${t('chart_year')} ${i}`);
+                
+                const zevCumulativeData = [zevInitialInvestment]; // Kumulierter Gewinn ZEV-Infra
+                const revCumulativeData = [revInitialInvestment]; // Kumulierter Gewinn REV-Infra
+                const zevInvestmentData = Array(years + 1).fill(null); // Balken für ZEV-Invest
+                const revInvestmentData = Array(years + 1).fill(null); // Balken für REV-Invest
+                const zevPvAmortizationData = [0]; // Kumulierte Amortisation der PV-Anlage (ZEV)
+                const revPvAmortizationData = [0]; // Kumulierte Amortisation der PV-Anlage (REV)
+                
+                const pvInvestmentData = Array(years + 1).fill(null); // Balken für PV-Invest
+                const batteryInvestmentData = Array(years + 1).fill(null); // Balken für Speicher-Invest
+                
+                pvInvestmentData[0] = -kostenNachFoerderung; 
+                if (mitSpeicher) {
+                    batteryInvestmentData[0] = -batteryInvestment;
+                }
+                
+                zevInvestmentData[0] = zevInitialInvestment;
+                revInvestmentData[0] = revInitialInvestment;
+
+                let remainingPvZev = totalAmortizableInvestment; // Restschuld PV (ZEV)
+                let infraBalanceZev = zevInitialInvestment; // Kontostand ZEV-Infra
+                let remainingPvRev = totalAmortizableInvestment; // Restschuld PV (REV)
+                let infraBalanceRev = revInitialInvestment; // Kontostand REV-Infra
+
+                // Schleife über die Jahre
+                for (let i = 1; i <= years; i++) {
+                    // ZEV-Gewinn
+                    let zevCurrentBalance = zevCumulativeData[i - 1] + zevAnnualBenefit;
+                    // Reinvestition ZEV-Infra (Annahme alle 10 Jahre)
+                    if (i === 10 || i === 20) {
+                        zevCurrentBalance += zevInitialInvestment;
+                        zevInvestmentData[i] = (zevInvestmentData[i] || 0) + zevInitialInvestment;
+                    }
+                    // Reinvestition Speicher
+                    if (mitSpeicher && i === 15) {
+                        batteryInvestmentData[i] = -batteryInvestment;
+                    }
+                    zevCumulativeData.push(zevCurrentBalance);
+
+                    // REV-Gewinn
+                    let revCurrentBalance = revCumulativeData[i - 1] + revAnnualNetPosition;
+                    // Reinvestition REV-Adapter (falls Echtzeit)
+                    if (isRealTime && (i === 10 || i === 20)) {
+                        revCurrentBalance += revAdapterInvestment;
+                        revInvestmentData[i] = (revInvestmentData[i] || 0) + revAdapterInvestment;
+                    }
+                    revCumulativeData.push(revCurrentBalance);
+                    
+                    // Gesamt-Amortisation ZEV (PV + Infra)
+                    remainingPvZev -= pvBaseIncome; // PV-Restschuld tilgen
+                    infraBalanceZev += zevAnnualBenefit; // Infra-Kontostand erhöhen
+                    if (infraBalanceZev > 0) {
+                        // Wenn Infra im Plus, Überschuss zur PV-Tilgung nutzen
+                        remainingPvZev -= infraBalanceZev;
+                        infraBalanceZev = 0;
+                    }
+                    if (i === 10 || i === 20) {
+                        infraBalanceZev += zevInitialInvestment; // Reinvestition Infra
+                    }
+                    // Amortisierte Summe (max. die Gesamtinvestition)
+                    zevPvAmortizationData.push(Math.min(totalAmortizableInvestment - remainingPvZev, totalAmortizableInvestment));
+
+                    // Gesamt-Amortisation REV (PV + Infra)
+                    remainingPvRev -= pvBaseIncome; // PV-Restschuld tilgen
+                    infraBalanceRev += revAnnualNetPosition; // Infra-Kontostand erhöhen
+                    if (infraBalanceRev > 0) {
+                        // Wenn Infra im Plus, Überschuss zur PV-Tilgung nutzen
+                        remainingPvRev -= infraBalanceRev;
+                        infraBalanceRev = 0;
+                    }
+                    if (isRealTime && (i === 10 || i === 20)) {
+                        infraBalanceRev += revAdapterInvestment; // Reinvestition Infra
+                    }
+                    // Amortisierte Summe (max. die Gesamtinvestition)
+                    revPvAmortizationData.push(Math.min(totalAmortizableInvestment - remainingPvRev, totalAmortizableInvestment));
+                }
+
+                // 8. Chart-Daten aktualisieren
+                
+                const newDatasets = [];
+
+                // ZEV Linien (immer da)
+                newDatasets.push({ type: 'line', label: t('chart_profit_zev'), data: zevCumulativeData, borderColor: 'rgb(16, 185, 129)', backgroundColor: 'rgba(16, 185, 129, 0.1)', fill: true, tension: 0.2, pointRadius: 2, order: 1 });
+                newDatasets.push({ type: 'line', label: t('chart_amort_zev'), data: zevPvAmortizationData, borderColor: 'rgb(22, 101, 52)', backgroundColor: 'rgba(22, 101, 52, 0.1)', fill: false, tension: 0.2, pointRadius: 2, borderDash: [5, 5], order: 1 });
+
+                // REV Linien (konditional)
+                if (isVergleichsModus) {
+                    newDatasets.push({ type: 'line', label: t('chart_profit_rev'), data: revCumulativeData, borderColor: 'rgb(59, 130, 246)', backgroundColor: 'rgba(59, 130, 246, 0.1)', fill: true, tension: 0.2, pointRadius: 2, order: 1 });
+                    newDatasets.push({ type: 'line', label: t('chart_amort_rev'), data: revPvAmortizationData, borderColor: 'rgb(30, 64, 175)', backgroundColor: 'rgba(30, 64, 175, 0.1)', fill: false, tension: 0.2, pointRadius: 2, borderDash: [5, 5], order: 1 });
+                }
+
+                // Speicher Balken (konditional)
+                if (mitSpeicher) {
+                    newDatasets.push({ type: 'bar', label: t('chart_invest_batt'), data: batteryInvestmentData, backgroundColor: 'rgba(249, 115, 22, 0.7)', stack: 'Hauptinvestition', order: 2 });
+                }
+                
+                // PV Balken (immer da)
+                newDatasets.push({ type: 'bar', label: t('chart_invest_pv'), data: pvInvestmentData, backgroundColor: 'rgba(250, 204, 21, 0.7)', stack: 'Hauptinvestition', order: 2 });
+
+                // ZEV Infra Balken (immer da)
+                newDatasets.push({ type: 'bar', label: t('chart_invest_zev'), data: zevInvestmentData, backgroundColor: 'rgba(22, 101, 52, 0.7)', barPercentage: 0.4, order: 2 });
+
+                // REV Infra Balken (konditional)
+                if (isVergleichsModus) {
+                    newDatasets.push({ type: 'bar', label: t('chart_invest_rev'), data: revInvestmentData, backgroundColor: 'rgba(30, 64, 175, 0.7)', barPercentage: 0.4, order: 2 });
+                }
+                
+                costComparisonChart.data.labels = labels;
+                costComparisonChart.data.datasets = newDatasets; // Das neue, gefilterte Array zuweisen
+                costComparisonChart.update();
+
+                // 9. Alle Metriken (Bilanz, Amortisation) berechnen und anzeigen
+                
+                // Funktion zur Berechnung der Projekt-Gesamtbilanz (inkl. PV)
+                const calculateProjectMetrics = (solarInv, selfConsKwh, initialInfraInv, infraBenefit, infraReinvestment, batteryInv) => {
+                    const pvBaseIncome = selfConsKwh * 0.10; // Basis-Einkommen PV
+                    // Falls kein Einkommen, bricht Amortisation nie
+                    if (pvBaseIncome <= 0 && infraBenefit <= 0) return { amortizationYear: t('never'), balance19: initialInfraInv - solarInv, balance25: initialInfraInv - solarInv, balance30: initialInfraInv - solarInv };
+
+                    let totalProjectBalance = -solarInv + initialInfraInv; // Startbilanz
+                    let amortizationYear = -1; // Amortisationsjahr (noch nicht erreicht)
+                    let balance19 = 0, balance25 = 0, balance30 = 0;
+
+                    for (let year = 1; year <= 30; year++) {
+                        totalProjectBalance += pvBaseIncome + infraBenefit; // Jährlicher Gewinn
+                        // Reinvestition Infra
+                        if ((year === 10 || year === 20) && infraReinvestment !== 0) {
+                            totalProjectBalance += infraReinvestment;
+                        }
+                        // Reinvestition Batterie
+                        if(batteryInv > 0 && year === 15){
+                             totalProjectBalance -= batteryInv;
+                        }
+                        // Amortisationspunkt gefunden?
+                        if (totalProjectBalance >= 0 && amortizationYear === -1) amortizationYear = year;
+                        // Bilanzen zu bestimmten Jahren speichern
+                        if (year === 19) balance19 = totalProjectBalance;
+                        if (year === 25) balance25 = totalProjectBalance;
+                        if (year === 30) balance30 = totalProjectBalance;
+                    }
+                    return { 
+                        amortizationYear: amortizationYear === -1 ? t('more_than_30') : `${amortizationYear} ${t('years_suffix')}`, 
+                        amortizationYearNum: amortizationYear, // Numerisches Jahr für Vergleiche
+                        balance19, balance25, balance30 
+                    };
+                };
+                
+                // PV-Investition (inkl. initialer Batterie-Investition)
+                const pvAndInitialBatteryInvestment = kostenNachFoerderung + (mitSpeicher ? batteryInvestment : 0);
+                // REV Reinvestition (nur Adapter, falls Echtzeit)
+                const revAdapterReinvestment = isRealTime ? revAdapterInvestment : 0;
+                // Metriken für ZEV und REV berechnen
+                const zevMetrics = calculateProjectMetrics(pvAndInitialBatteryInvestment, selfConsumedKwh, zevInitialInvestment, zevAnnualBenefit, zevInitialInvestment, batteryInvestment);
+                const revMetrics = calculateProjectMetrics(pvAndInitialBatteryInvestment, selfConsumedKwh, revInitialInvestment, revAnnualNetPosition, revAdapterReinvestment, batteryInvestment);
+
+                // Hilfsfunktion zur Anzeige der Bilanz (grün/rot)
+                const displayBalance = (element, value) => {
+                    element.textContent = formatCurrency(value);
+                    element.classList.toggle('text-green-600', value >= 0);
+                    element.classList.toggle('text-red-600', value < 0);
+                };
+                
+                // Hilfsfunktion: Bilanz nur anzeigen, wenn Amortisation bereits erreicht
+                const displayConditionalBalance = (element, balance, amortYear) => {
+                    if (amortYear !== -1 && amortYear <= 19) {
+                        displayBalance(element, balance);
+                    } else {
+                        element.textContent = "N/A";
+                        element.className = 'text-lg font-bold text-gray-500';
+                    }
+                };
+
+                // Ziel-Amortisationssumme (PV + ggf. 2x Batterie)
+                const pvAmortizationTarget = totalAmortizableInvestment;
+
+                // Funktion zum Finden des Amortisationsjahres aus den Chart-Daten
+                const findAmortizationYear = (amortizationData, target) => {
+                    if (amortizationData[amortizationData.length - 1] < target) return t('more_than_30');
+                    for (let i = 0; i < amortizationData.length; i++) {
+                        if (amortizationData[i] >= target) return `${i} ${t('years_suffix')}`;
+                    }
+                    return t('more_than_30');
+                };
+
+                // Amortisation PV (+Batterie) anzeigen
+                zevPvAmortizationDisplay.textContent = findAmortizationYear(zevPvAmortizationData, pvAmortizationTarget);
+                revPvAmortizationDisplay.textContent = findAmortizationYear(revPvAmortizationData, pvAmortizationTarget);
+                
+                // Projekt-Bilanzen anzeigen
+                displayConditionalBalance(zevBalance19Display, zevMetrics.balance19, zevMetrics.amortizationYearNum);
+                displayConditionalBalance(revBalance19Display, revMetrics.balance19, revMetrics.amortizationYearNum);
+                displayBalance(zevBalance25Display, zevMetrics.balance25);
+                displayBalance(revBalance25Display, revMetrics.balance25);
+                displayBalance(zevBalance30Display, zevMetrics.balance30);
+                displayBalance(revBalance30Display, revMetrics.balance30);
+                
+                // 10. Amortisation der reinen Infrastruktur berechnen
+                const calculateFirstAmortization = (initial, annualBenefit) => {
+                    if (annualBenefit <= 0 || initial >= 0) return t('never');
+                    const yearsToAmortize = Math.ceil(-initial / annualBenefit);
+                    return yearsToAmortize > years ? `${t('more_than')}${years} ${t('years_suffix')}` : `${yearsToAmortize} ${t('years_suffix')}`;
+                };
+
+                zevAmortizationDisplay.textContent = calculateFirstAmortization(zevInitialInvestment, zevAnnualBenefit);
+                revAmortizationDisplay.textContent = isRealTime ? calculateFirstAmortization(revAdapterInvestment, revAnnualNetPosition) : t('none');
+
+                // 11. Gesamtwirtschaftlichen Vorteil berechnen (Eigentümer-Bilanz + Mieter-Ersparnis)
+                const totalTenantSavingZev25 = totalAnnualTenantSavingZev * 25;
+                const totalTenantSavingZev30 = totalAnnualTenantSavingZev * 30;
+                const totalTenantSavingRev25 = totalAnnualTenantSavingRev * 25;
+                const totalTenantSavingRev30 = totalAnnualTenantSavingRev * 30;
+
+                const zevTotalAdvantage25 = zevMetrics.balance25 + totalTenantSavingZev25;
+                const zevTotalAdvantage30 = zevMetrics.balance30 + totalTenantSavingZev30;
+                const revTotalAdvantage25 = revMetrics.balance25 + totalTenantSavingRev25;
+                const revTotalAdvantage30 = revMetrics.balance30 + totalTenantSavingRev30;
+
+                // Hilfsfunktion zur Anzeige des Gesamtvorteils
+                const displayTotalAdvantage = (element, value, model) => {
+                    element.textContent = formatCurrency(value);
+                    element.className = `text-xl font-extrabold ${value >= 0 ? (model === 'zev' ? 'text-green-700' : 'text-blue-700') : 'text-red-700'}`;
+                };
+
+                displayTotalAdvantage(zevTotalAdvantage25Display, zevTotalAdvantage25, 'zev');
+                displayTotalAdvantage(zevTotalAdvantage30Display, zevTotalAdvantage30, 'zev');
+                displayTotalAdvantage(revTotalAdvantage25Display, revTotalAdvantage25, 'rev');
+                displayTotalAdvantage(revTotalAdvantage30Display, revTotalAdvantage30, 'rev');
+            }
+
+            // --- Event Listeners (Ereignis-Handler) ---
+            function setupEventListeners() {
+                // Alle Input-Felder an die updateChart-Funktion binden
+                for (const key in inputs) {
+                    if (Object.hasOwnProperty.call(inputs, key)) {
+                        inputs[key].addEventListener('input', updateChart);
+                        inputs[key].addEventListener('change', updateChart);
+                    }
+                }
+
+                // --- Neue Event-Listener für UI-Steuerung ---
+                toggleErweitertButton.addEventListener('click', () => {
+                    erweiterteEinstellungen.classList.toggle('hidden');
+                    const isHidden = erweiterteEinstellungen.classList.contains('hidden');
+                    erweitertButtonText.textContent = isHidden ? t('btn_advanced_show') : t('btn_advanced_hide');
+                });
+
+                // --- Event-Listener für Akkordeon-Tabs ---
+                const accordionToggles = document.querySelectorAll('.accordion-toggle');
+                
+                // Funktion zum Aktualisieren der Pfeil-Icons
+                function updateAccordionIcons() {
+                    accordionToggles.forEach(toggle => {
+                        const svg = toggle.querySelector('svg');
+                        if (toggle.classList.contains('open')) {
+                            svg.style.transform = 'rotate(0deg)'; // Pfeil nach unten
+                        } else {
+                            svg.style.transform = 'rotate(-90deg)'; // Pfeil nach links
+                        }
+                    });
+                }
+
+                accordionToggles.forEach(toggle => {
+                    toggle.addEventListener('click', () => {
+                        const content = toggle.nextElementSibling;
+                        const wasOpen = toggle.classList.contains('open');
+
+                        // Schließe alle Tabs (oder nur die in der gleichen Gruppe, falls gewünscht)
+                        accordionToggles.forEach(otherToggle => {
+                            // Ausnahme: Der "Erweitert"-Button ist kein Akkordeon
+                            if (otherToggle.id === 'toggleErweitertButton') return; 
+                            
+                            const otherContent = otherToggle.nextElementSibling;
+                            if (otherContent) {
+                                otherContent.classList.add('hidden');
+                            }
+                            otherToggle.classList.remove('open');
+                        });
+
+                        // Öffne das geklickte Tab, WENN es vorher geschlossen war
+                        if (!wasOpen) {
+                            if (content) {
+                                content.classList.remove('hidden');
+                            }
+                            toggle.classList.add('open');
+                        }
+                        
+                        updateAccordionIcons();
+                    });
+                });
+
+                updateAccordionIcons();
+
+
+                // Spezial-Listener: Netztarif REV aktualisiert auch Netztarif ZEV (falls Spitzentarif aktiv)
+                inputs.netzTarif.addEventListener('input', () => {
+                    inputs.netzTarifZevKwh.value = inputs.netzTarif.value;
+                });
+
+                // Slider-Wert-Anzeigen aktualisieren
+                inputs.messpunkte.addEventListener('input', () => { 
+                    messpunkteValueDisplay.textContent = inputs.messpunkte.value; 
+                });
+                
+                inputs.eMobilitySlider.addEventListener('input', () => { 
+                    eMobilityValueDisplay.textContent = inputs.eMobilitySlider.value;
+                });
+                
+                // Speicher-Optionen ein-/ausblenden
+                inputs.speicherToggle.addEventListener('change', () => {
+                    batteryOptionsContainer.style.display = inputs.speicherToggle.checked ? 'block' : 'none';
+                    // Steuerung der Sichtbarkeit des neuen Hinweises
+                    document.getElementById('batterySourceNote').style.display = inputs.speicherToggle.checked ? 'list-item' : 'none';
+                });
+
+                inputs.batterySizeSlider.addEventListener('input', () => {
+                    batterySizeValue.textContent = `${inputs.batterySizeSlider.value} kWh`;
+                });
+
+                // Echtzeitkosten-Option ein-/ausblenden (jetzt nur noch im REV-Container)
+                inputs.realTimeToggle.addEventListener('change', () => {
+                    realTimeCostContainer.style.display = inputs.realTimeToggle.checked ? 'block' : 'none';
+                });
+
+                // Spitzentarif-Optionen ein-/ausblenden
+                inputs.spitzenTarifToggle.addEventListener('change', () => {
+                    const isChecked = inputs.spitzenTarifToggle.checked;
+                    spitzenTarifContainer.style.display = isChecked ? 'block' : 'none';
+                    zevMeterRentContainer.style.display = isChecked ? 'block' : 'none';
+                    zevBaseCostContainer.style.display = isChecked ? 'block' : 'none';
+                    if (spitzenTarifRevContainer) { 
+                        spitzenTarifRevContainer.style.display = isChecked ? 'block' : 'none'; // Auch den REV-Teil steuern
+                    }
+                });
+            }
+
+            initializeChart(); 
+            setupEventListeners(); 
+            updateChart(); 
+        });
+    </script>
+</body>
+</html>

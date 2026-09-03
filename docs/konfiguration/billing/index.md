@@ -16,9 +16,9 @@ Du brauchst ein smart-me Professional Abo, um Energiekostenabrechnungen erstelle
 
 In unserem Webinar wird Schritt für Schritt erklärt, wie mit dem Billing Tool Energiekostenabrechnungen erstellt werden können:
 
-<Video src="0AvKOogoW5Q" title="Video" />
+<Video src="0AvKOogoW5Q" title="YouTube Video, smart-me Billing für Fortgeschrittene" />
 
-<Video src="mK1HYLRtBUI" title="Video" />
+<Video src="mK1HYLRtBUI" title="YouTube Video, smart-me Billing - virtuelle Tarife, Spitzenleistung, Zählermiete ändern" />
 
 Inhalt vom Video
 

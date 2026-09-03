@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Liegenschaften Struktur</title>
+<style>
+    body {
+        font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        margin: 20px;
+        background-color: #ffffff;
+        color: #333333;
+    }
+    .table-container {
+        overflow-x: auto;
+        border-radius: 8px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+        border: 1px solid #eaeaea;
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        background-color: #ffffff;
+    }
+    th, td {
+        padding: 16px;
+        text-align: left;
+        border-bottom: 1px solid #eaeaea;
+        line-height: 1.5;
+    }
+    th {
+        background-color: #f8f9fa;
+        color: #1a1a1a;
+        font-weight: 600;
+        font-size: 0.95em;
+    }
+    th:first-child { border-top-left-radius: 8px; }
+    th:last-child { border-top-right-radius: 8px; }
+    tr:hover td {
+        background-color: #f1f5f9;
+    }
+    tr:last-child td {
+        border-bottom: none;
+    }
+    ul {
+        margin: 0;
+        padding-left: 20px;
+    }
+    li {
+        margin-bottom: 4px;
+    }
+    li:last-child {
+        margin-bottom: 0;
+    }
+    .status-ja {
+        display: inline-block;
+        background-color: #dcfce7;
+        color: #166534;
+        padding: 4px 10px;
+        border-radius: 20px;
+        font-size: 0.85em;
+        font-weight: 600;
+    }
+    .status-nein {
+        display: inline-block;
+        background-color: #fee2e2;
+        color: #991b1b;
+        padding: 4px 10px;
+        border-radius: 20px;
+        font-size: 0.85em;
+        font-weight: 600;
+    }
+    .placeholder-text {
+        color: #94a3b8;
+        font-style: italic;
+        font-size: 0.9em;
+    }
+</style>
+</head>
+<body>
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Energietypen</th>
+                    <th>Angelegte Liegenschaften</th>
+                    <th>Autom. Rechnungserstellung von Strom</th>
+                    <th>Zusätzliche Vorteile / Nachteile</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Elektrizität</td>
+                    <td>1x</td>
+                    <td><span class="status-ja">Ja</span></td>
+                    <td><span class="placeholder-text"></span></td>
+                </tr>
+                <tr>
+                    <td>Elektrizität + Wärme und Wasser 1 Heizung</td>
+                    <td>1x</td>
+                    <td><span class="status-nein">Nein</span></td>
+                    <td><span class="placeholder-text"></span></td>
+                </tr>
+                <tr>
+                    <td>Elektrizität + Wärme und Wasser 2 Heizungen</td>
+                    <td>2x</td>
+                    <td><span class="status-nein">Nein</span></td>
+                    <td>
+                        <ul>
+                            <li>Mehrfacheingabe der Mieter</li>
+                            <li>Mehrfacheingabe der Stromtarife</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Elektrizität + Wärme und Wasser 2 Heizungen</td>
+                    <td>3x</td>
+                    <td><span class="status-ja">Ja</span></td>
+                    <td>
+                        <ul>
+                            <li>Mehrfacheingabe der Mieter</li>
+                            <li>Mehrfacheingabe der Stromtarife</li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

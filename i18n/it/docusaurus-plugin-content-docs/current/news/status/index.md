@@ -1,16 +1,16 @@
 ---
-title: 'Stato'
+title: 'Status'
 slug: '/news/status'
 description: 'Attualmente nessun guasto noto'
-sidebar_label: 'Stato'
+sidebar_label: 'Status'
 ---
-## Stato OK
+## Status OK
 
 Attualmente nessun guasto noto
 
 Everything is fine.
 
-## Deutsch (aperto)
+## Tedesco (aperto)
 
 Problema:
 
@@ -19,14 +19,14 @@ Problema:
 
 Soluzione insieme al supporto
 
-1.  Crea un account o accedi all'account in cui deve essere installato il Pico
+1.  Crea un account oppure accedi all'account in cui deve essere installato il Pico
 
-2.  Crea la carta RFID come indicato nel video sul lato destro.
+2.  Crea la carta RFID secondo il video sul lato destro.
 
-3.  Installa i Pico con la carta RFID avvicinandola al Pico. Assicurati di utilizzare la carta fornita insieme al Pico e tienila avvicinata finché non compare il segno di spunta verde.
+3.  Installa i Pico con la carta RFID avvicinando la carta RFID al Pico. Assicurati di utilizzare la carta fornita con il Pico e tienila avvicinata finché non compare il segno di spunta verde.
 
 
-<Video src="" title="Video" />
+<Embed src="https://drive.google.com/file/d/1OgRKSQ0eyxUsqPxcM7ngkiJCvakHourV/preview" aspect="0.445" title="Drive, Pico IBN carta RFID.mp4" />
 
 Pico IBN RFID Karte.mp4
 
@@ -34,7 +34,7 @@ Pico IBN RFID Karte.mp4
 
 
 
-## Deutsch (chiuso)
+## Tedesco (chiuso)
 
 ### 10.03.2026 L'impianto telefonico non funziona (chiuso)
 
@@ -50,7 +50,7 @@ Inizio del guasto
 
 
 
-Stato:
+Status:
 
 -
 
@@ -61,9 +61,9 @@ Chiusura: 16.01.2026 14h45
 
 Problema: 
 
-- I Pico collegati tramite la carta SIM integrata possono cadere offline.
+- I Pico collegati tramite la scheda SIM integrata possono andare offline.
 
-- La connettività 2G/3G è compromessa. I dispositivi potrebbero non riuscire a connettersi alla rete o a stabilire connessioni dati.
+- La connettività 2G/3G è compromessa. I dispositivi potrebbero non riuscire a collegarsi alla rete o a stabilire connessioni dati.
 
 
 Inizio del guasto
@@ -73,26 +73,26 @@ Inizio del guasto
 
 
 
-Stato:
+Status:
 
-- 16.01.2026 9h00 1nce ha attualmente guasti su 3G e 4G, il che significa che i Pico sono offline tramite 4G.
+- 16.01.2026 9h00 1nce ha attualmente guasti su 3G e 4G, il che significa che i Pico collegati via 4G sono offline.
 
 - 16.01.2026 11h30 problema 1nce risolto.
 
 - 16.01.2026 14h30 alcuni Pico sono ancora offline 
 
-- 16.01.2026 14h45 Workaround per riportare i Pico online. [Guasto Pico 4G](/news/status/pico-4g-ausfall)
+- 16.01.2026 14h45 Workaround per riportare online i Pico. [Guasto Pico 4G](/news/status/pico-4g-ausfall)
 
-- 19.01.2026 8h30 Problema chiuso. Solo alcuni Pico sono ancora offline, circa 10 unità.
+- 19.01.2026 8h30 Problema chiuso. Solo singoli Pico sono ancora offline, circa 10 unità.
 
 
 
 
 Chiusura: 16.01.2026 14h45
 
-Purtroppo dobbiamo comunicarle che alcune stazioni di ricarica sono ancora interessate dal guasto delle SIM 1nce (carta fornita). 
+Purtroppo dobbiamo comunicarvi che alcune stazioni di ricarica sono ancora interessate dal guasto delle SIM 1nce (carta offerta). 
 
-Poiché una risoluzione del guasto da parte del fornitore esterno non è realistica, abbiamo agito in modo proattivo per metterle a disposizione una soluzione affidabile.
+Poiché una risoluzione del guasto da parte del fornitore esterno non è realistica, abbiamo agito in modo proattivo per mettervi a disposizione una soluzione affidabile.
 
 Istruzioni per la risoluzione del guasto [Guasto Pico 4G](/news/status/pico-4g-ausfall) 
 

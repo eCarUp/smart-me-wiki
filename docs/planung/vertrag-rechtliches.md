@@ -33,7 +33,7 @@ Agenda
 - [12:19 Rechtliche Basics der ZEV](https://www.youtube.com/watch?v=KqU1XWR4YOU&t=739s)
 
 
-<Video src="KqU1XWR4YOU" title="Video" />
+<Video src="KqU1XWR4YOU" title="YouTube Video, Webinar - Rechtliche Basics des ZEV" />
 
 ### Uns bekannte Partner
 

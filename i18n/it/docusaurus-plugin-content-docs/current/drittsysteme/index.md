@@ -6,7 +6,7 @@ sidebar_label: 'Sistemi di terzi'
 ---
 smart-me è un sistema di gestione dell'energia aperto. Con smart-me è possibile portare nel cloud i valori di misura di elettricità, acqua, gas e calore. Per il conteggio e l'ottimizzazione offriamo alcuni strumenti nel nostro portale. Puoi però anche trasferire i dati energetici in sistemi di terzi e utilizzare i loro strumenti.
 
-### Software di comando
+### Software di controllo
 
 [Loxone](/drittsysteme/loxone)
 
@@ -50,7 +50,7 @@ smart-me è un sistema di gestione dell'energia aperto. Con smart-me è possibil
 
 [Switzercloud / Colibird](/drittsysteme/switzercloud-colibird)
 
-[Zählerfreunde](/drittsysteme/zaehlerfreunde)
+[Zaehlerfreunde](/drittsysteme/zaehlerfreunde)
 
 ### Fornitori di servizi di conteggio
 
@@ -62,14 +62,14 @@ smart-me è un sistema di gestione dell'energia aperto. Con smart-me è possibil
 
 [Modulo whatwatt](/drittsysteme/whatwatt)
 
-### Webinar «Pianificazione RCP»
+### Webinar "Pianificazione RCP"
 
 Scopri se hai bisogno di un partner, spiegato in modo semplice.
 
-<Video src="fb33ML8YTYA" title="Video" />
+<Video src="fb33ML8YTYA" title="Video YouTube, Webinar &quot;Pianificazione di un RCP&quot;" />
 
-### Webinar «Esportare i dati energetici»
+### Webinar "Esportare i dati energetici"
 
 Panoramica delle possibilità di esportazione.
 
-<Video src="YXnEf3CQatc" title="Video" />
+<Video src="YXnEf3CQatc" title="Video YouTube, Esportare i dati energetici" />

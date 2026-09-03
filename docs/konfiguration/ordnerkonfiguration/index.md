@@ -4,7 +4,7 @@ slug: '/konfiguration/ordnerkonfiguration'
 description: 'Video Anleitung Ordner erstellen und Zähler zuordnen'
 sidebar_label: 'Ordnerkonfiguration'
 ---
-<Video src="" title="Video" />
+<Embed src="https://player.vimeo.com/video/661999827" aspect="1.291" title="Ordnerkonfiguration" />
 
 Video Anleitung Ordner erstellen und Zähler zuordnen
 
@@ -108,7 +108,7 @@ Bei Systemen mit mehreren Heizungen, ist eine Trennung in mehrere Liegenschaften
 
 Jede individuelle erstellte Liegenschaft ist grundsätzlich in der Lage 1x Strom und 1x Wärme/Wasser abzubilden.
 
-<Video src="" title="Custom embed" />
+<Embed src="/embeds/konfiguration-ordnerkonfiguration-02.html" aspect="2.308" title="Ordnerkonfiguration" />
 
 ### Grundlagen der Baumstruktur und Knoten erstellen
 
@@ -166,7 +166,7 @@ Achtung: bereits bestehende Ordner werden durch das Verwenden dieser Funktion ge
 
 
 
-<Video src="YQVcTxPgdzM" title="Video" />
+<Video src="YQVcTxPgdzM" title="YouTube Video, Erstellung von Ordnern mittels csv Datei" />
 
 ![Zähler- und Ordnerkonfiguration – Abbildung 8](/img/konfiguration-ordnerkonfiguration/08.png)
 
@@ -174,7 +174,7 @@ Folgende Spalten (Reihenfolge nicht ändern) sind in einer Konfigurations-CSV-Da
 
 [](https://drive.google.com/open?id=1Ft_fg6mxKZCpPND-i5ZoWN6kAKacnDXD8rJGeOB40KM "Open Spreadsheet, wiki 2.0 Tabellen in new window")
 
-<Video src="" title="Video" />
+<Embed src="https://docs.google.com/spreadsheets/d/1Ft_fg6mxKZCpPND-i5ZoWN6kAKacnDXD8rJGeOB40KM/htmlembed?gid=0" title="Spreadsheet, wiki 2.0 Tabellen" />
 
 wiki 2.0 Tabellen
 

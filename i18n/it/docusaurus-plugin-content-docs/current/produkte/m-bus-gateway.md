@@ -1,10 +1,10 @@
 ---
 title: 'M-Bus Gateway'
 slug: '/produkte/m-bus-gateway'
-description: 'I gateway M-Bus di smart-me leggono i contatori di energia con interfaccia M-Bus (EN 13757-2, -3) e trasmettono i dati automaticamente e in forma crittografata via WLAN al cloud smart-me…'
+description: 'I gateway M-Bus di smart-me leggono i contatori di energia con interfaccia M-Bus (EN 13757-2, -3) e trasmettono i dati automaticamente e in forma criptata via WLAN al cloud smart-me…'
 sidebar_label: 'M-Bus Gateway'
 ---
-I gateway M-Bus di smart-me leggono i contatori di energia con interfaccia M-Bus (EN 13757-2, -3) e trasmettono i dati automaticamente e in forma crittografata via WLAN al cloud smart-me. Tramite il portale smart-me o la nostra interfaccia aperta è poi possibile analizzare in modo flessibile i valori dei diversi vettori energetici (acqua, calore, gas, temperatura) ed esportarli verso sistemi di terzi. 
+I gateway M-Bus di smart-me leggono i contatori di energia con interfaccia M-Bus (EN 13757-2, -3) e trasmettono i dati automaticamente e in forma criptata via WLAN al cloud smart-me. Tramite il portale smart-me o la nostra interfaccia aperta è poi possibile analizzare in modo flessibile i valori dei diversi vettori energetici (acqua, calore, gas, temperatura) ed esportarli verso sistemi di terzi. 
 
 [EN](/produkte/m-bus-gateway)
 
@@ -18,8 +18,8 @@ I gateway M-Bus di smart-me leggono i contatori di energia con interfaccia M-Bus
 
 - Alimentatore integrato
 
-- Supporta dispositivi M-Bus secondo EN 13757-2, -3 (già EN 1434-3)
-    Lo standard definisce il protocollo, ma non i dati contenuti. Il rispetto della norma non è quindi da solo una garanzia di funzionamento effettivo. Consulta il nostro [elenco di compatibilità](/produkte/m-bus-gateway).
+- Supporta dispositivi M-Bus secondo EN 13757-2, -3 (in precedenza EN 1434-3)
+    Lo standard definisce il protocollo, ma non i dati contenuti. Il solo rispetto della norma non è quindi garanzia di un funzionamento effettivo. Consulta la nostra [lista di compatibilità](/produkte/m-bus-gateway).
 
 - Fatturazione con il [tool smart-me Billing](/konfiguration/billing)
 
@@ -27,7 +27,7 @@ I gateway M-Bus di smart-me leggono i contatori di energia con interfaccia M-Bus
 
 - [Interfacce](/) via API, CSV, MSCONS e IS-E
 
-- Collegamento dati crittografato in tempo reale al cloud smart-me
+- Connessione dati criptata in tempo reale al cloud smart-me
 
 
 ![M-Bus Gateway – Figura 1](/img/produkte-m-bus-gateway/01.jpg)
@@ -36,12 +36,12 @@ I gateway M-Bus di smart-me leggono i contatori di energia con interfaccia M-Bus
 
 ### Dati tecnici
 
-<Video src="" title="Custom embed" />
+<Embed src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTS_V0Z-_eYRhsXEj3_EJEfKJUK_UP_ZtCxld8cwubPmkDx3eOCcscx_DfAkDd1ngnfvuES569q42lz/pubhtml?gid=0&range=A1:B22&single=true&widget=false&headers=false&chrome=false" aspect="1.637" title="M-Bus Gateway" />
 
 ### Informazioni di spedizione
 
 Numero di articolo: 150590
-Nome dell'articolo: smart-me M-Bus Gateway (mit WiFi Schnittstelle)
+Nome articolo: smart-me M-Bus Gateway (mit WiFi Schnittstelle)
 
 Numero di tariffa doganale: 9028.1000
 
@@ -51,11 +51,11 @@ Peso con imballaggio: 150g
 
 ![M-Bus Gateway – Figura 2](/img/produkte-m-bus-gateway/02.png)
 
-### Funzione del tasto
+### Funzione dei tasti
 
 Tasto T(4) per l'installazione
 
-Se il tasto T(4) viene premuto per 10 secondi, viene generata una rete WiFi locale per l'installazione
+Se il tasto T(4) viene premuto per 10 secondi, viene creata una rete WiFi locale per l'installazione
 
 ### Dimensioni
 
@@ -71,8 +71,8 @@ Se il tasto T(4) viene premuto per 10 secondi, viene generata una rete WiFi loca
 
 - Alimentatore integrato
 
-- Supporta dispositivi M-Bus secondo EN 13757-2, -3 (già EN 1434-3).
-    Lo standard definisce il protocollo, ma non i dati contenuti. Il rispetto della norma non è quindi da solo una garanzia di funzionamento effettivo. Consulta il nostro [elenco di compatibilità](/produkte/m-bus-gateway).
+- Supporta dispositivi M-Bus secondo EN 13757-2, -3 (in precedenza EN 1434-3).
+    Lo standard definisce il protocollo, ma non i dati contenuti. Il solo rispetto della norma non è quindi garanzia di un funzionamento effettivo. Consulta la nostra [lista di compatibilità](/produkte/m-bus-gateway).
 
 - Fatturazione con il [tool smart-me Billing](/konfiguration/billing)
 
@@ -80,7 +80,7 @@ Se il tasto T(4) viene premuto per 10 secondi, viene generata una rete WiFi loca
 
 - [Interfacce](/) via API, CSV, MSCONS e IS-E
 
-- Collegamento dati crittografato in tempo reale al cloud smart-me
+- Connessione dati criptata in tempo reale al cloud smart-me
 
 
 ![M-Bus Gateway – Figura 4](/img/produkte-m-bus-gateway/04.png)
@@ -89,12 +89,12 @@ Se il tasto T(4) viene premuto per 10 secondi, viene generata una rete WiFi loca
 
 ### Dati tecnici
 
-<Video src="" title="Custom embed" />
+<Embed src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTmayprR4Vh48nmvnu_ZbxO2BDz8btgHbcJ9pR_-cv_irut8RWRsdGGeIUEGcU8p8qNdzdAKR6xG2kh/pubhtml?gid=0&range=A1:B25&single=true&widget=false&headers=false&chrome=false" aspect="0.933" title="M-Bus Gateway" />
 
 ### Informazioni di spedizione
 
 Numero di articolo: 262090
-Nome dell'articolo: smart-me M-Bus Gateway Sirius
+Nome articolo: smart-me M-Bus Gateway Sirius
 
 Numero di tariffa doganale: 9028.9000
 
@@ -114,11 +114,11 @@ Tasto di reset (T2)
 
 Premere brevemente una volta = legge gli slave MBUS 
 
-Premere a lungo = esegue la scansione del M-BUS 
+Premere lungo = esegue la scansione dell'M-BUS 
 
 Tasto di installazione (T1) e tasto di reset (T2) contemporaneamente
 
-Premere a lungo = riavvia il dispositivo 
+Premere lungo = riavvia il dispositivo 
 
 ## Messa in servizio
 
@@ -135,18 +135,18 @@ In queste pagine trovi tutte le informazioni rilevanti per una messa in servizio
 - [Impedire il riconoscimento automatico dei dispositivi](/konfiguration/inbetriebnahme#impedire-allm-bus-gateway-il-riconoscimento-di-nuovi-dispositivi)
 
 
-## Contatori elettrici, di calore, dell'acqua e del gas compatibili
+## Contatori di elettricità, calore, acqua e gas compatibili
 
-Il M-Bus Gateway legge oltre 1000 tipi di contatori di diversi produttori. Qui sotto trovi un elenco non esaustivo di produttori di dispositivi compatibili.
+Il M-Bus Gateway legge oltre 1000 tipi di contatore di diversi produttori. Qui sotto trovi un elenco non esaustivo dei produttori di dispositivi compatibili.
 
-Nota: presta particolare attenzione a come è dichiarato il contatore. Può essere dichiarato come contatore di calore, contatore di calore / freddo, contatore dell'acqua o contatore elettrico.
-I contatori combinati che non sono dichiarati come contatori di calore / freddo possono in determinate circostanze non funzionare correttamente in modalità combinata oppure funzionare solo come contatori di calore.
+Nota: presta esplicitamente attenzione a come è dichiarato il contatore. Può essere dichiarato come contatore di calore, contatore di calore / freddo, contatore dell'acqua o contatore di elettricità.
+I contatori combinati che non sono dichiarati come contatori di calore / freddo possono in certi casi non funzionare correttamente in modalità combinata o funzionare solo come contatore di calore.
 
-<Video src="" title="Video" />
+<Embed src="https://drive.google.com/file/d/1PVhN_1lLolihf6eNQ_1x7UxZK8cjE_hq/preview" aspect="2.728" title="Drive, lista di compatibilità M-Bus_Gateway.xlsx" />
 
 Kompatibilitätsliste M-Bus\_Gateway.xlsx
 
-Anche tu dovresti essere in questo elenco? Se il tuo prodotto supporta lo standard M-Bus EN 13757-2, -3 (già EN 1434-3), ti inseriamo volentieri anche tra i produttori di dispositivi compatibili! [Contattaci](/kontakt). 
+Anche tu dovresti figurare in questo elenco? Se il tuo prodotto supporta lo standard M-Bus EN 13757-2, -3 (in precedenza EN 1434-3), ti elenchiamo con piacere anche tra i produttori di dispositivi compatibili! [Contattaci](/kontakt). 
 
 INTEGRA Metering AG
 
@@ -174,7 +174,7 @@ CH-6005 Luzern
 
 [www.gwf.ch](http://www.gwf.ch)
 
-Mauro Nuozzi (responsabile backoffice)
+Mauro Nuozzi (responsabile back office)
 
 +41 41 319 52 47
 
@@ -290,49 +290,49 @@ CH-8340 Hinwil
 
 Così l'installazione riesce in un attimo
 
-- Tubi vuoti o passerelle per cavi dalla centrale dati alle scatole di derivazione e agli apparecchi di misura
+- Tubi vuoti o canaline dalla centrale dati alle scatole di derivazione e agli strumenti di misura
 
-- Posa di cavi elettrici verso tutti gli apparecchi di misura e i componenti
+- Posa di cavi elettrici verso tutti gli strumenti di misura e i componenti
 
-- Scatole di derivazione / di collegamento piombabili in tutti i punti di serraggio e di collegamento
+- Scatole di derivazione / collegamento piombabili in tutti i punti di morsettiera e di collegamento
 
 - Montaggio della centrale dati incl. collegamento
 
 - Alimentazione 230V / 10A da gruppi di fusibili piombabili
 
 
-Attenzione: non alimentare il smart-me M-Bus Gateway con tensione. L'inserimento della tensione di esercizio può essere effettuato solo da un partner smart-me.
+Attenzione: non alimentare con tensione il M-Bus Gateway di smart-me. L'inserimento della tensione di esercizio può essere effettuato solo da un partner smart-me.
 
-Raccomandazione per la combinazione delle canalizzazioni dei cavi
-Consigliamo di suddividere la posa delle linee bus in linee montanti e linee di derivazione:
+Raccomandazione per la combinazione dei percorsi dei cavi
+Raccomandiamo di suddividere la posa delle linee bus in linee montanti e linee di derivazione:
 
 ![M-Bus Gateway – Figura 6](/img/produkte-m-bus-gateway/06.png)
 
 ### Prescrizioni per l'installazione dei cavi e l'installazione elettrica
 
-In generale valgono le prescrizioni ASE. Le linee bus dovresti dimensionarle il più corte possibile.
+In generale si applicano le prescrizioni ASE (SEV). Le linee bus dovrebbero essere dimensionate il più corte possibile.
 Si raccomandano i seguenti tipi di cavo:
 
-Linea montante: TT2×1,5 mm2 (preferibile), lunghezza massima della linea = 1000 m
+Linea montante: TT2×1,5 mm2 (preferita), lunghezza massima della linea = 1000 m
 
-Linea di derivazione: U72 1×4×0,8 mm2 (preferibile), lunghezza massima della linea = 50 m
+Linea di derivazione: U72 1×4×0,8 mm2 (preferita), lunghezza massima della linea = 50 m
 
-Nota: tutti i punti di derivazione, di collegamento e di connessione devono essere piombabili. 
+Nota: tutti i punti di derivazione, di collegamento e di giunzione devono essere piombabili. 
 
 La piombatura viene eseguita da un partner smart-me.
 
 ### Proposte di materiale
 
-Collegamenti/connessioni:
+Collegamenti/giunzioni:
 
-- Scatole da esterno: ad es. Woertz 78×78 mm
+- Scatole da esterno: p. es. Woertz 78×78 mm
 
 - Scatole da incasso: scatole di derivazione standard
 
 
-Connessioni delle linee:
+Giunzioni di linea:
 
-- Connettori a pressione a bottone «Scotchlok IDC» 0,5 ... 1,5 mm2
+- Connettori a pressione a pulsante «Scotchlok IDC» 0,5 ... 1,5 mm2
 
 - Morsetti usuali per conduttori a corrente debole
 
@@ -343,7 +343,7 @@ Secondo l'intervallo impostato, i dati vengono letti in sequenza su ogni contato
 
 ## Descrizione tecnica del protocollo M-BUS
 
-Nel cloud smart-me vengono in linea di principio visualizzati tutti i dati che il contatore invia via M-BUS. smart-me si attiene allo standard EN 13757-2, -3. 
+Nel cloud smart-me vengono in linea di principio visualizzati tutti i dati che il contatore invia tramite M-BUS. smart-me si attiene allo standard EN 13757-2, -3. 
 
 Alcuni esempi per il mapping dei telegrammi M-BUS: [Examples: smart-me M-BUS OBIS Mapping](https://docs.google.com/spreadsheets/d/1YdANNycQFGBsSAA0OtO-GKNZQg42OdUJ03VKlixGZ1w/edit#gid=0) 
 

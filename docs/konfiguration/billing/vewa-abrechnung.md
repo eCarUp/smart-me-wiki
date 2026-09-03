@@ -8,7 +8,7 @@ sidebar_label: 'VEWA - Abrechnung'
 
 ## Webinar VEWA
 
-<Video src="nrziX2lLI0s" title="Video" />
+<Video src="nrziX2lLI0s" title="YouTube Video" />
 
 - [Einleitung smart-me](https://youtu.be/nrziX2lLI0s?si=ufIjxwLFavDER5VH&t=140) ab 2min 20sec 
 

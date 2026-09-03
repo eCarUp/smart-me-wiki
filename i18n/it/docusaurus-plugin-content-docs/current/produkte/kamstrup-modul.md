@@ -1,18 +1,18 @@
 ---
-title: 'Kamstrup Modul'
+title: 'Modulo Kamstrup'
 slug: '/produkte/kamstrup-modul'
 description: 'Modulo smart-me per l''interfaccia cliente del contatore Kamstrup Omnipower.'
-sidebar_label: 'Kamstrup Modul'
+sidebar_label: 'Modulo Kamstrup'
 ---
 Modulo smart-me per l'interfaccia cliente del contatore Kamstrup Omnipower.
 
-Il modulo smart-me Kamstrup porta i contatori elettrici nel cloud. I tuoi clienti ottengono analisi accurate, visualizzazioni e un monitoraggio preciso del proprio consumo energetico. Non è necessario alcun hardware aggiuntivo. Il modulo smart-me Kamstrup utilizza la rete WiFi esistente e si collega direttamente al cloud smart-me.
+Il modulo smart-me Kamstrup porta i contatori di elettricità nel cloud. I tuoi clienti ricevono analisi accurate, visualizzazioni e un monitoraggio preciso del proprio consumo energetico. Non è necessario alcun hardware aggiuntivo. Il modulo smart-me Kamstrup utilizza la rete WiFi esistente e si collega direttamente al cloud smart-me.
 
-Informazione sulla cessazione inviata in Svizzera l'08.08.2023 (rete di partner).
+Informazione di fine commercializzazione inviata in Svizzera l'08.08.2023 (rete di partner).
 
-La vendita in Svizzera cessa il 31.12.2023, il supporto e il supporto cloud restano garantiti.
+La vendita in Svizzera cessa il 31.12.2023; il supporto e il supporto cloud continuano a essere garantiti.
 
-La vendita fuori dalla Svizzera è cessata il 1.1.2023, il supporto e il supporto cloud restano garantiti.
+La vendita fuori dalla Svizzera è cessata l'1.1.2023; il supporto e il supporto cloud continuano a essere garantiti.
 
 ![Modulo Kamstrup – Figura 1](/img/produkte-kamstrup-modul/01.jpg)
 
@@ -26,17 +26,17 @@ Capitoli
 
 [00:18](https://www.youtube.com/watch?v=CwS65mPsTws&t=18s) La rete WLAN non viene creata
 
-[00:59](https://www.youtube.com/watch?v=CwS65mPsTws&t=59s) LED lampeggiante veloce
+[00:59](https://www.youtube.com/watch?v=CwS65mPsTws&t=59s) LED con lampeggio rapido
 
 [01:14](https://www.youtube.com/watch?v=CwS65mPsTws&t=74s) LED a luce scorrevole
 
-<Video src="" title="Video" />
+<Embed src="https://player.vimeo.com/video/688374505" aspect="1.601" title="Modulo Kamstrup" />
 
 ## Funzioni
 
-- Diversi diagrammi e valutazioni
+- Diversi grafici e analisi
 
-- Aggiornamento firmware online
+- Aggiornamento del firmware online
 
 - Datalogger integrato per un mese
 
@@ -50,7 +50,7 @@ Capitoli
 
 - [Installazione](/konfiguration/inbetriebnahme) semplice con l'app smart-me per [Android](https://play.google.com/store/apps/details?id=com.smart_me) e [iOS](https://apps.apple.com/ch/app/smart-me/id929146952?ign-mpt=uo%3D4)
 
-- Modbus-TCP dalla versione firmware 8.0 (Info: senza una connessione a Internet continua il modulo non può offrire nemmeno una comunicazione Modbus stabile) 
+- Modbus TCP dalla versione firmware 8.0 (Nota: senza una connessione Internet continua il modulo non può offrire nemmeno una comunicazione Modbus stabile) 
 
 
 ### Come posso impostare il fattore di correzione nel cloud?
@@ -61,44 +61,44 @@ Per impostare il fattore di correzione di un modulo o di un contatore, procedi c
 
 2.  Clicca su configurare (konfigurieren)
 
-3.  Clicca su Configurazione contatori/cartelle (Zähler/Ordner-Konfiguration)
+3.  Clicca su configurazione contatori/cartelle (Zähler/Ordner-Konfiguration)
 
 4.  Seleziona il contatore corrispondente
 
-5.  Clicca su Modifica nodo (Knoten editieren) (in alto sul pulsante verde)
+5.  Clicca su modifica nodo (Knoten editieren) (in alto, pulsante verde)
 
 6.  Inserisci il valore di correzione in Correzione valore (Wert Korrektur). (Attenzione: solo in Correzione valore (Wert Korrektur), non in Correzione valore cartella superiore (Überordner Wert Korrektur))
 
-7.  Premi su Salva (Speichern).
+7.  Premi Salva (Speichern).
 
 
 ### Decifratura del modulo Kamstrup
 
 [Istruzioni video](https://www.youtube.com/watch?v=bYoq9a142t8)
 
-1.  In alto a destra sul simbolo dell'ingranaggio (Impostazioni / Einstellungen) 
+1.  In alto a destra sul simbolo dell'ingranaggio (Impostazioni) 
 
-2.  Modificare (Editieren) 
+2.  Modificare 
 
-3.  Inserire la chiave del contatore (Zählerschlüssel)
+3.  Inserire la chiave del contatore
 
 
-Attenzione: il modulo Kamstrup necessita del pin di cifratura del contatore per poterne leggere i dati. Ne dispone esclusivamente l'azienda elettrica.
+Attenzione: il modulo Kamstrup necessita del PIN di cifratura del contatore per poterne leggere i dati. Ne dispone esclusivamente l'azienda elettrica.
 
-### Come si calcola il fattore di correzione?
+### Come viene calcolato il fattore di correzione?
 
-1.  Attenzione: questo testo non si riferisce al rapporto di trasformazione del Telstar CT, bensì al fattore di correzione nella configurazione contatori/cartelle. Il fattore di correzione serve principalmente in caso di impiego di contatori Kamstrup in combinazione con trasformatori di corrente. 
+1.  Attenzione: questo testo non si riferisce al rapporto di trasformazione del Telstar CT, ma al fattore di correzione nella configurazione dei contatori/delle cartelle. Il fattore di correzione è necessario principalmente quando si utilizzano contatori Kamstrup in combinazione con trasformatori di corrente. 
 
 2.  Esempio con trasformatore 600:5:
-    Se si impiega un trasformatore con un rapporto di 600:5, il valore deve essere adattato di un fattore di 600 : 5 = 120. Il fattore di correzione deve essere indicato in percentuale nel cloud smart-me. Ne risulta quindi un fattore di correzione di 120 \* 100 % = 12'000 %
+    Se si utilizza un trasformatore con un rapporto di 600:5, il valore deve essere adattato di un fattore di 600 : 5 = 120. Il fattore di correzione deve essere indicato in percentuale nel cloud smart-me. Ne risulta quindi un fattore di correzione di 120 \* 100 % = 12'000 %
 
-3.  Esempio con trasformatore 600:5 e preimpostazione del contatore Kamstrup con 100:5:
-    Alcuni contatori Kamstrup hanno un rapporto di trasformazione preimpostato di 100:5. Se a questo contatore viene collegato un trasformatore con un rapporto di 600:5, il fattore di correzione si calcola come segue:
+3.  Esempio con trasformatore 600:5 e preimpostazione del contatore Kamstrup su 100:5:
+    I contatori Kamstrup hanno in parte un rapporto di trasformazione preimpostato di 100:5. Se a questo contatore viene collegato un trasformatore con un rapporto di 600:5, il fattore di correzione si calcola come segue:
     Fattore di correzione del contatore Kamstrup: 100 : 5 = 20
     Fattore di correzione per il trasformatore: 600 : 5 = 120
-    Fattore di correzione complessivo: 120 / 20 = 6
-    Fattore di correzione complessivo in percentuale: 6 \* 100 % = 600 %
-    In questo caso occorrerebbe quindi impostare un fattore di correzione di 600 % nel portale smart-me. 
+    Fattore di correzione totale: 120 / 20 = 6
+    Fattore di correzione totale in percentuale: 6 \* 100 % = 600 %
+    In questo caso, nel portale smart-me dovrebbe quindi essere impostato un fattore di correzione di 600 %. 
 
 
 ### Con quale frequenza vengono trasmessi i dati
@@ -108,7 +108,7 @@ Questo può essere impostato manualmente per ogni apparecchio.
 - L'intervallo può essere ridotto fino a 1 secondo.
 
 
-L'impostazione si effettua come segue
+L'impostazione si esegue come segue
 
 - Accesso
 
@@ -118,7 +118,7 @@ L'impostazione si effettua come segue
 
 - Impostazioni generali (Allgemeine Einstellungen)
 
-- Impostare l'intervallo di upload (&lt;60 secondi possibile solo con smart-me Professional)
+- Impostare l'intervallo di upload (&lt;60 secondi solo con smart-me Professional)
 
 - Salvare le impostazioni
 
@@ -128,29 +128,29 @@ L'impostazione si effettua come segue
 - Il numero di serie inizia con 92\*: Kamstrup
 
 
-Informazioni generali sono disponibili alla pagina [Contatore offline](/stoerungsbehebung/zaehler-offline).
+Le informazioni generali si trovano alla pagina [Contatore offline](/stoerungsbehebung/zaehler-offline).
 
-Le indicazioni specifiche del contatore sono disponibili qui
+Le indicazioni specifiche del contatore si trovano qui
 
 ### Riavviare il contatore
 
-- Questa è solo un'informazione su come si procede.
+- Questo serve solo come informazione su come si esegue.
 
-- Procedura: rimuovere il modulo dal contatore. Attendere finché nessun LED è più acceso. Reinserire il modulo nel contatore.
+- Procedura: rimuovere il modulo dal contatore. Attendere fino a quando nessun LED è più acceso. Reinserire il modulo nel contatore.
 
 
 ### Come riconosco lo stato di ricezione di un contatore
 
-- Collegato alla WLAN: il LED arancione a sinistra e il LED verde a destra sono accesi in modo permanente.
+- Collegato alla rete WLAN: il LED arancione a sinistra e il LED verde a destra sono accesi in modo permanente.
 
-- Non riesce a collegarsi alla WLAN: to be defined
+- Non riesce a collegarsi alla rete WLAN: to be defined
 
-- Il contatore crea una WLAN locale: il LED arancione a sinistra è acceso in modo permanente e. Il LED rosso al centro e il LED verde a destra si accendono alternativamente a intervalli di 0.5 secondi.
+- Il contatore genera una rete WLAN locale: il LED arancione a sinistra è acceso in modo permanente e. Il LED rosso al centro e il LED verde a destra si accendono alternativamente a intervalli di 0.5 secondi.
 
 
 ### Verifica all'arrivo
 
-All'arrivo possono essere verificati i punti seguenti. Se sul contatore è già stato fatto qualcosa, è importante che sul contatore non venga fatto nulla per almeno 5 minuti. È anche possibile richiedere al cliente sul posto un video del contatore (30 secondi) per valutare meglio la situazione.
+All'arrivo si possono verificare i punti seguenti. Se sul contatore è già stato eseguito qualcosa, è importante che per almeno 5 minuti non venga fatto nulla sul contatore. È anche possibile chiedere al cliente sul posto un video del contatore (30 secondi) per valutare meglio la situazione.
 
 - Verificare lo stato con il video: [https://www.youtube.com/watch?v=CwS65mPsTws](https://www.youtube.com/watch?v=CwS65mPsTws) oppure [https://vimeo.com/688374505](https://vimeo.com/688374505)
 
@@ -158,7 +158,7 @@ All'arrivo possono essere verificati i punti seguenti. Se sul contatore è già 
 
     - Capitolo: [00:18](https://www.youtube.com/watch?v=CwS65mPsTws&t=18s) La rete WLAN non viene creata
 
-    - Capitolo: [00:59](https://www.youtube.com/watch?v=CwS65mPsTws&t=59s) LED lampeggiante veloce
+    - Capitolo: [00:59](https://www.youtube.com/watch?v=CwS65mPsTws&t=59s) LED con lampeggio rapido
 
     - Capitolo: [01:14](https://www.youtube.com/watch?v=CwS65mPsTws&t=74s) LED a luce scorrevole
 
@@ -180,9 +180,9 @@ All'arrivo possono essere verificati i punti seguenti. Se sul contatore è già 
 
 smart-me non offre alcun prodotto successore per i contatori Kamstrup. 
 
-Se gestisci un RCP (raggruppamento ai fini del consumo proprio) smart-me (solo Svizzera) e hai bisogno di una nuova soluzione per la tua misurazione (per es. HAK), puoi contattarci volentieri: offriamo ai nostri [partner di progetto](https://web.smart-me.com/projektpartner/) condizioni vantaggiose per la sostituzione. (Offerta speciale valida fino al 30.06.2025)
+Se gestisci un RCP (raggruppamento ai fini del consumo proprio) smart-me (solo Svizzera) e hai bisogno di una nuova soluzione per la tua misurazione (p. es. cassetta di giunzione d'entrata), puoi contattarci: offriamo ai nostri [partner di progetto](https://web.smart-me.com/projektpartner/) condizioni vantaggiose per la sostituzione. (Offerta speciale valida fino al 30.06.2025)
 
-Se in ambito privato vengono effettuate misurazioni per monitoraggio, domotica ecc., è possibile installare in qualsiasi momento il [Telstar 80A](/produkte/telstar) o il [Telstar CT](/produkte/Telstar-CT). Se cerchi una soluzione con il tuo contatore Kamstrup esistente, ti consigliamo di dare un'occhiata a questa pagina. [https://gplug.ch/](https://gplug.ch/) (Riserva gPlug: per il modulo smart-me Kamstrup va tenuto presente che viene utilizzata una funzione non documentata dell'interfaccia cliente (CII). Il gPlugK utilizza invece la CII pubblicata ufficialmente. Può quindi capitare che il gPlugK non funzioni su un Omnipower, nonostante il prodotto smart-me vi funzioni. Questo problema può in parte essere risolto tramite una modifica della configurazione remota da parte del gestore della rete di distribuzione.
+Se nell'ambito privato vengono effettuate misurazioni per monitoraggio, domotica ecc., è possibile installare in qualsiasi momento il [Telstar 80A](/produkte/telstar) o il [Telstar CT](/produkte/Telstar-CT). Se cerchi una soluzione con il tuo contatore Kamstrup esistente, ti consigliamo di dare un'occhiata a questa pagina. [https://gplug.ch/](https://gplug.ch/) (Riserva gPlug: per il modulo smart-me Kamstrup va tenuto presente che viene utilizzata una funzione non documentata dell'interfaccia cliente (CII). Il gPlugK, al contrario, utilizza la CII pubblicata ufficialmente. Può quindi succedere che il gPlugK non funzioni su un Omnipower, sebbene il prodotto smart-me funzioni. Questo problema può essere in parte risolto con una modifica della configurazione remota da parte del gestore della rete di distribuzione.
 
 ## Chiave del contatore non valida (CKW)
 
@@ -195,15 +195,15 @@ Problema
 
 Soluzione
 
-La causa del problema è nota dal 14.5.2025 13:43: nel corso di una manutenzione di sistema di CKW sono state rinnovate per errore tutte le chiavi dei contatori Kamstrup, rendendo non valide le precedenti.
+La causa del problema è nota dal 14.5.2025 13:43: nel corso di una manutenzione di sistema della CKW sono state rinnovate per errore tutte le chiavi dei contatori Kamstrup, rendendo non valide quelle precedenti.
 
-Come soluzione devi inviare a CKW una mail a [messtechnik@ckw.ch](mailto:messtechnik@ckw.ch) con il numero del contatore (vedi immagine in basso a destra). CKW ti invierà quindi una nuova chiave.
+Come soluzione devi inviare alla CKW una mail a [messtechnik@ckw.ch](mailto:messtechnik@ckw.ch) indicando il numero del contatore (vedi immagine in basso a destra). CKW ti invierà poi una nuova chiave.
 
 ![Modulo Kamstrup – Figura 3](/img/produkte-kamstrup-modul/03.png)
 
 ![Modulo Kamstrup – Figura 4](/img/produkte-kamstrup-modul/04.png)
 
-## Downloads
+## Download
 
 Scheda tecnica
 
@@ -217,7 +217,7 @@ Documenti tecnici
 
 ### Con quale intervallo i contatori inviano i dati?
 
-- Ogni 15 minuti, quindi alle xx:00:00 xx:15:00, xx:30:00 e xx:45:00. In questo modo vengono inviati i dati necessari per la curva di carico. In caso di interruzione della connessione questi dati vengono salvati localmente e inviati successivamente.
+- Ogni 15 minuti, quindi alle xx:00:00, xx:15:00, xx:30:00 e xx:45:00. In questo modo vengono inviati i dati necessari per la curva di carico. In caso di interruzione della connessione, questi dati vengono salvati localmente e inviati successivamente.
 
 - In aggiunta è possibile effettuare una configurazione individuale:
 

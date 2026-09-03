@@ -6,7 +6,7 @@ sidebar_label: 'elmoove'
 ---
 ## Webinaraufzeichung
 
-<Video src="5DH7QX_c5qY" title="Video" />
+<Video src="5DH7QX_c5qY" title="YouTube Video" />
 
 ## Clever laden mit der mooveBar
 
@@ -32,4 +32,4 @@ CH-8242 Hofen
 
 [www.elmoove.ch](https://elmoove.ch/)
 
-<Video src="Be9wba-Ees0" title="Video" />
+<Video src="Be9wba-Ees0" title="YouTube Video" />

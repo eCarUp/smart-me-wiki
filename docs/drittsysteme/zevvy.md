@@ -10,7 +10,7 @@ zevvy hilft Mehrfamilienhäusern mit einer Onlinesoftware beim einfachen Abrechn
 
 Im Video erfährst du, wie smart-me Zähler in zevvy integriert und deren Daten für die Nebenkostenabrechnung verwendet werden können.
 
-<Video src="oMVCWsbPQNg" title="Video" />
+<Video src="oMVCWsbPQNg" title="YouTube Video, zevvy Live Demo" />
 
 ## Kontakt
 

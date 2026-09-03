@@ -1,32 +1,32 @@
 ---
 title: 'Statut'
 slug: '/news/status'
-description: 'Actuellement aucune perturbation connue'
+description: 'Aucune perturbation connue actuellement'
 sidebar_label: 'Statut'
 ---
 ## Statut OK
 
-Actuellement aucune perturbation connue
+Aucune perturbation connue actuellement
 
 Everything is fine.
 
-## Deutsch (offen)
+## Allemand (ouvert)
 
 Problème :
 
-- Les Picos livrés entre le 21.04.2026 et le 30.04.2026 ne peuvent pas être installés via le processus normal avec le WLAN. La 4G fonctionne parfaitement.
+- Les Picos livrés entre le 21.04.2026 et le 30.04.2026 ne peuvent pas être installés en WLAN via le processus normal. La 4G fonctionne parfaitement.
 
 
 Solution avec le support
 
-1.  Créez un compte ou connectez-vous au compte dans lequel le Pico doit être installé
+1.  Créer un compte ou se connecter au compte dans lequel le Pico doit être installé
 
-2.  Créez la carte RFID conformément à la vidéo sur la droite.
+2.  Créer une carte RFID conformément à la vidéo sur le côté droit.
 
-3.  Installez les Picos avec la carte RFID en présentant la carte RFID au Pico. Veillez à utiliser la carte livrée avec le Pico et maintenez-la en place jusqu'à ce que la coche verte apparaisse.
+3.  Installez les Picos avec la carte RFID en la présentant devant le Pico. Veillez à utiliser la carte livrée avec le Pico et maintenez-la en place jusqu'à ce que la coche verte apparaisse.
 
 
-<Video src="" title="Video" />
+<Embed src="https://drive.google.com/file/d/1OgRKSQ0eyxUsqPxcM7ngkiJCvakHourV/preview" aspect="0.445" title="Drive, Pico IBN carte RFID.mp4" />
 
 Pico IBN RFID Karte.mp4
 
@@ -34,11 +34,11 @@ Pico IBN RFID Karte.mp4
 
 
 
-## Deutsch (Geschlossen)
+## Allemand (fermé)
 
 ### 10.03.2026 L'installation téléphonique ne fonctionne pas (fermé)
 
-Problème :
+Problème : 
 
 - L'installation téléphonique ne fonctionne pas, nous ne sommes donc pas joignables par téléphone.
 
@@ -57,9 +57,9 @@ Statut :
 
 Clôture : 16.01.2026 14h45
 
-### 16.01.2026 Perturbation 1nce, les Picos 4G peuvent être hors ligne (fermé)
+### 16.01.2026 Perturbation 1nce, les Pico 4G peuvent être hors ligne (fermé)
 
-Problème :
+Problème : 
 
 - Les Picos connectés via la carte SIM intégrée peuvent passer hors ligne.
 
@@ -75,26 +75,26 @@ Début de la perturbation
 
 Statut :
 
-- 16.01.2026 9h00 1nce connaît actuellement des perturbations sur la 3G et la 4G, ce qui signifie que les Picos sont hors ligne via la 4G.
+- 16.01.2026 9h00 1nce connaît actuellement des perturbations en 3G et 4G, ce qui signifie que les Picos sont hors ligne via la 4G.
 
 - 16.01.2026 11h30 problème 1nce résolu.
 
-- 16.01.2026 14h30 certains Picos sont toujours hors ligne
+- 16.01.2026 14h30 certains picos sont toujours hors ligne 
 
-- 16.01.2026 14h45 Solution de contournement pour remettre les Picos en ligne. [Panne Pico 4G](/news/status/pico-4g-ausfall)
+- 16.01.2026 14h45 Solution de contournement pour remettre les picos en ligne. [Panne 4G Pico](/news/status/pico-4g-ausfall)
 
-- 19.01.2026 8h30 Problème clôturé. Seuls quelques Picos sont encore hors ligne, env. 10 unités.
+- 19.01.2026 8h30 Problème clôturé. Seuls quelques Picos sont encore hors ligne, environ 10 unités.
 
 
 
 
 Clôture : 16.01.2026 14h45
 
-Nous devons malheureusement vous informer que quelques bornes de recharge sont encore concernées par la panne des cartes SIM 1nce (fournisseur de cartes).
+Nous devons malheureusement vous informer que quelques bornes de recharge sont encore concernées par la panne des cartes SIM 1nce (fournisseur de cartes). 
 
 Comme une résolution de la perturbation par le fournisseur externe n'est pas réaliste, nous avons agi de manière proactive afin de vous proposer une solution fiable.
 
-Instructions pour la résolution de la perturbation [Panne Pico 4G](/news/status/pico-4g-ausfall)
+Instructions pour la résolution de la perturbation [Panne 4G Pico](/news/status/pico-4g-ausfall) 
 
 ## English (Closed)
 

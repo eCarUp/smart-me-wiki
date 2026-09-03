@@ -4,7 +4,7 @@ slug: '/planung/virtuelle-zev-vzev'
 description: '0:00 Einführung Webinar vZEV'
 sidebar_label: 'Virtuelle ZEV (vZEV)'
 ---
-<Video src="cTF9C7b3QwU" title="Video" />
+<Video src="cTF9C7b3QwU" title="YouTube Video, Webinaraufzeichnung«Virtuelle ZEV (vZEV) mit smart-me umsetzen»" />
 
 [0:00](https://www.youtube.com/watch?v=cTF9C7b3QwU&t=0s) Einführung Webinar vZEV
 

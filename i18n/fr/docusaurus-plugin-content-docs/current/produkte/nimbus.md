@@ -6,7 +6,7 @@ sidebar_label: 'Compteur triphasé Nimbus 100A'
 ---
 ![smart-me Nimbus 100A – Illustration 1](/img/produkte-nimbus/01.png)
 
-[Bornes enfichables pour Nimbus 100A](https://sites.google.com/smart-me.com/wiki/drittprodukte/zaehlersteckklemmen-nimbus-100A)
+[Bornes enfichables pour Nimbus 100A](/drittprodukte/zaehlersteckklemmen-nimbus-100A)
 
 ## Fonctions
 
@@ -35,30 +35,30 @@ sidebar_label: 'Compteur triphasé Nimbus 100A'
 
 ### Un ancrage sûr pour votre solution blockchain
 
-Le compteur Nimbus a été conçu comme un « oracle matériel » de confiance afin de résoudre le problème critique de l'oracle lors du raccordement d'appareils IoT à des systèmes décentralisés.
+Le compteur Nimbus a été conçu comme un « oracle matériel » de confiance, afin de résoudre le problème critique de l'oracle lors du raccordement d'appareils IoT à des systèmes décentralisés.
 
 Le processus de signature ECDSA :
 
-1.  Clé matérielle : une clé privée est générée sur un coprocesseur cryptographique et ne quitte jamais celui-ci.
+1.  Clé matérielle : une clé privée est générée sur un coprocesseur cryptographique et ne le quitte à aucun moment.
 
-2.  Signature on the edge : toutes les 15 minutes, les relevés du compteur (format OCMF) sont signés avec la clé privée par ECDSA sur une fonction de hachage SHA-256.
+2.  Signature on the Edge : toutes les 15 minutes, les relevés du compteur (format OCMF) sont signés avec la clé privée par ECDSA sur la base d'une fonction de hachage SHA-256.
 
-3.  Origine vérifiable : le résultat est un paquet de données muni d'une signature numérique. À l'aide de la clé publique du compteur, chaque application peut vérifier sans équivoque que les données sont authentiques et n'ont pas été modifiées.
+3.  Provenance vérifiable : le résultat est un paquet de données doté d'une signature numérique. Grâce à la clé publique du compteur, toute application peut vérifier sans aucun doute que les données sont authentiques et n'ont pas été modifiées.
 
 
-Le Nimbus offre ainsi une garantie de sécurité matérielle supérieure aux solutions purement logicielles et constitue la base parfaite pour des plateformes de négoce P2P robustes, des communautés électriques locales (CEL) et d'autres services énergétiques décentralisés.
+Le Nimbus offre ainsi une garantie de sécurité basée sur le matériel, supérieure aux solutions purement logicielles, et constitue la base parfaite pour des plateformes de négoce P2P robustes, des communautés électriques locales (CEL) et d'autres services énergétiques décentralisés.
 
 ## Caractéristiques techniques
 
-<Video src="" title="Custom embed" />
+<Embed src="https://docs.google.com/spreadsheets/d/e/2PACX-1vR4UWY0pXsfUBgArWNNkGZGvIscStumVrGrU7_h2DGk1YNe_XYOxPLnZoJlARRCO86Fz-aOo0cb0pGh/pubhtml?gid=0&range=A1:B30&single=true&widget=false&headers=false&chrome=false" aspect="1.214" title="Compteur triphasé Nimbus 100A" />
 
-## Affichage
+## Écran
 
 ![smart-me Nimbus 100A – Illustration 2](/img/produkte-nimbus/02.jpg)
 
 Valeur / symbole Description
 
-1.8.0 Code OBIS du relevé du compteur affiché
+1.8.0 Code OBIS du relevé de compteur affiché
 
 Q1 Quadrant actuel (Q1-Q4)
 
@@ -68,15 +68,15 @@ Réception (barres) Qualité du signal WLAN
 
 0000053.2 Relevé du compteur
 
-5520W Puissance mesurée à l'instant avec unité (w ou var)
+5520W Puissance mesurée instantanément avec unité (w ou var)
 
-kWh Unité du relevé du compteur affiché (kWh ou varh)
+kWh Unité du relevé de compteur affiché (kWh ou varh)
 
-### Affichage défilant
+### Écran défilant
 
 ![smart-me Nimbus 100A – Illustration 3](/img/produkte-nimbus/03.jpg)
 
-Relevé du compteur (code OBIS suivi du relevé du compteur) 
+Relevé du compteur (code OBIS suivi du relevé) 
 
 1.8.0 (A+) Énergie active soutirage total
 2.8.0 (A+) Énergie active injection total
@@ -89,10 +89,10 @@ Relevé du compteur (code OBIS suivi du relevé du compteur)
 
 Affichage des erreurs (code OBIS suivi des messages d'erreur)
 
-C.60.9 Messages d'erreur (la page ne s'affiche que si des erreurs sont présentes)
+C.60.9 Messages d'erreur (la page n'est affichée que si des erreurs sont présentes)
 
-- PhL Erreur de câblage (ordre des phases incorrect ou phases non câblées)
-    123 : ordre des phases incorrect. 1, 2 et 3 clignotent.
+- PhL Erreur de câblage (mauvais ordre des phases ou phases non câblées)
+    123 : mauvais ordre des phases. 1, 2 et 3 clignotent.
     1 : seule la phase L1 est raccordée. 2 et 3 clignotent.
     2 : seule la phase L2 est raccordée. 1 et 3 clignotent.
     3 : seule la phase L3 est raccordée. 1 et 2 clignotent.
@@ -100,18 +100,18 @@ C.60.9 Messages d'erreur (la page ne s'affiche que si des erreurs sont présente
     1  3 : seules les phases L1 et L3 sont raccordées. 2 clignote.
     23 : seules les phases L2 et L3 sont raccordées. 1 clignote.
 
-- F:F:0 ( ne s'affiche que si l'une des erreurs ci-dessous est présente)
+- F:F:0 ( n'est affiché que si l'une des erreurs ci-dessous est présente)
     0x00 : aucune erreur
     0xX2 : le compteur Nimbus n'est pas calibré
     0xX4 : erreur du microprocesseur, le compteur doit être remplacé
     0xX8 : erreur logicielle, le compteur doit être remplacé
-    0xX6 Non calibré et erreur du microprocesseur, le compteur doit être remplacé
+    0xX6 non calibré et erreur du microprocesseur, le compteur doit être remplacé
     0xXA : non calibré et erreur logicielle, le compteur doit être remplacé
     0xXC : erreur du microprocesseur et erreur logicielle, le compteur doit être remplacé
     0xXE : non calibré, erreur du microprocesseur et erreur logicielle, le compteur doit être remplacé
     0x1X : journal plein
 
-- Symbole Meter Manipulation (aimant) :  code OBIS C.51.6  le compteur a subi une influence négative.
+- Symbole Meter Manipulation (aimant) :  code OBIS C.51.6  le compteur a été influencé négativement.
 
 - Symbole couvercle de bornier ouvert ( « G ») :  code OBIS C.51.2  le couvercle de bornier est ouvert.
 
@@ -122,9 +122,9 @@ C.60.9 Messages d'erreur (la page ne s'affiche que si des erreurs sont présente
 Firmware (code OBIS suivi des informations)
 
 C.1.6 762A Somme de contrôle de la partie firmware MID
-0.2.1 V 1.1 Version du firmware partie MID.
+0.2.1 V 1.1 Version du firmware de la partie MID.
 
-### Fonctions spéciales de l'affichage
+### Fonctions spéciales de l'écran
 
 ![smart-me Nimbus 100A – Illustration 5](/img/produkte-nimbus/05.jpg)
 
@@ -168,33 +168,33 @@ Saisie du mot de passe pour l'affichage du journal :
 L'utilisateur du compteur NIMBUS reçoit le mot de passe du fournisseur.
 
 - Une brève pression sur la touche augmente le premier chiffre de 1.
-    Si le chiffre est sur 9, il repasse à 0 à la pression suivante.
+    Si le chiffre est à 9, il repasse à 0 à la prochaine pression sur la touche.
 
-- Si la touche n'est pas actionnée pendant 2 - 3 secondes, le passage au chiffre suivant se fait automatiquement. Ce chiffre clignote et un nombre quelconque peut de nouveau être réglé.
+- Si la touche n'est pas pressée pendant 2 - 3 secondes, le passage au chiffre suivant se fait automatiquement. Ce chiffre clignote et un nombre quelconque peut à nouveau être défini.
 
-- Une fois le 4e chiffre réglé, la saisie du mot de passe se termine après 2 - 3 secondes et le mot de passe est vérifié.
+- Une fois le 4e chiffre défini, la saisie du mot de passe se termine après 2 - 3 secondes et le mot de passe est vérifié.
 
 - Si le mot de passe est correct, l'image SMART-ME LOGBOOK s'affiche.
 
-- Si le mot de passe n'est pas correct, le mot de passe « FALSE » s'affiche pendant quelques secondes et l'affichage revient au mode normal sur 
+- Si le mot de passe n'est pas correct, le mot de passe « FALSE » s'affiche pendant quelques secondes et l'affichage revient en mode normal sur 
 
-- S'il n'y a encore aucun message dans le journal (Total : NO ENTRY), l'affichage revient au mode normal sur l'image 2 ou 3.
+- S'il n'y a encore aucun message dans le journal (Total : NO ENTRY), l'affichage revient en mode normal sur l'image 2 ou 3.
 
 
 Quitter l'affichage du journal :
 
 - Pour quitter le journal, la touche d'affichage doit être maintenue enfoncée pendant env. 3 - 4 secondes. 
 
-- Si la touche d'affichage n'est pas actionnée dans les 60 secondes, l'affichage revient également au mode normal sur l'image 2 ou 3.
+- Si la touche d'affichage n'est pas pressée dans les 60 secondes, l'affichage revient également en mode normal sur l'image 2 ou 3.
 
 
 C.60.9 :  code OBIS du message actuellement affiché 
 
-- 0001  :  numéro du message enregistré, 0001 étant le message le plus récent.
+- 0001  :  numéro du message enregistré, 0001 est le message le plus récent.
 
 - 8192  :  nombre maximal de messages possibles dans le journal.
-    Lorsque le nombre maximal de messages est enregistré dans le journal, plus aucun message n'est enregistré ⇨ LOGBOOK FULL.
-    En cas de LOGBOOK FULL, d'autres modifications des paramètres pertinents pour la métrologie légale ne sont plus possibles sans porter atteinte à la protection métrologique.
+    Lorsque le nombre maximal de messages possibles est enregistré dans le journal, aucun autre message n'est enregistré ⇨ LOGBOOK FULL.
+    En cas de LOGBOOK FULL, toute autre modification des paramètres relevant de la métrologie légale n'est plus possible sans porter atteinte au scellement métrologique.
 
 
 - Deuxième et troisième ligne :
@@ -205,7 +205,7 @@ C.60.9 :  code OBIS du message actuellement affiché
 
 Informations du journal :
 
-- Mise à jour du firmware (New Firmware)
+- Mise à niveau du firmware (New Firmware)
 
 - Couvercle de bornier ouvert ou fermé (Open, close terminal cover)
 
@@ -219,7 +219,7 @@ Informations du journal :
 
 - Redémarrage du compteur (Meter OFF--> ON)
 
-- Le compteur a reçu un nouveau calibrage (New Meter Calibartion)
+- Le compteur a reçu une nouvelle calibration (New Meter Calibartion)
 
 - Journal des événements plein (Last Stored Data, Logbook full)
 
@@ -232,7 +232,7 @@ Informations du journal :
 
 Câblage
 
-Les câbles, les conducteurs rigides et les conducteurs souples entre 4-35 mm2 sont admis comme lignes d'alimentation. Les conducteurs souples ne doivent être montés qu'avec des embouts adaptés. Vous trouverez de plus amples informations sur les câbles de raccordement dans le Quickstarter-Guide.
+Les câbles, conducteurs rigides et conducteurs souples de 4-35 mm2 sont autorisés comme lignes d'alimentation. Les conducteurs souples ne doivent être montés qu'avec des embouts adaptés. Vous trouverez de plus amples informations sur les lignes de raccordement dans le Quickstarter-Guide.
 
 
 
@@ -260,15 +260,15 @@ Schéma de raccordement avec conducteur neutre d'excitation
 
 Touche 1 (T1)
 
-Pour connecter le compteur à un compte smart-me, la touche 1 est maintenue enfoncée pendant 10 secondes durant la mise en service avec l'application smart-me. Un réseau Wifi spécifique à l'appareil est ensuite créé, auquel le téléphone mobile peut se connecter afin d'y enregistrer les données d'accès Wifi.
+Pour connecter le compteur à un compte smart-me, la touche 1 est maintenue enfoncée pendant 10 secondes lors de la mise en service avec l'application smart-me. Un réseau Wifi spécifique à l'appareil est ensuite créé, auquel le téléphone mobile peut se connecter afin d'y enregistrer les données d'accès Wifi.
 
 Touche 2 (T2)
 
-La touche 2 permet d'ouvrir le journal et la courbe de charge. Pour afficher la courbe de charge, la touche 2 doit être maintenue enfoncée pendant 4 secondes. Le mot de passe peut ensuite être saisi. La position actuellement sélectionnée est signalée par un clignotement. Pour modifier ce chiffre, une brève pression sur la touche 2 suffit. Après 10 secondes, l'affichage passe d'une position vers l'arrière.
+La touche 2 permet d'ouvrir le journal et la courbe de charge. Pour afficher la courbe de charge, la touche 2 doit être maintenue enfoncée pendant 4 secondes. Le mot de passe peut ensuite être saisi. Le chiffre actuellement sélectionné est indiqué par un clignotement. Pour modifier ce chiffre, une brève pression sur la touche 2 suffit. Après 10 secondes, l'affichage passe d'une position vers l'arrière.
 
-Les mots de passe d'accès comportent 4 positions numériques.
+Les mots de passe d'accès comportent 4 chiffres.
 
-Si le mot de passe est correct, la dernière entrée de la courbe de charge s'affiche. Pour afficher l'entrée suivante, il faut appuyer brièvement sur la touche 2. Si la touche 2 n'est pas actionnée pendant 60 secondes, l'affichage revient à l'affichage du relevé du compteur.
+Si le mot de passe est correct, la dernière entrée de la courbe de charge s'affiche. Pour afficher l'entrée suivante, une brève pression sur la touche 2 est nécessaire. Si la touche 2 n'est pas pressée pendant 60 secondes, l'affichage revient à l'affichage du relevé du compteur.
 
 P1 Interface
 
@@ -285,13 +285,13 @@ Emplacement pour modules de communication alternatifs
 
 L1
 
-LED d'état - allumée en continu en cas de connexion au cloud smart-me
+LED de statut - s'allume de manière fixe en cas de connexion au cloud smart-me
 
 L2
 
-LED d'impulsion - indique la puissance mesurée à l'instant en 10'000 imp / kWh
+LED d'impulsion - indique la puissance actuellement mesurée en 10'000 imp / kWh
 
-La LED d'impulsion peut afficher l'énergie active et l'énergie réactive. Pour passer de la puissance active à la puissance réactive ou inversement, la touche T2 doit être actionnée 10 fois à 1 seconde d'intervalle. La ligne inférieure de l'affichage indique si la puissance active ou réactive est actuellement affichée sur la LED.
+La LED d'impulsion peut afficher l'énergie active et l'énergie réactive. Pour passer de la puissance active à la puissance réactive ou inversement, la touche T2 doit être pressée 10 fois à 1 seconde d'intervalle. Le fait de savoir si la puissance active ou réactive est actuellement affichée sur la LED est indiqué sur la ligne inférieure de l'écran.
 
 ![smart-me Nimbus 100A – Illustration 11](/img/produkte-nimbus/11.png)
 
@@ -299,8 +299,8 @@ La LED d'impulsion peut afficher l'énergie active et l'énergie réactive. Pour
 
 L'interface P1 du Nimbus permet aux fournisseurs tiers ou aux clients finaux de réutiliser les données mesurées dans leurs propres systèmes de commande ou d'analyse.
 
-Un module de lecture d'interface P1 avec connecteur RJ-12 est nécessaire à cet effet.
-Celui-ci doit prendre en charge le « P1 Companion Standard » de Netbeheer Nederland. Version 5.0.2 (26 février 2016).
+Un module de lecture d'interface P1 avec connecteur RJ-12 est nécessaire pour cela.
+Celui-ci doit prendre en charge le « P1 Companion Standard » de Netbeheer Nederland, version 5.0.2 (26 février 2016).
 
 Tension :  5V DC, charge maximale :  100mA DC, isolation renforcée par rapport au réseau
 
@@ -308,7 +308,7 @@ Tension :  5V DC, charge maximale :  100mA DC, isolation renforcée par rapport 
 
 ## Accessoires
 
-- [Bornes enfichables de compteur](https://sites.google.com/smart-me.com/wiki/drittprodukte/zaehlersteckklemmen-nimbus-100A) - pour un remplacement simple des compteurs sans coupure de courant
+- [Bornes enfichables de compteur](/drittprodukte/zaehlersteckklemmen-nimbus-100A) - pour un changement de compteur simple sans coupure de courant
 
 
 ## Nettoyage
@@ -317,7 +317,7 @@ Nettoyez le boîtier de l'appareil avec un chiffon sec. N'utilisez pas de produi
 
 ## Consignes d'entretien et de garantie
 
-L'appareil est sans entretien. En cas de dommages (p. ex. dus au transport, au stockage), aucune réparation ne doit être effectuée par vos soins. L'ouverture de l'appareil annule le droit à la garantie. Il en va de même si un défaut est imputable à des influences extérieures (p. ex. foudre, eau, incendie, températures et conditions météorologiques extrêmes) ainsi qu'en cas d'utilisation ou de manipulation inappropriée ou négligente. Les plombs ne doivent être brisés que par des personnes autorisées ! 
+L'appareil ne nécessite aucun entretien. En cas de dommages (p. ex. dus au transport, au stockage), aucune réparation ne doit être effectuée par vos propres moyens. L'ouverture de l'appareil annule le droit à la garantie. Il en va de même si un défaut est imputable à des influences extérieures (p. ex. foudre, eau, incendie, températures et conditions météorologiques extrêmes) ainsi qu'en cas d'utilisation ou de manipulation inappropriée ou négligente. Les plombs ne doivent être brisés que par des personnes autorisées ! 
 
 ## Informations d'expédition
 
@@ -351,4 +351,4 @@ Fabricant : smart-me AG, Riedstrasse 18, 6343 Rotkreuz
 
 ### Puis-je remettre le relevé du compteur à zéro ?
 
-Non, comme nos compteurs sont utilisés pour des décomptes, il n'est pas possible de les réinitialiser.
+Non, comme nos compteurs sont utilisés pour des décomptes, il n'est pas possible de les remettre à zéro.

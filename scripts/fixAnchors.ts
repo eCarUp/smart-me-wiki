@@ -100,7 +100,6 @@ export async function fixAnchors(
 
     for (const target of targets) {
       const self = target.slice(`${root}/`.length);
-      if (state.docs[`${DOCS_ROOT}/${self}`]?.[locale]?.origin === 'adopted') continue;
       const original = await readFile(target, 'utf8');
 
       const updated = original.replace(
@@ -116,18 +115,26 @@ export async function fixAnchors(
           const localeSlugs = slugsByTarget.get(relativePath);
           if (!deSlugs || !localeSlugs) return match;
 
-          // Bereits umgebogen – ein erneuter Lauf lässt die Datei in Ruhe.
+          // Der Anker trifft bereits eine Überschrift der Zielseite – nichts zu
+          // tun. Damit ist der Lauf auch mehrfach ausführbar.
           if (localeSlugs.includes(anchor)) return match;
 
           const index = deSlugs.indexOf(anchor);
-          if (index === -1 || index >= localeSlugs.length) {
-            // Der Anker gehört zu keiner Überschrift der Zielseite. Das kann an
-            // einer alten Sprungmarke aus dem Google-Sites-Wiki liegen – dann
-            // ist er schon in der deutschen Fassung tot.
-            if (deSlugs.length > 0) unresolved.push({file: target, anchor});
-            return match;
+          if (index >= 0 && index < localeSlugs.length) {
+            return `](${linkPath ?? ''}#${localeSlugs[index]})`;
           }
-          return `](${linkPath ?? ''}#${localeSlugs[index]})`;
+
+          // Weder in dieser Sprache noch im deutschen Master zu finden. Das
+          // passiert bei den aus dem alten englischen Wiki übernommenen Seiten:
+          // Ihre Sprungmarken zeigen auf die damaligen englischen
+          // Überschriften, und sobald die Zielseite neu übersetzt wurde, gibt
+          // es die nicht mehr. Eine Zuordnung wäre geraten, deshalb bleibt der
+          // Link auf die Seite – ohne Sprungmarke – statt ins Leere zu zeigen.
+          if (deSlugs.length > 0) {
+            unresolved.push({file: target, anchor});
+            return `](${linkPath ?? ''})`;
+          }
+          return match;
         },
       );
 

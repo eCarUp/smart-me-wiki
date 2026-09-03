@@ -28,10 +28,20 @@ const LANGUAGE_LABELS = new Set([
   'italian',
 ]);
 
-/** Die Inhalts-Sections einer Seite – ohne die site-weite Fusszeile. */
+/**
+ * Die Inhalts-Sections einer Seite – ohne die site-weite Fusszeile.
+ *
+ * Eine Seite, die nur aus einer bildschirmfüllenden Einbettung besteht, legt
+ * Google Sites ohne `<section>` an. Für diesen Fall dient der Wrapper der
+ * Einbettung als Inhalt; er steht ausserhalb von Kopfzeile und Navigation.
+ */
 export function contentSections($: CheerioAPI): Cheerio<Element> {
-  const sections = $('section');
-  return sections.filter((_, el) => !FOOTER_PATTERN.test($(el).text()));
+  const sections = $('section').filter((_, el) => !FOOTER_PATTERN.test($(el).text()));
+  if (sections.length > 0) return sections;
+
+  return $('div[data-url]')
+    .filter((_, el) => $(el).find('iframe').length > 0)
+    .filter((_, el) => $(el).closest('header, nav, [role="navigation"], footer').length === 0);
 }
 
 /**

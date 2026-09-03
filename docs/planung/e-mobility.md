@@ -4,7 +4,7 @@ slug: '/planung/e-mobility'
 description: 'Dynamisches Lastmanagement auf den Hausanschluss'
 sidebar_label: 'E-Mobility Lastmanagement'
 ---
-<Video src="Mi6Ru4lhTiw" title="Video" />
+<Video src="Mi6Ru4lhTiw" title="YouTube Video, Abrechnung von E-Ladestationen" />
 
 ![E-Mobility Lastmanagement – Abbildung 1](/img/planung-e-mobility/01.png)
 

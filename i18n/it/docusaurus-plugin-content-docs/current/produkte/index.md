@@ -1,14 +1,9 @@
 ---
 title: 'Prodotti'
 slug: '/produkte'
-description: '](/produkte/pico-ladestation)'
 sidebar_label: 'Prodotti'
 ---
-[
-
-![Prodotti – Figura 1](/img/produkte/01.png)
-
-](/produkte/telstar)
+[![Prodotti – Figura 1](/img/produkte/01.png)](/produkte/telstar)
 
 [Contatore trifase Telstar 80A](/produkte/telstar)
 
@@ -16,19 +11,11 @@ sidebar_label: 'Prodotti'
 
 [Contatore monofase](/produkte/1-phasen-zaehler)
 
-[
-
-![Prodotti – Figura 3](/img/produkte/03.png)
-
-](/produkte/Telstar-CT)
+[![Prodotti – Figura 3](/img/produkte/03.png)](/produkte/Telstar-CT)
 
 [Contatore trifase Telstar CT](/produkte/Telstar-CT)
 
-[
-
-![Prodotti – Figura 4](/img/produkte/04.png)
-
-](/produkte/pico-ladestation)
+[![Prodotti – Figura 4](/img/produkte/04.png)](/produkte/pico-ladestation)
 
 [Stazione di ricarica Pico](/produkte/pico-ladestation)
 
@@ -36,11 +23,7 @@ sidebar_label: 'Prodotti'
 
 [M-Bus Gateway](/produkte/m-bus-gateway)
 
-[
-
-![Prodotti – Figura 6](/img/produkte/06.png)
-
-](/produkte/nimbus)
+[![Prodotti – Figura 6](/img/produkte/06.png)](/produkte/nimbus)
 
 [Nimbus 100A](/produkte/nimbus)
 

@@ -10,16 +10,16 @@ L'automatisation des processus, les prestations complémentaires et la navigatio
 
 - Données smart-me directement via API.
 
-- Décompte d'électricité sur la base de tarifs calculés (heures creuses, heures pleines, tarifs solaires) et / ou de relevés du compteur.
+- Décompte d'électricité à partir de tarifs calculés (heures creuses, heures pleines, tarifs solaires) et / ou de relevés du compteur.
 
 - Décompte des charges accessoires pour la chaleur, l'eau et le gaz selon VEWA.
 
 
 ![Limmobi – Illustration 1](/img/drittsysteme-limmobi/01.png)
 
-Le tutoriel vidéo montre à quel point l'intégration de smart-me et de LIMMOBI est simple. Les relevés du compteur provenant de smart-me peuvent ainsi être utilisés automatiquement pour le décompte des frais de chauffage et des charges accessoires dans LIMMOBI. 
+Le tutoriel vidéo montre à quel point l'intégration de smart-me et LIMMOBI est simple. Les relevés des compteurs issus de smart-me peuvent ainsi être utilisés automatiquement pour le décompte des frais de chauffage et des charges accessoires dans LIMMOBI. 
 
-<Video src="XIlkmWgBjn4" title="Video" />
+<Video src="XIlkmWgBjn4" title="Vidéo YouTube, démonstration en direct LIMMOBI" />
 
 Contact :
 

@@ -1,51 +1,47 @@
 ---
 title: 'Contact'
 slug: '/kontakt'
-description: 'If you cannot find the answer to your question here, our support team will be happy to help you.'
+description: 'If you could not find an answer to your question here, our support team is happy to help.'
 sidebar_label: 'Contact'
 ---
-If you cannot find the answer to your question here, our support team will be happy to help you.
+If you could not find an answer to your question here, our support team is happy to help.
 
-If you can't find the answer to your question here, our support team will be happy to help.
+### Important to know
 
-smart-me is a hardware and technology supplier. We do not implement projects, do not configure systems for customers and generally only provide support for our partners.
+smart-me is a hardware and technology supplier. We do not implement projects and do not configure installations for end customers. Our technical support is generally aimed exclusively at certified partners.
 
-As a private customer, you can find our project partners on this map: [https://web.smart-me.com/projektpartner/](https://web.smart-me.com/projektpartner/)
+### For private customers
 
-You can register for a partner training course here: [https://web.smart-me.com/partner-werden/](https://web.smart-me.com/partner-werden/) 
+As a private customer, you will find our project partners on this map:
 
-Technical Support: 
+[Show project partners on the map](https://web.smart-me.com/projektpartner/)
 
-- support@smart-me.com / +41 41 511 09 70 
+### Becoming a partner
 
+Would you like to become a partner or attend a training course?
 
-Technical Support Germany: 
+[Register for the partner training](https://web.smart-me.com/partner-werden/)
 
-- support@smartred.de / +49 (0) 7348 9870 510
+### Contact for sales & partnerships
 
+Phone: +41 41 511 09 99 E-mail: [info@smart-me.com](mailto:info@smart-me.com)
 
-Teamviewer: Only after a telephone appointment 
+### Initial contact / quotes:
 
-[
+verkauf@smart-me.com / +41 41 511 09 99
 
-![Contact – figure 1](/img/_en/contact/01.jpg)
+### Activating licenses:
 
-](https://get.teamviewer.com/68stbb8)
+administration@smart-me.com / +41 41 511 09  99
+
+### Technical support:
+
+support@smart-me.com / +41 41 511 09 70
+
+TeamViewer support:
+
+Available only by prior telephone arrangement.
+
+[![Contact – Figure 1](/img/kontakt/01.jpg)](https://get.teamviewer.com/68stbb8)
 
 [Download Team Viewer for smart-me](https://get.teamviewer.com/68stbb8)
-
-<Video src="https://maps-api-ssl.google.com/maps?hl=en-US&ll=47.146642,8.426867&output=embed&q=Riedstrasse+18,+6343+Risch-Rotkreuz,+Schweiz+(Riedstrasse+18)&z=16" title="Video" />
-
-Address
-
-smart-me AG
-
-Riedstrasse 18
-
-6343 Rotkreuz 
-
-Info
-
-Mail: info@smart-me.com 
-
-Telephone: +41 41 511 09 99

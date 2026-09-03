@@ -4,41 +4,45 @@ slug: '/drittsysteme'
 description: 'smart-me is an open energy management system.'
 sidebar_label: 'Third Party Systems'
 ---
-smart-me is an open energy management system. With smart-me, electricity, water, gas and heat readings can be brought into the cloud. For billing and optimisation, we offer some tools in our portal, but you can also transfer the energy data to third-party systems and use their tools.
+smart-me is an open energy management system. With smart-me, electricity, water, gas and heat readings can be brought into the cloud. For billing and optimization, we offer a number of tools in our portal. But you can also transfer the energy data to third-party systems and use their tools.
 
-### Software for steering and control
+### Control software
 
 [Loxone](/drittsysteme/loxone)
 
 [Solarmanager](/drittsysteme/solarmanager)
 
-[SMARTFOX](/drittsysteme/smartfox)
+[Clever-PV](/drittsysteme/clever-pv)
 
-[IBM Node-RED](/drittsysteme/ibm-node-red)
+[Soleco optimizer](/drittsysteme/soleco)
+
+[IBM - Node-RED](/drittsysteme/ibm-node-red)
 
 [Symcon](/drittsysteme/symcon)
 
-[Soleco](/drittsysteme/soleco)
-
-[Clever-PV](/drittsysteme/clever-pv)
-
 [TrueEnergy](/drittsysteme/trueenergy-as)
 
-### Heating and ancillary costs software provider
+[eSMART](/drittsysteme/esmart)
 
-[Limmobi](/drittsysteme/limmobi)
+[SMARTFOX](/drittsysteme/smartfox)
 
-[egonline](/drittsysteme/egonline)
+[Elmoove](/drittsysteme/elmoove)
 
-[zevvy](/drittsysteme/zevvy)
+### Heating and ancillary cost billing software
 
 [Fairwalter](/drittsysteme/fairwalter)
 
 [Bexio](/drittsysteme/bexio)
 
+[Limmobi](/drittsysteme/limmobi)
+
+[zevvy](/drittsysteme/zevvy)
+
+[egonline](/drittsysteme/egonline)
+
 [Microsoft Excel](/drittsysteme/microsoft-excel)
 
-### Data analysis software
+### Analysis software
 
 [GreenPocket](/drittsysteme/greenpocket)
 
@@ -46,12 +50,26 @@ smart-me is an open energy management system. With smart-me, electricity, water,
 
 [Switzercloud / Colibird](/drittsysteme/switzercloud-colibird)
 
-[Zählerfreunde](/drittsysteme/zaehlerfreunde)
+[Zaehlerfreunde](/drittsysteme/zaehlerfreunde)
 
-### Hardware Modules
+### Billing service providers
+
+[Ancillary cost billing service providers](/drittsysteme/nebenkostenabrechnung)
+
+[IMOVATEC / IMOVAcharge](/drittsysteme/imovatec)
+
+### Hardware modules
 
 [whatwatt module](/drittsysteme/whatwatt)
 
-### Service provider for service charge settlement
+### Webinar "ZEV planning"
 
-[Service Charge Settlement](https://doc.smart-me.com/third-party-systems/service-charge-settlement)
+Find out whether you need a partner, explained simply.
+
+<Video src="fb33ML8YTYA" title="YouTube video, webinar &quot;Planning a ZEV&quot;" />
+
+### Webinar "Exporting energy data"
+
+Overview of the export options.
+
+<Video src="YXnEf3CQatc" title="YouTube video, exporting energy data" />

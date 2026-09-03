@@ -1,482 +1,782 @@
 ---
 title: 'Define electrical tariffs'
 slug: '/konfiguration/billing/stromtarife-definieren'
-description: 'The elcetrical tariffs can be caluclated using the tariff datasheets from the electrical suppliers and the use of our tariff calculator tool.'
+description: 'In the video on the right, Guy explains the basics of how electricity prices are generally composed.'
 sidebar_label: 'Define electrical tariffs'
 ---
-![Define electrical tariffs – figure 1](/img/_en/configuration-billing-define-electrical-tariffs/01.png)
+![Define electrical tariffs – figure 1](/img/konfiguration-billing-stromtarife-definieren/01.png)
 
-## Define the tarrifs
+## Setting the electricity price
 
-The elcetrical tariffs can be caluclated using the tariff datasheets from the electrical suppliers and the use of our tariff calculator tool.
-
-[smart-me tariff calculator](https://doc.smart-me.com/configuration/billing/define-electrical-tariffs/smart-me-tariff-calculator)
-
-## Configure tariffs
-
-In smart-me Billing, you can work either with electricity tariffs or with virtual tariffs. The solution using electricity tariffs is exclusively suitable for implementing pure grid power systems. In all other cases, virtual tariffs must be used.
-
-### 1.Get the tariff from your energy supplier
-
-Your energy supplier's tariff sheet is available online on their website several months before the start of the new tariff period.
-
-Make sure to inform yourself about the exact tariff you are purchasing from the energy supplier:
-
-- Energy product type: Green, Blue, Grey, or other options
-
-- Tariff structure: Single rate (flat tariff), dual rate (high/low tariff), or dynamic rate
+In the video on the right, Guy explains the basics of how electricity prices are generally composed. 
 
 
-### 2\. Choose the method to calculate your local solar tariff
+
+But you can now also use our online electricity tariff calculator, which lends you a hand and is based on the explanation.
+
+[smart-me electricity tariff calculator](/konfiguration/billing/stromtarife-definieren/stromtarif-rechner)
+
+<Video src="ju7m6Bs8U_M" title="YouTube video, smart-me Billing - Setting ZEV prices" />
+
+smart-me Billing setting ZEV prices, explained by Guy.
+
+Attention: the video was recorded with an older version of the Excel file. That version still contains an error in the formulas. The Excel file has been corrected.
+
+[Beispiel Preise im ZEV festlegen.xlsx](https://drive.google.com/uc?export=download&id=1cGOAL1UIo4ZmvW55drHcfdPw0v4vnJ9Z) 
+
+## Configuring electricity tariffs
+
+In smart-me Billing you can work either with the electricity tariffs or with virtual tariffs. The solution with electricity tariffs is suitable exclusively for implementing pure grid electricity systems. In all other cases the virtual tariffs are to be used.
+
+### 1.Obtain the tariff sheet of your energy supplier
+
+The tariff sheet of your energy supplier is available online on their website months before the start of the new tariff period.
+
+Also find out exactly which tariff you are purchasing from the energy supplier: 
+
+- Green, Blue, Grey or other versions
+
+- Single tariff or dual tariff or dynamic.
+
+
+Reading the tariff sheet:
+
+The relevant information is partly a little scattered. The tariff sheet itself usually consists of 4 sections:
+
+- Energy prices
+
+- Grid usage prices
+
+- Metering charges
+
+- Public levies
+
+
+The public levies in particular are not fully contained in the tariff sheet. The municipal levies differ per municipality and are set out in a separate tariff sheet. In 99% of cases the link is in the footnote of the tariff sheet.
+
+Obtain this value for your tariff setup via the link printed on the tariff sheet.
+
+It is usually also a Rp. / kWh value, but it can also be given as a % of the grid usage (components vary).
+
+![Define electrical tariffs – figure 2](/img/konfiguration-billing-stromtarife-definieren/02.png)
+
+### 2\. Choose the solar tariff calculation to be used for your (v)ZEV
 
 You can choose between two fundamental approaches:
 
-Flat-rate Method (80% of the standard grid product)
+- Flat-rate method based on 80% of the standard grid product
+    What is important here is that the flat-rate method automatically covers all other costs. No costs may be charged for the metering, billing and management of the ZEV electricity sales.
 
-Important:
-No fees may be charged here for the measurement of the ZEV, or for the administration and billing of the ZEV. The energy provider’s meter fee for the ZEV’s main meter may not be charged separately in addition to these fees.
+    No costs may be charged here for the metering of the ZEV, the administration and billing of the ZEV.
+    The meter fee of the energy supplier for the main meter of the ZEV may not be charged separately in addition here.
 
-- -   -   Option 1: Grid electricity billed 1:1; solar electricity billed at 80% of basic costs and 80% of the grid purchase price
+    - -   Variant 1: grid electricity billed 1:1, solar electricity 80% of the basic costs and 80% of the grid electricity purchase price
+            This variant is suitable for profit optimization within the ZEV, as long as there is high occupancy among the rentals.
+            This method is not suitable if industrial large-scale consumers are in the same building and a multi-tariff system exists.
+            Best solution for multi-tariff systems.
 
+        - Variant 2: grid electricity 1:1, solar electricity 80% of the Elcom reference price (use with dynamic tariffs from the energy supplier)
+            This variant is suitable for all ZEV without industrial large-scale consumers and is the simplest to implement.
+            Better option with frequent vacancies.
+            If this variant is used in connection with industry and multi-tariff (dual tariff), the industrial consumer may end up paying more via the higher solar tariff than outside the ZEV!
 
-This option is suitable for optimizing profits within the ZEV, as long as there is high occupancy among tenants. This method is not suitable if large industrial consumers are located in the same building and a multi-rate system is in place. Best solution for multi-rate systems.
+- Effective costs (production cost calculation)
+    With this method, costs for metering, billing and management may be charged, in addition to the calculated value of the solar electricity. You will find details on this in the VEWA manual. 
 
-- -   -   Option 2: Grid electricity 1:1; solar electricity at 80% of the ElCom reference price (Use when the energy supplier offers dynamic tariffs)
+    - -   This method is suitable if 80% of the grid electricity would possibly not cover the costs of your solar installation. This is very rarely the case.
 
+        - This method must be proven year after year with the calculation and increases the administrative effort.
 
-This option is suitable for all ZEVs without large industrial consumers and is the easiest to implement. If this option is used in conjunction with industrial customers and a multi-rate (dual-rate) system, the industrial customer may end up paying more due to the higher solar rate than they would outside the ZEV!
-
-Actual Costs (Production Cost Accounting)
-
-With this method, fees for metering, billing, and management can be charged in addition to the calculated value of the solar electricity. Details on this can be found in the VEWA manual.
-
-This method is suitable if 80% of the grid electricity rate would not cover the costs of your solar PV system (which is very rarely the case).
-
-Note: This method must be mathematically proven year after year with precise calculations, significantly increasing your administrative workload.
 
 ### 3\. Calculate your tariffs for the tariff period
 
-The easiest way to perform the calculation is by using our tariff calculator. Depending on the selected method, it tells you which entries you need to make in smart-me.
+The easiest way to do the calculation is to use our tariff calculator. Depending on the method you choose, it tells you which entries you have to make in smart-me.
 
-For dynamic tariffs: Select the 80% Elcom method and search the calculator for the H4 tariff of your region and energy supplier to use as a reference.
+With the dynamic tariff: choose the 80% Elcom method and look up the H4 tariff of your region and energy supplier in the calculator as a reference.
 
-[smart-me tariff calculator](https://doc.smart-me.com/configuration/billing/define-electrical-tariffs/smart-me-tariff-calculator)
+[smart-me electricity tariff calculator](/konfiguration/billing/stromtarife-definieren/stromtarif-rechner)
 
-### 4\. Configure your grid tariffs
+### 4\. Configure your tariffs
 
-Now navigate back to the Property Configuration.
+Now navigate back to the property configuration.
 
-1.  Billing
+1.  Billing (Rechnungsstellung)
 
-2.  Configuration
+2.  Configuration (Konfiguration)
 
-3.  Property
+3.  Property (Liegenschaft)
 
-4.  Virtual Tariffs
-
-
-![Define electrical tariffs – figure 2](/img/_en/configuration-billing-define-electrical-tariffs/02.png)
-
-Create now the grid tariff for the time period
-
-### Exampls: Flat-rate (single) tariff
-
-### Example dual tariff
-
-Next step: define the timing of the dual tariff
-
-[Define tariff timings](https://doc.smart-me.com/configuration/if-then-action/define-tariff-timing)
-
-![Define electrical tariffs – figure 3](/img/_en/configuration-billing-define-electrical-tariffs/03.png)
+4.  Virtual tariffs (Virtuelle Tarife)
 
 
+![Define electrical tariffs – figure 3](/img/konfiguration-billing-stromtarife-definieren/03.png)
 
-Example: Flat-rate tariff using the 80% fixed-rate method:
+Now create the grid tariffs of your tariff period
 
-Now create a grid tariff with the specified price:
+### Example: single tariff
 
-- Grid Tariff 2026: 0.19707 CHF / kWh
+### Example: dual tariff
+
+Next step: map the timing of the tariff in the if actions
+
+[Define tariff times](/konfiguration/wenndann-aktionen/tarifzeiten-definieren)
+
+![Define electrical tariffs – figure 4](/img/konfiguration-billing-stromtarife-definieren/04.png)
 
 
-![Define electrical tariffs – figure 4](/img/_en/configuration-billing-define-electrical-tariffs/04.png)
 
-![Define electrical tariffs – figure 5](/img/_en/configuration-billing-define-electrical-tariffs/05.png)
+Example of a single tariff with the 80% flat-rate method:
 
-Example: Flat-rate tariff using the 80% fixed-rate method:
+Now create a grid tariff with the specified price: 
+
+- Grid tariff 2026 : 0.19707 CHF / kWh
+
+
+![Define electrical tariffs – figure 5](/img/konfiguration-billing-stromtarife-definieren/05.png)
+
+![Define electrical tariffs – figure 6](/img/konfiguration-billing-stromtarife-definieren/06.png)
+
+Example of a single tariff with the 80% flat-rate method:
 
 Now create two grid tariffs with the specified prices:
 
-- Grid Tariff HT 2026: 0.22409 CHF / kWh
+- Grid tariff peak 2026: 0.22409 CHF / kWh
 
-- Grid Tariff NT 2026: 0.17007 CHF / kWh
-
-
-For dual tariffs, the timing must first be created using [IF/THEN](/konfiguration/wenndann-aktionen) actions. These actions can then be linked with the "Additional Condition" to control validity throughout the week.
+- Grid tariff off-peak 2026: 0.17007 CHF / kWh
 
 
+With dual tariffs, the timing must be created first by means of [IF/THEN](/konfiguration/wenndann-aktionen) actions; these actions can then be linked with the "Additional condition" (Zusätzliche Bedingung) in order to control the validity throughout the week.
 
-![Define electrical tariffs – figure 6](/img/_en/configuration-billing-define-electrical-tariffs/06.png)
 
-![Define electrical tariffs – figure 7](/img/_en/configuration-billing-define-electrical-tariffs/07.png)
 
-Now create the solar tariff for this.
+![Define electrical tariffs – figure 7](/img/konfiguration-billing-stromtarife-definieren/07.png)
+
+![Define electrical tariffs – figure 8](/img/konfiguration-billing-stromtarife-definieren/08.png)
+
+Now create the matching solar tariff
 
 Note:
+There are various solar tariffs and battery tariffs with different capabilities and requirements.
 
-There are various solar tariffs and battery tariffs with different capabilities and prerequisites.
+In general, the solar tariff vZEV is the best and most universal choice.
 
-In general, the Solar Tariff vZEV is the best and most universal choice.
+What it cannot do is define different tariffs for battery and solar energy. For that, the alternative tariff has to be used.
 
-What it cannot do, however, is define different tariffs for battery and solar energy. For that purpose, the alternative tariff must be used.
+You will find details below in the section "All details".
 
-Details can be found below in the "All Details" section.
-
-In this example, the Solar Tariff vZEV is used.
+In this example the solar tariff vZEV is used.
 
 Measurements:
 
-All solar tariffs require relevant metering points that must be linked.
+All solar tariffs require relevant measuring points which have to be linked.
 
-Simplest option: 
+Simplest option: 
 
-- "Solar Meter" field: Select all Production meter/s (solar and battery)
+- "Solar meter" (Solarzähler) field: select all generation meters (solar and battery).
 
-- "Balance Meter" field: Select Balance meter (1 House: house connection meter , Area: site meter or multiple house meters)
-
-
-Alternative option: 
-
-- "Solar Meter" field: Select all Production meter/s (solar and battery)
-
-- "Balance Meter" field: Select all consumption meters and production meters
+- "Balance meter" (Bilanzzähler) field: select the balancing meters (1 house: house connection meter, site: site meter or several house connection meters)
 
 
-solar single tariff
+Alternative option: 
 
-![Define electrical tariffs – figure 8](/img/_en/configuration-billing-define-electrical-tariffs/08.png)
+- "Solar meter" (Solarzähler) field: select all generation meters (solar and battery).
 
-Solar double tariffs HT and NT
-
-![Define electrical tariffs – figure 9](/img/_en/configuration-billing-define-electrical-tariffs/09.png)
-
-![Define electrical tariffs – figure 10](/img/_en/configuration-billing-define-electrical-tariffs/10.png)
-
-### Recalculation of the electricity tariffs
-
-When virtual tariffs are used, you must click Recalculate at the end of the configuration (as well as whenever configuration changes are made later), preferably setting the start date to 01/01/2018. This recalculates all historical values up to the present.
-
-Before an invoice can be created, you must wait until the last calculated value shows "Today" and no error message appears.
-
-Error messages caused by configuration issues are usually displayed within one minute. It is therefore worth clicking "Recalculate" and waiting briefly to see whether an error message appears.
-
-Tip: A recalculation is not required for price or tenant changes (addresses, move-in, or move-out dates). In all other cases, a recalculation is always required.
-
-![Define electrical tariffs – figure 11](/img/_en/configuration-billing-define-electrical-tariffs/11.png)
-
-### Entering a peak load tariff
-
-![Define electrical tariffs – figure 12](/img/_en/configuration-billing-define-electrical-tariffs/12.png)
-
-Peak power tariffs allow you to cover advanced or modern electricity pricing models from energy suppliers.
-
-On the tariff sheet, this type of tariff can be recognized by its unit—typically listed as, for example, 1.50 CHF / kW / month.
-
-In our example, we record the calculated price.
-
-Peak power costs can be recorded using one of two methods:
-
-- Consumption measurement: Automatically via its own balance measurement
-
-- Allocated costs: Manual entry of costs per month after receiving the invoice from the utility provider
+- "Balance meter" (Bilanzzähler) field: select all consumption meters and production meters.
 
 
-Period of Validity:
+Solar single tariff
 
-The validity period of a peak power tariff is limited to one year; however, it can be created multiple times for consecutive years.
+![Define electrical tariffs – figure 9](/img/konfiguration-billing-stromtarife-definieren/09.png)
 
-Peak tariffs are based either on the monthly incurred costs (invoice from the energy supplier) or depend on the saved tariff rate combined with the active measurement at the main metering point.
+Solar dual tariff
 
-![Define electrical tariffs – figure 13](/img/_en/configuration-billing-define-electrical-tariffs/13.png)
+![Define electrical tariffs – figure 10](/img/konfiguration-billing-stromtarife-definieren/10.png)
+
+![Define electrical tariffs – figure 11](/img/konfiguration-billing-stromtarife-definieren/11.png)
+
+### Starting the recalculation of the electricity tariffs
+
+If the virtual tariffs are used, you have to click on Recalculate (Neu berechnen) at the end of the configuration (as well as with later configuration changes) (ideally from 1.1.2018). This recalculates all previous values.
+
+Before an invoice can be created, you have to wait until the last calculated value is set to "Today" (Heute) and no error message appears.
+
+Error messages that are due to a configuration problem are usually displayed within a minute. So it is worth clicking on "Recalculate" (Neu berechnen) and waiting briefly to see whether an error message appears or not.
+
+Tip: with price or tenant changes (addresses, move-in or move-out date) a recalculation is not required; in all other cases a recalculation is always required.
+
+![Define electrical tariffs – figure 12](/img/konfiguration-billing-stromtarife-definieren/12.png)
+
+### Entering the demand tariff
+
+![Define electrical tariffs – figure 13](/img/konfiguration-billing-stromtarife-definieren/13.png)
+
+With the peak electricity tariffs, extended or novel electricity models from energy suppliers can be covered. 
+
+On the tariff sheet it can be recognized by its unit. Usually given as e.g. 1.50.- / kW / month
+
+In our example we enter the calculated price.
+
+The peak demand costs can be recorded using one of two methods:
+
+- Consumption measurement: automatically through your own balance measurement
+
+- Cost entry: later cost entry per month after receiving the invoice
+
+
+Validity period:
+The validity period of a peak electricity tariff is limited to 1 year; it can be created several times for several years.
+
+Peak tariffs are based either on the costs incurred monthly (invoice from the energy supplier) or depend on the stored tariff and the active measurement of the main measuring point.
+
+![Define electrical tariffs – figure 14](/img/konfiguration-billing-stromtarife-definieren/14.png)
 
 ### Entering the 80% basic fee (if the 80% method with basic fee was chosen)
 
-In this example, we are using the 80% method with a basic fee. Accordingly, these costs must still be entered under "Other". 
+In this example we use the 80% method with basic fee. Accordingly, these costs still have to be recorded under "Other" (Sonstiges)
 
-![Define electrical tariffs – figure 14](/img/_en/configuration-billing-define-electrical-tariffs/14.png)
+![Define electrical tariffs – figure 15](/img/konfiguration-billing-stromtarife-definieren/15.png)
 
-The basic fee applies to all billing units, so it can be stored globally under the tariffs for the year 2026. 
+The costs of the basic fee are incurred on all billing units, therefore it can be stored globally with the tariffs for the year 2026.
 
-![Define electrical tariffs – figure 15](/img/_en/configuration-billing-define-electrical-tariffs/15.png)
+![Define electrical tariffs – figure 16](/img/konfiguration-billing-stromtarife-definieren/16.png)
 
 ### Next step
 
-## All details about tariffs and configurations
+## All details on the tariffs and functions
 
-### Virtual tariffs and vZEV tariffs
+## Virtual tariff configuration (grid, solar, battery tariffs)
 
-Virtual tariffs allow you to define your own dynamic tariff model for energy billing. This can be used to distinguish between tenants drawing electricity from a solar installation or from the grid for their own consumption if merging of private energy consumption (tenant electricity) is used. 
+Virtual tariffs allow you to define a dynamic tariff model of your own for billing the energy. This can be used, for example, to distinguish in an association for own consumption (ZEV or tenant electricity) whether a tenant draws electricity from a solar installation or from the grid. 
 
-Please note that all normal electricity tariffs must be deleted.
+Please note that all normal tariffs for electricity must be deleted.
 
-You will see all the virtual tariffs that have already been entered under Virtual tariffs. Click on Add.
+Under Virtual tariffs (Virtuelle Tarife) you see all virtual tariffs already recorded. Click on Add (Hinzufügen) and now record all virtual tariffs.
 
-Name: The name of the tariff is also displayed to the user (tenant)
+Name: the name of the tariff is also shown to the user (tenant).
 
-Tariff type 
+Tariff type 
 
-- Solar tariff vZEV:
-    This allows a global solar tariff to be created in a ZEV or a vZEV. The solar energy is distributed evenly to all consumers and is based on the sum of the house balances (ZEV) and the sum of the productions (solar meter and or battery meters). With this tariff, it is not necessary to measure 100% of the loads if a house connection meter is physically present. The need for virtual summation meters is eliminated with this tariff.
+- Solar tariff vZEV (new):
+    With this, a global solar tariff can be created in a ZEV or a vZEV.
+    The solar energy is distributed evenly among all consumers and is based on the sum of the house balances (ZEV) and the sum of the productions (solar meters and/or battery meters). With this tariff it is not necessary to measure 100% of the loads if a house connection meter is physically present. The need for virtual sum meters is eliminated with this tariff.
 
 - Solar tariff (legacy):
-    This allows the energy from a solar system to be offset within a ZEV. This means that ZEVs can be implemented with or without a balance meter (VNB). The tariff requires a virtual total meter for all relevant loads (100% measurement).
+    With this, the energy of a solar installation can be billed within a ZEV.
+    With this, ZEV with or without a balance meter (grid operator) can be implemented. The tariff requires a virtual sum meter of all relevant loads (100% measurement).
 
 - Battery tariff (legacy):
-    This allows the energy of an AC-coupled battery to be distributed within a ZEV. This tariff is only compatible with the solar tariff (legacy). The tariff requires a virtual total meter for all relevant loads (100% measurement). 
+    With this, the energy of an AC-coupled battery can be distributed within a ZEV. This tariff is only compatible with the solar tariff (legacy). The tariff requires a virtual sum meter of all relevant loads (100% measurement).
 
-- Grid tariff (normal tariff or dynamic):
-    This is used to charge for grid electricity. If required, this can also be divided into high and low tariff periods or aply dynamic behaviour.
+- Grid tariff (normal tariff or dynamic tariff):
+    With this, the grid electricity is billed. If required, it can additionally be split into peak and off-peak tariff times or dynamically.
 
-
-Generals about tariffs
-
-A price / consumption unit and validity can be stored for each tariff.
-
-Price/kWh: The price for this tariff
-
-Valid from: The start date from which this tariff applies
-
-Valid until: The end date for the validity of this tariff
-
-Additional condition
-You can define when this tariff is valid with an additional condition. This can be a time period (e.g. for high/low tariff) or any other condition. The condition must have been defined beforehand as an [If/ Then action](/konfiguration/wenndann-aktionen).
-
-Additional notes:
-
-- When you have defined all tariffs, it is mandatory to click on "Recalculate". This calculates and activates all virtual tariffs. This process can take a few hours.
-
-- If one or more conditions are stored, all tariffs must cover the 24 hours of the day. If a normal tariff without conditions is stored, it automatically catches all energy quantities that cannot be allocated and thus covers the 24 hours. Alternatively, care must be taken that the times of the conditions are configured correctly (see example above).
+- Additional condition
+    You can use an additional condition to define when this tariff is valid. This can be a time period (e.g. for peak/off-peak tariff) or any other condition. The condition must have been defined beforehand as an [if/then action](/konfiguration/wenndann-aktionen).
 
 
-![Define electrical tariffs – figure 16](/img/_en/configuration-billing-define-electrical-tariffs/16.png)
+General information on the tariffs
 
-### Grid Tariffs
+For every tariff, a price / consumption unit and a validity can be stored.
 
-The grid rate can be configured as the following rates:
+Price / kWh: the price for this tariff
 
-Flat rate (static or dynamic)
+Valid from: the date from when this tariff should be valid. See note.
 
-- Two-part rate
+Valid until: the date until when this tariff should be valid. See note.
 
-- Multi-part rate
+Notes: 
+
+- We recommend setting the validity from 1.1.2000 to 31.12.2099. The condition for this handling is that the invoices are sent with the same periodicity as the local energy supplier. In this case the price can be set before the invoice is created. If only the price is changed in smart-me Billing, it is not necessary to press the "recalculate" (neu rechnen) button. With all other adjustments, however, the recalculation is necessary.
+
+- When you have defined all tariffs, you have to click on "Recalculate" (Neu berechnen). This calculates and activates all virtual tariffs. This process can take several hours.
+
+- If one or more conditions are saved, all tariffs have to cover the 24 hours of the day. If a normal tariff without conditions is stored, it automatically catches all energy quantities that cannot be assigned and thus covers the 24 hours. Alternatively, care must be taken that the times of the conditions are configured correctly (see example above).
 
 
+![Define electrical tariffs – figure 17](/img/konfiguration-billing-stromtarife-definieren/17.png)
 
+<Video src="7iLDy1YZDyY" title="YouTube video, Virtual tariffs" />
 
-Flat rate (static and dynamic)
+### Grid tariff
 
-The flat rate can be set up either statically (fixed rate) or dynamically.
+The grid tariff can be recorded as the following tariffs:
 
-Fixed rate
+- Single tariff (static or dynamic)
 
-The fixed rate applies the defined price per kWh of grid electricity.
+- Dual tariff
+
+- Multi tariff
 
 
 
-Dynamic rate
 
-The dynamic rate, on the other hand, uses an external API and queries the available provider for the currently valid price for each hour.
+Single tariff (static and dynamic)
 
-The price is then applied on an hourly basis.
+The single tariff can be created either statically (fixed tariff) or dynamically.
 
-Please note that dynamic pricing does not account for all relevant costs, and additional entries must be made.
+Fixed tariff
 
-- Additional fees such as municipal concession fees (enter as an additional fixed rate)
-
-- Monthly Connection Fees (Others)
-
-
-Calculating invoices with dynamic rates takes noticeably longer than the other methods (data transfer and application).
+The fixed tariff applies the defined price / kWh of grid electricity.
 
 
 
-Dual Rates and Multiple Rates
+Dynamic tariff
 
-A rate (network rate) is created for each different rate. These are then linked to a specific time period using conditions.
+The dynamic tariff, on the other hand, uses an external API and queries the available provider for each hour for the currently valid price.
 
-The timing is defined using [IF/THEN](/konfiguration/wenndann-aktionen) actions.
+The price is then applied per hour.
 
-![Define electrical tariffs – figure 17](/img/_en/configuration-billing-define-electrical-tariffs/17.png)
+Please note that the dynamic prices do not transfer all relevant costs and that additional entries have to be made.
 
-### Configure solar tarif vZEV
+- Additional fees such as concession fees of the municipality
+    (enter as an additional fixed price)
 
-The vZEV solar tariff enables the implementation of ZEV and vZEV solutions. 
+- Monthly connection fees (Other section)
 
-The vZEV solar tariff configuration calculates the effective surplus of a virtual ZEV and the effective grid consumption based on several solar production meters and house connection meters. 
+
+The calculation of invoices with a dynamic tariff takes noticeably longer than the other methods (data transfer and application)
+
+
+
+Dual tariff and multi tariffs
+
+A tariff (grid tariff) is created for each different tariff. These are then coupled to a timing with the help of the conditions.
+
+The timing is defined via the [IF/THEN](/konfiguration/wenndann-aktionen) actions.
+
+
+
+![Define electrical tariffs – figure 18](/img/konfiguration-billing-stromtarife-definieren/18.png)
+
+### Configuring the solar tariff vZEV
+
+The solar tariff vZEV enables the implementation of ZEV and vZEV solutions. 
+
+The vZEV solar tariff configuration calculates the effective surplus of a virtual ZEV and the effective grid consumption based on several solar production meters and house connection meters. 
 
 The calculation takes into account the individual surpluses of a house and at the same time the demand of other houses for this surplus.
 
-If there is a demand, it is made available to the neighboring house. If there is none, the surplus is identified as grid feed-in.
+If there is a demand, it is made available to the neighbouring house. If there is none, the surplus is identified as grid feed-in.
 
 
 
 The solution supports the following implementations:
 
-- Realization of a normal ZEV with or without balance meter
+- Realization of a normal ZEV with or without a balance meter
 
-- vZEV: Several smart-me ZEVs with house connection meters
+- vZEV: several smart-me ZEV's with house connection meters
 
-- vZEV: Combination of smart-me ZEVs with buildings with consumers only
+- vZEV: combination of smart-me ZEV's with buildings having only consumers
 
-- vZEV: Combination of smart-me ZEVs with EFHs with solar systems 
+- vZEV: combination of smart-me ZEV's with single-family houses with solar installations 
 
-- vZEV: Several smart-me ZEVs in combination with former VNB practice models
-
-
-Note: The battery cannot be tariffed separately with this tariff system.
-
-![Define electrical tariffs – figure 18](/img/_en/configuration-billing-define-electrical-tariffs/18.png)
-
-Rate a ZEV with physical balance meter
-
-- Pysical balance meter
-
-- Production measurement (PV + Battery)
+- vZEV: several smart-me ZEV's in combination with former grid operator practice models
 
 
-![Define electrical tariffs – figure 19](/img/_en/configuration-billing-define-electrical-tariffs/19.png)
+Note:
+The battery cannot be tariffed separately with this tariff system.
 
-Rate a ZEV w/o physical balance meter
+![Define electrical tariffs – figure 19](/img/konfiguration-billing-stromtarife-definieren/19.png)
 
-- Production meter (define as producer and as balance)
+Tariffing a ZEV
 
-- All consumer meters (100%) 
+- House connection meter 
+
+- Production measurement (PV + battery)
 
 
-![Define electrical tariffs – figure 20](/img/_en/configuration-billing-define-electrical-tariffs/20.png)
+![Define electrical tariffs – figure 20](/img/konfiguration-billing-stromtarife-definieren/20.png)
 
-Legend
+Tariffing a ZEV without a balance meter
 
-The colored dot indicates the way in which the respective meter must be stored in the tariff
+- Production measurement (as production and balance)
 
-![Define electrical tariffs – figure 21](/img/_en/configuration-billing-define-electrical-tariffs/21.png)
+- All consumers (100%) 
 
-Tariffing an extended vZEV with different combinations of measurement concepts
 
-![Define electrical tariffs – figure 22](/img/_en/configuration-billing-define-electrical-tariffs/22.png)
+![Define electrical tariffs – figure 21](/img/konfiguration-billing-stromtarife-definieren/21.png)
 
-Tariffing of terraced single-family houses as vZEV
+Legend 
 
-![Define electrical tariffs – figure 23](/img/_en/configuration-billing-define-electrical-tariffs/23.png)
+The coloured dot indicates in which way the respective meter has to be stored in the tariff
 
-### Configure solar- and battery tariffs with legacy tariffs
+![Define electrical tariffs – figure 22](/img/konfiguration-billing-stromtarife-definieren/22.png)
 
-The solar tariffs and battery tariffs of the Legacy series enable the implementation of a ZEV with or without a balance meter.
+Tariffing an extended vZEV with various combinations of metering concepts
 
-The use of this tariff group enables the following:
+![Define electrical tariffs – figure 23](/img/konfiguration-billing-stromtarife-definieren/23.png)
+
+Tariffing terraced single-family houses as a vZEV
+
+![Define electrical tariffs – figure 24](/img/konfiguration-billing-stromtarife-definieren/24.png)
+
+### Configuring the solar and battery tariff
+
+The solar tariffs and battery tariffs of the legacy series enable the implementation of a ZEV with or without a balance meter.
+
+Using this tariffing group enables the following:
 
 - ZEV with or without a balance meter
 
-- Different tariffs for battery and solar power
+- Different tariffing for battery and solar electricity
 
 
-Prerequisite for use:
+Requirement for use:
 
-- Application of a 100% metering concept, all metered consumers must correspond to 100% of the load.
+- Application of a 100% metering concept; all measured consumers must correspond to 100% of the load.
 
-- Requires a virtual total meter for all loads.
+- Requires a virtual sum meter of all loads.
 
 
 Solar or battery meter
-
-For the solar and battery tariff, you must specify the meter that measures the battery or the solar system. 
+With the solar and battery tariff you have to specify the meter that measures the battery or the solar installation. 
 
 Total consumption
-
-For solar and battery tariffs, you must specify a meter that measures all consumers to which this energy is to be distributed. This is usually a virtual meter that adds up all consumers (note that virtual meters require an additional license).
+With the solar and battery tariff you have to specify a meter that measures all consumers among which this energy is to be distributed. This is usually a virtual meter that sums up all consumers (attention, virtual meters then require an additional license).
 
 Balance meter
+With the solar tariff and battery tariff, a balance meter can optionally be specified. If the balance meter is listed, the energy fed into the grid is taken into account when calculating the solar tariff. This means that per 15 minutes only the solar energy that was actually consumed in the building is distributed (energy available = PV production - grid feed-in).
 
-For solar tariffs and battery tariffs, a balance meter can optionally be specified. If the balance meter is listed, the energy that is fed into the grid is taken into account when calculating the solar tariff. This means that only the solar energy that was actually consumed in the building is distributed per 15 minutes (energy available = PV production - grid feed-in).
+Attention:
+If the physical balance meter is omitted, deviations in the allocation of the tariffs in the range of 10-15% are not unusual.
 
-Please note: If the physical balance meter is dispensed with, deviations of 10-15% in the allocation of tariffs are not unusual.
+Virtual sum meters
 
-Virtual meter
+- The virtual sum meter (total consumption) is necessary to form the reference for the tariff allocation. It is formed from all load meters and is subject to charge (1x Professional license)
 
-- The virtual meter (total consumption) is required to create the reference for tariff allocation. This is formed from all load meters and is subject to a cost plan
-    (1x professional license)
-
-    The summed up meters must be exact 100% of the load. If you have meters in series the meter more near to te house connection is relevant only.
+    The sum of the meters must be exactly 100% of the load. If you have meters connected in series, only the meter closer to the sub-distribution / house connection is relevant.
     Solar meters, battery meters and house connection meters are to be excluded.
 
-- If several solar systems are in the system and cannot be measured together, an additional license is required for total production
+- If there are several solar installations in the system and they cannot be measured together, a further license is necessary for the total production.
+
+    More information: [Virtual meters](/konfiguration/billing/virtuelle-zaehler)
 
 
-Learn more: [Virtual meters](/konfiguration/billing/virtuelle-zaehler)
+![Define electrical tariffs – figure 25](/img/konfiguration-billing-stromtarife-definieren/17.png)
 
-![Define electrical tariffs – figure 24](/img/_en/configuration-billing-define-electrical-tariffs/24.png)
+Tariffing a ZEV with legacy tariffs (1 house)
 
-ZEV tarifieren mit legacy Tarifen (1 Haus)
+![Define electrical tariffs – figure 26](/img/konfiguration-billing-stromtarife-definieren/26.png)
 
-![Define electrical tariffs – figure 25](/img/_en/configuration-billing-define-electrical-tariffs/25.png)
+![Define electrical tariffs – figure 27](/img/konfiguration-billing-stromtarife-definieren/27.png)
 
-![Define electrical tariffs – figure 26](/img/_en/configuration-billing-define-electrical-tariffs/26.png)
+Tariffing a ZEV with legacy tariffs (several houses )
 
-ZEV tarifieren mit legacy Tarifen (mehrere Häuser )
+![Define electrical tariffs – figure 28](/img/konfiguration-billing-stromtarife-definieren/28.png)
 
-![Define electrical tariffs – figure 27](/img/_en/configuration-billing-define-electrical-tariffs/27.png)
-
-![Define electrical tariffs – figure 28](/img/_en/configuration-billing-define-electrical-tariffs/28.png)
+![Define electrical tariffs – figure 29](/img/konfiguration-billing-stromtarife-definieren/29.png)
 
 ## Peak electricity tariffs
 
-Peak electricity tariffs can be used to cover extended or new types of electricity models from energy suppliers. 
+With the peak electricity tariffs, extended or novel electricity models from energy suppliers can be covered. 
 
-- Dual tariff for basic consumption + peak power tariff
+- Dual tariff for the base consumption + peak demand
     (virtual tariffs in combination with the peak tariff)
 
-- Single tariff for basic consumption + peak power tariff
+- Single tariff for the base consumption + peak demand
     (virtual tariffs in combination with the peak tariff)
 
-- Peak tariff only without basic tariffs
+- Only peak tariff without base tariffs
 
 
 Validity period:
-The validity period of a peak tariff is limited to 1 year, it can be created several times for several years.
+The validity period of a peak electricity tariff is limited to 1 year; it can be created several times for several years.
 
-Peak tariffs are either based on the monthly costs incurred (energy supplier bill) or are dependent on the stored tariff and the active measurement of the main measuring point.
+Peak tariffs are based either on the costs incurred monthly (invoice from the energy supplier) or depend on the stored tariff and the active measurement of the main measuring point.
 
-![Define electrical tariffs – figure 29](/img/_en/configuration-billing-define-electrical-tariffs/29.png)
+![Define electrical tariffs – figure 30](/img/konfiguration-billing-stromtarife-definieren/30.png)
 
-Beispiel eines erfassten Stromtarifes mit Kostenbasis (Kosteneintragung)
+Example of a recorded electricity tariff on a cost basis (cost entry)
 
 General mode of operation:
 
-The allocated peak tariff costs or the automatically calculated costs based on metering and the stored tariff are allocated to the consumers in the selected calculation interval when the invoice is created. 
+The recorded peak tariff costs or the automatically calculated costs based on the measurement and the stored tariff are distributed among the consumers at invoice creation in the selected calculation interval. 
 
-The basis for this is the respective electricity peak caused by each individual consumer in the billing period and the selected calculation interval.
+The basis is the respective electricity peak caused (grid consumption only) by each individual consumer in the billing period and the respectively selected calculation interval.
 
-![Define electrical tariffs – figure 30](/img/_en/configuration-billing-define-electrical-tariffs/30.png)
+![Define electrical tariffs – figure 31](/img/konfiguration-billing-stromtarife-definieren/31.png)
 
-### Peak tariffs without active main metering (cost entry)
+### Peak tariffs without active main measurement (manual cost entry)
 
-Suitable for all systems that do not have a physical balance measurement at the grid connection. 
+Suitable for all systems that do not have a reference measurement. 
 
-![Define electrical tariffs – figure 31](/img/_en/configuration-billing-define-electrical-tariffs/31.png)
+![Define electrical tariffs – figure 32](/img/konfiguration-billing-stromtarife-definieren/32.png)
 
-![Define electrical tariffs – figure 32](/img/_en/configuration-billing-define-electrical-tariffs/32.png)
+![Define electrical tariffs – figure 33](/img/konfiguration-billing-stromtarife-definieren/33.png)
 
-### Peak tariffs with active main metering (automatic cost calculation)
+### Peak tariffs with active main measurement (automatic cost calculation)
 
-Suitable for all systems that do have a physical balancing meter of the grid connection.. 
+Suitable for all systems that have a direct balance measurement.
 
-![Define electrical tariffs – figure 33](/img/_en/configuration-billing-define-electrical-tariffs/33.png)
+![Define electrical tariffs – figure 34](/img/konfiguration-billing-stromtarife-definieren/34.png)
 
-## Systems with only grid tariffs
+## FAQ
 
-### Electricity tariffs (only valid if VEWA function not used)
+Setup: single tariff without solar
 
-To access the electricity tariff settings, click on the property on the left and scroll to the green Tariffs Electricity window. Here the two tariffs T1 and T2 are displayed. Select one of the tariffs and click on Edit to make changes to its properties (e.g. name, price, etc.).
+- In this case we recommend not using virtual tariffs. Electricity tariffs (all) are more efficient in this case. It is possible at any time to switch from electricity tariffs to virtual tariffs.
 
-In order to be able to work with the electricity tariffs, the tariff signal of the electricity company must be connected to the tariff input of the corresponding meters. 
 
-![Define electrical tariffs – figure 34](/img/_en/configuration-billing-define-electrical-tariffs/34.png)
+Logic: the meter readings are queried and used for the billing. No calculation is necessary.
+
+Setup: single tariff with solar
+
+- Solar electricity single tariff: define a solar tariff without an if action
+
+- Grid electricity single tariff: define a normal tariff without an if action
+
+
+Logic: first the available solar electricity is distributed. If too little or none is available, the normal tariff is used.
+
+Setup: peak and off-peak tariff for grid electricity and single tariff for solar electricity
+
+- Solar electricity single tariff: define a solar tariff without an if action
+
+- Grid electricity peak tariff: define a normal tariff with an if action
+
+    - Example. Mon to Fri 7h00 to 22h00 or Sat 7h00 to 13h00 
+
+- Grid electricity off-peak tariff: define a normal tariff without an if action
+
+
+Logic: first the available solar electricity is distributed. If too little or none is available, the normal tariff that fulfils a condition is used. Finally, the tariff without a condition is sent for the remaining electricity.
+
+Setup: peak and off-peak tariff for grid and solar electricity
+
+- Solar electricity peak tariff: define a solar tariff with an if action
+
+    - Example: Mon to Fri 7h00 to 22h00 or Sat 7h00 to 13h00 
+
+- Solar electricity off-peak tariff: define a solar tariff with an if action
+
+    - Example: Mon to Fri 22h00 to 7h00 or Sat 13h00 to 7h00 or Sun 0h00 to 0h00
+
+- Grid electricity peak tariff: define a normal tariff with an if action
+
+    - Use the same if action as for the solar electricity peak tariff 
+
+- Grid electricity off-peak tariff: define a normal tariff with an if action
+
+    - Use the same if action as for the solar electricity off-peak tariff 
+
+
+Logic: first the available solar electricity with the valid condition is used. If too little or none is available, the normal tariff with the valid condition is used. It is important that in this use case 24h/day is covered by an if condition.
+
+Setup: summer and winter with peak and off-peak tariff for grid electricity and single tariff for solar electricity
+
+- Solar electricity peak tariff: define a solar tariff without an if action
+
+- Grid electricity peak tariff summer: define a normal tariff with an if action
+
+    - Example: time span every day: Mon to Sun 7h00 to 22h00 and time span every year from 1 / 04 / 00:00 to 1 / 10 / 00:00.
+
+- Grid electricity off-peak tariff summer: define a normal tariff with an if action
+
+    - Example: time span every day: Mon to Sun 22h00 to 07h00 and time span every year from 1 / 04 / 00:00 to 1 / 10 / 00:00.
+
+- Grid electricity peak tariff winter: define a normal tariff with an if action
+
+    - Example: time span every day: Mon to Sun 7h00 to 22h00 and time span every year from 1 / 10 / 00:00 to 1 / 4 / 00:00.
+
+- Grid electricity off-peak tariff winter: define a normal tariff with an if action
+
+    - Example: time span every day: Mon to Sun 22h00 to 07h00 and time span every year from 1 / 10 / 00:00 to 1 / 4 / 00:00.
+
+
+Logic: first the available solar electricity is used. If too little or none is available, the normal tariff with the valid condition is used. It is important that in this use case 24h/day is covered by an if condition.
+
+Setup: summer and winter with peak and off-peak tariff for grid electricity and single tariff for solar electricity and off-peak tariff over midday only in winter (e.g. EWS/EBS)
+
+Example
+
+- Grid and solar electricity off-peak tariff winter 
+
+    - Example: winter off-peak 22h00 to 07h00 between 1.10 and 1.4.
+
+    - If/then action with AND link
+
+        - Time span every day: Mon to Sun 22h00 to 07h00 
+
+        - Time span every year from 1 / 10 / 00:00 to 1 / 04 / 00:00.
+
+- Grid and solar electricity peak tariff winter 
+
+    - Example: winter peak 07h00 to 22h00 between 1.10 and 1.4.
+
+    - If/then action with AND link
+
+        - Time span every day: Mon to Sun 7h00 to 22h00 
+
+        - Time span every year from 1 / 10 / 00:00 to 1 / 04 / 00:00.
+
+- Grid and solar electricity off-peak tariff summer
+
+    - Example: summer off-peak 00h00 to 06h00 and 12h00 to 15h00 between 1.4 and 1.10
+
+    - If/then action with AND link
+
+        - Time span every day: Mon to Sun 12h00 to 06h00 
+
+        - Time span every day: Mon to Sun 00h00 to 15h00 
+
+        - Time span every year from 1 / 4 / 00:00 to 1 / 10 / 00:00.
+
+- Grid and solar electricity peak tariff summer 
+
+    - Example: summer peak 06h00 to 12h00 and 15h00 to 00h00 between 1.4 and 1.10
+
+    - If/then action with AND link
+
+        - Time span every day: Mon to Sun 06h00 to 00h00 
+
+        - Time span every day: Mon to Sun 15h00 to 12h00 
+
+        - Time span every year from 1 / 4 / 00:00 to 1 / 10 / 00:00.
+
+
+Logic: first the available solar electricity is used. If too little or none is available, the normal tariff with the valid condition is used. It is important that in this use case 24h/day is covered by an if condition.
+
+Setup: summer and winter with peak and off-peak tariff for grid electricity and solar electricity, off-peak tariff during the day in summer and peak tariff in winter (e.g. Energie Uri from 1.10.2025)
+
+Description: here you have to work in two steps. 1x if/then and 1x with the times in the virtual tariffs
+
+First the if actions have to be defined.
+
+- Grid and solar electricity summer off-peak
+
+    - Example: summer off-peak Mon to Fri 06h00 to 22h00 Mon to Fri and Sat and Sun always
+
+    - Name: Uri Sommer NT
+
+    - If/then action with OR link
+
+        - Time span Mon to Fri: 6h00 to 22h00 
+
+        - Time span Sat and Sun: 00h00 to 00h00
+
+
+
+
+- Grid and solar electricity summer peak
+
+    - Example: summer peak Mon to Fri 22h00 to 06h00
+
+    - Name: Uri Sommer HT
+
+    - If/then action
+
+        - Time span Mon to Fri: 22h00 to 06h00 
+
+
+
+
+- Grid and solar electricity winter off-peak
+
+    - Example: winter off-peak Mon to Fri 22h00 to 06h00 Mon to Fri and Sat and Sun always
+
+    - Name: Uri Winter NT
+
+    - If/then action with OR link
+
+        - Time span Mon to Fri: 22h00 to 06h00 
+
+        - Time span Sat and Sun: 00h00 to 00h00
+
+
+
+
+- Grid and solar electricity winter peak
+
+    - Example: winter peak Mon to Fri 06h00 to 22h00
+
+    - Name: Uri Winter HT
+
+    - If/then action with OR link
+
+        - Time span Mon to Fri: 06h00 to 22h00 
+
+
+Then the prices per time period have to be defined.
+
+The periods or durations have to be stored in this case. With this tariff model a combination of if/then and period is necessary.
+
+- Name: Uri Sommer HT Netz
+
+    - Type: grid tariff
+
+    - Duration: 1.4.2026 to 30.9.2026
+
+    - Additional condition: Uri Sommer HT
+
+- Name: Uri Sommer HT Solar
+
+
+- Type: solar tariff incl. vZEV 
+
+- Duration: 1.4.2026 to 30.9.2026
+
+- Additional condition: Uri Sommer HT
+
+
+- Name: Uri Sommer NT Netz
+
+    - Type: grid tariff
+
+    - Duration: 1.4.2026 to 30.9.2026
+
+    - Additional condition: Uri Sommer NT
+
+- Name: Uri Sommer NT Solar
+
+    - Type: solar tariff incl. vZEV (balance/productions)
+
+    - Duration: 1.4.2026 to 30.9.2026
+
+    - Additional condition: Uri Sommer NT
+
+- Name: Uri Winter HT Netz
+
+    - Type: grid tariff
+
+    - Duration: 1.10.2025 to 31.3.2026
+
+    - Additional condition: Uri Winter HT 
+
+- Name: Uri Winter HT Solar
+
+    - Type: solar tariff incl. vZEV (balance/productions)
+
+    - Duration: 1.10.2025 to 31.3.2026
+
+    - Additional condition: Uri Winter HT
+
+- Name: Uri Winter NT Netz
+
+    - Type: grid tariff
+
+    - Duration: 1.10.2025 to 31.3.2026
+
+    - Additional condition: Uri Winter NT
+
+- Name: Uri Winter NT Solar
+
+    - Type: solar tariff incl. vZEV (balance/productions)
+
+    - Duration: 1.10.2025 to 31.3.2026
+
+    - Additional condition: Uri Winter NT 
+
+
+<Embed src="https://drive.google.com/file/d/1qFuisQkiLisSbWTh8Avhrf7gIXOfxjjn/preview" aspect="1.350" title="Drive, Wiki Tarife Enerige Uri Tarife 2026.mp4" />
+
+Wiki Tarife Enerige Uri Tarife 2026.mp4
+
+## Pure grid tariff systems (external signal solution)
+
+Electricity tariffs (only supported if the VEWA function is not used)
+
+To get to the settings of the electricity tariffs, click on the property on the left and scroll to the green window Electricity tariffs (Tarife Elektrizität). Here the two tariffs T1 and T2 are displayed. Select one of the tariffs and click on Edit (Editieren) to make changes to its properties (e.g. name, price etc.)
+
+In order to be able to work with the electricity tariffs, the tariff signal of the utility must be connected to the tariff input of the corresponding meters.
+
+![Define electrical tariffs – figure 35](/img/konfiguration-billing-stromtarife-definieren/35.png)

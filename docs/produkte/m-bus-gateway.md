@@ -36,7 +36,7 @@ Die smart-me M-Bus Gateways lesen Energiezähler mit M-Bus-Schnittstelle (EN 137
 
 ### Technische Daten
 
-<Video src="" title="Custom embed" />
+<Embed src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTS_V0Z-_eYRhsXEj3_EJEfKJUK_UP_ZtCxld8cwubPmkDx3eOCcscx_DfAkDd1ngnfvuES569q42lz/pubhtml?gid=0&range=A1:B22&single=true&widget=false&headers=false&chrome=false" aspect="1.637" title="M-Bus Gateway" />
 
 ### Versandinformationen
 
@@ -89,7 +89,7 @@ Wenn die Taste T(4) für 10 Sekunden gedrückt wird, erzeugt dies ein lokales Wi
 
 ### Technische Daten
 
-<Video src="" title="Custom embed" />
+<Embed src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTmayprR4Vh48nmvnu_ZbxO2BDz8btgHbcJ9pR_-cv_irut8RWRsdGGeIUEGcU8p8qNdzdAKR6xG2kh/pubhtml?gid=0&range=A1:B25&single=true&widget=false&headers=false&chrome=false" aspect="0.933" title="M-Bus Gateway" />
 
 ### Versandinformationen
 
@@ -142,7 +142,7 @@ Das M-Bus Gateway liest über 1000 Zählertypen verschiedener Hersteller aus. Un
 Hinweis: Achte explizit darauf wie der Zähler deklariert ist. Er kann als Wärmezähler, Wärme / Kältezähler, Wasserzähler oder Elektrozähler deklariert sein.
 Kombizähler, welche nicht als Wärme / Kältezähler deklariert sind, können unter Umständen kombiniert nicht richtig funktionieren oder nur als Wärmezähler funktionieren.
 
-<Video src="" title="Video" />
+<Embed src="https://drive.google.com/file/d/1PVhN_1lLolihf6eNQ_1x7UxZK8cjE_hq/preview" aspect="2.728" title="Drive, Kompatibilitätsliste M-Bus_Gateway.xlsx" />
 
 Kompatibilitätsliste M-Bus\_Gateway.xlsx
 

@@ -12,15 +12,15 @@ Du brauchst ein smart-me Professional Abo, um Stromabrechnungen nach  dem Energ
 
 Unser Video Tutorial erklärt dir Schritt für Schritt die zusätzlich notwendigen Einstellungen.
 
-<Video src="KSCBESne84M" title="Video" />
+<Video src="KSCBESne84M" title="YouTube Video, smartRED Webinar: So geht Mieterstrom – Einfache Umsetzung und Funktionen erklärt" />
 
 Vorstellung Mieterstrom
 
-<Video src="wXGSibdoBR8" title="Video" />
+<Video src="wXGSibdoBR8" title="YouTube Video, Ismanings erste Mieterstromanlage der Körmer GmbH - Mieterstrom mit smartRED" />
 
 Referenzobjekt
 
-<Video src="rsI2zut_HKM" title="Video" />
+<Video src="rsI2zut_HKM" title="YouTube Video, Tutorial: smartRED Zählerkonfiguration in der smart-me Cloud" />
 
 Zählerkonfiguration Mieterstrom
 
@@ -36,7 +36,7 @@ WICHTIG:  Bei Mieterstrom muss immer mit den [virtuellen Tarifen](/konfiguratio
 
 Eine fertig konfigurierte Mieterstromabrechnung kann folgendermassen aussehen: 
 
-<Video src="" title="Video" />
+<Embed src="https://drive.google.com/file/d/1MGD7-EFY5qNWxINhmGS3asAVvA4_C4Uw/preview" aspect="1.330" title="Drive, Musterrechnung Mieterstrom.pdf" />
 
 Musterrechnung Mieterstrom.pdf
 
@@ -145,7 +145,7 @@ ACHTUNG: Denke daran, die richtigen Werte  für die von dir gewählte Abrechnun
 
 [](https://drive.google.com/open?id=1mWbJe2QTUs5BnZdcZ7tJ1EwmQpi65nG0xFCrMNafJ4I "Open Spreadsheet, % Stromverbrauch Deutschland in new window")
 
-<Video src="" title="Video" />
+<Embed src="https://docs.google.com/spreadsheets/d/1mWbJe2QTUs5BnZdcZ7tJ1EwmQpi65nG0xFCrMNafJ4I/htmlembed?gid=0" title="Spreadsheet, % Stromverbrauch Deutschland" />
 
 % Stromverbrauch Deutschland
 

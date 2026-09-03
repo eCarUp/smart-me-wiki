@@ -6,7 +6,7 @@ sidebar_label: 'egonline'
 ---
 Gerne zeigen wir dir in diesem Webinar, wie egonline mit smart-me Zählern funktioniert: Webinaraufzeichnung egonline und smart-me
 
-<Video src="jvND0IDFDoo" title="Video" />
+<Video src="jvND0IDFDoo" title="YouTube Video, Webinar: VEWA-konforme Nebenkostenabrechnungen erstellen mit egonline und smart-me" />
 
 ## Energieabrechnungen mit egonline
 

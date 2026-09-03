@@ -1,10 +1,10 @@
 ---
 title: 'smart-eye'
 slug: '/produkte/smart-eye'
-description: 'Lo smart-eye porta nella cloud smart-me i contatori di energia conformi alle specifiche FNN per contatori base (dispositivi di misura moderni).'
+description: 'Lo smart-eye porta i contatori di energia conformi alle specifiche FNN per contatori di base (dispositivi di misura moderni) nel cloud smart-me.'
 sidebar_label: 'smart-eye'
 ---
-Lo smart-eye porta nella cloud smart-me i contatori di energia conformi alle specifiche FNN per contatori base (dispositivi di misura moderni). A questo scopo lo smart-eye viene applicato sull'interfaccia dati ottica INFO. In questo modo i dati energetici vengono trasmessi alla cloud smart-me tramite il WiFi locale. Tramite l'app o il login online sono disponibili quasi in tempo reale visualizzazioni dei consumi ed eventualmente dati rilevanti per l'esercizio della rete come frequenza, tensione o corrente.
+Lo smart-eye porta i contatori di energia conformi alle specifiche FNN per contatori di base (dispositivi di misura moderni) nel cloud smart-me. A questo scopo lo smart-eye viene applicato sull'interfaccia dati ottica INFO. In questo modo i dati energetici vengono trasmessi al cloud smart-me tramite il WiFi locale. Tramite l'app o il login online sono disponibili quasi in tempo reale visualizzazioni dei consumi nonché, se del caso, dati rilevanti per l'esercizio della rete come frequenza, tensione o corrente.
 
 Vendita cessata il 30.03.2021, il supporto e l'assistenza cloud sono garantiti fino al 30.03.2025.
 
@@ -16,24 +16,24 @@ Il sistema smart-me è multiservizio: possono essere letti e integrati nella ges
 
 - Visualizzazione in tempo reale dei dati del contatore
 
-- Salvataggio automatico delle letture del contatore nella cloud
+- Salvataggio automatico delle letture del contatore nel cloud
 
-- Datalogger: memorizzazione dei valori di misura in caso di interruzione della connessione e sincronizzazione automatica con la cloud al ripristino della connessione
+- Data logger: memorizzazione dei valori di misura in caso di interruzione della connessione e sincronizzazione automatica con il cloud al ripristino della connessione
 
-- Connessione WiFi crittografata alla cloud smart-me
+- Connessione WiFi cifrata al cloud smart-me
 
-- Gestione energetica completa, fatturazione automatica, comando e allarmi tramite la cloud smart-me
+- Gestione energetica completa, fatturazione automatica, comando e allarmi tramite il cloud smart-me
 
 - Installazione semplice con l'app gratuita smart-me per Android e iOS
 
 
-<Video src="0bvtbGs8G94" title="Video" />
+<Video src="0bvtbGs8G94" title="Video YouTube, smart eye per contatori di base FNN" />
 
 Installazione e messa in servizio del modulo smart-eye
 
 ## Dati tecnici
 
-Contatori supportati  tutti i contatori secondo le specifiche FNN per contatori base                                
+Contatori supportati  tutti i contatori secondo le specifiche FNN per contatori di base                                
 
 Tensione di esercizio interfaccia USB tipo C (5V)    
 
@@ -41,9 +41,9 @@ Interfacce WiFi, interfaccia INFO (comunicazione con il contatore)
 
 Memoria dati 2 mesi     
 
-Aggiornamento del firmware possibile online
+Aggiornamento firmware possibile online
 
-Certificazione del prodotto CE     
+Certificazione di prodotto CE     
 
 Standard WiFi 802.11 b/g/n
 
@@ -53,7 +53,7 @@ Dimensioni 34x34x25.5 mm
 
 Peso 40 g 
 
-Intervallo di temperatura −40°C fino a 70°C
+Intervallo di temperatura −40°C a 70°C
 
 Montaggio magnetico
 
@@ -61,15 +61,15 @@ Montaggio magnetico
 
 [](https://drive.google.com/open?id=1WURxhIS6zPpfSeOv-tfZqnRQKIBkGNP9x4_n1r5iVds "Open Spreadsheet, Getestete Zähler in new window")
 
-<Video src="" title="Video" />
+<Embed src="https://docs.google.com/spreadsheets/d/1WURxhIS6zPpfSeOv-tfZqnRQKIBkGNP9x4_n1r5iVds/htmlembed?gid=0" title="Foglio di calcolo, contatori testati" />
 
 Contatori testati
 
-## Codici lampeggianti del LED
+## Codici lampeggianti LED
 
 [](https://drive.google.com/open?id=10sNiDg0g8cwomZ-aEWn7gpCKbZLiay4X1O_fOJmM-QY "Open Spreadsheet, smart-eye LED blink codes in new window")
 
-<Video src="" title="Video" />
+<Embed src="https://docs.google.com/spreadsheets/d/10sNiDg0g8cwomZ-aEWn7gpCKbZLiay4X1O_fOJmM-QY/htmlembed" title="Foglio di calcolo, codici lampeggianti LED smart-eye" />
 
 smart-eye LED blink codes
 
@@ -79,7 +79,7 @@ Modificare l'intervallo di upload
 
 - selezionare il contatore
 
-- selezionare la rotellina dentata in alto a destra
+- selezionare l'ingranaggio in alto a destra
 
 - Impostazioni generali (Allgemeine Einstellungen)
 

@@ -1,0 +1,1183 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-translate-key="pageTitle">Strom- und Solartarif-Rechner</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .input-group {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            align-items: center;
+            gap: 1rem;
+        }
+        .input-field {
+            width: 100%;
+            padding: 0.5rem 0.75rem;
+            border-radius: 0.375rem;
+            border: 1px solid #D1D5DB;
+            background-color: #F9FAFB;
+        }
+        .input-label {
+            display: flex;
+            align-items: center;
+        }
+        .info-tooltip {
+            position: relative;
+            cursor: pointer;
+            margin-left: 0.5rem;
+        }
+        .info-tooltip .tooltip-text {
+            visibility: hidden;
+            width: 240px;
+            background-color: #1F2937;
+            color: #fff;
+            text-align: center;
+            border-radius: 6px;
+            padding: 8px;
+            position: absolute;
+            z-index: 1;
+            bottom: 125%;
+            left: 50%;
+            margin-left: -120px;
+            opacity: 0;
+            transition: opacity 0.3s;
+            font-size: 0.75rem;
+            font-weight: 400;
+        }
+        .info-tooltip:hover .tooltip-text {
+            visibility: visible;
+            opacity: 1;
+        }
+        .hidden {
+            display: none;
+        }
+        .lang-btn {
+            padding: 0.25rem 0.75rem;
+            border-radius: 0.375rem;
+            font-weight: 500;
+            transition: background-color 0.2s, color 0.2s;
+        }
+        .lang-btn.active {
+            background-color: #3B82F6;
+            color: white;
+        }
+         .lang-btn:not(.active) {
+            background-color: #E5E7EB;
+            color: #4B5563;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+    <div class="container mx-auto p-4 md:p-8 max-w-5xl">
+
+        <div class="flex justify-end mb-4">
+            <div id="language-switcher" class="flex space-x-1 bg-gray-200 p-1 rounded-lg">
+                <button class="lang-btn active" data-lang="de">DE</button>
+                <button class="lang-btn" data-lang="fr">FR</button>
+                <button class="lang-btn" data-lang="it">IT</button>
+                <button class="lang-btn" data-lang="en">EN</button>
+            </div>
+        </div>
+
+        <header class="text-center mb-8">
+            <h1 class="text-3xl md:text-4xl font-bold text-gray-900" data-translate-key="headerTitle">Strom- und Solartarif-Rechner</h1>
+            <p class="mt-2 text-gray-600" data-translate-key="headerSubtitle">Geben Sie die Werte Ihrer Stromrechnung ein, um Ihre Tarife zu berechnen.</p>
+        </header>
+
+        <main class="grid grid-cols-1 gap-8">
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <h2 class="text-2xl font-semibold mb-6 border-b pb-3" data-translate-key="inputSectionTitle">Eingabewerte (exkl. MwSt.)</h2>
+
+                <!-- Tarifart Auswahl -->
+                <div class="mb-6">
+                    <label class="block text-lg font-medium text-gray-800 mb-2" data-translate-key="tariffTypeLabel">Tarifart</label>
+                    <div class="flex gap-4 p-4 bg-gray-100 rounded-lg">
+                        <label class="flex items-center">
+                            <input type="radio" name="tarif_art" value="einheit" checked class="h-4 w-4 text-blue-600 border-gray-300 focus:ring-blue-500">
+                            <span class="ml-2 text-sm font-medium" data-translate-key="singleTariffLabel">Einheitstarif</span>
+                        </label>
+                        <label class="flex items-center">
+                            <input type="radio" name="tarif_art" value="doppel" class="h-4 w-4 text-blue-600 border-gray-300 focus:ring-blue-500">
+                            <span class="ml-2 text-sm font-medium" data-translate-key="doubleTariffLabel">Doppeltarif (HT/NT)</span>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="space-y-8 mb-8">
+                    
+                    <!-- 1. Energielieferung -->
+                    <div>
+                        <h3 class="text-lg font-medium text-gray-800 mb-4" data-translate-key="energyConsumptionTitle">1. Energielieferung</h3>
+                        <div id="einheitstarif_energie_inputs">
+                            <div class="input-group"><label for="energie_einheitstarif" class="input-label" data-translate-key="energySingleTariffLabel">Einheitstarif (Rp./kWh)</label><input type="number" id="energie_einheitstarif" step="0.1" value="8.5" class="input-field"></div>
+                        </div>
+                        <div id="doppeltarif_energie_inputs" class="hidden space-y-3">
+                            <div class="input-group"><label for="energie_hochtarif" class="input-label" data-translate-key="energyHighTariffLabel">Hochtarif (HT) (Rp./kWh)</label><input type="number" id="energie_hochtarif" step="0.1" value="10.0" class="input-field"></div>
+                            <div class="input-group"><label for="energie_niedertarif" class="input-label" data-translate-key="energyLowTariffLabel">Niedertarif (NT) (Rp./kWh)</label><input type="number" id="energie_niedertarif" step="0.1" value="7.0" class="input-field"></div>
+                        </div>
+                    </div>
+
+                    <!-- 2. Netznutzung -->
+                    <div>
+                        <h3 class="text-lg font-medium text-gray-800 mb-4" data-translate-key="gridUsageTitle">2. Netznutzung</h3>
+                        <div class="space-y-3">
+                            <div class="input-group" id="container_netz_grundtarif">
+                                <label for="netz_grundtarif" class="input-label" data-translate-key="gridBasicTariffLabel">Grundtarif (CHF/Monat)</label>
+                                <div class="flex items-center gap-2">
+                                    <input type="number" id="netz_grundtarif" step="0.1" value="2.8" class="input-field">
+                                    <button type="button" class="text-red-500 hover:text-red-700 p-1" onclick="removeNetzComponent('netz_grundtarif')" title="Entfernen"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M9 2a1 1 0 00-.894.553L7.382 4H4a1 1 0 000 2v10a2 2 0 002 2h8a2 2 0 002-2V6a1 1 0 100-2h-3.382l-.724-1.447A1 1 0 0011 2H9zM7 8a1 1 0 012 0v6a1 1 0 11-2 0V8zm5-1a1 1 0 00-1 1v6a1 1 0 102 0V8a1 1 0 00-1-1z" clip-rule="evenodd" /></svg></button>
+                                </div>
+                            </div>
+                            <div class="input-group" id="container_netz_leistungstarif">
+                                <label for="netz_leistungstarif" class="input-label" data-translate-key="gridPowerTariffLabel">Leistungstarif (CHF/kW)</label>
+                                <div class="flex items-center gap-2">
+                                    <input type="number" id="netz_leistungstarif" step="0.1" value="1.5" class="input-field">
+                                    <button type="button" class="text-red-500 hover:text-red-700 p-1" onclick="removeNetzComponent('netz_leistungstarif')" title="Entfernen"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M9 2a1 1 0 00-.894.553L7.382 4H4a1 1 0 000 2v10a2 2 0 002 2h8a2 2 0 002-2V6a1 1 0 100-2h-3.382l-.724-1.447A1 1 0 0011 2H9zM7 8a1 1 0 012 0v6a1 1 0 11-2 0V8zm5-1a1 1 0 00-1 1v6a1 1 0 102 0V8a1 1 0 00-1-1z" clip-rule="evenodd" /></svg></button>
+                                </div>
+                            </div>
+                            <div id="einheitstarif_netz_inputs">
+                                <div class="input-group" id="container_netz_einheitstarif">
+                                    <label for="netz_einheitstarif" class="input-label" data-translate-key="gridSingleTariffLabel">Einheitstarif Netz (Rp./kWh)</label>
+                                    <div class="flex items-center gap-2">
+                                        <input type="number" id="netz_einheitstarif" step="0.1" value="6.0" class="input-field">
+                                        <button type="button" class="text-red-500 hover:text-red-700 p-1" onclick="removeNetzComponent('netz_einheitstarif')" title="Entfernen"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M9 2a1 1 0 00-.894.553L7.382 4H4a1 1 0 000 2v10a2 2 0 002 2h8a2 2 0 002-2V6a1 1 0 100-2h-3.382l-.724-1.447A1 1 0 0011 2H9zM7 8a1 1 0 012 0v6a1 1 0 11-2 0V8zm5-1a1 1 0 00-1 1v6a1 1 0 102 0V8a1 1 0 00-1-1z" clip-rule="evenodd" /></svg></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="doppeltarif_netz_inputs" class="hidden space-y-3">
+                                <div class="input-group" id="container_netz_hochtarif">
+                                    <label for="netz_hochtarif" class="input-label" data-translate-key="gridHighTariffLabel">Einheitstarif Netz HT (Rp./kWh)</label>
+                                    <div class="flex items-center gap-2">
+                                        <input type="number" id="netz_hochtarif" step="0.1" value="7.0" class="input-field">
+                                        <button type="button" class="text-red-500 hover:text-red-700 p-1" onclick="removeNetzComponent('netz_hochtarif')" title="Entfernen"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M9 2a1 1 0 00-.894.553L7.382 4H4a1 1 0 000 2v10a2 2 0 002 2h8a2 2 0 002-2V6a1 1 0 100-2h-3.382l-.724-1.447A1 1 0 0011 2H9zM7 8a1 1 0 012 0v6a1 1 0 11-2 0V8zm5-1a1 1 0 00-1 1v6a1 1 0 102 0V8a1 1 0 00-1-1z" clip-rule="evenodd" /></svg></button>
+                                    </div>
+                                </div>
+                                <div class="input-group" id="container_netz_niedertarif">
+                                    <label for="netz_niedertarif" class="input-label" data-translate-key="gridLowTariffLabel">Einheitstarif Netz NT (Rp./kWh)</label>
+                                    <div class="flex items-center gap-2">
+                                        <input type="number" id="netz_niedertarif" step="0.1" value="5.0" class="input-field">
+                                        <button type="button" class="text-red-500 hover:text-red-700 p-1" onclick="removeNetzComponent('netz_niedertarif')" title="Entfernen"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M9 2a1 1 0 00-.894.553L7.382 4H4a1 1 0 000 2v10a2 2 0 002 2h8a2 2 0 002-2V6a1 1 0 100-2h-3.382l-.724-1.447A1 1 0 0011 2H9zM7 8a1 1 0 012 0v6a1 1 0 11-2 0V8zm5-1a1 1 0 00-1 1v6a1 1 0 102 0V8a1 1 0 00-1-1z" clip-rule="evenodd" /></svg></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="input-group" id="container_netz_sdl">
+                                <label for="netz_sdl" class="input-label" data-translate-key="sdlLabel">SDL-Swissgrid (Rp./kWh)</label>
+                                <div class="flex items-center gap-2">
+                                    <input type="number" id="netz_sdl" step="0.01" value="0.55" class="input-field">
+                                    <button type="button" class="text-red-500 hover:text-red-700 p-1" onclick="removeNetzComponent('netz_sdl')" title="Entfernen"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M9 2a1 1 0 00-.894.553L7.382 4H4a1 1 0 000 2v10a2 2 0 002 2h8a2 2 0 002-2V6a1 1 0 100-2h-3.382l-.724-1.447A1 1 0 0011 2H9zM7 8a1 1 0 012 0v6a1 1 0 11-2 0V8zm5-1a1 1 0 00-1 1v6a1 1 0 102 0V8a1 1 0 00-1-1z" clip-rule="evenodd" /></svg></button>
+                                </div>
+                            </div>
+                            <div class="input-group" id="container_netz_winterreserve">
+                                <label for="netz_winterreserve" class="input-label" data-translate-key="winterReserveLabel">Stromreserve (Rp./kWh)</label>
+                                <div class="flex items-center gap-2">
+                                    <input type="number" id="netz_winterreserve" step="0.01" value="0.23" class="input-field">
+                                    <button type="button" class="text-red-500 hover:text-red-700 p-1" onclick="removeNetzComponent('netz_winterreserve')" title="Entfernen"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M9 2a1 1 0 00-.894.553L7.382 4H4a1 1 0 000 2v10a2 2 0 002 2h8a2 2 0 002-2V6a1 1 0 100-2h-3.382l-.724-1.447A1 1 0 0011 2H9zM7 8a1 1 0 012 0v6a1 1 0 11-2 0V8zm5-1a1 1 0 00-1 1v6a1 1 0 102 0V8a1 1 0 00-1-1z" clip-rule="evenodd" /></svg></button>
+                                </div>
+                            </div>
+                            <div class="input-group" id="container_netz_solidarisiert">
+                                <label for="netz_solidarisiert" class="input-label" data-translate-key="solidarizedCostsLabel">Solidarisierte Kosten (Rp./kWh)</label>
+                                <div class="flex items-center gap-2">
+                                    <input type="number" id="netz_solidarisiert" step="0.01" value="0.00" class="input-field">
+                                    <button type="button" class="text-red-500 hover:text-red-700 p-1" onclick="removeNetzComponent('netz_solidarisiert')" title="Entfernen"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M9 2a1 1 0 00-.894.553L7.382 4H4a1 1 0 000 2v10a2 2 0 002 2h8a2 2 0 002-2V6a1 1 0 100-2h-3.382l-.724-1.447A1 1 0 0011 2H9zM7 8a1 1 0 012 0v6a1 1 0 11-2 0V8zm5-1a1 1 0 00-1 1v6a1 1 0 102 0V8a1 1 0 00-1-1z" clip-rule="evenodd" /></svg></button>
+                                </div>
+                            </div>
+                            
+                            <!-- Dynamische Netznutzungskomponenten -->
+                            <div id="custom_netz_container" class="space-y-2 mt-2 pt-2 border-t border-gray-100"></div>
+                            <button type="button" id="add_custom_netz_btn" class="text-sm text-blue-600 hover:text-blue-800 font-medium flex items-center mt-2 transition" data-translate-key="addCustomGrid">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-1" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 3a1 1 0 011 1v5h5a1 1 0 110 2h-5v5a1 1 0 11-2 0v-5H4a1 1 0 110-2h5V4a1 1 0 011-1z" clip-rule="evenodd" /></svg>
+                                Weitere Komponente hinzufügen
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- 3. Messentgelt -->
+                    <div>
+                        <h3 class="text-lg font-medium text-gray-800 mb-4" data-translate-key="measurementTitle">3. Messentgelt</h3>
+                        <div class="space-y-3">
+                            <div class="input-group" id="container_messung_grundtarif">
+                                <label for="messung_grundtarif" class="input-label" data-translate-key="measurementFeeLabel">Messung (CHF/Monat)</label>
+                                <div class="flex items-center gap-2">
+                                    <input type="number" id="messung_grundtarif" step="0.1" value="2.5" class="input-field">
+                                    <button type="button" class="text-red-500 hover:text-red-700 p-1" onclick="removeNetzComponent('messung_grundtarif')" title="Entfernen"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M9 2a1 1 0 00-.894.553L7.382 4H4a1 1 0 000 2v10a2 2 0 002 2h8a2 2 0 002-2V6a1 1 0 100-2h-3.382l-.724-1.447A1 1 0 0011 2H9zM7 8a1 1 0 012 0v6a1 1 0 11-2 0V8zm5-1a1 1 0 00-1 1v6a1 1 0 102 0V8a1 1 0 00-1-1z" clip-rule="evenodd" /></svg></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 4. Öffentliche Abgaben -->
+                    <div>
+                        <h3 class="text-lg font-medium text-gray-800 mb-4" data-translate-key="publicLeviesTitle">4. Öffentliche Abgaben</h3>
+                        
+                        <div class="space-y-3 mb-6">
+                            <div class="input-group">
+                                <label for="abgaben_foerderung" class="input-label" data-translate-key="renewableEnergySurchargeLabel">Netzzuschlag (Rp./kWh)</label>
+                                <input type="number" id="abgaben_foerderung" step="0.1" value="2.3" class="input-field">
+                            </div>
+                            <!-- Dynamische Abgaben -->
+                            <div id="custom_abgaben_container" class="space-y-2 mt-2"></div>
+                            <button type="button" id="add_custom_abgabe_btn" class="text-sm text-blue-600 hover:text-blue-800 font-medium flex items-center mt-2 transition" data-translate-key="addCustomSurcharge">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-1" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 3a1 1 0 011 1v5h5a1 1 0 110 2h-5v5a1 1 0 11-2 0v-5H4a1 1 0 110-2h5V4a1 1 0 011-1z" clip-rule="evenodd" /></svg>
+                                Weitere Abgabe hinzufügen
+                            </button>
+                        </div>
+
+                        <!-- Gemeindeabgabe -->
+                        <div class="space-y-4 p-4 bg-purple-50 rounded-lg">
+                            <h4 class="text-md font-semibold text-purple-800" data-translate-key="municipalTaxSectionTitle">Gemeindeabgabe</h4>
+                            <div>
+                                <label class="block text-sm font-medium text-gray-700 mb-2" data-translate-key="municipalTaxCalcLabel">Berechnung Gemeindeabgabe</label>
+                                <div class="flex gap-4">
+                                    <label class="flex items-center">
+                                        <input type="radio" name="gemeindeabgabe_typ" value="rappen" checked class="h-4 w-4 text-purple-600 border-gray-300 focus:ring-purple-500">
+                                        <span class="ml-2 text-sm" data-translate-key="fixedAmountLabel">Fester Betrag (Rp./kWh)</span>
+                                    </label>
+                                    <label class="flex items-center">
+                                        <input type="radio" name="gemeindeabgabe_typ" value="prozent" class="h-4 w-4 text-purple-600 border-gray-300 focus:ring-purple-500">
+                                        <span class="ml-2 text-sm" data-translate-key="percentageLabel">Prozentsatz (%)</span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div id="gemeindeabgabe_rappen_input_div" class="input-group">
+                                <label for="gemeindeabgabe_rappen" class="input-label" data-translate-key="municipalTaxAmountLabel">Gemeindeabgabe (Rp./kWh)</label>
+                                <input type="number" id="gemeindeabgabe_rappen" step="0.1" value="0.65" class="input-field">
+                            </div>
+                            <div id="gemeindeabgabe_prozent_input_div" class="hidden input-group">
+                                <label for="gemeindeabgabe_prozent" class="input-label" data-translate-key="municipalTaxPercentageLabel">Gemeindeabgabe (%)</label>
+                                <input type="number" id="gemeindeabgabe_prozent" step="0.1" value="10" class="input-field">
+                            </div>
+                            <div id="gemeindeabgabe_komponenten_div" class="hidden space-y-2 mt-2">
+                                <label class="block text-sm font-medium text-gray-700" data-translate-key="applyMunicipalTaxToLabel">Gemeindeabgabe anwenden auf:</label>
+                                <p class="text-xs text-purple-700 mb-2 leading-relaxed" data-translate-key="municipalTaxApplicationNotice">Die Gemeindeabgabe wird nicht immer auf alle Netznutzungskomponenten angewendet. Prüfe auf dem Tarifblatt des Energieversorgers auf welche die prozentuale Abgabe gilt.</p>
+                                <div class="flex items-center"><input id="netz_grundtarif_abgabe_check" type="checkbox" checked class="h-4 w-4 text-purple-600 border-gray-300 rounded focus:ring-purple-500"><label for="netz_grundtarif_abgabe_check" class="ml-2 text-sm text-gray-600" data-translate-key="applyToBasicTariff">Grundtarif</label></div>
+                                <div class="flex items-center"><input id="netz_leistungstarif_abgabe_check" type="checkbox" checked class="h-4 w-4 text-purple-600 border-gray-300 rounded focus:ring-purple-500"><label for="netz_leistungstarif_abgabe_check" class="ml-2 text-sm text-gray-600" data-translate-key="applyToPowerTariff">Leistungstarif</label></div>
+                                <div class="flex items-center"><input id="netz_einheitstarif_abgabe_check" type="checkbox" checked class="h-4 w-4 text-purple-600 border-gray-300 rounded focus:ring-purple-500"><label for="netz_einheitstarif_abgabe_check" class="ml-2 text-sm text-gray-600" data-translate-key="applyToGridSingleTariff">Einheitstarif Netz</label></div>
+                                <div class="flex items-center"><input id="netz_sdl_abgabe_check" type="checkbox" checked class="h-4 w-4 text-purple-600 border-gray-300 rounded focus:ring-purple-500"><label for="netz_sdl_abgabe_check" class="ml-2 text-sm text-gray-600" data-translate-key="applyToSdl">SDL-Swissgrid</label></div>
+                                <div class="flex items-center"><input id="netz_winterreserve_abgabe_check" type="checkbox" checked class="h-4 w-4 text-purple-600 border-gray-300 rounded focus:ring-purple-500"><label for="netz_winterreserve_abgabe_check" class="ml-2 text-sm text-gray-600" data-translate-key="applyToWinterReserve">Stromreserve</label></div>
+                                <div class="flex items-center"><input id="netz_solidarisiert_abgabe_check" type="checkbox" class="h-4 w-4 text-purple-600 border-gray-300 rounded focus:ring-purple-500"><label for="netz_solidarisiert_abgabe_check" class="ml-2 text-sm text-gray-600" data-translate-key="applyToSolidarized">Solidarisierte Kosten</label></div>
+                                <div class="flex items-center"><input id="netz_custom_abgabe_check" type="checkbox" class="h-4 w-4 text-purple-600 border-gray-300 rounded focus:ring-purple-500"><label for="netz_custom_abgabe_check" class="ml-2 text-sm text-gray-600" data-translate-key="applyToCustomGrid">Zusätzliche Komponenten (Netz)</label></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 5. Allgemein -->
+                    <div class="space-y-4 p-4 bg-blue-50 rounded-lg">
+                        <h3 class="text-lg font-medium text-blue-800" data-translate-key="generalSettingsTitle">5. Allgemein</h3>
+                        <div class="input-group">
+                            <label for="mwst" class="input-label" data-translate-key="vatLabel">Mehrwertsteuer (%)</label>
+                            <input type="number" id="mwst" value="8.1" class="input-field">
+                        </div>
+                        <div class="input-group mt-4 pt-4 border-t border-blue-200">
+                            <label class="input-label" data-translate-key="vatLiabilityQuestion">Sind Sie selber MWST-pflichtig?</label>
+                            <div class="flex gap-4">
+                                <label class="flex items-center">
+                                    <input type="radio" name="vat_liability" value="yes" class="h-4 w-4 text-blue-600 border-gray-300 focus:ring-blue-500">
+                                    <span class="ml-2 text-sm" data-translate-key="yes">Ja</span>
+                                </label>
+                                <label class="flex items-center">
+                                    <input type="radio" name="vat_liability" value="no" checked class="h-4 w-4 text-blue-600 border-gray-300 focus:ring-blue-500">
+                                    <span class="ml-2 text-sm" data-translate-key="no">Nein</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 6. Solar / ZEV Einstellungen -->
+                    <div class="space-y-4 p-4 bg-green-50 rounded-lg">
+                         <h3 class="text-lg font-medium text-green-800" data-translate-key="solarZevSettingsTitle">6. Solar / ZEV Einstellungen</h3>
+                         <div id="solar_options" class="space-y-3">
+                            <label class="flex items-center">
+                                <input type="radio" name="solar_option" value="variable" checked class="h-4 w-4 text-green-600 border-gray-300 focus:ring-green-500">
+                                <span class="ml-2 text-sm font-medium" data-translate-key="solarOptionVariable">Variable Rabattierung</span>
+                            </label>
+                            <label class="flex items-center">
+                                <input type="radio" name="solar_option" value="80_rule" class="h-4 w-4 text-green-600 border-gray-300 focus:ring-green-500">
+                                <span class="ml-2 text-sm font-medium" data-translate-key="solarOption80Rule">80% Prozent Regel anwenden</span>
+                            </label>
+                            <label class="flex items-center">
+                                <input type="radio" name="solar_option" value="elcom" class="h-4 w-4 text-green-600 border-gray-300 focus:ring-green-500">
+                                <span class="ml-2 text-sm font-medium" data-translate-key="solarOptionElcom">Elcom Preis</span>
+                            </label>
+                         </div>
+
+                         <div id="solar_variable_inputs" class="space-y-4 pt-4 border-t border-green-200">
+                            <div class="input-group"><label for="solar_kwh_rabatt" class="input-label" data-translate-key="solarKwhDiscountLabel">Rabatt auf Energiepreise (%)<div class="info-tooltip"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-400" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd" /></svg><span class="tooltip-text" data-translate-key="solarKwhDiscountTooltip">Prozentualer Rabatt auf den kWh-Preis des Solarstoms im Vergleich zum Netzstrom. 20% Rabatt bedeutet, der Preis beträgt 80% des Netzpreises.</span></div></label><input type="number" id="solar_kwh_rabatt" step="1" value="20" class="input-field"></div>
+                            <div class="input-group"><label for="solar_grundgebuehr_rabatt" class="input-label" data-translate-key="solarBasicFeeDiscountLabel">Rabatt auf Grundgebühr (%)<div class="info-tooltip"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-400" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd" /></svg><span class="tooltip-text" data-translate-key="solarBasicFeeDiscountTooltip">Prozentualer Rabatt auf die monatliche Grundgebühr für den Solarstromtarif. 20% Rabatt bedeutet, es werden 80% der Netz-Grundgebühr verrechnet.</span></div></label><input type="number" id="solar_grundgebuehr_rabatt" step="1" value="20" class="input-field"></div>
+                         </div>
+                         
+                         <div id="solar_elcom_info" class="hidden mt-4 pt-4 border-t border-green-200 space-y-4">
+                             <div class="p-3 bg-yellow-100 border-l-4 border-yellow-400 text-yellow-700">
+                                <p class="text-sm" data-translate-key="elcomInstruction"></p>
+                             </div>
+                             <div class="input-group">
+                                 <label for="elcom_price_input" class="input-label text-sm" data-translate-key="elcomPriceLabel">Elcom Preis (Rp./kWh, exkl. MwSt.)</label>
+                                 <input type="number" id="elcom_price_input" step="0.1" placeholder="z.B. 9.5" class="input-field">
+                             </div>
+                         </div>
+                    </div>
+
+                </div>
+
+                <div class="mt-8 flex flex-col sm:flex-row gap-4 items-center">
+                    <button id="calculateBtn" class="flex-grow w-full bg-blue-600 text-white font-bold py-3 px-4 rounded-lg hover:bg-blue-700 transition duration-300" data-translate-key="calculateButton">Tarife berechnen</button>
+                    <button type="button" id="restore_fields_btn" onclick="restoreComponents()" class="hidden w-full sm:w-auto text-gray-700 bg-gray-200 hover:bg-gray-300 font-bold py-3 px-4 rounded-lg transition duration-300" data-translate-key="restoreFieldsBtn">Gelöschte Felder wiederherstellen</button>
+                </div>
+            </div>
+
+            <!-- Ergebnisse -->
+            <div id="results" class="bg-white p-6 rounded-lg shadow-md hidden">
+                <h2 class="text-2xl font-semibold mb-6 border-b pb-3" data-translate-key="resultsSectionTitle">Berechnete Tarife (zur Erfassung in der Software)</h2>
+                
+                <div id="vat_note_yes" class="mb-6 p-4 bg-blue-50 border-l-4 border-blue-500 text-blue-800 rounded-r-lg hidden">
+                    <div class="flex">
+                        <svg class="h-5 w-5 mr-2 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd" /></svg>
+                        <p class="text-sm font-medium" data-translate-key="vatNoteYes"></p>
+                    </div>
+                </div>
+                <div id="vat_note_no" class="mb-6 p-4 bg-yellow-50 border-l-4 border-yellow-500 text-yellow-800 rounded-r-lg hidden">
+                    <div class="flex">
+                        <svg class="h-5 w-5 mr-2 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clip-rule="evenodd" /></svg>
+                        <p class="text-sm font-medium" data-translate-key="vatNoteNo"></p>
+                    </div>
+                </div>
+
+                <div class="space-y-6">
+                    <!-- Virtuelle Tarife Netz -->
+                    <div>
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2" data-translate-key="virtualTariffsGrid">Virtuelle Tarife Netz</h3>
+                        <div class="bg-gray-100 rounded-lg px-4 py-2">
+                            <div id="netz_result_einheit_new">
+                                <div class="flex justify-between items-center py-2 row-excl">
+                                    <div><span class="font-medium text-gray-800" data-translate-key="gridTariffSingle">Netztarif</span> <span class="text-sm text-gray-500 ml-1">(<span data-translate-key="exclVat">exkl. MwSt.:</span>)</span></div>
+                                    <span id="netz_kwh_exkl" class="font-mono text-gray-800"></span>
+                                </div>
+                                <div class="flex justify-between items-center py-2 row-incl hidden">
+                                    <div><span class="font-medium text-gray-800" data-translate-key="gridTariffSingle">Netztarif</span> <span class="text-sm text-gray-500 ml-1">(<span data-translate-key="inclVat">inkl. MwSt.:</span>)</span></div>
+                                    <span id="netz_kwh_inkl" class="font-mono font-medium text-blue-600"></span>
+                                </div>
+                            </div>
+                            <div id="netz_result_doppel_new" class="hidden">
+                                <div id="result_row_netz_ht">
+                                    <div class="flex justify-between items-center py-2 border-b border-gray-200">
+                                        <div class="flex items-center space-x-2">
+                                            <span class="font-medium text-gray-800" data-translate-key="gridTariffHt">Netztarif HT</span>
+                                            <span class="text-sm text-gray-500 row-excl">(<span data-translate-key="exclVat">exkl. MwSt.:</span>)</span>
+                                            <span class="text-sm text-gray-500 row-incl hidden">(<span data-translate-key="inclVat">inkl. MwSt.:</span>)</span>
+                                        </div>
+                                        <span id="netz_kwh_exkl_ht" class="font-mono text-gray-800 row-excl"></span>
+                                        <span id="netz_kwh_inkl_ht" class="font-mono font-medium text-blue-600 row-incl hidden"></span>
+                                    </div>
+                                </div>
+                                <div id="result_row_netz_nt">
+                                    <div class="flex justify-between items-center py-2">
+                                        <div class="flex items-center space-x-2">
+                                            <span class="font-medium text-gray-800" data-translate-key="gridTariffNt">Netztarif NT</span>
+                                            <span class="text-sm text-gray-500 row-excl">(<span data-translate-key="exclVat">exkl. MwSt.:</span>)</span>
+                                            <span class="text-sm text-gray-500 row-incl hidden">(<span data-translate-key="inclVat">inkl. MwSt.:</span>)</span>
+                                        </div>
+                                        <span id="netz_kwh_exkl_nt" class="font-mono text-gray-800 row-excl"></span>
+                                        <span id="netz_kwh_inkl_nt" class="font-mono font-medium text-blue-600 row-incl hidden"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Virtuelle Tarife Solar -->
+                    <div id="solar_results_container_new">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2" data-translate-key="virtualTariffsSolar">Virtuelle Tarife Solar</h3>
+                         <div class="bg-green-50 rounded-lg px-4 py-2">
+                            <div id="solar_result_einheit_new">
+                                <div class="flex justify-between items-center py-2">
+                                    <div class="flex items-center space-x-2">
+                                        <span class="font-medium text-green-800" data-translate-key="solarTariffSingle">Solartarif</span>
+                                        <span class="text-sm text-green-600 row-excl">(<span data-translate-key="exclVat">exkl. MwSt.:</span>)</span>
+                                        <span class="text-sm text-green-600 row-incl hidden">(<span data-translate-key="inclVat">inkl. MwSt.:</span>)</span>
+                                    </div>
+                                    <span id="solar_kwh_exkl" class="font-mono text-green-800 row-excl"></span>
+                                    <span id="solar_kwh_inkl" class="font-mono font-medium text-green-600 row-incl hidden"></span>
+                                </div>
+                            </div>
+                             <div id="solar_result_doppel_new" class="hidden">
+                                <div id="result_row_solar_ht">
+                                    <div class="flex justify-between items-center py-2 border-b border-green-200">
+                                        <div class="flex items-center space-x-2">
+                                            <span class="font-medium text-green-800" data-translate-key="solarTariffHt">Solartarif HT</span>
+                                            <span class="text-sm text-green-600 row-excl">(<span data-translate-key="exclVat">exkl. MwSt.:</span>)</span>
+                                            <span class="text-sm text-green-600 row-incl hidden">(<span data-translate-key="inclVat">inkl. MwSt.:</span>)</span>
+                                        </div>
+                                        <span id="solar_kwh_exkl_ht" class="font-mono text-green-800 row-excl"></span>
+                                        <span id="solar_kwh_inkl_ht" class="font-mono font-medium text-green-600 row-incl hidden"></span>
+                                    </div>
+                                </div>
+                                <div id="result_row_solar_nt">
+                                    <div class="flex justify-between items-center py-2">
+                                        <div class="flex items-center space-x-2">
+                                            <span class="font-medium text-green-800" data-translate-key="solarTariffNt">Solartarif NT</span>
+                                            <span class="text-sm text-green-600 row-excl">(<span data-translate-key="exclVat">exkl. MwSt.:</span>)</span>
+                                            <span class="text-sm text-green-600 row-incl hidden">(<span data-translate-key="inclVat">inkl. MwSt.:</span>)</span>
+                                        </div>
+                                        <span id="solar_kwh_exkl_nt" class="font-mono text-green-800 row-excl"></span>
+                                        <span id="solar_kwh_inkl_nt" class="font-mono font-medium text-green-600 row-incl hidden"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Leistungstarife -->
+                    <div id="leistungstarif_section">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2" data-translate-key="powerTariffsTitle">Leistungstarife</h3>
+                        <div class="bg-orange-50 rounded-lg px-4 py-2">
+                            <div class="flex justify-between items-center py-2 row-excl">
+                                <div><span class="font-medium text-orange-800" data-translate-key="powerTariffLabel">Leistungstarif</span> <span class="text-sm text-orange-600 ml-1">(<span data-translate-key="exclVat">exkl. MwSt.:</span>)</span></div>
+                                <span id="netz_leistung_exkl" class="font-mono text-orange-800"></span>
+                            </div>
+                            <div class="flex justify-between items-center py-2 row-incl hidden">
+                                <div><span class="font-medium text-orange-800" data-translate-key="powerTariffLabel">Leistungstarif</span> <span class="text-sm text-orange-600 ml-1">(<span data-translate-key="inclVat">inkl. MwSt.:</span>)</span></div>
+                                <span id="netz_leistung_inkl" class="font-mono font-medium text-orange-600"></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Sonstiges (Grundgebühr) -->
+                    <div id="sonstiges_section">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2" data-translate-key="otherTariffsTitle">Sonstiges</h3>
+                        <div class="bg-purple-50 rounded-lg px-4 py-2">
+                            <div id="solar_grund_fee_container">
+                                <div class="flex justify-between items-center py-2 row-excl">
+                                    <div><span class="font-medium text-purple-800" data-translate-key="solarBasicFeeLabel">Grundgebühr</span> <span class="text-sm text-purple-600 ml-1">(<span data-translate-key="exclVat">exkl. MwSt.:</span>)</span></div>
+                                    <span id="solar_grund_exkl" class="font-mono text-purple-800"></span>
+                                </div>
+                                <div class="flex justify-between items-center py-2 row-incl hidden">
+                                    <div><span class="font-medium text-purple-800" data-translate-key="solarBasicFeeLabel">Grundgebühr</span> <span class="text-sm text-purple-600 ml-1">(<span data-translate-key="inclVat">inkl. MwSt.:</span>)</span></div>
+                                    <span id="solar_grund_inkl" class="font-mono font-medium text-purple-600"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        // Funktion zum Entfernen von Komponenten
+        window.removeNetzComponent = function(id) {
+            const inputEl = document.getElementById(id);
+            if (inputEl) {
+                inputEl.setAttribute('data-deleted-val', inputEl.value);
+                inputEl.value = 0;
+            }
+            const containerEl = document.getElementById('container_' + id);
+            if (containerEl) {
+                containerEl.classList.add('hidden');
+            }
+            
+            document.getElementById('restore_fields_btn').classList.remove('hidden');
+            
+            const resultsDiv = document.getElementById('results');
+            const calculateBtn = document.getElementById('calculateBtn');
+            if (resultsDiv && !resultsDiv.classList.contains('hidden') && calculateBtn) {
+                calculateBtn.click();
+            }
+        };
+
+        // Funktion zum Wiederherstellen der gelöschten Felder
+        window.restoreComponents = function() {
+            const containers = document.querySelectorAll('div[id^="container_"].hidden');
+            containers.forEach(container => {
+                container.classList.remove('hidden');
+                const inputId = container.id.replace('container_', '');
+                const inputEl = document.getElementById(inputId);
+                if (inputEl && inputEl.hasAttribute('data-deleted-val')) {
+                    inputEl.value = inputEl.getAttribute('data-deleted-val');
+                    inputEl.removeAttribute('data-deleted-val');
+                }
+            });
+            
+            document.getElementById('restore_fields_btn').classList.add('hidden');
+            
+            const resultsDiv = document.getElementById('results');
+            if (resultsDiv && !resultsDiv.classList.contains('hidden')) {
+                document.getElementById('calculateBtn').click();
+            }
+        };
+
+        document.addEventListener('DOMContentLoaded', function () {
+
+            const translations = {
+                de: {
+                    pageTitle: 'Strom- und Solartarif-Rechner',
+                    headerTitle: 'Strom- und Solartarif-Rechner',
+                    headerSubtitle: 'Geben Sie die Werte Ihrer Stromrechnung ein, um Ihre Tarife zu berechnen.',
+                    inputSectionTitle: 'Eingabewerte (exkl. MwSt.)',
+                    tariffTypeLabel: 'Tarifart',
+                    singleTariffLabel: 'Einheitstarif',
+                    doubleTariffLabel: 'Doppeltarif (HT/NT)',
+                    measurementTitle: '3. Messentgelt',
+                    measurementFeeLabel: 'Messung (CHF/Monat)',
+                    generalSettingsTitle: '5. Allgemein',
+                    municipalTaxSectionTitle: 'Gemeindeabgabe',
+                    vatLabel: 'Mehrwertsteuer (%)',
+                    municipalTaxCalcLabel: 'Berechnung Gemeindeabgabe',
+                    fixedAmountLabel: 'Fester Betrag (Rp./kWh)',
+                    percentageLabel: 'Prozentsatz (%)',
+                    municipalTaxAmountLabel: 'Gemeindeabgabe (Rp./kWh)',
+                    municipalTaxPercentageLabel: 'Gemeindeabgabe (%)',
+                    applyMunicipalTaxToLabel: 'Gemeindeabgabe anwenden auf:',
+                    municipalTaxApplicationNotice: 'Die Gemeindeabgabe wird nicht immer auf alle Netznutzungskomponenten angewendet. Prüfe auf dem Tarifblatt des Energieversorgers auf welche die prozentuale Abgabe gilt.',
+                    applyToBasicTariff: 'Grundtarif',
+                    applyToPowerTariff: 'Leistungstarif',
+                    applyToGridSingleTariff: 'Einheitstarif Netz',
+                    applyToSdl: 'SDL-Swissgrid',
+                    applyToWinterReserve: 'Stromreserve',
+                    applyToSolidarized: 'Solidarisierte Kosten',
+                    applyToCustomGrid: 'Zusätzliche Komponenten (Netz)',
+                    solarZevSettingsTitle: '6. Solar / ZEV Einstellungen',
+                    solarOptionVariable: 'Variable Rabattierung',
+                    solarOption80Rule: '80% Prozent Regel anwenden',
+                    solarOptionElcom: 'Elcom Preis',
+                    elcomInstruction: "Ort wählen, Kategorie H4, auf angezeigten Preis + MWST erheben * 80% = Solarpreisreferenz. <a href='https://www.strompreis.elcom.admin.ch/' target='_blank' class='font-semibold text-blue-600 hover:underline'>Zur Elcom-Seite</a>",
+                    elcomPriceLabel: 'Elcom Preis (Rp./kWh, exkl. MwSt.)',
+                    solarKwhDiscountLabel: 'Rabatt auf Energiepreise (%)',
+                    solarKwhDiscountTooltip: 'Prozentualer Rabatt auf den kWh-Preis des Solarstoms im Vergleich zum Netzstrom. 20% Rabatt bedeutet, der Preis beträgt 80% des Netzpreises.',
+                    solarBasicFeeDiscountLabel: 'Rabatt auf Grundgebühr (%)',
+                    solarBasicFeeDiscountTooltip: 'Prozentualer Rabatt auf die monatliche Grundgebühr für den Solarstromtarif. 20% Rabatt bedeutet, es werden 80% der Netz-Grundgebühr verrechnet.',
+                    energyConsumptionTitle: '1. Energielieferung',
+                    energySingleTariffLabel: 'Einheitstarif (Rp./kWh)',
+                    energyHighTariffLabel: 'Hochtarif (HT) (Rp./kWh)',
+                    energyLowTariffLabel: 'Niedertarif (NT) (Rp./kWh)',
+                    publicLeviesTitle: '4. Öffentliche Abgaben',
+                    renewableEnergySurchargeLabel: 'Netzzuschlag (Rp./kWh)',
+                    addCustomSurcharge: '+ Weitere Abgabe hinzufügen',
+                    addCustomGrid: '+ Weitere Komponente hinzufügen',
+                    customNamePlaceholder: 'Bezeichnung',
+                    gridUsageTitle: '2. Netznutzung',
+                    gridBasicTariffLabel: 'Grundtarif (CHF/Monat)',
+                    gridPowerTariffLabel: 'Leistungstarif (CHF/kW)',
+                    gridSingleTariffLabel: 'Einheitstarif Netz (Rp./kWh)',
+                    gridHighTariffLabel: 'Einheitstarif Netz HT (Rp./kWh)',
+                    gridLowTariffLabel: 'Einheitstarif Netz NT (Rp./kWh)',
+                    sdlLabel: 'SDL-Swissgrid (Rp./kWh)',
+                    winterReserveLabel: 'Stromreserve (Rp./kWh)',
+                    solidarizedCostsLabel: 'Solidarisierte Kosten (Rp./kWh)',
+                    calculateButton: 'Tarife berechnen',
+                    resultsSectionTitle: 'Berechnete Tarife (zur Erfassung in der Software)',
+                    virtualTariffsGrid: 'Virtuelle Tarife Netz',
+                    gridTariffSingle: 'Netztarif',
+                    gridTariffHt: 'Netztarif HT',
+                    gridTariffNt: 'Netztarif NT',
+                    virtualTariffsSolar: 'Virtuelle Tarife Solar',
+                    solarTariffSingle: 'Solartarif',
+                    solarTariffHt: 'Solartarif HT',
+                    solarTariffNt: 'Solartarif NT',
+                    powerTariffsTitle: 'Leistungstarife',
+                    powerTariffLabel: 'Leistungstarif',
+                    otherTariffsTitle: 'Sonstiges',
+                    solarBasicFeeLabel: 'Grundgebühr',
+                    exclVat: 'exkl. MwSt.:',
+                    inclVat: 'inkl. MwSt.:',
+                    unitRpKwh: 'Rp./kWh',
+                    unit_month: 'Monat',
+                    vatLiabilityQuestion: 'Sind Sie selber MWST-pflichtig?',
+                    yes: 'Ja',
+                    no: 'Nein',
+                    vatNoteYes: 'Hinweis: Erfassen Sie diese Tarife (exkl. MWST) in der Software und definieren Sie im System den MWST-Satz (z.B. 8.1%).',
+                    vatNoteNo: 'Hinweis: Erfassen Sie diese Tarife (inkl. MWST) in der Software, stellen Sie die Steuer auf 0% und aktivieren Sie den Schalter "MWST im Preis bereits inbegriffen".',
+                    restoreFieldsBtn: 'Gelöschte Felder wiederherstellen'
+                },
+                fr: {
+                    pageTitle: "Calculateur de tarifs d'électricité et solaires",
+                    headerTitle: "Calculateur de tarifs d'électricité et solaires",
+                    headerSubtitle: "Saisissez les valeurs de votre facture d'électricité pour calculer vos tarifs.",
+                    inputSectionTitle: "Valeurs d'entrée (hors TVA)",
+                    tariffTypeLabel: 'Type de tarif',
+                    singleTariffLabel: 'Tarif unique',
+                    doubleTariffLabel: 'Double tarif (HP/BP)',
+                    measurementTitle: '3. Frais de comptage',
+                    measurementFeeLabel: 'Comptage (CHF/mois)',
+                    generalSettingsTitle: '5. Général',
+                    municipalTaxSectionTitle: 'Taxe communale',
+                    vatLabel: 'Taxe sur la valeur ajoutée (%)',
+                    municipalTaxCalcLabel: 'Calcul de la taxe communale',
+                    fixedAmountLabel: 'Montant fixe (ct./kWh)',
+                    percentageLabel: 'Pourcentage (%)',
+                    municipalTaxAmountLabel: 'Taxe communale (ct./kWh)',
+                    municipalTaxPercentageLabel: 'Taxe communale (%)',
+                    applyMunicipalTaxToLabel: 'Appliquer la taxe communale à :',
+                    municipalTaxApplicationNotice: 'La taxe communale ne s\'applique pas toujours à tous les composants de l\'utilisation du réseau. Vérifiez sur la feuille de tarifs du fournisseur d\'énergie à quels composants la taxe proportionnelle s\'applique.',
+                    applyToBasicTariff: 'Tarif de base',
+                    applyToPowerTariff: 'Tarif de puissance',
+                    applyToGridSingleTariff: 'Tarif unique réseau',
+                    applyToSdl: 'Services système Swissgrid',
+                    applyToWinterReserve: 'Réserve d\'électricité',
+                    applyToSolidarized: 'Coûts solidarisés',
+                    applyToCustomGrid: 'Composants suppl. (Réseau)',
+                    solarZevSettingsTitle: '6. Paramètres Solaires / RCP',
+                    solarOptionVariable: 'Rabais variable',
+                    solarOption80Rule: 'Appliquer la règle des 80%',
+                    solarOptionElcom: 'Prix Elcom',
+                    elcomInstruction: "Sélectionnez le lieu, catégorie H4, ajoutez la TVA au prix affiché * 80% = référence de prix solaire. <a href='https://www.strompreis.elcom.admin.ch/' target='_blank' class='font-semibold text-blue-600 hover:underline'>Vers le site de l'Elcom</a>",
+                    elcomPriceLabel: "Prix Elcom (ct./kWh, hors TVA)",
+                    solarKwhDiscountLabel: "Remise sur les prix de l'énergie (%)",
+                    solarKwhDiscountTooltip: "Remise en pourcentage sur le prix du kWh de l'électricité solaire par rapport à l'électricité du réseau. Une remise de 20% signifie que le prix est de 80% du prix du réseau.",
+                    solarBasicFeeDiscountLabel: 'Remise sur le tarif de base (%)',
+                    solarBasicFeeDiscountTooltip: "Remise en pourcentage sur le tarif de base mensuel pour le tarif solaire. Une remise de 20% signifie que 80% du tarif de base du réseau est facturé.",
+                    energyConsumptionTitle: "1. Fourniture d'énergie",
+                    energySingleTariffLabel: 'Tarif unique (ct./kWh)',
+                    energyHighTariffLabel: 'Haut tarif (HP) (ct./kWh)',
+                    energyLowTariffLabel: 'Bas tarif (BP) (ct./kWh)',
+                    publicLeviesTitle: '4. Taxes publiques',
+                    renewableEnergySurchargeLabel: 'Supplément réseau (ct./kWh)',
+                    addCustomSurcharge: '+ Ajouter une autre taxe',
+                    addCustomGrid: '+ Ajouter un autre composant',
+                    customNamePlaceholder: 'Désignation',
+                    gridUsageTitle: '2. Utilisation du réseau',
+                    gridBasicTariffLabel: 'Tarif de base (CHF/mois)',
+                    gridPowerTariffLabel: 'Tarif de puissance (CHF/kW)',
+                    gridSingleTariffLabel: 'Tarif unique réseau (ct./kWh)',
+                    gridHighTariffLabel: 'Tarif unique réseau HP (ct./kWh)',
+                    gridLowTariffLabel: 'Tarif unique réseau BP (ct./kWh)',
+                    sdlLabel: 'Services système Swissgrid (ct./kWh)',
+                    winterReserveLabel: 'Réserve d\'électricité (ct./kWh)',
+                    solidarizedCostsLabel: 'Coûts solidarisés (ct./kWh)',
+                    calculateButton: 'Calculer les tarifs',
+                    resultsSectionTitle: 'Tarifs calculés (pour la saisie dans le logiciel)',
+                    virtualTariffsGrid: 'Tarifs virtuels réseau',
+                    gridTariffSingle: 'Tarif réseau',
+                    gridTariffHt: 'Tarif réseau HP',
+                    gridTariffNt: 'Tarif réseau BP',
+                    virtualTariffsSolar: 'Tarifs virtuels solaires',
+                    solarTariffSingle: 'Tarif solaire',
+                    solarTariffHt: 'Tarif solaire HP',
+                    solarTariffNt: 'Tarif solaire BP',
+                    powerTariffsTitle: 'Tarifs de puissance',
+                    powerTariffLabel: 'Tarif de puissance',
+                    otherTariffsTitle: 'Divers',
+                    solarBasicFeeLabel: 'Taxe de base',
+                    exclVat: 'hors TVA :',
+                    inclVat: 'TVA incl. :',
+                    unitRpKwh: 'ct./kWh',
+                    unit_month: 'mois',
+                    vatLiabilityQuestion: 'Êtes-vous vous-même assujetti à la TVA ?',
+                    yes: 'Oui',
+                    no: 'Non',
+                    vatNoteYes: 'Remarque : Saisissez ces tarifs (hors TVA) dans le logiciel et définissez le taux de TVA dans le système (par ex. 8.1%).',
+                    vatNoteNo: 'Remarque : Saisissez ces tarifs (TVA incl.) dans le logiciel, réglez la taxe sur 0% et activez l\'interrupteur "TVA déjà incluse dans le prix".',
+                    restoreFieldsBtn: 'Restaurer les champs supprimés'
+                },
+                it: {
+                    pageTitle: 'Calcolatore tariffe elettriche e solari',
+                    headerTitle: 'Calcolatore tariffe elettriche e solari',
+                    headerSubtitle: 'Inserisci i valori della tua bolletta elettrica per calcolare le tue tariffe.',
+                    inputSectionTitle: 'Valori di input (IVA esclusa)',
+                    tariffTypeLabel: 'Tipo di tariffa',
+                    singleTariffLabel: 'Tariffa unica',
+                    doubleTariffLabel: 'Doppia tariffa (AP/BP)',
+                    measurementTitle: '3. Costi di misurazione',
+                    measurementFeeLabel: 'Misurazione (CHF/mese)',
+                    generalSettingsTitle: '5. Generale',
+                    municipalTaxSectionTitle: 'Tassa comunale',
+                    vatLabel: "Imposta sul valore aggiunto (%)",
+                    municipalTaxCalcLabel: 'Calcolo tassa comunale',
+                    fixedAmountLabel: 'Importo fisso (ct./kWh)',
+                    percentageLabel: 'Percentuale (%)',
+                    municipalTaxAmountLabel: 'Tassa comunale (ct./kWh)',
+                    municipalTaxPercentageLabel: 'Tassa comunale (%)',
+                    applyMunicipalTaxToLabel: 'Applica tassa comunale a:',
+                    municipalTaxApplicationNotice: 'La tassa comunale non viene sempre applicata a tutti i componenti di utilizzo della rete. Verificare sul foglio tariffario del fornitore di energia a quali componenti si applica la tassa percentuale.',
+                    applyToBasicTariff: 'Tariffa di base',
+                    applyToPowerTariff: 'Tariffa di potenza',
+                    applyToGridSingleTariff: 'Tariffa unica rete',
+                    applyToSdl: 'Servizi di sistema Swissgrid',
+                    applyToWinterReserve: 'Riserva di energia',
+                    applyToSolidarized: 'Costi solidarizzati',
+                    applyToCustomGrid: 'Componenti agg. (Rete)',
+                    solarZevSettingsTitle: '6. Impostazioni Solare / RCP',
+                    solarOptionVariable: 'Sconto variabile',
+                    solarOption80Rule: 'Applica la regola dell\'80%',
+                    solarOptionElcom: 'Prezzo Elcom',
+                    elcomInstruction: "Scegliere la località, categoria H4, aggiungere l'IVA al prezzo visualizzato * 80% = riferimento prezzo solare. <a href='https://www.strompreis.elcom.admin.ch/' target='_blank' class='font-semibold text-blue-600 hover:underline'>Al sito Elcom</a>",
+                    elcomPriceLabel: "Prezzo Elcom (ct./kWh, IVA escl.)",
+                    solarKwhDiscountLabel: "Sconto sui prezzi dell'energia (%)",
+                    solarKwhDiscountTooltip: "Sconto percentuale sul prezzo per kWh dell'elettricità solare rispetto all'elettricità di rete. Uno sconto del 20% significa che il prezzo è l'80% del prezzo di rete.",
+                    solarBasicFeeDiscountLabel: 'Sconto sulla tariffa di base (%)',
+                    solarBasicFeeDiscountTooltip: "Sconto percentuale sulla tariffa di base mensile per la tariffa solare. Uno sconto del 20% significa che viene addebitato l'80% della tariffa di base di rete.",
+                    energyConsumptionTitle: '1. Fornitura di energia',
+                    energySingleTariffLabel: 'Tariffa unica (ct./kWh)',
+                    energyHighTariffLabel: 'Alta tariffa (AP) (ct./kWh)',
+                    energyLowTariffLabel: 'Bassa tariffa (BP) (ct./kWh)',
+                    publicLeviesTitle: '4. Oneri pubblici',
+                    renewableEnergySurchargeLabel: 'Supplemento rete (ct./kWh)',
+                    addCustomSurcharge: '+ Aggiungi un\'altra tassa',
+                    addCustomGrid: '+ Aggiungi un altro componente',
+                    customNamePlaceholder: 'Denominazione',
+                    gridUsageTitle: '2. Utilizzo della rete',
+                    gridBasicTariffLabel: 'Tariffa di base (CHF/mese)',
+                    gridPowerTariffLabel: 'Tariffa di potenza (CHF/kW)',
+                    gridSingleTariffLabel: 'Tariffa unica rete (ct./kWh)',
+                    gridHighTariffLabel: 'Tariffa unica rete AP (ct./kWh)',
+                    gridLowTariffLabel: 'Tariffa unica rete BP (ct./kWh)',
+                    sdlLabel: 'Servizi di sistema Swissgrid (ct./kWh)',
+                    winterReserveLabel: 'Riserva di energia (ct./kWh)',
+                    solidarizedCostsLabel: 'Costi solidarizzati (ct./kWh)',
+                    calculateButton: 'Calcola tariffe',
+                    resultsSectionTitle: 'Tariffe calcolate (per inserimento nel software)',
+                    virtualTariffsGrid: 'Tariffe virtuali rete',
+                    gridTariffSingle: 'Tariffa di rete',
+                    gridTariffHt: 'Tariffa di rete AP',
+                    gridTariffNt: 'Tariffa di rete BP',
+                    virtualTariffsSolar: 'Tariffe virtuali solari',
+                    solarTariffSingle: 'Tariffa solare',
+                    solarTariffHt: 'Tariffa solare AP',
+                    solarTariffNt: 'Tariffa solare BP',
+                    powerTariffsTitle: 'Tariffe di potenza',
+                    powerTariffLabel: 'Tariffa di potenza',
+                    otherTariffsTitle: 'Altro',
+                    solarBasicFeeLabel: 'Tassa di base',
+                    exclVat: 'IVA escl.:',
+                    inclVat: 'IVA incl.:',
+                    unitRpKwh: 'ct./kWh',
+                    unit_month: 'mese',
+                    vatLiabilityQuestion: 'Siete soggetti all\'IVA?',
+                    yes: 'Sì',
+                    no: 'No',
+                    vatNoteYes: 'Nota: Inserisci queste tariffe (IVA escl.) nel software e definisci l\'aliquota IVA nel sistema (es. 8.1%).',
+                    vatNoteNo: 'Nota: Inserisci queste tariffe (IVA incl.) nel software, imposta la tassa allo 0% e attiva l\'interruttore "IVA già inclusa nel prezzo".',
+                    restoreFieldsBtn: 'Ripristina campi eliminati'
+                },
+                en: {
+                    pageTitle: 'Electricity and Solar Tariff Calculator',
+                    headerTitle: 'Electricity and Solar Tariff Calculator',
+                    headerSubtitle: 'Enter the values from your electricity bill to calculate your tariffs.',
+                    inputSectionTitle: 'Input Values (excl. VAT)',
+                    tariffTypeLabel: 'Tariff Type',
+                    singleTariffLabel: 'Single Tariff',
+                    doubleTariffLabel: 'Double Tariff (HT/LT)',
+                    measurementTitle: '3. Measurement Fee',
+                    measurementFeeLabel: 'Measurement (CHF/month)',
+                    generalSettingsTitle: '5. General',
+                    municipalTaxSectionTitle: 'Municipal Tax',
+                    vatLabel: 'Value Added Tax (%)',
+                    municipalTaxCalcLabel: 'Municipal Tax Calculation',
+                    fixedAmountLabel: 'Fixed Amount (rp./kWh)',
+                    percentageLabel: 'Percentage (%)',
+                    municipalTaxAmountLabel: 'Municipal Tax (rp./kWh)',
+                    municipalTaxPercentageLabel: 'Municipal Tax (%)',
+                    applyMunicipalTaxToLabel: 'Apply municipal tax to:',
+                    municipalTaxApplicationNotice: 'The municipal tax is not always applied to all grid usage components. Check the energy supplier\'s tariff sheet to see which components the percentage tax applies to.',
+                    applyToBasicTariff: 'Basic Tariff',
+                    applyToPowerTariff: 'Power Tariff',
+                    applyToGridSingleTariff: 'Grid Single Tariff',
+                    applyToSdl: 'Swissgrid System Services',
+                    applyToWinterReserve: 'Electricity Reserve',
+                    applyToSolidarized: 'Solidarized Costs',
+                    applyToCustomGrid: 'Additional Components (Grid)',
+                    solarZevSettingsTitle: '6. Solar / ZEV Settings',
+                    solarOptionVariable: 'Variable Discount',
+                    solarOption80Rule: 'Apply 80% Rule',
+                    solarOptionElcom: 'Elcom Price',
+                    elcomInstruction: "Select location, category H4, add VAT to the displayed price * 80% = solar price reference. <a href='https://www.strompreis.elcom.admin.ch/' target='_blank' class='font-semibold text-blue-600 hover:underline'>To the Elcom site</a>",
+                    elcomPriceLabel: "Elcom Price (rp./kWh, excl. VAT)",
+                    solarKwhDiscountLabel: 'Discount on energy prices (%)',
+                    solarKwhDiscountTooltip: 'Percentage discount on the kWh price of solar power compared to grid power. A 20% discount means the price is 80% of the grid price.',
+                    solarBasicFeeDiscountLabel: 'Discount on basic fee (%)',
+                    solarBasicFeeDiscountTooltip: 'Percentage discount on the monthly basic fee for the solar tariff. A 20% discount means 80% of the grid basic fee is charged.',
+                    energyConsumptionTitle: '1. Energy Delivery',
+                    energySingleTariffLabel: 'Single Tariff (rp./kWh)',
+                    energyHighTariffLabel: 'High Tariff (HT) (rp./kWh)',
+                    energyLowTariffLabel: 'Low Tariff (LT) (rp./kWh)',
+                    publicLeviesTitle: '4. Public Levies',
+                    renewableEnergySurchargeLabel: 'Grid Surcharge (rp./kWh)',
+                    addCustomSurcharge: '+ Add another levy',
+                    addCustomGrid: '+ Add another component',
+                    customNamePlaceholder: 'Description',
+                    gridUsageTitle: '2. Grid Usage',
+                    gridBasicTariffLabel: 'Basic Fee (CHF/month)',
+                    gridPowerTariffLabel: 'Power Tariff (CHF/kW)',
+                    gridSingleTariffLabel: 'Grid Single Tariff (rp./kWh)',
+                    gridHighTariffLabel: 'Grid Single Tariff HT (rp./kWh)',
+                    gridLowTariffLabel: 'Grid Single Tariff LT (rp./kWh)',
+                    sdlLabel: 'Swissgrid System Services (rp./kWh)',
+                    winterReserveLabel: 'Electricity Reserve (rp./kWh)',
+                    solidarizedCostsLabel: 'Solidarized Costs (rp./kWh)',
+                    calculateButton: 'Calculate Tariffs',
+                    resultsSectionTitle: 'Calculated Tariffs (for Entry in Software)',
+                    virtualTariffsGrid: 'Virtual Tariffs Grid',
+                    gridTariffSingle: 'Grid Tariff',
+                    gridTariffHt: 'Grid Tariff HT',
+                    gridTariffNt: 'Grid Tariff LT',
+                    virtualTariffsSolar: 'Virtual Tariffs Solar',
+                    solarTariffSingle: 'Solar Tariff',
+                    solarTariffHt: 'Solar Tariff HT',
+                    solarTariffNt: 'Solar Tariff LT',
+                    powerTariffsTitle: 'Power Tariffs',
+                    powerTariffLabel: 'Power Tariff',
+                    otherTariffsTitle: 'Other',
+                    solarBasicFeeLabel: 'Basic Fee',
+                    exclVat: 'excl. VAT:',
+                    inclVat: 'incl. VAT:',
+                    unitRpKwh: 'rp./kWh',
+                    unit_month: 'month',
+                    vatLiabilityQuestion: 'Are you VAT registered?',
+                    yes: 'Yes',
+                    no: 'No',
+                    vatNoteYes: 'Note: Enter these tariffs (excl. VAT) in the software and define the VAT rate in the system (e.g. 8.1%).',
+                    vatNoteNo: 'Note: Enter these tariffs (incl. VAT) in the software, set the tax to 0% and activate the switch "VAT already included in price".',
+                    restoreFieldsBtn: 'Restore deleted fields'
+                }
+            };
+
+            let currentLang = 'de';
+
+            const setLanguage = (lang) => {
+                currentLang = lang;
+                document.documentElement.lang = lang;
+                document.querySelectorAll('[data-translate-key]').forEach(el => {
+                    const key = el.dataset.translateKey;
+                    const translation = translations[lang][key];
+                    if (translation) {
+                        if (el.classList.contains('tooltip-text')) {
+                             el.textContent = translation;
+                        } else if (key === 'elcomInstruction') {
+                             el.innerHTML = translation; 
+                        } else {
+                            const textNode = Array.from(el.childNodes).find(node => node.nodeType === Node.TEXT_NODE && node.textContent.trim().length > 0);
+                            if(textNode) {
+                                textNode.textContent = translation;
+                            } else {
+                                el.textContent = translation;
+                            }
+                        }
+                    }
+                });
+                
+                document.querySelectorAll('[data-translate-placeholder]').forEach(el => {
+                    const key = el.dataset.translatePlaceholder;
+                    const translation = translations[lang][key];
+                    if(translation) {
+                        el.placeholder = translation;
+                    }
+                });
+
+                 document.querySelectorAll('#language-switcher .lang-btn').forEach(btn => {
+                    btn.classList.toggle('active', btn.dataset.lang === lang);
+                });
+
+                if (!resultsDiv.classList.contains('hidden')) {
+                    calculateBtn.click();
+                }
+            };
+
+            document.getElementById('language-switcher').addEventListener('click', (e) => {
+                if (e.target.matches('.lang-btn')) {
+                    setLanguage(e.target.dataset.lang);
+                }
+            });
+
+            const calculateBtn = document.getElementById('calculateBtn');
+            const resultsDiv = document.getElementById('results');
+            
+            const tarifArtRadios = document.querySelectorAll('input[name="tarif_art"]');
+            const einheitstarifEnergieInputs = document.getElementById('einheitstarif_energie_inputs');
+            const doppeltarifEnergieInputs = document.getElementById('doppeltarif_energie_inputs');
+            const einheitstarifNetzInputs = document.getElementById('einheitstarif_netz_inputs');
+            const doppeltarifNetzInputs = document.getElementById('doppeltarif_netz_inputs');
+            
+            const netzResultEinheit = document.getElementById('netz_result_einheit_new');
+            const netzResultDoppel = document.getElementById('netz_result_doppel_new');
+            const solarResultEinheit = document.getElementById('solar_result_einheit_new');
+            const solarResultDoppel = document.getElementById('solar_result_doppel_new');
+
+            const gemeindeabgabeTypeRadios = document.querySelectorAll('input[name="gemeindeabgabe_typ"]');
+            const rappenInputDiv = document.getElementById('gemeindeabgabe_rappen_input_div');
+            const prozentInputDiv = document.getElementById('gemeindeabgabe_prozent_input_div');
+            const komponentenDiv = document.getElementById('gemeindeabgabe_komponenten_div');
+            
+            const vatLiabilityRadios = document.querySelectorAll('input[name="vat_liability"]');
+            
+            const solarOptionRadios = document.querySelectorAll('input[name="solar_option"]');
+            const solarVariableInputs = document.getElementById('solar_variable_inputs');
+            const solarElcomInfo = document.getElementById('solar_elcom_info');
+            const solarResultsContainer = document.getElementById('solar_results_container_new');
+            const sonstigesSection = document.getElementById('sonstiges_section');
+            const elcomPriceInput = document.getElementById('elcom_price_input');
+
+            function addCustomField(containerId) {
+                const container = document.getElementById(containerId);
+                const row = document.createElement('div');
+                row.className = 'flex items-center gap-2 mt-2';
+                
+                const placeholder = translations[currentLang].customNamePlaceholder || 'Bezeichnung';
+                const unit = translations[currentLang].unitRpKwh || 'Rp./kWh';
+                
+                row.innerHTML = `
+                    <input type="text" data-translate-placeholder="customNamePlaceholder" placeholder="${placeholder}" class="input-field flex-grow py-1.5" style="width: auto;">
+                    <input type="number" step="0.1" value="0.0" class="input-field w-24 custom-val text-right py-1.5">
+                    <span class="text-sm text-gray-600 whitespace-nowrap w-16" data-translate-key="unitRpKwh">${unit}</span>
+                    <button type="button" class="text-red-500 hover:text-red-700 p-1" title="Entfernen" onclick="this.parentElement.remove()">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M9 2a1 1 0 00-.894.553L7.382 4H4a1 1 0 000 2v10a2 2 0 002 2h8a2 2 0 002-2V6a1 1 0 100-2h-3.382l-.724-1.447A1 1 0 0011 2H9zM7 8a1 1 0 012 0v6a1 1 0 11-2 0V8zm5-1a1 1 0 00-1 1v6a1 1 0 102 0V8a1 1 0 00-1-1z" clip-rule="evenodd" />
+                        </svg>
+                    </button>
+                `;
+                container.appendChild(row);
+            }
+
+            document.getElementById('add_custom_abgabe_btn').addEventListener('click', () => addCustomField('custom_abgaben_container'));
+            document.getElementById('add_custom_netz_btn').addEventListener('click', () => addCustomField('custom_netz_container'));
+
+            function toggleTariffView() {
+                const selectedTarif = document.querySelector('input[name="tarif_art"]:checked').value;
+                const isEinheit = selectedTarif === 'einheit';
+                einheitstarifEnergieInputs.classList.toggle('hidden', !isEinheit);
+                doppeltarifEnergieInputs.classList.toggle('hidden', isEinheit);
+                einheitstarifNetzInputs.classList.toggle('hidden', !isEinheit);
+                doppeltarifNetzInputs.classList.toggle('hidden', isEinheit);
+                netzResultEinheit.classList.toggle('hidden', !isEinheit);
+                netzResultDoppel.classList.toggle('hidden', isEinheit);
+                solarResultEinheit.classList.toggle('hidden', !isEinheit);
+                solarResultDoppel.classList.toggle('hidden', isEinheit);
+            }
+
+            function toggleGemeindeabgabeView() {
+                 const selectedType = document.querySelector('input[name="gemeindeabgabe_typ"]:checked').value;
+                 const isRappen = selectedType === 'rappen';
+                 rappenInputDiv.classList.toggle('hidden', !isRappen);
+                 prozentInputDiv.classList.toggle('hidden', isRappen);
+                 komponentenDiv.classList.toggle('hidden', isRappen);
+            }
+
+            function toggleSolarOptionView() {
+                const selectedOption = document.querySelector('input[name="solar_option"]:checked').value;
+                solarVariableInputs.classList.toggle('hidden', selectedOption !== 'variable');
+                solarElcomInfo.classList.toggle('hidden', selectedOption !== 'elcom');
+            }
+            
+            tarifArtRadios.forEach(radio => radio.addEventListener('change', toggleTariffView));
+            gemeindeabgabeTypeRadios.forEach(radio => radio.addEventListener('change', toggleGemeindeabgabeView));
+            solarOptionRadios.forEach(radio => radio.addEventListener('change', toggleSolarOptionView));
+            
+            vatLiabilityRadios.forEach(radio => radio.addEventListener('change', () => {
+                if (!resultsDiv.classList.contains('hidden')) {
+                    calculateBtn.click();
+                }
+            }));
+
+            calculateBtn.addEventListener('click', function () {
+                const solarOption = document.querySelector('input[name="solar_option"]:checked').value;
+                const elcomPriceExclVat = (parseFloat(elcomPriceInput.value) || 0) / 100;
+                
+                let customAbgabenSum = 0;
+                document.querySelectorAll('#custom_abgaben_container .custom-val').forEach(input => {
+                    customAbgabenSum += (parseFloat(input.value) || 0) / 100;
+                });
+
+                let customNetzSum = 0;
+                document.querySelectorAll('#custom_netz_container .custom-val').forEach(input => {
+                    customNetzSum += (parseFloat(input.value) || 0) / 100;
+                });
+
+                let inputs = {
+                    tarifArt: document.querySelector('input[name="tarif_art"]:checked').value,
+                    mwst: parseFloat(document.getElementById('mwst').value) || 0,
+                    gemeindeabgabeTyp: document.querySelector('input[name="gemeindeabgabe_typ"]:checked').value,
+                    gemeindeabgabeRappen: (parseFloat(document.getElementById('gemeindeabgabe_rappen').value) || 0) / 100,
+                    gemeindeabgabeProzent: parseFloat(document.getElementById('gemeindeabgabe_prozent').value) || 0,
+                    energieEinheitstarif: (parseFloat(document.getElementById('energie_einheitstarif').value) || 0) / 100,
+                    netzEinheitstarif: (parseFloat(document.getElementById('netz_einheitstarif').value) || 0) / 100,
+                    energieHochtarif: (parseFloat(document.getElementById('energie_hochtarif').value) || 0) / 100,
+                    energieNiedertarif: (parseFloat(document.getElementById('energie_niedertarif').value) || 0) / 100,
+                    netzHochtarif: (parseFloat(document.getElementById('netz_hochtarif').value) || 0) / 100,
+                    netzNiedertarif: (parseFloat(document.getElementById('netz_niedertarif').value) || 0) / 100,
+                    netzGrundtarif: parseFloat(document.getElementById('netz_grundtarif').value) || 0,
+                    messungGrundtarif: parseFloat(document.getElementById('messung_grundtarif').value) || 0,
+                    netzLeistungstarif: parseFloat(document.getElementById('netz_leistungstarif').value) || 0,
+                    netzSdl: (parseFloat(document.getElementById('netz_sdl').value) || 0) / 100,
+                    netzWinterreserve: (parseFloat(document.getElementById('netz_winterreserve').value) || 0) / 100,
+                    netzSolidarisiert: (parseFloat(document.getElementById('netz_solidarisiert').value) || 0) / 100,
+                    abgabenFoerderung: (parseFloat(document.getElementById('abgaben_foerderung').value) || 0) / 100,
+                    solarKwhRabatt: 0,
+                    solarGrundgebuehrRabatt: 0,
+                    applyAbgabeGrundtarif: document.getElementById('netz_grundtarif_abgabe_check').checked,
+                    applyAbgabeLeistungstarif: document.getElementById('netz_leistungstarif_abgabe_check').checked,
+                    applyAbgabeEinheitstarif: document.getElementById('netz_einheitstarif_abgabe_check').checked,
+                    applyAbgabeSdl: document.getElementById('netz_sdl_abgabe_check').checked,
+                    applyAbgabeWinterreserve: document.getElementById('netz_winterreserve_abgabe_check').checked,
+                    applyAbgabeSolidarisiert: document.getElementById('netz_solidarisiert_abgabe_check').checked,
+                    applyAbgabeCustomGrid: document.getElementById('netz_custom_abgabe_check').checked
+                };
+
+                const mwstMultiplier = 1 + (inputs.mwst / 100);
+
+                if (solarOption === 'variable') {
+                    inputs.solarKwhRabatt = parseFloat(document.getElementById('solar_kwh_rabatt').value) || 0;
+                    inputs.solarGrundgebuehrRabatt = parseFloat(document.getElementById('solar_grundgebuehr_rabatt').value) || 0;
+                } else if (solarOption === '80_rule') {
+                    inputs.solarKwhRabatt = 20;
+                    inputs.solarGrundgebuehrRabatt = 20;
+                }
+                
+                solarResultsContainer.classList.toggle('hidden', solarOption === 'elcom' && elcomPriceExclVat === 0);
+                sonstigesSection.classList.toggle('hidden', solarOption === 'elcom');
+
+
+                const gemeindeabgabeProzentMultiplier = 1 + (inputs.gemeindeabgabeProzent / 100);
+
+                let netzGrundtarifExkl = inputs.netzGrundtarif + inputs.messungGrundtarif;
+                let netzLeistungstarifExkl = inputs.netzLeistungstarif;
+                let netzSdlExkl = inputs.netzSdl;
+                let netzWinterreserveExkl = inputs.netzWinterreserve;
+                let netzSolidarisiertExkl = inputs.netzSolidarisiert;
+
+                if (inputs.gemeindeabgabeTyp === 'prozent') {
+                    if (inputs.applyAbgabeGrundtarif) netzGrundtarifExkl *= gemeindeabgabeProzentMultiplier;
+                    if (inputs.applyAbgabeLeistungstarif) netzLeistungstarifExkl *= gemeindeabgabeProzentMultiplier;
+                    if (inputs.applyAbgabeSdl) netzSdlExkl *= gemeindeabgabeProzentMultiplier;
+                    if (inputs.applyAbgabeWinterreserve) netzWinterreserveExkl *= gemeindeabgabeProzentMultiplier;
+                    if (inputs.applyAbgabeSolidarisiert) netzSolidarisiertExkl *= gemeindeabgabeProzentMultiplier;
+                    if (inputs.applyAbgabeCustomGrid) customNetzSum *= gemeindeabgabeProzentMultiplier;
+                }
+                
+                const calculateKwhPrice = (energieTarif, netzTarif) => {
+                    let finalNetzTarif = netzTarif;
+                    if (inputs.gemeindeabgabeTyp === 'prozent' && inputs.applyAbgabeEinheitstarif) {
+                        finalNetzTarif *= gemeindeabgabeProzentMultiplier;
+                    }
+                    
+                    let preis = energieTarif + finalNetzTarif + netzSdlExkl + netzWinterreserveExkl + netzSolidarisiertExkl + inputs.abgabenFoerderung + customAbgabenSum + customNetzSum;
+                    
+                    if (inputs.gemeindeabgabeTyp === 'rappen') {
+                        preis += inputs.gemeindeabgabeRappen;
+                    }
+                    return preis;
+                };
+                
+                const formatCHF = (value, digits = 5) => `CHF ${value.toFixed(digits)}`;
+                const formatMonthly = (value) => `CHF ${value.toFixed(2)} / ${translations[currentLang].unit_month}`;
+                const formatPower = (value) => `CHF ${value.toFixed(2)} / kW`;
+
+                document.getElementById('netz_leistung_exkl').textContent = formatPower(netzLeistungstarifExkl);
+                document.getElementById('netz_leistung_inkl').textContent = formatPower(netzLeistungstarifExkl * mwstMultiplier);
+
+                document.getElementById('leistungstarif_section').classList.toggle('hidden', netzLeistungstarifExkl === 0);
+
+                if (solarOption === 'elcom') {
+                    // Die monatlichen Grundkosten werden beim Elcom Preis komplett ignoriert
+                    
+                    // Netzpreis Berechnung (ohne Grundkosten-Aufschlag)
+                    if (inputs.tarifArt === 'einheit') {
+                        const netzPreisKwhExkl = calculateKwhPrice(inputs.energieEinheitstarif, inputs.netzEinheitstarif);
+
+                        document.getElementById('netz_kwh_exkl').textContent = formatCHF(netzPreisKwhExkl);
+                        document.getElementById('netz_kwh_inkl').textContent = formatCHF(netzPreisKwhExkl * mwstMultiplier);
+                        
+                        document.getElementById('netz_result_einheit_new').classList.toggle('hidden', netzPreisKwhExkl === 0);
+                    } else {
+                        const netzPreisKwhExkl_ht = calculateKwhPrice(inputs.energieHochtarif, inputs.netzHochtarif);
+                        const netzPreisKwhExkl_nt = calculateKwhPrice(inputs.energieNiedertarif, inputs.netzNiedertarif);
+                        
+                        document.getElementById('netz_kwh_exkl_ht').textContent = formatCHF(netzPreisKwhExkl_ht);
+                        document.getElementById('netz_kwh_inkl_ht').textContent = formatCHF(netzPreisKwhExkl_ht * mwstMultiplier);
+                        document.getElementById('netz_kwh_exkl_nt').textContent = formatCHF(netzPreisKwhExkl_nt);
+                        document.getElementById('netz_kwh_inkl_nt').textContent = formatCHF(netzPreisKwhExkl_nt * mwstMultiplier);
+                        
+                        document.getElementById('result_row_netz_ht').classList.toggle('hidden', netzPreisKwhExkl_ht === 0);
+                        document.getElementById('result_row_netz_nt').classList.toggle('hidden', netzPreisKwhExkl_nt === 0);
+                    }
+
+                    // Solarpreis Berechnung basierend auf Elcom
+                    if (elcomPriceExclVat > 0) {
+                        const finalSolarPriceExcl = elcomPriceExclVat * 0.80;
+                        const finalSolarPriceInclVat = finalSolarPriceExcl * mwstMultiplier;
+                        
+                        document.getElementById('solar_kwh_exkl').textContent = formatCHF(finalSolarPriceExcl);
+                        document.getElementById('solar_kwh_inkl').textContent = formatCHF(finalSolarPriceInclVat);
+                        document.getElementById('solar_kwh_exkl_ht').textContent = formatCHF(finalSolarPriceExcl);
+                        document.getElementById('solar_kwh_inkl_ht').textContent = formatCHF(finalSolarPriceInclVat);
+                        document.getElementById('solar_kwh_exkl_nt').textContent = formatCHF(finalSolarPriceExcl);
+                        document.getElementById('solar_kwh_inkl_nt').textContent = formatCHF(finalSolarPriceInclVat);
+                        
+                        document.getElementById('solar_result_einheit_new').classList.toggle('hidden', finalSolarPriceExcl === 0);
+                        document.getElementById('result_row_solar_ht').classList.toggle('hidden', finalSolarPriceExcl === 0);
+                        document.getElementById('result_row_solar_nt').classList.toggle('hidden', finalSolarPriceExcl === 0);
+                    } else {
+                        document.getElementById('solar_result_einheit_new').classList.add('hidden');
+                        document.getElementById('result_row_solar_ht').classList.add('hidden');
+                        document.getElementById('result_row_solar_nt').classList.add('hidden');
+                    }
+                    
+                } else {
+                    const solarKwhRabattMultiplier = 1 - (inputs.solarKwhRabatt / 100);
+                    const solarGrundgebuehrRabattMultiplier = 1 - (inputs.solarGrundgebuehrRabatt / 100);
+                    const solarGrundgebuehrExkl = netzGrundtarifExkl * solarGrundgebuehrRabattMultiplier;
+                    const solarGrundgebuehrInkl = solarGrundgebuehrExkl * mwstMultiplier;
+                    
+                    document.getElementById('solar_grund_exkl').textContent = formatMonthly(solarGrundgebuehrExkl);
+                    document.getElementById('solar_grund_inkl').textContent = formatMonthly(solarGrundgebuehrInkl);
+
+                    sonstigesSection.classList.toggle('hidden', solarGrundgebuehrExkl === 0);
+
+                    if (inputs.tarifArt === 'einheit') {
+                        const netzPreisKwhExkl = calculateKwhPrice(inputs.energieEinheitstarif, inputs.netzEinheitstarif);
+                        const solarPreisKwhExkl = netzPreisKwhExkl * solarKwhRabattMultiplier;
+
+                        document.getElementById('netz_kwh_exkl').textContent = formatCHF(netzPreisKwhExkl);
+                        document.getElementById('netz_kwh_inkl').textContent = formatCHF(netzPreisKwhExkl * mwstMultiplier);
+                        document.getElementById('solar_kwh_exkl').textContent = formatCHF(solarPreisKwhExkl);
+                        document.getElementById('solar_kwh_inkl').textContent = formatCHF(solarPreisKwhExkl * mwstMultiplier);
+                        
+                        document.getElementById('netz_result_einheit_new').classList.toggle('hidden', netzPreisKwhExkl === 0);
+                        document.getElementById('solar_result_einheit_new').classList.toggle('hidden', solarPreisKwhExkl === 0);
+                        
+                    } else { 
+                        const netzPreisKwhExkl_ht = calculateKwhPrice(inputs.energieHochtarif, inputs.netzHochtarif);
+                        const netzPreisKwhExkl_nt = calculateKwhPrice(inputs.energieNiedertarif, inputs.netzNiedertarif);
+                        const solarPreisKwhExkl_ht = netzPreisKwhExkl_ht * solarKwhRabattMultiplier;
+                        const solarPreisKwhExkl_nt = netzPreisKwhExkl_nt * solarKwhRabattMultiplier;
+                        
+                        document.getElementById('netz_kwh_exkl_ht').textContent = formatCHF(netzPreisKwhExkl_ht);
+                        document.getElementById('netz_kwh_inkl_ht').textContent = formatCHF(netzPreisKwhExkl_ht * mwstMultiplier);
+                        document.getElementById('netz_kwh_exkl_nt').textContent = formatCHF(netzPreisKwhExkl_nt);
+                        document.getElementById('netz_kwh_inkl_nt').textContent = formatCHF(netzPreisKwhExkl_nt * mwstMultiplier);
+                        
+                        document.getElementById('solar_kwh_exkl_ht').textContent = formatCHF(solarPreisKwhExkl_ht);
+                        document.getElementById('solar_kwh_inkl_ht').textContent = formatCHF(solarPreisKwhExkl_ht * mwstMultiplier);
+                        document.getElementById('solar_kwh_exkl_nt').textContent = formatCHF(solarPreisKwhExkl_nt);
+                        document.getElementById('solar_kwh_inkl_nt').textContent = formatCHF(solarPreisKwhExkl_nt * mwstMultiplier);
+                        
+                        document.getElementById('result_row_netz_ht').classList.toggle('hidden', netzPreisKwhExkl_ht === 0);
+                        document.getElementById('result_row_netz_nt').classList.toggle('hidden', netzPreisKwhExkl_nt === 0);
+                        document.getElementById('result_row_solar_ht').classList.toggle('hidden', solarPreisKwhExkl_ht === 0);
+                        document.getElementById('result_row_solar_nt').classList.toggle('hidden', solarPreisKwhExkl_nt === 0);
+                    }
+                }
+                
+                const isVatLiable = document.querySelector('input[name="vat_liability"]:checked').value === 'yes';
+                
+                document.getElementById('vat_note_yes').classList.toggle('hidden', !isVatLiable);
+                document.getElementById('vat_note_no').classList.toggle('hidden', isVatLiable);
+                
+                document.querySelectorAll('.row-excl').forEach(el => el.classList.toggle('hidden', !isVatLiable));
+                document.querySelectorAll('.row-incl').forEach(el => el.classList.toggle('hidden', isVatLiable));
+
+                resultsDiv.classList.remove('hidden');
+            });
+
+            setLanguage('de');
+            toggleTariffView();
+            toggleGemeindeabgabeView();
+            toggleSolarOptionView();
+        });
+    </script>
+
+</body>
+</html>

@@ -1,68 +1,70 @@
 ---
 title: '3-Phase Meter Telstar 80A'
 slug: '/produkte/telstar'
-description: 'The smart-me Telstar 80A is an MID-certified energy meter with integrated WiFi interface for the transmission of real-time data.'
+description: 'The smart-me Telstar 80A is a MID-certified energy meter with an integrated WiFi interface for transmitting real-time data.'
 sidebar_label: '3-Phase Meter Telstar 80A'
 ---
-The smart-me Telstar 80A is an MID-certified energy meter with integrated WiFi interface for the transmission of real-time data. The meter synchronises the measured values automatically and encrypted in the smart-me cloud. The smart-me portal can be used to further process the data. Alternatively, they can be exported and processed in third-party systems via our open interface. The meter has two digital outputs for controlling devices with a dry contact.
+The smart-me Telstar 80A is a MID-certified energy meter with an integrated WiFi interface for transmitting real-time data. The meter synchronizes the measured values automatically and encrypted to the smart-me Cloud. The data can be exported and further processed in the smart-me Portal or via our open interface into third-party systems. The meter has two digital outputs for controlling potential-free devices.
 
-![3-Phase Meter Telstar 80A – figure 1](/img/_en/products-3-phase-meter-telstar/01.jpg)
+![3-Phase Meter Telstar 80A – Figure 1](/img/produkte-telstar/01.jpg)
 
 ## Functions
 
-- [Commissioning](/konfiguration/inbetriebnahme) with the free smart-me app.
+- [Installation](/konfiguration/inbetriebnahme) with the free smart-me App.
 
-- Create bills with the [smart-me billing tool.](/konfiguration/billing)
+- Billing with the [smart-me Billing Tool](/konfiguration/billing)
 
 - Control with [if/then actions](/konfiguration/wenndann-aktionen) or [event actions](/konfiguration/wenndann-aktionen/ereignisaktionen)
 
-- [Visualizations](https://doc.smart-me.com/configuration/visualisations)
+- [Visualizations](/konfiguration/visualisierung)
 
-- [Dry contact outputs](/schnittstellen/ein_und_ausgaenge) for control of external devices, one of them with 8A relay
+- [Potential-free contact outputs](/schnittstellen/ein_und_ausgaenge) for controlling external devices, one of them with an 8A relay
 
-- Floating contact input for tariff signal or [digital input](/schnittstellen/ein_und_ausgaenge)
+- Potential-free contact input for tariff signal or [digital input](/schnittstellen/ein_und_ausgaenge)
 
 - [Interfaces](/) via API, CSV, MSCONS and IS-E
 
-- Encrypted real-time data connection to the smart-me cloud
+- Encrypted real-time data connection to the smart-me Cloud
 
 
-## Technical Data
+## Technical data
 
-<Video src="" title="Custom embed" />
+<Embed src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSQ2T_oNXpPR0sUnjcsWY-ymK0lgmZxopMCiyV0gQq9rV7fH5oJEYEVx0a4AUHNfunOHC5igswOLVyi/pubhtml?gid=0&range=A1:B27&single=true&widget=false&headers=false&chrome=false" aspect="1.192" title="3-Phase Meter Telstar 80A" />
 
 ## Display
 
-Value / Symbol Description
+Value / symbol description
 
 1.8.1 OBIS code for the displayed meter reading
 
 T1 Active tariff (tariff 1 or tariff 2)
 
-Arrow Direction of flow (right-hand reference / left-hand delivery)
+Arrow Current direction (right consumption / left delivery)
 
-Signal (Bars) WiFi Signal strength
+Reception (bars) WiFi signal strength
 
 0000053.2 Meter reading
 
-5520W Current measured power with unit
+5520W Currently measured power with unit
 
 kWh Unit of the displayed meter reading
 
-![3-Phase Meter Telstar 80A – figure 2](/img/_en/products-3-phase-meter-telstar/02.png)
+M Function no longer used (can be ignored)
 
-The meter has a rolling display. The items described below are displayed in sequence. fter the last point, the first point is displayed again.
+![3-Phase Meter Telstar 80A – Figure 2](/img/produkte-telstar/02.png)
+
+The meter has a rolling display. The items described below are shown one after the other. After the last item, the first item is shown again.
 
 Meter reading (OBIS code followed by meter reading)
 
-1.8.1 (A+) Active energy import tariff 1
-1.8.2 (A+) Active energy import tariff 2
+1.8.1 (A+) Active energy consumption tariff 1
+1.8.2 (A+) Active energy consumption tariff 2
 2.8.1 (A+) Active energy delivery tariff 1
 2.8.2 (A+) Active energy delivery tariff 2
-5.8.0 (Q1) Total inductive reactive energy consumption
-6.8.0 (Q2) Total capacitive reactive energy consumption
-7.8.0 (Q3) Total inductive reactive energy delivery
-8.8.0 (Q4) Total capacitive reactive energy delivery
+5.8.0 (Q1) Inductive reactive energy consumption total
+6.8.0 (Q2) Capacitive reactive energy consumption total
+7.8.0 (Q3) Inductive reactive energy delivery total
+8.8.0 (Q4) Capacitive reactive energy delivery total
 
 Firmware (OBIS code followed by information)
 
@@ -71,99 +73,129 @@ C.1.6 Ch: 762A Firmware checksum
 
 Error display (OBIS code followed by error messages)
 
-C.60.9 Fraud Flag (possible attempted fraud detected)
+C.60.9 Fraud flag (possible fraud attempt detected)
 PhL: 1 only phase L1 connected
 PhL: 2 only phase L2 connected
 PhL: 3 only phase L3 connected
-PhL: 23 Phase L1 not connected
-PhL: 13 Phase L2 not connected
-PhL: 12 Phase L3 not connected
-Correct phase sequence: Numbers light up statically
-Incorrect phase sequence: Numbers flash
+PhL: 23 phase L1 not connected
+PhL: 13 phase L2 not connected
+PhL: 12 phase L3 not connected
+Correct phase sequence: numbers lit statically
+Incorrect phase sequence: numbers flashing
 
-## Measurements & Wiring
+## Dimensions and connections
 
-\*.DXF and \*.DWG files of the meter, can be found in the ZIP archive under downloads
+\*.DXF and \*.DWG data can be found in the ZIP archive in the downloads.
 
 ### Dimensions \[mm\]
 
-![3-Phase Meter Telstar 80A – figure 3](/img/_en/products-3-phase-meter-telstar/03.png)
+![3-Phase Meter Telstar 80A – Figure 3](/img/produkte-telstar/03.png)
 
-![3-Phase Meter Telstar 80A – figure 4](/img/_en/products-3-phase-meter-telstar/04.png)
+![3-Phase Meter Telstar 80A – Figure 4](/img/produkte-telstar/04.png)
 
-### Wiring diagram
+### Connection diagram
 
-![3-Phase Meter Telstar 80A – figure 5](/img/_en/products-3-phase-meter-telstar/05.png)
+![3-Phase Meter Telstar 80A – Figure 5](/img/produkte-telstar/05.png)
 
-## Key functions
+## Button functions
 
-T1 button for installation
+![3-Phase Meter Telstar 80A – Figure 6](/img/produkte-telstar/06.png)
 
-When T1 button is pressed for 10 seconds, it creates a local WiFi for installation
+T1 Button for the installation
+
+Pressing button T1 for 10 seconds creates a local WiFi for the installation
 
 T1 + T2 Restart
 
-Press T1 and T2 buttons simultaneously for 10 seconds to force a reboot.
+Press buttons T1 and T2 simultaneously for 10 seconds to force a restart.
 
-T2 special functions
+T2 Special functions
 
-In short: If T2 is pressed for >2s, the green LED lamp switches (from on to off or from off to on). If this is activated, it shows the connection status
+Short: If T2 is pressed >2s, the green LED lamp toggles (from off to on or from on to off). When it is activated, it shows the connection status
 
-Glowing green: connected to smart-me cloud
+🟢 Green lit: connected to smart-me Cloud
 
-Flashing green: connection is currently established, at the moment no connection
+❇️ Green flashing: establishing connection or no connection
 
-Long: If T2 is pressed> 8s, the display of the power is switched between active and reactive power. In addition, the calibration pulse LED alternates between active energy and reactive energy.
+Long: If T2 is pressed >8s, the power display switches between active and reactive power. In addition, the calibration pulse LED switches between active energy and reactive energy.
 
-Very long: If T2 is pressed> 14s, the S0-0 pulse output is switched between active power and reactive power.
+Very long: If T2 is pressed >14s, the S0-0 pulse output switches between active power and reactive power.
 
-Note: This setting only changes the display, not in the smart-me cloud (app and website). If the reactive energy is to be displayed in the cloud, this must be done in the general settings.
-
-![3-Phase Meter Telstar 80A – figure 6](/img/_en/products-3-phase-meter-telstar/06.png)
+Note: This setting only changes the display on the meter, not in the smart-me Cloud (app and website). If the reactive energy is to be shown in the cloud, this must be done in the general settings.
 
 ## LED
 
-Green LED - status of the connection
+![3-Phase Meter Telstar 80A – Figure 7](/img/produkte-telstar/07.png)
+
+🟢 Green LED - connection status
 
 - Shows the status of the connection to the smart-me Cloud. a) Flashing = connection error b) Always on = connection OK
 
 
-![3-Phase Meter Telstar 80A – figure 7](/img/_en/products-3-phase-meter-telstar/07.png)
+![3-Phase Meter Telstar 80A – Figure 8](/img/produkte-telstar/08.png)
 
-Red LED - Pulse LED
+🔴 Red LED - pulse LED
 
-- Displays the active or reactive power currently being drawn in 1000 pulses/kWh or 1000 impulses/kVArh. Whether active or reactive power is displayed can be set using the T2 button.
-
-- For example: An LED marked “1000 pulses/kWh” flashes 1000 times when 1 kilowatt hour (kWh) of energy has been drawn or supplied. If the 1000 pulses were counted within 1 hour, a constant 1 kW of power was measured.
+- Shows the currently consumed active or reactive power in 1000 pulses/kWh or 1000 pulses/kVArh respectively. Whether active or reactive power is shown can be set with button T2.
 
 
-![3-Phase Meter Telstar 80A – figure 8](/img/_en/products-3-phase-meter-telstar/08.png)
+- For example: An LED marked "1000 pulses/kWh" flashes 1000 times when 1 kilowatt hour (kWh) of energy has been consumed or delivered. If the 1000 pulses were counted within 1 hour, a constant power of 1 kW was measured.
+
 
 ## Configuring inputs and outputs
 
-The Telstar 80A has two digital outputs and one digital input, which can be used as pulse inputs and outputs or as a switchable dry contact. Details can be found on the [Inputs and Outputs](/schnittstellen/ein_und_ausgaenge) wiki page. 
+The Telstar 80A has two digital outputs and one digital input, which can be used as pulse inputs and outputs or as a switchable potential-free contact. You can find details on the wiki page [Inputs and outputs](/schnittstellen/ein_und_ausgaenge)
 
-The Telstar 80A has a relay at one digital output, which can switch up to 8A.
+The Telstar 80A has a relay on one digital output which can switch up to 8A.
 
-## Mesh-Technologie
+## Mesh technology
 
-In the event of very weak or no WiFi reception, the Telstar 80A automatically connects to another neighboring meter within range via the mesh function. This meter then takes over communication with the smart-me cloud. The mesh technology ensures that the meters have a higher availability to the smart-me Cloud. It is not possible to deactivate the mesh function on the meters. Specific restrictions apply when [Modbus TCP](/schnittstellen/modbus-tcp) is enabled.
+If the WiFi reception is very weak or missing, the Telstar 80A automatically connects via the mesh function to another neighbouring meter within range. That meter then takes over communication with the smart-me Cloud. The mesh technology ensures that the meters have higher availability towards the smart-me Cloud. It is not possible to deactivate the mesh function on the meter. Specific restrictions apply when [Modbus TCP](/schnittstellen/modbus-tcp) is activated.
 
 ## Shipping information
 
-Item number: 202063
+Article number: 202063
 Article name: smart-me 3-Phasen-Energiezähler 80A MID Telstar Wifi
+
 Customs tariff number: 9028.3019
-Weight with packaging: 415g
 
-## Downloads and certificate of conformity
+Weight including packaging: 415g
 
-Data Sheet
+## Downloads and declaration of conformity
 
-[German Data Sheet](https://docs.google.com/presentation/d/1Kp-hwT2kkFY1yaaRTc2gtDwkJTZTEgnx3JlDgXhljGA/export/pdf) 
+[Data sheet German](https://docs.google.com/presentation/d/1Kp-hwT2kkFY1yaaRTc2gtDwkJTZTEgnx3JlDgXhljGA/export/pdf)
 
-[Declaration of Conformity](https://drive.google.com/file/d/1mcZJJhHeKQ1wN0q8yE8ROKnRZXx-wo3b/view?usp=sharing)
+[Data sheet English](https://docs.google.com/presentation/d/1AuzVbDnoAHAyyoMNErOYJBa-0F5bUBsjTG5ghxqtLrY/export/pdf)
 
-[Wiring Diagram ZIP Files](https://drive.google.com/file/d/1aKyx7qWyNh56Mrj-iAzfRxW_baVQtTmo/view?usp=share_link) (\*.DXF and \*.DWG files of the meter, can be found in the ZIP archive)
+[CE declaration of conformity](https://drive.google.com/file/d/1mcZJJhHeKQ1wN0q8yE8ROKnRZXx-wo3b/view?usp=sharing)
+
+[Connection diagram](https://drive.google.com/file/d/1400_Edqq9WfG48wg-60NUsQZ5CrBbM5B/view?usp=sharing)
+
+[Connection diagram ZIP files](https://drive.google.com/file/d/1aKyx7qWyNh56Mrj-iAzfRxW_baVQtTmo/view?usp=share_link) (\*.DXF and \*.DWG data can be found in the ZIP archive)
 
 [Quick Starter](https://docs.google.com/document/d/1qW-3HcgJ3si6LE-HPIYaLg9N9HZhR4PZgu0LJcP5_DY/export?format=pdf)
+
+## FAQ
+
+### At what interval do the meters send data?
+
+- Every 15 minutes, i.e. at xx:00:00, xx:15:00, xx:30:00 and xx:45:00. This sends the data required for the load profile. In the event of a connection interruption, this data is stored locally and sent later.
+
+- In addition, at least every 330 seconds.
+
+- Then, when one of the following events occurs:
+
+    - Meter reading change greater than 100Wh
+
+    - Power change greater than 100W
+
+    - Current change greater than 1A
+
+    - Voltage change greater than 1V
+
+    - Every second, when the meter is selected in the GUI (smart-me Portal)
+
+
+### Can I reset the meter reading to zero?
+
+No, since our meters are used for billing, it is not possible to reset them.

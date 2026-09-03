@@ -188,7 +188,7 @@ Folgende Messwerte werden vom Zähler erfasst sind in der Cloud und über die AP
 
 [](https://drive.google.com/open?id=1-f4I5ZWg1-PAHNpzCsQ0aBqrL9k93lH8q9AuN8toJgI "Open Spreadsheet, Messwerte (inkl. Obiscodes) 3-Phasen Zähler V1 in new window")
 
-<Video src="" title="Video" />
+<Embed src="https://docs.google.com/spreadsheets/d/1-f4I5ZWg1-PAHNpzCsQ0aBqrL9k93lH8q9AuN8toJgI/htmlembed" aspect="2.882" title="Spreadsheet, Messwerte (inkl. Obiscodes) 3-Phasen Zähler V1" />
 
 Messwerte (inkl. Obiscodes) 3-Phasen Zähler V1
 

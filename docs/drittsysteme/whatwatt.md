@@ -56,7 +56,7 @@ Die Übertragene Zeit muss pro Modul auf NTP Zeit gestellt werden.
 
 Integrationsanleitung:
 
-<Video src="" title="Video" />
+<Embed src="https://drive.google.com/file/d/1J5iwfbUOJA5ZBVfDcz7xM2ouiSC38hOw/preview" aspect="0.721" title="Drive, whatwatt_Go_smart-me_Integration_v1.0.pdf" />
 
 whatwatt\_Go\_smart-me\_Integration\_v1.0.pdf
 

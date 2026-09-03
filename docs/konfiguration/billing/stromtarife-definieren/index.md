@@ -16,7 +16,7 @@ Du kannst neu aber auch unseren Online-Stromtarifrechner verwenden welcher dir u
 
 [smart-me Stromtarifrechner](/konfiguration/billing/stromtarife-definieren/stromtarif-rechner)
 
-<Video src="ju7m6Bs8U_M" title="Video" />
+<Video src="ju7m6Bs8U_M" title="YouTube Video, smart-me Billing - Preise ZEV festlegen" />
 
 smart-me Billing Preise ZEV festlegen von Guy erklärt.
 
@@ -295,7 +295,7 @@ Hinweise: 
 
 ![Stromtarife definieren – Abbildung 17](/img/konfiguration-billing-stromtarife-definieren/17.png)
 
-<Video src="7iLDy1YZDyY" title="Video" />
+<Video src="7iLDy1YZDyY" title="YouTube Video, Virtuelle Tarife" />
 
 ### Netztarif
 
@@ -767,7 +767,7 @@ Die Perioden bzw. Dauer müssen in diesem Fall hinterlegt werden. Bei diesen Tar
     - Zusätzliche Bedingung: Uri Winter NT 
 
 
-<Video src="" title="Video" />
+<Embed src="https://drive.google.com/file/d/1qFuisQkiLisSbWTh8Avhrf7gIXOfxjjn/preview" aspect="1.350" title="Drive, Wiki Tarife Enerige Uri Tarife 2026.mp4" />
 
 Wiki Tarife Enerige Uri Tarife 2026.mp4
 

@@ -1,12 +1,12 @@
 ---
 title: 'Guide pour les gérances'
 slug: '/nutzeranleitungen/verwalter'
-description: 'Page d''accueil smart-me -> Configuration des utilisateurs (Benutzerkonfiguration)'
+description: 'Page d''accueil smart-me -> Configuration des utilisateurs'
 sidebar_label: 'Gérance'
 ---
 ## Vidéo
 
-<Video src="1xeND8RbkO4" title="Video" />
+<Video src="1xeND8RbkO4" title="Vidéo YouTube, tutoriel vidéo définir les prix et adapter le miroir des locataires (2026)" />
 
 ## Navigation
 
@@ -22,19 +22,19 @@ Page d'accueil smart-me -> Facturation (Rechnungsstellung)
 
 ![Guide pour les gérances – illustration 2](/img/nutzeranleitungen-verwalter/02.png)
 
-## Conditions et vérifications lors de la remise
+## Conditions préalables et vérifications lors de la remise
 
-Remarque : les partenaires sont le premier interlocuteur des gérances pour autant que la formation pour gérances n'ait pas été suivie chez nous.
+Remarque : les partenaires sont le premier interlocuteur des gérances pour autant que la formation destinée aux gérances n'ait pas été suivie chez nous.
 
-- Alarme (ou convenir qui s'en occupe)
+- Alarme (ou convenir de qui s'en occupe)
 
 - Les tarifs virtuels doivent être définis.
 
-- La date de calcul (tarifs virtuels) correspond au jour actuel.
+- La date de calcul (tarifs virtuels) est celle du jour.
 
 - VEWA a été configuré, s'il est prévu.
 
-- Les accès locataires ont été créés, s'ils ont été convenus.
+- Les accès locataires ont été créés, si cela a été convenu.
 
 
 ### Réglages globaux
@@ -45,9 +45,9 @@ Remarque : les partenaires sont le premier interlocuteur des gérances pour auta
 
 3.  Définir la monnaie (CHF ou EURO)
 
-4.  Définir les impôts (globalement) ; des impôts différents par tarif ou pour Divers peuvent être définis dans le tarif / Divers correspondant.
+4.  Définir les taxes (global) ; des taxes divergentes par tarif ou pour les divers peuvent être définies dans le tarif / les divers concernés.
 
-5.  Logo (max. 1MB, 5000x5000 pixels)
+5.  Logo (max 1MB, 5000x5000 pixels)
 
 6.  En-tête (émetteur de la facture)
 
@@ -58,7 +58,7 @@ Remarque : les partenaires sont le premier interlocuteur des gérances pour auta
 
 ## Changement de locataire
 
-Comment créer un accès locataire, effectuer un changement de locataire dans smart-me Billing et renouveler les tarifs.
+Comment créer un accès locataire, effectuer un changement de locataire dans smart-me Billing et comment renouveler les tarifs.
 
 ![Guide pour les gérances – illustration 4](/img/nutzeranleitungen-verwalter/04.png)
 
@@ -66,38 +66,38 @@ Comment créer un accès locataire, effectuer un changement de locataire dans sm
 
 Créer un locataire
 
-1.  Naviguer vers « Configuration des utilisateurs » (Benutzerkonfiguration)
+1.  Naviguez vers « Configuration des utilisateurs » (Benutzerkonfiguration)
 
-2.  Choisir « Ajouter un utilisateur » (Benutzer hinzufügen)
+2.  Choisissez « Ajouter un utilisateur » (Benutzer hinzufügen)
 
 3.  Nom d'utilisateur et adresse e-mail
     (Conseil : best practice nom d'utilisateur = adresse e-mail)
 
 4.  L'e-mail peut être fictive ou réelle
-    (Conseil : créer des comptes fictifs, comme dans l'exemple à droite)
+    (Conseil : créer les comptes de manière fictive, comme dans l'exemple à droite)
 
 5.  Niveau d'autorisation
     (Conseil : pour les locataires, « Droits de lecture : dossiers sélectionnés et tous les sous-dossiers et compteurs » suffit)
 
 6.  Validité de l'accès
-    (Conseil : accès de = date d'entrée / accès jusqu'au 31.12.2099)
+    (Conseil : accès depuis = date d'emménagement / accès jusqu'au 31.12.2099)
 
 7.  Définir le mot de passe
 
-8.  Attribuer au nœud autorisé par glisser-déposer. (En règle générale, le locataire obtient l'accès aux graphiques, aux compteurs techniques et à son unité d'habitation)
+8.  Attribuer au nœud autorisé par glisser-déposer. (En règle générale, le locataire obtient l'accès aux graphiques, aux compteurs techniques et à son unité de logement)
 
 
 ![Guide pour les gérances – illustration 5](/img/nutzeranleitungen-verwalter/05.png)
 
 ### Modifier un accès locataire
 
-Lorsqu'un nouveau locataire arrive, il est possible d'empêcher qu'il accède aux anciennes données.
+Lorsqu'un nouveau locataire emménage, on peut empêcher qu'il accède aux anciennes données.
 
 1.  Sélectionner l'utilisateur et l'éditer
 
-2.  Définir l'accès jusqu'à la date de départ
+2.  Régler l'accès jusqu'à la date de déménagement
 
-3.  Ou alternativement supprimer l'accès locataire
+3.  Ou alors supprimer l'accès locataire
 
 
 ![Guide pour les gérances – illustration 6](/img/nutzeranleitungen-verwalter/05.png)
@@ -116,17 +116,17 @@ Unité de décompte
 
 5.  Éditer
 
-6.  Modifier « Valable jusqu'au » à la date de départ.
+6.  Modifier la validité jusqu'à la date de déménagement.
 
 7.  Ajouter / éditer l'adresse de facturation
 
-8.  Nom et adresse (ou logement vacant)
+8.  Nom et adresse (ou vacance)
 
 9.  Adresse e-mail pour
     l'envoi automatique des factures (facultatif)
 
 10.  Validité
-     (Valable de = entrée / Valable jusqu'au = 31.12.2099)
+     (Valable du = emménagement / valable jusqu'au = 31.12.2099)
 
 
 ![Guide pour les gérances – illustration 7](/img/nutzeranleitungen-verwalter/07.png)
@@ -137,7 +137,7 @@ Les points de repère forfaitaires
 
 - Tarif solaire = 80% du tarif de réseau 
 
-    - Guide sur l'autoconsommation d'énergie de SuisseEnergie : [https://www.energieschweiz.ch/gebaeude/eigenverbrauch/](https://www.energieschweiz.ch/gebaeude/eigenverbrauch/)
+    - Guide sur l'autoconsommation de SuisseEnergie : [https://www.energieschweiz.ch/gebaeude/eigenverbrauch/](https://www.energieschweiz.ch/gebaeude/eigenverbrauch/)
 
     - [Calculateur de tarif d'électricité](/konfiguration/billing/stromtarife-definieren/stromtarif-rechner)
 
@@ -165,7 +165,7 @@ Comme facture QR
 
 - Configuration
 
-- Section : Facture QR (QR-Rechnung)
+- Section : facture QR (QR-Rechnung)
 
 
 ![Guide pour les gérances – illustration 9](/img/nutzeranleitungen-verwalter/09.png)
@@ -184,7 +184,7 @@ Tarifs d'électricité réseau
 
 5.  Adapter le prix (CHF/kWh)
 
-6.  Adapter l'impôt spécial (si nécessaire)
+6.  Adapter la taxe spéciale (si nécessaire)
 
 7.  Enregistrer
 
@@ -197,13 +197,13 @@ Remarque : si autre chose que le prix est modifié (p. ex. le nom ou la validit�
 
 ![Guide pour les gérances – illustration 11](/img/nutzeranleitungen-verwalter/11.png)
 
-### Saisir une position Divers
+### Saisir une position diverse
 
-Des coûts divers peuvent être ajoutés en plus. Des coûts généraux comme p. ex. la location du compteur ou les frais administratifs peuvent être ajoutés au niveau de l'immeuble. 
+Des coûts divers peuvent être ajoutés en complément. Les coûts généraux tels que la location du compteur ou les frais administratifs peuvent être ajoutés au niveau de l'immeuble. 
 
 1.  Sélectionner l'immeuble
 
-2.  Défiler tout en bas jusqu'à « Divers » (Sonstiges)
+2.  Faire défiler tout en bas « Divers » (Sonstiges)
 
 3.  Nous recommandons par mois (s'adapte dynamiquement au prorata)
 
@@ -212,11 +212,11 @@ Les coûts supplémentaires dépendant du logement (location de compteur supplé
 
 1.  Sélectionner le logement
 
-2.  Défiler tout en bas jusqu'à « Divers » (Sonstiges)
+2.  Faire défiler tout en bas « Divers » (Sonstiges)
 
 
 Les coûts ne sont pas répartis, mais ajoutés de manière identique à tous.
-Exemple : location du compteur du fournisseur d'électricité 5CHF par mois. 5x unités de décompte -> 1CHF/mois dans la position Divers
+Exemple : location du compteur du fournisseur d'électricité 5CHF par mois. 5x unités de décompte -> 1CHF/mois en position diverse
 
 ![Guide pour les gérances – illustration 12](/img/nutzeranleitungen-verwalter/12.png)
 
@@ -237,7 +237,7 @@ Ex. du 01.10.2024 au 04.11.2024 peut maintenant être décompté.
 
 1.  Facturation (Rechnungsstellung)
 
-2.  Choisir Factures (Rechnungen)
+2.  Sélectionner Factures (Rechnungen)
 
 3.  Sélectionner l'immeuble ou l'unité de décompte
 
@@ -247,7 +247,7 @@ Ex. du 01.10.2024 au 04.11.2024 peut maintenant être décompté.
 
 6.  Créer la facture.
 
-7.  S'assurer qu'il n'y a aucun avertissement ; si c'est le cas, veuillez vérifier avec le partenaire installateur pour autant que la formation pour gérances n'ait pas été suivie.
+7.  S'assurer qu'aucun avertissement n'est présent ; si c'est le cas, veuillez vérifier avec le partenaire installateur pour autant que la formation destinée aux gérances n'ait pas été suivie.
 
 
 ![Guide pour les gérances – illustration 13](/img/nutzeranleitungen-verwalter/13.png)
@@ -269,11 +269,11 @@ Ex. du 01.10.2024 au 04.11.2024 peut maintenant être décompté.
 
 ### Consulter la facture créée
 
-1.  Facturation -> sélectionner Factures (Rechnungen)
+1.  Création de factures -> sélectionner Factures (Rechnungen)
 
-2.  Sélectionner l'immeuble ou une unité de décompte individuelle
+2.  Sélectionner l'immeuble ou une unité de décompte particulière
 
-3.  Consulter les factures et télécharger les documents dans le format souhaité
+3.  Consulter les factures et télécharger les documents dans la forme souhaitée
 
 
 ![Guide pour les gérances – illustration 16](/img/nutzeranleitungen-verwalter/16.png)
@@ -282,7 +282,7 @@ Ex. du 01.10.2024 au 04.11.2024 peut maintenant être décompté.
 
 ### Passer la facture avec code QR en format portrait
 
-Pour pouvoir imprimer correctement la facture avec code QR en format portrait. Les réglages suivants doivent être modifiés dans le masque d'impression. Exemple avec Adobe Acrobat Reader.
+Afin de pouvoir imprimer correctement la facture avec code QR en format portrait, les réglages suivants doivent être modifiés dans le masque d'impression. Exemple avec Adobe Acrobat Reader.
 
 - Activer la taille réelle
 
@@ -297,18 +297,18 @@ Remarque : il ne doit pas déjà exister un compte avec la nouvelle e-mail.
 
 1.  Cliquer sur la fusée. 
 
-2.  Cliquer sur Réglages du compte (Kontoeinstellungen)
+2.  Cliquer sur Paramètres du compte (Kontoeinstellungen)
 
 
 ![Guide pour les gérances – illustration 19](/img/nutzeranleitungen-verwalter/19.png)
 
 3\. Saisir l'e-mail actuelle
 
-4\. Saisir la nouvelle e-mail, confirmer et cliquer sur Modifier l'e-mail (E-Mail ändern)
+4\. Saisir la nouvelle e-mail, la confirmer et cliquer sur Modifier l'e-mail (E-Mail ändern)
 
-5\. Vous recevrez un lien de confirmation sur la nouvelle e-mail.
+5\. Vous recevez sur la nouvelle e-mail un lien de confirmation.
 
-Important : si celui-ci est ouvert sur un autre appareil, il faut se reconnecter avec les anciennes données de connexion.
+Important : si celui-ci est ouvert sur un autre appareil, il faut se connecter à nouveau avec les anciennes données de connexion.
 
 ![Guide pour les gérances – illustration 20](/img/nutzeranleitungen-verwalter/20.png)
 
@@ -318,7 +318,7 @@ Remarque : il ne doit pas déjà exister un compte avec la nouvelle e-mail.
 
 1.  Cliquer sur la fusée. 
 
-2.  Cliquer sur Réglages du compte (Kontoeinstellungen)
+2.  Cliquer sur Paramètres du compte (Kontoeinstellungen)
 
 
 ![Guide pour les gérances – illustration 21](/img/nutzeranleitungen-verwalter/19.png)
@@ -331,7 +331,7 @@ Remarque : il ne doit pas déjà exister un compte avec la nouvelle e-mail.
 
 6\. Cliquer sur Compte de transfert (Übertragungskonto)
 
-7\. Vous recevrez un lien sur la nouvelle e-mail pour accepter le transfert.
+7\. Vous recevrez sur la nouvelle e-mail un lien pour accepter le transfert.
 
 Important : le lien n'est valable que 6h. Ensuite, le processus doit être relancé. 
 

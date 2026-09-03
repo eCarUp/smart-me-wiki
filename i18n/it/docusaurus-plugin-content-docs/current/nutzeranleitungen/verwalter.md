@@ -1,40 +1,40 @@
 ---
-title: 'Guida per le amministrazioni immobiliari'
+title: 'Guida per amministrazioni immobiliari'
 slug: '/nutzeranleitungen/verwalter'
-description: 'Pagina iniziale smart-me -> Configurazione degli utenti (Benutzerkonfiguration)'
+description: 'Pagina iniziale smart-me -> Configurazione degli utenti'
 sidebar_label: 'Amministrazione immobiliare'
 ---
 ## Video
 
-<Video src="1xeND8RbkO4" title="Video" />
+<Video src="1xeND8RbkO4" title="Video YouTube, videoguida definire i prezzi e adattare l''elenco degli inquilini (2026)" />
 
 ## Navigazione
 
-### Il percorso verso l'accesso per gli inquilini
+### Il percorso verso l'accesso per inquilini
 
 Pagina iniziale smart-me -> Configurazione degli utenti (Benutzerkonfiguration)
 
-![Guida per le amministrazioni immobiliari – Figura 1](/img/nutzeranleitungen-verwalter/01.png)
+![Guida per amministrazioni immobiliari – Figura 1](/img/nutzeranleitungen-verwalter/01.png)
 
 ### Il percorso verso il Billing
 
 Pagina iniziale smart-me -> Fatturazione (Rechnungsstellung)
 
-![Guida per le amministrazioni immobiliari – Figura 2](/img/nutzeranleitungen-verwalter/02.png)
+![Guida per amministrazioni immobiliari – Figura 2](/img/nutzeranleitungen-verwalter/02.png)
 
 ## Requisiti e verifiche al momento della consegna
 
-Nota: i partner sono il primo punto di contatto per le amministrazioni immobiliari, a meno che non sia stata seguita presso di noi la formazione per amministrazioni.
+Nota: i partner sono il primo interlocutore per le amministrazioni immobiliari, a condizione che non sia stata seguita la formazione per amministrazioni presso di noi.
 
-- Allarme (oppure concordare chi se ne occupa)
+- Allarme (o concordare chi se ne occupa)
 
 - Le tariffe virtuali devono essere impostate.
 
-- La data di calcolo (tariffe virtuali) corrisponde alla data odierna.
+- La data calcolata (tariffe virtuali) è quella odierna.
 
 - VEWA è stato configurato, se presente.
 
-- Gli accessi per gli inquilini sono stati creati, se concordato.
+- Gli accessi per inquilini sono stati configurati, se concordato.
 
 
 ### Impostazioni globali
@@ -45,7 +45,7 @@ Nota: i partner sono il primo punto di contatto per le amministrazioni immobilia
 
 3.  Definire la valuta (CHF o EURO)
 
-4.  Definire le imposte (globali); imposte differenti per singola tariffa o per Altro possono essere definite nella rispettiva tariffa / in Altro.
+4.  Definire le imposte (globali); imposte differenti per singola tariffa o per Varie possono essere definite nella rispettiva tariffa / in Varie.
 
 5.  Logo (max 1MB, 5000x5000 pixel)
 
@@ -54,19 +54,19 @@ Nota: i partner sono il primo punto di contatto per le amministrazioni immobilia
 7.  Piè di pagina (ad es. numero di conto IBAN)
 
 
-![Guida per le amministrazioni immobiliari – Figura 3](/img/nutzeranleitungen-verwalter/03.png)
+![Guida per amministrazioni immobiliari – Figura 3](/img/nutzeranleitungen-verwalter/03.png)
 
 ## Cambio di inquilino
 
-Come creare un accesso per un inquilino, come eseguire un cambio di inquilino nel smart-me Billing e come rinnovare le tariffe.
+Come creare un accesso per inquilini, come eseguire un cambio di inquilino in smart-me Billing e come rinnovare le tariffe.
 
-![Guida per le amministrazioni immobiliari – Figura 4](/img/nutzeranleitungen-verwalter/04.png)
+![Guida per amministrazioni immobiliari – Figura 4](/img/nutzeranleitungen-verwalter/04.png)
 
-### Creare un accesso per l'inquilino
+### Creare un accesso per inquilini
 
 Creare un inquilino
 
-1.  Navigare fino a "Configurazione degli utenti" (Benutzerkonfiguration)
+1.  Navigare su "Configurazione degli utenti" (Benutzerkonfiguration)
 
 2.  Selezionare "Aggiungi utente" (Benutzer hinzufügen)
 
@@ -77,7 +77,7 @@ Creare un inquilino
     (Suggerimento: creare gli account in modo fittizio, come nell'esempio a destra)
 
 5.  Livello di autorizzazione
-    (Suggerimento: per gli inquilini è sufficiente “Diritti di lettura: cartelle selezionate e tutte le sottocartelle e i contatori" (Leserechte: Ausgewählte Ordner und alle Unterordner und Zähler))
+    (Suggerimento: per gli inquilini è sufficiente "Diritti di lettura: cartelle selezionate e tutte le sottocartelle e i contatori")
 
 6.  Validità dell'accesso
     (Suggerimento: accesso da = data di entrata / accesso fino al 31.12.2099)
@@ -87,20 +87,20 @@ Creare un inquilino
 8.  Assegnare al nodo autorizzato tramite drag and drop. (Di norma l'inquilino ottiene l'accesso ai grafici, ai contatori tecnici e alla propria unità abitativa)
 
 
-![Guida per le amministrazioni immobiliari – Figura 5](/img/nutzeranleitungen-verwalter/05.png)
+![Guida per amministrazioni immobiliari – Figura 5](/img/nutzeranleitungen-verwalter/05.png)
 
-### Modificare l'accesso dell'inquilino
+### Modificare l'accesso per inquilini
 
-Quando un nuovo inquilino si trasferisce, si può impedire che acceda ai vecchi dati.
+Quando un nuovo inquilino si trasferisce, si può impedire che acceda ai dati precedenti.
 
 1.  Selezionare l'utente e modificarlo
 
 2.  Impostare l'accesso fino alla data di uscita
 
-3.  In alternativa, eliminare l'accesso dell'inquilino
+3.  In alternativa eliminare l'accesso per inquilini
 
 
-![Guida per le amministrazioni immobiliari – Figura 6](/img/nutzeranleitungen-verwalter/05.png)
+![Guida per amministrazioni immobiliari – Figura 6](/img/nutzeranleitungen-verwalter/05.png)
 
 ### Il cambio di inquilino (Billing)
 
@@ -120,20 +120,20 @@ Unità di conteggio
 
 7.  Aggiungere / modificare l'indirizzo di fatturazione
 
-8.  Nome e indirizzo (oppure Sfitto)
+8.  Nome e indirizzo (oppure sfitto)
 
 9.  Indirizzo e-mail per
-    l'invio automatico delle fatture (facoltativo)
+    l'invio automatico della fattura (facoltativo)
 
 10.  Validità
      (Valido da = entrata / Valido fino a = 31.12.2099)
 
 
-![Guida per le amministrazioni immobiliari – Figura 7](/img/nutzeranleitungen-verwalter/07.png)
+![Guida per amministrazioni immobiliari – Figura 7](/img/nutzeranleitungen-verwalter/07.png)
 
 ### Definire la tariffa solare
 
-I valori di riferimento indicativi
+I punti di riferimento forfettari
 
 - Tariffa solare = 80% della tariffa di rete 
 
@@ -144,7 +144,7 @@ I valori di riferimento indicativi
 
 ### Modificare il conto di versamento
 
-Il conto di pagamento può essere gestito nel smart-me Billing in due punti.
+Il conto di pagamento può essere gestito in smart-me Billing in due punti.
 
 Nel piè di pagina
 
@@ -157,7 +157,7 @@ Nel piè di pagina
 - Salvare
 
 
-![Guida per le amministrazioni immobiliari – Figura 8](/img/nutzeranleitungen-verwalter/08.png)
+![Guida per amministrazioni immobiliari – Figura 8](/img/nutzeranleitungen-verwalter/08.png)
 
 Come fattura QR
 
@@ -168,9 +168,9 @@ Come fattura QR
 - Sezione: fattura QR (QR-Rechnung)
 
 
-![Guida per le amministrazioni immobiliari – Figura 9](/img/nutzeranleitungen-verwalter/09.png)
+![Guida per amministrazioni immobiliari – Figura 9](/img/nutzeranleitungen-verwalter/09.png)
 
-### Inserire le tariffe elettricità
+### Inserire le tariffe elettriche
 
 Tariffe elettriche di rete
 
@@ -182,49 +182,49 @@ Tariffe elettriche di rete
 
 4.  Modificare
 
-5.  Adeguare il prezzo (CHF/kWh)
+5.  Adattare il prezzo (CHF/kWh)
 
-6.  Adeguare l'imposta speciale (se necessario)
+6.  Adattare l'imposta speciale (se necessario)
 
 7.  Salvare
 
 
 
 
-Nota: se si modifica qualcosa di diverso dal prezzo (ad es. il nome o la validità), è indispensabile premere “Ricalcola” (Neu rechnen).
+Nota: se si modifica qualcosa di diverso dal prezzo (ad es. il nome o la validità), è indispensabile premere "Ricalcola" (Neu rechnen).
 
-![Guida per le amministrazioni immobiliari – Figura 10](/img/nutzeranleitungen-verwalter/10.png)
+![Guida per amministrazioni immobiliari – Figura 10](/img/nutzeranleitungen-verwalter/10.png)
 
-![Guida per le amministrazioni immobiliari – Figura 11](/img/nutzeranleitungen-verwalter/11.png)
+![Guida per amministrazioni immobiliari – Figura 11](/img/nutzeranleitungen-verwalter/11.png)
 
-### Registrare una posizione Altro
+### Registrare una posizione Varie
 
-È possibile aggiungere ulteriori costi diversi. Costi generali come ad es. il noleggio del contatore o le spese amministrative possono essere aggiunti a livello di immobile. 
+Possono essere aggiunti ulteriori costi diversi. Costi generali come ad es. il noleggio del contatore o le spese amministrative possono essere aggiunti a livello di immobile. 
 
 1.  Selezionare l'immobile
 
-2.  Scorrere fino in fondo a "Altro" (Sonstiges)
+2.  Scorrere completamente in basso fino a "Varie" (Sonstiges)
 
-3.  Consigliamo l'indicazione al mese (si adegua dinamicamente pro rata)
+3.  Consigliamo per mese (si adatta dinamicamente pro rata)
 
 
-I costi supplementari legati all'appartamento (noleggio aggiuntivo del contatore o tasse di parcheggio) possono essere aggiunti a livello di appartamento.
+Costi supplementari legati all'appartamento (noleggio aggiuntivo del contatore o tasse per il posteggio) possono essere aggiunti a livello di appartamento.
 
 1.  Selezionare l'appartamento
 
-2.  Scorrere fino in fondo a "Altro" (Sonstiges)
+2.  Scorrere completamente in basso fino a "Varie" (Sonstiges)
 
 
-I costi non vengono ripartiti, bensì aggiunti a tutti nella stessa misura.
-Esempio: noleggio del contatore dell'azienda elettrica 5CHF al mese. 5x unità di conteggio -> 1CHF/mese nella posizione Altro
+I costi non vengono suddivisi, ma aggiunti in egual misura a tutti.
+Esempio: noleggio del contatore dell'azienda elettrica 5CHF al mese. 5x unità di conteggio -> 1CHF/mese nella posizione Varie
 
-![Guida per le amministrazioni immobiliari – Figura 12](/img/nutzeranleitungen-verwalter/12.png)
+![Guida per amministrazioni immobiliari – Figura 12](/img/nutzeranleitungen-verwalter/12.png)
 
 ### Tariffe calore / acqua calda sanitaria
 
-Se non si utilizza VEWA, occorre aggiungere le componenti di prezzo dei contatori multienergia. Con VEWA queste vengono sovrascritte.
+Se non si utilizza VEWA, devono essere aggiunte le componenti di prezzo dei contatori multienergia. Con VEWA queste vengono sovrascritte.
 
-Definire le tariffe per il riscaldamento e l'acqua calda sanitaria
+Determinare le tariffe per riscaldamento e acqua calda sanitaria
 
 - Impostare il periodo e aggiungere le componenti di prezzo. 
 
@@ -233,7 +233,7 @@ Definire le tariffe per il riscaldamento e l'acqua calda sanitaria
 
 ### Creare la fattura (solo elettricità)
 
-Es. dal 01.10.2024 al 04.11.2024 è ora possibile effettuare il conteggio.
+Es. dal 01.10.2024 al 04.11.2024 può ora essere conteggiato.
 
 1.  Fatturazione (Rechnungsstellung)
 
@@ -247,14 +247,14 @@ Es. dal 01.10.2024 al 04.11.2024 è ora possibile effettuare il conteggio.
 
 6.  Creare la fattura.
 
-7.  Assicurarsi che non siano presenti avvisi; in caso contrario verificare con il partner installatore, se non è stata seguita la formazione per amministrazioni.
+7.  Assicurarsi che non siano presenti avvisi; se ce ne sono, verificare con il partner d'installazione, a condizione che non sia stata seguita la formazione per amministrazioni.
 
 
-![Guida per le amministrazioni immobiliari – Figura 13](/img/nutzeranleitungen-verwalter/13.png)
+![Guida per amministrazioni immobiliari – Figura 13](/img/nutzeranleitungen-verwalter/13.png)
 
 ### Creare la fattura (elettricità e VEWA)
 
-1.  Navigare fino all'immobile.
+1.  Navigare all'immobile.
 
 2.  Modificare e registrare un nuovo periodo
 
@@ -263,9 +263,9 @@ Es. dal 01.10.2024 al 04.11.2024 è ora possibile effettuare il conteggio.
 4.  Registrare i costi per le singole posizioni
 
 
-![Guida per le amministrazioni immobiliari – Figura 14](/img/nutzeranleitungen-verwalter/14.png)
+![Guida per amministrazioni immobiliari – Figura 14](/img/nutzeranleitungen-verwalter/14.png)
 
-![Guida per le amministrazioni immobiliari – Figura 15](/img/nutzeranleitungen-verwalter/15.png)
+![Guida per amministrazioni immobiliari – Figura 15](/img/nutzeranleitungen-verwalter/15.png)
 
 ### Visualizzare la fattura creata
 
@@ -276,63 +276,63 @@ Es. dal 01.10.2024 al 04.11.2024 è ora possibile effettuare il conteggio.
 3.  Consultare le fatture e scaricare i documenti nel formato desiderato
 
 
-![Guida per le amministrazioni immobiliari – Figura 16](/img/nutzeranleitungen-verwalter/16.png)
+![Guida per amministrazioni immobiliari – Figura 16](/img/nutzeranleitungen-verwalter/16.png)
 
-![Guida per le amministrazioni immobiliari – Figura 17](/img/nutzeranleitungen-verwalter/17.png)
+![Guida per amministrazioni immobiliari – Figura 17](/img/nutzeranleitungen-verwalter/17.png)
 
-### Impostare la fattura con codice QR in formato verticale
+### Modificare la fattura con codice QR in formato verticale
 
-Per poter stampare correttamente la fattura con codice QR in formato verticale, occorre modificare le seguenti impostazioni nella finestra di stampa. Esempio con Adobe Acrobat Reader.
+Per poter stampare correttamente la fattura con codice QR in formato verticale devono essere modificate le seguenti impostazioni nella maschera di stampa. Esempio con Adobe Acrobat Reader.
 
 - Attivare Dimensioni effettive
 
 - Orientamento: verticale
 
 
-![Guida per le amministrazioni immobiliari – Figura 18](/img/nutzeranleitungen-verwalter/18.png)
+![Guida per amministrazioni immobiliari – Figura 18](/img/nutzeranleitungen-verwalter/18.png)
 
-## Modificare l'indirizzo e-mail (account)
+## Modificare l'indirizzo e-mail (conto)
 
-Nota: non deve già esistere un account con il nuovo indirizzo e-mail.
+Nota: non deve già esistere un conto con il nuovo indirizzo e-mail.
 
-1.  Fare clic sul razzo. 
+1.  Cliccare sul razzo. 
 
-2.  Fare clic su Impostazioni account (Kontoeinstellungen)
+2.  Cliccare su Impostazioni del conto (Kontoeinstellungen)
 
 
-![Guida per le amministrazioni immobiliari – Figura 19](/img/nutzeranleitungen-verwalter/19.png)
+![Guida per amministrazioni immobiliari – Figura 19](/img/nutzeranleitungen-verwalter/19.png)
 
 3\. Inserire l'e-mail attuale
 
-4\. Inserire la nuova e-mail, confermare e fare clic su Modifica e-mail (E-Mail ändern)
+4\. Inserire la nuova e-mail, confermare e cliccare su Modifica e-mail (E-Mail ändern)
 
-5\. Riceverete al nuovo indirizzo e-mail un link di conferma.
+5\. Riceverete un link di conferma al nuovo indirizzo e-mail.
 
-Importante: se questo viene aperto su un altro dispositivo, occorre effettuare nuovamente l'accesso con i vecchi dati di login.
+Importante: se questo viene aperto su un altro dispositivo, occorre accedere nuovamente con i vecchi dati di login.
 
-![Guida per le amministrazioni immobiliari – Figura 20](/img/nutzeranleitungen-verwalter/20.png)
+![Guida per amministrazioni immobiliari – Figura 20](/img/nutzeranleitungen-verwalter/20.png)
 
-## Trasferire l'account
+## Trasferire il conto
 
-Nota: non deve già esistere un account con il nuovo indirizzo e-mail.
+Nota: non deve già esistere un conto con il nuovo indirizzo e-mail.
 
-1.  Fare clic sul razzo. 
+1.  Cliccare sul razzo. 
 
-2.  Fare clic su Impostazioni account (Kontoeinstellungen)
+2.  Cliccare su Impostazioni del conto (Kontoeinstellungen)
 
 
-![Guida per le amministrazioni immobiliari – Figura 21](/img/nutzeranleitungen-verwalter/19.png)
+![Guida per amministrazioni immobiliari – Figura 21](/img/nutzeranleitungen-verwalter/19.png)
 
-3\. Fare clic su Trasferisci account (Konto übertragen)
+3\. Cliccare su Trasferisci conto (Konto übertragen)
 
 4\. Inserire la nuova e-mail e confermare.
 
 5\. Selezionare la nuova lingua.
 
-6\. Fare clic su Account di trasferimento (Übertragungskonto)
+6\. Cliccare su Conto di trasferimento (Übertragungskonto)
 
 7\. Riceverete al nuovo indirizzo e-mail un link per accettare il trasferimento.
 
-Importante: il link è valido solo 6h. Trascorso questo tempo, il processo deve essere avviato nuovamente. 
+Importante: il link è valido solo 6h. In seguito il processo deve essere avviato nuovamente. 
 
-![Guida per le amministrazioni immobiliari – Figura 22](/img/nutzeranleitungen-verwalter/22.png)
+![Guida per amministrazioni immobiliari – Figura 22](/img/nutzeranleitungen-verwalter/22.png)

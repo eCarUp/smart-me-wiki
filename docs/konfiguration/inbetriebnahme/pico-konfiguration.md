@@ -211,7 +211,7 @@ Hardware Lastabwurf (externe Eingänge der Pico)
 
 [](https://drive.google.com/open?id=1CnvydIjsXnRTXNFNnteObEg5VLJM9RqU5_PA78Gd_kY "Open Spreadsheet, Pico Lastabwurf in new window")
 
-<Video src="" title="Video" />
+<Embed src="https://docs.google.com/spreadsheets/d/1CnvydIjsXnRTXNFNnteObEg5VLJM9RqU5_PA78Gd_kY/htmlembed" title="Spreadsheet, Pico Lastabwurf" />
 
 Pico Lastabwurf
 

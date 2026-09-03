@@ -6,7 +6,7 @@ sidebar_label: '3-Phasen Zähler Nimbus 100A'
 ---
 ![smart-me Nimbus 100A – Abbildung 1](/img/produkte-nimbus/01.png)
 
-[Zählersteckklemmen für Nimbus 100A](https://sites.google.com/smart-me.com/wiki/drittprodukte/zaehlersteckklemmen-nimbus-100A)
+[Zählersteckklemmen für Nimbus 100A](/drittprodukte/zaehlersteckklemmen-nimbus-100A)
 
 ## Funktionen
 
@@ -50,7 +50,7 @@ Damit bietet der Nimbus eine hardwarebasierte Sicherheitsgarantie, die reinen So
 
 ## Technische Daten
 
-<Video src="" title="Custom embed" />
+<Embed src="https://docs.google.com/spreadsheets/d/e/2PACX-1vR4UWY0pXsfUBgArWNNkGZGvIscStumVrGrU7_h2DGk1YNe_XYOxPLnZoJlARRCO86Fz-aOo0cb0pGh/pubhtml?gid=0&range=A1:B30&single=true&widget=false&headers=false&chrome=false" aspect="1.214" title="3-Phasen Zähler Nimbus 100A" />
 
 ## Display
 
@@ -308,7 +308,7 @@ Spannung:  5V DC, Höchstlast:  100mA DC, Verstärkte Isolierung gegen Netz
 
 ## Zubehör
 
-- [Zählersteckklemmen](https://sites.google.com/smart-me.com/wiki/drittprodukte/zaehlersteckklemmen-nimbus-100A) - zum einfachen Wechsel von Zählern ohne Stromunterbrechung
+- [Zählersteckklemmen](/drittprodukte/zaehlersteckklemmen-nimbus-100A) - zum einfachen Wechsel von Zählern ohne Stromunterbrechung
 
 
 ## Reinigung

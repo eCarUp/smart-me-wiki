@@ -1,218 +1,188 @@
 ---
 title: 'Folder and Meter Configuration'
 slug: '/konfiguration/ordnerkonfiguration'
-description: 'Step-by-Step Instructions'
-sidebar_label: 'Folder and Meter Configuration'
+description: 'Video guide on creating folders and assigning meters'
+sidebar_label: 'Folder configuration'
 ---
-<Video src="" title="Video" />
+<Embed src="https://player.vimeo.com/video/661999827" aspect="1.291" title="Folder configuration" />
 
-## Step-by-Step Instructions
+Video guide on creating folders and assigning meters
 
-1.  Navigation to the Meter and Folder Configuration Area
+## Step-by-step guide
 
-2.  Log in to the [smart-me website](http://www.smart-me.com).
+### Navigating to the Meter and Folder Configuration area
 
-3.  Navigate to "Meter and Folder Configuration" in the left-hand menu.
+1.  Log in on the [smart-me website](https://web.smart-me.com/).
+
+2.  In the menu on the left, navigate to "Meter and folder configuration" (Zähler- und Ordnerkonfiguration)
 
 
-![Folder and Meter Configuration – figure 1](/img/_en/configuration-folder-configuration/01.png)
+![Folder and Meter Configuration – Figure 1](/img/konfiguration-ordnerkonfiguration/01.png)
 
-### Function description of actions
+### Description of the available actions
 
-![Folder and Meter Configuration – figure 2](/img/_en/configuration-folder-configuration/02.png)
+![Folder and Meter Configuration – Figure 2](/img/konfiguration-ordnerkonfiguration/02.png)
 
-Add Node
+Add node:
 
 Adds a node with a name and a freely selectable icon.
 
-The name affects the order in which the node is displayed in the tree.
+The name determines the order in which the node is shown in the tree. 
 
-1.  Numerical order
+1.  Sorted by numbers
 
-2.  Alphabetical order
-
-
-Edit Folder Node
-
-Allows changes to the node name, icon, and hierarchy (subordination).
+2.  Sorted alphabetically
 
 
+Edit folder node 
 
-Edit Meter Node
-
-Name: Set the name of the meter.
-
-Description: Optionally add a description for the meter.
-
-Value Correction: Corrects the meter's measured value on the cloud side (Situation calculations).
-
-Parent Folder Value Correction: Defines the percentage of the measured value that should be summed up in the parent folder.
-
-Meter active: Activate or deactivate a meter to save licenses. Deactivated meters no longer display data. You can find more information about deactivated meters in our FAQ under How do I deactivate my meter?.
-
-To activate or deactivate multiple meters at the same time, you can move them into a folder in the meter / folder configuration, right-click on it, and select a bulk action.
-
-![Zähler deaktvieren](/img/_en/configuration-folder-configuration/03.jpg)
-
-Delete Node
-
-Deletes the selected node or meter point from the tree.
-
-Meters will then revert to the left side as unassigned meters.
-
-![Folder and Meter Configuration – figure 4](/img/_en/configuration-folder-configuration/04.png)
-
-### Labeling Meters
-
-All meters must be installed in the corresponding account. [Commissioning](/konfiguration/inbetriebnahme)
-
-All meters must be labeled. Our suggestions for meter designations:
-
-- -   Unit Meter number (e.g., APT 1 6352415)
-
-    - Medium Unit Meter number (e.g., Heat APT 1)
+Allows changes to the node name, icon and parent assignment.
 
 
 
+Edit meter node
 
-(Note: "WHG" stands for "Wohnung", which I translated to "APT" for Apartment. You can also use "Unit" or "Flat" depending on your preference).
+Name:  Set the name of the meter.
+Description:
+Optionally add a description for the meter.
+Value correction: 
+Corrects the meter's measured value on the cloud side. (Position calculations)
+Parent folder value correction:
+Defines the percentage of the measured value that should be summed in the parent folder.
+Meter active:
+Activate or deactivate a meter to save licenses. Deactivated meters no longer show any data. You can find more information about deactivated meters in our FAQ under [How do I deactivate my meter?](/#how-do-i-deactivate-my-meter)
 
-![Folder and Meter Configuration – figure 5](/img/_en/configuration-folder-configuration/05.png)
+To activate or deactivate several meters at once, you can move them into a folder in the meter/folder configuration, right-click that folder and select a bulk action. 
 
-### Change cold water meters to warm water meters (if needed)
+![Deactivating meters](/img/konfiguration-ordnerkonfiguration/03.jpg)
 
-Certain M-Bus meter manufacturers indicate during data transmission that it is a cold water meter, even when it should be a hot water meter. In this case, the meter type must be overridden in smart-me.
+Delete node
 
-1.Navigate to the Dashboard:
+Deletes the selected node or metering point from the tree. 
 
-Go to the main Dashboard.
+Meters then fall back to the left-hand side as unassigned meters.
 
-2.Select the meter:
+![Folder and Meter Configuration – Figure 4](/img/konfiguration-ordnerkonfiguration/04.png)
 
-Choose the meter in the Dashboard menu.
+### Labelling meters
 
-3.Click the gear icon:
+- All meters must be installed in the corresponding account. [Commissioning](/konfiguration/inbetriebnahme) 
 
-Select the gear icon in the top right corner.
+- All meters must be labelled. Our suggestions for meter names 
 
-4.Advanced Settings:
+    - Unit meter number (e.g. APT 1 6352415)
 
-Click on Advanced Settings.
+    - Medium unit meter number (e.g. Heat APT 1)
 
-5.Change Device Type:
 
-Modify the device type.
+![Folder and Meter Configuration – Figure 5](/img/konfiguration-ordnerkonfiguration/05.png)
 
-6.Save:
+### Converting cold water meters into domestic hot water meters (if required)
 
-Save your changes.
+Some M-Bus meter manufacturers indicate during data transmission that the device is a cold water meter, even though it should be a domestic hot water meter. In this case the meter type must be overridden in smart-me.
 
-Note: This adjustment provides support in smart-me Billing. The auto-export for energy providers is not affected by this.
+- Navigate to the dashboard
+
+- Select the meter in the Dashboard menu
+
+- Select the gear icon at the top right
+
+- Advanced settings
+
+- Change the device type.
+
+- Save
+
+
+Note: This adjustment results in support in smart-me Billing. The Auto Export for utilities is not changed by this.
 
 Note: For technical reasons, this manipulation is not possible with heat and cooling meters.
 
+![Folder and Meter Configuration – Figure 6](/img/konfiguration-ordnerkonfiguration/06.png)
 
+### Folder structures and their impact on downstream processes
 
-![Folder and Meter Configuration – figure 6](/img/_en/configuration-folder-configuration/06.png)
+The current system allows automated billing for electricity. For this to work, heat and water must remain separate from electricity. Mixed systems are nevertheless possible in order to save effort with the tenant lists, but unfortunately the automated billing is then lost.
 
-### Folder structures and their influence on later processes
+For systems with several heating systems, however, a separation into several properties is unavoidable.
 
-The current system allows for automated electricity billing. For this to work, heat and water must be kept separate from electricity. Nevertheless, mixed systems are possible to reduce the administrative effort for the tenant registers; unfortunately, this results in the loss of automated billing.
+Each individually created property is generally able to represent 1x electricity and 1x heat/water.
 
-For systems with multiple heating setups, however, a separation into multiple properties is unavoidable.
+<Embed src="/embeds/konfiguration-ordnerkonfiguration-02.html" aspect="2.308" title="Folder configuration" />
 
-Fundamentally, each individually created property is capable of mapping 1x electricity and 1x heat/water.
-
-<Video src="" title="Custom embed" />
-
-## Correctly Mapping Buildings and Measurement Points
+### Basics of the tree structure and creating nodes
 
 To prepare a building for billing, the appropriate properties and billing units must be created.
 
-### Basic Folder Structure for Each Building
+Basic folder structure of each individual property
 
-The basic structure for each energy type and building consists of three main folders:
+The basic structure for each energy form and each building consists of two basic nodes and multiple sub-nodes:
 
-- Property (billing configuration)
+- Property (later configuration of a billing)
 
-    - -   Billing Unit 1 of the Property (Apartment or Rooms)
+    - -   Billing unit 1 of the property (apartment or rooms)
 
-            - -   Apartement meter (100% shares)
+            - -   Apartment meter (100% shares)
 
-        - Billing Unit 2 of the Property (Apartment or Rooms)
+        - Billing unit 2 of the property (apartment or rooms)
 
         - ...
 
-- Technical Meters (Collection of meter points not billed directly)
-    Any number of subfolders may be created here. 
+- Technical meters (collection of metering points that are not billed directly)
+    Any number of subfolders may be created here for structuring. 
 
     - -   -   Balance meter
 
-            - Solar meter
+            - Solar system meter
 
-            - General meters that are distributed on a percentage basis across billing units
+            - General meters that are distributed proportionally to billing units
 
-            - Heat meters that are distributed on a percentage basis across billing units
+            - Heat meters that are distributed proportionally to billing units
 
-            - Water meters distributed as percentages across billing units
-
-
-Important note:
-
-Each property can cover 1x electricity and 1x heat/water. If there are multiple heating systems involved, multiple properties are required. In this case, as many properties are created as there are heating systems.
-
-### Next step: create the structure for your project
-
-Choose now the next step according to your current project:
-
-[Only Electricity](https://doc.smart-me.com/configuration/folder-configuration/only-electricity)
-
-[Electricity and 1 heat system](https://doc.smart-me.com/configuration/folder-configuration/electricity-and-1-heat-system)
-
-[Electricity and multiple heat systems](https://doc.smart-me.com/configuration/folder-configuration/electricity-and-multiple-heat-systems)
-
-## Create folder and assign meter
-
-In smart-me you can create a folder structure and assign corresponding meters to this folder. This allows you to map a building with different billing units (e.g. flats), for example.
-
-To create new folders, proceed as follows:
-
-1.  Log in to the smart-me [website](https://web.smart-me.com/login/).
-
-2.  Click on Configuration in the top right-hand corner
-
-3.  Click on Counter / Folder Configuration
-
-4.  To create a new folder select Add Node.
-
-5.  To assign a counter to a folder, drag and drop the counter into the folder. Folders can also be moved using drag & drop.
+            - Water meters that are distributed proportionally to billing units
 
 
-If you want to undo the allocation of a meter, select the corresponding meter and click on Delete Node. The counter is now displayed again under Unassigned counters. 
+![Folder and Meter Configuration – Figure 7](/img/konfiguration-ordnerkonfiguration/07.png)
 
-## Automatically creating folders with a CSV file
+### Next step: Create the structure for your project
 
-smart-me allows users to automate the process of creating folders as well as assigning and renaming meters using a CSV file. You will need a smart-me Professional subscription to use this function.
+Now choose which guide you want to follow based on your project.
 
-CSV files contain tabular data that is stored in text form. They can be edited with a text editor (e.g. notepad++).
+[Electricity only](/konfiguration/ordnerkonfiguration/nur-strom)
 
-Please note: Using this function will cause existing folders to be deleted. This means that any functions used with these folders will no longer work, e.g. if-then actions, smart-me billing configurations, etc. 
+[Electricity and one heating system](/konfiguration/ordnerkonfiguration/strom-und-eine-heizung)
 
-![Folder and Meter Configuration – figure 7](/img/_en/configuration-folder-configuration/07.png)
+[Electricity and several heating systems](/konfiguration/ordnerkonfiguration/strom-und-mehrere-heizungen)
 
-The following columns (do not change the order) are contained in a configuration CSV file:
+## Additional information
 
-[](https://drive.google.com/open?id=1Ft_fg6mxKZCpPND-i5ZoWN6kAKacnDXD8rJGeOB40KM "Open Spreadsheet, Spalten der Konfigurations-CSV-Datei  in new window")
+### Creating folders automatically with CSV files
 
-<Video src="" title="Video" />
+smart-me offers the option of automating the creation of folders, the assignment and the renaming of meters by means of a CSV file. A smart-me Professional subscription is required for this function.
 
-Spalten der Konfigurations-CSV-Datei
+CSV files contain tabular data stored in text form. They can be edited with a text editor (e.g. notepad++).
 
-The separators ‘;’ and ‘//’ must not be used in names. They are reserved for separating columns and folders in paths.
+Caution: existing folders are deleted when this function is used. This means that all functions that were used with these folders no longer work (e.g. if/then actions, smart-me billing configurations, etc.). 
 
-If the four columns – ‘MeterPointId’, ‘ExportFormat’, ‘UploadType’ and ‘ExportInterval’ are present – the meter is also registered for auto export.
 
-A sample configuration without auto export:
+
+<Video src="YQVcTxPgdzM" title="YouTube video, creating folders by means of a csv file" />
+
+![Folder and Meter Configuration – Figure 8](/img/konfiguration-ordnerkonfiguration/08.png)
+
+A configuration CSV file contains the following columns (do not change the order):
+
+[](https://drive.google.com/open?id=1Ft_fg6mxKZCpPND-i5ZoWN6kAKacnDXD8rJGeOB40KM "Open Spreadsheet, wiki 2.0 tables in new window")
+
+<Embed src="https://docs.google.com/spreadsheets/d/1Ft_fg6mxKZCpPND-i5ZoWN6kAKacnDXD8rJGeOB40KM/htmlembed?gid=0" title="Spreadsheet, wiki 2.0 tables" />
+
+wiki 2.0 tables
+
+The separators ";" and "//" must not be used in names. They are reserved for separating columns and folders in paths.
+
+If the 4 columns "MeterPointId", "ExportFormat", "UploadType" and "ExportInterval" are present, the meter is additionally registered for the Auto Export.
+
+An example configuration without Auto Export:
 
 ```
 MeterSerialNumber;MeterName;FolderPath
@@ -221,7 +191,7 @@ MeterSerialNumber;MeterName;FolderPath
 101163;Schlafzimmer 102;Wohnung 1. Stock Links // Schlafzimmer
 ```
 
-A sample configuration with auto export:
+An example configuration with Auto Export:
 
 ```
 MeterSerialNumber;MeterName;FolderPath;MeterPointId;ExportFormat;UploadType;ExportInterval
@@ -230,36 +200,34 @@ MeterSerialNumber;MeterName;FolderPath;MeterPointId;ExportFormat;UploadType;Expo
 101163;Schlafzimmer 102;Wohnung 1. Stock Links // Schlafzimmer;CH102;CSV_1;FTP_2;Monthly
 ```
 
-
-
-
 ### Editing CSV files in Excel
 
-Excel also supports the editing of CSV files. There are two points to consider here:
+Excel also supports editing CSV files. There are two points to observe:
 
-1.  Excel must be prevented from rounding the meter serial number or displaying it in an exponential form, e.g. by treating numbers as text in Excel.
+1.  You must prevent Excel from rounding the meter serial number or displaying it in exponential form (e.g. by having Excel treat numbers as text.)
 
-2.  The CSV file must be in the UTF-8 character set. Excel does not display umlauts correctly. However, these characters are displayed correctly in a text editor (e.g. notepad++).
+2.  The CSV file must use the UTF-8 character set. Excel does not display umlauts correctly in this case. In a text editor (e.g. notepad++), however, these characters are displayed correctly.
 
 
-![Folder and Meter Configuration – figure 8](/img/_en/configuration-folder-configuration/08.png)
+![Folder and Meter Configuration – Figure 9](/img/konfiguration-ordnerkonfiguration/09.png)
 
 The recommended workflow is as follows:
 
-1.  Log into the smart-me website: [https://web.smart-me.com/login/](https://web.smart-me.com/login/)
+1.  Log in on the [smart-me website](https://web.smart-me.com/login/).
 
-2.  Click on ‘Configuration’ in the top right-hand corner
+2.  Click on Configuration (Konfiguration) at the top right
 
-3.  Click on ‘Meter/folder configuration’
+3.  Click on Meter / folder configuration (Zähler / Ordner Konfiguration)
 
-4.  Click on ‘Node configuration via CSV’
+4.  Click on Node configuration via CSV (Knoten Konfiguration über CSV)
 
-5.  Click on ‘Download node configuration’ to download the current configuration as a CSV file
+5.  Click on Download node configuration (Download Knoten Konfiguration) to download the current configuration as a CSV file
 
 6.  Edit the configuration
 
-7.  Check the configuration in a text editor that supports the UTF-8 character set to check whether meter serial numbers and names are displayed correctly
+7.  Check in a text editor with support for the UTF-8 character set whether meter serial numbers and names are displayed correctly
 
-8.  Click on ‘Browse’ and select the edited CSV file
+8.  Click on Browse (Durchsuchen) and select the edited CSV file
 
-9.  Click on ‘Upload node configuration’ to apply the configuration (caution: the resulting changes cannot be undone)
+9.  Click on Upload node configuration (Upload Knoten Konfiguration) to apply the configuration
+    Caution: the resulting changes cannot be undone

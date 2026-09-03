@@ -1,80 +1,95 @@
 ---
 title: 'VEWA - Billing'
 slug: '/konfiguration/billing/vewa-abrechnung'
-description: 'General information about VEWA'
+description: 'Introduction to smart-me from 2min 20sec'
 sidebar_label: 'VEWA - Billing'
 ---
-![VEWA - Billing – figure 1](/img/_en/configuration-billing-vewa-billing/01.png)
+![VEWA - Billing – Figure 1](/img/konfiguration-billing-vewa-abrechnung/01.png)
 
-## General information about VEWA
+## VEWA webinar
 
-VEWA stands for consumption-based energy and water cost billing. It provides a guide to fair billing of all types of energy costs and includes
+<Video src="nrziX2lLI0s" title="YouTube Video" />
 
-- Heating
+- [Introduction to smart-me](https://youtu.be/nrziX2lLI0s?si=ufIjxwLFavDER5VH&t=140) from 2min 20sec 
 
-- cooling
+- [VEWA](https://youtu.be/nrziX2lLI0s?si=O-Q5qFbhTNm4v4s-&t=770) from 12min 50sec
 
-- hot water
+- [Live demo](https://youtu.be/nrziX2lLI0s?si=CYljDSjMHWwKagCu&t=1498) from 24min 58sec 
 
-- cold water 
-
-- Electricity (can also be solved separately)
+- [Questions](https://youtu.be/nrziX2lLI0s?si=sr3GAi-mrt6gyLyQ&t=2432) from 40min 32sec 
 
 
-VEWA is the successor to the well-known VHKA billing system and supports extended energy sources and simplified procedures.
+## General information on VEWA
 
-VEWA distributes the costs for separate or combined heating systems based on meter readings and distributes the costs as fairly as possible.
+VEWA stands for consumption-based billing of energy and water costs. It provides guidelines for the fair allocation of all types of energy costs and covers:
 
-To this end, special procedures are used for heating, cooling and hot water in order to compensate for inequalities in the location of the apartments, losses in pipes or other differences between consumers.
+- Heat
 
-The following forms of cost allocation are used:
+- Cooling
 
-Sperated cost centers
+- Domestic hot water
 
-- Each energy comes from a different source
+- Cold water 
 
-
-![VEWA - Billing – figure 2](/img/_en/configuration-billing-vewa-billing/02.png)
-
-Combined heat and warm water
-
-- Any heatsystem with connected hot water reservoir
+- Electricity (can also be handled separately)
 
 
-![VEWA - Billing – figure 3](/img/_en/configuration-billing-vewa-billing/03.png)
+VEWA is the successor to the well-known VHKA billing scheme and supports additional energy sources and simplified procedures.
 
-Combined heat, cold and warm water cost center
+VEWA handles the cost allocation for separate or combined heating systems based on meter readings and distributes the costs as fairly as possible.
 
-- Heatpump with freecooling and hot water reservoir
+For heat, cooling and domestic hot water, special procedures are applied to compensate for differences in apartment location, losses in pipes or other differences between consumers.
+
+The following forms of cost allocation are available:
+
+Separate cost centres
+
+- Each type of energy comes from a different source
 
 
-![VEWA - Billing – figure 4](/img/_en/configuration-billing-vewa-billing/04.png)
+![VEWA - Billing – Figure 2](/img/konfiguration-billing-vewa-abrechnung/02.png)
 
-## Functional scope
+Combined heat and domestic hot water
+
+- Heating of any kind with a connected hot water tank
+
+
+![VEWA - Billing – Figure 3](/img/konfiguration-billing-vewa-abrechnung/03.png)
+
+Combined heat + cooling and domestic hot water
+
+- Heat pump with free cooling
+
+
+![VEWA - Billing – Figure 4](/img/konfiguration-billing-vewa-abrechnung/04.png)
+
+## Range of functions
 
 ### Which systems can be billed with smart-me VEWA?
 
-- Separate heating and water systems (heating, cooling, hot water, cold water)
+- separate heating and water systems (heat, cooling, domestic hot water, cold water)
 
-- Combined heating and hot water systems (heat + hot water, cooling, cold water)
+- combined heating and hot water systems (heat + domestic hot water, cooling, cold water)
 
-- Combined heating, hot water and cooling systems (heating + cooling + hot water, cold water)
+- combined heating, hot water and cooling systems (heat + cooling + domestic hot water, cold water)
 
 
-The prerequisite for successful billing of an energy type is that consumption meters are available in the units for each energy type.
+A prerequisite for successfully billing a type of energy is that consumption meters for each energy type are present in the units.
 
-Please note: 
+Note: 
 
 - Heat cost allocators are not supported
 
+- When billing with total production meters, the costs can be allocated to the residential units on a percentage basis.
 
-![VEWA - Billing – figure 5](/img/_en/configuration-billing-vewa-billing/05.png)
 
-Common Areas:
+![VEWA - Billing – Figure 5](/img/konfiguration-billing-vewa-abrechnung/05.png)
 
-It is possible to allocate meter readings collected in folders to billing units on a percentage basis at a later time (Billing).
+Common areas:
 
-This is supported for both of the above system variants.
+It is possible to allocate collections of meters in folders to billing units on a percentage basis at a later point (billing).
+
+This is supported for both of the system variants above.
 
 ### How many systems can be configured in one account?
 
@@ -82,260 +97,347 @@ One VEWA system can be billed per property. If there are several heating systems
 
 These can then be billed individually with different billing periods.
 
-### General mode of operation with smart-me VEWA
+### General approach when working with smart-me VEWA
 
-- VEWA can be used on any property. Accordingly, make sure that all consumption meters of the same heating system are located in the same property. If a heating system is the same for several buildings, the buildings must be merged into one.
+- VEWA can be applied to any property. Make sure that all consumption meters of the same heating system are located in the same property.
+    If several buildings share the same heating system, the buildings must be merged into one.
 
-- When using VEWA, all rental agreements and vacancies must be recorded correctly in the tenant register. Either in smart-me Billing or in the external real estate software when using DTA-VKA files.
-
-
-## Configure VEWA
-
-### 1\. Create properties depending on the structure
-
-For VEWA, a property must be created for each heating system. Examples of the appropriate structure for implementation can be found here: [smart-me Billing](/konfiguration/billing)
-
-A separate property is now created for each property folder with bills, except for the technical meters.
-
-In example 1a. a property is created for electricity and VEWA:
-
-- Altgasse 13 (only one building)
+- When using VEWA, all rental agreements and also vacancies must be recorded correctly in the tenant schedule. Either in smart-me Billing or in the external property management software when using DTA-VKA files.
 
 
-In example 1b. or a superstructure situation, three properties are created for electricity and VEWA:
+## Configuring VEWA
 
-- Altgasse 13
+1.  ### Activate VEWA and configure the cost allocations.
 
-- Altgasse 15 + 17
-
-- Altgasse 19
-
-
-The reason for the special treatment is that in this case the buildings do not share a single heating source. If this were the case, everything could be managed in one property.
-
-Note: In example 1b, the electricity tariffs in each property must be configured individually
-
-Billing configuration example 1b:
-
-![VEWA - Billing – figure 6](/img/_en/configuration-billing-vewa-billing/06.png)
-
-Example 1a.
-
-![VEWA - Billing – figure 7](/img/_en/configuration-billing-vewa-billing/07.png)
-
-Example 1b.
-
-![VEWA - Billing – figure 8](/img/_en/configuration-billing-vewa-billing/08.png)
-
-### 2\. Activate VEWA and configure cost allocations.
 
 Select the heating system:
 
-- Combined heating, cooling and hot water
+- Heat, cooling and domestic hot water combined
 
-- Heat, hot water combined
+- Heat, domestic hot water combined
 
 - Separate systems
 
 
-Whether combined or not depends on the heat generation. If, for example, a heat pump is used for heating, cooling and hot water preparation, combined billing is the best option, as the cost factor for all three energies is the same, namely electricity.
+Whether combined or not depends on the heat generation. If, for example, a heat pump is used for heating, cooling and hot water preparation, combined billing is the obvious choice, since the input variable is the same for all three types of energy, namely electricity.
 
-However, if the heating is provided by an oil heating system, but the hot water is produced purely electrically without the support of the oil heating system, non-combined billing is the choice.
+If, however, heating is provided by an oil heating system while the domestic hot water is heated purely electrically without support from the oil heating system, non-combined billing is the right choice.
 
 Cost allocation
 
-Cost allocation divides the total costs into fixed costs (basic costs) and variable costs (consumption-dependent costs).
+The cost allocation splits the total costs into fixed costs (basic costs) and variable costs (consumption-based costs).
 
 Basic costs
 
-The basic costs take into account any line losses, circulation losses, preferred location of an apartment with more sunshine, etc. and allocate a share of the costs to all tenants and their share of the total area of the property.
+The basic costs take into account any pipe losses, circulation losses, the favourable location of an apartment with more sunshine and so on, and distribute a share of the costs across all tenants and their share of the total floor area of the property.
 
 Variable costs
 
-The variable costs are applied directly to the recorded quantities of energy consumed. They correspond to the individual consumption of each tenant.
+The variable costs are applied directly to the recorded amounts of energy consumed. They correspond to the individual consumption of each tenant.
 
-Hot water preparation
+Domestic hot water preparation
 
-The following standard formula is used to estimate the energy used for hot water preparation on the basis of m3 values:
+So that the energy that went into hot water preparation can be estimated from m3 values, the following standard formula is applied:
 
-Hot water energy in kWh = Total hot water consumption \[m3\] \* 1.163 \* Temperature difference \[K\] \* 1.25
+Hot water energy in kWh =
+Total domestic hot water consumption values \[m3\] \* 1.163 \* temperature difference \[K\] \* 1,25
 
-The temperature difference can be selected and refers to the temperature difference of the cold water when it enters the building (usually +10°C) until it has been heated to the average temperature of the boiler (usually +52°C).
+The temperature difference can be selected and refers to the temperature difference between the cold water as it enters the building (usually +10°C) and the point at which it has been heated to the average temperature of the boiler (usually +52°C).
 
-According to this example, the difference is 
+In this example, the difference is therefore: 
 
-Temperature difference = target average temperature - inlet temperature = 52°C - 10°C = 42 K
+Temperature difference = target temperature - inlet temperature = 52°C - 10°C = 42 K
 
-![VEWA - Billing – figure 9](/img/_en/configuration-billing-vewa-billing/09.png)
+![VEWA - Billing – Figure 6](/img/konfiguration-billing-vewa-abrechnung/06.png)
 
-Orientation values for basic costs and variable costs Configuration:
+Reference values for configuring basic costs and variable costs:
 
-New buildings (all from 2018): 
+New buildings (anything from 2018 onwards): 
 
 - Basic costs 30%, variable costs 70%
 
 
-Renovated old buildings (insulation increased to new-build standard):
+Renovated older buildings (insulation upgraded to new-build standard):
 
 - Basic costs 40%, variable costs 60%
 
 
-Non-renovated old buildings (before 2018):
+Non-renovated older buildings (before 2018):
 
-- From basic costs 40%-50%, variable costs of 50-60%
+- Basic costs 40%\-50%, variable costs 50-60%
 
-- In addition, a location adjustment must be calculated for each apartment and either the measured value of the apartment meter must be reduced or the distribution percentages of a total meter must be weighted.
-    (Details in chapter 10 VEWA document under extended literature)
-
-
-Metering values can be influenced here do make the adjustment:
-[Meter/Folder Configuration](/konfiguration/ordnerkonfiguration)  
-
-- If a meter must reduce its measurement value by 20%: 
-    Measurment correction is set from 100% to 80%
+- In addition, a location adjustment must be calculated for each apartment. Either the reading of the apartment meter is reduced or the distribution percentages of the total meter are weighted. 
+    (Details in chapter 10 of the VEWA document under further literature)
 
 
-### 3\. Recording a billing period
+The apartment meter readings can be adjusted here to make the location adjustment: [Meter/folder configuration](/konfiguration/ordnerkonfiguration)  
 
-The costs can be recorded as full costs for each energy type. For combined systems, the individual costs of the individual energy sources are added together.
-
-![VEWA - Billing – figure 10](/img/_en/configuration-billing-vewa-billing/10.png)
-
-### 4\. Creating accounting periods and defining the content of the accounting period
-
-Creating the billing period
-
-1.  Activate or deactivate content
-
-2.  If electricity and the heating and ancillary costs are billed at different intervals, several periods are recorded.
+- If a meter has to reduce its reading by 20%: 
+    The value correction is set from 100% to 80%.
 
 
-e.g:
+### 2\. Creating a billing period
 
-- Electricity period Q1 2024 (electricity and others only)
+The costs can be recorded per energy type as full costs.
+With combined systems, the individual costs of the individual energy sources are added together.
 
-- Electricity period Q2 2024 (electricity and others only)
+![VEWA - Billing – Figure 7](/img/konfiguration-billing-vewa-abrechnung/07.png)
 
-- Electricity period Q3 2024 (electricity and others only)
+### 3\. Create billing periods and define the content of the billing period
 
-- Electricity period Q4 2024 (electricity and others only)
+1.  Create the billing period
 
-- Heat / Water period 2024 (only heat, cooling, hot and cold water)
+2.  Activate or deactivate content
 
 
-![VEWA - Billing – figure 11](/img/_en/configuration-billing-vewa-billing/11.png)
+If electricity and the heating and ancillary costs are billed at different intervals, several periods are recorded.
 
-### 5\. Recording the costs of the settlement period
+For example:
 
-Note for export to real estate software with DTA-VHKA files:
-If you want to use VEWA but export the data to another system in per thousand or consumption values, you do not need to enter any costs. The billing period needs to be created beforehand in the smart-me VEWA.
+- Electricity period Q1 2024 (electricity and other items only)
 
-The costs that may be recorded are roughly divided into the following costs:
+- Electricity period Q2 2024 (electricity and other items only)
+
+- Electricity period Q3 2024 (electricity and other items only)
+
+- Electricity period Q4 2024 (electricity and other items only)
+
+- Heat and water period 2024 (heat, cooling, domestic hot water and cold water only)
+
+
+![VEWA - Billing – Figure 8](/img/konfiguration-billing-vewa-abrechnung/08.png)
+
+### 4\. Recording the costs of the billing period
+
+Note on exporting to property management software with DTA-VHKA files:
+If you want to use VEWA but export the data to another system as per mille or consumption values, you do not need to record any costs. However, the billing period must be created beforehand.
+
+The costs that may be recorded fall roughly into the following categories:
 
 Energy costs
 
-Costs for the purchased energy source e.g: 
+Costs for the purchased energy source, for example: 
 
-- 1000 liters of oil for 2000 CHF
+- 1000 litres of oil for 2000 CHF
 
-- 500kWh electricity for 200 CHF
+- 500kWh of electricity for 200 CHF
 
-- 10 m3 cold water for 50 CHF
+- 10 m3 of cold water for 50 CHF
 
 
 Ancillary energy costs
 
-- Costs for operation and maintenance
+Costs for operation and maintenance
 
-- Costs of periodic inspection of the heating system
+- Costs of the periodic inspection of the heating system
 
-- Costs for the meter reading service (e.g. amortization of smart-me license costs)
+- Costs for the meter reading service (e.g. amortisation of the smart-me licence costs for the devices)
 
 - Administrative work in connection with the heating system
 
 - Chimney sweep costs
 
-- Waste disposal if the heating system incurs such costs.
+- Waste disposal if the heating system generates such costs.
 
 
-What are not ancillary energy costs
+What does not belong to the ancillary energy costs
 
-- Measurement infrastructure (This can be added to the rent costs)
+- Metering infrastructure (this is handled via a rent increase)
 
 
-Note for hot water costs:
+Note on the domestic hot water costs:
 
-The cost of hot water only carry costs for heating the hot water. The cold water amount used for hot water preparation is automatically applied in the cold water section. 
+The costs for domestic hot water only include the costs of heating the hot water. The amount of cold water used for hot water preparation is automatically transferred to the cold water section. 
 
-- If a total cold water meter is shared among apartments the total cold water is driven by the shared meter.
+- If a total cold water meter is allocated to several apartments on a percentage basis, the entire amount of cold water is calculated from this shared meter.
 
-- If cold water and hoit water meters are located in the appartments and applied with 100% of consumption, the total for coldwater is the sum of all hot and cold water meters.
+- If cold and hot water meters are located in the apartments and are applied with 100% of the consumption, the total for cold water is the sum of all hot and cold water meters.
 
 
 These can be entered per energy type and are added up.
 
-![VEWA - Billing – figure 12](/img/_en/configuration-billing-vewa-billing/12.png)
+![VEWA - Billing – Figure 9](/img/konfiguration-billing-vewa-abrechnung/09.png)
 
-### 6\. Meter rental fees
+### 5\. Billing meter rentals
 
-Unlike under the ZEV, the VEWA allows costs associated with the amortization of heat and water meters to be passed on to consumers.
+Unlike in a ZEV (association for own consumption), VEWA allows the costs for the amortisation of heat and water meters to be charged to consumers.
 
-However, this must be done through an increase in rent, not through utility charges.
+However, this must be done by increasing the rent, not via the ancillary costs.
 
 The hardware costs and the installation of a meter may be passed on.
 
-The amortization period is 10 years.
+An amortisation period of 10 years applies.
 
-The pass-through rules are described in Art. 269d of the Swiss Code of Obligations (OR) and Arts. 19 and 20 of the Water and Wastewater Ordinance (VMWG).
+The rules for passing on costs are described in Art. 269d CO and Art. 19 and 20 VMWG
 
-Details on the calculation can be found in the official VEWA document under 2.2 FORMAL PASS-THROUGH RULES
+Details of the calculation can be found in the official VEWA document under 2.2 FORMELLE ÜBERWÄLZUNGSREGELN 
 
-### 7\. Enter a tariff that is always valid for each energy source
+### 6\. Recording a permanently valid tariff for each energy source
 
-- This tariff is entered without a price (0) and is valid indefinitely (2099).
+- This tariff is entered without a price (0) and with an unlimited validity (2099).
 
-- Each energy source with a valid tariff is shown on the bill.
-
-
+- Every energy source with a valid tariff is shown on the invoice.
 
 
-![VEWA - Billing – figure 13](/img/_en/configuration-billing-vewa-billing/13.png)
 
-### 8\. Enter apartment areas
 
-The apartment areas must be known for the VEWA calculation and allocation of the basic costs. These can be defined in the respective settlement unit. They are then added up to the relevant total area.
+![VEWA - Billing – Figure 10](/img/konfiguration-billing-vewa-abrechnung/10.png)
 
-Note:
-In order to report the relevant total area correctly, all premises must be recorded as a billing unit, even if they do not have meters attached and are handled externally on a flat-rate basis.
+### 7\. Entering the apartment floor areas
+
+The apartment floor areas must be known for the VEWA calculation and the allocation of the basic costs. They can be defined in the respective billing unit. They are then added up to the relevant total floor area.
+
+Note: In order to report the relevant total floor area correctly, all premises must be recorded as billing units, even if they themselves have no meters assigned and are handled externally at a flat rate.
 Only whole numbers are possible.
 
 
 
-![VEWA - Billing – figure 14](/img/_en/configuration-billing-vewa-billing/14.png)
+![VEWA - Billing – Figure 11](/img/konfiguration-billing-vewa-abrechnung/11.png)
 
-### 9\. Record tenant list
+### Next step
 
-For VEWA accounting, all tenant contracts and vacancies must be entered in smart-me without any gaps.
+## Invoice content and breakdown
 
-Note for export to real estate software with DTA-VHKA files:
-If you want to use the VEWA but export the data to another system, you do not need to enter a tenant list, this is created via the import file. make sure that all tenant relationships and vacancies are recorded.
+### Overview
+
+The overview contains all costs at a glance, including any applied taxes and rounding differences.
+
+![VEWA - Billing – Figure 12](/img/konfiguration-billing-vewa-abrechnung/12.png)
+
+### Heat
+
+The heat section shows the total costs for the heat cost centre and the distribution keys and reference values applied.
+
+- Basic cost share in % (here 30%)
+
+- Consumption cost share in % (here 70%)
+
+- Total consumption of the property in kWh (here 700 kWh)
+
+- Total living space of the property in m2 (here 300 m2)
+
+
+The calculated tariffs are then applied to the respective apartment (blue block) based on the measured meter readings of the apartment.
+
+- Living space of the apartment in m2 (here 100 m2)
+
+- Occupancy days (here 91 of 91, 100% occupancy)
+
+- Meter reading of the respective apartment (here 500kWh)
 
 
 
-![VEWA - Billing – figure 15](/img/_en/configuration-billing-vewa-billing/15.png)
 
-### Next Step
 
-## Use VEWA with real estate software interface
 
-[Data exchange VEWA and DTA-VHKA Files](/schnittstellen/dta-vhka-files)
+![VEWA - Billing – Figure 13](/img/konfiguration-billing-vewa-abrechnung/13.png)
 
-## Error handling VEWA and Billing
+### Domestic hot water
 
-[Error messages billing](/stoerungsbehebung/billing-fehlermeldungen)
+The domestic hot water section shows the total costs for the hot water cost centre and the distribution keys and reference values applied.
+
+- Basic cost share in % (here 30%)
+
+- Consumption cost share in % (here 70%)
+
+- Total consumption of the property in m3 (here 5 m2)
+
+- Total living space of the property in m2 (here 300 m2) 
+
+
+These costs consist exclusively of the costs required to produce the hot water, but not the cold water used for it.
+More on the costs in the cost centre overview section.
+
+The calculated tariffs are then applied to the respective apartment (blue block) based on the measured meter readings of the apartment.
+
+- Living space of the apartment in m2 (here 100 m2)
+
+- Occupancy days (here 91 of 91, 100% occupancy)
+
+- Meter reading of the respective apartment in m3 (here 3 m3)
+
+
+![VEWA - Billing – Figure 14](/img/konfiguration-billing-vewa-abrechnung/14.png)
+
+### Cold water
+
+The cold water section shows the total costs for the cold water cost centre and the distribution keys and reference values applied.
+
+- Basic cost share in % (here 20%)
+
+- Consumption cost share in % (here 70%)
+
+- Total consumption of the property in m3 (here 13 m2)
+
+- Total living space of the property in m2 (here 300 m2) 
+
+
+The calculated tariffs are then applied to the respective apartment (blue block) based on the measured meter readings of the apartment.
+
+- Living space of the apartment in m2 (here 100 m2)
+
+- Occupancy days (here 91 of 91, 100% occupancy)
+
+- Meter reading of the respective apartment in m3 domestic hot water
+    (here 3 m3)
+
+- Meter reading of the respective apartment in m3 cold water
+    (here 5 m3)
+
+
+Note:
+
+Depending on the system, only cold water meters or a mix of cold and hot water meters may appear here; these systems are detected automatically.
+
+- If there is a main meter for cold water and none in the apartments, or only hot water meters in the apartments, only a percentage-based cold water meter would appear here.
+
+- If there are apartment meters for hot and cold water, both meters per apartment always appear here; the sum gives the total water consumption.
+
+
+![VEWA - Billing – Figure 15](/img/konfiguration-billing-vewa-abrechnung/15.png)
+
+### Cost centre overview
+
+Separate cost centres
+
+Every invoice includes the cost centre overview. It contains all recorded cost items for the individual cost centres.
+
+- For heat, all costs relating to the heating system are listed.
+
+- For domestic hot water, only the costs relating to the heating of the hot water are listed, but not the amount of cold water used.
+
+- For cold water, all costs relating to cold water and waste water are entered.
+
+
+Combined cost centres
+
+The cost centre overview can change visually when systems are combined.
+
+A common example is the combination of heat and domestic hot water, since part of the energy for hot water preparation comes from the heating system. (Hot water tank coupled to the heating system)
+
+In this case, the costs are shown combined.
+
+A special feature of this is that the conversion formula used to split the total energy into heating energy and hot water preparation energy is shown.
+
+Cost overview for separate cost centres
+
+![VEWA - Billing – Figure 16](/img/konfiguration-billing-vewa-abrechnung/16.png)
+
+Combined cost centre overview heat + domestic hot water
+(conversion formula below the cost overview)
+
+![VEWA - Billing – Figure 17](/img/konfiguration-billing-vewa-abrechnung/17.png)
+
+## Using VEWA with the property management software interface
+
+[Data exchange with VEWA and DTA-VHKA files](/schnittstellen/dta-vhka-files)
+
+## Troubleshooting VEWA and Billing
+
+[Faults in connection with VEWA](/stoerungsbehebung/billing-fehlermeldungen)
 
 ## Literature and further documents on VEWA (current legal situation)
 
-[VEWA Model Details](https://www.admin.ch/gov/de/start/dokumentation/medienmitteilungen.msg-id-67271.html)
+[VEWA billing model details and guidelines](https://www.admin.ch/gov/de/start/dokumentation/medienmitteilungen.msg-id-67271.html)
 
-[Go to VHKA-File Interface](/schnittstellen/dta-vhka-files)
+[Continue to the VHKA interface](/schnittstellen/dta-vhka-files)

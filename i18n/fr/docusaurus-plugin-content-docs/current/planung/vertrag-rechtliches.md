@@ -1,18 +1,18 @@
 ---
 title: 'Contrat / Aspects juridiques'
 slug: '/planung/vertrag-rechtliches'
-description: 'Base contractuelle pour un RCP (Suisse)'
+description: 'Base contractuelle d''un RCP (Suisse)'
 sidebar_label: 'Contrat / Aspects juridiques'
 ---
 [Anglais](/planung/vertrag-rechtliches)
 
-## Base contractuelle pour un RCP (Suisse)
+## Base contractuelle d'un RCP (Suisse)
 
-Le RCP (regroupement dans le cadre de la consommation propre) est un regroupement contractuel de plusieurs consommateurs finaux, destiné à consommer sur place l'électricité qu'ils produisent eux-mêmes. 
+Le RCP (regroupement dans le cadre de la consommation propre) est un regroupement contractuel de plusieurs consommateurs finaux qui vise à consommer sur place l'électricité qu'ils produisent eux-mêmes. 
 
-Dans un regroupement dans le cadre de la consommation propre, les consommatrices et consommateurs finaux disposent d'un raccordement au réseau commun. Vis-à-vis du gestionnaire de réseau de distribution (GRD), toutes les consommatrices et tous les consommateurs finaux participant au RCP concerné se présentent comme un client unique. 
+Dans un regroupement dans le cadre de la consommation propre, les consommateurs finaux disposent d'un raccordement au réseau commun. Vis-à-vis du gestionnaire de réseau de distribution, tous les consommateurs finaux participant au RCP concerné se présentent comme un seul et même client. 
 
-### Modèles standardisés de contrats RCP et d'adaptations des contrats de bail (modèle de contrat RCP)
+### Modèles standardisés de contrats RCP et d'avenants aux contrats de bail (modèle de contrat RCP)
 
 Association suisse des propriétaires fonciers : [https://www.hev-schweiz.ch/wohnen/bauen/haustechnik-gebaeudetechnik/eigenverbrauch/](https://www.hev-schweiz.ch/wohnen/bauen/haustechnik-gebaeudetechnik/eigenverbrauch/) (connexion requise)
 
@@ -33,7 +33,7 @@ Programme
 - [12:19 Bases juridiques du RCP](https://www.youtube.com/watch?v=KqU1XWR4YOU&t=739s)
 
 
-<Video src="KqU1XWR4YOU" title="Video" />
+<Video src="KqU1XWR4YOU" title="Vidéo YouTube, webinaire - Bases juridiques du RCP" />
 
 ### Partenaires que nous connaissons
 
@@ -122,4 +122,4 @@ Web : [www.bachenergy.ch](http://www.bachenergy.ch)
 
 [https://www.bundesnetzagentur.de/DE/Vportal/Energie/Vertragsarten/Mieterstrom/start.html](https://www.bundesnetzagentur.de/DE/Vportal/Energie/Vertragsarten/Mieterstrom/start.html)
 
-Pour toute question, merci de prendre contact avec smartred.de. Smart-Red est notre filiale qui dessert le marché allemand et commercialise nos produits dans des projets d'électricité pour les locataires conformément au cadre juridique en vigueur.
+Pour toute question, merci de contacter smartred.de. Smart-Red est notre filiale qui dessert le marché allemand et commercialise nos produits dans des projets d'électricité pour les locataires conformément au cadre juridique en vigueur.

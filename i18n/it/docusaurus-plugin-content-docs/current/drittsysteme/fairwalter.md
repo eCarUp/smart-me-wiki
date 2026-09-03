@@ -6,15 +6,15 @@ sidebar_label: 'Fairwalter'
 ---
 Fairwalter è un'applicazione completa per la gestione immobiliare e importa i dati dei contatori smart-me tramite API.
 
-I locatori privati ottengono una soluzione completa, chiara e intuitiva. L'installazione e gli aggiornamenti manuali non sono necessari. Familiari, consulenti fiscali, agenti immobiliari o custodi ricevono ciascuno un accesso proprio, in modo da poter gestire l'immobile insieme.
+I locatori privati ottengono una soluzione completa, chiara e intuitiva. L'installazione e gli aggiornamenti manuali non sono necessari. Familiari, consulenti fiscali, agenti immobiliari o custodi ricevono ciascuno un proprio accesso, consentendo una gestione condivisa.
 
-Le amministrazioni immobiliari risparmiano tempo e denaro nella configurazione della soluzione, nella formazione dei collaboratori e nella collaborazione con proprietari e fornitori di servizi. In quanto soluzione web, Fairwalter si adatta ai tuoi processi; integra soluzioni esterne tramite interfaccia e organizza i processi interni in modo flessibile.
+Le amministrazioni immobiliari risparmiano tempo e denaro nella configurazione della soluzione, nella formazione dei collaboratori e nella collaborazione con proprietari e fornitori di servizi. Essendo una soluzione web, Fairwalter si adatta ai tuoi processi; integra soluzioni esterne tramite interfaccia e organizza i processi interni in modo flessibile.
 
 
 
 - Fairwalter recupera i dati smart-me direttamente tramite API
 
-- Adatto ai conteggi delle spese accessorie
+- Adatto per i conteggi delle spese accessorie
 
 - Limitato nel conteggio dell'energia elettrica (nessuna tariffa solare)
 
@@ -27,7 +27,7 @@ Tutti i dati di consumo rilevati da smart-me vengono utilizzati automaticamente 
 
 [Video Live Demo](https://youtu.be/E7HuIAUehdE)
 
-<Video src="E7HuIAUehdE" title="Video" />
+<Video src="E7HuIAUehdE" title="Video YouTube, Live Demo Fairwalter" />
 
 Contatto:
 

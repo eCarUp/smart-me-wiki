@@ -1,10 +1,10 @@
 ---
 title: 'Contatore trifase Telstar 80A'
 slug: '/produkte/telstar'
-description: 'Lo smart-me Telstar 80A è un contatore di energia certificato MID con interfaccia WiFi integrata per la trasmissione di dati in tempo reale.'
+description: 'Lo smart-me Telstar 80A è un contatore di energia certificato MID con interfaccia WiFi integrata per la trasmissione dei dati in tempo reale.'
 sidebar_label: 'Contatore trifase Telstar 80A'
 ---
-Lo smart-me Telstar 80A è un contatore di energia certificato MID con interfaccia WiFi integrata per la trasmissione di dati in tempo reale. Il contatore sincronizza i valori di misura in modo automatico e crittografato con il cloud smart-me. I dati possono essere esportati e ulteriormente elaborati nel portale smart-me oppure tramite la nostra interfaccia aperta in sistemi di terzi. Il contatore dispone di due uscite digitali per il comando di apparecchi a potenziale zero.
+Lo smart-me Telstar 80A è un contatore di energia certificato MID con interfaccia WiFi integrata per la trasmissione dei dati in tempo reale. Il contatore sincronizza i valori di misura in modo automatico e cifrato con la cloud smart-me. I dati possono essere esportati e ulteriormente elaborati nel portale smart-me oppure, tramite la nostra interfaccia aperta, in sistemi di terzi. Il contatore dispone di due uscite digitali per il comando di apparecchi a potenziale zero.
 
 ![Contatore trifase Telstar 80A – Figura 1](/img/produkte-telstar/01.jpg)
 
@@ -22,24 +22,24 @@ Lo smart-me Telstar 80A è un contatore di energia certificato MID con interfacc
 
 - Ingresso a contatto a potenziale zero per segnale tariffario o [ingresso digitale](/schnittstellen/ein_und_ausgaenge)
 
-- [Interfacce](/) via API, CSV, MSCONS e IS-E
+- [Interfacce](/) tramite API, CSV, MSCONS e IS-E
 
-- Connessione dati crittografata in tempo reale con il cloud smart-me
+- Connessione dati cifrata in tempo reale con la cloud smart-me
 
 
 ## Dati tecnici
 
-<Video src="" title="Custom embed" />
+<Embed src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSQ2T_oNXpPR0sUnjcsWY-ymK0lgmZxopMCiyV0gQq9rV7fH5oJEYEVx0a4AUHNfunOHC5igswOLVyi/pubhtml?gid=0&range=A1:B27&single=true&widget=false&headers=false&chrome=false" aspect="1.192" title="Contatore trifase Telstar 80A" />
 
 ## Display
 
-Valore / Simbolo Descrizione
+Valore / simbolo Descrizione
 
-1.8.1 Codice OBIS per la lettura del contatore visualizzata
+1.8.1 Codice OBIS della lettura del contatore visualizzata
 
 T1 Tariffa attiva (tariffa 1 o tariffa 2)
 
-Freccia Direzione della corrente (destra prelievo / sinistra immissione)
+Freccia Direzione della corrente (a destra prelievo / a sinistra immissione)
 
 Ricezione (barre) Intensità del segnale WiFi
 
@@ -73,19 +73,19 @@ C.1.6 Ch: 762A Checksum del firmware
 
 Indicazione di errore (codice OBIS seguito dai messaggi di errore)
 
-C.60.9 Fraud Flag (possibile tentativo di manipolazione rilevato)
+C.60.9 Fraud Flag (rilevato possibile tentativo di manipolazione)
 PhL: 1 solo fase L1 collegata
 PhL: 2 solo fase L2 collegata
 PhL: 3 solo fase L3 collegata
 PhL: 23 fase L1 non collegata
 PhL: 13 fase L2 non collegata
 PhL: 12 fase L3 non collegata
-Sequenza delle fasi corretta: i numeri sono accesi in modo fisso
-Sequenza delle fasi errata: i numeri lampeggiano
+Sequenza delle fasi corretta: le cifre sono accese in modo fisso
+Sequenza delle fasi errata: le cifre lampeggiano
 
 ## Dimensioni e collegamenti
 
-I dati \*.DXF e \*.DWG si trovano nell'archivio ZIP nella sezione download.
+I dati \*.DXF e \*.DWG si trovano nell'archivio ZIP nei download.
 
 ### Dimensioni \[mm\]
 
@@ -103,7 +103,7 @@ I dati \*.DXF e \*.DWG si trovano nell'archivio ZIP nella sezione download.
 
 T1 Tasto per l'installazione
 
-Se il tasto T1 viene premuto per 10 secondi, viene creata una rete WiFi locale per l'installazione
+Se il tasto T1 viene premuto per 10 secondi, viene generata una rete WiFi locale per l'installazione
 
 T1 + T2 Riavvio
 
@@ -111,32 +111,32 @@ Premere contemporaneamente i tasti T1 e T2 per 10 secondi per forzare un riavvio
 
 T2 Funzioni speciali
 
-Breve: se T2 viene premuto >2s, la lampada LED verde commuta (da spenta ad accesa o da accesa a spenta). Quando è attivata, indica lo stato della connessione
+Breve: se T2 viene premuto per >2s, la lampada LED verde viene commutata (da spenta ad accesa o da accesa a spenta). Quando è attivata, indica lo stato della connessione
 
-🟢 Verde fisso: connesso al cloud smart-me
+🟢 Verde fisso: connesso alla cloud smart-me
 
-❇️ Verde lampeggiante: connessione in corso o nessuna connessione
+❇️ Verde lampeggiante: instaurazione della connessione o nessuna connessione
 
-Lungo: se T2 viene premuto >8s, la visualizzazione della potenza commuta tra potenza attiva e potenza reattiva. Inoltre il LED degli impulsi di taratura passa da energia attiva a energia reattiva.
+Lungo: se T2 viene premuto per >8s, la visualizzazione della potenza viene commutata tra potenza attiva e potenza reattiva. Inoltre il LED degli impulsi di taratura passa da energia attiva a energia reattiva.
 
-Molto lungo: se T2 viene premuto >14s, l'uscita a impulsi S0-0 commuta tra potenza attiva e potenza reattiva.
+Molto lungo: se T2 viene premuto per >14s, l'uscita a impulsi S0-0 viene commutata tra potenza attiva e potenza reattiva.
 
-Nota: questa impostazione modifica solo la visualizzazione sul display, non nel cloud smart-me (app e sito web). Se l'energia reattiva deve essere visualizzata nel cloud, occorre impostarlo nelle impostazioni generali.
+Nota: questa impostazione modifica solo la visualizzazione sul display, non nella cloud smart-me (app e sito web). Se l'energia reattiva deve essere visualizzata nella cloud, occorre impostarlo nelle impostazioni generali.
 
 ## LED
 
 ![Contatore trifase Telstar 80A – Figura 7](/img/produkte-telstar/07.png)
 
-🟢 LED verde - Stato della connessione
+🟢 LED verde - stato della connessione
 
-- Indica lo stato della connessione al cloud smart-me. a) Lampeggiante = errore di connessione b) Sempre acceso = connessione OK
+- Indica lo stato della connessione alla cloud smart-me. a) Lampeggiante = errore di connessione b) Sempre acceso = connessione OK
 
 
 ![Contatore trifase Telstar 80A – Figura 8](/img/produkte-telstar/08.png)
 
 🔴 LED rosso - LED a impulsi
 
-- Indica la potenza attiva o reattiva attualmente prelevata con 1000 impulsi/kWh rispettivamente 1000 impulsi/kVArh. Se viene indicata la potenza attiva o reattiva può essere impostato con il tasto T2.
+- Indica la potenza attiva o reattiva attualmente prelevata con 1000 impulsi/kWh risp. 1000 impulsi/kVArh. Se venga visualizzata la potenza attiva o reattiva può essere impostato con il tasto T2.
 
 
 - Per esempio: un LED con la dicitura «1000 impulsi/kWh» lampeggia 1000 volte quando è stato prelevato o immesso 1 chilowattora (kWh) di energia. Se i 1000 impulsi sono stati contati entro 1 ora, è stata misurata una potenza costante di 1 kW.
@@ -144,13 +144,13 @@ Nota: questa impostazione modifica solo la visualizzazione sul display, non nel 
 
 ## Configurare ingressi e uscite
 
-Il Telstar 80A dispone di due uscite digitali e di un ingresso digitale, che possono essere utilizzati come ingressi e uscite a impulsi oppure come contatto a potenziale zero commutabile. I dettagli si trovano nella pagina wiki [Ingressi e uscite](/schnittstellen/ein_und_ausgaenge)
+Il Telstar 80A dispone di due uscite digitali e di un ingresso digitale, che possono essere utilizzati come ingressi e uscite a impulsi oppure come contatto commutabile a potenziale zero. I dettagli si trovano nella pagina wiki [Ingressi e uscite](/schnittstellen/ein_und_ausgaenge)
 
-Il Telstar 80A dispone su un'uscita digitale di un relè che può commutare fino a 8A.
+Il Telstar 80A dispone su un'uscita digitale di un relè in grado di commutare fino a 8A.
 
 ## Tecnologia mesh
 
-In caso di ricezione WiFi molto debole o assente, il Telstar 80A si collega automaticamente tramite la funzione mesh a un altro contatore vicino a portata. Questo assume quindi la comunicazione con il cloud smart-me. Con la tecnologia mesh si garantisce che i contatori presentino una maggiore disponibilità verso il cloud smart-me. Non è possibile disattivare la funzione mesh sul contatore. Con [Modbus TCP](/schnittstellen/modbus-tcp) attivato valgono limitazioni specifiche.
+In caso di ricezione WiFi molto debole o assente, il Telstar 80A si collega automaticamente tramite la funzione mesh a un altro contatore vicino nel raggio d'azione. Questo assume quindi la comunicazione con la cloud smart-me. Con la tecnologia mesh si garantisce che i contatori presentino una maggiore disponibilità verso la cloud smart-me. Non è possibile disattivare la funzione mesh sul contatore. Con [Modbus TCP](/schnittstellen/modbus-tcp) attivato valgono limitazioni specifiche.
 
 ## Informazioni di spedizione
 
@@ -179,7 +179,7 @@ Peso con imballaggio: 415g
 
 ### Con quale intervallo i contatori inviano i dati?
 
-- Ogni 15 minuti, quindi alle xx:00:00, xx:15:00, xx:30:00 e xx:45:00. In questo modo vengono inviati i dati necessari per la curva di carico. Questi dati vengono salvati localmente in caso di interruzione della connessione e inviati successivamente.
+- Ogni 15 minuti, ovvero alle xx:00:00, xx:15:00, xx:30:00 e xx:45:00. In questo modo vengono inviati i dati necessari per la curva di carico. In caso di interruzione della connessione, questi dati vengono memorizzati localmente e inviati successivamente.
 
 - Inoltre almeno ogni 330 secondi.
 
@@ -187,11 +187,11 @@ Peso con imballaggio: 415g
 
     - Variazione della lettura del contatore superiore a 100Wh
 
-    - Variazione di potenza superiore a 100W
+    - Variazione della potenza superiore a 100W
 
-    - Variazione di corrente superiore a 1A
+    - Variazione della corrente superiore a 1A
 
-    - Variazione di tensione superiore a 1V
+    - Variazione della tensione superiore a 1V
 
     - Ogni secondo, quando il contatore è selezionato nella GUI (portale smart-me)
 

@@ -6,13 +6,13 @@ sidebar_label: 'elmoove'
 ---
 ## Enregistrement du webinaire
 
-<Video src="5DH7QX_c5qY" title="Video" />
+<Video src="5DH7QX_c5qY" title="Vidéo YouTube" />
 
 ## Recharger intelligemment avec la mooveBar
 
-Elmoove est une entreprise suisse qui travaille depuis 2017 dans les domaines de l'e-mobilité, de la micromobilité électrique et des systèmes de gestion de l'énergie.
+Elmoove est une entreprise suisse qui, depuis 2017, se consacre à l'e-mobilité, à la micromobilité électrique et aux systèmes de gestion de l'énergie.
 
-La mooveBar est le produit le plus innovant en matière de solutions de recharge sur le marché des vélos électriques. De conception modulaire, elle peut être utilisée pour des décomptes énergétiques qualifiés dans les immeubles. La mooveBar est équipée de 4 prises auxquelles tous les chargeurs peuvent être raccordés. Les prises sont en permanence hors tension et doivent être activées au moyen de cartes RFID. Cela garantit que personne ne puisse recharger son véhicule sans autorisation.
+La mooveBar est le produit le plus innovant en matière de solutions de recharge sur le marché des vélos électriques. De conception modulaire, elle peut être utilisée pour des décomptes énergétiques qualifiés dans les immeubles. La mooveBar est équipée de 4 prises auxquelles tous les chargeurs peuvent être raccordés. Les prises sont en permanence hors tension et doivent être activées au moyen de cartes RFID. On garantit ainsi que personne ne peut recharger son véhicule sans autorisation.
 
 Pour une intégration réussie, la société elmoove GmbH peut configurer la station.
 
@@ -32,4 +32,4 @@ CH-8242 Hofen
 
 [www.elmoove.ch](https://elmoove.ch/)
 
-<Video src="Be9wba-Ees0" title="Video" />
+<Video src="Be9wba-Ees0" title="Vidéo YouTube" />

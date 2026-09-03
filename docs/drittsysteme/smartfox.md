@@ -62,7 +62,7 @@ Komplete [Anleitung zur Verknüpfung](https://drive.google.com/file/d/1FaH_zWsVs
 
 ### Schnellanleitung
 
-1.  [IP-Adresse des smart-me Zählers herausfinden](https://sites.google.com/smart-me.com/wiki/schnittstellen/modbus-tcp#h.oomtf1ei320r).
+1.  [IP-Adresse des smart-me Zählers herausfinden](/schnittstellen/modbus-tcp#ip-adresse-mit-dns-name-ermitteln).
 
 2.  Externes Gerät in SMARTFOX hinzufügen. (smart-me Telstar wählen)
 

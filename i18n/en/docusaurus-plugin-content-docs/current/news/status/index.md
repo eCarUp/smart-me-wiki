@@ -10,23 +10,23 @@ No disruption currently known
 
 Everything is fine.
 
-## Deutsch (open)
+## Deutsch (offen)
 
 Problem:
 
-- Picos delivered between 21.04.2026 and 30.04.2026 cannot be installed via WLAN using the normal process. 4G works without any problems.
+- Picos delivered between 21.04.2026 and 30.04.2026 cannot be installed with WLAN via the normal process. 4G works without any issues.
 
 
 Solution together with support
 
-1.  Create an account or log in to the account in which the Pico must be installed
+1.  Create an account or log in to the account in which the Pico has to be installed
 
-2.  Create the RFID card as shown in the video on the right.
+2.  Create the RFID card as shown in the video on the right-hand side.
 
 3.  Install the Picos with the RFID card by holding the RFID card against the Pico. Make sure to use the card supplied with the Pico and hold it there until the green check mark appears.
 
 
-<Video src="" title="Video" />
+<Embed src="https://drive.google.com/file/d/1OgRKSQ0eyxUsqPxcM7ngkiJCvakHourV/preview" aspect="0.445" title="Drive, Pico IBN RFID card.mp4" />
 
 Pico IBN RFID Karte.mp4
 
@@ -34,16 +34,16 @@ Pico IBN RFID Karte.mp4
 
 
 
-## Deutsch (closed)
+## Deutsch (Geschlossen)
 
-### 10.03.2026 Telephone system not working (closed)
+### 10.03.2026 Telephone system not working (Closed)
 
-Problem:
+Problem: 
 
 - The telephone system is not working, so we cannot be reached by telephone.
 
 
-Start of the disruption
+Start of disruption
 
 - 10.03.2026 14h40
 
@@ -57,16 +57,16 @@ Status:
 
 Completion: 16.01.2026 14h45
 
-### 16.01.2026 1nce disruption 4G Pico may be offline (closed)
+### 16.01.2026 1nce disruption 4G Pico may be offline (Closed)
 
-Problem:
+Problem: 
 
 - Picos connected via the integrated SIM card may go offline.
 
 - The 2G/3G connectivity is degraded. The devices might not be able to connect to the network or establish data connections.
 
 
-Start of the disruption
+Start of disruption
 
 - 16.01.2026 7h30
 
@@ -79,7 +79,7 @@ Status:
 
 - 16.01.2026 11h30 1nce problem solved.
 
-- 16.01.2026 14h30 some picos are still offline
+- 16.01.2026 14h30 some picos are still offline 
 
 - 16.01.2026 14h45 Workaround to get the picos back online. [Pico 4G outage](/news/status/pico-4g-ausfall)
 
@@ -90,11 +90,11 @@ Status:
 
 Completion: 16.01.2026 14h45
 
-Unfortunately, we have to inform you that some charging stations are still affected by the 1nce SIM outage (card provider).
+Unfortunately, we have to inform you that some charging stations are still affected by the 1nce SIM outage (card provider). 
 
-Since a resolution of the disruption by the external provider is not realistic, we have acted proactively in order to provide you with a reliable solution.
+Since it is not realistic for the external provider to resolve the disruption, we have acted proactively in order to provide you with a reliable solution.
 
-Instructions for resolving the disruption [Pico 4G outage](/news/status/pico-4g-ausfall)
+Instructions for resolving the disruption [Pico 4G outage](/news/status/pico-4g-ausfall) 
 
 ## English (Closed)
 

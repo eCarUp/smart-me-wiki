@@ -66,10 +66,10 @@ smart-me ist ein offenes Energiemanagement-System. Mit smart-me können Strom-, 
 
 Finde heraus ob du einen Partner brauchst, einfach erklärt.
 
-<Video src="fb33ML8YTYA" title="Video" />
+<Video src="fb33ML8YTYA" title="YouTube Video, Webinar &quot;Planung einer ZEV&quot;" />
 
 ### Webinar "Energiedaten exportieren"
 
 Überblick zu den Export Möglichkeiten.
 
-<Video src="YXnEf3CQatc" title="Video" />
+<Video src="YXnEf3CQatc" title="YouTube Video, Energiedaten exportieren" />

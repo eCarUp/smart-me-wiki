@@ -307,10 +307,6 @@ TeamViewer-Support:
 
 Nur nach telefonischer Vereinbarung verfügbar.
 
-[
-
-![Technische Daten & Handbücher – Abbildung 17](/img/home/17.jpg)
-
-](https://get.teamviewer.com/68stbb8)
+[![Technische Daten & Handbücher – Abbildung 17](/img/home/17.jpg)](https://get.teamviewer.com/68stbb8)
 
 [Download Team Viewer für smart-me](https://get.teamviewer.com/68stbb8)

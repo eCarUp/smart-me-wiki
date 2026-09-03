@@ -4,7 +4,7 @@ slug: '/produkte/eingestellte-produkte'
 description: 'La vendita di questi prodotti è stata interrotta.'
 sidebar_label: 'Prodotti fuori produzione'
 ---
-La vendita di questi prodotti è stata interrotta. Il supporto e l'assistenza cloud continuano a essere garantiti.
+La vendita di questi prodotti è stata interrotta. Il supporto e l'assistenza cloud restano garantiti.
 
 ![Prodotti fuori produzione – Figura 1](/img/produkte-eingestellte-produkte/01.jpg)
 
@@ -40,11 +40,7 @@ Serial No. smart-eye: 94\*
 
 
 
-[
-
-![Prodotti fuori produzione – Figura 5](/img/produkte-eingestellte-produkte/05.jpg)
-
-](/produkte/pico-ladestation-exa)
+[![Prodotti fuori produzione – Figura 5](/img/produkte-eingestellte-produkte/05.jpg)](/produkte/pico-ladestation-exa)
 
 [Stazione di ricarica Pico exA](/produkte/pico-ladestation-exa)
 

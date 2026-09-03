@@ -20,7 +20,7 @@ Um die Beispiel-Datei nutzen zu können, lade sie runter und .. 
 2.  Aktualisieren der Abfrage Login Daten gemäss Informationen in der Tabelle "Dashboard".
 
 
-<Video src="" title="Video" />
+<Embed src="https://drive.google.com/file/d/1xb5lgnMii5c1Bp7th9swMJrNhM4Go7ib/preview" aspect="1.330" title="Drive, API_Test_ValuesInPast_Example.xlsx" />
 
 API\_Test\_ValuesInPast\_Example.xlsx
 

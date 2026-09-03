@@ -204,7 +204,7 @@ Wird das Signal des Energieversorgers im Lastabwurffall angelegt (0V --> 230V), 
 
 Signal (1) = 1 = Verfügbare Energie wird reduziert.
 
-[Beschaltung und Konfiguration Zählereingänge](https://sites.google.com/smart-me.com/wiki/schnittstellen/ein_und_ausgaenge)
+[Beschaltung und Konfiguration Zählereingänge](/schnittstellen/ein_und_ausgaenge)
 
 ![Konfiguration Multilevel Lastmanagement – Abbildung 11](/img/konfiguration-multilevel-lastmanagement-mlm-konfigurieren/11.png)
 

@@ -23,7 +23,7 @@ Im Solar Manager gibt es mehrere Optionen den smart-me Zähler und Pico Ladestat
 
 Zielgruppe: Einfamilien- und Mehrfamilienhäuser
 
-<Video src="D3Mh-cAyHvw" title="Video" />
+<Video src="D3Mh-cAyHvw" title="YouTube Video, Demo Solar Manager Integration von smart-me Zählern" />
 
 ## Einbindung Allgemein
 

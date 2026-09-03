@@ -1,6 +1,6 @@
 ---
-title: 'Calcolatore di tariffe elettriche smart-me'
+title: 'Calcolatore delle tariffe elettriche smart-me'
 slug: '/konfiguration/billing/stromtarife-definieren/stromtarif-rechner'
-sidebar_label: 'Calcolatore di tariffe elettriche smart-me'
+sidebar_label: 'Calcolatore delle tariffe elettriche smart-me'
 ---
-<Video src="" title="Custom embed" />
+<Embed src="/embeds/konfiguration-billing-stromtarife-definieren-stromtarif-rechner-01.html" aspect="0.416" title="Calcolatore delle tariffe elettriche" />

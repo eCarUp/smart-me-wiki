@@ -27,7 +27,7 @@ Alle von smart-me erfassten Verbrauchsdaten werden automatisch für die Heiz- un
 
 [Video Live Demo](https://youtu.be/E7HuIAUehdE)
 
-<Video src="E7HuIAUehdE" title="Video" />
+<Video src="E7HuIAUehdE" title="YouTube Video, Live Demo Fairwalter" />
 
 Kontakt:
 

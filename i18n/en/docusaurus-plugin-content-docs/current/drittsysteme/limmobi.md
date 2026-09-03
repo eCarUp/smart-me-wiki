@@ -1,22 +1,25 @@
 ---
 title: 'Limmobi'
 slug: '/drittsysteme/limmobi'
-description: 'LIMMOBI is a modern cloud software solution that makes it possible to carry out property management from A to Z digitally and efficiently.'
+description: 'LIMMOBI is a modern cloud-based software solution that makes it possible to manage real estate digitally and efficiently from A to Z.'
 sidebar_label: 'Limmobi'
 ---
-[LIMMOBI](https://limmobi.ch)  is a modern cloud software solution that makes it possible to carry out property management from A to Z digitally and efficiently. The processing of incoming invoices, the control of incoming payments and the preparation of the service charge settlement are automated.
+[LIMMOBI](https://limmobi.ch)  is a modern cloud-based software solution that makes it possible to manage real estate digitally and efficiently from A to Z. The processing of incoming invoices, the monitoring of incoming payments and the creation of the ancillary cost statement are automated.
 
-The process automation, additional services and intuitive user guidance make it possible to minimise the user's requirements for special knowledge about accounting, law and IT.
+Process automation, additional services and intuitive user guidance make it possible to minimize the demands on the user's specialist knowledge of accounting, law and IT.
+
+- smart-me data directly via API.
+
+- Electricity billing based on calculated tariffs (off-peak tariff, peak tariff, solar tariffs) and / or meter readings.
+
+- Ancillary cost billing for heat, water and gas according to VEWA.
 
 
-- Smart-me data directly over API.
+![Limmobi – Figure 1](/img/drittsysteme-limmobi/01.png)
 
-- Electricity billing of calculated tariffs and / or meter data.
+The video tutorial shows how easily smart-me and LIMMOBI can be integrated. This allows the meter readings from smart-me to be used automatically for the heating and ancillary cost statement in LIMMOBI.
 
-- Service charge settlement of heat, water and gas according to VEWA.
-
-
-![Limmobi – figure 1](/img/_en/third-party-systems-limmobi/01.png)
+<Video src="XIlkmWgBjn4" title="YouTube video, live demo LIMMOBI" />
 
 Contact:
 

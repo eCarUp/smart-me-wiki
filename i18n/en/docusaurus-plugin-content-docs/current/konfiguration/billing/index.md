@@ -1,300 +1,277 @@
 ---
 title: 'Energy Billing'
 slug: '/konfiguration/billing'
-description: 'You need a smart-me Professional subscription to be able to create energy bills.'
-sidebar_label: 'Energy Billing'
+description: 'You need a smart-me Professional subscription in order to create energy cost bills.'
+sidebar_label: 'Billing'
 ---
-### Requirement
+### Prerequisite
 
-You need a smart-me Professional subscription to be able to create energy bills. 
+You need a smart-me Professional subscription in order to create energy cost bills. 
 
 ## Tools
 
-[smart-me tariff caluclator](https://doc.smart-me.com/configuration/billing/define-electrical-tariffs/smart-me-tariff-calculator)
+[smart-me electricity tariff calculator](/konfiguration/billing/stromtarife-definieren/stromtarif-rechner)
 
-## Video smart-me billing A-Z
+## Webinar smart-me Billing from A-Z
 
-This video explains step by step how to configure a property in the Billing Tool.
+Our webinar explains step by step how to create energy cost bills with the Billing tool:
 
-<Video src="" title="Video" />
+<Video src="0AvKOogoW5Q" title="YouTube video, smart-me Billing for advanced users" />
 
-## smart-me billing bill examples
+<Video src="mK1HYLRtBUI" title="YouTube video, smart-me Billing - virtual tariffs, peak power, changing meter rental" />
 
-Example energy bill.pdf
+Video content
 
-Example Bill Electric Energy
+- Configuring peak and off-peak tariff to a single tariff
 
-Example\_Bill\_VEWA\_Heat\_charge\_settlement.pdf
+- Adjusting the prices of the virtual tariffs
 
-Example heat cost settlement with VEWA
+- Peak power
 
-## Configure billing step by step
-
-With this step-by-step guide we would like to support you in configuring your billing. Please note that this is only an example to guide you. Depending on the structure of your property, there will be differences to our example. 
-
-## Settings of the Billing
-
-First, navigate to the Billing Settings.
-
-Configure the currency and the application of value-added tax (VAT) here.
-
-Specific VAT Settings:
-
-Case A: You are a ZEV making under CHF 100,000 in revenue from electricity and have not voluntarily submitted to VAT liability:
-
-- VAT: 0%
-
-- Tax already included in prices: YES
+- Meter rental
 
 
-Case B: You are a ZEV making CHF 100,000 or more in revenue from electricity sales or have voluntarily submitted to VAT liability:
+## smart-me Billing invoice examples
 
-- VAT: 8.1%
+Beispiel Energiekostenabrechnung.pdf
 
-- Tax already included in prices: NO
+Example: electricity bill
 
+Beispiel\_Rechnung\_VEWA\_Heizkosten.pdf
 
-![Energy Billing – figure 1](/img/_en/configuration-billing/01.png)
+Example: VEWA billing
 
-![Energy Billing – figure 2](/img/_en/configuration-billing/02.png)
+## Configuring the billing step by step
 
-While you're at it, configure your logo for the invoice.
+This step-by-step guide is intended to support you in configuring your billing. Please note that this is only an example for you to use as a reference. Depending on how your property is set up, there will be differences from our example. 
 
-Fill the header with the contact details and address of the invoice sender, and add a few friendly words for your customers in the footer.
+## Billing settings
 
-![Energy Billing – figure 3](/img/_en/configuration-billing/03.png)
+First, navigate to the billing settings (Rechnungsstellung).
 
-## Configuration of the billing
-
-Now navigate to Billing Configuration to set up the billing for the properties.
-
-![Energy Billing – figure 4](/img/_en/configuration-billing/04.png)
-
-1.  ### Create billing property
+Configure the currency and the application of value added tax here.
 
 
-The property can be added (created) under Billing.
 
-This process is now carried out for all nodes that contain billing units.
+Specific settings for VAT:
 
-During this step, all previously created subfolders and assigned meters are automatically mapped. For this reason, we recommend doing this prior to creating the property in smart-me Billing.
+- Case A: You are a ZEV (association for own consumption) and are certain to generate less than CHF 100,000 in revenue from electricity and have not voluntarily registered for VAT:
+    \- VAT 0%
+    \- Tax already included in prices: YES
 
-The metering points that are meant to be distributed and are located in the "Technical Meter" node must now be assigned manually.
+- Case B: You are a ZEV and generate CHF 100,000 or more in revenue from electricity sales or have voluntarily registered for VAT:
+    \- VAT 8.1%
+    \- Tax already included in prices: NO
 
-![Energy Billing – figure 5](/img/_en/configuration-billing/05.png)
 
-### 2\. Manually comission a meter to a billing unit
+![Energy Billing – figure 1](/img/konfiguration-billing/01.png)
 
-When creating the property, the meters are automatically assigned 100% to the billing unit (folder).
+![Energy Billing – figure 2](/img/konfiguration-billing/02.png)
 
-If you would like to split a meter (e.g., general/common area) according to an allocation key or change it retroactively, this must be done manually.
+While you are at it, also configure your logo for the invoice.
 
-- Select the billing unit on the left (subfolder, e.g., WHG 1)
+Fill the header with the contact details and address of the invoice sender and add a few friendly words for your customers in the footer.
 
-- Click Add under Electricity (or the respective category)
+![Energy Billing – figure 3](/img/konfiguration-billing/03.png)
+
+## Billing configuration
+
+Now navigate to the billing configuration (Rechnungsstellung Konfiguration) to configure the bills for the properties.
+
+![Energy Billing – figure 4](/img/konfiguration-billing/04.png)
+
+1.  ### Create property
+
+
+In billing, the property can be added (created). 
+
+This is now done for all nodes that contain billing units.
+
+In this step, all subfolders already created and meters already assigned are allocated automatically. For this reason we recommend doing this before creating the property in smart-me Billing.
+
+The metering points that are to be distributed and that are located in the "Technical meters" (Technischer Zähler) node still have to be allocated manually.
+
+![Energy Billing – figure 5](/img/konfiguration-billing/05.png)
+
+### 2\. Assigning meters to a billing unit manually
+
+When the property is created, the meters are automatically assigned to the billing unit (folder) at 100%.
+
+If you want to split a meter (e.g. general) according to a distribution key or change it later, this has to be done manually.
+
+- Select the billing unit on the left (subfolder, e.g. APT 1)
+
+- Click on Add (Hinzufügen), for example under Electricity (Elektrizität) 
 
 - Select the desired meter and specify the percentage to be billed.
 
 
-The described procedure works similarly for the other energy types (heating, cooling, etc.).
+The procedure described works in the same way for the other energy types (heat, cooling, etc.)
 
-![Energy Billing – figure 6](/img/_en/configuration-billing/06.png)
+![Energy Billing – figure 6](/img/konfiguration-billing/06.png)
 
-### 3\. Set IBAN for QR code
+### 3\. Entering the IBAN
 
 In smart-me Billing, the QR invoice can optionally be activated.
 
-After depositing the account details, a QR invoice for payment is attached for each billing unit (tenant).
+Once the account details have been entered, a QR invoice for payment is attached for each billing unit (tenant).
 
-smart-me automatically recognizes correctly filled sender information if the billing address in Billing is entered across 3 lines. If a company name or address prefix is chosen, it must be added before the name.
+smart-me detects correctly completed senders automatically if the invoice address in Billing is entered on 3 lines. If a company or a c/o address is chosen, it has to be added before the name.
 
 e.g.
 
+```
 Firma AG, Peter Lustig
-
 Löwenzahnstrasse 42
-
 6666 Risch
+```
 
-If no valid address is recognized, the sender field ("Payable by") on the QR invoice will remain blank.
+If no correct address is detected, the sender field (Payable by / Zahlbar durch) in the QR invoice remains empty.
 
-smart-me does not support reference numbers. To use reference numbers, [a third-party system](/drittsysteme) that supports them is required (e.g., [Bexio](/drittsysteme/bexio)).
+smart-me does not support reference numbers. To be able to use them, a [third-party system](/drittsysteme) that also supports this is required (e.g. [Bexio](/drittsysteme/bexio)). 
 
-To identify the invoice without a reference number, additional information ("Message to the beneficiary") is added to the QR invoice, which is structured as follows: Name of the billing unit (folder name).
+To identify the invoice without a reference, additional information (message to the beneficiary) is added to the QR invoice, composed as follows: name of the billing unit (folder name).
 
-The layout is optimized for sending via email. If the invoices are printed, we recommend disabling the QR invoice function and ordering pre-printed QR payment slips directly from your bank.
+The layout is optimized for sending by e-mail. If the invoices are printed, we recommend deactivating the QR invoice and ordering it from the bank.
 
-![Energy Billing – figure 7](/img/_en/configuration-billing/07.jpg)
+![Energy Billing – figure 7](/img/konfiguration-billing/07.jpg)
 
-![Energy Billing – figure 8](/img/_en/configuration-billing/08.png)
+![Energy Billing – figure 8](/img/konfiguration-billing/08.png)
 
-### 4\. Record tenant list
+### 4\. Recording the tenancy schedule
 
-For billing according to VEWA, all tenant contracts and vacancies must be documented completely and seamlessly in smart-me.
+For billing according to VEWA, all tenancy contracts and vacancies must be entered in smart-me without any gaps.
 
-Menu Billing
+- Billing menu (Rechnungsstellung)
 
-- Configuration
+- Configuration (Konfiguration)
 
-- Select billing unit on the left (subfolder, e.g., WHG 1)
+- Select the billing unit on the left (subfolder, e.g. APT 1)
 
-- Maintain address and validity period
+- Maintain the address and validity period
 
-- Email is optional and is only used for automated invoice sending.
-
-
-Note for export to real estate software with DTA-VHKA files:
-
-If you want to use VEWA but export the data to another system, you do not need to enter a tenant list—this will be created via the import file.
-
-Make sure that all tenancy relationships and vacancies are recorded.
-
-![Energy Billing – figure 9](/img/_en/configuration-billing/09.png)
-
-![Energy Billing – figure 10](/img/_en/configuration-billing/10.png)
-
-### 5\. Configure electricity tariffs
-
-- Menu Billing
-
-- Configuration
-
-- Select the property on the left (main folder, e.g., Altgasse 13)
-
-- Add virtual electricity tariffs. (e.g., High tariff, Low tariff, Solar tariff)
+- E-mail is optional and is only used for automatic invoice dispatch.
 
 
-### 6\. Configure heat and water systems
+Note on exporting to property management software with DTA-VHKA files:
+If you want to use VEWA but export the data to another system, you do not need to record a tenancy schedule; it is created via the import file.
+Make sure that all tenancies and vacancies are recorded.
 
-When setting up tariffs and billing for multi-energy, there are fundamentally two configuration options:
+![Energy Billing – figure 9](/img/konfiguration-billing/09.png)
 
-Billing Without VEWA Functionality
+![Energy Billing – figure 10](/img/konfiguration-billing/10.png)
 
-- Billing using an externally calculated energy tariff per energy type. This is managed within the property under virtual tariffs with a price per CHF/m³ or CHF/kWh.
+### 5\. Configuring electricity tariffs
+
+- Billing menu (Rechnungsstellung)
+
+- Configuration (Konfiguration)
+
+- Select the property on the left (main folder, e.g. Altgasse 13)
+
+- Add virtual electricity tariffs. (e.g. peak tariff, off-peak tariff, solar tariff)
 
 
-Billing With VEWA Functionality (Recommended)
+### 6\. Configuring heat / water
 
-- Accruing costs for heat and water throughout the year can be recorded. The tariff is then calculated over the period and distributed to the billing units using allocation keys.
+There are basically two configuration options for the tariffing and billing of multi-energy:
+
+Billing without the VEWA function
+
+- Billing using an externally calculated energy tariff per energy type. Managed with a price per CHF/m3 or CHF/kWh in the property below the virtual tariffs.
 
 
-### Next sub steps
+Billing with the VEWA function (recommended)
 
-[Configure electricity tariff](/konfiguration/billing/stromtarife-definieren)
+- Costs for heat / water accruing over the year can be recorded.  The tariff is then calculated over the period and distributed to the billing units using distribution keys. 
+
+
+### Next intermediate steps
+
+[Configure electricity tariffs](/konfiguration/billing/stromtarife-definieren)
 
 [Configure VEWA](/konfiguration/billing/vewa-abrechnung)
 
-### 7\. Others cost for electricity billing (if needed)
+### 7\. Configuring other costs for electricity (if necessary)
 
-In the "Other" field, additional cost items can be added. This can be done individually for each billing unit or globally for all billing units (property level).
+Additional cost items can be added in the Other (Sonstiges) field. This can be done individually for each billing unit (billing unit) or globally for all billing units (property). 
 
-At the Property Level:
+At property level:
 
-In the "Other" field, additional cost items can be added. This can be done individually for each billing unit or globally for all billing units (property level).
+Additional cost items can be added in the Other (Sonstiges) field. This can be done individually for each billing unit (billing unit) or globally for all billing units (property). 
 
-- Example: 80% of the energy provider's basic cost component should be billed equally to all participants in connection with the solar tariff.
+Example:
+80% of the utility's basic cost share is to be billed equally to all participants in connection with the solar tariff.
 
-- The entered fee will be added to all invoices per month.
-
-
-
-
-Note: The "Other" costs are only available with the electricity invoice.
+- The fee entered is added to all invoices per month
 
 
-
-At the Billing Unit Level:
-
-- Example: A charging station is rented out and should be billed monthly to a specific billing unit.
-
-- The cost will only be charged to that single billing unit.
+Note: The other costs are only available with the electricity invoice.
 
 
 
+At billing unit level
 
-![Energy Billing – figure 11](/img/_en/configuration-billing/11.png)
+Example:
+A charging station is rented out and is to be billed to the billing unit on a monthly basis.
 
-### 8\. Create a bill
-
-If the blue box for virtual tariffs is on today's date, a sample invoice can be created.
-
-1.  Menu Billing:Navigate to Billing in the menu.
-
-2.  Invoices:Select Invoices.
-
-3.  Enter date:Enter the date.
-
-4.  Create invoice:Click Create Invoice.
+- The costs are charged to that one billing unit only
 
 
-On this page, you will find a description of the most common error messages and possible solutions: Billing Error Messages
+
+
+![Energy Billing – figure 11](/img/konfiguration-billing/11.png)
+
+### 8\. Creating an invoice
+
+If the blue box on the virtual tariffs is on today's date, a test invoice can be created.
+
+- Billing menu (Rechnungsstellung)
+
+- Invoices (Rechnungen)
+
+- Enter the date
+
+- Create invoice preview
+
+
+If you are satisfied with the preview, you can go back and create the real invoices.
+
+On this page you will find a description of the most common error messages and possible solutions: [Billing error messages](/stoerungsbehebung/billing-fehlermeldungen) 
 
 ### Next step
 
-[Go to User creation](/konfiguration/benutzerkonfiguration)
+[Continue to creating tenant accounts](/konfiguration/benutzerkonfiguration)
 
-### Visualisation
+## Helpful notes on the tariff data
 
-A new tile is now displayed in the default view of the residence folder. It specifies the meter readings for the virtual tariffs. Clicking on this tile will display the load profile for the virtual tariffs.
+### Visualization
 
-![Energy Billing – figure 12](/img/_en/configuration-billing/12.jpg)
-
-### Tenant view
-
-A special view for tenants is available for the virtual tariffs. This shows the current energy consumption (electricity) and the origin (solar or grid). In addition, the percentage origin of the energy is displayed in a bar.
-
-![Energy Billing – figure 13](/img/_en/configuration-billing/13.jpg)
-
-### Example of solar power sharing
-
-Example
-
-A house consists of two flats and a solar installation. The following tariffs are defined:
-
-- Solar power: 0.16 CHF / kWh
-
-- Mains power: 0.25 CHF / kWh
+A new tile is now displayed in the standard view of the billing unit's folder (e.g. an apartment). It shows the meter readings for the virtual tariffs. Clicking on this tile displays the load profile for the virtual tariffs. 
 
 
-Tenant A is not often at home during the day and mainly uses grid electricity (in the evening):
 
-- Daily consumption: 6 kWh
+![Energy Billing – figure 12](/img/konfiguration-billing/12.jpg)
 
-- Solarstrom: 10%
+### How is the solar power distributed
 
-- Mains power: 90%
+The smart-me platform uses the production meter (PV meter) to determine the amount of electricity generated and the virtual total consumption meter to determine the amount of electricity consumed. From this, a percentage share of the solar power is calculated. 
 
+Each electricity meter (tenant) is thus entitled to the same share of solar power per 15 minutes, e.g. 40% of its consumption in kWh.
 
-Tenant B tries to consume solar power as much as possible (consumers mainly run when the sun is shining):
+Example of solar power allocation
 
-- Daily consumption: 6 kWh
+- Total consumption 10kWh
 
-- Solar power: 70%
+- Solar power 6kWh (60% solar / 40% grid)
 
-- Mains power: 30%
+- Tenant 1 consumption 6kWh (3.6kWh solar / 2.4kWh grid)
 
-
-Tenant A and tenant B have the same energy consumption. However, since tenant B uses more solar electricity, he benefits from the cheaper solar electricity tariff.
-
-- Costs Tenant A:
-
-    - Solar power: 0.6 \* 0.16 CHF = 0.096 CHF
-
-    - Mains power: 5.4 \* 0.25 CHF = 1.35 CHF
-
-    - Total: 1.45 CHF
-
-- Costs Tenant B:
-
-    - Solar power: 4.2 \* 0.16 CHF = 0.672 CHF
-
-    - Mains power: 1.8 \* 0.25 CHF = 0.45 CHF
-
-    - Total: 1.12 CHF
+- Tenant 2 consumption 4kWh (2.4kWh solar / 1.6 kWh grid)
 
 
-## Error messages and warnings
+The accuracy can be improved by configuring the balance meter for the solar tariff.
 
-On this page you will find a description of the most common error messages and possible solutions: [Billing error messages](/stoerungsbehebung/billing-fehlermeldungen) 
+![Energy Billing – figure 13](/img/konfiguration-billing/13.png)
 
-[Go to create users](/konfiguration/benutzerkonfiguration)
+[Continue to creating tenant accounts](/konfiguration/benutzerkonfiguration)

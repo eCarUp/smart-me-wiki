@@ -40,11 +40,7 @@ Serial No. smart-eye: 94\*
 
 
 
-[
-
-![Eingestellte Produkte – Abbildung 5](/img/produkte-eingestellte-produkte/05.jpg)
-
-](/produkte/pico-ladestation-exa)
+[![Eingestellte Produkte – Abbildung 5](/img/produkte-eingestellte-produkte/05.jpg)](/produkte/pico-ladestation-exa)
 
 [Pico Ladestation exA](/produkte/pico-ladestation-exa)
 

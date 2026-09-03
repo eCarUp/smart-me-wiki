@@ -1,12 +1,12 @@
 ---
-title: 'Produits discontinués'
+title: 'Produits arrêtés'
 slug: '/produkte/eingestellte-produkte'
 description: 'La vente de ces produits a été arrêtée.'
-sidebar_label: 'Produits discontinués'
+sidebar_label: 'Produits arrêtés'
 ---
-La vente de ces produits a été arrêtée. Le support et la prise en charge par le cloud restent assurés.
+La vente de ces produits a été arrêtée. Le support et la prise en charge par le cloud restent garantis.
 
-![Produits discontinués – illustration 1](/img/produkte-eingestellte-produkte/01.jpg)
+![Produits arrêtés – illustration 1](/img/produkte-eingestellte-produkte/01.jpg)
 
 [Compteur triphasé (ancien)](/produkte/3-phasen-zähler)
 
@@ -14,7 +14,7 @@ Successeur : [Compteur triphasé Telstar 80A](/produkte/telstar)
 
 Serial No. compteur triphasé 80A : 60\* 
 
-![Produits discontinués – illustration 2](/img/produkte-eingestellte-produkte/02.jpg)
+![Produits arrêtés – illustration 2](/img/produkte-eingestellte-produkte/02.jpg)
 
 [Plug](/produkte/plug)
 
@@ -22,7 +22,7 @@ Appareil de remplacement smart-me possible : [Compteur triphasé Telstar 80A](/p
 
 Serial No. Plug : 01\*, 02\*, 03\*, 04\*
 
-![Produits discontinués – illustration 3](/img/produkte-eingestellte-produkte/03.jpg)
+![Produits arrêtés – illustration 3](/img/produkte-eingestellte-produkte/03.jpg)
 
 [Module Landis+Gyr](/produkte/landis-gyr-modul)
 
@@ -30,7 +30,7 @@ Appareil de remplacement smart-me possible : [Compteur triphasé Telstar 80A](/p
 
 Serial No. module Landis+Gyr : 93\*
 
-![Produits discontinués – illustration 4](/img/produkte-eingestellte-produkte/04.jpg)
+![Produits arrêtés – illustration 4](/img/produkte-eingestellte-produkte/04.jpg)
 
 [smart-eye](/produkte/smart-eye)
 
@@ -40,17 +40,13 @@ Serial No. smart-eye : 94\*
 
 
 
-[
-
-![Produits discontinués – illustration 5](/img/produkte-eingestellte-produkte/05.jpg)
-
-](/produkte/pico-ladestation-exa)
+[![Produits arrêtés – illustration 5](/img/produkte-eingestellte-produkte/05.jpg)](/produkte/pico-ladestation-exa)
 
 [Borne de recharge Pico exA](/produkte/pico-ladestation-exa)
 
 Successeur : [Borne de recharge Pico](/produkte/pico-ladestation) 
 
-![Produits discontinués – illustration 6](/img/produkte-eingestellte-produkte/06.jpg)
+![Produits arrêtés – illustration 6](/img/produkte-eingestellte-produkte/06.jpg)
 
 [Compteur monophasé 32A](/produkte/1-phasen-zaehler-32a)
 
@@ -58,7 +54,7 @@ Appareil de remplacement possible : [Compteur monophasé](/produkte/1-phasen-zae
 
 Serial No. compteur monophasé 32A : 51\*
 
-![Produits discontinués – illustration 7](/img/produkte-eingestellte-produkte/07.png)
+![Produits arrêtés – illustration 7](/img/produkte-eingestellte-produkte/07.png)
 
 [Module Kamstrup](/produkte/kamstrup-modul)
 

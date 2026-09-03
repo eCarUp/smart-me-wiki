@@ -1,135 +1,138 @@
 ---
 title: 'API'
 slug: '/schnittstellen/api'
-description: 'The basic functions of the API are available in the Basic Model for non-commercial use.'
+description: 'The basic functions of the API are available in the Basic model for non-commercial use.'
 sidebar_label: 'API'
 ---
 ### Requirements
 
-The basic functions of the API are available in the Basic Model for non-commercial use.
-For commercial use and higher rate limits, the Professional Licence is required.
+The basic functions of the API are available in the Basic model for non-commercial use.
+For commercial use and a higher rate limit, the Professional license is required.
 
 ## API description
 
-The API interface enables easy and secure access to data from smart-me devices and the platform. This interface allows consumption data, device status, measured values and other information to be retrieved in real time and integrated into external systems.
+The API interface provides simple and secure access to the data of smart-me devices and the platform. Through this interface, consumption data, device status, measured values and further information can be retrieved in real time and integrated into external systems.
 
 All API calls are documented on the following page: [smart-me API](https://api.smart-me.com/swagger/index.html)
 
 ### Obis Codes
 
-Obis codes are standardised identifiers for measured values in energy meters. Each Obis code clearly describes which value is being measured (e.g. current power consumption, meter reading, voltage per phase).
+Obis codes are standardized identifiers for measured values in energy meters. Each Obis code uniquely describes which value is measured (e.g. current electricity consumption, meter reading, voltage per phase).
 
 [Obis Codes (Excel)](https://drive.google.com/open?id=1eTs4ZXD9AUagGxNEQSof0IWHkZg54nsK6SyHp4ygDSc&authuser=0)
 
-Tip for decoding: You can read about the coding system on this [website](https://www.kbr.de/de/obis-kennzeichen/obis-kennzeichen#obis-kennzeichensystem) (German). If you click on a medium there, you will see what the digits in the code stand for. 
+Tip for decoding: On this [website](https://www.kbr.de/de/obis-kennzeichen/obis-kennzeichen#obis-kennzeichensystem) you can read up on the logic behind the coding. If you click on a medium there, you will see what each digit of the code stands for. 
 
 ### DeviceID
 
-The DeviceID is a unique, name-independent assignment to a measurement point.
-It is specified both in the API and in the [system health](https://doc.smart-me.com/troubleshooting/system-health) (Professional feature).
+The DeviceID is a unique, name-independent assignment to a measuring point.
+It is stated both in the API and in the [system health](/stoerungsbehebung/systemgesundheit) (Professional feature)
+
+![API – Figure 1](/img/schnittstellen-api/01.png)
 
 ## Authentication
 
-### Basic Auth (not recommended / obsolete)
+### Basic Auth (not recommended / deprecated)
 
-Currently, Basic Auth is available as an authentication method. However, this option will be removed in the medium term due to security concerns. API keys are available as an alternative. The client secret is username:password encoded in Base64.
+Basic Auth is currently possible as authentication. However, this option will be removed in the medium term due to insufficient security. API keys are the recommended alternative.
+The client secret is username:password encoded in Base64.
 
-Every API call must contain authentication in the HTTP header: Authorization: Basic &lt;client secret>
+Every call to the API must contain the authentication in the HTTP header: Authorization: Basic &lt;client secret>
 
 Example:
-curl -X "PUT" "https://api.smart-me.com/Devices/6a7fae30-c598-4778-8f1f-a14620550274" -H "accept: \*/\*" -H "Authorization: Basic aWZfeW91X2Nhbl9yZWFkX3RoaXM6eW91X2hhdmVfdG9vX211Y2hfdGltZQ=="
+curl -X "PUT" "https://api.smart-me.com/Devices/6a7fae30-c598-4778-8f1f-a14620550274" -H "accept: \*/\*" -H "Authorization: Basic d2VyX2Rhc19sZXNlbl9rYW5uOmhhdF96dXZpZWxfemVpdA=="
 
 ### API Keys (recommended)
 
-API keys allow authentication similar to Basic Auth for easy access to an account. A key is created in the Smart-me portal and certain permissions (claims (see below)) are granted. The key can then be added to the HTTP header in a similar way to the Basic Auth secret. 
+API keys allow authentication similar to Basic Auth for simple access to an account. A key is created in the smart-me portal and given certain permissions (claims (see below)). The key can then be added to the HTTP header, similar to the Basic Auth secret. 
 
-Each API call must contain authentication in the HTTP header: Authorization: ApiKey &lt;api key>
+Every call to the API must contain the authentication in the HTTP header: Authorization: ApiKey &lt;api key>
 
 Example:
 curl -X "PUT" "https://api.smart-me.com/Devices/6a7fae30-c598-4778-8f1f-a14620550274" -H "accept: \*/\*" -H "Authorization: ApiKey MTRH5eUjFXV8U4i1viZF2jHNoUNsnDTx"
 
-Keys can be created in the web portal under API, API Keys:
+Keys can be created in the web portal under API, Api Keys:
 
-![API – figure 1](/img/_en/interfaces-api/01.png)
+![API – Figure 2](/img/schnittstellen-api/02.png)
 
-![API – figure 2](/img/_en/interfaces-api/02.png)
+![API – Figure 3](/img/schnittstellen-api/03.png)
 
 ### Claims
 
-Both ApiKeys and oAuth 2.0 support claims to grant only limited permissions.
+Both ApiKeys and oAuth 2.0 support claims in order to grant only limited permissions.
 
-A list of endpoints for claims mapping can be found here: 
+You can find a list of the endpoint-to-claims mapping here: 
 
 [](https://drive.google.com/open?id=1b2bYdjBi4iCf7fUxpEPO9e8DNuhtEvA4_wIDKAJsiq0 "Open Spreadsheet, Claims in new window")
 
-<Video src="" title="Video" />
+<Embed src="https://docs.google.com/spreadsheets/d/1b2bYdjBi4iCf7fUxpEPO9e8DNuhtEvA4_wIDKAJsiq0/htmlembed" aspect="2.353" title="Spreadsheet, Claims" />
 
 Claims
 
 ## OAuth 2.0 (recommended)
 
-smart-me supports the authorisation framework OAuth 2.0. External applications can request access to an account without knowing the credentials.
+smart-me supports the OAuth 2.0 authorization framework. External applications can request access to an account without knowing the login credentials. You will find further information below.
 
 ### OAuth information
 
-smart-me supports the OAuth 2.0 authorisation framework. External applications can request access to an account without knowing the login details.
+smart-me supports the OAuth 2.0 authorization framework. External applications can request access to an account without knowing the login credentials.
 
 ### Setting up OAuth in the smart-me portal
 
-The prerequisite for using oAuth is an account with the professional [licence model](/planung/cloud-lizenzen). If you do not yet have an account with the professional licence model, you must purchase 1 licence.
+The prerequisite for using oAuth is an account with the professional [license model](/planung/cloud-lizenzen). If you do not yet have an account with the Professional license model, you have to purchase 1 license.
 
 - [Login to the smart-me portal](https://www.smart-me.com/Login.aspx)
 
-- On the left side, click on API
+- On the left, click API
 
 
-![API – figure 3](/img/_en/interfaces-api/03.png)
+![API – Figure 4](/img/schnittstellen-api/04.png)
 
-Add oAuth applications
+Adding oAuth applications
 
-- Confidential (Limited to 3 Client ID)
+- Confidential (limited to 3 client IDs)
 
-    - Client ID and Client secret will be created
+    - Client ID and client secret are generated
 
-    - For confidential applications that can store the password (secret) securely.
+    - For confidential applications that can keep the password (secret) safe.
 
-    - We recommend using ‘Authorisation Code Flow with PKCE’ and ‘Device Code Flow’.
+    - We recommend using the "Authorization Code Flow with PKCE" and "Device Code Flow".
 
-- Public (Limited to 3 Client ID)
+- Public (limited to 3 client IDs)
 
-    - Client ID is created
+    - Client ID is generated
 
     - For public applications that cannot keep the secret confidential, e.g. web or mobile apps.
 
-    - We recommend using ‘Authorisation Code Flow with PKCE’ and ‘Device Code Flow’
+    - We recommend using the "Authorization Code Flow with PKCE" and "Device Code Flow"
 
-- Device (Limited to 50 Client ID)
+- Device (limited to 50 client IDs)
 
-    - Client ID and Client secret will be created
+    - Client ID and client secret are generated
 
-    - Can be used as a replacement for basic authentication in embedded devices that do not have a graphical interface.
+    - Can be used as a replacement for Basic Authentication in embedded devices that have no graphical interface.
 
-    - Only supports the OAuth flow ‘client credentials’.
-
-
-Required information
-
-- Name
-
-- Redirect Urls
-
-- Required permissions
+    - Supports only the OAuth flow "client credentials".
 
 
-![API – figure 4](/img/_en/interfaces-api/04.png)
+Required information:
+
+- -   Name
+
+    - Redirect URLs
+
+    - Required permissions 
+
+
+![API – Figure 5](/img/schnittstellen-api/05.png)
 
 ### Grants & Endpoints
 
-The implementation of OAuth is not described on our wiki. For example, you can find the necessary information to implement oAuth on this page: [https://oauth.net/2/](https://oauth.net/2/) 
+The implementation of OAuth is not described in our wiki. On this page you will find the information needed to implement oAuth: [https://oauth.net/2/](https://oauth.net/2/) 
 
 Supported Grants (Flows) for oAuth Confidential and Public Applications:
 
-\- Authorization Code
+\- Authorization Code without PKCE (deprecated)
 
 \- Authorization Code with PKCE
 
@@ -151,11 +154,11 @@ smart-me Endpoints
 
 \- Device Code: /api/oauth/device
 
-## Realtime API (Webhook)
+## Real-time API (webhook)
 
-The smart-me Realtime API (Webhooks) allows you to subscribe to new data of a device. You can subscribe to a single device or to all devices of a user. When a device sends new data to the cloud, a webhook sends this data as a POST request to a reconfigured URL. More Information [here](https://www.smart-me.com/Description/api/realtimeapi.aspx)
+The smart-me real-time API (webhooks) lets you subscribe to new data from a device. You can subscribe for a single device or for all devices of a user. When a device sends new data to the cloud, a webhook sends this data as a POST request to a newly configured URL. You will find further information [here](https://www.smart-me.com/Description/api/realtimeapi.aspx).
 
-Proto File
+Proto file
 
 ```
 syntax = "proto3";
@@ -178,7 +181,7 @@ message DeviceValue {
 }
 ```
 
-Proto File without BCL
+Proto file without BCL
 
 ```
 syntax = "proto2";
@@ -243,13 +246,15 @@ message DeviceValue {
 }
 ```
 
-## Goldpartner - API
+## Gold partner - API
 
-To use our API Gold Partner, you must have the smart-me Gold Partner licence model. Further information about this licence model can be obtained from the sales department.
+To be able to use our API - gold partner, you must have the smart-me gold partner license model. Further information about this license model can be requested from sales.
 
 ### Endpoints
 
-Get all devices 
+
+
+Get all devices 
 
 - Gets all devices assigned to the partner
 
@@ -267,7 +272,7 @@ Get all devices from one Account
 
 
 
-Get all device informations 
+Get all device informations 
 
 - Gets all information for all devices assigned to the partner user or to a sub-user of the partner
 
@@ -288,7 +293,7 @@ Get fast send device values
 
 
 
-Get Folder menu 
+Get Folder menu 
 
 - Gets the folder menu items for a user of a partner
 
@@ -298,7 +303,7 @@ Get Folder menu 
 
 
 
-Update folder menu 
+Update folder menu 
 
 - Creates and updates the folder menu items for a user. Attention: All existing configuration (folder, billing, export, ...) is deleted!!
 
@@ -316,7 +321,7 @@ Get users
 
 
 
-Update user 
+Update user 
 
 - Updates the email and/or the password of a user. The user must be created by the partner.
 
@@ -326,7 +331,7 @@ Update user 
 
 
 
-Sign up user 
+Sign up user 
 
 - Creates a new user and assign it to the partner user
 
@@ -335,11 +340,21 @@ Sign up user 
 
 
 
-Get values in past multiple 
+Get values in past multiple 
 
 - Gets multiple values of a device. The device must be installed in an account assigned to your partner account.
 
-- GET /partner/ValuesInPastMultiple
+- GET /partner/ValuesInPastMultiple/&#123;id&#125;
+
+
+
+
+Get values in past multiple interpolated
+
+- Gets multiple interpolated Values of device
+
+- GET /partner/ValuesInPastMultipleInterpolated/&#123;id&#125;
+
 
 
 
@@ -353,7 +368,7 @@ Get visualization configuration
 
 
 
-Update firmware 
+Update firmware 
 
 - Update the Firmware (if available) for the given devices
 
@@ -375,9 +390,64 @@ PartnerVisualization
 
 ### REST API Samples
 
-This allows you to pick up any data sets that we provide. [https://api.smart-me.com/swagger/index.html](https://api.smart-me.com/swagger/index.html) 
+With this you can retrieve any data sets that we make available. [https://api.smart-me.com/swagger/index.html](https://api.smart-me.com/swagger/index.html) 
 
-HTML / Javascript (Show all devices with meter reading and last connection)
+Python (controlling inputs and outputs)
+
+![API – Figure 6](/img/schnittstellen-api/06.png)
+
+```
+# deviceID ist die eindeutige ID des Gerät
+# "ObisCode": "63000C0101FF" ist der Output 0 (Halbleiter 0.4 Watt)
+# "ObisCode": "63000C0102FF" ist der Output 1 (Relais 1500 Watt bei 230 Volt)
+# "value": 0 ist aus
+# "value": 1 ist ein
+
+import requests
+import json
+
+# API Endpoint und Zugangsdaten
+url = "https://xxxx:xxxx@api.smart-me.com/actions"
+
+# JSON-Daten, die gesendet werden sollen
+data = {
+  "deviceID": "20c6ddc0-f582-6bc6-514d-dbf86796798c",
+  "actions": [
+    {
+      "obisCode": "63000C0101FF",
+      "value": 1
+    }
+  ]
+}
+
+# Header für die POST-Anfrage
+headers = {
+    'Content-Type': 'application/json'
+}
+
+try:
+    # POST-Anfrage senden
+    response = requests.post(url, headers=headers, data=json.dumps(data))
+
+    # Überprüfen, ob die Anfrage erfolgreich war
+    response.raise_for_status()
+
+    # Die Antwort der API ausgeben
+    print("Status Code:", response.status_code)
+    print("Antwort vom Server:", response.text)
+
+except requests.exceptions.RequestException as e:
+    # Fehlerbehandlung
+    print("Ein Fehler ist aufgetreten:", e)
+```
+
+
+
+
+
+
+
+HTML / Javascript (display all devices with meter reading and last connection)
 
 ```
 <html>
@@ -442,7 +512,7 @@ HTML / Javascript (Show all devices with meter reading and last connection)
 </html>
 ```
 
-Python (Authentication possibilities)
+Python (authorization examples)
 
 ```
 import requests
@@ -488,15 +558,19 @@ oauth_response = requests.get(endpoint_url, headers=oauth_headers)
 print('OAuth:', oauth_response.status_code) #Returns 200 if successful
 ```
 
-API Client Library for .Net
 
-To integrate smart-me API functionality into your .Net application you can use [this library](https://github.com/eCarUp/smartme-api-client-library-dotnet). It makes HTTP requests to the smart-me REST API. All HTTP request and response bodies are mapped to .Net classes.
 
-## Realtime (Webhook) API Example
+
+
+API client library for .Net
+
+To integrate the smart-me API functionality into your .Net application, you can use [this library](https://github.com/eCarUp/smartme-api-client-library-dotnet). It makes HTTP requests to the smart-me REST API. All HTTP request and response bodies are mapped to .Net classes.
+
+## Real-time API (webhook) examples
 
 The smart-me Realtime API sends the data serialized with google protobuffer
 
-Proto File
+Proto file
 
 ```
 package RealtimeApi.Containers;
@@ -516,7 +590,7 @@ message DeviceValue {
 }
 ```
 
-Proto File without BCL
+Proto file without BCL
 
 ```
 syntax = "proto2";
@@ -583,34 +657,34 @@ message DeviceValue {
 
 ### Parsing example
 
-Example data
+Sample data
 
 0A5A0A1209E9FCD03B8E9F834111B3D10C1622A22CA1120B08C0C9EAD3A98FE93710051A110A060100010800FF11333333331FAE3C411A110A060100020800FF1100000000000000001A110A060100010700FF11713D0AD7A3303840
 
-![API – figure 5](/img/_en/interfaces-api/05.png)
+![API – Figure 7](/img/schnittstellen-api/07.png)
 
 Device ID (UUID / GUID)
 
 UUID Data: 0xE9, 0xFC, 0xD0, 0x3B, 0x8E, 0x9F, 0x83, 0x41, 0xB3, 0xD1, 0x0C, 0x16, 0x22, 0xA2, 0x2C, 0xA1
 
-GUID:  3bd0fce9-9f8e-4183-b3d1-0c1622a22ca1
+GUID:  3bd0fce9-9f8e-4183-b3d1-0c1622a22ca1
 
-![API – figure 6](/img/_en/interfaces-api/06.png)
+![API – Figure 8](/img/schnittstellen-api/08.png)
 
 Datetime (UTC)
 
-The Field 1 contains the offset in ticks since 1970-01-01
+Field 1 contains the offset in ticks since 01.01.1970
 
-Seconds since 1970-01-01:  15712284449788512 / 10000000  = 1571228444 (Unix time stamp UTC)
+Seconds since 01.01.1970:  15712284449788512 / 10000000  = 1571228444 (Unix time stamp UTC)
 
 \-> 16.10.2019 12:20:44 (UTC)
 
-![API – figure 7](/img/_en/interfaces-api/07.png)
+![API – Figure 9](/img/schnittstellen-api/09.png)
 
-Device values 
+Device values 
 
-Field 1 contains the OBIS code.  Field 2 contains the value.
+Field 1 contains the OBIS code, field 2 contains the value.
 
-01-00-01-08-00-FF:  (1-0:1.8.0\*255): Active energy total import: 1879583.2 mWh = 1879.5832 Wh
+01-00-01-08-00-FF:  (1-0:1.8.0\*255): active energy total import: 1879583.2 mWh = 1879.5832 Wh
 
-![API – figure 8](/img/_en/interfaces-api/08.png)
+![API – Figure 10](/img/schnittstellen-api/10.png)

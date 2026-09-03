@@ -15,7 +15,7 @@ Hinweise:
 - Wenn du alle Tarife definiert hast, musst du zwingend auf Neu rechnen klicken. Somit werden alle virtuellen Tarife korrekt berechnet. Dieser Vorgang kann einige Stunden dauern.
 
 
-<Video src="0LTDpKKA3-k" title="Video" />
+<Video src="0LTDpKKA3-k" title="YouTube Video, Solar im Hoch- und Niedertarif abrechnen" />
 
 ### Wenn / Dann Oberfläche
 
@@ -400,6 +400,6 @@ Die Perioden bzw. Dauer müssen in diesem Fall hinterlegt werden. Bei diesen Tar
     - Zusätzliche Bedingung: Uri Winter NT 
 
 
-<Video src="" title="Video" />
+<Embed src="https://drive.google.com/file/d/1qFuisQkiLisSbWTh8Avhrf7gIXOfxjjn/preview" aspect="1.350" title="Drive, Wiki Tarife Enerige Uri Tarife 2026.mp4" />
 
 Wiki Tarife Enerige Uri Tarife 2026.mp4

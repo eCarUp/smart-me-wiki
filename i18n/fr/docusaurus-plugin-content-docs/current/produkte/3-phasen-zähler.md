@@ -1,14 +1,14 @@
 ---
 title: 'Compteur triphasé'
 slug: '/produkte/3-phasen-zähler'
-description: 'Le smart-me 3-Phasen Meter est un compteur d''énergie puissant et précis doté d''une interface WiFi intégrée.'
+description: 'Le smart-me 3-Phasen Meter est un compteur d''énergie puissant et précis avec interface WiFi intégrée.'
 sidebar_label: 'Compteur triphasé'
 ---
-Le smart-me 3-Phasen Meter est un compteur d'énergie puissant et précis doté d'une interface WiFi intégrée. Aucun matériel supplémentaire n'est nécessaire pour l'intégration dans le smart-me Cloud. Il utilise le réseau WiFi existant et se laisse commander et analyser de partout via Internet. Avec un abonnement Professional, les valeurs du compteur peuvent également être interrogées via l'interface Modbus TCP. Sur la version 5(32)A, chaque phase peut être commutée individuellement.
+Le smart-me 3-Phasen Meter est un compteur d'énergie puissant et précis avec interface WiFi intégrée. Aucun matériel supplémentaire n'est nécessaire pour l'intégration dans le smart-me Cloud. Il utilise le réseau WiFi existant et peut être piloté et analysé depuis n'importe où via Internet. Avec un abonnement Professional, les valeurs du compteur peuvent également être interrogées via l'interface Modbus TCP. Sur la version 5(32)A, chaque phase peut être commutée individuellement.
 
 Ce compteur triphasé n'est plus disponible. Vous trouverez la nouvelle génération de notre compteur triphasé ici : [Compteur triphasé Telstar](/produkte/telstar)
 
-![Compteur triphasé – Illustration 1](/img/produkte-3-phasen-zaehler/01.png)
+![Compteur triphasé – illustration 1](/img/produkte-3-phasen-zaehler/01.png)
 
 ## Variantes
 
@@ -27,24 +27,24 @@ Ce compteur triphasé n'est plus disponible. Vous trouverez la nouvelle généra
 
 - Sorties de contact supplémentaires pour la commande d'appareils externes
 
-- Le compteur triphasé fonctionne également comme passerelle vers le cloud pour (presque) tous les appareils Smart Energy compatibles IP
+- Le compteur triphasé fonctionne également comme passerelle vers le cloud pour (presque) tous les appareils smart energy compatibles IP
 
 - Installation simple avec l'application smart-me gratuite pour Android et iOS
 
-- Connexion WiFi chiffrée directement vers le smart-me Cloud. Le smart-me Cloud offre une gestion de l'énergie complète : visualisations, commande (actions si/alors), facturation automatique (smart-me Billing) et interfaces vers des systèmes de terzi (Auto Export, API)
+- Connexion WiFi chiffrée directement vers le smart-me Cloud. Le smart-me Cloud offre une gestion complète de l'énergie : visualisations, commande (actions si/alors), facturation automatique (smart-me Billing) et interfaces vers des systèmes tiers (Auto Export, API)
 
 
 ## Installation
 
-Avant de pouvoir utiliser ton appareil smart-me, tu dois le connecter à ton réseau WiFi et à Internet.
+Avant de pouvoir utiliser votre appareil smart-me, vous devez le connecter à votre réseau WiFi et à Internet.
 
-1.  Connecte ton smartphone ou ta tablette au réseau WLAN.
+1.  Connectez votre smartphone ou votre tablette au réseau WiFi.
 
-2.  Télécharge et installe l'application smart-me depuis le Playstore ou l'iOS Store.
+2.  Téléchargez et installez l'application smart-me depuis le Playstore ou l'iOS Store.
 
-3.  Démarre l'application et crée un compte ou connecte-toi avec le compte correspondant.
+3.  Démarrez l'application et créez un compte ou connectez-vous avec le compte correspondant.
 
-4.  Clique sur « Ajouter un appareil » (Gerät hinzufügen) (+) et suis les instructions.
+4.  Cliquez sur « Ajouter un appareil » (Gerät hinzufügen) (+) et suivez les instructions.
 
 
 ## Caractéristiques techniques
@@ -53,7 +53,7 @@ Tension de service 3 x 230 VAC
 
 Courant de référence 5 (80) A / 5 (32) A
 
-Consommation propre &lt; 0.8 W par phase
+Autoconsommation &lt; 0.8 W par phase
 
 Température de stockage -40°C à 85°C
 
@@ -96,7 +96,7 @@ Interfaces
 
     - avec l'abonnement Professional : Modbus TCP
 
- 
+
 Sorties d'impulsions / sorties numériques S0, S1 Opto Power MOSFET, 5 - 48VDC  / 5 - 230 VAC , max. 550mW
 
 Standard WiFi 802.11 b/g/n
@@ -111,7 +111,7 @@ Certification du produit CE, MID 2014/32/EU
 
 Classes environnementales : mécanique M1, électromagnétique E2
 
-Classe de protection IP20 (bornes), IP51 (façade)
+Indice de protection IP20 (bornes), IP51 (face avant)
 
 Dimensions 5 modules, 90 x 90 mm
 
@@ -119,21 +119,21 @@ Montage rail DIN
 
 ## Configurer les entrées et sorties
 
-Le smart-me Meter dispose de deux sorties et d'une entrée, qui peuvent être utilisées comme entrées et sorties d'impulsions ou comme contact commutable libre de potentiel. Tu trouveras les détails à ce sujet [ici](/schnittstellen/ein_und_ausgaenge). 
+Le smart-me Meter dispose de deux sorties et d'une entrée, qui peuvent être utilisées comme entrées et sorties d'impulsions ou comme contact commutable libre de potentiel. Vous trouverez les détails [ici](/schnittstellen/ein_und_ausgaenge). 
 
-## Écran
+## Affichage
 
-Le compteur possède un écran défilant. Les points décrits ci-dessous sont affichés les uns après les autres. Après le dernier point, l'affichage reprend au point 1 :
+Le compteur possède un affichage défilant. Les points décrits ci-dessous s'affichent l'un après l'autre. Après le dernier point, l'affichage reprend au point 1 :
 
 1.  Ordre des phases (en cas d'erreur, voir ci-dessous)
 
-2.  Relevé du compteur (code Obis suivi du relevé du compteur)
+2.  Relevé du compteur (code Obis suivi du relevé)
 
 
-1-8-1 : énergie active tarif 1 import (soutirage)
-1-8-2 : énergie active tarif 2 import (soutirage)
-2-8-1 : énergie active tarif 1 export (injection)
-2-8-2 : énergie active tarif 2 export (injection)
+1-8-1 : énergie active tarif 1 Import (soutirage)
+1-8-2 : énergie active tarif 2 Import (soutirage)
+2-8-1 : énergie active tarif 1 Export (injection)
+2-8-2 : énergie active tarif 2 Export (injection)
 
 3.  Version du logiciel
 
@@ -142,17 +142,17 @@ Le compteur possède un écran défilant. Les points décrits ci-dessous sont af
 
 ### Ordre des phases
 
-PhL 1 -> seule la phase L1 a été raccordée (PhL2 pour L2 etc.)
-PhL 12 -> seules les phases L1 et L2 ont été raccordées (PhL13 pour L1 et L3 etc.)
+PhL 1 -> seule la phase L1 a été raccordée (PhL2 pour L2, etc.)
+PhL 12 -> seules les phases L1 et L2 ont été raccordées (PhL13 pour L1 et L3, etc.)
 PhL 123 -> un ordre des phases incorrect a été constaté
 
 ## Dimensions et raccordements
 
 ### Dimensions \[mm\]
 
-![Compteur triphasé – Illustration 2](/img/produkte-3-phasen-zaehler/02.png)
+![Compteur triphasé – illustration 2](/img/produkte-3-phasen-zaehler/02.png)
 
-Attention : les données .DXF et .DWG se trouvent dans l'archive ZIP dans les téléchargements.
+Attention : les données .DXF et .DWG se trouvent dans l'archive ZIP, dans les téléchargements.
 
 ### Schéma de raccordement
 
@@ -166,29 +166,29 @@ T1 : touche pour l'installation
 
 T2 : fonctions spéciales
 
-Bref : si T2 est brièvement pressée, la lampe LED verte s'allume / s'éteint. Lorsqu'elle est activée, elle indique l'état de la connexion :
+Court : un appui court sur T2 allume / éteint la lampe LED verte. Lorsqu'elle est activée, elle indique l'état de la connexion :
 
 Vert allumé : connecté au smart-me Cloud 
 
 Vert clignotant : pas de connexion
 
-Long : si T2 est pressée longuement, l'affichage du relevé du compteur d'énergie réactive est activé (s'il est disponible). Dans la séquence d'affichage, les points relevé du compteur d'énergie réactive T1 et relevé du compteur d'énergie réactive T2 sont ajoutés. La valeur affichée clignote et peut ainsi être distinguée de l'énergie active.
+Long : un appui long sur T2 active l'affichage du relevé de l'énergie réactive (si disponible). Les points relevé de l'énergie réactive T1 et relevé de l'énergie réactive T2 sont alors ajoutés à la séquence d'affichage. La valeur affichée clignote et peut ainsi être distinguée de l'énergie active.
 
-ATTENTION : ce réglage ne modifie que l'affichage à l'écran, pas dans le smart-me Cloud (application et site web). Si l'énergie réactive doit être affichée dans le cloud, cela doit être fait dans les réglages généraux. (Lors de la pression sur T2, la LED rouge commence à s'allumer, T2 doit être maintenue pressée jusqu'à ce que la LED rouge s'éteigne)
+ATTENTION : ce réglage ne modifie que l'affichage sur l'écran, pas dans le smart-me Cloud (application et site web). Si l'énergie réactive doit être affichée dans le cloud, cela doit être fait dans les réglages généraux. (Lors de l'appui sur T2, la LED rouge commence à s'allumer ; T2 doit être maintenu enfoncé jusqu'à ce que la LED rouge s'éteigne)
 
 S0\_0 : sortie d'impulsions S0 (en option contact libre de potentiel / attention Pmax = 550mW en permanence)
 
 S0\_1 : sortie d'impulsions S0 (en option contact libre de potentiel / attention Pmax = 550mW en permanence)
 
-![Compteur triphasé – Illustration 3](/img/produkte-3-phasen-zaehler/03.jpg)
+![Compteur triphasé – illustration 3](/img/produkte-3-phasen-zaehler/03.jpg)
 
 ## Valeurs de mesure (codes Obis)
 
 Les valeurs de mesure suivantes sont enregistrées par le compteur et peuvent être consultées dans le cloud et via l'API
 
-[](https://drive.google.com/open?id=1-f4I5ZWg1-PAHNpzCsQ0aBqrL9k93lH8q9AuN8toJgI "Open Spreadsheet, Messwerte (inkl. Obiscodes) 3-Phasen Zähler V1 in new window")
+[](https://drive.google.com/open?id=1-f4I5ZWg1-PAHNpzCsQ0aBqrL9k93lH8q9AuN8toJgI "Ouvrir la feuille de calcul, valeurs de mesure (y compris codes Obis) compteur triphasé V1 dans une nouvelle fenêtre")
 
-<Video src="" title="Video" />
+<Embed src="https://docs.google.com/spreadsheets/d/1-f4I5ZWg1-PAHNpzCsQ0aBqrL9k93lH8q9AuN8toJgI/htmlembed" aspect="2.882" title="Feuille de calcul, valeurs de mesure (y compris codes Obis) compteur triphasé V1" />
 
 Valeurs de mesure (y compris codes Obis) compteur triphasé V1
 
@@ -214,9 +214,9 @@ Documents techniques
 
 ### À quel intervalle les compteurs envoient-ils des données ?
 
-- Toutes les 15 minutes, donc à xx:00:00 xx:15:00, xx:30:00 et xx:45:00. Les données nécessaires à la courbe de charge sont ainsi envoyées. En cas d'interruption de la connexion, ces données sont enregistrées localement et envoyées ultérieurement.
+- Toutes les 15 minutes, donc à xx:00:00, xx:15:00, xx:30:00 et xx:45:00. Les données nécessaires à la courbe de charge sont ainsi transmises. En cas d'interruption de la connexion, ces données sont enregistrées localement et envoyées ultérieurement.
 
-- En complément, une configuration individuelle peut être effectuée :
+- Il est en outre possible de procéder à une configuration individuelle :
 
     - Avec les licences Basic ou Limited : max. 1x par minute.
 

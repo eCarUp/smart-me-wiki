@@ -45,7 +45,7 @@ Erhältlich in den Ausführungen Europa, Schweiz und Grossbritannien.
     - Einfache Installation mit der kostenlosen smart-me App für Android und iOS
 
 
-<Video src="r1NFkuI7CUM" title="Video" />
+<Video src="r1NFkuI7CUM" title="YouTube Video, Plug Installation" />
 
 Video Installation
 

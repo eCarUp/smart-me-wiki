@@ -8,19 +8,19 @@ sidebar_label: 'Contratto / Aspetti legali'
 
 ## Base contrattuale per un RCP (Svizzera)
 
-Il RCP (raggruppamento ai fini del consumo proprio)  è un raggruppamento contrattuale di più consumatori finali allo scopo di consumare sul posto l'elettricità prodotta da loro stessi. 
+Il RCP (raggruppamento ai fini del consumo proprio)  è un raggruppamento contrattuale di più consumatori finali, con lo scopo di consumare sul posto l'energia elettrica prodotta da loro stessi. 
 
 In un raggruppamento ai fini del consumo proprio i consumatori finali dispongono di un allacciamento alla rete comune. Nei confronti del gestore della rete di distribuzione tutti i consumatori finali che partecipano al rispettivo RCP si presentano come un unico cliente. 
 
 ### Modelli standardizzati per contratti RCP e adeguamenti dei contratti di locazione (modello di contratto RCP)
 
-Associazione svizzera dei proprietari fondiari: [https://www.hev-schweiz.ch/wohnen/bauen/haustechnik-gebaeudetechnik/eigenverbrauch/](https://www.hev-schweiz.ch/wohnen/bauen/haustechnik-gebaeudetechnik/eigenverbrauch/) (è necessario il login)
+Associazione svizzera dei proprietari immobiliari: [https://www.hev-schweiz.ch/wohnen/bauen/haustechnik-gebaeudetechnik/eigenverbrauch/](https://www.hev-schweiz.ch/wohnen/bauen/haustechnik-gebaeudetechnik/eigenverbrauch/) (è necessario il login)
 
-Guida al consumo proprio di SvizzeraEnergia: [https://www.energieschweiz.ch/gebaeude/eigenverbrauch/](https://www.energieschweiz.ch/gebaeude/eigenverbrauch/)  
+Guida all'autoconsumo di SvizzeraEnergia: [https://www.energieschweiz.ch/gebaeude/eigenverbrauch/](https://www.energieschweiz.ch/gebaeude/eigenverbrauch/)  
 
 
 
-Se hai bisogno di un supporto legale approfondito per la realizzazione del RCP, di seguito trovi i partner a noi noti.
+Se hai bisogno di un supporto legale approfondito per la realizzazione del RCP, qui sotto trovi i partner che conosciamo.
 
 Aspetti legali del RCP con Domenig & Partner 
 
@@ -30,12 +30,12 @@ Agenda
 
 - [00:55 smart-me Basic](https://youtu.be/KqU1XWR4YOU?si=_Y0PLCH2BewXjj-Y&t=55)s
 
-- [12:19 Nozioni legali di base del RCP](https://www.youtube.com/watch?v=KqU1XWR4YOU&t=739s)
+- [12:19 Basi legali del RCP](https://www.youtube.com/watch?v=KqU1XWR4YOU&t=739s)
 
 
-<Video src="KqU1XWR4YOU" title="Video" />
+<Video src="KqU1XWR4YOU" title="Video YouTube, webinar - Basi legali del RCP" />
 
-### Partner a noi noti
+### Partner che conosciamo
 
 ![Contratto / Aspetti legali – Figura 1](/img/planung-vertrag-rechtliches/01.png)
 
@@ -74,7 +74,7 @@ T: +41 62 837 50 00
 
 F: +41 62 837 50 01
 
-Email: [simone.walther@5001.ch](mailto:simone.walther@5001.ch)  
+E-mail: [simone.walther@5001.ch](mailto:simone.walther@5001.ch)  
 
 Web: [https://www.5001.ch/anwaelte/simon-walther](https://www.5001.ch/anwaelte/simon-walther) 
 
@@ -94,7 +94,7 @@ Laupenstrasse 1
 
 T: 031 380 11 00
 
-Email: [info@domenig.law](mailto:info@domenig.law) 
+E-mail: [info@domenig.law](mailto:info@domenig.law) 
 
 Web: [www.domenig.law](https://www.domenig.law/)
 
@@ -108,11 +108,11 @@ Zollstrasse 53
 
 
 
-Consulenza e gestione di progetto in ambito economico e giuridico 
+Consulenza e gestione di progetti in ambito economico e legale 
 
 M: +41 79 205 91 91
 
-Email: [hello@bachenergy.ch](mailto:hello@bachenergy.ch) 
+E-mail: [hello@bachenergy.ch](mailto:hello@bachenergy.ch) 
 
 Web: [www.bachenergy.ch](http://www.bachenergy.ch)  
 
@@ -122,4 +122,4 @@ Web: [www.bachenergy.ch](http://www.bachenergy.ch)
 
 [https://www.bundesnetzagentur.de/DE/Vportal/Energie/Vertragsarten/Mieterstrom/start.html](https://www.bundesnetzagentur.de/DE/Vportal/Energie/Vertragsarten/Mieterstrom/start.html)
 
-Per domande contatta smartred.de. Smart-Red è la nostra società affiliata che serve il mercato tedesco e commercializza i nostri prodotti in progetti di elettricità per gli inquilini nel rispetto delle condizioni quadro legali.
+Per domande contatta smartred.de. Smart-Red è la nostra società affiliata che opera sul mercato tedesco e commercializza i nostri prodotti in progetti di elettricità per gli inquilini secondo le condizioni quadro legali.

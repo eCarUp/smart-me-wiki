@@ -6,7 +6,7 @@ sidebar_label: 'Verwalter'
 ---
 ## Video
 
-<Video src="1xeND8RbkO4" title="Video" />
+<Video src="1xeND8RbkO4" title="YouTube Video, Videoanleitung preise definieren & Mieterspiegel anpassen (2026)" />
 
 ## Navigation
 

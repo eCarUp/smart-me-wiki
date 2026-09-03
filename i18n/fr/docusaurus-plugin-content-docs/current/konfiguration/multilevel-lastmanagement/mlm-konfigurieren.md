@@ -10,15 +10,15 @@ La configuration d'une gestion de la charge multiniveau se fait dans la section 
 
 La fonction permet :
 
-- la commande dynamique de plusieurs groupes de recharge Pico statiques
+- La commande dynamique de plusieurs groupes de recharge Pico statiques
 
-- la limitation des puissances de recharge sur des points de référence à l'intérieur de l'installation ou du site
+- La limitation des puissances de recharge sur des points de référence à l'intérieur de l'installation ou du site
 
-- des optimisations solaires
+- Des optimisations solaires
 
-- la réduction des pointes de charge
+- Des réductions des pointes de charge
 
-- la priorisation des groupes de recharge
+- Des priorisations des groupes de recharge
 
 
 ![Configuration de la gestion de la charge multiniveau – illustration 1](/img/konfiguration-multilevel-lastmanagement-mlm-konfigurieren/01.png)
@@ -27,39 +27,39 @@ La fonction permet :
 
 La gestion de la charge multiniveau peut être considérée comme un arbre, avec les termes et utilisations suivants :
 
-- le tronc (point de raccordement principal de l'installation)
+- Tronc (point de raccordement principal de l'installation)
 
-- les branches (endroits limitants tels que dérivations, raccordements d'immeuble, sous-distributions, départs de sommation)
+- Branches (points limitants tels que ramifications, raccordements d'immeuble, sous-distributions, départs collectifs)
 
-- les feuilles (groupes de recharge Pico statiques)
+- Feuilles (groupes de recharge Pico statiques)
 
 
 
 
 Le tronc ainsi que les branches peuvent assumer plusieurs fonctions :
 
-- limitation de courant (protection maximale)
+- Limitation de courant (protection maximale)
 
-- optimisation solaire ACTIVÉE ou DÉSACTIVÉE
+- Optimisation solaire ACTIVÉE ou DÉSACTIVÉE
 
-- charges non mesurées présentes (actives ou inactives)
+- Présence de charges non mesurées (active ou inactive)
 
 
 
 
 Charges non mesurées :
 
-Une charge non mesurée correspond à un producteur ou un consommateur qui ne correspond pas à un groupe de bornes de recharge Pico. Pour pouvoir tenir compte dynamiquement de cette production ou de cette charge, un matériel de comptage doit être mis à disposition comme référence. (Branche mesurée)
+Une charge non mesurée correspond à un producteur ou à un consommateur qui ne correspond pas à un groupe de bornes de recharge Pico. Pour pouvoir prendre en compte cette production ou cette charge de manière dynamique, un matériel de comptage doit être mis à disposition comme référence. (Branche mesurée)
 
-La branche peut aussi être limitée de manière statique sans compteur de référence, mais elle doit alors être limitée à un maximum fonctionnel au niveau de la protection, en tenant compte de la charge de base.
+La branche peut également être limitée de manière statique sans compteur de référence, mais elle doit alors être limitée à un maximum fonctionnel de la protection, en tenant compte de la charge de base.
 
-Branches typiques avec des charges non mesurées :
+Branches typiques comportant des charges non mesurées :
 
-- raccordements d'immeuble (appartements, installations solaires, batteries de stockage, éclairage extérieur)
+- Raccordements d'immeuble (appartements, installations solaires, batteries de stockage, éclairage extérieur)
 
-- sous-distributions (mise en réseau de plusieurs complexes de bâtiments, SD est, SD ouest, ...)
+- Sous-distributions (mise en réseau de plusieurs complexes de bâtiments, SD est, SD ouest, …)
 
-- départs de mobilité électrique (consommation en veille des Pico et éclairage du garage)
+- Départs d'électromobilité (consommation en veille des Pico et éclairage du garage)
 
 
 ![Configuration de la gestion de la charge multiniveau – illustration 2](/img/konfiguration-multilevel-lastmanagement-mlm-konfigurieren/02.png)
@@ -70,13 +70,13 @@ Branches typiques avec des charges non mesurées :
 
 Ajouter :
 
-Sélectionne le tronc ou la branche et crée une branche ou dérivation supplémentaire à l'aide de « Ajouter une branche » (Ast hinzufügen).
+Sélectionne le tronc ou la branche et crée une branche ou une ramification supplémentaire avec « Ajouter une branche » (Ast hinzufügen).
 
 Supprimer :
 
-En sélectionnant la branche correspondante et en utilisant la fonction « Supprimer » (Löschen), la branche choisie ainsi que toutes les branches qui y sont rattachées sont supprimées.
+En sélectionnant la branche correspondante et en utilisant la fonction « Supprimer » (Löschen), la branche sélectionnée ainsi que toutes les branches qui y sont rattachées sont supprimées.
 
-Pour conserver les éléments en aval, les branches et les groupes peuvent être rattachés au préalable à une autre branche ou au tronc par glisser-déposer.
+Pour conserver les éléments situés en aval, les branches et les groupes peuvent au préalable être rattachés à une autre branche ou au tronc par glisser-déposer.
 
 
 
@@ -86,16 +86,16 @@ Pour conserver les éléments en aval, les branches et les groupes peuvent être
 
 ### Ajouter des groupes de bornes de recharge à l'arbre
 
-Les groupes de bornes de recharge encore non attribués et correctement configurés pour le MLM se trouvent sur le côté droit.
+Les groupes de bornes de recharge pas encore attribués et correctement configurés pour le MLM se trouvent sur le côté droit.
 
-Ils peuvent être rattachés aux branches par glisser-déposer et être également déplacés par glisser-déposer à l'intérieur de la configuration.
+Ils peuvent être rattachés aux branches par glisser-déposer et également être déplacés par glisser-déposer à l'intérieur de la configuration.
 
 
 
 Remarque :
 La condition pour l'utilisation dans le MLM est que le réglage en cas de perte de connexion soit configuré sur « Courant max. (par groupe) » (Max. Strom (pro Gruppe)).
 
-Celui-ci peut être adapté sur une borne de recharge Pico dans la « Configuration » (Konfiguration).
+Ce réglage peut être adapté sur une borne de recharge Pico dans la « Configuration » (Konfiguration).
 
 
 
@@ -105,26 +105,26 @@ Celui-ci peut être adapté sur une borne de recharge Pico dans la « Configurat
 
 ### Optimisation solaire et courant minimal par groupe de recharge
 
-Configuration de la branche :
+Configuration des branches :
 
-L'optimisation solaire est possible 1x sur le tronc (optimisée sur le site) ou plusieurs fois en parallèle sur des branches avec des charges non mesurées actives, p. ex. des raccordements d'immeuble.
+L'optimisation solaire est possible 1× sur le tronc (optimisée pour le site) ou plusieurs fois en parallèle sur des branches comportant des charges non mesurées actives, p. ex. des raccordements d'immeuble.
 
-Selon le choix, l'excédent solaire est optimisé sur tous les groupes de bornes de recharge ou seulement sur une partie de ceux-ci.
-
-
+Selon le choix effectué, l'excédent solaire est optimisé sur tous les groupes de bornes de recharge ou seulement sur une partie d'entre eux.
 
 
 
-Configuration du groupe :
 
-Pour que l'optimisation solaire produise également l'effet correspondant, un courant de recharge minimal réduit doit être attribué temporairement aux groupes de bornes à optimiser.
-Ce courant de recharge minimal est défini sur le groupe de recharge correspondant (configuration du groupe) et correspond au soutirage réseau maximal possible pour le groupe de recharge pendant les heures définies.
+
+Configuration des groupes :
+
+Pour que l'optimisation solaire ait également l'effet correspondant, un courant de recharge minimal réduit doit être attribué temporairement aux groupes de bornes à optimiser.
+Ce courant de recharge minimal est défini sur le groupe de recharge correspondant (configuration du groupe) et correspond au soutirage maximal possible depuis le réseau pour le groupe de recharge durant les heures définies.
 
 En même temps, le réglage du courant de recharge minimal permet aussi de pratiquer l'écrêtage des pointes de charge.
 
 Chaque groupe peut être configuré de manière différente.
 
-Les groupes avec un courant de recharge minimal plus élevé sont traités en priorité lors de la répartition du courant réseau disponible.
+Les groupes ayant un courant de recharge minimal plus élevé sont traités en priorité lors de la répartition du courant de réseau disponible.
 
 ![Configuration de la gestion de la charge multiniveau – illustration 7](/img/konfiguration-multilevel-lastmanagement-mlm-konfigurieren/07.png)
 
@@ -136,7 +136,7 @@ Les modifications de la configuration ne sont enregistrées que si la configurat
 
 Si l'activation ne peut pas être effectuée en raison d'erreurs de configuration, cela peut avoir les causes suivantes :
 
-- Le groupe de recharge n'est pas correctement configuré pour le MLM (le réglage en cas de panne d'Internet n'est pas défini sur Courant max. par groupe)
+- Le groupe de recharge n'est pas configuré correctement pour le MLM (le réglage en cas de perte d'Internet n'est pas réglé sur Courant max. par groupe)
 
 - Certains appareils pertinents pour le MLM ne sont pas en ligne au moment de l'enregistrement. (les mettre en ligne)
 
@@ -153,20 +153,20 @@ La configuration d'un MLLM peut être supprimée entièrement en appuyant sur un
 
 Le MLM dispose d'une commande de délestage intégrée.
 
-Cette commande peut être utilisée à la place des entrées matérielles à l'arrière des bornes de recharge Pico.
+Cette commande peut être utilisée à la place des entrées matérielles situées à l'arrière des bornes de recharge Pico.
 
 Remarques :
 
-- Les signaux raccordés directement au matériel Pico ne peuvent pas être surchargés par cette fonction.
+- Les signaux raccordés directement au matériel Pico ne peuvent pas être neutralisés par cette fonction.
 
-- La fonction nécessite une connexion Internet active pour fonctionner. En cas de perte d'Internet, la valeur de panne d'Internet réglée des groupes Pico est utilisée.
+- La fonction nécessite une connexion Internet active pour fonctionner. En cas de perte d'Internet, la valeur de perte d'Internet réglée pour les groupes Pico est utilisée.
 
 
 La fonction permet d'interpréter un ou plusieurs signaux numériques des fournisseurs d'électricité et d'attribuer une puissance de recharge réduite à tous les groupes de bornes de recharge du MLM.
 
 Les signaux de commande sont câblés sur une ou deux entrées de compteur (E1) situées à proximité.
 
-Les matériels smart-me Telstar CT et Telstar 80A sont compatibles à cet effet.
+Le matériel smart-me Telstar CT et Telstar 80A est compatible à cet effet.
 
 Remarque :
 Pour que les entrées puissent être utilisées, elles doivent être configurées côté matériel sur « Entrée numérique » (Digitaler Eingang). (Réglages du compteur, E1 --> Entrée numérique)
@@ -187,16 +187,16 @@ Avec deux signaux :
 
 Application des pourcentages à l'EnWG14a en Allemagne :
 
-- Pour les installations de 22 kW, une réduction de 82 % correspond à la promesse de 4200 W de puissance minimale par appareil dans l'installation.
+- Pour les installations de 22 kW, une réduction de 82 % correspond à la garantie de 4200 W de puissance minimale par appareil dans l'installation.
 
-- Pour les installations de 11 kW, une réduction de 73 % correspond à la promesse de 4200 W de puissance minimale par appareil dans l'installation.
+- Pour les installations de 11 kW, une réduction de 73 % correspond à la garantie de 4200 W de puissance minimale par appareil dans l'installation.
 
 
 Interprétation du signal :
 
 Le signal peut être interprété de différentes manières.
 
-Si le signal du fournisseur d'électricité est retiré en cas de délestage (230 V --> 0 V), alors « Actif à l'état bas » (Low-Aktiv) est la configuration correcte.
+Si le signal du fournisseur d'électricité est retiré en cas de délestage (230 V --> 0 V), « Actif à l'état bas » (Low-Aktiv) est la configuration correcte.
 
 Aucun signal (0) = 1 = l'énergie disponible est réduite
 
@@ -204,7 +204,7 @@ Si le signal du fournisseur d'électricité est appliqué en cas de délestage (
 
 Signal (1) = 1 = l'énergie disponible est réduite.
 
-[Câblage et configuration des entrées de compteur](https://sites.google.com/smart-me.com/wiki/schnittstellen/ein_und_ausgaenge)
+[Câblage et configuration des entrées de compteur](/schnittstellen/ein_und_ausgaenge)
 
 ![Configuration de la gestion de la charge multiniveau – illustration 11](/img/konfiguration-multilevel-lastmanagement-mlm-konfigurieren/11.png)
 
@@ -218,14 +218,14 @@ La configuration MLM peut être désactivée et réactivée à tout moment.
 
 - Arrête le processus de calcul et l'attribution active de valeurs issues des points de référence.
 
-- Met la valeur de panne d'Internet définie à la libre disposition de tous les groupes de charge subordonnés.
+- Met la valeur de perte d'Internet définie à la libre disposition de tous les groupes de charge subordonnés.
 
 
-Définis la valeur sur actif ou inactif, puis enregistre la configuration afin de la communiquer au processeur.
+Règle la valeur sur actif ou inactif, puis enregistre la configuration afin de la communiquer au processeur.
 
 ![Configuration de la gestion de la charge multiniveau – illustration 14](/img/konfiguration-multilevel-lastmanagement-mlm-konfigurieren/14.png)
 
-## Exemple de configuration : maison avec départ de mobilité électrique + éclairage du garage, installation solaire et écrêtage des pointes de charge à midi
+## Exemple de configuration : maison avec départ d'électromobilité + éclairage du garage, installation solaire et écrêtage des pointes de charge à midi
 
 - Le tronc correspond ici au raccordement d'immeuble
 
@@ -233,16 +233,16 @@ Définis la valeur sur actif ou inactif, puis enregistre la configuration afin d
 
 - L'optimisation solaire se situe ici sur le raccordement d'immeuble.
 
-- La production de l'installation solaire ainsi que la consommation propre de la maison sont mesurées et prises en compte au moyen du compteur « Hausanschluss Telstar 80A ».
+- La production de l'installation solaire ainsi que la consommation propre de la maison sont mesurées et prises en compte au moyen du compteur « Raccordement d'immeuble Telstar 80A » (Hausanschluss Telstar 80A).
 
 
 ![Configuration de la gestion de la charge multiniveau – illustration 15](/img/konfiguration-multilevel-lastmanagement-mlm-konfigurieren/15.png)
 
 ![Configuration de la gestion de la charge multiniveau – illustration 16](/img/konfiguration-multilevel-lastmanagement-mlm-konfigurieren/16.png)
 
-Le départ de mobilité électrique subordonné est ici mesuré activement afin de tenir compte de l'éclairage du garage. Les groupes de recharge doivent ainsi réagir dynamiquement à l'éclairage du garage.
+Le départ d'électromobilité subordonné est ici mesuré activement afin de tenir compte de l'éclairage du garage. Les groupes de recharge doivent ainsi réagir dynamiquement à l'éclairage du garage.
 
-- L'éclairage du garage est pris en compte avec le compteur de référence « E-Mobilitätsabgang 63A Telstar 80A ».
+- L'éclairage du garage est pris en compte avec le compteur de référence « Départ d'électromobilité 63A Telstar 80A » (E-Mobilitätsabgang 63A Telstar 80A).
 
 - La protection du départ correspond à 63 A par phase.
 
@@ -251,19 +251,19 @@ Le départ de mobilité électrique subordonné est ici mesuré activement afin 
 
 ![Configuration de la gestion de la charge multiniveau – illustration 18](/img/konfiguration-multilevel-lastmanagement-mlm-konfigurieren/18.png)
 
-Pour que l'optimisation solaire produise son effet, la quantité de courant minimale du courant de recharge est réduite au cours de la journée.
+Pour que l'optimisation solaire soit efficace, la quantité de courant minimale du courant de recharge est réduite au cours de la journée.
 
-- La quantité de courant minimale correspond au soutirage réseau maximal possible à l'heure définie.
+- La quantité de courant minimale correspond au soutirage maximal possible depuis le réseau à l'heure définie.
 
 - Dès que la quantité de courant minimale est couverte à 100 % par l'installation solaire, les bornes reçoivent en plus l'excédent supplémentaire de l'installation solaire.
 
-- Optimisation solaire pour toute la semaine de 6:00 à 17:00, courant de recharge minimal de 15 A par phase
+- Optimisation solaire pour toute la semaine de 6h00 à 17h00, courant de recharge minimal de 15 A par phase
 
-- Écrêtage des pointes à midi : les recharges de 12:00 à 13:00 ne sont possibles qu'en cas d'excédent solaire, le soutirage réseau reste à 0 A
+- Écrêtage des pointes à midi : les recharges de 12h00 à 13h00 ne sont possibles qu'en cas d'excédent solaire, le soutirage depuis le réseau reste à 0 A
 
-- La recharge nocturne de 18:00 à 22:00 est possible avec 50 % de la capacité.
+- La recharge nocturne de 18h00 à 22h00 est possible avec 50 % de capacité.
 
-- La recharge nocturne de 22:00 jusqu'à 7:00 du matin est possible avec 100 % de la capacité.
+- La recharge nocturne de 22h00 à 7h00 du matin est possible avec 100 % de capacité.
     (p. ex. exploitation des heures creuses)
 
 
@@ -271,7 +271,7 @@ Pour que l'optimisation solaire produise son effet, la quantité de courant mini
 
 ![Configuration de la gestion de la charge multiniveau – illustration 20](/img/konfiguration-multilevel-lastmanagement-mlm-konfigurieren/20.png)
 
-## Exemple de configuration : site avec plusieurs maisons, installations solaires et départs de mobilité électrique
+## Exemple de configuration : site avec plusieurs maisons, installations solaires et départs d'électromobilité
 
 - Site RCP (regroupement dans le cadre de la consommation propre) avec 3 maisons
 
@@ -279,17 +279,17 @@ Pour que l'optimisation solaire produise son effet, la quantité de courant mini
 
 - Plusieurs groupes de recharge dans les garages souterrains
 
-- TG1 possède des places de parc extérieures pour les visiteurs ainsi que des places de parc pour les locataires
+- GS1 possède des places de parc extérieures pour les visiteurs ainsi que des places de parc pour les locataires
 
-- Les maisons TG1 et TG2 possèdent des installations solaires
+- Les maisons GS1 et GS2 possèdent des installations solaires
 
-- Optimisation solaire sur le site, afin que TG3 puisse également profiter de l'énergie solaire.
+- Optimisation solaire sur le site, afin que GS3 puisse aussi profiter de l'énergie solaire.
 
 - Protection du site 300 A par phase
 
 - Protections des maisons 180 A par phase
 
-- Départs de mobilité électrique 63 A ou 32 A par phase
+- Départs d'électromobilité 63 A ou 32 A par phase
 
 
 ![Configuration de la gestion de la charge multiniveau – illustration 21](/img/konfiguration-multilevel-lastmanagement-mlm-konfigurieren/21.png)
@@ -297,7 +297,7 @@ Pour que l'optimisation solaire produise son effet, la quantité de courant mini
 - La valeur en ampères correspond à la protection de la ligne d'alimentation
 
 - Le point de mesure est protégé mais lui-même non mesuré.
-    Comme les branches en aval comportent toutes des mesures et que celles-ci correspondent à 100 % de la consommation du site, le tronc peut être limité virtuellement.
+    Comme les branches suivantes comportent toutes des mesures et que celles-ci correspondent à 100 % de la consommation du site, le tronc peut être limité virtuellement.
 
 - Optimisation du courant solaire sur le tronc (site) active. (disponibilité du courant solaire pour les trois maisons)
 
@@ -306,7 +306,7 @@ Pour que l'optimisation solaire produise son effet, la quantité de courant mini
 
 ![Configuration de la gestion de la charge multiniveau – illustration 23](/img/konfiguration-multilevel-lastmanagement-mlm-konfigurieren/23.png)
 
-HAK TG1 : raccordement d'immeuble du bâtiment 1 sur le site
+HAK GS1 : raccordement d'immeuble du bâtiment 1 sur le site
 
 - Protection 180 A par phase
 
@@ -319,12 +319,12 @@ HAK TG1 : raccordement d'immeuble du bâtiment 1 sur le site
 
 ![Configuration de la gestion de la charge multiniveau – illustration 25](/img/konfiguration-multilevel-lastmanagement-mlm-konfigurieren/25.png)
 
-TG1 départ de mobilité électrique
+Départ d'électromobilité GS1
 
 - Protection 63 A par phase
 
 - Charges non mesurées actives : éclairage du garage et ventilation en plus
-    des bornes de recharge électriques
+    des bornes de recharge
 
 - Prise en compte dynamique de l'éclairage du garage et de la ventilation
 
@@ -333,14 +333,14 @@ TG1 départ de mobilité électrique
 
 ![Configuration de la gestion de la charge multiniveau – illustration 27](/img/konfiguration-multilevel-lastmanagement-mlm-konfigurieren/27.png)
 
-Places de parc pour visiteurs du site (bornes de recharge publiques)
+Places de parc visiteurs du site (bornes de recharge publiques)
 
-- Disponibilité énergétique élevée et priorisation à un prix de vente plus élevé.
-    Publié via le backend eCarUp. (authentification par le backend)
+- Haute disponibilité d'énergie et priorisation à un prix de vente plus élevé.
+    Publiées via le backend eCarUp. (authentification par le backend)
 
 - En permanence 100 % de la capacité possible depuis le réseau + couverture solaire.
 
-- Écrêtage des pointes de charge à midi de 12:00 à 13:00 seulement 23 A par phase depuis le réseau + excédent solaire.
+- Écrêtage des pointes de charge à midi de 12h00 à 13h00, seulement 23 A par phase depuis le réseau + excédent solaire.
 
 - Protection du câble 63 A par phase
 
@@ -349,15 +349,15 @@ Places de parc pour visiteurs du site (bornes de recharge publiques)
 
 ![Configuration de la gestion de la charge multiniveau – illustration 29](/img/konfiguration-multilevel-lastmanagement-mlm-konfigurieren/29.png)
 
-Places de parc pour locataires du site
+Places de parc des locataires du site
 
-- Disponibilité énergétique et priorisation moyennes, accent sur l'énergie solaire pendant la journée.
+- Disponibilité d'énergie et priorisation moyennes, accent sur l'énergie solaire durant la journée.
 
 - En permanence 50 % de la capacité possible depuis le réseau.
 
 - Protection du câble 32 A par phase.
 
-- Écrêtage des pointes de charge à midi 0 A de 12:00 à 13:00.
+- Écrêtage des pointes de charge à midi 0 A de 12h00 à 13h00.
     Recharge solaire uniquement possible si la production n'est pas utilisée par le site à d'autres fins.
 
 
@@ -367,11 +367,11 @@ Places de parc pour locataires du site
 
 Parties de l'installation non traitées :
 
-- Les raccordements d'immeuble et les départs de mobilité électrique des maisons 2 et 3 sont identiques dans leur type de configuration.
+- Les raccordements d'immeuble et les départs d'électromobilité des maisons 2 et 3 sont identiques dans leur type de configuration.
 
-- Les 4 groupes de recharge du garage souterrain 3 (TG3) sont configurés de manière similaire aux places de parc pour locataires du garage souterrain 1 (TG1)
+- Les 4 groupes de recharge du garage souterrain 3 (GS3) sont configurés de manière similaire aux places de parc des locataires du garage souterrain 1 (GS1)
 
-- Chaque groupe de recharge peut développer des comportements distincts et recevoir également des courants d'alimentation de secours différents en cas de panne d'Internet.
+- Chaque groupe de recharge peut développer des comportements distincts et recevoir également des courants d'alimentation de secours différents en cas de perte d'Internet.
 
 
 

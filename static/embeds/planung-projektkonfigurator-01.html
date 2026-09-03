@@ -1,0 +1,2835 @@
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>smart-me Projektkonfigurator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .option.selected, .option-small.selected, .lang-btn.selected, .view-btn.selected {
+            background-color: #16a34a; /* Tailwind green-600 */
+            color: white;
+            border-color: #15803d; /* Tailwind green-700 */
+        }
+        .nav-btn:disabled {
+            background-color: #d1d5db; /* gray-300 */
+            cursor: not-allowed;
+        }
+        #schema_container {
+            height: 600px;
+            overflow: auto; /* Enables scrolling */
+            border: 1px solid #d1d5db; /* gray-300 */
+            border-radius: 0.5rem;
+            background-color: #f9fafb; /* gray-50 */
+            resize: vertical; /* Allow user to resize the container vertically */
+        }
+        #schema_container > svg {
+            min-width: 100%;
+            min-height: 100%;
+            display: block;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+        
+        <header class="relative text-center mb-10">
+            <div class="absolute top-0 right-0 flex items-center space-x-4">
+                <div>
+                    <button id="lang-de" class="lang-btn p-2 border rounded-l-md transition-colors text-sm">DE</button>
+                    <button id="lang-en" class="lang-btn p-2 border rounded-r-md transition-colors text-sm">EN</button>
+                </div>
+            </div>
+            <h1 class="text-3xl sm:text-4xl font-bold text-blue-800" data-i18n="main_title">smart-me Projektkonfigurator</h1>
+            <p class="text-gray-600 mt-2" data-i18n="main_subtitle">Stellen Sie Ihre individuelle Projektlösung in wenigen Schritten zusammen.</p>
+        </header>
+
+        <main id="configurator">
+
+            <div id="initial_config_page" class="space-y-8">
+                <div class="bg-blue-50 p-6 rounded-xl shadow-md border border-blue-200 mb-8">
+                    <h2 class="text-xl font-semibold mb-4 text-blue-800" data-i18n="p1_usage_notes_title">Nutzungshinweise zum Konfigurator</h2>
+                    <ul class="list-disc list-inside text-blue-700 space-y-2">
+                        <li data-i18n="p1_usage_note_1">Die Nutzung des Konfigurators bietet dir eine Unterstützung zur Erstellung der Stückliste.</li>
+                        <li data-i18n="p1_usage_note_2">Der Konfigurator liefert dir eine mögliche Produktauswahl und weitere Details.</li>
+                        <li data-i18n="p1_usage_note_3">Das erstellte Schema gibt Hinweise auf Planungsversäumnisse und Steuerfunktionen.</li>
+                        <li data-i18n="p1_usage_note_4">Die erstellte Stückliste nimmt dir die Pflicht zur Überprüfung aber nicht ab.</li>
+                        <li data-i18n="p1_usage_note_5">Die smart-me AG übernimmt keine Haftung für falsche Bestellungen aus diesen Stücklisten.</li>
+                    </ul>
+                </div>
+
+                 <div class="bg-white p-6 rounded-xl shadow-md border border-gray-200">
+                    <h2 class="text-xl font-semibold mb-4 text-gray-700" data-i18n="p1_load_config_title">Konfiguration Laden</h2>
+                    <p class="mb-4 text-gray-600" data-i18n="p1_load_config_desc">Laden Sie eine zuvor gespeicherte Konfigurationsdatei hoch, um Ihr Projekt fortzusetzen.</p>
+                    <button id="upload-config-btn" class="w-full bg-gray-200 text-gray-800 font-bold py-2 px-6 rounded-lg hover:bg-gray-300 transition-colors" data-i18n="btn_upload_config">
+                        Konfiguration hochladen (.csv)
+                    </button>
+                    <input type="file" id="config-file-input" class="hidden" accept=".csv">
+                </div>
+                
+                <div class="bg-white p-6 rounded-xl shadow-md border border-gray-200">
+                    <h2 class="text-xl font-semibold mb-4 text-gray-700" data-i18n="p1_project_name_title">Projektnamen erfassen</h2>
+                    <p class="mb-4 text-gray-600" data-i18n="p1_project_name_desc">Geben Sie einen Namen für Ihr Projekt an. Dieser wird für den Export der Dateien verwendet.</p>
+                    <input type="text" id="project_name" class="w-full p-2 border border-gray-300 rounded-md" placeholder="z.B. MFH Sonnenblume">
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-md border border-gray-200">
+                    <h2 class="text-xl font-semibold mb-4 text-gray-700" data-i18n="p1_project_type_title">1. Projekttyp</h2>
+                    <p class="mb-4 text-gray-600" data-i18n="p1_project_type_desc">Handelt es sich bei Ihrem Projekt um einen Zusammenschluss zum Eigenverbrauch (ZEV)?</p>
+                    <div class="grid sm:grid-cols-3 gap-4" data-question="project_type">
+                        <button class="option text-left p-4 border rounded-lg transition-all duration-200 hover:bg-gray-100" data-value="zev">
+                            <span class="font-medium" data-i18n="p1_project_type_zev_only">ZEV</span>
+                            <span class="block text-sm text-gray-500" data-i18n="p1_project_type_zev_desc">Für Liegenschaften mit Eigenverbrauchsgemeinschaften.</span>
+                        </button>
+                         <button class="option text-left p-4 border rounded-lg transition-all duration-200 hover:bg-gray-100" data-value="vzev">
+                            <span class="font-medium" data-i18n="p1_project_type_vzev">Virtuelle ZEV (vZEV)</span>
+                            <span class="block text-sm text-gray-500" data-i18n="p1_project_type_vzev_desc">Für virtuelle Zusammenschlüsse zum Eigenverbrauch.</span>
+                        </button>
+                        <button class="option text-left p-4 border rounded-lg transition-all duration-200 hover:bg-gray-100" data-value="no_zev">
+                            <span class="font-medium" data-i18n="p1_project_type_no_zev">Keine ZEV / vZEV</span>
+                            <span class="block text-sm text-gray-500" data-i18n="p1_project_type_no_zev_desc">Für Projekte ohne Eigenverbrauchsgemeinschaft.</span>
+                        </button>
+                    </div>
+                </div>
+
+                <div id="zev_questions" class="hidden space-y-8">
+                    <div class="bg-white p-6 rounded-xl shadow-md border border-gray-200">
+                        <h2 class="text-xl font-semibold mb-4 text-gray-700" data-i18n="p1_zev_config_title">2. ZEV Konfiguration</h2>
+                        <div class="space-y-6">
+                            <div>
+                                <label class="font-medium text-gray-700" data-i18n="p1_zev_billing">Abrechnung</label>
+                                <div class="grid sm:grid-cols-2 gap-4 mt-2" data-question="zev_billing">
+                                    <button class="option p-3 border rounded-lg transition-colors" data-value="sm_billing" data-i18n="p1_zev_billing_sm">smart-me Billing</button>
+                                    <button class="option p-3 border rounded-lg transition-colors" data-value="third_party" data-i18n="p1_zev_billing_3rd">Drittanbietersoftware</button>
+                                </div>
+                            </div>
+                            <div class="hidden">
+                                <label class="font-medium text-gray-700" data-i18n="p1_zev_hardware">Zählerhardware</label>
+                                <div class="grid sm:grid-cols-3 gap-4 mt-2" data-question="zev_hardware">
+                                    <button class="option p-3 border rounded-lg transition-colors" data-value="sm_hardware" data-i18n="p1_zev_hardware_sm">smart-me Hardware</button>
+                                    <button class="option p-3 border rounded-lg transition-colors hidden" data-value="swisseldex" data-i18n="p1_zev_hardware_swisseldex">Swisseldex</button>
+                                    <button class="option p-3 border rounded-lg transition-colors hidden" data-value="api" data-i18n="p1_zev_hardware_api">API</button>
+                                </div>
+                                <div id="zev_hardware_hints" class="mt-4 space-y-2"></div>
+                            </div>
+                            <div id="sm_hardware_question" class="hidden">
+                                <label class="font-medium text-gray-700" data-i18n="p1_zev_mount">Wie werden die smart-me Zähler montiert?</label>
+                                <div class="grid sm:grid-cols-2 gap-4 mt-2" data-question="sm_hardware_mount">
+                                    <button class="option p-3 border rounded-lg transition-colors" data-value="din_rail" data-i18n="p1_zev_mount_din">DIN-Schiene</button>
+                                    <button class="option p-3 border rounded-lg transition-colors" data-value="plate" data-i18n="p1_zev_mount_plate">Zählerplatten (3-Punkte)</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="emobility_section" class="hidden space-y-8">
+                    <div class="bg-white p-6 rounded-xl shadow-md border border-gray-200">
+                        <h2 class="text-xl font-semibold mb-4 text-gray-700" data-i18n="p1_emob_title">3. E-Mobilität</h2>
+                        <p class="mb-4 text-gray-600" data-i18n="p1_emob_desc">Welche Ladelösung für Elektrofahrzeuge ist geplant?</p>
+                        <div class="grid sm:grid-cols-2 gap-4" data-question="emob_solution">
+                            <button class="option p-3 border rounded-lg transition-colors" data-value="sm_emob" data-i18n="p1_emob_sm">smart-me Ladehardware</button>
+                            <button class="option p-3 border rounded-lg transition-colors hidden" data-value="foreign_emob" data-i18n="p1_emob_foreign">Fremdprodukt</button>
+                            <button class="option p-3 border rounded-lg transition-colors" data-value="none" data-i18n="p1_emob_none">Keine</button>
+                        </div>
+                    </div>
+
+                    <div id="emobility_followup" class="hidden bg-white p-6 rounded-xl shadow-md border border-gray-200">
+                        <h2 class="text-xl font-semibold mb-4 text-gray-700" data-i18n="p1_emob_details_title">3a. E-Mobilität Details</h2>
+                        <div class="space-y-6">
+                            <div id="sm_emob_question" class="hidden">
+                                <label class="font-medium text-gray-700" data-i18n="p1_emob_sm_control">Steuerung der smart-me Hardware</label>
+                                <div class="grid sm:grid-cols-2 gap-4 mt-2" data-question="sm_emob_control">
+                                    <button class="option p-3 border rounded-lg transition-colors" data-value="sm_mlm" data-i18n="p1_emob_sm_control_mlm">smart-me MLM</button>
+                                    <button class="option p-3 border rounded-lg transition-colors" data-value="third_party" data-i18n="p1_emob_sm_control_3rd">Steuerungssoftware (z.B. Loxone)</button>
+                                </div>
+                            </div>
+                            <div id="foreign_emob_question" class="hidden">
+                                <label class="font-medium text-gray-700" data-i18n="p1_emob_foreign_control">Steuerungslösung</label>
+                                <div class="grid sm:grid-cols-2 gap-4 mt-2" data-question="foreign_emob_type">
+                                    <button class="option p-3 border rounded-lg transition-colors" data-value="own_solution" data-i18n="p1_emob_foreign_control_own">Herstellerlösung</button>
+                                    <button class="option p-3 border rounded-lg transition-colors" data-value="control_sw" data-i18n="p1_emob_foreign_control_sw">Steuerungssoftware (z.B. Loxone)</button>
+                                </div>
+                            </div>
+                            <div id="emob_billing_question" class="hidden">
+                                <label class="font-medium text-gray-700" data-i18n="p1_emob_billing">Abrechnung der Ladevorgänge</label>
+                                <div class="grid sm:grid-cols-3 gap-4 mt-2" data-question="emob_billing">
+                                    <button class="option p-3 border rounded-lg transition-colors" data-value="sm_billing" data-i18n="p1_emob_billing_sm">smart-me Billing</button>
+                                    <button class="option p-3 border rounded-lg transition-colors" data-value="ecarup">eCarUp</button>
+                                    <button class="option p-3 border rounded-lg transition-colors" data-value="ocpp">OCPP Backend</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="emob_hardware_hints" class="mt-4 space-y-2"></div>
+                    </div>
+                </div>
+                
+                <div id="submetering_section" class="hidden space-y-8">
+                     <div class="bg-white p-6 rounded-xl shadow-md border border-gray-200">
+                        <h2 class="text-xl font-semibold mb-4 text-gray-700" data-i18n="p1_submetering_title">4. Wärme, Wasser, Gas</h2>
+                        <p class="mb-4 text-gray-600" data-i18n="p1_submetering_desc">Wird Wärme, Wasser oder Gas abgerechnet?</p>
+                        <div class="grid sm:grid-cols-3 gap-4" data-question="submetering_billing">
+                            <button class="option p-3 border rounded-lg transition-colors" data-value="sm_billing" data-i18n="p1_submetering_sm">Mit smart-me Billing</button>
+                            <button class="option p-3 border rounded-lg transition-colors" data-value="third_party" data-i18n="p1_submetering_3rd">Mit Drittanbieterlösung</button>
+                            <button class="option p-3 border rounded-lg transition-colors" data-value="none" data-i18n="p1_submetering_none">Nein</button>
+                        </div>
+                    </div>
+                     <div id="submetering_followup" class="hidden bg-white p-6 rounded-xl shadow-md border border-gray-200">
+                        <h2 class="text-xl font-semibold mb-4 text-gray-700" data-i18n="p1_submetering_details_title">4a. Details</h2>
+                         <div>
+                            <label class="font-medium text-gray-700" data-i18n="p1_submetering_connection">Anbindung über</label>
+                            <div class="grid sm:grid-cols-3 gap-4 mt-2" data-question="submetering_connection">
+                                <button class="option p-3 border rounded-lg transition-colors" data-value="mbus">M-Bus</button>
+                                <button class="option p-3 border rounded-lg transition-colors" data-value="api">API</button>
+                                <button class="option p-3 border rounded-lg transition-colors" data-value="lora">smart-me LoRa Gateway</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div id="payment_section" class="hidden">
+                    <div class="bg-white p-6 rounded-xl shadow-md border border-gray-200">
+                        <h2 class="text-xl font-semibold mb-4 text-gray-700" data-i18n="p1_payment_title">5. Zahlungsmodus</h2>
+                        <p class="mb-4 text-gray-600" data-i18n="p1_payment_desc">Wählen Sie das gewünschte Abrechnungsmodell für die Softwarelizenz.</p>
+                        <div class="grid sm:grid-cols-2 gap-4" data-question="payment_mode">
+                            <button class="option p-3 border rounded-lg transition-colors" data-value="monthly" data-i18n="p1_payment_monthly">Monatlich</button>
+                            <button class="option p-3 border rounded-lg transition-colors" data-value="10_year" data-i18n="p1_payment_10y">10-Jahres Abonnement</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="page1_nav" class="hidden mt-8 flex justify-end">
+                    <button id="next-page-btn" class="nav-btn bg-blue-600 text-white font-bold py-2 px-6 rounded-lg hover:bg-blue-700 transition-colors" data-i18n="btn_next">
+                        Weiter
+                    </button>
+                </div>
+            </div>
+
+            <div id="building_config_page" class="hidden space-y-8">
+                <div class="bg-white p-6 rounded-xl shadow-md border border-gray-200">
+                    <h2 class="text-xl font-semibold mb-4 text-gray-700" data-i18n="p2_spec_title">Spezifikation der Gebäude</h2>
+                    <div>
+                        <label for="building_count" class="font-medium text-gray-700" data-i18n="p2_building_count">Anzahl der Gebäude</label>
+                        <input type="number" id="building_count" min="0" class="mt-2 block w-full p-2 border border-gray-300 rounded-md">
+                    </div>
+                </div>
+
+                <div id="area_measurement_section" class="hidden bg-white p-6 rounded-xl shadow-md border border-gray-200">
+                    <h2 class="text-xl font-semibold mb-2 text-gray-700" data-i18n="p2_area_meas_title">Arealmesspunkt</h2>
+                    <p class="text-sm text-gray-600 mb-4" data-i18n="p2_measurement_info"></p>
+                     <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-4 gap-y-1">
+                        <div class="col-span-1 sm:col-span-2 py-2">
+                             <div class="grid grid-cols-2 gap-x-4 items-center">
+                                <label class="font-medium text-gray-700 text-sm" data-i18n="p2_area_meas_possible">Kann der Arealmesspunkt gemessen werden?</label>
+                                <div class="flex gap-4" data-question="area_measurement_possible">
+                                    <button class="option-small flex-1 p-2 border rounded-md transition-colors" data-value="yes" data-i18n="btn_yes">Ja</button>
+                                    <button class="option-small flex-1 p-2 border rounded-md transition-colors" data-value="no" data-i18n="btn_no">Nein</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="area_measurement_amps_container" class="hidden col-span-1 sm:col-span-2 py-2">
+                             <div class="grid grid-cols-2 gap-x-4 items-end">
+                                <label class="font-medium text-gray-700 text-sm" data-i18n="p2_area_meas_amps">Absicherung Arealmesspunkt</label>
+                                <div><label class="text-xs text-gray-500" data-i18n="p2_amps_per_phase">Absicherung (A/Phase)</label></div>
+                             </div>
+                             <div class="grid grid-cols-2 gap-x-4 items-center mt-1">
+                                <div></div>
+                                <input type="text" id="area_measurement_amps" class="w-full p-2 border border-gray-300 rounded-md">
+                             </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="building_details_container" class="space-y-6">
+                    </div>
+
+                <div class="mt-8 flex justify-between">
+                    <button id="back-to-config-btn" class="nav-btn bg-gray-600 text-white font-bold py-2 px-6 rounded-lg hover:bg-gray-700 transition-colors" data-i18n="btn_back_config">
+                        Zurück zur Konfiguration
+                    </button>
+                    <button id="next-to-pedestal-btn" class="nav-btn bg-blue-600 text-white font-bold py-2 px-6 rounded-lg hover:bg-blue-700 transition-colors" data-i18n="btn_next">
+                        Weiter
+                    </button>
+                </div>
+            </div>
+
+            <div id="pedestal_config_page" class="hidden space-y-8">
+                <div class="bg-white p-6 rounded-xl shadow-md border border-gray-200">
+                    <h2 class="text-xl font-semibold mb-4 text-gray-700" data-i18n="p2a_title">Konfiguration Standfüsse</h2>
+                    <p class="mb-4 text-gray-600" data-i18n="p2a_info_text">
+                        Bist du unsicher welcher Standfuss und Kopf der richtige für dich ist? 
+                        <a href="https://dok.smart-me.com/produkte/pico-ladestation/pico-standfuss" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">Erfahre mehr hier.</a>
+                    </p>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-4 gap-y-1">
+                        <div class="col-span-1 sm:col-span-2 py-2">
+                             <div class="grid grid-cols-2 gap-x-4 items-center">
+                                <label class="font-medium text-gray-700 text-sm" data-i18n="p2a_question">Werden Ladepunkte auf Standfüssen umgesetzt?</label>
+                                <div class="flex gap-4" data-question="pedestals_used">
+                                    <button class="option-small flex-1 p-2 border rounded-md transition-colors" data-value="yes" data-i18n="btn_yes">Ja</button>
+                                    <button class="option-small flex-1 p-2 border rounded-md transition-colors" data-value="no" data-i18n="btn_no">Nein</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="pedestal_details_section" class="hidden space-y-6">
+                    <div class="bg-white p-6 rounded-xl shadow-md border border-gray-200">
+                        <div class="flex justify-between items-center mb-4">
+                            <h3 class="text-lg font-semibold" data-i18n="p2a_combinations">Kombinationen</h3>
+                            <button id="add-pedestal-combination-btn" class="bg-blue-500 text-white text-sm font-bold py-2 px-4 rounded-lg hover:bg-blue-600 transition-colors" data-i18n="p2a_add_combination_btn">+ Kombination</button>
+                        </div>
+                        <div id="pedestal_combinations_container" class="space-y-4">
+                            </div>
+                    </div>
+                    <div class="bg-white p-4 rounded-xl shadow-md border border-gray-200 text-right">
+                        <p class="text-gray-700"><span data-i18n="p2a_total_picos">Total Ladepunkte</span>: <span id="total_picos_count">0</span></p>
+                        <p class="text-gray-700"><span data-i18n="p2a_picos_on_pedestals">Davon auf Standfüssen</span>: <span id="picos_on_pedestals_count" class="font-bold">0</span></p>
+                        <p id="pedestal_warning" class="text-red-600 font-semibold hidden mt-2" data-i18n="p2a_warning_too_many">Warnung: Sie haben mehr Ladepunkte auf Standfüssen geplant als insgesamt vorhanden sind.</p>
+                    </div>
+                </div>
+                <div class="mt-8 flex justify-between">
+                    <button id="back-to-buildings-btn" class="nav-btn bg-gray-600 text-white font-bold py-2 px-6 rounded-lg hover:bg-gray-700 transition-colors" data-i18n="btn_back_building">
+                        Zurück zur Gebäudekonfiguration
+                    </button>
+                    <button id="next-to-submetering-btn-2" class="nav-btn bg-blue-600 text-white font-bold py-2 px-6 rounded-lg hover:bg-blue-700 transition-colors" data-i18n="btn_next">
+                        Weiter
+                    </button>
+                </div>
+            </div>
+
+            <div id="submetering_config_page" class="hidden space-y-8">
+                <div class="bg-white p-6 rounded-xl shadow-md border border-gray-200">
+                    <h2 class="text-xl font-semibold mb-4 text-gray-700" data-i18n="p3_title">Spezifikation Wärme, Wasser, Gas</h2>
+                    <p class="text-gray-600" data-i18n="p3_desc">Geben Sie die Anzahl der Zähler pro Einheit an.</p>
+                </div>
+
+                <div id="submetering_details_container" class="space-y-6">
+                    </div>
+                
+                <div class="mt-8 flex justify-between">
+                    <button id="back-from-submetering-btn" class="nav-btn bg-gray-600 text-white font-bold py-2 px-6 rounded-lg hover:bg-gray-700 transition-colors" data-i18n="btn_back">
+                        Zurück
+                    </button>
+                    <button id="finish-btn-2" class="nav-btn bg-green-600 text-white font-bold py-2 px-6 rounded-lg hover:bg-green-700 transition-colors" data-i18n="btn_finish">
+                        Stückliste erstellen
+                    </button>
+                </div>
+            </div>
+            
+            <div id="result_page" class="hidden">
+                 <div id="save-config-container" class="mb-4 flex justify-end">
+                    <button id="save-config-btn-result" class="nav-btn bg-gray-200 text-gray-700 font-semibold py-2 px-4 rounded-lg hover:bg-gray-300 transition-colors text-sm" data-i18n="btn_save_config">
+                        Konfiguration speichern
+                    </button>
+                </div>
+                 <div class="mb-4 flex justify-center space-x-2" id="view-toggle-buttons">
+                    <button id="show-bom-btn" class="view-btn selected p-2 border rounded-md transition-colors" data-i18n="btn_show_bom">Stückliste</button>
+                    <button id="show-schema-btn" class="view-btn p-2 border rounded-md transition-colors" data-i18n="btn_show_schema">Schema</button>
+                 </div>
+
+                 <div id="bill_of_materials_container" class="hidden text-left bg-white p-6 rounded-lg shadow-md border">
+                 </div>
+
+                 <div class="relative hidden">
+                    <div id="schema_container">
+                    </div>
+                    <div id="zoom_controls" class="absolute top-2 right-2 space-x-1 z-10">
+                        <button id="zoom_out_btn" class="bg-white border rounded-md px-3 py-1 text-lg font-bold hover:bg-gray-100 shadow-sm">-</button>
+                        <button id="zoom_in_btn" class="bg-white border rounded-md px-3 py-1 text-lg font-bold hover:bg-gray-100 shadow-sm">+</button>
+                    </div>
+                    <div id="schema_legend" class="absolute bottom-4 right-4 bg-white/80 backdrop-blur-sm p-3 rounded-lg shadow-lg border text-sm z-10">
+                        <h4 class="font-bold mb-2" data-i18n="legend_title">Legende</h4>
+                        <div class="flex items-center mb-1">
+                            <span class="w-4 h-4 rounded-sm bg-[#d4edda] border border-[#155724] mr-2"></span>
+                            <span data-i18n="legend_measured">Aktiv gemessen</span>
+                        </div>
+                        <div class="flex items-center">
+                            <span class="w-4 h-4 rounded-sm bg-[#e9d5ff] border border-[#5b21b6] mr-2"></span>
+                            <span data-i18n="legend_unmeasured">Nicht gemessen</span>
+                        </div>
+                    </div>
+                 </div>
+
+                 <div id="warnings_container" class="mt-6 space-y-4">
+                 </div>
+
+                 <div class="mt-8 flex justify-between items-center">
+                    <div>
+                        <button id="back-to-last-page-btn" class="nav-btn bg-gray-600 text-white font-bold py-2 px-6 rounded-lg hover:bg-gray-700 transition-colors">
+                                Zurück
+                        </button>
+                    </div>
+                    <div class="flex gap-2 justify-end">
+                        <button id="download-schema-btn" class="hidden nav-btn bg-purple-600 text-white font-bold py-2 px-6 rounded-lg hover:bg-purple-700 transition-colors" data-i18n="btn_download_schema">
+                            Schema Herunterladen
+                        </button>
+                        <button id="download-csv-btn" class="hidden nav-btn bg-blue-600 text-white font-bold py-2 px-6 rounded-lg hover:bg-blue-700 transition-colors" data-i18n="btn_csv">
+                            CSV Herunterladen
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            mermaid.initialize({ startOnLoad: false });
+
+            const app = {
+                selections: {
+                    currentLanguage: 'de'
+                },
+
+                // --- TRANSLATIONS ---
+                translations: {
+                    de: {
+                        main_title: "smart-me Projektkonfigurator",
+                        main_subtitle: "Stellen Sie Ihre individuelle Projektlösung in wenigen Schritten zusammen.",
+                        p1_usage_notes_title: "Nutzungshinweise zum Konfigurator",
+                        p1_usage_note_1: "Die Nutzung des Konfigurators bietet dir eine Unterstützung zur Erstellung der Stückliste.",
+                        p1_usage_note_2: "Der Konfigurator liefert dir eine mögliche Produktauswahl und weitere Details.",
+                        p1_usage_note_3: "Das erstellte Schema gibt Hinweise auf Planungsversäumnisse und Steuerfunktionen.",
+                        p1_usage_note_4: "Die erstellte Stückliste nimmt dir die Pflicht zur Überprüfung aber nicht ab.",
+                        p1_usage_note_5: "Die smart-me AG übernimmt keine Haftung für falsche Bestellungen aus diesen Stücklisten.",
+                        p1_load_config_title: "Konfiguration Laden",
+                        p1_load_config_desc: "Laden Sie eine zuvor gespeicherte Konfigurationsdatei hoch, um Ihr Projekt fortzusetzen.",
+                        p1_project_name_title: "Projektnamen erfassen",
+                        p1_project_name_desc: "Geben Sie einen Namen für Ihr Projekt an. Dieser wird für den Export der Dateien verwendet.",
+                        btn_upload_config: "Konfiguration hochladen (.csv)",
+                        btn_save_config: "Konfiguration speichern",
+                        btn_reset_config: "Neue Konfig. starten",
+                        reset_confirm: "Möchten Sie wirklich alle Eingaben zurücksetzen und eine neue Konfiguration starten?",
+                        p1_project_type_title: "1. Projekttyp",
+                        p1_project_type_desc: "Handelt es sich bei Ihrem Projekt um einen Zusammenschluss zum Eigenverbrauch (ZEV)?",
+                        p1_project_type_zev_only: "ZEV",
+                        p1_project_type_vzev: "Virtuelle ZEV (vZEV)",
+                        p1_project_type_zev_desc: "Für Liegenschaften mit Eigenverbrauchsgemeinschaften.",
+                        p1_project_type_vzev_desc: "Für virtuelle Zusammenschlüsse zum Eigenverbrauch.",
+                        p1_project_type_no_zev: "Keine ZEV / vZEV",
+                        p1_project_type_no_zev_desc: "Für Projekte ohne Eigenverbrauchsgemeinschaft.",
+                        p1_zev_config_title: "2. ZEV Konfiguration",
+                        p1_zev_billing: "Abrechnung",
+                        p1_zev_billing_sm: "smart-me Billing",
+                        p1_zev_billing_3rd: "Drittanbietersoftware",
+                        p1_zev_hardware: "Zählerhardware",
+                        p1_zev_hardware_sm: "smart-me Hardware",
+                        p1_zev_hardware_swisseldex: "Swisseldex",
+                        p1_zev_hardware_api: "API",
+                        p1_zev_mount: "Wie werden die smart-me Zähler montiert?",
+                        p1_zev_mount_din: "DIN-Schiene",
+                        p1_zev_mount_plate: "Zählerplatten (3-Punkte)",
+                        p1_emob_title: "3. E-Mobilität",
+                        p1_emob_desc: "Welche Ladelösung für Elektrofahrzeuge ist geplant?",
+                        p1_emob_sm: "smart-me Ladehardware",
+                        p1_emob_foreign: "Fremdprodukt",
+                        p1_emob_none: "Keine",
+                        p1_emob_details_title: "3a. E-Mobilität Details",
+                        p1_emob_sm_control: "Steuerung der smart-me Hardware",
+                        p1_emob_sm_control_mlm: "smart-me Multilevel-Lastmanagement",
+                        p1_emob_sm_control_3rd: "Steuerungssoftware (z.B. Loxone)",
+                        p1_emob_foreign_control: "Steuerungslösung",
+                        p1_emob_foreign_control_own: "Herstellerlösung",
+                        p1_emob_foreign_control_sw: "Steuerungssoftware (z.B. Loxone)",
+                        p1_emob_billing: "Abrechnung der Ladevorgänge",
+                        p1_emob_billing_sm: "smart-me Billing",
+                        p1_submetering_title: "4. Wärme, Wasser, Gas",
+                        p1_submetering_desc: "Wird Wärme, Wasser oder Gas abgerechnet?",
+                        p1_submetering_sm: "Mit smart-me Billing",
+                        p1_submetering_3rd: "Mit Drittanbieterlösung",
+                        p1_submetering_none: "Nein",
+                        p1_submetering_details_title: "4a. Details",
+                        p1_submetering_connection: "Anbindung über",
+                        p1_payment_title: "5. Zahlungsmodus",
+                        p1_payment_desc: "Wählen Sie das gewünschte Abrechnungsmodell für die Softwarelizenz.",
+                        p1_payment_monthly: "Monatlich",
+                        p1_payment_10y: "10-Jahres Abonnement",
+                        btn_next: "Weiter",
+                        btn_back_config: "Zurück zur Konfiguration",
+                        btn_finish: "Stückliste erstellen",
+                        btn_back: "Zurück",
+                        btn_back_building: "Zurück zur Gebäudekonfiguration",
+                        btn_back_pedestal: "Zurück zu Standfüssen",
+                        btn_csv: "CSV Herunterladen",
+                        btn_download_schema: "Schema Herunterladen",
+                        btn_yes: "Ja",
+                        btn_no: "Nein",
+                        btn_show_bom: "Stückliste",
+                        btn_show_schema: "Schema",
+                        p2_spec_title: "Spezifikation der Gebäude",
+                        p2_building_count: "Anzahl der Gebäude",
+                        p2_area_meas_title: "Arealmesspunkt",
+                        p2_measurement_info: "Die Messung soll wenn immer möglich umgesetzt werden auch wenn es schwierig sein sollte. Das Fehlen der Messung kann zu starken Einschränkungen führen.",
+                        p2_area_meas_possible: "Kann der Arealmesspunkt gemessen werden?",
+                        p2_area_meas_amps: "Absicherung Arealmesspunkt",
+                        p2_amps_per_phase: "Absicherung (A/Phase)",
+                        p2_building_X: "Gebäude",
+                        p2_apartments: "Wohnungen",
+                        p2_common_circuits: "Allgemein Abgänge",
+                        p2_heating: "Heizsysteme",
+                        p2_water_heating: "Warmwassererzeugung",
+                        p2_production: "Produktionsanlagen mit und ohne DC- gekoppeltem Speichersystem",
+                        p2_storage: "AC gekoppelte Speichersysteme mit aktiver Messung",
+                        p2_emob_circuits: "E-Mobilitäts Abgänge",
+                        p2_emob_behind_meter: "Ladepunkte h. Wohnungszähler",
+                        p2_grid_connection: "Hausanschluss",
+                        p2_grid_connection_possible: "Hausanschluss messbar?",
+                        p2_grid_connection_amps: "Absicherung Hausanschluss",
+                        p2_label_count: "Anzahl",
+                        p2_label_unit: "Einheit",
+                        p2_label_charging_points: "Ladepunkte",
+                        p2_label_prepared_only: "davon nur vorbereitet:",
+                        p2_label_circuit: "Abgang",
+                        p2_emob_details_title: "E-Mobilität Details",
+                        p2a_title: "Konfiguration Standfüsse",
+			            p2a_info_text: `Bist du unsicher welcher Standfuss und Kopf der richtige für dich ist? <a href="https://dok.smart-me.com/produkte/pico-ladestation/pico-standfuss" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">Erfahre mehr hier.</a>`,
+                        p2a_question: "Werden Ladepunkte auf Standfüssen umgesetzt?",
+                        p2a_combinations: "Kombinationen",
+                        p2a_add_combination_btn: "+ Kombination",
+                        p2a_total_picos: "Total Ladepunkte",
+                        p2a_picos_on_pedestals: "Davon auf Standfüssen",
+                        p2a_warning_too_many: "Warnung: Sie haben mehr Ladepunkte auf Standfüssen geplant als insgesamt vorhanden sind.",
+                        p2a_label_stand: "Standfuss",
+                        p2a_label_head: "Kopf",
+                        p2a_label_qty: "Anzahl",
+                        p3_title: "Spezifikation Wärme, Wasser, Gas",
+                        p3_desc: "Geben Sie die Anzahl der Zähler pro Einheit an.",
+                        p3_reference_meters: "Referenzzähler",
+                        p3_heat: "Wärmezähler",
+                        p3_cold: "Kältezähler",
+                        p3_hot_water: "Warmwasserzähler",
+                        p3_cold_water: "Kaltwasserzähler",
+                        p3_gas: "Gaszähler",
+                        p3_mbus_gateways: "M-Bus Gateways",
+                        bom_title: "Stückliste",
+                        bom_no_products: "Keine Produkte für die aktuelle Konfiguration gefunden. Bitte überprüfen Sie Ihre Eingaben.",
+                        bom_header_qty: "Anzahl",
+                        bom_header_artnr: "Artikelnummer",
+                        bom_header_name: "Name",
+                        bom_infra_infra: "Allgemeine Infrastruktur",
+                        bom_zev_infra: "ZEV Infrastruktur",
+                        bom_emob_infra: "E-Mobilität Infrastruktur",
+                        bom_submetering_infra: "Submetering Infrastruktur",
+                        bom_total: "Gesamttotal",
+                        bom_optional: "(Optional)",
+                        csv_header_qty: "Anzahl",
+                        csv_header_artnr: "Artikelnummer",
+                        csv_header_name: "Name",
+                        csv_header_optional: "Optional",
+                        csv_yes: "Ja",
+                        csv_no: "Nein",
+                        warning_title: "Konfigurationshinweise",
+                        warning_emob_title: "Begrenzte Steuerung für E-Mobilität",
+                        warning_emob_msg: "Die aktuelle Konfiguration der Messinfrastruktur erlaubt nur eine begrenzte dynamische Anpassung und Steuerung der E-Mobilität. Messen Sie den Arealmesspunkt (bei mehreren Gebäuden) und die relevanten Hausanschlüsse, um das volle Potenzial zu nutzen.",
+                        warning_heat_title: "Hinweis für Gebäude {buildingNr}",
+                        warning_heat_msg: "Falls die Heizung bzw. Warmwassererzeugung in Gebäude {buildingNr} eine elektrische Heizung oder Wärmepumpe ist, erwägen Sie die separate Messung für eine einfache und automatisierte Abrechnung. Wird die Energie vom Allgemeinstrom bezogen, ist eine manuelle Trennung der Kosten notwendig.",
+                        warning_telstar_title: "Hinweis zur Zählerwahl",
+                        warning_telstar_msg: "In der Stückliste sind aufgrund technischer Einschränkungen auch DIN-Schienenzähler vorgesehen um Ströme > 100A zu Messen.",
+                        warning_zev_unmeasured_title: "Hinweis zur ZEV-Konfiguration",
+                        warning_zev_unmeasured_msg: "Diese Konfiguration lässt durch das nicht Messen des Netzzugangspunktes nicht zu eine akkurate Tarifierung durchzuführen. Die Verifikation des Systems wird vom smart-me Support nicht gedeckt und muss in Eigenverantwortung erfolgen.",
+                        warning_vzev_unmeasured_title: "Hinweis zur vZEV-Konfiguration",
+                        warning_vzev_unmeasured_msg: "Diese Konfiguration lässt durch das nicht Messen der Hausanschlüsse nicht zu eine akkurate Tarifierung durchzuführen. Die Verifikation des Systems wird vom smart-me Support nicht gedeckt und muss in Eigenverantwortung erfolgen.",
+                        legend_title: "Legende",
+                        legend_measured: "Aktiv gemessen",
+                        legend_unmeasured: "Nicht gemessen",
+                        hint_telstar_ct_title: "Einkaufshinweis Telstar CT",
+			            hint_telstar_ct_msg: "Für die Messpunkte Telstar CT, müssen externe Wandler beschafft werden. Diese sind im Lieferumfang nicht inbegriffen.",
+			            hint_telstar_ct_details: "Es müssen <b>{totalSets} Wandlerset(s)</b> (à 3 Stück) beschafft werden für: <b>{ampSummary}</b>.",
+			            hint_telstar_ct_zev: "Werden Wandler für einen ZEV benötigt sollten diese Geeicht sein.",
+			            hint_telstar_ct_link_text: "Informationen zur Beschaffung und Empfehlungen",
+                        hint_emob_title: "Einkaufshinweis E-Mobilität",
+                        hint_emob_msg: "Zubehör wie Fertigfundamente müssen zusätzlich eingekauft werden oder selber gegossen werden.",
+                        hint_emob_link_zubehoer: "Link Zubehör",
+                        hint_emob_link_standfuss: "Link Standfuss",
+                        hint_emob_link_fundamente: "Link Fundamente",
+                        hint_swisseldex_title: "Hinweis zum Swisseldex Import",
+                        hint_swisseldex_msg: "Bitte beachte, dass wenn der Swisseldex Import verwendet wird, keine Echtzeitdaten auf smart-me zur Steuerung oder Anzeige für die Mieter zur Verfügung steht. Die Echtzeitdaten müssen mittels Zusatzadaptern ihren Weg in die lokale Steuerung finden. <br><br>Dies kann mit Mehraufwand und Mehrkosten verbunden sein.<br><br>Üblicherweise werden die Daten 1x am Tag übertragen und 1x im Monat verifiziert übertragen für die Verrechnung.<br><br>Beachte auch die laufenden Kosten für die Zählermiete beim Energieversorger. Investitionen sind meist kostengünstiger über die Zeit als Mietkonzepte.",
+                        hint_api_title: "Hinweis zur API-Nutzung",
+                        hint_api_msg: "Bitte beachte, dass wenn die API für Zähler verwendet wird, die Fähigkeiten und Datenrate abhängig vom Drittanbieter sind. Oftmals wird seitens Drittanbieter auf die Übertragung von Echtzeitdaten verzichtet.",
+                        hint_emob_foreign_billing_title: "Hinweis zur Wahl der E-Mobilitätshardware",
+                        hint_emob_foreign_billing_msg: "Bitte stelle sicher dass du eine kompatible Fremdhardware für diese Variante ausgewählt hast:<ul class='list-disc list-inside mt-2'><li>Easee MID</li><li>Zaptec MID</li></ul><br>Die Übertragungsqualität liegt in der Hand der Drittanbieterlösungen. Smart-me Übernimmt keine Verantwortung für verlorene oder unvollständige Lastgangdaten."
+                    },
+                    en: {
+                        main_title: "smart-me Project Configurator",
+                        main_subtitle: "Assemble your individual project solution in just a few steps.",
+                        p1_usage_notes_title: "Usage Notes for the Configurator",
+                        p1_usage_note_1: "Using the configurator provides you with support for creating the bill of materials.",
+                        p1_usage_note_2: "The configurator provides you with a possible product selection and further details.",
+                        p1_usage_note_3: "The generated schema provides information on planning omissions and control functions.",
+                        p1_usage_note_4: "The created bill of materials does not relieve you of the obligation to check it.",
+                        p1_usage_note_5: "smart-me AG assumes no liability for incorrect orders resulting from these bills of materials.",
+                        p1_load_config_title: "Load Configuration",
+                        p1_load_config_desc: "Upload a previously saved configuration file to continue your project.",
+                        p1_project_name_title: "Enter Project Name",
+                        p1_project_name_desc: "Enter a name for your project. This will be used for file exports.",
+                        btn_upload_config: "Upload Configuration (.csv)",
+                        btn_save_config: "Save Configuration",
+                        btn_reset_config: "Start New Config.",
+                        reset_confirm: "Are you sure you want to reset all entries and start a new configuration?",
+                        p1_project_type_title: "1. Project Type",
+                        p1_project_type_desc: "Is your project a self-consumption community (SCC)?",
+                        p1_project_type_zev_only: "SCC",
+                        p1_project_type_vzev: "Virtual SCC (vSCC)",
+                        p1_project_type_zev_desc: "For properties with self-consumption communities.",
+                        p1_project_type_vzev_desc: "For virtual self-consumption communities.",
+                        p1_project_type_no_zev: "No SCC / vSCC",
+                        p1_project_type_no_zev_desc: "For projects without a self-consumption community.",
+                        p1_zev_config_title: "2. SCC Configuration",
+                        p1_zev_billing: "Billing",
+                        p1_zev_billing_sm: "smart-me Billing",
+                        p1_zev_billing_3rd: "Third-party Software",
+                        p1_zev_hardware: "Meter Hardware",
+                        p1_zev_hardware_sm: "smart-me Hardware",
+                        p1_zev_hardware_swisseldex: "Swisseldex",
+                        p1_zev_hardware_api: "API",
+                        p1_zev_mount: "How are the smart-me meters installed?",
+                        p1_zev_mount_din: "DIN Rail",
+                        p1_zev_mount_plate: "3-Point Mounting Plate",
+                        p1_emob_title: "3. E-Mobility",
+                        p1_emob_desc: "Which charging solution for electric vehicles is planned?",
+                        p1_emob_sm: "smart-me Charging Hardware",
+                        p1_emob_foreign: "Foreign Product",
+                        p1_emob_none: "None",
+                        p1_emob_details_title: "3a. E-Mobility Details",
+                        p1_emob_sm_control: "Control of smart-me Hardware",
+                        p1_emob_sm_control_mlm: "smart-me multilevel load management",
+                        p1_emob_sm_control_3rd: "Control Software (e.g., Loxone)",
+                        p1_emob_foreign_control: "Control Solution",
+                        p1_emob_foreign_control_own: "Manufacturer's Solution",
+                        p1_emob_foreign_control_sw: "Control Software (e.g., Loxone)",
+                        p1_emob_billing: "Billing of Charging Processes",
+                        p1_emob_billing_sm: "smart-me Billing",
+                        p1_submetering_title: "4. Heat, Water, Gas",
+                        p1_submetering_desc: "Will heat, water, or gas be billed?",
+                        p1_submetering_sm: "With smart-me Billing",
+                        p1_submetering_3rd: "With Third-party Solution",
+                        p1_submetering_none: "No",
+                        p1_submetering_details_title: "4a. Details",
+                        p1_submetering_connection: "Connection via",
+                        p1_payment_title: "5. Payment Mode",
+                        p1_payment_desc: "Choose the desired billing model for the software license.",
+                        p1_payment_monthly: "Monthly",
+                        p1_payment_10y: "10-Year Subscription",
+                        btn_next: "Next",
+                        btn_back_config: "Back to Configuration",
+                        btn_finish: "Create Bill of Materials",
+                        btn_back: "Back",
+                        btn_back_building: "Back to Building Configuration",
+                        btn_back_pedestal: "Back to Pedestals",
+                        btn_csv: "Download CSV",
+                        btn_download_schema: "Download Schema",
+                        btn_yes: "Yes",
+                        btn_no: "No",
+                        btn_show_bom: "Bill of Materials",
+                        btn_show_schema: "Schema",
+                        p2_spec_title: "Building Specification",
+                        p2_building_count: "Number of Buildings",
+                        p2_area_meas_title: "Area Metering Point",
+                        p2_measurement_info: "The measurement should be implemented whenever possible, even if it proves difficult. The absence of this measurement can lead to significant limitations.",
+                        p2_area_meas_possible: "Can the area metering point be measured?",
+                        p2_area_meas_amps: "Fuse Protection Area Metering Point",
+                        p2_amps_per_phase: "Fuse Protection (A/Phase)",
+                        p2_building_X: "Building",
+                        p2_apartments: "Apartments",
+                        p2_common_circuits: "General Circuits",
+                        p2_heating: "Heating Systems",
+                        p2_water_heating: "Hot Water Generation",
+                        p2_production: "Production plants with or without DC-coupled storage systems",
+                        p2_storage: "AC coupled storage systems with active measurement",
+                        p2_emob_circuits: "E-Mobility Circuits",
+                        p2_emob_behind_meter: "Charging points after apartment meter",
+                        p2_grid_connection: "Grid Connection",
+                        p2_grid_connection_possible: "Grid connection measurable?",
+                        p2_grid_connection_amps: "Fuse Protection Grid Connection",
+                        p2_label_count: "Count",
+                        p2_label_unit: "Unit",
+                        p2_label_charging_points: "Charging Points",
+                        p2_label_prepared_only: "of which prepared only:",
+                        p2_label_circuit: "Circuit",
+                        p2_emob_details_title: "E-Mobility Details",
+                        p2a_title: "Pedestal Configuration",
+			            p2a_info_text: `Unsure which pedestal and head is right for you? <a href="https://dok.smart-me.com/produkte/pico-ladestation/pico-standfuss" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">Learn more here.</a>`,
+                        p2a_question: "Are charging points implemented on pedestals?",
+                        p2a_combinations: "Combinations",
+                        p2a_add_combination_btn: "+ Combination",
+                        p2a_total_picos: "Total Charging Points",
+                        p2a_picos_on_pedestals: "Of which on pedestals",
+                        p2a_warning_too_many: "Warning: You have planned more charging points on pedestals than are available in total.",
+                        p2a_label_stand: "Pedestal",
+                        p2a_label_head: "Head",
+                        p2a_label_qty: "Quantity",
+                        p3_title: "Specification Heat, Water, Gas",
+                        p3_desc: "Enter the number of meters per unit.",
+                        p3_reference_meters: "Reference Meters",
+                        p3_heat: "Heat meters",
+                        p3_cold: "Cold meters",
+                        p3_hot_water: "Hot water meters",
+                        p3_cold_water: "Cold water meters",
+                        p3_gas: "Gas meters",
+                        p3_mbus_gateways: "M-Bus Gateways",
+                        bom_title: "Bill of Materials",
+                        bom_no_products: "No products found for the current configuration. Please check your entries.",
+                        bom_header_qty: "Quantity",
+                        bom_header_artnr: "Article No.",
+                        bom_header_name: "Name",
+                        bom_infra_infra: "General Infrastructure",
+                        bom_zev_infra: "SCC Infrastructure",
+                        bom_emob_infra: "E-Mobility Infrastructure",
+                        bom_submetering_infra: "Submetering Infrastructure",
+                        bom_total: "Grand Total",
+                        bom_optional: "(Optional)",
+                        csv_header_qty: "Quantity",
+                        csv_header_artnr: "Article Number",
+                        csv_header_name: "Name",
+                        csv_header_optional: "Optional",
+                        csv_yes: "Yes",
+                        csv_no: "No",
+                        warning_title: "Configuration Notes",
+                        warning_emob_title: "Limited Control for E-Mobility",
+                        warning_emob_msg: "The current configuration of the measurement infrastructure only allows for limited dynamic adjustment and control of e-mobility. To use the full potential, measure the area metering point (for multiple buildings) and the relevant grid connections.",
+                        warning_heat_title: "Note for Building {buildingNr}",
+                        warning_heat_msg: "If the heating or hot water generation in building {buildingNr} is an electric heater or heat pump, consider a separate measurement for simple and automated billing. If the energy is drawn from the general power, a manual cost separation will be necessary.",
+                        warning_telstar_title: "Note on Meter Selection",
+                        warning_telstar_msg: "Due to technical limitations, DIN rail meters are also included in the parts list to measure currents > 100A.",
+                        warning_zev_unmeasured_title: "Note on SCC Configuration",
+                        warning_zev_unmeasured_msg: "By not measuring the grid access point, this configuration does not allow for accurate tariffing. Verification of the system is not covered by smart-me support and must be carried out under your own responsibility.",
+                        warning_vzev_unmeasured_title: "Note on vSCC Configuration",
+                        warning_vzev_unmeasured_msg: "By not measuring the building grid connections, this configuration does not allow for accurate tariffing. Verification of the system is not covered by smart-me support and must be carried out under your own responsibility.",
+                        legend_title: "Legend",
+                        legend_measured: "Actively measured",
+                        legend_unmeasured: "Not measured",
+                        hint_telstar_ct_title: "Purchasing Note Telstar CT",
+			            hint_telstar_ct_msg: "External current transformers must be procured for the Telstar CT metering points. These are not included in the scope of delivery.",
+			            hint_telstar_ct_details: "<b>{totalSets} current transformer set(s)</b> (3 units each) must be procured for: <b>{ampSummary}</b>.",
+			            hint_telstar_ct_zev: "If current transformers are required for an SCC, they must be certified.",
+			            hint_telstar_ct_link_text: "Information on procurement and recommendations",
+                        hint_emob_title: "Purchasing Note E-Mobility",
+                        hint_emob_msg: "Accessories such as pre-made foundations must be purchased additionally or cast by yourself.",
+                        hint_emob_link_zubehoer: "Link Accessories",
+                        hint_emob_link_standfuss: "Link Pedestal",
+                        hint_emob_link_fundamente: "Link Foundations",
+                        hint_swisseldex_title: "Note on Swisseldex Import",
+                        hint_swisseldex_msg: "Please note that when using the Swisseldex import, no real-time data is available on smart-me for control or display for tenants. The real-time data must find its way into the local control system via other means using additional adapters. <br><br>This can be associated with additional effort and costs.<br><br>Normaly the data is transmitted once daily and verified once a month for billing purposes.<br><br>Also note the ongoing costs for meter rental from the energy supplier. Investments are usually more cost-effective over time than rental concepts.",
+                        hint_api_title: "Note on API Usage",
+                        hint_api_msg: "Please note that when using the API for meters, the capabilities and data rate are dependent on the third-party provider. Often, third-party providers refrain from transmitting real-time data.",
+                        hint_emob_foreign_billing_title: "Note on E-Mobility Hardware Selection",
+                        hint_emob_foreign_billing_msg: "Please ensure you have selected compatible third-party hardware for this option:<ul class='list-disc list-inside mt-2'><li>Easee MID</li><li>Zaptec MID</li></ul><br>The transmission quality is the responsibility of the third-party solutions. smart-me assumes no responsibility for lost or incomplete load profile data."
+                    }
+                },
+
+                // --- PRODUCT DATABASES ---
+                db: {
+                    smartMeHardware: [
+                        { name_de: 'smart-me Telstar 80A', name_en: 'smart-me Telstar 80A', articleNumber: '202063', maxAmps: 80, format: 'DIN', type: 'meter' },
+                        { name_de: 'smart-me Telstar CT', name_en: 'smart-me Telstar CT', articleNumber: '212062', maxAmps: 'CT', format: 'DIN', type: 'meter' },
+                        { name_de: 'smart-me Nimbus 100A', name_en: 'smart-me Nimbus 100A', articleNumber: '242065', maxAmps: 100, format: '3-Punkte', type: 'meter' },
+                        { name_de: 'Pico 22 kW', name_en: 'Pico 22 kW', articleNumber: '232070', maxAmps: 32, type: 'charging_station' },
+                        { name_de: 'smart-me M-Bus Gateway (max. 50 Std-Lasten)', name_en: 'smart-me M-Bus Gateway (max. 50 std. loads)', articleNumber: '152090', type: 'gateway' },
+                        { name_de: 'M-Bus Gateway Sirius (max. 250 Std-Lasten)', name_en: 'M-Bus Gateway Sirius (max. 250 std. loads)', articleNumber: '262090', type: 'gateway_sirius' },
+                        // New Pico Hardware
+                        { name_de: 'Pico 22 kW (nur Elektronik)', name_en: 'Pico 22 kW (electronics only)', articleNumber: '232070/1', type: 'pico_electronics' },
+                        { name_de: 'Pico Vorbereitungspaket', name_en: 'Pico Preparation Kit', articleNumber: '212070-VP', type: 'pico_prep_kit' },
+                        { name_de: 'Pico Ständer', name_en: 'Pico Stand', articleNumber: '212070-PL', type: 'pico_stand' },
+                        { name_de: 'Pico Ständer mit Servicezugang', name_en: 'Pico Stand with Service Access', articleNumber: '232070-PL', type: 'pico_stand' },
+                        { name_de: 'Pico Ständerkopf 1x Pico mit Kabeldock', name_en: 'Pico Stand Head 1x Pico with Cable Dock', articleNumber: '232070-PL/PH1', type: 'pico_head', capacity: 1 },
+                        { name_de: 'Pico Ständerkopf 2x Pico mit Kabeldock', name_en: 'Pico Stand Head 2x Pico with Cable Dock', articleNumber: '232070-PL/PH2', type: 'pico_head', capacity: 2 },
+                        { name_de: 'Pico Ständerkopf 1x Pico Normal', name_en: 'Pico Stand Head 1x Pico Normal', articleNumber: '212070-PL/PH1', type: 'pico_head', capacity: 1 },
+                        { name_de: 'Pico Ständerkopf 2x Pico Normal', name_en: 'Pico Stand Head 2x Pico Normal', articleNumber: '212070-PL/PH2', type: 'pico_head', capacity: 2 }
+                    ],
+                    smartMeLicenses: [
+                        { name_de: 'smart-me Professional Cloud-Service Lizenz: Alle Energietypen', name_en: 'smart-me Professional Cloud-Service License: All Energy Types', articleNumber: '172050', paymentMode: 'monthly', type: 'license_sm' },
+                        { name_de: 'smart-me Professional Cloud-Service Lizenz: Alle Energietypen', name_en: 'smart-me Professional Cloud-Service License: All Energy Types', articleNumber: '232050', paymentMode: '10_year', type: 'license_sm' },
+                        { name_de: 'smart-me Professional Cloud-Service Lizenz: Wärme / Kälte / Wasser / Gas', name_en: 'smart-me Professional Cloud-Service License: Heat / Cold / Water / Gas', articleNumber: '232051', paymentMode: '10_year', type: 'license_sm_sub' },
+                        { name_de: 'eCarup / smart-me Cloud Service Kombi-Lizenz', name_en: 'eCarup / smart-me Cloud Service Combo License', articleNumber: '242062', paymentMode: '10_year', type: 'license_kombi' },
+                        { name_de: 'eCarup Premium Cloud Service Lizenz', name_en: 'eCarup Premium Cloud Service License', articleNumber: '222060', paymentMode: 'monthly', type: 'license_ecarup' },
+                        { name_de: 'eCarup Premium Cloud Service Lizenz', name_en: 'eCarup Premium Cloud Service License', articleNumber: '242061', paymentMode: '10_year', type: 'license_ecarup' }
+                    ],
+                    foreignHardware: [
+                        { name_de: 'Fremdzähler', name_en: 'Foreign Meter', articleNumber: 'N/A', type: 'meter' },
+                        { name_de: 'Fremdladepunkt', name_en: 'Foreign Charging Point', articleNumber: 'N/A', type: 'charging_station' },
+                        { name_de: 'LoRa Gateway Hardware (Fremdprodukt)', name_en: 'LoRa Gateway Hardware (Foreign Product)', articleNumber: 'N/A', type: 'gateway_foreign' },
+                        { name_de: 'LoRa Zählerhardware (Wärme /Wasser / Gas; Fremdprodukt)', name_en: 'LoRa Meter Hardware (Heat / Water / Gas; Foreign Product)', articleNumber: 'N/A', type: 'meter_foreign_sub' }
+                    ]
+                },
+                
+                init() {
+                    this.loadState();
+                    this.addEventListeners();
+                    this.updateView();
+                    this.translateUI(this.selections.currentLanguage);
+                },
+
+                getSafeFileName() {
+                    const baseName = this.selections.projectName || 'smart-me_projekt';
+                    // Ersetzt ungültige Zeichen und mehrfache Unterstriche
+                    return baseName.replace(/[^a-z0-9_.-]/gi, '_').replace(/_+/g, '_');
+                },
+
+                addEventListeners() {
+                    document.getElementById('project_name').addEventListener('input', (e) => {
+                        this.selections.projectName = e.target.value;
+                        this.saveState();
+                    });
+
+                    document.getElementById('initial_config_page').addEventListener('click', (e) => {
+                        const option = e.target.closest('.option, .option-small');
+                        if (!option) return;
+
+                        const group = option.parentElement;
+                        const question = group.dataset.question;
+                        const value = option.dataset.value;
+                        
+                        const previousSelection = this.selections[question];
+                        let isCriticalChange = false;
+
+                        if (previousSelection !== undefined && previousSelection !== value) {
+                            if (question === 'project_type') {
+                                isCriticalChange = true;
+                            } else if (question === 'emob_solution') {
+                                if ((previousSelection === 'none' && value !== 'none') || (previousSelection !== 'none' && value === 'none')) {
+                                    isCriticalChange = true;
+                                }
+                            } else if (question === 'submetering_billing') {
+                                if ((previousSelection === 'none' && value !== 'none') || (previousSelection !== 'none' && value === 'none')) {
+                                    isCriticalChange = true;
+                                }
+                            }
+                        }
+
+                        if (isCriticalChange) {
+                            console.log(`Critical change detected in '${question}'. Old: ${previousSelection}, New: ${value}. Resetting building config.`);
+                            this.selections.buildings = [];
+                            this.selections.submetering = {};
+                            this.selections.building_count = 0;
+                            delete this.selections.area_measurement;
+                            delete this.selections.pedestals;
+                            
+                            const buildingCountInput = document.getElementById('building_count');
+                            if (buildingCountInput) buildingCountInput.value = 0;
+                            
+                            const buildingContainer = document.getElementById('building_details_container');
+                            if(buildingContainer) buildingContainer.innerHTML = '';
+
+                            const areaBtn = document.querySelector('#area_measurement_section .option-small.selected');
+                            if(areaBtn) areaBtn.classList.remove('selected');
+                            document.getElementById('area_measurement_amps_container').classList.add('hidden');
+                            document.getElementById('area_measurement_amps').value = '';
+                        }
+
+                        this.selections[question] = value;
+
+                        if (question === 'project_type') {
+                            if (value === 'zev' || value === 'vzev') {
+                                // Force the hardware selection since the UI element is hidden
+                                this.selections.zev_hardware = 'sm_hardware';
+                            } else { // value is 'no_zev'
+                                // Clear all ZEV-specific answers when switching to "No ZEV"
+                                delete this.selections.zev_billing;
+                                delete this.selections.zev_hardware;
+                                delete this.selections.sm_hardware_mount;
+                            }
+                        }
+                        
+                        group.querySelectorAll('.option, .option-small').forEach(opt => opt.classList.remove('selected'));
+                        option.classList.add('selected');
+                        
+                        this.saveState();
+                        this.updateView();
+                    });
+                    
+                    document.getElementById('next-page-btn').addEventListener('click', () => this.navigateToPage(2));
+                    document.getElementById('back-to-config-btn').addEventListener('click', () => this.navigateToPage(1));
+                    document.getElementById('next-to-pedestal-btn').addEventListener('click', () => this.handlePage2Next());
+                    document.getElementById('back-to-buildings-btn').addEventListener('click', () => this.navigateToPage(2));
+                    document.getElementById('next-to-submetering-btn-2').addEventListener('click', () => this.handlePedestalNext());
+                    document.getElementById('back-from-submetering-btn').addEventListener('click', () => this.handleBackFromSubmetering());
+                    document.getElementById('finish-btn-2').addEventListener('click', () => this.navigateToPage(5));
+                    document.getElementById('back-to-last-page-btn').addEventListener('click', () => this.handleBackFromResults());
+                    document.getElementById('download-csv-btn').addEventListener('click', () => this.downloadCSV());
+                    document.getElementById('download-schema-btn').addEventListener('click', () => this.downloadSchemaAsSVG());
+                    document.getElementById('save-config-btn-result').addEventListener('click', () => this.saveConfigurationToCSV());
+                    document.getElementById('upload-config-btn').addEventListener('click', () => document.getElementById('config-file-input').click());
+                    document.getElementById('config-file-input').addEventListener('change', (e) => this.loadConfigurationFromCSV(e));
+                    document.getElementById('lang-de').addEventListener('click', () => this.translateUI('de'));
+                    document.getElementById('lang-en').addEventListener('click', () => this.translateUI('en'));
+
+                    document.getElementById('show-bom-btn').addEventListener('click', () => this.toggleResultView('bom'));
+                    document.getElementById('show-schema-btn').addEventListener('click', () => this.toggleResultView('schema'));
+
+                    const buildingConfigPage = document.getElementById('building_config_page');
+                    buildingConfigPage.addEventListener('input', (e) => {
+                        if (!e.target.matches('input')) return;
+                        const { building, category, type, index, action } = e.target.dataset;
+                        const value = e.target.value;
+                        if (e.target.id === 'building_count') {
+                            this.generateBuildingInputs(value);
+                        } else if (e.target.id === 'area_measurement_amps') {
+                            if (!this.selections.area_measurement) this.selections.area_measurement = {};
+                            this.selections.area_measurement.amps = value;
+                            this.saveState();
+                        } else if (action === 'expand-inputs') {
+                            this.updateDynamicInputs(e.target);
+                        } else {
+                            this.saveBuildingData(building, category, type, value, index);
+                        }
+                    });
+
+                    buildingConfigPage.addEventListener('click', (e) => {
+                        const button = e.target.closest('.option-small');
+                        if (!button) return;
+                        const { building, category, type, value } = button.dataset;
+                        if (building) {
+                            this.saveBuildingData(building, category, type, value);
+                            button.parentElement.querySelectorAll('.option-small').forEach(opt => opt.classList.remove('selected'));
+                            button.classList.add('selected');
+                            const ampsContainer = document.getElementById(`grid_amps_container_${building}`);
+                            if (ampsContainer) ampsContainer.classList.toggle('hidden', value !== 'yes');
+                        } else {
+                            if (!this.selections.area_measurement) this.selections.area_measurement = {};
+                            this.selections.area_measurement.possible = value;
+                            button.parentElement.querySelectorAll('.option-small').forEach(opt => opt.classList.remove('selected'));
+                            button.classList.add('selected');
+                            const ampsContainer = document.getElementById('area_measurement_amps_container');
+                            ampsContainer.classList.toggle('hidden', value === 'no');
+                            if (value === 'no') {
+                                delete this.selections.area_measurement.amps;
+                                document.getElementById('area_measurement_amps').value = '';
+                            }
+                        }
+                        this.saveState();
+                    });
+
+                    document.getElementById('pedestal_config_page').addEventListener('click', (e) => {
+                        const option = e.target.closest('.option-small');
+                        if(option) {
+                            const group = option.parentElement;
+                            const question = group.dataset.question;
+                            const value = option.dataset.value;
+                            this.selections[question] = value;
+                            group.querySelectorAll('.option-small').forEach(opt => opt.classList.remove('selected'));
+                            option.classList.add('selected');
+                            document.getElementById('pedestal_details_section').classList.toggle('hidden', value === 'no');
+                            if(value === 'no') {
+                                this.selections.pedestals = [];
+                                this.generatePedestalInputs();
+                            }
+                            this.saveState();
+                        }
+                        if(e.target.id === 'add-pedestal-combination-btn') {
+                            if(!this.selections.pedestals) this.selections.pedestals = [];
+                            this.selections.pedestals.push({stand: '', head: '', qty: 1});
+                            this.generatePedestalInputs();
+                        }
+                        if(e.target.dataset.action === 'remove-pedestal') {
+                            const index = parseInt(e.target.dataset.index, 10);
+                            this.selections.pedestals.splice(index, 1);
+                            this.generatePedestalInputs();
+                        }
+                    });
+
+                    document.getElementById('pedestal_config_page').addEventListener('change', (e) => {
+                        if(e.target.dataset.type === 'pedestal-stand' || e.target.dataset.type === 'pedestal-head') {
+                            const index = parseInt(e.target.dataset.index, 10);
+                            const type = e.target.dataset.type === 'pedestal-stand' ? 'stand' : 'head';
+                            this.selections.pedestals[index][type] = e.target.value;
+                            this.updatePedestalPicoCount();
+                            this.saveState();
+                        }
+                        if (e.target.tagName === 'SELECT') {
+                            const selectedOption = e.target.options[e.target.selectedIndex];
+                            e.target.title = selectedOption.text;
+                        }
+                    });
+                     document.getElementById('pedestal_config_page').addEventListener('input', (e) => {
+                        if(e.target.dataset.type === 'pedestal-qty') {
+                            const index = parseInt(e.target.dataset.index, 10);
+                            this.selections.pedestals[index].qty = parseInt(e.target.value, 10) || 0;
+                            this.updatePedestalPicoCount();
+                            this.saveState();
+                        }
+                    });
+
+
+                    document.getElementById('submetering_config_page').addEventListener('input', (e) => {
+                        if (!e.target.matches('input')) return;
+                        const { building, unit, type } = e.target.dataset;
+                        this.saveSubmeteringData(building, unit, type, e.target.value);
+                    });
+                },
+
+                resetConfiguration() {
+                    const lang = this.selections.currentLanguage;
+                    const t = this.translations[lang];
+                    if (confirm(t.reset_confirm)) {
+                        // Löscht die gespeicherte Konfiguration
+                        sessionStorage.removeItem('smartMeConfig');
+                        // Setzt den aktuellen Zustand im Speicher zurück, behält aber die Sprache bei
+                        this.selections = { currentLanguage: lang };
+                        // Zeichnet die Benutzeroberfläche aus dem leeren Zustand neu
+                        this.loadState();
+                        // Navigiert explizit zur ersten Seite
+                        this.navigateToPage(1);
+                    }
+                },
+
+                saveBuildingData(building, category, type, value, index = null) {
+                    if (!this.selections.buildings) this.selections.buildings = [];
+                    if (!this.selections.buildings[building]) this.selections.buildings[building] = {};
+                    if (!this.selections.buildings[building][category]) this.selections.buildings[building][category] = {};
+                    if (index !== null) {
+                        if (!this.selections.buildings[building][category][type]) {
+                            this.selections.buildings[building][category][type] = [];
+                        }
+                        this.selections.buildings[building][category][type][index] = value;
+                    } else {
+                        this.selections.buildings[building][category][type] = value;
+                    }
+                    this.saveState();
+                },
+
+                saveSubmeteringData(building, unit, type, value) {
+                    if (!this.selections.submetering) this.selections.submetering = {};
+                    if (!this.selections.submetering[building]) this.selections.submetering[building] = {};
+                    if (!this.selections.submetering[building][unit]) this.selections.submetering[building][unit] = {};
+                    this.selections.submetering[building][unit][type] = value;
+                    this.saveState();
+                },
+
+                navigateToPage(pageNumber) {
+                    document.getElementById('initial_config_page').classList.add('hidden');
+                    document.getElementById('building_config_page').classList.add('hidden');
+                    document.getElementById('pedestal_config_page').classList.add('hidden');
+                    document.getElementById('submetering_config_page').classList.add('hidden');
+                    document.getElementById('result_page').classList.add('hidden');
+                    document.getElementById('warnings_container').innerHTML = '';
+
+                    if (pageNumber === 1) document.getElementById('initial_config_page').classList.remove('hidden');
+                    else if (pageNumber === 2) document.getElementById('building_config_page').classList.remove('hidden');
+                    else if (pageNumber === 3) {
+                        this.generatePedestalInputs();
+                        document.getElementById('pedestal_config_page').classList.remove('hidden');
+                    }
+                    else if (pageNumber === 4) {
+                        this.generateSubmeteringInputs();
+                        document.getElementById('submetering_config_page').classList.remove('hidden');
+                    }
+                    else if (pageNumber === 5) {
+                        document.getElementById('result_page').classList.remove('hidden');
+                        const { bom, schemaMapping } = this.generateBillOfMaterials();
+                        this.renderBillOfMaterials(bom);
+                        this.renderMermaidSchema(schemaMapping);
+                        this.validateConfigurationAndShowWarnings(bom);
+                        this.toggleResultView('bom'); // Default to BOM view
+                    }
+                    this.selections.currentPage = pageNumber;
+                    this.saveState();
+                },
+
+                handlePage2Next() {
+                    if (this.selections.emob_solution === 'sm_emob') {
+                        this.navigateToPage(3);
+                    } else if (this.selections.submetering_billing && this.selections.submetering_billing !== 'none') {
+                        this.navigateToPage(4);
+                    } else {
+                        this.navigateToPage(5);
+                    }
+                },
+
+                handlePedestalNext() {
+                    if (this.selections.submetering_billing && this.selections.submetering_billing !== 'none') {
+                        this.navigateToPage(4);
+                    } else {
+                        this.navigateToPage(5);
+                    }
+                },
+                
+                handleBackFromSubmetering() {
+                    if (this.selections.emob_solution === 'sm_emob') {
+                        this.navigateToPage(3); // Go back to Pedestals
+                    } else {
+                        this.navigateToPage(2); // Go back to Buildings
+                    }
+                },
+
+                handleBackFromResults() {
+                    if (this.selections.submetering_billing && this.selections.submetering_billing !== 'none') {
+                        this.navigateToPage(4);
+                    } else if (this.selections.emob_solution === 'sm_emob') {
+                        this.navigateToPage(3);
+                    }
+                    else {
+                        this.navigateToPage(2);
+                    }
+                },
+
+                updateView() {
+                    const { project_type, zev_hardware, emob_solution, submetering_billing, payment_mode } = this.selections;
+                    const show = (selector) => document.querySelector(selector)?.classList.remove('hidden');
+                    const hide = (selector) => document.querySelector(selector)?.classList.add('hidden');
+                    
+                    if (project_type === 'zev' || project_type === 'vzev') show('#zev_questions'); else hide('#zev_questions');
+                    if (zev_hardware === 'sm_hardware') show('#sm_hardware_question'); else hide('#sm_hardware_question');
+                    
+                    if (project_type) show('#emobility_section'); else hide('#emobility_section');
+                    if (emob_solution && emob_solution !== 'none') show('#emobility_followup'); else hide('#emobility_followup');
+                    if (emob_solution === 'sm_emob') show('#sm_emob_question'); else hide('#sm_emob_question');
+                    if (emob_solution === 'foreign_emob') show('#foreign_emob_question'); else hide('#foreign_emob_question');
+                    if (emob_solution && emob_solution !== 'none') show('#emob_billing_question'); else hide('#emob_billing_question');
+                    
+                    if (project_type) show('#submetering_section'); else hide('#submetering_section');
+                    if (submetering_billing && submetering_billing !== 'none') show('#submetering_followup'); else hide('#submetering_followup');
+                    
+                    if (emob_solution || (submetering_billing && submetering_billing !== 'none')) {
+                        show('#payment_section');
+                    } else {
+                        hide('#payment_section');
+                    }
+                    
+                    if (payment_mode) show('#page1_nav'); else hide('#page1_nav');
+
+                    // Handle hints
+                    const t = this.translations[this.selections.currentLanguage];
+                    
+                    // ZEV hardware hints
+                    const zevHardwareHintsContainer = document.getElementById('zev_hardware_hints');
+                    zevHardwareHintsContainer.innerHTML = ''; // Clear previous hints
+                    let zevHintHTML = '';
+                    if (this.selections.zev_hardware === 'swisseldex') {
+                        zevHintHTML = `
+                            <div class="p-4 bg-blue-100 border-l-4 border-blue-500 text-blue-800 rounded-r-lg">
+                                <p class="font-bold">${t.hint_swisseldex_title}</p>
+                                <p>${t.hint_swisseldex_msg}</p>
+                            </div>
+                        `;
+                    } else if (this.selections.zev_hardware === 'api') {
+                        zevHintHTML = `
+                            <div class="p-4 bg-blue-100 border-l-4 border-blue-500 text-blue-800 rounded-r-lg">
+                                <p class="font-bold">${t.hint_api_title}</p>
+                                <p>${t.hint_api_msg}</p>
+                            </div>
+                        `;
+                    }
+                    zevHardwareHintsContainer.innerHTML = zevHintHTML;
+
+                    // E-Mob hardware hints
+                    const emobHardwareHintsContainer = document.getElementById('emob_hardware_hints');
+                    emobHardwareHintsContainer.innerHTML = ''; // Clear previous hints
+                    if (this.selections.emob_solution === 'foreign_emob' && this.selections.emob_billing === 'sm_billing') {
+                        const emobHintHTML = `
+                            <div class="p-4 bg-blue-100 border-l-4 border-blue-500 text-blue-800 rounded-r-lg">
+                                <p class="font-bold">${t.hint_emob_foreign_billing_title}</p>
+                                <p>${t.hint_emob_foreign_billing_msg}</p>
+                            </div>
+                        `;
+                        emobHardwareHintsContainer.innerHTML = emobHintHTML;
+                    }
+                },
+
+                updateDynamicInputs(countInput) {
+                    const { building, category } = countInput.dataset;
+                    const count = parseInt(countInput.value, 10) || 0;
+                    this.saveBuildingData(building, category, 'count', count);
+                    const container = document.getElementById(`dynamic_inputs_${building}_${category}`);
+                    if (!container) return;
+                    const existingAmps = this.selections.buildings?.[building]?.[category]?.amps || [];
+                    const existingPoints = this.selections.buildings?.[building]?.[category]?.charging_points || [];
+                    const existingPrepared = this.selections.buildings?.[building]?.[category]?.prepared_only || [];
+                    let newHtml = '';
+                    const lang = this.selections.currentLanguage;
+                    const t = this.translations[lang];
+
+                    if (count > 0) {
+                        if (category === 'emob_circuits') {
+                            newHtml += `<div class="grid grid-cols-4 gap-2 items-center mt-2"><span class="text-xs text-gray-500">${t.p2_label_circuit}</span><span class="text-xs text-gray-500">${t.p2_amps_per_phase}</span><span class="text-xs text-gray-500">${t.p2_label_charging_points}</span><span class="text-xs text-gray-500">${t.p2_label_prepared_only}</span></div>`;
+                        } else {
+                            newHtml += `<div class="grid grid-cols-2 gap-2 items-center mt-2"><span class="text-xs text-gray-500">${t.p2_label_unit}</span><span class="text-xs text-gray-500">${t.p2_amps_per_phase}</span></div>`;
+                        }
+                    }
+                    for (let i = 0; i < count; i++) {
+                        if (category === 'emob_circuits') {
+                            newHtml += `<div class="grid grid-cols-4 gap-2 items-center mt-1">
+                                <span class="text-sm text-gray-600">${i + 1}</span>
+                                <input type="text" data-building="${building}" data-category="${category}" data-type="amps" data-index="${i}" class="w-full p-2 border border-gray-300 rounded-md" value="${existingAmps[i] || ''}">
+                                <input type="number" data-building="${building}" data-category="${category}" data-type="charging_points" data-index="${i}" min="0" class="w-full p-2 border border-gray-300 rounded-md" value="${existingPoints[i] || ''}">
+                                <input type="number" data-building="${building}" data-category="${category}" data-type="prepared_only" data-index="${i}" min="0" class="w-full p-2 border border-gray-300 rounded-md" value="${existingPrepared[i] || '0'}">
+                            </div>`;
+                        } else {
+                            newHtml += `<div class="grid grid-cols-2 gap-2 items-center mt-1"><span class="text-sm text-gray-600">${i + 1}</span><input type="text" data-building="${building}" data-category="${category}" data-type="amps" data-index="${i}" class="w-full p-2 border border-gray-300 rounded-md" value="${existingAmps[i] || ''}"></div>`;
+                        }
+                    }
+                    container.innerHTML = newHtml;
+                },
+                
+                generateBuildingInputs(count) {
+                    const container = document.getElementById('building_details_container');
+                    container.innerHTML = '';
+                    const s = this.selections;
+                    
+                    const isSubmeteringOnly = (s.project_type === 'no_zev') && s.emob_solution === 'none' && s.submetering_billing !== 'none';
+
+                    const areaSection = document.getElementById('area_measurement_section');
+                    const areaInfoText = areaSection.querySelector('[data-i18n="p2_measurement_info"]');
+
+                    if (count > 1 && !isSubmeteringOnly) {
+                        areaSection.classList.remove('hidden');
+                        if (s.project_type === 'vzev') {
+                            areaInfoText.classList.add('hidden');
+                        } else {
+                            areaInfoText.classList.remove('hidden');
+                        }
+                    } else {
+                        areaSection.classList.add('hidden');
+                        delete this.selections.area_measurement;
+                        document.querySelector('#area_measurement_section .option-small.selected')?.classList.remove('selected');
+                        document.getElementById('area_measurement_amps_container').classList.add('hidden');
+                        document.getElementById('area_measurement_amps').value = '';
+                        if (isSubmeteringOnly && count > 1) {
+                           if (!this.selections.area_measurement) this.selections.area_measurement = {};
+                           this.selections.area_measurement.possible = 'no';
+                        }
+                    }
+
+                    if (count > 20) count = 20;
+                    if (count < 1) {
+                        this.selections.building_count = 0;
+                        this.selections.buildings = [];
+                        this.saveState();
+                        return;
+                    }
+                    this.selections.building_count = count;
+                    if (!this.selections.buildings) this.selections.buildings = [];
+                    
+                    this.selections.buildings.length = count; 
+
+                    for (let i = 0; i < count; i++) {
+                        if (typeof this.selections.buildings[i] === 'undefined') {
+                            this.selections.buildings[i] = {};
+                        }
+                    }
+
+                    const isZev = s.project_type === 'zev' || s.project_type === 'vzev';
+                    const showApartmentAndCommon = isZev || (s.submetering_billing && s.submetering_billing !== 'none');
+                    const lang = this.selections.currentLanguage;
+                    const t = this.translations[lang];
+
+                    for (let i = 0; i < count; i++) {
+                        const buildingData = this.selections.buildings[i] || {};
+                        const card = document.createElement('div');
+                        card.className = 'bg-white p-6 rounded-xl shadow-md border border-gray-200';
+                        
+                        const createStaticInputRow = (label, buildingIndex, category, buildingData, showAmps) => {
+                            const catData = buildingData[category] || {};
+                            const ampsInput = showAmps ? `<input type="text" data-building="${buildingIndex}" data-category="${category}" data-type="amps" class="w-full p-2 border border-gray-300 rounded-md mt-1" value="${catData.amps || ''}">` : '';
+                            return `<div class="col-span-1 sm:col-span-2 py-2">
+                                        <div class="grid grid-cols-2 gap-x-4">
+                                            <label class="font-medium text-gray-700 text-sm self-center">${label}</label>
+                                            <div class="grid ${showAmps ? 'grid-cols-2' : 'grid-cols-1'} gap-2">
+                                                <div>
+                                                    <label class="text-xs text-gray-500">${t.p2_label_count}</label>
+                                                    <input type="number" data-building="${buildingIndex}" data-category="${category}" data-type="count" min="0" class="w-full p-2 border border-gray-300 rounded-md mt-1" value="${catData.count || ''}">
+                                                </div>
+                                                ${showAmps ? `<div><label class="text-xs text-gray-500">${t.p2_amps_per_phase}</label>${ampsInput}</div>` : ''}
+                                            </div>
+                                        </div>
+                                    </div>`;
+                        };
+                        const createExpandableInputRow = (label, buildingIndex, category, buildingData) => {
+                                const catData = buildingData[category] || {};
+                                const count = catData.count || 0;
+                                let dynamicInputsHTML = '';
+                                if (count > 0) {
+                                    dynamicInputsHTML += `<div class="grid grid-cols-2 gap-2 items-center mt-2"><span class="text-xs text-gray-500">${t.p2_label_unit}</span><span class="text-xs text-gray-500">${t.p2_amps_per_phase}</span></div>`;
+                                }
+                                for (let j = 0; j < count; j++) {
+                                    dynamicInputsHTML += `<div class="grid grid-cols-2 gap-2 items-center mt-1"><span class="text-sm text-gray-600">${j + 1}</span><input type="text" data-building="${buildingIndex}" data-category="${category}" data-type="amps" data-index="${j}" class="w-full p-2 border border-gray-300 rounded-md" value="${catData.amps?.[j] || ''}"></div>`;
+                                }
+                                return `<div class="col-span-1 sm:col-span-2 py-2">
+                                            <div class="grid grid-cols-2 gap-x-4">
+                                                <label class="font-medium text-gray-700 text-sm self-center">${label}</label>
+                                                <div>
+                                                    <label class="text-xs text-gray-500">${t.p2_label_count}</label>
+                                                    <input type="number" data-building="${buildingIndex}" data-category="${category}" data-type="count" data-action="expand-inputs" min="0" class="w-full p-2 border border-gray-300 rounded-md mt-1" value="${catData.count || ''}">
+                                                </div>
+                                            </div>
+                                            <div class="grid grid-cols-2 gap-x-4">
+                                                <div></div> <div class="mt-2" id="dynamic_inputs_${buildingIndex}_${category}">${dynamicInputsHTML}</div>
+                                            </div>
+                                        </div>`;
+                        };
+                        
+                        let mainContentHTML = '';
+                        if(showApartmentAndCommon) {
+                            mainContentHTML += `${createStaticInputRow(t.p2_apartments, i, 'apartments', buildingData, isZev)}${createStaticInputRow(t.p2_common_circuits, i, 'common_circuits', buildingData, isZev)}`;
+                        }
+                        
+                        if (isZev) {
+                             mainContentHTML += `${createStaticInputRow(t.p2_heating, i, 'heating', buildingData, true)}${createStaticInputRow(t.p2_water_heating, i, 'water_heating', buildingData, true)}${createExpandableInputRow(t.p2_production, i, 'production', buildingData)}${createExpandableInputRow(t.p2_storage, i, 'storage', buildingData)}`;
+                        }
+                        
+                        let emobHTML = '';
+                        if (this.selections.emob_solution && this.selections.emob_solution !== 'none') {
+                            const emobCircuitsData = buildingData.emob_circuits || {};
+                            const emobBehindMeterData = buildingData.emob_behind_meter || {};
+                            const emobCount = emobCircuitsData.count || 0;
+                            let emobDynamicHTML = '';
+                            if (emobCount > 0) {
+                                emobDynamicHTML += `<div class="grid grid-cols-4 gap-2 items-center mt-2"><span class="text-xs text-gray-500">${t.p2_label_circuit}</span><span class="text-xs text-gray-500">${t.p2_amps_per_phase}</span><span class="text-xs text-gray-500">${t.p2_label_charging_points}</span><span class="text-xs text-gray-500">${t.p2_label_prepared_only}</span></div>`;
+                            }
+                            for (let j = 0; j < emobCount; j++) {
+                                emobDynamicHTML += `<div class="grid grid-cols-4 gap-2 items-center mt-1">
+                                    <span class="text-sm text-gray-600">${j + 1}</span>
+                                    <input type="text" data-building="${i}" data-category="emob_circuits" data-type="amps" data-index="${j}" class="w-full p-2 border border-gray-300 rounded-md" value="${emobCircuitsData.amps?.[j] || ''}">
+                                    <input type="number" data-building="${i}" data-category="emob_circuits" data-type="charging_points" data-index="${j}" min="0" class="w-full p-2 border border-gray-300 rounded-md" value="${emobCircuitsData.charging_points?.[j] || ''}">
+                                    <input type="number" data-building="${i}" data-category="emob_circuits" data-type="prepared_only" data-index="${j}" min="0" class="w-full p-2 border border-gray-300 rounded-md" value="${emobCircuitsData.prepared_only?.[j] || '0'}">
+                                </div>`;
+                            }
+                            emobHTML = `<hr class="col-span-1 sm:col-span-2 my-2"><h4 class="col-span-1 sm:col-span-2 text-md font-semibold text-blue-700" data-i18n="p1_emob_title">E-Mobilität</h4><div class="col-span-1 sm:col-span-2 py-2"><div class="grid grid-cols-2 gap-x-4 items-end"><label class="font-medium text-gray-700 text-sm">${t.p2_emob_circuits}</label><div><label class="text-xs text-gray-500">${t.p2_label_count}</label></div></div><div class="grid grid-cols-2 gap-x-4 items-center mt-1"><div></div><input type="number" data-building="${i}" data-category="emob_circuits" data-type="count" data-action="expand-inputs" min="0" class="w-full p-2 border border-gray-300 rounded-md" value="${emobCircuitsData.count || ''}"></div><div class="pl-4 mt-2 border-l-2 border-gray-200" id="dynamic_inputs_${i}_emob_circuits">${emobDynamicHTML}</div></div>`;
+                            if(showApartmentAndCommon) {
+                                emobHTML += `<div class="col-span-1 sm:col-span-2 py-2">
+                                                <div class="grid grid-cols-2 gap-x-4">
+                                                    <label class="font-medium text-gray-700 text-sm self-center">${t.p2_emob_behind_meter}</label>
+                                                    <div class="grid grid-cols-2 gap-2">
+                                                        <div>
+                                                            <label class="text-xs text-gray-500">${t.p2_label_charging_points}</label>
+                                                            <input type="number" data-building="${i}" data-category="emob_behind_meter" data-type="count" min="0" class="w-full p-2 border border-gray-300 rounded-md mt-1" value="${emobBehindMeterData.count || ''}">
+                                                        </div>
+                                                        <div>
+                                                            <label class="text-xs text-gray-500">${t.p2_label_prepared_only}</label>
+                                                            <input type="number" data-building="${i}" data-category="emob_behind_meter" data-type="prepared_only" min="0" class="w-full p-2 border border-gray-300 rounded-md mt-1" value="${emobBehindMeterData.prepared_only || '0'}">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>`;
+                            }
+                        }
+                        
+                        let gridConnectionHTML = '';
+                        if (!isSubmeteringOnly) {
+                            const gridConnectionData = buildingData.grid_connection || {};
+                            gridConnectionHTML = `<hr class="col-span-1 sm:col-span-2 my-2">
+                                                  <h4 class="col-span-1 sm:col-span-2 text-md font-semibold text-blue-700">${t.p2_grid_connection}</h4>
+                                                  <p class="col-span-1 sm:col-span-2 text-sm text-gray-600 mt-2 mb-2" data-i18n="p2_measurement_info">${t.p2_measurement_info}</p>
+                                                  <div class="col-span-1 sm:col-span-2 py-2">
+                                                    <div class="grid grid-cols-2 gap-x-4 items-center">
+                                                        <label class="font-medium text-gray-700 text-sm">${t.p2_grid_connection_possible}</label>
+                                                        <div class="flex gap-4">
+                                                            <button class="option-small flex-1 p-2 border rounded-md transition-colors ${gridConnectionData.possible === 'yes' ? 'selected' : ''}" data-building="${i}" data-category="grid_connection" data-type="possible" data-value="yes">${t.btn_yes}</button>
+                                                            <button class="option-small flex-1 p-2 border rounded-md transition-colors ${gridConnectionData.possible === 'no' ? 'selected' : ''}" data-building="${i}" data-category="grid_connection" data-type="possible" data-value="no">${t.btn_no}</button>
+                                                        </div>
+                                                    </div>
+                                                  </div>
+                                                  <div class="col-span-1 sm:col-span-2 py-2 ${gridConnectionData.possible !== 'yes' ? 'hidden' : ''}" id="grid_amps_container_${i}">
+                                                    <div class="grid grid-cols-2 gap-x-4 items-end">
+                                                        <label class="font-medium text-gray-700 text-sm">${t.p2_grid_connection_amps}</label>
+                                                        <div><label class="text-xs text-gray-500">${t.p2_amps_per_phase}</label></div>
+                                                    </div>
+                                                    <div class="grid grid-cols-2 gap-x-4 items-center mt-1">
+                                                        <div></div>
+                                                        <input type="text" data-building="${i}" data-category="grid_connection" data-type="amps" class="w-full p-2 border border-gray-300 rounded-md" value="${gridConnectionData.amps || ''}">
+                                                    </div>
+                                                  </div>`;
+                        } else {
+                           this.saveBuildingData(i, 'grid_connection', 'possible', 'no');
+                           if(this.selections.buildings[i]?.grid_connection) {
+                               delete this.selections.buildings[i].grid_connection.amps;
+                           }
+                        }
+
+                        card.innerHTML = `<h3 class="text-lg font-semibold mb-4">${t.p2_building_X} ${i + 1}</h3><div class="grid grid-cols-1 sm:grid-cols-2 gap-x-4 gap-y-1">${mainContentHTML}${emobHTML}${gridConnectionHTML}</div>`;
+                        container.appendChild(card);
+                    }
+                    this.saveState();
+                },
+
+                generateSubmeteringInputs() {
+                    const container = document.getElementById('submetering_details_container');
+                    container.innerHTML = '';
+                    const buildings = this.selections.buildings || [];
+                    const lang = this.selections.currentLanguage;
+                    const t = this.translations[lang];
+
+                    for (let i = 0; i < buildings.length; i++) {
+                        const buildingData = buildings[i];
+                        const card = document.createElement('div');
+                        card.className = 'bg-white p-6 rounded-xl shadow-md border border-gray-200';
+                        let content = `<h3 class="text-lg font-semibold mb-4">${t.p2_building_X} ${i + 1}</h3>`;
+                        
+                        const meterTypes = [
+                            { key: 'heat', label: t.p3_heat },
+                            { key: 'cold', label: t.p3_cold },
+                            { key: 'hot_water', label: t.p3_hot_water },
+                            { key: 'cold_water', label: t.p3_cold_water },
+                            { key: 'gas', label: t.p3_gas },
+                        ];
+
+                        let refContent = `<h4 class="font-medium mb-2">${t.p3_reference_meters}</h4><div class="grid grid-cols-2 sm:grid-cols-5 gap-2 mb-4">`;
+                        meterTypes.forEach(mt => {
+                             const val = this.selections.submetering?.[i]?.['reference']?.[mt.key] || '';
+                             refContent += `<div><label class="text-sm text-gray-600">${mt.label}</label><input type="number" min="0" class="w-full p-2 border rounded-md mt-1" data-building="${i}" data-unit="reference" data-type="${mt.key}" value="${val}"></div>`
+                        });
+                        refContent += `</div><hr class="my-4">`;
+                        content += refContent;
+
+                        const units = [];
+                        const apartmentCount = parseInt(buildingData.apartments?.count || 0);
+                        for(let j = 0; j < apartmentCount; j++) {
+                            units.push({name: `${t.p2_apartments} ${j+1}`, key: `apartment_${j}`});
+                        }
+                        const commonCount = parseInt(buildingData.common_circuits?.count || 0);
+                         for(let j = 0; j < commonCount; j++) {
+                            units.push({name: `${t.p2_common_circuits} ${j+1}`, key: `common_${j}`});
+                        }
+
+                        if (units.length > 0) {
+                            let table = `<table class="w-full text-left text-sm"><thead><tr class="border-b-2"><th class="py-2">${t.p2_label_unit}</th>`;
+                            meterTypes.forEach(mt => table += `<th class="py-2 text-center">${mt.label}</th>`);
+                            table += `</tr></thead><tbody>`;
+
+                            units.forEach(unit => {
+                                table += `<tr class="border-b"><td class="py-2 font-medium">${unit.name}</td>`;
+                                meterTypes.forEach(mt => {
+                                    const val = this.selections.submetering?.[i]?.[unit.key]?.[mt.key] || '';
+                                    table += `<td class="p-1"><input type="number" min="0" class="w-full p-2 border rounded-md" data-building="${i}" data-unit="${unit.key}" data-type="${mt.key}" value="${val}"></td>`;
+                                });
+                                table += `</tr>`;
+                            });
+
+                            table += `</tbody></table>`;
+                            content += table;
+                        }
+
+                        card.innerHTML = content;
+                        container.appendChild(card);
+                    }
+                },
+
+                generatePedestalInputs() {
+                    const container = document.getElementById('pedestal_combinations_container');
+                    container.innerHTML = '';
+                    if (!this.selections.pedestals) this.selections.pedestals = [];
+
+                    const lang = this.selections.currentLanguage;
+                    const t = this.translations[lang];
+                    const stands = this.db.smartMeHardware.filter(p => p.type === 'pico_stand');
+                    const heads = this.db.smartMeHardware.filter(p => p.type === 'pico_head');
+
+                    this.selections.pedestals.forEach((combo, index) => {
+                        const standOptions = stands.map(s => `<option title="${s['name_' + lang]}" value="${s.articleNumber}" ${combo.stand === s.articleNumber ? 'selected' : ''}>${s['name_' + lang]}</option>`).join('');
+                        const headOptions = heads.map(h => `<option title="${h['name_' + lang]}" value="${h.articleNumber}" ${combo.head === h.articleNumber ? 'selected' : ''}>${h['name_' + lang]}</option>`).join('');
+
+                        const row = document.createElement('div');
+                        row.className = 'grid grid-cols-1 md:grid-cols-4 gap-4 items-center';
+                        row.innerHTML = `
+                            <div>
+                                <label class="text-xs text-gray-500">${t.p2a_label_stand}</label>
+                                <select data-index="${index}" data-type="pedestal-stand" class="w-full p-2 border border-gray-300 rounded-md mt-1" title="${combo.stand ? this.db.smartMeHardware.find(p=>p.articleNumber===combo.stand)['name_'+lang] : ''}">
+                                    <option value="">--</option>
+                                    ${standOptions}
+                                </select>
+                            </div>
+                            <div>
+                                <label class="text-xs text-gray-500">${t.p2a_label_head}</label>
+                                <select data-index="${index}" data-type="pedestal-head" class="w-full p-2 border border-gray-300 rounded-md mt-1" title="${combo.head ? this.db.smartMeHardware.find(p=>p.articleNumber===combo.head)['name_'+lang] : ''}">
+                                    <option value="">--</option>
+                                    ${headOptions}
+                                </select>
+                            </div>
+                            <div>
+                                <label class="text-xs text-gray-500">${t.p2a_label_qty}</label>
+                                <input type="number" min="1" value="${combo.qty}" data-index="${index}" data-type="pedestal-qty" class="w-full p-2 border border-gray-300 rounded-md mt-1">
+                            </div>
+                            <div class="text-right">
+                                <button data-index="${index}" data-action="remove-pedestal" class="text-red-500 hover:text-red-700 font-semibold mt-5">X</button>
+                            </div>
+                        `;
+                        container.appendChild(row);
+                    });
+                    this.updatePedestalPicoCount();
+                },
+
+                updatePedestalPicoCount() {
+                    const s = this.selections;
+                    const buildings = s.buildings || [];
+                    let totalPicos = 0;
+                    buildings.forEach(b => {
+                        if (b.emob_circuits?.charging_points) {
+                            totalPicos += b.emob_circuits.charging_points.reduce((sum, current) => sum + (parseInt(current, 10) || 0), 0);
+                        }
+                        if (b.emob_behind_meter?.count) {
+                            totalPicos += parseInt(b.emob_behind_meter.count, 10) || 0;
+                        }
+                    });
+
+                    let picosOnPedestals = 0;
+                    if (s.pedestals_used === 'yes' && s.pedestals) {
+                        s.pedestals.forEach(combo => {
+                            const head = this.db.smartMeHardware.find(p => p.articleNumber === combo.head);
+                            if (head) {
+                                picosOnPedestals += (head.capacity || 0) * (combo.qty || 0);
+                            }
+                        });
+                    }
+
+                    document.getElementById('total_picos_count').textContent = totalPicos;
+                    document.getElementById('picos_on_pedestals_count').textContent = picosOnPedestals;
+
+                    const warningEl = document.getElementById('pedestal_warning');
+                    if (picosOnPedestals > totalPicos) {
+                        warningEl.classList.remove('hidden');
+                    } else {
+                        warningEl.classList.add('hidden');
+                    }
+                },
+
+                getMeterForAmps(amps, preferredFormat) {
+                    const numericAmps = parseFloat(amps) || 0;
+                    const telstar80A = this.db.smartMeHardware.find(p => p.articleNumber === '202063');
+                    const telstarCT = this.db.smartMeHardware.find(p => p.articleNumber === '212062');
+                    const nimbus100A = this.db.smartMeHardware.find(p => p.articleNumber === '242065');
+
+                    if (preferredFormat === 'plate' && numericAmps <= 100) {
+                        return nimbus100A;
+                    }
+                    return numericAmps > 80 ? telstarCT : telstar80A;
+                },
+
+                getTelstarCtDetails() {
+                    const details = [];
+                    const s = this.selections;
+                    const meterMountFormat = s.sm_hardware_mount || 'din_rail';
+                    const isZev = s.project_type === 'zev' || s.project_type === 'vzev';
+                    
+                    const checkAndAdd = (amps, count = 1, useSmartMe = true) => {
+                        if (!useSmartMe) return;
+                        const meter = this.getMeterForAmps(amps, meterMountFormat);
+                        if (meter && meter.articleNumber === '212062') {
+                            for(let i = 0; i < count; i++) {
+                                details.push(amps || 'N/A');
+                            }
+                        }
+                    };
+
+                    const useSmartMeForZev = isZev && s.zev_hardware === 'sm_hardware';
+
+                    // Determine if smart-me meters are used for general/e-mob
+                    let useSmartMeForAllgemein = false;
+                    let useSmartMeForEmob = false;
+
+                     if (isZev) {
+                        if (s.zev_hardware === 'sm_hardware') {
+                            useSmartMeForAllgemein = true;
+                            useSmartMeForEmob = true;
+                        } else {
+                            if (s.emob_solution === 'sm_emob' || (s.emob_solution === 'foreign_emob' && s.foreign_emob_type === 'control_sw')) {
+                                useSmartMeForAllgemein = true;
+                                useSmartMeForEmob = true;
+                            }
+                        }
+                    } else { // No ZEV
+                         if (s.emob_solution === 'sm_emob' || (s.emob_solution === 'foreign_emob' && s.foreign_emob_type === 'control_sw')) {
+                            useSmartMeForAllgemein = true;
+                            useSmartMeForEmob = true;
+                        }
+                    }
+
+
+                    // Area Measurement
+                    if (s.area_measurement?.possible === 'yes') {
+                        checkAndAdd(s.area_measurement.amps, 1, useSmartMeForAllgemein);
+                    }
+
+                    // Buildings
+                    (s.buildings || []).forEach(b => {
+                        // Grid Connection
+                        if (b.grid_connection?.possible === 'yes') {
+                            checkAndAdd(b.grid_connection.amps, 1, useSmartMeForAllgemein);
+                        }
+
+                        // ZEV categories
+                        if (isZev) {
+                            ['apartments', 'common_circuits', 'heating', 'water_heating', 'storage'].forEach(cat => {
+                                const data = b[cat];
+                                if ((parseInt(data?.count, 10) || 0) > 0) {
+                                    checkAndAdd(data.amps, parseInt(data.count, 10), useSmartMeForZev);
+                                }
+                            });
+                            const prodData = b.production;
+                            if ((parseInt(prodData?.count, 10) || 0) > 0 && prodData?.amps) {
+                                prodData.amps.forEach(amp => checkAndAdd(amp, 1, useSmartMeForZev));
+                            }
+                        }
+
+                        // E-Mob circuits
+                        if (b.emob_circuits?.count) {
+                            const amps = b.emob_circuits.amps || [];
+                            amps.forEach(amp => checkAndAdd(amp, 1, useSmartMeForEmob));
+                        }
+                    });
+
+                    return details;
+                },
+
+generateBillOfMaterials() {
+                    const infraBom = {};
+                    const zevBom = {};
+                    const emobBom = {};
+                    const submeteringBom = {};
+                    const s = this.selections;
+
+                    const schemaMapping = { buildings: [] };
+
+                    const addItemToBom = (bom, product, quantity, optional = false) => {
+                        if (!product || !quantity || quantity <= 0) return;
+                        const lang = this.selections.currentLanguage;
+                        const productName = product[`name_${lang}`] || product.name;
+                        const productWithLang = {...product, name: productName };
+
+                        const key = `${product.articleNumber || productName}-${productName}-${optional}`; 
+                        if (bom[key]) {
+                            bom[key].quantity += quantity;
+                        } else {
+                            bom[key] = { product: productWithLang, quantity, optional };
+                        }
+                    };
+                    
+                    const foreignMeter = this.db.foreignHardware.find(p => p.type === 'meter');
+
+                    let useSmartMeForAllgemein = false;
+                    let isAllgemeinOptional = false;
+                    let useSmartMeForZev = false;
+                    let useSmartMeForEmob = false;
+                    let isEmobOptional = false;
+
+                    const isZev = s.project_type === 'zev' || s.project_type === 'vzev';
+                    const isNoZev = s.project_type === 'no_zev';
+
+                    if (isZev) {
+                        if (s.zev_hardware === 'sm_hardware') {
+                            useSmartMeForAllgemein = true;
+                            useSmartMeForZev = true;
+                            useSmartMeForEmob = true;
+                        } else { 
+                            useSmartMeForZev = false;
+                            if (s.emob_solution === 'sm_emob') {
+                                if (s.sm_emob_control === 'sm_mlm') {
+                                    useSmartMeForAllgemein = true; isAllgemeinOptional = false;
+                                    useSmartMeForEmob = true; isEmobOptional = false;
+                                } else {
+                                    useSmartMeForAllgemein = true; isAllgemeinOptional = true;
+                                    useSmartMeForEmob = true; isEmobOptional = true;
+                                }
+                            } else if (s.emob_solution === 'foreign_emob' && s.foreign_emob_type === 'control_sw') {
+                                useSmartMeForAllgemein = true; isAllgemeinOptional = true;
+                                useSmartMeForEmob = true; isEmobOptional = true;
+                            } else {
+                                useSmartMeForAllgemein = false; useSmartMeForEmob = false;
+                            }
+                        }
+                    } else if (isNoZev) {
+                        useSmartMeForZev = false; 
+                        if (s.emob_solution === 'sm_emob') {
+                            if (s.sm_emob_control === 'sm_mlm') {
+                                useSmartMeForAllgemein = true; useSmartMeForEmob = true;
+                            } else {
+                                useSmartMeForAllgemein = true; isAllgemeinOptional = true;
+                                useSmartMeForEmob = true; isEmobOptional = true;
+                            }
+                        } else if (s.emob_solution === 'foreign_emob') {
+                            if (s.foreign_emob_type === 'control_sw') {
+                                useSmartMeForAllgemein = true; isAllgemeinOptional = true;
+                                useSmartMeForEmob = true; isEmobOptional = true;
+                            } else {
+                                useSmartMeForAllgemein = false; useSmartMeForEmob = false;
+                            }
+                        }
+                    }
+
+                    const buildings = s.buildings || [];
+                    const meterMountFormat = s.sm_hardware_mount || 'din_rail';
+                    
+                    let allgemeineMeterCount = 0;
+                    if (s.area_measurement?.possible === 'yes') {
+                        const meter = useSmartMeForAllgemein ? this.getMeterForAmps(s.area_measurement.amps, meterMountFormat) : foreignMeter;
+                        addItemToBom(infraBom, meter, 1, isAllgemeinOptional);
+                        allgemeineMeterCount++;
+                        schemaMapping.areaMeasurement = { product: meter, optional: isAllgemeinOptional };
+                    }
+                    buildings.forEach((b, i) => {
+                        if (!schemaMapping.buildings[i]) schemaMapping.buildings[i] = {};
+                        if (b.grid_connection?.possible === 'yes') {
+                            const meter = useSmartMeForAllgemein ? this.getMeterForAmps(b.grid_connection.amps, meterMountFormat) : foreignMeter;
+                            addItemToBom(infraBom, meter, 1, isAllgemeinOptional);
+                            allgemeineMeterCount++;
+                            schemaMapping.buildings[i].gridConnection = { product: meter, optional: isAllgemeinOptional };
+                        }
+                    });
+                    
+                    let zevMeterCount = 0;
+                    let totalProductionPlants = 0; // Zähler für Produktionsanlagen
+                    let totalStoragePlants = 0; // Zähler für Speicheranlagen
+
+                    if (isZev) {
+                        buildings.forEach((building, i) => {
+                            if (!schemaMapping.buildings[i]) schemaMapping.buildings[i] = {};
+                            
+                            // Zähler für Wohnungen, Allgemein, Heizung, Warmwasser
+                            ['apartments', 'common_circuits', 'heating', 'water_heating'].forEach(cat => {
+                                const data = building[cat];
+                                const count = parseInt(data?.count, 10) || 0;
+                                if (count > 0) {
+                                    const meter = useSmartMeForZev ? this.getMeterForAmps(data.amps, meterMountFormat) : foreignMeter;
+                                    addItemToBom(zevBom, meter, count, false);
+                                    zevMeterCount += count;
+                                    schemaMapping.buildings[i][cat] = { product: meter, optional: false };
+                                }
+                            });
+                            
+                            // Storage (Speicher) separat zählen und hinzufügen
+                            const storageData = building['storage'];
+                            const storageCount = parseInt(storageData?.count, 10) || 0;
+                            if (storageCount > 0) {
+                                const meter = useSmartMeForZev ? this.getMeterForAmps(storageData.amps, meterMountFormat) : foreignMeter;
+                                addItemToBom(zevBom, meter, storageCount, false);
+                                zevMeterCount += storageCount;
+                                totalStoragePlants += storageCount; // Zähler für Speicher
+                                schemaMapping.buildings[i]['storage'] = { product: meter, optional: false };
+                            }
+                            
+                            // Produktion (Solaranlage) separat zählen und hinzufügen
+                            const prodData = building['production'];
+                            const prodCount = parseInt(prodData?.count, 10) || 0;
+                            if (prodCount > 0) {
+                                zevMeterCount += prodCount;
+                                totalProductionPlants += prodCount; // Zähler für Produktion
+                                schemaMapping.buildings[i].production = { units: [] };
+                                if (prodData?.amps) {
+                                    prodData.amps.forEach(amp => {
+                                        const meter = useSmartMeForZev ? this.getMeterForAmps(amp, meterMountFormat) : foreignMeter;
+                                        addItemToBom(zevBom, meter, 1, false);
+                                        schemaMapping.buildings[i].production.units.push({ product: meter, optional: false });
+                                    });
+                                }
+                            }
+                        });
+                    }
+
+                    let emobMeterCount = 0;
+                    let totalChargingPoints = 0;
+                    let totalPreparedPicos = 0;
+
+                    if (s.emob_solution !== 'none') {
+                        buildings.forEach(b => {
+                            if (b.emob_circuits?.charging_points) {
+                                totalChargingPoints += b.emob_circuits.charging_points.reduce((sum, current) => sum + (parseInt(current, 10) || 0), 0);
+                                totalPreparedPicos += b.emob_circuits.prepared_only?.reduce((sum, current) => sum + (parseInt(current, 10) || 0), 0) || 0;
+                            }
+                            if (b.emob_behind_meter?.count) {
+                                totalChargingPoints += parseInt(b.emob_behind_meter.count, 10) || 0;
+                                totalPreparedPicos += parseInt(b.emob_behind_meter.prepared_only, 10) || 0;
+                            }
+                        });
+                        
+                        const fullPicos = totalChargingPoints - totalPreparedPicos;
+
+                        if (s.emob_solution === 'sm_emob') {
+                            if(fullPicos > 0) addItemToBom(emobBom, this.db.smartMeHardware.find(p => p.type === 'charging_station'), fullPicos);
+                            if(totalPreparedPicos > 0) addItemToBom(emobBom, this.db.smartMeHardware.find(p => p.type === 'pico_prep_kit'), totalPreparedPicos);
+                        } else {
+                            addItemToBom(emobBom, this.db.foreignHardware.find(p => p.type === 'charging_station'), totalChargingPoints);
+                        }
+
+                        if (s.pedestals_used === 'yes' && s.pedestals) {
+                            s.pedestals.forEach(combo => {
+                                if(combo.stand) {
+                                    const standProduct = this.db.smartMeHardware.find(p => p.articleNumber === combo.stand);
+                                    addItemToBom(emobBom, standProduct, combo.qty);
+                                }
+                                if(combo.head) {
+                                    const headProduct = this.db.smartMeHardware.find(p => p.articleNumber === combo.head);
+                                    addItemToBom(emobBom, headProduct, combo.qty);
+                                }
+                            });
+                        }
+
+                        buildings.forEach((b, i) => {
+                             if (!schemaMapping.buildings[i]) schemaMapping.buildings[i] = {};
+                            if (b.emob_circuits?.count) {
+                                const count = parseInt(b.emob_circuits.count, 10) || 0;
+                                const amps = b.emob_circuits.amps || [];
+                                emobMeterCount += count;
+                                schemaMapping.buildings[i].emobCircuits = { units: [] };
+                                for (let j = 0; j < count; j++) {
+                                    const meter = useSmartMeForEmob ? this.getMeterForAmps(amps[j] || '', meterMountFormat) : foreignMeter;
+                                    addItemToBom(emobBom, meter, 1, isEmobOptional);
+                                    schemaMapping.buildings[i].emobCircuits.units.push({ product: meter, optional: isEmobOptional });
+                                }
+                            }
+                        });
+                    }
+                    
+                    const smLic = this.db.smartMeLicenses.find(l => l.type === 'license_sm' && l.paymentMode === s.payment_mode);
+                    const ecarupLic = this.db.smartMeLicenses.find(l => l.type === 'license_ecarup' && l.paymentMode === s.payment_mode);
+                    const kombiLic = this.db.smartMeLicenses.find(l => l.type === 'license_kombi' && l.paymentMode === '10_year');
+
+                    if (useSmartMeForAllgemein && allgemeineMeterCount > 0 && smLic) {
+                        addItemToBom(infraBom, smLic, allgemeineMeterCount, isAllgemeinOptional);
+                    } 
+                    else if (isZev && (s.zev_hardware === 'swisseldex' || s.zev_hardware === 'api') && s.zev_billing === 'sm_billing' && allgemeineMeterCount > 0 && smLic) {
+                        addItemToBom(infraBom, smLic, allgemeineMeterCount, false);
+                    }
+
+                    if (isZev) {
+                        let zevLicenseCount = 0;
+                        if (useSmartMeForZev) {
+                            zevLicenseCount = zevMeterCount;
+                        } else if (s.zev_billing === 'sm_billing') {
+                            zevLicenseCount = zevMeterCount;
+                        }
+                        
+                        if (zevLicenseCount > 0 && smLic) {
+                            addItemToBom(zevBom, smLic, zevLicenseCount, false);
+                        }
+                        
+                        // *** HIER IST DIE ANGEPASSTE LOGIK (ZEV vs vZEV) ***
+                        if ((useSmartMeForZev || s.zev_billing === 'sm_billing') && zevMeterCount > 0 && smLic) {
+
+                            // Regeln für vZEV
+                            if (s.project_type === 'vzev') {
+                                // Regel 1: Standardmässig +1 Lizenz für Visualisierung
+                                const vizLicProduct = { ...smLic, name_de: `${smLic.name_de} (Visualisierung)`, name_en: `${smLic.name_en} (Visualization)` };
+                                addItemToBom(zevBom, vizLicProduct, 1);
+                                
+                                // Regel 2: Wenn mehr als 1 PV-Anlage, +1 Lizenz für Gesamtproduktion
+                                if (totalProductionPlants > 1) {
+                                    const prodLicProduct = { ...smLic, name_de: `${smLic.name_de} (Gesamtproduktion)`, name_en: `${smLic.name_en} (Total Production)` };
+                                    addItemToBom(zevBom, prodLicProduct, 1);
+                                }
+                                // Regel 3: Speicher (totalStoragePlants) hat keinen Einfluss
+
+                            // Regeln für (reguläre) ZEV
+                            } else if (s.project_type === 'zev') {
+                                // Regel 1: Wenn mehr als 1 PV-Anlage, +1 Lizenz für Gesamtproduktion
+                                if (totalProductionPlants > 1) {
+                                    const prodLicProduct = { ...smLic, name_de: `${smLic.name_de} (Gesamtproduktion)`, name_en: `${smLic.name_en} (Total Production)` };
+                                    addItemToBom(zevBom, prodLicProduct, 1);
+                                }
+                                
+                                // Regel 2: Wenn AC-Speicher vorhanden, +1 Lizenz für Visualisierung
+                                if (totalStoragePlants > 0) {
+                                    const vizLicProduct = { ...smLic, name_de: `${smLic.name_de} (Visualisierung)`, name_en: `${smLic.name_en} (Visualization)` };
+                                    addItemToBom(zevBom, vizLicProduct, 1);
+                                }
+                                // Regel 3: Wenn nur 1 PV und 0 Speicher, keine Zusatzlizenz (implizit abgedeckt)
+                            }
+                        }
+                        // *** ENDE DER ANGEPASSTEN LOGIK ***
+                    }
+
+					const licensableChargingPoints = totalChargingPoints - totalPreparedPicos;
+
+					if (s.emob_solution !== 'none') {
+						
+						// 1. Lizenzen für Ladestationen (nur wenn aktive Ladepunkte > 0)
+						if (licensableChargingPoints > 0) {
+							const isComboScenario = (s.emob_solution === 'sm_emob' && s.emob_billing === 'ecarup') || (s.emob_solution === 'foreign_emob' && s.emob_billing === 'sm_billing');
+
+							if (isComboScenario) {
+								if (s.payment_mode === '10_year' && kombiLic) {
+									addItemToBom(emobBom, kombiLic, licensableChargingPoints);
+								} else {
+									if (smLic) addItemToBom(emobBom, smLic, licensableChargingPoints);
+									if (ecarupLic) addItemToBom(emobBom, ecarupLic, licensableChargingPoints);
+								}
+							} else if (s.emob_billing === 'sm_billing' && smLic) {
+								 addItemToBom(emobBom, smLic, licensableChargingPoints);
+							} else if (s.emob_billing === 'ecarup' && ecarupLic) {
+								 addItemToBom(emobBom, ecarupLic, licensableChargingPoints);
+							} 
+							else if (s.emob_solution === 'sm_emob' && s.sm_emob_control === 'sm_mlm' && smLic) {
+								 addItemToBom(emobBom, smLic, licensableChargingPoints);
+							}
+						}
+
+						// 2. Lizenzen für die vorgeschalteten Stromzähler (UNABHÄNGIG von aktiven Ladepunkten!)
+						let addEmobMeterLicense = useSmartMeForEmob;
+						if (!addEmobMeterLicense && s.emob_billing === 'sm_billing') {
+							addEmobMeterLicense = true;
+						}
+
+						if (addEmobMeterLicense && emobMeterCount > 0 && smLic) {
+							addItemToBom(emobBom, smLic, emobMeterCount, isEmobOptional);
+						}
+					}
+
+                    if (s.submetering_billing && s.submetering_billing !== 'none') {
+                        let totalSubmeters = 0;
+                        const submeteringData = s.submetering || {};
+                         for (const building of Object.values(submeteringData)) {
+                            for (const unit of Object.values(building)) {
+                                for (const count of Object.values(unit)) {
+                                    totalSubmeters += parseInt(count, 10) || 0;
+                                }
+                            }
+                        }
+                        
+                        if (s.submetering_connection === 'mbus') {
+                            let standardGatewaysNeeded = 0;
+                            let siriusGatewaysNeeded = 0;
+                            
+                            for (const buildingIndex in submeteringData) {
+                                let submetersInBuilding = 0;
+                                const building = submeteringData[buildingIndex];
+                                for (const unit of Object.values(building)) {
+                                    for (const count of Object.values(unit)) {
+                                        submetersInBuilding += parseInt(count, 10) || 0;
+                                    }
+                                }
+                                
+                                let remaining = submetersInBuilding;
+                                while (remaining > 0) {
+                                    if (remaining > 30) {
+                                        siriusGatewaysNeeded++;
+                                        remaining -= 170; // Ein Sirius übernimmt bis zu 170 Geräte
+                                    } else {
+                                        standardGatewaysNeeded++;
+                                        remaining = 0; // Restliche Geräte (<=30) werden vom Standard-Gateway übernommen
+                                    }
+                                }
+                            }
+                            
+                            addItemToBom(submeteringBom, this.db.smartMeHardware.find(p => p.type === 'gateway'), standardGatewaysNeeded);
+                            addItemToBom(submeteringBom, this.db.smartMeHardware.find(p => p.type === 'gateway_sirius'), siriusGatewaysNeeded);
+                        } else if (s.submetering_connection === 'lora') {
+                            const loraMeter = this.db.foreignHardware.find(p => p.type === 'meter_foreign_sub');
+                            addItemToBom(submeteringBom, loraMeter, totalSubmeters);
+                            
+                            let gatewaysNeeded = 0;
+                            for (const buildingIndex in submeteringData) {
+                                let submetersInBuilding = 0;
+                                const building = submeteringData[buildingIndex];
+                                for (const unit of Object.values(building)) {
+                                    for (const count of Object.values(unit)) {
+                                        submetersInBuilding += parseInt(count, 10) || 0;
+                                    }
+                                }
+                                if (submetersInBuilding > 0) gatewaysNeeded++;
+                            }
+                             const loraGateway = this.db.foreignHardware.find(p => p.type === 'gateway_foreign');
+                             addItemToBom(submeteringBom, loraGateway, gatewaysNeeded);
+                        }
+                        
+                        const subLic = this.db.smartMeLicenses.find(l => l.type === 'license_sm_sub' && l.paymentMode === '10_year');
+                        const smLicMonthly = this.db.smartMeLicenses.find(l => l.type === 'license_sm' && l.paymentMode === 'monthly');
+                        const licToAdd = s.payment_mode === '10_year' ? subLic : smLicMonthly;
+                        if(licToAdd) addItemToBom(submeteringBom, licToAdd, totalSubmeters);
+                    }
+                    const bom = { infra: Object.values(infraBom), zev: Object.values(zevBom), emob: Object.values(emobBom), submetering: Object.values(submeteringBom) };
+                    return { bom, schemaMapping };
+                },
+
+                renderBillOfMaterials(bom) {
+                    const { infra, zev, emob, submetering } = bom;
+                    const container = document.getElementById('bill_of_materials_container');
+                    const csvBtn = document.getElementById('download-csv-btn');
+                    const lang = this.selections.currentLanguage;
+                    const t = this.translations[lang];
+
+                    container.innerHTML = '';
+                    
+                    const allItems = [...infra, ...zev, ...emob, ...submetering];
+                    const hasItems = allItems.length > 0;
+                    csvBtn.classList.toggle('hidden', !hasItems);
+
+                    if (!hasItems) {
+                        container.innerHTML = `<h3 class="text-xl font-bold text-gray-800">${t.bom_title}</h3><p class="mt-4 text-gray-600">${t.bom_no_products}</p>`;
+                        return;
+                    }
+
+                    const getProductSortType = (product) => {
+                        if (product.type && product.type.startsWith('license')) return 'software';
+                        return 'hardware';
+                    };
+
+                    const sortItems = (items) => {
+                        return items.sort((a, b) => {
+                            const typeA = getProductSortType(a.product);
+                            const typeB = getProductSortType(b.product);
+                            if (typeA < typeB) return -1; // hardware first
+                            if (typeA > typeB) return 1;
+                            return a.product.name.localeCompare(b.product.name); // then by name
+                        });
+                    };
+
+                    const renderSection = (title, items) => {
+                        if (items.length === 0) return '';
+                        let sortedItems = sortItems(items);
+                        let rows = sortedItems.map(item => `
+                            <tr class="border-b">
+                                <td class="py-3 pr-4 text-center">${item.quantity}</td>
+                                <td class="py-3 px-4">${item.product.articleNumber}</td>
+                                <td class="py-3 px-4">${item.product.name} ${item.optional ? `<span class="text-gray-500 font-normal italic">${t.bom_optional}</span>` : ''}</td>
+                            </tr>
+                        `).join('');
+
+                        return `
+                            <h3 class="text-xl font-bold mt-6 mb-2 text-gray-800">${title}</h3>
+                            <div class="overflow-x-auto">
+                                <table class="w-full text-left text-sm">
+                                    <thead>
+                                        <tr class="border-b-2 bg-gray-100">
+                                            <th class="py-2 pr-4 w-20 text-center font-semibold">${t.bom_header_qty}</th>
+                                            <th class="py-2 px-4 w-40 font-semibold">${t.bom_header_artnr}</th>
+                                            <th class="py-2 px-4 font-semibold">${t.bom_header_name}</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>${rows}</tbody>
+                                </table>
+                            </div>
+                        `;
+                    };
+                    
+                    container.innerHTML += renderSection(t.bom_infra_infra, infra);
+                    container.innerHTML += renderSection(t.bom_zev_infra, zev);
+                    container.innerHTML += renderSection(t.bom_emob_infra, emob);
+                    container.innerHTML += renderSection(t.bom_submetering_infra, submetering);
+
+                    // Logik für das Gesamttotal: Gruppierung nur nach Artikelnummer.
+                    const grandTotals = {};
+                    allItems.forEach(item => {
+                        const artNr = item.product.articleNumber;
+
+                        // Überspringe Artikel ohne gültige Artikelnummer für die Gruppierung
+                        if (!artNr || artNr === 'N/A') {
+                            const fallbackKey = `fallback-${item.product.name}`;
+                            if (grandTotals[fallbackKey]) {
+                                grandTotals[fallbackKey].quantity += item.quantity;
+                            } else {
+                                grandTotals[fallbackKey] = { ...item };
+                            }
+                            return; // Nächster Artikel
+                        }
+
+                        if (grandTotals[artNr]) {
+                            grandTotals[artNr].quantity += item.quantity;
+                            // Wenn ein zugehöriger Artikel nicht optional ist, ist das Total auch nicht optional.
+                            if (!item.optional) {
+                                grandTotals[artNr].optional = false;
+                            }
+                        } else {
+                            // Erstelle einen neuen Eintrag für diese Artikelnummer.
+                            grandTotals[artNr] = { ...item };
+                            // Finde den Basis-Produktnamen, um generische Namen für Lizenzen zu verwenden.
+                            const baseProduct = this.db.smartMeLicenses.find(p => p.articleNumber === artNr) || this.db.smartMeHardware.find(p => p.articleNumber === artNr);
+                            if(baseProduct) {
+                                grandTotals[artNr].product.name = baseProduct[`name_${lang}`];
+                            }
+                        }
+                    });
+                    container.innerHTML += renderSection(t.bom_total, Object.values(grandTotals));
+                    // --- ANPASSUNG ENDE ---
+                },
+
+                generateMermaidSchema(schemaMapping) {
+                    const s = this.selections;
+                    const t = this.translations[s.currentLanguage];
+                    const definitions = ['graph TD'];
+                    const links = [];
+                    const styles = [];
+
+                    const measuredNodeStyle = 'fill:#d4edda,stroke:#155724';
+                    const unmeasuredNodeStyle = 'fill:#e9d5ff,stroke:#5b21b6';
+                    const subDetailStyle = 'fill:#e0f2fe,stroke:#0284c7';
+                    const emobDetailStyle = 'fill:#fffbeb,stroke:#f59e0b';
+
+                    const buildingCount = parseInt(s.building_count, 10) || 0;
+                    const lang = s.currentLanguage;
+                    
+                    definitions.push(`    Netz("Netz")`);
+                    
+                    if (buildingCount > 1) {
+                        let arealLabel = t.p2_area_meas_title;
+                        const isAreaMeasured = s.area_measurement?.possible === 'yes';
+                        let productInfo = '';
+
+                        if (isAreaMeasured) {
+                            if (s.area_measurement?.amps) {
+                                arealLabel += `<br/>${s.area_measurement.amps} A`;
+                            }
+                            const mapping = schemaMapping.areaMeasurement;
+                            if (mapping && mapping.product) {
+                                const optionalText = mapping.optional ? ` (${t.bom_optional})` : '';
+                                productInfo = `<br/><i>${mapping.product['name_' + lang]}${optionalText}</i>`;
+                            }
+                        }
+                        definitions.push(`    Arealmesspunkt("${arealLabel}${productInfo}")`);
+                        styles.push(`    style Arealmesspunkt ${isAreaMeasured ? measuredNodeStyle : unmeasuredNodeStyle}`);
+                    }
+
+                    for (let i = 0; i < buildingCount; i++) {
+                        const building = s.buildings[i] || {};
+                        const buildingMapping = schemaMapping.buildings[i] || {};
+                        definitions.push(`    subgraph ${t.p2_building_X}${i} [${t.p2_building_X} ${i + 1}]`);
+                        
+                        let gridLabel = t.p2_grid_connection;
+                        const isGridMeasured = building.grid_connection?.possible === 'yes';
+                        let gridProductInfo = '';
+
+                        if (isGridMeasured) {
+                            if (building.grid_connection?.amps) {
+                                gridLabel += `<br/>${building.grid_connection.amps} A`;
+                            }
+                            const mapping = buildingMapping.gridConnection;
+                             if (mapping && mapping.product) {
+                                const optionalText = mapping.optional ? ` (${t.bom_optional})` : '';
+                                gridProductInfo = `<br/><i>${mapping.product['name_' + lang]}${optionalText}</i>`;
+                            }
+                        }
+                        definitions.push(`        H${i}("${gridLabel}${gridProductInfo}")`);
+                        styles.push(`    style H${i} ${isGridMeasured ? measuredNodeStyle : unmeasuredNodeStyle}`);
+
+                        const subsystems = [
+                            { key: 'apartments', label: t.p2_apartments, id: `W${i}` },
+                            { key: 'common_circuits', label: t.p2_common_circuits, id: `G${i}` },
+                            { key: 'heating', label: t.p2_heating, id: `HZG${i}` },
+                            { key: 'water_heating', label: t.p2_water_heating, id: `WW${i}`},
+                            { key: 'production', label: t.p2_production, id: `PV${i}` },
+                            { key: 'storage', label: t.p2_storage, id: `BAT${i}` },
+                            { key: 'emob_circuits', label: t.p1_emob_title, id: `EMOB${i}` },
+                        ];
+
+                        subsystems.forEach(sub => {
+                            const data = building[sub.key];
+                            const count = parseInt(data?.count, 10) || 0;
+                            if (count > 0) {
+                                let label = `${sub.label} (${t.p2_label_count}: ${count})`;
+                                let productInfo = '';
+                                const mapping = buildingMapping[sub.key];
+                                
+                                if (['apartments', 'common_circuits', 'heating', 'water_heating', 'storage'].includes(sub.key)) {
+                                    if (data.amps && !Array.isArray(data.amps)) {
+                                        label += `<br/>${data.amps} A`;
+                                    }
+                                    if(mapping && mapping.product) {
+                                        const optionalText = mapping.optional ? ` (${t.bom_optional})` : '';
+                                        productInfo = `<br/><i>${mapping.product['name_' + lang]}${optionalText}</i>`;
+                                    }
+                                }
+
+                                definitions.push(`        ${sub.id}("${label}${productInfo}")`);
+                                styles.push(`    style ${sub.id} ${measuredNodeStyle}`);
+                            }
+                        });
+                        
+                        const prodData = building.production;
+                        if (prodData && parseInt(prodData.count, 10) > 0) {
+                            let detailLabel = `${t.p2_production} Details<br/>---`;
+                            const mappingUnits = buildingMapping.production?.units || [];
+                            for (let j = 0; j < prodData.count; j++) {
+                                const ampValue = prodData.amps?.[j] || 'N/A';
+                                const mapping = mappingUnits[j];
+                                let productName = '';
+                                if(mapping && mapping.product) {
+                                    const optionalText = mapping.optional ? ` (${t.bom_optional})` : '';
+                                    productName = ` - <i>${mapping.product['name_' + lang]}${optionalText}</i>`;
+                                }
+                                detailLabel += `<br/>${t.p2_label_unit} ${j + 1}: ${ampValue} A${productName}`;
+                            }
+                            const detailNodeId = `PV_Detail_${i}`;
+                            definitions.push(`    ${detailNodeId}["${detailLabel}"]`);
+                            links.push(`    PV${i} --> ${detailNodeId}`);
+                            styles.push(`    style ${detailNodeId} ${subDetailStyle}`);
+                        }
+                        
+                        const emobData = building.emob_circuits;
+                        if (emobData && parseInt(emobData.count, 10) > 0) {
+                             const circuits = parseInt(emobData.count, 10) || 0;
+                             const amps = emobData.amps || [];
+                             const chargingPoints = emobData.charging_points || [];
+                             const mappingUnits = buildingMapping.emobCircuits?.units || [];
+                             let detailLabel = `${t.p2_emob_details_title}<br/>---`;
+                             for (let j = 0; j < circuits; j++) {
+                                 const ampValue = amps[j] || 'N/A';
+                                 const mapping = mappingUnits[j];
+                                 let productName = '';
+                                 if (mapping && mapping.product) {
+                                     const optionalText = mapping.optional ? ` (${t.bom_optional})` : '';
+                                     productName = ` - <i>${mapping.product['name_' + lang]}${optionalText}</i>`;
+                                 }
+                                 detailLabel += `<br/>${t.p2_label_circuit} ${j + 1}: ${ampValue} A, ${chargingPoints[j] || 0} ${t.p2_label_charging_points}${productName}`;
+                             }
+                             const detailNodeId = `EMOB_Detail_${i}`;
+                             definitions.push(`    ${detailNodeId}["${detailLabel}"]`);
+                             links.push(`    EMOB${i} --> ${detailNodeId}`);
+                             styles.push(`    style ${detailNodeId} ${emobDetailStyle}`);
+                        }
+
+                        const behindMeterCount = parseInt(building.emob_behind_meter?.count, 10) || 0;
+                        if (behindMeterCount > 0) {
+                            const emobWhgNodeId = `EMOB_WHG_${i}`;
+                            const emobWhgLabel = `${t.p2_emob_behind_meter} (${t.p2_label_count}: ${behindMeterCount})`;
+                            definitions.push(`        ${emobWhgNodeId}("${emobWhgLabel}")`);
+                            styles.push(`    style ${emobWhgNodeId} ${measuredNodeStyle}`);
+                        }
+
+                        const buildingSubmetering = s.submetering?.[i];
+                        let totalMetersInBuilding = 0;
+                        const buildingMeterCounts = { heat: 0, cold: 0, hot_water: 0, cold_water: 0, gas: 0 };
+                        if (buildingSubmetering) {
+                            Object.values(buildingSubmetering).forEach(unit => {
+                                Object.entries(unit).forEach(([type, count]) => {
+                                    const numCount = parseInt(count, 10) || 0;
+                                    if (buildingMeterCounts.hasOwnProperty(type)) {
+                                        buildingMeterCounts[type] += numCount;
+                                        totalMetersInBuilding += numCount;
+                                    }
+                                });
+                            });
+                        }
+
+                        if (totalMetersInBuilding > 0) {
+                            let detailLabel = `Submetering<br/>---<br/>${t.p3_heat}: ${buildingMeterCounts.heat}<br/>${t.p3_cold}: ${buildingMeterCounts.cold}<br/>${t.p3_hot_water}: ${buildingMeterCounts.hot_water}<br/>${t.p3_cold_water}: ${buildingMeterCounts.cold_water}<br/>${t.p3_gas}: ${buildingMeterCounts.gas}`;
+                            if(s.submetering_connection === 'mbus') {
+                                let standardGatewaysNeeded = 0;
+                                let siriusGatewaysNeeded = 0;
+                                let remaining = totalMetersInBuilding;
+                                
+                                while (remaining > 0) {
+                                    if (remaining > 30) {
+                                        siriusGatewaysNeeded++;
+                                        remaining -= 170;
+                                    } else {
+                                        standardGatewaysNeeded++;
+                                        remaining = 0;
+                                    }
+                                }
+                                
+                                detailLabel += `<br/>`;
+                                if (standardGatewaysNeeded > 0) {
+                                    const stdName = this.db.smartMeHardware.find(p => p.type === 'gateway')['name_' + lang];
+                                    detailLabel += `<br/><i>${stdName}</i>: ${standardGatewaysNeeded}`;
+                                }
+                                if (siriusGatewaysNeeded > 0) {
+                                    const siriusName = this.db.smartMeHardware.find(p => p.type === 'gateway_sirius')['name_' + lang];
+                                    detailLabel += `<br/><i>${siriusName}</i>: ${siriusGatewaysNeeded}`;
+                                }
+                            }
+                            const detailNodeId = `SUB_Detail_${i}`;
+                            definitions.push(`        ${detailNodeId}["${detailLabel}"]`);
+                            styles.push(`    style ${detailNodeId} ${subDetailStyle}`);
+                        }
+
+                        definitions.push('    end');
+                    }
+
+                    const topParent = buildingCount > 1 ? `Arealmesspunkt` : 'Netz';
+                    if(buildingCount > 1) {
+                       const isAreaMeasured = s.area_measurement?.possible === 'yes';
+                       links.push(`    Netz ${isAreaMeasured ? '-->' : '-.->'} Arealmesspunkt`);
+                    }
+
+                    for (let i = 0; i < buildingCount; i++) {
+                        const building = s.buildings[i] || {};
+                        const gridConnectionNodeId = `H${i}`;
+                        const isGridMeasured = building.grid_connection?.possible === 'yes';
+                        links.push(`    ${topParent} ${isGridMeasured ? '-->' : '-.->'} ${gridConnectionNodeId}`);
+
+                        const subsystems = [
+                            { key: 'apartments', id: `W${i}` }, { key: 'common_circuits', id: `G${i}` },
+                            { key: 'heating', id: `HZG${i}` }, { key: 'water_heating', id: `WW${i}`},
+                            { key: 'production', id: `PV${i}` }, { key: 'storage', id: `BAT${i}` },
+                            { key: 'emob_circuits', id: `EMOB${i}` },
+                        ];
+                        
+                        subsystems.forEach(sub => {
+                            const count = parseInt(building[sub.key]?.count, 10) || 0;
+                            if (count > 0) {
+                                links.push(`    ${gridConnectionNodeId} --> ${sub.id}`);
+                            }
+                        });
+
+                        const behindMeterCount = parseInt(building.emob_behind_meter?.count, 10) || 0;
+                        if(behindMeterCount > 0) {
+                            links.push(`    W${i} --> EMOB_WHG_${i}`);
+                        }
+                    }
+
+                    return definitions.join('\n') + '\n' + links.join('\n') + '\n' + styles.join('\n');
+                },
+
+                async renderMermaidSchema(schemaMapping) {
+                    const container = document.getElementById('schema_container');
+                    const downloadBtn = document.getElementById('download-schema-btn');
+                    const zoomControls = document.getElementById('zoom_controls');
+                    
+                    container.innerHTML = 'Lade Schema...';
+                    downloadBtn.classList.add('hidden');
+                    zoomControls.classList.add('hidden');
+                    
+                    const graphDefinition = this.generateMermaidSchema(schemaMapping);
+                    
+                    try {
+                        const { svg } = await mermaid.render('mermaid-graph', graphDefinition);
+                        container.innerHTML = svg;
+                        downloadBtn.classList.remove('hidden');
+                        zoomControls.classList.remove('hidden');
+
+                        const svgEl = container.querySelector('svg');
+                        if (!svgEl) return;
+
+                        const ele = container;
+                        ele.style.cursor = 'grab';
+                        let pos = { top: 0, left: 0, x: 0, y: 0 };
+                        const mouseDownHandler = (e) => {
+                            if (e.target.closest('a')) return;
+                            e.preventDefault();
+                            ele.style.cursor = 'grabbing';
+                            ele.style.userSelect = 'none';
+                            pos = { left: ele.scrollLeft, top: ele.scrollTop, x: e.clientX, y: e.clientY };
+                            document.addEventListener('mousemove', mouseMoveHandler);
+                            document.addEventListener('mouseup', mouseUpHandler);
+                        };
+                        const mouseMoveHandler = (e) => {
+                            const dx = e.clientX - pos.x;
+                            const dy = e.clientY - pos.y;
+                            ele.scrollTop = pos.top - dy;
+                            ele.scrollLeft = pos.left - dx;
+                        };
+                        const mouseUpHandler = () => {
+                            ele.style.cursor = 'grab';
+                            ele.style.removeProperty('user-select');
+                            document.removeEventListener('mousemove', mouseMoveHandler);
+                            document.removeEventListener('mouseup', mouseUpHandler);
+                        };
+                        ele.addEventListener('mousedown', mouseDownHandler);
+
+                        let zoomLevel = 1.0;
+                        const minZoom = 0.2;
+                        const maxZoom = 4.0;
+                        const zoomStep = 0.1;
+                        svgEl.style.transformOrigin = 'top left';
+                        const applyZoom = () => {
+                            svgEl.style.transform = `scale(${zoomLevel})`;
+                        };
+                        document.getElementById('zoom_in_btn').onclick = () => {
+                            zoomLevel = Math.min(maxZoom, zoomLevel + zoomStep);
+                            applyZoom();
+                        };
+                        document.getElementById('zoom_out_btn').onclick = () => {
+                            zoomLevel = Math.max(minZoom, zoomLevel - zoomStep);
+                            applyZoom();
+                        };
+                        container.addEventListener('wheel', (e) => {
+                            e.preventDefault();
+                            const zoomDirection = e.deltaY < 0 ? 1 : -1;
+                            const newZoomLevel = zoomLevel + zoomDirection * zoomStep;
+                            zoomLevel = Math.max(minZoom, Math.min(maxZoom, newZoomLevel));
+                            applyZoom();
+                        });
+
+                    } catch (error) {
+                        container.innerHTML = `Fehler beim Rendern des Schemas: ${error.message}`;
+                    }
+                },
+
+                validateConfigurationAndShowWarnings(bom) {
+                    const warningsContainer = document.getElementById('warnings_container');
+                    const s = this.selections;
+                    const buildings = s.buildings || [];
+                    const warnings = [];
+                    const t = this.translations[s.currentLanguage];
+                    const allItems = [...bom.infra, ...bom.zev, ...bom.emob, ...bom.submetering];
+
+                    // ZEV Unmeasured Warning
+                    if (s.project_type === 'zev') {
+                        const buildingCount = parseInt(s.building_count, 10) || 0;
+                        let isUnmeasured = false;
+                        if (buildingCount > 1) {
+                            if (s.area_measurement?.possible !== 'yes') {
+                                isUnmeasured = true;
+                            }
+                        } else if (buildingCount === 1) {
+                            if (buildings[0]?.grid_connection?.possible !== 'yes') {
+                                isUnmeasured = true;
+                            }
+                        }
+                        if (isUnmeasured) {
+                            warnings.push({
+                                type: 'warning',
+                                title: t.warning_zev_unmeasured_title,
+                                message: t.warning_zev_unmeasured_msg
+                            });
+                        }
+                    }
+
+                    // vZEV Unmeasured Warning
+                    if (s.project_type === 'vzev') {
+                        const anyBuildingUnmeasured = buildings.some(b => b.grid_connection?.possible !== 'yes');
+                        if (anyBuildingUnmeasured) {
+                            warnings.push({
+                                type: 'warning',
+                                title: t.warning_vzev_unmeasured_title,
+                                message: t.warning_vzev_unmeasured_msg
+                            });
+                        }
+                    }
+
+
+                    // Add configuration hints to the results page
+                    if (s.zev_hardware === 'swisseldex') {
+                        warnings.push({
+                            type: 'hint',
+                            title: t.hint_swisseldex_title,
+                            message: t.hint_swisseldex_msg
+                        });
+                    } else if (s.zev_hardware === 'api') {
+                        warnings.push({
+                            type: 'hint',
+                            title: t.hint_api_title,
+                            message: t.hint_api_msg
+                        });
+                    }
+
+                    if (s.emob_solution === 'foreign_emob' && s.emob_billing === 'sm_billing') {
+                        warnings.push({
+                            type: 'hint',
+                            title: t.hint_emob_foreign_billing_title,
+                            message: t.hint_emob_foreign_billing_msg
+                        });
+                    }
+
+                    // E-Mobility Warning
+                    if (s.emob_solution === 'sm_emob') {
+                        const hasAnyEmob = buildings.some(b => 
+                            (parseInt(b.emob_circuits?.count, 10) || 0) > 0 ||
+                            (parseInt(b.emob_behind_meter?.count, 10) || 0) > 0
+                        );
+
+                        if (hasAnyEmob) {
+                            let loadManagementIssue = false;
+                            const isAreaMeasured = buildings.length > 1 && s.area_measurement?.possible === 'yes';
+
+                            if (!isAreaMeasured) {
+                                const unmeasuredEmobBuildingExists = buildings.some(b => 
+                                    (((parseInt(b.emob_circuits?.count, 10) || 0) > 0 || (parseInt(b.emob_behind_meter?.count, 10) || 0) > 0)) &&
+                                    (b.grid_connection?.possible !== 'yes')
+                                );
+                                if (unmeasuredEmobBuildingExists) {
+                                    loadManagementIssue = true;
+                                }
+                            }
+                            
+                            if (loadManagementIssue) {
+                                warnings.push({
+                                    type: 'warning',
+                                    title: t.warning_emob_title,
+                                    message: t.warning_emob_msg
+                                });
+                            }
+                        }
+                    }
+
+                    // Heating Warning
+                    buildings.forEach((building, index) => {
+                        const heatingUnmeasured = (parseInt(building.heating?.count, 10) || 0) === 0;
+                        const waterHeatingUnmeasured = (parseInt(building.water_heating?.count, 10) || 0) === 0;
+
+                        if ((s.project_type === 'zev' || s.project_type === 'vzev') && heatingUnmeasured && waterHeatingUnmeasured) {
+                            warnings.push({
+                                type: 'warning',
+                                title: t.warning_heat_title.replace('{buildingNr}', index + 1),
+                                message: t.warning_heat_msg.replace(/{buildingNr}/g, index + 1)
+                            });
+                        }
+                    });
+
+                    // Telstar CT Technical Hint
+                    const hasTelstarCTinBOM = allItems.some(item => item.product.articleNumber === '212062');
+                    if ((s.project_type === 'zev' || s.project_type === 'vzev') && s.sm_hardware_mount === 'plate' && hasTelstarCTinBOM) {
+                        warnings.push({
+                            type: 'hint',
+                            title: t.warning_telstar_title,
+                            message: t.warning_telstar_msg
+                        });
+                    }
+
+                    if (hasTelstarCTinBOM) {
+    			const telstarDetails = this.getTelstarCtDetails();
+    			const totalSets = telstarDetails.length;
+
+    			const ampFrequencies = telstarDetails.reduce((acc, amp) => {
+        		acc[amp] = (acc[amp] || 0) + 1;
+        		return acc;
+    			}, {});
+
+    			const ampSummary = Object.entries(ampFrequencies)
+        		.map(([amp, count]) => `${count}x ${amp}A`)
+        		.join(', ');
+
+        		let message = t.hint_telstar_ct_msg;
+    			message += '<br/>' + t.hint_telstar_ct_details
+                            .replace('{totalSets}', totalSets)
+                            .replace('{ampSummary}', ampSummary);
+
+    			if (s.project_type === 'zev' || s.project_type === 'vzev') {
+        		    message += "<br/>" + t.hint_telstar_ct_zev;
+    			}
+    
+    			message += `<br/><br/><a href="https://dok.smart-me.com/drittprodukte" target="_blank" rel="noopener 				noreferrer" class="underline hover:text-green-900 font-semibold">${t.hint_telstar_ct_link_text}</a>`
+
+   			 warnings.push({
+        			type: 'shopping',
+        			title: t.hint_telstar_ct_title,
+        			message: message
+    			});
+		    }
+
+                    // E-Mobility Shopping Hint
+                    const hasPico = allItems.some(item => item.product.type === 'charging_station' || item.product.type === 'pico_prep_kit');
+                    const hasPedestal = allItems.some(item => item.product.type === 'pico_stand');
+                    if (s.emob_solution === 'sm_emob' && hasPico && hasPedestal) {
+                        warnings.push({
+                            type: 'shopping',
+                            title: t.hint_emob_title,
+                            message: `${t.hint_emob_msg}<br/><br/>
+                                <a href="https://dok.smart-me.com/drittprodukte/standfuss-fundamente" target="_blank" rel="noopener noreferrer" class="underline hover:text-green-900 font-semibold">${t.hint_emob_link_fundamente}</a>`
+                        });
+                    }
+
+                    // Render warnings and hints
+                    if(warnings.length > 0) {
+                        let html = `<h3 class="text-xl font-bold text-gray-800">${t.warning_title}</h3>`;
+                        warnings.forEach(w => {
+                            let bgColor, borderColor, textColor;
+                            switch(w.type) {
+                                case 'shopping':
+                                    bgColor = 'bg-green-100';
+                                    borderColor = 'border-green-500';
+                                    textColor = 'text-green-800';
+                                    break;
+                                case 'hint':
+                                    bgColor = 'bg-blue-100';
+                                    borderColor = 'border-blue-500';
+                                    textColor = 'text-blue-800';
+                                    break;
+                                default: // 'warning'
+                                    bgColor = 'bg-orange-100';
+                                    borderColor = 'border-orange-500';
+                                    textColor = 'text-orange-800';
+                            }
+                            html += `
+                                <div class="p-4 ${bgColor} border-l-4 ${borderColor} ${textColor} rounded-r-lg mt-4">
+                                    <p class="font-bold">${w.title}</p>
+                                    <p>${w.message}</p>
+                                </div>
+                            `;
+                        });
+                        warningsContainer.innerHTML = html;
+                        warningsContainer.classList.remove('hidden');
+                    } else {
+                        warningsContainer.innerHTML = '';
+                        warningsContainer.classList.add('hidden');
+                    }
+                },
+
+                toggleResultView(view) {
+                    const bomContainer = document.getElementById('bill_of_materials_container');
+                    const schemaWrapper = document.getElementById('schema_container').parentElement;
+                    const bomBtn = document.getElementById('show-bom-btn');
+                    const schemaBtn = document.getElementById('show-schema-btn');
+                   
+                    if (view === 'schema') {
+                        bomContainer.classList.add('hidden');
+                        schemaWrapper.classList.remove('hidden');
+                        bomBtn.classList.remove('selected');
+                        schemaBtn.classList.add('selected');
+                    } else { // 'bom'
+                        bomContainer.classList.remove('hidden');
+                        schemaWrapper.classList.add('hidden');
+                        bomBtn.classList.add('selected');
+                        schemaBtn.classList.remove('selected');
+                    }
+                },
+
+                downloadSchemaAsSVG() {
+                    const svgEl = document.querySelector('#schema_container svg');
+                    if (!svgEl) {
+                        alert('Schema nicht gefunden. Bitte stellen Sie sicher, dass das Schema angezeigt wird.');
+                        return;
+                    }
+                    const svgData = new XMLSerializer().serializeToString(svgEl);
+                    const svgBlob = new Blob([svgData], { type: 'image/svg+xml;charset=utf-8' });
+                    const url = URL.createObjectURL(svgBlob);
+                    const link = document.createElement('a');
+                    link.href = url;
+                    const fileName = this.getSafeFileName();
+                    link.download = `${fileName}_schema.svg`;
+                    document.body.appendChild(link);
+                    link.click();
+                    document.body.removeChild(link);
+                    URL.revokeObjectURL(url);
+                },
+
+                downloadCSV() {
+                    const { bom } = this.generateBillOfMaterials();
+                    const allItems = [...bom.infra, ...bom.zev, ...bom.emob, ...bom.submetering];
+                    if (allItems.length === 0) return;
+                    const lang = this.selections.currentLanguage;
+                    const t = this.translations[lang];
+
+                    // --- ANPASSUNG START ---
+                    // Logik für das Gesamttotal im CSV: Gruppierung nur nach Artikelnummer.
+                    const grandTotals = {};
+                    allItems.forEach(item => {
+                        const artNr = item.product.articleNumber;
+
+                        if (!artNr || artNr === 'N/A') {
+                            const fallbackKey = `fallback-${item.product.name}`;
+                            if (grandTotals[fallbackKey]) {
+                                grandTotals[fallbackKey].quantity += item.quantity;
+                            } else {
+                                grandTotals[fallbackKey] = { ...item };
+                            }
+                            return;
+                        }
+
+                        if (grandTotals[artNr]) {
+                            grandTotals[artNr].quantity += item.quantity;
+                            if (!item.optional) {
+                                grandTotals[artNr].optional = false;
+                            }
+                        } else {
+                            grandTotals[artNr] = { ...item };
+                            const baseProduct = this.db.smartMeLicenses.find(p => p.articleNumber === artNr) || this.db.smartMeHardware.find(p => p.articleNumber === artNr);
+                            if (baseProduct) {
+                                grandTotals[artNr].product.name = baseProduct[`name_${lang}`];
+                            }
+                        }
+                    });
+
+                    let csvContent = `data:text/csv;charset=utf-8,${t.csv_header_qty};${t.csv_header_artnr};${t.csv_header_name};${t.csv_header_optional}\n`;
+                    Object.values(grandTotals).forEach(item => {
+                        const row = [
+                            item.quantity,
+                            `"${item.product.articleNumber}"`,
+                            `"${item.product.name}"`,
+                            item.optional ? t.csv_yes : t.csv_no
+                        ].join(';');
+                        csvContent += row + "\n";
+                    });
+                    // --- ANPASSUNG ENDE ---
+
+                    const encodedUri = encodeURI(csvContent);
+                    const link = document.createElement("a");
+                    link.setAttribute("href", encodedUri);
+                    const fileName = this.getSafeFileName();
+                    link.setAttribute("download", `${fileName}_stueckliste.csv`);
+                    document.body.appendChild(link);
+                    link.click();
+                    document.body.removeChild(link);
+                },
+
+                saveConfigurationToCSV() {
+                    const flattenObject = (obj, prefix = '') => {
+                        return Object.keys(obj).reduce((acc, k) => {
+                            const pre = prefix.length ? prefix + '.' : '';
+                            if (typeof obj[k] === 'object' && obj[k] !== null && !Array.isArray(obj[k])) {
+                                Object.assign(acc, flattenObject(obj[k], pre + k));
+                            } else if (Array.isArray(obj[k])) {
+                                obj[k].forEach((item, index) => {
+                                    const arrayPrefix = `${pre}${k}.${index}`;
+                                    if (typeof item === 'object' && item !== null) {
+                                        Object.assign(acc, flattenObject(item, arrayPrefix));
+                                    } else {
+                                        acc[arrayPrefix] = item;
+                                    }
+                                });
+                            }
+                            else {
+                                acc[pre + k] = obj[k];
+                            }
+                            return acc;
+                        }, {});
+                    };
+
+                    const flattened = flattenObject(this.selections);
+                    let csvContent = "key,value\n";
+                    for (const key in flattened) {
+                        csvContent += `"${key}","${flattened[key]}"\n`;
+                    }
+
+                    const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
+                    const link = document.createElement("a");
+                    const url = URL.createObjectURL(blob);
+                    link.setAttribute("href", url);
+                    const fileName = this.getSafeFileName();
+                    link.setAttribute("download", `${fileName}_config.csv`);
+                    document.body.appendChild(link);
+                    link.click();
+                    document.body.removeChild(link);
+                },
+
+                loadConfigurationFromCSV(event) {
+                    const file = event.target.files[0];
+                    if (!file) return;
+
+                    const reader = new FileReader();
+                    reader.onload = (e) => {
+                        try {
+                            const text = e.target.result;
+                            const lines = text.split('\n').slice(1); 
+                            const newSelections = {};
+
+                            lines.forEach(line => {
+                                if (!line.trim()) return;
+                                const match = line.match(/^"([^"]+)","(.*)"\r?$/);
+                                if (!match) return;
+                                
+                                const key = match[1];
+                                let value = match[2].replace(/""/g, '"'); 
+
+                                if (value === 'null') value = null;
+                                else if (value === 'undefined') value = undefined;
+                                else if (!isNaN(value) && value.trim() !== '' && !key.includes('amps')) value = Number(value);
+                                else if (value === 'true') value = true;
+                                else if (value === 'false') value = false;
+
+                                let current = newSelections;
+                                const parts = key.split('.');
+                                parts.forEach((part, index) => {
+                                    if (index === parts.length - 1) {
+                                        current[part] = value;
+                                    } else {
+                                        const nextPartIsNumber = !isNaN(parseInt(parts[index + 1], 10));
+                                        if (!current[part]) {
+                                            current[part] = nextPartIsNumber ? [] : {};
+                                        }
+                                        current = current[part];
+                                    }
+                                });
+                            });
+
+                            // Enforce smart-me hardware for ZEV projects, overriding any value from the file
+                            if (newSelections.project_type === 'zev' || newSelections.project_type === 'vzev') {
+                                newSelections.zev_hardware = 'sm_hardware';
+                            }
+
+                            this.selections = newSelections;
+                            this.selections.currentPage = 1; 
+                            this.saveState();
+                            this.loadState();
+                        } catch (error) {
+                            alert(`Fehler beim Laden der Konfiguration: ${error.message}`);
+                        }
+                    };
+                    reader.readAsText(file);
+                    event.target.value = ''; 
+                },
+
+                translateUI(lang) {
+                    if (!this.translations[lang]) return;
+                    this.selections.currentLanguage = lang;
+                    document.documentElement.lang = lang;
+
+                    document.querySelectorAll('.lang-btn').forEach(btn => btn.classList.remove('selected'));
+                    document.getElementById(`lang-${lang}`).classList.add('selected');
+
+                    const t = this.translations[lang];
+                    document.querySelectorAll('[data-i18n]').forEach(el => {
+                        const key = el.dataset.i18n;
+                        if (t[key]) {
+                            el.innerHTML = t[key];
+                        }
+                    });
+                    this.saveState();
+                    
+                    if (this.selections.currentPage == 2) {
+                        this.generateBuildingInputs(this.selections.building_count);
+                    } else if (this.selections.currentPage == 3) {
+                        this.generatePedestalInputs();
+                    } else if (this.selections.currentPage == 4) {
+                        this.generateSubmeteringInputs();
+                    } else if (this.selections.currentPage == 5) {
+                        const { bom, schemaMapping } = this.generateBillOfMaterials();
+                        this.renderBillOfMaterials(bom);
+                        this.renderMermaidSchema(schemaMapping);
+                        this.validateConfigurationAndShowWarnings(bom);
+                    }
+                },
+
+                saveState() {
+                    sessionStorage.setItem('smartMeConfig', JSON.stringify(this.selections));
+                },
+
+                loadState() {
+                    let stateJson = sessionStorage.getItem('smartMeConfig');
+                    
+                    if (stateJson) {
+                         this.selections = JSON.parse(stateJson);
+                    } else {
+                        if (!this.selections.currentLanguage) {
+                            this.selections.currentLanguage = 'de';
+                        }
+                        this.selections.building_count = 0;
+                    }
+
+                    document.querySelectorAll('.selected').forEach(el => el.classList.remove('selected'));
+
+                    for (const [key, value] of Object.entries(this.selections)) {
+                        if (['buildings', 'building_count', 'currentPage', 'area_measurement', 'submetering', 'pedestals', 'projectName'].includes(key)) continue;
+                        const btn = document.querySelector(`[data-question="${key}"] [data-value="${value}"]`);
+                        if (btn) btn.classList.add('selected');
+                    }
+                    
+                    if (this.selections.projectName) {
+                        document.getElementById('project_name').value = this.selections.projectName;
+                    } else {
+                        document.getElementById('project_name').value = '';
+                    }
+
+                    if (this.selections.building_count !== undefined) {
+                        document.getElementById('building_count').value = this.selections.building_count;
+                        this.generateBuildingInputs(this.selections.building_count);
+                    } else {
+                        this.selections.building_count = 0;
+                        document.getElementById('building_count').value = 0;
+                    }
+
+                    if (this.selections.area_measurement) {
+                        const am = this.selections.area_measurement;
+                        if (am.possible) {
+                            const btn = document.querySelector(`[data-question="area_measurement_possible"] [data-value="${am.possible}"]`);
+                            if (btn) {
+                                btn.classList.add('selected');
+                                document.getElementById('area_measurement_amps_container').classList.toggle('hidden', am.possible === 'no');
+                            }
+                        }
+                        if (am.amps) document.getElementById('area_measurement_amps').value = am.amps;
+                    }
+                    
+                    if(this.selections.pedestals_used) {
+                        document.getElementById('pedestal_details_section').classList.toggle('hidden', this.selections.pedestals_used === 'no');
+                    }
+
+                    this.translateUI(this.selections.currentLanguage);
+                    this.updateView();
+
+                    if (this.selections.currentPage && this.selections.currentPage > 1) {
+                        this.navigateToPage(this.selections.currentPage);
+                    }
+                }
+            };
+
+            app.init();
+        });
+    </script>
+</body>
+</html>

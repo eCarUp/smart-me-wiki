@@ -3,27 +3,27 @@ title: 'Products'
 slug: '/produkte'
 sidebar_label: 'Products'
 ---
-![Products – figure 1](/img/_en/products/01.png)
+[![Products – Figure 1](/img/produkte/01.png)](/produkte/telstar)
 
 [3-Phase Meter Telstar 80A](/produkte/telstar)
 
-![Products – figure 2](/img/_en/products/02.jpg)
+![Products – Figure 2](/img/produkte/02.jpg)
 
-[1-Phase Meter](/produkte/1-phasen-zaehler)
+[Single Phase Meter](/produkte/1-phasen-zaehler)
 
-![Products – figure 3](/img/_en/products/03.png)
+[![Products – Figure 3](/img/produkte/03.png)](/produkte/Telstar-CT)
 
 [3-Phase Meter Telstar CT](/produkte/Telstar-CT)
 
-![Products – figure 4](/img/_en/products/04.png)
+[![Products – Figure 4](/img/produkte/04.png)](/produkte/pico-ladestation)
 
-[Pico Ladestation](/produkte/pico-ladestation)
+[Pico Charging Station](/produkte/pico-ladestation)
 
-![Products – figure 5](/img/_en/products/05.jpg)
+![Products – Figure 5](/img/produkte/05.jpg)
 
 [M-Bus Gateway](/produkte/m-bus-gateway)
 
-![Products – figure 6](/img/_en/products/06.png)
+[![Products – Figure 6](/img/produkte/06.png)](/produkte/nimbus)
 
 [Nimbus 100A](/produkte/nimbus)
 

@@ -42,10 +42,6 @@ TeamViewer-Support:
 
 Nur nach telefonischer Vereinbarung verfügbar.
 
-[
-
-![Kontakt – Abbildung 1](/img/kontakt/01.jpg)
-
-](https://get.teamviewer.com/68stbb8)
+[![Kontakt – Abbildung 1](/img/kontakt/01.jpg)](https://get.teamviewer.com/68stbb8)
 
 [Download Team Viewer für smart-me](https://get.teamviewer.com/68stbb8)

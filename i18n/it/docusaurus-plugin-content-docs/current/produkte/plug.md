@@ -1,14 +1,14 @@
 ---
 title: 'Plug'
 slug: '/produkte/plug'
-description: 'Lo smart-me Plug è misuratore di corrente, termostato e timer in un unico dispositivo.'
+description: 'Lo smart-me Plug è al tempo stesso strumento di misura della corrente, termostato e timer.'
 sidebar_label: 'Plug'
 ---
-Lo smart-me Plug è misuratore di corrente, termostato e timer in un unico dispositivo. Inoltre il Plug può essere comandato e monitorato tramite il portale web o l'app. A questo scopo il dispositivo si collega a Internet attraverso la rete WLAN locale.
+Lo smart-me Plug è al tempo stesso strumento di misura della corrente, termostato e timer. Inoltre il Plug può essere comandato e monitorato tramite portale web o app. A questo scopo l'apparecchio si collega a Internet attraverso la rete WLAN locale.
 
 Vendita cessata il 30.03.2021
 Supporto tecnico cessato il 30.03.2025
-Hardware e funzioni cloud: funzionamento tuttora garantito
+Hardware e funzioni cloud: funzionamento continua a essere garantito
 
 ![Plug – Figura 1](/img/produkte-plug/01.jpg)
 
@@ -25,17 +25,17 @@ Disponibile nelle versioni Europa, Svizzera e Gran Bretagna.
 
 ## Funzioni
 
-- Misuratore di energia: lo smart-me Plug misura, oltre alla potenza attuale, l'energia, la corrente, la tensione e il fattore di potenza. smart-me garantisce una precisione del 99% (max. 1% di errore).
+- Strumento di misura dell'energia: lo smart-me Plug misura, oltre alla potenza attuale, l'energia, la corrente, la tensione e il fattore di potenza. smart-me garantisce una precisione del 99% (max. 1% di errore).
 
-- Misuratore di temperatura: monitora la temperatura in tempo reale e analizza i dati storici.
+- Strumento di misura della temperatura: monitora la temperatura in tempo reale e analizza i dati storici.
 
-- Interruttore a distanza: accendi o spegni la corrente tramite l'app o il portale web.
+- Interruttore a distanza: accendi o spegni la corrente tramite app o portale web.
 
 - Timer: imposta a che ora il Plug deve commutare.
 
 - Collegamento diretto e cifrato al cloud smart-me (WiFi)
 
-- Gestione energetica completa nel cloud smart-me:
+- Gestione completa dell'energia nel cloud smart-me:
 
 
 - -   -   Monitoraggio in tempo reale
@@ -45,7 +45,7 @@ Disponibile nelle versioni Europa, Svizzera e Gran Bretagna.
     - Installazione semplice con l'app gratuita smart-me per Android e iOS
 
 
-<Video src="r1NFkuI7CUM" title="Video" />
+<Video src="r1NFkuI7CUM" title="Video YouTube, installazione del Plug" />
 
 Video installazione
 
@@ -63,7 +63,7 @@ Corrente (I) 10A / 16A
 
 Grado di protezione IP20
 
-Autoconsumo 0.1W
+Consumo proprio 0.1W
 
 Dimensioni 95 x 54 x 29 mm (3.7 x 2.1 x 1.1 in)
 

@@ -1,33 +1,33 @@
 ---
 title: 'Contatore monofase 80A'
 slug: '/produkte/1-phasen-zaehler'
-description: 'Il contatore monofase smart-me 80A è un contatore di energia con interfaccia WiFi integrata per la trasmissione di dati in tempo reale.'
+description: 'Il contatore monofase smart-me 80A è un contatore di energia con interfaccia WiFi integrata per la trasmissione dei dati in tempo reale.'
 sidebar_label: 'Contatore monofase'
 ---
-Il contatore monofase smart-me 80A è un contatore di energia con interfaccia WiFi integrata per la trasmissione di dati in tempo reale. Il contatore sincronizza i valori di misura in modo automatico e crittografato nel cloud smart-me. I dati possono essere esportati e ulteriormente elaborati nel portale smart-me oppure, tramite la nostra interfaccia aperta, in sistemi di terzi. Il contatore dispone di un'uscita digitale per il comando di apparecchi a potenziale zero.
+Il contatore monofase smart-me 80A è un contatore di energia con interfaccia WiFi integrata per la trasmissione dei dati in tempo reale. Il contatore sincronizza i valori di misura in modo automatico e cifrato con il cloud smart-me. I dati possono essere esportati e rielaborati nel portale smart-me oppure, tramite la nostra interfaccia aperta, in sistemi di terzi. Il contatore dispone di un'uscita digitale per il comando di apparecchi a potenziale zero.
 
 ![Contatore monofase 80A – Figura 1](/img/produkte-1-phasen-zaehler/01.jpg)
 
 ## Funzioni
 
-- [Installazione](/konfiguration/inbetriebnahme) con l'app smart-me gratuita.
+- [Installazione](/konfiguration/inbetriebnahme) con l'app gratuita smart-me.
 
 - Comando con [azioni se/allora](/konfiguration/wenndann-aktionen) o [azioni basate su eventi](/konfiguration/wenndann-aktionen/ereignisaktionen)
 
 - [Visualizzazioni](/konfiguration/visualisierung)
 
-- [Uscita a contatto a potenziale zero](/schnittstellen/ein_und_ausgaenge) per il comando di apparecchi esterni
+- [Uscita a contatto libero da potenziale](/schnittstellen/ein_und_ausgaenge) per il comando di apparecchi esterni
 
-- Ingresso a contatto a potenziale zero per segnale tariffario o [ingresso digitale](/schnittstellen/ein_und_ausgaenge)
+- Ingresso a contatto libero da potenziale per segnale tariffario o [ingresso digitale](/schnittstellen/ein_und_ausgaenge)
 
 - [Interfacce](/) tramite API, CSV, MSCONS e IS-E
 
-- Connessione dati in tempo reale crittografata al cloud smart-me
+- Connessione dati cifrata in tempo reale con il cloud smart-me
 
 
 ## Dati tecnici
 
-<Video src="" title="Custom embed" />
+<Embed src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQwIoMZViXao8dxkIFICgLCZSRrq0y5xWTFc2KwSY-seab4j4GP6asN_YRqtjIKoKanrFOG7bLHoVZi/pubhtml?gid=0&range=A1:B28&single=true&widget=false&headers=false&chrome=false" aspect="1.734" title="Contatore monofase" />
 
 ## Display
 
@@ -62,7 +62,7 @@ Se il tasto T(4) viene premuto per 10 secondi, viene generata una rete WiFi loca
 
 ## Configurare ingressi e uscite
 
-Il contatore monofase 80A dispone di un'uscita digitale e di un ingresso digitale, che possono essere utilizzati come ingressi e uscite a impulsi oppure come contatto a potenziale zero commutabile. I dettagli si trovano nella pagina wiki [Ingressi e uscite](/schnittstellen/ein_und_ausgaenge)
+Il contatore monofase 80A dispone di un'uscita digitale e di un ingresso digitale, che possono essere utilizzati come ingressi e uscite a impulsi oppure come contatto commutabile libero da potenziale. I dettagli si trovano nella pagina wiki [Ingressi e uscite](/schnittstellen/ein_und_ausgaenge) 
 
 ## Informazioni di spedizione
 
@@ -89,9 +89,9 @@ Peso con imballaggio: 130g
 
 ### Con quale intervallo i contatori inviano i dati?
 
-- Con licenze Basic o Limited: max. 1 volta al minuto.
+- Con licenze Basic o Limited: max. 1x al minuto.
 
-- Con licenza Pro: max. 1 volta al secondo
+- Con licenza Pro: max. 1x al secondo
 
 
 ### Posso azzerare la lettura del contatore?

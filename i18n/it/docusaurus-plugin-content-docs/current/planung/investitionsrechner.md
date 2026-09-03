@@ -1,6 +1,6 @@
 ---
-title: 'Calcolatore di investimenti'
+title: 'Calcolatore di investimento'
 slug: '/planung/investitionsrechner'
-sidebar_label: 'Calcolatore di investimenti'
+sidebar_label: 'Calcolatore di investimento'
 ---
-<Video src="" title="Custom embed" />
+<Embed src="/embeds/planung-investitionsrechner-01.html" aspect="0.422" title="Calcolatore di investimento" />

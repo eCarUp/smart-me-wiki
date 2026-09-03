@@ -1,0 +1,66 @@
+name: Auf GitHub Pages veröffentlichen
+
+# Baut die Site bei jedem Push auf main und veröffentlicht sie auf GitHub Pages.
+# Der Build bricht bei defekten internen Links ab (onBrokenLinks: 'throw'), ein
+# kaputter Link kommt also gar nicht erst online.
+#
+# Einmalige Einrichtung: Settings -> Pages -> Source auf "GitHub Actions".
+#
+# Custom Domain (dok.smart-me.com): eine Datei `static/CNAME` mit der Domain als
+# einzigem Inhalt anlegen und unten SITE_URL/BASE_URL entsprechend setzen:
+#   SITE_URL: https://dok.smart-me.com
+#   BASE_URL: /
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Laufende Veröffentlichungen nicht abbrechen, aber auch nicht überholen.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # Docusaurus zeigt das Datum der letzten Änderung je Seite an und
+          # braucht dafür die vollständige Historie.
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Build (alle Sprachen)
+        run: npm run build
+        env:
+          SITE_URL: https://ecarup.github.io
+          BASE_URL: /smart-me-wiki/
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: build
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

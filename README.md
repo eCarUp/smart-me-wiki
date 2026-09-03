@@ -53,7 +53,28 @@ Der Build bricht bei defekten internen Links ab (`onBrokenLinks: 'throw'`).
 | `redirects.ts` | Weiterleitungen von den alten Google-Sites-URLs |
 | `scripts/` | Migrations- und Übersetzungsskripte |
 | `glossary.md` | Begriffe für die Übersetzung (fixe Übersetzungen, Produktnamen) |
+| `plugins/llms-txt/` | Erzeugt `llms.txt` und `llms-full.txt` je Sprache |
 | `migration-report.md` | Protokoll der Migration inkl. offener Punkte |
+
+## Für AI-Werkzeuge
+
+Der Build legt pro Sprache zwei Dateien nach dem Vorschlag von
+[llmstxt.org](https://llmstxt.org/) ab:
+
+| Datei | Inhalt |
+| --- | --- |
+| `/llms.txt` | Inhaltsverzeichnis mit einer Beschreibung je Seite |
+| `/llms-full.txt` | Volltext aller Seiten am Stück |
+
+Für die anderen Sprachen unter `/en/llms.txt`, `/fr/llms.txt`, `/it/llms.txt`.
+Dazu kommt die übliche `/sitemap.xml`. Der Markdown-Quelltext im Repository ist
+ebenfalls direkt verwendbar.
+
+## Veröffentlichung
+
+Jeder Push auf `main` baut die Site und veröffentlicht sie über
+`.github/workflows/deploy.yml` auf GitHub Pages. Einmalig muss unter
+*Settings → Pages* die Quelle auf **GitHub Actions** gestellt werden.
 
 ## Custom Domain
 

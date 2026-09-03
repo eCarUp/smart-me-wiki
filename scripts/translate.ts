@@ -7,6 +7,7 @@
  *   npm run translate -- --list    # nur anzeigen, was zu tun wäre
  *   npm run translate -- --adopt   # vorhandene Dateien als aktuell verbuchen
  *   npm run translate -- --ui      # nur Navigation/Kategorien/Fusszeile
+ *   npm run translate -- --concurrency 6
  *
  * Übersetzt wird **nicht** über einen API-Key, sondern über die Claude-Code-CLI
  * im Headless-Modus (`claude -p`). Lokal genügt damit die normale Anmeldung:
@@ -196,6 +197,75 @@ export function unwrapFence(text: string): string {
     : match[1];
 }
 
+/** Zerlegt eine Markdown-Datei in Frontmatter-Zeilen und Rumpf. */
+function splitFrontmatter(content: string): {lines: string[]; body: string} | null {
+  if (!content.startsWith('---')) return null;
+  const end = content.indexOf('\n---', 3);
+  if (end === -1) return null;
+  const block = content.slice(content.indexOf('\n') + 1, end);
+  const body = content.slice(content.indexOf('\n', end + 1) + 1);
+  return {lines: block.split('\n'), body};
+}
+
+/** Liest einen YAML-Skalar, egal ob einfach, doppelt oder gar nicht gequotet. */
+function parseScalar(raw: string): string {
+  const value = raw.trim();
+  if (value.length >= 2 && value.startsWith("'") && value.endsWith("'")) {
+    return value.slice(1, -1).replace(/''/g, "'");
+  }
+  if (value.length >= 2 && value.startsWith('"') && value.endsWith('"')) {
+    return value.slice(1, -1).replace(/\\"/g, '"');
+  }
+  return value;
+}
+
+function quoteScalar(value: string): string {
+  return `'${value.replace(/'/g, "''")}'`;
+}
+
+/**
+ * Setzt das Frontmatter der Übersetzung neu zusammen.
+ *
+ * Nötig, weil Französisch und Italienisch voller Apostrophe stecken: schreibt
+ * das Modell `description: 'Aucun de ces produits n'est …'`, ist das kein
+ * gültiges YAML mehr. Statt darauf zu vertrauen, dass die Anweisung befolgt
+ * wird, werden die Werte hier ausgelesen und korrekt neu gequotet.
+ *
+ * Der `slug` stammt immer aus der deutschen Quelle – er ist die URL und in
+ * allen Sprachen dieselbe.
+ */
+export function normalizeFrontmatter(translated: string, source: string): string {
+  const t = splitFrontmatter(translated);
+  const s = splitFrontmatter(source);
+  if (!t) throw new Error('Die Übersetzung hat kein Frontmatter.');
+
+  const sourceSlug = s?.lines
+    .map((l) => l.match(/^slug:\s*(.*)$/))
+    .find((m): m is RegExpMatchArray => Boolean(m))?.[1];
+
+  const rebuilt: string[] = [];
+  let sawTitle = false;
+  let sawSlug = false;
+
+  for (const line of t.lines) {
+    const match = line.match(/^([A-Za-z_][\w-]*):\s*(.*)$/);
+    if (!match) continue; // Kommentare und Leerzeilen fallen weg.
+    const [, key, raw] = match;
+    if (key === 'title') sawTitle = true;
+    if (key === 'slug') {
+      sawSlug = true;
+      rebuilt.push(`slug: ${sourceSlug ?? quoteScalar(parseScalar(raw))}`);
+      continue;
+    }
+    rebuilt.push(`${key}: ${quoteScalar(parseScalar(raw))}`);
+  }
+
+  if (!sawTitle) throw new Error('Im Frontmatter der Übersetzung fehlt der Titel.');
+  if (!sawSlug && sourceSlug) rebuilt.splice(1, 0, `slug: ${sourceSlug}`);
+
+  return `---\n${rebuilt.join('\n')}\n---\n${t.body}`;
+}
+
 export function buildPrompt(opts: {
   locale: Locale;
   glossary: string;
@@ -217,6 +287,8 @@ export function buildPrompt(opts: {
     '   gleicher Reihenfolge, gleiche Listen, gleiche Absatzaufteilung, gleiche',
     '   Betonungen, gleiche Reihenfolge der Bilder.',
     '3. Das Frontmatter zwischen den `---`-Zeilen bleibt strukturell unverändert.',
+    '   Die Werte stehen in einfachen Anführungszeichen; ein Apostroph im Text',
+    "   wird darin verdoppelt: `description: 'Aucun produit n''est vendu.'`.",
     '   Übersetzt werden nur die Werte von `title`, `description` und',
     '   `sidebar_label`. Der Wert von `slug` bleibt **unverändert** – auch wenn er',
     '   deutsche Wörter enthält. Er ist die URL und in allen Sprachen dieselbe.',
@@ -224,7 +296,9 @@ export function buildPrompt(opts: {
     '   Inhalte von Code-Blöcken und Inline-Code, HTML- und JSX-Elemente samt ihrer',
     '   Attribute (z.B. `<Video src="..." title="..." />`), Zahlen, Einheiten,',
     '   Artikelnummern und Produktbezeichnungen.',
-    '   Der sichtbare Text von Links wird dagegen übersetzt.',
+    '   Der sichtbare Text von Links wird dagegen übersetzt – aus',
+    '   `[3-Phasen Zähler Telstar CT](/produkte/Telstar-CT)` wird also',
+    '   `[Compteur triphasé Telstar CT](/produkte/Telstar-CT)`.',
     '5. Die Alt-Texte von Bildern werden übersetzt.',
     '6. HTML-Entities wie `&lt;`, `&#123;` und `&#125;` bleiben genau so stehen.',
     '   Sie schützen Zeichen, an denen sich der Seitengenerator sonst verschluckt.',
@@ -263,8 +337,10 @@ export async function translateFile(job: Job, glossary: string): Promise<void> {
     );
   }
 
+  const normalized = normalizeFrontmatter(translated, content);
+
   await mkdir(dirname(job.target), {recursive: true});
-  await writeFile(job.target, `${translated.trimEnd()}\n`, 'utf8');
+  await writeFile(job.target, `${normalized.trimEnd()}\n`, 'utf8');
 }
 
 // ---------------------------------------------------------------------------
@@ -364,6 +440,7 @@ type Options = {
   adopt: boolean;
   ui: boolean;
   limit: number;
+  concurrency: number;
 };
 
 export function parseArgs(argv: string[]): Options {
@@ -374,6 +451,7 @@ export function parseArgs(argv: string[]): Options {
     adopt: false,
     ui: false,
     limit: Number.POSITIVE_INFINITY,
+    concurrency: 4,
   };
   for (let i = 0; i < argv.length; i += 1) {
     const arg = argv[i];
@@ -390,7 +468,13 @@ export function parseArgs(argv: string[]): Options {
       if (locales.length === 0) throw new Error(`Unbekannte Sprache: ${value}`);
       options.locales = locales;
     } else if (arg === '--limit') options.limit = Number(argv[++i]);
-    else throw new Error(`Unbekannte Option: ${arg}`);
+    else if (arg === '--concurrency') {
+      const value = Number(argv[++i]);
+      if (!Number.isInteger(value) || value < 1 || value > 12) {
+        throw new Error(`--concurrency erwartet eine Zahl von 1 bis 12, nicht "${argv[i]}".`);
+      }
+      options.concurrency = value;
+    } else throw new Error(`Unbekannte Option: ${arg}`);
   }
   return options;
 }
@@ -442,27 +526,44 @@ ${(err as Error).message}`);
   const glossary = await readFile(GLOSSARY_FILE, 'utf8');
   let done = 0;
   let failed = 0;
+  let aborted = false;
+  let cursor = 0;
 
-  for (const job of jobs) {
-    process.stdout.write(`  [${job.locale}] ${job.source} … `);
-    try {
-      await translateFile(job, glossary);
-      state.docs[job.source] ??= {};
-      state.docs[job.source][job.locale] = job.sourceHash;
-      await saveState(state);
-      done += 1;
-      console.log('ok');
-    } catch (err) {
-      if (err instanceof ClaudeUnavailableError) {
-        console.log('abgebrochen');
-        console.error(`\n${err.message}`);
-        return 2;
+  // Ein Aufruf dauert rund eine Minute. Mehrere Seiten parallel zu übersetzen
+  // verkürzt einen vollständigen Lauf von Stunden auf eine überschaubare Zeit.
+  // Der Zustand wird nach jeder fertigen Seite gespeichert, ein Abbruch kostet
+  // also höchstens die gerade laufenden Seiten.
+  const worker = async () => {
+    while (cursor < jobs.length && !aborted) {
+      const job = jobs[cursor++];
+      const position = `${cursor}/${jobs.length}`;
+      try {
+        await translateFile(job, glossary);
+        state.docs[job.source] ??= {};
+        state.docs[job.source][job.locale] = job.sourceHash;
+        await saveState(state);
+        done += 1;
+        console.log(`  ${position} [${job.locale}] ${job.source} … ok`);
+      } catch (err) {
+        if (err instanceof ClaudeUnavailableError) {
+          aborted = true;
+          console.error(`\n${err.message}`);
+          return;
+        }
+        failed += 1;
+        console.log(
+          `  ${position} [${job.locale}] ${job.source} … FEHLER: ` +
+            `${(err as Error).message.split('\n')[0]}`,
+        );
       }
-      failed += 1;
-      console.log(`FEHLER: ${(err as Error).message.split('\n')[0]}`);
     }
-  }
+  };
 
+  await Promise.all(
+    Array.from({length: Math.min(options.concurrency, jobs.length)}, worker),
+  );
+
+  if (aborted) return 2;
   console.log(`\n${done} übersetzt, ${failed} fehlgeschlagen.`);
   return failed > 0 ? 1 : 0;
 }

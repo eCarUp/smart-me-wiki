@@ -389,6 +389,19 @@ eine deutsche Seite unter `docs/` anlegen.
 | --- | --- |
 | `/planning/superstructure` | HTTP 404 |
 
+## Stand der Übersetzungen
+
+Deutsch ist die Master-Sprache und mit 150 Seiten vollständig.
+Die übrigen Sprachen füllt `npm run translate` (siehe CLAUDE.md).
+
+| Sprache | Seiten | Herkunft |
+| --- | --- | --- |
+| en | 102 / 150 | aus dem alten englischen Wiki übernommen |
+| fr | 0 / 150 | ausstehend |
+| it | 0 / 150 | ausstehend |
+
+Der Stand je Seite und Sprache steht in `.translation-state.json`.
+
 ## Bewusste Entscheidungen bei der Konvertierung
 
 - **Google-Sites-Rahmenwerk entfernt**: Navigation, Kopf- und Fusszeile,

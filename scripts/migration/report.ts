@@ -4,8 +4,9 @@
  *
  *   npx tsx scripts/migration/report.ts
  */
-import {readFile, writeFile} from 'node:fs/promises';
+import {readFile, readdir, writeFile} from 'node:fs/promises';
 import {existsSync} from 'node:fs';
+import {join} from 'node:path';
 import {pathToFileURL} from 'node:url';
 
 const DE_RESULT = '.migration-cache/de-result.json';
@@ -33,6 +34,17 @@ type EnResult = {
   structural: {dePath: string; enPath: string}[];
   conflicts: {dePath: string; fromDe: string; fromEn: string}[];
 };
+
+/** Zählt die Markdown-Dateien unterhalb eines Ordners. */
+async function countMarkdown(dir: string): Promise<number> {
+  let count = 0;
+  for (const entry of await readdir(dir, {withFileTypes: true})) {
+    const full = join(dir, entry.name);
+    if (entry.isDirectory()) count += await countMarkdown(full);
+    else if (full.endsWith('.md')) count += 1;
+  }
+  return count;
+}
 
 function section(title: string, body: string): string {
   return `## ${title}\n\n${body.trim()}\n\n`;
@@ -212,6 +224,25 @@ export async function buildReport(): Promise<string> {
   }
 
   md += section('Manuell prüfen', manual);
+
+  // --- Stand der Übersetzungen -------------------------------------------
+  const deCount = de.pages.length;
+  const localeRows = await Promise.all(
+    (['en', 'fr', 'it'] as const).map(async (locale) => {
+      const dir = `i18n/${locale}/docusaurus-plugin-content-docs/current`;
+      const count = existsSync(dir) ? (await countMarkdown(dir)) : 0;
+      const source =
+        locale === 'en' ? 'aus dem alten englischen Wiki übernommen' : 'automatisch übersetzt';
+      return [locale, `${count} / ${deCount}`, count === 0 ? 'ausstehend' : source];
+    }),
+  );
+  md += section(
+    'Stand der Übersetzungen',
+    `Deutsch ist die Master-Sprache und mit ${deCount} Seiten vollständig.\n` +
+      `Die übrigen Sprachen füllt \`npm run translate\` (siehe CLAUDE.md).\n\n` +
+      `${table(['Sprache', 'Seiten', 'Herkunft'], localeRows)}\n\n` +
+      `Der Stand je Seite und Sprache steht in \`.translation-state.json\`.`,
+  );
 
   // --- Entscheidungen -----------------------------------------------------
   md += section(

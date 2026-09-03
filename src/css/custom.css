@@ -213,8 +213,14 @@
 .markdown img {
   max-width: 100%;
   max-height: 480px;
-  width: auto;
   height: auto;
+  /* object-fit statt width:auto. Docusaurus setzt width- und height-Attribute
+     und lädt Bilder verzögert; mit width:auto hätte das Bild vor dem Laden
+     eine 0x0-Box und würde deshalb nie geladen. Ohne object-fit wiederum
+     klemmt max-height nur die Höhe und verzerrt das Bild. So bleibt die Box
+     als Platzhalter erhalten und das Bild wird unverzerrt eingepasst. */
+  object-fit: contain;
+  object-position: left center;
   border-radius: var(--sm-radius-sm);
 }
 

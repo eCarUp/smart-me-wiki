@@ -1,0 +1,94 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.wikiSidebar.category.Produkte": {
+    "message": "Produits",
+    "description": "The label for category 'Produkte' in sidebar 'wikiSidebar'"
+  },
+  "sidebar.wikiSidebar.category.Pico Ladestation": {
+    "message": "Borne de recharge Pico",
+    "description": "The label for category 'Pico Ladestation' in sidebar 'wikiSidebar'"
+  },
+  "sidebar.wikiSidebar.category.Planung": {
+    "message": "Planification",
+    "description": "The label for category 'Planung' in sidebar 'wikiSidebar'"
+  },
+  "sidebar.wikiSidebar.category.Elektromobilität": {
+    "message": "Électromobilité",
+    "description": "The label for category 'Elektromobilität' in sidebar 'wikiSidebar'"
+  },
+  "sidebar.wikiSidebar.category.Konfiguration": {
+    "message": "Configuration",
+    "description": "The label for category 'Konfiguration' in sidebar 'wikiSidebar'"
+  },
+  "sidebar.wikiSidebar.category.Inbetriebnahme": {
+    "message": "Mise en service",
+    "description": "The label for category 'Inbetriebnahme' in sidebar 'wikiSidebar'"
+  },
+  "sidebar.wikiSidebar.category.Inbetriebnahme LoRa": {
+    "message": "Mise en service LoRa",
+    "description": "The label for category 'Inbetriebnahme LoRa' in sidebar 'wikiSidebar'"
+  },
+  "sidebar.wikiSidebar.category.Ordnerkonfiguration": {
+    "message": "Configuration des dossiers",
+    "description": "The label for category 'Ordnerkonfiguration' in sidebar 'wikiSidebar'"
+  },
+  "sidebar.wikiSidebar.category.Wenn/Dann-Aktionen": {
+    "message": "Actions si/alors",
+    "description": "The label for category 'Wenn/Dann-Aktionen' in sidebar 'wikiSidebar'"
+  },
+  "sidebar.wikiSidebar.category.Rechnungsstellung": {
+    "message": "Facturation",
+    "description": "The label for category 'Rechnungsstellung' in sidebar 'wikiSidebar'"
+  },
+  "sidebar.wikiSidebar.category.Stromtarife definieren": {
+    "message": "Définir les tarifs d'électricité",
+    "description": "The label for category 'Stromtarife definieren' in sidebar 'wikiSidebar'"
+  },
+  "sidebar.wikiSidebar.category.Mieterstrom": {
+    "message": "Électricité pour les locataires",
+    "description": "The label for category 'Mieterstrom' in sidebar 'wikiSidebar'"
+  },
+  "sidebar.wikiSidebar.category.Multilevel Lastmanagement": {
+    "message": "Gestion de la charge multiniveau",
+    "description": "The label for category 'Multilevel Lastmanagement' in sidebar 'wikiSidebar'"
+  },
+  "sidebar.wikiSidebar.category.Stoerungsbehebung": {
+    "message": "Dépannage",
+    "description": "The label for category 'Stoerungsbehebung' in sidebar 'wikiSidebar'"
+  },
+  "sidebar.wikiSidebar.category.Drittsysteme": {
+    "message": "Systèmes tiers",
+    "description": "The label for category 'Drittsysteme' in sidebar 'wikiSidebar'"
+  },
+  "sidebar.wikiSidebar.category.Drittprodukte": {
+    "message": "Produits tiers",
+    "description": "The label for category 'Drittprodukte' in sidebar 'wikiSidebar'"
+  },
+  "sidebar.wikiSidebar.category.Schnittstellen": {
+    "message": "Interfaces",
+    "description": "The label for category 'Schnittstellen' in sidebar 'wikiSidebar'"
+  },
+  "sidebar.wikiSidebar.category.DTA-VHKA Files": {
+    "message": "Fichiers DTA-VHKA",
+    "description": "The label for category 'DTA-VHKA Files' in sidebar 'wikiSidebar'"
+  },
+  "sidebar.wikiSidebar.category.Nutzeranleitungen": {
+    "message": "Guides d'utilisation",
+    "description": "The label for category 'Nutzeranleitungen' in sidebar 'wikiSidebar'"
+  },
+  "sidebar.wikiSidebar.category.Informationssicherheit": {
+    "message": "Sécurité de l'information",
+    "description": "The label for category 'Informationssicherheit' in sidebar 'wikiSidebar'"
+  },
+  "sidebar.wikiSidebar.category.News": {
+    "message": "Actualités",
+    "description": "The label for category 'News' in sidebar 'wikiSidebar'"
+  },
+  "sidebar.wikiSidebar.category.Status": {
+    "message": "État",
+    "description": "The label for category 'Status' in sidebar 'wikiSidebar'"
+  }
+}

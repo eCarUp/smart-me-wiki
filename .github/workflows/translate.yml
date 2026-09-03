@@ -1,0 +1,108 @@
+name: Übersetzungen aktualisieren
+
+# Übersetzt geänderte deutsche Seiten nach en/fr/it und öffnet einen Pull
+# Request. Es wird nie direkt auf main gepusht – die Übersetzungen sollen vor
+# dem Veröffentlichen gesehen werden.
+#
+# Voraussetzung: das Repository-Secret CLAUDE_CODE_OAUTH_TOKEN. Es wird lokal
+# einmalig erzeugt mit
+#
+#     claude setup-token
+#
+# und unter Settings -> Secrets and variables -> Actions hinterlegt. Ein
+# Anthropic-API-Key wird nicht benötigt.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'docs/**'
+      - 'glossary.md'
+  workflow_dispatch:
+    inputs:
+      all:
+        description: 'Alle Seiten neu übersetzen (statt nur der geänderten)'
+        type: boolean
+        default: false
+      locales:
+        description: 'Sprachen, kommagetrennt (leer = en,fr,it)'
+        type: string
+        default: ''
+
+# Zwei gleichzeitige Läufe würden sich gegenseitig die Übersetzungen
+# überschreiben; der neuere Lauf gewinnt.
+concurrency:
+  group: translate
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  translate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Abhängigkeiten installieren
+        run: npm ci
+
+      - name: Claude-Code-CLI installieren
+        run: npm install -g @anthropic-ai/claude-code
+
+      - name: Anstehende Übersetzungen anzeigen
+        run: npm run translate -- --list ${{ inputs.all && '--all' || '' }}
+
+      - name: Übersetzen
+        env:
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+        run: |
+          npm run translate -- \
+            ${{ inputs.all && '--all' || '' }} \
+            ${{ inputs.locales && format('--locale {0}', inputs.locales) || '' }}
+
+      - name: Build prüfen
+        run: npm run build
+
+      - name: Änderungen feststellen
+        id: changes
+        run: |
+          if [ -n "$(git status --porcelain i18n .translation-state.json)" ]; then
+            echo "found=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "found=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Pull Request öffnen
+        if: steps.changes.outputs.found == 'true'
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: translations/update
+          # Vorhandenen Branch weiterverwenden, damit nicht bei jedem Push auf
+          # main ein neuer Pull Request entsteht.
+          commit-message: |
+            Übersetzungen aktualisiert
+
+            Erzeugt von .github/workflows/translate.yml aus den deutschen
+            Masterinhalten unter docs/.
+          title: 'Übersetzungen aktualisieren'
+          body: |
+            Automatisch erzeugte Übersetzungen der geänderten deutschen Seiten.
+
+            Bearbeite die Dateien unter `i18n/` **nicht** von Hand – Korrekturen
+            gehören in die deutsche Masterseite unter `docs/` oder ins
+            `glossary.md`. Siehe [CONTRIBUTING.md](../blob/main/CONTRIBUTING.md).
+
+            🤖 Generated with [Claude Code](https://claude.com/claude-code)
+          add-paths: |
+            i18n
+            .translation-state.json
+          delete-branch: false

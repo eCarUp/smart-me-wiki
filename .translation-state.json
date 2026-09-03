@@ -1,0 +1,310 @@
+{
+  "docs": {
+    "docs/drittprodukte/Stromwandler.md": {
+      "en": "d18129f63595cf2e"
+    },
+    "docs/drittprodukte/index.md": {
+      "en": "128e0050b28b5021"
+    },
+    "docs/drittprodukte/standfuss-fundamente.md": {
+      "en": "a0b8f906f5707dee"
+    },
+    "docs/drittprodukte/zaehlersteckklemmen-nimbus-100A.md": {
+      "en": "9214c2302b6d95e7"
+    },
+    "docs/drittsysteme/askoma.md": {
+      "en": "5493340fd6f02e47"
+    },
+    "docs/drittsysteme/bexio.md": {
+      "en": "9e4694c22a667fcc"
+    },
+    "docs/drittsysteme/clever-pv.md": {
+      "en": "fb7c7e1d427e0522"
+    },
+    "docs/drittsysteme/digital-republic.md": {
+      "en": "7d32ed712b1bd3cc"
+    },
+    "docs/drittsysteme/egonline.md": {
+      "en": "29091ef752bc0a51"
+    },
+    "docs/drittsysteme/fairwalter.md": {
+      "en": "41601cc85848f0f8"
+    },
+    "docs/drittsysteme/greenpocket.md": {
+      "en": "4c11868dafaa4c76"
+    },
+    "docs/drittsysteme/ibm-node-red.md": {
+      "en": "4dd8d1f3a5bb41d0"
+    },
+    "docs/drittsysteme/imovatec.md": {
+      "en": "5fccf4ab6dd5ebee"
+    },
+    "docs/drittsysteme/index.md": {
+      "en": "b94271ea2fba5a20"
+    },
+    "docs/drittsysteme/limmobi.md": {
+      "en": "786c28407cda9ad1"
+    },
+    "docs/drittsysteme/loxone.md": {
+      "en": "ee41cac09274e677"
+    },
+    "docs/drittsysteme/microsoft-excel.md": {
+      "en": "7117f9e4e5617f68"
+    },
+    "docs/drittsysteme/piskelapp.md": {
+      "en": "2a724d1cb249f818"
+    },
+    "docs/drittsysteme/smartfox.md": {
+      "en": "71b349961de9a3a1"
+    },
+    "docs/drittsysteme/smartred.md": {
+      "en": "ab43a466a31e590c"
+    },
+    "docs/drittsysteme/solarmanager.md": {
+      "en": "b1fd32223e29d407"
+    },
+    "docs/drittsysteme/soleco.md": {
+      "en": "9c34e47d1a56e675"
+    },
+    "docs/drittsysteme/switzercloud-colibird.md": {
+      "en": "55dd1706ef8fd090"
+    },
+    "docs/drittsysteme/symcon.md": {
+      "en": "f02199d206c3d01a"
+    },
+    "docs/drittsysteme/trueenergy-as.md": {
+      "en": "2c21e6b422218a7d"
+    },
+    "docs/drittsysteme/whatwatt.md": {
+      "en": "b98e192bff4417eb"
+    },
+    "docs/drittsysteme/zaehlerfreunde.md": {
+      "en": "29b2bcf8b3668432"
+    },
+    "docs/drittsysteme/zerofy.md": {
+      "en": "d5131e1a943ab6b6"
+    },
+    "docs/drittsysteme/zevvy.md": {
+      "en": "e65f0ea674296307"
+    },
+    "docs/index.md": {
+      "en": "8b712175d7e63f39"
+    },
+    "docs/informationssicherheit/datensicherheit.md": {
+      "en": "7adc0c9f978f488f"
+    },
+    "docs/informationssicherheit/public-key-signature.md": {
+      "en": "ff4645861954d3ad"
+    },
+    "docs/informationssicherheit/zählertransaktionen.md": {
+      "en": "d205dfadc1c01d63"
+    },
+    "docs/konfiguration/applab.md": {
+      "en": "660b38c0c34a4e54"
+    },
+    "docs/konfiguration/benutzerkonfiguration.md": {
+      "en": "6c8a20f3293b44aa"
+    },
+    "docs/konfiguration/billing/index.md": {
+      "en": "a77469814a89fce6"
+    },
+    "docs/konfiguration/billing/mieterstrom/index.md": {
+      "en": "12a284a37b8573f8"
+    },
+    "docs/konfiguration/billing/stromtarife-definieren/index.md": {
+      "en": "c5458afde4bd0c7b"
+    },
+    "docs/konfiguration/billing/vewa-abrechnung.md": {
+      "en": "b8ab24e5b6d0ee45"
+    },
+    "docs/konfiguration/billing/virtuelle-zaehler.md": {
+      "en": "cb08eb93d9ae35d1"
+    },
+    "docs/konfiguration/firmware-update.md": {
+      "en": "111f137bff5eb5e4"
+    },
+    "docs/konfiguration/inbetriebnahme/inbetriebnahme-lora/index.md": {
+      "en": "fdf9cba1f69152b0"
+    },
+    "docs/konfiguration/inbetriebnahme/index.md": {
+      "en": "23383f3dbfa8a9b1"
+    },
+    "docs/konfiguration/inbetriebnahme/pico-konfiguration.md": {
+      "en": "37bd4777a1886e35"
+    },
+    "docs/konfiguration/inbetriebnahme/zaehler-loeschen.md": {
+      "en": "b71b49a8f739535e"
+    },
+    "docs/konfiguration/multilevel-lastmanagement/index.md": {
+      "en": "b5f1cf00e2fa52e3"
+    },
+    "docs/konfiguration/multilevel-lastmanagement/mlm-konfigurieren.md": {
+      "en": "683b27d31df4a3a0"
+    },
+    "docs/konfiguration/my-dashboards.md": {
+      "en": "86dbd877965cc489"
+    },
+    "docs/konfiguration/ordnerkonfiguration/index.md": {
+      "en": "c20ee63871c5a18f"
+    },
+    "docs/konfiguration/wenndann-aktionen/alarme.md": {
+      "en": "0133a1e23430a5dc"
+    },
+    "docs/konfiguration/wenndann-aktionen/beispiel-boilersteuerung.md": {
+      "en": "5c37517d20b92fc7"
+    },
+    "docs/konfiguration/wenndann-aktionen/ereignisaktionen.md": {
+      "en": "96d7da26b03aee46"
+    },
+    "docs/konfiguration/wenndann-aktionen/index.md": {
+      "en": "0f06182c102fe3cd"
+    },
+    "docs/kontakt.md": {
+      "en": "b2d31db6afc73825"
+    },
+    "docs/news/firmware-release-notes.md": {
+      "en": "69b7cce81ea9780a"
+    },
+    "docs/planung/Messkonzept-Notstromloesung.md": {
+      "en": "a3f1beb8960810df"
+    },
+    "docs/planung/abrechnung-vorbereiten.md": {
+      "en": "12120d867857c2bd"
+    },
+    "docs/planung/cloud-lizenzen.md": {
+      "en": "d0bcdf364a1cf3f4"
+    },
+    "docs/planung/e-mobility.md": {
+      "en": "17421a5449115b11"
+    },
+    "docs/planung/elektromobilitaet/index.md": {
+      "en": "5dc167e47b75451a"
+    },
+    "docs/planung/index.md": {
+      "en": "5442b92914cb0ae5"
+    },
+    "docs/planung/internetverbindung.md": {
+      "en": "c1a6fc11f23d4306"
+    },
+    "docs/planung/messkonzept-produzenten-hinter-haeuser.md": {
+      "en": "494bf334c44b360a"
+    },
+    "docs/planung/minergie.md": {
+      "en": "11bfdd13d1bd556b"
+    },
+    "docs/planung/vertrag-rechtliches.md": {
+      "en": "d20e5ea8911a3972"
+    },
+    "docs/planung/virtuelle-zev-vzev.md": {
+      "en": "c96ffc7ef97c3179"
+    },
+    "docs/planung/zertifizierungen.md": {
+      "en": "1f3d54e6b8c45d2b"
+    },
+    "docs/produkte/1-phasen-zaehler.md": {
+      "en": "6c8491e2158e4e9a"
+    },
+    "docs/produkte/3-phasen-zähler.md": {
+      "en": "5ad6284f382ec855"
+    },
+    "docs/produkte/Telstar-CT.md": {
+      "en": "038f5b5b50518947"
+    },
+    "docs/produkte/eingestellte-produkte.md": {
+      "en": "71460e8cdbfe1a02"
+    },
+    "docs/produkte/index.md": {
+      "en": "68790aa1c3cc01d2"
+    },
+    "docs/produkte/kamstrup-modul.md": {
+      "en": "99c2d5ebb263ee2e"
+    },
+    "docs/produkte/landis-gyr-modul.md": {
+      "en": "ccf1e8f2de04c9eb"
+    },
+    "docs/produkte/m-bus-gateway.md": {
+      "en": "66463c7b5e192c47"
+    },
+    "docs/produkte/nimbus.md": {
+      "en": "0a6d9bcc4551209d"
+    },
+    "docs/produkte/pico-ladestation-exa.md": {
+      "en": "19e1f1e7d3dd3d8b"
+    },
+    "docs/produkte/pico-ladestation/index.md": {
+      "en": "962f2b76d19c4b27"
+    },
+    "docs/produkte/pico-ladestation/pico-display.md": {
+      "en": "90be65ce3952bf66"
+    },
+    "docs/produkte/pico-ladestation/pico-lastmanagement.md": {
+      "en": "8577fe4378bff3b8"
+    },
+    "docs/produkte/pico-ladestation/pico-standfuss.md": {
+      "en": "70b853e9f67a5bef"
+    },
+    "docs/produkte/pico-ladestation/pico-zubehör.md": {
+      "en": "f92f1f3782f4cb0b"
+    },
+    "docs/produkte/plug.md": {
+      "en": "a5ce0f3abd8b944f"
+    },
+    "docs/produkte/smart-eye.md": {
+      "en": "3e24c9ba98fabcff"
+    },
+    "docs/produkte/telstar.md": {
+      "en": "9bf3e6575d2d6c6b"
+    },
+    "docs/rma-antragsformulare.md": {
+      "en": "23fa397713dc5925"
+    },
+    "docs/schnittstellen/ai-connector.md": {
+      "en": "c1f01778d5422acb"
+    },
+    "docs/schnittstellen/api.md": {
+      "en": "18c90532905a228e"
+    },
+    "docs/schnittstellen/auto-export.md": {
+      "en": "2b856463bfbebfef"
+    },
+    "docs/schnittstellen/dta-vhka-files/index.md": {
+      "en": "15a5f594b1fb99d7"
+    },
+    "docs/schnittstellen/ebix-datenimport.md": {
+      "en": "a2aec2f8fbf0490b"
+    },
+    "docs/schnittstellen/ein_und_ausgaenge.md": {
+      "en": "e091edbb3b120ea9"
+    },
+    "docs/schnittstellen/minergie-exporter.md": {
+      "en": "3c2d2bda03a59dfc"
+    },
+    "docs/schnittstellen/modbus-tcp.md": {
+      "en": "2d13251d16e6ab31"
+    },
+    "docs/schnittstellen/swisseldex-sdat-import.md": {
+      "en": "e799886e6f8e50af"
+    },
+    "docs/stoerungsbehebung/billing-fehlermeldungen.md": {
+      "en": "7f02764cde78beda"
+    },
+    "docs/stoerungsbehebung/differenzen-mit-dem-ew.md": {
+      "en": "738cbe6fc5558d0a"
+    },
+    "docs/stoerungsbehebung/mbus-gateway-stoerungen.md": {
+      "en": "5bf81f244ab77153"
+    },
+    "docs/stoerungsbehebung/pico-fehler.md": {
+      "en": "958e7a1465c04eac"
+    },
+    "docs/stoerungsbehebung/telstar-ct-inbetriebnahmefehler.md": {
+      "en": "8da8909522d7a807"
+    },
+    "docs/stoerungsbehebung/visualisierungsfehler.md": {
+      "en": "e9645244e101b7bc"
+    },
+    "docs/stoerungsbehebung/zaehler-offline.md": {
+      "en": "06422d308713628b"
+    }
+  }
+}

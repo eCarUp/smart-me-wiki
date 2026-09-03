@@ -173,7 +173,7 @@ export async function crawl(
 
     // Bilder sofort laden, solange die signierten URLs noch gültig sind.
     const urls = contentImageUrls($);
-    const images = opts.withImages
+    const images: ImageRecord[] = opts.withImages
       ? await downloadImages(pathname, urls, opts.imagesRoot)
       : urls.map((originalUrl, index) => ({index, originalUrl, file: null}));
     manifest.pages[pathname] = {path: pathname, images};

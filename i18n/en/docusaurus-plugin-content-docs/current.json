@@ -1,0 +1,94 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.wikiSidebar.category.Produkte": {
+    "message": "Products",
+    "description": "The label for category 'Produkte' in sidebar 'wikiSidebar'"
+  },
+  "sidebar.wikiSidebar.category.Pico Ladestation": {
+    "message": "Pico Charging Station",
+    "description": "The label for category 'Pico Ladestation' in sidebar 'wikiSidebar'"
+  },
+  "sidebar.wikiSidebar.category.Planung": {
+    "message": "Planning",
+    "description": "The label for category 'Planung' in sidebar 'wikiSidebar'"
+  },
+  "sidebar.wikiSidebar.category.Elektromobilität": {
+    "message": "E-Mobility",
+    "description": "The label for category 'Elektromobilität' in sidebar 'wikiSidebar'"
+  },
+  "sidebar.wikiSidebar.category.Konfiguration": {
+    "message": "Configuration",
+    "description": "The label for category 'Konfiguration' in sidebar 'wikiSidebar'"
+  },
+  "sidebar.wikiSidebar.category.Inbetriebnahme": {
+    "message": "Commissioning",
+    "description": "The label for category 'Inbetriebnahme' in sidebar 'wikiSidebar'"
+  },
+  "sidebar.wikiSidebar.category.Inbetriebnahme LoRa": {
+    "message": "LoRa Commissioning",
+    "description": "The label for category 'Inbetriebnahme LoRa' in sidebar 'wikiSidebar'"
+  },
+  "sidebar.wikiSidebar.category.Ordnerkonfiguration": {
+    "message": "Folder Configuration",
+    "description": "The label for category 'Ordnerkonfiguration' in sidebar 'wikiSidebar'"
+  },
+  "sidebar.wikiSidebar.category.Wenn/Dann-Aktionen": {
+    "message": "If/Then Actions",
+    "description": "The label for category 'Wenn/Dann-Aktionen' in sidebar 'wikiSidebar'"
+  },
+  "sidebar.wikiSidebar.category.Rechnungsstellung": {
+    "message": "Billing",
+    "description": "The label for category 'Rechnungsstellung' in sidebar 'wikiSidebar'"
+  },
+  "sidebar.wikiSidebar.category.Stromtarife definieren": {
+    "message": "Define Electrical Tariffs",
+    "description": "The label for category 'Stromtarife definieren' in sidebar 'wikiSidebar'"
+  },
+  "sidebar.wikiSidebar.category.Mieterstrom": {
+    "message": "Tenant Electricity",
+    "description": "The label for category 'Mieterstrom' in sidebar 'wikiSidebar'"
+  },
+  "sidebar.wikiSidebar.category.Multilevel Lastmanagement": {
+    "message": "Multilevel Load Management",
+    "description": "The label for category 'Multilevel Lastmanagement' in sidebar 'wikiSidebar'"
+  },
+  "sidebar.wikiSidebar.category.Stoerungsbehebung": {
+    "message": "Troubleshooting",
+    "description": "The label for category 'Stoerungsbehebung' in sidebar 'wikiSidebar'"
+  },
+  "sidebar.wikiSidebar.category.Drittsysteme": {
+    "message": "Third-Party Systems",
+    "description": "The label for category 'Drittsysteme' in sidebar 'wikiSidebar'"
+  },
+  "sidebar.wikiSidebar.category.Drittprodukte": {
+    "message": "Third-Party Products",
+    "description": "The label for category 'Drittprodukte' in sidebar 'wikiSidebar'"
+  },
+  "sidebar.wikiSidebar.category.Schnittstellen": {
+    "message": "Interfaces",
+    "description": "The label for category 'Schnittstellen' in sidebar 'wikiSidebar'"
+  },
+  "sidebar.wikiSidebar.category.DTA-VHKA Files": {
+    "message": "DTA-VHKA Files",
+    "description": "The label for category 'DTA-VHKA Files' in sidebar 'wikiSidebar'"
+  },
+  "sidebar.wikiSidebar.category.Nutzeranleitungen": {
+    "message": "User Guides",
+    "description": "The label for category 'Nutzeranleitungen' in sidebar 'wikiSidebar'"
+  },
+  "sidebar.wikiSidebar.category.Informationssicherheit": {
+    "message": "Information Security",
+    "description": "The label for category 'Informationssicherheit' in sidebar 'wikiSidebar'"
+  },
+  "sidebar.wikiSidebar.category.News": {
+    "message": "News",
+    "description": "The label for category 'News' in sidebar 'wikiSidebar'"
+  },
+  "sidebar.wikiSidebar.category.Status": {
+    "message": "Status",
+    "description": "The label for category 'Status' in sidebar 'wikiSidebar'"
+  }
+}

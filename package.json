@@ -16,7 +16,8 @@
     "migrate:crawl": "tsx scripts/migration/crawl.ts",
     "migrate:convert": "tsx scripts/migration/convert.ts",
     "migrate:report": "tsx scripts/migration/report.ts",
-    "migrate:english": "tsx scripts/migration/importEnglish.ts"
+    "migrate:english": "tsx scripts/migration/importEnglish.ts",
+    "translate": "tsx scripts/translate.ts"
   },
   "dependencies": {
     "@docusaurus/core": "3.10.2",

@@ -496,7 +496,7 @@ Als Basis dient die jeweilige verursachte Stromspitze (nur Netzbezug) jedes indi
 
 ![Stromtarife definieren – Abbildung 31](/img/konfiguration-billing-stromtarife-definieren/31.png)
 
-### Spitzentarife ohne aktive Hauptmessung(Manuelle Kosteneintragung)
+### Spitzentarife ohne aktive Hauptmessung (Manuelle Kosteneintragung)
 
 Eignet sich für alle Systeme die keine Referenzmessung besitzen. 
 
@@ -504,7 +504,7 @@ Eignet sich für alle Systeme die keine Referenzmessung besitzen. 
 
 ![Stromtarife definieren – Abbildung 33](/img/konfiguration-billing-stromtarife-definieren/33.png)
 
-### Spitzentarife mit aktiver Hauptmessung(Automatische Kostenberechnung)
+### Spitzentarife mit aktiver Hauptmessung (Automatische Kostenberechnung)
 
 Eignet sich für alle Systeme die eine direkte Bilanzmessung besitzen.
 

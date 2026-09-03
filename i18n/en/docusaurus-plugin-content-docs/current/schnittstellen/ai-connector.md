@@ -1,8 +1,8 @@
 ---
-title: 'AI ConnectorConnecting smart-me to an AI assistant'
+title: 'AI Connector Connecting smart-me to an AI assistant'
 slug: '/schnittstellen/ai-connector'
 description: 'smart-me runs a connector that lets an AI assistant work inside your smart-me account.'
-sidebar_label: 'AI ConnectorConnecting smart-me to an AI assistant'
+sidebar_label: 'AI Connector Connecting smart-me to an AI assistant'
 ---
 smart-me runs a connector that lets an AI assistant work inside your smart-me account. Claude, ChatGPT and other assistants can use it. You connect it once, then ask for what you want in ordinary language instead of clicking through the portal:
 

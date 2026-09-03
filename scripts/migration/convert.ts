@@ -56,6 +56,17 @@ export function createSlugger(): (text: string) => string {
   return (text: string) => slugger.slug(text);
 }
 
+/**
+ * Text einer Überschrift als eine Zeile. Google Sites trennt mehrzeilige
+ * Überschriften mit `<br>`; ohne Ersatz durch ein Leerzeichen würden die Teile
+ * aneinanderkleben ("AI ConnectorConnecting smart-me …").
+ */
+export function headingText($: CheerioAPI, el: Element): string {
+  const $h = $(el).clone();
+  $h.find('br').replaceWith(' ');
+  return $h.text().replace(/\s+/g, ' ').trim();
+}
+
 
 /**
  * Escaped Zeichen, an denen sich der MDX-Parser verschlucken würde.
@@ -266,7 +277,7 @@ export function collectAnchors(html: string): Map<string, string | null> {
   // doppelte Überschriften dieselben "-1"-Suffixe erhalten.
   const slugFor = createSlugger();
   for (const el of headings) {
-    const text = $(el).text().replace(/\s+/g, ' ').trim();
+    const text = headingText($, el);
     // Der erste H1 wird zum Seitentitel und taucht im Markdown nicht mehr auf –
     // er bekommt also auch keinen Anker.
     const slug = el === firstH1 ? null : slugFor(text);
@@ -317,15 +328,14 @@ export function convertPage(
   // Überschrift plus losen Absatz – deshalb jede Überschrift auf reinen Text
   // reduzieren.
   $sections.find('h1, h2, h3, h4, h5, h6').each((_, el) => {
-    const $h = $(el);
-    $h.text($h.text().replace(/\s+/g, ' ').trim());
+    $(el).text(headingText($, el));
   });
 
   // --- Titel: erste H1, restliche H1 werden zu H2 -------------------------
   const headings = $sections.find('h1').toArray();
   let title = ctx.fallbackTitle;
   if (headings.length > 0) {
-    title = $(headings[0]).text().replace(/\s+/g, ' ').trim() || ctx.fallbackTitle;
+    title = headingText($, headings[0]) || ctx.fallbackTitle;
     $(headings[0]).remove();
     for (const extra of headings.slice(1)) {
       const $h = $(extra);

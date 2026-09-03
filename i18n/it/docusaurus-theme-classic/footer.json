@@ -1,0 +1,26 @@
+{
+  "link.title.smart-me": {
+    "message": "smart-me",
+    "description": "The title of the footer links column with title=smart-me in the footer"
+  },
+  "link.title.Wiki": {
+    "message": "Wiki",
+    "description": "The title of the footer links column with title=Wiki in the footer"
+  },
+  "link.item.label.smart-me.com": {
+    "message": "smart-me.com",
+    "description": "The label of footer link with label=smart-me.com linking to https://www.smart-me.com"
+  },
+  "link.item.label.Portal": {
+    "message": "Portal",
+    "description": "The label of footer link with label=Portal linking to https://smart-me.com/Portal"
+  },
+  "link.item.label.Mitarbeiten": {
+    "message": "Collaborare",
+    "description": "The label of footer link with label=Mitarbeiten linking to https://github.com/ecarup/smart-me-wiki/blob/main/CONTRIBUTING.md"
+  },
+  "copyright": {
+    "message": "Copyright © 2026 smart-me AG",
+    "description": "The footer copyright"
+  }
+}

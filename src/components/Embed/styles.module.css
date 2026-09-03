@@ -1,0 +1,10 @@
+.embed {
+  display: block;
+  width: 100%;
+  /* Mindesthöhe, damit die Einbettung auf kurzen Fenstern nutzbar bleibt. */
+  min-height: 520px;
+  border: 1px solid var(--ifm-toc-border-color);
+  border-radius: var(--ifm-global-radius);
+  background: var(--ifm-background-surface-color);
+  margin-bottom: var(--ifm-leading);
+}

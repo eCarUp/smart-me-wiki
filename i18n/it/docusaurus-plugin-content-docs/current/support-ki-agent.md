@@ -1,10 +1,10 @@
 ---
-title: 'agente KI di supporto'
+title: 'agente IA di supporto'
 slug: '/support-ki-agent'
-sidebar_label: 'agente KI di supporto'
+description: 'L''agente IA di supporto smart-me come applicazione integrata.'
+sidebar_label: 'agente IA di supporto'
 ---
----
-title: 'agente KI di supporto'
-slug: '/support-ki-agent'
-sidebar_label: 'agente KI di supporto'
----
+<Embed
+  src="https://west-orange-candlekeep-production.azurewebsites.net/plugins/aiguy?maximized=true&hideMinimizeMaximize=true"
+  title="Agente IA di supporto smart-me"
+/>

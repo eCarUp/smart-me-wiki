@@ -1,4 +1,5 @@
 import MDXComponents from '@theme-original/MDXComponents';
+import Embed from '@site/src/components/Embed';
 import Video from '@site/src/components/Video';
 
 /**
@@ -7,5 +8,6 @@ import Video from '@site/src/components/Video';
  */
 export default {
   ...MDXComponents,
+  Embed,
   Video,
 };

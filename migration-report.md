@@ -434,6 +434,12 @@ Code-Blöcke, Video-Einbettungen und `slug`. Sprungmarken zieht
   auf die von Docusaurus erzeugten Anker – auch über Seitengrenzen hinweg.
 - **Tabellen**: im Quell-Wiki gibt es keine einzige HTML-Tabelle, es war
   also nichts zu konvertieren.
+- **Eingebettete Anwendungen**: Google Sites lädt Einbettungen fremder
+  Anwendungen erst im Browser nach – im ausgelieferten HTML steht dafür
+  nur ein leerer Platzhalter, der Crawler sieht sie also nicht. Betroffen
+  war eine Seite (`/support-ki-agent`, der Support-KI-Agent). Sie wurde
+  von Hand mit der `<Embed>`-Komponente nachgezogen. YouTube-Videos sind
+  nicht betroffen, die stehen als echte `iframe` im HTML.
 - **Sidebar**: Reihenfolge und Beschriftungen stammen aus der Navigation der
   alten Site. Seiten, die dort nicht verlinkt sind, stehen am Ende ihrer
   Gruppe. Die Gruppen `Konfiguration`, `Stoerungsbehebung`, `Schnittstellen`,

@@ -6,7 +6,7 @@ sidebar_label: 'M-Bus Gateway'
 ---
 Die smart-me M-Bus Gateways lesen Energiezähler mit M-Bus-Schnittstelle (EN 13757-2, -3) aus und übermitteln die Daten automatisch sowie verschlüsselt per WLAN in die smart-me Cloud. Über das smart-me Portal oder unsere offene Schnittstelle lassen sich die Werte verschiedener Energieträger (Wasser, Wärme, Gas, Temperatur) anschliessend flexibel auswerten und in Drittsysteme exportieren. 
 
-[EN](https://doc.smart-me.com/products/m-bus-gateway)
+[EN](/produkte/m-bus-gateway)
 
 ## M-Bus Gateway (50 Standardlasten)
 
@@ -25,7 +25,7 @@ Die smart-me M-Bus Gateways lesen Energiezähler mit M-Bus-Schnittstelle (EN 137
 
 - [Visualisierungen](/konfiguration/visualisierung)
 
-- Schnittstellen via API, CSV, MSCONS und IS-E
+- [Schnittstellen](/) via API, CSV, MSCONS und IS-E
 
 - Verschlüsselte Echtzeit-Datenverbindung in die smart-me Cloud
 
@@ -78,7 +78,7 @@ Wenn die Taste T(4) für 10 Sekunden gedrückt wird, erzeugt dies ein lokales Wi
 
 - [Visualisierungen](/konfiguration/visualisierung)
 
-- Schnittstellen via API, CSV, MSCONS und IS-E
+- [Schnittstellen](/) via API, CSV, MSCONS und IS-E
 
 - Verschlüsselte Echtzeit-Datenverbindung in die smart-me Cloud
 

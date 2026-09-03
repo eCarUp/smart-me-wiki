@@ -32,7 +32,7 @@ sidebar_label: 'kerlink Wirnet iFemtocell-evolution'
 1.  Verbinde das Gerät gemäss Anleitung mit dem Ethernet, WLAN oder per 4G
 
 2.  Öffne den Browser deines Laptops und gib folgende URL ein:
-    `http://klk-fevo-<Serial>/`
+    [http://klk-fevo-](/)&lt;Serial>/
 
 
 &lt;Serial> ist Platzhalter für die letzten Digits der Geräte EUI die auf dem Gerät zu finden ist:

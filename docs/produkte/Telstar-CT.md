@@ -14,7 +14,7 @@ Der smart-me Telstar CT ist ein MID-zertifizierter Energiezähler mit integriert
 
 - [Installation](/konfiguration/inbetriebnahme) mit der kostenlosen smart-me App.
 
-- Wandleranschluss für externe Wandler mit Ausgangsströmen von 0.01A bis 6A
+- Wandleranschluss für [externe Wandler](/) mit Ausgangsströmen von 0.01A bis 6A
 
 - Rechnungsstellung mit dem [smart-me Billing Tool](/konfiguration/billing)
 
@@ -26,7 +26,7 @@ Der smart-me Telstar CT ist ein MID-zertifizierter Energiezähler mit integriert
 
 - Potentialfreier Kontakteingang für Tarifsignal oder [digitalen Eingang](/schnittstellen/ein_und_ausgaenge)
 
-- Schnittstellen via API, CSV, MSCONS und IS-E
+- [Schnittstellen](/) via API, CSV, MSCONS und IS-E
 
 - Verschlüsselte Echtzeit-Datenverbindung in die smart-me Cloud
 

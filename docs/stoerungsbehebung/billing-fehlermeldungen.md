@@ -284,7 +284,7 @@ Mögliche Ursachen:
 
 - Der Abrechnungseinheit wurden keine Zähler zum Abrechnen zugewiesen. 
 
-- Die Ordnerstruktur ist falsch (Siehe [2\. Ordnerstruktur erstellen und Zähler zuweisen](https://wiki.smart-me.com/konfiguration/billing#h.l9e8fd5e9hxl))
+- Die Ordnerstruktur ist falsch (Siehe [2\. Ordnerstruktur erstellen und Zähler zuweisen](/konfiguration/billing))
 
 - Bei virtuellen Tarifen: Die Tarife sind im gewünschten Rechnungszeitraum nicht gültig (Zeitraum der Tarife ggf. anpassen).
 

@@ -30,6 +30,8 @@ type EnResult = {
   /** DE-Seiten ohne englische Fassung */
   missingEnglish: string[];
   failures: Record<string, string>;
+  structural: {dePath: string; enPath: string}[];
+  conflicts: {dePath: string; fromDe: string; fromEn: string}[];
 };
 
 function section(title: string, body: string): string {
@@ -165,6 +167,29 @@ export async function buildReport(): Promise<string> {
   }
 
   if (en) {
+    if (en.conflicts.length > 0) {
+      manual += `### Widersprüchliche Sprachumschalter im Original\n\n`;
+      manual += `Auf diesen Seiten zeigt der \`English\`-Knopf auf eine andere Seite,\n`;
+      manual += `als die englische Fassung zurückverweist – auf der alten Site ist also\n`;
+      manual += `mindestens einer der beiden Verweise falsch gesetzt. Übernommen wurde\n`;
+      manual += `jeweils das Paar, das **beide** Seiten bestätigen.\n\n`;
+      manual += `${table(
+        ['Deutsche Seite', 'laut DE-Seite', 'laut EN-Seite'],
+        en.conflicts.map((c) => [`\`${c.dePath}\``, `\`${c.fromDe}\``, `\`${c.fromEn}\``]),
+      )}\n\n`;
+    }
+
+    if (en.structural.length > 0) {
+      manual += `### Strukturell zugeordnete Sprachpaare\n\n`;
+      manual += `Hier fehlt auf beiden alten Seiten der Sprachumschalter. Die Zuordnung\n`;
+      manual += `entstand über den übersetzten Verzeichnispfad bei identischem letztem\n`;
+      manual += `Pfadsegment. Ein kurzer Blick zur Bestätigung schadet nicht.\n\n`;
+      manual += `${table(
+        ['Deutsche Seite', 'Englische Seite'],
+        en.structural.map((s) => [`\`${s.dePath}\``, `\`${s.enPath}\``]),
+      )}\n\n`;
+    }
+
     if (en.missingEnglish.length > 0) {
       manual += `### Deutsche Seiten ohne englische Fassung\n\n`;
       manual += `Diese Seiten füllt die Übersetzungs-Pipeline (Phase 4).\n\n`;

@@ -6,7 +6,7 @@ sidebar_label: 'Internetverbindung'
 ---
 Das smart-me System und deren Hardware benötigt eine direkte Internetverbindung zur Cloud. Lokal musst du also ein WLAN 2.4GHz mit Internetverbindung stellen. 5GHz wird wegen der geringen Reichweite nicht unterstützt.
 
-[Englisch](https://doc.smart-me.com/planning/internet-connection)
+[Englisch](/planung/internetverbindung)
 
 Der Internetzugang kann wie folgt gelöst werden:
 

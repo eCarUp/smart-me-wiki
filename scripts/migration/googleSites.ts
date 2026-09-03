@@ -39,11 +39,14 @@ export function contentSections($: CheerioAPI): Cheerio<Element> {
  * das seiteninterne Inhaltsverzeichnis, den Sprachumschalter, Icon-Grafiken
  * und dekorative SVGs.
  *
- * Gibt die URL der englischen Schwesterseite zurück, falls ein Sprachumschalter
- * gefunden wurde – daraus entsteht später die DE/EN-Zuordnung.
+ * Gibt die Ziele des Sprachumschalters zurück (Beschriftung in Kleinschreibung
+ * -> URL). Daraus entsteht später die Zuordnung zwischen den Sprachfassungen.
  */
-export function stripChrome($: CheerioAPI, $sections: Cheerio<Element>): {englishUrl?: string} {
-  let englishUrl: string | undefined;
+export function stripChrome(
+  $: CheerioAPI,
+  $sections: Cheerio<Element>,
+): {languageLinks: Record<string, string>} {
+  const languageLinks: Record<string, string> = {};
 
   // Seiteninternes Inhaltsverzeichnis – Docusaurus erzeugt das selbst.
   $sections.find('.SV3pxb').remove();
@@ -53,8 +56,7 @@ export function stripChrome($: CheerioAPI, $sections: Cheerio<Element>): {englis
     const $a = $(el);
     const label = $a.text().replace(/\s+/g, ' ').trim().toLowerCase();
     if (!LANGUAGE_LABELS.has(label)) return;
-    const target = unwrapGoogleRedirect($a.attr('href')!);
-    if (label === 'english' && /doc\.smart-me\.com/.test(target)) englishUrl = target;
+    languageLinks[label] = unwrapGoogleRedirect($a.attr('href')!);
     // Der Knopf steckt in mehreren Wrapper-Divs; der äusserste mit role=presentation
     // ist die eigentliche Schaltfläche.
     const button = $a.closest('[role="presentation"]');
@@ -68,7 +70,7 @@ export function stripChrome($: CheerioAPI, $sections: Cheerio<Element>): {englis
   });
   $sections.find('svg').remove();
 
-  return {englishUrl};
+  return {languageLinks};
 }
 
 export function isIconUrl(src: string): boolean {

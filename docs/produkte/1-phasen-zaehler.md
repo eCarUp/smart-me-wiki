@@ -20,7 +20,7 @@ Der smart-me 1-Phasenzähler 80A ist ein Energiezähler mit integrierter WiFi-Sc
 
 - Potentialfreier Kontakteingang für Tarifsignal oder [digitalen Eingang](/schnittstellen/ein_und_ausgaenge)
 
-- Schnittstellen via API, CSV, MSCONS und IS-E
+- [Schnittstellen](/) via API, CSV, MSCONS und IS-E
 
 - Verschlüsselte Echtzeit-Datenverbindung in die smart-me Cloud 
 

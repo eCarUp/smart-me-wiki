@@ -26,7 +26,7 @@ sidebar_label: '3-Phasen Zähler Nimbus 100A'
 
 - [Visualisierungen](/konfiguration/visualisierung)
 
-- Schnittstellen aus dem System via API, CSV, MSCONS und IS-E
+- [Schnittstellen](/) aus dem System via API, CSV, MSCONS und IS-E
 
 - Verschlüsselte Echtzeit-Datenverbindung in die smart-me Cloud 
 

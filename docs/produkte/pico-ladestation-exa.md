@@ -74,7 +74,7 @@ Phasenausgleich  Automatischer Phasenausgleich
 
 Lastmanagement  Automatisches Lastmanagement über mehrere Stationen
 
-Kommunikation  WiFi (2.4 GHz) und Mobilfunk (LTE) inkl. SIM und Datentraffic für 10 Jahre von [1nce](https://1nce.com/de/laenderabdeckung/), Modbus TCP
+Kommunikation  WiFi (2.4 GHz) und Mobilfunk (LTE) inkl. SIM und Datentraffic für 10 Jahre von [1nce](https://1nce.com/de/laenderabdeckung/), [Modbus TCP](/)
 
 Cloud Anbindung  Anbindung an smart-me und eCarUp Cloud
 

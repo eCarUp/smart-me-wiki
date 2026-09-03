@@ -16,9 +16,9 @@ Mögliche Auslöser:
 
     - Uhrzeit
 
-    - Strom kleiner/grösser (an einer Phase) (nur beim 3-Phasen Zähler Telstar)
+    - Strom kleiner/grösser (an einer Phase) (nur beim [3-Phasen Zähler Telstar](/))
 
-    - Digitaler Input (On/ Off) (nur beim 3-Phasen Zähler Telstar)
+    - Digitaler Input (On/ Off) (nur beim [3-Phasen Zähler Telstar](/))
 
 
 
@@ -27,7 +27,7 @@ Mögliche Aktionen:
 
 - -   [Alarm E-Mail](/konfiguration/wenndann-aktionen/alarme)
 
-    - Strom ein- /ausschalten (nur beim 3-Phasen Zähler Telstar)
+    - Strom ein- /ausschalten (nur beim [3-Phasen Zähler Telstar](/))
 
     - Strom umschalten ein/aus (wird nicht mehr unterstützt)
 

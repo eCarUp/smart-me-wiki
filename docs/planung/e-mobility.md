@@ -38,4 +38,4 @@ Dynamisches Lastmanagement auf den Hausverteiler
 
 ## Downloads
 
-Klicken Sie hier.
+Klicken Sie [hier](/).

@@ -4,7 +4,7 @@ slug: '/planung/zertifizierungen'
 description: 'Generelle Produktnormen und EU-Regulierungen'
 sidebar_label: 'Zertifizierungen'
 ---
-[Englisch](https://doc.smart-me.com/planning/certification-calibration)
+[Englisch](/planung/zertifizierungen)
 
 ## Generelle Produktnormen und EU-Regulierungen
 

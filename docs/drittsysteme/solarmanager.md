@@ -57,7 +57,7 @@ Zur Einrichtung fügt man ein Smart Meter hinzu und wählt dort smart-me Cloud. 
 
 ## smart-me Relais nutzen
 
-Der [3-Phasenzähler Telstar](/produkte/telstar) hat zwei potentialfreie Kontaktausgänge zur Steuerung von externen Geräten, einer davon mit integriertem 8A-Relais. Im Solar Manager kann dieser geschalten werden. Pro Relais wird ein «Schalter» erfasst und parametrisiert. Die Schalter müssen vorgängig im smart-me Portal als digitale Ausgänge definiert werden (siehe Ein- & Ausgänge) 
+Der [3-Phasenzähler Telstar](/produkte/telstar) hat zwei potentialfreie Kontaktausgänge zur Steuerung von externen Geräten, einer davon mit integriertem 8A-Relais. Im Solar Manager kann dieser geschalten werden. Pro Relais wird ein «Schalter» erfasst und parametrisiert. Die Schalter müssen vorgängig im smart-me Portal als digitale Ausgänge definiert werden (siehe [Ein- & Ausgänge](/)) 
 
 Zur Einrichtung fügt man unter Geräte einen neuen «Schalter» hinzu und wählt dort «Relais am smart-me 3-Phasen Zähler». Mit Zugangsdaten und der 8-stelligen Seriennummer wird der Zähler verbunden. 
 

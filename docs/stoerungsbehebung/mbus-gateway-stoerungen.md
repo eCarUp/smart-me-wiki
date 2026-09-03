@@ -16,7 +16,7 @@ Viele M-Bus Zähler beziehen Ihren Strom vom Gateway. Unser Gateway unterstützt
 
 - Zu lange Leitungen, bzw. zu dünne Zähler führen zu Verlusten auf den Leitungen.
 
-- Nicht jeder M-Bus Zähler ist kompatibel mit unserem Gateway. Die Liste an kompatiblen Zählern findest du auf der [M-Bus Gateway Produktseite](https://wiki.smart-me.com/produkte/m-bus-gateway)
+- Nicht jeder M-Bus Zähler ist kompatibel mit unserem Gateway. Die Liste an kompatiblen Zählern findest du auf der [M-Bus Gateway Produktseite](/produkte/m-bus-gateway)
 
 
 ## Gateway findet mehr Zähler als verbaut wurden (Bei der Inbetriebnahme)
@@ -128,7 +128,7 @@ Technische Erklärung
 
 - Prüfe die Verdrahtung zwischen Zähler und Gateway.
 
-- Nicht jeder M-Bus Zähler ist kompatibel mit unserem Gateway. Die Liste an kompatiblen Zählern findest du auf der [M-Bus Gateway Produktseite](https://wiki.smart-me.com/produkte/m-bus-gateway)
+- Nicht jeder M-Bus Zähler ist kompatibel mit unserem Gateway. Die Liste an kompatiblen Zählern findest du auf der [M-Bus Gateway Produktseite](/produkte/m-bus-gateway)
 
 
 ## M-Bus Gateway austauschen

@@ -44,7 +44,7 @@ Lastprofile
 
 Erweiterte Ordner und Zähler Verwaltung
 
-Public Links 
+[Public Links](/) 
 
 1 Messwert pro Minute. (API)
 
@@ -64,7 +64,7 @@ Erweiterung möglich für alle Messpunkte in der smart-me Cloud
 
 [Benutzerkonfiguration](/konfiguration/benutzerkonfiguration) 
 
-Pico Dynamisches Lastmanagement 
+[Pico Dynamisches Lastmanagement](/) 
 
 oAuth
 
@@ -76,7 +76,7 @@ Lastprofile
 
 Erweiterte Ordner und Zähler Verwaltung
 
-Public Links 
+[Public Links](/) 
 
 [Modbus TCP](/schnittstellen/modbus-tcp) 
 

@@ -18,6 +18,7 @@ import TurndownService from 'turndown';
 import {gfm} from 'turndown-plugin-gfm';
 import {cachePath, loadManifest, type Manifest} from './crawl';
 import {contentSections, stripChrome, unwrapGoogleRedirect} from './googleSites';
+import {buildPathMapping, crossSiteMap, DE_HOSTS} from './mapping';
 
 const HOST = 'dok.smart-me.com';
 const ORIGIN = `https://${HOST}`;
@@ -150,7 +151,8 @@ export type ConvertedPage = {
   title: string;
   markdown: string;
   description: string | null;
-  englishUrl?: string;
+  /** Ziele des Sprachumschalters der Quellseite (Beschriftung -> URL). */
+  languageLinks: Record<string, string>;
   /** Anzahl Bilder, die statt eines echten Alt-Textes einen Platzhalter tragen. */
   altPlaceholders: number;
   warnings: string[];
@@ -282,6 +284,18 @@ export function convertPage(
   html: string,
   ctx: {
     path: string;
+    /** Herkunfts-Site der Seite, z.B. https://dok.smart-me.com */
+    origin: string;
+    /** Hosts, unter denen dieselbe Site erreichbar ist – Links darauf sind intern. */
+    selfHosts: string[];
+    /**
+     * `<host><pfad>` der jeweils anderen Sprachfassung -> Pfad in dieser Site.
+     * Ein Verweis auf die englische Fassung einer Seite wird so zum Verweis auf
+     * genau diese Seite; die Sprache wählt der Leser über das Locale-Dropdown.
+     */
+    crossSite: Map<string, string>;
+    /** Wort für den Alt-Text-Platzhalter, z.B. "Abbildung" bzw. "Figure". */
+    figureWord: string;
     images: {index: number; file: string | null; error?: string}[];
     resolveLink: LinkResolver;
     /** Überschriften-IDs dieser Seite; null = Seitentitel ohne eigenen Anker. */
@@ -293,7 +307,7 @@ export function convertPage(
 ): ConvertedPage {
   const $ = cheerio.load(html);
   const $sections = contentSections($);
-  const {englishUrl} = stripChrome($, $sections);
+  const {languageLinks} = stripChrome($, $sections);
   const warnings: string[] = [];
 
   groupCodeBlocks($, $sections);
@@ -348,7 +362,7 @@ export function convertPage(
       // Beschreibung zu erfinden, wird ein sachlicher Platzhalter gesetzt
       // (Seitentitel + laufende Nummer) – siehe migration-report.md.
       altPlaceholders += 1;
-      $img.attr('alt', `${title} – Abbildung ${i + 1}`);
+      $img.attr('alt', `${title} – ${ctx.figureWord} ${i + 1}`);
     }
     $img.removeAttr('srcset').removeAttr('width').removeAttr('height').removeAttr('class');
   });
@@ -374,9 +388,24 @@ export function convertPage(
       return;
     }
 
-    // Absolute Links auf die eigene Site relativ machen.
-    if (href.startsWith(ORIGIN)) href = href.slice(ORIGIN.length) || '/';
-    if (href.startsWith('http://dok.smart-me.com')) href = href.slice('http://dok.smart-me.com'.length) || '/';
+    // Absolute Links auf die eigene Site relativ machen – die alten Sites sind
+    // teils über mehrere Domains erreichbar (z.B. dok. und wiki.smart-me.com).
+    // Verweise auf die andere Sprachfassung werden auf dieselbe Seite in dieser
+    // Site umgebogen.
+    try {
+      const parsed = new URL(href, ctx.origin);
+      const key = `${parsed.host}${decodeURI(parsed.pathname).replace(/\/+$/, '')}`;
+      const mapped = ctx.crossSite.get(key);
+      if (mapped) {
+        $a.attr('href', mapped);
+        return;
+      }
+      if (ctx.selfHosts.includes(parsed.host)) {
+        href = decodeURI(parsed.pathname).replace(/\/+$/, '') + parsed.hash || '/';
+      }
+    } catch {
+      // Kein auswertbares Ziel – der Link bleibt, wie er ist.
+    }
 
     if (href.startsWith('/')) {
       const [pathPart, hash] = href.split('#');
@@ -391,7 +420,7 @@ export function convertPage(
         }
       } else {
         warnings.push(`Interner Link ${clean} zeigt auf keine migrierte Seite.`);
-        $a.attr('href', `${ORIGIN}${pathPart}`);
+        $a.attr('href', `${ctx.origin}${pathPart}`);
       }
       return;
     }
@@ -447,7 +476,7 @@ export function convertPage(
   const description = deriveDescription(markdown);
   if (!description) warnings.push('Keine Beschreibung ableitbar – Frontmatter ohne description.');
 
-  return {title, markdown, description, englishUrl, altPlaceholders, warnings};
+  return {title, markdown, description, languageLinks, altPlaceholders, warnings};
 }
 
 // ---------------------------------------------------------------------------
@@ -631,6 +660,11 @@ export async function run(): Promise<MigrationResult> {
   const resolveAnchor = (path: string, id: string): string | null | undefined =>
     anchorsByPath.get(path === '/' ? '/home' : path)?.get(id);
 
+  // Verweise auf die englische Fassung einer Seite zeigen künftig auf dieselbe
+  // Seite – die Sprache wählt der Leser über das Locale-Dropdown.
+  const mapping = await buildPathMapping();
+  const crossSite = crossSiteMap(mapping, 'de');
+
   await rm(DOCS_ROOT, {recursive: true, force: true});
 
   const warnings = new Map<string, string[]>();
@@ -649,6 +683,10 @@ export async function run(): Promise<MigrationResult> {
 
     const result = convertPage(html, {
       path: page.path,
+      origin: ORIGIN,
+      selfHosts: DE_HOSTS,
+      crossSite,
+      figureWord: 'Abbildung',
       images: manifest.pages[page.path].images,
       resolveLink,
       anchors: anchorsByPath.get(page.path)!,
@@ -657,7 +695,8 @@ export async function run(): Promise<MigrationResult> {
     });
 
     page.title = result.title;
-    if (result.englishUrl) englishUrls.set(page.path, result.englishUrl);
+    const englishUrl = result.languageLinks.english;
+    if (englishUrl) englishUrls.set(page.path, englishUrl);
     if (result.warnings.length) warnings.set(page.path, result.warnings);
 
     imageCount += (result.markdown.match(/!\[[^\]]*\]\(\/img\//g) ?? []).length;
@@ -698,18 +737,33 @@ export async function run(): Promise<MigrationResult> {
   await writeFile('sidebars.ts', sidebarFile, 'utf8');
 
   // --- redirects.ts -------------------------------------------------------
-  // Die alten Pfade entsprechen 1:1 den neuen Slugs; nur /home wandert auf /.
-  const redirectEntries = pages
-    .filter((p) => p.path === '/home')
-    .map((p) => `  {from: '${p.path}', to: '/'},`);
+  // Die deutschen Pfade entsprechen 1:1 den neuen Slugs; nur /home wandert auf /.
+  // Die englischen Seiten liegen neu unter dem deutschen Slug, brauchen also je
+  // einen Redirect. Der Plugin-Lauf ist pro Sprache – im en-Build wird daraus
+  // automatisch /en/<alt> -> /en/<neu>.
+  const enRedirects = [...mapping.deToEn]
+    .filter(([dePath, enPath]) => enPath !== dePath && dePath !== '/home')
+    .sort((a, b) => a[1].localeCompare(b[1]))
+    .map(([dePath, enPath]) => `  {from: '${enPath}', to: '${dePath}'},`);
+
   const redirectFile =
     `/**\n` +
-    ` * Weiterleitungen von den alten Google-Sites-URLs (dok.smart-me.com).\n` +
-    ` * Alle übrigen Pfade wurden 1:1 als Slug übernommen und brauchen keinen Redirect.\n` +
+    ` * Weiterleitungen von den alten Google-Sites-URLs.\n` +
     ` * Erzeugt von scripts/migration/convert.ts.\n` +
+    ` *\n` +
+    ` * Deutsch (dok.smart-me.com): alle Pfade wurden 1:1 als Slug übernommen,\n` +
+    ` * nur /home liegt neu auf /.\n` +
+    ` *\n` +
+    ` * Englisch (doc.smart-me.com): die englischen Seiten liegen neu unter dem\n` +
+    ` * deutschen Slug, damit das Locale-Dropdown zwischen den Sprachfassungen\n` +
+    ` * derselben Seite wechselt. Die Regeln greifen im en-Build mit dem\n` +
+    ` * Sprachpräfix, also /en/<alt> -> /en/<neu>.\n` +
     ` */\n` +
     `export type Redirect = {from: string | string[]; to: string};\n\n` +
-    `export const redirects: Redirect[] = [\n${redirectEntries.join('\n')}\n];\n`;
+    `export const redirects: Redirect[] = [\n` +
+    `  {from: '/home', to: '/'},\n` +
+    `\n  // Alte englische Pfade\n` +
+    `${enRedirects.join('\n')}\n];\n`;
   await writeFile('redirects.ts', redirectFile, 'utf8');
 
   return {

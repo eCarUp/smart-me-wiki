@@ -16,7 +16,10 @@ Quelle Englisch: <https://doc.smart-me.com/>
 | Eingebettete Videos | 64 |
 | Nicht ladbare Bilder | 0 |
 | Bilder mit Alt-Text-Platzhalter | 960 |
-| Seiten mit Hinweisen | 23 |
+| Seiten mit Hinweisen | 24 |
+| Übernommene englische Seiten | 102 |
+| Deutsche Seiten ohne EN-Fassung | 48 |
+| Englische Seiten ohne DE-Pendant | 31 |
 
 ## Migrierte Seiten
 
@@ -203,6 +206,7 @@ wurden **nicht** migriert; die Links zeigen weiterhin auf die alte Domain.
 | `/planung/elektromobilitaet/smart-me-zev-und-fremdstationen` | Interner Link /planung/überbauung zeigt auf keine migrierte Seite. |
 | `/produkte/m-bus-gateway` | Sprungmarke #h.p_AJPOtphxnyrq auf /produkte/m-bus-gateway zeigt auf keine Überschrift. |
 | `/produkte/m-bus-gateway` | Sprungmarke #h.p_AJPOtphxnyrq auf /produkte/m-bus-gateway zeigt auf keine Überschrift. |
+| `/stoerungsbehebung/billing-fehlermeldungen` | Sprungmarke #h.l9e8fd5e9hxl auf /konfiguration/billing zeigt auf keine Überschrift. |
 
 ### Mehrere H1 pro Seite
 
@@ -250,6 +254,140 @@ abzuleiten (meist reine Einbettungen oder Verweisseiten).
 | `/planung/Projektkonfigurator` |
 | `/planung/investitionsrechner` |
 | `/support-ki-agent` |
+
+### Widersprüchliche Sprachumschalter im Original
+
+Auf diesen Seiten zeigt der `English`-Knopf auf eine andere Seite,
+als die englische Fassung zurückverweist – auf der alten Site ist also
+mindestens einer der beiden Verweise falsch gesetzt. Übernommen wurde
+jeweils das Paar, das **beide** Seiten bestätigen.
+
+| Deutsche Seite | laut DE-Seite | laut EN-Seite |
+| --- | --- | --- |
+| `/stoerungsbehebung/mbus-gateway-stoerungen` | `/troubleshooting/telstar-ct-setup-issues` | `/stoerungsbehebung/telstar-ct-inbetriebnahmefehler` |
+| `/nutzeranleitungen/mieter` | `/configuration/billing/define-electrical-tariffs` | `/konfiguration/billing/stromtarife-definieren` |
+| `/nutzeranleitungen/verwalter` | `/configuration/billing/define-electrical-tariffs` | `/konfiguration/billing/stromtarife-definieren` |
+| `/news/app-release-notes` | `/news/firmware-release-notes` | `/news/firmware-release-notes` |
+| `/planung/e-mobility` | `/planning/e-mobility` | `/planung/elektromobilitaet` |
+
+### Strukturell zugeordnete Sprachpaare
+
+Hier fehlt auf beiden alten Seiten der Sprachumschalter. Die Zuordnung
+entstand über den übersetzten Verzeichnispfad bei identischem letztem
+Pfadsegment. Ein kurzer Blick zur Bestätigung schadet nicht.
+
+| Deutsche Seite | Englische Seite |
+| --- | --- |
+| `/produkte/m-bus-gateway` | `/products/m-bus-gateway` |
+| `/produkte/pico-ladestation/pico-display` | `/products/pico-ev-charger/pico-display` |
+| `/planung/minergie` | `/planning/minergie` |
+| `/konfiguration/my-dashboards` | `/configuration/my-dashboards` |
+| `/konfiguration/applab` | `/configuration/applab` |
+| `/drittsysteme/askoma` | `/third-party-systems/askoma` |
+| `/drittsysteme/switzercloud-colibird` | `/third-party-systems/switzercloud-colibird` |
+| `/schnittstellen/ai-connector` | `/interfaces/ai-connector` |
+| `/schnittstellen/minergie-exporter` | `/interfaces/minergie-exporter` |
+
+### Deutsche Seiten ohne englische Fassung
+
+Diese Seiten füllt die Übersetzungs-Pipeline (Phase 4).
+
+| Seite |
+| --- |
+| `/drittsysteme/abm-technik-service` |
+| `/drittsysteme/elmoove` |
+| `/drittsysteme/esmart` |
+| `/drittsysteme/nebenkostenabrechnung` |
+| `/informationssicherheit/standardantworten` |
+| `/konfiguration/billing/mieterstrom/mkd3-messkonzept-nicht-teilnehmer` |
+| `/konfiguration/billing/mieterstrom/standard-messkonzept` |
+| `/konfiguration/billing/mwst-zev-nebenkosten` |
+| `/konfiguration/billing/stromtarife-definieren/stromtarif-rechner` |
+| `/konfiguration/inbetriebnahme/inbetriebnahme-lora/dragino-lps8n` |
+| `/konfiguration/inbetriebnahme/inbetriebnahme-lora/kerlink-wirnet-ifemtocell-evolution` |
+| `/konfiguration/inbetriebnahme/inbetriebnahme-lora/milesight-ug56-868mhz` |
+| `/konfiguration/inbetriebnahme/inbetriebnahme-lora/sensecap-m2` |
+| `/konfiguration/inbetriebnahme/inbetriebnahme-lora/wisgate-edge-lite-2` |
+| `/konfiguration/installer-app-anleitung` |
+| `/konfiguration/ordnerkonfiguration/nur-strom` |
+| `/konfiguration/ordnerkonfiguration/strom-und-eine-heizung` |
+| `/konfiguration/ordnerkonfiguration/strom-und-mehrere-heizungen` |
+| `/konfiguration/technische-tools` |
+| `/konfiguration/visualisierung` |
+| `/konfiguration/wenndann-aktionen/tarifzeiten-definieren` |
+| `/news/app-release-notes` |
+| `/news/status` |
+| `/news/status/pico-4g-ausfall` |
+| `/nutzeranleitungen/mieter` |
+| `/nutzeranleitungen/verwalter` |
+| `/planung/Projektkonfigurator` |
+| `/planung/elektromobilitaet/drittanbieter-zev-und-pico` |
+| `/planung/elektromobilitaet/smart-me-zev-und-fremdstationen` |
+| `/planung/elektromobilitaet/smart-me-zev-und-pico` |
+| `/planung/investitionsrechner` |
+| `/planung/leg-lokale-energie-gemeinschaft` |
+| `/planung/zev-zusammenschluss-zum-eigenverbrauch` |
+| `/produkte/1-phasen-zaehler-32a` |
+| `/produkte/lora-gateway-software` |
+| `/produkte/pico-ladestation/installationsplanung` |
+| `/produkte/pico-ladestation/materialempfehlung-rcd-typ-a` |
+| `/schnittstellen/dta-vhka-files/AbaImmo` |
+| `/schnittstellen/dta-vhka-files/Garaio-REM` |
+| `/schnittstellen/dta-vhka-files/Immotop2` |
+| `/schnittstellen/ladestation-15-minuten-import` |
+| `/schnittstellen/p1-schnittstelle` |
+| `/stoerungsbehebung/auto-export-fehler` |
+| `/stoerungsbehebung/csv-zahlen-richtig-formatieren` |
+| `/stoerungsbehebung/multilevel-lastmanagement-fehlermeldung` |
+| `/stoerungsbehebung/systemgesundheit` |
+| `/stoerungsbehebung/virtueller-zähler-fehler` |
+| `/support-ki-agent` |
+
+### Englische Seiten ohne deutsches Pendant
+
+Inhalte, die es nur auf Englisch gibt. Sie wurden **nicht** übernommen,
+weil Deutsch die Master-Sprache ist – wer sie behalten will, muss zuerst
+eine deutsche Seite unter `docs/` anlegen.
+
+| EN-Pfad |
+| --- |
+| `/configuration` |
+| `/configuration/billing/define-electrical-tariffs/smart-me-tariff-calculator` |
+| `/configuration/billing/vat-zev-heat-charge-settlement` |
+| `/configuration/commissioning/commissioning-lora/dragino-lps8n` |
+| `/configuration/commissioning/commissioning-lora/kerlink-wirnet-ifemtocell-evolution` |
+| `/configuration/commissioning/commissioning-lora/milesight-ug56-868mhz` |
+| `/configuration/commissioning/commissioning-lora/sensecap-m2` |
+| `/configuration/commissioning/commissioning-lora/wisgate-edge-lite-2` |
+| `/configuration/folder-configuration/electricity-and-1-heat-system` |
+| `/configuration/folder-configuration/electricity-and-multiple-heat-systems` |
+| `/configuration/folder-configuration/only-electricity` |
+| `/configuration/if-then-action/define-tariff-timing` |
+| `/configuration/technical-tools` |
+| `/configuration/visualisations` |
+| `/information-security/standard-answers` |
+| `/news/cloud-release-notes` |
+| `/planning/e-mobility/3rd-party-asc-and-pico` |
+| `/planning/e-mobility/smart-me-asc-and-3rd-party` |
+| `/planning/e-mobility/smart-me-asc-and-pico` |
+| `/planning/investment-calculator` |
+| `/planning/leg-local-energy-community` |
+| `/planning/project-configurator` |
+| `/planning/zev-building-or-superstructure` |
+| `/planning/zev-single-building` |
+| `/products/pico-ev-charger/installation-planning` |
+| `/products/single-phase-meter-32a` |
+| `/products/smart-me-lora-gateway` |
+| `/third-party-systems/service-charge-settlement` |
+| `/troubleshooting` |
+| `/troubleshooting/multilevel-load-management-possible-errors` |
+| `/troubleshooting/system-health` |
+
+### Nicht abrufbare englische Seiten
+
+| Pfad | Fehler |
+| --- | --- |
+| `/planning/superstructure` | HTTP 404 |
 
 ## Bewusste Entscheidungen bei der Konvertierung
 

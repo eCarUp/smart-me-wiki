@@ -233,7 +233,7 @@ if (import.meta.url === pathToFileURL(process.argv[1]).href) {
     const seeds = args.slice(1);
     const manifest = await crawl(origin, seeds.length ? seeds : ['/home'], {
       withImages: !flags.has('--no-images'),
-      imagesRoot: 'static/img',
+      imagesRoot: process.env.IMAGES_ROOT ?? 'static/img',
     });
     const pageCount = Object.keys(manifest.pages).length;
     const imgCount = Object.values(manifest.pages).reduce((n, p) => n + p.images.length, 0);

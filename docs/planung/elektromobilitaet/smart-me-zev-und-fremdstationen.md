@@ -26,7 +26,7 @@ Smart-me Messhardware als Informationsquelle für Drittanbietersoftware zur Steu
 
 ### Erweiterte Informationen zum Lastmanagement und ZEV
 
-[Stückliste der Beispielüberbauung](https://dok.smart-me.com/planung/%C3%BCberbauung)
+[Stückliste der Beispielüberbauung](https://dok.smart-me.com/planung/überbauung)
 
 [Kompatible Drittanbieter Lastmanagement Software](/drittsysteme)
 

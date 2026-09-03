@@ -39,10 +39,31 @@ claude   # einmalig anmelden
 | `npm run translate -- --locale fr --limit 5` | gezielt einzelne Seiten |
 | `npm run translate -- --list` | nur anzeigen, was zu tun wäre |
 | `npm run translate -- --adopt` | vorhandene Dateien als aktuell verbuchen |
+| `npm run translate -- --concurrency 6` | mehr Seiten gleichzeitig (Standard 4) |
+| `npm run translate:check` | prüft die Struktur gegen die deutschen Seiten |
+| `npm run translate:anchors` | zieht Sprungmarken nach (läuft automatisch mit) |
 
 Welche Seite fällig ist, entscheidet `.translation-state.json`: dort steht je
-Sprache der Hash der deutschen Datei, aus der die Fassung entstanden ist. Die
-Datei gehört ins Repository und wird vom Script gepflegt — nicht von Hand ändern.
+Sprache der Hash der deutschen Datei, aus der die Fassung entstanden ist, und
+woher sie stammt. Die Datei gehört ins Repository und wird von den Scripts
+gepflegt — nicht von Hand ändern.
+
+`origin: 'translated'` heisst: von dieser Pipeline erzeugt.
+`origin: 'adopted'` heisst: eigenständig geschriebener Bestandsinhalt aus dem
+alten englischen Wiki. Solche Seiten dürfen strukturell von der deutschen
+abweichen und sind von `translate:check` und `translate:anchors` ausgenommen.
+
+### Sprungmarken
+
+Docusaurus bildet den Anker einer Überschrift aus deren Text — beim Übersetzen
+ändert er sich also mit. Explizite IDs (`## Titel {#feste-id}`) wären die
+naheliegende Lösung, brechen hier aber den Build: `.md` wird als MDX
+verarbeitet, und dort ist `{…}` ein JavaScript-Ausdruck.
+
+`scripts/fixAnchors.ts` zieht die Sprungmarken deshalb nach dem Übersetzen
+positionsweise nach: Die n-te Überschrift der deutschen Seite entspricht der
+n-ten der übersetzten. Das läuft am Ende jedes Übersetzungslaufs automatisch
+mit und ist mehrfach ausführbar.
 
 ### Was beim Übersetzen unverändert bleibt
 

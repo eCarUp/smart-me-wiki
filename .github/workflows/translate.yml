@@ -69,6 +69,9 @@ jobs:
             ${{ inputs.all && '--all' || '' }} \
             ${{ inputs.locales && format('--locale {0}', inputs.locales) || '' }}
 
+      - name: Struktur der Übersetzungen prüfen
+        run: npm run translate:check
+
       - name: Build prüfen
         run: npm run build
 

@@ -392,15 +392,23 @@ eine deutsche Seite unter `docs/` anlegen.
 ## Stand der Übersetzungen
 
 Deutsch ist die Master-Sprache und mit 150 Seiten vollständig.
-Die übrigen Sprachen füllt `npm run translate` (siehe CLAUDE.md).
+Alle vier Sprachen sind gefüllt.
 
 | Sprache | Seiten | Herkunft |
 | --- | --- | --- |
-| en | 102 / 150 | aus dem alten englischen Wiki übernommen |
-| fr | 0 / 150 | ausstehend |
-| it | 0 / 150 | ausstehend |
+| en | 150 / 150 | Bestandsinhalte plus Übersetzungen |
+| fr | 150 / 150 | automatisch übersetzt |
+| it | 150 / 150 | automatisch übersetzt |
+
+Im Englischen stammen 102 Seiten aus dem alten
+englischen Wiki (`origin: 'adopted'`), die übrigen wurden übersetzt.
 
 Der Stand je Seite und Sprache steht in `.translation-state.json`.
+`npm run translate:check` vergleicht jede Übersetzung strukturell mit
+ihrer deutschen Vorlage: Überschriftenfolge, Bildpfade, Linkziele,
+Code-Blöcke, Video-Einbettungen und `slug`. Sprungmarken zieht
+`npm run translate:anchors` nach – Anker entstehen aus dem
+Überschriftentext und ändern sich mit der Übersetzung.
 
 ## Bewusste Entscheidungen bei der Konvertierung
 

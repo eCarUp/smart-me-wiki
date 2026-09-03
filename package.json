@@ -17,7 +17,9 @@
     "migrate:convert": "tsx scripts/migration/convert.ts",
     "migrate:report": "tsx scripts/migration/report.ts",
     "migrate:english": "tsx scripts/migration/importEnglish.ts",
-    "translate": "tsx scripts/translate.ts"
+    "translate": "tsx scripts/translate.ts",
+    "translate:check": "tsx scripts/checkTranslations.ts",
+    "translate:anchors": "tsx scripts/fixAnchors.ts"
   },
   "dependencies": {
     "@docusaurus/core": "3.10.2",

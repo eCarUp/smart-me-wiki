@@ -18,6 +18,7 @@ import * as cheerio from 'cheerio';
 import {loadManifest, cachePath, type Manifest} from './crawl';
 import {collectAnchors, convertPage} from './convert';
 import {buildPathMapping, crossSiteMap, EN_HOST, EN_HOSTS} from './mapping';
+import {hashOf, loadState, saveState} from '../translate';
 
 const EN_ORIGIN = `https://${EN_HOST}`;
 export const EN_DOCS_ROOT = 'i18n/en/docusaurus-plugin-content-docs/current';
@@ -116,6 +117,21 @@ export async function importEnglish(): Promise<EnglishImportResult> {
     await writeFile(file, `${frontmatter}${result.markdown}\n`, 'utf8');
     imported.push({dePath, enPath, file});
   }
+
+  // Im Uebersetzungs-Zustand als Bestandsinhalt verbuchen: diese Seiten sind
+  // eigenstaendig geschriebene Texte, keine Uebersetzungen. Sie werden erst
+  // ueberschrieben, wenn sich die deutsche Masterseite aendert, und von der
+  // Strukturpruefung ausgenommen.
+  const state = await loadState();
+  for (const entry of imported) {
+    const sourceFile = deByPath.get(entry.dePath)!.file;
+    state.docs[sourceFile] ??= {};
+    state.docs[sourceFile].en = {
+      hash: hashOf(await readFile(sourceFile, 'utf8')),
+      origin: 'adopted',
+    };
+  }
+  await saveState(state);
 
   const importedDePaths = new Set(imported.map((i) => i.dePath));
   return {

@@ -26,6 +26,7 @@ import {mkdir, readFile, readdir, writeFile} from 'node:fs/promises';
 import {existsSync} from 'node:fs';
 import {dirname, join, sep} from 'node:path';
 import {pathToFileURL} from 'node:url';
+import {fixAnchors} from './fixAnchors';
 
 export const DOCS_ROOT = 'docs';
 export const STATE_FILE = '.translation-state.json';
@@ -50,12 +51,26 @@ export function jsonRootFor(locale: Locale): string {
   return `i18n/${locale}`;
 }
 
-export type TranslationState = {
+/** Woher eine Sprachfassung stammt. */
+export type Origin =
+  /** Von dieser Pipeline aus der deutschen Seite erzeugt. */
+  | 'translated'
   /**
-   * Pfad der deutschen Datei (POSIX) -> Quell-Hash je Sprache. Der Wert ist der
-   * Hash der deutschen Datei zu dem Zeitpunkt, als diese Sprachfassung entstand.
+   * Eigenständig geschriebener Bestandsinhalt, hier übernommen aus dem alten
+   * englischen Wiki. Solche Seiten dürfen strukturell von der deutschen Seite
+   * abweichen und werden von der Strukturprüfung ausgenommen.
    */
-  docs: Record<string, Partial<Record<Locale, string>>>;
+  | 'adopted';
+
+export type LocaleState = {
+  /** Hash der deutschen Datei, als diese Sprachfassung entstand. */
+  hash: string;
+  origin: Origin;
+};
+
+export type TranslationState = {
+  /** Pfad der deutschen Datei (POSIX) -> Stand je Sprache. */
+  docs: Record<string, Partial<Record<Locale, LocaleState>>>;
 };
 
 export function hashOf(content: string): string {
@@ -78,8 +93,19 @@ const toPosix = (p: string) => p.split(sep).join('/');
 export async function loadState(): Promise<TranslationState> {
   if (!existsSync(STATE_FILE)) return {docs: {}};
   try {
-    const parsed = JSON.parse(await readFile(STATE_FILE, 'utf8')) as TranslationState;
-    return {docs: parsed.docs ?? {}};
+    const parsed = JSON.parse(await readFile(STATE_FILE, 'utf8')) as {
+      docs?: Record<string, Partial<Record<Locale, string | LocaleState>>>;
+    };
+    const docs: TranslationState['docs'] = {};
+    for (const [file, locales] of Object.entries(parsed.docs ?? {})) {
+      docs[file] = {};
+      for (const [locale, value] of Object.entries(locales)) {
+        // Ältere Stände hielten nur den Hash fest.
+        docs[file][locale as Locale] =
+          typeof value === 'string' ? {hash: value, origin: 'translated'} : value;
+      }
+    }
+    return {docs};
   } catch {
     console.warn(`${STATE_FILE} ist unlesbar – es wird alles neu übersetzt.`);
     return {docs: {}};
@@ -117,7 +143,7 @@ export async function planJobs(opts: {
 
     for (const locale of opts.locales) {
       const target = `${docsRootFor(locale)}/${relativePath}`;
-      const known = opts.state.docs[source]?.[locale];
+      const known = opts.state.docs[source]?.[locale]?.hash;
 
       if (opts.all) {
         jobs.push({source, locale, target, sourceHash, reason: 'erzwungen'});
@@ -135,10 +161,25 @@ export async function planJobs(opts: {
 // Claude-Code-CLI
 // ---------------------------------------------------------------------------
 
-/** Wie die CLI aufgerufen wird – unter Windows braucht npm-Bins die Shell. */
+/**
+ * Wie die CLI aufgerufen wird – unter Windows braucht npm-Bins die Shell.
+ *
+ * Der Prompt enthält alles, was zum Übersetzen nötig ist; Werkzeuge sind
+ * deshalb ausdrücklich gesperrt. Sonst versucht das Modell bei einer Seite
+ * ohne Fliesstext, im Dateisystem nachzusehen, und verbraucht damit seinen
+ * einzigen Zug. Zwei Züge lassen einen solchen Fehlgriff verkraften.
+ */
 function claudeCommand(): {command: string; args: string[]; shell: boolean} {
   const command = process.env.CLAUDE_BIN ?? 'claude';
-  const args = ['-p', '--output-format', 'text', '--max-turns', '1'];
+  const args = [
+    '-p',
+    '--output-format',
+    'text',
+    '--max-turns',
+    '2',
+    '--disallowed-tools',
+    'Bash,Read,Write,Edit,Glob,Grep,WebFetch,WebSearch,Task,TodoWrite,NotebookEdit',
+  ];
   if (process.env.CLAUDE_MODEL) args.push('--model', process.env.CLAUDE_MODEL);
   return {command, args, shell: process.platform === 'win32'};
 }
@@ -421,8 +462,11 @@ export async function adoptExisting(
     const relativePath = source.slice(`${DOCS_ROOT}/`.length);
     for (const locale of locales) {
       if (!existsSync(`${docsRootFor(locale)}/${relativePath}`)) continue;
+      // Bereits verbuchte Sprachfassungen nicht umdeuten – sonst würde eine
+      // erzeugte Übersetzung faelschlich als Bestandsinhalt gelten.
+      if (state.docs[source]?.[locale]) continue;
       state.docs[source] ??= {};
-      state.docs[source][locale] = sourceHash;
+      state.docs[source][locale] = {hash: sourceHash, origin: 'adopted'};
       count += 1;
     }
   }
@@ -540,7 +584,7 @@ ${(err as Error).message}`);
       try {
         await translateFile(job, glossary);
         state.docs[job.source] ??= {};
-        state.docs[job.source][job.locale] = job.sourceHash;
+        state.docs[job.source][job.locale] = {hash: job.sourceHash, origin: 'translated'};
         await saveState(state);
         done += 1;
         console.log(`  ${position} [${job.locale}] ${job.source} … ok`);
@@ -564,6 +608,15 @@ ${(err as Error).message}`);
   );
 
   if (aborted) return 2;
+
+  // Anker entstehen aus dem Überschriftentext und ändern sich damit beim
+  // Übersetzen. Sprungmarken zwischen Seiten müssen deshalb nachgezogen werden.
+  const {changed, unresolved} = await fixAnchors(options.locales);
+  if (changed > 0) console.log(`${changed} Dateien mit angepassten Sprungmarken.`);
+  for (const item of unresolved) {
+    console.log(`  Sprungmarke ohne Ziel: ${item.file} -> #${item.anchor}`);
+  }
+
   console.log(`\n${done} übersetzt, ${failed} fehlgeschlagen.`);
   return failed > 0 ? 1 : 0;
 }

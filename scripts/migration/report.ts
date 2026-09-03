@@ -46,6 +46,12 @@ async function countMarkdown(dir: string): Promise<number> {
   return count;
 }
 
+function sourceOf(locale: string): string {
+  return locale === 'en'
+    ? 'Bestandsinhalte plus Übersetzungen'
+    : 'automatisch übersetzt';
+}
+
 function section(title: string, body: string): string {
   return `## ${title}\n\n${body.trim()}\n\n`;
 }
@@ -231,17 +237,22 @@ export async function buildReport(): Promise<string> {
     (['en', 'fr', 'it'] as const).map(async (locale) => {
       const dir = `i18n/${locale}/docusaurus-plugin-content-docs/current`;
       const count = existsSync(dir) ? (await countMarkdown(dir)) : 0;
-      const source =
-        locale === 'en' ? 'aus dem alten englischen Wiki übernommen' : 'automatisch übersetzt';
-      return [locale, `${count} / ${deCount}`, count === 0 ? 'ausstehend' : source];
+      return [locale, `${count} / ${deCount}`, count === 0 ? 'ausstehend' : sourceOf(locale)];
     }),
   );
   md += section(
     'Stand der Übersetzungen',
     `Deutsch ist die Master-Sprache und mit ${deCount} Seiten vollständig.\n` +
-      `Die übrigen Sprachen füllt \`npm run translate\` (siehe CLAUDE.md).\n\n` +
+      `Alle vier Sprachen sind gefüllt.\n\n` +
       `${table(['Sprache', 'Seiten', 'Herkunft'], localeRows)}\n\n` +
-      `Der Stand je Seite und Sprache steht in \`.translation-state.json\`.`,
+      `Im Englischen stammen ${en?.imported.length ?? 0} Seiten aus dem alten\n` +
+      `englischen Wiki (\`origin: 'adopted'\`), die übrigen wurden übersetzt.\n\n` +
+      `Der Stand je Seite und Sprache steht in \`.translation-state.json\`.\n` +
+      `\`npm run translate:check\` vergleicht jede Übersetzung strukturell mit\n` +
+      `ihrer deutschen Vorlage: Überschriftenfolge, Bildpfade, Linkziele,\n` +
+      `Code-Blöcke, Video-Einbettungen und \`slug\`. Sprungmarken zieht\n` +
+      `\`npm run translate:anchors\` nach – Anker entstehen aus dem\n` +
+      `Überschriftentext und ändern sich mit der Übersetzung.`,
   );
 
   // --- Entscheidungen -----------------------------------------------------

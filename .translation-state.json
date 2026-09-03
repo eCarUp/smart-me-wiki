@@ -1,310 +1,2104 @@
 {
   "docs": {
     "docs/drittprodukte/Stromwandler.md": {
-      "en": "d18129f63595cf2e"
+      "en": {
+        "hash": "d18129f63595cf2e",
+        "origin": "adopted"
+      },
+      "fr": {
+        "hash": "d18129f63595cf2e",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "d18129f63595cf2e",
+        "origin": "translated"
+      }
     },
     "docs/drittprodukte/index.md": {
-      "en": "128e0050b28b5021"
+      "en": {
+        "hash": "128e0050b28b5021",
+        "origin": "adopted"
+      },
+      "fr": {
+        "hash": "128e0050b28b5021",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "128e0050b28b5021",
+        "origin": "translated"
+      }
     },
     "docs/drittprodukte/standfuss-fundamente.md": {
-      "en": "a0b8f906f5707dee"
+      "en": {
+        "hash": "a0b8f906f5707dee",
+        "origin": "adopted"
+      },
+      "it": {
+        "hash": "a0b8f906f5707dee",
+        "origin": "translated"
+      },
+      "fr": {
+        "hash": "a0b8f906f5707dee",
+        "origin": "translated"
+      }
     },
     "docs/drittprodukte/zaehlersteckklemmen-nimbus-100A.md": {
-      "en": "9214c2302b6d95e7"
+      "en": {
+        "hash": "9214c2302b6d95e7",
+        "origin": "adopted"
+      },
+      "fr": {
+        "hash": "9214c2302b6d95e7",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "9214c2302b6d95e7",
+        "origin": "translated"
+      }
+    },
+    "docs/drittsysteme/abm-technik-service.md": {
+      "en": {
+        "hash": "924c55e1b51d5309",
+        "origin": "translated"
+      },
+      "fr": {
+        "hash": "924c55e1b51d5309",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "924c55e1b51d5309",
+        "origin": "translated"
+      }
     },
     "docs/drittsysteme/askoma.md": {
-      "en": "5493340fd6f02e47"
+      "en": {
+        "hash": "5493340fd6f02e47",
+        "origin": "adopted"
+      },
+      "fr": {
+        "hash": "5493340fd6f02e47",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "5493340fd6f02e47",
+        "origin": "translated"
+      }
     },
     "docs/drittsysteme/bexio.md": {
-      "en": "9e4694c22a667fcc"
+      "en": {
+        "hash": "9e4694c22a667fcc",
+        "origin": "adopted"
+      },
+      "fr": {
+        "hash": "9e4694c22a667fcc",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "9e4694c22a667fcc",
+        "origin": "translated"
+      }
     },
     "docs/drittsysteme/clever-pv.md": {
-      "en": "fb7c7e1d427e0522"
+      "en": {
+        "hash": "fb7c7e1d427e0522",
+        "origin": "adopted"
+      },
+      "fr": {
+        "hash": "fb7c7e1d427e0522",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "fb7c7e1d427e0522",
+        "origin": "translated"
+      }
     },
     "docs/drittsysteme/digital-republic.md": {
-      "en": "7d32ed712b1bd3cc"
+      "en": {
+        "hash": "7d32ed712b1bd3cc",
+        "origin": "adopted"
+      },
+      "fr": {
+        "hash": "7d32ed712b1bd3cc",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "7d32ed712b1bd3cc",
+        "origin": "translated"
+      }
     },
     "docs/drittsysteme/egonline.md": {
-      "en": "29091ef752bc0a51"
+      "en": {
+        "hash": "29091ef752bc0a51",
+        "origin": "adopted"
+      },
+      "fr": {
+        "hash": "29091ef752bc0a51",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "29091ef752bc0a51",
+        "origin": "translated"
+      }
+    },
+    "docs/drittsysteme/elmoove.md": {
+      "en": {
+        "hash": "4a458a1119a8bf95",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "4a458a1119a8bf95",
+        "origin": "translated"
+      },
+      "fr": {
+        "hash": "4a458a1119a8bf95",
+        "origin": "translated"
+      }
+    },
+    "docs/drittsysteme/esmart.md": {
+      "en": {
+        "hash": "e869f403b4530f7f",
+        "origin": "translated"
+      },
+      "fr": {
+        "hash": "e869f403b4530f7f",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "e869f403b4530f7f",
+        "origin": "translated"
+      }
     },
     "docs/drittsysteme/fairwalter.md": {
-      "en": "41601cc85848f0f8"
+      "en": {
+        "hash": "41601cc85848f0f8",
+        "origin": "adopted"
+      },
+      "fr": {
+        "hash": "41601cc85848f0f8",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "41601cc85848f0f8",
+        "origin": "translated"
+      }
     },
     "docs/drittsysteme/greenpocket.md": {
-      "en": "4c11868dafaa4c76"
+      "en": {
+        "hash": "4c11868dafaa4c76",
+        "origin": "adopted"
+      },
+      "fr": {
+        "hash": "4c11868dafaa4c76",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "4c11868dafaa4c76",
+        "origin": "translated"
+      }
     },
     "docs/drittsysteme/ibm-node-red.md": {
-      "en": "4dd8d1f3a5bb41d0"
+      "en": {
+        "hash": "4dd8d1f3a5bb41d0",
+        "origin": "adopted"
+      },
+      "fr": {
+        "hash": "4dd8d1f3a5bb41d0",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "4dd8d1f3a5bb41d0",
+        "origin": "translated"
+      }
     },
     "docs/drittsysteme/imovatec.md": {
-      "en": "5fccf4ab6dd5ebee"
+      "en": {
+        "hash": "5fccf4ab6dd5ebee",
+        "origin": "adopted"
+      },
+      "fr": {
+        "hash": "5fccf4ab6dd5ebee",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "5fccf4ab6dd5ebee",
+        "origin": "translated"
+      }
     },
     "docs/drittsysteme/index.md": {
-      "en": "b94271ea2fba5a20"
+      "en": {
+        "hash": "b94271ea2fba5a20",
+        "origin": "adopted"
+      },
+      "fr": {
+        "hash": "b94271ea2fba5a20",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "b94271ea2fba5a20",
+        "origin": "translated"
+      }
     },
     "docs/drittsysteme/limmobi.md": {
-      "en": "786c28407cda9ad1"
+      "en": {
+        "hash": "786c28407cda9ad1",
+        "origin": "adopted"
+      },
+      "fr": {
+        "hash": "786c28407cda9ad1",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "786c28407cda9ad1",
+        "origin": "translated"
+      }
     },
     "docs/drittsysteme/loxone.md": {
-      "en": "ee41cac09274e677"
+      "en": {
+        "hash": "ee41cac09274e677",
+        "origin": "adopted"
+      },
+      "fr": {
+        "hash": "ee41cac09274e677",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "ee41cac09274e677",
+        "origin": "translated"
+      }
     },
     "docs/drittsysteme/microsoft-excel.md": {
-      "en": "7117f9e4e5617f68"
+      "en": {
+        "hash": "7117f9e4e5617f68",
+        "origin": "adopted"
+      },
+      "fr": {
+        "hash": "7117f9e4e5617f68",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "7117f9e4e5617f68",
+        "origin": "translated"
+      }
+    },
+    "docs/drittsysteme/nebenkostenabrechnung.md": {
+      "en": {
+        "hash": "d0e6e4d7362bee30",
+        "origin": "translated"
+      },
+      "fr": {
+        "hash": "d0e6e4d7362bee30",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "d0e6e4d7362bee30",
+        "origin": "translated"
+      }
     },
     "docs/drittsysteme/piskelapp.md": {
-      "en": "2a724d1cb249f818"
+      "en": {
+        "hash": "2a724d1cb249f818",
+        "origin": "adopted"
+      },
+      "fr": {
+        "hash": "2a724d1cb249f818",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "2a724d1cb249f818",
+        "origin": "translated"
+      }
     },
     "docs/drittsysteme/smartfox.md": {
-      "en": "71b349961de9a3a1"
+      "en": {
+        "hash": "71b349961de9a3a1",
+        "origin": "adopted"
+      },
+      "fr": {
+        "hash": "71b349961de9a3a1",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "71b349961de9a3a1",
+        "origin": "translated"
+      }
     },
     "docs/drittsysteme/smartred.md": {
-      "en": "ab43a466a31e590c"
+      "en": {
+        "hash": "ab43a466a31e590c",
+        "origin": "adopted"
+      },
+      "fr": {
+        "hash": "ab43a466a31e590c",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "ab43a466a31e590c",
+        "origin": "translated"
+      }
     },
     "docs/drittsysteme/solarmanager.md": {
-      "en": "b1fd32223e29d407"
+      "en": {
+        "hash": "b1fd32223e29d407",
+        "origin": "adopted"
+      },
+      "fr": {
+        "hash": "b1fd32223e29d407",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "b1fd32223e29d407",
+        "origin": "translated"
+      }
     },
     "docs/drittsysteme/soleco.md": {
-      "en": "9c34e47d1a56e675"
+      "en": {
+        "hash": "9c34e47d1a56e675",
+        "origin": "adopted"
+      },
+      "fr": {
+        "hash": "9c34e47d1a56e675",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "9c34e47d1a56e675",
+        "origin": "translated"
+      }
     },
     "docs/drittsysteme/switzercloud-colibird.md": {
-      "en": "55dd1706ef8fd090"
+      "en": {
+        "hash": "55dd1706ef8fd090",
+        "origin": "adopted"
+      },
+      "fr": {
+        "hash": "55dd1706ef8fd090",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "55dd1706ef8fd090",
+        "origin": "translated"
+      }
     },
     "docs/drittsysteme/symcon.md": {
-      "en": "f02199d206c3d01a"
+      "en": {
+        "hash": "f02199d206c3d01a",
+        "origin": "adopted"
+      },
+      "fr": {
+        "hash": "f02199d206c3d01a",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "f02199d206c3d01a",
+        "origin": "translated"
+      }
     },
     "docs/drittsysteme/trueenergy-as.md": {
-      "en": "2c21e6b422218a7d"
+      "en": {
+        "hash": "2c21e6b422218a7d",
+        "origin": "adopted"
+      },
+      "fr": {
+        "hash": "2c21e6b422218a7d",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "2c21e6b422218a7d",
+        "origin": "translated"
+      }
     },
     "docs/drittsysteme/whatwatt.md": {
-      "en": "b98e192bff4417eb"
+      "en": {
+        "hash": "b98e192bff4417eb",
+        "origin": "adopted"
+      },
+      "fr": {
+        "hash": "b98e192bff4417eb",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "b98e192bff4417eb",
+        "origin": "translated"
+      }
     },
     "docs/drittsysteme/zaehlerfreunde.md": {
-      "en": "29b2bcf8b3668432"
+      "en": {
+        "hash": "29b2bcf8b3668432",
+        "origin": "adopted"
+      },
+      "fr": {
+        "hash": "29b2bcf8b3668432",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "29b2bcf8b3668432",
+        "origin": "translated"
+      }
     },
     "docs/drittsysteme/zerofy.md": {
-      "en": "d5131e1a943ab6b6"
+      "en": {
+        "hash": "d5131e1a943ab6b6",
+        "origin": "adopted"
+      },
+      "fr": {
+        "hash": "d5131e1a943ab6b6",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "d5131e1a943ab6b6",
+        "origin": "translated"
+      }
     },
     "docs/drittsysteme/zevvy.md": {
-      "en": "e65f0ea674296307"
+      "en": {
+        "hash": "e65f0ea674296307",
+        "origin": "adopted"
+      },
+      "fr": {
+        "hash": "e65f0ea674296307",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "e65f0ea674296307",
+        "origin": "translated"
+      }
     },
     "docs/index.md": {
-      "en": "8b712175d7e63f39"
+      "en": {
+        "hash": "8b712175d7e63f39",
+        "origin": "adopted"
+      },
+      "it": {
+        "hash": "8b712175d7e63f39",
+        "origin": "translated"
+      },
+      "fr": {
+        "hash": "8b712175d7e63f39",
+        "origin": "translated"
+      }
     },
     "docs/informationssicherheit/datensicherheit.md": {
-      "en": "7adc0c9f978f488f"
+      "en": {
+        "hash": "7adc0c9f978f488f",
+        "origin": "adopted"
+      },
+      "fr": {
+        "hash": "7adc0c9f978f488f",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "7adc0c9f978f488f",
+        "origin": "translated"
+      }
     },
     "docs/informationssicherheit/public-key-signature.md": {
-      "en": "ff4645861954d3ad"
+      "en": {
+        "hash": "ff4645861954d3ad",
+        "origin": "adopted"
+      },
+      "fr": {
+        "hash": "ff4645861954d3ad",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "ff4645861954d3ad",
+        "origin": "translated"
+      }
+    },
+    "docs/informationssicherheit/standardantworten.md": {
+      "en": {
+        "hash": "6bdb1ab3d7360c20",
+        "origin": "translated"
+      },
+      "fr": {
+        "hash": "6bdb1ab3d7360c20",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "6bdb1ab3d7360c20",
+        "origin": "translated"
+      }
     },
     "docs/informationssicherheit/zählertransaktionen.md": {
-      "en": "d205dfadc1c01d63"
+      "en": {
+        "hash": "d205dfadc1c01d63",
+        "origin": "adopted"
+      },
+      "fr": {
+        "hash": "d205dfadc1c01d63",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "d205dfadc1c01d63",
+        "origin": "translated"
+      }
     },
     "docs/konfiguration/applab.md": {
-      "en": "660b38c0c34a4e54"
+      "en": {
+        "hash": "660b38c0c34a4e54",
+        "origin": "adopted"
+      },
+      "fr": {
+        "hash": "660b38c0c34a4e54",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "660b38c0c34a4e54",
+        "origin": "translated"
+      }
     },
     "docs/konfiguration/benutzerkonfiguration.md": {
-      "en": "6c8a20f3293b44aa"
+      "en": {
+        "hash": "6c8a20f3293b44aa",
+        "origin": "adopted"
+      },
+      "fr": {
+        "hash": "6c8a20f3293b44aa",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "6c8a20f3293b44aa",
+        "origin": "translated"
+      }
     },
     "docs/konfiguration/billing/index.md": {
-      "en": "a77469814a89fce6"
+      "en": {
+        "hash": "a77469814a89fce6",
+        "origin": "adopted"
+      },
+      "fr": {
+        "hash": "a77469814a89fce6",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "a77469814a89fce6",
+        "origin": "translated"
+      }
     },
     "docs/konfiguration/billing/mieterstrom/index.md": {
-      "en": "12a284a37b8573f8"
+      "en": {
+        "hash": "12a284a37b8573f8",
+        "origin": "adopted"
+      },
+      "fr": {
+        "hash": "12a284a37b8573f8",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "12a284a37b8573f8",
+        "origin": "translated"
+      }
+    },
+    "docs/konfiguration/billing/mieterstrom/mkd3-messkonzept-nicht-teilnehmer.md": {
+      "en": {
+        "hash": "9a317f91c8dcafd4",
+        "origin": "translated"
+      },
+      "fr": {
+        "hash": "9a317f91c8dcafd4",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "9a317f91c8dcafd4",
+        "origin": "translated"
+      }
+    },
+    "docs/konfiguration/billing/mieterstrom/standard-messkonzept.md": {
+      "en": {
+        "hash": "e0617a8c46cc0f06",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "e0617a8c46cc0f06",
+        "origin": "translated"
+      },
+      "fr": {
+        "hash": "e0617a8c46cc0f06",
+        "origin": "translated"
+      }
+    },
+    "docs/konfiguration/billing/mwst-zev-nebenkosten.md": {
+      "en": {
+        "hash": "ce8a51b2be0345fa",
+        "origin": "translated"
+      },
+      "fr": {
+        "hash": "ce8a51b2be0345fa",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "ce8a51b2be0345fa",
+        "origin": "translated"
+      }
     },
     "docs/konfiguration/billing/stromtarife-definieren/index.md": {
-      "en": "c5458afde4bd0c7b"
+      "en": {
+        "hash": "c5458afde4bd0c7b",
+        "origin": "adopted"
+      },
+      "fr": {
+        "hash": "c5458afde4bd0c7b",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "c5458afde4bd0c7b",
+        "origin": "translated"
+      }
+    },
+    "docs/konfiguration/billing/stromtarife-definieren/stromtarif-rechner.md": {
+      "en": {
+        "hash": "cd3cdd43937a6bf7",
+        "origin": "translated"
+      },
+      "fr": {
+        "hash": "cd3cdd43937a6bf7",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "cd3cdd43937a6bf7",
+        "origin": "translated"
+      }
     },
     "docs/konfiguration/billing/vewa-abrechnung.md": {
-      "en": "b8ab24e5b6d0ee45"
+      "en": {
+        "hash": "b8ab24e5b6d0ee45",
+        "origin": "adopted"
+      },
+      "fr": {
+        "hash": "b8ab24e5b6d0ee45",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "b8ab24e5b6d0ee45",
+        "origin": "translated"
+      }
     },
     "docs/konfiguration/billing/virtuelle-zaehler.md": {
-      "en": "cb08eb93d9ae35d1"
+      "en": {
+        "hash": "cb08eb93d9ae35d1",
+        "origin": "adopted"
+      },
+      "fr": {
+        "hash": "cb08eb93d9ae35d1",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "cb08eb93d9ae35d1",
+        "origin": "translated"
+      }
     },
     "docs/konfiguration/firmware-update.md": {
-      "en": "111f137bff5eb5e4"
+      "en": {
+        "hash": "111f137bff5eb5e4",
+        "origin": "adopted"
+      },
+      "fr": {
+        "hash": "111f137bff5eb5e4",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "111f137bff5eb5e4",
+        "origin": "translated"
+      }
+    },
+    "docs/konfiguration/inbetriebnahme/inbetriebnahme-lora/dragino-lps8n.md": {
+      "en": {
+        "hash": "ce24f8030336eb01",
+        "origin": "translated"
+      },
+      "fr": {
+        "hash": "ce24f8030336eb01",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "ce24f8030336eb01",
+        "origin": "translated"
+      }
     },
     "docs/konfiguration/inbetriebnahme/inbetriebnahme-lora/index.md": {
-      "en": "fdf9cba1f69152b0"
+      "en": {
+        "hash": "fdf9cba1f69152b0",
+        "origin": "adopted"
+      },
+      "it": {
+        "hash": "fdf9cba1f69152b0",
+        "origin": "translated"
+      },
+      "fr": {
+        "hash": "fdf9cba1f69152b0",
+        "origin": "translated"
+      }
+    },
+    "docs/konfiguration/inbetriebnahme/inbetriebnahme-lora/kerlink-wirnet-ifemtocell-evolution.md": {
+      "en": {
+        "hash": "34032bcb118a189c",
+        "origin": "translated"
+      },
+      "fr": {
+        "hash": "34032bcb118a189c",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "34032bcb118a189c",
+        "origin": "translated"
+      }
+    },
+    "docs/konfiguration/inbetriebnahme/inbetriebnahme-lora/milesight-ug56-868mhz.md": {
+      "en": {
+        "hash": "35ca9dfe610b365c",
+        "origin": "translated"
+      },
+      "fr": {
+        "hash": "35ca9dfe610b365c",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "35ca9dfe610b365c",
+        "origin": "translated"
+      }
+    },
+    "docs/konfiguration/inbetriebnahme/inbetriebnahme-lora/sensecap-m2.md": {
+      "en": {
+        "hash": "2a245b6b263cc1a4",
+        "origin": "translated"
+      },
+      "fr": {
+        "hash": "2a245b6b263cc1a4",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "2a245b6b263cc1a4",
+        "origin": "translated"
+      }
+    },
+    "docs/konfiguration/inbetriebnahme/inbetriebnahme-lora/wisgate-edge-lite-2.md": {
+      "en": {
+        "hash": "b1e6c8c428deddf7",
+        "origin": "translated"
+      },
+      "fr": {
+        "hash": "b1e6c8c428deddf7",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "b1e6c8c428deddf7",
+        "origin": "translated"
+      }
     },
     "docs/konfiguration/inbetriebnahme/index.md": {
-      "en": "23383f3dbfa8a9b1"
+      "en": {
+        "hash": "23383f3dbfa8a9b1",
+        "origin": "adopted"
+      },
+      "fr": {
+        "hash": "23383f3dbfa8a9b1",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "23383f3dbfa8a9b1",
+        "origin": "translated"
+      }
     },
     "docs/konfiguration/inbetriebnahme/pico-konfiguration.md": {
-      "en": "37bd4777a1886e35"
+      "en": {
+        "hash": "37bd4777a1886e35",
+        "origin": "adopted"
+      },
+      "fr": {
+        "hash": "37bd4777a1886e35",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "37bd4777a1886e35",
+        "origin": "translated"
+      }
     },
     "docs/konfiguration/inbetriebnahme/zaehler-loeschen.md": {
-      "en": "b71b49a8f739535e"
+      "en": {
+        "hash": "b71b49a8f739535e",
+        "origin": "adopted"
+      },
+      "fr": {
+        "hash": "b71b49a8f739535e",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "b71b49a8f739535e",
+        "origin": "translated"
+      }
+    },
+    "docs/konfiguration/installer-app-anleitung.md": {
+      "en": {
+        "hash": "03fa38c8af62d319",
+        "origin": "translated"
+      },
+      "fr": {
+        "hash": "03fa38c8af62d319",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "03fa38c8af62d319",
+        "origin": "translated"
+      }
     },
     "docs/konfiguration/multilevel-lastmanagement/index.md": {
-      "en": "b5f1cf00e2fa52e3"
+      "en": {
+        "hash": "b5f1cf00e2fa52e3",
+        "origin": "adopted"
+      },
+      "fr": {
+        "hash": "b5f1cf00e2fa52e3",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "b5f1cf00e2fa52e3",
+        "origin": "translated"
+      }
     },
     "docs/konfiguration/multilevel-lastmanagement/mlm-konfigurieren.md": {
-      "en": "683b27d31df4a3a0"
+      "en": {
+        "hash": "683b27d31df4a3a0",
+        "origin": "adopted"
+      },
+      "fr": {
+        "hash": "683b27d31df4a3a0",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "683b27d31df4a3a0",
+        "origin": "translated"
+      }
     },
     "docs/konfiguration/my-dashboards.md": {
-      "en": "86dbd877965cc489"
+      "en": {
+        "hash": "86dbd877965cc489",
+        "origin": "adopted"
+      },
+      "fr": {
+        "hash": "86dbd877965cc489",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "86dbd877965cc489",
+        "origin": "translated"
+      }
     },
     "docs/konfiguration/ordnerkonfiguration/index.md": {
-      "en": "c20ee63871c5a18f"
+      "en": {
+        "hash": "c20ee63871c5a18f",
+        "origin": "adopted"
+      },
+      "fr": {
+        "hash": "c20ee63871c5a18f",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "c20ee63871c5a18f",
+        "origin": "translated"
+      }
+    },
+    "docs/konfiguration/ordnerkonfiguration/nur-strom.md": {
+      "en": {
+        "hash": "647fe3122c2dfef0",
+        "origin": "translated"
+      },
+      "fr": {
+        "hash": "647fe3122c2dfef0",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "647fe3122c2dfef0",
+        "origin": "translated"
+      }
+    },
+    "docs/konfiguration/ordnerkonfiguration/strom-und-eine-heizung.md": {
+      "en": {
+        "hash": "01794df85c4a9206",
+        "origin": "translated"
+      },
+      "fr": {
+        "hash": "01794df85c4a9206",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "01794df85c4a9206",
+        "origin": "translated"
+      }
+    },
+    "docs/konfiguration/ordnerkonfiguration/strom-und-mehrere-heizungen.md": {
+      "en": {
+        "hash": "f863fb4ce4980bd0",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "f863fb4ce4980bd0",
+        "origin": "translated"
+      },
+      "fr": {
+        "hash": "f863fb4ce4980bd0",
+        "origin": "translated"
+      }
+    },
+    "docs/konfiguration/technische-tools.md": {
+      "en": {
+        "hash": "3102b9f74d406952",
+        "origin": "translated"
+      },
+      "fr": {
+        "hash": "3102b9f74d406952",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "3102b9f74d406952",
+        "origin": "translated"
+      }
+    },
+    "docs/konfiguration/visualisierung.md": {
+      "en": {
+        "hash": "c86badda72cee49a",
+        "origin": "translated"
+      },
+      "fr": {
+        "hash": "c86badda72cee49a",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "c86badda72cee49a",
+        "origin": "translated"
+      }
     },
     "docs/konfiguration/wenndann-aktionen/alarme.md": {
-      "en": "0133a1e23430a5dc"
+      "en": {
+        "hash": "0133a1e23430a5dc",
+        "origin": "adopted"
+      },
+      "fr": {
+        "hash": "0133a1e23430a5dc",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "0133a1e23430a5dc",
+        "origin": "translated"
+      }
     },
     "docs/konfiguration/wenndann-aktionen/beispiel-boilersteuerung.md": {
-      "en": "5c37517d20b92fc7"
+      "en": {
+        "hash": "5c37517d20b92fc7",
+        "origin": "adopted"
+      },
+      "it": {
+        "hash": "5c37517d20b92fc7",
+        "origin": "translated"
+      },
+      "fr": {
+        "hash": "5c37517d20b92fc7",
+        "origin": "translated"
+      }
     },
     "docs/konfiguration/wenndann-aktionen/ereignisaktionen.md": {
-      "en": "96d7da26b03aee46"
+      "en": {
+        "hash": "96d7da26b03aee46",
+        "origin": "adopted"
+      },
+      "fr": {
+        "hash": "96d7da26b03aee46",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "96d7da26b03aee46",
+        "origin": "translated"
+      }
     },
     "docs/konfiguration/wenndann-aktionen/index.md": {
-      "en": "0f06182c102fe3cd"
+      "en": {
+        "hash": "0f06182c102fe3cd",
+        "origin": "adopted"
+      },
+      "fr": {
+        "hash": "0f06182c102fe3cd",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "0f06182c102fe3cd",
+        "origin": "translated"
+      }
+    },
+    "docs/konfiguration/wenndann-aktionen/tarifzeiten-definieren.md": {
+      "en": {
+        "hash": "06f1c0121ac47f65",
+        "origin": "translated"
+      },
+      "fr": {
+        "hash": "06f1c0121ac47f65",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "06f1c0121ac47f65",
+        "origin": "translated"
+      }
     },
     "docs/kontakt.md": {
-      "en": "b2d31db6afc73825"
+      "en": {
+        "hash": "b2d31db6afc73825",
+        "origin": "adopted"
+      },
+      "fr": {
+        "hash": "b2d31db6afc73825",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "b2d31db6afc73825",
+        "origin": "translated"
+      }
+    },
+    "docs/news/app-release-notes.md": {
+      "en": {
+        "hash": "93f1693c72c72474",
+        "origin": "translated"
+      },
+      "fr": {
+        "hash": "93f1693c72c72474",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "93f1693c72c72474",
+        "origin": "translated"
+      }
     },
     "docs/news/firmware-release-notes.md": {
-      "en": "69b7cce81ea9780a"
+      "en": {
+        "hash": "69b7cce81ea9780a",
+        "origin": "adopted"
+      },
+      "it": {
+        "hash": "69b7cce81ea9780a",
+        "origin": "translated"
+      },
+      "fr": {
+        "hash": "69b7cce81ea9780a",
+        "origin": "translated"
+      }
+    },
+    "docs/news/status/index.md": {
+      "en": {
+        "hash": "a19b1cc5e109f004",
+        "origin": "translated"
+      },
+      "fr": {
+        "hash": "a19b1cc5e109f004",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "a19b1cc5e109f004",
+        "origin": "translated"
+      }
+    },
+    "docs/news/status/pico-4g-ausfall.md": {
+      "en": {
+        "hash": "a93d8df5d3975bfa",
+        "origin": "translated"
+      },
+      "fr": {
+        "hash": "a93d8df5d3975bfa",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "a93d8df5d3975bfa",
+        "origin": "translated"
+      }
+    },
+    "docs/nutzeranleitungen/mieter.md": {
+      "en": {
+        "hash": "6e354e6a0e3727f0",
+        "origin": "translated"
+      },
+      "fr": {
+        "hash": "6e354e6a0e3727f0",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "6e354e6a0e3727f0",
+        "origin": "translated"
+      }
+    },
+    "docs/nutzeranleitungen/verwalter.md": {
+      "en": {
+        "hash": "b78bfc3fa683decd",
+        "origin": "translated"
+      },
+      "fr": {
+        "hash": "b78bfc3fa683decd",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "b78bfc3fa683decd",
+        "origin": "translated"
+      }
     },
     "docs/planung/Messkonzept-Notstromloesung.md": {
-      "en": "a3f1beb8960810df"
+      "en": {
+        "hash": "a3f1beb8960810df",
+        "origin": "adopted"
+      },
+      "fr": {
+        "hash": "a3f1beb8960810df",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "a3f1beb8960810df",
+        "origin": "translated"
+      }
+    },
+    "docs/planung/Projektkonfigurator.md": {
+      "en": {
+        "hash": "6628911221348634",
+        "origin": "translated"
+      },
+      "fr": {
+        "hash": "6628911221348634",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "6628911221348634",
+        "origin": "translated"
+      }
     },
     "docs/planung/abrechnung-vorbereiten.md": {
-      "en": "12120d867857c2bd"
+      "en": {
+        "hash": "12120d867857c2bd",
+        "origin": "adopted"
+      },
+      "fr": {
+        "hash": "12120d867857c2bd",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "12120d867857c2bd",
+        "origin": "translated"
+      }
     },
     "docs/planung/cloud-lizenzen.md": {
-      "en": "d0bcdf364a1cf3f4"
+      "en": {
+        "hash": "d0bcdf364a1cf3f4",
+        "origin": "adopted"
+      },
+      "fr": {
+        "hash": "d0bcdf364a1cf3f4",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "d0bcdf364a1cf3f4",
+        "origin": "translated"
+      }
     },
     "docs/planung/e-mobility.md": {
-      "en": "17421a5449115b11"
+      "en": {
+        "hash": "17421a5449115b11",
+        "origin": "adopted"
+      },
+      "fr": {
+        "hash": "17421a5449115b11",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "17421a5449115b11",
+        "origin": "translated"
+      }
+    },
+    "docs/planung/elektromobilitaet/drittanbieter-zev-und-pico.md": {
+      "en": {
+        "hash": "e350829b50c8127b",
+        "origin": "translated"
+      },
+      "fr": {
+        "hash": "e350829b50c8127b",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "e350829b50c8127b",
+        "origin": "translated"
+      }
     },
     "docs/planung/elektromobilitaet/index.md": {
-      "en": "5dc167e47b75451a"
+      "en": {
+        "hash": "5dc167e47b75451a",
+        "origin": "adopted"
+      },
+      "fr": {
+        "hash": "5dc167e47b75451a",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "5dc167e47b75451a",
+        "origin": "translated"
+      }
+    },
+    "docs/planung/elektromobilitaet/smart-me-zev-und-fremdstationen.md": {
+      "en": {
+        "hash": "f762cd9b20c5c6c2",
+        "origin": "translated"
+      },
+      "fr": {
+        "hash": "f762cd9b20c5c6c2",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "f762cd9b20c5c6c2",
+        "origin": "translated"
+      }
+    },
+    "docs/planung/elektromobilitaet/smart-me-zev-und-pico.md": {
+      "en": {
+        "hash": "ed07330788e0a90d",
+        "origin": "translated"
+      },
+      "fr": {
+        "hash": "ed07330788e0a90d",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "ed07330788e0a90d",
+        "origin": "translated"
+      }
     },
     "docs/planung/index.md": {
-      "en": "5442b92914cb0ae5"
+      "en": {
+        "hash": "5442b92914cb0ae5",
+        "origin": "adopted"
+      },
+      "fr": {
+        "hash": "5442b92914cb0ae5",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "5442b92914cb0ae5",
+        "origin": "translated"
+      }
     },
     "docs/planung/internetverbindung.md": {
-      "en": "c1a6fc11f23d4306"
+      "en": {
+        "hash": "c1a6fc11f23d4306",
+        "origin": "adopted"
+      },
+      "fr": {
+        "hash": "c1a6fc11f23d4306",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "c1a6fc11f23d4306",
+        "origin": "translated"
+      }
+    },
+    "docs/planung/investitionsrechner.md": {
+      "en": {
+        "hash": "48be12d42599dd36",
+        "origin": "translated"
+      },
+      "fr": {
+        "hash": "48be12d42599dd36",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "48be12d42599dd36",
+        "origin": "translated"
+      }
+    },
+    "docs/planung/leg-lokale-energie-gemeinschaft.md": {
+      "en": {
+        "hash": "3601e6c87dd01686",
+        "origin": "translated"
+      },
+      "fr": {
+        "hash": "3601e6c87dd01686",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "3601e6c87dd01686",
+        "origin": "translated"
+      }
     },
     "docs/planung/messkonzept-produzenten-hinter-haeuser.md": {
-      "en": "494bf334c44b360a"
+      "en": {
+        "hash": "494bf334c44b360a",
+        "origin": "adopted"
+      },
+      "it": {
+        "hash": "494bf334c44b360a",
+        "origin": "translated"
+      },
+      "fr": {
+        "hash": "494bf334c44b360a",
+        "origin": "translated"
+      }
     },
     "docs/planung/minergie.md": {
-      "en": "11bfdd13d1bd556b"
+      "en": {
+        "hash": "11bfdd13d1bd556b",
+        "origin": "adopted"
+      },
+      "fr": {
+        "hash": "11bfdd13d1bd556b",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "11bfdd13d1bd556b",
+        "origin": "translated"
+      }
     },
     "docs/planung/vertrag-rechtliches.md": {
-      "en": "d20e5ea8911a3972"
+      "en": {
+        "hash": "d20e5ea8911a3972",
+        "origin": "adopted"
+      },
+      "fr": {
+        "hash": "d20e5ea8911a3972",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "d20e5ea8911a3972",
+        "origin": "translated"
+      }
     },
     "docs/planung/virtuelle-zev-vzev.md": {
-      "en": "c96ffc7ef97c3179"
+      "en": {
+        "hash": "c96ffc7ef97c3179",
+        "origin": "adopted"
+      },
+      "fr": {
+        "hash": "c96ffc7ef97c3179",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "c96ffc7ef97c3179",
+        "origin": "translated"
+      }
     },
     "docs/planung/zertifizierungen.md": {
-      "en": "1f3d54e6b8c45d2b"
+      "en": {
+        "hash": "1f3d54e6b8c45d2b",
+        "origin": "adopted"
+      },
+      "fr": {
+        "hash": "1f3d54e6b8c45d2b",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "1f3d54e6b8c45d2b",
+        "origin": "translated"
+      }
+    },
+    "docs/planung/zev-zusammenschluss-zum-eigenverbrauch.md": {
+      "en": {
+        "hash": "9178d56a195061da",
+        "origin": "translated"
+      },
+      "fr": {
+        "hash": "9178d56a195061da",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "9178d56a195061da",
+        "origin": "translated"
+      }
+    },
+    "docs/produkte/1-phasen-zaehler-32a.md": {
+      "en": {
+        "hash": "32bb678a7dea2824",
+        "origin": "translated"
+      },
+      "fr": {
+        "hash": "32bb678a7dea2824",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "32bb678a7dea2824",
+        "origin": "translated"
+      }
     },
     "docs/produkte/1-phasen-zaehler.md": {
-      "en": "6c8491e2158e4e9a"
+      "en": {
+        "hash": "6c8491e2158e4e9a",
+        "origin": "adopted"
+      },
+      "fr": {
+        "hash": "6c8491e2158e4e9a",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "6c8491e2158e4e9a",
+        "origin": "translated"
+      }
     },
     "docs/produkte/3-phasen-zähler.md": {
-      "en": "5ad6284f382ec855"
+      "en": {
+        "hash": "5ad6284f382ec855",
+        "origin": "adopted"
+      },
+      "fr": {
+        "hash": "5ad6284f382ec855",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "5ad6284f382ec855",
+        "origin": "translated"
+      }
     },
     "docs/produkte/Telstar-CT.md": {
-      "en": "038f5b5b50518947"
+      "en": {
+        "hash": "038f5b5b50518947",
+        "origin": "adopted"
+      },
+      "fr": {
+        "hash": "038f5b5b50518947",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "038f5b5b50518947",
+        "origin": "translated"
+      }
     },
     "docs/produkte/eingestellte-produkte.md": {
-      "en": "71460e8cdbfe1a02"
+      "en": {
+        "hash": "71460e8cdbfe1a02",
+        "origin": "adopted"
+      },
+      "fr": {
+        "hash": "71460e8cdbfe1a02",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "71460e8cdbfe1a02",
+        "origin": "translated"
+      }
     },
     "docs/produkte/index.md": {
-      "en": "68790aa1c3cc01d2"
+      "en": {
+        "hash": "68790aa1c3cc01d2",
+        "origin": "adopted"
+      },
+      "fr": {
+        "hash": "68790aa1c3cc01d2",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "68790aa1c3cc01d2",
+        "origin": "translated"
+      }
     },
     "docs/produkte/kamstrup-modul.md": {
-      "en": "99c2d5ebb263ee2e"
+      "en": {
+        "hash": "99c2d5ebb263ee2e",
+        "origin": "adopted"
+      },
+      "fr": {
+        "hash": "99c2d5ebb263ee2e",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "99c2d5ebb263ee2e",
+        "origin": "translated"
+      }
     },
     "docs/produkte/landis-gyr-modul.md": {
-      "en": "ccf1e8f2de04c9eb"
+      "en": {
+        "hash": "ccf1e8f2de04c9eb",
+        "origin": "adopted"
+      },
+      "fr": {
+        "hash": "ccf1e8f2de04c9eb",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "ccf1e8f2de04c9eb",
+        "origin": "translated"
+      }
+    },
+    "docs/produkte/lora-gateway-software.md": {
+      "en": {
+        "hash": "a04d6d2ac2a82ffe",
+        "origin": "translated"
+      },
+      "fr": {
+        "hash": "a04d6d2ac2a82ffe",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "a04d6d2ac2a82ffe",
+        "origin": "translated"
+      }
     },
     "docs/produkte/m-bus-gateway.md": {
-      "en": "66463c7b5e192c47"
+      "en": {
+        "hash": "66463c7b5e192c47",
+        "origin": "adopted"
+      },
+      "fr": {
+        "hash": "66463c7b5e192c47",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "66463c7b5e192c47",
+        "origin": "translated"
+      }
     },
     "docs/produkte/nimbus.md": {
-      "en": "0a6d9bcc4551209d"
+      "en": {
+        "hash": "0a6d9bcc4551209d",
+        "origin": "adopted"
+      },
+      "fr": {
+        "hash": "0a6d9bcc4551209d",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "0a6d9bcc4551209d",
+        "origin": "translated"
+      }
     },
     "docs/produkte/pico-ladestation-exa.md": {
-      "en": "19e1f1e7d3dd3d8b"
+      "en": {
+        "hash": "19e1f1e7d3dd3d8b",
+        "origin": "adopted"
+      },
+      "fr": {
+        "hash": "19e1f1e7d3dd3d8b",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "19e1f1e7d3dd3d8b",
+        "origin": "translated"
+      }
     },
     "docs/produkte/pico-ladestation/index.md": {
-      "en": "962f2b76d19c4b27"
+      "en": {
+        "hash": "962f2b76d19c4b27",
+        "origin": "adopted"
+      },
+      "fr": {
+        "hash": "962f2b76d19c4b27",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "962f2b76d19c4b27",
+        "origin": "translated"
+      }
+    },
+    "docs/produkte/pico-ladestation/installationsplanung.md": {
+      "en": {
+        "hash": "ed203d8ada6343bc",
+        "origin": "translated"
+      },
+      "fr": {
+        "hash": "ed203d8ada6343bc",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "ed203d8ada6343bc",
+        "origin": "translated"
+      }
+    },
+    "docs/produkte/pico-ladestation/materialempfehlung-rcd-typ-a.md": {
+      "en": {
+        "hash": "5268cc99c28f0f7e",
+        "origin": "translated"
+      },
+      "fr": {
+        "hash": "5268cc99c28f0f7e",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "5268cc99c28f0f7e",
+        "origin": "translated"
+      }
     },
     "docs/produkte/pico-ladestation/pico-display.md": {
-      "en": "90be65ce3952bf66"
+      "en": {
+        "hash": "90be65ce3952bf66",
+        "origin": "adopted"
+      },
+      "fr": {
+        "hash": "90be65ce3952bf66",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "90be65ce3952bf66",
+        "origin": "translated"
+      }
     },
     "docs/produkte/pico-ladestation/pico-lastmanagement.md": {
-      "en": "8577fe4378bff3b8"
+      "en": {
+        "hash": "8577fe4378bff3b8",
+        "origin": "adopted"
+      },
+      "fr": {
+        "hash": "8577fe4378bff3b8",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "8577fe4378bff3b8",
+        "origin": "translated"
+      }
     },
     "docs/produkte/pico-ladestation/pico-standfuss.md": {
-      "en": "70b853e9f67a5bef"
+      "en": {
+        "hash": "70b853e9f67a5bef",
+        "origin": "adopted"
+      },
+      "fr": {
+        "hash": "70b853e9f67a5bef",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "70b853e9f67a5bef",
+        "origin": "translated"
+      }
     },
     "docs/produkte/pico-ladestation/pico-zubehör.md": {
-      "en": "f92f1f3782f4cb0b"
+      "en": {
+        "hash": "f92f1f3782f4cb0b",
+        "origin": "adopted"
+      },
+      "fr": {
+        "hash": "f92f1f3782f4cb0b",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "f92f1f3782f4cb0b",
+        "origin": "translated"
+      }
     },
     "docs/produkte/plug.md": {
-      "en": "a5ce0f3abd8b944f"
+      "en": {
+        "hash": "a5ce0f3abd8b944f",
+        "origin": "adopted"
+      },
+      "fr": {
+        "hash": "a5ce0f3abd8b944f",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "a5ce0f3abd8b944f",
+        "origin": "translated"
+      }
     },
     "docs/produkte/smart-eye.md": {
-      "en": "3e24c9ba98fabcff"
+      "en": {
+        "hash": "3e24c9ba98fabcff",
+        "origin": "adopted"
+      },
+      "fr": {
+        "hash": "3e24c9ba98fabcff",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "3e24c9ba98fabcff",
+        "origin": "translated"
+      }
     },
     "docs/produkte/telstar.md": {
-      "en": "9bf3e6575d2d6c6b"
+      "en": {
+        "hash": "9bf3e6575d2d6c6b",
+        "origin": "adopted"
+      },
+      "fr": {
+        "hash": "9bf3e6575d2d6c6b",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "9bf3e6575d2d6c6b",
+        "origin": "translated"
+      }
     },
     "docs/rma-antragsformulare.md": {
-      "en": "23fa397713dc5925"
+      "en": {
+        "hash": "23fa397713dc5925",
+        "origin": "adopted"
+      },
+      "fr": {
+        "hash": "23fa397713dc5925",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "23fa397713dc5925",
+        "origin": "translated"
+      }
     },
     "docs/schnittstellen/ai-connector.md": {
-      "en": "c1f01778d5422acb"
+      "en": {
+        "hash": "c1f01778d5422acb",
+        "origin": "adopted"
+      },
+      "it": {
+        "hash": "c1f01778d5422acb",
+        "origin": "translated"
+      },
+      "fr": {
+        "hash": "c1f01778d5422acb",
+        "origin": "translated"
+      }
     },
     "docs/schnittstellen/api.md": {
-      "en": "18c90532905a228e"
+      "en": {
+        "hash": "18c90532905a228e",
+        "origin": "adopted"
+      },
+      "fr": {
+        "hash": "18c90532905a228e",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "18c90532905a228e",
+        "origin": "translated"
+      }
     },
     "docs/schnittstellen/auto-export.md": {
-      "en": "2b856463bfbebfef"
+      "en": {
+        "hash": "2b856463bfbebfef",
+        "origin": "adopted"
+      },
+      "fr": {
+        "hash": "2b856463bfbebfef",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "2b856463bfbebfef",
+        "origin": "translated"
+      }
+    },
+    "docs/schnittstellen/dta-vhka-files/AbaImmo.md": {
+      "en": {
+        "hash": "9d3a6962d064e075",
+        "origin": "translated"
+      },
+      "fr": {
+        "hash": "9d3a6962d064e075",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "9d3a6962d064e075",
+        "origin": "translated"
+      }
+    },
+    "docs/schnittstellen/dta-vhka-files/Garaio-REM.md": {
+      "en": {
+        "hash": "24bbf1b46aaf8059",
+        "origin": "translated"
+      },
+      "fr": {
+        "hash": "24bbf1b46aaf8059",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "24bbf1b46aaf8059",
+        "origin": "translated"
+      }
+    },
+    "docs/schnittstellen/dta-vhka-files/Immotop2.md": {
+      "en": {
+        "hash": "927ec0abcefefdfb",
+        "origin": "translated"
+      },
+      "fr": {
+        "hash": "927ec0abcefefdfb",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "927ec0abcefefdfb",
+        "origin": "translated"
+      }
     },
     "docs/schnittstellen/dta-vhka-files/index.md": {
-      "en": "15a5f594b1fb99d7"
+      "en": {
+        "hash": "15a5f594b1fb99d7",
+        "origin": "adopted"
+      },
+      "fr": {
+        "hash": "15a5f594b1fb99d7",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "15a5f594b1fb99d7",
+        "origin": "translated"
+      }
     },
     "docs/schnittstellen/ebix-datenimport.md": {
-      "en": "a2aec2f8fbf0490b"
+      "en": {
+        "hash": "a2aec2f8fbf0490b",
+        "origin": "adopted"
+      },
+      "fr": {
+        "hash": "a2aec2f8fbf0490b",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "a2aec2f8fbf0490b",
+        "origin": "translated"
+      }
     },
     "docs/schnittstellen/ein_und_ausgaenge.md": {
-      "en": "e091edbb3b120ea9"
+      "en": {
+        "hash": "e091edbb3b120ea9",
+        "origin": "adopted"
+      },
+      "fr": {
+        "hash": "e091edbb3b120ea9",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "e091edbb3b120ea9",
+        "origin": "translated"
+      }
+    },
+    "docs/schnittstellen/ladestation-15-minuten-import.md": {
+      "en": {
+        "hash": "122ef95ea46c6c17",
+        "origin": "translated"
+      },
+      "fr": {
+        "hash": "122ef95ea46c6c17",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "122ef95ea46c6c17",
+        "origin": "translated"
+      }
     },
     "docs/schnittstellen/minergie-exporter.md": {
-      "en": "3c2d2bda03a59dfc"
+      "en": {
+        "hash": "3c2d2bda03a59dfc",
+        "origin": "adopted"
+      },
+      "it": {
+        "hash": "3c2d2bda03a59dfc",
+        "origin": "translated"
+      },
+      "fr": {
+        "hash": "3c2d2bda03a59dfc",
+        "origin": "translated"
+      }
     },
     "docs/schnittstellen/modbus-tcp.md": {
-      "en": "2d13251d16e6ab31"
+      "en": {
+        "hash": "2d13251d16e6ab31",
+        "origin": "adopted"
+      },
+      "fr": {
+        "hash": "2d13251d16e6ab31",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "2d13251d16e6ab31",
+        "origin": "translated"
+      }
+    },
+    "docs/schnittstellen/p1-schnittstelle.md": {
+      "en": {
+        "hash": "36998431b5849760",
+        "origin": "translated"
+      },
+      "fr": {
+        "hash": "36998431b5849760",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "36998431b5849760",
+        "origin": "translated"
+      }
     },
     "docs/schnittstellen/swisseldex-sdat-import.md": {
-      "en": "e799886e6f8e50af"
+      "en": {
+        "hash": "e799886e6f8e50af",
+        "origin": "adopted"
+      },
+      "fr": {
+        "hash": "e799886e6f8e50af",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "e799886e6f8e50af",
+        "origin": "translated"
+      }
+    },
+    "docs/stoerungsbehebung/auto-export-fehler.md": {
+      "en": {
+        "hash": "715224651c3fb9e5",
+        "origin": "translated"
+      },
+      "fr": {
+        "hash": "715224651c3fb9e5",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "715224651c3fb9e5",
+        "origin": "translated"
+      }
     },
     "docs/stoerungsbehebung/billing-fehlermeldungen.md": {
-      "en": "7f02764cde78beda"
+      "en": {
+        "hash": "7f02764cde78beda",
+        "origin": "adopted"
+      },
+      "fr": {
+        "hash": "7f02764cde78beda",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "7f02764cde78beda",
+        "origin": "translated"
+      }
+    },
+    "docs/stoerungsbehebung/csv-zahlen-richtig-formatieren.md": {
+      "en": {
+        "hash": "7b60d09ae1a5f06f",
+        "origin": "translated"
+      },
+      "fr": {
+        "hash": "7b60d09ae1a5f06f",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "7b60d09ae1a5f06f",
+        "origin": "translated"
+      }
     },
     "docs/stoerungsbehebung/differenzen-mit-dem-ew.md": {
-      "en": "738cbe6fc5558d0a"
+      "en": {
+        "hash": "738cbe6fc5558d0a",
+        "origin": "adopted"
+      },
+      "fr": {
+        "hash": "738cbe6fc5558d0a",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "738cbe6fc5558d0a",
+        "origin": "translated"
+      }
     },
     "docs/stoerungsbehebung/mbus-gateway-stoerungen.md": {
-      "en": "5bf81f244ab77153"
+      "en": {
+        "hash": "5bf81f244ab77153",
+        "origin": "adopted"
+      },
+      "fr": {
+        "hash": "5bf81f244ab77153",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "5bf81f244ab77153",
+        "origin": "translated"
+      }
+    },
+    "docs/stoerungsbehebung/multilevel-lastmanagement-fehlermeldung.md": {
+      "en": {
+        "hash": "3e4500923b2af9d4",
+        "origin": "translated"
+      },
+      "fr": {
+        "hash": "3e4500923b2af9d4",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "3e4500923b2af9d4",
+        "origin": "translated"
+      }
     },
     "docs/stoerungsbehebung/pico-fehler.md": {
-      "en": "958e7a1465c04eac"
+      "en": {
+        "hash": "958e7a1465c04eac",
+        "origin": "adopted"
+      },
+      "fr": {
+        "hash": "958e7a1465c04eac",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "958e7a1465c04eac",
+        "origin": "translated"
+      }
+    },
+    "docs/stoerungsbehebung/systemgesundheit.md": {
+      "en": {
+        "hash": "1d4b6089985ee31d",
+        "origin": "translated"
+      },
+      "fr": {
+        "hash": "1d4b6089985ee31d",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "1d4b6089985ee31d",
+        "origin": "translated"
+      }
     },
     "docs/stoerungsbehebung/telstar-ct-inbetriebnahmefehler.md": {
-      "en": "8da8909522d7a807"
+      "en": {
+        "hash": "8da8909522d7a807",
+        "origin": "adopted"
+      },
+      "fr": {
+        "hash": "8da8909522d7a807",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "8da8909522d7a807",
+        "origin": "translated"
+      }
+    },
+    "docs/stoerungsbehebung/virtueller-zähler-fehler.md": {
+      "en": {
+        "hash": "48448ef085284760",
+        "origin": "translated"
+      },
+      "fr": {
+        "hash": "48448ef085284760",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "48448ef085284760",
+        "origin": "translated"
+      }
     },
     "docs/stoerungsbehebung/visualisierungsfehler.md": {
-      "en": "e9645244e101b7bc"
+      "en": {
+        "hash": "e9645244e101b7bc",
+        "origin": "adopted"
+      },
+      "fr": {
+        "hash": "e9645244e101b7bc",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "e9645244e101b7bc",
+        "origin": "translated"
+      }
     },
     "docs/stoerungsbehebung/zaehler-offline.md": {
-      "en": "06422d308713628b"
+      "en": {
+        "hash": "06422d308713628b",
+        "origin": "adopted"
+      },
+      "fr": {
+        "hash": "06422d308713628b",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "06422d308713628b",
+        "origin": "translated"
+      }
+    },
+    "docs/support-ki-agent.md": {
+      "it": {
+        "hash": "60d925682d372a33",
+        "origin": "translated"
+      },
+      "en": {
+        "hash": "60d925682d372a33",
+        "origin": "translated"
+      },
+      "fr": {
+        "hash": "60d925682d372a33",
+        "origin": "translated"
+      }
     }
   }
 }

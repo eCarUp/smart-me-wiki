@@ -23,7 +23,7 @@ Funktionen
 
 ### 1\. Bexio aktivieren
 
-1.  Öffne das smart-me Billing - Test
+1.  Öffne das smart-me Billing
 
 2.  Wähle "Konfiguration" und die Liegenschaft aus
 

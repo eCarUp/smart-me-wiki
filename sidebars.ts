@@ -271,6 +271,13 @@ const sidebars: SidebarsConfig = {
         'informationssicherheit/standardantworten',
       ],
     },
+    {
+      type: 'category',
+      label: 'ZZ_MS Test',
+       items: [
+        'ZZ_MS Test/TestMs',
+      ],
+    },
     'rma-antragsformulare',
     {
       type: 'category',

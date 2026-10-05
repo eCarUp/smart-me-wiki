@@ -274,8 +274,10 @@ const sidebars: SidebarsConfig = {
     {
       type: 'category',
       label: 'ZZ_MS Test',
-       items: [
+      items: [
         'ZZ_MS Test/TestMs',
+        'ZZ_MS Test/MSTestCopy',
+        'ZZ_MS Test/ClaudeTest',
       ],
     },
     'rma-antragsformulare',

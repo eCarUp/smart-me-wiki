@@ -178,7 +178,7 @@ function claudeCommand(): {command: string; args: string[]; shell: boolean} {
     '--max-turns',
     '2',
     '--disallowed-tools',
-    'Read,Write,Edit,Glob,Grep,WebFetch,WebSearch,Task,TodoWrite,NotebookEdit',
+    'Bash,Read,Write,Edit,Glob,Grep,WebFetch,WebSearch,Task,TodoWrite,NotebookEdit',
   ];
   if (process.env.CLAUDE_MODEL) args.push('--model', process.env.CLAUDE_MODEL);
   return {command, args, shell: process.platform === 'win32'};

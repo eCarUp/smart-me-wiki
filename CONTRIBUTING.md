@@ -85,6 +85,82 @@ Fertig. Jemand aus dem Team schaut drüber und klickt auf „Merge". Danach ist 
 
 ---
 
+## Überschriften
+
+Eine Überschrift schreibst du mit Rauten am Zeilenanfang, Leerzeichen dahinter,
+und mit einer Leerzeile davor und danach:
+
+```markdown
+## Inbetriebnahme
+
+Einleitender Text zum Abschnitt.
+
+### Station anmelden
+
+Text zum Unterabschnitt.
+```
+
+| Schreibweise | Wofür |
+| --- | --- |
+| `#` | **nie verwenden** — der Seitentitel kommt aus `title` im Kopfbereich |
+| `##` | Hauptabschnitt einer Seite |
+| `###` | Unterabschnitt |
+
+Der Titel der Seite steht im Kopfbereich und wird oben automatisch als grosse
+Überschrift gesetzt. Schreibst du zusätzlich ein `#` in den Text, steht der
+Titel zweimal da. Im ganzen Wiki beginnt deshalb keine Seite mit `#`.
+
+**Keine Ebene überspringen.** Nach `##` kommt `###`, nicht gleich eine tiefere
+Ebene. Reicht `##` und `###` nicht aus, ist die Seite meistens zu lang und
+gehört aufgeteilt.
+
+### Das Inhaltsverzeichnis rechts
+
+Alle `##`- und `###`-Überschriften erscheinen automatisch im
+Inhaltsverzeichnis am rechten Rand. Das ist der Hauptgrund, eine echte
+Überschrift zu schreiben und keinen **fettgedruckten Satz**: Fettschrift sieht
+ähnlich aus, taucht aber in der Navigation nicht auf und lässt sich nicht
+verlinken.
+
+Umgekehrt gilt: nicht jeder Absatz braucht eine Überschrift. Ein
+Inhaltsverzeichnis mit zwanzig Einträgen hilft niemandem.
+
+### Auf eine Überschrift verlinken
+
+Jede Überschrift bekommt automatisch eine Sprungmarke, abgeleitet aus ihrem
+Text: alles klein, Leerzeichen werden zu Bindestrichen, Satzzeichen und
+Klammern fallen weg. Umlaute bleiben erhalten.
+
+| Überschrift | Sprungmarke |
+| --- | --- |
+| `## Konfiguration des Lastabwurfs` | `#konfiguration-des-lastabwurfs` |
+| `### Lastabwurf (externe Eingänge)` | `#lastabwurf-externe-eingänge` |
+| `## Wie deaktiviere ich meinen Zähler?` | `#wie-deaktiviere-ich-meinen-zähler` |
+
+Verlinkt wird mit dem Slug der Zielseite plus Sprungmarke, auf derselben Seite
+reicht die Sprungmarke allein:
+
+```markdown
+[Lastabwurf konfigurieren](/konfiguration/multilevel-lastmanagement/mlm-konfigurieren#konfiguration-des-lastabwurfs)
+
+[weiter unten auf dieser Seite](#technische-daten)
+```
+
+> **Änderst du eine Überschrift, ändert sich ihre Sprungmarke.** Alle Links, die
+> darauf zeigen, laufen danach ins Leere. Vor dem Umbenennen einmal suchen, wer
+> darauf verlinkt — im Repository oben rechts über die Suche nach der alten
+> Sprungmarke.
+
+### Was nicht funktioniert
+
+- **Keine eigenen IDs** wie `## Titel {#feste-id}`. Die geschweiften Klammern
+  haben in unserem System eine besondere Bedeutung und brechen den Build.
+- **Überschriften gehören nicht in ein Spaltenraster.** Steht eine Überschrift
+  innerhalb eines `<div className="row">`, fehlt sie im Inhaltsverzeichnis.
+  Schreib sie über den Block.
+
+---
+
 ## Ein Bild hinzufügen
 
 Bilder liegen unter `static/img/<seiten-slug>/`. Der Ordnername entspricht dem

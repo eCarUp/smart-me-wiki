@@ -75,7 +75,33 @@ Die Konfiguration ist hier im Detail abgehandelt: [Pico Konfiguration](/konfigur
 
 ## Technische Daten
 
-<Embed src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTmxJQ_thhwYfeefD_1PLiscIfGqbt-LrSa8pwwFBKwlmze109NOEt8Eyka2lroJoGS_FRiuGgtiAhh/pubhtml?gid=0&range=A1:B26&single=true&widget=false&headers=false&chrome=false" aspect="1.733" title="Technische Daten der Pico Ladestation" />
+| Merkmal | Wert |
+| --- | --- |
+| Maximale Ladeleistung | 22 kW bei 32A dreiphasig<br />7.36 kW bei 32A einphasig |
+| Smart Meter | Integrierter Stromzähler (MID, CH Lastgang, DE Eichrecht) inkl. Security Prozessor |
+| Phasenausgleich | Automatischer Phasenausgleich |
+| Lastmanagement | Automatisches Lastmanagement über mehrere Stationen |
+| Identifikation | Automatische Erkennung und Identifikation des Autos<br />RFID / NFC Reader (JEWEL, MIFARE, FELICA, ISO14443, NFC_DEP, ISO14443_B, ISO15693) |
+| Kommunikation | WLAN IEEE 802.11 b/g/n (2.4 GHz) und LTE Cat-M1 inkl. SIM und Datentraffic für 10 Jahre von 1nce, Modbus TCP, OCPP-J 1.6 |
+| Cloud Anbindung | Anbindung an smart-me und eCarUp Cloud |
+| Sicherheit | Ab BJ 2024, SN 7002702: RCD Typ-A (30mA AC) IEC 60947-2 + RDC-DD 6mA DC IEC 62955<br />Vor BJ 2024, bis SN 7002701: RDC-DD (30mA AC, 6mA DC) IEC 62955 |
+| Temperaturbereich | -25°C bis +40°C |
+| Netzspannung | 3x230/400V (+/- 10%) 50Hz |
+| Ladebuchse | IEC 62196-2 Typ 2 |
+| Schutzart | IP55 (Innen- und Aussenbereich) |
+| Stossfestigkeitsgrad | IK10 |
+| Umgebungsbedingungen | M1, E2 |
+| Lastabwurf | 2 potentialfreie Eingänge (4 Zustände):<br />Vlow: ≤ 2V AC/DC<br />Vhigh: ≥ 12V AC/DC<br />Vmax: 48VDC/230VAC |
+| S0-Ausgang | 10'000 Imp/kWh |
+| Stromanschluss | oben, unten, hinten |
+| Installationsart | Stromschiene, Flachbandkabel, sternförmig |
+| Abmessungen | L:300 mm B:220 mm H:112 mm |
+| Gewicht inkl. Montageplatte | 3.8 kg |
+| Kabelquerschnitt | min. 2.5 mm², max. 10 mm², oder 6.5 mm Durchmesser mit Aderendhülse |
+| Kabeldurchmesser | 10-20 mm |
+| Serverstandort | Schweiz |
+
+_Stand: 03.06.2026 · Quelle: [Technische Daten Pico](https://docs.google.com/spreadsheets/d/e/2PACX-1vTmxJQ_thhwYfeefD_1PLiscIfGqbt-LrSa8pwwFBKwlmze109NOEt8Eyka2lroJoGS_FRiuGgtiAhh/pubhtml?gid=0&single=true)_
 
 [Download Datenblatt (.pdf)](https://docs.google.com/presentation/d/1tq5HPM2mc4Br8264vKs_yjMv4HauvtQM0A0DY87EMks/export/pdf)
 

@@ -1,5 +1,47 @@
 {
   "docs": {
+    "docs/ZZ_MS Test/ClaudeTest.md": {
+      "it": {
+        "hash": "2313c5094f4dbbe7",
+        "origin": "translated"
+      },
+      "en": {
+        "hash": "2313c5094f4dbbe7",
+        "origin": "translated"
+      },
+      "fr": {
+        "hash": "2313c5094f4dbbe7",
+        "origin": "translated"
+      }
+    },
+    "docs/ZZ_MS Test/MSTestCopy.md": {
+      "en": {
+        "hash": "1b026b305f3419a4",
+        "origin": "translated"
+      },
+      "fr": {
+        "hash": "1b026b305f3419a4",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "1b026b305f3419a4",
+        "origin": "translated"
+      }
+    },
+    "docs/ZZ_MS Test/TestMs.md": {
+      "en": {
+        "hash": "26a1ab1d34f32d3a",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "26a1ab1d34f32d3a",
+        "origin": "translated"
+      },
+      "fr": {
+        "hash": "26a1ab1d34f32d3a",
+        "origin": "translated"
+      }
+    },
     "docs/drittprodukte/Stromwandler.md": {
       "en": {
         "hash": "d18129f63595cf2e",

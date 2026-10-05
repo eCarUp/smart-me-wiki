@@ -590,6 +590,60 @@ npm run build
 Der Build baut alle vier Sprachen und bricht bei einem einzigen defekten
 internen Link ab. Läuft er lokal durch, läuft er auch auf GitHub durch.
 
+### Übersetzungen lokal starten
+
+Normalerweise brauchst du das nicht: Sobald deine Änderung auf `main` liegt,
+übersetzt GitHub automatisch. Lokal lohnt es sich nur, wenn du vorher sehen
+willst, was dabei herauskommt.
+
+Die Übersetzung läuft über die Claude-Code-Kommandozeile. Die musst du
+**einmalig** installieren und dich **einmalig anmelden**:
+
+```bash
+npm install -g @anthropic-ai/claude-code
+claude auth login
+```
+
+Es öffnet sich ein Browserfenster. Danach prüfen, ob es geklappt hat:
+
+```bash
+claude auth status --text
+```
+
+Die Anmeldung gilt für deinen Benutzer, nicht für einen bestimmten Ordner —
+einmal genügt. Sie ist unabhängig davon, ob du in VS Code oder in der
+Claude-App angemeldet bist; die Kommandozeile hat ihre eigene Anmeldung.
+
+Dann übersetzen:
+
+| Befehl | Wirkung |
+| --- | --- |
+| `npm run translate` | nur geänderte und fehlende Seiten |
+| `npm run translate -- --list` | nur anzeigen, was zu tun wäre |
+| `npm run translate -- --locale fr --limit 1 --concurrency 1` | eine einzelne Seite, zum Ausprobieren |
+| `npm run translate -- --all` | alles neu, nach einer Änderung am Glossar |
+
+Fang mit der dritten Zeile an. Ein Lauf dauert pro Seite rund eine Minute, und
+wenn etwas klemmt, siehst du es bei einer Seite schneller als bei hundert.
+
+**Wenn es fehlschlägt**, steht der Grund am Ende jeder Zeile:
+
+| Meldung | Was zu tun ist |
+| --- | --- |
+| `Not logged in · Please run /login` | `claude auth login` ausführen |
+| `Die Claude-Code-CLI wurde nicht gefunden` | mit dem Befehl oben installieren |
+| `Zeitüberschreitung nach 300s` | mit `--concurrency 1` wiederholen |
+| `Die Antwort beginnt nicht mit dem Frontmatter` | die Seite wurde nicht angefasst, einfach nochmal laufen lassen |
+
+Ein fehlgeschlagener Lauf hinterlässt keinen Schaden: Nur fertig übersetzte
+Seiten werden geschrieben, der Rest bleibt, wie er war.
+
+> **Für die Entwicklung:** Der automatische Lauf auf GitHub braucht ein
+> Repository-Secret namens `CLAUDE_CODE_OAUTH_TOKEN`. Erzeugt wird es mit
+> `claude setup-token` und unter *Settings → Secrets and variables → Actions*
+> eingetragen. Ohne das Secret scheitert der Lauf auf GitHub mit derselben
+> Meldung „Not logged in".
+
 ---
 
 ## Was du **nicht** tun sollst

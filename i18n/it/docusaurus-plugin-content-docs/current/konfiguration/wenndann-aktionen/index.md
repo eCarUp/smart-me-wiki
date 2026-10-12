@@ -68,7 +68,7 @@ Le azioni se/allora vengono salvate nel cloud e funzionano quindi solo se il dis
 
 Sono disponibili i seguenti eventi se (attivatori):
 
-![Valore di misura maggiore / minore](/img/konfiguration-wenndann-aktionen/02.png)
+![Valore di misura maggiore / minore](/img/konfiguration-wenndann-aktionen/02_EN.png)
 
 Valore di misura maggiore/minore
 

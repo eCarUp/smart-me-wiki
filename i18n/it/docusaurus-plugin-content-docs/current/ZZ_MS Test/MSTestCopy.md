@@ -180,7 +180,7 @@ Il conduttore di protezione dovrebbe essere collegato alla vite di collegamento 
 </div>
 <div className="col col--5 text--center">
 
-![Stazione di ricarica Pico – Figura 3](/img/produkte-pico-ladestation/03.jpg)
+![Stazione di ricarica Pico – Figura 3](/img/produkte-pico-ladestation/03_EN.jpg)
 
 </div>
 </div>
@@ -222,7 +222,7 @@ COM è il conduttore neutro. In presenza del segnale ON, IN1 e IN2 devono essere
 </div>
 <div className="col col--5 text--center">
 
-![Stazione di ricarica Pico – Figura 5](/img/produkte-pico-ladestation/05.png)
+![Stazione di ricarica Pico – Figura 5](/img/produkte-pico-ladestation/05_EN.png)
 
 </div>
 </div>

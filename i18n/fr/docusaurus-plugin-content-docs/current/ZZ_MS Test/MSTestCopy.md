@@ -180,7 +180,7 @@ Le conducteur de protection doit être raccordé à la vis de raccordement supé
 </div>
 <div className="col col--5 text--center">
 
-![Borne de recharge Pico – Illustration 3](/img/produkte-pico-ladestation/03.jpg)
+![Borne de recharge Pico – Illustration 3](/img/produkte-pico-ladestation/03_EN.jpg)
 
 </div>
 </div>
@@ -222,7 +222,7 @@ COM est le conducteur neutre. IN1 et IN2 doivent être alimentées en tension lo
 </div>
 <div className="col col--5 text--center">
 
-![Borne de recharge Pico – Illustration 5](/img/produkte-pico-ladestation/05.png)
+![Borne de recharge Pico – Illustration 5](/img/produkte-pico-ladestation/05_EN.png)
 
 </div>
 </div>

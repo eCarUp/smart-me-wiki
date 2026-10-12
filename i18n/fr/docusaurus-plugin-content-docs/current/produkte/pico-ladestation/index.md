@@ -142,7 +142,7 @@ Le comportement de l'écran est décrit sur la page [Affichage Pico](/produkte/p
 
 ## Raccordements et dimensions de Pico
 
-![Borne de recharge Pico – Illustration 3](/img/produkte-pico-ladestation/03.jpg)
+![Borne de recharge Pico – Illustration 3](/img/produkte-pico-ladestation/03_EN.jpg)
 
 ### Schéma de raccordement
 
@@ -198,7 +198,7 @@ Le délestage peut être câblé soit sur tous les Pico, soit au minimum sur un 
 
 Le délestage peut également s'effectuer via la [gestion de la charge multiniveau](/konfiguration/multilevel-lastmanagement/mlm-konfigurieren#configuration-du-délestage) au moyen des signaux d'entrée du compteur.
 
-![Borne de recharge Pico – Illustration 5](/img/produkte-pico-ladestation/05.png)
+![Borne de recharge Pico – Illustration 5](/img/produkte-pico-ladestation/05_EN.png)
 
 ![Borne de recharge Pico – Illustration 6](/img/produkte-pico-ladestation/06.png)
 

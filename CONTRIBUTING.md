@@ -203,6 +203,17 @@ Mehr ist nicht zu tun. Die Seite unter `docs/` verweist unverändert auf
 Variante existiert. Fehlt sie, bleibt das deutsche Bild stehen. Du kannst also
 mit den zwei, drei Bildern anfangen, bei denen es wirklich stört.
 
+**Englisch gilt als Rückfall.** Legst du nur `03_EN.png` an, erscheint es auch
+auf der französischen und der italienischen Seite. Erst wenn du dort zusätzlich
+`03_FR.png` hinterlegst, geht die französische Fassung eigene Wege. In den
+meisten Fällen genügt also eine einzige englische Variante.
+
+| vorhanden | englische Seite | französische Seite | italienische Seite |
+| --- | --- | --- | --- |
+| nichts | `03.png` | `03.png` | `03.png` |
+| `03_EN.png` | `03_EN.png` | `03_EN.png` | `03_EN.png` |
+| `03_EN.png`, `03_FR.png` | `03_EN.png` | `03_FR.png` | `03_EN.png` |
+
 Drei Regeln:
 
 - Die Datei **ohne** Suffix ist die deutsche. Ein `_DE` gibt es nicht.

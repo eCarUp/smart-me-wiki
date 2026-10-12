@@ -33,6 +33,12 @@
  *   Nachsicht funktionierte eine Variante lokal und fehlte in der
  *   Veröffentlichung.
  * - `docs/` wird nie angefasst, ausschliesslich `i18n/`.
+ *
+ * Rückfallkette: Französisch und Italienisch nehmen das englische Bild, wenn es
+ * keine eigene Fassung gibt. Eine englisch beschriftete Zeichnung ist auf einer
+ * französischen Seite näher dran als eine deutsche, und die meisten Varianten
+ * entstehen ohnehin zuerst auf Englisch. Gibt es auch kein `_EN`, bleibt das
+ * deutsche Bild stehen.
  */
 import {readFile, readdir, writeFile} from 'node:fs/promises';
 import {existsSync, readdirSync, statSync} from 'node:fs';
@@ -45,6 +51,20 @@ export const STATIC_ROOT = 'static';
 
 /** Markdown-Bild: `![Alt](/img/ordner/03.png)`. Nur `/img/…` ist gemeint. */
 const IMAGE_PATTERN = /!\[([^\]]*)\]\((\/img\/[^)\s]+)\)/g;
+
+/**
+ * In welcher Reihenfolge je Sprache nach einer Variante gesucht wird.
+ *
+ * Englisch ist für Französisch und Italienisch der Rückfall: Wer ein Bild
+ * lokalisiert, macht fast immer zuerst die englische Fassung, und eine englisch
+ * beschriftete Abbildung ist auf einer französischen Seite verständlicher als
+ * eine deutsche. Greift nichts davon, bleibt das deutsche Bild.
+ */
+const FALLBACK_CHAIN: Record<Locale, readonly Locale[]> = {
+  en: ['en'],
+  fr: ['fr', 'en'],
+  it: ['it', 'en'],
+};
 
 type Replacement = {file: string; from: string; to: string};
 type Stale = {variant: string; original: string; originalNewer: boolean};
@@ -101,7 +121,11 @@ export function withoutLocaleSuffix(imagePath: string): string {
   );
 }
 
-/** Aus `/img/ordner/03.png` und `en` wird `/img/ordner/03_EN.png` – wenn es die Datei gibt. */
+/**
+ * Aus `/img/ordner/03.png` und `fr` wird `/img/ordner/03_FR.png` – und wenn es
+ * die nicht gibt, `/img/ordner/03_EN.png`. Fehlt auch die, bleibt es beim
+ * deutschen Bild (Rückgabe `undefined`).
+ */
 export function variantFor(
   imagePath: string,
   locale: Locale,
@@ -115,9 +139,13 @@ export function variantFor(
   // Lauf mehrfach ausführbar, ohne `03_EN_EN.png` zu erzeugen.
   if (new RegExp(`_(${TARGET_LOCALES.join('|')})$`, 'i').test(base)) return undefined;
 
-  const wanted = `${base}_${locale.toUpperCase()}.${extension}`;
-  const onDisk = index.resolve(join(STATIC_ROOT, directory.slice(1)), wanted);
-  return onDisk ? `${directory}${onDisk}` : undefined;
+  const directoryOnDisk = join(STATIC_ROOT, directory.slice(1));
+  for (const candidate of FALLBACK_CHAIN[locale] ?? [locale]) {
+    const wanted = `${base}_${candidate.toUpperCase()}.${extension}`;
+    const onDisk = index.resolve(directoryOnDisk, wanted);
+    if (onDisk) return `${directory}${onDisk}`;
+  }
+  return undefined;
 }
 
 /**

@@ -52,7 +52,14 @@ const sidebars: SidebarsConfig = {
         'planung/Projektkonfigurator',
         'planung/zev-zusammenschluss-zum-eigenverbrauch',
         'planung/virtuelle-zev-vzev',
-        'planung/leg-lokale-energie-gemeinschaft',
+        {
+          type: 'category',
+          label: 'LEG - Lokale Elektrizitätsgemeinschaft',
+          link: {type: 'doc', id: 'planung/leg-lokale-elektrizitaetsgemeinschaft/index'},
+          items: [
+            'planung/leg-lokale-elektrizitaetsgemeinschaft/leg-rechner',
+          ],
+        },
         {
           type: 'category',
           label: 'Elektromobilität',
@@ -269,15 +276,6 @@ const sidebars: SidebarsConfig = {
         'informationssicherheit/zählertransaktionen',
         'informationssicherheit/public-key-signature',
         'informationssicherheit/standardantworten',
-      ],
-    },
-    {
-      type: 'category',
-      label: 'ZZ_MS Test',
-      items: [
-        'ZZ_MS Test/TestMs',
-        'ZZ_MS Test/MSTestCopy',
-        'ZZ_MS Test/ClaudeTest',
       ],
     },
     'rma-antragsformulare',

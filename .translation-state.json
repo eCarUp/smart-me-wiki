@@ -1,47 +1,5 @@
 {
   "docs": {
-    "docs/ZZ_MS Test/ClaudeTest.md": {
-      "it": {
-        "hash": "2313c5094f4dbbe7",
-        "origin": "translated"
-      },
-      "en": {
-        "hash": "2313c5094f4dbbe7",
-        "origin": "translated"
-      },
-      "fr": {
-        "hash": "2313c5094f4dbbe7",
-        "origin": "translated"
-      }
-    },
-    "docs/ZZ_MS Test/MSTestCopy.md": {
-      "en": {
-        "hash": "a3475b3a145f5ff6",
-        "origin": "translated"
-      },
-      "fr": {
-        "hash": "a3475b3a145f5ff6",
-        "origin": "translated"
-      },
-      "it": {
-        "hash": "a3475b3a145f5ff6",
-        "origin": "translated"
-      }
-    },
-    "docs/ZZ_MS Test/TestMs.md": {
-      "en": {
-        "hash": "26a1ab1d34f32d3a",
-        "origin": "translated"
-      },
-      "it": {
-        "hash": "26a1ab1d34f32d3a",
-        "origin": "translated"
-      },
-      "fr": {
-        "hash": "26a1ab1d34f32d3a",
-        "origin": "translated"
-      }
-    },
     "docs/drittprodukte/Stromwandler.md": {
       "en": {
         "hash": "d18129f63595cf2e",
@@ -1341,20 +1299,6 @@
       },
       "it": {
         "hash": "bae3428aa1010c5e",
-        "origin": "translated"
-      }
-    },
-    "docs/planung/leg-lokale-energie-gemeinschaft.md": {
-      "en": {
-        "hash": "3601e6c87dd01686",
-        "origin": "translated"
-      },
-      "fr": {
-        "hash": "3601e6c87dd01686",
-        "origin": "translated"
-      },
-      "it": {
-        "hash": "3601e6c87dd01686",
         "origin": "translated"
       }
     },

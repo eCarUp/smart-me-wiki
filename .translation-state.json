@@ -1302,6 +1302,34 @@
         "origin": "translated"
       }
     },
+    "docs/planung/leg-lokale-elektrizitaetsgemeinschaft/index.md": {
+      "en": {
+        "hash": "2809a6c3305342ec",
+        "origin": "translated"
+      },
+      "fr": {
+        "hash": "2809a6c3305342ec",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "2809a6c3305342ec",
+        "origin": "translated"
+      }
+    },
+    "docs/planung/leg-lokale-elektrizitaetsgemeinschaft/leg-rechner.md": {
+      "en": {
+        "hash": "7a543195118e7223",
+        "origin": "translated"
+      },
+      "fr": {
+        "hash": "7a543195118e7223",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "7a543195118e7223",
+        "origin": "translated"
+      }
+    },
     "docs/planung/messkonzept-produzenten-hinter-haeuser.md": {
       "en": {
         "hash": "494bf334c44b360a",

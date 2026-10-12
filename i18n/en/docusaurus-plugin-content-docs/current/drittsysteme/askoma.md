@@ -15,9 +15,9 @@ Supported products from Askoma:
 - Askoheat+
 
 
-![Askoma – figure 1](/img/_en/third-party-systems-askoma/01.png)
+![Askoma – figure 1](/img/drittsysteme-askoma/01.png)
 
-![Askoma – figure 2](/img/_en/third-party-systems-askoma/02.png)
+![Askoma – figure 2](/img/drittsysteme-askoma/02.png)
 
 ### Prerequisite
 
@@ -58,7 +58,7 @@ Settings on the Askoheat+:
 
 
 
-![Askoma – figure 3](/img/_en/third-party-systems-askoma/03.png)
+![Askoma – figure 3](/img/drittsysteme-askoma/05.png)
 
 ### Contact
 

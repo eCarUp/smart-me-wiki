@@ -179,8 +179,8 @@ With the pictures below you can easily find out if you are a professional user o
 
 In the billing part it decides mainly if you wish automatic data transport or which tariff system you prefer.
 
-![Cloud License – figure 1](/img/_en/planning-cloud-licence/01.png)
+![Cloud License – figure 1](/img/planung-cloud-lizenzen/01_EN.png)
 
 ### System-Control
 
-![Cloud License – figure 2](/img/_en/planning-cloud-licence/02.png)
+![Cloud License – figure 2](/img/planung-cloud-lizenzen/02_EN.png)

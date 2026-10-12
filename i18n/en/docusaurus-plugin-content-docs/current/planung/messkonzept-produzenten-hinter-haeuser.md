@@ -39,9 +39,9 @@ Balance, houses and, if available, general are measured.
 
 The measurement of PV is optional and offers no advantage for billing.
 
-![Measurement concept producers behind houses – figure 1](/img/_en/planning-measurement-concept-producers-behind-houses/01.png)
+![Measurement concept producers behind houses – figure 1](/img/planung-messkonzept-produzenten-hinter-haeuser/01.png)
 
-![Measurement concept producers behind houses – figure 2](/img/_en/planning-measurement-concept-producers-behind-houses/02.png)
+![Measurement concept producers behind houses – figure 2](/img/planung-messkonzept-produzenten-hinter-haeuser/02.png)
 
 ## Configuration
 
@@ -55,7 +55,7 @@ Name: Total consumption + production
 
 
 
-![Measurement concept producers behind houses – figure 3](/img/_en/planning-measurement-concept-producers-behind-houses/03.png)
+![Measurement concept producers behind houses – figure 3](/img/planung-messkonzept-produzenten-hinter-haeuser/03.png)
 
 Virtual tariffs
 
@@ -72,7 +72,7 @@ Deviation in the virtual tariff:
 - Balance meter: Main meter
 
 
-![Measurement concept producers behind houses – figure 4](/img/_en/planning-measurement-concept-producers-behind-houses/04.png)
+![Measurement concept producers behind houses – figure 4](/img/planung-messkonzept-produzenten-hinter-haeuser/04.png)
 
 ## Billing
 
@@ -106,16 +106,16 @@ Calculation logic
 - Proportional distribution according to surplus, averaged over the entire billing period
 
 
-![Measurement concept producers behind houses – figure 5](/img/_en/planning-measurement-concept-producers-behind-houses/05.png)
+![Measurement concept producers behind houses – figure 5](/img/planung-messkonzept-produzenten-hinter-haeuser/05.png)
 
 Complete other position
 
 Values according to the Excel credit note can be inserted as a minus amount for each billing unit.
 
-![Measurement concept producers behind houses – figure 6](/img/_en/planning-measurement-concept-producers-behind-houses/06.png)
+![Measurement concept producers behind houses – figure 6](/img/planung-messkonzept-produzenten-hinter-haeuser/06.png)
 
 Generate invoice again
 
 In smart-me Billing
 
-![Measurement concept producers behind houses – figure 7](/img/_en/planning-measurement-concept-producers-behind-houses/07.png)
+![Measurement concept producers behind houses – figure 7](/img/planung-messkonzept-produzenten-hinter-haeuser/07.png)

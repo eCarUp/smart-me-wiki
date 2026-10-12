@@ -19,7 +19,7 @@ Functions
 - Automatic payment reconciliation / automatic reminder
 
 
-![Bexio – figure 1](/img/_en/third-party-systems-bexio/01.jpg)
+![Bexio – figure 1](/img/drittsysteme-bexio/01.jpg)
 
 ### 1\. Activate Bexio
 
@@ -43,7 +43,7 @@ Functions
 - Account for Bexio entries: The Bexio account to which the items should be assigned.
 
 
-![Bexio – figure 2](/img/_en/third-party-systems-bexio/02.jpg)
+![Bexio – figure 2](/img/drittsysteme-bexio/02.jpg)
 
 ### 2\. Assign tenants
 
@@ -54,7 +54,7 @@ Functions
 3.  Select the contact from Bexio
 
 
-![Bexio – figure 3](/img/_en/third-party-systems-bexio/03.jpg)
+![Bexio – figure 3](/img/drittsysteme-bexio/03.jpg)
 
 ### 3\. Export invoice to Bexio
 
@@ -64,7 +64,7 @@ Create the invoices on a property
 
 smart-me Billing takes over the invoice number from Bexio (example: RE-1570 is the invoice with the number 1570 in smart-me).
 
-![Bexio – figure 4](/img/_en/third-party-systems-bexio/04.jpg)
+![Bexio – figure 4](/img/drittsysteme-bexio/04.jpg)
 
 ### 4\. Invoices in Bexio
 
@@ -75,11 +75,11 @@ The invoices have now been created in Bexio and can be processed further.
 2.  Call up invoices
 
 
-![Bexio – figure 5](/img/_en/third-party-systems-bexio/05.jpg)
+![Bexio – figure 5](/img/drittsysteme-bexio/05.jpg)
 
-![Bexio – figure 6](/img/_en/third-party-systems-bexio/06.jpg)
+![Bexio – figure 6](/img/drittsysteme-bexio/06.jpg)
 
-![Bexio – figure 7](/img/_en/third-party-systems-bexio/07.png)
+![Bexio – figure 7](/img/drittsysteme-bexio/11.png)
 
 Bexio AG
 

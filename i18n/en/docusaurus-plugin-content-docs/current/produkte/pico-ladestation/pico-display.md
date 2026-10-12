@@ -4,7 +4,7 @@ slug: '/produkte/pico-ladestation/pico-display'
 description: 'Procedure no active charge'
 sidebar_label: 'Pico display'
 ---
-![Pico display – figure 1](/img/_en/products-pico-ev-charger-pico-display/01.png)
+![Pico display – figure 1](/img/produkte-pico-ladestation-pico-display/01.png)
 
 [Pico EV Charger](/produkte/pico-ladestation)
 
@@ -57,7 +57,7 @@ After a faulty authentication, the pico switches to Procedure no active charge.
 
 ### Procedure start of charge
 
-![Pico display – figure 9](/img/_en/products-pico-ev-charger-pico-display/09.png)
+![Pico display – figure 9](/img/produkte-pico-ladestation-pico-display/14.png)
 
 Value / Symbol Description
 
@@ -65,7 +65,7 @@ Value / Symbol Description
 
 
 
-![Pico display – figure 10](/img/_en/products-pico-ev-charger-pico-display/10.png)
+![Pico display – figure 10](/img/produkte-pico-ladestation-pico-display/15.png)
 
 Value / Symbol Description
 
@@ -75,7 +75,7 @@ If the maximum charging current of the station is increased , it briefly display
 
 ### Procedure active charge
 
-![Pico display – figure 11](/img/_en/products-pico-ev-charger-pico-display/11.png)
+![Pico display – figure 11](/img/produkte-pico-ladestation-pico-display/16.png)
 
 Value / Symbol Description
 
@@ -85,7 +85,7 @@ kWh Unit of the displayed consumption
 
 Battery No meaning
 
-![Pico display – figure 12](/img/_en/products-pico-ev-charger-pico-display/12.png)
+![Pico display – figure 12](/img/produkte-pico-ladestation-pico-display/17.png)
 
 Value / Symbol Description
 
@@ -95,7 +95,7 @@ Value / Symbol Description
 
 00:05:13 Duration of active charge
 
-![Pico display – figure 13](/img/_en/products-pico-ev-charger-pico-display/13.png)
+![Pico display – figure 13](/img/produkte-pico-ladestation-pico-display/18.png)
 
 Value / Symbol Description
 
@@ -109,13 +109,13 @@ green = Car's charging current per phase. (1 pixel = 1A)
 
 ### Procedure ending the charge
 
-![Pico display – figure 14](/img/_en/products-pico-ev-charger-pico-display/14.png)
+![Pico display – figure 14](/img/produkte-pico-ladestation-pico-display/19.png)
 
 Value / Symbol Description
 
 32A Max allowed charging current 
 
-![Pico display – figure 15](/img/_en/products-pico-ev-charger-pico-display/15.png)
+![Pico display – figure 15](/img/produkte-pico-ladestation-pico-display/20.png)
 
 Value / Symbol Description
 
@@ -123,13 +123,13 @@ Value / Symbol Description
 
 
 
-![Pico display – figure 16](/img/_en/products-pico-ev-charger-pico-display/16.png)
+![Pico display – figure 16](/img/produkte-pico-ladestation-pico-display/21.png)
 
 Value / Symbol Description
 
 BYE Successfully logged off
 
-![Pico display – figure 17](/img/_en/products-pico-ev-charger-pico-display/17.png)
+![Pico display – figure 17](/img/produkte-pico-ladestation-pico-display/22.png)
 
 Value / Symbol Description
 
@@ -143,13 +143,13 @@ After logging off, the total consumption of the last charge is displayed for app
 
 This procedure describes the restart a station via the portal
 
-![Pico display – figure 18](/img/_en/products-pico-ev-charger-pico-display/16.png)
+![Pico display – figure 18](/img/produkte-pico-ladestation-pico-display/21.png)
 
 Value / Symbol Description
 
 BYE Successfully logged off
 
-![Pico display – figure 19](/img/_en/products-pico-ev-charger-pico-display/17.png)
+![Pico display – figure 19](/img/produkte-pico-ladestation-pico-display/22.png)
 
 Value / Symbol Description
 
@@ -157,11 +157,11 @@ Value / Symbol Description
 
  kWh Unit of the displayed consumption
 
-![Pico display – figure 20](/img/_en/products-pico-ev-charger-pico-display/20.png)
+![Pico display – figure 20](/img/produkte-pico-ladestation-pico-display/25.png)
 
 The screen remains black for approx. 20 sec.
 
-![Pico display – figure 21](/img/_en/products-pico-ev-charger-pico-display/21.png)
+![Pico display – figure 21](/img/produkte-pico-ladestation-pico-display/26.png)
 
 This is the first sign that the Pico is starting up.
 
@@ -184,7 +184,7 @@ Fatal flaw
 - Error 4: Problem with the RDC sensor
 
 
-![Pico display – figure 23](/img/_en/products-pico-ev-charger-pico-display/23.png)
+![Pico display – figure 23](/img/produkte-pico-ladestation-pico-display/28.png)
 
 SIM Error
 
@@ -214,7 +214,7 @@ P Limit
 
 
 
-![Pico display – figure 27](/img/_en/products-pico-ev-charger-pico-display/27.png)
+![Pico display – figure 27](/img/produkte-pico-ladestation-pico-display/32.png)
 
 Warn RDC
 
@@ -231,7 +231,7 @@ Reception Bar with X
 
 
 
-![Pico display – figure 29](/img/_en/products-pico-ev-charger-pico-display/29.png)
+![Pico display – figure 29](/img/produkte-pico-ladestation-pico-display/34.png)
 
 LED lights up orange/red in the upper right corner of the display
 
@@ -246,13 +246,13 @@ Using a flashlight, the user can flash the following
 
 code: Dark - Light - Dark - Light - Dark - Light -Dark - Light -Dark Each state must last between 1 and 4 seconds.
 
-![Pico display – figure 30](/img/_en/products-pico-ev-charger-pico-display/30.png)
+![Pico display – figure 30](/img/produkte-pico-ladestation-pico-display/35.png)
 
 Value / Symbol Description
 
 Dot Light sensor
 
-![Pico display – figure 31](/img/_en/products-pico-ev-charger-pico-display/31.png)
+![Pico display – figure 31](/img/produkte-pico-ladestation-pico-display/36.png)
 
 Value / Symbol Description
 M MID mode active
@@ -263,7 +263,7 @@ v 2.2 Version number of firmware
 
 CRC 4F55 Checksum of the firmware
 
-![Pico display – figure 32](/img/_en/products-pico-ev-charger-pico-display/32.png)
+![Pico display – figure 32](/img/produkte-pico-ladestation-pico-display/37.png)
 
 Value / Symbol Description
 
@@ -283,7 +283,7 @@ x4: Error display process (checksum)
 2x-3x: Error meter SOM (checksum)
 4x: error meter SOM (flash) Other: General error meter SOM 
 
-![Pico display – figure 33](/img/_en/products-pico-ev-charger-pico-display/33.png)
+![Pico display – figure 33](/img/produkte-pico-ladestation-pico-display/38.png)
 
 Value / Symbol Description
 

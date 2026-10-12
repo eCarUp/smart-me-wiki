@@ -151,7 +151,7 @@ Alternatively you can order a 3rd party foundation under the below link.
 
 [3rd party stand foundation](/drittprodukte/standfuss-fundamente)
 
-![Pico Stand – figure 9](/img/_en/products-pico-ev-charger-pico-stand/09.png)
+![Pico Stand – figure 9](/img/produkte-pico-ladestation-pico-standfuss/12.png)
 
 ## Downloads
 

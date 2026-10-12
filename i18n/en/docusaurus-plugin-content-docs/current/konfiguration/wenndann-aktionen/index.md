@@ -189,7 +189,7 @@ Then the test threshold is defined (threshold) and whether it is triggered when 
 
 A minimum time can also be specified.
 
-![If / Then Actions – figure 9](/img/_en/configuration-if-then-action/09.png)
+![If / Then Actions – figure 9](/img/konfiguration-wenndann-aktionen/10.png)
 
 ## Then-Actions
 

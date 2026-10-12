@@ -10,7 +10,7 @@ In the smart-me web portal, you will find several preset GIFs, but you can also 
 What is [Piskelapp.com](http://piskelapp.com)?
 Piskel is a free, web-based drawing program that makes it easy to create pixel art and animated GIFs. It runs directly in your browser, without installation, and offers a real-time preview where animations can be played back immediately. In addition to numerous drawing tools such as brushes, fill tools, shapes, and symmetry mode, you can design your own pixel images frame by frame. Finished animations can be exported as GIFs, sprite sheets, or individual PNG files.
 
-![Piskelapp – figure 1](/img/_en/third-party-systems-piskelapp/01.png)
+![Piskelapp – figure 1](/img/drittsysteme-piskelapp/01.png)
 
 ### Instructions for creating your own GIF
 
@@ -19,7 +19,7 @@ Piskel is a free, web-based drawing program that makes it easy to create pixel a
 - You will find the settings on the right – set the size to 32 × 32 pixels.
 
 
-![Piskelapp – figure 2](/img/_en/third-party-systems-piskelapp/02.png)
+![Piskelapp – figure 2](/img/drittsysteme-piskelapp/02.png)
 
 - Select the desired drawing tool and a color on the left.
 
@@ -34,7 +34,7 @@ Piskel is a free, web-based drawing program that makes it easy to create pixel a
 - Upload the GIF file to the smart-me web portal.
 
 
-![Piskelapp – figure 3](/img/_en/third-party-systems-piskelapp/03.png)
+![Piskelapp – figure 3](/img/drittsysteme-piskelapp/03.png)
 
 ### Instructions for converting GIFs
 

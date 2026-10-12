@@ -8,7 +8,7 @@ In smart-me, you can create new users and grant them corresponding read-only per
 
 This allows you to give tenants access to their data for as long as they reside in the property.
 
-![Creating users – figure 1](/img/_en/configuration-creating-users/01.png)
+![Creating users – figure 1](/img/konfiguration-benutzerkonfiguration/01_EN.png)
 
 To create new users, proceed as follows:
 
@@ -25,7 +25,7 @@ Please note that you must first [create folders](/konfiguration/ordnerkonfigurat
 5.  Use the mouse to drag the user to the folder to make it visible for this user.
 
 
-![Creating users – figure 2](/img/_en/configuration-creating-users/02.png)
+![Creating users – figure 2](/img/konfiguration-benutzerkonfiguration/02.png)
 
 ### Permission Level
 
@@ -35,7 +35,7 @@ Either only the explicit node or all sub-nodes can be shared.
 
 If a visualization that accesses meter data is used on the node, the user must be authorized to view the meter.
 
-![Creating users – figure 3](/img/_en/configuration-creating-users/03.png)
+![Creating users – figure 3](/img/konfiguration-benutzerkonfiguration/03_EN.png)
 
 ### Next step
 
@@ -51,6 +51,6 @@ See details on the configuration under: Visualization and Public Links
 
 The visualization is called:  "Simple Virtual Tariffs Apartment"
 
-![Creating users – figure 4](/img/_en/configuration-creating-users/04.png)
+![Creating users – figure 4](/img/konfiguration-benutzerkonfiguration/04.png)
 
 [Go to visualisations](https://doc.smart-me.com/configuration/visualisations)

@@ -6,7 +6,7 @@ sidebar_label: 'Pico errors'
 ---
 This page explains the known Pico errors.
 
-![Pico errors – figure 1](/img/_en/troubleshooting-pico-errors/01.png)
+![Pico errors – figure 1](/img/stoerungsbehebung-pico-fehler/01.png)
 
 ### Black screen (no screen displayed)
 
@@ -45,7 +45,7 @@ Action:
 - If the RCD is triggered, it may be an isolated case. If it occurs more frequently, please contact us. With the exception of the "IONIQ 5", this car sometimes triggers the RCD at the end of the charging process; as a manufacturer of charging stations, there is nothing we can do about this.
 
 
-![Pico errors – figure 2](/img/_en/troubleshooting-pico-errors/02.png)
+![Pico errors – figure 2](/img/stoerungsbehebung-pico-fehler/02.png)
 
 ### Warn RDC
 
@@ -80,7 +80,7 @@ Action:
 - If the error has been triggered, the station must be restarted to reset the error.
 
 
-![Pico errors – figure 3](/img/_en/troubleshooting-pico-errors/03.png)
+![Pico errors – figure 3](/img/stoerungsbehebung-pico-fehler/03_EN.png)
 
 ### Cable Lock Error
 
@@ -101,9 +101,9 @@ Display in the portal
 - Cable lock failed
 
 
-![Pico errors – figure 4](/img/_en/troubleshooting-pico-errors/04.png)
+![Pico errors – figure 4](/img/stoerungsbehebung-pico-fehler/04.png)
 
-![Pico errors – figure 5](/img/_en/troubleshooting-pico-errors/05.png)
+![Pico errors – figure 5](/img/stoerungsbehebung-pico-fehler/05.png)
 
 ### Error 1
 
@@ -123,7 +123,7 @@ Action: 
 
 Error description: Error 1
 
-![Pico errors – figure 6](/img/_en/troubleshooting-pico-errors/06.png)
+![Pico errors – figure 6](/img/stoerungsbehebung-pico-fehler/06.png)
 
 ### Error 2
 
@@ -143,7 +143,7 @@ Action: 
 
 Error description: Error 2
 
-![Pico errors – figure 7](/img/_en/troubleshooting-pico-errors/07.png)
+![Pico errors – figure 7](/img/stoerungsbehebung-pico-fehler/07.png)
 
 ### Error 3
 
@@ -163,7 +163,7 @@ Action: 
 
 Error description: Error 2
 
-![Pico errors – figure 8](/img/_en/troubleshooting-pico-errors/08.png)
+![Pico errors – figure 8](/img/stoerungsbehebung-pico-fehler/08.png)
 
 ### Error 4
 
@@ -181,7 +181,7 @@ Action:
 - See WARN RDC
 
 
-![Pico errors – figure 9](/img/_en/troubleshooting-pico-errors/09.png)
+![Pico errors – figure 9](/img/stoerungsbehebung-pico-fehler/09.png)
 
 ### P-Limit
 
@@ -192,7 +192,7 @@ Meaning:
 - Load shedding active: Power limited
 
 
-![Pico errors – figure 10](/img/_en/troubleshooting-pico-errors/10.png)
+![Pico errors – figure 10](/img/stoerungsbehebung-pico-fehler/10_EN.png)
 
 ### Diode Error
 
@@ -212,7 +212,7 @@ Action:
 - No action is necessary on the Pico. It can be used again as normal after 30 seconds.
 
 
-![Pico errors – figure 11](/img/_en/troubleshooting-pico-errors/11.png)
+![Pico errors – figure 11](/img/stoerungsbehebung-pico-fehler/11.png)
 
 ### Car does not load (bar is only one pixel wide and red)
 

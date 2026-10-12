@@ -21,17 +21,17 @@ Calculation of virtual tariffs
 
 Where can I find the error messages of the virtual tariff calculation. Login to the portal : Configuration --> Create bill --> Configuration --> Edit property --> Virtual tariffs --> Blue box
 
-![Billing error messages – figure 1](/img/_en/troubleshooting-billing-error-messages/01.png)
+![Billing error messages – figure 1](/img/stoerungsbehebung-billing-fehlermeldungen/01.png)
 
 Created invoices
 
 Where can I find the error messages and warnings of the created invoices. Login in the portal : Configuration --> Create invoice --> Configuration --> Edit property --> Invoices --> Invoices --> Orange error with warnings (Appears only when there is an error)
 
-![Billing error messages – figure 2](/img/_en/troubleshooting-billing-error-messages/02.png)
+![Billing error messages – figure 2](/img/stoerungsbehebung-billing-fehlermeldungen/02.png)
 
 ## Error when Calculation of virtual tariffs
 
-![Billing error messages – figure 3](/img/_en/troubleshooting-billing-error-messages/03.png)
+![Billing error messages – figure 3](/img/stoerungsbehebung-billing-fehlermeldungen/03.png)
 
 ### Calculation starts soon ...
 
@@ -129,7 +129,7 @@ Problem 2 - Solution 2
 
 The virtual meter consists of meters that have been deleted.
 
-![Billing error messages – figure 4](/img/_en/troubleshooting-billing-error-messages/04.png)
+![Billing error messages – figure 4](/img/stoerungsbehebung-billing-fehlermeldungen/04.png)
 
 ### EVT007: Möglicherweise verfügen nicht alle Zähler in der Konfiguration über die für virtuelle Tarife gesetzlich vorgeschriebene Lastgang- oder Zählerstandgang-Zertifizierung.
 
@@ -166,7 +166,7 @@ Possible causes:
 
 ## Error when creating the invoices
 
-![Billing error messages – figure 5](/img/_en/troubleshooting-billing-error-messages/05.png)
+![Billing error messages – figure 5](/img/stoerungsbehebung-billing-fehlermeldungen/05.png)
 
 ### EBC001: The virtual tarifs do not match the total consumption
 
@@ -302,7 +302,7 @@ Data basis for determining the error:
 
 The smart-me Billing carries out a check when creating a bill. The sum of the virtual tariffs (e.g. high, low, solar tariff) is compared with the electricity consumption. If there is a difference there, an error message is displayed.
 
-![Billing error messages – figure 6](/img/_en/troubleshooting-billing-error-messages/06.png)
+![Billing error messages – figure 6](/img/stoerungsbehebung-billing-fehlermeldungen/06.png)
 
 Display of meter readings
 
@@ -314,13 +314,13 @@ Select property --> Select report at the top right --> Report type --> Detailed 
 
 Now you can check whether the period of the report differs from the period of the reference quantity total of one or more meters. If this is the case, no load profile data are available for the desired period.
 
-![Billing error messages – figure 7](/img/_en/troubleshooting-billing-error-messages/07.png)
+![Billing error messages – figure 7](/img/stoerungsbehebung-billing-fehlermeldungen/07.png)
 
 Display of virtual tariffs
 
 The determination of virtual tariffs is displayed in smart-me Billing when a bill is created in the tariffs.
 
-![Billing error messages – figure 8](/img/_en/troubleshooting-billing-error-messages/08.png)
+![Billing error messages – figure 8](/img/stoerungsbehebung-billing-fehlermeldungen/08.png)
 
 Different handling between meter readings and virtual tariffs:
 

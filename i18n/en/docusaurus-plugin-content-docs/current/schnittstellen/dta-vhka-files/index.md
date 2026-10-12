@@ -64,7 +64,7 @@ External keys are required to compare the billing units and cost centers in the 
 
 Note: As long as there are no changes on the part of the real estate software (additional rooms or cost centers), the external keys are static and do not need to be renewed each time.
 
-![DTA-VHKA Files – figure 3](/img/_en/interfaces-dta-vhka-files/03.png)
+![DTA-VHKA Files – figure 3](/img/schnittstellen-dta-vhka-files/08.png)
 
 ### Cost centers (energy types and tariffs)
 

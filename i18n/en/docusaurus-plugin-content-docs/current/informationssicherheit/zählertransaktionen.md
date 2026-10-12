@@ -14,15 +14,15 @@ The smart-me meter (version 2) is installed in the charging station. The digital
 
 ### Charging procedure
 
-![Meter Transactions – figure 1](/img/_en/information-security-meter-transactions/01.jpg)
+![Meter Transactions – figure 1](/img/informationssicherheit-zaehlertransaktionen/01.jpg)
 
 1\. The charging process is started (e.g. via an app). The "Start Transaction" command is sent to the meter. It starts a new transaction and activates the charging station. The display changes from the rolling display of the meter readings to the display of the transaction. The consumption of the transaction starts at 0 kWh and counts up according to the consumption. 
 
-![Meter Transactions – figure 2](/img/_en/information-security-meter-transactions/02.jpg)
+![Meter Transactions – figure 2](/img/informationssicherheit-zaehlertransaktionen/02.jpg)
 
 2\. The user can see the current charging power and the energy already drawn on the display.
 
-![Meter Transactions – figure 3](/img/_en/information-security-meter-transactions/03.jpg)
+![Meter Transactions – figure 3](/img/informationssicherheit-zaehlertransaktionen/03.jpg)
 
 3\. The charging process is ended (e.g. via the app). The meter is sent the command "End Transaction". It ends the transaction, signs it and sends the transaction data and the digital signature to the cloud. The user is shown on the display for 5min that the charging process has been completed.
 
@@ -32,7 +32,7 @@ The customer can check the amount of energy charged at any time after the chargi
 
 The transaction data can be verified online with the signature and the public key.
 
-![Meter Transactions – figure 4](/img/_en/information-security-meter-transactions/04.jpg)
+![Meter Transactions – figure 4](/img/informationssicherheit-zaehlertransaktionen/04.jpg)
 
 ## Validate Pico meter data with transparency software
 
@@ -97,11 +97,11 @@ The OCMF message can be validated with the transparency software.
 
 
 
-![Meter Transactions – figure 5](/img/_en/information-security-meter-transactions/05.png)
+![Meter Transactions – figure 5](/img/informationssicherheit-zaehlertransaktionen/05.png)
 
-![Meter Transactions – figure 6](/img/_en/information-security-meter-transactions/06.png)
+![Meter Transactions – figure 6](/img/informationssicherheit-zaehlertransaktionen/06.png)
 
-![Meter Transactions – figure 7](/img/_en/information-security-meter-transactions/07.png)
+![Meter Transactions – figure 7](/img/informationssicherheit-zaehlertransaktionen/07.png)
 
 ### Activate MID Mode (show relevant data)
 

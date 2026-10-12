@@ -14,7 +14,7 @@ Appropriately, end devices such as lights and washing machines can also be contr
 
 Target group: Denmark / single-family homes
 
-![TrueEnergy – figure 1](/img/_en/third-party-systems-trueenergy/01.png)
+![TrueEnergy – figure 1](/img/drittsysteme-trueenergy-as/01.png)
 
 Functions:
 
@@ -37,10 +37,10 @@ Website: [www.trueenergy.io](http://www.trueenergy.io)  
 
 
 
-![TrueEnergy – figure 2](/img/_en/third-party-systems-trueenergy/02.png)
+![TrueEnergy – figure 2](/img/drittsysteme-trueenergy-as/02.png)
 
-![TrueEnergy – figure 3](/img/_en/third-party-systems-trueenergy/03.png)
+![TrueEnergy – figure 3](/img/drittsysteme-trueenergy-as/03.png)
 
-![TrueEnergy – figure 4](/img/_en/third-party-systems-trueenergy/04.png)
+![TrueEnergy – figure 4](/img/drittsysteme-trueenergy-as/04.png)
 
-![TrueEnergy – figure 5](/img/_en/third-party-systems-trueenergy/05.png)
+![TrueEnergy – figure 5](/img/drittsysteme-trueenergy-as/05.png)

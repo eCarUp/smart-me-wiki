@@ -16,7 +16,7 @@ The goal of the suggestions is to offer our partners the possibility to easily a
 
 If the meters are to be used for billing purposes, calibrated transformers are required that meet at least class 0.5 or smaller.
 
-![Current Transformers and accessories for Telstar CT – figure 1](/img/_en/third-party-products-current-transformers/01.png)
+![Current Transformers and accessories for Telstar CT – figure 1](/img/drittprodukte-stromwandler/01.png)
 
 ### Pfiffner transformers (calibrated)
 
@@ -43,7 +43,7 @@ Calibration for billing:
 
 The calibration must be asked when ordered to ensure they will carry the certificate.
 
-![Current Transformers and accessories for Telstar CT – figure 2](/img/_en/third-party-products-current-transformers/02.png)
+![Current Transformers and accessories for Telstar CT – figure 2](/img/drittprodukte-stromwandler/02.png)
 
 ### Hager transformers (calibrated)
 
@@ -71,7 +71,7 @@ Calibration for billing:
 
 The calibration must be asked when ordered to ensure they will carry the certificate.
 
-![Current Transformers and accessories for Telstar CT – figure 3](/img/_en/third-party-products-current-transformers/03.png)
+![Current Transformers and accessories for Telstar CT – figure 3](/img/drittprodukte-stromwandler/03.png)
 
 ### Redur transformers (calibrated)
 
@@ -88,7 +88,7 @@ Source: [https://www.redur.de/](https://www.redur.de/) 
 
 ## Current transformers for monitoring purposes
 
-![Current Transformers and accessories for Telstar CT – figure 4](/img/_en/third-party-products-current-transformers/04.png)
+![Current Transformers and accessories for Telstar CT – figure 4](/img/drittprodukte-stromwandler/04.png)
 
 ### Optec Klapp-Wandler
 
@@ -120,7 +120,7 @@ Possible place to order:
 - Optec Online Shop
 
 
-![Current Transformers and accessories for Telstar CT – figure 5](/img/_en/third-party-products-current-transformers/05.png)
+![Current Transformers and accessories for Telstar CT – figure 5](/img/drittprodukte-stromwandler/05.png)
 
 ### Optec Stromsensoren
 
@@ -140,7 +140,7 @@ Possible place to order:
 - Optec Online Shop
 
 
-![Current Transformers and accessories for Telstar CT – figure 6](/img/_en/third-party-products-current-transformers/06.png)
+![Current Transformers and accessories for Telstar CT – figure 6](/img/drittprodukte-stromwandler/03.png)
 
 ### Redur Messwandler
 
@@ -155,7 +155,7 @@ Source: [https://www.redur.de/](https://www.redur.de/) 
 - Redur Regulus Series
 
 
-![Current Transformers and accessories for Telstar CT – figure 7](/img/_en/third-party-products-current-transformers/07.png)
+![Current Transformers and accessories for Telstar CT – figure 7](/img/drittprodukte-stromwandler/07.png)
 
 ### Redur Messwandler
 
@@ -174,7 +174,7 @@ Source: [https://www.redur.de/](https://www.redur.de/) 
 
 In order to easily replace a meter, even in operation, instrument transformer disconnect terminals can be used. These offer the possibility to short-circuit the transformer outputs in order not to damage the transformer when changing the meter.
 
-![Current Transformers and accessories for Telstar CT – figure 8](/img/_en/third-party-products-current-transformers/08.png)
+![Current Transformers and accessories for Telstar CT – figure 8](/img/drittprodukte-stromwandler/08.png)
 
 ### Phoenix Trennklemmen
 

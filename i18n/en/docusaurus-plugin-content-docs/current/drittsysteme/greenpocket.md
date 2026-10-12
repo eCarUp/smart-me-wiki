@@ -21,7 +21,7 @@ The smart-me MSCONS data contains the following energy sources:
 - Cold
 
 
-![GreenPocket – figure 1](/img/_en/third-party-systems-greenpocket/01.png)
+![GreenPocket – figure 1](/img/drittsysteme-greenpocket/01.png)
 
 Functions:
 
@@ -59,18 +59,18 @@ Labor 3.09 I Schanzenstr. 6-20
 [info@greenpocket.de
 ](mailto:info@greenpocket.de)[https://www.greenpocket.com/products/business-customers](https://www.greenpocket.com/products/business-customers) 
 
-![GreenPocket – figure 2](/img/_en/third-party-systems-greenpocket/02.png)
+![GreenPocket – figure 2](/img/drittsysteme-greenpocket/02.png)
 
 Location or region overviews with comparison functions.
 
-![GreenPocket – figure 3](/img/_en/third-party-systems-greenpocket/03.png)
+![GreenPocket – figure 3](/img/drittsysteme-greenpocket/03.png)
 
 Map-based location management and alarms.
 
-![GreenPocket – figure 4](/img/_en/third-party-systems-greenpocket/04.png)
+![GreenPocket – figure 4](/img/drittsysteme-greenpocket/04.png)
 
 Data analyses of the locations against personalised key figures e.g. energy consumption per 100% job at the location.
 
-![GreenPocket – figure 5](/img/_en/third-party-systems-greenpocket/05.png)
+![GreenPocket – figure 5](/img/drittsysteme-greenpocket/05.png)
 
 graphical data analysis options.

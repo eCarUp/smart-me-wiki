@@ -16,7 +16,7 @@ Target group: single family homes / smart-me users with account
 
 Operating systems: iOS and Android.
 
-![zerofy – figure 1](/img/_en/third-party-systems-zerofy/01.png)
+![zerofy – figure 1](/img/drittsysteme-zerofy/01.png)
 
 Key features:
 
@@ -47,8 +47,8 @@ Website: https://www.zerofy.net 
 
 
 
-![zerofy – figure 2](/img/_en/third-party-systems-zerofy/02.png)
+![zerofy – figure 2](/img/drittsysteme-zerofy/02.png)
 
-![zerofy – figure 3](/img/_en/third-party-systems-zerofy/03.png)
+![zerofy – figure 3](/img/drittsysteme-zerofy/03.png)
 
-![zerofy – figure 4](/img/_en/third-party-systems-zerofy/04.png)
+![zerofy – figure 4](/img/drittsysteme-zerofy/04.png)

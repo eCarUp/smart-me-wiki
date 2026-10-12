@@ -19,13 +19,13 @@ Collect data with Switzercloud from IoT devices with a wide variety of transmiss
 4.  Alert and control
 
 
-![Switzercloud / Colibird – figure 1](/img/_en/third-party-systems-switzercloud-colibird/01.png)
+![Switzercloud / Colibird – figure 1](/img/drittsysteme-switzercloud-colibird/01.png)
 
 The Switzercloud can retrieve, collect and process the measurement data from the smart-me portal via API. The processing results in alarms, reports, calculations, controls and/or visualisations with the help of Colibird.
 
-![Switzercloud / Colibird – figure 2](/img/_en/third-party-systems-switzercloud-colibird/02.png)
+![Switzercloud / Colibird – figure 2](/img/drittsysteme-switzercloud-colibird/02.png)
 
-![Switzercloud / Colibird – figure 3](/img/_en/third-party-systems-switzercloud-colibird/03.png)
+![Switzercloud / Colibird – figure 3](/img/drittsysteme-switzercloud-colibird/03.png)
 
  Contact:
 

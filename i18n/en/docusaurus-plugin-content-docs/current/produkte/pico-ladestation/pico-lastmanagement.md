@@ -50,9 +50,9 @@ In this case, it is advisable to form groups of 3, 6 or 9,... picos, in order to
 
 The load group function has no requirements for the hotspot of the same name or identical access data for connecting to the Internet. The MESH is a separate system and is only based on the fact that the devices in the load group can reach each other.
 
-![Pico load management – figure 1](/img/_en/products-pico-ev-charger-pico-load-management/01.png)
+![Pico load management – figure 1](/img/produkte-pico-ladestation-pico-lastmanagement/01.png)
 
-![Pico load management – figure 2](/img/_en/products-pico-ev-charger-pico-load-management/02.png)
+![Pico load management – figure 2](/img/produkte-pico-ladestation-pico-lastmanagement/02.png)
 
 ### Behaviour in the event of a connection failure
 
@@ -68,7 +68,7 @@ The following three values can be selected for this:
     The individual pico receives a fraction of the defined charging power of the charging group. The individual power is automatically distributed to active charges by the charging manager.
 
 
-![Pico load management – figure 3](/img/_en/products-pico-ev-charger-pico-load-management/03.png)
+![Pico load management – figure 3](/img/produkte-pico-ladestation-pico-lastmanagement/03_EN.png)
 
 ### Overload protection of the outgoing circuit or supply line
 
@@ -84,7 +84,7 @@ In this example, 63A is distributed to four active charging stations.
 
 The charging currents are allocated to the active charges in whole numbers.
 
-![Pico load management – figure 4](/img/_en/products-pico-ev-charger-pico-load-management/04.png)
+![Pico load management – figure 4](/img/produkte-pico-ladestation-pico-lastmanagement/04.png)
 
 ### Phase switching and phase balancing
 
@@ -127,11 +127,11 @@ Tip: Configure public stations for visitors or petrol stations with a minimum of
 
 
 
-![Pico load management – figure 5](/img/_en/products-pico-ev-charger-pico-load-management/05.png)
+![Pico load management – figure 5](/img/produkte-pico-ladestation-pico-lastmanagement/05.png)
 
 Situation: The available current is not sufficient to supply all vehicles with the minimum 3-phase current. --> The charging stations are all switched to single-phase charging.
 
-![Pico load management – figure 6](/img/_en/products-pico-ev-charger-pico-load-management/06.png)
+![Pico load management – figure 6](/img/produkte-pico-ladestation-pico-lastmanagement/06.png)
 
 Situation: The available current would be sufficient for all devices at the same time, but a paused charge would tie up too much energy. The charging station with the fully charged vehicle is set to 1-phase in order to transfer capacity to the other 3-phase charges.
 

@@ -15,7 +15,7 @@ Values are not displayed correctly:
 - Solution 2: Check that the meters provide the correct values.
 
 
-![Visualization error – figure 1](/img/_en/troubleshooting-visualization-error/01.png)
+![Visualization error – figure 1](/img/stoerungsbehebung-visualisierungsfehler/05.png)
 
 ## Simple virtual tariffs (apartment)
 
@@ -26,10 +26,10 @@ Display does not work
 - Solution 2: Ensure that the folder from the apartment has been selected. If the meter is selected, it does not work.
 
 
-![Visualization error – figure 2](/img/_en/troubleshooting-visualization-error/02.png)
+![Visualization error – figure 2](/img/stoerungsbehebung-visualisierungsfehler/04.png)
 
 ### Pie Chart does not show all the meters
 
 This happens if not all meters have been online for ex. 7 days. The pie chart will only show the data of the ones that have been online.
 
-![Visualization error – figure 3](/img/_en/troubleshooting-visualization-error/03.png)
+![Visualization error – figure 3](/img/stoerungsbehebung-visualisierungsfehler/08.png)

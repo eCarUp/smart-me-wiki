@@ -10,7 +10,7 @@ For PV surplus utilisation, it is essential that the current feed-in or draw pow
 
 The energy data for control can be streamed quickly and reliably from smart-me meters directly into Clever-PV.
 
-![Clever-PV – figure 1](/img/_en/third-party-systems-clever-pv/01.png)
+![Clever-PV – figure 1](/img/drittsysteme-clever-pv/01.png)
 
 Target group: Single-family house
 
@@ -38,10 +38,10 @@ E-Mail: [info@clever-pv.com](mailto:info@clever-pv.com) 
 
 Website: [www.clever-pv.com](http://www.clever-pv.com) 
 
-![Clever-PV – figure 2](/img/_en/third-party-systems-clever-pv/02.png)
+![Clever-PV – figure 2](/img/drittsysteme-clever-pv/02.png)
 
-![Clever-PV – figure 3](/img/_en/third-party-systems-clever-pv/03.png)
+![Clever-PV – figure 3](/img/drittsysteme-clever-pv/03.png)
 
-![Clever-PV – figure 4](/img/_en/third-party-systems-clever-pv/04.png)
+![Clever-PV – figure 4](/img/drittsysteme-clever-pv/04.png)
 
-![Clever-PV – figure 5](/img/_en/third-party-systems-clever-pv/05.png)
+![Clever-PV – figure 5](/img/drittsysteme-clever-pv/05.png)

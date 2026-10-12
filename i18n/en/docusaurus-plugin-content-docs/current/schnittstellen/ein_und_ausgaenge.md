@@ -8,17 +8,17 @@ sidebar_label: 'Input and Output Configuration'
 
 The smart-me meters have one or more outputs that can be used as pulse outputs or as potential-free contacts. The S0\_0 output is defined as a pulse output and the S1 as a digital relay output with the name "Relay".
 
-![Input and Output Configuration – figure 1](/img/_en/interfaces-input-and-output-configuration/01.png)
+![Input and Output Configuration – figure 1](/img/schnittstellen-ein_und_ausgaenge/01.png)
 
 ### External wiring of the inputs and outputs
 
 E1 control with tariff signal or load shedding signal
 
-![Input and Output Configuration – figure 2](/img/_en/interfaces-input-and-output-configuration/02.png)
+![Input and Output Configuration – figure 2](/img/schnittstellen-ein_und_ausgaenge/02_EN.png)
 
 control a swichable load with a Telstar (S1 and S0 are similar)
 
-![Input and Output Configuration – figure 3](/img/_en/interfaces-input-and-output-configuration/03.png)
+![Input and Output Configuration – figure 3](/img/schnittstellen-ein_und_ausgaenge/03_EN.png)
 
 ## Impulse output
 
@@ -47,15 +47,15 @@ In the tenant view, these cannot be activated or deactivated even if they are vi
 
 
 
-![Input and Output Configuration – figure 4](/img/_en/interfaces-input-and-output-configuration/04.png)
+![Input and Output Configuration – figure 4](/img/schnittstellen-ein_und_ausgaenge/04_EN.png)
 
 ### Online view when just installed
 
-![Input and Output Configuration – figure 5](/img/_en/interfaces-input-and-output-configuration/05.png)
+![Input and Output Configuration – figure 5](/img/schnittstellen-ein_und_ausgaenge/05_EN.png)
 
 ### Online view when S0\_0 configured to digital output
 
-![Input and Output Configuration – figure 6](/img/_en/interfaces-input-and-output-configuration/06.png)
+![Input and Output Configuration – figure 6](/img/schnittstellen-ein_und_ausgaenge/06_EN.png)
 
 The smart-me meters have a digital input that can be used as a tariff input or as a normal digital input. This input is defined as a tariff input at the factory. If the input is configured as a digital input, it can be used as an event to control other devices or trigger alarms. 
 
@@ -81,11 +81,11 @@ For DC circuits:
 - Finally, connect from the "-" of the external circuit to GND.
 
 
-![Input and Output Configuration – figure 7](/img/_en/interfaces-input-and-output-configuration/07.png)
+![Input and Output Configuration – figure 7](/img/schnittstellen-ein_und_ausgaenge/07.png)
 
 \*Depending on the device type
 
-![Input and Output Configuration – figure 8](/img/_en/interfaces-input-and-output-configuration/08.png)
+![Input and Output Configuration – figure 8](/img/schnittstellen-ein_und_ausgaenge/08.png)
 
 ## Input configuration
 

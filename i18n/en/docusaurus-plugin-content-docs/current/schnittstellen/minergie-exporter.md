@@ -16,7 +16,7 @@ This product is called Minergie Monitroing+ and makes it possible to quickly and
 
 
 
-![Minergie Exporter – figure 1](/img/_en/interfaces-minergie-exporter/01.png)
+![Minergie Exporter – figure 1](/img/schnittstellen-minergie-exporter/01.png)
 
 ## Login Minergie data exporter
 
@@ -36,18 +36,18 @@ If you have yet to become a Minergie system integrator, become one and find out 
 1.  Press the "+" to create a new export task.
 
 
-![Minergie Exporter – figure 2](/img/_en/interfaces-minergie-exporter/02.png)
+![Minergie Exporter – figure 2](/img/schnittstellen-minergie-exporter/02.png)
 
 2\. create an API key in the smart-me object.
 
 Create a new key with a name of your choice. Select the rights with at least read rights.
 
 
-![Minergie Exporter – figure 3](/img/_en/interfaces-minergie-exporter/03.png)
+![Minergie Exporter – figure 3](/img/schnittstellen-minergie-exporter/03.png)
 
-![Minergie Exporter – figure 4](/img/_en/interfaces-minergie-exporter/04.png)
+![Minergie Exporter – figure 4](/img/schnittstellen-minergie-exporter/04.png)
 
-![Minergie Exporter – figure 5](/img/_en/interfaces-minergie-exporter/05.png)
+![Minergie Exporter – figure 5](/img/schnittstellen-minergie-exporter/05.png)
 
 3\. store the key in the Minergie exporter order under API key
 
@@ -57,7 +57,7 @@ Create a new key with a name of your choice. Select the rights with at least rea
 
 6\. start the transfer.
 
-![Minergie Exporter – figure 6](/img/_en/interfaces-minergie-exporter/06.png)
+![Minergie Exporter – figure 6](/img/schnittstellen-minergie-exporter/06.png)
 
 ## Data export function and frequency
 

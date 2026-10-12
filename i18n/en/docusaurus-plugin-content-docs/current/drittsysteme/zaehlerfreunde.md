@@ -12,13 +12,13 @@ Target group: smart-me users, energy suppliers and tenants with a smart-me accou
 
 Note: Within tenant electricity systems, the tariff change only works for the tenant electricity system operator
 
-![Zählerfreunde – figure 1](/img/_en/third-party-systems-zaehlerfreunde/01.png)
+![Zählerfreunde – figure 1](/img/drittsysteme-zaehlerfreunde/01.png)
 
 Comprehensive solution
 
 We naturally support all common browsers. We can also publish and maintain your own mobile app on request: for Android and iOS.
 
-![Zählerfreunde – figure 2](/img/_en/third-party-systems-zaehlerfreunde/02.png)
+![Zählerfreunde – figure 2](/img/drittsysteme-zaehlerfreunde/02.png)
 
 Control over consumption
 
@@ -39,25 +39,25 @@ Transparent, cross-divisional visualisation. Thanks to our modular structure, yo
 - CSV export
 
 
-![Zählerfreunde – figure 3](/img/_en/third-party-systems-zaehlerfreunde/03.png)
+![Zählerfreunde – figure 3](/img/drittsysteme-zaehlerfreunde/03.png)
 
 Support for other devices
 
 Do your customers have PV systems, wallboxes, digital electricity meters? We visualise (almost) everything! Users have the option of adding further smart devices. Do you offer battery storage systems, for example? Great, sell them directly via the platform and then have them visualised.
 
-![Zählerfreunde – figure 4](/img/_en/third-party-systems-zaehlerfreunde/04.png)
+![Zählerfreunde – figure 4](/img/drittsysteme-zaehlerfreunde/04.png)
 
 Offer new electricity products
 
 Offer your existing customers new tariff products such as flexible tariffs. If necessary, we calculate whether the customer is still on the best tariff for them. Visualisation and tariff management in one place.
 
-![Zählerfreunde – figure 5](/img/_en/third-party-systems-zaehlerfreunde/05.png)
+![Zählerfreunde – figure 5](/img/drittsysteme-zaehlerfreunde/05.png)
 
 Simulator
 
 With the Zählerfreunde simulator, customers can test how a specific PV system or battery storage system will affect their annual costs and their CO2 footprint. The calculations are based on individual consumption and geostationary weather data. If you sell suitable products for this purpose, we will help you to offer them via the simulator.
 
-![Zählerfreunde – figure 6](/img/_en/third-party-systems-zaehlerfreunde/06.png)
+![Zählerfreunde – figure 6](/img/drittsysteme-zaehlerfreunde/06.png)
 
 Tenant electricity portal solution
 

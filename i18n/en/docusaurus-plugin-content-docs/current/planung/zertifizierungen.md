@@ -47,7 +47,7 @@ If the measuring equipment is subject to the Measuring Equipment Directive 2004/
 
 Such measuring equipment can be identified by the “CE” or “CH” in combination with the metrology mark “M”.
 
-![Certification – figure 1](/img/_en/planning-certification-calibration/01.png)
+![Certification – figure 1](/img/planung-zertifizierungen/01.png)
 
 Example: CE M 20 (year of verification) 1259 (verification point)
 
@@ -145,17 +145,17 @@ Mandatory labels on the charging hardware:
 
 MID-certification:
 
-![Certification – figure 2](/img/_en/planning-certification-calibration/02.png)
+![Certification – figure 2](/img/planung-zertifizierungen/01.png)
 
-![Certification – figure 3](/img/_en/planning-certification-calibration/03.png)
+![Certification – figure 3](/img/planung-zertifizierungen/03.png)
 
 
 
 CH load profile certification:
 
-![Certification – figure 4](/img/_en/planning-certification-calibration/04.png)
+![Certification – figure 4](/img/planung-zertifizierungen/04.png)
 
-![Certification – figure 5](/img/_en/planning-certification-calibration/05.png)
+![Certification – figure 5](/img/planung-zertifizierungen/05.png)
 
 ### Provisions for billing charging stations in Germany
 
@@ -180,15 +180,15 @@ Mandatory labels on the charging hardware:
 
 MID-certification:
 
-![Certification – figure 6](/img/_en/planning-certification-calibration/02.png)
+![Certification – figure 6](/img/planung-zertifizierungen/01.png)
 
-![Certification – figure 7](/img/_en/planning-certification-calibration/07.png)
+![Certification – figure 7](/img/planung-zertifizierungen/07.png)
 
 Eichrecht certification:
 
-![Certification – figure 8](/img/_en/planning-certification-calibration/08.png)
+![Certification – figure 8](/img/planung-zertifizierungen/08.png)
 
-![Certification – figure 9](/img/_en/planning-certification-calibration/09.png)
+![Certification – figure 9](/img/planung-zertifizierungen/09.png)
 
 ### Eichrecht Certification (Germany)
 
@@ -255,4 +255,4 @@ The smart-me system also has an automated interface for transferring data to the
 
 
 
-![Certification – figure 10](/img/_en/planning-certification-calibration/10.png)
+![Certification – figure 10](/img/planung-zertifizierungen/10.png)

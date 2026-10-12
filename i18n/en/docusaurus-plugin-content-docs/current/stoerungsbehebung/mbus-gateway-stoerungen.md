@@ -38,9 +38,9 @@ If a meter contains more than 1 meter, these are numbered as follows:
 - Sub-counter = These contain the last four digits of the main counter (e.g. 0145) and a four-digit enumeration number at the end (e.g. 01450001)
 
 
-![M-Bus gateway failures – figure 1](/img/_en/troubleshooting-m-bus-gateway-failures/01.png)
+![M-Bus gateway failures – figure 1](/img/stoerungsbehebung-mbus-gateway-stoerungen/01.png)
 
-![M-Bus gateway failures – figure 2](/img/_en/troubleshooting-m-bus-gateway-failures/02.png)
+![M-Bus gateway failures – figure 2](/img/stoerungsbehebung-mbus-gateway-stoerungen/02.png)
 
 ## Gateway finds more meters than were installed (during operation)
 
@@ -92,7 +92,7 @@ Technical explanation
 - The standardized M-Bus protocol has only 1 byte for the checksum. The checksum is intended to detect certain errors in the data transmission. Unfortunately, 1 byte is not much and can always lead to a corrupted data packet being regarded as valid and correct. In some installations where M-Bus Gateways are used, this repeatedly leads to corrupt data packets being classified as valid and correct and these are then recognized and added as a new M-Bus device in our cloud. The account then drops from Professional to Basic, as the license coverage is no longer sufficient.
 
 
-![M-Bus gateway failures – figure 3](/img/_en/troubleshooting-m-bus-gateway-failures/03.png)
+![M-Bus gateway failures – figure 3](/img/stoerungsbehebung-mbus-gateway-stoerungen/03.png)
 
 ## M-Bus meter is offline
 

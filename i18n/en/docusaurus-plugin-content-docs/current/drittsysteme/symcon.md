@@ -9,7 +9,7 @@ It acts as an interface and decision maker.
 
 The smart-me data can be easily queried via our API.
 
-![Symcon – figure 1](/img/_en/third-party-systems-symcon/01.png)
+![Symcon – figure 1](/img/drittsysteme-symcon/01.png)
 
 Target group: Single and multi-family houses and industry
 
@@ -80,7 +80,7 @@ Telephone: +49 - (0) 451 30500511
 1.  create instance (JSON Decoder)
 
 
-![Symcon – figure 3](/img/_en/third-party-systems-symcon/03.png)
+![Symcon – figure 3](/img/drittsysteme-symcon/02.png)
 
 2\. edit instance
 
@@ -90,11 +90,11 @@ Password: smart-me password
 
 URL: API Call: z.B. "https://smart-me.com:443/api/devices/&#123;id&#125;
 
-![Symcon – figure 4](/img/_en/third-party-systems-symcon/04.png)
+![Symcon – figure 4](/img/drittsysteme-symcon/03.png)
 
 3\. edit variable (double click)
 
-![Symcon – figure 5](/img/_en/third-party-systems-symcon/05.png)
+![Symcon – figure 5](/img/drittsysteme-symcon/04.png)
 
 4\. create variable
 
@@ -105,29 +105,29 @@ URL: API Call: z.B. "https://smart-me.com:443/api/devices/&#123;id&#125;
 - set archive settings (enable to store variable changes and aggregation to web front)
 
 
-![Symcon – figure 6](/img/_en/third-party-systems-symcon/06.png)
+![Symcon – figure 6](/img/drittsysteme-symcon/05.png)
 
-![Symcon – figure 7](/img/_en/third-party-systems-symcon/07.png)
+![Symcon – figure 7](/img/drittsysteme-symcon/06.png)
 
 ### How to create a diagramm?
 
-![Symcon – figure 8](/img/_en/third-party-systems-symcon/08.png)
+![Symcon – figure 8](/img/drittsysteme-symcon/07.png)
 
 6\. configure diagram
 
 - Several variables can be displayed in the same diagram (e.g.: total active power and active power of the individual phases).
 
 
-![Symcon – figure 9](/img/_en/third-party-systems-symcon/09.png)
+![Symcon – figure 9](/img/drittsysteme-symcon/08.png)
 
 7\. open web front
 
-![Symcon – figure 10](/img/_en/third-party-systems-symcon/10.png)
+![Symcon – figure 10](/img/drittsysteme-symcon/09.png)
 
-![Symcon – figure 11](/img/_en/third-party-systems-symcon/11.png)
+![Symcon – figure 11](/img/drittsysteme-symcon/10.png)
 
 8\. show diagram (click on the right hand side of PowerHaus).
 
-![Symcon – figure 12](/img/_en/third-party-systems-symcon/12.png)
+![Symcon – figure 12](/img/drittsysteme-symcon/11.png)
 
-![Symcon – figure 13](/img/_en/third-party-systems-symcon/13.png)
+![Symcon – figure 13](/img/drittsysteme-symcon/12.png)

@@ -24,9 +24,9 @@ ZAK: up to 100A
 
 Counter pins for Nimbus: Art. Nr. A00-901 6x7x45mm, rund
 
-![Meter plug-in terminals – figure 1](/img/_en/third-party-products-meter-plug-in-terminals/01.png)
+![Meter plug-in terminals – figure 1](/img/drittprodukte-zaehlersteckklemmen-nimbus-100a/01.png)
 
-![Meter plug-in terminals – figure 2](/img/_en/third-party-products-meter-plug-in-terminals/02.png)
+![Meter plug-in terminals – figure 2](/img/drittprodukte-zaehlersteckklemmen-nimbus-100a/02.png)
 
 ## Hager terminals
 
@@ -41,9 +41,9 @@ Meter pin for Nimbus: Hager KJZ080A4 80A Ø6×41mm 
 
 
 
-![Meter plug-in terminals – figure 3](/img/_en/third-party-products-meter-plug-in-terminals/03.png)
+![Meter plug-in terminals – figure 3](/img/drittprodukte-zaehlersteckklemmen-nimbus-100a/03.png)
 
-![Meter plug-in terminals – figure 4](/img/_en/third-party-products-meter-plug-in-terminals/04.png)
+![Meter plug-in terminals – figure 4](/img/drittprodukte-zaehlersteckklemmen-nimbus-100a/04.png)
 
 ## Seidl terminals
 
@@ -55,4 +55,4 @@ Meter pin for Nimbus: SL-6-6-42
 
 
 
-![Meter plug-in terminals – figure 5](/img/_en/third-party-products-meter-plug-in-terminals/05.png)
+![Meter plug-in terminals – figure 5](/img/drittprodukte-zaehlersteckklemmen-nimbus-100a/05.png)

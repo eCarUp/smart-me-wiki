@@ -44,9 +44,9 @@ The request and release of the relevant measuring points must be requested from 
 6.  Once the measuring point data has been imported, the measuring points are visible in the [meter configuration](/konfiguration/ordnerkonfiguration) to add them to the structure.
 
 
-![Swisseldex SDAT data import – figure 2](/img/_en/interfaces-swisseldex-data-import/02.png)
+![Swisseldex SDAT data import – figure 2](/img/schnittstellen-swisseldex-sdat-import/01.png)
 
-![Swisseldex SDAT data import – figure 3](/img/_en/interfaces-swisseldex-data-import/03.png)
+![Swisseldex SDAT data import – figure 3](/img/schnittstellen-swisseldex-sdat-import/02.png)
 
 ## Functionality of data processing and data replacement
 

@@ -14,7 +14,7 @@ In smart-me puoi creare nuovi utenti e assegnare loro le relative autorizzazioni
 
 In questo modo puoi dare agli inquilini accesso ai loro dati finché abitano nell'immobile.
 
-![Creare utenti – Figura 1](/img/konfiguration-benutzerkonfiguration/01.png)
+![Creare utenti – Figura 1](/img/konfiguration-benutzerkonfiguration/01_EN.png)
 
 Per creare nuovi utenti procedi come segue:
 
@@ -41,7 +41,7 @@ Gli utenti hanno sempre solo accessi in lettura.
 
 Se sul nodo viene utilizzata una visualizzazione che accede ai dati dei contatori, l'utente deve essere autorizzato a vedere i contatori.
 
-![Creare utenti – Figura 3](/img/konfiguration-benutzerkonfiguration/03.png)
+![Creare utenti – Figura 3](/img/konfiguration-benutzerkonfiguration/03_EN.png)
 
 ### Passo successivo
 

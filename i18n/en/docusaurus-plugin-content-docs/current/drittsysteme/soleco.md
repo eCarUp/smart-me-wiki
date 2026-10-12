@@ -33,10 +33,10 @@ Website: [www.soleco.ch](http://www.soleco.ch)   
 
 
 
-![Soleco optimizer – figure 1](/img/_en/third-party-systems-soleco/01.png)
+![Soleco optimizer – figure 1](/img/drittsysteme-soleco/01.png)
 
-![Soleco optimizer – figure 2](/img/_en/third-party-systems-soleco/02.png)
+![Soleco optimizer – figure 2](/img/drittsysteme-soleco/02.png)
 
-![Soleco optimizer – figure 3](/img/_en/third-party-systems-soleco/03.png)
+![Soleco optimizer – figure 3](/img/drittsysteme-soleco/03.png)
 
-![Soleco optimizer – figure 4](/img/_en/third-party-systems-soleco/04.png)
+![Soleco optimizer – figure 4](/img/drittsysteme-soleco/04.png)

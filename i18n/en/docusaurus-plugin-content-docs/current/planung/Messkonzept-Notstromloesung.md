@@ -42,7 +42,7 @@ In addition, a virtual meter is required, which is composed as follows:
 
 Production (virtual) = "Emergency power incl. solar" minus "Emergency power excl. solar"+ balance meter
 
-![Measurement concepts emergency power solutions – figure 2](/img/_en/planning-measurement-concepts-emergency-power-solutions/02.png)
+![Measurement concepts emergency power solutions – figure 2](/img/planung-messkonzept-notstromloesung/02.png)
 
 ### Billing
 
@@ -74,4 +74,4 @@ In the Monitoring graphic, the self-consumption is displayed below the 0 line if
 - The emergency power solution requires power (e.g. Heating or calibration charge of the salt battery with mains power because not enough power was produced on the DC side.
 
 
-![Measurement concepts emergency power solutions – figure 4](/img/_en/planning-measurement-concepts-emergency-power-solutions/04.png)
+![Measurement concepts emergency power solutions – figure 4](/img/planung-messkonzept-notstromloesung/07.png)

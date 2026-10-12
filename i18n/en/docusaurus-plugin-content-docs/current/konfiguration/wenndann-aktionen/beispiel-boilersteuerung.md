@@ -92,7 +92,7 @@ If a standard tariff is used, it is best to stagger the reheating from noon. Thi
 
 The example below for the control of 3 boilers can also be used for the control of 1 boiler with 3 phases. The configuration is exactly the same.
 
-![Examples of boiler control with if/then actions – figure 1](/img/_en/configuration-if-then-action-examples-of-boiler-control-with-ifthen-actions/01.png)
+![Examples of boiler control with if/then actions – figure 1](/img/konfiguration-wenndann-aktionen-beispiel-boilersteuerung/01.png)
 
 Figure: ZEV with 3 boilers incl. reheating at night (green rectangles)
 
@@ -108,7 +108,7 @@ Boiler switches on automatically when a minimum temperature is reached: No
 
 Power boiler 1st floor: 6 kW
 
-![Examples of boiler control with if/then actions – figure 2](/img/_en/configuration-if-then-action-examples-of-boiler-control-with-ifthen-actions/02.png)
+![Examples of boiler control with if/then actions – figure 2](/img/konfiguration-wenndann-aktionen-beispiel-boilersteuerung/02.png)
 
 Configuration: Boiler 1 On (1st floor)
 
@@ -124,7 +124,7 @@ Or
 - A specific time is defined and the boiler is heated for three hours in any case.
 
 
-![Examples of boiler control with if/then actions – figure 3](/img/_en/configuration-if-then-action-examples-of-boiler-control-with-ifthen-actions/03.png)
+![Examples of boiler control with if/then actions – figure 3](/img/konfiguration-wenndann-aktionen-beispiel-boilersteuerung/03.png)
 
 If measured value greater/smaller:
 
@@ -137,7 +137,7 @@ If measured value greater/smaller:
 - Minimum time: 1 minute
 
 
-![Examples of boiler control with if/then actions – figure 4](/img/_en/configuration-if-then-action-examples-of-boiler-control-with-ifthen-actions/04.png)
+![Examples of boiler control with if/then actions – figure 4](/img/konfiguration-wenndann-aktionen-beispiel-boilersteuerung/04.png)
 
 If date & time:
 
@@ -150,14 +150,14 @@ If date & time:
 - Until: 01:00
 
 
-![Examples of boiler control with if/then actions – figure 5](/img/_en/configuration-if-then-action-examples-of-boiler-control-with-ifthen-actions/05.png)
+![Examples of boiler control with if/then actions – figure 5](/img/konfiguration-wenndann-aktionen-beispiel-boilersteuerung/05.png)
 
 If event
 
 - Type: Or operation
 
 
-![Examples of boiler control with if/then actions – figure 6](/img/_en/configuration-if-then-action-examples-of-boiler-control-with-ifthen-actions/06.png)
+![Examples of boiler control with if/then actions – figure 6](/img/konfiguration-wenndann-aktionen-beispiel-boilersteuerung/06.png)
 
 Then switch on / off
 
@@ -166,7 +166,7 @@ Then switch on / off
 - Boiler: On
 
 
-![Examples of boiler control with if/then actions – figure 7](/img/_en/configuration-if-then-action-examples-of-boiler-control-with-ifthen-actions/07.png)
+![Examples of boiler control with if/then actions – figure 7](/img/konfiguration-wenndann-aktionen-beispiel-boilersteuerung/07.png)
 
 ### Configuration: Boiler Off tabular view (short)
 
@@ -224,7 +224,7 @@ Then switch on / off
 - Boiler: Off
 
 
-![Examples of boiler control with if/then actions – figure 8](/img/_en/configuration-if-then-action-examples-of-boiler-control-with-ifthen-actions/08.png)
+![Examples of boiler control with if/then actions – figure 8](/img/konfiguration-wenndann-aktionen-beispiel-boilersteuerung/08.png)
 
 ## Example with 3 boilers solar-optimized with reheating (tabular explanation)
 
@@ -510,7 +510,7 @@ We will now go into the configuration. A simpler example is explained in detail 
 
 The differences can be recognized more quickly on desktop screens by displaying them in table form and thus also the logic behind them.
 
-![Examples of boiler control with if/then actions – figure 9](/img/_en/configuration-if-then-action-examples-of-boiler-control-with-ifthen-actions/09.png)
+![Examples of boiler control with if/then actions – figure 9](/img/konfiguration-wenndann-aktionen-beispiel-boilersteuerung/09.png)
 
 Configuration: Boiler 1 On (1st floor)
 
@@ -580,7 +580,7 @@ Then switch on / off
 
 ### Configuration: Boiler Off tabular view (short)
 
-![Examples of boiler control with if/then actions – figure 10](/img/_en/configuration-if-then-action-examples-of-boiler-control-with-ifthen-actions/10.png)
+![Examples of boiler control with if/then actions – figure 10](/img/konfiguration-wenndann-aktionen-beispiel-boilersteuerung/10.png)
 
 Configuration: Boiler 1 Off (1st floor)
 
@@ -656,7 +656,7 @@ Relays are connected to boilers and have been given the name “Boiler”.
 
 The Mosfet is configured according to the [inputs and outputs](/schnittstellen/ein_und_ausgaenge) and is named “Boiler Booster”.
 
-![Examples of boiler control with if/then actions – figure 11](/img/_en/configuration-if-then-action-examples-of-boiler-control-with-ifthen-actions/11.png)
+![Examples of boiler control with if/then actions – figure 11](/img/konfiguration-wenndann-aktionen-beispiel-boilersteuerung/15.png)
 
 Duration until full Power is drawn: 20 seconds
 
@@ -679,7 +679,7 @@ We will now go into the configuration. A simpler example is explained in detail 
 
 The differences can be recognized more quickly on desktop screens by displaying them in table form and thus also the logic behind them.
 
-![Examples of boiler control with if/then actions – figure 12](/img/_en/configuration-if-then-action-examples-of-boiler-control-with-ifthen-actions/12.png)
+![Examples of boiler control with if/then actions – figure 12](/img/konfiguration-wenndann-aktionen-beispiel-boilersteuerung/16.png)
 
 Configuration: Boiler 1 On (1st floor)
 
@@ -830,7 +830,7 @@ Then switch on / off
 
 ### Configuration: Boiler Off tabular view (short)
 
-![Examples of boiler control with if/then actions – figure 13](/img/_en/configuration-if-then-action-examples-of-boiler-control-with-ifthen-actions/13.png)
+![Examples of boiler control with if/then actions – figure 13](/img/konfiguration-wenndann-aktionen-beispiel-boilersteuerung/17.png)
 
 Configuration: Boiler 1 Off (1st floor)
 
@@ -979,7 +979,7 @@ This section is optional. If it is not configured, this means that the booster b
 
 In this example, the "Boiler Booster" button is reset to "off" after 300 minutes, in other words after 5 hours.
 
-![Examples of boiler control with if/then actions – figure 14](/img/_en/configuration-if-then-action-examples-of-boiler-control-with-ifthen-actions/14.png)
+![Examples of boiler control with if/then actions – figure 14](/img/konfiguration-wenndann-aktionen-beispiel-boilersteuerung/18.png)
 
 Configuration: Boiler 1 Booster Reset (1st floor)
 

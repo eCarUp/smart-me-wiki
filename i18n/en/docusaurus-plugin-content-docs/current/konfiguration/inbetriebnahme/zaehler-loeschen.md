@@ -33,7 +33,7 @@ Deleting M-Bus meters is not effective, as the meters will reappear in the porta
 - The meter is now gray.
 
 
-![Delete meter – figure 1](/img/_en/configuration-commissioning-delete-meter/01.png)
+![Delete meter – figure 1](/img/konfiguration-inbetriebnahme-zaehler-loeschen/01.png)
 
 ## Deleting meters
 
@@ -58,4 +58,4 @@ Deleting M-Bus meters is not effective, as the meters will reappear in the porta
 - The meter is now deleted.
 
 
-![Delete meter – figure 2](/img/_en/configuration-commissioning-delete-meter/02.png)
+![Delete meter – figure 2](/img/konfiguration-inbetriebnahme-zaehler-loeschen/03.png)

@@ -57,28 +57,28 @@ You can find more details under "Billing" in the respective topic section.
 
 [General Pico installation planning](https://doc.smart-me.com/products/pico-ev-charger/installation-planning)
 
-![E-Mobility – figure 1](/img/_en/planning-e-mobility/01.png)
+![E-Mobility – figure 1](/img/planung-elektromobilitaet/01.png)
 
 ### smart-me ASC and smart-me Pico charging station
 
 [Learn more](https://doc.smart-me.com/planning/e-mobility/smart-me-asc-and-pico)
 
-![E-Mobility – figure 2](/img/_en/planning-e-mobility/02.png)
+![E-Mobility – figure 2](/img/planung-elektromobilitaet/02.png)
 
-![E-Mobility – figure 3](/img/_en/planning-e-mobility/03.png)
+![E-Mobility – figure 3](/img/planung-elektromobilitaet/03.png)
 
 ### smart-me ASC and 3rd-Party chargers
 
 [Learn more](https://doc.smart-me.com/planning/e-mobility/smart-me-asc-and-3rd-party)
 
-![E-Mobility – figure 4](/img/_en/planning-e-mobility/04.png)
+![E-Mobility – figure 4](/img/planung-elektromobilitaet/04.png)
 
-![E-Mobility – figure 5](/img/_en/planning-e-mobility/05.png)
+![E-Mobility – figure 5](/img/planung-elektromobilitaet/05.png)
 
 ### 3rd-Party ASC and smart-me Pico chargers
 
 [Learn more](https://doc.smart-me.com/planning/e-mobility/3rd-party-asc-and-pico)
 
-![E-Mobility – figure 6](/img/_en/planning-e-mobility/06.png)
+![E-Mobility – figure 6](/img/planung-elektromobilitaet/06.png)
 
-![E-Mobility – figure 7](/img/_en/planning-e-mobility/07.png)
+![E-Mobility – figure 7](/img/planung-elektromobilitaet/07.png)

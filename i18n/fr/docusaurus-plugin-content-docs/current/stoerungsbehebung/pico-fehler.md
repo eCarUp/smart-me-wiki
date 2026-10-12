@@ -138,7 +138,7 @@ Mesure :
 - Si l'erreur a été déclenchée, la station doit être redémarrée afin de réinitialiser l'erreur.
 
 
-![Erreurs Pico – illustration 3](/img/stoerungsbehebung-pico-fehler/03.png)
+![Erreurs Pico – illustration 3](/img/stoerungsbehebung-pico-fehler/03_EN.png)
 
 ### Cable Lock Error
 
@@ -244,7 +244,7 @@ Signification :
 - Délestage actif : puissance limitée
 
 
-![Erreurs Pico – illustration 10](/img/stoerungsbehebung-pico-fehler/10.png)
+![Erreurs Pico – illustration 10](/img/stoerungsbehebung-pico-fehler/10_EN.png)
 
 ### Diode Error
 

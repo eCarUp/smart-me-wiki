@@ -174,8 +174,8 @@ Les illustrations ci-dessous te permettent de déterminer facilement si tu as be
 
 Pour le décompte RCP, l'élément déterminant est le système tarifaire à représenter et le fait que le décompte doive être automatisé ou non.
 
-![Licences Cloud – illustration 1](/img/planung-cloud-lizenzen/01.png)
+![Licences Cloud – illustration 1](/img/planung-cloud-lizenzen/01_EN.png)
 
 ### Commande RCP
 
-![Licences Cloud – illustration 2](/img/planung-cloud-lizenzen/02.png)
+![Licences Cloud – illustration 2](/img/planung-cloud-lizenzen/02_EN.png)

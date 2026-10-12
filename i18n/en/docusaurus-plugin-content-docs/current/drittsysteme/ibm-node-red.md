@@ -7,7 +7,7 @@ sidebar_label: 'IBM Node-RED'
 The open API from smart-me can be used for flows in Node-RED relatively easy.
 Use the API to create flows in Node-RED and get data from the meters or controll the outputs of them.
 
-![IBM Node-RED – figure 1](/img/_en/third-party-systems-ibm-node-red/01.png)
+![IBM Node-RED – figure 1](/img/drittsysteme-ibm-node-red/01.png)
 
 ## GET values from the meters
 
@@ -93,7 +93,7 @@ Output api/actions/{id}:
 
 POST with api/actions call
 
-![IBM Node-RED – figure 6](/img/_en/third-party-systems-ibm-node-red/06.png)
+![IBM Node-RED – figure 6](/img/drittsysteme-ibm-node-red/07.png)
 
 JSON structure for POST call api/actions in the inject-node for switching S1-relay from 0 (off) to 1 (on)
 

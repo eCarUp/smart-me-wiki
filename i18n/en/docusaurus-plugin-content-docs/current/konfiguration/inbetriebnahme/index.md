@@ -50,7 +50,7 @@ Android: Location, Camera
 - Telstar 80A, CT and M-Bus Gateway: A small screwdriver to press the T1 button
 
 
-![Commissioning – figure 1](/img/_en/configuration-commissioning/01.png)
+![Commissioning – figure 1](/img/konfiguration-inbetriebnahme/01.png)
 
 [App Store](https://apps.apple.com/ch/app/smart-me-installer/id6502614018)
 
@@ -109,12 +109,12 @@ If the installation fails, please follow the detailed instructions, including th
 
 ## Detailed instructions incl. error description
 
-![Commissioning – figure 2](/img/_en/configuration-commissioning/02.jpg)
+![Commissioning – figure 2](/img/konfiguration-inbetriebnahme/02.jpg)
 
 1.  ### Connect your smartphone to the WiFi network from which you want to install the smart-me hardware.
 
 
-![Commissioning – figure 3](/img/_en/configuration-commissioning/02.jpg)
+![Commissioning – figure 3](/img/konfiguration-inbetriebnahme/02.jpg)
 
 ### 2\. Log in or create a new account
 
@@ -261,7 +261,7 @@ Result of the automatic search 
 
 Automatic counter creation after search  (takes some minutes)
 
-![Commissioning – figure 17](/img/_en/configuration-commissioning/17.png)
+![Commissioning – figure 17](/img/konfiguration-inbetriebnahme/18.png)
 
 ### Numbering for combination counter
 
@@ -280,9 +280,9 @@ If a meter contains more than 1 meter, these are numbered as follows:
 - Sub-counter = These contain the last four digits of the main counter (e.g. 0145) and a four-digit enumeration number at the end (e.g. 01450001)
 
 
-![Commissioning – figure 18](/img/_en/configuration-commissioning/18.png)
+![Commissioning – figure 18](/img/konfiguration-inbetriebnahme/19.png)
 
-![Commissioning – figure 19](/img/_en/configuration-commissioning/19.png)
+![Commissioning – figure 19](/img/konfiguration-inbetriebnahme/20.png)
 
 ### Search for M-Bus gateway devices.
 
@@ -318,7 +318,7 @@ Gateway finds more meters than were installed.
     - Further causes can be found on the M-Bus gateway faults page. 
 
 
-![Commissioning – figure 20](/img/_en/configuration-commissioning/20.png)
+![Commissioning – figure 20](/img/konfiguration-inbetriebnahme/21.png)
 
 ### Prevent M-Bus gateway from detecting new devices
 
@@ -374,7 +374,7 @@ If the Pico is to be connected to Wi-Fi, it is advisable to quickly check whethe
 
 If 4G appears even though the Pico should be connected to Wi-Fi, you will need to reinstall the Pico. This can happen if a step during installation was not performed correctly, e.g. Wi-Fi password.
 
-![Commissioning – figure 22](/img/_en/configuration-commissioning/22.png)
+![Commissioning – figure 22](/img/konfiguration-inbetriebnahme/23.png)
 
 ### Pico Configuration and Multilevel Load Management
 
@@ -382,7 +382,7 @@ If 4G appears even though the Pico should be connected to Wi-Fi, you will need t
 
 [Multilevel load management](/konfiguration/multilevel-lastmanagement) 
 
-![Commissioning – figure 23](/img/_en/configuration-commissioning/22.png)
+![Commissioning – figure 23](/img/konfiguration-inbetriebnahme/23.png)
 
 ## Tips and tricks
 

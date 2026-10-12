@@ -174,8 +174,8 @@ Con le figure sottostanti scopri facilmente se ti servono licenze Professional n
 
 Nel conteggio RCP è determinante quale sistema tariffario deve essere rappresentato e se il conteggio deve avvenire in modo automatizzato.
 
-![Licenze cloud – Figura 1](/img/planung-cloud-lizenzen/01.png)
+![Licenze cloud – Figura 1](/img/planung-cloud-lizenzen/01_EN.png)
 
 ### Comando RCP
 
-![Licenze cloud – Figura 2](/img/planung-cloud-lizenzen/02.png)
+![Licenze cloud – Figura 2](/img/planung-cloud-lizenzen/02_EN.png)

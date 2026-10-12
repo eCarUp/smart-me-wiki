@@ -13,7 +13,7 @@ sidebar_label: 'Commissioning LoRa'
 3.  Enter the name and the device EUI. Alternatively, you can scan the QR code of the EUI with the camera.
 
 
-![Commissioning LoRa – figure 1](/img/_en/configuration-commissioning-commissioning-lora/01.png)
+![Commissioning LoRa – figure 1](/img/konfiguration-inbetriebnahme-inbetriebnahme-lora/01.png)
 
 ## 2\. Install and connect the LoRaWAN Gateway to the smart-me LoRa Gateway solution
 
@@ -45,4 +45,4 @@ Note: Untested devices will also work, Gateways just need to offer "Semtech" sup
 5.  Check the status of the sensor in the Lora device overview
 
 
-![Commissioning LoRa – figure 2](/img/_en/configuration-commissioning-commissioning-lora/02.png)
+![Commissioning LoRa – figure 2](/img/konfiguration-inbetriebnahme-inbetriebnahme-lora/02.png)

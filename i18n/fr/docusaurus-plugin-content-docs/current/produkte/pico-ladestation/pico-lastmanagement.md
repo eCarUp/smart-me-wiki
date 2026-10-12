@@ -72,7 +72,7 @@ Trois valeurs peuvent être choisies à cet effet :
     La puissance individuelle est automatiquement répartie par le gestionnaire de recharge sur les recharges actives.
 
 
-![Gestion de la charge Pico – illustration 3](/img/produkte-pico-ladestation-pico-lastmanagement/03.png)
+![Gestion de la charge Pico – illustration 3](/img/produkte-pico-ladestation-pico-lastmanagement/03_EN.png)
 
 ### Protection contre la surcharge du départ ou de l'alimentation
 

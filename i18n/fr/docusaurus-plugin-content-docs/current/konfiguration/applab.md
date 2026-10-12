@@ -4,7 +4,7 @@ slug: '/konfiguration/applab'
 description: 'Dans cette section, tu trouveras de nouvelles applications expérimentales que nous évaluons afin de proposer éventuellement plus tard une solution plus complète.'
 sidebar_label: 'AppLAB'
 ---
-![AppLAB – Illustration 1](/img/konfiguration-applab/01.png)
+![AppLAB – Illustration 1](/img/konfiguration-applab/01_EN.png)
 
 Dans cette section, tu trouveras de nouvelles applications expérimentales que nous évaluons afin de proposer éventuellement plus tard une solution plus complète.
 
@@ -12,4 +12,4 @@ Dans cette section, tu trouveras de nouvelles applications expérimentales que n
 
 Essaie-les tout simplement.
 
-![AppLAB – Illustration 2](/img/konfiguration-applab/02.png)
+![AppLAB – Illustration 2](/img/konfiguration-applab/02_EN.png)

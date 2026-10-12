@@ -54,7 +54,7 @@ The Sum all electricity meters function is helpful if you have an environment wi
 - If meters (e.g. solar or balance) are not required, they must be removed. The meters and the associated “+” must be removed.
 
 
-![Virtual Meters – figure 1](/img/_en/configuration-billing-virtual-meters/01.png)
+![Virtual Meters – figure 1](/img/konfiguration-billing-virtuelle-zaehler/02.png)
 
 ### Add the correct meters to the virtual total consumption
 

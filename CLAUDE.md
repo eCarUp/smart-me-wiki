@@ -109,7 +109,7 @@ Commit-Nachrichten.
 | `docs/` | Alle Inhalte auf Deutsch (Master) |
 | `i18n/<locale>/` | Generierte Übersetzungen — nicht von Hand pflegen |
 | `static/img/<seiten-slug>/` | Bilder, nach Seite gruppiert |
-| `static/img/_en/` | Bilder aus dem alten englischen Wiki |
+| `static/img/_en/` | Rest aus dem alten englischen Wiki — siehe unten |
 | `src/components/Video/` | Video-Einbettung, global in MDX verfügbar |
 | `src/css/tokens.css` | Design Tokens, unveränderte Kopie aus den Guidelines |
 | `src/css/custom.css` | Zuordnung der Tokens auf Docusaurus |
@@ -137,6 +137,10 @@ gepflegt — ein erneuter Migrationslauf würde manuelle Änderungen überschrei
   beim Übersetzen ein. Rückfallkette: Französisch und Italienisch nehmen das
   englische Bild, wenn sie keine eigene Fassung haben; fehlt auch die, bleibt
   das deutsche stehen.
+- `static/img/_en/` ist ein Rest aus der Migration und wächst nicht mehr. Dort
+  liegen nur noch die Bilder jener englischen Bestandsseiten, deren Aufbau vom
+  deutschen Master abweicht und für die sich deshalb kein Paar bilden liess.
+  Für **neue** Bilder gilt ausschliesslich die Suffix-Konvention oben.
 - Videos über `<Video src="<YouTube-ID>" title="…" />`, nicht als roher iframe.
 
 ## Build

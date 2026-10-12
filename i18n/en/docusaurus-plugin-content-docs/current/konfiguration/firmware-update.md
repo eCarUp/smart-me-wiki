@@ -19,7 +19,7 @@ With smart-me hardware, a firmware upgrade can be carried out at any time, provi
 2.  In the menu go to system / Firmware Update
 
 
-![Firmware Update – figure 1](/img/_en/configuration-firmware-update/01.png)
+![Firmware Update – figure 1](/img/konfiguration-firmware-update/01_EN.png)
 
 ### Perform firmware update
 
@@ -34,7 +34,7 @@ Note: To perform several updates in parallel, you can open several links in a ne
 
 
 
-![Firmware Update – figure 2](/img/_en/configuration-firmware-update/02.png)
+![Firmware Update – figure 2](/img/konfiguration-firmware-update/02.png)
 
 2\. Select “Update firmware”
 
@@ -45,7 +45,7 @@ Duration until start: 
 - For M-Bus Gateway it depends on the upload interval.
 
 
-![Firmware Update – figure 3](/img/_en/configuration-firmware-update/03.png)
+![Firmware Update – figure 3](/img/konfiguration-firmware-update/03.png)
 
 3\. Wait until the update is complete and confirm with “OK”
 
@@ -60,9 +60,9 @@ Duration until the update is complete: 
 - For M-Bus Gateway it depends on the upload interval.
 
 
-![Firmware Update – figure 4](/img/_en/configuration-firmware-update/04.png)
+![Firmware Update – figure 4](/img/konfiguration-firmware-update/04.png)
 
-![Firmware Update – figure 5](/img/_en/configuration-firmware-update/05.png)
+![Firmware Update – figure 5](/img/konfiguration-firmware-update/05.png)
 
 ### Speed up firmware update
 
@@ -79,7 +79,7 @@ If the update is actively monitored, it can be speeded up as follows:
 - Whether communication is active can be determined by the voltage. As this always fluctuates slightly, it is easy to see whether the device is now sending data every 1-2 seconds.
 
 
-![Firmware Update – figure 6](/img/_en/configuration-firmware-update/06.png)
+![Firmware Update – figure 6](/img/konfiguration-firmware-update/06.png)
 
 ### Firmware Release Notes
 

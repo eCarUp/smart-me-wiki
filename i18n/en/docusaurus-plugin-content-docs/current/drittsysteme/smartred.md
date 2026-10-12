@@ -24,7 +24,7 @@ Today, several thousand charging stations are intelligently managed via the eCar
 
 smartRED combines technological innovation with practical experience for a networked, sustainable and decentralised energy future.
 
-![smartRED – figure 1](/img/_en/third-party-systems-smartred/01.png)
+![smartRED – figure 1](/img/drittsysteme-smartred/01.png)
 
 ## Contact
 

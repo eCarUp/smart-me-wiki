@@ -29,10 +29,9 @@ Einspeisevergütung gegenüber.
 
 Die Lokale Elektrizitätsgemeinschaft (LEG) ist ein rechtliches Modell, das den Austausch und Verkauf von lokal produziertem Strom über das öffentliche Verteilnetz innerhalb eines regionalen Perimeters ermöglicht.
 
-### Die wichtigsten Merkmale:
+![Schema einer LEG: zwei vZEV und einzelne Liegenschaften tauschen Strom über das regionale Netz](/img/planung-leg-lokale-elektrizitaetsgemeinschaft/02.png)
 
-<div className="row">
-<div className="col col--7">
+### Die wichtigsten Merkmale:
 
 - Regionalität: Der Stromaustausch ist auf das Netzgebiet innerhalb einer Gemeinde beschränkt.
 
@@ -42,13 +41,7 @@ Die Lokale Elektrizitätsgemeinschaft (LEG) ist ein rechtliches Modell, das den 
 
 - Versorgungssicherheit: LEG-Verbraucher verbleiben weiterhin in der regulären Grundversorgung für den Reststrombedarf.
 
-</div>
-<div className="col col--5 text--center">
 
-![Schema einer LEG: zwei vZEV und einzelne Liegenschaften tauschen Strom über das regionale Netz](/img/planung-leg-lokale-elektrizitaetsgemeinschaft/02.png)
-
-</div>
-</div>
 
 ### Tarifierung und Konditionen
 

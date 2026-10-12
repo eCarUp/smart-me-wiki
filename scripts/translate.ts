@@ -556,6 +556,15 @@ ${(err as Error).message}`);
     options.limit,
   );
 
+  // Sprachvarianten von Bildern einsetzen, bevor ueber die Jobliste entschieden
+  // wird. Ein neu abgelegtes 03_EN.png aendert keine Seite unter docs/ und
+  // erzeugt deshalb keinen Uebersetzungsauftrag – der Austausch muss trotzdem
+  // stattfinden.
+  const images = await localizeImages(options.locales);
+  if (images.replacements.length > 0) {
+    console.log(`${images.replacements.length} sprachspezifische Bilder eingesetzt.`);
+  }
+
   if (jobs.length === 0) {
     console.log('Alle Übersetzungen sind aktuell.');
     return 0;
@@ -619,13 +628,6 @@ ${(err as Error).message}`);
   if (changed > 0) console.log(`${changed} Dateien mit angepassten Sprungmarken.`);
   for (const item of unresolved) {
     console.log(`  Sprungmarke ohne Ziel: ${item.file} -> #${item.anchor}`);
-  }
-
-  // Bildpfade bleiben beim Uebersetzen unveraendert. Gibt es zu einem Bild eine
-  // Sprachvariante (03.png -> 03_EN.png), wird sie hier eingesetzt.
-  const images = await localizeImages(options.locales);
-  if (images.replacements.length > 0) {
-    console.log(`${images.replacements.length} sprachspezifische Bilder eingesetzt.`);
   }
 
   console.log(`\n${done} übersetzt, ${failed} fehlgeschlagen.`);

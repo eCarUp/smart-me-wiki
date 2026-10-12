@@ -27,7 +27,7 @@ Le compteur monophasé smart-me 80A est un compteur d'énergie doté d'une inter
 
 ## Caractéristiques techniques
 
-<Embed src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQwIoMZViXao8dxkIFICgLCZSRrq0y5xWTFc2KwSY-seab4j4GP6asN_YRqtjIKoKanrFOG7bLHoVZi/pubhtml?gid=0&range=A1:B28&single=true&widget=false&headers=false&chrome=false" aspect="1.734" title="Compteur monophasé" />
+<Embed src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQwIoMZViXao8dxkIFICgLCZSRrq0y5xWTFc2KwSY-seab4j4GP6asN_YRqtjIKoKanrFOG7bLHoVZi/pubhtml?gid=0&range=A1:B28&single=true&widget=false&headers=false&chrome=false" height="636px" title="Compteur monophasé" />
 
 ## Écran
 

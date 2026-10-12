@@ -20,7 +20,7 @@ Pour pouvoir utiliser le fichier d'exemple, télécharge-le et ..
 2.  Mettre à jour les données de connexion de la requête selon les informations figurant dans le tableau « Dashboard ».
 
 
-<Embed src="https://drive.google.com/file/d/1xb5lgnMii5c1Bp7th9swMJrNhM4Go7ib/preview" aspect="1.330" title="Drive, API_Test_ValuesInPast_Example.xlsx" />
+<Embed src="https://drive.google.com/file/d/1xb5lgnMii5c1Bp7th9swMJrNhM4Go7ib/preview" height="520px" title="Drive, API_Test_ValuesInPast_Example.xlsx" />
 
 API\_Test\_ValuesInPast\_Example.xlsx
 

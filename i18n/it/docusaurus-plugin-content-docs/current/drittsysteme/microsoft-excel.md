@@ -20,7 +20,7 @@ Per poter utilizzare il file di esempio, scaricalo e ..
 2.  Aggiornare i dati di accesso della richiesta secondo le informazioni contenute nella tabella "Dashboard".
 
 
-<Embed src="https://drive.google.com/file/d/1xb5lgnMii5c1Bp7th9swMJrNhM4Go7ib/preview" aspect="1.330" title="Drive, API_Test_ValuesInPast_Example.xlsx" />
+<Embed src="https://drive.google.com/file/d/1xb5lgnMii5c1Bp7th9swMJrNhM4Go7ib/preview" height="520px" title="Drive, API_Test_ValuesInPast_Example.xlsx" />
 
 API\_Test\_ValuesInPast\_Example.xlsx
 

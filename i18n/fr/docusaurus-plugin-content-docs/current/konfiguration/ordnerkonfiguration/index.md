@@ -174,7 +174,7 @@ Les colonnes suivantes (ne pas modifier l'ordre) figurent dans un fichier CSV de
 
 [](https://drive.google.com/open?id=1Ft_fg6mxKZCpPND-i5ZoWN6kAKacnDXD8rJGeOB40KM "Open Spreadsheet, wiki 2.0 Tabellen in new window")
 
-<Embed src="https://docs.google.com/spreadsheets/d/1Ft_fg6mxKZCpPND-i5ZoWN6kAKacnDXD8rJGeOB40KM/htmlembed?gid=0" title="Tableur, tableaux wiki 2.0" />
+<Embed src="https://docs.google.com/spreadsheets/d/1Ft_fg6mxKZCpPND-i5ZoWN6kAKacnDXD8rJGeOB40KM/htmlembed?gid=0" height="252px" title="Tableur, tableaux wiki 2.0" />
 
 Tableaux wiki 2.0
 

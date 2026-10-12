@@ -16,6 +16,11 @@ type EmbedProps = {
   /**
    * Feste Höhe als CSS-Wert, wenn kein Seitenverhältnis bekannt ist.
    * Eingebettete Anwendungen können ihre Höhe nicht selbst melden.
+   *
+   * Eine hier angegebene Höhe gilt **genau so** – die Mindesthöhe aus dem
+   * Stylesheet wird ausgeschaltet. Das ist für eingebettete Tabellen nötig:
+   * eine Tabelle mit sechs Zeilen braucht keine 520 Pixel, und der leere
+   * Rest darunter sieht nach einem Fehler aus.
    */
   height?: string;
 };
@@ -31,10 +36,15 @@ export default function Embed({
   src,
   title,
   aspect,
-  height = '75vh',
+  height,
 }: EmbedProps): React.ReactElement {
   const ratio = aspect ? Number(aspect) : NaN;
-  const style = Number.isFinite(ratio) && ratio > 0 ? {aspectRatio: String(ratio)} : {height};
+  const style: React.CSSProperties =
+    height !== undefined
+      ? {height, minHeight: 0}
+      : Number.isFinite(ratio) && ratio > 0
+        ? {aspectRatio: String(ratio)}
+        : {height: '75vh'};
 
   // Bei Pfaden im eigenen Projekt fehlt sonst die baseUrl – anders als bei
   // Bildern im Markdown ergänzt Docusaurus sie in JSX-Attributen nicht selbst.

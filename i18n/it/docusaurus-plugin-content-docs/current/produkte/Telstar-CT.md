@@ -33,7 +33,7 @@ Lo smart-me Telstar CT è un contatore di energia certificato MID con interfacci
 
 ## Dati tecnici
 
-<Embed src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTJmdsIN6iLOfY_AML4DXbCamh1SwcZohszYBjYiVtusFdlA1zrAnZZu4ZFDsQP5pfZxvfloSHGBjkf/pubhtml?gid=0&range=A1:B28&single=true&widget=false&headers=false&chrome=false" aspect="1.963" title="Contatore trifase Telstar CT" />
+<Embed src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTJmdsIN6iLOfY_AML4DXbCamh1SwcZohszYBjYiVtusFdlA1zrAnZZu4ZFDsQP5pfZxvfloSHGBjkf/pubhtml?gid=0&range=A1:B28&single=true&widget=false&headers=false&chrome=false" height="680px" title="Contatore trifase Telstar CT" />
 
 ## Requisiti tecnici dei trasformatori
 

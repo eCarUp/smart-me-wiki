@@ -174,7 +174,7 @@ Folgende Spalten (Reihenfolge nicht ändern) sind in einer Konfigurations-CSV-Da
 
 [](https://drive.google.com/open?id=1Ft_fg6mxKZCpPND-i5ZoWN6kAKacnDXD8rJGeOB40KM "Open Spreadsheet, wiki 2.0 Tabellen in new window")
 
-<Embed src="https://docs.google.com/spreadsheets/d/1Ft_fg6mxKZCpPND-i5ZoWN6kAKacnDXD8rJGeOB40KM/htmlembed?gid=0" title="Spreadsheet, wiki 2.0 Tabellen" />
+<Embed src="https://docs.google.com/spreadsheets/d/1Ft_fg6mxKZCpPND-i5ZoWN6kAKacnDXD8rJGeOB40KM/htmlembed?gid=0" height="252px" title="Spreadsheet, wiki 2.0 Tabellen" />
 
 wiki 2.0 Tabellen
 

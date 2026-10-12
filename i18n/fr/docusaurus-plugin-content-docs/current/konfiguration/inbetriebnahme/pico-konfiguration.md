@@ -211,7 +211,7 @@ Délestage matériel (entrées externes de la Pico)
 
 [](https://drive.google.com/open?id=1CnvydIjsXnRTXNFNnteObEg5VLJM9RqU5_PA78Gd_kY "Ouvrir la feuille de calcul, délestage Pico dans une nouvelle fenêtre")
 
-<Embed src="https://docs.google.com/spreadsheets/d/1CnvydIjsXnRTXNFNnteObEg5VLJM9RqU5_PA78Gd_kY/htmlembed" title="Feuille de calcul, délestage Pico" />
+<Embed src="https://docs.google.com/spreadsheets/d/1CnvydIjsXnRTXNFNnteObEg5VLJM9RqU5_PA78Gd_kY/htmlembed" height="245px" title="Feuille de calcul, délestage Pico" />
 
 Délestage Pico
 

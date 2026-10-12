@@ -188,7 +188,7 @@ The following measured values are recorded by the meter and can be retrieved in 
 
 [](https://drive.google.com/open?id=1-f4I5ZWg1-PAHNpzCsQ0aBqrL9k93lH8q9AuN8toJgI "Open Spreadsheet, measured values (incl. OBIS codes) 3-Phase Meter V1 in new window")
 
-<Embed src="https://docs.google.com/spreadsheets/d/1-f4I5ZWg1-PAHNpzCsQ0aBqrL9k93lH8q9AuN8toJgI/htmlembed" aspect="2.882" title="Spreadsheet, measured values (incl. OBIS codes) 3-Phase Meter V1" />
+<Embed src="https://docs.google.com/spreadsheets/d/1-f4I5ZWg1-PAHNpzCsQ0aBqrL9k93lH8q9AuN8toJgI/htmlembed" height="655px" title="Spreadsheet, measured values (incl. OBIS codes) 3-Phase Meter V1" />
 
 Measured values (incl. OBIS codes) 3-Phase Meter V1
 

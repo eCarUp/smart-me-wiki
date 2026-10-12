@@ -148,7 +148,7 @@ I dettagli sul montaggio del piedistallo si trovano nelle istruzioni di montaggi
 
 [](https://drive.google.com/open?id=1CnvydIjsXnRTXNFNnteObEg5VLJM9RqU5_PA78Gd_kY "Aprire il foglio di calcolo, distacco del carico Pico, in una nuova finestra")
 
-<Embed src="https://docs.google.com/spreadsheets/d/1CnvydIjsXnRTXNFNnteObEg5VLJM9RqU5_PA78Gd_kY/htmlembed?gid=0" title="Foglio di calcolo, distacco del carico Pico" />
+<Embed src="https://docs.google.com/spreadsheets/d/1CnvydIjsXnRTXNFNnteObEg5VLJM9RqU5_PA78Gd_kY/htmlembed?gid=0" height="245px" title="Foglio di calcolo, distacco del carico Pico" />
 
 Distacco del carico Pico
 

@@ -145,7 +145,7 @@ ACHTUNG: Denke daran, die richtigen Werte  für die von dir gewählte Abrechnun
 
 [](https://drive.google.com/open?id=1mWbJe2QTUs5BnZdcZ7tJ1EwmQpi65nG0xFCrMNafJ4I "Open Spreadsheet, % Stromverbrauch Deutschland in new window")
 
-<Embed src="https://docs.google.com/spreadsheets/d/1mWbJe2QTUs5BnZdcZ7tJ1EwmQpi65nG0xFCrMNafJ4I/htmlembed?gid=0" title="Spreadsheet, % Stromverbrauch Deutschland" />
+<Embed src="https://docs.google.com/spreadsheets/d/1mWbJe2QTUs5BnZdcZ7tJ1EwmQpi65nG0xFCrMNafJ4I/htmlembed?gid=0" height="314px" title="Spreadsheet, % Stromverbrauch Deutschland" />
 
 % Stromverbrauch Deutschland
 

@@ -81,7 +81,7 @@ La configurazione è trattata in dettaglio qui: [Configurazione Pico](/konfigura
 
 ## Dati tecnici
 
-<Embed src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTmxJQ_thhwYfeefD_1PLiscIfGqbt-LrSa8pwwFBKwlmze109NOEt8Eyka2lroJoGS_FRiuGgtiAhh/pubhtml?gid=0&range=A1:B26&single=true&widget=false&headers=false&chrome=false" aspect="1.733" title="Stazione di ricarica Pico" />
+<Embed src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTmxJQ_thhwYfeefD_1PLiscIfGqbt-LrSa8pwwFBKwlmze109NOEt8Eyka2lroJoGS_FRiuGgtiAhh/pubhtml?gid=0&range=A1:B26&single=true&widget=false&headers=false&chrome=false" height="631px" title="Stazione di ricarica Pico" />
 
 [Scarica la scheda tecnica (.pdf)](https://docs.google.com/presentation/d/1tq5HPM2mc4Br8264vKs_yjMv4HauvtQM0A0DY87EMks/export/pdf)
 
@@ -179,7 +179,7 @@ I dettagli sul montaggio del piedistallo si trovano nelle istruzioni di montaggi
 
 [](https://drive.google.com/open?id=1CnvydIjsXnRTXNFNnteObEg5VLJM9RqU5_PA78Gd_kY "Apri il foglio di calcolo, distacco del carico Pico in una nuova finestra")
 
-<Embed src="https://docs.google.com/spreadsheets/d/1CnvydIjsXnRTXNFNnteObEg5VLJM9RqU5_PA78Gd_kY/htmlembed?gid=0" title="Foglio di calcolo, distacco del carico Pico" />
+<Embed src="https://docs.google.com/spreadsheets/d/1CnvydIjsXnRTXNFNnteObEg5VLJM9RqU5_PA78Gd_kY/htmlembed?gid=0" height="245px" title="Foglio di calcolo, distacco del carico Pico" />
 
 Distacco del carico Pico
 

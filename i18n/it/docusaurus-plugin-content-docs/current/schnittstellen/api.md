@@ -65,7 +65,7 @@ Un elenco del mapping tra endpoint e Claims è disponibile qui:
 
 [](https://drive.google.com/open?id=1b2bYdjBi4iCf7fUxpEPO9e8DNuhtEvA4_wIDKAJsiq0 "Apri il foglio di calcolo, Claims, in una nuova finestra")
 
-<Embed src="https://docs.google.com/spreadsheets/d/1b2bYdjBi4iCf7fUxpEPO9e8DNuhtEvA4_wIDKAJsiq0/htmlembed" aspect="2.353" title="Foglio di calcolo, Claims" />
+<Embed src="https://docs.google.com/spreadsheets/d/1b2bYdjBi4iCf7fUxpEPO9e8DNuhtEvA4_wIDKAJsiq0/htmlembed" height="720px" title="Foglio di calcolo, Claims" />
 
 Claims
 

@@ -61,7 +61,7 @@ Montage magnétique
 
 [](https://drive.google.com/open?id=1WURxhIS6zPpfSeOv-tfZqnRQKIBkGNP9x4_n1r5iVds "Ouvrir la feuille de calcul, Compteurs testés dans une nouvelle fenêtre")
 
-<Embed src="https://docs.google.com/spreadsheets/d/1WURxhIS6zPpfSeOv-tfZqnRQKIBkGNP9x4_n1r5iVds/htmlembed?gid=0" title="Feuille de calcul, Compteurs testés" />
+<Embed src="https://docs.google.com/spreadsheets/d/1WURxhIS6zPpfSeOv-tfZqnRQKIBkGNP9x4_n1r5iVds/htmlembed?gid=0" height="493px" title="Feuille de calcul, Compteurs testés" />
 
 Compteurs testés
 
@@ -69,7 +69,7 @@ Compteurs testés
 
 [](https://drive.google.com/open?id=10sNiDg0g8cwomZ-aEWn7gpCKbZLiay4X1O_fOJmM-QY "Ouvrir la feuille de calcul, codes de clignotement des LED du smart-eye dans une nouvelle fenêtre")
 
-<Embed src="https://docs.google.com/spreadsheets/d/10sNiDg0g8cwomZ-aEWn7gpCKbZLiay4X1O_fOJmM-QY/htmlembed" title="Feuille de calcul, codes de clignotement des LED du smart-eye" />
+<Embed src="https://docs.google.com/spreadsheets/d/10sNiDg0g8cwomZ-aEWn7gpCKbZLiay4X1O_fOJmM-QY/htmlembed" height="216px" title="Feuille de calcul, codes de clignotement des LED du smart-eye" />
 
 Codes de clignotement des LED du smart-eye
 

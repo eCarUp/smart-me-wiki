@@ -36,7 +36,7 @@ The smart-me M-Bus Gateways read out energy meters with an M-Bus interface (EN 1
 
 ### Technical data
 
-<Embed src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTS_V0Z-_eYRhsXEj3_EJEfKJUK_UP_ZtCxld8cwubPmkDx3eOCcscx_DfAkDd1ngnfvuES569q42lz/pubhtml?gid=0&range=A1:B22&single=true&widget=false&headers=false&chrome=false" aspect="1.637" title="M-Bus Gateway" />
+<Embed src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTS_V0Z-_eYRhsXEj3_EJEfKJUK_UP_ZtCxld8cwubPmkDx3eOCcscx_DfAkDd1ngnfvuES569q42lz/pubhtml?gid=0&range=A1:B22&single=true&widget=false&headers=false&chrome=false" height="575px" title="M-Bus Gateway" />
 
 ### Shipping information
 
@@ -89,7 +89,7 @@ Pressing button T(4) for 10 seconds creates a local WiFi network for installatio
 
 ### Technical data
 
-<Embed src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTmayprR4Vh48nmvnu_ZbxO2BDz8btgHbcJ9pR_-cv_irut8RWRsdGGeIUEGcU8p8qNdzdAKR6xG2kh/pubhtml?gid=0&range=A1:B25&single=true&widget=false&headers=false&chrome=false" aspect="0.933" title="M-Bus Gateway" />
+<Embed src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTmayprR4Vh48nmvnu_ZbxO2BDz8btgHbcJ9pR_-cv_irut8RWRsdGGeIUEGcU8p8qNdzdAKR6xG2kh/pubhtml?gid=0&range=A1:B25&single=true&widget=false&headers=false&chrome=false" height="697px" title="M-Bus Gateway" />
 
 ### Shipping information
 
@@ -142,7 +142,7 @@ The M-Bus Gateway reads out over 1000 meter types from various manufacturers. Be
 Note: Pay particular attention to how the meter is declared. It may be declared as a heat meter, a heat/cooling meter, a water meter or an electricity meter.
 Combined meters that are not declared as heat/cooling meters may under certain circumstances not work correctly in combination, or work only as a heat meter.
 
-<Embed src="https://drive.google.com/file/d/1PVhN_1lLolihf6eNQ_1x7UxZK8cjE_hq/preview" aspect="2.728" title="Drive, compatibility list M-Bus_Gateway.xlsx" />
+<Embed src="https://drive.google.com/file/d/1PVhN_1lLolihf6eNQ_1x7UxZK8cjE_hq/preview" height="700px" title="Drive, compatibility list M-Bus_Gateway.xlsx" />
 
 Kompatibilitätsliste M-Bus\_Gateway.xlsx
 

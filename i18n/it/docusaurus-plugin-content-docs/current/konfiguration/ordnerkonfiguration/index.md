@@ -174,7 +174,7 @@ Un file CSV di configurazione contiene le seguenti colonne (non modificare l'ord
 
 [](https://drive.google.com/open?id=1Ft_fg6mxKZCpPND-i5ZoWN6kAKacnDXD8rJGeOB40KM "Apri il foglio di calcolo, tabelle wiki 2.0 in una nuova finestra")
 
-<Embed src="https://docs.google.com/spreadsheets/d/1Ft_fg6mxKZCpPND-i5ZoWN6kAKacnDXD8rJGeOB40KM/htmlembed?gid=0" title="Foglio di calcolo, tabelle wiki 2.0" />
+<Embed src="https://docs.google.com/spreadsheets/d/1Ft_fg6mxKZCpPND-i5ZoWN6kAKacnDXD8rJGeOB40KM/htmlembed?gid=0" height="252px" title="Foglio di calcolo, tabelle wiki 2.0" />
 
 tabelle wiki 2.0
 

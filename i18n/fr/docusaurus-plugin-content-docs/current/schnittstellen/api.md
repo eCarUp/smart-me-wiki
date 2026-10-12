@@ -66,7 +66,7 @@ Vous trouverez ici une liste du mapping des endpoints vers les Claims :
 
 [](https://drive.google.com/open?id=1b2bYdjBi4iCf7fUxpEPO9e8DNuhtEvA4_wIDKAJsiq0 "Ouvrir la feuille de calcul, Claims dans une nouvelle fenêtre")
 
-<Embed src="https://docs.google.com/spreadsheets/d/1b2bYdjBi4iCf7fUxpEPO9e8DNuhtEvA4_wIDKAJsiq0/htmlembed" aspect="2.353" title="Feuille de calcul, Claims" />
+<Embed src="https://docs.google.com/spreadsheets/d/1b2bYdjBi4iCf7fUxpEPO9e8DNuhtEvA4_wIDKAJsiq0/htmlembed" height="720px" title="Feuille de calcul, Claims" />
 
 Claims
 

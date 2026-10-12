@@ -211,7 +211,7 @@ Distacco del carico via hardware (ingressi esterni della Pico)
 
 [](https://drive.google.com/open?id=1CnvydIjsXnRTXNFNnteObEg5VLJM9RqU5_PA78Gd_kY "Aprire il foglio di calcolo, Distacco del carico Pico, in una nuova finestra")
 
-<Embed src="https://docs.google.com/spreadsheets/d/1CnvydIjsXnRTXNFNnteObEg5VLJM9RqU5_PA78Gd_kY/htmlembed" title="Foglio di calcolo, Distacco del carico Pico" />
+<Embed src="https://docs.google.com/spreadsheets/d/1CnvydIjsXnRTXNFNnteObEg5VLJM9RqU5_PA78Gd_kY/htmlembed" height="245px" title="Foglio di calcolo, Distacco del carico Pico" />
 
 Distacco del carico Pico
 

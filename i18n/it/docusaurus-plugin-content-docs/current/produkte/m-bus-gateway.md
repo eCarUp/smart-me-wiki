@@ -36,7 +36,7 @@ I gateway M-Bus di smart-me leggono i contatori di energia con interfaccia M-Bus
 
 ### Dati tecnici
 
-<Embed src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTS_V0Z-_eYRhsXEj3_EJEfKJUK_UP_ZtCxld8cwubPmkDx3eOCcscx_DfAkDd1ngnfvuES569q42lz/pubhtml?gid=0&range=A1:B22&single=true&widget=false&headers=false&chrome=false" aspect="1.637" title="M-Bus Gateway" />
+<Embed src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTS_V0Z-_eYRhsXEj3_EJEfKJUK_UP_ZtCxld8cwubPmkDx3eOCcscx_DfAkDd1ngnfvuES569q42lz/pubhtml?gid=0&range=A1:B22&single=true&widget=false&headers=false&chrome=false" height="575px" title="M-Bus Gateway" />
 
 ### Informazioni di spedizione
 
@@ -89,7 +89,7 @@ Se il tasto T(4) viene premuto per 10 secondi, viene creata una rete WiFi locale
 
 ### Dati tecnici
 
-<Embed src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTmayprR4Vh48nmvnu_ZbxO2BDz8btgHbcJ9pR_-cv_irut8RWRsdGGeIUEGcU8p8qNdzdAKR6xG2kh/pubhtml?gid=0&range=A1:B25&single=true&widget=false&headers=false&chrome=false" aspect="0.933" title="M-Bus Gateway" />
+<Embed src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTmayprR4Vh48nmvnu_ZbxO2BDz8btgHbcJ9pR_-cv_irut8RWRsdGGeIUEGcU8p8qNdzdAKR6xG2kh/pubhtml?gid=0&range=A1:B25&single=true&widget=false&headers=false&chrome=false" height="697px" title="M-Bus Gateway" />
 
 ### Informazioni di spedizione
 
@@ -142,7 +142,7 @@ Il M-Bus Gateway legge oltre 1000 tipi di contatore di diversi produttori. Qui s
 Nota: presta esplicitamente attenzione a come è dichiarato il contatore. Può essere dichiarato come contatore di calore, contatore di calore / freddo, contatore dell'acqua o contatore di elettricità.
 I contatori combinati che non sono dichiarati come contatori di calore / freddo possono in certi casi non funzionare correttamente in modalità combinata o funzionare solo come contatore di calore.
 
-<Embed src="https://drive.google.com/file/d/1PVhN_1lLolihf6eNQ_1x7UxZK8cjE_hq/preview" aspect="2.728" title="Drive, lista di compatibilità M-Bus_Gateway.xlsx" />
+<Embed src="https://drive.google.com/file/d/1PVhN_1lLolihf6eNQ_1x7UxZK8cjE_hq/preview" height="700px" title="Drive, lista di compatibilità M-Bus_Gateway.xlsx" />
 
 Kompatibilitätsliste M-Bus\_Gateway.xlsx
 

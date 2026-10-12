@@ -145,7 +145,7 @@ ATTENTION: Remember to enter the correct values  for the billing period you have
 
 [](https://drive.google.com/open?id=1mWbJe2QTUs5BnZdcZ7tJ1EwmQpi65nG0xFCrMNafJ4I "Open Spreadsheet, % electricity consumption Germany in new window")
 
-<Embed src="https://docs.google.com/spreadsheets/d/1mWbJe2QTUs5BnZdcZ7tJ1EwmQpi65nG0xFCrMNafJ4I/htmlembed?gid=0" title="Spreadsheet, % electricity consumption Germany" />
+<Embed src="https://docs.google.com/spreadsheets/d/1mWbJe2QTUs5BnZdcZ7tJ1EwmQpi65nG0xFCrMNafJ4I/htmlembed?gid=0" height="314px" title="Spreadsheet, % electricity consumption Germany" />
 
 % Stromverbrauch Deutschland
 

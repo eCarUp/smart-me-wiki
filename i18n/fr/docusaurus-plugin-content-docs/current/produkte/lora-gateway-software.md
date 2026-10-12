@@ -83,7 +83,7 @@ Condition pour une intégration :
 
 [](https://drive.google.com/open?id=12I3do1d8wZTKA1V9mhF1-rQm-Iw9ZP8P_16gi1OJw2w "Ouvrir la feuille de calcul, liste de compatibilité LoRa Gateway dans une nouvelle fenêtre")
 
-<Embed src="https://docs.google.com/spreadsheets/d/12I3do1d8wZTKA1V9mhF1-rQm-Iw9ZP8P_16gi1OJw2w/htmlembed" title="Feuille de calcul, liste de compatibilité LoRa Gateway" />
+<Embed src="https://docs.google.com/spreadsheets/d/12I3do1d8wZTKA1V9mhF1-rQm-Iw9ZP8P_16gi1OJw2w/htmlembed" height="720px" title="Feuille de calcul, liste de compatibilité LoRa Gateway" />
 
 Liste de compatibilité LoRa Gateway
 

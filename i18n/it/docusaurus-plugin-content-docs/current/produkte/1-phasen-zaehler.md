@@ -27,7 +27,7 @@ Il contatore monofase smart-me 80A è un contatore di energia con interfaccia Wi
 
 ## Dati tecnici
 
-<Embed src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQwIoMZViXao8dxkIFICgLCZSRrq0y5xWTFc2KwSY-seab4j4GP6asN_YRqtjIKoKanrFOG7bLHoVZi/pubhtml?gid=0&range=A1:B28&single=true&widget=false&headers=false&chrome=false" aspect="1.734" title="Contatore monofase" />
+<Embed src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQwIoMZViXao8dxkIFICgLCZSRrq0y5xWTFc2KwSY-seab4j4GP6asN_YRqtjIKoKanrFOG7bLHoVZi/pubhtml?gid=0&range=A1:B28&single=true&widget=false&headers=false&chrome=false" height="636px" title="Contatore monofase" />
 
 ## Display
 

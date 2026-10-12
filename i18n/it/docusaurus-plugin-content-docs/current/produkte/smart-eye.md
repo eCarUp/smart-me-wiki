@@ -61,7 +61,7 @@ Montaggio magnetico
 
 [](https://drive.google.com/open?id=1WURxhIS6zPpfSeOv-tfZqnRQKIBkGNP9x4_n1r5iVds "Open Spreadsheet, Getestete Zähler in new window")
 
-<Embed src="https://docs.google.com/spreadsheets/d/1WURxhIS6zPpfSeOv-tfZqnRQKIBkGNP9x4_n1r5iVds/htmlembed?gid=0" title="Foglio di calcolo, contatori testati" />
+<Embed src="https://docs.google.com/spreadsheets/d/1WURxhIS6zPpfSeOv-tfZqnRQKIBkGNP9x4_n1r5iVds/htmlembed?gid=0" height="493px" title="Foglio di calcolo, contatori testati" />
 
 Contatori testati
 
@@ -69,7 +69,7 @@ Contatori testati
 
 [](https://drive.google.com/open?id=10sNiDg0g8cwomZ-aEWn7gpCKbZLiay4X1O_fOJmM-QY "Open Spreadsheet, smart-eye LED blink codes in new window")
 
-<Embed src="https://docs.google.com/spreadsheets/d/10sNiDg0g8cwomZ-aEWn7gpCKbZLiay4X1O_fOJmM-QY/htmlembed" title="Foglio di calcolo, codici lampeggianti LED smart-eye" />
+<Embed src="https://docs.google.com/spreadsheets/d/10sNiDg0g8cwomZ-aEWn7gpCKbZLiay4X1O_fOJmM-QY/htmlembed" height="216px" title="Foglio di calcolo, codici lampeggianti LED smart-eye" />
 
 smart-eye LED blink codes
 

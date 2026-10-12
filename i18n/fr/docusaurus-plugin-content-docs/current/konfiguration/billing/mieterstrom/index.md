@@ -145,7 +145,7 @@ ATTENTION : pense à insérer les valeurs correctes pour la période de décompt
 
 [](https://drive.google.com/open?id=1mWbJe2QTUs5BnZdcZ7tJ1EwmQpi65nG0xFCrMNafJ4I "Ouvrir la feuille de calcul, % consommation d'électricité Allemagne dans une nouvelle fenêtre")
 
-<Embed src="https://docs.google.com/spreadsheets/d/1mWbJe2QTUs5BnZdcZ7tJ1EwmQpi65nG0xFCrMNafJ4I/htmlembed?gid=0" title="Feuille de calcul, % consommation d'électricité Allemagne" />
+<Embed src="https://docs.google.com/spreadsheets/d/1mWbJe2QTUs5BnZdcZ7tJ1EwmQpi65nG0xFCrMNafJ4I/htmlembed?gid=0" height="314px" title="Feuille de calcul, % consommation d'électricité Allemagne" />
 
 % Stromverbrauch Deutschland
 

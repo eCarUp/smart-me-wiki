@@ -145,7 +145,7 @@ ATTENZIONE: ricorda di inserire i valori corretti  per il periodo di conteggio c
 
 [](https://drive.google.com/open?id=1mWbJe2QTUs5BnZdcZ7tJ1EwmQpi65nG0xFCrMNafJ4I "Open Spreadsheet, % Stromverbrauch Deutschland in new window")
 
-<Embed src="https://docs.google.com/spreadsheets/d/1mWbJe2QTUs5BnZdcZ7tJ1EwmQpi65nG0xFCrMNafJ4I/htmlembed?gid=0" title="Foglio di calcolo, % consumo di elettricità in Germania" />
+<Embed src="https://docs.google.com/spreadsheets/d/1mWbJe2QTUs5BnZdcZ7tJ1EwmQpi65nG0xFCrMNafJ4I/htmlembed?gid=0" height="314px" title="Foglio di calcolo, % consumo di elettricità in Germania" />
 
 % Stromverbrauch Deutschland
 

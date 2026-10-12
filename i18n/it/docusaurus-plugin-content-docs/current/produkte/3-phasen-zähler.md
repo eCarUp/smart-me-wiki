@@ -188,7 +188,7 @@ I seguenti valori di misura vengono rilevati dal contatore e sono richiamabili n
 
 [](https://drive.google.com/open?id=1-f4I5ZWg1-PAHNpzCsQ0aBqrL9k93lH8q9AuN8toJgI "Apri foglio di calcolo, valori di misura (inclusi codici Obis) contatore trifase V1 in una nuova finestra")
 
-<Embed src="https://docs.google.com/spreadsheets/d/1-f4I5ZWg1-PAHNpzCsQ0aBqrL9k93lH8q9AuN8toJgI/htmlembed" aspect="2.882" title="Foglio di calcolo, valori di misura (inclusi codici Obis) contatore trifase V1" />
+<Embed src="https://docs.google.com/spreadsheets/d/1-f4I5ZWg1-PAHNpzCsQ0aBqrL9k93lH8q9AuN8toJgI/htmlembed" height="655px" title="Foglio di calcolo, valori di misura (inclusi codici Obis) contatore trifase V1" />
 
 Valori di misura (inclusi codici Obis) contatore trifase V1
 

@@ -27,7 +27,7 @@ Der smart-me 1-Phasenzähler 80A ist ein Energiezähler mit integrierter WiFi-Sc
 
 ## Technische Daten
 
-<Embed src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQwIoMZViXao8dxkIFICgLCZSRrq0y5xWTFc2KwSY-seab4j4GP6asN_YRqtjIKoKanrFOG7bLHoVZi/pubhtml?gid=0&range=A1:B28&single=true&widget=false&headers=false&chrome=false" aspect="1.734" title="1-Phasen Zähler" />
+<Embed src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQwIoMZViXao8dxkIFICgLCZSRrq0y5xWTFc2KwSY-seab4j4GP6asN_YRqtjIKoKanrFOG7bLHoVZi/pubhtml?gid=0&range=A1:B28&single=true&widget=false&headers=false&chrome=false" height="636px" title="1-Phasen Zähler" />
 
 ## Display
 

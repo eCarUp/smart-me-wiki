@@ -478,7 +478,7 @@ auf der Pico-Seite aus — gezeigt wird dort nur der Bereich `A1:B26`:
 ```jsx
 <Embed
   src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTmxJQ…hh/pubhtml?gid=0&range=A1:B26&single=true&widget=false&headers=false&chrome=false"
-  aspect="1.733"
+  height="631px"
   title="Technische Daten der Pico Ladestation" />
 ```
 
@@ -504,10 +504,31 @@ dem Fragezeichen `/htmlembed` statt `/pubhtml`. Dann sieht die Einbettung aber
 nur, wer ohnehin Zugriff auf die Tabelle hat — für alle anderen bleibt der
 Rahmen leer. Im Wiki ist das fast nie gewollt.
 
-`aspect` ist das Seitenverhältnis Breite durch Höhe. Pass es so an, dass der
-Bereich ohne Scrollbalken hineinpasst: bei 26 Zeilen in zwei Spalten etwa
-`1.7`, bei einer langen schmalen Liste entsprechend kleiner. `title` ist
-Pflicht — ohne ihn ist der Rahmen für Screenreader namenlos.
+### Den Rahmen auf die Tabelle einstellen
+
+Bei einer Tabelle gehört in `height` eine **feste Höhe in Pixeln** — nicht
+`aspect`. Eine Tabelle ist nicht beliebig skalierbar: ihre Zeilen sind immer
+gleich hoch, egal wie breit das Fenster ist. Ein Seitenverhältnis macht den
+Rahmen auf einem grossen Bildschirm riesig und auf einem kleinen zu flach, und
+ohne beides stehen 75 % der Fensterhöhe da — bei sechs Zeilen sieht das nach
+einem Ladefehler aus.
+
+So kommst du an den Wert:
+
+1. Die Adresse der Einbettung im Browser direkt aufrufen.
+2. Das Fenster so weit verkleinern, bis es genau unter der letzten Zeile endet
+   (bei `/htmlembed` einschliesslich der Blattregister-Leiste unten).
+3. Diese Höhe eintragen, plus etwa 16 Pixel, wenn die Tabelle breiter ist als
+   die Textspalte und deshalb einen waagrechten Rollbalken bekommt.
+
+Mehr als **720 px** sollte kein Rahmen bekommen. Eine längere Tabelle wird
+sonst zur Wand, durch die man scrollen muss, bevor der Text weitergeht — bei
+dieser Höhe rollt stattdessen die Tabelle in ihrem Rahmen.
+
+Eine angegebene `height` gilt genau so; die Mindesthöhe von 520 px, die für
+eingebettete **Anwendungen** gilt, ist dann ausgeschaltet. `aspect` bleibt für
+Rechner und Konfiguratoren richtig, die sich mit der Breite mitskalieren.
+`title` ist Pflicht — ohne ihn ist der Rahmen für Screenreader namenlos.
 
 > **Vor dem Veröffentlichen prüfen, was in der Tabelle steht.** „Im Web
 > veröffentlichen" macht das gewählte Blatt für jeden mit der Adresse lesbar,

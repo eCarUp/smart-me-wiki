@@ -15,12 +15,9 @@ name: Übersetzungen aktualisieren
 on:
   push:
     branches: [main]
-     paths:
+    paths:
       - 'docs/**'
       - 'glossary.md'
-      # Eine neu abgelegte Sprachvariante (03_EN.png) aendert keine Seite unter
-      # docs/. Der Lauf muss trotzdem starten, damit der Bildpfad in den
-      # Uebersetzungen umgebogen wird.
       - 'static/img/**'
   workflow_dispatch:
     inputs:

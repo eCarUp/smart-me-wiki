@@ -29,32 +29,25 @@ the feed-in remuneration.
 
 The local electricity community (LEC) is a legal model that enables locally produced electricity to be exchanged and sold via the public distribution grid within a regional perimeter.
 
-### The key features:
+![Diagram of an LEC: two vZEVs and individual properties exchange electricity via the regional grid](/img/planung-leg-lokale-elektrizitaetsgemeinschaft/02.png)
 
-<div className="row">
-<div className="col col--7">
+### The key features:
 
 - Regionality: The exchange of electricity is limited to the grid area within a municipality.
 
-- Grid usage: Participants use parts of the distribution system operator's (DSO) grid. A reduced grid usage tariff applies for this.
+- Grid usage: Participants use parts of the grid of the distribution grid operator (DSO). A reduced grid usage tariff applies for this.
 
 - Combinability: A ZEV (association for own consumption) or a vZEV (virtual ZEV) can be integrated into an LEC as a participant.
 
-- Security of supply: LEC consumers remain in the regular basic supply for their remaining electricity demand.
+- Security of supply: LEC consumers remain in the regular basic supply for their residual electricity demand.
 
-</div>
-<div className="col col--5 text--center">
 
-![Diagram of an LEC: two vZEVs and individual properties exchange electricity via the regional grid](/img/planung-leg-lokale-elektrizitaetsgemeinschaft/02.png)
-
-</div>
-</div>
 
 ### Tariffs and conditions
 
-The price of solar power within the LEC is not set by the DSO but by the community itself. However, the DSO charges a grid usage fee for the energy transmitted. The maximum discount on the grid usage fee is currently 40%. (As of Q1 2026)
+The price of solar power within the LEC is not set by the DSO but determined by the community itself. However, the DSO charges a grid usage fee for the energy transmitted. The maximum discount on the grid usage fee is currently 40%. (As of Q1 2026)
 
-Detailed information, including the VSE industry recommendation on LECs, is available at: [www.lokalerstrom.ch](http://www.lokalerstrom.ch)
+Detailed information as well as the VSE industry recommendation on the LEC can be found at: [www.lokalerstrom.ch](http://www.lokalerstrom.ch)
 
 ### Status at smart-me
 

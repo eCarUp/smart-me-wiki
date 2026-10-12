@@ -185,6 +185,39 @@ kurz, was zu sehen ist — nicht „Screenshot", sondern zum Beispiel
 **Bitte vor dem Hochladen verkleinern.** Screenshots brauchen selten mehr als
 1600 Pixel Breite. Grosse Bilder machen die Seite langsam.
 
+### Ein anderes Bild für eine andere Sprache
+
+Ein Screenshot mit deutscher Oberfläche steht sonst auch auf der englischen
+Seite. Soll dort ein anderes Bild erscheinen, legst du es **mit Sprachsuffix
+neben das deutsche**:
+
+```
+static/img/konfiguration-ordnerkonfiguration/03.png      deutsch
+static/img/konfiguration-ordnerkonfiguration/03_EN.png   englisch
+static/img/konfiguration-ordnerkonfiguration/03_FR.png   französisch
+static/img/konfiguration-ordnerkonfiguration/03_IT.png   italienisch
+```
+
+Mehr ist nicht zu tun. Die Seite unter `docs/` verweist unverändert auf
+`03.png` — beim Übersetzen wird der Pfad automatisch umgebogen, sobald die
+Variante existiert. Fehlt sie, bleibt das deutsche Bild stehen. Du kannst also
+mit den zwei, drei Bildern anfangen, bei denen es wirklich stört.
+
+Drei Regeln:
+
+- Die Datei **ohne** Suffix ist die deutsche. Ein `_DE` gibt es nicht.
+- Die Variante braucht **dieselbe Dateiendung** wie das Original: zu `03.png`
+  gehört `03_EN.png`, nicht `03_EN.jpg`.
+- Das Suffix schreibst du gross: `_EN`, `_FR`, `_IT`.
+
+Wird das deutsche Bild später ersetzt, bleibt die Variante auf dem alten Stand,
+ohne dass es jemandem auffällt. `npm run translate:check` meldet solche Fälle
+als *veraltete Bildvariante*.
+
+> Nicht zu verwechseln mit dem Ordner `static/img/_en/`. Dort liegen Bilder aus
+> dem alten englischen Wiki, die zu den übernommenen Bestandsseiten gehören —
+> ein anderer Mechanismus, der mit dem Sprachsuffix nichts zu tun hat.
+
 ---
 
 ## Bild neben Text stellen

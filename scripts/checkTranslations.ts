@@ -20,6 +20,7 @@
 import {readFile, readdir} from 'node:fs/promises';
 import {existsSync} from 'node:fs';
 import {join, sep} from 'node:path';
+import {staleVariants, withoutLocaleSuffix} from './localizeImages';
 import {pathToFileURL} from 'node:url';
 import matter from 'gray-matter';
 import {DOCS_ROOT, TARGET_LOCALES, docsRootFor, loadState, type Locale} from './translate';
@@ -93,7 +94,11 @@ function compare(de: Shape, other: Shape): string[] {
       `Überschriften-Gliederung weicht ab: ${list(other.headings)} statt ${list(de.headings)}`,
     );
   }
-  if (list(de.images) !== list(other.images)) {
+  // Sprachvarianten eines Bildes (03.png -> 03_EN.png) sind gewollt und
+  // werden von scripts/localizeImages.ts eingesetzt. Fuer den Vergleich zaehlt
+  // deshalb das Bild ohne Suffix.
+  const bare = (paths: string[]) => list(paths.map(withoutLocaleSuffix));
+  if (bare(de.images) !== bare(other.images)) {
     problems.push(`Bildpfade weichen ab: ${list(other.images)} statt ${list(de.images)}`);
   }
   if (list(de.links) !== list(other.links)) {
@@ -179,6 +184,17 @@ if (import.meta.url === pathToFileURL(process.argv[1]).href) {
         `${files.size} mit Abweichungen (${findings.length} Befunde). ` +
         `${skipped} Bestandsinhalte übersprungen.`,
     );
+
+    // Hinweis, kein Befund: Eine veraltete Bildvariante macht die Seite nicht
+    // kaputt, sie zeigt nur einen alten Stand. Der Prüflauf schlägt deshalb
+    // nicht fehl, meldet es aber.
+    const stale = await staleVariants();
+    for (const item of stale) {
+      console.log(`  veraltete Bildvariante: ${item.variant} (Original ${item.original} ist neuer)`);
+    }
+    if (stale.length > 0) {
+      console.log(`${stale.length} Sprachvarianten sind älter als ihr deutsches Original.`);
+    }
     process.exitCode = findings.length > 0 ? 1 : 0;
   })();
 }

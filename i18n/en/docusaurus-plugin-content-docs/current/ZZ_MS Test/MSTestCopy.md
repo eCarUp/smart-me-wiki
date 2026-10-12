@@ -180,7 +180,7 @@ The protective earth conductor should be connected to the upper connection screw
 </div>
 <div className="col col--5 text--center">
 
-![Pico EV Charger – Figure 3](/img/produkte-pico-ladestation/03.jpg)
+![Pico EV Charger – Figure 3](/img/produkte-pico-ladestation/03_EN.jpg)
 
 </div>
 </div>

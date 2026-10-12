@@ -27,6 +27,7 @@ import {existsSync} from 'node:fs';
 import {dirname, join, sep} from 'node:path';
 import {pathToFileURL} from 'node:url';
 import {fixAnchors} from './fixAnchors';
+import {localizeImages} from './localizeImages';
 
 export const DOCS_ROOT = 'docs';
 export const STATE_FILE = '.translation-state.json';
@@ -618,6 +619,13 @@ ${(err as Error).message}`);
   if (changed > 0) console.log(`${changed} Dateien mit angepassten Sprungmarken.`);
   for (const item of unresolved) {
     console.log(`  Sprungmarke ohne Ziel: ${item.file} -> #${item.anchor}`);
+  }
+
+  // Bildpfade bleiben beim Uebersetzen unveraendert. Gibt es zu einem Bild eine
+  // Sprachvariante (03.png -> 03_EN.png), wird sie hier eingesetzt.
+  const images = await localizeImages(options.locales);
+  if (images.replacements.length > 0) {
+    console.log(`${images.replacements.length} sprachspezifische Bilder eingesetzt.`);
   }
 
   console.log(`\n${done} übersetzt, ${failed} fehlgeschlagen.`);

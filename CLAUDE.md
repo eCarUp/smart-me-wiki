@@ -131,6 +131,10 @@ gepflegt — ein erneuter Migrationslauf würde manuelle Änderungen überschrei
 - Überschriften brauchen keine expliziten `{#id}` — die Anker entstehen
   automatisch aus dem Text. Explizite IDs vertragen sich hier nicht mit MDX.
 - Bilder liegen unter `static/img/…` und werden als `/img/…` referenziert.
+  Soll eine Sprache ein anderes Bild zeigen, wird es mit Suffix danebengelegt
+  (`03.png` deutsch, `03_EN.png`, `03_FR.png`, `03_IT.png`) — die Seite unter
+  `docs/` bleibt unverändert, `scripts/localizeImages.ts` setzt die Variante
+  beim Übersetzen ein. Ohne Variante bleibt das deutsche Bild stehen.
 - Videos über `<Video src="<YouTube-ID>" title="…" />`, nicht als roher iframe.
 
 ## Build

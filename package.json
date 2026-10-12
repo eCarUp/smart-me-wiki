@@ -19,7 +19,8 @@
     "migrate:english": "tsx scripts/migration/importEnglish.ts",
     "translate": "tsx scripts/translate.ts",
     "translate:check": "tsx scripts/checkTranslations.ts",
-    "translate:anchors": "tsx scripts/fixAnchors.ts"
+    "translate:anchors": "tsx scripts/fixAnchors.ts",
+    "translate:images": "tsx scripts/localizeImages.ts"
   },
   "dependencies": {
     "@docusaurus/core": "3.10.2",

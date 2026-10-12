@@ -142,7 +142,7 @@ The behavior of the display is described on the page [Pico Display](/produkte/pi
 
 ## Pico connections and dimensions
 
-![Pico EV charging station – figure 3](/img/produkte-pico-ladestation/03.jpg)
+![Pico EV charging station – figure 3](/img/produkte-pico-ladestation/03_EN.jpg)
 
 ### Connection diagram
 

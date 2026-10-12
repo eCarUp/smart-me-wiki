@@ -198,7 +198,7 @@ Load shedding can either be wired to all Picos or, as a minimum, to one from eac
 
 Alternatively, load shedding can also be carried out via [multilevel load management](/konfiguration/multilevel-lastmanagement/mlm-konfigurieren) using meter input signals.
 
-![Pico EV charging station – figure 5](/img/produkte-pico-ladestation/05.png)
+![Pico EV charging station – figure 5](/img/produkte-pico-ladestation/05_EN.png)
 
 ![Pico EV charging station – figure 6](/img/produkte-pico-ladestation/06.png)
 

@@ -222,7 +222,7 @@ COM is the neutral conductor. IN1 and IN2 must be supplied with a voltage for th
 </div>
 <div className="col col--5 text--center">
 
-![Pico EV Charger – Figure 5](/img/produkte-pico-ladestation/05.png)
+![Pico EV Charger – Figure 5](/img/produkte-pico-ladestation/05_EN.png)
 
 </div>
 </div>

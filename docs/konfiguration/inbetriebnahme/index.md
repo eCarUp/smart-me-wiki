@@ -54,7 +54,7 @@ Android: Standort, Kamera
 
 - Telstar 80A, CT und M-Bus Gateway: Ein kleiner Schraubenzieher zum drücken der Taste T1
 
-![Inbetriebnahme – Abbildung 1](/img/konfiguration-inbetriebnahme/01.png)
+![Symbol der smart-me Installer App: ein gekreuztes Werkzeugpaar auf blauem Grund](/img/konfiguration-inbetriebnahme/01.png)
 
 [App Store](https://apps.apple.com/ch/app/smart-me-installer/id6502614018)
 
@@ -112,91 +112,186 @@ Sollte die Installation fehlschlagen, bitte die detaillierte Anleitung inkl. Feh
 
 ## Detailliert Anleitung inkl. Fehlerbeschreibung
 
-![Inbetriebnahme – Abbildung 2](/img/konfiguration-inbetriebnahme/02.jpg)
+<div className="row">
+<div className="col col--4">
 
-### 1\. WIFI Verbindung
+**1. WIFI Verbindung**
 
-![Inbetriebnahme – Abbildung 3](/img/konfiguration-inbetriebnahme/02.jpg)
+Verbinde das Smartphone mit demselben 2,4-GHz-WLAN, in das die Geräte später sollen.
 
-### 2\. Erstellung / Verbindung
+</div>
+<div className="col col--4">
 
-![Inbetriebnahme – Abbildung 4](/img/konfiguration-inbetriebnahme/04.jpg)
+**2. Erstellung / Verbindung**
 
-### 3\. Kontoerstellung
+<div className="text--center">
 
-Mögliche Probleme:
+![Willkommensbildschirm der Installer App mit den Knöpfen LOG IN und Registrieren](/img/konfiguration-inbetriebnahme/02.jpg)
 
-Wenn die Email bereits verwendet wird, muss eine andere verwendet werden.
+</div>
 
-![Inbetriebnahme – Abbildung 5](/img/konfiguration-inbetriebnahme/05.jpg)
+</div>
+<div className="col col--4">
 
-### 4\. Kontoanmeldung
+**3. Kontoerstellung**
 
-Mögliche Probleme:
+<div className="text--center">
 
-- Wenn das Login nicht möglich ist, prüfe bitte, ob das WiFi eine Internetverbindung hat
+![Registrierungsformular der App mit E-Mail, Passwort und Bestätigung](/img/konfiguration-inbetriebnahme/04.jpg)
 
-- Wenn das Login nicht möglich ist, kann der Username oder das Passwort falsch sein.
+</div>
 
-![Inbetriebnahme – Abbildung 6](/img/konfiguration-inbetriebnahme/06.png)
+**Mögliche Probleme:** Wird die E-Mail-Adresse bereits verwendet, muss eine andere genommen werden.
 
-### 5\. Diagnose
+</div>
+</div>
 
-Dieser Schritt ist Optional.
+<div className="row">
+<div className="col col--4">
 
-- Wichtig ist dass die Server erreichbar auf Yes sind.
+**4. Kontoanmeldung**
 
-- Wenn die Warnung wegen des 5-GHz-Netzwerks erscheint, musst du sicherstellen, dass auch ein 2,4-GHz-Netzwerk erzeugt wird. Es ist nicht möglich, das Smartphone dazu zu zwingen, sich mit dem 2,4-GHz-Netzwerk zu verbinden. Aus diesem Grund erscheint es als Warnung.
+<div className="text--center">
 
-![Inbetriebnahme – Abbildung 7](/img/konfiguration-inbetriebnahme/07.jpg)
+![Anmeldeformular der App mit E-Mail und Passwort](/img/konfiguration-inbetriebnahme/05.jpg)
 
-### 6\. Klicke auf „Gerät hinzufügen“ (+)
+</div>
 
-![Inbetriebnahme – Abbildung 8](/img/konfiguration-inbetriebnahme/08.jpg)
+**Mögliche Probleme:** Ist kein Login möglich, prüfe, ob das WLAN eine Internetverbindung hat und ob Benutzername und Passwort stimmen.
 
-### 7\. Klicke auf "Editieren"
+</div>
+<div className="col col--4">
 
-Hinweis
+**5. Diagnose**
 
-- Dieser Schritt kann ignoriert werden, wenn Picos über 4G in Betrieb genommen werden.
+<div className="text--center">
 
-![Inbetriebnahme – Abbildung 9](/img/konfiguration-inbetriebnahme/09.jpg)
+![WLAN-Check mit Signalstärke, WLAN-Frequenz und Servererreichbarkeit](/img/konfiguration-inbetriebnahme/06.png)
 
-### 8\. Trage das WLAN Passwort ein
+</div>
 
-Mögliche Probleme:
+Dieser Schritt ist optional. Wichtig ist, dass „Server erreichbar" auf *Yes* steht.
 
-- Wenn die SSID als &lt;&lt;unknown>> angezeigt wird, muss der Standort aktiviert werden und das Smartphone muss mit einem WLAN verbunden werden sein.
+Erscheint die Warnung wegen des 5-GHz-Netzwerks, muss zusätzlich ein 2,4-GHz-Netz vorhanden sein. Das Smartphone lässt sich nicht dazu zwingen, dieses zu nehmen — deshalb nur eine Warnung.
 
-![Inbetriebnahme – Abbildung 10](/img/konfiguration-inbetriebnahme/10.jpg)
+</div>
+<div className="col col--4">
 
-### 9\. Klicke auf „Gerät hinzufügen“ (+)
+**6. Klicke auf „Gerät hinzufügen" (+)**
 
-![Inbetriebnahme – Abbildung 11](/img/konfiguration-inbetriebnahme/11.jpg)
+<div className="text--center">
 
-### 10\. Scanne den QR Code
+![Leere Geräteliste der App mit dem Plus-Knopf unten rechts](/img/konfiguration-inbetriebnahme/07.jpg)
 
-Mögliche Probleme:
+</div>
 
-- Wenn der QR Code nicht erkennt wird, kann die Seriennummer auch manuell eingegeben werden.
+</div>
+</div>
 
-![Inbetriebnahme – Abbildung 12](/img/konfiguration-inbetriebnahme/12.jpg)
+<div className="row">
+<div className="col col--4">
 
-### 11\. Verbinde dich mit dem WLAN des Zählers
+**7. Klicke auf „Editieren"**
 
-![Inbetriebnahme – Abbildung 13](/img/konfiguration-inbetriebnahme/13.jpg)
+<div className="text--center">
 
-### 12\. Nur bei Pico "Verbindungsart auswählen"
+![Geräteliste mit grün markiertem Editieren neben dem Installations-WLAN](/img/konfiguration-inbetriebnahme/08.jpg)
 
-![Inbetriebnahme – Abbildung 14](/img/konfiguration-inbetriebnahme/14.jpg)
+</div>
 
-### 13\. T1 Taste drücken oder RFID scannen
+**Hinweis:** Dieser Schritt entfällt, wenn Picos über 4G in Betrieb genommen werden.
 
-Hinweis bei Pico: Beachte, dass du pro Pico 15 Minuten Zeit hast, um den Installationsprozess abzuschliessen. Andernfalls musst du die Pico neu starten und den Prozess von vorne beginnen.
+</div>
+<div className="col col--4">
 
-![Inbetriebnahme – Abbildung 15](/img/konfiguration-inbetriebnahme/15.jpg)
+**8. Trage das WLAN-Passwort ein**
 
-### 14\. Warten bis Verbindung erfolgreich ist
+<div className="text--center">
+
+![Eingabefeld für das Passwort des Installations-WLAN](/img/konfiguration-inbetriebnahme/09.jpg)
+
+</div>
+
+**Mögliche Probleme:** Steht als SSID `<<unknown>>`, muss der Standort aktiviert und das Smartphone mit einem WLAN verbunden sein.
+
+</div>
+<div className="col col--4">
+
+**9. Klicke auf „Gerät hinzufügen" (+)**
+
+<div className="text--center">
+
+![Geräteliste mit gesetztem Installations-WLAN und dem Plus-Knopf unten rechts](/img/konfiguration-inbetriebnahme/10.jpg)
+
+</div>
+
+</div>
+</div>
+
+<div className="row">
+<div className="col col--4">
+
+**10. Scanne den QR-Code**
+
+<div className="text--center">
+
+![QR-Code-Scanner der App über dem Typenschild eines Zählers](/img/konfiguration-inbetriebnahme/11.jpg)
+
+</div>
+
+**Mögliche Probleme:** Wird der QR-Code nicht erkannt, lässt sich die Seriennummer auch von Hand eingeben.
+
+</div>
+<div className="col col--4">
+
+**11. Verbinde dich mit dem WLAN des Zählers**
+
+<div className="text--center">
+
+![Geräteliste mit dem Hinweis, sich mit dem WLAN des Gerätes zu verbinden](/img/konfiguration-inbetriebnahme/12.jpg)
+
+</div>
+
+</div>
+<div className="col col--4">
+
+**12. Nur bei Pico: „Verbindungsart auswählen"**
+
+<div className="text--center">
+
+![Dialog Verbindungsart mit den Knöpfen WLAN und MOBILE](/img/konfiguration-inbetriebnahme/13.jpg)
+
+</div>
+
+</div>
+</div>
+
+<div className="row">
+<div className="col col--4">
+
+**13. T1-Taste drücken oder RFID scannen**
+
+<div className="text--center">
+
+![Anleitung mit Zeichnung, die T1-Taste am Gerät gedrückt zu halten](/img/konfiguration-inbetriebnahme/14.jpg)
+
+</div>
+
+**Hinweis bei Pico:** Pro Pico bleiben 15 Minuten, um die Installation abzuschliessen. Danach muss die Pico neu gestartet und der Vorgang von vorne begonnen werden.
+
+</div>
+<div className="col col--4">
+
+**14. Warten, bis die Verbindung steht**
+
+<div className="text--center">
+
+![Geräteliste mit der grünen Meldung Erfolgreich](/img/konfiguration-inbetriebnahme/15.jpg)
+
+</div>
+
+</div>
+</div>
 
 ## Gerätespezifische Einstellung
 
@@ -204,17 +299,26 @@ Hinweis bei Pico: Beachte, dass du pro Pico 15 Minuten Zeit hast, um den Install
 
 ### Wandlerverhältnis setzen
 
+<div className="row">
+<div className="col col--8">
+
 - CT Zähler anwählen und editieren 
 
 - Wandlerverhältnis eingeben 
 
 - Das Wandler-Verhältnis kann gesperrt werden. Dies dient als Schutz vor ungewollten Änderungen von unbefugten Personen. Damit das Wandlerverhältnis entsperrt werden kann,  muss das Gerät nochmals mit der smart-me App installiert werden.
 
+</div>
+<div className="col col--4 text--center">
+
+![Gerätedetails in der App mit dem Wandlerfaktor 200:5 und dem Schalter „Wandlerfaktor sperren"](/img/konfiguration-inbetriebnahme/16.jpg)
+
+</div>
+</div>
+
 ### Hinweis:
 
 Das Wandlerverhältnis ändert keine historischen Daten. Daher sollte dieser Schritt sofort nach der Inbetriebnahme erfolgen.
-
-![Inbetriebnahme – Abbildung 16](/img/konfiguration-inbetriebnahme/16.jpg)
 
 ## M-Bus Gateway / Sirius
 
@@ -249,12 +353,12 @@ Wichtig: Die Sekundäradresse muss pro smart-me Konto eindeutig sein, zusätzlic
 
 Ergebnis des automatischen Suchlaufs
 
-![Inbetriebnahme – Abbildung 17](/img/konfiguration-inbetriebnahme/17.png)
+![Ergebnis des Suchlaufs im Portal: Status, letzte Verbindung und eine Liste von 19 gefundenen Zählern mit ihrer Sekundäradresse](/img/konfiguration-inbetriebnahme/17.png)
 
 Automatische Zählererstellung nach Suchlauf
 (benötigt ein paar Minuten)
 
-![Inbetriebnahme – Abbildung 18](/img/konfiguration-inbetriebnahme/18.png)
+![Zählerbaum einer Wohnung mit den Einträgen Kälte, Strom, Wärme und Warmwasser](/img/konfiguration-inbetriebnahme/18.png)
 
 ### Nummerierung bei Kombizähler
 
@@ -274,9 +378,9 @@ Enthält ein Zähler mehr als 1 Zähler, werden diese jeweils wie folgt nummerie
 
 Hinweis zu führenden 0er: Wenn ein Zähler z.B. die Nummer 1000017 hat, werden nach dem abschneiden die führenden 0er nicht berücksichtigt werden also z.B. 000017 und werden am Schluss angefügt z.B. 1700001
 
-![Inbetriebnahme – Abbildung 19](/img/konfiguration-inbetriebnahme/19.png)
+![Einzelner gefundener Zähler „Heat 71440145" mit seiner Adressierung](/img/konfiguration-inbetriebnahme/19.png)
 
-![Inbetriebnahme – Abbildung 20](/img/konfiguration-inbetriebnahme/20.png)
+![Vier Zähler eines Kombizählers: zweimal Cold, einmal Heat und einmal Water](/img/konfiguration-inbetriebnahme/20.png)
 
 ### M-Bus Gateway Geräte suchen
 
@@ -308,7 +412,7 @@ Gateway findet mehr Zähler als verbaut wurden
 
 - Weitere Ursachen findest du auf der Seite [M-Bus Gateway Störungen](/stoerungsbehebung/mbus-gateway-stoerungen) 
 
-![Inbetriebnahme – Abbildung 21](/img/konfiguration-inbetriebnahme/21.png)
+![Menü des M-Bus Gateways im Portal mit dem grün hervorgehobenen Knopf „Geräte suchen"](/img/konfiguration-inbetriebnahme/21.png)
 
 ### M-Bus Gateway erkennung von neuen Geräte unterbinden
 
@@ -346,7 +450,7 @@ Technische Erklärung
 
 - Das standardisierte M-Bus Protokoll hat nur 1 byte für die Prüfsumme. Die Prüfsumme ist dazu gedacht, bestimmte Fehler in der Datenübermittlung zu erkennen. Leider ist 1 byte wenig und kann immer wieder dazu führen, dass ein fehlerhaftes Datenpaket als korrekt und gut angesehen wird. Dies führt bei einigen Installationen, bei denen M-Bus Gateways eingesetzt werden, immer wieder dazu, dass korrupte Pakete als korrekt und gut eingestuft werden und diese dann als neues M-Bus Gerät in unserer Cloud erkannt und hinzugefügt werden. Das Konto fällt dann von Professional auf Basic, da die Lizenzabdeckung nicht mehr gewährleistet ist.
 
-![Inbetriebnahme – Abbildung 22](/img/konfiguration-inbetriebnahme/22.png)
+![Einstellungen des M-Bus Gateways mit markiertem Haken „Don't allow to add additional meters" und dem Speichern-Knopf](/img/konfiguration-inbetriebnahme/22.png)
 
 ## Pico E-Ladestation
 
@@ -358,7 +462,7 @@ Wenn die Pico mit WLAN verbunden werden soll, ist es ratsam, kurz zu prüfen, ob
 
 Erscheint das 4G, obwohl die Pico mit WLAN verbunden sein soll, muss man die Pico neu installieren. Dies kann passieren, wenn ein Schritt bei der Installation nicht korrekt durchgeführt wurde, z.B. WLAN-Passwort.
 
-![Inbetriebnahme – Abbildung 23](/img/konfiguration-inbetriebnahme/23.png)
+![Statusanzeige einer Pico Ladestation im Portal mit rot markiertem WLAN-Symbol](/img/konfiguration-inbetriebnahme/23.png)
 
 ### Pico Konfiguration & Lastmanagement
 
@@ -366,17 +470,29 @@ Erscheint das 4G, obwohl die Pico mit WLAN verbunden sein soll, muss man die Pic
 
 [Multilevel Lastmanagement](/konfiguration/multilevel-lastmanagement) 
 
-![Inbetriebnahme – Abbildung 24](/img/konfiguration-inbetriebnahme/23.png)
+![Statusanzeige einer Pico Ladestation im Portal mit rot markiertem WLAN-Symbol](/img/konfiguration-inbetriebnahme/23.png)
 
 ## Tipps und Tricks
 
 ### Mehrere Geräte in Betrieb nehmen
 
+<div className="row">
+<div className="col col--8">
+
 In diesem Schritt hast du die Möglichkeit, mehrere Zähler gleichzeitig in Betrieb zu nehmen, um die Inbetriebnahme bei vielen Zählern zu beschleunigen.
 
-![Inbetriebnahme – Abbildung 25](/img/konfiguration-inbetriebnahme/10.jpg)
+</div>
+<div className="col col--4 text--center">
+
+![Geräteliste mit gesetztem Installations-WLAN und dem Plus-Knopf unten rechts](/img/konfiguration-inbetriebnahme/10.jpg)
+
+</div>
+</div>
 
 ### Ausloggen
+
+<div className="row">
+<div className="col col--4">
 
 1.  Oben links auf die drei Striche und Profil Wählen
 
@@ -384,9 +500,18 @@ In diesem Schritt hast du die Möglichkeit, mehrere Zähler gleichzeitig in Betr
 
 3.  Ausgeloggt
 
-![Inbetriebnahme – Abbildung 26](/img/konfiguration-inbetriebnahme/26.jpg)
+</div>
+<div className="col col--4 text--center">
 
-![Inbetriebnahme – Abbildung 27](/img/konfiguration-inbetriebnahme/27.jpg)
+![Seitenmenü der App mit dem markierten Eintrag Benutzer Profil](/img/konfiguration-inbetriebnahme/26.jpg)
+
+</div>
+<div className="col col--4 text--center">
+
+![Profilseite der App mit dem Knopf Abmelden am unteren Rand](/img/konfiguration-inbetriebnahme/27.jpg)
+
+</div>
+</div>
 
 ### Installation Fehlgeschlagen
 

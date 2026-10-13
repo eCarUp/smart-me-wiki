@@ -34,13 +34,6 @@ const sidebars: SidebarsConfig = {
         },
         'produkte/1-phasen-zaehler',
         'produkte/eingestellte-produkte',
-        'produkte/1-phasen-zaehler-32a',
-        'produkte/3-phasen-zähler',
-        'produkte/kamstrup-modul',
-        'produkte/landis-gyr-modul',
-        'produkte/pico-ladestation-exa',
-        'produkte/plug',
-        'produkte/smart-eye',
       ],
     },
     {

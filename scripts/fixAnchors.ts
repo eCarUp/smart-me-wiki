@@ -135,7 +135,12 @@ export async function fixAnchors(
 
           // Ein ausdrücklich vergebenes Sprungziel (`<details id="…">`) heisst
           // in jeder Sprache gleich und bleibt deshalb unangetastet.
-          const ids = idsByTarget.get(relativePath) ?? idsBySource.get(relativePath) ?? [];
+          // Geprüft wird gegen beide Seiten: Solange die Übersetzung noch nicht
+          // neu erzeugt ist, trägt nur die deutsche Vorlage die ID.
+          const ids = [
+            ...(idsByTarget.get(relativePath) ?? []),
+            ...(idsBySource.get(relativePath) ?? []),
+          ];
           if (ids.includes(anchor)) return match;
 
           const index = deSlugs.indexOf(anchor);

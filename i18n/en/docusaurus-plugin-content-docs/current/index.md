@@ -1,10 +1,10 @@
 ---
 title: 'Technical data & manuals'
 slug: '/'
-description: 'Access a comprehensive collection of technical data, operating instructions and installation notes for smart-me products as well as the software settings.'
+description: 'Access a comprehensive collection of technical data, operating instructions and installation notes for smart-me products and the software settings.'
 sidebar_label: 'smart-me Wiki EN'
 ---
-Access a comprehensive collection of technical data, operating instructions and installation notes for smart-me products as well as the software settings.
+Access a comprehensive collection of technical data, operating instructions and installation notes for smart-me products and the software settings.
 
 ## News
 
@@ -12,14 +12,14 @@ Access a comprehensive collection of technical data, operating instructions and 
 
 You can now tariff emergency power systems in an alternative way.  
 
-Since there is often no space for the solar meter, you can now simply tariff using the house connection and total consumption, without having to go to the trouble of adding the solar meter.
+Since there is often no space for the solar meter, you can now simply tariff using the house connection and total consumption, without having to add the solar meter in a cumbersome way.
 
-To do this, select the solar tariff incl. vZEV (Solartarif inkl. vZEV):
-\- Reference meter: Consumption and balance (Referenzzähler: Verbrauch und Bilanz)
+To do this, select the solar tariff incl. vZEV:
+\- Reference meter: Consumption and balance (Verbrauch und Bilanz)
 
-The tariffs are now calculated correctly without a solar meter, which saves you cumbersome installation and conversion work.
+The tariffs are now calculated correctly without a solar meter, saving you cumbersome installation and conversion work.
 
-Note: If it is possible to install a solar power meter, please do not hesitate to do so. Full coverage of the metering concept can compensate for incorrect data caused by meter defects, whereas systematically omitting meters removes this possibility.
+Note: If it is possible to install a solar power meter, please do not hesitate to do so. Full coverage of the metering concept can compensate for incorrect data caused by meter defects; systematically omitting meters removes this possibility.
 
 [More details](/planung/Messkonzept-Notstromloesung)
 
@@ -39,13 +39,14 @@ solarmanager\_update\_2026.mp4
 
 ## NEW: Invoice preview V1
 
-You can now generate an invoice preview before creating live invoices.
+You can now generate an invoice preview before creating final invoices.
 
 - Check your configurations quickly and easily.
 
 - Validate your billing more easily
 
-- No more incorrect invoices without prior validation.
+- No more generating incorrect invoices without prior validation.
+
 
 Where?
 
@@ -57,7 +58,7 @@ Billing (Rechnungsstellung) --> Invoices (Rechnungen)
 
 ## Update to our GTC & privacy policies
 
-We have updated our General Terms and Conditions (GTC) and privacy policies. To regulate data processing within our group of companies in the best possible legal way, the documents have been supplemented with a so-called "Joint Controller Agreement" (JCA). The updated versions are available online for review with immediate effect.
+We have updated our General Terms and Conditions (GTC) and privacy policies. To regulate data processing within our group of companies in the best possible legal way, the documents have been supplemented with a so-called "Joint Controller Agreement" (JCA). The updated versions are now available online for review.
 
 [→ To the GTC & privacy policies](https://web.smart-me.com/agb-smart-me-ag/)
 
@@ -67,13 +68,14 @@ Prepare for a smooth transition to our new, modern platform. Get a quick overvie
 
 - Order deadline in the old shop: Place urgent orders by 26 June 2026 at 11:00. After that, the old system will be shut down. 
 
-- Bridging via email & phone: During the transition phase (29 June – 1 July), simply order directly from us. 
+- Bridging by email & phone: During the transition phase (29 June – 1 July), simply order directly from us. 
 
-- Activation for existing accounts: Use the activation link you will receive by email on 30 June from our new service provider Odoo.  
+- Activation for existing accounts: Use the activation link that you will receive by email on 30 June from our new service provider Odoo.  
 
 - Familiar discounts & prices: Continue to benefit from your individual conditions, which are already stored in the new system. 
 
 - Launch of the new platform: From 1 July 2026, shop quickly and easily in the new shop.  
+
 
 ## Update: Online electricity and solar tariff calculator
 
@@ -83,6 +85,7 @@ Prepare for a smooth transition to our new, modern platform. Get a quick overvie
 
 - Dedicated specification of the entries in smart-me Billing
 
+
 [→ To the tariff calculator for electricity and solar](/konfiguration/billing/stromtarife-definieren/stromtarif-rechner)
 
 ![Technical data & manuals – Figure 4](/img/home/04.png)
@@ -91,7 +94,7 @@ Prepare for a smooth transition to our new, modern platform. Get a quick overvie
 
 You can now also bill dynamic grid tariffs to your tenants. 
 
-We import the dynamic tariff from your provider and apply it every 15 minutes to the actual grid consumption of the respective consumer.
+We import the dynamic tariff from your provider and apply it every 15 minutes to the effective grid consumption of the respective consumer.
 
 [→ More information on the tariffs](/konfiguration/billing/stromtarife-definieren)
 
@@ -103,45 +106,52 @@ We import the dynamic tariff from your provider and apply it every 15 minutes to
 
 Lets you create personalized dashboards such as energy flows and overview displays of your building.
 
+
+
 ![Technical data & manuals – Figure 7](/img/home/07.png)
 
 [→ Learn more](/konfiguration/my-dashboards)
 
-- Energy map
+- Energy map (Energiekarte)
 
-- Energy flows
+- Energy flows (Energieflüsse)
+
 
 ![Technical data & manuals – Figure 8](/img/home/08.png)
 
 ## New: Technical tools
 
-In the new Technical tools section, you will find aids for installing and maintaining the installation.
+In the new Technical tools (Technische Tools) section, you will find aids for installation and maintenance of the installation.
+
+
 
 ![Technical data & manuals – Figure 9](/img/home/09.png)
 
 [→ Learn more](/konfiguration/technische-tools)
 
-- Installation check
+- Installation check (Installationsprüfung)
+
 
 ![Technical data & manuals – Figure 10](/img/home/10.png)
 
 ## New: AppLAB
 
-The new AppLAB section is an experimental area that provides various features in order to test their effectiveness.
+The new AppLAB section is an experimental area that provides various features to test their effectiveness.
 
 ![Technical data & manuals – Figure 11](/img/home/11.png)
 
 [→ Learn more](/konfiguration/applab)
 
-- Peak load explorer
+- Peak load explorer (Spitzenlast-Explorer)
 
-- Reactive power report
+- Reactive power report (Blindleistungsbericht)
 
-- Battery emulator
+- Battery emulator (Batterie-Emulator)
 
-- ESG report
+- ESG report (ESG-Bericht)
 
-- Autobill setup wizard
+- Autobill setup wizard (Autobill Einrichtungsassistent)
+
 
 ## New: UI overhaul
 
@@ -149,11 +159,13 @@ The entire smart-me UI has received a design refresh.
 
 - Nothing has changed in terms of usage.
 
+
 ![Technical data & manuals – Figure 12](/img/home/12.png)
 
 ## New: ZEV performance overview
 
-Check the production and yields of your ZEV in the new "ZEV Performance" visualization. Get a quick overview of:
+Check the production and yields of your ZEV (association for own consumption) in the new "ZEV Performance" visualization. Get a quick overview of:
+
 
 - Energy flows with the new energy flow visualization
 
@@ -161,9 +173,12 @@ Check the production and yields of your ZEV in the new "ZEV Performance" visuali
 
 - Peaks in consumption from and feed-in to the grid
 
-- Identify high-production days with the heat map visualization
+- Identify production-rich days with the heat map visualization
 
 - Analyze the efficiency of your battery in the ZEV
+
+
+
 
 [→ More information on the new visualizations](/konfiguration/visualisierung)
 
@@ -173,11 +188,13 @@ Check the production and yields of your ZEV in the new "ZEV Performance" visuali
 
 Existing visualizations:
 
-Existing visualizations are getting a new design. They are updated automatically without any additional configuration.
+Existing visualizations receive a new design. They are updated automatically without any additional configuration.
 
 New Pico visualization:
 
-Take a look at the new Pico visualization, which displays all Pico charge points and their charging groups at a glance – with current draw, occupancy, maximum power consumption and much more.
+Take a look at the new Pico visualization, which shows all Pico charge points and their charging groups at a glance – with current draw, occupancy, maximum power consumption and much more.
+
+
 
 [→ More information on the new visualizations](/konfiguration/visualisierung)
 
@@ -187,23 +204,24 @@ Take a look at the new Pico visualization, which displays all Pico charge points
 
 ## The new M-Bus gateway Sirius is here!
 
-Our product family continues to grow: with Sirius, we are launching our most powerful gateway yet for large building infrastructures.
+Our product family continues to grow: with the Sirius, we are launching our most powerful gateway yet for large building infrastructures.
 
-- Massive capacity – up to 250 M-Bus standard loads in one device. 
+- Massive capacity – Up to 250 M-Bus standard loads in one device. 
 
-- Multi-energy – water, heat, cooling and gas managed centrally. 
+- Multi-energy – Water, heat, cooling and gas centrally under control. 
 
-- Maximum security – huge data memory in the event of connection failures.
+- Maximum security – Huge data memory in case of connection failures.
 
-[→ More information on Sirius](/produkte/m-bus-gateway#m-bus-gateway-sirius-250-standard-loads)
+
+[→ More information on the Sirius](/produkte/m-bus-gateway#m-bus-gateway-sirius-250-standard-loads)
 
 ![Technical data & manuals – Figure 16](/img/home/16.jpg)
 
-## NEW: VAT – billing it correctly
+## NEW: VAT - Charging it correctly
 
-Applying VAT is an important point in billing. To avoid making mistakes, you will find instructions here on how to correctly show VAT for your case.
+Applying VAT is an important point in billing. To avoid mistakes, you will find instructions here on how to correctly show VAT for your case.
 
-VAT law on the ZEV is changing almost as quickly as the technology.
+VAT legislation on the ZEV (association for own consumption) is changing almost as quickly as the technology.
 
 [→ More information for our partners](/konfiguration/billing/mwst-zev-nebenkosten)
 
@@ -211,43 +229,34 @@ VAT law on the ZEV is changing almost as quickly as the technology.
 
 ## FAQs
 
-<details id="wo-kann-ich-mein-login-passwort--e-mail-adresse-ändern">
-<summary>Where can I change my login password / email address?</summary>
+### Where can I change my login password / email address?
 
 To change your login password, go to [smart-me.com](https://web.smart-me.com/login/) and log in with your existing user account. Click on your user name (top right) and select Settings (Einstellungen). Click on Change password (Passwort ändern).
 
-If you have forgotten your password, you can reset it using the forgotten password function. However, a valid email address must have been used when the account was created.
+If you have forgotten your password, it can be reset using the forgotten password function. However, a valid email address must have been used when the account was created.
 
-</details>
-
-<details id="wie-kann-ich-mein-abonnement-kündigen">
-<summary>How can I cancel my subscription?</summary>
+### How can I cancel my subscription?
 
 To cancel your Cloud License subscription, go to smart-me.com and log in.
 Then click on the user name at the top right and select Settings (Einstellungen).
 Then go to Payment (Bezahlung), Cancel subscription (Abo kündigen) and confirm with Yes (Ja).
 
-</details>
+### Why does my deleted meter reappear in the cloud?
 
-<details id="wieso-erscheint-mein-gelöschter-zähler-wieder-in-der-cloud">
-<summary>Why does my deleted meter reappear in the cloud?</summary>
-
-When a meter is deleted in the cloud, all of its data in the cloud is deleted. If this meter sends data to the cloud again after the deletion, the cloud recreates the meter (including a new meter ID). However, the meter's past measurement data is irretrievably deleted. If/then actions or settings in Billing also do not refer to the "new" meter and would have to be reconfigured accordingly. 
+If a meter is deleted in the cloud, all its data in the cloud is deleted. If this meter sends data to the cloud again after the deletion, the cloud creates the meter again (including a new meter ID). However, the past measurement data of the meter is irretrievably deleted. If/then actions or settings in Billing also do not refer to the "new" meter and would have to be reconfigured accordingly. 
 
 The following measures can prevent the meter from sending data to the cloud again and thus being recreated: 
 
-- Install the meter in another account, to which it can then send the data. 
+- Install the meter in another account, where it can then send the data. 
 
-- Stop supplying power to the meter. However, as soon as the meter is powered again and has an internet connection, it sends the data to the cloud again. 
+- Stop powering the meter. However, as soon as the meter is powered again and has an internet connection, it will send the data to the cloud again. 
 
-- Delete the meter's Wi-Fi (see "[Can the stored WiFi information be deleted?](/konfiguration/inbetriebnahme#können-die-gespeicherten-wifi-informationen-gelöscht-werden)").  Without internet, the meter can no longer send any data. 
+- Delete the meter's Wi-Fi (see "[Can the stored WiFi information be deleted?](/konfiguration/inbetriebnahme#können-die-gespeicherten-wifi-informationen-gelöscht-werden)").  Without internet, the meter can no longer send data. 
 
-Alternatively, you can also deactivate the meter in the cloud. A deactivated meter does not require any licenses and you can reactivate it at any time and access its data. 
 
-</details>
+Alternatively, you can also deactivate the meter in the cloud. A deactivated meter does not require any licenses, and you can reactivate it at any time and access its data. 
 
-<details id="wie-deaktiviere-ich-meinen-zähler">
-<summary>How do I deactivate my meter?</summary>
+### How do I deactivate my meter?
 
 If the account is on the Basic license model.
 
@@ -263,7 +272,8 @@ If the account is on the Basic license model.
 
 6.  Save (Speichern)
 
-7.  Go back to the main overview or refresh the browser
+7.  Return to the main overview or refresh the browser
+
 
 If the account is on the Limited or Professional license model.
 
@@ -277,15 +287,14 @@ If the account is on the Limited or Professional license model.
 
 5.  Click on Edit node (Knoten editieren) (on the green tile at the top)
 
-6.  Remove the tick next to Meter active (Zähler aktiv)
+6.  Remove the tick from Meter active (Zähler aktiv)
 
-7.  Press Save (Speichern).
+7.  Click Save (Speichern).
 
-Alternatively, you can drag the meters all into one folder (e.g. "deactivated meters") and deactivate all meters at once by right-clicking on the corresponding folder, Bulk actions (Massenaktionen), Deactivate all meters (Alle Zähler deaktivieren). 
 
-Note on deactivated meters: A deactivated meter no longer costs a license, but you can also no longer access the meter's past data while it is deactivated. In addition, no new measurement data from the meter is stored in the cloud for the period in which the meter is deactivated.  
+Alternatively, you can drag the meters all into one folder (e.g. "deactivated meters") and deactivate all meters at the same time by right-clicking on the corresponding folder, Bulk actions (Massenaktionen), Deactivate all meters (Alle Zähler deaktivieren). 
 
-</details>
+Note on deactivated meters: A deactivated meter no longer costs a license, but you can also no longer access the meter's past data while it is deactivated. In addition, no new measurement data of the meter is stored in the cloud for the time during which the meter is deactivated.  
 
 ## Contact
 
@@ -293,7 +302,7 @@ If you cannot find an answer to your question here, our support team will be hap
 
 ### Important to know
 
-smart-me is a hardware and technology supplier. We do not carry out projects and do not configure systems for end customers. Our technical support is generally aimed exclusively at certified partners.
+smart-me is a hardware and technology supplier. We do not implement projects and do not configure systems for end customers. Our technical support is generally aimed exclusively at certified partners.
 
 ### For private customers
 
@@ -305,7 +314,7 @@ As a private customer, you can find our project partners on this map:
 
 Would you like to become a partner or attend a training course?
 
-[To the registration for partner training](https://web.smart-me.com/partner-werden/)
+[To the registration for the partner training](https://web.smart-me.com/partner-werden/)
 
 ### Contact for sales & partnerships
 

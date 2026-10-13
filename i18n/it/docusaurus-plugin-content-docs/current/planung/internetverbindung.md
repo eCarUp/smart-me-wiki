@@ -19,7 +19,7 @@ Livelli di ridondanza
 
 - Mettere a disposizione più access point con lo stesso SSID e la stessa password. Tutti i prodotti smart-me selezionano automaticamente un access point con connessione Internet.
 
-- Memorizzare più reti WiFi sul dispositivo smart-me: [Posso utilizzare il mio dispositivo con più reti WiFi?](/konfiguration/inbetriebnahme)
+- Memorizzare più reti WiFi sul dispositivo smart-me: [Posso utilizzare il mio dispositivo con più reti WiFi?](/konfiguration/inbetriebnahme#kann-ich-mein-gerät-mit-mehreren-wifi-netzwerken-nutzen)
 
 
 ![Connessione Internet – Figura 1](/img/planung-internetverbindung/01.png)

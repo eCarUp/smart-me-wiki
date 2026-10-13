@@ -50,7 +50,7 @@ Corregge nel cloud il valore misurato dal contatore. (Calcoli di posizione)
 Correzione del valore nella cartella superiore (Überordner Wert Korrektur):
 Definisce in percentuale quanta parte del valore misurato deve essere sommata nella cartella superiore.
 Contatore attivo (Zähler aktiv):
-Attiva o disattiva un contatore per risparmiare licenze. I contatori disattivati non mostrano più dati. Ulteriori informazioni sui contatori disattivati sono disponibili nelle nostre FAQ alla voce [Come disattivo il mio contatore?](/)
+Attiva o disattiva un contatore per risparmiare licenze. I contatori disattivati non mostrano più dati. Ulteriori informazioni sui contatori disattivati sono disponibili nelle nostre FAQ alla voce [Come disattivo il mio contatore?](/#wie-deaktiviere-ich-meinen-zähler)
 
 Per attivare o disattivare più contatori contemporaneamente, puoi spostarli in una cartella nella configurazione dei contatori e delle cartelle (Zähler- / Ordnerkonfiguration), fare clic con il tasto destro su di essa e scegliere un'azione di massa. 
 

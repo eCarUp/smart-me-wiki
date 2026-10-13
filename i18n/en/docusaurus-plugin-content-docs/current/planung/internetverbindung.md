@@ -19,7 +19,7 @@ Redundancy levels
 
 - Provide several access points with the same SSID and password. All smart-me products automatically select an access point with an internet connection.
 
-- Store several Wi-Fi networks on the smart-me device: [Can I use my device with several Wi-Fi networks?](/konfiguration/inbetriebnahme)
+- Store several Wi-Fi networks on the smart-me device: [Can I use my device with several Wi-Fi networks?](/konfiguration/inbetriebnahme#kann-ich-mein-gerät-mit-mehreren-wifi-netzwerken-nutzen)
 
 
 ![Internet Connection – Figure 1](/img/planung-internetverbindung/01.png)

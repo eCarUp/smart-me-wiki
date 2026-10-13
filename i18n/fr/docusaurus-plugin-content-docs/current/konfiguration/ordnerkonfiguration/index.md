@@ -50,7 +50,7 @@ Corrige la valeur mesurée du compteur côté cloud. (Calculs de position)
 Correction de valeur du dossier parent (Überordner Wert Korrektur) :
 Définit en pourcentage la part de la valeur mesurée à additionner dans le dossier parent.
 Compteur actif (Zähler aktiv) :
-Activez ou désactivez un compteur pour économiser des licences. Les compteurs désactivés n'affichent plus de données. Vous trouverez plus d'informations sur les compteurs désactivés dans notre FAQ, sous [Comment désactiver mon compteur ?](/)
+Activez ou désactivez un compteur pour économiser des licences. Les compteurs désactivés n'affichent plus de données. Vous trouverez plus d'informations sur les compteurs désactivés dans notre FAQ, sous [Comment désactiver mon compteur ?](/#wie-deaktiviere-ich-meinen-zähler)
 
 Pour activer ou désactiver plusieurs compteurs à la fois, vous pouvez les déplacer dans un dossier dans la configuration des compteurs et des dossiers, faire un clic droit sur ce dossier et choisir une action groupée. 
 

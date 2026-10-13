@@ -51,6 +51,17 @@ export function headingSlugs(content: string): string[] {
   return slugs;
 }
 
+/**
+ * Ausdrücklich vergebene Sprungziele, etwa `<details id="…">` im FAQ.
+ *
+ * Sie stehen in einem JSX-Attribut und werden deshalb nicht übersetzt – ein
+ * Anker darauf gilt in allen Sprachen unverändert. Ohne diese Liste hielte der
+ * Lauf ihn für eine verwaiste Marke und schnitte ihn vom Link ab.
+ */
+export function explicitIds(content: string): string[] {
+  return [...matter(content).content.matchAll(/\sid="([^"]+)"/g)].map((m) => m[1]);
+}
+
 async function walk(dir: string): Promise<string[]> {
   if (!existsSync(dir)) return [];
   const out: string[] = [];
@@ -74,12 +85,14 @@ export async function fixAnchors(
   // Form /produkte/nimbus der zugehörigen Datei zuordnen lässt.
   const pathBySlug = new Map<string, string>();
   const slugsBySource = new Map<string, string[]>();
+  const idsBySource = new Map<string, string[]>();
   for (const source of sources) {
     const content = await readFile(source, 'utf8');
     const slug = (matter(content).data as {slug?: string}).slug;
     const relativePath = source.slice(`${DOCS_ROOT}/`.length);
     if (slug) pathBySlug.set(slug.replace(/\/$/, '') || '/', relativePath);
     slugsBySource.set(relativePath, headingSlugs(content));
+    idsBySource.set(relativePath, explicitIds(content));
   }
 
   let changed = 0;
@@ -91,11 +104,12 @@ export async function fixAnchors(
 
     // Anker der übersetzten Seiten, damit Verweise darauf umgebogen werden können.
     const slugsByTarget = new Map<string, string[]>();
+    const idsByTarget = new Map<string, string[]>();
     for (const target of targets) {
-      slugsByTarget.set(
-        target.slice(`${root}/`.length),
-        headingSlugs(await readFile(target, 'utf8')),
-      );
+      const inhalt = await readFile(target, 'utf8');
+      const rel = target.slice(`${root}/`.length);
+      slugsByTarget.set(rel, headingSlugs(inhalt));
+      idsByTarget.set(rel, explicitIds(inhalt));
     }
 
     for (const target of targets) {
@@ -118,6 +132,11 @@ export async function fixAnchors(
           // Der Anker trifft bereits eine Überschrift der Zielseite – nichts zu
           // tun. Damit ist der Lauf auch mehrfach ausführbar.
           if (localeSlugs.includes(anchor)) return match;
+
+          // Ein ausdrücklich vergebenes Sprungziel (`<details id="…">`) heisst
+          // in jeder Sprache gleich und bleibt deshalb unangetastet.
+          const ids = idsByTarget.get(relativePath) ?? idsBySource.get(relativePath) ?? [];
+          if (ids.includes(anchor)) return match;
 
           const index = deSlugs.indexOf(anchor);
           if (index >= 0 && index < localeSlugs.length) {

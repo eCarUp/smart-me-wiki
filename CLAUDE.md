@@ -142,6 +142,12 @@ gepflegt — ein erneuter Migrationslauf würde manuelle Änderungen überschrei
   deutschen Master abweicht und für die sich deshalb kein Paar bilden liess.
   Für **neue** Bilder gilt ausschliesslich die Suffix-Konvention oben.
 - Videos über `<Video src="<YouTube-ID>" title="…" />`, nicht als roher iframe.
+- FAQ-Fragen sind aufklappbar: `<details id="…"><summary>Frage</summary>` und
+  die Antwort darunter, mit Leerzeilen davor und danach. Die `id` ist der
+  Anker der Frage und in allen Sprachen dieselbe — Attribute werden nicht
+  übersetzt. Sie bleibt stehen, auch wenn die Frage umformuliert wird.
+  `src/clientModules/openAnchorDetails.ts` klappt eine verlinkte Antwort beim
+  Aufruf auf; `scripts/fixAnchors.ts` kennt diese IDs und lässt sie in Ruhe.
 
 ## Build
 

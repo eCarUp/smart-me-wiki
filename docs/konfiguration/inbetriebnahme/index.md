@@ -36,7 +36,6 @@ Folgende Punkte müssen vor der Inbetriebnahme vorhanden sein
 
 - Passwort max. 63 Zeichen
 
-
 ## smart-me Account
 
 Wir empfehlen einen Account im vorraus und für jede Installation seperat zu erstellen. Es werden für die Inbetriebnahme keine Lizenzen benötigt.
@@ -54,7 +53,6 @@ Android: Standort, Kamera
 - Pico: Eine RFID Karte (mitgeliefert)
 
 - Telstar 80A, CT und M-Bus Gateway: Ein kleiner Schraubenzieher zum drücken der Taste T1
-
 
 ![Inbetriebnahme – Abbildung 1](/img/konfiguration-inbetriebnahme/01.png)
 
@@ -110,7 +108,6 @@ Android: Standort, Kamera
 
      - Kamstrup:  Zählerschlüssel (Drei Zahnräder / Zählerschlüssel / speichern)
 
-
 Sollte die Installation fehlschlagen, bitte die detaillierte Anleitung inkl. Fehlerbeschreibung befolgen.
 
 ## Detailliert Anleitung inkl. Fehlerbeschreibung
@@ -141,7 +138,6 @@ Mögliche Probleme:
 
 - Wenn das Login nicht möglich ist, kann der Username oder das Passwort falsch sein.
 
-
 ![Inbetriebnahme – Abbildung 6](/img/konfiguration-inbetriebnahme/06.png)
 
 ### 5\. Diagnose
@@ -151,7 +147,6 @@ Dieser Schritt ist Optional.
 - Wichtig ist dass die Server erreichbar auf Yes sind.
 
 - Wenn die Warnung wegen des 5-GHz-Netzwerks erscheint, musst du sicherstellen, dass auch ein 2,4-GHz-Netzwerk erzeugt wird. Es ist nicht möglich, das Smartphone dazu zu zwingen, sich mit dem 2,4-GHz-Netzwerk zu verbinden. Aus diesem Grund erscheint es als Warnung.
-
 
 ![Inbetriebnahme – Abbildung 7](/img/konfiguration-inbetriebnahme/07.jpg)
 
@@ -165,7 +160,6 @@ Hinweis
 
 - Dieser Schritt kann ignoriert werden, wenn Picos über 4G in Betrieb genommen werden.
 
-
 ![Inbetriebnahme – Abbildung 9](/img/konfiguration-inbetriebnahme/09.jpg)
 
 ### 8\. Trage das WLAN Passwort ein
@@ -173,7 +167,6 @@ Hinweis
 Mögliche Probleme:
 
 - Wenn die SSID als &lt;&lt;unknown>> angezeigt wird, muss der Standort aktiviert werden und das Smartphone muss mit einem WLAN verbunden werden sein.
-
 
 ![Inbetriebnahme – Abbildung 10](/img/konfiguration-inbetriebnahme/10.jpg)
 
@@ -186,7 +179,6 @@ Mögliche Probleme:
 Mögliche Probleme:
 
 - Wenn der QR Code nicht erkennt wird, kann die Seriennummer auch manuell eingegeben werden.
-
 
 ![Inbetriebnahme – Abbildung 12](/img/konfiguration-inbetriebnahme/12.jpg)
 
@@ -218,7 +210,6 @@ Hinweis bei Pico: Beachte, dass du pro Pico 15 Minuten Zeit hast, um den Install
 
 - Das Wandler-Verhältnis kann gesperrt werden. Dies dient als Schutz vor ungewollten Änderungen von unbefugten Personen. Damit das Wandlerverhältnis entsperrt werden kann,  muss das Gerät nochmals mit der smart-me App installiert werden.
 
-
 ### Hinweis:
 
 Das Wandlerverhältnis ändert keine historischen Daten. Daher sollte dieser Schritt sofort nach der Inbetriebnahme erfolgen.
@@ -238,7 +229,6 @@ Hardware Installationsschritte:
 
 3.  Unter Konfiguration in der App oder am Desktop den  "automatischen Suchlauf" starten um die Geräte zu finden.
 
-
 Die Inbetriebnahme der Wärme- und Wasserzähler dagegen werden weiterhin durch den Lieferanten (z. B. Neovac, Ista, GWF, Techem usw.) ausgeführt. Meistens wird dazu im Technikraum von diesen Firmen ein eigener M-Bus Master angeschlossen, damit sie überprüfen können, ob die Zähler auch auf dem M-Bus ankommen.
 
 Anschliessend wird ein Inbetriebnahmeprotokoll erstellt und erst danach wird unser M-Bus Gateway wieder angeschlossen.
@@ -254,7 +244,6 @@ Anbei die notwendigen Informationen
 - Zugehörigkeit zur Wohnung (Wohnungsbezeichnung)
 
 - Typ des Zählers (Wärme, Warm- oder Kaltwasser etc.)
-
 
 Wichtig: Die Sekundäradresse muss pro smart-me Konto eindeutig sein, zusätzlich muss die Zahlenkombination der letzten 4 Zahlen einzigartig im Account sein für Wärme/Kälte-Kombizähler. Am einfachsten verwendest du die Geräte Seriennummer.
 
@@ -281,9 +270,7 @@ Enthält ein Zähler mehr als 1 Zähler, werden diese jeweils wie folgt nummerie
 
 - Weitere Zähler = Nebenadresse des Hauptzählers, die ersten 1 oder 2 Zahl werden gelöscht (z.B. 7) und am Ende wird eine Zahl hochgezählt (z.B. 14401451,14401452).
 
-
 - Subzähler = Diese enthalten die letzten vier Ziffern des Hauptzählers (z.B. 0145) und eine vierstellige Aufzählungsnummer am Ende (z.B. 01450001)
-
 
 Hinweis zu führenden 0er: Wenn ein Zähler z.B. die Nummer 1000017 hat, werden nach dem abschneiden die führenden 0er nicht berücksichtigt werden also z.B. 000017 und werden am Schluss angefügt z.B. 1700001
 
@@ -299,7 +286,6 @@ Editieren
 
 - Intervall verändern. Das M-Bus Benötigt 10 Sekunden pro Gerät zum Auslesen.
 
-
 Geräte Suchlauf beim M-Bus Gateway starten
 
 1.  Oben rechts auf das Zahnradsymbol (Einstellungen) 
@@ -307,7 +293,6 @@ Geräte Suchlauf beim M-Bus Gateway starten
 2.  Geräte suchen
 
 3.  Suche mit "Ja" bestätigen
-
 
 Hinweis: Die Suche kann mehrere Minuten dauern.
 
@@ -317,13 +302,11 @@ Gateway findet nicht alle Zähler
 
 - Weitere Ursachen findest du auf der Seite [M-Bus Gateway Störungen](/stoerungsbehebung/mbus-gateway-stoerungen) 
 
-
 Gateway findet mehr Zähler als verbaut wurden
 
 - Meistens während der Inbetriebnahme: Je nach M-Bus Zähler kann dieser mehrere Subzähler erstellen. Diese erkennt man daran, das die Seriennummer um eine Stelle nach Links verschoben ist, gefolgt von einer steigenden Zahl. Beginnend mit 1. Bsp: Hauptzähler 00200001, Subzähler 02000011
 
 - Weitere Ursachen findest du auf der Seite [M-Bus Gateway Störungen](/stoerungsbehebung/mbus-gateway-stoerungen) 
-
 
 ![Inbetriebnahme – Abbildung 21](/img/konfiguration-inbetriebnahme/21.png)
 
@@ -333,7 +316,6 @@ Wie wird die Option aktiviert?
 
 - M-Bus Gateway auswählen.
 
-
 - Wähle das M-Bus Gateway Zahnrad (oben rechts). Hinweis: Wähle nicht das obere Zahnrad, das für die Konfiguration der Zähler verwendet wird, sondern das untere.
 
 - Bearbeiten
@@ -342,16 +324,13 @@ Wie wird die Option aktiviert?
 
 - Speichern
 
-
 Was bewirkt diese Option?
 
 - Durch das Aktivieren der Option "Don't allow to add additional meters" wird verhindert, dass Geräte, die noch nicht in der Cloud vorhanden sind, gespeichert werden. 
 
-
 Was ist zu beachten?
 
 - Wenn neue Geräte hinzugefügt werden, muss diese Option vor der Suche wieder deaktiviert werden.
-
 
 Wann wird diese Option empfohlen?
 
@@ -359,16 +338,13 @@ Wann wird diese Option empfohlen?
 
 - Aus präventiven Gründen :-)
 
-
 In welchen Fällen kann das passieren?
 
 - Bei Fehlern in der Datenübertragung. Dies kommt häufiger vor, wenn das M-Bus Kabel zu lang ist und dadurch die Qualität der Datenübertragung sinkt, oder wenn das Kabel zu schlecht abgeschirmt oder externen Störungen ausgesetzt ist.
 
-
 Technische Erklärung
 
 - Das standardisierte M-Bus Protokoll hat nur 1 byte für die Prüfsumme. Die Prüfsumme ist dazu gedacht, bestimmte Fehler in der Datenübermittlung zu erkennen. Leider ist 1 byte wenig und kann immer wieder dazu führen, dass ein fehlerhaftes Datenpaket als korrekt und gut angesehen wird. Dies führt bei einigen Installationen, bei denen M-Bus Gateways eingesetzt werden, immer wieder dazu, dass korrupte Pakete als korrekt und gut eingestuft werden und diese dann als neues M-Bus Gerät in unserer Cloud erkannt und hinzugefügt werden. Das Konto fällt dann von Professional auf Basic, da die Lizenzabdeckung nicht mehr gewährleistet ist.
-
 
 ![Inbetriebnahme – Abbildung 22](/img/konfiguration-inbetriebnahme/22.png)
 
@@ -398,8 +374,6 @@ Erscheint das 4G, obwohl die Pico mit WLAN verbunden sein soll, muss man die Pic
 
 In diesem Schritt hast du die Möglichkeit, mehrere Zähler gleichzeitig in Betrieb zu nehmen, um die Inbetriebnahme bei vielen Zählern zu beschleunigen.
 
-
-
 ![Inbetriebnahme – Abbildung 25](/img/konfiguration-inbetriebnahme/10.jpg)
 
 ### Ausloggen
@@ -409,7 +383,6 @@ In diesem Schritt hast du die Möglichkeit, mehrere Zähler gleichzeitig in Betr
 2.  Unten Ausloggen auswählen
 
 3.  Ausgeloggt
-
 
 ![Inbetriebnahme – Abbildung 26](/img/konfiguration-inbetriebnahme/26.jpg)
 
@@ -425,7 +398,8 @@ Sollte die Installation fehlschlagen und du es erneut versuchen möchtest, schli
 
 ## FAQ
 
-### Der Internetanbieter wird gewechselt, was muss ich machen?
+<details id="der-internetanbieter-wird-gewechselt-was-muss-ich-machen">
+<summary>Der Internetanbieter wird gewechselt, was muss ich machen?</summary>
 
 Wenn die Zähler mit einem technischen WLAN oder/und einem dedizierten Access-Point verbunden sind, wechselt in der Regel die SSID und das Passwort nicht. Dann ist ein Wechsel der Internetanbieter in der Regel kein Problem.
 
@@ -435,8 +409,10 @@ Wenn die SSID und das Passwort von einem privaten WLAN genützt wird, gibt es zw
 
 - Lösung 2: Jeden Zähler einzeln wieder einlesen, damit lokal auf jedem Zähler die neuen Daten gespeichert werden. Die Installation erfolgt genau gleich wie eine Neuinstallation. Der  Zähler darf unter keinen Umständen gelöscht werden, da ansonsten alle historischen Daten verloren gehen . Bei einer erneuten Installation merkt unsere Cloud-Umgebung, dass die Seriennummer bereits im Konto vorhanden ist und fügt die neuen Werte einfach hinzu.
 
+</details>
 
-### Wie kann ich ein Gerät neu starten (reboot)?
+<details id="wie-kann-ich-ein-gerät-neu-starten-reboot">
+<summary>Wie kann ich ein Gerät neu starten (reboot)?</summary>
 
 Alle Geräte können mit eine Stromunterbruch neu gestartet werden.
 
@@ -448,29 +424,45 @@ Kamstrup Module: Das Modul vom Zähler entfernen, 10 Sekunden warten und wieder 
 
 M-Bus Gateway und 1 Phasen Zähler: Diese Geräte können nur mit einem Stromunterbruch neu gestartet werden.
 
-### Kann ich mein Gerät mit mehreren WiFi-Netzwerken nutzen?
+</details>
+
+<details id="kann-ich-mein-gerät-mit-mehreren-wifi-netzwerken-nutzen">
+<summary>Kann ich mein Gerät mit mehreren WiFi-Netzwerken nutzen?</summary>
 
 Ja, das smart-me Gerät (ausser [Pico Ladestation](/produkte/pico-ladestation)) speichert bis zu 3 verschiedene WiFi Netzwerke. Du musst es nur einmal bei jedem Netzwerk installieren und danach wählt das Gerät automatisch immer jenes Netzwerk mit der besten Funkverbindung aus.
 
-### Kann ich den Zählerstand auf Null zurücksetzten?
+</details>
+
+<details id="kann-ich-den-zählerstand-auf-null-zurücksetzten">
+<summary>Kann ich den Zählerstand auf Null zurücksetzten?</summary>
 
 Nein, da unsere Zähler für Abrechnungen verwendet werden, ist es nicht möglich, diese zurückzusetzen.
 
-### Wo wird das WiFi-Passwort gespeichert?
+</details>
+
+<details id="wo-wird-das-wifi-passwort-gespeichert">
+<summary>Wo wird das WiFi-Passwort gespeichert?</summary>
 
 Das WiFi-Passwort wird ausschliesslich auf dem smart-me Gerät gespeichert und niemals an einen Server übertragen 
 
-### Werden die Einstellungen und Zählerstände gespeichert, falls der Strom ausfällt?
+</details>
+
+<details id="werden-die-einstellungen-und-zählerstände-gespeichert-falls-der-strom-ausfällt">
+<summary>Werden die Einstellungen und Zählerstände gespeichert, falls der Strom ausfällt?</summary>
 
 Ja, das Gerät speichert alle Einstellungen und Werte bei einem Stromausfall. Sobald die Stromversorgung wiederhergestellt ist, verbindet sich das Gerät automatisch mit dem WiFi und kehrt in den Zustand vor dem Ausfall zurück. 
 
-### Wie kann ich eine neues WiFi hinterlegen ohne die bestehenden Daten zu verlieren?
+</details>
+
+<details id="wie-kann-ich-eine-neues-wifi-hinterlegen-ohne-die-bestehenden-daten-zu-verlieren">
+<summary>Wie kann ich eine neues WiFi hinterlegen ohne die bestehenden Daten zu verlieren?</summary>
 
 Um ein weiteres Netzwerk hinzuzufügen, muss das Gerät ordnungsgemäss mit der smart-me App installiert werden. Wird es zuvor nicht aus der Cloud gelöscht, bleiben Energiedaten und Konfigurationseinstellungen erhalten.
 
+</details>
 
-
-### Können die gespeicherten WiFi-Informationen gelöscht werden?
+<details id="können-die-gespeicherten-wifi-informationen-gelöscht-werden">
+<summary>Können die gespeicherten WiFi-Informationen gelöscht werden?</summary>
 
 Die WiFi Informationen werden nur auf dem Gerät gespeichert. Das Löschen der Daten kann wie folgt erfolgen:
 
@@ -482,30 +474,48 @@ Die WiFi Informationen werden nur auf dem Gerät gespeichert. Das Löschen der D
 
 - Das unerwünschte WLAN wählen, remove drücken und das Gerät neu starten.
 
+</details>
 
-### Wie finde ich die MAC-Adresse meines smart-me Geräts raus?
+<details id="wie-finde-ich-die-mac-adresse-meines-smart-me-geräts-raus">
+<summary>Wie finde ich die MAC-Adresse meines smart-me Geräts raus?</summary>
 
 Es gibt keine direkte Möglichkeit, die MAC\-Adresse herauszufinden. Wenn du über ein Professional Lizenz verfügst, kannst du in den erweiterten Einstellungen vom smart-me Gerät DNS aktivieren und die Option Interne IP wählen. Mit einem Ping auf den DNS Name kann die IP ermittelt werden, diese kann dann auf dem Router mit der IP / MAC Tabelle verglichen werden
 
-### Kann das Mesh-Netzwerk deaktiviert werden?
+</details>
+
+<details id="kann-das-mesh-netzwerk-deaktiviert-werden">
+<summary>Kann das Mesh-Netzwerk deaktiviert werden?</summary>
 
 3-Phasen Zähler Telstar und Telstar CT erzeugen ein Mesh Netzwerk. Dieses kann nicht deaktiviert werden.
 
-### Kann ich ein Gerät von einem smart-me Konto zu einem anderen schieben?
+</details>
+
+<details id="kann-ich-ein-gerät-von-einem-smart-me-konto-zu-einem-anderen-schieben">
+<summary>Kann ich ein Gerät von einem smart-me Konto zu einem anderen schieben?</summary>
 
 - Die historischen Daten können nicht verschoben werden. 
 
 - Das Gerät kann jedoch mit einer Neuinstallation in einem anderen Konto installiert werden.
 
+</details>
 
-### Mit welchem Zählerstand wird ein smart-me Zähler ausgeliefert?
+<details id="mit-welchem-zählerstand-wird-ein-smart-me-zähler-ausgeliefert">
+<summary>Mit welchem Zählerstand wird ein smart-me Zähler ausgeliefert?</summary>
 
 0
 
-### Was passiert wenn ich ein Zähler deaktiviere?
+</details>
+
+<details id="was-passiert-wenn-ich-ein-zähler-deaktiviere">
+<summary>Was passiert wenn ich ein Zähler deaktiviere?</summary>
 
 Alle Daten, die bereits in der Cloud gespeichert sind, bleiben erhalten. Nach dem Deaktivieren werden keine weiteren Daten mehr abgespeichert. Für deaktivierte Zähler fallen keine Lizenzkosten an.
 
-### Kann auf den smart-me Geräten ein Proxy konfiguriert werden?
+</details>
+
+<details id="kann-auf-den-smart-me-geräten-ein-proxy-konfiguriert-werden">
+<summary>Kann auf den smart-me Geräten ein Proxy konfiguriert werden?</summary>
 
 Nein
+
+</details>

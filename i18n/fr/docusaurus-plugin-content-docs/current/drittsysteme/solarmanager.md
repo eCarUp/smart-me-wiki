@@ -1,24 +1,24 @@
 ---
 title: 'Solar Manager'
 slug: '/drittsysteme/solarmanager'
-description: 'Les appareils smart-me peuvent être intégrés directement dans le Solar Manager via le cloud.'
+description: 'Les appareils smart-me peuvent être intégrés directement dans Solar Manager via le cloud.'
 sidebar_label: 'Solar Manager'
 ---
-Les appareils smart-me peuvent être intégrés directement dans le Solar Manager via le cloud. Les [compteurs virtuels](/konfiguration/billing/virtuelle-zaehler) peuvent également être repris. 
+Les appareils smart-me peuvent être intégrés directement dans Solar Manager via le cloud. Les [compteurs virtuels](/konfiguration/billing/virtuelle-zaehler) peuvent également être repris. 
 
-## Petite mise à jour du Solar Manager à partir d'août 2026
+## Petite mise à jour de Solar Manager à partir d'août 2026
 
-Avec la nouvelle mise à jour du Solar Manager, les Pico ne sont plus pilotées via le numéro de série, mais via l'ID du groupe de gestion de la charge de niveau 1.
+Avec la nouvelle mise à jour de Solar Manager, les Picos ne sont plus pilotés via le numéro de série, mais via l'ID du groupe de gestion de la charge de niveau 1.
 
-Dans cette courte vidéo, je vous montre pas à pas comment cela fonctionne, afin que vous puissiez effectuer correctement les réglages du côté smart-me.
+Dans cette courte vidéo, je vous montre étape par étape comment cela fonctionne, afin que vous puissiez effectuer correctement les réglages du côté smart-me.
 
-Bon à savoir : grâce à cette mise à jour, la recharge monophasée à 6 A (env. 1,4 kW) devient possible, ce qui est idéal pour les faibles excédents photovoltaïques. Vous trouverez la manière de le configurer dans la documentation du Solar Manager
+Bon à savoir : avec cette mise à jour, la recharge monophasée à 6 A (env. 1,4 kW) devient possible, ce qui est idéal pour les faibles excédents photovoltaïques. Vous trouverez la manière de configurer cette fonction dans la documentation de Solar Manager
 
 <Embed src="https://drive.google.com/file/d/1Oc3uuTCMusCJMHL7hjlJzFbkoFONHpm4/preview" aspect="1.350" title="Drive, solarmanager_update_2026.mp4" />
 
 solarmanager\_update\_2026.mp4
 
-Le Solar Manager offre plusieurs options pour utiliser le compteur smart-me et les bornes de recharge Pico :
+Dans Solar Manager, il existe plusieurs options pour utiliser le compteur smart-me et les bornes de recharge Pico :
 
 - Comme Smart Meter ou compteur de bilan directement après le compteur du fournisseur d'électricité
 
@@ -28,18 +28,15 @@ Le Solar Manager offre plusieurs options pour utiliser le compteur smart-me et l
 
 - Comme interrupteur, pour utiliser le contact de relais du compteur.
 
-- Comme source de données pour la gestion de la charge e-mobilité
-
-
-
+- Comme source de données pour la gestion de la charge de l'électromobilité
 
 Public cible : maisons individuelles et immeubles collectifs
 
-<Video src="D3Mh-cAyHvw" title="Vidéo YouTube, démonstration de l'intégration des compteurs smart-me dans le Solar Manager" />
+<Video src="D3Mh-cAyHvw" title="Vidéo YouTube, démonstration de l'intégration des compteurs smart-me dans Solar Manager" />
 
-## Intégration en général
+## Intégration générale
 
-Pour l'intégration, vous avez besoin des identifiants cloud (nom d'utilisateur et mot de passe)  ainsi que du numéro de série du compteur. Le numéro de série est visible directement dans le portail smart-me et sur les appareils eux-mêmes. Pour le numéro de série, utilisez uniquement les chiffres situés avant le trait d'union !
+Pour l'intégration, vous avez besoin des identifiants cloud (nom d'utilisateur et mot de passe)  ainsi que du numéro de série du compteur. Le numéro de série est visible directement dans le portail smart-me et sur les appareils eux-mêmes. Pour le numéro de série, utilisez uniquement les chiffres situés avant le tiret !
 
 ![Solar Manager – Illustration 1](/img/drittsysteme-solarmanager/01.png)
 
@@ -51,43 +48,41 @@ Numéro de série compteur : 07907952-123 (omettre -123)
 
 ## Compteur smart-me comme Smart Meter
 
-Dans le Solar Manager, il est possible d'ajouter un Smart Meter, qui peut être monté de deux manières :
+Dans Solar Manager, il est possible d'ajouter un Smart Meter, qui peut être monté de deux manières :
 
 - Directement après le compteur du fournisseur d'électricité (compteur de bilan), la production (-) et la consommation (+) étant mesurées directement 
 
-- Mesure de la consommation uniquement, la production étant saisie séparément
-
+- Mesure de la consommation uniquement, la production est saisie séparément
 
 Pour la configuration, ajoutez un Smart Meter et sélectionnez smart-me Cloud. Le Smart Meter est connecté à l'aide des identifiants et du numéro de série à 8 chiffres. 
 
-- Lieu d'installation :  selon la description ci-dessus
+- Lieu d'installation (Installationsort) :  selon la description ci-dessus
 
-- Inverser la mesure : si le compteur était monté de manière inversée, vous pourriez modifier le signe ici. 
-
+- Inverser la mesure (Messung invertieren) : si le compteur était monté de manière inversée, il serait possible de modifier le signe ici. 
 
 ![Solar Manager – Illustration 2](/img/drittsysteme-solarmanager/02.png)
 
 ## Utiliser le relais smart-me
 
-Le [compteur triphasé Telstar](/produkte/telstar) dispose de deux sorties à contact libre de potentiel pour la commande d'appareils externes, dont l'une avec un relais 8A intégré. Celui-ci peut être commuté dans le Solar Manager. Un « interrupteur » est créé et paramétré pour chaque relais. Les interrupteurs doivent au préalable être définis comme sorties numériques dans le portail smart-me (voir [Entrées et sorties](/)) 
+Le [compteur triphasé Telstar](/produkte/telstar) dispose de deux sorties à contact sec pour la commande d'appareils externes, dont l'une avec un relais 8A intégré. Celui-ci peut être commuté dans Solar Manager. Un « interrupteur » (Schalter) est saisi et paramétré par relais. Les interrupteurs doivent au préalable être définis comme sorties numériques dans le portail smart-me (voir [Entrées et sorties](/)) 
 
-Pour la configuration, ajoutez un nouvel « interrupteur » sous Appareils et sélectionnez « Relais sur le compteur triphasé smart-me » (« Relais am smart-me 3-Phasen Zähler »). Le compteur est connecté à l'aide des identifiants et du numéro de série à 8 chiffres. 
+Pour la configuration, ajoutez un nouvel « interrupteur » (Schalter) sous Appareils et sélectionnez « Relais sur le compteur triphasé smart-me » (Relais am smart-me 3-Phasen Zähler). Le compteur est connecté à l'aide des identifiants et du numéro de série à 8 chiffres. 
 
 ### Paramètres
 
-Puissance d'enclenchement (W) (Einschaltleistung (W)) :
+Puissance d'enclenchement (W) (Einschaltleistung) :
 
-Quelle puissance doit être disponible en excédent pour que la commutation ait lieu.
+Puissance qui doit être disponible en excédent pour que la commutation ait lieu.
 
-Délai d'enclenchement (min) (Einschaltverzögerung (min)) :
+Temporisation d'enclenchement (min) (Einschaltverzögerung) :
 
-Combien de temps la puissance définie doit être disponible avant que la commutation ait lieu.
+Durée pendant laquelle la puissance définie doit être disponible avant que la commutation ait lieu.
 
-Délai de déclenchement (min) (Abschaltverzögerung (min)) :
+Temporisation de déclenchement (min) (Abschaltverzögerung) :
 
-Combien de temps attendre après être passé sous la puissance définie avant de déclencher (p. ex. pour compenser le passage d'un nuage)
+Durée d'attente après que la puissance est passée sous le seuil avant le déclenchement (p. ex. pour compenser le passage d'un nuage)
 
-Durée de fonctionnement minimale (min) (Mindestlaufzeit (min)) : 
+Durée de fonctionnement minimale (min) (Mindestlaufzeit) : 
 
 Durée minimale pendant laquelle l'appareil doit fonctionner. Pratique pour les pompes à chaleur avec compresseurs, etc.
 
@@ -111,22 +106,23 @@ CH-5630 Muri
 
 ## FAQ
 
-## La libération du courant de la borne de recharge Pico ne fonctionne pas à partir de 4200W
+<details id="stromfreigabe-pico-ladestation-funktioniert-nicht-ab-4200w">
+<summary>La libération du courant de la borne de recharge Pico ne fonctionne pas à partir de 4200W</summary>
 
 La borne de recharge Pico est livrée par défaut avec un courant minimal de 8A, afin de prendre en charge directement tous les types de véhicules possibles après l'installation.
 
-En interaction avec le Solar Manager, celui-ci part toutefois par défaut d'un courant minimal de 6A pour piloter la Pico.
+En combinaison avec Solar Manager, celui-ci part toutefois par défaut d'un courant minimal de 6A pour piloter la Pico.
 
-Sélectionnez le cas qui s'applique à votre véhicule afin de prendre en charge sans erreur la configuration que vous souhaitez :
+Choisissez le cas qui s'applique à votre véhicule afin de prendre en charge sans erreur la configuration souhaitée :
 
-Cas A : vous avez un véhicule qui peut fonctionner avec un courant de démarrage de 6A
+Cas A : vous avez un véhicule qui supporte un courant de démarrage de 6A
 
 - Réglez le courant minimal sur le matériel de la Pico à 6A.
 
-
-
 ![Solar Manager – Illustration 5](/img/drittsysteme-solarmanager/05.png)
 
-Cas B : vous avez un véhicule dont on sait qu'il ne fonctionne pas avec un courant de démarrage de 6A (p. ex. Renault Zoe)
+Cas B : vous avez un véhicule dont vous savez qu'il ne supporte pas un courant de démarrage de 6A  (p. ex. Renault Zoe)
 
-- Dans le Solar Manager, sélectionnez le réglage "Renault Zoe 9A" dans le choix du véhicule
+- Dans Solar Manager, sélectionnez le réglage "Renault Zoe 9A" dans le choix du véhicule
+
+</details>

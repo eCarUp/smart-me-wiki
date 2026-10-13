@@ -30,7 +30,6 @@ Dazu gehören:
 
 - Verbindungstypen(Muffennetze oder Verteilkabinen)
 
-
 ### Schritt 1: Initiale vZEV Abklärung
 
 Diese initiale Abklärung zu diesen Themen wird beim Verteilnetzbetreiber direkt angefragt.
@@ -55,7 +54,6 @@ An diesem Punkt muss dem VNB eine offizielle vZEV Anmeldung mit allen Interessen
 
 - Weitere Hardware vorhanden zur lokalen Auslesung der Zählerpunkte und oder Antrag für SDTA Übertragung via Swisseldex vorhanden?
 
-
 Nach Erfüllung aller obiger Punkte und rund 3 Monaten kann die vZEV seinen Betrieb aufnehmen.
 
 ![Virtuelle ZEV (vZEV) – Abbildung 1](/img/planung-virtuelle-zev-vzev/01.png)
@@ -70,7 +68,6 @@ ZEV: Zusammenschluss zum Eigenverbrauch 
 
 - VNB-Zähler am Einspeisepunkt mit Rechnung des VNB
 
-
 VNB-Modell:
 
 - Messung durch VNB
@@ -79,11 +76,9 @@ VNB-Modell:
 
 - Bilanzierung auf Verbrauchs- und Solarproduktionszählern
 
-
 Normalbezüger:
 
 - Strombezüger beim VNB als Haus oder Wohnung im EFH oder MFH
-
 
 ![Virtuelle ZEV (vZEV) – Abbildung 2](/img/planung-virtuelle-zev-vzev/02.png)
 
@@ -92,8 +87,6 @@ Normalbezüger:
 ### vZEV Einzelgebäude (virtuell bilanzierter ZEV)
 
 Ein Gebäude teilt sich einen gemeinsamen Hausanschluss.
-
-
 
 Umstieg von VNB-Modell zu vZEV einfach möglich.
 
@@ -110,7 +103,6 @@ Diese dürfen nun die Verbindungsleitungen zwischen den Gebäuden zur Übertragu
 Damit wird die in den linken Gebäuden produzierte Energie auch den MFH rechts zur Verfügung gestellt.
 
 Nicht aber dem EFH, da dieses sich ausserhalb der genehmigten Topologie einer vZEV befindet.
-
 
 Die Voraussetzungen der Topologie zur berechtigten Teilnahme am vZEV ist unterhalb detailierter definiert.
 
@@ -149,8 +141,6 @@ Bei einer vZEV können verschiedene Infrastrukturen vom Netzbetreiber und aus pr
 - Einfamilienhäuser mit Solarproduktion
 
 - Einzelne Wohnungen und Häuser ohne Solarproduktion mit Privatmessungen oder VNB-Messungen.
-
-
 
 ![Virtuelle ZEV (vZEV) – Abbildung 8](/img/planung-virtuelle-zev-vzev/08.png)
 
@@ -206,7 +196,6 @@ Smart-me ist als Empfänger dieser Daten bei Swisseldex gelistet 
 
 Die Daten werden von den Energieversorgern nach Anfrage und Freigabe via Swisseldex an den smart-me Importdatenhub gesendet. Die Daten können dann im jeweiligen smart-me Account verwaltet, visualisiert und abgerechnet werden.
 
-
 Eigenschaften der Daten der Energieversorger:
 
 - EBIX, SDAT-Datenformat
@@ -217,20 +206,23 @@ Eigenschaften der Daten der Energieversorger:
 
 - Bereitstellung ca. alle 30 Tage verifiziert
 
-
 Hier findest du eine detaillierte Anleitung zum Datenimport: [Details zum Swisseldex Import](/schnittstellen/swisseldex-sdat-import)
 
 ![Virtuelle ZEV (vZEV) – Abbildung 10](/img/planung-virtuelle-zev-vzev/10.png)
 
 ## FAQ
 
-## Kann ein vZEV in einem Muffennetz entstehen?
+<details id="kann-ein-vzev-in-einem-muffennetz-entstehen">
+<summary>Kann ein vZEV in einem Muffennetz entstehen?</summary>
 
 Ja, es ist möglich, die Voraussetzungen dafür aber nur sehr selten erfüllt.
 
 Damit in einem Muffennetz ein vZEV entstehen kann, müssen sich alle Gebäude exakt die gleiche Muffe Teilen. Ansonsten wird das öffentliche Netz zwischen Muffe und Muffe einbezogen was nicht mehr der Regulierung des vZEV entspricht.
 
-## Kann ein Gebäude ohne Solaranlage einem vZEV beitreten und die VNB-Zähler durch Privatzähler ersetzen?
+</details>
+
+<details id="kann-ein-gebäude-ohne-solaranlage-einem-vzev-beitreten-und-die-vnb-zähler-durch-privatzähler-ersetzen">
+<summary>Kann ein Gebäude ohne Solaranlage einem vZEV beitreten und die VNB-Zähler durch Privatzähler ersetzen?</summary>
 
 Ja, für die hausinternen Produktions- und Verbrauchsmessungen.
 Innerhalb des gegründeten vZEV ist der vZEV Betreiber selbständig für die Messung und Abrechnung verantwortlich. Daher impliziert dies auch dass der vZEV Betreiber das Messmittel seiner Wahl einsetzen kann für den ganzen vZEV.
@@ -239,7 +231,10 @@ Der Verteilnetzbetreiber braucht aber natürlich zur Gegenmessung und Bilanzieru
 
 Will nun ein Mehrfamilienhaus ohne Solaranalage zum vZEV stossen, so kann für die Abrechnungseinheiten je ein Privatzähler installiert werden. Der Verteilnetzbetreiber muss dann aber entsprechend am Hausanschluss einene Messpunkt setzen.
 
-## Ist eine Verschachtelung von mehreren ZEV in einer vZEV möglich?
+</details>
+
+<details id="ist-eine-verschachtelung-von-mehreren-zev-in-einer-vzev-möglich">
+<summary>Ist eine Verschachtelung von mehreren ZEV in einer vZEV möglich?</summary>
 
 Ja und Nein.
 
@@ -249,7 +244,10 @@ Rechtlich gesehen wird aus diesen zwei ZEV's eine einzelne (v)ZEV.
 
 Die beiden ZEV's werden also rechtlich aufgelöst und durch eine (v)ZEV ersetzt.
 
-## Kann die interne Tarifierung und der Strompreis des ZEV oder vZEV's frei gewählt werden?
+</details>
+
+<details id="kann-die-interne-tarifierung-und-der-strompreis-des-zev-oder-vzevs-frei-gewählt-werden">
+<summary>Kann die interne Tarifierung und der Strompreis des ZEV oder vZEV's frei gewählt werden?</summary>
 
 Ja und Nein.
 
@@ -263,3 +261,5 @@ Wenn der Netzstrom als Einheitstarif mit Leistungstarif geregelt ist, darf inner
 Hingegen muss sichergestellt werden, das unabhängig von der gewählten Tarifierung nicht mehr Geld eingenommen wird als der Netzstrom tatsächlich gekostet hat.
 
 Der Interne Solarstrom hat auch den Regeln zu folgen und darf je nach angewandter Regel nicht mehr als 80% bis max. 100% des gleichwertigen Netzstromes kosten.
+
+</details>

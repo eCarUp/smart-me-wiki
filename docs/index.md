@@ -47,7 +47,6 @@ Erzeuge neu eine Rechnungsvorschau bevor du scharfe Rechnungen erstellst.
 
 - Erzeuge keine fehlerhaften Rechnungen mehr ohne vorherige Validierung.
 
-
 Wo?
 
 Rechnungsstellung --> Rechnungen
@@ -76,7 +75,6 @@ Bereite dich auf den reibungslosen Wechsel auf unsere neue, moderne Plattform vo
 
 - Start der neuen Plattform: Kaufe ab dem 1\. Juli 2026 unkompliziert und schnell im neuen Shop ein.  
 
-
 ## Update: Online Strom- und Solartarif-Rechner
 
 - Erweiterte Eingabe
@@ -84,7 +82,6 @@ Bereite dich auf den reibungslosen Wechsel auf unsere neue, moderne Plattform vo
 - Anpassbare Komponenten
 
 - Dedizierte Angabe der Eintragungen im smart-me Billing
-
 
 [→ Zum Tarifrechner für Strom und Solar](/konfiguration/billing/stromtarife-definieren/stromtarif-rechner)
 
@@ -106,8 +103,6 @@ Wir importieren von deinem Provider den dynamischen Tarif und wenden diesen alle
 
 Ermöglicht dir personalisierte Dashboards zu erstellen wie Energieflüsse und Übersichtsdarstellungen deines Gebäudes.
 
-
-
 ![Technische Daten & Handbücher – Abbildung 7](/img/home/07.png)
 
 [→ Mehr erfahren](/konfiguration/my-dashboards)
@@ -116,21 +111,17 @@ Ermöglicht dir personalisierte Dashboards zu erstellen wie Energieflüsse und �
 
 - Energieflüsse
 
-
 ![Technische Daten & Handbücher – Abbildung 8](/img/home/08.png)
 
 ## Neu: Technische Tools
 
 In der neuen Abteilung Technische Tools findest du Hilfsmittel für Installation und Maintenance der Installation.
 
-
-
 ![Technische Daten & Handbücher – Abbildung 9](/img/home/09.png)
 
 [→ Mehr erfahren](/konfiguration/technische-tools)
 
 - Installationsprüfung
-
 
 ![Technische Daten & Handbücher – Abbildung 10](/img/home/10.png)
 
@@ -152,20 +143,17 @@ Die neue Abteilung AppLAB ist ein Versuchsbereich und stellt verschiedene Featur
 
 - Autobill Einrichtungsassistent
 
-
 ## Neu: Generalüberholung UI
 
 Die komplette smart-me UI hat eine Erneuerung des Designs erhalten.
 
 - Es hat sich in der Nutzung nichts verändert.
 
-
 ![Technische Daten & Handbücher – Abbildung 12](/img/home/12.png)
 
 ## Neu: ZEV Performance Übersicht
 
 Prüfe die Produktion und Erträge deines ZEVs in der neuen "ZEV Performance" Visualisierung. Erhalte einen schnellen Überblick über:
-
 
 - Energieflüsse mit der neuen Energieflussvisualisierung
 
@@ -176,9 +164,6 @@ Prüfe die Produktion und Erträge deines ZEVs in der neuen "ZEV Performance" Vi
 - Identifiziere produktionsreiche Tage mit der Heat-Map Visualisierung
 
 - Analysiere die Effizienz deiner Batterie im ZEV
-
-
-
 
 [→ Mehr Informationen zu den neuen Visualisierungen](/konfiguration/visualisierung)
 
@@ -193,8 +178,6 @@ Bestehende Visualisierungen erhalten ein neues Design. Diese werden ohne zusätz
 Neue Pico Visualisierung:
 
 Sehen Sie sich die neue Pico-Visualisierung an, die alle Pico-Ladepunkte und deren Ladegruppen auf einen Blick anzeigt – mit Stromaufnahme, Belegung, maximaler Leistungsaufnahme und vielem mehr.
-
-
 
 [→ Mehr Informationen zur den neuen Visualisierungen](/konfiguration/visualisierung)
 
@@ -212,7 +195,6 @@ Unsere Produktfamilie wächst weiter: Mit dem Sirius bringen wir unser bisher le
 
 - Maximale Sicherheit – Riesiger Datenspeicher bei Verbindungsausfällen.
 
-
 [→ Mehr Informationen zum Sirius](/produkte/m-bus-gateway#m-bus-gateway-sirius-250-standardlasten)
 
 ![Technische Daten & Handbücher – Abbildung 16](/img/home/16.jpg)
@@ -229,19 +211,26 @@ Das MWST-Gesetz zum ZEV ist ähnlich schnell im Wandel wie die Technik.
 
 ## FAQs
 
-### Wo kann ich mein Login Passwort / E-Mail-Adresse ändern?
+<details id="wo-kann-ich-mein-login-passwort--e-mail-adresse-ändern">
+<summary>Wo kann ich mein Login Passwort / E-Mail-Adresse ändern?</summary>
 
 Um dein Login Passwort zu ändern, gehe auf [smart-me.com](https://web.smart-me.com/login/) und logge dich mit deinen bestehenden Benutzeraccount ein. Klicke auf deinen Benutzernamen (oben rechts) und wähle Einstellungen. Klicke auf Passwort ändern.
 
 Falls du dein Passwort nicht mehr weisst, kann dies über die Passwort-vergessen-Funktion zurückgesetzt werden. Dafür muss jedoch beim Erstellen des Accounts eine gültige Email Adresse verwendet worden sein.
 
-### Wie kann ich mein Abonnement kündigen?
+</details>
+
+<details id="wie-kann-ich-mein-abonnement-kündigen">
+<summary>Wie kann ich mein Abonnement kündigen?</summary>
 
 Um dein Cloud-Lizenzen-Abonnement zu kündigen, gehe auf smart-me.com und loggen dich ein.
 Klicke dann oben rechts auf den Benutzernamen und wähle Einstellungen.
 Gehe dann auf Bezahlung, Abo kündigen und bestätige das mit Ja.
 
-### Wieso erscheint mein gelöschter Zähler wieder in der Cloud?
+</details>
+
+<details id="wieso-erscheint-mein-gelöschter-zähler-wieder-in-der-cloud">
+<summary>Wieso erscheint mein gelöschter Zähler wieder in der Cloud?</summary>
 
 Wird ein Zähler in der Cloud gelöscht, werden all seine Daten in der Cloud gelöscht. Wenn dieser Zähler nach dem Löschvorgang wieder Daten an die Cloud sendet, erstellt diese den Zähler (inklusive neuer Zähler-ID) neu. Die vergangenen Messdaten des Zählers sind aber unwiederbringlich gelöscht. Auch Wenn/Dann-Aktionen oder Einstellungen im Billing beziehen sich nicht auf den "neuen" Zähler und müssten dementsprechend neu konfiguriert werden. 
 
@@ -253,10 +242,12 @@ Mit folgenden Punkten kann verhindert werden, dass der Zähler wieder Daten an d
 
 - Das WLAN vom Zähler löschen (siehe "[Können die gespeicherten WiFi-Informationen gelöscht werden?](/konfiguration/inbetriebnahme#können-die-gespeicherten-wifi-informationen-gelöscht-werden)").  Der Zähler kann ohne Internet keine Daten mehr schicken. 
 
-
 Alternativ kannst du den Zähler in der Cloud auch deaktivieren. Ein deaktivierter Zähler benötigt keine Lizenzen und du kannst Ihn jederzeit wieder aktivieren und auf seine Daten zugreifen. 
 
-### Wie deaktiviere ich meinen Zähler?
+</details>
+
+<details id="wie-deaktiviere-ich-meinen-zähler">
+<summary>Wie deaktiviere ich meinen Zähler?</summary>
 
 Wenn das Konto im Basic Lizenz-Modell ist.
 
@@ -274,7 +265,6 @@ Wenn das Konto im Basic Lizenz-Modell ist.
 
 7.  Zurück zur Hauptübersicht oder Browser aktualisieren
 
-
 Wenn das Konto im Limited oder Professional Lizenz-Modell ist.
 
 1.  Logge dich im smart-me Portal ein 
@@ -291,10 +281,11 @@ Wenn das Konto im Limited oder Professional Lizenz-Modell ist.
 
 7.  Drücke auf Speichern.
 
-
 Alternativ kannst du die Zähler und alle in einem Ordner (z. B. "deaktivierte Zähler") ziehen und mit Rechtsklick auf den entsprechenden Ordner, Massenaktionen, Alle Zähler deaktivieren, alle Zähler gleichzeitig deaktivieren. 
 
 Hinweis zu deaktivierten Zählern: Ein deaktivierter Zähler kostet keine Lizenz mehr, du kannst aber auch nicht mehr auf die vergangenen Daten des Zählers zugreifen, solang er deaktiviert ist. Für die Zeit, in der der Zähler deaktiviert ist, werden zudem keine neuen Messdaten des Zählers in der Cloud gespeichert.  
+
+</details>
 
 ## Kontakt
 

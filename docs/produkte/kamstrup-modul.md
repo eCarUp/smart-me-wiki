@@ -52,7 +52,6 @@ Kapitel
 
 - Modbus-TCP ab Firmware Version 8.0 (Info: Das Modul kann ohne durchgängige Internetverbindung auch keine stabile Modbus-Kommunikation anbieten) 
 
-
 ### Wie kann ich den Korrekturfaktor auf der Cloud einstellen?
 
 Um den Korrekturfaktor eines Moduls oder Zählers einzustellen, gehen Sie bitte folgendermassen vor:
@@ -71,7 +70,6 @@ Um den Korrekturfaktor eines Moduls oder Zählers einzustellen, gehen Sie bitte 
 
 7.  Drücke auf Speichern.
 
-
 ### Kamstrup Modul Entschlüsselung
 
 [Video Anleitung](https://www.youtube.com/watch?v=bYoq9a142t8)
@@ -81,7 +79,6 @@ Um den Korrekturfaktor eines Moduls oder Zählers einzustellen, gehen Sie bitte 
 2.  Editieren 
 
 3.  Zählerschlüssel eingeben
-
 
 Achtung: Das Kamstrup Modul braucht den Verschlüsselungspin des Zählers, um die Daten auslesen zu können. Über diesen verfügt ausschliesslich der Energieversorger.
 
@@ -100,13 +97,11 @@ Achtung: Das Kamstrup Modul braucht den Verschlüsselungspin des Zählers, um di
     Gesamter Korrekturfaktor in Prozent: 6 \* 100 % = 600 %
     In diesem Fall müsste also ein Korrekturfaktor von 600 % im smart-me Portal eingestellt werden. 
 
-
 ### Wie oft werden Daten übermittelt
 
 Dies kann für jedes Gerät manuell eingestellt werden. 
 
 - Das Intervall kann bis zu 1 Sekunden heruntergesetzt werden.
-
 
 Dies kann wie folgt eingestellt werden
 
@@ -122,11 +117,9 @@ Dies kann wie folgt eingestellt werden
 
 - Einstellungen speichern
 
-
 ## Zähler offline
 
 - Seriennummer startet mit 92\*: Kamstrup
-
 
 Allgemeine Informationen sind unter [Zähler offline](/stoerungsbehebung/zaehler-offline) zu finden.
 
@@ -138,7 +131,6 @@ Zählerspezifische Angaben sind sind hier zu finden
 
 - Ablauf: Modul aus dem Zähler entfernen. Warten bis keine LED mehr leuchtet. Modul wieder im Zähler einschieben.
 
-
 ### Wie erkenne ich den Empfangszustand von einem Zähler
 
 - Verbunden mit dem WLAN: orange LED Links und gründe LED Rechst leuchten dauerhaft.
@@ -146,7 +138,6 @@ Zählerspezifische Angaben sind sind hier zu finden
 - Kann sich mit dem WLAN nicht verbinden: to be defined
 
 - Zähler erzeugt ein lokales WLAN: orange LED links leuchten dauerhaft und. Rote LED in der Mitte und grüne LED rechst leuchten abwechseln im 0.5 Sekunden Takt.
-
 
 ### Prüfung bei der Ankunft
 
@@ -162,7 +153,6 @@ Folgend Punkte können bei der Ankunft geprüft werden. Sollte bereits etwas am 
 
     - Kapitel: [01:14](https://www.youtube.com/watch?v=CwS65mPsTws&t=74s) LED Lauflicht
 
-
 ## Upload Intervall verändern
 
 - im smart-me Portal einloggen
@@ -172,7 +162,6 @@ Folgend Punkte können bei der Ankunft geprüft werden. Sollte bereits etwas am 
 - Oben rechts das Zahnrad wählen
 
 - Allgemeine Einstellungen
-
 
 ![Kamstrup Modul – Abbildung 2](/img/produkte-kamstrup-modul/02.png)
 
@@ -186,12 +175,9 @@ Wenn im privaten Bereich Messungen für Monitoring, Hausautomation usw. durchgef
 
 ## Ungültiger Zähler Schlüssel (CKW)
 
-
-
 Problem
 
 - Kamstrup Modul ist offline mit der Fehlermeldung Ungültiger Zähler Schlüssel
-
 
 Lösung
 
@@ -215,7 +201,8 @@ Technische Dokumente
 
 ## FAQ
 
-### In welchem Intervall senden die Zähler Daten?
+<details id="in-welchem-intervall-senden-die-zähler-daten">
+<summary>In welchem Intervall senden die Zähler Daten?</summary>
 
 - Alle 15 Minuten, also um xx:00:00 xx:15:00, xx:30:00 und xx:45:00. Hiermit werden die nötigen Daten für den Lastgang gesendet. Diese Daten werden im Fall eines Verbindungsunterbruchs lokal gespeichert und nachgesendet.
 
@@ -224,3 +211,5 @@ Technische Dokumente
     - Mit Basic oder Limited Lizenzen: Max. 1x pro Minute.
 
     - Mit Pro-Lizenzierung: Max. 1x pro Sekunde
+
+</details>

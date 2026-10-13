@@ -32,7 +32,6 @@ sidebar_label: '3-Phasen Zähler Nimbus 100A'
 
 - Signierter Zählerstandsgang (15min Werte) nach OCMF
 
-
 ### Ein sicherer Anker für deine Blockchain-Lösung
 
 Der Nimbus Zähler wurde als vertrauenswürdiges "Hardware-Orakel" konzipiert, um das kritische Orakel-Problem bei der Anbindung von IoT-Geräten an dezentrale Systeme zu lösen.
@@ -44,7 +43,6 @@ Der ECDSA-Signaturprozess:
 2.  Signatur on the Edge: Alle 15 Minuten werden die Zählerstände (OCMF-Format) mit dem privaten Schlüssel per ECDSA über einer SHA-256 Hash-Funktion signiert.
 
 3.  Verifizierbare Herkunft: Das Ergebnis ist ein Datenpaket mit einer digitalen Signatur. Mithilfe des öffentlichen Schlüssels des Zählers kann jede Anwendung zweifelsfrei verifizieren, dass die Daten authentisch und unverändert sind.
-
 
 Damit bietet der Nimbus eine hardwarebasierte Sicherheitsgarantie, die reinen Software-Lösungen überlegen ist und die perfekte Grundlage für robuste P2P-Handelsplattformen, lokale Elektrizitätsgemeinschaften (LEG) und andere dezentrale Energiedienstleistungen darstellt.
 
@@ -115,10 +113,6 @@ C.60.9 Fehlermeldungen (Seite wird nur angezeigt wenn Fehler vorliegen)
 
 - Symbol Terminalabdeckung geöffnet ( "G"):  OBIS Code C.51.2  Klemmendeckel ist offen.
 
-
-
-
-
 Firmware (OBIS Code gefolgt von Informationen)
 
 C.1.6 762A MID Firmware part Checksumme
@@ -138,7 +132,6 @@ Zählerstandsgang (15min Werte)
 
 - Um von einem Wert zum nächsten zu gelangen drücke die Anzeigetaste jeweils kurz.
 
-
 Zählerstandsgang:
 
 - 1.8.0 und 2.8.0: Abgebildete OBIS Codes im Speicher
@@ -151,7 +144,6 @@ Zählerstandsgang:
 
 - Datum und Uhrzeit des Eintrags
 
-
 ![smart-me Nimbus 100A – Abbildung 6](/img/produkte-nimbus/06.jpg)
 
 ![smart-me Nimbus 100A – Abbildung 7](/img/produkte-nimbus/07.jpg)
@@ -161,7 +153,6 @@ Logbuch 
 Öffnen des Logbuches:
 
 - Anzeigetaste im Normalmodus 7-8 Sekunden drücken.
-
 
 Eingabe des Passwortes für Anzeige des Logbuches:
 
@@ -180,13 +171,11 @@ Das Passwort erhält der Benutzer des NIMBUS Meters vom Provider.
 
 - Ist noch keine Meldung im Logbuch (Total : NO ENTRY), schaltet die Anzeige zurück in den Normal - Mode auf Anzeigebild 2 oder 3.
 
-
 Beenden der Anzeige des Logbuches:
 
 - Zum Verlassen des Logbuches muss die Anzeigetaste ca. 3 - 4 Sekunden dauernd gedrückt werden. 
 
 - Wird die Anzeigetaste nicht innerhalb von 60 Sekunden gedrückt, schaltet die Anzeige ebenfalls wieder zurück in den Normal - Mode auf Anzeigebild 2 oder 3.
-
 
 C.60.9 :  OBIS Code der momentan angezeigten Meldung 
 
@@ -196,12 +185,10 @@ C.60.9 :  OBIS Code der momentan angezeigten Meldung 
     Wenn die maximal möglichen Meldungen im Logbuch gespeichert sind, werden keine weiteren Meldungen mehr gespeichert ⇨ LOGBOOK FULL.
     Wenn LOGBOOK FULL sind weitere Änderungen der eichtechnisch relevanten Parameter nicht mehr ohne Verletzung der eichtechnischen Sicherung möglich.
 
-
 - Zweite und dritte Zeile:
     Kennung und Typ der angezeigten Meldung.
 
 - Vierte Zeile: Datum und Uhrzeit der Meldung
-
 
 Loginformationen:
 
@@ -223,7 +210,6 @@ Loginformationen:
 
 - Event Logbuch voll (Last Stored Data, Logbook full)
 
-
 ## Abmessungen und Anschlüsse
 
 ![smart-me Nimbus 100A – Abbildung 8](/img/produkte-nimbus/08.png)
@@ -234,18 +220,9 @@ Verdrahtung
 
 Es sind Seile, feste Leiter und Litzen zwischen 4-35 mm2 als Zuleitungen zugelassen. Litzen dürfen nur mit passenden Ferrulen montiert werden. Weitere Informationen zu den Anschlussleitungen finden Sie im Quickstarter-Guide.
 
-
-
 Schraubenantrieb: Torx 25
 
-
-
 Vor der Installation sind die Zuleitungen spannungsfrei zu setzen und vor Manipulation zu sichern.
-
-
-
-
-
 
 Anschluss mit durchgeschlauftem Neutralleiter
 
@@ -310,7 +287,6 @@ Spannung:  5V DC, Höchstlast:  100mA DC, Verstärkte Isolierung gegen Netz
 
 - [Zählersteckklemmen](/drittprodukte/zaehlersteckklemmen-nimbus-100A) - zum einfachen Wechsel von Zählern ohne Stromunterbrechung
 
-
 ## Reinigung
 
 Reinigen Sie das Gehäuse des Gerätes mit einem trockenen Tuch. Verwenden Sie keine chemischen Reinigungsmittel! 
@@ -349,6 +325,9 @@ Hersteller: smart-me AG, Riedstrasse 18, 6343 Rotkreuz
 
 ## FAQ
 
-### Kann ich den Zählerstand auf Null zurücksetzten?
+<details id="kann-ich-den-zählerstand-auf-null-zurücksetzten">
+<summary>Kann ich den Zählerstand auf Null zurücksetzten?</summary>
 
 Nein, da unsere Zähler für Abrechnungen verwendet werden, ist es nicht möglich, diese zurückzusetzen.
+
+</details>

@@ -30,9 +30,6 @@ Im Solar Manager gibt es mehrere Optionen den smart-me Zähler und Pico Ladestat
 
 - Als Datenlieferant für das E-Mobilitäts Lastmanagement
 
-
-
-
 Zielgruppe: Einfamilien- und Mehrfamilienhäuser
 
 <Video src="D3Mh-cAyHvw" title="YouTube Video, Demo Solar Manager Integration von smart-me Zählern" />
@@ -57,13 +54,11 @@ Im Solar Manager kann ein Smart Meter hinzugefügt werden, dieses kann auf zwei 
 
 - Reine Verbrauchsmessung, die Produktion wird separat erfasst
 
-
 Zur Einrichtung fügt man ein Smart Meter hinzu und wählt dort smart-me Cloud. Mit Zugangsdaten und der 8-stelligen Seriennummer wird das Smart Meter verbunden. 
 
 - Installationsort:  Gemäss Beschreibung oben
 
 - Messung invertieren: Falls der Zähler invertiert montiert wäre, könnte man hier das Vorzeichen ändern. 
-
 
 ![Solar Manager – Abbildung 2](/img/drittsysteme-solarmanager/02.png)
 
@@ -111,7 +106,8 @@ CH-5630 Muri
 
 ## FAQ
 
-## Stromfreigabe Pico Ladestation funktioniert nicht ab 4200W
+<details id="stromfreigabe-pico-ladestation-funktioniert-nicht-ab-4200w">
+<summary>Stromfreigabe Pico Ladestation funktioniert nicht ab 4200W</summary>
 
 Die Pico Ladestation wird standardmässig mit dem Minimalstrom 8A ausgeliefert um alle möglichen Fahrzuegtypen nach der Installation direkt zu supporten.
 
@@ -123,10 +119,10 @@ Fall A: Du hast ein Fahrzeug das mit 6A Startstrom umgehen kann
 
 - Setze den Minimalstrom auf der Pico Hardware auf 6A.
 
-
-
 ![Solar Manager – Abbildung 5](/img/drittsysteme-solarmanager/05.png)
 
 Fall B: Du hast ein Fahrzueg das wissenlich nicht mit 6A  Startstrom klarkommt (z.B Renault Zoe)
 
 - Setze im Solarmanager in der Fahzreugauswahl das Setting "Renault Zoe 9A"
+
+</details>

@@ -370,6 +370,58 @@ gehören in eine verlinkte Tabelle statt ins Wiki.
 
 ---
 
+## Eine Frage ins FAQ aufnehmen
+
+Im FAQ ist jede Frage ein aufklappbarer Block: die Frage steht da, die Antwort
+erscheint beim Klick. So sieht man alle Fragen einer Seite auf einen Blick,
+statt durch zwanzig Antworten zu scrollen.
+
+```jsx
+## FAQ
+
+<details id="wie-kann-ich-ein-geraet-neu-starten">
+<summary>Wie kann ich ein Gerät neu starten?</summary>
+
+Alle Geräte können mit einem Stromunterbruch neu gestartet werden.
+
+3-Phasen-Zähler: T1 und T2 gleichzeitig für 10 Sekunden drücken.
+
+</details>
+```
+
+Die Leerzeilen um die Antwort sind nötig — ohne sie bleibt der Text roh stehen,
+Listen und Links werden nicht erkannt.
+
+### Die ID
+
+`id` ist die Adresse der Frage: `…/konfiguration/inbetriebnahme#wie-kann-ich-ein-geraet-neu-starten`.
+Damit lässt sich eine einzelne Antwort verlinken, und wer dem Link folgt,
+bekommt sie aufgeklappt zu sehen.
+
+Dafür gilt:
+
+- **Kleinbuchstaben, Wörter mit Bindestrich, keine Satzzeichen.** Das Fragezeichen
+  entfällt.
+- **Die ID bleibt, auch wenn die Frage umformuliert wird.** Sie steht
+  möglicherweise schon in einer E-Mail oder einem Ticket. Passt der Text
+  überhaupt nicht mehr, ist das eine neue Frage mit neuer ID — und die alte
+  gehört in `redirects.ts`, falls sie wichtig war.
+- **In allen Sprachen dieselbe ID.** Sie steht in einem Attribut und wird
+  deshalb nicht übersetzt. Genau so ist es gewollt: ein Link auf eine Antwort
+  funktioniert in jeder Sprachfassung.
+
+### Wann ein Akkordeon, wann nicht
+
+Nur für echte Frage-Antwort-Paare. Ein Abschnitt, der nacheinander gelesen
+werden soll, gehört nicht in Klappblöcke — was zugeklappt ist, wird nicht
+gelesen, und die Suche im Browser (Strg+F) findet es nicht.
+
+Aus demselben Grund steht nie etwas nur im Akkordeon, was man zum Arbeiten
+wirklich braucht: Voraussetzungen, Warnungen und die eigentliche Anleitung
+gehören in den sichtbaren Text.
+
+---
+
 ## Eine neue Seite anlegen
 
 1. Im Repository in den passenden Ordner unter `docs/` wechseln.

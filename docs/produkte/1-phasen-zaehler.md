@@ -24,7 +24,6 @@ Der smart-me 1-Phasenzähler 80A ist ein Energiezähler mit integrierter WiFi-Sc
 
 - Verschlüsselte Echtzeit-Datenverbindung in die smart-me Cloud 
 
-
 ## Technische Daten
 
 <Embed src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQwIoMZViXao8dxkIFICgLCZSRrq0y5xWTFc2KwSY-seab4j4GP6asN_YRqtjIKoKanrFOG7bLHoVZi/pubhtml?gid=0&range=A1:B28&single=true&widget=false&headers=false&chrome=false" height="636px" title="1-Phasen Zähler" />
@@ -40,7 +39,6 @@ Der Zähler zeigt abwechselnd verschiedene Werte an.
 - "Zahl + T1/T2" ist der Jeweilige Tarif Wert
 
 - "Er XX" ist ein Fehlercode.
-
 
 ## Abmessungen und Anschlüsse
 
@@ -87,13 +85,18 @@ Gewicht mit Verpackung: 130g
 
 ## FAQ
 
-### In welchem Intervall senden die Zähler Daten?
+<details id="in-welchem-intervall-senden-die-zähler-daten">
+<summary>In welchem Intervall senden die Zähler Daten?</summary>
 
 - Mit Basic- oder Limited-Lizenzen: Max. 1x pro Minute.
 
 - Mit Pro-Lizenzierung: Max. 1x pro Sekunde
 
+</details>
 
-### Kann ich den Zählerstand auf Null zurücksetzten?
+<details id="kann-ich-den-zählerstand-auf-null-zurücksetzten">
+<summary>Kann ich den Zählerstand auf Null zurücksetzten?</summary>
 
 Nein, da unsere Zähler für Abrechnungen verwendet werden, ist es nicht möglich, diese zurückzusetzen.
+
+</details>

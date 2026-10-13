@@ -26,7 +26,6 @@ Der smart-me Telstar 80A ist ein MID-zertifizierter Energiezähler mit integrier
 
 - Verschlüsselte Echtzeit-Datenverbindung in die smart-me Cloud 
 
-
 ## Technische Daten
 
 <Embed src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSQ2T_oNXpPR0sUnjcsWY-ymK0lgmZxopMCiyV0gQq9rV7fH5oJEYEVx0a4AUHNfunOHC5igswOLVyi/pubhtml?gid=0&range=A1:B27&single=true&widget=false&headers=false&chrome=false" height="689px" title="3-Phasen Zähler Telstar 80A" />
@@ -131,16 +130,13 @@ Hinweis: Diese Einstellung ändert nur die Anzeige auf dem Display, nicht in der
 
 - Zeigt den Status der Verbindung zur smart-me Cloud. a) Blinkend = Verbindungsfehler b) Immer On= Verbindung OK
 
-
 ![3-Phasenzähler Telstar 80A – Abbildung 8](/img/produkte-telstar/08.png)
 
 🔴 Rote LED - Impuls LED
 
 - Zeigt die aktuell bezogene Wirk- oder Blindleistung in 1000 Impulsen/kWh resp. 1000 Imulse/kVArh an. Ob Wirk- oder Blindleistung angezeigt wird, kann mit der Taste T2 eingestellt werden.
 
-
 - Zum Beispiel: Eine LED mit der Kennzeichnung „1000 Impulse/kWh“ blinkt 1000 Mal, wenn 1 Kilowattstunde (kWh) Energie bezogen oder geliefert wurde. Wurden die 1000 Impulse innerhalb von 1 Stunde gezählt, wurde konstant 1 kW Leistung gemessen.
-
 
 ## Ein- und Ausgänge konfigurieren
 
@@ -177,7 +173,8 @@ Gewicht mit Verpackung: 415g
 
 ## FAQ
 
-### In welchem Intervall senden die Zähler Daten?
+<details id="in-welchem-intervall-senden-die-zähler-daten">
+<summary>In welchem Intervall senden die Zähler Daten?</summary>
 
 - Alle 15 Minuten, also um xx:00:00 xx:15:00, xx:30:00 und xx:45:00. Hiermit werden die nötigen Daten für den Lastgang gesendet. Diese Daten werden im Fall eines Verbindungsunterbruchs lokal gespeichert und nachgesendet.
 
@@ -195,7 +192,11 @@ Gewicht mit Verpackung: 415g
 
     - Jede Sekunde, wenn der Zähler im GUI (smart-me Portal) angewählt ist
 
+</details>
 
-### Kann ich den Zählerstand auf Null zurücksetzten?
+<details id="kann-ich-den-zählerstand-auf-null-zurücksetzten">
+<summary>Kann ich den Zählerstand auf Null zurücksetzten?</summary>
 
 Nein, da unsere Zähler für Abrechnungen verwendet werden, ist es nicht möglich, diese zurückzusetzen.
+
+</details>

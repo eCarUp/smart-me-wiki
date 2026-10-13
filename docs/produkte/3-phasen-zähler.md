@@ -16,7 +16,6 @@ Dieser 3-Phasen Zähler ist nicht mehr verfügbar. Die neue Generation unseres 3
 
 - Direktanschluss 5(32)A, schaltbar
 
-
 ## Funktionen
 
 - 3-Phasen Energiezähler mit MID 2014/32/EU Zertifizierung
@@ -33,7 +32,6 @@ Dieser 3-Phasen Zähler ist nicht mehr verfügbar. Die neue Generation unseres 3
 
 - Verschlüsselte WiFi Verbindung direkt zur smart-me Cloud. Die smart-me Cloud bietet ein umfangreiches Energiemanagement: Visualisierungen, Steuerung (Wenn/Dann Aktionen), automatische Rechnungsstellung (smart-me Billing) und Schnittstellen zu Drittsystemen (Auto Export, API)
 
-
 ## Installation
 
 Bevor du dein smart-me Gerät verwenden kannst, musst du es mit deinem WiFi Netzwerk und Internet verbinden.
@@ -45,7 +43,6 @@ Bevor du dein smart-me Gerät verwenden kannst, musst du es mit deinem WiFi Netz
 3.  Starte die App und erstelle einen Account oder loge dich mit dem entsprechenden Account ein.
 
 4.  Klicke auf „Gerät hinzufügen“ (+) und folge den Anweisungen.
-
 
 ## Technische Daten
 
@@ -81,7 +78,6 @@ Messwerte 
 
     - Zusätzlich mit Professional Abo: Blindenergie (kvarh), Blindleistung (kvarh)
 
-
 Tarife 2 (Virtuelle Tarife cloudseitig erstellbar)
 
 Schnittstellen 
@@ -95,7 +91,6 @@ Schnittstellen 
     - SG Ready
 
     - mit Professional Abo: Modbus TCP
-
 
 Impulsausgänge / Digitale Ausgange S0, S1 Opto Power MOSFET, 5 - 48VDC  / 5 - 230 VAC , max. 550mW
 
@@ -129,7 +124,6 @@ Der Zähler hat ein rollendes Display. Die unten beschriebenen Punkte werden nac
 
 2.  Zählerstand (Obis Code gefolgt von Zählerstand)
 
-
 1-8-1: Wirkenergie Tarif 1 Import (Bezug)
 1-8-2: Wirkenergie Tarif 2 Import (Bezug)
 2-8-1: Wirkenergie Tarif 1 Export (Lieferung)
@@ -138,7 +132,6 @@ Der Zähler hat ein rollendes Display. Die unten beschriebenen Punkte werden nac
 3.  Software Version
 
 4.  CRC Wert
-
 
 ### Phasenreihenfolge
 
@@ -212,7 +205,8 @@ Technische Dokumente
 
 ## FAQ
 
-### In welchem Intervall senden die Zähler Daten?
+<details id="in-welchem-intervall-senden-die-zähler-daten">
+<summary>In welchem Intervall senden die Zähler Daten?</summary>
 
 - Alle 15 Minuten, also um xx:00:00 xx:15:00, xx:30:00 und xx:45:00. Hiermit werden die nötigen Daten für den Lastgang gesendet. Diese Daten werden im Fall eines Verbindungsunterbruchs lokal gespeichert und nachgesendet.
 
@@ -221,3 +215,5 @@ Technische Dokumente
     - Mit Basic oder Limited Lizenzen: Max. 1x pro Minute.
 
     - Mit Pro-Lizenzierung: Max. 1x pro Sekunde
+
+</details>

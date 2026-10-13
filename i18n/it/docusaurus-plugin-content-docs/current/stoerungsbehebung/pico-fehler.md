@@ -138,7 +138,7 @@ Misura:
 - Quando l'errore si è verificato, la stazione deve essere riavviata per resettare l'errore.
 
 
-![Errori Pico – Figura 3](/img/stoerungsbehebung-pico-fehler/03.png)
+![Errori Pico – Figura 3](/img/stoerungsbehebung-pico-fehler/03_EN.png)
 
 ### Cable Lock Error
 
@@ -244,7 +244,7 @@ Significato:
 - Distacco del carico attivo: potenza limitata
 
 
-![Errori Pico – Figura 10](/img/stoerungsbehebung-pico-fehler/10.png)
+![Errori Pico – Figura 10](/img/stoerungsbehebung-pico-fehler/10_EN.png)
 
 ### Diode Error
 

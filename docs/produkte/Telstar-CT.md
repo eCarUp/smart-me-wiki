@@ -30,7 +30,6 @@ Der smart-me Telstar CT ist ein MID-zertifizierter Energiezähler mit integriert
 
 - Verschlüsselte Echtzeit-Datenverbindung in die smart-me Cloud
 
-
 ## Technische Daten
 
 <Embed src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTJmdsIN6iLOfY_AML4DXbCamh1SwcZohszYBjYiVtusFdlA1zrAnZZu4ZFDsQP5pfZxvfloSHGBjkf/pubhtml?gid=0&range=A1:B28&single=true&widget=false&headers=false&chrome=false" height="680px" title="3-Phasen Zähler Telstar CT" />
@@ -50,7 +49,6 @@ Beim Telstar CT können verschiedenste Stromwandler zum Einsatz kommen. Die Grun
 - Typ: offen oder geschlossen
 
 - Genauigkeitsklasse: 1 oder besser\*
-
 
 \*Falls die Zähler für Verrechnungen verwendet werden sollen, werden geeichte Wandler benötigt, die mindestens die Klasse 0.5 oder kleiner erfüllen.
 
@@ -140,7 +138,6 @@ Falsche Phasenreihenfolge: Zahlen blinken
 
 5.  Das Wandlerverhältnis kann gesperrt werden. Dies dient als Schutz vor ungewollten Änderungen von unbefugten Personen. Um das Wandlerverhältnis zu entsperren muss das Gerät nochmals mit der smart-me App installiert werden. Bei der Wiederinstallation ist das Löschen unnötig.
 
-
 Hinweis: Mit der Eingabe des Wandlerverhältnis werden die historisch gespeicherten Daten nicht geändert. Aus diesem Grund ist dieser Schritt unmittelbar nach der Inbetriebnahme zu machen.
 
 ![3-Phasen Energiezähler Telstar CT – Abbildung 6](/img/produkte-telstar-ct/06.png)
@@ -179,16 +176,13 @@ Hinweis: Diese Einstellung ändert nur die Anzeige auf dem Display, nicht in der
 
 - Zeigt den Status der Verbindung zur smart-me Cloud. a) Blinkend = Verbindungsfehler b) Immer On= Verbindung OK
 
-
 ![3-Phasen Energiezähler Telstar CT – Abbildung 9](/img/produkte-telstar-ct/09.png)
 
 🔴 Rote LED - Impuls LED
 
 - Zeigt die aktuell bezogene Wirk- oder Blindleistung in 1000 Impulsen/kWh resp. 1000 Imulse/kVArh an. Ob Wirk- oder Blindleistung angezeigt wird, kann mit der Taste T2 eingestellt werden.
 
-
 - Zum Beispiel: Eine LED mit der Kennzeichnung „1000 Impulse/kWh“ blinkt 1000 Mal, wenn 1 Kilowattstunde (kWh) Energie bezogen oder geliefert wurde. Wurden die 1000 Impulse innerhalb von 1 Stunde gezählt, wurde konstant 1 kW Leistung gemessen.
-
 
 ## Ein und Ausgänge konfigurieren
 
@@ -230,7 +224,8 @@ Gewicht mit Verpackung: 315g
 
 ## FAQ
 
-### In welchem Intervall senden die Zähler Daten?
+<details id="in-welchem-intervall-senden-die-zähler-daten">
+<summary>In welchem Intervall senden die Zähler Daten?</summary>
 
 - Alle 15 Minuten, also um xx:00:00 xx:15:00, xx:30:00 und xx:45:00. Hiermit werden die nötigen Daten für den Lastgang gesendet. Diese Daten werden im Fall eines Verbindungsunterbruchs lokal gespeichert und nachgesendet.
 
@@ -248,7 +243,11 @@ Gewicht mit Verpackung: 315g
 
     - Jede Sekunde, wenn der Zähler im GUI (smart-me Portal) angewählt ist
 
+</details>
 
-### Kann ich den Zählerstand auf Null zurücksetzen?
+<details id="kann-ich-den-zählerstand-auf-null-zurücksetzen">
+<summary>Kann ich den Zählerstand auf Null zurücksetzen?</summary>
 
 Nein, da unsere Zähler für Abrechnungen verwendet werden, ist es nicht möglich, diese zurückzusetzen.
+
+</details>

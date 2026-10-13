@@ -138,7 +138,7 @@ Action:
 - Once the error has been triggered, the station must be restarted to reset the error.
 
 
-![Pico errors – Figure 3](/img/stoerungsbehebung-pico-fehler/03.png)
+![Pico errors – Figure 3](/img/stoerungsbehebung-pico-fehler/03_EN.png)
 
 ### Cable Lock Error
 
@@ -244,7 +244,7 @@ Meaning:
 - Load shedding active: power limited
 
 
-![Pico errors – Figure 10](/img/stoerungsbehebung-pico-fehler/10.png)
+![Pico errors – Figure 10](/img/stoerungsbehebung-pico-fehler/10_EN.png)
 
 ### Diode Error
 

@@ -23,6 +23,9 @@ const config: Config = {
   onBrokenLinks: 'throw',
   onBrokenAnchors: 'warn',
 
+  // Klappt eine verlinkte FAQ-Antwort beim Aufruf auf.
+  clientModules: ['./src/clientModules/openAnchorDetails.ts'],
+
   future: {
     v4: true,
     faster: true,

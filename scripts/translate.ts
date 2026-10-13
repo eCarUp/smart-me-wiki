@@ -169,6 +169,15 @@ export async function planJobs(opts: {
  * deshalb ausdrücklich gesperrt. Sonst versucht das Modell bei einer Seite
  * ohne Fliesstext, im Dateisystem nachzusehen, und verbraucht damit seinen
  * einzigen Zug. Zwei Züge lassen einen solchen Fehlgriff verkraften.
+ *
+ * **`Bash` gehört nicht in diese Liste.** Unter Windows bricht die CLI sonst
+ * noch vor dem ersten Zug ab: „Denying Bash also turns off the PowerShell
+ * tool, so Claude has neither." Sie wertet das als Konfigurationsfehler, nicht
+ * als Einschränkung. Dass es früher ging, lag nur an einer älteren CLI-Version
+ * – die aktualisiert sich im Hintergrund, und mitten im Lauf kippte deshalb
+ * jede weitere Seite in denselben Fehler. Die Absicherung liegt ohnehin bei
+ * `--max-turns`: ein Übersetzungsauftrag ohne Dateiwerkzeuge kommt mit zwei
+ * Zügen nicht weit genug, um Schaden anzurichten.
  */
 function claudeCommand(): {command: string; args: string[]; shell: boolean} {
   const command = process.env.CLAUDE_BIN ?? 'claude';
@@ -179,7 +188,7 @@ function claudeCommand(): {command: string; args: string[]; shell: boolean} {
     '--max-turns',
     '2',
     '--disallowed-tools',
-    'Bash,Read,Write,Edit,Glob,Grep,WebFetch,WebSearch,Task,TodoWrite,NotebookEdit',
+    'Read,Write,Edit,Glob,Grep,WebFetch,WebSearch,Task,TodoWrite,NotebookEdit',
   ];
   if (process.env.CLAUDE_MODEL) args.push('--model', process.env.CLAUDE_MODEL);
   return {command, args, shell: process.platform === 'win32'};

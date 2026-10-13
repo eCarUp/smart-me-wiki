@@ -36,7 +36,7 @@ Standard für
 
 \---
 
-[Wenn/Dann-Aktionen](/konfiguration/wenndann-aktionen) 
+[Wenn/Dann-Aktionen](/konfiguration/wenndann-aktionen) \* (Pico Regelung nicht inklusive, ist teil vom Professional)
 
 Reports
 
@@ -65,6 +65,8 @@ Erweiterung möglich für alle Messpunkte in der smart-me Cloud
 [Benutzerkonfiguration](/konfiguration/benutzerkonfiguration) 
 
 [Pico Dynamisches Lastmanagement](/) 
+
+Wenn Dann -> Pico Regelung
 
 oAuth
 

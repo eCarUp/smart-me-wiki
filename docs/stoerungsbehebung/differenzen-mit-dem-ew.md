@@ -68,4 +68,5 @@ Sollte ein Problem in der Abrechnung festgestellt werden und es gewünscht ist, 
 
 - Rückvergütung vom EW
 
-- Ausgefüllte Excel-Tabelle
+
+Hinweis: Wir analysieren nur Anlagen, die unser Messkonzept einhalten. Dazu gehört das jede Produktion und jeder Verbraucher inkl. Bilanzzähler gemessen sind.

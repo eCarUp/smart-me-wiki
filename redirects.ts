@@ -15,11 +15,8 @@ export type Redirect = {from: string | string[]; to: string};
 export const redirects: Redirect[] = [
   {from: '/home', to: '/'},
 
-  // Nachträglich umbenannte deutsche Seiten
-  {
-    from: '/planung/leg-lokale-energie-gemeinschaft',
-    to: '/planung/leg-lokale-elektrizitätsgemeinschaft',
-  },
+  // Innerhalb des Wikis umbenannt
+  {from: '/planung/leg-lokale-energie-gemeinschaft', to: '/planung/leg-lokale-elektrizitätsgemeinschaft'},
 
   // Alte englische Pfade
   {from: '/configuration/applab', to: '/konfiguration/applab'},

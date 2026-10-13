@@ -33,6 +33,8 @@ Anwendungen:
 
 ![whatwatt – Abbildung 1](/img/drittsysteme-whatwatt/01.png)
 
+<Video src="7-VJBJNCnZY" title="YouTube Video, Webinaraufzeichnung whatwatt x smart-me" />
+
 Hardwareseitige Einstellungen:
 
 Die Übertragene Zeit muss pro Modul auf NTP Zeit gestellt werden.

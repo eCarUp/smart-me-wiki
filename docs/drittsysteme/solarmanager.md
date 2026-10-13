@@ -6,6 +6,18 @@ sidebar_label: 'Solar Manager'
 ---
 smart-me Geräte können im Solar Manager direkt über die Cloud eingebunden werden. Auch [virtuelle Zähler](/konfiguration/billing/virtuelle-zaehler) können übernommen werden. 
 
+## Kleines Update zum Solarmanager ab August 2026
+
+Mit dem neuen Update vom SolarManager werden Picos nicht mehr über die Seriennummer gesteuert, sondern über die ID der Lastmanagement Level 1 Gruppe.
+
+In dem kurzen Video zeige ich dir Schritt für Schritt, wie das funktioniert, damit du die Einstellungen auf der smart-me Seite korrekt vornehmen kannst.
+
+Das ist super zu wissen: mit dem Update ist somit das einphasige Laden mit 6 A (ca. 1,4 kW) möglich, was ideal für geringere PV-Überschüsse ist. Wie dies konfiguriert werden kann, findest du in der Dokumentation vom Solarmanager
+
+<Embed src="https://drive.google.com/file/d/1Oc3uuTCMusCJMHL7hjlJzFbkoFONHpm4/preview" aspect="1.350" title="Drive, solarmanager_update_2026.mp4" />
+
+solarmanager\_update\_2026.mp4
+
 Im Solar Manager gibt es mehrere Optionen den smart-me Zähler und Pico Ladestationen zu verwenden:
 
 - Als Smart Meter bzw. Bilanzzähler direkt nach dem EW-Zähler

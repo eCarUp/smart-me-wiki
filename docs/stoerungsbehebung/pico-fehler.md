@@ -348,3 +348,5 @@ Autospezifische Probleme
 - Mazda MX-30: Startet die Ladung nur wenn die Car-ID deaktiviert ist.
 
 - Honda E:ny1: Startet die Ladung nur ab 8A.
+
+- dongfeng box: Kommt mit der Phasenumschaltung nicht klar. Es muss seitens Auto, wenn die Ladung nach einer Minute autoseitig unterbrochen wird, nach 7 Minuten die Türe Aufgeschlossen und dann fängt er mit dem Laden wieder an.

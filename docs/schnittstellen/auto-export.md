@@ -92,6 +92,8 @@ sFTP (mit Key File): Verschlüsselter FTP Upload. Anstelle eines Passwortes wird
 - Beispiel: [enc\_key.pem](https://drive.google.com/file/d/19ChMy3gsfkBAD14A8Oe0i0lPFXmIGc77/view?usp=sharing)
 
 
+Hinweis: Das Passwort darf folgende Zeichen nicht beinhalten (&lt;, >, =)
+
 
 
 ![Auto Export – Abbildung 5](/img/schnittstellen-auto-export/05.jpg)

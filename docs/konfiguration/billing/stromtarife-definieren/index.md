@@ -362,7 +362,10 @@ Ist ein Bedarf vorhanden wird er dem Nachbarhaus zur Verfügung gestellt. Ist ke
 
 Die Lösung unterstützt folgende Umsetzungen:
 
-- Realisierung einer normalen ZEV mit oder ohne Bilanzzähler
+- Realisierung einer
+    \- ZEV mit Bilanzzähler und Solar (Bilanz + Produktion)
+    \- ZEV mit Bilanz und Gesamtverbrauch (Verbrauch + Bilanz)
+    \- ZEV mit Solar und Gesamtverbrauch (Produktion + Verbrauch)
 
 - vZEV: Mehrere smart-me ZEV's mit Hausanschlusszählern
 

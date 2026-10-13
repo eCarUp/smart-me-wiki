@@ -255,13 +255,15 @@
                             <div id="gemeindeabgabe_komponenten_div" class="hidden space-y-2 mt-2">
                                 <label class="block text-sm font-medium text-gray-700" data-translate-key="applyMunicipalTaxToLabel">Gemeindeabgabe anwenden auf:</label>
                                 <p class="text-xs text-purple-700 mb-2 leading-relaxed" data-translate-key="municipalTaxApplicationNotice">Die Gemeindeabgabe wird nicht immer auf alle Netznutzungskomponenten angewendet. Prüfe auf dem Tarifblatt des Energieversorgers auf welche die prozentuale Abgabe gilt.</p>
-                                <div class="flex items-center"><input id="netz_grundtarif_abgabe_check" type="checkbox" checked class="h-4 w-4 text-purple-600 border-gray-300 rounded focus:ring-purple-500"><label for="netz_grundtarif_abgabe_check" class="ml-2 text-sm text-gray-600" data-translate-key="applyToBasicTariff">Grundtarif</label></div>
-                                <div class="flex items-center"><input id="netz_leistungstarif_abgabe_check" type="checkbox" checked class="h-4 w-4 text-purple-600 border-gray-300 rounded focus:ring-purple-500"><label for="netz_leistungstarif_abgabe_check" class="ml-2 text-sm text-gray-600" data-translate-key="applyToPowerTariff">Leistungstarif</label></div>
-                                <div class="flex items-center"><input id="netz_einheitstarif_abgabe_check" type="checkbox" checked class="h-4 w-4 text-purple-600 border-gray-300 rounded focus:ring-purple-500"><label for="netz_einheitstarif_abgabe_check" class="ml-2 text-sm text-gray-600" data-translate-key="applyToGridSingleTariff">Einheitstarif Netz</label></div>
-                                <div class="flex items-center"><input id="netz_sdl_abgabe_check" type="checkbox" checked class="h-4 w-4 text-purple-600 border-gray-300 rounded focus:ring-purple-500"><label for="netz_sdl_abgabe_check" class="ml-2 text-sm text-gray-600" data-translate-key="applyToSdl">SDL-Swissgrid</label></div>
-                                <div class="flex items-center"><input id="netz_winterreserve_abgabe_check" type="checkbox" checked class="h-4 w-4 text-purple-600 border-gray-300 rounded focus:ring-purple-500"><label for="netz_winterreserve_abgabe_check" class="ml-2 text-sm text-gray-600" data-translate-key="applyToWinterReserve">Stromreserve</label></div>
+                                <!-- Default: Netznutzung (Einheitstarif bzw. HT/NT) und Grundtarif Netz. Energiepreis ist nie Teil der Gemeindeabgabe. -->
+                                <div class="flex items-center"><input id="netz_einheitstarif_abgabe_check" type="checkbox" checked class="h-4 w-4 text-purple-600 border-gray-300 rounded focus:ring-purple-500"><label for="netz_einheitstarif_abgabe_check" class="ml-2 text-sm text-gray-600" data-translate-key="applyToGridSingleTariff">Netznutzung (Einheitstarif bzw. HT/NT)</label></div>
+                                <div class="flex items-center"><input id="netz_grundtarif_abgabe_check" type="checkbox" checked class="h-4 w-4 text-purple-600 border-gray-300 rounded focus:ring-purple-500"><label for="netz_grundtarif_abgabe_check" class="ml-2 text-sm text-gray-600" data-translate-key="applyToBasicTariff">Grundtarif Netz</label></div>
+                                <div class="flex items-center"><input id="netz_leistungstarif_abgabe_check" type="checkbox" class="h-4 w-4 text-purple-600 border-gray-300 rounded focus:ring-purple-500"><label for="netz_leistungstarif_abgabe_check" class="ml-2 text-sm text-gray-600" data-translate-key="applyToPowerTariff">Leistungstarif</label></div>
+                                <div class="flex items-center"><input id="netz_sdl_abgabe_check" type="checkbox" class="h-4 w-4 text-purple-600 border-gray-300 rounded focus:ring-purple-500"><label for="netz_sdl_abgabe_check" class="ml-2 text-sm text-gray-600" data-translate-key="applyToSdl">SDL-Swissgrid</label></div>
+                                <div class="flex items-center"><input id="netz_winterreserve_abgabe_check" type="checkbox" class="h-4 w-4 text-purple-600 border-gray-300 rounded focus:ring-purple-500"><label for="netz_winterreserve_abgabe_check" class="ml-2 text-sm text-gray-600" data-translate-key="applyToWinterReserve">Stromreserve</label></div>
                                 <div class="flex items-center"><input id="netz_solidarisiert_abgabe_check" type="checkbox" class="h-4 w-4 text-purple-600 border-gray-300 rounded focus:ring-purple-500"><label for="netz_solidarisiert_abgabe_check" class="ml-2 text-sm text-gray-600" data-translate-key="applyToSolidarized">Solidarisierte Kosten</label></div>
                                 <div class="flex items-center"><input id="netz_custom_abgabe_check" type="checkbox" class="h-4 w-4 text-purple-600 border-gray-300 rounded focus:ring-purple-500"><label for="netz_custom_abgabe_check" class="ml-2 text-sm text-gray-600" data-translate-key="applyToCustomGrid">Zusätzliche Komponenten (Netz)</label></div>
+                                <div class="flex items-center"><input id="messung_abgabe_check" type="checkbox" class="h-4 w-4 text-purple-600 border-gray-300 rounded focus:ring-purple-500"><label for="messung_abgabe_check" class="ml-2 text-sm text-gray-600" data-translate-key="applyToMeasurement">Messentgelt</label></div>
                             </div>
                         </div>
                     </div>
@@ -534,9 +536,10 @@
                     municipalTaxPercentageLabel: 'Gemeindeabgabe (%)',
                     applyMunicipalTaxToLabel: 'Gemeindeabgabe anwenden auf:',
                     municipalTaxApplicationNotice: 'Die Gemeindeabgabe wird nicht immer auf alle Netznutzungskomponenten angewendet. Prüfe auf dem Tarifblatt des Energieversorgers auf welche die prozentuale Abgabe gilt.',
-                    applyToBasicTariff: 'Grundtarif',
+                    applyToMeasurement: 'Messentgelt',
+                    applyToBasicTariff: 'Grundtarif Netz',
                     applyToPowerTariff: 'Leistungstarif',
-                    applyToGridSingleTariff: 'Einheitstarif Netz',
+                    applyToGridSingleTariff: 'Netznutzung (Einheitstarif bzw. HT/NT)',
                     applyToSdl: 'SDL-Swissgrid',
                     applyToWinterReserve: 'Stromreserve',
                     applyToSolidarized: 'Solidarisierte Kosten',
@@ -614,9 +617,10 @@
                     municipalTaxPercentageLabel: 'Taxe communale (%)',
                     applyMunicipalTaxToLabel: 'Appliquer la taxe communale à :',
                     municipalTaxApplicationNotice: 'La taxe communale ne s\'applique pas toujours à tous les composants de l\'utilisation du réseau. Vérifiez sur la feuille de tarifs du fournisseur d\'énergie à quels composants la taxe proportionnelle s\'applique.',
-                    applyToBasicTariff: 'Tarif de base',
+                    applyToMeasurement: 'Timbre de mesure',
+                    applyToBasicTariff: 'Tarif de base réseau',
                     applyToPowerTariff: 'Tarif de puissance',
-                    applyToGridSingleTariff: 'Tarif unique réseau',
+                    applyToGridSingleTariff: 'Utilisation du réseau (tarif unique ou HT/NT)',
                     applyToSdl: 'Services système Swissgrid',
                     applyToWinterReserve: 'Réserve d\'électricité',
                     applyToSolidarized: 'Coûts solidarisés',
@@ -694,9 +698,10 @@
                     municipalTaxPercentageLabel: 'Tassa comunale (%)',
                     applyMunicipalTaxToLabel: 'Applica tassa comunale a:',
                     municipalTaxApplicationNotice: 'La tassa comunale non viene sempre applicata a tutti i componenti di utilizzo della rete. Verificare sul foglio tariffario del fornitore di energia a quali componenti si applica la tassa percentuale.',
-                    applyToBasicTariff: 'Tariffa di base',
+                    applyToMeasurement: 'Tariffa di misurazione',
+                    applyToBasicTariff: 'Tariffa di base rete',
                     applyToPowerTariff: 'Tariffa di potenza',
-                    applyToGridSingleTariff: 'Tariffa unica rete',
+                    applyToGridSingleTariff: 'Utilizzo della rete (tariffa unica o HT/NT)',
                     applyToSdl: 'Servizi di sistema Swissgrid',
                     applyToWinterReserve: 'Riserva di energia',
                     applyToSolidarized: 'Costi solidarizzati',
@@ -774,9 +779,10 @@
                     municipalTaxPercentageLabel: 'Municipal Tax (%)',
                     applyMunicipalTaxToLabel: 'Apply municipal tax to:',
                     municipalTaxApplicationNotice: 'The municipal tax is not always applied to all grid usage components. Check the energy supplier\'s tariff sheet to see which components the percentage tax applies to.',
-                    applyToBasicTariff: 'Basic Tariff',
+                    applyToMeasurement: 'Metering fee',
+                    applyToBasicTariff: 'Grid basic tariff',
                     applyToPowerTariff: 'Power Tariff',
-                    applyToGridSingleTariff: 'Grid Single Tariff',
+                    applyToGridSingleTariff: 'Grid usage (single tariff or HT/NT)',
                     applyToSdl: 'Swissgrid System Services',
                     applyToWinterReserve: 'Electricity Reserve',
                     applyToSolidarized: 'Solidarized Costs',
@@ -1007,6 +1013,7 @@
                     abgabenFoerderung: (parseFloat(document.getElementById('abgaben_foerderung').value) || 0) / 100,
                     solarKwhRabatt: 0,
                     solarGrundgebuehrRabatt: 0,
+                    applyAbgabeMessung: document.getElementById('messung_abgabe_check').checked,
                     applyAbgabeGrundtarif: document.getElementById('netz_grundtarif_abgabe_check').checked,
                     applyAbgabeLeistungstarif: document.getElementById('netz_leistungstarif_abgabe_check').checked,
                     applyAbgabeEinheitstarif: document.getElementById('netz_einheitstarif_abgabe_check').checked,
@@ -1032,27 +1039,35 @@
 
                 const gemeindeabgabeProzentMultiplier = 1 + (inputs.gemeindeabgabeProzent / 100);
 
-                let netzGrundtarifExkl = inputs.netzGrundtarif + inputs.messungGrundtarif;
+                // Netz-Grundtarif und Messentgelt getrennt führen, damit die Gemeindeabgabe
+                // nicht automatisch auf das Messentgelt angewendet wird.
+                let netzGrundtarifNurNetzExkl = inputs.netzGrundtarif;
+                let messungGrundtarifExkl = inputs.messungGrundtarif;
                 let netzLeistungstarifExkl = inputs.netzLeistungstarif;
                 let netzSdlExkl = inputs.netzSdl;
                 let netzWinterreserveExkl = inputs.netzWinterreserve;
                 let netzSolidarisiertExkl = inputs.netzSolidarisiert;
 
                 if (inputs.gemeindeabgabeTyp === 'prozent') {
-                    if (inputs.applyAbgabeGrundtarif) netzGrundtarifExkl *= gemeindeabgabeProzentMultiplier;
+                    if (inputs.applyAbgabeGrundtarif) netzGrundtarifNurNetzExkl *= gemeindeabgabeProzentMultiplier;
+                    if (inputs.applyAbgabeMessung) messungGrundtarifExkl *= gemeindeabgabeProzentMultiplier;
                     if (inputs.applyAbgabeLeistungstarif) netzLeistungstarifExkl *= gemeindeabgabeProzentMultiplier;
                     if (inputs.applyAbgabeSdl) netzSdlExkl *= gemeindeabgabeProzentMultiplier;
                     if (inputs.applyAbgabeWinterreserve) netzWinterreserveExkl *= gemeindeabgabeProzentMultiplier;
                     if (inputs.applyAbgabeSolidarisiert) netzSolidarisiertExkl *= gemeindeabgabeProzentMultiplier;
                     if (inputs.applyAbgabeCustomGrid) customNetzSum *= gemeindeabgabeProzentMultiplier;
                 }
-                
+
+                // Monatliche Grundgebühr total (Netz-Grundtarif + Messentgelt)
+                const netzGrundtarifExkl = netzGrundtarifNurNetzExkl + messungGrundtarifExkl;
+
                 const calculateKwhPrice = (energieTarif, netzTarif) => {
+                    // Der Energiepreis ist nie Teil der Gemeindeabgabe-Berechnung.
                     let finalNetzTarif = netzTarif;
                     if (inputs.gemeindeabgabeTyp === 'prozent' && inputs.applyAbgabeEinheitstarif) {
                         finalNetzTarif *= gemeindeabgabeProzentMultiplier;
                     }
-                    
+
                     let preis = energieTarif + finalNetzTarif + netzSdlExkl + netzWinterreserveExkl + netzSolidarisiertExkl + inputs.abgabenFoerderung + customAbgabenSum + customNetzSum;
                     
                     if (inputs.gemeindeabgabeTyp === 'rappen') {

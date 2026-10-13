@@ -55,9 +55,9 @@ const sidebars: SidebarsConfig = {
         {
           type: 'category',
           label: 'LEG - Lokale Elektrizitätsgemeinschaft',
-          link: {type: 'doc', id: 'planung/leg-lokale-elektrizitaetsgemeinschaft/index'},
+          link: {type: 'doc', id: 'planung/leg-lokale-elektrizitätsgemeinschaft/index'},
           items: [
-            'planung/leg-lokale-elektrizitaetsgemeinschaft/leg-rechner',
+            'planung/leg-lokale-elektrizitätsgemeinschaft/leg-rechner',
           ],
         },
         {

@@ -90,5 +90,9 @@
   "sidebar.wikiSidebar.category.Status": {
     "message": "Stato",
     "description": "The label for category 'Status' in sidebar 'wikiSidebar'"
+  },
+  "sidebar.wikiSidebar.category.LEG - Lokale Elektrizitätsgemeinschaft": {
+    "message": "CEL - Comunità elettrica locale",
+    "description": "The label for category 'LEG - Lokale Elektrizitätsgemeinschaft' in sidebar 'wikiSidebar'"
   }
 }

@@ -10,6 +10,10 @@ Ziel der Empfehlungen ist es unseren Partnern die Möglichkeit zu bieten, einfac
 
 [Stromwandler und Zubehör zu Telstar CT](/drittprodukte/Stromwandler)
 
+[Zählersteckklemmen Nimbus 100A](/drittprodukte/zaehlersteckklemmen-nimbus-100A)
+
 [Pico Standfuss Fundamente](/drittprodukte/standfuss-fundamente)
 
-[Zählersteckklemmen Nimbus 100A](/drittprodukte/zaehlersteckklemmen-nimbus-100A)
+Alternativ zum Standfuss der smart-me, ist die Pico auch mit dem One Pole System kompatibel.
+
+[Pico Standfuss - One Pole](/produkte/pico-ladestation/pico-standfuss#onepole-pro-für-pico-ladestation)

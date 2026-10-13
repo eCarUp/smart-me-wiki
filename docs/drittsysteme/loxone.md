@@ -119,7 +119,9 @@ curl -X "GET" "https://api.smart-me.com/Devices" -H "accept: \*/\*" -H "Authoriz
 - Im Feld "HTTP-Antwort speichern" muss der text smartmeapi.html angepasst werden.
 
 
-- Der Name muss für jeden Ausgang individuell sein. z.B. bilanz.html Beispiel user/common/bilanz.html 
+- Der Name muss für jeden Ausgang (Also jeden Zähler) individuell sein. 
+
+    - z.B. bilanz.html für Bilanzzähler user/common/bilanz.html 
 
 
 ![Loxone – Abbildung 7](/img/drittsysteme-loxone/07.png)
@@ -155,9 +157,15 @@ curl -X "GET" "https://api.smart-me.com/Devices" -H "accept: \*/\*" -H "Authoriz
 
 ![Loxone – Abbildung 9](/img/drittsysteme-loxone/09.png)
 
-Wenn nicht das smart-me Template  verwendet wird, muss der "Virtuelle Ausgang Befehl" mittels Impulsgenerator angesteuert werden.
+### 5\. Impulsgenerator mit virtuellem Ausgang verbinden
+
+Wenn nicht das Example Meter verwendet wird, muss der "Virtuelle Ausgang Befehl" mittels Impulsgenerator angesteuert werden.
 
 ![Loxone – Abbildung 10](/img/drittsysteme-loxone/10.png)
+
+![Loxone – Abbildung 11](/img/drittsysteme-loxone/11.png)
+
+![Loxone – Abbildung 12](/img/drittsysteme-loxone/12.png)
 
 ## Loxone Zähler in Smart-me verwenden
 

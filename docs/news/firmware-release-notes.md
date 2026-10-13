@@ -1,15 +1,24 @@
 ---
 title: 'Firmware Release Notes'
 slug: '/news/firmware-release-notes'
-description: 'EM-406: Improve uart and watchdog'
+description: 'Pico v0.0.57-r57 Date: 11.9.2026'
 sidebar_label: 'Firmware Release Notes'
 ---
 ## Firmware Release Notes
 
 ### Pico
 
-Pico v 0.0.55-r55
+Pico v0.0.57-r57
+Date: 11.9.2026
 
+Bugs:
+
+- Fix pico station idle after pause transaction stays open
+
+- Fix false overload trip of the 130% overcurrent protection
+
+
+Pico v0.0.55-r55
 Date: 01.05.2026
 
 Bugs
@@ -19,7 +28,7 @@ Bugs
 - Quick Fix WiFi AP mode
 
 
-Pico v 0.0.54-r54
+Pico v0.0.54-r54
 Date: 13.04.2026
 
 Bugs:
@@ -27,7 +36,7 @@ Bugs:
 - Multiple improvements have been made to ensure better WLAN, mesh, and mobile connectivity.
 
 
-Pico v 0.0.53\-r53
+Pico v0.0.53\-r53
 Date: 12.03.2026
 
 Feature
@@ -90,7 +99,7 @@ Bugs:
 - WiFi: decoupling Timer execution context
 
 
-Pico v 0.0.47\-r47 und 0.0.46\-r46
+Pico v0.0.47\-r47 und 0.0.46\-r46
 Date: 01.12.2025
 
 - Option to switch between 1-3 phases via Modbus or API. (MLM is not yet supported)
@@ -103,7 +112,7 @@ Date: 14.08.2025
 
 Bug fixes
 
-Pico v 0.0.34-r34
+Pico v0.0.34-r34
 Date: 16.01.2025
 
 Bug fixes
@@ -111,7 +120,7 @@ Bug fixes
 - EM-336: Fix WLAN Installation Problem
 
 
-Version 0.0.33-r33
+Pico v0.0.33-r33
 Date: 06.01.2025
 
 Features
@@ -132,13 +141,13 @@ Bugs
 - Mobile connection stability increased
 
 
-Version 0.0.30\-r30
+Pico v0.0.30\-r30
 Date: 03.10.2024
 
 - EM-320 Fix possible loss of charging transactions in communication (mostly mobile)
 
 
-Version 0.0.29-r29
+Pico v0.0.29-r29
 Date: 1.7.2024
 
 Features
@@ -153,7 +162,7 @@ Bugs
 - EM-307: Improved offline behavior
 
 
-Version 0.0.28-r28
+Pico v0.0.28-r28
 Date: 15.04.2024
 
 Features:
@@ -194,7 +203,7 @@ Technical:
 - upgrade aes soft algorithm
 
 
-Version 0.0.23-r23
+Pico v0.0.23-r23
 Date: 07.12.2023
 
 Features:
@@ -207,7 +216,7 @@ Bugs
 - EVSE Tool fixes (try to restart it after a crash)
 
 
-Version 0.0.22-r22
+Pico v0.0.22-r22
 Date: 04.09.2023
 
 Bugs
@@ -215,7 +224,7 @@ Bugs
 - Fix problem with locker with very cold temperatures (below -20 degree C)
 
 
-Version 0.0.21-r21
+Pico v0.0.21-r21
 Date: 27.08.2023
 
 Features
@@ -225,7 +234,7 @@ Features
 - Increase routing lookup table for wifi module (support upto 200 stations per loadmanagement group instead of 20)
 
 
-Version 0.0.20-r20
+Pico v0.0.20-r20
 Date: 03.07.2023
 
 -  Show date/time (start time of the charging and the duration) in the charging screen
@@ -237,13 +246,13 @@ Date: 03.07.2023
 -  Use lower baudrate if WiFi Update fails
 
 
-Version 0.0.19-r19
+Pico v0.0.19-r19
 Date: 08.05.2023
 
 -  Fix Bug in Charging Statemachine (Wait in State B1 until we have a PWM before switch on the relais)
 
 
-Version 0.0.18-r18
+Pico v0.0.18-r18
 Date: 03.04.2023
 
 -  Buffer images (reduce reads from flash)
@@ -253,7 +262,7 @@ Date: 03.04.2023
 -  Flush to disk (flash) after writing the settings file or the images / firmware updates
 
 
-Version 0.0.17-r17
+Pico v0.0.17-r17
 Date: 17.02.2023
 
 - Timing changes to power start up after car is ready

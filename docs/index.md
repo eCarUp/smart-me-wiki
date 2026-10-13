@@ -2,11 +2,40 @@
 title: 'Technische Daten & Handbücher'
 slug: '/'
 description: 'Greife auf eine umfassende Sammlung von technischen Daten, Bedienungsanleitungen und Installationshinweisen zu smart-me Produkten sowie den Software-Einstellungen.'
-sidebar_label: 'Home'
+sidebar_label: 'smart-me Wiki DE'
 ---
 Greife auf eine umfassende Sammlung von technischen Daten, Bedienungsanleitungen und Installationshinweisen zu smart-me Produkten sowie den Software-Einstellungen.
 
 ## Neuigkeiten
+
+## NEU: ZEV mit Notstromsystemen
+
+Neu kannst du Notstromsysteme alternativ tarifieren.  
+
+Da oft der Platz für den Solarzähler fehlt, kannst du nun einfach mittels Hausanschluss und Gesamtverbrauch tarifieren, ohne den Solarzähler umständlich ergänzen zu müssen.
+
+Wähle dazu den Solartarif inkl. vZEV:
+\- Referenzzähler: Verbrauch und Bilanz
+
+Nun werden die Tarife ohne Solarzähler korrekt berechnet und erspart die umständliche Auf- und Umbauten.
+
+Hinweis: Wenn die Installation eines Solarstromzählers möglich ist, zögere bitte nicht, dies zu tun. Die vollständige Abdeckung des Messkonzeptes kann Fehldaten durch Zählerdefekte abdecken, systematisches Weglassen beraubt aber dieser Möglichkeit.
+
+[Mehr Details](/planung/Messkonzept-Notstromloesung)
+
+![Technische Daten & Handbücher – Abbildung 1](/img/home/01.png)
+
+## Kleines Update zum Solarmanager ab August 2026
+
+Mit dem neuen Update vom SolarManager werden Picos nicht mehr über die Seriennummer gesteuert, sondern über die ID der Lastmanagement Level 1 Gruppe.
+
+In dem kurzen Video zeige ich dir Schritt für Schritt, wie das funktioniert, damit du die Einstellungen auf der smart-me Seite korrekt vornehmen kannst.
+
+Das ist super zu wissen: mit dem Update ist somit das einphasige Laden mit 6 A (ca. 1,4 kW) möglich, was ideal für geringere PV-Überschüsse ist. Wie dies konfiguriert werden kann, findest du in der Dokumentation vom Solarmanager
+
+<Embed src="https://drive.google.com/file/d/1Oc3uuTCMusCJMHL7hjlJzFbkoFONHpm4/preview" aspect="1.350" title="Drive, solarmanager_update_2026.mp4" />
+
+solarmanager\_update\_2026.mp4
 
 ## NEU: Rechnungsvorschau V1
 
@@ -23,9 +52,9 @@ Wo?
 
 Rechnungsstellung --> Rechnungen
 
-![Technische Daten & Handbücher – Abbildung 1](/img/home/01.png)
-
 ![Technische Daten & Handbücher – Abbildung 2](/img/home/02.png)
+
+![Technische Daten & Handbücher – Abbildung 3](/img/home/03.png)
 
 ## Aktualisierung unserer AGB & Datenschutzrichtlinien
 
@@ -59,7 +88,7 @@ Bereite dich auf den reibungslosen Wechsel auf unsere neue, moderne Plattform vo
 
 [→ Zum Tarifrechner für Strom und Solar](/konfiguration/billing/stromtarife-definieren/stromtarif-rechner)
 
-![Technische Daten & Handbücher – Abbildung 3](/img/home/03.png)
+![Technische Daten & Handbücher – Abbildung 4](/img/home/04.png)
 
 ## Neu: Dynamische Netztarife abrechnen
 
@@ -69,9 +98,9 @@ Wir importieren von deinem Provider den dynamischen Tarif und wenden diesen alle
 
 [→ Mehr Informationen zu den Tarifen](/konfiguration/billing/stromtarife-definieren)
 
-![Technische Daten & Handbücher – Abbildung 4](/img/home/04.png)
-
 ![Technische Daten & Handbücher – Abbildung 5](/img/home/05.png)
+
+![Technische Daten & Handbücher – Abbildung 6](/img/home/06.png)
 
 ## Neu: My Dashboards
 
@@ -79,7 +108,7 @@ Ermöglicht dir personalisierte Dashboards zu erstellen wie Energieflüsse und �
 
 
 
-![Technische Daten & Handbücher – Abbildung 6](/img/home/06.png)
+![Technische Daten & Handbücher – Abbildung 7](/img/home/07.png)
 
 [→ Mehr erfahren](/konfiguration/my-dashboards)
 
@@ -88,7 +117,7 @@ Ermöglicht dir personalisierte Dashboards zu erstellen wie Energieflüsse und �
 - Energieflüsse
 
 
-![Technische Daten & Handbücher – Abbildung 7](/img/home/07.png)
+![Technische Daten & Handbücher – Abbildung 8](/img/home/08.png)
 
 ## Neu: Technische Tools
 
@@ -96,20 +125,20 @@ In der neuen Abteilung Technische Tools findest du Hilfsmittel für Installation
 
 
 
-![Technische Daten & Handbücher – Abbildung 8](/img/home/08.png)
+![Technische Daten & Handbücher – Abbildung 9](/img/home/09.png)
 
 [→ Mehr erfahren](/konfiguration/technische-tools)
 
 - Installationsprüfung
 
 
-![Technische Daten & Handbücher – Abbildung 9](/img/home/09.png)
+![Technische Daten & Handbücher – Abbildung 10](/img/home/10.png)
 
 ## Neu: AppLAB
 
 Die neue Abteilung AppLAB ist ein Versuchsbereich und stellt verschiedene Features bereit um deren Wirksamkeit zu testen.
 
-![Technische Daten & Handbücher – Abbildung 10](/img/home/10.png)
+![Technische Daten & Handbücher – Abbildung 11](/img/home/11.png)
 
 [→ Mehr erfahren](/konfiguration/applab)
 
@@ -131,7 +160,7 @@ Die komplette smart-me UI hat eine Erneuerung des Designs erhalten.
 - Es hat sich in der Nutzung nichts verändert.
 
 
-![Technische Daten & Handbücher – Abbildung 11](/img/home/11.png)
+![Technische Daten & Handbücher – Abbildung 12](/img/home/12.png)
 
 ## Neu: ZEV Performance Übersicht
 
@@ -153,7 +182,7 @@ Prüfe die Produktion und Erträge deines ZEVs in der neuen "ZEV Performance" Vi
 
 [→ Mehr Informationen zu den neuen Visualisierungen](/konfiguration/visualisierung)
 
-![Technische Daten & Handbücher – Abbildung 12](/img/home/12.png)
+![Technische Daten & Handbücher – Abbildung 13](/img/home/13.png)
 
 ## Visualisierungs Update
 
@@ -169,9 +198,9 @@ Sehen Sie sich die neue Pico-Visualisierung an, die alle Pico-Ladepunkte und der
 
 [→ Mehr Informationen zur den neuen Visualisierungen](/konfiguration/visualisierung)
 
-![Technische Daten & Handbücher – Abbildung 13](/img/home/13.png)
-
 ![Technische Daten & Handbücher – Abbildung 14](/img/home/14.png)
+
+![Technische Daten & Handbücher – Abbildung 15](/img/home/15.png)
 
 ## Das neue M-Bus Gateway Sirius ist da!
 
@@ -186,7 +215,7 @@ Unsere Produktfamilie wächst weiter: Mit dem Sirius bringen wir unser bisher le
 
 [→ Mehr Informationen zum Sirius](/produkte/m-bus-gateway#m-bus-gateway-sirius-250-standardlasten)
 
-![Technische Daten & Handbücher – Abbildung 15](/img/home/15.jpg)
+![Technische Daten & Handbücher – Abbildung 16](/img/home/16.jpg)
 
 ## NEU: MWST - Richtig verrechnen
 
@@ -196,7 +225,7 @@ Das MWST-Gesetz zum ZEV ist ähnlich schnell im Wandel wie die Technik.
 
 [→ Mehr Informationen für unsere Partner](/konfiguration/billing/mwst-zev-nebenkosten)
 
-![Technische Daten & Handbücher – Abbildung 16](/img/home/16.png)
+![Technische Daten & Handbücher – Abbildung 17](/img/home/17.png)
 
 ## FAQs
 
@@ -307,6 +336,6 @@ TeamViewer-Support:
 
 Nur nach telefonischer Vereinbarung verfügbar.
 
-[![Technische Daten & Handbücher – Abbildung 17](/img/home/17.jpg)](https://get.teamviewer.com/68stbb8)
+[![Technische Daten & Handbücher – Abbildung 18](/img/home/18.jpg)](https://get.teamviewer.com/68stbb8)
 
 [Download Team Viewer für smart-me](https://get.teamviewer.com/68stbb8)

@@ -136,6 +136,10 @@ const config: Config = {
           label: 'Wiki',
         },
         {
+          type: 'custom-landWahl',
+          position: 'right',
+        },
+        {
           type: 'localeDropdown',
           position: 'right',
         },

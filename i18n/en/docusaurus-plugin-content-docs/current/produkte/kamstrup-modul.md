@@ -8,7 +8,7 @@ smart-me module for the customer interface of the Kamstrup Omnipower meter.
 
 The smart-me Kamstrup Module brings electricity meters into the cloud. Your customers get accurate analyses, visualizations and precise monitoring of their own energy consumption. No additional hardware is required. The smart-me Kamstrup Module uses the existing WiFi network and connects directly to the smart-me Cloud.
 
-Discontinuation notice sent in Switzerland on 08.08.2023 (partner network).
+Discontinuation notice in Switzerland sent on 08.08.2023 (partner network).
 
 Sales in Switzerland will be discontinued as of 31.12.2023; support and cloud support remain guaranteed.
 
@@ -18,7 +18,7 @@ Sales outside Switzerland were discontinued on 1.1.2023; support and cloud suppo
 
 ## Kamstrup Module LED sequences with error descriptions
 
-Most sources of error when installing a Kamstrup Module can be identified from the LED sequence:
+Most sources of error when installing a Kamstrup Module can be identified using the LED sequence:
 
 Chapters
 
@@ -28,11 +28,11 @@ Chapters
 
 [00:59](https://www.youtube.com/watch?v=CwS65mPsTws&t=59s) LED flashing rapidly
 
-[01:14](https://www.youtube.com/watch?v=CwS65mPsTws&t=74s) LED running light
+[01:14](https://www.youtube.com/watch?v=CwS65mPsTws&t=74s) LED chaser light
 
 <Embed src="https://player.vimeo.com/video/688374505" aspect="1.601" title="smart-me Wiki EN - Kamstrup Module" />
 
-## Functions
+## Features
 
 - Various charts and evaluations
 
@@ -44,13 +44,13 @@ Chapters
 
 - Encrypted WLAN connection directly to the smart-me Cloud
 
-- Real-time visualization of power, meter reading, voltage and current in the app and on the web. Without a Pro license, the reading interval is limited to 60 seconds.
+- Real-time visualization of power, meter reading, voltage and current in the app and on the web. Without a Pro license, the readout interval is limited to 60 seconds.
 
 - Comprehensive energy management: automatic billing, control, optimization and alarms
 
 - Easy [installation](/konfiguration/inbetriebnahme) with the smart-me app for [Android](https://play.google.com/store/apps/details?id=com.smart_me) and [iOS](https://apps.apple.com/ch/app/smart-me/id929146952?ign-mpt=uo%3D4)
 
-- Modbus TCP from firmware version 8.0 (Info: Without a continuous internet connection, the module cannot provide stable Modbus communication either) 
+- Modbus-TCP from firmware version 8.0 (Note: Without a continuous internet connection, the module cannot provide stable Modbus communication either) 
 
 ### How can I set the correction factor in the cloud?
 
@@ -58,44 +58,44 @@ To set the correction factor of a module or meter, proceed as follows:
 
 1.  Log in to the smart-me portal 
 
-2.  Click Configure (Konfigurieren)
+2.  Click on Configure (konfigurieren)
 
-3.  Click Meter/Folder Configuration (Zähler/Ordner-Konfiguration)
+3.  Click on Meter/Folder Configuration (Zähler/Ordner-Konfiguration)
 
-4.  Select the relevant meter
+4.  Select the corresponding meter
 
-5.  Click Edit node (Knoten editieren) (green button at the top)
+5.  Click on Edit Node (Knoten editieren) (green button at the top)
 
-6.  Enter the correction value under Value correction (Wert Korrektur). (Caution: only under Value correction (Wert Korrektur), not under Parent folder value correction (Überordner Wert Korrektur))
+6.  Enter the correction value under Value Correction (Wert Korrektur). (Caution: only under Value Correction (Wert Korrektur), not under Parent Folder Value Correction (Überordner Wert Korrektur))
 
 7.  Press Save (Speichern).
 
 ### Kamstrup Module decryption
 
-[Video tutorial](https://www.youtube.com/watch?v=bYoq9a142t8)
+[Video instructions](https://www.youtube.com/watch?v=bYoq9a142t8)
 
 1.  Top right on the gear icon (Settings (Einstellungen)) 
 
 2.  Edit (Editieren) 
 
-3.  Enter meter key (Zählerschlüssel)
+3.  Enter meter key
 
-Caution: The Kamstrup Module needs the encryption PIN of the meter in order to read the data. Only the energy supplier has this PIN.
+Caution: The Kamstrup Module needs the meter's encryption PIN to be able to read the data. Only the energy supplier has this PIN.
 
 ### How is the correction factor calculated?
 
-1.  Caution: This text does not refer to the transformer ratio of the Telstar CT, but to the correction factor in the folder and meter configuration. The correction factor is mainly required when using Kamstrup meters in combination with current transformers. 
+1.  Caution: This text does not refer to the transformer ratio of the Telstar CT, but to the correction factor in the meter/folder configuration. The correction factor is mainly required when using Kamstrup meters in combination with current transformers. 
 
-2.  Example with a 600:5 transformer:
-    If a transformer with a ratio of 600:5 is used, the value must be adjusted by a factor of 600 : 5 = 120. The correction factor must be entered as a percentage in the smart-me Cloud. This results in a correction factor of 120 \* 100 % = 12'000 %
+2.  Example with current transformer 600:5:
+    If a current transformer with a ratio of 600:5 is used, the value must be adjusted by a factor of 600 : 5 = 120. The correction factor must be specified as a percentage in the smart-me Cloud. This results in a correction factor of 120 \* 100 % = 12'000 %
 
-3.  Example with a 600:5 transformer and a Kamstrup meter preset to 100:5:
-    Some Kamstrup meters have a preset transformer ratio of 100:5. If a transformer with a ratio of 600:5 is connected to such a meter, the correction factor is calculated as follows:
+3.  Example with current transformer 600:5 and Kamstrup meter preset to 100:5:
+    Some Kamstrup meters have a preset transformer ratio of 100:5. If a current transformer with a ratio of 600:5 is connected to this meter, the correction factor is calculated as follows:
     Correction factor of the Kamstrup meter: 100 : 5 = 20
-    Correction factor for the transformer: 600 : 5 = 120
+    Correction factor for the current transformer: 600 : 5 = 120
     Total correction factor: 120 / 20 = 6
-    Total correction factor as a percentage: 6 \* 100 % = 600 %
-    In this case, a correction factor of 600 % would have to be set in the smart-me portal. 
+    Total correction factor in percent: 6 \* 100 % = 600 %
+    In this case, a correction factor of 600 % would therefore have to be set in the smart-me portal. 
 
 ### How often is data transmitted
 
@@ -111,11 +111,11 @@ This can be set as follows
 
 - Gear icon at the top right
 
-- General settings (Allgemeine Einstellungen)
+- General Settings (Allgemeine Einstellungen)
 
-- Set upload interval (Upload-Intervall) (&lt;60 seconds only possible with smart-me Professional)
+- Set the Upload Interval (Upload-Intervall) (&lt;60 seconds only possible with smart-me Professional)
 
-- Save settings (Einstellungen speichern)
+- Save Settings (Einstellungen speichern)
 
 ## Meter offline
 
@@ -131,7 +131,7 @@ Meter-specific information can be found here
 
 - Procedure: Remove the module from the meter. Wait until no LED is lit any more. Slide the module back into the meter.
 
-### How do I recognise the reception status of a meter
+### How do I recognize the reception status of a meter
 
 - Connected to the WLAN: orange LED on the left and green LED on the right are lit continuously.
 
@@ -141,7 +141,7 @@ Meter-specific information can be found here
 
 ### Check on arrival
 
-The following points can be checked on arrival. If something has already been done to the meter, it is important that nothing is done to the meter for at least 5 minutes. It is also possible to ask the customer on site for a video of the meter (30 seconds) in order to better assess the situation.
+The following points can be checked on arrival. If something has already been done to the meter, it is important that nothing is done to the meter for at least 5 minutes. It is also possible to ask the customer on site for a video of the meter (30 seconds) to better assess the situation.
 
 - Check the status using the video: [https://www.youtube.com/watch?v=CwS65mPsTws](https://www.youtube.com/watch?v=CwS65mPsTws) or [https://vimeo.com/688374505](https://vimeo.com/688374505)
 
@@ -151,7 +151,7 @@ The following points can be checked on arrival. If something has already been do
 
     - Chapter: [00:59](https://www.youtube.com/watch?v=CwS65mPsTws&t=59s) LED flashing rapidly
 
-    - Chapter: [01:14](https://www.youtube.com/watch?v=CwS65mPsTws&t=74s) LED running light
+    - Chapter: [01:14](https://www.youtube.com/watch?v=CwS65mPsTws&t=74s) LED chaser light
 
 ## Change upload interval
 
@@ -161,7 +161,7 @@ The following points can be checked on arrival. If something has already been do
 
 - Select the gear icon at the top right
 
-- General settings (Allgemeine Einstellungen)
+- General Settings (Allgemeine Einstellungen)
 
 ![Kamstrup Module – Figure 2](/img/produkte-kamstrup-modul/02.png)
 
@@ -169,9 +169,9 @@ The following points can be checked on arrival. If something has already been do
 
 smart-me does not offer a successor product for Kamstrup meters. 
 
-If you operate a smart-me ZEV (association for own consumption, Switzerland only) and need a new solution for your metering (e.g. HAK), feel free to contact us; we offer our [project partners](https://web.smart-me.com/projektpartner/) favourable conditions for the replacement. (Special offer valid until 30.06.2025)
+If you operate a smart-me ZEV (association for own consumption) (Switzerland only) and need a new solution for your metering (e.g. main service connection), feel free to contact us – we offer our [project partners](https://web.smart-me.com/projektpartner/) favourable conditions for the replacement. (Special offer valid until 30.06.2025)
 
-If measurements are carried out in a private setting for monitoring, home automation, etc., the [Telstar 80A](/produkte/telstar) or [Telstar CT](/produkte/Telstar-CT) can be installed at any time. If you are looking for a solution with your existing Kamstrup meter, we recommend taking a look at this page. [https://whatwatt.ch/de](https://whatwatt.ch/de) or [https://gplug.ch/](https://gplug.ch/) (gPlug caveat: Note that the Kamstrup smart-me module uses an undocumented function of the customer interface (CII). In contrast, the gPlugK uses the publicly documented CII. It may therefore happen that the gPlugK does not work on an Omnipower even though the smart-me product works with it. This problem can sometimes be solved by the distribution grid operator changing the remote configuration.
+If measurements are carried out in a private setting for monitoring, home automation, etc., the [Telstar 80A](/produkte/telstar) or [Telstar CT](/produkte/Telstar-CT) can be installed at any time. If you are looking for a solution with your existing Kamstrup meter, we recommend taking a look at this page. [https://whatwatt.ch/de](https://whatwatt.ch/de) or [https://gplug.ch/](https://gplug.ch/) (gPlug caveat: Note that the Kamstrup smart-me module uses an undocumented function of the customer interface (CII). In contrast, the gPlugK uses the publicly published CII. It may therefore happen that the gPlugK does not work on an Omnipower even though the smart-me product works with it. This problem can sometimes be solved by the distribution grid operator changing the remote configuration.
 
 ## Invalid meter key (CKW)
 
@@ -181,9 +181,9 @@ Problem
 
 Solution
 
-The cause of the problem has been known since 14.5.2025 13:43: During system maintenance at CKW, all keys of the Kamstrup meters were accidentally renewed and the previous keys became invalid.
+The cause of the problem has been known since 14.5.2025 13:43: During system maintenance by CKW, all keys of the Kamstrup meters were accidentally renewed and the previous ones invalidated.
 
-As a solution, you need to send an email to CKW at [messtechnik@ckw.ch](mailto:messtechnik@ckw.ch) with the meter number (see image at the bottom right). CKW will then send you a new key.
+As a solution, send CKW an email at [messtechnik@ckw.ch](mailto:messtechnik@ckw.ch) with the meter number (see image at bottom right). CKW will then send you a new key.
 
 ![Kamstrup Module – Figure 3](/img/produkte-kamstrup-modul/03.png)
 
@@ -191,7 +191,7 @@ As a solution, you need to send an email to CKW at [messtechnik@ckw.ch](mailto:m
 
 ## Downloads
 
-Data sheet
+Datasheet
 
 [English](https://docs.google.com/presentation/d/1MZwOPzxvFGYc0ABwUGkdSa5Ay1NUlRRAXrMTlrBY5lw/export/pdf)
 
@@ -204,12 +204,12 @@ Technical documents
 <details id="in-welchem-intervall-senden-die-zähler-daten">
 <summary>At what interval do the meters send data?</summary>
 
-- Every 15 minutes, i.e. at xx:00:00, xx:15:00, xx:30:00 and xx:45:00. This sends the data required for the load profile. In the event of a connection interruption, this data is stored locally and sent later.
+- Every 15 minutes, i.e. at xx:00:00 xx:15:00, xx:30:00 and xx:45:00. This sends the data required for the load profile. In the event of a connection interruption, this data is stored locally and sent later.
 
 - In addition, an individual configuration can be made:
 
-    - With Basic or Limited licenses: max. once per minute.
+    - With Basic or Limited licenses: max. 1x per minute.
 
-    - With Pro licensing: max. once per second
+    - With Pro licensing: max. 1x per second
 
 </details>

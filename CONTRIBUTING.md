@@ -422,6 +422,62 @@ gehören in den sichtbaren Text.
 
 ---
 
+## Eine Seite einem Land zuordnen
+
+Manches gilt nur in einem Land: ZEV, vZEV, LEG und die VEWA-Abrechnung sind
+schweizerisch, Mieterstrom ist deutsch. Oben rechts kann der Leser ein Land
+wählen; die Navigation zeigt dann nur noch, was dort gilt.
+
+Die Zuordnung steht **nicht** in der Seite, sondern an ihrem Eintrag in
+`sidebars.ts`:
+
+```ts
+{type: 'doc', id: 'konfiguration/billing/vewa-abrechnung',
+ customProps: {laender: ['ch']}},
+```
+
+Eine ganze Kategorie geht genauso:
+
+```ts
+{
+  type: 'category',
+  label: 'LEG - Lokale Elektrizitätsgemeinschaft',
+  customProps: {laender: ['ch']},
+  link: {type: 'doc', id: 'planung/leg-lokale-elektrizitätsgemeinschaft/index'},
+  items: ['planung/leg-lokale-elektrizitätsgemeinschaft/leg-rechner'],
+},
+```
+
+Gilt eine Seite in mehreren Ländern: `['ch', 'de']`.
+
+**Ohne `customProps` ist eine Seite überall sichtbar.** Das ist der Normalfall
+und der Grund, warum die gut hundert gemeinsamen Seiten nie angefasst werden
+müssen — Hardware, Inbetriebnahme, Schnittstellen und Störungsbehebung gelten
+in jedem Land gleich. Kennzeichne nur, was wirklich länderspezifisch ist.
+
+### Von aussen mit gesetztem Land verlinken
+
+An jede Adresse lässt sich `?land=de` anhängen:
+
+```
+https://dok.smart-me.com/?land=de
+https://dok.smart-me.com/konfiguration/billing?land=ch
+```
+
+Wer darüber kommt, hat das Land gleich eingestellt — praktisch für einen Link
+aus einem deutschen Angebot oder einer Signatur. Die Wahl bleibt beim
+Weiterklicken erhalten und auch beim nächsten Besuch.
+
+### Was der Filter nicht leistet
+
+Er blendet nur die Navigation aus. Die Seiten bleiben über die Suche und über
+direkte Links erreichbar — das ist Absicht, damit kein geteilter Link ins Leere
+führt. **Schreib deshalb in länderspezifische Seiten einen Satz, für welches
+Land sie gelten**, gleich in den ersten Absatz. Wer über die Suche kommt, sieht
+den Filter nicht.
+
+---
+
 ## Eine neue Seite anlegen
 
 1. Im Repository in den passenden Ordner unter `docs/` wechseln.
@@ -489,6 +545,44 @@ einen `category`-Block nach dem Muster oben.
 Arbeitest du über GitHub im Browser und traust dir das nicht zu: schreib
 einfach in die Beschreibung deines Pull Requests, wo die Seite hingehört.
 Jemand aus dem Entwicklungsteam trägt sie ein.
+
+---
+
+## Eine Seite an eine andere Stelle verschieben
+
+Zieht eine Seite in einen anderen Bereich um, zieht ihre Adresse mit. Eine
+Seite, die unter „Planung" steht, aber `/konfiguration/billing/…` heisst,
+verwirrt jeden, der den Link liest — und irgendwann auch den, der sie pflegt.
+
+Dazugehört **alles** in dieser Liste, sonst bleibt etwas zurück:
+
+1. **Die Datei** nach `docs/<neuer-bereich>/` verschieben, am besten mit
+   `git mv` — dann erkennt Git die Umbenennung und die Historie der Seite
+   bleibt erhalten.
+2. **Den `slug` im Frontmatter** auf den neuen Pfad setzen.
+3. **Die drei Übersetzungen** derselben Seite unter `i18n/en/…`, `i18n/fr/…`
+   und `i18n/it/…` genauso verschieben — auch dort steht der Slug im
+   Frontmatter und muss mit.
+4. **Den Bildordner** unter `static/img/` umbenennen: er heisst wie der Slug
+   mit Bindestrichen statt Schrägstrichen. Danach die Bildverweise in allen
+   vier Sprachfassungen anpassen.
+5. **Eingehende Links** suchen und umbiegen:
+   `grep -rn "alter-slug" docs i18n`
+6. **Eine Weiterleitung** in `redirects.ts` eintragen, unter
+   „Innerhalb des Wikis umbenannt":
+
+   ```ts
+   {from: '/konfiguration/billing/mieterstrom/standard-messkonzept',
+    to: '/planung/standard-messkonzept'},
+   ```
+
+7. **Den Eintrag in `sidebars.ts`** auf die neue Doc-ID ändern.
+8. **Den Schlüssel in `.translation-state.json`** umbenennen. Fehlt das, hält
+   die Pipeline die Seite für neu und übersetzt alle drei Sprachen noch einmal.
+
+Der Punkt mit der Weiterleitung ist der wichtigste. Die alte Adresse steht
+vielleicht schon in einer E-Mail, einem Angebot oder bei Google — ohne
+Weiterleitung läuft sie ins Leere, und niemand erfährt davon.
 
 ---
 

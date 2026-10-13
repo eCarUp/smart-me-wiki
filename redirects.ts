@@ -16,6 +16,8 @@ export const redirects: Redirect[] = [
   {from: '/home', to: '/'},
 
   // Innerhalb des Wikis umbenannt
+  {from: '/konfiguration/billing/mieterstrom/standard-messkonzept', to: '/planung/standard-messkonzept'},
+  {from: '/konfiguration/billing/mieterstrom/mkd3-messkonzept-nicht-teilnehmer', to: '/planung/mkd3-messkonzept-nicht-teilnehmer'},
   {from: '/planung/leg-lokale-energie-gemeinschaft', to: '/planung/leg-lokale-elektrizitätsgemeinschaft'},
 
   // Alte englische Pfade

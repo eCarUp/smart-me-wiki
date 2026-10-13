@@ -576,43 +576,15 @@
     },
     "docs/konfiguration/billing/mieterstrom/index.md": {
       "en": {
-        "hash": "121e4911f46bf1fa",
+        "hash": "2e34ec441663b2e2",
         "origin": "translated"
       },
       "fr": {
-        "hash": "121e4911f46bf1fa",
+        "hash": "2e34ec441663b2e2",
         "origin": "translated"
       },
       "it": {
-        "hash": "121e4911f46bf1fa",
-        "origin": "translated"
-      }
-    },
-    "docs/konfiguration/billing/mieterstrom/mkd3-messkonzept-nicht-teilnehmer.md": {
-      "en": {
-        "hash": "9a317f91c8dcafd4",
-        "origin": "translated"
-      },
-      "fr": {
-        "hash": "9a317f91c8dcafd4",
-        "origin": "translated"
-      },
-      "it": {
-        "hash": "9a317f91c8dcafd4",
-        "origin": "translated"
-      }
-    },
-    "docs/konfiguration/billing/mieterstrom/standard-messkonzept.md": {
-      "en": {
-        "hash": "e0617a8c46cc0f06",
-        "origin": "translated"
-      },
-      "fr": {
-        "hash": "e0617a8c46cc0f06",
-        "origin": "translated"
-      },
-      "it": {
-        "hash": "e0617a8c46cc0f06",
+        "hash": "2e34ec441663b2e2",
         "origin": "translated"
       }
     },
@@ -1355,6 +1327,34 @@
       },
       "it": {
         "hash": "11bfdd13d1bd556b",
+        "origin": "translated"
+      }
+    },
+    "docs/planung/mkd3-messkonzept-nicht-teilnehmer.md": {
+      "en": {
+        "hash": "738cfd414cbb011b",
+        "origin": "translated"
+      },
+      "fr": {
+        "hash": "738cfd414cbb011b",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "738cfd414cbb011b",
+        "origin": "translated"
+      }
+    },
+    "docs/planung/standard-messkonzept.md": {
+      "en": {
+        "hash": "e341e5bc89497659",
+        "origin": "translated"
+      },
+      "fr": {
+        "hash": "e341e5bc89497659",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "e341e5bc89497659",
         "origin": "translated"
       }
     },

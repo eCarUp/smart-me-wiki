@@ -1,0 +1,13 @@
+/*
+ * Die Einträge im Menü sind Knöpfe, keine Links — sie führen nirgendwohin,
+ * sondern schalten um. Ohne diese Zurücksetzung malt der Browser sie als
+ * graue Kästchen und sie passen nicht zur Sprachauswahl daneben.
+ */
+.eintrag {
+  width: 100%;
+  border: 0;
+  background: none;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}

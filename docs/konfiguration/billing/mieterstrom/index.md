@@ -46,13 +46,13 @@ Musterrechnung Mieterstrom.pdf
 
 ![smart-me Billing für deutschen Mieterstrom – Abbildung 1](/img/konfiguration-billing-mieterstrom/01.png)
 
-[Details Standardkonzept Tarifierung und Abgleich](/konfiguration/billing/mieterstrom/standard-messkonzept)
+[Details Standardkonzept Tarifierung und Abgleich](/planung/standard-messkonzept)
 
 ### Messkonzept MKD3 (Mieterstrom mit nicht Teilnehmern)
 
 ![smart-me Billing für deutschen Mieterstrom – Abbildung 2](/img/konfiguration-billing-mieterstrom/02.png)
 
-[Details Messkonzept MKD3 Tarifierung und Abgleich](/konfiguration/billing/mieterstrom/mkd3-messkonzept-nicht-teilnehmer)
+[Details Messkonzept MKD3 Tarifierung und Abgleich](/planung/mkd3-messkonzept-nicht-teilnehmer)
 
 ## Einstellungen allgemein
 

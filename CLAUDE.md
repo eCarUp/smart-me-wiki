@@ -149,6 +149,20 @@ gepflegt — ein erneuter Migrationslauf würde manuelle Änderungen überschrei
   `src/clientModules/openAnchorDetails.ts` klappt eine verlinkte Antwort beim
   Aufruf auf; `scripts/fixAnchors.ts` kennt diese IDs und lässt sie in Ruhe.
 
+## Länderzuordnung
+
+Inhalte, die nur in einem Land gelten, werden am Eintrag in `sidebars.ts`
+gekennzeichnet: `customProps: {laender: ['ch']}` (oder `['de']`, oder beides).
+Ohne Kennzeichnung gilt ein Eintrag überall — so bleiben die gemeinsamen Seiten
+unberührt.
+
+`src/theme/DocSidebarItem/` blendet im Browser aus, was nicht zur Wahl passt,
+`src/components/LandWahl/` ist der Schalter in der Kopfzeile, `src/laender/`
+hält die Wahl (Reihenfolge: `?land=…` in der Adresse, dann der gespeicherte
+Wert, sonst „alle"). Gefiltert wird nur die Navigation: über Suche und direkte
+Links bleibt jede Seite erreichbar. Länderspezifische Seiten sagen deshalb im
+ersten Absatz selbst, für welches Land sie gelten.
+
 ## Build
 
 `npm run build` baut alle vier Sprachen und bricht bei defekten internen Links

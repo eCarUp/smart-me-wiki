@@ -120,7 +120,7 @@ Se l'installazione non dovesse riuscire, segui le istruzioni dettagliate con la 
 
 ### 2\. Creazione / connessione
 
-![Messa in servizio – Figura 4](/img/konfiguration-inbetriebnahme/04.jpg)
+![Messa in servizio – Figura 4](/img/konfiguration-inbetriebnahme/04_EN.jpg)
 
 ### 3\. Creazione dell'account
 
@@ -128,7 +128,7 @@ Possibili problemi:
 
 Se l'e-mail è già in uso, è necessario utilizzarne un'altra.
 
-![Messa in servizio – Figura 5](/img/konfiguration-inbetriebnahme/05.jpg)
+![Messa in servizio – Figura 5](/img/konfiguration-inbetriebnahme/05_EN.jpg)
 
 ### 4\. Accesso all'account
 
@@ -148,11 +148,11 @@ Questo passaggio è facoltativo.
 
 - Se compare l'avviso relativo alla rete a 5 GHz, devi assicurarti che venga generata anche una rete a 2,4 GHz. Non è possibile forzare lo smartphone a connettersi alla rete a 2,4 GHz. Per questo motivo compare come avviso.
 
-![Messa in servizio – Figura 7](/img/konfiguration-inbetriebnahme/07.jpg)
+![Messa in servizio – Figura 7](/img/konfiguration-inbetriebnahme/07_EN.jpg)
 
 ### 6\. Clicca su «Aggiungi dispositivo» („Gerät hinzufügen“) (+)
 
-![Messa in servizio – Figura 8](/img/konfiguration-inbetriebnahme/08.jpg)
+![Messa in servizio – Figura 8](/img/konfiguration-inbetriebnahme/08_EN.jpg)
 
 ### 7\. Clicca su "Modifica" ("Editieren")
 
@@ -160,7 +160,7 @@ Nota
 
 - Questo passaggio può essere ignorato se le Pico vengono messe in servizio tramite 4G.
 
-![Messa in servizio – Figura 9](/img/konfiguration-inbetriebnahme/09.jpg)
+![Messa in servizio – Figura 9](/img/konfiguration-inbetriebnahme/09_EN.jpg)
 
 ### 8\. Inserisci la password del WLAN
 
@@ -188,7 +188,7 @@ Possibili problemi:
 
 ### 12\. Solo per Pico "Seleziona il tipo di connessione" ("Verbindungsart auswählen")
 
-![Messa in servizio – Figura 14](/img/konfiguration-inbetriebnahme/14.jpg)
+![Messa in servizio – Figura 14](/img/konfiguration-inbetriebnahme/14_EN.jpg)
 
 ### 13\. Premi il tasto T1 o scansiona l'RFID
 
@@ -214,7 +214,7 @@ Nota per Pico: tieni presente che per ogni Pico hai 15 minuti di tempo per compl
 
 Il rapporto di trasformazione non modifica i dati storici. Per questo motivo questo passaggio dovrebbe essere eseguito subito dopo la messa in servizio.
 
-![Messa in servizio – Figura 16](/img/konfiguration-inbetriebnahme/16.jpg)
+![Messa in servizio – Figura 16](/img/konfiguration-inbetriebnahme/16_EN.jpg)
 
 ## M-Bus Gateway / Sirius
 
@@ -384,9 +384,9 @@ In questo passaggio hai la possibilità di mettere in servizio più contatori co
 
 3.  Disconnesso
 
-![Messa in servizio – Figura 26](/img/konfiguration-inbetriebnahme/26.jpg)
+![Messa in servizio – Figura 26](/img/konfiguration-inbetriebnahme/26_EN.jpg)
 
-![Messa in servizio – Figura 27](/img/konfiguration-inbetriebnahme/27.jpg)
+![Messa in servizio – Figura 27](/img/konfiguration-inbetriebnahme/27_EN.jpg)
 
 ### Installazione non riuscita
 

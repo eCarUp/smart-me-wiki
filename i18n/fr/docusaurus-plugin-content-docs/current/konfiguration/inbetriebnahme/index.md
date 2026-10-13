@@ -120,7 +120,7 @@ Si l'installation échoue, veuillez suivre le guide détaillé incluant la descr
 
 ### 2\. Création / connexion
 
-![Mise en service – Illustration 4](/img/konfiguration-inbetriebnahme/04.jpg)
+![Mise en service – Illustration 4](/img/konfiguration-inbetriebnahme/04_EN.jpg)
 
 ### 3\. Création du compte
 
@@ -128,7 +128,7 @@ Problèmes possibles :
 
 Si l'adresse e-mail est déjà utilisée, une autre adresse doit être utilisée.
 
-![Mise en service – Illustration 5](/img/konfiguration-inbetriebnahme/05.jpg)
+![Mise en service – Illustration 5](/img/konfiguration-inbetriebnahme/05_EN.jpg)
 
 ### 4\. Connexion au compte
 
@@ -148,11 +148,11 @@ Cette étape est facultative.
 
 - Si l'avertissement concernant le réseau 5 GHz apparaît, vous devez vous assurer qu'un réseau 2,4 GHz est également émis. Il n'est pas possible de forcer le smartphone à se connecter au réseau 2,4 GHz. C'est pourquoi cela apparaît sous forme d'avertissement.
 
-![Mise en service – Illustration 7](/img/konfiguration-inbetriebnahme/07.jpg)
+![Mise en service – Illustration 7](/img/konfiguration-inbetriebnahme/07_EN.jpg)
 
 ### 6\. Cliquez sur « Ajouter un appareil » (Gerät hinzufügen) (+)
 
-![Mise en service – Illustration 8](/img/konfiguration-inbetriebnahme/08.jpg)
+![Mise en service – Illustration 8](/img/konfiguration-inbetriebnahme/08_EN.jpg)
 
 ### 7\. Cliquez sur « Éditer » (Editieren)
 
@@ -160,7 +160,7 @@ Remarque
 
 - Cette étape peut être ignorée si les Pico sont mises en service via la 4G.
 
-![Mise en service – Illustration 9](/img/konfiguration-inbetriebnahme/09.jpg)
+![Mise en service – Illustration 9](/img/konfiguration-inbetriebnahme/09_EN.jpg)
 
 ### 8\. Saisissez le mot de passe WLAN
 
@@ -188,7 +188,7 @@ Problèmes possibles :
 
 ### 12\. Uniquement pour la Pico : « Choisir le type de connexion » (Verbindungsart auswählen)
 
-![Mise en service – Illustration 14](/img/konfiguration-inbetriebnahme/14.jpg)
+![Mise en service – Illustration 14](/img/konfiguration-inbetriebnahme/14_EN.jpg)
 
 ### 13\. Appuyer sur la touche T1 ou scanner la carte RFID
 
@@ -214,7 +214,7 @@ Remarque concernant la Pico : notez que vous disposez de 15 minutes par Pico pou
 
 Le rapport de transformation ne modifie pas les données historiques. Cette étape doit donc être effectuée immédiatement après la mise en service.
 
-![Mise en service – Illustration 16](/img/konfiguration-inbetriebnahme/16.jpg)
+![Mise en service – Illustration 16](/img/konfiguration-inbetriebnahme/16_EN.jpg)
 
 ## M-Bus Gateway / Sirius
 
@@ -384,9 +384,9 @@ Si la 4G apparaît alors que la Pico devrait être connectée au WLAN, la Pico d
 
 3.  Déconnecté
 
-![Mise en service – Illustration 26](/img/konfiguration-inbetriebnahme/26.jpg)
+![Mise en service – Illustration 26](/img/konfiguration-inbetriebnahme/26_EN.jpg)
 
-![Mise en service – Illustration 27](/img/konfiguration-inbetriebnahme/27.jpg)
+![Mise en service – Illustration 27](/img/konfiguration-inbetriebnahme/27_EN.jpg)
 
 ### Échec de l'installation
 

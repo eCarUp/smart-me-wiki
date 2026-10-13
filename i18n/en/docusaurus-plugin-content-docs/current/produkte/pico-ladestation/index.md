@@ -137,7 +137,7 @@ The behavior of the display is described on the page [Pico Display](/produkte/pi
 
 ## Pico connections and dimensions
 
-![Pico EV Charger – Figure 3](/img/produkte-pico-ladestation/03.jpg)
+![Pico EV Charger – Figure 3](/img/produkte-pico-ladestation/03_EN.jpg)
 
 ### Connection diagram
 
@@ -187,7 +187,7 @@ Load shedding can either be wired to all Picos or, at a minimum, to one from eac
 
 Alternatively, load shedding can also be implemented via [multilevel load management](/konfiguration/multilevel-lastmanagement/mlm-konfigurieren#configuring-load-shedding) using meter input signals.
 
-![Pico EV Charger – Figure 5](/img/produkte-pico-ladestation/05.png)
+![Pico EV Charger – Figure 5](/img/produkte-pico-ladestation/05_EN.png)
 
 ![Pico EV Charger – Figure 6](/img/produkte-pico-ladestation/06.png)
 

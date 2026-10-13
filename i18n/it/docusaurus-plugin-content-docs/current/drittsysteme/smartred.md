@@ -1,0 +1,39 @@
+---
+title: 'smartRED'
+slug: '/drittsysteme/smartred'
+description: 'smartRED è la società affiliata comune di smart-me e ABM.'
+sidebar_label: 'smartRED'
+---
+smartRED è la società affiliata comune di smart-me e ABM. L'attività si concentra sull'ulteriore sviluppo e sulla distribuzione dei prodotti smart-me ed eCarUp per il mercato tedesco.
+
+
+
+Dal 2017 smartRED, insieme alla propria rete di partner, ha realizzato con successo oltre 1.000 impianti di elettricità per gli inquilini, consentendo così l'utilizzo locale dell'energia solare direttamente sul posto.
+
+
+
+Con il Billing Tool, anche in Germania i conteggi conformi alla legge vengono generati automaticamente. In questo modo le amministrazioni immobiliari e i locatori possono vendere con estrema semplicità l'energia solare prodotta localmente ai propri inquilini, in modo efficiente, trasparente e digitale.
+
+Grazie alle consuete interfacce aperte, i dati energetici e di consumo possono essere integrati in modo flessibile in sistemi di terzi, come soluzioni di gestione energetica o di conteggio.
+
+Inoltre, con diverse centinaia di wallbox vendute e installate in ambito privato e (semi)pubblico, smartRED ha fornito un contributo importante all'ampliamento dell'infrastruttura di ricarica.
+
+
+
+Oggi, tramite il backend eCarUp, diverse migliaia di stazioni di ricarica vengono gestite in modo intelligente, garantendo così un esercizio della mobilità elettrica orientato al futuro e interconnesso.
+
+smartRED unisce innovazione tecnologica ed esperienza pratica per un futuro energetico interconnesso, sostenibile e decentralizzato.
+
+![smartRED – Figura 1](/img/drittsysteme-smartred/01.png)
+
+## Contatto
+
+smartRED
+
+Dieselstrasse 17
+
+DE- 89160 Dornstadt
+
+[info@smartred.de](mailto:info@smartred.de)
+
+[www.smartred.de](http://www.smartred.de)

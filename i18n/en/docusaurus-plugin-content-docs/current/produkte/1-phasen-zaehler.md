@@ -24,14 +24,13 @@ The smart-me Single Phase Meter 80A is an energy meter with an integrated WiFi i
 
 - Encrypted real-time data connection to the smart-me Cloud 
 
-
-## Technical data
+## Technical Data
 
 <Embed src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQwIoMZViXao8dxkIFICgLCZSRrq0y5xWTFc2KwSY-seab4j4GP6asN_YRqtjIKoKanrFOG7bLHoVZi/pubhtml?gid=0&range=A1:B28&single=true&widget=false&headers=false&chrome=false" height="636px" title="Single Phase Meter" />
 
 ## Display
 
-The meter alternately shows different values.
+The meter alternately displays different values.
 
 - "So XXXX" is the installed software version.
 
@@ -41,8 +40,7 @@ The meter alternately shows different values.
 
 - "Er XX" is an error code.
 
-
-## Dimensions and connections
+## Dimensions and Connections
 
 \*.DXF and \*.DWG data can be found in the ZIP archive in the downloads.
 
@@ -50,21 +48,21 @@ The meter alternately shows different values.
 
 ![Single Phase Meter 80A – Figure 2](/img/produkte-1-phasen-zaehler/02.png)
 
-### Connection diagram
+### Connection Diagram
 
 ![Single Phase Meter 80A – Figure 3](/img/produkte-1-phasen-zaehler/03.png)
 
-## Button functions
+## Button Functions
 
 T(4) button for installation
 
-Pressing the T(4) button for 10 seconds creates a local WiFi for the installation
+Pressing the T(4) button for 10 seconds creates a local WiFi network for the installation
 
-## Configuring inputs and outputs
+## Configuring Inputs and Outputs
 
-The Single Phase Meter 80A has one digital output and one digital input, which can be used as pulse inputs and outputs or as a switchable potential-free contact. Details can be found on the wiki page [Inputs and outputs](/schnittstellen/ein_und_ausgaenge) 
+The Single Phase Meter 80A has one digital output and one digital input, which can be used as pulse inputs and outputs or as a switchable potential-free contact. You can find details on the wiki page [Inputs and Outputs](/schnittstellen/ein_und_ausgaenge) 
 
-## Shipping information
+## Shipping Information
 
 Article number: 152050
 Article name: smart-me Meter 1-phasig, 5(80)A
@@ -73,13 +71,13 @@ Customs tariff number: 9028.3011
 
 Weight including packaging: 130g
 
-## Downloads and declaration of conformity
+## Downloads and Declaration of Conformity
 
 [Data sheet German](https://docs.google.com/presentation/d/1_Jfe0CJaqrfnAVuMe5WXQQ_95o4gC_FZUteEHCP-rWc/export/pdf)
 
 [Data sheet English](https://docs.google.com/presentation/d/18BsAkZ8OHF1BHj99_5l_RiHCwkL3AJVZHNrPb3BE5Wc/export/pdf)
 
-[CE declaration of conformity](https://drive.google.com/file/d/10y8f8oD-F35VTPD9ygTtsLqXAIbuyc3S/view?usp=drive_link)
+[CE Declaration of Conformity](https://drive.google.com/file/d/10y8f8oD-F35VTPD9ygTtsLqXAIbuyc3S/view?usp=drive_link)
 
 [Connection diagram ZIP files](https://drive.google.com/file/d/1aY9_dMdLi2RjgHjk9y89Ibd_AIGwMUZW/view?usp=share_link) (\*.DXF and \*.DWG data can be found in the ZIP archive)
 
@@ -87,13 +85,18 @@ Weight including packaging: 130g
 
 ## FAQ
 
-### At what interval do the meters send data?
+<details id="in-welchem-intervall-senden-die-zähler-daten">
+<summary>At what interval do the meters send data?</summary>
 
 - With Basic or Limited licences: max. once per minute.
 
 - With Pro licensing: max. once per second
 
+</details>
 
-### Can I reset the meter reading to zero?
+<details id="kann-ich-den-zählerstand-auf-null-zurücksetzten">
+<summary>Can I reset the meter reading to zero?</summary>
 
-No. Because our meters are used for billing, it is not possible to reset them.
+No. Because our meters are used for billing, they cannot be reset.
+
+</details>

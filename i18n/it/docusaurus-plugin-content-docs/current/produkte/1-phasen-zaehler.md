@@ -1,10 +1,10 @@
 ---
 title: 'Contatore monofase 80A'
 slug: '/produkte/1-phasen-zaehler'
-description: 'Il contatore monofase 80A smart-me è un contatore di energia con interfaccia WiFi integrata per la trasmissione di dati in tempo reale.'
+description: 'Il contatore monofase 80A di smart-me è un contatore di energia con interfaccia WiFi integrata per la trasmissione di dati in tempo reale.'
 sidebar_label: 'Contatore monofase'
 ---
-Il contatore monofase 80A smart-me è un contatore di energia con interfaccia WiFi integrata per la trasmissione di dati in tempo reale. Il contatore sincronizza i valori misurati in modo automatico e crittografato con lo smart-me Cloud. I dati possono essere esportati ed elaborati nel portale smart-me oppure, tramite la nostra interfaccia aperta, in sistemi di terzi. Il contatore dispone di un'uscita digitale per il comando di apparecchi a potenziale zero.
+Il contatore monofase 80A di smart-me è un contatore di energia con interfaccia WiFi integrata per la trasmissione di dati in tempo reale. Il contatore sincronizza i valori misurati in modo automatico e criptato nella smart-me Cloud. I dati possono essere esportati ed elaborati nel portale smart-me oppure, tramite la nostra interfaccia aperta, in sistemi di terzi. Il contatore dispone di un'uscita digitale per il comando di apparecchi a potenziale libero.
 
 ![Contatore monofase 80A – Figura 1](/img/produkte-1-phasen-zaehler/01.jpg)
 
@@ -16,14 +16,13 @@ Il contatore monofase 80A smart-me è un contatore di energia con interfaccia Wi
 
 - [Visualizzazioni](/konfiguration/visualisierung)
 
-- [Uscita a contatto a potenziale zero](/schnittstellen/ein_und_ausgaenge) per il comando di apparecchi esterni
+- [Uscita a contatto a potenziale libero](/schnittstellen/ein_und_ausgaenge) per il comando di apparecchi esterni
 
-- Ingresso a contatto a potenziale zero per segnale tariffario o [ingresso digitale](/schnittstellen/ein_und_ausgaenge)
+- Ingresso a contatto a potenziale libero per il segnale tariffario o come [ingresso digitale](/schnittstellen/ein_und_ausgaenge)
 
 - [Interfacce](/) tramite API, CSV, MSCONS e IS-E
 
-- Connessione dati crittografata in tempo reale con lo smart-me Cloud 
-
+- Connessione dati criptata in tempo reale nella smart-me Cloud 
 
 ## Dati tecnici
 
@@ -31,7 +30,7 @@ Il contatore monofase 80A smart-me è un contatore di energia con interfaccia Wi
 
 ## Display
 
-Il contatore mostra alternativamente diversi valori.
+Il contatore visualizza alternativamente diversi valori.
 
 - "So XXXX" è la versione del software installata.
 
@@ -41,10 +40,9 @@ Il contatore mostra alternativamente diversi valori.
 
 - "Er XX" è un codice di errore.
 
-
 ## Dimensioni e collegamenti
 
-I dati \*.DXF e \*.DWG si trovano nell'archivio ZIP nei download.
+I file \*.DXF e \*.DWG si trovano nell'archivio ZIP nella sezione Download.
 
 ### Dimensioni
 
@@ -58,11 +56,11 @@ I dati \*.DXF e \*.DWG si trovano nell'archivio ZIP nei download.
 
 Tasto T(4) per l'installazione
 
-Se si preme il tasto T(4) per 10 secondi, viene generata una rete WiFi locale per l'installazione
+Se si tiene premuto il tasto T(4) per 10 secondi, viene creata una rete WiFi locale per l'installazione
 
 ## Configurare ingressi e uscite
 
-Il contatore monofase 80A dispone di un'uscita digitale e di un ingresso digitale, che possono essere utilizzati come ingressi e uscite a impulsi oppure come contatto commutabile a potenziale zero. I dettagli sono riportati nella pagina wiki [Ingressi e uscite](/schnittstellen/ein_und_ausgaenge) 
+Il contatore monofase 80A dispone di un'uscita digitale e di un ingresso digitale, utilizzabili come ingressi e uscite a impulsi oppure come contatto commutabile a potenziale libero. I dettagli sono disponibili nella pagina wiki [Ingressi e uscite](/schnittstellen/ein_und_ausgaenge) 
 
 ## Informazioni di spedizione
 
@@ -81,19 +79,24 @@ Peso con imballaggio: 130g
 
 [Dichiarazione di conformità CE](https://drive.google.com/file/d/10y8f8oD-F35VTPD9ygTtsLqXAIbuyc3S/view?usp=drive_link)
 
-[Schema di collegamento file ZIP](https://drive.google.com/file/d/1aY9_dMdLi2RjgHjk9y89Ibd_AIGwMUZW/view?usp=share_link) (i dati \*.DXF e \*.DWG si trovano nell'archivio ZIP)
+[File ZIP dello schema di collegamento](https://drive.google.com/file/d/1aY9_dMdLi2RjgHjk9y89Ibd_AIGwMUZW/view?usp=share_link) (i file \*.DXF e \*.DWG si trovano nell'archivio ZIP)
 
 [Quick Starter](https://docs.google.com/document/d/1XNv61P1L0gXvgaCT4bvFbou8h6rOBkNjgkRk9sUTS60/export?format=pdf)
 
 ## FAQ
 
-### Con quale intervallo i contatori inviano i dati?
+<details id="in-welchem-intervall-senden-die-zähler-daten">
+<summary>Con quale intervallo i contatori inviano i dati?</summary>
 
 - Con licenze Basic o Limited: max. 1 volta al minuto.
 
 - Con licenza Pro: max. 1 volta al secondo
 
+</details>
 
-### Posso azzerare la lettura del contatore?
+<details id="kann-ich-den-zählerstand-auf-null-zurücksetzten">
+<summary>È possibile azzerare la lettura del contatore?</summary>
 
 No, poiché i nostri contatori vengono utilizzati per i conteggi, non è possibile azzerarli.
+
+</details>

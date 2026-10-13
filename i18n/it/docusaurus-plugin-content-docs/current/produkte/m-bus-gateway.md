@@ -130,7 +130,7 @@ In queste pagine trovi tutte le informazioni rilevanti per una messa in servizio
 
 - [Numerazione dei contatori combinati](/konfiguration/inbetriebnahme#numerazione-dei-contatori-combinati) 
 
-- [Ricerca di dispositivi M-Bus Gateway](/konfiguration/inbetriebnahme#m-bus-gateway-cercare-dispositivi)
+- [Ricerca di dispositivi M-Bus Gateway](/konfiguration/inbetriebnahme)
 
 - [Disattivare il riconoscimento automatico dei dispositivi](/konfiguration/inbetriebnahme#m-bus-gateway-impedire-il-riconoscimento-di-nuovi-dispositivi)
 

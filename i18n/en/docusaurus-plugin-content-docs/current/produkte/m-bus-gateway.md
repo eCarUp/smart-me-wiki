@@ -128,11 +128,11 @@ On these pages you will find all relevant information for successfully commissio
 
 - [Commissioning](/konfiguration/inbetriebnahme)
 
-- [Numbering for combination meters](/konfiguration/inbetriebnahme#numbering-of-combined-meters) 
+- [Numbering for combination meters](/konfiguration/inbetriebnahme) 
 
-- [Searching for M-Bus Gateway devices](/konfiguration/inbetriebnahme#m-bus-gateway-search-for-devices)
+- [Searching for M-Bus Gateway devices](/konfiguration/inbetriebnahme)
 
-- [Disabling automatic device detection](/konfiguration/inbetriebnahme#m-bus-gateway-prevent-detection-of-new-devices)
+- [Disabling automatic device detection](/konfiguration/inbetriebnahme)
 
 
 ## Compatible electricity, heat, water and gas meters

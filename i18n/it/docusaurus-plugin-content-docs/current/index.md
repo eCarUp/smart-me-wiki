@@ -25,15 +25,15 @@ Nota: se l'installazione di un contatore dell'energia solare è possibile, non e
 
 ![Dati tecnici e manuali – Figura 1](/img/home/01.png)
 
-## Piccolo aggiornamento relativo a Solarmanager da agosto 2026
+## Piccolo aggiornamento relativo a Solar Manager da agosto 2026
 
-Con il nuovo aggiornamento di SolarManager, i Pico non vengono più comandati tramite il numero di serie, ma tramite l'ID del gruppo di gestione del carico di livello 1.
+Con il nuovo aggiornamento di Solar Manager, i Pico non vengono più gestiti tramite il numero di serie, ma tramite l'ID del gruppo di gestione del carico di livello 1.
 
-Nel breve video ti mostro passo dopo passo come funziona, in modo che tu possa configurare correttamente le impostazioni sul lato smart-me.
+Nel breve video ti mostro passo dopo passo come funziona, così potrai effettuare correttamente le impostazioni sul lato smart-me.
 
-Ottimo a sapersi: con l'aggiornamento è ora possibile la ricarica monofase a 6 A (ca. 1,4 kW), ideale per eccedenze fotovoltaiche ridotte. Come configurarla è descritto nella documentazione di Solarmanager
+È molto utile sapere che con l'aggiornamento diventa possibile la ricarica monofase a 6 A (ca. 1,4 kW), ideale per surplus fotovoltaici ridotti. Come configurarla è spiegato nella documentazione di Solar Manager
 
-<Embed src="https://drive.google.com/file/d/1Oc3uuTCMusCJMHL7hjlJzFbkoFONHpm4/preview" aspect="1.350" title="Drive, solarmanager_update_2026.mp4" />
+<Embed src="https://drive.google.com/file/d/1Oc3uuTCMusCJMHL7hjlJzFbkoFONHpm4/preview" aspect="1.350" title="Drive, video sull'aggiornamento di Solar Manager 2026" />
 
 solarmanager\_update\_2026.mp4
 
@@ -47,7 +47,6 @@ Ora puoi generare un'anteprima della fattura prima di creare le fatture definiti
 
 - Non generare più fatture errate senza una convalida preliminare.
 
-
 Dove?
 
 Fatturazione (Rechnungsstellung) --> Fatture (Rechnungen)
@@ -58,35 +57,33 @@ Fatturazione (Rechnungsstellung) --> Fatture (Rechnungen)
 
 ## Aggiornamento delle nostre CG e delle direttive sulla protezione dei dati
 
-Abbiamo aggiornato le nostre Condizioni generali (CG) e le dichiarazioni sulla protezione dei dati. Per disciplinare in modo ottimale dal punto di vista giuridico il trattamento dei dati all'interno del nostro gruppo aziendale, i documenti sono stati integrati con un cosiddetto «Joint Controller Agreement» (JCA). Le versioni aggiornate sono consultabili online da subito.
+Abbiamo modificato le nostre Condizioni generali (CG) e le informative sulla protezione dei dati. Per disciplinare in modo ottimale dal punto di vista giuridico il trattamento dei dati all'interno del nostro gruppo aziendale, i documenti sono stati integrati con un cosiddetto «Joint Controller Agreement» (JCA). Le versioni aggiornate sono consultabili online da subito.
 
-[→ Alle CG e disposizioni sulla protezione dei dati](https://web.smart-me.com/agb-smart-me-ag/)
+[→ Alle CG e alle disposizioni sulla protezione dei dati](https://web.smart-me.com/agb-smart-me-ag/)
 
-## Importante: il nostro nuovo shop online dal 1° luglio 2026
+## Importante: il nostro nuovo negozio online dal 1° luglio 2026
 
 Preparati al passaggio senza intoppi alla nostra nuova e moderna piattaforma. Ottieni una rapida panoramica su:  
 
-- Termine per gli ordini nel vecchio shop: effettua gli ordini urgenti entro il 26 giugno 2026 alle ore 11:00. Successivamente il vecchio sistema verrà disattivato. 
+- Termine per gli ordini nel vecchio negozio: effettua gli ordini urgenti entro il 26\. giugno 2026 alle ore 11:00. Dopodiché il vecchio sistema verrà disattivato. 
 
-- Soluzione transitoria via e-mail e telefono: durante la fase di transizione (29 giugno – 1° luglio) ordina in modo semplice direttamente presso di noi. 
+- Soluzione transitoria via e-mail e telefono: durante la fase di transizione (29 giugno – 1° luglio) puoi ordinare direttamente da noi in tutta semplicità. 
 
-- Attivazione degli account esistenti: utilizza il link di attivazione che riceverai il 30 giugno via e-mail dal nostro nuovo fornitore di servizi Odoo.  
+- Attivazione per gli account esistenti: utilizza il link di attivazione che riceverai il 30\. giugno via e-mail dal nostro nuovo fornitore di servizi Odoo.  
 
 - Sconti e prezzi abituali: continua a beneficiare delle tue condizioni individuali, già registrate nel nuovo sistema. 
 
-- Avvio della nuova piattaforma: dal 1° luglio 2026 acquista in modo semplice e rapido nel nuovo shop.  
-
+- Avvio della nuova piattaforma: dal 1\. luglio 2026 acquista in modo semplice e rapido nel nuovo negozio.  
 
 ## Aggiornamento: calcolatore online delle tariffe elettriche e solari
 
-- Inserimento ampliato
+- Inserimento esteso
 
 - Componenti personalizzabili
 
-- Indicazione dedicata delle voci da inserire in smart-me Billing
+- Indicazione dedicata delle voci da inserire nello smart-me Billing
 
-
-[→ Al calcolatore delle tariffe per elettricità e solare](/konfiguration/billing/stromtarife-definieren/stromtarif-rechner)
+[→ Al calcolatore delle tariffe elettriche e solari](/konfiguration/billing/stromtarife-definieren/stromtarif-rechner)
 
 ![Dati tecnici e manuali – Figura 4](/img/home/04.png)
 
@@ -94,7 +91,7 @@ Preparati al passaggio senza intoppi alla nostra nuova e moderna piattaforma. Ot
 
 Ora puoi conteggiare ai tuoi inquilini anche le tariffe di rete dinamiche. 
 
-Importiamo la tariffa dinamica dal tuo provider e la applichiamo ogni 15 minuti al prelievo effettivo dalla rete del rispettivo consumatore.
+Importiamo la tariffa dinamica dal tuo fornitore e la applichiamo ogni 15 minuti al prelievo effettivo dalla rete del rispettivo consumatore.
 
 [→ Maggiori informazioni sulle tariffe](/konfiguration/billing/stromtarife-definieren)
 
@@ -104,18 +101,15 @@ Importiamo la tariffa dinamica dal tuo provider e la applichiamo ogni 15 minuti 
 
 ## Novità: My Dashboards
 
-Ti permette di creare dashboard personalizzate, come flussi di energia e rappresentazioni d'insieme del tuo edificio.
-
-
+Ti consente di creare dashboard personalizzate, come flussi di energia e rappresentazioni d'insieme del tuo edificio.
 
 ![Dati tecnici e manuali – Figura 7](/img/home/07.png)
 
 [→ Scopri di più](/konfiguration/my-dashboards)
 
-- Mappa energetica
+- Mappa energetica (Energiekarte)
 
-- Flussi di energia
-
+- Flussi di energia (Energieflüsse)
 
 ![Dati tecnici e manuali – Figura 8](/img/home/08.png)
 
@@ -123,14 +117,11 @@ Ti permette di creare dashboard personalizzate, come flussi di energia e rappres
 
 Nella nuova sezione Strumenti tecnici (Technische Tools) trovi strumenti di supporto per l'installazione e la manutenzione dell'impianto.
 
-
-
 ![Dati tecnici e manuali – Figura 9](/img/home/09.png)
 
 [→ Scopri di più](/konfiguration/technische-tools)
 
 - Verifica dell'installazione (Installationsprüfung)
-
 
 ![Dati tecnici e manuali – Figura 10](/img/home/10.png)
 
@@ -142,7 +133,7 @@ La nuova sezione AppLAB è un'area sperimentale e mette a disposizione diverse f
 
 [→ Scopri di più](/konfiguration/applab)
 
-- Explorer dei picchi di carico (Spitzenlast-Explorer)
+- Esploratore dei picchi di carico (Spitzenlast-Explorer)
 
 - Rapporto sulla potenza reattiva (Blindleistungsbericht)
 
@@ -152,33 +143,27 @@ La nuova sezione AppLAB è un'area sperimentale e mette a disposizione diverse f
 
 - Assistente di configurazione Autobill (Autobill Einrichtungsassistent)
 
-
 ## Novità: revisione generale dell'interfaccia utente
 
-L'intera interfaccia utente smart-me ha ricevuto un nuovo design.
+L'intera interfaccia utente di smart-me è stata rinnovata nel design.
 
 - Nell'utilizzo non è cambiato nulla.
-
 
 ![Dati tecnici e manuali – Figura 12](/img/home/12.png)
 
 ## Novità: panoramica delle prestazioni RCP
 
-Verifica la produzione e i rendimenti del tuo RCP (raggruppamento ai fini del consumo proprio) nella nuova visualizzazione "Prestazioni RCP" ("ZEV Performance"). Ottieni una rapida panoramica su:
-
+Verifica la produzione e i rendimenti del tuo RCP (raggruppamento ai fini del consumo proprio) nella nuova visualizzazione «Prestazioni RCP» («ZEV Performance»). Ottieni una rapida panoramica su:
 
 - Flussi di energia con la nuova visualizzazione dei flussi di energia
 
-- Produzione di energia e rendimento
+- Produzione e rendimento energetico
 
-- Picchi di prelievo dalla rete e di immissione in rete
+- Picchi di prelievo e immissione dalla e nella rete
 
-- Individua i giorni ad alta produzione con la visualizzazione heat map
+- Individua i giorni con produzione elevata grazie alla visualizzazione heat map
 
 - Analizza l'efficienza della tua batteria nel RCP
-
-
-
 
 [→ Maggiori informazioni sulle nuove visualizzazioni](/konfiguration/visualisierung)
 
@@ -188,13 +173,11 @@ Verifica la produzione e i rendimenti del tuo RCP (raggruppamento ai fini del co
 
 Visualizzazioni esistenti:
 
-Le visualizzazioni esistenti ricevono un nuovo design. Vengono aggiornate automaticamente senza configurazioni aggiuntive.
+Le visualizzazioni esistenti ricevono un nuovo design. Vengono aggiornate automaticamente senza alcuna configurazione aggiuntiva.
 
 Nuova visualizzazione Pico:
 
-Dai un'occhiata alla nuova visualizzazione Pico, che mostra a colpo d'occhio tutti i punti di ricarica Pico e i relativi gruppi di ricarica – con assorbimento di corrente, occupazione, potenza massima assorbita e molto altro.
-
-
+Scopri la nuova visualizzazione Pico, che mostra a colpo d'occhio tutti i punti di ricarica Pico e i relativi gruppi di ricarica – con assorbimento di corrente, occupazione, potenza massima assorbita e molto altro.
 
 [→ Maggiori informazioni sulle nuove visualizzazioni](/konfiguration/visualisierung)
 
@@ -202,24 +185,23 @@ Dai un'occhiata alla nuova visualizzazione Pico, che mostra a colpo d'occhio tut
 
 ![Dati tecnici e manuali – Figura 15](/img/home/15.png)
 
-## È arrivato il nuovo gateway M-Bus Sirius!
+## È arrivato il nuovo M-Bus Gateway Sirius!
 
-La nostra famiglia di prodotti continua a crescere: con Sirius lanciamo il nostro gateway più potente finora, pensato per grandi infrastrutture edilizie.
+La nostra famiglia di prodotti continua a crescere: con il Sirius lanciamo il nostro gateway più potente finora, pensato per grandi infrastrutture edilizie.
 
 - Capacità enorme – Fino a 250 carichi standard M-Bus in un unico dispositivo. 
 
-- Multi-energia – Acqua, calore, freddo e gas gestiti centralmente. 
+- Multi-energia – Acqua, calore, freddo e gas gestiti in modo centralizzato. 
 
-- Massima sicurezza – Enorme memoria dati in caso di interruzioni della connessione.
+- Massima sicurezza – Ampissima memoria dati in caso di interruzioni della connessione.
 
-
-[→ Maggiori informazioni su Sirius](/produkte/m-bus-gateway#m-bus-gateway-sirius-250-carichi-standard)
+[→ Maggiori informazioni sul Sirius](/produkte/m-bus-gateway#m-bus-gateway-sirius-250-carichi-standard)
 
 ![Dati tecnici e manuali – Figura 16](/img/home/16.jpg)
 
-## NOVITÀ: IVA - conteggiarla correttamente
+## NOVITÀ: IVA - Conteggiarla correttamente
 
-L'applicazione dell'IVA è un punto importante del conteggio. Per non commettere errori, qui trovi una guida per indicare correttamente l'IVA nel tuo caso.
+Applicare l'IVA è un punto importante nel conteggio. Per non commettere errori, qui trovate una guida per indicare correttamente l'IVA nel vostro caso.
 
 La legge sull'IVA relativa al RCP (raggruppamento ai fini del consumo proprio) cambia rapidamente quanto la tecnologia.
 
@@ -227,23 +209,30 @@ La legge sull'IVA relativa al RCP (raggruppamento ai fini del consumo proprio) c
 
 ![Dati tecnici e manuali – Figura 17](/img/home/17.png)
 
-## FAQ
+## Domande frequenti
 
-### Dove posso modificare la password di accesso / l'indirizzo e-mail?
+<details id="wo-kann-ich-mein-login-passwort--e-mail-adresse-ändern">
+<summary>Dove posso modificare la password di accesso / l'indirizzo e-mail?</summary>
 
-Per modificare la password di accesso, vai su [smart-me.com](https://web.smart-me.com/login/) ed effettua il login con il tuo account utente esistente. Clicca sul tuo nome utente (in alto a destra) e seleziona Impostazioni (Einstellungen). Clicca su Modifica password (Passwort ändern).
+Per modificare la password di accesso, vai su [smart-me.com](https://web.smart-me.com/login/) e accedi con il tuo account utente esistente. Clicca sul tuo nome utente (in alto a destra) e seleziona Impostazioni (Einstellungen). Clicca su Modifica password (Passwort ändern).
 
-Se non ricordi più la password, puoi reimpostarla tramite la funzione di password dimenticata. A tale scopo, però, al momento della creazione dell'account deve essere stato utilizzato un indirizzo e-mail valido.
+Se non ricordi più la password, puoi reimpostarla tramite la funzione Password dimenticata (Passwort vergessen). A tale scopo, però, al momento della creazione dell'account deve essere stato utilizzato un indirizzo e-mail valido.
 
-### Come posso disdire il mio abbonamento?
+</details>
 
-Per disdire il tuo abbonamento alle licenze cloud, vai su smart-me.com ed effettua il login.
+<details id="wie-kann-ich-mein-abonnement-kündigen">
+<summary>Come posso disdire il mio abbonamento?</summary>
+
+Per disdire il tuo abbonamento alle licenze cloud, vai su smart-me.com ed effettua l'accesso.
 Clicca poi in alto a destra sul nome utente e seleziona Impostazioni (Einstellungen).
-Vai poi su Pagamento (Bezahlung), Disdici abbonamento (Abo kündigen) e conferma con Sì (Ja).
+Vai quindi su Pagamento (Bezahlung), Disdici abbonamento (Abo kündigen) e conferma con Sì (Ja).
 
-### Perché il mio contatore eliminato ricompare nel cloud?
+</details>
 
-Se un contatore viene eliminato nel cloud, tutti i suoi dati nel cloud vengono eliminati. Se dopo l'eliminazione questo contatore invia di nuovo dati al cloud, il cloud lo ricrea (con un nuovo ID contatore). I dati di misura passati del contatore sono però eliminati in modo irrecuperabile. Anche le azioni se/allora o le impostazioni nel Billing non si riferiscono al "nuovo" contatore e devono quindi essere configurate di nuovo. 
+<details id="wieso-erscheint-mein-gelöschter-zähler-wieder-in-der-cloud">
+<summary>Perché il mio contatore eliminato ricompare nel cloud?</summary>
+
+Se un contatore viene eliminato nel cloud, tutti i suoi dati nel cloud vengono eliminati. Se dopo l'eliminazione questo contatore invia di nuovo dati al cloud, quest'ultimo ricrea il contatore (con un nuovo ID contatore). I dati di misura passati del contatore sono però eliminati in modo irreversibile. Anche le azioni se/allora o le impostazioni nel Billing non si riferiscono al «nuovo» contatore e devono quindi essere configurate di nuovo. 
 
 Con i seguenti accorgimenti si può evitare che il contatore invii di nuovo dati al cloud e venga quindi ricreato: 
 
@@ -251,16 +240,18 @@ Con i seguenti accorgimenti si può evitare che il contatore invii di nuovo dati
 
 - Non alimentare più il contatore. Non appena il contatore viene alimentato e dispone di nuovo di una connessione Internet, invia di nuovo i dati al cloud. 
 
-- Eliminare la rete WLAN dal contatore (vedi "[È possibile eliminare le informazioni WiFi memorizzate?](/konfiguration/inbetriebnahme#è-possibile-cancellare-le-informazioni-wifi-salvate)").  Senza Internet il contatore non può più inviare dati. 
+- Eliminare il WLAN dal contatore (vedi «[È possibile eliminare le informazioni WiFi salvate?](/konfiguration/inbetriebnahme#können-die-gespeicherten-wifi-informationen-gelöscht-werden)»).  Senza Internet il contatore non può più inviare dati. 
 
+In alternativa puoi anche disattivare il contatore nel cloud. Un contatore disattivato non necessita di licenze e puoi riattivarlo in qualsiasi momento e accedere ai suoi dati. 
 
-In alternativa, puoi anche disattivare il contatore nel cloud. Un contatore disattivato non richiede licenze e puoi riattivarlo in qualsiasi momento e accedere ai suoi dati. 
+</details>
 
-### Come disattivo il mio contatore?
+<details id="wie-deaktiviere-ich-meinen-zähler">
+<summary>Come disattivo il mio contatore?</summary>
 
 Se l'account utilizza il modello di licenza Basic.
 
-1.  Effettua il login nel portale smart-me 
+1.  Accedi al portale smart-me 
 
 2.   Seleziona il contatore
 
@@ -274,12 +265,11 @@ Se l'account utilizza il modello di licenza Basic.
 
 7.  Torna alla panoramica principale o aggiorna il browser
 
-
 Se l'account utilizza il modello di licenza Limited o Professional.
 
-1.  Effettua il login nel portale smart-me 
+1.  Accedi al portale smart-me 
 
-2.  Clicca su configura (konfigurieren)
+2.  Clicca su Configura (konfigurieren)
 
 3.  Clicca su Configurazione contatori/cartelle (Zähler/Ordner-Konfiguration)
 
@@ -289,12 +279,13 @@ Se l'account utilizza il modello di licenza Limited o Professional.
 
 6.  Rimuovi la spunta da Contatore attivo (Zähler aktiv)
 
-7.  Premi Salva (Speichern).
+7.  Premi su Salva (Speichern).
 
+In alternativa puoi trascinare i contatori tutti in una cartella (ad es. «contatori disattivati») e disattivare tutti i contatori contemporaneamente cliccando con il tasto destro sulla cartella corrispondente, Azioni di massa (Massenaktionen), Disattiva tutti i contatori (Alle Zähler deaktivieren). 
 
-In alternativa, puoi trascinare i contatori tutti in una cartella (ad es. "contatori disattivati") e disattivarli tutti contemporaneamente cliccando con il tasto destro sulla cartella corrispondente, Azioni di massa (Massenaktionen), Disattiva tutti i contatori (Alle Zähler deaktivieren). 
+Nota sui contatori disattivati: un contatore disattivato non costa più alcuna licenza, ma finché è disattivato non puoi più accedere ai dati passati del contatore. Inoltre, per il periodo in cui il contatore è disattivato, nel cloud non vengono salvati nuovi dati di misura del contatore.  
 
-Nota sui contatori disattivati: un contatore disattivato non richiede più alcuna licenza, ma finché è disattivato non puoi nemmeno accedere ai dati passati del contatore. Inoltre, per il periodo in cui il contatore è disattivato, nel cloud non vengono memorizzati nuovi dati di misura del contatore.  
+</details>
 
 ## Contatto
 
@@ -302,17 +293,17 @@ Se qui non trovi una risposta alla tua domanda, il nostro supporto è a tua disp
 
 ### Importante da sapere
 
-smart-me è un fornitore di hardware e tecnologia. Non realizziamo progetti e non eseguiamo configurazioni di impianti per clienti finali. Il nostro supporto tecnico è di norma riservato esclusivamente ai partner certificati.
+smart-me è un fornitore di hardware e tecnologia. Non realizziamo progetti e non effettuiamo configurazioni di impianti per clienti finali. Il nostro supporto tecnico è di norma rivolto esclusivamente ai partner certificati.
 
-### Per clienti privati
+### Per i clienti privati
 
-Come cliente privato, trovi i nostri partner di progetto su questa mappa:
+Come cliente privato trovi i nostri partner di progetto su questa mappa:
 
 [Mostra i partner di progetto sulla mappa](https://web.smart-me.com/projektpartner/)
 
 ### Diventare partner
 
-Desideri diventare partner o partecipare a una formazione?
+Vuoi diventare partner o partecipare a una formazione?
 
 [All'iscrizione alla formazione per partner](https://web.smart-me.com/partner-werden/)
 

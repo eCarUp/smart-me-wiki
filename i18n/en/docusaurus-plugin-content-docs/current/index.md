@@ -195,7 +195,7 @@ Our product family continues to grow: with Sirius, we are launching our most pow
 
 - Maximum security – huge data memory in the event of connection failures.
 
-[→ More information on Sirius](/produkte/m-bus-gateway#m-bus-gateway-sirius-250-standardlasten)
+[→ More information on Sirius](/produkte/m-bus-gateway#m-bus-gateway-sirius-250-standard-loads)
 
 ![Technical data & manuals – Figure 16](/img/home/16.jpg)
 

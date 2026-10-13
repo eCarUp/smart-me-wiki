@@ -19,7 +19,7 @@ Niveaux de redondance
 
 - Mettre à disposition plusieurs points d'accès avec le même SSID et le même mot de passe. Tous les produits smart-me sélectionnent automatiquement un point d'accès disposant d'une connexion Internet.
 
-- Enregistrer plusieurs réseaux Wi-Fi sur l'appareil smart-me : [Puis-je utiliser mon appareil avec plusieurs réseaux Wi-Fi ?](/konfiguration/inbetriebnahme#puis-je-utiliser-mon-appareil-avec-plusieurs-réseaux-wifi-)
+- Enregistrer plusieurs réseaux Wi-Fi sur l'appareil smart-me : [Puis-je utiliser mon appareil avec plusieurs réseaux Wi-Fi ?](/konfiguration/inbetriebnahme)
 
 
 ![Connexion Internet – Illustration 1](/img/planung-internetverbindung/01.png)

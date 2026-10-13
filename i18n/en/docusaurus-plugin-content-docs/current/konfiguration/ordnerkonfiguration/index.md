@@ -50,7 +50,7 @@ Corrects the meter's measured value on the cloud side. (Position calculations)
 Parent folder value correction (Überordner Wert Korrektur):
 Defines as a percentage how much of the measured value is to be summed in the parent folder.
 Meter active (Zähler aktiv):
-Activate or deactivate a meter to save licenses. Deactivated meters no longer show any data. For more information on deactivated meters, see our FAQ under [How do I deactivate my meter?](/#how-do-i-deactivate-my-meter)
+Activate or deactivate a meter to save licenses. Deactivated meters no longer show any data. For more information on deactivated meters, see our FAQ under [How do I deactivate my meter?](/)
 
 To activate or deactivate several meters at once, you can move them into a folder in the Folder and Meter Configuration (Zähler- / Ordnerkonfiguration), right-click that folder and choose a bulk action. 
 

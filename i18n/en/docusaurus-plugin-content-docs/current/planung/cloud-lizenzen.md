@@ -176,8 +176,8 @@ The figures below make it easy to find out whether you need Professional license
 
 For ZEV billing, the decisive factors are which tariff system is to be mapped and whether billing is to be automated.
 
-![Cloud License – Figure 1](/img/planung-cloud-lizenzen/01.png)
+![Cloud License – Figure 1](/img/planung-cloud-lizenzen/01_EN.png)
 
 ### ZEV control
 
-![Cloud License – Figure 2](/img/planung-cloud-lizenzen/02.png)
+![Cloud License – Figure 2](/img/planung-cloud-lizenzen/02_EN.png)

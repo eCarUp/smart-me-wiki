@@ -14,11 +14,11 @@ smart-me meters have one or more outputs that can be used as a pulse output or a
 
 Controlling E1 with a tariff signal or load shedding
 
-![Input and Output Configuration – Figure 2](/img/schnittstellen-ein_und_ausgaenge/02.png)
+![Input and Output Configuration – Figure 2](/img/schnittstellen-ein_und_ausgaenge/02_EN.png)
 
 Switching on and off with Telstar: S1 and S0 are wired identically
 
-![Input and Output Configuration – Figure 3](/img/schnittstellen-ein_und_ausgaenge/03.png)
+![Input and Output Configuration – Figure 3](/img/schnittstellen-ein_und_ausgaenge/03_EN.png)
 
 ### Pulse output
 
@@ -45,15 +45,15 @@ NOTE:
 If S1 is not used as a digital output, you can also hide it from the view by switching it to pulse output.
 In the tenant view, the outputs cannot be switched on or off, even if they are visible there.
 
-![Input and Output Configuration – Figure 4](/img/schnittstellen-ein_und_ausgaenge/04.png)
+![Input and Output Configuration – Figure 4](/img/schnittstellen-ein_und_ausgaenge/04_EN.png)
 
 ### Online view when commissioning a Telstar 80A or CT
 
-![Input and Output Configuration – Figure 5](/img/schnittstellen-ein_und_ausgaenge/05.png)
+![Input and Output Configuration – Figure 5](/img/schnittstellen-ein_und_ausgaenge/05_EN.png)
 
 ### Online view after activating S0\_0 as a digital output
 
-![Input and Output Configuration – Figure 6](/img/schnittstellen-ein_und_ausgaenge/06.png)
+![Input and Output Configuration – Figure 6](/img/schnittstellen-ein_und_ausgaenge/06_EN.png)
 
 ### Wiring the outputs
 

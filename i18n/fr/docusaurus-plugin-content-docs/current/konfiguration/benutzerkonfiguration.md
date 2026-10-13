@@ -14,7 +14,7 @@ Dans smart-me, vous pouvez créer de nouveaux utilisateurs et leur attribuer des
 
 Vous pouvez ainsi donner aux locataires l'accès à leurs données tant qu'ils habitent dans l'immeuble.
 
-![Créer des utilisateurs – Figure 1](/img/konfiguration-benutzerkonfiguration/01.png)
+![Créer des utilisateurs – Figure 1](/img/konfiguration-benutzerkonfiguration/01_EN.png)
 
 Pour créer de nouveaux utilisateurs, procédez comme suit :
 
@@ -41,7 +41,7 @@ Il est possible de partager soit uniquement le nœud concerné, soit ce nœud av
 
 Si une visualisation qui accède aux données des compteurs est utilisée sur le nœud, l'utilisateur doit être autorisé à voir les compteurs.
 
-![Créer des utilisateurs – Figure 3](/img/konfiguration-benutzerkonfiguration/03.png)
+![Créer des utilisateurs – Figure 3](/img/konfiguration-benutzerkonfiguration/03_EN.png)
 
 ### Étape suivante
 

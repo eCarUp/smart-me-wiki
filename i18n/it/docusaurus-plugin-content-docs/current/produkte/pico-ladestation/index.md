@@ -142,7 +142,7 @@ Il comportamento del display è descritto alla pagina [Display Pico](/produkte/p
 
 ## Collegamenti e dimensioni di Pico
 
-![Stazione di ricarica Pico – Figura 3](/img/produkte-pico-ladestation/03.jpg)
+![Stazione di ricarica Pico – Figura 3](/img/produkte-pico-ladestation/03_EN.jpg)
 
 ### Schema di collegamento
 
@@ -198,7 +198,7 @@ Il distacco del carico può essere cablato su tutte le Pico oppure, come minimo,
 
 In alternativa, il distacco del carico può avvenire anche tramite la [gestione del carico multilivello](/konfiguration/multilevel-lastmanagement/mlm-konfigurieren#configurazione-del-distacco-dei-carichi) mediante segnali di ingresso del contatore.
 
-![Stazione di ricarica Pico – Figura 5](/img/produkte-pico-ladestation/05.png)
+![Stazione di ricarica Pico – Figura 5](/img/produkte-pico-ladestation/05_EN.png)
 
 ![Stazione di ricarica Pico – Figura 6](/img/produkte-pico-ladestation/06.png)
 

@@ -14,11 +14,11 @@ I contatori smart-me dispongono di una o più uscite, che possono essere utilizz
 
 Comandare E1 con segnale tariffario o distacco del carico
 
-![Ingressi e uscite del contatore – Figura 2](/img/schnittstellen-ein_und_ausgaenge/02.png)
+![Ingressi e uscite del contatore – Figura 2](/img/schnittstellen-ein_und_ausgaenge/02_EN.png)
 
 Circuito con Telstar: accensione e spegnimento (S1 e S0) vanno cablati in modo identico
 
-![Ingressi e uscite del contatore – Figura 3](/img/schnittstellen-ein_und_ausgaenge/03.png)
+![Ingressi e uscite del contatore – Figura 3](/img/schnittstellen-ein_und_ausgaenge/03_EN.png)
 
 ### Uscita a impulsi
 
@@ -45,15 +45,15 @@ NOTA:
 La S1 può anche essere nascosta dalla visualizzazione impostandola come uscita a impulsi, se non viene utilizzata come uscita digitale.
 Nella vista inquilino queste non possono essere attivate o disattivate, anche se vi sono visibili.
 
-![Ingressi e uscite del contatore – Figura 4](/img/schnittstellen-ein_und_ausgaenge/04.png)
+![Ingressi e uscite del contatore – Figura 4](/img/schnittstellen-ein_und_ausgaenge/04_EN.png)
 
 ### Vista online alla messa in servizio di un Telstar 80A o CT
 
-![Ingressi e uscite del contatore – Figura 5](/img/schnittstellen-ein_und_ausgaenge/05.png)
+![Ingressi e uscite del contatore – Figura 5](/img/schnittstellen-ein_und_ausgaenge/05_EN.png)
 
 ### Vista online dopo l'attivazione della S0\_0 come uscita digitale
 
-![Ingressi e uscite del contatore – Figura 6](/img/schnittstellen-ein_und_ausgaenge/06.png)
+![Ingressi e uscite del contatore – Figura 6](/img/schnittstellen-ein_und_ausgaenge/06_EN.png)
 
 ### Cablaggio delle uscite
 

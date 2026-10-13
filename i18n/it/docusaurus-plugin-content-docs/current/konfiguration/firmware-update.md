@@ -27,7 +27,7 @@ Oppure tramite il menu smart-me
 2.  Nel menu seleziona Sistema / Aggiornamento del firmware (System / Firmware Update)
 
 
-![Aggiornamento del firmware – Figura 1](/img/konfiguration-firmware-update/01.png)
+![Aggiornamento del firmware – Figura 1](/img/konfiguration-firmware-update/01_EN.png)
 
 ## Procedura
 

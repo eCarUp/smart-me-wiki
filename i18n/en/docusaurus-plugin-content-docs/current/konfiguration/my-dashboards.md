@@ -4,7 +4,7 @@ slug: '/konfiguration/my-dashboards'
 description: 'Create a personalised energy map of your building.'
 sidebar_label: 'My Dashboards'
 ---
-![My Dashboards – Figure 1](/img/konfiguration-my-dashboards/01.png)
+![My Dashboards – Figure 1](/img/konfiguration-my-dashboards/01_EN.png)
 
 ## My energy map
 
@@ -12,7 +12,7 @@ Create a personalised energy map of your building.
 
 Use an image or a Google Maps view and display selected live values directly in the image.
 
-![My Dashboards – Figure 2](/img/konfiguration-my-dashboards/02.png)
+![My Dashboards – Figure 2](/img/konfiguration-my-dashboards/02_EN.png)
 
 ## My energy flow
 

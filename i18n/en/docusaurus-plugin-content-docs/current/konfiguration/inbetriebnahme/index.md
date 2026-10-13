@@ -123,7 +123,7 @@ If the installation fails, please follow the detailed instructions including err
 
 ### 2\. Creation / connection
 
-![Commissioning – Figure 4](/img/konfiguration-inbetriebnahme/04.jpg)
+![Commissioning – Figure 4](/img/konfiguration-inbetriebnahme/04_EN.jpg)
 
 ### 3\. Account creation
 
@@ -131,7 +131,7 @@ Possible problems:
 
 If the email address is already in use, a different one must be used.
 
-![Commissioning – Figure 5](/img/konfiguration-inbetriebnahme/05.jpg)
+![Commissioning – Figure 5](/img/konfiguration-inbetriebnahme/05_EN.jpg)
 
 ### 4\. Account login
 
@@ -153,11 +153,11 @@ This step is optional.
 - If the warning about the 5 GHz network appears, you must make sure that a 2.4 GHz network is also provided. It is not possible to force the smartphone to connect to the 2.4 GHz network. For this reason, it appears as a warning.
 
 
-![Commissioning – Figure 7](/img/konfiguration-inbetriebnahme/07.jpg)
+![Commissioning – Figure 7](/img/konfiguration-inbetriebnahme/07_EN.jpg)
 
 ### 6\. Click "Add device" (Gerät hinzufügen) (+)
 
-![Commissioning – Figure 8](/img/konfiguration-inbetriebnahme/08.jpg)
+![Commissioning – Figure 8](/img/konfiguration-inbetriebnahme/08_EN.jpg)
 
 ### 7\. Click "Edit" (Editieren)
 
@@ -166,7 +166,7 @@ Note
 - This step can be skipped if Picos are commissioned via 4G.
 
 
-![Commissioning – Figure 9](/img/konfiguration-inbetriebnahme/09.jpg)
+![Commissioning – Figure 9](/img/konfiguration-inbetriebnahme/09_EN.jpg)
 
 ### 8\. Enter the WiFi password
 
@@ -196,7 +196,7 @@ Possible problems:
 
 ### 12\. Pico only: "Select connection type" (Verbindungsart auswählen)
 
-![Commissioning – Figure 14](/img/konfiguration-inbetriebnahme/14.jpg)
+![Commissioning – Figure 14](/img/konfiguration-inbetriebnahme/14_EN.jpg)
 
 ### 13\. Press the T1 button or scan RFID
 
@@ -223,7 +223,7 @@ Note for Pico: Keep in mind that you have 15 minutes per Pico to complete the in
 
 The transformer ratio does not change historical data. This step should therefore be carried out immediately after commissioning.
 
-![Commissioning – Figure 16](/img/konfiguration-inbetriebnahme/16.jpg)
+![Commissioning – Figure 16](/img/konfiguration-inbetriebnahme/16_EN.jpg)
 
 ## M-Bus Gateway / Sirius
 
@@ -411,9 +411,9 @@ In this step, you can commission several meters at the same time to speed up com
 3.  Logged out
 
 
-![Commissioning – Figure 26](/img/konfiguration-inbetriebnahme/26.jpg)
+![Commissioning – Figure 26](/img/konfiguration-inbetriebnahme/26_EN.jpg)
 
-![Commissioning – Figure 27](/img/konfiguration-inbetriebnahme/27.jpg)
+![Commissioning – Figure 27](/img/konfiguration-inbetriebnahme/27_EN.jpg)
 
 ### Installation failed
 

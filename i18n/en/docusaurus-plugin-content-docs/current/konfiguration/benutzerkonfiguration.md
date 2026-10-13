@@ -14,7 +14,7 @@ In smart-me, you can create new users and give them the appropriate permissions 
 
 This allows you to give tenants access to their data for as long as they live in the property.
 
-![Creating users – Figure 1](/img/konfiguration-benutzerkonfiguration/01.png)
+![Creating users – Figure 1](/img/konfiguration-benutzerkonfiguration/01_EN.png)
 
 To create new users, proceed as follows:
 
@@ -41,7 +41,7 @@ You can share either only the specific node or the node including all its subnod
 
 If a visualization that accesses meter data is used on the node, the user must be authorized to see the meters.
 
-![Creating users – Figure 3](/img/konfiguration-benutzerkonfiguration/03.png)
+![Creating users – Figure 3](/img/konfiguration-benutzerkonfiguration/03_EN.png)
 
 ### Next step
 

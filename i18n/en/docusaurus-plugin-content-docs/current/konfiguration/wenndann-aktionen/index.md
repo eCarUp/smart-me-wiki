@@ -68,7 +68,7 @@ If/then actions are stored in the cloud and therefore only work if the device in
 
 The following if events (triggers) are available:
 
-![Measured value greater / less](/img/konfiguration-wenndann-aktionen/02.png)
+![Measured value greater / less](/img/konfiguration-wenndann-aktionen/02_EN.png)
 
 Measured value greater/less (Messwert grösser/kleiner)
 

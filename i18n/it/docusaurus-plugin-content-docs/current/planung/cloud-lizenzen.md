@@ -176,8 +176,8 @@ Con le figure sottostanti può scoprire facilmente se nel Suo account Le servono
 
 Nel conteggio RCP (raggruppamento ai fini del consumo proprio) è determinante quale sistema tariffario deve essere rappresentato e se il conteggio deve avvenire in modo automatizzato.
 
-![Licenze cloud – Figura 1](/img/planung-cloud-lizenzen/01.png)
+![Licenze cloud – Figura 1](/img/planung-cloud-lizenzen/01_EN.png)
 
 ### Controllo RCP
 
-![Licenze cloud – Figura 2](/img/planung-cloud-lizenzen/02.png)
+![Licenze cloud – Figura 2](/img/planung-cloud-lizenzen/02_EN.png)

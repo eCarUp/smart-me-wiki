@@ -72,7 +72,7 @@ The following three values can be selected for this:
     The individual power is automatically distributed to active charging sessions by the charging manager.
 
 
-![Pico load management – Figure 3](/img/produkte-pico-ladestation-pico-lastmanagement/03.png)
+![Pico load management – Figure 3](/img/produkte-pico-ladestation-pico-lastmanagement/03_EN.png)
 
 ### Overload protection of the outgoing circuit or supply line
 

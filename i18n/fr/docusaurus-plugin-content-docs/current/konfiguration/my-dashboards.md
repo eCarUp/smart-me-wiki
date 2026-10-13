@@ -4,7 +4,7 @@ slug: '/konfiguration/my-dashboards'
 description: 'Créez une carte énergétique personnalisée de votre bâtiment.'
 sidebar_label: 'My Dashboards'
 ---
-![My Dashboards – Illustration 1](/img/konfiguration-my-dashboards/01.png)
+![My Dashboards – Illustration 1](/img/konfiguration-my-dashboards/01_EN.png)
 
 ## Ma carte énergétique
 
@@ -12,7 +12,7 @@ Créez une carte énergétique personnalisée de votre bâtiment.
 
 Utilisez pour cela une image ou une vue Google Maps et affichez des valeurs en direct sélectionnées directement sur l'image.
 
-![My Dashboards – Illustration 2](/img/konfiguration-my-dashboards/02.png)
+![My Dashboards – Illustration 2](/img/konfiguration-my-dashboards/02_EN.png)
 
 ## Mon flux d'énergie
 

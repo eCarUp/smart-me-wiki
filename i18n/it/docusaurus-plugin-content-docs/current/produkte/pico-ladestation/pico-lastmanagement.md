@@ -72,7 +72,7 @@ A tale scopo è possibile scegliere tra i seguenti tre valori:
     La potenza individuale viene distribuita automaticamente dal gestore di ricarica sulle ricariche attive.
 
 
-![Gestione del carico Pico – Figura 3](/img/produkte-pico-ladestation-pico-lastmanagement/03.png)
+![Gestione del carico Pico – Figura 3](/img/produkte-pico-ladestation-pico-lastmanagement/03_EN.png)
 
 ### Protezione da sovraccarico della partenza o della linea di alimentazione
 

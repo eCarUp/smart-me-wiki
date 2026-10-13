@@ -1486,15 +1486,15 @@
     },
     "docs/produkte/index.md": {
       "en": {
-        "hash": "5c0f1a2d043875a8",
+        "hash": "6cfece061374a153",
         "origin": "translated"
       },
       "fr": {
-        "hash": "5c0f1a2d043875a8",
+        "hash": "6cfece061374a153",
         "origin": "translated"
       },
       "it": {
-        "hash": "5c0f1a2d043875a8",
+        "hash": "6cfece061374a153",
         "origin": "translated"
       }
     },
@@ -1971,6 +1971,146 @@
       },
       "it": {
         "hash": "7b60d09ae1a5f06f",
+        "origin": "translated"
+      }
+    },
+    "docs/stoerungsbehebung/differenzen-mit-dem-ew.md": {
+      "en": {
+        "hash": "cc34ee525efa7735",
+        "origin": "translated"
+      },
+      "fr": {
+        "hash": "cc34ee525efa7735",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "cc34ee525efa7735",
+        "origin": "translated"
+      }
+    },
+    "docs/stoerungsbehebung/mbus-gateway-stoerungen.md": {
+      "en": {
+        "hash": "5bf81f244ab77153",
+        "origin": "translated"
+      },
+      "fr": {
+        "hash": "5bf81f244ab77153",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "5bf81f244ab77153",
+        "origin": "translated"
+      }
+    },
+    "docs/stoerungsbehebung/multilevel-lastmanagement-fehlermeldung.md": {
+      "en": {
+        "hash": "3e4500923b2af9d4",
+        "origin": "translated"
+      },
+      "fr": {
+        "hash": "3e4500923b2af9d4",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "3e4500923b2af9d4",
+        "origin": "translated"
+      }
+    },
+    "docs/stoerungsbehebung/pico-fehler.md": {
+      "en": {
+        "hash": "6fb9117c359da9f6",
+        "origin": "translated"
+      },
+      "fr": {
+        "hash": "6fb9117c359da9f6",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "6fb9117c359da9f6",
+        "origin": "translated"
+      }
+    },
+    "docs/stoerungsbehebung/systemgesundheit.md": {
+      "en": {
+        "hash": "1d4b6089985ee31d",
+        "origin": "translated"
+      },
+      "fr": {
+        "hash": "1d4b6089985ee31d",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "1d4b6089985ee31d",
+        "origin": "translated"
+      }
+    },
+    "docs/stoerungsbehebung/telstar-ct-inbetriebnahmefehler.md": {
+      "en": {
+        "hash": "8da8909522d7a807",
+        "origin": "translated"
+      },
+      "fr": {
+        "hash": "8da8909522d7a807",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "8da8909522d7a807",
+        "origin": "translated"
+      }
+    },
+    "docs/stoerungsbehebung/virtueller-zähler-fehler.md": {
+      "en": {
+        "hash": "48448ef085284760",
+        "origin": "translated"
+      },
+      "fr": {
+        "hash": "48448ef085284760",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "48448ef085284760",
+        "origin": "translated"
+      }
+    },
+    "docs/stoerungsbehebung/visualisierungsfehler.md": {
+      "en": {
+        "hash": "e9645244e101b7bc",
+        "origin": "translated"
+      },
+      "fr": {
+        "hash": "e9645244e101b7bc",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "e9645244e101b7bc",
+        "origin": "translated"
+      }
+    },
+    "docs/stoerungsbehebung/zaehler-offline.md": {
+      "en": {
+        "hash": "06422d308713628b",
+        "origin": "translated"
+      },
+      "fr": {
+        "hash": "06422d308713628b",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "06422d308713628b",
+        "origin": "translated"
+      }
+    },
+    "docs/support-ki-agent.md": {
+      "en": {
+        "hash": "db9be881da8ae0cb",
+        "origin": "translated"
+      },
+      "fr": {
+        "hash": "db9be881da8ae0cb",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "db9be881da8ae0cb",
         "origin": "translated"
       }
     }

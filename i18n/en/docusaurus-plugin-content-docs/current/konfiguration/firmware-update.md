@@ -27,7 +27,7 @@ Or via the smart-me menu
 2.  In the menu, select System / Firmware Update
 
 
-![Firmware Update – Figure 1](/img/konfiguration-firmware-update/01.png)
+![Firmware Update – Figure 1](/img/konfiguration-firmware-update/01_EN.png)
 
 ## Procedure
 

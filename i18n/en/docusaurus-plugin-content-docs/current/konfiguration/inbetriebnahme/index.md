@@ -137,7 +137,7 @@ Connect the smartphone to the same 2.4 GHz WiFi network that the devices will la
 
 <div className="text--center">
 
-![Registration form of the app with email, password and confirmation](/img/konfiguration-inbetriebnahme/04.jpg)
+![Registration form of the app with email, password and confirmation](/img/konfiguration-inbetriebnahme/04_EN.jpg)
 
 </div>
 
@@ -153,7 +153,7 @@ Connect the smartphone to the same 2.4 GHz WiFi network that the devices will la
 
 <div className="text--center">
 
-![Login form of the app with email and password](/img/konfiguration-inbetriebnahme/05.jpg)
+![Login form of the app with email and password](/img/konfiguration-inbetriebnahme/05_EN.jpg)
 
 </div>
 
@@ -181,7 +181,7 @@ If the warning about the 5 GHz network appears, a 2.4 GHz network must also be a
 
 <div className="text--center">
 
-![Empty device list of the app with the plus button at the bottom right](/img/konfiguration-inbetriebnahme/07.jpg)
+![Empty device list of the app with the plus button at the bottom right](/img/konfiguration-inbetriebnahme/07_EN.jpg)
 
 </div>
 
@@ -195,7 +195,7 @@ If the warning about the 5 GHz network appears, a 2.4 GHz network must also be a
 
 <div className="text--center">
 
-![Device list with Edit highlighted in green next to the installation WiFi](/img/konfiguration-inbetriebnahme/08.jpg)
+![Device list with Edit highlighted in green next to the installation WiFi](/img/konfiguration-inbetriebnahme/08_EN.jpg)
 
 </div>
 
@@ -208,7 +208,7 @@ If the warning about the 5 GHz network appears, a 2.4 GHz network must also be a
 
 <div className="text--center">
 
-![Input field for the password of the installation WiFi](/img/konfiguration-inbetriebnahme/09.jpg)
+![Input field for the password of the installation WiFi](/img/konfiguration-inbetriebnahme/09_EN.jpg)
 
 </div>
 
@@ -273,7 +273,7 @@ If the warning about the 5 GHz network appears, a 2.4 GHz network must also be a
 
 <div className="text--center">
 
-![Instructions with a drawing showing how to press and hold the T1 button on the device](/img/konfiguration-inbetriebnahme/14.jpg)
+![Instructions with a drawing showing how to press and hold the T1 button on the device](/img/konfiguration-inbetriebnahme/14_EN.jpg)
 
 </div>
 
@@ -311,7 +311,7 @@ If the warning about the 5 GHz network appears, a 2.4 GHz network must also be a
 </div>
 <div className="col col--4 text--center">
 
-![Device details in the app with the transformer factor 200:5 and the “Lock transformer factor” switch](/img/konfiguration-inbetriebnahme/16.jpg)
+![Device details in the app with the transformer factor 200:5 and the “Lock transformer factor” switch](/img/konfiguration-inbetriebnahme/16_EN.jpg)
 
 </div>
 </div>
@@ -503,12 +503,12 @@ In this step, you can commission several meters at the same time to speed up com
 </div>
 <div className="col col--4 text--center">
 
-![Side menu of the app with the User Profile entry highlighted](/img/konfiguration-inbetriebnahme/26.jpg)
+![Side menu of the app with the User Profile entry highlighted](/img/konfiguration-inbetriebnahme/26_EN.jpg)
 
 </div>
 <div className="col col--4 text--center">
 
-![Profile page of the app with the Log out button at the bottom](/img/konfiguration-inbetriebnahme/27.jpg)
+![Profile page of the app with the Log out button at the bottom](/img/konfiguration-inbetriebnahme/27_EN.jpg)
 
 </div>
 </div>

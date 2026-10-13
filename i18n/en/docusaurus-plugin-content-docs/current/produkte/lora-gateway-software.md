@@ -1,30 +1,30 @@
 ---
 title: 'LoRa Gateway Software'
 slug: '/produkte/lora-gateway-software'
-description: 'LoRa stands for Long Range and refers to a radio technology with long range and low data throughput.'
+description: 'LoRa stands for Long Range and is a radio technology with a long range and low data throughput.'
 sidebar_label: 'LoRa Gateway Software'
 ---
-## Foreword
+## Preface
 
-LoRa stands for Long Range and refers to a radio technology with long range and low data throughput. This communication medium is particularly suitable for the wireless transmission of meter readings in the fields of sanitary and heating technology.
+LoRa stands for Long Range and is a radio technology with a long range and low data throughput. This communication medium is particularly suitable for the wireless transmission of meter readings in plumbing and heating technology.
 
-Compared with Wireless M-Bus, which was developed specifically for meter data transmission, LoRa stands out with its significantly longer range.
+Compared with Wireless M-Bus, which was developed specifically for transmitting meter data, LoRa stands out with its significantly longer range.
 
-It requires fewer gateways per building to collect all meter readings from the individual apartments.
+Fewer gateways are needed per building to collect all meter readings from the individual apartments.
 
-## Structure
+## Setup
 
 ![LoRa Gateway Software – Figure 1](/img/produkte-lora-gateway-software/01.png)
 
-## General information on the compatibility of meters and sensors
+## General information on the compatibility of energy meters and sensors
 
-With the smart-me LoRa gateway solution, it is important that the sensors and meters are included in the compatibility list. If they are not listed, there is currently no compatibility.
+With the smart-me LoRa Gateway solution, it is important that the sensors and energy meters are included in the compatibility list. If they are not listed, they are currently not compatible. 
 
-Get in touch with us — integrating your meter or sensor is possible at short notice. Send an e-mail to [support@smart-me.com](mailto:support@smart-me.com) with the subject "Neues LoRa Gerät"
+Get in touch with us: your meter or sensor can be integrated promptly. Send an email to [support@smart-me.com](mailto:support@smart-me.com) with the subject "New LoRa device"
 
-In general, the smart-me gateway solution supports the following meter and sensor types:
+In general, the smart-me Gateway solution supports the following types of energy meters and sensors:
 
-Meters:
+Energy meters:
 
 - Heat meters
 
@@ -39,14 +39,14 @@ Meters:
 
 Sensors:
 
-- Temperature (display only, currently not stored)
+- Temperature (display only, temporarily not stored)
 
 
 ### Compatibility limitations
 
-For technical reasons, electricity meters are not supported with LoRa. Due to how LoRa works, the transmission rate and the data reliability for load profile billing in accordance with smart-me Billing are not sufficiently high.
+For technical reasons, electricity meters are not supported with LoRa. Due to the way LoRa works, the transmission rate and the data reliability are not high enough for load profile billing with smart-me Billing. 
 
-Therefore, only meter data for which sufficient reliability and functionality can be guaranteed is recorded via LoRa.
+Therefore, LoRa is used exclusively to record meter data for which sufficient reliability and functionality can be guaranteed.
 
 ## Tested LoRaWAN gateways
 
@@ -61,37 +61,37 @@ Therefore, only meter data for which sufficient reliability and functionality ca
 - Milesight UG56
 
 
-Note: Untested devices can be integrated independently. Compatible devices only need the "Semtech" and "Data Packet Forwarder" options.
+Note: Untested devices can be integrated on your own. Compatible devices only need the "Semtech" and "Data Packet Forwarder" options.
 
-## Carrying out the commissioning
+## Performing commissioning
 
 [Commissioning the LoRaWAN gateways](/konfiguration/inbetriebnahme/inbetriebnahme-lora)
 
-## Compatibility list of meters and sensors
+## Compatibility list for meters and sensors
 
-Is your meter or sensor not included?
+Is your meter or sensor not listed?
 
-Get in touch with us — integrating your meter or sensor is possible at short notice. Send an e-mail to [support@smart-me.com](mailto:support@smart-me.com) with the subject "Neues LoRa Gerät".
+Get in touch with us: your meter or sensor can be integrated promptly. Send an email to [support@smart-me.com](mailto:support@smart-me.com) with the subject "New LoRa device".
 
-Prerequisites for an integration:
+Requirements for an integration:
 
 - Device EUI
 
 - Application key for the device
-    (The key has 32 characters. The key is supplied with the product; if not, it can be obtained from the current / previous billing provider.)
+    (The key has 32 characters. It is supplied with the product; if not, it can be obtained from the current / previous billing provider.)
 
 
-[](https://drive.google.com/open?id=12I3do1d8wZTKA1V9mhF1-rQm-Iw9ZP8P_16gi1OJw2w "Open Spreadsheet, LoRa gateway compatibility list in new window")
+[](https://drive.google.com/open?id=12I3do1d8wZTKA1V9mhF1-rQm-Iw9ZP8P_16gi1OJw2w "Open Spreadsheet, LoRa Gateway compatibility list in new window")
 
-<Embed src="https://docs.google.com/spreadsheets/d/12I3do1d8wZTKA1V9mhF1-rQm-Iw9ZP8P_16gi1OJw2w/htmlembed" height="720px" title="Spreadsheet, LoRa gateway compatibility list" />
+<Embed src="https://docs.google.com/spreadsheets/d/12I3do1d8wZTKA1V9mhF1-rQm-Iw9ZP8P_16gi1OJw2w/htmlembed" height="720px" title="Spreadsheet, LoRa Gateway compatibility list" />
 
-LoRa gateway compatibility list
+LoRa Gateway compatibility list
 
 ## Working with LoRa field testers
 
-Field testers can be commissioned as any device type using the EUID and its APP key.
+Field testers can be commissioned as any device type using their EUID and APP key.
 
-Field testers can be connected, for example, with manufacturer "GWF" and type "All". This allows the tester to communicate with the gateway. The gateway does not create a measuring point for the tester on the smart-me portal side.
+For example, field testers can be connected with manufacturer "GWF" and type "All". This allows the tester to communicate with the gateway. The gateway does not create a metering point for the tester in the smart-me portal.
 
 Tested with:
 \- Adeunis ARF8123AA 868 MHz
@@ -130,16 +130,16 @@ Alex Nanzer, Management
 
 [www.elsys.se](http://www.elsys.se) 
 
-## Data quality and failure coverage
+## Data quality and outage coverage
 
-LoRa technology is based on recording and sending the data. The LoRaWAN gateways have no data storage and therefore cannot reconstruct incomplete data sets, as is otherwise the case with smart-me products.
+LoRa technology is based on recording and sending data. LoRaWAN gateways have no data storage and therefore cannot reconstruct incomplete data sets, as is otherwise the case with smart-me products.
 
-For this reason, LoRa is not equally suitable for all forms of energy.
+For this reason, LoRa is not equally suitable for all types of energy. 
 
-For heat / water and gas, a short-term outage or a data gap is generally not a major hurdle and can be billed smoothly if it is remedied within a reasonable time.
-With electricity and its tariffing in 15-minute intervals, remedying the issue within a reasonable time is not straightforward, which is why in our view LoRa is not suitable for the transmission of electricity data and its billing.
+For heat / water and gas, a brief outage or a data gap is generally not a major obstacle and can be billed smoothly if resolved in the medium term.
+For electricity and its tariffing in 15-minute intervals, a medium-term resolution is not easily possible. In our view, LoRa is therefore not suitable for transmitting electricity data and billing it.
 
-For this reason, smart-me has developed its own hardware to ensure the necessary data reliability and completeness for electricity.
+This is why smart-me has developed its own hardware to ensure the necessary data reliability and completeness for electricity. 
 
 - Telstar 80A
 

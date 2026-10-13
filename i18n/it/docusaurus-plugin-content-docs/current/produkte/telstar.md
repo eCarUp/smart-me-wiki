@@ -1,10 +1,10 @@
 ---
 title: 'Contatore trifase Telstar 80A'
 slug: '/produkte/telstar'
-description: 'Lo smart-me Telstar 80A è un contatore di energia certificato MID con interfaccia WiFi integrata per la trasmissione dei dati in tempo reale.'
+description: 'Lo smart-me Telstar 80A è un contatore di energia con certificazione MID e interfaccia WiFi integrata per la trasmissione di dati in tempo reale.'
 sidebar_label: 'Contatore trifase Telstar 80A'
 ---
-Lo smart-me Telstar 80A è un contatore di energia certificato MID con interfaccia WiFi integrata per la trasmissione dei dati in tempo reale. Il contatore sincronizza i valori di misura in modo automatico e cifrato con la cloud smart-me. I dati possono essere esportati e ulteriormente elaborati nel portale smart-me oppure, tramite la nostra interfaccia aperta, in sistemi di terzi. Il contatore dispone di due uscite digitali per il comando di apparecchi a potenziale zero.
+Lo smart-me Telstar 80A è un contatore di energia con certificazione MID e interfaccia WiFi integrata per la trasmissione di dati in tempo reale. Il contatore sincronizza i valori misurati in modo automatico e crittografato con lo smart-me Cloud. I dati possono essere esportati e rielaborati nel portale smart-me oppure in sistemi di terzi tramite la nostra interfaccia aperta. Il contatore dispone di due uscite digitali per il comando di apparecchi a potenziale libero.
 
 ![Contatore trifase Telstar 80A – Figura 1](/img/produkte-telstar/01.jpg)
 
@@ -12,19 +12,19 @@ Lo smart-me Telstar 80A è un contatore di energia certificato MID con interfacc
 
 - [Installazione](/konfiguration/inbetriebnahme) con l'app smart-me gratuita.
 
-- Fatturazione con il [tool smart-me Billing](/konfiguration/billing)
+- Fatturazione con lo [smart-me Billing Tool](/konfiguration/billing)
 
 - Comando con [azioni se/allora](/konfiguration/wenndann-aktionen) o [azioni basate su eventi](/konfiguration/wenndann-aktionen/ereignisaktionen)
 
 - [Visualizzazioni](/konfiguration/visualisierung)
 
-- [Uscite a contatto a potenziale zero](/schnittstellen/ein_und_ausgaenge) per il comando di apparecchi esterni, una delle quali con relè da 8A
+- [Uscite a contatto a potenziale libero](/schnittstellen/ein_und_ausgaenge) per il comando di apparecchi esterni, una delle quali con relè da 8A
 
-- Ingresso a contatto a potenziale zero per segnale tariffario o [ingresso digitale](/schnittstellen/ein_und_ausgaenge)
+- Ingresso a contatto a potenziale libero per segnale tariffario o [ingresso digitale](/schnittstellen/ein_und_ausgaenge)
 
 - [Interfacce](/) tramite API, CSV, MSCONS e IS-E
 
-- Connessione dati cifrata in tempo reale con la cloud smart-me
+- Connessione dati crittografata in tempo reale con lo smart-me Cloud 
 
 
 ## Dati tecnici
@@ -53,9 +53,9 @@ M Funzione non più utilizzata (può essere ignorata)
 
 ![Contatore trifase Telstar 80A – Figura 2](/img/produkte-telstar/02.png)
 
-Il contatore ha un display a scorrimento. I punti descritti di seguito vengono visualizzati uno dopo l'altro. Dopo l'ultimo punto viene nuovamente visualizzato il primo.
+Il contatore dispone di un display a rotazione. I punti descritti di seguito vengono visualizzati uno dopo l'altro. Dopo l'ultimo punto viene di nuovo visualizzato il primo.
 
-Lettura del contatore (codice OBIS seguito dalla lettura del contatore)
+Lettura del contatore (codice OBIS seguito dalla lettura del contatore) 
 
 1.8.1 (A+) Energia attiva prelievo tariffa 1
 1.8.2 (A+) Energia attiva prelievo tariffa 2
@@ -66,22 +66,22 @@ Lettura del contatore (codice OBIS seguito dalla lettura del contatore)
 7.8.0 (Q3) Energia reattiva induttiva immissione totale
 8.8.0 (Q4) Energia reattiva capacitiva immissione totale
 
-Firmware (codice OBIS seguito dalle informazioni)
+Firmware (codice OBIS seguito da informazioni)
 
 C.1.6 Ch: 762A Checksum del firmware
 0.2.0 V 1.1 Versione del firmware
 
-Indicazione di errore (codice OBIS seguito dai messaggi di errore)
+Indicazione degli errori (codice OBIS seguito da messaggi di errore)
 
-C.60.9 Fraud Flag (rilevato possibile tentativo di manipolazione)
-PhL: 1 solo fase L1 collegata
-PhL: 2 solo fase L2 collegata
-PhL: 3 solo fase L3 collegata
+C.60.9 Fraud Flag (rilevato possibile tentativo di frode)
+PhL: 1 collegata solo la fase L1
+PhL: 2 collegata solo la fase L2
+PhL: 3 collegata solo la fase L3
 PhL: 23 fase L1 non collegata
 PhL: 13 fase L2 non collegata
 PhL: 12 fase L3 non collegata
-Sequenza delle fasi corretta: le cifre sono accese in modo fisso
-Sequenza delle fasi errata: le cifre lampeggiano
+Sequenza delle fasi corretta: i numeri sono accesi fissi
+Sequenza delle fasi errata: i numeri lampeggiano
 
 ## Dimensioni e collegamenti
 
@@ -103,7 +103,7 @@ I dati \*.DXF e \*.DWG si trovano nell'archivio ZIP nei download.
 
 T1 Tasto per l'installazione
 
-Se il tasto T1 viene premuto per 10 secondi, viene generata una rete WiFi locale per l'installazione
+Se il tasto T1 viene premuto per 10 secondi, viene creata una rete WiFi locale per l'installazione
 
 T1 + T2 Riavvio
 
@@ -111,51 +111,51 @@ Premere contemporaneamente i tasti T1 e T2 per 10 secondi per forzare un riavvio
 
 T2 Funzioni speciali
 
-Breve: se T2 viene premuto per >2s, la lampada LED verde viene commutata (da spenta ad accesa o da accesa a spenta). Quando è attivata, indica lo stato della connessione
+Breve: se T2 viene premuto >2s, il LED verde viene commutato (da spento ad acceso o da acceso a spento). Se attivato, indica lo stato della connessione 
 
-🟢 Verde fisso: connesso alla cloud smart-me
+🟢 Verde fisso: connesso allo smart-me Cloud
 
-❇️ Verde lampeggiante: instaurazione della connessione o nessuna connessione
+❇️ Verde lampeggiante: connessione in corso o nessuna connessione
 
-Lungo: se T2 viene premuto per >8s, la visualizzazione della potenza viene commutata tra potenza attiva e potenza reattiva. Inoltre il LED degli impulsi di taratura passa da energia attiva a energia reattiva.
+Lungo: se T2 viene premuto >8s, la visualizzazione della potenza viene commutata tra potenza attiva e reattiva. Inoltre il LED degli impulsi di taratura passa tra energia attiva ed energia reattiva.
 
-Molto lungo: se T2 viene premuto per >14s, l'uscita a impulsi S0-0 viene commutata tra potenza attiva e potenza reattiva.
+Molto lungo: se T2 viene premuto >14s, l'uscita a impulsi S0-0 viene commutata tra potenza attiva e potenza reattiva.
 
-Nota: questa impostazione modifica solo la visualizzazione sul display, non nella cloud smart-me (app e sito web). Se l'energia reattiva deve essere visualizzata nella cloud, occorre impostarlo nelle impostazioni generali.
+Nota: questa impostazione modifica solo la visualizzazione sul display, non nello smart-me Cloud (app e sito web). Se l'energia reattiva deve essere visualizzata nel cloud, occorre impostarlo nelle impostazioni generali. 
 
 ## LED
 
 ![Contatore trifase Telstar 80A – Figura 7](/img/produkte-telstar/07.png)
 
-🟢 LED verde - stato della connessione
+🟢 LED verde - Stato della connessione
 
-- Indica lo stato della connessione alla cloud smart-me. a) Lampeggiante = errore di connessione b) Sempre acceso = connessione OK
+- Indica lo stato della connessione con lo smart-me Cloud. a) Lampeggiante = errore di connessione b) Sempre acceso = connessione OK
 
 
 ![Contatore trifase Telstar 80A – Figura 8](/img/produkte-telstar/08.png)
 
 🔴 LED rosso - LED a impulsi
 
-- Indica la potenza attiva o reattiva attualmente prelevata con 1000 impulsi/kWh risp. 1000 impulsi/kVArh. Se venga visualizzata la potenza attiva o reattiva può essere impostato con il tasto T2.
+- Indica la potenza attiva o reattiva attualmente prelevata in 1000 impulsi/kWh risp. 1000 impulsi/kVArh. Con il tasto T2 è possibile impostare se viene visualizzata la potenza attiva o quella reattiva.
 
 
-- Per esempio: un LED con la dicitura «1000 impulsi/kWh» lampeggia 1000 volte quando è stato prelevato o immesso 1 chilowattora (kWh) di energia. Se i 1000 impulsi sono stati contati entro 1 ora, è stata misurata una potenza costante di 1 kW.
+- Ad esempio: un LED con l'indicazione „1000 impulsi/kWh“ lampeggia 1000 volte quando è stato prelevato o immesso 1 chilowattora (kWh) di energia. Se i 1000 impulsi sono stati contati entro 1 ora, è stata misurata una potenza costante di 1 kW.
 
 
 ## Configurare ingressi e uscite
 
-Il Telstar 80A dispone di due uscite digitali e di un ingresso digitale, che possono essere utilizzati come ingressi e uscite a impulsi oppure come contatto commutabile a potenziale zero. I dettagli si trovano nella pagina wiki [Ingressi e uscite](/schnittstellen/ein_und_ausgaenge)
+Il Telstar 80A dispone di due uscite digitali e di un ingresso digitale, che possono essere utilizzati come ingressi e uscite a impulsi o come contatto commutabile a potenziale libero. Per i dettagli consultare la pagina wiki [Ingressi e uscite](/schnittstellen/ein_und_ausgaenge) 
 
 Il Telstar 80A dispone su un'uscita digitale di un relè in grado di commutare fino a 8A.
 
 ## Tecnologia mesh
 
-In caso di ricezione WiFi molto debole o assente, il Telstar 80A si collega automaticamente tramite la funzione mesh a un altro contatore vicino nel raggio d'azione. Questo assume quindi la comunicazione con la cloud smart-me. Con la tecnologia mesh si garantisce che i contatori presentino una maggiore disponibilità verso la cloud smart-me. Non è possibile disattivare la funzione mesh sul contatore. Con [Modbus TCP](/schnittstellen/modbus-tcp) attivato valgono limitazioni specifiche.
+In caso di ricezione WiFi molto debole o assente, il Telstar 80A si collega automaticamente tramite la funzione mesh a un altro contatore vicino nel raggio di portata. Quest'ultimo si occupa quindi della comunicazione con lo smart-me Cloud. La tecnologia mesh garantisce una maggiore disponibilità dei contatori nei confronti dello smart-me Cloud. Non è possibile disattivare la funzione mesh sul contatore. Con [Modbus TCP](/schnittstellen/modbus-tcp) attivato si applicano limitazioni specifiche.
 
 ## Informazioni di spedizione
 
-Numero articolo: 202063
-Nome articolo: smart-me 3-Phasen-Energiezähler 80A MID Telstar Wifi
+Numero d'articolo: 202063
+Nome dell'articolo: smart-me 3-Phasen-Energiezähler 80A MID Telstar Wifi
 
 Numero di tariffa doganale: 9028.3019
 
@@ -177,13 +177,13 @@ Peso con imballaggio: 415g
 
 ## FAQ
 
-### Con quale intervallo i contatori inviano i dati?
+### A quale intervallo i contatori inviano i dati?
 
-- Ogni 15 minuti, ovvero alle xx:00:00, xx:15:00, xx:30:00 e xx:45:00. In questo modo vengono inviati i dati necessari per la curva di carico. In caso di interruzione della connessione, questi dati vengono memorizzati localmente e inviati successivamente.
+- Ogni 15 minuti, cioè alle xx:00:00, xx:15:00, xx:30:00 e xx:45:00. In questo modo vengono inviati i dati necessari per la curva di carico. In caso di interruzione della connessione, questi dati vengono salvati localmente e inviati successivamente.
 
 - Inoltre almeno ogni 330 secondi.
 
-- Successivamente, quando si verifica uno dei seguenti eventi:
+- Infine, quando si verifica uno dei seguenti eventi:
 
     - Variazione della lettura del contatore superiore a 100Wh
 
@@ -198,4 +198,4 @@ Peso con imballaggio: 415g
 
 ### Posso azzerare la lettura del contatore?
 
-No, poiché i nostri contatori vengono utilizzati per i conteggi, non è possibile azzerarli.
+No, poiché i nostri contatori vengono utilizzati per il conteggio, non è possibile azzerarli.

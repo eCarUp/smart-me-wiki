@@ -1,16 +1,16 @@
 ---
 title: 'LoRa Gateway Software'
 slug: '/produkte/lora-gateway-software'
-description: 'LoRa sta per Long Range e comprende una tecnologia radio con portata elevata e basso throughput di dati.'
+description: 'LoRa sta per Long Range e comprende una tecnologia radio a lungo raggio con una bassa velocità di trasmissione dei dati.'
 sidebar_label: 'LoRa Gateway Software'
 ---
 ## Premessa
 
-LoRa sta per Long Range e comprende una tecnologia radio con portata elevata e basso throughput di dati. Questo mezzo di comunicazione è particolarmente adatto alla trasmissione senza fili dei valori di misura dei contatori nei settori della tecnica sanitaria e di riscaldamento.
+LoRa sta per Long Range e comprende una tecnologia radio a lungo raggio con una bassa velocità di trasmissione dei dati. Questo mezzo di comunicazione è particolarmente adatto alla trasmissione senza fili dei valori misurati dai contatori negli impianti sanitari e di riscaldamento.
 
-Rispetto al Wireless M-Bus, sviluppato in linea di principio per la trasmissione dei dati dei contatori, LoRa convince con la sua portata nettamente superiore.
+Rispetto al Wireless M-Bus, sviluppato appositamente per la trasmissione dei dati dei contatori, LoRa si distingue per una portata nettamente superiore.
 
-Richiede meno gateway per edificio per raggiungere tutti i valori dei contatori dei singoli appartamenti.
+Servono meno gateway per edificio per ottenere tutti i valori dei contatori dei singoli appartamenti.
 
 ## Struttura
 
@@ -18,11 +18,11 @@ Richiede meno gateway per edificio per raggiungere tutti i valori dei contatori 
 
 ## Informazioni generali sulla compatibilità dei contatori di energia e dei sensori
 
-Nella soluzione smart-me LoRa Gateway è importante che i sensori e i contatori di energia siano contenuti nella lista di compatibilità. Se non sono elencati, attualmente non sussiste alcuna compatibilità.
+Con la soluzione LoRa Gateway di smart-me è importante che i sensori e i contatori di energia figurino nell'elenco di compatibilità. Se non sono presenti, al momento non sono compatibili. 
 
-Contattaci: l'integrazione del tuo contatore o sensore è possibile in tempi brevi. Scrivi un'e-mail a [support@smart-me.com](mailto:support@smart-me.com) con la dicitura "Neues LoRa Gerät"
+Ci contatti: l'integrazione del Suo contatore o sensore è possibile in tempi brevi. Scriva un'e-mail a [support@smart-me.com](mailto:support@smart-me.com) con l'oggetto "Neues LoRa Gerät"
 
-In generale la soluzione smart-me Gateway supporta i seguenti tipi di contatori di energia e di sensori:
+In generale la soluzione gateway di smart-me supporta i seguenti tipi di contatori di energia e di sensori:
 
 Contatori di energia:
 
@@ -39,14 +39,14 @@ Contatori di energia:
 
 Sensori:
 
-- Temperatura (visualizzazione, temporaneamente non memorizzata)
+- Temperatura (visualizzazione, temporaneamente non salvata)
 
 
 ### Limitazioni della compatibilità
 
-Per motivi tecnici non sono supportati contatori elettrici con LoRa. La velocità di trasmissione e la sicurezza contro la perdita di dati per i conteggi basati su profili di carico secondo smart-me Billing non sono sufficientemente elevate a causa del funzionamento di LoRa.
+Per motivi tecnici, LoRa non supporta i contatori di elettricità. Il funzionamento di LoRa non garantisce una velocità di trasmissione e un'affidabilità dei dati sufficienti per i conteggi basati sul profilo di carico di smart-me Billing. 
 
-Per questo motivo via LoRa vengono rilevati esclusivamente dati di contatori con i quali è possibile garantire sicurezza e funzionalità sufficienti.
+Per questo motivo, tramite LoRa vengono rilevati esclusivamente i dati di contatori per i quali è possibile garantire sicurezza e funzionalità sufficienti.
 
 ## Gateway LoRaWAN testati
 
@@ -61,37 +61,37 @@ Per questo motivo via LoRa vengono rilevati esclusivamente dati di contatori con
 - Milesight UG56
 
 
-Nota: i dispositivi non testati possono essere integrati autonomamente. I dispositivi compatibili necessitano unicamente delle opzioni "Semtech" e "Data Packet Forwarder".
+Nota: i dispositivi non testati possono essere integrati in autonomia. I dispositivi compatibili richiedono soltanto le opzioni "Semtech" e "Data Packet Forwarder".
 
 ## Eseguire la messa in servizio
 
 [Messa in servizio dei gateway LoRaWAN](/konfiguration/inbetriebnahme/inbetriebnahme-lora)
 
-## Lista di compatibilità contatori e sensori
+## Elenco di compatibilità di contatori e sensori
 
-Il tuo contatore o sensore non è presente?
+Il Suo contatore o sensore non è presente?
 
-Contattaci: l'integrazione del tuo contatore o sensore è possibile in tempi brevi. Scrivi un'e-mail a [support@smart-me.com](mailto:support@smart-me.com) con la dicitura "Neues LoRa Gerät".
+Ci contatti: l'integrazione del Suo contatore o sensore è possibile in tempi brevi. Scriva un'e-mail a [support@smart-me.com](mailto:support@smart-me.com) con l'oggetto "Neues LoRa Gerät".
 
 Requisiti per un'integrazione:
 
 - EUI del dispositivo
 
-- Chiave applicativa per il dispositivo
-    (La chiave ha 32 caratteri. La chiave è allegata al prodotto e, in caso contrario, può essere richiesta all'attuale/precedente fornitore del servizio di conteggio.)
+- Chiave applicativa del dispositivo
+    (La chiave ha 32 caratteri. È fornita insieme al prodotto; in caso contrario può essere richiesta all'attuale o al precedente fornitore del servizio di fatturazione.)
 
 
-[](https://drive.google.com/open?id=12I3do1d8wZTKA1V9mhF1-rQm-Iw9ZP8P_16gi1OJw2w "Apri il foglio di calcolo, lista di compatibilità LoRa Gateway in una nuova finestra")
+[](https://drive.google.com/open?id=12I3do1d8wZTKA1V9mhF1-rQm-Iw9ZP8P_16gi1OJw2w "Apri il foglio di calcolo, elenco di compatibilità LoRa Gateway in una nuova finestra")
 
-<Embed src="https://docs.google.com/spreadsheets/d/12I3do1d8wZTKA1V9mhF1-rQm-Iw9ZP8P_16gi1OJw2w/htmlembed" height="720px" title="Foglio di calcolo, lista di compatibilità LoRa Gateway" />
+<Embed src="https://docs.google.com/spreadsheets/d/12I3do1d8wZTKA1V9mhF1-rQm-Iw9ZP8P_16gi1OJw2w/htmlembed" height="720px" title="Foglio di calcolo, elenco di compatibilità LoRa Gateway" />
 
-Lista di compatibilità LoRa Gateway
+Elenco di compatibilità LoRa Gateway
 
-## Lavorare con i field tester LoRa
+## Lavorare con i tester di campo LoRa
 
-I field tester possono essere messi in servizio come qualsiasi tipo di dispositivo mediante l'EUID e la relativa APP-Key.
+I tester di campo possono essere messi in servizio come qualsiasi tipo di dispositivo tramite il loro EUID e la relativa APP-Key.
 
-I field tester possono ad esempio essere collegati con produttore "GWF" e tipo "All". Questo consente al tester di comunicare con il gateway. Il gateway non genera per il tester alcun punto di misura sul portale smart-me.
+Ad esempio, i tester di campo possono essere collegati con il produttore "GWF" e il tipo "All". In questo modo il tester può comunicare con il gateway. Il gateway non crea alcun punto di misura per il tester nel portale smart-me.
 
 Testato con:
 \- Adeunis ARF8123AA 868 MHz
@@ -130,16 +130,16 @@ Alex Nanzer, Direzione
 
 [www.elsys.se](http://www.elsys.se) 
 
-## Qualità dei dati e copertura in caso di guasti
+## Qualità dei dati e copertura delle interruzioni
 
-La tecnologia LoRa si basa sul rilevamento e sull'invio dei dati. I gateway LoRaWAN non dispongono di memoria dati e non possono quindi ricostruire set di dati incompleti, come invece avviene normalmente con i prodotti smart-me.
+La tecnologia LoRa si basa sul rilevamento e sull'invio dei dati. I gateway LoRaWAN non dispongono di una memoria dati e quindi, a differenza degli altri prodotti smart-me, non possono ricostruire set di dati incompleti.
 
-Per questo motivo LoRa non è adatto allo stesso modo a tutte le forme di energia.
+Per questo motivo LoRa non è adatto allo stesso modo a tutti i tipi di energia. 
 
-Per calore/acqua e gas, di norma, un'interruzione di breve durata o un buco nei dati non rappresenta un grosso ostacolo e, in caso di risoluzione a medio termine, il conteggio può essere effettuato senza problemi.
-Per l'elettricità e la relativa tariffazione a intervalli di 15 minuti una risoluzione a medio termine non è realizzabile senza problemi, pertanto dal nostro punto di vista LoRa non è adatto alla trasmissione dei dati elettrici e al relativo conteggio.
+Per calore, acqua e gas, di norma un'interruzione di breve durata o una lacuna nei dati non rappresenta un ostacolo rilevante e, se risolta a medio termine, il conteggio può avvenire senza problemi.
+Per l'elettricità, con la sua tariffazione a intervalli di 15 minuti, una soluzione a medio termine non è priva di problemi; per questo, a nostro avviso, LoRa non è adatto alla trasmissione dei dati elettrici e al relativo conteggio.
 
-Per questo smart-me ha sviluppato hardware proprio per garantire in modo adeguato la necessaria sicurezza e completezza dei dati per l'elettricità.
+Per questo smart-me ha sviluppato un proprio hardware che garantisce per l'elettricità la sicurezza e la completezza dei dati necessarie. 
 
 - Telstar 80A
 

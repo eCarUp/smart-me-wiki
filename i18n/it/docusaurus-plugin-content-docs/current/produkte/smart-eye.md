@@ -1,14 +1,14 @@
 ---
 title: 'smart-eye'
 slug: '/produkte/smart-eye'
-description: 'Lo smart-eye porta i contatori di energia conformi alle specifiche FNN per contatori di base (dispositivi di misura moderni) nel cloud smart-me.'
+description: 'Lo smart-eye porta nel cloud smart-me i contatori di energia conformi al capitolato FNN per contatori di base (moderni dispositivi di misura).'
 sidebar_label: 'smart-eye'
 ---
-Lo smart-eye porta i contatori di energia conformi alle specifiche FNN per contatori di base (dispositivi di misura moderni) nel cloud smart-me. A questo scopo lo smart-eye viene applicato sull'interfaccia dati ottica INFO. In questo modo i dati energetici vengono trasmessi al cloud smart-me tramite il WiFi locale. Tramite l'app o il login online sono disponibili quasi in tempo reale visualizzazioni dei consumi nonché, se del caso, dati rilevanti per l'esercizio della rete come frequenza, tensione o corrente.
+Lo smart-eye porta nel cloud smart-me i contatori di energia conformi al capitolato FNN per contatori di base (moderni dispositivi di misura). A tale scopo, lo smart-eye viene applicato sull'interfaccia ottica dati INFO. In questo modo i dati energetici vengono trasmessi al cloud smart-me tramite la rete WiFi locale. Tramite l'app o il login online sono disponibili, quasi in tempo reale, visualizzazioni dei consumi ed eventualmente dati rilevanti per l'esercizio della rete come frequenza, tensione o corrente.
 
-Vendita cessata il 30.03.2021, il supporto e l'assistenza cloud sono garantiti fino al 30.03.2025.
+Vendita cessata il 30.03.2021, il supporto e il servizio cloud sono garantiti fino al 30.03.2025.
 
-Il sistema smart-me è multiservizio: possono essere letti e integrati nella gestione energetica anche i valori di misura di altri contatori, come ad esempio i contatori del gas. Inoltre, a seconda del tipo di contatore, lo smart-eye può inserire automaticamente il codice PIN per l'abilitazione del set di dati esteso. 
+Il sistema smart-me è multiservizio: anche i valori misurati da altri contatori, come ad es. i contatori del gas, possono essere letti e integrati nella gestione dell'energia. Inoltre, a seconda del tipo di contatore, lo smart-eye può inserire automaticamente il codice PIN per lo sblocco del set di dati esteso. 
 
 ![smart-eye – Figura 1](/img/produkte-smart-eye/01.jpg)
 
@@ -18,13 +18,13 @@ Il sistema smart-me è multiservizio: possono essere letti e integrati nella ges
 
 - Salvataggio automatico delle letture del contatore nel cloud
 
-- Data logger: memorizzazione dei valori di misura in caso di interruzione della connessione e sincronizzazione automatica con il cloud al ripristino della connessione
+- Datalogger: memorizzazione dei valori misurati in caso di interruzione della connessione e sincronizzazione automatica con il cloud al ripristino della connessione
 
-- Connessione WiFi cifrata al cloud smart-me
+- Connessione WiFi crittografata al cloud smart-me
 
-- Gestione energetica completa, fatturazione automatica, comando e allarmi tramite il cloud smart-me
+- Gestione completa dell'energia, fatturazione automatica, comando e allarmi tramite il cloud smart-me
 
-- Installazione semplice con l'app gratuita smart-me per Android e iOS
+- Installazione semplice con l'app smart-me gratuita per Android e iOS
 
 
 <Video src="0bvtbGs8G94" title="Video YouTube, smart eye per contatori di base FNN" />
@@ -33,7 +33,7 @@ Installazione e messa in servizio del modulo smart-eye
 
 ## Dati tecnici
 
-Contatori supportati  tutti i contatori secondo le specifiche FNN per contatori di base                                
+Contatori supportati  tutti i contatori conformi al capitolato FNN per contatori di base                                
 
 Tensione di esercizio interfaccia USB tipo C (5V)    
 
@@ -41,9 +41,9 @@ Interfacce WiFi, interfaccia INFO (comunicazione con il contatore)
 
 Memoria dati 2 mesi     
 
-Aggiornamento firmware possibile online
+Aggiornamento del firmware possibile online
 
-Certificazione di prodotto CE     
+Certificazione del prodotto CE     
 
 Standard WiFi 802.11 b/g/n
 
@@ -53,33 +53,33 @@ Dimensioni 34x34x25.5 mm
 
 Peso 40 g 
 
-Intervallo di temperatura −40°C a 70°C
+Intervallo di temperatura −40°C fino a 70°C
 
 Montaggio magnetico
 
 ## Contatori testati
 
-[](https://drive.google.com/open?id=1WURxhIS6zPpfSeOv-tfZqnRQKIBkGNP9x4_n1r5iVds "Open Spreadsheet, Getestete Zähler in new window")
+[](https://drive.google.com/open?id=1WURxhIS6zPpfSeOv-tfZqnRQKIBkGNP9x4_n1r5iVds "Apri foglio di calcolo, Contatori testati in una nuova finestra")
 
-<Embed src="https://docs.google.com/spreadsheets/d/1WURxhIS6zPpfSeOv-tfZqnRQKIBkGNP9x4_n1r5iVds/htmlembed?gid=0" height="493px" title="Foglio di calcolo, contatori testati" />
+<Embed src="https://docs.google.com/spreadsheets/d/1WURxhIS6zPpfSeOv-tfZqnRQKIBkGNP9x4_n1r5iVds/htmlembed?gid=0" height="493px" title="Foglio di calcolo, Contatori testati" />
 
 Contatori testati
 
-## Codici lampeggianti LED
+## Codici di lampeggio LED
 
-[](https://drive.google.com/open?id=10sNiDg0g8cwomZ-aEWn7gpCKbZLiay4X1O_fOJmM-QY "Open Spreadsheet, smart-eye LED blink codes in new window")
+[](https://drive.google.com/open?id=10sNiDg0g8cwomZ-aEWn7gpCKbZLiay4X1O_fOJmM-QY "Apri foglio di calcolo, codici di lampeggio LED dello smart-eye in una nuova finestra")
 
-<Embed src="https://docs.google.com/spreadsheets/d/10sNiDg0g8cwomZ-aEWn7gpCKbZLiay4X1O_fOJmM-QY/htmlembed" height="216px" title="Foglio di calcolo, codici lampeggianti LED smart-eye" />
+<Embed src="https://docs.google.com/spreadsheets/d/10sNiDg0g8cwomZ-aEWn7gpCKbZLiay4X1O_fOJmM-QY/htmlembed" height="216px" title="Foglio di calcolo, codici di lampeggio LED dello smart-eye" />
 
-smart-eye LED blink codes
+Codici di lampeggio LED dello smart-eye
 
 Modificare l'intervallo di upload
 
-- accedere al portale smart-me
+- Accedere al portale smart-me
 
-- selezionare il contatore
+- Selezionare il contatore
 
-- selezionare l'ingranaggio in alto a destra
+- Selezionare la rotella dentata in alto a destra
 
 - Impostazioni generali (Allgemeine Einstellungen)
 
@@ -94,4 +94,4 @@ Scheda tecnica
 
 Documenti tecnici
 
-[Quick Starter Guide](https://drive.google.com/file/d/1cfreWRx5zRDTSzjPYuchkZFk7RXvjVaJ/view?usp=sharing)
+[Guida rapida](https://drive.google.com/file/d/1cfreWRx5zRDTSzjPYuchkZFk7RXvjVaJ/view?usp=sharing)

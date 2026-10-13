@@ -1,14 +1,14 @@
 ---
-title: 'Pico E-Ladestation'
+title: 'Borne de recharge Pico'
 slug: '/produkte/pico-ladestation-exa'
-description: 'RDC-DD 6mA selon IEC 62955 (dispositif de détection de courant de défaut continu)'
-sidebar_label: 'Pico E-Ladestation'
+description: 'RDC-DD 6mA selon IEC 62955 (dispositif de détection de courant continu de défaut)'
+sidebar_label: 'Borne de recharge Pico'
 ---
-RDC-DD 6mA selon IEC 62955 (dispositif de détection de courant de défaut continu)
+RDC-DD 6mA selon IEC 62955 (dispositif de détection de courant continu de défaut)
 
-Pico is the Swiss high-tech charging station. It connects directly to the cloud via Wi-Fi or mobile communications. The integrated smart meter exports high-precision measurement data that is signed during transactions and can be validated at any time free of charge. The station can be integrated into a backend (eCarUp), energy management systems and other third-party systems. Furthermore, Pico can be used for both static and dynamic load management (including phase balancing).
+Pico est la borne de recharge suisse de haute technologie. Elle se connecte directement au cloud via Wi-Fi ou par réseau mobile. Le compteur intelligent intégré exporte des données de mesure de haute précision, qui sont signées lors des transactions et peuvent être validées gratuitement à tout moment. La borne peut être intégrée dans un backend (eCarUp), dans des systèmes de gestion de l'énergie et dans d'autres systèmes tiers. En outre, Pico peut être utilisée aussi bien pour la gestion de la charge statique que dynamique (y compris l'équilibrage des phases).
 
-Cet article porte sur la première génération de Pico (numéro d'article 202170exA). Vous trouverez toutes les informations sur la version la plus récente de Pico ici : [Borne de recharge Pico](/produkte/pico-ladestation).
+Cet article concerne la première génération de Pico (numéro d'article 202170exA). Vous trouverez toutes les informations sur la version la plus récente de Pico ici : [Borne de recharge Pico](/produkte/pico-ladestation).
 
 ![Borne de recharge Pico – illustration 1](/img/produkte-pico-ladestation-exa/01.jpg)
 
@@ -16,17 +16,17 @@ Cet article porte sur la première génération de Pico (numéro d'article 20217
 
 [Accessoires](/produkte/pico-ladestation/pico-zubehör)
 
-[Recommandation de matériel RCD Typ A](/produkte/pico-ladestation/materialempfehlung-rcd-typ-a)
+[Recommandation de matériel RCD Typ-A](/produkte/pico-ladestation/materialempfehlung-rcd-typ-a)
 
 ## Fonctions
 
-- Gestion de la charge et équilibrage de la charge intégrés avec équilibrage des phases
+- Gestion de la charge et répartition de la charge intégrées avec équilibrage des phases
 
 - Montage simple (petite et légère), adaptée au câble plat
 
 - Identification par RFID, application, CarID et prête pour ISO 15118 (Powerline)
 
-- Liaison de données chiffrée en temps réel vers le cloud smart-me et eCarUp 
+- Connexion de données cryptée en temps réel vers le cloud smart-me et eCarUp 
 
 - Installation simple avec l'application smart-me gratuite.
 
@@ -37,7 +37,7 @@ Cet article porte sur la première génération de Pico (numéro d'article 20217
 
 Avant de pouvoir utiliser votre appareil smart-me, vous devez le connecter à votre réseau WiFi.
 
-1.  Connectez votre smartphone ou votre tablette au réseau WLAN.
+1.  Connectez votre smartphone ou votre tablette au WLAN.
 
 2.  Téléchargez et installez l'application smart-me gratuite.
 
@@ -47,44 +47,44 @@ Avant de pouvoir utiliser votre appareil smart-me, vous devez le connecter à vo
 
     1.  1.  Choisir WLAN ou LTE (2.4Ghz ou mobile)
 
-        2.  Indiquer le mot de passe (WLAN)
+        2.  Saisir le mot de passe (WLAN)
 
-        3.  Maintenir la carte RFID fournie devant le lecteur pendant 10 secondes
+        3.  Tenir la carte RFID fournie devant le lecteur pendant 10 secondes
 
-        4.  Connecter le téléphone mobile au réseau WLAN local de Pico (réseaux : smartme\_numérodesérie) et maintenir la connexion.
+        4.  Connecter le téléphone mobile au WLAN local de la Pico (réseaux : smartme\_Serienummer) et maintenir la connexion.
 
         5.  Revenir dans l'application
 
-        6.  Indiquer le nom d'affichage de Pico et terminer l'installation
+        6.  Saisir le nom d'affichage de la Pico et terminer l'installation
 
 
 ## Configurer Pico
 
-La configuration est traitée en détail ici : [Configuration de Pico](/konfiguration/inbetriebnahme/pico-konfiguration) 
+La configuration est décrite en détail ici : [Configuration de Pico](/konfiguration/inbetriebnahme/pico-konfiguration) 
 
-## Caractéristiques techniques
+## Données techniques
 
-Puissance de recharge maximale  22 kW à 32A en triphasé, 7.36 kW à 32A en monophasé
+Puissance de charge maximale  22 kW à 32A en triphasé, 7.36 kW à 32A en monophasé
 
-Identification  Détection et identification automatiques de la voiture, lecteur RFID / NFC (JEWEL, MIFARE, FELICA, ISO14443, NFC\_DEP, ISO14443\_B, ISO15693)
+Identification  Détection et identification automatiques du véhicule, lecteur RFID / NFC (JEWEL, MIFARE, FELICA, ISO14443, NFC\_DEP, ISO14443\_B, ISO15693)
 
-Smart Meter  Compteur d'électricité intégré non certifié MID, processeur de sécurité inclus
+Smart Meter  Compteur électrique intégré non certifié MID, avec processeur de sécurité
 
 Équilibrage des phases  Équilibrage automatique des phases
 
-Gestion de la charge  Gestion automatique de la charge sur plusieurs stations
+Gestion de la charge  Gestion automatique de la charge sur plusieurs bornes
 
-Communication  WiFi (2.4 GHz) et téléphonie mobile (LTE), SIM et trafic de données inclus pour 10 ans de [1nce](https://1nce.com/de/laenderabdeckung/), [Modbus TCP](/)
+Communication  WiFi (2.4 GHz) et réseau mobile (LTE), carte SIM et trafic de données inclus pour 10 ans par [1nce](https://1nce.com/de/laenderabdeckung/), [Modbus TCP](/)
 
-Connexion au cloud  Raccordement au cloud smart-me et eCarUp
+Connexion au cloud  Connexion au cloud smart-me et eCarUp
 
-Sécurité  Numéro d'article 202170exA RDC-DD 6mA selon IEC 62955 (dispositif de détection de courant de défaut continu)
+Sécurité  Numéro d'article 202170exA RDC-DD 6mA selon IEC 62955 (dispositif de détection de courant continu de défaut)
 
 Plage de température  \-30°C à 50°C
 
 Tensions de réseau 3x230/400VAC ou 1x 230VAC (+/-10%)
 
-Prise de recharge  IEC 62196-2 Typ 2 
+Prise de recharge  IEC 62196-2 Type 2 
 
 Indice de protection  IP55 (intérieur et extérieur)
 
@@ -98,7 +98,7 @@ Sortie S0  Interface S0 (1000 imp/kwh) pour l'étalonnage
 
 Raccordement électrique  en haut, en bas, à l'arrière
 
-Type d'installation  rail conducteur, câble plat, en étoile
+Type d'installation  Rail conducteur, câble plat, en étoile
 
 Dimensions  H:300 mm L:220 mm P:112 mm
 
@@ -108,7 +108,7 @@ Section de câble  min. 2.5 mm2, max. 10 mm2
 
 Diamètre de câble  10-20 mm
 
-Emplacement du serveur Suisse 
+Emplacement des serveurs Suisse 
 
 ## Raccordements et dimensions de Pico
 
@@ -128,25 +128,25 @@ PE : conducteur de protection
 
 
 
-Le conducteur de protection doit être raccordé à la vis de raccordement supérieure afin que le socle soit mis à la terre directement avec la station.
+Le conducteur de protection doit être raccordé à la vis de raccordement supérieure afin que le socle soit mis à la terre directement avec la borne.
 
-Le produit ne peut être exploité qu'en couplage en étoile triphasé ou en monophasé !
+Le produit ne peut être exploité qu'en couplage étoile triphasé ou en monophasé !
 
 
 
 Passages de câbles
 
-Chez Pico, les câbles peuvent être introduits et sortis à 5 endroits. 
+Sur Pico, les câbles peuvent entrer et sortir à 5 endroits. 
 
-Deux en haut, deux en bas et un par la plaque arrière.
+Deux en haut, deux en bas et un à travers la plaque arrière.
 
-Pour le montage par la plaque arrière, il faut percer un trou de 25-26mm de diamètre.
+Pour un montage à travers la plaque arrière, un trou de 25-26mm de diamètre doit être percé.
 
-Vous trouverez les détails sur le montage du socle dans les instructions de montage dans les téléchargements.
+Vous trouverez les détails sur le montage du socle dans les instructions de montage, dans les téléchargements.
 
 ### Délestage (entrées externes)
 
-[](https://drive.google.com/open?id=1CnvydIjsXnRTXNFNnteObEg5VLJM9RqU5_PA78Gd_kY "Ouvrir la feuille de calcul, délestage Pico dans une nouvelle fenêtre")
+[](https://drive.google.com/open?id=1CnvydIjsXnRTXNFNnteObEg5VLJM9RqU5_PA78Gd_kY "Ouvrir la feuille de calcul, délestage Pico, dans une nouvelle fenêtre")
 
 <Embed src="https://docs.google.com/spreadsheets/d/1CnvydIjsXnRTXNFNnteObEg5VLJM9RqU5_PA78Gd_kY/htmlembed?gid=0" height="245px" title="Feuille de calcul, délestage Pico" />
 
@@ -154,17 +154,17 @@ Délestage Pico
 
 Le délestage peut également être réalisé avec un seul signal disponible. 
 
-Pour la configuration allant d'aucune charge à la puissance de recharge maximale, le signal est câblé sur IN1 et IN2  ainsi que sur COM.
+Pour la configuration d'aucune recharge à la puissance de charge maximale, le signal est câblé sur IN1 et IN2  ainsi que sur COM.
 
-Pour la configuration allant de la puissance minimale de 6A à la puissance de recharge maximale, le signal ne doit être câblé que sur IN2 ainsi que sur COM.
+Pour la configuration d'une puissance minimale de 6A à la puissance de charge maximale, le signal doit uniquement être câblé sur IN2 ainsi que sur COM.
 
 
 
 Attention :
-Le délestage peut être câblé soit sur tous les Pico, soit au minimum sur un Pico de chaque groupe de charge.
-Cette fonction est également garantie sans connexion Internet.
+Le délestage peut être câblé soit sur toutes les Pico, soit au minimum sur une Pico de chaque groupe de charge.
+Cette fonction est garantie même sans connexion Internet.
 
-Le délestage peut également être réalisé via les actions SI/ALORS et la régulation Pico.
+Le délestage peut également être réalisé au moyen des actions SI/ALORS et de la régulation Pico.
 
 ![Borne de recharge Pico – illustration 3](/img/produkte-pico-ladestation-exa/03.png)
 
@@ -174,23 +174,23 @@ Le délestage peut également être réalisé via les actions SI/ALORS et la ré
 
 ## Informations d'expédition
 
-### 212070 smart-me PICO Ladestation inkl. Montageplatte
+### 212070 Borne de recharge smart-me PICO avec plaque de montage
 
-Numéro du tarif douanier : 85044055
+Numéro de tarif douanier : 85044055
 
 Poids avec emballage : 4.6 kg
 
-Dimensions de l'emballage : 400x300x200mm
+Taille de l'emballage : 400x300x200mm
 
 Colis par europalette : 72 pièces
 
-### 212070/1 smart-me PICO Ladestation ohne Montageplatte
+### 212070/1 Borne de recharge smart-me PICO sans plaque de montage
 
-Numéro du tarif douanier : 85044055
+Numéro de tarif douanier : 85044055
 
 Poids avec emballage : 3.3 kg
 
-Dimensions de l'emballage : 400x300x200mm
+Taille de l'emballage : 400x300x200mm
 
 Colis par europalette : 72 pièces
 
@@ -202,61 +202,61 @@ Colis par europalette : 72 pièces
 
 Les consignes de sécurité doivent être respectées en toutes circonstances :
 
-Installation, maintenance, réparation, mise en service :
+Installation, entretien, réparation, mise en service :
 
 - Lisez attentivement l'intégralité du manuel avant l'installation et l'utilisation du produit.
 
-- Danger de mort dû à la haute tension électrique. Ne jamais effectuer de modifications sur les composants, le logiciel ou les câbles de raccordement sans avoir mis l'installation hors tension. Il faut donc retirer les fusibles amont correspondants et les conserver de manière à ce que d'autres personnes ne puissent pas les remettre en place à votre insu.
+- Danger de mort dû à la haute tension électrique. Ne jamais effectuer de modifications sur les composants, le logiciel ou les câbles de raccordement sans que l'installation soit hors tension. Les fusibles amont correspondants doivent donc être retirés et conservés de manière à ce que d'autres personnes ne puissent pas les remettre en place à votre insu.
 
-- Le produit doit être installé, réparé ou entretenu exclusivement par un électricien qualifié agréé. Toutes les prescriptions communales, régionales et nationales en vigueur pour les installations électriques doivent être respectées. 
+- Le produit doit être installé, réparé ou entretenu exclusivement par un électricien qualifié agréé. Toutes les prescriptions communales, régionales et nationales en vigueur relatives aux installations électriques doivent être respectées. 
 
-- L'installation ne doit pas avoir lieu à proximité de milieux inflammables ou explosifs, dans des zones inondables (garage souterrain) ou dans des zones où il existe un risque d'eau courante. 
+- L'installation ne doit pas être effectuée à proximité de substances inflammables ou explosives, dans des zones inondables (parking souterrain) ou dans des zones exposées à un risque d'eau ruisselante. 
 
-- Le produit doit être installé à un emplacement définitif. Les raccordements sur le Pico et la plaque arrière sont conçus pour un nombre limité de cycles d'enfichage. 
+- Le produit doit être installé à un emplacement définitif. Les raccordements sur la Pico et sur la plaque arrière sont conçus pour un nombre limité de cycles d'enfichage. 
 
-- Le produit doit être installé sur un mur ou une structure offrant une capacité de charge suffisante. 
+- Le produit doit être installé sur un mur ou une structure présentant une capacité portante suffisante. 
 
-- Les bornes de raccordement de la plaque arrière sont sous tension lorsque le circuit électrique est fermé et ne doivent en aucun cas être mises en contact directement ou avec d'autres objets que l'électronique du Pico.
+- Les bornes de raccordement de la plaque arrière sont sous tension lorsque le circuit est fermé et ne doivent en aucun cas entrer en contact, directement ou par l'intermédiaire d'autres objets, avec autre chose que l'électronique de la Pico.
 
-- Selon le type d'installation, des autorisations peuvent être nécessaires avant l'installation, par ex. en cas d'augmentation de la puissance de raccordement du bâtiment. 
+- Selon le type d'installation, des autorisations peuvent être nécessaires avant l'installation, p. ex. en cas d'augmentation de la puissance du raccordement de l'immeuble. 
 
-- La borne de recharge doit être déclarée auprès du gestionnaire de réseau de distribution (GRD). 
+- La borne de recharge doit être annoncée au gestionnaire de réseau de distribution (GRD). 
 
 
 Utilisation prévue :
 
-- Ce produit est exclusivement destiné à la recharge de véhicules électriques équipés de batteries non gazantes. Le produit ne doit être utilisé qu'avec un câble de recharge conforme à IEC 62196. Toute utilisation autre que celles indiquées ici est interdite.
+- Ce produit est exclusivement destiné à la recharge de véhicules électriques équipés de batteries ne dégageant pas de gaz. Le produit ne doit être utilisé qu'avec un câble de recharge conforme à IEC 62196. Toute utilisation autre que celles indiquées ici est interdite.
 
-- L'appareil est prévu pour une utilisation en intérieur et en extérieur.
+- L'appareil est prévu pour une utilisation à l'intérieur et à l'extérieur.
 
 
-Fonctionnement :
+Exploitation :
 
-- Ne jamais utiliser ni toucher le produit s'il est endommagé ou s'il ne fonctionne pas correctement. En cas d'urgence (fumée, incendie, étincelles ou autres dysfonctionnements), mettre immédiatement le produit hors tension via l'interrupteur FI et informer le support client. 
+- Ne jamais utiliser ni toucher le produit s'il est endommagé ou ne fonctionne pas correctement. En cas d'urgence (fumée, incendie, étincelles ou autre dysfonctionnement), mettre immédiatement le produit hors tension au moyen du disjoncteur différentiel et informer le support client. 
 
-- Ne pas éteindre le produit avec de l'eau et ne pas le nettoyer à l'eau courante.
+- Ne pas éteindre le produit avec de l'eau ni le nettoyer à l'eau courante.
 
-- Ne pas immerger le produit dans l'eau ni dans d'autres liquides. 
+- Ne pas plonger le produit dans l'eau ou dans d'autres liquides. 
 
-- Ce produit n'est pas prévu pour être utilisé par des personnes aux capacités physiques, psychiques ou sensorielles réduites (y compris les enfants) ni par des personnes ne connaissant pas le produit. 
+- Ce produit n'est pas destiné à être utilisé par des personnes dont les capacités physiques, mentales ou sensorielles sont réduites (y compris les enfants) ou par des personnes ne connaissant pas le produit. 
 
-- Il faut veiller à ce que les enfants ne jouent pas avec le produit.
+- Veiller à ce que les enfants ne jouent pas avec le produit.
 
-- Ne jamais toucher les contacts de la prise de recharge Typ 2 et n'introduire aucun corps étranger dans le produit. 
+- Ne jamais toucher les contacts de la prise de recharge de type 2 et n'introduire aucun corps étranger dans le produit. 
 
-- Ne jamais utiliser le câble de recharge s'il est endommagé ou si les raccordements sont mouillés ou souillés. 
+- Ne jamais utiliser le câble de recharge s'il est endommagé ou si les connecteurs sont mouillés ou encrassés. 
 
-- N'utiliser ni rallonge ni adaptateur non homologué en combinaison avec le produit. 
+- Ne pas utiliser de rallonges ni d'adaptateurs non homologués avec le produit. 
 
-- Ne jamais plier le câble de recharge, ne pas rouler dessus et ne pas l'exposer à une forte chaleur. 
+- Ne jamais plier le câble de recharge, rouler dessus ni l'exposer à une forte chaleur. 
 
-- Ne retirer le câble de recharge du support de recharge qu'en le tenant par la fiche. 
+- Retirer le câble de recharge du support de recharge uniquement en tirant sur la fiche. 
 
 - Ne pas placer le câble de recharge sur les voies de circulation d'autres usagers et toujours le positionner de manière à éviter tout risque de trébuchement. 
 
-- Protéger le câble de recharge des intempéries telles que le rayonnement solaire direct, le vent, la pluie, l'humidité et l'eau, et ne jamais le brancher avec les mains humides ou mouillées. 
+- Protéger le câble de recharge des intempéries telles que le rayonnement solaire direct, le vent, la pluie, l'humidité et l'eau, et ne jamais le brancher avec des mains humides ou mouillées. 
 
-- Ne pas utiliser le produit à proximité de champs électromagnétiques puissants ni dans l'environnement immédiat de radiotéléphones.
+- Ne pas utiliser le produit à proximité de champs électromagnétiques puissants ni à proximité immédiate de radiotéléphones.
 
 
 ## Téléchargements

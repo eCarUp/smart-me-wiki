@@ -268,15 +268,15 @@
     },
     "docs/drittsysteme/microsoft-excel.md": {
       "en": {
-        "hash": "434ae2f438215da0",
+        "hash": "3a8ff952f5bc006d",
         "origin": "translated"
       },
       "fr": {
-        "hash": "434ae2f438215da0",
+        "hash": "3a8ff952f5bc006d",
         "origin": "translated"
       },
       "it": {
-        "hash": "434ae2f438215da0",
+        "hash": "3a8ff952f5bc006d",
         "origin": "translated"
       }
     },
@@ -576,15 +576,15 @@
     },
     "docs/konfiguration/billing/mieterstrom/index.md": {
       "en": {
-        "hash": "08fe8285de9a959e",
+        "hash": "121e4911f46bf1fa",
         "origin": "translated"
       },
       "fr": {
-        "hash": "08fe8285de9a959e",
+        "hash": "121e4911f46bf1fa",
         "origin": "translated"
       },
       "it": {
-        "hash": "08fe8285de9a959e",
+        "hash": "121e4911f46bf1fa",
         "origin": "translated"
       }
     },
@@ -800,15 +800,15 @@
     },
     "docs/konfiguration/inbetriebnahme/pico-konfiguration.md": {
       "en": {
-        "hash": "7c3d755888ef2e3a",
+        "hash": "149808eb4254c4ec",
         "origin": "translated"
       },
       "fr": {
-        "hash": "7c3d755888ef2e3a",
+        "hash": "149808eb4254c4ec",
         "origin": "translated"
       },
       "it": {
-        "hash": "7c3d755888ef2e3a",
+        "hash": "149808eb4254c4ec",
         "origin": "translated"
       }
     },
@@ -884,15 +884,15 @@
     },
     "docs/konfiguration/ordnerkonfiguration/index.md": {
       "en": {
-        "hash": "2beed76e16896055",
+        "hash": "5cff2398890d3d83",
         "origin": "translated"
       },
       "fr": {
-        "hash": "2beed76e16896055",
+        "hash": "5cff2398890d3d83",
         "origin": "translated"
       },
       "it": {
-        "hash": "2beed76e16896055",
+        "hash": "5cff2398890d3d83",
         "origin": "translated"
       }
     },
@@ -1430,43 +1430,43 @@
     },
     "docs/produkte/1-phasen-zaehler.md": {
       "en": {
-        "hash": "71d8e2fc1893f8dc",
+        "hash": "35d5c50c4de72170",
         "origin": "translated"
       },
       "fr": {
-        "hash": "71d8e2fc1893f8dc",
+        "hash": "35d5c50c4de72170",
         "origin": "translated"
       },
       "it": {
-        "hash": "71d8e2fc1893f8dc",
+        "hash": "35d5c50c4de72170",
         "origin": "translated"
       }
     },
     "docs/produkte/3-phasen-zähler.md": {
       "en": {
-        "hash": "26852a93384de2b4",
+        "hash": "42f1a77331f9ab6c",
         "origin": "translated"
       },
       "fr": {
-        "hash": "26852a93384de2b4",
+        "hash": "42f1a77331f9ab6c",
         "origin": "translated"
       },
       "it": {
-        "hash": "26852a93384de2b4",
+        "hash": "42f1a77331f9ab6c",
         "origin": "translated"
       }
     },
     "docs/produkte/Telstar-CT.md": {
       "en": {
-        "hash": "1d545e79dcee6211",
+        "hash": "7c06b1d39c3a896c",
         "origin": "translated"
       },
       "fr": {
-        "hash": "1d545e79dcee6211",
+        "hash": "7c06b1d39c3a896c",
         "origin": "translated"
       },
       "it": {
-        "hash": "1d545e79dcee6211",
+        "hash": "7c06b1d39c3a896c",
         "origin": "translated"
       }
     },
@@ -1528,71 +1528,71 @@
     },
     "docs/produkte/lora-gateway-software.md": {
       "en": {
-        "hash": "c428dfed7a1d9159",
+        "hash": "7ad3d6ee70baf31b",
         "origin": "translated"
       },
       "fr": {
-        "hash": "c428dfed7a1d9159",
+        "hash": "7ad3d6ee70baf31b",
         "origin": "translated"
       },
       "it": {
-        "hash": "c428dfed7a1d9159",
+        "hash": "7ad3d6ee70baf31b",
         "origin": "translated"
       }
     },
     "docs/produkte/m-bus-gateway.md": {
       "en": {
-        "hash": "d5504278f32dd305",
+        "hash": "0eda91c3455c7e99",
         "origin": "translated"
       },
       "fr": {
-        "hash": "d5504278f32dd305",
+        "hash": "0eda91c3455c7e99",
         "origin": "translated"
       },
       "it": {
-        "hash": "d5504278f32dd305",
+        "hash": "0eda91c3455c7e99",
         "origin": "translated"
       }
     },
     "docs/produkte/nimbus.md": {
       "en": {
-        "hash": "1f9771324c89b7ad",
+        "hash": "d3b3c34fe4369766",
         "origin": "translated"
       },
       "fr": {
-        "hash": "1f9771324c89b7ad",
+        "hash": "d3b3c34fe4369766",
         "origin": "translated"
       },
       "it": {
-        "hash": "1f9771324c89b7ad",
+        "hash": "d3b3c34fe4369766",
         "origin": "translated"
       }
     },
     "docs/produkte/pico-ladestation-exa.md": {
       "en": {
-        "hash": "cf0134c9124885d7",
+        "hash": "f3f91b5ba42bff31",
         "origin": "translated"
       },
       "fr": {
-        "hash": "cf0134c9124885d7",
+        "hash": "f3f91b5ba42bff31",
         "origin": "translated"
       },
       "it": {
-        "hash": "cf0134c9124885d7",
+        "hash": "f3f91b5ba42bff31",
         "origin": "translated"
       }
     },
     "docs/produkte/pico-ladestation/index.md": {
       "en": {
-        "hash": "4db29d51443f02e3",
+        "hash": "ae2449d43b1db4f3",
         "origin": "translated"
       },
       "fr": {
-        "hash": "4db29d51443f02e3",
+        "hash": "ae2449d43b1db4f3",
         "origin": "translated"
       },
       "it": {
-        "hash": "4db29d51443f02e3",
+        "hash": "ae2449d43b1db4f3",
         "origin": "translated"
       }
     },
@@ -1696,29 +1696,29 @@
     },
     "docs/produkte/smart-eye.md": {
       "en": {
-        "hash": "097bcd7877cf7a12",
+        "hash": "986e41058d39fccd",
         "origin": "translated"
       },
       "fr": {
-        "hash": "097bcd7877cf7a12",
+        "hash": "986e41058d39fccd",
         "origin": "translated"
       },
       "it": {
-        "hash": "097bcd7877cf7a12",
+        "hash": "986e41058d39fccd",
         "origin": "translated"
       }
     },
     "docs/produkte/telstar.md": {
       "en": {
-        "hash": "3a2fbe5be11ec9a3",
+        "hash": "205b03bc6e48b70c",
         "origin": "translated"
       },
       "fr": {
-        "hash": "3a2fbe5be11ec9a3",
+        "hash": "205b03bc6e48b70c",
         "origin": "translated"
       },
       "it": {
-        "hash": "3a2fbe5be11ec9a3",
+        "hash": "205b03bc6e48b70c",
         "origin": "translated"
       }
     },
@@ -1752,15 +1752,15 @@
     },
     "docs/schnittstellen/api.md": {
       "en": {
-        "hash": "337cedf45ad09efd",
+        "hash": "f354e5b7ad8c65a8",
         "origin": "translated"
       },
       "fr": {
-        "hash": "337cedf45ad09efd",
+        "hash": "f354e5b7ad8c65a8",
         "origin": "translated"
       },
       "it": {
-        "hash": "337cedf45ad09efd",
+        "hash": "f354e5b7ad8c65a8",
         "origin": "translated"
       }
     },
@@ -1892,15 +1892,15 @@
     },
     "docs/schnittstellen/modbus-tcp.md": {
       "en": {
-        "hash": "17c4979391776b8d",
+        "hash": "cd5d5ea1fd88214c",
         "origin": "translated"
       },
       "fr": {
-        "hash": "17c4979391776b8d",
+        "hash": "cd5d5ea1fd88214c",
         "origin": "translated"
       },
       "it": {
-        "hash": "17c4979391776b8d",
+        "hash": "cd5d5ea1fd88214c",
         "origin": "translated"
       }
     },

@@ -11,22 +11,22 @@ For commercial use and a higher rate limit, the Professional license is required
 
 ## API description
 
-The API interface provides simple and secure access to the data of smart-me devices and the platform. Through this interface, consumption data, device status, measured values and further information can be retrieved in real time and integrated into external systems.
+The API interface provides simple and secure access to the data of smart-me devices and the platform. Through this interface, consumption data, device status, measured values and other information can be retrieved in real time and integrated into external systems.
 
 All API calls are documented on the following page: [smart-me API](https://api.smart-me.com/swagger/index.html)
 
-### Obis Codes
+### Obis codes
 
-Obis codes are standardized identifiers for measured values in energy meters. Each Obis code uniquely describes which value is measured (e.g. current electricity consumption, meter reading, voltage per phase).
+Obis codes are standardized identifiers for measured values in energy meters. Each Obis code uniquely describes which value is measured (e.g. current power consumption, meter reading, voltage per phase).
 
-[Obis Codes (Excel)](https://drive.google.com/open?id=1eTs4ZXD9AUagGxNEQSof0IWHkZg54nsK6SyHp4ygDSc&authuser=0)
+[Obis codes (Excel)](https://drive.google.com/open?id=1eTs4ZXD9AUagGxNEQSof0IWHkZg54nsK6SyHp4ygDSc&authuser=0)
 
-Tip for decoding: On this [website](https://www.kbr.de/de/obis-kennzeichen/obis-kennzeichen#obis-kennzeichensystem) you can read up on the logic behind the coding. If you click on a medium there, you will see what each digit of the code stands for. 
+Decoding tip: On this [website](https://www.kbr.de/de/obis-kennzeichen/obis-kennzeichen#obis-kennzeichensystem) you can read up on how the coding system works. If you click on a medium there, you can see what each digit of the code stands for. 
 
 ### DeviceID
 
-The DeviceID is a unique, name-independent assignment to a measuring point.
-It is stated both in the API and in the [system health](/stoerungsbehebung/systemgesundheit) (Professional feature)
+The DeviceID is a unique, name-independent identifier assigned to a metering point.
+It is shown both in the API and in [System health](/stoerungsbehebung/systemgesundheit) (Professional feature)
 
 ![API – Figure 1](/img/schnittstellen-api/01.png)
 
@@ -34,19 +34,19 @@ It is stated both in the API and in the [system health](/stoerungsbehebung/syste
 
 ### Basic Auth (not recommended / deprecated)
 
-Basic Auth is currently possible as authentication. However, this option will be removed in the medium term due to insufficient security. API keys are the recommended alternative.
+Basic Auth is currently available as an authentication method. However, this option will be removed in the medium term due to insufficient security. API keys are the recommended alternative.
 The client secret is username:password encoded in Base64.
 
-Every call to the API must contain the authentication in the HTTP header: Authorization: Basic &lt;client secret>
+Every API call must include the authentication in the HTTP header: Authorization: Basic &lt;client secret>
 
 Example:
 curl -X "PUT" "https://api.smart-me.com/Devices/6a7fae30-c598-4778-8f1f-a14620550274" -H "accept: \*/\*" -H "Authorization: Basic d2VyX2Rhc19sZXNlbl9rYW5uOmhhdF96dXZpZWxfemVpdA=="
 
 ### API Keys (recommended)
 
-API keys allow authentication similar to Basic Auth for simple access to an account. A key is created in the smart-me portal and given certain permissions (claims (see below)). The key can then be added to the HTTP header, similar to the Basic Auth secret. 
+API keys allow authentication similar to Basic Auth for simple access to an account. A key is created in the smart-me portal and given certain permissions (claims, see below). The key can then be added to the HTTP header in the same way as the Basic Auth secret. 
 
-Every call to the API must contain the authentication in the HTTP header: Authorization: ApiKey &lt;api key>
+Every API call must include the authentication in the HTTP header: Authorization: ApiKey &lt;api key>
 
 Example:
 curl -X "PUT" "https://api.smart-me.com/Devices/6a7fae30-c598-4778-8f1f-a14620550274" -H "accept: \*/\*" -H "Authorization: ApiKey MTRH5eUjFXV8U4i1viZF2jHNoUNsnDTx"
@@ -61,7 +61,7 @@ Keys can be created in the web portal under API, Api Keys:
 
 Both ApiKeys and oAuth 2.0 support claims in order to grant only limited permissions.
 
-You can find a list of the endpoint-to-claims mapping here: 
+A list mapping the endpoints to claims can be found here: 
 
 [](https://drive.google.com/open?id=1b2bYdjBi4iCf7fUxpEPO9e8DNuhtEvA4_wIDKAJsiq0 "Open Spreadsheet, Claims in new window")
 
@@ -71,7 +71,7 @@ Claims
 
 ## OAuth 2.0 (recommended)
 
-smart-me supports the OAuth 2.0 authorization framework. External applications can request access to an account without knowing the login credentials. You will find further information below.
+smart-me supports the OAuth 2.0 authorization framework. External applications can request access to an account without knowing the login credentials. You can find more information below.
 
 ### OAuth information
 
@@ -79,9 +79,9 @@ smart-me supports the OAuth 2.0 authorization framework. External applications c
 
 ### Setting up OAuth in the smart-me portal
 
-The prerequisite for using oAuth is an account with the professional [license model](/planung/cloud-lizenzen). If you do not yet have an account with the Professional license model, you have to purchase 1 license.
+To use oAuth, you need an account with the Professional [license model](/planung/cloud-lizenzen). If you do not yet have an account with the Professional license model, you need to purchase 1 license.
 
-- [Login to the smart-me portal](https://www.smart-me.com/Login.aspx)
+- [Log in to the smart-me portal](https://www.smart-me.com/Login.aspx)
 
 - On the left, click API
 
@@ -92,23 +92,23 @@ Adding oAuth applications
 
 - Confidential (limited to 3 client IDs)
 
-    - Client ID and client secret are generated
+    - A client ID and client secret are generated
 
-    - For confidential applications that can keep the password (secret) safe.
+    - For confidential applications that can store the password (secret) securely.
 
-    - We recommend using the "Authorization Code Flow with PKCE" and "Device Code Flow".
+    - We recommend using the "Authorization Code Flow with PKCE" and the "Device Code Flow".
 
 - Public (limited to 3 client IDs)
 
-    - Client ID is generated
+    - A client ID is generated
 
     - For public applications that cannot keep the secret confidential, e.g. web or mobile apps.
 
-    - We recommend using the "Authorization Code Flow with PKCE" and "Device Code Flow"
+    - We recommend using the "Authorization Code Flow with PKCE" and the "Device Code Flow"
 
 - Device (limited to 50 client IDs)
 
-    - Client ID and client secret are generated
+    - A client ID and client secret are generated
 
     - Can be used as a replacement for Basic Authentication in embedded devices that have no graphical interface.
 
@@ -128,7 +128,7 @@ Required information:
 
 ### Grants & Endpoints
 
-The implementation of OAuth is not described in our wiki. On this page you will find the information needed to implement oAuth: [https://oauth.net/2/](https://oauth.net/2/) 
+The implementation of OAuth is not described in our wiki. You can find the information needed to implement oAuth on this page: [https://oauth.net/2/](https://oauth.net/2/) 
 
 Supported Grants (Flows) for oAuth Confidential and Public Applications:
 
@@ -156,7 +156,7 @@ smart-me Endpoints
 
 ## Real-time API (webhook)
 
-The smart-me real-time API (webhooks) lets you subscribe to new data from a device. You can subscribe for a single device or for all devices of a user. When a device sends new data to the cloud, a webhook sends this data as a POST request to a newly configured URL. You will find further information [here](https://www.smart-me.com/Description/api/realtimeapi.aspx).
+The smart-me real-time API (webhooks) allows you to subscribe to new data from a device. You can subscribe to a single device or to all devices of a user. When a device sends new data to the cloud, a webhook sends this data as a POST request to a newly configured URL. You can find more information [here](https://www.smart-me.com/Description/api/realtimeapi.aspx).
 
 Proto file
 
@@ -246,9 +246,9 @@ message DeviceValue {
 }
 ```
 
-## Gold partner - API
+## Goldpartner - API
 
-To be able to use our API - gold partner, you must have the smart-me gold partner license model. Further information about this license model can be requested from sales.
+To be able to use our Goldpartner API, you need the smart-me Goldpartner license model. Further information about this license model can be requested from our sales team.
 
 ### Endpoints
 
@@ -390,7 +390,7 @@ PartnerVisualization
 
 ### REST API Samples
 
-With this you can retrieve any data sets that we make available. [https://api.smart-me.com/swagger/index.html](https://api.smart-me.com/swagger/index.html) 
+This lets you retrieve any of the data sets we provide. [https://api.smart-me.com/swagger/index.html](https://api.smart-me.com/swagger/index.html) 
 
 Python (controlling inputs and outputs)
 
@@ -568,7 +568,7 @@ To integrate the smart-me API functionality into your .Net application, you can 
 
 ## Real-time API (webhook) examples
 
-The smart-me Realtime API sends the data serialized with google protobuffer
+The smart-me Realtime API sends the data serialized with Google protobuffer
 
 Proto file
 
@@ -685,6 +685,6 @@ Device values
 
 Field 1 contains the OBIS code, field 2 contains the value.
 
-01-00-01-08-00-FF:  (1-0:1.8.0\*255): active energy total import: 1879583.2 mWh = 1879.5832 Wh
+01-00-01-08-00-FF:  (1-0:1.8.0\*255):Active energy total import: 1879583.2 mWh = 1879.5832 Wh
 
 ![API – Figure 10](/img/schnittstellen-api/10.png)

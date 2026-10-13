@@ -15,6 +15,7 @@
     "typecheck": "tsc --noEmit",
     "migrate:crawl": "tsx scripts/migration/crawl.ts",
     "migrate:convert": "tsx scripts/migration/convert.ts",
+    "migrate:neu": "tsx scripts/migration/neuimport.ts",
     "migrate:report": "tsx scripts/migration/report.ts",
     "migrate:english": "tsx scripts/migration/importEnglish.ts",
     "translate": "tsx scripts/translate.ts",

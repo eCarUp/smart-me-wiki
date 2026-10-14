@@ -18,14 +18,47 @@
  * in der Adresse und verändert deshalb nie, was ein verschickter Link zeigt.
  */
 import {useEffect, useState} from 'react';
+import {translate} from '@docusaurus/Translate';
 
-export type Land = {schluessel: string; name: string};
+export type Land = {
+  schluessel: string;
+  /**
+   * Schränkt die Wahl die Navigation ein?
+   *
+   * „Anderes Land" ist eine getroffene Wahl, die nichts ausblendet. Der
+   * Unterschied zu „noch nicht gewählt" ist wichtig: Wer sich einmal
+   * entschieden hat, soll auf der Startseite nicht wieder gefragt werden.
+   */
+  filtert: boolean;
+};
 
-/** Reihenfolge wie im Menü. */
+/** Reihenfolge wie im Menü und auf der Karte. */
 export const LAENDER: readonly Land[] = [
-  {schluessel: 'ch', name: 'Schweiz'},
-  {schluessel: 'de', name: 'Deutschland'},
+  {schluessel: 'ch', filtert: true},
+  {schluessel: 'de', filtert: true},
+  {schluessel: 'andere', filtert: false},
 ];
+
+/**
+ * Der Name eines Landes in der Sprache des Besuchers.
+ *
+ * Bewusst als Fallunterscheidung mit ausgeschriebenen Texten: Docusaurus
+ * liest die Vorgabetexte beim `write-translations` direkt aus dem Quelltext
+ * und findet nur, was wörtlich dasteht. Eine Schleife über `LAENDER` wäre
+ * kürzer, bliebe aber unübersetzt.
+ */
+export function landName(schluessel: string | null): string {
+  switch (schluessel) {
+    case 'ch':
+      return translate({id: 'land.ch', message: 'Schweiz'});
+    case 'de':
+      return translate({id: 'land.de', message: 'Deutschland'});
+    case 'andere':
+      return translate({id: 'land.andere', message: 'Anderes Land'});
+    default:
+      return translate({id: 'land.alle', message: 'Alle Länder'});
+  }
+}
 
 /** Name des Suchparameters in der Adresse: `?land=de`. */
 export const PARAMETER = 'land';
@@ -59,12 +92,19 @@ function merken(land: string | null): void {
   }
 }
 
-/** Das aktuell gewählte Land, oder `null` für „alle". */
-export function useLand(): string | null {
+/**
+ * Das aktuell gewählte Land und ob überhaupt schon nachgesehen wurde.
+ *
+ * Die Unterscheidung braucht die Startseiten-Karte: Auf dem Server und beim
+ * ersten Zeichnen im Browser ist noch nichts bekannt. Würde sie in diesem
+ * Moment erscheinen, blitzte sie bei jedem auf, der längst gewählt hat.
+ */
+export function useLandStatus(): {land: string | null; geladen: boolean} {
   // Beim ersten Zeichnen bewusst `null` – serverseitig gibt es weder Adresse
   // noch Speicher. Würde hier schon gefiltert, passte das erzeugte HTML nicht
   // zu dem, was React im Browser erwartet.
   const [land, setLand] = useState<string | null>(null);
+  const [geladen, setGeladen] = useState(false);
 
   useEffect(() => {
     const lesen = () => {
@@ -73,13 +113,19 @@ export function useLand(): string | null {
       // erhalten bleibt – dort steht der Parameter ja nicht mehr.
       if (ausDerAdresse) merken(ausDerAdresse);
       setLand(ausDerAdresse ?? ausSpeicher());
+      setGeladen(true);
     };
     lesen();
     window.addEventListener(WECHSEL, lesen);
     return () => window.removeEventListener(WECHSEL, lesen);
   }, []);
 
-  return land;
+  return {land, geladen};
+}
+
+/** Das aktuell gewählte Land, oder `null`, solange keines gewählt ist. */
+export function useLand(): string | null {
+  return useLandStatus().land;
 }
 
 /** Wählt ein Land (oder `null` für „alle") und sagt allen Bescheid. */
@@ -105,5 +151,8 @@ export function waehleLand(land: string | null): void {
  */
 export function sichtbar(laender: unknown, land: string | null): boolean {
   if (!land || !Array.isArray(laender) || laender.length === 0) return true;
+  // „Anderes Land" blendet nichts aus – wer weder in der Schweiz noch in
+  // Deutschland sitzt, soll beide Modellwelten sehen können.
+  if (!LAENDER.find((l) => l.schluessel === land)?.filtert) return true;
   return laender.includes(land);
 }

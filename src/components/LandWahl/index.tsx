@@ -9,14 +9,9 @@
  */
 import React, {useCallback, useEffect, useRef, useState} from 'react';
 import clsx from 'clsx';
-import {LAENDER, useLand, waehleLand} from '@site/src/laender';
+import {translate} from '@docusaurus/Translate';
+import {LAENDER, landName, useLand, waehleLand} from '@site/src/laender';
 import styles from './styles.module.css';
-
-const ALLE = 'Alle Länder';
-
-function beschriftung(land: string | null): string {
-  return LAENDER.find((l) => l.schluessel === land)?.name ?? ALLE;
-}
 
 type Props = {mobile?: boolean; className?: string};
 
@@ -42,8 +37,11 @@ export default function LandWahl({mobile, className}: Props): React.ReactElement
   }, []);
 
   const eintraege: {schluessel: string | null; name: string}[] = [
-    {schluessel: null, name: ALLE},
-    ...LAENDER.map((l) => ({schluessel: l.schluessel as string | null, name: l.name})),
+    {schluessel: null, name: landName(null)},
+    ...LAENDER.map((l) => ({
+      schluessel: l.schluessel as string | null,
+      name: landName(l.schluessel),
+    })),
   ];
 
   // Im ausgeklappten Menü auf schmalen Fenstern gibt es kein Dropdown –
@@ -51,7 +49,9 @@ export default function LandWahl({mobile, className}: Props): React.ReactElement
   if (mobile) {
     return (
       <div className={clsx('menu__list-item', className)}>
-        <div className="menu__link menu__link--sublist menu__link--sublist-caret">Land</div>
+        <div className="menu__link menu__link--sublist menu__link--sublist-caret">
+          {translate({id: 'landwahl.ueberschrift', message: 'Land'})}
+        </div>
         <ul className="menu__list">
           {eintraege.map((e) => (
             <li className="menu__list-item" key={e.name}>
@@ -99,7 +99,7 @@ export default function LandWahl({mobile, className}: Props): React.ReactElement
           e.preventDefault();
           setOffen((z) => !z);
         }}>
-        {beschriftung(land)}
+        {landName(land)}
       </a>
       <ul className="dropdown__menu">
         {eintraege.map((e) => (

@@ -1,0 +1,40 @@
+/*
+ * Bewusst ohne Infimas `card`-Klasse: die setzt `flex-direction: column` und
+ * gewinnt bei gleicher Spezifität je nach Reihenfolge der Stylesheets. Die
+ * paar Zeilen Rahmen und Ecken sind billiger als dieser Kampf.
+ */
+.karte {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1.5rem;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  padding: 1rem 1.25rem;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: var(--ifm-card-border-radius, 0.4rem);
+  background: var(--ifm-color-emphasis-100);
+}
+
+/* Wächst mit, bricht aber unter ~20rem auf eine eigene Zeile um. */
+.text {
+  flex: 1 1 20rem;
+  min-width: 0;
+}
+
+.titel {
+  display: block;
+}
+
+.erklaerung {
+  margin: 0.25rem 0 0;
+  color: var(--ifm-color-emphasis-700);
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+.knoepfe {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}

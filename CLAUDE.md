@@ -163,6 +163,20 @@ Wert, sonst „alle"). Gefiltert wird nur die Navigation: über Suche und direkt
 Links bleibt jede Seite erreichbar. Länderspezifische Seiten sagen deshalb im
 ersten Absatz selbst, für welches Land sie gelten.
 
+`src/components/LandKarte/` ist die Karte auf der Startseite; eingehängt wird
+sie über `src/theme/DocItem/Content/`, nicht im Markdown, damit sie in allen
+vier Sprachen steht. Sie erscheint nur, solange nichts gewählt ist. Ein Land
+mit `filtert: false` (heute „Anderes Land") zählt als getroffene Wahl, blendet
+aber nichts aus — so kommt die Karte nicht wieder, ohne dass etwas verschwindet.
+
+Die Ländernamen und die Texte der Karte stehen als `translate({id, message})`
+im Quelltext und werden über `i18n/<sprache>/code.json` übersetzt. Diese drei
+Dateien fasst `scripts/translate.ts` **nicht** an. Nach einer Änderung an einem
+Komponententext: `npm run write-translations -- --locale <en|fr|it>`, dann die
+neuen Schlüssel von Hand übersetzen. `write-translations` liest die Vorgabetexte
+statisch aus dem Quelltext — deshalb steht in `landName()` eine ausgeschriebene
+Fallunterscheidung und keine Schleife über `LAENDER`.
+
 ## Build
 
 `npm run build` baut alle vier Sprachen und bricht bei defekten internen Links

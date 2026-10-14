@@ -476,6 +476,51 @@ führt. **Schreib deshalb in länderspezifische Seiten einen Satz, für welches
 Land sie gelten**, gleich in den ersten Absatz. Wer über die Suche kommt, sieht
 den Filter nicht.
 
+### Die Karte auf der Startseite
+
+Wer das Wiki zum ersten Mal öffnet, sieht oben auf der Startseite eine Karte
+mit der Frage, für welches Land er Antworten sucht. Sie verschwindet, sobald
+einmal gewählt wurde — auch bei „Anderes Land", denn das ist eine Wahl wie jede
+andere, sie blendet nur nichts aus. Sie versperrt nichts: Wer sie übergeht,
+liest einfach weiter und sieht alles.
+
+Die Karte steht in `src/components/LandKarte/`. Eingehängt wird sie in
+`src/theme/DocItem/Content/`, nicht im Text der Startseite — so steht sie in
+allen vier Sprachen, ohne dass jemand sie viermal pflegen muss.
+
+### Die Beschriftungen ändern oder ein Land ergänzen
+
+Die Länder stehen in `src/laender/index.ts`. Ein neues Land braucht dort zwei
+Dinge: einen Eintrag in `LAENDER` und einen Fall in `landName`.
+
+```ts
+export const LAENDER: readonly Land[] = [
+  {schluessel: 'ch', filtert: true},
+  {schluessel: 'de', filtert: true},
+  {schluessel: 'fr', filtert: true},   // neu
+  {schluessel: 'andere', filtert: false},
+];
+```
+
+`filtert: false` heisst: Diese Wahl zählt als getroffen, blendet aber nichts
+aus. Das ist genau der Fall „Anderes Land".
+
+Alle sichtbaren Texte der Komponenten — die Ländernamen, „Alle Länder", die
+Frage auf der Karte — liegen in `i18n/en/code.json`, `i18n/fr/code.json` und
+`i18n/it/code.json`. **Diese drei Dateien übersetzt `npm run translate` nicht**;
+das Skript kümmert sich nur um die Seiten unter `docs/`. Nach einer Änderung an
+einem Komponententext also:
+
+```bash
+npm run write-translations -- --locale en
+npm run write-translations -- --locale fr
+npm run write-translations -- --locale it
+```
+
+Das trägt neue Schlüssel mit dem deutschen Text als Platzhalter ein; die
+Übersetzung schreibst du anschliessend von Hand hinein. Bestehende Einträge
+lässt der Befehl in Ruhe.
+
 ---
 
 ## Eine neue Seite anlegen
@@ -873,6 +918,13 @@ Ist eine Übersetzung falsch, gibt es zwei richtige Wege:
   stehen Begriffe, die nie übersetzt werden (Produktnamen wie *Pico* oder
   *Nimbus*) und solche mit einer festen Übersetzung (*ZEV* heisst auf
   Französisch immer *RCP*). Das Glossar gilt ab dann für alle Seiten.
+
+**Eine Ausnahme:** die drei `code.json` direkt in `i18n/en/`, `i18n/fr/` und
+`i18n/it/`. Darin stehen die Beschriftungen der Bedienelemente — Ländernamen,
+„Alle Länder", die Frage auf der Startseite. Die rührt die automatische
+Übersetzung nicht an, die werden von Hand gepflegt (siehe „Die Beschriftungen
+ändern oder ein Land ergänzen"). Alles unterhalb von
+`i18n/<sprache>/docusaurus-plugin-content-docs/` bleibt tabu.
 
 ### Den `slug` nicht ändern
 

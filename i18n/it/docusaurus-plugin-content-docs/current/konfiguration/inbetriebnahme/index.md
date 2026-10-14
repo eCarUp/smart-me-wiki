@@ -137,7 +137,7 @@ Collega lo smartphone alla stessa rete WLAN a 2,4 GHz a cui verranno collegati i
 
 <div className="text--center">
 
-![Modulo di registrazione dell'app con e-mail, password e conferma](/img/konfiguration-inbetriebnahme/04.jpg)
+![Modulo di registrazione dell'app con e-mail, password e conferma](/img/konfiguration-inbetriebnahme/04_EN.jpg)
 
 </div>
 
@@ -153,7 +153,7 @@ Collega lo smartphone alla stessa rete WLAN a 2,4 GHz a cui verranno collegati i
 
 <div className="text--center">
 
-![Modulo di accesso dell'app con e-mail e password](/img/konfiguration-inbetriebnahme/05.jpg)
+![Modulo di accesso dell'app con e-mail e password](/img/konfiguration-inbetriebnahme/05_EN.jpg)
 
 </div>
 
@@ -181,7 +181,7 @@ Se compare l'avviso relativo alla rete a 5 GHz, deve essere disponibile anche un
 
 <div className="text--center">
 
-![Elenco dei dispositivi vuoto dell'app con il pulsante più in basso a destra](/img/konfiguration-inbetriebnahme/07.jpg)
+![Elenco dei dispositivi vuoto dell'app con il pulsante più in basso a destra](/img/konfiguration-inbetriebnahme/07_EN.jpg)
 
 </div>
 
@@ -195,7 +195,7 @@ Se compare l'avviso relativo alla rete a 5 GHz, deve essere disponibile anche un
 
 <div className="text--center">
 
-![Elenco dei dispositivi con Modifica evidenziato in verde accanto al WLAN di installazione](/img/konfiguration-inbetriebnahme/08.jpg)
+![Elenco dei dispositivi con Modifica evidenziato in verde accanto al WLAN di installazione](/img/konfiguration-inbetriebnahme/08_EN.jpg)
 
 </div>
 
@@ -208,7 +208,7 @@ Se compare l'avviso relativo alla rete a 5 GHz, deve essere disponibile anche un
 
 <div className="text--center">
 
-![Campo di inserimento per la password del WLAN di installazione](/img/konfiguration-inbetriebnahme/09.jpg)
+![Campo di inserimento per la password del WLAN di installazione](/img/konfiguration-inbetriebnahme/09_EN.jpg)
 
 </div>
 
@@ -273,7 +273,7 @@ Se compare l'avviso relativo alla rete a 5 GHz, deve essere disponibile anche un
 
 <div className="text--center">
 
-![Istruzioni con disegno per tenere premuto il tasto T1 sul dispositivo](/img/konfiguration-inbetriebnahme/14.jpg)
+![Istruzioni con disegno per tenere premuto il tasto T1 sul dispositivo](/img/konfiguration-inbetriebnahme/14_EN.jpg)
 
 </div>
 
@@ -311,7 +311,7 @@ Se compare l'avviso relativo alla rete a 5 GHz, deve essere disponibile anche un
 </div>
 <div className="col col--4 text--center">
 
-![Dettagli del dispositivo nell'app con il fattore di trasformazione 200:5 e l'interruttore "Blocca fattore di trasformazione" („Wandlerfaktor sperren")](/img/konfiguration-inbetriebnahme/16.jpg)
+![Dettagli del dispositivo nell'app con il fattore di trasformazione 200:5 e l'interruttore "Blocca fattore di trasformazione" („Wandlerfaktor sperren")](/img/konfiguration-inbetriebnahme/16_EN.jpg)
 
 </div>
 </div>
@@ -503,12 +503,12 @@ In questo passaggio hai la possibilità di mettere in servizio più contatori co
 </div>
 <div className="col col--4 text--center">
 
-![Menu laterale dell'app con la voce Profilo utente (Benutzer Profil) evidenziata](/img/konfiguration-inbetriebnahme/26.jpg)
+![Menu laterale dell'app con la voce Profilo utente (Benutzer Profil) evidenziata](/img/konfiguration-inbetriebnahme/26_EN.jpg)
 
 </div>
 <div className="col col--4 text--center">
 
-![Pagina del profilo dell'app con il pulsante Esci (Abmelden) in basso](/img/konfiguration-inbetriebnahme/27.jpg)
+![Pagina del profilo dell'app con il pulsante Esci (Abmelden) in basso](/img/konfiguration-inbetriebnahme/27_EN.jpg)
 
 </div>
 </div>

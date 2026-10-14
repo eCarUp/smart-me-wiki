@@ -1,11 +1,11 @@
 ---
 title: 'Contatore monofase 32A'
 slug: '/produkte/1-phasen-zaehler-32a'
-description: 'Lo smart-me Meter è il primo contatore elettrico che può essere analizzato e comandato da qualsiasi luogo.'
+description: 'Lo smart-me Meter è il primo contatore elettrico che può essere analizzato e controllato da qualsiasi luogo.'
 sidebar_label: 'Contatore monofase 32A'
 displayed_sidebar: wikiSidebar
 ---
-Lo smart-me Meter è il primo contatore elettrico che può essere analizzato e comandato da qualsiasi luogo. Non è necessario alcun hardware aggiuntivo. Utilizza la rete WiFi esistente e si connette direttamente al smart-me Cloud. In questo modo è possibile visualizzare comodamente il proprio consumo di energia in tempo reale.
+Lo smart-me Meter è il primo contatore elettrico che può essere analizzato e controllato da qualsiasi luogo. Non è necessario alcun hardware aggiuntivo. Utilizza la rete WiFi esistente e si connette direttamente al cloud smart-me. In questo modo puoi visualizzare comodamente il tuo consumo di energia in tempo reale.
 
 Vendita cessata il 01.01.2023, assistenza e supporto cloud continuano a essere garantiti.
 
@@ -25,15 +25,15 @@ Vendita cessata il 01.01.2023, assistenza e supporto cloud continuano a essere g
 
 - Datalogger integrato per due mesi (in caso di interruzione della connessione)
 
-- Connessione diretta e crittografata al smart-me Cloud (WiFi)
+- Connessione diretta e crittografata al cloud smart-me (WiFi)
 
-- Gestione completa dell'energia nel smart-me Cloud: 
+- Gestione completa dell'energia nel cloud smart-me: 
 
     - Monitoraggio in tempo reale
 
     - fatturazione automatica ([smart-me Billing](/konfiguration/billing))
 
-    - Comando con [azioni basate su eventi](/konfiguration/wenndann-aktionen/ereignisaktionen) e [azioni se/allora](/konfiguration/wenndann-aktionen)
+    - Controllo con [azioni basate su eventi](/konfiguration/wenndann-aktionen/ereignisaktionen) e [azioni se/allora](/konfiguration/wenndann-aktionen)
 
 - Installazione semplice con l'app smart-me gratuita per [Android](https://play.google.com/store/apps/details?id=com.smart_me) e [iOS](https://apps.apple.com/ch/app/smart-me/id929146952?ign-mpt=uo%3D4)
 
@@ -52,9 +52,9 @@ Frequenza (f) 50 / 60 Hz
 
 Corrente max. 32 A (commutabile)
 
-Ingresso a impulsi E1 a potenziale zero\*, 25V - 253V AC/DC
+Ingresso a impulsi E1 a potenziale libero\*, 25V - 253V AC/DC
 
-Uscita digitale / uscita a impulsi S0 a potenziale zero\*, Opto Power MOSFET, 5-48VDC / 5- 230 VAC, max. 550mW
+Uscita digitale / uscita a impulsi S0 a potenziale libero\*, Opto Power MOSFET, 5-48VDC / 5- 230 VAC, max. 550mW
 
 \*non dispone di una propria alimentazione.
 
@@ -76,7 +76,7 @@ Autoconsumo &lt; 0.5 W
 
 ## Configurare ingressi e uscite
 
-Lo smart-me Meter dispone di un'uscita e di un ingresso, che possono essere utilizzati come ingressi e uscite a impulsi o come contatto a potenziale zero commutabile. Trovi i dettagli [qui](/schnittstellen/ein_und_ausgaenge). 
+Lo smart-me Meter dispone di un'uscita e di un ingresso, che possono essere utilizzati come ingressi e uscite a impulsi o come contatto commutabile a potenziale libero. Trovi i dettagli [qui](/schnittstellen/ein_und_ausgaenge). 
 
 ## Dimensioni e collegamenti
 
@@ -94,17 +94,17 @@ E1: commutazione tariffaria (ingresso digitale)
 
 \>25V tariffa 2
 
-S0: uscita a impulsi (contatto a potenziale zero)
+S0: uscita a impulsi (contatto a potenziale libero)
 
 ![Contatore monofase 32A – Figura 3](/img/produkte-1-phasen-zaehler-32a/03.png)
 
 ## Modificare l'intervallo di upload
 
-- accedere al portale smart-me
+- Accedere al portale smart-me
 
-- selezionare il contatore
+- Selezionare il contatore
 
-- in alto a destra selezionare la rotella dentata
+- In alto a destra, selezionare la rotella dentata
 
 - Impostazioni generali (Allgemeine Einstellungen)
 

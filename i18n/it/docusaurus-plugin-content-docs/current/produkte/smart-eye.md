@@ -1,15 +1,15 @@
 ---
 title: 'smart-eye'
 slug: '/produkte/smart-eye'
-description: 'Lo smart-eye porta nella smart-me Cloud i contatori di energia conformi al capitolato FNN per contatori di base (moderni dispositivi di misura).'
+description: 'Lo smart-eye porta nel cloud smart-me i contatori di energia conformi al capitolato FNN per contatori di base (dispositivi di misura moderni).'
 sidebar_label: 'smart-eye'
 displayed_sidebar: wikiSidebar
 ---
-Lo smart-eye porta nella smart-me Cloud i contatori di energia conformi al capitolato FNN per contatori di base (moderni dispositivi di misura). A tale scopo lo smart-eye viene applicato sull'interfaccia dati ottica INFO. In questo modo i dati energetici vengono trasmessi alla smart-me Cloud tramite la rete WiFi locale. Tramite app o login online è possibile consultare quasi in tempo reale le visualizzazioni dei consumi ed eventualmente anche dati rilevanti per l'esercizio della rete, come frequenza, tensione o corrente.
+Lo smart-eye porta nel cloud smart-me i contatori di energia conformi al capitolato FNN per contatori di base (dispositivi di misura moderni). A tale scopo, lo smart-eye viene applicato sull'interfaccia dati ottica INFO. In questo modo i dati energetici vengono trasmessi al cloud smart-me tramite la rete WiFi locale. Tramite app o login online è possibile consultare quasi in tempo reale le visualizzazioni dei consumi ed eventualmente dati rilevanti per l'esercizio della rete, come frequenza, tensione o corrente.
 
-Vendita sospesa il 30.03.2021, l'assistenza e il supporto cloud sono garantiti fino al 30.03.2025.
+Vendita cessata il 30.03.2021, il supporto e il servizio cloud sono garantiti fino al 30.03.2025.
 
-Il sistema smart-me è multisettoriale: è possibile leggere anche i valori di misura di altri contatori, come ad esempio i contatori del gas, e integrarli nella gestione dell'energia. Inoltre, a seconda del tipo di contatore, lo smart-eye può inserire automaticamente il codice PIN per lo sblocco del set di dati esteso. 
+Il sistema smart-me è multi-vettore: anche i valori di misura di altri contatori, come ad es. i contatori del gas, possono essere letti e integrati nella gestione dell'energia. Inoltre, a seconda del tipo di contatore, lo smart-eye può inserire automaticamente il codice PIN per lo sblocco del set di dati esteso. 
 
 ![smart-eye – Figura 1](/img/produkte-smart-eye/01.jpg)
 
@@ -21,11 +21,11 @@ Il sistema smart-me è multisettoriale: è possibile leggere anche i valori di m
 
 - Datalogger: memorizzazione dei valori di misura in caso di interruzione della connessione e sincronizzazione automatica con il cloud al ripristino della connessione
 
-- Connessione WiFi crittografata alla smart-me Cloud
+- Connessione WiFi crittografata al cloud smart-me
 
-- Gestione completa dell'energia, fatturazione automatica, comando e allarmi tramite la smart-me Cloud
+- Gestione completa dell'energia, fatturazione automatica, comando e allarmi tramite il cloud smart-me
 
-- Installazione semplice con l'app gratuita smart-me per Android e iOS
+- Installazione semplice con l'app smart-me gratuita per Android e iOS
 
 
 <Video src="0bvtbGs8G94" title="Video YouTube, smart eye per contatori di base FNN" />
@@ -54,13 +54,13 @@ Dimensioni 34x34x25.5 mm
 
 Peso 40 g 
 
-Intervallo di temperatura −40°C fino a 70°C
+Intervallo di temperatura da −40°C a 70°C
 
 Montaggio magnetico
 
 ## Contatori testati
 
-[](https://drive.google.com/open?id=1WURxhIS6zPpfSeOv-tfZqnRQKIBkGNP9x4_n1r5iVds "Apri il foglio di calcolo Contatori testati in una nuova finestra")
+[](https://drive.google.com/open?id=1WURxhIS6zPpfSeOv-tfZqnRQKIBkGNP9x4_n1r5iVds "Apri foglio di calcolo, Contatori testati in una nuova finestra")
 
 <Embed src="https://docs.google.com/spreadsheets/d/1WURxhIS6zPpfSeOv-tfZqnRQKIBkGNP9x4_n1r5iVds/htmlembed?gid=0" height="493px" title="Foglio di calcolo, Contatori testati" />
 
@@ -68,15 +68,15 @@ Contatori testati
 
 ## Codici di lampeggio LED
 
-[](https://drive.google.com/open?id=10sNiDg0g8cwomZ-aEWn7gpCKbZLiay4X1O_fOJmM-QY "Apri il foglio di calcolo Codici di lampeggio LED smart-eye in una nuova finestra")
+[](https://drive.google.com/open?id=10sNiDg0g8cwomZ-aEWn7gpCKbZLiay4X1O_fOJmM-QY "Apri foglio di calcolo, codici di lampeggio LED smart-eye in una nuova finestra")
 
-<Embed src="https://docs.google.com/spreadsheets/d/10sNiDg0g8cwomZ-aEWn7gpCKbZLiay4X1O_fOJmM-QY/htmlembed" height="216px" title="Foglio di calcolo, Codici di lampeggio LED smart-eye" />
+<Embed src="https://docs.google.com/spreadsheets/d/10sNiDg0g8cwomZ-aEWn7gpCKbZLiay4X1O_fOJmM-QY/htmlembed" height="216px" title="Foglio di calcolo, codici di lampeggio LED smart-eye" />
 
 Codici di lampeggio LED smart-eye
 
 Modificare l'intervallo di upload
 
-- Accedere al portale smart-me
+- Effettuare il login nel portale smart-me
 
 - Selezionare il contatore
 

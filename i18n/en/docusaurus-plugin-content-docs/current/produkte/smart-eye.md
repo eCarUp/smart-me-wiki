@@ -5,21 +5,21 @@ description: 'The smart-eye brings energy meters compliant with the FNN specific
 sidebar_label: 'smart-eye'
 displayed_sidebar: wikiSidebar
 ---
-The smart-eye brings energy meters compliant with the FNN specification for basic meters (modern metering devices) into the smart-me Cloud. For this purpose, the smart-eye is attached to the optical INFO data interface. The energy data is then transmitted to the smart-me Cloud via local WiFi. Via the app or online login, consumption visualizations and, where applicable, grid-relevant data such as frequency, voltage or current can be accessed in near real time.
+The smart-eye brings energy meters compliant with the FNN specification for basic meters (modern metering devices) into the smart-me Cloud. To do this, the smart-eye is attached to the optical INFO data interface. The energy data is then transmitted to the smart-me Cloud via the local WiFi. Via the app or online login, consumption visualizations and, where applicable, grid-relevant data such as frequency, voltage or current can be accessed in near real time.
 
 Sales discontinued on 30.03.2021, support and cloud support are guaranteed until 30.03.2025.
 
-The smart-me system is multi-utility capable: the measured values of other meters, such as gas meters, can also be read and integrated into energy management. In addition, depending on the meter type, the smart-eye can automatically enter the PIN code to unlock the extended data set. 
+The smart-me system is multi-utility capable: the readings of other meters such as gas meters can also be read and integrated into energy management. In addition, depending on the meter type, the smart-eye can automatically enter the PIN code for unlocking the extended data set. 
 
 ![smart-eye – Figure 1](/img/produkte-smart-eye/01.jpg)
 
-## Functions
+## Features
 
 - Real-time visualization of meter data
 
 - Automatic storage of meter readings in the cloud
 
-- Data logger: storage of measured values during connection failures and automatic synchronization with the cloud once the connection is restored
+- Data logger: storage of readings during connection loss and automatic synchronization with the cloud once the connection is restored
 
 - Encrypted WiFi connection to the smart-me Cloud
 

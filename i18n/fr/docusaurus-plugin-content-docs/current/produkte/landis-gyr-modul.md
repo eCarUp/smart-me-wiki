@@ -1,11 +1,11 @@
 ---
 title: 'Module Landis+Gyr'
 slug: '/produkte/landis-gyr-modul'
-description: 'Vente arrêtée le 30.04.2021, le support et l''assistance cloud sont assurés jusqu''au 30.03.2025.'
+description: 'Vente arrêtée le 30.04.2021, le support et l''assistance cloud sont garantis jusqu''au 30.03.2025.'
 sidebar_label: 'Module Landis+Gyr'
 displayed_sidebar: wikiSidebar
 ---
-Vente arrêtée le 30.04.2021, le support et l'assistance cloud sont assurés jusqu'au 30.03.2025.
+Vente arrêtée le 30.04.2021, le support et l'assistance cloud sont garantis jusqu'au 30.03.2025.
 
 Le module Landis+Gyr transmet les données de mesure des compteurs d'énergie L+G E450 et E350 au smart-me Cloud.
 
@@ -17,19 +17,19 @@ Avec un abonnement Professional, les valeurs du compteur peuvent également êtr
 
 ## Fonctions
 
-- Visualisation en temps réel de la puissance, du relevé du compteur total (soutirage et injection), des tarifs 1 et 2, de la puissance réactive et de l'énergie réactive
+- Visualisation en temps réel de la puissance, du relevé du compteur total (soutirage et injection), du tarif 1 et 2, de la puissance réactive et de l'énergie réactive
 
 - Enregistrement automatique des relevés du compteur dans le cloud
 
-- Enregistrement et synchronisation automatique des valeurs mesurées en cas de coupure de connexion
+- Enregistrement et synchronisation automatique des valeurs de mesure en cas de perte de connexion
 
 - Sortie de contact pour la commande d'appareils externes
 
-- Connexion WLAN chiffrée directement au smart-me Cloud
+- Connexion WLAN chiffrée directement vers le smart-me Cloud
 
 - Gestion complète des données énergétiques, facturation automatique ainsi que commande et alarmes via le smart-me Cloud
 
-- Installation simple avec l'app smart-me gratuite pour Android et iOS
+- Installation simple avec l'application smart-me gratuite pour Android et iOS
 
 
 ### Vidéo : installation
@@ -39,11 +39,11 @@ La pile peut être retirée après la mise en service, car le module est aliment
 
 <Video src="35_hjsvRtwM" title="Vidéo YouTube, smart-me pour Landis+Gyr" />
 
-## Caractéristiques techniques
+## Données techniques
 
 Compteurs pris en charge L+G E450 et L+G E350 avec module E35C                  
 
-Intervalle de téléversement 5 secondes             
+Intervalle de transmission 5 secondes             
 
 Tension de service fournie par le compteur 
 
@@ -55,9 +55,9 @@ Mise à jour du firmware possible en ligne
 
 Certification du produit CE
 
-Norme WiFi 802.11 b/g/n
+Standard WiFi 802.11 b/g/n
 
-Norme de sécurité WiFi WEP, WPA, WPA2 (Personal)
+Standard de sécurité WiFi WEP, WPA, WPA2 (Personal)
 
 Dimensions 84 × 40 × 23 mm
 
@@ -65,10 +65,10 @@ Poids 37 g
 
 Plage de température −40°C à 70°C
 
-Montage à côté du compteur L+G ou sur celui-ci
+Montage à côté ou sur le compteur L+G
 
 
-Remarque : une pile 9V (bloc 9 volts) est brièvement nécessaire pour l'installation. 
+Remarque : pour l'installation, une pile 9V (pile bloc 9 volts) est nécessaire pendant un court instant. 
 
 ## Configuration de l'interface CII
 
@@ -78,13 +78,13 @@ L'interface CII (interface client) du compteur Landis+Gyr (p. ex. E450 ou E350) 
 
 [Instructions pour la configuration de l'interface client CII (anglais)](https://drive.google.com/file/d/15xeU3fX-mRMTf9cvwNhL76seJzEdX9aS/view)
 
-## Modifier l'intervalle de téléversement
+## Modifier l'intervalle de transmission
 
 - Se connecter au portail smart-me
 
 - Sélectionner le compteur
 
-- Cliquer sur la roue dentée en haut à droite
+- En haut à droite, sélectionner la roue dentée
 
 - Paramètres généraux (Allgemeine Einstellungen)
 
@@ -93,11 +93,11 @@ L'interface CII (interface client) du compteur Landis+Gyr (p. ex. E450 ou E350) 
 
 ## Produit successeur
 
-smart-me ne propose pas de produit successeur pour les compteurs L&G. 
+smart-me ne propose aucun produit successeur pour les compteurs L&G. 
 
-Si vous exploitez un RCP (regroupement dans le cadre de la consommation propre) smart-me et avez besoin d'une nouvelle solution pour votre mesure (p. ex. HAK), le module L&G doit être remplacé par un [Telstar 80A](/produkte/telstar) ou un [Telstar CT](/produkte/Telstar-CT).
+Si vous exploitez un RCP (regroupement dans le cadre de la consommation propre) smart-me et avez besoin d'une nouvelle solution pour votre mesure (p. ex. coffret de raccordement), le module L&G doit être remplacé par un [Telstar 80A](/produkte/telstar) ou un [Telstar CT](/produkte/Telstar-CT).
 
-Si des mesures sont effectuées dans le domaine privé pour le monitoring, la domotique, etc., le [Telstar 80A](/produkte/telstar) ou le [Telstar CT](/produkte/Telstar-CT) peut être installé à tout moment. Si vous cherchez une solution avec votre compteur L&G existant, nous vous recommandons de consulter cette page. [https://gplug.ch/](https://gplug.ch/)
+Si des mesures sont effectuées dans un cadre privé pour le monitoring, la domotique, etc., le [Telstar 80A](/produkte/telstar) ou le [Telstar CT](/produkte/Telstar-CT) peut être installé à tout moment. Si vous cherchez une solution avec votre compteur L&G existant, nous vous recommandons de consulter cette page. [https://gplug.ch/](https://gplug.ch/)
 
 ## Téléchargements
 

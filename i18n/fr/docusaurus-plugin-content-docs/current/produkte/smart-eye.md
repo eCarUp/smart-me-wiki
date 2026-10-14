@@ -1,15 +1,15 @@
 ---
 title: 'smart-eye'
 slug: '/produkte/smart-eye'
-description: 'Le smart-eye connecte au smart-me Cloud les compteurs d''énergie conformes au cahier des charges FNN pour compteurs de base (systèmes de mesure modernes).'
+description: 'Le smart-eye intègre dans le cloud smart-me les compteurs d''énergie conformes au cahier des charges FNN pour compteurs de base (dispositifs de mesure modernes).'
 sidebar_label: 'smart-eye'
 displayed_sidebar: wikiSidebar
 ---
-Le smart-eye connecte au smart-me Cloud les compteurs d'énergie conformes au cahier des charges FNN pour compteurs de base (systèmes de mesure modernes). Pour cela, le smart-eye est fixé sur l'interface de données optique INFO. Les données énergétiques sont ainsi transmises au smart-me Cloud via le WiFi local. Via l'app ou la connexion en ligne, vous pouvez consulter quasiment en temps réel des visualisations de la consommation ainsi que, le cas échéant, des données utiles à l'exploitation du réseau, comme la fréquence, la tension ou le courant.
+Le smart-eye intègre dans le cloud smart-me les compteurs d'énergie conformes au cahier des charges FNN pour compteurs de base (dispositifs de mesure modernes). Pour ce faire, le smart-eye est fixé sur l'interface optique de données INFO. Les données énergétiques sont ainsi transmises au cloud smart-me via le WiFi local. Via l'app ou la connexion en ligne, vous pouvez consulter quasiment en temps réel des visualisations de la consommation ainsi que, le cas échéant, des données relatives à l'exploitation du réseau telles que la fréquence, la tension ou le courant.
 
 Vente arrêtée le 30.03.2021, le support et la prise en charge dans le cloud sont assurés jusqu'au 30.03.2025.
 
-Le système smart-me est multifluide : les valeurs mesurées d'autres compteurs, comme les compteurs de gaz, peuvent aussi être relevées et intégrées dans la gestion de l'énergie. De plus, selon le type de compteur, le smart-eye peut saisir automatiquement le code PIN qui débloque le jeu de données étendu. 
+Le système smart-me est multi-fluides : les valeurs de mesure d'autres compteurs, par exemple des compteurs de gaz, peuvent également être relevées et intégrées dans la gestion de l'énergie. En outre, selon le type de compteur, le smart-eye peut saisir automatiquement le code PIN permettant de débloquer le jeu de données étendu.
 
 ![smart-eye – Illustration 1](/img/produkte-smart-eye/01.jpg)
 
@@ -19,11 +19,11 @@ Le système smart-me est multifluide : les valeurs mesurées d'autres compteurs,
 
 - Enregistrement automatique des relevés du compteur dans le cloud
 
-- Enregistreur de données : stockage des valeurs mesurées en cas de coupure de connexion et synchronisation automatique avec le cloud dès le rétablissement de la connexion
+- Enregistreur de données : sauvegarde des valeurs de mesure en cas de coupure de la connexion et synchronisation automatique avec le cloud au rétablissement de la connexion
 
-- Connexion WiFi chiffrée au smart-me Cloud
+- Connexion WiFi chiffrée au cloud smart-me
 
-- Gestion complète de l'énergie, facturation automatique, commande et alarmes via le smart-me Cloud
+- Gestion complète de l'énergie, facturation automatique, commande et alarmes via le cloud smart-me
 
 - Installation simple avec l'app smart-me gratuite pour Android et iOS
 
@@ -34,17 +34,17 @@ Installation et mise en service du module smart-eye
 
 ## Caractéristiques techniques
 
-Compteurs pris en charge  tous les compteurs conformes au cahier des charges FNN pour compteurs de base                                
+Compteurs pris en charge  tous les compteurs conformes au cahier des charges FNN pour compteurs de base
 
-Tension de service interface USB type C (5V)    
+Tension de service interface USB type C (5V)
 
 Interfaces WiFi, interface INFO (communication avec le compteur)
 
-Mémoire de données 2 mois     
+Mémoire de données 2 mois
 
 Mise à jour du firmware possible en ligne
 
-Certification du produit CE     
+Certification du produit CE
 
 Norme WiFi 802.11 b/g/n
 
@@ -52,7 +52,7 @@ Norme de sécurité WiFi WEP, WPA, WPA2 (Personal)
 
 Dimensions 34x34x25.5 mm
 
-Poids 40 g 
+Poids 40 g
 
 Plage de température −40°C à 70°C
 
@@ -76,11 +76,11 @@ Codes de clignotement des LED du smart-eye
 
 Modifier l'intervalle de téléversement
 
-- Connectez-vous au portail smart-me
+- Se connecter au portail smart-me
 
-- Sélectionnez le compteur
+- Sélectionner le compteur
 
-- En haut à droite, sélectionnez la roue dentée
+- En haut à droite, sélectionner la roue dentée
 
 - Paramètres généraux (Allgemeine Einstellungen)
 

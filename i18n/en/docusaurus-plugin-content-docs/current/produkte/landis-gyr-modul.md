@@ -1,43 +1,43 @@
 ---
 title: 'Landis+Gyr Module'
 slug: '/produkte/landis-gyr-modul'
-description: 'Sales discontinued on 30.04.2021, support and cloud support are guaranteed until 30.03.2025.'
+description: 'Sales discontinued on 30.04.2021, support and cloud services are guaranteed until 30.03.2025.'
 sidebar_label: 'Landis+Gyr Module'
 displayed_sidebar: wikiSidebar
 ---
-Sales discontinued on 30.04.2021, support and cloud support are guaranteed until 30.03.2025.
+Sales discontinued on 30.04.2021, support and cloud services are guaranteed until 30.03.2025.
 
-The Landis+Gyr Module brings the measurement data of the L+G E450 and E350 energy meters into the smart-me Cloud.
+The Landis+Gyr module brings the measurement data from the L+G E450 and E350 energy meters into the smart-me Cloud.
 
-The module does not require any additional hardware. It uses the existing WiFi network and connects directly to the smart-me Cloud. This is the easiest way to analyze and optimize your energy consumption in real time on your smartphone, tablet or computer.
+The module needs no extra hardware. It uses your existing WiFi network and connects directly to the smart-me Cloud. This is the easiest way to analyse and optimise your energy consumption in real time on your smartphone, tablet or computer.
 
-With a Professional subscription, the meter values can also be queried via the Modbus TCP interface.
+With a Professional subscription, you can also query the meter values through the Modbus TCP interface.
 
 ![Landis+Gyr Module – Figure 1](/img/produkte-landis-gyr-modul/01.png)
 
-## Functions
+## Features
 
-- Real-time visualization of power, total meter reading (consumption and feed-in), tariff 1 and 2, reactive power and reactive energy
+- Real-time visualization of power, total meter reading (consumption and delivery), tariff 1 and 2, reactive power and reactive energy
 
 - Automatic storage of meter readings in the cloud
 
-- Storage and automatic synchronization of measured values in the event of a connection failure
+- Storage and automatic synchronisation of measured values if the connection is lost
 
 - Contact output for controlling external devices
 
 - Encrypted WLAN connection directly to the smart-me Cloud
 
-- Comprehensive energy data management, automatic billing as well as control and alarms via the smart-me Cloud
+- Extensive energy data management, automatic billing, and control and alarms through the smart-me Cloud
 
-- Easy installation with the free smart-me App for Android and iOS
+- Easy installation with the free smart-me app for Android and iOS
 
 
 ### Video: Installation
 
 Note:
-The battery can be removed again after commissioning, as the module is powered by the meter.
+You can remove the battery after commissioning because the meter powers the module.
 
-<Video src="35_hjsvRtwM" title="YouTube Video, smart-me for Landis+Gyr" />
+<Video src="35_hjsvRtwM" title="YouTube video, smart-me for Landis+Gyr" />
 
 ## Technical Data
 
@@ -45,13 +45,13 @@ Supported meters L+G E450 and L+G E350 with E35C module
 
 Upload interval 5 seconds             
 
-Operating voltage is provided by the meter 
+Operating voltage provided by the meter 
 
 Interfaces WiFi
 
 Data storage 2 months
 
-Firmware update Online possible
+Firmware update possible online
 
 Product certification CE
 
@@ -68,11 +68,11 @@ Temperature range −40°C to 70°C
 Mounting Next to or on the L+G meter
 
 
-Note: A 9V battery (9-volt block) is required briefly for the installation. 
+Note: Installation briefly requires a 9V battery (9-volt block). 
 
-## Configuration of the CII Interface
+## Configuring the CII Interface
 
-The CII interface (customer interface) of the Landis+Gyr meter (e.g. E450 or E350) must be activated. Follow the instructions to configure the interface correctly.
+The CII interface (customer interface) of the Landis+Gyr meter (e.g. E450 or E350) must be enabled. Follow the instructions to configure the interface correctly.
 
 [CII interface standard configuration (English)](https://drive.google.com/file/d/1i9KXi5yAHfoNvlFB_08XW9oC2_65ujTF/view)
 
@@ -84,9 +84,9 @@ The CII interface (customer interface) of the Landis+Gyr meter (e.g. E450 or E35
 
 - Select the meter
 
-- Select the gear icon at the top right
+- Click the gear icon at the top right
 
-- General settings (Allgemeine Einstellungen)
+- General Settings (Allgemeine Einstellungen)
 
 
 ![Landis+Gyr Module – Figure 2](/img/produkte-landis-gyr-modul/02.png)
@@ -95,9 +95,9 @@ The CII interface (customer interface) of the Landis+Gyr meter (e.g. E450 or E35
 
 smart-me does not offer a successor product for L&G meters. 
 
-If you operate a smart-me ZEV (association for own consumption) and need a new solution for your metering (e.g. HAK), the L&G module must be replaced by a [Telstar 80A](/produkte/telstar) or [Telstar CT](/produkte/Telstar-CT).
+If you run a smart-me ZEV (association for own consumption) and need a new solution for your metering (e.g. at the service connection box), the L&G module must be replaced by a [Telstar 80A](/produkte/telstar) or [Telstar CT](/produkte/Telstar-CT).
 
-If measurements are carried out in a private setting for monitoring, home automation, etc., the [Telstar 80A](/produkte/telstar) or [Telstar CT](/produkte/Telstar-CT) can be installed at any time. If you are looking for a solution with your existing L&G meter, we recommend taking a look at this page. [https://gplug.ch/](https://gplug.ch/)
+For private metering used for monitoring, home automation and similar purposes, you can install the [Telstar 80A](/produkte/telstar) or [Telstar CT](/produkte/Telstar-CT) at any time. If you are looking for a solution that works with your existing L&G meter, we recommend that you take a look at this page. [https://gplug.ch/](https://gplug.ch/)
 
 ## Downloads
 

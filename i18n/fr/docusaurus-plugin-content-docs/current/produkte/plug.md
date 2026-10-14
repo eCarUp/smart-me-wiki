@@ -26,7 +26,7 @@ Disponible en versions Europe, Suisse et Grande-Bretagne.
 
 ## Fonctions
 
-- Appareil de mesure de l'énergie : outre la puissance actuelle, le smart-me Plug mesure l'énergie, le courant, la tension et le facteur de puissance. smart-me garantit une précision de 99% (erreur max. 1%).
+- Appareil de mesure d'énergie : outre la puissance actuelle, le smart-me Plug mesure l'énergie, le courant, la tension et le facteur de puissance. smart-me garantit une précision de 99% (erreur max. de 1%).
 
 - Appareil de mesure de la température : surveillez la température en direct et analysez les données historiques.
 
@@ -39,7 +39,7 @@ Disponible en versions Europe, Suisse et Grande-Bretagne.
 - Gestion complète de l'énergie dans le smart-me Cloud : 
 
 
-- -   -   Monitoring en temps réel
+- -   -   Surveillance en temps réel
 
         - Commande avec des actions déclenchées par un événement et des actions si/alors
 
@@ -50,7 +50,7 @@ Disponible en versions Europe, Suisse et Grande-Bretagne.
 
 Vidéo d'installation
 
-## Données techniques
+## Caractéristiques techniques
 
 Tension (U) 110V - 230V
 
@@ -68,7 +68,7 @@ Autoconsommation 0.1W
 
 Dimensions 95 x 54 x 29 mm (3.7 x 2.1 x 1.1 in)
 
-## Le relevé du compteur peut-il être remis à zéro ?
+## Le relevé du compteur peut-il être réinitialisé ?
 
 Non.
 

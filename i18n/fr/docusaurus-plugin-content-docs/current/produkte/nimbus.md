@@ -4,7 +4,7 @@ slug: '/produkte/nimbus'
 description: 'Montage sur plaque de montage de compteur selon DIN43857-1'
 sidebar_label: 'Compteur triphasé Nimbus 100A'
 ---
-![smart-me Nimbus 100A – Illustration 1](/img/produkte-nimbus/01.png)
+![smart-me Nimbus 100A – Illustration 1](/img/produkte-nimbus/01_EN.png)
 
 [Bornes enfichables de compteur pour Nimbus 100A](/drittprodukte/zaehlersteckklemmen-nimbus-100A)
 

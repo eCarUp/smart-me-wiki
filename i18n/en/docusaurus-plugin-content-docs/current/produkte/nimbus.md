@@ -4,7 +4,7 @@ slug: '/produkte/nimbus'
 description: 'Mounting on meter mounting plate according to DIN43857-1'
 sidebar_label: '3-Phase Meter Nimbus 100A'
 ---
-![smart-me Nimbus 100A – Figure 1](/img/produkte-nimbus/01.png)
+![smart-me Nimbus 100A – Figure 1](/img/produkte-nimbus/01_EN.png)
 
 [Meter plug-in terminals for Nimbus 100A](/drittprodukte/zaehlersteckklemmen-nimbus-100A)
 

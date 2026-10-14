@@ -4,7 +4,7 @@ slug: '/produkte/nimbus'
 description: 'Montaggio su piastra portacontatore secondo DIN43857-1'
 sidebar_label: 'Contatore trifase Nimbus 100A'
 ---
-![smart-me Nimbus 100A – Figura 1](/img/produkte-nimbus/01_EN.png)
+![smart-me Nimbus 100A – Figura 1](/img/produkte-nimbus/01.png)
 
 [Morsetti a innesto per Nimbus 100A](/drittprodukte/zaehlersteckklemmen-nimbus-100A)
 

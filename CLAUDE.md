@@ -147,7 +147,12 @@ andere Seite auf sie verlinkt.
   `docs/` bleibt unverändert, `scripts/localizeImages.ts` setzt die Variante
   beim Übersetzen ein. Rückfallkette: Französisch und Italienisch nehmen das
   englische Bild, wenn sie keine eigene Fassung haben; fehlt auch die, bleibt
-  das deutsche stehen.
+  das deutsche stehen. Der Bildpfad unter `i18n/` ist **abgeleitet, nicht
+  gepflegt**: `localizeImages` löst jeden Verweis vom deutschen Namen aus neu
+  auf und biegt ihn auch zurück, wenn eine Variante gelöscht wurde. Deshalb
+  läuft der Schritt in `deploy.yml` vor dem Build — sonst zeigte eine
+  Übersetzung auf eine verschwundene Datei und der Build bräche ab
+  (`onBrokenMarkdownImages: 'throw'`), ohne dass jemand Text angefasst hat.
 - `static/img/_en/` ist ein Rest aus der Migration und wächst nicht mehr. Dort
   liegen nur noch die Bilder jener englischen Bestandsseiten, deren Aufbau vom
   deutschen Master abweicht und für die sich deshalb kein Paar bilden liess.

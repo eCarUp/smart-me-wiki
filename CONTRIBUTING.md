@@ -225,6 +225,19 @@ Wird das deutsche Bild später ersetzt, bleibt die Variante auf dem alten Stand,
 ohne dass es jemandem auffällt. `npm run translate:check` meldet solche Fälle
 als *veraltete Bildvariante*.
 
+**Eine Variante wieder loswerden:** Datei löschen, fertig. Die Übersetzungen
+verweisen dann beim nächsten Lauf wieder auf das deutsche Bild. Wer lokal
+arbeitet, stösst das mit
+
+```bash
+npm run translate:images
+```
+
+selbst an und committet die geänderten Dateien unter `i18n/` gleich mit; wer
+die Datei auf GitHub löscht, bekommt die Korrektur als Pull Request vom
+Übersetzungs-Workflow. Der Bildpfad in `i18n/` ist nichts, was von Hand
+gepflegt wird — er wird aus dem Ordnerinhalt abgeleitet, in beide Richtungen.
+
 > Nicht zu verwechseln mit dem Ordner `static/img/_en/`. Dort liegen Bilder aus
 > dem alten englischen Wiki, die zu den übernommenen Bestandsseiten gehören —
 > ein anderer Mechanismus, der mit dem Sprachsuffix nichts zu tun hat.
@@ -963,6 +976,26 @@ Ist eine Übersetzung falsch, gibt es zwei richtige Wege:
 Übersetzung nicht an, die werden von Hand gepflegt (siehe „Die Beschriftungen
 ändern oder ein Land ergänzen"). Alles unterhalb von
 `i18n/<sprache>/docusaurus-plugin-content-docs/` bleibt tabu.
+
+### Keine Sitzungsspuren in Links
+
+Kopierst du einen Link aus der Adresszeile, hängt oft ein Rattenschwanz daran:
+
+```
+https://www.google.com/search?q=Hager+CDA440C&ei=dPoaY4bhFY&ved=0ahUKEwiG64&gs_lcp=Cgdnd3Mtd2l6…
+```
+
+Alles ab dem ersten `&` ist eine Spur deiner Browsersitzung — für den Leser
+wertlos und morgen abgelaufen. Lösch es weg, es bleibt:
+
+```
+https://www.google.com/search?q=Hager+CDA440C
+```
+
+Das ist nicht nur Kosmetik. Solche Zeichenketten sehen einander zum
+Verwechseln ähnlich, und beim Übersetzen wurde schon einmal die eine gegen die
+andere vertauscht — `npm run translate:check` meldet das dann als abweichendes
+Linkziel. Ein kurzer Link kann das nicht passieren.
 
 ### Den `slug` nicht ändern
 

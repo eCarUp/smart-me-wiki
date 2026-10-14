@@ -21,6 +21,14 @@
  * bleibt das deutsche Bild stehen. Es muss also niemand irgendwo eintragen,
  * dass es eine Übersetzung gibt; die Datei im Ordner genügt.
  *
+ * Der Lauf richtet sich **in beide Richtungen** nach dem Ordnerinhalt: Wird
+ * eine Variante wieder gelöscht, verweist die Übersetzung beim nächsten Lauf
+ * wieder auf das deutsche Bild. Ohne das bliebe der Verweis auf eine Datei
+ * stehen, die es nicht mehr gibt – und der Build bräche ab
+ * (`onBrokenMarkdownImages: 'throw'`), ohne dass jemand eine Zeile Text
+ * angefasst hätte. Der Bildpfad in `i18n/` ist nichts, was gepflegt wird; er
+ * wird aus dem Ordnerinhalt abgeleitet.
+ *
  * Bewusste Festlegungen:
  *
  * - Die Datei **ohne** Suffix ist die deutsche. Ein `_DE` gibt es nicht, sonst
@@ -122,22 +130,26 @@ export function withoutLocaleSuffix(imagePath: string): string {
 }
 
 /**
- * Aus `/img/ordner/03.png` und `fr` wird `/img/ordner/03_FR.png` – und wenn es
- * die nicht gibt, `/img/ordner/03_EN.png`. Fehlt auch die, bleibt es beim
- * deutschen Bild (Rückgabe `undefined`).
+ * Welches Bild soll an dieser Stelle in dieser Sprache stehen?
+ *
+ * Gefragt wird immer vom deutschen Namen aus: Ein vorhandenes Sprachsuffix im
+ * Pfad wird zuerst entfernt, dann entscheidet allein der Ordnerinhalt. Damit
+ * ist der Lauf mehrfach ausführbar und, wichtiger, umkehrbar – aus
+ * `03_EN.png` wird wieder `03.png`, sobald die Variante gelöscht ist.
+ *
+ * `undefined` heisst „Finger weg": Entweder ist der Pfad kein gewöhnlicher
+ * Bildpfad, oder weder Variante noch deutsches Original liegen im Ordner.
+ * Dann bleibt der Verweis unverändert stehen und der Build zeigt auf das
+ * eigentliche Problem, statt dass hier still etwas umgebogen wird.
  */
-export function variantFor(
+export function resolveImage(
   imagePath: string,
   locale: Locale,
   index: DirectoryIndex,
 ): string | undefined {
-  const match = imagePath.match(/^(\/img\/.*\/)([^/]+)\.([^./]+)$/);
+  const match = withoutLocaleSuffix(imagePath).match(/^(\/img\/.*\/)([^/]+)\.([^./]+)$/);
   if (!match) return undefined;
   const [, directory, base, extension] = match;
-
-  // Trägt der Pfad schon ein Sprachsuffix, ist nichts zu tun. Damit ist der
-  // Lauf mehrfach ausführbar, ohne `03_EN_EN.png` zu erzeugen.
-  if (new RegExp(`_(${TARGET_LOCALES.join('|')})$`, 'i').test(base)) return undefined;
 
   const directoryOnDisk = join(STATIC_ROOT, directory.slice(1));
   for (const candidate of FALLBACK_CHAIN[locale] ?? [locale]) {
@@ -145,7 +157,9 @@ export function variantFor(
     const onDisk = index.resolve(directoryOnDisk, wanted);
     if (onDisk) return `${directory}${onDisk}`;
   }
-  return undefined;
+
+  const german = index.resolve(directoryOnDisk, `${base}.${extension}`);
+  return german ? `${directory}${german}` : undefined;
 }
 
 /**
@@ -198,10 +212,10 @@ export async function localizeImages(
       const updated = original.replace(
         IMAGE_PATTERN,
         (match, alt: string, imagePath: string) => {
-          const variant = variantFor(imagePath, locale, index);
-          if (!variant) return match;
-          replacements.push({file: target, from: imagePath, to: variant});
-          return `![${alt}](${variant})`;
+          const gewollt = resolveImage(imagePath, locale, index);
+          if (!gewollt || gewollt === imagePath) return match;
+          replacements.push({file: target, from: imagePath, to: gewollt});
+          return `![${alt}](${gewollt})`;
         },
       );
 
@@ -224,7 +238,7 @@ if (import.meta.url === pathToFileURL(process.argv[1]).href) {
       console.log(`  ${item.file}\n      ${item.from}  ->  ${item.to}`);
     }
     console.log(
-      `${replacements.length} Bilder in ${changed} Dateien ${dryRun ? 'wären ersetzt worden' : 'ersetzt'}.`,
+      `${replacements.length} Bildverweise in ${changed} Dateien ${dryRun ? 'wären angepasst worden' : 'angepasst'}.`,
     );
 
     const stale = await staleVariants();

@@ -42,7 +42,15 @@ jobs:
           cache: npm
 
       - run: npm ci
-
+      # Die Bildpfade unter i18n/ werden aus dem Ordnerinhalt abgeleitet, nicht
+      # von Hand gepflegt. Wird eine Sprachvariante gelöscht, zeigt die
+      # Übersetzung noch auf die verschwundene Datei und der Build bräche ab.
+      # Dieser Schritt setzt die Verweise vorher wieder gerade – im Checkout des
+      # Runners, nicht im Repository. Den dauerhaften Stand zieht der
+      # Übersetzungs-Workflow nach, der ebenfalls auf static/img/** reagiert.
+      - name: Bildvarianten abgleichen
+        run: npm run translate:images
+ 
       - name: Build (alle Sprachen)
         run: npm run build
         env:

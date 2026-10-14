@@ -33,14 +33,13 @@ const sidebars: SidebarsConfig = {
           ],
         },
         'produkte/1-phasen-zaehler',
+        // Die eingestellten Produkte stehen bewusst nicht einzeln in der
+        // Navigation: 1-Phasen Zähler 32A, 3-Phasen Zähler, Kamstrup Modul,
+        // Landis+Gyr Modul, Pico Ladestation exA, Plug und smart-eye sind
+        // alle von dieser Übersichtsseite aus verlinkt. Damit beim Öffnen
+        // trotzdem die Navigation stehen bleibt, tragen die sieben Seiten
+        // `displayed_sidebar: wikiSidebar` im Frontmatter.
         'produkte/eingestellte-produkte',
-        'produkte/1-phasen-zaehler-32a',
-        'produkte/3-phasen-zähler',
-        'produkte/kamstrup-modul',
-        'produkte/landis-gyr-modul',
-        'produkte/pico-ladestation-exa',
-        'produkte/plug',
-        'produkte/smart-eye',
       ],
     },
     {

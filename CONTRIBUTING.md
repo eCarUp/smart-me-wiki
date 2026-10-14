@@ -631,6 +631,44 @@ Weiterleitung läuft sie ins Leere, und niemand erfährt davon.
 
 ---
 
+## Eine Seite aus der Navigation nehmen, ohne sie zu löschen
+
+Manche Seiten sollen bleiben, aber die Liste links nicht länger machen — die
+eingestellten Produkte zum Beispiel. Sie sind alle von der Übersichtsseite
+„Eingestellte Produkte" aus verlinkt und brauchen deshalb keinen eigenen
+Eintrag.
+
+Zwei Handgriffe:
+
+1. Den Eintrag in `sidebars.ts` **löschen**.
+2. In der Seite selbst `displayed_sidebar: wikiSidebar` ins Frontmatter
+   schreiben — und zwar in der deutschen Fassung **und** in den drei
+   Übersetzungen:
+
+   ```yaml
+   ---
+   title: 'Plug'
+   slug: '/produkte/plug'
+   description: '…'
+   sidebar_label: 'Plug'
+   displayed_sidebar: wikiSidebar
+   ---
+   ```
+
+Ohne Punkt 2 öffnet sich die Seite ohne jede Navigation — ein leerer weisser
+Rand links, und der Leser sitzt in einer Sackgasse. Mit Punkt 2 steht die
+gewohnte Navigation da, nur ist kein Eintrag darin hervorgehoben.
+
+**Bevor du eine Seite herausnimmst:** vergewissere dich, dass mindestens eine
+andere Seite auf sie verlinkt. Sonst ist sie nur noch über die Suche zu finden
+— und was niemand findet, pflegt auch niemand.
+
+Die Zeile `displayed_sidebar` überlebt spätere Übersetzungsläufe von selbst:
+`scripts/translate.ts` übernimmt sie, wie den `slug`, unverändert aus der
+deutschen Quelle.
+
+---
+
 ## Videos einbinden
 
 Einen YouTube-Player bindest du mit der Komponente `<Video>` ein. Schreib die

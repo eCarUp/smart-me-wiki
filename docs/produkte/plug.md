@@ -3,6 +3,7 @@ title: 'Plug'
 slug: '/produkte/plug'
 description: 'Der smart-me Plug ist Strommessgerät, Thermostat und Zeitschaltuhr in einem.'
 sidebar_label: 'Plug'
+displayed_sidebar: wikiSidebar
 ---
 Der smart-me Plug ist Strommessgerät, Thermostat und Zeitschaltuhr in einem. Darüber hinaus ist der Plug per Webportal oder App steuer- und überwachbar. Hierzu verbindet sich das Gerät mit dem Internet über das lokale WLAN-Netzwerk. 
 

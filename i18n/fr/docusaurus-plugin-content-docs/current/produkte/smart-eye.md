@@ -3,6 +3,7 @@ title: 'smart-eye'
 slug: '/produkte/smart-eye'
 description: 'Le smart-eye connecte au smart-me Cloud les compteurs d''énergie conformes au cahier des charges FNN pour compteurs de base (systèmes de mesure modernes).'
 sidebar_label: 'smart-eye'
+displayed_sidebar: wikiSidebar
 ---
 Le smart-eye connecte au smart-me Cloud les compteurs d'énergie conformes au cahier des charges FNN pour compteurs de base (systèmes de mesure modernes). Pour cela, le smart-eye est fixé sur l'interface de données optique INFO. Les données énergétiques sont ainsi transmises au smart-me Cloud via le WiFi local. Via l'app ou la connexion en ligne, vous pouvez consulter quasiment en temps réel des visualisations de la consommation ainsi que, le cas échéant, des données utiles à l'exploitation du réseau, comme la fréquence, la tension ou le courant.
 

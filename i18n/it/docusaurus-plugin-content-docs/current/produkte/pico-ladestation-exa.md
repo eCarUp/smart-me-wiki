@@ -3,6 +3,7 @@ title: 'Stazione di ricarica Pico'
 slug: '/produkte/pico-ladestation-exa'
 description: 'RDC-DD 6mA secondo IEC 62955 (dispositivo di rilevamento della corrente di guasto continua)'
 sidebar_label: 'Stazione di ricarica Pico'
+displayed_sidebar: wikiSidebar
 ---
 RDC-DD 6mA secondo IEC 62955 (dispositivo di rilevamento della corrente di guasto continua)
 

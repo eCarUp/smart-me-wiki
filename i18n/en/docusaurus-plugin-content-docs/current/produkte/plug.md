@@ -3,6 +3,7 @@ title: 'Plug'
 slug: '/produkte/plug'
 description: 'The smart-me Plug is a power meter, thermostat and timer in one.'
 sidebar_label: 'Plug'
+displayed_sidebar: wikiSidebar
 ---
 The smart-me Plug is a power meter, thermostat and timer in one. In addition, the Plug can be controlled and monitored via the web portal or app. To do this, the device connects to the internet via the local Wi-Fi network. 
 

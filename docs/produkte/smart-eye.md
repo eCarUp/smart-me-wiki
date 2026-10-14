@@ -3,6 +3,7 @@ title: 'smart-eye'
 slug: '/produkte/smart-eye'
 description: 'Das smart-eye bringt Energiezähler nach FNN-Lastenheft Basiszähler (moderne Messeinrichtungen) in die smart-me Cloud.'
 sidebar_label: 'smart-eye'
+displayed_sidebar: wikiSidebar
 ---
 Das smart-eye bringt Energiezähler nach FNN-Lastenheft Basiszähler (moderne Messeinrichtungen) in die smart-me Cloud. Das smart-eye wird hierfür auf der optischen INFO-Datenschnittstelle angebracht. Damit werden die Energiedaten per lokalem WiFi an die smart-me Cloud übertragen. Per App oder online Login sind annähernd in Echtzeit Verbrauchsvisualisierungen sowie gegebenenfalls netzbetriebsrelevante Daten wie Frequenz, Spannung oder Strom abrufbar.
 

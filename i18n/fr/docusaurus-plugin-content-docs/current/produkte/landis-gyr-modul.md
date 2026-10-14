@@ -3,6 +3,7 @@ title: 'Module Landis+Gyr'
 slug: '/produkte/landis-gyr-modul'
 description: 'Vente arrêtée le 30.04.2021, le support et l''assistance cloud sont assurés jusqu''au 30.03.2025.'
 sidebar_label: 'Module Landis+Gyr'
+displayed_sidebar: wikiSidebar
 ---
 Vente arrêtée le 30.04.2021, le support et l'assistance cloud sont assurés jusqu'au 30.03.2025.
 

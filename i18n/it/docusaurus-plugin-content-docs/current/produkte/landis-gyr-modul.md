@@ -3,6 +3,7 @@ title: 'Modulo Landis+Gyr'
 slug: '/produkte/landis-gyr-modul'
 description: 'Vendita cessata il 30.04.2021, il supporto e l''assistenza cloud sono garantiti fino al 30.03.2025.'
 sidebar_label: 'Modulo Landis+Gyr'
+displayed_sidebar: wikiSidebar
 ---
 Vendita cessata il 30.04.2021, il supporto e l'assistenza cloud sono garantiti fino al 30.03.2025.
 

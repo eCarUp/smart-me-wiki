@@ -3,6 +3,7 @@ title: '1-Phasenzähler 32A'
 slug: '/produkte/1-phasen-zaehler-32a'
 description: 'Der smart-me Meter ist der erste Stromzähler, welcher von überall analysiert und gesteuert werden kann.'
 sidebar_label: '1-Phasenzähler 32A'
+displayed_sidebar: wikiSidebar
 ---
 Der smart-me Meter ist der erste Stromzähler, welcher von überall analysiert und gesteuert werden kann. Es wird keine zusätzliche Hardware benötigt. Er nutzt das bestehende WiFi Netzwerk und verbindet sich direkt mit der smart-me Cloud. So sieht man bequem seinen Energieverbrauch in Echtzeit.
 

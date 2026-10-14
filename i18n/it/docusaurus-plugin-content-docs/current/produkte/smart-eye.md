@@ -3,6 +3,7 @@ title: 'smart-eye'
 slug: '/produkte/smart-eye'
 description: 'Lo smart-eye porta nella smart-me Cloud i contatori di energia conformi al capitolato FNN per contatori di base (moderni dispositivi di misura).'
 sidebar_label: 'smart-eye'
+displayed_sidebar: wikiSidebar
 ---
 Lo smart-eye porta nella smart-me Cloud i contatori di energia conformi al capitolato FNN per contatori di base (moderni dispositivi di misura). A tale scopo lo smart-eye viene applicato sull'interfaccia dati ottica INFO. In questo modo i dati energetici vengono trasmessi alla smart-me Cloud tramite la rete WiFi locale. Tramite app o login online è possibile consultare quasi in tempo reale le visualizzazioni dei consumi ed eventualmente anche dati rilevanti per l'esercizio della rete, come frequenza, tensione o corrente.
 

@@ -3,6 +3,7 @@ title: 'Landis+Gyr Module'
 slug: '/produkte/landis-gyr-modul'
 description: 'Sales discontinued on 30.04.2021, support and cloud support are guaranteed until 30.03.2025.'
 sidebar_label: 'Landis+Gyr Module'
+displayed_sidebar: wikiSidebar
 ---
 Sales discontinued on 30.04.2021, support and cloud support are guaranteed until 30.03.2025.
 

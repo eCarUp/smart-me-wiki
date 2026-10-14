@@ -3,6 +3,7 @@ title: 'Pico E-Ladestation'
 slug: '/produkte/pico-ladestation-exa'
 description: 'RDC-DD 6mA nach IEC 62955 (Fehlergleichstrom- Nachweiseinrichtung)'
 sidebar_label: 'Pico E-Ladestation'
+displayed_sidebar: wikiSidebar
 ---
 RDC-DD 6mA nach IEC 62955 (Fehlergleichstrom- Nachweiseinrichtung)
 

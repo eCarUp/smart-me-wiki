@@ -3,6 +3,7 @@ title: 'Borne de recharge Pico'
 slug: '/produkte/pico-ladestation-exa'
 description: 'RDC-DD 6mA selon IEC 62955 (dispositif de détection de courant continu de défaut)'
 sidebar_label: 'Borne de recharge Pico'
+displayed_sidebar: wikiSidebar
 ---
 RDC-DD 6mA selon IEC 62955 (dispositif de détection de courant continu de défaut)
 

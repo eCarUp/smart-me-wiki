@@ -3,6 +3,7 @@ title: 'smart-eye'
 slug: '/produkte/smart-eye'
 description: 'The smart-eye brings energy meters compliant with the FNN specification for basic meters (modern metering devices) into the smart-me Cloud.'
 sidebar_label: 'smart-eye'
+displayed_sidebar: wikiSidebar
 ---
 The smart-eye brings energy meters compliant with the FNN specification for basic meters (modern metering devices) into the smart-me Cloud. For this purpose, the smart-eye is attached to the optical INFO data interface. The energy data is then transmitted to the smart-me Cloud via local WiFi. Via the app or online login, consumption visualizations and, where applicable, grid-relevant data such as frequency, voltage or current can be accessed in near real time.
 

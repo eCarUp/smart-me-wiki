@@ -124,6 +124,17 @@ Commit-Nachrichten.
 (`scripts/migration/convert.ts`). Für neue Seiten werden sie ab jetzt von Hand
 gepflegt — ein erneuter Migrationslauf würde manuelle Änderungen überschreiben.
 
+Nicht jede Seite steht in der Navigation. Die sieben eingestellten Produkte
+(Plug, smart-eye, Kamstrup- und Landis+Gyr-Modul, 1-Phasen Zähler 32A,
+3-Phasen Zähler, Pico Ladestation exA) sind nur von
+`docs/produkte/eingestellte-produkte.md` aus verlinkt und tragen dafür
+`displayed_sidebar: wikiSidebar` im Frontmatter — ohne diese Zeile öffnete
+sich die Seite ohne linke Navigation. `normalizeFrontmatter` in
+`scripts/translate.ts` übernimmt den Schlüssel wie den `slug` unverändert aus
+der deutschen Quelle (`AUS_DER_QUELLE`), damit er einen Übersetzungslauf
+übersteht. Wer eine Seite aus der Navigation nimmt, prüft zuerst, dass eine
+andere Seite auf sie verlinkt.
+
 ## Markdown-Konventionen
 
 - Docusaurus verarbeitet `.md` als MDX. `<` und `{` im Fliesstext müssen als

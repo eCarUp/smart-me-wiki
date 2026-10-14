@@ -3,6 +3,7 @@ title: '3-Phasen Zähler'
 slug: '/produkte/3-phasen-zähler'
 description: 'Der smart-me 3-Phasen Meter ist ein leistungsstarker und präziser Energiezähler mit integrierter WiFi Schnittstelle.'
 sidebar_label: '3-Phasen Zähler'
+displayed_sidebar: wikiSidebar
 ---
 Der smart-me 3-Phasen Meter ist ein leistungsstarker und präziser Energiezähler mit integrierter WiFi Schnittstelle. Für die Integration in die smart-me Cloud wird keine zusätzliche Hardware benötigt. Er nutzt das bestehende WiFi Netzwerk und lässt sich von überall via Internet steuern und auswerten. Mit einem Professional Abo können die Zählerwerte auch über die Modbus TCP Schnittstelle abgefragt werden. Bei der 5(32)A Version kann jede Phase einzeln geschalten werden.
 

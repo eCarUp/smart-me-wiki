@@ -3,6 +3,7 @@ title: 'Single Phase Meter 32A'
 slug: '/produkte/1-phasen-zaehler-32a'
 description: 'The smart-me Meter is the first electricity meter that can be analysed and controlled from anywhere.'
 sidebar_label: 'Single Phase Meter 32A'
+displayed_sidebar: wikiSidebar
 ---
 The smart-me Meter is the first electricity meter that can be analysed and controlled from anywhere. No additional hardware is required. It uses the existing WiFi network and connects directly to the smart-me Cloud. This lets you conveniently see your energy consumption in real time.
 

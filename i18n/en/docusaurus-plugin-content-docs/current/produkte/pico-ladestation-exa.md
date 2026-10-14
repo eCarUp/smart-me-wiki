@@ -3,6 +3,7 @@ title: 'Pico EV Charger'
 slug: '/produkte/pico-ladestation-exa'
 description: 'RDC-DD 6mA according to IEC 62955 (residual direct current detecting device)'
 sidebar_label: 'Pico EV Charger'
+displayed_sidebar: wikiSidebar
 ---
 RDC-DD 6mA according to IEC 62955 (residual direct current detecting device)
 

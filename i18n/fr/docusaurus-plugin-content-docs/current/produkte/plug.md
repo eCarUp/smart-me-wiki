@@ -3,6 +3,7 @@ title: 'Plug'
 slug: '/produkte/plug'
 description: 'Le smart-me Plug est à la fois un appareil de mesure de l''électricité, un thermostat et une minuterie.'
 sidebar_label: 'Plug'
+displayed_sidebar: wikiSidebar
 ---
 Le smart-me Plug est à la fois un appareil de mesure de l'électricité, un thermostat et une minuterie. De plus, le Plug peut être commandé et surveillé via le portail web ou l'application. Pour cela, l'appareil se connecte à Internet via le réseau WLAN local. 
 

@@ -3,6 +3,7 @@ title: 'Kamstrup Modul'
 slug: '/produkte/kamstrup-modul'
 description: 'smart-me Modul für die Kundenschnittstelle des Kamstrup Omnipower Zählers.'
 sidebar_label: 'Kamstrup Modul'
+displayed_sidebar: wikiSidebar
 ---
 smart-me Modul für die Kundenschnittstelle des Kamstrup Omnipower Zählers.
 

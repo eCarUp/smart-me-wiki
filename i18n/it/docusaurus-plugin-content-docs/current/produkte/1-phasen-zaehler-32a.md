@@ -3,6 +3,7 @@ title: 'Contatore monofase 32A'
 slug: '/produkte/1-phasen-zaehler-32a'
 description: 'Lo smart-me Meter è il primo contatore elettrico che può essere analizzato e comandato da qualsiasi luogo.'
 sidebar_label: 'Contatore monofase 32A'
+displayed_sidebar: wikiSidebar
 ---
 Lo smart-me Meter è il primo contatore elettrico che può essere analizzato e comandato da qualsiasi luogo. Non è necessario alcun hardware aggiuntivo. Utilizza la rete WiFi esistente e si connette direttamente al smart-me Cloud. In questo modo è possibile visualizzare comodamente il proprio consumo di energia in tempo reale.
 

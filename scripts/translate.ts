@@ -282,37 +282,52 @@ function quoteScalar(value: string): string {
  * gültiges YAML mehr. Statt darauf zu vertrauen, dass die Anweisung befolgt
  * wird, werden die Werte hier ausgelesen und korrekt neu gequotet.
  *
- * Der `slug` stammt immer aus der deutschen Quelle – er ist die URL und in
- * allen Sprachen dieselbe.
+ * `slug` und `displayed_sidebar` stammen immer aus der deutschen Quelle. Der
+ * `slug` ist die URL und in allen Sprachen dieselbe; `displayed_sidebar` ist
+ * eine Navigationseinstellung und kein Text. Beide werden unverändert
+ * übernommen und notfalls ergänzt, statt darauf zu hoffen, dass das Modell sie
+ * mitschleppt – ginge `displayed_sidebar` verloren, stünde die übersetzte
+ * Seite plötzlich ohne linke Navigation da.
  */
+const AUS_DER_QUELLE = ['slug', 'displayed_sidebar'] as const;
+
 export function normalizeFrontmatter(translated: string, source: string): string {
   const t = splitFrontmatter(translated);
   const s = splitFrontmatter(source);
   if (!t) throw new Error('Die Übersetzung hat kein Frontmatter.');
 
-  const sourceSlug = s?.lines
-    .map((l) => l.match(/^slug:\s*(.*)$/))
-    .find((m): m is RegExpMatchArray => Boolean(m))?.[1];
+  const ausQuelle = new Map<string, string>();
+  for (const key of AUS_DER_QUELLE) {
+    const wert = s?.lines
+      .map((l) => l.match(new RegExp(`^${key}:\\s*(.*)$`)))
+      .find((m): m is RegExpMatchArray => Boolean(m))?.[1];
+    if (wert !== undefined) ausQuelle.set(key, wert);
+  }
 
   const rebuilt: string[] = [];
+  const gesehen = new Set<string>();
   let sawTitle = false;
-  let sawSlug = false;
 
   for (const line of t.lines) {
     const match = line.match(/^([A-Za-z_][\w-]*):\s*(.*)$/);
     if (!match) continue; // Kommentare und Leerzeilen fallen weg.
     const [, key, raw] = match;
     if (key === 'title') sawTitle = true;
-    if (key === 'slug') {
-      sawSlug = true;
-      rebuilt.push(`slug: ${sourceSlug ?? quoteScalar(parseScalar(raw))}`);
+    if (ausQuelle.has(key)) {
+      gesehen.add(key);
+      rebuilt.push(`${key}: ${ausQuelle.get(key)}`);
       continue;
     }
+    // Ein Schlüssel, den nur die Übersetzung kennt: Wert neu quoten.
     rebuilt.push(`${key}: ${quoteScalar(parseScalar(raw))}`);
   }
 
   if (!sawTitle) throw new Error('Im Frontmatter der Übersetzung fehlt der Titel.');
-  if (!sawSlug && sourceSlug) rebuilt.splice(1, 0, `slug: ${sourceSlug}`);
+
+  // Was das Modell verschluckt hat, hinter dem Titel nachtragen.
+  for (const [key, wert] of ausQuelle) {
+    if (!gesehen.has(key)) rebuilt.splice(1, 0, `${key}: ${wert}`);
+  }
 
   return `---\n${rebuilt.join('\n')}\n---\n${t.body}`;
 }

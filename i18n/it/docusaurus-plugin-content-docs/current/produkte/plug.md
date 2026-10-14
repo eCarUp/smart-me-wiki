@@ -3,6 +3,7 @@ title: 'Plug'
 slug: '/produkte/plug'
 description: 'Lo smart-me Plug è misuratore di corrente, termostato e timer in un unico dispositivo.'
 sidebar_label: 'Plug'
+displayed_sidebar: wikiSidebar
 ---
 Lo smart-me Plug è misuratore di corrente, termostato e timer in un unico dispositivo. Inoltre, il Plug può essere comandato e monitorato tramite il portale web o l'app. A tale scopo, il dispositivo si connette a Internet tramite la rete WLAN locale. 
 

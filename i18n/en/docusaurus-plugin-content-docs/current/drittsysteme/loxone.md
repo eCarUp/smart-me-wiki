@@ -10,7 +10,7 @@ sidebar_label: 'Loxone'
 
 The template provides a way to read meter data directly from the meter
 
-- Prerequisite: [Modbus TCP](/schnittstellen/modbus-tcp) must be enabled on the meter. The IP or DNS name of the meter must be entered in the template.
+- Prerequisite: [Modbus TCP](/schnittstellen/modbus-tcp) must be enabled on the meter. The IP or the DNS name of the meter must be entered in the template.
 
 - [Loxone Library](https://library.loxone.com/vendor/smart-me-1505)
 
@@ -21,7 +21,7 @@ The template provides a way to read meter data directly from the meter
 
 The template provides a way to read meter data from our cloud and to control digital outputs.
 
-Note: Basic Auth is being switched off to meet growing security requirements.
+Note: Basic Auth is being switched off to meet the growing security requirements.
 
 Only possible until November 2026 (up to v.1.0.2)
 
@@ -30,13 +30,13 @@ Only possible until November 2026 (up to v.1.0.2)
 - [API documentation](/schnittstellen/api)
 
 
-In the template, the username and password of the account must be placed before the URL of the API call. Depending on the case, the username must be set by smart-me.
+In the template, the user name and password of the account must precede the URL of the API call. Depending on the case, the user name must be set by smart-me.
 
 ## Integration via API - API keys (recommended)
 
 The template provides a way to read meter data from our cloud and to control digital outputs.
 
-Note: Loxone offers no simpler way to handle API keys. The procedure described below was developed together with Loxone. API keys were introduced to meet growing security requirements.
+Note: Loxone does not offer a simpler way to handle API keys. The procedure described below was developed together with Loxone. API keys were introduced to meet the growing security requirements.
 
 from version 1.0.3
 
@@ -48,14 +48,14 @@ from version 1.0.3
 1.  ### Create an API key in the smart-me portal.
 
 
-Log in to the smart-me portal --> Interfaces (Schnittstellen) menu --> API  --> Click the "Link" in the orange banner at the top -->  "Create new (Neu erstellen)".
+Log in to the smart-me portal --> menu Interfaces (Schnittstellen) --> API  --> click the "Link" in the orange banner at the top -->  "Create new" (Neu erstellen).
 
 - Give the API key a name, e.g. Loxone, 
 
 
 - Set the expiry date
 
-- Set the permissions. For Loxone, "device.readswitch" is sufficient (if the browser automatically translates it into German, use "Gerät.LesenSchalten") 
+- Set the permissions. For Loxone, "device.readswitch" is sufficient (if the browser automatically translates it into German, please use "Gerät.LesenSchalten") 
 
 - Create (Erstellen)
 
@@ -64,7 +64,7 @@ Log in to the smart-me portal --> Interfaces (Schnittstellen) menu --> API  --> 
 - The API key will be needed later.
 
 
-General:More information on the permissions: [API](/schnittstellen/api) 
+General: More information on the permissions: [API](/schnittstellen/api) 
 
 ![Loxone – Figure 2](/img/drittsysteme-loxone/02.png)
 
@@ -72,27 +72,27 @@ General:More information on the permissions: [API](/schnittstellen/api)
 
 ### 2\. Get the DeviceID of the smart-me meter
 
-If the account is on Professional, the DeviceID can easily be found 
+If the account is on Professional, the DeviceID can easily be found via 
 
-1.  System menu --> System health (Systemgesundheit)
+1.  Menu System --> System health (Systemgesundheit)
 
-2.  Search for the devices
+2.  Search for devices
 
-3.  The device ID will be used later. e.g. 61c71d00-3d40-4963-745b2-7c6b0c512gf3
+3.  The device ID (Geräte-ID) will be used later. e.g. 61c71d00-3d40-4963-745b2-7c6b0c512gf3
 
 
 
 
 If the account is not licensed, the DeviceID must be retrieved via the API.
 1.  Press the Windows key and type "cmd".
-2\. Open the Command Prompt
+2\. Open the command prompt
 3\. Copy the following command into the prompt. 
 
 Caution: Adjust the ApiKey.  
 
 curl -X "GET" "https://api.smart-me.com/Devices" -H "accept: \*/\*" -H "Authorization: ApiKey n9CUnYCGmTOQZCCX1iHRqrF5Erzx9pUu" 
 
-4\. In the response, search for the meter name and copy out the Id.
+4\. In the response, search for the meter name and copy the Id.
 
 ![Loxone – Figure 4](/img/drittsysteme-loxone/04.png)
 
@@ -100,23 +100,23 @@ curl -X "GET" "https://api.smart-me.com/Devices" -H "accept: \*/\*" -H "Authoriz
 
 - Download the template from the Loxone Library (VO\_XXXX). (See link above)
 
-- In the Loxone tree / periphery, click on Virtual Outputs
+- In the Loxone periphery tree (Stammbaum / Peripherie), click on Virtual Outputs (Virtuelle Ausgänge)
 
-- In the Loxone menu at the top, load the smart-me Request under "Predefined Devices".
+- In the Loxone menu at the top, load the smart-me Request under "Predefined Devices" (Vordefinierte Geräte).
 
 - A new virtual output appears; click on the "Meter" command there.
 
 
-- In the "Command for ON" field, &lt;meter.id\> must be replaced with the device ID.
+- In the field "Command for ON" (Befehl bei EIN), &lt;meter.id\> must be replaced with the device ID.
 
-- In the "HTTP header for ON" field, &lt;apikey> must be replaced with the API key. Note: The API key can be the same for every meter of the same account.
+- In the field "HTTP header for ON" (HTTP header bei EIN), &lt;apikey> must be replaced with the API key. Note: The API key can be the same for every meter of the same account.
 
 
 ![Loxone – Figure 5](/img/drittsysteme-loxone/05.png)
 
 ![Loxone – Figure 6](/img/drittsysteme-loxone/06.png)
 
-- In the "Save HTTP response" field, the text smartmeapi.html must be adjusted.
+- In the field "Save HTTP response" (HTTP-Antwort speichern), the text smartmeapi.html must be adjusted.
 
 
 - The name must be unique for each output (i.e. each meter). 
@@ -128,38 +128,38 @@ curl -X "GET" "https://api.smart-me.com/Devices" -H "accept: \*/\*" -H "Authoriz
 
 ### 4\. Configure the virtual input in Loxone
 
-- Select the properties of the Loxone Miniserver. There you will find the hostname or IP address of the Miniserver. This is required for the further configuration.
+- Select the properties of the Loxone Miniserver. There you will find the host name or the IP address of the Miniserver. This is required for the further configuration.
 
 
 ![Loxone – Figure 8](/img/drittsysteme-loxone/08.png)
 
 - Download the template from the Loxone Library (VI\_XXXX).
 
-- Under "Predefined HTTP Devices", load the smart-me meter.
+- Load the smart-me meter under "Predefined HTTP Devices" (Vordefinierte HTTP-Geräte).
 
 - A new virtual input appears
 
-- Click on the "smart-me meter" input.
+- Click on the input "smart-me meter".
 
-- In the "URL" field, the following errors must be adjusted.
+- In the "URL" field, the following entries must be adjusted.
 
     - Credentials of the Loxone Miniserver
 
-    - Hostname or IP of the Loxone Miniserver
+    - Host name or IP of the Loxone Miniserver
 
-    - Name of the HTML file stored. The same name as above is required for the same command, e.g. bilanz.html. 
+    - Name of the stored HTML file. The same command requires the same name as above, e.g. bilanz.html. 
 
 - Example of a command:
+
     [https://admin:sicheres\_admin\_passwort@127.0.0.1/bilanz.html](https://admin:sicheres_admin_passwort@127.0.0.1/bilanz.html)
 
 - [https://admin:sicheres\_admin\_passwort@MSC29Z/bilanz.html](https://admin:sicheres_admin_passwort@127.0.0.1/bilanz.html) 
-
 
 ![Loxone – Figure 9](/img/drittsysteme-loxone/09.png)
 
 ### 5\. Connect the pulse generator to the virtual output
 
-If the Example Meter is not used, the "Virtual Output Command" must be triggered by means of a pulse generator.
+If the Example Meter is not used, the "Virtual Output Command" (Virtueller Ausgang Befehl) must be triggered by a pulse generator.
 
 ![Loxone – Figure 10](/img/drittsysteme-loxone/10.png)
 
@@ -174,11 +174,11 @@ The module provides a way to send meter data to our cloud.
 - [Loxone Library (Loxone to smart-me)](https://library.loxone.com/detail/smart-me-cloud-1764/overview)
 
 
-Important: This module was not developed by smart-me. We do not provide support for it. You have to acquire the knowledge needed to use this module yourself, and in our view it is intended for advanced Loxone users.
+Important: This module was not developed by smart-me. We do not provide support for it. You need to acquire the knowledge to use this module yourself, and in our view it is intended for advanced Loxone users.
 
-This guide only gives a brief overview of how a metering point can be created, which does not take place via the Loxone module.
+This guide only provides a brief overview of how a metering point can be created, which does not take place via the Loxone module.
 
-1.  Create an API key in the smart-me portal with the claims: device.readwrite and user.readwrite (only one key per account is needed, not one for each meter)
+1.  Create an API key in the smart-me portal with the claims: device.readwrite and user.readwrite (only one key per account is needed, not one per meter)
 
 2.  Execute the following call (edit the fields beforehand (ApiKey & Name))
     With PowerShell:
@@ -194,4 +194,4 @@ This guide only gives a brief overview of how a metering point can be created, w
 4.  This data must be entered in the Loxone Library.
 
 
-In summary, a meter was created via the API in this way, which can then be used in Loxone.
+In summary, a meter has thus been created via the API, which can then be used in Loxone.

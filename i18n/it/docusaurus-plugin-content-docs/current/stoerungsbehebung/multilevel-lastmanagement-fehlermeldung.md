@@ -1,12 +1,12 @@
 ---
-title: 'Messaggio di errore della gestione del carico multilivello'
+title: 'Messaggio di errore gestione del carico multilivello'
 slug: '/stoerungsbehebung/multilevel-lastmanagement-fehlermeldung'
 description: 'Il gruppo di gestione del carico probabilmente non è configurato correttamente: come valore in caso di interruzione della connessione cloud non è selezionato "Max.'
-sidebar_label: 'Messaggio di errore della gestione del carico multilivello'
+sidebar_label: 'Messaggio di errore gestione del carico multilivello'
 ---
-![Messaggio di errore della gestione del carico multilivello – Figura 1](/img/stoerungsbehebung-multilevel-lastmanagement-fehlermeldung/01.png)
+![Messaggio di errore gestione del carico multilivello – figura 1](/img/stoerungsbehebung-multilevel-lastmanagement-fehlermeldung/01.png)
 
-![Messaggio di errore della gestione del carico multilivello – Figura 2](/img/stoerungsbehebung-multilevel-lastmanagement-fehlermeldung/02.png)
+![Messaggio di errore gestione del carico multilivello – figura 2](/img/stoerungsbehebung-multilevel-lastmanagement-fehlermeldung/02.png)
 
 - Il gruppo di gestione del carico probabilmente non è configurato correttamente:
     come valore in caso di interruzione della connessione cloud non è selezionato "Corrente max. (per gruppo)" ("Max. Strom (pro Gruppe)")
@@ -15,37 +15,37 @@ sidebar_label: 'Messaggio di errore della gestione del carico multilivello'
     [Eseguire l'aggiornamento del firmware](/konfiguration/firmware-update) almeno alla versione 0.0.25
 
 
-![Messaggio di errore della gestione del carico multilivello – Figura 3](/img/stoerungsbehebung-multilevel-lastmanagement-fehlermeldung/03.png)
+![Messaggio di errore gestione del carico multilivello – figura 3](/img/stoerungsbehebung-multilevel-lastmanagement-fehlermeldung/03.png)
 
-- Il gruppo di gestione del carico è stato creato con Pico che supportano il bilanciamento delle fasi. Ogni ulteriore Pico deve supportare anch'essa il bilanciamento delle fasi. Questa funzione può essere aggiunta con un [aggiornamento del firmware](/konfiguration/firmware-update) alla versione 0.0.34 o successiva.
+- Il gruppo di gestione del carico è stato creato con Pico che supportano il bilanciamento delle fasi. Anche ogni altra Pico deve supportare il bilanciamento delle fasi. Questa funzione può essere aggiunta con un [aggiornamento del firmware](/konfiguration/firmware-update) alla versione 0.0.34 o successiva.
 
 
-![Messaggio di errore della gestione del carico multilivello – Figura 4](/img/stoerungsbehebung-multilevel-lastmanagement-fehlermeldung/04.png)
+![Messaggio di errore gestione del carico multilivello – figura 4](/img/stoerungsbehebung-multilevel-lastmanagement-fehlermeldung/04.png)
 
-![Messaggio di errore della gestione del carico multilivello – Figura 5](/img/stoerungsbehebung-multilevel-lastmanagement-fehlermeldung/05.png)
+![Messaggio di errore gestione del carico multilivello – figura 5](/img/stoerungsbehebung-multilevel-lastmanagement-fehlermeldung/05.png)
 
 - Nessun testo inserito nel campo "Nome" ("Name")
 
 
-![Messaggio di errore della gestione del carico multilivello – Figura 6](/img/stoerungsbehebung-multilevel-lastmanagement-fehlermeldung/06.png)
+![Messaggio di errore gestione del carico multilivello – figura 6](/img/stoerungsbehebung-multilevel-lastmanagement-fehlermeldung/06.png)
 
 - Un gruppo di carico Pico o un hardware del contatore utilizzato in precedenza è stato eliminato lato hardware.
     L'MLM deve essere configurato di nuovo per ripristinare la funzione.
 
-- Elimini sempre i gruppi di carico Pico interessati prima dall'albero MLM e solo dopo sull'hardware, per non compromettere la configurazione.
+- Elimina sempre i gruppi di carico Pico interessati prima dall'albero MLM e solo dopo sull'hardware, per non compromettere la configurazione.
 
 
 ## A un gruppo viene sempre assegnata troppo poca corrente
 
 Le cause possono essere le seguenti:
 
-- La capacità non è sufficiente per tutti i gruppi --> Riduca leggermente le correnti dei gruppi per ottenere un equilibrio tra i gruppi.
+- Non c'è abbastanza capacità per tutti i gruppi --> Riduci leggermente le correnti dei gruppi per ottenere un equilibrio tra i gruppi.
 
-- La capacità non è sufficiente per tutti i gruppi --> Riduca temporaneamente le correnti dei gruppi con l'impostazione di gruppo della corrente minima per ora.
+- Non c'è abbastanza capacità per tutti i gruppi --> Riduci temporaneamente le correnti dei gruppi con l'impostazione di gruppo della corrente minima per ora.
 
 
 ## Ai gruppi viene sempre messa a disposizione solo la corrente in caso di interruzione di Internet
 
-![Messaggio di errore della gestione del carico multilivello – Figura 7](/img/stoerungsbehebung-multilevel-lastmanagement-fehlermeldung/07.png)
+![Messaggio di errore gestione del carico multilivello – figura 7](/img/stoerungsbehebung-multilevel-lastmanagement-fehlermeldung/07.png)
 
-- L'MLM non è attivo e, per sicurezza, distribuisce quindi solo la corrente in caso di interruzione di Internet --> Attivare l'MLM ("MLM Aktivieren") e premere Salva ("Speichern").
+- L'MLM non è attivo e, per sicurezza, distribuisce quindi solo la corrente in caso di interruzione di Internet --> Attiva l'MLM ("Aktivieren") e premi Salva ("Speichern").

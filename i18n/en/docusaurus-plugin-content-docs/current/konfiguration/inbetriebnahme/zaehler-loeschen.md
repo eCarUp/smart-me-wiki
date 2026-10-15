@@ -2,19 +2,19 @@
 title: 'Delete meter'
 slug: '/konfiguration/inbetriebnahme/zaehler-loeschen'
 description: 'This page describes how to delete or deactivate a meter.'
-sidebar_label: 'Delete / deactivate meter'
+sidebar_label: 'Delete meter'
 ---
 This page describes how to delete or deactivate a meter.
 
 ## General
 
-The data of a deleted meter is permanently erased and cannot be restored.
+The data of a deleted meter is permanently deleted and cannot be restored.
 
-smart-me generally does not recommend deleting meters. We recommend deactivating meters instead. Deactivated meters do not incur any license costs, and you can access the historical data at any time.
+As a rule, smart-me does not recommend deleting meters. We generally recommend deactivating meters instead. Deactivated meters do not incur any license costs, and you can access the historical data at any time.
 
 For M-Bus meters, deleting is not effective: if the meters are still online, they reappear in the portal at the next reading. In this case, deactivation is the only option.
 
-## Deactivate meter
+## Deactivate a meter
 
 - Log in to the portal
 
@@ -35,7 +35,7 @@ For M-Bus meters, deleting is not effective: if the meters are still online, the
 
 ![Delete meter – Figure 1](/img/konfiguration-inbetriebnahme-zaehler-loeschen/01.png)
 
-## Deactivate Pico
+## Deactivate a Pico
 
 - Log in to the portal
 
@@ -56,9 +56,9 @@ For M-Bus meters, deleting is not effective: if the meters are still online, the
 
 ![Delete meter – Figure 2](/img/konfiguration-inbetriebnahme-zaehler-loeschen/02.png)
 
-## Delete meter
+## Delete a meter
 
-- Deletion is irreversible
+- Deleting is irreversible
 
 - Log in to the portal
 
@@ -77,6 +77,5 @@ For M-Bus meters, deleting is not effective: if the meters are still online, the
 - Select the arrow at the top left to return to the main overview.
 
 - The meter is now deleted.
-
 
 ![Delete meter – Figure 3](/img/konfiguration-inbetriebnahme-zaehler-loeschen/03.png)

@@ -114,9 +114,18 @@ Damit Power Query später weiss, in welcher Tabelle die Variable zu finden ist, 
 
 ### Variabelnfeld formatieren (Textfeld)
 
+<div className="row">
+<div className="col col--6">
+
 Damit das Datum später auch verwendet werden kann, muss der Inhalt als Text formatiert werden. Dazu markierst du die Tabelle und wählst oben das Format Text aus.
 
+</div>
+<div className="col col--6 text--center">
+
 ![Microsoft Excel – Abbildung 15](/img/drittsysteme-microsoft-excel/15.png)
+
+</div>
+</div>
 
 ### Die Variable in Power Query abfragen
 

@@ -16,9 +16,18 @@ Hier findest du eine Nutzeranleitung für dein Dashboard als Mieter. Erfahre wo 
 
 ## Visualisierungen konfigurieren
 
+<div className="row">
+<div className="col col--6">
+
 Eine Visualisierung wird auf einem Ordner erstellt. Wenn du in der App oder im Web auf den Ordner klickst, wird die entsprechende Visualisierung angezeigt. 
 
+</div>
+<div className="col col--6 text--center">
+
 ![Visualisierung und Public Links – Abbildung 1](/img/konfiguration-visualisierung/01.png)
+
+</div>
+</div>
 
 ### Visualisierungen erstellen
 

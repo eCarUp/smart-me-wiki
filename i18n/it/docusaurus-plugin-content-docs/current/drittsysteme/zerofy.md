@@ -1,14 +1,12 @@
 ---
 title: 'zerofy'
 slug: '/drittsysteme/zerofy'
-description: 'Zerofy è un sistema di gestione dell''energia domestica (HEMS) basato su cloud.'
+description: 'Zerofy è un sistema di gestione dell''energia domestica (HEMS) basato sul cloud.'
 sidebar_label: 'zerofy'
 ---
-Zerofy è un sistema di gestione dell'energia domestica (HEMS) basato su cloud. Zerofy ottimizza il consumo energetico domestico, l'utilizzo dell'energia solare e la ricarica dei veicoli elettrici grazie ad algoritmi intelligenti.
+Zerofy è un sistema di gestione dell'energia domestica (HEMS) basato sul cloud. Zerofy ottimizza il consumo di energia in casa, l'utilizzo dell'energia solare e la ricarica dei veicoli elettrici con algoritmi intelligenti.
 
 Si integra con i contatori smart-me per commutare gli apparecchi in caso di eccedenza solare e per monitorare consumo e produzione.
-
-
 
 Destinatari: case unifamiliari / utenti smart-me con account.
 
@@ -18,21 +16,21 @@ Piattaforme: iOS e Android.
 
 Funzionalità:
 
-- Si integra con un'ampia gamma di inverter solari, caricatori e veicoli elettrici, apparecchi di riscaldamento, ventilazione e climatizzazione, nonché elettrodomestici intelligenti e prese intelligenti.
+- Si integra con un'ampia gamma di inverter solari, caricatori e veicoli elettrici, apparecchi di riscaldamento, ventilazione e climatizzazione, nonché elettrodomestici intelligenti e prese smart.
 
-- Per collegare gli apparecchi è sufficiente accedere agli account cloud degli apparecchi stessi.
+- Per collegare gli apparecchi è sufficiente accedere agli account cloud degli apparecchi.
 
 - Commutazione automatica degli apparecchi (ad es. caricatore per veicoli elettrici, pompa di calore) in base all'eccedenza fotovoltaica e/o a tariffe dinamiche tramite i nostri algoritmi.
 
-- Visualizzazione dei maggiori consumatori e accensione/spegnimento manuale.
+- Visualizzazione delle utenze con il maggior consumo e accensione/spegnimento manuale.
 
-- Monitoraggio del consumo energetico con ripartizione per singolo apparecchio collegato.
+- Monitoraggio del consumo di energia con ripartizione per singolo apparecchio collegato.
 
 - Monitoraggio della produzione di energia solare.
 
 - Monitoraggio delle emissioni di CO2 complessive e per apparecchio.
 
-- Consultazione dei prezzi attuali dell'elettricità e dell'intensità di CO2 dell'elettricità di rete.
+- Visualizzazione dei prezzi attuali dell'elettricità e dell'intensità di CO2 dell'elettricità di rete.
 
 
 Contatto:

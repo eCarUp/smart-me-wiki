@@ -1,15 +1,15 @@
 ---
 title: 'Compteur triphasé'
 slug: '/produkte/3-phasen-zähler'
-description: 'Le compteur triphasé smart-me est un compteur d''énergie performant et précis doté d''une interface WiFi intégrée.'
+description: 'Le compteur triphasé smart-me est un compteur d''énergie puissant et précis doté d''une interface WiFi intégrée.'
 sidebar_label: 'Compteur triphasé'
 displayed_sidebar: wikiSidebar
 ---
-Le compteur triphasé smart-me est un compteur d'énergie performant et précis doté d'une interface WiFi intégrée. Aucun matériel supplémentaire n'est nécessaire pour l'intégration dans le smart-me Cloud. Il utilise le réseau WiFi existant et peut être commandé et analysé de partout via Internet. Avec un abonnement Professional, les valeurs du compteur peuvent également être interrogées via l'interface Modbus TCP. Avec la version 5(32)A, chaque phase peut être commutée individuellement.
+Le compteur triphasé smart-me est un compteur d'énergie puissant et précis doté d'une interface WiFi intégrée. Aucun matériel supplémentaire n'est nécessaire pour l'intégration dans le smart-me Cloud. Il utilise le réseau WiFi existant et peut être piloté et analysé de partout via Internet. Avec un abonnement Professional, les valeurs du compteur peuvent également être interrogées via l'interface Modbus TCP. Sur la version 5(32)A, chaque phase peut être commutée individuellement.
 
 Ce compteur triphasé n'est plus disponible. Vous trouverez la nouvelle génération de notre compteur triphasé ici : [Compteur triphasé Telstar](/produkte/telstar)
 
-![Compteur triphasé – Illustration 1](/img/produkte-3-phasen-zaehler/01.png)
+![Compteur triphasé – illustration 1](/img/produkte-3-phasen-zaehler/01.png)
 
 ## Variantes
 
@@ -25,21 +25,21 @@ Ce compteur triphasé n'est plus disponible. Vous trouverez la nouvelle généra
 
 - Valeurs de mesure en temps réel avec la plus haute précision, classe B
 
-- Sorties de contact supplémentaires pour commander des appareils externes
+- Sorties de contact supplémentaires pour piloter des appareils externes
 
-- Le compteur triphasé fonctionne également comme passerelle vers le cloud pour (presque) tous les appareils Smart-Energie compatibles IP
+- Le compteur triphasé sert également de passerelle vers le Cloud pour (presque) tous les appareils Smart Energy compatibles IP
 
 - Installation simple avec l'application smart-me gratuite pour Android et iOS
 
-- Connexion WiFi chiffrée directement vers le smart-me Cloud. Le smart-me Cloud offre une gestion de l'énergie complète : visualisations, commande (actions si/alors), facturation automatique (smart-me Billing) et interfaces vers des systèmes tiers (Auto Export, API)
+- Connexion WiFi chiffrée directement vers le smart-me Cloud. Le smart-me Cloud offre une gestion de l'énergie complète : visualisations, pilotage (actions si/alors), facturation automatique (smart-me Billing) et interfaces vers des systèmes tiers (Auto Export, API)
 
 ## Installation
 
 Avant de pouvoir utiliser votre appareil smart-me, vous devez le connecter à votre réseau WiFi et à Internet.
 
-1.  Connectez votre smartphone ou votre tablette au WLAN.
+1.  Connectez votre smartphone ou votre tablette au réseau WLAN.
 
-2.  Téléchargez et installez l'application smart-me depuis le Playstore ou l'iOS Store.
+2.  Téléchargez et installez l'application smart-me depuis le Play Store ou l'App Store iOS.
 
 3.  Lancez l'application et créez un compte ou connectez-vous avec le compte correspondant.
 
@@ -51,17 +51,17 @@ Tension de service 3 x 230 VAC
 
 Courant de référence 5 (80) A / 5 (32) A
 
-Consommation propre &lt; 0.8 W par phase
+Autoconsommation &lt; 0.8 W par phase
 
 Température de stockage -40°C à 85°C
 
 Plage de température -25°C à 70°C
 
-Humidité de l'air moyenne annuelle 75%, brièvement 95%, sans condensation
+Humidité de l'air moyenne annuelle 75%, temporairement 95%, sans condensation
 
 Précision classe B
 
-Type de compteur compteur bidirectionnel (soutirage et fourniture)
+Type de compteur compteur bidirectionnel (soutirage et injection)
 
 Valeurs de mesure 
 
@@ -79,7 +79,7 @@ Valeurs de mesure
 
     - En plus avec l'abonnement Professional : énergie réactive (kvarh), puissance réactive (kvarh)
 
-Tarifs 2 (tarifs virtuels configurables côté cloud)
+Tarifs 2 (tarifs virtuels configurables côté Cloud)
 
 Interfaces 
 
@@ -95,9 +95,9 @@ Interfaces
 
 Sorties d'impulsions / sorties numériques S0, S1 Opto Power MOSFET, 5 - 48VDC  / 5 - 230 VAC , max. 550mW
 
-Standard WiFi 802.11 b/g/n
+Norme WiFi 802.11 b/g/n
 
-Standard de sécurité WiFi WEP, WPA, WPA2 (personal)
+Norme de sécurité WiFi WEP, WPA, WPA2 (personal)
 
 Valeur d'impulsion S0 10’000 ou 1’000 impulsions par kWh
 
@@ -115,11 +115,11 @@ Montage rail DIN
 
 ## Configurer les entrées et sorties
 
-Le compteur smart-me dispose de deux sorties et d'une entrée, qui peuvent être utilisées comme entrées et sorties d'impulsions ou comme contact libre de potentiel commutable. Vous trouverez plus de détails [ici](/schnittstellen/ein_und_ausgaenge). 
+Le compteur smart-me dispose de deux sorties et d'une entrée, qui peuvent être utilisées comme entrées et sorties d'impulsions ou comme contact commutable libre de potentiel. Vous trouverez plus de détails [ici](/schnittstellen/ein_und_ausgaenge). 
 
 ## Écran
 
-Le compteur dispose d'un affichage défilant. Les points décrits ci-dessous s'affichent les uns après les autres. Après le dernier point, l'affichage recommence au point 1 :
+Le compteur dispose d'un affichage défilant. Les points décrits ci-dessous s'affichent successivement. Après le dernier point, l'affichage recommence au point 1 :
 
 1.  Ordre des phases (en cas d'erreur, voir ci-dessous)
 
@@ -127,8 +127,8 @@ Le compteur dispose d'un affichage défilant. Les points décrits ci-dessous s'a
 
 1-8-1: Énergie active tarif 1 import (soutirage)
 1-8-2: Énergie active tarif 2 import (soutirage)
-2-8-1: Énergie active tarif 1 export (fourniture)
-2-8-2: Énergie active tarif 2 export (fourniture)
+2-8-1: Énergie active tarif 1 export (injection)
+2-8-2: Énergie active tarif 2 export (injection)
 
 3.  Version du logiciel
 
@@ -144,7 +144,7 @@ PhL 123 -> un ordre des phases incorrect a été détecté
 
 ### Dimensions \[mm\]
 
-![Compteur triphasé – Illustration 2](/img/produkte-3-phasen-zaehler/02.png)
+![Compteur triphasé – illustration 2](/img/produkte-3-phasen-zaehler/02.png)
 
 Attention : les fichiers .DXF et .DWG se trouvent dans l'archive ZIP dans les téléchargements.
 
@@ -160,27 +160,27 @@ T1: touche pour l'installation
 
 T2: fonctions spéciales
 
-Court : si T2 est pressée brièvement, la LED verte s'allume / s'éteint. Lorsqu'elle est activée, elle indique l'état de la connexion :
+Courte : si T2 est pressée brièvement, la LED verte s'allume / s'éteint. Lorsqu'elle est activée, elle indique l'état de la connexion :
 
 Vert fixe : connecté au smart-me Cloud 
 
 Vert clignotant : pas de connexion
 
-Long : si T2 est pressée longuement, l'affichage du relevé du compteur d'énergie réactive est activé (si disponible). Les points relevé du compteur énergie réactive T1 et relevé du compteur énergie réactive T2 sont ajoutés à la séquence d'affichage. La valeur affichée clignote et peut ainsi être distinguée de l'énergie active.
+Longue : si T2 est pressée longuement, l'affichage du relevé du compteur d'énergie réactive est activé (si disponible). Les points relevé du compteur énergie réactive T1 et relevé du compteur énergie réactive T2 sont ajoutés au cycle d'affichage. La valeur affichée clignote et peut ainsi être distinguée de l'énergie active.
 
-ATTENTION : ce réglage modifie uniquement l'affichage sur l'écran, pas dans le smart-me Cloud (application et site web). Si l'énergie réactive doit être affichée dans le cloud, cela doit être fait dans les paramètres généraux. (Lorsque vous appuyez sur T2, la LED rouge s'allume ; T2 doit rester enfoncée jusqu'à ce que la LED rouge s'éteigne)
+ATTENTION : ce réglage modifie uniquement l'affichage à l'écran, pas dans le smart-me Cloud (application et site web). Pour afficher l'énergie réactive dans le Cloud, il faut l'activer dans les paramètres généraux. (Lorsque T2 est pressée, la LED rouge s'allume ; T2 doit rester pressée jusqu'à ce que la LED rouge s'éteigne)
 
 S0\_0: sortie d'impulsions S0 (en option contact libre de potentiel / attention Pmax = 550mW en continu)
 
 S0\_1: sortie d'impulsions S0 (en option contact libre de potentiel / attention Pmax = 550mW en continu)
 
-![Compteur triphasé – Illustration 3](/img/produkte-3-phasen-zaehler/03.jpg)
+![Compteur triphasé – illustration 3](/img/produkte-3-phasen-zaehler/03.jpg)
 
 ## Valeurs de mesure (codes OBIS)
 
-Les valeurs de mesure suivantes sont enregistrées par le compteur et peuvent être consultées dans le cloud et via l'API
+Les valeurs de mesure suivantes sont enregistrées par le compteur et sont consultables dans le Cloud et via l'API
 
-[](https://drive.google.com/open?id=1-f4I5ZWg1-PAHNpzCsQ0aBqrL9k93lH8q9AuN8toJgI "Ouvrir le tableur, valeurs de mesure (codes OBIS inclus) compteur triphasé V1 dans une nouvelle fenêtre")
+[](https://drive.google.com/open?id=1-f4I5ZWg1-PAHNpzCsQ0aBqrL9k93lH8q9AuN8toJgI "Ouvrir le tableur Valeurs de mesure (codes OBIS inclus) compteur triphasé V1 dans une nouvelle fenêtre")
 
 <Embed src="https://docs.google.com/spreadsheets/d/1-f4I5ZWg1-PAHNpzCsQ0aBqrL9k93lH8q9AuN8toJgI/htmlembed" height="655px" title="Tableur, valeurs de mesure (codes OBIS inclus) compteur triphasé V1" />
 
@@ -209,7 +209,7 @@ Documents techniques
 <details id="in-welchem-intervall-senden-die-zähler-daten">
 <summary>À quel intervalle les compteurs envoient-ils des données ?</summary>
 
-- Toutes les 15 minutes, c'est-à-dire à xx:00:00 xx:15:00, xx:30:00 et xx:45:00. Les données nécessaires à la courbe de charge sont ainsi envoyées. En cas d'interruption de la connexion, ces données sont enregistrées localement et envoyées ultérieurement.
+- Toutes les 15 minutes, soit à xx:00:00, xx:15:00, xx:30:00 et xx:45:00. Les données nécessaires à la courbe de charge sont ainsi envoyées. En cas d'interruption de la connexion, ces données sont enregistrées localement et envoyées ultérieurement.
 
 - En plus, une configuration individuelle peut être effectuée :
 

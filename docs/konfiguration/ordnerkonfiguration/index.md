@@ -12,12 +12,20 @@ Video Anleitung Ordner erstellen und Zähler zuordnen
 
 ### Navigation zum Bereich Zähler und Ordnerkonfiguration
 
+<div className="row">
+<div className="col col--6">
+
 1.  Logge dich auf der [smart-me Webseite](https://web.smart-me.com/) ein.
 
 2.  Navigiere links im Menü zu "Zähler- und Ordnerkonfiguration"
 
+</div>
+<div className="col col--6 text--center">
 
 ![Zähler- und Ordnerkonfiguration – Abbildung 1](/img/konfiguration-ordnerkonfiguration/01.png)
+
+</div>
+</div>
 
 ### Funktionsbeschreibung der Aktionen
 
@@ -66,6 +74,9 @@ Zähler fallen dann zurück auf die Linke Seite als nicht zugeordneter Zähler.
 
 ### Zähler beschriften
 
+<div className="row">
+<div className="col col--8">
+
 - Alle Zähler müssen im entsprechenden Account installiert sein. [Inbetriebnahme](/konfiguration/inbetriebnahme) 
 
 - Alle Zähler müssen beschriftet werden. Unsere Vorschläge für die Zählerbezeichnunge 
@@ -74,10 +85,18 @@ Zähler fallen dann zurück auf die Linke Seite als nicht zugeordneter Zähler.
 
     - Medium Nutzeinheit Zählernummer (z.B. Wärme WHG 1)
 
+</div>
+<div className="col col--4 text--center">
 
 ![Zähler- und Ordnerkonfiguration – Abbildung 5](/img/konfiguration-ordnerkonfiguration/05.png)
 
+</div>
+</div>
+
 ### Kaltwasserzähler umwandeln zu Warmwasserzählern (falls nötig)
+
+<div className="row">
+<div className="col col--7">
 
 Gewisse M-Bus Zähler Hersteller geben bei der Datenübermittlung an, dass es sich um ein Kaltwasserzähler handelt. Dies, obwohl es ein Warmwasserzähler sein sollte. In diesem Fall muss der Zähler Typ im smart-me übersteuert werden.
 
@@ -93,12 +112,17 @@ Gewisse M-Bus Zähler Hersteller geben bei der Datenübermittlung an, dass es si
 
 - Speichern
 
-
 Hinweis: Diese Anpassung führt zu einer Unterstützung im smart-me Billing. Der Auto-Export für Energieversorger wird damit nicht verändert.
 
 Hinweis: Diese Manipulation ist mit Wärme- und Kältezähler aus technischen Gründen nicht möglich.
 
+</div>
+<div className="col col--5 text--center">
+
 ![Zähler- und Ordnerkonfiguration – Abbildung 6](/img/konfiguration-ordnerkonfiguration/06.png)
+
+</div>
+</div>
 
 ### Ordnerstrukturen und deren Einfluss auf Folgeprozesse
 
@@ -129,6 +153,7 @@ Die grundlegende Struktur für jede Energieform und jedes Gebäude besteht aus z
         - ...
 
 - Technische Zähler (Sammlung von nicht direkt abgerechneter Zählerpunkte)
+
     Hier dürfen beliebig viele Unterordner zur strukturierung entstehen. 
 
     - -   -   Bilanzzähler
@@ -140,7 +165,6 @@ Die grundlegende Struktur für jede Energieform und jedes Gebäude besteht aus z
             - Wärmezähler die Prozentual verteilt werden auf Abrechnungseinheiten
 
             - Wasserzähler die Prozentual verteilt werden auf Abrechnungseinheiten
-
 
 ![Zähler- und Ordnerkonfiguration – Abbildung 7](/img/konfiguration-ordnerkonfiguration/07.png)
 

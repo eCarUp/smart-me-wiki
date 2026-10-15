@@ -4,11 +4,12 @@ slug: '/drittsysteme/soleco'
 description: 'Die Firma Soleco AG erfüllt mit ihrem Produkt Soleco Optimizer die Wünsche ihrer Kunden bezüglich Eigenverbrauch und Energiekostenoptimierung, unterstützt durch die Messtechnolo…'
 sidebar_label: 'Soleco'
 ---
+<div className="row">
+<div className="col col--7">
+
 Die Firma Soleco AG erfüllt mit ihrem Produkt Soleco Optimizer die Wünsche ihrer Kunden bezüglich Eigenverbrauch und Energiekostenoptimierung, unterstützt durch die Messtechnologie von smart-me.
 
 Anwendungen: Einfamilien-, Reiheneinfamilien- und Mehrfamilienhäuser
-
-
 
 Die Vorteile:
 
@@ -19,8 +20,6 @@ Elektroauto rechtzeitig geladen. Massgeschneidert auf Ihre persönlichen Bedürf
 Diese Aufgaben übernimmt der Soleco Optimizer für Sie im Hintergrund, zuverlässig, kostengünstig und mit modernster Technik.
 Auf der Benutzeroberfläche finden Interessierte jederzeit verschiedene aktualisierte graphische Auswertungen.
 Der Bezug von Strom aus dem Netz wird mit der Wettervorhersage hinsichtlich der Stromtarife und Stromertrag aus der Photovoltaik im Zusammenspiel mit den Verbrauchern ganzheitlich optimiert. Dieser neue Ansatz bringt signifikante Kosteneinsparungen, ohne jegliche Komforteinbussen.
-
-
 
 Kontakt:
 
@@ -33,13 +32,15 @@ Tel.: +41 79 223 39 89
 Email: [info@soleco.ch](mailto:info@soleco.ch) 
 Webseite: [www.soleco.ch](http://www.soleco.ch)  
 
-
-
-
+</div>
+<div className="col col--5 text--center">
 
 ![Soleco Optimizer – Abbildung 1](/img/drittsysteme-soleco/01.png)
 
 ![Soleco Optimizer – Abbildung 2](/img/drittsysteme-soleco/02.png)
+
+</div>
+</div>
 
 ![Soleco Optimizer – Abbildung 3](/img/drittsysteme-soleco/03.png)
 

@@ -1,16 +1,25 @@
 ---
 title: 'SMARTFOX'
 slug: '/drittsysteme/smartfox'
-description: 'I dispositivi smart-me possono essere integrati in modo diretto e semplice in un''installazione SMARTFOX.'
+description: 'I dispositivi smart-me possono essere integrati direttamente e facilmente in un''installazione SMARTFOX.'
 sidebar_label: 'SMARTFOX'
 ---
-I dispositivi smart-me possono essere integrati in modo diretto e semplice in un'installazione SMARTFOX.
+<div className="row">
+<div className="col col--7">
+
+I dispositivi smart-me possono essere integrati direttamente e facilmente in un'installazione SMARTFOX.
+
+</div>
+<div className="col col--5 text--center">
 
 ![SMARTFOX – Figura 1](/img/drittsysteme-smartfox/01.png)
 
-Grazie all'impiego dell'energy manager intelligente SMARTFOX Pro, che monitora e regola costantemente la produzione e il consumo di elettricità, è possibile spostare il consumo di apparecchi elettrici come pompe di calore, stazioni di ricarica ecc. nelle ore di sole e aumentare sia la quota di autoconsumo sia il grado di autosufficienza.
+</div>
+</div>
 
-Gruppo target:
+Con l'impiego dell'intelligente energy manager SMARTFOX Pro, che monitora e regola costantemente la produzione e il consumo di elettricità, è possibile spostare il consumo di apparecchi elettrici come pompe di calore, stazioni di ricarica ecc. nelle ore di sole e aumentare sia la quota di autoconsumo sia il grado di autarchia.
+
+Destinatari:
 
 - Casa unifamiliare
 
@@ -18,16 +27,13 @@ Gruppo target:
 
 - Casa plurifamiliare
 
-
 Tipo di collegamento:
 
 - Integrazione diretta tramite Modbus TCP per la comunicazione locale.
 
-
 Requisito:
 
 - Licenze smart-me Professional. [Per saperne di più](/planung/cloud-lizenzen)
-
 
 ![SMARTFOX – Figura 2](/img/drittsysteme-smartfox/02.png)
 
@@ -56,11 +62,14 @@ Possibilità di impiego:
 
 
 
-## Istruzioni per il collegamento del contatore smart-me con SMARTFOX
+## Istruzioni per il collegamento del contatore smart-me a SMARTFOX
 
 [Istruzioni complete per il collegamento](https://drive.google.com/file/d/1FaH_zWsVsDhH9CMsMmJ5JkJ0OZN69d2J/view?usp=drive_link) con tutti i dettagli
 
 ### Guida rapida
+
+<div className="row">
+<div className="col col--6">
 
 1.  [Individuare l'indirizzo IP del contatore smart-me](/schnittstellen/modbus-tcp#determinare-lindirizzo-ip-con-il-nome-dns).
 
@@ -72,17 +81,22 @@ Possibilità di impiego:
 
 5.  Salvare.
 
+</div>
+<div className="col col--6 text--center">
 
 ![SMARTFOX – Figura 3](/img/drittsysteme-smartfox/03.png)
 
+</div>
+</div>
+
 ## Contatto:
 
-DAfi GmbH ⏐ Niedernfritzerstrasse 120
+<Kacheln min="20rem">
+<Kachel titel="DAfi GmbH">
 
-5531 Eben im Pongau ⏐ AUSTRIA
+Niedernfritzerstrasse 120, 5531 Eben im Pongau, AUSTRIA
 
-Tel.: +43 (0)720 302 555
++43 (0)720 302 555 · [support@smartfox.at](mailto:support@smartfox.at) · [www.smartfox.at](http://www.smartfox.at)
 
-E-mail: [support@smartfox.at](mailto:support@smartfox.at) 
-
-Web: [www.smartfox.at](http://www.smartfox.at)
+</Kachel>
+</Kacheln>

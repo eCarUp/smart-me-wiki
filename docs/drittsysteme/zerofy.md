@@ -8,8 +8,6 @@ Zerofy ist ein cloud-basiertes Heimenergiemanagementsystem (HEMS). Zerofy optimi
 
 Es integriert sich mit smart-me Zählern, um Geräte bei Solarüberschuss zu schalten und Verbrauch sowie Produktion zu verfolgen.
 
-
-
 Zielgruppe: Einfamilienhäuser / smart-me Nutzer mit Account.
 
 Plattformen: iOS und Android.

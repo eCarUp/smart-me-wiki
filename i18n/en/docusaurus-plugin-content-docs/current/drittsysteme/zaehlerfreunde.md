@@ -4,20 +4,18 @@ slug: '/drittsysteme/zaehlerfreunde'
 description: 'Zählerfreunde offers tailor-made solutions for individual installations, tenant electricity projects, energy suppliers and municipal utilities.'
 sidebar_label: 'Zaehlerfreunde'
 ---
-Zählerfreunde offers tailor-made solutions for individual installations, tenant electricity projects, energy suppliers and municipal utilities. The solution is based on a web- or app-based platform that enables tenants, landlords and project operators to better monitor and manage electricity consumption and electricity production.
-
-
+Zählerfreunde offers tailor-made solutions for individual installations, tenant electricity projects, energy suppliers and municipal utilities. The solution is based on a web or app-based platform that enables tenants, landlords and project operators to better monitor and manage electricity consumption and electricity production.
 
 Target group: smart-me users, energy suppliers and tenants with a smart-me account
 
 Note:
-Within tenant electricity installations, the tariff switch only works for the tenant electricity installation operator
+Within tenant electricity installations, the tariff switch only works for the operator of the tenant electricity installation
 
 ![Zählerfreunde – Figure 1](/img/drittsysteme-zaehlerfreunde/01.png)
 
 Comprehensive solution
 
-Of course, we support all common browsers. In addition, on request we publish and maintain your own mobile app: for Android and iOS.
+Of course, we support all common browsers. On request, we also publish and maintain your own mobile app: for Android as well as iOS.
 
 ![Zählerfreunde – Figure 2](/img/drittsysteme-zaehlerfreunde/02.png)
 
@@ -44,7 +42,7 @@ Transparent, cross-utility visualization. Thanks to our modular structure, you c
 
 Support for additional devices
 
-Your customers have PV systems, wallboxes, digital electricity meters? We visualize (almost) everything! Users have the option to add further smart devices. Do you offer battery storage, for example? Great, sell it directly via the platform and then have it visualized.
+Your customers have PV systems, wallboxes, digital electricity meters? We visualize (almost) everything! Users can add further smart devices. Do you offer battery storage systems, for example? Great – sell them directly via the platform and then have them visualized.
 
 ![Zählerfreunde – Figure 4](/img/drittsysteme-zaehlerfreunde/04.png)
 
@@ -56,7 +54,7 @@ Offer your existing customers new tariff products such as flexible tariffs. If r
 
 Simulator
 
-With the Zählerfreunde Simulator, customers can test how a specific PV system or battery storage affects their annual costs and their CO2 footprint. The calculations are based on individual consumption and geostationary weather data. If you sell suitable products for this, we will help you offer them via the simulator.
+With the Zählerfreunde simulator, customers can test how a specific PV system or battery storage system affects their annual costs and their CO2 footprint. The calculations are based on individual consumption and geostationary weather data. If you sell suitable products for this, we will help you offer them via the simulator.
 
 ![Zählerfreunde – Figure 6](/img/drittsysteme-zaehlerfreunde/06.png)
 
@@ -64,24 +62,24 @@ Tenant electricity portal solution
 
 Underline your tenant electricity offering with a comprehensive end-customer solution.
 
-- Visualization: All relevant views such as consumption/costs/CO2 etc.
+- Visualization: all relevant views such as consumption/costs/CO2 etc.
 
 - Add further IoT devices to the dashboard
 
 - Local electricity and residual electricity consumption
 
-- PV ratio
+- PV share
 
 - Display of consumption bills (+ download option)
 
-- Admin access: Intuitive portfolio overview, CSV export of all metering and cost points, project import and much more
+- Admin access: intuitive portfolio overview, CSV export of all measurement and cost points, project import and much more
 
 
 Sustainable tariff switch (Germany only)
 
 Never worry about the tedious tariff switch again!
 
-Either switch your electricity tariff once, or conveniently have it switched automatically every year (certified green electricity guaranteed). This saves you a lot of money every year while supporting a non-profit project of your choice.
+Have your electricity tariff switched either once or conveniently and automatically every year (certified green electricity guaranteed). This saves you a lot of money every year while supporting a non-profit project of your choice.
 
 
 

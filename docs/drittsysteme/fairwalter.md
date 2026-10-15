@@ -10,14 +10,11 @@ Private Vermieter/-innen erhalten eine übersichtliche und intuitiv verständlic
 
 Verwaltungen sparen Zeit und Geld beim Einrichten der Lösung, bei der Schulung der Mitarbeiter/-innen, und bei der Zusammenarbeit mit Eigentümer/-innen und Dienstleister/-innen. Als Weblösung passt sich Fairwalter deinen Prozessen an; binde per Schnittstelle externe Lösungen ein und gestalte interne Prozesse flexibel.
 
-
-
 - Fairwalter holt smart-me Daten direkt über API ab
 
 - Gut für Nebenkostenabrechnungen
 
 - Begrenzt bei der Abrechnung von elektrischer Energie (kein Solartarif)
-
 
 ![Fairwalter – Abbildung 1](/img/drittsysteme-fairwalter/01.png)
 

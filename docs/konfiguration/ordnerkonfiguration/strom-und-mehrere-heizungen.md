@@ -80,23 +80,30 @@ Auf diese Weise merkst du frühzeitig, wenn ein Zähler ausfällt und minimierst
 
 ## Konfiguration mit automatischer Stromrechnungsstellung
 
+<div className="row">
+<div className="col col--7">
+
 Vorteil:
 
 - Automatische Rechnungsstellung für Strom
 
 - Keine Doppelerfassung von Stromtarifen
 
-
 Nachteil:
 
 - Mehrfacherfassung von Mieterkontrakten
-
 
 Für diese Konfiguration muss eine zusätzliche Liegenschaft nur für Strom erstellt werden welche alle Wohnungen der drei Gebäude beinhaltet.
 
 Es werden in dieser Liegenschaft nur die Stromzähler zugeordnet.
 
+</div>
+<div className="col col--5 text--center">
+
 ![Strom und mehrere Heizungen – Abbildung 3](/img/konfiguration-ordnerkonfiguration-strom-und-mehrere-heizungen/03.png)
+
+</div>
+</div>
 
 ### Erstelle abschliessend die Alarme für einen Verbindungsaufall.
 

@@ -46,16 +46,27 @@ Um mehrere Updates parallel durchzuführen, kannst du mehrere Links, mittels Rec
 
 ### 2\. Wähle "Firmware aktualisieren"
 
+<div className="row">
+<div className="col col--5">
+
 Dauer bis zum Start: 
 
 - Bei Telstar (CT) und Pico kann es bis zu 5 Minuten dauern.
 
 - Bei M-Bus Gateway hängt es vom Upload-Intervall ab.
 
+</div>
+<div className="col col--7 text--center">
 
 ![Firmware Update – Abbildung 3](/img/konfiguration-firmware-update/03.png)
 
+</div>
+</div>
+
 ### 3\. Warte bis die Aktualisierung abgeschlossen ist und mit "OK" bestätigen
+
+<div className="row">
+<div className="col col--4">
 
 ⓘ Hinweis: Wenn die Aktualisierung begonnen hat (> 1%), muss der Browser nicht geöffnet bleiben.
 
@@ -67,10 +78,15 @@ Dauer bis zum Abschluss der Aktualisierung: 
 
 - Für M-Bus Gateway hängt es vom Upload-Intervall ab.
 
+</div>
+<div className="col col--8 text--center">
 
 ![Firmware Update – Abbildung 4](/img/konfiguration-firmware-update/04.png)
 
 ![Firmware Update – Abbildung 5](/img/konfiguration-firmware-update/05.png)
+
+</div>
+</div>
 
 ### Firmware Update beschleunigen
 

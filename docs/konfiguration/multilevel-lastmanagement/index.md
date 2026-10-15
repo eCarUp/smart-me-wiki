@@ -36,7 +36,6 @@ Beispiele für wichtige Verzweigpunkte:
 
 - Garagenabgang
 
-
 Im gleichen Zug wird beim Multilevel Lastmanagement die Solaroptimierung ermöglicht und Funktionen zur Lastspitzenglättung offeriert.
 
 Grenzen des dynamischen Multilevel Lastmanagements:
@@ -44,7 +43,6 @@ Grenzen des dynamischen Multilevel Lastmanagements:
 - Max. 1000 Geräte (Ladestationen + Referenzzähler)
 
 - Max. 50 Ast-Verzweigungen (Referenzpunkte)
-
 
 ![Multilevel Lastmanagement – Abbildung 1](/img/konfiguration-multilevel-lastmanagement/01.png)
 
@@ -97,15 +95,14 @@ Bei der Solaroptimierung auf den Arealanschluss, steht der Ladeinfrastruktur in 
 
 ### Minimaler Ladestrom: Indirekte Priorisierung und Lastspitzenglättung
 
+<div className="row">
+<div className="col col--6">
+
 Jede einzelne Pico-Lastgruppe kann mit einem zeitabhängigen minimalen Ladestrom versehen werden.
 
 Die Einstellung erfolgt flexibel pro Stunde des Tages.
 
 Diese Funktion ermöglicht einen minimalen Ladestrom unabhängig von anderen parallelen Optimierungen zur Verfügung zu stellen.
-
-
-
-
 
 Einzig eine Übertretene Stromlimitierung eines Astes würde darauf gegenteiligen Einfluss haben.
 
@@ -123,8 +120,6 @@ Ladestrom über Tag reduzieren um eine höhere Solarstrompriorisierung zu erreic
 
 Bevorzugen der Aussenparkplatzgruppen vor Tiefgaragenparkplätzen (Gruppenpriorisierungen)
 
-
-
 Priorisierung
 
 Die Einstellung des verfügbaren Minimalstromes einer Gruppe setzt eine gewisse Priorität gegenüber den andern Ladestationsgruppen voraus. Die Ladestationsgruppe mit dem höheren verfügbaren Minimalstrom zur gegebenen Zeit wird vom Algorithmus immer bevorzugt behandelt.
@@ -137,9 +132,15 @@ Ladegruppe B: Minimalstrom = 20A
 
 Ladegruppe B wird zuerst mit 20A versorgt und Ladegruppe A erhält den Rest.
 
+</div>
+<div className="col col--6 text--center">
+
 ![Multilevel Lastmanagement – Abbildung 6](/img/konfiguration-multilevel-lastmanagement/06.png)
 
 ![Multilevel Lastmanagement – Abbildung 7](/img/konfiguration-multilevel-lastmanagement/07.png)
+
+</div>
+</div>
 
 ### Verhalten des Multilevel Lastmanagements bei Internetausfall
 

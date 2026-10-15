@@ -97,11 +97,20 @@ Weiter gehts mit der NT Zeit
 
 ### NT Zeit erstellen
 
+<div className="row">
+<div className="col col--5">
+
 Klicke auf das "+" um ein neues Timing zu erstellen.
 
 Klicke auf "+" um eine weitere Aktion zu erfassen für die NT Zeit
 
+</div>
+<div className="col col--7 text--center">
+
 ![Tarifzeiten definieren – Abbildung 10](/img/konfiguration-wenndann-aktionen-tarifzeiten-definieren/10.png)
+
+</div>
+</div>
 
 ![Tarifzeiten definieren – Abbildung 11](/img/konfiguration-wenndann-aktionen-tarifzeiten-definieren/11.png)
 
@@ -153,9 +162,18 @@ Speichere die Einstellung
 
 ![Tarifzeiten definieren – Abbildung 19](/img/konfiguration-wenndann-aktionen-tarifzeiten-definieren/19.png)
 
+<div className="row">
+<div className="col col--4">
+
 Jetzt wo du die relevanten Tarifzeiten definiert hast, kehre zurück zu der Tarifdefinition um den Tarifen die Timings zuzuweisen.
 
+</div>
+<div className="col col--8 text--center">
+
 ![Tarifzeiten definieren – Abbildung 20](/img/konfiguration-wenndann-aktionen-tarifzeiten-definieren/20.png)
+
+</div>
+</div>
 
 ### Nächster Schritt: Tarife mit Tarifzeiten definieren
 

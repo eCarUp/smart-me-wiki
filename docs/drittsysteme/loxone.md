@@ -150,10 +150,10 @@ curl -X "GET" "https://api.smart-me.com/Devices" -H "accept: \*/\*" -H "Authoriz
     - Name des HTML Files hinterlegt. Dabei ist für denselben Befehl derselben Name wie oben notwendig. z.B. bilanz.html. 
 
 - Beispiel von einem Befehl:
+
     [https://admin:sicheres\_admin\_passwort@127.0.0.1/bilanz.html](https://admin:sicheres_admin_passwort@127.0.0.1/bilanz.html)
 
 - [https://admin:sicheres\_admin\_passwort@MSC29Z/bilanz.html](https://admin:sicheres_admin_passwort@127.0.0.1/bilanz.html) 
-
 
 ![Loxone – Abbildung 9](/img/drittsysteme-loxone/09.png)
 

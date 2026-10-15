@@ -78,5 +78,4 @@ Bei M-Bus-Zähler ist das Löschen nicht effektiv, da die Zähler bei der nächs
 
 - Der Zähler ist nun gelöscht.
 
-
 ![Zähler Löschen / Deaktivieren – Abbildung 3](/img/konfiguration-inbetriebnahme-zaehler-loeschen/03.png)

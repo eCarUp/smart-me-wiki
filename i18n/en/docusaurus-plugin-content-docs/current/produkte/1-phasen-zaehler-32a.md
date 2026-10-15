@@ -7,7 +7,7 @@ displayed_sidebar: wikiSidebar
 ---
 The smart-me Meter is the first electricity meter that can be analysed and controlled from anywhere. No additional hardware is required. It uses the existing WiFi network and connects directly to the smart-me Cloud. This lets you conveniently view your energy consumption in real time.
 
-Sales discontinued on 01.01.2023. Support and cloud service will continue.
+Sales discontinued on 01.01.2023, support and cloud services continue to be provided.
 
 ![Single Phase Meter 32A – Figure 1](/img/produkte-1-phasen-zaehler-32a/01.jpg)
 
@@ -23,7 +23,7 @@ Sales discontinued on 01.01.2023. Support and cloud service will continue.
 
 - Accuracy class 1 according to IEC62053-21
 
-- Integrated data logger for two months (in the event of a connection failure)
+- Integrated data logger for two months (in case of connection loss)
 
 - Direct, encrypted connection to the smart-me Cloud (WiFi)
 
@@ -84,15 +84,15 @@ The smart-me Meter has one output and one input, which can be used as pulse inpu
 
 ![Single Phase Meter 32A – Figure 2](/img/produkte-1-phasen-zaehler-32a/02.png)
 
-### Connection diagram
+### Wiring diagram
 
 T1: Button for installation
 
 E1: Tariff switching (digital input)
 
-0V Tariff 1
+0V tariff 1
 
-\>25V Tariff 2
+\>25V tariff 2
 
 S0: Pulse output (potential-free contact)
 
@@ -100,7 +100,7 @@ S0: Pulse output (potential-free contact)
 
 ## Changing the upload interval
 
-- Log in to the smart-me Portal
+- Log in to the smart-me portal
 
 - Select the meter
 

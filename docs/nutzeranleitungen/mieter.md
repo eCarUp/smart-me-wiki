@@ -10,6 +10,9 @@ smart-me ist nicht im Projektgeschäft tätig. Installationen werden von Install
 
 ## Navigation
 
+<div className="row">
+<div className="col col--7">
+
 Wir empfehlen dir, die smart-me App auf deinem Smartphone zu nutzen. Lade die App einfach herunter und melde dich auf deinem Smartphone an.
 
 Deine Mieter-Login Daten sollte dir von der Vermieterin, der Betreiberin des ZEVs erstellt und zur Verfügung gestellt werden.
@@ -19,21 +22,34 @@ Hier geht's zur smart-me App:
      [smart-me](https://play.google.com/store/apps/details?id=com.smart_me)     [smart-me
 ](https://apps.apple.com/ch/app/smart-me/id929146952?l=en-GB)Google Play Store Apple App Store
 
-
-
 Alternativ kannst du dich auch über das smart-me Portal im Browser einloggen.
 
 [https://portalweb.smart-me.com/Login](https://portalweb.smart-me.com/Login) 
 
+</div>
+<div className="col col--5 text--center">
+
 ![Anleitung für Mieter – Abbildung 1](/img/nutzeranleitungen-mieter/01.jpg)
+
+</div>
+</div>
 
 ## Browser
 
+<div className="row">
+<div className="col col--7">
+
 In deinem Zugang unter "Dashboard" findest du deine Abrechnungseinheiten und die dir zugewiesenen Zählerpunkte.
+
+</div>
+<div className="col col--5 text--center">
 
 ![Anleitung für Mieter – Abbildung 2](/img/nutzeranleitungen-mieter/02.png)
 
 ![Anleitung für Mieter – Abbildung 3](/img/nutzeranleitungen-mieter/03.png)
+
+</div>
+</div>
 
 Navigation zwischen den Ansichten
 
@@ -156,6 +172,9 @@ Zähler eines ZEVs
 
 ### In der App dargestellte Messgrössen (Stromzähler)
 
+<div className="row">
+<div className="col col--6">
+
 Leistung (Analoganzeige und grüne Kachel)
 Zeigt die aktuelle Leistung in Kilowatt (kW) an, die von der Wohnung momentan verbraucht wird. Hier liegt sie bei 2.1 kW.
 
@@ -196,7 +215,13 @@ Letzte 24 Stunden: 9.103 kWh
 Letzte 7 Tage: 57.202 kWh
 Letzte 30 Tage: 244.984 kWh
 
+</div>
+<div className="col col--6 text--center">
+
 ![Anleitung für Mieter – Abbildung 17](/img/nutzeranleitungen-mieter/17.jpg)
+
+</div>
+</div>
 
 ## Wie lese ich eine VEWA Abrechnung richtig?
 
@@ -217,6 +242,9 @@ Die VEWA-Abrechnung ist standardisiert, wodurch eine transparente und einheitlic
 
 ### Ermittlung der realen Kosten (Vermieter seitig)
 
+<div className="row">
+<div className="col col--6">
+
 In unserem Beispiel hat der Vermieter am Ende der Abrechnungsperiode Kosten von insgesamt 2000.- CHF erfasst. Jeweils 1000.- CHF für Wärmeerzeugung (1) und 1000.- CHF für Warmwassererzeugung (2).
 
 Die erzeugte Wärme wird in kWh und das Warmwasser in m3 ausgewiesen. 
@@ -228,7 +256,13 @@ Somit werden die Gesamtkosten von 2000.- CHF entsprechend der jeweils aufgewende
 Wärme (4522 kWh) 1223.43 CHF (3)
 Warmwasser (47.01 m3 oder 2870.31 kWh)   776.57 CHF (4)
 
+</div>
+<div className="col col--6 text--center">
+
 ![Anleitung für Mieter – Abbildung 18](/img/nutzeranleitungen-mieter/18.png)
+
+</div>
+</div>
 
 ### Verteilung der Kosten auf Mieter
 
@@ -284,8 +318,17 @@ Die Totalen Kosten\* für die die Mieter der Wohnung für Warmwasser betragen al
 
 ### smart-me Webportal
 
+<div className="row">
+<div className="col col--7">
+
 Wenn die verfügbaren Informationen in der smart-me App nicht ausreichen sollten, besteht die Möglichkeit sich via Webbrowser im Webportal anzumelden. 
 
 [smart-me Webportal - Login](https://portalweb.smart-me.com/Login)
 
+</div>
+<div className="col col--5 text--center">
+
 ![Anleitung für Mieter – Abbildung 20](/img/nutzeranleitungen-mieter/20.jpg)
+
+</div>
+</div>

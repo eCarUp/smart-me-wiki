@@ -4,6 +4,9 @@ slug: '/drittsysteme/askoma'
 description: 'Askoheat ist ein schweizer Unternehmen und stellt Heizelemente für die Wasseraufbereitung und Energiespeicherung her.'
 sidebar_label: 'Askoma'
 ---
+<div className="row">
+<div className="col col--6">
+
 Askoheat ist ein schweizer Unternehmen und stellt Heizelemente für die Wasseraufbereitung und Energiespeicherung her.
 
 Die Heizelemente können intelligent über Drittsysteme wie smart-me AG angesteuert werden und speichern so überschüssige Solarenergie in z.B. Warmwasser.
@@ -12,10 +15,15 @@ Unterstützte Produkte von Askoma:
 
 - Askoheat+
 
+</div>
+<div className="col col--6 text--center">
 
 ![Askoma – Abbildung 1](/img/drittsysteme-askoma/01.png)
 
 ![Askoma – Abbildung 2](/img/drittsysteme-askoma/02.png)
+
+</div>
+</div>
 
 ### Voraussetzung
 
@@ -30,6 +38,9 @@ Unterstützte Produkte von Askoma:
 
 ### Konfiguration Askoheat+ und smart-me Telstar 80A / CT
 
+<div className="row">
+<div className="col col--4">
+
 Telstar 80A / CT:
 
 - in den Einstellungen (Zähler wählen, oben rechts Zahnrad)
@@ -42,25 +53,38 @@ Telstar 80A / CT:
 
 - Speichern
 
+</div>
+<div className="col col--8 text--center">
 
 ![Askoma – Abbildung 3](/img/drittsysteme-askoma/03.png)
 
+</div>
+</div>
+
+<div className="row">
+<div className="col col--5">
+
 - Auslesen der IP über CMD und ping Befehl auf die angezeigte DNS-Adresse. Der DNS-Adresse findest du in den Erweiterten Einstellungen unter "DNS aktivieren". z.B. ping smart-me\_6303192.dns-me.com
 
+</div>
+<div className="col col--7 text--center">
 
 ![Askoma – Abbildung 4](/img/drittsysteme-askoma/04.png)
+
+</div>
+</div>
 
 Einstellungen am Askoheat+
 
 Diese kann variieren und liegt nicht in der Verantwortung von smart-me.
 
-[http://askoheat.local/setup3](http://askoheat.local/setup3) 
+[http://askoheat.local/setup3](http://askoheat.local/setup3)
 
-- IP-Adresse von Telstar eintragen. 
+- IP-Adresse von Telstar eintragen.
 
 - TCP-Master-Modus aktivieren
 
--  Smart-Me aus der Liste auswählen
+-  Smart-Me aus der Liste auswählen
 
 - auf Start Connection klicken
 
@@ -74,18 +98,14 @@ Diese kann variieren und liegt nicht in der Verantwortung von smart-me.
 
 ### Kontakt
 
-ASKOMA AG
+<Kacheln min="20rem">
+<Kachel titel="ASKOMA AG">
 
-Industriestrasse 1
+Industriestrasse 1, CH-4922 Bützberg, Schweiz
 
-CH-4922 Bützberg
-
-Schweiz
-
-Tel. +41 62 958 70 80
-
-Support +41 62 958 70 99
-
-Fax  +41 62 958 70 81
+Tel. +41 62 958 70 80 · Support +41 62 958 70 99 · Fax +41 62 958 70 81
 
 [info@askoma.com](mailto:info@askoma.com)
+
+</Kachel>
+</Kacheln>

@@ -4,17 +4,24 @@ slug: '/drittsysteme/trueenergy-as'
 description: 'Die App von TrueEnergy ermöglicht, zusammen mit dem smart-me Kamstrup Modul, die Steuerung von Endgeräten und Autoladestationen.'
 sidebar_label: 'TrueEnergy AS'
 ---
+<div className="row">
+<div className="col col--7">
+
 Die App von TrueEnergy ermöglicht, zusammen mit dem smart-me Kamstrup Modul, die Steuerung von Endgeräten und Autoladestationen.
 
 Dein Auto ist immer zum passenden Zeitpunkt so stark geladen, wie benötigt und ladet zum günstigsten Preis, nach verfügbarem Solarstrom oder so schnell wie möglich.
 
 Passend dazu können auch Endgeräte wie Licht und Waschmaschinen über IFTT gesteuert werden.
 
-
-
 Zielgruppe: Dänemark / Einfamilienhäuser
 
+</div>
+<div className="col col--5 text--center">
+
 ![TrueEnergy AS – Abbildung 1](/img/drittsysteme-trueenergy-as/01.png)
+
+</div>
+</div>
 
 Funktionen:
 

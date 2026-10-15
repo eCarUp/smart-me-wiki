@@ -4,7 +4,7 @@ slug: '/produkte/telstar'
 description: 'Le smart-me Telstar 80A est un compteur d''énergie certifié MID doté d''une interface WiFi intégrée pour la transmission de données en temps réel.'
 sidebar_label: 'Compteur triphasé Telstar 80A'
 ---
-Le smart-me Telstar 80A est un compteur d'énergie certifié MID doté d'une interface WiFi intégrée pour la transmission de données en temps réel. Le compteur synchronise les valeurs mesurées de manière automatisée et chiffrée dans le smart-me Cloud. Les données peuvent être exportées et traitées dans le portail smart-me ou, via notre interface ouverte, dans des systèmes tiers. Le compteur dispose de deux sorties numériques pour commander des appareils libres de potentiel.
+Le smart-me Telstar 80A est un compteur d'énergie certifié MID doté d'une interface WiFi intégrée pour la transmission de données en temps réel. Le compteur synchronise automatiquement les valeurs mesurées de manière chiffrée dans le cloud smart-me. Les données peuvent être exportées et traitées dans le portail smart-me ou, via notre interface ouverte, dans des systèmes tiers. Le compteur dispose de deux sorties numériques pour la commande d'appareils libres de potentiel.
 
 ![Compteur triphasé Telstar 80A – Illustration 1](/img/produkte-telstar/01.jpg)
 
@@ -12,19 +12,19 @@ Le smart-me Telstar 80A est un compteur d'énergie certifié MID doté d'une int
 
 - [Installation](/konfiguration/inbetriebnahme) avec l'application smart-me gratuite.
 
-- Facturation avec le [smart-me Billing Tool](/konfiguration/billing)
+- Facturation avec l'[outil smart-me Billing](/konfiguration/billing)
 
 - Commande avec des [actions si/alors](/konfiguration/wenndann-aktionen) ou des [actions déclenchées par un événement](/konfiguration/wenndann-aktionen/ereignisaktionen)
 
 - [Visualisations](/konfiguration/visualisierung)
 
-- [Sorties de contact libres de potentiel](/schnittstellen/ein_und_ausgaenge) pour commander des appareils externes, dont une avec un relais 8A
+- [Sorties de contact libres de potentiel](/schnittstellen/ein_und_ausgaenge) pour la commande d'appareils externes, dont une avec relais 8A
 
-- Entrée de contact libre de potentiel pour le signal tarifaire ou comme [entrée numérique](/schnittstellen/ein_und_ausgaenge)
+- Entrée de contact libre de potentiel pour signal tarifaire ou [entrée numérique](/schnittstellen/ein_und_ausgaenge)
 
 - [Interfaces](/) via API, CSV, MSCONS et IS-E
 
-- Connexion de données chiffrée en temps réel vers le smart-me Cloud 
+- Connexion de données chiffrée en temps réel vers le cloud smart-me 
 
 ## Données techniques
 
@@ -32,13 +32,16 @@ Le smart-me Telstar 80A est un compteur d'énergie certifié MID doté d'une int
 
 ## Écran
 
-Valeur / Symbole Description
+<div className="row">
+<div className="col col--7">
+
+Valeur / symbole Description
 
 1.8.1 Code OBIS du relevé du compteur affiché
 
 T1 Tarif actif (tarif 1 ou tarif 2)
 
-Flèche Sens du courant (droite soutirage / gauche injection)
+Flèche Sens du courant (à droite soutirage / à gauche injection)
 
 Réception (barres) Puissance du signal WiFi
 
@@ -48,11 +51,17 @@ Réception (barres) Puissance du signal WiFi
 
 kWh Unité du relevé du compteur affiché
 
-M Fonction qui n'est plus utilisée (peut être ignorée)
+M Fonction plus utilisée (peut être ignorée)
+
+</div>
+<div className="col col--5 text--center">
 
 ![Compteur triphasé Telstar 80A – Illustration 2](/img/produkte-telstar/02.png)
 
-Le compteur dispose d'un affichage déroulant. Les points décrits ci-dessous s'affichent successivement. Après le dernier point, le premier point s'affiche à nouveau.
+</div>
+</div>
+
+Le compteur dispose d'un affichage défilant. Les points décrits ci-dessous s'affichent les uns après les autres. Après le dernier point, le premier point s'affiche à nouveau.
 
 Relevé du compteur (code OBIS suivi du relevé du compteur) 
 
@@ -84,13 +93,22 @@ Ordre des phases incorrect : les chiffres clignotent
 
 ## Dimensions et raccordements
 
-Les fichiers \*.DXF et \*.DWG se trouvent dans l'archive ZIP disponible dans les téléchargements.
+Les données \*.DXF et \*.DWG se trouvent dans l'archive ZIP, dans les téléchargements.
 
 ### Dimensions \[mm\]
 
+<div className="row">
+<div className="col col--6 text--center">
+
 ![Compteur triphasé Telstar 80A – Illustration 3](/img/produkte-telstar/03.png)
 
+</div>
+<div className="col col--6 text--center">
+
 ![Compteur triphasé Telstar 80A – Illustration 4](/img/produkte-telstar/04.png)
+
+</div>
+</div>
 
 ### Schéma de raccordement
 
@@ -98,45 +116,73 @@ Les fichiers \*.DXF et \*.DWG se trouvent dans l'archive ZIP disponible dans les
 
 ## Fonctions des touches
 
+<div className="row">
+<div className="col col--5 text--center">
+
 ![Compteur triphasé Telstar 80A – Illustration 6](/img/produkte-telstar/06.png)
+
+</div>
+<div className="col col--7">
 
 T1 Touche pour l'installation
 
-Si la touche T1 est maintenue enfoncée pendant 10 secondes, un WiFi local est créé pour l'installation
+Un appui de 10 secondes sur la touche T1 crée un réseau WiFi local pour l'installation
 
 T1 + T2 Redémarrage
 
-Maintenez les touches T1 et T2 enfoncées simultanément pendant 10 secondes pour forcer un redémarrage.
+Appuyez simultanément sur les touches T1 et T2 pendant 10 secondes pour forcer un redémarrage.
 
 T2 Fonctions spéciales
 
-Court : si T2 est enfoncée >2s, la LED verte change d'état (d'éteinte à allumée ou d'allumée à éteinte). Lorsqu'elle est activée, elle indique l'état de la connexion 
+Court : si T2 est pressée >2s, la LED verte change d'état (d'éteinte à allumée ou d'allumée à éteinte). Lorsqu'elle est activée, elle indique l'état de la connexion 
 
-🟢 Vert fixe : connecté au smart-me Cloud
+🟢 Vert fixe : connecté au cloud smart-me
 
 ❇️ Vert clignotant : établissement de la connexion ou pas de connexion
 
-Long : si T2 est enfoncée >8s, l'affichage de la puissance bascule entre puissance active et puissance réactive. De plus, la LED d'impulsion d'étalonnage bascule entre énergie active et énergie réactive.
+Long : si T2 est pressée >8s, l'affichage de la puissance bascule entre puissance active et puissance réactive. En outre, la LED d'impulsions d'étalonnage bascule entre énergie active et énergie réactive.
 
-Très long : si T2 est enfoncée >14s, la sortie d'impulsions S0-0 bascule entre puissance active et puissance réactive.
+Très long : si T2 est pressée >14s, la sortie d'impulsions S0-0 bascule entre puissance active et puissance réactive.
 
-Remarque : ce réglage ne modifie que l'affichage sur l'écran, pas dans le smart-me Cloud (application et site web). Pour afficher l'énergie réactive dans le Cloud, il faut le configurer dans les paramètres généraux (Allgemeine Einstellungen). 
+Remarque : ce réglage modifie uniquement l'affichage à l'écran, pas dans le cloud smart-me (application et site web). Pour afficher l'énergie réactive dans le cloud, il faut l'activer dans les paramètres généraux (allgemeine Einstellungen). 
+
+
+</div>
+</div>
 
 ## LED
 
+<div className="row">
+<div className="col col--5 text--center">
+
 ![Compteur triphasé Telstar 80A – Illustration 7](/img/produkte-telstar/07.png)
 
-🟢 LED verte - État de la connexion
+</div>
+<div className="col col--7">
 
-- Indique l'état de la connexion au smart-me Cloud. a) Clignotante = erreur de connexion b) Toujours allumée = connexion OK
+🟢 LED verte - état de la connexion
+
+- Indique l'état de la connexion au cloud smart-me. a) Clignotante = erreur de connexion b) Toujours allumée = connexion OK
+
+</div>
+</div>
+
+<div className="row">
+<div className="col col--5 text--center">
 
 ![Compteur triphasé Telstar 80A – Illustration 8](/img/produkte-telstar/08.png)
 
-🔴 LED rouge - LED d'impulsion
+</div>
+<div className="col col--7">
 
-- Indique la puissance active ou réactive actuellement soutirée, à raison de 1000 impulsions/kWh resp. 1000 impulsions/kVArh. La touche T2 permet de choisir si la puissance active ou la puissance réactive est affichée.
+🔴 LED rouge - LED d'impulsions
+
+- Indique la puissance active ou réactive actuellement soutirée à raison de 1000 impulsions/kWh ou 1000 impulsions/kVArh. La touche T2 permet de choisir si la puissance active ou réactive est affichée.
 
 - Par exemple : une LED portant l'indication « 1000 impulsions/kWh » clignote 1000 fois lorsque 1 kilowattheure (kWh) d'énergie a été soutiré ou injecté. Si les 1000 impulsions ont été comptées en 1 heure, une puissance constante de 1 kW a été mesurée.
+
+</div>
+</div>
 
 ## Configurer les entrées et sorties
 
@@ -146,7 +192,7 @@ Le Telstar 80A dispose, sur l'une des sorties numériques, d'un relais capable d
 
 ## Technologie mesh
 
-En cas de réception WiFi très faible ou absente, le Telstar 80A se connecte automatiquement, via la fonction mesh, à un autre compteur voisin à portée. Celui-ci prend alors en charge la communication avec le smart-me Cloud. La technologie mesh garantit une meilleure disponibilité des compteurs vis-à-vis du smart-me Cloud. Il n'est pas possible de désactiver la fonction mesh sur le compteur. Lorsque [Modbus TCP](/schnittstellen/modbus-tcp) est activé, des restrictions spécifiques s'appliquent.
+En cas de réception WiFi très faible ou absente, le Telstar 80A se connecte automatiquement, grâce à la fonction mesh, à un autre compteur voisin à portée. Celui-ci prend alors en charge la communication avec le cloud smart-me. La technologie mesh garantit une meilleure disponibilité des compteurs vis-à-vis du cloud smart-me. Il n'est pas possible de désactiver la fonction mesh sur le compteur. Lorsque [Modbus TCP](/schnittstellen/modbus-tcp) est activé, des restrictions spécifiques s'appliquent.
 
 ## Informations d'expédition
 
@@ -159,15 +205,15 @@ Poids avec emballage : 415g
 
 ## Téléchargements et déclaration de conformité
 
-[Fiche technique allemand](https://docs.google.com/presentation/d/1Kp-hwT2kkFY1yaaRTc2gtDwkJTZTEgnx3JlDgXhljGA/export/pdf)
+[Fiche technique en allemand](https://docs.google.com/presentation/d/1Kp-hwT2kkFY1yaaRTc2gtDwkJTZTEgnx3JlDgXhljGA/export/pdf)
 
-[Fiche technique anglais](https://docs.google.com/presentation/d/1AuzVbDnoAHAyyoMNErOYJBa-0F5bUBsjTG5ghxqtLrY/export/pdf)
+[Fiche technique en anglais](https://docs.google.com/presentation/d/1AuzVbDnoAHAyyoMNErOYJBa-0F5bUBsjTG5ghxqtLrY/export/pdf)
 
 [Déclaration de conformité CE](https://drive.google.com/file/d/1mcZJJhHeKQ1wN0q8yE8ROKnRZXx-wo3b/view?usp=sharing)
 
 [Schéma de raccordement](https://drive.google.com/file/d/1400_Edqq9WfG48wg-60NUsQZ5CrBbM5B/view?usp=sharing)
 
-[Schéma de raccordement fichiers ZIP](https://drive.google.com/file/d/1aKyx7qWyNh56Mrj-iAzfRxW_baVQtTmo/view?usp=share_link) (les fichiers \*.DXF et \*.DWG se trouvent dans l'archive ZIP)
+[Schéma de raccordement fichiers ZIP](https://drive.google.com/file/d/1aKyx7qWyNh56Mrj-iAzfRxW_baVQtTmo/view?usp=share_link) (les données \*.DXF et \*.DWG se trouvent dans l'archive ZIP)
 
 [Quick Starter](https://docs.google.com/document/d/1qW-3HcgJ3si6LE-HPIYaLg9N9HZhR4PZgu0LJcP5_DY/export?format=pdf)
 
@@ -176,7 +222,7 @@ Poids avec emballage : 415g
 <details id="in-welchem-intervall-senden-die-zähler-daten">
 <summary>À quel intervalle les compteurs envoient-ils des données ?</summary>
 
-- Toutes les 15 minutes, soit à xx:00:00, xx:15:00, xx:30:00 et xx:45:00. Les données nécessaires à la courbe de charge sont ainsi envoyées. En cas d'interruption de la connexion, ces données sont enregistrées localement et transmises ultérieurement.
+- Toutes les 15 minutes, soit à xx:00:00, xx:15:00, xx:30:00 et xx:45:00. Ce sont les données nécessaires à la courbe de charge qui sont alors envoyées. En cas d'interruption de la connexion, ces données sont enregistrées localement et envoyées ultérieurement.
 
 - En outre, au moins toutes les 330 secondes.
 
@@ -184,13 +230,13 @@ Poids avec emballage : 415g
 
     - Variation du relevé du compteur supérieure à 100Wh
 
-    - Variation de puissance supérieure à 100W
+    - Variation de la puissance supérieure à 100W
 
-    - Variation de courant supérieure à 1A
+    - Variation du courant supérieure à 1A
 
-    - Variation de tension supérieure à 1V
+    - Variation de la tension supérieure à 1V
 
-    - Chaque seconde, lorsque le compteur est sélectionné dans l'interface graphique (portail smart-me)
+    - Chaque seconde, lorsque le compteur est sélectionné dans l'interface (portail smart-me)
 
 </details>
 

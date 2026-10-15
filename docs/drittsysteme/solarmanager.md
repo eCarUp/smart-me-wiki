@@ -92,17 +92,15 @@ Wie lange muss das Gerät mindestens laufen. Praktisch bei Wärmepumpen mit Verd
 
 ## Kontakt:
 
-Solar Manager AG
+<Kacheln min="20rem">
+<Kachel titel="Solar Manager AG">
 
-Schlyffistäg 36
+Schlyffistäg 36, CH-5630 Muri
 
-CH-5630 Muri
+[https://www.solarmanager.ch/](https://www.solarmanager.ch/) · [info@solarmanager.ch](mailto:info@solarmanager.ch) · +41 56 512 92 08
 
-[https://www.solarmanager.ch/](https://www.solarmanager.ch/) 
-
-[info@solarmanager.ch](mailto:info@solarmanager.ch) 
-
-+41 56 512 92 08
+</Kachel>
+</Kacheln>
 
 ## FAQ
 

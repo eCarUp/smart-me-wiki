@@ -6,8 +6,6 @@ sidebar_label: 'Zaehlerfreunde'
 ---
 Zählerfreunde bietet massgeschneiderte Lösungen für Einzelanlagen, Mieterstromprojekte, Energieversorger und Stadtwerke an. Die Lösung basiert auf einer Web- oder App-basierten Plattform, die es Mietern, Vermietern und Projektbetreibern ermöglicht, den Stromverbrauch und die Stromproduktion besser zu überwachen und zu managen.
 
-
-
 Zielgruppe: smart-me Nutzer, Energieversorger und Mieter mit smart-me Account
 
 Hinweis:

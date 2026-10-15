@@ -14,7 +14,7 @@ The devices are sorted by type.
 
 - Pico devices (Pico Geräte): Pico charging stations
 
-- M-Bus gateways (M-Bus Gateways): All gateways
+- M-Bus Gateways: All gateways
 
 - M-Bus devices (M-Bus Geräte):
     All meters created by the M-Bus gateway.
@@ -22,7 +22,7 @@ The devices are sorted by type.
 - Other devices (Andere Geräte): API or imported devices
 
 
-Sorting:
+Order:
 
 The columns can be sorted, but by default they are arranged so that all offline devices appear at the top.
 

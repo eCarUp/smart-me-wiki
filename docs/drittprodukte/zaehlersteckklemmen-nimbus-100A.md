@@ -46,12 +46,19 @@ Zählerstift für Nimbus: Hager KJZ080A4 80A Ø6×41mm 
 
 ## Seidl Klemmen
 
+<div className="row">
+<div className="col col--6">
+
 Herstellerwebseite und Informationen zum Vertrieb: [https://seidlgmbh.com/produkte/](https://seidlgmbh.com/produkte/) 
-
-
 
 SL-ZAKD: bis 80A Dauerstrom und 128A Überlaststrom - Schraubklemme
 
 Zählerstift für Nimbus: SL-6-6-42
 
+</div>
+<div className="col col--6 text--center">
+
 ![Zählersteckklemmen Nimbus 100A – Abbildung 5](/img/drittprodukte-zaehlersteckklemmen-nimbus-100a/05.png)
+
+</div>
+</div>

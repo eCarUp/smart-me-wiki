@@ -317,6 +317,50 @@ siehst du es.
 
 ---
 
+## Partner und Lieferanten in Kacheln
+
+Logo, Adresse, Telefon, Mail — untereinander ergibt das eine endlose Spalte.
+`<Kacheln>` stellt solche Einträge nebeneinander und bricht auf schmalen
+Fenstern von selbst um:
+
+```jsx
+<Kacheln>
+
+<Kachel bild="/img/drittsysteme-nebenkostenabrechnung/07.png" titel="Blockstrom AG">
+
+Morillonstrasse 77, CH-3007 Bern · +41 31 511 20 30
+
+[www.blockstrom.com](https://www.blockstrom.com/) · [info@blockstrom.com](mailto:info@blockstrom.com)
+
+</Kachel>
+
+<Kachel bild="…/08.png" titel="Brunata AG">
+
+Althardstrasse 10, CH-8105 Regensdorf · +41 41 669 10 10
+
+</Kachel>
+
+</Kacheln>
+```
+
+Worauf es ankommt:
+
+- **Leerzeilen** zwischen `<Kachel …>` und dem Text. Ohne sie bleibt der Inhalt
+  roher Text und aus den Links wird nichts.
+- `bild` und `titel` sind beide freiwillig. Ohne `titel` steht nur das Logo da,
+  ohne `bild` nur der Text.
+- Wie viele Kacheln nebeneinander passen, entscheidet das Fenster, nicht eine
+  feste Zahl. Steuern kannst du es über die Mindestbreite einer Kachel:
+  `<Kacheln min="20rem">` für breite Kacheln mit Aufzählung darin,
+  `<Kacheln min="12rem">` für blosse Logos mit einem Link.
+- Eine ganze Kachel verlinken: `<Kachel href="https://…">`.
+
+Setz Adresse und Telefon in **eine** Zeile, getrennt mit `·`. Jede Angabe auf
+eine eigene Zeile zu stellen macht die Kachel dreimal so hoch, ohne dass sie
+mehr sagt.
+
+---
+
 ## Tabellen
 
 Eine Tabelle besteht aus drei Teilen: der Kopfzeile, einer **Trennzeile aus

@@ -185,10 +185,12 @@ Bei kombinierten Systemen werden die Einzelkosten der einzelnen Energieträger z
 
 ### 3\. Abrechnungsperioden erstellen und Inhalt der Rechnungsperiode definieren
 
+<div className="row">
+<div className="col col--4">
+
 1.  Erstellen der Abrechnungsperiode
 
 2.  Inhalt aktivieren oder deaktivieren
-
 
 Wird Strom und die Heiz- und Nebenkosten in unterschiedlichen Intervallen abgerechnet, werden mehrere Perioden erfasst.
 
@@ -204,8 +206,13 @@ z.B.:
 
 - Wärme Wasser Periode 2024 (Nur Wärme, Kälte, Warm- und Kaltwasser)
 
+</div>
+<div className="col col--8 text--center">
 
 ![VEWA - Abrechnung – Abbildung 8](/img/konfiguration-billing-vewa-abrechnung/08.png)
+
+</div>
+</div>
 
 ### 4\. Erfassen der Kosten der Abrechnungsperiode
 
@@ -289,8 +296,6 @@ Für die VEWA Berechnung und Umlage der Grundkosten müssen die Wohnungsflächen
 
 Hinweis: Um die relevante Gesamtfläche korrekt zu rapportieren, müssen alle Räumlichkeiten als Abrechnungseinheit erfasst werden, auch wenn diese selber keine Zähler angegliedert hätten und diese extern Pauschal abgehandelt werden.
 Nur ganze Zahlen möglich.
-
-
 
 ![VEWA - Abrechnung – Abbildung 11](/img/konfiguration-billing-vewa-abrechnung/11.png)
 

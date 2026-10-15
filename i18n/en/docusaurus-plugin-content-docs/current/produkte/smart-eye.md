@@ -5,21 +5,21 @@ description: 'The smart-eye brings energy meters compliant with the FNN specific
 sidebar_label: 'smart-eye'
 displayed_sidebar: wikiSidebar
 ---
-The smart-eye brings energy meters compliant with the FNN specification for basic meters (modern metering devices) into the smart-me Cloud. To do this, the smart-eye is attached to the optical INFO data interface. The energy data is then transmitted to the smart-me Cloud via the local WiFi. Via the app or online login, consumption visualizations and, where applicable, grid-relevant data such as frequency, voltage or current can be accessed in near real time.
+The smart-eye brings energy meters compliant with the FNN specification for basic meters (modern metering devices) into the smart-me Cloud. For this purpose, the smart-eye is attached to the optical INFO data interface. The energy data is then transmitted to the smart-me Cloud via local WiFi. Using the app or the online login, you can view consumption visualizations in near real time and, where applicable, grid-relevant data such as frequency, voltage or current.
 
 Sales discontinued on 30.03.2021, support and cloud support are guaranteed until 30.03.2025.
 
-The smart-me system is multi-utility capable: the readings of other meters such as gas meters can also be read and integrated into energy management. In addition, depending on the meter type, the smart-eye can automatically enter the PIN code for unlocking the extended data set. 
+The smart-me system is multi-utility capable: the readings of other meters, such as gas meters, can also be read and integrated into the energy management. In addition, depending on the meter type, the smart-eye can automatically enter the PIN code for unlocking the extended data set. 
 
 ![smart-eye – Figure 1](/img/produkte-smart-eye/01.jpg)
 
 ## Features
 
-- Real-time visualization of meter data
+- Real-time visualization of the meter data
 
-- Automatic storage of meter readings in the cloud
+- Automatic storage of the meter readings in the cloud
 
-- Data logger: storage of readings during connection loss and automatic synchronization with the cloud once the connection is restored
+- Data logger: measured values are stored during a connection failure and automatically synchronized to the cloud once the connection is restored
 
 - Encrypted WiFi connection to the smart-me Cloud
 
@@ -32,7 +32,7 @@ The smart-me system is multi-utility capable: the readings of other meters such 
 
 Installation and commissioning of the smart-eye module
 
-## Technical data
+## Technical Data
 
 Supported meters  all meters compliant with the FNN specification for basic meters                                
 
@@ -58,7 +58,7 @@ Temperature range −40°C to 70°C
 
 Mounting Magnetic
 
-## Tested meters
+## Tested Meters
 
 [](https://drive.google.com/open?id=1WURxhIS6zPpfSeOv-tfZqnRQKIBkGNP9x4_n1r5iVds "Open Spreadsheet, Tested meters in new window")
 
@@ -66,7 +66,7 @@ Mounting Magnetic
 
 Tested meters
 
-## LED blink codes
+## LED Blink Codes
 
 [](https://drive.google.com/open?id=10sNiDg0g8cwomZ-aEWn7gpCKbZLiay4X1O_fOJmM-QY "Open Spreadsheet, smart-eye LED blink codes in new window")
 

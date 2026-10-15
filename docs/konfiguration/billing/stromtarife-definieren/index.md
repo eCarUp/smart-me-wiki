@@ -113,29 +113,17 @@ Navigiere nun wieder in die Liegenschaftskonfiguration.
 
 Erstelle nun die Netztarife deiner Tarifperiode
 
-
-<div className="row">
-<div className="col col--6 text--center">
-
 ### Beispiel: Einheitstarif
 
-</div>
-<div className="col col--6 text--center">
-
 ### Beispiel: Doppeltarif
+
 Nächster Schritt Timing des Tarifs in den Wenn Aktionen abbilden
 
 [Tarifzeiten definieren](/konfiguration/wenndann-aktionen/tarifzeiten-definieren)
 
-
-</div>
-</div>
-
-<div className="row">
-<div className="col col--6 text--center">
-
 ![Stromtarife definieren – Abbildung 4](/img/konfiguration-billing-stromtarife-definieren/04.png)
-![Stromtarife definieren – Abbildung 5](/img/konfiguration-billing-stromtarife-definieren/05.png)
+
+
 
 Beispiel Einheitstarif mit 80% Pauschalmethode:
 
@@ -144,12 +132,9 @@ Erstelle nun einen Netztarif mit dem angegebenen Preis: 
 - Netztarif 2026 : 0.19707 CHF / kWh
 
 
-</div>
-<div className="col col--6 text--center">
+![Stromtarife definieren – Abbildung 5](/img/konfiguration-billing-stromtarife-definieren/05.png)
 
 ![Stromtarife definieren – Abbildung 6](/img/konfiguration-billing-stromtarife-definieren/06.png)
-![Stromtarife definieren – Abbildung 7](/img/konfiguration-billing-stromtarife-definieren/07.png)
-![Stromtarife definieren – Abbildung 8](/img/konfiguration-billing-stromtarife-definieren/08.png)
 
 Beispiel Einheitstarif mit 80% Pauschalmethode:
 
@@ -159,21 +144,23 @@ Erstelle nun zwei Netztarife mit den angegebenen Preisen:
 
 - Netztarif NT 2026: 0.17007 CHF / kWh
 
+
 Bei Doppeltarifen, muss das Timing vorrangig erstellt werden mittels [WENN/DANN](/konfiguration/wenndann-aktionen) Aktionen, diese Aktionen, können dann mit der "Zusätzlichen Bedingung" verlinkt werden um die Gültigkeit durch die Woche zu steuern.
 
 
-</div>
-</div>
 
+![Stromtarife definieren – Abbildung 7](/img/konfiguration-billing-stromtarife-definieren/07.png)
 
-#### Erstelle nun den Solartarif dazu
+![Stromtarife definieren – Abbildung 8](/img/konfiguration-billing-stromtarife-definieren/08.png)
+
+Erstelle nun den Solartarif dazu
 
 Hinweis:
-Es gibt verschiedene Solartarife und Batterietarife mit unterschiedlichen Fähigkeiten und Voraussetzungen.
+Es gibt verschiedene Soalrtarife und Batterietarife mit unterschiedlichen Fähigkeiten und voraussetzungen.
 
 Allgemein ist der Solartarif vZEV die beste und universellste Wahl.
 
-Was dieser nicht kann ist unterschiedliche Tarife für Batterie und Solarenergie definieren. Dazu muss der alternative Tarif verwendet werden.
+Was dieser nicht kann ist unterschiedliche Tarife für Batterie und Solarenergie defineiren. Dazu muss der alternative Tarif verwendet werden.
 
 Details findest du unterhalb in der Sektion "Alle Details".
 
@@ -196,24 +183,16 @@ Alternative Option: 
 
 - Feld „Bilanzzähler“: Wähle alle Verbrauchszähler und Produktionszähler aus.
 
-<div className="row">
-<div className="col col--6 text--center">
 
-#### Beispiel: Solareinheitstarif
+Solareinheitstarif
 
 ![Stromtarife definieren – Abbildung 9](/img/konfiguration-billing-stromtarife-definieren/09.png)
 
-</div>
-<div className="col col--6 text--center">
-
-#### Beispiel: Solardoppeltarif
+Solardoppeltarif
 
 ![Stromtarife definieren – Abbildung 10](/img/konfiguration-billing-stromtarife-definieren/10.png)
 
 ![Stromtarife definieren – Abbildung 11](/img/konfiguration-billing-stromtarife-definieren/11.png)
-
-</div>
-</div>
 
 ### Neu Rechnen der Stromtarife starten
 
@@ -257,9 +236,18 @@ In diesem Beispiel nutzen wir die 80% Methode mit Grundgebühr. Entsprechend mü
 
 ![Stromtarife definieren – Abbildung 15](/img/konfiguration-billing-stromtarife-definieren/15.png)
 
+<div className="row">
+<div className="col col--4">
+
 Die Kosten der Grundgebühr fällt auf allen Abrechnungseinheiten an, daher kann Sie global bei den Tarifen hinterlegt werden für das Jahr 2026.
 
+</div>
+<div className="col col--8 text--center">
+
 ![Stromtarife definieren – Abbildung 16](/img/konfiguration-billing-stromtarife-definieren/16.png)
+
+</div>
+</div>
 
 ### Nächster Schritt
 

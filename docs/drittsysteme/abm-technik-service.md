@@ -8,14 +8,12 @@ ABM Technik + Service bietet Dienstleistungen rund um die Immobilie an. Neuste F
 
 ## Kontakt
 
-ABM Technik + Service 
+<Kacheln min="20rem">
+<Kachel titel="ABM Technik + Service">
 
-Dieselstrasse 17
+Dieselstrasse 17, DE-89160 Dornstadt
 
-DE-89160 Dornstadt
++49 7348 / 9870-0 · [ulm@abm-service.de](mailto:ulm@abm-service.de) · [www.abm-service.de](http://www.abm-service.de)
 
-+49 7348 / 9870-0
-
-[ulm@abm-service.de](mailto:ulm@abm-service.de)
-
-[www.abm-service.de](http://www.abm-service.de)
+</Kachel>
+</Kacheln>

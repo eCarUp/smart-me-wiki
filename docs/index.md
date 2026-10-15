@@ -201,13 +201,22 @@ Unsere Produktfamilie wächst weiter: Mit dem Sirius bringen wir unser bisher le
 
 ## NEU: MWST - Richtig verrechnen
 
+<div className="row">
+<div className="col col--6">
+
 Die MWST anzuwenden ist ein wichtiger Punkt in der Abrechnung. Um dort keine Fehler zu machen, findet ihr hier eine Anleitung zur korrekten Ausweisung von MWST für euren Fall.
 
 Das MWST-Gesetz zum ZEV ist ähnlich schnell im Wandel wie die Technik.
 
 [→ Mehr Informationen für unsere Partner](/konfiguration/billing/mwst-zev-nebenkosten)
 
+</div>
+<div className="col col--6 text--center">
+
 ![Technische Daten & Handbücher – Abbildung 17](/img/home/17.png)
+
+</div>
+</div>
 
 ## FAQs
 

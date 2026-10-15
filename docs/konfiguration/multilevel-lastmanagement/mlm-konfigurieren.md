@@ -20,7 +20,6 @@ Die Funktion ermöglicht:
 
 - Ladegruppenpriorisierungen
 
-
 ![Konfiguration Multilevel Lastmanagement – Abbildung 1](/img/konfiguration-multilevel-lastmanagement-mlm-konfigurieren/01.png)
 
 ### Begriffsdefinition
@@ -86,34 +85,38 @@ Damit das Nachfolgende erhalten bleibt, können die Äste und Gruppen via Drag &
 
 ### Ladestationsgruppen dem Baum hinzufügen
 
+<div className="row">
+<div className="col col--7">
+
 Die noch nicht zugewiesenen und korrekt konfigurierten Ladestationsgruppen für das MLM befinden sich auf der Rechten Seite.
 
 Diese können via Drag & Drop Funktion den Ästen angegliedert werden und auch innerhalb der Konfiguration per Drag & Drop verschoben werden.
-
-
 
 Hinweis:
 Voraussetzung für die Verwendung im MLM ist, dass die Verbindungsausfalleinstellung auf "Max. Strom (pro Gruppe)" konfiguriert ist.
 
 Diese kann auf einer Pico-Ladestation in der "Konfiguration" angepasst werden.
 
-
+</div>
+<div className="col col--5 text--center">
 
 ![Konfiguration Multilevel Lastmanagement – Abbildung 5](/img/konfiguration-multilevel-lastmanagement-mlm-konfigurieren/05.png)
 
 ![Konfiguration Multilevel Lastmanagement – Abbildung 6](/img/konfiguration-multilevel-lastmanagement-mlm-konfigurieren/06.png)
 
+</div>
+</div>
+
 ### Solaroptimierung und Minimalstrom pro Ladegruppe
+
+<div className="row">
+<div className="col col--6">
 
 Astkonfiguration:
 
 Die Solaroptimierung ist möglich 1x auf dem Stamm (Arealoptimiert) oder mehrfach parallel auf Äste mit aktiven ungemessenen Lasten z.B. Hausanschlüsse.
 
 Entsprechend der Wahl, wird der Solarüberschuss auf alle Ladestationsgruppen oder nur auf einen Teil der Ladestationsgruppen optimiert.
-
-
-
-
 
 Gruppenkonfiguration:
 
@@ -126,9 +129,15 @@ Jede Gruppe kann auf unterschiedliche Weise konfiguriert werden.
 
 Gruppen mit höherem Minimal Ladestrom werden priorisiert bei der Verteilung von verfügbarem Netzstrom behandelt.
 
+</div>
+<div className="col col--6 text--center">
+
 ![Konfiguration Multilevel Lastmanagement – Abbildung 7](/img/konfiguration-multilevel-lastmanagement-mlm-konfigurieren/07.png)
 
 ![Konfiguration Multilevel Lastmanagement – Abbildung 8](/img/konfiguration-multilevel-lastmanagement-mlm-konfigurieren/08.png)
+
+</div>
+</div>
 
 ### Konfiguration speichern und aktivieren
 
@@ -140,7 +149,6 @@ Kann die Aktivierung aus Gründen von Fehlkonfigurationen nicht durchgeführt we
 
 - Einzelne Geräte welche relevant für das MLM sind sind nicht online zum Zeitpunkt der Speicherung. (online bringen)
 
-
 ![Konfiguration Multilevel Lastmanagement – Abbildung 9](/img/konfiguration-multilevel-lastmanagement-mlm-konfigurieren/09.png)
 
 ### Konfiguration des MLM löschen
@@ -151,6 +159,9 @@ Die Konfiguration eines MLLM kann ganzheitlich per Knopfdruck gelöscht werden u
 
 ### Konfiguration des Lastabwurfs
 
+<div className="row">
+<div className="col col--7">
+
 Das MLM besitzt eine integrierte Lastabwurfsteuerung.
 
 Diese Steuerung kann anstelle der rückseitigen Hardwareeingänge der Pico Ladestationen verwendet werden. 
@@ -160,7 +171,6 @@ Hinweise: 
 - Signale welche an Pico-Hardware direkt angebracht sind können mit dieser Funktion nicht übersteuert werden. 
 
 - Die Funktion benötigt eine aktive Internet Verbindung um zu funktionieren. Bei Internetverlust wird der eingestellte Internetausfallwert der Picogruppen verwendet.
-
 
 Die Funktion ermöglicht eines oder mehrere digitale Signale von Energieversorgern zu interpretieren und allen Ladestationsgruppen des MLM eine reduzierte Ladeleistung zuzuteilen.
 
@@ -177,20 +187,17 @@ Mit nur einem Signal:
 
 - 1-stufig: 0% Reduktion, variable Reduktion (10-100%)
 
-
 Mit zwei Signalen:
 
 - 4-stufig: 0% Reduktion, variable Reduktion, variable Reduktion, 100% Reduktion
 
 - 3-stufig: 0% Reduktion, variable Reduktion (beide gleiches Level), 100% Reduktion
 
-
 Prozentzahlen anwenden auf EnWG14a in Deutschland:
 
 - Bei 22kW - Anlagen entspricht eine Reduktion um 82% dem Versprechen von 4200W Minimalleistung pro Gerät in der Installation.
 
 - Bei 11kW - Anlagen entspricht eine Reduktion um 73% dem Versprechen von 4200W Minimalleistung pro Gerät in der Installation.
-
 
 Signal Interpretation:
 
@@ -206,11 +213,17 @@ Signal (1) = 1 = Verfügbare Energie wird reduziert.
 
 [Beschaltung und Konfiguration Zählereingänge](/schnittstellen/ein_und_ausgaenge)
 
+</div>
+<div className="col col--5 text--center">
+
 ![Konfiguration Multilevel Lastmanagement – Abbildung 11](/img/konfiguration-multilevel-lastmanagement-mlm-konfigurieren/11.png)
 
 ![Konfiguration Multilevel Lastmanagement – Abbildung 12](/img/konfiguration-multilevel-lastmanagement-mlm-konfigurieren/12.png)
 
 ![Konfiguration Multilevel Lastmanagement – Abbildung 13](/img/konfiguration-multilevel-lastmanagement-mlm-konfigurieren/13.png)
+
+</div>
+</div>
 
 ### Aktivieren und deaktivieren des MLM Prozessors
 
@@ -365,6 +378,9 @@ Mieterparkplätze des Areals
 
 ![Konfiguration Multilevel Lastmanagement – Abbildung 31](/img/konfiguration-multilevel-lastmanagement-mlm-konfigurieren/31.png)
 
+<div className="row">
+<div className="col col--4">
+
 Unbehandelte Installationsteile:
 
 - Die Hausanschlüsse und E-Mobilitätsabgänge der Häuser 2 und 3 sind identisch in der Art der Konfiguration.
@@ -373,7 +389,10 @@ Unbehandelte Installationsteile:
 
 - Jede Ladegruppe kann separate Verhaltensweisen ausbilden und auch unterschiedliche Notversorgungsströme bei Internetausfall erhalten.
 
-
-
+</div>
+<div className="col col--8 text--center">
 
 ![Konfiguration Multilevel Lastmanagement – Abbildung 32](/img/konfiguration-multilevel-lastmanagement-mlm-konfigurieren/32.png)
+
+</div>
+</div>

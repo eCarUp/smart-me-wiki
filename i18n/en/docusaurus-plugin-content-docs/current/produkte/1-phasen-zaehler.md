@@ -4,7 +4,7 @@ slug: '/produkte/1-phasen-zaehler'
 description: 'The smart-me Single Phase Meter 80A is an energy meter with an integrated WiFi interface for transmitting real-time data.'
 sidebar_label: 'Single Phase Meter'
 ---
-The smart-me Single Phase Meter 80A is an energy meter with an integrated WiFi interface for transmitting real-time data. The meter synchronises the measured values to the smart-me Cloud automatically and in encrypted form. The data can be exported from the smart-me portal or via our open interface to third-party systems for further processing. The meter has a digital output for controlling potential-free devices.
+The smart-me Single Phase Meter 80A is an energy meter with an integrated WiFi interface for transmitting real-time data. The meter synchronises the measured values automatically and encrypted to the smart-me Cloud. The data can be exported to third-party systems and processed further in the smart-me portal or via our open interface. The meter has a digital output for controlling potential-free devices.
 
 ![Single Phase Meter 80A – Figure 1](/img/produkte-1-phasen-zaehler/01.jpg)
 
@@ -56,11 +56,11 @@ The meter alternately displays different values.
 
 T(4) button for installation
 
-Pressing the T(4) button for 10 seconds creates a local WiFi network for the installation
+If button T(4) is pressed for 10 seconds, a local WiFi is created for the installation
 
 ## Configuring Inputs and Outputs
 
-The Single Phase Meter 80A has one digital output and one digital input, which can be used as pulse inputs and outputs or as a switchable potential-free contact. Details can be found on the wiki page [Inputs and Outputs](/schnittstellen/ein_und_ausgaenge) 
+The Single Phase Meter 80A has one digital output and one digital input, which can be used as pulse inputs and outputs or as a switchable potential-free contact. You can find details on the wiki page [Inputs and Outputs](/schnittstellen/ein_und_ausgaenge) 
 
 ## Shipping Information
 

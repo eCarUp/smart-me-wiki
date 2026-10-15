@@ -8,8 +8,6 @@ Zerofy is a cloud-based home energy management system (HEMS). Zerofy uses intell
 
 It integrates with smart-me meters to switch devices when there is a solar surplus and to track consumption and production.
 
-
-
 Target group: single-family homes / smart-me users with an account.
 
 Platforms: iOS and Android.
@@ -18,7 +16,7 @@ Platforms: iOS and Android.
 
 Features:
 
-- Integrates with a wide range of solar inverters, chargers and electric vehicles, heating, ventilation and air-conditioning units, as well as smart home appliances and smart plugs.
+- Integrates with a wide range of solar inverters, chargers and electric vehicles, heating, ventilation and air conditioning devices as well as smart home appliances and smart plugs.
 
 - To connect the devices, you only need to log in to the devices' cloud accounts.
 

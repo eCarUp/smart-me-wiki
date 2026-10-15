@@ -4,11 +4,20 @@ slug: '/drittsysteme/smartfox'
 description: 'smart-me devices can be integrated directly and easily into a SMARTFOX installation.'
 sidebar_label: 'SMARTFOX'
 ---
+<div className="row">
+<div className="col col--7">
+
 smart-me devices can be integrated directly and easily into a SMARTFOX installation.
+
+</div>
+<div className="col col--5 text--center">
 
 ![SMARTFOX – Figure 1](/img/drittsysteme-smartfox/01.png)
 
-The intelligent SMARTFOX Pro energy manager continuously monitors and controls power generation and consumption. This lets you shift the consumption of electrical devices such as heat pumps, charging stations, etc. into the sunshine hours and increase both the self-consumption share and the degree of self-sufficiency.
+</div>
+</div>
+
+With the intelligent SMARTFOX Pro energy manager, which continuously monitors and controls power generation and consumption, the consumption of electrical devices such as heat pumps, charging stations etc. can be shifted to the hours of sunshine, increasing both the self-consumption rate and the degree of self-sufficiency.
 
 Target group:
 
@@ -16,18 +25,15 @@ Target group:
 
 - Small business
 
-- Multi-unit building
-
+- Multi-party building
 
 Connection type:
 
 - Direct integration via Modbus TCP for local communication.
 
-
 Requirement:
 
-- smart-me Professional licences. [Learn more](/planung/cloud-lizenzen)
-
+- smart-me Professional licenses. [Learn more](/planung/cloud-lizenzen)
 
 ![SMARTFOX – Figure 2](/img/drittsysteme-smartfox/02.png)
 
@@ -46,7 +52,7 @@ Use cases:
 
 - High-resolution monitoring of consumers
 
-- High-resolution monitoring of generation plants
+- High-resolution monitoring of generation systems
 
 - Smart meter function at the building connection point
 
@@ -56,13 +62,16 @@ Use cases:
 
 
 
-## Instructions for linking the smart-me meter and SMARTFOX
+## Guide to linking smart-me meters and SMARTFOX
 
-Complete [linking instructions](https://drive.google.com/file/d/1FaH_zWsVsDhH9CMsMmJ5JkJ0OZN69d2J/view?usp=drive_link) with all details
+Complete [linking guide](https://drive.google.com/file/d/1FaH_zWsVsDhH9CMsMmJ5JkJ0OZN69d2J/view?usp=drive_link) with all details
 
 ### Quick guide
 
-1.  [Find the IP address of the smart-me meter](/schnittstellen/modbus-tcp#determining-the-ip-address-with-the-dns-name).
+<div className="row">
+<div className="col col--6">
+
+1.  [Find out the IP address of the smart-me meter](/schnittstellen/modbus-tcp#finding-the-ip-address-using-the-dns-name).
 
 2.  Add an external device in SMARTFOX. (Select smart-me Telstar)
 
@@ -72,17 +81,22 @@ Complete [linking instructions](https://drive.google.com/file/d/1FaH_zWsVsDhH9CM
 
 5.  Save.
 
+</div>
+<div className="col col--6 text--center">
 
 ![SMARTFOX – Figure 3](/img/drittsysteme-smartfox/03.png)
 
+</div>
+</div>
+
 ## Contact:
 
-DAfi GmbH ⏐ Niedernfritzerstrasse 120
+<Kacheln min="20rem">
+<Kachel titel="DAfi GmbH">
 
-5531 Eben im Pongau ⏐ AUSTRIA
+Niedernfritzerstrasse 120, 5531 Eben im Pongau, AUSTRIA
 
-Tel.: +43 (0)720 302 555
++43 (0)720 302 555 · [support@smartfox.at](mailto:support@smartfox.at) · [www.smartfox.at](http://www.smartfox.at)
 
-Mail: [support@smartfox.at](mailto:support@smartfox.at) 
-
-Web: [www.smartfox.at](http://www.smartfox.at)
+</Kachel>
+</Kacheln>

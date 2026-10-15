@@ -118,11 +118,9 @@ Diese Wenn/Dann Aktion erfüllt die Funktion:
 
 - den Boiler einzuschalten, wenn der Bilanzzähler mehr als eine Minute lang ausreichend Strom liefert.
 
-
 Oder
 
 - Eine festgelegte Zeit ist und der Boiler in jedem Fall drei Stunden lang aufgeheizt wird.
-
 
 ![Beispiele Boilersteuerung mit Wenn/Dann-Aktionen – Abbildung 3](/img/konfiguration-wenndann-aktionen-beispiel-boilersteuerung/03.png)
 
@@ -139,6 +137,9 @@ Wenn Messwert grösser/kleiner:
 
 ![Beispiele Boilersteuerung mit Wenn/Dann-Aktionen – Abbildung 4](/img/konfiguration-wenndann-aktionen-beispiel-boilersteuerung/04.png)
 
+<div className="row">
+<div className="col col--5">
+
 Wenn Datum & Uhrzeit:
 
 - Typ: Zeitspanne / Jeden Tag
@@ -149,8 +150,13 @@ Wenn Datum & Uhrzeit:
 
 - Bis: 01:00
 
+</div>
+<div className="col col--7 text--center">
 
 ![Beispiele Boilersteuerung mit Wenn/Dann-Aktionen – Abbildung 5](/img/konfiguration-wenndann-aktionen-beispiel-boilersteuerung/05.png)
+
+</div>
+</div>
 
 Wenn Ereignis
 
@@ -806,13 +812,22 @@ Gleich wie das untere "Beispiel Solaroptimiert mit Nachheizung und Booster Knopf
 
 ## Beispiel Solaroptimiert mit Nachheizung und Booster Knopf mit 3 Boiler (Tabellarische Erklärung)
 
+<div className="row">
+<div className="col col--6">
+
 Bei der Konfiguration der Wenn/Dann Aktionen immer darauf achten, ob die angezeigte Einheit Watt oder Kilowatt ist.
 
 Relais sind mit Boilern verbunden und wurden mit dem Namen "Boiler" versehen.
 
 Das Mosfet wird entsprechend den [Ein- und Ausgänge](/schnittstellen/ein_und_ausgaenge) konfiguriert und trägt den Namen "Boiler Booster".
 
+</div>
+<div className="col col--6 text--center">
+
 ![Beispiele Boilersteuerung mit Wenn/Dann-Aktionen – Abbildung 15](/img/konfiguration-wenndann-aktionen-beispiel-boilersteuerung/15.png)
+
+</div>
+</div>
 
 Dauer bis die volle Leistung bezogen wird: 20 Sekunden
 

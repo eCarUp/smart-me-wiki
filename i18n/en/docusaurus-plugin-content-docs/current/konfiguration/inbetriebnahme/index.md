@@ -10,7 +10,7 @@ Everything about commissioning smart-me devices: what to consider during commiss
 
 [Delete / deactivate meter](/konfiguration/inbetriebnahme/zaehler-loeschen)
 
-[Continue to Folder and Meter Configuration](/konfiguration/ordnerkonfiguration)
+[Continue to folder and meter configuration](/konfiguration/ordnerkonfiguration)
 
 ## Preparation
 
@@ -28,7 +28,7 @@ The following must be in place before commissioning
 
 - The SSID only supports ASCII characters, excluding $ (Ä, Ö, Ü do not work)
 
-- MAC address filters must be disabled during installation. (The MAC addresses of the devices can only be read via ARP)
+- MAC address filters must be disabled during installation. (The MAC addresses of the devices can only be read out via ARP)
 
 - The network requires a DHCP server
 
@@ -38,13 +38,13 @@ The following must be in place before commissioning
 
 ## smart-me account
 
-We recommend creating an account in advance and a separate one for each installation. No licenses are required for commissioning.
+We recommend creating an account in advance and a separate one for each installation. No licences are required for commissioning.
 
 ## Installer App
 
 The free Installer App must be installed on your smartphone and the necessary permissions must be granted.
 
-iOS: Location, Local Network, Camera
+iOS: Location, Local network, Camera
 
 Android: Location, Camera
 
@@ -72,17 +72,17 @@ Android: Location, Camera
 
 3.  Grant the app permissions
 
-4.  Connect your smartphone or tablet to the WiFi network into which you want to install the smart-me device.
+4.  Connect your smartphone or tablet to the WiFi network in which you want to install the smart-me device.
 
-5.  Start the app and log in with the corresponding account, or create an account.
+5.  Start the app and log in with the relevant account or create an account.
 
 6.  In the menu, use Diagnosis (Diagnose) to check whether the servers are reachable.
 
-7.  Click "Install device" („Gerät installieren“) (+) at the bottom right
+7.  Tap “Install device” („Gerät installieren“) (+) at the bottom right
 
-8.  For an installation with WiFi, it can be added at the top.
+8.  For an installation via WiFi, the network can be added at the top.
 
-9.  Click "Add device" („Gerät hinzufügen“) (+) at the bottom right
+9.  Tap “Add device” („Gerät hinzufügen“) (+) at the bottom right
 
 10.  Scan the QR code
 
@@ -90,39 +90,39 @@ Android: Location, Camera
 
 12.  Select "Connect to the device's WiFi" ("Verbinde mit WLAN des Gerätes")
 
-13.  Press T1 or hold up the RFID card. Note: The Pico must be installed within 15 minutes after the power is switched on.
+13.  Press T1 or hold the RFID card against the device. Note: The Pico must be installed within 15 minutes of switching on the power.
 
 14.  Select "WLAN quick connect"
 
 15.  Wait until you are prompted to connect to smart-me\_xxxxxx.
 
-16.  Wait until the installation has completed successfully.
+16.  Wait until the installation has been completed successfully.
 
 17.  Assign a name.
 
-18.  Device-specific settings
+18.  Device-specific setting
 
      - Telstar CT: Set the transformer ratio (select CT / edit / enter transformer ratio)
 
-     - M-Bus: The scan must be started via the web portal (gear icon / start scan)
+     - M-Bus: The search must be started via the web portal (gear icon / start search)
 
      - Kamstrup:  Meter key (three gear icons / meter key / save)
 
 If the installation fails, please follow the detailed instructions including error descriptions.
 
-## Detailed instructions incl. error descriptions
+## Detailed instructions including error descriptions
 
 <div className="row">
 <div className="col col--4">
 
 **1. WiFi connection**
 
-Connect the smartphone to the same 2.4 GHz WiFi network that the devices will later use.
+Connect the smartphone to the same 2.4 GHz WiFi network that the devices will later be connected to.
 
 </div>
 <div className="col col--4">
 
-**2. Creation / connection**
+**2. Create / connect**
 
 <div className="text--center">
 
@@ -137,7 +137,7 @@ Connect the smartphone to the same 2.4 GHz WiFi network that the devices will la
 
 <div className="text--center">
 
-![Registration form of the app with email, password and confirmation](/img/konfiguration-inbetriebnahme/04_EN.jpg)
+![Registration form of the app with email, password and confirmation](/img/konfiguration-inbetriebnahme/04.jpg)
 
 </div>
 
@@ -153,11 +153,11 @@ Connect the smartphone to the same 2.4 GHz WiFi network that the devices will la
 
 <div className="text--center">
 
-![Login form of the app with email and password](/img/konfiguration-inbetriebnahme/05_EN.jpg)
+![Login form of the app with email and password](/img/konfiguration-inbetriebnahme/05.jpg)
 
 </div>
 
-**Possible problems:** If login is not possible, check whether the WiFi has an internet connection and whether the username and password are correct.
+**Possible problems:** If you cannot log in, check whether the WiFi network has an internet connection and whether the user name and password are correct.
 
 </div>
 <div className="col col--4">
@@ -170,18 +170,18 @@ Connect the smartphone to the same 2.4 GHz WiFi network that the devices will la
 
 </div>
 
-This step is optional. What matters is that "Server reachable" („Server erreichbar") is set to *Yes*.
+This step is optional. What matters is that “Server reachable” („Server erreichbar“) is set to *Yes*.
 
 If the warning about the 5 GHz network appears, a 2.4 GHz network must also be available. The smartphone cannot be forced to use it — which is why this is only a warning.
 
 </div>
 <div className="col col--4">
 
-**6. Click "Add device" („Gerät hinzufügen") (+)**
+**6. Tap “Add device” („Gerät hinzufügen“) (+)**
 
 <div className="text--center">
 
-![Empty device list of the app with the plus button at the bottom right](/img/konfiguration-inbetriebnahme/07_EN.jpg)
+![Empty device list of the app with the plus button at the bottom right](/img/konfiguration-inbetriebnahme/07.jpg)
 
 </div>
 
@@ -191,15 +191,15 @@ If the warning about the 5 GHz network appears, a 2.4 GHz network must also be a
 <div className="row">
 <div className="col col--4">
 
-**7. Click "Edit" („Editieren")**
+**7. Tap “Edit” („Editieren“)**
 
 <div className="text--center">
 
-![Device list with Edit highlighted in green next to the installation WiFi](/img/konfiguration-inbetriebnahme/08_EN.jpg)
+![Device list with Edit highlighted in green next to the installation WiFi](/img/konfiguration-inbetriebnahme/08.jpg)
 
 </div>
 
-**Note:** This step is not required when Picos are commissioned via 4G.
+**Note:** This step does not apply if Picos are commissioned via 4G.
 
 </div>
 <div className="col col--4">
@@ -208,7 +208,7 @@ If the warning about the 5 GHz network appears, a 2.4 GHz network must also be a
 
 <div className="text--center">
 
-![Input field for the password of the installation WiFi](/img/konfiguration-inbetriebnahme/09_EN.jpg)
+![Input field for the password of the installation WiFi](/img/konfiguration-inbetriebnahme/09.jpg)
 
 </div>
 
@@ -217,7 +217,7 @@ If the warning about the 5 GHz network appears, a 2.4 GHz network must also be a
 </div>
 <div className="col col--4">
 
-**9. Click "Add device" („Gerät hinzufügen") (+)**
+**9. Tap “Add device” („Gerät hinzufügen“) (+)**
 
 <div className="text--center">
 
@@ -235,11 +235,11 @@ If the warning about the 5 GHz network appears, a 2.4 GHz network must also be a
 
 <div className="text--center">
 
-![QR code scanner of the app over the type plate of a meter](/img/konfiguration-inbetriebnahme/11.jpg)
+![QR code scanner of the app over the rating plate of a meter](/img/konfiguration-inbetriebnahme/11.jpg)
 
 </div>
 
-**Possible problems:** If the QR code is not recognized, the serial number can also be entered manually.
+**Possible problems:** If the QR code is not recognised, the serial number can also be entered manually.
 
 </div>
 <div className="col col--4">
@@ -255,7 +255,7 @@ If the warning about the 5 GHz network appears, a 2.4 GHz network must also be a
 </div>
 <div className="col col--4">
 
-**12. Pico only: "Select connection type" („Verbindungsart auswählen")**
+**12. Pico only: “Select connection type” („Verbindungsart auswählen“)**
 
 <div className="text--center">
 
@@ -269,15 +269,15 @@ If the warning about the 5 GHz network appears, a 2.4 GHz network must also be a
 <div className="row">
 <div className="col col--4">
 
-**13. Press the T1 button or scan the RFID card**
+**13. Press the T1 button or scan RFID**
 
 <div className="text--center">
 
-![Instructions with a drawing showing how to press and hold the T1 button on the device](/img/konfiguration-inbetriebnahme/14_EN.jpg)
+![Instructions with a drawing showing how to press and hold the T1 button on the device](/img/konfiguration-inbetriebnahme/14.jpg)
 
 </div>
 
-**Note for Pico:** Each Pico allows 15 minutes to complete the installation. After that, the Pico must be restarted and the process started from the beginning.
+**Note for Pico:** You have 15 minutes per Pico to complete the installation. After that, the Pico must be restarted and the process started again from the beginning.
 
 </div>
 <div className="col col--4">
@@ -293,7 +293,7 @@ If the warning about the 5 GHz network appears, a 2.4 GHz network must also be a
 </div>
 </div>
 
-## Device-specific settings
+## Device-specific setting
 
 ## Telstar CT
 
@@ -306,19 +306,19 @@ If the warning about the 5 GHz network appears, a 2.4 GHz network must also be a
 
 - Enter the transformer ratio 
 
-- The transformer ratio can be locked. This protects against unwanted changes by unauthorized persons. To unlock the transformer ratio,  the device must be installed again with the smart-me app.
+- The transformer ratio can be locked. This protects against unwanted changes by unauthorised persons. To unlock the transformer ratio,  the device must be installed again with the smart-me app.
 
 </div>
 <div className="col col--4 text--center">
 
-![Device details in the app with the transformer factor 200:5 and the switch "Lock transformer factor" („Wandlerfaktor sperren")](/img/konfiguration-inbetriebnahme/16_EN.jpg)
+![Device details in the app with the transformer factor 200:5 and the “Lock transformer factor” („Wandlerfaktor sperren“) switch](/img/konfiguration-inbetriebnahme/16.jpg)
 
 </div>
 </div>
 
 ### Note:
 
-The transformer ratio does not change historical data. This step should therefore be carried out immediately after commissioning.
+The transformer ratio does not change any historical data. This step should therefore be carried out immediately after commissioning.
 
 ## M-Bus Gateway / Sirius
 
@@ -328,18 +328,18 @@ Hardware installation steps:
 
 1.  Install the device (wire the M-Bus, apply voltage)
 
-2.  Complete the installation with the app according to the instructions.
+2.  Complete the installation with the app as described in the instructions.
     (Link the hardware to the WiFi and the target account. WiFi 2.4GHz)
 
-3.  Under Configuration in the app or on the desktop, start the  "automatic scan" ("automatischen Suchlauf") to find the devices.
+3.  Under configuration in the app or on the desktop, start the  "automatic search" to find the devices.
 
-The commissioning of the heat meters and water meters, on the other hand, continues to be carried out by the supplier (e.g. Neovac, Ista, GWF, Techem etc.). In most cases, these companies connect their own M-Bus master in the technical room so that they can check whether the meters are reachable on the M-Bus.
+The commissioning of the heat meters and water meters, on the other hand, continues to be carried out by the supplier (e.g. Neovac, Ista, GWF, Techem etc.). In most cases, these companies connect their own M-Bus master in the technical room so that they can check whether the meters are reaching the M-Bus.
 
 A commissioning report is then created, and only after that is our M-Bus Gateway reconnected.
 
-With the corresponding documents, the individual meters can then be assigned to the correct apartments in the smart-me Cloud and the configuration can be completed.
+With the corresponding documents, the respective meters can then be assigned to the correct apartments in the smart-me Cloud and the configuration can be completed.
 
-The required information is listed below
+The required information
 
 - List of all installed meters
 
@@ -347,50 +347,50 @@ The required information is listed below
 
 - Assignment to the apartment (apartment designation)
 
-- Type of meter (heat, domestic hot water or cold water etc.)
+- Meter type (heat, domestic hot water or cold water etc.)
 
-Important: The secondary address must be unique per smart-me account. In addition, for combined heat/cooling meters, the combination of the last 4 digits must be unique within the account. The easiest way is to use the device serial number.
+Important: The secondary address must be unique per smart-me account; in addition, for combined heating/cooling meters the combination of the last 4 digits must be unique within the account. The easiest way is to use the device serial number.
 
-Result of the automatic scan
+Result of the automatic search
 
-![Result of the scan in the portal: status, last connection and a list of 19 meters found with their secondary address](/img/konfiguration-inbetriebnahme/17.png)
+![Result of the search in the portal: status, last connection and a list of 19 meters found with their secondary address](/img/konfiguration-inbetriebnahme/17.png)
 
-Automatic meter creation after the scan
+Automatic meter creation after the search
 (takes a few minutes)
 
 ![Meter tree of an apartment with the entries cooling, electricity, heat and domestic hot water](/img/konfiguration-inbetriebnahme/18.png)
 
 ### Numbering for combined meters
 
-The M-Bus gateway only recognizes one meter at a time based on the secondary address, which is usually also listed on the acceptance report.
+The M-Bus Gateway only recognises one meter at a time based on the secondary address, which is usually also listed on the acceptance report.
 
 The combined meters are then displayed separately in the portal. For this application, smart-me uses its own numbering logic.
 
-All meters that are not relevant for billing can be [deactivated](/konfiguration/inbetriebnahme/zaehler-loeschen) to save license costs. Deleting them is not effective, as the meter keeps reappearing.
+All meters that are not relevant for billing can be [deactivated](/konfiguration/inbetriebnahme/zaehler-loeschen) to save licence costs. Deleting them does not help, as the meter keeps reappearing.
 
 If a meter contains more than 1 meter, they are numbered as follows:
 
 - Main meter = secondary address from the list of the M-Bus Gateway (e.g. 71440145)
 
-- Additional meters = secondary address of the main meter, the first 1 or 2 digits are removed (e.g. 7) and a number is incremented at the end (e.g. 14401451,14401452).
+- Additional meters = secondary address of the main meter; the first 1 or 2 digits are removed (e.g. 7) and a number is counted up at the end (e.g. 14401451,14401452).
 
-- Sub-meters = these contain the last four digits of the main meter (e.g. 0145) and a four-digit sequence number at the end (e.g. 01450001)
+- Sub-meters = these contain the last four digits of the main meter (e.g. 0145) and a four-digit sequential number at the end (e.g. 01450001)
 
 Note on leading zeros: If a meter has, for example, the number 1000017, the leading zeros are not taken into account after truncation, i.e. e.g. 000017, and are appended at the end, e.g. 1700001
 
-![Single meter found, "Heat 71440145", with its addressing](/img/konfiguration-inbetriebnahme/19.png)
+![Single meter found, “Heat 71440145”, with its addressing](/img/konfiguration-inbetriebnahme/19.png)
 
 ![Four meters of a combined meter: two Cold, one Heat and one Water](/img/konfiguration-inbetriebnahme/20.png)
 
-### Searching for devices with the M-Bus Gateway
+### M-Bus Gateway: search for devices
 
-Further configurations must be made in the web portal
+Further configuration must be carried out in the web portal
 
 Edit
 
-- Change the interval. The M-Bus requires 10 seconds per device for reading.
+- Change the interval. The M-Bus needs 10 seconds per device for reading.
 
-Starting a device scan on the M-Bus Gateway
+Start the device search on the M-Bus Gateway
 
 1.  Click the gear icon (Settings) at the top right 
 
@@ -402,25 +402,25 @@ Note: The search can take several minutes.
 
 Gateway does not find all meters
 
-- Start the scan again  (1-2x). A meter may not always be found during the first scan.
+- Start the search again  (1–2 times). The meter may not always be found during the first search.
 
-- You can find further causes on the page [M-Bus gateway failures](/stoerungsbehebung/mbus-gateway-stoerungen) 
+- You can find further causes on the [M-Bus gateway failures](/stoerungsbehebung/mbus-gateway-stoerungen) page 
 
 Gateway finds more meters than were installed
 
-- Mostly during commissioning: Depending on the M-Bus meter, it may create several sub-meters. These can be recognized by the serial number being shifted one digit to the left, followed by an ascending number, starting with 1. Example: main meter 00200001, sub-meter 02000011
+- Usually during commissioning: depending on the M-Bus meter, it can create several sub-meters. These can be recognised by the serial number being shifted one digit to the left, followed by an increasing number, starting with 1. Example: main meter 00200001, sub-meter 02000011
 
-- You can find further causes on the page [M-Bus gateway failures](/stoerungsbehebung/mbus-gateway-stoerungen) 
+- You can find further causes on the [M-Bus gateway failures](/stoerungsbehebung/mbus-gateway-stoerungen) page 
 
-![Menu of the M-Bus Gateway in the portal with the button "Search devices" („Geräte suchen") highlighted in green](/img/konfiguration-inbetriebnahme/21.png)
+![Menu of the M-Bus Gateway in the portal with the “Search devices” („Geräte suchen“) button highlighted in green](/img/konfiguration-inbetriebnahme/21.png)
 
-### Preventing the M-Bus Gateway from detecting new devices
+### M-Bus Gateway: prevent detection of new devices
 
 How is the option enabled?
 
 - Select the M-Bus Gateway.
 
-- Select the M-Bus Gateway gear icon (top right). Note: Do not select the upper gear icon, which is used for configuring the meters, but the lower one.
+- Select the M-Bus Gateway gear icon (top right). Note: Do not select the upper gear icon, which is used to configure the meters, but the lower one.
 
 - Edit
 
@@ -432,54 +432,54 @@ What does this option do?
 
 - Enabling the option "Don't allow to add additional meters" prevents devices that do not yet exist in the cloud from being saved. 
 
-What should be considered?
+What needs to be considered?
 
-- When new devices are added, this option must be disabled again before the search.
+- If new devices are added, this option must be disabled again before the search.
 
 When is this option recommended?
 
-- When M-Bus devices that do not actually exist repeatedly appear in the portal.
+- If M-Bus devices that do not actually exist keep appearing in the portal.
 
-- For preventive reasons :-)
+- As a precaution :-)
 
 In which cases can this happen?
 
-- In the event of data transmission errors. This occurs more frequently when the M-Bus cable is too long and the quality of the data transmission decreases as a result, or when the cable is poorly shielded or exposed to external interference.
+- In the event of errors in data transmission. This happens more often if the M-Bus cable is too long and the quality of the data transmission therefore drops, or if the cable is poorly shielded or exposed to external interference.
 
 Technical explanation
 
-- The standardized M-Bus protocol has only 1 byte for the checksum. The checksum is intended to detect certain errors in data transmission. Unfortunately, 1 byte is not much and can repeatedly lead to a faulty data packet being considered correct and valid. In some installations where M-Bus Gateways are used, this repeatedly results in corrupt packets being classified as correct and valid, which are then detected and added as a new M-Bus device in our cloud. The account then drops from Professional to Basic because license coverage is no longer ensured.
+- The standardised M-Bus protocol only has 1 byte for the checksum. The checksum is intended to detect certain errors in data transmission. Unfortunately, 1 byte is not much and can repeatedly lead to a faulty data packet being regarded as correct and valid. In some installations using M-Bus Gateways, this repeatedly results in corrupt packets being classified as correct and valid, which are then detected and added to our cloud as a new M-Bus device. The account then drops from Professional to Basic, as licence coverage is no longer ensured.
 
-![Settings of the M-Bus Gateway with the checkbox "Don't allow to add additional meters" highlighted and the Save button](/img/konfiguration-inbetriebnahme/22.png)
+![Settings of the M-Bus Gateway with the “Don't allow to add additional meters” checkbox ticked and the Save button](/img/konfiguration-inbetriebnahme/22.png)
 
 ## Pico EV Charger
 
 ### Check the WiFi connection
 
-After the Pico has been installed, an icon appears in the upper right corner that indicates the connection type.
+After the Pico has been installed, an icon appears in the top right corner indicating the connection type.
 
-If the Pico is to be connected via WiFi, it is advisable to briefly check whether the icon corresponds to a WiFi symbol and not 4G. 
+If the Pico is to be connected via WiFi, it is advisable to briefly check whether the icon is a WiFi symbol and not 4G. 
 
-If 4G appears even though the Pico should be connected via WiFi, the Pico must be reinstalled. This can happen if a step during installation was not carried out correctly, e.g. the WiFi password.
+If 4G appears even though the Pico is supposed to be connected via WiFi, the Pico must be reinstalled. This can happen if a step was not carried out correctly during installation, e.g. the WiFi password.
 
-![Status display of a Pico charging station in the portal with the WiFi symbol highlighted in red](/img/konfiguration-inbetriebnahme/23.png)
+![Status display of a Pico charging station in the portal with the WiFi symbol marked in red](/img/konfiguration-inbetriebnahme/23.png)
 
-### Pico Configuration & load management
+### Pico configuration & load management
 
 [Pico Configuration](/konfiguration/inbetriebnahme/pico-konfiguration) 
 
 [Multilevel load management](/konfiguration/multilevel-lastmanagement) 
 
-![Status display of a Pico charging station in the portal with the WiFi symbol highlighted in red](/img/konfiguration-inbetriebnahme/23.png)
+![Status display of a Pico charging station in the portal with the WiFi symbol marked in red](/img/konfiguration-inbetriebnahme/23.png)
 
 ## Tips and tricks
 
-### Commissioning multiple devices
+### Commissioning several devices
 
 <div className="row">
 <div className="col col--8">
 
-In this step, you have the option of commissioning several meters at the same time to speed up commissioning when there are many meters.
+In this step, you can commission several meters at the same time to speed up commissioning when there are many meters.
 
 </div>
 <div className="col col--4 text--center">
@@ -503,12 +503,12 @@ In this step, you have the option of commissioning several meters at the same ti
 </div>
 <div className="col col--4 text--center">
 
-![Side menu of the app with the entry User Profile highlighted](/img/konfiguration-inbetriebnahme/26_EN.jpg)
+![Side menu of the app with the User Profile entry highlighted](/img/konfiguration-inbetriebnahme/26.jpg)
 
 </div>
 <div className="col col--4 text--center">
 
-![Profile page of the app with the Log out button at the bottom](/img/konfiguration-inbetriebnahme/27_EN.jpg)
+![Profile page of the app with the Log out button at the bottom](/img/konfiguration-inbetriebnahme/27.jpg)
 
 </div>
 </div>
@@ -519,7 +519,7 @@ If the installation fails and you want to try again, please close the app comple
 
 ## Next step
 
-[Continue to Folder and Meter Configuration](/konfiguration/ordnerkonfiguration)
+[Continue to folder and meter configuration](/konfiguration/ordnerkonfiguration)
 
 ## FAQ
 
@@ -530,29 +530,29 @@ If the meters are connected to a technical WiFi network and/or a dedicated acces
 
 If the SSID and password of a private WiFi network are used, there are two options:
 
-- Solution 1: Set up a guest WiFi on the new router with the same SSID and password as the old one. The meters will then automatically connect to this WiFi, which is identical to the old one.
+- Solution 1: Set up a guest WiFi network on the new router with the same SSID and password as the old one. The meters will then automatically connect to this WiFi network, which is identical to the old one.
 
-- Solution 2: Re-register each meter individually so that the new data is stored locally on each meter. The installation is carried out exactly like a new installation. Under no circumstances may the  meter be deleted, otherwise all historical data will be lost . During a reinstallation, our cloud environment detects that the serial number already exists in the account and simply adds the new values.
+- Solution 2: Re-register each meter individually so that the new data is stored locally on each meter. The installation is carried out exactly like a new installation. Under no circumstances may the  meter be deleted, as otherwise all historical data will be lost . During a reinstallation, our cloud environment detects that the serial number already exists in the account and simply adds the new values.
 
 </details>
 
 <details id="wie-kann-ich-ein-gerät-neu-starten-reboot">
 <summary>How can I restart (reboot) a device?</summary>
 
-All devices can be restarted with a power interruption.
+All devices can be restarted by interrupting the power supply.
 
-3-phase meters: Press T1 and T2 simultaneously for 10 seconds.
+3-phase meter: Press T1 and T2 simultaneously for 10 seconds.
 
-Pico: In the portal, select the gear icon at the top right, advanced actions, restart. Only works if the Pico is online.
+Pico: In the portal, select the gear icon at the top right, Advanced actions (erweiterte Aktionen), Restart (Neustart). This only works if the Pico is online.
 
-Kamstrup Module: Remove the module from the meter, wait 10 seconds and plug it back in.
+Kamstrup module: Remove the module from the meter, wait 10 seconds and plug it back in.
 
-M-Bus Gateway and single-phase meters: These devices can only be restarted with a power interruption.
+M-Bus Gateway and single-phase meter: These devices can only be restarted by interrupting the power supply.
 
 </details>
 
 <details id="kann-ich-mein-gerät-mit-mehreren-wifi-netzwerken-nutzen">
-<summary>Can I use my device with multiple WiFi networks?</summary>
+<summary>Can I use my device with several WiFi networks?</summary>
 
 Yes, the smart-me device (except the [Pico charging station](/produkte/pico-ladestation)) stores up to 3 different WiFi networks. You only need to install it once on each network, after which the device automatically always selects the network with the best wireless connection.
 
@@ -575,14 +575,14 @@ The WiFi password is stored exclusively on the smart-me device and is never tran
 <details id="werden-die-einstellungen-und-zählerstände-gespeichert-falls-der-strom-ausfällt">
 <summary>Are the settings and meter readings saved in the event of a power failure?</summary>
 
-Yes, the device saves all settings and values in the event of a power failure. As soon as the power supply is restored, the device automatically connects to the WiFi and returns to the state it was in before the failure. 
+Yes, the device saves all settings and values in the event of a power failure. As soon as the power supply is restored, the device automatically connects to the WiFi network and returns to the state it was in before the failure. 
 
 </details>
 
 <details id="wie-kann-ich-eine-neues-wifi-hinterlegen-ohne-die-bestehenden-daten-zu-verlieren">
 <summary>How can I add a new WiFi network without losing the existing data?</summary>
 
-To add another network, the device must be properly installed with the smart-me app. If it is not deleted from the cloud beforehand, energy data and configuration settings are retained.
+To add another network, the device must be properly installed with the smart-me app. If it is not deleted from the cloud beforehand, the energy data and configuration settings are retained.
 
 </details>
 
@@ -591,7 +591,7 @@ To add another network, the device must be properly installed with the smart-me 
 
 The WiFi information is only stored on the device. The data can be deleted as follows:
 
-- Press the button of the smart-me device for 10s. For the Pico, the RFID card must be held up no later than 15 minutes after the restart (power off).
+- Press the button on the smart-me device for 10 s. For Pico, the RFID card must be held against it no later than 15 minutes after the restart (power off).
 
 - Use a smartphone to connect to the smart-me WiFi (the name of the WiFi network is smart-me\_XXXXXX, where X stands for the serial number of the smart-me device)
 
@@ -604,14 +604,14 @@ The WiFi information is only stored on the device. The data can be deleted as fo
 <details id="wie-finde-ich-die-mac-adresse-meines-smart-me-geräts-raus">
 <summary>How do I find out the MAC address of my smart-me device?</summary>
 
-There is no direct way to find out the MAC\-address. If you have a Professional license, you can enable DNS in the advanced settings of the smart-me device and select the Internal IP option. The IP can be determined by pinging the DNS name, and it can then be compared with the IP / MAC table on the router
+There is no direct way to find out the MAC\-address. If you have a Professional licence, you can enable DNS in the advanced settings of the smart-me device and select the Internal IP option. The IP can be determined by pinging the DNS name; it can then be compared with the IP / MAC table on the router
 
 </details>
 
 <details id="kann-das-mesh-netzwerk-deaktiviert-werden">
 <summary>Can the mesh network be disabled?</summary>
 
-3-phase meters Telstar and Telstar CT create a mesh network. This cannot be disabled.
+The 3-phase meters Telstar and Telstar CT create a mesh network. This cannot be disabled.
 
 </details>
 
@@ -632,14 +632,14 @@ There is no direct way to find out the MAC\-address. If you have a Professional 
 </details>
 
 <details id="was-passiert-wenn-ich-ein-zähler-deaktiviere">
-<summary>What happens when I deactivate a meter?</summary>
+<summary>What happens if I deactivate a meter?</summary>
 
-All data already stored in the cloud is retained. After deactivation, no further data is stored. No license costs are incurred for deactivated meters.
+All data already stored in the cloud is retained. After deactivation, no further data is stored. No licence costs are incurred for deactivated meters.
 
 </details>
 
 <details id="kann-auf-den-smart-me-geräten-ein-proxy-konfiguriert-werden">
-<summary>Can a proxy be configured on smart-me devices?</summary>
+<summary>Can a proxy be configured on the smart-me devices?</summary>
 
 No
 

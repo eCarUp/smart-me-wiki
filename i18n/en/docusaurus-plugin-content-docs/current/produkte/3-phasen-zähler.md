@@ -1,11 +1,11 @@
 ---
 title: '3-Phase Meter'
 slug: '/produkte/3-phasen-zähler'
-description: 'The smart-me 3-Phase Meter is a powerful and precise energy meter with an integrated WiFi interface.'
+description: 'The smart-me 3-phase meter is a powerful and precise energy meter with an integrated WiFi interface.'
 sidebar_label: '3-Phase Meter'
 displayed_sidebar: wikiSidebar
 ---
-The smart-me 3-Phase Meter is a powerful and precise energy meter with an integrated WiFi interface. No additional hardware is required for integration into the smart-me Cloud. It uses the existing WiFi network and can be controlled and analysed from anywhere via the internet. With a Professional subscription, the meter values can also be queried via the Modbus TCP interface. With the 5(32)A version, each phase can be switched individually.
+The smart-me 3-phase meter is a powerful and precise energy meter with an integrated WiFi interface. No additional hardware is required for integration into the smart-me Cloud. It uses the existing WiFi network and can be controlled and analysed from anywhere via the internet. With a Professional subscription, the meter values can also be queried via the Modbus TCP interface. With the 5(32)A version, each phase can be switched individually.
 
 This 3-phase meter is no longer available. You can find the new generation of our 3-phase meter here: [3-Phase Meter Telstar](/produkte/telstar)
 
@@ -27,7 +27,7 @@ This 3-phase meter is no longer available. You can find the new generation of ou
 
 - Additional contact outputs for controlling external devices
 
-- The 3-phase meter also works as a gateway to the cloud for (almost) all IP-capable smart energy devices
+- The 3-phase meter also works as a gateway to the cloud for (almost) all IP-enabled smart energy devices
 
 - Easy installation with the free smart-me app for Android and iOS
 
@@ -37,7 +37,7 @@ This 3-phase meter is no longer available. You can find the new generation of ou
 
 Before you can use your smart-me device, you must connect it to your WiFi network and the internet.
 
-1.  Connect your smartphone or tablet to the WLAN.
+1.  Connect your smartphone or tablet to the WiFi network.
 
 2.  Download and install the smart-me app from the Play Store or iOS App Store.
 
@@ -57,11 +57,11 @@ Storage temperature -40°C to 85°C
 
 Temperature range -25°C to 70°C
 
-Humidity annual average 75%, short-term 95%, non-condensing
+Humidity annual average 75%, briefly 95%, non-condensing
 
 Accuracy class B
 
-Meter type bidirectional meter (consumption and delivery)
+Meter type bidirectional meter (consumption and feed-in)
 
 Measured values 
 
@@ -119,7 +119,7 @@ The smart-me meter has two outputs and one input, which can be used as pulse inp
 
 ## Display
 
-The meter has a scrolling display. The items described below are shown one after another. After the last item, the display starts again at item 1:
+The meter has a scrolling display. The items described below are shown one after the other. After the last item, the display starts again at item 1:
 
 1.  Phase sequence (if incorrect, see below)
 
@@ -127,8 +127,8 @@ The meter has a scrolling display. The items described below are shown one after
 
 1-8-1: Active energy tariff 1 import (consumption)
 1-8-2: Active energy tariff 2 import (consumption)
-2-8-1: Active energy tariff 1 export (delivery)
-2-8-2: Active energy tariff 2 export (delivery)
+2-8-1: Active energy tariff 1 export (feed-in)
+2-8-2: Active energy tariff 2 export (feed-in)
 
 3.  Software version
 
@@ -136,8 +136,8 @@ The meter has a scrolling display. The items described below are shown one after
 
 ### Phase sequence
 
-PhL 1 -> only phase L1 has been connected (PhL2 for L2, etc.)
-PhL 12 -> only phases L1 and L2 have been connected (PhL13 for L1 and L3, etc.)
+PhL 1 -> only phase L1 has been connected (PhL2 for L2 etc.)
+PhL 12 -> only phases L1 and L2 have been connected (PhL13 for L1 and L3 etc.)
 PhL 123 -> an incorrect phase sequence has been detected
 
 ## Dimensions and connections
@@ -148,7 +148,7 @@ PhL 123 -> an incorrect phase sequence has been detected
 
 Note: .DXF and .DWG data can be found in the ZIP archive in the downloads.
 
-### Connection diagram
+### Wiring diagram
 
 E1: Tariff input (digital input)
 
@@ -160,15 +160,15 @@ T1: Button for installation
 
 T2: Special functions
 
-Short: If T2 is pressed briefly, the green LED switches on / off. When activated, it indicates the connection status:
+Short: If T2 is pressed briefly, the green LED switches on / off. When it is activated, it indicates the connection status:
 
-Green steady: connected to smart-me Cloud 
+Green steady: connected to the smart-me Cloud 
 
 Green flashing: no connection
 
-Long: If T2 is pressed and held, the display of the reactive energy meter reading is activated (if available). The items reactive energy meter reading T1 and reactive energy meter reading T2 are added to the display sequence. The displayed value flashes and can thus be distinguished from active energy.
+Long: If T2 is pressed for a long time, the display of the reactive energy meter reading is activated (if available). The items reactive energy meter reading T1 and reactive energy meter reading T2 are added to the display sequence. The displayed value flashes and can thus be distinguished from the active energy.
 
-CAUTION: This setting only changes what is shown on the display, not in the smart-me Cloud (app and website). If reactive energy is to be displayed in the cloud, this must be done in the general settings. (When T2 is pressed, the red LED lights up; T2 must be held until the red LED goes out)
+CAUTION: This setting only changes what is shown on the display, not in the smart-me Cloud (app and website). If the reactive energy is to be shown in the cloud, this must be done in the general settings. (When T2 is pressed, the red LED starts to light up; T2 must be held down until the red LED goes out)
 
 S0\_0: S0 pulse output (optionally potential-free contact / caution Pmax = 550mW continuous)
 
@@ -180,9 +180,9 @@ S0\_1: S0 pulse output (optionally potential-free contact / caution Pmax = 550mW
 
 The following measured values are recorded by the meter and can be retrieved in the cloud and via the API
 
-[](https://drive.google.com/open?id=1-f4I5ZWg1-PAHNpzCsQ0aBqrL9k93lH8q9AuN8toJgI "Open spreadsheet, measured values (incl. OBIS codes) 3-Phase Meter V1 in new window")
+[](https://drive.google.com/open?id=1-f4I5ZWg1-PAHNpzCsQ0aBqrL9k93lH8q9AuN8toJgI "Open Spreadsheet, Measured values (incl. OBIS codes) 3-Phase Meter V1 in new window")
 
-<Embed src="https://docs.google.com/spreadsheets/d/1-f4I5ZWg1-PAHNpzCsQ0aBqrL9k93lH8q9AuN8toJgI/htmlembed" height="655px" title="Spreadsheet, measured values (incl. OBIS codes) 3-Phase Meter V1" />
+<Embed src="https://docs.google.com/spreadsheets/d/1-f4I5ZWg1-PAHNpzCsQ0aBqrL9k93lH8q9AuN8toJgI/htmlembed" height="655px" title="Spreadsheet, Measured values (incl. OBIS codes) 3-Phase Meter V1" />
 
 Measured values (incl. OBIS codes) 3-Phase Meter V1
 
@@ -202,19 +202,19 @@ Technical documents
 
 [CE declaration of conformity](https://drive.google.com/file/d/1MBTTapoTlcpUFbXpglgAq2wpE4yfs_MO/view?usp=sharing)
 
-[Connection diagram](https://drive.google.com/file/d/12wyjFnyECXzPXvnYKV_VhfHKuZwAhjdn/view?usp=sharing)
+[Wiring diagram](https://drive.google.com/file/d/12wyjFnyECXzPXvnYKV_VhfHKuZwAhjdn/view?usp=sharing)
 
 ## FAQ
 
 <details id="in-welchem-intervall-senden-die-zähler-daten">
 <summary>At what interval do the meters send data?</summary>
 
-- Every 15 minutes, i.e. at xx:00:00, xx:15:00, xx:30:00 and xx:45:00. This sends the data required for the load profile. In the event of a connection interruption, this data is stored locally and sent later.
+- Every 15 minutes, i.e. at xx:00:00 xx:15:00, xx:30:00 and xx:45:00. This sends the data required for the load profile. In the event of a connection interruption, this data is stored locally and sent later.
 
-- In addition, an individual configuration can be set up:
+- In addition, an individual configuration can be made:
 
-    - With Basic or Limited licences: max. once per minute.
+    - With Basic or Limited licences: max. 1x per minute.
 
-    - With Pro licensing: max. once per second
+    - With Pro licensing: max. 1x per second
 
 </details>

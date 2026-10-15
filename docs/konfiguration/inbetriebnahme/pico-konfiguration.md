@@ -125,10 +125,7 @@ Neben den bereits zur Verfügung stehenden Emoticons kann man auch eigene GIFs o
 
 - Animationen (GIF) haben 10 Bilder/s (100ms pro Bild)
 
-
 Hinweis: Das beste Bildergebnis erhältst du, wenn du bei der Erstellung und Bearbeitung darauf achtest, dass das Bild mit 32x32 Pixel im GIF Format hochgeladen wird.
-
-
 
 \-> Erstelle eigene GIFs mit [piskelapp](/drittsysteme/piskelapp) 
 
@@ -171,12 +168,10 @@ Konfiguration:
 2.  Maximalstrom der Zuleitung definieren (Verfügbarer Strom)
 
 3.  Aktion bei Verbindungsausfall definieren
+
     (Für Kombination mit Multi-Level Lastmanagement ist nur die Version Max. Strom pro Gruppe verwendbar)
 
 4.  Stationen der entsprechenden Lastmanagement- Gruppe hinzufügen (Editieren)
-
-
-
 
 Mehr Details dazu: [Pico Lastmanagement](/produkte/pico-ladestation/pico-lastmanagement)
 
@@ -237,11 +232,23 @@ Mehr Details zur Einrichtung: [Multilevel Lastmanagement](/konfiguration/multile
 
 ## Erweiterte Aktionen
 
+<div className="row">
+<div className="col col--6">
+
 Hier kannst du als Stationsbesitzer das Kabel entriegeln, die Station neu starten oder den Zählerstand auf dem Display zur Überprüfung anzeigen.
+
+</div>
+<div className="col col--6 text--center">
 
 ![Pico Konfiguration – Abbildung 17](/img/konfiguration-inbetriebnahme-pico-konfiguration/17.png)
 
+</div>
+</div>
+
 ## Erweiterte Einstellungen
+
+<div className="row">
+<div className="col col--6">
 
 Automatische Auto Erkennung:
 Damit die CarID Authentifizierung funktioniert, musst du die Kommunikation der Station zum Fahrzeug freigeben.
@@ -252,7 +259,13 @@ Aktivieren der Modbus TCP Schnittstelle von Pico
 Station löschen:
 Löscht die Station und alle Daten auf der Cloud
 
+</div>
+<div className="col col--6 text--center">
+
 ![Pico Konfiguration – Abbildung 18](/img/konfiguration-inbetriebnahme-pico-konfiguration/18.png)
+
+</div>
+</div>
 
 ### Kabel immer fest verriegeln
 
@@ -266,7 +279,6 @@ Hinweis: 
 - Das Auto darf beim Fixieren des Kabels nicht eingesteckt sein.
 
 - Wenn die Stromversorgung unterbrochen oder die Pico neu gestartet wird, wird das Kabel kurzzeitig entriegelt und beim Aufstarten wieder verriegelt.
-
 
 Voraussetzung ist: Die Pico muss dafür mindestens die Kommunikationsversion 0.0.7 haben. Picos, die vor dem 31.12.2022 hergestellt wurden, können betroffen sein.
 

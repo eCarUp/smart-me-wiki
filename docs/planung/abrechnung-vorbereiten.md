@@ -73,18 +73,15 @@ Beispiel:
 
 - Der Verbrauch in der gesamten Liegenschaft entspricht 200 kWh
 
-
 In diesem Fall berechnet sich der prozentuale Anteil am Gesamtverbrauch der einzelnen Lieferanten nach folgender Formel:
 
 % Anteil am Strommix = Lieferantlieferung / Gesamtverbrauch der Liegenschaft
-
 
 - Batterieanteil = 20 kWh / 200 kWh = 10%
 
 - Solaranteil = 100 kWh / 200kWh = 50%
 
 - Reststrom Netz = 100% - Batterieanteil - Solaranteil = 40%
-
 
 ![Abrechnung / Vergütung vorbereiten – Abbildung 2](/img/planung-abrechnung-vorbereiten/02.png)
 
@@ -93,11 +90,12 @@ In diesem Fall berechnet sich der prozentuale Anteil am Gesamtverbrauch der einz
 Der obige Energiemix wird nun für die letzten 15 Minuten angewendet für jede individuelle Abrechnungseinheit. Dies führt dazu, dass jeder den gleichen Anspruch bezüglich des Energiemix besitzt, unabhängig davon, wie viel Energie er im Vergleich zu anderen Teilnehmern verbraucht.
 
 - Wohnung A Verbrauch Total:
+
     20 kWh (2 kWh aus Batterie, 10kWh aus Solar, 8 kWh vom Netz)
 
 - Wohnung B Verbrauch Total:
-    100 kWh (10 kWh aus Batterie, 50kWh aus Solar, 40 kWh vom Netz)
 
+    100 kWh (10 kWh aus Batterie, 50kWh aus Solar, 40 kWh vom Netz)
 
 Hinweis 1: Der Strommix bildet die Realität und den effektiv vorherrschenden Strommix im ZEV ab. Wenn Strom bezogen wird, entspricht der Verbrauch exakt diesem Mix.
 Hinweis 2: Diese Anwendung des Stromix ermöglicht Grossverbrauchern mengenmässig einen höhere Verfügbarkeit von günstigem Solar und Batteriestrom.

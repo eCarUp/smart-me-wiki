@@ -1,16 +1,25 @@
 ---
 title: 'SMARTFOX'
 slug: '/drittsysteme/smartfox'
-description: 'Les appareils smart-me peuvent être intégrés directement et facilement dans une installation SMARTFOX.'
+description: 'Les appareils smart-me peuvent être intégrés directement et simplement dans une installation SMARTFOX.'
 sidebar_label: 'SMARTFOX'
 ---
-Les appareils smart-me peuvent être intégrés directement et facilement dans une installation SMARTFOX.
+<div className="row">
+<div className="col col--7">
 
-![SMARTFOX – Illustration 1](/img/drittsysteme-smartfox/01.png)
+Les appareils smart-me peuvent être intégrés directement et simplement dans une installation SMARTFOX.
 
-Le gestionnaire d'énergie intelligent SMARTFOX Pro surveille et régule en continu la production et la consommation d'électricité. Grâce à lui, la consommation d'appareils électriques tels que les pompes à chaleur, les bornes de recharge, etc. peut être déplacée vers les heures d'ensoleillement, ce qui augmente à la fois le taux d'autoconsommation et le degré d'autarcie.
+</div>
+<div className="col col--5 text--center">
 
-Public cible :
+![SMARTFOX – Figure 1](/img/drittsysteme-smartfox/01.png)
+
+</div>
+</div>
+
+Le gestionnaire d'énergie intelligent SMARTFOX Pro surveille et régule en continu la production et la consommation d'électricité. Il permet ainsi de déplacer la consommation des appareils électriques, comme les pompes à chaleur ou les bornes de recharge, vers les heures d'ensoleillement et d'augmenter à la fois le taux d'autoconsommation et le degré d'autarcie.
+
+Groupe cible :
 
 - Maison individuelle
 
@@ -18,22 +27,19 @@ Public cible :
 
 - Immeuble collectif
 
-
 Type de connexion :
 
 - Intégration directe via Modbus TCP pour la communication locale.
-
 
 Prérequis :
 
 - Licences smart-me Professional. [En savoir plus](/planung/cloud-lizenzen)
 
+![SMARTFOX – Figure 2](/img/drittsysteme-smartfox/02.png)
 
-![SMARTFOX – Illustration 2](/img/drittsysteme-smartfox/02.png)
+Fonctions :
 
-Fonctions : 
-
-- Pilotage
+- Commande
 
 - Visualisation
 
@@ -42,16 +48,16 @@ Fonctions :
 
 
 
-Possibilités d'utilisation : 
+Possibilités d'utilisation :
 
 - Monitoring haute résolution des consommateurs
 
 - Monitoring haute résolution des installations de production
 
-- Fonction smart meter au point de raccordement du bâtiment
+- Fonction de compteur intelligent au point de raccordement du bâtiment
 
 
-- Compteur divisionnaire pour un second niveau de régulation pour la gestion de la charge dynamique des bornes de recharge
+- Sous-compteur pour un second niveau de régulation pour la gestion dynamique de la charge des bornes de recharge
 
 
 
@@ -61,6 +67,9 @@ Possibilités d'utilisation :
 [Instructions complètes pour la liaison](https://drive.google.com/file/d/1FaH_zWsVsDhH9CMsMmJ5JkJ0OZN69d2J/view?usp=drive_link) avec tous les détails
 
 ### Guide rapide
+
+<div className="row">
+<div className="col col--6">
 
 1.  [Déterminer l'adresse IP du compteur smart-me](/schnittstellen/modbus-tcp#déterminer-ladresse-ip-avec-le-nom-dns).
 
@@ -72,17 +81,22 @@ Possibilités d'utilisation :
 
 5.  Enregistrer.
 
+</div>
+<div className="col col--6 text--center">
 
-![SMARTFOX – Illustration 3](/img/drittsysteme-smartfox/03.png)
+![SMARTFOX – Figure 3](/img/drittsysteme-smartfox/03.png)
+
+</div>
+</div>
 
 ## Contact :
 
-DAfi GmbH ⏐ Niedernfritzerstrasse 120
+<Kacheln min="20rem">
+<Kachel titel="DAfi GmbH">
 
-5531 Eben im Pongau ⏐ AUSTRIA
+Niedernfritzerstrasse 120, 5531 Eben im Pongau, AUSTRIA
 
-Tél. : +43 (0)720 302 555
++43 (0)720 302 555 · [support@smartfox.at](mailto:support@smartfox.at) · [www.smartfox.at](http://www.smartfox.at)
 
-E-mail : [support@smartfox.at](mailto:support@smartfox.at) 
-
-Web : [www.smartfox.at](http://www.smartfox.at)
+</Kachel>
+</Kacheln>

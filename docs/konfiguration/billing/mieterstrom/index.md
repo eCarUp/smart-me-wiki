@@ -62,9 +62,7 @@ Musterrechnung Mieterstrom.pdf
 
 - Wähle nun zuerst den Button "Einstellungen"
 
-
 Hier nimmst du die allgemeinen Einstellungen für die Darstellung des Rechnungsdokument vor. Dort nimmst du auch die bereits aus dem im normalen [Billing Artikel](/konfiguration/billing) beschriebenen Einstellungen vor:
-
 
 - Währung (bei Mieterstrom immer EUR)
 
@@ -75,7 +73,6 @@ Hier nimmst du die allgemeinen Einstellungen für die Darstellung des Rechnungsd
 - Kopfzeile / Absender
 
 - Fusszeile
-
 
 ![smart-me Billing für deutschen Mieterstrom – Abbildung 3](/img/konfiguration-billing-mieterstrom/03.png)
 
@@ -121,9 +118,18 @@ Diese Informationen werden in deinem Rechnungsdokument ganz unten aufgeführt.
 
 ## Konfiguration der Liegenschaft
 
+<div className="row">
+<div className="col col--6">
+
 Wechsele oben im Reiter auf den Menüpunkt "Konfiguration", hier kannst du nun die freigeschalteten Erweiterungen für die Liegenschaft und in den einzelnen Wohneinheiten vornehmen. Klicke zuerst auf den Ordner der gewünschten Liegenschaft.
 
+</div>
+<div className="col col--6 text--center">
+
 ![smart-me Billing für deutschen Mieterstrom – Abbildung 5](/img/konfiguration-billing-mieterstrom/05.png)
+
+</div>
+</div>
 
 ### Reststromzusammensetzung
 
@@ -135,13 +141,22 @@ Ein Beispiel kann so aussehen:
 
 ### Verbrauch im Vergleich zur Vorperiode und anderen
 
+<div className="row">
+<div className="col col--4">
+
 Direkt darunter kannst du zum Vergleich die Stromwerte von Vergleichswerten definieren.
 
 Das Rechnungsdokument wird den Stromempfängern diese Referenzwerte sowie den eigenen Verbrauch in der Vorperiode ausgeben.
 
 ACHTUNG: Denke daran, die richtigen Werte  für die von dir gewählte Abrechnungsperiode einzusetzen.  Wenn du also monatliche Rechnungen erstellst, wähle die Referenzwerte auf Monatsbasis usw.
 
+</div>
+<div className="col col--8 text--center">
+
 ![smart-me Billing für deutschen Mieterstrom – Abbildung 7](/img/konfiguration-billing-mieterstrom/07.png)
+
+</div>
+</div>
 
 [](https://drive.google.com/open?id=1mWbJe2QTUs5BnZdcZ7tJ1EwmQpi65nG0xFCrMNafJ4I "Open Spreadsheet, % Stromverbrauch Deutschland in new window")
 

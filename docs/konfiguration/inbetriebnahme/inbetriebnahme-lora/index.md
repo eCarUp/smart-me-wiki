@@ -6,14 +6,22 @@ sidebar_label: 'Inbetriebnahme LoRa'
 ---
 ## 1\. LoRa Gateway auf smart-me registrieren
 
+<div className="row">
+<div className="col col--6">
+
 1.  Gehe auf [lora.smart-me.com](https://lora.smart-me.com) und logge dich mit deinem smart-me Account ein. 
 
 2.  Wähle "Lora Gateways" und klicke auf "Hinzufügen"
 
 3.  Trage den Namen sowie die Geräte EUI ein. Alternativ kannst du den QR-Code der EUI mit der Kamera einscannen.
 
+</div>
+<div className="col col--6 text--center">
 
 ![Inbetriebnahme LoRa – Abbildung 1](/img/konfiguration-inbetriebnahme-inbetriebnahme-lora/01.png)
+
+</div>
+</div>
 
 ## 2\. Installiere und Verbinde das LoRaWAN Gateway zum smart-me LoRa Gateway
 
@@ -32,6 +40,9 @@ Detailanleitungen zu intern getesteten Geräten:
 
 ## 3\. Hinzufügen der Zähler und Sensoren
 
+<div className="row">
+<div className="col col--5">
+
 1.  Navigiere zum Tab "Lora Geräte"
 
 2.  Wähle "Hinzufügen"
@@ -42,5 +53,10 @@ Detailanleitungen zu intern getesteten Geräten:
 
 5.  Überprüfe den Status des Sensors in der Lora Geräte Übersicht.
 
+</div>
+<div className="col col--7 text--center">
 
 ![Inbetriebnahme LoRa – Abbildung 2](/img/konfiguration-inbetriebnahme-inbetriebnahme-lora/02.png)
+
+</div>
+</div>

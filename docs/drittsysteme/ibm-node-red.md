@@ -4,16 +4,34 @@ slug: '/drittsysteme/ibm-node-red'
 description: 'Die offene API-Schnittstelle von smart-me lässt sich sehr einfach in Abläufe in IBM''s Node-Red implementieren.'
 sidebar_label: 'IBM - Node-RED'
 ---
+<div className="row">
+<div className="col col--8">
+
 Die offene API-Schnittstelle von smart-me lässt sich sehr einfach in Abläufe in IBM's Node-Red implementieren.
 Erschaffe Arbeitsabläufe mittels HTTP-Requests und unserer API mit dem vollen Spektrum an Daten und Kontrolle.
 
+</div>
+<div className="col col--4 text--center">
+
 ![IBM Node-RED – Abbildung 1](/img/drittsysteme-ibm-node-red/01.png)
+
+</div>
+</div>
 
 ## Werte von Metern auslesen - GET
 
+<div className="row">
+<div className="col col--5">
+
 Um die API nutzen zu können, benötigst du die HTTP-Request-Bausteine aus Node-Red.
 
+</div>
+<div className="col col--7 text--center">
+
 ![IBM Node-RED – Abbildung 2](/img/drittsysteme-ibm-node-red/02.png)
+
+</div>
+</div>
 
 ![IBM Node-RED – Abbildung 3](/img/drittsysteme-ibm-node-red/03.png)
 

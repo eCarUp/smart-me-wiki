@@ -32,6 +32,9 @@ Der smart-me Telstar 80A ist ein MID-zertifizierter Energiezähler mit integrier
 
 ## Display
 
+<div className="row">
+<div className="col col--7">
+
 Wert / Symbol Beschreibung
 
 1.8.1 OBIS\-Kennzahl für den angezeigten Zählerstand
@@ -50,7 +53,13 @@ kWh Einheit des angezeigten Zählerstandes
 
 M Nicht mehr genutzte Funktion (kann ignoriert werden)
 
+</div>
+<div className="col col--5 text--center">
+
 ![3-Phasenzähler Telstar 80A – Abbildung 2](/img/produkte-telstar/02.png)
+
+</div>
+</div>
 
 Der Zähler hat ein rollendes Display. Die unten beschriebenen Punkte werden nacheinander angezeigt. Nach dem letzten Punkt wird wieder der erste Punkt angezeigt.
 
@@ -88,9 +97,18 @@ Falsche Phasenreihenfolge: Zahlen blinken
 
 ### Abmessungen \[mm\]
 
+<div className="row">
+<div className="col col--6 text--center">
+
 ![3-Phasenzähler Telstar 80A – Abbildung 3](/img/produkte-telstar/03.png)
 
+</div>
+<div className="col col--6 text--center">
+
 ![3-Phasenzähler Telstar 80A – Abbildung 4](/img/produkte-telstar/04.png)
+
+</div>
+</div>
 
 ### Anschlussschema
 
@@ -98,7 +116,13 @@ Falsche Phasenreihenfolge: Zahlen blinken
 
 ## Tastenfunktionen
 
+<div className="row">
+<div className="col col--5 text--center">
+
 ![3-Phasenzähler Telstar 80A – Abbildung 6](/img/produkte-telstar/06.png)
+
+</div>
+<div className="col col--7">
 
 T1 Taste für die Installation
 
@@ -122,21 +146,43 @@ Sehr lang: Wird T2 >14s gedrückt, wird der S0-0 Impulsausgang zwischen Wirkleis
 
 Hinweis: Diese Einstellung ändert nur die Anzeige auf dem Display, nicht in der smart-me Cloud (App und Webseite). Soll die Blindenergie in der Cloud angezeigt werden, muss dies in den allgemeinen Einstellungen gemacht werden. 
 
+
+</div>
+</div>
+
 ## LED
 
+<div className="row">
+<div className="col col--5 text--center">
+
 ![3-Phasenzähler Telstar 80A – Abbildung 7](/img/produkte-telstar/07.png)
+
+</div>
+<div className="col col--7">
 
 🟢 Grüne LED - Status der Verbindung
 
 - Zeigt den Status der Verbindung zur smart-me Cloud. a) Blinkend = Verbindungsfehler b) Immer On= Verbindung OK
 
+</div>
+</div>
+
+<div className="row">
+<div className="col col--5 text--center">
+
 ![3-Phasenzähler Telstar 80A – Abbildung 8](/img/produkte-telstar/08.png)
+
+</div>
+<div className="col col--7">
 
 🔴 Rote LED - Impuls LED
 
 - Zeigt die aktuell bezogene Wirk- oder Blindleistung in 1000 Impulsen/kWh resp. 1000 Imulse/kVArh an. Ob Wirk- oder Blindleistung angezeigt wird, kann mit der Taste T2 eingestellt werden.
 
 - Zum Beispiel: Eine LED mit der Kennzeichnung „1000 Impulse/kWh“ blinkt 1000 Mal, wenn 1 Kilowattstunde (kWh) Energie bezogen oder geliefert wurde. Wurden die 1000 Impulse innerhalb von 1 Stunde gezählt, wurde konstant 1 kW Leistung gemessen.
+
+</div>
+</div>
 
 ## Ein- und Ausgänge konfigurieren
 

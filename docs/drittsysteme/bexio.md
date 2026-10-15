@@ -49,16 +49,27 @@ Funktionen
 
 ### 2\. Mieter zuordnen
 
+<div className="row">
+<div className="col col--4">
+
 1.  Wähle "Konfiguration" und eine Wohnung aus
 
 2.  Klicke unter Rechnungsadresse auf "Hinzufügen"
 
 3.  Wähle den Kontakt aus Bexio aus
 
+</div>
+<div className="col col--8 text--center">
 
 ![Bexio – Abbildung 3](/img/drittsysteme-bexio/03.jpg)
 
+</div>
+</div>
+
 ### 3\. Rechnung ins Bexio exportieren
+
+<div className="row">
+<div className="col col--4">
 
 Erstelle auf einer Liegenschaft die Rechnungen
 
@@ -66,7 +77,13 @@ Erstelle auf einer Liegenschaft die Rechnungen
 
 smart-me Billing übernimmt die Rechnungsnummer aus Bexio (Bespiel: RE-1570 ist in smart-me die Rechnung mit der Nummer 1570)
 
+</div>
+<div className="col col--8 text--center">
+
 ![Bexio – Abbildung 4](/img/drittsysteme-bexio/04.jpg)
+
+</div>
+</div>
 
 ### 4\. Rechnungen in Bexio
 
@@ -89,6 +106,9 @@ Beispiel einer exportierten VEWA Rechnung
 
 ### 5\. Konfig
 
+<div className="row">
+<div className="col col--5">
+
 Unter Einstellungen 
 
 Alle Einstellungen
@@ -97,7 +117,16 @@ Buchhaltung
 
 Prüfen ob die Kachel Steuersätze sichtbar sind.
 
+</div>
+<div className="col col--7 text--center">
+
 ![Bexio – Abbildung 8](/img/drittsysteme-bexio/08.png)
+
+</div>
+</div>
+
+<div className="row">
+<div className="col col--5">
 
 Einstellungen smart-me
 
@@ -105,7 +134,13 @@ Steuersätze 0%
 
 Inbegriffen.
 
+</div>
+<div className="col col--7 text--center">
+
 ![Bexio – Abbildung 9](/img/drittsysteme-bexio/09.png)
+
+</div>
+</div>
 
 ### 5\. Fehlebehandlung
 

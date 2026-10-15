@@ -1,11 +1,11 @@
 ---
 title: 'Plug'
 slug: '/produkte/plug'
-description: 'Lo smart-me Plug è misuratore di energia, termostato e timer in un unico dispositivo.'
+description: 'Lo smart-me Plug è misuratore di corrente, termostato e timer in un unico dispositivo.'
 sidebar_label: 'Plug'
 displayed_sidebar: wikiSidebar
 ---
-Lo smart-me Plug è misuratore di energia, termostato e timer in un unico dispositivo. Inoltre, il Plug può essere comandato e monitorato tramite portale web o app. A tale scopo, il dispositivo si connette a Internet tramite la rete WLAN locale. 
+Lo smart-me Plug è misuratore di corrente, termostato e timer in un unico dispositivo. Inoltre, il Plug può essere comandato e monitorato tramite portale web o app. A tale scopo, il dispositivo si collega a Internet tramite la rete WLAN locale. 
 
 Vendita cessata il 30.03.2021
 Supporto tecnico cessato il 30.03.2025
@@ -15,7 +15,7 @@ Hardware e funzioni cloud: il funzionamento continua a essere garantito
 
 ## Varianti
 
-Disponibile nelle versioni Europa, Svizzera e Gran Bretagna.
+Disponibile nelle versioni per Europa, Svizzera e Gran Bretagna.
 
 - Versione UK: 3000W (230V, 13A)
 
@@ -32,11 +32,11 @@ Disponibile nelle versioni Europa, Svizzera e Gran Bretagna.
 
 - Interruttore remoto: accenda o spenga la corrente tramite app o portale web. 
 
-- Timer: imposti l'orario in cui il Plug deve commutare. 
+- Timer: imposti a che ora il Plug deve commutare. 
 
-- Connessione diretta e criptata allo smart-me Cloud (WiFi)
+- Connessione diretta e crittografata al cloud smart-me (WiFi)
 
-- Gestione completa dell'energia nello smart-me Cloud: 
+- Gestione completa dell'energia nel cloud smart-me: 
 
 
 - -   -   Monitoraggio in tempo reale
@@ -48,7 +48,7 @@ Disponibile nelle versioni Europa, Svizzera e Gran Bretagna.
 
 <Video src="r1NFkuI7CUM" title="Video YouTube, installazione del Plug" />
 
-Video installazione
+Video di installazione
 
 ## Dati tecnici
 
@@ -56,7 +56,7 @@ Tensione (U) 110V - 230V
 
 Campo di misura (P) 0.1-3680W
 
-Precisione 1 % (class 1)
+Precisione 1 % (classe 1)
 
 Frequenza (f) 50/60Hz 
 
@@ -68,7 +68,7 @@ Autoconsumo 0.1W
 
 Dimensioni 95 x 54 x 29 mm (3.7 x 2.1 x 1.1 in)
 
-## È possibile azzerare la lettura del contatore?
+## È possibile azzerare la lettura del contatore.
 
 No.
 

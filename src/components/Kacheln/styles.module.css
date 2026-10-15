@@ -1,0 +1,77 @@
+.raster {
+  display: grid;
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.kachel {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: var(--ifm-card-border-radius, 0.4rem);
+  background: var(--ifm-background-surface-color);
+}
+
+.verlinkt {
+  color: inherit;
+  text-decoration: none;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.verlinkt:hover {
+  border-color: var(--ifm-color-primary);
+  box-shadow: var(--ifm-global-shadow-lw);
+  color: inherit;
+  text-decoration: none;
+}
+
+/*
+ * Feste Höhe, damit Logos unterschiedlicher Form die Kacheln nicht
+ * unterschiedlich hoch machen. `contain` verzerrt dabei nichts.
+ */
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 3.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.logo img {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.inhalt {
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.titel {
+  display: block;
+  margin-bottom: 0.35rem;
+}
+
+/*
+ * In den Kacheln steht viel Kleinkram: Adresse, Telefon, Mail. Ohne das hier
+ * bekäme jeder Absatz den vollen Zeilenabstand der Seite und die Kachel würde
+ * doppelt so hoch wie nötig.
+ */
+.inhalt :global(p) {
+  margin: 0 0 0.4rem;
+}
+
+.inhalt :global(p:last-child) {
+  margin-bottom: 0;
+}
+
+.inhalt :global(ul) {
+  margin: 0.25rem 0 0.4rem;
+  padding-left: 1.1rem;
+}
+
+.inhalt :global(li) {
+  margin: 0.1rem 0;
+}

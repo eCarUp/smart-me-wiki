@@ -1,10 +1,10 @@
 ---
 title: 'Modbus TCP'
 slug: '/schnittstellen/modbus-tcp'
-description: 'With Modbus TCP, the measured values of a device can be queried directly via the network connection.'
+description: 'Modbus TCP lets you query a device''s measured values directly over the network connection.'
 sidebar_label: 'Modbus TCP'
 ---
-With Modbus TCP, the measured values of a device can be queried directly via the network connection. There is no need for a detour via the cloud.
+Modbus TCP lets you query a device's measured values directly over the network connection. There is no need to go through the cloud.
 
 ### Requirements
 
@@ -23,19 +23,19 @@ The following smart-me devices support Modbus TCP
 
 ## Limitations
 
-It is not possible to assign a fixed IP address. If this is required, the setting must be made on the router. smart-me does not know the MAC address of the individual devices. It can be determined using the instructions below.
+You cannot assign a fixed IP address. If you need one, make this setting on the router. smart-me does not know the MAC address of individual devices. You can find it using the instructions below.
 
-Queries should not be made more often than every 2 seconds. Increasing the query frequency can lead to unanswered queries in certain constellations. The device cannot be damaged by a query interval of &lt; 2 seconds.
+Queries should not be made more often than every 2 seconds. Increasing the query frequency can lead to unanswered queries in certain setups. A query interval of &lt; 2 seconds cannot damage the device.
 
 ## Activating Modbus TCP
 
 1.  Log in to the smart-me website.
 
-2.  Select the desired device.
+2.  Select the device you want.
 
 3.  Select the gear icon at the top right.
 
-4.  Under advanced settings (Erweiterte Einstellungen), activate Modbus TCP
+4.  Under advanced settings (erweiterte Einstellungen), activate Modbus TCP (Modus-TCP aktivieren)
 
 5.  Save (Speichern)
 
@@ -53,41 +53,41 @@ Modbus TCP can be used with the Pico if:
 
 Modbus TCP is deactivated for all slaves in a load management group, as they do not have their own IP address.
 We recommend using Modbus TCP only for controlling individual devices without MESH.
-If the Picos in a load management group are to be read out or controlled, we recommend the [Rest API](/schnittstellen/api). 
+If you want to read or control Picos in a load management group, we recommend the [Rest API](/schnittstellen/api). 
 
-## Finding the address of the device
+## Finding the device's address
 
 The Modbus register of a smart-me device can be read via DNS or IP address. 
 
 - DNS can be activated in the portal.
 
-- The IP address is assigned by the local DHCP server. The IP address can be determined using the following instructions.
+- The IP address is assigned by the local DHCP server. You can find the IP address using the following instructions.
 
 
 ### Activating DNS
 
 1.  Log in to the smart-me website.
 
-2.  Select the desired device.
+2.  Select the device you want.
 
 3.  Select the gear icon at the top right.
 
-4.  Under advanced settings (Erweiterte Einstellungen), activate DNS.
+4.  Under advanced settings (erweiterte Einstellungen), activate DNS (DNS aktivieren).
 
-5.  In most cases, the internal IP (Interne IP) is required. See below for details.
+5.  In most cases, the internal IP is required. See below for details.
 
 6.  Save (Speichern)
 
-7.  The DNS name is displayed in the text below "Activate DNS" (DNS aktivieren).
+7.  The DNS name is displayed in the text below Activate DNS (DNS aktivieren).
 
 
 ![Modbus TCP – Figure 2](/img/schnittstellen-modbus-tcp/02.png)
 
-Either a public IP address or the internal IP address of the device can be selected as the IP address:
+You can choose either a public IP address or the device's internal IP address as the IP address:
 
 Internal IP (Interne IP)
 
-This is the local IP address of the smart-me device. It can be used if you are on the same network.
+This is the local IP address of the smart-me device. You can use it if you are on the same network.
 
 Public IP (Öffentliche IP)
 
@@ -95,28 +95,28 @@ The public IP address is used. This is usually the IP address of your router.
 
 Background information
 
-The dns-me service makes it possible to connect directly to a smart-me device without knowing its IP address. If the DNS address is activated for a smart-me device, its local or public IP address is automatically assigned to a DNS name (e.g. smart-me\_123456.dns-me.com).
+The dns-me service lets you connect directly to a smart-me device without knowing its IP address. If the DNS address is activated for a smart-me device, its local or public IP address is automatically mapped to a DNS name (e.g. smart-me\_123456.dns-me.com).
 
 smart-me uses the dns-me.com service for this.
 
-### Determining the IP address with the DNS name
+### Finding the IP address using the DNS name
 
-Once DNS has been activated, the DNS name shown in the advanced settings under DNS activation can be used for a ping.
+Once DNS has been activated, you can use the DNS name shown in the advanced settings (erweiterte Einstellungen) under DNS activation for a ping.
 
 e.g. ping smart-me\_6301587.dns-me.com
 
-In response, you receive the ping results, including the IP address of the device.
+In response, you receive the ping results including the device's IP address.
 
 ![Modbus TCP – Figure 3](/img/schnittstellen-modbus-tcp/03.png)
 
-### Determining the IP address directly on the router
+### Finding the IP address directly on the router
 
-smart-me does not know the MAC address of the individual devices. Determining the IP address without first activating the DNS service is therefore more complicated. One option is to query all IP addresses with Modbus TCP and check which serial numbers are returned in response.
+smart-me does not know the MAC address of individual devices. Finding the IP address without first activating the DNS service is therefore more complicated. One option is to query all IP addresses with Modbus TCP and check which serial numbers are returned in response.
 
 ## Data transmission
 
 Modbus TCP protocol
-TCP Port: 502
+TCP port: 502
 
 Functions
 The smart-me meter supports the following Modbus functions:
@@ -125,11 +125,11 @@ The smart-me meter supports the following Modbus functions:
 
 
 Register addressing
-For historical reasons, the address in Modbus is 1 lower than the internal register address. The start address must therefore be "register address - 1"
+For historical reasons, the Modbus address is 1 lower than the internal register address. The start address must therefore be "register address - 1"
 
 ### Modbus example
 
-Example with: https://www.modbusdriver.com/modpoll.html
+Example using: https://www.modbusdriver.com/modpoll.html
 
 Change Pico Loadmanagement
 
@@ -161,9 +161,9 @@ The charging current can be specified once via register 0x206E as the charging c
 
 Addressing a single station in a charging group (individual control):
 
-- -   Only charges from the minimum setting of the device, e.g. 6000 mA.
-        The device tries to use the available current as fully as possible.
-        In this case, the device will charge 3-phase with 3x6A
+- -   Only starts charging from the device's minimum setting, e.g. 6000 mA.
+        The device tries to use as much of the available current as possible.
+        In this case, the device will charge 3-phase at 3x6A
         Single-phase charging cannot be specified explicitly. A single-phase vehicle is charged in 3-phase mode.
 
 
@@ -171,11 +171,11 @@ Addressing a station group with several stations:
 
 - Only the master device of the Pico group has an addressable IP address.
 
-- Only charges from the minimum setting of the device, e.g. 6000 mA.
+- Only starts charging from the device's minimum setting, e.g. 6000 mA.
     With a group setting of 12000 mA
-    With three active charging sessions: results in one single-phase charging session each with 12 A on L1, L2 and L3
-    With two active charging sessions: results in two 3-phase charging sessions with 6A
-    With one active charging session: results in one 3-phase charging session with 12 A
+    With three active charging sessions: results in one single-phase charging session each at 12 A on L1, L2 and L3
+    With two active charging sessions: results in two 3-phase charging sessions at 6A
+    With one active charging session: results in one 3-phase charging session at 12 A
 
 
 ### From firmware version 0.0.53:
@@ -189,46 +189,46 @@ The charging current can be:
 - Specified individually one after the other per phase in mA or A (up to 499A, above that mA is assumed) via registers 0x2071, 0x 2073, 0x2075
 
 
-General information on the function:
+General notes on the function:
 
-- Switching between single-phase and 3-phase should be limited on the controller side to  1x every 10 minutes.
+- Switching between single-phase and 3-phase should be limited on the control side to once every 10 minutes.
 
-- It is possible to switch to a predefined phase L1, L2, L3 by specifying the current availability. (The largest is used)
+- You can switch to a predefined phase L1, L2, L3 by specifying the current availability. (The largest is used)
 
 - It is possible to switch between phases L1, L2, L3 during single-phase charging. (Change of the largest current)
 
 
 Important note on external control:
 
-There is no limit on switching between individual phases; make sure to limit this through the control algorithm.
+There is no limit on switching between individual phases; make sure to limit this in your control algorithm.
 The same applies to switching from single-phase to 3-phase charging and vice versa.
-Intensive use of relay contacts can lead to premature failure of the relay switches. It is recommended not to switch between individual phases if the additional power is not proportionate. Changeable weather, other large consumers and other reasons can lead to unintended switching. Ideally, a phase assignment should not change if the surplus is only missing briefly.
-smart-me accepts no responsibility whatsoever for premature relay failure when using third-party controllers.
+Intensive use of relay contacts can lead to premature failure of the relay switches. We recommend not switching between individual phases if the additional power is not proportionate. Changeable weather, other large consumers and other factors can lead to unintended switching. Ideally, a phase assignment should not change if the surplus is only missing briefly.
+smart-me accepts no responsibility whatsoever for premature relay failure when third-party controllers are used.
 
 Addressing a single station in a charging group (individual control):
 
-- -   Only charges from the minimum setting of the device, e.g. 6000,6000,8000 mA.
-        All three currents can have different values. The device tries to use the available current as fully as possible.
-        In this case, the device will charge 3-phase with 3x6A)
+- -   Only starts charging from the device's minimum setting, e.g. 6000,6000,8000 mA.
+        All three currents can have different values. The device tries to use as much of the available current as possible.
+        In this case, the device will charge 3-phase at 3x6A)
 
-    - 0,8000,0 mA results in single-phase charging with 8 A on L2
+    - 0,8000,0 mA results in single-phase charging at 8 A on L2
 
-    - 0, 8000 mA, 10000 mA results in single-phase charging with 10 A on L3
+    - 0, 8000 mA, 10000 mA results in single-phase charging at 10 A on L3
 
 
 Addressing a station group with several stations:
 
 - Only the master device of the Pico group has an addressable IP address.
 
-- Only charges from the minimum setting of the device, e.g. 6000,6000,8000 mA.
+- Only starts charging from the device's minimum setting, e.g. 6000,6000,8000 mA.
     All three currents can have a different value.
-    The group tries to use the available current as well as possible.
+    The group tries to make the best possible use of the available current.
 
-    With one active charging session: one device will charge 3-phase with 3x6A.
-    With two active charging sessions: one device charges with 8A on phase L3 and the second with 6A on L2 or L1
+    With one active charging session: one device will charge 3-phase at 3x6A.
+    With two active charging sessions: one device charges at 8A on phase L3 and the second at 6A on L2 or L1
 
-- 0, 8000 mA, 10000 mA and two active units: results in one single-phase charging session with 10 A on L3 and another with 8 A on L2 
+- 0, 8000 mA, 10000 mA and two active units: results in one single-phase charging session at 10 A on L3 and another at 8 A on L2 
 
-- 0,16000,10000 mA and three active units: results in one single-phase charging session with 10 A on L3 and two single-phase charging sessions with 8 A each on L2
+- 0,16000,10000 mA and three active units: results in one single-phase charging session at 10 A on L3 and two single-phase charging sessions at 8 A each on L2
 
 - 20000,20000,20000 mA and three active units: results in three 3-phase charging sessions, each between 6 and 7 A.

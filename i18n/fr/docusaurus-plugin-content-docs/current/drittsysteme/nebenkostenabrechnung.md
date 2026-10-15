@@ -1,391 +1,264 @@
 ---
-title: 'Prestataires RCP, décompte des frais de chauffage et des charges accessoires'
+title: 'Prestataires RCP, décompte de chauffage / charges accessoires'
 slug: '/drittsysteme/nebenkostenabrechnung'
-description: 'Pour utiliser les données de compteurs smart-me dans un décompte des charges accessoires, les compteurs ont besoin d''une licence Professional.'
+description: 'Pour utiliser les données de compteur de smart-me dans un décompte des charges accessoires, les compteurs ont besoin d''une licence Professional.'
 sidebar_label: 'Prestataires charges accessoires'
 ---
-Pour utiliser les données de compteurs smart-me dans un décompte des charges accessoires, les compteurs ont besoin d'une licence Professional.
+Pour utiliser les données de compteur de smart-me dans un décompte des charges accessoires, les compteurs ont besoin d'une licence Professional.
 
 [EN](https://doc.smart-me.com/third-party-systems/service-charge-settlement)
 
-Les prestataires suivants proposent des services de décompte basés sur notre plateforme smart-me. Ils reprennent également des installations qu'ils n'ont pas installées eux-mêmes et proposent, sur demande, uniquement le décompte. 
+Les prestataires suivants proposent des services de décompte basés sur notre plateforme smart-me. Ils reprennent aussi des installations qu'ils n'ont pas installées eux-mêmes et proposent, sur demande, uniquement le décompte.
 
 ## Services hautement automatisés/spécialisés avec Autobill :
 
-![Prestataires RCP, décompte des frais de chauffage et des charges accessoires – figure 1](/img/drittsysteme-nebenkostenabrechnung/01.png)
+<Kacheln min="22rem">
 
-Avec autobill, le décompte d'énergie passe d'une charge administrative chronophage à un service entièrement automatisé, qui prend tout en charge, de la mesure jusqu'à l'encaissement. 
+<Kachel bild="/img/drittsysteme-nebenkostenabrechnung/01.png" titel="smart-me AG">
 
-smart-me AG
+Avec autobill, le décompte d'énergie passe d'une charge administrative chronophage à un service entièrement automatisé, qui prend tout en charge, de la mesure jusqu'à l'encaissement.
 
-Riedstrasse 18
+Riedstrasse 18, CH-6343 Rotkreuz · +41 41 511 09 99
 
-CH-6343 Rotkreuz
+[autobill.ch](https://autobill.ch/) · [info@smart-me.com](mailto:info@smart-me.com)
 
-+41 41 511 09 99
-
-[https://autobill.ch/](https://autobill.ch/) 
-
-[info@smart-me.com](mailto:info@smart-me.com) 
-
-Prestation Autobill
+**Prestation Autobill**
 
 - Toujours en collaboration avec un partenaire smart-me (formation suivie)
-
 - Respect du schéma de mesure smart-me
-
 - Décompte uniquement avec du matériel smart-me
-
 - Configuration du module 1 par smart-me
-
 - Facturation RCP (regroupement dans le cadre de la consommation propre), max. 4x par an
-
 - Facturation VEWA 1x par an (sans acomptes)
-
 - Durée minimale de 2 ans
 
+</Kachel>
 
-![Prestataires RCP, décompte des frais de chauffage et des charges accessoires – figure 2](/img/drittsysteme-nebenkostenabrechnung/02.png)
+<Kachel bild="/img/drittsysteme-nebenkostenabrechnung/02.png" titel="Adenatec AG">
 
-Adenatec AG
+Hauptstrasse 48, CH-6277 Kleinwangen · +41 41 510 06 25
 
-Hauptstrasse 48
+[www.adenatec.ch](https://www.adenatec.ch/) · [info@adenatec.ch](mailto:info@adenatec.ch)
 
-CH-6277 Kleinwangen
-
-+41 41 510 06 25
-
-[www.adenatec.ch](https://www.adenatec.ch/)
-
-[info@adenatec.ch](mailto:info@adenatec.ch)
-
-- Décompte RCP, vRCP et électromobilité
-
+- Décompte RCP, vRCP et E-Mobility
 - Décompte et encaissement, configuration du portail incluse
-
 - Facturation jusqu'à 4× par an
+- Décompte VEWA en pour mille 1× par an
+- Exploitation exclusivement avec du matériel smart-me
 
-- Décompte VEWA au pour mille 1× par an
+</Kachel>
 
-- Exploitation exclusivement avec du matériel smart-me 
+<Kachel bild="/img/drittsysteme-nebenkostenabrechnung/03.png" titel="Gerber AG Elektro + Energietechnik">
 
+Allmendingenweg 11, CH-3073 Gümligen · +41 31 950 60 70
 
-![Prestataires RCP, décompte des frais de chauffage et des charges accessoires – figure 3](/img/drittsysteme-nebenkostenabrechnung/03.png)
-
-Gerber AG Elektro + Energietechnik 
-
-Allmendingenweg 11
-
-CH-3073 Gümligen
-
-+41 31 950 60 70 
-
-[https://gerberelektro.ch/](https://gerberelektro.ch/)
-
-[info@gerberelektro.ch](mailto:info@gerberelektro.ch)
+[gerberelektro.ch](https://gerberelektro.ch/) · [info@gerberelektro.ch](mailto:info@gerberelektro.ch)
 
 - Décompte indépendant du matériel (interface avec smart-me)
-
 - Envoi des factures par e-mail ou par courrier
-
-- Soutien pour la conception des tarifs
-
+- Assistance pour la conception des tarifs
 - Conseil en optimisation énergétique
-
 - Décompte pour RCP, vRCP et CEL (communauté électrique locale) (jusqu'à 4× par an)
-
 - En option : préparation des données pour l'exploitation Minergie
+- En option : service de piquet 24h en télémaintenance
+- En option : mise à disposition de l'accès Internet
 
-- En option : service de piquet 24h, télémaintenance
+</Kachel>
 
-- En option : mise à disposition de l'accès Internet 
+<Kachel bild="/img/drittsysteme-nebenkostenabrechnung/04.png" titel="Honegger Elektro Telecom AG">
 
+Blattenbach 8, CH-8636 Wald · +41 55 266 11 33
 
-![Prestataires RCP, décompte des frais de chauffage et des charges accessoires – figure 4](/img/drittsysteme-nebenkostenabrechnung/04.png)
+[honegger.com](https://honegger.com/) · [info@honegger.com](mailto:info@honegger.com)
 
-Honegger Elektro Telecom AG
-
-Blattenbach 8
-
-CH-8636 Wald
-
-+41 55 266 11 33
-
-[https://honegger.com](https://honegger.com/)
-
-[info@honegger.com](mailto:info@honegger.com)
-
-- Décompte d'installations d'électromobilité, RCP et vRCP installées par nos soins
-
-- Nous planifions, construisons et assurons le suivi de tout, auprès d'un interlocuteur unique
-
+- Décompte des installations E-Mobility, RCP & vRCP installées par nos soins
+- Nous planifions, construisons et assurons le suivi de tout, d'une seule main
 - Décompte uniquement avec du matériel smart-me
-
 - Facturation trimestrielle
+- Durée minimale selon accord
 
-- Durée minimale selon accord 
+</Kachel>
 
+<Kachel bild="/img/drittsysteme-nebenkostenabrechnung/05.png" titel="Liveno GmbH">
 
-![Prestataires RCP, décompte des frais de chauffage et des charges accessoires – figure 5](/img/drittsysteme-nebenkostenabrechnung/05.png)
+Zürichstrasse 68, CH-6004 Luzern · +41 41 562 39 61
 
-Liveno GmbH
-
-Zürichstrasse 68
-
-CH-6004 Luzern
-
-+41 41 562 39 61
-
-[https://liveno.ch/](https://liveno.ch/)
-
-[info@liveno.ch](mailto:info@liveno.ch)
+[liveno.ch](https://liveno.ch/) · [info@liveno.ch](mailto:info@liveno.ch)
 
 - Décompte avec du matériel smart-me ou des fichiers SDAT
-
 - Configuration du module 1 par Liveno
-
 - Facturation RCP, max. 4x par an
+- Facturation VEWA 1x par an (sans acomptes)
 
-- Facturation VEWA 1x par an (sans acomptes) 
+</Kachel>
 
+<Kachel bild="/img/drittsysteme-nebenkostenabrechnung/06.png" titel="TechCom electro ag">
 
-![Prestataires RCP, décompte des frais de chauffage et des charges accessoires – figure 6](/img/drittsysteme-nebenkostenabrechnung/06.png)
+Kirchstrasse 18, CH-9200 Gossau SG · +41 71 388 20 10
 
-TechCom electro ag
+[www.techcom.ch](https://www.techcom.ch/) · [info@techcom.ch](mailto:info@techcom.ch)
 
-Kirchstrasse 18
-
-CH-9200 Gossau SG
-
-+41 71 388 20 10
-
-[https://www.techcom.ch/](https://www.techcom.ch/)
-
-[info@techcom.ch](mailto:info@techcom.ch)
-
-- Solution complète avec installation et service de décompte RCP, vRCP, CEL et électromobilité
-
-- Décompte pour RCP, vRCP, CEL et électromobilité
-
+- Solution complète avec installation et service de décompte RCP, vRCP, CEL et E-Mobility
+- Décompte pour RCP, vRCP, CEL et E-Mobility
 - Décompte des charges accessoires VEWA
-
 - Optimisation énergétique
 
+</Kachel>
+
+</Kacheln>
 
 ## Autres prestataires :
 
-![Prestataires RCP, décompte des frais de chauffage et des charges accessoires – figure 7](/img/drittsysteme-nebenkostenabrechnung/07.png)
+<Kacheln>
 
-Blockstrom AG 
+<Kachel bild="/img/drittsysteme-nebenkostenabrechnung/07.png" titel="Blockstrom AG">
 
-Morillonstrasse 77 
+Morillonstrasse 77, CH-3007 Bern · +41 31 511 20 30
 
-CH-3007 Bern 
+[www.blockstrom.com](https://www.blockstrom.com/) · [info@blockstrom.com](mailto:info@blockstrom.com)
 
-+41 31 511 20 30 
+encaissement en option
 
-[info@blockstrom.com](mailto:info@blockstrom.com) 
+</Kachel>
 
-[www.blockstrom.com](https://www.blockstrom.com/)
+<Kachel bild="/img/drittsysteme-nebenkostenabrechnung/08.png" titel="Brunata AG">
 
-+en option avec encaissement 
+Althardstrasse 10, CH-8105 Regensdorf · +41 41 669 10 10
 
-![Prestataires RCP, décompte des frais de chauffage et des charges accessoires – figure 8](/img/drittsysteme-nebenkostenabrechnung/08.png)
+[www.brunata.ch](http://www.brunata.ch) · [contact@brunata.ch](mailto:contact@brunata.ch)
 
-Brunata AG
+</Kachel>
 
-Althardstrasse 10
+<Kachel bild="/img/drittsysteme-nebenkostenabrechnung/09.png" titel="D + R Immobilien AG">
 
-CH-8105 Regensdorf
+Rebbergstrasse 56a, CH-5621 Zufikon · +41 56 641 91 41
 
-+41 41 669 10 10
+[www.drimmobilien.ch](http://www.drimmobilien.ch) · [markus.kuemin@drimmobilien.ch](mailto:markus.kuemin@drimmobilien.ch)
 
-[contact@brunata.ch](mailto:contact@brunata.ch) 
+</Kachel>
 
-[www.brunata.ch](http://www.brunata.ch) 
+<Kachel bild="/img/drittsysteme-nebenkostenabrechnung/10.png" titel="Egon AG">
 
-![Prestataires RCP, décompte des frais de chauffage et des charges accessoires – figure 9](/img/drittsysteme-nebenkostenabrechnung/09.png)
+General Wille-Strasse 59, CH-8706 Feldmeilen · +41 58 680 20 05
 
-D + R Immobilien AG
+[www.egonline.ch](https://www.egonline.ch/) · [energie@egonline.ch](mailto:energie@egonline.ch)
 
-Rebbergstrasse 56a
+</Kachel>
 
-CH-5621 Zufikon
+<Kachel bild="/img/drittsysteme-nebenkostenabrechnung/11.png" titel="Enicon AG">
 
-+41 56 641 91 41
+Grubenstrasse 7b, CH-3322 Urtenen-Schönbühl · +41 31 537 10 40
 
-[markus.kuemin@drimmobilien.ch](mailto:markus.kuemin@drimmobilien.ch) 
+[www.enicon.ch](http://www.enicon.ch) · [info@enicon.ch](mailto:info@enicon.ch)
 
-[www.drimmobilien.ch](http://www.drimmobilien.ch) 
+Interlocuteur : Urs Mori
 
-![Prestataires RCP, décompte des frais de chauffage et des charges accessoires – figure 10](/img/drittsysteme-nebenkostenabrechnung/10.png)
+</Kachel>
 
-Egon AG
+<Kachel bild="/img/drittsysteme-nebenkostenabrechnung/12.png" titel="IMOVATEC AG">
 
-General Wille-Strasse 59
+Rothusstrasse 23, CH-6331 Hünenberg · +41 41 910 50 50
 
-CH-8706 Feldmeilen
+[www.imovatec.ch](http://www.imovatec.ch) · [info@imovatec.ch](mailto:info@imovatec.ch)
 
-+41 58 680 20 05
+</Kachel>
 
-[energie@egonline.ch](mailto:energie@egonline.ch)
+<Kachel bild="/img/drittsysteme-nebenkostenabrechnung/13.png" titel="ista swiss ag">
 
-[www.egonline.ch](https://www.egonline.ch/)
+Zofingerstrasse 61, CH-4665 Oftringen · +41 62 764 99 00
 
-![Prestataires RCP, décompte des frais de chauffage et des charges accessoires – figure 11](/img/drittsysteme-nebenkostenabrechnung/11.png)
+[www.ista-swiss.ch](http://www.ista-swiss.ch) · [info@ista-swiss.ch](mailto:info@ista-swiss.ch)
 
-Enicon AG
+</Kachel>
 
-Grubenstrasse 7b
+<Kachel bild="/img/drittsysteme-nebenkostenabrechnung/14.png" titel="MG partners">
 
-CH-3322 Urtenen-Schönbühl
+Route du Pissot 2, CH-1847 Rennaz · +41 21 967 33 90
 
-+41 31 537 10 40
+[mg-partners.ch](https://mg-partners.ch/) · [info@mg-partners.ch](mailto:info@mg-partners.ch)
 
-[info@enicon.ch](mailto:info@enicon.ch) 
+Prestation de service en français — prestation de service en français
 
-[www.enicon.ch](http://www.enicon.ch) 
+</Kachel>
 
-Personne de contact : Urs Mori
+<Kachel bild="/img/drittsysteme-nebenkostenabrechnung/15.png" titel="pi-System GmbH">
 
-![Prestataires RCP, décompte des frais de chauffage et des charges accessoires – figure 12](/img/drittsysteme-nebenkostenabrechnung/12.png)
+Länggasse 3, CH-6208 Oberkirch · +41 41 229 30 00
 
-IMOVATEC AG
+[www.pi-system.ch](http://www.pi-system.ch/) · [info@pi-system.ch](mailto:info@pi-system.ch)
 
-Rothusstrasse 23
+</Kachel>
 
-CH-6331 Hünenberg
+<Kachel bild="/img/drittsysteme-nebenkostenabrechnung/16.png" titel="Rapp Enserv AG">
 
-+41 41 910 50 50
+Hochstrasse 100, CH-4018 Basel · +41 58 595 77 77
 
-[info@imovatec.ch](mailto:info@imovatec.ch) 
+[www.rapp.ch](http://www.rapp.ch/) · [info@rapp.ch](mailto:info@rapp.ch)
 
-[www.imovatec.ch](http://www.imovatec.ch)
+</Kachel>
 
-![Prestataires RCP, décompte des frais de chauffage et des charges accessoires – figure 13](/img/drittsysteme-nebenkostenabrechnung/13.png)
+<Kachel bild="/img/drittsysteme-nebenkostenabrechnung/17.png" titel="Roland Meyer AG">
 
-ista swiss ag
+Ebenaustrasse 10, CH-6048 Horw · +41 41 318 36 00
 
-Zofingerstrasse 61
+[www.rolandmeyer.ch](http://www.rolandmeyer.ch) · [mail@rolandmeyer.ch](mailto:mail@rolandmeyer.ch)
 
-CH-4665 Oftringen
+</Kachel>
 
-+41 62 764 99 00
-
-[info@ista-swiss.ch](mailto:info@ista-swiss.ch)
-
-[www.ista-swiss.ch](http://www.ista-swiss.ch)
-
-![Prestataires RCP, décompte des frais de chauffage et des charges accessoires – figure 14](/img/drittsysteme-nebenkostenabrechnung/14.png)
-
-MG partners
-
-Route du Pissot 2
-
-CH-1847 Rennaz
-
-+41 21 967 33 90
-
-[info@mg-partners.ch](mailto:info@mg-partners.ch) 
-
-[mg-partners.ch](https://mg-partners.ch/)
-
-Prestation de service en français
-
-Prestation de service en français
-
-![Prestataires RCP, décompte des frais de chauffage et des charges accessoires – figure 15](/img/drittsysteme-nebenkostenabrechnung/15.png)
-
-pi-System GmbH
-
-Länggasse 3
-
-CH-6208 Oberkirch
-
-+41 41 229 30 00
-
-[info@pi-system.ch](mailto:info@pi-system.ch)
-
-[www.pi-system.ch](http://www.pi-system.ch/)
-
-![Prestataires RCP, décompte des frais de chauffage et des charges accessoires – figure 16](/img/drittsysteme-nebenkostenabrechnung/16.png)
-
-Rapp Enserv AG
-
-Hochstrasse 100
-
-CH-4018 Basel
-
-+41 58 595 77 77
-
-[info@rapp.ch](mailto:info@rapp.ch)
-
-[www.rapp.ch](http://www.rapp.ch/)
-
-![Prestataires RCP, décompte des frais de chauffage et des charges accessoires – figure 17](/img/drittsysteme-nebenkostenabrechnung/17.png)
-
-Roland Meyer AG
-
-Ebenaustrasse 10
-
-CH-6048 Horw
-
-+41 41 318 36 00
-
-[mail@rolandmeyer.ch](mailto:mail@rolandmeyer.ch)
-
-[www.rolandmeyer.ch](http://www.rolandmeyer.ch)
-
-![Prestataires RCP, décompte des frais de chauffage et des charges accessoires – figure 18](/img/drittsysteme-nebenkostenabrechnung/18.png)
-
-Schibli AG
+<Kachel bild="/img/drittsysteme-nebenkostenabrechnung/18.png" titel="Schibli AG">
 
 Centre de compétences Énergies renouvelables
 
-Klosbachstrasse 67
+Klosbachstrasse 67, CH-8032 Zürich · +41 44 265 61 01
 
-CH-8032 Zürich
+www.schibli.com · [e-e@schibli.com](mailto:e-e@schibli.com)
 
-+41 44 265 61 01
+</Kachel>
 
-[e-e@schibli.com](mailto:e-e@schibli.com)
+<Kachel bild="/img/drittsysteme-nebenkostenabrechnung/19.png" titel="Meier Energie GmbH">
 
-www.schibli.com
+Delehala 36, LIE-9493 Mauren · +423 788 00 93
 
-![Prestataires RCP, décompte des frais de chauffage et des charges accessoires – figure 19](/img/drittsysteme-nebenkostenabrechnung/19.png)
+[www.meier-energie.li](http://www.meier-energie.li/) · [energie@messbar.li](mailto:energie@messbar.li)
 
-Meier Energie GmbH
+</Kachel>
 
-Delehala 36
+</Kacheln>
 
-LIE-9493 Mauren
+## Logiciels compatibles pour le décompte de chauffage et des charges accessoires sans prestation de service
 
-+423 788 00 93
+<Kacheln min="12rem">
 
-[energie@messbar.li](mailto:energie@messbar.li)
+<Kachel bild="/img/drittsysteme-nebenkostenabrechnung/20.png">
 
-[www.meier-energie.li](http://www.meier-energie.li/)
+[www.bexio.com](http://www.bexio.com)
 
-## Logiciels compatibles pour le décompte des frais de chauffage et des charges accessoires sans prestation de service
+</Kachel>
 
-![Prestataires RCP, décompte des frais de chauffage et des charges accessoires – figure 20](/img/drittsysteme-nebenkostenabrechnung/20.png)
-
-[www.bexio.com](http://www.bexio.com) 
-
-![Prestataires RCP, décompte des frais de chauffage et des charges accessoires – figure 21](/img/drittsysteme-nebenkostenabrechnung/21.png)
+<Kachel bild="/img/drittsysteme-nebenkostenabrechnung/21.png">
 
 [www.egonline.ch](https://www.egonline.ch/)
 
-![Prestataires RCP, décompte des frais de chauffage et des charges accessoires – figure 22](/img/drittsysteme-nebenkostenabrechnung/22.png)
+</Kachel>
+
+<Kachel bild="/img/drittsysteme-nebenkostenabrechnung/22.png">
 
 [www.fairwalter.ch](https://www.fairwalter.ch/)
 
-![Prestataires RCP, décompte des frais de chauffage et des charges accessoires – figure 23](/img/drittsysteme-nebenkostenabrechnung/23.png)
+</Kachel>
+
+<Kachel bild="/img/drittsysteme-nebenkostenabrechnung/23.png">
 
 [www.limmobi.ch](http://www.limmobi.ch)
 
 [Documentation de l'intégration](/drittsysteme/limmobi)
 
-![Prestataires RCP, décompte des frais de chauffage et des charges accessoires – figure 24](/img/drittsysteme-nebenkostenabrechnung/24.png)
+</Kachel>
+
+<Kachel bild="/img/drittsysteme-nebenkostenabrechnung/24.png">
 
 [www.zevvy.ch](http://www.zevvy.ch)
+
+</Kachel>
+
+</Kacheln>

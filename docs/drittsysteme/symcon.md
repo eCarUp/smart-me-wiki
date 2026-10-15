@@ -4,11 +4,20 @@ slug: '/drittsysteme/symcon'
 description: 'Symcon ist eine Software, wie auch ein optionales Hardwarepaket (Symbox), das Steuerungen und Visualisierungen in Ihrem Haus oder Gebäude ermöglicht.'
 sidebar_label: 'Symcon'
 ---
+<div className="row">
+<div className="col col--8">
+
 Symcon ist eine Software, wie auch ein optionales Hardwarepaket (Symbox), das Steuerungen und Visualisierungen in Ihrem Haus oder Gebäude ermöglicht. Es fungiert als Schnittstelle und Entscheidungsträger.
 
 Die smart-me Daten können leicht über unsere API abgefragt werden.
 
+</div>
+<div className="col col--4 text--center">
+
 ![Symcon – Abbildung 1](/img/drittsysteme-symcon/01.png)
+
+</div>
+</div>
 
 Zielgruppe: Ein- und Mehrfamilienhäuser und Industrie
 

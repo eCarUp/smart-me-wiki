@@ -12,15 +12,33 @@ sidebar_label: 'Verwalter'
 
 ### Der Weg zum Mieterzugang
 
+<div className="row">
+<div className="col col--5">
+
 smart-me Startseite -> Benutzerkonfiguration
+
+</div>
+<div className="col col--7 text--center">
 
 ![Anleitung für Verwalter – Abbildung 1](/img/nutzeranleitungen-verwalter/01.png)
 
+</div>
+</div>
+
 ### Der Weg ins Billing
+
+<div className="row">
+<div className="col col--5">
 
 smart-me Startseite -> Rechnungsstellung
 
+</div>
+<div className="col col--7 text--center">
+
 ![Anleitung für Verwalter – Abbildung 2](/img/nutzeranleitungen-verwalter/02.png)
+
+</div>
+</div>
 
 ## Voraussetzungen und Prüfungen bei der Übergabe
 
@@ -254,6 +272,9 @@ Bsp. 01.10.2024 bis 04.11.2024 kann nun Abgerechnet werden.
 
 ### Rechnung erstellen (Strom und VEWA)
 
+<div className="row">
+<div className="col col--4">
+
 1.  Zur Liegenscharf navigieren.
 
 2.  Editieren und neue Periode erfassen
@@ -262,10 +283,15 @@ Bsp. 01.10.2024 bis 04.11.2024 kann nun Abgerechnet werden.
 
 4.  Kosten für die einzelnen Position erfassen
 
+</div>
+<div className="col col--8 text--center">
 
 ![Anleitung für Verwalter – Abbildung 14](/img/nutzeranleitungen-verwalter/14.png)
 
 ![Anleitung für Verwalter – Abbildung 15](/img/nutzeranleitungen-verwalter/15.png)
+
+</div>
+</div>
 
 ### Erstellte Rechnung anschauen
 

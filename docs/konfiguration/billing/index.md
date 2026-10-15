@@ -47,26 +47,36 @@ Mit dieser Schritt-für-Schritt-Anleitung möchten wir dich bei der Konfiguratio
 
 ## Einstellungen der Rechnungsstellung
 
+<div className="row">
+<div className="col col--7">
+
 Navigiere als erstes in die  Einstellungen der Rechnungsstellung.
 
 Konfiguriere hier die Währung und die Anwendung von Mehrwertsteuern.
 
-
-
 Konkrete Einstellungen bei der MWST:
 
 - Fall A: Du bist ein ZEV und machst sicher weniger als 100'000CHF Umsatz mit Strom und hast dich nicht freiwillig der MWST unterstellt:
+
     \- MWST 0%
+
     \- Steuer in Preise bereits inbegriffen: JA
 
 - Fall B: Du bist ein ZEV und machst 100'000 CHF oder mehr Umsatz mit den Stromverkäufen oder hast dich freiwillig der MWST unterstellt:
+
     \- MWST 8.1%
+
     \- Steuer in Preise bereits inbegriffen: NEIN
 
+</div>
+<div className="col col--5 text--center">
 
 ![Billing: Energie abrechnen – Abbildung 1](/img/konfiguration-billing/01.png)
 
 ![Billing: Energie abrechnen – Abbildung 2](/img/konfiguration-billing/02.png)
+
+</div>
+</div>
 
 Konfiguriere bei der Gelegenheit auch gleich noch dein Logo für die Rechnung.
 
@@ -76,12 +86,23 @@ Statte die Kopfzeile mit dem Kontakt und Adresse des Rechnungsversenders aus und
 
 ## Konfiguration der Rechnungsstellung
 
+<div className="row">
+<div className="col col--5">
+
 Navigiere nun zur Rechnungsstellung Konfiguration um die Abrechnungen aus den Liegenschaften zu konfigurieren.
+
+</div>
+<div className="col col--7 text--center">
 
 ![Billing: Energie abrechnen – Abbildung 4](/img/konfiguration-billing/04.png)
 
-1.  ### Liegenschaft Erstellen
+</div>
+</div>
 
+<div className="row">
+<div className="col col--6">
+
+1.  ### Liegenschaft Erstellen
 
 In der Rechnungsstellung kann die Liegenschaft hinzugefügt (angelegt) werden. 
 
@@ -91,9 +112,18 @@ Bei diesem Schritt werden alle bereits erstellen Unterordner und zugewiesen Zäh
 
 Die Zählerpunkte welche verteilt werden sollen und sich im "Technischen Zähler" Knoten befinden, müssen nun noch manuell zugeordnet werden.
 
+</div>
+<div className="col col--6 text--center">
+
 ![Billing: Energie abrechnen – Abbildung 5](/img/konfiguration-billing/05.png)
 
+</div>
+</div>
+
 ### 2\. Zähler manuell einer Abrechnungseinheiten zuweisen
+
+<div className="row">
+<div className="col col--7">
 
 Beim Erstellen der Liegenschaft werden die Zähler automatisch zur Abrechnungseinheit (Ordner) zu 100% zugewiesen.
 
@@ -105,12 +135,20 @@ Möchtest du ein Zähler (z.B. Allgemein) gemäss einem Verteilschlüssel auftei
 
 - Wähle den gewünschten Zähler aus und gib an, zu wie viel Prozent verrechnet werden soll.
 
-
 Das erklärte Vorgehen funktioniert analog für die anderen Energietypen (Wärme, Kälte etc.)
+
+</div>
+<div className="col col--5 text--center">
 
 ![Billing: Energie abrechnen – Abbildung 6](/img/konfiguration-billing/06.png)
 
+</div>
+</div>
+
 ### 3\. IBAN hinterlegen
+
+<div className="row">
+<div className="col col--7">
 
 Im smart-me Billing kann optional die QR-Rechnung aktiviert werden.
 
@@ -134,9 +172,15 @@ Um die Rechnung ohne Referenz zu identifizieren, wird eine Zusätzliche Informat
 
 Die Darstellung ist für den Versand per E-Mail optimiert. Falls die Rechnungen ausgedruckt werden, empfehlen wir, die QR-Rechnung zu deaktivieren und diese bei der Bank zu bestellen.
 
+</div>
+<div className="col col--5 text--center">
+
 ![Billing: Energie abrechnen – Abbildung 7](/img/konfiguration-billing/07.jpg)
 
 ![Billing: Energie abrechnen – Abbildung 8](/img/konfiguration-billing/08.png)
+
+</div>
+</div>
 
 ### 4\. Mieterspiegel erfassen
 
@@ -205,10 +249,7 @@ Beispiel:
 
 - Die eingetragene Gebühr wird auf allen Rechnungen pro Monat ergänzt
 
-
 Hinweis: Die Sonstiges Kosten sind nur mit der Elektrizitätsrechnung verfügbar.
-
-
 
 Auf der Ebene der Abrechnungseinheit
 
@@ -216,9 +257,6 @@ Beispiel:
 Eine Ladestation wird vermietet und soll Monatlich der Abrechnungseinheit in Rechnung gestellt werden.
 
 - Die Kosten wird nur der einen Abrechnungseinheit angelastet
-
-
-
 
 ![Billing: Energie abrechnen – Abbildung 11](/img/konfiguration-billing/11.png)
 
@@ -247,11 +285,18 @@ Auf dieser Seite findest du eine Beschreibung der häufigsten Fehlermeldungen un
 
 ### Visualisierung
 
+<div className="row">
+<div className="col col--7">
+
 In der Standardansicht des Ordners der Abrechnungseinheit (z. B. eine Wohnung) wird nun eine neue Kachel angezeigt. Diese gibt die Zählerstände für die virtuellen Tarife an. Wenn man auf diese Kachel klickt wird das Lastprofil für die virtuellen Tarife angezeigt. 
 
-
+</div>
+<div className="col col--5 text--center">
 
 ![Billing: Energie abrechnen – Abbildung 12](/img/konfiguration-billing/12.jpg)
+
+</div>
+</div>
 
 ### Wie wird der Solarstrom aufgeteilt
 

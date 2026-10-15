@@ -1,14 +1,12 @@
 ---
 title: 'Zählerfreunde'
 slug: '/drittsysteme/zaehlerfreunde'
-description: 'Zählerfreunde propose des solutions sur mesure pour les installations individuelles, les projets d''électricité pour les locataires, les fournisseurs d''énergie et les régies municipales.'
+description: 'Zählerfreunde propose des solutions sur mesure pour les installations individuelles, les projets d''électricité pour les locataires, les fournisseurs d''électricité et les services industriels municipaux.'
 sidebar_label: 'Zaehlerfreunde'
 ---
-Zählerfreunde propose des solutions sur mesure pour les installations individuelles, les projets d'électricité pour les locataires, les fournisseurs d'énergie et les régies municipales. La solution repose sur une plateforme web ou une application qui permet aux locataires, aux bailleurs et aux exploitants de projets de mieux surveiller et gérer la consommation et la production d'électricité.
+Zählerfreunde propose des solutions sur mesure pour les installations individuelles, les projets d'électricité pour les locataires, les fournisseurs d'électricité et les services industriels municipaux. La solution repose sur une plateforme web ou une application qui permet aux locataires, aux bailleurs et aux exploitants de projets de mieux surveiller et gérer leur consommation et leur production d'électricité.
 
-
-
-Public cible : utilisateurs smart-me, fournisseurs d'énergie et locataires disposant d'un compte smart-me
+Public cible : utilisateurs smart-me, fournisseurs d'électricité et locataires disposant d'un compte smart-me
 
 Remarque :
 Dans les installations d'électricité pour les locataires, le changement de tarif ne fonctionne que pour l'exploitant de l'installation d'électricité pour les locataires
@@ -21,7 +19,7 @@ Nous prenons bien entendu en charge tous les navigateurs courants. Sur demande, 
 
 ![Zählerfreunde – Illustration 2](/img/drittsysteme-zaehlerfreunde/02.png)
 
-Contrôle de la consommation
+Maîtrise de la consommation
 
 Visualisation transparente et multi-énergies. Grâce à notre structure modulaire, vous décidez quels détails sont affichés à vos clients et lesquels ne le sont pas.
 
@@ -33,7 +31,7 @@ Visualisation transparente et multi-énergies. Grâce à notre structure modulai
 
 - Injection
 
-- Prix du marché
+- Prix de bourse
 
 - Niveau de CO2
 
@@ -44,7 +42,7 @@ Visualisation transparente et multi-énergies. Grâce à notre structure modulai
 
 Prise en charge d'autres appareils
 
-Vos clients possèdent des installations photovoltaïques, des wallbox, des compteurs électriques numériques ? Nous visualisons (presque) tout ! Les utilisateurs ont la possibilité d'ajouter d'autres appareils intelligents. Vous proposez par exemple des batteries de stockage ? Parfait, vendez-les directement via la plateforme, puis faites-les visualiser.
+Vos clients disposent d'installations photovoltaïques, de wallbox, de compteurs électriques numériques ? Nous visualisons (presque) tout ! Les utilisateurs ont la possibilité d'ajouter d'autres appareils intelligents. Vous proposez par exemple des systèmes de stockage par batterie ? Parfait, vendez-les directement via la plateforme et faites-les ensuite visualiser.
 
 ![Zählerfreunde – Illustration 4](/img/drittsysteme-zaehlerfreunde/04.png)
 
@@ -56,32 +54,32 @@ Proposez à vos clients existants de nouveaux produits tarifaires, comme des tar
 
 Simulateur
 
-Avec le simulateur Zählerfreunde, les clients peuvent tester l'impact d'une installation photovoltaïque ou d'une batterie de stockage donnée sur leurs coûts annuels et leur empreinte CO2. Les calculs reposent sur la consommation individuelle et sur des données météorologiques géostationnaires. Si vous vendez des produits adaptés, nous vous aidons à les proposer via le simulateur.
+Avec le simulateur Zählerfreunde, les clients peuvent tester l'effet d'une installation photovoltaïque ou d'un système de stockage par batterie donné sur leurs coûts annuels et leur empreinte CO2. Les calculs reposent sur la consommation individuelle et sur des données météorologiques géostationnaires. Si vous vendez des produits adaptés, nous vous aidons à les proposer via le simulateur.
 
 ![Zählerfreunde – Illustration 6](/img/drittsysteme-zaehlerfreunde/06.png)
 
 Solution de portail pour l'électricité pour les locataires
 
-Valorisez votre offre d'électricité pour les locataires avec une solution globale destinée aux clients finaux.
+Mettez en valeur votre offre d'électricité pour les locataires avec une solution globale destinée aux clients finaux.
 
 - Visualisation : toutes les représentations pertinentes telles que consommation/coûts/CO2, etc.
 
-- Ajouter d'autres appareils IOT au tableau de bord
+- Ajouter d'autres appareils IoT au tableau de bord
 
-- Électricité locale et soutirage d'électricité complémentaire
+- Électricité locale et soutirage d'électricité résiduelle
 
-- Taux PV
+- Taux d'autoconsommation photovoltaïque
 
 - Affichage des décomptes de consommation (+ possibilité de téléchargement)
 
-- Accès administrateur : aperçu intuitif du portefeuille, export CSV de tous les points de mesure et de coûts, import de projets et bien plus encore
+- Accès administrateur : vue d'ensemble intuitive du portefeuille, export CSV de tous les points de mesure et de coûts, import de projets et bien plus encore
 
 
 Changement de tarif durable (uniquement pour l'Allemagne)
 
 Ne vous souciez plus jamais du fastidieux changement de tarif !
 
-Changez votre tarif d'électricité une seule fois, ou laissez-le changer automatiquement chaque année en toute simplicité (électricité verte certifiée garantie). Vous économisez ainsi chaque année une somme considérable tout en soutenant un projet d'utilité publique de votre choix.
+Changez votre tarif d'électricité une seule fois, ou laissez-le changer automatiquement chaque année en toute simplicité (électricité verte certifiée garantie). Vous économisez ainsi beaucoup d'argent chaque année tout en soutenant un projet d'utilité publique de votre choix.
 
 
 

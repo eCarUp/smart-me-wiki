@@ -8,7 +8,7 @@ This page explains the known errors that can occur with virtual meters.
 
 Error: "Invalid formula" ("Formel ungültig")
 
-You want to create a virtual meter and receive the following error message.
+If you want to create a virtual meter and receive the following error message:
 
 - Check whether the meter you want to add is offline.
 

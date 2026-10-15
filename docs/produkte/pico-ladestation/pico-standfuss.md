@@ -1,12 +1,41 @@
 ---
-title: 'Pico Ständer'
+title: 'Pico Standfuss Lösungen'
 slug: '/produkte/pico-ladestation/pico-standfuss'
 description: 'Jeder Pico Standfuss besteht aus jeweils einem Standfuss:'
 sidebar_label: 'Pico Standfuss'
 ---
-![Pico Ständer – Abbildung 1](/img/produkte-pico-ladestation-pico-standfuss/01.jpg)
 
-## Bestellinformationen
+Für die Pico Ladestation gibt es zwei mögliche Standfuss Lösungen.
+
+
+<div className="row">
+<div className="col col--6 text--center">
+
+## smart-me Pico Standfuss
+
+![Pico Standfuss – Abbildung 1](/img/produkte-pico-ladestation-pico-standfuss/01.jpg)
+
+</div>
+<div className="col col--6">
+
+ ## ONEPOLE PRO für Pico Ladestation
+
+![Pico Ständer – Abbildung 3](/img/produkte-pico-ladestation-pico-standfuss/03.jpg)
+
+⚡NEU: die Pico Ladestation ist mit der universellen Ladesäule von [ONEPOLE](https://onepole.no/de) kompatibel. Die Halterung für die Pico sowie die Ladesäule kann in unterschiedlichen Ausführungen direkt im Webshop von Otto Fischer bestellt werden ➡️ [Pico Halterung](https://www.ottofischer.ch/de/item/halterung-onepole-pro-fur-pico-ladestation-896511561#item-downloads) und [ONEPOLE Standfüsse](https://www.ottofischer.ch/de/catalog/standfusse-5581978?q=&expanded_filters=id_brands&brands=20630654&limit=48&sort=abc_value). Für weitere Informationen kontaktiere bitte Otto Fischer.
+
+
+
+ONEPOLE steht für innovative Säulenlösungen, die durch ihr modulares Design und ihre hohe Flexibilität überzeugen. Die in Norwegen entwickelten und gefertigten Produkte zeichnen sich durch erstklassige Materialien, exzellente Verarbeitungsqualität und durchdachte, innovative Funktionen aus. 
+
+![Pico Ständer – Abbildung 2](/img/produkte-pico-ladestation-pico-standfuss/02.jpg)
+
+
+</div>
+</div>
+
+
+## Bestellinformationen smart-me Standfuss
 
 Jeder Pico Standfuss besteht aus jeweils einem Standfuss:
 
@@ -22,20 +51,6 @@ und einem Kopf für die Montage der Picos (Alle Köpfe sind kompatibel mit beide
 - 232070-PL/PH1
 
 - 232070-PL/PH2
-
-
-### ONEPOLE PRO für Pico Ladestation
-
-⚡NEU: die Pico Ladestation ist mit der universellen Ladesäule von [ONEPOLE](https://onepole.no/de) kompatibel. Die Halterung für die Pico sowie die Ladesäule kann in unterschiedlichen Ausführungen direkt im Webshop von Otto Fischer bestellt werden ➡️ [Pico Halterung](https://www.ottofischer.ch/de/item/halterung-onepole-pro-fur-pico-ladestation-896511561#item-downloads) und [ONEPOLE Standfüsse](https://www.ottofischer.ch/de/catalog/standfusse-5581978?q=&expanded_filters=id_brands&brands=20630654&limit=48&sort=abc_value). Für weitere Informationen kontaktiere bitte Otto Fischer.
-
-
-
-ONEPOLE steht für innovative Säulenlösungen, die durch ihr modulares Design und ihre hohe Flexibilität überzeugen. Die in Norwegen entwickelten und gefertigten Produkte zeichnen sich durch erstklassige Materialien, exzellente Verarbeitungsqualität und durchdachte, innovative Funktionen aus. 
-
-![Pico Ständer – Abbildung 2](/img/produkte-pico-ladestation-pico-standfuss/02.jpg)
-
-![Pico Ständer – Abbildung 3](/img/produkte-pico-ladestation-pico-standfuss/03.jpg)
-
 ![Pico Ständer – Abbildung 4](/img/produkte-pico-ladestation-pico-standfuss/04.jpg)
 
 ## Standfuss Varianten

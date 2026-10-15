@@ -137,7 +137,7 @@ Le comportement de l'écran est décrit sur la page [Affichage Pico](/produkte/p
 
 ## Raccordements et dimensions de Pico
 
-![Borne de recharge Pico – illustration 3](/img/produkte-pico-ladestation/03.jpg)
+![Borne de recharge Pico – illustration 3](/img/produkte-pico-ladestation/03_EN.jpg)
 
 ### Schéma de raccordement
 
@@ -189,7 +189,7 @@ En alternative, le délestage peut également être réalisé via la [gestion de
 </div>
 <div className="col col--5 text--center">
 
-![Borne de recharge Pico – illustration 5](/img/produkte-pico-ladestation/05.png)
+![Borne de recharge Pico – illustration 5](/img/produkte-pico-ladestation/05_EN.png)
 
 ![Borne de recharge Pico – illustration 6](/img/produkte-pico-ladestation/06.png)
 

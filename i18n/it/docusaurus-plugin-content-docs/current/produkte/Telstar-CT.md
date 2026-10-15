@@ -1,13 +1,14 @@
 ---
 title: 'Contatore di energia trifase Telstar CT'
 slug: '/produkte/Telstar-CT'
-description: 'Lo smart-me Telstar CT è un contatore di energia con certificazione MID, dotato di interfaccia WiFi integrata per la trasmissione di dati in tempo reale e di collegamento per trasformatori esterni.'
+description: 'Lo smart-me Telstar CT è un contatore di energia certificato MID con interfaccia WiFi integrata per la trasmissione di dati in tempo reale e con collegamento per trasformatori esterni.'
 sidebar_label: 'Contatore trifase Telstar CT'
 ---
-Lo smart-me Telstar CT è un contatore di energia con certificazione MID, dotato di interfaccia WiFi integrata per la trasmissione di dati in tempo reale e di collegamento per trasformatori esterni. Il contatore sincronizza i valori di misura in modo automatico e crittografato nella smart-me Cloud. I dati possono essere esportati ed elaborati nel portale smart-me oppure, tramite la nostra interfaccia aperta, in sistemi di terzi. Il contatore dispone di due uscite digitali per il comando di apparecchi a potenziale zero.
+Lo smart-me Telstar CT è un contatore di energia certificato MID con interfaccia WiFi integrata per la trasmissione di dati in tempo reale e con collegamento per trasformatori esterni. Il contatore sincronizza i valori misurati in modo automatico e criptato nella smart-me Cloud. I dati possono essere esportati e ulteriormente elaborati nel portale smart-me o tramite la nostra interfaccia aperta in sistemi di terzi. Il contatore dispone di due uscite digitali per il comando di apparecchi a potenziale zero.
 
-![Contatore di energia trifase Telstar CT – Figura 1](/img/produkte-telstar-ct/01.png)
+![Contatore di energia trifase Telstar CT – figura 1](/img/produkte-telstar-ct/01.png)
 
+## Accessori
 [Trasformatori e accessori per il Telstar CT](/drittprodukte/Stromwandler)
 
 ## Funzioni
@@ -28,7 +29,7 @@ Lo smart-me Telstar CT è un contatore di energia con certificazione MID, dotato
 
 - [Interfacce](/) tramite API, CSV, MSCONS e IS-E
 
-- Connessione dati crittografata in tempo reale verso la smart-me Cloud
+- Connessione dati criptata in tempo reale con la smart-me Cloud
 
 ## Dati tecnici
 
@@ -36,15 +37,15 @@ Lo smart-me Telstar CT è un contatore di energia con certificazione MID, dotato
 
 ## Requisiti tecnici per i trasformatori
 
-Con il Telstar CT è possibile impiegare i più svariati trasformatori di corrente. I requisiti di base sono i seguenti:
+Con il Telstar CT è possibile impiegare un'ampia varietà di trasformatori di corrente. I requisiti di base sono i seguenti:
 
 - Rapporto del trasformatore di corrente: da 1:1 a 20'000:1 e da 5:5 a 20'000:5
-    Il valore secondario può essere un numero intero qualsiasi compreso tra 1 e 5.
-    Il valore primario un numero intero qualsiasi compreso tra 1 e 20'000.
+    Il numero secondario può essere un numero intero qualsiasi compreso tra 1 e 5.
+    Il numero primario un numero intero qualsiasi compreso tra 1 e 20'000.
 
 - Corrente di uscita: da 1A a 5A
 
-- Potenza di uscita: min. 1VA o superiore (raccomandazione 5VA)
+- Potenza di uscita: almeno 1VA o superiore (raccomandazione 5VA)
 
 - Tipo: aperto o chiuso
 
@@ -52,20 +53,20 @@ Con il Telstar CT è possibile impiegare i più svariati trasformatori di corren
 
 \*Se i contatori devono essere utilizzati per la fatturazione, sono necessari trasformatori tarati che soddisfino almeno la classe 0.5 o inferiore.
 
-Le raccomandazioni per trasformatori e accessori sono disponibili alla pagina: [Trasformatori di corrente e accessori](/drittprodukte/Stromwandler) 
+Raccomandazioni per trasformatori e accessori sono disponibili alla pagina: [Trasformatori di corrente e accessori](/drittprodukte/Stromwandler) 
 
 ## Display
 
 <div className="row">
 <div className="col col--6">
 
-Valore / simbolo Descrizione
+Valore / Simbolo Descrizione
 
-- 1.8.1 Codice OBIS\ per la lettura del contatore visualizzata
+- 1.8.1 Codice OBIS della lettura del contatore visualizzata
 
 - T1 Tariffa attiva (tariffa 1 o tariffa 2)
 
-- Freccia Direzione della corrente (a destra prelievo / a sinistra immissione)
+- Freccia Direzione della corrente (destra prelievo / sinistra immissione)
 
 - Ricezione (barre) Intensità del segnale WiFi
 
@@ -80,12 +81,12 @@ Valore / simbolo Descrizione
 </div>
 <div className="col col--6 text--center">
 
-![Contatore di energia trifase Telstar CT – Figura 2](/img/produkte-telstar-ct/02.png)
+![Contatore di energia trifase Telstar CT – figura 2](/img/produkte-telstar-ct/02.png)
 
 </div>
 </div>
 
-Il contatore dispone di un display a scorrimento. I punti descritti di seguito vengono visualizzati uno dopo l'altro. Dopo l'ultimo punto viene nuovamente visualizzato il primo.
+Il contatore dispone di un display a scorrimento. I punti descritti di seguito vengono visualizzati uno dopo l'altro. Dopo l'ultimo punto viene visualizzato di nuovo il primo.
 
 Lettura del contatore (codice OBIS seguito dalla lettura del contatore) 
 
@@ -109,7 +110,7 @@ Firmware (codice OBIS seguito da informazioni)
 - C.1.6 Ch: 2218 Checksum del firmware
 - 0.2.0 V 1.1 Versione del firmware
 
-Visualizzazione degli errori (codice OBIS seguito da messaggi di errore)
+Visualizzazione errori (codice OBIS seguito da messaggi di errore)
 
 - C.60.9 Fraud Flag (rilevato possibile tentativo di frode)
 - PhL: 1 collegata solo la fase L1
@@ -123,24 +124,24 @@ Visualizzazione degli errori (codice OBIS seguito da messaggi di errore)
 
 ## Dimensioni e collegamenti
 
-I dati \*.DXF e \*.DWG si trovano nell'archivio ZIP nella sezione Download.
+I dati \*.DXF e \*.DWG si trovano nell'archivio ZIP nei download.
 
 ### Dimensioni \[mm\]
 
-![Contatore di energia trifase Telstar CT – Figura 3](/img/produkte-telstar-ct/03.png)
+![Contatore di energia trifase Telstar CT – figura 3](/img/produkte-telstar-ct/03.png)
 
-![Contatore di energia trifase Telstar CT – Figura 4](/img/produkte-telstar-ct/04.png)
+![Contatore di energia trifase Telstar CT – figura 4](/img/produkte-telstar-ct/04.png)
 
 ### Schema di collegamento
 
-![Contatore di energia trifase Telstar CT – Figura 5](/img/produkte-telstar-ct/05.jpg)
+![Contatore di energia trifase Telstar CT – figura 5](/img/produkte-telstar-ct/05.jpg)
 
 ## Impostare il rapporto del trasformatore sul Telstar CT
 
 <div className="row">
 <div className="col col--7">
 
-1.  In alto a destra sul simbolo dell'ingranaggio (Impostazioni) (Einstellungen) 
+1.  In alto a destra sul simbolo dell'ingranaggio, Impostazioni (Einstellungen) 
 
 2.  Modifica (Editieren) 
 
@@ -150,23 +151,23 @@ I dati \*.DXF e \*.DWG si trovano nell'archivio ZIP nella sezione Download.
 
 5.  Il rapporto del trasformatore può essere bloccato. Ciò serve come protezione da modifiche indesiderate da parte di persone non autorizzate. Per sbloccare il rapporto del trasformatore, il dispositivo deve essere installato nuovamente con l'app smart-me. In caso di reinstallazione non è necessario eliminarlo.
 
-Nota: l'inserimento del rapporto del trasformatore non modifica i dati storici memorizzati. Per questo motivo, questo passaggio va eseguito subito dopo la messa in servizio.
+Nota: l'inserimento del rapporto del trasformatore non modifica i dati storici salvati. Per questo motivo, questo passaggio va eseguito subito dopo la messa in servizio.
 
 </div>
 <div className="col col--5 text--center">
 
-![Contatore di energia trifase Telstar CT – Figura 6](/img/produkte-telstar-ct/06.png)
+![Contatore di energia trifase Telstar CT – figura 6](/img/produkte-telstar-ct/06.png)
 
 </div>
 </div>
 
 ## Funzioni dei tasti
 
-![Contatore di energia trifase Telstar CT – Figura 7](/img/produkte-telstar-ct/07.png)
+![Contatore di energia trifase Telstar CT – figura 7](/img/produkte-telstar-ct/07.png)
 
 T1 Tasto per l'installazione
 
-- Se il tasto T1 viene premuto per 10 secondi, viene creata una rete WiFi locale per l'installazione
+- Tenendo premuto il tasto T1 per 10 secondi, viene generata una rete WiFi locale per l'installazione
 
 T1 + T2 Riavvio
 
@@ -174,24 +175,24 @@ T1 + T2 Riavvio
 
 T2 Funzioni speciali
 
-- Breve: se T2 viene premuto per >2s, il LED verde cambia stato (da acceso a spento o da spento ad acceso). Se attivato, indica lo stato della connessione 
+- Breve: se T2 viene premuto >2s, il LED verde viene commutato (da acceso a spento o da spento ad acceso). Quando è attivato, indica lo stato della connessione 
 
 🟢 Verde fisso: connesso alla smart-me Cloud
 
  ☀︎ Verde lampeggiante: connessione in corso o nessuna connessione
 
-Lungo: se T2 viene premuto per >8s, la visualizzazione della potenza passa da potenza attiva a potenza reattiva e viceversa. Inoltre, il LED degli impulsi di taratura passa da energia attiva a energia reattiva e viceversa.
+Lungo: se T2 viene premuto >8s, la visualizzazione della potenza viene commutata tra potenza attiva e reattiva. Inoltre, il LED degli impulsi di taratura passa tra energia attiva ed energia reattiva.
 
-Molto lungo: se T2 viene premuto per >14s, l'uscita impulsi S0-0 passa da potenza attiva a potenza reattiva e viceversa.
+Molto lungo: se T2 viene premuto >14s, l'uscita a impulsi S0-0 viene commutata tra potenza attiva e potenza reattiva.
 
-Nota: questa impostazione modifica solo la visualizzazione sul display, non nella smart-me Cloud (app e sito web). Se l'energia reattiva deve essere visualizzata nella Cloud, occorre impostarlo nelle impostazioni generali (Allgemeine Einstellungen). 
+Nota: questa impostazione modifica solo la visualizzazione sul display, non nella smart-me Cloud (app e sito web). Se si desidera visualizzare l'energia reattiva nella Cloud, occorre impostarlo nelle impostazioni generali (Allgemeine Einstellungen). 
 
 ## LED
 
 <div className="row">
 <div className="col col--5 text--center">
 
-![Contatore di energia trifase Telstar CT – Figura 8](/img/produkte-telstar-ct/08.png)
+![Contatore di energia trifase Telstar CT – figura 8](/img/produkte-telstar-ct/08.png)
 
 </div>
 <div className="col col--7">
@@ -206,35 +207,35 @@ Nota: questa impostazione modifica solo la visualizzazione sul display, non nell
 <div className="row">
 <div className="col col--5 text--center">
 
-![Contatore di energia trifase Telstar CT – Figura 9](/img/produkte-telstar-ct/09.png)
+![Contatore di energia trifase Telstar CT – figura 9](/img/produkte-telstar-ct/09.png)
 
 </div>
 <div className="col col--7">
 
-🔴 LED rosso - LED impulsi
+🔴 LED rosso - LED a impulsi
 
-- Indica la potenza attiva o reattiva attualmente prelevata in 1000 impulsi/kWh o 1000 impulsi/kVArh. Con il tasto T2 è possibile impostare se viene visualizzata la potenza attiva o reattiva.
+- Indica la potenza attiva o reattiva attualmente prelevata in 1000 impulsi/kWh risp. 1000 impulsi/kVArh. Con il tasto T2 è possibile impostare se viene visualizzata la potenza attiva o reattiva.
 
-- Ad esempio: un LED con la dicitura „1000 impulsi/kWh“ lampeggia 1000 volte quando è stato prelevato o immesso 1 chilowattora (kWh) di energia. Se i 1000 impulsi sono stati contati nell'arco di 1 ora, è stata misurata una potenza costante di 1 kW.
+- Ad esempio: un LED con l'indicazione „1000 impulsi/kWh“ lampeggia 1000 volte quando è stato prelevato o immesso 1 kilowattora (kWh) di energia. Se i 1000 impulsi sono stati contati nell'arco di 1 ora, è stata misurata una potenza costante di 1 kW.
 
 </div>
 </div>
 
 ## Configurare ingressi e uscite
 
-Il Telstar CT dispone di due uscite digitali e di un ingresso digitale, utilizzabili come ingressi e uscite a impulsi o come contatto commutabile a potenziale zero. Maggiori dettagli sono disponibili alla pagina wiki [Ingressi e uscite](/schnittstellen/ein_und_ausgaenge) 
+Il Telstar CT dispone di due uscite digitali e di un ingresso digitale, che possono essere utilizzati come ingressi e uscite a impulsi o come contatto commutabile a potenziale zero. I dettagli si trovano alla pagina del wiki [Ingressi e uscite](/schnittstellen/ein_und_ausgaenge) 
 
-Su una delle uscite digitali, il Telstar CT dispone di un relè in grado di commutare fino a 8A.
+Il Telstar CT dispone, su un'uscita digitale, di un relè in grado di commutare fino a 8A.
 
 ## Tecnologia mesh
 
-In caso di ricezione WiFi molto debole o assente, il Telstar CT si collega automaticamente tramite la funzione mesh a un altro contatore vicino entro la portata. Quest'ultimo assume quindi la comunicazione con la smart-me Cloud. La tecnologia mesh garantisce ai contatori una maggiore disponibilità nei confronti della smart-me Cloud. Non è possibile disattivare la funzione mesh sul contatore. Con [Modbus TCP](/schnittstellen/modbus-tcp) attivato si applicano limitazioni specifiche.
+In caso di ricezione WiFi molto debole o assente, il Telstar CT si collega automaticamente tramite la funzione mesh a un altro contatore vicino nel raggio di portata. Quest'ultimo assume quindi la comunicazione con la smart-me Cloud. La tecnologia mesh garantisce ai contatori una maggiore disponibilità nei confronti della smart-me Cloud. Non è possibile disattivare la funzione mesh sul contatore. Con [Modbus TCP](/schnittstellen/modbus-tcp) attivato valgono limitazioni specifiche.
 
 ## Trasformatori e accessori
 
-Le raccomandazioni per trasformatori e accessori sono disponibili alla pagina: [Trasformatori di corrente e accessori](/drittprodukte/Stromwandler) 
+Raccomandazioni per trasformatori e accessori sono disponibili alla pagina: [Trasformatori di corrente e accessori](/drittprodukte/Stromwandler) 
 
-Nessuno di questi prodotti è distribuito da smart-me AG né offerto come accessorio al momento dell'acquisto. Si prega di acquistare questi prodotti direttamente presso il produttore. 
+Nessuno di questi prodotti è distribuito da smart-me AG od offerto come accessorio al momento dell'acquisto. Si prega di acquistare questi prodotti direttamente presso il produttore. 
 
 ### Informazioni di spedizione
 
@@ -261,13 +262,13 @@ Peso con imballaggio: 315g
 ## FAQ
 
 <details id="in-welchem-intervall-senden-die-zähler-daten">
-<summary>A quale intervallo i contatori inviano i dati?</summary>
+<summary>Con quale intervallo i contatori inviano i dati?</summary>
 
-- Ogni 15 minuti, cioè alle xx:00:00, xx:15:00, xx:30:00 e xx:45:00. In questo modo vengono inviati i dati necessari per la curva di carico. In caso di interruzione della connessione, questi dati vengono memorizzati localmente e inviati successivamente.
+- Ogni 15 minuti, ovvero alle xx:00:00, xx:15:00, xx:30:00 e xx:45:00. In questo modo vengono inviati i dati necessari per la curva di carico. In caso di interruzione della connessione, questi dati vengono salvati localmente e inviati successivamente.
 
 - Inoltre almeno ogni 330 secondi.
 
-- Infine, quando si verifica uno dei seguenti eventi:
+- Successivamente, quando si verifica uno dei seguenti eventi:
 
     - Variazione della lettura del contatore superiore a 100Wh
 
@@ -282,7 +283,7 @@ Peso con imballaggio: 315g
 </details>
 
 <details id="kann-ich-den-zählerstand-auf-null-zurücksetzen">
-<summary>Posso azzerare la lettura del contatore?</summary>
+<summary>È possibile azzerare la lettura del contatore?</summary>
 
 No, poiché i nostri contatori vengono utilizzati per i conteggi, non è possibile azzerarli.
 

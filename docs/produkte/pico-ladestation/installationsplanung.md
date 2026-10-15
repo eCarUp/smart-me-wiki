@@ -78,36 +78,59 @@ Die Installation benötigt hier einen SPD Typ-1 Blitzschutz und Typ-2 Blitzschut
 
 [Anschlussschema und Stromlaufschema ZIP Files](https://drive.google.com/file/d/1aVOLmWprogy2OizkcyH3kHsHntu0A8-D/view?usp=share_link)
 
-## Pico Ladestation vor BJ 2024 und Seriennummer 7002702
+# FAQ
+
+<details id="Pico-Ladestation-vor-BJ-2024-und-Seriennummer-7002702">
+<summary>Pico Ladestation vor BJ 2024 und Seriennummer 7002702</summary>
 
 - Pico Ladestationen vor BJ2024 oder Seriennummer 7002702 verfügen über eine integrierte Gleichstromfehlererkennung nach IEC62955.
 
 - Pico Ladestationen vor BJ2024 oder Seriennummer 7002702 verfügen über eine funktionelle aber nicht 100% konforme Fehlerstromerkennung für Wechselströme Typ-A (30mA)
 
+</details>
 
-### Installation Flachbandkabel
+<details id="Pico-Installation-Flachbandkabel">
+<summary>Installation Flachbandkabel</summary>
 
 - RCD Typ-A 40A ohne LS seriell zu jeder Pico Ladestation
 
 - Lastschutzschalter am E-Mobilitätsabgang mit kurzschlusssicherer Verlegeart (blauer Kasten) reicht für die Selektivität aus. (Erweiterte Dokumentation)
 
-
 ![Installationsplanung – Abbildung 5](/img/produkte-pico-ladestation-installationsplanung/05.png)
 
-## Lastschutz für Ladestationsgruppenabsicherung und Zuleitung bis 80A pro Phase
+</details>
+
+<details id="Lastschutz-für-Ladestationsgruppenabsicherung-und-Zuleitung-bis-80A-pro-Phase">
+<summary>Lastschutz für Ladestationsgruppenabsicherung und Zuleitung bis 80A pro Phase</summary>
 
 Der Lastschutz am Abgang für die gesamte Ladegruppe sollte die Charakteristik C aufweisen.
 Die üblichen Lastschutzeinrichtungen nach Charakteristik B eignen sich nicht für Ladestationsinstallationen und neigen dazu zu früh auszulösen.
 
 Bei einem 63A E-Mobilitätsabgang wäre z.B. ein 63A Lastschutz, Typ C mit 6kA oder 10kA Kurzschlussfähigkeit zu empfehlen.
 
-## Lastschutz für Pico Ladestationen mit Zuleitung mehr als 80A pro Phase
+</details>
+
+<details id="Lastschutz-für-Pico-Ladestationen-mit-Zuleitung-mehr-als-80A-pro-Phase">
+<summary>Lastschutz für Pico Ladestationen mit Zuleitung mehr als 80A pro Phase</summary>
 
 Bei einer Installation einer Pico Ladestation an ein hochenergetisches Busbarsystem oder Leiterquerschnitten >35mm2 und Phasenströmen > 80A wird Installationsseitig ein Lastschutz pro Ladestation empfohlen.
 Der Interne Lastschutz der individuellen Pico ist auf 3kA begrenzt. Bei hochenergetischen Zuleitungen kann die Fähigkeit zu gering ausgelegt sein.
 Alternativ kann die Kurzschlussfähigkeit des Anschlusses natürlich durch Messung geprüft werden, falls dieser unter 3kA zu liegen kommt ist ein zusätzlicher Lastschutz nicht nötig.
 
 Ist aber eine zusätzlicher Lastschutz von Nöten wird ein Lastschutz Modell mit 40A Auslösestrom mit Auslösecharakteristik C und Kurzschlussfähikeit mit 6kA oder 10kA empfohlen.
+
+</details>
+
+<details id="Lastschutz-für-Pico-Ladestationen-mit-Zuleitung-mehr-als-80A-pro-Phase">
+<summary>Lastschutz für Pico Ladestationen mit Zuleitung mehr als 80A pro Phase</summary>
+
+Bei einer Installation einer Pico Ladestation an ein hochenergetisches Busbarsystem oder Leiterquerschnitten >35mm2 und Phasenströmen > 80A wird Installationsseitig ein Lastschutz pro Ladestation empfohlen.
+Der Interne Lastschutz der individuellen Pico ist auf 3kA begrenzt. Bei hochenergetischen Zuleitungen kann die Fähigkeit zu gering ausgelegt sein.
+Alternativ kann die Kurzschlussfähigkeit des Anschlusses natürlich durch Messung geprüft werden, falls dieser unter 3kA zu liegen kommt ist ein zusätzlicher Lastschutz nicht nötig.
+
+Ist aber eine zusätzlicher Lastschutz von Nöten wird ein Lastschutz Modell mit 40A Auslösestrom mit Auslösecharakteristik C und Kurzschlussfähikeit mit 6kA oder 10kA empfohlen.
+
+</details>
 
 ## Erweiterte Dokumentation und landesspezifische Hinweise
 

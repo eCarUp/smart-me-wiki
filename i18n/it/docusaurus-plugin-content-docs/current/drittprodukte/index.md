@@ -16,4 +16,4 @@ Lo scopo dei consigli è offrire ai nostri partner la possibilità di trovare in
 
 In alternativa al piedistallo di smart-me, la Pico è compatibile anche con il sistema One Pole.
 
-[Piedistallo Pico - One Pole](/produkte/pico-ladestation/pico-standfuss#onepole-pro-per-la-stazione-di-ricarica-pico)
+[Piedistallo Pico - One Pole](/produkte/pico-ladestation/pico-standfuss)

@@ -16,4 +16,4 @@ The purpose of these recommendations is to give our partners an easy and efficie
 
 As an alternative to the smart-me stand, the Pico is also compatible with the One Pole System.
 
-[Pico Stand - One Pole](/produkte/pico-ladestation/pico-standfuss#onepole-pro-for-pico-charging-station)
+[Pico Stand - One Pole](/produkte/pico-ladestation/pico-standfuss)

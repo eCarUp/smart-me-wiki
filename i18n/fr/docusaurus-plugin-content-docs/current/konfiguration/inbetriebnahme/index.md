@@ -137,7 +137,7 @@ Connectez le smartphone au même WLAN 2,4 GHz que celui auquel les appareils ser
 
 <div className="text--center">
 
-![Formulaire d'inscription de l'application avec e-mail, mot de passe et confirmation](/img/konfiguration-inbetriebnahme/04.jpg)
+![Formulaire d'inscription de l'application avec e-mail, mot de passe et confirmation](/img/konfiguration-inbetriebnahme/04_EN.jpg)
 
 </div>
 
@@ -153,7 +153,7 @@ Connectez le smartphone au même WLAN 2,4 GHz que celui auquel les appareils ser
 
 <div className="text--center">
 
-![Formulaire de connexion de l'application avec e-mail et mot de passe](/img/konfiguration-inbetriebnahme/05.jpg)
+![Formulaire de connexion de l'application avec e-mail et mot de passe](/img/konfiguration-inbetriebnahme/05_EN.jpg)
 
 </div>
 
@@ -181,7 +181,7 @@ Si l'avertissement concernant le réseau 5 GHz apparaît, un réseau 2,4 GHz doi
 
 <div className="text--center">
 
-![Liste d'appareils vide de l'application avec le bouton plus en bas à droite](/img/konfiguration-inbetriebnahme/07.jpg)
+![Liste d'appareils vide de l'application avec le bouton plus en bas à droite](/img/konfiguration-inbetriebnahme/07_EN.jpg)
 
 </div>
 
@@ -195,7 +195,7 @@ Si l'avertissement concernant le réseau 5 GHz apparaît, un réseau 2,4 GHz doi
 
 <div className="text--center">
 
-![Liste d'appareils avec Modifier marqué en vert à côté du WLAN d'installation](/img/konfiguration-inbetriebnahme/08.jpg)
+![Liste d'appareils avec Modifier marqué en vert à côté du WLAN d'installation](/img/konfiguration-inbetriebnahme/08_EN.jpg)
 
 </div>
 
@@ -208,7 +208,7 @@ Si l'avertissement concernant le réseau 5 GHz apparaît, un réseau 2,4 GHz doi
 
 <div className="text--center">
 
-![Champ de saisie du mot de passe du WLAN d'installation](/img/konfiguration-inbetriebnahme/09.jpg)
+![Champ de saisie du mot de passe du WLAN d'installation](/img/konfiguration-inbetriebnahme/09_EN.jpg)
 
 </div>
 
@@ -273,7 +273,7 @@ Si l'avertissement concernant le réseau 5 GHz apparaît, un réseau 2,4 GHz doi
 
 <div className="text--center">
 
-![Instructions avec un dessin montrant comment maintenir la touche T1 enfoncée sur l'appareil](/img/konfiguration-inbetriebnahme/14.jpg)
+![Instructions avec un dessin montrant comment maintenir la touche T1 enfoncée sur l'appareil](/img/konfiguration-inbetriebnahme/14_EN.jpg)
 
 </div>
 
@@ -311,7 +311,7 @@ Si l'avertissement concernant le réseau 5 GHz apparaît, un réseau 2,4 GHz doi
 </div>
 <div className="col col--4 text--center">
 
-![Détails de l'appareil dans l'application avec le facteur de transformation 200:5 et l'interrupteur « Verrouiller le facteur de transformation » (Wandlerfaktor sperren)](/img/konfiguration-inbetriebnahme/16.jpg)
+![Détails de l'appareil dans l'application avec le facteur de transformation 200:5 et l'interrupteur « Verrouiller le facteur de transformation » (Wandlerfaktor sperren)](/img/konfiguration-inbetriebnahme/16_EN.jpg)
 
 </div>
 </div>
@@ -503,12 +503,12 @@ Si 4G apparaît alors que la Pico devrait être connectée au WLAN, la Pico doit
 </div>
 <div className="col col--4 text--center">
 
-![Menu latéral de l'application avec l'entrée Profil utilisateur (Benutzer Profil) marquée](/img/konfiguration-inbetriebnahme/26.jpg)
+![Menu latéral de l'application avec l'entrée Profil utilisateur (Benutzer Profil) marquée](/img/konfiguration-inbetriebnahme/26_EN.jpg)
 
 </div>
 <div className="col col--4 text--center">
 
-![Page de profil de l'application avec le bouton Se déconnecter (Abmelden) en bas](/img/konfiguration-inbetriebnahme/27.jpg)
+![Page de profil de l'application avec le bouton Se déconnecter (Abmelden) en bas](/img/konfiguration-inbetriebnahme/27_EN.jpg)
 
 </div>
 </div>

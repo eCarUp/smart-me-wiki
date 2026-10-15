@@ -16,4 +16,4 @@ L'objectif de ces recommandations est d'offrir à nos partenaires la possibilit�
 
 Comme alternative au socle de smart-me, la Pico est également compatible avec le One Pole System.
 
-[Socle Pico - One Pole](/produkte/pico-ladestation/pico-standfuss#onepole-pro-pour-la-borne-de-recharge-pico)
+[Socle Pico - One Pole](/produkte/pico-ladestation/pico-standfuss)

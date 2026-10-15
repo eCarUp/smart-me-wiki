@@ -6,7 +6,7 @@ sidebar_label: 'Installation planning'
 ---
 Pico can be installed in various ways. Here you will find the most common variants described along with their specific requirements.
 
-![Installation planning – Figure 1](/img/produkte-pico-ladestation-installationsplanung/01.png)
+![Installation planning – Figure 1](/img/produkte-pico-ladestation-installationsplanung/01_EN.png)
 
 ## General installation notes
 
@@ -38,7 +38,7 @@ All Pico charging stations from serial number 7002702 have an internal RCD Typ-A
 
 ### Pico installation on flat ribbon cable or with busbar systems
 
-![Installation planning – Figure 2](/img/produkte-pico-ladestation-installationsplanung/02.png)
+![Installation planning – Figure 2](/img/produkte-pico-ladestation-installationsplanung/02_EN.png)
 
 Note: 
 
@@ -46,11 +46,11 @@ The short-circuit current only needs to be checked at the Pico base plate, not a
 
 ### Pico internally looped-through installation or with Pico stand Basic (212070-PL)
 
-![Installation planning – Figure 3](/img/produkte-pico-ladestation-installationsplanung/03.png)
+![Installation planning – Figure 3](/img/produkte-pico-ladestation-installationsplanung/03_EN.png)
 
 ### Pico installation with Pico stand with service cover (232070-PL)
 
-![Installation planning – Figure 4](/img/produkte-pico-ladestation-installationsplanung/04.png)
+![Installation planning – Figure 4](/img/produkte-pico-ladestation-installationsplanung/04_EN.png)
 
 ### Lightning protection for outdoor installations of charging infrastructure
 

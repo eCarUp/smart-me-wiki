@@ -6,7 +6,7 @@ sidebar_label: 'Pianificazione dell''installazione'
 ---
 Pico può essere installata in diversi modi. Di seguito sono descritte le varianti più comuni con i rispettivi requisiti specifici.
 
-![Pianificazione dell'installazione – Figura 1](/img/produkte-pico-ladestation-installationsplanung/01.png)
+![Pianificazione dell'installazione – Figura 1](/img/produkte-pico-ladestation-installationsplanung/01_EN.png)
 
 ## Indicazioni generali per l'installazione
 
@@ -38,7 +38,7 @@ Tutte le stazioni di ricarica Pico a partire dal numero di serie 7002702 dispong
 
 ### Installazione Pico su cavo piatto o con sistemi busbar
 
-![Pianificazione dell'installazione – Figura 2](/img/produkte-pico-ladestation-installationsplanung/02.png)
+![Pianificazione dell'installazione – Figura 2](/img/produkte-pico-ladestation-installationsplanung/02_EN.png)
 
 Nota: 
 
@@ -46,11 +46,11 @@ La corrente di cortocircuito deve essere verificata solo sulla piastra di base P
 
 ### Installazione Pico in entra-esci interno o con piedistallo Pico Basic (212070-PL)
 
-![Pianificazione dell'installazione – Figura 3](/img/produkte-pico-ladestation-installationsplanung/03.png)
+![Pianificazione dell'installazione – Figura 3](/img/produkte-pico-ladestation-installationsplanung/03_EN.png)
 
 ### Installazione Pico con piedistallo Pico con coperchio di servizio (232070-PL)
 
-![Pianificazione dell'installazione – Figura 4](/img/produkte-pico-ladestation-installationsplanung/04.png)
+![Pianificazione dell'installazione – Figura 4](/img/produkte-pico-ladestation-installationsplanung/04_EN.png)
 
 ### Protezione contro i fulmini per installazioni esterne di infrastrutture di ricarica
 

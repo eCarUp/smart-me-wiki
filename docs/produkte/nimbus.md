@@ -6,9 +6,11 @@ sidebar_label: '3-Phasen Zähler Nimbus 100A'
 ---
 ![smart-me Nimbus 100A – Abbildung 1](/img/produkte-nimbus/01.png)
 
+## Zubehör
 [Zählersteckklemmen für Nimbus 100A](/drittprodukte/zaehlersteckklemmen-nimbus-100A)
 
 ## Funktionen
+### Funtionsübersicht
 
 - Montage auf Zählermontageplatte nach DIN43857-1
 
@@ -62,19 +64,19 @@ Damit bietet der Nimbus eine hardwarebasierte Sicherheitsgarantie, die reinen So
 
 Wert / Symbol Beschreibung
 
-1.8.0 OBIS\-Kennzahl für den angezeigten Zählerstand
+- 1.8.0 OBIS\-Kennzahl für den angezeigten Zählerstand
 
-Q1 Aktueller Quadrant (Q1-Q4)
+- Q1 Aktueller Blindleistungsquadrant (Q1-Q4)
 
-Pfeil Energierichtung (rechts Bezug / links Lieferung)
+- Pfeil Energierichtung (rechts Bezug / links Lieferung)
 
-Empfang (Balken) WLAN Signalqualität
+- Empfang (Balken) WLAN Signalqualität
 
-0000053.2 Zählerstand
+- 0000053.2 Zählerstand
 
-5520W Momentan gemessene Leistung mit Einheit (w oder var)
+- 5520W Momentan gemessene Leistung (W oder VAr)
 
-kWh Einheit des angezeigten Zählerstandes (kWh oder varh)
+- kWh Einheit des angezeigten Zählerstandes (kWh oder varh)
 
 </div>
 </div>
@@ -91,20 +93,117 @@ kWh Einheit des angezeigten Zählerstandes (kWh oder varh)
 
 Zählerstand (OBIS Code gefolgt von Zählerstand) 
 
-1.8.0 (A+) Wirkenergie Bezug Total
-2.8.0 (A+) Wirkenergie Lieferung Total
-5.8.0 (Q1) Induktive Blindenergie Bezug total
-6.8.0 (Q2) Kapazitive Blindenergie Bezug total
-7.8.0 (Q3) Induktive Blindenergie Lieferung total
-8.8.0 (Q4) Kapazitive Blindenergie Lieferung total
+- 1.8.0 (A+) Wirkenergie Bezug Total
+- 2.8.0 (A+) Wirkenergie Lieferung Total
+- 5.8.0 (Q1) Induktive Blindenergie Bezug total
+- 6.8.0 (Q2) Kapazitive Blindenergie Bezug total
+- 7.8.0 (Q3) Induktive Blindenergie Lieferung total
+- 8.8.0 (Q4) Kapazitive Blindenergie Lieferung total
 
 </div>
 </div>
 
+
+## Abmessungen und Anschlüsse
+
+![smart-me Nimbus 100A – Abbildung 8](/img/produkte-nimbus/08.png)
+
+## Anschlussschema
+### Verdrahtung
+
+Es sind Seile, feste Leiter und Litzen zwischen 4-35 mm2 als Zuleitungen zugelassen. Litzen dürfen nur mit passenden Ferrulen montiert werden. Weitere Informationen zu den Anschlussleitungen finden Sie im Quickstarter-Guide.
+
+Schraubenantrieb: Torx 25
+
+Vor der Installation sind die Zuleitungen spannungsfrei zu setzen und vor Manipulation zu sichern.
+
+Anschluss mit durchgeschlauftem Neutralleiter
+
+![smart-me Nimbus 100A – Abbildung 9](/img/produkte-nimbus/09.png)
+
+Anschlussschema mit Erregerneutralleiter
+(Neutralleiter darf deutlich kleiner sein als L1, L2 oder L3)
+
+![smart-me Nimbus 100A – Abbildung 10](/img/produkte-nimbus/10.png)
+
+## Tastenfunktionen
+
+Taste 1 (T1)
+
+Um den Zähler mit einem smart-me Account zu verbinden, wird während der Inbetriebnahme mit der smart-me App die Taste 1 für 10 Sekunden gedrückt. Danach wird ein gerätespezifisches Wifi erstellt mit welchem sich das Mobiltelefon verbinden kann, um die Wifi-Zugangsdaten darauf zu hinterlegen.
+
+Taste 2 (T2)
+
+Mit Taste 2 können Logbuch und Zählerstandsgang geöffnet werden. Um den Zählerstandsgang anzuzeigen muss die Taste 2 für 4 Sekunden gedrückt werden. Danach kann das Passwort eingegeben werden. Die aktuell angewählte wird durch blinken angezeigt. Um diese Ziffer zu ändern kann die Taste 2 kurz gedrückt werden. Nach 10 Sekunden wechselt die Anzeige um eine Stelle nach hinten.
+
+Zugangs-Passwörter haben 4 numerische Stellen.
+
+Ist das Passwort korrekt, wird der letzte Eintrag des Zählerstandsgang angezeigt. Um den nächste Eintrag anzuzeigen muss die Taste 2 kurz gedrückt werden. Wird die Taste 2 für 60 Sekunden nicht gedrückt, wechselt die Anzeige zurück in zur Anzeige des Zählerstandes.
+
+- P1 Interface: RJ-12 Steckdose für P1-Module
+
+- EX1: Schnittstelle für externe Schützensteuerung (noch nicht Unterstützt)
+
+- EX2: Steckplatz für alternative Kommunikationsmodule
+(noch nicht Unterstützt)
+
+- L1: Status LED - leuchtet statisch wenn Verbindung zur smart-me Cloud
+
+- L2: Impuls LED - zeigt aktuell gemessene Leistung in 10'000 Imp / kWh
+
+Die Impuls-LED kann Wirk- und Blindenergie anzeigen. Für die Umschaltung von Wirk- auf Blindleistung oder umgekehrt muss die Taste T2 10 mal mit einem Abstand von 1 Sek gedrückt werden. Ob aktuell die Wirk- oder Blindleistung auf der LED angezeigt wird, ist auf dem Display auf der untersten Zeile erkennbar.
+
+![smart-me Nimbus 100A – Abbildung 11](/img/produkte-nimbus/11.png)
+
+## P1 Interface (Kundenschnittstelle)
+
+Das P1 Interface des Nimbus ermöglicht es Drittanbietern oder Endkunden die gemessenen Daten in eigenen Steuer- oder Analysessystemen weiterzuverwenden.
+
+Dafür wird ein P1-Schnittstellenauslesemodul mit RJ-12 Stecker benötigt.
+Dieses muss den “P1 Companion Standard” von Netbeheer Nederland. Version 5.0.2 (26.Februar.2016) unterstützen.
+
+Spannung:  5V DC, Höchstlast:  100mA DC, Verstärkte Isolierung gegen Netz
+
+[Mehr erfahren](/schnittstellen/p1-schnittstelle)
+
+## Zubehör
+
+- [Zählersteckklemmen](/drittprodukte/zaehlersteckklemmen-nimbus-100A) - zum einfachen Wechsel von Zählern ohne Stromunterbrechung
+
+## Reinigung
+
+Reinigen Sie das Gehäuse des Gerätes mit einem trockenen Tuch. Verwenden Sie keine chemischen Reinigungsmittel! 
+
+## Wartungs- und Gewährleistungshinweise
+
+Das Gerät ist wartungsfrei. Bei Schäden (z. B. durch Transport, Lagerung) dürfen selbst keine Reparaturen vorgenommen werden. Beim Öffnen des Gerätes erlischt der Gewährleistungsanspruch. Gleiches gilt, falls ein Mangel auf äussere Einflüsse zurückzuführen ist (z. B. Blitz, Wasser, Brand, extreme Temperaturen und Witterungsbedingungen) sowie bei unsachgemässer oder nachlässiger Verwendung bzw. Behandlung. Die Plomben dürfen nur durch autorisierte Personen gebrochen werden! 
+
+## Versandinformationen
+
+Artikelnummer: 242065
+
+Artikelname: smart-me 3-Phasen Zähler Nimbus 100A
+
+Zolltarifnummer: 9028.3019
+
+Dimension und Gewicht ohne Lieferverpackung: 25.5x18x7 \[cm\] / 1.1kg
+
+Hersteller: smart-me AG, Riedstrasse 18, 6343 Rotkreuz
+
+## Inbetriebnahme
+
+[Mehr erfahren](/konfiguration/inbetriebnahme)
+
+## Weitere Display Funktionen
+### Fehleranzeige
+<div className="row">
+<div className="col col--6 text--center">
 ![smart-me Nimbus 100A – Abbildung 4](/img/produkte-nimbus/04.jpg)
+</div>
+<div className="col col--6">
 
-Fehleranzeige (OBIS Code gefolgt von Fehlermeldungen)
-
+</div>
+</div>
 C.60.9 Fehlermeldungen (Seite wird nur angezeigt wenn Fehler vorliegen)
 
 - PhL Verdrahtungsfehler (Flasche Phasenreihenfolge oder nicht verdrahtete Phasen)
@@ -152,10 +251,15 @@ Firmware (OBIS Code gefolgt von Informationen)
 C.1.6 762A MID Firmware part Checksumme
 0.2.1 V 1.1 Firmware Version MID part.
 
-### Spezialfunktionen Display
-
+### Zählerstandsgang Display
+<div className="row">
+<div className="col col--6 text--center">
 ![smart-me Nimbus 100A – Abbildung 5](/img/produkte-nimbus/05.jpg)
+</div>
+<div className="col col--6">
 
+</div>
+</div>
 Zählerstandsgang (15min Werte)
 
 Öfnnen und verlassen des Speichers:
@@ -178,11 +282,18 @@ Zählerstandsgang:
 
 - Datum und Uhrzeit des Eintrags
 
+### Logbuch 
+<div className="row">
+<div className="col col--6 text--center">
+
 ![smart-me Nimbus 100A – Abbildung 6](/img/produkte-nimbus/06.jpg)
 
 ![smart-me Nimbus 100A – Abbildung 7](/img/produkte-nimbus/07.jpg)
+</div>
+<div className="col col--6">
 
-Logbuch 
+</div>
+</div>
 
 Öffnen des Logbuches:
 
@@ -247,107 +358,6 @@ Loginformationen:
 - Zähler hat neue Kalibration erhalten (New Meter Calibartion)
 
 - Event Logbuch voll (Last Stored Data, Logbook full)
-
-## Abmessungen und Anschlüsse
-
-![smart-me Nimbus 100A – Abbildung 8](/img/produkte-nimbus/08.png)
-
-## Anschlussschema
-
-Verdrahtung
-
-Es sind Seile, feste Leiter und Litzen zwischen 4-35 mm2 als Zuleitungen zugelassen. Litzen dürfen nur mit passenden Ferrulen montiert werden. Weitere Informationen zu den Anschlussleitungen finden Sie im Quickstarter-Guide.
-
-Schraubenantrieb: Torx 25
-
-Vor der Installation sind die Zuleitungen spannungsfrei zu setzen und vor Manipulation zu sichern.
-
-Anschluss mit durchgeschlauftem Neutralleiter
-
-![smart-me Nimbus 100A – Abbildung 9](/img/produkte-nimbus/09.png)
-
-Anschlussschema mit Erregerneutralleiter
-(Neutralleiter darf deutlich kleiner sein als L1, L2 oder L3)
-
-![smart-me Nimbus 100A – Abbildung 10](/img/produkte-nimbus/10.png)
-
-## Tastenfunktionen
-
-Taste 1 (T1)
-
-Um den Zähler mit einem smart-me Account zu verbinden, wird während der Inbetriebnahme mit der smart-me App die Taste 1 für 10 Sekunden gedrückt. Danach wird ein gerätespezifisches Wifi erstellt mit welchem sich das Mobiltelefon verbinden kann, um die Wifi-Zugangsdaten darauf zu hinterlegen.
-
-Taste 2 (T2)
-
-Mit Taste 2 können Logbuch und Zählerstandsgang geöffnet werden. Um den Zählerstandsgang anzuzeigen muss die Taste 2 für 4 Sekunden gedrückt werden. Danach kann das Passwort eingegeben werden. Die aktuell angewählte wird durch blinken angezeigt. Um diese Ziffer zu ändern kann die Taste 2 kurz gedrückt werden. Nach 10 Sekunden wechselt die Anzeige um eine Stelle nach hinten.
-
-Zugangs-Passwörter haben 4 numerische Stellen.
-
-Ist das Passwort korrekt, wird der letzte Eintrag des Zählerstandsgang angezeigt. Um den nächste Eintrag anzuzeigen muss die Taste 2 kurz gedrückt werden. Wird die Taste 2 für 60 Sekunden nicht gedrückt, wechselt die Anzeige zurück in zur Anzeige des Zählerstandes.
-
-P1 Interface
-
-RJ-12 Steckdose für P1-Module
-
-EX1
-
-Schnittstelle für externe Schützensteuerung (noch nicht Unterstützt)
-
-EX2
-
-Steckplatz für alternative Kommunikationsmodule
-(noch nicht Unterstützt)
-
-L1
-
-Status LED - leuchtet statisch wenn Verbindung zur smart-me Cloud
-
-L2
-
-Impuls LED - zeigt aktuell gemessene Leistung in 10'000 Imp / kWh
-
-Die Impuls-LED kann Wirk- und Blindenergie anzeigen. Für die Umschaltung von Wirk- auf Blindleistung oder umgekehrt muss die Taste T2 10 mal mit einem Abstand von 1 Sek gedrückt werden. Ob aktuell die Wirk- oder Blindleistung auf der LED angezeigt wird, ist auf dem Display auf der untersten Zeile erkennbar.
-
-![smart-me Nimbus 100A – Abbildung 11](/img/produkte-nimbus/11.png)
-
-## P1 Interface (Kundenschnittstelle)
-
-Das P1 Interface des Nimbus ermöglicht es Drittanbietern oder Endkunden die gemessenen Daten in eigenen Steuer- oder Analysessystemen weiterzuverwenden.
-
-Dafür wird ein P1-Schnittstellenauslesemodul mit RJ-12 Stecker benötigt.
-Dieses muss den “P1 Companion Standard” von Netbeheer Nederland. Version 5.0.2 (26.Februar.2016) unterstützen.
-
-Spannung:  5V DC, Höchstlast:  100mA DC, Verstärkte Isolierung gegen Netz
-
-[Mehr erfahren](/schnittstellen/p1-schnittstelle)
-
-## Zubehör
-
-- [Zählersteckklemmen](/drittprodukte/zaehlersteckklemmen-nimbus-100A) - zum einfachen Wechsel von Zählern ohne Stromunterbrechung
-
-## Reinigung
-
-Reinigen Sie das Gehäuse des Gerätes mit einem trockenen Tuch. Verwenden Sie keine chemischen Reinigungsmittel! 
-
-## Wartungs- und Gewährleistungshinweise
-
-Das Gerät ist wartungsfrei. Bei Schäden (z. B. durch Transport, Lagerung) dürfen selbst keine Reparaturen vorgenommen werden. Beim Öffnen des Gerätes erlischt der Gewährleistungsanspruch. Gleiches gilt, falls ein Mangel auf äussere Einflüsse zurückzuführen ist (z. B. Blitz, Wasser, Brand, extreme Temperaturen und Witterungsbedingungen) sowie bei unsachgemässer oder nachlässiger Verwendung bzw. Behandlung. Die Plomben dürfen nur durch autorisierte Personen gebrochen werden! 
-
-## Versandinformationen
-
-Artikelnummer: 242065
-
-Artikelname: smart-me 3-Phasen Zähler Nimbus 100A
-
-Zolltarifnummer: 9028.3019
-
-Dimension und Gewicht ohne Lieferverpackung: 25.5x18x7 \[cm\] / 1.1kg
-
-Hersteller: smart-me AG, Riedstrasse 18, 6343 Rotkreuz
-
-## Inbetriebnahme
-
-[Mehr erfahren](/konfiguration/inbetriebnahme)
 
 ## Downloads und Konformitätserklärung
 

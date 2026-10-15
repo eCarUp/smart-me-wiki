@@ -4,7 +4,7 @@ slug: '/produkte/1-phasen-zaehler'
 description: 'The smart-me Single Phase Meter 80A is an energy meter with an integrated WiFi interface for transmitting real-time data.'
 sidebar_label: 'Single Phase Meter'
 ---
-The smart-me Single Phase Meter 80A is an energy meter with an integrated WiFi interface for transmitting real-time data. The meter synchronises the measured values automatically and encrypted to the smart-me Cloud. The data can be exported to third-party systems and processed further in the smart-me portal or via our open interface. The meter has a digital output for controlling potential-free devices.
+The smart-me Single Phase Meter 80A is an energy meter with an integrated WiFi interface for transmitting real-time data. The meter synchronises the measured values automatically and in encrypted form to the smart-me Cloud. The data can be exported and further processed in the smart-me portal or via our open interface in third-party systems. The meter has a digital output for controlling potential-free devices.
 
 ![Single Phase Meter 80A – Figure 1](/img/produkte-1-phasen-zaehler/01.jpg)
 
@@ -42,25 +42,25 @@ The meter alternately displays different values.
 
 ## Dimensions and Connections
 
-\*.DXF and \*.DWG data can be found in the ZIP archive in the downloads.
+\*.DXF and \*.DWG files can be found in the ZIP archive in the downloads.
 
 ### Dimensions
 
 ![Single Phase Meter 80A – Figure 2](/img/produkte-1-phasen-zaehler/02.png)
 
-### Wiring Diagram
+### Connection Diagram
 
 ![Single Phase Meter 80A – Figure 3](/img/produkte-1-phasen-zaehler/03.png)
 
 ## Button Functions
 
-T(4) button for installation
+T(4) button for the installation
 
-If button T(4) is pressed for 10 seconds, a local WiFi is created for the installation
+If the T(4) button is pressed for 10 seconds, a local WiFi is created for the installation
 
 ## Configuring Inputs and Outputs
 
-The Single Phase Meter 80A has one digital output and one digital input, which can be used as pulse inputs and outputs or as a switchable potential-free contact. You can find details on the wiki page [Inputs and Outputs](/schnittstellen/ein_und_ausgaenge) 
+The Single Phase Meter 80A has a digital output and a digital input, which can be used as pulse inputs and outputs or as a switchable potential-free contact. You can find details on the wiki page [Inputs and Outputs](/schnittstellen/ein_und_ausgaenge) 
 
 ## Shipping Information
 
@@ -69,7 +69,7 @@ Article name: smart-me Meter 1-phasig, 5(80)A
 
 Customs tariff number: 9028.3011
 
-Weight including packaging: 130g
+Weight with packaging: 130g
 
 ## Downloads and Declaration of Conformity
 
@@ -79,7 +79,7 @@ Weight including packaging: 130g
 
 [CE Declaration of Conformity](https://drive.google.com/file/d/10y8f8oD-F35VTPD9ygTtsLqXAIbuyc3S/view?usp=drive_link)
 
-[Wiring diagram ZIP files](https://drive.google.com/file/d/1aY9_dMdLi2RjgHjk9y89Ibd_AIGwMUZW/view?usp=share_link) (\*.DXF and \*.DWG data can be found in the ZIP archive)
+[Connection diagram ZIP files](https://drive.google.com/file/d/1aY9_dMdLi2RjgHjk9y89Ibd_AIGwMUZW/view?usp=share_link) (\*.DXF and \*.DWG files can be found in the ZIP archive)
 
 [Quick Starter](https://docs.google.com/document/d/1XNv61P1L0gXvgaCT4bvFbou8h6rOBkNjgkRk9sUTS60/export?format=pdf)
 
@@ -97,6 +97,6 @@ Weight including packaging: 130g
 <details id="kann-ich-den-zählerstand-auf-null-zurücksetzten">
 <summary>Can I reset the meter reading to zero?</summary>
 
-No. Our meters are used for billing, so they cannot be reset.
+No. Our meters are used for billing, so it is not possible to reset them.
 
 </details>

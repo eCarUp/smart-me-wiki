@@ -1,12 +1,12 @@
 ---
 title: 'zerofy'
 slug: '/drittsysteme/zerofy'
-description: 'Zerofy est un système de gestion de l''énergie domestique (HEMS) basé sur le cloud.'
+description: 'Zerofy est un système de gestion de l''énergie domestique (HEMS) basé dans le cloud.'
 sidebar_label: 'zerofy'
 ---
-Zerofy est un système de gestion de l'énergie domestique (HEMS) basé sur le cloud. Zerofy optimise la consommation d'énergie du foyer, l'utilisation de l'électricité solaire et la recharge des véhicules électriques grâce à des algorithmes intelligents.
+Zerofy est un système de gestion de l'énergie domestique (HEMS) basé dans le cloud. Zerofy optimise la consommation d'énergie du ménage, l'utilisation de l'électricité solaire et la recharge des véhicules électriques grâce à des algorithmes intelligents.
 
-Il s'intègre aux compteurs smart-me afin de commuter des appareils en cas d'excédent solaire et de suivre la consommation ainsi que la production.
+Il s'intègre aux compteurs smart-me pour commuter des appareils en cas d'excédent solaire et pour suivre la consommation ainsi que la production.
 
 Public cible : maisons individuelles / utilisateurs smart-me disposant d'un compte.
 
@@ -16,7 +16,7 @@ Plateformes : iOS et Android.
 
 Fonctionnalités :
 
-- S'intègre à une large gamme d'onduleurs solaires, de chargeurs et de véhicules électriques, d'appareils de chauffage, de ventilation et de climatisation ainsi que d'appareils électroménagers intelligents et de prises connectées.
+- S'intègre à une large gamme d'onduleurs solaires, de chargeurs et de véhicules électriques, d'appareils de chauffage, de ventilation et de climatisation, ainsi que d'appareils électroménagers intelligents et de prises connectées.
 
 - Pour connecter les appareils, il suffit de se connecter aux comptes cloud des appareils.
 

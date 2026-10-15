@@ -2,28 +2,31 @@
 title: 'Formatting CSV Numbers Correctly'
 slug: '/stoerungsbehebung/csv-zahlen-richtig-formatieren'
 description: 'You open a CSV file in Excel and the numbers...'
-sidebar_label: 'Formatting CSV numbers correctly'
+sidebar_label: 'Format CSV numbers correctly'
 ---
 ### General
 
 You open a CSV file in Excel and the numbers... look broken.
 
-The problem is almost always the worldwide mix of separators (the battle between 1.000,50, 1,000.50, 1'000.50 and 1000.50). Unfortunately, Excel is somewhat stubborn here and expects an import format that matches your regional system settings exactly.
+The problem is almost always the global mix-up of separators (the battle between 1.000,50, 1,000.50, 1'000.50 and 1000.50). Unfortunately, Excel is somewhat stubborn here and expects a format on import that matches your regional system settings exactly.
 
-Because the smart-me system cannot yet export the perfect CSV format for every region, a manual adjustment in Excel is sometimes necessary.
+Since our smart-me system cannot yet export the perfect CSV format for every single region, a manual adjustment in Excel is sometimes necessary.
 
-Below you will find two simple solutions to make sure Excel displays your data correctly.
+Below are two simple solutions to make sure Excel displays your data correctly.
 
-### Editing the CSV with Find/Replace
+### Edit CSV with Find/Replace
 
 - Select all values that are formatted incorrectly.
 
 - Press Ctrl+H
 
 
-![Formatting CSV numbers correctly – Figure 1](/img/stoerungsbehebung-csv-zahlen-richtig-formatieren/01.png)
+![Formatting CSV Numbers Correctly – Figure 1](/img/stoerungsbehebung-csv-zahlen-richtig-formatieren/01.png)
 
-### Editing the CSV with Find/Replace
+### Edit CSV with Find/Replace
+
+<div className="row">
+<div className="col col--4">
 
 - Press Ctrl+H
 
@@ -39,10 +42,15 @@ Below you will find two simple solutions to make sure Excel displays your data c
 
 - Replace All
 
+</div>
+<div className="col col--8 text--center">
 
-![Formatting CSV numbers correctly – Figure 2](/img/stoerungsbehebung-csv-zahlen-richtig-formatieren/02.png)
+![Formatting CSV Numbers Correctly – Figure 2](/img/stoerungsbehebung-csv-zahlen-richtig-formatieren/02.png)
 
-### Changing the number separators in Excel.
+</div>
+</div>
+
+### Change the number separators in Excel.
 
 - File
 
@@ -57,4 +65,4 @@ Below you will find two simple solutions to make sure Excel displays your data c
     - Thousands separator .  (period)
 
 
-![Formatting CSV numbers correctly – Figure 3](/img/stoerungsbehebung-csv-zahlen-richtig-formatieren/03.png)
+![Formatting CSV Numbers Correctly – Figure 3](/img/stoerungsbehebung-csv-zahlen-richtig-formatieren/03.png)

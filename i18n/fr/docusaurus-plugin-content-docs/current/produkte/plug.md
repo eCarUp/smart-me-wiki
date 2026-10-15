@@ -1,15 +1,15 @@
 ---
 title: 'Plug'
 slug: '/produkte/plug'
-description: 'Le smart-me Plug est à la fois un appareil de mesure de l''électricité, un thermostat et une minuterie.'
+description: 'Le Plug smart-me réunit en un seul appareil un instrument de mesure de l''électricité, un thermostat et une minuterie.'
 sidebar_label: 'Plug'
 displayed_sidebar: wikiSidebar
 ---
-Le smart-me Plug est à la fois un appareil de mesure de l'électricité, un thermostat et une minuterie. De plus, le Plug peut être commandé et surveillé via le portail web ou l'application. Pour cela, l'appareil se connecte à Internet via le réseau WLAN local. 
+Le Plug smart-me réunit en un seul appareil un instrument de mesure de l'électricité, un thermostat et une minuterie. De plus, le Plug peut être commandé et surveillé via le portail web ou l'application. Pour cela, l'appareil se connecte à Internet via le réseau WLAN local. 
 
 Vente arrêtée le 30.03.2021
 Support technique arrêté le 30.03.2025
-Matériel et fonctions cloud : fonctionnement toujours garanti
+Matériel et fonctions cloud : le fonctionnement reste assuré
 
 ![Plug – Illustration 1](/img/produkte-plug/01.jpg)
 
@@ -26,22 +26,22 @@ Disponible en versions Europe, Suisse et Grande-Bretagne.
 
 ## Fonctions
 
-- Appareil de mesure de l'énergie : outre la puissance actuelle, le smart-me Plug mesure l'énergie, le courant, la tension et le facteur de puissance. smart-me garantit une précision de 99% (erreur max. 1%).
+- Appareil de mesure de l'énergie : outre la puissance actuelle, le Plug smart-me mesure l'énergie, le courant, la tension et le facteur de puissance. smart-me garantit une précision de 99% (erreur max. de 1%).
 
 - Appareil de mesure de la température : surveillez la température en direct et analysez les données historiques.
 
-- Interrupteur à distance : allumez ou éteignez le courant via l'application ou le portail web. 
+- Interrupteur à distance : allumez ou coupez le courant via l'application ou le portail web. 
 
 - Minuterie : définissez l'heure à laquelle le Plug doit commuter. 
 
-- Connexion directe et chiffrée au smart-me Cloud (WiFi)
+- Connexion directe et chiffrée au cloud smart-me (WiFi)
 
-- Gestion complète de l'énergie dans le smart-me Cloud : 
+- Gestion complète de l'énergie dans le cloud smart-me : 
 
 
-- -   -   Monitoring en temps réel
+- -   -   Surveillance en temps réel
 
-        - Commande avec des actions déclenchées par un événement et des actions si/alors
+        - Commande par actions déclenchées par un événement et actions si/alors
 
     - Installation simple avec l'application smart-me gratuite pour Android et iOS
 
@@ -50,7 +50,7 @@ Disponible en versions Europe, Suisse et Grande-Bretagne.
 
 Vidéo d'installation
 
-## Données techniques
+## Caractéristiques techniques
 
 Tension (U) 110V - 230V
 

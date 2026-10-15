@@ -141,22 +141,18 @@ Das verhalten des Display ist auf der Seite [Pico Anzeige](/produkte/pico-ladest
 
 ### Anschlussschema
 
-L1: Phase 1
-
-L2: Phase 2
-
-L3: Phase 3
-
-N: Neutralleiter / Nullleiter
-
-PE: Schutzleiter
+- L1: Phase 1
+- L2: Phase 2
+- L3: Phase 3
+- N: Neutralleiter / Nullleiter
+- PE: Schutzleiter
 
 Der Schutzleiter sollte an der oberen Anschlussschraube angehängt werden damit der Standfuss direkt zusammen mit der Station geerdet wird.
 
-Achtung:
+**Achtung:**
 Das Produkt kann nur in 3-Phasen Sternschaltung oder 1-phasig betrieben werden!
 
-Kabelführungen
+#### Kabelführungen
 
 Die Kabel können bei Pico an 5 Stellen ein- und ausgeführt werden. 
 
@@ -338,11 +334,12 @@ Nein, da unsere Zähler für Abrechnungen verwendet werden, ist es nicht möglic
 
 ## Installationshandbuch, Downloads und Konformitätserklärung
 
-Datenblatt
+### Datenblatt
+[Deutsch](https://docs.google.com/presentation/d/1tq5HPM2mc4Br8264vKs_yjMv4HauvtQM0A0DY87EMks/export/pdf)
 
 [Englisch](https://docs.google.com/presentation/d/1TPUl4Yk2u3fwl8zy6TWZ7TcwLpEe6Yzkx-jUVWnAl7k/export/pdf)
 
-Technische Dokumente
+### Technische Dokumente
 
 [Pico Quickstarter](https://docs.google.com/document/d/1jRLrb7J9hg7yreVMQyvvFeWXF4lVsgWtSucW4cy1XLk/export?format=pdf) 
 

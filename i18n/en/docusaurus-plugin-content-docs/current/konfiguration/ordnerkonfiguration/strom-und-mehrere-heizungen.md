@@ -15,21 +15,21 @@ Disadvantage:
 
 - No automatic billing for electricity
 
-- Electricity tariffs have to be entered multiple times (per property)
+- Electricity tariffs must be entered multiple times (per property)
 
 
-### Electricity with or without e-mobility and multi-energy with several buildings and individual heating systems. (Housing development)
+### Electricity with or without e-mobility and multi-energy with several buildings and individual heating systems (housing development)
 
-Relevant for ZEVs with electricity meters, multi-energy meters, several buildings and optional charging stations.
+Relevant for ZEVs (associations for own consumption) with electricity meters, multi-energy meters, several buildings and optionally charging stations.
 
-For sites with several buildings and individual heating systems, create one property per heating system. So if three buildings have different heating systems, the configuration must be carried out according to 3c.
+For sites with several buildings and individual heating systems, create one property per heating system. So if three buildings have different heating systems, set up the configuration as described in 3c.
 
 Note:
-If only one building has an individual heating system and the other two share a central heating system, two properties that group the consumers accordingly are sufficient.
+If only one building has its own heating system and the other two share a central heating system, two properties that group the consumers accordingly are sufficient.
 
 Example:
-Three buildings named Altgasse 13, Altgasse 15+17, Altgasse 19.
-Each has its own heat pump for heating and domestic hot water preparation.
+Three buildings named Altgasse 13, Altgasse 15+17 and Altgasse 19.
+Each has its own heat pump for heating and domestic hot water.
 
 3c. Basic structure
 
@@ -45,15 +45,15 @@ Electricity / heat / water
 
 Only assign metering points directly to billing units if the invoice recipient will later have to pay 100% of the consumption.
 
-If you only want to assign a meter to part of an individual billing unit, move the meter into a node within the "Technical meters" ("Technischen Zähler") node.
+If you only want to assign part of a meter to an individual billing unit, move the meter into a node within the "Technical meters" ("Technischen Zähler") node.
 
-Later, such a meter can be distributed by percentage in Billing.
+Such a meter can later be split by percentage in Billing.
 
 Examples:
 
 - Common area meter
 
-- Heat meter of a floor that serves 4 billing units
+- Heat meter for a floor that serves 4 billing units
 
 
 Charging stations with smart-me Pico / Zaptec / Easee
@@ -62,7 +62,7 @@ Do not assign charging stations directly to apartments; instead, create a separa
 
 Charging stations from other manufacturers
 
-Charging stations from other manufacturers are not managed or billed directly in smart-me. In this case, create a node for the e-mobility feeder and assign the feeder meter to the node. This gives you the total consumption of all charging stations.
+Charging stations from other manufacturers are not managed or billed directly in smart-me. In this case, create a node for the e-mobility feeder and assign the feeder meter to that node. This gives you the total consumption of all charging stations.
 
 
 
@@ -72,11 +72,11 @@ Charging stations from other manufacturers are not managed or billed directly in
 
 ### Finally, create the alarms for a connection failure.
 
-This way, you notice early when a meter fails and minimize the resulting gap in the measurement data. 
+This way, you will notice early if a meter fails and minimize the resulting gap in the measurement data. 
 
 ### Next step
 
-[Continue to creating the alarms](/konfiguration/wenndann-aktionen/alarme)
+[Continue to creating alarms](/konfiguration/wenndann-aktionen/alarme)
 
 ## Configuration with automatic electricity billing
 
@@ -87,11 +87,11 @@ Advantage:
 
 - Automatic billing for electricity
 
-- No need to enter electricity tariffs twice
+- No duplicate entry of electricity tariffs
 
 Disadvantage:
 
-- Tenant contracts have to be entered multiple times
+- Tenant contracts must be entered multiple times
 
 For this configuration, an additional property for electricity only must be created, containing all apartments of the three buildings.
 
@@ -107,8 +107,8 @@ Only the electricity meters are assigned in this property.
 
 ### Finally, create the alarms for a connection failure.
 
-This way, you notice early when a meter fails and minimize the resulting gap in the measurement data. 
+This way, you will notice early if a meter fails and minimize the resulting gap in the measurement data. 
 
 ### Next step
 
-[Continue to creating the alarms](/konfiguration/wenndann-aktionen/alarme)
+[Continue to creating alarms](/konfiguration/wenndann-aktionen/alarme)

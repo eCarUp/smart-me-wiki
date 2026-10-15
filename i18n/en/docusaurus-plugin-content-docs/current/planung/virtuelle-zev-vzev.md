@@ -1,14 +1,14 @@
 ---
 title: 'Virtual ZEV (vZEV)'
 slug: '/planung/virtuelle-zev-vzev'
-description: '0:00 Introduction to the vZEV webinar'
+description: '0:00 Introduction webinar vZEV'
 sidebar_label: 'Virtual ZEV (vZEV)'
 ---
 <Video src="cTF9C7b3QwU" title="YouTube video, webinar recording «Implementing a virtual ZEV (vZEV) with smart-me»" />
 
-[0:00](https://www.youtube.com/watch?v=cTF9C7b3QwU&t=0s) Introduction to the vZEV webinar
+[0:00](https://www.youtube.com/watch?v=cTF9C7b3QwU&t=0s) Introduction webinar vZEV
 
-[03:47](https://www.youtube.com/watch?v=cTF9C7b3QwU&t=227s) Metering infrastructure that can be used for a vZEV
+[03:47](https://www.youtube.com/watch?v=cTF9C7b3QwU&t=227s) Usable metering infrastructure for vZEV
 
 [16:00](https://www.youtube.com/watch?v=cTF9C7b3QwU&t=960s) Self-consumption models
 
@@ -20,45 +20,57 @@ sidebar_label: 'Virtual ZEV (vZEV)'
 
 ## The virtual association for own consumption - vZEV
 
-A vZEV is an association for own consumption that includes the grid. Unlike a conventional ZEV (association for own consumption), where all buildings must share one and the same grid connection, a vZEV makes it possible to combine several grid connections on one and the same low-voltage transformer (&lt; 1kV).
+A vZEV (virtual ZEV) corresponds to an association for own consumption that includes the grid. Unlike a conventional ZEV (association for own consumption), where all buildings must share one and the same grid connection, a vZEV makes it possible to combine several grid connections on one and the same low-voltage transformer (&lt; 1kV).
 
-In addition to this basic requirement, further points must be clarified to determine whether, and with whom in the neighbourhood, a vZEV can be set up.
+Besides this basic requirement, further points need to be clarified as to whether and with whom in the neighbourhood a vZEV can be set up.
 
 These include:
 
 - the actual grid topology
 
-- connection types (sleeve-joint grids or distribution cabinets)
+- connection types (cable-joint networks or distribution cabinets)
 
-### Step 1: Initial vZEV assessment
+### Step 1: Initial vZEV clarification
 
-This initial assessment of these topics is requested directly from the distribution system operator (DSO).
+This initial clarification of these topics is requested directly from the distribution system operator (DSO).
 
-Afterwards it is clear whether a vZEV is possible and, if so, with which participants.
+Afterwards it becomes clear whether a vZEV is possible and, if so, with which participants.
 
 The DSO must provide this information, with a positive or negative response and the reasons, within 14 days at the latest.
 
 ### Step 2: Determine participants and apply for the vZEV
 
-In a second step, interest must be assessed. Notify the potential participants of the opportunity to participate in the vZEV.
+<div className="row">
+<div className="col col--7">
+
+In a second step, interest must be assessed. You notify the potential participants of the opportunity to take part in the vZEV.
 Both the information provided and the positive responses should be recorded in writing, with signatures confirming participation.
-These will be needed later for the data transfer authorisation, as well as attachments to contracts and other documents.
+These will be needed later for the data transfer authorization, as well as attachments to contracts and other documents.
 
-At this point, an official vZEV registration including all interested parties must be submitted to the DSO. Within 3 months, further points regarding the vZEV are checked and completed.
+At this point, an official vZEV registration listing all interested parties must be submitted to the DSO. Within 3 months, further points regarding the vZEV are checked and completed.
 
-- The production capacity must be at least 10% of the consumption capacity.
+- The production capacity must amount to at least 10% of the consumption capacity.
 
-- Are all participants located behind the same connection point at low-voltage level?
+- Are all participants located behind the same connection point at the low-voltage level?
 
-- Are smart meters already installed at all locations or not? (If not, they must be retrofitted.)
+- Are smart meters already installed at all locations or not? (If not, they must be retrofitted)
 
-- Is additional hardware available for reading the metering points locally, and/or is there an application for SDTA transmission via Swisseldex?
+- Is further hardware available for local reading of the metering points, and/or is an application for SDTA transfer via Swisseldex in place?
 
-Once all of the above points have been fulfilled and after about 3 months, the vZEV can start operating.
+Once all of the above points have been met and around 3 months have passed, the vZEV can begin operation.
+
+</div>
+<div className="col col--5 text--center">
 
 ![Virtual ZEV (vZEV) – Figure 1](/img/planung-virtuelle-zev-vzev/01.png)
 
+</div>
+</div>
+
 ## Previous model landscape
+
+<div className="row">
+<div className="col col--6">
 
 ZEV: association for own consumption 
 
@@ -66,7 +78,7 @@ ZEV: association for own consumption
 
 - Private billing
 
-- DSO meter at the feed-in point, invoiced by the DSO
+- DSO meter at the feed-in point, with invoice from the DSO
 
 DSO model:
 
@@ -78,23 +90,41 @@ DSO model:
 
 Standard consumers:
 
-- Electricity consumers supplied by the DSO as a house or apartment in a single-family or multi-family house
+- Electricity consumers supplied by the DSO, as a house or apartment in a single-family or multi-family house
+
+</div>
+<div className="col col--6 text--center">
 
 ![Virtual ZEV (vZEV) – Figure 2](/img/planung-virtuelle-zev-vzev/02.png)
+
+</div>
+</div>
 
 ## vZEV models
 
 ### Single-building vZEV (virtually balanced ZEV)
 
+<div className="row">
+<div className="col col--6">
+
 A building shares a common house connection.
 
-Switching from the DSO model to a vZEV is easy.
+Switching from the DSO model to a vZEV is easily possible.
 
-In principle, the previous DSO model is simply managed and billed privately as a vZEV and is thus detached from the services of the DSO.
+In principle, the previous DSO model is thus simply managed and billed privately as a vZEV and is therefore detached from the services of the DSO.
+
+</div>
+<div className="col col--6 text--center">
 
 ![Virtual ZEV (vZEV) – Figure 3](/img/planung-virtuelle-zev-vzev/03.png)
 
+</div>
+</div>
+
 ### Multi-building vZEV (extended vZEV)
+
+<div className="row">
+<div className="col col--7">
 
 Several ZEVs or buildings with their own grid connection share the same low-voltage connection (&lt;1kV)
 
@@ -106,33 +136,66 @@ But not to the single-family house, as it is located outside the approved topolo
 
 The topology requirements for eligible participation in the vZEV are defined in more detail below.
 
+</div>
+<div className="col col--5 text--center">
+
 ![Virtual ZEV (vZEV) – Figure 4](/img/planung-virtuelle-zev-vzev/04.png)
+
+</div>
+</div>
 
 ### Grid topologies for setting up an extended vZEV
 
-Same busbar or distribution box at low-voltage level (&lt; 1kV)
+<div className="row">
+<div className="col col--6">
 
-All buildings are connected to the same distribution box or the same busbar at low-voltage level NE7.
+Same busbar or distribution box at the low-voltage level (&lt; 1kV)
+
+All buildings are connected to the same distribution box or the same busbar at low-voltage grid level NE7.
+
+</div>
+<div className="col col--6 text--center">
 
 ![Virtual ZEV (vZEV) – Figure 5](/img/planung-virtuelle-zev-vzev/05.png)
 
+</div>
+</div>
+
+<div className="row">
+<div className="col col--6">
+
 Same busbar on the low-voltage side of the grid transformer (&lt;1kV)
 
-All buildings are connected to the same transformer and to the same busbar at low-voltage level.
+All buildings are connected to the same transformer and are connected to the same busbar at the low-voltage level.
+
+</div>
+<div className="col col--6 text--center">
 
 ![Virtual ZEV (vZEV) – Figure 6](/img/planung-virtuelle-zev-vzev/06.png)
 
-Sleeve-joint grids
-An extended vZEV across several buildings is only possible if the buildings share the same sleeve joint
+</div>
+</div>
+
+<div className="row">
+<div className="col col--6">
+
+Cable-joint networks
+An extended vZEV across several buildings is only possible if the buildings share the same cable joint
 (very rarely the case)
 
 However, setting up a vZEV for a single building is always possible.
 
+</div>
+<div className="col col--6 text--center">
+
 ![Virtual ZEV (vZEV) – Figure 7](/img/planung-virtuelle-zev-vzev/07.png)
+
+</div>
+</div>
 
 ## Possible members of a vZEV and the required metering technology
 
-In a vZEV, different infrastructures from the grid operator and from the private sector can come together. Metering for the different buildings can be provided in different ways and is combined in the vZEV into a uniform tariff model.
+In a vZEV, different infrastructures from the grid operator and from private settings can come together. The metering of the various buildings can be provided in different ways and is combined in the vZEV into a uniform tariff model.
 
 - Former practice model (DSO)
 
@@ -146,22 +209,22 @@ In a vZEV, different infrastructures from the grid operator and from the private
 
 ## Meter infrastructure for the smart-me vZEV tariff model
 
-Tariffing in a vZEV is based on equal treatment of the participants. All participants have an equal claim to the solar power currently being produced.
+Tariffing in a vZEV is based on equal rights for all participants. All participants have an equal claim to the solar power currently being produced.
 
-For the different models to be tariffed together successfully, selected meter units are required so they can be stored as references in our tariff.
+For the different models to be tariffed together successfully, selected meter units are required, which are stored as references in our tariff.
 
-The figure below shows all relevant metering points required for correct balancing and tariffing for each infrastructure.
+The following image shows all relevant metering points required for correct balancing and tariffing for each infrastructure.
 
 ![Virtual ZEV (vZEV) – Figure 9](/img/planung-virtuelle-zev-vzev/09.png)
 
-### Ex-practice model (privatised ex-DSO model converted to a vZEV)
+### Former practice model (privatized former DSO model converted to a vZEV)
 
-In this model there is no metering point serving as a balancing meter, neither from the energy supplier nor private. This ZEV is therefore balanced virtually.
-This requires metering all producers and all consumers. The model works as a single building, but also as part of an extended vZEV.
+In this model, there is no metering point serving as a balancing meter, neither from the energy supplier nor a private one. This ZEV is therefore balanced virtually.
+This requires metering of all producers and all consumers. The model works as a single building, but also as part of an extended vZEV.
 
 ### Private ZEV (with balancing meter)
 
-In this model there is at least one metering point of the energy supplier at the main connection point of the ZEV. The data from this metering point can be imported into smart-me either via a private sub-metering or via the energy supplier's data hub.
+In this model, there is at least one metering point of the energy supplier at the main connection point of the ZEV. The data from this metering point can be imported into smart-me either via private sub-metering or via the data hub of the energy supplier.
 
 Private sub-metering enables efficient real-time control of the ZEV, which is only possible to a limited extent with the energy supplier's meter.
 
@@ -169,32 +232,32 @@ Private sub-metering enables efficient real-time control of the ZEV, which is on
 
 ### House with solar production (single-family house)
 
-In this model there is at least one metering point of the energy supplier at the main connection point and, in some cases, also a production meter.
+In this model, there is at least one metering point of the energy supplier at the main connection point and, in some cases, also a production meter.
 Tariffing a terraced house is possible without a solar production meter. Ideally, however, the solar production of the terraced house is also metered, either by the DSO or privately.
 This data can be collected by metering with a smart-me Telstar as private metering, or as a data hub import via Swisseldex.
 
 ### House or apartment without solar production (single-family house)
 
-In this model there is at least one metering point of the energy supplier at the house connection. The data of these consumers can be collected as a data hub import via Swisseldex.
+In this model, there is at least one metering point of the energy supplier at the house connection. The data of these consumers can be collected as a data hub import via Swisseldex.
 
-A multi-family house without a solar system but with private metering follows the metering infrastructure of a ZEV without production.
+A multi-family house without a solar system but with private metering follows the metering infrastructure of the ZEV without production.
 
 [Details on configuring vZEV tariffs](/konfiguration/billing/stromtarife-definieren)
 
 ## Plan your project now with our configurator
 
-Based on your input, the Projektkonfigurator creates a bill of materials from all smart-me products, the number of metering points and a visual diagram for checking.
+Based on your input, the Projektkonfigurator creates the bill of materials from all smart-me products, the number of metering points and a visual schematic for review.
 
 Ideal for planners and electrical professionals.
 
 [Projektkonfigurator](/planung/Projektkonfigurator)
 
-## Metering data import for energy supplier metering points
+## Metering data import for metering points of energy suppliers
 
 The metering data of the relevant metering points can be imported via the Swisseldex data hub.
-smart-me is listed with Swisseldex as a recipient of this data 
+Smart-me is listed with Swisseldex as a recipient of this data 
 
-Upon request and authorisation, the energy suppliers send the data via Swisseldex to the smart-me import data hub. The data can then be managed, visualised and billed in the respective smart-me account.
+Upon request and authorization, the energy suppliers send the data via Swisseldex to the smart-me import data hub. The data can then be managed, visualized and billed in the respective smart-me account.
 
 Properties of the energy suppliers' data:
 
@@ -206,18 +269,18 @@ Properties of the energy suppliers' data:
 
 - Provided approx. every 30 days, verified
 
-You can find detailed instructions for the data import here: [Details on the Swisseldex import](/schnittstellen/swisseldex-sdat-import)
+Here you will find detailed instructions on the data import: [Details on the Swisseldex import](/schnittstellen/swisseldex-sdat-import)
 
 ![Virtual ZEV (vZEV) – Figure 10](/img/planung-virtuelle-zev-vzev/10.png)
 
 ## FAQ
 
 <details id="kann-ein-vzev-in-einem-muffennetz-entstehen">
-<summary>Can a vZEV be set up in a sleeve-joint grid?</summary>
+<summary>Can a vZEV be set up in a cable-joint network?</summary>
 
 Yes, it is possible, but the requirements for it are only very rarely met.
 
-For a vZEV to be set up in a sleeve-joint grid, all buildings must share exactly the same sleeve joint. Otherwise, the public grid between one sleeve joint and the next is included, which no longer complies with the vZEV regulations.
+For a vZEV to be set up in a cable-joint network, all buildings must share exactly the same cable joint. Otherwise, the public grid between one joint and the next is included, which no longer complies with the vZEV regulations.
 
 </details>
 
@@ -225,22 +288,22 @@ For a vZEV to be set up in a sleeve-joint grid, all buildings must share exactly
 <summary>Can a building without a solar system join a vZEV and replace the DSO meters with private meters?</summary>
 
 Yes, for the in-house production and consumption metering.
-Within the established vZEV, the vZEV operator is independently responsible for metering and billing. This also implies that the vZEV operator can use the metering equipment of their choice for the entire vZEV.
+Within the established vZEV, the vZEV operator is independently responsible for metering and billing. This therefore also implies that the vZEV operator can use the metering equipment of their choice for the entire vZEV.
 
-However, the distribution system operator naturally also needs metering points of its own for counter-metering and balancing the vZEV. It must set these accordingly.
+Of course, the distribution system operator also needs metering points of its own for counter-metering and balancing the vZEV. It must set these accordingly.
 
 If a multi-family house without a solar system now wants to join the vZEV, a private meter can be installed for each billing unit. The distribution system operator must then, however, set a metering point at the house connection accordingly.
 
 </details>
 
 <details id="ist-eine-verschachtelung-von-mehreren-zev-in-einer-vzev-möglich">
-<summary>Is it possible to nest several ZEVs within a vZEV?</summary>
+<summary>Is it possible to nest several ZEVs within one vZEV?</summary>
 
 Yes and no.
 
-It is possible to set up a vZEV from two existing ZEVs on the same transformer connection.
+It is possible to establish a vZEV from two existing ZEVs on the same transformer connection.
 However, it is not possible for the two ZEVs to continue to exist individually in legal terms.
-From a legal point of view, these two ZEVs become a single (v)ZEV.
+Legally, these two ZEVs become a single (v)ZEV.
 
 The two ZEVs are therefore legally dissolved and replaced by one (v)ZEV.
 
@@ -253,13 +316,13 @@ Yes and no.
 
 It is regulated in exactly the same way as for the ZEV.
 
-The tariff structure within a ZEV or a vZEV may be regulated privately and differ from the offer of the distribution system operator.
-However, the legal principles of the ZEV regarding pricing still apply.
+The tariff structure within a ZEV or a vZEV may be regulated independently under private law and may differ from the offering of the distribution system operator.
+However, the legal principles of the ZEV regarding pricing continue to apply.
 
 Example:
 If grid electricity is charged as a single tariff with a demand tariff, it may also be decided within the ZEV or vZEV to offer only a single tariff or a dual tariff.
 However, it must be ensured that, regardless of the tariffing chosen, no more money is collected than the grid electricity actually cost.
 
-The internal solar power must also follow the rules and, depending on the rule applied, may not cost more than 80% to a max. of 100% of the equivalent grid electricity.
+Internal solar power must also follow the rules and, depending on the rule applied, may not cost more than 80% to a maximum of 100% of the equivalent grid electricity.
 
 </details>

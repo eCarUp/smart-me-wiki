@@ -4,27 +4,27 @@ slug: '/produkte/Telstar-CT'
 description: 'Le smart-me Telstar CT est un compteur d''énergie certifié MID doté d''une interface WiFi intégrée pour la transmission de données en temps réel et d''un raccordement pour transformateurs externes.'
 sidebar_label: 'Compteur triphasé Telstar CT'
 ---
-Le smart-me Telstar CT est un compteur d'énergie certifié MID doté d'une interface WiFi intégrée pour la transmission de données en temps réel et d'un raccordement pour transformateurs externes. Le compteur synchronise automatiquement les valeurs mesurées, sous forme chiffrée, dans le smart-me Cloud. Les données peuvent être exportées et traitées dans le portail smart-me ou, via notre interface ouverte, dans des systèmes tiers. Le compteur dispose de deux sorties numériques pour la commande d'appareils à contact sec.
+Le smart-me Telstar CT est un compteur d'énergie certifié MID doté d'une interface WiFi intégrée pour la transmission de données en temps réel et d'un raccordement pour transformateurs externes. Le compteur synchronise automatiquement les valeurs mesurées, sous forme chiffrée, dans le smart-me Cloud. Les données peuvent être exportées et traitées dans le portail smart-me ou, via notre interface ouverte, dans des systèmes tiers. Le compteur dispose de deux sorties numériques pour commander des appareils à contact sec.
 
-![Compteur d'énergie triphasé Telstar CT – Illustration 1](/img/produkte-telstar-ct/01.png)
+![Compteur d'énergie triphasé Telstar CT – figure 1](/img/produkte-telstar-ct/01.png)
 
-[Transformateurs et accessoires](/drittprodukte/Stromwandler)
+[Transformateurs et accessoires pour le Telstar CT](/drittprodukte/Stromwandler)
 
 ## Fonctions
 
-- [Installation](/konfiguration/inbetriebnahme) avec l'application smart-me gratuite.
+- [Installation](/konfiguration/inbetriebnahme) avec l'app smart-me gratuite.
 
 - Raccordement pour [transformateurs externes](/) avec des courants de sortie de 0.01A à 6A
 
 - Facturation avec le [smart-me Billing Tool](/konfiguration/billing)
 
-- Commande avec des [actions si/alors](/konfiguration/wenndann-aktionen) ou des [actions déclenchées par un événement](/konfiguration/wenndann-aktionen/ereignisaktionen)
+- Commande par [actions si/alors](/konfiguration/wenndann-aktionen) ou [actions déclenchées par un événement](/konfiguration/wenndann-aktionen/ereignisaktionen)
 
 - [Visualisations](/konfiguration/visualisierung)
 
-- [Sorties à contact sec](/schnittstellen/ein_und_ausgaenge) pour la commande d'appareils externes, dont une avec relais 8A
+- [Sorties à contact sec](/schnittstellen/ein_und_ausgaenge) pour commander des appareils externes, dont une avec relais 8A
 
-- Entrée à contact sec pour le signal tarifaire ou [entrée numérique](/schnittstellen/ein_und_ausgaenge)
+- Entrée à contact sec pour signal tarifaire ou [entrée numérique](/schnittstellen/ein_und_ausgaenge)
 
 - [Interfaces](/) via API, CSV, MSCONS et IS-E
 
@@ -36,9 +36,9 @@ Le smart-me Telstar CT est un compteur d'énergie certifié MID doté d'une inte
 
 ## Exigences techniques relatives aux transformateurs
 
-Le Telstar CT peut être utilisé avec les transformateurs de courant les plus divers. Les exigences de base sont les suivantes :
+Les transformateurs de courant les plus divers peuvent être utilisés avec le Telstar CT. Les exigences de base sont les suivantes :
 
-- Rapport de transformation : 1:1 à 20'000:1 à 5:5 à 20'000:5
+- Rapport de transformation : 1:1 à 20'000:1 jusqu'à 5:5 à 20'000:5
     Le nombre secondaire peut être un nombre entier quelconque entre 1 et 5.
     Le nombre primaire un nombre entier quelconque entre 1 et 20'000.
 
@@ -50,85 +50,97 @@ Le Telstar CT peut être utilisé avec les transformateurs de courant les plus d
 
 - Classe de précision : 1 ou meilleure\*
 
-\*Si les compteurs doivent être utilisés pour la facturation, des transformateurs étalonnés satisfaisant au moins à la classe 0.5 ou inférieure sont nécessaires.
+\*Si les compteurs doivent servir à la facturation, des transformateurs étalonnés satisfaisant au moins à la classe 0.5 ou inférieure sont nécessaires.
 
-Vous trouverez des recommandations pour les transformateurs et accessoires sur la page : [Transformateurs de courant et accessoires](/drittprodukte/Stromwandler) 
+Vous trouverez des recommandations de transformateurs et d'accessoires sur la page : [Transformateurs de courant et accessoires](/drittprodukte/Stromwandler) 
 
 ## Écran
 
-Valeur / Symbole Description
+<div className="row">
+<div className="col col--6">
 
-1.8.1 Code OBIS du relevé du compteur affiché
+Valeur / symbole Description
 
-T1 Tarif actif (tarif 1 ou tarif 2)
+- 1.8.1 code OBIS du relevé du compteur affiché
 
-Flèche Sens du courant (à droite soutirage / à gauche injection)
+- T1 tarif actif (tarif 1 ou tarif 2)
 
-Réception (barres) Puissance du signal WiFi
+- Flèche sens du courant (à droite soutirage / à gauche injection)
 
-0000053.2 Relevé du compteur
+- Réception (barres) intensité du signal WiFi
 
-5520W Puissance mesurée instantanée avec unité
+- 0000053.2 relevé du compteur
 
-kWh Unité du relevé du compteur affiché
+- 5520W puissance mesurée instantanée avec unité
 
-M Fonction qui n'est plus utilisée (peut être ignorée)
+- kWh unité du relevé du compteur affiché
 
-![Compteur d'énergie triphasé Telstar CT – Illustration 2](/img/produkte-telstar-ct/02.png)
+- M fonction qui n'est plus utilisée (peut être ignorée)
 
-Le compteur dispose d'un affichage déroulant. Les points décrits ci-dessous s'affichent l'un après l'autre. Après le dernier point, le premier point s'affiche à nouveau.
+</div>
+<div className="col col--6 text--center">
+
+![Compteur d'énergie triphasé Telstar CT – figure 2](/img/produkte-telstar-ct/02.png)
+
+</div>
+</div>
+
+Le compteur dispose d'un affichage défilant. Les points décrits ci-dessous s'affichent l'un après l'autre. Après le dernier point, le premier s'affiche à nouveau.
 
 Relevé du compteur (code OBIS suivi du relevé du compteur) 
 
-1.8.1 (A+) Énergie active soutirage tarif 1
-1.8.2 (A+) Énergie active soutirage tarif 2
-2.8.1 (A+) Énergie active injection tarif 1
-2.8.2 (A+) Énergie active injection tarif 2
-1.8.0:5A (A+) Énergie active soutirage total base 5A
-2.8.0:5A (A-) Énergie active injection total base 5A
-5.8.0 (Q1) Énergie réactive inductive soutirage total
-6.8.0 (Q2) Énergie réactive capacitive soutirage total
-7.8.0 (Q3) Énergie réactive inductive injection total
-8.8.0 (Q4) Énergie réactive capacitive injection total
+- 1.8.1 (A+) énergie active soutirage tarif 1
+- 1.8.2 (A+) énergie active soutirage tarif 2
+- 2.8.1 (A+) énergie active injection tarif 1
+- 2.8.2 (A+) énergie active injection tarif 2
+- 1.8.0:5A (A+) énergie active total soutirage base 5A
+- 2.8.0:5A (A-) énergie active total injection base 5A
+- 5.8.0 (Q1) énergie réactive inductive soutirage total
+- 6.8.0 (Q2) énergie réactive capacitive soutirage total
+- 7.8.0 (Q3) énergie réactive inductive injection total
+- 8.8.0 (Q4) énergie réactive capacitive injection total
 
 Facteur de transformation (code OBIS suivi d'informations)
 
-0.4.2       Facteur de transformation (y compris impulsions S0 / kWh)
+- 0.4.2       facteur de transformation (y c. impulsions S0 / kWh)
 
 Firmware (code OBIS suivi d'informations)
 
-C.1.6 Ch: 2218 Somme de contrôle du firmware
-0.2.0 V 1.1 Version du firmware
+- C.1.6 Ch: 2218 somme de contrôle du firmware
+- 0.2.0 V 1.1 version du firmware
 
 Affichage des erreurs (code OBIS suivi de messages d'erreur)
 
-C.60.9 Fraud Flag (tentative de fraude possible détectée)
-PhL: 1 seule la phase L1 est raccordée
-PhL: 2 seule la phase L2 est raccordée
-PhL: 3 seule la phase L3 est raccordée
-PhL: 23 phase L1 non raccordée
-PhL: 13 phase L2 non raccordée
-PhL: 12 phase L3 non raccordée
-Ordre des phases correct : les chiffres restent fixes
-Ordre des phases incorrect : les chiffres clignotent
+- C.60.9 Fraud Flag (tentative de fraude possible détectée)
+- PhL: 1 seule la phase L1 est raccordée
+- PhL: 2 seule la phase L2 est raccordée
+- PhL: 3 seule la phase L3 est raccordée
+- PhL: 23 phase L1 non raccordée
+- PhL: 13 phase L2 non raccordée
+- PhL: 12 phase L3 non raccordée
+- Ordre des phases correct : les chiffres restent allumés en continu
+- Ordre des phases incorrect : les chiffres clignotent
 
 ## Dimensions et raccordements
 
-Les données \*.DXF et \*.DWG se trouvent dans l'archive ZIP dans les téléchargements.
+Les données \*.DXF et \*.DWG se trouvent dans l'archive ZIP, dans les téléchargements.
 
 ### Dimensions \[mm\]
 
-![Compteur d'énergie triphasé Telstar CT – Illustration 3](/img/produkte-telstar-ct/03.png)
+![Compteur d'énergie triphasé Telstar CT – figure 3](/img/produkte-telstar-ct/03.png)
 
-![Compteur d'énergie triphasé Telstar CT – Illustration 4](/img/produkte-telstar-ct/04.png)
+![Compteur d'énergie triphasé Telstar CT – figure 4](/img/produkte-telstar-ct/04.png)
 
 ### Schéma de raccordement
 
-![Compteur d'énergie triphasé Telstar CT – Illustration 5](/img/produkte-telstar-ct/05.jpg)
+![Compteur d'énergie triphasé Telstar CT – figure 5](/img/produkte-telstar-ct/05.jpg)
 
-## Définir le rapport de transformation du Telstar CT
+## Définir le rapport de transformation sur le Telstar CT
 
-1.  En haut à droite, sur le symbole de la roue dentée (Paramètres) (Einstellungen) 
+<div className="row">
+<div className="col col--7">
+
+1.  En haut à droite, sur l'icône de roue dentée Paramètres (Einstellungen) 
 
 2.  Modifier (Editieren) 
 
@@ -136,47 +148,68 @@ Les données \*.DXF et \*.DWG se trouvent dans l'archive ZIP dans les téléchar
 
 4.  Saisir le rapport de transformation (Wandlerverhältnis) 
 
-5.  Le rapport de transformation peut être verrouillé. Cela protège contre des modifications involontaires par des personnes non autorisées. Pour déverrouiller le rapport de transformation, l'appareil doit être réinstallé avec l'application smart-me. Lors de la réinstallation, il n'est pas nécessaire de le supprimer.
+5.  Le rapport de transformation peut être verrouillé. Cela protège contre des modifications involontaires par des personnes non autorisées. Pour déverrouiller le rapport de transformation, l'appareil doit être réinstallé avec l'app smart-me. Lors de la réinstallation, il n'est pas nécessaire de le supprimer.
 
 Remarque : la saisie du rapport de transformation ne modifie pas les données historiques enregistrées. C'est pourquoi cette étape doit être effectuée immédiatement après la mise en service.
 
-![Compteur d'énergie triphasé Telstar CT – Illustration 6](/img/produkte-telstar-ct/06.png)
+</div>
+<div className="col col--5 text--center">
+
+![Compteur d'énergie triphasé Telstar CT – figure 6](/img/produkte-telstar-ct/06.png)
+
+</div>
+</div>
 
 ## Fonctions des touches
 
-![Compteur d'énergie triphasé Telstar CT – Illustration 7](/img/produkte-telstar-ct/07.png)
+![Compteur d'énergie triphasé Telstar CT – figure 7](/img/produkte-telstar-ct/07.png)
 
-T1 Touche pour l'installation
+T1 touche pour l'installation
 
-Lorsque la touche T1 est maintenue enfoncée pendant 10 secondes, un WiFi local est créé pour l'installation
+- Un appui de 10 secondes sur la touche T1 crée un WiFi local pour l'installation
 
-T1 + T2 Redémarrage
+T1 + T2 redémarrage
 
-Maintenir les touches T1 et T2 enfoncées simultanément pendant 10 secondes pour forcer un redémarrage.
+- Appuyer simultanément sur les touches T1 et T2 pendant 10 secondes pour forcer un redémarrage.
 
-T2 Fonctions spéciales
+T2 fonctions spéciales
 
-Court : si T2 est maintenue enfoncée >2s, la LED verte change d'état (d'allumée à éteinte ou d'éteinte à allumée). Lorsqu'elle est activée, elle indique l'état de la connexion 
+- Court : un appui sur T2 >2s bascule la LED verte (de allumée à éteinte ou d'éteinte à allumée). Lorsqu'elle est activée, elle indique l'état de la connexion 
 
 🟢 Vert fixe : connecté au smart-me Cloud
 
- ☀︎ Vert clignotant : établissement de la connexion ou pas de connexion
+ ☀︎ Vert clignotant : établissement de la connexion ou aucune connexion
 
-Long : si T2 est maintenue enfoncée >8s, l'affichage de la puissance bascule entre puissance active et puissance réactive. De plus, la LED d'impulsions d'étalonnage bascule entre énergie active et énergie réactive.
+Long : un appui sur T2 >8s bascule l'affichage de la puissance entre puissance active et réactive. De plus, la LED d'impulsions d'étalonnage bascule entre énergie active et énergie réactive.
 
-Très long : si T2 est maintenue enfoncée >14s, la sortie d'impulsions S0-0 bascule entre puissance active et puissance réactive.
+Très long : un appui sur T2 >14s bascule la sortie d'impulsions S0-0 entre puissance active et puissance réactive.
 
-Remarque : ce réglage modifie uniquement l'affichage sur l'écran, pas dans le smart-me Cloud (application et site web). Si l'énergie réactive doit être affichée dans le Cloud, cela doit être configuré dans les paramètres généraux (Allgemeine Einstellungen). 
+Remarque : ce réglage ne modifie que l'affichage à l'écran, pas dans le smart-me Cloud (app et site web). Pour afficher l'énergie réactive dans le Cloud, il faut le faire dans les paramètres généraux. 
 
 ## LED
 
-![Compteur d'énergie triphasé Telstar CT – Illustration 8](/img/produkte-telstar-ct/08.png)
+<div className="row">
+<div className="col col--5 text--center">
 
-🟢 LED verte - État de la connexion
+![Compteur d'énergie triphasé Telstar CT – figure 8](/img/produkte-telstar-ct/08.png)
+
+</div>
+<div className="col col--7">
+
+🟢 LED verte - état de la connexion
 
 - Indique l'état de la connexion au smart-me Cloud. a) Clignotante = erreur de connexion b) Toujours allumée = connexion OK
 
-![Compteur d'énergie triphasé Telstar CT – Illustration 9](/img/produkte-telstar-ct/09.png)
+</div>
+</div>
+
+<div className="row">
+<div className="col col--5 text--center">
+
+![Compteur d'énergie triphasé Telstar CT – figure 9](/img/produkte-telstar-ct/09.png)
+
+</div>
+<div className="col col--7">
 
 🔴 LED rouge - LED d'impulsions
 
@@ -184,19 +217,22 @@ Remarque : ce réglage modifie uniquement l'affichage sur l'écran, pas dans le 
 
 - Par exemple : une LED portant l'indication « 1000 impulsions/kWh » clignote 1000 fois lorsque 1 kilowattheure (kWh) d'énergie a été soutiré ou injecté. Si les 1000 impulsions ont été comptées en 1 heure, une puissance constante de 1 kW a été mesurée.
 
+</div>
+</div>
+
 ## Configurer les entrées et sorties
 
-Le Telstar CT dispose de deux sorties numériques et d'une entrée numérique, qui peuvent être utilisées comme entrées et sorties d'impulsions ou comme contact sec commutable. Vous trouverez plus de détails sur la page wiki [Entrées et sorties](/schnittstellen/ein_und_ausgaenge) 
+Le Telstar CT dispose de deux sorties numériques et d'une entrée numérique, qui peuvent être utilisées comme entrées et sorties d'impulsions ou comme contact sec commutable. Vous trouverez les détails sur la page wiki [Entrées et sorties](/schnittstellen/ein_und_ausgaenge) 
 
-Sur l'une des sorties numériques, le Telstar CT dispose d'un relais pouvant commuter jusqu'à 8A.
+Sur l'une de ses sorties numériques, le Telstar CT dispose d'un relais pouvant commuter jusqu'à 8A.
 
 ## Technologie mesh
 
-En cas de réception WiFi très faible ou absente, le Telstar CT se connecte automatiquement via la fonction mesh à un autre compteur voisin à portée. Celui-ci se charge alors de la communication avec le smart-me Cloud. La technologie mesh garantit une plus grande disponibilité des compteurs vis-à-vis du smart-me Cloud. Il n'est pas possible de désactiver la fonction mesh sur le compteur. Lorsque [Modbus TCP](/schnittstellen/modbus-tcp) est activé, des restrictions spécifiques s'appliquent.
+En cas de réception WiFi très faible ou absente, le Telstar CT se connecte automatiquement, via la fonction mesh, à un autre compteur voisin à portée. Celui-ci prend alors en charge la communication avec le smart-me Cloud. La technologie mesh garantit une disponibilité accrue des compteurs vis-à-vis du smart-me Cloud. Il n'est pas possible de désactiver la fonction mesh sur le compteur. Lorsque [Modbus TCP](/schnittstellen/modbus-tcp) est activé, des restrictions spécifiques s'appliquent.
 
 ## Transformateurs et accessoires
 
-Vous trouverez des recommandations pour les transformateurs et accessoires sur la page : [Transformateurs de courant et accessoires](/drittprodukte/Stromwandler) 
+Vous trouverez des recommandations de transformateurs et d'accessoires sur la page : [Transformateurs de courant et accessoires](/drittprodukte/Stromwandler) 
 
 Aucun de ces produits n'est distribué par smart-me AG ni proposé comme accessoire à l'achat. Veuillez acheter ces produits directement auprès du fabricant. 
 
@@ -204,7 +240,7 @@ Aucun de ces produits n'est distribué par smart-me AG ni proposé comme accesso
 
 Numéro d'article : 212062 
 
-Nom de l'article : 3-Phasen Energiezähler Telstar CT MID Wifi
+Désignation de l'article : 3-Phasen Energiezähler Telstar CT MID Wifi
 
 Numéro de tarif douanier : 9028.3019
 
@@ -227,11 +263,11 @@ Poids avec emballage : 315g
 <details id="in-welchem-intervall-senden-die-zähler-daten">
 <summary>À quel intervalle les compteurs envoient-ils des données ?</summary>
 
-- Toutes les 15 minutes, soit à xx:00:00, xx:15:00, xx:30:00 et xx:45:00. Les données nécessaires à la courbe de charge sont ainsi envoyées. En cas d'interruption de la connexion, ces données sont enregistrées localement et envoyées ultérieurement.
+- Toutes les 15 minutes, soit à xx:00:00 xx:15:00, xx:30:00 et xx:45:00. Les données nécessaires à la courbe de charge sont ainsi envoyées. En cas d'interruption de la connexion, ces données sont enregistrées localement et envoyées ultérieurement.
 
 - En outre, au moins toutes les 330 secondes.
 
-- Ensuite, lorsque l'un des événements suivants se produit :
+- Par ailleurs, lorsque l'un des événements suivants se produit :
 
     - Variation du relevé du compteur supérieure à 100Wh
 
@@ -241,13 +277,13 @@ Poids avec emballage : 315g
 
     - Variation de tension supérieure à 1V
 
-    - Chaque seconde, lorsque le compteur est sélectionné dans la GUI (portail smart-me)
+    - Chaque seconde, lorsque le compteur est sélectionné dans l'interface graphique (portail smart-me)
 
 </details>
 
 <details id="kann-ich-den-zählerstand-auf-null-zurücksetzen">
 <summary>Puis-je remettre le relevé du compteur à zéro ?</summary>
 
-Non, nos compteurs étant utilisés pour des décomptes, il n'est pas possible de les remettre à zéro.
+Non, comme nos compteurs sont utilisés pour des décomptes, il n'est pas possible de les remettre à zéro.
 
 </details>

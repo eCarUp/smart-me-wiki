@@ -17,7 +17,7 @@ This 3-phase meter is no longer available. You can find the new generation of ou
 
 - Direct connection 5(32)A, switchable
 
-## Features
+## Functions
 
 - 3-phase energy meter with MID 2014/32/EU certification
 
@@ -27,7 +27,7 @@ This 3-phase meter is no longer available. You can find the new generation of ou
 
 - Additional contact outputs for controlling external devices
 
-- The 3-phase meter also works as a gateway to the cloud for (almost) all IP-enabled smart energy devices
+- The 3-phase meter also works as a gateway to the cloud for (almost) all IP-capable smart energy devices
 
 - Easy installation with the free smart-me app for Android and iOS
 
@@ -43,7 +43,7 @@ Before you can use your smart-me device, you must connect it to your WiFi networ
 
 3.  Start the app and create an account or log in with the corresponding account.
 
-4.  Click "Add device" („Gerät hinzufügen“) (+) and follow the instructions.
+4.  Click on "Add device" („Gerät hinzufügen“) (+) and follow the instructions.
 
 ## Technical data
 
@@ -57,11 +57,11 @@ Storage temperature -40°C to 85°C
 
 Temperature range -25°C to 70°C
 
-Humidity annual average 75%, briefly 95%, non-condensing
+Humidity annual average 75%, short-term 95%, non-condensing
 
 Accuracy class B
 
-Meter type bidirectional meter (consumption and feed-in)
+Meter type bidirectional meter (consumption and delivery)
 
 Measured values 
 
@@ -99,7 +99,7 @@ WiFi standard 802.11 b/g/n
 
 WiFi security standard WEP, WPA, WPA2 (personal)
 
-S0 pulse rate 10’000 or 1’000 pulses per kWh
+S0 pulse value 10’000 or 1’000 pulses per kWh
 
 Data storage 2 months
 
@@ -127,8 +127,8 @@ The meter has a scrolling display. The items described below are shown one after
 
 1-8-1: Active energy tariff 1 import (consumption)
 1-8-2: Active energy tariff 2 import (consumption)
-2-8-1: Active energy tariff 1 export (feed-in)
-2-8-2: Active energy tariff 2 export (feed-in)
+2-8-1: Active energy tariff 1 export (delivery)
+2-8-2: Active energy tariff 2 export (delivery)
 
 3.  Software version
 
@@ -136,9 +136,9 @@ The meter has a scrolling display. The items described below are shown one after
 
 ### Phase sequence
 
-PhL 1 -> only phase L1 has been connected (PhL2 for L2 etc.)
-PhL 12 -> only phases L1 and L2 have been connected (PhL13 for L1 and L3 etc.)
-PhL 123 -> an incorrect phase sequence has been detected
+PhL 1 -> only phase L1 was connected (PhL2 for L2, etc.)
+PhL 12 -> only phases L1 and L2 were connected (PhL13 for L1 and L3, etc.)
+PhL 123 -> an incorrect phase sequence was detected
 
 ## Dimensions and connections
 
@@ -148,7 +148,7 @@ PhL 123 -> an incorrect phase sequence has been detected
 
 Note: .DXF and .DWG data can be found in the ZIP archive in the downloads.
 
-### Wiring diagram
+### Connection diagram
 
 E1: Tariff input (digital input)
 
@@ -160,15 +160,15 @@ T1: Button for installation
 
 T2: Special functions
 
-Short: If T2 is pressed briefly, the green LED switches on / off. When it is activated, it indicates the connection status:
+Short: If T2 is pressed briefly, the green LED switches on / off. When it is activated, it shows the connection status:
 
-Green steady: connected to the smart-me Cloud 
+Green steady: connected to smart-me Cloud 
 
 Green flashing: no connection
 
 Long: If T2 is pressed for a long time, the display of the reactive energy meter reading is activated (if available). The items reactive energy meter reading T1 and reactive energy meter reading T2 are added to the display sequence. The displayed value flashes and can thus be distinguished from the active energy.
 
-CAUTION: This setting only changes what is shown on the display, not in the smart-me Cloud (app and website). If the reactive energy is to be shown in the cloud, this must be done in the general settings. (When T2 is pressed, the red LED starts to light up; T2 must be held down until the red LED goes out)
+CAUTION: This setting only changes the display on the meter, not in the smart-me Cloud (app and website). If the reactive energy is to be displayed in the cloud, this must be done in the general settings. (When T2 is pressed, the red LED lights up; T2 must be held down until the red LED goes out)
 
 S0\_0: S0 pulse output (optionally potential-free contact / caution Pmax = 550mW continuous)
 
@@ -202,19 +202,19 @@ Technical documents
 
 [CE declaration of conformity](https://drive.google.com/file/d/1MBTTapoTlcpUFbXpglgAq2wpE4yfs_MO/view?usp=sharing)
 
-[Wiring diagram](https://drive.google.com/file/d/12wyjFnyECXzPXvnYKV_VhfHKuZwAhjdn/view?usp=sharing)
+[Connection diagram](https://drive.google.com/file/d/12wyjFnyECXzPXvnYKV_VhfHKuZwAhjdn/view?usp=sharing)
 
 ## FAQ
 
 <details id="in-welchem-intervall-senden-die-zähler-daten">
 <summary>At what interval do the meters send data?</summary>
 
-- Every 15 minutes, i.e. at xx:00:00 xx:15:00, xx:30:00 and xx:45:00. This sends the data required for the load profile. In the event of a connection interruption, this data is stored locally and sent later.
+- Every 15 minutes, i.e. at xx:00:00, xx:15:00, xx:30:00 and xx:45:00. This sends the data required for the load profile. In the event of a connection interruption, this data is stored locally and sent later.
 
 - In addition, an individual configuration can be made:
 
-    - With Basic or Limited licences: max. 1x per minute.
+    - With Basic or Limited licences: max. once per minute.
 
-    - With Pro licensing: max. 1x per second
+    - With Pro licensing: max. once per second
 
 </details>

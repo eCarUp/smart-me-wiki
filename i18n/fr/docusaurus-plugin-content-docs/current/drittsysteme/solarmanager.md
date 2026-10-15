@@ -10,33 +10,33 @@ Les appareils smart-me peuvent être intégrés directement dans Solar Manager v
 
 Avec la nouvelle mise à jour de Solar Manager, les Pico ne sont plus pilotées via le numéro de série, mais via l'ID du groupe de gestion de la charge de niveau 1.
 
-Dans cette courte vidéo, je vous montre étape par étape comment cela fonctionne, afin que vous puissiez effectuer correctement les réglages du côté smart-me.
+Dans cette courte vidéo, je vous montre étape par étape comment cela fonctionne, afin que vous puissiez effectuer correctement les réglages du côté de smart-me.
 
-Bon à savoir : grâce à cette mise à jour, la recharge monophasée à 6 A (env. 1,4 kW) est désormais possible, ce qui est idéal pour les faibles surplus photovoltaïques. Vous trouverez la manière de le configurer dans la documentation de Solar Manager
+Bon à savoir : grâce à cette mise à jour, la recharge monophasée à 6 A (env. 1,4 kW) devient possible, ce qui est idéal pour de faibles excédents PV. Vous trouverez comment la configurer dans la documentation de Solar Manager
 
-<Embed src="https://drive.google.com/file/d/1Oc3uuTCMusCJMHL7hjlJzFbkoFONHpm4/preview" aspect="1.350" title="Drive, vidéo de la mise à jour Solar Manager 2026" />
+<Embed src="https://drive.google.com/file/d/1Oc3uuTCMusCJMHL7hjlJzFbkoFONHpm4/preview" aspect="1.350" title="Drive, solarmanager_update_2026.mp4" />
 
 solarmanager\_update\_2026.mp4
 
 Solar Manager offre plusieurs options pour utiliser le compteur smart-me et les bornes de recharge Pico :
 
-- Comme Smart Meter ou compteur de bilan, directement après le compteur du fournisseur d'électricité
+- Comme Smart Meter ou compteur de bilan directement après le compteur du fournisseur d'électricité
 
-- Comme mesure de consommation d'appareils tels que bornes de recharge, pompes à chaleur, etc.
+- Comme mesure de la consommation d'appareils tels que bornes de recharge, pompes à chaleur, etc.
 
-- Comme mesure de la production photovoltaïque
+- Comme mesure de la production PV
 
-- Comme interrupteur, pour utiliser le contact du relais du compteur.
+- Comme interrupteur, pour utiliser le contact de relais du compteur.
 
-- Comme source de données pour la gestion de la charge de l'électromobilité
+- Comme fournisseur de données pour la gestion de la charge e-mobilité
 
-Public cible : maisons individuelles et immeubles collectifs
+Groupe cible : maisons individuelles et immeubles collectifs
 
-<Video src="D3Mh-cAyHvw" title="Vidéo YouTube, démonstration de l'intégration des compteurs smart-me dans Solar Manager" />
+<Video src="D3Mh-cAyHvw" title="Vidéo YouTube, démo de l'intégration des compteurs smart-me dans Solar Manager" />
 
 ## Intégration générale
 
-Pour l'intégration, les identifiants du cloud (nom d'utilisateur et mot de passe) ainsi que le numéro de série du compteur sont nécessaires. Le numéro de série est visible directement dans le portail smart-me et sur les appareils eux-mêmes. Pour le numéro de série, utilisez uniquement les chiffres situés avant le trait d'union !
+Pour l'intégration, les identifiants cloud (nom d'utilisateur et mot de passe)  ainsi que le numéro de série du compteur sont nécessaires. Le numéro de série est visible directement dans le portail smart-me et sur les appareils eux-mêmes. Pour le numéro de série, n'utilisez que les chiffres situés avant le tiret !
 
 ![Solar Manager – Figure 1](/img/drittsysteme-solarmanager/01.png)
 
@@ -52,35 +52,35 @@ Dans Solar Manager, il est possible d'ajouter un Smart Meter, qui peut être mon
 
 - Directement après le compteur du fournisseur d'électricité (compteur de bilan), la production (-) et la consommation (+) étant mesurées directement 
 
-- Mesure de la consommation uniquement, la production étant saisie séparément
+- Mesure de la consommation uniquement, la production est saisie séparément
 
 Pour la configuration, ajoutez un Smart Meter et sélectionnez smart-me Cloud. Le Smart Meter est connecté à l'aide des identifiants et du numéro de série à 8 chiffres. 
 
 - Lieu d'installation :  selon la description ci-dessus
 
-- Inverser la mesure : si le compteur était monté de manière inversée, il serait possible de changer le signe ici. 
+- Inverser la mesure : si le compteur était monté de manière inversée, vous pourriez changer le signe ici. 
 
 ![Solar Manager – Figure 2](/img/drittsysteme-solarmanager/02.png)
 
 ## Utiliser le relais smart-me
 
-Le [compteur triphasé Telstar](/produkte/telstar) dispose de deux sorties à contact sec pour la commande d'appareils externes, dont l'une avec un relais 8A intégré. Celui-ci peut être commuté dans Solar Manager. Un « interrupteur » est créé et paramétré pour chaque relais. Les interrupteurs doivent au préalable être définis comme sorties numériques dans le portail smart-me (voir [Entrées et sorties](/)) 
+Le [compteur triphasé Telstar](/produkte/telstar) dispose de deux sorties à contact sans potentiel pour la commande d'appareils externes, dont l'une avec un relais 8A intégré. Celui-ci peut être commuté dans Solar Manager. Pour chaque relais, un « interrupteur » (« Schalter ») est saisi et paramétré. Les interrupteurs doivent au préalable être définis comme sorties numériques dans le portail smart-me (voir [Entrées et sorties](/)) 
 
-Pour la configuration, ajoutez un nouvel « interrupteur » sous Appareils et sélectionnez « Relais sur compteur triphasé smart-me ». Le compteur est connecté à l'aide des identifiants et du numéro de série à 8 chiffres. 
+Pour la configuration, ajoutez un nouvel « interrupteur » (« Schalter ») sous Appareils et sélectionnez « Relais sur le compteur triphasé smart-me » (« Relais am smart-me 3-Phasen Zähler »). Le compteur est connecté à l'aide des identifiants et du numéro de série à 8 chiffres. 
 
 ### Paramètres
 
 Puissance d'enclenchement (W) :
 
-Quelle puissance doit être disponible en surplus pour que la commutation ait lieu.
+Quelle puissance doit être disponible en excédent pour que la commutation ait lieu.
 
 Délai d'enclenchement (min) :
 
-Combien de temps la puissance définie doit être disponible avant que la commutation ait lieu.
+Pendant combien de temps la puissance définie doit être disponible avant que la commutation ait lieu.
 
 Délai de déclenchement (min) :
 
-Combien de temps attendre après être passé sous la puissance définie avant de déclencher (p. ex. pour compenser le passage d'un nuage)
+Combien de temps attendre après que la puissance est passée sous le seuil avant de déclencher (p. ex. pour compenser le passage d'un nuage)
 
 Durée de fonctionnement minimale (min) : 
 
@@ -113,14 +113,14 @@ En combinaison avec Solar Manager, celui-ci part toutefois par défaut d'un cour
 
 Choisissez le cas qui s'applique à votre véhicule afin de prendre en charge sans erreur la configuration souhaitée :
 
-Cas A : votre véhicule peut gérer un courant de démarrage de 6A
+Cas A : vous avez un véhicule qui peut gérer un courant de démarrage de 6A
 
 - Réglez le courant minimal sur le matériel de la Pico à 6A.
 
 ![Solar Manager – Figure 5](/img/drittsysteme-solarmanager/05.png)
 
-Cas B : votre véhicule ne supporte notoirement pas un courant de démarrage de 6A (p. ex. Renault Zoe)
+Cas B : vous avez un véhicule dont on sait qu'il ne gère pas un courant de démarrage de 6A  (p. ex. Renault Zoe)
 
-- Dans Solar Manager, sélectionnez le réglage "Renault Zoe 9A" dans le choix du véhicule
+- Dans Solar Manager, sélectionnez le réglage "Renault Zoe 9A" dans la sélection du véhicule
 
 </details>

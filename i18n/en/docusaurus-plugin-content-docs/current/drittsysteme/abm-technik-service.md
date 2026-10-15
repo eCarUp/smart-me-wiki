@@ -1,10 +1,10 @@
 ---
 title: 'ABM Technik + Service'
 slug: '/drittsysteme/abm-technik-service'
-description: 'ABM Technik + Service offers property-related services.'
+description: 'ABM Technik + Service offers services related to real estate.'
 sidebar_label: 'ABM Technik + Service'
 ---
-ABM Technik + Service offers property-related services. State-of-the-art radio technology lets you monitor energy and water consumption. Visual displays help you save energy. Besides installing and maintaining water and energy meters, the ABM Technik + Service product portfolio also covers heating and operating cost billing, tenant electricity billing, a smoke detector service and drinking water testing.
+ABM Technik + Service offers services related to real estate. The latest wireless technology makes it possible to monitor energy and water consumption. Visual presentation helps you save energy. In addition to installing and maintaining measuring devices for water and energy meters, the ABM Technik + Service product portfolio also includes preparing heating and operating cost billing and tenant electricity billing, a smoke detector service and drinking water testing.
 
 ## Contact
 

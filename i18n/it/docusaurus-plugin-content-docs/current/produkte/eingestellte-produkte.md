@@ -6,7 +6,10 @@ sidebar_label: 'Prodotti fuori produzione'
 ---
 La vendita di questi prodotti è stata interrotta. Il supporto e il servizio cloud restano garantiti.
 
-![Prodotti fuori produzione – Figura 1](/img/produkte-eingestellte-produkte/01.jpg)
+<div className="row">
+<div className="col col--6 text--center">
+
+[![Prodotti fuori produzione – Figura 1](/img/produkte-eingestellte-produkte/01.jpg)](/produkte/3-phasen-zähler)
 
 [Contatore trifase (vecchio)](/produkte/3-phasen-zähler)
 
@@ -14,7 +17,10 @@ Successore: [Contatore trifase Telstar 80A](/produkte/telstar)
 
 N. di serie contatore trifase 80A: 60\* 
 
-![Prodotti fuori produzione – Figura 2](/img/produkte-eingestellte-produkte/02.jpg)
+</div>
+<div className="col col--6 text--center">
+
+[![Prodotti fuori produzione – Figura 2](/img/produkte-eingestellte-produkte/02.jpg)](/produkte/plug)
 
 [Plug](/produkte/plug)
 
@@ -22,7 +28,13 @@ Possibile dispositivo sostitutivo smart-me: [Contatore trifase Telstar 80A](/pro
 
 N. di serie Plug: 01\*, 02\*, 03\*, 04\*
 
-![Prodotti fuori produzione – Figura 3](/img/produkte-eingestellte-produkte/03.jpg)
+</div>
+</div>
+
+<div className="row">
+<div className="col col--6 text--center">
+
+[![Prodotti fuori produzione – Figura 3](/img/produkte-eingestellte-produkte/03.jpg)](/produkte/landis-gyr-modul)
 
 [Modulo Landis+Gyr](/produkte/landis-gyr-modul)
 
@@ -30,7 +42,10 @@ Possibile dispositivo sostitutivo smart-me: [Contatore trifase Telstar 80A](/pro
 
 N. di serie modulo Landis+Gyr: 93\*
 
-![Prodotti fuori produzione – Figura 4](/img/produkte-eingestellte-produkte/04.jpg)
+</div>
+<div className="col col--6 text--center">
+
+[![Prodotti fuori produzione – Figura 4](/img/produkte-eingestellte-produkte/04.jpg)](/produkte/smart-eye)
 
 [smart-eye](/produkte/smart-eye)
 
@@ -38,7 +53,11 @@ Possibile dispositivo sostitutivo smart-me: [Contatore trifase Telstar 80A](/pro
 
 N. di serie smart-eye: 94\*
 
+</div>
+</div>
 
+<div className="row">
+<div className="col col--6 text--center">
 
 [![Prodotti fuori produzione – Figura 5](/img/produkte-eingestellte-produkte/05.jpg)](/produkte/pico-ladestation-exa)
 
@@ -46,7 +65,10 @@ N. di serie smart-eye: 94\*
 
 Successore: [Stazione di ricarica Pico](/produkte/pico-ladestation) 
 
-![Prodotti fuori produzione – Figura 6](/img/produkte-eingestellte-produkte/06.jpg)
+</div>
+<div className="col col--6 text--center">
+
+[![Prodotti fuori produzione – Figura 6](/img/produkte-eingestellte-produkte/06.jpg)](/produkte/1-phasen-zaehler-32a)
 
 [Contatore monofase 32A](/produkte/1-phasen-zaehler-32a)
 
@@ -54,10 +76,24 @@ Possibile dispositivo sostitutivo: [Contatore monofase](/produkte/1-phasen-zaehl
 
 N. di serie contatore monofase 32A : 51\*
 
-![Prodotti fuori produzione – Figura 7](/img/produkte-eingestellte-produkte/07.png)
+</div>
+</div>
+
+<div className="row">
+<div className="col col--6 text--center">
+
+[![Prodotti fuori produzione – Figura 7](/img/produkte-eingestellte-produkte/07.png)](/produkte/kamstrup-modul)
 
 [Modulo Kamstrup](/produkte/kamstrup-modul)
 
 Possibile dispositivo sostitutivo smart-me: [Contatore trifase Telstar 80A](/produkte/telstar) o [Contatore trifase Telstar CT](/produkte/Telstar-CT) 
 
 N. di serie modulo Kamstrup: 92\*
+
+</div>
+<div className="col col--6 text--center">
+
+
+
+</div>
+</div>

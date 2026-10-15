@@ -1,10 +1,10 @@
 ---
 title: 'ABM Technik + Service'
 slug: '/drittsysteme/abm-technik-service'
-description: 'ABM Technik + Service offre servizi legati agli immobili.'
+description: 'ABM Technik + Service offre servizi relativi agli immobili.'
 sidebar_label: 'ABM Technik + Service'
 ---
-ABM Technik + Service offre servizi legati agli immobili. Grazie alla più recente tecnologia radio è possibile monitorare i consumi di energia e di acqua. La rappresentazione visiva aiuta a risparmiare energia. Oltre al montaggio e alla manutenzione degli strumenti di misura per contatori dell'acqua e contatori di energia, il portafoglio prodotti di ABM Technik + Service comprende anche l'allestimento dei conteggi del calore e delle spese d'esercizio, dei conteggi dell'elettricità per gli inquilini, il servizio per i rilevatori di fumo e l'analisi dell'acqua potabile.
+ABM Technik + Service offre servizi relativi agli immobili. La più recente tecnologia radio consente di monitorare i consumi di energia e di acqua. La rappresentazione visiva aiuta a risparmiare energia. Oltre al montaggio e alla manutenzione degli apparecchi di misura per contatori dell'acqua e di energia, il portafoglio prodotti di ABM Technik + Service comprende anche l'allestimento dei conteggi del riscaldamento e delle spese d'esercizio, i conteggi dell'elettricità per gli inquilini, il servizio per i rilevatori di fumo e l'analisi dell'acqua potabile.
 
 ## Contatto
 

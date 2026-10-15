@@ -6,9 +6,9 @@ sidebar_label: 'Fairwalter'
 ---
 Fairwalter è un'applicazione completa per l'amministrazione immobiliare e importa i dati dei contatori smart-me tramite API.
 
-I locatori privati ricevono una soluzione completa, chiara e intuitiva. Non sono necessari né installazione né aggiornamenti manuali. Familiari, consulenti fiscali, agenti immobiliari o custodi ricevono ciascuno un proprio accesso, consentendo così una gestione condivisa. 
+I locatori privati ottengono una soluzione completa, chiara e intuitiva. Non servono installazioni né aggiornamenti manuali. Familiari, consulenti fiscali, agenti immobiliari o custodi ricevono ciascuno un proprio accesso, così la gestione può essere condivisa. 
 
-Le amministrazioni risparmiano tempo e denaro nella configurazione della soluzione, nella formazione dei collaboratori e nella collaborazione con proprietari e fornitori di servizi. In quanto soluzione web, Fairwalter si adatta ai tuoi processi: integra soluzioni esterne tramite interfaccia e organizza i processi interni in modo flessibile.
+Le amministrazioni immobiliari risparmiano tempo e denaro nella configurazione della soluzione, nella formazione dei collaboratori e nella collaborazione con proprietari e fornitori di servizi. Essendo una soluzione web, Fairwalter si adatta ai suoi processi: integri soluzioni esterne tramite interfaccia e organizzi i processi interni in modo flessibile.
 
 - Fairwalter recupera i dati smart-me direttamente tramite API
 
@@ -20,7 +20,7 @@ Le amministrazioni risparmiano tempo e denaro nella configurazione della soluzio
 
 ### Integrazione con smart-me
 
-Tutti i dati di consumo rilevati da smart-me vengono utilizzati automaticamente per il conteggio del riscaldamento e delle spese accessorie. A tale scopo è sufficiente assegnare i contatori ai conti delle spese accessorie.
+Tutti i dati di consumo rilevati da smart-me vengono utilizzati automaticamente per il conteggio delle spese di riscaldamento e accessorie. È sufficiente assegnare i contatori ai conti delle spese accessorie.
 
 [Video demo dal vivo](https://youtu.be/E7HuIAUehdE)
 

@@ -166,6 +166,19 @@
   text-align: left;
 }
 
+/*
+ * Ausnahme: bewusst zentrierte Spalten.
+ *
+ * Die Regel darüber ist gegen Blocksatz gedacht. Sie hat aber auch jedes
+ * `text--center` ausgehebelt — auf der Produkte-Seite standen die
+ * Bildunterschriften deshalb linksbündig unter mittig gesetzten Bildern,
+ * obwohl die Spalte das Gegenteil verlangt.
+ */
+.markdown .text--center p,
+.markdown .text--center li {
+  text-align: center;
+}
+
 /* Hervorhebungen im Fliesstext in smart-me Blau. */
 .markdown strong {
   color: var(--sm-blue);

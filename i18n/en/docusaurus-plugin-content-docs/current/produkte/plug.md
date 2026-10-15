@@ -9,7 +9,7 @@ The smart-me Plug is a power meter, thermostat and timer in one. In addition, th
 
 Sales discontinued on 30.03.2021
 Technical support discontinued on 30.03.2025
-Hardware and cloud functions: operation continues to be guaranteed
+Hardware and cloud functions: operation remains guaranteed
 
 ![Plug – Figure 1](/img/produkte-plug/01.jpg)
 
@@ -41,14 +41,14 @@ Available in European, Swiss and UK versions.
 
 - -   -   Real-time monitoring
 
-        - Control with event actions and if/then actions
+        - Control with Event-related Actions and If / Then Actions
 
     - Easy installation with the free smart-me app for Android and iOS
 
 
 <Video src="r1NFkuI7CUM" title="YouTube video, Plug installation" />
 
-Video installation
+Installation video
 
 ## Technical data
 
@@ -74,7 +74,7 @@ No.
 
 ## Downloads and declaration of conformity
 
-Data sheet
+Datasheet
 
 [English](https://drive.google.com/file/d/0BwpiVx2zqRpUdjNFVXlOTHJJOFU/view)
 

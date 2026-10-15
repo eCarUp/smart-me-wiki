@@ -10,73 +10,75 @@ sidebar_label: 'AbaImmo'
 
 - Il conteggio e la ripartizione dei costi secondo VEWA avvengono nel sistema smart\-me.
 
-- Ogni unità di conteggio in AbaImmo che deve essere interrogata deve esistere in modo congruente in smart-me
+- Ogni unità di conteggio in AbaImmo che si desidera interrogare deve esistere in modo corrispondente in smart-me
 
 - Affinché il conteggio sia corretto, per ogni periodo di conteggio devono essere registrati in tutte le unità i rapporti di locazione e gli sfitti!
 
 - L'elenco degli inquilini di AbaImmo viene confrontato automaticamente con smart-me.
 
-- Per l'utilizzo, l'elettricità e le spese di riscaldamento e accessorie devono avere lo stesso periodo di conteggio.
+- Il presupposto per l'utilizzo è che l'elettricità e le spese di riscaldamento e accessorie abbiano lo stesso periodo di conteggio.
 
 
 ## Implementazione attuale
 
 Attualmente supportato:
 
-- Trasferimento di kWh, m3, per mille o valore di prezzo di una singola tariffa per calore, freddo, acqua calda sanitaria e acqua fredda e tariffa unica dell'elettricità
+- Trasmissione del valore in kWh, m3, per mille o prezzo di una singola tariffa per calore, freddo, acqua calda sanitaria e acqua fredda e della tariffa unica per l'elettricità
 
-- Trasferimento di valori per mille o di prezzo come somma di tariffe, ad es. elettricità
+- Trasmissione di valori in per mille o di prezzo come somma di tariffe, ad esempio per l'elettricità
 
 
 Non supportato:
 
-- Trasferimento separato delle tariffe elettriche (ad es. elettricità di punta, elettricità di rete ed elettricità solare separatamente)
+- Trasmissione separata delle tariffe elettriche (ad esempio elettricità di punta, elettricità di rete ed elettricità solare separatamente)
 
 
 ![AbaImmo – Figura 1](/img/schnittstellen-dta-vhka-files-abaimmo/01.png)
 
 ### Configurazione best practice
 
-Il modo più semplice per organizzare la trasmissione dei dati nel RCP (raggruppamento ai fini del consumo proprio) è il seguente:
+Nel RCP (raggruppamento ai fini del consumo proprio) la trasmissione dei dati si organizza nel modo più semplice così:
 
-- L'elettricità viene trasferita come importo in CHF; a tale scopo i prezzi delle singole tariffe devono essere registrati in smart-me.
+- L'elettricità viene trasmessa come importo in CHF; a tale scopo i prezzi delle singole tariffe devono essere registrati in smart-me.
 
-- Calore, freddo, acqua calda sanitaria e acqua fredda si trasferiscono nel modo più semplice come valore per mille.
+- Calore, freddo, acqua calda sanitaria e acqua fredda si trasmettono nel modo più semplice come valore in per mille.
 
-- I costi dell'elettricità dell'immobile per pompe di calore e boiler non vengono trasferiti. I costi possono essere registrati in anticipo in AbaImmo come registrazione contabile.
+- I costi dell'elettricità dell'immobile per pompe di calore e boiler non vengono trasmessi. I costi possono essere registrati in anticipo in AbaImmo come registrazione contabile.
 
 
 ### Configurazione in AbaImmo e svolgimento dello scambio
 
-1.  Vai a Y471, seleziona il numero dell'immobile e attiva l'interfaccia VHKA.
+1.  Navighi a Y471, selezioni il numero dell'immobile e attivi l'interfaccia VHKA.
 
-2.  Crea un periodo di conteggio per l'elettricità e/o le spese di riscaldamento e accessorie.
+2.  Crei un periodo di conteggio per l'elettricità e/o per le spese di riscaldamento e accessorie.
 
-3.  In Y471 vai a "Contatori" ("Zähler") e crea le interrogazioni dei contatori adatte all'immobile.
+3.  In Y471 navighi a "Contatori" ("Zähler") e crei le interrogazioni dei contatori corrispondenti all'immobile.
 
     ad es.: 
-    \- Contatore di calore, specifico per oggetto, costi di riscaldamento, solo consumo (Wärmezähler, Objektspezifisch, Heizkosten, Nur Verbrauch)
-    \- Acqua calda sanitaria, specifico per oggetto, costi dell'acqua calda, solo consumo (Warmwasser, Objektspezifisch, Warmwasserkosten, Nur Verbrauch)
-    \- Acqua fredda, specifico per oggetto, costi dell'acqua, solo consumo (Kaltwasser, Objektspezifisch, Wasserkosten, Nur Verbrauch)
 
+    \- Contatore di calore, specifico per oggetto, costi di riscaldamento, solo consumo
 
-4.  Vai alle impostazioni dell'applicazione Y621 (Applikationseinstellungen) 
+    \- Acqua calda sanitaria, specifico per oggetto, costi dell'acqua calda sanitaria, solo consumo
 
-5.  Nella scheda "HK/NK" registra una ditta di lettura con il nome "smart-me"
+    \- Acqua fredda, specifico per oggetto, costi dell'acqua, solo consumo
 
-6.  Vai a Y11 Anagrafica immobili (Immobilienstamm)
+4.  Navighi alle impostazioni dell'applicazione Y621 
 
-7.  Nella scheda Standard/Ablesefirma VHKA assegna ora la ditta di lettura "smart-me" agli immobili desiderati
+5.  Nella scheda "HK/NK" registri una ditta di lettura con il nome "smart-me"
 
-8.  Assegna ora a ogni oggetto dell'immobile da interrogare la ditta di lettura "smart-me" tramite il numero VHKA di AbaImmo.
-    Questa assegnazione determina se la richiesta viene effettuata nel file di interrogazione o ignorata.
+6.  Navighi a Y11 Anagrafica immobili
 
-9.  Vai ora a Y2312 Elaborare interfaccia VHKA (VHKA-Schnittstelle verarbeiten)
+7.  Nella scheda "Standard/Ditta di lettura VHKA" ("Standard/Ablesefirma VHKA") inserisca ora la ditta di lettura "smart-me" per gli immobili desiderati
 
-10.  Seleziona ora l'immobile desiderato e il percorso di salvataggio per il file VHKA.
+8.  Inserisca ora per ogni oggetto dell'immobile da interrogare la ditta di lettura "smart-me" tramite il numero VHKA di AbaImmo.
 
-11.  Esporta ora il file per caricarlo successivamente in smart-me.
+    Questa impostazione determina se la richiesta nel file di interrogazione viene eseguita o ignorata.
 
+9.  Navighi ora a Y2312 Elaborare interfaccia VHKA
+
+10.  Selezioni ora l'immobile desiderato e la posizione di salvataggio del file VHKA.
+
+11.  Esporti ora il file per caricarlo successivamente in smart-me.
 
 ![AbaImmo – Figura 2](/img/schnittstellen-dta-vhka-files-abaimmo/02.png)
 
@@ -86,33 +88,33 @@ Il modo più semplice per organizzare la trasmissione dei dati nel RCP (raggrupp
 
 ![AbaImmo – Figura 5](/img/schnittstellen-dta-vhka-files-abaimmo/05.png)
 
-12\. Nella fatturazione smart-me (Rechnungserstellung) vai a "Configurazione" ("Konfiguration") e verifica se VEWA è attivato o inattivo.
+12\. Nella fatturazione smart-me navighi a "Configurazione" ("Konfiguration") e verifichi se VEWA è attivato o inattivo.
 
-\--> se è attivato, occorre verificare se esiste un periodo di conteggio corrispondente al file di interrogazione di AbaImmo; in caso contrario, crearne uno.
+\--> se è attivato, occorre verificare se esiste un periodo di conteggio identico a quello del file di interrogazione di AbaImmo; in caso contrario ne registri uno corrispondente.
 
-13\. Vai ora a "Fatture" ("Rechnungen"), seleziona l'immobile e premi a destra su "Esporta" ("exportieren")
+13\. Navighi ora a "Fatture" ("Rechnungen"), selezioni l'immobile e prema a destra su "esporta" ("exportieren")
 
-14\. Seleziona il tipo di esportazione "AbaImmo" e configura le informazioni in base alla selezione. Tieni presente che l'elettricità è disponibile solo a partire dalla V2025.
+14\. Selezioni il tipo di esportazione "AbaImmo" e configuri le informazioni secondo la selezione. Tenga presente che l'elettricità è disponibile solo a partire dalla V2025.
 
-15\. Seleziona ora il file da caricare e clicca su "Esporta" ("exportieren"). Al termine del calcolo il file è pronto per il download.
+15\. Selezioni ora il file da caricare e clicchi su "esporta" ("exportieren"). Al termine del calcolo il file è pronto per il download.
 
-16. Scarica il file completato sul tuo computer tramite "Scarica" ("Herunterladen").
+16. Scarichi il file completato sul Suo computer tramite "Scarica" ("Herunterladen").
 
-17\. Carica ora il file scaricato in AbaImmo in Y2312 Elaborare interfaccia (Schnittstelle verarbeiten) (importazione).
+17\. Carichi ora il file scaricato in AbaImmo sotto Y2312 Elaborare interfaccia (importazione).
 
-18\. Visualizza i dati caricati in Y2311. (Seleziona il numero dell'immobile)
+18\. Visualizzi i dati caricati sotto Y2311. (Selezioni il numero dell'immobile)
 
 ![AbaImmo – Figura 6](/img/schnittstellen-dta-vhka-files-abaimmo/06.png)
 
 ### Allineamento dei dati tra AbaImmo e smart-me
 
-Affinché il file possa essere letto correttamente, in smart-me Billing occorre registrare il rispettivo ObjektID di Abacus nelle chiavi esterne (externe Schlüssel).
+Affinché il file possa essere letto correttamente, in smart-me occorre inserire il rispettivo ObjektID di Abacus nelle chiavi esterne dello smart-me Billing.
 
-1.  Apri il file esportato in un editor.
+1.  Apra il file esportato in un editor.
 
-2.  Cerca nel file l'ObjektID (4) di ciascuno degli appartamenti.
+2.  Cerchi nel file l'ObjektID (4) di ciascuno degli appartamenti.
 
-3.  Inserisci l'ObjektID (4) nell'unità abitativa corrispondente in smart-me Billing alla voce Chiavi esterne (Externe Schlüssel).
+3.  Inserisca l'ObjektID (4) nell'unità abitativa corrispondente nello smart-me Billing alla voce Chiavi esterne (Externe Schlüssel).
 
 
 ![AbaImmo – Figura 7](/img/schnittstellen-dta-vhka-files-abaimmo/07.png)
@@ -123,33 +125,33 @@ Affinché il file possa essere letto correttamente, in smart-me Billing occorre 
 
 Per ogni unità di conteggio in smart-me deve essere disponibile un ObjektID dal file. L'ObjektID di AbaImmo deve ora essere collegato all'appartamento tramite le chiavi esterne.
 
-Secondo l'esempio sopra, per l'appartamento 303-2.2 in smart-me viene ora collegato l'appartamento di 4,5 locali con l'ID "1101" in 4a posizione.
+Secondo l'esempio sopra, per l'appartamento 303-2.2 in smart-me viene ora collegato l'appartamento di 4,5 locali con l'ID "1101" alla 4a posizione.
 
 ![AbaImmo – Figura 9](/img/schnittstellen-dta-vhka-files-abaimmo/09.png)
 
 ### Eseguire la registrazione sui centri di costo in AbaImmo
 
-Se in AbaImmo sono necessarie registrazioni preliminari sui centri di costo, i dati possono essere ricavati dal riepilogo CSV di ogni fattura creata.
+Se in AbaImmo sono necessarie registrazioni preliminari sui centri di costo, queste possono essere ricavate dal riepilogo CSV di ogni fattura creata.
 
-Di solito ciò avviene per l'elettricità, che viene trasferita solo come singola posizione. In questo caso occorre registrare l'elettricità solare e l'elettricità di rete. Le singole quote per ripartire i ricavi possono essere ricavate dal CSV.
+Di solito ciò avviene per l'elettricità, che viene trasmessa solo come posizione singola. Per le registrazioni in questo caso occorre registrare l'elettricità solare e l'elettricità di rete. Le singole quote possono essere ricavate dal CSV per ripartire i ricavi.
 
 Per la ripartizione dell'elettricità solare ciò sarà necessario più spesso, poiché l'origine di questa informazione si trova nel sistema smart-me.
 
-Per gli altri centri di costo sono di solito disponibili fatture esterne che possono essere registrate.
+Per gli altri centri di costo di solito sono disponibili fatture esterne che possono essere registrate.
 
-1.  Accedi a smart-me Billing tramite la scheda Fatturazione (Rechnungsstellung)
+1.  Acceda allo smart-me Billing tramite la scheda Fatturazione (Rechnungsstellung)
 
-2.  Seleziona l'immobile
+2.  Selezioni l'immobile
 
-3.  Seleziona il periodo di fatturazione e crea una fattura
+3.  Selezioni il periodo di fatturazione e crei una fattura
 
-4.  Quando la fattura del periodo corrispondente è stata creata, apri il Riepilogo CSV (Zusammenfassung CSV)
+4.  Quando la fattura per il periodo corrispondente è stata creata, apra il Riepilogo CSV (Zusammenfassung CSV)
 
 
 ![AbaImmo – Figura 10](/img/schnittstellen-dta-vhka-files-abaimmo/10.png)
 
 ![AbaImmo – Figura 11](/img/schnittstellen-dta-vhka-files-abaimmo/11.png)
 
-Il file contiene i kWh e i m3 venduti e il prezzo per tariffa, per unità di conteggio e in totale.
+Al suo interno si trovano i kWh e m3 venduti e il prezzo per tariffa, per unità di conteggio e in totale.
 
-Con questo valore totale della rispettiva tariffa è possibile effettuare una registrazione in AbaImmo e poi ripartirla in per mille con il file DTA-VHKA.
+Con questo valore totale della rispettiva tariffa è possibile effettuare una registrazione in AbaImmo e ripartirla poi correttamente in per mille con il file DTA-VHKA.

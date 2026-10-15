@@ -33,7 +33,7 @@ Supported Askoma products:
 
 - Available in the standard software from mid-September 2024.
 
-- On the router side, make sure that the IP address of the Telstar does not change.
+- On the router side, you must ensure that the IP address of the Telstar does not change.
 
 
 ### Configuring Askoheat+ and smart-me Telstar 80A / CT
@@ -49,7 +49,7 @@ Telstar 80A / CT:
 
 - Enable DNS (DNS aktivieren)
 
-- Select Internal IP (Interne IP)
+- Select internal IP (Interne IP wählen)
 
 - Save (Speichern)
 
@@ -64,7 +64,7 @@ Telstar 80A / CT:
 <div className="row">
 <div className="col col--5">
 
-- Read out the IP address via CMD using the ping command on the displayed DNS address. You can find the DNS address in the Advanced Settings (Erweiterte Einstellungen) under "Enable DNS (DNS aktivieren)". e.g. ping smart-me\_6303192.dns-me.com
+- Read out the IP address via CMD using the ping command on the displayed DNS address. You can find the DNS address in the Advanced settings (Erweiterte Einstellungen) under "Enable DNS" (DNS aktivieren). e.g. ping smart-me\_6303192.dns-me.com
 
 </div>
 <div className="col col--7 text--center">
@@ -86,12 +86,12 @@ These may vary and are not the responsibility of smart-me.
 
 -  Select Smart-Me from the list
 
-- Click Start Connection
+- Click on Start Connection
 
 
 ![Askoma – Figure 5](/img/drittsysteme-askoma/05.png)
 
-- You can then check whether the measured value is updated: on the Setup3 page under STATUS, check that the watt value refreshes every 1–3 seconds.
+- You can then check whether the measured value updates: on the Setup3 page under STATUS, the watt value should refresh every 1-3 seconds.
 
 
 ![Askoma – Figure 6](/img/drittsysteme-askoma/06.png)

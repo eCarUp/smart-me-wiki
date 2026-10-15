@@ -8,20 +8,20 @@ Questa pagina illustra gli errori noti relativi ai contatori virtuali.
 
 Errore: "Formula non valida" ("Formel ungültig")
 
-Se si desidera creare un contatore virtuale e si riceve il seguente messaggio di errore.
+Quando si desidera creare un contatore virtuale e si riceve il seguente messaggio di errore.
 
-- Verificare se il contatore che si desidera aggiungere è offline.
+- Controllare se il contatore che si desidera aggiungere è offline.
 
 
 ![Errori del contatore virtuale – Figura 1](/img/stoerungsbehebung-virtueller-zaehler-fehler/01.png)
 
 Un contatore offline appare come segue nella struttura delle cartelle.
 
-In tal caso, consultare la pagina seguente:
+In tal caso, andare alla pagina seguente:
 
 [Contatore offline](/stoerungsbehebung/zaehler-offline)
 
-Se il contatore offline non è più necessario, occorre eliminarlo e creare nuovamente il contatore virtuale.
+Se il contatore offline non è più necessario, occorre eliminarlo e creare di nuovo il contatore virtuale.
 
 Il problema dovrebbe così essere risolto.
 

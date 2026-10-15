@@ -8,19 +8,19 @@ This page describes how to delete or deactivate a meter.
 
 ## General
 
-The data of a deleted meter is permanently deleted and cannot be restored.
+Once a meter is deleted, its data is permanently lost and cannot be restored.
 
-As a rule, smart-me does not recommend deleting meters. We generally recommend deactivating meters instead. Deactivated meters do not incur any license costs, and you can access the historical data at any time.
+smart-me generally advises against deleting meters. Deactivate them instead. Deactivated meters cause no license costs, and you can access their historical data at any time.
 
-For M-Bus meters, deleting is not effective: if the meters are still online, they reappear in the portal at the next reading. In this case, deactivation is the only option.
+Deleting an M-Bus meter does not work. If the meter is still online, it shows up in the portal again at the next reading. For M-Bus meters, deactivating is the only option.
 
-## Deactivate a meter
+## Deactivate meter
 
 - Log in to the portal
 
 - Select the meter
 
-- Select the gear icon at the top right
+- Select the gear icon in the top right corner
 
 - Advanced settings (Erweiterte Einstellungen)
 
@@ -28,14 +28,14 @@ For M-Bus meters, deleting is not effective: if the meters are still online, the
 
 - Save (Speichern)
 
-- Select the arrow at the top left to return to the main overview
+- Select the arrow in the top left corner to return to the main overview
 
-- The meter is now grey
+- The meter is now gray
 
 
 ![Delete meter – Figure 1](/img/konfiguration-inbetriebnahme-zaehler-loeschen/01.png)
 
-## Deactivate a Pico
+## Deactivate Pico
 
 - Log in to the portal
 
@@ -51,20 +51,20 @@ For M-Bus meters, deleting is not effective: if the meters are still online, the
 
 - Save (Speichern)
 
-- The Pico is now grey
+- The Pico is now gray
 
 
 ![Delete meter – Figure 2](/img/konfiguration-inbetriebnahme-zaehler-loeschen/02.png)
 
-## Delete a meter
+## Delete meter
 
-- Deleting is irreversible
+- Deleting cannot be undone
 
 - Log in to the portal
 
 - Select the meter
 
-- Select the gear icon at the top right
+- Select the gear icon in the top right corner
 
 - Check that the serial number is correct. The field must not be empty.
 
@@ -74,7 +74,7 @@ For M-Bus meters, deleting is not effective: if the meters are still online, the
 
 - Yes (Ja)
 
-- Select the arrow at the top left to return to the main overview.
+- Select the arrow in the top left corner to return to the main overview.
 
 - The meter is now deleted.
 

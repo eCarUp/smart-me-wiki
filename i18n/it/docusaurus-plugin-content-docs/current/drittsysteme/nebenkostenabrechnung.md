@@ -24,7 +24,7 @@ Riedstrasse 18, CH-6343 Rotkreuz · +41 41 511 09 99
 
 **Servizio Autobill**
 
-- Sempre insieme a un partner smart-me (formazione frequentata)
+- Sempre in collaborazione con un partner smart-me (formazione frequentata)
 - Rispetto dello schema di misura smart-me
 - Conteggio solo con hardware smart-me
 - Configurazione del Modulo 1 da parte di smart-me
@@ -40,11 +40,11 @@ Hauptstrasse 48, CH-6277 Kleinwangen · +41 41 510 06 25
 
 [www.adenatec.ch](https://www.adenatec.ch/) · [info@adenatec.ch](mailto:info@adenatec.ch)
 
-- Conteggio RCP (raggruppamento ai fini del consumo proprio), RCP virtuale (vRCP) ed e-mobility
+- Conteggio RCP, RCP virtuale (vRCP) e mobilità elettrica
 - Conteggio e incasso incl. configurazione del portale
 - Fatturazione fino a 4× all'anno
-- Conteggio VEWA in millesimi 1× all'anno
-- Funzionamento esclusivamente con hardware smart-me
+- Conteggio VEWA in per mille 1× all'anno
+- Esercizio esclusivamente con hardware smart-me
 
 </Kachel>
 
@@ -55,12 +55,12 @@ Allmendingenweg 11, CH-3073 Gümligen · +41 31 950 60 70
 [gerberelektro.ch](https://gerberelektro.ch/) · [info@gerberelektro.ch](mailto:info@gerberelektro.ch)
 
 - Conteggio indipendente dall'hardware (interfaccia con smart-me)
-- Invio delle fatture per e-mail o per posta
+- Invio delle fatture via e-mail o per posta
 - Supporto nella definizione delle tariffe
 - Consulenza sull'ottimizzazione energetica
-- Conteggio per RCP (raggruppamento ai fini del consumo proprio), RCP virtuale (vRCP) e CEL (comunità elettrica locale) (fino a 4× all'anno)
+- Conteggio per RCP, vRCP e CEL (comunità elettrica locale) (fino a 4× all'anno)
 - Opzionale: preparazione dei dati per l'esercizio Minergie
-- Opzionale: servizio di picchetto 24h con manutenzione remota
+- Opzionale: servizio di picchetto 24h per la manutenzione remota
 - Opzionale: messa a disposizione dell'accesso a Internet
 
 </Kachel>
@@ -71,8 +71,8 @@ Blattenbach 8, CH-8636 Wald · +41 55 266 11 33
 
 [honegger.com](https://honegger.com/) · [info@honegger.com](mailto:info@honegger.com)
 
-- Conteggio di impianti e-mobility, RCP (raggruppamento ai fini del consumo proprio) e RCP virtuale (vRCP) installati da noi stessi
-- Pianifichiamo, realizziamo e assistiamo tutto da un unico fornitore
+- Conteggio di impianti di mobilità elettrica, RCP e vRCP installati in proprio
+- Pianifichiamo, realizziamo e assistiamo tutto da un unico interlocutore
 - Conteggio solo con hardware smart-me
 - Fatturazione trimestrale
 - Durata minima da concordare
@@ -87,7 +87,7 @@ Zürichstrasse 68, CH-6004 Luzern · +41 41 562 39 61
 
 - Conteggio con hardware smart-me o file SDAT
 - Configurazione del Modulo 1 da parte di Liveno
-- Fatturazione RCP (raggruppamento ai fini del consumo proprio), max. 4x all'anno
+- Fatturazione RCP, max. 4x all'anno
 - Fatturazione VEWA 1x all'anno (senza acconto)
 
 </Kachel>
@@ -98,9 +98,9 @@ Kirchstrasse 18, CH-9200 Gossau SG · +41 71 388 20 10
 
 [www.techcom.ch](https://www.techcom.ch/) · [info@techcom.ch](mailto:info@techcom.ch)
 
-- Soluzione completa con installazione e servizio di conteggio RCP (raggruppamento ai fini del consumo proprio), RCP virtuale (vRCP), CEL (comunità elettrica locale) ed e-mobility
-- Conteggio per RCP, vRCP, CEL ed e-mobility
-- Conteggio VEWA delle spese accessorie
+- Soluzione completa con installazione e servizio di conteggio RCP, vRCP, CEL e mobilità elettrica
+- Conteggio per RCP, vRCP, CEL e mobilità elettrica
+- Conteggio delle spese accessorie VEWA
 - Ottimizzazione energetica
 
 </Kachel>
@@ -117,7 +117,7 @@ Morillonstrasse 77, CH-3007 Bern · +41 31 511 20 30
 
 [www.blockstrom.com](https://www.blockstrom.com/) · [info@blockstrom.com](mailto:info@blockstrom.com)
 
-opzionalmente con incasso
+opzionale con incasso
 
 </Kachel>
 
@@ -207,7 +207,7 @@ Ebenaustrasse 10, CH-6048 Horw · +41 41 318 36 00
 
 <Kachel bild="/img/drittsysteme-nebenkostenabrechnung/18.png" titel="Schibli AG">
 
-Centro di competenza per le energie rinnovabili
+Centro di competenza energie rinnovabili
 
 Klosbachstrasse 67, CH-8032 Zürich · +41 44 265 61 01
 

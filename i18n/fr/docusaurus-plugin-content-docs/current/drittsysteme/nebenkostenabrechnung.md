@@ -1,22 +1,22 @@
 ---
-title: 'Prestataires RCP, décompte de chauffage / charges accessoires'
+title: 'Prestataires RCP, décompte des frais de chauffage et des charges accessoires'
 slug: '/drittsysteme/nebenkostenabrechnung'
-description: 'Pour utiliser les données de compteur de smart-me dans un décompte des charges accessoires, les compteurs ont besoin d''une licence Professional.'
+description: 'Pour utiliser les données de compteur de smart-me dans un décompte des charges accessoires, les compteurs doivent disposer d''une licence Professional.'
 sidebar_label: 'Prestataires charges accessoires'
 ---
-Pour utiliser les données de compteur de smart-me dans un décompte des charges accessoires, les compteurs ont besoin d'une licence Professional.
+Pour utiliser les données de compteur de smart-me dans un décompte des charges accessoires, les compteurs doivent disposer d'une licence Professional.
 
 [EN](https://doc.smart-me.com/third-party-systems/service-charge-settlement)
 
-Les prestataires suivants proposent des services de décompte basés sur notre plateforme smart-me. Ils reprennent aussi des installations qu'ils n'ont pas installées eux-mêmes et proposent, sur demande, uniquement le décompte.
+Les prestataires suivants proposent des services de décompte basés sur notre plateforme smart-me. Ils reprennent aussi des installations qu'ils n'ont pas installées eux-mêmes et peuvent, sur demande, se charger uniquement du décompte.
 
-## Services hautement automatisés/spécialisés avec Autobill :
+## Prestations hautement automatisées/spécialisées avec Autobill :
 
 <Kacheln min="22rem">
 
 <Kachel bild="/img/drittsysteme-nebenkostenabrechnung/01.png" titel="smart-me AG">
 
-Avec autobill, le décompte d'énergie passe d'une charge administrative chronophage à un service entièrement automatisé, qui prend tout en charge, de la mesure jusqu'à l'encaissement.
+Avec autobill, le décompte d'énergie n'est plus une charge administrative chronophage : il devient un service entièrement automatisé, qui prend tout en charge, de la mesure jusqu'à l'encaissement.
 
 Riedstrasse 18, CH-6343 Rotkreuz · +41 41 511 09 99
 
@@ -40,11 +40,11 @@ Hauptstrasse 48, CH-6277 Kleinwangen · +41 41 510 06 25
 
 [www.adenatec.ch](https://www.adenatec.ch/) · [info@adenatec.ch](mailto:info@adenatec.ch)
 
-- Décompte RCP, vRCP et E-Mobility
-- Décompte et encaissement, configuration du portail incluse
+- Décompte RCP (regroupement dans le cadre de la consommation propre), RCP virtuel (vRCP) et E-Mobility
+- Décompte et encaissement, configuration du portail comprise
 - Facturation jusqu'à 4× par an
-- Décompte VEWA en pour mille 1× par an
-- Exploitation exclusivement avec du matériel smart-me
+- Décompte VEWA au pour mille 1× par an
+- Exploitation uniquement avec du matériel smart-me
 
 </Kachel>
 
@@ -58,9 +58,9 @@ Allmendingenweg 11, CH-3073 Gümligen · +41 31 950 60 70
 - Envoi des factures par e-mail ou par courrier
 - Assistance pour la conception des tarifs
 - Conseil en optimisation énergétique
-- Décompte pour RCP, vRCP et CEL (communauté électrique locale) (jusqu'à 4× par an)
+- Décompte pour RCP (regroupement dans le cadre de la consommation propre), RCP virtuel (vRCP) et CEL (communauté électrique locale) (jusqu'à 4× par an)
 - En option : préparation des données pour l'exploitation Minergie
-- En option : service de piquet 24h en télémaintenance
+- En option : service de piquet 24h pour la télémaintenance
 - En option : mise à disposition de l'accès Internet
 
 </Kachel>
@@ -71,7 +71,7 @@ Blattenbach 8, CH-8636 Wald · +41 55 266 11 33
 
 [honegger.com](https://honegger.com/) · [info@honegger.com](mailto:info@honegger.com)
 
-- Décompte des installations E-Mobility, RCP & vRCP installées par nos soins
+- Décompte des installations E-Mobility, RCP (regroupement dans le cadre de la consommation propre) et RCP virtuel (vRCP) installées par nos soins
 - Nous planifions, construisons et assurons le suivi de tout, d'une seule main
 - Décompte uniquement avec du matériel smart-me
 - Facturation trimestrielle
@@ -87,7 +87,7 @@ Zürichstrasse 68, CH-6004 Luzern · +41 41 562 39 61
 
 - Décompte avec du matériel smart-me ou des fichiers SDAT
 - Configuration du module 1 par Liveno
-- Facturation RCP, max. 4x par an
+- Facturation RCP (regroupement dans le cadre de la consommation propre), max. 4x par an
 - Facturation VEWA 1x par an (sans acomptes)
 
 </Kachel>
@@ -98,7 +98,7 @@ Kirchstrasse 18, CH-9200 Gossau SG · +41 71 388 20 10
 
 [www.techcom.ch](https://www.techcom.ch/) · [info@techcom.ch](mailto:info@techcom.ch)
 
-- Solution complète avec installation et service de décompte RCP, vRCP, CEL et E-Mobility
+- Solution complète avec installation et service de décompte RCP (regroupement dans le cadre de la consommation propre), RCP virtuel (vRCP), CEL (communauté électrique locale) et E-Mobility
 - Décompte pour RCP, vRCP, CEL et E-Mobility
 - Décompte des charges accessoires VEWA
 - Optimisation énergétique
@@ -177,7 +177,7 @@ Route du Pissot 2, CH-1847 Rennaz · +41 21 967 33 90
 
 [mg-partners.ch](https://mg-partners.ch/) · [info@mg-partners.ch](mailto:info@mg-partners.ch)
 
-Prestation de service en français — prestation de service en français
+Prestation en français — prestation de service en français
 
 </Kachel>
 
@@ -225,7 +225,7 @@ Delehala 36, LIE-9493 Mauren · +423 788 00 93
 
 </Kacheln>
 
-## Logiciels compatibles pour le décompte de chauffage et des charges accessoires sans prestation de service
+## Logiciels compatibles pour le décompte des frais de chauffage et des charges accessoires sans prestation de service
 
 <Kacheln min="12rem">
 

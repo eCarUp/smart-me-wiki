@@ -1,22 +1,22 @@
 ---
 title: 'smartRED'
 slug: '/drittsysteme/smartred'
-description: 'smartRED est la filiale commune de smart-me et d''ABM.'
+description: 'smartRED est la filiale commune de smart-me et ABM.'
 sidebar_label: 'smartRED'
 ---
-smartRED est la filiale commune de smart-me et d'ABM. Elle se consacre au développement et à la commercialisation des produits smart-me et eCarUp pour le marché allemand.
+smartRED est la filiale commune de smart-me et ABM. Elle se concentre sur le développement et la distribution des produits smart-me et eCarUp sur le marché allemand.
 
-Depuis 2017, smartRED a mis en œuvre avec succès, avec son réseau de partenaires, plus de 1000 installations d'électricité pour les locataires. Ces installations permettent d'utiliser le courant solaire directement sur place.
+Depuis 2017, smartRED et son réseau de partenaires ont réalisé avec succès plus de 1 000 installations d'électricité pour les locataires. Elles permettent d'utiliser le courant solaire directement sur place.
 
-Avec le Billing Tool, des décomptes conformes à la loi sont générés automatiquement en Allemagne aussi. Les gérances et les bailleurs peuvent ainsi vendre très simplement à leurs locataires le courant solaire produit sur place, de manière efficace, transparente et numérique.
+Grâce à l'outil Billing, des décomptes conformes à la loi sont générés automatiquement en Allemagne aussi. Les gérances d'immeubles et les bailleurs et bailleresses peuvent ainsi vendre très simplement le courant solaire produit localement à leurs locataires, de manière efficace, transparente et numérique.
 
-Grâce aux interfaces ouvertes habituelles, les données d'énergie et de consommation s'intègrent de manière flexible dans des systèmes tiers, comme des solutions de gestion de l'énergie ou de décompte.
+Grâce aux interfaces ouvertes habituelles, les données d'énergie et de consommation s'intègrent avec souplesse dans des systèmes tiers comme des solutions de gestion de l'énergie ou de décompte.
 
-En outre, smartRED a vendu et installé plusieurs centaines de wallbox dans les espaces privés et (semi-)publics. Elle a ainsi contribué de manière importante au développement de l'infrastructure de recharge.
+En outre, avec plusieurs centaines de wallbox vendues et installées dans des espaces privés et (semi-)publics, smartRED a contribué de manière importante au développement de l'infrastructure de recharge.
 
-Aujourd'hui, plusieurs milliers de bornes de recharge sont gérées de manière intelligente via le backend eCarUp. Elles assurent une exploitation de l'électromobilité connectée et prête pour l'avenir.
+Aujourd'hui, plusieurs milliers de bornes de recharge sont gérées de manière intelligente via le backend eCarUp. Elles assurent ainsi une exploitation de l'électromobilité connectée et tournée vers l'avenir.
 
-smartRED allie innovation technologique et expérience pratique pour un avenir énergétique connecté, durable et décentralisé.
+smartRED allie innovation technologique et expérience pratique au service d'un avenir énergétique connecté, durable et décentralisé.
 
 ![smartRED – Illustration 1](/img/drittsysteme-smartred/01.png)
 

@@ -1,135 +1,266 @@
 ---
-title: 'Écran de la Pico'
+title: 'Pico Display'
 slug: '/produkte/pico-ladestation/pico-display'
 description: 'Cette page décrit le comportement de l''écran de la Pico.'
-sidebar_label: 'Écran de la Pico'
+sidebar_label: 'Pico Display'
 ---
 Cette page décrit le comportement de l'écran de la Pico.
 
-![Écran de la Pico – Illustration 1](/img/produkte-pico-ladestation-pico-display/01.png)
-
-[Borne de recharge Pico](/produkte/pico-ladestation)
-
-[Accessoires Pico](/produkte/pico-ladestation/pico-zubehör)
-
-## Écran
-
-La description de l'affichage s'applique à toutes les [versions du firmware](/konfiguration/firmware-update) à partir de 0.0.28.
-
-### Séquence aucune charge active
-
-![Écran de la Pico – Illustration 2](/img/produkte-pico-ladestation-pico-display/01.png)
-
-S'affiche lorsqu'aucun véhicule n'est connecté et qu'aucune charge n'a lieu. Vous pouvez personnaliser cette image vous-même.
-
-### Séquence véhicule branché en attente d'autorisation
-
-![Écran de la Pico – Illustration 3](/img/produkte-pico-ladestation-pico-display/03.png)
-
-S'affiche de manière répétée lorsque le véhicule est branché, mais que la borne n'a pas encore été autorisée dans le backend.
-
-![Écran de la Pico – Illustration 4](/img/produkte-pico-ladestation-pico-display/04.png)
-
-S'affiche de manière répétée lorsque le véhicule est branché, mais que la borne n'a pas encore été autorisée dans le backend.
+![Pico Display – illustration 1](/img/produkte-pico-ladestation-pico-display/01.png)
 
 
+## Affichage
 
-### Séquence authentification par CarID (Pico en ligne)
+La description de l'affichage est valable pour toutes les [versions du firmware](/konfiguration/firmware-update) à partir de la 0.0.28.
+
+### Séquence aucune recharge active
 
 <div className="row">
-<div className="col col--7 text--center">
+<div className="col col--10">
 
-![Écran de la Pico – Illustration 5](/img/produkte-pico-ladestation-pico-display/05.png)
-
-</div>
-<div className="col col--5">
-
-S'affiche lorsque le véhicule est branché et que la Car-ID est vérifiée.
+S'affiche lorsqu'aucun véhicule n'est connecté et qu'aucune recharge n'a lieu. Vous pouvez personnaliser cette image vous-même 
 
 </div>
+<div className="col col--2 text--center">
+
+![Pico Display – illustration 2](/img/produkte-pico-ladestation-pico-display/01.png)
+
+</div>
 </div>
 
-![Écran de la Pico – Illustration 6](/img/produkte-pico-ladestation-pico-display/06.png)
+### Séquence voiture branchée en attente d'autorisation
 
-S'affiche lorsque le véhicule n'est pas autorisé ou que la Car-ID n'est pas enregistrée dans le compte conducteur eCarUp. La Pico passe ensuite à la « Séquence véhicule branché en attente d'autorisation ».
+<div className="row">
+<div className="col col--10">
 
-![Écran de la Pico – Illustration 7](/img/produkte-pico-ladestation-pico-display/07.png)
+S'affiche de manière répétée lorsque la voiture est branchée, mais que la borne n'est pas encore autorisée dans le backend.
 
-S'affiche lorsque le véhicule est autorisé. La Pico passe ensuite à la « Séquence charge active ».
+</div>
+<div className="col col--2 text--center">
 
-### Séquence authentification par RFID (Pico en ligne)
+![Pico Display – illustration 3](/img/produkte-pico-ladestation-pico-display/03.png)
 
-![Écran de la Pico – Illustration 8](/img/produkte-pico-ladestation-pico-display/08.png)
+</div>
+</div>
 
-La carte RFID est vérifiée. Si la connexion est très bonne, il se peut que le texte ne s'affiche pas du tout.
+<div className="row">
+<div className="col col--10">
 
-![Écran de la Pico – Illustration 9](/img/produkte-pico-ladestation-pico-display/09.png)
+S'affiche de manière répétée lorsque la voiture est branchée, mais que la borne n'est pas encore autorisée dans le backend.
 
-S'affiche lorsque la carte RFID est autorisée.
+</div>
+<div className="col col--2 text--center">
 
-![Écran de la Pico – Illustration 10](/img/produkte-pico-ladestation-pico-display/10.png)
+![Pico Display – illustration 4](/img/produkte-pico-ladestation-pico-display/04.png)
 
-S'affiche lorsque l'autorisation RFID a réussi et qu'aucun véhicule n'est branché. Si un véhicule est branché, cet affichage est ignoré et la Pico passe à la « Séquence charge active ».
-
-![Écran de la Pico – Illustration 11](/img/produkte-pico-ladestation-pico-display/11.png)
-
-S'affiche lorsque la carte RFID n'est pas autorisée. La Pico passe ensuite à la « Séquence véhicule branché en attente d'autorisation » ou à la « Séquence aucune charge active ».
-
+</div>
+</div>
 
 
-### Séquence authentification par code QR (Pico en ligne)
 
-![Écran de la Pico – Illustration 12](/img/produkte-pico-ladestation-pico-display/12.png)
+### Séquence authentification avec CarID (Pico Online)
 
-La charge a été autorisée avec succès par code QR.
+<div className="row">
+<div className="col col--10">
 
-![Écran de la Pico – Illustration 13](/img/produkte-pico-ladestation-pico-display/10.png)
+S'affiche lorsque la voiture est branchée et que le Car-ID est en cours de vérification.
 
-S'affiche lorsque l'autorisation a réussi et qu'aucun véhicule n'est branché. Si un véhicule est branché, cet affichage est ignoré et la Pico passe à la « Séquence charge active ».
+</div>
+<div className="col col--2 text--center">
 
-### Séquence début de charge
+![Pico Display – illustration 5](/img/produkte-pico-ladestation-pico-display/05.png)
 
-![Écran de la Pico – Illustration 14](/img/produkte-pico-ladestation-pico-display/14.png)
+</div>
+</div>
+
+<div className="row">
+<div className="col col--10">
+
+S'affiche lorsque le véhicule n'est pas autorisé ou que le Car-ID n'est pas enregistré dans le compte conducteur eCarUp. La Pico passe ensuite à la « Séquence voiture branchée en attente d'autorisation »
+
+</div>
+<div className="col col--2 text--center">
+
+![Pico Display – illustration 6](/img/produkte-pico-ladestation-pico-display/06.png)
+
+</div>
+</div>
+
+<div className="row">
+<div className="col col--10">
+
+S'affiche lorsque le véhicule est autorisé. La Pico passe ensuite à la « Séquence recharge active ».
+
+</div>
+<div className="col col--2 text--center">
+
+![Pico Display – illustration 7](/img/produkte-pico-ladestation-pico-display/07.png)
+
+</div>
+</div>
+
+### Séquence authentification avec RFID (Pico Online)
+
+<div className="row">
+<div className="col col--10">
+
+La carte RFID est en cours de vérification. Si la connexion est très bonne, il se peut que le texte ne s'affiche pas du tout.
+
+</div>
+<div className="col col--2 text--center">
+
+![Pico Display – illustration 8](/img/produkte-pico-ladestation-pico-display/08.png)
+
+</div>
+</div>
+
+<div className="row">
+<div className="col col--10">
+
+S'affiche lorsque le RFID est autorisé.
+
+</div>
+<div className="col col--2 text--center">
+
+![Pico Display – illustration 9](/img/produkte-pico-ladestation-pico-display/09.png)
+
+</div>
+</div>
+
+<div className="row">
+<div className="col col--10">
+
+S'affiche lorsque l'autorisation RFID a réussi et qu'aucune voiture n'est branchée. Si une voiture est branchée, cet affichage est ignoré et la Pico passe à la « Séquence recharge active ».
+
+</div>
+<div className="col col--2 text--center">
+
+![Pico Display – illustration 10](/img/produkte-pico-ladestation-pico-display/10.png)
+
+</div>
+</div>
+
+<div className="row">
+<div className="col col--10">
+
+S'affiche lorsque le RFID n'est pas autorisé. La Pico passe ensuite à la « Séquence voiture branchée en attente d'autorisation » ou à la « Séquence aucune recharge active ».
+
+</div>
+<div className="col col--2 text--center">
+
+![Pico Display – illustration 11](/img/produkte-pico-ladestation-pico-display/11.png)
+
+</div>
+</div>
+
+
+
+### Séquence authentification avec code QR (Pico Online)
+
+<div className="row">
+<div className="col col--10">
+
+La recharge a été autorisée avec succès au moyen du code QR.
+
+</div>
+<div className="col col--2 text--center">
+
+![Pico Display – illustration 12](/img/produkte-pico-ladestation-pico-display/12.png)
+
+</div>
+</div>
+
+<div className="row">
+<div className="col col--10">
+
+S'affiche lorsque l'autorisation a réussi et qu'aucune voiture n'est branchée. Si une voiture est branchée, cet affichage est ignoré et la Pico passe à la « Séquence recharge active ».
+
+</div>
+<div className="col col--2 text--center">
+
+![Pico Display – illustration 13](/img/produkte-pico-ladestation-pico-display/10.png)
+
+</div>
+</div>
+
+### Séquence démarrage de la recharge
+
+<div className="row">
+<div className="col col--10">
 
  Valeur / symbole Description
 
 6A Courant de charge minimal
 
+</div>
+<div className="col col--2 text--center">
+
+![Pico Display – illustration 14](/img/produkte-pico-ladestation-pico-display/14.png)
+
+</div>
+</div>
 
 
-![Écran de la Pico – Illustration 15](/img/produkte-pico-ladestation-pico-display/15.png)
+
+<div className="row">
+<div className="col col--10">
 
 Valeur / symbole Description
 
 32A Courant de charge max. autorisé 
 
-
-
 Lorsque la borne augmente le courant de charge maximal, cette image s'affiche brièvement avec le nouveau courant de charge max.
 
-### Séquence charge active
+</div>
+<div className="col col--2 text--center">
 
-![Écran de la Pico – Illustration 16](/img/produkte-pico-ladestation-pico-display/16.png)
+![Pico Display – illustration 15](/img/produkte-pico-ladestation-pico-display/15.png)
+
+</div>
+</div>
+
+### Séquence recharge active
+
+<div className="row">
+<div className="col col--10">
 
 Valeur / symbole Description
 
-0.59 Consommation depuis le début de la charge
+0.59 Consommation depuis le début de la recharge
 
 kWh Unité de la consommation affichée
 
 Batterie Aucune signification
 
-![Écran de la Pico – Illustration 17](/img/produkte-pico-ladestation-pico-display/17.png)
+</div>
+<div className="col col--2 text--center">
+
+![Pico Display – illustration 16](/img/produkte-pico-ladestation-pico-display/16.png)
+
+</div>
+</div>
+
+<div className="row">
+<div className="col col--10">
 
 Valeur / symbole Description
 
 22.09.23 Date
 
-15:18:43 Début de la charge
+15:18:43 Début de la recharge
 
-00:05:13 Durée de la charge active
+00:05:13 Durée de la recharge active
 
-![Écran de la Pico – Illustration 18](/img/produkte-pico-ladestation-pico-display/18.png)
+</div>
+<div className="col col--2 text--center">
+
+![Pico Display – illustration 17](/img/produkte-pico-ladestation-pico-display/17.png)
+
+</div>
+</div>
+
+<div className="row">
+<div className="col col--10">
 
 Valeur / symbole Description
 
@@ -139,11 +270,20 @@ kW Unité de la puissance affichée
 
 ….. bleu = puissance max. autorisée par la borne (1 pixel = 1A) 
 
- vert = courant soutiré par le véhicule par phase. (1 pixel = 1A)
+ vert = soutirage de courant par la voiture, par phase. (1 pixel = 1A)
 
-### Séquence fin de charge
+</div>
+<div className="col col--2 text--center">
 
-![Écran de la Pico – Illustration 19](/img/produkte-pico-ladestation-pico-display/19.png)
+![Pico Display – illustration 18](/img/produkte-pico-ladestation-pico-display/18.png)
+
+</div>
+</div>
+
+### Séquence fin de la recharge
+
+<div className="row">
+<div className="col col--10">
 
 Valeur / symbole Description
 
@@ -151,63 +291,135 @@ Valeur / symbole Description
 
 Lorsque la borne réduit le courant de charge maximal, cette image s'affiche brièvement avec le nouveau courant de charge max.
 
-![Écran de la Pico – Illustration 20](/img/produkte-pico-ladestation-pico-display/20.png)
+</div>
+<div className="col col--2 text--center">
+
+![Pico Display – illustration 19](/img/produkte-pico-ladestation-pico-display/19.png)
+
+</div>
+</div>
+
+<div className="row">
+<div className="col col--10">
 
 Valeur / symbole Description
 
 6A Courant de charge minimal
 
+</div>
+<div className="col col--2 text--center">
+
+![Pico Display – illustration 20](/img/produkte-pico-ladestation-pico-display/20.png)
+
+</div>
+</div>
 
 
-![Écran de la Pico – Illustration 21](/img/produkte-pico-ladestation-pico-display/21.png)
+
+<div className="row">
+<div className="col col--10">
 
 Valeur / symbole Description
 
 BYE Déconnexion réussie
 
-![Écran de la Pico – Illustration 22](/img/produkte-pico-ladestation-pico-display/22.png)
+</div>
+<div className="col col--2 text--center">
+
+![Pico Display – illustration 21](/img/produkte-pico-ladestation-pico-display/21.png)
+
+</div>
+</div>
+
+<div className="row">
+<div className="col col--10">
 
 Valeur / symbole Description
 
-0.59 Consommation totale de la dernière charge
+0.59 Consommation totale de la dernière recharge
 
  kWh Unité de la consommation affichée
 
-Après la déconnexion, la consommation totale de la dernière charge s'affiche pendant env. 14 s. 
+Après la déconnexion, la consommation totale de la dernière recharge s'affiche pendant env. 14 s. 
+
+</div>
+<div className="col col--2 text--center">
+
+![Pico Display – illustration 22](/img/produkte-pico-ladestation-pico-display/22.png)
+
+</div>
+</div>
 
 ### Séquence redémarrage de la borne
 
-Cette séquence décrit le redémarrage d'une borne via le portail.
+Cette séquence décrit le redémarrage d'une borne via le portail
 
-![Écran de la Pico – Illustration 23](/img/produkte-pico-ladestation-pico-display/21.png)
+<div className="row">
+<div className="col col--10">
 
 Valeur / symbole Description
 
 BYE Signal de redémarrage
 
-![Écran de la Pico – Illustration 24](/img/produkte-pico-ladestation-pico-display/22.png)
+</div>
+<div className="col col--2 text--center">
+
+![Pico Display – illustration 23](/img/produkte-pico-ladestation-pico-display/21.png)
+
+</div>
+</div>
+
+<div className="row">
+<div className="col col--10">
 
 Valeur / symbole Description
 
-0.59 Consommation totale de la dernière charge
+0.59 Consommation totale de la dernière recharge
 
 kWh Unité de la consommation affichée
 
-![Écran de la Pico – Illustration 25](/img/produkte-pico-ladestation-pico-display/25.png)
+</div>
+<div className="col col--2 text--center">
+
+![Pico Display – illustration 24](/img/produkte-pico-ladestation-pico-display/22.png)
+
+</div>
+</div>
+
+<div className="row">
+<div className="col col--10">
 
 L'écran reste noir pendant env. 20 s.
 
-![Écran de la Pico – Illustration 26](/img/produkte-pico-ladestation-pico-display/26.png)
+</div>
+<div className="col col--2 text--center">
 
-Premier signe indiquant que la Pico démarre.
+![Pico Display – illustration 25](/img/produkte-pico-ladestation-pico-display/25.png)
 
-Après la séquence redémarrage de la borne, la Pico passe à la séquence mode MID
+</div>
+</div>
+
+<div className="row">
+<div className="col col--10">
+
+C'est le premier signe que la Pico démarre.
+
+Après la séquence redémarrage de la borne, la Pico passe à la séquence MID Mode
+
+</div>
+<div className="col col--2 text--center">
+
+![Pico Display – illustration 26](/img/produkte-pico-ladestation-pico-display/26.png)
+
+</div>
+</div>
 
 
 
 ### Messages de dérangement et avertissements
 
-![Écran de la Pico – Illustration 27](/img/produkte-pico-ladestation-pico-display/27.png)
+<div className="row">
+<div className="col col--10">
 
 Dérangement fatal
 
@@ -219,113 +431,217 @@ Dérangement fatal
 
 - Erreur 4 : problème avec le capteur RDC
 
+</div>
+<div className="col col--2 text--center">
 
-![Écran de la Pico – Illustration 28](/img/produkte-pico-ladestation-pico-display/28.png)
+![Pico Display – illustration 27](/img/produkte-pico-ladestation-pico-display/27.png)
+
+</div>
+</div>
+
+
+<div className="row">
+<div className="col col--10">
 
 SIM Error
 
 - Problème avec la carte SIM
 
+</div>
+<div className="col col--2 text--center">
 
-![Écran de la Pico – Illustration 29](/img/produkte-pico-ladestation-pico-display/29.png)
+![Pico Display – illustration 28](/img/produkte-pico-ladestation-pico-display/28.png)
+
+</div>
+</div>
+
+
+<div className="row">
+<div className="col col--10">
 
 Diode Error
 
-- La diode du véhicule n'est pas correcte. Vérifiez le câble de recharge ainsi que la connexion au véhicule. 
+- La diode dans la voiture n'est pas correcte. Vérifiez le câble de recharge ainsi que la connexion à la voiture 
+
+</div>
+<div className="col col--2 text--center">
+
+![Pico Display – illustration 29](/img/produkte-pico-ladestation-pico-display/29.png)
+
+</div>
+</div>
 
 
-![Écran de la Pico – Illustration 30](/img/produkte-pico-ladestation-pico-display/30.png)
+<div className="row">
+<div className="col col--10">
 
 Cable Error
 
 - Le câble de recharge signale une erreur. Vérifiez qu'il est correctement branché. 
 
+</div>
+<div className="col col--2 text--center">
 
-![Écran de la Pico – Illustration 31](/img/produkte-pico-ladestation-pico-display/31.png)
+![Pico Display – illustration 30](/img/produkte-pico-ladestation-pico-display/30.png)
+
+</div>
+</div>
+
+
+<div className="row">
+<div className="col col--10">
 
 P Limit
 
 - Le délestage est actif. La puissance de charge a été réduite. 
 
+</div>
+<div className="col col--2 text--center">
+
+![Pico Display – illustration 31](/img/produkte-pico-ladestation-pico-display/31.png)
+
+</div>
+</div>
 
 
 
-![Écran de la Pico – Illustration 32](/img/produkte-pico-ladestation-pico-display/32.png)
+
+<div className="row">
+<div className="col col--10">
 
 Warn RDC
 
-- Le RDC-DD 6mA selon IEC 62955 (dispositif de détection de courant de défaut continu) s'est déclenché. La charge a été interrompue pour des raisons de sécurité. 
+- Le RDC-DD 6mA selon IEC 62955 (dispositif de détection de courant de défaut continu) s'est déclenché. La recharge a été interrompue pour des raisons de sécurité. 
+
+</div>
+<div className="col col--2 text--center">
+
+![Pico Display – illustration 32](/img/produkte-pico-ladestation-pico-display/32.png)
+
+</div>
+</div>
 
 
-![Écran de la Pico – Illustration 33](/img/produkte-pico-ladestation-pico-display/33.png)
+<div className="row">
+<div className="col col--10">
 
 Offline
 
-- La borne de recharge n'a pas de connexion au smart-me Cloud. 
+- La borne de recharge n'est pas connectée au smart-me Cloud. 
+
+</div>
+<div className="col col--2 text--center">
+
+![Pico Display – illustration 33](/img/produkte-pico-ladestation-pico-display/33.png)
+
+</div>
+</div>
 
 
 
 
 
-![Écran de la Pico – Illustration 34](/img/produkte-pico-ladestation-pico-display/34.png)
+<div className="row">
+<div className="col col--10">
 
 La LED s'allume en orange/rouge dans le coin supérieur droit de l'écran
 
 - Indique un message d'erreur. Au plus tard après 30 secondes, l'image d'erreur (p. ex. Cable Error) s'affiche à l'écran.
 
+</div>
+<div className="col col--2 text--center">
+
+![Pico Display – illustration 34](/img/produkte-pico-ladestation-pico-display/34.png)
+
+</div>
+</div>
 
 
 
-### Mode MID
 
-Pour passer en mode MID, vous pouvez cliquer sur « Afficher le relevé du compteur à l'écran » (« Zählerstand auf Display anzeigen ») dans les actions avancées du portail smart-me, démarrer ou redémarrer la borne, ou utiliser le capteur de luminosité.
+### MID Mode
 
-Avec une lampe de poche dirigée sur le capteur de luminosité, l'utilisateur peut saisir le code suivant par clignotement : sombre - clair - sombre - clair - sombre (chaque état doit durer entre 1 et 5 secondes)
+Pour passer en mode MID, vous pouvez cliquer sur « Afficher le relevé du compteur à l'écran » (Zählerstand auf Display anzeigen) dans les actions avancées du portail smart-me, démarrer ou redémarrer la borne, ou utiliser le capteur de luminosité.
 
-![Écran de la Pico – Illustration 35](/img/produkte-pico-ladestation-pico-display/35.png)
+À l'aide d'une lampe de poche dirigée sur le capteur de luminosité, l'utilisateur peut saisir le code suivant par clignotement : sombre - clair - sombre - clair - sombre (chaque état doit durer entre 1 et 5 secondes)
 
-Valeur / symbole Description
+<div className="row">
+<div className="col col--10">
 
-Point Capteur de luminosité
+#### Position du capteur de lumière
 
-![Écran de la Pico – Illustration 36](/img/produkte-pico-ladestation-pico-display/36.png)
+- Point capteur de lumière
 
-Valeur / symbole Description
-M Mode MID actif
+</div>
+<div className="col col--2 text--center">
 
-0.2.1 Version et somme de contrôle selon le code OBIS
+![Pico Display – illustration 35](/img/produkte-pico-ladestation-pico-display/35.png)
 
-v 2.2 Numéro de version du firmware
+</div>
+</div>
 
-CRC 4F55 Somme de contrôle du firmware
+<div className="row">
+<div className="col col--10">
 
-![Écran de la Pico – Illustration 37](/img/produkte-pico-ladestation-pico-display/37.png)
+#### MID Display 1
 
-Valeur / symbole Description
-M   Mode MID actif
+- 0.2.1 Version et somme de contrôle selon le code Obis
 
-F.F.0   Code OBIS
+- v 2.2 Numéro de version du firmware
 
-03   Code d'erreur
+- CRC 4F55 Somme de contrôle du firmware
 
-S'affiche uniquement en présence d'un message d'erreur. 
+</div>
+<div className="col col--2 text--center">
 
-Code d'erreur Description
+![Pico Display – illustration 36](/img/produkte-pico-ladestation-pico-display/36.png)
 
-x1-x3 : la borne de recharge n'est pas étalonnée
-x4 : erreur du processus d'affichage (somme de contrôle)
+</div>
+</div>
 
-1x : erreur du Meter-SOM (matériel)
+<div className="row">
+<div className="col col--10">
 
-2x-3x : erreur du Meter-SOM (somme de contrôle)
+#### MID Display 2
 
-4x : erreur du Meter-SOM (flash) Autres : erreur générale du Meter-SOM 
+- F.F.0   Code Obis
 
-![Écran de la Pico – Illustration 38](/img/produkte-pico-ladestation-pico-display/38.png)
+- 03   Code d'erreur
 
-Valeur / symbole Description
-M Mode MID actif
+- S'affiche uniquement lorsqu'un message d'erreur est présent. 
 
-1.8.0 Code OBIS
+#### Description des codes d'erreur
 
-00013.04 kWh Le relevé du compteur en kWh avec 2 décimales.
+- x1-x3 : la borne de recharge n'est pas étalonnée
+- x4 : erreur du processus d'affichage (somme de contrôle)
+
+- 1x : erreur dans le Meter-SOM (hardware)
+
+- 2x-3x : erreur Meter-SOM (somme de contrôle)
+
+- 4x : erreur Meter-SOM (flash) Autres : erreur générale Meter-SOM 
+
+</div>
+<div className="col col--2 text--center">
+
+![Pico Display – illustration 37](/img/produkte-pico-ladestation-pico-display/37.png)
+
+</div>
+</div>
+
+<div className="row">
+<div className="col col--10">
+
+#### MID Display 3
+
+- 1.8.0 Code Obis
+
+- 00013.04 kWh Le relevé du compteur en kWh avec 2 décimales.
+
+</div>
+<div className="col col--2 text--center">
+
+![Pico Display – illustration 38](/img/produkte-pico-ladestation-pico-display/38.png)
+
+</div>
+</div>

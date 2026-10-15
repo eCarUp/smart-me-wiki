@@ -1,20 +1,22 @@
 ---
 title: 'smart-me Nimbus 100A'
 slug: '/produkte/nimbus'
-description: 'Montaggio su piastra portacontatore secondo DIN43857-1'
+description: 'Montaggio su piastra di montaggio per contatori secondo DIN43857-1'
 sidebar_label: 'Contatore trifase Nimbus 100A'
 ---
 ![smart-me Nimbus 100A – Figura 1](/img/produkte-nimbus/01.png)
 
+## Accessori
 [Morsetti a innesto per contatore Nimbus 100A](/drittprodukte/zaehlersteckklemmen-nimbus-100A)
 
 ## Funzioni
+### Panoramica delle funzioni
 
-- Montaggio su piastra portacontatore secondo DIN43857-1
+- Montaggio su piastra di montaggio per contatori secondo DIN43857-1
 
-- Comunicazione con il cloud smart-me: WLAN 2.4 GHz
+- Comunicazione con il smart-me Cloud: WLAN 2.4 GHz
 
-- Compatibile con morsetti a innesto per contatore (ad es. Hager e Seidl)
+- Compatibile con morsetti a innesto per contatori (ad es. Hager e Seidl)
 
 - Interfaccia cliente DSMR P1 V5.0.2
 
@@ -28,19 +30,19 @@ sidebar_label: 'Contatore trifase Nimbus 100A'
 
 - [Interfacce](/) dal sistema tramite API, CSV, MSCONS e IS-E
 
-- Connessione dati crittografata in tempo reale al cloud smart-me 
+- Connessione dati crittografata in tempo reale con il smart-me Cloud 
 
-- Curva delle letture del contatore firmata (valori ogni 15 min) secondo OCMF
+- Profilo delle letture del contatore firmato (valori a 15 min) secondo OCMF
 
-### Un ancoraggio sicuro per la Sua soluzione blockchain
+### Un ancoraggio sicuro per la sua soluzione blockchain
 
-Il contatore Nimbus è stato concepito come "oracolo hardware" affidabile per risolvere il problema critico dell'oracolo nel collegamento di dispositivi IoT a sistemi decentralizzati.
+Il contatore Nimbus è stato concepito come "oracolo hardware" affidabile, per risolvere il critico problema dell'oracolo nel collegamento di dispositivi IoT a sistemi decentralizzati.
 
 Il processo di firma ECDSA:
 
-1.  Chiave hardware: una chiave privata viene generata su un coprocessore crittografico e non lo lascia mai.
+1.  Chiave hardware: una chiave privata viene generata su un coprocessore crittografico e non lo lascia in nessun momento.
 
-2.  Firma on the Edge: ogni 15 minuti le letture del contatore (formato OCMF) vengono firmate con la chiave privata tramite ECDSA su una funzione di hash SHA-256.
+2.  Firma on the edge: ogni 15 minuti le letture del contatore (formato OCMF) vengono firmate con la chiave privata tramite ECDSA su una funzione di hash SHA-256.
 
 3.  Origine verificabile: il risultato è un pacchetto di dati con una firma digitale. Grazie alla chiave pubblica del contatore, qualsiasi applicazione può verificare senza alcun dubbio che i dati sono autentici e non modificati.
 
@@ -52,141 +54,288 @@ In questo modo il Nimbus offre una garanzia di sicurezza basata sull'hardware, s
 
 ## Display
 
+<div className="row">
+<div className="col col--6 text--center">
+
 ![smart-me Nimbus 100A – Figura 2](/img/produkte-nimbus/02.jpg)
+
+</div>
+<div className="col col--6">
 
 Valore / Simbolo Descrizione
 
-1.8.0 Codice OBIS della lettura del contatore visualizzata
+- 1.8.0 Codice OBIS della lettura del contatore visualizzata
 
-Q1 Quadrante attuale (Q1-Q4)
+- Q1 Quadrante attuale della potenza reattiva (Q1-Q4)
 
-Freccia Direzione dell'energia (destra prelievo / sinistra immissione)
+- Freccia Direzione dell'energia (a destra prelievo / a sinistra immissione)
 
-Ricezione (barre) Qualità del segnale WLAN
+- Ricezione (barre) Qualità del segnale WLAN
 
-0000053.2 Lettura del contatore
+- 0000053.2 Lettura del contatore
 
-5520W Potenza misurata istantanea con unità (w o var)
+- 5520W Potenza misurata istantanea (W o VAr)
 
-kWh Unità della lettura del contatore visualizzata (kWh o varh)
+- kWh Unità della lettura del contatore visualizzata (kWh o varh)
 
-### Display a rotazione
+</div>
+</div>
+
+### Display a scorrimento
+
+<div className="row">
+<div className="col col--6 text--center">
 
 ![smart-me Nimbus 100A – Figura 3](/img/produkte-nimbus/03.jpg)
 
+</div>
+<div className="col col--6">
+
 Lettura del contatore (codice OBIS seguito dalla lettura del contatore) 
 
-1.8.0 (A+) Energia attiva prelievo totale
-2.8.0 (A+) Energia attiva immissione totale
-5.8.0 (Q1) Energia reattiva induttiva prelievo totale
-6.8.0 (Q2) Energia reattiva capacitiva prelievo totale
-7.8.0 (Q3) Energia reattiva induttiva immissione totale
-8.8.0 (Q4) Energia reattiva capacitiva immissione totale
+- 1.8.0 (A+) Energia attiva prelievo totale
+- 2.8.0 (A+) Energia attiva immissione totale
+- 5.8.0 (Q1) Energia reattiva induttiva prelievo totale
+- 6.8.0 (Q2) Energia reattiva capacitiva prelievo totale
+- 7.8.0 (Q3) Energia reattiva induttiva immissione totale
+- 8.8.0 (Q4) Energia reattiva capacitiva immissione totale
 
+</div>
+</div>
+
+
+## Dimensioni e collegamenti
+
+![smart-me Nimbus 100A – Figura 8](/img/produkte-nimbus/08.png)
+
+## Schema di collegamento
+### Cablaggio
+
+Come linee di alimentazione sono ammessi cavi, conduttori rigidi e conduttori flessibili tra 4-35 mm2. I conduttori flessibili possono essere montati solo con capicorda adeguati. Ulteriori informazioni sulle linee di collegamento si trovano nella Quickstarter-Guide.
+
+Azionamento delle viti: Torx 25
+
+Prima dell'installazione, le linee di alimentazione devono essere messe fuori tensione e protette contro la manipolazione.
+
+Collegamento con conduttore neutro passante
+
+![smart-me Nimbus 100A – Figura 9](/img/produkte-nimbus/09.png)
+
+Schema di collegamento con conduttore neutro di eccitazione
+(il conduttore neutro può essere nettamente più piccolo di L1, L2 o L3)
+
+![smart-me Nimbus 100A – Figura 10](/img/produkte-nimbus/10.png)
+
+## Funzioni dei tasti
+
+Tasto 1 (T1)
+
+Per collegare il contatore a un account smart-me, durante la messa in servizio con l'app smart-me si preme il tasto 1 per 10 secondi. In seguito viene creata una rete Wifi specifica del dispositivo, alla quale il telefono cellulare può connettersi per memorizzarvi i dati di accesso Wifi.
+
+Tasto 2 (T2)
+
+Con il tasto 2 è possibile aprire il registro e il profilo delle letture del contatore. Per visualizzare il profilo delle letture del contatore, occorre premere il tasto 2 per 4 secondi. In seguito è possibile inserire la password. La cifra attualmente selezionata viene indicata lampeggiando. Per modificare questa cifra è possibile premere brevemente il tasto 2. Dopo 10 secondi la visualizzazione passa alla posizione successiva.
+
+Le password di accesso sono composte da 4 cifre numeriche.
+
+Se la password è corretta, viene visualizzata l'ultima voce del profilo delle letture del contatore. Per visualizzare la voce successiva occorre premere brevemente il tasto 2. Se il tasto 2 non viene premuto per 60 secondi, la visualizzazione torna alla visualizzazione della lettura del contatore.
+
+- Interfaccia P1: presa RJ-12 per moduli P1
+
+- EX1: interfaccia per il controllo esterno di contattori (non ancora supportata)
+
+- EX2: slot per moduli di comunicazione alternativi
+(non ancora supportato)
+
+- L1: LED di stato - acceso fisso in caso di connessione con il smart-me Cloud
+
+- L2: LED a impulsi - indica la potenza attualmente misurata in 10'000 Imp / kWh
+
+Il LED a impulsi può indicare l'energia attiva e reattiva. Per passare dalla potenza attiva a quella reattiva o viceversa, occorre premere il tasto T2 10 volte a intervalli di 1 sec. Se sul LED viene attualmente indicata la potenza attiva o reattiva è riconoscibile sull'ultima riga del display.
+
+![smart-me Nimbus 100A – Figura 11](/img/produkte-nimbus/11.png)
+
+## Interfaccia P1 (interfaccia cliente)
+
+L'interfaccia P1 del Nimbus consente a fornitori terzi o clienti finali di riutilizzare i dati misurati nei propri sistemi di controllo o di analisi.
+
+A tale scopo è necessario un modulo di lettura dell'interfaccia P1 con connettore RJ-12.
+Questo deve supportare il “P1 Companion Standard” di Netbeheer Nederland. Versione 5.0.2 (26.Februar.2016).
+
+Tensione:  5V DC, carico massimo:  100mA DC, isolamento rinforzato verso la rete
+
+[Maggiori informazioni](/schnittstellen/p1-schnittstelle)
+
+## Accessori
+
+- [Morsetti a innesto per contatore](/drittprodukte/zaehlersteckklemmen-nimbus-100A) - per sostituire facilmente i contatori senza interruzione di corrente
+
+## Pulizia
+
+Pulisca l'involucro del dispositivo con un panno asciutto. Non utilizzi detergenti chimici! 
+
+## Indicazioni di manutenzione e garanzia
+
+Il dispositivo non richiede manutenzione. In caso di danni (ad es. dovuti a trasporto o stoccaggio) non è consentito effettuare riparazioni in proprio. L'apertura del dispositivo comporta la decadenza del diritto di garanzia. Lo stesso vale se un difetto è riconducibile a influssi esterni (ad es. fulmine, acqua, incendio, temperature e condizioni atmosferiche estreme) nonché in caso di uso o trattamento improprio o negligente. I sigilli possono essere rotti solo da persone autorizzate! 
+
+## Informazioni di spedizione
+
+Numero articolo: 242065
+
+Nome articolo: smart-me 3-Phasen Zähler Nimbus 100A
+
+Numero di tariffa doganale: 9028.3019
+
+Dimensioni e peso senza imballaggio di spedizione: 25.5x18x7 \[cm\] / 1.1kg
+
+Produttore: smart-me AG, Riedstrasse 18, 6343 Rotkreuz
+
+## Messa in servizio
+
+[Maggiori informazioni](/konfiguration/inbetriebnahme)
+
+## Altre funzioni del display
+### Visualizzazione degli errori
+<div className="row">
+<div className="col col--6 text--center">
 ![smart-me Nimbus 100A – Figura 4](/img/produkte-nimbus/04.jpg)
+</div>
+<div className="col col--6">
 
-Visualizzazione errori (codice OBIS seguito dai messaggi di errore)
-
+</div>
+</div>
 C.60.9 Messaggi di errore (la pagina viene visualizzata solo in presenza di errori)
 
 - PhL Errore di cablaggio (sequenza delle fasi errata o fasi non cablate)
+
     123: Sequenza delle fasi errata. 1, 2 e 3 lampeggiano.
+
     1 : Solo la fase L1 collegata. 2 e 3 lampeggiano.
+
     2 : Solo la fase L2 collegata. 1 e 3 lampeggiano.
+
     3 : Solo la fase L3 collegata. 1 e 2 lampeggiano.
+
     12 : Solo le fasi L1 e L2 collegate. 3 lampeggia.
+
     1  3 : Solo le fasi L1 e L3 collegate. 2 lampeggia.
+
     23 : Solo le fasi L2 e L3 collegate. 1 lampeggia.
 
-- F:F:0 ( Viene visualizzato solo in presenza di uno degli errori seguenti)
+- F:F:0 ( Viene visualizzato solo se è presente uno degli errori seguenti)
+
     0x00: Nessun errore
+
     0xX2: Il contatore Nimbus non è calibrato
+
     0xX4: Errore del microprocessore, il contatore deve essere sostituito
+
     0xX8: Errore software, il contatore deve essere sostituito
+
     0xX6 Non calibrato ed errore del microprocessore, il contatore deve essere sostituito
+
     0xXA: Non calibrato ed errore software, il contatore deve essere sostituito
+
     0xXC: Errore del microprocessore ed errore software, il contatore deve essere sostituito
+
     0xXE: Non calibrato, errore del microprocessore ed errore software, il contatore deve essere sostituito
-    0x1X: Registro eventi pieno
 
-- Simbolo manipolazione del contatore (magnete):  codice OBIS C.51.6  Il contatore è stato influenzato negativamente.
+    0x1X: Registro pieno
 
-- Simbolo copertura dei morsetti aperta ( "G"):  codice OBIS C.51.2  Il coprimorsetti è aperto.
+- Simbolo manipolazione del contatore (magnete):  OBIS Code C.51.6  Il contatore è stato influenzato negativamente.
 
-Firmware (codice OBIS seguito dalle informazioni)
+- Simbolo copertura dei morsetti aperta ( "G"):  OBIS Code C.51.2  Il coperchio dei morsetti è aperto.
+
+Firmware (codice OBIS seguito da informazioni)
 
 C.1.6 762A Checksum della parte MID del firmware
-0.2.1 V 1.1 Versione del firmware della parte MID.
+0.2.1 V 1.1 Versione firmware della parte MID.
 
-### Funzioni speciali del display
-
+### Display del profilo delle letture del contatore
+<div className="row">
+<div className="col col--6 text--center">
 ![smart-me Nimbus 100A – Figura 5](/img/produkte-nimbus/05.jpg)
+</div>
+<div className="col col--6">
 
-Curva delle letture del contatore (valori ogni 15 min)
+</div>
+</div>
+Profilo delle letture del contatore (valori a 15 min)
 
-Apertura e uscita dalla memoria:
+Apertura e chiusura della memoria:
 
 - Per accedere alla memoria, prema il tasto di visualizzazione T1 per 3-4 secondi.
 
-- Per uscire dalla memoria, prema di nuovo il tasto di visualizzazione T1 per 3-4 secondi oppure attenda 60 secondi.
+- Per uscire dalla memoria, prema nuovamente il tasto di visualizzazione T1 per 3-4 secondi oppure attenda 60 secondi.
 
 - Per passare da un valore al successivo, prema brevemente il tasto di visualizzazione.
 
-Curva delle letture del contatore:
+Profilo delle letture del contatore:
 
 - 1.8.0 e 2.8.0: codici OBIS rappresentati nella memoria
 
 - 0001: numero della voce nella memoria 
 
-- Prima riga: 1.8.0 energia attiva positiva (prelievo) 
+- Prima riga: 1.8.0 Energia attiva positiva (prelievo) 
 
-- Seconda riga: 2.8.0 energia attiva negativa (immissione)
+- Seconda riga: 2.8.0 Energia attiva negativa (immissione)
 
 - Data e ora della voce
+
+### Registro 
+<div className="row">
+<div className="col col--6 text--center">
 
 ![smart-me Nimbus 100A – Figura 6](/img/produkte-nimbus/06.jpg)
 
 ![smart-me Nimbus 100A – Figura 7](/img/produkte-nimbus/07.jpg)
+</div>
+<div className="col col--6">
 
-Registro eventi 
+</div>
+</div>
 
-Apertura del registro eventi:
+Apertura del registro:
 
-- In modalità normale, premere il tasto di visualizzazione per 7-8 secondi.
+- Premere il tasto di visualizzazione in modalità normale per 7-8 secondi.
 
-Inserimento della password per la visualizzazione del registro eventi:
+Inserimento della password per la visualizzazione del registro:
 
 L'utente del contatore NIMBUS riceve la password dal provider.
 
 - Premendo brevemente il tasto, la prima cifra aumenta di 1.
-    Se la cifra è 9, alla pressione successiva torna a 0.
 
-- Se il tasto non viene premuto per 2 - 3 secondi, si passa automaticamente alla cifra successiva. Questa cifra lampeggia ed è possibile impostare di nuovo un numero qualsiasi.
+    Se la cifra è su 9, alla pressione successiva del tasto torna a 0.
+
+- Se il tasto non viene premuto per 2 - 3 secondi, si passa automaticamente alla cifra successiva. Questa cifra lampeggia ed è nuovamente possibile impostare un numero qualsiasi.
 
 - Una volta impostata la 4a cifra, l'inserimento della password termina dopo 2 - 3 secondi e la password viene verificata.
 
 - Se la password è corretta, viene visualizzata la schermata SMART-ME LOGBOOK.
 
-- Se la password non è corretta, per alcuni secondi viene visualizzata la password “FALSE” e il display torna alla modalità normale sulla 
+- Se la password non è corretta, per alcuni secondi viene visualizzata la password “FALSE” e la visualizzazione torna alla modalità normale su 
 
-- Se nel registro eventi non è ancora presente alcun messaggio (Total : NO ENTRY), il display torna alla modalità normale sulla schermata 2 o 3.
+- Se nel registro non è ancora presente alcun messaggio (Total : NO ENTRY), la visualizzazione torna alla modalità normale sulla schermata 2 o 3.
 
-Chiusura della visualizzazione del registro eventi:
+Chiusura della visualizzazione del registro:
 
-- Per uscire dal registro eventi, il tasto di visualizzazione deve essere tenuto premuto per circa 3 - 4 secondi. 
+- Per uscire dal registro occorre tenere premuto il tasto di visualizzazione per circa 3 - 4 secondi. 
 
-- Se il tasto di visualizzazione non viene premuto entro 60 secondi, il display torna anch'esso alla modalità normale sulla schermata 2 o 3.
+- Se il tasto di visualizzazione non viene premuto entro 60 secondi, la visualizzazione torna anch'essa alla modalità normale sulla schermata 2 o 3.
 
-C.60.9 :  codice OBIS del messaggio attualmente visualizzato 
+C.60.9 :  Codice OBIS del messaggio attualmente visualizzato 
 
-- 0001  :  numero del messaggio memorizzato; 0001 è il messaggio più recente.
+- 0001  :  Numero del messaggio memorizzato; 0001 è il messaggio più recente.
 
-- 8192  :  numero massimo di messaggi possibili nel registro eventi.
-    Quando nel registro eventi è memorizzato il numero massimo di messaggi possibili, non vengono più memorizzati altri messaggi ⇨ LOGBOOK FULL.
-    In caso di LOGBOOK FULL, ulteriori modifiche dei parametri rilevanti ai fini metrologici non sono più possibili senza violare la protezione metrologica.
+- 8192  :  Numero massimo di messaggi possibili nel registro.
+
+    Quando nel registro è memorizzato il numero massimo di messaggi possibili, non vengono più memorizzati altri messaggi ⇨ LOGBOOK FULL.
+
+    In caso di LOGBOOK FULL, ulteriori modifiche dei parametri rilevanti ai fini metrologici non sono più possibili senza violare il sigillo metrologico.
 
 - Seconda e terza riga:
-    identificativo e tipo del messaggio visualizzato.
+
+    Identificativo e tipo del messaggio visualizzato.
 
 - Quarta riga: data e ora del messaggio
 
@@ -209,107 +358,6 @@ Informazioni del registro:
 - Il contatore ha ricevuto una nuova calibrazione (New Meter Calibartion)
 
 - Registro eventi pieno (Last Stored Data, Logbook full)
-
-## Dimensioni e collegamenti
-
-![smart-me Nimbus 100A – Figura 8](/img/produkte-nimbus/08.png)
-
-## Schema di collegamento
-
-Cablaggio
-
-Come linee di alimentazione sono ammessi cavi cordati, conduttori rigidi e trefoli tra 4-35 mm2. I trefoli possono essere montati solo con capicorda a tubetto adeguati. Ulteriori informazioni sulle linee di collegamento sono disponibili nella Quickstarter-Guide.
-
-Azionamento delle viti: Torx 25
-
-Prima dell'installazione, le linee di alimentazione devono essere messe fuori tensione e protette contro la manipolazione.
-
-Collegamento con conduttore neutro passante
-
-![smart-me Nimbus 100A – Figura 9](/img/produkte-nimbus/09.png)
-
-Schema di collegamento con conduttore neutro di eccitazione
-(il conduttore neutro può essere notevolmente più piccolo di L1, L2 o L3)
-
-![smart-me Nimbus 100A – Figura 10](/img/produkte-nimbus/10.png)
-
-## Funzioni dei tasti
-
-Tasto 1 (T1)
-
-Per collegare il contatore a un account smart-me, durante la messa in servizio con l'app smart-me si preme il tasto 1 per 10 secondi. Viene quindi creata una rete Wifi specifica del dispositivo, alla quale il telefono cellulare può connettersi per memorizzarvi i dati di accesso Wifi.
-
-Tasto 2 (T2)
-
-Con il tasto 2 è possibile aprire il registro eventi e la curva delle letture del contatore. Per visualizzare la curva delle letture del contatore, il tasto 2 deve essere premuto per 4 secondi. Successivamente è possibile inserire la password. La cifra attualmente selezionata è indicata dal lampeggio. Per modificare questa cifra, è possibile premere brevemente il tasto 2. Dopo 10 secondi il display passa alla posizione successiva.
-
-Le password di accesso hanno 4 cifre numeriche.
-
-Se la password è corretta, viene visualizzata l'ultima voce della curva delle letture del contatore. Per visualizzare la voce successiva, il tasto 2 deve essere premuto brevemente. Se il tasto 2 non viene premuto per 60 secondi, il display torna alla visualizzazione della lettura del contatore.
-
-Interfaccia P1
-
-Presa RJ-12 per moduli P1
-
-EX1
-
-Interfaccia per il comando esterno di contattori (non ancora supportata)
-
-EX2
-
-Slot per moduli di comunicazione alternativi
-(non ancora supportato)
-
-L1
-
-LED di stato - acceso fisso in caso di connessione al cloud smart-me
-
-L2
-
-LED a impulsi - indica la potenza attualmente misurata in 10'000 Imp / kWh
-
-Il LED a impulsi può indicare energia attiva ed energia reattiva. Per passare dalla potenza attiva a quella reattiva o viceversa, il tasto T2 deve essere premuto 10 volte a intervalli di 1 sec. Se sul LED viene attualmente indicata la potenza attiva o reattiva è riconoscibile sull'ultima riga del display.
-
-![smart-me Nimbus 100A – Figura 11](/img/produkte-nimbus/11.png)
-
-## Interfaccia P1 (interfaccia cliente)
-
-L'interfaccia P1 del Nimbus consente a fornitori terzi o clienti finali di riutilizzare i dati misurati nei propri sistemi di controllo o di analisi.
-
-A tal fine è necessario un modulo di lettura dell'interfaccia P1 con connettore RJ-12.
-Questo deve supportare il “P1 Companion Standard” di Netbeheer Nederland. Versione 5.0.2 (26.Februar.2016).
-
-Tensione:  5V DC, carico massimo:  100mA DC, isolamento rinforzato verso la rete
-
-[Per saperne di più](/schnittstellen/p1-schnittstelle)
-
-## Accessori
-
-- [Morsetti a innesto per contatore](/drittprodukte/zaehlersteckklemmen-nimbus-100A) - per la semplice sostituzione dei contatori senza interruzione di corrente
-
-## Pulizia
-
-Pulisca l'involucro del dispositivo con un panno asciutto. Non utilizzi detergenti chimici! 
-
-## Indicazioni di manutenzione e garanzia
-
-Il dispositivo non richiede manutenzione. In caso di danni (ad es. dovuti a trasporto, stoccaggio) non è consentito effettuare riparazioni in proprio. L'apertura del dispositivo fa decadere il diritto alla garanzia. Lo stesso vale se un difetto è riconducibile a influssi esterni (ad es. fulmini, acqua, incendio, temperature e condizioni atmosferiche estreme) nonché in caso di uso o trattamento improprio o negligente. I sigilli possono essere rotti solo da persone autorizzate! 
-
-## Informazioni di spedizione
-
-Numero articolo: 242065
-
-Nome articolo: smart-me contatore trifase Nimbus 100A
-
-Numero di tariffa doganale: 9028.3019
-
-Dimensioni e peso senza imballaggio di spedizione: 25.5x18x7 \[cm\] / 1.1kg
-
-Produttore: smart-me AG, Riedstrasse 18, 6343 Rotkreuz
-
-## Messa in servizio
-
-[Per saperne di più](/konfiguration/inbetriebnahme)
 
 ## Download e dichiarazione di conformità
 

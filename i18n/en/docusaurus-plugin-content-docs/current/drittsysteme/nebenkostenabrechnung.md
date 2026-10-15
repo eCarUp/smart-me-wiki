@@ -1,14 +1,14 @@
 ---
-title: 'Service providers for ZEV, heating/ancillary cost billing'
+title: 'Service providers ZEV, heating/ancillary cost billing'
 slug: '/drittsysteme/nebenkostenabrechnung'
-description: 'To use meter data from smart-me in an ancillary cost billing, the meters require a Professional licence.'
+description: 'To use smart-me meter data in an ancillary cost billing, the meters require a Professional licence.'
 sidebar_label: 'Ancillary cost service providers'
 ---
-To use meter data from smart-me in an ancillary cost billing, the meters require a Professional licence.
+To use smart-me meter data in an ancillary cost billing, the meters require a Professional licence.
 
 [EN](https://doc.smart-me.com/third-party-systems/service-charge-settlement)
 
-The following service providers offer billing services based on our smart-me platform. They also take over installations that they did not install themselves and, on request, offer billing only for these.
+The following service providers offer billing services based on our smart-me platform. They also take on installations they did not install themselves and, on request, offer billing only for these.
 
 ## Highly automated/specialised services with Autobill:
 
@@ -16,7 +16,7 @@ The following service providers offer billing services based on our smart-me pla
 
 <Kachel bild="/img/drittsysteme-nebenkostenabrechnung/01.png" titel="smart-me AG">
 
-With autobill, energy billing goes from a time-consuming administrative burden to a fully automated service that handles everything from metering to receipt of payment.
+With autobill, energy billing turns from a time-consuming administrative burden into a fully automated service that handles everything from metering to receipt of payment.
 
 Riedstrasse 18, CH-6343 Rotkreuz · +41 41 511 09 99
 
@@ -29,7 +29,7 @@ Riedstrasse 18, CH-6343 Rotkreuz · +41 41 511 09 99
 - Billing only with smart-me hardware
 - Module 1 configuration by smart-me
 - ZEV billing, max. 4x per year
-- VEWA billing 1x per year (without payments on account)
+- VEWA billing 1x per year (without advance payments)
 - Minimum term 2 years
 
 </Kachel>
@@ -40,10 +40,10 @@ Hauptstrasse 48, CH-6277 Kleinwangen · +41 41 510 06 25
 
 [www.adenatec.ch](https://www.adenatec.ch/) · [info@adenatec.ch](mailto:info@adenatec.ch)
 
-- ZEV, vZEV and e-mobility billing
+- ZEV, vZEV and E-Mobility billing
 - Billing and debt collection incl. portal configuration
 - Billing up to 4× per year
-- VEWA per-mille billing 1× per year
+- VEWA per mille billing 1× per year
 - Operation exclusively with smart-me hardware
 
 </Kachel>
@@ -71,8 +71,8 @@ Blattenbach 8, CH-8636 Wald · +41 55 266 11 33
 
 [honegger.com](https://honegger.com/) · [info@honegger.com](mailto:info@honegger.com)
 
-- Billing of self-installed e-mobility, ZEV & vZEV installations
-- We plan, build and maintain everything from a single source
+- Billing of self-installed E-Mobility, ZEV & vZEV installations
+- We plan, build and support everything from a single source
 - Billing only with smart-me hardware
 - Quarterly billing
 - Minimum term by arrangement
@@ -88,7 +88,7 @@ Zürichstrasse 68, CH-6004 Luzern · +41 41 562 39 61
 - Billing with smart-me hardware or SDAT files
 - Module 1 configuration by Liveno
 - ZEV billing, max. 4x per year
-- VEWA billing 1x per year (without payments on account)
+- VEWA billing 1x per year (without advance payments)
 
 </Kachel>
 
@@ -98,8 +98,8 @@ Kirchstrasse 18, CH-9200 Gossau SG · +41 71 388 20 10
 
 [www.techcom.ch](https://www.techcom.ch/) · [info@techcom.ch](mailto:info@techcom.ch)
 
-- Complete solution with installation and billing service for ZEV, vZEV, LEC and e-mobility
-- Billing for ZEV, vZEV, LEC and e-mobility
+- Complete solution with installation and billing service for ZEV, vZEV, LEC and E-Mobility
+- Billing for ZEV, vZEV, LEC and E-Mobility
 - VEWA ancillary cost billing
 - Energy optimisation
 
@@ -207,7 +207,7 @@ Ebenaustrasse 10, CH-6048 Horw · +41 41 318 36 00
 
 <Kachel bild="/img/drittsysteme-nebenkostenabrechnung/18.png" titel="Schibli AG">
 
-Competence Centre for Renewable Energy
+Renewable Energy Competence Centre
 
 Klosbachstrasse 67, CH-8032 Zürich · +41 44 265 61 01
 

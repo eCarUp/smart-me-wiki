@@ -237,11 +237,23 @@ Maggiori dettagli sulla configurazione: [Gestione del carico multilivello](/konf
 
 ## Azioni avanzate
 
+<div className="row">
+<div className="col col--6">
+
 Qui, in qualità di proprietario della stazione, puoi sbloccare il cavo, riavviare la stazione o visualizzare la lettura del contatore sul display per verificarla.
+
+</div>
+<div className="col col--6 text--center">
 
 ![Configurazione Pico – Figura 17](/img/konfiguration-inbetriebnahme-pico-konfiguration/17.png)
 
+</div>
+</div>
+
 ## Impostazioni avanzate
+
+<div className="row">
+<div className="col col--6">
 
 Riconoscimento automatico dell'auto (Automatische Auto Erkennung):
 Affinché l'autenticazione CarID funzioni, devi abilitare la comunicazione tra la stazione e il veicolo.
@@ -252,7 +264,13 @@ Attivazione dell'interfaccia Modbus TCP della Pico
 Elimina stazione (Station löschen):
 Elimina la stazione e tutti i dati nel cloud
 
+</div>
+<div className="col col--6 text--center">
+
 ![Configurazione Pico – Figura 18](/img/konfiguration-inbetriebnahme-pico-konfiguration/18.png)
+
+</div>
+</div>
 
 ### Bloccare sempre il cavo in modo fisso
 

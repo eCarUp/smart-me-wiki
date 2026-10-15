@@ -42,18 +42,26 @@ ONEPOLE steht für innovative Säulenlösungen, die durch ihr modulares Design u
 
 ### 212070-PL Pico Ständer
 
+<div className="row">
+<div className="col col--6">
+
 Universal Standfuss mit Boden Platte nach OPI-2020 Standard
 
 - Montage von 1-2 Pico Ladestationen.
 
 - Zuleitungen direkt vom Absicherungskasten zur Ladestation.
 
-
 Die Montage erfolgt auf einem Betonsockel mit Lochmass nach Anleitung. Details unter Downloads Pico.
 
 Oberfläche: feuerverzinkt, pulverbeschichtet und lackiert in RAL 9004 Signalschwarz
 
+</div>
+<div className="col col--6 text--center">
+
 ![Pico Ständer – Abbildung 5](/img/produkte-pico-ladestation-pico-standfuss/05.png)
+
+</div>
+</div>
 
 ### 232070-PL Pico Ständer mit Servicezugang
 
@@ -169,15 +177,22 @@ Pico Ständerkopf 2x Pico 
 
 ## Standfuss Fundament
 
+<div className="row">
+<div className="col col--6">
+
 Das Stanfuss Fundament kann aus Beton gegossen werden mit den nebenstehenden Bodenplatteninformationen.
-
-
 
 Alternativ kann ein Drittprodukt erzeugt oder eingekauft werden.
 
 [Drittanbieter Standfuss Fundamente](/drittprodukte/standfuss-fundamente)
 
+</div>
+<div className="col col--6 text--center">
+
 ![Pico Ständer – Abbildung 12](/img/produkte-pico-ladestation-pico-standfuss/12.png)
+
+</div>
+</div>
 
 ## Downloads
 

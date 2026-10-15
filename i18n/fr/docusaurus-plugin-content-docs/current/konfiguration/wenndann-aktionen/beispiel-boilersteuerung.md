@@ -139,6 +139,9 @@ Si valeur mesurée supérieure/inférieure (Wenn Messwert grösser/kleiner) :
 
 ![Exemples de commande de chauffe-eau avec des actions si/alors – figure 4](/img/konfiguration-wenndann-aktionen-beispiel-boilersteuerung/04.png)
 
+<div className="row">
+<div className="col col--5">
+
 Si date et heure (Wenn Datum & Uhrzeit) :
 
 - Type (Typ) : Période / Chaque jour (Zeitspanne / Jeden Tag)
@@ -149,8 +152,13 @@ Si date et heure (Wenn Datum & Uhrzeit) :
 
 - À (Bis) : 01:00
 
+</div>
+<div className="col col--7 text--center">
 
 ![Exemples de commande de chauffe-eau avec des actions si/alors – figure 5](/img/konfiguration-wenndann-aktionen-beispiel-boilersteuerung/05.png)
+
+</div>
+</div>
 
 Si événement (Wenn Ereignis)
 

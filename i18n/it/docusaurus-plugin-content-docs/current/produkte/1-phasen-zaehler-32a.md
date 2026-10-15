@@ -5,9 +5,9 @@ description: 'Lo smart-me Meter è il primo contatore elettrico che può essere 
 sidebar_label: 'Contatore monofase 32A'
 displayed_sidebar: wikiSidebar
 ---
-Lo smart-me Meter è il primo contatore elettrico che può essere analizzato e comandato da qualsiasi luogo. Non è necessario alcun hardware aggiuntivo. Utilizza la rete WiFi esistente e si collega direttamente alla smart-me Cloud. In questo modo puoi visualizzare comodamente il tuo consumo di energia in tempo reale.
+Lo smart-me Meter è il primo contatore elettrico che può essere analizzato e comandato da qualsiasi luogo. Non è necessario alcun hardware aggiuntivo. Utilizza la rete WiFi esistente e si connette direttamente al smart-me Cloud. In questo modo è possibile visualizzare comodamente il proprio consumo di energia in tempo reale.
 
-Vendita interrotta il 01.01.2023, assistenza e supporto cloud continuano a essere garantiti.
+Vendita cessata il 01.01.2023, assistenza e supporto cloud continuano a essere garantiti.
 
 ![Contatore monofase 32A – Figura 1](/img/produkte-1-phasen-zaehler-32a/01.jpg)
 
@@ -25,9 +25,9 @@ Vendita interrotta il 01.01.2023, assistenza e supporto cloud continuano a esser
 
 - Datalogger integrato per due mesi (in caso di interruzione della connessione)
 
-- Connessione diretta e crittografata alla smart-me Cloud (WiFi)
+- Connessione diretta e crittografata al smart-me Cloud (WiFi)
 
-- Gestione completa dell'energia nella smart-me Cloud: 
+- Gestione completa dell'energia nel smart-me Cloud: 
 
     - Monitoraggio in tempo reale
 
@@ -56,7 +56,7 @@ Ingresso a impulsi E1 a potenziale zero\*, 25V - 253V AC/DC
 
 Uscita digitale / uscita a impulsi S0 a potenziale zero\*, Opto Power MOSFET, 5-48VDC / 5- 230 VAC, max. 550mW
 
-\*non dispone di una propria alimentazione di tensione.
+\*non dispone di una propria alimentazione.
 
 Corrente di riferimento  5 A
 
@@ -64,7 +64,7 @@ Corrente di avviamento &lt; 20 mA
 
 Tariffe 2+
 
-Montaggio guida DIN
+Montaggio su guida DIN
 
 Larghezza 2 moduli, 36 x 90 mm
 
@@ -76,7 +76,7 @@ Autoconsumo &lt; 0.5 W
 
 ## Configurare ingressi e uscite
 
-Lo smart-me Meter dispone di un'uscita e di un ingresso, che possono essere utilizzati come ingressi e uscite a impulsi oppure come contatto commutabile a potenziale zero. Trovi i dettagli [qui](/schnittstellen/ein_und_ausgaenge). 
+Lo smart-me Meter dispone di un'uscita e di un ingresso, che possono essere utilizzati come ingressi e uscite a impulsi o come contatto a potenziale zero commutabile. Trovi i dettagli [qui](/schnittstellen/ein_und_ausgaenge). 
 
 ## Dimensioni e collegamenti
 
@@ -86,9 +86,12 @@ Lo smart-me Meter dispone di un'uscita e di un ingresso, che possono essere util
 
 ### Schema di collegamento
 
+<div className="row">
+<div className="col col--5">
+
 T1: tasto per l'installazione
 
-E1: commutazione della tariffa (ingresso digitale)
+E1: commutazione tariffaria (ingresso digitale)
 
 0V tariffa 1
 
@@ -96,15 +99,21 @@ E1: commutazione della tariffa (ingresso digitale)
 
 S0: uscita a impulsi (contatto a potenziale zero)
 
+</div>
+<div className="col col--7 text--center">
+
 ![Contatore monofase 32A – Figura 3](/img/produkte-1-phasen-zaehler-32a/03.png)
+
+</div>
+</div>
 
 ## Modificare l'intervallo di upload
 
-- Accedi al portale smart-me
+- accedere al portale smart-me
 
-- Seleziona il contatore
+- selezionare il contatore
 
-- In alto a destra seleziona la rotella dentata
+- in alto a destra selezionare la rotella dentata
 
 - Impostazioni generali (Allgemeine Einstellungen)
 

@@ -55,10 +55,12 @@ Am einfachsten lässt sich die Datenübertragung im ZEV so arrangieren:
 3.  Navigiere unter Y471 zu "Zähler" und erstelle passend zur Immobilie Zählerabfragen.
 
     z.B.: 
-    \- Wärmezähler, Objektspezifisch, Heizkosten, Nur Verbrauch
-    \- Warmwasser, Objektspezifisch, Warmwasserkosten, Nur Verbrauch
-    \- Kaltwasser, Objektspezifisch, Wasserkosten, Nur Verbrauch
 
+    \- Wärmezähler, Objektspezifisch, Heizkosten, Nur Verbrauch
+
+    \- Warmwasser, Objektspezifisch, Warmwasserkosten, Nur Verbrauch
+
+    \- Kaltwasser, Objektspezifisch, Wasserkosten, Nur Verbrauch
 
 4.  Navigiere zu den Y621 Applikationseinstellungen 
 
@@ -69,6 +71,7 @@ Am einfachsten lässt sich die Datenübertragung im ZEV so arrangieren:
 7.  Im Tab Standard/Ablesefirma VHKA hinterlege nun die Ablesefirma "smart-me" bei den gewünschten Immobilien
 
 8.  Hinterlege nun bei jedem abzufragenden Objekt der Immobilie die Ablesefirma "smart-me" mittels der VHKA Nummer von AbaImmo.
+
     Die Hinterlegung steuert ob die Anfrage im Abfragefile getätigt oder ignoriert wird.
 
 9.  Navigiere nun zu Y2312 VHKA-Schnittstelle verarbeiten
@@ -76,7 +79,6 @@ Am einfachsten lässt sich die Datenübertragung im ZEV so arrangieren:
 10.  Wähle nun die gewünschte Immobilie aus und den Speicherort für das VHKA-File.
 
 11.  Exportiere nun das File um es anschliessend in smart-me hochzuladen.
-
 
 ![AbaImmo – Abbildung 2](/img/schnittstellen-dta-vhka-files-abaimmo/02.png)
 

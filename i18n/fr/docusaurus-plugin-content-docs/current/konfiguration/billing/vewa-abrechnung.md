@@ -185,10 +185,12 @@ Pour les systèmes combinés, les coûts individuels des différents agents éne
 
 ### 3\. Créer des périodes de décompte et définir le contenu de la période de facturation
 
+<div className="row">
+<div className="col col--4">
+
 1.  Création de la période de décompte
 
 2.  Activer ou désactiver le contenu
-
 
 Si l'électricité et les frais de chauffage et charges accessoires sont décomptés à des intervalles différents, plusieurs périodes sont saisies.
 
@@ -204,8 +206,13 @@ p. ex. :
 
 - Période chaleur eau 2024 (uniquement chaleur, froid, eau chaude sanitaire et eau froide)
 
+</div>
+<div className="col col--8 text--center">
 
 ![VEWA - Décompte – Figure 8](/img/konfiguration-billing-vewa-abrechnung/08.png)
+
+</div>
+</div>
 
 ### 4\. Saisie des coûts de la période de décompte
 

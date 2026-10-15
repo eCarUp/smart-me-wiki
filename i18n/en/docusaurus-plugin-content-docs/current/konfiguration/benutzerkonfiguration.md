@@ -6,15 +6,25 @@ sidebar_label: 'User configuration'
 ---
 ### Prerequisite
 
+<div className="row">
+<div className="col col--6">
+
 You need a smart-me Professional subscription to use this function.
 
 In smart-me, you can create new users and give them the appropriate permissions for meters or folders. These users only have read access.
 
-
-
 This allows you to give tenants access to their data for as long as they live in the property.
 
+</div>
+<div className="col col--6 text--center">
+
 ![Creating users – Figure 1](/img/konfiguration-benutzerkonfiguration/01_EN.png)
+
+</div>
+</div>
+
+<div className="row">
+<div className="col col--8">
 
 To create new users, proceed as follows:
 
@@ -30,10 +40,18 @@ Please note that you first need to [create folders](/konfiguration/ordnerkonfigu
 
 5.  Drag the user with the mouse onto the folder that should be visible to this user.
 
+</div>
+<div className="col col--4 text--center">
 
 ![Creating users – Figure 2](/img/konfiguration-benutzerkonfiguration/02.png)
 
+</div>
+</div>
+
 ### Permission levels
+
+<div className="row">
+<div className="col col--4">
 
 Users always have read-only access.
 
@@ -41,7 +59,13 @@ You can share either only the specific node or the node including all its subnod
 
 If a visualization that accesses meter data is used on the node, the user must be authorized to see the meters.
 
+</div>
+<div className="col col--8 text--center">
+
 ![Creating users – Figure 3](/img/konfiguration-benutzerkonfiguration/03_EN.png)
+
+</div>
+</div>
 
 ### Next step
 

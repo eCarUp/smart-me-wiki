@@ -153,9 +153,18 @@ Salva l'impostazione
 
 ![Definire le fasce tariffarie – figura 19](/img/konfiguration-wenndann-aktionen-tarifzeiten-definieren/19.png)
 
+<div className="row">
+<div className="col col--4">
+
 Ora che hai definito le fasce tariffarie rilevanti, torna alla definizione delle tariffe per assegnare i timing alle tariffe.
 
+</div>
+<div className="col col--8 text--center">
+
 ![Definire le fasce tariffarie – figura 20](/img/konfiguration-wenndann-aktionen-tarifzeiten-definieren/20.png)
+
+</div>
+</div>
 
 ### Prossimo passo: definire le tariffe con le fasce tariffarie
 

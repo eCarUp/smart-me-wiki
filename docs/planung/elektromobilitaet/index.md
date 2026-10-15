@@ -57,11 +57,20 @@ Mehr Details findest du unter "Abrechnung" im jeweiligen Thementeil.
 
 ### Pico Ladestation als universal E-Mobilitätslösung
 
+<div className="row">
+<div className="col col--8">
+
 [Pico allgemeine Installationsplanung Abgänge und Absicherungen.](/produkte/pico-ladestation/installationsplanung)
 
 [Projektkonfigurator](/planung/Projektkonfigurator)
 
+</div>
+<div className="col col--4 text--center">
+
 ![Elektromobilität – Abbildung 1](/img/planung-elektromobilitaet/01.png)
+
+</div>
+</div>
 
 ### smart-me ZEV und smart-me Pico Ladestation
 

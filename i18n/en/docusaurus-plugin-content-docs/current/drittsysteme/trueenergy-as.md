@@ -4,17 +4,24 @@ slug: '/drittsysteme/trueenergy-as'
 description: 'Together with the smart-me Kamstrup Module, the TrueEnergy app enables the control of end devices and car charging stations.'
 sidebar_label: 'TrueEnergy'
 ---
+<div className="row">
+<div className="col col--7">
+
 Together with the smart-me Kamstrup Module, the TrueEnergy app enables the control of end devices and car charging stations.
 
 Your car is always charged as much as needed at the right time, and it charges at the lowest price, according to available solar power, or as fast as possible.
 
 In addition, end devices such as lights and washing machines can also be controlled via IFTT.
 
-
-
 Target group: Denmark / single-family homes
 
+</div>
+<div className="col col--5 text--center">
+
 ![TrueEnergy AS – Figure 1](/img/drittsysteme-trueenergy-as/01.png)
+
+</div>
+</div>
 
 Functions:
 

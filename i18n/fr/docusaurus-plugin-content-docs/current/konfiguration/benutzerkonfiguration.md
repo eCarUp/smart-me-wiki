@@ -6,15 +6,25 @@ sidebar_label: 'Configuration des utilisateurs'
 ---
 ### Prérequis
 
+<div className="row">
+<div className="col col--6">
+
 Vous avez besoin d'un abonnement smart-me Professional pour utiliser cette fonction.
 
 Dans smart-me, vous pouvez créer de nouveaux utilisateurs et leur attribuer des autorisations sur des compteurs ou des dossiers. Ces utilisateurs disposent uniquement de droits de lecture.
 
-
-
 Vous pouvez ainsi donner aux locataires l'accès à leurs données tant qu'ils habitent dans l'immeuble.
 
+</div>
+<div className="col col--6 text--center">
+
 ![Créer des utilisateurs – Figure 1](/img/konfiguration-benutzerkonfiguration/01_EN.png)
+
+</div>
+</div>
+
+<div className="row">
+<div className="col col--8">
 
 Pour créer de nouveaux utilisateurs, procédez comme suit :
 
@@ -30,10 +40,18 @@ Veuillez noter que vous devez d'abord [créer des dossiers](/konfiguration/ordne
 
 5.  Faites glisser l'utilisateur avec la souris sur le dossier qui doit être visible pour cet utilisateur.
 
+</div>
+<div className="col col--4 text--center">
 
 ![Créer des utilisateurs – Figure 2](/img/konfiguration-benutzerkonfiguration/02.png)
 
+</div>
+</div>
+
 ### Niveaux d'autorisation
+
+<div className="row">
+<div className="col col--4">
 
 Les utilisateurs disposent toujours uniquement d'un accès en lecture.
 
@@ -41,7 +59,13 @@ Il est possible de partager soit uniquement le nœud concerné, soit ce nœud av
 
 Si une visualisation qui accède aux données des compteurs est utilisée sur le nœud, l'utilisateur doit être autorisé à voir les compteurs.
 
+</div>
+<div className="col col--8 text--center">
+
 ![Créer des utilisateurs – Figure 3](/img/konfiguration-benutzerkonfiguration/03_EN.png)
+
+</div>
+</div>
 
 ### Étape suivante
 

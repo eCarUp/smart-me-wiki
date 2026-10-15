@@ -46,12 +46,19 @@ Broche de compteur pour Nimbus : Hager KJZ080A4 80A Ø6×41mm
 
 ## Bornes Seidl
 
+<div className="row">
+<div className="col col--6">
+
 Site web du fabricant et informations sur la distribution : [https://seidlgmbh.com/produkte/](https://seidlgmbh.com/produkte/) 
-
-
 
 SL-ZAKD : jusqu'à 80A en courant permanent et 128A en courant de surcharge - borne à vis
 
 Broche de compteur pour Nimbus : SL-6-6-42
 
+</div>
+<div className="col col--6 text--center">
+
 ![Bornes enfichables pour compteur Nimbus 100A – Figure 5](/img/drittprodukte-zaehlersteckklemmen-nimbus-100a/05.png)
+
+</div>
+</div>

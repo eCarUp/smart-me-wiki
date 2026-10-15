@@ -4,11 +4,20 @@ slug: '/drittsysteme/symcon'
 description: 'Symcon is software, as well as an optional hardware package (Symbox), that enables control and visualization in your home or building.'
 sidebar_label: 'Symcon'
 ---
+<div className="row">
+<div className="col col--8">
+
 Symcon is software, as well as an optional hardware package (Symbox), that enables control and visualization in your home or building. It acts as an interface and decision-maker.
 
 The smart-me data can easily be retrieved via our API.
 
+</div>
+<div className="col col--4 text--center">
+
 ![Symcon – Figure 1](/img/drittsysteme-symcon/01.png)
+
+</div>
+</div>
 
 Target group: single-family and multi-family homes and industry
 

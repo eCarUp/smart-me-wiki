@@ -86,6 +86,9 @@ Der smart-me Meter verfügt über einen Ausgang und einen Eingang, welche als Im
 
 ### Anschlussschema
 
+<div className="row">
+<div className="col col--5">
+
 T1: Taste für Installation
 
 E1: Tarifumschaltung (digitaler Eingang)
@@ -96,7 +99,13 @@ E1: Tarifumschaltung (digitaler Eingang)
 
 S0: Impulsausgang (potentialfreier Kontakt)
 
+</div>
+<div className="col col--7 text--center">
+
 ![1-Phasenzähler 32A – Abbildung 3](/img/produkte-1-phasen-zaehler-32a/03.png)
+
+</div>
+</div>
 
 ## Upload Intervall verändern
 

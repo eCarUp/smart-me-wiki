@@ -40,6 +40,9 @@ Diese Information muss spätestens nach 14 Tagen mit einer positiven oder negati
 
 ### Schritt 2: Teilnehmende bestimmen und vZEV beantragen
 
+<div className="row">
+<div className="col col--7">
+
 In einem zweiten Schritt müssen Interessensabklärungen erfolgen. Sie benachrichtigen die möglichen Teilnehmer mit der Möglichkeit einer Partizipation beim vZEV.
 Die Information darüber, als auch die positiven Antworten sollen schriftlich mit Unterschriften zur Teilnahme festgehalten werden.
 Diese werden später für die Datenübertragungsfreigabe nötig sein, als auch als Beilage zu Verträgen und anderem.
@@ -56,9 +59,18 @@ An diesem Punkt muss dem VNB eine offizielle vZEV Anmeldung mit allen Interessen
 
 Nach Erfüllung aller obiger Punkte und rund 3 Monaten kann die vZEV seinen Betrieb aufnehmen.
 
+</div>
+<div className="col col--5 text--center">
+
 ![Virtuelle ZEV (vZEV) – Abbildung 1](/img/planung-virtuelle-zev-vzev/01.png)
 
+</div>
+</div>
+
 ## Bisherige Modell Landschaft
+
+<div className="row">
+<div className="col col--6">
 
 ZEV: Zusammenschluss zum Eigenverbrauch 
 
@@ -80,11 +92,20 @@ Normalbezüger:
 
 - Strombezüger beim VNB als Haus oder Wohnung im EFH oder MFH
 
+</div>
+<div className="col col--6 text--center">
+
 ![Virtuelle ZEV (vZEV) – Abbildung 2](/img/planung-virtuelle-zev-vzev/02.png)
+
+</div>
+</div>
 
 ## vZEV Modelle
 
 ### vZEV Einzelgebäude (virtuell bilanzierter ZEV)
+
+<div className="row">
+<div className="col col--6">
 
 Ein Gebäude teilt sich einen gemeinsamen Hausanschluss.
 
@@ -92,9 +113,18 @@ Umstieg von VNB-Modell zu vZEV einfach möglich.
 
 Damit wird das bisherige VNB-Model im Prinzip einfach privat verwaltet und Abgerechnet als vZEV und ist damit losgelöst von den Dienstleistungen des VNB.
 
+</div>
+<div className="col col--6 text--center">
+
 ![Virtuelle ZEV (vZEV) – Abbildung 3](/img/planung-virtuelle-zev-vzev/03.png)
 
+</div>
+</div>
+
 ### Mehrgebäude vZEV (erweiterte vZEV)
+
+<div className="row">
+<div className="col col--7">
 
 Mehrere ZEV oder Gebäude mit eigenem Netzanschluss teilen sich den gleichen Niederspannungsanschluss (&lt;1kV)
 
@@ -106,21 +136,48 @@ Nicht aber dem EFH, da dieses sich ausserhalb der genehmigten Topologie einer vZ
 
 Die Voraussetzungen der Topologie zur berechtigten Teilnahme am vZEV ist unterhalb detailierter definiert.
 
+</div>
+<div className="col col--5 text--center">
+
 ![Virtuelle ZEV (vZEV) – Abbildung 4](/img/planung-virtuelle-zev-vzev/04.png)
 
+</div>
+</div>
+
 ### Netztopologien zur Erstellung einer erweiterten vZEV
+
+<div className="row">
+<div className="col col--6">
 
 Gleiche Sammelschiene oder Verteilkasten auf der Niederspannungsebene (&lt; 1kV)
 
 Alle Gebäude sind auf den gleichen Verteilkasten oder die gleiche Sammelschiene auf der Niederspannungsebene NE7 geführt.
 
+</div>
+<div className="col col--6 text--center">
+
 ![Virtuelle ZEV (vZEV) – Abbildung 5](/img/planung-virtuelle-zev-vzev/05.png)
+
+</div>
+</div>
+
+<div className="row">
+<div className="col col--6">
 
 Gleiche Sammelschiene auf der Niederspannungsseite am Netztransformator (&lt;1kV)
 
 Alle Gebäude sind am gleichen Transformator angeschlossen und sind auf der Niederspannungsebene an der gleichen Sammelschiene angeschlossen.
 
+</div>
+<div className="col col--6 text--center">
+
 ![Virtuelle ZEV (vZEV) – Abbildung 6](/img/planung-virtuelle-zev-vzev/06.png)
+
+</div>
+</div>
+
+<div className="row">
+<div className="col col--6">
 
 Muffennetze
 Eine erweiterte vZEV über mehrere Gebäude geht nur wenn sich Gebäude die gleiche Muffe teilen
@@ -128,7 +185,13 @@ Eine erweiterte vZEV über mehrere Gebäude geht nur wenn sich Gebäude die glei
 
 Das bilden einer vZEV eines Einzelgebäudes ist aber immer möglich.
 
+</div>
+<div className="col col--6 text--center">
+
 ![Virtuelle ZEV (vZEV) – Abbildung 7](/img/planung-virtuelle-zev-vzev/07.png)
+
+</div>
+</div>
 
 ## Mögliche Mitglieder einer vZEV und die benötigte Messtechnik
 

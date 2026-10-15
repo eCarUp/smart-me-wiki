@@ -47,26 +47,36 @@ With these step-by-step instructions, we want to support you in configuring your
 
 ## Billing settings
 
+<div className="row">
+<div className="col col--7">
+
 First, navigate to the billing settings (Einstellungen der Rechnungsstellung).
 
 Configure the currency and the application of VAT here.
 
-
-
 Specific VAT settings:
 
 - Case A: You are a ZEV (association for own consumption), your electricity revenue is definitely below CHF 100'000 and you have not voluntarily registered for VAT:
+
     \- VAT 0%
+
     \- Tax already included in prices (Steuer in Preise bereits inbegriffen): YES
 
 - Case B: You are a ZEV and your revenue from electricity sales is CHF 100'000 or more, or you have voluntarily registered for VAT:
+
     \- VAT 8.1%
+
     \- Tax already included in prices (Steuer in Preise bereits inbegriffen): NO
 
+</div>
+<div className="col col--5 text--center">
 
 ![Energy Billing – Figure 1](/img/konfiguration-billing/01.png)
 
 ![Energy Billing – Figure 2](/img/konfiguration-billing/02.png)
+
+</div>
+</div>
 
 While you are at it, also configure your logo for the invoice.
 
@@ -76,12 +86,23 @@ Fill in the header with the contact details and address of the invoice sender, a
 
 ## Billing configuration
 
+<div className="row">
+<div className="col col--5">
+
 Now navigate to the billing configuration (Rechnungsstellung Konfiguration) to configure the billing for the properties.
+
+</div>
+<div className="col col--7 text--center">
 
 ![Energy Billing – Figure 4](/img/konfiguration-billing/04.png)
 
-1.  ### Create property
+</div>
+</div>
 
+<div className="row">
+<div className="col col--6">
+
+1.  ### Create property
 
 The property can be added (created) in billing. 
 
@@ -91,9 +112,18 @@ In this step, all subfolders already created and all meters already assigned are
 
 The metering points that are to be distributed and are located in the "Technical meters" ("Technischen Zähler") node must now be assigned manually.
 
+</div>
+<div className="col col--6 text--center">
+
 ![Energy Billing – Figure 5](/img/konfiguration-billing/05.png)
 
+</div>
+</div>
+
 ### 2\. Manually assigning meters to a billing unit
+
+<div className="row">
+<div className="col col--7">
 
 When the property is created, the meters are automatically assigned 100% to the billing unit (folder).
 
@@ -105,12 +135,20 @@ If you want to split a meter (e.g. common areas) according to an allocation key 
 
 - Select the desired meter and specify the percentage to be billed.
 
-
 The procedure described works the same way for the other energy types (heat, cooling, etc.)
+
+</div>
+<div className="col col--5 text--center">
 
 ![Energy Billing – Figure 6](/img/konfiguration-billing/06.png)
 
+</div>
+</div>
+
 ### 3\. Entering the IBAN
+
+<div className="row">
+<div className="col col--7">
 
 The QR bill can optionally be activated in smart-me Billing.
 
@@ -134,9 +172,15 @@ To identify the invoice without a reference, additional information (message to 
 
 The layout is optimized for sending by e-mail. If the invoices are printed, we recommend deactivating the QR bill and ordering it from the bank.
 
+</div>
+<div className="col col--5 text--center">
+
 ![Energy Billing – Figure 7](/img/konfiguration-billing/07.jpg)
 
 ![Energy Billing – Figure 8](/img/konfiguration-billing/08.png)
+
+</div>
+</div>
 
 ### 4\. Entering the tenant list
 
@@ -247,11 +291,18 @@ On this page you will find a description of the most common error messages and p
 
 ### Visualization
 
+<div className="row">
+<div className="col col--7">
+
 A new tile is now displayed in the default view of the billing unit's folder (e.g. an apartment). It shows the meter readings for the virtual tariffs. Clicking this tile displays the load profile for the virtual tariffs. 
 
-
+</div>
+<div className="col col--5 text--center">
 
 ![Energy Billing – Figure 12](/img/konfiguration-billing/12.jpg)
+
+</div>
+</div>
 
 ### How solar power is allocated
 

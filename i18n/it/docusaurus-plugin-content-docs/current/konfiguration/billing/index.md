@@ -47,26 +47,36 @@ Con queste istruzioni passo dopo passo vogliamo aiutarti a configurare il tuo Bi
 
 ## Impostazioni della fatturazione
 
+<div className="row">
+<div className="col col--7">
+
 Come prima cosa vai nelle Impostazioni della fatturazione (Einstellungen der Rechnungsstellung).
 
 Qui configura la valuta e l'applicazione dell'IVA.
 
-
-
 Impostazioni concrete per l'IVA:
 
 - Caso A: sei un RCP (raggruppamento ai fini del consumo proprio), realizzi sicuramente meno di 100'000CHF di fatturato con l'elettricità e non ti sei assoggettato volontariamente all'IVA:
+
     \- IVA 0%
+
     \- Imposta già inclusa nei prezzi (Steuer in Preise bereits inbegriffen): SÌ
 
 - Caso B: sei un RCP e realizzi 100'000 CHF o più di fatturato con la vendita di elettricità oppure ti sei assoggettato volontariamente all'IVA:
+
     \- IVA 8.1%
+
     \- Imposta già inclusa nei prezzi (Steuer in Preise bereits inbegriffen): NO
 
+</div>
+<div className="col col--5 text--center">
 
 ![Billing: conteggio dell'energia – Figura 1](/img/konfiguration-billing/01.png)
 
 ![Billing: conteggio dell'energia – Figura 2](/img/konfiguration-billing/02.png)
+
+</div>
+</div>
 
 Già che ci sei, configura anche il tuo logo per la fattura.
 
@@ -76,12 +86,23 @@ Completa l'intestazione con il contatto e l'indirizzo del mittente della fattura
 
 ## Configurazione della fatturazione
 
+<div className="row">
+<div className="col col--5">
+
 Vai ora alla Configurazione della fatturazione (Rechnungsstellung Konfiguration) per configurare i conteggi degli immobili.
+
+</div>
+<div className="col col--7 text--center">
 
 ![Billing: conteggio dell'energia – Figura 4](/img/konfiguration-billing/04.png)
 
-1.  ### Creare l'immobile
+</div>
+</div>
 
+<div className="row">
+<div className="col col--6">
+
+1.  ### Creare l'immobile
 
 Nella fatturazione è possibile aggiungere (creare) l'immobile. 
 
@@ -91,9 +112,18 @@ In questo passaggio tutte le sottocartelle già create e i contatori assegnati v
 
 I punti di misura da ripartire che si trovano nel nodo "Contatori tecnici" ("Technischen Zähler") devono ora essere assegnati manualmente.
 
+</div>
+<div className="col col--6 text--center">
+
 ![Billing: conteggio dell'energia – Figura 5](/img/konfiguration-billing/05.png)
 
+</div>
+</div>
+
 ### 2\. Assegnare manualmente un contatore a un'unità di conteggio
+
+<div className="row">
+<div className="col col--7">
 
 Alla creazione dell'immobile i contatori vengono assegnati automaticamente al 100% all'unità di conteggio (cartella).
 
@@ -105,12 +135,20 @@ Se vuoi ripartire un contatore (ad es. parti comuni) secondo una chiave di ripar
 
 - Seleziona il contatore desiderato e indica la percentuale da addebitare.
 
-
 La procedura descritta funziona in modo analogo per gli altri tipi di energia (calore, freddo ecc.)
+
+</div>
+<div className="col col--5 text--center">
 
 ![Billing: conteggio dell'energia – Figura 6](/img/konfiguration-billing/06.png)
 
+</div>
+</div>
+
 ### 3\. Inserire l'IBAN
+
+<div className="row">
+<div className="col col--7">
 
 In smart-me Billing è possibile attivare facoltativamente la fattura QR.
 
@@ -134,9 +172,15 @@ Per identificare la fattura senza riferimento, sulla fattura QR viene aggiunta u
 
 La rappresentazione è ottimizzata per l'invio via e-mail. Se le fatture vengono stampate, consigliamo di disattivare la fattura QR e di ordinarla presso la banca.
 
+</div>
+<div className="col col--5 text--center">
+
 ![Billing: conteggio dell'energia – Figura 7](/img/konfiguration-billing/07.jpg)
 
 ![Billing: conteggio dell'energia – Figura 8](/img/konfiguration-billing/08.png)
+
+</div>
+</div>
 
 ### 4\. Inserire l'elenco degli inquilini
 
@@ -247,11 +291,18 @@ In questa pagina trovi una descrizione dei messaggi di errore più frequenti e l
 
 ### Visualizzazione
 
+<div className="row">
+<div className="col col--7">
+
 Nella vista standard della cartella dell'unità di conteggio (ad es. un appartamento) viene ora visualizzato un nuovo riquadro. Questo indica le letture del contatore per le tariffe virtuali. Cliccando su questo riquadro viene visualizzato il profilo di carico per le tariffe virtuali. 
 
-
+</div>
+<div className="col col--5 text--center">
 
 ![Billing: conteggio dell'energia – Figura 12](/img/konfiguration-billing/12.jpg)
+
+</div>
+</div>
 
 ### Come viene ripartita l'energia solare
 

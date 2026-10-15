@@ -80,6 +80,9 @@ Die Lastgruppen erhalten maximal den "Abgesicherten Strom" zur freien Verfügung
 
 ### Ladestromverteilung auf aktive Ladungen
 
+<div className="row">
+<div className="col col--6">
+
 Der zur Verfügung stehende Ladestrom wird automatisch auf aktive Ladungen aufgeteilt. Die verfügbaren Ströme werden so gerecht wie möglich verteilt.
 
 In diesem Beispiel werden 63A auf vier aktive Ladestationen verteilt.
@@ -87,7 +90,13 @@ In diesem Beispiel werden 63A auf vier aktive Ladestationen verteilt.
 
 Die Ladeströme werden ganzzahlig den aktiven Ladungen zugewiesen.
 
+</div>
+<div className="col col--6 text--center">
+
 ![Pico Lastmanagement – Abbildung 4](/img/produkte-pico-ladestation-pico-lastmanagement/04.png)
+
+</div>
+</div>
 
 ### Phasenumschaltung und Phasenausgleich
 

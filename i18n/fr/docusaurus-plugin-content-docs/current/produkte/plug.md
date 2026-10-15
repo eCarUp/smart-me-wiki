@@ -1,11 +1,11 @@
 ---
 title: 'Plug'
 slug: '/produkte/plug'
-description: 'Le smart-me Plug est à la fois un appareil de mesure d''électricité, un thermostat et une minuterie.'
+description: 'Le smart-me Plug est à la fois un appareil de mesure de l''électricité, un thermostat et une minuterie.'
 sidebar_label: 'Plug'
 displayed_sidebar: wikiSidebar
 ---
-Le smart-me Plug est à la fois un appareil de mesure d'électricité, un thermostat et une minuterie. En outre, le Plug peut être commandé et surveillé via le portail web ou l'application. Pour cela, l'appareil se connecte à Internet via le réseau WLAN local. 
+Le smart-me Plug est à la fois un appareil de mesure de l'électricité, un thermostat et une minuterie. De plus, le Plug peut être commandé et surveillé via le portail web ou l'application. Pour cela, l'appareil se connecte à Internet via le réseau WLAN local. 
 
 Vente arrêtée le 30.03.2021
 Support technique arrêté le 30.03.2025
@@ -15,7 +15,7 @@ Matériel et fonctions cloud : fonctionnement toujours garanti
 
 ## Variantes
 
-Disponible dans les versions Europe, Suisse et Grande-Bretagne.
+Disponible en versions Europe, Suisse et Grande-Bretagne.
 
 - Version UK : 3000W (230V, 13A)
 
@@ -26,7 +26,7 @@ Disponible dans les versions Europe, Suisse et Grande-Bretagne.
 
 ## Fonctions
 
-- Appareil de mesure d'énergie : outre la puissance actuelle, le smart-me Plug mesure l'énergie, le courant, la tension et le facteur de puissance. smart-me garantit une précision de 99% (erreur max. de 1%).
+- Appareil de mesure de l'énergie : outre la puissance actuelle, le smart-me Plug mesure l'énergie, le courant, la tension et le facteur de puissance. smart-me garantit une précision de 99% (erreur max. 1%).
 
 - Appareil de mesure de la température : surveillez la température en direct et analysez les données historiques.
 
@@ -50,13 +50,13 @@ Disponible dans les versions Europe, Suisse et Grande-Bretagne.
 
 Vidéo d'installation
 
-## Caractéristiques techniques
+## Données techniques
 
 Tension (U) 110V - 230V
 
 Plage de mesure (P) 0.1-3680W
 
-Précision 1 % (class 1)
+Précision 1 % (classe 1)
 
 Fréquence (f) 50/60Hz 
 
@@ -64,7 +64,7 @@ Courant (I) 10A / 16A
 
 Indice de protection IP20
 
-Consommation propre 0.1W
+Autoconsommation 0.1W
 
 Dimensions 95 x 54 x 29 mm (3.7 x 2.1 x 1.1 in)
 

@@ -1,10 +1,10 @@
 ---
 title: 'Configuration VHKA Immotop2'
 slug: '/schnittstellen/dta-vhka-files/Immotop2'
-description: 'Formats de fichier VHKA pris en charge par Immotop2'
+description: 'Formats de fichiers VHKA pris en charge par Immotop2'
 sidebar_label: 'Configuration VHKA Immotop2'
 ---
-## Formats de fichier VHKA pris en charge par Immotop2
+## Formats de fichiers VHKA pris en charge par Immotop2
 
 - Format de fichier XML (standard DTA-VHKA)
     Requêtes par centre de coûts :
@@ -13,13 +13,13 @@ sidebar_label: 'Configuration VHKA Immotop2'
     \- prix par unité d'utilisation
 
 
-## Remarques essentielles sur le décompte avec Immotop2 et smart-me
+## Remarques essentielles concernant le décompte avec Immotop2 et smart-me
 
 - Le décompte et la répartition des coûts selon VEWA sont effectués dans le système smart-me.
 
 - Chaque unité de décompte d'Immotop2 qui doit être interrogée doit exister de manière identique dans smart-me.
 
-- Pour que le décompte soit correct, les baux ainsi que les vacances locatives doivent être saisis dans toutes les unités pour chaque période de décompte dans Immotop2 !
+- Pour que le décompte soit correct, les baux ainsi que les logements vacants doivent être saisis dans toutes les unités d'Immotop2 pour chaque période de décompte !
 
 - Immotop2 ne prend en charge qu'une seule période de décompte par groupe de charges accessoires. L'électricité doit donc être décomptée sur la même période que toutes les autres charges accessoires.
 
@@ -30,17 +30,17 @@ sidebar_label: 'Configuration VHKA Immotop2'
 
 Pour qu'Immotop2 et smart-me puissent communiquer, les charges accessoires, les centres de coûts et les groupes de charges accessoires enregistrés doivent concorder.
 
-### Créer les clés de répartition nécessaires dans Immotop2
+### Création des clés de répartition nécessaires dans Immotop2
 
 Pour que les centres de coûts puissent être transmis correctement, il faut d'abord s'assurer que les clés nécessaires sont disponibles sur le mandant.
 
-Dans l'onglet « Données de base » (Basisdaten), vous pouvez créer les clés de répartition correspondantes sous Définitions des clés de répartition (Verteilschlüssel-Definitionen).
+Dans l'onglet « Données de base » (« Basisdaten »), les clés de répartition correspondantes peuvent être créées sous Définitions des clés de répartition (Verteilschlüssel-Definitionen).
 
-Si les coûts doivent être gérés dans le logiciel Immotop2, la clé de répartition en pour mille est indiquée.
+Si les coûts doivent être gérés dans le logiciel Immotop2, la clé de répartition en pour mille est recommandée.
 
 Pour l'électricité produite localement, la clé de répartition en CHF convient en premier lieu, dans tous les cas.
 
-Clés de répartition généralement appropriées :
+Clés de répartition généralement adaptées :
 
 - Centre de coûts électricité du réseau : électricité du réseau selon les coûts en CHF
 
@@ -57,22 +57,25 @@ Clés de répartition généralement appropriées :
 
 ![Configuration VHKA Immotop2 – Illustration 2](/img/schnittstellen-dta-vhka-files-immotop2/02.png)
 
-### 1\. Créer le groupe d'immeubles charges accessoires
+### 1\. Créer un groupe d'immeubles charges accessoires
 
-La condition préalable à un décompte est un mandant existant avec des immeubles créés.
+La condition préalable à un décompte est l'existence d'un mandant avec des immeubles créés.
 
-Dans la zone « Groupe d'immeubles CA » (LG-Gruppe-NK) de chaque immeuble ou groupe d'immeubles, vous pouvez saisir un nouveau groupe d'immeubles CA.
-Celui-ci définit les périodes de décompte des charges accessoires ainsi que les immeubles auxquels ce groupe s'applique. 
+Dans la section « LG-Gruppe-NK » de chaque immeuble ou groupe d'immeubles, un nouveau groupe LG-Gruppe-NK peut être saisi.
+On y définit les périodes de décompte des charges accessoires ainsi que les immeubles auxquels ce groupe s'applique. 
 
-- Plusieurs immeubles peuvent partager le même groupe d'immeubles CA, mais tous les coûts de ces immeubles doivent alors être regroupés sur un même compte de coûts.
-    Les immeubles sont principalement gérés ensemble lorsqu'ils partagent le chauffage.
+- Plusieurs immeubles peuvent partager le même groupe LG-Gruppe-NK, mais tous les coûts de ces immeubles doivent alors converger sur un même compte de charges.
+    En règle générale, des immeubles sont gérés ensemble lorsqu'ils partagent le même chauffage.
 
 
 ### 2\. Groupes de coûts (centres de coûts)
 
-Dans la zone « Groupes de coûts » (Kostengruppen), vous pouvez créer les groupes de coûts.
+<div className="row">
+<div className="col col--5">
 
-Un groupe de coûts correspond au regroupement de plusieurs comptes de coûts qui doivent être répartis ensemble selon une clé de répartition commune.
+Les groupes de coûts peuvent être créés dans la section « Groupes de coûts » (« Kostengruppen »)
+
+Un groupe de coûts correspond au regroupement de plusieurs comptes de charges qui doivent être répartis ensemble au moyen d'une clé de répartition commune.
 
 Exemples de groupes de coûts :
 
@@ -84,18 +87,23 @@ Exemples de groupes de coûts :
 
 - Groupe de coûts eau froide
 
+</div>
+<div className="col col--7 text--center">
 
 ![Configuration VHKA Immotop2 – Illustration 3](/img/schnittstellen-dta-vhka-files-immotop2/03.png)
 
 ![Configuration VHKA Immotop2 – Illustration 4](/img/schnittstellen-dta-vhka-files-immotop2/04.png)
 
-Exemple de groupe de coûts pour une production de chaleur et d'eau chaude sanitaire qui se complètent
+</div>
+</div>
+
+Exemple de groupe de coûts pour une production de chaleur et d'eau chaude sanitaire interdépendantes
 
 Pompe à chaleur avec production d'eau chaude sanitaire et corps de chauffe électrique (couplés)
 
 
 Énergie utilisée : énergie électrique pour les deux
-Fonctionnement : l'eau de chauffage traverse le chauffe-eau pour le stockage de chaleur
+Fonctionnement : l'eau de chauffage traverse le boiler pour le stockage de la chaleur
 
 Groupe de coûts à créer :  
 
@@ -105,12 +113,12 @@ avec la clé de répartition quote-part de chaleur type 09 en pour mille ou selo
 
 
 
-Exemple de systèmes de production de chaleur et d'eau chaude sanitaire qui ne se complètent pas
+Exemple de systèmes de production de chaleur et d'eau chaude sanitaire indépendants
 
-Chauffage au mazout avec chauffe-eau électrique séparé
+Chauffage au mazout avec boiler électrique séparé pour l'eau chaude sanitaire
 
 
-Énergie utilisée : énergie électrique pour le chauffe-eau, mazout pour le chauffage
+Énergie utilisée : énergie électrique pour le boiler, mazout pour le chauffage
 Fonctionnement : pas de préchauffage de l'eau chaude sanitaire par le chauffage
 
 Groupes de coûts à créer :
@@ -123,9 +131,9 @@ avec la clé de répartition eau chaude sanitaire séparée type 02 en pour mill
 
 
 
-### 3\. Attribution comptes de coûts – groupes de coûts
+### 3\. Affectation des comptes de charges aux groupes de coûts
 
-Dans la zone « Attribution comptes de coûts – groupes de coûts » (Kostenkonten- Kostengruppen-Zuordnung), vous pouvez maintenant attribuer tous les comptes de coûts pertinents aux groupes de coûts.
+Dans la section « Affectation comptes de charges – groupes de coûts » (« Kostenkonten- Kostengruppen-Zuordnung »), tous les comptes de charges pertinents peuvent maintenant être affectés aux groupes de coûts.
 
 À titre d'exemple, pour les frais de chauffage et d'eau chaude sanitaire, les comptes suivants seraient liés au groupe de coûts :
 
@@ -135,9 +143,9 @@ Dans la zone « Attribution comptes de coûts – groupes de coûts » (Kostenko
 
 - Entretien du brûleur
 
-- Détartrage du chauffe-eau
+- Détartrage du boiler
 
-- Électricité chauffe-eau
+- Électricité du boiler
 
 - ...
 
@@ -146,19 +154,19 @@ Dans la zone « Attribution comptes de coûts – groupes de coûts » (Kostenko
 
 ### 4\. Charges accessoires de l'immeuble
 
-Sur l'immeuble, vous pouvez ajouter le groupe d'immeubles CA sous l'onglet « Charges accessoires » (Nebenkosten).
+Sur l'immeuble, le groupe LG-Gruppe-NK peut être ajouté sous l'onglet « Charges accessoires » (« Nebenkosten »).
 
 C'est ici que sont définies les clés de répartition fixes ou variables pour le décompte.
 
 Clés de répartition
-Les clés de répartition disponibles dépendent des clés de répartition activées sous Mandant --> Charges accessoires (Mandant --> Nebenkosten). Si les clés de répartition pertinentes ne sont pas disponibles, vous pouvez définir des clés de répartition supplémentaires sous « Données de base » (Basisdaten) --> « Définitions des clés de répartition » (Verteilschlüsseldefinitionen).
+Les clés de répartition disponibles dépendent des clés de répartition activées sous Mandant --> Charges accessoires (Nebenkosten). Si les clés de répartition pertinentes ne sont pas disponibles, des clés supplémentaires peuvent être définies sous « Données de base » (« Basisdaten ») --> « Définitions des clés de répartition » (« Verteilschlüsseldefinitionen »).
 
 Exemples :
 
 Nom : Quote-part de chauffage selon la consommation
 Unité : pour mille
 Type : variable
-Enregistrement société de relevé :
+Taux société de relevé :
 Chaleur totale (chauffage et eau chaude sanitaire ensemble, 09)
 
 
@@ -166,7 +174,7 @@ Chaleur totale (chauffage et eau chaude sanitaire ensemble, 09)
 Nom : Électricité du réseau selon les coûts
 Unité : CHF
 Type : variable
-Enregistrement société de relevé :
+Taux société de relevé :
 Électricité (06)
 
 
@@ -174,7 +182,7 @@ Enregistrement société de relevé :
 Nom : Électricité solaire selon les coûts
 Unité : CHF
 Type : variable
-Enregistrement société de relevé :
+Taux société de relevé :
 Électricité (06)
 
 
@@ -198,7 +206,7 @@ Enregistrement société de relevé :
 
 Une fois la configuration terminée, le fichier d'échange peut être créé sous Traitement (Verarbeitung).
 
-Dans la configuration, vous pouvez définir précisément quels objets de l'immeuble doivent être interrogés. 
+La configuration permet de définir précisément quels objets de l'immeuble doivent être interrogés. 
 
 En règle générale, il suffit de tous les interroger.
 
@@ -212,39 +220,39 @@ Important : le format standard QP (DTA-VKA) doit être activé.
 
 ### Effectuer la comptabilisation des centres de coûts dans Immotop2
 
-Si des comptabilisations préalables sur les centres de coûts sont nécessaires dans Immotop2, vous pouvez les reprendre du CSV récapitulatif de chaque facture créée.
+Si des comptabilisations préalables sur les centres de coûts sont nécessaires dans Immotop2, elles peuvent être tirées du résumé CSV de chaque facture créée.
 
-C'est généralement le cas pour l'électricité solaire, l'électricité du réseau et les coûts d'électricité de la pompe à chaleur / du chauffage / du chauffe-eau.
+C'est généralement le cas pour l'électricité solaire, l'électricité du réseau et les coûts d'électricité de la pompe à chaleur / du chauffage / du boiler.
 
 Pour la répartition de l'électricité solaire, cela sera souvent nécessaire, car l'origine de cette information se trouve dans le système smart-me.
 
-Pour les autres centres de coûts, il existe généralement des factures externes qui peuvent être comptabilisées.
+Pour les autres centres de coûts, des factures externes pouvant être comptabilisées sont généralement disponibles.
 
-1.  Accédez au smart-me Billing via l'onglet Facturation (Rechnungsstellung)
+1.  Accédez à smart-me Billing via l'onglet Facturation (Rechnungsstellung)
 
 2.  Sélectionnez l'immeuble
 
 3.  Sélectionnez la période de facturation et créez une facture
 
-4.  Une fois la facture de la période correspondante créée, ouvrez le CSV récapitulatif (Zusammenfassung CSV)
+4.  Lorsque la facture de la période correspondante est créée, ouvrez le résumé CSV (Zusammenfassung CSV)
 
 
 ![Configuration VHKA Immotop2 – Illustration 12](/img/schnittstellen-dta-vhka-files-immotop2/12.png)
 
 ![Configuration VHKA Immotop2 – Illustration 13](/img/schnittstellen-dta-vhka-files-immotop2/13.png)
 
-Il contient les kWh et m3 vendus ainsi que le prix par tarif, par unité de décompte et au total.
+On y trouve les kWh et m3 vendus ainsi que le prix par tarif, par unité de décompte et au total.
 
-Avec cette valeur totale du tarif concerné, vous pouvez effectuer une comptabilisation dans Immotop2, puis la répartir correctement en pour mille à l'aide du fichier DTA-VHKA.
+Avec ce montant total du tarif concerné, une comptabilisation peut être effectuée dans Immotop2, puis répartie correctement en pour mille au moyen du fichier DTA-VHKA.
 
 ## Définir les clés externes à l'aide du fichier de requête
 
 ### 1\. Lier le fichier DTA-VHKA aux clés externes
 
-1.  Ouvrez le fichier dans un éditeur
+1.  Ouvrir le fichier dans un éditeur
 
-2.  Identifiez les Costcenter
-    Pour chaque &lt;Costcenter>, un tarif d'énergie doit exister dans smart-me
+2.  Identifier les Costcenter
+    Pour chaque &lt;Costcenter>, un tarif énergétique doit exister dans smart-me
 
     Ex. :
     Tarif eau froide : ID= 20
@@ -258,15 +266,15 @@ Avec cette valeur totale du tarif concerné, vous pouvez effectuer une comptabil
     Pour chaque unité de décompte dans smart-me, un ID du fichier doit être disponible. &lt;CostUnit>&lt;Id> doit maintenant être relié à l'appartement via les clés externes.
 
     Ex. :
-    Appartement 3 1/2 pièces rez-de-chaussée droite P2 (103-0.2) = ID 90
-    Appartement 3 1/2 pièces rez-de-chaussée droite P1 = ID 91
+    Appartement de 3 1/2 pièces rez-de-chaussée droite P2 (103-0.2) = ID 90
+    Appartement de 3 1/2 pièces rez-de-chaussée droite P1 = ID 91
 
 
 ![Configuration VHKA Immotop2 – Illustration 14](/img/schnittstellen-dta-vhka-files-immotop2/14.png)
 
 ### 2\. Relier les Costcenter (groupe de coûts) aux tarifs
 
-Pour chaque &lt;Costcenter>, un tarif d'énergie doit exister dans smart-me
+Pour chaque &lt;Costcenter>, un tarif énergétique doit exister dans smart-me
 
 Ex. :
 Tarif eau froide : ID= 20
@@ -292,7 +300,7 @@ Pour chaque unité de décompte dans smart-me, un ID du fichier doit être dispo
 
 
 
-Se trouve tout en bas de la page de configuration dans le Billing.
+Se trouve tout en bas de la page de configuration dans Billing.
 
 ![Configuration VHKA Immotop2 – Illustration 17](/img/schnittstellen-dta-vhka-files-immotop2/17.png)
 
@@ -300,7 +308,7 @@ Se trouve tout en bas de la page de configuration dans le Billing.
 
 ### État locatif
 
-- Comme les états locatifs sont gérés par le logiciel Immotop2, smart-me saisit lors de l'importation le contrat ainsi que les vacances locatives et les reporte dans les adresses de facturation.
+- Comme les états locatifs sont gérés par le logiciel Immotop2, smart-me saisit lors de l'import les baux ainsi que les logements vacants et les reprend dans les adresses de facturation.
 
 
 
@@ -308,11 +316,18 @@ Se trouve tout en bas de la page de configuration dans le Billing.
 
 ### Surfaces habitables
 
-- Comme les surfaces habitables ne sont actuellement pas reprises automatiquement du logiciel Immotop2, la surface habitable doit être tenue à jour côté smart-me.
+<div className="row">
+<div className="col col--6">
 
+- Comme les surfaces habitables ne sont actuellement pas reprises automatiquement du logiciel Immotop2, elles doivent être tenues à jour du côté de smart-me.
 
+</div>
+<div className="col col--6 text--center">
 
 ![Configuration VHKA Immotop2 – Illustration 19](/img/schnittstellen-dta-vhka-files-immotop2/19.png)
+
+</div>
+</div>
 
 ### Configurations côté smart-me pour l'indication des prix
 
@@ -320,7 +335,7 @@ Se trouve tout en bas de la page de configuration dans le Billing.
 
 - VEWA doit être activé et configuré avec les clés de répartition pour les coûts de base et les coûts variables par type d'énergie.
 
-- Une période de décompte doit être saisie pour chaque type d'énergie. Les coûts doivent être gérés et, pour l'électricité, des tarifs valides doivent être saisis.
+- Une période de décompte doit être saisie pour chaque type d'énergie. Les coûts doivent être gérés et des tarifs valables doivent être saisis pour l'électricité.
 
 
 ![Configuration VHKA Immotop2 – Illustration 20](/img/schnittstellen-dta-vhka-files-immotop2/20.png)
@@ -331,12 +346,12 @@ Se trouve tout en bas de la page de configuration dans le Billing.
 
 ![Configuration VHKA Immotop2 – Illustration 22](/img/schnittstellen-dta-vhka-files-immotop2/22.png)
 
-1.  Dans le Billing, accédez à « Factures » (Rechnungen), puis à la zone « Exporter » (Exportieren)
+1.  Dans Billing, accédez à « Factures » (« Rechnungen »), puis à la section « Exporter » (« Exportieren »)
 
 
-2\. Sélectionnez le type d'export et téléversez le fichier via « Exporter » (Exportieren).
+2\. Sélectionnez le type d'export et téléversez le fichier via « Exporter » (« Exportieren »).
 
-3\. Téléchargez le fichier complété sur votre ordinateur via « Télécharger » (Herunterladen).
+3\. Téléchargez le fichier complété sur votre ordinateur via « Télécharger » (« Herunterladen »).
 
 ### 8\. Importer le fichier DTA-VHKA dans Immotop2
 

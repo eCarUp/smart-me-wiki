@@ -1,13 +1,13 @@
 ---
 title: 'Stazione di ricarica Pico'
 slug: '/produkte/pico-ladestation-exa'
-description: 'RDC-DD 6mA secondo IEC 62955 (dispositivo di rilevamento della corrente continua di guasto)'
+description: 'RDC-DD 6mA secondo IEC 62955 (dispositivo di rilevamento della corrente di guasto continua)'
 sidebar_label: 'Stazione di ricarica Pico'
 displayed_sidebar: wikiSidebar
 ---
-RDC-DD 6mA secondo IEC 62955 (dispositivo di rilevamento della corrente continua di guasto)
+RDC-DD 6mA secondo IEC 62955 (dispositivo di rilevamento della corrente di guasto continua)
 
-Pico è la stazione di ricarica svizzera ad alta tecnologia. Si collega direttamente al cloud tramite Wi-Fi o rete mobile. Lo smart meter integrato esporta dati di misura ad alta precisione, che vengono firmati durante le transazioni e possono essere convalidati gratuitamente in qualsiasi momento. La stazione può essere integrata in un backend (eCarUp), in sistemi di gestione dell'energia e in altri sistemi di terzi. Inoltre, Pico può essere utilizzata sia per la gestione del carico statica sia per quella dinamica (compreso il bilanciamento delle fasi).
+Pico è la stazione di ricarica svizzera ad alta tecnologia. Si collega direttamente al cloud tramite Wi-Fi o rete mobile. Il contatore intelligente integrato esporta dati di misura ad alta precisione, che vengono firmati durante le transazioni e possono essere verificati gratuitamente in qualsiasi momento. La stazione può essere integrata in un backend (eCarUp), in sistemi di gestione dell'energia e in altri sistemi di terzi. Inoltre, Pico può essere utilizzata sia per la gestione del carico statica sia per quella dinamica (incluso il bilanciamento delle fasi).
 
 Questo articolo riguarda la prima generazione di Pico (numero articolo 202170exA). Tutte le informazioni sulla versione più recente di Pico sono disponibili qui: [Stazione di ricarica Pico](/produkte/pico-ladestation).
 
@@ -17,7 +17,7 @@ Questo articolo riguarda la prima generazione di Pico (numero articolo 202170exA
 
 [Accessori](/produkte/pico-ladestation/pico-zubehör)
 
-[Raccomandazione materiale RCD Typ A](/produkte/pico-ladestation/materialempfehlung-rcd-typ-a)
+[Raccomandazione materiale RCD Typ-A](/produkte/pico-ladestation/materialempfehlung-rcd-typ-a)
 
 ## Funzioni
 
@@ -36,30 +36,30 @@ Questo articolo riguarda la prima generazione di Pico (numero articolo 202170exA
 
 ## Messa in servizio Pico
 
-Prima di poter utilizzare il Suo dispositivo smart-me, deve collegarlo alla Sua rete WiFi.
+Prima di poter utilizzare il dispositivo smart-me, è necessario collegarlo alla propria rete WiFi.
 
-1.  Colleghi il Suo smartphone o tablet alla rete WLAN.
+1.  Collegare lo smartphone o il tablet alla rete WLAN.
 
-2.  Scarichi e installi l'app smart-me gratuita.
+2.  Scaricare e installare l'app smart-me gratuita.
 
-3.  Avvii l'app e crei un account gratuito
+3.  Avviare l'app e creare un account gratuito
 
-4.  Clicchi su «Aggiungi dispositivo» (Gerät hinzufügen) (+) e segua le istruzioni.
+4.  Fare clic su «Aggiungi dispositivo» („Gerät hinzufügen“) (+) e seguire le istruzioni.
 
     1.  1.  Selezionare WLAN o LTE (2.4Ghz o rete mobile)
 
         2.  Inserire la password (WLAN)
 
-        3.  Tenere la carta RFID in dotazione davanti al lettore per 10 secondi
+        3.  Tenere la carta RFID fornita davanti al lettore per 10 secondi
 
-        4.  Collegare il telefono cellulare alla WLAN locale della Pico (reti: smartme\_Serienummer) e mantenere la connessione.
+        4.  Collegare il telefono cellulare alla rete WLAN locale della Pico (reti: smartme\_Serienummer) e mantenere la connessione.
 
         5.  Tornare all'app
 
         6.  Inserire il nome visualizzato della Pico e completare l'installazione
 
 
-## Configurare Pico
+## Configurare la Pico
 
 La configurazione è descritta in dettaglio qui: [Configurazione Pico](/konfiguration/inbetriebnahme/pico-konfiguration) 
 
@@ -67,25 +67,25 @@ La configurazione è descritta in dettaglio qui: [Configurazione Pico](/konfigur
 
 Potenza di ricarica massima  22 kW a 32A trifase, 7.36 kW a 32A monofase
 
-Identificazione  Riconoscimento e identificazione automatici dell'auto, lettore RFID / NFC (JEWEL, MIFARE, FELICA, ISO14443, NFC\_DEP, ISO14443\_B, ISO15693)
+Identificazione  Riconoscimento e identificazione automatici del veicolo, lettore RFID / NFC (JEWEL, MIFARE, FELICA, ISO14443, NFC\_DEP, ISO14443\_B, ISO15693)
 
-Smart meter  Contatore elettrico integrato non certificato MID, incl. processore di sicurezza
+Smart Meter  Contatore elettrico integrato non certificato MID, incl. processore di sicurezza
 
 Bilanciamento delle fasi  Bilanciamento automatico delle fasi
 
 Gestione del carico  Gestione automatica del carico su più stazioni
 
-Comunicazione  WiFi (2.4 GHz) e rete mobile (LTE) incl. SIM e traffico dati per 10 anni da [1nce](https://1nce.com/de/laenderabdeckung/), [Modbus TCP](/)
+Comunicazione  WiFi (2.4 GHz) e rete mobile (LTE) incl. SIM e traffico dati per 10 anni di [1nce](https://1nce.com/de/laenderabdeckung/), [Modbus TCP](/)
 
 Connessione cloud  Connessione al cloud smart-me ed eCarUp
 
-Sicurezza  Numero articolo 202170exA RDC-DD 6mA secondo IEC 62955 (dispositivo di rilevamento della corrente continua di guasto)
+Sicurezza  Numero articolo 202170exA RDC-DD 6mA secondo IEC 62955 (dispositivo di rilevamento della corrente di guasto continua)
 
-Intervallo di temperatura  \-30°C fino a 50°C
+Intervallo di temperatura  \-30°C a 50°C
 
 Tensioni di rete 3x230/400VAC o 1x 230VAC (+/-10%)
 
-Presa di ricarica  IEC 62196-2 Typ 2 
+Presa di ricarica  IEC 62196-2 Tipo 2 
 
 Grado di protezione  IP55 (interno ed esterno)
 
@@ -97,11 +97,11 @@ Distacco del carico  2 ingressi a potenziale libero (4 stati),  min. 12V AC/DC, 
 
 Uscita S0  Interfaccia S0 (1000 imp/kwh) per la taratura
 
-Allacciamento elettrico  dall'alto, dal basso, dal retro
+Allacciamento elettrico  in alto, in basso, sul retro
 
 Tipo di installazione  Barra conduttrice, cavo piatto, a stella
 
-Dimensioni  H:300 mm L:220 mm P:112 mm
+Dimensioni  A:300 mm L:220 mm P:112 mm
 
 Peso  3.8 kg
 
@@ -109,7 +109,7 @@ Sezione del cavo  min. 2.5 mm2, max. 10 mm2
 
 Diametro del cavo  10-20 mm
 
-Ubicazione del server Svizzera 
+Ubicazione dei server Svizzera 
 
 ## Collegamenti e dimensioni Pico
 
@@ -117,33 +117,33 @@ Ubicazione del server Svizzera
 
 ### Schema di collegamento
 
-L1: fase 1
+L1: Fase 1
 
-L2: fase 2
+L2: Fase 2
 
-L3: fase 3
+L3: Fase 3
 
-N: conduttore neutro
+N: Conduttore neutro
 
-PE: conduttore di protezione
+PE: Conduttore di protezione
 
 
 
 Il conduttore di protezione dovrebbe essere collegato alla vite di collegamento superiore, in modo che il piedistallo venga messo a terra direttamente insieme alla stazione.
 
-Il prodotto può essere utilizzato solo in collegamento trifase a stella o in monofase!
+Il prodotto può essere utilizzato solo con collegamento trifase a stella o monofase!
 
 
 
 Passaggi dei cavi
 
-Su Pico i cavi possono essere fatti entrare e uscire in 5 punti. 
+Nella Pico i cavi possono essere introdotti e fatti uscire in 5 punti. 
 
 Due in alto, due in basso e uno attraverso la piastra posteriore.
 
-Per il montaggio attraverso la piastra posteriore deve essere praticato un foro con un diametro di 25-26mm.
+In caso di montaggio attraverso la piastra posteriore è necessario praticare un foro con un diametro di 25-26mm.
 
-I dettagli sul montaggio del piedistallo sono disponibili nelle istruzioni di montaggio tra i download.
+I dettagli sul montaggio del piedistallo sono riportati nelle istruzioni di montaggio nella sezione Download.
 
 ### Distacco del carico (ingressi esterni)
 
@@ -157,7 +157,7 @@ Il distacco del carico può essere realizzato anche con un solo segnale disponib
 
 Per la configurazione da nessuna ricarica alla potenza di ricarica massima, il segnale viene cablato su IN1 e IN2  nonché su COM.
 
-Per la configurazione da una potenza minima di 6A alla potenza di ricarica massima, il segnale deve essere cablato solo su IN2 e COM.
+Per la configurazione da 6A di potenza minima alla potenza di ricarica massima, il segnale deve essere cablato solo su IN2 e COM.
 
 
 
@@ -165,7 +165,7 @@ Attenzione:
 Il distacco del carico può essere cablato su tutte le Pico oppure, come minimo, su una per ciascun gruppo di carico.
 Questa funzione è garantita anche senza connessione Internet.
 
-In alternativa, il distacco del carico può avvenire anche tramite le azioni SE/ALLORA (WENN/DANN) e la regolazione Pico.
+In alternativa, il distacco del carico può avvenire anche tramite le azioni SE/ALLORA e la regolazione della Pico.
 
 ![Stazione di ricarica Pico – Figura 3](/img/produkte-pico-ladestation-exa/03.png)
 
@@ -175,7 +175,7 @@ In alternativa, il distacco del carico può avvenire anche tramite le azioni SE/
 
 ## Informazioni di spedizione
 
-### 212070 smart-me PICO stazione di ricarica incl. piastra di montaggio
+### 212070 smart-me PICO Ladestation inkl. Montageplatte
 
 Numero di tariffa doganale: 85044055
 
@@ -185,7 +185,7 @@ Dimensioni imballaggio: 400x300x200mm
 
 Pacchi per europallet: 72 pezzi
 
-### 212070/1 smart-me PICO stazione di ricarica senza piastra di montaggio
+### 212070/1 smart-me PICO Ladestation ohne Montageplatte
 
 Numero di tariffa doganale: 85044055
 
@@ -201,47 +201,47 @@ Pacchi per europallet: 72 pezzi
 
 ## Avvertenze di sicurezza
 
-Le avvertenze di sicurezza devono essere rispettate in qualsiasi circostanza:
+Le avvertenze di sicurezza devono essere rispettate in ogni circostanza:
 
 Installazione, manutenzione, riparazione, messa in servizio:
 
-- Legga attentamente l'intero manuale prima dell'installazione e dell'utilizzo del prodotto.
+- Leggere attentamente l'intero manuale prima dell'installazione e dell'utilizzo del prodotto.
 
-- Pericolo di morte dovuto all'alta tensione elettrica. Non apportare mai modifiche a componenti, software o cavi di collegamento senza che siano privi di tensione. Pertanto, i relativi fusibili a monte devono essere rimossi e conservati in modo che altre persone non possano reinserirli inavvertitamente.
+- Pericolo di morte a causa dell'alta tensione elettrica. Non apportare mai modifiche a componenti, software o cavi di collegamento senza aver tolto tensione. Per questo motivo, i relativi fusibili a monte devono essere rimossi e conservati in modo che altre persone non possano reinserirli inosservate.
 
-- Il prodotto può essere installato, riparato o sottoposto a manutenzione esclusivamente da un elettricista qualificato autorizzato. Devono essere rispettate tutte le norme comunali, regionali e nazionali vigenti in materia di impianti elettrici. 
+- Il prodotto può essere installato, riparato o sottoposto a manutenzione esclusivamente da un elettricista qualificato autorizzato. Devono essere rispettate tutte le prescrizioni comunali, regionali e nazionali vigenti per gli impianti elettrici. 
 
-- L'installazione non deve avvenire in prossimità di sostanze infiammabili o esplosive, in zone soggette a inondazioni (autorimessa sotterranea) o in zone in cui sussiste il pericolo di acqua corrente. 
+- L'installazione non deve avvenire in prossimità di sostanze infiammabili o esplosive, in zone soggette ad allagamento (autorimessa sotterranea) o in zone in cui sussiste il pericolo di acqua corrente. 
 
 - Il prodotto deve essere installato in un'ubicazione definitiva. I collegamenti sulla Pico e sulla piastra posteriore sono progettati per un numero limitato di cicli di inserimento. 
 
-- Il prodotto deve essere installato su una parete o una struttura con una capacità portante sufficiente. 
+- Il prodotto deve essere installato su una parete o una struttura con sufficiente capacità portante. 
 
-- I morsetti di collegamento nella piastra posteriore sono sotto tensione a circuito chiuso e in nessun caso devono entrare in contatto, direttamente o con altri oggetti, con elementi diversi dall'elettronica Pico.
+- I morsetti di collegamento nella piastra posteriore sono sotto tensione a circuito chiuso e in nessun caso devono entrare in contatto, direttamente o con altri oggetti, con elementi diversi dall'elettronica della Pico.
 
-- A seconda del tipo di installazione, prima dell'installazione possono essere necessarie delle autorizzazioni, ad es. in caso di aumento della potenza dell'allacciamento domestico. 
+- A seconda del tipo di installazione, prima dell'installazione potrebbero essere necessarie delle autorizzazioni, ad es. in caso di aumento della potenza dell'allacciamento dell'edificio. 
 
 - La stazione di ricarica deve essere notificata al gestore della rete di distribuzione. 
 
 
-Scopo d'uso:
+Destinazione d'uso:
 
 - Questo prodotto è destinato esclusivamente alla ricarica di veicoli a propulsione elettrica dotati di batterie che non emettono gas. Il prodotto può essere utilizzato solo con un cavo di ricarica conforme a IEC 62196. Utilizzi diversi da quelli qui indicati non sono consentiti.
 
-- L'apparecchio è previsto per l'uso in interni e in esterni.
+- L'apparecchio è previsto per l'utilizzo all'interno e all'esterno.
 
 
 Funzionamento:
 
-- Non utilizzare né toccare mai il prodotto se è danneggiato o non funziona correttamente. In caso di emergenza (fumo, incendio, scintille o altri malfunzionamenti), disinserire immediatamente il prodotto tramite l'interruttore differenziale (FI) e avvisare il supporto clienti. 
+- Non utilizzare né toccare mai il prodotto se è danneggiato o non funziona correttamente. In caso di emergenza (fumo, incendio, scintille o altri malfunzionamenti), spegnere immediatamente il prodotto tramite l'interruttore differenziale (FI) e avvisare il supporto clienti. 
 
 - Non spegnere il prodotto con acqua né pulirlo con acqua corrente.
 
 - Non immergere il prodotto in acqua o in altri liquidi. 
 
-- Questo prodotto non è previsto per l'utilizzo da parte di persone con capacità fisiche, psichiche o sensoriali ridotte (compresi i bambini) o di persone che non conoscono il prodotto. 
+- Questo prodotto non è previsto per l'utilizzo da parte di persone con capacità fisiche, psichiche o sensoriali ridotte (bambini compresi) o di persone che non conoscono il prodotto. 
 
-- Occorre assicurarsi che i bambini non giochino con il prodotto.
+- Assicurarsi che i bambini non giochino con il prodotto.
 
 - Non toccare mai i contatti della presa di ricarica di tipo 2 e non introdurre corpi estranei nel prodotto. 
 
@@ -249,13 +249,13 @@ Funzionamento:
 
 - Non utilizzare prolunghe o adattatori non omologati in combinazione con il prodotto. 
 
-- Non piegare mai il cavo di ricarica, non passarci sopra con il veicolo e non esporlo a calore eccessivo. 
+- Non piegare mai il cavo di ricarica, non passarci sopra con il veicolo e non esporlo a calore elevato. 
 
-- Estrarre il cavo di ricarica dal supporto di ricarica esclusivamente tenendolo per la spina. 
+- Estrarre il cavo di ricarica dal supporto di ricarica esclusivamente afferrandolo per la spina. 
 
-- Non posare il cavo di ricarica sui percorsi di altri utenti della strada e posizionarlo sempre in modo da evitare il pericolo di inciampo. 
+- Non posare il cavo di ricarica nei percorsi di transito di altri utenti della strada e posizionarlo sempre in modo che non vi sia pericolo di inciampo. 
 
-- Proteggere il cavo di ricarica da agenti atmosferici come irraggiamento solare diretto, vento, pioggia, umidità e bagnato e non collegarlo mai con le mani umide o bagnate. 
+- Proteggere il cavo di ricarica dagli agenti atmosferici come irraggiamento solare diretto, vento, pioggia, umidità e bagnato e non collegarlo mai con le mani umide o bagnate. 
 
 - Non utilizzare il prodotto in prossimità di forti campi elettromagnetici o nelle immediate vicinanze di telefoni cellulari.
 

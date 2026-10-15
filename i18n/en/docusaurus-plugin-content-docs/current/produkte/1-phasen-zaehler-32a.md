@@ -5,9 +5,9 @@ description: 'The smart-me Meter is the first electricity meter that can be anal
 sidebar_label: 'Single Phase Meter 32A'
 displayed_sidebar: wikiSidebar
 ---
-The smart-me Meter is the first electricity meter that can be analysed and controlled from anywhere. No additional hardware is required. It uses the existing WiFi network and connects directly to the smart-me Cloud. This lets you conveniently view your energy consumption in real time.
+The smart-me Meter is the first electricity meter that can be analysed and controlled from anywhere. No additional hardware is required. It uses the existing WiFi network and connects directly to the smart-me Cloud. This lets you conveniently see your energy consumption in real time.
 
-Sales discontinued on 01.01.2023, support and cloud services continue to be provided.
+Sales discontinued on 01.01.2023, support and cloud services remain guaranteed.
 
 ![Single Phase Meter 32A – Figure 1](/img/produkte-1-phasen-zaehler-32a/01.jpg)
 
@@ -33,7 +33,7 @@ Sales discontinued on 01.01.2023, support and cloud services continue to be prov
 
     - Automatic billing ([smart-me Billing](/konfiguration/billing))
 
-    - Control with [event actions](/konfiguration/wenndann-aktionen/ereignisaktionen) and [if/then actions](/konfiguration/wenndann-aktionen)
+    - Control with [Event-related Actions](/konfiguration/wenndann-aktionen/ereignisaktionen) and [If / Then Actions](/konfiguration/wenndann-aktionen)
 
 - Easy installation with the free smart-me app for [Android](https://play.google.com/store/apps/details?id=com.smart_me) and [iOS](https://apps.apple.com/ch/app/smart-me/id929146952?ign-mpt=uo%3D4)
 
@@ -52,9 +52,9 @@ Frequency (f) 50 / 60 Hz
 
 Max. current 32 A (switchable)
 
-Pulse input E1 potential-free\*, 25V - 253V AC/DC
+Pulse input E1 Potential-free\*, 25V - 253V AC/DC
 
-Digital output / pulse output S0 potential-free\*, Opto Power MOSFET, 5-48VDC / 5- 230 VAC, max. 550mW
+Digital output / pulse output S0 Potential-free\*, Opto Power MOSFET, 5-48VDC / 5- 230 VAC, max. 550mW
 
 \*has no power supply of its own.
 
@@ -86,17 +86,26 @@ The smart-me Meter has one output and one input, which can be used as pulse inpu
 
 ### Wiring diagram
 
+<div className="row">
+<div className="col col--5">
+
 T1: Button for installation
 
 E1: Tariff switching (digital input)
 
-0V tariff 1
+0V Tariff 1
 
-\>25V tariff 2
+\>25V Tariff 2
 
 S0: Pulse output (potential-free contact)
 
+</div>
+<div className="col col--7 text--center">
+
 ![Single Phase Meter 32A – Figure 3](/img/produkte-1-phasen-zaehler-32a/03.png)
+
+</div>
+</div>
 
 ## Changing the upload interval
 
@@ -113,7 +122,7 @@ S0: Pulse output (potential-free contact)
 
 ## Downloads
 
-Data sheet
+Datasheet
 
 [English](https://docs.google.com/presentation/d/1O1cz4NZK6npzl57qoBdHt_beJFkcvKYcODeC6qGco7g/export/pdf)
 

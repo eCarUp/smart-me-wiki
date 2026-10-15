@@ -185,10 +185,12 @@ For combined systems, the individual costs of the individual energy sources are 
 
 ### 3\. Creating billing periods and defining the content of the billing period
 
+<div className="row">
+<div className="col col--4">
+
 1.  Create the billing period
 
 2.  Activate or deactivate content
-
 
 If electricity and the heating and ancillary costs are billed at different intervals, several periods are recorded.
 
@@ -204,8 +206,13 @@ e.g.:
 
 - Heating water period 2024 (heating, cooling, domestic hot water and cold water only)
 
+</div>
+<div className="col col--8 text--center">
 
 ![VEWA - Billing – Figure 8](/img/konfiguration-billing-vewa-abrechnung/08.png)
+
+</div>
+</div>
 
 ### 4\. Recording the costs of the billing period
 

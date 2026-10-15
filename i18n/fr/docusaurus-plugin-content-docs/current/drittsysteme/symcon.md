@@ -4,11 +4,20 @@ slug: '/drittsysteme/symcon'
 description: 'Symcon est un logiciel ainsi qu''un pack matériel optionnel (Symbox) qui permet la commande et la visualisation dans votre maison ou votre bâtiment.'
 sidebar_label: 'Symcon'
 ---
+<div className="row">
+<div className="col col--8">
+
 Symcon est un logiciel ainsi qu'un pack matériel optionnel (Symbox) qui permet la commande et la visualisation dans votre maison ou votre bâtiment. Il fait office d'interface et d'organe de décision.
 
 Les données smart-me peuvent être facilement interrogées via notre API.
 
+</div>
+<div className="col col--4 text--center">
+
 ![Symcon – Illustration 1](/img/drittsysteme-symcon/01.png)
+
+</div>
+</div>
 
 Groupe cible : maisons individuelles, immeubles collectifs et industrie
 

@@ -29,6 +29,9 @@ Die Abfragen sollten nicht häufiger als alle 2 Sekunden erfolgen. Eine Erhöhun
 
 ## Modbus TCP aktivieren
 
+<div className="row">
+<div className="col col--6">
+
 1.  Logge dich auf der smart-me Webseite ein.
 
 2.  Wähle das gewünschte Gerät aus.
@@ -39,8 +42,13 @@ Die Abfragen sollten nicht häufiger als alle 2 Sekunden erfolgen. Eine Erhöhun
 
 5.  Speichern
 
+</div>
+<div className="col col--6 text--center">
 
 ![modbus-tcp](/img/schnittstellen-modbus-tcp/01.png)
+
+</div>
+</div>
 
 ## Spezifisches zu Pico und Modbus TCP
 
@@ -66,6 +74,9 @@ Das Modbus-Register eines smart-me Gerätes kann über DNS oder IP-Adresse ausge
 
 ### DNS aktivieren
 
+<div className="row">
+<div className="col col--4">
+
 1.  Logge dich auf der smart-me Webseite ein.
 
 2.  Wähle das gewünschte Gerät aus.
@@ -80,8 +91,13 @@ Das Modbus-Register eines smart-me Gerätes kann über DNS oder IP-Adresse ausge
 
 7.  Der DNS Name wird im Text unter DNS aktivieren angezeigt.
 
+</div>
+<div className="col col--8 text--center">
 
 ![Modbus TCP – Abbildung 2](/img/schnittstellen-modbus-tcp/02.png)
+
+</div>
+</div>
 
 Als IP-Adresse kann eine öffentliche IP-Adresse oder die interne IP-Adresse des Geräts gewählt werden:
 

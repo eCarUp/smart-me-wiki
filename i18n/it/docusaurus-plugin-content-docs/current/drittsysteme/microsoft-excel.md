@@ -114,9 +114,18 @@ Affinché in seguito Power Query sappia in quale tabella si trova la variabile, 
 
 ### Formattare il campo della variabile (campo di testo)
 
+<div className="row">
+<div className="col col--6">
+
 Affinché la data possa essere utilizzata in seguito, il contenuto deve essere formattato come testo. Seleziona la tabella e scegli in alto il formato Testo.
 
+</div>
+<div className="col col--6 text--center">
+
 ![Microsoft Excel – Figura 15](/img/drittsysteme-microsoft-excel/15.png)
+
+</div>
+</div>
 
 ### Interrogare la variabile in Power Query
 

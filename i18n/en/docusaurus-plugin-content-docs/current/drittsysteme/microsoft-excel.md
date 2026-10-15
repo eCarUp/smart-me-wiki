@@ -114,9 +114,18 @@ So that Power Query later knows in which table the variable can be found, the ta
 
 ### Format the variable field (text field)
 
+<div className="row">
+<div className="col col--6">
+
 So that the date can be used later, the content must be formatted as text. To do this, select the table and choose the Text format at the top.
 
+</div>
+<div className="col col--6 text--center">
+
 ![Microsoft Excel – Figure 15](/img/drittsysteme-microsoft-excel/15.png)
+
+</div>
+</div>
 
 ### Query the variable in Power Query
 

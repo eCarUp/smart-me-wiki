@@ -45,9 +45,6 @@ Bedeutung: 
 
 - Pico Bildschirm zeigt nichts an. 
 
-
-
-
 Mögliche Fehlerquellen:
 
 - Pico hat keinen Strom
@@ -55,9 +52,6 @@ Mögliche Fehlerquellen:
 - FI wurde ausgelöst
 
 - Pico hat einen Fehler auf der lokalen Software
-
-
-
 
 Massnahme:
 
@@ -72,7 +66,6 @@ Massnahme:
 - Wenn die Pico online ist, kann diese über das smart-me Portal neu gestartet werden. (Pico wählen / Zahnrad oben rechts / Erweiterte Aktionen / Neustart)
 
 - Wenn der FI ausgelöst wird, kann es sich um einen Einzelfall handeln. Sollte es häufiger auftreten, kontaktiere uns bitte. Ausser beim "IONIQ 5" und "Zoé" diese Autos löst in Einzelfällen der FI am Ende des Ladevorgangs aus, daran können wir als Hersteller von Ladestationen nichts ändern.
-
 
 ![Pico Fehler – Abbildung 1](/img/stoerungsbehebung-pico-fehler/01.png)
 

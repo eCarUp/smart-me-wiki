@@ -86,34 +86,38 @@ Per conservare gli elementi successivi, i rami e i gruppi possono essere prima c
 
 ### Aggiungere gruppi di stazioni di ricarica all'albero
 
+<div className="row">
+<div className="col col--7">
+
 I gruppi di stazioni di ricarica non ancora assegnati e configurati correttamente per l'MLM si trovano sul lato destro.
 
 Questi possono essere collegati ai rami tramite la funzione drag & drop e anche spostati all'interno della configurazione tramite drag & drop.
-
-
 
 Nota:
 Il presupposto per l'utilizzo nell'MLM è che l'impostazione in caso di interruzione della connessione sia configurata su "Corrente max. (per gruppo)" ("Max. Strom (pro Gruppe)").
 
 Questa può essere modificata su una stazione di ricarica Pico in "Configurazione" ("Konfiguration").
 
-
+</div>
+<div className="col col--5 text--center">
 
 ![Configurazione gestione del carico multilivello – Figura 5](/img/konfiguration-multilevel-lastmanagement-mlm-konfigurieren/05.png)
 
 ![Configurazione gestione del carico multilivello – Figura 6](/img/konfiguration-multilevel-lastmanagement-mlm-konfigurieren/06.png)
 
+</div>
+</div>
+
 ### Ottimizzazione solare e corrente minima per gruppo di ricarica
+
+<div className="row">
+<div className="col col--6">
 
 Configurazione del ramo:
 
 L'ottimizzazione solare è possibile 1x sul tronco (ottimizzata per l'area) oppure più volte in parallelo su rami con carichi non misurati attivi, ad es. allacciamenti domestici.
 
 A seconda della scelta, l'eccedenza solare viene ottimizzata su tutti i gruppi di stazioni di ricarica oppure solo su una parte di essi.
-
-
-
-
 
 Configurazione del gruppo:
 
@@ -126,9 +130,15 @@ Ogni gruppo può essere configurato in modo diverso.
 
 I gruppi con una corrente di ricarica minima più elevata vengono trattati con priorità nella distribuzione della corrente di rete disponibile.
 
+</div>
+<div className="col col--6 text--center">
+
 ![Configurazione gestione del carico multilivello – Figura 7](/img/konfiguration-multilevel-lastmanagement-mlm-konfigurieren/07.png)
 
 ![Configurazione gestione del carico multilivello – Figura 8](/img/konfiguration-multilevel-lastmanagement-mlm-konfigurieren/08.png)
+
+</div>
+</div>
 
 ### Salvare e attivare la configurazione
 
@@ -151,6 +161,9 @@ La configurazione di un MLLM può essere eliminata completamente premendo un pul
 
 ### Configurazione del distacco dei carichi
 
+<div className="row">
+<div className="col col--7">
+
 L'MLM dispone di un controllo integrato del distacco dei carichi.
 
 Questo controllo può essere utilizzato al posto degli ingressi hardware sul retro delle stazioni di ricarica Pico. 
@@ -160,7 +173,6 @@ Note:
 - I segnali collegati direttamente all'hardware Pico non possono essere sovrascritti con questa funzione. 
 
 - La funzione richiede una connessione Internet attiva per funzionare. In caso di perdita della connessione Internet viene utilizzato il valore impostato per l'interruzione di Internet dei gruppi Pico.
-
 
 La funzione consente di interpretare uno o più segnali digitali delle aziende elettriche e di assegnare una potenza di ricarica ridotta a tutti i gruppi di stazioni di ricarica dell'MLM.
 
@@ -177,20 +189,17 @@ Con un solo segnale:
 
 - 1 livello: 0% di riduzione, riduzione variabile (10-100%)
 
-
 Con due segnali:
 
 - 4 livelli: 0% di riduzione, riduzione variabile, riduzione variabile, 100% di riduzione
 
 - 3 livelli: 0% di riduzione, riduzione variabile (entrambe con lo stesso livello), 100% di riduzione
 
-
 Applicazione delle percentuali secondo EnWG14a in Germania:
 
 - Per impianti da 22kW, una riduzione dell'82% corrisponde alla garanzia di 4200W di potenza minima per dispositivo nell'installazione.
 
 - Per impianti da 11kW, una riduzione del 73% corrisponde alla garanzia di 4200W di potenza minima per dispositivo nell'installazione.
-
 
 Interpretazione del segnale:
 
@@ -206,11 +215,17 @@ Segnale (1) = 1 = l'energia disponibile viene ridotta.
 
 [Cablaggio e configurazione degli ingressi del contatore](/schnittstellen/ein_und_ausgaenge)
 
+</div>
+<div className="col col--5 text--center">
+
 ![Configurazione gestione del carico multilivello – Figura 11](/img/konfiguration-multilevel-lastmanagement-mlm-konfigurieren/11.png)
 
 ![Configurazione gestione del carico multilivello – Figura 12](/img/konfiguration-multilevel-lastmanagement-mlm-konfigurieren/12.png)
 
 ![Configurazione gestione del carico multilivello – Figura 13](/img/konfiguration-multilevel-lastmanagement-mlm-konfigurieren/13.png)
+
+</div>
+</div>
 
 ### Attivare e disattivare il processore MLM
 
@@ -365,6 +380,9 @@ Parcheggi per gli inquilini dell'area
 
 ![Configurazione gestione del carico multilivello – Figura 31](/img/konfiguration-multilevel-lastmanagement-mlm-konfigurieren/31.png)
 
+<div className="row">
+<div className="col col--4">
+
 Parti dell'installazione non trattate:
 
 - Gli allacciamenti domestici e le partenze per la mobilità elettrica delle case 2 e 3 sono identici nel tipo di configurazione.
@@ -373,7 +391,10 @@ Parti dell'installazione non trattate:
 
 - Ogni gruppo di ricarica può assumere comportamenti separati e ricevere anche correnti di alimentazione d'emergenza diverse in caso di interruzione di Internet.
 
-
-
+</div>
+<div className="col col--8 text--center">
 
 ![Configurazione gestione del carico multilivello – Figura 32](/img/konfiguration-multilevel-lastmanagement-mlm-konfigurieren/32.png)
+
+</div>
+</div>

@@ -153,9 +153,18 @@ Save the setting
 
 ![Define tariff times – Figure 19](/img/konfiguration-wenndann-aktionen-tarifzeiten-definieren/19.png)
 
+<div className="row">
+<div className="col col--4">
+
 Now that you have defined the relevant tariff times, return to the tariff definition to assign the timings to the tariffs.
 
+</div>
+<div className="col col--8 text--center">
+
 ![Define tariff times – Figure 20](/img/konfiguration-wenndann-aktionen-tarifzeiten-definieren/20.png)
+
+</div>
+</div>
 
 ### Next step: Define tariffs with tariff times
 

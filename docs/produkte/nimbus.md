@@ -52,7 +52,13 @@ Damit bietet der Nimbus eine hardwarebasierte Sicherheitsgarantie, die reinen So
 
 ## Display
 
+<div className="row">
+<div className="col col--6 text--center">
+
 ![smart-me Nimbus 100A – Abbildung 2](/img/produkte-nimbus/02.jpg)
+
+</div>
+<div className="col col--6">
 
 Wert / Symbol Beschreibung
 
@@ -70,9 +76,18 @@ Empfang (Balken) WLAN Signalqualität
 
 kWh Einheit des angezeigten Zählerstandes (kWh oder varh)
 
+</div>
+</div>
+
 ### Rollendes Display
 
+<div className="row">
+<div className="col col--6 text--center">
+
 ![smart-me Nimbus 100A – Abbildung 3](/img/produkte-nimbus/03.jpg)
+
+</div>
+<div className="col col--6">
 
 Zählerstand (OBIS Code gefolgt von Zählerstand) 
 
@@ -83,6 +98,9 @@ Zählerstand (OBIS Code gefolgt von Zählerstand) 
 7.8.0 (Q3) Induktive Blindenergie Lieferung total
 8.8.0 (Q4) Kapazitive Blindenergie Lieferung total
 
+</div>
+</div>
+
 ![smart-me Nimbus 100A – Abbildung 4](/img/produkte-nimbus/04.jpg)
 
 Fehleranzeige (OBIS Code gefolgt von Fehlermeldungen)
@@ -90,23 +108,39 @@ Fehleranzeige (OBIS Code gefolgt von Fehlermeldungen)
 C.60.9 Fehlermeldungen (Seite wird nur angezeigt wenn Fehler vorliegen)
 
 - PhL Verdrahtungsfehler (Flasche Phasenreihenfolge oder nicht verdrahtete Phasen)
+
     123: Falsche Phasenreihenfolge. 1, 2 und 3 blinken.
+
     1 : Nur Phase L1 angeschlossen. 2 und 3 blinken.
+
     2 : Nur Phase L2 angeschlossen. 1 und 3 blinken.
+
     3 : Nur Phase L3 angeschlossen. 1 und 2 blinken.
+
     12 : Nur Phase L1 und L2 angeschlossen. 3 blinkt.
+
     1  3 : Nur Phase L1 und L3 angeschlossen. 2 blinkt.
+
     23 : Nur Phase L2 und L3 angeschlossen. 1 blinkt.
 
 - F:F:0 ( Wird nur angezeigt, wenn einer der unteren Fehler vorliegt)
+
     0x00: Kein Fehler
+
     0xX2: Nimbus Zähler ist nicht kalibriert
+
     0xX4: Fehler mit Mikroprozessor, Zähler muss ausgetauscht werden
+
     0xX8: Softwarefehler, Zähler muss ausgetauscht werden
+
     0xX6 Nicht Kalibriert und Mikroprozessorfehler, Zähler muss ausgetauscht werden
+
     0xXA: Nicht kalibriert und Softwarefehler, Zähler muss ausgetauscht werden
+
     0xXC: Mikroprozessor und Softwarefehler, Zähler muss ausgetauscht werden
+
     0xXE: Nicht kalibriert, Mikroprozessorfehler und Softwarefehler, Zähler muss ausgetauscht werden
+
     0x1X: Logbuch voll
 
 - Symbol Meter Manipulation (Magnet):  OBIS Code C.51.6  Zähler wurde negativ beeinflusst.
@@ -159,6 +193,7 @@ Eingabe des Passwortes für Anzeige des Logbuches:
 Das Passwort erhält der Benutzer des NIMBUS Meters vom Provider.
 
 - Durch kurzes Drücken der Taste erhöht sich das erste Digit um 1.
+
     Ist das Digit auf 9, so wechselt es beim nächsten Tastendruck wieder auf 0.
 
 - Wird 2 - 3 Sekunden die Taste nicht gedrückt, so wird automatisch auf das nächste Digit geschaltet. Dieses Digit blinkt und es kann wieder eine beliebige Zahl gesetzt werden.
@@ -182,10 +217,13 @@ C.60.9 :  OBIS Code der momentan angezeigten Meldung 
 - 0001  :  Nummer der gespeicherten Meldung 0001 ist die neueste Meldung.
 
 - 8192  :  Maximal mögliche Meldungen im Logbuch.
+
     Wenn die maximal möglichen Meldungen im Logbuch gespeichert sind, werden keine weiteren Meldungen mehr gespeichert ⇨ LOGBOOK FULL.
+
     Wenn LOGBOOK FULL sind weitere Änderungen der eichtechnisch relevanten Parameter nicht mehr ohne Verletzung der eichtechnischen Sicherung möglich.
 
 - Zweite und dritte Zeile:
+
     Kennung und Typ der angezeigten Meldung.
 
 - Vierte Zeile: Datum und Uhrzeit der Meldung

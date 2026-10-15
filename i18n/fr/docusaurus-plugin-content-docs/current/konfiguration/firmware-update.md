@@ -46,16 +46,27 @@ Pour effectuer plusieurs mises à jour en parallèle, vous pouvez ouvrir plusieu
 
 ### 2\. Sélectionnez « Mettre à jour le firmware (Firmware aktualisieren) »
 
+<div className="row">
+<div className="col col--5">
+
 Délai avant le démarrage : 
 
 - Pour le Telstar (CT) et la Pico, cela peut prendre jusqu'à 5 minutes.
 
 - Pour la passerelle M-Bus, cela dépend de l'intervalle de téléversement.
 
+</div>
+<div className="col col--7 text--center">
 
 ![Mise à jour du firmware – illustration 3](/img/konfiguration-firmware-update/03.png)
 
+</div>
+</div>
+
 ### 3\. Attendez la fin de la mise à jour et confirmez avec « OK »
+
+<div className="row">
+<div className="col col--4">
 
 ⓘ Remarque : une fois la mise à jour commencée (> 1%), le navigateur n'a pas besoin de rester ouvert.
 
@@ -67,10 +78,15 @@ Durée jusqu'à la fin de la mise à jour :
 
 - Pour la passerelle M-Bus, cela dépend de l'intervalle de téléversement.
 
+</div>
+<div className="col col--8 text--center">
 
 ![Mise à jour du firmware – illustration 4](/img/konfiguration-firmware-update/04.png)
 
 ![Mise à jour du firmware – illustration 5](/img/konfiguration-firmware-update/05.png)
+
+</div>
+</div>
 
 ### Accélérer la mise à jour du firmware
 

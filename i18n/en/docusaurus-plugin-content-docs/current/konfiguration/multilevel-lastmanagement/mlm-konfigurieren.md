@@ -86,34 +86,38 @@ To keep the subordinate elements, the branches and groups can first be attached 
 
 ### Adding charging station groups to the tree
 
+<div className="row">
+<div className="col col--7">
+
 The charging station groups that are not yet assigned and are correctly configured for the MLM are located on the right-hand side.
 
 They can be attached to the branches using drag & drop and can also be moved within the configuration using drag & drop.
-
-
 
 Note:
 A prerequisite for use in the MLM is that the connection failure setting is configured to "Max. current (per group)" ("Max. Strom (pro Gruppe)").
 
 This can be adjusted on a Pico charging station under "Configuration" ("Konfiguration").
 
-
+</div>
+<div className="col col--5 text--center">
 
 ![Configure multilevel load management – Figure 5](/img/konfiguration-multilevel-lastmanagement-mlm-konfigurieren/05.png)
 
 ![Configure multilevel load management – Figure 6](/img/konfiguration-multilevel-lastmanagement-mlm-konfigurieren/06.png)
 
+</div>
+</div>
+
 ### Solar optimization and minimum current per charging group
+
+<div className="row">
+<div className="col col--6">
 
 Branch configuration:
 
 Solar optimization is possible once on the trunk (site-optimized) or several times in parallel on branches with active unmeasured loads, e.g. building connections.
 
 Depending on the choice, the solar surplus is optimized across all charging station groups or only across some of the charging station groups.
-
-
-
-
 
 Group configuration:
 
@@ -126,9 +130,15 @@ Each group can be configured differently.
 
 Groups with a higher minimum charging current are given priority when available grid current is distributed.
 
+</div>
+<div className="col col--6 text--center">
+
 ![Configure multilevel load management – Figure 7](/img/konfiguration-multilevel-lastmanagement-mlm-konfigurieren/07.png)
 
 ![Configure multilevel load management – Figure 8](/img/konfiguration-multilevel-lastmanagement-mlm-konfigurieren/08.png)
+
+</div>
+</div>
 
 ### Saving and activating the configuration
 
@@ -151,6 +161,9 @@ The configuration of an MLLM can be deleted in its entirety at the push of a but
 
 ### Configuring load shedding
 
+<div className="row">
+<div className="col col--7">
+
 The MLM has an integrated load shedding control.
 
 This control can be used instead of the hardware inputs on the back of the Pico charging stations. 
@@ -160,7 +173,6 @@ Notes:
 - Signals connected directly to Pico hardware cannot be overridden with this function. 
 
 - The function requires an active internet connection to work. If the internet connection is lost, the configured internet failure value of the Pico groups is used.
-
 
 The function makes it possible to interpret one or more digital signals from energy suppliers and to allocate reduced charging power to all charging station groups of the MLM.
 
@@ -177,20 +189,17 @@ With only one signal:
 
 - 1-stage: 0% reduction, variable reduction (10-100%)
 
-
 With two signals:
 
 - 4-stage: 0% reduction, variable reduction, variable reduction, 100% reduction
 
 - 3-stage: 0% reduction, variable reduction (both same level), 100% reduction
 
-
 Applying percentages to EnWG14a in Germany:
 
 - For 22kW installations, a reduction of 82% corresponds to the commitment of 4200W minimum power per device in the installation.
 
 - For 11kW installations, a reduction of 73% corresponds to the commitment of 4200W minimum power per device in the installation.
-
 
 Signal interpretation:
 
@@ -206,11 +215,17 @@ Signal (1) = 1 = available energy is reduced.
 
 [Wiring and configuration of meter inputs](/schnittstellen/ein_und_ausgaenge)
 
+</div>
+<div className="col col--5 text--center">
+
 ![Configure multilevel load management – Figure 11](/img/konfiguration-multilevel-lastmanagement-mlm-konfigurieren/11.png)
 
 ![Configure multilevel load management – Figure 12](/img/konfiguration-multilevel-lastmanagement-mlm-konfigurieren/12.png)
 
 ![Configure multilevel load management – Figure 13](/img/konfiguration-multilevel-lastmanagement-mlm-konfigurieren/13.png)
+
+</div>
+</div>
 
 ### Activating and deactivating the MLM processor
 
@@ -365,6 +380,9 @@ Tenant parking spaces on the site
 
 ![Configure multilevel load management – Figure 31](/img/konfiguration-multilevel-lastmanagement-mlm-konfigurieren/31.png)
 
+<div className="row">
+<div className="col col--4">
+
 Parts of the installation not covered:
 
 - The building connections and e-mobility feeders of houses 2 and 3 are configured in the same way.
@@ -373,7 +391,10 @@ Parts of the installation not covered:
 
 - Each charging group can have its own behaviour and can also receive different emergency supply currents in the event of an internet failure.
 
-
-
+</div>
+<div className="col col--8 text--center">
 
 ![Configure multilevel load management – Figure 32](/img/konfiguration-multilevel-lastmanagement-mlm-konfigurieren/32.png)
+
+</div>
+</div>

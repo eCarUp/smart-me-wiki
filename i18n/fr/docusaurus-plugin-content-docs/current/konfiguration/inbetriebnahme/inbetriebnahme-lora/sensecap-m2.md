@@ -32,10 +32,19 @@ sidebar_label: 'Sensecap M2'
 
 ![Sensecap M2 – Figure 2](/img/konfiguration-inbetriebnahme-inbetriebnahme-lora-sensecap-m2/02.png)
 
+<div className="row">
+<div className="col col--6">
+
 10\. Vérifiez sous "Status" -> "Overview" que deux coches vertes sont affichées. 
 
 11\. Sur lora.smart-me.com, la passerelle devrait maintenant être affichée comme "en ligne" (online). 
 
+</div>
+<div className="col col--6 text--center">
+
 ![Sensecap M2 – Figure 3](/img/konfiguration-inbetriebnahme-inbetriebnahme-lora-sensecap-m2/03.png)
+
+</div>
+</div>
 
 ![Sensecap M2 – Figure 4](/img/konfiguration-inbetriebnahme-inbetriebnahme-lora-sensecap-m2/04.png)

@@ -52,7 +52,6 @@ Verteilschlüssel welche sich grundsätzlich anbieten:
 
 - Kostenstelle Warmwasser: Kostenstelle Warmwasser nach Verbrauch in Promille
 
-
 ![Immotop2 VHKA Konfiguration – Abbildung 1](/img/schnittstellen-dta-vhka-files-immotop2/01.png)
 
 ![Immotop2 VHKA Konfiguration – Abbildung 2](/img/schnittstellen-dta-vhka-files-immotop2/02.png)
@@ -70,6 +69,9 @@ In dieser werden die Abrechnungsperioden der Nebenkosten und die Liegenschaften 
 
 ### 2\. Kostengruppen (Kostenstellen)
 
+<div className="row">
+<div className="col col--5">
+
 Im Bereich "Kostengruppen" können die Kostengruppen erstellt werden
 
 Die Kostengruppe enspricht einer Gruppierung von mehreren Kostenkonten welche zusammen über einen gemeinsamen Verteilschlüssel aufgeteilt werden sollen.
@@ -84,10 +86,15 @@ Beispiele für Kostengruppen:
 
 - Kostengruppe Kaltwasser
 
+</div>
+<div className="col col--7 text--center">
 
 ![Immotop2 VHKA Konfiguration – Abbildung 3](/img/schnittstellen-dta-vhka-files-immotop2/03.png)
 
 ![Immotop2 VHKA Konfiguration – Abbildung 4](/img/schnittstellen-dta-vhka-files-immotop2/04.png)
+
+</div>
+</div>
 
 Beispiel der Kostengruppe für sich unterstützende Wärme und Warmwasseraufbereitung
 
@@ -308,11 +315,18 @@ Ganz unten auf der Konfigurationsseite im Billing zu finden.
 
 ### Wohnflächen
 
+<div className="row">
+<div className="col col--6">
+
 - Da die Wohnflächen aktuell nicht automatisch vom der Immotop2 Software übernommen werden, muss seitens smart-me die Wohnfläche gepflegt aktualisiert.
 
-
+</div>
+<div className="col col--6 text--center">
 
 ![Immotop2 VHKA Konfiguration – Abbildung 19](/img/schnittstellen-dta-vhka-files-immotop2/19.png)
+
+</div>
+</div>
 
 ### Konfigurationen seitens smart-me für Preisausgabe
 

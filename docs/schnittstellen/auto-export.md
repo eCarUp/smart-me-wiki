@@ -36,13 +36,11 @@ Beispiel (Täglicher Export):
 
 - Das System startet nun den Export für den 04.02.2026 (Inhalt: Daten vom 03.02.2026 von 00:00 bis 23:59 Uhr).
 
-
 Dauer der Verarbeitung beachten: Die Neuerstellung von Exportdateien braucht Zeit. Als Richtwert gelten ca. 45 Minuten pro einzelner Datei.
 
 - Täglicher Export: Ein ganzer Monat (30 Tage = 30 Dateien) dauert etwa 22 Stunden.
 
 - Wöchentlicher Export: Ein ganzer Monat (4 Wochen = 4 Dateien) dauert etwa 3 Stunden.
-
 
 ![Auto Export – Abbildung 3](/img/schnittstellen-auto-export/03.png)
 
@@ -67,6 +65,9 @@ Hinweis: Wenn ein Messpunkt nicht in der CSV-Datei steht, wird er auch nicht ver
 
 ## Upload Art
 
+<div className="row">
+<div className="col col--5">
+
 Die Upload Art definiert wie die Daten auf das externe System geladen werden sollen. Aktuell sind folgende Arten unterstützt:
 
 FTP: FTP Upload (unverschlüsselt)
@@ -75,11 +76,9 @@ FTPs: Verschlüsselter FTP Upload
 
 - Der Port kann explizit mit einem : angegeben werden. z. B. ftp.smart-com:990
 
-
 sFTP (with username and password): Verschlüsselter FTP Upload.
 
 - Username und Passwort
-
 
 sFTP (mit Key File): Verschlüsselter FTP Upload. Anstelle eines Passwortes wird eine Schlüsseldatei verwendet.
 
@@ -91,12 +90,15 @@ sFTP (mit Key File): Verschlüsselter FTP Upload. Anstelle eines Passwortes wird
 
 - Beispiel: [enc\_key.pem](https://drive.google.com/file/d/19ChMy3gsfkBAD14A8Oe0i0lPFXmIGc77/view?usp=sharing)
 
-
 Hinweis: Das Passwort darf folgende Zeichen nicht beinhalten (&lt;, >, =)
 
-
+</div>
+<div className="col col--7 text--center">
 
 ![Auto Export – Abbildung 5](/img/schnittstellen-auto-export/05.jpg)
+
+</div>
+</div>
 
 ## Export Format
 
@@ -106,13 +108,11 @@ CSV: Format ist definiert (CSV), jedoch ist der Inhalt nicht genormt.
 
 - Rudimentärer Export in das CSV-Format. Der Export von Meterwerten wird mittels Obis Codes definiert. Details siehe unteren Abschnitt.
 
-
 IS-E: Export in ein innosolv-Energie-System der Innosolv AG
 
 - Zählerstand
 
 - Virtuelle Zählerstand (Wenn im smart-me berechnet und der Ordner gewählt wird)
-
 
 IS-E Vorschub / IS-E feed: Export in ein innosolv-Energie-System der Innosolv AG
 
@@ -120,13 +120,11 @@ IS-E Vorschub / IS-E feed: Export in ein innosolv-Energie-System der Innosolv AG
 
 - Virtueller Verbrauch (Wenn im smart-me berechnet und der Ordner gewählt wird)
 
-
 IS-E peak export
 
 - Weist spitzenleistung aus.
 
 - Hinweis: 1) Bei der Zuordnung Ordner mit virtuellen Tarifen wählen und 2) Bei der Zuordnung Zu exportierenden Messwerten "Virtuelle Tarife (nur IS-E)" wählen 3) Beim Export Format jeweils die Virtuellen Tarifnummern angeben (Export Tariffs (peak)) welche im smart-me Billing vorliegen.
-
 
 IS-E Zeitreihen / IS-E Load profile: Export in ein innosolv-Energie-System der Innosolv AG System der Innosolv AG
 
@@ -140,26 +138,32 @@ IS-E Zeitreihen / IS-E Load profile: Export in ein innosolv-Energie-System der I
 
         - leer kWh und kvar
 
-
 mscons 2.2e: mscons (Metered Services Consumption report message) in der Version 2.2e.
 
 Hinweis: Bitte dieses Format bei encontrol verwenden.
 
 - Verbrauch
 
-
 mscons 2.4a: mscons (Metered Services Consumption report message) in der Version 2.4a
 
 - Verbrauch
-
 
 ![Auto Export – Abbildung 6](/img/schnittstellen-auto-export/06.jpg)
 
 ### Blindenergie mit is-e load profile
 
+<div className="row">
+<div className="col col--4">
+
 "Only basic data" auf 0 setzten um die Blindenergie zu exportieren
 
+</div>
+<div className="col col--8 text--center">
+
 ![Auto Export – Abbildung 7](/img/schnittstellen-auto-export/07.jpg)
+
+</div>
+</div>
 
 ## Zuordnung
 

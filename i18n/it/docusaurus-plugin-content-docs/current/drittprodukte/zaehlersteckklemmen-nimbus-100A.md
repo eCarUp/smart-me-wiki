@@ -46,12 +46,19 @@ Perno per contatori per Nimbus: Hager KJZ080A4 80A Ø6×41mm
 
 ## Morsetti Seidl
 
+<div className="row">
+<div className="col col--6">
+
 Sito web del produttore e informazioni sulla distribuzione: [https://seidlgmbh.com/produkte/](https://seidlgmbh.com/produkte/) 
-
-
 
 SL-ZAKD: fino a 80A di corrente permanente e 128A di corrente di sovraccarico - morsetto a vite
 
 Perno per contatori per Nimbus: SL-6-6-42
 
+</div>
+<div className="col col--6 text--center">
+
 ![Morsetti a innesto per contatori Nimbus 100A – Figura 5](/img/drittprodukte-zaehlersteckklemmen-nimbus-100a/05.png)
+
+</div>
+</div>

@@ -31,10 +31,19 @@ sidebar_label: 'Dragino LPS8N'
 
 ![Dragino LPS8N – Figura 2](/img/konfiguration-inbetriebnahme-inbetriebnahme-lora-dragino-lps8n/02.png)
 
+<div className="row">
+<div className="col col--6">
+
 9\. Verifichi nella panoramica del sistema che per Lora, IoT Service e Internet sia presente una spunta verde.
 
 10\. Su [https://lora.smart-me.com](https://lora.smart-me.com)  il gateway dovrebbe ora essere visualizzato come "online". 
 
+</div>
+<div className="col col--6 text--center">
+
 ![Dragino LPS8N – Figura 3](/img/konfiguration-inbetriebnahme-inbetriebnahme-lora-dragino-lps8n/03.png)
+
+</div>
+</div>
 
 ![Dragino LPS8N – Figura 4](/img/konfiguration-inbetriebnahme-inbetriebnahme-lora-dragino-lps8n/04.png)

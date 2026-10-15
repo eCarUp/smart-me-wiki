@@ -47,26 +47,36 @@ Avec ce guide étape par étape, nous souhaitons vous aider à configurer votre 
 
 ## Paramètres de facturation
 
+<div className="row">
+<div className="col col--7">
+
 Rendez-vous d'abord dans les paramètres de facturation (Einstellungen der Rechnungsstellung).
 
 Configurez ici la devise et l'application de la TVA.
 
-
-
 Paramètres concrets pour la TVA :
 
 - Cas A : vous êtes un RCP (regroupement dans le cadre de la consommation propre), vous réalisez avec certitude moins de 100'000CHF de chiffre d'affaires avec l'électricité et vous ne vous êtes pas assujetti volontairement à la TVA :
+
     \- TVA 0%
+
     \- Taxe déjà incluse dans les prix (Steuer in Preise bereits inbegriffen) : OUI
 
 - Cas B : vous êtes un RCP et vous réalisez 100'000 CHF ou plus de chiffre d'affaires avec les ventes d'électricité, ou vous vous êtes assujetti volontairement à la TVA :
+
     \- TVA 8.1%
+
     \- Taxe déjà incluse dans les prix (Steuer in Preise bereits inbegriffen) : NON
 
+</div>
+<div className="col col--5 text--center">
 
 ![Billing : décompte de l'énergie – Illustration 1](/img/konfiguration-billing/01.png)
 
 ![Billing : décompte de l'énergie – Illustration 2](/img/konfiguration-billing/02.png)
+
+</div>
+</div>
 
 Profitez-en pour configurer également le logo de votre facture.
 
@@ -76,12 +86,23 @@ Complétez l'en-tête avec les coordonnées et l'adresse de l'expéditeur de la 
 
 ## Configuration de la facturation
 
+<div className="row">
+<div className="col col--5">
+
 Rendez-vous maintenant dans la configuration de la facturation (Rechnungsstellung Konfiguration) pour configurer les décomptes des immeubles.
+
+</div>
+<div className="col col--7 text--center">
 
 ![Billing : décompte de l'énergie – Illustration 4](/img/konfiguration-billing/04.png)
 
-1.  ### Créer l'immeuble
+</div>
+</div>
 
+<div className="row">
+<div className="col col--6">
+
+1.  ### Créer l'immeuble
 
 Dans la facturation, l'immeuble peut être ajouté (créé). 
 
@@ -91,9 +112,18 @@ Lors de cette étape, tous les sous-dossiers déjà créés et les compteurs att
 
 Les points de comptage qui doivent être répartis et qui se trouvent dans le nœud « Compteurs techniques » (Technischen Zähler) doivent encore être attribués manuellement.
 
+</div>
+<div className="col col--6 text--center">
+
 ![Billing : décompte de l'énergie – Illustration 5](/img/konfiguration-billing/05.png)
 
+</div>
+</div>
+
 ### 2\. Attribuer manuellement des compteurs à une unité de décompte
+
+<div className="row">
+<div className="col col--7">
 
 Lors de la création de l'immeuble, les compteurs sont automatiquement attribués à 100% à l'unité de décompte (dossier).
 
@@ -105,12 +135,20 @@ Si vous souhaitez répartir un compteur (p. ex. Parties communes) selon une clé
 
 - Sélectionnez le compteur souhaité et indiquez le pourcentage à facturer.
 
-
 La procédure décrite fonctionne de la même manière pour les autres types d'énergie (chaleur, froid, etc.)
+
+</div>
+<div className="col col--5 text--center">
 
 ![Billing : décompte de l'énergie – Illustration 6](/img/konfiguration-billing/06.png)
 
+</div>
+</div>
+
 ### 3\. Enregistrer l'IBAN
+
+<div className="row">
+<div className="col col--7">
 
 Dans smart-me Billing, la facture QR peut être activée en option.
 
@@ -134,9 +172,15 @@ Afin d'identifier la facture sans référence, une information supplémentaire (
 
 La présentation est optimisée pour l'envoi par e-mail. Si les factures sont imprimées, nous recommandons de désactiver la facture QR et de la commander auprès de la banque.
 
+</div>
+<div className="col col--5 text--center">
+
 ![Billing : décompte de l'énergie – Illustration 7](/img/konfiguration-billing/07.jpg)
 
 ![Billing : décompte de l'énergie – Illustration 8](/img/konfiguration-billing/08.png)
+
+</div>
+</div>
 
 ### 4\. Saisir l'état locatif
 
@@ -247,11 +291,18 @@ Sur cette page, vous trouverez une description des messages d'erreur les plus fr
 
 ### Visualisation
 
+<div className="row">
+<div className="col col--7">
+
 Dans la vue standard du dossier de l'unité de décompte (p. ex. un appartement), une nouvelle tuile s'affiche désormais. Elle indique les relevés du compteur pour les tarifs virtuels. En cliquant sur cette tuile, la courbe de charge des tarifs virtuels s'affiche. 
 
-
+</div>
+<div className="col col--5 text--center">
 
 ![Billing : décompte de l'énergie – Illustration 12](/img/konfiguration-billing/12.jpg)
+
+</div>
+</div>
 
 ### Comment l'électricité solaire est-elle répartie
 

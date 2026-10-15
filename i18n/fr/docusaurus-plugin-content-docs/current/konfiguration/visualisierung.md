@@ -16,9 +16,18 @@ Vous trouverez ici un guide d'utilisation de votre tableau de bord en tant que l
 
 ## Configurer les visualisations
 
+<div className="row">
+<div className="col col--6">
+
 Une visualisation est créée sur un dossier. Lorsque vous cliquez sur le dossier dans l'app ou sur le web, la visualisation correspondante s'affiche. 
 
+</div>
+<div className="col col--6 text--center">
+
 ![Visualisation et Public Links – Illustration 1](/img/konfiguration-visualisierung/01.png)
+
+</div>
+</div>
 
 ### Créer des visualisations
 

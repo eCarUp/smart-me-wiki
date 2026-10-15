@@ -12,12 +12,20 @@ Video tutorial: creare cartelle e assegnare i contatori
 
 ### Navigazione all'area Configurazione dei contatori e delle cartelle
 
+<div className="row">
+<div className="col col--6">
+
 1.  Accedi al [sito web di smart-me](https://web.smart-me.com/).
 
 2.  Nel menu a sinistra, vai a "Configurazione dei contatori e delle cartelle" ("Zähler- und Ordnerkonfiguration")
 
+</div>
+<div className="col col--6 text--center">
 
 ![Configurazione dei contatori e delle cartelle – Figura 1](/img/konfiguration-ordnerkonfiguration/01.png)
+
+</div>
+</div>
 
 ### Descrizione delle funzioni delle azioni
 
@@ -50,7 +58,7 @@ Corregge nel cloud il valore misurato dal contatore. (Calcoli di posizione)
 Correzione del valore nella cartella superiore (Überordner Wert Korrektur):
 Definisce in percentuale quanta parte del valore misurato deve essere sommata nella cartella superiore.
 Contatore attivo (Zähler aktiv):
-Attiva o disattiva un contatore per risparmiare licenze. I contatori disattivati non mostrano più dati. Ulteriori informazioni sui contatori disattivati sono disponibili nelle nostre FAQ alla voce [Come disattivo il mio contatore?](/#wie-deaktiviere-ich-meinen-zähler)
+Attiva o disattiva un contatore per risparmiare licenze. I contatori disattivati non mostrano più dati. Ulteriori informazioni sui contatori disattivati sono disponibili nelle nostre FAQ alla voce [Come disattivo il mio contatore?](/#come-disattivo-il-mio-contatore)
 
 Per attivare o disattivare più contatori contemporaneamente, puoi spostarli in una cartella nella configurazione dei contatori e delle cartelle (Zähler- / Ordnerkonfiguration), fare clic con il tasto destro su di essa e scegliere un'azione di massa. 
 
@@ -66,6 +74,9 @@ I contatori tornano quindi sul lato sinistro come contatori non assegnati.
 
 ### Etichettare i contatori
 
+<div className="row">
+<div className="col col--8">
+
 - Tutti i contatori devono essere installati nell'account corrispondente. [Messa in servizio](/konfiguration/inbetriebnahme) 
 
 - Tutti i contatori devono essere etichettati. I nostri suggerimenti per la denominazione dei contatori 
@@ -74,10 +85,18 @@ I contatori tornano quindi sul lato sinistro come contatori non assegnati.
 
     - Fluido Unità d'uso Numero del contatore (ad es. Calore APP 1)
 
+</div>
+<div className="col col--4 text--center">
 
 ![Configurazione dei contatori e delle cartelle – Figura 5](/img/konfiguration-ordnerkonfiguration/05.png)
 
+</div>
+</div>
+
 ### Convertire i contatori dell'acqua fredda in contatori dell'acqua calda sanitaria (se necessario)
+
+<div className="row">
+<div className="col col--7">
 
 Alcuni produttori di contatori M-Bus indicano nella trasmissione dei dati che si tratta di un contatore dell'acqua fredda, anche se dovrebbe essere un contatore dell'acqua calda sanitaria. In questo caso, il tipo di contatore deve essere sovrascritto in smart-me.
 
@@ -93,12 +112,17 @@ Alcuni produttori di contatori M-Bus indicano nella trasmissione dei dati che si
 
 - Salva (Speichern)
 
-
 Nota: questa modifica comporta un supporto in smart-me Billing. L'Auto-Export per le aziende elettriche non viene modificato.
 
 Nota: per motivi tecnici, questa modifica non è possibile con i contatori di calore e di freddo.
 
+</div>
+<div className="col col--5 text--center">
+
 ![Configurazione dei contatori e delle cartelle – Figura 6](/img/konfiguration-ordnerkonfiguration/06.png)
+
+</div>
+</div>
 
 ### Strutture delle cartelle e loro influenza sui processi successivi
 

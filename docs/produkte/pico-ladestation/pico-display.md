@@ -36,9 +36,18 @@ Wird immer wieder angezeigt, wenn das Auto eingesteckt wird, aber die Station im
 
 ### Ablauf Authentifizierung mit CarID (Pico Online)
 
+<div className="row">
+<div className="col col--7 text--center">
+
 ![Pico Display – Abbildung 5](/img/produkte-pico-ladestation-pico-display/05.png)
 
+</div>
+<div className="col col--5">
+
 Wird angezeigt, wenn das Auto eingesteckt wird und die Car-ID geprüft wird.
+
+</div>
+</div>
 
 ![Pico Display – Abbildung 6](/img/produkte-pico-ladestation-pico-display/06.png)
 
@@ -120,7 +129,13 @@ Wert / Symbol Beschreibung
 
 00:05:13 Dauer der aktiven Ladung
 
+<div className="row">
+<div className="col col--5 text--center">
+
 ![Pico Display – Abbildung 18](/img/produkte-pico-ladestation-pico-display/18.png)
+
+</div>
+<div className="col col--7">
 
 Wert / Symbol Beschreibung
 
@@ -131,6 +146,9 @@ kW Einheit der angezeigten Leistung
 ….. blau = max. Leistung die von der Station freigegeben ist (1 Pixel = 1A) 
 
  grün = Bezug Strom vom Auto pro Phase. (1 Pixel = 1A)
+
+</div>
+</div>
 
 ### Ablauf Beendung der Ladung
 
@@ -312,7 +330,13 @@ x4: Fehler Display Prozess (Prüfsumme)
 
 4x: Fehler Meter-SOM (Flash) Sonstige: Genereller Fehler Meter-SOM 
 
+<div className="row">
+<div className="col col--5 text--center">
+
 ![Pico Display – Abbildung 38](/img/produkte-pico-ladestation-pico-display/38.png)
+
+</div>
+<div className="col col--7">
 
 Wert / Symbol Beschreibung
 M MID-Mode aktiv
@@ -320,3 +344,6 @@ M MID-Mode aktiv
 1.8.0 Obis- Code
 
 00013.04 kWh Der Zählerstand in kWh mit 2 Nachkommastellen.
+
+</div>
+</div>

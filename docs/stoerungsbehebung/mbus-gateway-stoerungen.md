@@ -35,9 +35,7 @@ Enthält ein Zähler mehr als 1 Zähler, werden diese jeweils wie folgt nummerie
 
 - Weitere Zähler = Nebenadresse des Hauptzählers, die erste Zahl wird gelöscht (z.B. 7) und am Ende wird eine Zahl hochgezählt (z.B. 14401451,14401452).
 
-
 - Subzähler = Diese enthalten die letzten vier Ziffern des Hauptzählers (z.B. 0145) und eine vierstellige Aufzählungsnummer am Ende (z.B. 01450001)
-
 
 ![M-Bus Gateway Störungen – Abbildung 1](/img/stoerungsbehebung-mbus-gateway-stoerungen/01.png)
 

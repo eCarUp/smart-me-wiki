@@ -153,11 +153,18 @@ Bei den externen Schlüsseln (Am ende der Seite) werden keine Abrechnungseinheit
 
 ### EVT006: Failed to load meters of folder '...': - Erroneous virtual meter '....: - Meter with id '....' does not exist
 
+<div className="row">
+<div className="col col--5">
+
 Der virtuelle Zähler besteht aus Zählern, die gelöscht wurden.
 
-
+</div>
+<div className="col col--7 text--center">
 
 ![Billing Problembehebung – Abbildung 4](/img/stoerungsbehebung-billing-fehlermeldungen/04.png)
+
+</div>
+</div>
 
 ### EVT007: Möglicherweise verfügen nicht alle Zähler in der Konfiguration über die für virtuelle Tarife gesetzlich vorgeschriebene Lastgang- oder Zählerstandgang-Zertifizierung.
 

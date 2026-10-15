@@ -10,6 +10,9 @@ smart-me non opera nel settore dei progetti. Le installazioni vengono eseguite d
 
 ## Navigazione
 
+<div className="row">
+<div className="col col--7">
+
 Ti consigliamo di utilizzare l'app smart-me sul tuo smartphone. Scarica semplicemente l'app ed effettua l'accesso sul tuo smartphone.
 
 I tuoi dati di accesso come inquilino dovrebbero esserti creati e messi a disposizione dalla locatrice, la gestrice del RCP (raggruppamento ai fini del consumo proprio).
@@ -19,21 +22,34 @@ Ecco il link all'app smart-me:
      [smart-me](https://play.google.com/store/apps/details?id=com.smart_me)     [smart-me
 ](https://apps.apple.com/ch/app/smart-me/id929146952?l=en-GB)Google Play Store Apple App Store
 
-
-
 In alternativa puoi accedere anche tramite il portale smart-me nel browser.
 
 [https://portalweb.smart-me.com/Login](https://portalweb.smart-me.com/Login) 
 
+</div>
+<div className="col col--5 text--center">
+
 ![Guida per inquilini – Figura 1](/img/nutzeranleitungen-mieter/01.jpg)
+
+</div>
+</div>
 
 ## Browser
 
+<div className="row">
+<div className="col col--7">
+
 Nel tuo accesso, alla voce "Dashboard" (Dashboard), trovi le tue unità di conteggio e i punti di misura a te assegnati.
+
+</div>
+<div className="col col--5 text--center">
 
 ![Guida per inquilini – Figura 2](/img/nutzeranleitungen-mieter/02.png)
 
 ![Guida per inquilini – Figura 3](/img/nutzeranleitungen-mieter/03.png)
+
+</div>
+</div>
 
 Navigazione tra le viste
 
@@ -156,6 +172,9 @@ Contatori di un RCP
 
 ### Grandezze di misura visualizzate nell'app (contatore elettrico)
 
+<div className="row">
+<div className="col col--6">
+
 Potenza (indicatore analogico e riquadro verde)
 Mostra la potenza attuale in kilowatt (kW) consumata in quel momento dall'appartamento. In questo caso è di 2.1 kW.
 
@@ -196,7 +215,13 @@ Ultime 24 ore: 9.103 kWh
 Ultimi 7 giorni: 57.202 kWh
 Ultimi 30 giorni: 244.984 kWh
 
+</div>
+<div className="col col--6 text--center">
+
 ![Guida per inquilini – Figura 17](/img/nutzeranleitungen-mieter/17.jpg)
+
+</div>
+</div>
 
 ## Come si legge correttamente un conteggio VEWA?
 
@@ -217,6 +242,9 @@ Il conteggio VEWA è standardizzato, il che garantisce una ripartizione dei cost
 
 ### Determinazione dei costi reali (da parte del locatore)
 
+<div className="row">
+<div className="col col--6">
+
 Nel nostro esempio, alla fine del periodo di conteggio il locatore ha registrato costi per un totale di 2000.- CHF. Rispettivamente 1000.- CHF per la produzione di calore (1) e 1000.- CHF per la produzione di acqua calda sanitaria (2).
 
 Il calore prodotto viene indicato in kWh e l'acqua calda sanitaria in m3. 
@@ -228,7 +256,13 @@ I costi totali di 2000.- CHF vengono quindi ripartiti in base all'energia (kWh) 
 Calore (4522 kWh) 1223.43 CHF (3)
 Acqua calda sanitaria (47.01 m3 o 2870.31 kWh)   776.57 CHF (4)
 
+</div>
+<div className="col col--6 text--center">
+
 ![Guida per inquilini – Figura 18](/img/nutzeranleitungen-mieter/18.png)
+
+</div>
+</div>
 
 ### Ripartizione dei costi tra gli inquilini
 
@@ -284,8 +318,17 @@ I costi totali\* per l'acqua calda sanitaria a carico degli inquilini dell'appar
 
 ### Portale web smart-me
 
+<div className="row">
+<div className="col col--7">
+
 Se le informazioni disponibili nell'app smart-me non dovessero essere sufficienti, è possibile accedere al portale web tramite browser. 
 
 [Portale web smart-me - Login](https://portalweb.smart-me.com/Login)
 
+</div>
+<div className="col col--5 text--center">
+
 ![Guida per inquilini – Figura 20](/img/nutzeranleitungen-mieter/20.jpg)
+
+</div>
+</div>

@@ -8,20 +8,32 @@ sidebar_label: 'kerlink Wirnet iFemtocell-evolution'
 
 ## Activation du mode Private Network
 
+<div className="row">
+<div className="col col--7">
+
 1.  Connectez l'appareil à votre ordinateur portable via USB-C
 
 2.  Avec Putty (SSH), accédez à l'adresse IP suivante : 192.168.120.1. 
 
 3.  Connectez-vous avec
+
     user: root
+
     PW: pdmk-\*Serial\*  (ex. : EUI = 7076FFyyzz06001E, le Serial est alors 06001E)
 
 4.  Exécutez la commande suivante :
+
     klk\_apps\_config --activate-cpf --lns-server lora-gateway.smart-me.com --lns-dport 1700 --lns-uport 1700
+
     Notez que « lns » est la forme en minuscules de LNS !
 
+</div>
+<div className="col col--5 text--center">
 
 ![kerlink Wirnet iFemtocell-evolution – Illustration 1](/img/konfiguration-inbetriebnahme-inbetriebnahme-lora-kerlink-wirnet-ifemtocell-evolution/01.png)
+
+</div>
+</div>
 
 ![kerlink Wirnet iFemtocell-evolution – Illustration 2](/img/konfiguration-inbetriebnahme-inbetriebnahme-lora-kerlink-wirnet-ifemtocell-evolution/02.png)
 

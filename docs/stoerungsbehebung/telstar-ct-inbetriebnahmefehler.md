@@ -49,14 +49,25 @@ Dieser Ansatz ist vor allem dann in Betracht zu ziehen, wenn die Leistungen verd
 
 ### 4\. Prüfen ob der Wandler über Kurzschlussbrücke verfügt.
 
+<div className="row">
+<div className="col col--6">
+
 Dieser Ansatz ist vor allem dann in Betracht zu ziehen, wenn die Leistungen verdächtig klein ausfallen (halbe erwartete Leistung oder kleiner).
 
 - Einige Wandler, wie z.B. der SRT01605A von Hager, sind mit Kurzschlussbrücken ausgestattet, die nach dem Zusammenbau und der Verdrahtung der Wandler, wie in der Bedienungsanleitung beschrieben, entfernt werden müssen.
 
+</div>
+<div className="col col--6 text--center">
 
 ![Telstar CT Inbetriebnahmefehler – Abbildung 1](/img/stoerungsbehebung-telstar-ct-inbetriebnahmefehler/01.png)
 
+</div>
+</div>
+
 ### 5\. Prüfe die Flussrichtung der Stromwandler.
+
+<div className="row">
+<div className="col col--7">
 
 Dieser Ansatz wird vor allem dann verfolgt wenn Phasenleistungen negativ ausfallen, obwohl das nicht zu erwarten ist.
 
@@ -64,26 +75,20 @@ Alle Wandler besitzen eine Flussrichtung, welche mit einem Pfeil gekennzeichnet 
 
 1.  Die Pfeilspitze zielt immer in Richtung: 
 
-
 - Verbraucher und Speicher: Wohnungen, E-Mobilität, Heizungen und Batterien
 
 - Produzenten: Solar Inverter und Generatoren
-
 
 Die Rückseite des Pfeils (flach) zielt immer in Richtung:
 
 - Netz: Netzanschluss, Distribution oder Hausverteilung
 
-
-
 2.  Am Input "I IN" wird das Wandler Positiv und am "I OUT" das Wandler Negativ der jeweiligen Phase angeschlossen.
-
-
-
 
 Was den Erwartungen entspricht:
 
 - Beim PV-Zähler musst du bei Produktion negative Ströme und Leistungen vorfinden. 
+
     Wird gerade nicht aktiv produziert, finden sich in der Regel positive Ströme und Leistungen. (Diese Situation ist aber nicht eindeutig)
 
 - Reine Verbrauchszähler besitzen ausschliesslich positive Vorzeichen bei den Strömen und Leistungen.
@@ -95,12 +100,18 @@ Was den Erwartungen entspricht:
     - Bei Lieferung sind diese im Normalfall negativ (Solaranlage AN zum Test, Abweichungen auf Einzelphasen sind möglich)
 
     - Die Gesamtleistung der Bilanz muss aber der Produktion + dem Verbrauch entsprechen.
+
         (Prüfen via Lastprofil oder über Visualisierung "Energiefluss Einfach". Nur PV Zähler und Gesamtverbrauch hinterlegen um die Bilanz künstlich zu berechnen, vergleiche dann die Werte in der Visualisierung zur Aktiven Leistung des Bilanzzählers)
 
+</div>
+<div className="col col--5 text--center">
 
 ![Telstar CT Inbetriebnahmefehler – Abbildung 2](/img/stoerungsbehebung-telstar-ct-inbetriebnahmefehler/02.png)
 
 ![Telstar CT Inbetriebnahmefehler – Abbildung 3](/img/stoerungsbehebung-telstar-ct-inbetriebnahmefehler/03.png)
+
+</div>
+</div>
 
 ### 6\. Prüfe die Phasenverschiebungen mit dem Cos Phi Wert pro Phase
 
@@ -115,7 +126,6 @@ Dies führt zu Cos Phi-Werten rund um den Wert von 0 bis 0,6 (Tendenz unter 0,5)
 - Prüfe die Verbindungen aller Spannungen und Ströme auf ihre korrekte Verdrahtung.
 
 - Prüfe die Flussrichtung der Wandler
-
 
 Sehen diese Zahlen gut aus und liegen alle weit über 0,5 und haben alle vorherigen Schritte durch exerziert, bleibt noch die Prüfung der Blindleitungen als letzte Option. Diese behandelt mehrfache Vertauschungen von Flussrichtungen und Anschlüssen.
 
@@ -186,7 +196,6 @@ Dieser Ansatz ist in Betracht zu ziehen, wenn die Vorzeichen der Leistungen und 
 
 - Die Leitungswiderstände dürfen nicht grösser sein als das der maximale Sekundärstrom mit der vorhandenen Leistung fliessen kann.
 
-
 Formel:  max. Leitungswiderstand R = S / Sekundärstrom I^2
 
 Beispiel: 200A / 5A Wandler mit 1VA Ausgangsleistung
@@ -199,8 +208,8 @@ Es soll auch nicht zu knapp ausfallen, der Wechselstromwiderstand bei 50Hz liegt
 Hinweis: 
 
 - Die Messung muss mit entferntem Wandler stattfinden!
-    Sonst wird der Leitungswiderstand der Wandlerspule gemessen und nicht Hin- und Rückleitung.
 
+    Sonst wird der Leitungswiderstand der Wandlerspule gemessen und nicht Hin- und Rückleitung.
 
 Was kann ich tun, wenn der Leitungswiderstand zu gross ausfällt?
 
@@ -211,7 +220,6 @@ Was kann ich tun, wenn der Leitungswiderstand zu gross ausfällt?
 3.  Leitungen kürzen
 
 4.  Wandler durch einen Leistungsfähigeren Wandler tauschen z.B. 5VA
-
 
 ![Telstar CT Inbetriebnahmefehler – Abbildung 7](/img/stoerungsbehebung-telstar-ct-inbetriebnahmefehler/07.png)
 

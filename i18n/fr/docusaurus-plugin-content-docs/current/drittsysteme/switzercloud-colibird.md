@@ -21,10 +21,19 @@ Avec la Switzercloud, collectez les données d'appareils IoT utilisant les voies
 
 ![Switzercloud / Colibird – Illustration 1](/img/drittsysteme-switzercloud-colibird/01.png)
 
+<div className="row">
+<div className="col col--7">
+
 La Switzercloud peut récupérer, collecter et traiter les données de mesure du portail smart-me via l'API.
 Le traitement aboutit à des alertes, des rapports, des facturations, des commandes et/ou des visualisations à l'aide de Colibird.
 
+</div>
+<div className="col col--5 text--center">
+
 ![Switzercloud / Colibird – Illustration 2](/img/drittsysteme-switzercloud-colibird/02.png)
+
+</div>
+</div>
 
 ![Switzercloud / Colibird – Illustration 3](/img/drittsysteme-switzercloud-colibird/03.png)
 

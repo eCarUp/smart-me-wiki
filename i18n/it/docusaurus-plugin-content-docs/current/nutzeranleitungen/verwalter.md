@@ -12,15 +12,33 @@ sidebar_label: 'Amministrazione immobiliare'
 
 ### Il percorso verso l'accesso per gli inquilini
 
+<div className="row">
+<div className="col col--5">
+
 Pagina iniziale smart-me -> Configurazione degli utenti (Benutzerkonfiguration)
+
+</div>
+<div className="col col--7 text--center">
 
 ![Guida per l'amministrazione immobiliare – Figura 1](/img/nutzeranleitungen-verwalter/01.png)
 
+</div>
+</div>
+
 ### Il percorso verso il Billing
+
+<div className="row">
+<div className="col col--5">
 
 Pagina iniziale smart-me -> Fatturazione (Rechnungsstellung)
 
+</div>
+<div className="col col--7 text--center">
+
 ![Guida per l'amministrazione immobiliare – Figura 2](/img/nutzeranleitungen-verwalter/02.png)
+
+</div>
+</div>
 
 ## Requisiti e verifiche alla consegna
 
@@ -254,6 +272,9 @@ Es. il periodo dal 01.10.2024 al 04.11.2024 può ora essere conteggiato.
 
 ### Creare la fattura (elettricità e VEWA)
 
+<div className="row">
+<div className="col col--4">
+
 1.  Navigare all'immobile.
 
 2.  Modificare e registrare un nuovo periodo
@@ -262,10 +283,15 @@ Es. il periodo dal 01.10.2024 al 04.11.2024 può ora essere conteggiato.
 
 4.  Registrare i costi per le singole voci
 
+</div>
+<div className="col col--8 text--center">
 
 ![Guida per l'amministrazione immobiliare – Figura 14](/img/nutzeranleitungen-verwalter/14.png)
 
 ![Guida per l'amministrazione immobiliare – Figura 15](/img/nutzeranleitungen-verwalter/15.png)
+
+</div>
+</div>
 
 ### Visualizzare la fattura creata
 

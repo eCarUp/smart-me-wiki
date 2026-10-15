@@ -6,15 +6,25 @@ sidebar_label: 'Configurazione degli utenti'
 ---
 ### Requisito
 
+<div className="row">
+<div className="col col--6">
+
 Per utilizzare questa funzione ti serve un abbonamento smart-me Professional.
 
 In smart-me puoi creare nuovi utenti e assegnare loro le autorizzazioni corrispondenti su contatori o cartelle. Questi utenti hanno solo diritti di lettura.
 
-
-
 In questo modo puoi dare agli inquilini accesso ai loro dati per tutto il tempo in cui abitano nell'immobile.
 
+</div>
+<div className="col col--6 text--center">
+
 ![Creare utenti – figura 1](/img/konfiguration-benutzerkonfiguration/01_EN.png)
+
+</div>
+</div>
+
+<div className="row">
+<div className="col col--8">
 
 Per creare nuovi utenti procedi come segue:
 
@@ -30,10 +40,18 @@ Tieni presente che devi prima [creare le cartelle](/konfiguration/ordnerkonfigur
 
 5.  Trascina con il mouse l'utente sulla cartella che deve essere visibile per questo utente.
 
+</div>
+<div className="col col--4 text--center">
 
 ![Creare utenti – figura 2](/img/konfiguration-benutzerkonfiguration/02.png)
 
+</div>
+</div>
+
 ### Livelli di autorizzazione
+
+<div className="row">
+<div className="col col--4">
 
 Gli utenti hanno sempre e solo accesso in lettura.
 
@@ -41,7 +59,13 @@ Gli utenti hanno sempre e solo accesso in lettura.
 
 Se sul nodo viene utilizzata una visualizzazione che accede ai dati dei contatori, l'utente deve essere autorizzato a vedere i contatori.
 
+</div>
+<div className="col col--8 text--center">
+
 ![Creare utenti – figura 3](/img/konfiguration-benutzerkonfiguration/03_EN.png)
+
+</div>
+</div>
 
 ### Passo successivo
 

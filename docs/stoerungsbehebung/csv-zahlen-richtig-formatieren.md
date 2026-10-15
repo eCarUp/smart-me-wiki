@@ -25,6 +25,9 @@ Anbei findest du zwei einfache Lösungen, mit denen du sicherstellst, dass Excel
 
 ### CSV mit Suchen/Ersetzten bearbeiten
 
+<div className="row">
+<div className="col col--4">
+
 - Ctrl+H drücken
 
 - Suchen nach "." (Punkt)
@@ -39,8 +42,13 @@ Anbei findest du zwei einfache Lösungen, mit denen du sicherstellst, dass Excel
 
 - Alle erstezen
 
+</div>
+<div className="col col--8 text--center">
 
 ![CSV Zahlen richtig Formatieren – Abbildung 2](/img/stoerungsbehebung-csv-zahlen-richtig-formatieren/02.png)
+
+</div>
+</div>
 
 ### Trennzeichen von Zahlen im Excel verändern.
 

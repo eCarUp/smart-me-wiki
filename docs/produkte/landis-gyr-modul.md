@@ -5,6 +5,9 @@ description: 'Verkauf eingestellt am 30.04.2021, Support und Cloud-Unterstützun
 sidebar_label: 'Landis+Gyr Modul'
 displayed_sidebar: wikiSidebar
 ---
+<div className="row">
+<div className="col col--7">
+
 Verkauf eingestellt am 30.04.2021, Support und Cloud-Unterstützung wird bis am 30.03.2025 gewährleistet.
 
 Das Landis+Gyr Modul bringt die Messdaten der Energiezähler L+G E450 und E350 in die smart-me Cloud.
@@ -13,7 +16,13 @@ Für das Modul wird keine zusätzliche Hardware benötigt. Es nutzt das bestehen
 
 Mit einem Professional Abo können die Zählerwerte auch über die Modbus TCP Schnittstelle abgefragt werden.
 
+</div>
+<div className="col col--5 text--center">
+
 ![Landis+Gyr Modul – Abbildung 1](/img/produkte-landis-gyr-modul/01.png)
+
+</div>
+</div>
 
 ## Funktionen
 

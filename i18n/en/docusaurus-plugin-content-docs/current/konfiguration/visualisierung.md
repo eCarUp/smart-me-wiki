@@ -16,9 +16,18 @@ Here you will find a user guide for your dashboard as a tenant. Learn where you 
 
 ## Configuring visualizations
 
+<div className="row">
+<div className="col col--6">
+
 A visualization is created on a folder. When you click on the folder in the app or on the web, the corresponding visualization is displayed. 
 
+</div>
+<div className="col col--6 text--center">
+
 ![Visualization and Public Links – Figure 1](/img/konfiguration-visualisierung/01.png)
+
+</div>
+</div>
 
 ### Creating visualizations
 

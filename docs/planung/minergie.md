@@ -118,24 +118,28 @@ Royalties Stand 11.2025 (Änderungen seitens Minergie jederzeit Möglich, prüfe
 
 ## Kontaktdaten Minergie
 
-Generell & Plattform
+<Kacheln min="16rem">
 
-Allgemeine Auskunft:
+<Kachel titel="Allgemeine Auskunft">
 
-Minergie-Geschäftsstelle 
+Minergie-Geschäftsstelle
 
-info@minergie.ch
+[info@minergie.ch](mailto:info@minergie.ch) · +41 61 205 25 50
 
-+41 61 205 25 50
+</Kachel>
 
-Label-Plattform
+<Kachel titel="Label-Plattform">
 
-Support Label-Plattform 
+Support Label-Plattform
 
-support@label-plattform.ch
+[support@label-plattform.ch](mailto:support@label-plattform.ch) · +41 61 205 25 55
 
-+41 61 205 25 55
+</Kachel>
 
-Minergie Zertifizierungsstellen
+<Kachel titel="Zertifizierungsstellen">
 
-[https://www.minergie.ch/de/kontakt/zertifizierungsstellen/](https://www.minergie.ch/de/kontakt/zertifizierungsstellen/)
+[Verzeichnis auf minergie.ch](https://www.minergie.ch/de/kontakt/zertifizierungsstellen/)
+
+</Kachel>
+
+</Kacheln>

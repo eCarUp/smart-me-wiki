@@ -12,12 +12,20 @@ Tutoriel vidéo : créer des dossiers et y attribuer des compteurs
 
 ### Accéder à la configuration des compteurs et des dossiers
 
+<div className="row">
+<div className="col col--6">
+
 1.  Connectez-vous sur le [site web smart-me](https://web.smart-me.com/).
 
 2.  Dans le menu de gauche, allez à « Configuration des compteurs et des dossiers » (Zähler- und Ordnerkonfiguration)
 
+</div>
+<div className="col col--6 text--center">
 
 ![Configuration des compteurs et des dossiers – figure 1](/img/konfiguration-ordnerkonfiguration/01.png)
+
+</div>
+</div>
 
 ### Description des actions
 
@@ -50,7 +58,7 @@ Corrige la valeur mesurée du compteur côté cloud. (Calculs de position)
 Correction de valeur du dossier parent (Überordner Wert Korrektur) :
 Définit en pourcentage la part de la valeur mesurée à additionner dans le dossier parent.
 Compteur actif (Zähler aktiv) :
-Activez ou désactivez un compteur pour économiser des licences. Les compteurs désactivés n'affichent plus de données. Vous trouverez plus d'informations sur les compteurs désactivés dans notre FAQ, sous [Comment désactiver mon compteur ?](/#wie-deaktiviere-ich-meinen-zähler)
+Activez ou désactivez un compteur pour économiser des licences. Les compteurs désactivés n'affichent plus de données. Vous trouverez plus d'informations sur les compteurs désactivés dans notre FAQ, sous [Comment désactiver mon compteur ?](/#comment-désactiver-mon-compteur-)
 
 Pour activer ou désactiver plusieurs compteurs à la fois, vous pouvez les déplacer dans un dossier dans la configuration des compteurs et des dossiers, faire un clic droit sur ce dossier et choisir une action groupée. 
 
@@ -66,6 +74,9 @@ Les compteurs retournent alors dans la partie gauche en tant que compteurs non a
 
 ### Nommer les compteurs
 
+<div className="row">
+<div className="col col--8">
+
 - Tous les compteurs doivent être installés dans le compte correspondant. [Mise en service](/konfiguration/inbetriebnahme) 
 
 - Tous les compteurs doivent être nommés. Nos propositions pour la désignation des compteurs 
@@ -74,10 +85,18 @@ Les compteurs retournent alors dans la partie gauche en tant que compteurs non a
 
     - Fluide Unité d'utilisation Numéro de compteur (p. ex. Chaleur APP 1)
 
+</div>
+<div className="col col--4 text--center">
 
 ![Configuration des compteurs et des dossiers – figure 5](/img/konfiguration-ordnerkonfiguration/05.png)
 
+</div>
+</div>
+
 ### Convertir des compteurs d'eau froide en compteurs d'eau chaude sanitaire (si nécessaire)
+
+<div className="row">
+<div className="col col--7">
 
 Certains fabricants de compteurs M-Bus indiquent lors de la transmission des données qu'il s'agit d'un compteur d'eau froide, alors qu'il devrait s'agir d'un compteur d'eau chaude sanitaire. Dans ce cas, le type de compteur doit être forcé dans smart-me.
 
@@ -93,12 +112,17 @@ Certains fabricants de compteurs M-Bus indiquent lors de la transmission des don
 
 - Enregistrer (Speichern)
 
-
 Remarque : cette adaptation est prise en charge dans smart-me Billing. Elle ne modifie pas l'Auto Export destiné aux fournisseurs d'énergie.
 
 Remarque : pour des raisons techniques, cette manipulation n'est pas possible avec les compteurs de chaleur et de froid.
 
+</div>
+<div className="col col--5 text--center">
+
 ![Configuration des compteurs et des dossiers – figure 6](/img/konfiguration-ordnerkonfiguration/06.png)
+
+</div>
+</div>
 
 ### Structures de dossiers et leur influence sur les processus suivants
 

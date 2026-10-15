@@ -34,6 +34,15 @@ Ist die ID mit welcher dieser Zähler direkt via API angesprochen werden kann.
 
 ![Systemgesundheit – Abbildung 1](/img/stoerungsbehebung-systemgesundheit/01.png)
 
+<div className="row">
+<div className="col col--4 text--center">
+
 ![Systemgesundheit – Abbildung 2](/img/stoerungsbehebung-systemgesundheit/02.png)
 
+</div>
+<div className="col col--8">
+
 Bedeutet 8 Geräte dieses Typs sind aktuell offline (Diese Anzeige ignoriert alle inaktiv gesetzten Zähler)
+
+</div>
+</div>

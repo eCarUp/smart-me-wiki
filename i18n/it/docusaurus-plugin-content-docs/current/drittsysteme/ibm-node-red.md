@@ -4,16 +4,34 @@ slug: '/drittsysteme/ibm-node-red'
 description: 'L''interfaccia API aperta di smart-me si integra molto facilmente nei flussi di IBM Node-Red.'
 sidebar_label: 'IBM - Node-RED'
 ---
+<div className="row">
+<div className="col col--8">
+
 L'interfaccia API aperta di smart-me si integra molto facilmente nei flussi di IBM Node-Red.
 Crei flussi di lavoro tramite richieste HTTP e la nostra API, con l'intera gamma di dati e funzioni di controllo.
 
+</div>
+<div className="col col--4 text--center">
+
 ![IBM Node-RED – Figura 1](/img/drittsysteme-ibm-node-red/01.png)
+
+</div>
+</div>
 
 ## Leggere i valori dei contatori - GET
 
+<div className="row">
+<div className="col col--5">
+
 Per poter utilizzare l'API sono necessari i blocchi HTTP-Request di Node-Red.
 
+</div>
+<div className="col col--7 text--center">
+
 ![IBM Node-RED – Figura 2](/img/drittsysteme-ibm-node-red/02.png)
+
+</div>
+</div>
 
 ![IBM Node-RED – Figura 3](/img/drittsysteme-ibm-node-red/03.png)
 

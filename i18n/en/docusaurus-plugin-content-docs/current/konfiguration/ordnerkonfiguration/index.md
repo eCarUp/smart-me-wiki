@@ -12,12 +12,20 @@ Video tutorial: creating folders and assigning meters
 
 ### Navigating to the Folder and Meter Configuration section
 
+<div className="row">
+<div className="col col--6">
+
 1.  Log in to the [smart-me website](https://web.smart-me.com/).
 
 2.  In the menu on the left, navigate to "Folder and Meter Configuration" (Zähler- und Ordnerkonfiguration)
 
+</div>
+<div className="col col--6 text--center">
 
 ![Folder and Meter Configuration – Figure 1](/img/konfiguration-ordnerkonfiguration/01.png)
+
+</div>
+</div>
 
 ### Description of the actions
 
@@ -50,7 +58,7 @@ Corrects the meter's measured value on the cloud side. (Position calculations)
 Parent folder value correction (Überordner Wert Korrektur):
 Defines as a percentage how much of the measured value is to be summed in the parent folder.
 Meter active (Zähler aktiv):
-Activate or deactivate a meter to save licenses. Deactivated meters no longer show any data. For more information on deactivated meters, see our FAQ under [How do I deactivate my meter?](/#wie-deaktiviere-ich-meinen-zähler)
+Activate or deactivate a meter to save licenses. Deactivated meters no longer show any data. For more information on deactivated meters, see our FAQ under [How do I deactivate my meter?](/#how-do-i-deactivate-my-meter)
 
 To activate or deactivate several meters at once, you can move them into a folder in the Folder and Meter Configuration (Zähler- / Ordnerkonfiguration), right-click that folder and choose a bulk action. 
 
@@ -66,6 +74,9 @@ Meters then fall back to the left-hand side as unassigned meters.
 
 ### Labelling meters
 
+<div className="row">
+<div className="col col--8">
+
 - All meters must be installed in the corresponding account. [Commissioning](/konfiguration/inbetriebnahme) 
 
 - All meters must be labelled. Our suggestions for meter names 
@@ -74,10 +85,18 @@ Meters then fall back to the left-hand side as unassigned meters.
 
     - Medium usage unit meter number (e.g. Heat APT 1)
 
+</div>
+<div className="col col--4 text--center">
 
 ![Folder and Meter Configuration – Figure 5](/img/konfiguration-ordnerkonfiguration/05.png)
 
+</div>
+</div>
+
 ### Converting cold water meters to domestic hot water meters (if necessary)
+
+<div className="row">
+<div className="col col--7">
 
 Some M-Bus meter manufacturers indicate during data transmission that the meter is a cold water meter, even though it should be a domestic hot water meter. In this case, the meter type must be overridden in smart-me.
 
@@ -93,12 +112,17 @@ Some M-Bus meter manufacturers indicate during data transmission that the meter 
 
 - Save (Speichern)
 
-
 Note: This adjustment provides support in smart-me Billing. The Auto Export for energy suppliers is not changed by it.
 
 Note: For technical reasons, this change is not possible with heat meters and cooling meters.
 
+</div>
+<div className="col col--5 text--center">
+
 ![Folder and Meter Configuration – Figure 6](/img/konfiguration-ordnerkonfiguration/06.png)
+
+</div>
+</div>
 
 ### Folder structures and their impact on downstream processes
 

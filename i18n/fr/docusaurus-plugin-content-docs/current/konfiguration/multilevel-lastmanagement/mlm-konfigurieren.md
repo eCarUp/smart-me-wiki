@@ -86,34 +86,38 @@ Pour conserver les éléments qui en dépendent, les branches et les groupes peu
 
 ### Ajouter des groupes de bornes de recharge à l'arbre
 
+<div className="row">
+<div className="col col--7">
+
 Les groupes de bornes de recharge pas encore attribués et correctement configurés pour le MLM se trouvent sur le côté droit.
 
 Ils peuvent être rattachés aux branches par glisser-déposer et également déplacés par glisser-déposer au sein de la configuration.
-
-
 
 Remarque :
 Pour être utilisé dans le MLM, le paramètre en cas de perte de connexion doit être configuré sur « Courant max. (par groupe) » (Max. Strom (pro Gruppe)).
 
 Ce paramètre peut être modifié sur une borne de recharge Pico sous « Configuration » (Konfiguration).
 
-
+</div>
+<div className="col col--5 text--center">
 
 ![Configuration de la gestion de la charge multiniveau – Figure 5](/img/konfiguration-multilevel-lastmanagement-mlm-konfigurieren/05.png)
 
 ![Configuration de la gestion de la charge multiniveau – Figure 6](/img/konfiguration-multilevel-lastmanagement-mlm-konfigurieren/06.png)
 
+</div>
+</div>
+
 ### Optimisation solaire et courant minimal par groupe de recharge
+
+<div className="row">
+<div className="col col--6">
 
 Configuration des branches :
 
 L'optimisation solaire est possible 1x sur le tronc (optimisée pour le site) ou plusieurs fois en parallèle sur des branches avec des charges non mesurées actives, p. ex. des raccordements de bâtiment.
 
 Selon le choix effectué, l'excédent solaire est optimisé sur tous les groupes de bornes de recharge ou seulement sur une partie d'entre eux.
-
-
-
-
 
 Configuration des groupes :
 
@@ -126,9 +130,15 @@ Chaque groupe peut être configuré de manière différente.
 
 Les groupes avec un courant de recharge minimal plus élevé sont traités en priorité lors de la répartition du courant réseau disponible.
 
+</div>
+<div className="col col--6 text--center">
+
 ![Configuration de la gestion de la charge multiniveau – Figure 7](/img/konfiguration-multilevel-lastmanagement-mlm-konfigurieren/07.png)
 
 ![Configuration de la gestion de la charge multiniveau – Figure 8](/img/konfiguration-multilevel-lastmanagement-mlm-konfigurieren/08.png)
+
+</div>
+</div>
 
 ### Enregistrer et activer la configuration
 
@@ -151,6 +161,9 @@ La configuration d'un MLLM peut être entièrement supprimée d'une simple press
 
 ### Configuration du délestage
 
+<div className="row">
+<div className="col col--7">
+
 Le MLM dispose d'une commande de délestage intégrée.
 
 Cette commande peut être utilisée à la place des entrées matérielles situées à l'arrière des bornes de recharge Pico. 
@@ -160,7 +173,6 @@ Remarques :
 - Les signaux raccordés directement au matériel Pico ne peuvent pas être outrepassés par cette fonction. 
 
 - La fonction nécessite une connexion Internet active pour fonctionner. En cas de perte de la connexion Internet, la valeur réglée pour la panne Internet des groupes Pico est utilisée.
-
 
 La fonction permet d'interpréter un ou plusieurs signaux numériques des fournisseurs d'électricité et d'attribuer une puissance de recharge réduite à tous les groupes de bornes de recharge du MLM.
 
@@ -177,20 +189,17 @@ Avec un seul signal :
 
 - 1 niveau : 0% de réduction, réduction variable (10-100%)
 
-
 Avec deux signaux :
 
 - 4 niveaux : 0% de réduction, réduction variable, réduction variable, 100% de réduction
 
 - 3 niveaux : 0% de réduction, réduction variable (les deux au même niveau), 100% de réduction
 
-
 Application des pourcentages à l'EnWG14a en Allemagne :
 
 - Pour les installations de 22kW, une réduction de 82% correspond à la garantie de 4200W de puissance minimale par appareil dans l'installation.
 
 - Pour les installations de 11kW, une réduction de 73% correspond à la garantie de 4200W de puissance minimale par appareil dans l'installation.
-
 
 Interprétation du signal :
 
@@ -206,11 +215,17 @@ Signal (1) = 1 = l'énergie disponible est réduite.
 
 [Câblage et configuration des entrées de compteur](/schnittstellen/ein_und_ausgaenge)
 
+</div>
+<div className="col col--5 text--center">
+
 ![Configuration de la gestion de la charge multiniveau – Figure 11](/img/konfiguration-multilevel-lastmanagement-mlm-konfigurieren/11.png)
 
 ![Configuration de la gestion de la charge multiniveau – Figure 12](/img/konfiguration-multilevel-lastmanagement-mlm-konfigurieren/12.png)
 
 ![Configuration de la gestion de la charge multiniveau – Figure 13](/img/konfiguration-multilevel-lastmanagement-mlm-konfigurieren/13.png)
+
+</div>
+</div>
 
 ### Activer et désactiver le processeur MLM
 
@@ -365,6 +380,9 @@ Places de stationnement locataires du site
 
 ![Configuration de la gestion de la charge multiniveau – Figure 31](/img/konfiguration-multilevel-lastmanagement-mlm-konfigurieren/31.png)
 
+<div className="row">
+<div className="col col--4">
+
 Parties de l'installation non traitées :
 
 - Les raccordements de bâtiment et les départs e-mobilité des maisons 2 et 3 sont configurés de manière identique.
@@ -373,7 +391,10 @@ Parties de l'installation non traitées :
 
 - Chaque groupe de recharge peut adopter des comportements distincts et recevoir aussi des courants d'alimentation de secours différents en cas de panne Internet.
 
-
-
+</div>
+<div className="col col--8 text--center">
 
 ![Configuration de la gestion de la charge multiniveau – Figure 32](/img/konfiguration-multilevel-lastmanagement-mlm-konfigurieren/32.png)
+
+</div>
+</div>

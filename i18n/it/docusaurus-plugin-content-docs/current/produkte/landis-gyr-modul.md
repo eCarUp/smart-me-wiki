@@ -1,33 +1,42 @@
 ---
 title: 'Modulo Landis+Gyr'
 slug: '/produkte/landis-gyr-modul'
-description: 'Vendita cessata il 30.04.2021, l''assistenza e il supporto cloud sono garantiti fino al 30.03.2025.'
+description: 'Vendita cessata il 30.04.2021, il supporto e l''assistenza cloud sono garantiti fino al 30.03.2025.'
 sidebar_label: 'Modulo Landis+Gyr'
 displayed_sidebar: wikiSidebar
 ---
-Vendita cessata il 30.04.2021, l'assistenza e il supporto cloud sono garantiti fino al 30.03.2025.
+<div className="row">
+<div className="col col--7">
 
-Il modulo Landis+Gyr trasmette i dati di misura dei contatori di energia L+G E450 ed E350 al cloud smart-me.
+Vendita cessata il 30.04.2021, il supporto e l'assistenza cloud sono garantiti fino al 30.03.2025.
 
-Il modulo non richiede hardware aggiuntivo. Utilizza la rete WiFi esistente e si collega direttamente al cloud smart-me. È il modo più semplice per analizzare e ottimizzare il consumo energetico in tempo reale su smartphone, tablet o computer.
+Il modulo Landis+Gyr trasmette i dati di misura dei contatori di energia L+G E450 ed E350 nella smart-me Cloud.
+
+Il modulo non richiede hardware aggiuntivo. Utilizza la rete WiFi esistente e si collega direttamente alla smart-me Cloud. È il modo più semplice per analizzare e ottimizzare il consumo di energia in tempo reale su smartphone, tablet o computer.
 
 Con un abbonamento Professional, i valori del contatore possono essere letti anche tramite l'interfaccia Modbus TCP.
 
+</div>
+<div className="col col--5 text--center">
+
 ![Modulo Landis+Gyr – Figura 1](/img/produkte-landis-gyr-modul/01.png)
+
+</div>
+</div>
 
 ## Funzioni
 
-- Visualizzazione in tempo reale di potenza, lettura del contatore totale (prelievo e fornitura), tariffa 1 e 2, potenza reattiva ed energia reattiva
+- Visualizzazione in tempo reale di potenza, lettura del contatore totale (prelievo e immissione), tariffa 1 e 2, potenza reattiva ed energia reattiva
 
 - Salvataggio automatico delle letture del contatore nel cloud
 
 - Memorizzazione e sincronizzazione automatica dei valori misurati in caso di interruzione della connessione
 
-- Uscita a contatto per il comando di apparecchi esterni
+- Uscita a contatto per il comando di dispositivi esterni
 
-- Connessione WLAN crittografata direttamente al cloud smart-me
+- Connessione WLAN crittografata direttamente alla smart-me Cloud
 
-- Ampia gestione dei dati energetici, fatturazione automatica nonché comando e allarmi tramite il cloud smart-me
+- Gestione completa dei dati energetici, fatturazione automatica nonché comando e allarmi tramite la smart-me Cloud
 
 - Installazione semplice con l'app smart-me gratuita per Android e iOS
 
@@ -35,17 +44,17 @@ Con un abbonamento Professional, i valori del contatore possono essere letti anc
 ### Video: installazione
 
 Nota:
-dopo la messa in servizio la batteria può essere rimossa, poiché il modulo viene alimentato dal contatore.
+Dopo la messa in servizio la batteria può essere rimossa, poiché il modulo è alimentato dal contatore.
 
-<Video src="35_hjsvRtwM" title="Video YouTube, smart-me per Landis+Gyr" />
+<Video src="35_hjsvRtwM" title="Video YouTube, smart-me for Landis+Gyr" />
 
 ## Dati tecnici
 
-Contatori supportati L+G E450 e L+G E350 con modulo E35C                  
+Contatori supportati L+G E450 e L+G E350 con modulo E35C
 
-Intervallo di upload 5 secondi             
+Intervallo di upload 5 secondi
 
-Tensione di esercizio fornita dal contatore 
+Tensione di esercizio fornita dal contatore
 
 Interfacce WiFi
 
@@ -68,11 +77,11 @@ Intervallo di temperatura da −40°C a 70°C
 Montaggio accanto o sul contatore L+G
 
 
-Nota: per l'installazione è necessaria per breve tempo una batteria da 9V (blocco da 9 volt). 
+Nota: per l'installazione è necessaria per breve tempo una batteria da 9V (blocco da 9 volt).
 
 ## Configurazione dell'interfaccia CII
 
-L'interfaccia CII (interfaccia cliente) del contatore Landis+Gyr (ad es. E450 o E350) deve essere attivata. Seguire le istruzioni per configurare correttamente l'interfaccia.
+L'interfaccia CII (interfaccia cliente) del contatore Landis+Gyr (ad es. E450 o E350) deve essere attivata. Segua le istruzioni per configurare correttamente l'interfaccia.
 
 [Configurazione standard dell'interfaccia CII (inglese)](https://drive.google.com/file/d/1i9KXi5yAHfoNvlFB_08XW9oC2_65ujTF/view)
 
@@ -84,7 +93,7 @@ L'interfaccia CII (interfaccia cliente) del contatore Landis+Gyr (ad es. E450 o 
 
 - selezionare il contatore
 
-- in alto a destra selezionare la rotella dentata
+- in alto a destra selezionare l'icona dell'ingranaggio
 
 - Impostazioni generali (Allgemeine Einstellungen)
 
@@ -93,11 +102,11 @@ L'interfaccia CII (interfaccia cliente) del contatore Landis+Gyr (ad es. E450 o 
 
 ## Prodotto successore
 
-smart-me non offre alcun prodotto successore per i contatori L&G. 
+smart-me non offre un prodotto successore per i contatori L&G.
 
-Se gestisce un RCP (raggruppamento ai fini del consumo proprio) smart-me e necessita di una nuova soluzione per la Sua misurazione (ad es. HAK), il modulo L&G deve essere sostituito con un [Telstar 80A](/produkte/telstar) o un [Telstar CT](/produkte/Telstar-CT).
+Se gestisce un RCP (raggruppamento ai fini del consumo proprio) smart-me e necessita di una nuova soluzione per la sua misurazione (ad es. HAK), il modulo L&G deve essere sostituito con un [Telstar 80A](/produkte/telstar) o un [Telstar CT](/produkte/Telstar-CT).
 
-Se in ambito privato vengono effettuate misurazioni per monitoraggio, domotica ecc., è possibile installare in qualsiasi momento il [Telstar 80A](/produkte/telstar) o il [Telstar CT](/produkte/Telstar-CT). Se cerca una soluzione con il Suo contatore L&G esistente, Le consigliamo di consultare questa pagina. [https://gplug.ch/](https://gplug.ch/)
+Se in ambito privato vengono effettuate misurazioni per il monitoraggio, la domotica ecc., il [Telstar 80A](/produkte/telstar) o il [Telstar CT](/produkte/Telstar-CT) può essere installato in qualsiasi momento. Se cerca una soluzione con il suo contatore L&G esistente, le consigliamo di consultare questa pagina. [https://gplug.ch/](https://gplug.ch/)
 
 ## Download
 

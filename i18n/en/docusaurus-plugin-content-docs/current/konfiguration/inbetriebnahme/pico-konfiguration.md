@@ -237,11 +237,23 @@ More details on the setup: [Multilevel load management](/konfiguration/multileve
 
 ## Advanced actions
 
+<div className="row">
+<div className="col col--6">
+
 Here, as the station owner, you can unlock the cable, restart the station or show the meter reading on the display for verification.
+
+</div>
+<div className="col col--6 text--center">
 
 ![Pico Configuration – Figure 17](/img/konfiguration-inbetriebnahme-pico-konfiguration/17.png)
 
+</div>
+</div>
+
 ## Advanced settings
+
+<div className="row">
+<div className="col col--6">
 
 Automatic car detection (Automatische Auto Erkennung):
 For CarID authentication to work, you must enable communication between the station and the vehicle.
@@ -252,7 +264,13 @@ Activates the Modbus TCP interface of the Pico
 Delete station (Station löschen):
 Deletes the station and all data in the cloud
 
+</div>
+<div className="col col--6 text--center">
+
 ![Pico Configuration – Figure 18](/img/konfiguration-inbetriebnahme-pico-konfiguration/18.png)
+
+</div>
+</div>
 
 ### Always lock cable permanently
 

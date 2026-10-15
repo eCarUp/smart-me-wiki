@@ -9,7 +9,7 @@ sidebar_label: 'Configurazione VHKA Immotop2'
 - Formato di file XML (standard DTA-VHKA)
     Interrogazioni per centro di costo:
     \- Letture del contatore in m3 o kWh per unità d'uso
-    \- Valori in per mille per unità d'uso
+    \- Valori per mille per unità d'uso
     \- Prezzo per unità d'uso
 
 
@@ -17,18 +17,18 @@ sidebar_label: 'Configurazione VHKA Immotop2'
 
 - Il conteggio e la ripartizione dei costi secondo VEWA avvengono nel sistema smart.me.
 
-- Ogni unità di conteggio in Immotop2 che deve essere interrogata deve esistere in modo congruente in smart-me
+- Ogni unità di conteggio in Immotop2 che si vuole interrogare deve esistere in modo congruente in smart-me
 
 - Affinché il conteggio sia corretto, per ogni periodo di conteggio in Immotop2 devono essere registrati in tutte le unità i rapporti di locazione e gli sfitti!
 
-- Immotop2 supporta un solo periodo di conteggio per gruppo di spese accessorie; l'elettricità deve quindi essere conteggiata nello stesso periodo di tutte le altre spese accessorie.
+- Immotop2 supporta un solo periodo di conteggio per gruppo di spese accessorie; pertanto l'elettricità deve essere conteggiata nello stesso periodo di tutte le altre spese accessorie.
 
 - L'elenco degli inquilini di Immotop2 viene sincronizzato automaticamente con smart-me.
 
 
 ## Indicazioni di configurazione da parte di Immotop2
 
-Affinché Immotop2 e smart-me possano comunicare tra loro, le spese accessorie, i centri di costo e i gruppi di spese accessorie registrati devono corrispondere.
+Affinché Immotop2 e smart-me possano comunicare tra loro, le spese accessorie, i centri di costo e i gruppi di spese accessorie registrati devono corrispondere tra loro.
 
 ### Creazione delle chiavi di ripartizione necessarie in Immotop2
 
@@ -36,9 +36,9 @@ Affinché i centri di costo possano essere trasmessi correttamente, occorre inna
 
 Nella scheda "Dati di base" ("Basisdaten") è possibile creare le relative chiavi di ripartizione in Definizioni delle chiavi di ripartizione (Verteilschlüssel-Definitionen).
 
-Se i costi devono essere gestiti nel software Immotop2, è indicata la chiave di ripartizione Per mille.
+Se i costi devono essere gestiti nel software Immotop2, è indicata la chiave di ripartizione per mille.
 
-Per l'elettricità prodotta localmente è indicata in primo luogo la chiave di ripartizione CHF. per tutti i casi.
+Per l'elettricità prodotta localmente è indicata principalmente la chiave di ripartizione CHF, in tutti i casi.
 
 Chiavi di ripartizione generalmente indicate:
 
@@ -62,17 +62,20 @@ Chiavi di ripartizione generalmente indicate:
 Il presupposto per un conteggio è un mandante esistente con immobili creati.
 
 Nell'area "LG-Gruppe-NK" di ogni immobile o gruppo di immobili è possibile registrare un nuovo LG-Gruppe-NK.
-In esso vengono definiti i periodi di conteggio delle spese accessorie e gli immobili a cui si applica questo gruppo. 
+In esso vengono definiti i periodi di conteggio delle spese accessorie e gli immobili ai quali si applica questo gruppo. 
 
-- Possono esserci più immobili che condividono lo stesso LG-Gruppe-NK, ma in tal caso tutti i costi degli immobili devono confluire su un unico conto dei costi.
+- Possono essere più immobili a condividere lo stesso LG-Gruppe-NK, ma in tal caso tutti i costi degli immobili devono confluire su un unico conto di costo.
     Gli immobili vengono gestiti insieme principalmente quando condividono il riscaldamento.
 
 
 ### 2\. Gruppi di costi (centri di costo)
 
+<div className="row">
+<div className="col col--5">
+
 Nell'area "Gruppi di costi" ("Kostengruppen") è possibile creare i gruppi di costi
 
-Il gruppo di costi corrisponde a un raggruppamento di più conti dei costi che devono essere ripartiti insieme tramite una chiave di ripartizione comune.
+Il gruppo di costi corrisponde a un raggruppamento di più conti di costo che devono essere ripartiti insieme tramite una chiave di ripartizione comune.
 
 Esempi di gruppi di costi:
 
@@ -84,30 +87,35 @@ Esempi di gruppi di costi:
 
 - Gruppo di costi acqua fredda
 
+</div>
+<div className="col col--7 text--center">
 
 ![Configurazione VHKA Immotop2 – Figura 3](/img/schnittstellen-dta-vhka-files-immotop2/03.png)
 
 ![Configurazione VHKA Immotop2 – Figura 4](/img/schnittstellen-dta-vhka-files-immotop2/04.png)
 
-Esempio di gruppo di costi per produzione di calore e acqua calda sanitaria che si supportano a vicenda
+</div>
+</div>
+
+Esempio del gruppo di costi per produzione di calore e di acqua calda sanitaria che si supportano a vicenda
 
 Pompa di calore con produzione di acqua calda sanitaria e resistenza elettrica (accoppiate)
 
 
-Energia utilizzata: energia elettrica per entrambi
+Energia utilizzata: energia elettrica per entrambe
 Funzione: l'acqua di riscaldamento scorre attraverso il boiler per l'accumulo di calore
 
 Gruppo di costi da creare:  
 
-Spese di riscaldamento e acqua calda sanitaria
-con chiave di ripartizione quota di calore tipo 09 in per mille o secondo il prezzo
+Spese di riscaldamento e di acqua calda sanitaria
+con chiave di ripartizione quota di calore tipo 09 secondo per mille o prezzo
 
 
 
 
-Esempio di sistemi di produzione di calore e acqua calda sanitaria che non si supportano a vicenda
+Esempio per sistemi di produzione di calore e di acqua calda sanitaria che non si supportano a vicenda
 
-Riscaldamento a olio con boiler elettrico per l'acqua calda sanitaria separato
+Riscaldamento a olio con boiler elettrico separato per l'acqua calda sanitaria
 
 
 Energia utilizzata: energia elettrica per il boiler, olio per il riscaldamento
@@ -116,26 +124,26 @@ Funzione: nessun preriscaldamento dell'acqua calda sanitaria da parte del riscal
 Gruppi di costi da creare:
 
 Spese di riscaldamento
-con chiave di ripartizione riscaldamento ambienti tipo 01 in per mille o secondo il prezzo
+con chiave di ripartizione riscaldamento ambienti tipo 01 secondo per mille o prezzo
 
-Spese per l'acqua calda sanitaria
-con chiave di ripartizione acqua calda sanitaria separata tipo 02 in per mille o secondo il prezzo
+Spese di acqua calda sanitaria
+con chiave di ripartizione acqua calda sanitaria separata tipo 02 secondo per mille o prezzo
 
 
 
-### 3\. Assegnazione conti dei costi – gruppi di costi
+### 3\. Assegnazione conti di costo – gruppi di costi
 
-Nell'area "Assegnazione conti dei costi – gruppi di costi" ("Kostenkonten- Kostengruppen-Zuordnung") è ora possibile assegnare tutti i conti dei costi rilevanti ai gruppi di costi.
+Nell'area "Assegnazione conti di costo – gruppi di costi" ("Kostenkonten- Kostengruppen-Zuordnung") è ora possibile assegnare tutti i conti di costo rilevanti ai gruppi di costi.
 
-A titolo di esempio, per le spese di riscaldamento e acqua calda sanitaria si collegherebbero al gruppo di costi ad es. i seguenti conti:
+A titolo di esempio, per le spese di riscaldamento e di acqua calda sanitaria verrebbero collegati al gruppo di costi ad es. i seguenti conti:
 
 - Olio combustibile
 
-- Gestione del riscaldamento
+- Servizio riscaldamento
 
-- Servizio bruciatore
+- Manutenzione bruciatore
 
-- Decalcificazione del boiler
+- Decalcificazione boiler
 
 - Elettricità boiler
 
@@ -146,36 +154,36 @@ A titolo di esempio, per le spese di riscaldamento e acqua calda sanitaria si co
 
 ### 4\. Spese accessorie dell'immobile
 
-Sull'immobile è possibile aggiungere il LG-Gruppe-NK nella scheda "Spese accessorie" ("Nebenkosten").
+Sull'immobile, nella scheda "Spese accessorie" ("Nebenkosten"), è possibile aggiungere il LG-Gruppe-NK.
 
 In questo punto vengono definite le chiavi di ripartizione fisse o variabili per il conteggio.
 
 Chiavi di ripartizione
-Le chiavi di ripartizione disponibili dipendono dalle chiavi di ripartizione attivate in Mandante --> Spese accessorie (Mandant --> Nebenkosten). Se le chiavi di ripartizione rilevanti non sono disponibili, è possibile definire chiavi di ripartizione aggiuntive in "Dati di base" ("Basisdaten") --> "Definizioni delle chiavi di ripartizione" ("Verteilschlüsseldefinitionen").
+Le chiavi di ripartizione disponibili dipendono dalle chiavi di ripartizione attivate in Mandante (Mandant) --> Spese accessorie (Nebenkosten). Se le chiavi di ripartizione rilevanti non sono disponibili, è possibile definire chiavi di ripartizione aggiuntive in "Dati di base" ("Basisdaten") --> "Definizioni delle chiavi di ripartizione" ("Verteilschlüsseldefinitionen").
 
 Esempi:
 
-Nome: Quota di riscaldamento secondo il consumo
-Unità: Per mille
-Tipo: Variabile
-Set ditta di lettura:
-Calore totale (riscaldamento e acqua calda sanitaria insieme, 09)
+Nome: quota di riscaldamento secondo il consumo
+Unità: per mille
+Tipo: variabile
+Record ditta di lettura:
+calore totale (riscaldamento e acqua calda sanitaria insieme, 09)
 
 
 
-Nome: Elettricità di rete secondo i costi
+Nome: elettricità di rete secondo i costi
 Unità: CHF
-Tipo: Variabile
-Set ditta di lettura:
-Elettricità (06)
+Tipo: variabile
+Record ditta di lettura:
+elettricità (06)
 
 
 
-Nome: Elettricità solare secondo i costi
+Nome: elettricità solare secondo i costi
 Unità: CHF
-Tipo: Variabile
-Set ditta di lettura:
-Elettricità (06)
+Tipo: variabile
+Record ditta di lettura:
+elettricità (06)
 
 
 
@@ -212,7 +220,7 @@ Importante: il formato standard QP (DTA-VKA) deve essere attivato.
 
 ### Eseguire la registrazione sui centri di costo in Immotop2
 
-Se in Immotop2 sono necessarie registrazioni preliminari sui centri di costo, queste possono essere ricavate dal riepilogo CSV di ogni fattura creata.
+Se in Immotop2 sono necessarie registrazioni preliminari sui centri di costo, queste possono essere ricavate dal CSV di riepilogo di ogni fattura creata.
 
 Di solito ciò avviene per l'elettricità solare, l'elettricità di rete e per i costi dell'elettricità della pompa di calore / del riscaldamento / del boiler.
 
@@ -226,16 +234,16 @@ Per gli altri centri di costo sono di solito disponibili fatture esterne che pos
 
 3.  Seleziona il periodo di fatturazione e crea una fattura
 
-4.  Quando la fattura del periodo corrispondente è stata creata, apri il Riepilogo CSV (Zusammenfassung CSV)
+4.  Quando la fattura del periodo corrispondente è stata creata, apri il CSV di riepilogo (Zusammenfassung CSV)
 
 
 ![Configurazione VHKA Immotop2 – Figura 12](/img/schnittstellen-dta-vhka-files-immotop2/12.png)
 
 ![Configurazione VHKA Immotop2 – Figura 13](/img/schnittstellen-dta-vhka-files-immotop2/13.png)
 
-Al suo interno si trovano i kWh e i m3 venduti e il prezzo per tariffa, per unità di conteggio e in totale.
+Al suo interno si trovano i kWh e m3 venduti e il prezzo per tariffa, per unità di conteggio e in totale.
 
-Con questo valore totale della rispettiva tariffa è possibile effettuare una registrazione in Immotop2 e ripartirla poi in modo corretto in per mille con il file DTA-VHKA.
+Con questo valore totale della rispettiva tariffa è possibile effettuare una registrazione in Immotop2 e ripartirla poi correttamente con il file DTA-VHKA in per mille.
 
 ## Definire le chiavi esterne con l'aiuto del file di richiesta
 
@@ -254,7 +262,7 @@ Con questo valore totale della rispettiva tariffa è possibile effettuare una re
     Le tariffe possono essere combinate automaticamente inserendo lo stesso ID in più tariffe.
 
 
-3.  Collegare le Costunit alle unità di conteggio
+3.  Collegare le Costunit con le unità di conteggio
     Per ogni unità di conteggio in smart-me deve essere disponibile un ID dal file. &lt;CostUnit>&lt;Id> deve ora essere collegato all'appartamento tramite le chiavi esterne.
 
     Es.:
@@ -264,7 +272,7 @@ Con questo valore totale della rispettiva tariffa è possibile effettuare una re
 
 ![Configurazione VHKA Immotop2 – Figura 14](/img/schnittstellen-dta-vhka-files-immotop2/14.png)
 
-### 2\. Collegare i Costcenter (gruppo di costi) alle tariffe
+### 2\. Collegare i Costcenter (gruppo di costi) con le tariffe
 
 Per ogni &lt;Costcenter> deve esistere in smart-me una tariffa energetica
 
@@ -286,13 +294,13 @@ Esempio centro di costo tariffa di rete combinata
 
 ![Configurazione VHKA Immotop2 – Figura 16](/img/schnittstellen-dta-vhka-files-immotop2/16.png)
 
-### 3\. Collegare le Costunit alle unità di conteggio
+### 3\. Collegare le Costunit con le unità di conteggio
 
 Per ogni unità di conteggio in smart-me deve essere disponibile un ID dal file. &lt;CostUnit>&lt;Id> deve ora essere collegato all'appartamento tramite le chiavi esterne.
 
 
 
-Si trova in fondo alla pagina di configurazione nel Billing.
+Si trova in fondo alla pagina di configurazione in Billing.
 
 ![Configurazione VHKA Immotop2 – Figura 17](/img/schnittstellen-dta-vhka-files-immotop2/17.png)
 
@@ -300,23 +308,30 @@ Si trova in fondo alla pagina di configurazione nel Billing.
 
 ### Elenco degli inquilini
 
-- Poiché gli elenchi degli inquilini sono gestiti dal software Immotop2, durante l'importazione smart-me registra il contratto e anche gli sfitti e li riporta negli indirizzi di fatturazione.
+- Poiché gli elenchi degli inquilini sono gestiti dal software Immotop2, durante l'importazione smart-me registra i contratti e anche gli sfitti e li riporta negli indirizzi di fatturazione.
 
 
 
 ![Configurazione VHKA Immotop2 – Figura 18](/img/schnittstellen-dta-vhka-files-immotop2/18.png)
 
-### Superfici abitative
+### Superfici abitabili
 
-- Poiché attualmente le superfici abitative non vengono riprese automaticamente dal software Immotop2, la superficie abitativa deve essere aggiornata da parte di smart-me.
+<div className="row">
+<div className="col col--6">
 
+- Poiché attualmente le superfici abitabili non vengono riprese automaticamente dal software Immotop2, la superficie abitabile deve essere gestita e aggiornata da parte di smart-me.
 
+</div>
+<div className="col col--6 text--center">
 
 ![Configurazione VHKA Immotop2 – Figura 19](/img/schnittstellen-dta-vhka-files-immotop2/19.png)
 
-### Configurazioni da parte di smart-me per l'emissione del prezzo
+</div>
+</div>
 
-- Affinché il prezzo possa essere calcolato, per ogni unità di conteggio deve essere indicata la superficie abitativa.
+### Configurazioni da parte di smart-me per l'emissione dei prezzi
+
+- Affinché il prezzo possa essere calcolato, per ogni unità di conteggio deve essere indicata la superficie abitabile.
 
 - VEWA deve essere attivato e configurato con le chiavi di ripartizione per i costi di base e variabili per ogni tipo di energia.
 
@@ -331,7 +346,7 @@ Si trova in fondo alla pagina di configurazione nel Billing.
 
 ![Configurazione VHKA Immotop2 – Figura 22](/img/schnittstellen-dta-vhka-files-immotop2/22.png)
 
-1.  Nel Billing, vai a "Fatture" ("Rechnungen") e poi nell'area "Esporta" ("Exportieren")
+1.  In Billing, vai su "Fatture" ("Rechnungen") e poi nell'area "Esporta" ("Exportieren")
 
 
 2\. Seleziona il tipo di esportazione e carica il file tramite "Esporta" ("Exportieren").

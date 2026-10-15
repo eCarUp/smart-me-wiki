@@ -49,16 +49,27 @@ Fonctions
 
 ### 2\. Attribuer les locataires
 
+<div className="row">
+<div className="col col--4">
+
 1.  Sélectionnez « Configuration » (Konfiguration) et un appartement
 
 2.  Sous « Adresse de facturation » (Rechnungsadresse), cliquez sur « Ajouter » (Hinzufügen)
 
 3.  Sélectionnez le contact dans Bexio
 
+</div>
+<div className="col col--8 text--center">
 
 ![Bexio – Illustration 3](/img/drittsysteme-bexio/03.jpg)
 
+</div>
+</div>
+
 ### 3\. Exporter la facture vers Bexio
+
+<div className="row">
+<div className="col col--4">
 
 Établissez les factures sur un immeuble
 
@@ -66,7 +77,13 @@ Fonctions
 
 smart-me Billing reprend le numéro de facture de Bexio (exemple : RE-1570 correspond dans smart-me à la facture portant le numéro 1570)
 
+</div>
+<div className="col col--8 text--center">
+
 ![Bexio – Illustration 4](/img/drittsysteme-bexio/04.jpg)
+
+</div>
+</div>
 
 ### 4\. Factures dans Bexio
 
@@ -89,6 +106,9 @@ Exemple d'une facture VEWA exportée
 
 ### 5\. Configuration
 
+<div className="row">
+<div className="col col--5">
+
 Sous « Paramètres » (Einstellungen) 
 
 « Tous les paramètres » (Alle Einstellungen)
@@ -97,7 +117,16 @@ Sous « Paramètres » (Einstellungen)
 
 Vérifiez que la vignette « Taux d'imposition » (Steuersätze) est visible.
 
+</div>
+<div className="col col--7 text--center">
+
 ![Bexio – Illustration 8](/img/drittsysteme-bexio/08.png)
+
+</div>
+</div>
+
+<div className="row">
+<div className="col col--5">
 
 Paramètres smart-me
 
@@ -105,7 +134,13 @@ Taux d'imposition 0 %
 
 Inclus.
 
+</div>
+<div className="col col--7 text--center">
+
 ![Bexio – Illustration 9](/img/drittsysteme-bexio/09.png)
+
+</div>
+</div>
 
 ### 5\. Traitement des erreurs
 

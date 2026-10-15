@@ -46,16 +46,27 @@ Per eseguire più aggiornamenti in parallelo, puoi aprire più link in una nuova
 
 ### 2\. Seleziona "Aggiorna firmware" ("Firmware aktualisieren")
 
+<div className="row">
+<div className="col col--5">
+
 Tempo fino all'avvio: 
 
 - Per Telstar (CT) e Pico possono essere necessari fino a 5 minuti.
 
 - Per il M-Bus Gateway dipende dall'intervallo di upload.
 
+</div>
+<div className="col col--7 text--center">
 
 ![Aggiornamento del firmware – Figura 3](/img/konfiguration-firmware-update/03.png)
 
+</div>
+</div>
+
 ### 3\. Attendi che l'aggiornamento sia completato e conferma con "OK"
+
+<div className="row">
+<div className="col col--4">
 
 ⓘ Nota: una volta avviato l'aggiornamento (> 1%), non è necessario tenere aperto il browser.
 
@@ -67,10 +78,15 @@ Tempo fino al completamento dell'aggiornamento:
 
 - Per il M-Bus Gateway dipende dall'intervallo di upload.
 
+</div>
+<div className="col col--8 text--center">
 
 ![Aggiornamento del firmware – Figura 4](/img/konfiguration-firmware-update/04.png)
 
 ![Aggiornamento del firmware – Figura 5](/img/konfiguration-firmware-update/05.png)
+
+</div>
+</div>
 
 ### Accelerare l'aggiornamento del firmware
 

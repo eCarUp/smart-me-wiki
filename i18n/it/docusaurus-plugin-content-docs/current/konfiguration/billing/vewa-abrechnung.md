@@ -185,10 +185,12 @@ Nei sistemi combinati, i costi dei singoli vettori energetici vengono sommati.
 
 ### 3\. Creare i periodi di conteggio e definire il contenuto del periodo di fatturazione
 
+<div className="row">
+<div className="col col--4">
+
 1.  Creare il periodo di conteggio
 
 2.  Attivare o disattivare il contenuto
-
 
 Se l'elettricità e i costi di riscaldamento e accessori vengono conteggiati a intervalli diversi, si registrano più periodi.
 
@@ -204,8 +206,13 @@ ad es.:
 
 - Periodo calore acqua 2024 (solo calore, freddo, acqua calda sanitaria e acqua fredda)
 
+</div>
+<div className="col col--8 text--center">
 
 ![VEWA - Conteggio – Figura 8](/img/konfiguration-billing-vewa-abrechnung/08.png)
+
+</div>
+</div>
 
 ### 4\. Registrare i costi del periodo di conteggio
 

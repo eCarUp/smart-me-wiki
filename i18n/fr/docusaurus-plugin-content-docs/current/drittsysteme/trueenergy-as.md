@@ -4,17 +4,24 @@ slug: '/drittsysteme/trueenergy-as'
 description: 'L''application de TrueEnergy permet, en combinaison avec le module Kamstrup de smart-me, de piloter des appareils et des bornes de recharge pour voitures.'
 sidebar_label: 'TrueEnergy AS'
 ---
+<div className="row">
+<div className="col col--7">
+
 L'application de TrueEnergy permet, en combinaison avec le module Kamstrup de smart-me, de piloter des appareils et des bornes de recharge pour voitures.
 
 Votre voiture est toujours chargée au bon moment autant que nécessaire et se recharge au prix le plus avantageux, en fonction de l'électricité solaire disponible ou aussi rapidement que possible.
 
 Dans le même esprit, des appareils tels que l'éclairage et les machines à laver peuvent également être pilotés via IFTT.
 
-
-
 Public cible : Danemark / maisons individuelles
 
+</div>
+<div className="col col--5 text--center">
+
 ![TrueEnergy AS – Illustration 1](/img/drittsysteme-trueenergy-as/01.png)
+
+</div>
+</div>
 
 Fonctions :
 

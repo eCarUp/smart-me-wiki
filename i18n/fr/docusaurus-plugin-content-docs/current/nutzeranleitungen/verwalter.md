@@ -12,15 +12,33 @@ sidebar_label: 'Gérance'
 
 ### Accéder à l'accès locataire
 
+<div className="row">
+<div className="col col--5">
+
 Page d'accueil smart-me -> Configuration des utilisateurs (Benutzerkonfiguration)
+
+</div>
+<div className="col col--7 text--center">
 
 ![Instructions pour la gérance – Illustration 1](/img/nutzeranleitungen-verwalter/01.png)
 
+</div>
+</div>
+
 ### Accéder au Billing
+
+<div className="row">
+<div className="col col--5">
 
 Page d'accueil smart-me -> Facturation (Rechnungsstellung)
 
+</div>
+<div className="col col--7 text--center">
+
 ![Instructions pour la gérance – Illustration 2](/img/nutzeranleitungen-verwalter/02.png)
+
+</div>
+</div>
 
 ## Conditions préalables et vérifications lors de la remise
 
@@ -254,6 +272,9 @@ Ex. : la période du 01.10.2024 au 04.11.2024 peut maintenant être facturée.
 
 ### Créer une facture (électricité et VEWA)
 
+<div className="row">
+<div className="col col--4">
+
 1.  Naviguer vers l'immeuble.
 
 2.  Modifier et saisir une nouvelle période
@@ -262,10 +283,15 @@ Ex. : la période du 01.10.2024 au 04.11.2024 peut maintenant être facturée.
 
 4.  Saisir les coûts pour chaque position
 
+</div>
+<div className="col col--8 text--center">
 
 ![Instructions pour la gérance – Illustration 14](/img/nutzeranleitungen-verwalter/14.png)
 
 ![Instructions pour la gérance – Illustration 15](/img/nutzeranleitungen-verwalter/15.png)
+
+</div>
+</div>
 
 ### Consulter une facture créée
 

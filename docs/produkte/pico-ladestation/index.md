@@ -176,6 +176,9 @@ Pico Lastabwurf
 
 ![Pico E-Ladestation – Abbildung 4](/img/produkte-pico-ladestation/04.png)
 
+<div className="row">
+<div className="col col--7">
+
 Der Lastabwurf kann auch mit nur einem verfügbaren Signal realisiert werden. 
 
 Für die Konfiguration von keine Ladung zu maximaler Ladeleistung wird das Signal auf IN1 und IN2 sowie COM verdrahtet. Für die Konfiguration von 6A Minimalleistung auf maximale Ladeleistung muss das Signal nur auf IN2 sowie COM verdrahtet werden.
@@ -187,9 +190,15 @@ Der Lastabwurf kann entweder auf alle Picos verdrahtet werden oder minimal auf e
 
 Alternativ kann der Lastabwurf auch über das [Multilevel Lastmanagement](/konfiguration/multilevel-lastmanagement/mlm-konfigurieren#konfiguration-des-lastabwurfs) mittels Zählereingangssignalen erfolgen.
 
+</div>
+<div className="col col--5 text--center">
+
 ![Pico E-Ladestation – Abbildung 5](/img/produkte-pico-ladestation/05.png)
 
 ![Pico E-Ladestation – Abbildung 6](/img/produkte-pico-ladestation/06.png)
+
+</div>
+</div>
 
 ### Abmessungen
 

@@ -237,11 +237,23 @@ Plus de détails sur la configuration : [Gestion de la charge multiniveau](/konf
 
 ## Actions avancées
 
+<div className="row">
+<div className="col col--6">
+
 En tant que propriétaire de la borne, vous pouvez ici déverrouiller le câble, redémarrer la borne ou afficher le relevé du compteur sur l'écran pour vérification.
+
+</div>
+<div className="col col--6 text--center">
 
 ![Configuration Pico – Figure 17](/img/konfiguration-inbetriebnahme-pico-konfiguration/17.png)
 
+</div>
+</div>
+
 ## Paramètres avancés
+
+<div className="row">
+<div className="col col--6">
 
 Détection automatique du véhicule (Automatische Auto Erkennung) :
 Pour que l'authentification CarID fonctionne, vous devez autoriser la communication de la borne avec le véhicule.
@@ -252,7 +264,13 @@ Activation de l'interface Modbus TCP de la Pico
 Supprimer la borne (Station löschen) :
 Supprime la borne et toutes les données dans le cloud
 
+</div>
+<div className="col col--6 text--center">
+
 ![Configuration Pico – Figure 18](/img/konfiguration-inbetriebnahme-pico-konfiguration/18.png)
+
+</div>
+</div>
 
 ### Toujours verrouiller le câble
 

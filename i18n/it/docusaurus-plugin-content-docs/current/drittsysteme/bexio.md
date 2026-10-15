@@ -49,16 +49,27 @@ Funzioni
 
 ### 2\. Assegnare gli inquilini
 
+<div className="row">
+<div className="col col--4">
+
 1.  Seleziona "Configurazione (Konfiguration)" e un appartamento
 
 2.  Sotto Indirizzo di fatturazione (Rechnungsadresse) clicca su "Aggiungi (Hinzufügen)"
 
 3.  Seleziona il contatto da Bexio
 
+</div>
+<div className="col col--8 text--center">
 
 ![Bexio – Figura 3](/img/drittsysteme-bexio/03.jpg)
 
+</div>
+</div>
+
 ### 3\. Esportare le fatture in Bexio
+
+<div className="row">
+<div className="col col--4">
 
 Crea le fatture su un immobile
 
@@ -66,7 +77,13 @@ Crea le fatture su un immobile
 
 smart-me Billing riprende il numero di fattura da Bexio (esempio: RE-1570 corrisponde in smart-me alla fattura con il numero 1570)
 
+</div>
+<div className="col col--8 text--center">
+
 ![Bexio – Figura 4](/img/drittsysteme-bexio/04.jpg)
+
+</div>
+</div>
 
 ### 4\. Fatture in Bexio
 
@@ -89,6 +106,9 @@ Esempio di una fattura VEWA esportata
 
 ### 5\. Configurazione
 
+<div className="row">
+<div className="col col--5">
+
 In Impostazioni 
 
 Tutte le impostazioni
@@ -97,7 +117,16 @@ Contabilità
 
 Verifica che il riquadro Aliquote fiscali sia visibile.
 
+</div>
+<div className="col col--7 text--center">
+
 ![Bexio – Figura 8](/img/drittsysteme-bexio/08.png)
+
+</div>
+</div>
+
+<div className="row">
+<div className="col col--5">
 
 Impostazioni smart-me
 
@@ -105,7 +134,13 @@ Aliquote fiscali 0%
 
 Inclusa.
 
+</div>
+<div className="col col--7 text--center">
+
 ![Bexio – Figura 9](/img/drittsysteme-bexio/09.png)
+
+</div>
+</div>
 
 ### 5\. Gestione degli errori
 

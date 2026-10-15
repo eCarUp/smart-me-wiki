@@ -6,13 +6,14 @@ sidebar_label: 'ZEV Zusammenschluss zum Eigenverbrauch'
 ---
 ## Zusammenschluss zum Eigenverbrauch (ZEV)
 
+<div className="row">
+<div className="col col--7">
+
 Ein Zusammenschluss zum Eigenverbrauch kann aus einem einzelnen Gebäude wie auch aus mehreren Gebäuden mit dem selben Anschlusspunkt gegenüber dem Energieversorger bestehen.
 
 Innerhalb des ZEV liegt die Abrechnung und Tarifierung des Netzstromes und des lokal produzierten Stromes in der Hand der ZEV-Betreiber.
 
 Damit diese Abrechnung durchgeführt werden kann, bedarf es der nötigen Infrastruktur und eines durchgängigen Messkonzeptes für die jeweiligen Energien.
-
-
 
 Grundlagen
 
@@ -22,8 +23,13 @@ Grundlagen
 
 - VNB-Zähler am Einspeisepunkt mit Rechnung des VNB
 
+</div>
+<div className="col col--5 text--center">
 
 ![ZEV Zusammenschluss zum Eigenverbrauch – Abbildung 1](/img/planung-zev-zusammenschluss-zum-eigenverbrauch/01.png)
+
+</div>
+</div>
 
 ## Generelles Messkonzept
 

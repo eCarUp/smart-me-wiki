@@ -114,9 +114,18 @@ Pour que Power Query sache plus tard dans quel tableau se trouve la variable, ce
 
 ### Formater le champ de la variable (champ de texte)
 
+<div className="row">
+<div className="col col--6">
+
 Pour que la date puisse être utilisée par la suite, le contenu doit être formaté en tant que texte. Pour cela, sélectionnez le tableau et choisissez le format Texte en haut.
 
+</div>
+<div className="col col--6 text--center">
+
 ![Microsoft Excel – Illustration 15](/img/drittsysteme-microsoft-excel/15.png)
+
+</div>
+</div>
 
 ### Interroger la variable dans Power Query
 

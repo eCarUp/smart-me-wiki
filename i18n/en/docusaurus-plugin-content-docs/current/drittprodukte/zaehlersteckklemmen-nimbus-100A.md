@@ -46,12 +46,19 @@ Meter pin for Nimbus: Hager KJZ080A4 80A Ø6×41mm
 
 ## Seidl terminals
 
+<div className="row">
+<div className="col col--6">
+
 Manufacturer website and sales information: [https://seidlgmbh.com/produkte/](https://seidlgmbh.com/produkte/) 
-
-
 
 SL-ZAKD: up to 80A continuous current and 128A overload current - screw terminal
 
 Meter pin for Nimbus: SL-6-6-42
 
+</div>
+<div className="col col--6 text--center">
+
 ![Meter plug-in terminals Nimbus 100A – Figure 5](/img/drittprodukte-zaehlersteckklemmen-nimbus-100a/05.png)
+
+</div>
+</div>

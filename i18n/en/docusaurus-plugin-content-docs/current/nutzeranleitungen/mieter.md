@@ -10,6 +10,9 @@ smart-me does not carry out projects. Installations are carried out by installer
 
 ## Navigation
 
+<div className="row">
+<div className="col col--7">
+
 We recommend using the smart-me app on your smartphone. Simply download the app and log in on your smartphone.
 
 Your tenant login details should be created and provided to you by your landlord, the operator of the ZEV.
@@ -19,21 +22,34 @@ Get the smart-me app here:
      [smart-me](https://play.google.com/store/apps/details?id=com.smart_me)     [smart-me
 ](https://apps.apple.com/ch/app/smart-me/id929146952?l=en-GB)Google Play Store Apple App Store
 
-
-
 Alternatively, you can log in via the smart-me portal in your browser.
 
 [https://portalweb.smart-me.com/Login](https://portalweb.smart-me.com/Login) 
 
+</div>
+<div className="col col--5 text--center">
+
 ![Guide for tenants – Figure 1](/img/nutzeranleitungen-mieter/01.jpg)
+
+</div>
+</div>
 
 ## Browser
 
+<div className="row">
+<div className="col col--7">
+
 In your account, under "Dashboard" ("Dashboard"), you will find your billing units and the metering points assigned to you.
+
+</div>
+<div className="col col--5 text--center">
 
 ![Guide for tenants – Figure 2](/img/nutzeranleitungen-mieter/02.png)
 
 ![Guide for tenants – Figure 3](/img/nutzeranleitungen-mieter/03.png)
+
+</div>
+</div>
 
 Navigating between the views
 
@@ -156,6 +172,9 @@ Meters of a ZEV
 
 ### Measured values displayed in the app (electricity meter)
 
+<div className="row">
+<div className="col col--6">
+
 Power (analog display and green tile)
 Shows the current power in kilowatts (kW) that the apartment is currently consuming. Here it is 2.1 kW.
 
@@ -196,7 +215,13 @@ Last 24 hours: 9.103 kWh
 Last 7 days: 57.202 kWh
 Last 30 days: 244.984 kWh
 
+</div>
+<div className="col col--6 text--center">
+
 ![Guide for tenants – Figure 17](/img/nutzeranleitungen-mieter/17.jpg)
+
+</div>
+</div>
 
 ## How do I read a VEWA billing statement correctly?
 
@@ -217,6 +242,9 @@ VEWA billing is standardized, which ensures a transparent and uniform cost distr
 
 ### Determining the actual costs (landlord side)
 
+<div className="row">
+<div className="col col--6">
+
 In our example, the landlord recorded total costs of CHF 2000.- at the end of the billing period: CHF 1000.- each for heat generation (1) and CHF 1000.- for domestic hot water generation (2).
 
 The heat generated is stated in kWh and the domestic hot water in m3. 
@@ -228,7 +256,13 @@ The total costs of CHF 2000.- are therefore divided according to the energy (kWh
 Heating (4522 kWh) 1223.43 CHF (3)
 Domestic hot water (47.01 m3 or 2870.31 kWh)   776.57 CHF (4)
 
+</div>
+<div className="col col--6 text--center">
+
 ![Guide for tenants – Figure 18](/img/nutzeranleitungen-mieter/18.png)
+
+</div>
+</div>
 
 ### Distribution of costs among tenants
 
@@ -284,8 +318,17 @@ The total costs\* for domestic hot water for the tenants of the apartment theref
 
 ### smart-me web portal
 
+<div className="row">
+<div className="col col--7">
+
 If the information available in the smart-me app is not sufficient, you can log in to the web portal via a web browser. 
 
 [smart-me web portal - Login](https://portalweb.smart-me.com/Login)
 
+</div>
+<div className="col col--5 text--center">
+
 ![Guide for tenants – Figure 20](/img/nutzeranleitungen-mieter/20.jpg)
+
+</div>
+</div>

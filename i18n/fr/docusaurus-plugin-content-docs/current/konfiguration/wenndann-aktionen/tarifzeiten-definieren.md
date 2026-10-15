@@ -153,9 +153,18 @@ Enregistrez le réglage
 
 ![Définir les plages tarifaires – figure 19](/img/konfiguration-wenndann-aktionen-tarifzeiten-definieren/19.png)
 
+<div className="row">
+<div className="col col--4">
+
 Maintenant que vous avez défini les plages tarifaires pertinentes, retournez à la définition des tarifs pour attribuer les timings aux tarifs.
 
+</div>
+<div className="col col--8 text--center">
+
 ![Définir les plages tarifaires – figure 20](/img/konfiguration-wenndann-aktionen-tarifzeiten-definieren/20.png)
+
+</div>
+</div>
 
 ### Étape suivante : définir les tarifs avec les plages tarifaires
 

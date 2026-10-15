@@ -10,6 +10,9 @@ smart-me n'est pas active dans le secteur des projets. Les installations sont r�
 
 ## Navigation
 
+<div className="row">
+<div className="col col--7">
+
 Nous vous recommandons d'utiliser l'application smart-me sur votre smartphone. Il vous suffit de télécharger l'application et de vous connecter sur votre smartphone.
 
 Vos données de connexion de locataire doivent être créées et mises à votre disposition par la bailleresse, l'exploitante du RCP.
@@ -19,21 +22,34 @@ Accéder à l'application smart-me :
      [smart-me](https://play.google.com/store/apps/details?id=com.smart_me)     [smart-me
 ](https://apps.apple.com/ch/app/smart-me/id929146952?l=en-GB)Google Play Store Apple App Store
 
-
-
 Vous pouvez aussi vous connecter au portail smart-me dans votre navigateur.
 
 [https://portalweb.smart-me.com/Login](https://portalweb.smart-me.com/Login) 
 
+</div>
+<div className="col col--5 text--center">
+
 ![Guide pour les locataires – illustration 1](/img/nutzeranleitungen-mieter/01.jpg)
+
+</div>
+</div>
 
 ## Navigateur
 
+<div className="row">
+<div className="col col--7">
+
 Dans votre accès, sous « Dashboard » (Dashboard), vous trouvez vos unités de décompte et les points de mesure qui vous sont attribués.
+
+</div>
+<div className="col col--5 text--center">
 
 ![Guide pour les locataires – illustration 2](/img/nutzeranleitungen-mieter/02.png)
 
 ![Guide pour les locataires – illustration 3](/img/nutzeranleitungen-mieter/03.png)
+
+</div>
+</div>
 
 Navigation entre les vues
 
@@ -156,6 +172,9 @@ Compteurs d'un RCP
 
 ### Grandeurs de mesure affichées dans l'application (compteur électrique)
 
+<div className="row">
+<div className="col col--6">
+
 Puissance (affichage analogique et tuile verte)
 Affiche la puissance actuelle en kilowatts (kW) consommée en ce moment par l'appartement. Ici, elle est de 2.1 kW.
 
@@ -196,7 +215,13 @@ Dernières 24 heures : 9.103 kWh
 7 derniers jours : 57.202 kWh
 30 derniers jours : 244.984 kWh
 
+</div>
+<div className="col col--6 text--center">
+
 ![Guide pour les locataires – illustration 17](/img/nutzeranleitungen-mieter/17.jpg)
+
+</div>
+</div>
 
 ## Comment lire correctement un décompte VEWA ?
 
@@ -217,6 +242,9 @@ Le décompte VEWA est standardisé, ce qui garantit une répartition des frais t
 
 ### Détermination des frais réels (côté bailleur)
 
+<div className="row">
+<div className="col col--6">
+
 Dans notre exemple, le bailleur a enregistré à la fin de la période de décompte des frais d'un total de 2000.- CHF. Respectivement 1000.- CHF pour la production de chaleur (1) et 1000.- CHF pour la production d'eau chaude sanitaire (2).
 
 La chaleur produite est indiquée en kWh et l'eau chaude sanitaire en m3. 
@@ -228,7 +256,13 @@ Les frais totaux de 2000.- CHF sont donc répartis en fonction de l'énergie uti
 Chaleur (4522 kWh) 1223.43 CHF (3)
 Eau chaude sanitaire (47.01 m3 ou 2870.31 kWh)   776.57 CHF (4)
 
+</div>
+<div className="col col--6 text--center">
+
 ![Guide pour les locataires – illustration 18](/img/nutzeranleitungen-mieter/18.png)
+
+</div>
+</div>
 
 ### Répartition des frais entre les locataires
 
@@ -284,8 +318,17 @@ Les frais totaux\* des locataires de l'appartement pour l'eau chaude sanitaire s
 
 ### Portail web smart-me
 
+<div className="row">
+<div className="col col--7">
+
 Si les informations disponibles dans l'application smart-me ne devaient pas suffire, il est possible de se connecter au portail web via un navigateur. 
 
 [Portail web smart-me - connexion](https://portalweb.smart-me.com/Login)
 
+</div>
+<div className="col col--5 text--center">
+
 ![Guide pour les locataires – illustration 20](/img/nutzeranleitungen-mieter/20.jpg)
+
+</div>
+</div>

@@ -6,9 +6,18 @@ sidebar_label: 'Ein- und Ausgänge'
 ---
 ## Ein- und Ausgänge konfigurieren
 
+<div className="row">
+<div className="col col--6">
+
 Die smart-me Meter verfügen über einen oder mehrere Ausgänge, welche als Impulsausgang oder als potentialfreier Kontakt genutzt werden können.  Ab Werk ist der S0\_0 Ausgang als Impulsausgang definiert und der S1 als digitaler Relais-Ausgang mit dem Namen "Relais".
 
+</div>
+<div className="col col--6 text--center">
+
 ![Zähler Ein- und Ausgänge – Abbildung 1](/img/schnittstellen-ein_und_ausgaenge/01.png)
+
+</div>
+</div>
 
 ### Externe beschaltung der Ein- und Ausgänge
 

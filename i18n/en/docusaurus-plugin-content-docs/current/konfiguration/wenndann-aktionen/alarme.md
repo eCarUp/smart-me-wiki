@@ -34,6 +34,9 @@ Definition of the downtime:
 
 ### Then action / Alarm
 
+<div className="row">
+<div className="col col--6">
+
 Once the if events have occurred, an email is sent. The following settings must be made:
 
 - Name of the alarm (Name des Alarms)
@@ -42,12 +45,20 @@ Once the if events have occurred, an email is sent. The following settings must 
 
 - Message (Nachricht): text contained in the alarm email
 
-
 Note: We recommend adding only the email to the then action (Dann-Aktion) and leaving the rest as it is. If you have several properties, we recommend entering the name of the account in the subject line so that you always know which account the alarm comes from.
 
 If the alarm is to be sent to several email addresses, a separate then action must be created for each email address.
 
+</div>
+<div className="col col--6 text--center">
+
 ![Alarms – Figure 2](/img/konfiguration-wenndann-aktionen-alarme/02.png)
+
+</div>
+</div>
+
+<div className="row">
+<div className="col col--8">
 
 How often is an alert email sent?
 
@@ -57,7 +68,13 @@ After the problem has been resolved, we recommend checking in the if/then action
 
 If you want to receive more than one email, you need to set up two alarms, for example the first with 1440 minutes and the second with 7200 minutes. This way, an email that went unnoticed can be sent a second time, for example.
 
+</div>
+<div className="col col--4 text--center">
+
 ![Alarms – Figure 3](/img/konfiguration-wenndann-aktionen-alarme/03.png)
+
+</div>
+</div>
 
 The entire infrastructure is now ready for setting up billing on top of it.
 

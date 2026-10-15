@@ -4,15 +4,26 @@ slug: '/stoerungsbehebung/multilevel-lastmanagement-fehlermeldung'
 description: 'Die Lastmanagementgruppe ist vermutlich nicht korrekt konfiguriert: Als Cloudverbindungsausfallwert ist nicht "Max.'
 sidebar_label: 'Multilevel Lastmanagement Fehlermeldung'
 ---
+<div className="row">
+<div className="col col--6 text--center">
+
 ![Multilevel Lastmanagement Fehlermeldung – Abbildung 1](/img/stoerungsbehebung-multilevel-lastmanagement-fehlermeldung/01.png)
 
 ![Multilevel Lastmanagement Fehlermeldung – Abbildung 2](/img/stoerungsbehebung-multilevel-lastmanagement-fehlermeldung/02.png)
 
+</div>
+<div className="col col--6">
+
 - Die Lastmanagementgruppe ist vermutlich nicht korrekt konfiguriert:
+
     Als Cloudverbindungsausfallwert ist nicht "Max. Strom (pro Gruppe)" ausgewählt
 
 - Die Internetausfallskonfiguration steht nicht zur Verfügung.
+
     [Firmware upgrade durchführen](/konfiguration/firmware-update) auf mindestens 0.0.25
+
+</div>
+</div>
 
 
 ![Multilevel Lastmanagement Fehlermeldung – Abbildung 3](/img/stoerungsbehebung-multilevel-lastmanagement-fehlermeldung/03.png)
@@ -27,12 +38,22 @@ sidebar_label: 'Multilevel Lastmanagement Fehlermeldung'
 - Kein Text im Feld "Name" eingetragen
 
 
+<div className="row">
+<div className="col col--7 text--center">
+
 ![Multilevel Lastmanagement Fehlermeldung – Abbildung 6](/img/stoerungsbehebung-multilevel-lastmanagement-fehlermeldung/06.png)
 
+</div>
+<div className="col col--5">
+
 - Eine zuvor verwendete Pico Lastgruppe oder Meterhardware wurde hardwareseitig gelöscht.
+
     Das MLM muss erneut konfiguriert werden, um die Funktion wieder herzustellen.
 
 - Lösche die relevanten Pico Lastgruppen immer zuerst aus dem MLM-Baum und danach auf der Hardware, um die Konfiguration nicht zu zerstören.
+
+</div>
+</div>
 
 
 ## Es wird immer zu wenig Strom einer Gruppe zugewiesen

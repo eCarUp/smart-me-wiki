@@ -6,17 +6,22 @@ sidebar_label: 'Minergie Exporter'
 ---
 ## Minergie Monitoring +
 
+<div className="row">
+<div className="col col--7">
+
 Der Minergie Daten Exporter ermöglicht die direkte Übertragung von Messpunktdaten in die Minergie Datenbank.
-
-
 
 Mit den Daten in der Minergie Datenbank, können seitens Minergie kostenpflichtige Plandaten und Ist-Datenvergleiche durchgeführt werden.
 
 Das genannte Produkt nennt sich Minergie Monitroing+ und ermöglicht einfach und schnell Verbesserungspotentiale zu erkennen, sowie Fehlkonfigurationen aufzudecken.
 
-
+</div>
+<div className="col col--5 text--center">
 
 ![Minergie Exporter – Abbildung 1](/img/schnittstellen-minergie-exporter/01.png)
+
+</div>
+</div>
 
 ## Login Minergie Datenexporter
 

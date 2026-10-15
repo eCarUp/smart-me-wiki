@@ -12,15 +12,33 @@ sidebar_label: 'Property managers'
 
 ### How to get to tenant access
 
+<div className="row">
+<div className="col col--5">
+
 smart-me home page -> User configuration (Benutzerkonfiguration)
+
+</div>
+<div className="col col--7 text--center">
 
 ![Guide for property managers – Figure 1](/img/nutzeranleitungen-verwalter/01.png)
 
+</div>
+</div>
+
 ### How to get to Billing
+
+<div className="row">
+<div className="col col--5">
 
 smart-me home page -> Billing (Rechnungsstellung)
 
+</div>
+<div className="col col--7 text--center">
+
 ![Guide for property managers – Figure 2](/img/nutzeranleitungen-verwalter/02.png)
+
+</div>
+</div>
 
 ## Prerequisites and checks at handover
 
@@ -254,6 +272,9 @@ E.g. 01.10.2024 to 04.11.2024 can now be billed.
 
 ### Create invoice (electricity and VEWA)
 
+<div className="row">
+<div className="col col--4">
+
 1.  Navigate to the property.
 
 2.  Edit and enter a new period
@@ -262,10 +283,15 @@ E.g. 01.10.2024 to 04.11.2024 can now be billed.
 
 4.  Enter costs for the individual items
 
+</div>
+<div className="col col--8 text--center">
 
 ![Guide for property managers – Figure 14](/img/nutzeranleitungen-verwalter/14.png)
 
 ![Guide for property managers – Figure 15](/img/nutzeranleitungen-verwalter/15.png)
+
+</div>
+</div>
 
 ### View created invoice
 

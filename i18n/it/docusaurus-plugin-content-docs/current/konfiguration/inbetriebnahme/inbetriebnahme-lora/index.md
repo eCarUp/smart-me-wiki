@@ -6,14 +6,22 @@ sidebar_label: 'Messa in servizio LoRa'
 ---
 ## 1\. Registrare il gateway LoRa su smart-me
 
+<div className="row">
+<div className="col col--6">
+
 1.  Vai su [lora.smart-me.com](https://lora.smart-me.com) e accedi con il tuo account smart-me. 
 
 2.  Seleziona "Gateway Lora" ("Lora Gateways") e clicca su "Aggiungi" ("Hinzufügen")
 
 3.  Inserisci il nome e l'EUI del dispositivo. In alternativa puoi scansionare con la fotocamera il codice QR dell'EUI.
 
+</div>
+<div className="col col--6 text--center">
 
 ![Messa in servizio LoRa – Figura 1](/img/konfiguration-inbetriebnahme-inbetriebnahme-lora/01.png)
+
+</div>
+</div>
 
 ## 2\. Installa e collega il gateway LoRaWAN al gateway LoRa di smart-me
 
@@ -32,6 +40,9 @@ Istruzioni dettagliate per i dispositivi testati internamente:
 
 ## 3\. Aggiunta dei contatori e dei sensori
 
+<div className="row">
+<div className="col col--5">
+
 1.  Vai alla scheda "Dispositivi Lora" ("Lora Geräte")
 
 2.  Seleziona "Aggiungi" ("Hinzufügen")
@@ -42,5 +53,10 @@ Istruzioni dettagliate per i dispositivi testati internamente:
 
 5.  Verifica lo stato del sensore nella panoramica dei dispositivi Lora (Lora Geräte Übersicht).
 
+</div>
+<div className="col col--7 text--center">
 
 ![Messa in servizio LoRa – Figura 2](/img/konfiguration-inbetriebnahme-inbetriebnahme-lora/02.png)
+
+</div>
+</div>

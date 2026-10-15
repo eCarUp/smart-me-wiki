@@ -4,16 +4,34 @@ slug: '/drittsysteme/ibm-node-red'
 description: 'The open smart-me API interface can be implemented very easily in flows in IBM''s Node-Red.'
 sidebar_label: 'IBM - Node-RED'
 ---
+<div className="row">
+<div className="col col--8">
+
 The open smart-me API interface can be implemented very easily in flows in IBM's Node-Red.
 Create workflows using HTTP requests and our API with the full range of data and control.
 
+</div>
+<div className="col col--4 text--center">
+
 ![IBM Node-RED – Figure 1](/img/drittsysteme-ibm-node-red/01.png)
+
+</div>
+</div>
 
 ## Reading values from meters - GET
 
+<div className="row">
+<div className="col col--5">
+
 To use the API, you need the HTTP request nodes from Node-Red.
 
+</div>
+<div className="col col--7 text--center">
+
 ![IBM Node-RED – Figure 2](/img/drittsysteme-ibm-node-red/02.png)
+
+</div>
+</div>
 
 ![IBM Node-RED – Figure 3](/img/drittsysteme-ibm-node-red/03.png)
 

@@ -139,6 +139,9 @@ Se valore misurato maggiore/minore (Wenn Messwert grösser/kleiner):
 
 ![Esempi di controllo del boiler con azioni se/allora – Figura 4](/img/konfiguration-wenndann-aktionen-beispiel-boilersteuerung/04.png)
 
+<div className="row">
+<div className="col col--5">
+
 Se data e ora (Wenn Datum & Uhrzeit):
 
 - Tipo (Typ): Intervallo di tempo / Ogni giorno (Zeitspanne / Jeden Tag)
@@ -149,8 +152,13 @@ Se data e ora (Wenn Datum & Uhrzeit):
 
 - A (Bis): 01:00
 
+</div>
+<div className="col col--7 text--center">
 
 ![Esempi di controllo del boiler con azioni se/allora – Figura 5](/img/konfiguration-wenndann-aktionen-beispiel-boilersteuerung/05.png)
+
+</div>
+</div>
 
 Se evento (Wenn Ereignis)
 

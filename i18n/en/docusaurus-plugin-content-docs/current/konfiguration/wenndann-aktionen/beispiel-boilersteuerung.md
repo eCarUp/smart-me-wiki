@@ -139,6 +139,9 @@ If measured value greater/less (Wenn Messwert grösser/kleiner):
 
 ![Examples of boiler control with if/then actions – Figure 4](/img/konfiguration-wenndann-aktionen-beispiel-boilersteuerung/04.png)
 
+<div className="row">
+<div className="col col--5">
+
 If date & time (Wenn Datum & Uhrzeit):
 
 - Type (Typ): Time span / Every day (Zeitspanne / Jeden Tag)
@@ -149,8 +152,13 @@ If date & time (Wenn Datum & Uhrzeit):
 
 - To (Bis): 01:00
 
+</div>
+<div className="col col--7 text--center">
 
 ![Examples of boiler control with if/then actions – Figure 5](/img/konfiguration-wenndann-aktionen-beispiel-boilersteuerung/05.png)
+
+</div>
+</div>
 
 If event (Wenn Ereignis)
 

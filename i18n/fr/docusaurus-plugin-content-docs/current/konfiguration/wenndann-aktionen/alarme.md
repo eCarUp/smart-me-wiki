@@ -34,6 +34,9 @@ Définition de la durée de panne :
 
 ### Action Alors / Alarme
 
+<div className="row">
+<div className="col col--6">
+
 Lorsque les événements Si se sont produits, un e-mail est envoyé. Les réglages suivants doivent être effectués :
 
 - Nom de l'alarme (Name des Alarms)
@@ -42,12 +45,20 @@ Lorsque les événements Si se sont produits, un e-mail est envoyé. Les réglag
 
 - Message (Nachricht) : texte contenu dans l'e-mail d'alarme
 
-
 Remarque : nous recommandons de compléter l'action Alors (Dann-Aktion) uniquement avec l'adresse e-mail et de laisser le reste tel quel. Si vous gérez plusieurs immeubles, nous recommandons d'indiquer le nom du compte dans l'objet, afin de toujours savoir de quel compte provient l'alarme.
 
 Si l'alarme doit être envoyée à plusieurs adresses e-mail, une action Alors doit être créée pour chaque adresse.
 
+</div>
+<div className="col col--6 text--center">
+
 ![Alarmes – Illustration 2](/img/konfiguration-wenndann-aktionen-alarme/02.png)
+
+</div>
+</div>
+
+<div className="row">
+<div className="col col--8">
 
 À quelle fréquence un e-mail d'alerte est-il envoyé ?
 
@@ -57,7 +68,13 @@ Une fois le problème résolu, nous recommandons de vérifier dans les actions s
 
 Si vous souhaitez recevoir plus d'un e-mail, vous devez configurer deux alarmes. La première p. ex. avec 1440 minutes et la seconde avec 7200 minutes. Ainsi, un e-mail passé inaperçu peut par exemple être envoyé une seconde fois.
 
+</div>
+<div className="col col--4 text--center">
+
 ![Alarmes – Illustration 3](/img/konfiguration-wenndann-aktionen-alarme/03.png)
+
+</div>
+</div>
 
 L'ensemble de l'infrastructure est maintenant prêt pour y baser le décompte.
 

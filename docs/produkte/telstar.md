@@ -116,13 +116,7 @@ Falsche Phasenreihenfolge: Zahlen blinken
 
 ## Tastenfunktionen
 
-<div className="row">
-<div className="col col--5 text--center">
-
 ![3-Phasenzähler Telstar 80A – Abbildung 6](/img/produkte-telstar/06.png)
-
-</div>
-<div className="col col--7">
 
 T1 Taste für die Installation
 
@@ -146,9 +140,6 @@ Sehr lang: Wird T2 >14s gedrückt, wird der S0-0 Impulsausgang zwischen Wirkleis
 
 Hinweis: Diese Einstellung ändert nur die Anzeige auf dem Display, nicht in der smart-me Cloud (App und Webseite). Soll die Blindenergie in der Cloud angezeigt werden, muss dies in den allgemeinen Einstellungen gemacht werden. 
 
-
-</div>
-</div>
 
 ## LED
 

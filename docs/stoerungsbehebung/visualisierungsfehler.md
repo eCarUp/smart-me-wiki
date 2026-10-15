@@ -8,16 +8,24 @@ In diesem Abschnitt werden bekannte Fehlermeldungen im Zusammenhang mit den Visu
 
 ### Der Lese-User sieht den Energiefluss nicht.
 
+<div className="row">
+<div className="col col--6">
+
 Energiedaten werden nicht angezeigt.
 
 - Lösung: Menu Benutzerkonfiguration --> Sicherstellen, dass der Lese-User zugriff auf die Zähler hat, welche die Graphik erzeugt. In der Regel sind das die technischen Zähler (Bilanz- und Solar-Zähler)
 
+</div>
+<div className="col col--6 text--center">
 
 ![Visualisierungsfehler – Abbildung 1](/img/stoerungsbehebung-visualisierungsfehler/01.png)
 
 ![Visualisierungsfehler – Abbildung 2](/img/stoerungsbehebung-visualisierungsfehler/02.png)
 
 ![Visualisierungsfehler – Abbildung 3](/img/stoerungsbehebung-visualisierungsfehler/03.png)
+
+</div>
+</div>
 
 ### Einfache virtuelle Tarife (Wohnung) wird leer angezeigt
 
@@ -41,12 +49,20 @@ Werte werden nicht korrekt angezeigt:
 
 ![Visualisierungsfehler – Abbildung 5](/img/stoerungsbehebung-visualisierungsfehler/05.png)
 
+<div className="row">
+<div className="col col--8">
+
 PV Zähler war falsch angeschlossen. Nachdem er korrekt angeschlossen wurden, stimmt nun die Graphik nicht mehr.
 
 - Lösung 1: Das Pfeil der Graphik wird bestimmt durch den Zählerstand. Nun muss ganz einfach so lange gewartet werden, bis der Zählerstand negativ ist.
 
+</div>
+<div className="col col--4 text--center">
 
 ![Visualisierungsfehler – Abbildung 6](/img/stoerungsbehebung-visualisierungsfehler/06.png)
+
+</div>
+</div>
 
 ### Verbrauchs und Produktions Monitoring
 

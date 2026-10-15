@@ -56,6 +56,9 @@ Empfehlungen für Wandler und Zubehör findest du auf der Seite: [Stromwandler u
 
 ## Display
 
+<div className="row">
+<div className="col col--6">
+
 Wert / Symbol Beschreibung
 
 1.8.1 OBIS\-Kennzahl für den angezeigten Zählerstand
@@ -74,7 +77,13 @@ kWh Einheit des angezeigten Zählerstandes
 
 M Nicht mehr genutzte Funktion (kann ignoriert werden)
 
+</div>
+<div className="col col--6 text--center">
+
 ![3-Phasen Energiezähler Telstar CT – Abbildung 2](/img/produkte-telstar-ct/02.png)
+
+</div>
+</div>
 
 Der Zähler hat ein rollendes Display. Die unten beschriebenen Punkte werden nacheinander angezeigt. Nach dem letzten Punkt wird wieder der erste Punkt angezeigt.
 
@@ -128,6 +137,9 @@ Falsche Phasenreihenfolge: Zahlen blinken
 
 ## Wandlerverhältnis beim Telstar CT setzen
 
+<div className="row">
+<div className="col col--7">
+
 1.  Oben rechts auf das Zahnradsymbol (Einstellungen) 
 
 2.  Editieren 
@@ -140,7 +152,13 @@ Falsche Phasenreihenfolge: Zahlen blinken
 
 Hinweis: Mit der Eingabe des Wandlerverhältnis werden die historisch gespeicherten Daten nicht geändert. Aus diesem Grund ist dieser Schritt unmittelbar nach der Inbetriebnahme zu machen.
 
+</div>
+<div className="col col--5 text--center">
+
 ![3-Phasen Energiezähler Telstar CT – Abbildung 6](/img/produkte-telstar-ct/06.png)
+
+</div>
+</div>
 
 ## Tastenfunktionen
 
@@ -170,19 +188,37 @@ Hinweis: Diese Einstellung ändert nur die Anzeige auf dem Display, nicht in der
 
 ## LED
 
+<div className="row">
+<div className="col col--7 text--center">
+
 ![3-Phasen Energiezähler Telstar CT – Abbildung 8](/img/produkte-telstar-ct/08.png)
+
+</div>
+<div className="col col--5">
 
 🟢 Grüne LED - Status der Verbindung
 
 - Zeigt den Status der Verbindung zur smart-me Cloud. a) Blinkend = Verbindungsfehler b) Immer On= Verbindung OK
 
+</div>
+</div>
+
+<div className="row">
+<div className="col col--5 text--center">
+
 ![3-Phasen Energiezähler Telstar CT – Abbildung 9](/img/produkte-telstar-ct/09.png)
+
+</div>
+<div className="col col--7">
 
 🔴 Rote LED - Impuls LED
 
 - Zeigt die aktuell bezogene Wirk- oder Blindleistung in 1000 Impulsen/kWh resp. 1000 Imulse/kVArh an. Ob Wirk- oder Blindleistung angezeigt wird, kann mit der Taste T2 eingestellt werden.
 
 - Zum Beispiel: Eine LED mit der Kennzeichnung „1000 Impulse/kWh“ blinkt 1000 Mal, wenn 1 Kilowattstunde (kWh) Energie bezogen oder geliefert wurde. Wurden die 1000 Impulse innerhalb von 1 Stunde gezählt, wurde konstant 1 kW Leistung gemessen.
+
+</div>
+</div>
 
 ## Ein und Ausgänge konfigurieren
 

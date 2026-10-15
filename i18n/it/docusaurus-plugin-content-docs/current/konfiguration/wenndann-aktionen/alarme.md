@@ -34,6 +34,9 @@ Definizione del tempo di interruzione:
 
 ### Azione «allora» / Allarme
 
+<div className="row">
+<div className="col col--6">
+
 Quando si verificano gli eventi «se», viene inviata un'e-mail. Occorre effettuare le seguenti impostazioni:
 
 - Nome dell'allarme
@@ -42,12 +45,20 @@ Quando si verificano gli eventi «se», viene inviata un'e-mail. Occorre effettu
 
 - Messaggio: testo contenuto nell'e-mail di allarme
 
-
 Nota: consigliamo di integrare l'azione «allora» solo con l'indirizzo e-mail e di lasciare invariato il resto. Se gestisce più immobili, consigliamo di inserire il nome dell'account nell'oggetto, in modo da sapere sempre da quale account proviene l'allarme.
 
 Se l'allarme deve essere inviato a più indirizzi e-mail, è necessario creare un'azione «allora» per ogni singolo indirizzo.
 
+</div>
+<div className="col col--6 text--center">
+
 ![Allarmi – Figura 2](/img/konfiguration-wenndann-aktionen-alarme/02.png)
+
+</div>
+</div>
+
+<div className="row">
+<div className="col col--8">
 
 Con quale frequenza viene inviata un'e-mail di allarme?
 
@@ -57,7 +68,13 @@ Dopo aver risolto il problema, consigliamo di verificare nelle azioni se/allora 
 
 Se desidera ricevere più di un'e-mail, deve configurare due allarmi: il primo ad esempio con 1440 minuti e il secondo con 7200 minuti. In questo modo, ad esempio, un'e-mail passata inosservata può essere inviata una seconda volta.
 
+</div>
+<div className="col col--4 text--center">
+
 ![Allarmi – Figura 3](/img/konfiguration-wenndann-aktionen-alarme/03.png)
+
+</div>
+</div>
 
 Ora l'intera infrastruttura è pronta per impostarvi il conteggio.
 

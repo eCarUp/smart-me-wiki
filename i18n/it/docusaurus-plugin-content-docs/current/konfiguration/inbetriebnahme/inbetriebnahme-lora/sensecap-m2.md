@@ -32,10 +32,19 @@ sidebar_label: 'Sensecap M2'
 
 ![Sensecap M2 – Figura 2](/img/konfiguration-inbetriebnahme-inbetriebnahme-lora-sensecap-m2/02.png)
 
+<div className="row">
+<div className="col col--6">
+
 10\. In "Status" -> "Overview", verifica che vengano visualizzate due spunte verdi. 
 
 11\. Su lora.smart-me.com il gateway dovrebbe ora essere visualizzato come "online". 
 
+</div>
+<div className="col col--6 text--center">
+
 ![Sensecap M2 – Figura 3](/img/konfiguration-inbetriebnahme-inbetriebnahme-lora-sensecap-m2/03.png)
+
+</div>
+</div>
 
 ![Sensecap M2 – Figura 4](/img/konfiguration-inbetriebnahme-inbetriebnahme-lora-sensecap-m2/04.png)

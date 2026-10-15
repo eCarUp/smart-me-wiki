@@ -10,9 +10,18 @@ Auf dieser Seite werden die bekannten Schritte erläutert, um einen offline befi
 
 ### Wie erkenne ich ob ein Zähler offline ist?
 
+<div className="row">
+<div className="col col--8">
+
 Ein smart-me Zähler ist offline, wenn sich dieser seit mehr als 15 Minuten nicht mehr in der Cloud gemeldet hat. Dies kann ermittelt werden indem auf dem Zähler die letzte Verbindung verifiziert wird.
 
+</div>
+<div className="col col--4 text--center">
+
 ![Letzte Verbindung](/img/stoerungsbehebung-zaehler-offline/01.png)
+
+</div>
+</div>
 
 ![Zähler offline – Abbildung 2](/img/stoerungsbehebung-zaehler-offline/02.png)
 
@@ -66,9 +75,7 @@ Bitte beachte die folgenden Voraussetzungen:
 
 - Seriennummer startet mit 62\*: Telstar CT
 
-
 1.  ### Zähler neu starten
-
 
 Dies ist nur zur Info wie es gemacht wird, es kann weiter unten verlangt werden den Zähler neu zu starten, um ihn wieder online zu bringen. 
 
@@ -76,11 +83,9 @@ Neustart erzwingen: 
 
 - T1 und T2 10 Sekunden drücken. Display leuchtet beim Neustart kurz nicht mehr.
 
-
 Wie erkenne ich den Neustart:
 
 - Zähler wird kurz dunkel und am Display wird nichts mehr angezeigt.
-
 
 Verhalten wenn der Zähler wieder online kommt:
 
@@ -92,21 +97,28 @@ Verhalten wenn der Zähler wieder online kommt:
 
 - Prüfen ob ein [Firmware Update](/konfiguration/firmware-update) verfügbar ist. Wenn ja, alle Zähler updaten.
 
-
 Verhalten wenn der Zähler nicht online kommt:
 
 - Oben rechts am Bildschirm wechselt das Empfangssignal nach dem Neustart zwischen X und Empfang für mehr als 2 Minuten ohne online zu kommen.
 
 - Wenn dies nicht hilft, den Support anrufen.
 
-
 ![Zähler offline – Abbildung 3](/img/stoerungsbehebung-zaehler-offline/03.gif)
 
 ### 2\. Prüfung bei der Ankunft
 
+<div className="row">
+<div className="col col--7">
+
 Folgende Punkte können bei der Ankunft überprüft werden. Wenn bereits etwas am Zähler geändert wurde, ist es wichtig, dass am Zähler für mindestens 5 Minuten keine weiteren Änderungen vorgenommen werden. Es ist auch möglich, vom Kunden vor Ort ein 30-Sekunden-Video des Zählers zu verlangen, um die Situation besser beurteilen zu können. 
 
+</div>
+<div className="col col--5 text--center">
+
 ![Zähler offline – Abbildung 4](/img/stoerungsbehebung-zaehler-offline/04.gif)
+
+</div>
+</div>
 
 ### Zähler wechselt zwischen X und Empfangssymbol:
 
@@ -215,9 +227,18 @@ Verhalten wenn der Zähler nicht online kommt:
 
 ### Prüfung bei der Ankunft
 
+<div className="row">
+<div className="col col--6">
+
 Folgende Punkte können bei der Ankunft überprüft werden. Wenn bereits etwas am Zähler geändert wurde, ist es wichtig, dass am Zähler für mindestens 5 Minuten keine weiteren Änderungen vorgenommen werden. Es ist auch möglich, vom Kunden vor Ort ein 30-Sekunden-Video des Zählers zu verlangen, um die Situation besser beurteilen zu können. 
 
+</div>
+<div className="col col--6 text--center">
+
 ![Zähler offline – Abbildung 5](/img/stoerungsbehebung-zaehler-offline/05.gif)
+
+</div>
+</div>
 
 Zähler ist dunkel:
 
@@ -280,6 +301,9 @@ Zähler kann sich  nicht mit dem WLAN verbinden:
 
 ### Pico WLAN Empfangsqualität
 
+<div className="row">
+<div className="col col--5">
+
 Ab FW-Version 0.0.18 wird die WLAN Empfangsqualität im smart-me Portal angezeigt. [Firmware Update](https://sites.google.com/u/0/d/1aCvQ4VBGjc0Zn6Acdv_my2AEp54cDrdX/revisionspreview?revision=415029&pageId=1nDT64kPszZGmBXffYtc_9fUGbxTlFM8J) 
 
 Diese Information kann von allen Accounts über die [API](https://sites.google.com/u/0/d/1aCvQ4VBGjc0Zn6Acdv_my2AEp54cDrdX/revisionspreview?revision=415029&pageId=1L6QLXZEHWjDfqgdtjRQyM9vH29YdMCAn) mit dem Befehl "GET /api/AdditionalDeviceInformation/&#123;id&#125;" abgerufen werden.
@@ -288,12 +312,18 @@ Diese Information kann von allen Accounts über die [API](https://sites.google.c
 
     - Pico: Mobile (0 = unknown, 1 bis -74 = excellent, -75 bis -84 = good,  -85 bis -94 = low) (-99 Schlecht, -1 Gut)
 
-
-
+</div>
+<div className="col col--7 text--center">
 
 ![Zähler offline – Abbildung 6](/img/stoerungsbehebung-zaehler-offline/06.png)
 
+</div>
+</div>
+
 ### Goldpartner können die Verbindungsart und Qualität von Telstar und Pico online prüfen.
+
+<div className="row">
+<div className="col col--7">
 
 - Einloggen im Goldpartner Account
 
@@ -313,9 +343,12 @@ Diese Information kann von allen Accounts über die [API](https://sites.google.c
 
     - Pico: Mobile (0 = unknown, 1 bis -74 = excellent, -75 bis -84 = good,  -85 bis -94 = low) (-99 Schlecht, -1 Gut)
 
-
 Diese Information kann von allen Accounts über die [API](https://sites.google.com/u/0/d/1aCvQ4VBGjc0Zn6Acdv_my2AEp54cDrdX/revisionspreview?revision=415029&pageId=1L6QLXZEHWjDfqgdtjRQyM9vH29YdMCAn) mit dem Befehl "GET /api/AdditionalDeviceInformation/&#123;id&#125;" abgerufen werden.
 
-
+</div>
+<div className="col col--5 text--center">
 
 ![Zähler offline – Abbildung 7](/img/stoerungsbehebung-zaehler-offline/07.png)
+
+</div>
+</div>

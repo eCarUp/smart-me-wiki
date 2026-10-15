@@ -49,16 +49,27 @@ Features
 
 ### 2\. Assign tenants
 
+<div className="row">
+<div className="col col--4">
+
 1.  Select "Configuration" ("Konfiguration") and an apartment
 
 2.  Under Billing address (Rechnungsadresse), click "Add" ("Hinzufügen")
 
 3.  Select the contact from Bexio
 
+</div>
+<div className="col col--8 text--center">
 
 ![Bexio – Figure 3](/img/drittsysteme-bexio/03.jpg)
 
+</div>
+</div>
+
 ### 3\. Export invoices to Bexio
+
+<div className="row">
+<div className="col col--4">
 
 Create the invoices on a property
 
@@ -66,7 +77,13 @@ Create the invoices on a property
 
 smart-me Billing takes over the invoice number from Bexio (example: RE-1570 is the invoice with number 1570 in smart-me)
 
+</div>
+<div className="col col--8 text--center">
+
 ![Bexio – Figure 4](/img/drittsysteme-bexio/04.jpg)
+
+</div>
+</div>
 
 ### 4\. Invoices in Bexio
 
@@ -89,6 +106,9 @@ Example of an exported VEWA invoice
 
 ### 5\. Config
 
+<div className="row">
+<div className="col col--5">
+
 Under Settings (Einstellungen) 
 
 All settings (Alle Einstellungen)
@@ -97,7 +117,16 @@ Accounting (Buchhaltung)
 
 Check whether the Tax rates (Steuersätze) tile is visible.
 
+</div>
+<div className="col col--7 text--center">
+
 ![Bexio – Figure 8](/img/drittsysteme-bexio/08.png)
+
+</div>
+</div>
+
+<div className="row">
+<div className="col col--5">
 
 smart-me settings
 
@@ -105,7 +134,13 @@ Tax rates 0%
 
 Included.
 
+</div>
+<div className="col col--7 text--center">
+
 ![Bexio – Figure 9](/img/drittsysteme-bexio/09.png)
+
+</div>
+</div>
 
 ### 5\. Error handling
 

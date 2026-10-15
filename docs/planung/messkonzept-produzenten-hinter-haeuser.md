@@ -80,11 +80,9 @@ Excel ausfüllen
 
 - [Messkonzept Produzenten hinter Häuser](https://drive.google.com/uc?export=download&id=1gY9-V7Xv2ECXacQk_G1rQwdHVdSXMaQh) 
 
-
 Zweck vom Excel
 
 - Ermittelt welchen Betrag pro Partei gutgeschrieben werden kann.
-
 
 Benötigte Informationen
 
@@ -94,7 +92,6 @@ Benötigte Informationen
 
 - PDF Rechnungen (Billing) aus dem smart-me.
 
-
 Berechnungslogik
 
 - Überschuss pro Haus wird ermittelt (Zelle B35 bis B43)
@@ -102,7 +99,6 @@ Berechnungslogik
 - Anteil an PV Strom pro Haus wird ermittelt (Zelle C35 bis C43)
 
 - Verteilung proportional gemäss Überschuss, gemittelt auf die ganze Abrechnungsperiode
-
 
 ![Messkonzept Produzenten hinter Häuser – Abbildung 5](/img/planung-messkonzept-produzenten-hinter-haeuser/05.png)
 

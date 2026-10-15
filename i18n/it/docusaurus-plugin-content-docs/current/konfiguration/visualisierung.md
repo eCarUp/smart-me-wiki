@@ -16,9 +16,18 @@ Qui trova una guida per l'utente sulla sua dashboard come inquilino. Scopra dove
 
 ## Configurare le visualizzazioni
 
+<div className="row">
+<div className="col col--6">
+
 Una visualizzazione viene creata su una cartella. Se nell'app o sul web fa clic sulla cartella, viene mostrata la visualizzazione corrispondente. 
 
+</div>
+<div className="col col--6 text--center">
+
 ![Visualizzazione e Public Links – Figura 1](/img/konfiguration-visualisierung/01.png)
+
+</div>
+</div>
 
 ### Creare visualizzazioni
 

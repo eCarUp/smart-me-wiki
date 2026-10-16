@@ -1,5 +1,5 @@
 ---
-title: 'MKD3 Messkonzept (mit nicht Teilnehmer)'
+title: 'MKD3 Messkonzept (Teilteilnahme)'
 slug: '/planung/mkd3-messkonzept-nicht-teilnehmer'
 description: 'Tarifierung des Messkonzepts MKD3 mit Nichtteilnehmern'
 sidebar_label: 'MKD3 Messkonzept (nicht Teilnehmer)'

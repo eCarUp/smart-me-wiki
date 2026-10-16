@@ -1,10 +1,15 @@
 /**
  * Die Länderwahl auf der Startseite.
  *
- * Erscheint nur dort, nur beim ersten Besuch und nur, solange nichts gewählt
- * ist. Sie versperrt den Inhalt nicht: Wer sie übergeht, liest einfach weiter
- * und sieht alles. Das ist Absicht — ein Besucher, der über einen geteilten
- * Link oder aus der Suche kommt, soll nie vor einer Tür stehen.
+ * Die Startseite stellt nur noch eine Frage: für welches Land? Jede Antwort
+ * führt auf die Einstiegsseite dieses Landes und merkt die Wahl gleich für
+ * die Navigation. Deshalb steht die Wahl hier gross und ist das Erste, was
+ * man sieht — anders als früher, wo sie eine beiläufige Karte über dem Text
+ * war.
+ *
+ * Sie erscheint **immer**, auch wenn schon gewählt wurde: Auf einer Seite,
+ * die aus nichts anderem besteht, wäre ein Verschwinden eine leere Seite.
+ * Die bereits getroffene Wahl ist stattdessen hervorgehoben.
  *
  * Eingehängt wird sie in `src/theme/DocItem/Content/`, nicht im Markdown der
  * Startseite. So steht sie in allen vier Sprachfassungen, ohne dass jemand
@@ -12,42 +17,44 @@
  */
 import React from 'react';
 import clsx from 'clsx';
+import Link from '@docusaurus/Link';
 import Translate from '@docusaurus/Translate';
 import {LAENDER, landName, useLandStatus, waehleLand} from '@site/src/laender';
 import styles from './styles.module.css';
 
-export default function LandKarte(): React.ReactElement | null {
+export default function LandKarte(): React.ReactElement {
   const {land, geladen} = useLandStatus();
 
-  // Vor dem ersten Blick in den Speicher nichts zeigen, sonst blitzt die Karte
-  // bei jedem auf, der längst gewählt hat.
-  if (!geladen || land) return null;
-
   return (
-    <aside className={styles.karte}>
-      <div className={styles.text}>
-        <strong className={styles.titel}>
-          <Translate id="landkarte.titel">Wofür suchst du Antworten?</Translate>
-        </strong>
-        <p className={styles.erklaerung}>
-          <Translate id="landkarte.erklaerung">
-            Abrechnung und Messkonzepte unterscheiden sich je nach Land. Mit
-            einer Wahl zeigt die Navigation nur, was dort gilt — ändern kannst
-            du das jederzeit oben rechts.
-          </Translate>
-        </p>
-      </div>
+    <section className={styles.wahl}>
+      <h1 className={styles.titel}>
+        <Translate id="landkarte.titel">Für welches Land suchst du Antworten?</Translate>
+      </h1>
+      <p className={styles.erklaerung}>
+        <Translate id="landkarte.erklaerung">
+          Abrechnung und Messkonzepte unterscheiden sich je nach Land. Deine
+          Wahl führt dich auf die passende Einstiegsseite und zeigt in der
+          Navigation nur noch, was dort gilt — ändern kannst du das jederzeit
+          oben rechts.
+        </Translate>
+      </p>
       <div className={styles.knoepfe}>
         {LAENDER.map((l) => (
-          <button
+          <Link
             key={l.schluessel}
-            type="button"
-            className={clsx('button', l.filtert ? 'button--primary' : 'button--secondary')}
+            to={l.start}
+            className={clsx(
+              styles.knopf,
+              // Erst nach dem Blick in den Speicher hervorheben, sonst
+              // unterscheidet sich das erzeugte HTML von dem, was React im
+              // Browser erwartet.
+              geladen && land === l.schluessel && styles.gewaehlt,
+            )}
             onClick={() => waehleLand(l.schluessel)}>
             {landName(l.schluessel)}
-          </button>
+          </Link>
         ))}
       </div>
-    </aside>
+    </section>
   );
 }

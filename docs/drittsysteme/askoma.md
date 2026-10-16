@@ -5,7 +5,7 @@ description: 'Askoheat ist ein schweizer Unternehmen und stellt Heizelemente fü
 sidebar_label: 'Askoma'
 ---
 <div className="row">
-<div className="col col--6">
+<div className="col col--8">
 
 Askoheat ist ein schweizer Unternehmen und stellt Heizelemente für die Wasseraufbereitung und Energiespeicherung her.
 
@@ -16,7 +16,7 @@ Unterstützte Produkte von Askoma:
 - Askoheat+
 
 </div>
-<div className="col col--6 text--center">
+<div className="col col--4 text--center">
 
 ![Askoma – Abbildung 1](/img/drittsysteme-askoma/01.png)
 
@@ -28,33 +28,25 @@ Unterstützte Produkte von Askoma:
 ### Voraussetzung
 
 - smart-me Zähler Telstar 80A oder CT
-
 - Professional Lizenz zur Aktivierung des Modbus TCP und DNS Services
-
 - Ab mitte September 2024 verfügbar in der Standardsoftware.
-
 - Seitens Router muss sichergestellt werden, dass die IP vom Telstar nicht ändert.
 
 
 ### Konfiguration Askoheat+ und smart-me Telstar 80A / CT
 
 <div className="row">
-<div className="col col--4">
+<div className="col col--8">
 
 Telstar 80A / CT:
-
 - in den Einstellungen (Zähler wählen, oben rechts Zahnrad)
-
 - Modbus TCP aktivieren
-
 - DNS aktivieren
-
 - Interne IP wählen
-
 - Speichern
 
 </div>
-<div className="col col--8 text--center">
+<div className="col col--4 text--center">
 
 ![Askoma – Abbildung 3](/img/drittsysteme-askoma/03.png)
 
@@ -62,39 +54,42 @@ Telstar 80A / CT:
 </div>
 
 <div className="row">
-<div className="col col--5">
+<div className="col col--8">
 
 - Auslesen der IP über CMD und ping Befehl auf die angezeigte DNS-Adresse. Der DNS-Adresse findest du in den Erweiterten Einstellungen unter "DNS aktivieren". z.B. ping smart-me\_6303192.dns-me.com
 
 </div>
-<div className="col col--7 text--center">
+<div className="col col--4 text--center">
 
 ![Askoma – Abbildung 4](/img/drittsysteme-askoma/04.png)
 
 </div>
 </div>
 
-Einstellungen am Askoheat+
+<div className="row">
+<div className="col col--6">
 
+Einstellungen am Askoheat+
 Diese kann variieren und liegt nicht in der Verantwortung von smart-me.
 
 [http://askoheat.local/setup3](http://askoheat.local/setup3)
 
-- IP-Adresse von Telstar eintragen.
-
-- TCP-Master-Modus aktivieren
-
--  Smart-Me aus der Liste auswählen
-
+- IP-Adresse von Telstar eintragen
+- TCP-Master-Modus aktiviere
+- Smart-Me aus der Liste auswählen
 - auf Start Connection klicken
-
-
-![Askoma – Abbildung 5](/img/drittsysteme-askoma/05.png)
 
 - Dann kannst du prüfen ob der Messwert, die man auf der Setup3 Seite unter STATUS prüfen der Watt Wert alle 1-3 Sekunden aktualisiert.
 
+</div>
+<div className="col col--6 text--center">
+
+![Askoma – Abbildung 5](/img/drittsysteme-askoma/05.png)
 
 ![Askoma – Abbildung 6](/img/drittsysteme-askoma/06.png)
+</div>
+</div>
+
 
 ### Kontakt
 

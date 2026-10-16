@@ -7,19 +7,19 @@ displayed_sidebar: wikiSidebar
 ---
 Module smart-me pour l'interface client du compteur Kamstrup Omnipower.
 
-Le module Kamstrup smart-me connecte les compteurs électriques au cloud. Vos clients bénéficient d'analyses exactes, de visualisations et d'un monitoring précis de leur propre consommation d'énergie. Aucun matériel supplémentaire n'est nécessaire. Le module Kamstrup smart-me utilise le réseau WiFi existant et se connecte directement au cloud smart-me.
+Le module Kamstrup smart-me connecte les compteurs d'électricité au cloud. Vos clients bénéficient d'analyses précises, de visualisations et d'un monitoring détaillé de leur propre consommation d'énergie. Aucun matériel supplémentaire n'est nécessaire. Le module Kamstrup smart-me utilise le réseau WiFi existant et se connecte directement au cloud smart-me.
 
-Information d'abandon envoyée en Suisse le 08.08.2023 (réseau de partenaires).
+Information d'abandon du produit envoyée en Suisse le 08.08.2023 (réseau de partenaires).
 
-La vente en Suisse est arrêtée au 31.12.2023, le support et l'assistance cloud restent assurés.
+La vente en Suisse prend fin le 31.12.2023 ; le support et l'assistance cloud restent garantis.
 
-La vente hors de Suisse a été arrêtée le 1.1.2023, le support et le support cloud restent assurés.
+La vente hors de Suisse a pris fin le 1.1.2023 ; le support et l'assistance cloud restent garantis.
 
-![Module Kamstrup – illustration 1](/img/produkte-kamstrup-modul/01.jpg)
+![Module Kamstrup – Illustration 1](/img/produkte-kamstrup-modul/01.jpg)
 
 ## Séquences LED du module Kamstrup avec description des erreurs
 
-La plupart des sources d'erreur lors de l'installation d'un module Kamstrup peuvent être identifiées grâce à la séquence des LED :
+La plupart des sources d'erreur lors de l'installation d'un module Kamstrup peuvent être identifiées à l'aide de la séquence LED :
 
 Chapitres
 
@@ -31,7 +31,7 @@ Chapitres
 
 [01:14](https://www.youtube.com/watch?v=CwS65mPsTws&t=74s) LED en chenillard
 
-<Embed src="https://player.vimeo.com/video/688374505" aspect="1.601" title="smart-me Wiki FR - Module Kamstrup" />
+<Embed src="https://player.vimeo.com/video/688374505" aspect="1.601" title="smart-me Wiki DE - Module Kamstrup" />
 
 ## Fonctions
 
@@ -51,11 +51,11 @@ Chapitres
 
 - [Installation](/konfiguration/inbetriebnahme) simple avec l'app smart-me pour [Android](https://play.google.com/store/apps/details?id=com.smart_me) et [iOS](https://apps.apple.com/ch/app/smart-me/id929146952?ign-mpt=uo%3D4)
 
-- Modbus TCP à partir de la version de firmware 8.0 (Info : sans connexion Internet permanente, le module ne peut pas non plus offrir une communication Modbus stable) 
+- Modbus-TCP à partir de la version de firmware 8.0 (Info : sans connexion Internet permanente, le module ne peut pas non plus offrir une communication Modbus stable) 
 
 ### Comment régler le facteur de correction dans le cloud ?
 
-Pour régler le facteur de correction d'un module ou d'un compteur, procédez comme suit :
+Pour régler le facteur de correction d'un module ou d'un compteur, veuillez procéder comme suit :
 
 1.  Connectez-vous au portail smart-me 
 
@@ -69,13 +69,13 @@ Pour régler le facteur de correction d'un module ou d'un compteur, procédez co
 
 6.  Saisissez la valeur de correction sous Correction de valeur (Wert Korrektur). (Attention : uniquement sous Correction de valeur (Wert Korrektur), pas sous Correction de valeur du dossier parent (Überordner Wert Korrektur))
 
-7.  Appuyez sur Enregistrer (Speichern).
+7.  Cliquez sur Enregistrer (Speichern).
 
 ### Déchiffrement du module Kamstrup
 
 [Instructions vidéo](https://www.youtube.com/watch?v=bYoq9a142t8)
 
-1.  En haut à droite, sur l'icône de la roue dentée (Paramètres (Einstellungen)) 
+1.  En haut à droite, cliquez sur l'icône en forme de roue dentée (Paramètres (Einstellungen)) 
 
 2.  Modifier (Editieren) 
 
@@ -88,7 +88,7 @@ Attention : le module Kamstrup a besoin du code PIN de chiffrement du compteur p
 1.  Attention : ce texte ne concerne pas le rapport de transformation du Telstar CT, mais le facteur de correction dans la configuration des compteurs/dossiers. Le facteur de correction est principalement nécessaire lors de l'utilisation de compteurs Kamstrup en combinaison avec des transformateurs de courant. 
 
 2.  Exemple avec un transformateur de courant 600:5 :
-    Si un transformateur de courant avec un rapport de 600:5 est utilisé, la valeur doit être adaptée d'un facteur de 600 : 5 = 120. Le facteur de correction doit être indiqué en pourcentage dans le cloud smart-me. On obtient donc un facteur de correction de 120 \* 100 % = 12'000 %
+    Si un transformateur de courant avec un rapport de 600:5 est utilisé, la valeur doit être ajustée d'un facteur de 600 : 5 = 120. Le facteur de correction doit être indiqué en pourcentage dans le cloud smart-me. On obtient donc un facteur de correction de 120 \* 100 % = 12'000 %
 
 3.  Exemple avec un transformateur de courant 600:5 et un compteur Kamstrup préréglé sur 100:5 :
     Certains compteurs Kamstrup ont un rapport de transformation préréglé de 100:5. Si un transformateur de courant avec un rapport de 600:5 est raccordé à ce compteur, le facteur de correction se calcule comme suit :
@@ -116,35 +116,35 @@ Le réglage s'effectue comme suit
 
 - Régler l'intervalle de téléversement (Upload-Intervall) (&lt;60 secondes uniquement possible avec smart-me Professional)
 
-- Enregistrer les paramètres (Einstellungen speichern)
+- Enregistrer les paramètres
 
 ## Compteur hors ligne
 
 - Le numéro de série commence par 92\* : Kamstrup
 
-Les informations générales se trouvent sous [Compteur hors ligne](/stoerungsbehebung/zaehler-offline).
+Des informations générales se trouvent sous [Compteur hors ligne](/stoerungsbehebung/zaehler-offline).
 
-Les indications spécifiques au compteur se trouvent ici
+Les informations spécifiques au compteur se trouvent ici
 
 ### Redémarrer le compteur
 
-- Ceci est uniquement une information sur la manière de procéder.
+- Ceci est uniquement fourni à titre d'information sur la manière de procéder.
 
-- Déroulement : retirer le module du compteur. Attendre qu'aucune LED ne soit plus allumée. Réinsérer le module dans le compteur.
+- Procédure : retirer le module du compteur. Attendre qu'aucune LED ne soit plus allumée. Réinsérer le module dans le compteur.
 
 ### Comment reconnaître l'état de réception d'un compteur
 
 - Connecté au WLAN : la LED orange à gauche et la LED verte à droite sont allumées en permanence.
 
-- Ne peut pas se connecter au WLAN : à définir
+- Impossible de se connecter au WLAN : à définir
 
-- Le compteur crée un WLAN local : la LED orange à gauche est allumée en permanence et. La LED rouge au milieu et la LED verte à droite s'allument en alternance à une cadence de 0.5 seconde.
+- Le compteur crée un WLAN local : la LED orange à gauche est allumée en permanence. La LED rouge au milieu et la LED verte à droite s'allument en alternance toutes les 0.5 secondes.
 
-### Vérification à l'arrivée
+### Contrôle à l'arrivée
 
-Les points suivants peuvent être vérifiés à l'arrivée. Si une intervention a déjà été effectuée sur le compteur, il est important de ne rien faire sur le compteur pendant au moins 5 minutes. Il est également possible de demander au client sur place une vidéo du compteur (30 secondes) afin de mieux évaluer la situation.
+Les points suivants peuvent être contrôlés à l'arrivée. Si une intervention a déjà été effectuée sur le compteur, il est important de ne rien faire sur le compteur pendant au moins 5 minutes. Il est également possible de demander au client sur place une vidéo du compteur (30 secondes) afin de mieux évaluer la situation.
 
-- Vérifier l'état à l'aide de la vidéo : [https://www.youtube.com/watch?v=CwS65mPsTws](https://www.youtube.com/watch?v=CwS65mPsTws) ou [https://vimeo.com/688374505](https://vimeo.com/688374505)
+- Contrôler l'état à l'aide de la vidéo : [https://www.youtube.com/watch?v=CwS65mPsTws](https://www.youtube.com/watch?v=CwS65mPsTws) ou [https://vimeo.com/688374505](https://vimeo.com/688374505)
 
     - Chapitre : [00:06](https://www.youtube.com/watch?v=CwS65mPsTws&t=6s) Les LED ne s'allument pas
 
@@ -158,21 +158,21 @@ Les points suivants peuvent être vérifiés à l'arrivée. Si une intervention 
 
 - Se connecter au portail smart-me
 
-- Choisir le compteur
+- Sélectionner le compteur
 
-- Choisir la roue dentée en haut à droite
+- Sélectionner la roue dentée en haut à droite
 
 - Paramètres généraux (Allgemeine Einstellungen)
 
-![Module Kamstrup – illustration 2](/img/produkte-kamstrup-modul/02.png)
+![Module Kamstrup – Illustration 2](/img/produkte-kamstrup-modul/02.png)
 
 ## Produit successeur
 
 smart-me ne propose pas de produit successeur pour les compteurs Kamstrup. 
 
-Si vous exploitez un RCP (regroupement dans le cadre de la consommation propre) smart-me (Suisse uniquement) et avez besoin d'une nouvelle solution pour votre mesure (p. ex. HAK), n'hésitez pas à nous contacter : nous offrons à nos [partenaires de projet](https://web.smart-me.com/projektpartner/) des conditions avantageuses pour le remplacement. (Offre spéciale valable jusqu'au 30.06.2025)
+Si vous exploitez un RCP (regroupement dans le cadre de la consommation propre) smart-me (Suisse uniquement) et avez besoin d'une nouvelle solution pour votre mesure (p. ex. coffret de raccordement), n'hésitez pas à nous contacter : nous offrons à nos [partenaires de projet](https://web.smart-me.com/projektpartner/) des conditions avantageuses pour le remplacement. (Offre spéciale valable jusqu'au 30.06.2025)
 
-Si des mesures sont effectuées dans le domaine privé pour le monitoring, la domotique, etc., le [Telstar 80A](/produkte/telstar) ou le [Telstar CT](/produkte/Telstar-CT) peut être installé à tout moment. Si vous cherchez une solution avec votre compteur Kamstrup existant, nous vous recommandons de consulter cette page. [https://whatwatt.ch/de](https://whatwatt.ch/de) ou [https://gplug.ch/](https://gplug.ch/) (Réserve concernant gPlug : avec le module Kamstrup smart-me, il faut noter qu'une fonction non documentée de l'interface client (CII) est utilisée. En revanche, le gPlugK utilise la CII publiée officiellement. Il peut donc arriver que le gPlugK ne fonctionne pas sur un Omnipower, alors que le produit smart-me fonctionne avec celui-ci. Ce problème peut en partie être résolu par une modification de la configuration à distance par le gestionnaire de réseau de distribution (GRD).
+Si des mesures sont effectuées dans le domaine privé pour le monitoring, la domotique, etc., le [Telstar 80A](/produkte/telstar) ou le [Telstar CT](/produkte/Telstar-CT) peut être installé à tout moment. Si vous cherchez une solution avec votre compteur Kamstrup existant, nous vous recommandons de consulter cette page. [https://whatwatt.ch/de](https://whatwatt.ch/de) ou [https://gplug.ch/](https://gplug.ch/) (Réserve concernant le gPlug : pour le module Kamstrup smart-me, il faut noter qu'une fonction non documentée de l'interface client (CII) est utilisée. En revanche, le gPlugK utilise la CII publiée officiellement. Il peut donc arriver que le gPlugK ne fonctionne pas sur un Omnipower, alors que le produit smart-me fonctionne avec celui-ci. Ce problème peut en partie être résolu par une modification de la configuration à distance par le gestionnaire de réseau de distribution (GRD).
 
 ## Clé de compteur non valide (CKW)
 
@@ -182,13 +182,13 @@ Problème
 
 Solution
 
-La cause du problème est connue depuis le 14.5.2025 13:43 : lors d'une maintenance système des CKW, toutes les clés des compteurs Kamstrup ont été renouvelées par erreur, rendant les précédentes non valides.
+La cause du problème est connue depuis le 14.5.2025 13:43 : lors d'une maintenance système des CKW, toutes les clés des compteurs Kamstrup ont été renouvelées par erreur et les précédentes sont devenues non valides.
 
-Comme solution, vous devez envoyer aux CKW un e-mail à [messtechnik@ckw.ch](mailto:messtechnik@ckw.ch) avec le numéro du compteur (voir image en bas à droite). Les CKW vous enverront alors une nouvelle clé.
+Pour résoudre le problème, vous devez envoyer un e-mail aux CKW à l'adresse [messtechnik@ckw.ch](mailto:messtechnik@ckw.ch) en indiquant le numéro du compteur (voir l'image en bas à droite). Les CKW vous enverront alors une nouvelle clé.
 
-![Module Kamstrup – illustration 3](/img/produkte-kamstrup-modul/03.png)
+![Module Kamstrup – Illustration 3](/img/produkte-kamstrup-modul/03.png)
 
-![Module Kamstrup – illustration 4](/img/produkte-kamstrup-modul/04.png)
+![Module Kamstrup – Illustration 4](/img/produkte-kamstrup-modul/04.png)
 
 ## Téléchargements
 

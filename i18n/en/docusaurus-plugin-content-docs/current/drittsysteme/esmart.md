@@ -8,30 +8,22 @@ eSMART can retrieve our meter data from the cloud and process it further. eSMART
 
 [![eSMART – Figure 1](/img/drittsysteme-esmart/01.jpg)](https://vimeo.com/776506780)
 
-eSMART Technologies AG
+## Contact
 
-Chemin de la Rueyre 118
+<Kacheln min="20rem">
+<Kachel titel="eSMART Technologies AG">
 
-CH-1020 Renens
+Chemin de la Rueyre 118, CH-1020 Renens
 
++41 (0) 21 552 02 05 · [info@myesmart.com](mailto:info@myesmart.com) · [www.myesmart.com](https://www.myesmart.com/de/)
 
+</Kachel>
 
-+41 (0) 21 552 02 05
+<Kachel titel="eSMART Technologies AG, Niederlassung Zürich">
 
-info@myesmart.com
-
-Zurich branch
-
-eSMART Technologies AG
-
-Wiesenstrasse 10A
-
-CH-8952 Schlieren
-
-
+Wiesenstrasse 10A, CH-8952 Schlieren
 
 +41 (0) 44 552 16 20
 
-
-
-[www.myesmart.com](https://www.myesmart.com/de/)
+</Kachel>
+</Kacheln>

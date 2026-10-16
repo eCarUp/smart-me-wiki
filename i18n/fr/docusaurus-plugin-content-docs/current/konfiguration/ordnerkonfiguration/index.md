@@ -1,14 +1,14 @@
 ---
 title: 'Configuration des compteurs et des dossiers'
 slug: '/konfiguration/ordnerkonfiguration'
-description: 'Tutoriel vidéo : créer des dossiers et y attribuer des compteurs'
+description: 'Tutoriel vidéo : créer des dossiers et y affecter des compteurs'
 sidebar_label: 'Configuration des dossiers'
 ---
 <Embed src="https://player.vimeo.com/video/661999827" aspect="1.291" title="Configuration des dossiers" />
 
-Tutoriel vidéo : créer des dossiers et y attribuer des compteurs
+Tutoriel vidéo : créer des dossiers et y affecter des compteurs
 
-## Instructions étape par étape
+## Guide pas à pas
 
 ### Accéder à la configuration des compteurs et des dossiers
 
@@ -17,25 +17,25 @@ Tutoriel vidéo : créer des dossiers et y attribuer des compteurs
 
 1.  Connectez-vous sur le [site web smart-me](https://web.smart-me.com/).
 
-2.  Dans le menu de gauche, allez à « Configuration des compteurs et des dossiers » (Zähler- und Ordnerkonfiguration)
+2.  Dans le menu de gauche, accédez à « Configuration des compteurs et des dossiers » (Zähler- und Ordnerkonfiguration)
 
 </div>
 <div className="col col--6 text--center">
 
-![Configuration des compteurs et des dossiers – figure 1](/img/konfiguration-ordnerkonfiguration/01.png)
+![Configuration des compteurs et des dossiers – Illustration 1](/img/konfiguration-ordnerkonfiguration/01.png)
 
 </div>
 </div>
 
 ### Description des actions
 
-![Configuration des compteurs et des dossiers – figure 2](/img/konfiguration-ordnerkonfiguration/02.png)
+![Configuration des compteurs et des dossiers – Illustration 2](/img/konfiguration-ordnerkonfiguration/02.png)
 
 Ajouter un nœud (Knoten Hinzufügen) :
 
 Ajoute un nœud avec un nom et un symbole au choix.
 
-Le nom détermine l'ordre dans lequel le nœud apparaît dans l'arborescence. 
+Le nom détermine l'ordre dans lequel le nœud est affiché dans l'arborescence. 
 
 1.  Tri par chiffres
 
@@ -44,33 +44,33 @@ Le nom détermine l'ordre dans lequel le nœud apparaît dans l'arborescence.
 
 Modifier un nœud de dossier (Ordner Knoten Editieren) 
 
-Permet de modifier le nom, le symbole et le dossier parent du nœud.
+Permet de modifier le nom, le symbole et la hiérarchie du nœud.
 
 
 
 Modifier un nœud de compteur (Zähler Knoten editieren)
 
-Nom (Name) :  Définissez le nom du compteur.
+Nom (Name) :  définissez le nom du compteur.
 Description (Beschreibung) :
-Ajoutez si nécessaire une description pour le compteur.
+ajoutez si besoin une description du compteur.
 Correction de valeur (Wert Korrektur) : 
-Corrige la valeur mesurée du compteur côté cloud. (Calculs de position)
+corrige dans le cloud la valeur mesurée par le compteur. (Calculs de position)
 Correction de valeur du dossier parent (Überordner Wert Korrektur) :
-Définit en pourcentage la part de la valeur mesurée à additionner dans le dossier parent.
+définit en pourcentage la part de la valeur mesurée à additionner dans le dossier parent.
 Compteur actif (Zähler aktiv) :
-Activez ou désactivez un compteur pour économiser des licences. Les compteurs désactivés n'affichent plus de données. Vous trouverez plus d'informations sur les compteurs désactivés dans notre FAQ, sous [Comment désactiver mon compteur ?](/)
+activez ou désactivez un compteur pour économiser des licences. Les compteurs désactivés n'affichent plus de données. Vous trouverez plus d'informations sur les compteurs désactivés dans notre FAQ, sous [Comment désactiver mon compteur ?](/faq#wie-deaktiviere-ich-meinen-zähler)
 
-Pour activer ou désactiver plusieurs compteurs à la fois, vous pouvez les déplacer dans un dossier dans la configuration des compteurs et des dossiers, faire un clic droit sur ce dossier et choisir une action groupée. 
+Pour activer ou désactiver plusieurs compteurs à la fois, déplacez-les dans un dossier de la configuration des compteurs et des dossiers, faites un clic droit sur ce dossier et choisissez une action groupée. 
 
 ![Désactiver des compteurs](/img/konfiguration-ordnerkonfiguration/03.jpg)
 
 Supprimer un nœud (Knoten Löschen)
 
-Supprime de l'arborescence le nœud ou le point de comptage sélectionné. 
+Supprime de l'arborescence le nœud ou le point de mesure sélectionné. 
 
-Les compteurs retournent alors dans la partie gauche en tant que compteurs non attribués.
+Les compteurs retournent alors sur le côté gauche en tant que compteurs non affectés.
 
-![Configuration des compteurs et des dossiers – figure 4](/img/konfiguration-ordnerkonfiguration/04.png)
+![Configuration des compteurs et des dossiers – Illustration 4](/img/konfiguration-ordnerkonfiguration/04.png)
 
 ### Nommer les compteurs
 
@@ -79,7 +79,7 @@ Les compteurs retournent alors dans la partie gauche en tant que compteurs non a
 
 - Tous les compteurs doivent être installés dans le compte correspondant. [Mise en service](/konfiguration/inbetriebnahme) 
 
-- Tous les compteurs doivent être nommés. Nos propositions pour la désignation des compteurs 
+- Tous les compteurs doivent être nommés. Nos suggestions pour la désignation des compteurs 
 
     - Unité d'utilisation Numéro de compteur (p. ex. APP 1 6352415)
 
@@ -88,7 +88,7 @@ Les compteurs retournent alors dans la partie gauche en tant que compteurs non a
 </div>
 <div className="col col--4 text--center">
 
-![Configuration des compteurs et des dossiers – figure 5](/img/konfiguration-ordnerkonfiguration/05.png)
+![Configuration des compteurs et des dossiers – Illustration 5](/img/konfiguration-ordnerkonfiguration/05.png)
 
 </div>
 </div>
@@ -100,9 +100,9 @@ Les compteurs retournent alors dans la partie gauche en tant que compteurs non a
 
 Certains fabricants de compteurs M-Bus indiquent lors de la transmission des données qu'il s'agit d'un compteur d'eau froide, alors qu'il devrait s'agir d'un compteur d'eau chaude sanitaire. Dans ce cas, le type de compteur doit être forcé dans smart-me.
 
-- Allez au tableau de bord (Dashboard)
+- Accédez au tableau de bord (Dashboard)
 
-- Sélectionnez le compteur dans le menu Dashboard
+- Sélectionnez le compteur dans le menu Tableau de bord (Dashboard)
 
 - Cliquez sur la roue dentée en haut à droite
 
@@ -112,31 +112,31 @@ Certains fabricants de compteurs M-Bus indiquent lors de la transmission des don
 
 - Enregistrer (Speichern)
 
-Remarque : cette adaptation est prise en charge dans smart-me Billing. Elle ne modifie pas l'Auto Export destiné aux fournisseurs d'énergie.
+Remarque : cette adaptation sert à la prise en charge dans smart-me Billing. L'Auto Export pour les fournisseurs d'électricité n'en est pas modifié.
 
 Remarque : pour des raisons techniques, cette manipulation n'est pas possible avec les compteurs de chaleur et de froid.
 
 </div>
 <div className="col col--5 text--center">
 
-![Configuration des compteurs et des dossiers – figure 6](/img/konfiguration-ordnerkonfiguration/06.png)
+![Configuration des compteurs et des dossiers – Illustration 6](/img/konfiguration-ordnerkonfiguration/06.png)
 
 </div>
 </div>
 
-### Structures de dossiers et leur influence sur les processus suivants
+### Structures de dossiers et leur influence sur les processus en aval
 
-Le système actuel permet d'établir automatiquement le décompte de l'électricité. Pour cela, la chaleur et l'eau doivent rester séparées de l'électricité. Des systèmes mixtes sont néanmoins possibles afin de réduire le travail sur les états locatifs, mais l'automatisation de la facturation est alors perdue.
+Le système actuel permet d'établir automatiquement le décompte de l'électricité. Pour cela, la chaleur et l'eau doivent rester séparées de l'électricité. Des systèmes mixtes sont toutefois possibles afin de réduire le travail lié aux états locatifs, mais l'automatisation de la facturation est alors perdue.
 
-Dans les systèmes comportant plusieurs chauffages, une séparation en plusieurs immeubles est toutefois inévitable.
+Pour les systèmes comportant plusieurs chauffages, une séparation en plusieurs immeubles est toutefois inévitable.
 
-Chaque immeuble créé individuellement peut en principe représenter 1x l'électricité et 1x la chaleur/l'eau.
+Chaque immeuble créé individuellement peut en principe représenter 1x électricité et 1x chaleur/eau.
 
 <Embed src="/embeds/konfiguration-ordnerkonfiguration-02.html" aspect="2.308" title="Configuration des dossiers" />
 
-### Principes de l'arborescence et création des nœuds
+### Bases de l'arborescence et création de nœuds
 
-Pour préparer un bâtiment au décompte, il faut créer les immeubles et les unités de décompte correspondants.
+Pour préparer un bâtiment au décompte, il faut créer les immeubles et unités de décompte correspondants.
 
 Structure de dossiers de base de chaque immeuble individuel
 
@@ -146,18 +146,19 @@ La structure de base pour chaque forme d'énergie et chaque bâtiment se compose
 
     - -   Unité de décompte 1 de l'immeuble (appartement ou locaux)
 
-            - -   Compteur de l'appartement (parts à 100%)
+            - -   Compteur d'appartement (parts à 100%)
 
         - Unité de décompte 2 de l'immeuble (appartement ou locaux)
 
         - ...
 
-- Compteurs techniques (ensemble des points de comptage non décomptés directement)
-    Vous pouvez y créer autant de sous-dossiers que nécessaire pour structurer. 
+- Compteurs techniques (ensemble des points de mesure non décomptés directement)
+
+    Vous pouvez créer ici autant de sous-dossiers que nécessaire pour structurer. 
 
     - -   -   Compteur de bilan
 
-            - Compteur de l'installation solaire
+            - Compteur d'installation solaire
 
             - Compteurs des parties communes répartis en pourcentage sur les unités de décompte
 
@@ -165,12 +166,11 @@ La structure de base pour chaque forme d'énergie et chaque bâtiment se compose
 
             - Compteurs d'eau répartis en pourcentage sur les unités de décompte
 
-
-![Configuration des compteurs et des dossiers – figure 7](/img/konfiguration-ordnerkonfiguration/07.png)
+![Configuration des compteurs et des dossiers – Illustration 7](/img/konfiguration-ordnerkonfiguration/07.png)
 
 ### Étape suivante : créez la structure de votre projet
 
-Choisissez maintenant, en fonction de votre projet, les instructions à suivre.
+Choisissez maintenant, en fonction de votre projet, le guide que vous souhaitez suivre.
 
 [Électricité uniquement](/konfiguration/ordnerkonfiguration/nur-strom)
 
@@ -180,27 +180,27 @@ Choisissez maintenant, en fonction de votre projet, les instructions à suivre.
 
 ## Informations complémentaires
 
-### Création automatique de dossiers avec des fichiers CSV
+### Création automatique de dossiers à l'aide de fichiers CSV
 
-smart-me permet d'automatiser la création de dossiers, l'attribution et le renommage de compteurs au moyen d'un fichier CSV. Cette fonction nécessite un abonnement smart-me Professional.
+smart-me permet d'automatiser la création de dossiers, les affectations et le renommage des compteurs à l'aide d'un fichier CSV. Cette fonction nécessite un abonnement smart-me Professional.
 
 Les fichiers CSV contiennent des données tabulaires enregistrées sous forme de texte. Ils peuvent être modifiés avec un éditeur de texte (p. ex. notepad++).
 
-Attention : les dossiers existants sont supprimés lorsque vous utilisez cette fonction. Cela signifie que toutes les fonctions utilisées avec ces dossiers ne fonctionnent plus (p. ex. actions si/alors, configurations smart-me billing, etc.). 
+Attention : les dossiers existants sont supprimés lors de l'utilisation de cette fonction. Cela signifie que toutes les fonctions utilisées avec ces dossiers ne fonctionnent plus (p. ex. actions si/alors, configurations smart-me billing, etc.). 
 
 
 
-<Video src="YQVcTxPgdzM" title="Vidéo YouTube, création de dossiers au moyen d'un fichier csv" />
+<Video src="YQVcTxPgdzM" title="Vidéo YouTube, création de dossiers à l'aide d'un fichier csv" />
 
-![Configuration des compteurs et des dossiers – figure 8](/img/konfiguration-ordnerkonfiguration/08.png)
+![Configuration des compteurs et des dossiers – Illustration 8](/img/konfiguration-ordnerkonfiguration/08.png)
 
 Un fichier CSV de configuration contient les colonnes suivantes (ne pas modifier l'ordre) :
 
-[](https://drive.google.com/open?id=1Ft_fg6mxKZCpPND-i5ZoWN6kAKacnDXD8rJGeOB40KM "Ouvrir la feuille de calcul, wiki 2.0 Tabellen dans une nouvelle fenêtre")
+[](https://drive.google.com/open?id=1Ft_fg6mxKZCpPND-i5ZoWN6kAKacnDXD8rJGeOB40KM "Open Spreadsheet, wiki 2.0 Tabellen in new window")
 
-<Embed src="https://docs.google.com/spreadsheets/d/1Ft_fg6mxKZCpPND-i5ZoWN6kAKacnDXD8rJGeOB40KM/htmlembed?gid=0" height="252px" title="Feuille de calcul, wiki 2.0 Tabellen" />
+<Embed src="https://docs.google.com/spreadsheets/d/1Ft_fg6mxKZCpPND-i5ZoWN6kAKacnDXD8rJGeOB40KM/htmlembed?gid=0" height="252px" title="Tableur, tableaux wiki 2.0" />
 
-wiki 2.0 Tabellen
+Tableaux wiki 2.0
 
 Les séparateurs ";" et "//" ne doivent pas être utilisés dans les noms. Ils sont réservés à la séparation des colonnes et des dossiers dans les chemins.
 
@@ -224,16 +224,16 @@ MeterSerialNumber;MeterName;FolderPath;MeterPointId;ExportFormat;UploadType;Expo
 101163;Schlafzimmer 102;Wohnung 1. Stock Links // Schlafzimmer;CH102;CSV_1;FTP_2;Monthly
 ```
 
-### Modifier des fichiers CSV dans Excel
+### Modification de fichiers CSV dans Excel
 
-Excel permet également de modifier des fichiers CSV. Deux points sont à respecter :
+Excel permet également de modifier des fichiers CSV. Deux points sont toutefois à respecter :
 
-1.  Il faut empêcher Excel d'arrondir le numéro de série du compteur ou de l'afficher sous forme exponentielle (p. ex. en faisant traiter les nombres comme du texte dans Excel.)
+1.  Il faut empêcher Excel d'arrondir le numéro de série du compteur ou de l'afficher sous forme exponentielle (p. ex. en traitant les nombres comme du texte dans Excel.)
 
-2.  Le fichier CSV doit être encodé en UTF-8. Excel n'affiche alors pas correctement les caractères accentués (trémas). Un éditeur de texte (p. ex. notepad++) affiche toutefois ces caractères correctement.
+2.  Le fichier CSV doit être encodé en UTF-8. Excel n'affiche alors pas correctement les caractères accentués. Dans un éditeur de texte (p. ex. notepad++), ces caractères s'affichent toutefois correctement.
 
 
-![Configuration des compteurs et des dossiers – figure 9](/img/konfiguration-ordnerkonfiguration/09.png)
+![Configuration des compteurs et des dossiers – Illustration 9](/img/konfiguration-ordnerkonfiguration/09.png)
 
 La procédure recommandée est la suivante :
 

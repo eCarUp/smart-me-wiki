@@ -14,16 +14,38 @@
 }
 
 .verlinkt {
-  color: inherit;
-  text-decoration: none;
+  /* Bezugsrahmen für `.ziel::after`, das die ganze Kachel anklickbar macht. */
+  position: relative;
   transition: border-color 0.15s ease, box-shadow 0.15s ease;
 }
 
 .verlinkt:hover {
   border-color: var(--ifm-color-primary);
   box-shadow: var(--ifm-global-shadow-lw);
-  color: inherit;
-  text-decoration: none;
+}
+
+/*
+ * Der Titel ist der eigentliche Link. `::after` spannt ihn unsichtbar über die
+ * ganze Kachel, damit auch ein Klick auf das Foto oder den Rand dorthin führt.
+ * Weitere Links im Kacheltext bleiben erreichbar – sie liegen mit `z-index`
+ * darüber (siehe unten).
+ */
+.inhalt :global(a) {
+  position: relative;
+  z-index: 1;
+}
+
+/* Der Titel-Link selbst darf nicht positioniert sein, sonst bezöge sich sein
+   `::after` auf ihn statt auf die Kachel. */
+.inhalt .ziel {
+  position: static;
+}
+
+.ziel::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
 }
 
 /*
@@ -38,6 +60,10 @@
   margin-bottom: 0.75rem;
 }
 
+.logoMittig {
+  justify-content: center;
+}
+
 .logo img {
   max-height: 100%;
   max-width: 100%;
@@ -47,6 +73,19 @@
 .inhalt {
   font-size: 0.9rem;
   line-height: 1.5;
+  /* Lange Mailadressen und Webadressen sind oft breiter als eine schmale
+     Kachel. Ohne das hier ragten sie über den Rand hinaus. */
+  overflow-wrap: anywhere;
+}
+
+/*
+ * Produktkacheln: Foto und Beschriftung mittig. Die Regel in custom.css setzt
+ * jeden Absatz im Fliesstext linksbündig – deshalb hier ausdrücklich noch
+ * einmal für die Absätze in der Kachel.
+ */
+.mittig,
+.mittig :global(p) {
+  text-align: center;
 }
 
 .titel {

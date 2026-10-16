@@ -1,10 +1,10 @@
 ---
 title: 'Planification'
 slug: '/planung'
-description: 'Exemples d''installation du matériel dans un regroupement dans le cadre de la consommation propre, y compris.'
+description: 'Exemples d''installation du matériel dans un regroupement dans le cadre de la consommation propre, y compris'
 sidebar_label: 'Planification'
 ---
-## Planification dans le RCP
+## Planification dans un RCP
 
 Exemples d'installation du matériel dans un regroupement dans le cadre de la consommation propre (RCP), y compris eau, chaleur et e-mobilité
 
@@ -14,13 +14,13 @@ Exemple d'installation du matériel pour l'e-mobilité avec eCarUp
 
 [Bâtiment individuel ou lotissement avec e-mobilité](/planung/zev-zusammenschluss-zum-eigenverbrauch)
 
-[Mise en place de la gestion de la charge statique et dynamique](/planung/e-mobility)
+[Mise en place d'une gestion de la charge statique et dynamique](/planung/elektromobilitaet)
 
 ## Planifiez dès maintenant votre projet avec notre configurateur
 
-Sur la base de vos indications, le Projektkonfigurator établit la liste des pièces de tous les produits smart-me, le nombre de points de mesure et un schéma visuel pour vérification.
+Sur la base de vos indications, le Projektkonfigurator établit la liste de matériel de tous les produits smart-me, le nombre de points de mesure et un schéma visuel pour vérification.
 
-Idéal pour les planificateurs, les électriciens.
+Idéal pour les planificateurs et les électriciens.
 
 [Projektkonfigurator](/planung/Projektkonfigurator)
 
@@ -36,4 +36,4 @@ Idéal pour les planificateurs, les électriciens.
 
 [Schéma de mesure pour solution d'alimentation de secours](/planung/Messkonzept-Notstromloesung)
 
-[Schéma de mesure pour producteurs situés derrière des bâtiments](/planung/messkonzept-produzenten-hinter-haeuser)
+[Schéma de mesure pour producteurs derrière les maisons](/planung/messkonzept-produzenten-hinter-haeuser)

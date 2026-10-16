@@ -7,8 +7,6 @@ sidebar_label: 'piskelapp'
 <div className="row">
 <div className="col col--7">
 
-[EN](/drittsysteme/piskelapp)
-
 Unsere Pico Ladestation verfügt über einen 32 × 32 Pixel grossen Bildschirm, auf dem GIF-Animationen angezeigt werden können.
 Im smart-me Webportal findest du bereits einige voreingestellte GIFs, aber du kannst auch eigene Dateien hochladen, um deine Ladestation noch individueller zu gestalten.
 

@@ -26,6 +26,7 @@
  */
 import React from 'react';
 import clsx from 'clsx';
+import Link from '@docusaurus/Link';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
 
@@ -49,46 +50,86 @@ export function Kacheln({min = '14rem', children}: KachelnProps): React.ReactEle
 }
 
 type KachelProps = {
-  /** Pfad zum Logo, z.B. `/img/drittsysteme-nebenkosten/07.png`. */
+  /** Pfad zum Bild, z.B. `/img/drittsysteme-nebenkosten/07.png`. */
   bild?: string;
-  /** Name des Partners. Steht fett über dem Text. */
+  /** Name des Partners oder Produkts. Steht fett über dem Text. */
   titel?: string;
   /** Ziel, auf das die ganze Kachel verweist. */
   href?: string;
+  /**
+   * Höhe des Bildfeldes. Voreingestellt ist `3.5rem` – passend für ein Logo
+   * neben Adresse und Telefon. Für Produktfotos, die selbst die Aussage sind,
+   * z.B. `10rem`.
+   *
+   * Angegeben wird das Feld auch dann freigehalten, wenn gar kein `bild`
+   * gesetzt ist. Das ist der Fall, wenn von einer Reihe gleichartiger Kacheln
+   * nur einige ein Logo haben: ohne das Freihalten rutschten deren Titel nach
+   * oben und die Reihe stünde auf zwei verschiedenen Linien.
+   */
+  bildhoehe?: string;
+  /** Bild und Text mittig statt linksbündig. Für Produktkacheln. */
+  mittig?: boolean;
+  /** Beschreibender Text für das Bild. Ohne Angabe: `Logo <titel>`. */
+  bildtext?: string;
   children?: React.ReactNode;
 };
 
-export function Kachel({bild, titel, href, children}: KachelProps): React.ReactElement {
+export function Kachel({
+  bild,
+  titel,
+  href,
+  bildhoehe,
+  mittig,
+  bildtext,
+  children,
+}: KachelProps): React.ReactElement {
   // In Markdown löst Docusaurus `/img/…` selbst gegen den baseUrl auf, in JSX
   // nicht. Ohne das hier zeigte jedes Logo auf /img/… statt auf
   // /smart-me-wiki/img/… – lokal unauffällig, in der Veröffentlichung tot.
   const bildUrl = useBaseUrl(bild ?? '');
 
-  const inhalt = (
-    <>
-      {bild && (
-        <div className={styles.logo}>
-          {/* Logos sind unterschiedlich breit und hoch; `contain` lässt sie
+  const beschriftung = titel && <strong className={styles.titel}>{titel}</strong>;
+
+  return (
+    <div className={clsx(styles.kachel, href && styles.verlinkt)}>
+      {(bild || bildhoehe) && (
+        <div
+          className={clsx(styles.logo, mittig && styles.logoMittig)}
+          style={bildhoehe ? {height: bildhoehe} : undefined}>
+          {/* Bilder sind unterschiedlich breit und hoch; `contain` lässt sie
               unverzerrt in einem gleich hohen Feld stehen, damit die Kacheln
               eine gemeinsame Oberkante behalten. */}
-          <img src={bildUrl} alt={titel ? `Logo ${titel}` : ''} loading="lazy" />
+          {bild && (
+            <img
+              src={bildUrl}
+              alt={bildtext ?? (titel ? `Logo ${titel}` : '')}
+              loading="lazy"
+            />
+          )}
         </div>
       )}
-      <div className={styles.inhalt}>
-        {titel && <strong className={styles.titel}>{titel}</strong>}
+      <div className={clsx(styles.inhalt, mittig && styles.mittig)}>
+        {/*
+          Verlinkt wird der Titel, nicht die ganze Kachel. Anklickbar ist
+          trotzdem die ganze Fläche: `.ziel` legt sich unsichtbar darüber
+          (siehe styles.module.css). Umschlösse stattdessen ein <a> die ganze
+          Kachel, dürften im Text darin keine weiteren Links stehen – genau die
+          braucht aber z.B. "Nachfolger: …".
+
+          `Link` statt `<a>`: es setzt den baseUrl davor und wechselt die Seite
+          ohne Neuladen. Externe Adressen (https://…) erkennt es selbst.
+        */}
+        {href ? (
+          <Link className={styles.ziel} to={href}>
+            {beschriftung}
+          </Link>
+        ) : (
+          beschriftung
+        )}
         {children}
       </div>
-    </>
+    </div>
   );
-
-  if (href) {
-    return (
-      <a className={clsx(styles.kachel, styles.verlinkt)} href={href}>
-        {inhalt}
-      </a>
-    );
-  }
-  return <div className={styles.kachel}>{inhalt}</div>;
 }
 
 export default Kacheln;

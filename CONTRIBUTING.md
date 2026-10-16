@@ -5,6 +5,50 @@ sind nicht nötig. Alles läuft im Browser auf GitHub. Wer lieber lokal in einem
 Editor arbeitet, findet den Weg dazu weiter unten unter
 [Lokal mit VS Code arbeiten](#lokal-mit-vs-code-arbeiten).
 
+## Inhalt
+
+**Loslegen**
+
+- [Das Wichtigste in drei Sätzen](#das-wichtigste-in-drei-sätzen)
+- [Eine Seite korrigieren](#eine-seite-korrigieren)
+- [Lokal mit VS Code arbeiten](#lokal-mit-vs-code-arbeiten)
+
+**Texte und Bilder**
+
+- [Überschriften](#überschriften)
+- [Ein Bild hinzufügen](#ein-bild-hinzufügen)
+- [Bild neben Text stellen](#bild-neben-text-stellen)
+- [Links, rechts oder mittig in einer Spalte](#links-rechts-oder-mittig-in-einer-spalte)
+- [Partner und Lieferanten in Kacheln](#partner-und-lieferanten-in-kacheln)
+- [Tabellen](#tabellen)
+- [Eine Frage ins FAQ aufnehmen](#eine-frage-ins-faq-aufnehmen)
+
+**Einbetten und verlinken**
+
+- [Videos einbinden](#videos-einbinden)
+- [Google Tabellen einbetten](#google-tabellen-einbetten)
+- [PDF verlinken](#pdf-verlinken)
+
+**Neuigkeiten und Länder**
+
+- [Eine Neuigkeit veröffentlichen](#eine-neuigkeit-veröffentlichen)
+- [Eine Seite einem Land zuordnen](#eine-seite-einem-land-zuordnen)
+
+**Seiten verwalten**
+
+- [Eine neue Seite anlegen](#eine-neue-seite-anlegen)
+- [Eine neue Seite in die Navigation eintragen](#eine-neue-seite-in-die-navigation-eintragen)
+- [Eine Seite an eine andere Stelle verschieben](#eine-seite-an-eine-andere-stelle-verschieben)
+- [Eine Seite aus der Navigation nehmen, ohne sie zu löschen](#eine-seite-aus-der-navigation-nehmen-ohne-sie-zu-löschen)
+
+**Gut zu wissen**
+
+- [Was du nicht tun sollst](#was-du-nicht-tun-sollst)
+- [Und die Übersetzungen?](#und-die-übersetzungen)
+- [Wenn etwas schiefgeht](#wenn-etwas-schiefgeht)
+
+---
+
 ## Das Wichtigste in drei Sätzen
 
 1. Geschrieben wird **nur auf Deutsch**, im Ordner `docs`.
@@ -436,6 +480,40 @@ Setz Adresse und Telefon in **eine** Zeile, getrennt mit `·`. Jede Angabe auf
 eine eigene Zeile zu stellen macht die Kachel dreimal so hoch, ohne dass sie
 mehr sagt.
 
+### Produkte in Kacheln
+
+Dieselben Kacheln tragen auch eine Produktübersicht — Foto, Name, ein, zwei
+Zeilen dazu. Nur steht das Foto dort gross und mittig statt klein und links:
+
+```jsx
+<Kacheln min="15rem">
+
+<Kachel bild="/img/produkte/01.png" bildtext="Telstar 80A" titel="Telstar 80A" href="/produkte/telstar" bildhoehe="10rem" mittig>
+
+Nachfolger: [3-Phasen Zähler Telstar 80A](/produkte/telstar)
+
+</Kachel>
+
+</Kacheln>
+```
+
+Die drei Angaben, die das ausmachen:
+
+- `bildhoehe="10rem"` gibt dem Foto Platz. Ohne die Angabe ist das Bildfeld
+  `3.5rem` hoch — richtig für ein Logo, zu klein für ein Produktfoto.
+- `mittig` stellt Foto und Text in die Mitte der Kachel.
+- `bildtext` beschreibt das Bild für Vorleseprogramme. Ohne die Angabe steht
+  dort „Logo <titel>" — bei einem Produktfoto also das Falsche.
+
+`href` macht die **ganze** Kachel anklickbar, nicht nur den Namen. Links im
+Kacheltext — „Nachfolger: …" — bleiben trotzdem erreichbar und führen dorthin,
+wohin sie zeigen.
+
+Zur Breite: `min` ist die Mindestbreite einer Kachel, nicht ihre feste Breite.
+Wie viele nebeneinander stehen, entscheidet das Fenster. In der Textspalte
+ergibt `13rem` drei Kacheln, `15rem` ebenfalls drei mit mehr Luft für Text,
+`20rem` zwei.
+
 ---
 
 ## Tabellen
@@ -556,6 +634,148 @@ gehören in den sichtbaren Text.
 
 ---
 
+## Eine Neuigkeit veröffentlichen
+
+Neuigkeiten erscheinen auf den beiden Einstiegsseiten — *Start Schweiz* und
+*Start Deutschland*. Geschrieben werden sie aber nur **einmal**, in der Datei
+`docs/_neuigkeiten.md`. Beide Seiten binden sie ein; der Unterstrich im
+Dateinamen sagt Docusaurus, dass daraus keine eigene Seite wird. Deshalb hat
+die Datei auch **kein Frontmatter** — sie fängt direkt mit der ersten Meldung
+an.
+
+Dass eine Meldung nur in einem Land erscheint, entscheidet eine Klammer um sie
+herum — nicht die Datei, in der sie steht. Das klingt umständlicher als es ist
+und hat einen Grund: Die allermeisten Meldungen betreffen Portal oder Hardware
+und gelten überall. Bei zwei getrennten Listen müsstest du sie zweimal
+eintragen, und die Reihenfolge liefe mit der Zeit auseinander.
+
+### 1. Die Meldung schreiben
+
+Die neue Meldung kommt **zuoberst** in die Datei. Das Gerüst ist immer
+dasselbe:
+
+```jsx
+<details id="rechnungsvorschau-v1" open>
+<summary>NEU: Rechnungsvorschau V1</summary>
+
+Erzeuge neu eine Rechnungsvorschau, bevor du scharfe Rechnungen erstellst.
+
+- Prüfe schnell und einfach deine Konfigurationen.
+- Erzeuge keine fehlerhaften Rechnungen mehr ohne vorherige Validierung.
+
+[→ Mehr Informationen](/konfiguration/billing)
+
+</details>
+```
+
+Dazu drei Dinge:
+
+**Der Titel** steht in `<summary>`. Er ist das Einzige, was man sieht, solange
+die Meldung zugeklappt ist — also sag dort, worum es geht, nicht nur „Update".
+Ein vorangestelltes „NEU:" ist üblich, aber kein Muss.
+
+**Die `id`** ist die Adresse dieser einen Meldung:
+`…/schweiz#rechnungsvorschau-v1`. Damit kannst du im Support direkt auf sie
+verlinken. Es gelten dieselben Regeln wie bei der FAQ: Kleinbuchstaben, Wörter
+mit Bindestrich, keine Satzzeichen, keine Umlaute (`ä` → `ae`). Das „NEU:"
+gehört **nicht** hinein, sonst hiesse jede zweite Adresse `neu-…`. Und sie
+bleibt, auch wenn der Titel später umformuliert wird — sie steht vielleicht
+schon in einer Mail.
+
+**Das `open`** hält die Meldung aufgeklappt. Es trägt nur die jeweils neueste
+— **bei der bisher obersten Meldung nimmst du es also weg.** Sonst wächst die
+Seite mit jeder Meldung um eine Bildschirmhöhe.
+
+Zwischen `<summary>` und dem Text gehört eine Leerzeile, und vor `</details>`
+auch. Ohne sie bleibt der Inhalt roher Text, Aufzählungen und Links werden
+nicht erkannt.
+
+### 2. Bilder und Videos
+
+Bilder der Neuigkeiten liegen unter `static/img/home/` und werden
+durchnummeriert. Der Ordnername stammt noch von der alten Startseite, auf der
+die Neuigkeiten früher standen — er hat nichts mehr mit einer Seite zu tun.
+Eingebunden wie überall:
+
+```
+![Die neue Rechnungsvorschau in der Übersicht](/img/home/02.png)
+```
+
+Ein YouTube-Video:
+
+```jsx
+<Video src="fb33ML8YTYA" title="YouTube Video, Rechnungsvorschau" />
+```
+
+`src` ist nur die Video-Kennung aus der Adresse, nicht der ganze Link. Für eine
+Datei aus Google Drive nimmst du stattdessen `<Embed>` — siehe
+[Videos einbinden](#videos-einbinden).
+
+### 3. Einem Land zuweisen
+
+Gilt die Meldung überall, lässt du sie wie oben stehen. **Keine Kennzeichnung
+heisst: erscheint auf beiden Einstiegsseiten** — das ist der Normalfall.
+
+Gilt sie nur für ein Land, kommt eine Klammer darum:
+
+```jsx
+<NurFuer land="ch">
+
+<details id="zev-mit-notstromsystemen">
+<summary>NEU: ZEV mit Notstromsystemen</summary>
+
+Neu kannst du Notstromsysteme alternativ tarifieren.
+
+</details>
+
+</NurFuer>
+```
+
+| Thema | Kennzeichnung |
+| --- | --- |
+| ZEV, vZEV, LEG, VEWA, MWST, Schweizer Shop | `<NurFuer land="ch">` |
+| Mieterstrom, Eichrecht, smartRED | `<NurFuer land="de">` |
+| Portal, Hardware, API, Abrechnung allgemein | keine — gilt überall |
+| Ausdrücklich beide, nicht aber weitere Länder | `<NurFuer land="ch,de">` |
+
+Es gilt dieselbe Regel wie in der Navigation: **Wer kein Land gewählt hat,
+sieht alles.** Wer über einen geteilten Link kommt und die Frage auf der
+Startseite nie gesehen hat, verpasst also nichts.
+
+Eine zweite Meldung steht übrigens bewusst aufgeklappt: die neueste, die in
+jedem Land gilt. Sonst stünde die deutsche Einstiegsseite ganz zugeklappt da,
+wenn die oberste Meldung nur die Schweiz betrifft.
+
+### 4. Nachsehen, ob es stimmt
+
+Lokal mit `npm start`, sonst in der Vorschau des Pull Requests. Sieh dir
+**beide** Einstiegsseiten an und schalte oben rechts das Land um:
+
+- Bei *Schweiz* und *Deutschland* erscheint die Meldung dort, wo sie soll.
+- Bei *Alle Länder* erscheint sie in jedem Fall.
+- Oben ist genau eine Meldung aufgeklappt (bei länderspezifischen Meldungen
+  zwei: die oberste und die oberste gemeinsame).
+
+### 5. Veröffentlichen
+
+Wie jede andere Änderung: speichern, Pull Request, und sobald er zusammen­geführt
+ist, steht die Meldung online. Die englische, französische und italienische
+Fassung holt `npm run translate` nach — die Kennzeichnung `land="…"` und die
+`id` werden dabei nicht übersetzt, sie bleiben in allen Sprachen gleich.
+
+### Eine alte Meldung entfernen
+
+Lösch den ganzen Block von `<details …>` bis `</details>` — und die Klammer
+`<NurFuer>` drumherum, falls sie nur diese eine Meldung umschliesst. Die Bilder
+dazu unter `static/img/home/` kannst du gleich mitlöschen, wenn keine andere
+Meldung sie verwendet.
+
+Eine feste Zahl, ab wann aufgeräumt wird, gibt es nicht. Zugeklappt kostet eine
+alte Meldung nur eine Zeile — es spricht also wenig dagegen, sie als Archiv
+stehen zu lassen.
+
+---
+
 ## Eine Seite einem Land zuordnen
 
 Manches gilt nur in einem Land: ZEV, vZEV, LEG und die VEWA-Abrechnung sind
@@ -610,17 +830,31 @@ führt. **Schreib deshalb in länderspezifische Seiten einen Satz, für welches
 Land sie gelten**, gleich in den ersten Absatz. Wer über die Suche kommt, sieht
 den Filter nicht.
 
-### Die Karte auf der Startseite
+### Startseite und Einstiegsseiten
 
-Wer das Wiki zum ersten Mal öffnet, sieht oben auf der Startseite eine Karte
-mit der Frage, für welches Land er Antworten sucht. Sie verschwindet, sobald
-einmal gewählt wurde — auch bei „Anderes Land", denn das ist eine Wahl wie jede
-andere, sie blendet nur nichts aus. Sie versperrt nichts: Wer sie übergeht,
-liest einfach weiter und sieht alles.
+Die Startseite (`docs/index.md`) stellt nur eine Frage: für welches Land? Jede
+Antwort merkt die Wahl und springt auf die Einstiegsseite dieses Landes:
 
-Die Karte steht in `src/components/LandKarte/`. Eingehängt wird sie in
-`src/theme/DocItem/Content/`, nicht im Text der Startseite — so steht sie in
-allen vier Sprachen, ohne dass jemand sie viermal pflegen muss.
+| Antwort | Seite |
+| --- | --- |
+| Schweiz | `docs/schweiz.md` → `/schweiz` |
+| Deutschland | `docs/deutschland.md` → `/deutschland` |
+| Anderes Land | `/schweiz` — die Wahl blendet nichts aus, es geht nichts verloren |
+
+Welche Seite zu welchem Land gehört, steht in `src/laender/index.ts` beim
+jeweiligen Eintrag unter `start`. Die Wahl selbst steht in
+`src/components/LandKarte/` und wird in `src/theme/DocItem/Content/`
+eingehängt, nicht im Text der Startseite — so steht sie in allen vier
+Sprachen, ohne dass jemand sie viermal pflegen muss.
+
+Die Einstiegsseiten tragen je einen eigenen Einleitungssatz und eigene Kacheln
+für Hilfe und Kontakt. Die Neuigkeiten teilen sie sich — siehe unten.
+
+### Eine Neuigkeit einem Land zuweisen
+
+Die Neuigkeiten auf den Einstiegsseiten tragen dieselbe Kennzeichnung, nur
+nicht in `sidebars.ts`, sondern als Klammer um die Meldung. Wie das geht,
+steht im Kapitel [Eine Neuigkeit veröffentlichen](#eine-neuigkeit-veröffentlichen).
 
 ### Die Beschriftungen ändern oder ein Land ergänzen
 

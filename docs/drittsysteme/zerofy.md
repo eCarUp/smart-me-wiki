@@ -33,13 +33,15 @@ Features:
 - Aktuelle Strompreise und CO2-Intensität des Netzstroms einsehen.
 
 
-Kontakt:
+## Kontakt
 
-Zerofy 
+<Kacheln min="20rem">
+<Kachel titel="Zerofy">
 
-E-mail: [hello@zerofy.net](mailto:hello@zerofy.net) 
+[hello@zerofy.net](mailto:hello@zerofy.net) · [www.zerofy.net](https://www.zerofy.net)
 
-Webseite: [https://www.zerofy.net](https://www.zerofy.net) 
+</Kachel>
+</Kacheln>
 
 
 

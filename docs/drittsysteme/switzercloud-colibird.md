@@ -34,14 +34,14 @@ Die Verarbeitung mündet in Alarmierungen, Reports, Verrechnungen, Steuerungen u
 
 ![Switzercloud / Colibird – Abbildung 3](/img/drittsysteme-switzercloud-colibird/03.png)
 
-Kontakt:
+## Kontakt
 
-Brunata AG
+<Kacheln min="20rem">
+<Kachel titel="Brunata AG">
 
-Im Feld 1
+Im Feld 1, CH-6072 Sachseln
 
-CH-6072 Sachseln
+[info@switzer.cloud](mailto:info@switzer.cloud) · [www.switzer.cloud](http://www.switzer.cloud)
 
-E-Mail: info@switzer.cloud  
-
-Webseite: [www.switzer.cloud](http://www.switzer.cloud)
+</Kachel>
+</Kacheln>

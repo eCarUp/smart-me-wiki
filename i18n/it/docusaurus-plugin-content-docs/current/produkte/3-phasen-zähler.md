@@ -5,7 +5,7 @@ description: 'Il contatore trifase smart-me è un contatore di energia potente e
 sidebar_label: 'Contatore trifase'
 displayed_sidebar: wikiSidebar
 ---
-Il contatore trifase smart-me è un contatore di energia potente e preciso con interfaccia WiFi integrata. Per l'integrazione nella smart-me Cloud non è necessario alcun hardware aggiuntivo. Utilizza la rete WiFi esistente e può essere comandato e analizzato da qualsiasi luogo via Internet. Con un abbonamento Professional i valori del contatore possono essere letti anche tramite l'interfaccia Modbus TCP. Nella versione 5(32)A ogni fase può essere commutata singolarmente.
+Il contatore trifase smart-me è un contatore di energia potente e preciso con interfaccia WiFi integrata. Per l'integrazione nella smart-me Cloud non è necessario alcun hardware aggiuntivo. Utilizza la rete WiFi esistente e può essere comandato e analizzato da qualsiasi luogo tramite Internet. Con un abbonamento Professional, i valori del contatore possono essere letti anche tramite l'interfaccia Modbus TCP. Nella versione 5(32)A ogni fase può essere commutata singolarmente.
 
 Questo contatore trifase non è più disponibile. La nuova generazione del nostro contatore trifase è disponibile qui: [Contatore trifase Telstar](/produkte/telstar)
 
@@ -21,17 +21,17 @@ Questo contatore trifase non è più disponibile. La nuova generazione del nostr
 
 - Contatore di energia trifase con certificazione MID 2014/32/EU
 
-- Misura diretta fino a 80 A (non commutabile), misura diretta fino a 32 A (commutabile)
+- Misurazione diretta fino a 80 A (non commutabile), misurazione diretta fino a 32 A (commutabile)
 
 - Valori di misura in tempo reale con la massima precisione, classe B
 
-- Uscite a contatto supplementari per comandare apparecchi esterni
+- Uscite a contatto aggiuntive per il comando di apparecchi esterni
 
 - Il contatore trifase funziona anche come gateway verso il cloud per (quasi) tutti i dispositivi Smart Energy compatibili con IP
 
 - Installazione semplice con l'app smart-me gratuita per Android e iOS
 
-- Connessione WiFi crittografata direttamente alla smart-me Cloud. La smart-me Cloud offre una gestione completa dell'energia: visualizzazioni, comando (azioni se/allora), fatturazione automatica (smart-me Billing) e interfacce verso sistemi di terzi (Auto Export, API)
+- Connessione WiFi crittografata direttamente alla smart-me Cloud. La smart-me Cloud offre una gestione energetica completa: visualizzazioni, comando (azioni se/allora), fatturazione automatica (smart-me Billing) e interfacce verso sistemi di terzi (Auto Export, API)
 
 ## Installazione
 
@@ -39,7 +39,7 @@ Prima di poter utilizzare il Suo dispositivo smart-me, deve collegarlo alla Sua 
 
 1.  Colleghi il Suo smartphone o tablet alla rete WLAN.
 
-2.  Scarichi e installi l'app smart-me dal Play Store o dall'App Store iOS.
+2.  Scarichi e installi l'app smart-me dal Play Store o dall'iOS Store.
 
 3.  Avvii l'app e crei un account oppure acceda con l'account corrispondente.
 
@@ -79,7 +79,7 @@ Valori di misura
 
     - In aggiunta con abbonamento Professional: energia reattiva (kvarh), potenza reattiva (kvarh)
 
-Tariffe 2 (tariffe virtuali configurabili lato cloud)
+Tariffe 2 (tariffe virtuali configurabili nel cloud)
 
 Interfacce 
 
@@ -115,7 +115,7 @@ Montaggio guida DIN
 
 ## Configurare ingressi e uscite
 
-Il contatore smart-me dispone di due uscite e un ingresso, che possono essere utilizzati come ingressi e uscite a impulsi oppure come contatto a potenziale zero commutabile. Trova i dettagli [qui](/schnittstellen/ein_und_ausgaenge). 
+Il contatore smart-me dispone di due uscite e di un ingresso, che possono essere utilizzati come ingressi e uscite a impulsi oppure come contatto commutabile a potenziale zero. I dettagli sono disponibili [qui](/schnittstellen/ein_und_ausgaenge). 
 
 ## Display
 
@@ -125,10 +125,10 @@ Il contatore ha un display a scorrimento. I punti descritti di seguito vengono v
 
 2.  Lettura del contatore (codice OBIS seguito dalla lettura del contatore)
 
-1-8-1: Energia attiva tariffa 1 import (prelievo)
-1-8-2: Energia attiva tariffa 2 import (prelievo)
-2-8-1: Energia attiva tariffa 1 export (fornitura)
-2-8-2: Energia attiva tariffa 2 export (fornitura)
+1-8-1: energia attiva tariffa 1 import (prelievo)
+1-8-2: energia attiva tariffa 2 import (prelievo)
+2-8-1: energia attiva tariffa 1 export (fornitura)
+2-8-2: energia attiva tariffa 2 export (fornitura)
 
 3.  Versione software
 
@@ -146,7 +146,7 @@ PhL 123 -> è stata rilevata una sequenza delle fasi errata
 
 ![Contatore trifase – Figura 2](/img/produkte-3-phasen-zaehler/02.png)
 
-Attenzione: i dati .DXF e .DWG si trovano nell'archivio ZIP nei download.
+Attenzione: i file .DXF e .DWG si trovano nell'archivio ZIP nella sezione Download.
 
 ### Schema di collegamento
 
@@ -160,19 +160,19 @@ T1: tasto per l'installazione
 
 T2: funzioni speciali
 
-Breve: premendo brevemente T2, il LED verde si accende / si spegne. Se è attivato, indica lo stato della connessione:
+Breve: premendo brevemente T2, il LED verde si accende / si spegne. Quando è attivato, indica lo stato della connessione:
 
 Verde fisso: connesso alla smart-me Cloud 
 
 Verde lampeggiante: nessuna connessione
 
-Lunga: premendo a lungo T2, si attiva la visualizzazione della lettura del contatore dell'energia reattiva (se disponibile). Nella sequenza di visualizzazione vengono aggiunti i punti lettura del contatore energia reattiva T1 e lettura del contatore energia reattiva T2. Il valore visualizzato lampeggia e può quindi essere distinto dall'energia attiva.
+Lunga: premendo a lungo T2, viene attivata la visualizzazione della lettura del contatore dell'energia reattiva (se disponibile). Nella sequenza di visualizzazione vengono aggiunti i punti lettura del contatore energia reattiva T1 e lettura del contatore energia reattiva T2. Il valore visualizzato lampeggia e può quindi essere distinto dall'energia attiva.
 
-ATTENZIONE: questa impostazione modifica solo la visualizzazione sul display, non nella smart-me Cloud (app e sito web). Se l'energia reattiva deve essere visualizzata nel cloud, occorre impostarlo nelle impostazioni generali. (Premendo T2 il LED rosso si accende; T2 deve essere tenuto premuto finché il LED rosso si spegne)
+ATTENZIONE: questa impostazione modifica solo la visualizzazione sul display, non nella smart-me Cloud (app e sito web). Se l'energia reattiva deve essere visualizzata nel cloud, occorre impostarlo nelle impostazioni generali. (Premendo T2 il LED rosso si accende; T2 deve essere tenuto premuto finché il LED rosso non si spegne)
 
-S0\_0: uscita a impulsi S0 (opzionale contatto a potenziale zero / attenzione Pmax = 550mW in modo continuo)
+S0\_0: uscita a impulsi S0 (opzionalmente contatto a potenziale zero / attenzione Pmax = 550mW in continuo)
 
-S0\_1: uscita a impulsi S0 (opzionale contatto a potenziale zero / attenzione Pmax = 550mW in modo continuo)
+S0\_1: uscita a impulsi S0 (opzionalmente contatto a potenziale zero / attenzione Pmax = 550mW in continuo)
 
 ![Contatore trifase – Figura 3](/img/produkte-3-phasen-zaehler/03.jpg)
 
@@ -180,7 +180,7 @@ S0\_1: uscita a impulsi S0 (opzionale contatto a potenziale zero / attenzione Pm
 
 I seguenti valori di misura vengono rilevati dal contatore e sono consultabili nel cloud e tramite l'API
 
-[](https://drive.google.com/open?id=1-f4I5ZWg1-PAHNpzCsQ0aBqrL9k93lH8q9AuN8toJgI "Open Spreadsheet, Messwerte (inkl. Obiscodes) 3-Phasen Zähler V1 in new window")
+[](https://drive.google.com/open?id=1-f4I5ZWg1-PAHNpzCsQ0aBqrL9k93lH8q9AuN8toJgI "Apri foglio di calcolo, valori di misura (incl. codici OBIS) contatore trifase V1 in una nuova finestra")
 
 <Embed src="https://docs.google.com/spreadsheets/d/1-f4I5ZWg1-PAHNpzCsQ0aBqrL9k93lH8q9AuN8toJgI/htmlembed" height="655px" title="Foglio di calcolo, valori di misura (incl. codici OBIS) contatore trifase V1" />
 
@@ -209,9 +209,9 @@ Documenti tecnici
 <details id="in-welchem-intervall-senden-die-zähler-daten">
 <summary>A quale intervallo i contatori inviano i dati?</summary>
 
-- Ogni 15 minuti, cioè alle xx:00:00 xx:15:00, xx:30:00 e xx:45:00. In questo modo vengono inviati i dati necessari per la curva di carico. In caso di interruzione della connessione, questi dati vengono memorizzati localmente e inviati successivamente.
+- Ogni 15 minuti, ossia alle xx:00:00 xx:15:00, xx:30:00 e xx:45:00. In questo modo vengono inviati i dati necessari per la curva di carico. In caso di interruzione della connessione, questi dati vengono memorizzati localmente e inviati successivamente.
 
-- In aggiunta è possibile effettuare una configurazione individuale:
+- Inoltre è possibile effettuare una configurazione individuale:
 
     - Con licenze Basic o Limited: max. 1x al minuto.
 

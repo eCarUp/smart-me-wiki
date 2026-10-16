@@ -12,14 +12,17 @@ Letzter Stand: 16.01.2025
 
 ## Allgemeine Informationen
 
-### Unternehmens Informationen
+<details id="unternehmens-informationen">
+<summary>Unternehmens Informationen</summary>
 
 - International tätiges Unternehmen mit ca. 50 Angestellten.
 
 - Entwicklung und Produktion einer Abrechnungslösung für ZEVs / Mieterstrom, E-Mobilität und Multienergie.
 
+</details>
 
-### Zusätzliche Dokumente
+<details id="zusaetzliche-dokumente">
+<summary>Zusätzliche Dokumente</summary>
 
 - Allgemeine Geschäftsbedingungen (AGB)
 
@@ -30,9 +33,12 @@ Letzter Stand: 16.01.2025
 
 [Link zu den Dokumenten](https://web.smart-me.com/agb-smart-me-ag/)
 
+</details>
+
 ## Datenschutz und -verarbeitung
 
-### Werden personenbezogene Daten gemäss DSG/DSGVO verarbeitet?
+<details id="werden-personenbezogene-daten-gemaess-dsg-dsgvo-verarbeitet">
+<summary>Werden personenbezogene Daten gemäss DSG/DSGVO verarbeitet?</summary>
 
 - Für den Kauf von Lizenzen über eine Kreditkarte werden die Kreditkarteninformationen über Stripe bearbeitet.
 
@@ -40,8 +46,10 @@ Letzter Stand: 16.01.2025
 
 - Supportfälle und deren Informationen werden über Freshdesk bearbeitet.
 
+</details>
 
-### Wie werden Daten gelöscht?
+<details id="wie-werden-daten-geloescht">
+<summary>Wie werden Daten gelöscht?</summary>
 
 - Kunden sind für Ihre smart-me Accounts selbst verantwortlich und können diesen jederzeit im Webportal löschen.
     Wenn ein Kunde sein Konto löscht, werden diese Daten irreversibel entfernt.
@@ -50,82 +58,129 @@ Letzter Stand: 16.01.2025
 
 - Daten, welche über Freshdesk oder Bexio verarbeitet werden, können auf Anfrage gelöscht werden.
 
+</details>
 
-### Wer hat Zugang zu den Daten?
+<details id="wer-hat-zugang-zu-den-daten">
+<summary>Wer hat Zugang zu den Daten?</summary>
 
 Der Zugang auf unsere Server sind auf interne IPs des Clusters beschränkt. Smart-me hat nur auf explizite Erlaubnis des Kunden, Zugang auf deren Kontodaten
 
+</details>
+
 ## Hosting und Infrastruktur
 
-### Wo wird die Anwendung gehostet?
+<details id="wo-wird-die-anwendung-gehostet">
+<summary>Wo wird die Anwendung gehostet?</summary>
 
 Alle smart-me Dienste werden auf Servern von Microsoft Azure Schweiz gehostet. Wir selbst betreiben keine Server.
 
-### Wie werden die Daten geschützt?
+</details>
+
+<details id="wie-werden-die-daten-geschuetzt">
+<summary>Wie werden die Daten geschützt?</summary>
 
 Die Server werden durch Massnahmen von Microsoft Azure geschützt. Zusätzlich dazu setzen wir Cloudflare als Web Application Firewall (WAF) und Lastmanagement ein.
 
-### Wie wird die Verfügbarkeit der Systeme sichergestellt?
+</details>
+
+<details id="wie-wird-die-verfuegbarkeit-der-systeme-sichergestellt">
+<summary>Wie wird die Verfügbarkeit der Systeme sichergestellt?</summary>
 
 Die Systemverfügbarkeit wird durch die Infrastruktur von Microsoft Azure gewährleistet. 
 
 [Weitere Informationen](https://learn.microsoft.com/de-de/azure/security/fundamentals/infrastructure)
 
+</details>
+
 ## Datensicherheit und Verschlüsselung
 
-### Wie werden Daten verschlüsselt?
+<details id="wie-werden-daten-verschluesselt">
+<summary>Wie werden Daten verschlüsselt?</summary>
 
 Die Anwendungsdaten sind nicht selbst verschlüsselt, jedoch die Datenbank als gesamtes, in welcher die Anwendungsdaten beinhaltet sind. 
 
 Die Kommunikation zwischen Zählern und Cloud ist mittels AES-256 verschlüsselt.
 
-### Wie werden Passwörter von smart-me Konten gehashed?
+</details>
+
+<details id="wie-werden-passwoerter-von-smart-me-konten-gehashed">
+<summary>Wie werden Passwörter von smart-me Konten gehashed?</summary>
 
 Passwörter werden mit RIPEMD-160 mit dynamischem Salt gehashed.
 
-### Unterstützen wir föderierte Identitäten?
+</details>
+
+<details id="unterstuetzen-wir-foederierte-identitaeten">
+<summary>Unterstützen wir föderierte Identitäten?</summary>
 
 Nein. Die Ausnahme bildet Zugriff über unsere API, welche neben Basic Auth auch oAuth 2.0 unterstützt.
 
-### Backups
+</details>
+
+<details id="backups">
+<summary>Backups</summary>
 
 Die Zählerdaten unterlaufen tägliche Backups durch Instaclustr. [Infos dazu](https://www.instaclustr.com/support/documentation/cassandra/cassandra-cluster-operations/cluster-data-backups/)
 
 Kundendaten, welche über Freshdesk, Bexio oder Stripe bearbeitet werden, unterliegen der Datensicherheit der jeweiligen Hersteller und dadurch auch deren Backup-Prozessen.
 
+</details>
+
 ## Sicherheitsrichtlinien und -prozesse
 
-### Verfügen wir über spezifische dokumentiere Informationssicherheitsrichtlinien?
+<details id="verfuegen-wir-ueber-spezifische-dokumentiere-informationssicherheitsrichtlinien">
+<summary>Verfügen wir über spezifische dokumentiere Informationssicherheitsrichtlinien?</summary>
 
 Nein
 
-### Haben wir dokumentiere sichere Entwicklungsrichtlinien?
+</details>
+
+<details id="haben-wir-dokumentiere-sichere-entwicklungsrichtlinien">
+<summary>Haben wir dokumentiere sichere Entwicklungsrichtlinien?</summary>
 
 Nein
 
-### Verfolgen wir einen sicheren Entwicklungsprozess?
+</details>
+
+<details id="verfolgen-wir-einen-sicheren-entwicklungsprozess">
+<summary>Verfolgen wir einen sicheren Entwicklungsprozess?</summary>
 
 Ja, jedoch sind die spezifischen Details vertraulich.
 
-### Verfügen wir über ein Informationssicherheitszertifikat?
+</details>
+
+<details id="verfuegen-wir-ueber-ein-informationssicherheitszertifikat">
+<summary>Verfügen wir über ein Informationssicherheitszertifikat?</summary>
 
 Nein, jedoch ist unsere Cloud-Infrastruktur Provider Microsoft Azure, ISO27001 zertifiziert.
 
-### Führen wir IT-Sicherheitsaudits bei unseren Anbietern durch?
+</details>
+
+<details id="fuehren-wir-it-sicherheitsaudits-bei-unseren-anbietern-durch">
+<summary>Führen wir IT-Sicherheitsaudits bei unseren Anbietern durch?</summary>
 
 Nein
 
-### Haben wir einen dokumentierten Business Continuity Plan?
+</details>
+
+<details id="haben-wir-einen-dokumentierten-business-continuity-plan">
+<summary>Haben wir einen dokumentierten Business Continuity Plan?</summary>
 
 Nein
 
-### Erlauben wir IT-Audits?
+</details>
+
+<details id="erlauben-wir-it-audits">
+<summary>Erlauben wir IT-Audits?</summary>
 
 Ja, jedoch nur mit öffentlich verfügbaren Informationen
 
+</details>
+
 ## Endpoint- und Netzwerksicherheit
 
-### Haben wir ein Konzept zur Netzwerksegmentierung implementiert?
+<details id="haben-wir-ein-konzept-zur-netzwerksegmentierung-implementiert">
+<summary>Haben wir ein Konzept zur Netzwerksegmentierung implementiert?</summary>
 
 Da unsere Applikation nicht lokal gehostet wird, ist unsere Netzwerkarchitektur unabhängig der Serverarchitektur. Die lokale Segmentierung sieht wie folgt aus:
 
@@ -135,8 +190,10 @@ Da unsere Applikation nicht lokal gehostet wird, ist unsere Netzwerkarchitektur 
 
 - Büro-Netzwerk
 
+</details>
 
-### Sensibilisieren wir Mitarbeitende für Cybersicherheit?
+<details id="sensibilisieren-wir-mitarbeitende-fuer-cybersicherheit">
+<summary>Sensibilisieren wir Mitarbeitende für Cybersicherheit?</summary>
 
 Ja, Cybersicherheitsschulungen werden durchgeführt:
 
@@ -144,20 +201,31 @@ Ja, Cybersicherheitsschulungen werden durchgeführt:
 
 - Zusätzliche Schulungen: Je nach aktuellen Ereignissen oder aufkommenden Bedrohungen.
 
+</details>
 
-### Waren wir in den letzten 12 Monaten Opfer eines Sicherheitsvorfalls oder einer Datenpanne?
+<details id="waren-wir-in-den-letzten-12-monaten-opfer-eines-sicherheitsvorfalls-oder-einer-datenpanne">
+<summary>Waren wir in den letzten 12 Monaten Opfer eines Sicherheitsvorfalls oder einer Datenpanne?</summary>
 
 Nein
 
-### Verfügen wir über dedizierte Cybersicherheitsressourcen?
+</details>
+
+<details id="verfuegen-wir-ueber-dedizierte-cybersicherheitsressourcen">
+<summary>Verfügen wir über dedizierte Cybersicherheitsressourcen?</summary>
 
 Ja, wir haben interne Cybersicherheitsressourcen.
 
-### Halten wir Ihre Software und Systeme auf dem neuesten Stand?
+</details>
+
+<details id="halten-wir-ihre-software-und-systeme-auf-dem-neuesten-stand">
+<summary>Halten wir Ihre Software und Systeme auf dem neuesten Stand?</summary>
 
 Ja, alle Systeme und Geräte werden regelmäßig auf die neuesten stabilen Versionen aktualisiert.
 
-### Haben wir eine AV-Schutzlösung installiert?
+</details>
+
+<details id="haben-wir-eine-av-schutzloesung-installiert">
+<summary>Haben wir eine AV-Schutzlösung installiert?</summary>
 
 Ja, alle Geräte sind ausgestattet mit:
 
@@ -167,7 +235,11 @@ Ja, alle Geräte sind ausgestattet mit:
 
 - Windows Defender als Antivirus-Schutz (AV)
 
+</details>
 
-### Verfügen wir über eine SIEM-Lösung?
+<details id="verfuegen-wir-ueber-eine-siem-loesung">
+<summary>Verfügen wir über eine SIEM-Lösung?</summary>
 
 Nein
+
+</details>

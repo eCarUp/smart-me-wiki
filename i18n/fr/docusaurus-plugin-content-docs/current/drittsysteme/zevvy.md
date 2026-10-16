@@ -1,13 +1,13 @@
 ---
 title: 'zevvy'
 slug: '/drittsysteme/zevvy'
-description: 'zevvy aide les immeubles locatifs grâce à un logiciel en ligne permettant de décompter simplement des coûts énergétiques et des charges accessoires complexes.'
+description: 'zevvy aide les immeubles locatifs à décompter facilement des coûts d''énergie et des charges accessoires complexes grâce à un logiciel en ligne.'
 sidebar_label: 'zevvy'
 ---
 <div className="row">
 <div className="col col--7">
 
-zevvy aide les immeubles locatifs grâce à un logiciel en ligne permettant de décompter simplement des coûts énergétiques et des charges accessoires complexes. Les propriétaires ou leur gérance peuvent ainsi établir en quelques clics des décomptes pour l'électricité solaire (RCP, regroupement dans le cadre de la consommation propre), les bornes de recharge, le chauffage, l'eau chaude sanitaire, l'eau froide et d'autres fluides. D'autres coûts, par exemple pour l'entretien du jardin, la conciergerie, les services ou la consommation des parties communes, peuvent également être établis facilement et répartis entre les habitants. Selon le modèle VEWA, les coûts du logiciel zevvy peuvent être refacturés aux locataires au titre de charges accessoires liées à l'énergie.
+zevvy aide les immeubles locatifs à décompter facilement des coûts d'énergie et des charges accessoires complexes grâce à un logiciel en ligne. Les propriétaires ou leur gérance peuvent ainsi établir en quelques clics des décomptes pour l'électricité solaire (RCP, regroupement dans le cadre de la consommation propre), les bornes de recharge, le chauffage, l'eau chaude sanitaire, l'eau froide et d'autres fluides. D'autres coûts, comme les travaux de jardinage, le concierge, les services ou les consommations communes, peuvent aussi être facilement établis et répartis entre les occupants. Selon le VEWA, les coûts du logiciel zevvy peuvent être refacturés aux locataires en tant que charges accessoires d'énergie.
 
 </div>
 <div className="col col--5 text--center">
@@ -17,7 +17,7 @@ zevvy aide les immeubles locatifs grâce à un logiciel en ligne permettant de d
 </div>
 </div>
 
-Dans la vidéo, vous découvrez comment intégrer les compteurs smart-me dans zevvy et utiliser leurs données pour le décompte des charges accessoires.
+Dans la vidéo, vous découvrez comment les compteurs smart-me sont intégrés dans zevvy et comment leurs données peuvent être utilisées pour le décompte des charges accessoires.
 
 <Video src="oMVCWsbPQNg" title="Vidéo YouTube, démo en direct de zevvy" />
 

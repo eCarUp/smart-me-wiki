@@ -10,21 +10,21 @@ Pico can be installed in various ways. Here you will find the most common varian
 
 ## General installation notes
 
-- Every Pico has DC fault detection according to IEC62955. 
+- Every Pico features DC fault current detection according to IEC62955. 
 
-- Pico charging stations from year of manufacture 2024 or from serial number 7002702 have an integrated, compliant RCD Typ-A according to IEC60947\-2.
+- Pico charging stations manufactured in 2024 or later, or from serial number 7002702, have an integrated compliant RCD Typ-A according to IEC60947\-2.
     \- from 2024 or serial number 7002702, a series RCD Typ-A is no longer required
-    \- before 2024 or serial number 7002702, a series RCD Typ-A upstream of each charging station is required for NIN compliance.
+    \- before 2024 or serial number 7002702, a series RCD Typ-A is required upstream of each charging station for NIN compliance.
 
-- The Pico charging stations can handle short-circuit currents of 3kA on their own without any problem.
-    If several charging stations are connected to one outgoing circuit, a circuit breaker must be used on the outgoing circuit.
+- The Pico charging stations can handle short-circuit currents of 3kA on their own without any problems.
+    If several charging stations are connected to one outgoing circuit, a miniature circuit breaker must be used on the outgoing circuit.
     The overcurrent protection device must be rated for the short-circuit capacity of the outgoing circuit.
-    Variants with at least 6kA are recommended in all cases.
+    Variants with at least 6kA are recommended in every case.
 
 - The internal overcurrent protection device of the Pico charging station meets the requirements of IEC 61851-1.
 
 - Suitable for:
-    Flat ribbon cable installations
+    Flat cable installations
     Busbar installations
     Looped-through installations
     Stand installations
@@ -34,9 +34,9 @@ Pico can be installed in various ways. Here you will find the most common varian
 
 ## Pico charging station from year of manufacture 2024 and serial number 7002702
 
-All Pico charging stations from serial number 7002702 have an internal RCD Typ-A according to IEC 60947\-2 in combination with DC fault protection detection according to IEC62955.
+All Pico charging stations from serial number 7002702 have an internal RCD Typ-A according to IEC 60947\-2 in combination with DC fault current detection according to IEC62955.
 
-### Pico installation on flat ribbon cable or with busbar systems
+### Pico installation on flat cable or with busbar systems
 
 ![Installation planning – Figure 2](/img/produkte-pico-ladestation-installationsplanung/02_EN.png)
 
@@ -44,11 +44,11 @@ Note:
 
 The short-circuit current only needs to be checked at the Pico base plate, not at the output / Type 2 of the Pico device.
 
-### Pico internally looped-through installation or with Pico stand Basic (212070-PL)
+### Pico internally looped-through installation or with Pico Stand Basic (212070-PL)
 
 ![Installation planning – Figure 3](/img/produkte-pico-ladestation-installationsplanung/03_EN.png)
 
-### Pico installation with Pico stand with service cover (232070-PL)
+### Pico installation with Pico Stand with service cover (232070-PL)
 
 ![Installation planning – Figure 4](/img/produkte-pico-ladestation-installationsplanung/04_EN.png)
 
@@ -60,7 +60,7 @@ The short-circuit current only needs to be checked at the Pico base plate, not a
 
 - The Pico has overvoltage category 3 (4kV)
 
-- For installations requiring an SPD Type 2 lightning protection device, stands with service flaps must be planned. The lightning protection device can be installed directly inside them.
+- For installations requiring an SPD Type 2 lightning protection device, stands with service flaps must be provided. The lightning protection device can be installed directly inside them.
 
 - The effective range of an SPD Type-2 is a radius of approx. 10m.
 
@@ -72,7 +72,7 @@ For buildings without external lightning protection: (e.g. an air-termination sy
 For devices of overvoltage category III, protection by an SPD Type 2 is required so that the impulse withstand voltage of the devices is not exceeded.
 
 For buildings with external lightning protection: (e.g. an air-termination system on the roof)
-Here the installation requires SPD Type-1 lightning protection and Type-2 lightning protection; otherwise there is a risk that the SPD Type-2 will be destroyed if lightning strikes the air-termination system.
+Here the installation requires SPD Type-1 and Type-2 lightning protection, otherwise there is a risk that the SPD Type-2 will be destroyed if lightning strikes the air-termination system.
 
 ## Downloads
 
@@ -83,18 +83,18 @@ Here the installation requires SPD Type-1 lightning protection and Type-2 lightn
 <details id="Pico-Ladestation-vor-BJ-2024-und-Seriennummer-7002702">
 <summary>Pico charging station before year of manufacture 2024 and serial number 7002702</summary>
 
-- Pico charging stations before year of manufacture 2024 or serial number 7002702 have integrated DC fault detection according to IEC62955.
+- Pico charging stations manufactured before 2024 or with serial number below 7002702 have integrated DC fault current detection according to IEC62955.
 
-- Pico charging stations before year of manufacture 2024 or serial number 7002702 have functional but not 100% compliant residual current detection for AC currents Type-A (30mA)
+- Pico charging stations manufactured before 2024 or with serial number below 7002702 have functional but not 100% compliant residual current detection for AC currents Type-A (30mA)
 
 </details>
 
 <details id="Pico-Installation-Flachbandkabel">
-<summary>Flat ribbon cable installation</summary>
+<summary>Flat cable installation</summary>
 
-- RCD Typ-A 40A without circuit breaker in series with each Pico charging station
+- RCD Typ-A 40A without MCB in series with each Pico charging station
 
-- A circuit breaker on the e-mobility outgoing circuit with a short-circuit-proof installation method (blue box) is sufficient for selectivity. (Extended documentation)
+- An overcurrent protection switch on the e-mobility outgoing circuit with a short-circuit-proof installation method (blue box) is sufficient for selectivity. (Extended documentation)
 
 ![Installation planning – Figure 5](/img/produkte-pico-ladestation-installationsplanung/05.png)
 
@@ -104,7 +104,7 @@ Here the installation requires SPD Type-1 lightning protection and Type-2 lightn
 <summary>Overcurrent protection for charging station group protection and supply line up to 80A per phase</summary>
 
 The overcurrent protection on the outgoing circuit for the entire charging group should have characteristic C.
-The usual overcurrent protection devices with characteristic B are not suitable for charging station installations and tend to trip too early.
+The common overcurrent protection devices with characteristic B are not suitable for charging station installations and tend to trip too early.
 
 For a 63A e-mobility outgoing circuit, for example, a 63A overcurrent protection device, type C with 6kA or 10kA short-circuit capacity would be recommended.
 
@@ -113,25 +113,25 @@ For a 63A e-mobility outgoing circuit, for example, a 63A overcurrent protection
 <details id="Lastschutz-für-Pico-Ladestationen-mit-Zuleitung-mehr-als-80A-pro-Phase">
 <summary>Overcurrent protection for Pico charging stations with supply line of more than 80A per phase</summary>
 
-When installing a Pico charging station on a high-energy busbar system or with conductor cross-sections >35mm2 and phase currents > 80A, overcurrent protection per charging station is recommended on the installation side.
+When installing a Pico charging station on a high-energy busbar system or with conductor cross-sections >35mm2 and phase currents > 80A, an overcurrent protection device per charging station is recommended on the installation side.
 The internal overcurrent protection of the individual Pico is limited to 3kA. With high-energy supply lines, this capacity may be insufficient.
 Alternatively, the short-circuit capacity of the connection can of course be checked by measurement; if it is below 3kA, additional overcurrent protection is not necessary.
 
-If, however, additional overcurrent protection is required, an overcurrent protection model with 40A tripping current, tripping characteristic C and a short-circuit capacity of 6kA or 10kA is recommended.
+If, however, additional overcurrent protection is required, an overcurrent protection model with 40A tripping current, tripping characteristic C and short-circuit capacity of 6kA or 10kA is recommended.
 
 </details>
 
 <details id="Lastschutz-für-Pico-Ladestationen-mit-Zuleitung-mehr-als-80A-pro-Phase">
 <summary>Overcurrent protection for Pico charging stations with supply line of more than 80A per phase</summary>
 
-When installing a Pico charging station on a high-energy busbar system or with conductor cross-sections >35mm2 and phase currents > 80A, overcurrent protection per charging station is recommended on the installation side.
+When installing a Pico charging station on a high-energy busbar system or with conductor cross-sections >35mm2 and phase currents > 80A, an overcurrent protection device per charging station is recommended on the installation side.
 The internal overcurrent protection of the individual Pico is limited to 3kA. With high-energy supply lines, this capacity may be insufficient.
 Alternatively, the short-circuit capacity of the connection can of course be checked by measurement; if it is below 3kA, additional overcurrent protection is not necessary.
 
-If, however, additional overcurrent protection is required, an overcurrent protection model with 40A tripping current, tripping characteristic C and a short-circuit capacity of 6kA or 10kA is recommended.
+If, however, additional overcurrent protection is required, an overcurrent protection model with 40A tripping current, tripping characteristic C and short-circuit capacity of 6kA or 10kA is recommended.
 
 </details>
 
 ## Extended documentation and country-specific notes
 
-[Switzerland: Statement by Electrosuisse - Installation of charging stations for EVs, multiple charging stations on a common supply line](https://drive.google.com/file/d/1aquBK7Gip6DJxagCgB-_kwqEuozjCh07/view)
+[Switzerland: Electrosuisse statement - Installation of charging stations for EV, multiple charging stations on a shared supply line](https://drive.google.com/file/d/1aquBK7Gip6DJxagCgB-_kwqEuozjCh07/view)

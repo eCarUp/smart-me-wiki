@@ -9,28 +9,31 @@ sidebar_label: 'Soleco'
 
 With its product Soleco Optimizer, Soleco AG meets its customers' requirements regarding self-consumption and energy cost optimization, supported by the metering technology from smart-me.
 
-Applications: single-family homes, terraced houses and multi-family buildings
+Applications: single-family homes, terraced houses and apartment buildings
 
-The benefits:
+The advantages:
 
 Reduce energy costs, protect the environment, enjoy comfort. 
 
-Always enough domestic hot water, the house at a comfortable temperature and the
+Always enough domestic hot water, the house at a pleasant temperature and the
 electric car charged on time. Tailored to your personal needs.
-The Soleco Optimizer takes care of these tasks for you in the background – reliably, cost-effectively and with state-of-the-art technology.
-On the user interface, interested users can view various up-to-date graphical evaluations at any time.
-The consumption of electricity from the grid is holistically optimized using the weather forecast with regard to electricity tariffs and photovoltaic yield in interaction with the consumers. This new approach delivers significant cost savings without any loss of comfort.
+The Soleco Optimizer handles these tasks for you in the background, reliably, cost-effectively and with state-of-the-art technology.
+On the user interface, interested users can view various up-to-date graphical analyses at any time.
+The consumption of electricity from the grid is optimized holistically using the weather forecast with regard to electricity tariffs and electricity yield from the photovoltaic system in interaction with the consumers. This new approach delivers significant cost savings without any loss of comfort.
 
-Contact:
+### Contact
 
-Soleco AG
+<Kacheln min="14rem">
+<Kachel titel="Soleco AG">
+
 Alain Aerni
-Hubrainweg 18
-8124 Maur
 
-Tel.: +41 79 223 39 89
-Email: [info@soleco.ch](mailto:info@soleco.ch) 
-Website: [www.soleco.ch](http://www.soleco.ch)  
+Hubrainweg 18, 8124 Maur
+
++41 79 223 39 89 · [info@soleco.ch](mailto:info@soleco.ch) · [www.soleco.ch](http://www.soleco.ch)
+
+</Kachel>
+</Kacheln>
 
 </div>
 <div className="col col--5 text--center">

@@ -3,60 +3,20 @@ title: 'Products'
 slug: '/produkte'
 sidebar_label: 'Products'
 ---
-<div className="row">
-<div className="col col--6 text--center">
+<Kacheln min="13rem">
 
-[![Products – Figure 1](/img/produkte/01.png)](/produkte/telstar)
-Telstar 80A
+<Kachel bild="/img/produkte/01.png" bildtext="Telstar 80A" titel="Telstar 80A" href="/produkte/telstar" bildhoehe="10rem" mittig />
 
-</div>
-<div className="col col--6 text--center">
+<Kachel bild="/img/produkte/02.jpg" bildtext="Single Phase Meter" titel="Single Phase Meter" href="/produkte/1-phasen-zaehler" bildhoehe="10rem" mittig />
 
-[![Products – Figure 2](/img/produkte/02.jpg)](/produkte/1-phasen-zaehler)
-Single Phase Meter
+<Kachel bild="/img/produkte/03.png" bildtext="Telstar CT" titel="Telstar CT" href="/produkte/Telstar-CT" bildhoehe="10rem" mittig />
 
-</div>
-</div>
+<Kachel bild="/img/produkte/04.png" bildtext="Pico charging station" titel="Pico charging station" href="/produkte/pico-ladestation" bildhoehe="10rem" mittig />
 
-<div className="row">
-<div className="col col--6 text--center">
+<Kachel bild="/img/produkte/05.jpg" bildtext="M-Bus Gateway" titel="M-Bus Gateway" href="/produkte/m-bus-gateway" bildhoehe="10rem" mittig />
 
-[![Products – Figure 3](/img/produkte/03.png)](/produkte/Telstar-CT)
-Telstar CT
+<Kachel bild="/img/produkte/06.png" bildtext="Nimbus 100A" titel="Nimbus 100A" href="/produkte/nimbus" bildhoehe="10rem" mittig />
 
-</div>
-<div className="col col--6 text--center">
+</Kacheln>
 
-[![Products – Figure 4](/img/produkte/04.png)](/produkte/pico-ladestation)
-Pico charging station
-
-</div>
-</div>
-
-<div className="row">
-<div className="col col--6 text--center">
-
-[![Products – Figure 5](/img/produkte/05.jpg)](/produkte/m-bus-gateway)
-M-Bus Gateway
-
-</div>
-<div className="col col--6 text--center">
-
-[![Products – Figure 6](/img/produkte/06.png)](/produkte/nimbus)
-Nimbus 100A
-
-</div>
-</div>
-
-<div className="row">
-<div className="col col--6 text--center">
-
-[Discontinued products](/produkte/eingestellte-produkte)
-
-</div>
-<div className="col col--6 text--center">
-
-
-
-</div>
-</div>
+Devices that are no longer sold can be found under [Discontinued products](/produkte/eingestellte-produkte). Support and cloud support continue there.

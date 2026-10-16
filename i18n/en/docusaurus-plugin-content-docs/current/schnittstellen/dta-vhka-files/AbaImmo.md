@@ -8,11 +8,11 @@ sidebar_label: 'AbaImmo'
 
 ## Key notes on billing with AbaImmo and smart-me
 
-- Billing and the allocation of costs according to VEWA take place in the smart\-me system.
+- The billing and allocation of costs according to VEWA is done in the smart\-me system.
 
 - Every billing unit in AbaImmo that is to be queried must exist congruently in smart-me
 
-- For the billing to be correct, the tenancies and vacancies must be recorded in all units for every billing period!
+- For the billing to be correct, the tenancies and vacancies must be recorded in all units for each billing period!
 
 - The tenant list from AbaImmo is automatically matched with smart-me.
 
@@ -23,7 +23,7 @@ sidebar_label: 'AbaImmo'
 
 Currently supported:
 
-- Transfer of kWh, m3, per mille or price value of a single tariff for heat, cooling, domestic hot water and cold water and the single electricity tariff
+- Transfer of the kWh, m3, per mille or price value of a single tariff for heating, cooling, domestic hot water and cold water, and the uniform electricity tariff
 
 - Transfer of per mille or price values as a sum of tariffs, e.g. electricity
 
@@ -39,11 +39,11 @@ Not supported:
 
 The easiest way to arrange the data transfer in a ZEV (association for own consumption) is as follows:
 
-- Electricity is transferred as a CHF amount; for this, the prices for the individual tariffs must be entered in smart-me.
+- Electricity is transferred as a CHF value; for this, the prices for the individual tariffs must be entered in smart-me.
 
-- Heat, cooling, domestic hot water and cold water are most easily transferred as a per mille value.
+- Heating, cooling, domestic hot water and cold water are most easily transferred as a per mille value.
 
-- The property's electricity costs for heat pumps and boilers are not transferred. The costs can be entered in AbaImmo in advance as a booking.
+- The property's electricity costs for heat pumps and boilers are not transferred. The costs can be entered in advance as a booking in AbaImmo.
 
 
 ### Configuration in AbaImmo and exchange procedure
@@ -52,7 +52,7 @@ The easiest way to arrange the data transfer in a ZEV (association for own consu
 
 2.  Create a billing period for electricity and/or heating and ancillary costs.
 
-3.  Under Y471, navigate to "Meters" ("Zähler") and create meter queries matching the property.
+3.  Under Y471, navigate to "Meters" ("Zähler") and create meter queries to match the property.
 
     e.g.: 
 
@@ -64,7 +64,7 @@ The easiest way to arrange the data transfer in a ZEV (association for own consu
 
 4.  Navigate to the Y621 application settings 
 
-5.  In the "HK/NK" tab, create a meter reading company named "smart-me"
+5.  Under the "HK/NK" tab, create a meter reading company named "smart-me"
 
 6.  Navigate to Y11 property master data
 
@@ -78,7 +78,7 @@ The easiest way to arrange the data transfer in a ZEV (association for own consu
 
 10.  Now select the desired property and the storage location for the VHKA file.
 
-11.  Now export the file so that you can then upload it to smart-me.
+11.  Now export the file so you can then upload it to smart-me.
 
 ![AbaImmo – Figure 2](/img/schnittstellen-dta-vhka-files-abaimmo/02.png)
 
@@ -90,17 +90,17 @@ The easiest way to arrange the data transfer in a ZEV (association for own consu
 
 12\. In smart-me billing, navigate to "Configuration" ("Konfiguration") and check whether VEWA is activated or inactive.
 
-\--> if it is activated, you must check whether a billing period identical to the query file from AbaImmo exists; if not, create a corresponding one.
+\--> If it is activated, check whether a billing period matching the query file from AbaImmo exists; if not, create a corresponding one.
 
 13\. Now navigate to "Invoices" ("Rechnungen"), select the property and click "Export" ("exportieren") on the right
 
-14\. Select the export type "AbaImmo" and configure the information according to your selection. Note that electricity is only available from V2025 onwards.
+14\. Select the export type "AbaImmo" and configure the information according to your selection. Note that electricity is only available from V2025.
 
 15\. Now select the file to upload and click "Export" ("exportieren"). Once the calculation is complete, the file is ready for download.
 
 16. Download the completed file to your computer using "Download" ("Herunterladen").
 
-17\. Now upload the downloaded file in AbaImmo under Y2312 Process interface (Schnittstelle verarbeiten) (Import).
+17\. Now upload the downloaded file in AbaImmo under Y2312 Process interface (Schnittstelle verarbeiten) (import).
 
 18\. View the uploaded data under Y2311. (Select the property number)
 
@@ -114,16 +114,16 @@ For the file to be read correctly, the respective Abacus ObjectID must be stored
 
 2.  Find the ObjectID (4) in the file for each of the apartments.
 
-3.  Enter the ObjectID (4) for the matching residential unit in smart-me Billing under External keys (Externe Schlüssel).
+3.  Enter the ObjectID (4) for the corresponding residential unit in smart-me Billing under External keys (Externe Schlüssel).
 
 
 ![AbaImmo – Figure 7](/img/schnittstellen-dta-vhka-files-abaimmo/07.png)
 
 ![AbaImmo – Figure 8](/img/schnittstellen-dta-vhka-files-abaimmo/08.png)
 
-### Linking the ObjectID with billing units
+### Linking ObjectIDs to billing units
 
-An ObjectID from the file must be available for every billing unit in smart-me. The AbaImmo ObjectID must now be linked to the apartment via the external keys.
+For every billing unit in smart-me, an ObjectID from the file must be available. The AbaImmo ObjectID must now be linked to the apartment via the external keys.
 
 According to the example above, the apartment 303-2.2 in smart-me is now linked to the 4.5-room apartment with the ID "1101" in the 4th position.
 
@@ -131,11 +131,11 @@ According to the example above, the apartment 303-2.2 in smart-me is now linked 
 
 ### Making cost centre bookings in AbaImmo
 
-If preliminary bookings to the cost centres are required in AbaImmo, these can be taken from the summary CSV of each invoice created.
+If prior bookings to the cost centres are required in AbaImmo, they can be taken from the summary CSV of each invoice created.
 
 This is usually the case for electricity, which is only transferred as a single item. For bookings in this case, the solar electricity and the grid electricity must be booked. Individual shares can be taken from the CSV to distribute the revenue.
 
-This will often be necessary when allocating solar electricity, as this information originates in the smart-me system.
+This will often be necessary when allocating solar electricity, as the source of this information lies in the smart-me system.
 
 For the other cost centres, there are usually external invoices that can be booked.
 
@@ -143,9 +143,9 @@ For the other cost centres, there are usually external invoices that can be book
 
 2.  Select the property
 
-3.  Select the billing period and create an invoice
+3.  Select the invoice period and create an invoice
 
-4.  Once the invoice for the matching period has been created, open the summary CSV
+4.  Once the invoice for the corresponding period has been created, open the summary CSV (Zusammenfassung CSV)
 
 
 ![AbaImmo – Figure 10](/img/schnittstellen-dta-vhka-files-abaimmo/10.png)
@@ -154,4 +154,4 @@ For the other cost centres, there are usually external invoices that can be book
 
 It contains the kWh and m3 sold and the price per tariff, per billing unit and in total.
 
-With this total value of the respective tariff, a booking can be made in AbaImmo and then distributed accordingly with the DTA-VHKA file using per mille values.
+With this total value of the respective tariff, a booking can be made in AbaImmo and then distributed accordingly with per mille values via the DTA-VHKA file.

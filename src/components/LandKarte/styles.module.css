@@ -1,40 +1,62 @@
 /*
- * Bewusst ohne Infimas `card`-Klasse: die setzt `flex-direction: column` und
- * gewinnt bei gleicher Spezifität je nach Reihenfolge der Stylesheets. Die
- * paar Zeilen Rahmen und Ecken sind billiger als dieser Kampf.
+ * Die Länderwahl ist der Inhalt der Startseite, nicht ein Kasten darüber.
+ * Deshalb grosszügig, zentriert und ohne Rahmen – der Rahmen gehört zu den
+ * Antworten, nicht zur Frage.
  */
-.karte {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.75rem 1.5rem;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 2rem;
-  padding: 1rem 1.25rem;
-  border: 1px solid var(--ifm-color-emphasis-300);
-  border-radius: var(--ifm-card-border-radius, 0.4rem);
-  background: var(--ifm-color-emphasis-100);
-}
-
-/* Wächst mit, bricht aber unter ~20rem auf eine eigene Zeile um. */
-.text {
-  flex: 1 1 20rem;
-  min-width: 0;
+.wahl {
+  margin: 0 0 3rem;
+  text-align: center;
 }
 
 .titel {
-  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 1.75rem;
 }
 
 .erklaerung {
-  margin: 0.25rem 0 0;
+  max-width: 42rem;
+  margin: 0 auto 1.75rem;
   color: var(--ifm-color-emphasis-700);
-  font-size: 0.9rem;
-  line-height: 1.4;
 }
 
 .knoepfe {
+  display: grid;
+  gap: 1rem;
+  /* So viele nebeneinander, wie bei 12rem Mindestbreite Platz haben – auf dem
+     Telefon also untereinander, ohne feste Umbruchpunkte. */
+  grid-template-columns: repeat(auto-fit, minmax(min(12rem, 100%), 1fr));
+}
+
+.knopf {
   display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
+  min-height: 5rem;
+  padding: 1rem 1.25rem;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: var(--ifm-card-border-radius, 0.4rem);
+  background: var(--ifm-background-surface-color);
+  color: var(--ifm-heading-color);
+  font-size: 1.15rem;
+  font-weight: var(--sm-fw-bold);
+  text-decoration: none;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.knopf:hover {
+  border-color: var(--ifm-color-primary);
+  box-shadow: var(--ifm-global-shadow-lw);
+  color: var(--ifm-heading-color);
+  text-decoration: none;
+}
+
+/* Die beim letzten Besuch getroffene Wahl. */
+.gewaehlt {
+  border-color: var(--ifm-color-primary);
+  background: var(--ifm-color-primary);
+  color: var(--ifm-background-surface-color);
+}
+
+.gewaehlt:hover {
+  color: var(--ifm-background-surface-color);
 }

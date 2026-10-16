@@ -1,8 +1,8 @@
 ---
-title: 'Dérangements de la passerelle M-Bus'
+title: 'Dysfonctionnements de la passerelle M-Bus'
 slug: '/stoerungsbehebung/mbus-gateway-stoerungen'
 description: 'Cette page traite des erreurs les plus fréquentes concernant la passerelle M-Bus'
-sidebar_label: 'Dérangements de la passerelle M-Bus'
+sidebar_label: 'Dysfonctionnements de la passerelle M-Bus'
 ---
 Cette page traite des erreurs les plus fréquentes concernant la passerelle M-Bus
 
@@ -10,11 +10,11 @@ Cette page traite des erreurs les plus fréquentes concernant la passerelle M-Bu
 
 De nombreux compteurs M-Bus sont alimentés en courant par la passerelle. Notre passerelle prend en charge 50 charges standard. 
 
-- Lancez encore 1 à 2 recherches. Il se peut que le compteur ne réponde pas toujours lors de la première recherche.
+- Lancez encore 1 à 2 recherches. Il se peut que le compteur ne se manifeste pas toujours lors de la première recherche.
 
 - Vérifiez que la somme des charges ne dépasse pas 50.
 
-- Des lignes trop longues ou des compteurs trop fins entraînent des pertes sur les lignes.
+- Des câbles trop longs ou de section trop faible entraînent des pertes sur les lignes.
 
 - Tous les compteurs M-Bus ne sont pas compatibles avec notre passerelle. Vous trouverez la liste des compteurs compatibles sur la [page produit de la passerelle M-Bus](/produkte/m-bus-gateway)
 
@@ -23,13 +23,13 @@ De nombreux compteurs M-Bus sont alimentés en courant par la passerelle. Notre 
 
 Raison : numérotation des compteurs combinés
 
-La passerelle M-Bus ne reconnaît à chaque fois qu'un seul compteur à l'aide de l'adresse secondaire, qui figure généralement aussi sur le procès-verbal de réception.
+La passerelle M-Bus ne reconnaît à chaque fois qu'un seul compteur à l'aide de l'adresse secondaire, qui figure en règle générale aussi sur le procès-verbal de réception.
 
 Les compteurs combinés sont ensuite affichés séparément sur le portail. Pour cette application, smart-me utilise sa propre logique de numérotation.
 
-Tous les compteurs non pertinents pour le décompte peuvent être [désactivés](/konfiguration/inbetriebnahme/zaehler-loeschen) afin d'économiser des frais de licence. La suppression n'est pas utile, car le compteur réapparaît sans cesse.
+Tous les compteurs non pertinents pour le décompte peuvent être [désactivés](/konfiguration/inbetriebnahme/zaehler-loeschen) afin d'économiser des frais de licence. La suppression n'est pas une solution, car le compteur réapparaît sans cesse.
 
-Si un compteur contient plus d'un compteur, ceux-ci sont numérotés comme suit :
+Si un compteur contient plus de 1 compteur, ceux-ci sont numérotés comme suit :
 
 - Compteur principal = adresse secondaire figurant dans la liste de la passerelle M-Bus (p. ex. 71440145)
 
@@ -37,15 +37,15 @@ Si un compteur contient plus d'un compteur, ceux-ci sont numérotés comme suit 
 
 - Sous-compteurs = ils contiennent les quatre derniers chiffres du compteur principal (p. ex. 0145) et un numéro d'énumération à quatre chiffres à la fin (p. ex. 01450001)
 
-![Dérangements de la passerelle M-Bus – Figure 1](/img/stoerungsbehebung-mbus-gateway-stoerungen/01.png)
+![Dysfonctionnements de la passerelle M-Bus – Figure 1](/img/stoerungsbehebung-mbus-gateway-stoerungen/01.png)
 
-![Dérangements de la passerelle M-Bus – Figure 2](/img/stoerungsbehebung-mbus-gateway-stoerungen/02.png)
+![Dysfonctionnements de la passerelle M-Bus – Figure 2](/img/stoerungsbehebung-mbus-gateway-stoerungen/02.png)
 
-## La passerelle trouve plus de compteurs que ceux installés (en cours d'exploitation)
+## La passerelle trouve plus de compteurs que ceux installés (pendant l'exploitation)
 
 Une connexion instable peut entraîner une transmission erronée du numéro de série. 
 
-- -   Solution 1 : ces compteurs peuvent être désactivés, ce qui évite qu'ils consomment une licence.
+- -   Solution 1 : ces compteurs peuvent être désactivés, ce qui les empêche de consommer une licence.
 
     - Solution 2 : empêcher la détection de nouveaux appareils
 
@@ -71,27 +71,27 @@ Quel est l'effet de cette option ?
 
 À quoi faut-il faire attention ?
 
-- Si de nouveaux appareils sont ajoutés, cette option doit être désactivée avant la recherche.
+- Si de nouveaux appareils sont ajoutés, cette option doit être de nouveau désactivée avant la recherche.
 
 
 Quand cette option est-elle recommandée ?
 
 - Lorsque des appareils M-Bus qui n'existent pas du tout apparaissent régulièrement dans le portail.
 
-- Par mesure préventive :-)
+- À titre préventif :-)
 
 
 Dans quels cas cela peut-il se produire ?
 
-- En cas d'erreurs dans la transmission des données. Cela se produit plus souvent lorsque le câble M-Bus est trop long et que la qualité de la transmission des données s'en trouve réduite, ou lorsque le câble est mal blindé ou exposé à des perturbations externes.
+- En cas d'erreurs de transmission des données. Cela se produit plus souvent lorsque le câble M-Bus est trop long et que la qualité de la transmission des données diminue de ce fait, ou lorsque le câble est insuffisamment blindé ou exposé à des perturbations externes.
 
 
 Explication technique
 
-- Le protocole M-Bus standardisé ne dispose que d'1 byte pour la somme de contrôle. La somme de contrôle sert à détecter certaines erreurs dans la transmission des données. Malheureusement, 1 byte, c'est peu, et cela peut régulièrement conduire à ce qu'un paquet de données erroné soit considéré comme correct et valide. Dans certaines installations utilisant des passerelles M-Bus, il arrive donc régulièrement que des paquets corrompus soient classés comme corrects et valides, puis détectés et ajoutés comme nouvel appareil M-Bus dans notre cloud. Le compte passe alors de Professional à Basic, car la couverture des licences n'est plus assurée.
+- Le protocole M-Bus standardisé ne dispose que de 1 byte pour la somme de contrôle. La somme de contrôle sert à détecter certaines erreurs dans la transmission des données. Malheureusement, 1 byte, c'est peu, et il peut arriver régulièrement qu'un paquet de données erroné soit considéré comme correct et valide. Dans certaines installations utilisant des passerelles M-Bus, il arrive ainsi régulièrement que des paquets corrompus soient classés comme corrects et valides, puis détectés et ajoutés comme nouvel appareil M-Bus dans notre cloud. Le compte passe alors de Professional à Basic, car la couverture des licences n'est plus assurée.
 
 
-![Dérangements de la passerelle M-Bus – Figure 3](/img/stoerungsbehebung-mbus-gateway-stoerungen/03.png)
+![Dysfonctionnements de la passerelle M-Bus – Figure 3](/img/stoerungsbehebung-mbus-gateway-stoerungen/03.png)
 
 ## Le compteur M-Bus est hors ligne
 
@@ -99,14 +99,14 @@ Explication technique
 
     - Les compteurs ont besoin d'environ 10 secondes pour répondre. Si l'intervalle de lecture est réglé trop court, ils n'en ont pas la possibilité. 
 
-        - Solution : l'intervalle de lecture peut être augmenté sur la passerelle M-Bus. 10 secondes par appareil sont recommandées.
+        - Solution : l'intervalle de lecture peut être augmenté sur la passerelle M-Bus. Il est recommandé de prévoir 10 secondes par appareil.
 
 
 
 
 - Les compteurs perdent toujours la connexion à la même heure de la journée (heure et minute). 
 
-    - Dans ce cas, il se peut que les compteurs soient alimentés par batterie et que, pour ménager la batterie, ils n'autorisent qu'un certain nombre de lectures par jour. 
+    - Dans ce cas, il se peut que les compteurs soient alimentés par batterie et, pour ménager la batterie, n'autorisent qu'un nombre limité de lectures par jour. 
 
         - Solution : l'intervalle de lecture peut ici être augmenté à 6 ou 12 heures.
 
@@ -115,7 +115,7 @@ Explication technique
 
 - Les compteurs tombent en panne de manière irrégulière, et ce sont majoritairement les mêmes compteurs.
 
-    - Des perturbations externes sur les lignes, surtout sur les lignes plus longues, peuvent entraîner des transmissions erronées.
+    - Des perturbations externes sur les lignes, surtout sur des lignes assez longues, peuvent entraîner des transmissions erronées.
 
         - Solution : maintenir le câblage des compteurs aussi court que possible.
 

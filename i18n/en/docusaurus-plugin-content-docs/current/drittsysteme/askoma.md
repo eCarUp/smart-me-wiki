@@ -5,7 +5,7 @@ description: 'Askoheat is a Swiss company that manufactures heating elements for
 sidebar_label: 'Askoma'
 ---
 <div className="row">
-<div className="col col--6">
+<div className="col col--8">
 
 Askoheat is a Swiss company that manufactures heating elements for water heating and energy storage.
 
@@ -16,7 +16,7 @@ Supported Askoma products:
 - Askoheat+
 
 </div>
-<div className="col col--6 text--center">
+<div className="col col--4 text--center">
 
 ![Askoma – Figure 1](/img/drittsysteme-askoma/01.png)
 
@@ -28,33 +28,25 @@ Supported Askoma products:
 ### Requirements
 
 - smart-me meter Telstar 80A or CT
-
 - Professional license to activate the Modbus TCP and DNS services
-
 - Available in the standard software from mid-September 2024.
-
-- On the router side, you must ensure that the IP address of the Telstar does not change.
+- On the router side, you must make sure that the IP address of the Telstar does not change.
 
 
 ### Configuring Askoheat+ and smart-me Telstar 80A / CT
 
 <div className="row">
-<div className="col col--4">
+<div className="col col--8">
 
 Telstar 80A / CT:
-
 - in the settings (select the meter, gear icon at the top right)
-
 - Enable Modbus TCP (Modbus TCP aktivieren)
-
 - Enable DNS (DNS aktivieren)
-
 - Select internal IP (Interne IP wählen)
-
 - Save (Speichern)
 
 </div>
-<div className="col col--8 text--center">
+<div className="col col--4 text--center">
 
 ![Askoma – Figure 3](/img/drittsysteme-askoma/03.png)
 
@@ -62,39 +54,42 @@ Telstar 80A / CT:
 </div>
 
 <div className="row">
-<div className="col col--5">
+<div className="col col--8">
 
-- Read out the IP address via CMD using the ping command on the displayed DNS address. You can find the DNS address in the Advanced settings (Erweiterte Einstellungen) under "Enable DNS" (DNS aktivieren). e.g. ping smart-me\_6303192.dns-me.com
+- Read out the IP address via CMD using the ping command on the displayed DNS address. You can find the DNS address in the advanced settings (Erweiterte Einstellungen) under "Enable DNS" ("DNS aktivieren"). e.g. ping smart-me\_6303192.dns-me.com
 
 </div>
-<div className="col col--7 text--center">
+<div className="col col--4 text--center">
 
 ![Askoma – Figure 4](/img/drittsysteme-askoma/04.png)
 
 </div>
 </div>
 
-Settings on the Askoheat+
+<div className="row">
+<div className="col col--6">
 
+Settings on the Askoheat+
 These may vary and are not the responsibility of smart-me.
 
 [http://askoheat.local/setup3](http://askoheat.local/setup3)
 
-- Enter the IP address of the Telstar.
-
+- Enter the IP address of the Telstar
 - Enable TCP master mode
+- Select Smart-Me from the list
+- Click Start Connection
 
--  Select Smart-Me from the list
+- You can then check whether the measured value updates: on the Setup3 page under STATUS, the watt value should refresh every 1–3 seconds.
 
-- Click on Start Connection
-
+</div>
+<div className="col col--6 text--center">
 
 ![Askoma – Figure 5](/img/drittsysteme-askoma/05.png)
 
-- You can then check whether the measured value updates: on the Setup3 page under STATUS, the watt value should refresh every 1-3 seconds.
-
-
 ![Askoma – Figure 6](/img/drittsysteme-askoma/06.png)
+</div>
+</div>
+
 
 ### Contact
 

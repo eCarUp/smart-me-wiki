@@ -13,7 +13,7 @@ This page describes the behaviour of the Pico screen.
 
 The description of the display applies to all [firmware versions](/konfiguration/firmware-update) from 0.0.28 onwards.
 
-### Sequence no active charging
+### Sequence: no active charging
 
 <div className="row">
 <div className="col col--10">
@@ -28,12 +28,12 @@ Shown when no vehicle is connected and no charging is taking place. You can pers
 </div>
 </div>
 
-### Sequence plugged-in car waiting for approval
+### Sequence: plugged-in car waiting for authorisation
 
 <div className="row">
 <div className="col col--10">
 
-Shown repeatedly when the car is plugged in but the station has not yet been approved in the backend.
+Shown repeatedly when the car is plugged in but the station has not yet been enabled in the backend.
 
 </div>
 <div className="col col--2 text--center">
@@ -46,7 +46,7 @@ Shown repeatedly when the car is plugged in but the station has not yet been app
 <div className="row">
 <div className="col col--10">
 
-Shown repeatedly when the car is plugged in but the station has not yet been approved in the backend.
+Shown repeatedly when the car is plugged in but the station has not yet been enabled in the backend.
 
 </div>
 <div className="col col--2 text--center">
@@ -58,7 +58,7 @@ Shown repeatedly when the car is plugged in but the station has not yet been app
 
 
 
-### Sequence authentication with CarID (Pico Online)
+### Sequence: authentication with CarID (Pico Online)
 
 <div className="row">
 <div className="col col--10">
@@ -76,7 +76,7 @@ Shown when the car is plugged in and the Car-ID is being checked.
 <div className="row">
 <div className="col col--10">
 
-Shown when the vehicle is not authorised or the Car-ID is not stored in the eCarUp driver account. The Pico then switches to the "Sequence plugged-in car waiting for approval"
+Shown when the vehicle is not authorised or the Car-ID is not stored in the eCarUp driver account. The Pico then switches to the "Sequence: plugged-in car waiting for authorisation"
 
 </div>
 <div className="col col--2 text--center">
@@ -89,7 +89,7 @@ Shown when the vehicle is not authorised or the Car-ID is not stored in the eCar
 <div className="row">
 <div className="col col--10">
 
-Shown when the vehicle is authorised. The Pico then switches to the "Sequence active charging".
+Shown when the vehicle is authorised. The Pico then switches to the "Sequence: active charging".
 
 </div>
 <div className="col col--2 text--center">
@@ -99,12 +99,12 @@ Shown when the vehicle is authorised. The Pico then switches to the "Sequence ac
 </div>
 </div>
 
-### Sequence authentication with RFID (Pico Online)
+### Sequence: authentication with RFID (Pico Online)
 
 <div className="row">
 <div className="col col--10">
 
-The RFID card is being checked. With a very good connection, the text may not be displayed at all.
+The RFID card is being checked. With a very good connection, the text may not be shown at all.
 
 </div>
 <div className="col col--2 text--center">
@@ -130,7 +130,7 @@ Shown when the RFID is authorised.
 <div className="row">
 <div className="col col--10">
 
-Shown when the RFID authorisation was successful and no car is plugged in. If a car is plugged in, this display is skipped and the Pico switches to the "Sequence active charging".
+Shown when the RFID authorisation was successful and no car is plugged in. If a car is plugged in, this display is skipped and the Pico switches to the "Sequence: active charging".
 
 </div>
 <div className="col col--2 text--center">
@@ -143,7 +143,7 @@ Shown when the RFID authorisation was successful and no car is plugged in. If a 
 <div className="row">
 <div className="col col--10">
 
-Shown when the RFID is not authorised. The Pico then switches to the "Sequence plugged-in car waiting for approval" or "Sequence no active charging".
+Shown when the RFID is not authorised. The Pico then switches to the "Sequence: plugged-in car waiting for authorisation" or the "Sequence: no active charging".
 
 </div>
 <div className="col col--2 text--center">
@@ -155,12 +155,12 @@ Shown when the RFID is not authorised. The Pico then switches to the "Sequence p
 
 
 
-### Sequence authentication with QR code (Pico Online)
+### Sequence: authentication with QR code (Pico Online)
 
 <div className="row">
 <div className="col col--10">
 
-Charging was successfully approved with the QR code.
+Charging was successfully enabled with the QR code.
 
 </div>
 <div className="col col--2 text--center">
@@ -173,7 +173,7 @@ Charging was successfully approved with the QR code.
 <div className="row">
 <div className="col col--10">
 
-Shown when the authorisation was successful and no car is plugged in. If a car is plugged in, this display is skipped and the Pico switches to the "Sequence active charging".
+Shown when the authorisation was successful and no car is plugged in. If a car is plugged in, this display is skipped and the Pico switches to the "Sequence: active charging".
 
 </div>
 <div className="col col--2 text--center">
@@ -183,7 +183,7 @@ Shown when the authorisation was successful and no car is plugged in. If a car i
 </div>
 </div>
 
-### Sequence charging start
+### Sequence: start of charging
 
 <div className="row">
 <div className="col col--10">
@@ -209,7 +209,7 @@ Value / Symbol Description
 
 32A Max. permitted charging current 
 
-When the station increases the maximum charging current, this image is briefly shown with the new max. charging current.
+When the station increases the maximum charging current, this image is shown briefly with the new max. charging current.
 
 </div>
 <div className="col col--2 text--center">
@@ -219,7 +219,7 @@ When the station increases the maximum charging current, this image is briefly s
 </div>
 </div>
 
-### Sequence active charging
+### Sequence: active charging
 
 <div className="row">
 <div className="col col--10">
@@ -268,9 +268,9 @@ Value / Symbol Description
 
 kW Unit of the displayed power
 
-….. blue = max. power released by the station (1 pixel = 1A) 
+….. blue = max. power enabled by the station (1 pixel = 1A) 
 
- green = current drawn by the car per phase (1 pixel = 1A)
+ green = current drawn by the car per phase. (1 pixel = 1A)
 
 </div>
 <div className="col col--2 text--center">
@@ -280,7 +280,7 @@ kW Unit of the displayed power
 </div>
 </div>
 
-### Sequence end of charging
+### Sequence: end of charging
 
 <div className="row">
 <div className="col col--10">
@@ -289,7 +289,7 @@ Value / Symbol Description
 
 32A Max. permitted current 
 
-When the station reduces the maximum charging current, this image is briefly shown with the new max. charging current
+When the station reduces the maximum charging current, this image is shown briefly with the new max. charging current
 
 </div>
 <div className="col col--2 text--center">
@@ -340,7 +340,7 @@ Value / Symbol Description
 
  kWh Unit of the displayed consumption
 
-After logging off, the total consumption of the last charging session is displayed for approx. 14 sec. 
+After logging off, the total consumption of the last charging session is shown for approx. 14 sec. 
 
 </div>
 <div className="col col--2 text--center">
@@ -350,7 +350,7 @@ After logging off, the total consumption of the last charging session is display
 </div>
 </div>
 
-### Sequence restart station
+### Sequence: restarting the station
 
 This sequence describes restarting a station via the portal
 
@@ -389,7 +389,7 @@ kWh Unit of the displayed consumption
 <div className="row">
 <div className="col col--10">
 
-The screen remains black for approx. 20 sec.
+The screen stays black for approx. 20 sec.
 
 </div>
 <div className="col col--2 text--center">
@@ -404,7 +404,7 @@ The screen remains black for approx. 20 sec.
 
 This is the first sign that the Pico is starting up.
 
-After the sequence restart station, the Pico switches to the sequence MID mode
+After the "Sequence: restarting the station", the Pico switches to the MID Mode sequence
 
 </div>
 <div className="col col--2 text--center">
@@ -416,16 +416,16 @@ After the sequence restart station, the Pico switches to the sequence MID mode
 
 
 
-### Fault messages and warnings
+### Error messages and warnings
 
 <div className="row">
 <div className="col col--10">
 
-Fatal fault
+Fatal error
 
 - Error 1: Problem with the Wi-Fi module
 
-- Error 2: There is no M4 communication
+- Error 2: No M4 communication
 
 - Error 3: An error with the meter SOM
 
@@ -561,14 +561,14 @@ LED lights up orange/red in the top right corner of the display
 
 ### MID Mode
 
-To enter MID mode, you can click "Show meter reading on display" ("Zählerstand auf Display anzeigen") via the extended action in the smart-me portal, start or restart the station, or use the brightness sensor.
+To enter MID mode, you can click "Show meter reading on display" ("Zählerstand auf Display anzeigen") via the advanced actions in the smart-me portal, start or restart the station, or use the brightness sensor.
 
-Using a torch on the brightness sensor, the user can flash the following code: Dark - Light - Dark - Light - Dark (each state must last between 1 and 5 seconds)
+Using a torch on the brightness sensor, the user can flash the following code: dark - light - dark - light - dark (each state must last between 1 and 5 seconds)
 
 <div className="row">
 <div className="col col--10">
 
-#### Position of light sensor
+#### Light sensor position
 
 - Light sensor point
 
@@ -585,7 +585,7 @@ Using a torch on the brightness sensor, the user can flash the following code: D
 
 #### MID Display 1
 
-- 0.2.1 Version and checksum according to Obis code
+- 0.2.1 Version and checksum according to OBIS code
 
 - v 2.2 Version number of the firmware
 
@@ -604,7 +604,7 @@ Using a torch on the brightness sensor, the user can flash the following code: D
 
 #### MID Display 2
 
-- F.F.0   Obis code
+- F.F.0   OBIS code
 
 - 03   Error code
 
@@ -613,13 +613,13 @@ Using a torch on the brightness sensor, the user can flash the following code: D
 #### Error code description
 
 - x1-x3: Charging station is not calibrated
-- x4: Error display process (checksum)
+- x4: Display process error (checksum)
 
-- 1x: Error in meter SOM (hardware)
+- 1x: Error in the meter SOM (hardware)
 
-- 2x-3x: Error meter SOM (checksum)
+- 2x-3x: Meter SOM error (checksum)
 
-- 4x: Error meter SOM (flash) Other: General error meter SOM 
+- 4x: Meter SOM error (flash) Other: General meter SOM error 
 
 </div>
 <div className="col col--2 text--center">
@@ -634,7 +634,7 @@ Using a torch on the brightness sensor, the user can flash the following code: D
 
 #### MID Display 3
 
-- 1.8.0 Obis code
+- 1.8.0 OBIS code
 
 - 00013.04 kWh The meter reading in kWh with 2 decimal places.
 

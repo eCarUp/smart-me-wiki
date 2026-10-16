@@ -1,22 +1,22 @@
 ---
 title: 'Askoma'
 slug: '/drittsysteme/askoma'
-description: 'Askoheat est une entreprise suisse qui fabrique des éléments chauffants pour le traitement de l''eau et le stockage d''énergie.'
+description: 'Askoheat est une entreprise suisse qui fabrique des éléments chauffants pour la production d''eau chaude et le stockage d''énergie.'
 sidebar_label: 'Askoma'
 ---
 <div className="row">
-<div className="col col--6">
+<div className="col col--8">
 
-Askoheat est une entreprise suisse qui fabrique des éléments chauffants pour le traitement de l'eau et le stockage d'énergie.
+Askoheat est une entreprise suisse qui fabrique des éléments chauffants pour la production d'eau chaude et le stockage d'énergie.
 
-Les éléments chauffants peuvent être pilotés de manière intelligente par des systèmes tiers comme smart-me AG et stockent ainsi l'énergie solaire excédentaire, par ex. dans l'eau chaude sanitaire.
+Les éléments chauffants peuvent être pilotés de manière intelligente par des systèmes tiers comme smart-me AG et stockent ainsi l'énergie solaire excédentaire, par exemple dans l'eau chaude sanitaire.
 
 Produits Askoma pris en charge :
 
 - Askoheat+
 
 </div>
-<div className="col col--6 text--center">
+<div className="col col--4 text--center">
 
 ![Askoma – Illustration 1](/img/drittsysteme-askoma/01.png)
 
@@ -28,33 +28,25 @@ Produits Askoma pris en charge :
 ### Prérequis
 
 - Compteur smart-me Telstar 80A ou CT
-
 - Licence Professional pour l'activation des services Modbus TCP et DNS
-
 - Disponible dans le logiciel standard à partir de mi-septembre 2024.
-
 - Côté routeur, il faut s'assurer que l'adresse IP du Telstar ne change pas.
 
 
-### Configuration de l'Askoheat+ et du smart-me Telstar 80A / CT
+### Configuration Askoheat+ et smart-me Telstar 80A / CT
 
 <div className="row">
-<div className="col col--4">
+<div className="col col--8">
 
 Telstar 80A / CT :
-
 - dans les paramètres (Einstellungen) (sélectionner le compteur, roue dentée en haut à droite)
-
 - Activer Modbus TCP (Modbus TCP aktivieren)
-
 - Activer DNS (DNS aktivieren)
-
-- Sélectionner l'IP interne (Interne IP)
-
+- Sélectionner l'IP interne (Interne IP wählen)
 - Enregistrer (Speichern)
 
 </div>
-<div className="col col--8 text--center">
+<div className="col col--4 text--center">
 
 ![Askoma – Illustration 3](/img/drittsysteme-askoma/03.png)
 
@@ -62,39 +54,42 @@ Telstar 80A / CT :
 </div>
 
 <div className="row">
-<div className="col col--5">
+<div className="col col--8">
 
-- Relevez l'adresse IP via CMD avec la commande ping sur l'adresse DNS affichée. Vous trouverez l'adresse DNS dans les paramètres avancés (Erweiterte Einstellungen) sous « Activer DNS » (DNS aktivieren). Par ex. ping smart-me\_6303192.dns-me.com
+- Lisez l'adresse IP via CMD avec la commande ping sur l'adresse DNS affichée. Vous trouverez l'adresse DNS dans les paramètres avancés (Erweiterte Einstellungen) sous « Activer DNS » (DNS aktivieren). Par ex. ping smart-me\_6303192.dns-me.com
 
 </div>
-<div className="col col--7 text--center">
+<div className="col col--4 text--center">
 
 ![Askoma – Illustration 4](/img/drittsysteme-askoma/04.png)
 
 </div>
 </div>
 
-Paramètres de l'Askoheat+
+<div className="row">
+<div className="col col--6">
 
+Réglages sur l'Askoheat+
 Ceux-ci peuvent varier et ne relèvent pas de la responsabilité de smart-me.
 
 [http://askoheat.local/setup3](http://askoheat.local/setup3)
 
-- Saisir l'adresse IP du Telstar.
-
+- Saisir l'adresse IP du Telstar
 - Activer le mode TCP-Master
-
--  Sélectionner Smart-Me dans la liste
-
+- Sélectionner Smart-Me dans la liste
 - Cliquer sur Start Connection
 
+- Vous pouvez ensuite vérifier sur la page Setup3, sous STATUS, que la valeur en watts de la mesure est actualisée toutes les 1 à 3 secondes.
+
+</div>
+<div className="col col--6 text--center">
 
 ![Askoma – Illustration 5](/img/drittsysteme-askoma/05.png)
 
-- Vous pouvez ensuite vérifier, sur la page Setup3 sous STATUS, que la valeur mesurée en watts est actualisée toutes les 1 à 3 secondes.
-
-
 ![Askoma – Illustration 6](/img/drittsysteme-askoma/06.png)
+</div>
+</div>
+
 
 ### Contact
 

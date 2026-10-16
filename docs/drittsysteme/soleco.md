@@ -21,16 +21,19 @@ Diese Aufgaben übernimmt der Soleco Optimizer für Sie im Hintergrund, zuverlä
 Auf der Benutzeroberfläche finden Interessierte jederzeit verschiedene aktualisierte graphische Auswertungen.
 Der Bezug von Strom aus dem Netz wird mit der Wettervorhersage hinsichtlich der Stromtarife und Stromertrag aus der Photovoltaik im Zusammenspiel mit den Verbrauchern ganzheitlich optimiert. Dieser neue Ansatz bringt signifikante Kosteneinsparungen, ohne jegliche Komforteinbussen.
 
-Kontakt:
+### Kontakt
 
-Soleco AG
+<Kacheln min="14rem">
+<Kachel titel="Soleco AG">
+
 Alain Aerni
-Hubrainweg 18
-8124 Maur
 
-Tel.: +41 79 223 39 89
-Email: [info@soleco.ch](mailto:info@soleco.ch) 
-Webseite: [www.soleco.ch](http://www.soleco.ch)  
+Hubrainweg 18, 8124 Maur
+
++41 79 223 39 89 · [info@soleco.ch](mailto:info@soleco.ch) · [www.soleco.ch](http://www.soleco.ch)
+
+</Kachel>
+</Kacheln>
 
 </div>
 <div className="col col--5 text--center">

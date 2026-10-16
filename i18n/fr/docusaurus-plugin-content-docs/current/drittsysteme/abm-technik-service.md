@@ -4,7 +4,7 @@ slug: '/drittsysteme/abm-technik-service'
 description: 'ABM Technik + Service propose des services liés à l''immobilier.'
 sidebar_label: 'ABM Technik + Service'
 ---
-ABM Technik + Service propose des services liés à l'immobilier. Une technologie radio de pointe permet de surveiller la consommation d'énergie et d'eau. La représentation visuelle aide à économiser l'énergie. Outre le montage et la maintenance des appareils de mesure des compteurs d'eau et d'énergie, le portefeuille de produits d'ABM Technik + Service comprend également l'établissement des décomptes de chaleur et de charges d'exploitation, les décomptes d'électricité pour les locataires, le service de détecteurs de fumée ainsi que l'analyse de l'eau potable.
+ABM Technik + Service propose des services liés à l'immobilier. Une technologie radio de dernière génération permet de surveiller la consommation d'énergie et d'eau. Une représentation visuelle aide à économiser l'énergie. Outre le montage et l'entretien des appareils de mesure tels que les compteurs d'eau et d'énergie, le portefeuille de produits de ABM Technik + Service comprend également l'établissement des décomptes de chauffage et de frais d'exploitation, des décomptes d'électricité pour les locataires, le service de détecteurs de fumée ainsi que l'analyse de l'eau potable.
 
 ## Contact
 

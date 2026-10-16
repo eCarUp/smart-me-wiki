@@ -1,99 +1,91 @@
 ---
 title: 'Discontinued products'
 slug: '/produkte/eingestellte-produkte'
-description: 'These products are no longer sold.'
+description: 'These products have been discontinued.'
 sidebar_label: 'Discontinued products'
 ---
-These products are no longer sold. Support and cloud support remain guaranteed.
+These products have been discontinued. Support and cloud support remain guaranteed.
 
-<div className="row">
-<div className="col col--6 text--center">
+<Kacheln min="15rem">
 
-[![Discontinued products – Figure 1](/img/produkte-eingestellte-produkte/01.jpg)](/produkte/3-phasen-zähler)
+<Kachel bild="/img/produkte-eingestellte-produkte/01.jpg" bildtext="3-Phasen Zähler (alt)" titel="3-Phasen Zähler (alt)" href="/produkte/3-phasen-zähler" bildhoehe="10rem" mittig>
 
-[3-Phase Meter (old)](/produkte/3-phasen-zähler)
+Successor: 
 
-Successor: [3-Phase Meter Telstar 80A](/produkte/telstar) 
+[3-Phase Meter Telstar 80A](/produkte/telstar)
 
-Serial No. 3-Phase Meter 80A: 60\* 
+Serial No. 3-Phase Meter 80A: 60\*
 
-</div>
-<div className="col col--6 text--center">
+</Kachel>
 
-[![Discontinued products – Figure 2](/img/produkte-eingestellte-produkte/02.jpg)](/produkte/plug)
+<Kachel bild="/img/produkte-eingestellte-produkte/02.jpg" bildtext="Plug" titel="Plug" href="/produkte/plug" bildhoehe="10rem" mittig>
 
-[Plug](/produkte/plug)
+Possible smart-me replacement device:
 
-Possible smart-me replacement device: [3-Phase Meter Telstar 80A](/produkte/telstar) 
+[3-Phase Meter Telstar 80A](/produkte/telstar)
 
 Serial No. Plug: 01\*, 02\*, 03\*, 04\*
 
-</div>
-</div>
+</Kachel>
 
-<div className="row">
-<div className="col col--6 text--center">
+<Kachel bild="/img/produkte-eingestellte-produkte/03.jpg" bildtext="Landis+Gyr Modul" titel="Landis+Gyr Modul" href="/produkte/landis-gyr-modul" bildhoehe="10rem" mittig>
 
-[![Discontinued products – Figure 3](/img/produkte-eingestellte-produkte/03.jpg)](/produkte/landis-gyr-modul)
+Possible smart-me replacement device: 
 
-[Landis+Gyr Module](/produkte/landis-gyr-modul)
+[3-Phase Meter Telstar 80A](/produkte/telstar) 
 
-Possible smart-me replacement device: [3-Phase Meter Telstar 80A](/produkte/telstar) or [3-Phase Meter Telstar CT](/produkte/Telstar-CT) 
+or
+
+ [3-Phase Meter Telstar CT](/produkte/Telstar-CT)
 
 Serial No. Landis+Gyr Module: 93\*
 
-</div>
-<div className="col col--6 text--center">
+</Kachel>
 
-[![Discontinued products – Figure 4](/img/produkte-eingestellte-produkte/04.jpg)](/produkte/smart-eye)
+<Kachel bild="/img/produkte-eingestellte-produkte/04.jpg" bildtext="smart-eye" titel="smart-eye" href="/produkte/smart-eye" bildhoehe="10rem" mittig>
 
-[smart-eye](/produkte/smart-eye)
+Possible smart-me replacement device: 
 
-Possible smart-me replacement device: [3-Phase Meter Telstar 80A](/produkte/telstar) or [3-Phase Meter Telstar CT](/produkte/Telstar-CT) 
+[3-Phase Meter Telstar 80A](/produkte/telstar) 
+
+or 
+
+[3-Phase Meter Telstar CT](/produkte/Telstar-CT)
 
 Serial No. smart-eye: 94\*
 
-</div>
-</div>
+</Kachel>
 
-<div className="row">
-<div className="col col--6 text--center">
+<Kachel bild="/img/produkte-eingestellte-produkte/05.jpg" bildtext="Pico Ladestation exA" titel="Pico Ladestation exA" href="/produkte/pico-ladestation-exa" bildhoehe="10rem" mittig>
 
-[![Discontinued products – Figure 5](/img/produkte-eingestellte-produkte/05.jpg)](/produkte/pico-ladestation-exa)
+Successor: 
 
-[Pico EV Charger exA](/produkte/pico-ladestation-exa)
+[Pico EV Charger](/produkte/pico-ladestation)
 
-Successor: [Pico EV Charger](/produkte/pico-ladestation) 
+</Kachel>
 
-</div>
-<div className="col col--6 text--center">
+<Kachel bild="/img/produkte-eingestellte-produkte/06.jpg" bildtext="1-Phasen Zähler 32A" titel="1-Phasen Zähler 32A" href="/produkte/1-phasen-zaehler-32a" bildhoehe="10rem" mittig>
 
-[![Discontinued products – Figure 6](/img/produkte-eingestellte-produkte/06.jpg)](/produkte/1-phasen-zaehler-32a)
+Possible replacement device: 
 
-[Single Phase Meter 32A](/produkte/1-phasen-zaehler-32a)
+[Single Phase Meter](/produkte/1-phasen-zaehler)
 
-Possible replacement device: [Single Phase Meter](/produkte/1-phasen-zaehler) 
+Serial No. Single Phase Meter 32A: 51\*
 
-Serial No. Single Phase Meter 32A : 51\*
+</Kachel>
 
-</div>
-</div>
+<Kachel bild="/img/produkte-eingestellte-produkte/07.png" bildtext="Kamstrup Modul" titel="Kamstrup Modul" href="/produkte/kamstrup-modul" bildhoehe="10rem" mittig>
 
-<div className="row">
-<div className="col col--6 text--center">
+Possible smart-me replacement device: 
 
-[![Discontinued products – Figure 7](/img/produkte-eingestellte-produkte/07.png)](/produkte/kamstrup-modul)
+[3-Phase Meter Telstar 80A](/produkte/telstar) 
 
-[Kamstrup Module](/produkte/kamstrup-modul)
+or 
 
-Possible smart-me replacement device: [3-Phase Meter Telstar 80A](/produkte/telstar) or [3-Phase Meter Telstar CT](/produkte/Telstar-CT) 
+[3-Phase Meter Telstar CT](/produkte/Telstar-CT)
 
 Serial No. Kamstrup Module: 92\*
 
-</div>
-<div className="col col--6 text--center">
+</Kachel>
 
-
-
-</div>
-</div>
+</Kacheln>

@@ -24,28 +24,27 @@ Die Energiedaten zur Steuerung können schnell und zuverlässig von smart-me Met
 Zielgruppe: Einfamilienhaus
 
 Steuern von:
-
 - Schaltkontakten
-
 - Ladestationen
-
 - Solarinvertern
-
 - Heizung / Klimaanlagen
-
 - Wärmepumpen
 
 
-Kontakt:
+## Kontakt
 
-Clever PV
+<Kacheln min="20rem">
+<Kachel titel="Clever PV">
+
 Hannes Klose
-Adam-Klein-Str. 155
-90431 Nürnberg
 
-E-Mail: [info@clever-pv.com](mailto:info@clever-pv.com) 
+Adam-Klein-Str. 155, 90431 Nürnberg
 
-Webseite: [www.clever-pv.com](http://www.clever-pv.com) 
+[info@clever-pv.com](mailto:info@clever-pv.com) · [www.clever-pv.com](http://www.clever-pv.com)
+
+</Kachel>
+</Kacheln>
+
 
 ![Clever PV – Abbildung 2](/img/drittsysteme-clever-pv/02.png)
 

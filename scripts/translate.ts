@@ -36,6 +36,20 @@ export const TARGET_LOCALES = ['en', 'fr', 'it'] as const;
 
 export type Locale = (typeof TARGET_LOCALES)[number];
 
+/**
+ * Ist die Datei ein Teilstück statt einer eigenen Seite?
+ *
+ * Teilstücke heissen mit führendem Unterstrich (`docs/_neuigkeiten.md`). Sie
+ * werden von anderen Seiten eingebunden und haben deshalb **kein**
+ * Frontmatter — Docusaurus warnt sogar, wenn eines dasteht. Übersetzt werden
+ * müssen sie trotzdem, nur eben ohne den Frontmatter-Teil.
+ */
+export function istTeilstueck(pfad: string): boolean {
+  // Wie Docusaurus: ein Unterstrich am Anfang eines Datei- *oder* Ordnernamens
+  // nimmt den Pfad aus den Seiten heraus.
+  return pfad.split(/[\\/]/).some((teil) => teil.startsWith('_'));
+}
+
 const LANGUAGE_NAMES: Record<Locale, string> = {
   en: 'Englisch',
   fr: 'Französisch (Schweiz)',
@@ -338,6 +352,20 @@ export function buildPrompt(opts: {
   sourcePath: string;
   content: string;
 }): string {
+  const teilstueck = istTeilstueck(opts.sourcePath);
+  const frontmatterRegel = teilstueck
+    ? [
+        '3. Diese Datei ist ein Ausschnitt und hat **kein** Frontmatter. Fang',
+        '   direkt mit dem Inhalt an und erfinde keines dazu.',
+      ]
+    : [
+        '3. Das Frontmatter zwischen den `---`-Zeilen bleibt strukturell unverändert.',
+        '   Die Werte stehen in einfachen Anführungszeichen; ein Apostroph im Text',
+        "   wird darin verdoppelt: `description: 'Aucun produit n''est vendu.'`.",
+        '   Übersetzt werden nur die Werte von `title`, `description` und',
+        '   `sidebar_label`. Der Wert von `slug` bleibt **unverändert** – auch wenn er',
+        '   deutsche Wörter enthält. Er ist die URL und in allen Sprachen dieselbe.',
+      ];
   return [
     `Du übersetzt eine Seite des smart-me Support-Wikis aus dem Deutschen ins ${LANGUAGE_NAMES[opts.locale]}.`,
     '',
@@ -352,12 +380,7 @@ export function buildPrompt(opts: {
     '2. Die Markdown-Struktur bleibt exakt erhalten: gleiche Überschriftenebenen in',
     '   gleicher Reihenfolge, gleiche Listen, gleiche Absatzaufteilung, gleiche',
     '   Betonungen, gleiche Reihenfolge der Bilder.',
-    '3. Das Frontmatter zwischen den `---`-Zeilen bleibt strukturell unverändert.',
-    '   Die Werte stehen in einfachen Anführungszeichen; ein Apostroph im Text',
-    "   wird darin verdoppelt: `description: 'Aucun produit n''est vendu.'`.",
-    '   Übersetzt werden nur die Werte von `title`, `description` und',
-    '   `sidebar_label`. Der Wert von `slug` bleibt **unverändert** – auch wenn er',
-    '   deutsche Wörter enthält. Er ist die URL und in allen Sprachen dieselbe.',
+    ...frontmatterRegel,
     '4. Unverändert bleiben ausserdem: URLs und Linkziele, Bildpfade, Dateinamen,',
     '   Inhalte von Code-Blöcken und Inline-Code, HTML- und JSX-Elemente samt',
     '   ihren Attributwerten (z.B. `<Video src="..." />`, `<Embed src="..." />`),',
@@ -399,14 +422,20 @@ export async function translateFile(job: Job, glossary: string): Promise<void> {
   const answer = await runClaude(prompt);
   const translated = unwrapFence(answer);
 
-  if (!translated.startsWith('---')) {
-    throw new Error(
-      `Die Antwort beginnt nicht mit dem Frontmatter – Übersetzung verworfen.\n` +
-        `Anfang der Antwort: ${translated.slice(0, 200)}`,
-    );
+  // Teilstücke haben kein Frontmatter – also auch nichts zu prüfen oder
+  // zusammenzusetzen. Der Rest der Regeln gilt unverändert.
+  let normalized: string;
+  if (istTeilstueck(job.source)) {
+    normalized = translated;
+  } else {
+    if (!translated.startsWith('---')) {
+      throw new Error(
+        `Die Antwort beginnt nicht mit dem Frontmatter – Übersetzung verworfen.\n` +
+          `Anfang der Antwort: ${translated.slice(0, 200)}`,
+      );
+    }
+    normalized = normalizeFrontmatter(translated, content);
   }
-
-  const normalized = normalizeFrontmatter(translated, content);
 
   await mkdir(dirname(job.target), {recursive: true});
   await writeFile(job.target, `${normalized.trimEnd()}\n`, 'utf8');

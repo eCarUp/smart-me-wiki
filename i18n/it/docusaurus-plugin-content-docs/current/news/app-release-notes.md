@@ -1,12 +1,13 @@
 ---
-title: 'Note di rilascio del firmware'
+title: 'Note di rilascio dell''app'
 slug: '/news/app-release-notes'
 description: 'Note di rilascio della smart-me Installer App'
 sidebar_label: 'Note di rilascio dell''app'
 ---
 ## Note di rilascio della smart-me Installer App
 
-2024.06.20 / v1.3
+<details id="app-v1-3" open>
+<summary>v1.3 · 20.06.2024</summary>
 
 Funzionalità
 
@@ -14,8 +15,7 @@ Funzionalità
 
 - Modifica del fattore del trasformatore e relativo blocco sul Telstar CT
 
-- Verifica della versione dell'app al login (mostra eventualmente un popup di aggiornamento obbligatorio)
-
+- Verifica della versione dell'app al login (eventuale visualizzazione di un popup di aggiornamento obbligatorio)
 
 Correzioni di bug
 
@@ -23,5 +23,6 @@ Correzioni di bug
 
 - Visualizzazione di un messaggio di errore quando la localizzazione è disattivata
 
+</details>
 
-smart-me si riserva il diritto di implementare funzionalità e correzioni di bug non comunicate, in particolare quando si tratta di questioni interne.
+smart-me si riserva il diritto di implementare funzionalità e correzioni di bug non comunicate, in particolare se si tratta di questioni interne.

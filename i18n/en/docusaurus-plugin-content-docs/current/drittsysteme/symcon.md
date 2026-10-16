@@ -1,15 +1,15 @@
 ---
 title: 'Symcon'
 slug: '/drittsysteme/symcon'
-description: 'Symcon is software, as well as an optional hardware package (Symbox), that enables control and visualization in your home or building.'
+description: 'Symcon is both software and an optional hardware package (Symbox) that enables control and visualization in your home or building.'
 sidebar_label: 'Symcon'
 ---
 <div className="row">
 <div className="col col--8">
 
-Symcon is software, as well as an optional hardware package (Symbox), that enables control and visualization in your home or building. It acts as an interface and decision-maker.
+Symcon is both software and an optional hardware package (Symbox) that enables control and visualization in your home or building. It acts as an interface and decision-maker.
 
-The smart-me data can easily be retrieved via our API.
+The smart-me data can easily be queried via our API.
 
 </div>
 <div className="col col--4 text--center">
@@ -21,21 +21,21 @@ The smart-me data can easily be retrieved via our API.
 
 Target group: single-family and multi-family homes and industry
 
-Contact:
+### Contact
 
-Install it yourself: [www.symcon.de](http://www.symcon.de) 
+Install it yourself: [www.symcon.de](http://www.symcon.de)
 
-Integrators: [https://www.symcon.de/de/integratoren/schweiz/](https://www.symcon.de/de/integratoren/schweiz/) 
+Integrators: [https://www.symcon.de/de/integratoren/schweiz/](https://www.symcon.de/de/integratoren/schweiz/)
 
-Symcon GmbH
+<Kacheln min="20rem">
+<Kachel titel="Symcon GmbH">
 
-Willy-Brandt-Allee 31b
+Willy-Brandt-Allee 31b, D-23554 Lübeck
 
-D-23554 Lübeck
++49 - (0) 451 30500511 · [support@symcon.de](mailto:support@symcon.de)
 
-Phone: +49 - (0) 451 30500511
-
-[support@symcon.de](mailto:support@symcon.de) 
+</Kachel>
+</Kacheln>
 
 ### How do I get a smart-me metering point into Symcon?
 
@@ -79,7 +79,7 @@ URL: API call: e.g. "https://smart-me.com:443/api/devices/&#123;id&#125;
 
 6\. Configure the chart
 
-- Several variables can be displayed in the same chart (e.g. total active power and the active power of the individual phases).
+- Multiple variables can be displayed in the same chart (e.g. total active power and the active power of the individual phases).
 
 
 ![Symcon – Figure 8](/img/drittsysteme-symcon/08.png)

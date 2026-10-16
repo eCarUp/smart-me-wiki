@@ -1,11 +1,11 @@
 ---
 title: '3-Phase Meter'
 slug: '/produkte/3-phasen-zähler'
-description: 'The smart-me 3-phase meter is a powerful and precise energy meter with an integrated WiFi interface.'
+description: 'The smart-me 3-Phase Meter is a powerful and precise energy meter with an integrated WiFi interface.'
 sidebar_label: '3-Phase Meter'
 displayed_sidebar: wikiSidebar
 ---
-The smart-me 3-phase meter is a powerful and precise energy meter with an integrated WiFi interface. No additional hardware is required for integration into the smart-me Cloud. It uses the existing WiFi network and can be controlled and analysed from anywhere via the internet. With a Professional subscription, the meter values can also be queried via the Modbus TCP interface. With the 5(32)A version, each phase can be switched individually.
+The smart-me 3-Phase Meter is a powerful and precise energy meter with an integrated WiFi interface. No additional hardware is required for integration into the smart-me Cloud. It uses the existing WiFi network and can be controlled and analysed from anywhere via the internet. With a Professional subscription, the meter values can also be queried via the Modbus TCP interface. With the 5(32)A version, each phase can be switched individually.
 
 This 3-phase meter is no longer available. You can find the new generation of our 3-phase meter here: [3-Phase Meter Telstar](/produkte/telstar)
 
@@ -43,7 +43,7 @@ Before you can use your smart-me device, you must connect it to your WiFi networ
 
 3.  Start the app and create an account or log in with the corresponding account.
 
-4.  Click on "Add device" („Gerät hinzufügen“) (+) and follow the instructions.
+4.  Click on "Add device" (Gerät hinzufügen) (+) and follow the instructions.
 
 ## Technical data
 
@@ -119,7 +119,7 @@ The smart-me meter has two outputs and one input, which can be used as pulse inp
 
 ## Display
 
-The meter has a scrolling display. The items described below are shown one after the other. After the last item, the display starts again at item 1:
+The meter has a rolling display. The items described below are shown one after the other. After the last item, the display starts again at item 1:
 
 1.  Phase sequence (if incorrect, see below)
 
@@ -136,9 +136,9 @@ The meter has a scrolling display. The items described below are shown one after
 
 ### Phase sequence
 
-PhL 1 -> only phase L1 was connected (PhL2 for L2, etc.)
-PhL 12 -> only phases L1 and L2 were connected (PhL13 for L1 and L3, etc.)
-PhL 123 -> an incorrect phase sequence was detected
+PhL 1 -> only phase L1 has been connected (PhL2 for L2 etc.)
+PhL 12 -> only phases L1 and L2 have been connected (PhL13 for L1 and L3 etc.)
+PhL 123 -> an incorrect phase sequence has been detected
 
 ## Dimensions and connections
 
@@ -160,15 +160,15 @@ T1: Button for installation
 
 T2: Special functions
 
-Short: If T2 is pressed briefly, the green LED switches on / off. When it is activated, it shows the connection status:
+Short: If T2 is pressed briefly, the green LED switches on / off. When it is activated, it indicates the connection status:
 
 Green steady: connected to smart-me Cloud 
 
 Green flashing: no connection
 
-Long: If T2 is pressed for a long time, the display of the reactive energy meter reading is activated (if available). The items reactive energy meter reading T1 and reactive energy meter reading T2 are added to the display sequence. The displayed value flashes and can thus be distinguished from the active energy.
+Long: If T2 is pressed for a long time, the display of the reactive energy meter reading is activated (if available). The items reactive energy meter reading T1 and reactive energy meter reading T2 are added to the display sequence. The displayed value flashes and can thus be distinguished from active energy.
 
-CAUTION: This setting only changes the display on the meter, not in the smart-me Cloud (app and website). If the reactive energy is to be displayed in the cloud, this must be done in the general settings. (When T2 is pressed, the red LED lights up; T2 must be held down until the red LED goes out)
+CAUTION: This setting only changes what is shown on the display, not in the smart-me Cloud (app and website). If reactive energy is to be displayed in the cloud, this must be done in the general settings. (When T2 is pressed, the red LED starts to light up; T2 must be held down until the red LED goes out)
 
 S0\_0: S0 pulse output (optionally potential-free contact / caution Pmax = 550mW continuous)
 
@@ -178,11 +178,11 @@ S0\_1: S0 pulse output (optionally potential-free contact / caution Pmax = 550mW
 
 ## Measured values (OBIS codes)
 
-The following measured values are recorded by the meter and can be retrieved in the cloud and via the API
+The following measured values are recorded by the meter and are available in the cloud and via the API
 
 [](https://drive.google.com/open?id=1-f4I5ZWg1-PAHNpzCsQ0aBqrL9k93lH8q9AuN8toJgI "Open Spreadsheet, Measured values (incl. OBIS codes) 3-Phase Meter V1 in new window")
 
-<Embed src="https://docs.google.com/spreadsheets/d/1-f4I5ZWg1-PAHNpzCsQ0aBqrL9k93lH8q9AuN8toJgI/htmlembed" height="655px" title="Spreadsheet, Measured values (incl. OBIS codes) 3-Phase Meter V1" />
+<Embed src="https://docs.google.com/spreadsheets/d/1-f4I5ZWg1-PAHNpzCsQ0aBqrL9k93lH8q9AuN8toJgI/htmlembed" height="655px" title="Spreadsheet, measured values (incl. OBIS codes) 3-Phase Meter V1" />
 
 Measured values (incl. OBIS codes) 3-Phase Meter V1
 
@@ -211,10 +211,10 @@ Technical documents
 
 - Every 15 minutes, i.e. at xx:00:00, xx:15:00, xx:30:00 and xx:45:00. This sends the data required for the load profile. In the event of a connection interruption, this data is stored locally and sent later.
 
-- In addition, an individual configuration can be made:
+- In addition, an individual configuration can be set up:
 
-    - With Basic or Limited licences: max. once per minute.
+    - With Basic or Limited licences: max. 1x per minute.
 
-    - With Pro licensing: max. once per second
+    - With Pro licensing: max. 1x per second
 
 </details>

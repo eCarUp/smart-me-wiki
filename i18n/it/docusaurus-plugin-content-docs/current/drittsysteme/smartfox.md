@@ -1,13 +1,13 @@
 ---
 title: 'SMARTFOX'
 slug: '/drittsysteme/smartfox'
-description: 'I dispositivi smart-me possono essere integrati in modo diretto e semplice in un''installazione SMARTFOX.'
+description: 'I dispositivi smart-me possono essere integrati direttamente e facilmente in un''installazione SMARTFOX.'
 sidebar_label: 'SMARTFOX'
 ---
 <div className="row">
 <div className="col col--7">
 
-I dispositivi smart-me possono essere integrati in modo diretto e semplice in un'installazione SMARTFOX.
+I dispositivi smart-me possono essere integrati direttamente e facilmente in un'installazione SMARTFOX.
 
 </div>
 <div className="col col--5 text--center">
@@ -19,7 +19,7 @@ I dispositivi smart-me possono essere integrati in modo diretto e semplice in un
 
 Grazie all'impiego dell'energy manager intelligente SMARTFOX Pro, che monitora e regola costantemente la produzione e il consumo di energia elettrica, è possibile spostare il consumo di apparecchi elettrici come pompe di calore, stazioni di ricarica ecc. nelle ore di sole e aumentare sia la quota di autoconsumo sia il grado di autarchia.
 
-Gruppo target:
+Destinatari:
 
 - Casa unifamiliare
 
@@ -31,7 +31,7 @@ Tipo di collegamento:
 
 - Integrazione diretta tramite Modbus TCP per la comunicazione locale.
 
-Requisito:
+Requisiti:
 
 - Licenze smart-me Professional. [Per saperne di più](/planung/cloud-lizenzen)
 
@@ -48,7 +48,7 @@ Funzioni:
 
 
 
-Possibili applicazioni: 
+Possibilità di impiego: 
 
 - Monitoraggio ad alta risoluzione delle utenze
 
@@ -62,7 +62,7 @@ Possibili applicazioni:
 
 
 
-## Istruzioni per il collegamento tra contatore smart-me e SMARTFOX
+## Istruzioni per il collegamento del contatore smart-me a SMARTFOX
 
 [Istruzioni complete per il collegamento](https://drive.google.com/file/d/1FaH_zWsVsDhH9CMsMmJ5JkJ0OZN69d2J/view?usp=drive_link) con tutti i dettagli
 

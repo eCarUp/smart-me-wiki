@@ -1,15 +1,15 @@
 ---
 title: 'smart-eye'
 slug: '/produkte/smart-eye'
-description: 'Lo smart-eye collega alla smart-me Cloud i contatori di energia conformi al capitolato FNN per contatori di base (moderne Messeinrichtungen).'
+description: 'Lo smart-eye porta nella smart-me Cloud i contatori di energia conformi al capitolato FNN per contatori di base (dispositivi di misura moderni).'
 sidebar_label: 'smart-eye'
 displayed_sidebar: wikiSidebar
 ---
-Lo smart-eye collega alla smart-me Cloud i contatori di energia conformi al capitolato FNN per contatori di base (moderne Messeinrichtungen). A tale scopo, lo smart-eye viene applicato sull'interfaccia ottica dati INFO. I dati energetici vengono così trasmessi alla smart-me Cloud tramite la rete WiFi locale. Tramite app o login online sono consultabili quasi in tempo reale le visualizzazioni dei consumi ed eventualmente dati rilevanti per l'esercizio della rete, come frequenza, tensione o corrente.
+Lo smart-eye porta nella smart-me Cloud i contatori di energia conformi al capitolato FNN per contatori di base (dispositivi di misura moderni). A tale scopo, lo smart-eye viene applicato sull'interfaccia ottica dati INFO. In questo modo i dati energetici vengono trasmessi alla smart-me Cloud tramite la rete WiFi locale. Tramite app o login online è possibile consultare quasi in tempo reale le visualizzazioni dei consumi ed eventualmente dati rilevanti per l'esercizio della rete come frequenza, tensione o corrente.
 
-Vendita cessata il 30.03.2021, il supporto e l'assistenza cloud sono garantiti fino al 30.03.2025.
+Vendita cessata il 30.03.2021, il supporto e il servizio cloud sono garantiti fino al 30.03.2025.
 
-Il sistema smart-me è multi-vettore: anche i valori misurati da altri contatori, come ad es. i contatori del gas, possono essere letti e integrati nella gestione dell'energia. Inoltre, a seconda del tipo di contatore, lo smart-eye può inserire automaticamente il codice PIN per lo sblocco del set di dati esteso. 
+Il sistema smart-me è multi-vettore: anche i valori di misura di altri contatori, come ad es. i contatori del gas, possono essere letti e integrati nella gestione energetica. Inoltre, a seconda del tipo di contatore, lo smart-eye può inserire automaticamente il codice PIN per lo sblocco del set di dati esteso. 
 
 ![smart-eye – Figura 1](/img/produkte-smart-eye/01.jpg)
 
@@ -19,11 +19,11 @@ Il sistema smart-me è multi-vettore: anche i valori misurati da altri contatori
 
 - Salvataggio automatico delle letture del contatore nel cloud
 
-- Datalogger: memorizzazione dei valori misurati in caso di interruzione della connessione e sincronizzazione automatica con il cloud al ripristino della connessione
+- Datalogger: memorizzazione dei valori di misura in caso di interruzione della connessione e sincronizzazione automatica con il cloud al ripristino della connessione
 
 - Connessione WiFi crittografata alla smart-me Cloud
 
-- Gestione dell'energia completa, fatturazione automatica, controllo e allarmi tramite la smart-me Cloud
+- Gestione energetica completa, fatturazione automatica, controllo e allarmi tramite la smart-me Cloud
 
 - Installazione semplice con l'app smart-me gratuita per Android e iOS
 
@@ -56,7 +56,7 @@ Peso 40 g
 
 Intervallo di temperatura −40°C fino a 70°C
 
-Montaggio Magnetico
+Montaggio magnetico
 
 ## Contatori testati
 
@@ -76,11 +76,11 @@ Codici di lampeggio LED smart-eye
 
 Modificare l'intervallo di upload
 
-- Effettuare il login nel portale smart-me
+- Accedere al portale smart-me
 
 - Selezionare il contatore
 
-- In alto a destra selezionare la rotella
+- In alto a destra selezionare la rotella dentata
 
 - Impostazioni generali (Allgemeine Einstellungen)
 

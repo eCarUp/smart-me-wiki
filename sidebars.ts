@@ -8,7 +8,12 @@ import type {SidebarsConfig} from '@docusaurus/plugin-content-docs';
 const sidebars: SidebarsConfig = {
   wikiSidebar: [
     'index',
+    // Die beiden Einstiegsseiten. Die Startseite ('index') fragt nur nach dem
+    // Land und führt dann hierhin; wer „Alle Länder" gewählt hat, sieht beide.
+    {type: 'doc', id: 'schweiz', customProps: {laender: ['ch']}},
+    {type: 'doc', id: 'deutschland', customProps: {laender: ['de']}},
     'support-ki-agent',
+    'faq',
     {
       type: 'category',
       label: 'Produkte',
@@ -29,7 +34,12 @@ const sidebars: SidebarsConfig = {
             'produkte/pico-ladestation/installationsplanung',
             'produkte/pico-ladestation/pico-lastmanagement',
             'produkte/pico-ladestation/pico-standfuss',
-            'produkte/pico-ladestation/materialempfehlung-rcd-typ-a',
+            // Die Materialempfehlung RCD Typ-A steht bewusst nicht in der
+            // Navigation: sie betrifft nur Picos mit Seriennummer vor 7002702
+            // und ist von der Pico-Seite aus verlinkt – beim Sicherheitshinweis
+            // und in der FAQ, also dort, wo die Frage aufkommt. Die Seite trägt
+            // `displayed_sidebar: wikiSidebar` im Frontmatter, damit die
+            // Navigation beim Öffnen stehen bleibt.
           ],
         },
         'produkte/1-phasen-zaehler',
@@ -72,7 +82,8 @@ const sidebars: SidebarsConfig = {
             'planung/elektromobilitaet/smart-me-zev-und-pico',
           ],
         },
-        'planung/zertifizierungen',
+        {type: 'doc', id: 'planung/zertifizierungen', customProps: {laender: ['ch']}},
+        {type: 'doc', id: 'planung/zertifizierungen-deutschland', customProps: {laender: ['de']}},
         'planung/cloud-lizenzen',
         {type: 'doc', id: 'planung/abrechnung-vorbereiten', customProps: {laender: ['ch']}},
         {type: 'doc', id: 'planung/internetverbindung', customProps: {laender: ['ch']}},
@@ -80,7 +91,6 @@ const sidebars: SidebarsConfig = {
         {type: 'doc', id: 'planung/Messkonzept-Notstromloesung', customProps: {laender: ['ch']}},
         {type: 'doc', id: 'planung/messkonzept-produzenten-hinter-haeuser', customProps: {laender: ['ch']}},
         {type: 'doc', id: 'planung/minergie', customProps: {laender: ['ch']}},
-        'planung/e-mobility',
       ],
     },
     {
@@ -277,7 +287,8 @@ const sidebars: SidebarsConfig = {
         'informationssicherheit/standardantworten',
       ],
     },
-    'rma-antragsformulare',
+    {type: 'doc', id: 'rma-antragsformulare', customProps: {laender: ['ch']}},
+    {type: 'doc', id: 'rma-antragsformulare-deutschland', customProps: {laender: ['de']}},
     {
       type: 'category',
       label: 'News',
@@ -294,7 +305,8 @@ const sidebars: SidebarsConfig = {
         },
       ],
     },
-    'kontakt',
+    {type: 'doc', id: 'kontakt', customProps: {laender: ['ch']}},
+    {type: 'doc', id: 'kontakt-deutschland', customProps: {laender: ['de']}},
   ],
 };
 

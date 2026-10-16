@@ -59,7 +59,7 @@ export const redirects: Redirect[] = [
   {from: '/planning/cloud-licence', to: '/planung/cloud-lizenzen'},
   {from: '/planning/contract-legal', to: '/planung/vertrag-rechtliches'},
   {from: '/planning/e-mobility', to: '/planung/elektromobilitaet'},
-  {from: '/planning/e-mobility_1', to: '/planung/e-mobility'},
+  {from: ['/planning/e-mobility_1', '/planung/e-mobility'], to: '/planung/elektromobilitaet'},
   {from: '/planning/internet-connection', to: '/planung/internetverbindung'},
   {from: '/planning/measurement-concept-producers-behind-houses', to: '/planung/messkonzept-produzenten-hinter-haeuser'},
   {from: '/planning/measurement-concepts-emergency-power-solutions', to: '/planung/Messkonzept-Notstromloesung'},

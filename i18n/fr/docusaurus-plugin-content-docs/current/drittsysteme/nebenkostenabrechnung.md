@@ -8,29 +8,29 @@ Pour utiliser les données de compteur de smart-me dans un décompte des charges
 
 [EN](https://doc.smart-me.com/third-party-systems/service-charge-settlement)
 
-Les prestataires suivants proposent des services de décompte basés sur notre plateforme smart-me. Ils reprennent aussi des installations qu'ils n'ont pas installées eux-mêmes et peuvent, sur demande, se charger uniquement du décompte.
+Les prestataires suivants proposent des services de décompte basés sur notre plateforme smart-me. Ils reprennent aussi des installations qu'ils n'ont pas installées eux-mêmes et proposent alors, sur demande, uniquement le décompte.
 
-## Prestations hautement automatisées/spécialisées avec Autobill :
+## Services hautement automatisés/spécialisés avec Autobill :
 
 <Kacheln min="22rem">
 
 <Kachel bild="/img/drittsysteme-nebenkostenabrechnung/01.png" titel="smart-me AG">
 
-Avec autobill, le décompte d'énergie n'est plus une charge administrative chronophage : il devient un service entièrement automatisé, qui prend tout en charge, de la mesure jusqu'à l'encaissement.
+Avec autobill, le décompte énergétique n'est plus une charge administrative chronophage, mais un service entièrement automatisé qui prend tout en charge, de la mesure jusqu'à l'encaissement.
 
 Riedstrasse 18, CH-6343 Rotkreuz · +41 41 511 09 99
 
 [autobill.ch](https://autobill.ch/) · [info@smart-me.com](mailto:info@smart-me.com)
 
-**Prestation Autobill**
+**Service Autobill**
 
-- Toujours en collaboration avec un partenaire smart-me (formation suivie)
+- Toujours avec un partenaire smart-me (formation suivie)
 - Respect du schéma de mesure smart-me
 - Décompte uniquement avec du matériel smart-me
 - Configuration du module 1 par smart-me
-- Facturation RCP (regroupement dans le cadre de la consommation propre), max. 4x par an
+- Facturation RCP, max. 4x par an
 - Facturation VEWA 1x par an (sans acomptes)
-- Durée minimale de 2 ans
+- Durée minimale 2 ans
 
 </Kachel>
 
@@ -40,11 +40,11 @@ Hauptstrasse 48, CH-6277 Kleinwangen · +41 41 510 06 25
 
 [www.adenatec.ch](https://www.adenatec.ch/) · [info@adenatec.ch](mailto:info@adenatec.ch)
 
-- Décompte RCP (regroupement dans le cadre de la consommation propre), RCP virtuel (vRCP) et E-Mobility
-- Décompte et encaissement, configuration du portail comprise
+- Décompte RCP, vRCP et e-mobilité
+- Décompte et encaissement, configuration du portail incluse
 - Facturation jusqu'à 4× par an
-- Décompte VEWA au pour mille 1× par an
-- Exploitation uniquement avec du matériel smart-me
+- Décompte VEWA en pour mille 1× par an
+- Exploitation exclusivement avec du matériel smart-me
 
 </Kachel>
 
@@ -56,12 +56,12 @@ Allmendingenweg 11, CH-3073 Gümligen · +41 31 950 60 70
 
 - Décompte indépendant du matériel (interface avec smart-me)
 - Envoi des factures par e-mail ou par courrier
-- Assistance pour la conception des tarifs
+- Soutien pour la conception des tarifs
 - Conseil en optimisation énergétique
-- Décompte pour RCP (regroupement dans le cadre de la consommation propre), RCP virtuel (vRCP) et CEL (communauté électrique locale) (jusqu'à 4× par an)
+- Décompte pour RCP, vRCP et CEL (jusqu'à 4× par an)
 - En option : préparation des données pour l'exploitation Minergie
-- En option : service de piquet 24h pour la télémaintenance
-- En option : mise à disposition de l'accès Internet
+- En option : service de piquet 24h, maintenance à distance
+- En option : mise à disposition d'un accès Internet
 
 </Kachel>
 
@@ -71,8 +71,8 @@ Blattenbach 8, CH-8636 Wald · +41 55 266 11 33
 
 [honegger.com](https://honegger.com/) · [info@honegger.com](mailto:info@honegger.com)
 
-- Décompte des installations E-Mobility, RCP (regroupement dans le cadre de la consommation propre) et RCP virtuel (vRCP) installées par nos soins
-- Nous planifions, construisons et assurons le suivi de tout, d'une seule main
+- Décompte d'installations e-mobilité, RCP et vRCP installées par nos soins
+- Nous planifions, réalisons et assurons le suivi de tout, auprès d'un interlocuteur unique
 - Décompte uniquement avec du matériel smart-me
 - Facturation trimestrielle
 - Durée minimale selon accord
@@ -87,7 +87,7 @@ Zürichstrasse 68, CH-6004 Luzern · +41 41 562 39 61
 
 - Décompte avec du matériel smart-me ou des fichiers SDAT
 - Configuration du module 1 par Liveno
-- Facturation RCP (regroupement dans le cadre de la consommation propre), max. 4x par an
+- Facturation RCP, max. 4x par an
 - Facturation VEWA 1x par an (sans acomptes)
 
 </Kachel>
@@ -98,8 +98,8 @@ Kirchstrasse 18, CH-9200 Gossau SG · +41 71 388 20 10
 
 [www.techcom.ch](https://www.techcom.ch/) · [info@techcom.ch](mailto:info@techcom.ch)
 
-- Solution complète avec installation et service de décompte RCP (regroupement dans le cadre de la consommation propre), RCP virtuel (vRCP), CEL (communauté électrique locale) et E-Mobility
-- Décompte pour RCP, vRCP, CEL et E-Mobility
+- Solution complète avec installation et service de décompte RCP, vRCP, CEL et e-mobilité
+- Décompte pour RCP, vRCP, CEL et e-mobilité
 - Décompte des charges accessoires VEWA
 - Optimisation énergétique
 
@@ -113,69 +113,101 @@ Kirchstrasse 18, CH-9200 Gossau SG · +41 71 388 20 10
 
 <Kachel bild="/img/drittsysteme-nebenkostenabrechnung/07.png" titel="Blockstrom AG">
 
-Morillonstrasse 77, CH-3007 Bern · +41 31 511 20 30
+Morillonstrasse 77, CH-3007 Bern
 
-[www.blockstrom.com](https://www.blockstrom.com/) · [info@blockstrom.com](mailto:info@blockstrom.com)
++41 31 511 20 30
 
-encaissement en option
+[www.blockstrom.com](https://www.blockstrom.com/)
+
+[info@blockstrom.com](mailto:info@blockstrom.com)
+
+en option avec recouvrement
 
 </Kachel>
 
 <Kachel bild="/img/drittsysteme-nebenkostenabrechnung/08.png" titel="Brunata AG">
 
-Althardstrasse 10, CH-8105 Regensdorf · +41 41 669 10 10
+Althardstrasse 10, CH-8105 Regensdorf
 
-[www.brunata.ch](http://www.brunata.ch) · [contact@brunata.ch](mailto:contact@brunata.ch)
++41 41 669 10 10
+
+[www.brunata.ch](http://www.brunata.ch)
+
+[contact@brunata.ch](mailto:contact@brunata.ch)
 
 </Kachel>
 
 <Kachel bild="/img/drittsysteme-nebenkostenabrechnung/09.png" titel="D + R Immobilien AG">
 
-Rebbergstrasse 56a, CH-5621 Zufikon · +41 56 641 91 41
+Rebbergstrasse 56a, CH-5621 Zufikon
 
-[www.drimmobilien.ch](http://www.drimmobilien.ch) · [markus.kuemin@drimmobilien.ch](mailto:markus.kuemin@drimmobilien.ch)
++41 56 641 91 41
+
+[www.drimmobilien.ch](http://www.drimmobilien.ch)
+
+[markus.kuemin@drimmobilien.ch](mailto:markus.kuemin@drimmobilien.ch)
 
 </Kachel>
 
 <Kachel bild="/img/drittsysteme-nebenkostenabrechnung/10.png" titel="Egon AG">
 
-General Wille-Strasse 59, CH-8706 Feldmeilen · +41 58 680 20 05
+General Wille-Strasse 59, CH-8706 Feldmeilen
 
-[www.egonline.ch](https://www.egonline.ch/) · [energie@egonline.ch](mailto:energie@egonline.ch)
++41 58 680 20 05
+
+[www.egonline.ch](https://www.egonline.ch/)
+
+[energie@egonline.ch](mailto:energie@egonline.ch)
 
 </Kachel>
 
 <Kachel bild="/img/drittsysteme-nebenkostenabrechnung/11.png" titel="Enicon AG">
 
-Grubenstrasse 7b, CH-3322 Urtenen-Schönbühl · +41 31 537 10 40
+Grubenstrasse 7b, CH-3322 Urtenen-Schönbühl
 
-[www.enicon.ch](http://www.enicon.ch) · [info@enicon.ch](mailto:info@enicon.ch)
++41 31 537 10 40
 
-Interlocuteur : Urs Mori
+[www.enicon.ch](http://www.enicon.ch)
+
+[info@enicon.ch](mailto:info@enicon.ch)
+
+Interlocuteur Urs Mori
 
 </Kachel>
 
 <Kachel bild="/img/drittsysteme-nebenkostenabrechnung/12.png" titel="IMOVATEC AG">
 
-Rothusstrasse 23, CH-6331 Hünenberg · +41 41 910 50 50
+Rothusstrasse 23, CH-6331 Hünenberg
 
-[www.imovatec.ch](http://www.imovatec.ch) · [info@imovatec.ch](mailto:info@imovatec.ch)
++41 41 910 50 50
+
+[www.imovatec.ch](http://www.imovatec.ch)
+
+[info@imovatec.ch](mailto:info@imovatec.ch)
 
 </Kachel>
 
 <Kachel bild="/img/drittsysteme-nebenkostenabrechnung/13.png" titel="ista swiss ag">
 
-Zofingerstrasse 61, CH-4665 Oftringen · +41 62 764 99 00
+Zofingerstrasse 61, CH-4665 Oftringen
 
-[www.ista-swiss.ch](http://www.ista-swiss.ch) · [info@ista-swiss.ch](mailto:info@ista-swiss.ch)
++41 62 764 99 00
+
+[www.ista-swiss.ch](http://www.ista-swiss.ch)
+
+[info@ista-swiss.ch](mailto:info@ista-swiss.ch)
 
 </Kachel>
 
 <Kachel bild="/img/drittsysteme-nebenkostenabrechnung/14.png" titel="MG partners">
 
-Route du Pissot 2, CH-1847 Rennaz · +41 21 967 33 90
+Route du Pissot 2, CH-1847 Rennaz
 
-[mg-partners.ch](https://mg-partners.ch/) · [info@mg-partners.ch](mailto:info@mg-partners.ch)
++41 21 967 33 90
+
+[mg-partners.ch](https://mg-partners.ch/)
+
+[info@mg-partners.ch](mailto:info@mg-partners.ch)
 
 Prestation en français — prestation de service en français
 
@@ -183,43 +215,63 @@ Prestation en français — prestation de service en français
 
 <Kachel bild="/img/drittsysteme-nebenkostenabrechnung/15.png" titel="pi-System GmbH">
 
-Länggasse 3, CH-6208 Oberkirch · +41 41 229 30 00
+Länggasse 3, CH-6208 Oberkirch
 
-[www.pi-system.ch](http://www.pi-system.ch/) · [info@pi-system.ch](mailto:info@pi-system.ch)
++41 41 229 30 00
+
+[www.pi-system.ch](http://www.pi-system.ch/)
+
+[info@pi-system.ch](mailto:info@pi-system.ch)
 
 </Kachel>
 
 <Kachel bild="/img/drittsysteme-nebenkostenabrechnung/16.png" titel="Rapp Enserv AG">
 
-Hochstrasse 100, CH-4018 Basel · +41 58 595 77 77
+Hochstrasse 100, CH-4018 Basel
 
-[www.rapp.ch](http://www.rapp.ch/) · [info@rapp.ch](mailto:info@rapp.ch)
++41 58 595 77 77
+
+[www.rapp.ch](http://www.rapp.ch/)
+
+[info@rapp.ch](mailto:info@rapp.ch)
 
 </Kachel>
 
 <Kachel bild="/img/drittsysteme-nebenkostenabrechnung/17.png" titel="Roland Meyer AG">
 
-Ebenaustrasse 10, CH-6048 Horw · +41 41 318 36 00
+Ebenaustrasse 10, CH-6048 Horw
 
-[www.rolandmeyer.ch](http://www.rolandmeyer.ch) · [mail@rolandmeyer.ch](mailto:mail@rolandmeyer.ch)
++41 41 318 36 00
+
+[www.rolandmeyer.ch](http://www.rolandmeyer.ch)
+
+[mail@rolandmeyer.ch](mailto:mail@rolandmeyer.ch)
 
 </Kachel>
 
 <Kachel bild="/img/drittsysteme-nebenkostenabrechnung/18.png" titel="Schibli AG">
 
-Centre de compétences Énergies renouvelables
+Centre de compétence Énergies renouvelables
 
-Klosbachstrasse 67, CH-8032 Zürich · +41 44 265 61 01
+Klosbachstrasse 67, CH-8032 Zürich
 
-www.schibli.com · [e-e@schibli.com](mailto:e-e@schibli.com)
++41 44 265 61 01
+
+www.schibli.com 
+
+[e-e@schibli.com](mailto:e-e@schibli.com)
 
 </Kachel>
 
 <Kachel bild="/img/drittsysteme-nebenkostenabrechnung/19.png" titel="Meier Energie GmbH">
 
-Delehala 36, LIE-9493 Mauren · +423 788 00 93
+Delehala 36, LIE-9493 Mauren
 
-[www.meier-energie.li](http://www.meier-energie.li/) · [energie@messbar.li](mailto:energie@messbar.li)
++423 788 00 93
+
+[www.meier-energie.li](http://www.meier-energie.li/)
+
+[energie@messbar.li](mailto:energie@messbar.li)
 
 </Kachel>
 

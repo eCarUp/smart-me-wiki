@@ -4,7 +4,7 @@ slug: '/drittsysteme/zerofy'
 description: 'Zerofy is a cloud-based home energy management system (HEMS).'
 sidebar_label: 'zerofy'
 ---
-Zerofy is a cloud-based home energy management system (HEMS). Zerofy optimizes household energy consumption, the use of solar power and the charging of electric vehicles with intelligent algorithms.
+Zerofy is a cloud-based home energy management system (HEMS). Zerofy uses intelligent algorithms to optimize household energy consumption, the use of solar power and the charging of electric vehicles.
 
 It integrates with smart-me meters to switch devices when there is surplus solar power and to track consumption and production.
 
@@ -16,7 +16,7 @@ Platforms: iOS and Android.
 
 Features:
 
-- Integrates with a wide range of solar inverters, chargers and electric vehicles, heating, ventilation and air conditioning devices, as well as smart home appliances and smart plugs.
+- Integrates with a wide range of solar inverters, chargers and electric vehicles, heating, ventilation and air conditioning units, as well as smart home appliances and smart plugs.
 
 - To connect the devices, you only need to log in to the devices' cloud accounts.
 
@@ -24,7 +24,7 @@ Features:
 
 - Display of the top consumers and manual switching on/off.
 
-- Tracking of energy consumption with a breakdown by individual connected devices.
+- Tracking of energy consumption with a breakdown by individual connected device.
 
 - Tracking of solar power production.
 
@@ -33,13 +33,15 @@ Features:
 - View current electricity prices and the CO2 intensity of grid electricity.
 
 
-Contact:
+## Contact
 
-Zerofy 
+<Kacheln min="20rem">
+<Kachel titel="Zerofy">
 
-E-mail: [hello@zerofy.net](mailto:hello@zerofy.net) 
+[hello@zerofy.net](mailto:hello@zerofy.net) · [www.zerofy.net](https://www.zerofy.net)
 
-Website: [https://www.zerofy.net](https://www.zerofy.net) 
+</Kachel>
+</Kacheln>
 
 
 

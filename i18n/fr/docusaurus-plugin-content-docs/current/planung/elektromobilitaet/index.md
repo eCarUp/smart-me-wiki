@@ -10,25 +10,20 @@ L'électromobilité est un grand consommateur au sein d'un immeuble ou d'un site
 
 ### Gestion de la charge de l'électromobilité
 
-La gestion de la charge, ou le comportement des bornes de recharge face à des ressources définies, est directement liée à la disponibilité effective des bornes de recharge et à la sécurité de fonctionnement de l'ensemble de l'installation.
+La gestion de la charge, c'est-à-dire le comportement des bornes de recharge face à des ressources définies, est directement liée à la disponibilité effective des bornes de recharge et à la sécurité de fonctionnement de l'ensemble de l'installation.
 
 En règle générale, dès deux bornes de recharge dans le système, une gestion de la charge doit piloter activement la répartition de la capacité.
 
-Il s'agit ainsi d'éviter qu'un soutirage de courant trop élevé par l'infrastructure de recharge ne déclenche les protections destinées à protéger l'infrastructure.
-Il en résulterait une coupure de courant temporaire dans une partie ou dans l'ensemble du site, ainsi que des interventions de service pour rétablir la situation.
+Il s'agit d'éviter qu'un soutirage de courant trop élevé de l'infrastructure de recharge ne déclenche les protections destinées à protéger l'infrastructure.
+Il en résulterait une coupure de courant temporaire dans une partie ou dans la totalité du site, ainsi que des interventions de service pour rétablir la situation.
 
-Parallèlement, une réduction de la puissance de recharge doit être garantie lorsque le fournisseur d'énergie doit protéger son réseau en cas de sous-approvisionnement.
+En même temps, une réduction de la puissance de recharge doit être garantie lorsque le fournisseur d'énergie doit protéger son réseau en cas de sous-approvisionnement.
 
-Outre la protection contre les surcharges, la gestion de la charge assume normalement d'autres fonctions :
-
+Outre la protection contre les surcharges, la gestion de la charge assure normalement d'autres fonctions :
 - Protection de l'installation contre les surcharges
-
 - Optimisation de la répartition de l'énergie entre les recharges actives au sein du site
-
-- Prise en compte d'autres consommateurs dans le système et priorisation de ces consommateurs par rapport à l'infrastructure de recharge
-
+- Prise en compte des autres consommateurs du système et priorisation de ces consommateurs par rapport à l'infrastructure de recharge
 - Priorisation des groupes de recharge entre eux
-
 - Priorisation de l'utilisation des tarifs pour la recharge des véhicules (p. ex. optimisée pour le courant du réseau ou pour le solaire)
 
 
@@ -36,16 +31,16 @@ Vous trouverez plus de détails sous « Description de la gestion de la charge �
 
 ### Décompte de l'électromobilité aux locataires
 
-Les bornes de recharge sont de gros consommateurs et génèrent des coûts en conséquence lors de leur utilisation.
-D'une part l'énergie utilisée pour la recharge, d'autre part le courant de fonctionnement et les pertes qui en résultent, ainsi qu'une éventuelle location de la borne de recharge.
+Les bornes de recharge sont de gros consommateurs et génèrent des coûts correspondants lors de leur utilisation.
+En premier lieu l'énergie utilisée pour la recharge, d'autre part le courant de fonctionnement et les pertes qui en découlent, ainsi qu'une éventuelle location de la borne de recharge.
 
-Le décompte peut s'effectuer au tarif unique ou à plusieurs tarifs, p. ex. heures pleines, heures creuses et tarif solaire, en fonction du matériel utilisé et de la combinaison de solutions de décompte.
+Le décompte peut se faire à tarif unique ou à tarifs multiples, p. ex. tarif heures pleines, heures creuses et tarif solaire, en fonction du matériel utilisé et de la combinaison de solutions de décompte.
 
 Vous trouverez plus de détails sous « Décompte » dans la partie thématique correspondante.
 
 ### Décompte de l'électromobilité envers des tiers ou des inconnus (public / semi-public)
 
-L'installation d'une infrastructure de recharge entraîne souvent des coûts élevés. Rendre la borne de recharge accessible à des tiers est un bon moyen d'accélérer l'amortissement ou de proposer une offre publique souhaitée. 
+L'installation d'une infrastructure de recharge engendre souvent des coûts élevés. Rendre la borne de recharge accessible à des tiers est un bon moyen d'accélérer l'amortissement ou de proposer une offre publique souhaitée. 
 
 Pour mettre une borne de recharge à la disposition du public, un logiciel backend d'électromobilité est nécessaire.
 
@@ -67,33 +62,21 @@ Vous trouverez plus de détails sous « Décompte » dans la partie thématique 
 </div>
 <div className="col col--4 text--center">
 
-![Électromobilité – Figure 1](/img/planung-elektromobilitaet/01.png)
+![Électromobilité – Illustration 1](/img/planung-elektromobilitaet/01.png)
 
 </div>
 </div>
 
-### RCP smart-me et borne de recharge smart-me Pico
+### RCP (regroupement dans le cadre de la consommation propre) smart-me / électricité pour les locataires et borne de recharge smart-me Pico
 
 [Solution détaillée](/planung/elektromobilitaet/smart-me-zev-und-pico)
 
 [Projektkonfigurator](/planung/Projektkonfigurator)
 
-![Électromobilité – Figure 2](/img/planung-elektromobilitaet/02.png)
-
-![Électromobilité – Figure 3](/img/planung-elektromobilitaet/03.png)
-
-### RCP smart-me et bornes tierces
+### RCP smart-me / électricité pour les locataires et bornes tierces
 
 [Solution détaillée](/planung/elektromobilitaet/smart-me-zev-und-fremdstationen)
 
-![Électromobilité – Figure 4](/img/planung-elektromobilitaet/04.png)
-
-![Électromobilité – Figure 5](/img/planung-elektromobilitaet/05.png)
-
-### RCP d'un fournisseur tiers et borne de recharge smart-me Pico
+### RCP d'un fournisseur tiers / électricité pour les locataires et borne de recharge smart-me Pico
 
 [Solution détaillée](/planung/elektromobilitaet/drittanbieter-zev-und-pico)
-
-![Électromobilité – Figure 6](/img/planung-elektromobilitaet/06.png)
-
-![Électromobilité – Figure 7](/img/planung-elektromobilitaet/07.png)

@@ -1,47 +1,73 @@
 ---
-title: 'Contatto'
+title: 'Contatto Svizzera'
 slug: '/kontakt'
-description: 'Se qui non hai trovato una risposta alla tua domanda, il nostro supporto è a tua disposizione.'
-sidebar_label: 'Contatto'
+description: 'Interlocutori per la Svizzera e il Liechtenstein: vendita, licenze e supporto tecnico.'
+sidebar_label: 'Contatto Svizzera'
 ---
-Se qui non hai trovato una risposta alla tua domanda, il nostro supporto è a tua disposizione.
+Questa pagina vale per la Svizzera e il Liechtenstein. Per la Germania esiste un [contatto dedicato](/kontakt-deutschland).
+
+Se qui non trovi una risposta alla tua domanda, il nostro supporto è a tua disposizione.
 
 ### Importante da sapere
 
 smart-me è un fornitore di hardware e tecnologia. Non realizziamo progetti e non eseguiamo configurazioni di impianti per clienti finali. Il nostro supporto tecnico è di norma rivolto esclusivamente ai partner certificati.
 
-### Per i clienti privati
+### Clienti privati e futuri partner
 
-Come cliente privato, trovi i nostri partner di progetto su questa mappa:
+<Kacheln min="18rem">
 
-[Mostra i partner di progetto sulla mappa](https://web.smart-me.com/projektpartner/)
+<Kachel titel="Per clienti privati" href="https://web.smart-me.com/projektpartner/">
 
-### Diventare partner
+Come cliente privato trovi i nostri partner di progetto sulla mappa.
 
-Vuoi diventare partner o partecipare a una formazione?
+</Kachel>
 
-[All'iscrizione alla formazione per partner](https://web.smart-me.com/partner-werden/)
+<Kachel titel="Diventare partner" href="https://web.smart-me.com/partner-werden/">
 
-### Contatto per vendite e partnership
+Vuoi diventare partner o partecipare a una formazione? Qui puoi iscriverti alla formazione per partner.
 
-Telefono: +41 41 511 09 99 E-mail: [info@smart-me.com](mailto:info@smart-me.com)
+</Kachel>
 
-### Primo contatto / offerte:
+</Kacheln>
 
-verkauf@smart-me.com / +41 41 511 09 99
+### Contatto per vendita e partnership
 
-### Attivazione delle licenze:
+Centralino: +41 41 511 09 99 · [info@smart-me.com](mailto:info@smart-me.com)
 
-administration@smart-me.com / +41 41 511 09  99
+<Kacheln min="15rem">
 
-### Supporto tecnico:
+<Kachel titel="Primo contatto / offerte">
 
-support@smart-me.com / +41 41 511 09 70
+[verkauf@smart-me.com](mailto:verkauf@smart-me.com)
 
-Supporto TeamViewer:
++41 41 511 09 99
 
-Disponibile solo previo accordo telefonico.
+</Kachel>
 
-[![Contatto – Figura 1](/img/kontakt/01.jpg)](https://get.teamviewer.com/68stbb8)
+<Kachel titel="Attivazione licenze">
 
-[Scarica TeamViewer per smart-me](https://get.teamviewer.com/68stbb8)
+[administration@smart-me.com](mailto:administration@smart-me.com)
+
++41 41 511 09 99
+
+</Kachel>
+
+<Kachel titel="Supporto tecnico">
+
+[support@smart-me.com](mailto:support@smart-me.com)
+
++41 41 511 09 70
+
+</Kachel>
+
+</Kacheln>
+
+<Kacheln min="22rem">
+
+<Kachel bild="/img/kontakt/01.jpg" bildtext="TeamViewer per smart-me" titel="Supporto TeamViewer" href="https://get.teamviewer.com/68stbb8">
+
+Disponibile solo previo accordo telefonico. Tramite questo riquadro scarichi TeamViewer per smart-me.
+
+</Kachel>
+
+</Kacheln>

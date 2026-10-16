@@ -17,42 +17,42 @@ This article covers the first Pico generation (article number 202170exA). You ca
 
 [Accessories](/produkte/pico-ladestation/pico-zubehör)
 
-[Recommended material RCD Type A](/produkte/pico-ladestation/materialempfehlung-rcd-typ-a)
+[Material recommendation RCD Typ-A](/produkte/pico-ladestation/materialempfehlung-rcd-typ-a)
 
-## Features
+## Functions
 
 - Integrated load management and load balancing with phase balancing
 
-- Easy mounting (small and lightweight), suitable for flat ribbon cable
+- Easy mounting (small and light), suitable for flat ribbon cable
 
 - Identification via RFID, app, CarID and ready for ISO 15118 (Powerline)
 
-- Encrypted real-time data connection to the smart-me and eCarUp cloud 
+- Encrypted real-time data connection to the smart-me and eCarUp Cloud 
 
 - Easy installation with the free smart-me app.
 
-- Interfaces to third-party systems via API, CSV, MSCONS, IS-E and others
+- Interfaces to third-party systems via API, CSV, MSCONS, IS-E and more
 
 
-## Pico Commissioning
+## Pico commissioning
 
 Before you can use your smart-me device, you must connect it to your WiFi network.
 
-1.  Connect your smartphone or tablet to the WiFi network.
+1.  Connect your smartphone or tablet to the WLAN.
 
 2.  Download and install the free smart-me app.
 
 3.  Start the app and create a free account
 
-4.  Click on "Add device" (Gerät hinzufügen) (+) and follow the instructions.
+4.  Click on "Add device" („Gerät hinzufügen“) (+) and follow the instructions.
 
-    1.  1.  Select WiFi or LTE (2.4Ghz or mobile)
+    1.  1.  Select WLAN or LTE (2.4Ghz or mobile)
 
-        2.  Enter the password (WiFi)
+        2.  Enter the password (WLAN)
 
         3.  Hold the supplied RFID card to the reader for 10 seconds
 
-        4.  Connect the mobile phone to the local WiFi of the Pico (networks: smartme\_serialnumber) and keep it connected.
+        4.  Connect the mobile phone to the Pico's local WLAN (networks: smartme\_Serienummer) and keep it connected.
 
         5.  Return to the app
 
@@ -63,7 +63,7 @@ Before you can use your smart-me device, you must connect it to your WiFi networ
 
 The configuration is covered in detail here: [Pico Configuration](/konfiguration/inbetriebnahme/pico-konfiguration) 
 
-## Technical Data
+## Technical data
 
 Maximum charging power  22 kW at 32A three-phase, 7.36 kW at 32A single-phase
 
@@ -77,7 +77,7 @@ Load management  Automatic load management across multiple stations
 
 Communication  WiFi (2.4 GHz) and mobile communications (LTE) incl. SIM and data traffic for 10 years from [1nce](https://1nce.com/de/laenderabdeckung/), [Modbus TCP](/)
 
-Cloud connection  Connection to smart-me and eCarUp cloud
+Cloud connection  Connection to smart-me and eCarUp Cloud
 
 Safety  Article number 202170exA RDC-DD 6mA according to IEC 62955 (residual direct current detection device)
 
@@ -111,11 +111,11 @@ Cable diameter  10-20 mm
 
 Server location Switzerland 
 
-## Pico Connections and Dimensions
+## Pico connections and dimensions
 
 ![Pico EV Charger – Figure 2](/img/produkte-pico-ladestation-exa/02.jpg)
 
-### Wiring Diagram
+### Connection diagram
 
 L1: Phase 1
 
@@ -125,29 +125,29 @@ L3: Phase 3
 
 N: Neutral conductor
 
-PE: Protective earth
+PE: Protective earth conductor
 
 
 
-The protective earth should be attached to the upper connection screw so that the stand is earthed directly together with the station.
+The protective earth conductor should be attached to the upper connection screw so that the stand is earthed directly together with the station.
 
-The product can only be operated in a 3-phase star connection or single-phase!
+The product can only be operated in 3-phase star connection or single-phase!
 
 
 
 Cable routing
 
-Cables can be routed into and out of Pico at 5 points. 
+On the Pico, cables can be routed in and out at 5 points. 
 
 Two at the top, two at the bottom and one through the back plate.
 
 When mounting through the back plate, a hole with a diameter of 25-26mm must be drilled.
 
-Details on mounting the stand can be found in the installation instructions in the downloads.
+Details on stand mounting can be found in the installation instructions in the downloads.
 
-### Load Shedding (External Inputs)
+### Load shedding (external inputs)
 
-[](https://drive.google.com/open?id=1CnvydIjsXnRTXNFNnteObEg5VLJM9RqU5_PA78Gd_kY "Open Spreadsheet, Pico Lastabwurf in new window")
+[](https://drive.google.com/open?id=1CnvydIjsXnRTXNFNnteObEg5VLJM9RqU5_PA78Gd_kY "Open Spreadsheet, Pico load shedding in new window")
 
 <Embed src="https://docs.google.com/spreadsheets/d/1CnvydIjsXnRTXNFNnteObEg5VLJM9RqU5_PA78Gd_kY/htmlembed?gid=0" height="245px" title="Spreadsheet, Pico load shedding" />
 
@@ -161,11 +161,11 @@ For the configuration from 6A minimum power to maximum charging power, the signa
 
 
 
-Caution:
-Load shedding can either be wired to all Picos or, at a minimum, to one from each load group.
+Attention:
+Load shedding can either be wired to all Picos or at least to one from each load group.
 This function is also guaranteed without an internet connection.
 
-Alternatively, load shedding can also be carried out via the if/then actions and Pico control.
+Alternatively, load shedding can also be carried out via the IF/THEN actions and Pico control.
 
 ![Pico EV Charger – Figure 3](/img/produkte-pico-ladestation-exa/03.png)
 
@@ -173,7 +173,7 @@ Alternatively, load shedding can also be carried out via the if/then actions and
 
 ![Pico EV Charger – Figure 4](/img/produkte-pico-ladestation-exa/04.png)
 
-## Shipping Information
+## Shipping information
 
 ### 212070 smart-me PICO charging station incl. mounting plate
 
@@ -199,7 +199,7 @@ Packages per Euro pallet: 72 pieces
 
 [Accessories](/produkte/pico-ladestation/pico-zubehör) 
 
-## Safety Instructions
+## Safety instructions
 
 The safety instructions must be observed under all circumstances:
 
@@ -207,11 +207,11 @@ Installation, maintenance, repair, commissioning:
 
 - Read the entire manual carefully before installing and operating the product.
 
-- Danger to life from high electrical voltage. Never make changes to components, software or connection cables unless they are de-energised. For this reason, remove the corresponding upstream fuses and store them so that other persons cannot reinsert them unnoticed.
+- Danger to life from high electrical voltage. Never make changes to components, software or connecting cables without first disconnecting the power. The corresponding back-up fuses must therefore be removed and stored in such a way that other people cannot reinsert them unnoticed.
 
-- The product may only be installed, repaired or maintained by a licensed electrician. All applicable local, regional and national regulations for electrical installations must be observed. 
+- The product may only be installed, repaired or maintained by an authorised qualified electrician. All applicable local, regional and national regulations for electrical installations must be observed. 
 
-- The installation must not take place near flammable or explosive media, in flood-prone areas (underground car park) or in areas where there is a risk of running water. 
+- The installation must not be carried out near flammable or explosive media, in flood-prone areas (underground car park) or in areas where there is a risk of running water. 
 
 - The product must be installed at a permanent location. The connections on the Pico and the back plate are designed for a limited number of plug-in cycles. 
 
@@ -226,7 +226,7 @@ Installation, maintenance, repair, commissioning:
 
 Intended use:
 
-- This product is intended exclusively for charging electrically powered vehicles equipped with non-gassing batteries. The product may only be used with a charging cable according to IEC 62196. Uses other than those specified here are not permitted.
+- This product is intended exclusively for charging electrically powered vehicles equipped with non-gassing batteries. The product may only be used with a charging cable according to IEC 62196. Any use other than that specified here is not permitted.
 
 - The device is intended for indoor and outdoor use.
 
@@ -241,11 +241,11 @@ Operation:
 
 - This product is not intended for operation by persons with limited physical, mental or sensory abilities (including children) or persons without knowledge of the product. 
 
-- Ensure that children do not play with the product.
+- Make sure that children do not play with the product.
 
 - Never touch the contacts of the Type 2 charging socket and do not insert foreign objects into the product. 
 
-- Never use the charging cable if it is damaged or if the connectors are wet or dirty. 
+- Never use the charging cable if it is damaged or the connectors are wet or dirty. 
 
 - Do not use extension cables or non-approved adapters in combination with the product. 
 
@@ -253,9 +253,9 @@ Operation:
 
 - Only pull the charging cable out of the charging holder by the plug. 
 
-- Do not place the charging cable in the path of other road users and always position it so that there is no risk of tripping. 
+- Do not lay the charging cable in the paths of other road users and always position it so that there is no risk of tripping. 
 
-- Protect the charging cable from weather influences such as direct sunlight, wind, rain, humidity and wetness, and never connect it with damp or wet hands. 
+- Protect the charging cable from weather influences such as direct sunlight, wind, rain, humidity and moisture, and never connect it with damp or wet hands. 
 
 - Do not use the product near strong electromagnetic fields or in the immediate vicinity of mobile phones.
 
@@ -278,4 +278,4 @@ Technical documents
 
 [Declaration of conformity (non-MID)](https://drive.google.com/file/d/1Jx0MrqCpLrfEZa3ts7U19iJQQLQpyRww/view?usp=drive_link)
 
-[Wiring diagram ZIP files](https://drive.google.com/file/d/1aVOLmWprogy2OizkcyH3kHsHntu0A8-D/view?usp=share_link)
+[Connection diagram ZIP files](https://drive.google.com/file/d/1aVOLmWprogy2OizkcyH3kHsHntu0A8-D/view?usp=share_link)

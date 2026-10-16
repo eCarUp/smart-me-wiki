@@ -15,17 +15,17 @@ Svantaggio:
 
 - Nessuna fatturazione automatica per l'elettricità
 
-- Inserimento multiplo delle tariffe elettriche (per ogni immobile)
+- Inserimento multiplo delle tariffe elettriche (per immobile)
 
 
-### Elettricità con o senza mobilità elettrica e multienergia con più edifici e riscaldamenti individuali (complesso residenziale)
+### Elettricità con o senza mobilità elettrica e multienergia con più edifici e riscaldamenti individuali. (Complesso residenziale)
 
 Rilevante per RCP (raggruppamento ai fini del consumo proprio) con contatori elettrici, contatori multienergia, più edifici e, facoltativamente, stazioni di ricarica.
 
-Per le aree con più edifici e sistemi di riscaldamento individuali va creato un immobile per ogni sistema di riscaldamento. Se quindi tre edifici hanno sistemi di riscaldamento diversi, la configurazione deve essere eseguita secondo il punto 3c.
+Nelle aree con più edifici e sistemi di riscaldamento individuali occorre creare un immobile per ogni sistema di riscaldamento. Se quindi tre edifici hanno sistemi di riscaldamento diversi, la configurazione deve essere eseguita secondo il punto 3c.
 
 Nota:
-Se un solo edificio dispone di un riscaldamento individuale e gli altri due condividono un riscaldamento centralizzato, bastano due immobili che raggruppano in modo adeguato gli utenti.
+Se solo un edificio dispone di un riscaldamento individuale e gli altri due condividono un riscaldamento centralizzato, bastano due immobili che raggruppino in modo adeguato gli utenti.
 
 Esempio:
 Tre edifici denominati Altgasse 13, Altgasse 15+17, Altgasse 19.
@@ -37,9 +37,9 @@ Ognuno dispone di una propria pompa di calore per il riscaldamento e la produzio
 
 ### Assegnazione dei contatori
 
-Assegna ai nodi i contatori rilevanti tramite la funzione drag and drop.
+Assegna ai nodi i contatori pertinenti con la funzione drag and drop.
 
-Informazione importante sull'assegnazione:
+Informazioni importanti sull'assegnazione:
 
 Elettricità / calore / acqua
 
@@ -47,7 +47,7 @@ Assegna i punti di misura direttamente alle unità di conteggio solo se il desti
 
 Se vuoi assegnare un contatore solo in parte a un'unità di conteggio individuale, sposta il contatore in un nodo all'interno del nodo "Contatori tecnici" ("Technischen Zähler").
 
-In seguito, nel Billing un contatore di questo tipo può essere ripartito in percentuale.
+In seguito, nel Billing, un contatore di questo tipo può essere ripartito in percentuale.
 
 Esempi:
 
@@ -58,7 +58,7 @@ Esempi:
 
 Stazioni di ricarica con smart-me Pico / Zaptec / Easee
 
-Non assegnare le stazioni di ricarica direttamente agli appartamenti, crea piuttosto un'unità di conteggio separata per la stazione di ricarica. In questo modo i cambi di inquilino possono essere gestiti più facilmente.
+Non assegnare le stazioni di ricarica direttamente agli appartamenti; crea piuttosto un'unità di conteggio separata per la stazione di ricarica. In questo modo i cambi di inquilino si gestiscono più facilmente.
 
 Stazioni di ricarica di altri produttori
 
@@ -72,7 +72,7 @@ Le stazioni di ricarica di altri produttori non vengono gestite né conteggiate 
 
 ### Infine, crea gli allarmi per un'interruzione della connessione.
 
-In questo modo ti accorgi tempestivamente quando un contatore smette di funzionare e riduci al minimo la lacuna nei dati di misura che ne deriva. 
+In questo modo ti accorgi tempestivamente se un contatore smette di funzionare e riduci al minimo la lacuna nei dati di misura che ne deriva. 
 
 ### Passo successivo
 
@@ -93,9 +93,9 @@ Svantaggio:
 
 - Registrazione multipla dei contratti degli inquilini
 
-Per questa configurazione bisogna creare un immobile aggiuntivo solo per l'elettricità, che comprenda tutti gli appartamenti dei tre edifici.
+Per questa configurazione occorre creare un immobile aggiuntivo solo per l'elettricità, che comprenda tutti gli appartamenti dei tre edifici.
 
-A questo immobile vengono assegnati solo i contatori elettrici.
+In questo immobile vengono assegnati solo i contatori elettrici.
 
 </div>
 <div className="col col--5 text--center">
@@ -107,7 +107,7 @@ A questo immobile vengono assegnati solo i contatori elettrici.
 
 ### Infine, crea gli allarmi per un'interruzione della connessione.
 
-In questo modo ti accorgi tempestivamente quando un contatore smette di funzionare e riduci al minimo la lacuna nei dati di misura che ne deriva. 
+In questo modo ti accorgi tempestivamente se un contatore smette di funzionare e riduci al minimo la lacuna nei dati di misura che ne deriva. 
 
 ### Passo successivo
 

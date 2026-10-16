@@ -1,14 +1,12 @@
 ---
 title: 'Switzercloud / Colibird'
 slug: '/drittsysteme/switzercloud-colibird'
-description: 'La Switzercloud permet de connecter et de collecter des données provenant de différents fabricants, technologies de transmission, applications et systèmes.'
+description: 'La Switzercloud permet de connecter et de collecter des données de différents fabricants, technologies de transmission, applications et systèmes.'
 sidebar_label: 'Switzercloud / Colibird'
 ---
-La Switzercloud permet de connecter et de collecter des données provenant de différents fabricants, technologies de transmission, applications et systèmes.
+La Switzercloud permet de connecter et de collecter des données de différents fabricants, technologies de transmission, applications et systèmes.
 
 Avec la Switzercloud, collectez les données d'appareils IoT utilisant les voies de transmission les plus diverses, des capteurs LORAWAN aux appareils Ethernet, jusqu'aux transferts de données directs de cloud à cloud (API).
-
-
 
 1.  Collecter les données
 
@@ -18,13 +16,12 @@ Avec la Switzercloud, collectez les données d'appareils IoT utilisant les voies
 
 4.  Alerter et piloter
 
-
 ![Switzercloud / Colibird – Illustration 1](/img/drittsysteme-switzercloud-colibird/01.png)
 
 <div className="row">
 <div className="col col--7">
 
-La Switzercloud peut récupérer, collecter et traiter les données de mesure du portail smart-me via l'API.
+La Switzercloud peut récupérer les données de mesure du portail smart-me via l'API, puis les collecter et les traiter.
 Le traitement aboutit à des alertes, des rapports, des facturations, des commandes et/ou des visualisations à l'aide de Colibird.
 
 </div>
@@ -37,14 +34,14 @@ Le traitement aboutit à des alertes, des rapports, des facturations, des comman
 
 ![Switzercloud / Colibird – Illustration 3](/img/drittsysteme-switzercloud-colibird/03.png)
 
-Contact :
+## Contact
 
-Brunata AG
+<Kacheln min="20rem">
+<Kachel titel="Brunata AG">
 
-Im Feld 1
+Im Feld 1, CH-6072 Sachseln
 
-CH-6072 Sachseln
+[info@switzer.cloud](mailto:info@switzer.cloud) · [www.switzer.cloud](http://www.switzer.cloud)
 
-E-mail : info@switzer.cloud  
-
-Site web : [www.switzer.cloud](http://www.switzer.cloud)
+</Kachel>
+</Kacheln>

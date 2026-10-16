@@ -1,10 +1,10 @@
 ---
-title: 'smart-me ZEV und Fremdstationen'
+title: 'smart-me ZEV / Mieterstrom und Fremdstationen'
 slug: '/planung/elektromobilitaet/smart-me-zev-und-fremdstationen'
-description: 'E-Mobilität in der smart-me ZEV mit Drittanbieter Ladestationen'
-sidebar_label: 'smart-me ZEV und Fremdstationen'
+description: 'smart-me ZEV mit Drittanbieter Ladestationen'
+sidebar_label: 'smart-me ZEV / Mieterstrom und Fremdstationen'
 ---
-## E-Mobilität in der smart-me ZEV mit Drittanbieter Ladestationen
+## E-Mobilität in der smart-me ZEV / Mieterstrom mit Drittanbieter Ladestationen
 
 ![smart-me ZEV und Fremdstationen – Abbildung 1](/img/planung-elektromobilitaet-smart-me-zev-und-fremdstationen/01.png)
 

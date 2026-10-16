@@ -1,46 +1,46 @@
 ---
 title: 'Standard Metering Concept'
 slug: '/planung/standard-messkonzept'
-description: 'Tariffing of the standard metering concept'
+description: 'Tariff setup for the standard metering concept'
 sidebar_label: 'Standard Metering Concept'
 ---
 ![Standard metering concept – Figure 1](/img/planung-standard-messkonzept/01.png)
 
-## Tariffing of the standard metering concept
+## Tariff setup for the standard metering concept
 
-The metering concept is tariffed using the balance meter and production, or alternatively using consumption / PV or battery with the balance meter referenced.
+The tariffs for the metering concept are set up using the balance meter and production, or alternatively using consumption / PV or battery with a reference to the balance meter.
 
-### Tariffing with solar tariff incl. vZEV
+### Tariff setup with solar tariff incl. vZEV
 
 The balance meter is referenced for the tariff calculation.
 
-When using the solar tariff incl. vZEV (virtual ZEV), no additional licenses for virtual meters are required.
+When you use the solar tariff incl. vZEV (Solartarif inkl. vZEV), no additional licences for virtual meters are required.
 
-Balance meter (Bilanzzähler)
+Balance meter
 
-The building connection meter is referenced as the balance meter.
+The building connection meter is referenced as the balance meter (Bilanzzähler).
 
 ![Standard metering concept – Figure 2](/img/planung-standard-messkonzept/02.png)
 
-Production meter (Produktionszähler)
+Production meter
 
-All production meters and battery meters are recorded as production.
+All production meters and battery meters are entered as production (Produktion).
 
 ![Standard metering concept – Figure 3](/img/planung-standard-messkonzept/03.png)
 
-### Tariffing using solar tariff (consumption / PV) with or without battery tariff (consumption / battery)
+### Tariff setup using the solar tariff (consumption / PV) with or without battery tariff (consumption / battery)
 
-The balance meter is ignored for the tariff calculation; it is only considered later for verification.
+The balance meter is ignored for the tariff calculation. It is only checked later for verification.
 
-When using the solar tariff (consumption / PV), additional licenses for virtual meters are required.
+When you use the solar tariff (consumption / PV) (Solartarif Verbrauch / PV), additional licences for virtual meters are required.
 
-At a minimum, the total consumption is required. It is created as a virtual meter made up of all outgoing circuits participating in the tenant electricity scheme.
+At a minimum, total consumption is required. It is created as a virtual meter made up of all participating outgoing circuits of the tenant electricity.
 
-Total consumption = Apartment 1.1 + Apartment 1.2 + Apartment 2.1 + General + Parking space 1 + Parking space 2 + Heat pump
+Total consumption = Apartment 1.1 + Apartment 1.2 + Apartment 2.1 + Common areas + Parking space 1 + Parking space 2 + Heat pump
 
-Under Production (Produktion), the solar system meter is added, or the battery meter in the case of the battery tariff.
+Under production (Produktion), add the solar system meter, or the battery meter for the battery tariff.
 
-Under Total consumption (Gesamtverbrauch), the virtually created total consumption is stored.
+Under total consumption (Gesamtverbrauch), enter the virtually created total consumption.
 
 The balance meter is deliberately referenced here to increase accuracy!
 
@@ -48,6 +48,6 @@ The balance meter is deliberately referenced here to increase accuracy!
 
 ### Validation and billing by the energy supplier
 
-The totals of the grid electricity sold correspond approximately to the amount of electricity billed by the energy supplier
+The totals of the grid electricity sold roughly match the amount of electricity billed by the energy supplier.
 
-The amount of electricity fed back in the export register of the balance meter corresponds approximately to the amount stated in the feed-in remuneration of the energy supplier.
+The amount of feed-in electricity in the export register of the balance meter roughly matches the amount in the energy supplier's feed-in remuneration.

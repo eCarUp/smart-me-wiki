@@ -41,10 +41,15 @@ Quelle: [https://www.pfiffner-group.com](https://www.pfiffner-group.com/)  
 
 Mögliche Bezugsquellen:
 
-- Pfiffner Messwandler direkt
-    Kontakt Pfiffner: Herr Samuel Gloor
-    Email: [msns@pmw.ch](mailto:msns@pmw.ch)
-    Tel: +41 62 739 29 19
+<Kacheln min="20rem">
+<Kachel titel="Pfiffner Messwandler direkt">
+
+Herr Samuel Gloor
+
++41 62 739 29 19 · [msns@pmw.ch](mailto:msns@pmw.ch)
+
+</Kachel>
+</Kacheln>
 
 
 Eichung für Verrechnungszwecke:
@@ -76,9 +81,13 @@ Quelle: [https://hager.com/](https://hager.com/)
 
 Mögliche Bezugsquellen:
 
-- Hager direkt
-    Email:  [emmenbruecke@hager.com](mailto:emmenbruecke@hager.com)  
-    Tel: +41 41 269 90 00
+<Kacheln min="20rem">
+<Kachel titel="Hager direkt">
+
++41 41 269 90 00 · [emmenbruecke@hager.com](mailto:emmenbruecke@hager.com)
+
+</Kachel>
+</Kacheln>
 
 
 Eichung für Verrechnungszwecke:

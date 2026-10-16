@@ -7,7 +7,7 @@ displayed_sidebar: wikiSidebar
 ---
 RDC-DD 6mA secondo IEC 62955 (dispositivo di rilevamento della corrente continua di guasto)
 
-Pico è la stazione di ricarica high-tech svizzera. Si collega direttamente al cloud tramite Wi-Fi o rete mobile. Il contatore intelligente integrato esporta dati di misura ad alta precisione, che vengono firmati durante le transazioni e possono essere verificati gratuitamente in qualsiasi momento. La stazione può essere integrata in un backend (eCarUp), in sistemi di gestione dell'energia e in altri sistemi di terzi. Inoltre, Pico può essere utilizzata sia per la gestione del carico statica sia per quella dinamica (incluso il bilanciamento delle fasi).
+Pico è la stazione di ricarica high-tech svizzera. Si collega direttamente al cloud tramite Wi-Fi o rete mobile. Lo smart meter integrato esporta dati di misura ad alta precisione, che vengono firmati durante le transazioni e possono essere verificati gratuitamente in qualsiasi momento. La stazione può essere integrata in un backend (eCarUp), in sistemi di gestione dell'energia e in altri sistemi di terzi. Inoltre, Pico può essere utilizzata sia per la gestione del carico statica sia per quella dinamica (incluso il bilanciamento delle fasi).
 
 Questo articolo riguarda la prima generazione di Pico (numero di articolo 202170exA). Tutte le informazioni sulla versione più recente di Pico sono disponibili qui: [Stazione di ricarica Pico](/produkte/pico-ladestation).
 
@@ -17,13 +17,13 @@ Questo articolo riguarda la prima generazione di Pico (numero di articolo 202170
 
 [Accessori](/produkte/pico-ladestation/pico-zubehör)
 
-[Materiale consigliato RCD Typ-A](/produkte/pico-ladestation/materialempfehlung-rcd-typ-a)
+[Raccomandazione materiale RCD Typ-A](/produkte/pico-ladestation/materialempfehlung-rcd-typ-a)
 
 ## Funzioni
 
 - Gestione del carico e bilanciamento del carico integrati con bilanciamento delle fasi
 
-- Montaggio semplice (piccola e leggera), adatta per il cavo piatto
+- Montaggio semplice (piccola e leggera), adatta al cavo piatto
 
 - Identificazione tramite RFID, app, CarID e predisposta per ISO 15118 (Powerline)
 
@@ -44,7 +44,7 @@ Prima di poter utilizzare il Suo dispositivo smart-me, deve collegarlo alla Sua 
 
 3.  Avvii l'app e crei un account gratuito
 
-4.  Clicchi su «Aggiungi dispositivo» („Gerät hinzufügen“) (+) e segua le istruzioni.
+4.  Clicchi su "Aggiungi dispositivo" („Gerät hinzufügen“) (+) e segua le istruzioni.
 
     1.  1.  Selezionare WLAN o LTE (2.4Ghz o rete mobile)
 
@@ -52,7 +52,7 @@ Prima di poter utilizzare il Suo dispositivo smart-me, deve collegarlo alla Sua 
 
         3.  Tenere la carta RFID fornita davanti al lettore per 10 secondi
 
-        4.  Collegare il telefono cellulare alla rete WLAN locale della Pico (reti: smartme\_Numerodiserie) e mantenere la connessione.
+        4.  Collegare il telefono cellulare alla rete WLAN locale della Pico (reti: smartme\_NumeroDiSerie) e mantenere la connessione.
 
         5.  Tornare all'app
 
@@ -75,7 +75,7 @@ Bilanciamento delle fasi  Bilanciamento automatico delle fasi
 
 Gestione del carico  Gestione automatica del carico su più stazioni
 
-Comunicazione  WiFi (2.4 GHz) e rete mobile (LTE) incl. SIM e traffico dati per 10 anni di [1nce](https://1nce.com/de/laenderabdeckung/), [Modbus TCP](/)
+Comunicazione  WiFi (2.4 GHz) e rete mobile (LTE) incl. SIM e traffico dati per 10 anni da [1nce](https://1nce.com/de/laenderabdeckung/), [Modbus TCP](/)
 
 Connessione cloud  Connessione al cloud smart-me ed eCarUp
 
@@ -87,17 +87,17 @@ Tensioni di rete 3x230/400VAC o 1x 230VAC (+/-10%)
 
 Presa di ricarica  IEC 62196-2 Tipo 2 
 
-Grado di protezione  IP55 (ambienti interni ed esterni)
+Grado di protezione  IP55 (interno ed esterno)
 
 Grado di resistenza agli urti  IK10
 
 Classe di infiammabilità  UL94
 
-Distacco del carico  2 ingressi a potenziale libero (4 stati),  min. 12V AC/DC, max. 48 VDC / 230 VAC
+Distacco del carico  2 ingressi a potenziale zero (4 stati),  min. 12V AC/DC, max. 48 VDC / 230 VAC
 
 Uscita S0  Interfaccia S0 (1000 imp/kwh) per la taratura
 
-Allacciamento elettrico  sopra, sotto, dietro
+Allacciamento elettrico  in alto, in basso, sul retro
 
 Tipo di installazione  Barra conduttrice, cavo piatto, a stella
 
@@ -117,15 +117,15 @@ Ubicazione dei server Svizzera
 
 ### Schema di collegamento
 
-L1: Fase 1
+L1: fase 1
 
-L2: Fase 2
+L2: fase 2
 
-L3: Fase 3
+L3: fase 3
 
-N: Conduttore neutro
+N: conduttore neutro
 
-PE: Conduttore di protezione
+PE: conduttore di protezione
 
 
 
@@ -139,7 +139,7 @@ Passaggi dei cavi
 
 Su Pico i cavi possono entrare e uscire in 5 punti. 
 
-Due sopra, due sotto e uno attraverso la piastra posteriore.
+Due in alto, due in basso e uno attraverso la piastra posteriore.
 
 Per il montaggio attraverso la piastra posteriore occorre praticare un foro con un diametro di 25-26mm.
 
@@ -157,7 +157,7 @@ Il distacco del carico può essere realizzato anche con un solo segnale disponib
 
 Per la configurazione da nessuna ricarica alla potenza di ricarica massima, il segnale viene cablato su IN1 e IN2  nonché su COM.
 
-Per la configurazione da una potenza minima di 6A alla potenza di ricarica massima, il segnale deve essere cablato solo su IN2 e su COM.
+Per la configurazione da una potenza minima di 6A alla potenza di ricarica massima, il segnale deve essere cablato solo su IN2 e COM.
 
 
 
@@ -173,9 +173,9 @@ In alternativa, il distacco del carico può avvenire anche tramite le azioni SE/
 
 ![Stazione di ricarica Pico – Figura 4](/img/produkte-pico-ladestation-exa/04.png)
 
-## Informazioni sulla spedizione
+## Informazioni di spedizione
 
-### 212070 smart-me PICO stazione di ricarica incl. piastra di montaggio
+### 212070 Stazione di ricarica smart-me PICO incl. piastra di montaggio
 
 Numero di tariffa doganale: 85044055
 
@@ -185,7 +185,7 @@ Dimensioni imballaggio: 400x300x200mm
 
 Pacchi per europallet: 72 pezzi
 
-### 212070/1 smart-me PICO stazione di ricarica senza piastra di montaggio
+### 212070/1 Stazione di ricarica smart-me PICO senza piastra di montaggio
 
 Numero di tariffa doganale: 85044055
 
@@ -201,45 +201,45 @@ Pacchi per europallet: 72 pezzi
 
 ## Avvertenze di sicurezza
 
-Le avvertenze di sicurezza devono essere rispettate in qualsiasi circostanza:
+Le avvertenze di sicurezza devono essere rispettate in ogni circostanza:
 
 Installazione, manutenzione, riparazione, messa in servizio:
 
 - Legga attentamente l'intero manuale prima dell'installazione e dell'utilizzo del prodotto.
 
-- Pericolo di morte dovuto all'alta tensione elettrica. Non apportare mai modifiche a componenti, software o cavi di collegamento senza aver tolto la tensione. Pertanto occorre rimuovere i relativi fusibili a monte e conservarli in modo che altre persone non possano reinserirli inosservate.
+- Pericolo di morte dovuto all'alta tensione elettrica. Non apportare mai modifiche a componenti, software o linee di collegamento senza aver tolto la tensione. A tale scopo occorre rimuovere i relativi fusibili a monte e custodirli in modo che altre persone non possano reinserirli inavvertitamente.
 
-- Il prodotto può essere installato, riparato o sottoposto a manutenzione esclusivamente da un elettricista qualificato e autorizzato. Devono essere rispettate tutte le prescrizioni comunali, regionali e nazionali vigenti per gli impianti elettrici. 
+- Il prodotto può essere installato, riparato o sottoposto a manutenzione esclusivamente da un elettricista qualificato autorizzato. Devono essere rispettate tutte le prescrizioni comunali, regionali e nazionali vigenti per gli impianti elettrici. 
 
-- L'installazione non deve avvenire in prossimità di sostanze infiammabili o esplosive, in zone soggette ad allagamento (autorimessa sotterranea) o in zone in cui sussiste il pericolo di acqua corrente. 
+- L'installazione non deve avvenire in prossimità di sostanze infiammabili o esplosive, in zone soggette ad allagamenti (autorimessa sotterranea) o in zone in cui sussiste il pericolo di acqua corrente. 
 
-- Il prodotto deve essere installato in un'ubicazione definitiva. I collegamenti sulla Pico e sulla piastra posteriore sono progettati per un numero limitato di cicli di innesto. 
+- Il prodotto deve essere installato in una posizione definitiva. I collegamenti sulla Pico e sulla piastra posteriore sono progettati per un numero limitato di cicli di inserimento. 
 
-- Il prodotto deve essere installato su una parete o una struttura con sufficiente capacità portante. 
+- Il prodotto deve essere installato su una parete o una struttura con una portata sufficiente. 
 
-- I morsetti di collegamento nella piastra posteriore sono sotto tensione quando il circuito è chiuso e non devono in nessun caso entrare in contatto, direttamente o tramite altri oggetti, con nient'altro che l'elettronica della Pico.
+- I morsetti di collegamento nella piastra posteriore sono sotto tensione a circuito chiuso e in nessun caso devono venire a contatto, direttamente o con altri oggetti, con qualcosa di diverso dall'elettronica della Pico.
 
-- A seconda del tipo di installazione, prima dell'installazione potrebbero essere necessarie autorizzazioni, ad es. in caso di aumento della potenza dell'allacciamento dell'edificio. 
+- A seconda del tipo di installazione, prima dell'installazione possono essere necessarie delle autorizzazioni, ad es. in caso di aumento della potenza dell'allacciamento dell'edificio. 
 
 - La stazione di ricarica deve essere notificata al gestore della rete di distribuzione. 
 
 
-Destinazione d'uso:
+Uso previsto:
 
-- Questo prodotto è destinato esclusivamente alla ricarica di veicoli a propulsione elettrica dotati di batterie che non sviluppano gas. Il prodotto può essere utilizzato solo con un cavo di ricarica conforme a IEC 62196. Utilizzi diversi da quelli qui indicati non sono consentiti.
+- Questo prodotto è destinato esclusivamente alla ricarica di veicoli a trazione elettrica dotati di batterie che non producono gas. Il prodotto può essere utilizzato solo con un cavo di ricarica conforme a IEC 62196. Utilizzi diversi da quelli qui indicati non sono consentiti.
 
-- L'apparecchio è previsto per l'utilizzo in ambienti interni ed esterni.
+- L'apparecchio è previsto per l'utilizzo all'interno e all'esterno.
 
 
 Funzionamento:
 
-- Non utilizzare né toccare mai il prodotto se è danneggiato o non funziona correttamente. In caso di emergenza (fumo, incendio, scintille o altri malfunzionamenti) disattivare immediatamente il prodotto tramite l'interruttore differenziale e avvisare il supporto clienti. 
+- Non utilizzare né toccare mai il prodotto se è danneggiato o non funziona correttamente. In caso di emergenza (fumo, incendio, scintille o altri malfunzionamenti) spegnere immediatamente il prodotto tramite l'interruttore differenziale e avvisare il supporto clienti. 
 
 - Non spegnere il prodotto con acqua né pulirlo con acqua corrente.
 
 - Non immergere il prodotto in acqua o in altri liquidi. 
 
-- Questo prodotto non è destinato all'uso da parte di persone con ridotte capacità fisiche, psichiche o sensoriali (bambini compresi) o di persone che non conoscono il prodotto. 
+- Questo prodotto non è destinato all'uso da parte di persone con capacità fisiche, psichiche o sensoriali ridotte (compresi i bambini) o di persone senza conoscenza del prodotto. 
 
 - Occorre assicurarsi che i bambini non giochino con il prodotto.
 
@@ -249,15 +249,15 @@ Funzionamento:
 
 - Non utilizzare prolunghe o adattatori non omologati in combinazione con il prodotto. 
 
-- Non piegare mai il cavo di ricarica, non passarci sopra con veicoli e non esporlo a calore eccessivo. 
+- Non piegare mai il cavo di ricarica, non passarci sopra con il veicolo e non esporlo a forte calore. 
 
-- Estrarre il cavo di ricarica dal supporto di ricarica tirando esclusivamente dalla spina. 
+- Estrarre il cavo di ricarica dal supporto di ricarica esclusivamente tirando il connettore. 
 
 - Non posare il cavo di ricarica sulle vie di transito di altri utenti della strada e posizionarlo sempre in modo da evitare il pericolo di inciampo. 
 
 - Proteggere il cavo di ricarica dagli agenti atmosferici come irraggiamento solare diretto, vento, pioggia, umidità e bagnato e non collegarlo mai con le mani umide o bagnate. 
 
-- Non utilizzare il prodotto in prossimità di forti campi elettromagnetici o nelle immediate vicinanze di telefoni cellulari.
+- Non utilizzare il prodotto in prossimità di forti campi elettromagnetici o nelle immediate vicinanze di radiotelefoni.
 
 
 ## Download
@@ -278,4 +278,4 @@ Documenti tecnici
 
 [Dichiarazione di conformità (non MID)](https://drive.google.com/file/d/1Jx0MrqCpLrfEZa3ts7U19iJQQLQpyRww/view?usp=drive_link)
 
-[File ZIP schemi di collegamento](https://drive.google.com/file/d/1aVOLmWprogy2OizkcyH3kHsHntu0A8-D/view?usp=share_link)
+[Schema di collegamento file ZIP](https://drive.google.com/file/d/1aVOLmWprogy2OizkcyH3kHsHntu0A8-D/view?usp=share_link)

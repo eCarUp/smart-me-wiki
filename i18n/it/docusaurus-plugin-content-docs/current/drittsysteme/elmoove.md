@@ -1,35 +1,33 @@
 ---
 title: 'elmoove'
 slug: '/drittsysteme/elmoove'
-description: 'Ricaricare in modo intelligente con la mooveBar'
+description: 'Ricarica intelligente con la mooveBar'
 sidebar_label: 'elmoove'
 ---
 ## Registrazione del webinar
 
 <Video src="5DH7QX_c5qY" title="Video YouTube" />
 
-## Ricaricare in modo intelligente con la mooveBar
+## Ricarica intelligente con la mooveBar
 
-Elmoove è un'azienda svizzera che dal 2017 si occupa di mobilità elettrica, micromobilità elettrica e sistemi di gestione dell'energia.
+Elmoove è un'azienda svizzera che dal 2017 si occupa di E-Mobility, E-Micromobility e sistemi di gestione dell'energia.
 
-La mooveBar è il prodotto più innovativo tra le soluzioni di ricarica nel mercato delle e-bike. Grazie alla sua struttura modulare può essere impiegata per conteggi energetici qualificati negli immobili. La mooveBar è dotata di 4 prese, alle quali è possibile collegare qualsiasi caricabatterie. Le prese sono costantemente senza tensione e devono essere abilitate tramite tessere RFID. In questo modo si garantisce che nessuno possa ricaricare il proprio veicolo senza autorizzazione. 
+La mooveBar è il prodotto più innovativo in termini di soluzioni di ricarica nel mercato delle e-bike. Grazie alla sua struttura modulare, può essere impiegata per conteggi energetici qualificati negli immobili. La mooveBar è dotata di 4 prese, alle quali è possibile collegare qualsiasi caricabatterie. Le prese sono permanentemente prive di tensione e devono essere abilitate mediante tessere RFID. In questo modo si garantisce che nessuno possa ricaricare il proprio veicolo senza autorizzazione. 
 
-Per un'integrazione riuscita, la stazione può essere configurata dalla ditta elmoove GmbH. 
+Per un'integrazione corretta, la ditta elmoove GmbH può configurare la stazione. 
 
 Per un'offerta, le informazioni necessarie sono disponibili in qualsiasi momento sul sito web di elmoove [www.elmoove.ch](http://www.elmoove.ch). 
 
 ### Contatto
 
-elmoove GmbH
+<Kacheln min="20rem">
+<Kachel titel="elmoove GmbH">
 
-Bruggwiesenstrasse 7
+Bruggwiesenstrasse 7, CH-8242 Hofen
 
-CH-8242 Hofen
++41 58 680 20 05 · [info@elmoove.ch](mailto:info@elmoove.ch) · [www.elmoove.ch](https://elmoove.ch/)
 
-+41 58 680 20 05
-
-[info@elmoove.ch](mailto:info@elmoove.ch)
-
-[www.elmoove.ch](https://elmoove.ch/)
+</Kachel>
+</Kacheln>
 
 <Video src="Be9wba-Ees0" title="Video YouTube" />

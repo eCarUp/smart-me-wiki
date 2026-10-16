@@ -20,16 +20,14 @@ Für ein Angebot kann jederzeit auf der elmoove Website [www.elmoove.ch](http://
 
 ### Kontakt
 
-elmoove GmbH
+<Kacheln min="20rem">
+<Kachel titel="elmoove GmbH">
 
-Bruggwiesenstrasse 7
+Bruggwiesenstrasse 7, CH-8242 Hofen
 
-CH-8242 Hofen
++41 58 680 20 05 · [info@elmoove.ch](mailto:info@elmoove.ch) · [www.elmoove.ch](https://elmoove.ch/)
 
-+41 58 680 20 05
-
-[info@elmoove.ch](mailto:info@elmoove.ch)
-
-[www.elmoove.ch](https://elmoove.ch/)
+</Kachel>
+</Kacheln>
 
 <Video src="Be9wba-Ees0" title="YouTube Video" />

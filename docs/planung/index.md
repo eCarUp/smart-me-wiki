@@ -14,7 +14,7 @@ Beispiel für Hardwareinstalltion für E-Mobility mit eCarUp
 
 [Einzelgebäude oder Überbauung mit E-Mobilität](/planung/zev-zusammenschluss-zum-eigenverbrauch)
 
-[Aufbau statisches und dynamisches Lastmanagement](/planung/e-mobility)
+[Aufbau statisches und dynamisches Lastmanagement](/planung/elektromobilitaet)
 
 ## Plane jetzt dein Projekt mit unserem Konfigurator
 

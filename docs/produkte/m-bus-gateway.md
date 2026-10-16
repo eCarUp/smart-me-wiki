@@ -1,11 +1,12 @@
 ---
-title: 'M-Bus Gateways'
+title: 'M-Bus Gateway'
 slug: '/produkte/m-bus-gateway'
 description: 'Die smart-me M-Bus Gateways lesen Energiezähler mit M-Bus-Schnittstelle (EN 13757-2, -3) aus und übermitteln die Daten automatisch sowie verschlüsselt per WLAN in die smart-me C…'
-sidebar_label: 'M-Bus Gateways'
+sidebar_label: 'M-Bus Gateway'
 ---
 Die smart-me M-Bus Gateways lesen Energiezähler mit M-Bus-Schnittstelle (EN 13757-2, -3) aus und übermitteln die Daten automatisch sowie verschlüsselt per WLAN in die smart-me Cloud. Über das smart-me Portal oder unsere offene Schnittstelle lassen sich die Werte verschiedener Energieträger (Wasser, Wärme, Gas, Temperatur) anschliessend flexibel auswerten und in Drittsysteme exportieren. 
 
+[EN](/produkte/m-bus-gateway)
 
 ## M-Bus Gateway (50 Standardlasten)
 
@@ -147,143 +148,145 @@ Kompatibilitätsliste M-Bus\_Gateway.xlsx
 
 Gehörst auch du auf diese Liste? Falls dein Produkt den M-Bus Standard EN 13757-2, -3 (vormals EN 1434-3) unterstützt, listen wir dich gerne ebenfalls unter den kompatiblen Geräteherstellern auf! [Kontaktiere](/kontakt) uns. 
 
-INTEGRA Metering AG
+### Kontakte der Gerätehersteller
 
-Ringstrasse 75
+<Kacheln min="18rem">
 
-CH-4106 Therwil
+<Kachel titel="INTEGRA Metering AG">
 
-+41 61 725 11 22
+Ringstrasse 75, CH-4106 Therwil
 
-[www.ch.integra-metering.com](http://www.ch.integra-metering.com)
++41 61 725 11 22 
 
-Naim Ickin
+[www.ch.integra-metering.com](https://www.ch.integra-metering.com)
 
-+41 61 725 11 22
+Naim Ickin 
+
++41 61 725 11 22 
 
 [naim.ickin@integra-metering.com](mailto:naim.ickin@integra-metering.com)
 
-GWF AG
+</Kachel>
 
-Obergrundstrasse 119
+<Kachel titel="GWF AG">
 
-CH-6005 Luzern
+Obergrundstrasse 119, CH-6005 Luzern
 
-+41 41 319 50 50
++41 41 319 50 50 
 
-[www.gwf.ch](http://www.gwf.ch)
+[www.gwf.ch](https://www.gwf.ch)
 
-Mauro Nuozzi (Leiter Backoffice)
+Mauro Nuozzi (Leiter Backoffice) 
 
-+41 41 319 52 47
++41 41 319 52 47 
 
 [mauro.nuozzi@gwf.ch](mailto:mauro.nuozzi@gwf.ch)
 
-ista swiss ag
+</Kachel>
 
-Zofingerstrasse 61
+<Kachel titel="ista swiss ag">
 
-CH-4665 Oftringen
+Zofingerstrasse 61, CH-4665 Oftringen
 
-+41 62 746 99 00
++41 62 746 99 00 
 
-[www.ista-swiss.ch](http://www.ista-swiss.ch)
+[www.ista-swiss.ch](https://www.ista-swiss.ch)
 
-André Huber, Teamleiter / Technik Center
+André Huber (Teamleiter / Technik Center) 
 
-+41 62 746 99 10
++41 62 746 99 10 
 
 [andre.huber@ista-swiss.ch](mailto:andre.huber@ista-swiss.ch)
 
-NeoVac ATA AG
+</Kachel>
 
-Eichaustrasse 1
+<Kachel titel="NeoVac ATA AG">
 
-CH-9463 Oberriet
+Eichaustrasse 1, CH-9463 Oberriet
 
-+41 58 715 50 50
++41 58 715 50 50 
 
-[www.neovac.ch](http://www.neovac.ch)
+[www.neovac.ch](https://www.neovac.ch)
 
-Heinz Marti, Bereichsleiter Technik 
+Heinz Marti (Bereichsleiter Technik) 
 
-+41 58 715 56 90
++41 58 715 56 90 
 
-[heinz.marti@neovac.ch](mailto:heinz.marti@neovac.ch)
+npm run translate[heinz.marti@neovac.ch](mailto:heinz.marti@neovac.ch)
 
-Optec AG
+</Kachel>
 
-Guyer-Zeller-Strasse 14
+<Kachel titel="Optec AG">
 
- CH-8620 Wetzikon ZH
+Guyer-Zeller-Strasse 14, CH-8620 Wetzikon ZH
 
-+41 44 933 07 70
++41 44 933 07 70 
 
-[www.optec.ch](http://www.optec.ch)
+[www.optec.ch](https://www.optec.ch)
 
-Burak Nurten, Stv. Leiter Innendienst
-
-+41 44 933 07 70
+Burak Nurten (Stv. Leiter Innendienst) 
 
 [burak.nurten@optec.ch](mailto:burak.nurten@optec.ch)
 
-Rapp AG
+</Kachel>
 
-Hochstrasse 100
+<Kachel titel="Rapp AG">
 
-CH-4018 Basel
+Hochstrasse 100, CH-4018 Basel
 
-+41 58 595 77 77
++41 58 595 77 77 
 
-[www.rapp.ch](http://www.rapp.ch)
+[www.rapp.ch](https://www.rapp.ch)
 
-Stephan Krummenacher
+Stephan Krummenacher 
 
-+41 58 595 77 74
++41 58 595 77 74 
 
 [stephan.krummenacher@rapp.ch](mailto:stephan.krummenacher@rapp.ch)
 
-Techem (Schweiz) AG
+</Kachel>
 
-Steinackerstr. 55
+<Kachel titel="Techem (Schweiz) AG">
 
-CH-8902 Urdorf
+Steinackerstr. 55, CH-8902 Urdorf
 
-+41 43 455 65 00
++41 43 455 65 00 
 
-[www.techem.ch](http://www.techem.ch)
+[www.techem.ch](https://www.techem.ch)
 
-Roger Holliger, Produkt Management
+Roger Holliger (Produkt Management) 
 
-+41 43 455 65 16
++41 43 455 65 16 
 
 [roger.holliger@techem.ch](mailto:roger.holliger@techem.ch)
 
-Brunata AG
+</Kachel>
 
-Althardstrasse 10
+<Kachel titel="Brunata AG">
 
-CH-8105 Regensdorf
+Althardstrasse 10, CH-8105 Regensdorf
 
-+41 41 669 10 10 
++41 41 669 10 10 
 
-[www.brunata.ch](http://www.brunata.ch)
+[www.brunata.ch](https://www.brunata.ch)
 
-Alex Nanzer, Geschäftsführung
-
-+41 41 669 10 10
+Alex Nanzer (Geschäftsführung) 
 
 [alex.nanzer@brunata.ch](mailto:alex.nanzer@brunata.ch)
 
-BELIMO Automation AG
+</Kachel>
 
-Brunnenbachstrasse 1 
+<Kachel titel="BELIMO Automation AG">
 
-CH-8340 Hinwil
+Brunnenbachstrasse 1, CH-8340 Hinwil
 
-+41 43 843 61 11
++41 43 843 61 11 
 
-[www.belimo.com](http://www.belimo.com)
+[www.belimo.com](https://www.belimo.com)
+
+</Kachel>
+
+</Kacheln>
 
 ## M-Bus Installationsvorschrift
 

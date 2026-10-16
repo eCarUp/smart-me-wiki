@@ -41,14 +41,14 @@ Available in European, Swiss and UK versions.
 
 - -   -   Real-time monitoring
 
-        - Control with Event-related Actions and If / Then Actions
+        - Control with event actions and if/then actions
 
     - Easy installation with the free smart-me app for Android and iOS
 
 
 <Video src="r1NFkuI7CUM" title="YouTube video, Plug installation" />
 
-Installation video
+Video installation
 
 ## Technical data
 
@@ -74,7 +74,7 @@ No.
 
 ## Downloads and declaration of conformity
 
-Datasheet
+Data sheet
 
 [English](https://drive.google.com/file/d/0BwpiVx2zqRpUdjNFVXlOTHJJOFU/view)
 

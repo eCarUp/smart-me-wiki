@@ -8,13 +8,13 @@ Remarque importante :
 
 Aucun de ces produits n'est distribué par smart-me AG ni proposé comme accessoire lors de l'achat. Veuillez acheter ces produits directement auprès du fabricant.
 
-Vous trouverez ci-dessous une liste de produits recommandés. smart-me ne perçoit aucune rémunération pour les produits recommandés et n'assume aucune garantie à leur sujet. Il est possible à tout moment d'utiliser d'autres produits. Il faut toutefois toujours veiller à ce qu'ils satisfassent aux exigences du produit concerné, en l'occurrence du [compteur triphasé Telstar CT](/produkte/Telstar-CT).
+Vous trouverez ci-dessous une liste de produits recommandés. smart-me ne perçoit aucune rémunération sur les produits recommandés et n'assume aucune garantie à leur sujet. Il est à tout moment possible d'utiliser d'autres produits. Il faut toujours veiller à ce que ceux-ci remplissent les exigences du produit concerné, en l'occurrence du [compteur triphasé Telstar CT](/produkte/Telstar-CT).
 
 L'objectif de ces recommandations est de permettre à nos partenaires de trouver simplement et efficacement certains produits lorsqu'ils n'en connaissent pas encore.
 
 ## Transformateurs de courant étalonnés à des fins de facturation
 
-Si les compteurs doivent être utilisés pour la facturation, des transformateurs étalonnés satisfaisant au moins à la classe 0.5 ou inférieure sont nécessaires.
+Si les compteurs doivent être utilisés pour la facturation, des transformateurs étalonnés atteignant au minimum la classe 0.5 ou mieux sont nécessaires.
 
 ![Transformateurs de courant et accessoires pour Telstar CT – figure 1](/img/drittprodukte-stromwandler/01.png)
 
@@ -41,10 +41,15 @@ Source : [https://www.pfiffner-group.com](https://www.pfiffner-group.com/)
 
 Sources d'approvisionnement possibles :
 
-- Pfiffner Messwandler en direct
-    Contact Pfiffner : M. Samuel Gloor
-    E-mail : [msns@pmw.ch](mailto:msns@pmw.ch)
-    Tél. : +41 62 739 29 19
+<Kacheln min="20rem">
+<Kachel titel="Pfiffner Messwandler direkt">
+
+M. Samuel Gloor
+
++41 62 739 29 19 · [msns@pmw.ch](mailto:msns@pmw.ch)
+
+</Kachel>
+</Kacheln>
 
 
 Étalonnage à des fins de facturation :
@@ -76,9 +81,13 @@ Source : [https://hager.com/](https://hager.com/)
 
 Sources d'approvisionnement possibles :
 
-- Hager en direct
-    E-mail :  [emmenbruecke@hager.com](mailto:emmenbruecke@hager.com)  
-    Tél. : +41 41 269 90 00
+<Kacheln min="20rem">
+<Kachel titel="Hager direkt">
+
++41 41 269 90 00 · [emmenbruecke@hager.com](mailto:emmenbruecke@hager.com)
+
+</Kachel>
+</Kacheln>
 
 
 Étalonnage à des fins de facturation :

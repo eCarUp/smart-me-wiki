@@ -8,22 +8,22 @@ sidebar_label: 'Format CSV numbers correctly'
 
 You open a CSV file in Excel and the numbers... look broken.
 
-The problem is almost always the global mix-up of separators (the battle between 1.000,50, 1,000.50, 1'000.50 and 1000.50). Unfortunately, Excel is somewhat stubborn here and expects a format on import that matches your regional system settings exactly.
+The problem is almost always the global mix-up of separators (the battle between 1.000,50, 1,000.50, 1'000.50 and 1000.50). Unfortunately, Excel is somewhat stubborn here and expects an import format that exactly matches your regional system settings.
 
 Since our smart-me system cannot yet export the perfect CSV format for every single region, a manual adjustment in Excel is sometimes necessary.
 
-Below are two simple solutions to make sure Excel displays your data correctly.
+Below you will find two simple solutions to make sure Excel displays your data correctly.
 
-### Edit CSV with Find/Replace
+### Editing the CSV with Find/Replace
 
 - Select all values that are formatted incorrectly.
 
 - Press Ctrl+H
 
 
-![Formatting CSV Numbers Correctly – Figure 1](/img/stoerungsbehebung-csv-zahlen-richtig-formatieren/01.png)
+![Formatting CSV numbers correctly – Figure 1](/img/stoerungsbehebung-csv-zahlen-richtig-formatieren/01.png)
 
-### Edit CSV with Find/Replace
+### Editing the CSV with Find/Replace
 
 <div className="row">
 <div className="col col--4">
@@ -45,12 +45,12 @@ Below are two simple solutions to make sure Excel displays your data correctly.
 </div>
 <div className="col col--8 text--center">
 
-![Formatting CSV Numbers Correctly – Figure 2](/img/stoerungsbehebung-csv-zahlen-richtig-formatieren/02.png)
+![Formatting CSV numbers correctly – Figure 2](/img/stoerungsbehebung-csv-zahlen-richtig-formatieren/02.png)
 
 </div>
 </div>
 
-### Change the number separators in Excel.
+### Changing the number separators in Excel.
 
 - File
 
@@ -58,11 +58,11 @@ Below are two simple solutions to make sure Excel displays your data correctly.
 
 - Advanced
 
-- Uncheck "Use system separators"
+- Uncheck Use system separators
 
     - Decimal separator ,  (comma)
 
     - Thousands separator .  (period)
 
 
-![Formatting CSV Numbers Correctly – Figure 3](/img/stoerungsbehebung-csv-zahlen-richtig-formatieren/03.png)
+![Formatting CSV numbers correctly – Figure 3](/img/stoerungsbehebung-csv-zahlen-richtig-formatieren/03.png)

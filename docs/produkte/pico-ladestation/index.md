@@ -47,11 +47,11 @@ Kurzvideo Pico erhält MID (2 min)
 
 - Integrierte SIM-Karte mit einem Datenvolumen von 10 Jahren
 
-- [MID-Zertifizierung](/planung/zertifizierungen#zertifizierungen-für-ladestationen) und Lastgangzertifizierung der internen Meterhardware wegen grossem Display
+- [MID-Zertifizierung](/planung/zertifizierungen#zertifizierungen-für-ladestationen-in-der-schweiz) und Lastgangzertifizierung der internen Meterhardware wegen grossem Display
 
 - Integrierte Fehlerschutzeinrichtungen 30mA AC nach IEC60947-2 und 6mA DC IEC62955
 
-- Deutsche [Eichrechtzertifizierung](/planung/zertifizierungen#eichrecht-zertifizierung-deutschland) (Art.-Nr. 242070, 2402070/1)
+- Deutsche [Eichrechtzertifizierung](/planung/zertifizierungen-deutschland#eichrecht) (Art.-Nr. 242070, 2402070/1)
 
 - Einfache Montage (klein und leicht), geeignet für das Flachbandkabel
 
@@ -141,18 +141,22 @@ Das verhalten des Display ist auf der Seite [Pico Anzeige](/produkte/pico-ladest
 
 ### Anschlussschema
 
-- L1: Phase 1
-- L2: Phase 2
-- L3: Phase 3
-- N: Neutralleiter / Nullleiter
-- PE: Schutzleiter
+L1: Phase 1
+
+L2: Phase 2
+
+L3: Phase 3
+
+N: Neutralleiter / Nullleiter
+
+PE: Schutzleiter
 
 Der Schutzleiter sollte an der oberen Anschlussschraube angehängt werden damit der Standfuss direkt zusammen mit der Station geerdet wird.
 
-**Achtung:**
+Achtung:
 Das Produkt kann nur in 3-Phasen Sternschaltung oder 1-phasig betrieben werden!
 
-#### Kabelführungen
+Kabelführungen
 
 Die Kabel können bei Pico an 5 Stellen ein- und ausgeführt werden. 
 
@@ -240,7 +244,7 @@ Installation, Wartung, Reparatur, Inbetriebnahme:
 
 - Das Produkt darf ausschliesslich von einer zugelassenen Elektrofachkraft installiert, repariert oder gewartet werden. Dabei müssen alle gültigen kommunalen, regionalen und nationalen Vorschriften für elektrische Anlagen eingehalten werden. 
 
-- Seriennummern vor 7002702 bedürfen eines seriellen RCD Typ-A, um die nationalen Installationsstandards zu erfüllen.
+- Seriennummern vor 7002702 bedürfen eines seriellen RCD Typ-A, um die nationalen Installationsstandards zu erfüllen. Siehe [Materialempfehlung RCD Typ-A](/produkte/pico-ladestation/materialempfehlung-rcd-typ-a).
 
 - Die Installation darf nicht in der Nähe brennbarer, explosiver Medien, Überschwemmungsbereichen (Tiefgarage) oder Bereichen erfolgen, in denen die Gefahr fliessenden Wassers besteht. 
 
@@ -308,6 +312,8 @@ Die Pico Ladestationen mit Seriennummern vor 7002701 benötigen einen seriellen 
 Die Funktion ist bei diesen Geräten vorhanden aber nicht konform.
 Ab Seriennummer 7002702 oder BY2024 benötigt die Pico keinen seriellen RCD mehr, dieser ist nun integriert und konform nach 60947-2.
 
+Welches Material sich dafür eignet, steht unter [Materialempfehlung RCD Typ-A](/produkte/pico-ladestation/materialempfehlung-rcd-typ-a).
+
 </details>
 
 <details id="unterstützt-die-pico-ladestation-iso15118-für-plug--charge-und-v2g--v2h">
@@ -334,12 +340,11 @@ Nein, da unsere Zähler für Abrechnungen verwendet werden, ist es nicht möglic
 
 ## Installationshandbuch, Downloads und Konformitätserklärung
 
-### Datenblatt
-[Deutsch](https://docs.google.com/presentation/d/1tq5HPM2mc4Br8264vKs_yjMv4HauvtQM0A0DY87EMks/export/pdf)
+Datenblatt
 
 [Englisch](https://docs.google.com/presentation/d/1TPUl4Yk2u3fwl8zy6TWZ7TcwLpEe6Yzkx-jUVWnAl7k/export/pdf)
 
-### Technische Dokumente
+Technische Dokumente
 
 [Pico Quickstarter](https://docs.google.com/document/d/1jRLrb7J9hg7yreVMQyvvFeWXF4lVsgWtSucW4cy1XLk/export?format=pdf) 
 

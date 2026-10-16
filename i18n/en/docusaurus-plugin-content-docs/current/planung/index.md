@@ -6,15 +6,15 @@ sidebar_label: 'Planning'
 ---
 ## Planning in a ZEV
 
-Examples of hardware installation in a ZEV (association for own consumption) incl. water, heat and e-mobility
+Examples of hardware installation in a ZEV (association for own consumption), including water, heat and E-Mobility
 
 ## Planning charging stations
 
-Example of hardware installation for e-mobility with eCarUp
+Example of a hardware installation for E-Mobility with eCarUp
 
-[Single building or development with e-mobility](/planung/zev-zusammenschluss-zum-eigenverbrauch)
+[Single building or development with E-Mobility](/planung/zev-zusammenschluss-zum-eigenverbrauch)
 
-[Setting up static and dynamic load management](/planung/e-mobility)
+[Setting up static and dynamic load management](/planung/elektromobilitaet)
 
 ## Plan your project now with our configurator
 

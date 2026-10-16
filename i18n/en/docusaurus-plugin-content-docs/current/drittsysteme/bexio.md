@@ -12,10 +12,8 @@ smart-me Billing can import invoices into Bexio automatically. Bexio is business
 
 Features
 
-- Customer management in Bexio: smart-me Billing takes over the customer master data from Bexio
-
+- Customer management in Bexio: smart-me Billing takes over the customer base from Bexio
 - Invoice export: The energy cost bills can be created, sent and managed in Bexio. 
-
 - Automatic payment reconciliation / automatic dunning
 
 
@@ -24,25 +22,15 @@ Features
 ### 1\. Activate Bexio
 
 1.  Open smart-me Billing
-
 2.  Select "Configuration" ("Konfiguration") and the property
-
 3.  Under "Export to third-party provider" ("Export zu Drittanbieter"), select Bexio
+4.  Click on Login and log in to Bexio
+5.  Click on Save ("Speichern")
+6.  Wait until "Login ok" appears in green (this can take 1-2 minutes)
 
-4.  Click Login and log in to Bexio
-
-5.  Click Save ("speichern")
-
-6.  Wait until Login ok (green) appears (this can take 1-2 minutes)
-
-
-
-
-- Invoice title (Rechnungstitel): The title of the invoice in Bexio
-
-- Invoice language (Sprache der Rechnung): The language Bexio should use for the invoice.
-
-- Account for Bexio bookings (Konto für Bexio-Buchungen): The Bexio account to which the line items are assigned.
+- Invoice title ("Rechnungstitel"): The title of the invoice in Bexio
+- Invoice language ("Sprache der Rechnung"): The language to be used for the invoice in Bexio.
+- Account for Bexio bookings ("Konto für Bexio-Buchungen"): The Bexio account to which the line items are assigned.
 
 
 ![Bexio – Figure 2](/img/drittsysteme-bexio/02.jpg)
@@ -53,9 +41,7 @@ Features
 <div className="col col--4">
 
 1.  Select "Configuration" ("Konfiguration") and an apartment
-
-2.  Under Billing address (Rechnungsadresse), click "Add" ("Hinzufügen")
-
+2.  Under billing address ("Rechnungsadresse"), click on "Add" ("Hinzufügen")
 3.  Select the contact from Bexio
 
 </div>
@@ -71,11 +57,11 @@ Features
 <div className="row">
 <div className="col col--4">
 
-Create the invoices on a property
+Create the invoices for a property
 
 \-> The invoices are exported to Bexio automatically.
 
-smart-me Billing takes over the invoice number from Bexio (example: RE-1570 is the invoice with number 1570 in smart-me)
+smart-me Billing takes over the invoice number from Bexio (example: RE-1570 is the invoice with the number 1570 in smart-me)
 
 </div>
 <div className="col col--8 text--center">
@@ -90,9 +76,7 @@ smart-me Billing takes over the invoice number from Bexio (example: RE-1570 is t
 The invoices have now been created in Bexio and can be processed further.
 
 1.  Log in to Bexio
-
 2.  Open the invoices
-
 
 ![Bexio – Figure 5](/img/drittsysteme-bexio/05.jpg)
 
@@ -100,7 +84,7 @@ Example of an exported electricity bill
 
 ![Bexio – Figure 6](/img/drittsysteme-bexio/06.jpg)
 
-Example of an exported VEWA invoice
+Example of an exported VEWA bill
 
 ![Bexio – Figure 7](/img/drittsysteme-bexio/07.png)
 
@@ -109,13 +93,9 @@ Example of an exported VEWA invoice
 <div className="row">
 <div className="col col--5">
 
-Under Settings (Einstellungen) 
+Under Settings >> All settings >> Accounting
 
-All settings (Alle Einstellungen)
-
-Accounting (Buchhaltung)
-
-Check whether the Tax rates (Steuersätze) tile is visible.
+Check whether the Tax rates tile is visible.
 
 </div>
 <div className="col col--7 text--center">
@@ -145,35 +125,35 @@ Included.
 ### 5\. Error handling
 
 account\_id \[Diese Eingabe ist nicht korrekt.\]
-The account for Bexio bookings is invalid. You must use a Bexio account to which invoices can also be booked. 
+The account for Bexio bookings is invalid. You must use a Bexio account on which invoices can also be booked. 
 
 tax\_id \[Diese Eingabe ist nicht korrekt.\]
 No valid tax rate was found for an invoice line item.
 \- Check whether tax rates exist and are valid in Bexio for all tax rates used (0%, 8.1%, 2.6%,...)
 \- Make sure that all relevant VAT rates are assigned to form 303.
 If not, create additional ones for each tax.
-\--> Overview Settings (Einstellungen) --> Accounting (Buchhaltung) --> Tax rates (Steuersätze) --> Edit VAT (Mehrwertsteuer bearbeiten)
+\--> Settings overview --> Accounting --> Tax rates --> Edit VAT
 
 No Bexio address found for user (Keine Bexio adresse für Benutzer gefunden)
-No Bexio user, or an invalid one, has been assigned to the tenant. Please assign a user to the tenant (see above: 2. Assign tenants)
+No Bexio user or an invalid Bexio user has been assigned to the tenant. Please assign a user to the tenant (see above: 2. Assign tenants)
 
 &#123;"error\_code":422,"message":"The form could not be saved due to the following errors:","errors":\["positions: 0 \[account\_id \[Diese Eingabe ist nicht korrekt.\]\]"\]&#125;
 
 
 
-Solution 1:
+**Solution 1:**
 
 In smart-me, a tax is already included in the settings, e.g. 8.1%. 
 
-In Bexio, nothing has been set up under Settings (top right) / All settings / Accounting / Basic VAT settings (Einstellungen / Alle Einstellungen / Buchhaltung / Grundeinstellung MWST).
+In Bexio, nothing is set up under Settings (top right) / All settings / Accounting / VAT basic settings.
 
-Option: enter 0% in smart-me.
+Option: specify 0% in smart-me.
 
-Solution 2:
+**Solution 2:**
 
-In smart-me, select 3400 for the export (Account for Bexio bookings).
+In the smart-me export, select 3400 (account for Bexio booking).
 
-Private individuals can create an account 3680 Other revenue (Sonstige Erlöse)
+Private individuals can create an account 3680 Other revenue
 
 ![Bexio – Figure 10](/img/drittsysteme-bexio/10.png)
 
@@ -183,16 +163,14 @@ Add VAT.
 
 
 
-![Bexio – Figure 11](/img/drittsysteme-bexio/11.png)
+## Contact
 
-Bexio AG
+<Kacheln min="20rem">
+<Kachel bild="/img/drittsysteme-bexio/11.png" titel="Bexio AG">
 
-Alte Jonastrasse 24
+Alte Jonastrasse 24, CH-8640 Rapperswil
 
-CH-8640 Rapperswil
++41 71 552 00 60 · [support@bexio.com](mailto:support@bexio.com) · [www.bexio.com](https://www.bexio.com)
 
-+41 71 552 00 60
-
-[support@bexio.com](mailto:support@bexio.com) 
-
-www.bexio.com
+</Kachel>
+</Kacheln>

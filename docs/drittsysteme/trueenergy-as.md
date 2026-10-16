@@ -29,22 +29,38 @@ Funktionen:
 
 - Steuern von Endgeräten mit IFTT nach Strompreisen und Zeiten
 
-
-
-
-Kontakt: 
-
-True Energy A/S
-Phone: +45 31 78 77 30
-Email: [info@trueenergy.io](mailto:info@trueenergy.io)
-Webseite: [www.trueenergy.io](http://www.trueenergy.io) 
-
-
+<div className="row">
+<div className="col col--6 bild--mitte">
 
 ![TrueEnergy AS – Abbildung 2](/img/drittsysteme-trueenergy-as/02.png)
 
+</div>
+<div className="col col--6 bild--mitte">
+
 ![TrueEnergy AS – Abbildung 3](/img/drittsysteme-trueenergy-as/03.png)
+
+</div>
+</div>
+
+<div className="row">
+<div className="col col--5 bild--mitte">
+
+![TrueEnergy AS – Abbildung 5](/img/drittsysteme-trueenergy-as/05.png)
+
+</div>
+<div className="col col--7 bild--mitte">
 
 ![TrueEnergy AS – Abbildung 4](/img/drittsysteme-trueenergy-as/04.png)
 
-![TrueEnergy AS – Abbildung 5](/img/drittsysteme-trueenergy-as/05.png)
+</div>
+</div>
+
+## Kontakt
+
+<Kacheln min="20rem">
+<Kachel titel="True Energy A/S">
+
++45 31 78 77 30 · [info@trueenergy.io](mailto:info@trueenergy.io) · [www.trueenergy.io](http://www.trueenergy.io)
+
+</Kachel>
+</Kacheln>

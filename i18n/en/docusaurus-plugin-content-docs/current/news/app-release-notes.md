@@ -1,12 +1,13 @@
 ---
-title: 'Firmware Release Notes'
+title: 'App Release Notes'
 slug: '/news/app-release-notes'
 description: 'smart-me Installer App Release Notes'
 sidebar_label: 'App Release Notes'
 ---
 ## smart-me Installer App Release Notes
 
-2024.06.20 / v1.3
+<details id="app-v1-3" open>
+<summary>v1.3 · 20.06.2024</summary>
 
 Features
 
@@ -16,12 +17,12 @@ Features
 
 - Check App Version on login (show maybe update-required popup)
 
-
 Bug fixes
 
 - Show error message when WLAN is disabled
 
 - Show error message when Location is disabled
 
+</details>
 
 smart-me reserves the right to implement features and bug fixes that are not communicated, particularly where internal matters are concerned.

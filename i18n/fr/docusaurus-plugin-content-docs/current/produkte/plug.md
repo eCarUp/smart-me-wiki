@@ -1,15 +1,15 @@
 ---
 title: 'Plug'
 slug: '/produkte/plug'
-description: 'Le Plug smart-me réunit en un seul appareil un instrument de mesure de l''électricité, un thermostat et une minuterie.'
+description: 'Le smart-me Plug réunit en un seul appareil un appareil de mesure de l''électricité, un thermostat et une minuterie.'
 sidebar_label: 'Plug'
 displayed_sidebar: wikiSidebar
 ---
-Le Plug smart-me réunit en un seul appareil un instrument de mesure de l'électricité, un thermostat et une minuterie. De plus, le Plug peut être commandé et surveillé via le portail web ou l'application. Pour cela, l'appareil se connecte à Internet via le réseau WLAN local. 
+Le smart-me Plug réunit en un seul appareil un appareil de mesure de l'électricité, un thermostat et une minuterie. Le Plug peut en outre être commandé et surveillé via le portail web ou l'application. Pour cela, l'appareil se connecte à Internet via le réseau Wi-Fi local. 
 
 Vente arrêtée le 30.03.2021
 Support technique arrêté le 30.03.2025
-Matériel et fonctions cloud : le fonctionnement reste assuré
+Matériel et fonctions cloud : fonctionnement toujours garanti
 
 ![Plug – Illustration 1](/img/produkte-plug/01.jpg)
 
@@ -26,17 +26,17 @@ Disponible en versions Europe, Suisse et Grande-Bretagne.
 
 ## Fonctions
 
-- Appareil de mesure de l'énergie : outre la puissance actuelle, le Plug smart-me mesure l'énergie, le courant, la tension et le facteur de puissance. smart-me garantit une précision de 99% (erreur max. de 1%).
+- Appareil de mesure de l'énergie : outre la puissance instantanée, le smart-me Plug mesure l'énergie, le courant, la tension et le facteur de puissance. smart-me garantit une précision de 99% (erreur max. 1%).
 
 - Appareil de mesure de la température : surveillez la température en direct et analysez les données historiques.
 
-- Interrupteur à distance : allumez ou coupez le courant via l'application ou le portail web. 
+- Interrupteur à distance : allumez ou éteignez le courant via l'application ou le portail web. 
 
 - Minuterie : définissez l'heure à laquelle le Plug doit commuter. 
 
-- Connexion directe et chiffrée au cloud smart-me (WiFi)
+- Connexion directe et chiffrée au smart-me Cloud (WiFi)
 
-- Gestion complète de l'énergie dans le cloud smart-me : 
+- Gestion complète de l'énergie dans le smart-me Cloud : 
 
 
 - -   -   Surveillance en temps réel
@@ -56,7 +56,7 @@ Tension (U) 110V - 230V
 
 Plage de mesure (P) 0.1-3680W
 
-Précision 1 % (classe 1)
+Précision 1 % (class 1)
 
 Fréquence (f) 50/60Hz 
 
@@ -64,11 +64,11 @@ Courant (I) 10A / 16A
 
 Indice de protection IP20
 
-Autoconsommation 0.1W
+Consommation propre 0.1W
 
 Dimensions 95 x 54 x 29 mm (3.7 x 2.1 x 1.1 in)
 
-## Le relevé du compteur peut-il être remis à zéro ?
+## Le relevé du compteur peut-il être réinitialisé ?
 
 Non.
 

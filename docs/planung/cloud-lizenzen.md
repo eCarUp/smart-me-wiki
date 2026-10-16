@@ -6,87 +6,68 @@ sidebar_label: 'Cloud Lizenzen'
 ---
 Beachte, dass der Professional-Status des Accounts nur erreicht wird, wenn jeder Messpunkt über eine gleichwertige Lizenz verfügt.
 
-## Basic
+## Die drei Lizenzstufen
 
-Standard für API, OCPP und M-Bus Zähler
+<Kacheln min="14rem">
 
-[M-Bus Gateway](/produkte/m-bus-gateway) 
+<Kachel titel="Basic">
 
-\---
+Standard für API, OCPP und M-Bus Zähler:
 
-Reports: manueller CSV Export
+- [M-Bus Gateway](/produkte/m-bus-gateway)
 
-1 Messwert pro 15 Minuten. (API)
+**Umfang**
 
-API: nur private Nutzung und Steuerung\*\*
+- Reports: manueller CSV Export
+- 1 Messwert pro 15 Minuten (API)
+- API: nur private Nutzung und Steuerung \*\*
 
-## Limited
+</Kachel>
 
-Standard für
+<Kachel titel="Limited">
 
-[1-Phasen Zähler](/produkte/1-phasen-zaehler) 
+Standard für:
 
-[3-Phasen Zähler Telstar](/produkte/telstar) 
+- [1-Phasen Zähler](/produkte/1-phasen-zaehler)
+- [3-Phasen Zähler Telstar](/produkte/telstar)
+- [3-Phasen Zähler Telstar CT](/produkte/Telstar-CT)
+- [Kamstrup Modul](/produkte/kamstrup-modul) (abgekündigt)
+- [Pico Ladestation](/produkte/pico-ladestation)
 
-[3-Phasen Zähler Telstar CT](/produkte/Telstar-CT) 
 
-[Kamstrup Modul (Abgekündigt)](/produkte/kamstrup-modul) 
+**Umfang**
 
-[Pico Ladestation](/produkte/pico-ladestation) 
+- [Wenn/Dann-Aktionen](/konfiguration/wenndann-aktionen) (ohne Pico Regelung)
+- Reports
+- Lastprofile
+- Erweiterte Ordner- und Zählerverwaltung
+- [Public Links](/konfiguration/visualisierung)
+- 1 Messwert pro Minute (API)
+- API: nur private Nutzung und Steuerung \*\*
 
-\---
+</Kachel>
 
-[Wenn/Dann-Aktionen](/konfiguration/wenndann-aktionen) \* (Pico Regelung nicht inklusive, ist teil vom Professional)
+<Kachel titel="Professional *">
 
-Reports
+Erweiterung möglich für alle Messpunkte in der smart-me Cloud.
 
-Lastprofile
+**Umfang: Limited + untenstehendes**
 
-Erweiterte Ordner und Zähler Verwaltung
+- [Billing](/konfiguration/billing)
+- [Virtuelle Zähler](/konfiguration/billing/virtuelle-zaehler)
+- [Auto Export](/schnittstellen/auto-export)
+- [Benutzerkonfiguration](/konfiguration/benutzerkonfiguration)
+- [Pico Dynamisches Lastmanagement](/produkte/pico-ladestation/pico-lastmanagement)
+- Wenn/Dann → Pico Regelung
+- oAuth
+- [Modbus TCP](/schnittstellen/modbus-tcp)
+- [Systemgesundheit](/stoerungsbehebung/systemgesundheit)
+- 1 Messwert pro Sekunde (API)
+- API: für private **und kommerzielle** Nutzung
 
-[Public Links](/) 
+</Kachel>
 
-1 Messwert pro Minute. (API)
-
-API: nur private Nutzung und Steuerung\*\*
-
-## Professional\*
-
-Erweiterung möglich für alle Messpunkte in der smart-me Cloud
-
-\---
-
-[Billing](/konfiguration/billing) 
-
-[Virtuelle Zähler](/konfiguration/billing/virtuelle-zaehler) 
-
-[Auto Export](/schnittstellen/auto-export) 
-
-[Benutzerkonfiguration](/konfiguration/benutzerkonfiguration) 
-
-[Pico Dynamisches Lastmanagement](/) 
-
-Wenn Dann -> Pico Regelung
-
-oAuth
-
-[Wenn/Dann-Aktionen](/konfiguration/wenndann-aktionen) 
-
-Reports
-
-Lastprofile
-
-Erweiterte Ordner und Zähler Verwaltung
-
-[Public Links](/) 
-
-[Modbus TCP](/schnittstellen/modbus-tcp) 
-
-1 Messwert pro Sekunde. (API)
-
-API: für private und kommerzielle Nutzung
-
-[Systemgesundheit](/stoerungsbehebung/systemgesundheit)
+</Kacheln>
 
 \*Die jeweilige Abo-Stufe wird nur erreicht, wenn jeder Zählerpunkt im Konto die gleiche Lizenzstufe hat.
 
@@ -94,7 +75,7 @@ API: für private und kommerzielle Nutzung
 
 Professional = Alle Zähler des Kontos haben eine Professional-Lizenz.
 
-Der Zähler mit der niedrigsten Abo-Stufe im Konto bestimmt die Gesamt-Abo-Stufe des Kontos. 
+Der Zähler mit der niedrigsten Abo-Stufe im Konto bestimmt die Gesamt-Abo-Stufe des Kontos.
 
 Gemischte Konten sind nicht möglich und verbleiben im Status Basic oder Limited, wenn die Anzahl der Lizenzen nicht ausreicht.
 
@@ -102,39 +83,38 @@ Gemischte Konten sind nicht möglich und verbleiben im Status Basic oder Limited
 
 Damit dein Account in den Status Professional gelangt, benötigst du mindestens für jeden Zähler (auch virtuelle) im Account eine Professional Lizenz.
 
-Es ist nicht möglich, lizenzierte Zähler mit unlizenzierten in einem Account zu mischen.
+- Es ist nicht möglich, lizenzierte Zähler mit unlizenzierten in einem Account zu mischen.
 
 Faustregel für ZEV und vZEV mit einheitlichem Solar und / oder Batterietarif:
 
-ZEV mit 1x PV Anlage: Zähleranzahl = Lizenzanzahl
-ZEV mit \>1x PV-Anlage (Visualisierungen): Zähleranzahl + 1 (virtuell)
+- Zähleranzahl = Lizenzanzahl
 
 Faustregel für ZEV Systeme mit separiertem Solar- und Batterietarif (nur AC- gekopelte Systeme):
 
-ZEV mit 1x PV-Anlage: Zähleranzahl + 1 (virtuell)
+- ZEV mit 1x PV-Anlage: Zähleranzahl + 1 (virtuell)
 
-ZEV mit >1x PV-Anlage: Zähleranzahl + 2 (virtuell)
+- ZEV mit >1x PV-Anlage: Zähleranzahl + 2 (virtuell)
 
-### Beispiel Elektro mit smart-me Zählern (1x PV)
+### Beispiel Strom mit smart-me Zählern (1x PV)
 
 3x Telstar 80A
 2x Telstar CT
 
 Total Professional alle Energietypen: 5 Stück
 
-### Beispiel Elektro mit smart-me Zähler + Wärme / Wasser mit M-Bus Gateway (1x PV)
+### Beispiel Strom mit smart-me Zähler + Wärme / Wasser mit M-Bus Gateway
 
-3x Telstar 80A
-2x Telstar CT
+- 3x Telstar 80A
+- 2x Telstar CT
 
 Lizenzen Professional alle Energietypen: 5 Stück
 
 1x M-Bus Gateway mit verbundenen Wärme / Wasser Zählern
 
-3x Wärme
-3x Kälte
-3x Warmwasserzähler
-3x Kaltwasser Zähler
+- 3x Wärme
+- 3x Kälte
+- 3x Warmwasserzähler
+- 3x Kaltwasser Zähler
 
 Lizenzen Professional für Wärme / Wasser / Gas: 12 Stück
 
@@ -162,22 +142,8 @@ Das Monatliche Abo ist Inflations- und Deflationseffekten unterworfen.
 Die Installation erfordert total 18 Professional Lizenzen.
 
 - 6x Professional Lizenz alle Energietypen, 10 Jahre (Elektro + virtuelle Zähler)
-
 - 12x Professional Lizenz Wärme / Wasser / Gas, 10 Jahre
 
 
 Die Mehrjahreslizenzen sind im Schnitt kostengünstiger und unterliegen keinen Inflations- oder Deflationseffekten während der Nutzungszeit.
 
-## Bist du ein "Professional" Kunde?
-
-Mit den untenstehenden Abbildungen findest du einfach heraus, ob du Professional Lizenzen in deinem Account benötigst. 
-
-### ZEV-Abrechnung
-
-Bei der ZEV-Abrechnung ist entscheidend, welches Tarifsystem abgebildet werden soll und ob die Abrechnung automatisiert geschehen soll.
-
-![Cloud Lizenzen – Abbildung 1](/img/planung-cloud-lizenzen/01.png)
-
-### ZEV-Steuerung
-
-![Cloud Lizenzen – Abbildung 2](/img/planung-cloud-lizenzen/02.png)

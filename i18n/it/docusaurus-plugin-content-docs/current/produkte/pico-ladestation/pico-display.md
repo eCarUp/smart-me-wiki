@@ -11,7 +11,7 @@ Questa pagina descrive il comportamento dello schermo della Pico.
 
 ## Display
 
-La descrizione della visualizzazione è valida per tutte le [versioni del firmware](/konfiguration/firmware-update) a partire dalla 0.0.28.
+La descrizione della visualizzazione è valida per tutte le [versioni firmware](/konfiguration/firmware-update) a partire dalla 0.0.28.
 
 ### Sequenza nessuna ricarica attiva
 
@@ -76,7 +76,7 @@ Viene visualizzata quando l'auto viene collegata e la Car-ID viene verificata.
 <div className="row">
 <div className="col col--10">
 
-Viene visualizzata quando il veicolo non è autorizzato o la Car-ID non è registrata nell'account conducente eCarUp. Successivamente la Pico passa alla "Sequenza auto collegata in attesa di abilitazione"
+Viene visualizzata quando il veicolo non è autorizzato oppure la Car-ID non è registrata nell'account conducente eCarUp. In seguito la Pico passa alla "Sequenza auto collegata in attesa di abilitazione"
 
 </div>
 <div className="col col--2 text--center">
@@ -89,7 +89,7 @@ Viene visualizzata quando il veicolo non è autorizzato o la Car-ID non è regis
 <div className="row">
 <div className="col col--10">
 
-Viene visualizzata quando il veicolo è autorizzato. Successivamente la Pico passa alla "Sequenza ricarica attiva".
+Viene visualizzata quando il veicolo è autorizzato. In seguito la Pico passa alla "Sequenza ricarica attiva".
 
 </div>
 <div className="col col--2 text--center">
@@ -104,7 +104,7 @@ Viene visualizzata quando il veicolo è autorizzato. Successivamente la Pico pas
 <div className="row">
 <div className="col col--10">
 
-La tessera RFID viene verificata. In caso di connessione molto buona, è possibile che il testo non venga visualizzato affatto.
+La tessera RFID viene verificata. Con una connessione molto buona, può succedere che il testo non venga visualizzato affatto.
 
 </div>
 <div className="col col--2 text--center">
@@ -117,7 +117,7 @@ La tessera RFID viene verificata. In caso di connessione molto buona, è possibi
 <div className="row">
 <div className="col col--10">
 
-Viene visualizzata quando la RFID è autorizzata.
+Viene visualizzata quando l'RFID è autorizzato.
 
 </div>
 <div className="col col--2 text--center">
@@ -130,7 +130,7 @@ Viene visualizzata quando la RFID è autorizzata.
 <div className="row">
 <div className="col col--10">
 
-Viene visualizzata quando l'autorizzazione RFID è riuscita e nessuna auto è collegata. Se un'auto è collegata, questa visualizzazione viene ignorata e la Pico passa alla "Sequenza ricarica attiva".
+Viene visualizzata quando l'autorizzazione RFID è andata a buon fine e nessuna auto è collegata. Se un'auto è collegata, questa visualizzazione viene ignorata e la Pico passa alla "Sequenza ricarica attiva".
 
 </div>
 <div className="col col--2 text--center">
@@ -143,7 +143,7 @@ Viene visualizzata quando l'autorizzazione RFID è riuscita e nessuna auto è co
 <div className="row">
 <div className="col col--10">
 
-Viene visualizzata quando la RFID non è autorizzata. Successivamente la Pico passa alla "Sequenza auto collegata in attesa di abilitazione" o alla "Sequenza nessuna ricarica attiva".
+Viene visualizzata quando l'RFID non è autorizzato. In seguito la Pico passa alla "Sequenza auto collegata in attesa di abilitazione" o alla "Sequenza nessuna ricarica attiva".
 
 </div>
 <div className="col col--2 text--center">
@@ -160,7 +160,7 @@ Viene visualizzata quando la RFID non è autorizzata. Successivamente la Pico pa
 <div className="row">
 <div className="col col--10">
 
-La ricarica è stata abilitata correttamente con il codice QR.
+La ricarica è stata abilitata correttamente tramite codice QR.
 
 </div>
 <div className="col col--2 text--center">
@@ -173,7 +173,7 @@ La ricarica è stata abilitata correttamente con il codice QR.
 <div className="row">
 <div className="col col--10">
 
-Viene visualizzata quando l'autorizzazione è riuscita e nessuna auto è collegata. Se un'auto è collegata, questa visualizzazione viene ignorata e la Pico passa alla "Sequenza ricarica attiva".
+Viene visualizzata quando l'autorizzazione è andata a buon fine e nessuna auto è collegata. Se un'auto è collegata, questa visualizzazione viene ignorata e la Pico passa alla "Sequenza ricarica attiva".
 
 </div>
 <div className="col col--2 text--center">
@@ -207,9 +207,9 @@ Viene visualizzata quando l'autorizzazione è riuscita e nessuna auto è collega
 
 Valore / Simbolo Descrizione
 
-32A Corrente di ricarica massima consentita 
+32A Corrente di ricarica max. consentita 
 
-Quando la corrente di ricarica massima viene aumentata dalla stazione, viene visualizzata brevemente questa immagine con la nuova corrente di ricarica massima.
+Quando la corrente di ricarica massima della stazione viene aumentata, viene visualizzata brevemente questa immagine con la nuova corrente di ricarica max.
 
 </div>
 <div className="col col--2 text--center">
@@ -268,9 +268,9 @@ Valore / Simbolo Descrizione
 
 kW Unità della potenza visualizzata
 
-….. blu = potenza massima abilitata dalla stazione (1 pixel = 1A) 
+….. blu = potenza max. abilitata dalla stazione (1 pixel = 1A) 
 
- verde = prelievo di corrente dell'auto per fase. (1 pixel = 1A)
+ verde = corrente prelevata dall'auto per fase. (1 pixel = 1A)
 
 </div>
 <div className="col col--2 text--center">
@@ -287,9 +287,9 @@ kW Unità della potenza visualizzata
 
 Valore / Simbolo Descrizione
 
-32A Corrente massima consentita 
+32A Corrente max. consentita 
 
-Quando la corrente di ricarica massima viene ridotta dalla stazione, viene visualizzata brevemente questa immagine con la nuova corrente di ricarica massima
+Quando la corrente di ricarica massima della stazione viene ridotta, viene visualizzata brevemente questa immagine con la nuova corrente di ricarica max.
 
 </div>
 <div className="col col--2 text--center">
@@ -321,7 +321,7 @@ Valore / Simbolo Descrizione
 
 Valore / Simbolo Descrizione
 
-BYE Disconnessione riuscita
+BYE Disconnessione avvenuta con successo
 
 </div>
 <div className="col col--2 text--center">
@@ -404,7 +404,7 @@ Lo schermo rimane nero per circa 20 sec.
 
 È il primo segnale che la Pico si sta avviando.
 
-Dopo la sequenza riavvio della stazione, la Pico passa alla sequenza MID Mode
+Dopo la sequenza riavvio della stazione, la Pico passa alla sequenza Modalità MID
 
 </div>
 <div className="col col--2 text--center">
@@ -425,7 +425,7 @@ Guasto fatale
 
 - Errore 1: problema con il modulo Wi-Fi
 
-- Errore 2: nessuna comunicazione M4
+- Errore 2: non c'è comunicazione M4
 
 - Errore 3: un errore con il Meter SOM
 
@@ -461,7 +461,7 @@ SIM Error
 
 Diode Error
 
-- Il diodo nell'auto non è corretto. Verifichi il cavo di ricarica e il collegamento a spina con l'auto 
+- Il diodo nell'auto non è corretto. Verificate il cavo di ricarica e il collegamento a spina con l'auto 
 
 </div>
 <div className="col col--2 text--center">
@@ -477,7 +477,7 @@ Diode Error
 
 Cable Error
 
-- Il cavo di ricarica segnala un errore. Verifichi che sia inserito correttamente. 
+- Il cavo di ricarica segnala un errore. Verificate che sia collegato correttamente. 
 
 </div>
 <div className="col col--2 text--center">
@@ -511,7 +511,7 @@ P Limit
 
 Warn RDC
 
-- Il RDC-DD 6mA secondo IEC 62955 (dispositivo di rilevamento della corrente di guasto continua) è intervenuto. La ricarica è stata interrotta per motivi di sicurezza. 
+- L'RDC-DD 6mA secondo IEC 62955 (dispositivo di rilevamento della corrente di guasto continua) è intervenuto. La ricarica è stata interrotta per motivi di sicurezza. 
 
 </div>
 <div className="col col--2 text--center">
@@ -527,7 +527,7 @@ Warn RDC
 
 Offline
 
-- La stazione di ricarica non ha alcuna connessione con lo smart-me Cloud. 
+- La stazione di ricarica non è connessa alla smart-me Cloud. 
 
 </div>
 <div className="col col--2 text--center">
@@ -544,9 +544,9 @@ Offline
 <div className="row">
 <div className="col col--10">
 
-Il LED si accende in arancione/rosso nell'angolo in alto a destra del display
+Il LED è acceso arancione/rosso nell'angolo superiore destro del display
 
-- Indica un messaggio di errore. Al più tardi dopo 30 secondi, l'immagine dell'errore (ad es. Cable Error) viene visualizzata sullo schermo.
+- Indica un messaggio di errore. Al più tardi dopo 30 secondi viene visualizzata sullo schermo l'immagine dell'errore (ad es. Cable Error).
 
 </div>
 <div className="col col--2 text--center">
@@ -559,11 +559,11 @@ Il LED si accende in arancione/rosso nell'angolo in alto a destra del display
 
 
 
-### MID Mode
+### Modalità MID
 
-Per accedere alla modalità MID, è possibile cliccare su "Mostra la lettura del contatore sul display" ("Zählerstand auf Display anzeigen") tramite le azioni avanzate nel portale smart-me, avviare o riavviare la stazione oppure utilizzare il sensore di luminosità.
+Per accedere alla modalità MID, è possibile cliccare su "Mostra lettura del contatore sul display" ("Zählerstand auf Display anzeigen") tramite l'azione estesa nel portale smart-me, avviare o riavviare la stazione oppure usare il sensore di luminosità.
 
-Con una torcia puntata sul sensore di luminosità, l'utente può inserire il seguente codice lampeggiante: buio - luce - buio - luce - buio (ogni stato deve durare tra 1 e 5 secondi)
+Con una torcia puntata sul sensore di luminosità, l'utente può inserire il seguente codice lampeggiante: scuro - chiaro - scuro - chiaro - scuro (ogni stato deve durare tra 1 e 5 secondi)
 
 <div className="row">
 <div className="col col--10">
@@ -608,18 +608,18 @@ Con una torcia puntata sul sensore di luminosità, l'utente può inserire il seg
 
 - 03   Codice di errore
 
-- Viene visualizzato solo in presenza di un messaggio di errore. 
+- Viene visualizzato solo se è presente un messaggio di errore. 
 
-#### Descrizione dei codici di errore
+#### Codice di errore Descrizione
 
 - x1-x3: la stazione di ricarica non è tarata
-- x4: errore processo display (checksum)
+- x4: errore nel processo del display (checksum)
 
 - 1x: errore nel Meter-SOM (hardware)
 
 - 2x-3x: errore Meter-SOM (checksum)
 
-- 4x: errore Meter-SOM (flash) Altri: errore generico Meter-SOM 
+- 4x: errore Meter-SOM (flash) Altri: errore generale Meter-SOM 
 
 </div>
 <div className="col col--2 text--center">

@@ -1,15 +1,15 @@
 ---
 title: 'Symcon'
 slug: '/drittsysteme/symcon'
-description: 'Symcon è sia un software sia un pacchetto hardware opzionale (Symbox) che consente comandi e visualizzazioni nella Sua casa o nel Suo edificio.'
+description: 'Symcon è un software, disponibile anche con un pacchetto hardware opzionale (Symbox), che consente di realizzare comandi e visualizzazioni nella vostra casa o nel vostro edificio.'
 sidebar_label: 'Symcon'
 ---
 <div className="row">
 <div className="col col--8">
 
-Symcon è sia un software sia un pacchetto hardware opzionale (Symbox) che consente comandi e visualizzazioni nella Sua casa o nel Suo edificio. Funge da interfaccia e da organo decisionale.
+Symcon è un software, disponibile anche con un pacchetto hardware opzionale (Symbox), che consente di realizzare comandi e visualizzazioni nella vostra casa o nel vostro edificio. Funge da interfaccia e da centro decisionale.
 
-I dati smart-me possono essere letti facilmente tramite la nostra API.
+I dati smart-me possono essere interrogati facilmente tramite la nostra API.
 
 </div>
 <div className="col col--4 text--center">
@@ -19,23 +19,23 @@ I dati smart-me possono essere letti facilmente tramite la nostra API.
 </div>
 </div>
 
-Gruppo target: case unifamiliari e plurifamiliari e industria
+Destinatari: case unifamiliari e plurifamiliari e industria
 
-Contatto:
+### Contatto
 
-Installazione in proprio: [www.symcon.de](http://www.symcon.de) 
+Installazione in proprio: [www.symcon.de](http://www.symcon.de)
 
-Integratori: [https://www.symcon.de/de/integratoren/schweiz/](https://www.symcon.de/de/integratoren/schweiz/) 
+Integratori: [https://www.symcon.de/de/integratoren/schweiz/](https://www.symcon.de/de/integratoren/schweiz/)
 
-Symcon GmbH
+<Kacheln min="20rem">
+<Kachel titel="Symcon GmbH">
 
-Willy-Brandt-Allee 31b
+Willy-Brandt-Allee 31b, D-23554 Lübeck
 
-D-23554 Lübeck
++49 - (0) 451 30500511 · [support@symcon.de](mailto:support@symcon.de)
 
-Telefono: +49 - (0) 451 30500511
-
-[support@symcon.de](mailto:support@symcon.de) 
+</Kachel>
+</Kacheln>
 
 ### Come si integra un punto di misura smart-me in Symcon?
 
@@ -71,15 +71,15 @@ URL: chiamata API: ad es. "https://smart-me.com:443/api/devices/&#123;id&#125;
 
 ![Symcon – Figura 6](/img/drittsysteme-symcon/06.png)
 
-### Come si crea un diagramma in Syncom?
+### Come si crea un grafico in Syncom?
 
-5\. Creare un diagramma per il Webfront
+5\. Creare un grafico per il Webfront
 
 ![Symcon – Figura 7](/img/drittsysteme-symcon/07.png)
 
-6\. Configurare il diagramma
+6\. Configurare il grafico
 
-- È possibile visualizzare più variabili nello stesso diagramma (ad es.: potenza attiva totale e potenza attiva delle singole fasi).
+- È possibile visualizzare più variabili nello stesso grafico (ad es.: potenza attiva totale e potenza attiva delle singole fasi).
 
 
 ![Symcon – Figura 8](/img/drittsysteme-symcon/08.png)
@@ -90,7 +90,7 @@ URL: chiamata API: ad es. "https://smart-me.com:443/api/devices/&#123;id&#125;
 
 ![Symcon – Figura 10](/img/drittsysteme-symcon/10.png)
 
-8\. Visualizzare il diagramma (cliccare a destra accanto al diagramma PowerHaus).
+8\. Visualizzare il grafico (cliccare a destra accanto al grafico PowerHaus).
 
 ![Symcon – Figura 11](/img/drittsysteme-symcon/11.png)
 

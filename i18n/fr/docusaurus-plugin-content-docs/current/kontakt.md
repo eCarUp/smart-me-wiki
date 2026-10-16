@@ -1,47 +1,73 @@
 ---
-title: 'Contact'
+title: 'Contact Suisse'
 slug: '/kontakt'
-description: 'Si vous n''avez pas trouvé de réponse à votre question ici, notre support se tient volontiers à votre disposition.'
-sidebar_label: 'Contact'
+description: 'Interlocuteurs pour la Suisse et le Liechtenstein : vente, licences et support technique.'
+sidebar_label: 'Contact Suisse'
 ---
-Si vous n'avez pas trouvé de réponse à votre question ici, notre support se tient volontiers à votre disposition.
+Cette page s'applique à la Suisse et au Liechtenstein. Pour l'Allemagne, il existe un [contact spécifique](/kontakt-deutschland).
+
+Si vous ne trouvez pas ici de réponse à votre question, notre support se tient volontiers à votre disposition.
 
 ### Bon à savoir
 
-smart-me est un fournisseur de matériel et de technologie. Nous ne réalisons pas de projets et ne configurons pas d'installations pour les clientes et clients finaux. Notre support technique s'adresse en règle générale exclusivement aux partenaires certifiés.
+smart-me est un fournisseur de matériel et de technologie. Nous ne réalisons pas de projets et n'effectuons pas de configurations d'installations pour les clientes et clients finaux. Notre support technique s'adresse en règle générale exclusivement aux partenaires certifiés.
 
-### Pour les clients privés
+### Clients privés et futurs partenaires
 
-En tant que client privé, vous trouverez nos partenaires de projet sur cette carte :
+<Kacheln min="18rem">
 
-[Afficher les partenaires de projet sur la carte](https://web.smart-me.com/projektpartner/)
+<Kachel titel="Für Privatkunden" href="https://web.smart-me.com/projektpartner/">
 
-### Devenir partenaire
+En tant que client privé, vous trouverez nos partenaires de projet sur la carte.
 
-Vous souhaitez devenir partenaire ou suivre une formation ?
+</Kachel>
 
-[Vers l'inscription à la formation des partenaires](https://web.smart-me.com/partner-werden/)
+<Kachel titel="Partner werden" href="https://web.smart-me.com/partner-werden/">
+
+Vous souhaitez devenir partenaire ou suivre une formation ? Inscrivez-vous ici à la formation des partenaires.
+
+</Kachel>
+
+</Kacheln>
 
 ### Contact pour la vente et les partenariats
 
-Téléphone : +41 41 511 09 99 E-mail : [info@smart-me.com](mailto:info@smart-me.com)
+Centrale : +41 41 511 09 99 · [info@smart-me.com](mailto:info@smart-me.com)
 
-### Premier contact / offres :
+<Kacheln min="15rem">
 
-verkauf@smart-me.com / +41 41 511 09 99
+<Kachel titel="Erstkontakt / Offerten">
 
-### Activation des licences :
+[verkauf@smart-me.com](mailto:verkauf@smart-me.com)
 
-administration@smart-me.com / +41 41 511 09  99
++41 41 511 09 99
 
-### Support technique :
+</Kachel>
 
-support@smart-me.com / +41 41 511 09 70
+<Kachel titel="Lizenzen freischalten">
 
-Support TeamViewer :
+[administration@smart-me.com](mailto:administration@smart-me.com)
 
-Disponible uniquement sur rendez-vous téléphonique.
++41 41 511 09 99
 
-[![Contact – Illustration 1](/img/kontakt/01.jpg)](https://get.teamviewer.com/68stbb8)
+</Kachel>
 
-[Télécharger TeamViewer pour smart-me](https://get.teamviewer.com/68stbb8)
+<Kachel titel="Technischer Support">
+
+[support@smart-me.com](mailto:support@smart-me.com)
+
++41 41 511 09 70
+
+</Kachel>
+
+</Kacheln>
+
+<Kacheln min="22rem">
+
+<Kachel bild="/img/kontakt/01.jpg" bildtext="TeamViewer für smart-me" titel="TeamViewer-Support" href="https://get.teamviewer.com/68stbb8">
+
+Disponible uniquement sur rendez-vous téléphonique. Cette vignette vous permet de télécharger TeamViewer pour smart-me.
+
+</Kachel>
+
+</Kacheln>

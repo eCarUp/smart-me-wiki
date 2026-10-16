@@ -1,6 +1,7 @@
 ---
 title: 'Materialempfehlung RCD Typ-A'
 slug: '/produkte/pico-ladestation/materialempfehlung-rcd-typ-a'
+displayed_sidebar: wikiSidebar
 description: 'Ergänzungen zu Flachbandkabelsystemen für 100%-ige NIN Konformität'
 sidebar_label: 'Materialempfehlung RCD Typ-A'
 ---

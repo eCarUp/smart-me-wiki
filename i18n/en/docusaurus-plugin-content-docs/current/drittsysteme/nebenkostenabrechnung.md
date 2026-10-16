@@ -1,16 +1,16 @@
 ---
-title: 'Service providers ZEV, heating/ancillary cost billing'
+title: 'Service providers for ZEV, heating/ancillary cost billing'
 slug: '/drittsysteme/nebenkostenabrechnung'
-description: 'To use smart-me meter data in an ancillary cost billing, the meters require a Professional licence.'
+description: 'To use smart-me meter data in an ancillary cost billing, the meters require a Professional license.'
 sidebar_label: 'Ancillary cost service providers'
 ---
-To use smart-me meter data in an ancillary cost billing, the meters require a Professional licence.
+To use smart-me meter data in an ancillary cost billing, the meters require a Professional license.
 
 [EN](https://doc.smart-me.com/third-party-systems/service-charge-settlement)
 
-The following service providers offer billing services based on our smart-me platform. They also take on installations they did not install themselves and, on request, offer billing only for these.
+The following service providers offer billing services based on our smart-me platform. They also take over installations they did not install themselves and, on request, offer billing only for these.
 
-## Highly automated/specialised services with Autobill:
+## Highly automated/specialized services with Autobill:
 
 <Kacheln min="22rem">
 
@@ -24,12 +24,12 @@ Riedstrasse 18, CH-6343 Rotkreuz · +41 41 511 09 99
 
 **Autobill service**
 
-- Always together with a smart-me partner (training attended)
+- Always together with a smart-me partner (training completed)
 - Compliance with the smart-me metering concept
 - Billing only with smart-me hardware
 - Module 1 configuration by smart-me
 - ZEV billing, max. 4x per year
-- VEWA billing 1x per year (without advance payments)
+- VEWA billing 1x per year (without payments on account)
 - Minimum term 2 years
 
 </Kachel>
@@ -40,10 +40,10 @@ Hauptstrasse 48, CH-6277 Kleinwangen · +41 41 510 06 25
 
 [www.adenatec.ch](https://www.adenatec.ch/) · [info@adenatec.ch](mailto:info@adenatec.ch)
 
-- ZEV, vZEV and E-Mobility billing
+- ZEV, vZEV and e-mobility billing
 - Billing and debt collection incl. portal configuration
 - Billing up to 4× per year
-- VEWA per mille billing 1× per year
+- VEWA per-mille billing 1× per year
 - Operation exclusively with smart-me hardware
 
 </Kachel>
@@ -57,7 +57,7 @@ Allmendingenweg 11, CH-3073 Gümligen · +41 31 950 60 70
 - Hardware-independent billing (interface to smart-me)
 - Invoices sent by e-mail or post
 - Support with tariff design
-- Advice on energy optimisation
+- Advice on energy optimization
 - Billing for ZEV, vZEV and LEC (up to 4× per year)
 - Optional: data preparation for Minergie operation
 - Optional: 24h on-call remote maintenance service
@@ -71,7 +71,7 @@ Blattenbach 8, CH-8636 Wald · +41 55 266 11 33
 
 [honegger.com](https://honegger.com/) · [info@honegger.com](mailto:info@honegger.com)
 
-- Billing of self-installed E-Mobility, ZEV & vZEV installations
+- Billing of self-installed e-mobility, ZEV & vZEV installations
 - We plan, build and support everything from a single source
 - Billing only with smart-me hardware
 - Quarterly billing
@@ -88,7 +88,7 @@ Zürichstrasse 68, CH-6004 Luzern · +41 41 562 39 61
 - Billing with smart-me hardware or SDAT files
 - Module 1 configuration by Liveno
 - ZEV billing, max. 4x per year
-- VEWA billing 1x per year (without advance payments)
+- VEWA billing 1x per year (without payments on account)
 
 </Kachel>
 
@@ -98,10 +98,10 @@ Kirchstrasse 18, CH-9200 Gossau SG · +41 71 388 20 10
 
 [www.techcom.ch](https://www.techcom.ch/) · [info@techcom.ch](mailto:info@techcom.ch)
 
-- Complete solution with installation and billing service for ZEV, vZEV, LEC and E-Mobility
-- Billing for ZEV, vZEV, LEC and E-Mobility
+- Complete solution with installation and billing service for ZEV, vZEV, LEC and e-mobility
+- Billing for ZEV, vZEV, LEC and e-mobility
 - VEWA ancillary cost billing
-- Energy optimisation
+- Energy optimization
 
 </Kachel>
 
@@ -113,9 +113,13 @@ Kirchstrasse 18, CH-9200 Gossau SG · +41 71 388 20 10
 
 <Kachel bild="/img/drittsysteme-nebenkostenabrechnung/07.png" titel="Blockstrom AG">
 
-Morillonstrasse 77, CH-3007 Bern · +41 31 511 20 30
+Morillonstrasse 77, CH-3007 Bern
 
-[www.blockstrom.com](https://www.blockstrom.com/) · [info@blockstrom.com](mailto:info@blockstrom.com)
++41 31 511 20 30
+
+[www.blockstrom.com](https://www.blockstrom.com/)
+
+[info@blockstrom.com](mailto:info@blockstrom.com)
 
 optionally with debt collection
 
@@ -123,33 +127,49 @@ optionally with debt collection
 
 <Kachel bild="/img/drittsysteme-nebenkostenabrechnung/08.png" titel="Brunata AG">
 
-Althardstrasse 10, CH-8105 Regensdorf · +41 41 669 10 10
+Althardstrasse 10, CH-8105 Regensdorf
 
-[www.brunata.ch](http://www.brunata.ch) · [contact@brunata.ch](mailto:contact@brunata.ch)
++41 41 669 10 10
+
+[www.brunata.ch](http://www.brunata.ch)
+
+[contact@brunata.ch](mailto:contact@brunata.ch)
 
 </Kachel>
 
 <Kachel bild="/img/drittsysteme-nebenkostenabrechnung/09.png" titel="D + R Immobilien AG">
 
-Rebbergstrasse 56a, CH-5621 Zufikon · +41 56 641 91 41
+Rebbergstrasse 56a, CH-5621 Zufikon
 
-[www.drimmobilien.ch](http://www.drimmobilien.ch) · [markus.kuemin@drimmobilien.ch](mailto:markus.kuemin@drimmobilien.ch)
++41 56 641 91 41
+
+[www.drimmobilien.ch](http://www.drimmobilien.ch)
+
+[markus.kuemin@drimmobilien.ch](mailto:markus.kuemin@drimmobilien.ch)
 
 </Kachel>
 
 <Kachel bild="/img/drittsysteme-nebenkostenabrechnung/10.png" titel="Egon AG">
 
-General Wille-Strasse 59, CH-8706 Feldmeilen · +41 58 680 20 05
+General Wille-Strasse 59, CH-8706 Feldmeilen
 
-[www.egonline.ch](https://www.egonline.ch/) · [energie@egonline.ch](mailto:energie@egonline.ch)
++41 58 680 20 05
+
+[www.egonline.ch](https://www.egonline.ch/)
+
+[energie@egonline.ch](mailto:energie@egonline.ch)
 
 </Kachel>
 
 <Kachel bild="/img/drittsysteme-nebenkostenabrechnung/11.png" titel="Enicon AG">
 
-Grubenstrasse 7b, CH-3322 Urtenen-Schönbühl · +41 31 537 10 40
+Grubenstrasse 7b, CH-3322 Urtenen-Schönbühl
 
-[www.enicon.ch](http://www.enicon.ch) · [info@enicon.ch](mailto:info@enicon.ch)
++41 31 537 10 40
+
+[www.enicon.ch](http://www.enicon.ch)
+
+[info@enicon.ch](mailto:info@enicon.ch)
 
 Contact person Urs Mori
 
@@ -157,25 +177,37 @@ Contact person Urs Mori
 
 <Kachel bild="/img/drittsysteme-nebenkostenabrechnung/12.png" titel="IMOVATEC AG">
 
-Rothusstrasse 23, CH-6331 Hünenberg · +41 41 910 50 50
+Rothusstrasse 23, CH-6331 Hünenberg
 
-[www.imovatec.ch](http://www.imovatec.ch) · [info@imovatec.ch](mailto:info@imovatec.ch)
++41 41 910 50 50
+
+[www.imovatec.ch](http://www.imovatec.ch)
+
+[info@imovatec.ch](mailto:info@imovatec.ch)
 
 </Kachel>
 
 <Kachel bild="/img/drittsysteme-nebenkostenabrechnung/13.png" titel="ista swiss ag">
 
-Zofingerstrasse 61, CH-4665 Oftringen · +41 62 764 99 00
+Zofingerstrasse 61, CH-4665 Oftringen
 
-[www.ista-swiss.ch](http://www.ista-swiss.ch) · [info@ista-swiss.ch](mailto:info@ista-swiss.ch)
++41 62 764 99 00
+
+[www.ista-swiss.ch](http://www.ista-swiss.ch)
+
+[info@ista-swiss.ch](mailto:info@ista-swiss.ch)
 
 </Kachel>
 
 <Kachel bild="/img/drittsysteme-nebenkostenabrechnung/14.png" titel="MG partners">
 
-Route du Pissot 2, CH-1847 Rennaz · +41 21 967 33 90
+Route du Pissot 2, CH-1847 Rennaz
 
-[mg-partners.ch](https://mg-partners.ch/) · [info@mg-partners.ch](mailto:info@mg-partners.ch)
++41 21 967 33 90
+
+[mg-partners.ch](https://mg-partners.ch/)
+
+[info@mg-partners.ch](mailto:info@mg-partners.ch)
 
 Service in French — prestation de service en français
 
@@ -183,43 +215,63 @@ Service in French — prestation de service en français
 
 <Kachel bild="/img/drittsysteme-nebenkostenabrechnung/15.png" titel="pi-System GmbH">
 
-Länggasse 3, CH-6208 Oberkirch · +41 41 229 30 00
+Länggasse 3, CH-6208 Oberkirch
 
-[www.pi-system.ch](http://www.pi-system.ch/) · [info@pi-system.ch](mailto:info@pi-system.ch)
++41 41 229 30 00
+
+[www.pi-system.ch](http://www.pi-system.ch/)
+
+[info@pi-system.ch](mailto:info@pi-system.ch)
 
 </Kachel>
 
 <Kachel bild="/img/drittsysteme-nebenkostenabrechnung/16.png" titel="Rapp Enserv AG">
 
-Hochstrasse 100, CH-4018 Basel · +41 58 595 77 77
+Hochstrasse 100, CH-4018 Basel
 
-[www.rapp.ch](http://www.rapp.ch/) · [info@rapp.ch](mailto:info@rapp.ch)
++41 58 595 77 77
+
+[www.rapp.ch](http://www.rapp.ch/)
+
+[info@rapp.ch](mailto:info@rapp.ch)
 
 </Kachel>
 
 <Kachel bild="/img/drittsysteme-nebenkostenabrechnung/17.png" titel="Roland Meyer AG">
 
-Ebenaustrasse 10, CH-6048 Horw · +41 41 318 36 00
+Ebenaustrasse 10, CH-6048 Horw
 
-[www.rolandmeyer.ch](http://www.rolandmeyer.ch) · [mail@rolandmeyer.ch](mailto:mail@rolandmeyer.ch)
++41 41 318 36 00
+
+[www.rolandmeyer.ch](http://www.rolandmeyer.ch)
+
+[mail@rolandmeyer.ch](mailto:mail@rolandmeyer.ch)
 
 </Kachel>
 
 <Kachel bild="/img/drittsysteme-nebenkostenabrechnung/18.png" titel="Schibli AG">
 
-Renewable Energy Competence Centre
+Competence Center for Renewable Energy
 
-Klosbachstrasse 67, CH-8032 Zürich · +41 44 265 61 01
+Klosbachstrasse 67, CH-8032 Zürich
 
-www.schibli.com · [e-e@schibli.com](mailto:e-e@schibli.com)
++41 44 265 61 01
+
+www.schibli.com 
+
+[e-e@schibli.com](mailto:e-e@schibli.com)
 
 </Kachel>
 
 <Kachel bild="/img/drittsysteme-nebenkostenabrechnung/19.png" titel="Meier Energie GmbH">
 
-Delehala 36, LIE-9493 Mauren · +423 788 00 93
+Delehala 36, LIE-9493 Mauren
 
-[www.meier-energie.li](http://www.meier-energie.li/) · [energie@messbar.li](mailto:energie@messbar.li)
++423 788 00 93
+
+[www.meier-energie.li](http://www.meier-energie.li/)
+
+[energie@messbar.li](mailto:energie@messbar.li)
 
 </Kachel>
 

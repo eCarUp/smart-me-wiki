@@ -1,15 +1,16 @@
 ---
-title: 'M-Bus Gateways'
+title: 'M-Bus Gateway'
 slug: '/produkte/m-bus-gateway'
-description: 'The smart-me M-Bus Gateways read out energy meters with an M-Bus interface (EN 13757-2, -3) and transmit the data automatically and encrypted via WLAN to the smart-me C…'
-sidebar_label: 'M-Bus Gateways'
+description: 'The smart-me M-Bus Gateways read energy meters with an M-Bus interface (EN 13757-2, -3) and transmit the data automatically and encrypted via WiFi to the smart-me C…'
+sidebar_label: 'M-Bus Gateway'
 ---
-The smart-me M-Bus Gateways read out energy meters with an M-Bus interface (EN 13757-2, -3) and transmit the data automatically and encrypted via WLAN to the smart-me Cloud. Using the smart-me portal or our open interface, you can then flexibly analyse the values of various energy sources (water, heat, gas, temperature) and export them to third-party systems. 
+The smart-me M-Bus Gateways read energy meters with an M-Bus interface (EN 13757-2, -3) and transmit the data automatically and encrypted via WiFi to the smart-me Cloud. Via the smart-me portal or our open interface, the values of various energy sources (water, heat, gas, temperature) can then be flexibly analysed and exported to third-party systems. 
 
+[EN](/produkte/m-bus-gateway)
 
 ## M-Bus Gateway (50 standard loads)
 
-### Features
+### Functions
 
 - [Installation](/konfiguration/inbetriebnahme) with the free smart-me app.
 
@@ -18,7 +19,7 @@ The smart-me M-Bus Gateways read out energy meters with an M-Bus interface (EN 1
 - Integrated power supply
 
 - Supports M-Bus devices according to EN 13757-2, -3 (formerly EN 1434-3)
-    The standard defines the protocol, but not the data it contains. Compliance with the standard alone is therefore no guarantee of actual functionality. Check our [compatibility list](/produkte/m-bus-gateway).
+    The standard defines the protocol, but not the data it contains. Compliance with the standard alone is therefore no guarantee of effective operation. Check our [compatibility list](/produkte/m-bus-gateway).
 
 - Billing with the [smart-me Billing Tool](/konfiguration/billing)
 
@@ -44,7 +45,7 @@ Article name: smart-me M-Bus Gateway (with WiFi interface)
 
 Customs tariff number: 9028.1000
 
-Weight including packaging: 150g
+Weight with packaging: 150g
 
 ### Connection diagram
 
@@ -62,7 +63,7 @@ Pressing the T(4) button for 10 seconds creates a local WiFi for the installatio
 
 ## M-Bus Gateway Sirius (250 standard loads)
 
-### Features
+### Functions
 
 - [Installation](/konfiguration/inbetriebnahme) with the free smart-me app.
 
@@ -71,7 +72,7 @@ Pressing the T(4) button for 10 seconds creates a local WiFi for the installatio
 - Integrated power supply
 
 - Supports M-Bus devices according to EN 13757-2, -3 (formerly EN 1434-3).
-    The standard defines the protocol, but not the data it contains. Compliance with the standard alone is therefore no guarantee of actual functionality. Check our [compatibility list](/produkte/m-bus-gateway).
+    The standard defines the protocol, but not the data it contains. Compliance with the standard alone is therefore no guarantee of effective operation. Check our [compatibility list](/produkte/m-bus-gateway).
 
 - Billing with the [smart-me Billing Tool](/konfiguration/billing)
 
@@ -97,7 +98,7 @@ Article name: smart-me M-Bus Gateway Sirius
 
 Customs tariff number: 9028.9000
 
-Weight including packaging: 260g
+Weight with packaging: 260g
 
 ### Connection diagram
 
@@ -111,7 +112,7 @@ Press briefly once = Toggles the installation mode
 
 Reset button (T2)
 
-Press briefly once = Reads out the MBUS slaves 
+Press briefly once = Reads the MBUS slaves 
 
 Press and hold = Scans the M-BUS 
 
@@ -121,25 +122,25 @@ Press and hold = Restarts the device
 
 ## Commissioning
 
-On these pages you will find all the relevant information for successfully commissioning the M-Bus Gateway.
+On these pages you will find all relevant information for successfully commissioning the M-Bus Gateway.
 
-- [Preparing for commissioning](/konfiguration/inbetriebnahme#instructions-for-both-m-bus-gateways)
+- [Preparing the commissioning](/konfiguration/inbetriebnahme#instructions-for-both-m-bus-gateways)
 
 - [Commissioning](/konfiguration/inbetriebnahme)
 
-- [Numbering for combined meters](/konfiguration/inbetriebnahme#numbering-for-combined-meters) 
+- [Numbering for combination meters](/konfiguration/inbetriebnahme#numbering-for-combined-meters) 
 
-- [Searching for M-Bus Gateway devices](/konfiguration/inbetriebnahme#m-bus-gateway-search-for-devices)
+- [Searching for M-Bus Gateway devices](/konfiguration/inbetriebnahme#m-bus-gateway-search-devices)
 
-- [Preventing automatic device detection](/konfiguration/inbetriebnahme#m-bus-gateway-prevent-detection-of-new-devices)
+- [Preventing automatic device detection](/konfiguration/inbetriebnahme#prevent-the-m-bus-gateway-from-detecting-new-devices)
 
 
 ## Compatible electricity, heat, water and gas meters
 
-The M-Bus Gateway reads out more than 1000 meter types from various manufacturers. Below you will find a non-exhaustive list of compatible device manufacturers.
+The M-Bus Gateway reads more than 1000 meter types from various manufacturers. Below you will find a non-exhaustive list of compatible device manufacturers.
 
 Note: Pay explicit attention to how the meter is declared. It can be declared as a heat meter, heat / cooling meter, water meter or electricity meter.
-Combined meters that are not declared as heat / cooling meters may not work correctly in combination or may only work as a heat meter.
+Combination meters that are not declared as heat / cooling meters may not work correctly in combination or may only work as heat meters.
 
 <Embed src="https://drive.google.com/file/d/1PVhN_1lLolihf6eNQ_1x7UxZK8cjE_hq/preview" height="700px" title="Drive, compatibility list M-Bus_Gateway.xlsx" />
 
@@ -147,147 +148,149 @@ Kompatibilitätsliste M-Bus\_Gateway.xlsx
 
 Do you belong on this list too? If your product supports the M-Bus standard EN 13757-2, -3 (formerly EN 1434-3), we will be happy to list you among the compatible device manufacturers as well! [Contact](/kontakt) us. 
 
-INTEGRA Metering AG
+### Device manufacturer contacts
 
-Ringstrasse 75
+<Kacheln min="18rem">
 
-CH-4106 Therwil
+<Kachel titel="INTEGRA Metering AG">
 
-+41 61 725 11 22
+Ringstrasse 75, CH-4106 Therwil
 
-[www.ch.integra-metering.com](http://www.ch.integra-metering.com)
++41 61 725 11 22 
 
-Naim Ickin
+[www.ch.integra-metering.com](https://www.ch.integra-metering.com)
 
-+41 61 725 11 22
+Naim Ickin 
+
++41 61 725 11 22 
 
 [naim.ickin@integra-metering.com](mailto:naim.ickin@integra-metering.com)
 
-GWF AG
+</Kachel>
 
-Obergrundstrasse 119
+<Kachel titel="GWF AG">
 
-CH-6005 Luzern
+Obergrundstrasse 119, CH-6005 Luzern
 
-+41 41 319 50 50
++41 41 319 50 50 
 
-[www.gwf.ch](http://www.gwf.ch)
+[www.gwf.ch](https://www.gwf.ch)
 
-Mauro Nuozzi (Head of Back Office)
+Mauro Nuozzi (Head of Back Office) 
 
-+41 41 319 52 47
++41 41 319 52 47 
 
 [mauro.nuozzi@gwf.ch](mailto:mauro.nuozzi@gwf.ch)
 
-ista swiss ag
+</Kachel>
 
-Zofingerstrasse 61
+<Kachel titel="ista swiss ag">
 
-CH-4665 Oftringen
+Zofingerstrasse 61, CH-4665 Oftringen
 
-+41 62 746 99 00
++41 62 746 99 00 
 
-[www.ista-swiss.ch](http://www.ista-swiss.ch)
+[www.ista-swiss.ch](https://www.ista-swiss.ch)
 
-André Huber, Team Leader / Technical Center
+André Huber (Team Leader / Technical Center) 
 
-+41 62 746 99 10
++41 62 746 99 10 
 
 [andre.huber@ista-swiss.ch](mailto:andre.huber@ista-swiss.ch)
 
-NeoVac ATA AG
+</Kachel>
 
-Eichaustrasse 1
+<Kachel titel="NeoVac ATA AG">
 
-CH-9463 Oberriet
+Eichaustrasse 1, CH-9463 Oberriet
 
-+41 58 715 50 50
++41 58 715 50 50 
 
-[www.neovac.ch](http://www.neovac.ch)
+[www.neovac.ch](https://www.neovac.ch)
 
-Heinz Marti, Head of Technology 
+Heinz Marti (Head of Technology) 
 
-+41 58 715 56 90
++41 58 715 56 90 
 
-[heinz.marti@neovac.ch](mailto:heinz.marti@neovac.ch)
+npm run translate[heinz.marti@neovac.ch](mailto:heinz.marti@neovac.ch)
 
-Optec AG
+</Kachel>
 
-Guyer-Zeller-Strasse 14
+<Kachel titel="Optec AG">
 
- CH-8620 Wetzikon ZH
+Guyer-Zeller-Strasse 14, CH-8620 Wetzikon ZH
 
-+41 44 933 07 70
++41 44 933 07 70 
 
-[www.optec.ch](http://www.optec.ch)
+[www.optec.ch](https://www.optec.ch)
 
-Burak Nurten, Deputy Head of Internal Sales
-
-+41 44 933 07 70
+Burak Nurten (Deputy Head of Internal Sales) 
 
 [burak.nurten@optec.ch](mailto:burak.nurten@optec.ch)
 
-Rapp AG
+</Kachel>
 
-Hochstrasse 100
+<Kachel titel="Rapp AG">
 
-CH-4018 Basel
+Hochstrasse 100, CH-4018 Basel
 
-+41 58 595 77 77
++41 58 595 77 77 
 
-[www.rapp.ch](http://www.rapp.ch)
+[www.rapp.ch](https://www.rapp.ch)
 
-Stephan Krummenacher
+Stephan Krummenacher 
 
-+41 58 595 77 74
++41 58 595 77 74 
 
 [stephan.krummenacher@rapp.ch](mailto:stephan.krummenacher@rapp.ch)
 
-Techem (Schweiz) AG
+</Kachel>
 
-Steinackerstr. 55
+<Kachel titel="Techem (Schweiz) AG">
 
-CH-8902 Urdorf
+Steinackerstr. 55, CH-8902 Urdorf
 
-+41 43 455 65 00
++41 43 455 65 00 
 
-[www.techem.ch](http://www.techem.ch)
+[www.techem.ch](https://www.techem.ch)
 
-Roger Holliger, Product Management
+Roger Holliger (Product Management) 
 
-+41 43 455 65 16
++41 43 455 65 16 
 
 [roger.holliger@techem.ch](mailto:roger.holliger@techem.ch)
 
-Brunata AG
+</Kachel>
 
-Althardstrasse 10
+<Kachel titel="Brunata AG">
 
-CH-8105 Regensdorf
+Althardstrasse 10, CH-8105 Regensdorf
 
 +41 41 669 10 10 
 
-[www.brunata.ch](http://www.brunata.ch)
+[www.brunata.ch](https://www.brunata.ch)
 
-Alex Nanzer, Management
-
-+41 41 669 10 10
+Alex Nanzer (Management) 
 
 [alex.nanzer@brunata.ch](mailto:alex.nanzer@brunata.ch)
 
-BELIMO Automation AG
+</Kachel>
 
-Brunnenbachstrasse 1 
+<Kachel titel="BELIMO Automation AG">
 
-CH-8340 Hinwil
+Brunnenbachstrasse 1, CH-8340 Hinwil
 
-+41 43 843 61 11
++41 43 843 61 11 
 
-[www.belimo.com](http://www.belimo.com)
+[www.belimo.com](https://www.belimo.com)
+
+</Kachel>
+
+</Kacheln>
 
 ## M-Bus installation regulations
 
-How to make the installation quick and easy
+How to complete the installation in no time
 
 - Empty conduits or cable routes from the data centre to the junction boxes and the measuring devices
 
@@ -295,21 +298,21 @@ How to make the installation quick and easy
 
 - Sealable junction / connection boxes at all terminal and connection points
 
-- Mounting of the data centre including connection
+- Mounting of the data centre incl. connection
 
-- 230V / 10A supply from sealable fuse groups
+- Power supply 230V / 10A from sealable fuse groups
 
 
 Caution: Do not apply voltage to the smart-me M-Bus Gateway. The operating voltage may only be switched on by a smart-me partner.
 
 Recommended combination of cable routing
-We recommend dividing the routing of the bus lines into riser lines and branch lines:
+We recommend dividing the laying of the bus lines into riser lines and branch lines:
 
 ![M-Bus Gateway – Figure 6](/img/produkte-m-bus-gateway/06.png)
 
 ### Regulations for cable and electrical installation
 
-The SEV regulations generally apply. You should keep the bus lines as short as possible.
+The SEV regulations apply in general. Keep the bus lines as short as possible.
 The following cable types are recommended:
 
 Riser line: TT2×1,5 mm2 (preferred), maximum line length = 1000 m
@@ -318,9 +321,9 @@ Branch line: U72 1×4×0,8 mm2 (preferred), maximum line length = 50 m
 
 Note: All junction, connection and joint points must be sealable. 
 
-The sealing is carried out by a smart-me partner.
+Sealing is carried out by a smart-me partner.
 
-### Suggested materials
+### Material suggestions
 
 Connections/joints:
 
@@ -329,22 +332,22 @@ Connections/joints:
 - Flush-mounted boxes: standard junction boxes
 
 
-Wire connections:
+Line connections:
 
 - Button press connectors «Scotchlok IDC» 0,5 ... 1,5 mm2
 
-- Standard terminals for low-current conductors
+- Standard terminals for low-voltage conductors
 
 
 ### At what interval do the meters send data?
 
-The data is read out sequentially from each M-Bus meter according to the configured interval. Reading out one meter takes approx. 3 seconds. The meters are read out in the order in which they are listed under the M-Bus Gateway.
+According to the configured interval, the data is read sequentially from each M-Bus meter. Reading one meter takes approx. 3 seconds. The meters are read in the order in which they are listed under the M-Bus Gateway.
 
 ## Technical description of the M-BUS protocol
 
-The smart-me Cloud generally displays all data that the meter sends via M-BUS. smart-me complies with the EN 13757-2, -3 standard. 
+The smart-me Cloud basically displays all data that the meter sends via M-BUS. smart-me complies with the EN 13757-2, -3 standard. 
 
-Some examples of the mapping of M-BUS telegrams: [Examples: smart-me M-BUS OBIS Mapping](https://docs.google.com/spreadsheets/d/1YdANNycQFGBsSAA0OtO-GKNZQg42OdUJ03VKlixGZ1w/edit#gid=0) 
+Some examples of the mapping of the M-BUS telegrams: [Examples: smart-me M-BUS OBIS Mapping](https://docs.google.com/spreadsheets/d/1YdANNycQFGBsSAA0OtO-GKNZQg42OdUJ03VKlixGZ1w/edit#gid=0) 
 
 ## Downloads and declaration of conformity
 

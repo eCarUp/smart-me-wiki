@@ -1,16 +1,16 @@
 ---
 title: 'smart-me ZEV und Pico'
 slug: '/planung/elektromobilitaet/smart-me-zev-und-pico'
-description: 'E-Mobilität in der smart-me ZEV mit der Pico Ladestationshardware'
-sidebar_label: 'smart-me ZEV und Pico'
+description: 'smart-me ZEV mit der Pico Ladestationshardware'
+sidebar_label: 'smart-me ZEV / Mieterstrom und Pico'
 ---
-## E-Mobilität in der smart-me ZEV mit der Pico Ladestationshardware
+## E-Mobilität in der smart-me ZEV / Mieterstrom mit der Pico Ladestationshardware
 
 ### Prinzipschema einer Überbauung im Zusammenschluss zum Eigenverbrauch
 
 ![smart-me ZEV und Pico – Abbildung 1](/img/planung-elektromobilitaet-smart-me-zev-und-pico/01.png)
 
-### Beschreibung der Lastmanagementlösung im Messkonzept eines ZEV
+### Beschreibung der Lastmanagementlösung im Messkonzept eines ZEV oder Mieterstromobjekts
 
 Das Lastmanagement der Pico Ladestation basiert auf der smart-me Zählerhardware. Diese Hardware kann direkt als Referenzpunkte verwendet werden.
 
@@ -18,17 +18,11 @@ Ist bereits eine Fremdzählerinstallation vorhanden kann das Lastmanagement für
 Weitere Informationen dazu findest du hier unter "erweiterte Informationen".
 
 Vorteile des smart-me Lastmanagements:
-
 - Keine zusätzliche Messhardware nötig
-
 - Gleicher Hersteller der Messhardware und Ladestation: Top Kompatibilität und Zuverlässigkeit
-
 - Mehrstufiges dynamisch gesteuertes Lastenmanagement: Minimale Leistungsverluste und hohe Verfügbarkeit
-
 - Zentral gesteuerter Lastabwurf der gesamten Anlage
-
 - Areal- oder Hausoptimierte Solaroptimierungsfunktion
-
 - Ladegruppenpriorisierungen und passive Lastspitzenminimierung
 
 
@@ -57,9 +51,6 @@ Funktional benötigte Hardwarepunkte für das gesamtheitliche Lastmanagement im 
 ### Abrechnung der E-Mobilität im ZEV
 
 Die Abrechnung kann auf verschiedene Arten erfolgen mit ihren spezifischen Vor- und Nachteilen:
-
 - Abrechnung im Einheits- oder Mehrtarifsystem im ZEV mit [smart-me Billing](https://web.smart-me.com/energiekostenabrechnung/) separiert oder zusammen mit dem Wohnungsverbrauch.
-
 - Abrechnung im Einheitstarifsystem mittels Post-Payment Methode und dem [eCarUp Backend](https://web.ecarup.com/referenzen/).
-
 - Abrechnung im Einheitstarif mittels hoch automatisierter Kreditkartenabrechnung mittels [eCarUp Backend](https://web.ecarup.com/referenzen/).

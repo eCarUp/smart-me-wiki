@@ -7,10 +7,8 @@ sidebar_label: 'piskelapp'
 <div className="row">
 <div className="col col--7">
 
-[EN](/drittsysteme/piskelapp)
-
 Our Pico charging station has a 32 × 32 pixel display that can show GIF animations.
-The smart-me web portal already provides a number of preset GIFs, but you can also upload your own files to personalise your charging station even further.
+The smart-me web portal already includes a number of preset GIFs, but you can also upload your own files to personalise your charging station even further.
 
 This is easy to do with the Piskel website. 
 
@@ -30,7 +28,7 @@ Piskel is a free, web-based drawing program for creating pixel art and animated 
 <div className="row">
 <div className="col col--7">
 
-- Open [piskelapp.com](https://www.piskelapp.com/) and click "Create Sprite" in the top right corner.
+- Open [piskelapp.com](https://www.piskelapp.com/) and click "Create Sprite" at the top right.
 
 - You will find the settings on the right – set the size to 32 × 32 pixels.
 
@@ -45,17 +43,17 @@ Piskel is a free, web-based drawing program for creating pixel art and animated 
 <div className="row">
 <div className="col col--7">
 
-- Select the drawing tool and a colour on the left.
+- Select the drawing tool you want and a colour on the left.
 
-- Draw your design in the work area.
+- Draw your motif in the work area.
 
-    (If you only want a static image, you can export it as a PNG now.)
+    (If you only want a static motif, you can export it as a PNG now.)
 
 - For an animation, add a new frame and draw the movement you want.
 
 - Export your work as a GIF.
 
-    (Important: The background must be black; transparency is not allowed.)
+    (Important: The background must be black; transparent is not allowed.)
 
 - Upload the GIF file in the smart-me web portal.
 
@@ -69,4 +67,4 @@ Piskel is a free, web-based drawing program for creating pixel art and animated 
 
 ### How to convert a GIF
 
-Upload a GIF via "Import" and resize it to 32 × 32 pixels. You can then export it as a GIF again and load it onto your Pico charging station in the smart-me web portal.
+Upload a GIF via "Import" and resize it to 32 × 32 pixels. You can then export it again as a GIF and load it onto your Pico charging station in the smart-me web portal.

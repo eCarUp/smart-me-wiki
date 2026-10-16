@@ -1,8 +1,8 @@
 ---
-title: 'Drittanbieter ZEV und Pico'
+title: 'Drittanbieter ZEV / Mieterstrom und Pico'
 slug: '/planung/elektromobilitaet/drittanbieter-zev-und-pico'
-description: 'E-Mobilität mit der smart-me Pico Ladestation ohne smart-me ZEV'
-sidebar_label: 'Drittanbieter ZEV und Pico'
+description: 'smart-me Pico Ladestation in Drittanbieter ZEV / Mieterstrom'
+sidebar_label: 'Drittanbieter ZEV / Mieterstrom und Pico'
 ---
 ## E-Mobilität mit der smart-me Pico Ladestation ohne smart-me ZEV
 
@@ -20,15 +20,10 @@ Weitere Informationen dazu findest du hier unter "erweiterte Informationen".
 Vorteile des smart-me Lastmanagements:
 
 - Gleicher Hersteller der Messhardware und Ladestation: Top Kompatibilität und Zuverlässigkeit
-
 - Mehrstufiges dynamisch gesteuertes Lastenmanagement: Minimale Leistungsverluste und hohe Verfügbarkeit
-
 - Zentral gesteuerter Lastabwurf der gesamten Anlage
-
 - Areal- oder Hausoptimierte Solaroptimierungsfunktion
-
 - Ladegruppenpriorisierungen und passive Lastspitzenminimierung
-
 
 Funktional benötigte Hardwarepunkte für das gesamtheitliche Lastmanagement mit smart-me Hardware (Rote Pfeile):
 
@@ -53,9 +48,6 @@ Funktional benötigte Hardwarepunkte für das gesamtheitliche Lastmanagement mit
 ### Abrechnung der E-Mobilität ohne ZEV
 
 Die Abrechnung kann auf verschiedene Arten erfolgen mit ihren spezifischen Vor- und Nachteilen:
-
 - Abrechnung im Einheits- oder Mehrtarifsystem im ZEV mit [smart-me Billing](https://web.smart-me.com/energiekostenabrechnung/).
-
 - Abrechnung im Einheitstarifsystem mittels Post-Payment Methode und dem [eCarUp Backend](https://web.ecarup.com/referenzen/).
-
 - Abrechnung im Einheitstarif mittels hoch automatisierter Kreditkartenabrechnung und dem [eCarUp Backend](https://web.ecarup.com/referenzen/).

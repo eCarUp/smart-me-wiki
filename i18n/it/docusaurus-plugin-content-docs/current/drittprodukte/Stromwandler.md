@@ -1,18 +1,18 @@
 ---
 title: 'Trasformatori di corrente e accessori per Telstar CT'
 slug: '/drittprodukte/Stromwandler'
-description: 'Nessuno di questi prodotti è distribuito da smart-me AG né offerto come accessorio al momento dell''acquisto.'
+description: 'Nessuno di questi prodotti è distribuito dalla smart-me AG né offerto come accessorio al momento dell''acquisto.'
 sidebar_label: 'Trasformatori di corrente'
 ---
 Avviso importante:
 
-Nessuno di questi prodotti è distribuito da smart-me AG né offerto come accessorio al momento dell'acquisto. Si prega di acquistare questi prodotti direttamente dal produttore.
+Nessuno di questi prodotti è distribuito dalla smart-me AG né offerto come accessorio al momento dell'acquisto. Acquisti questi prodotti direttamente presso il produttore.
 
-Di seguito trova un elenco di prodotti consigliati. smart-me non guadagna nulla con i prodotti consigliati e non fornisce alcuna garanzia per essi. È sempre possibile utilizzare altri prodotti. In tal caso occorre sempre verificare che questi soddisfino i requisiti del rispettivo prodotto, in questo caso del [contatore trifase Telstar CT](/produkte/Telstar-CT).
+Di seguito trova un elenco di prodotti consigliati. smart-me non guadagna nulla con i prodotti consigliati e non fornisce alcuna garanzia per essi. È sempre possibile utilizzare altri prodotti. In tal caso occorre sempre verificare che soddisfino i requisiti del rispettivo prodotto, in questo caso del [contatore trifase Telstar CT](/produkte/Telstar-CT).
 
-Lo scopo dei consigli è offrire ai nostri partner la possibilità di trovare in modo semplice ed efficiente determinati prodotti, qualora non ne conoscano ancora.
+Lo scopo di questi consigli è offrire ai nostri partner la possibilità di trovare determinati prodotti in modo semplice ed efficiente, quando non ne conoscono ancora uno adatto.
 
-## Trasformatori di corrente tarati per scopi di fatturazione
+## Trasformatori di corrente tarati a fini di fatturazione
 
 Se i contatori devono essere utilizzati per la fatturazione, sono necessari trasformatori tarati che soddisfino almeno la classe 0.5 o inferiore.
 
@@ -22,9 +22,9 @@ Se i contatori devono essere utilizzati per la fatturazione, sono necessari tras
 
 Paese di distribuzione: Svizzera
 
-Scopo d'impiego:
+Impiego:
 
-- Scopi di fatturazione
+- Fini di fatturazione
 
 
 Tipo: 
@@ -41,13 +41,18 @@ Fonte: [https://www.pfiffner-group.com](https://www.pfiffner-group.com/)
 
 Possibili fonti di approvvigionamento:
 
-- Pfiffner Messwandler direttamente
-    Contatto Pfiffner: signor Samuel Gloor
-    E-mail: [msns@pmw.ch](mailto:msns@pmw.ch)
-    Tel: +41 62 739 29 19
+<Kacheln min="20rem">
+<Kachel titel="Pfiffner Messwandler direkt">
+
+Signor Samuel Gloor
+
++41 62 739 29 19 · [msns@pmw.ch](mailto:msns@pmw.ch)
+
+</Kachel>
+</Kacheln>
 
 
-Taratura per scopi di fatturazione:
+Taratura a fini di fatturazione:
 
 La taratura deve essere richiesta specificamente o indicata al momento dell'ordine.
 
@@ -57,9 +62,9 @@ La taratura deve essere richiesta specificamente o indicata al momento dell'ordi
 
 Paese di distribuzione: Svizzera
 
-Scopo d'impiego:
+Impiego:
 
-- Scopi di fatturazione
+- Fini di fatturazione
 
 
 Tipo: 
@@ -76,12 +81,16 @@ Fonte: [https://hager.com/](https://hager.com/)
 
 Possibili fonti di approvvigionamento:
 
-- Hager direttamente
-    E-mail:  [emmenbruecke@hager.com](mailto:emmenbruecke@hager.com)  
-    Tel: +41 41 269 90 00
+<Kacheln min="20rem">
+<Kachel titel="Hager direkt">
+
++41 41 269 90 00 · [emmenbruecke@hager.com](mailto:emmenbruecke@hager.com)
+
+</Kachel>
+</Kacheln>
 
 
-Taratura per scopi di fatturazione:
+Taratura a fini di fatturazione:
 
 La taratura deve essere richiesta specificamente o indicata al momento dell'ordine.
 
@@ -91,9 +100,9 @@ La taratura deve essere richiesta specificamente o indicata al momento dell'ordi
 
 Paese di distribuzione: Germania
 
-Scopo d'impiego:
+Impiego:
 
-- Scopi di fatturazione
+- Fini di fatturazione
 
 
 Tipo: 
@@ -106,7 +115,7 @@ Fonte: [https://www.redur.de/](https://www.redur.de/)
 - Redur Regulus Series
 
 
-## Trasformatori di corrente per scopi di monitoraggio
+## Trasformatori di corrente a fini di monitoraggio
 
 ![Trasformatori di corrente e accessori per Telstar CT – Figura 4](/img/drittprodukte-stromwandler/04.png)
 
@@ -114,7 +123,7 @@ Fonte: [https://www.redur.de/](https://www.redur.de/)
 
 Paese di distribuzione: Svizzera
 
-Scopo d'impiego: monitoraggio
+Impiego: monitoraggio
 
 Tipo: trasformatore di corrente aperto
 
@@ -138,7 +147,7 @@ Possibile fonte di approvvigionamento:
 
 Paese di distribuzione: Svizzera
 
-Scopo d'impiego: monitoraggio
+Impiego: monitoraggio
 
 Tipo: trasformatore di corrente chiuso
 
@@ -158,7 +167,7 @@ Possibile fonte di approvvigionamento:
 
 Paese di distribuzione: Germania
 
-Scopo d'impiego: monitoraggio
+Impiego: monitoraggio
 
 Tipo: trasformatore di corrente chiuso
 
@@ -173,7 +182,7 @@ Fonte: [https://www.redur.de/](https://www.redur.de/)
 
 Paese di distribuzione: Germania
 
-Scopo d'impiego: monitoraggio
+Impiego: monitoraggio
 
 Tipo: trasformatore di corrente aperto
 
@@ -184,7 +193,7 @@ Fonte: [https://www.redur.de/](https://www.redur.de/)
 
 ## Morsetti sezionabili per trasformatori di misura
 
-Per sostituire facilmente un contatore, anche durante il funzionamento, è possibile utilizzare morsetti sezionabili per trasformatori di misura. Questi offrono la possibilità di cortocircuitare le uscite dei trasformatori, in modo da non danneggiarli durante la sostituzione del contatore.
+Per sostituire facilmente un contatore, anche durante il funzionamento, è possibile utilizzare morsetti sezionabili per trasformatori di misura. Questi consentono di cortocircuitare le uscite dei trasformatori, in modo da non danneggiarli durante la sostituzione del contatore.
 
 ![Trasformatori di corrente e accessori per Telstar CT – Figura 8](/img/drittprodukte-stromwandler/08.png)
 

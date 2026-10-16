@@ -113,9 +113,13 @@ Kirchstrasse 18, CH-9200 Gossau SG · +41 71 388 20 10
 
 <Kachel bild="/img/drittsysteme-nebenkostenabrechnung/07.png" titel="Blockstrom AG">
 
-Morillonstrasse 77, CH-3007 Bern · +41 31 511 20 30
+Morillonstrasse 77, CH-3007 Bern
 
-[www.blockstrom.com](https://www.blockstrom.com/) · [info@blockstrom.com](mailto:info@blockstrom.com)
++41 31 511 20 30
+
+[www.blockstrom.com](https://www.blockstrom.com/)
+
+[info@blockstrom.com](mailto:info@blockstrom.com)
 
 optional mit Inkasso
 
@@ -123,33 +127,49 @@ optional mit Inkasso
 
 <Kachel bild="/img/drittsysteme-nebenkostenabrechnung/08.png" titel="Brunata AG">
 
-Althardstrasse 10, CH-8105 Regensdorf · +41 41 669 10 10
+Althardstrasse 10, CH-8105 Regensdorf
 
-[www.brunata.ch](http://www.brunata.ch) · [contact@brunata.ch](mailto:contact@brunata.ch)
++41 41 669 10 10
+
+[www.brunata.ch](http://www.brunata.ch)
+
+[contact@brunata.ch](mailto:contact@brunata.ch)
 
 </Kachel>
 
 <Kachel bild="/img/drittsysteme-nebenkostenabrechnung/09.png" titel="D + R Immobilien AG">
 
-Rebbergstrasse 56a, CH-5621 Zufikon · +41 56 641 91 41
+Rebbergstrasse 56a, CH-5621 Zufikon
 
-[www.drimmobilien.ch](http://www.drimmobilien.ch) · [markus.kuemin@drimmobilien.ch](mailto:markus.kuemin@drimmobilien.ch)
++41 56 641 91 41
+
+[www.drimmobilien.ch](http://www.drimmobilien.ch)
+
+[markus.kuemin@drimmobilien.ch](mailto:markus.kuemin@drimmobilien.ch)
 
 </Kachel>
 
 <Kachel bild="/img/drittsysteme-nebenkostenabrechnung/10.png" titel="Egon AG">
 
-General Wille-Strasse 59, CH-8706 Feldmeilen · +41 58 680 20 05
+General Wille-Strasse 59, CH-8706 Feldmeilen
 
-[www.egonline.ch](https://www.egonline.ch/) · [energie@egonline.ch](mailto:energie@egonline.ch)
++41 58 680 20 05
+
+[www.egonline.ch](https://www.egonline.ch/)
+
+[energie@egonline.ch](mailto:energie@egonline.ch)
 
 </Kachel>
 
 <Kachel bild="/img/drittsysteme-nebenkostenabrechnung/11.png" titel="Enicon AG">
 
-Grubenstrasse 7b, CH-3322 Urtenen-Schönbühl · +41 31 537 10 40
+Grubenstrasse 7b, CH-3322 Urtenen-Schönbühl
 
-[www.enicon.ch](http://www.enicon.ch) · [info@enicon.ch](mailto:info@enicon.ch)
++41 31 537 10 40
+
+[www.enicon.ch](http://www.enicon.ch)
+
+[info@enicon.ch](mailto:info@enicon.ch)
 
 Ansprechpartner Urs Mori
 
@@ -157,25 +177,37 @@ Ansprechpartner Urs Mori
 
 <Kachel bild="/img/drittsysteme-nebenkostenabrechnung/12.png" titel="IMOVATEC AG">
 
-Rothusstrasse 23, CH-6331 Hünenberg · +41 41 910 50 50
+Rothusstrasse 23, CH-6331 Hünenberg
 
-[www.imovatec.ch](http://www.imovatec.ch) · [info@imovatec.ch](mailto:info@imovatec.ch)
++41 41 910 50 50
+
+[www.imovatec.ch](http://www.imovatec.ch)
+
+[info@imovatec.ch](mailto:info@imovatec.ch)
 
 </Kachel>
 
 <Kachel bild="/img/drittsysteme-nebenkostenabrechnung/13.png" titel="ista swiss ag">
 
-Zofingerstrasse 61, CH-4665 Oftringen · +41 62 764 99 00
+Zofingerstrasse 61, CH-4665 Oftringen
 
-[www.ista-swiss.ch](http://www.ista-swiss.ch) · [info@ista-swiss.ch](mailto:info@ista-swiss.ch)
++41 62 764 99 00
+
+[www.ista-swiss.ch](http://www.ista-swiss.ch)
+
+[info@ista-swiss.ch](mailto:info@ista-swiss.ch)
 
 </Kachel>
 
 <Kachel bild="/img/drittsysteme-nebenkostenabrechnung/14.png" titel="MG partners">
 
-Route du Pissot 2, CH-1847 Rennaz · +41 21 967 33 90
+Route du Pissot 2, CH-1847 Rennaz
 
-[mg-partners.ch](https://mg-partners.ch/) · [info@mg-partners.ch](mailto:info@mg-partners.ch)
++41 21 967 33 90
+
+[mg-partners.ch](https://mg-partners.ch/)
+
+[info@mg-partners.ch](mailto:info@mg-partners.ch)
 
 Dienstleistung auf Französisch — prestation de service en français
 
@@ -183,25 +215,37 @@ Dienstleistung auf Französisch — prestation de service en français
 
 <Kachel bild="/img/drittsysteme-nebenkostenabrechnung/15.png" titel="pi-System GmbH">
 
-Länggasse 3, CH-6208 Oberkirch · +41 41 229 30 00
+Länggasse 3, CH-6208 Oberkirch
 
-[www.pi-system.ch](http://www.pi-system.ch/) · [info@pi-system.ch](mailto:info@pi-system.ch)
++41 41 229 30 00
+
+[www.pi-system.ch](http://www.pi-system.ch/)
+
+[info@pi-system.ch](mailto:info@pi-system.ch)
 
 </Kachel>
 
 <Kachel bild="/img/drittsysteme-nebenkostenabrechnung/16.png" titel="Rapp Enserv AG">
 
-Hochstrasse 100, CH-4018 Basel · +41 58 595 77 77
+Hochstrasse 100, CH-4018 Basel
 
-[www.rapp.ch](http://www.rapp.ch/) · [info@rapp.ch](mailto:info@rapp.ch)
++41 58 595 77 77
+
+[www.rapp.ch](http://www.rapp.ch/)
+
+[info@rapp.ch](mailto:info@rapp.ch)
 
 </Kachel>
 
 <Kachel bild="/img/drittsysteme-nebenkostenabrechnung/17.png" titel="Roland Meyer AG">
 
-Ebenaustrasse 10, CH-6048 Horw · +41 41 318 36 00
+Ebenaustrasse 10, CH-6048 Horw
 
-[www.rolandmeyer.ch](http://www.rolandmeyer.ch) · [mail@rolandmeyer.ch](mailto:mail@rolandmeyer.ch)
++41 41 318 36 00
+
+[www.rolandmeyer.ch](http://www.rolandmeyer.ch)
+
+[mail@rolandmeyer.ch](mailto:mail@rolandmeyer.ch)
 
 </Kachel>
 
@@ -209,17 +253,25 @@ Ebenaustrasse 10, CH-6048 Horw · +41 41 318 36 00
 
 Kompetenzzentrum Erneuerbare Energie
 
-Klosbachstrasse 67, CH-8032 Zürich · +41 44 265 61 01
+Klosbachstrasse 67, CH-8032 Zürich
 
-www.schibli.com · [e-e@schibli.com](mailto:e-e@schibli.com)
++41 44 265 61 01
+
+www.schibli.com 
+
+[e-e@schibli.com](mailto:e-e@schibli.com)
 
 </Kachel>
 
 <Kachel bild="/img/drittsysteme-nebenkostenabrechnung/19.png" titel="Meier Energie GmbH">
 
-Delehala 36, LIE-9493 Mauren · +423 788 00 93
+Delehala 36, LIE-9493 Mauren
 
-[www.meier-energie.li](http://www.meier-energie.li/) · [energie@messbar.li](mailto:energie@messbar.li)
++423 788 00 93
+
+[www.meier-energie.li](http://www.meier-energie.li/)
+
+[energie@messbar.li](mailto:energie@messbar.li)
 
 </Kachel>
 

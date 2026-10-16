@@ -21,13 +21,14 @@ Das Video Tutorial zeigt, wie einfach smart-me und LIMMOBI integriert werden kö
 
 <Video src="XIlkmWgBjn4" title="YouTube Video, Live Demo LIMMOBI" />
 
-Kontakt:
+## Kontakt
 
-LIMMOBI AG
-Wilenstrasse 27
-9500 Wil
-+41 43 540 2738
+<Kacheln min="20rem">
+<Kachel titel="LIMMOBI AG">
 
-[info@lim.mobi](mailto:info@lim.mobi)
+Wilenstrasse 27, 9500 Wil
 
-[www.limmobi.ch](https://limmobi.ch)
++41 43 540 2738 · [info@lim.mobi](mailto:info@lim.mobi) · [www.limmobi.ch](https://limmobi.ch)
+
+</Kachel>
+</Kacheln>

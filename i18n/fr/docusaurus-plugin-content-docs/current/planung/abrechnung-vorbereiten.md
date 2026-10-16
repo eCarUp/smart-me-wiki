@@ -12,78 +12,78 @@ sidebar_label: 'Préparer le décompte / la rétribution'
 
 Ce type de décompte prend en charge le tarif unique, le double tarif ou les tarifs multiples avec tarifs solaires.
 
-Pour le décompte de la partie électrique du RCP (regroupement dans le cadre de la consommation propre), il vous faut :
+Pour le décompte de la partie électrique du RCP (regroupement dans le cadre de la consommation propre), vous avez besoin de :
 
-- Le statut Professional du compte et smart-me Billing.
+- Statut Professional du compte et smart-me Billing.
 
-- Les prix de l'électricité de l'entreprise d'électricité avec les tarifs.
+- Les prix de l'électricité de l'entreprise électrique avec les tarifs.
 
-- Pas nécessaire : un signal tarifaire externe relié à tous les compteurs
+- Pas nécessaire : signal tarifaire externe relié à tous les compteurs
 
 
 ### Décompter la chaleur et l'eau avec la fonction VEWA (conforme VEWA)
 
-Pour que tous les coûts énergétiques puissent être générés dans un décompte des charges accessoires de chauffage conforme VEWA, il vous faut :
+Pour que tous les coûts énergétiques puissent être générés dans un décompte des charges accessoires de chauffage conforme VEWA, vous avez besoin de :
 
-- Le statut Professional du compte et [smart-me Billing avec la fonction VEWA](/konfiguration/billing/vewa-abrechnung)
+- Statut Professional du compte et [smart-me Billing avec fonction VEWA](/konfiguration/billing/vewa-abrechnung)
 
-- Les prix de l'électricité de l'entreprise d'électricité avec les tarifs
+- Les prix de l'électricité de l'entreprise électrique avec les tarifs
 
-- Un récapitulatif des coûts cumulés pour les énergies à décompter
+- Aperçu des coûts accumulés pour les énergies à décompter
 
-- Le guide VEWA
+- Guide VEWA
 
-- En option : un logiciel immobilier pour les exports DTA-VHKA
+- En option : logiciel immobilier pour les exports DTA-VHKA
 
-- En option : un premier décompte des coûts énergétiques d'un prestataire de décompte des charges accessoires de chauffage ou les informations nécessaires de votre planificateur sanitaire et chauffage.
+- En option : un premier décompte des coûts énergétiques établi par un prestataire de décompte des charges accessoires de chauffage ou les informations nécessaires de votre planificateur sanitaire et chauffage.
 
 
 
 
 ## Décompter l'électromobilité dans le RCP
 
-![Préparer le décompte / la rétribution – Illustration 1](/img/planung-abrechnung-vorbereiten/01.png)
+![Préparer le décompte / la rétribution – Figure 1](/img/planung-abrechnung-vorbereiten/01.png)
 
 ## Guide VEWA et RCP
 
-Guide de l'autoconsommation de SuisseEnergie (généralités, formes juridiques, coûts) : [https://www.energieschweiz.ch/gebaeude/eigenverbrauch/](https://www.energieschweiz.ch/gebaeude/eigenverbrauch/)   
+Guide sur l'autoconsommation d'énergie de SuisseEnergie (généralités, formes juridiques, coûts) : [https://www.energieschweiz.ch/gebaeude/eigenverbrauch/](https://www.energieschweiz.ch/gebaeude/eigenverbrauch/)   
 
 Modèle VEWA pour le décompte des coûts d'énergie et d'eau en fonction de la consommation : [https://www.energieschweiz.ch/haushalt/warmwasser/](https://www.energieschweiz.ch/haushalt/warmwasser/) 
 
-## Fonctionnement des tarifs et rétribution des investisseurs
+## Fonctionnement des tarifs et rétribution aux investisseurs
 
 ### Fonctionnement de l'identification du tarif et de la répartition entre les consommateurs
 
-L'identification d'un tarif dépend principalement des moyens de mesure qui lui sont associés et d'une composante temporelle optionnelle (action SI/ALORS).
+L'identification d'un tarif dépend principalement des instruments de mesure qui lui sont attribués et d'une composante temporelle optionnelle (action SI/ALORS).
 
-- Les tarifs réseau sont considérés comme des quantités d'électricité résiduelles, ce qui signifie qu'ils s'appliquent toujours à l'électricité qui n'a pas pu être attribuée à d'autres tarifs par des mesures.
+- Les tarifs réseau sont considérés comme des quantités d'électricité résiduelles, c'est-à-dire qu'ils s'appliquent toujours à l'électricité qui n'a pas pu être attribuée à d'autres tarifs au moyen de mesures.
 
-- Les tarifs solaires et de batterie prennent en compte le soutirage et l'injection des points de mesure pertinents, p. ex. compteur PV et consommation totale ou mesure de bilan, + une composante temporelle optionnelle.
+- Les tarifs solaires et batterie tiennent compte des soutirages et des livraisons des points de mesure pertinents, comme le compteur PV et la consommation totale ou la mesure de bilan, + une composante temporelle optionnelle.
 
 
-### Détermination des parts du mix électrique par 15 minutes
+### Détermination de la part du mix électrique par 15 minutes
 
 Le mix électrique est toujours déterminé pour 15 minutes, puis appliqué de manière égale à tous les consommateurs. 
 
 Exemple :
 
-- La batterie fournit 20 kWh
+- La batterie livre 20 kWh
 
-- L'installation solaire fournit 100 kWh
+- L'installation solaire livre 100 kWh
 
-- La consommation de l'ensemble de l'immeuble s'élève à 200 kWh
+- La consommation de l'ensemble de l'immeuble correspond à 200 kWh
 
 Dans ce cas, la part en pourcentage de chaque fournisseur dans la consommation totale se calcule selon la formule suivante :
 
-% de part dans le mix électrique = livraison du fournisseur / consommation totale de l'immeuble
+% part du mix électrique = livraison du fournisseur / consommation totale de l'immeuble
 
-- Part de la batterie = 20 kWh / 200 kWh = 10%
+- Part batterie = 20 kWh / 200 kWh = 10%
 
 - Part solaire = 100 kWh / 200kWh = 50%
 
-- Électricité résiduelle du réseau = 100% - part de la batterie - part solaire = 40%
+- Électricité résiduelle du réseau = 100% - part batterie - part solaire = 40%
 
-![Préparer le décompte / la rétribution – Illustration 2](/img/planung-abrechnung-vorbereiten/02.png)
+![Préparer le décompte / la rétribution – Figure 2](/img/planung-abrechnung-vorbereiten/02.png)
 
 ### Application du mix électrique aux unités de décompte et à leur consommation
 
@@ -98,19 +98,19 @@ Le mix énergétique ci-dessus est maintenant appliqué pour les 15 dernières m
     100 kWh (10 kWh de la batterie, 50kWh du solaire, 40 kWh du réseau)
 
 Remarque 1 : Le mix électrique reflète la réalité et le mix électrique effectivement présent dans le RCP. Lorsque de l'électricité est soutirée, la consommation correspond exactement à ce mix.
-Remarque 2 : Cette application du mix électrique permet aux grands consommateurs de disposer, en quantité, d'une plus grande disponibilité d'électricité solaire et de batterie avantageuse.
+Remarque 2 : Cette application du mix électrique permet aux gros consommateurs de bénéficier, en quantité, d'une plus grande disponibilité d'électricité solaire et de batterie avantageuse.
 Remarque 3 : L'application du mix électrique n'a pas pour rôle de gérer les rétributions aux investisseurs ni de répartir des contingents entre les consommateurs. 
 
-![Préparer le décompte / la rétribution – Illustration 3](/img/planung-abrechnung-vorbereiten/03.png)
+![Préparer le décompte / la rétribution – Figure 3](/img/planung-abrechnung-vorbereiten/03.png)
 
-### Prix de l'électricité solaire et rétribution des investisseurs
+### Prix de l'électricité solaire et rétribution aux investisseurs
 
-La bonne pratique pour rétribuer les investisseurs consiste à les faire participer au bénéfice issu de la production réalisée et à les dédommager ainsi. La condition préalable est que, même si tous ont investi, le prix solaire ne soit pas proposé en interne à 0 CHF.
+La bonne pratique pour rétribuer les investisseurs consiste à les faire participer au bénéfice issu de la production et à les dédommager ainsi. La condition préalable est que, même si tous ont investi, le prix solaire ne soit pas proposé en interne à 0 CHF.
 
-Si l'électricité solaire et l'électricité de batterie ont un prix, les grands consommateurs dédommagent les autres investisseurs de leur dette au moyen de ce prix à payer.
+Si l'électricité solaire et l'électricité de batterie ont un prix, les gros consommateurs dédommagent les autres investisseurs de leur dette au moyen de ce prix à payer.
 
 Exemple avec 3 investisseurs et 3 unités de décompte :
-Le prix solaire est fixé à 17 ct. / kWh.
+Le prix solaire est fixé à 17 Rp. / kWh.
 
 - Consommateur A (200 kWh de soutirage solaire, investissement 33%) :
     200 kWh \* 0.17 CHF / kWh = 34 CHF
@@ -124,9 +124,9 @@ Le prix solaire est fixé à 17 ct. / kWh.
 
 Au total, la vente d'électricité solaire a ainsi généré 45.9 CHF.
 
-![Préparer le décompte / la rétribution – Illustration 4](/img/planung-abrechnung-vorbereiten/04.png)
+![Préparer le décompte / la rétribution – Figure 4](/img/planung-abrechnung-vorbereiten/04.png)
 
-Comme tous les trois ont investi à parts égales, à raison de 1/3, chacun a droit à un tiers de cet argent généré.
+Comme les trois ont investi à parts égales, à raison d'un tiers chacun, tous ont droit à un tiers de cet argent généré.
 
 0.33 \* 45.9 CHF = 15.14 CHF de rétribution pour l'électricité solaire utilisée en interne.
 
@@ -134,11 +134,11 @@ Comme tous les trois ont investi à parts égales, à raison de 1/3, chacun a dr
     34 CHF montant facturé - 15.14 CHF rétribution = 18.86 CHF payés pour l'électricité solaire
 
 - Consommateur B (investissement 33%) :
-    3.4 CHF montant facturé - 15.14 CHF rétribution = -11.74 CHF de gain sur l'électricité solaire, ou réduction de sa facture totale
+    3.4 CHF montant facturé - 15.14 CHF rétribution = -11.74 CHF de bénéfice sur l'électricité solaire, ou réduction de sa facture totale
 
 - Consommateur C ( investissement 33%) :
-    8.5 CHF montant facturé - 15.14 CHF rétribution = -6.64 CHF de gain sur l'électricité solaire, ou réduction de sa facture totale
+    8.5 CHF montant facturé - 15.14 CHF rétribution = -6.64 CHF de bénéfice sur l'électricité solaire, ou réduction de sa facture totale
 
 
 Remarque :
-Le tarif solaire doit inclure le prix de production ainsi que les rendements. Exemple : règle des 80%. L'argent peut ainsi alimenter le fonds de rénovation (avantages fiscaux) ou être rétribué en fonction des coûts d'investissement.
+Le tarif solaire doit inclure le prix de production ainsi que les rendements. Exemple : règle des 80%. L'argent peut ainsi être versé au fonds de rénovation (avantages fiscaux) ou être rétribué en fonction des coûts d'investissement.

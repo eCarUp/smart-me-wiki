@@ -21,21 +21,21 @@ Die smart-me Daten können leicht über unsere API abgefragt werden.
 
 Zielgruppe: Ein- und Mehrfamilienhäuser und Industrie
 
-Kontakt:
+### Kontakt
 
-Selbst verbauen: [www.symcon.de](http://www.symcon.de) 
+Selbst verbauen: [www.symcon.de](http://www.symcon.de)
 
-Integratoren: [https://www.symcon.de/de/integratoren/schweiz/](https://www.symcon.de/de/integratoren/schweiz/) 
+Integratoren: [https://www.symcon.de/de/integratoren/schweiz/](https://www.symcon.de/de/integratoren/schweiz/)
 
-Symcon GmbH
+<Kacheln min="20rem">
+<Kachel titel="Symcon GmbH">
 
-Willy-Brandt-Allee 31b
+Willy-Brandt-Allee 31b, D-23554 Lübeck
 
-D-23554 Lübeck
++49 - (0) 451 30500511 · [support@symcon.de](mailto:support@symcon.de)
 
-Telefon: +49 - (0) 451 30500511
-
-[support@symcon.de](mailto:support@symcon.de) 
+</Kachel>
+</Kacheln>
 
 ### Wie kriege ich einen smart-me Messpunkt in Symcon?
 

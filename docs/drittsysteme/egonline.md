@@ -31,18 +31,14 @@ Du möchtest die Abrechnungen nicht selber erstellen? Dann erstellen wir sämtli
 
 ![egonline – Abbildung 1](/img/drittsysteme-egonline/01.png)
 
-![egonline – Abbildung 2](/img/drittsysteme-egonline/02.png)
-
 ### Kontakt
 
-Egon AG
+<Kacheln min="20rem">
+<Kachel bild="/img/drittsysteme-egonline/02.png" titel="Egon AG">
 
-General Wille-Strasse 59
+General Wille-Strasse 59, CH-8706 Feldmeilen
 
-CH-8706 Feldmeilen
++41 58 680 20 05 · [energie@egonline.ch](mailto:energie@egonline.ch) · [www.egonline.ch](https://www.egonline.ch/)
 
-+41 58 680 20 05
-
-[energie@egonline.ch](mailto:energie@egonline.ch)
-
-[www.egonline.ch](https://www.egonline.ch/)
+</Kachel>
+</Kacheln>

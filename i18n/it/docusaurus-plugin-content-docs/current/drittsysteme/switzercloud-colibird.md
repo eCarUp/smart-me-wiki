@@ -1,14 +1,12 @@
 ---
 title: 'Switzercloud / Colibird'
 slug: '/drittsysteme/switzercloud-colibird'
-description: 'La Switzercloud permette di collegare e raccogliere dati provenienti da diversi produttori, tecnologie di trasmissione, applicazioni e sistemi.'
+description: 'La Switzercloud consente di collegare e raccogliere dati provenienti da diversi produttori, tecnologie di trasmissione, applicazioni e sistemi.'
 sidebar_label: 'Switzercloud / Colibird'
 ---
-La Switzercloud permette di collegare e raccogliere dati provenienti da diversi produttori, tecnologie di trasmissione, applicazioni e sistemi.
+La Switzercloud consente di collegare e raccogliere dati provenienti da diversi produttori, tecnologie di trasmissione, applicazioni e sistemi.
 
-Con Switzercloud si raccolgono dati da dispositivi IoT con le più diverse vie di trasmissione: dai sensori LORAWAN ai dispositivi Ethernet, fino ai trasferimenti diretti di dati da cloud a cloud (API).
-
-
+Con Switzercloud si raccolgono dati da dispositivi IoT con le più svariate vie di trasmissione, dai sensori LORAWAN ai dispositivi Ethernet fino ai trasferimenti di dati diretti da cloud a cloud (API).
 
 1.  Raccogliere i dati
 
@@ -18,14 +16,13 @@ Con Switzercloud si raccolgono dati da dispositivi IoT con le più diverse vie d
 
 4.  Allarmare e comandare
 
-
 ![Switzercloud / Colibird – Figura 1](/img/drittsysteme-switzercloud-colibird/01.png)
 
 <div className="row">
 <div className="col col--7">
 
-La Switzercloud può richiamare tramite API i dati di misura dal portale smart-me, raccoglierli ed elaborarli ulteriormente.
-L'elaborazione si traduce in allarmi, report, addebiti, comandi e/o visualizzazioni con l'aiuto di Colibird.
+La Switzercloud può richiamare tramite API, raccogliere ed elaborare ulteriormente i dati di misura del portale smart-me.
+L'elaborazione sfocia in allarmi, report, fatturazioni, comandi e/o visualizzazioni con l'aiuto di Colibird.
 
 </div>
 <div className="col col--5 text--center">
@@ -37,14 +34,14 @@ L'elaborazione si traduce in allarmi, report, addebiti, comandi e/o visualizzazi
 
 ![Switzercloud / Colibird – Figura 3](/img/drittsysteme-switzercloud-colibird/03.png)
 
-Contatto:
+## Contatto
 
-Brunata AG
+<Kacheln min="20rem">
+<Kachel titel="Brunata AG">
 
-Im Feld 1
+Im Feld 1, CH-6072 Sachseln
 
-CH-6072 Sachseln
+[info@switzer.cloud](mailto:info@switzer.cloud) · [www.switzer.cloud](http://www.switzer.cloud)
 
-E-mail: info@switzer.cloud  
-
-Sito web: [www.switzer.cloud](http://www.switzer.cloud)
+</Kachel>
+</Kacheln>

@@ -1,16 +1,44 @@
 {
   "docs": {
-    "docs/drittprodukte/Stromwandler.md": {
+    "docs/_neuigkeiten.md": {
       "en": {
-        "hash": "d18129f63595cf2e",
+        "hash": "92210b1cea165e05",
         "origin": "translated"
       },
       "fr": {
-        "hash": "d18129f63595cf2e",
+        "hash": "92210b1cea165e05",
         "origin": "translated"
       },
       "it": {
-        "hash": "d18129f63595cf2e",
+        "hash": "92210b1cea165e05",
+        "origin": "translated"
+      }
+    },
+    "docs/deutschland.md": {
+      "en": {
+        "hash": "849b07577cb04812",
+        "origin": "translated"
+      },
+      "fr": {
+        "hash": "849b07577cb04812",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "849b07577cb04812",
+        "origin": "translated"
+      }
+    },
+    "docs/drittprodukte/Stromwandler.md": {
+      "en": {
+        "hash": "083ae20259915fce",
+        "origin": "translated"
+      },
+      "fr": {
+        "hash": "083ae20259915fce",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "083ae20259915fce",
         "origin": "translated"
       }
     },
@@ -72,127 +100,127 @@
     },
     "docs/drittsysteme/askoma.md": {
       "en": {
-        "hash": "0146beb41ad1246f",
+        "hash": "f29b66e3f2ebff07",
         "origin": "translated"
       },
       "fr": {
-        "hash": "0146beb41ad1246f",
+        "hash": "f29b66e3f2ebff07",
         "origin": "translated"
       },
       "it": {
-        "hash": "0146beb41ad1246f",
+        "hash": "f29b66e3f2ebff07",
         "origin": "translated"
       }
     },
     "docs/drittsysteme/bexio.md": {
       "en": {
-        "hash": "42856aaa6db06926",
+        "hash": "c298e0ab6bd582cc",
         "origin": "translated"
       },
       "fr": {
-        "hash": "42856aaa6db06926",
+        "hash": "c298e0ab6bd582cc",
         "origin": "translated"
       },
       "it": {
-        "hash": "42856aaa6db06926",
+        "hash": "c298e0ab6bd582cc",
         "origin": "translated"
       }
     },
     "docs/drittsysteme/clever-pv.md": {
       "en": {
-        "hash": "9f2be0eab9a4d2c9",
+        "hash": "f2dc15dd75d1b5f8",
         "origin": "translated"
       },
       "fr": {
-        "hash": "9f2be0eab9a4d2c9",
+        "hash": "f2dc15dd75d1b5f8",
         "origin": "translated"
       },
       "it": {
-        "hash": "9f2be0eab9a4d2c9",
+        "hash": "f2dc15dd75d1b5f8",
         "origin": "translated"
       }
     },
     "docs/drittsysteme/digital-republic.md": {
       "en": {
-        "hash": "436f1c509c2296fa",
+        "hash": "a8aa28ee1d7a898e",
         "origin": "translated"
       },
       "fr": {
-        "hash": "436f1c509c2296fa",
+        "hash": "a8aa28ee1d7a898e",
         "origin": "translated"
       },
       "it": {
-        "hash": "436f1c509c2296fa",
+        "hash": "a8aa28ee1d7a898e",
         "origin": "translated"
       }
     },
     "docs/drittsysteme/egonline.md": {
       "en": {
-        "hash": "1430a382acb82104",
+        "hash": "dcd32990540ba6a9",
         "origin": "translated"
       },
       "fr": {
-        "hash": "1430a382acb82104",
+        "hash": "dcd32990540ba6a9",
         "origin": "translated"
       },
       "it": {
-        "hash": "1430a382acb82104",
+        "hash": "dcd32990540ba6a9",
         "origin": "translated"
       }
     },
     "docs/drittsysteme/elmoove.md": {
       "en": {
-        "hash": "0c37ead5127f033f",
+        "hash": "1684d1d6ff6d3bfe",
         "origin": "translated"
       },
       "fr": {
-        "hash": "0c37ead5127f033f",
+        "hash": "1684d1d6ff6d3bfe",
         "origin": "translated"
       },
       "it": {
-        "hash": "0c37ead5127f033f",
+        "hash": "1684d1d6ff6d3bfe",
         "origin": "translated"
       }
     },
     "docs/drittsysteme/esmart.md": {
       "en": {
-        "hash": "2cee40d8f4e4f283",
+        "hash": "f8b86226087761d1",
         "origin": "translated"
       },
       "fr": {
-        "hash": "2cee40d8f4e4f283",
+        "hash": "f8b86226087761d1",
         "origin": "translated"
       },
       "it": {
-        "hash": "2cee40d8f4e4f283",
+        "hash": "f8b86226087761d1",
         "origin": "translated"
       }
     },
     "docs/drittsysteme/fairwalter.md": {
       "en": {
-        "hash": "1a119d43871b9092",
+        "hash": "efd99ce5d5a71378",
         "origin": "translated"
       },
       "fr": {
-        "hash": "1a119d43871b9092",
+        "hash": "efd99ce5d5a71378",
         "origin": "translated"
       },
       "it": {
-        "hash": "1a119d43871b9092",
+        "hash": "efd99ce5d5a71378",
         "origin": "translated"
       }
     },
     "docs/drittsysteme/greenpocket.md": {
       "en": {
-        "hash": "4c11868dafaa4c76",
+        "hash": "365e7aa08dd35077",
         "origin": "translated"
       },
       "fr": {
-        "hash": "4c11868dafaa4c76",
+        "hash": "365e7aa08dd35077",
         "origin": "translated"
       },
       "it": {
-        "hash": "4c11868dafaa4c76",
+        "hash": "365e7aa08dd35077",
         "origin": "translated"
       }
     },
@@ -212,57 +240,57 @@
     },
     "docs/drittsysteme/imovatec.md": {
       "en": {
-        "hash": "3243ed0b2a0a1958",
+        "hash": "1c9b08b5462cb810",
         "origin": "translated"
       },
       "fr": {
-        "hash": "3243ed0b2a0a1958",
+        "hash": "1c9b08b5462cb810",
         "origin": "translated"
       },
       "it": {
-        "hash": "3243ed0b2a0a1958",
+        "hash": "1c9b08b5462cb810",
         "origin": "translated"
       }
     },
     "docs/drittsysteme/index.md": {
       "en": {
-        "hash": "69f42fd24484a325",
+        "hash": "6ba9806571a4afec",
         "origin": "translated"
       },
       "fr": {
-        "hash": "69f42fd24484a325",
+        "hash": "6ba9806571a4afec",
         "origin": "translated"
       },
       "it": {
-        "hash": "69f42fd24484a325",
+        "hash": "6ba9806571a4afec",
         "origin": "translated"
       }
     },
     "docs/drittsysteme/limmobi.md": {
       "en": {
-        "hash": "8053d52d3137df67",
+        "hash": "b3cfaaf680cff63a",
         "origin": "translated"
       },
       "fr": {
-        "hash": "8053d52d3137df67",
+        "hash": "b3cfaaf680cff63a",
         "origin": "translated"
       },
       "it": {
-        "hash": "8053d52d3137df67",
+        "hash": "b3cfaaf680cff63a",
         "origin": "translated"
       }
     },
     "docs/drittsysteme/loxone.md": {
       "en": {
-        "hash": "31d54250271072bc",
+        "hash": "1c2bc8ab102e0ee0",
         "origin": "translated"
       },
       "fr": {
-        "hash": "31d54250271072bc",
+        "hash": "1c2bc8ab102e0ee0",
         "origin": "translated"
       },
       "it": {
-        "hash": "31d54250271072bc",
+        "hash": "1c2bc8ab102e0ee0",
         "origin": "translated"
       }
     },
@@ -282,29 +310,29 @@
     },
     "docs/drittsysteme/nebenkostenabrechnung.md": {
       "en": {
-        "hash": "a27e56228b4d681b",
+        "hash": "70cb17bc5dc6e266",
         "origin": "translated"
       },
       "fr": {
-        "hash": "a27e56228b4d681b",
+        "hash": "70cb17bc5dc6e266",
         "origin": "translated"
       },
       "it": {
-        "hash": "a27e56228b4d681b",
+        "hash": "70cb17bc5dc6e266",
         "origin": "translated"
       }
     },
     "docs/drittsysteme/piskelapp.md": {
       "en": {
-        "hash": "aa212ba5f05ed1e4",
+        "hash": "a89711d7f289d140",
         "origin": "translated"
       },
       "fr": {
-        "hash": "aa212ba5f05ed1e4",
+        "hash": "a89711d7f289d140",
         "origin": "translated"
       },
       "it": {
-        "hash": "aa212ba5f05ed1e4",
+        "hash": "a89711d7f289d140",
         "origin": "translated"
       }
     },
@@ -352,99 +380,99 @@
     },
     "docs/drittsysteme/soleco.md": {
       "en": {
-        "hash": "7a6a5fb44b4e8ad0",
+        "hash": "c1af08099530b58e",
         "origin": "translated"
       },
       "fr": {
-        "hash": "7a6a5fb44b4e8ad0",
+        "hash": "c1af08099530b58e",
         "origin": "translated"
       },
       "it": {
-        "hash": "7a6a5fb44b4e8ad0",
+        "hash": "c1af08099530b58e",
         "origin": "translated"
       }
     },
     "docs/drittsysteme/switzercloud-colibird.md": {
       "en": {
-        "hash": "17893f5716035c5b",
+        "hash": "53c6ed682a5c57a4",
         "origin": "translated"
       },
       "fr": {
-        "hash": "17893f5716035c5b",
+        "hash": "53c6ed682a5c57a4",
         "origin": "translated"
       },
       "it": {
-        "hash": "17893f5716035c5b",
+        "hash": "53c6ed682a5c57a4",
         "origin": "translated"
       }
     },
     "docs/drittsysteme/symcon.md": {
       "en": {
-        "hash": "9704d6ac3d89c529",
+        "hash": "f37ee2a3932fbb0c",
         "origin": "translated"
       },
       "fr": {
-        "hash": "9704d6ac3d89c529",
+        "hash": "f37ee2a3932fbb0c",
         "origin": "translated"
       },
       "it": {
-        "hash": "9704d6ac3d89c529",
+        "hash": "f37ee2a3932fbb0c",
         "origin": "translated"
       }
     },
     "docs/drittsysteme/trueenergy-as.md": {
       "en": {
-        "hash": "b4c7be155bd3d3ae",
+        "hash": "ea568ddcc8a491dd",
         "origin": "translated"
       },
       "fr": {
-        "hash": "b4c7be155bd3d3ae",
+        "hash": "ea568ddcc8a491dd",
         "origin": "translated"
       },
       "it": {
-        "hash": "b4c7be155bd3d3ae",
+        "hash": "ea568ddcc8a491dd",
         "origin": "translated"
       }
     },
     "docs/drittsysteme/whatwatt.md": {
       "en": {
-        "hash": "515a1665ee5a4641",
+        "hash": "e371c0398e6f0bd5",
         "origin": "translated"
       },
       "fr": {
-        "hash": "515a1665ee5a4641",
+        "hash": "e371c0398e6f0bd5",
         "origin": "translated"
       },
       "it": {
-        "hash": "515a1665ee5a4641",
+        "hash": "e371c0398e6f0bd5",
         "origin": "translated"
       }
     },
     "docs/drittsysteme/zaehlerfreunde.md": {
       "en": {
-        "hash": "38454d1f03fda419",
+        "hash": "211e499cc2c4e19c",
         "origin": "translated"
       },
       "fr": {
-        "hash": "38454d1f03fda419",
+        "hash": "211e499cc2c4e19c",
         "origin": "translated"
       },
       "it": {
-        "hash": "38454d1f03fda419",
+        "hash": "211e499cc2c4e19c",
         "origin": "translated"
       }
     },
     "docs/drittsysteme/zerofy.md": {
       "en": {
-        "hash": "d1f4bc8f770a83ab",
+        "hash": "81dd10a0efcf63ab",
         "origin": "translated"
       },
       "fr": {
-        "hash": "d1f4bc8f770a83ab",
+        "hash": "81dd10a0efcf63ab",
         "origin": "translated"
       },
       "it": {
-        "hash": "d1f4bc8f770a83ab",
+        "hash": "81dd10a0efcf63ab",
         "origin": "translated"
       }
     },
@@ -462,17 +490,31 @@
         "origin": "translated"
       }
     },
-    "docs/index.md": {
+    "docs/faq.md": {
       "en": {
-        "hash": "16b21d25b9768297",
+        "hash": "34d65031bca7b22e",
         "origin": "translated"
       },
       "fr": {
-        "hash": "16b21d25b9768297",
+        "hash": "34d65031bca7b22e",
         "origin": "translated"
       },
       "it": {
-        "hash": "16b21d25b9768297",
+        "hash": "34d65031bca7b22e",
+        "origin": "translated"
+      }
+    },
+    "docs/index.md": {
+      "en": {
+        "hash": "63381ae192dc2ac4",
+        "origin": "translated"
+      },
+      "fr": {
+        "hash": "63381ae192dc2ac4",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "63381ae192dc2ac4",
         "origin": "translated"
       }
     },
@@ -506,15 +548,15 @@
     },
     "docs/informationssicherheit/standardantworten.md": {
       "en": {
-        "hash": "6bdb1ab3d7360c20",
+        "hash": "694d3d06e0954c85",
         "origin": "translated"
       },
       "fr": {
-        "hash": "6bdb1ab3d7360c20",
+        "hash": "694d3d06e0954c85",
         "origin": "translated"
       },
       "it": {
-        "hash": "6bdb1ab3d7360c20",
+        "hash": "694d3d06e0954c85",
         "origin": "translated"
       }
     },
@@ -884,15 +926,15 @@
     },
     "docs/konfiguration/ordnerkonfiguration/index.md": {
       "en": {
-        "hash": "f8e29f675d1700d8",
+        "hash": "4a09dcfb7405ab52",
         "origin": "translated"
       },
       "fr": {
-        "hash": "f8e29f675d1700d8",
+        "hash": "4a09dcfb7405ab52",
         "origin": "translated"
       },
       "it": {
-        "hash": "f8e29f675d1700d8",
+        "hash": "4a09dcfb7405ab52",
         "origin": "translated"
       }
     },
@@ -1036,59 +1078,73 @@
         "origin": "translated"
       }
     },
-    "docs/kontakt.md": {
+    "docs/kontakt-deutschland.md": {
       "en": {
-        "hash": "302326fe79b2698c",
+        "hash": "2a26a858b9c996be",
         "origin": "translated"
       },
       "fr": {
-        "hash": "302326fe79b2698c",
+        "hash": "2a26a858b9c996be",
         "origin": "translated"
       },
       "it": {
-        "hash": "302326fe79b2698c",
+        "hash": "2a26a858b9c996be",
+        "origin": "translated"
+      }
+    },
+    "docs/kontakt.md": {
+      "en": {
+        "hash": "a3ff575469ead201",
+        "origin": "translated"
+      },
+      "fr": {
+        "hash": "a3ff575469ead201",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "a3ff575469ead201",
         "origin": "translated"
       }
     },
     "docs/news/app-release-notes.md": {
       "en": {
-        "hash": "93f1693c72c72474",
+        "hash": "7214c11984234b3a",
         "origin": "translated"
       },
       "fr": {
-        "hash": "93f1693c72c72474",
+        "hash": "7214c11984234b3a",
         "origin": "translated"
       },
       "it": {
-        "hash": "93f1693c72c72474",
+        "hash": "7214c11984234b3a",
         "origin": "translated"
       }
     },
     "docs/news/firmware-release-notes.md": {
       "en": {
-        "hash": "7cbe8378521b58f6",
+        "hash": "b7db6e4396ce201f",
         "origin": "translated"
       },
       "fr": {
-        "hash": "7cbe8378521b58f6",
+        "hash": "b7db6e4396ce201f",
         "origin": "translated"
       },
       "it": {
-        "hash": "7cbe8378521b58f6",
+        "hash": "b7db6e4396ce201f",
         "origin": "translated"
       }
     },
     "docs/news/status/index.md": {
       "en": {
-        "hash": "00124a5d25beb95d",
+        "hash": "0322ad6c660b752f",
         "origin": "translated"
       },
       "fr": {
-        "hash": "00124a5d25beb95d",
+        "hash": "0322ad6c660b752f",
         "origin": "translated"
       },
       "it": {
-        "hash": "00124a5d25beb95d",
+        "hash": "0322ad6c660b752f",
         "origin": "translated"
       }
     },
@@ -1162,6 +1218,20 @@
         "origin": "translated"
       }
     },
+    "docs/planung/_zertifizierungen-international.md": {
+      "en": {
+        "hash": "aeb6096dd8867907",
+        "origin": "translated"
+      },
+      "fr": {
+        "hash": "aeb6096dd8867907",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "aeb6096dd8867907",
+        "origin": "translated"
+      }
+    },
     "docs/planung/abrechnung-vorbereiten.md": {
       "en": {
         "hash": "1e73d6dc2309ddab",
@@ -1178,99 +1248,85 @@
     },
     "docs/planung/cloud-lizenzen.md": {
       "en": {
-        "hash": "de0b756b50ab2ba1",
+        "hash": "802455e7a385b448",
         "origin": "translated"
       },
       "fr": {
-        "hash": "de0b756b50ab2ba1",
+        "hash": "802455e7a385b448",
         "origin": "translated"
       },
       "it": {
-        "hash": "de0b756b50ab2ba1",
-        "origin": "translated"
-      }
-    },
-    "docs/planung/e-mobility.md": {
-      "en": {
-        "hash": "73b945ef1b35f8e5",
-        "origin": "translated"
-      },
-      "fr": {
-        "hash": "73b945ef1b35f8e5",
-        "origin": "translated"
-      },
-      "it": {
-        "hash": "73b945ef1b35f8e5",
+        "hash": "802455e7a385b448",
         "origin": "translated"
       }
     },
     "docs/planung/elektromobilitaet/drittanbieter-zev-und-pico.md": {
       "en": {
-        "hash": "e350829b50c8127b",
+        "hash": "352d552284799883",
         "origin": "translated"
       },
       "fr": {
-        "hash": "e350829b50c8127b",
+        "hash": "352d552284799883",
         "origin": "translated"
       },
       "it": {
-        "hash": "e350829b50c8127b",
+        "hash": "352d552284799883",
         "origin": "translated"
       }
     },
     "docs/planung/elektromobilitaet/index.md": {
       "en": {
-        "hash": "21e19837f507c8d2",
+        "hash": "24c7d676c5c9c575",
         "origin": "translated"
       },
       "fr": {
-        "hash": "21e19837f507c8d2",
+        "hash": "24c7d676c5c9c575",
         "origin": "translated"
       },
       "it": {
-        "hash": "21e19837f507c8d2",
+        "hash": "24c7d676c5c9c575",
         "origin": "translated"
       }
     },
     "docs/planung/elektromobilitaet/smart-me-zev-und-fremdstationen.md": {
       "en": {
-        "hash": "f762cd9b20c5c6c2",
+        "hash": "5581e23fc1710b4d",
         "origin": "translated"
       },
       "fr": {
-        "hash": "f762cd9b20c5c6c2",
+        "hash": "5581e23fc1710b4d",
         "origin": "translated"
       },
       "it": {
-        "hash": "f762cd9b20c5c6c2",
+        "hash": "5581e23fc1710b4d",
         "origin": "translated"
       }
     },
     "docs/planung/elektromobilitaet/smart-me-zev-und-pico.md": {
       "en": {
-        "hash": "ed07330788e0a90d",
+        "hash": "73a12e7a7d05b1d2",
         "origin": "translated"
       },
       "fr": {
-        "hash": "ed07330788e0a90d",
+        "hash": "73a12e7a7d05b1d2",
         "origin": "translated"
       },
       "it": {
-        "hash": "ed07330788e0a90d",
+        "hash": "73a12e7a7d05b1d2",
         "origin": "translated"
       }
     },
     "docs/planung/index.md": {
       "en": {
-        "hash": "5442b92914cb0ae5",
+        "hash": "4de63ecf5b05a2e6",
         "origin": "translated"
       },
       "fr": {
-        "hash": "5442b92914cb0ae5",
+        "hash": "4de63ecf5b05a2e6",
         "origin": "translated"
       },
       "it": {
-        "hash": "5442b92914cb0ae5",
+        "hash": "4de63ecf5b05a2e6",
         "origin": "translated"
       }
     },
@@ -1360,15 +1416,15 @@
     },
     "docs/planung/mkd3-messkonzept-nicht-teilnehmer.md": {
       "en": {
-        "hash": "738cfd414cbb011b",
+        "hash": "0d12154283966a27",
         "origin": "translated"
       },
       "fr": {
-        "hash": "738cfd414cbb011b",
+        "hash": "0d12154283966a27",
         "origin": "translated"
       },
       "it": {
-        "hash": "738cfd414cbb011b",
+        "hash": "0d12154283966a27",
         "origin": "translated"
       }
     },
@@ -1414,17 +1470,31 @@
         "origin": "translated"
       }
     },
-    "docs/planung/zertifizierungen.md": {
+    "docs/planung/zertifizierungen-deutschland.md": {
       "en": {
-        "hash": "1f3d54e6b8c45d2b",
+        "hash": "36e244b40e7e3fb3",
         "origin": "translated"
       },
       "fr": {
-        "hash": "1f3d54e6b8c45d2b",
+        "hash": "36e244b40e7e3fb3",
         "origin": "translated"
       },
       "it": {
-        "hash": "1f3d54e6b8c45d2b",
+        "hash": "36e244b40e7e3fb3",
+        "origin": "translated"
+      }
+    },
+    "docs/planung/zertifizierungen.md": {
+      "en": {
+        "hash": "baa6d6d8f7efb3e1",
+        "origin": "translated"
+      },
+      "fr": {
+        "hash": "baa6d6d8f7efb3e1",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "baa6d6d8f7efb3e1",
         "origin": "translated"
       }
     },
@@ -1500,29 +1570,29 @@
     },
     "docs/produkte/eingestellte-produkte.md": {
       "en": {
-        "hash": "abe740390ecebf36",
+        "hash": "96def40a9dc3c087",
         "origin": "translated"
       },
       "fr": {
-        "hash": "abe740390ecebf36",
+        "hash": "96def40a9dc3c087",
         "origin": "translated"
       },
       "it": {
-        "hash": "abe740390ecebf36",
+        "hash": "96def40a9dc3c087",
         "origin": "translated"
       }
     },
     "docs/produkte/index.md": {
       "en": {
-        "hash": "6cfece061374a153",
+        "hash": "7d2265544755cd31",
         "origin": "translated"
       },
       "fr": {
-        "hash": "6cfece061374a153",
+        "hash": "7d2265544755cd31",
         "origin": "translated"
       },
       "it": {
-        "hash": "6cfece061374a153",
+        "hash": "7d2265544755cd31",
         "origin": "translated"
       }
     },
@@ -1570,15 +1640,15 @@
     },
     "docs/produkte/m-bus-gateway.md": {
       "en": {
-        "hash": "7f3975cad180f760",
+        "hash": "593174ae0766a959",
         "origin": "translated"
       },
       "fr": {
-        "hash": "7f3975cad180f760",
+        "hash": "593174ae0766a959",
         "origin": "translated"
       },
       "it": {
-        "hash": "7f3975cad180f760",
+        "hash": "593174ae0766a959",
         "origin": "translated"
       }
     },
@@ -1612,15 +1682,15 @@
     },
     "docs/produkte/pico-ladestation/index.md": {
       "en": {
-        "hash": "37de7ec3f1d5a0dd",
+        "hash": "22c01bf9da847f92",
         "origin": "translated"
       },
       "fr": {
-        "hash": "37de7ec3f1d5a0dd",
+        "hash": "22c01bf9da847f92",
         "origin": "translated"
       },
       "it": {
-        "hash": "37de7ec3f1d5a0dd",
+        "hash": "22c01bf9da847f92",
         "origin": "translated"
       }
     },
@@ -1640,15 +1710,15 @@
     },
     "docs/produkte/pico-ladestation/materialempfehlung-rcd-typ-a.md": {
       "en": {
-        "hash": "2991ecb31a5c13ed",
+        "hash": "c7e2817cecf304a0",
         "origin": "translated"
       },
       "fr": {
-        "hash": "2991ecb31a5c13ed",
+        "hash": "c7e2817cecf304a0",
         "origin": "translated"
       },
       "it": {
-        "hash": "2991ecb31a5c13ed",
+        "hash": "c7e2817cecf304a0",
         "origin": "translated"
       }
     },
@@ -1750,17 +1820,31 @@
         "origin": "translated"
       }
     },
-    "docs/rma-antragsformulare.md": {
+    "docs/rma-antragsformulare-deutschland.md": {
       "en": {
-        "hash": "23fa397713dc5925",
+        "hash": "5b58b16f403f6efa",
         "origin": "translated"
       },
       "fr": {
-        "hash": "23fa397713dc5925",
+        "hash": "5b58b16f403f6efa",
         "origin": "translated"
       },
       "it": {
-        "hash": "23fa397713dc5925",
+        "hash": "5b58b16f403f6efa",
+        "origin": "translated"
+      }
+    },
+    "docs/rma-antragsformulare.md": {
+      "en": {
+        "hash": "ce16117febd23fb6",
+        "origin": "translated"
+      },
+      "fr": {
+        "hash": "ce16117febd23fb6",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "ce16117febd23fb6",
         "origin": "translated"
       }
     },
@@ -1957,6 +2041,20 @@
       },
       "it": {
         "hash": "e799886e6f8e50af",
+        "origin": "translated"
+      }
+    },
+    "docs/schweiz.md": {
+      "en": {
+        "hash": "2f00274956b6046e",
+        "origin": "translated"
+      },
+      "fr": {
+        "hash": "2f00274956b6046e",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "2f00274956b6046e",
         "origin": "translated"
       }
     },

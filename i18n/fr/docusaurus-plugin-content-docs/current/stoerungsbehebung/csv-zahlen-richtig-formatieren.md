@@ -6,17 +6,17 @@ sidebar_label: 'Formater correctement les nombres CSV'
 ---
 ### Généralités
 
-Vous ouvrez un fichier CSV dans Excel et les nombres... semblent erronés.
+Vous ouvrez un fichier CSV dans Excel et les nombres... semblent cassés.
 
-Le problème vient presque toujours de la confusion mondiale autour des séparateurs (autrement dit, le conflit entre 1.000,50, 1,000.50, 1'000.50 et 1000.50). Malheureusement, Excel est assez rigide sur ce point et attend lors de l'importation un format qui correspond exactement à vos paramètres régionaux du système.
+Le problème vient presque toujours de la confusion qui règne à l'échelle mondiale autour des séparateurs (c'est-à-dire la bataille entre 1.000,50, 1,000.50, 1'000.50 et 1000.50). Excel est malheureusement un peu rigide sur ce point et attend, lors de l'importation, un format qui correspond exactement à vos paramètres régionaux du système.
 
-Comme notre système smart-me ne peut pas encore exporter le format CSV idéal pour chaque région, une adaptation manuelle dans Excel est parfois nécessaire.
+Comme notre système smart-me ne peut pas encore exporter le format CSV parfait pour chaque région, un ajustement manuel dans Excel est parfois nécessaire.
 
 Vous trouverez ci-dessous deux solutions simples pour vous assurer qu'Excel affiche correctement vos données.
 
 ### Modifier le CSV avec Rechercher/Remplacer
 
-- Sélectionner toutes les valeurs dont le format est incorrect.
+- Sélectionner toutes les valeurs mal formatées.
 
 - Appuyer sur Ctrl+H
 
@@ -58,7 +58,7 @@ Vous trouverez ci-dessous deux solutions simples pour vous assurer qu'Excel affi
 
 - Options avancées
 
-- Décocher « Utiliser les séparateurs système »
+- Désactiver l'option Utiliser les séparateurs système
 
     - Séparateur décimal ,  (virgule)
 

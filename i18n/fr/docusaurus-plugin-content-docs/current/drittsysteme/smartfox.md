@@ -17,7 +17,7 @@ Les appareils smart-me peuvent être intégrés directement et facilement dans u
 </div>
 </div>
 
-Grâce au gestionnaire d'énergie intelligent SMARTFOX Pro, qui surveille et régule en continu la production et la consommation d'électricité, la consommation d'appareils électriques tels que les pompes à chaleur, les bornes de recharge, etc. peut être décalée vers les heures d'ensoleillement, ce qui permet d'augmenter à la fois le taux d'autoconsommation et le degré d'autarcie.
+Le gestionnaire d'énergie intelligent SMARTFOX Pro surveille et régule en continu la production et la consommation d'électricité. Grâce à lui, la consommation d'appareils électriques tels que les pompes à chaleur, les bornes de recharge, etc. peut être déplacée vers les heures d'ensoleillement, ce qui augmente à la fois le taux d'autoconsommation et le degré d'autarcie.
 
 Groupe cible :
 
@@ -39,7 +39,7 @@ Prérequis :
 
 Fonctions : 
 
-- Pilotage
+- Commande
 
 - Visualisation
 
@@ -54,10 +54,10 @@ Possibilités d'utilisation :
 
 - Monitoring haute résolution des installations de production
 
-- Fonction smartmeter au point de raccordement du bâtiment
+- Fonction de compteur intelligent au point de raccordement du bâtiment
 
 
-- Sous-compteur pour un deuxième niveau de régulation pour la gestion dynamique de la charge des bornes de recharge
+- Sous-compteur pour un second niveau de régulation pour la gestion dynamique de la charge des bornes de recharge
 
 
 

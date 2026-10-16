@@ -58,7 +58,7 @@ Korrigiert Cloudseitig den Messwert des Zählers. (Lageberechnungen)
 Überordner Wert Korrektur:
 Definiert Prozentual wie viel vom Messwert im übergeordneten Ordner summiert werden soll.
 Zähler aktiv:
-Aktiviere oder deaktiviere einen Zähler um Lizenzen zu sparen. Deaktivierte Zähler zeigen keine Daten mehr. Weitere Informationen zu deaktivierten Zählern findest du in unseren FAQ unter [Wie deaktiviere ich meinen Zähler?](/#wie-deaktiviere-ich-meinen-zähler)
+Aktiviere oder deaktiviere einen Zähler um Lizenzen zu sparen. Deaktivierte Zähler zeigen keine Daten mehr. Weitere Informationen zu deaktivierten Zählern findest du in unseren FAQ unter [Wie deaktiviere ich meinen Zähler?](/faq#wie-deaktiviere-ich-meinen-zähler)
 
 Um mehrere Zähler gleichzeitig zu aktivieren oder deaktivieren, kannst du diese in der Zähler- / Ordnerkonfiguration in einen Ordner schieben, diesen rechts-klicken und eine Massenaktion wählen. 
 

@@ -7,15 +7,13 @@ sidebar_label: 'piskelapp'
 <div className="row">
 <div className="col col--7">
 
-[EN](/drittsysteme/piskelapp)
-
 Notre borne de recharge Pico dispose d'un écran de 32 × 32 pixels sur lequel des animations GIF peuvent être affichées.
-Le portail web smart-me propose déjà quelques GIF prédéfinis. Vous pouvez aussi téléverser vos propres fichiers pour personnaliser encore davantage votre borne de recharge.
+Dans le portail web smart-me, vous trouverez déjà quelques GIF prédéfinis, mais vous pouvez également téléverser vos propres fichiers pour personnaliser encore davantage votre borne de recharge.
 
-C'est très simple avec le site web Piskel. 
+Cela fonctionne très simplement avec le site web Piskel. 
 
 Qu'est-ce que [Piskelapp.com](http://piskelapp.com) ?
-Piskel est un logiciel de dessin gratuit, accessible depuis le web, qui permet de créer facilement du pixel art et des GIF animés. Il fonctionne directement dans le navigateur, sans installation, et offre un aperçu en temps réel qui lit les animations instantanément. En plus de nombreux outils de dessin comme le pinceau, l'outil de remplissage, les formes ou le mode symétrie, il permet de créer ses propres images pixel par pixel, image par image. Les animations terminées peuvent être exportées au format GIF, en spritesheet ou en fichiers PNG individuels. 
+Piskel est un logiciel de dessin gratuit, accessible depuis le web, qui permet de créer facilement du pixel art et des GIF animés. Il fonctionne directement dans le navigateur, sans installation, et offre un aperçu en temps réel dans lequel les animations peuvent être lues immédiatement. En plus des nombreux outils de dessin tels que le pinceau, l'outil de remplissage, les formes ou le mode symétrie, il est possible de créer ses propres images en pixels image par image. Les animations terminées peuvent être exportées au format GIF, en spritesheet ou en fichiers PNG individuels. 
 
 </div>
 <div className="col col--5 text--center">
@@ -25,14 +23,14 @@ Piskel est un logiciel de dessin gratuit, accessible depuis le web, qui permet d
 </div>
 </div>
 
-### Créer votre propre GIF
+### Instructions pour créer votre propre GIF
 
 <div className="row">
 <div className="col col--7">
 
 - Ouvrez [piskelapp.com](https://www.piskelapp.com/) et cliquez en haut à droite sur "Create Sprite".
 
-- Les paramètres se trouvent à droite : réglez la taille sur 32 × 32 pixels.
+- Les paramètres se trouvent à droite – définissez la taille sur 32 × 32 pixels.
 
 </div>
 <div className="col col--5 text--center">
@@ -45,13 +43,13 @@ Piskel est un logiciel de dessin gratuit, accessible depuis le web, qui permet d
 <div className="row">
 <div className="col col--7">
 
-- Choisissez à gauche l'outil de dessin souhaité et une couleur.
+- Sélectionnez à gauche l'outil de dessin souhaité et une couleur.
 
 - Dessinez le motif souhaité dans la zone de travail.
 
-    (Si vous souhaitez seulement un motif statique, vous pouvez maintenant l'exporter au format PNG.)
+    (Si vous souhaitez uniquement un motif statique, vous pouvez maintenant l'exporter au format PNG.)
 
-- Pour une animation, ajoutez une nouvelle image et dessinez le mouvement souhaité.
+- Pour une animation, ajoutez une nouvelle image (frame) et dessinez le mouvement souhaité.
 
 - Exportez votre création au format GIF.
 
@@ -67,6 +65,6 @@ Piskel est un logiciel de dessin gratuit, accessible depuis le web, qui permet d
 </div>
 </div>
 
-### Convertir un GIF
+### Instructions pour convertir un GIF
 
-Téléversez un GIF via "Importer" ("Importieren") et adaptez-le à 32 × 32 pixels. Vous pouvez ensuite l'exporter à nouveau au format GIF et le charger sur votre borne de recharge Pico via le portail web smart-me.
+Téléversez un GIF via "Importer" et adaptez-le à 32 × 32 pixels. Vous pouvez ensuite l'exporter à nouveau au format GIF et le charger sur votre borne de recharge Pico via le portail web smart-me.

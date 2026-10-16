@@ -11,13 +11,8 @@ Ein Dienstleister für die gesamte Dienstleistung und Abrechnung rund um ZEV und
 Erhalte schnell und einfach den Überblick was dir IMOVATEC anbieten kann im nebenstehenden Webinar.
 
 - Abrechnung und Inkasso ZEV
-
 - Dienstleistung und Support
-
 - E-Ladestationen abrechnen
-
-
-
 
 Interesse als Endkunde, Verwalter oder als Partner und Anbieter der Gesamtlösung?
 
@@ -25,15 +20,17 @@ Melde dich direkt bei IMOVATEC für eine Besprechung.
 
 [https://imovatec.ch/](https://imovatec.ch/) 
 
-IMOVATEC AG
+## Kontakt
 
-Rothusstrasse 23
+<Kacheln min="20rem">
+<Kachel titel="IMOVATEC AG">
 
-6331 Hünenberg
+Rothusstrasse 23, 6331 Hünenberg
 
-+41 41 910 50 50
++41 41 910 50 50 · [info@imovatec.ch](mailto:info@imovatec.ch) · [imovatec.ch](https://imovatec.ch/)
 
-info@imovatec.ch
+</Kachel>
+</Kacheln>
 
 <Embed src="https://player.vimeo.com/video/688333625" aspect="1.474" title="IMOVATEC" />
 

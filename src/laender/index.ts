@@ -30,13 +30,22 @@ export type Land = {
    * entschieden hat, soll auf der Startseite nicht wieder gefragt werden.
    */
   filtert: boolean;
+  /**
+   * Die Einstiegsseite dieses Landes.
+   *
+   * Die Startseite ist nur noch die Frage nach dem Land; beantwortet wird sie
+   * mit einem Sprung hierhin. „Anderes Land" landet bewusst auf der Schweizer
+   * Seite — smart-me ist ein Schweizer Unternehmen, und die Wahl blendet
+   * nichts aus, es geht also nichts verloren.
+   */
+  start: string;
 };
 
-/** Reihenfolge wie im Menü und auf der Karte. */
+/** Reihenfolge wie im Menü und auf der Startseite. */
 export const LAENDER: readonly Land[] = [
-  {schluessel: 'ch', filtert: true},
-  {schluessel: 'de', filtert: true},
-  {schluessel: 'andere', filtert: false},
+  {schluessel: 'ch', filtert: true, start: '/schweiz'},
+  {schluessel: 'de', filtert: true, start: '/deutschland'},
+  {schluessel: 'andere', filtert: false, start: '/schweiz'},
 ];
 
 /**

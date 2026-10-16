@@ -8,13 +8,13 @@ Important note:
 
 None of these products are sold by smart-me AG or offered as accessories at the time of purchase. Please buy these products directly from the manufacturer.
 
-Below is a list of recommended products. smart-me does not earn any money from the recommended products and provides no warranty for them. You can use other products at any time. Always make sure that they meet the requirements of the respective product, in this case the [3-Phase Meter Telstar CT](/produkte/Telstar-CT).
+Below you will find a list of product recommendations. smart-me does not earn any money from the recommended products and provides no warranty for them. You can use other products at any time. Always make sure that they meet the requirements of the respective product, in this case the [3-Phase Meter Telstar CT](/produkte/Telstar-CT).
 
-The aim of these recommendations is to help our partners find suitable products easily and efficiently when they do not yet know of any.
+These recommendations help our partners find suitable products quickly and efficiently when they do not yet know of any.
 
 ## Calibrated current transformers for billing purposes
 
-If the meters are to be used for billing, you need calibrated transformers that meet at least accuracy class 0.5 or better.
+If the meters are to be used for billing, you need calibrated transformers that meet at least class 0.5 or better.
 
 ![Current Transformers and accessories for Telstar CT – Figure 1](/img/drittprodukte-stromwandler/01.png)
 
@@ -41,15 +41,20 @@ Source: [https://www.pfiffner-group.com](https://www.pfiffner-group.com/)
 
 Possible suppliers:
 
-- Pfiffner Messwandler directly
-    Pfiffner contact: Mr Samuel Gloor
-    Email: [msns@pmw.ch](mailto:msns@pmw.ch)
-    Tel: +41 62 739 29 19
+<Kacheln min="20rem">
+<Kachel titel="Pfiffner Messwandler direkt">
+
+Mr Samuel Gloor
+
++41 62 739 29 19 · [msns@pmw.ch](mailto:msns@pmw.ch)
+
+</Kachel>
+</Kacheln>
 
 
 Calibration for billing purposes:
 
-Calibration must be requested specifically or specified when ordering.
+Calibration must be requested specifically or stated when ordering.
 
 ![Current Transformers and accessories for Telstar CT – Figure 2](/img/drittprodukte-stromwandler/02.png)
 
@@ -76,14 +81,18 @@ Source: [https://hager.com/](https://hager.com/)
 
 Possible suppliers:
 
-- Hager directly
-    Email:  [emmenbruecke@hager.com](mailto:emmenbruecke@hager.com)  
-    Tel: +41 41 269 90 00
+<Kacheln min="20rem">
+<Kachel titel="Hager direkt">
+
++41 41 269 90 00 · [emmenbruecke@hager.com](mailto:emmenbruecke@hager.com)
+
+</Kachel>
+</Kacheln>
 
 
 Calibration for billing purposes:
 
-Calibration must be requested specifically or specified when ordering.
+Calibration must be requested specifically or stated when ordering.
 
 ![Current Transformers and accessories for Telstar CT – Figure 3](/img/drittprodukte-stromwandler/03.png)
 
@@ -182,9 +191,9 @@ Source: [https://www.redur.de/](https://www.redur.de/)
 - Redur RSC Series
 
 
-## Instrument transformer disconnect terminals
+## Transformer disconnect terminals
 
-To replace a meter easily, even during operation, you can use instrument transformer disconnect terminals. They allow you to short-circuit the transformer outputs so that the transformers are not damaged when the meter is replaced.
+Transformer disconnect terminals let you replace a meter easily, even during operation. They allow the transformer outputs to be short-circuited so the transformers are not damaged when the meter is replaced.
 
 ![Current Transformers and accessories for Telstar CT – Figure 8](/img/drittprodukte-stromwandler/08.png)
 

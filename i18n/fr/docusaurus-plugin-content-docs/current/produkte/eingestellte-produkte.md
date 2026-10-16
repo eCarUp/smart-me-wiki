@@ -1,99 +1,91 @@
 ---
 title: 'Produits abandonnés'
 slug: '/produkte/eingestellte-produkte'
-description: 'La vente de ces produits a été arrêtée.'
+description: 'La vente de ces produits a été abandonnée.'
 sidebar_label: 'Produits abandonnés'
 ---
-La vente de ces produits a été arrêtée. Le support et la prise en charge dans le cloud restent assurés.
+La vente de ces produits a été abandonnée. Le support et l'assistance cloud restent assurés.
 
-<div className="row">
-<div className="col col--6 text--center">
+<Kacheln min="15rem">
 
-[![Produits abandonnés – Figure 1](/img/produkte-eingestellte-produkte/01.jpg)](/produkte/3-phasen-zähler)
+<Kachel bild="/img/produkte-eingestellte-produkte/01.jpg" bildtext="3-Phasen Zähler (alt)" titel="3-Phasen Zähler (alt)" href="/produkte/3-phasen-zähler" bildhoehe="10rem" mittig>
 
-[Compteur triphasé (ancien)](/produkte/3-phasen-zähler)
+Successeur : 
 
-Successeur : [Compteur triphasé Telstar 80A](/produkte/telstar) 
+[Compteur triphasé Telstar 80A](/produkte/telstar)
 
-N° de série compteur triphasé 80A : 60\* 
+N° de série compteur triphasé 80A : 60\*
 
-</div>
-<div className="col col--6 text--center">
+</Kachel>
 
-[![Produits abandonnés – Figure 2](/img/produkte-eingestellte-produkte/02.jpg)](/produkte/plug)
+<Kachel bild="/img/produkte-eingestellte-produkte/02.jpg" bildtext="Plug" titel="Plug" href="/produkte/plug" bildhoehe="10rem" mittig>
 
-[Plug](/produkte/plug)
+Appareil de remplacement smart-me possible :
 
-Appareil de remplacement smart-me possible : [Compteur triphasé Telstar 80A](/produkte/telstar) 
+[Compteur triphasé Telstar 80A](/produkte/telstar)
 
 N° de série Plug : 01\*, 02\*, 03\*, 04\*
 
-</div>
-</div>
+</Kachel>
 
-<div className="row">
-<div className="col col--6 text--center">
+<Kachel bild="/img/produkte-eingestellte-produkte/03.jpg" bildtext="Landis+Gyr Modul" titel="Landis+Gyr Modul" href="/produkte/landis-gyr-modul" bildhoehe="10rem" mittig>
 
-[![Produits abandonnés – Figure 3](/img/produkte-eingestellte-produkte/03.jpg)](/produkte/landis-gyr-modul)
+Appareil de remplacement smart-me possible : 
 
-[Module Landis+Gyr](/produkte/landis-gyr-modul)
+[Compteur triphasé Telstar 80A](/produkte/telstar) 
 
-Appareil de remplacement smart-me possible : [Compteur triphasé Telstar 80A](/produkte/telstar) ou [Compteur triphasé Telstar CT](/produkte/Telstar-CT) 
+ou
+
+ [Compteur triphasé Telstar CT](/produkte/Telstar-CT)
 
 N° de série module Landis+Gyr : 93\*
 
-</div>
-<div className="col col--6 text--center">
+</Kachel>
 
-[![Produits abandonnés – Figure 4](/img/produkte-eingestellte-produkte/04.jpg)](/produkte/smart-eye)
+<Kachel bild="/img/produkte-eingestellte-produkte/04.jpg" bildtext="smart-eye" titel="smart-eye" href="/produkte/smart-eye" bildhoehe="10rem" mittig>
 
-[smart-eye](/produkte/smart-eye)
+Appareil de remplacement smart-me possible : 
 
-Appareil de remplacement smart-me possible : [Compteur triphasé Telstar 80A](/produkte/telstar) ou [Compteur triphasé Telstar CT](/produkte/Telstar-CT) 
+[Compteur triphasé Telstar 80A](/produkte/telstar) 
+
+ou 
+
+[Compteur triphasé Telstar CT](/produkte/Telstar-CT)
 
 N° de série smart-eye : 94\*
 
-</div>
-</div>
+</Kachel>
 
-<div className="row">
-<div className="col col--6 text--center">
+<Kachel bild="/img/produkte-eingestellte-produkte/05.jpg" bildtext="Pico Ladestation exA" titel="Pico Ladestation exA" href="/produkte/pico-ladestation-exa" bildhoehe="10rem" mittig>
 
-[![Produits abandonnés – Figure 5](/img/produkte-eingestellte-produkte/05.jpg)](/produkte/pico-ladestation-exa)
+Successeur : 
 
-[Borne de recharge Pico exA](/produkte/pico-ladestation-exa)
+[Borne de recharge Pico](/produkte/pico-ladestation)
 
-Successeur : [Borne de recharge Pico](/produkte/pico-ladestation) 
+</Kachel>
 
-</div>
-<div className="col col--6 text--center">
+<Kachel bild="/img/produkte-eingestellte-produkte/06.jpg" bildtext="1-Phasen Zähler 32A" titel="1-Phasen Zähler 32A" href="/produkte/1-phasen-zaehler-32a" bildhoehe="10rem" mittig>
 
-[![Produits abandonnés – Figure 6](/img/produkte-eingestellte-produkte/06.jpg)](/produkte/1-phasen-zaehler-32a)
+Appareil de remplacement possible : 
 
-[Compteur monophasé 32A](/produkte/1-phasen-zaehler-32a)
-
-Appareil de remplacement possible : [Compteur monophasé](/produkte/1-phasen-zaehler) 
+[Compteur monophasé](/produkte/1-phasen-zaehler)
 
 N° de série compteur monophasé 32A : 51\*
 
-</div>
-</div>
+</Kachel>
 
-<div className="row">
-<div className="col col--6 text--center">
+<Kachel bild="/img/produkte-eingestellte-produkte/07.png" bildtext="Kamstrup Modul" titel="Kamstrup Modul" href="/produkte/kamstrup-modul" bildhoehe="10rem" mittig>
 
-[![Produits abandonnés – Figure 7](/img/produkte-eingestellte-produkte/07.png)](/produkte/kamstrup-modul)
+Appareil de remplacement smart-me possible : 
 
-[Module Kamstrup](/produkte/kamstrup-modul)
+[Compteur triphasé Telstar 80A](/produkte/telstar) 
 
-Appareil de remplacement smart-me possible : [Compteur triphasé Telstar 80A](/produkte/telstar) ou [Compteur triphasé Telstar CT](/produkte/Telstar-CT) 
+ou 
+
+[Compteur triphasé Telstar CT](/produkte/Telstar-CT)
 
 N° de série module Kamstrup : 92\*
 
-</div>
-<div className="col col--6 text--center">
+</Kachel>
 
-
-
-</div>
-</div>
+</Kacheln>

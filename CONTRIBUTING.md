@@ -36,6 +36,7 @@ Editor arbeitet, findet den Weg dazu weiter unten unter
 
 **Seiten verwalten**
 
+- [Den nächsten Schritt am Seitenende setzen](#den-nächsten-schritt-am-seitenende-setzen)
 - [Eine neue Seite anlegen](#eine-neue-seite-anlegen)
 - [Eine neue Seite in die Navigation eintragen](#eine-neue-seite-in-die-navigation-eintragen)
 - [Eine Seite an eine andere Stelle verschieben](#eine-seite-an-eine-andere-stelle-verschieben)
@@ -888,6 +889,82 @@ npm run write-translations -- --locale it
 Das trägt neue Schlüssel mit dem deutschen Text als Platzhalter ein; die
 Übersetzung schreibst du anschliessend von Hand hinein. Bestehende Einträge
 lässt der Befehl in Ruhe.
+
+---
+
+## Den nächsten Schritt am Seitenende setzen
+
+Ganz unten auf einer Seite kann ein Wegweiser zur Folgeseite stehen. Er
+erscheint **nur, wenn die Seite ihn ausdrücklich angibt** — standardmässig
+steht dort nichts.
+
+Das war früher anders: Docusaurus setzte dort von sich aus „Zurück" und
+„Weiter", in der Reihenfolge der linken Navigation. Bei einer Anleitung ergibt
+das Sinn, bei einem Nachschlagewerk nicht — nach dem M-Bus Gateway kam so
+„als Nächstes" der LoRa Gateway, obwohl die beiden nichts miteinander zu tun
+haben. Ein Wegweiser, der irgendwohin zeigt, ist schlimmer als keiner.
+
+### So gibst du ihn an
+
+Ins Frontmatter der Seite, mit der **Kennung** der Folgeseite:
+
+```yaml
+---
+title: 'Inbetriebnahme'
+slug: '/konfiguration/inbetriebnahme'
+naechste_schritte: [konfiguration/ordnerkonfiguration/index]
+---
+```
+
+Die Kennung ist der Pfad der Datei unter `docs/` **ohne** `.md` — aus
+`docs/konfiguration/ordnerkonfiguration/index.md` wird also
+`konfiguration/ordnerkonfiguration/index`. Dieselbe Schreibweise wie in
+`sidebars.ts`; von dort kannst du sie herauskopieren.
+
+Gabelt sich der Weg, schreibst du mehrere hinein:
+
+```yaml
+naechste_schritte: [konfiguration/ordnerkonfiguration/nur-strom, konfiguration/ordnerkonfiguration/strom-und-eine-heizung, konfiguration/ordnerkonfiguration/strom-und-mehrere-heizungen]
+```
+
+Bei einem Ziel steht über dem Wegweiser „Nächster Schritt", bei mehreren
+„Wie geht es weiter?".
+
+**Alles in eine Zeile, in eckige Klammern.** Eine über mehrere Zeilen
+geschriebene YAML-Liste sieht hübscher aus, aber das Übersetzungsskript
+arbeitet zeilenweise und würde sie zerlegen.
+
+### Was du nicht angeben musst
+
+Beschriftung und Adresse holt sich der Wegweiser von der Zielseite. Du
+schreibst also **keinen** Linktext hin. Das hat zwei Gründe: Der Text müsste
+sonst in vier Sprachen gepflegt werden, und bei einer umbenannten oder
+verschobenen Seite zöge der Verweis nicht mit.
+
+Tippst du eine Kennung falsch, bricht der Build ab und nennt sie. Ein toter
+Wegweiser kann also gar nicht erst online gehen.
+
+### Wann er hingehört
+
+Nur dort, wo es **wirklich** einen nächsten Schritt gibt — also am Ende einer
+Anleitung, die Teil eines Ablaufs ist. Der eingerichtete Pfad:
+
+```
+Inbetriebnahme
+  → Zähler- und Ordnerkonfiguration
+      → nur Strom · Strom und eine Heizung · Strom und mehrere Heizungen
+          → Alarme
+              → Rechnungsstellung
+                  → Benutzerkonfiguration
+                      → Visualisierung und Public Links
+```
+
+Auf einer Produktseite, einer Übersicht oder einer Nachschlageseite gehört er
+nicht hin. „Nichts" ist hier die richtige Antwort und der Normalfall.
+
+Steht im Text der Seite schon ein Abschnitt „Nächster Schritt" mit demselben
+Link, kannst du ihn stehen lassen — er erklärt mit einem Satz, *warum* es
+dorthin geht, der Wegweiser unten ist der schnelle Weg.
 
 ---
 

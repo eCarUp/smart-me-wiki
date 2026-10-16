@@ -590,29 +590,29 @@
     },
     "docs/konfiguration/benutzerkonfiguration.md": {
       "en": {
-        "hash": "05ef09e68d1bddd1",
+        "hash": "56eb0846c9fa2f9d",
         "origin": "translated"
       },
       "fr": {
-        "hash": "05ef09e68d1bddd1",
+        "hash": "56eb0846c9fa2f9d",
         "origin": "translated"
       },
       "it": {
-        "hash": "05ef09e68d1bddd1",
+        "hash": "56eb0846c9fa2f9d",
         "origin": "translated"
       }
     },
     "docs/konfiguration/billing/index.md": {
       "en": {
-        "hash": "e5a18135f0fe3255",
+        "hash": "254d75092f4d8b6e",
         "origin": "translated"
       },
       "fr": {
-        "hash": "e5a18135f0fe3255",
+        "hash": "254d75092f4d8b6e",
         "origin": "translated"
       },
       "it": {
-        "hash": "e5a18135f0fe3255",
+        "hash": "254d75092f4d8b6e",
         "origin": "translated"
       }
     },
@@ -674,15 +674,15 @@
     },
     "docs/konfiguration/billing/stromtarife-definieren/index.md": {
       "en": {
-        "hash": "81f0f5f97ef157c8",
+        "hash": "2a9f287190810900",
         "origin": "translated"
       },
       "fr": {
-        "hash": "81f0f5f97ef157c8",
+        "hash": "2a9f287190810900",
         "origin": "translated"
       },
       "it": {
-        "hash": "81f0f5f97ef157c8",
+        "hash": "2a9f287190810900",
         "origin": "translated"
       }
     },
@@ -828,15 +828,15 @@
     },
     "docs/konfiguration/inbetriebnahme/index.md": {
       "en": {
-        "hash": "9a94debf170fab5a",
+        "hash": "d218815887afd7a4",
         "origin": "translated"
       },
       "fr": {
-        "hash": "9a94debf170fab5a",
+        "hash": "d218815887afd7a4",
         "origin": "translated"
       },
       "it": {
-        "hash": "9a94debf170fab5a",
+        "hash": "d218815887afd7a4",
         "origin": "translated"
       }
     },
@@ -926,57 +926,57 @@
     },
     "docs/konfiguration/ordnerkonfiguration/index.md": {
       "en": {
-        "hash": "4a09dcfb7405ab52",
+        "hash": "4a81625b2502e2a8",
         "origin": "translated"
       },
       "fr": {
-        "hash": "4a09dcfb7405ab52",
+        "hash": "4a81625b2502e2a8",
         "origin": "translated"
       },
       "it": {
-        "hash": "4a09dcfb7405ab52",
+        "hash": "4a81625b2502e2a8",
         "origin": "translated"
       }
     },
     "docs/konfiguration/ordnerkonfiguration/nur-strom.md": {
       "en": {
-        "hash": "647fe3122c2dfef0",
+        "hash": "618551d3a1e750ab",
         "origin": "translated"
       },
       "fr": {
-        "hash": "647fe3122c2dfef0",
+        "hash": "618551d3a1e750ab",
         "origin": "translated"
       },
       "it": {
-        "hash": "647fe3122c2dfef0",
+        "hash": "618551d3a1e750ab",
         "origin": "translated"
       }
     },
     "docs/konfiguration/ordnerkonfiguration/strom-und-eine-heizung.md": {
       "en": {
-        "hash": "01794df85c4a9206",
+        "hash": "8175f7b86a57ae32",
         "origin": "translated"
       },
       "fr": {
-        "hash": "01794df85c4a9206",
+        "hash": "8175f7b86a57ae32",
         "origin": "translated"
       },
       "it": {
-        "hash": "01794df85c4a9206",
+        "hash": "8175f7b86a57ae32",
         "origin": "translated"
       }
     },
     "docs/konfiguration/ordnerkonfiguration/strom-und-mehrere-heizungen.md": {
       "en": {
-        "hash": "b9ae213eff872a95",
+        "hash": "37cac5f27470da90",
         "origin": "translated"
       },
       "fr": {
-        "hash": "b9ae213eff872a95",
+        "hash": "37cac5f27470da90",
         "origin": "translated"
       },
       "it": {
-        "hash": "b9ae213eff872a95",
+        "hash": "37cac5f27470da90",
         "origin": "translated"
       }
     },
@@ -1010,15 +1010,15 @@
     },
     "docs/konfiguration/wenndann-aktionen/alarme.md": {
       "en": {
-        "hash": "39a70f65e20f40c4",
+        "hash": "81c648767e15ebce",
         "origin": "translated"
       },
       "fr": {
-        "hash": "39a70f65e20f40c4",
+        "hash": "81c648767e15ebce",
         "origin": "translated"
       },
       "it": {
-        "hash": "39a70f65e20f40c4",
+        "hash": "81c648767e15ebce",
         "origin": "translated"
       }
     },

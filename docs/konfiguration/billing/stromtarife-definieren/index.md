@@ -3,6 +3,7 @@ title: 'Stromtarife definieren'
 slug: '/konfiguration/billing/stromtarife-definieren'
 description: 'Im Video Rechts werden dir von Guy die Grundlagen erklärt wie die Strompreise Generell zusammengesetzt sind.'
 sidebar_label: 'Stromtarife definieren'
+naechste_schritte: [konfiguration/wenndann-aktionen/tarifzeiten-definieren]
 ---
 ![Stromtarife definieren – Abbildung 1](/img/konfiguration-billing-stromtarife-definieren/01.png)
 

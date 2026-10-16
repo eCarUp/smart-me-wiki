@@ -3,6 +3,7 @@ title: 'Strom und mehrere Heizungen'
 slug: '/konfiguration/ordnerkonfiguration/strom-und-mehrere-heizungen'
 description: 'Konfiguration ohne automatische Stromrechnungsstellung'
 sidebar_label: 'Strom und mehrere Heizungen'
+naechste_schritte: [konfiguration/wenndann-aktionen/alarme]
 ---
 ## Konfiguration ohne automatische Stromrechnungsstellung
 

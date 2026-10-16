@@ -3,6 +3,7 @@ title: 'Inbetriebnahme'
 slug: '/konfiguration/inbetriebnahme'
 description: 'Alles rund um die Inbetriebnahme von smart-me Geräten: Was bei der Inbetriebnahme beachtet werden sollte, häufige Fehlerquellen und spezifische Antworten auf Installationsfragen.'
 sidebar_label: 'Inbetriebnahme'
+naechste_schritte: [konfiguration/ordnerkonfiguration/index]
 ---
 Alles rund um die Inbetriebnahme von smart-me Geräten: Was bei der Inbetriebnahme beachtet werden sollte, häufige Fehlerquellen und spezifische Antworten auf Installationsfragen.
 

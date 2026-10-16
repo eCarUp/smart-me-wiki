@@ -5,6 +5,15 @@
   "landkarte.erklaerung": {
     "message": "La fatturazione e i concetti di misura variano da paese a paese. Scegliendo un paese, la navigazione mostra solo ciò che vale lì — puoi cambiarlo in qualsiasi momento in alto a destra."
   },
+  "naechsterSchritt.einer": {
+    "message": "Passo successivo"
+  },
+  "naechsterSchritt.mehrere": {
+    "message": "Come si prosegue?"
+  },
+  "naechsterSchritt.bereich": {
+    "message": "Passo successivo"
+  },
   "theme.ErrorPageContent.title": {
     "message": "Questa pagina è andata in crash.",
     "description": "The title of the fallback page when the page crashed"

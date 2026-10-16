@@ -130,9 +130,9 @@ On these pages you will find all relevant information for successfully commissio
 
 - [Numbering for combination meters](/konfiguration/inbetriebnahme#numbering-for-combined-meters) 
 
-- [Searching for M-Bus Gateway devices](/konfiguration/inbetriebnahme#m-bus-gateway-search-devices)
+- [Searching for M-Bus Gateway devices](/konfiguration/inbetriebnahme)
 
-- [Preventing automatic device detection](/konfiguration/inbetriebnahme#prevent-the-m-bus-gateway-from-detecting-new-devices)
+- [Preventing automatic device detection](/konfiguration/inbetriebnahme)
 
 
 ## Compatible electricity, heat, water and gas meters

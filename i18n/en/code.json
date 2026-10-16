@@ -5,6 +5,15 @@
   "landkarte.erklaerung": {
     "message": "Billing and metering concepts differ from country to country. Pick one and the navigation shows only what applies there — you can change it at any time in the top right."
   },
+  "naechsterSchritt.einer": {
+    "message": "Next step"
+  },
+  "naechsterSchritt.mehrere": {
+    "message": "Where to go from here"
+  },
+  "naechsterSchritt.bereich": {
+    "message": "Next step"
+  },
   "theme.ErrorPageContent.title": {
     "message": "This page crashed.",
     "description": "The title of the fallback page when the page crashed"

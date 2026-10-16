@@ -3,6 +3,7 @@ title: 'Benutzer erstellen'
 slug: '/konfiguration/benutzerkonfiguration'
 description: 'Du brauchst ein smart-me Professional Abo um diese Funktion zu nutzen.'
 sidebar_label: 'Benutzerkonfiguration'
+naechste_schritte: [konfiguration/visualisierung]
 ---
 ### Voraussetzung
 

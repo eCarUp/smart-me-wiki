@@ -302,8 +302,13 @@ function quoteScalar(value: string): string {
  * übernommen und notfalls ergänzt, statt darauf zu hoffen, dass das Modell sie
  * mitschleppt – ginge `displayed_sidebar` verloren, stünde die übersetzte
  * Seite plötzlich ohne linke Navigation da.
+ *
+ * `naechste_schritte` ebenso: Das sind Seitenkennungen, keine Texte. Sie
+ * stehen bewusst in einer Zeile (`[a, b]`), denn diese Funktion arbeitet
+ * zeilenweise – eine über mehrere Zeilen geschriebene YAML-Liste würde sie
+ * zerlegen.
  */
-const AUS_DER_QUELLE = ['slug', 'displayed_sidebar'] as const;
+const AUS_DER_QUELLE = ['slug', 'displayed_sidebar', 'naechste_schritte'] as const;
 
 export function normalizeFrontmatter(translated: string, source: string): string {
   const t = splitFrontmatter(translated);

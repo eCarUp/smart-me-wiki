@@ -130,9 +130,9 @@ In queste pagine trovi tutte le informazioni rilevanti per una messa in servizio
 
 - [Numerazione dei contatori combinati](/konfiguration/inbetriebnahme#numerazione-dei-contatori-combinati)
 
-- [Ricerca di dispositivi M-Bus Gateway](/konfiguration/inbetriebnahme#ricerca-dei-dispositivi-con-lm-bus-gateway)
+- [Ricerca di dispositivi M-Bus Gateway](/konfiguration/inbetriebnahme)
 
-- [Disattivare il riconoscimento automatico dei dispositivi](/konfiguration/inbetriebnahme#impedire-il-rilevamento-di-nuovi-dispositivi-da-parte-dellm-bus-gateway)
+- [Disattivare il riconoscimento automatico dei dispositivi](/konfiguration/inbetriebnahme)
 
 
 ## Contatori elettrici, di calore, dell'acqua e del gas compatibili

@@ -3,6 +3,7 @@ title: 'Liegenschaft mit Strom und Wärme / Wasser'
 slug: '/konfiguration/ordnerkonfiguration/strom-und-eine-heizung'
 description: 'Konfiguration ohne automatische Stromrechnungsstellung'
 sidebar_label: 'Liegenschaft mit Strom und Wärme / Wasser'
+naechste_schritte: [konfiguration/wenndann-aktionen/alarme]
 ---
 ## Konfiguration ohne automatische Stromrechnungsstellung
 

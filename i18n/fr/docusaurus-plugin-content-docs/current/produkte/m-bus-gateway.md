@@ -124,15 +124,15 @@ Appui long = redémarre l'appareil
 
 Vous trouverez sur ces pages toutes les informations utiles pour réussir la mise en service de la passerelle M-Bus.
 
-- [Préparation de la mise en service](/konfiguration/inbetriebnahme#instructions-pour-les-deux-m-bus-gateways)
+- [Préparation de la mise en service](/konfiguration/inbetriebnahme)
 
 - [Mise en service](/konfiguration/inbetriebnahme)
 
 - [Numérotation des compteurs combinés](/konfiguration/inbetriebnahme#numérotation-des-compteurs-combinés) 
 
-- [Recherche d'appareils de la passerelle M-Bus](/konfiguration/inbetriebnahme#m-bus-gateway--rechercher-des-appareils)
+- [Recherche d'appareils de la passerelle M-Bus](/konfiguration/inbetriebnahme)
 
-- [Désactiver la détection automatique des appareils](/konfiguration/inbetriebnahme#m-bus-gateway--empêcher-la-détection-de-nouveaux-appareils)
+- [Désactiver la détection automatique des appareils](/konfiguration/inbetriebnahme)
 
 
 ## Compteurs électriques, de chaleur, d'eau et de gaz compatibles

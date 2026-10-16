@@ -1,0 +1,62 @@
+/*
+ * Steht dort, wo vorher „Zurück / Weiter" stand: am Fuss der Seite, abgesetzt
+ * vom Text. Bewusst schlicht — es ist ein Wegweiser, nicht der Inhalt.
+ */
+.block {
+  margin-top: 2.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--ifm-toc-border-color);
+}
+
+.ueberschrift {
+  display: block;
+  margin-bottom: 0.75rem;
+  color: var(--ifm-color-emphasis-700);
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.liste {
+  display: grid;
+  gap: 0.75rem;
+  /* Bei mehreren Wegen nebeneinander, auf dem Telefon untereinander. */
+  grid-template-columns: repeat(auto-fit, minmax(min(16rem, 100%), 1fr));
+}
+
+.schritt {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem 1.25rem;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: var(--ifm-card-border-radius, 0.4rem);
+  background: var(--ifm-background-surface-color);
+  color: var(--ifm-heading-color);
+  text-decoration: none;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.schritt:hover {
+  border-color: var(--ifm-color-primary);
+  box-shadow: var(--ifm-global-shadow-lw);
+  color: var(--ifm-heading-color);
+  text-decoration: none;
+}
+
+.titel {
+  font-weight: var(--sm-fw-bold);
+}
+
+.pfeil {
+  flex: 0 0 auto;
+  color: var(--ifm-color-primary);
+  font-size: 1.25rem;
+  /* Rückt beim Überfahren ein Stück mit — der einzige Schmuck hier. */
+  transition: transform 0.15s ease;
+}
+
+.schritt:hover .pfeil {
+  transform: translateX(0.25rem);
+}

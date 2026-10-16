@@ -3,6 +3,7 @@ title: 'Liegenschaft nur mit Strom'
 slug: '/konfiguration/ordnerkonfiguration/nur-strom'
 description: 'Nur Strom mit oder ohne E-Mobilität in Einzelgebäuden oder Überbauungen'
 sidebar_label: 'Liegenschaft nur mit Strom'
+naechste_schritte: [konfiguration/wenndann-aktionen/alarme]
 ---
 ### Nur Strom mit oder ohne E-Mobilität in Einzelgebäuden oder Überbauungen
 

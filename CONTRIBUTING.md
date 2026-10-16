@@ -263,7 +263,7 @@ erhalten und lässt sich jederzeit wieder aktivieren — seine Messwerte gehen
 nicht verloren.
 
 </div>
-<div className="col col--8 text--center">
+<div className="col col--8 bild--mitte">
 
 ![Schalter zum Deaktivieren eines Zählers](/img/konfiguration-ordnerkonfiguration/03.jpg)
 
@@ -286,8 +286,8 @@ Die Reihenfolge im Text bestimmt links und rechts — was zuerst steht, steht
 links. Willst du das Bild links und den Text rechts, drehst du die beiden
 `<div>`-Blöcke um.
 
-`text--center` zentriert das Bild in seiner Spalte. Lässt du es weg, sitzt das
-Bild am linken Rand der Spalte.
+Wie Text und Bild **innerhalb** einer Spalte stehen — links, rechts oder
+mittig — steht im nächsten Abschnitt.
 
 ### Worauf du achten musst
 
@@ -314,6 +314,83 @@ volle Breite, mit dem Text darüber.
 Auf schmalen Fenstern rutschen die beiden Spalten automatisch untereinander —
 zuerst der Text, dann das Bild. Zieh das Browserfenster einmal schmal, dann
 siehst du es.
+
+---
+
+## Links, rechts oder mittig in einer Spalte
+
+Der vorige Abschnitt teilt die Seite in Spalten auf. Dieser hier regelt, wo
+Text und Bild **innerhalb** einer Spalte sitzen.
+
+Ohne Zusatz steht alles **links** — so ist das Wiki eingestellt, und für
+Fliesstext soll es auch so bleiben. Willst du es anders, schreibst du eine
+Klasse dazu. Entweder an die Spalte selbst, dann gilt sie für alles darin:
+
+```jsx
+<div className="col col--4 bild--mitte">
+```
+
+Oder an einen `<div>` um genau den einen Absatz, dann gilt sie nur dort:
+
+```jsx
+<div className="col col--6">
+
+## smart-me Pico Standfuss
+
+<div className="bild--mitte">
+
+![Pico Standfuss](/img/produkte-pico-ladestation-pico-standfuss/01.jpg)
+
+</div>
+
+</div>
+```
+
+Im zweiten Beispiel bleibt die Überschrift links und nur das Bild rückt in die
+Mitte. Die Leerzeilen um das Bild sind nötig, sonst erkennt MDX das Markdown
+darin nicht.
+
+### Welche Klasse wofür
+
+| Du willst | Klasse |
+| --- | --- |
+| Bild mittig in seiner Spalte | `bild--mitte` |
+| Bild am rechten Spaltenrand | `bild--rechts` |
+| Bild links (Normalfall) | nichts |
+| Text mittig, z. B. eine Bildunterschrift | `text--center` |
+| Text rechts, z. B. eine Preisangabe | `text--right` |
+
+`bild--mitte` und `bild--rechts` verschieben **Bild und Text** der Spalte.
+Stehen in derselben Spalte Bild und Fliesstext und soll nur das Bild wandern,
+nimm den `<div>` um das Bild wie im Beispiel oben.
+
+### Warum es für Bilder eigene Klassen gibt
+
+`text--center` kommt von Docusaurus und verschiebt nur Textzeilen. Bei Bildern
+wirkt es manchmal und manchmal nicht — und das ist der verwirrende Teil:
+
+- Ein **schmales** Bild ist ein schmaler Kasten in einer breiten Spalte. Diesen
+  Kasten verschiebt `text--center` korrekt.
+- Ein **breites** Bild füllt die Spalte aus. Das Wiki begrenzt jedes Bild auf
+  480 Pixel Höhe und passt es in seinen Kasten ein — das Bild klebt dann am
+  linken Rand dieses Kastens, und der Kasten füllt bereits die ganze Spalte.
+  `text--center` hat nichts mehr zu verschieben und wirkt scheinbar gar nicht.
+
+`bild--mitte` und `bild--rechts` setzen beides zugleich. Deshalb tun sie, was
+ihr Name sagt, egal wie gross das Bild ist. Nimm im Zweifel sie.
+
+### Wenn es nicht wirkt
+
+Prüf in dieser Reihenfolge:
+
+1. Steht die Klasse am richtigen `<div>`? An der Spalte gilt sie für alles
+   darin, am inneren `<div>` nur für den einen Absatz.
+2. Sind die **Leerzeilen** um das Bild da? Ohne sie bleibt die Bildzeile roher
+   Text, und dann greift keine Klasse.
+3. Heisst es `className` und nicht `class`?
+4. Ist das Fenster schmal? Unter rund 1000 Pixel Breite rutschen die Spalten
+   untereinander und nehmen die volle Breite ein — dann sieht mittig aus wie
+   mittig auf der ganzen Seite.
 
 ---
 

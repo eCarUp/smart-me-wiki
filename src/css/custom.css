@@ -167,16 +167,21 @@
 }
 
 /*
- * Ausnahme: bewusst zentrierte Spalten.
+ * Ausnahme: bewusst ausgerichtete Spalten.
  *
  * Die Regel darüber ist gegen Blocksatz gedacht. Sie hat aber auch jedes
  * `text--center` ausgehebelt — auf der Produkte-Seite standen die
  * Bildunterschriften deshalb linksbündig unter mittig gesetzten Bildern,
- * obwohl die Spalte das Gegenteil verlangt.
+ * obwohl die Spalte das Gegenteil verlangt. Dasselbe gilt für `text--right`.
  */
 .markdown .text--center p,
 .markdown .text--center li {
   text-align: center;
+}
+
+.markdown .text--right p,
+.markdown .text--right li {
+  text-align: right;
 }
 
 /* Hervorhebungen im Fliesstext in smart-me Blau. */
@@ -235,6 +240,40 @@
   object-fit: contain;
   object-position: left center;
   border-radius: var(--sm-radius-sm);
+}
+
+/*
+ * Ein Bild in seiner Spalte ausrichten: `bild--mitte` oder `bild--rechts`.
+ *
+ * Warum dafür eine eigene Klasse nötig ist und `text--center` nicht genügt:
+ * Je nach Bildgrösse wirken zwei verschiedene Hebel.
+ *
+ * - Ein **schmales** Bild ist eine schmale Box in einer breiten Spalte. Die
+ *   Box verschiebt man mit `text-align`.
+ * - Ein **breites** Bild füllt die Spalte, wird aber von der Regel oben auf
+ *   480 px Höhe eingepasst. Es bleibt also eine spaltenbreite Box, in der
+ *   das Bild dank `object-position: left center` am linken Rand klebt.
+ *   `text-align` erreicht dort nichts mehr.
+ *
+ * Beide Klassen setzen deshalb beides, damit sie unabhängig von der
+ * Bildgrösse tun, was ihr Name sagt. Ohne Klasse bleibt es linksbündig.
+ */
+.bild--mitte,
+.markdown .bild--mitte p {
+  text-align: center;
+}
+
+.bild--mitte img {
+  object-position: center;
+}
+
+.bild--rechts,
+.markdown .bild--rechts p {
+  text-align: right;
+}
+
+.bild--rechts img {
+  object-position: right center;
 }
 
 /* Migrierte Tabellen sind teilweise breit – horizontal scrollbar statt gequetscht. */

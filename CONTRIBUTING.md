@@ -836,11 +836,18 @@ den Filter nicht.
 Die Startseite (`docs/index.md`) stellt nur eine Frage: für welches Land? Jede
 Antwort merkt die Wahl und springt auf die Einstiegsseite dieses Landes:
 
-| Antwort | Seite |
-| --- | --- |
-| Schweiz | `docs/schweiz.md` → `/schweiz` |
-| Deutschland | `docs/deutschland.md` → `/deutschland` |
-| Anderes Land | `/schweiz` — die Wahl blendet nichts aus, es geht nichts verloren |
+| Antwort | Seite | Zustand |
+| --- | --- | --- |
+| Schweiz | `docs/schweiz.md` → `/schweiz` | `ch` |
+| Deutschland | `docs/deutschland.md` → `/deutschland` | `de` |
+| Anderes Land | `/schweiz` — es geht nichts verloren | `alle` |
+
+**Es gibt genau drei Zustände: `ch`, `de` und `alle`.** „Anderes Land" ist
+kein eigener Zustand, sondern nur die Beschriftung, unter der `alle` auf der
+Startseite erscheint — dort lautet die Frage, wo jemand sitzt, und nicht, was
+angezeigt werden soll. Oben rechts im Schalter heisst derselbe Zustand „Alle
+Länder". Die beiden Beschriftungen liefern `landNameWahl()` und `landName()`
+in `src/laender/index.ts`.
 
 Welche Seite zu welchem Land gehört, steht in `src/laender/index.ts` beim
 jeweiligen Eintrag unter `start`. Die Wahl selbst steht in
@@ -864,15 +871,16 @@ Dinge: einen Eintrag in `LAENDER` und einen Fall in `landName`.
 
 ```ts
 export const LAENDER: readonly Land[] = [
-  {schluessel: 'ch', filtert: true},
-  {schluessel: 'de', filtert: true},
-  {schluessel: 'fr', filtert: true},   // neu
-  {schluessel: 'andere', filtert: false},
+  {schluessel: 'ch', filtert: true, start: '/schweiz'},
+  {schluessel: 'de', filtert: true, start: '/deutschland'},
+  {schluessel: 'fr', filtert: true, start: '/frankreich'},   // neu
+  {schluessel: 'alle', filtert: false, start: '/schweiz'},
 ];
 ```
 
 `filtert: false` heisst: Diese Wahl zählt als getroffen, blendet aber nichts
-aus. Das ist genau der Fall „Anderes Land".
+aus. Das ist genau der Fall „Alle Länder". `alle` gehört ans Ende der Liste —
+die Reihenfolge ist zugleich die Reihenfolge im Menü und auf der Startseite.
 
 Alle sichtbaren Texte der Komponenten — die Ländernamen, „Alle Länder", die
 Frage auf der Karte — liegen in `i18n/en/code.json`, `i18n/fr/code.json` und

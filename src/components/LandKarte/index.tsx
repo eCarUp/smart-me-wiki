@@ -19,7 +19,7 @@ import React from 'react';
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import Translate from '@docusaurus/Translate';
-import {LAENDER, landName, useLandStatus, waehleLand} from '@site/src/laender';
+import {LAENDER, landNameWahl, useLandStatus, waehleLand} from '@site/src/laender';
 import styles from './styles.module.css';
 
 export default function LandKarte(): React.ReactElement {
@@ -51,7 +51,10 @@ export default function LandKarte(): React.ReactElement {
               geladen && land === l.schluessel && styles.gewaehlt,
             )}
             onClick={() => waehleLand(l.schluessel)}>
-            {landName(l.schluessel)}
+            {/* „Anderes Land" statt „Alle Länder": Hier wird gefragt, wo
+                jemand sitzt, nicht, was angezeigt werden soll. Dahinter
+                steckt derselbe Zustand. */}
+            {landNameWahl(l.schluessel)}
           </Link>
         ))}
       </div>

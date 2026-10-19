@@ -25,7 +25,7 @@ export type Land = {
   /**
    * Schränkt die Wahl die Navigation ein?
    *
-   * „Anderes Land" ist eine getroffene Wahl, die nichts ausblendet. Der
+   * „Alle Länder" ist eine getroffene Wahl, die nichts ausblendet. Der
    * Unterschied zu „noch nicht gewählt" ist wichtig: Wer sich einmal
    * entschieden hat, soll auf der Startseite nicht wieder gefragt werden.
    */
@@ -34,18 +34,25 @@ export type Land = {
    * Die Einstiegsseite dieses Landes.
    *
    * Die Startseite ist nur noch die Frage nach dem Land; beantwortet wird sie
-   * mit einem Sprung hierhin. „Anderes Land" landet bewusst auf der Schweizer
+   * mit einem Sprung hierhin. „Alle Länder" landet bewusst auf der Schweizer
    * Seite — smart-me ist ein Schweizer Unternehmen, und die Wahl blendet
    * nichts aus, es geht also nichts verloren.
    */
   start: string;
 };
 
-/** Reihenfolge wie im Menü und auf der Startseite. */
+/**
+ * Reihenfolge wie im Menü und auf der Startseite.
+ *
+ * Es gibt genau drei Zustände. „Alle Länder" ist der dritte — auf der
+ * Startseite heisst derselbe Zustand „Anderes Land", weil dort die Frage
+ * lautet, wo man sitzt, und nicht, was angezeigt werden soll. Siehe
+ * `landNameWahl()`.
+ */
 export const LAENDER: readonly Land[] = [
   {schluessel: 'ch', filtert: true, start: '/schweiz'},
   {schluessel: 'de', filtert: true, start: '/deutschland'},
-  {schluessel: 'andere', filtert: false, start: '/schweiz'},
+  {schluessel: 'alle', filtert: false, start: '/schweiz'},
 ];
 
 /**
@@ -62,11 +69,23 @@ export function landName(schluessel: string | null): string {
       return translate({id: 'land.ch', message: 'Schweiz'});
     case 'de':
       return translate({id: 'land.de', message: 'Deutschland'});
-    case 'andere':
-      return translate({id: 'land.andere', message: 'Anderes Land'});
     default:
       return translate({id: 'land.alle', message: 'Alle Länder'});
   }
+}
+
+/**
+ * Derselbe Zustand, aber so benannt, wie die Startseite fragt.
+ *
+ * Oben rechts steht „Alle Länder" — dort geht es darum, was angezeigt wird.
+ * Auf der Startseite steht „Anderes Land" — dort geht es darum, wo man sitzt.
+ * Dahinter steckt beide Male derselbe Schlüssel `alle`.
+ */
+export function landNameWahl(schluessel: string | null): string {
+  if (schluessel === 'alle') {
+    return translate({id: 'land.andere', message: 'Anderes Land'});
+  }
+  return landName(schluessel);
 }
 
 /** Name des Suchparameters in der Adresse: `?land=de`. */
@@ -76,8 +95,12 @@ const SPEICHER = 'smartme-wiki-land';
 /** Eigenes Ereignis, damit Menü und Navigation gemeinsam umschalten. */
 const WECHSEL = 'smartme-wiki-landwechsel';
 
-const gueltig = (wert: string | null): string | null =>
-  wert && LAENDER.some((l) => l.schluessel === wert) ? wert : null;
+const gueltig = (wert: string | null): string | null => {
+  // Bis Oktober 2026 hiess „Alle Länder" im Speicher `andere`. Wer damals
+  // gewählt hat, behält seine Wahl, statt wieder gefragt zu werden.
+  const wert2 = wert === 'andere' ? 'alle' : wert;
+  return wert2 && LAENDER.some((l) => l.schluessel === wert2) ? wert2 : null;
+};
 
 function ausAdresse(): string | null {
   return gueltig(new URLSearchParams(window.location.search).get(PARAMETER));
@@ -160,7 +183,7 @@ export function waehleLand(land: string | null): void {
  */
 export function sichtbar(laender: unknown, land: string | null): boolean {
   if (!land || !Array.isArray(laender) || laender.length === 0) return true;
-  // „Anderes Land" blendet nichts aus – wer weder in der Schweiz noch in
+  // „Alle Länder" blendet nichts aus – wer weder in der Schweiz noch in
   // Deutschland sitzt, soll beide Modellwelten sehen können.
   if (!LAENDER.find((l) => l.schluessel === land)?.filtert) return true;
   return laender.includes(land);

@@ -254,12 +254,14 @@ const sidebars: SidebarsConfig = {
         'schnittstellen/api',
         'schnittstellen/ai-connector',
         'schnittstellen/auto-export',
-        'schnittstellen/ebix-datenimport',
-        'schnittstellen/swisseldex-sdat-import',
+        {type: 'doc', id: 'schnittstellen/ebix-datenimport', customProps: {laender: ['ch']}},
+        {type: 'doc', id: 'schnittstellen/swisseldex-sdat-import', customProps: {laender: ['ch']}},
         {
           type: 'category',
           label: 'DTA-VHKA Files',
           link: {type: 'doc', id: 'schnittstellen/dta-vhka-files/index'},
+          // Am Oberpunkt gesetzt: Damit verschwinden die drei Unterseiten mit.
+          customProps: {laender: ['ch']},
           items: [
             'schnittstellen/dta-vhka-files/AbaImmo',
             'schnittstellen/dta-vhka-files/Garaio-REM',
@@ -268,7 +270,7 @@ const sidebars: SidebarsConfig = {
         },
         'schnittstellen/modbus-tcp',
         'schnittstellen/ladestation-15-minuten-import',
-        'schnittstellen/minergie-exporter',
+        {type: 'doc', id: 'schnittstellen/minergie-exporter', customProps: {laender: ['ch']}},
         'schnittstellen/p1-schnittstelle',
       ],
     },

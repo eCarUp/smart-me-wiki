@@ -316,7 +316,7 @@ Erscheint die Warnung wegen des 5-GHz-Netzwerks, muss zusätzlich ein 2,4-GHz-Ne
 </div>
 </div>
 
-### Hinweis:
+**Hinweis:**
 
 Das Wandlerverhältnis ändert keine historischen Daten. Daher sollte dieser Schritt sofort nach der Inbetriebnahme erfolgen.
 

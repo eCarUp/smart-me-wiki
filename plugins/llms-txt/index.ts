@@ -137,8 +137,9 @@ export default function llmsTxtPlugin(context: LoadContext): Plugin<unknown> {
       }
 
       // Absolute URLs, damit die Datei auch ausserhalb der Site nutzbar ist.
-      const localePrefix = currentLocale === defaultLocale ? '' : `${currentLocale}/`;
-      const baseUrl = `${siteConfig.url.replace(/\/$/, '')}${siteConfig.baseUrl}${localePrefix}`;
+      // `context.baseUrl` enthält die Sprache bereits (`/smart-me-wiki/en/`) – ein eigenes
+      // Präfix verdoppelte sie zu `/en/en/` und jeder Link auf `en`/`fr`/`it` lief ins 404.
+      const baseUrl = `${siteConfig.url.replace(/\/$/, '')}${context.baseUrl}`;
       const meta = {
         title: siteConfig.title,
         tagline: siteConfig.tagline ?? '',

@@ -3,6 +3,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 import {themes as prismThemes} from 'prism-react-renderer';
 import {redirects} from './redirects';
 import llmsTxtPlugin from './plugins/llms-txt';
+import schrittkettePlugin from './plugins/schrittkette';
 
 // Für einen späteren Wechsel auf eine Custom Domain (z.B. dok.smart-me.com)
 // muss nur SITE_URL/BASE_URL hier bzw. static/CNAME angepasst werden.
@@ -105,6 +106,10 @@ const config: Config = {
   plugins: [
     // Erzeugt llms.txt und llms-full.txt je Sprache im Build-Ordner.
     llmsTxtPlugin,
+
+    // Sammelt die Schrittkette aus dem Frontmatter für den Wegweiser am
+    // Seitenfuss (src/theme/DocItem/Paginator).
+    schrittkettePlugin,
 
     // Redirects von den alten Google-Sites-URLs werden in redirects.ts gepflegt.
     [

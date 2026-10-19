@@ -6,19 +6,27 @@
  * — ein Wiki hat keine. „Weiter" führte deshalb regelmässig auf eine Seite,
  * die mit der gerade gelesenen nichts zu tun hat.
  *
- * Statt dessen erscheint hier nur, was eine Seite ausdrücklich als Folge
- * angibt. Siehe `src/components/NaechsterSchritt/`.
+ * Statt dessen erscheint hier der Wegweiser aus der Schrittkette. Die Kette
+ * steht im Frontmatter der deutschen Seiten und wird beim Bauen eingesammelt;
+ * siehe `plugins/schrittkette/` und `src/components/NaechsterSchritt/`.
  */
 import React from 'react';
 import {useDoc} from '@docusaurus/plugin-content-docs/client';
+import {usePluginData} from '@docusaurus/useGlobalData';
 import NaechsterSchritt from '@site/src/components/NaechsterSchritt';
+import type {Schrittkette} from '@site/plugins/schrittkette';
 
 export default function PaginatorWrapper(): React.ReactNode {
-  const {frontMatter} = useDoc();
-  const roh = (frontMatter as {naechste_schritte?: unknown}).naechste_schritte;
+  const {metadata} = useDoc();
+  const kette = usePluginData('smart-me-schrittkette') as Schrittkette | undefined;
+  if (!kette) return null;
 
-  if (!Array.isArray(roh)) return null;
-  const kennungen = roh.filter((k): k is string => typeof k === 'string' && k.length > 0);
-
-  return <NaechsterSchritt kennungen={kennungen} />;
+  const kennung = metadata.id;
+  return (
+    <NaechsterSchritt
+      naechste={kette.naechste[kennung] ?? []}
+      optionale={kette.optionale[kennung] ?? []}
+      vorherige={kette.vorherige[kennung]}
+    />
+  );
 }

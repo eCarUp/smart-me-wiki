@@ -1,24 +1,23 @@
 ---
 title: 'Configurazione dei contatori e delle cartelle'
 slug: '/konfiguration/ordnerkonfiguration'
-description: 'Video tutorial: creare cartelle e assegnare i contatori'
+description: 'Video guida per creare cartelle e assegnare i contatori'
 sidebar_label: 'Configurazione delle cartelle'
-naechste_schritte: [konfiguration/ordnerkonfiguration/nur-strom, konfiguration/ordnerkonfiguration/strom-und-eine-heizung, konfiguration/ordnerkonfiguration/strom-und-mehrere-heizungen]
 ---
 <Embed src="https://player.vimeo.com/video/661999827" aspect="1.291" title="Configurazione delle cartelle" />
 
-Video tutorial: creare cartelle e assegnare i contatori
+Video guida per creare cartelle e assegnare i contatori
 
-## Istruzioni passo per passo
+## Guida passo per passo
 
-### Accesso all'area Configurazione dei contatori e delle cartelle
+### Navigazione all'area Configurazione dei contatori e delle cartelle
 
 <div className="row">
 <div className="col col--6">
 
-1.  Effettui l'accesso al [sito web smart-me](https://web.smart-me.com/).
+1.  Accedi al [sito web di smart-me](https://web.smart-me.com/).
 
-2.  Nel menu a sinistra, passi a "Configurazione dei contatori e delle cartelle" ("Zähler- und Ordnerkonfiguration")
+2.  Nel menu a sinistra, vai a "Configurazione dei contatori e delle cartelle (Zähler- und Ordnerkonfiguration)"
 
 </div>
 <div className="col col--6 text--center">
@@ -28,7 +27,7 @@ Video tutorial: creare cartelle e assegnare i contatori
 </div>
 </div>
 
-### Descrizione delle funzioni delle azioni
+### Descrizione delle azioni
 
 ![Configurazione dei contatori e delle cartelle – Figura 2](/img/konfiguration-ordnerkonfiguration/02.png)
 
@@ -36,9 +35,9 @@ Aggiungi nodo (Knoten Hinzufügen):
 
 Aggiunge un nodo con un nome e un simbolo a scelta.
 
-Il nome influisce sull'ordine in cui il nodo viene visualizzato nell'albero. 
+Il nome determina l'ordine in cui il nodo viene visualizzato nell'albero. 
 
-1.  Ordinamento numerico
+1.  Ordinamento per numeri
 
 2.  Ordinamento alfabetico
 
@@ -51,25 +50,25 @@ Consente di modificare il nome, il simbolo e la subordinazione del nodo.
 
 Modifica nodo contatore (Zähler Knoten editieren)
 
-Nome (Name):  Stabilisca il nome del contatore.
+Nome (Name):  Definisci il nome del contatore.
 Descrizione (Beschreibung):
-Aggiunga facoltativamente una descrizione per il contatore.
+Aggiungi facoltativamente una descrizione per il contatore.
 Correzione del valore (Wert Korrektur): 
 Corregge lato cloud il valore misurato dal contatore. (Calcoli di posizione)
-Correzione del valore nella cartella superiore (Überordner Wert Korrektur):
-Definisce in percentuale quanto del valore misurato deve essere sommato nella cartella di livello superiore.
+Correzione del valore cartella superiore (Überordner Wert Korrektur):
+Definisce in percentuale quanta parte del valore misurato deve essere sommata nella cartella superiore.
 Contatore attivo (Zähler aktiv):
-Attivi o disattivi un contatore per risparmiare licenze. I contatori disattivati non mostrano più dati. Ulteriori informazioni sui contatori disattivati sono disponibili nelle nostre FAQ alla voce [Come disattivo il mio contatore?](/faq#wie-deaktiviere-ich-meinen-zähler)
+Attiva o disattiva un contatore per risparmiare licenze. I contatori disattivati non mostrano più dati. Ulteriori informazioni sui contatori disattivati sono disponibili nelle nostre FAQ alla voce [Come disattivo il mio contatore?](/faq#wie-deaktiviere-ich-meinen-zähler)
 
-Per attivare o disattivare più contatori contemporaneamente, può spostarli in una cartella nella configurazione dei contatori e delle cartelle, fare clic con il tasto destro su di essa e scegliere un'azione di massa. 
+Per attivare o disattivare più contatori contemporaneamente, puoi spostarli in una cartella nella configurazione dei contatori / delle cartelle (Zähler- / Ordnerkonfiguration), fare clic con il tasto destro sulla cartella e scegliere un'azione di massa. 
 
 ![Disattivare i contatori](/img/konfiguration-ordnerkonfiguration/03.jpg)
 
 Elimina nodo (Knoten Löschen)
 
-Elimina dall'albero il nodo o il punto di misura selezionato. 
+Elimina il nodo o il punto contatore selezionato dall'albero. 
 
-I contatori ricadono quindi sul lato sinistro come contatori non assegnati.
+I contatori ritornano quindi sul lato sinistro come contatori non assegnati.
 
 ![Configurazione dei contatori e delle cartelle – Figura 4](/img/konfiguration-ordnerkonfiguration/04.png)
 
@@ -82,9 +81,9 @@ I contatori ricadono quindi sul lato sinistro come contatori non assegnati.
 
 - Tutti i contatori devono essere denominati. I nostri suggerimenti per la denominazione dei contatori 
 
-    - Unità d'uso numero del contatore (ad es. WHG 1 6352415)
+    - Unità d'uso numero del contatore (ad es. APP 1 6352415)
 
-    - Vettore energetico unità d'uso numero del contatore (ad es. Wärme WHG 1)
+    - Fluido unità d'uso numero del contatore (ad es. Calore APP 1)
 
 </div>
 <div className="col col--4 text--center">
@@ -99,21 +98,21 @@ I contatori ricadono quindi sul lato sinistro come contatori non assegnati.
 <div className="row">
 <div className="col col--7">
 
-Alcuni produttori di contatori M-Bus indicano nella trasmissione dei dati che si tratta di un contatore dell'acqua fredda, sebbene dovrebbe essere un contatore dell'acqua calda sanitaria. In questo caso il tipo di contatore deve essere sovrascritto in smart-me.
+Alcuni produttori di contatori M-Bus indicano nella trasmissione dei dati che si tratta di un contatore dell'acqua fredda, anche se dovrebbe essere un contatore dell'acqua calda sanitaria. In questo caso il tipo di contatore deve essere sovrascritto in smart-me.
 
-- Passi alla Dashboard
+- Vai alla Dashboard
 
-- Selezioni il contatore nel menu Dashboard
+- Seleziona il contatore nel menu Dashboard
 
-- Selezioni la rotella dentata in alto a destra
+- Seleziona l'ingranaggio in alto a destra
 
 - Impostazioni avanzate (Erweiterte Einstellungen)
 
-- Modifichi il tipo di dispositivo (Geräte Type).
+- Modifica il tipo di dispositivo (Geräte Type).
 
 - Salva (Speichern)
 
-Nota: questa modifica comporta un supporto in smart-me Billing. L'Auto Export per le aziende elettriche non viene modificato.
+Nota: questa modifica comporta un supporto in smart-me Billing. L'Auto-Export per le aziende elettriche non viene modificato.
 
 Nota: per motivi tecnici questa modifica non è possibile con i contatori di calore e di freddo.
 
@@ -127,17 +126,17 @@ Nota: per motivi tecnici questa modifica non è possibile con i contatori di cal
 
 ### Strutture delle cartelle e loro influenza sui processi successivi
 
-Il sistema attuale consente la creazione automatizzata del conteggio dell'elettricità. Affinché ciò funzioni, il calore e l'acqua devono rimanere separati dall'elettricità. Sono comunque possibili sistemi misti per ridurre l'onere legato agli elenchi degli inquilini, ma in tal caso si perde purtroppo l'automazione della fatturazione.
+Il sistema attuale consente la creazione automatizzata del conteggio dell'elettricità. Affinché ciò funzioni, calore e acqua devono rimanere separati dall'elettricità. Sono comunque possibili sistemi misti per ridurre l'onere dei prospetti degli inquilini, ma in questo caso si perde purtroppo l'automazione della fatturazione.
 
-Nei sistemi con più riscaldamenti, tuttavia, la suddivisione in più immobili è inevitabile.
+Nei sistemi con più riscaldamenti è tuttavia inevitabile una suddivisione in più immobili.
 
-Ogni immobile creato individualmente è in linea di principio in grado di rappresentare 1x elettricità e 1x calore/acqua.
+Ogni immobile creato singolarmente è in linea di principio in grado di rappresentare 1x elettricità e 1x calore/acqua.
 
 <Embed src="/embeds/konfiguration-ordnerkonfiguration-02.html" aspect="2.308" title="Configurazione delle cartelle" />
 
-### Nozioni di base sulla struttura ad albero e creazione dei nodi
+### Basi della struttura ad albero e creazione dei nodi
 
-Per preparare un edificio al conteggio, devono essere creati gli immobili e le unità di conteggio adeguati.
+Per preparare un edificio per il conteggio, devono essere creati gli immobili e le unità di conteggio adeguati.
 
 Struttura di base delle cartelle di ogni singolo immobile
 
@@ -153,9 +152,9 @@ La struttura di base per ogni forma di energia e ogni edificio è composta da du
 
         - ...
 
-- Contatori tecnici (raccolta di punti di misura non conteggiati direttamente)
+- Contatori tecnici (raccolta di punti contatore non conteggiati direttamente)
 
-    Qui è possibile creare un numero qualsiasi di sottocartelle per la strutturazione. 
+    Qui è possibile creare un numero qualsiasi di sottocartelle per strutturare. 
 
     - -   -   Contatore di bilancio
 
@@ -169,9 +168,9 @@ La struttura di base per ogni forma di energia e ogni edificio è composta da du
 
 ![Configurazione dei contatori e delle cartelle – Figura 7](/img/konfiguration-ordnerkonfiguration/07.png)
 
-### Passo successivo: crei la struttura per il Suo progetto
+### Passo successivo: crea la struttura per il tuo progetto
 
-Scelga ora, in base al Suo progetto, quali istruzioni seguire.
+Scegli ora, in base al tuo progetto, quale guida desideri seguire.
 
 [Solo elettricità](/konfiguration/ordnerkonfiguration/nur-strom)
 
@@ -187,7 +186,7 @@ smart-me offre la possibilità di automatizzare la creazione di cartelle, le ass
 
 I file CSV contengono dati tabellari salvati in forma di testo. Possono essere modificati con un editor di testo (ad es. notepad++).
 
-Attenzione: utilizzando questa funzione, le cartelle già esistenti vengono eliminate. Ciò significa che tutte le funzioni utilizzate con queste cartelle non funzionano più (ad es. azioni se/allora, configurazioni di smart-me billing ecc.). 
+Attenzione: utilizzando questa funzione, le cartelle già esistenti vengono eliminate. Ciò significa che tutte le funzioni utilizzate con queste cartelle non funzionano più (ad es. azioni se/allora, configurazioni smart-me billing ecc.). 
 
 
 
@@ -199,9 +198,9 @@ Un file CSV di configurazione contiene le seguenti colonne (non modificarne l'or
 
 [](https://drive.google.com/open?id=1Ft_fg6mxKZCpPND-i5ZoWN6kAKacnDXD8rJGeOB40KM "Open Spreadsheet, wiki 2.0 Tabellen in new window")
 
-<Embed src="https://docs.google.com/spreadsheets/d/1Ft_fg6mxKZCpPND-i5ZoWN6kAKacnDXD8rJGeOB40KM/htmlembed?gid=0" height="252px" title="Foglio di calcolo, wiki 2.0 Tabellen" />
+<Embed src="https://docs.google.com/spreadsheets/d/1Ft_fg6mxKZCpPND-i5ZoWN6kAKacnDXD8rJGeOB40KM/htmlembed?gid=0" height="252px" title="Foglio di calcolo, tabelle wiki 2.0" />
 
-wiki 2.0 Tabellen
+Tabelle wiki 2.0
 
 I separatori ";" e "//" non possono essere utilizzati nei nomi. Sono riservati alla separazione di colonne e cartelle nei percorsi.
 
@@ -227,9 +226,9 @@ MeterSerialNumber;MeterName;FolderPath;MeterPointId;ExportFormat;UploadType;Expo
 
 ### Modifica dei file CSV in Excel
 
-Anche Excel supporta la modifica dei file CSV. Occorre però prestare attenzione a due punti:
+Anche Excel supporta la modifica dei file CSV. Occorre però tenere presenti due aspetti:
 
-1.  Bisogna evitare che Excel arrotondi il numero di serie del contatore o lo rappresenti in forma esponenziale (ad es. facendo trattare a Excel i numeri come testo.)
+1.  Bisogna evitare che Excel arrotondi il numero di serie del contatore o lo rappresenti in forma esponenziale (ad es. facendo trattare i numeri come testo in Excel.)
 
 2.  Il file CSV deve essere nel set di caratteri UTF-8. Excel non visualizza correttamente le dieresi. In un editor di testo (ad es. notepad++) questi caratteri vengono invece visualizzati correttamente.
 
@@ -238,21 +237,21 @@ Anche Excel supporta la modifica dei file CSV. Occorre però prestare attenzione
 
 La procedura consigliata è la seguente:
 
-1.  Effettui l'accesso al [sito web smart-me](https://web.smart-me.com/login/).
+1.  Accedi al [sito web di smart-me](https://web.smart-me.com/login/).
 
-2.  Clicchi in alto a destra su Configurazione (Konfiguration)
+2.  Fai clic in alto a destra su Configurazione (Konfiguration)
 
-3.  Clicchi su Configurazione contatori / cartelle (Zähler / Ordner Konfiguration)
+3.  Fai clic su Configurazione contatori / cartelle (Zähler / Ordner Konfiguration)
 
-4.  Clicchi su Configurazione nodi tramite CSV (Knoten Konfiguration über CSV)
+4.  Fai clic su Configurazione nodi tramite CSV (Knoten Konfiguration über CSV)
 
-5.  Clicchi su Scarica configurazione nodi (Download Knoten Konfiguration) per scaricare la configurazione attuale come file CSV
+5.  Fai clic su Scarica configurazione nodi (Download Knoten Konfiguration) per scaricare la configurazione attuale come file CSV
 
-6.  Modifichi la configurazione
+6.  Modifica la configurazione
 
-7.  Verifichi in un editor di testo con supporto per il set di caratteri UTF-8 che i numeri di serie dei contatori e i nomi siano visualizzati correttamente
+7.  Verifica la configurazione in un editor di testo che supporti il set di caratteri UTF-8, controllando che i numeri di serie dei contatori e i nomi siano visualizzati correttamente
 
-8.  Clicchi su Sfoglia (Durchsuchen) e selezioni il file CSV modificato
+8.  Fai clic su Sfoglia (Durchsuchen) e seleziona il file CSV modificato
 
-9.  Clicchi su Carica configurazione nodi (Upload Knoten Konfiguration) per applicare la configurazione
+9.  Fai clic su Carica configurazione nodi (Upload Knoten Konfiguration) per applicare la configurazione
     Attenzione: le modifiche risultanti non possono essere annullate

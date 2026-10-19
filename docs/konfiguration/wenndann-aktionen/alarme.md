@@ -4,6 +4,7 @@ slug: '/konfiguration/wenndann-aktionen/alarme'
 description: 'Alarme können eingerichtet werden, um eine E-Mail zu bekommen, wenn Zähler keine Verbindung mehr mit unserer Cloud hat.'
 sidebar_label: 'Alarme'
 naechste_schritte: [konfiguration/billing/index]
+vorheriger_schritt: konfiguration/ordnerkonfiguration/index
 ---
 Alarme können eingerichtet werden, um eine E-Mail zu bekommen, wenn Zähler keine Verbindung mehr mit unserer Cloud hat.
 

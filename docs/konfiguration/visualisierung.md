@@ -3,6 +3,7 @@ title: 'Visualisierung und Public Links'
 slug: '/konfiguration/visualisierung'
 description: 'Du brauchst ein smart-me Limited oder Professional Abo um diese Funktion zu nutzen.'
 sidebar_label: 'Visualisierung und Public Links'
+naechste_schritte: [konfiguration/billing/index]
 ---
 ### Voraussetzung
 

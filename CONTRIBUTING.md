@@ -934,6 +934,49 @@ Bei einem Ziel steht über dem Wegweiser „Nächster Schritt", bei mehreren
 geschriebene YAML-Liste sieht hübscher aus, aber das Übersetzungsskript
 arbeitet zeilenweise und würde sie zerlegen.
 
+### Abstecher, die man nicht machen muss
+
+Manche Schritte sind nur bei Bedarf nötig — die Stromtarife, die VEWA. Die
+stehen nicht in `naechste_schritte`, sondern daneben:
+
+```yaml
+naechste_schritte:  [konfiguration/benutzerkonfiguration]
+optionale_schritte: [konfiguration/billing/stromtarife-definieren/index, konfiguration/billing/vewa-abrechnung]
+```
+
+Oben steht dann der Weg, den alle gehen, darunter ruhiger und ohne Rahmen die
+Abstecher unter „Optionale Zwischenschritte". Wer die Seite überfliegt, sieht
+zuerst, wie es regulär weitergeht.
+
+Ein Abstecher führt am Ende wieder dorthin zurück, woher er kam. Auf seiner
+Seite steht deshalb nur:
+
+```yaml
+naechste_schritte: [konfiguration/billing/index]
+```
+
+Der Wegweiser merkt, dass das Ziel zugleich die Seite ist, von der man kam,
+und schreibt „Zurück zum Ablauf" darüber statt „Nächster Schritt".
+
+### Der Weg zurück schreibt sich selbst
+
+Einen Rückwärtsverweis gibst du **nicht** an. Wer eine Seite als nächsten
+Schritt nennt, ist ihr Vorgänger — das Plugin `plugins/schrittkette/` dreht
+die Kette beim Bauen einmal um und setzt den Verweis „← Zurück" von selbst.
+Eine Richtung pflegen genügt, und die beiden können nicht auseinanderlaufen.
+
+Nur wenn **mehrere** Seiten auf dieselbe Seite führen, ist „zurück" nicht
+eindeutig: Die drei Liegenschaftsvarianten enden alle bei den Alarmen, und bei
+der Rechnungsstellung laufen gleich vier Wege zusammen. Dann entscheidet die
+Zielseite selbst:
+
+```yaml
+vorheriger_schritt: konfiguration/ordnerkonfiguration/index
+```
+
+Ohne diese Zeile nimmt der Wegweiser die erste Seite, die er findet — das ist
+dann Zufall, nicht Absicht. Setz sie also überall dort, wo Wege zusammenlaufen.
+
 ### Was du nicht angeben musst
 
 Beschriftung und Adresse holt sich der Wegweiser von der Zielseite. Du
@@ -943,6 +986,17 @@ verschobenen Seite zöge der Verweis nicht mit.
 
 Tippst du eine Kennung falsch, bricht der Build ab und nennt sie. Ein toter
 Wegweiser kann also gar nicht erst online gehen.
+
+### Nur im deutschen Master
+
+Die Kette steht ausschliesslich im Frontmatter unter `docs/`. Die
+Übersetzungen unter `i18n/` brauchen sie nicht — die Kennungen sind in allen
+Sprachen dieselben, und der Wegweiser liest sie beim Bauen aus dem Master.
+Eine Seite, die noch gar nicht übersetzt ist, hat ihren Wegweiser trotzdem.
+
+Übersetzt werden nur die vier Überschriften („Nächster Schritt", „Wie geht es
+weiter?", „Zurück zum Ablauf", „Optionale Zwischenschritte"). Sie stehen in
+`i18n/<sprache>/code.json` unter `naechsterSchritt.*`.
 
 ### Wann er hingehört
 
@@ -954,10 +1008,17 @@ Inbetriebnahme
   → Zähler- und Ordnerkonfiguration
       → nur Strom · Strom und eine Heizung · Strom und mehrere Heizungen
           → Alarme
-              → Rechnungsstellung
-                  → Benutzerkonfiguration
+              → Rechnungsstellung  ← Knotenpunkt
+                  ↳ optional: Stromtarife definieren (↳ optional: Tarifzeiten)
+                  ↳ optional: VEWA - Abrechnung
+                  → Benutzerkonfiguration (Mieterzugänge)
                       → Visualisierung und Public Links
+                          → zurück zur Rechnungsstellung · fertig
 ```
+
+Die Rechnungsstellung ist der Knotenpunkt: Von dort geht man in die
+Zwischenschritte und kommt zurück, und am Ende — nach Mieterzugängen und
+Visualisierung — landet man wieder dort, um die Rechnung zu erstellen.
 
 Auf einer Produktseite, einer Übersicht oder einer Nachschlageseite gehört er
 nicht hin. „Nichts" ist hier die richtige Antwort und der Normalfall.

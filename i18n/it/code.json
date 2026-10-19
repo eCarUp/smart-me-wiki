@@ -11,6 +11,12 @@
   "naechsterSchritt.mehrere": {
     "message": "Come si prosegue?"
   },
+  "naechsterSchritt.rueckkehr": {
+    "message": "Torna alla procedura"
+  },
+  "naechsterSchritt.optional": {
+    "message": "Passaggi intermedi facoltativi"
+  },
   "naechsterSchritt.bereich": {
     "message": "Passo successivo"
   },

@@ -1,16 +1,17 @@
 ---
 title: 'Visualization and Public Links'
 slug: '/konfiguration/visualisierung'
-description: 'You need a smart-me Limited or Professional subscription to use this feature.'
+description: 'You need a smart-me Limited or Professional subscription to use this function.'
 sidebar_label: 'Visualization and Public Links'
+naechste_schritte: [konfiguration/billing/index]
 ---
 ### Requirement
 
-You need a smart-me Limited or Professional subscription to use this feature.
+You need a smart-me Limited or Professional subscription to use this function.
 
 ## Navigating the dashboard as a tenant
 
-Here you will find a user guide for your dashboard as a tenant. Learn where you can find which information about your consumption and understand what is displayed to you.
+Here you will find a user guide for your dashboard as a tenant. Find out where you can get which information about your consumption and understand what is displayed to you.
 
 [User guide for tenants](/nutzeranleitungen/mieter)
 
@@ -35,11 +36,11 @@ Proceed as follows to create a visualization:
 
 1.  Log in to the [smart-me website](https://web.smart-me.com/).
 
-2.  Click Folder and Meter Configuration (Zähler / Ordner Konfiguration).
+2.  Click on Meter / Folder Configuration (Zähler / Ordner Konfiguration).
 
 3.  Select the folder on which the visualization is to be created.
 
-4.  Click edit (editieren) next to Visualization (Visualisierung). 
+4.  Next to Visualization (Visualisierung), click on Edit (editieren). 
 
 5.  Select the desired visualization and add the corresponding meters. 
 
@@ -50,13 +51,13 @@ Proceed as follows to create a visualization:
 
 ## View for tenants
 
-A special view for tenants is available for the virtual tariffs. It shows the current energy consumption (electricity) and its source (solar or grid). In addition, the bar shows the electricity source over time.
+A special view for tenants is available for the virtual tariffs. It shows the current energy consumption (electricity) and its origin (solar or grid). In addition, the bar shows the past electricity sources.
 
-This view must also be configured for each apartment node.
+This must additionally be configured for each apartment node.
 
-The visualization is called: "Simple virtual tariffs apartment" (Einfache virtuelle Tarife Wohnung)
+The visualization is called: "Simple virtual tariffs apartment" ("Einfache virtuelle Tarife Wohnung")
 
-Attention: You must select the relevant folder of the apartment here, not the meters it contains!
+Attention: The relevant folder of the apartment must be selected here, not the meters it contains!
 
 
 
@@ -65,16 +66,16 @@ Energy flow of the building
 
 The energy flow of the building can optionally be visualized. 
 
-- To do this, the tenant must also be given access to the balance, production and battery metering points. The reference meters are selected automatically based on their names.
+- To do this, the tenant must additionally be given access to the balance, production and battery metering points. The reference meters are selected automatically based on their names.
 
-    For example, add the user account to the technical meters folder that contains these metering points.
+    For example, add the user account to the technical meters folder that contains the metering points mentioned.
 
 
 ![Visualization and Public Links – Figure 4](/img/konfiguration-visualisierung/04.png)
 
 Automatic name recognition details
 
-German
+Deutsch
 
 Balance meter:
 Bilan… (Bilanz, Bilanzmessung) · Netz… (Netzbezug, Netzanschluss) · Bezug · Einspeis… · Hauptz… (Hauptzähler) · HAK · Anschluss (auch Hausanschluss) · Zählpunkt / Zaehlpunkt · Messpunkt · Übergabe / Uebergabe · Transformat… (Transformator) · Trafo
@@ -121,9 +122,9 @@ Bateri… (Baterija) · Akumul… (Akumulator) · Skladište / Skladiste · Powe
 
 ## Various visualizations for the entire property
 
-This is a selection of possible visualizations. The list is not exhaustive.
+This is a selection of various possible visualizations. The list is not exhaustive.
 
-Empty nodes can be created to set up as many visualizations as required.
+Empty nodes can be created to set up as many visualizations as desired.
 
 ## Visualizations for ZEV
 
@@ -145,7 +146,7 @@ All relevant data on your ZEV (association for own consumption) at a glance:
 
 - Battery
 
-- Energy flow charts
+- Energy flow graphics
 
 - Solar heat map
 
@@ -154,17 +155,17 @@ All relevant data on your ZEV (association for own consumption) at a glance:
 
 ### Simple energy flow
 
-Shows the energy flow for a solar installation, grid consumption and household consumption.
+Shows the energy flow for a solar system, grid consumption and household consumption.
 
 Two of these three meters must be specified; the third is calculated automatically. If all three meters are specified, incorrect values may be displayed. We always recommend specifying direct measurements where possible rather than virtual meters.
 
 ![Visualization and Public Links – Figure 10](/img/konfiguration-visualisierung/10.png)
 
-### House with multiple consumers and producers
+### House with several consumers and producers
 
 Up to ten consumers or producers can be visualized for a house.
 
-You can choose to display either the power (now) or the consumption values for the last 30 or 365 days.
+Either the power values (now) or the consumption values of the last 30 or 365 days can be displayed.
 
 ## Visualizations for ZEV and vZEV
 
@@ -172,7 +173,7 @@ You can choose to display either the power (now) or the consumption values for t
 
 ### Consumption and production monitoring
 
-Shows where the energy produced is consumed 
+Shows where the produced energy is consumed 
 
 ZEV: 
 
@@ -181,18 +182,18 @@ ZEV:
 - Fed into the grid
 
 
-For this, the production installation and the building connection meter (physical) must be defined.
+For this, the production system and the (physical) house connection meter must be defined.
 
 vZEV: 
 
 - Local consumption
 
-- Supplied to neighbors
+- Supplied to neighbours
 
 - Fed into the grid
 
 
-For this, the production installations of the vZEV and the building connection meters (physical) of the vZEV participants must be defined.
+For this, the production systems of the vZEV and the (physical) house connection meters of the vZEV participants must be defined.
 
 ![Visualization and Public Links – Figure 12](/img/konfiguration-visualisierung/12.png)
 
@@ -202,7 +203,7 @@ The self-consumption rate and self-sufficiency rate of a building are displayed.
 
 Self-consumption rate: How much of the solar energy is consumed directly in the house.
 
-Self-sufficiency rate: How much of the total consumption is produced by the solar installation.
+Self-sufficiency rate: How much of the total consumption is produced by the solar system.
 
 Attention: The main meter must not be a virtual meter!
 
@@ -229,22 +230,22 @@ All relevant data on your charging stations at a glance:
 
 The current power values of an apartment (electricity, heat and water) are displayed.
 
-For the historical consumption values, a comparison with a reference apartment is also shown (e.g. "10% less electricity consumed than the average").
+For the historical consumption values, a comparison with a reference apartment is also displayed (e.g. "10% less electricity consumed than the average").
 
 ## Next step (optional)
 
 Finally, you can now activate interfaces or implement controls.
 
-To do so, navigate in the main wiki menu (at the top) to:
+To do this, navigate in the main wiki menu (top) to:
 
 Configuration or Interfaces.
 
 ## Public Links
 
-With the smart-me Limited or Professional subscription, you can use a Public Link to display the power and/or the meter reading of any metering point or folder in your smart-me metering infrastructure in real time on a website of your choice.
+With the smart-me Limited or Professional subscription, you can use a Public Link to display the power and/or the meter reading of any metering point or folder from your smart-me metering infrastructure in real time on a website of your choice.
 
-To do this, click Configuration (Konfiguration) at the top right of the smart-me portal and then select the Public Links tile.
+To do this, click on Configuration (Konfiguration) at the top right of the smart-me portal and then select the Public Links tile.
 
-In the interface that now appears, use the Add (Hinzufügen) button to set the name of your Public Link and select the desired metering point and display format. The HTML code for embedding on the website of your choice is then generated for you. Insert it using copy and paste.
+In the interface that now appears, you can use the Add (Hinzufügen) button to set the name of your Public Link and select the desired metering point and display format. The HTML code for embedding on the website of your choice is then generated for you. Insert it using copy and paste.
 
 ![Visualization and Public Links – Figure 15](/img/konfiguration-visualisierung/15.png)

@@ -11,6 +11,12 @@
   "naechsterSchritt.mehrere": {
     "message": "Et ensuite ?"
   },
+  "naechsterSchritt.rueckkehr": {
+    "message": "Retour au déroulement"
+  },
+  "naechsterSchritt.optional": {
+    "message": "Étapes intermédiaires facultatives"
+  },
   "naechsterSchritt.bereich": {
     "message": "Étape suivante"
   },

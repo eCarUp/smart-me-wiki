@@ -17,6 +17,11 @@
   letter-spacing: 0.04em;
 }
 
+/* Die optionalen Abstecher stehen unter dem Hauptweg und brauchen Abstand. */
+.ueberschriftOptional {
+  margin-top: 1.75rem;
+}
+
 .liste {
   display: grid;
   gap: 0.75rem;
@@ -59,4 +64,65 @@
 
 .schritt:hover .pfeil {
   transform: translateX(0.25rem);
+}
+
+/*
+ * Abstecher und Rückwärtsverweis sind Nebenwege. Sie sehen aus wie der
+ * Hauptweg, nur zurückgenommen: kein Rahmen, keine Fläche. Wer die Seite
+ * überfliegt, sieht zuerst, wie es weitergeht.
+ */
+.leise {
+  /*
+   * Der Pfeil sitzt direkt hinter der Beschriftung, nicht am rechten Rand:
+   * Ohne Rahmen ist sonst nicht zu sehen, wo ein Verweis aufhört und der
+   * nächste anfängt — zwei Abstecher nebeneinander läsen sich wie eine Folge.
+   */
+  justify-content: flex-start;
+  gap: 0.5rem;
+  padding: 0.6rem 0;
+  border: none;
+  background: none;
+  color: var(--ifm-color-emphasis-800);
+  font-weight: var(--ifm-font-weight-normal);
+}
+
+/* Abstecher stehen untereinander — es sind wenige, und so ist jeder einzeln lesbar. */
+.listeLeise {
+  grid-template-columns: 1fr;
+  gap: 0;
+}
+
+.leise:hover {
+  border: none;
+  box-shadow: none;
+  color: var(--ifm-color-primary);
+}
+
+.leise .titel {
+  font-weight: var(--ifm-font-weight-normal);
+}
+
+/* Der Weg zurück steht allein, unter allem anderen und linksbündig. */
+.zurueckZeile {
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.zurueckZeile .schritt {
+  justify-content: flex-start;
+  gap: 0.6rem;
+  color: var(--ifm-color-emphasis-600);
+  font-size: 0.95rem;
+}
+
+.pfeilZurueck {
+  flex: 0 0 auto;
+  color: var(--ifm-color-emphasis-500);
+  font-size: 1.1rem;
+  transition: transform 0.15s ease;
+}
+
+.schritt:hover .pfeilZurueck {
+  transform: translateX(-0.25rem);
 }

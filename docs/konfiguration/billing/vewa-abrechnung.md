@@ -3,6 +3,7 @@ title: 'VEWA - Abrechnung'
 slug: '/konfiguration/billing/vewa-abrechnung'
 description: 'Einleitung smart-me ab 2min 20sec'
 sidebar_label: 'VEWA - Abrechnung'
+naechste_schritte: [konfiguration/billing/index]
 ---
 ![VEWA - Abrechnung – Abbildung 1](/img/konfiguration-billing-vewa-abrechnung/01.png)
 

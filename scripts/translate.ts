@@ -303,12 +303,21 @@ function quoteScalar(value: string): string {
  * mitschleppt – ginge `displayed_sidebar` verloren, stünde die übersetzte
  * Seite plötzlich ohne linke Navigation da.
  *
- * `naechste_schritte` ebenso: Das sind Seitenkennungen, keine Texte. Sie
- * stehen bewusst in einer Zeile (`[a, b]`), denn diese Funktion arbeitet
- * zeilenweise – eine über mehrere Zeilen geschriebene YAML-Liste würde sie
- * zerlegen.
+ * Die drei Schlüssel der Schrittkette ebenso: Das sind Seitenkennungen, keine
+ * Texte. Gelesen wird die Kette ohnehin nur aus dem deutschen Master (siehe
+ * `plugins/schrittkette/`), hier stehen sie, damit das Modell sie nicht
+ * übersetzt und die Übersetzung derselbe Text bleibt wie die Quelle. Die
+ * Listen stehen bewusst in einer Zeile (`[a, b]`), denn diese Funktion
+ * arbeitet zeilenweise – eine über mehrere Zeilen geschriebene YAML-Liste
+ * würde sie zerlegen.
  */
-const AUS_DER_QUELLE = ['slug', 'displayed_sidebar', 'naechste_schritte'] as const;
+const AUS_DER_QUELLE = [
+  'slug',
+  'displayed_sidebar',
+  'naechste_schritte',
+  'optionale_schritte',
+  'vorheriger_schritt',
+] as const;
 
 export function normalizeFrontmatter(translated: string, source: string): string {
   const t = splitFrontmatter(translated);

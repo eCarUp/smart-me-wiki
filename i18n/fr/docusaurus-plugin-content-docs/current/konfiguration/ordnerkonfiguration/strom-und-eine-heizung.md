@@ -3,25 +3,24 @@ title: 'Immeuble avec électricité et chaleur / eau'
 slug: '/konfiguration/ordnerkonfiguration/strom-und-eine-heizung'
 description: 'Configuration sans facturation automatique de l''électricité'
 sidebar_label: 'Immeuble avec électricité et chaleur / eau'
-naechste_schritte: [konfiguration/wenndann-aktionen/alarme]
 ---
 ## Configuration sans facturation automatique de l'électricité
 
 Avantage :
 
-- Aucune double saisie des contrats de location nécessaire
+- Pas de double saisie des contrats de location
 
 
 Inconvénient :
 
-- Pas de facturation automatique pour l'électricité
+- Pas de facturation automatique de l'électricité
 
 - Saisie multiple des tarifs d'électricité (par immeuble)
 
 
-### 3b. Électricité avec ou sans e-mobilité et multi-énergie avec un bâtiment.
+### 3b. Électricité avec ou sans électromobilité et multi-énergie avec un bâtiment.
 
-Différences possibles : pour les immeubles équipés uniquement de compteurs d'électricité sans multi-énergie, la pompe à chaleur peut être attribuée directement aux appartements au moyen d'une clé de répartition. En cas de multi-énergie, la pompe à chaleur est enregistrée comme sous-compteur (dossier séparé) afin qu'une facture séparée soit établie, qui doit ensuite être reportée comme facteur de coût dans la configuration VEWA.
+Différences possibles : pour les immeubles équipés uniquement de compteurs d'électricité sans multi-énergie, la pompe à chaleur peut être attribuée directement aux appartements au moyen d'une clé de répartition. En cas de multi-énergie, la pompe à chaleur est enregistrée comme sous-compteur (dossier séparé) afin qu'un décompte séparé soit établi, qui doit ensuite être reporté comme facteur de coût dans la configuration VEWA.
 
 3b. Structure de base
 
@@ -37,7 +36,7 @@ Information importante concernant l'attribution :
 
 N'attribuez des points de comptage directement aux unités de décompte que si le destinataire de la facture doit ensuite payer 100% du soutirage.
 
-Si vous souhaitez attribuer des compteurs seulement en partie à une unité de décompte individuelle, déplacez le compteur dans un nœud situé à l'intérieur du nœud « Compteurs techniques » (Technischen Zähler).
+Si vous souhaitez n'attribuer un compteur qu'en partie à une unité de décompte individuelle, déplacez le compteur dans un nœud situé à l'intérieur du nœud « Compteurs techniques » (Technischen Zähler).
 
 Un tel compteur pourra ensuite être réparti en pourcentage dans le Billing.
 
@@ -50,11 +49,11 @@ Exemples :
 
 Bornes de recharge avec smart-me Pico / Zaptec / Easee
 
-N'attribuez pas les bornes de recharge directement aux appartements, créez plutôt une unité de décompte séparée pour la borne de recharge. Les changements de locataire peuvent ainsi être effectués plus facilement.
+N'attribuez pas les bornes de recharge directement aux appartements, créez plutôt une unité de décompte séparée pour la borne de recharge. Les changements de locataire sont ainsi plus simples à effectuer.
 
 Bornes de recharge d'autres fabricants
 
-Les bornes de recharge d'autres fabricants ne sont pas gérées ni décomptées directement dans smart-me. Dans ce cas, créez un nœud pour le départ e-mobilité et attribuez le compteur de départ à ce nœud. Vous obtenez ainsi la consommation totale de toutes les bornes de recharge.
+Les bornes de recharge d'autres fabricants ne sont pas gérées ni décomptées directement dans smart-me. Dans ce cas, créez un nœud pour le départ électromobilité et attribuez-lui le compteur de départ. Vous obtenez ainsi la consommation totale de toutes les bornes de recharge.
 
 
 
@@ -68,15 +67,15 @@ Vous remarquerez ainsi rapidement la défaillance d'un compteur et réduirez la 
 
 ### Étape suivante
 
-[Continuer vers la création des alarmes](/konfiguration/wenndann-aktionen/alarme)
+[Passer à la création des alarmes](/konfiguration/wenndann-aktionen/alarme)
 
 ## Configuration avec facturation automatique de l'électricité
 
 Avantage :
 
-- Facturation automatique pour l'électricité
+- Facturation automatique de l'électricité
 
-- Aucune double saisie des tarifs d'électricité
+- Pas de double saisie des tarifs d'électricité
 
 
 Inconvénient :
@@ -88,7 +87,7 @@ Inconvénient :
 
 Avertissement :
 
-Pour cette configuration, un immeuble supplémentaire doit être créé uniquement pour l'électricité, qui contient tous les appartements des trois bâtiments.
+Pour cette configuration, il faut créer un immeuble supplémentaire uniquement pour l'électricité, qui contient tous les appartements des trois bâtiments.
 
 Seuls les compteurs d'électricité sont attribués à cet immeuble.
 
@@ -98,4 +97,4 @@ Vous remarquerez ainsi rapidement la défaillance d'un compteur et réduirez la 
 
 ### Étape suivante
 
-[Continuer vers la création des alarmes](/konfiguration/wenndann-aktionen/alarme)
+[Passer à la création des alarmes](/konfiguration/wenndann-aktionen/alarme)

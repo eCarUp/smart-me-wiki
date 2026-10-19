@@ -4,6 +4,8 @@ slug: '/konfiguration/billing'
 description: 'Du brauchst ein smart-me Professional Abo, um Energiekostenabrechnungen erstellen zu können.'
 sidebar_label: 'Rechnungsstellung'
 naechste_schritte: [konfiguration/benutzerkonfiguration]
+optionale_schritte: [konfiguration/billing/stromtarife-definieren/index, konfiguration/billing/vewa-abrechnung]
+vorheriger_schritt: konfiguration/wenndann-aktionen/alarme
 ---
 ### Voraussetzung
 

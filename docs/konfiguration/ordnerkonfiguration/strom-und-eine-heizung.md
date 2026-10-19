@@ -66,9 +66,6 @@ Ladestationen anderer Hersteller werden im smart-me nicht direkt verwaltet oder 
 
 Auf diese Weise merkst du frühzeitig, wenn ein Zähler ausfällt und minimierst die Messdatenlücke, die daraus folgend entsteht. 
 
-### Nächster Schritt
-
-[Weiter zur Erstellung der Alarme](/konfiguration/wenndann-aktionen/alarme)
 
 ## Konfiguration mit automatischer Stromrechnungsstellung
 
@@ -96,6 +93,3 @@ Es werden in dieser Liegenschaft nur die Stromzähler zugeordnet.
 
 Auf diese Weise merkst du frühzeitig, wenn ein Zähler ausfällt und minimierst die Messdatenlücke, die daraus folgend entsteht. 
 
-### Nächster Schritt
-
-[Weiter zur Erstellung der Alarme](/konfiguration/wenndann-aktionen/alarme)

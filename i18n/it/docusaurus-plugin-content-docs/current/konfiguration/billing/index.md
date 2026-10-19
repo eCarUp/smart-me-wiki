@@ -1,7 +1,7 @@
 ---
 title: 'Billing: conteggio dell''energia'
 slug: '/konfiguration/billing'
-description: 'Per poter creare conteggi dei costi energetici è necessario un abbonamento smart-me Professional.'
+description: 'Per poter creare conteggi dei costi energetici ti serve un abbonamento smart-me Professional.'
 sidebar_label: 'Fatturazione'
 naechste_schritte: [konfiguration/benutzerkonfiguration]
 optionale_schritte: [konfiguration/billing/stromtarife-definieren/index, konfiguration/billing/vewa-abrechnung]
@@ -9,11 +9,11 @@ vorheriger_schritt: konfiguration/wenndann-aktionen/alarme
 ---
 ### Requisito
 
-Per poter creare conteggi dei costi energetici è necessario un abbonamento smart-me Professional. 
+Per poter creare conteggi dei costi energetici ti serve un abbonamento smart-me Professional. 
 
 ## Strumenti
 
-[Calcolatore della tariffa elettrica smart-me](/konfiguration/billing/stromtarife-definieren/stromtarif-rechner)
+[Calcolatore delle tariffe elettriche smart-me](/konfiguration/billing/stromtarife-definieren/stromtarif-rechner)
 
 ## Webinar smart-me Billing dalla A alla Z
 
@@ -46,26 +46,26 @@ Esempio: conteggio VEWA
 
 ## Configurare il conteggio passo dopo passo
 
-Con queste istruzioni passo dopo passo desideriamo supportarLa nella configurazione del Suo Billing. Tenga presente che si tratta solo di un esempio a cui può orientarsi. A seconda della struttura del Suo immobile, vi saranno differenze rispetto al nostro esempio. 
+Con queste istruzioni passo dopo passo desideriamo aiutarti nella configurazione del tuo Billing. Tieni presente che si tratta solo di un esempio a cui puoi orientarti. A seconda della struttura del tuo immobile, ci saranno differenze rispetto al nostro esempio. 
 
 ## Impostazioni della fatturazione
 
 <div className="row">
 <div className="col col--7">
 
-Come prima cosa, navighi nelle  Impostazioni della fatturazione (Einstellungen der Rechnungsstellung).
+Come prima cosa, vai nelle impostazioni della fatturazione (Einstellungen der Rechnungsstellung).
 
-Configuri qui la valuta e l'applicazione dell'imposta sul valore aggiunto.
+Qui configura la valuta e l'applicazione dell'IVA.
 
 Impostazioni concrete per l'IVA:
 
-- Caso A: Lei è un RCP (raggruppamento ai fini del consumo proprio), realizza sicuramente meno di 100'000CHF di fatturato con l'elettricità e non si è assoggettato volontariamente all'IVA:
+- Caso A: sei un RCP (raggruppamento ai fini del consumo proprio), realizzi sicuramente meno di 100'000 CHF di fatturato con l'elettricità e non ti sei assoggettato volontariamente all'IVA:
 
     \- IVA 0%
 
     \- Imposta già inclusa nei prezzi (Steuer in Preise bereits inbegriffen): SÌ
 
-- Caso B: Lei è un RCP e realizza 100'000 CHF o più di fatturato con la vendita di elettricità oppure si è assoggettato volontariamente all'IVA:
+- Caso B: sei un RCP e realizzi 100'000 CHF o più di fatturato con la vendita di elettricità oppure ti sei assoggettato volontariamente all'IVA:
 
     \- IVA 8.1%
 
@@ -81,9 +81,9 @@ Impostazioni concrete per l'IVA:
 </div>
 </div>
 
-Approfitti dell'occasione per configurare anche il Suo logo per la fattura.
+Già che ci sei, configura anche il tuo logo per la fattura.
 
-Completi l'intestazione con il contatto e l'indirizzo del mittente della fattura e rivolga qualche parola cordiale ai Suoi clienti nel piè di pagina.
+Completa l'intestazione con il contatto e l'indirizzo del mittente della fattura e rivolgi qualche parola cordiale ai tuoi clienti nel piè di pagina.
 
 ![Billing: conteggio dell'energia – Figura 3](/img/konfiguration-billing/03.png)
 
@@ -92,7 +92,7 @@ Completi l'intestazione con il contatto e l'indirizzo del mittente della fattura
 <div className="row">
 <div className="col col--5">
 
-Navighi ora alla configurazione della fatturazione (Rechnungsstellung Konfiguration) per configurare i conteggi degli immobili.
+Vai ora alla configurazione della fatturazione (Rechnungsstellung Konfiguration) per configurare i conteggi degli immobili.
 
 </div>
 <div className="col col--7 text--center">
@@ -111,9 +111,9 @@ Nella fatturazione è possibile aggiungere (creare) l'immobile.
 
 Questa operazione va eseguita per tutti i nodi che contengono unità di conteggio.
 
-In questa fase, tutte le sottocartelle già create e i contatori già assegnati vengono attribuiti automaticamente. Per questo motivo consigliamo di farlo sempre prima di creare l'immobile in smart-me Billing.
+In questa fase, tutte le sottocartelle già create e i contatori assegnati vengono attribuiti automaticamente. Per questo motivo raccomandiamo di farlo sempre prima di creare l'immobile in smart-me Billing.
 
-I punti di misura che devono essere ripartiti e che si trovano nel nodo "Contatore tecnico" ("Technischen Zähler") devono ora ancora essere attribuiti manualmente.
+I punti di misura che devono essere ripartiti e che si trovano nel nodo "Contatori tecnici" (Technischen Zähler) devono ancora essere assegnati manualmente.
 
 </div>
 <div className="col col--6 text--center">
@@ -128,15 +128,15 @@ I punti di misura che devono essere ripartiti e che si trovano nel nodo "Contato
 <div className="row">
 <div className="col col--7">
 
-Alla creazione dell'immobile, i contatori vengono assegnati automaticamente al 100% all'unità di conteggio (cartella).
+Durante la creazione dell'immobile, i contatori vengono assegnati automaticamente al 100% all'unità di conteggio (cartella).
 
-Se desidera ripartire un contatore (ad es. parti comuni) secondo una chiave di ripartizione o modificarlo in un secondo momento, è necessario farlo manualmente.
+Se desideri ripartire un contatore (p. es. parti comuni) secondo una chiave di ripartizione o modificarlo in un secondo momento, devi farlo manualmente.
 
-- A sinistra, selezioni l'unità di conteggio (sottocartella, ad es. APP 1)
+- A sinistra, seleziona l'unità di conteggio (sottocartella, p. es. APP 1)
 
-- Clicchi ad es. per Elettricità su Aggiungi (Hinzufügen) 
+- Clicca p. es. su Aggiungi (Hinzufügen) alla voce Elettricità (Elektrizität) 
 
-- Selezioni il contatore desiderato e indichi la percentuale da addebitare.
+- Seleziona il contatore desiderato e indica in quale percentuale deve essere addebitato.
 
 La procedura descritta funziona in modo analogo per gli altri tipi di energia (calore, freddo ecc.)
 
@@ -153,13 +153,13 @@ La procedura descritta funziona in modo analogo per gli altri tipi di energia (c
 <div className="row">
 <div className="col col--7">
 
-In smart-me Billing è possibile attivare facoltativamente la fattura QR.
+In smart-me Billing è possibile attivare facoltativamente la QR-fattura.
 
-Dopo l'inserimento dei dati del conto, a ogni unità di conteggio (inquilino) viene allegata una fattura QR per il versamento.
+Dopo aver inserito i dati del conto, a ogni unità di conteggio (inquilino) viene allegata una QR-fattura per il pagamento.
 
-smart-me riconosce automaticamente i mittenti compilati correttamente se l'indirizzo di fatturazione nel Billing è inserito su 3 righe. Se si sceglie una ditta o un'intestazione, questa deve essere aggiunta prima del nome.
+smart-me riconosce automaticamente i mittenti compilati correttamente se l'indirizzo di fatturazione nel Billing è inserito su 3 righe. Se si sceglie una ditta o un appellativo, questo deve essere aggiunto prima del nome.
 
-ad es.
+p. es.
 
 ```
 Firma AG, Peter Lustig
@@ -167,13 +167,13 @@ Löwenzahnstrasse 42
 6666 Risch
 ```
 
-Se non viene riconosciuto un indirizzo corretto, il campo mittente (Pagabile da / Zahlbar durch) nella fattura QR rimane vuoto.
+Se non viene riconosciuto un indirizzo corretto, il campo mittente (Pagabile da) (Absender (Zahlbar durch)) nella QR-fattura rimane vuoto.
 
-smart-me non supporta i numeri di riferimento. Per poterli utilizzare è necessario un [sistema di terzi](/drittsysteme) che li supporti (ad es.[Bexio](/drittsysteme/bexio)). 
+smart-me non supporta i numeri di riferimento. Per poterli utilizzare è necessario un [sistema di terzi](/drittsysteme) che li supporti (p. es.[Bexio](/drittsysteme/bexio)). 
 
-Per identificare la fattura senza riferimento, sulla fattura QR viene aggiunta un'informazione supplementare (comunicazione al beneficiario), composta come segue: nome dell'unità di conteggio (nome della cartella).
+Per identificare la fattura senza riferimento, sulla QR-fattura viene aggiunta un'informazione supplementare (comunicazione al beneficiario), composta come segue: nome dell'unità di conteggio (nome della cartella).
 
-La rappresentazione è ottimizzata per l'invio via e-mail. Se le fatture vengono stampate, consigliamo di disattivare la fattura QR e di ordinarla presso la banca.
+La rappresentazione è ottimizzata per l'invio tramite e-mail. Se le fatture vengono stampate, raccomandiamo di disattivare la QR-fattura e di ordinarla presso la banca.
 
 </div>
 <div className="col col--5 text--center">
@@ -193,16 +193,16 @@ Per il conteggio secondo VEWA, tutti i contratti di locazione e gli sfitti devon
 
 - Configurazione (Konfiguration)
 
-- A sinistra, selezionare l'unità di conteggio (sottocartella, ad es. APP 1)
+- A sinistra, seleziona l'unità di conteggio (sottocartella, p. es. APP 1)
 
-- Gestire indirizzo e validità
+- Aggiorna l'indirizzo e la validità
 
 - L'e-mail è facoltativa e viene utilizzata solo per l'invio automatico delle fatture.
 
 
 Nota per l'esportazione in software immobiliari con file DTA-VHKA:
-Se desidera utilizzare la VEWA ma esporta i dati in un altro sistema, non è necessario registrare l'elenco degli inquilini: questo viene creato tramite il file di importazione.
-Si assicuri che tutti i rapporti di locazione e gli sfitti siano registrati.
+Se desideri utilizzare la VEWA, ma esporti i dati in un altro sistema, non è necessario registrare l'elenco degli inquilini: questo viene creato tramite il file di importazione.
+Assicurati che tutti i rapporti di locazione e gli sfitti siano registrati.
 
 ![Billing: conteggio dell'energia – Figura 9](/img/konfiguration-billing/09.png)
 
@@ -214,30 +214,29 @@ Si assicuri che tutti i rapporti di locazione e gli sfitti siano registrati.
 
 - Configurazione (Konfiguration)
 
-- A sinistra, selezionare l'immobile (cartella principale, ad es. Altgasse 13)
+- A sinistra, seleziona l'immobile (cartella principale, p. es. Altgasse 13)
 
-- Aggiungere tariffe elettriche virtuali. (ad es. ore di punta, ore fuori punta, tariffa solare)
+- Aggiungi le tariffe elettriche virtuali (Virtuelle Stromtarife Hinzufügen). (p. es. ore di punta, ore fuori punta, tariffa solare)
+
+In dettaglio: [Definire le tariffe elettriche](/konfiguration/billing/stromtarife-definieren)
 
 
 ### 6\. Configurare calore / acqua
 
-Per la tariffazione e il conteggio di più vettori energetici esistono in linea di principio due possibilità di configurazione:
+Per la tariffazione e il conteggio multienergia esistono in linea di principio due possibilità di configurazione:
 
 Conteggio senza funzione VEWA
 
-- Conteggio mediante una tariffa energetica calcolata esternamente per tipo di energia. Viene gestita con un prezzo in CHF/m3 o CHF/kWh nell'immobile, sotto le tariffe virtuali.
+- Conteggio mediante una tariffa energetica calcolata esternamente per ogni tipo di energia. Viene gestita con un prezzo in CHF/m3 o CHF/kWh nell'immobile, sotto le tariffe virtuali.
 
 
-Conteggio con funzione VEWA (consigliato)
+Conteggio con funzione VEWA (raccomandato)
 
 - È possibile registrare i costi di calore / acqua maturati nel corso dell'anno.  La tariffa viene poi calcolata sul periodo e ripartita sulle unità di conteggio mediante chiavi di ripartizione. 
 
+In dettaglio: [Configurare il conteggio VEWA](/konfiguration/billing/vewa-abrechnung)
 
-### Passaggi intermedi successivi
 
-[Configurare le tariffe elettriche](/konfiguration/billing/stromtarife-definieren)
-
-[Configurare la VEWA](/konfiguration/billing/vewa-abrechnung)
 
 ### 7\. Configurare altri costi per l'elettricità (se necessario)
 
@@ -250,7 +249,7 @@ Nel campo Altro (Sonstiges) è possibile aggiungere ulteriori voci di costo. Ci�
 Esempio:
 L'80% della quota dei costi di base del fornitore di energia deve essere addebitato in egual misura a tutti i partecipanti in relazione alla tariffa solare.
 
-- La tassa inserita viene aggiunta su tutte le fatture ogni mese
+- La tassa inserita viene aggiunta mensilmente su tutte le fatture
 
 Nota: gli altri costi (Sonstiges) sono disponibili solo con la fattura dell'elettricità.
 
@@ -265,24 +264,21 @@ Una stazione di ricarica viene noleggiata e deve essere fatturata mensilmente al
 
 ### 8\. Creare la fattura
 
-Quando il riquadro blu nelle tariffe virtuali si trova sulla data odierna, è possibile creare una fattura di prova.
+Quando il riquadro blu delle tariffe virtuali si trova sulla data odierna, è possibile creare una fattura di prova.
 
 - Menu Fatturazione (Rechnungsstellung)
 
 - Fatture (Rechnungen)
 
-- Inserire la data
+- Inserisci la data
 
-- Creare l'anteprima della fattura (Rechnungsvorschau erstellen)
+- Crea l'anteprima della fattura (Rechnungsvorschau erstellen)
 
 
-Se l'anteprima La soddisfa, può tornare indietro e creare le fatture effettive.
+Se sei soddisfatto dell'anteprima, puoi tornare indietro e creare le fatture effettive.
 
-In questa pagina trova una descrizione dei messaggi di errore più frequenti e delle possibili soluzioni: [Messaggi di errore Billing](/stoerungsbehebung/billing-fehlermeldungen) 
+In questa pagina trovi una descrizione dei messaggi di errore più frequenti e delle possibili soluzioni: [Messaggi di errore Billing](/stoerungsbehebung/billing-fehlermeldungen) 
 
-### Passaggio successivo
-
-[Prosegui con la creazione degli accessi per gli inquilini](/konfiguration/benutzerkonfiguration)
 
 ## Indicazioni utili sui dati tariffari
 
@@ -291,7 +287,7 @@ In questa pagina trova una descrizione dei messaggi di errore più frequenti e d
 <div className="row">
 <div className="col col--7">
 
-Nella vista standard della cartella dell'unità di conteggio (ad es. un appartamento) viene ora visualizzato un nuovo riquadro. Questo indica le letture del contatore per le tariffe virtuali. Cliccando su questo riquadro viene visualizzato il profilo di carico delle tariffe virtuali. 
+Nella vista standard della cartella dell'unità di conteggio (p. es. un appartamento) viene ora visualizzato un nuovo riquadro. Questo indica le letture del contatore per le tariffe virtuali. Cliccando su questo riquadro viene visualizzato il profilo di carico per le tariffe virtuali. 
 
 </div>
 <div className="col col--5 text--center">
@@ -305,7 +301,7 @@ Nella vista standard della cartella dell'unità di conteggio (ad es. un appartam
 
 La piattaforma smart-me utilizza il contatore di produzione (contatore FV) per determinare la quantità di elettricità prodotta e il contatore virtuale del consumo totale per determinare la quantità di elettricità consumata. Da ciò viene calcolata una quota percentuale di elettricità solare. 
 
-Ogni contatore elettrico (inquilino) ha quindi diritto alla stessa quota di elettricità solare per ogni 15 minuti, ad es. il 40% del suo consumo in kWh.
+Ogni contatore elettrico (inquilino) ha quindi diritto alla stessa quota di elettricità solare ogni 15 minuti, p. es. il 40% del suo consumo in kWh.
 
 Esempio di ripartizione dell'elettricità solare
 
@@ -321,5 +317,3 @@ Esempio di ripartizione dell'elettricità solare
 La precisione può essere migliorata configurando il contatore di bilancio per la tariffa solare.
 
 ![Billing: conteggio dell'energia – Figura 13](/img/konfiguration-billing/13.png)
-
-[Prosegui con la creazione degli accessi per gli inquilini](/konfiguration/benutzerkonfiguration)

@@ -5,13 +5,13 @@ description: 'You need a smart-me Limited or Professional subscription to use th
 sidebar_label: 'Visualization and Public Links'
 naechste_schritte: [konfiguration/billing/index]
 ---
-### Requirement
+### Prerequisite
 
 You need a smart-me Limited or Professional subscription to use this function.
 
 ## Navigating the dashboard as a tenant
 
-Here you will find a user guide for your dashboard as a tenant. Find out where you can get which information about your consumption and understand what is displayed to you.
+Here you will find a user guide for your dashboard as a tenant. Learn where to find which information about your consumption and understand what is shown to you.
 
 [User guide for tenants](/nutzeranleitungen/mieter)
 
@@ -40,7 +40,7 @@ Proceed as follows to create a visualization:
 
 3.  Select the folder on which the visualization is to be created.
 
-4.  Next to Visualization (Visualisierung), click on Edit (editieren). 
+4.  Click on edit (editieren) next to Visualization (Visualisierung). 
 
 5.  Select the desired visualization and add the corresponding meters. 
 
@@ -51,13 +51,13 @@ Proceed as follows to create a visualization:
 
 ## View for tenants
 
-A special view for tenants is available for the virtual tariffs. It shows the current energy consumption (electricity) and its origin (solar or grid). In addition, the bar shows the past electricity sources.
+For the virtual tariffs, a special view for tenants is available. It shows the current energy consumption (electricity) and its source (solar or grid). In addition, the bar shows the past source of electricity consumption.
 
 This must additionally be configured for each apartment node.
 
 The visualization is called: "Simple virtual tariffs apartment" ("Einfache virtuelle Tarife Wohnung")
 
-Attention: The relevant folder of the apartment must be selected here, not the meters it contains!
+Attention: Here you must select the relevant folder of the apartment, not the meters it contains!
 
 
 
@@ -77,11 +77,11 @@ Automatic name recognition details
 
 Deutsch
 
-Balance meter:
+Bilanzzähler:
 Bilan… (Bilanz, Bilanzmessung) · Netz… (Netzbezug, Netzanschluss) · Bezug · Einspeis… · Hauptz… (Hauptzähler) · HAK · Anschluss (auch Hausanschluss) · Zählpunkt / Zaehlpunkt · Messpunkt · Übergabe / Uebergabe · Transformat… (Transformator) · Trafo
-Solar meter:
+Solarzähler:
 Solar… (Solar, Solaranlage) · PV · PVA · Photovolta… (Photovoltaik) · Fotovolta… · Produktion
-Battery meter:
+Batteriezähler:
 Batteri… (Batterie) · Akkumul… (Akkumulator) · Akku · Speicher · Powerwall
 
 English
@@ -124,7 +124,7 @@ Bateri… (Baterija) · Akumul… (Akumulator) · Skladište / Skladiste · Powe
 
 This is a selection of various possible visualizations. The list is not exhaustive.
 
-Empty nodes can be created to set up as many visualizations as desired.
+Empty nodes can be created in order to create as many visualizations as desired.
 
 ## Visualizations for ZEV
 
@@ -138,7 +138,7 @@ Empty nodes can be created to set up as many visualizations as desired.
 
 ### ZEV performance overview
 
-All relevant data on your ZEV (association for own consumption) at a glance:
+All relevant data on your ZEV at a glance:
 
 - Production and yield overview
 
@@ -155,13 +155,13 @@ All relevant data on your ZEV (association for own consumption) at a glance:
 
 ### Simple energy flow
 
-Shows the energy flow for a solar system, grid consumption and household consumption.
+Shows the energy flow for a solar system, grid consumption and the household consumption.
 
-Two of these three meters must be specified; the third is calculated automatically. If all three meters are specified, incorrect values may be displayed. We always recommend specifying direct measurements where possible rather than virtual meters.
+Two of these three meters must be specified; the third is calculated automatically. If all three meters are specified, incorrect displays may occur. Whenever possible, we always recommend specifying direct measurements and not virtual meters.
 
 ![Visualization and Public Links – Figure 10](/img/konfiguration-visualisierung/10.png)
 
-### House with several consumers and producers
+### House with multiple consumers and producers
 
 Up to ten consumers or producers can be visualized for a house.
 
@@ -232,20 +232,20 @@ The current power values of an apartment (electricity, heat and water) are displ
 
 For the historical consumption values, a comparison with a reference apartment is also displayed (e.g. "10% less electricity consumed than the average").
 
-## Next step (optional)
+## Further options (optional)
 
 Finally, you can now activate interfaces or implement controls.
 
-To do this, navigate in the main wiki menu (top) to:
+To do this, navigate in the wiki main menu (at the top) to:
 
 Configuration or Interfaces.
 
 ## Public Links
 
-With the smart-me Limited or Professional subscription, you can use a Public Link to display the power and/or the meter reading of any metering point or folder from your smart-me metering infrastructure in real time on a website of your choice.
+With the smart-me Limited or Professional subscription, you can use a Public Link to display the power and/or the meter reading of any metering point or folder of your smart-me metering infrastructure in real time on a website of your choice.
 
 To do this, click on Configuration (Konfiguration) at the top right of the smart-me portal and then select the Public Links tile.
 
-In the interface that now appears, you can use the Add (Hinzufügen) button to set the name of your Public Link and select the desired metering point and display format. The HTML code for embedding on the website of your choice is then generated for you. Insert it using copy and paste.
+In the interface that now appears, you can use the Add (Hinzufügen) button to define the name of your Public Link and select the desired metering point and the display format. The HTML code for embedding on the website of your choice is then generated for you. Insert it using copy and paste.
 
 ![Visualization and Public Links – Figure 15](/img/konfiguration-visualisierung/15.png)

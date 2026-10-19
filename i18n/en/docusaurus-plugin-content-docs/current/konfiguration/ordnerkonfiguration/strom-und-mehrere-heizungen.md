@@ -3,6 +3,7 @@ title: 'Electricity and multiple heating systems'
 slug: '/konfiguration/ordnerkonfiguration/strom-und-mehrere-heizungen'
 description: 'Configuration without automatic electricity billing'
 sidebar_label: 'Electricity and multiple heating systems'
+naechste_schritte: [konfiguration/wenndann-aktionen/alarme]
 ---
 ## Configuration without automatic electricity billing
 
@@ -20,15 +21,15 @@ Disadvantage:
 
 ### Electricity with or without e-mobility and multi-energy with several buildings and individual heating systems (housing development)
 
-Relevant for ZEV (association for own consumption) setups with electricity meters, multi-energy meters, several buildings and, optionally, charging stations.
+Relevant for ZEVs (associations for own consumption) with electricity meters, multi-energy meters, several buildings and, optionally, charging stations.
 
-For sites with several buildings and individual heating systems, create one property per heating system. So if three buildings have different heating systems, the configuration must be set up according to 3c.
+For sites with several buildings and individual heating systems, create one property per heating system. So if three buildings have different heating systems, the configuration must be carried out according to 3c.
 
 Note:
 If only one building has an individual heating system and the other two share a central heating system, two properties that group the consumers accordingly are sufficient.
 
 Example:
-Three buildings named Altgasse 13, Altgasse 15+17 and Altgasse 19.
+Three buildings named Altgasse 13, Altgasse 15+17, Altgasse 19.
 Each has its own heat pump for heating and domestic hot water preparation.
 
 3c. Basic structure
@@ -39,19 +40,19 @@ Each has its own heat pump for heating and domestic hot water preparation.
 
 Use drag and drop to add the relevant meters to the nodes.
 
-Important information on assignment:
+Important information on the assignment:
 
 Electricity / heat / water
 
 Only assign metering points directly to billing units if the invoice recipient will later have to pay 100% of the consumption.
 
-If you only want to assign a meter to part of an individual billing unit, move the meter into a node within the "Technical meters" ("Technischen Zähler") node.
+If you only want to assign part of a meter to an individual billing unit, move the meter into a node within the "Technical meters" ("Technische Zähler") node.
 
-Such a meter can later be distributed by percentage in Billing.
+Later, such a meter can be distributed by percentage in Billing.
 
 Examples:
 
-- Common area meter
+- General meter
 
 - Heat meter of a floor that serves 4 billing units
 
@@ -62,7 +63,7 @@ Do not assign charging stations directly to apartments; instead, create a separa
 
 Charging stations from other manufacturers
 
-Charging stations from other manufacturers are not directly managed or billed in smart-me. In this case, create a node for the e-mobility feeder and assign the feeder meter to the node. This gives you the total consumption of all charging stations.
+Charging stations from other manufacturers are not managed or billed directly in smart-me. In this case, create a node for the e-mobility feeder and assign the feeder meter to the node. This gives you the total consumption of all charging stations.
 
 
 
@@ -72,11 +73,8 @@ Charging stations from other manufacturers are not directly managed or billed in
 
 ### Finally, create the alarms for a connection failure.
 
-This way you notice early when a meter fails and minimize the resulting gap in the measurement data. 
+This way, you notice early when a meter fails and minimize the resulting gap in the measurement data. 
 
-### Next step
-
-[Continue to creating the alarms](/konfiguration/wenndann-aktionen/alarme)
 
 ## Configuration with automatic electricity billing
 
@@ -93,7 +91,7 @@ Disadvantage:
 
 - Tenant contracts must be entered multiple times
 
-For this configuration, an additional property must be created for electricity only, containing all apartments of the three buildings.
+For this configuration, an additional property for electricity only must be created, containing all apartments of the three buildings.
 
 Only the electricity meters are assigned in this property.
 
@@ -107,8 +105,4 @@ Only the electricity meters are assigned in this property.
 
 ### Finally, create the alarms for a connection failure.
 
-This way you notice early when a meter fails and minimize the resulting gap in the measurement data. 
-
-### Next step
-
-[Continue to creating the alarms](/konfiguration/wenndann-aktionen/alarme)
+This way, you notice early when a meter fails and minimize the resulting gap in the measurement data.

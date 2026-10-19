@@ -128,6 +128,10 @@ const sidebars: SidebarsConfig = {
             'konfiguration/ordnerkonfiguration/strom-und-mehrere-heizungen',
           ],
         },
+        // Virtuelle Zähler sind Messinfrastruktur, keine Abrechnungsfunktion:
+        // Sie werden auf der Zählerebene eingerichtet und erst danach in
+        // Tarifen und in der Rechnungsstellung verwendet.
+        'konfiguration/virtuelle-zaehler',
         {
           type: 'category',
           label: 'Wenn/Dann-Aktionen',
@@ -160,7 +164,6 @@ const sidebars: SidebarsConfig = {
               label: 'Mieterstrom',
               customProps: {laender: ['de']},
             },
-            'konfiguration/billing/virtuelle-zaehler',
           ],
         },
         'konfiguration/benutzerkonfiguration',

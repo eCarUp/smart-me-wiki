@@ -128,7 +128,7 @@ Erstelle nun die Netztarife deiner Tarifperiode
 </div>
 </div>
 
-Nächster Schritt Timing des Tarifs in den Wenn Aktionen abbilden
+Das Timing des Tarifs bildest du in den Wenn-Aktionen ab:
 
 [Tarifzeiten definieren](/konfiguration/wenndann-aktionen/tarifzeiten-definieren)
 
@@ -262,8 +262,6 @@ In diesem Beispiel nutzen wir die 80% Methode mit Grundgebühr. Entsprechend mü
 Die Kosten der Grundgebühr fällt auf allen Abrechnungseinheiten an, daher kann Sie global bei den Tarifen hinterlegt werden für das Jahr 2026.
 
 ![Stromtarife definieren – Abbildung 16](/img/konfiguration-billing-stromtarife-definieren/16.png)
-
-### Nächster Schritt
 
 ## Alle Details zu den Tarifen und Funktionen
 
@@ -475,7 +473,7 @@ Virtuelle Summenzähler
 
 - Sind mehrere Solaranlagen im System und können nicht miteinander gemessen werden ist eine weitere Lizenz für die Gesamtproduktion notwendig.
 
-    Mehr Informationen: [Virtuelle Zähler](/konfiguration/billing/virtuelle-zaehler)
+    Mehr Informationen: [Virtuelle Zähler](/konfiguration/virtuelle-zaehler)
 
 
 ![Stromtarife definieren – Abbildung 25](/img/konfiguration-billing-stromtarife-definieren/17.png)

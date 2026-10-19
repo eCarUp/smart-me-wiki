@@ -1,7 +1,7 @@
 ---
 title: 'VEWA - Décompte'
 slug: '/konfiguration/billing/vewa-abrechnung'
-description: 'Introduction smart-me à partir de 2 min 20 s'
+description: 'Introduction smart-me à partir de 2min 20sec'
 sidebar_label: 'VEWA - Décompte'
 naechste_schritte: [konfiguration/billing/index]
 ---
@@ -20,28 +20,28 @@ naechste_schritte: [konfiguration/billing/index]
 - [Questions](https://youtu.be/nrziX2lLI0s?si=sr3GAi-mrt6gyLyQ&t=2432) à partir de 40min 32sec 
 
 
-## Généralités sur VEWA
+## Généralités sur la VEWA
 
-VEWA désigne le décompte des frais d'énergie et d'eau en fonction de la consommation (Verbrauchsabhängige Energie- und Wasserkosten Abrechnung). Il fournit un guide pour une répartition équitable de tous les types de coûts énergétiques et comprend :
+VEWA signifie décompte des frais d'énergie et d'eau en fonction de la consommation (Verbrauchsabhängige Energie- und Wasserkosten Abrechnung). Elle fournit un guide pour une répartition équitable de tous les types de frais d'énergie et comprend :
 
-- Chaleur
+- la chaleur
 
-- Froid
+- le froid
 
-- Eau chaude sanitaire
+- l'eau chaude sanitaire
 
-- Eau froide 
+- l'eau froide 
 
-- Électricité (peut aussi être traitée séparément)
+- l'électricité (peut aussi être traitée séparément)
 
 
-Le VEWA succède au décompte VHKA bien connu et prend en charge davantage d'agents énergétiques ainsi que des procédures simplifiées.
+La VEWA succède au décompte VHKA bien connu et prend en charge davantage d'agents énergétiques ainsi que des procédures simplifiées.
 
-Le VEWA assure la répartition des coûts pour des systèmes de chauffage séparés ou combinés sur la base des valeurs mesurées par les compteurs et répartit les coûts de la manière la plus équitable possible.
+La VEWA assure la répartition des frais pour des systèmes de chauffage séparés ou combinés sur la base des valeurs mesurées par les compteurs et répartit les frais de la manière la plus équitable possible.
 
-Pour la chaleur, le froid et l'eau chaude sanitaire, des procédures spécifiques sont appliquées afin de compenser les inégalités liées à la situation des logements, les pertes dans les conduites ou d'autres différences entre les consommateurs.
+Pour la chaleur, le froid et l'eau chaude sanitaire, des procédés spécifiques sont appliqués afin de compenser les inégalités liées à la situation des logements, les pertes dans les conduites ou d'autres différences entre les consommateurs.
 
-Les formes de répartition des coûts suivantes existent :
+Il existe les formes de répartition des frais suivantes :
 
 Centres de coûts séparés
 
@@ -70,18 +70,18 @@ Chaleur + froid et eau chaude sanitaire combinés
 
 - systèmes de chauffage et d'eau séparés (chaleur, froid, eau chaude sanitaire, eau froide)
 
-- systèmes de chauffage et d'eau chaude sanitaire combinés (chaleur + eau chaude sanitaire, froid, eau froide)
+- systèmes combinés de chauffage et d'eau chaude sanitaire (chaleur + eau chaude sanitaire, froid, eau froide)
 
-- systèmes de chauffage, d'eau chaude sanitaire et de refroidissement combinés (chaleur + froid + eau chaude sanitaire, eau froide)
+- systèmes combinés de chauffage, d'eau chaude sanitaire et de refroidissement (chaleur + froid + eau chaude sanitaire, eau froide)
 
 
-Pour qu'un type d'énergie puisse être décompté, il faut que des compteurs de consommation soient installés dans les unités pour chaque type d'énergie.
+Pour qu'un type d'énergie puisse être décompté correctement, des compteurs de consommation doivent être présents dans les unités pour chaque type d'énergie.
 
 Remarque : 
 
 - Les répartiteurs de frais de chauffage ne sont pas pris en charge
 
-- En cas de décompte avec des compteurs de production totale, les coûts peuvent être répartis en pourcentage sur les unités d'habitation.
+- En cas de décompte avec des compteurs de production totale, les frais peuvent être répartis en pourcentage sur les unités d'habitation.
 
 
 ![VEWA - Décompte – Illustration 5](/img/konfiguration-billing-vewa-abrechnung/05.png)
@@ -100,87 +100,87 @@ Ceux-ci peuvent ensuite être décomptés individuellement avec des périodes de
 
 ### Fonctionnement général de smart-me VEWA
 
-- Le VEWA peut être appliqué à chaque immeuble. Veillez donc à ce que tous les compteurs de consommation d'un même système de chauffage se trouvent dans le même immeuble.
-    Si un même système de chauffage dessert plusieurs bâtiments, ceux-ci doivent être regroupés en un seul.
+- La VEWA peut être appliquée à chaque immeuble. Veillez donc à ce que tous les compteurs de consommation d'un même système de chauffage se trouvent dans le même immeuble.
+    Si plusieurs bâtiments partagent le même système de chauffage, les bâtiments doivent être regroupés en un seul.
 
-- Lors de l'application du VEWA, tous les contrats de bail ainsi que les logements vacants doivent être correctement saisis dans l'état locatif. Soit dans smart-me Billing, soit dans le logiciel immobilier externe en cas d'utilisation de fichiers DTA-VKA.
+- Lors de l'application de la VEWA, tous les contrats de bail ainsi que les logements vacants doivent être correctement saisis dans l'état locatif. Soit dans smart-me Billing, soit dans le logiciel immobilier externe en cas d'utilisation de fichiers DTA-VKA.
 
 
-## Configurer VEWA
+## Configurer la VEWA
 
-1.  ### Activer VEWA et configurer les répartitions des coûts.
+1.  ### Activer la VEWA et configurer les répartitions des frais.
 
 
 Sélectionner le système de chauffage :
 
-- Chaleur, froid et eau chaude sanitaire combinés (Wärme, Kälte und Warmwasser kombiniert)
+- Chaleur, froid et eau chaude sanitaire combinés
 
-- Chaleur, eau chaude sanitaire combinées (Wärme, Warmwasser kombiniert)
+- Chaleur, eau chaude sanitaire combinées
 
-- Systèmes séparés (Separierte Systeme)
+- Systèmes séparés
 
 
-Le choix d'un système combiné ou non dépend de la production de chaleur. Si, par exemple, une pompe à chaleur est utilisée pour le chauffage, le refroidissement et la production d'eau chaude sanitaire, le décompte combiné est indiqué, car la grandeur de dépense est la même pour les trois énergies, à savoir l'électricité.
+Le choix d'un système combiné ou non dépend de la production de chaleur. Si, par exemple, une pompe à chaleur est utilisée pour le chauffage, le refroidissement et la préparation de l'eau chaude sanitaire, le décompte combiné est indiqué, car la grandeur de dépense est la même pour les trois énergies, à savoir l'électricité.
 
-Si en revanche le chauffage est assuré par un chauffage au mazout, mais que l'eau chaude sanitaire est produite de manière purement électrique sans l'appui du chauffage au mazout, il convient de choisir des décomptes non combinés.
+Si en revanche le chauffage est assuré par un chauffage au mazout, mais que l'eau chaude sanitaire est préparée de manière purement électrique sans l'appui du chauffage au mazout, il convient de choisir des décomptes non combinés.
 
-Répartition des coûts
+Répartition des frais
 
-La répartition des coûts divise les coûts totaux en coûts fixes (coûts de base) et en coûts variables (coûts liés à la consommation).
+La répartition des frais divise les frais totaux en frais fixes (frais de base) et en frais variables (frais liés à la consommation).
 
-Coûts de base
+Frais de base
 
-Les coûts de base tiennent compte des éventuelles pertes dans les conduites, des pertes de circulation, de la situation privilégiée d'un logement bénéficiant de plus d'ensoleillement, etc., et répartissent une part des coûts sur tous les locataires selon leur part de surface dans l'ensemble de l'immeuble.
+Les frais de base tiennent compte des éventuelles pertes dans les conduites, des pertes de circulation, de la situation privilégiée d'un logement bénéficiant de plus d'ensoleillement, etc., et répartissent une part des frais sur tous les locataires selon leur part de surface dans l'ensemble de l'immeuble.
 
-Coûts variables
+Frais variables
 
-Les coûts variables sont appliqués directement aux quantités d'énergie consommées et saisies. Ils correspondent à la consommation individuelle de chaque locataire.
+Les frais variables sont appliqués directement aux quantités d'énergie consommées et saisies. Ils correspondent à la consommation individuelle de chaque locataire.
 
-Production d'eau chaude sanitaire
+Préparation de l'eau chaude sanitaire
 
-Afin de pouvoir estimer, à partir des valeurs en m3, l'énergie utilisée pour la production d'eau chaude sanitaire, la formule standard suivante est appliquée :
+Afin de pouvoir estimer à partir des valeurs en m3 l'énergie utilisée pour la préparation de l'eau chaude sanitaire, la formule standard suivante est appliquée :
 
 Énergie eau chaude sanitaire en kWh =
-Total des valeurs de consommation eau chaude sanitaire \[m3\] \* 1.163 \* différence de température \[K\] \* 1,25
+Total des valeurs de consommation d'eau chaude sanitaire \[m3\] \* 1.163 \* différence de température \[K\] \* 1,25
 
-La différence de température peut être choisie ; elle correspond à l'écart entre la température de l'eau froide à son entrée dans le bâtiment (généralement +10°C) et la température moyenne du chauffe-eau une fois l'eau chauffée (généralement +52°C).
+La différence de température peut être choisie et correspond à l'écart entre la température de l'eau froide à son entrée dans le bâtiment (généralement +10°C) et la température moyenne du chauffe-eau une fois l'eau chauffée (généralement +52°C).
 
-Selon cet exemple, la différence est de : 
+Selon cet exemple, la différence est donc de : 
 
 Différence de température = température cible - température d'entrée = 52°C - 10°C = 42 K
 
 ![VEWA - Décompte – Illustration 6](/img/konfiguration-billing-vewa-abrechnung/06.png)
 
-Valeurs indicatives pour la configuration des coûts de base et des coûts variables :
+Valeurs indicatives pour la configuration des frais de base et des frais variables :
 
 Nouvelles constructions (tout à partir de 2018) : 
 
-- Coûts de base 30%, coûts variables 70%
+- Frais de base 30%, frais variables 70%
 
 
-Anciens bâtiments rénovés (isolation améliorée selon le standard des nouvelles constructions) :
+Anciens bâtiments rénovés (isolation renforcée selon le standard des nouvelles constructions) :
 
-- Coûts de base 40%, coûts variables 60%
+- Frais de base 40%, frais variables 60%
 
 
 Anciens bâtiments non rénovés (avant 2018) :
 
-- Coûts de base de 40%\-50%, coûts variables de 50-60%
+- Frais de base de 40%\-50%, frais variables de 50-60%
 
 - En outre, une compensation de situation doit être calculée pour chaque logement. Soit la valeur mesurée du compteur du logement est réduite, soit les pourcentages de répartition du compteur total sont pondérés. 
-    (Détails au chapitre 10 du document VEWA sous littérature complémentaire)
+    (Détails au chapitre 10 du document VEWA, sous littérature complémentaire)
 
 
-Ici, les valeurs mesurées des compteurs des logements peuvent être modifiées afin d'effectuer l'adaptation à la situation : [Configuration des compteurs/dossiers](/konfiguration/ordnerkonfiguration)  
+C'est ici que les valeurs mesurées des compteurs des logements peuvent être modifiées afin d'effectuer l'ajustement de situation : [Configuration des compteurs/dossiers](/konfiguration/ordnerkonfiguration)  
 
 - Si un compteur doit réduire sa valeur mesurée de 20% : 
     la correction de valeur (Wertkorrektur) est réglée de 100% à 80%.
 
 
-### 2\. Saisir une période de décompte
+### 2\. Saisie d'une période de décompte
 
-Les coûts peuvent être saisis par type d'énergie en tant que coûts complets.
-Pour les systèmes combinés, les coûts individuels des différents agents énergétiques sont additionnés.
+Les frais peuvent être saisis en frais complets par type d'énergie.
+Dans les systèmes combinés, les frais individuels des différents agents énergétiques sont additionnés.
 
 ![VEWA - Décompte – Illustration 7](/img/konfiguration-billing-vewa-abrechnung/07.png)
 
@@ -197,13 +197,13 @@ Si l'électricité et les frais de chauffage et charges accessoires sont décomp
 
 p. ex. :
 
-- Période électricité T1 2024 (uniquement électricité et divers)
+- Période électricité Q1 2024 (uniquement électricité et divers)
 
-- Période électricité T2 2024 (uniquement électricité et divers)
+- Période électricité Q2 2024 (uniquement électricité et divers)
 
-- Période électricité T3 2024 (uniquement électricité et divers)
+- Période électricité Q3 2024 (uniquement électricité et divers)
 
-- Période électricité T4 2024 (uniquement électricité et divers)
+- Période électricité Q4 2024 (uniquement électricité et divers)
 
 - Période chaleur eau 2024 (uniquement chaleur, froid, eau chaude sanitaire et eau froide)
 
@@ -215,16 +215,16 @@ p. ex. :
 </div>
 </div>
 
-### 4\. Saisir les coûts de la période de décompte
+### 4\. Saisie des frais de la période de décompte
 
-Remarque pour l'export vers des logiciels immobiliers avec des fichiers DTA-VHKA :
-Si vous souhaitez utiliser le VEWA mais exporter les données vers un autre système en pour mille ou en valeurs de consommation, vous n'avez pas besoin de saisir de coûts. La période de facturation doit toutefois être créée au préalable.
+Remarque concernant l'export vers des logiciels immobiliers avec des fichiers DTA-VHKA :
+Si vous souhaitez utiliser la VEWA, mais exporter les données vers un autre système en pour mille ou en valeurs de consommation, vous n'avez pas besoin de saisir de frais. La période de facturation doit toutefois être créée au préalable.
 
-Les coûts pouvant être saisis se répartissent grosso modo comme suit :
+Les frais pouvant être saisis se répartissent grosso modo comme suit :
 
-Coûts de l'énergie
+Frais d'énergie
 
-Coûts de l'agent énergétique acheté, p. ex. : 
+Frais pour l'agent énergétique acheté, p. ex. : 
 
 - 1000 litres de mazout pour 2000 CHF
 
@@ -235,17 +235,17 @@ Coûts de l'agent énergétique acheté, p. ex. :
 
 Frais accessoires d'énergie
 
-Coûts d'exploitation et d'entretien
+Frais d'exploitation et d'entretien
 
-- Coûts de la révision périodique de l'installation de chauffage
+- Frais de la révision périodique de l'installation de chauffage
 
-- Coûts du service de relevé (p. ex. amortissement des coûts de licence smart-me pour les appareils)
+- Frais du service de relevé (p. ex. amortissement des frais de licence smart-me pour les appareils)
 
-- Travaux administratifs en lien avec l'installation de chauffage
+- Travaux administratifs liés à l'installation de chauffage
 
-- Coûts du ramoneur
+- Frais de ramonage
 
-- Élimination des déchets si le système de chauffage engendre de tels coûts.
+- Élimination des déchets si le système de chauffage occasionne de tels frais.
 
 
 Ce qui ne fait pas partie des frais accessoires d'énergie
@@ -253,13 +253,13 @@ Ce qui ne fait pas partie des frais accessoires d'énergie
 - Infrastructure de mesure (celle-ci est réglée par une augmentation du loyer)
 
 
-Remarque concernant les coûts de l'eau chaude sanitaire :
+Remarque concernant les frais d'eau chaude sanitaire :
 
-Les coûts de l'eau chaude sanitaire comprennent uniquement les coûts de chauffage de l'eau. La quantité d'eau froide utilisée pour la production d'eau chaude sanitaire est automatiquement reprise dans la partie eau froide. 
+Les frais d'eau chaude sanitaire ne comprennent que les frais de chauffage de l'eau. La quantité d'eau froide consommée pour la préparation de l'eau chaude sanitaire est automatiquement reprise dans la partie eau froide. 
 
-- Si un compteur d'eau froide général est réparti en pourcentage sur plusieurs logements, la quantité totale d'eau froide est calculée à partir de ce compteur commun.
+- Si un compteur général d'eau froide est réparti en pourcentage sur plusieurs logements, la quantité totale d'eau froide est calculée à partir de ce compteur commun.
 
-- Si des compteurs d'eau froide et d'eau chaude se trouvent dans les logements et sont appliqués à 100% de la consommation, la somme pour l'eau froide correspond à la somme de tous les compteurs d'eau chaude et d'eau froide.
+- Si des compteurs d'eau froide et d'eau chaude sanitaire se trouvent dans les logements et sont appliqués à 100% de la consommation, la somme pour l'eau froide correspond à la somme de tous les compteurs d'eau chaude sanitaire et d'eau froide.
 
 
 Ceux-ci peuvent être saisis par type d'énergie et sont additionnés.
@@ -268,19 +268,19 @@ Ceux-ci peuvent être saisis par type d'énergie et sont additionnés.
 
 ### 5\. Facturer la location des compteurs
 
-Contrairement au RCP (regroupement dans le cadre de la consommation propre), le VEWA permet de facturer aux consommateurs les coûts d'amortissement des compteurs de chaleur et des compteurs d'eau.
+Contrairement au RCP (regroupement dans le cadre de la consommation propre), la VEWA permet de facturer aux consommateurs les frais d'amortissement des compteurs de chaleur et des compteurs d'eau.
 
 Cela doit toutefois se faire par une augmentation des loyers, et non par les charges accessoires.
 
-Les coûts du matériel et de l'installation d'un compteur peuvent être répercutés.
+Les frais de matériel et d'installation d'un compteur peuvent être répercutés.
 
-La durée d'amortissement est de 10 ans.
+La durée d'amortissement applicable est de 10 ans.
 
 Les règles de répercussion sont décrites à l'art. 269d CO et aux art. 19 et 20 OBLF
 
 Détails du calcul dans le document officiel VEWA sous 2.2 FORMELLE ÜBERWÄLZUNGSREGELN 
 
-### 6\. Saisir un tarif toujours valable pour chaque agent énergétique
+### 6\. Saisie d'un tarif toujours valable pour chaque agent énergétique
 
 - Ce tarif est saisi sans prix (0) avec une validité illimitée (2099).
 
@@ -293,30 +293,28 @@ Détails du calcul dans le document officiel VEWA sous 2.2 FORMELLE ÜBERWÄLZUN
 
 ### 7\. Saisir les surfaces des logements
 
-Pour le calcul VEWA et la répartition des coûts de base, les surfaces des logements doivent être connues. Elles peuvent être définies dans l'unité de décompte correspondante. Elles sont ensuite additionnées pour obtenir la surface totale déterminante.
+Pour le calcul VEWA et la répartition des frais de base, les surfaces des logements doivent être connues. Celles-ci peuvent être définies dans l'unité de décompte correspondante. Elles sont ensuite additionnées pour obtenir la surface totale déterminante.
 
-Remarque : pour que la surface totale déterminante soit correctement indiquée, tous les locaux doivent être saisis en tant qu'unité de décompte, même s'ils ne sont rattachés à aucun compteur et qu'ils sont traités forfaitairement en externe.
+Remarque : pour que la surface totale déterminante soit correctement rapportée, tous les locaux doivent être saisis comme unité de décompte, même s'ils n'ont eux-mêmes aucun compteur rattaché et sont traités de manière forfaitaire à l'externe.
 Seuls les nombres entiers sont possibles.
 
 ![VEWA - Décompte – Illustration 11](/img/konfiguration-billing-vewa-abrechnung/11.png)
 
-### Étape suivante
-
-## Contenu de la facture et décompte détaillé
+## Contenu et détail de la facture
 
 ### Aperçu
 
-L'aperçu (Übersicht) présente tous les coûts en un coup d'œil, y compris les éventuelles taxes appliquées et les différences d'arrondi.
+L'aperçu présente tous les frais en un coup d'œil, y compris les éventuels impôts appliqués et les différences d'arrondi.
 
 ![VEWA - Décompte – Illustration 12](/img/konfiguration-billing-vewa-abrechnung/12.png)
 
 ### Chaleur
 
-La section Chaleur (Wärme) indique les coûts totaux du centre de coûts Chaleur ainsi que les clés de répartition et les grandeurs de référence appliquées.
+La section chaleur indique les frais totaux du centre de coûts chaleur ainsi que les clés de répartition et grandeurs de référence appliquées.
 
-- Part des coûts de base en % (ici 30%)
+- Part des frais de base en % (ici 30%)
 
-- Part des coûts de consommation en % (ici 70%)
+- Part des frais de consommation en % (ici 70%)
 
 - Consommation totale de l'immeuble en kWh (ici 700 kWh)
 
@@ -329,7 +327,7 @@ Les tarifs calculés sont ensuite appliqués au logement concerné (bloc bleu) s
 
 - Jours d'occupation (ici 91 sur 91, occupation à 100%)
 
-- Valeur mesurée du compteur du logement concerné (ici 500kWh)
+- Valeur mesurée par le compteur du logement concerné (ici 500kWh)
 
 
 
@@ -340,19 +338,19 @@ Les tarifs calculés sont ensuite appliqués au logement concerné (bloc bleu) s
 
 ### Eau chaude sanitaire
 
-La section Eau chaude sanitaire (Warmwasser) indique les coûts totaux du centre de coûts Eau chaude sanitaire ainsi que les clés de répartition et les grandeurs de référence appliquées.
+La section eau chaude sanitaire indique les frais totaux du centre de coûts eau chaude sanitaire ainsi que les clés de répartition et grandeurs de référence appliquées.
 
-- Part des coûts de base en % (ici 30%)
+- Part des frais de base en % (ici 30%)
 
-- Part des coûts de consommation en % (ici 70%)
+- Part des frais de consommation en % (ici 70%)
 
 - Consommation totale de l'immeuble en m3 (ici 5 m2)
 
 - Surface habitable totale de l'immeuble en m2 (ici 300 m2) 
 
 
-Ces coûts comprennent exclusivement les coûts nécessaires à la production d'eau chaude sanitaire, mais pas l'eau froide utilisée à cet effet.
-Plus d'informations sur les coûts dans la section Aperçu des centres de coûts.
+Ces frais se composent exclusivement des frais nécessaires à la production d'eau chaude sanitaire, mais pas de l'eau froide utilisée à cet effet.
+Plus d'informations sur les frais dans la section Aperçu des centres de coûts.
 
 Les tarifs calculés sont ensuite appliqués au logement concerné (bloc bleu) sur la base des valeurs mesurées par les compteurs du logement.
 
@@ -360,18 +358,18 @@ Les tarifs calculés sont ensuite appliqués au logement concerné (bloc bleu) s
 
 - Jours d'occupation (ici 91 sur 91, occupation à 100%)
 
-- Valeur mesurée du compteur du logement concerné en m3 (ici 3 m3)
+- Valeur mesurée par le compteur du logement concerné en m3 (ici 3 m3)
 
 
 ![VEWA - Décompte – Illustration 14](/img/konfiguration-billing-vewa-abrechnung/14.png)
 
 ### Eau froide
 
-La section Eau froide (Kaltwasser) indique les coûts totaux du centre de coûts Eau froide ainsi que les clés de répartition et les grandeurs de référence appliquées.
+La section eau froide indique les frais totaux du centre de coûts eau froide ainsi que les clés de répartition et grandeurs de référence appliquées.
 
-- Part des coûts de base en % (ici 20%)
+- Part des frais de base en % (ici 20%)
 
-- Part des coûts de consommation en % (ici 70%)
+- Part des frais de consommation en % (ici 70%)
 
 - Consommation totale de l'immeuble en m3 (ici 13 m2)
 
@@ -384,20 +382,20 @@ Les tarifs calculés sont ensuite appliqués au logement concerné (bloc bleu) s
 
 - Jours d'occupation (ici 91 sur 91, occupation à 100%)
 
-- Valeur mesurée du compteur du logement concerné en m3 d'eau chaude sanitaire
+- Valeur mesurée par le compteur du logement concerné en m3 d'eau chaude sanitaire
     (ici 3 m3)
 
-- Valeur mesurée du compteur du logement concerné en m3 d'eau froide
+- Valeur mesurée par le compteur du logement concerné en m3 d'eau froide
     (ici 5 m3)
 
 
 Remarque :
 
-Selon le système, seuls des compteurs d'eau froide ou un mélange de compteurs d'eau froide et d'eau chaude peuvent figurer ici ; la détection de ces systèmes est automatisée.
+Selon le système, seuls des compteurs d'eau froide ou un mélange de compteurs d'eau froide et d'eau chaude sanitaire peuvent figurer ici ; la détection de ces systèmes est automatisée.
 
-- S'il existe un compteur principal d'eau froide et aucun compteur dans les logements, ou uniquement des compteurs d'eau chaude dans les logements, seul un compteur d'eau froide au prorata en % figurerait ici.
+- S'il existe un compteur principal d'eau froide et aucun compteur dans les logements, ou seulement des compteurs d'eau chaude sanitaire dans les logements, seul un compteur d'eau froide réparti en % figurerait ici.
 
-- S'il existe des compteurs de logement pour l'eau chaude et l'eau froide, les deux compteurs figurent toujours ici pour chaque logement ; leur somme donne la consommation d'eau totale.
+- S'il existe des compteurs de logement pour l'eau chaude sanitaire et l'eau froide, les deux compteurs figurent toujours ici pour chaque logement ; leur somme donne la consommation d'eau totale.
 
 
 ![VEWA - Décompte – Illustration 15](/img/konfiguration-billing-vewa-abrechnung/15.png)
@@ -406,43 +404,43 @@ Selon le système, seuls des compteurs d'eau froide ou un mélange de compteurs 
 
 Centres de coûts séparés
 
-Chaque facture comporte l'aperçu des centres de coûts (Kostenstellenübersicht). Celui-ci contient tous les postes de coûts saisis pour les différents centres de coûts.
+Chaque facture comporte l'aperçu des centres de coûts. Celui-ci contient tous les postes de frais saisis pour les différents centres de coûts.
 
-- Pour la chaleur, tous les coûts relatifs au système de chauffage sont listés.
+- Pour la chaleur, tous les frais relatifs au système de chauffage sont listés.
 
-- Pour l'eau chaude sanitaire, seuls figurent les coûts relatifs au chauffage de l'eau, mais pas ceux de la quantité d'eau froide utilisée.
+- Pour l'eau chaude sanitaire, seuls les frais relatifs au chauffage de l'eau figurent, mais pas la quantité d'eau froide utilisée.
 
-- Pour l'eau froide, tous les coûts relatifs à l'eau froide et aux eaux usées sont saisis.
+- Pour l'eau froide, tous les frais relatifs à l'eau froide et aux eaux usées sont saisis.
 
 
 Centres de coûts combinés
 
-L'aperçu des centres de coûts peut changer d'apparence lorsque des systèmes sont combinés.
+L'aperçu des centres de coûts peut changer visuellement lorsque des systèmes sont combinés.
 
-Il est par exemple courant de combiner la chaleur et l'eau chaude sanitaire, car une partie de l'énergie destinée à la production d'eau chaude sanitaire provient du système de chauffage. (Accumulateur d'eau chaude couplé au chauffage)
+Il est par exemple courant de combiner la chaleur et l'eau chaude sanitaire, car une partie de l'énergie destinée à la préparation de l'eau chaude sanitaire provient du système de chauffage. (Accumulateur d'eau chaude couplé au chauffage)
 
-Dans ce cas, les coûts sont présentés de manière combinée.
+Dans ce cas, les frais apparaissent de manière combinée.
 
-La particularité réside dans l'indication de la formule de conversion utilisée pour répartir l'énergie totale entre l'énergie de chauffage et l'énergie de production d'eau chaude sanitaire.
+La particularité réside dans l'indication de la formule de conversion utilisée pour répartir l'énergie totale en énergie de chauffage et en énergie de préparation de l'eau chaude sanitaire.
 
-Aperçu des coûts des centres de coûts séparés
+Aperçu des frais des centres de coûts séparés
 
 ![VEWA - Décompte – Illustration 16](/img/konfiguration-billing-vewa-abrechnung/16.png)
 
 Aperçu des centres de coûts combinés chaleur + eau chaude sanitaire
-(formule de conversion sous l'aperçu des coûts)
+(formule de conversion sous l'aperçu des frais)
 
 ![VEWA - Décompte – Illustration 17](/img/konfiguration-billing-vewa-abrechnung/17.png)
 
-## Utiliser VEWA avec une interface vers un logiciel immobilier
+## Appliquer la VEWA avec une interface vers un logiciel immobilier
 
-[Échange de données avec VEWA et les fichiers DTA-VHKA](/schnittstellen/dta-vhka-files)
+[Échange de données avec la VEWA et les fichiers DTA-VHKA](/schnittstellen/dta-vhka-files)
 
-## Gestion des erreurs VEWA et Billing
+## Traitement des erreurs VEWA et Billing
 
-[Dérangements en lien avec VEWA](/stoerungsbehebung/billing-fehlermeldungen)
+[Dérangements en lien avec la VEWA](/stoerungsbehebung/billing-fehlermeldungen)
 
-## Littérature et documents complémentaires sur VEWA (situation juridique actuelle)
+## Littérature et documents complémentaires sur la VEWA (situation juridique actuelle)
 
 [Modèle de décompte VEWA : détails et guide](https://www.admin.ch/gov/de/start/dokumentation/medienmitteilungen.msg-id-67271.html)
 

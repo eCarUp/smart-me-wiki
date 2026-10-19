@@ -9,22 +9,22 @@ naechste_schritte: [konfiguration/billing/stromtarife-definieren/index]
 
 ## Struttura dell'azione se per le tariffe virtuali
 
-Con una condizione aggiuntiva può definire da quando questa tariffa deve essere valida. Può trattarsi di un intervallo di tempo (ad es. per ore di punta / ore fuori punta) oppure di qualsiasi altra condizione. La condizione deve essere stata definita in precedenza come [azione se/allora](/konfiguration/wenndann-aktionen). Gli esempi più comuni sono descritti di seguito.
+Con una condizione aggiuntiva è possibile definire da quando questa tariffa deve essere valida. Può trattarsi di un intervallo di tempo (ad es. per ore di punta / ore fuori punta) o di qualsiasi altra condizione. La condizione deve essere stata definita in precedenza come [azione se/allora](/konfiguration/wenndann-aktionen). Gli esempi più comuni sono descritti di seguito.
 
 Note:
 
-- Dopo aver definito tutte le tariffe, deve assolutamente cliccare su Ricalcola (Neu rechnen). In questo modo tutte le tariffe virtuali vengono calcolate correttamente. Questa operazione può richiedere alcune ore.
+- Dopo aver definito tutte le tariffe, è indispensabile fare clic su Ricalcola (Neu rechnen). In questo modo tutte le tariffe virtuali vengono calcolate correttamente. Questa operazione può richiedere alcune ore.
 
 
-<Video src="0LTDpKKA3-k" title="Video YouTube, conteggiare l'energia solare in ore di punta e ore fuori punta" />
+<Video src="0LTDpKKA3-k" title="Video YouTube, conteggiare il solare in ore di punta e ore fuori punta" />
 
-### Interfaccia Se / Allora
+### Interfaccia Se/Allora
 
 ![Definire le fasce tariffarie – Figura 2](/img/konfiguration-wenndann-aktionen-tarifzeiten-definieren/02.png)
 
 ## Creare una doppia tariffa passo dopo passo
 
-Consulti sul foglio tariffario gli orari delle ore di punta. Nel nostro esempio la situazione è la seguente:
+Consultare sul foglio tariffario gli orari delle ore di punta. Nel nostro esempio la situazione è la seguente:
 
 Fascia HT (ore di punta):
 
@@ -42,49 +42,49 @@ Do: tutto il giorno
 
 ### Creare la fascia HT
 
-Clicchi sul "+" per creare un nuovo timing.
+Fare clic su "+" per creare un nuovo timing.
 
-Selezioni il collegamento O
+Selezionare il collegamento O (Oder-Verknüpfung)
 
-Funzione O:
+Funzione O (ODER):
 
-Se una delle condizioni SE è soddisfatta, è fascia HT.
+Se una delle condizioni SE (WENN) è soddisfatta, è fascia HT.
 
-Negli eventi SE (WENN Ereignisse) clicchi sul "+" per creare la fascia HT Lu-Ve.
+In Eventi SE (WENN Ereignisse) fare clic su "+" per creare la fascia HT Lu-Ve.
 
 ![Definire le fasce tariffarie – Figura 3](/img/konfiguration-wenndann-aktionen-tarifzeiten-definieren/03.png)
 
-Selezioni Data e ora (Datum & Uhrzeit)
+Selezionare Data e ora (Datum & Uhrzeit)
 
 
 
 ![Definire le fasce tariffarie – Figura 4](/img/konfiguration-wenndann-aktionen-tarifzeiten-definieren/04.png)
 
-Definisca gli orari per Lu-Ve
+Definire gli orari per Lu-Ve
 
 dalle 7:00 alle 22:00
 
 
 
-e salvi l'impostazione.
+e salvare l'impostazione.
 
 ![Definire le fasce tariffarie – Figura 5](/img/konfiguration-wenndann-aktionen-tarifzeiten-definieren/05.png)
 
-Sotto gli eventi SE (WENN Ereignisse) clicchi di nuovo su "+" per definire il sabato.
+Sotto gli Eventi SE (WENN Ereignisse) fare nuovamente clic su "+" per definire il sabato.
 
 ![Definire le fasce tariffarie – Figura 6](/img/konfiguration-wenndann-aktionen-tarifzeiten-definieren/06.png)
 
-Selezioni Data e ora (Datum & Uhrzeit)
+Selezionare Data e ora (Datum & Uhrzeit)
 
 ![Definire le fasce tariffarie – Figura 7](/img/konfiguration-wenndann-aktionen-tarifzeiten-definieren/04.png)
 
-Definisca gli orari per il sabato
+Definire gli orari per il sabato
 
 dalle 7:00 alle 13:00
 
 
 
-e salvi l'impostazione.
+e salvare l'impostazione.
 
 ![Definire le fasce tariffarie – Figura 8](/img/konfiguration-wenndann-aktionen-tarifzeiten-definieren/08.png)
 
@@ -101,9 +101,9 @@ Si prosegue con la fascia NT
 <div className="row">
 <div className="col col--5">
 
-Clicchi sul "+" per creare un nuovo timing.
+Fare clic su "+" per creare un nuovo timing.
 
-Clicchi su "+" per registrare un'ulteriore azione per la fascia NT
+Fare clic su "+" per registrare un'ulteriore azione per la fascia NT
 
 </div>
 <div className="col col--7 text--center">
@@ -115,58 +115,58 @@ Clicchi su "+" per registrare un'ulteriore azione per la fascia NT
 
 ![Definire le fasce tariffarie – Figura 11](/img/konfiguration-wenndann-aktionen-tarifzeiten-definieren/11.png)
 
-Selezioni Data e ora (Datum & Uhrzeit)
+Selezionare Data e ora (Datum & Uhrzeit)
 
 ![Definire le fasce tariffarie – Figura 12](/img/konfiguration-wenndann-aktionen-tarifzeiten-definieren/04.png)
 
-Definisca la fascia NT per Lu-Ve
+Definire la fascia NT per Lu-Ve
 
-In questo caso corrisponde all'orario dalle 22:00 alle 7:00
+In questo caso corrisponde all'intervallo dalle 22:00 alle 7:00
 
 
 
-Salvi l'impostazione.
+Salvare l'impostazione.
 
 ![Definire le fasce tariffarie – Figura 13](/img/konfiguration-wenndann-aktionen-tarifzeiten-definieren/13.png)
 
-Clicchi su "+" per definire il sabato
+Fare clic su "+" per definire il sabato
 
 ![Definire le fasce tariffarie – Figura 14](/img/konfiguration-wenndann-aktionen-tarifzeiten-definieren/14.png)
 
-Selezioni Data e ora (Datum & Uhrzeit)
+Selezionare Data e ora (Datum & Uhrzeit)
 
 ![Definire le fasce tariffarie – Figura 15](/img/konfiguration-wenndann-aktionen-tarifzeiten-definieren/04.png)
 
-Il sabato si definisce nel modo seguente:
+Il sabato si definisce come segue:
 
 dalle 13:00 alle 00:00 del giorno
 
 
 
-Salvi l'impostazione.
+Salvare l'impostazione.
 
 ![Definire le fasce tariffarie – Figura 16](/img/konfiguration-wenndann-aktionen-tarifzeiten-definieren/16.png)
 
-Clicchi su "+" per definire la domenica ancora mancante
+Fare clic su "+" per definire la domenica ancora mancante
 
 ![Definire le fasce tariffarie – Figura 17](/img/konfiguration-wenndann-aktionen-tarifzeiten-definieren/17.png)
 
-Selezioni Data e ora (Datum & Uhrzeit)
+Selezionare Data e ora (Datum & Uhrzeit)
 
 ![Definire le fasce tariffarie – Figura 18](/img/konfiguration-wenndann-aktionen-tarifzeiten-definieren/04.png)
 
-Per ore fuori punta su tutta la giornata di domenica, per la domenica si inserisce dalle 00:00 alle 00:00.
+Per una tariffa fuori punta per l'intera giornata di domenica, per la domenica si inserisce dalle 00:00 alle 00:00.
 
 
 
-Salvi l'impostazione
+Salvare l'impostazione
 
 ![Definire le fasce tariffarie – Figura 19](/img/konfiguration-wenndann-aktionen-tarifzeiten-definieren/19.png)
 
 <div className="row">
 <div className="col col--4">
 
-Ora che ha definito le fasce tariffarie rilevanti, torni alla definizione delle tariffe per assegnare i timing alle tariffe.
+Ora che sono state definite le fasce tariffarie rilevanti, tornare alla definizione delle tariffe per assegnare i timing alle tariffe.
 
 </div>
 <div className="col col--8 text--center">
@@ -176,13 +176,11 @@ Ora che ha definito le fasce tariffarie rilevanti, torni alla definizione delle 
 </div>
 </div>
 
-### Passo successivo: definire le tariffe con le fasce tariffarie
-
 ## Altri esempi
 
 Struttura: ore di punta e ore fuori punta per l'elettricità di rete e tariffa unica per l'elettricità solare
 
-- Tariffa unica elettricità solare: definire la tariffa solare senza azione se
+- Elettricità solare tariffa unica: definire la tariffa solare senza azione se
 
 - Elettricità di rete ore di punta: definire la tariffa normale con azione se
 
@@ -191,7 +189,7 @@ Struttura: ore di punta e ore fuori punta per l'elettricità di rete e tariffa u
 - Elettricità di rete ore fuori punta: definire la tariffa normale senza azione se
 
 
-Logica: Dapprima viene distribuita l'elettricità solare disponibile. Se ce n'è troppo poca o non ce n'è, viene utilizzata la tariffa normale che soddisfa una condizione. Infine, per l'elettricità rimanente viene applicata la tariffa senza condizione.
+Logica: per prima cosa viene distribuita l'elettricità solare disponibile. Se ce n'è troppo poca o non ce n'è, viene utilizzata la tariffa normale che soddisfa una condizione. Infine, per l'elettricità restante viene utilizzata la tariffa senza condizione.
 
 Struttura: ore di punta e ore fuori punta per l'elettricità di rete e solare
 
@@ -212,7 +210,7 @@ Struttura: ore di punta e ore fuori punta per l'elettricità di rete e solare
     - Utilizzare la stessa azione se della tariffa solare ore fuori punta 
 
 
-Logica: Dapprima viene utilizzata l'elettricità solare disponibile con la condizione valida. Se ce n'è troppo poca o non ce n'è, viene utilizzata la tariffa normale con la condizione valida. In questo caso d'uso è importante che le 24h/giorno siano coperte da una condizione se.
+Logica: per prima cosa viene utilizzata l'elettricità solare disponibile con la condizione valida. Se ce n'è troppo poca o non ce n'è, viene utilizzata la tariffa normale con la condizione valida. In questo caso d'uso è importante che le 24 ore del giorno siano coperte da una condizione se.
 
 Struttura: estate e inverno con ore di punta e ore fuori punta per l'elettricità di rete e tariffa unica per l'elettricità solare
 
@@ -220,24 +218,24 @@ Struttura: estate e inverno con ore di punta e ore fuori punta per l'elettricit�
 
 - Elettricità di rete ore di punta estate: definire la tariffa normale con azione se
 
-    - Esempio: intervallo ogni giorno: Lu-Do dalle 7h00 alle 22h00 e intervallo ogni anno dal 1 / 04 / 00:00 al 1 / 10 / 00:00.
+    - Esempio: intervallo ogni giorno: Lu-Do dalle 7h00 alle 22h00 e intervallo ogni anno da 1 / 04 / 00:00 a 1 / 10 / 00:00.
 
 - Elettricità di rete ore fuori punta estate: definire la tariffa normale con azione se
 
-    - Esempio: intervallo ogni giorno: Lu-Do dalle 22h00 alle 07h00 e intervallo ogni anno dal 1 / 04 / 00:00 al 1 / 10 / 00:00.
+    - Esempio: intervallo ogni giorno: Lu-Do dalle 22h00 alle 07h00 e intervallo ogni anno da 1 / 04 / 00:00 a 1 / 10 / 00:00.
 
 - Elettricità di rete ore di punta inverno: definire la tariffa normale con azione se
 
-    - Esempio: intervallo ogni giorno: Lu-Do dalle 7h00 alle 22h00 e intervallo ogni anno dal 1 / 10 / 00:00 al 1 / 4 / 00:00.
+    - Esempio: intervallo ogni giorno: Lu-Do dalle 7h00 alle 22h00 e intervallo ogni anno da 1 / 10 / 00:00 a 1 / 4 / 00:00.
 
 - Elettricità di rete ore fuori punta inverno: definire la tariffa normale con azione se
 
-    - Esempio: intervallo ogni giorno: Lu-Do dalle 22h00 alle 07h00 e intervallo ogni anno dal 1 / 10 / 00:00 al 1 / 4 / 00:00.
+    - Esempio: intervallo ogni giorno: Lu-Do dalle 22h00 alle 07h00 e intervallo ogni anno da 1 / 10 / 00:00 a 1 / 4 / 00:00.
 
 
-Logica: Dapprima viene utilizzata l'elettricità solare disponibile. Se ce n'è troppo poca o non ce n'è, viene utilizzata la tariffa normale con la condizione valida. In questo caso d'uso è importante che le 24h/giorno siano coperte da una condizione se.
+Logica: per prima cosa viene utilizzata l'elettricità solare disponibile. Se ce n'è troppo poca o non ce n'è, viene utilizzata la tariffa normale con la condizione valida. In questo caso d'uso è importante che le 24 ore del giorno siano coperte da una condizione se.
 
-Struttura: estate e inverno con ore di punta e ore fuori punta per l'elettricità di rete e tariffa unica per l'elettricità solare, e ore fuori punta a mezzogiorno solo in inverno (ad es. EWS/EBS)
+Struttura: estate e inverno con ore di punta e ore fuori punta per l'elettricità di rete e tariffa unica per l'elettricità solare e ore fuori punta a mezzogiorno solo in inverno (ad es. EWS/EBS)
 
 Esempio
 
@@ -245,54 +243,54 @@ Esempio
 
     - Esempio: inverno NT dalle 22h00 alle 07h00 tra l'1.10 e l'1.4.
 
-    - Azione se/allora con collegamento E
+    - Azione se/allora con collegamento E (UND)
 
         - Intervallo ogni giorno: Lu-Do dalle 22h00 alle 07h00 
 
-        - Intervallo ogni anno dal 1 / 10 / 00:00 al 1 / 04 / 00:00.
+        - Intervallo ogni anno da 1 / 10 / 00:00 a 1 / 04 / 00:00.
 
 - Elettricità di rete e solare ore di punta inverno 
 
     - Esempio: inverno HT dalle 07h00 alle 22h00 tra l'1.10 e l'1.4.
 
-    - Azione se/allora con collegamento E
+    - Azione se/allora con collegamento E (UND)
 
         - Intervallo ogni giorno: Lu-Do dalle 7h00 alle 22h00 
 
-        - Intervallo ogni anno dal 1 / 10 / 00:00 al 1 / 04 / 00:00.
+        - Intervallo ogni anno da 1 / 10 / 00:00 a 1 / 04 / 00:00.
 
 - Elettricità di rete e solare ore fuori punta estate
 
     - Esempio: estate NT dalle 00h00 alle 06h00 e dalle 12h00 alle 15h00 tra l'1.4 e l'1.10
 
-    - Azione se/allora con collegamento E
+    - Azione se/allora con collegamento E (UND)
 
         - Intervallo ogni giorno: Lu-Do dalle 12h00 alle 06h00 
 
         - Intervallo ogni giorno: Lu-Do dalle 00h00 alle 15h00 
 
-        - Intervallo ogni anno dal 1 / 4 / 00:00 al 1 / 10 / 00:00.
+        - Intervallo ogni anno da 1 / 4 / 00:00 a 1 / 10 / 00:00.
 
 - Elettricità di rete e solare ore di punta estate 
 
     - Esempio: estate HT dalle 06h00 alle 12h00 e dalle 15h00 alle 00h00 tra l'1.4 e l'1.10
 
-    - Azione se/allora con collegamento E
+    - Azione se/allora con collegamento E (UND)
 
         - Intervallo ogni giorno: Lu-Do dalle 06h00 alle 00h00 
 
         - Intervallo ogni giorno: Lu-Do dalle 15h00 alle 12h00 
 
-        - Intervallo ogni anno dal 1 / 4 / 00:00 al 1 / 10 / 00:00.
+        - Intervallo ogni anno da 1 / 4 / 00:00 a 1 / 10 / 00:00.
 
 
-Logica: Dapprima viene utilizzata l'elettricità solare disponibile. Se ce n'è troppo poca o non ce n'è, viene utilizzata la tariffa normale con la condizione valida. In questo caso d'uso è importante che le 24h/giorno siano coperte da una condizione se.
+Logica: per prima cosa viene utilizzata l'elettricità solare disponibile. Se ce n'è troppo poca o non ce n'è, viene utilizzata la tariffa normale con la condizione valida. In questo caso d'uso è importante che le 24 ore del giorno siano coperte da una condizione se.
 
-Struttura: estate e inverno con ore di punta e ore fuori punta per l'elettricità di rete e solare, di giorno ore fuori punta in estate e ore di punta in inverno (ad es. Energie Uri dall'1.10.2025)
+Struttura: estate e inverno con ore di punta e ore fuori punta per l'elettricità di rete e solare, durante il giorno ore fuori punta in estate e ore di punta in inverno (ad es. Energie Uri dall'1.10.2025)
 
-Descrizione: Qui occorre procedere in due fasi. 1x con l'azione se/allora e 1x con gli orari nelle tariffe virtuali
+Descrizione: qui occorre procedere in due fasi. 1x con se/allora e 1x con gli orari nelle tariffe virtuali
 
-Dapprima devono essere definite le azioni se.
+Per prima cosa occorre definire le azioni se.
 
 - Elettricità di rete e solare estate NT
 
@@ -300,7 +298,7 @@ Dapprima devono essere definite le azioni se.
 
     - Nome: Uri Sommer NT
 
-    - Azione se/allora con collegamento O
+    - Azione se/allora con collegamento O (ODER)
 
         - Intervallo Lu-Ve: dalle 6h00 alle 22h00 
 
@@ -328,7 +326,7 @@ Dapprima devono essere definite le azioni se.
 
     - Nome: Uri Winter NT
 
-    - Azione se/allora con collegamento O
+    - Azione se/allora con collegamento O (ODER)
 
         - Intervallo Lu-Ve: dalle 22h00 alle 06h00 
 
@@ -343,78 +341,78 @@ Dapprima devono essere definite le azioni se.
 
     - Nome: Uri Winter HT
 
-    - Azione se/allora con collegamento O
+    - Azione se/allora con collegamento O (ODER)
 
         - Intervallo Lu-Ve: dalle 06h00 alle 22h00 
 
 
-Poi devono essere definiti i prezzi per ogni periodo.
+Successivamente occorre definire i prezzi per ogni periodo.
 
-In questo caso devono essere impostati i periodi o la durata. Con questo modello tariffario è necessaria una combinazione di azione se/allora e periodo.
+In questo caso occorre registrare i periodi ovvero la durata. Con questo modello tariffario è necessaria una combinazione di se/allora e periodo.
 
 - Nome: Uri Sommer HT Netz
 
-    - Tipo: tariffa di rete (Netztarif)
+    - Tipo (Type): tariffa di rete (Netztarif)
 
-    - Durata: dall'1.4.2026 al 30.9.2026
+    - Durata (Dauer): dall'1.4.2026 al 30.9.2026
 
     - Condizione aggiuntiva (Zusätzliche Bedingung): Uri Sommer HT
 
 - Nome: Uri Sommer HT Solar
 
 
-- Tipo: tariffa solare incl. vRCP (Solartarif inkl. vZEV) 
+- Tipo (Type): tariffa solare incl. vRCP (Solartarif inkl. vZEV) 
 
-- Durata: dall'1.4.2026 al 30.9.2026
+- Durata (Dauer): dall'1.4.2026 al 30.9.2026
 
 - Condizione aggiuntiva (Zusätzliche Bedingung): Uri Sommer HT
 
 
 - Nome: Uri Sommer NT Netz
 
-    - Tipo: tariffa di rete (Netztarif)
+    - Tipo (Type): tariffa di rete (Netztarif)
 
-    - Durata: dall'1.4.2026 al 30.9.2026
+    - Durata (Dauer): dall'1.4.2026 al 30.9.2026
 
     - Condizione aggiuntiva (Zusätzliche Bedingung): Uri Sommer NT
 
 - Nome: Uri Sommer NT Solar
 
-    - Tipo: tariffa solare incl. vRCP (bilancio/produzioni) (Solartarif inkl. vZEV (Bilanz/Produktionen))
+    - Tipo (Type): tariffa solare incl. vRCP (bilancio/produzioni) (Solartarif inkl. vZEV (Bilanz/Produktionen))
 
-    - Durata: dall'1.4.2026 al 30.9.2026
+    - Durata (Dauer): dall'1.4.2026 al 30.9.2026
 
     - Condizione aggiuntiva (Zusätzliche Bedingung): Uri Sommer NT
 
 - Nome: Uri Winter HT Netz
 
-    - Tipo: tariffa di rete (Netztarif)
+    - Tipo (Type): tariffa di rete (Netztarif)
 
-    - Durata: dall'1.10.2025 al 31.3.2026
+    - Durata (Dauer): dall'1.10.2025 al 31.3.2026
 
     - Condizione aggiuntiva (Zusätzliche Bedingung): Uri Winter HT 
 
 - Nome: Uri Winter HT Solar
 
-    - Tipo: tariffa solare incl. vRCP (bilancio/produzioni) (Solartarif inkl. vZEV (Bilanz/Produktionen))
+    - Tipo (Type): tariffa solare incl. vRCP (bilancio/produzioni) (Solartarif inkl. vZEV (Bilanz/Produktionen))
 
-    - Durata: dall'1.10.2025 al 31.3.2026
+    - Durata (Dauer): dall'1.10.2025 al 31.3.2026
 
     - Condizione aggiuntiva (Zusätzliche Bedingung): Uri Winter HT
 
 - Nome: Uri Winter NT Netz
 
-    - Tipo: tariffa di rete (Netztarif)
+    - Tipo (Type): tariffa di rete (Netztarif)
 
-    - Durata: dall'1.10.2025 al 31.3.2026
+    - Durata (Dauer): dall'1.10.2025 al 31.3.2026
 
     - Condizione aggiuntiva (Zusätzliche Bedingung): Uri Winter NT
 
 - Nome: Uri Winter NT Solar
 
-    - Tipo: tariffa solare incl. vRCP (bilancio/produzioni) (Solartarif inkl. vZEV (Bilanz/Produktionen))
+    - Tipo (Type): tariffa solare incl. vRCP (bilancio/produzioni) (Solartarif inkl. vZEV (Bilanz/Produktionen))
 
-    - Durata: dall'1.10.2025 al 31.3.2026
+    - Durata (Dauer): dall'1.10.2025 al 31.3.2026
 
     - Condizione aggiuntiva (Zusätzliche Bedingung): Uri Winter NT 
 

@@ -78,6 +78,3 @@ Wenn du mehr als eine E-Mail erhalten möchtest, musst du zwei Alarme einrichten
 
 Nun ist die gesamte Infrastruktur bereit um die Abrechnung darauf aufzubauen.
 
-### Nächster Schritt
-
-[Weiter mit der Abrechnungskonfiguration](/konfiguration/billing)

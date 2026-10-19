@@ -232,7 +232,7 @@ Es werden die aktuellen Leistungen einer Wohnung (Strom, Wärme und Wasser) ange
 
 Bei den historischen Verbrauchswerten wird zudem ein Vergleich zu einer Referenzwohnung angezeigt (z. B. "10% weniger Strom verbraucht als der Durchschnitt").
 
-## Nächster Schritt (optional)
+## Weiterführende Möglichkeiten (optional)
 
 Abschliessen kannst du nun noch Schnittstellen aktivieren oder Steuerungen Umsetzen.
 

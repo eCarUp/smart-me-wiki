@@ -169,7 +169,7 @@ Die grundlegende Struktur für jede Energieform und jedes Gebäude besteht aus z
 
 ![Zähler- und Ordnerkonfiguration – Abbildung 7](/img/konfiguration-ordnerkonfiguration/07.png)
 
-### Nächster Schritt: Erstelle deine Struktur für dein Projekt
+### Erstelle deine Struktur für dein Projekt
 
 Wähle nun anhand deines Projektes welcher Anleitung du folgen möchtest.
 

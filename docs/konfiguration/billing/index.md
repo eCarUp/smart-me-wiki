@@ -218,6 +218,8 @@ Achten Sie darauf dass alle Mieterverhältnisse und Leerständer verzeichnet sin
 
 - Virtuelle Stromtarife Hinzufügen. (z.B. Hochtarif, Niedertarif, Solartarif)
 
+Im Detail: [Stromtarife definieren](/konfiguration/billing/stromtarife-definieren)
+
 
 ### 6\. Wärme / Wasser konfigurieren
 
@@ -232,12 +234,9 @@ Abrechnung mit VEWA Funktion (Empfohlen)
 
 - Auflaufende Kosten übers Jahr von Wärme / Wasser können erfasst werden.  Der Tarif wird danach über die Periode berechnet und mit Verteilschlüsseln auf die Abrechnungseinheiten verteilt. 
 
+Im Detail: [VEWA - Abrechnung konfigurieren](/konfiguration/billing/vewa-abrechnung)
 
-### Nächste Zwischenschritte
 
-[Stromtarife konfigurieren](/konfiguration/billing/stromtarife-definieren)
-
-[VEWA konfigurieren](/konfiguration/billing/vewa-abrechnung)
 
 ### 7\. Sonstige Kosten für Strom konfigurieren (Falls nötig)
 
@@ -280,9 +279,6 @@ Bist du zufrieden mit der Vorschau, so kannst du zurückkehren und die echten Re
 
 Auf dieser Seite findest du eine Beschreibung der häufigsten Fehlermeldungen und mögliche Lösungen: [Billing Fehlermeldungen](/stoerungsbehebung/billing-fehlermeldungen) 
 
-### Nächster Schritt
-
-[Weiter zur Erstellung von Mieterzugängen](/konfiguration/benutzerkonfiguration)
 
 ## Hilfreiche Hinweise zu den Tarifdaten
 
@@ -322,4 +318,3 @@ Die Genauigkeit kann verbessert werden, indem der Bilanzzähler für den Solarta
 
 ![Billing: Energie abrechnen – Abbildung 13](/img/konfiguration-billing/13.png)
 
-[Weiter zur erstellung von Mieterzugängen](/konfiguration/benutzerkonfiguration)

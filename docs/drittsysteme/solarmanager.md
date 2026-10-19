@@ -4,7 +4,7 @@ slug: '/drittsysteme/solarmanager'
 description: 'smart-me Geräte können im Solar Manager direkt über die Cloud eingebunden werden.'
 sidebar_label: 'Solar Manager'
 ---
-smart-me Geräte können im Solar Manager direkt über die Cloud eingebunden werden. Auch [virtuelle Zähler](/konfiguration/billing/virtuelle-zaehler) können übernommen werden. 
+smart-me Geräte können im Solar Manager direkt über die Cloud eingebunden werden. Auch [virtuelle Zähler](/konfiguration/virtuelle-zaehler) können übernommen werden. 
 
 ## Kleines Update zum Solarmanager ab August 2026
 

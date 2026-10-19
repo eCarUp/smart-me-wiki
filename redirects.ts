@@ -26,7 +26,11 @@ export const redirects: Redirect[] = [
   {from: '/configuration/billing/define-electrical-tariffs', to: '/konfiguration/billing/stromtarife-definieren'},
   {from: '/configuration/billing/mieterstrom', to: '/konfiguration/billing/mieterstrom'},
   {from: '/configuration/billing/vewa-billing', to: '/konfiguration/billing/vewa-abrechnung'},
-  {from: '/configuration/billing/virtual-meters', to: '/konfiguration/billing/virtuelle-zaehler'},
+  // Virtuelle Zähler lagen bis Oktober 2026 unter der Rechnungsstellung.
+  {
+    from: ['/configuration/billing/virtual-meters', '/konfiguration/billing/virtuelle-zaehler'],
+    to: '/konfiguration/virtuelle-zaehler',
+  },
   {from: '/configuration/commissioning', to: '/konfiguration/inbetriebnahme'},
   {from: '/configuration/commissioning/commissioning-lora', to: '/konfiguration/inbetriebnahme/inbetriebnahme-lora'},
   {from: '/configuration/commissioning/delete-meter', to: '/konfiguration/inbetriebnahme/zaehler-loeschen'},

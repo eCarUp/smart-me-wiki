@@ -3,6 +3,7 @@ title: 'Folder and Meter Configuration'
 slug: '/konfiguration/ordnerkonfiguration'
 description: 'Video tutorial: creating folders and assigning meters'
 sidebar_label: 'Folder configuration'
+naechste_schritte: [konfiguration/ordnerkonfiguration/nur-strom, konfiguration/ordnerkonfiguration/strom-und-eine-heizung, konfiguration/ordnerkonfiguration/strom-und-mehrere-heizungen]
 ---
 <Embed src="https://player.vimeo.com/video/661999827" aspect="1.291" title="Folder configuration" />
 
@@ -33,7 +34,7 @@ Video tutorial: creating folders and assigning meters
 
 Add node (Knoten Hinzufügen):
 
-Adds a node with a name and an icon of your choice.
+Adds a node with a name and a freely selectable icon.
 
 The name determines the order in which the node is displayed in the tree. 
 
@@ -44,23 +45,23 @@ The name determines the order in which the node is displayed in the tree.
 
 Edit folder node (Ordner Knoten Editieren) 
 
-Allows changes to the node name, icon and parent node.
+Allows changes to the node name, icon and parent folder.
 
 
 
 Edit meter node (Zähler Knoten editieren)
 
-Name (Name):  Define the name of the meter.
+Name (Name):  Set the name of the meter.
 Description (Beschreibung):
 Optionally add a description for the meter.
 Value correction (Wert Korrektur): 
-Corrects the meter's measured value on the cloud side. (Position calculations)
+Corrects the meter's measured value in the cloud. (Position calculations)
 Parent folder value correction (Überordner Wert Korrektur):
-Defines, as a percentage, how much of the measured value is to be summed in the parent folder.
+Defines as a percentage how much of the measured value is to be summed in the parent folder.
 Meter active (Zähler aktiv):
-Activate or deactivate a meter to save licences. Deactivated meters no longer show any data. You can find more information on deactivated meters in our FAQ under [How do I deactivate my meter?](/faq#wie-deaktiviere-ich-meinen-zähler)
+Activate or deactivate a meter to save licenses. Deactivated meters no longer show any data. You can find more information on deactivated meters in our FAQ under [How do I deactivate my meter?](/faq#wie-deaktiviere-ich-meinen-zähler)
 
-To activate or deactivate several meters at once, you can move them into a folder in the Meter / Folder Configuration (Zähler- / Ordnerkonfiguration), right-click that folder and select a bulk action. 
+To activate or deactivate several meters at once, you can move them into a folder in the Folder and Meter Configuration (Zähler- / Ordnerkonfiguration), right-click that folder and choose a bulk action. 
 
 ![Deactivate meters](/img/konfiguration-ordnerkonfiguration/03.jpg)
 
@@ -68,7 +69,7 @@ Delete node (Knoten Löschen)
 
 Deletes the selected node or meter point from the tree. 
 
-Meters then fall back to the left-hand side as unassigned meters.
+Meters then return to the left-hand side as unassigned meters.
 
 ![Folder and Meter Configuration – Figure 4](/img/konfiguration-ordnerkonfiguration/04.png)
 
@@ -81,9 +82,9 @@ Meters then fall back to the left-hand side as unassigned meters.
 
 - All meters must be labelled. Our suggestions for meter names 
 
-    - Usage unit meter number (e.g. APT 1 6352415)
+    - Usage unit meter number (e.g. WHG 1 6352415)
 
-    - Medium usage unit meter number (e.g. Heat APT 1)
+    - Medium usage unit meter number (e.g. Wärme WHG 1)
 
 </div>
 <div className="col col--4 text--center">
@@ -98,7 +99,7 @@ Meters then fall back to the left-hand side as unassigned meters.
 <div className="row">
 <div className="col col--7">
 
-Some M-Bus meter manufacturers report during data transmission that the device is a cold water meter, even though it should be a domestic hot water meter. In this case, the meter type must be overridden in smart-me.
+Some M-Bus meter manufacturers report during data transmission that the meter is a cold water meter, even though it should be a domestic hot water meter. In this case, the meter type must be overridden in smart-me.
 
 - Navigate to the dashboard
 
@@ -124,13 +125,13 @@ Note: For technical reasons, this change is not possible with heat and cooling m
 </div>
 </div>
 
-### Folder structures and their impact on subsequent processes
+### Folder structures and their effect on downstream processes
 
-The current system allows billing for electricity to be created automatically. For this to work, heat and water must remain separate from electricity. Mixed systems are nevertheless possible to save effort with the tenant lists, but unfortunately the automated creation of invoices is lost.
+The current system allows billing for electricity to be created automatically. For this to work, heat and water must be kept separate from electricity. Mixed systems are nevertheless possible to reduce the effort for tenant lists, but unfortunately the automated creation of invoices is then lost.
 
 In systems with several heating systems, however, splitting into several properties is unavoidable.
 
-Each individually created property is basically able to represent 1x electricity and 1x heat/water.
+Each individually created property can in principle represent 1x electricity and 1x heat/water.
 
 <Embed src="/embeds/konfiguration-ordnerkonfiguration-02.html" aspect="2.308" title="Folder configuration" />
 
@@ -168,7 +169,7 @@ The basic structure for each form of energy and each building consists of two ba
 
 ![Folder and Meter Configuration – Figure 7](/img/konfiguration-ordnerkonfiguration/07.png)
 
-### Next step: create the structure for your project
+### Create the structure for your project
 
 Now choose, based on your project, which guide you want to follow.
 
@@ -186,11 +187,11 @@ smart-me offers the option of automating the creation of folders, assignments an
 
 CSV files contain tabular data stored in text form. They can be edited with a text editor (e.g. notepad++).
 
-Caution: existing folders are deleted when this function is used. This means that all functions that were used with these folders no longer work (e.g. if/then actions, smart-me billing configurations, etc.). 
+Caution: existing folders are deleted when this function is used. This means that all functions used with these folders will no longer work (e.g. if/then actions, smart-me billing configurations, etc.). 
 
 
 
-<Video src="YQVcTxPgdzM" title="YouTube video, creating folders using a csv file" />
+<Video src="YQVcTxPgdzM" title="YouTube video, creating folders using a CSV file" />
 
 ![Folder and Meter Configuration – Figure 8](/img/konfiguration-ordnerkonfiguration/08.png)
 
@@ -226,9 +227,9 @@ MeterSerialNumber;MeterName;FolderPath;MeterPointId;ExportFormat;UploadType;Expo
 
 ### Editing CSV files in Excel
 
-Excel also supports editing CSV files. There are two points to note:
+Excel also supports editing CSV files. There are two points to bear in mind:
 
-1.  You must prevent Excel from rounding the meter serial number or displaying it in exponential form (e.g. by having Excel treat numbers as text.)
+1.  You must prevent Excel from rounding the meter serial number or displaying it in exponential notation (e.g. by having Excel treat numbers as text.)
 
 2.  The CSV file must use the UTF-8 character set. Excel does not display umlauts correctly. In a text editor (e.g. notepad++), however, these characters are displayed correctly.
 

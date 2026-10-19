@@ -366,15 +366,15 @@
     },
     "docs/drittsysteme/solarmanager.md": {
       "en": {
-        "hash": "8adb63a5fa4608dd",
+        "hash": "2a3a317db2e62f77",
         "origin": "translated"
       },
       "fr": {
-        "hash": "8adb63a5fa4608dd",
+        "hash": "2a3a317db2e62f77",
         "origin": "translated"
       },
       "it": {
-        "hash": "8adb63a5fa4608dd",
+        "hash": "2a3a317db2e62f77",
         "origin": "translated"
       }
     },
@@ -590,29 +590,29 @@
     },
     "docs/konfiguration/benutzerkonfiguration.md": {
       "en": {
-        "hash": "56eb0846c9fa2f9d",
+        "hash": "f924a9536e99a579",
         "origin": "translated"
       },
       "fr": {
-        "hash": "56eb0846c9fa2f9d",
+        "hash": "f924a9536e99a579",
         "origin": "translated"
       },
       "it": {
-        "hash": "56eb0846c9fa2f9d",
+        "hash": "f924a9536e99a579",
         "origin": "translated"
       }
     },
     "docs/konfiguration/billing/index.md": {
       "en": {
-        "hash": "721b9337dd83a0c2",
+        "hash": "e8a4be754421619f",
         "origin": "translated"
       },
       "fr": {
-        "hash": "721b9337dd83a0c2",
+        "hash": "e8a4be754421619f",
         "origin": "translated"
       },
       "it": {
-        "hash": "721b9337dd83a0c2",
+        "hash": "e8a4be754421619f",
         "origin": "translated"
       }
     },
@@ -674,15 +674,15 @@
     },
     "docs/konfiguration/billing/stromtarife-definieren/index.md": {
       "en": {
-        "hash": "d7431b3e808427a8",
+        "hash": "0d4c2d154fb97c63",
         "origin": "translated"
       },
       "fr": {
-        "hash": "d7431b3e808427a8",
+        "hash": "0d4c2d154fb97c63",
         "origin": "translated"
       },
       "it": {
-        "hash": "2a9f287190810900",
+        "hash": "0d4c2d154fb97c63",
         "origin": "translated"
       }
     },
@@ -702,15 +702,15 @@
     },
     "docs/konfiguration/billing/vewa-abrechnung.md": {
       "en": {
-        "hash": "7716ef0f19c2fc52",
+        "hash": "a42f251986144300",
         "origin": "translated"
       },
       "fr": {
-        "hash": "7716ef0f19c2fc52",
+        "hash": "a42f251986144300",
         "origin": "translated"
       },
       "it": {
-        "hash": "7716ef0f19c2fc52",
+        "hash": "a42f251986144300",
         "origin": "translated"
       }
     },
@@ -828,15 +828,15 @@
     },
     "docs/konfiguration/inbetriebnahme/index.md": {
       "en": {
-        "hash": "d218815887afd7a4",
+        "hash": "10285c86b2dad362",
         "origin": "translated"
       },
       "fr": {
-        "hash": "d218815887afd7a4",
+        "hash": "10285c86b2dad362",
         "origin": "translated"
       },
       "it": {
-        "hash": "d218815887afd7a4",
+        "hash": "10285c86b2dad362",
         "origin": "translated"
       }
     },
@@ -926,57 +926,57 @@
     },
     "docs/konfiguration/ordnerkonfiguration/index.md": {
       "en": {
-        "hash": "4a81625b2502e2a8",
+        "hash": "3606925a9e88f8f1",
         "origin": "translated"
       },
       "fr": {
-        "hash": "4a81625b2502e2a8",
+        "hash": "3606925a9e88f8f1",
         "origin": "translated"
       },
       "it": {
-        "hash": "4a81625b2502e2a8",
+        "hash": "3606925a9e88f8f1",
         "origin": "translated"
       }
     },
     "docs/konfiguration/ordnerkonfiguration/nur-strom.md": {
       "en": {
-        "hash": "618551d3a1e750ab",
+        "hash": "9df2b21f0507c200",
         "origin": "translated"
       },
       "fr": {
-        "hash": "618551d3a1e750ab",
+        "hash": "9df2b21f0507c200",
         "origin": "translated"
       },
       "it": {
-        "hash": "618551d3a1e750ab",
+        "hash": "9df2b21f0507c200",
         "origin": "translated"
       }
     },
     "docs/konfiguration/ordnerkonfiguration/strom-und-eine-heizung.md": {
       "en": {
-        "hash": "8175f7b86a57ae32",
+        "hash": "40716075122b1ebd",
         "origin": "translated"
       },
       "fr": {
-        "hash": "8175f7b86a57ae32",
+        "hash": "40716075122b1ebd",
         "origin": "translated"
       },
       "it": {
-        "hash": "8175f7b86a57ae32",
+        "hash": "40716075122b1ebd",
         "origin": "translated"
       }
     },
     "docs/konfiguration/ordnerkonfiguration/strom-und-mehrere-heizungen.md": {
       "en": {
-        "hash": "37cac5f27470da90",
+        "hash": "bb30e585c7904abe",
         "origin": "translated"
       },
       "fr": {
-        "hash": "37cac5f27470da90",
+        "hash": "bb30e585c7904abe",
         "origin": "translated"
       },
       "it": {
-        "hash": "37cac5f27470da90",
+        "hash": "bb30e585c7904abe",
         "origin": "translated"
       }
     },
@@ -994,31 +994,45 @@
         "origin": "translated"
       }
     },
-    "docs/konfiguration/visualisierung.md": {
+    "docs/konfiguration/virtuelle-zaehler.md": {
       "en": {
-        "hash": "95f10d2aa0c033e7",
+        "hash": "02b8cdb65242b041",
         "origin": "translated"
       },
       "fr": {
-        "hash": "95f10d2aa0c033e7",
+        "hash": "02b8cdb65242b041",
         "origin": "translated"
       },
       "it": {
-        "hash": "95f10d2aa0c033e7",
+        "hash": "02b8cdb65242b041",
+        "origin": "translated"
+      }
+    },
+    "docs/konfiguration/visualisierung.md": {
+      "en": {
+        "hash": "d6065cb767ae2bd2",
+        "origin": "translated"
+      },
+      "fr": {
+        "hash": "d6065cb767ae2bd2",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "d6065cb767ae2bd2",
         "origin": "translated"
       }
     },
     "docs/konfiguration/wenndann-aktionen/alarme.md": {
       "en": {
-        "hash": "1de27adf465fb6ea",
+        "hash": "47fabd34a252fca7",
         "origin": "translated"
       },
       "fr": {
-        "hash": "1de27adf465fb6ea",
+        "hash": "47fabd34a252fca7",
         "origin": "translated"
       },
       "it": {
-        "hash": "1de27adf465fb6ea",
+        "hash": "47fabd34a252fca7",
         "origin": "translated"
       }
     },
@@ -1066,15 +1080,15 @@
     },
     "docs/konfiguration/wenndann-aktionen/tarifzeiten-definieren.md": {
       "en": {
-        "hash": "a9375472ca91356e",
+        "hash": "4fc282dd454c67cb",
         "origin": "translated"
       },
       "fr": {
-        "hash": "a9375472ca91356e",
+        "hash": "4fc282dd454c67cb",
         "origin": "translated"
       },
       "it": {
-        "hash": "a9375472ca91356e",
+        "hash": "4fc282dd454c67cb",
         "origin": "translated"
       }
     },
@@ -1248,15 +1262,15 @@
     },
     "docs/planung/cloud-lizenzen.md": {
       "en": {
-        "hash": "802455e7a385b448",
+        "hash": "e79e742fa1909e0a",
         "origin": "translated"
       },
       "fr": {
-        "hash": "802455e7a385b448",
+        "hash": "e79e742fa1909e0a",
         "origin": "translated"
       },
       "it": {
-        "hash": "802455e7a385b448",
+        "hash": "e79e742fa1909e0a",
         "origin": "translated"
       }
     },

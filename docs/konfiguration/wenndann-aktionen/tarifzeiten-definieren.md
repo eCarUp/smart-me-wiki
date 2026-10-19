@@ -176,8 +176,6 @@ Jetzt wo du die relevanten Tarifzeiten definiert hast, kehre zurück zu der Tari
 </div>
 </div>
 
-### Nächster Schritt: Tarife mit Tarifzeiten definieren
-
 ## Andere Beispiele
 
 Aufbau: Hoch- und Niedertarif für Netzstrom und Einheitstarif bei Solarstrom

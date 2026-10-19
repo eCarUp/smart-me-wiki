@@ -68,8 +68,6 @@ Wenn auf dem Knoten, eine Visualisierung verwendet wird, welche auf Zählerdaten
 </div>
 </div>
 
-### Nächster Schritt
-
 Erstelle nun die Visualisierungen für die Mieter oder für den Liegenschaftsbesitzer.
 
 ### Ansicht für Mieter
@@ -84,4 +82,3 @@ Die Visualisierung heisst: "Einfache virtuelle Tarife Wohnung"
 
 ![Benutzer erstellen – Abbildung 4](/img/konfiguration-benutzerkonfiguration/04.png)
 
-[Weiter zu Visualisierungen](/konfiguration/visualisierung)

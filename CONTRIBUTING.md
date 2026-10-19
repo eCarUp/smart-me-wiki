@@ -1023,9 +1023,27 @@ Visualisierung — landet man wieder dort, um die Rechnung zu erstellen.
 Auf einer Produktseite, einer Übersicht oder einer Nachschlageseite gehört er
 nicht hin. „Nichts" ist hier die richtige Antwort und der Normalfall.
 
-Steht im Text der Seite schon ein Abschnitt „Nächster Schritt" mit demselben
-Link, kannst du ihn stehen lassen — er erklärt mit einem Satz, *warum* es
-dorthin geht, der Wegweiser unten ist der schnelle Weg.
+### Und die Verweise im Text?
+
+Ein Abschnitt „Nächster Schritt" am Ende einer Seite sagt jetzt dasselbe wie
+der Wegweiser darunter. Solche Dubletten sind aus der Kette entfernt — steht
+der Verweis ohnehin unten, braucht er im Text keine zweite Stelle.
+
+Mitten im Text ist das anders. Wer bei Schritt 5 der Abrechnungskonfiguration
+liest, dass er Stromtarife anlegen soll, will dort hinspringen können und
+nicht erst ans Seitenende scrollen. Solche Verweise bleiben, und sie stehen
+direkt bei dem Schritt, zu dem sie gehören:
+
+```markdown
+### 5\. Stromtarife konfigurieren
+
+- Virtuelle Stromtarife Hinzufügen. (z.B. Hochtarif, Niedertarif, Solartarif)
+
+Im Detail: [Stromtarife definieren](/konfiguration/billing/stromtarife-definieren)
+```
+
+Die Faustregel: **im Text, wo er beim Lesen hilft — unten, wo es weitergeht.**
+Beides am selben Ort ist einmal zu viel.
 
 ---
 

@@ -3,15 +3,16 @@ title: 'Creating users'
 slug: '/konfiguration/benutzerkonfiguration'
 description: 'You need a smart-me Professional subscription to use this function.'
 sidebar_label: 'User configuration'
+naechste_schritte: [konfiguration/visualisierung]
 ---
-### Prerequisite
+### Requirement
 
 <div className="row">
 <div className="col col--6">
 
 You need a smart-me Professional subscription to use this function.
 
-In smart-me, you can create new users and give them the appropriate permissions for meters or folders. These users only have read access.
+In smart-me, you can create new users and grant them the appropriate permissions for meters or folders. These users only have read access.
 
 This allows you to give tenants access to their data for as long as they live in the property.
 
@@ -28,9 +29,9 @@ This allows you to give tenants access to their data for as long as they live in
 
 To create new users, proceed as follows:
 
-Please note that you first need to [create folders](/konfiguration/ordnerkonfiguration)
+Please note that you must first [create folders](/konfiguration/ordnerkonfiguration)
 
-1.  Log in to the smart-me [website](https://web.smart-me.com/login/).
+1.  Log in on the smart-me [website](https://web.smart-me.com/login/).
 
 2.  Click Configuration (Konfiguration) at the top right
 
@@ -55,7 +56,7 @@ Please note that you first need to [create folders](/konfiguration/ordnerkonfigu
 
 Users always have read-only access.
 
-You can share either only the specific node or the node including all its subnodes.
+You can share either only the explicit node or the node including all sub-nodes.
 
 If a visualization that accesses meter data is used on the node, the user must be authorized to see the meters.
 
@@ -67,20 +68,16 @@ If a visualization that accesses meter data is used on the node, the user must b
 </div>
 </div>
 
-### Next step
-
 Now create the visualizations for the tenants or for the property owner.
 
-### View for tenants
+### Tenant view
 
-A special view for tenants is available for the virtual tariffs. It shows the current energy consumption (electricity) and its source (solar or grid). In addition, the bar shows the past electricity sources.
+A special tenant view is available for the virtual tariffs. It shows the current energy consumption (electricity) and its source (solar or grid). The bar also shows the past electricity supply source.
 
 This view must also be configured for each apartment node.
 
-For configuration details, see: [Visualization and public links](/konfiguration/visualisierung) 
+See details on the configuration: [Visualization and public links](/konfiguration/visualisierung) 
 
 The visualization is called: "Simple virtual tariffs apartment" ("Einfache virtuelle Tarife Wohnung")
 
 ![Creating users – Figure 4](/img/konfiguration-benutzerkonfiguration/04.png)
-
-[Continue to visualizations](/konfiguration/visualisierung)

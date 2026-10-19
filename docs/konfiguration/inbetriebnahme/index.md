@@ -11,7 +11,6 @@ Alles rund um die Inbetriebnahme von smart-me Geräten: Was bei der Inbetriebnah
 
 [Zähler löschen / deaktivieren](/konfiguration/inbetriebnahme/zaehler-loeschen)
 
-[Weiter zur Ordner- und Zählerkonfiguration](/konfiguration/ordnerkonfiguration)
 
 ## Vorbereitung
 
@@ -518,9 +517,6 @@ In diesem Schritt hast du die Möglichkeit, mehrere Zähler gleichzeitig in Betr
 
 Sollte die Installation fehlschlagen und du es erneut versuchen möchtest, schliesse die App bitte vollständig und öffne sie danach wieder. Dadurch wird sichergestellt, dass keine zwischengespeicherten (Cache) Informationen verwendet werden.
 
-## Nächster Schritt
-
-[Weiter zur Ordner- und Zählerkonfiguration](/konfiguration/ordnerkonfiguration)
 
 ## FAQ
 

@@ -1,8 +1,9 @@
 ---
-title: 'Property with Electricity and Heat / Water'
+title: 'Property with electricity and heat / water'
 slug: '/konfiguration/ordnerkonfiguration/strom-und-eine-heizung'
 description: 'Configuration without automatic electricity billing'
-sidebar_label: 'Property with Electricity and Heat / Water'
+sidebar_label: 'Property with electricity and heat / water'
+naechste_schritte: [konfiguration/wenndann-aktionen/alarme]
 ---
 ## Configuration without automatic electricity billing
 
@@ -20,7 +21,7 @@ Disadvantage:
 
 ### 3b. Electricity with or without e-mobility and multi-energy with one building.
 
-Possible differences: For properties with electricity meters only and no multi-energy, the heat pump can be assigned directly to the apartments using an allocation key. With multi-energy, the heat pump is set up as a sub-meter (separate folder) so that a separate invoice is created, which must then be transferred to the VEWA configuration as a cost factor.
+Possible differences: For properties with electricity meters only and no multi-energy, the heat pump can be allocated directly to the apartments using an allocation key. With multi-energy, the heat pump is set up as a sub-meter (separate folder) so that a separate invoice is created, which then has to be transferred as a cost factor in the VEWA configuration.
 
 3b. Basic structure
 
@@ -30,19 +31,19 @@ Possible differences: For properties with electricity meters only and no multi-e
 
 Use drag and drop to add the relevant meters to the nodes.
 
-Important information on assignment:
+Important information on the assignment:
 
-Electricity / Heat / Water
+Electricity / heat / water
 
-Only assign metering points directly to billing units if the invoice recipient will later have to pay 100% of the consumption.
+Only assign metering points directly to the billing units if the invoice recipient will later have to pay 100% of the consumption.
 
-If you only want to assign part of a meter to an individual billing unit, move the meter into a node within the "Technical meters" ("Technische Zähler") node.
+If you only want to assign meters to part of an individual billing unit, move the meter into a node within the "Technical meters" ("Technischen Zähler") node.
 
-Such a meter can later be distributed by percentage in Billing.
+Later, such a meter can be distributed by percentage in Billing.
 
 Examples:
 
-- General meter
+- Common area meter
 
 - Heat meter of a floor that serves 4 billing units
 
@@ -53,7 +54,7 @@ Do not assign charging stations directly to apartments; instead, create a separa
 
 Charging stations from other manufacturers
 
-Charging stations from other manufacturers are not managed or billed directly in smart-me. In this case, create a node for the e-mobility feeder and assign the feeder meter to the node. This gives you the total consumption for all charging stations.
+Charging stations from other manufacturers are not managed or billed directly in smart-me. In this case, create a node for the e-mobility outgoing circuit and assign the outgoing circuit meter to the node. This gives you the total consumption for all charging stations.
 
 
 
@@ -63,11 +64,8 @@ Charging stations from other manufacturers are not managed or billed directly in
 
 ### Finally, create the alarms for a connection failure.
 
-This way you notice early when a meter fails and minimize the resulting gap in the measurement data. 
+This way, you notice early on when a meter fails and minimize the resulting gap in the measurement data. 
 
-### Next step
-
-[Continue to creating the alarms](/konfiguration/wenndann-aktionen/alarme)
 
 ## Configuration with automatic electricity billing
 
@@ -75,7 +73,7 @@ Advantage:
 
 - Automatic billing for electricity
 
-- No duplicate entry of electricity tariffs
+- No need to enter electricity tariffs twice
 
 
 Disadvantage:
@@ -87,14 +85,10 @@ Disadvantage:
 
 Disclaimer:
 
-For this configuration, an additional property must be created for electricity only, which contains all apartments of the three buildings.
+For this configuration, an additional property for electricity only must be created, which contains all apartments of the three buildings.
 
 Only the electricity meters are assigned in this property.
 
 ### Finally, create the alarms for a connection failure.
 
-This way you notice early when a meter fails and minimize the resulting gap in the measurement data. 
-
-### Next step
-
-[Continue to creating the alarms](/konfiguration/wenndann-aktionen/alarme)
+This way, you notice early on when a meter fails and minimize the resulting gap in the measurement data.

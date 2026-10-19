@@ -300,8 +300,6 @@ Nur ganze Zahlen möglich.
 
 ![VEWA - Abrechnung – Abbildung 11](/img/konfiguration-billing-vewa-abrechnung/11.png)
 
-### Nächster Schritt
-
 ## Rechnungsinhalt und Aufstellung
 
 ### Übersicht

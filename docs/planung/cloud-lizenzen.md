@@ -34,7 +34,6 @@ Standard für:
 - [Kamstrup Modul](/produkte/kamstrup-modul) (abgekündigt)
 - [Pico Ladestation](/produkte/pico-ladestation)
 
-
 **Umfang**
 
 - [Wenn/Dann-Aktionen](/konfiguration/wenndann-aktionen) (ohne Pico Regelung)
@@ -51,10 +50,10 @@ Standard für:
 
 Erweiterung möglich für alle Messpunkte in der smart-me Cloud.
 
-**Umfang: Limited + untenstehendes**
+**Umfang: alles aus Limited, dazu**
 
 - [Billing](/konfiguration/billing)
-- [Virtuelle Zähler](/konfiguration/billing/virtuelle-zaehler)
+- [Virtuelle Zähler](/konfiguration/virtuelle-zaehler)
 - [Auto Export](/schnittstellen/auto-export)
 - [Benutzerkonfiguration](/konfiguration/benutzerkonfiguration)
 - [Pico Dynamisches Lastmanagement](/produkte/pico-ladestation/pico-lastmanagement)
@@ -83,38 +82,39 @@ Gemischte Konten sind nicht möglich und verbleiben im Status Basic oder Limited
 
 Damit dein Account in den Status Professional gelangt, benötigst du mindestens für jeden Zähler (auch virtuelle) im Account eine Professional Lizenz.
 
-- Es ist nicht möglich, lizenzierte Zähler mit unlizenzierten in einem Account zu mischen.
+Es ist nicht möglich, lizenzierte Zähler mit unlizenzierten in einem Account zu mischen.
 
 Faustregel für ZEV und vZEV mit einheitlichem Solar und / oder Batterietarif:
 
-- Zähleranzahl = Lizenzanzahl
+ZEV mit 1x PV Anlage: Zähleranzahl = Lizenzanzahl
+ZEV mit \>1x PV-Anlage (Visualisierungen): Zähleranzahl + 1 (virtuell)
 
 Faustregel für ZEV Systeme mit separiertem Solar- und Batterietarif (nur AC- gekopelte Systeme):
 
-- ZEV mit 1x PV-Anlage: Zähleranzahl + 1 (virtuell)
+ZEV mit 1x PV-Anlage: Zähleranzahl + 1 (virtuell)
 
-- ZEV mit >1x PV-Anlage: Zähleranzahl + 2 (virtuell)
+ZEV mit >1x PV-Anlage: Zähleranzahl + 2 (virtuell)
 
-### Beispiel Strom mit smart-me Zählern (1x PV)
+### Beispiel Elektro mit smart-me Zählern (1x PV)
 
 3x Telstar 80A
 2x Telstar CT
 
 Total Professional alle Energietypen: 5 Stück
 
-### Beispiel Strom mit smart-me Zähler + Wärme / Wasser mit M-Bus Gateway
+### Beispiel Elektro mit smart-me Zähler + Wärme / Wasser mit M-Bus Gateway (1x PV)
 
-- 3x Telstar 80A
-- 2x Telstar CT
+3x Telstar 80A
+2x Telstar CT
 
 Lizenzen Professional alle Energietypen: 5 Stück
 
 1x M-Bus Gateway mit verbundenen Wärme / Wasser Zählern
 
-- 3x Wärme
-- 3x Kälte
-- 3x Warmwasserzähler
-- 3x Kaltwasser Zähler
+3x Wärme
+3x Kälte
+3x Warmwasserzähler
+3x Kaltwasser Zähler
 
 Lizenzen Professional für Wärme / Wasser / Gas: 12 Stück
 
@@ -142,8 +142,22 @@ Das Monatliche Abo ist Inflations- und Deflationseffekten unterworfen.
 Die Installation erfordert total 18 Professional Lizenzen.
 
 - 6x Professional Lizenz alle Energietypen, 10 Jahre (Elektro + virtuelle Zähler)
+
 - 12x Professional Lizenz Wärme / Wasser / Gas, 10 Jahre
 
 
 Die Mehrjahreslizenzen sind im Schnitt kostengünstiger und unterliegen keinen Inflations- oder Deflationseffekten während der Nutzungszeit.
 
+## Bist du ein "Professional" Kunde?
+
+Mit den untenstehenden Abbildungen findest du einfach heraus, ob du Professional Lizenzen in deinem Account benötigst. 
+
+### ZEV-Abrechnung
+
+Bei der ZEV-Abrechnung ist entscheidend, welches Tarifsystem abgebildet werden soll und ob die Abrechnung automatisiert geschehen soll.
+
+![Cloud Lizenzen – Abbildung 1](/img/planung-cloud-lizenzen/01.png)
+
+### ZEV-Steuerung
+
+![Cloud Lizenzen – Abbildung 2](/img/planung-cloud-lizenzen/02.png)

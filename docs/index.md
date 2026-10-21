@@ -4,6 +4,7 @@ slug: '/'
 description: 'Technische Daten, Bedienungsanleitungen und Installationshinweise zu smart-me Produkten und zur Software.'
 sidebar_label: 'smart-me Wiki DE'
 hide_title: true
+displayed_sidebar: wikiSidebar
 ---
 Greife auf eine umfassende Sammlung von technischen Daten, Bedienungsanleitungen und Installationshinweisen zu smart-me Produkten sowie den Software-Einstellungen.
 

@@ -7,9 +7,14 @@ import type {SidebarsConfig} from '@docusaurus/plugin-content-docs';
  */
 const sidebars: SidebarsConfig = {
   wikiSidebar: [
-    'index',
-    // Die beiden Einstiegsseiten. Die Startseite ('index') fragt nur nach dem
-    // Land und führt dann hierhin; wer „Alle Länder" gewählt hat, sieht beide.
+    // Die Startseite ('index') steht bewusst nicht in dieser Liste: Sie fragt
+    // nur nach dem Land und führt dann auf eine der beiden Einstiegsseiten –
+    // ein Eintrag dafür wäre ein Verweis auf eine Frage, die man gerade
+    // beantwortet hat. Erreichbar bleibt sie über das Logo oben links. Damit
+    // die Navigation auf ihr trotzdem steht, trägt `docs/index.md` ein
+    // `displayed_sidebar: wikiSidebar`.
+    //
+    // Die beiden Einstiegsseiten. Wer „Alle Länder" gewählt hat, sieht beide.
     {type: 'doc', id: 'schweiz', customProps: {laender: ['ch']}},
     {type: 'doc', id: 'deutschland', customProps: {laender: ['de']}},
     'support-ki-agent',

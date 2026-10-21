@@ -33,6 +33,7 @@ Editor arbeitet, findet den Weg dazu weiter unten unter
 
 - [Eine Neuigkeit veröffentlichen](#eine-neuigkeit-veröffentlichen)
 - [Eine Seite einem Land zuordnen](#eine-seite-einem-land-zuordnen)
+- [Von aussen direkt ins Wiki verlinken](#von-aussen-direkt-ins-wiki-verlinken)
 
 **Seiten verwalten**
 
@@ -812,16 +813,11 @@ in jedem Land gleich. Kennzeichne nur, was wirklich länderspezifisch ist.
 
 ### Von aussen mit gesetztem Land verlinken
 
-An jede Adresse lässt sich `?land=de` anhängen:
-
-```
-https://dok.smart-me.com/?land=de
-https://dok.smart-me.com/konfiguration/billing?land=ch
-```
-
-Wer darüber kommt, hat das Land gleich eingestellt — praktisch für einen Link
-aus einem deutschen Angebot oder einer Signatur. Die Wahl bleibt beim
-Weiterklicken erhalten und auch beim nächsten Besuch.
+An jede Adresse lässt sich `?land=ch` oder `?land=de` anhängen. Wer darüber
+kommt, hat das Land gleich eingestellt — praktisch für einen Link aus einem
+Angebot oder einer Signatur. Die fertigen Adressen für alle Hauptseiten in
+allen vier Sprachen stehen im Kapitel
+[Von aussen direkt ins Wiki verlinken](#von-aussen-direkt-ins-wiki-verlinken).
 
 ### Was der Filter nicht leistet
 
@@ -897,6 +893,138 @@ npm run write-translations -- --locale it
 Das trägt neue Schlüssel mit dem deutschen Text als Platzhalter ein; die
 Übersetzung schreibst du anschliessend von Hand hinein. Bestehende Einträge
 lässt der Befehl in Ruhe.
+
+---
+
+## Von aussen direkt ins Wiki verlinken
+
+Eine Adresse im Wiki besteht aus drei Teilen. Damit lässt sich aus einem
+Angebot, einer Signatur oder einem Portal heraus genau auf **Sprache, Land und
+Seite** zeigen:
+
+```
+https://ecarup.github.io/smart-me-wiki/[sprache/]seite[?land=xx]
+```
+
+**Sprache** — der Teil direkt nach `smart-me-wiki/`:
+
+| Sprache | Präfix | Beispiel |
+| --- | --- | --- |
+| Deutsch | *(keines)* | `…/smart-me-wiki/produkte` |
+| Englisch | `en/` | `…/smart-me-wiki/en/produkte` |
+| Französisch | `fr/` | `…/smart-me-wiki/fr/produkte` |
+| Italienisch | `it/` | `…/smart-me-wiki/it/produkte` |
+
+Der Pfad der Seite bleibt in allen Sprachen derselbe — `produkte` heisst auch
+auf Italienisch `produkte`. Übersetzt wird der Inhalt, nicht die Adresse.
+
+**Land** — der Parameter `?land=` am Ende:
+
+| Parameter | Wirkung |
+| --- | --- |
+| `?land=ch` | Navigation zeigt nur, was für die Schweiz gilt |
+| `?land=de` | Navigation zeigt nur, was für Deutschland gilt |
+| `?land=alle` | alles sichtbar |
+| *(weglassen)* | wie `alle`, aber eine früher getroffene Wahl bleibt bestehen |
+
+Das Land wird beim Öffnen übernommen und für die weiteren Klicks gemerkt. Wer
+also `?land=de` bekommt, bleibt im deutschen Modus, auch wenn er von dort
+weiterklickt.
+
+**Lass `?land=` weg, wenn du es nicht brauchst.** Ein Link ohne den Parameter
+respektiert, was der Leser selbst gewählt hat. Setz ihn dort, wo du es sicher
+weisst — etwa in einem Angebot an einen deutschen Kunden.
+
+### Die fertigen Links
+
+Länderspezifische Seiten tragen den passenden `?land=`-Parameter schon in sich;
+ohne ihn wären sie zwar erreichbar, stünden aber nicht in der Navigation.
+
+#### Deutsch
+
+```
+Länderwahl (Startseite)          https://ecarup.github.io/smart-me-wiki/
+Einstieg Schweiz                 https://ecarup.github.io/smart-me-wiki/schweiz?land=ch
+Einstieg Deutschland             https://ecarup.github.io/smart-me-wiki/deutschland?land=de
+support KI-Agent                 https://ecarup.github.io/smart-me-wiki/support-ki-agent
+Häufige Fragen                   https://ecarup.github.io/smart-me-wiki/faq
+Produkte                         https://ecarup.github.io/smart-me-wiki/produkte
+Planung                          https://ecarup.github.io/smart-me-wiki/planung
+Inbetriebnahme                   https://ecarup.github.io/smart-me-wiki/konfiguration/inbetriebnahme
+Rechnungsstellung                https://ecarup.github.io/smart-me-wiki/konfiguration/billing
+Drittsysteme                     https://ecarup.github.io/smart-me-wiki/drittsysteme
+Drittprodukte                    https://ecarup.github.io/smart-me-wiki/drittprodukte
+RMA-Antragsformular Schweiz      https://ecarup.github.io/smart-me-wiki/rma-antragsformulare?land=ch
+RMA-Antragsformular Deutschland  https://ecarup.github.io/smart-me-wiki/rma-antragsformulare-deutschland?land=de
+Kontakt Schweiz                  https://ecarup.github.io/smart-me-wiki/kontakt?land=ch
+Kontakt Deutschland              https://ecarup.github.io/smart-me-wiki/kontakt-deutschland?land=de
+```
+
+#### Englisch
+
+```
+Länderwahl (Startseite)          https://ecarup.github.io/smart-me-wiki/en/
+Einstieg Schweiz                 https://ecarup.github.io/smart-me-wiki/en/schweiz?land=ch
+Einstieg Deutschland             https://ecarup.github.io/smart-me-wiki/en/deutschland?land=de
+support KI-Agent                 https://ecarup.github.io/smart-me-wiki/en/support-ki-agent
+Häufige Fragen                   https://ecarup.github.io/smart-me-wiki/en/faq
+Produkte                         https://ecarup.github.io/smart-me-wiki/en/produkte
+Planung                          https://ecarup.github.io/smart-me-wiki/en/planung
+Inbetriebnahme                   https://ecarup.github.io/smart-me-wiki/en/konfiguration/inbetriebnahme
+Rechnungsstellung                https://ecarup.github.io/smart-me-wiki/en/konfiguration/billing
+Drittsysteme                     https://ecarup.github.io/smart-me-wiki/en/drittsysteme
+Drittprodukte                    https://ecarup.github.io/smart-me-wiki/en/drittprodukte
+RMA-Antragsformular Schweiz      https://ecarup.github.io/smart-me-wiki/en/rma-antragsformulare?land=ch
+RMA-Antragsformular Deutschland  https://ecarup.github.io/smart-me-wiki/en/rma-antragsformulare-deutschland?land=de
+Kontakt Schweiz                  https://ecarup.github.io/smart-me-wiki/en/kontakt?land=ch
+Kontakt Deutschland              https://ecarup.github.io/smart-me-wiki/en/kontakt-deutschland?land=de
+```
+
+#### Französisch
+
+```
+Länderwahl (Startseite)          https://ecarup.github.io/smart-me-wiki/fr/
+Einstieg Schweiz                 https://ecarup.github.io/smart-me-wiki/fr/schweiz?land=ch
+Einstieg Deutschland             https://ecarup.github.io/smart-me-wiki/fr/deutschland?land=de
+support KI-Agent                 https://ecarup.github.io/smart-me-wiki/fr/support-ki-agent
+Häufige Fragen                   https://ecarup.github.io/smart-me-wiki/fr/faq
+Produkte                         https://ecarup.github.io/smart-me-wiki/fr/produkte
+Planung                          https://ecarup.github.io/smart-me-wiki/fr/planung
+Inbetriebnahme                   https://ecarup.github.io/smart-me-wiki/fr/konfiguration/inbetriebnahme
+Rechnungsstellung                https://ecarup.github.io/smart-me-wiki/fr/konfiguration/billing
+Drittsysteme                     https://ecarup.github.io/smart-me-wiki/fr/drittsysteme
+Drittprodukte                    https://ecarup.github.io/smart-me-wiki/fr/drittprodukte
+RMA-Antragsformular Schweiz      https://ecarup.github.io/smart-me-wiki/fr/rma-antragsformulare?land=ch
+RMA-Antragsformular Deutschland  https://ecarup.github.io/smart-me-wiki/fr/rma-antragsformulare-deutschland?land=de
+Kontakt Schweiz                  https://ecarup.github.io/smart-me-wiki/fr/kontakt?land=ch
+Kontakt Deutschland              https://ecarup.github.io/smart-me-wiki/fr/kontakt-deutschland?land=de
+```
+
+#### Italienisch
+
+```
+Länderwahl (Startseite)          https://ecarup.github.io/smart-me-wiki/it/
+Einstieg Schweiz                 https://ecarup.github.io/smart-me-wiki/it/schweiz?land=ch
+Einstieg Deutschland             https://ecarup.github.io/smart-me-wiki/it/deutschland?land=de
+support KI-Agent                 https://ecarup.github.io/smart-me-wiki/it/support-ki-agent
+Häufige Fragen                   https://ecarup.github.io/smart-me-wiki/it/faq
+Produkte                         https://ecarup.github.io/smart-me-wiki/it/produkte
+Planung                          https://ecarup.github.io/smart-me-wiki/it/planung
+Inbetriebnahme                   https://ecarup.github.io/smart-me-wiki/it/konfiguration/inbetriebnahme
+Rechnungsstellung                https://ecarup.github.io/smart-me-wiki/it/konfiguration/billing
+Drittsysteme                     https://ecarup.github.io/smart-me-wiki/it/drittsysteme
+Drittprodukte                    https://ecarup.github.io/smart-me-wiki/it/drittprodukte
+RMA-Antragsformular Schweiz      https://ecarup.github.io/smart-me-wiki/it/rma-antragsformulare?land=ch
+RMA-Antragsformular Deutschland  https://ecarup.github.io/smart-me-wiki/it/rma-antragsformulare-deutschland?land=de
+Kontakt Schweiz                  https://ecarup.github.io/smart-me-wiki/it/kontakt?land=ch
+Kontakt Deutschland              https://ecarup.github.io/smart-me-wiki/it/kontakt-deutschland?land=de
+```
+
+### Wenn die Adresse einmal umzieht
+
+Der vordere Teil steht in `docusaurus.config.ts` als `SITE_URL` und `BASE_URL`.
+Zieht das Wiki auf eine eigene Domain (etwa `dok.smart-me.com`), ändert sich
+nur dieser Teil — Sprachpräfix, Pfad und `?land=` bleiben, wie sie sind.
 
 ---
 

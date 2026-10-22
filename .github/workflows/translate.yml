@@ -29,14 +29,6 @@ on:
         description: 'Sprachen, kommagetrennt (leer = en,fr,it)'
         type: string
         default: ''
-      runner:
-        description: 'Wo übersetzt wird. auto prüft den Self-hosted-Runner und weicht sonst auf GitHub aus.'
-        type: choice
-        default: auto
-        options:
-          - auto
-          - self-hosted
-          - github-hosted
 
 # Zwei gleichzeitige Läufe würden sich gegenseitig die Übersetzungen
 # überschreiben; der neuere Lauf gewinnt.
@@ -49,24 +41,11 @@ permissions:
   pull-requests: write
 
 jobs:
-  # Wählt den Runner: Self-hosted, wenn der Scale Set erreichbar und frei ist,
-  # sonst GitHub-hosted. Siehe .github/workflows/pick-runner.yml.
-  pick-runner:
-    name: Runner wählen
-    uses: ./.github/workflows/pick-runner.yml
-    permissions:
-      issues: write
-    with:
-      forced-runner: ${{ inputs.runner || 'auto' }}
-    secrets:
-      RUNNER_STATUS_TOKEN: ${{ secrets.RUNNER_STATUS_TOKEN }}
-
   translate:
-    needs: pick-runner
-    if: ${{ !cancelled() }}
-    # Ein erneuter Anlauf läuft bewusst auf GitHub-hosted: Wiederholt man einen
-    # Lauf, liegt es oft am Runner selbst.
-    runs-on: ${{ fromJSON(github.run_attempt) > 1 && 'ubuntu-24.04' || needs.pick-runner.outputs.runner || 'ubuntu-24.04' }}
+    # Bewusst GitHub-hosted: Das Repository ist öffentlich, der Self-hosted-Runner
+    # (eCarUp/west-orange-github-runner) nimmt keine Jobs öffentlicher Repos an,
+    # und für öffentliche Repos sind GitHub-hosted-Runner ohnehin kostenlos.
+    runs-on: ubuntu-24.04
     timeout-minutes: 120
 
     steps:

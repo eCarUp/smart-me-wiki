@@ -170,7 +170,7 @@ Der virtuelle Zähler besteht aus Zählern, die gelöscht wurden.
 
 Dieser Hinweis ist rein informativ und wird angezeigt wenn Fremdgeräte oder von smart-me nicht zertifizierte Zähler verwendet werden. Er hat keinen Einfluss auf die Berechnung.
 
-Mit diesem Hinweis wollen wir sicherstellen, dass sich der Rechnungssteller bewusst ist, dass die [Konformität von Messgeräten](/planung/zertifizierungen) in eigner Verantwortung liegt. Dies betrifft alle Fremdgeräte und den smart-me 1-Phasenzähler
+Mit diesem Hinweis wollen wir sicherstellen, dass sich der Rechnungssteller bewusst ist, dass die [Konformität von Messgeräten](/planung/zertifizierungen-schweiz) in eigner Verantwortung liegt. Dies betrifft alle Fremdgeräte und den smart-me 1-Phasenzähler
 
 Hinweis: Diese Meldung kann nicht deaktiviert werden.
 

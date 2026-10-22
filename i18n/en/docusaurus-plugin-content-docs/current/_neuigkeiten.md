@@ -1,20 +1,20 @@
 <NurFuer land="ch">
 
 <details id="zev-mit-notstromsystemen" open>
-<summary>NEW: ZEV (association for own consumption) with emergency power systems</summary>
+<summary>NEW: ZEV with emergency power systems</summary>
 
-You can now use an alternative tariff setup for emergency power systems.  
+You can now apply an alternative tariff to emergency power systems.  
 
-Since there is often no space for the solar meter, you can now simply apply tariffs using the house connection and total consumption, without having to add the solar meter in a cumbersome way.
+Since there is often no space for the solar meter, you can now simply apply tariffs using the house connection and total consumption, without having to add the solar meter in a complicated way.
 
-To do this, select the solar tariff incl. vZEV:
+To do this, select the solar tariff incl. vZEV (Solartarif inkl. vZEV):
 \- Reference meter: Consumption and balance (Referenzzähler: Verbrauch und Bilanz)
 
-The tariffs are now calculated correctly without a solar meter, which saves you cumbersome installation and conversion work.
+The tariffs are now calculated correctly without a solar meter, which saves you complicated installations and conversions.
 
-Note: If it is possible to install a solar power meter, please do not hesitate to do so. Full coverage of the metering concept can compensate for incorrect data caused by meter defects; systematically omitting meters removes this possibility.
+Note: If it is possible to install a solar power meter, please do not hesitate to do so. Complete coverage of the metering concept can compensate for incorrect data caused by meter defects, whereas systematically leaving meters out removes this possibility.
 
-[More details](/planung/Messkonzept-Notstromloesung)
+[More details](/planung/messkonzept-notstromloesung)
 
 ![Technical data & manuals – Figure 1](/img/home/01.png)
 
@@ -27,9 +27,9 @@ Note: If it is possible to install a solar power meter, please do not hesitate t
 
 With the new Solar Manager update, Picos are no longer controlled via the serial number, but via the ID of the load management level 1 group.
 
-In this short video, I show you step by step how this works so that you can make the correct settings on the smart-me side.
+In this short video, I show you step by step how this works so that you can configure the settings correctly on the smart-me side.
 
-Good to know: the update makes single-phase charging at 6 A (approx. 1.4 kW) possible, which is ideal for smaller PV surpluses. You can find out how to configure this in the Solar Manager documentation
+This is great to know: with the update, single-phase charging at 6 A (approx. 1.4 kW) is now possible, which is ideal for smaller PV surpluses. You can find out how to configure this in the Solar Manager documentation
 
 <Embed src="https://drive.google.com/file/d/1Oc3uuTCMusCJMHL7hjlJzFbkoFONHpm4/preview" aspect="1.350" title="Drive, solarmanager_update_2026.mp4" />
 
@@ -40,7 +40,7 @@ solarmanager\_update\_2026.mp4
 <details id="rechnungsvorschau-v1">
 <summary>NEW: Invoice preview V1</summary>
 
-You can now generate an invoice preview before you create final invoices.
+You can now generate an invoice preview before creating final invoices.
 
 - Check your configurations quickly and easily.
 
@@ -61,7 +61,7 @@ Billing (Rechnungsstellung) --> Invoices (Rechnungen)
 <details id="aktualisierung-unserer-agb-datenschutzrichtlinien">
 <summary>Update to our terms and conditions & privacy policies</summary>
 
-We have updated our General Terms and Conditions (GTC) and privacy policies. To regulate data processing within our group of companies in the best possible legal way, the documents have been supplemented with a so-called "Joint Controller Agreement" (JCA). The updated versions are now available online.
+We have updated our General Terms and Conditions (GTC) and privacy policies. To regulate data processing within our group of companies in the best possible legal way, the documents have been supplemented with a so-called "Joint Controller Agreement" (JCA). The updated versions are now available online for review.
 
 [→ To the terms and conditions & privacy policy](https://web.smart-me.com/agb-smart-me-ag/)
 
@@ -70,17 +70,17 @@ We have updated our General Terms and Conditions (GTC) and privacy policies. To 
 <details id="unser-neuer-online-shop-ab-1-juli-2026">
 <summary>Important: Our new online shop from 1 July 2026</summary>
 
-Prepare for a smooth transition to our new, modern platform. Get a quick overview of:  
+Get ready for a smooth transition to our new, modern platform. Get a quick overview of:  
 
 - Order deadline in the old shop: Place urgent orders by 26 June 2026 at 11:00. After that, the old system will be shut down. 
 
-- Bridging by email & phone: During the transition phase (29 June – 1 July), simply order directly from us. 
+- Bridging by email & phone: During the changeover phase (29 June – 1 July), simply order directly from us. 
 
 - Activation for existing accounts: Use the activation link that you will receive by email on 30 June from our new service provider Odoo.  
 
 - Familiar discounts & prices: Continue to benefit from your individual conditions, which are already stored in the new system. 
 
-- Launch of the new platform: From 1 July 2026, shop quickly and easily in the new shop.
+- Launch of the new platform: From 1 July 2026, shop easily and quickly in the new shop.
 
 </details>
 
@@ -136,7 +136,7 @@ Allows you to create personalized dashboards such as energy flows and overview d
 <details id="technische-tools">
 <summary>New: Technical tools</summary>
 
-In the new Technical tools section, you will find aids for installing and maintaining the installation.
+In the new Technical tools section, you will find aids for installation and maintenance of the installation.
 
 ![Technical data & manuals – Figure 9](/img/home/09.png)
 
@@ -151,7 +151,7 @@ In the new Technical tools section, you will find aids for installing and mainta
 <details id="applab">
 <summary>New: AppLAB</summary>
 
-The new AppLAB section is an experimental area and provides various features in order to test their effectiveness.
+The new AppLAB section is an experimental area that provides various features in order to test their effectiveness.
 
 ![Technical data & manuals – Figure 11](/img/home/11.png)
 
@@ -174,14 +174,14 @@ The new AppLAB section is an experimental area and provides various features in 
 
 The entire smart-me UI has received a design refresh.
 
-- Nothing has changed in how it is used.
+- Nothing has changed in terms of usage.
 
 ![Technical data & manuals – Figure 12](/img/home/12.png)
 
 </details><NurFuer land="ch">
 
 <details id="zev-performance-uebersicht">
-<summary>New: ZEV (association for own consumption) performance overview</summary>
+<summary>New: ZEV performance overview</summary>
 
 Check the production and yields of your ZEV in the new "ZEV Performance" visualization. Get a quick overview of:
 
@@ -189,7 +189,7 @@ Check the production and yields of your ZEV in the new "ZEV Performance" visuali
 
 - Energy production and yield
 
-- Peaks in consumption from and feed-in to the grid
+- Peaks in consumption from and feed-in into the grid
 
 - Identify high-production days with the heat map visualization
 
@@ -225,15 +225,15 @@ Take a look at the new Pico visualization, which shows all Pico charge points an
 <details id="das-neue-m-bus-gateway-sirius-ist-da">
 <summary>The new M-Bus Gateway Sirius is here!</summary>
 
-Our product family continues to grow: with the Sirius, we are launching our most powerful gateway to date for large building infrastructures.
+Our product family continues to grow: with Sirius, we are launching our most powerful gateway yet for large building infrastructures.
 
 - Massive capacity – Up to 250 M-Bus standard loads in one device. 
 
-- Multi-energy – Water, heat, cooling and gas managed centrally. 
+- Multi-energy – Water, heat, cooling and gas centrally under control. 
 
 - Maximum security – Huge data memory in the event of connection failures.
 
-[→ More information on the Sirius](/produkte/m-bus-gateway#m-bus-gateway-sirius-250-standard-loads)
+[→ More information on Sirius](/produkte/m-bus-gateway/sirius)
 
 ![Technical data & manuals – Figure 16](/img/home/16.jpg)
 
@@ -245,9 +245,9 @@ Our product family continues to grow: with the Sirius, we are launching our most
 <div className="row">
 <div className="col col--6">
 
-Applying VAT is an important part of billing. To avoid mistakes, you will find instructions here on how to correctly show VAT for your case.
+Applying VAT is an important part of billing. To avoid mistakes, you will find instructions here on how to show VAT correctly for your case.
 
-VAT law relating to the ZEV (association for own consumption) is changing almost as quickly as the technology.
+VAT law relating to ZEVs is changing almost as quickly as the technology.
 
 [→ More information for our partners](/konfiguration/billing/mwst-zev-nebenkosten)
 

@@ -59,7 +59,7 @@ Massnahme:
 
     - Schritt 1: stromlos machen und wieder einschalten.
 
-    - Schritt 2: Prüfen ob Application Version 1.xx ([Hardware Version prüfen](https://webforms.smart-me.com/connect/deviceoverview.aspx)),  wenn ja, [RMA Ausfüllen](/rma-antragsformulare) mit Fehlerbeschreibung: Schwarzer Bildschirm mit Application Version 1.xx
+    - Schritt 2: Prüfen ob Application Version 1.xx ([Hardware Version prüfen](https://webforms.smart-me.com/connect/deviceoverview.aspx)),  wenn ja, [RMA Ausfüllen](/rma-antragsformular-schweiz) mit Fehlerbeschreibung: Schwarzer Bildschirm mit Application Version 1.xx
 
     - Schritt 3: Wenn es nicht hilft, beim Support melden.
 

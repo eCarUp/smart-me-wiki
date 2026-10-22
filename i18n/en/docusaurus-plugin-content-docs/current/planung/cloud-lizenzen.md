@@ -1,12 +1,12 @@
 ---
 title: 'Cloud License'
 slug: '/planung/cloud-lizenzen'
-description: 'Note that the account only reaches Professional status if every metering point has an equivalent license.'
+description: 'Please note that the account only reaches Professional status if every metering point has an equivalent license.'
 sidebar_label: 'Cloud License'
 ---
-Note that the account only reaches Professional status if every metering point has an equivalent license.
+Please note that the account only reaches Professional status if every metering point has an equivalent license.
 
-## The three license tiers
+## The three license levels
 
 <Kacheln min="14rem">
 
@@ -28,15 +28,15 @@ Standard for API, OCPP and M-Bus meters:
 
 Standard for:
 
-- [Single Phase Meter](/produkte/1-phasen-zaehler)
-- [3-Phase Meter Telstar](/produkte/telstar)
-- [3-Phase Meter Telstar CT](/produkte/Telstar-CT)
+- [Single Phase Meter](/produkte/1-phasen-zaehler-80a)
+- [3-Phase Meter Telstar](/produkte/telstar-80a)
+- [3-Phase Meter Telstar CT](/produkte/telstar-ct)
 - [Kamstrup Module](/produkte/kamstrup-modul) (discontinued)
-- [Pico charging station](/produkte/pico-ladestation)
+- [Pico EV Charger](/produkte/pico-ladestation)
 
 **Scope**
 
-- [If/then actions](/konfiguration/wenndann-aktionen) (without Pico control)
+- [If / Then Actions](/konfiguration/wenndann-aktionen) (without Pico control)
 - Reports
 - Load profiles
 - Advanced folder and meter management
@@ -48,12 +48,12 @@ Standard for:
 
 <Kachel titel="Professional *">
 
-Upgrade available for all metering points in the smart-me Cloud.
+Upgrade possible for all metering points in the smart-me Cloud.
 
 **Scope: everything in Limited, plus**
 
 - [Billing](/konfiguration/billing)
-- [Virtual meters](/konfiguration/virtuelle-zaehler)
+- [Virtual Meters](/konfiguration/virtuelle-zaehler)
 - [Auto Export](/schnittstellen/auto-export)
 - [User configuration](/konfiguration/benutzerkonfiguration)
 - [Pico dynamic load management](/produkte/pico-ladestation/pico-lastmanagement)
@@ -68,21 +68,21 @@ Upgrade available for all metering points in the smart-me Cloud.
 
 </Kacheln>
 
-\*The respective subscription tier is only reached if every meter point in the account has the same license tier.
+\*The respective subscription level is only reached if every meter point in the account has the same license level.
 
-\*\* Commercial use of the API always requires the Professional subscription tier.
+\*\* Commercial use of the API always requires the Professional subscription level.
 
 Professional = All meters in the account have a Professional license.
 
-The meter with the lowest subscription tier in the account determines the overall subscription tier of the account.
+The meter with the lowest subscription level in the account determines the overall subscription level of the account.
 
-Mixed accounts are not possible and remain in Basic or Limited status if the number of licenses is insufficient.
+Mixed accounts are not possible and remain at Basic or Limited status if the number of licenses is insufficient.
 
 ## Calculating the correct number of Professional licenses
 
 For your account to reach Professional status, you need at least one Professional license for every meter (including virtual meters) in the account.
 
-It is not possible to mix licensed and unlicensed meters in one account.
+It is not possible to mix licensed meters with unlicensed meters in one account.
 
 Rule of thumb for ZEV (association for own consumption) and vZEV (virtual ZEV) with a uniform solar and / or battery tariff:
 
@@ -100,14 +100,14 @@ ZEV with >1x PV system: number of meters + 2 (virtual)
 3x Telstar 80A
 2x Telstar CT
 
-Total Professional all energy types: 5 pcs.
+Total Professional all energy types: 5 units
 
 ### Example electricity with smart-me meters + heat / water with M-Bus Gateway (1x PV)
 
 3x Telstar 80A
 2x Telstar CT
 
-Professional licenses all energy types: 5 pcs.
+Professional licenses all energy types: 5 units
 
 1x M-Bus Gateway with connected heat / water meters
 
@@ -116,9 +116,9 @@ Professional licenses all energy types: 5 pcs.
 3x domestic hot water meters
 3x cold water meters
 
-Professional licenses for heat / water / gas: 12 pcs.
+Professional licenses for heat / water / gas: 12 units
 
-Total Professional licenses: 17 pcs.
+Total Professional licenses: 17 units
 
 Note: The M-Bus Gateway itself does not require a license.
 
@@ -146,7 +146,7 @@ The installation requires a total of 18 Professional licenses.
 - 12x Professional license heat / water / gas, 10 years
 
 
-Multi-year licenses are on average more cost-effective and are not subject to inflation or deflation effects during the period of use.
+On average, the multi-year licenses are more cost-effective and are not subject to inflation or deflation effects during the period of use.
 
 ## Are you a "Professional" customer?
 
@@ -154,10 +154,10 @@ The figures below make it easy to find out whether you need Professional license
 
 ### ZEV billing
 
-For ZEV billing, the deciding factors are which tariff system is to be mapped and whether billing is to be automated.
+For ZEV (association for own consumption) billing, the decisive factors are which tariff system is to be mapped and whether billing is to be automated.
 
-![Cloud License – Figure 1](/img/planung-cloud-lizenzen/01_EN.png)
+![Cloud License – Figure 1](/img/planung-cloud-lizenzen/01.png)
 
 ### ZEV control
 
-![Cloud License – Figure 2](/img/planung-cloud-lizenzen/02_EN.png)
+![Cloud License – Figure 2](/img/planung-cloud-lizenzen/02.png)

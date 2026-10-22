@@ -1,10 +1,10 @@
 ---
-title: 'smart-me ZEV / Mieterstrom und Fremdstationen'
+title: 'smart-me ZEV und Fremdstationen'
 slug: '/planung/elektromobilitaet/smart-me-zev-und-fremdstationen'
-description: 'smart-me ZEV mit Drittanbieter Ladestationen'
-sidebar_label: 'smart-me ZEV / Mieterstrom und Fremdstationen'
+description: 'E-Mobilität in der smart-me ZEV mit Drittanbieter Ladestationen'
+sidebar_label: 'smart-me ZEV und Fremdstationen'
 ---
-## E-Mobilität in der smart-me ZEV / Mieterstrom mit Drittanbieter Ladestationen
+## E-Mobilität in der smart-me ZEV mit Drittanbieter Ladestationen
 
 ![smart-me ZEV und Fremdstationen – Abbildung 1](/img/planung-elektromobilitaet-smart-me-zev-und-fremdstationen/01.png)
 
@@ -19,9 +19,9 @@ Wird hingegen das Lastmanagement nicht vom jeweiligen Hersteller verwendet, sond
 
 Smart-me Messhardware als Informationsquelle für Drittanbietersoftware zur Steuerung von Drittanbieter Ladestationen:
 
-- [Telstar 80A](/produkte/telstar) 
+- [Telstar 80A](/produkte/telstar-80a) 
 
-- [Telstar CT](/produkte/Telstar-CT)
+- [Telstar CT](/produkte/telstar-ct)
 
 
 ### Erweiterte Informationen zum Lastmanagement und ZEV

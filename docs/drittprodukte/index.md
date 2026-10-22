@@ -8,9 +8,9 @@ Anbei findest du eine Liste von Produkt- und Dienstleistungsempfehlungen. smart-
 
 Ziel der Empfehlungen ist es unseren Partnern die Möglichkeit zu bieten, einfach und effizient bestimmte Produkte oder Dienstleistungen zu finden, wenn dafür noch keine bekannte vorliegen.
 
-[Stromwandler und Zubehör zu Telstar CT](/drittprodukte/Stromwandler)
+[Stromwandler und Zubehör zu Telstar CT](/drittprodukte/stromwandler)
 
-[Zählersteckklemmen Nimbus 100A](/drittprodukte/zaehlersteckklemmen-nimbus-100A)
+[Zählersteckklemmen Nimbus 100A](/drittprodukte/zaehlersteckklemmen-nimbus-100a)
 
 [Pico Standfuss Fundamente](/drittprodukte/standfuss-fundamente)
 

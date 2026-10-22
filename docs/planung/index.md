@@ -22,9 +22,9 @@ Der Projekt Konfigurator erstellt dir auf Basis deiner Angaben die Stückliste a
 
 Ideal für Planer, Elektrofachleute.
 
-[Projektkonfigurator](/planung/Projektkonfigurator)
+[Projektkonfigurator](/planung/projektkonfigurator)
 
-[Zertifizierungen](/planung/zertifizierungen)
+[Zertifizierungen](/planung/zertifizierungen-schweiz)
 
 [Cloud Lizenzen](/planung/cloud-lizenzen)
 
@@ -34,6 +34,6 @@ Ideal für Planer, Elektrofachleute.
 
 [Vertrag / Rechtliches](/planung/vertrag-rechtliches)
 
-[Messkonzept Notstromlösung](/planung/Messkonzept-Notstromloesung)
+[Messkonzept Notstromlösung](/planung/messkonzept-notstromloesung)
 
 [Messkonzept Produzenten hinter Häuser](/planung/messkonzept-produzenten-hinter-haeuser)

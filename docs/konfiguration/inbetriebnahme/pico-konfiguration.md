@@ -187,9 +187,9 @@ Das dynamische Lastmanagement ermöglicht die Berücksichtigung eines Referenzpu
 
 Als Hardware für die Referenzmessung eignen sich folgende Produkte:
 
-- [Telstar 80A](/produkte/telstar)
+- [Telstar 80A](/produkte/telstar-80a)
 
-- [Telstar CT](/produkte/Telstar-CT)
+- [Telstar CT](/produkte/telstar-ct)
 
 
 Die Konfiguration des dynamischen Lastmanagements erfolgt über das Multilevel Lastmanagement von smart-me.

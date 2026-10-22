@@ -12,7 +12,7 @@ Cette page explique les erreurs Pico connues.
 
 Signification : 
 
-- Lors du scan du RFID, ni le code QR ni le logo RFID ne s'affichent.
+- Lors de la lecture du RFID, ni le code QR ni le logo RFID ne s'affichent.
 
 
 
@@ -35,7 +35,7 @@ Mesure :
 
 ### Puissance de recharge réduite
 
-Si la Pico délivre moins de puissance qu'elle ne le devrait, il se peut qu'une phase ne soit pas correctement raccordée ou qu'un fusible ait déclenché. En cliquant sur « Normal » (Normal), vous pouvez consulter les tensions et les courants, comme pour les compteurs électriques.
+Si la Pico fournit moins de puissance qu'elle ne le devrait, il se peut qu'une phase ne soit pas correctement raccordée ou qu'un fusible ait déclenché. En cliquant sur « Normal » (Normal), vous pouvez consulter les tensions et les courants, comme pour les compteurs d'électricité.
 
 ### Écran noir (aucun affichage)
 
@@ -47,35 +47,35 @@ Signification :
 
 Sources d'erreur possibles :
 
-- La Pico n'est pas alimentée
+- La Pico n'est pas alimentée en courant
 
 - Le disjoncteur différentiel (FI) a déclenché
 
-- La Pico présente une erreur dans son logiciel local
+- La Pico présente une erreur dans le logiciel local
 
 Mesure :
 
 - Si la Pico est hors ligne
 
-    - Étape 1 : la mettre hors tension, puis la remettre sous tension.
+    - Étape 1 : mettre hors tension puis rallumer.
 
-    - Étape 2 : vérifier s'il s'agit de l'Application Version 1.xx ([Vérifier la version du matériel](https://webforms.smart-me.com/connect/deviceoverview.aspx)), si oui, [Remplir un RMA](/rma-antragsformulare) avec la description de l'erreur : Écran noir avec Application Version 1.xx
+    - Étape 2 : vérifier si la version d'application est 1.xx ([vérifier la version du matériel](https://webforms.smart-me.com/connect/deviceoverview.aspx)), si oui, [remplir un RMA](/rma-antragsformular-schweiz) avec la description de l'erreur : écran noir avec version d'application 1.xx
 
-    - Étape 3 : si cela ne suffit pas, contacter le support.
+    - Étape 3 : si cela ne résout pas le problème, contacter le support.
 
 - Si la Pico est en ligne, elle peut être redémarrée via le portail smart-me. (Sélectionner la Pico / roue dentée en haut à droite / Actions avancées (Erweiterte Aktionen) / Redémarrage (Neustart))
 
-- Si le FI déclenche, il peut s'agir d'un cas isolé. Si cela se produit plus souvent, veuillez nous contacter. Sauf pour la « IONIQ 5 » et la « Zoé » : ces voitures font déclencher le FI dans certains cas à la fin de la session de recharge, et en tant que fabricant de bornes de recharge, nous ne pouvons rien y changer.
+- Si le FI déclenche, il peut s'agir d'un cas isolé. Si cela se produit plus fréquemment, veuillez nous contacter. Sauf pour la « IONIQ 5 » et la « Zoé » : avec ces voitures, le FI déclenche dans certains cas à la fin de la session de recharge ; en tant que fabricant de bornes de recharge, nous ne pouvons rien y changer.
 
-![Erreurs Pico – Figure 1](/img/stoerungsbehebung-pico-fehler/01.png)
+![Erreurs Pico – Illustration 1](/img/stoerungsbehebung-pico-fehler/01.png)
 
 ### La voiture est branchée et la borne de recharge ne réagit pas
 
-Lorsqu'une voiture est branchée, normalement, avec 
+Lorsqu'une voiture est branchée, en temps normal, avec 
 
 - Authentication None 
 
-    - l'image de veille doit disparaître et une séquence avec un démarrage de la recharge doit apparaître
+    - L'image de veille doit disparaître et une séquence avec un démarrage de la recharge doit apparaître
 
 - Authentication eCarUp Backen 
 
@@ -89,37 +89,37 @@ Si ce n'est pas le cas, veuillez procéder comme suit
 - Sur la Pico, s'assurer que le câble est enfoncé jusqu'à la butée.
 
 
-Si elle ne réagit toujours pas, l'exploitant de la borne doit vérifier si un câble fixe est installé sur la borne.
+Si elle ne réagit toujours pas, l'exploitant de la station doit vérifier si un câble fixe est installé sur la station.
 
 - Si c'est le cas, veuillez vous assurer que l'option « Câble toujours verrouillé » (Kabel immer fest verriegelt) est activée dans le portail smart-me. 
 
-- Si ce n'est pas le cas, veuillez effectuer cette opération.
+- Si ce n'est pas le cas, veuillez l'activer.
 
 
-![Erreurs Pico – Figure 2](/img/stoerungsbehebung-pico-fehler/02.png)
+![Erreurs Pico – Illustration 2](/img/stoerungsbehebung-pico-fehler/02.png)
 
 ### Warn RDC
 
 
 
-Câble ou voiture (la plupart du temps)
+Câble ou voiture (le plus souvent)
 
 
 
 Signification : 
 
-- Problème avec le capteur RDC (residual current device). Le RCD est un dispositif de protection des personnes dans l'installation électrique.
+- Problème avec le capteur RDC (residual current device). Le RCD est un dispositif de protection des personnes dans l'installation électrique .
 
 
 
 
 Sources d'erreur possibles :
 
-- Un câble de recharge humide raccordé de manière fixe.
+- Un câble de recharge humide, raccordé de manière fixe.
 
 - Un câble de recharge qui a gelé pendant la nuit puis dégelé.
 
-- Défaut du câble ou de la voiture. Cela peut être testé en faisant recharger une autre voiture sur la borne, ou en faisant recharger la voiture qui provoque l'erreur sur une autre Pico.
+- Défaut du câble ou de la voiture. Cela peut être testé en faisant charger une autre voiture sur la station ou en faisant charger la voiture qui provoque l'erreur sur une autre Pico.
 
 - Défaut de l'électronique de la Pico, p. ex. dégât d'eau.
 
@@ -128,10 +128,10 @@ Sources d'erreur possibles :
 
 Mesure :
 
-- Lorsque l'erreur a été déclenchée, la borne doit être redémarrée pour réinitialiser l'erreur.
+- Lorsque l'erreur a été déclenchée, la station doit être redémarrée pour réinitialiser l'erreur.
 
 
-![Erreurs Pico – Figure 3](/img/stoerungsbehebung-pico-fehler/03_EN.png)
+![Erreurs Pico – Illustration 3](/img/stoerungsbehebung-pico-fehler/03.png)
 
 ### Cable Lock Error
 
@@ -142,7 +142,7 @@ Signification :
 
 Mesure : 
 
-- Redémarrez la Pico une fois, soit via le cloud, soit localement. Le capteur de verrouillage du câble est ainsi recalibré.
+- Redémarrez la  Pico une fois, soit via le cloud, soit localement. Le capteur de verrouillage du câble est ainsi recalibré.
 
 - Dans la plupart des cas, il suffit aussi de brancher correctement le câble (avec un peu de force) et de réessayer.
 
@@ -152,9 +152,9 @@ Affichage dans le portail
 - Échec du verrouillage du câble (Kabelverriegelung fehlgeschlagen)
 
 
-![Erreurs Pico – Figure 4](/img/stoerungsbehebung-pico-fehler/04.png)
+![Erreurs Pico – Illustration 4](/img/stoerungsbehebung-pico-fehler/04.png)
 
-![Erreurs Pico – Figure 5](/img/stoerungsbehebung-pico-fehler/05.png)
+![Erreurs Pico – Illustration 5](/img/stoerungsbehebung-pico-fehler/05.png)
 
 ### Error 1
 
@@ -172,7 +172,7 @@ Mesure :
 - Si un redémarrage n'apporte pas le résultat souhaité, un RMA doit être rempli. Description de l'erreur : Error 1
 
 
-![Erreurs Pico – Figure 6](/img/stoerungsbehebung-pico-fehler/06.png)
+![Erreurs Pico – Illustration 6](/img/stoerungsbehebung-pico-fehler/06.png)
 
 ### Error 2
 
@@ -190,7 +190,7 @@ Mesure :
 - Si un redémarrage n'apporte pas le résultat souhaité, un RMA doit être rempli. Description de l'erreur : Error 2
 
 
-![Erreurs Pico – Figure 7](/img/stoerungsbehebung-pico-fehler/07.png)
+![Erreurs Pico – Illustration 7](/img/stoerungsbehebung-pico-fehler/07.png)
 
 ### Error 3
 
@@ -198,7 +198,7 @@ Mesure :
 
 Signification :  
 
-- Une erreur au niveau de l'appareil de mesure MID
+- Une erreur liée à l'appareil de mesure électrique MID
 
 
 
@@ -208,7 +208,7 @@ Mesure :
 - Si un redémarrage n'apporte pas le résultat souhaité, un RMA doit être rempli. Description de l'erreur : Error 3
 
 
-![Erreurs Pico – Figure 8](/img/stoerungsbehebung-pico-fehler/08.png)
+![Erreurs Pico – Illustration 8](/img/stoerungsbehebung-pico-fehler/08.png)
 
 ### Error 4
 
@@ -226,18 +226,18 @@ Mesure :
 - Voir WARN RDC
 
 
-![Erreurs Pico – Figure 9](/img/stoerungsbehebung-pico-fehler/09.png)
+![Erreurs Pico – Illustration 9](/img/stoerungsbehebung-pico-fehler/09.png)
 
 ### P-Limit
 
 Signification :
 
-- Tension trop basse &lt;200V
+- Tension trop faible &lt;200V
 
 - Délestage actif : puissance limitée
 
 
-![Erreurs Pico – Figure 10](/img/stoerungsbehebung-pico-fehler/10_EN.png)
+![Erreurs Pico – Illustration 10](/img/stoerungsbehebung-pico-fehler/10.png)
 
 ### Diode Error
 
@@ -257,9 +257,9 @@ Mesure :
 - Vérifier qu'au moins la version 0.0.42 est installée sur la Pico. [Mise à jour du firmware](/konfiguration/firmware-update) 
 
 
-![Erreurs Pico – Figure 11](/img/stoerungsbehebung-pico-fehler/11.png)
+![Erreurs Pico – Illustration 11](/img/stoerungsbehebung-pico-fehler/11.png)
 
-### La voiture ne se recharge pas (la barre ne fait qu'un pixel de large et est rouge)
+### La voiture ne charge pas (la barre ne fait qu'un pixel de large et est rouge)
 
 Affichage :
 
@@ -271,16 +271,16 @@ Signification :
 - La borne de recharge ne libère pas de courant.
 
 
-Sources d'erreur possibles :
+Sources d'erreur possibles : 
 
-- La gestion de la charge ne peut pas libérer de courant pour la borne, car une Pico est surchargée.
+- La gestion de la charge ne peut pas libérer de courant pour la station, car une Pico est surchargée.
 
-- La Pico du groupe de recharge ne peut pas communiquer via le réseau maillé (mesh) avec les autres Pico du même groupe de recharge.
+- La Pico du groupe de recharge ne peut pas communiquer via le réseau maillé (mesh) avec les autres Picos du même groupe de recharge.
 
 
 Mesures :
 
-- Vérifiez que les nœuds disposent de suffisamment de courant.
+- Vérifiez si les nœuds disposent de suffisamment de courant.
 
 - Pour une analyse plus précise, veuillez appeler le support.
 
@@ -316,9 +316,9 @@ Mesure :
 
 Problèmes spécifiques aux voitures
 
-- Hyundai Ioniq 5 : cette voiture fait déclencher le FI dans certains cas à la fin de la session de recharge, et en tant que fabricant de bornes de recharge, nous ne pouvons rien y changer. En effet, le FI déclenche indépendamment de la borne de recharge.
+- Hyundai Ioniq 5 : avec cette voiture, le FI déclenche dans certains cas à la fin de la session de recharge ; en tant que fabricant de bornes de recharge, nous ne pouvons rien y changer, car le FI déclenche indépendamment de la borne de recharge.
 
-- Zoé : les anciens modèles doivent être configurés avec un courant de démarrage de 10A, car ils ne démarrent pas la recharge à 6A. Un test a montré qu'avec un câble de recharge monophasé, la recharge démarre même lorsque seuls 6A de courant de démarrage sont disponibles. Cette voiture fait déclencher le FI dans certains cas à la fin de la session de recharge, et en tant que fabricant de bornes de recharge, nous ne pouvons rien y changer. En effet, le FI déclenche indépendamment de la borne de recharge.
+- Zoé : les modèles plus anciens doivent être configurés avec un courant de démarrage de 10A, car ils ne démarrent pas la recharge avec 6A. Un test a montré qu'avec un câble de recharge monophasé, la recharge démarre même lorsque seuls 6A de courant de démarrage sont disponibles. Avec cette voiture, le FI déclenche dans certains cas à la fin de la session de recharge ; en tant que fabricant de bornes de recharge, nous ne pouvons rien y changer, car le FI déclenche indépendamment de la borne de recharge.
 
 - Renault Kangoo Electric : ne démarre la recharge qu'à partir de 8A
 
@@ -334,7 +334,7 @@ Problèmes spécifiques aux voitures
 
 - Hyundai Ioniq : la voiture ne démarre que si la carte RFID est d'abord présentée et que la recharge est ensuite démarrée. Sinon, la Car-ID doit être désactivée.
 
-- Leapmotor / T03 : ne gère pas la commutation de phases. Lorsque la recharge est interrompue côté voiture après une minute, il faut ouvrir et refermer la portière plusieurs fois.
+- Leapmotor / T03 : ne gère pas la commutation de phases. Si la recharge est interrompue côté voiture après une  minute, il faut ouvrir et refermer plusieurs fois la portière de la voiture.
 
 - Subaru Solterra : ne démarre la recharge qu'à partir de 8A et avec la Car-ID désactivée
 
@@ -342,4 +342,4 @@ Problèmes spécifiques aux voitures
 
 - Honda E:ny1 : ne démarre la recharge qu'à partir de 8A.
 
-- dongfeng box : ne gère pas la commutation de phases. Lorsque la recharge est interrompue côté voiture après une minute, il faut déverrouiller la portière après 7 minutes, puis la voiture recommence à se recharger.
+- dongfeng box : ne gère pas la commutation de phases. Si la recharge est interrompue côté voiture après une minute, il faut déverrouiller la portière après 7 minutes, et la voiture recommence alors à charger.

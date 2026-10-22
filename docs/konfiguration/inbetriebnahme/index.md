@@ -316,7 +316,7 @@ Erscheint die Warnung wegen des 5-GHz-Netzwerks, muss zusätzlich ein 2,4-GHz-Ne
 </div>
 </div>
 
-**Hinweis:**
+### Hinweis:
 
 Das Wandlerverhältnis ändert keine historischen Daten. Daher sollte dieser Schritt sofort nach der Inbetriebnahme erfolgen.
 
@@ -404,13 +404,13 @@ Gateway findet nicht alle Zähler
 
 - Starte den Suchdurchlauf  nochmals (1-2x). Es kann sein, dass der Zähler sich nicht immer beim ersten Suchdurchlauf gefunden wird.
 
-- Weitere Ursachen findest du auf der Seite [M-Bus Gateway Störungen](/stoerungsbehebung/mbus-gateway-stoerungen) 
+- Weitere Ursachen findest du auf der Seite [M-Bus Gateway Störungen](/stoerungsbehebung/m-bus-gateway-stoerungen) 
 
 Gateway findet mehr Zähler als verbaut wurden
 
 - Meistens während der Inbetriebnahme: Je nach M-Bus Zähler kann dieser mehrere Subzähler erstellen. Diese erkennt man daran, das die Seriennummer um eine Stelle nach Links verschoben ist, gefolgt von einer steigenden Zahl. Beginnend mit 1. Bsp: Hauptzähler 00200001, Subzähler 02000011
 
-- Weitere Ursachen findest du auf der Seite [M-Bus Gateway Störungen](/stoerungsbehebung/mbus-gateway-stoerungen) 
+- Weitere Ursachen findest du auf der Seite [M-Bus Gateway Störungen](/stoerungsbehebung/m-bus-gateway-stoerungen) 
 
 ![Menü des M-Bus Gateways im Portal mit dem grün hervorgehobenen Knopf „Geräte suchen"](/img/konfiguration-inbetriebnahme/21.png)
 

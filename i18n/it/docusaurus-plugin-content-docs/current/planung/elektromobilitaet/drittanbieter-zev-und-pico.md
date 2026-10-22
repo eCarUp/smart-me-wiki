@@ -1,53 +1,61 @@
 ---
-title: 'RCP di terzi / elettricità per gli inquilini e Pico'
+title: 'Fornitori terzi RCP e Pico'
 slug: '/planung/elektromobilitaet/drittanbieter-zev-und-pico'
-description: 'Stazione di ricarica smart-me Pico in un RCP di terzi / elettricità per gli inquilini'
-sidebar_label: 'RCP di terzi / elettricità per gli inquilini e Pico'
+description: 'Mobilità elettrica con la stazione di ricarica smart-me Pico senza RCP smart-me'
+sidebar_label: 'Fornitori terzi RCP e Pico'
 ---
 ## Mobilità elettrica con la stazione di ricarica smart-me Pico senza RCP smart-me
 
-### Schema di principio di un complesso residenziale senza RCP (raggruppamento ai fini del consumo proprio) smart-me
+### Schema di principio di un complesso edilizio senza RCP smart-me
 
-![RCP di terzi e Pico – Figura 1](/img/planung-elektromobilitaet-drittanbieter-zev-und-pico/01.png)
+![Fornitori terzi RCP e Pico – Figura 1](/img/planung-elektromobilitaet-drittanbieter-zev-und-pico/01.png)
 
-### Descrizione della soluzione di gestione del carico nello schema di misura senza RCP o con RCP di terzi
+### Descrizione della soluzione di gestione del carico nello schema di misura senza RCP o con RCP di fornitori terzi
 
 La gestione del carico della stazione di ricarica Pico si basa sull'hardware dei contatori smart-me. Questo hardware può essere utilizzato direttamente come punto di riferimento.
 
-Se è già presente un'installazione di contatori di terzi, la gestione del carico per le Pico può essere realizzata anche tramite un software di terzi, al posto della gestione del carico multilivello di smart-me.
+Se è già presente un'installazione di contatori di terzi, la gestione del carico per le Pico può essere realizzata anche tramite un software di fornitori terzi, al posto della gestione del carico multilivello di smart-me.
 Ulteriori informazioni sono disponibili qui alla voce "informazioni avanzate".
 
 Vantaggi della gestione del carico smart-me:
 
 - Stesso produttore per l'hardware di misura e la stazione di ricarica: massima compatibilità e affidabilità
-- Gestione del carico multilivello a controllo dinamico: perdite di potenza minime ed elevata disponibilità
-- Distacco dei carichi dell'intero impianto a controllo centralizzato
-- Funzione di ottimizzazione solare per l'area o per il singolo edificio
-- Priorità dei gruppi di ricarica e riduzione passiva dei picchi di carico
 
-Punti hardware funzionalmente necessari per una gestione del carico completa con hardware smart-me (frecce rosse):
+- Gestione del carico dinamica a più livelli: perdite di potenza minime ed elevata disponibilità
 
-- 2x contatori dell'edificio ([Telstar 80A](/produkte/telstar) o [Telstar CT](/produkte/Telstar-CT))
-    \- Punto di ottimizzazione solare, necessario per la ripartizione della capacità all'interno dell'area.
+- Distacco del carico dell'intero impianto gestito centralmente
 
-- Opzionale: 2x contatori E-Mobility ([Telstar 80A](/produkte/telstar) o [Telstar CT](/produkte/Telstar-CT))
-    \- Riferimento quando più gruppi di ricarica sono collegati a una stessa partenza e ne condividono la capacità.
-    \- Misura per il conteggio delle perdite e dell'energia in standby
-    \- È possibile considerare anche altre utenze che non sono stazioni di ricarica Pico, ad es. l'illuminazione del garage
+- Funzione di ottimizzazione solare ottimizzata per l'area o per l'edificio
 
-- Opzionale, se tutti gli edifici sono misurati: 1x contatore dell'area ([Telstar 80A](/produkte/telstar) o [Telstar CT](/produkte/Telstar-CT))
-    \- Questo punto può essere formato virtualmente a partire dai due contatori degli edifici. Il presupposto è che il 100% dei carichi dell'area sia misurato dai contatori degli edifici.
+- Prioritizzazione dei gruppi di ricarica e minimizzazione passiva dei picchi di carico
+
+
+Punti hardware funzionalmente necessari per la gestione del carico globale con hardware smart-me (frecce rosse):
+
+- 2x contatori dell'edificio ([Telstar 80A](/produkte/telstar-80a) o [Telstar CT](/produkte/telstar-ct))
+    \- Punto di ottimizzazione solare e necessario per la distribuzione della capacità all'interno dell'area.
+
+- Opzionale: 2x contatori E-Mobility ([Telstar 80A](/produkte/telstar-80a) o [Telstar CT](/produkte/telstar-ct))
+    \- Riferimento quando più gruppi di ricarica sono collegati alla stessa partenza e ne condividono la capacità.
+    \- Misura per il conteggio di perdite ed energia in standby
+    \- È possibile considerare anche altri utilizzatori che non sono stazioni di ricarica Pico, ad es. l'illuminazione del garage
+
+- Opzionale, se tutti gli edifici sono misurati: 1x contatore dell'area ([Telstar 80A](/produkte/telstar-80a) o [Telstar CT](/produkte/telstar-ct))
+    \- Questo punto può essere formato virtualmente a partire dai due contatori dell'edificio. Il presupposto è che il 100% dei carichi dell'area sia misurato dai contatori dell'edificio.
 
 
 ### Informazioni avanzate sulla gestione del carico della stazione di ricarica Pico
 
-[Descrizione del funzionamento della gestione del carico smart-me Pico](/produkte/pico-ladestation/pico-lastmanagement)
+[Descrizione funzionale della gestione del carico smart-me Pico](/produkte/pico-ladestation/pico-lastmanagement)
 
-[Software di gestione del carico di terzi compatibili](/drittsysteme)
+[Software di gestione del carico di fornitori terzi compatibili](/drittsysteme)
 
 ### Conteggio della mobilità elettrica senza RCP
 
-Il conteggio può avvenire in diversi modi, ciascuno con i propri vantaggi e svantaggi:
-- Conteggio con tariffa unica o multitariffa nel RCP (raggruppamento ai fini del consumo proprio) con [smart-me Billing](https://web.smart-me.com/energiekostenabrechnung/).
-- Conteggio con tariffa unica tramite il metodo post-payment e il [backend eCarUp](https://web.ecarup.com/referenzen/).
-- Conteggio con tariffa unica tramite il conteggio altamente automatizzato con carta di credito e il [backend eCarUp](https://web.ecarup.com/referenzen/).
+Il conteggio può avvenire in diversi modi, ciascuno con i propri vantaggi e svantaggi specifici:
+
+- Conteggio con sistema a tariffa unica o multitariffa nel RCP con [smart-me Billing](https://web.smart-me.com/energiekostenabrechnung/).
+
+- Conteggio con sistema a tariffa unica tramite il metodo post-payment e il [backend eCarUp](https://web.ecarup.com/referenzen/).
+
+- Conteggio a tariffa unica tramite conteggio con carta di credito altamente automatizzato e il [backend eCarUp](https://web.ecarup.com/referenzen/).

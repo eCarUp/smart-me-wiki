@@ -1,15 +1,15 @@
 ---
 title: 'Compteur monophasé 32A'
 slug: '/produkte/1-phasen-zaehler-32a'
-description: 'Le smart-me Meter est le premier compteur électrique qui peut être analysé et commandé depuis n''importe où.'
+description: 'Le smart-me Meter est le premier compteur électrique qui peut être analysé et commandé de n''importe où.'
 sidebar_label: 'Compteur monophasé 32A'
 displayed_sidebar: wikiSidebar
 ---
-Le smart-me Meter est le premier compteur électrique qui peut être analysé et commandé depuis n'importe où. Aucun matériel supplémentaire n'est nécessaire. Il utilise le réseau WiFi existant et se connecte directement au smart-me Cloud. Vous voyez ainsi facilement votre consommation d'énergie en temps réel.
+Le smart-me Meter est le premier compteur électrique qui peut être analysé et commandé de n'importe où. Aucun matériel supplémentaire n'est nécessaire. Il utilise le réseau WiFi existant et se connecte directement au smart-me Cloud. Vous pouvez ainsi consulter confortablement votre consommation d'énergie en temps réel.
 
-Vente arrêtée le 01.01.2023, le support et la prise en charge par le cloud restent assurés.
+Vente arrêtée le 01.01.2023, le support et l'assistance cloud restent garantis.
 
-![Compteur monophasé 32A – illustration 1](/img/produkte-1-phasen-zaehler-32a/01.jpg)
+![Compteur monophasé 32A – Illustration 1](/img/produkte-1-phasen-zaehler-32a/01.jpg)
 
 ## Fonctions
 
@@ -42,7 +42,7 @@ Vente arrêtée le 01.01.2023, le support et la prise en charge par le cloud res
 
 Voir [Mise en service](/konfiguration/inbetriebnahme) 
 
-## Caractéristiques techniques
+## Données techniques
 
 Précision 1 selon IEC62053-21
 
@@ -52,9 +52,9 @@ Fréquence (f) 50 / 60 Hz
 
 Courant max. 32 A (commutable)
 
-Entrée d'impulsions E1 libre de potentiel\*, 25V - 253V AC/DC
+Entrée d'impulsions E1 sans potentiel\*, 25V - 253V AC/DC
 
-Sortie numérique / sortie d'impulsions S0 libre de potentiel\*, Opto Power MOSFET, 5-48VDC / 5- 230 VAC, max. 550mW
+Sortie numérique / sortie d'impulsions S0 sans potentiel\*, Opto Power MOSFET, 5-48VDC / 5- 230 VAC, max. 550mW
 
 \*ne dispose pas de sa propre alimentation électrique.
 
@@ -76,13 +76,13 @@ Autoconsommation &lt; 0.5 W
 
 ## Configurer les entrées et sorties
 
-Le smart-me Meter dispose d'une sortie et d'une entrée, qui peuvent être utilisées comme entrée et sortie d'impulsions ou comme contact libre de potentiel commutable. Vous trouverez les détails [ici](/schnittstellen/ein_und_ausgaenge). 
+Le smart-me Meter dispose d'une sortie et d'une entrée, qui peuvent être utilisées comme entrées et sorties d'impulsions ou comme contact sans potentiel commutable. Vous trouverez les détails [ici](/schnittstellen/ein-und-ausgaenge). 
 
 ## Dimensions et raccordements
 
 ### Dimensions
 
-![Compteur monophasé 32A – illustration 2](/img/produkte-1-phasen-zaehler-32a/02.png)
+![Compteur monophasé 32A – Illustration 2](/img/produkte-1-phasen-zaehler-32a/02.png)
 
 ### Schéma de raccordement
 
@@ -91,34 +91,34 @@ Le smart-me Meter dispose d'une sortie et d'une entrée, qui peuvent être utili
 
 T1 : touche pour l'installation
 
-E1 : commutation de tarif (entrée numérique)
+E1 : commutation tarifaire (entrée numérique)
 
 0V tarif 1
 
 \>25V tarif 2
 
-S0 : sortie d'impulsions (contact libre de potentiel)
+S0 : sortie d'impulsions (contact sans potentiel)
 
 </div>
 <div className="col col--7 text--center">
 
-![Compteur monophasé 32A – illustration 3](/img/produkte-1-phasen-zaehler-32a/03.png)
+![Compteur monophasé 32A – Illustration 3](/img/produkte-1-phasen-zaehler-32a/03.png)
 
 </div>
 </div>
 
-## Modifier l'intervalle de téléversement
+## Modifier l'intervalle d'upload
 
-- Se connecter au portail smart-me
+- se connecter au portail smart-me
 
-- Sélectionner le compteur
+- sélectionner le compteur
 
-- En haut à droite, sélectionner la roue dentée
+- sélectionner la roue dentée en haut à droite
 
 - Paramètres généraux (Allgemeine Einstellungen)
 
 
-![Compteur monophasé 32A – illustration 4](/img/produkte-1-phasen-zaehler-32a/04.png)
+![Compteur monophasé 32A – Illustration 4](/img/produkte-1-phasen-zaehler-32a/04.png)
 
 ## Téléchargements
 
@@ -130,6 +130,6 @@ Fiche technique
 
 [Italien](https://docs.google.com/presentation/d/18O5ef93R--nzwNl14Zb9gFJ2KFwUOkTXb247jtWSaHI/export/pdf)
 
-Caractéristiques techniques
+Données techniques
 
 [Déclaration de conformité CE](https://docs.google.com/document/d/1t9Bj_Z8yZchoW1wGIWLeUEgj6M3Q893SPOGqkikALIs/export?format=pdf)

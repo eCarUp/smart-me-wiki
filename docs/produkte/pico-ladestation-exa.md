@@ -15,7 +15,7 @@ Dieser Beitrag handelt von der ersten Pico Generation (Artikelnummer 202170exA).
 
 [Pico Konfiguration](/konfiguration/inbetriebnahme/pico-konfiguration)
 
-[Zubehör](/produkte/pico-ladestation/pico-zubehör)
+[Zubehör](/produkte/pico-ladestation/pico-zubehoer)
 
 [Materialempfehlung RCD Typ-A](/produkte/pico-ladestation/materialempfehlung-rcd-typ-a)
 
@@ -197,7 +197,7 @@ Pakete pro Europalette: 72 Stück
 
 ## Zubehör
 
-[Zubehör](/produkte/pico-ladestation/pico-zubehör) 
+[Zubehör](/produkte/pico-ladestation/pico-zubehoer) 
 
 ## Sicherheitshinweise
 

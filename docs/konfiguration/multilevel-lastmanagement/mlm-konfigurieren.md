@@ -211,7 +211,7 @@ Wird das Signal des Energieversorgers im Lastabwurffall angelegt (0V --> 230V), 
 
 Signal (1) = 1 = Verfügbare Energie wird reduziert.
 
-[Beschaltung und Konfiguration Zählereingänge](/schnittstellen/ein_und_ausgaenge)
+[Beschaltung und Konfiguration Zählereingänge](/schnittstellen/ein-und-ausgaenge)
 
 </div>
 <div className="col col--5 text--center">

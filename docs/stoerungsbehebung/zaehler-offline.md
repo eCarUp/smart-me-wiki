@@ -139,7 +139,7 @@ Folgende Punkte können bei der Ankunft überprüft werden. Wenn bereits etwas a
 
 - Lösung 3: Wenn es ohne grossen Aufwand möglich ist, Sicherung entfernen und wieder einfügen. 
 
-- Lösung 4: Wenn nach Lösung 1 und 2 das Display immer noch dauerhaft schwarz ist, ist der Zähler defekt. In diesem Fall kann ein [RMA-Antragsformular](/rma-antragsformulare) ausgefüllt werden (Fehlerbeschreibung: Display Dunkel Code:dd).
+- Lösung 4: Wenn nach Lösung 1 und 2 das Display immer noch dauerhaft schwarz ist, ist der Zähler defekt. In diesem Fall kann ein [RMA-Antragsformular](/rma-antragsformular-schweiz) ausgefüllt werden (Fehlerbeschreibung: Display Dunkel Code:dd).
 
 
 Anzeige immer wieder dunkel wird:
@@ -159,7 +159,7 @@ Zähler erzeugt ein lokales WLAN für mehr als 5 Minuten:
 
 - Lösung 1: Versuchen die Taste T1 zu lösen. 
 
-- Lösung 2: ein [RMA-Antragsformular](/rma-antragsformulare) ausfüllen (Fehlerbeschreibung: Taste T1 klemmt Code:tk).
+- Lösung 2: ein [RMA-Antragsformular](/rma-antragsformular-schweiz) ausfüllen (Fehlerbeschreibung: Taste T1 klemmt Code:tk).
 
 
 Zähler zeigt oben rechts dauerhaft ein X an:
@@ -170,7 +170,7 @@ Zähler zeigt oben rechts dauerhaft ein X an:
 
 - Lösung 3: Wenn es ohne grossen Aufwand möglich ist, Sicherung entfernen und wieder einfügen. 
 
-- Lösung 4: Wenn nach Lösung 1 und 2 immer noch dauerhaft ein X anzeigt wird, ist der Zähler defekt. In diesem Fall kann ein [RMA-Antragsformular](/rma-antragsformulare) ausgefüllt werden (Fehlerbeschreibung: X wird immer angezeigt Code:xx).
+- Lösung 4: Wenn nach Lösung 1 und 2 immer noch dauerhaft ein X anzeigt wird, ist der Zähler defekt. In diesem Fall kann ein [RMA-Antragsformular](/rma-antragsformular-schweiz) ausgefüllt werden (Fehlerbeschreibung: X wird immer angezeigt Code:xx).
 
 
 Zähler kann sich nicht mit dem WLAN verbinden:

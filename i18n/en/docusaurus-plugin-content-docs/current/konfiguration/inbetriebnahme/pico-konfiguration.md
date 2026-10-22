@@ -1,10 +1,10 @@
 ---
 title: 'Pico Configuration'
 slug: '/konfiguration/inbetriebnahme/pico-konfiguration'
-description: 'On this page you will find the most important configurations related to the Pico hardware.'
+description: 'On this page you will find the most important configurations relating to the Pico hardware.'
 sidebar_label: 'Pico Configuration'
 ---
-On this page you will find the most important configurations related to the Pico hardware. The Pico charging station is always configured via the smart-me platform first. After that, the authentication method can be enabled via a backend system (eCarUp).
+On this page you will find the most important configurations relating to the Pico hardware. The Pico charging station is always configured first via the smart-me platform. After that, the authentication method can be enabled via a backend system (eCarUp).
 
 ![Pico Configuration – Figure 1](/img/konfiguration-inbetriebnahme-pico-konfiguration/01.png)
 
@@ -20,28 +20,28 @@ The Pico charging station can be used either with or without an authentication m
 
 ### Configuration None:
 
-No authentication required for charging. (charges as soon as it is plugged in)
+No authentication is required for charging. (Charges as soon as it is plugged in)
 
 
 
 ### Configuration with eCarUp Backend:
 
-To operate a Pico publicly / semi-publicly or to use any kind of unlocking function, the station must be operated in backend mode via eCarUp.
+To operate a Pico publicly or semi-publicly, or to use any kind of authorization function, the station must be operated in backend mode via eCarUp.
 
-Unlocking functions:
+Authorization functions:
 
 - RFID
 
-- manual On / Off via app
+- Manual On / Off via app
 
 - QR codes
 
-- CarID (requires activation in the advanced settings (erweiterte Einstellungen) in the smart-me portal)
+- CarID (requires activation in the advanced settings in the smart-me portal)
 
 
 
 
-As soon as “eCarUp Backend” is selected, the station is automatically added to the eCarUp account of the same name. (same username and password as for smart-me)
+As soon as “eCarUp Backend” is selected, the station is automatically added to the eCarUp account of the same name. (Same username and password as for smart-me)
 
 You configure eCarUp in the web portal at [www.ecarup.com](http://www.ecarup.com).
 
@@ -52,7 +52,7 @@ eCarUp Wiki: [https://ecarupwiki.smart-me.com](https://ecarupwiki.smart-me.com)
 
 
 
-### Configuration external OCPP backend:
+### Configuration with external OCPP backend:
 
 To integrate the Pico into a third-party backend, you only need to enter the third-party provider's backend URL on the respective charging station.
 
@@ -84,7 +84,7 @@ Enter the third-party backend URL:
 
 
 
-Prices (Preise) = 0 CHF, Access: Private (Zugriff: Privat)
+Prices = 0 CHF, Access: Private (Zugriff: Privat)
 
 ![Pico Configuration – Figure 7](/img/konfiguration-inbetriebnahme-pico-konfiguration/07.png)
 
@@ -97,21 +97,21 @@ Prices (Preise) = 0 CHF, Access: Private (Zugriff: Privat)
 
 ![Pico Configuration – Figure 8](/img/konfiguration-inbetriebnahme-pico-konfiguration/06.png)
 
-3\. Select prices (Preise)
+3\. Select prices
 
 ![Pico Configuration – Figure 9](/img/konfiguration-inbetriebnahme-pico-konfiguration/09.png)
 
 4\. Define special users and their prices
 
-The drivers create their own account at eCarUp and tell the station owner their account name.
+The drivers create their own account with eCarUp and give the account name to the station owner.
 
 ![Pico Configuration – Figure 10](/img/konfiguration-inbetriebnahme-pico-konfiguration/10.png)
 
 ## Personalizing the Pico display
 
-We advise against inserting a black background image, as it is then unclear whether the Pico is running or not. Especially when it is offline, it is difficult to judge from a distance whether the station is defective or not connected. For this reason, we recommend that energy-conscious users add this 4-pixel image so that it can always be seen whether the station is still running locally or not. [Pixel Status.gif](https://drive.google.com/uc?export=download&id=1iaQ6ZVWwL5f6gTqEcRyhkmrbaiKq3CNC)
+We advise against using a black background image, as it is then unclear whether the Pico is running or not. Especially when it is offline, it is difficult to judge from a distance whether the station is defective or not connected. For this reason, we recommend that energy-conscious users add this 4-pixel image so that it can always be seen whether the station is still running locally or not. [Pixel Status.gif](https://drive.google.com/uc?export=download&id=1iaQ6ZVWwL5f6gTqEcRyhkmrbaiKq3CNC)
 
-The name of the station and the display when not in use can be freely chosen  and personalized.
+The name of the station and the display when not in use can be freely chosen and personalized.
 
 In addition to the emoticons already available, you can also upload your own GIFs or images. 
 
@@ -123,12 +123,9 @@ In addition to the emoticons already available, you can also upload your own GIF
 
 - Background should be completely black (#000000)
 
-- Animations (GIF) have 10 frames/s (100ms per frame)
-
+- Animations (GIF) run at 10 frames/s (100ms per frame)
 
 Note: You get the best image result if, when creating and editing, you make sure that the image is uploaded at 32x32 pixels in GIF format.
-
-
 
 \-> Create your own GIFs with [piskelapp](/drittsysteme/piskelapp) 
 
@@ -138,31 +135,31 @@ Note: You get the best image result if, when creating and editing, you make sure
 
 ### Limiting station power
 
-The Pico charging station can be standardized  during installation.
+The Pico charging station can be standardized during installation.
 
 This setting is taken into account by the automatic load management and is never overwritten.
 
-The maximum charging current setting allows the maximum power of the station to be permanently limited. The limitation is set in 1-ampere steps.
+With the maximum charging current setting, the maximum power of the station can be permanently limited. The limitation is set in 1-ampere steps.
 
 32A = 22kW maximum power
 
 16A = 11kW maximum power
 
-The minimum current setting prevents charging  or sets suitable minimum currents for a car to start charging.
+With the minimum current setting, charging is prevented or suitable minimum currents are set for a car to start charging.
 
 Note:
-Some vehicles cannot be charged with a starting current of 6A due to the technology installed in the vehicle. In this case, the minimum current can be set higher.
+Some vehicles cannot be charged with a starting current of 6A due to the technology built into the vehicle. In this case, the minimum current can be set higher.
 
 ![Pico Configuration – Figure 12](/img/konfiguration-inbetriebnahme-pico-konfiguration/12.png)
 
 ### Static load management (station group)
 
-Static load management controls stations within the same load management group. The function ensures that the maximum current on the supply line, e.g. flat ribbon cable, is not exceeded and controls the distribution of the available current among the stations. 
+Static load management controls stations within the same load management group. The function ensures that the maximum current on the supply line, e.g. a flat ribbon cable, is not exceeded and controls the distribution of the available current to the stations. 
 
 The size of the charging groups is limited to 200 charging stations.
 
 Function in detail:
-The charging stations regulate themselves based on the defined maximum current. The 3-phase charging power is distributed among all active stations until the set minimum power can no longer be provided 3-phase to all charging cars. After that, the power is switched to 1-phase. All cars continue charging 1-phase with the maximum possible current per phase (phase switching). A further charge only becomes impossible once all cars already charging have reached the 1-phase minimum. As soon as one of the charged vehicles leaves the station, the reserved charge is released for another one.
+The charging stations regulate themselves based on the defined maximum current. The 3-phase charging power is distributed across all active stations until the minimum set power can no longer be provided 3-phase to all charging cars. After that, the power is switched to 1-phase. All cars continue charging 1-phase with the maximum possible current per phase (phase switching). A further charging session only becomes impossible once all cars already charging have reached the 1-phase minimum. As soon as one of the charged vehicles leaves the station, the reserved charge is released for another one.
 
 Configuration:
 
@@ -171,12 +168,10 @@ Configuration:
 2.  Define the maximum current of the supply line (Available current (Verfügbarer Strom))
 
 3.  Define the action in case of connection loss
-    (For combination with multilevel load management, only the option Max. current per group (Max. Strom pro Gruppe) can be used)
+
+    (For combination with multilevel load management, only the Max. current per group (Max. Strom pro Gruppe) version can be used)
 
 4.  Add stations to the corresponding load management group (Edit (Editieren))
-
-
-
 
 More details: [Pico load management](/produkte/pico-ladestation/pico-lastmanagement)
 
@@ -192,16 +187,16 @@ Dynamic load management makes it possible to take a reference point into account
 
 The following products are suitable as hardware for the reference measurement:
 
-- [Telstar 80A](/produkte/telstar)
+- [Telstar 80A](/produkte/telstar-80a)
 
-- [Telstar CT](/produkte/Telstar-CT)
+- [Telstar CT](/produkte/telstar-ct)
 
 
 Dynamic load management is configured via smart-me multilevel load management.
 
 Details and examples can be found here: [Multilevel load management](/konfiguration/multilevel-lastmanagement)
 
-Taking into account the current flowing at this reference point, you can influence the maximum currents of the station groups accordingly.
+Taking into account the current flowing at this reference point, you can accordingly influence the maximum currents of the station groups.
 
 ![Pico Configuration – Figure 15](/img/konfiguration-inbetriebnahme-pico-konfiguration/15.png)
 
@@ -209,7 +204,7 @@ Taking into account the current flowing at this reference point, you can influen
 
 Hardware load shedding (external inputs of the Pico)
 
-[](https://drive.google.com/open?id=1CnvydIjsXnRTXNFNnteObEg5VLJM9RqU5_PA78Gd_kY "Open Spreadsheet, Pico load shedding in new window")
+[](https://drive.google.com/open?id=1CnvydIjsXnRTXNFNnteObEg5VLJM9RqU5_PA78Gd_kY "Open Spreadsheet, Pico Lastabwurf in new window")
 
 <Embed src="https://docs.google.com/spreadsheets/d/1CnvydIjsXnRTXNFNnteObEg5VLJM9RqU5_PA78Gd_kY/htmlembed" height="245px" title="Spreadsheet, Pico load shedding" />
 
@@ -217,12 +212,12 @@ Pico load shedding
 
 Load shedding can also be implemented with only one available signal. 
 
-For the configuration from no charging to maximum charging power, the signal is wired to IN1 and IN2  as well as COM. For the configuration from 6A minimum power to maximum charging power, the signal only needs to be wired to IN2 and COM.
+For the configuration from no charging to maximum charging power, the signal is wired to IN1 and IN2 as well as COM. For the configuration from 6A minimum power to maximum charging power, the signal only needs to be wired to IN2 and COM.
 
 COM is the neutral conductor; IN1 and IN2 must be supplied with a voltage for the ON signal. IN1 and IN2 do not generate any voltage; it must be provided externally.
 
 Caution:
-Load shedding can be wired either to all Picos or, at minimum, to one Pico from each static load group.
+Load shedding can be wired either to all Picos or at least to one from each static load group.
 This function is also guaranteed without internet!
 
 Cloud-based load shedding via MLM
@@ -231,7 +226,7 @@ Load shedding can also be implemented via multilevel load management. The advant
 
 The disadvantage, however, is that the function is not executed if there is no internet connection.
 
-More details on the setup: [Multilevel load management](/konfiguration/multilevel-lastmanagement)
+More details on setup: [Multilevel load management](/konfiguration/multilevel-lastmanagement)
 
 ![Pico Configuration – Figure 16](/img/konfiguration-inbetriebnahme-pico-konfiguration/16.png)
 
@@ -277,7 +272,7 @@ Deletes the station and all data in the cloud
 Charging cables can be locked at the Pico charging station.
 
 Procedure:
-Plug in cable --> log in to smart-me portal --> select Pico --> select the gear icon at the top right --> advanced settings (erweiterte Einstellungen) --> Always lock cable permanently (Kabel immer fest verriegeln). 
+Plug in cable --> Log in to smart-me portal --> Select Pico --> Select the gear icon at the top right --> Advanced settings (erweiterte Einstellungen) --> Always lock cable permanently (Kabel immer fest verriegeln). 
 
 Note: 
 
@@ -285,7 +280,6 @@ Note:
 
 - If the power supply is interrupted or the Pico is restarted, the cable is briefly unlocked and locked again on startup.
 
-
-Requirement: The Pico must have at least communication version 0.0.7 for this. Picos manufactured before 31.12.2022 may be affected.
+Prerequisite: The Pico must have at least communication version 0.0.7 for this. Picos manufactured before 31.12.2022 may be affected.
 
 ![Always lock cable permanently](/img/konfiguration-inbetriebnahme-pico-konfiguration/19.png)

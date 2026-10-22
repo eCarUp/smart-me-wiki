@@ -250,7 +250,7 @@ Der Projekt Konfigurator erstellt dir auf Basis deiner Angaben die Stückliste a
 
 Ideal für Planer, Elektrofachleute.
 
-[Projektkonfigurator](/planung/Projektkonfigurator)
+[Projektkonfigurator](/planung/projektkonfigurator)
 
 ## Messdatenimport für Zählstellen der Energieversorger
 

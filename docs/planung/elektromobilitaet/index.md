@@ -20,10 +20,15 @@ Die Folge daraus wäre vorübergehender Stromausfall in Teilen oder im gesamten 
 Gleichzeitig muss eine Reduktion der Ladeleistung gewährleistet werden wenn der Energieversorger bei Unterversorgung sein Netz schützen muss.
 
 Das Lastmanagement übernimmt neben dem Überlastschutz normalerweise noch weitere Funktionen:
+
 - Überlastschutz der Installation
+
 - Optimierung der Energieverteilung auf aktive Ladungen innerhalb des Areals
+
 - Berücksichtigung anderer Verbraucher im System und Priorisierung dieser Verbraucher gegenüber der Ladeinfrastruktur
+
 - Priorisierung der Ladegruppen untereinander
+
 - Priorisierung der Tarifverwendung zum Laden der Fahrzeuge (z.B. Netzstrom- oder Solaroptimiert)
 
 
@@ -57,7 +62,7 @@ Mehr Details findest du unter "Abrechnung" im jeweiligen Thementeil.
 
 [Pico allgemeine Installationsplanung Abgänge und Absicherungen.](/produkte/pico-ladestation/installationsplanung)
 
-[Projektkonfigurator](/planung/Projektkonfigurator)
+[Projektkonfigurator](/planung/projektkonfigurator)
 
 </div>
 <div className="col col--4 text--center">
@@ -67,17 +72,28 @@ Mehr Details findest du unter "Abrechnung" im jeweiligen Thementeil.
 </div>
 </div>
 
-### smart-me ZEV / Mieterstrom und smart-me Pico Ladestation
+### smart-me ZEV und smart-me Pico Ladestation
 
 [Detaillösung](/planung/elektromobilitaet/smart-me-zev-und-pico)
 
-[Projektkonfigurator](/planung/Projektkonfigurator)
+[Projektkonfigurator](/planung/projektkonfigurator)
 
-### smart-me ZEV / Mieterstrom und Fremdstationen
+![Elektromobilität – Abbildung 2](/img/planung-elektromobilitaet/02.png)
+
+![Elektromobilität – Abbildung 3](/img/planung-elektromobilitaet/03.png)
+
+### smart-me ZEV und Fremdstationen
 
 [Detaillösung](/planung/elektromobilitaet/smart-me-zev-und-fremdstationen)
 
-### Drittanbieter ZEV / Mieterstrom und smart-me Pico Ladestation
+![Elektromobilität – Abbildung 4](/img/planung-elektromobilitaet/04.png)
+
+![Elektromobilität – Abbildung 5](/img/planung-elektromobilitaet/05.png)
+
+### Drittanbieter ZEV und smart-me Pico Ladestation
 
 [Detaillösung](/planung/elektromobilitaet/drittanbieter-zev-und-pico)
 
+![Elektromobilität – Abbildung 6](/img/planung-elektromobilitaet/06.png)
+
+![Elektromobilität – Abbildung 7](/img/planung-elektromobilitaet/07.png)

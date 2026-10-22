@@ -13,19 +13,19 @@ This starting page applies to Switzerland and Liechtenstein. You can find topics
 
 <Kacheln min="15rem">
 
-<Kachel titel="Frequently asked questions" href="/faq">
+<Kachel titel="Häufige Fragen" href="/faq">
 
 Account, subscription and meters — the questions we receive most often.
 
 </Kachel>
 
-<Kachel titel="Contact Switzerland" href="/kontakt">
+<Kachel titel="Kontakt Schweiz" href="/kontakt-schweiz">
 
 Sales, licences and technical support for Switzerland and Liechtenstein.
 
 </Kachel>
 
-<Kachel titel="Outages" href="/news/status">
+<Kachel titel="Störungen" href="/news/status">
 
 Current and resolved outages of the smart-me services.
 

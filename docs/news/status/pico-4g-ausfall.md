@@ -24,7 +24,7 @@ Lösung 2: Station über WLAN oder Hotspot ohne Installer App online bringen und
 
 Lösung 3: Sie senden die Pico Ladestation an smart-me AG, RMA-Pico-4G, Riedstrasse 18, 6343 Rotkreuz. Wir machen ein Firmware Update und senden die Pico wieder zurück. Bitte RMA-Pico-4G bei der Adresse hinzufügen für eine raschere Behebung des Problems. Bei diesem Vorgehen gehen die Konfigurationsdaten nicht verloren. Wenn Sie uns eine pico zusenden, bitte die Trackingnummer von der Post an [support@smart-me.com](mailto:support@smart-me.com) senden.
 
-Lösung 4: Sie füllen eine RMA aus und wird senden vorab eine gleichwertige Pico. Im Formular die Fehlerbeschreibung "Pico Offline 4G" verwenden. [https://dok.smart-me.com/rma-antragsformulare](/rma-antragsformulare). Bei diesem Vorgehen muss die neue Pico wieder konfiguriert werden.
+Lösung 4: Sie füllen eine RMA aus und wird senden vorab eine gleichwertige Pico. Im Formular die Fehlerbeschreibung "Pico Offline 4G" verwenden. [https://dok.smart-me.com/rma-antragsformulare](/rma-antragsformular-schweiz). Bei diesem Vorgehen muss die neue Pico wieder konfiguriert werden.
 
 
 

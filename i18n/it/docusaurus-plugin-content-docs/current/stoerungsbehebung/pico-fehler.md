@@ -1,10 +1,10 @@
 ---
 title: 'Errori Pico'
 slug: '/stoerungsbehebung/pico-fehler'
-description: 'In questa pagina vengono illustrati gli errori noti della Pico.'
+description: 'Questa pagina illustra gli errori noti della Pico.'
 sidebar_label: 'Errori Pico'
 ---
-In questa pagina vengono illustrati gli errori noti della Pico.
+Questa pagina illustra gli errori noti della Pico.
 
 ### RFID non riconosciuto.
 
@@ -12,30 +12,30 @@ In questa pagina vengono illustrati gli errori noti della Pico.
 
 Significato: 
 
-- Durante la scansione dell'RFID non vengono visualizzati né il codice QR né il logo RFID.
+- Durante la scansione dell'RFID non viene visualizzato né il codice QR né il logo RFID.
 
 
 
 
 Possibili cause:
 
-- La carta RFID è difettosa
+- La tessera RFID è difettosa
 
 - La Pico presenta un errore
 
 
 
 
-Misura:
+Rimedio:
 
-- Riavviare la Pico. Se il riavvio ha risolto il problema, Le saremmo grati se ci inviasse un'e-mail a [support@smart-me.com](mailto:support@smart-me.com). Indichi la data dell'evento e il numero di serie della Pico.
+- Riavviare la Pico. Se il riavvio ha risolto il problema, Le saremmo grati per un'e-mail a [support@smart-me.com](mailto:support@smart-me.com). Indichi la data dell'evento e il numero di serie della Pico.
 
-- Provare con una nuova carta RFID
+- Provare con una nuova tessera RFID
 
 
 ### Potenza di ricarica ridotta
 
-Se la Pico eroga meno potenza di quanto dovrebbe, è possibile che una fase non sia collegata correttamente o che sia scattato un fusibile. Cliccando su "Normale" ("Normal") è possibile visualizzare, in modo analogo ai contatori di corrente, le tensioni e le correnti.
+Se la Pico eroga meno potenza di quanto dovrebbe, è possibile che una fase non sia collegata correttamente o che sia intervenuto un fusibile. Facendo clic su "Normale" ("Normal") è possibile visualizzare le tensioni e le correnti, in modo analogo ai contatori di energia elettrica.
 
 ### Schermo nero (nessuna visualizzazione)
 
@@ -49,23 +49,23 @@ Possibili cause:
 
 - La Pico non è alimentata
 
-- È scattato il FI
+- È intervenuto l'interruttore differenziale (FI)
 
 - La Pico presenta un errore nel software locale
 
-Misura:
+Rimedio:
 
 - Se la Pico è offline
 
     - Passo 1: togliere l'alimentazione e riaccendere.
 
-    - Passo 2: verificare se la Application Version è 1.xx ([Verificare la versione hardware](https://webforms.smart-me.com/connect/deviceoverview.aspx)); in caso affermativo, [compilare l'RMA](/rma-antragsformulare) con la descrizione dell'errore: Schermo nero con Application Version 1.xx
+    - Passo 2: verificare se è installata la Application Version 1.xx ([Verificare la versione hardware](https://webforms.smart-me.com/connect/deviceoverview.aspx)); in caso affermativo, [compilare l'RMA](/rma-antragsformular-schweiz) con la descrizione dell'errore: Schermo nero con Application Version 1.xx
 
-    - Passo 3: se non è d'aiuto, contattare il supporto.
+    - Passo 3: se non è d'aiuto, rivolgersi al supporto.
 
-- Se la Pico è online, può essere riavviata tramite il portale smart-me. (Selezionare la Pico / Ingranaggio in alto a destra / Azioni avanzate (Erweiterte Aktionen) / Riavvio (Neustart))
+- Se la Pico è online, può essere riavviata tramite il portale smart-me. (Selezionare la Pico / Rotella dentata in alto a destra / Azioni avanzate (Erweiterte Aktionen) / Riavvio (Neustart))
 
-- Se il FI scatta, può trattarsi di un caso isolato. Se dovesse verificarsi più spesso, La preghiamo di contattarci. Fanno eccezione la "IONIQ 5" e la "Zoé": in casi isolati queste auto fanno scattare il FI alla fine della sessione di ricarica; in quanto produttori di stazioni di ricarica non possiamo farci nulla.
+- Se interviene l'interruttore differenziale (FI), può trattarsi di un caso isolato. Se dovesse verificarsi più spesso, La preghiamo di contattarci. Fanno eccezione la "IONIQ 5" e la "Zoé": con queste auto, in casi isolati, l'interruttore differenziale (FI) interviene al termine della sessione di ricarica; in quanto produttori di stazioni di ricarica non possiamo farci nulla.
 
 ![Errori Pico – Figura 1](/img/stoerungsbehebung-pico-fehler/01.png)
 
@@ -79,19 +79,19 @@ Quando si collega un'auto, normalmente con
 
 - Authentication eCarUp Backen 
 
-    - dovrebbe comparire l'immagine con "Auth RFID App".
+    - dovrebbe apparire l'immagine con "Auth RFID App".
 
 
 Se ciò non avviene, procedere come segue
 
-- Verificare sull'auto che il cavo sia inserito correttamente.
+- Sull'auto verificare che il cavo sia inserito correttamente.
 
-- Assicurarsi sulla Pico che il cavo sia inserito fino in fondo.
+- Sulla Pico assicurarsi che il cavo sia inserito fino in fondo.
 
 
-Se ancora non reagisce, il gestore della stazione deve verificare se alla stazione è collegato un cavo fisso.
+Se continua a non reagire, il gestore della stazione deve verificare se alla stazione è collegato un cavo fisso.
 
-- In tal caso, assicurarsi che nel portale smart-me sia attivata l'opzione "Cavo sempre bloccato" ("Kabel immer fest verriegelt"). 
+- In caso affermativo, assicurarsi che nel portale smart-me sia attivata l'opzione "Cavo sempre bloccato" ("Kabel immer fest verriegelt"). 
 
 - In caso contrario, eseguire questa operazione.
 
@@ -117,7 +117,7 @@ Possibili cause:
 
 - Un cavo di ricarica umido collegato in modo fisso.
 
-- Un cavo di ricarica che si è congelato durante la notte e poi si è scongelato.
+- Un cavo di ricarica che durante la notte si è congelato e poi scongelato.
 
 - Difetto del cavo o dell'auto. Lo si può verificare facendo ricaricare un'altra auto alla stazione oppure facendo ricaricare l'auto che causa l'errore a un'altra Pico.
 
@@ -126,25 +126,25 @@ Possibili cause:
 
 
 
-Misura:
+Rimedio:
 
-- Quando l'errore è stato attivato, la stazione deve essere riavviata per resettare l'errore.
+- Se l'errore è stato attivato, la stazione deve essere riavviata per resettare l'errore.
 
 
-![Errori Pico – Figura 3](/img/stoerungsbehebung-pico-fehler/03_EN.png)
+![Errori Pico – Figura 3](/img/stoerungsbehebung-pico-fehler/03.png)
 
 ### Cable Lock Error
 
 Significato: 
 
-- Questo errore si verifica quando il cavo non può essere bloccato (ad es. quando la spina non è inserita correttamente).
+- Questo errore compare quando il cavo non può essere bloccato (ad es. se la spina non è inserita correttamente).
 
 
-Misura: 
+Rimedio: 
 
-- Riavvii la  Pico una volta, tramite il cloud oppure localmente. In questo modo il sensore del blocco del cavo viene ricalibrato.
+- Riavviare una volta la  Pico, tramite il cloud oppure localmente. In questo modo il sensore del blocco del cavo viene ricalibrato.
 
-- Nella maggior parte dei casi è sufficiente anche inserire correttamente il cavo (con un po' di forza) e riprovare.
+- Nella maggior parte dei casi basta anche inserire correttamente il cavo (con un po' di forza) e riprovare.
 
 
 Visualizzazione nel portale
@@ -167,9 +167,9 @@ Significato:
 
 
 
-Misura: 
+Rimedio: 
 
-- Se un riavvio non porta al risultato desiderato, è necessario compilare un RMA. Descrizione dell'errore: Error 1
+- Se un riavvio non porta il risultato desiderato, occorre compilare un RMA. Descrizione dell'errore: Error 1
 
 
 ![Errori Pico – Figura 6](/img/stoerungsbehebung-pico-fehler/06.png)
@@ -185,9 +185,9 @@ Significato:
 
 
 
-Misura: 
+Rimedio: 
 
-- Se un riavvio non porta al risultato desiderato, è necessario compilare un RMA. Descrizione dell'errore: Error 2
+- Se un riavvio non porta il risultato desiderato, occorre compilare un RMA. Descrizione dell'errore: Error 2
 
 
 ![Errori Pico – Figura 7](/img/stoerungsbehebung-pico-fehler/07.png)
@@ -203,9 +203,9 @@ Significato:
 
 
 
-Misura: 
+Rimedio: 
 
-- Se un riavvio non porta al risultato desiderato, è necessario compilare un RMA. Descrizione dell'errore: Error 3
+- Se un riavvio non porta il risultato desiderato, occorre compilare un RMA. Descrizione dell'errore: Error 3
 
 
 ![Errori Pico – Figura 8](/img/stoerungsbehebung-pico-fehler/08.png)
@@ -221,7 +221,7 @@ Significato:
 
 
 
-Misura:
+Rimedio:
 
 - Vedere WARN RDC
 
@@ -237,7 +237,7 @@ Significato:
 - Distacco del carico attivo: potenza limitata
 
 
-![Errori Pico – Figura 10](/img/stoerungsbehebung-pico-fehler/10_EN.png)
+![Errori Pico – Figura 10](/img/stoerungsbehebung-pico-fehler/10.png)
 
 ### Diode Error
 
@@ -248,11 +248,11 @@ Possibili cause:
 - Il cavo di ricarica è difettoso
 
 
-Misura:
+Rimedio:
 
 - Sostituire / verificare il cavo di ricarica
 
-- Sulla Pico non è necessaria alcuna misura. Dopo 30 secondi può essere utilizzata di nuovo normalmente.
+- Sulla Pico non è necessario alcun intervento. Dopo 30 secondi può essere utilizzata di nuovo normalmente.
 
 - Verificare che sulla Pico sia installata almeno la versione 0.0.42. [Aggiornamento del firmware](/konfiguration/firmware-update) 
 
@@ -278,11 +278,11 @@ Possibili cause :
 - La Pico nel gruppo di ricarica non riesce a comunicare tramite la rete mesh con le altre Pico dello stesso gruppo di ricarica.
 
 
-Misure:
+Rimedi:
 
-- Verifichi che i nodi dispongano di corrente sufficiente.
+- Verificare che i nodi dispongano di corrente sufficiente.
 
-- Per un'analisi più approfondita La preghiamo di chiamare il supporto.
+- Per un'analisi più approfondita, La preghiamo di chiamare il supporto.
 
 
 ### Temperatura elevata
@@ -295,34 +295,34 @@ Temperatura elevata
 
 Significato: 
 
-- L'elevata temperatura interna della Pico fa sì che la potenza di ricarica massima venga ridotta.
+- L'elevata temperatura interna della Pico comporta una riduzione della potenza di ricarica massima.
 
 
 
 
 Possibili cause:
 
-- Irraggiamento solare diretto: l'apparecchio è forse esposto all'irraggiamento solare diretto, il che provoca un eccessivo sviluppo di calore.
+- Irraggiamento solare diretto: l'apparecchio è probabilmente esposto all'irraggiamento solare diretto, il che provoca un eccessivo sviluppo di calore.
 
 
 
 
-Misura:
+Rimedio:
 
 - Eseguire l'aggiornamento del firmware se la versione è inferiore a 0.0.29.
 
-- La luminosità del display della Pico dovrebbe essere impostata al minimo. Questo ha l'effetto maggiore, poiché in questo modo viene generata meno energia direttamente all'interno dell'alloggiamento.
+- La luminosità del display della Pico dovrebbe essere impostata al minimo. Questo ha l'effetto maggiore, poiché in tal modo viene generata meno energia direttamente all'interno dell'involucro.
 
 
 Problemi specifici delle auto
 
-- Hyundai Ioniq 5: in casi isolati quest'auto fa scattare il FI alla fine della sessione di ricarica; in quanto produttori di stazioni di ricarica non possiamo farci nulla, poiché il FI scatta indipendentemente dalla stazione di ricarica.
+- Hyundai Ioniq 5: con questa auto, in casi isolati, l'interruttore differenziale (FI) interviene al termine della sessione di ricarica; in quanto produttori di stazioni di ricarica non possiamo farci nulla, poiché l'interruttore differenziale (FI) interviene indipendentemente dalla stazione di ricarica.
 
-- Zoé: i modelli più vecchi devono essere configurati con una corrente di avvio di 10A, poiché con 6A non avviano la ricarica. Un test ha mostrato che con un cavo di ricarica monofase la ricarica si avvia anche quando sono disponibili solo 6A di corrente di avvio. In casi isolati quest'auto fa scattare il FI alla fine della sessione di ricarica; in quanto produttori di stazioni di ricarica non possiamo farci nulla, poiché il FI scatta indipendentemente dalla stazione di ricarica.
+- Zoé: i modelli più vecchi devono essere configurati con una corrente di avvio di 10A, poiché con 6A non avviano la ricarica. Un test ha dimostrato che con un cavo di ricarica monofase la ricarica si avvia anche quando sono disponibili solo 6A di corrente di avvio. Con questa auto, in casi isolati, l'interruttore differenziale (FI) interviene al termine della sessione di ricarica; in quanto produttori di stazioni di ricarica non possiamo farci nulla, poiché l'interruttore differenziale (FI) interviene indipendentemente dalla stazione di ricarica.
 
 - Renault Kangoo Electric: avvia la ricarica solo a partire da 8A
 
-- Skoda Enyaq: in alcuni casi possono passare fino a 1min 30sec prima che la sessione di ricarica si avvii. In alternativa disattivare la Car-ID.
+- Skoda Enyaq: in alcuni casi possono essere necessari fino a 1min 30sec prima che la sessione di ricarica si avvii. In alternativa, disattivare la Car-ID.
 
 - Audi Q4: la ricarica non si avvia. 
 
@@ -332,9 +332,9 @@ Problemi specifici delle auto
 
 - Dacia Spring: la ricarica non si avvia. Soluzione: installare la versione 0.0.33 e disattivare la car-id sulla Pico.
 
-- Hyundai Ioniq: l'auto si avvia solo se prima viene avvicinata la carta RFID e poi viene avviata la ricarica. In alternativa è necessario disattivare la Car-ID.
+- Hyundai Ioniq: l'auto si avvia solo se prima si avvicina la tessera RFID e poi si avvia la ricarica. In alternativa occorre disattivare la Car-ID.
 
-- Leapmotor / T03: non gestisce la commutazione delle fasi. Se la ricarica viene interrotta dall'auto dopo un  minuto, è necessario aprire e richiudere più volte la portiera dell'auto.
+- Leapmotor / T03: non gestisce la commutazione di fase. Se la ricarica viene interrotta dall'auto dopo un  minuto, occorre aprire e richiudere più volte la portiera dell'auto.
 
 - Subaru Solterra: avvia la ricarica solo a partire da 8A e con la Car-ID disattivata
 
@@ -342,4 +342,4 @@ Problemi specifici delle auto
 
 - Honda E:ny1: avvia la ricarica solo a partire da 8A.
 
-- dongfeng box: non gestisce la commutazione delle fasi. Se la ricarica viene interrotta dall'auto dopo un minuto, dopo 7 minuti è necessario sbloccare la portiera; a quel punto l'auto riprende a ricaricare.
+- dongfeng box: non gestisce la commutazione di fase. Se la ricarica viene interrotta dall'auto dopo un minuto, dopo 7 minuti occorre sbloccare la portiera; l'auto riprende quindi a ricaricare.

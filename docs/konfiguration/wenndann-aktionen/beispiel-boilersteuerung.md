@@ -14,7 +14,7 @@ Um Wenn/Dann-Aktionen nutzen zu können, musst du eine smart-me Limited- oder Pr
 
 Die technischen Daten sind bei den jeweiligen [Produkten](/produkte) zu finden. (z.B. maximale Schaltleistung).
 
-Die Konfiguration der Ausgänge ist auf der Seite [Ein- und Ausgänge](/schnittstellen/ein_und_ausgaenge) beschrieben (z.B. Aktivierung von Ausgang 1).
+Die Konfiguration der Ausgänge ist auf der Seite [Ein- und Ausgänge](/schnittstellen/ein-und-ausgaenge) beschrieben (z.B. Aktivierung von Ausgang 1).
 
 Die Grundlagen sind unter [Wenn/Dann-Aktionen](/konfiguration/wenndann-aktionen) beschrieben (z.B. wo ich Wenn-Dann-Aktionen finden kann).
 
@@ -663,7 +663,7 @@ Bei der Konfiguration der Wenn/Dann Aktionen immer darauf achten, ob die angezei
 
 Relais sind mit Boilern verbunden und wurden mit dem Namen "Boiler" versehen.
 
-Das Mosfet wird entsprechend den [Ein- und Ausgänge](/schnittstellen/ein_und_ausgaenge) konfiguriert und trägt den Namen "Booster und Legionelle".
+Das Mosfet wird entsprechend den [Ein- und Ausgänge](/schnittstellen/ein-und-ausgaenge) konfiguriert und trägt den Namen "Booster und Legionelle".
 
 Dauer bis die volle Leistung bezogen wird: 20 Sekunden
 
@@ -819,7 +819,7 @@ Bei der Konfiguration der Wenn/Dann Aktionen immer darauf achten, ob die angezei
 
 Relais sind mit Boilern verbunden und wurden mit dem Namen "Boiler" versehen.
 
-Das Mosfet wird entsprechend den [Ein- und Ausgänge](/schnittstellen/ein_und_ausgaenge) konfiguriert und trägt den Namen "Boiler Booster".
+Das Mosfet wird entsprechend den [Ein- und Ausgänge](/schnittstellen/ein-und-ausgaenge) konfiguriert und trägt den Namen "Boiler Booster".
 
 </div>
 <div className="col col--6 text--center">

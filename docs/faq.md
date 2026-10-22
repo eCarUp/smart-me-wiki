@@ -4,7 +4,7 @@ slug: '/faq'
 description: 'Die häufigsten Fragen zum smart-me Konto, Abonnement und zu den Zählern.'
 sidebar_label: 'Häufige Fragen'
 ---
-Die Fragen, die uns am häufigsten erreichen. Findest du deine nicht darunter, hilft dir unser [Kontakt](/kontakt) weiter.
+Die Fragen, die uns am häufigsten erreichen. Findest du deine nicht darunter, hilft dir unser [Kontakt](/kontakt-schweiz) weiter.
 
 <details id="wo-kann-ich-mein-login-passwort--e-mail-adresse-ändern">
 <summary>Wo kann ich mein Login Passwort / E-Mail-Adresse ändern?</summary>

@@ -1,8 +1,8 @@
 ---
-title: 'Drittanbieter ZEV / Mieterstrom und Pico'
+title: 'Drittanbieter ZEV und Pico'
 slug: '/planung/elektromobilitaet/drittanbieter-zev-und-pico'
-description: 'smart-me Pico Ladestation in Drittanbieter ZEV / Mieterstrom'
-sidebar_label: 'Drittanbieter ZEV / Mieterstrom und Pico'
+description: 'E-Mobilität mit der smart-me Pico Ladestation ohne smart-me ZEV'
+sidebar_label: 'Drittanbieter ZEV und Pico'
 ---
 ## E-Mobilität mit der smart-me Pico Ladestation ohne smart-me ZEV
 
@@ -20,22 +20,27 @@ Weitere Informationen dazu findest du hier unter "erweiterte Informationen".
 Vorteile des smart-me Lastmanagements:
 
 - Gleicher Hersteller der Messhardware und Ladestation: Top Kompatibilität und Zuverlässigkeit
+
 - Mehrstufiges dynamisch gesteuertes Lastenmanagement: Minimale Leistungsverluste und hohe Verfügbarkeit
+
 - Zentral gesteuerter Lastabwurf der gesamten Anlage
+
 - Areal- oder Hausoptimierte Solaroptimierungsfunktion
+
 - Ladegruppenpriorisierungen und passive Lastspitzenminimierung
+
 
 Funktional benötigte Hardwarepunkte für das gesamtheitliche Lastmanagement mit smart-me Hardware (Rote Pfeile):
 
-- 2x Haus Zähler ([Telstar 80A](/produkte/telstar) oder [Telstar CT](/produkte/Telstar-CT))
+- 2x Haus Zähler ([Telstar 80A](/produkte/telstar-80a) oder [Telstar CT](/produkte/telstar-ct))
     \- Solaroptimierungspunkt und nötig zur Kapazitätsverteilung innerhalb des Areales.
 
-- Optional 2x E-Mobility Zähler ([Telstar 80A](/produkte/telstar) oder [Telstar CT](/produkte/Telstar-CT))
+- Optional 2x E-Mobility Zähler ([Telstar 80A](/produkte/telstar-80a) oder [Telstar CT](/produkte/telstar-ct))
     \- Referenz wenn mehrere Ladegruppen an einem Abgang angeschlossen sind und sich die Kapazität teilen.
     \- Abrechnungsmessung für Verluste und Standbyenergie
     \- Andere Verbraucher welche nicht Pico Ladestationen sind können zusätzlich berücksichtigt werden. z.B. Garagenbeleuchtung
 
-- Optional wenn alle Häuser gemessen sind 1x Arealzähler ([Telstar 80A](/produkte/telstar) oder [Telstar CT](/produkte/Telstar-CT))
+- Optional wenn alle Häuser gemessen sind 1x Arealzähler ([Telstar 80A](/produkte/telstar-80a) oder [Telstar CT](/produkte/telstar-ct))
     \- Dieser Punkt kann virtuell aus den beiden Hauszählern gebildet werden. Voraussetzung ist das 100% der Lasten im Areal durch die Hauszähler gemessen werden.
 
 
@@ -48,6 +53,9 @@ Funktional benötigte Hardwarepunkte für das gesamtheitliche Lastmanagement mit
 ### Abrechnung der E-Mobilität ohne ZEV
 
 Die Abrechnung kann auf verschiedene Arten erfolgen mit ihren spezifischen Vor- und Nachteilen:
+
 - Abrechnung im Einheits- oder Mehrtarifsystem im ZEV mit [smart-me Billing](https://web.smart-me.com/energiekostenabrechnung/).
+
 - Abrechnung im Einheitstarifsystem mittels Post-Payment Methode und dem [eCarUp Backend](https://web.ecarup.com/referenzen/).
+
 - Abrechnung im Einheitstarif mittels hoch automatisierter Kreditkartenabrechnung und dem [eCarUp Backend](https://web.ecarup.com/referenzen/).

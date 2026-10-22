@@ -8,15 +8,15 @@ Modbus TCP permet d'interroger les valeurs de mesure d'un appareil directement v
 
 ### Prérequis
 
-Un abonnement smart-me Professional est nécessaire pour activer Modbus TCP
+Pour activer Modbus TCP, un abonnement smart-me Professional est nécessaire
 
 ## Appareils pris en charge
 
 Les appareils smart-me suivants prennent en charge Modbus TCP
 
-- [Compteur triphasé smart-me Telstar](/produkte/telstar)
+- [Compteur triphasé smart-me Telstar](/produkte/telstar-80a)
 
-- [Compteur triphasé Telstar CT](/produkte/Telstar-CT)
+- [Compteur triphasé Telstar CT](/produkte/telstar-ct)
 
 - [Borne de recharge Pico](/produkte/pico-ladestation)
 
@@ -25,7 +25,7 @@ Les appareils smart-me suivants prennent en charge Modbus TCP
 
 Il n'est pas possible d'attribuer une adresse IP fixe. Si vous le souhaitez, ce réglage doit être effectué sur le routeur. smart-me ne connaît pas l'adresse MAC des différents appareils. Celle-ci peut être déterminée à l'aide des instructions ci-dessous.
 
-Les requêtes ne devraient pas être effectuées plus souvent que toutes les 2 secondes. Une fréquence de requête plus élevée peut, dans certaines configurations, entraîner des requêtes sans réponse. L'appareil ne peut pas être endommagé par un intervalle de requête &lt; 2 secondes.
+Les requêtes ne devraient pas être effectuées plus souvent que toutes les 2 secondes. Une augmentation de la fréquence des requêtes peut, dans certaines configurations, entraîner des requêtes sans réponse. L'appareil ne peut pas être endommagé par un intervalle de requête de &lt; 2 secondes.
 
 ## Activer Modbus TCP
 
@@ -36,9 +36,9 @@ Les requêtes ne devraient pas être effectuées plus souvent que toutes les 2 s
 
 2.  Sélectionnez l'appareil souhaité.
 
-3.  Cliquez sur la roue dentée en haut à droite.
+3.  Sélectionnez la roue dentée en haut à droite.
 
-4.  Sous paramètres avancés (Erweiterte Einstellungen), activer Modbus TCP
+4.  Sous Paramètres avancés (Erweiterte Einstellungen), activer Modbus TCP
 
 5.  Enregistrer (Speichern)
 
@@ -59,11 +59,11 @@ Modbus TCP peut être utilisé avec la Pico si :
 2.  La Pico fait partie d'un groupe de gestion de la charge et en est le maître (déterminé automatiquement)
 
 
-Pour tous les esclaves d'un groupe de gestion de la charge, Modbus TCP est désactivé, car ceux-ci ne possèdent alors pas leur propre adresse IP.
+Modbus TCP est désactivé pour tous les esclaves d'un groupe de gestion de la charge, car ceux-ci ne disposent alors pas de leur propre adresse IP.
 Nous recommandons d'utiliser Modbus TCP uniquement pour la commande d'appareils individuels sans MESH.
 Si les Pico d'un groupe de gestion de la charge doivent être lues ou commandées, nous recommandons l'[API REST](/schnittstellen/api). 
 
-## Déterminer l'adresse de l'appareil
+## Trouver l'adresse de l'appareil
 
 Le registre Modbus d'un appareil smart-me peut être lu via DNS ou via l'adresse IP. 
 
@@ -81,11 +81,11 @@ Le registre Modbus d'un appareil smart-me peut être lu via DNS ou via l'adresse
 
 2.  Sélectionnez l'appareil souhaité.
 
-3.  Cliquez sur la roue dentée en haut à droite.
+3.  Sélectionnez la roue dentée en haut à droite.
 
-4.  Sous paramètres avancés (Erweiterte Einstellungen), activer le DNS (DNS aktivieren).
+4.  Sous Paramètres avancés (Erweiterte Einstellungen), activer le DNS (DNS aktivieren).
 
-5.  Dans la plupart des cas, l'IP interne (Interne IP) est nécessaire. Détails voir ci-dessous.
+5.  Dans la plupart des cas, l'IP interne (Interne IP) est nécessaire. Voir les détails ci-dessous.
 
 6.  Enregistrer (Speichern)
 
@@ -94,7 +94,7 @@ Le registre Modbus d'un appareil smart-me peut être lu via DNS ou via l'adresse
 </div>
 <div className="col col--8 text--center">
 
-![Modbus TCP – Illustration 2](/img/schnittstellen-modbus-tcp/02.png)
+![Modbus TCP – Figure 2](/img/schnittstellen-modbus-tcp/02.png)
 
 </div>
 </div>
@@ -117,17 +117,17 @@ smart-me utilise pour cela le service dns-me.com.
 
 ### Déterminer l'adresse IP avec le nom DNS
 
-Une fois le DNS activé, le nom DNS visible dans les paramètres avancés sous Activation DNS peut être utilisé pour un ping.
+Une fois le DNS activé, le nom DNS visible dans les paramètres avancés sous l'activation DNS peut être utilisé pour un ping.
 
 p. ex. ping smart-me\_6301587.dns-me.com
 
-En réponse, vous obtenez le résultat du ping, y compris l'adresse IP de l'appareil.
+En réponse, vous obtenez l'évaluation du ping, y compris l'adresse IP de l'appareil.
 
-![Modbus TCP – Illustration 3](/img/schnittstellen-modbus-tcp/03.png)
+![Modbus TCP – Figure 3](/img/schnittstellen-modbus-tcp/03.png)
 
 ### Déterminer l'adresse IP directement sur le routeur
 
-smart-me ne connaît pas l'adresse MAC des différents appareils. Déterminer l'adresse IP sans avoir préalablement activé le service DNS est donc plus compliqué. Une possibilité consiste à interroger toutes les adresses IP avec Modbus TCP et à vérifier quels numéros de série sont renvoyés en réponse.
+smart-me ne connaît pas l'adresse MAC des différents appareils. Déterminer l'adresse IP sans activer préalablement le service DNS est donc plus compliqué. Une possibilité consiste à interroger toutes les adresses IP avec Modbus TCP et à vérifier quels numéros de série sont renvoyés en réponse.
 
 ## Transmission des données
 
@@ -141,7 +141,7 @@ Le compteur smart-me prend en charge les fonctions Modbus suivantes :
 
 
 Adressage des registres
-Pour des raisons historiques, l'adresse dans Modbus est inférieure de 1 à l'adresse interne du registre. L'adresse de départ doit donc être « adresse du registre - 1 »
+Pour des raisons historiques, l'adresse dans Modbus est inférieure de 1 à l'adresse de registre interne. L'adresse de départ doit donc être « adresse de registre - 1 »
 
 ### Exemple Modbus
 
@@ -151,7 +151,7 @@ Modifier la gestion de la charge Pico
 
 modpoll.exe -r 0x206E -t 4:int -i -1 -m tcp -p 502 192.168.178.63 16000
 
-## Adresses des registres pour les compteurs et modules smart-me
+## Adresses de registre pour les compteurs et modules smart-me
 
 [](https://drive.google.com/open?id=1OwCQ-w5eBYssrGwMTfjZ-HBxL3uJ-QJyK6aXNMgfrwQ "Ouvrir la feuille de calcul Register Addressing dans une nouvelle fenêtre")
 
@@ -159,7 +159,7 @@ modpoll.exe -r 0x206E -t 4:int -i -1 -m tcp -p 502 192.168.178.63 16000
 
 Register Addressing
 
-## Adresses des registres pour les bornes de recharge Pico
+## Adresses de registre pour les bornes de recharge Pico
 
 [](https://drive.google.com/open?id=1uobN5-T43qRCa5Mvr4OHQfTNKyPBpHVYh19ONpXemYU "Ouvrir la feuille de calcul Pico-Modbus TCP dans une nouvelle fenêtre")
 
@@ -171,80 +171,80 @@ Pico-Modbus TCP
 
 Une borne de recharge Pico peut être commandée via Modbus TCP et le courant de charge peut être prédéfini.
 
-### Avec une version de firmware &lt; 0.0.53 :
+### Pour une version de firmware &lt; 0.0.53 :
 
-Le courant de charge peut être prédéfini une seule fois via le registre 0x206E en mA, simultanément pour les trois phases.
+Le courant de charge peut être prédéfini une seule fois via le registre 0x206E, en mA, pour les trois phases simultanément.
 
-Commande d'une seule borne dans un groupe de recharge (commande individuelle) :
+Adressage d'une station individuelle dans un groupe de recharge (commande individuelle) :
 
 - -   Ne charge qu'à partir du réglage minimal de l'appareil, p. ex. 6000 mA.
-        L'appareil essaie d'exploiter autant que possible le courant disponible.
+        L'appareil tente d'exploiter au mieux le courant disponible.
         Dans ce cas, l'appareil chargera en triphasé à 3x6A
         Une charge monophasée ne peut pas être imposée de manière dédiée. La charge d'un véhicule monophasé s'effectue en mode triphasé.
 
 
-Commande d'un groupe de plusieurs bornes :
+Adressage d'un groupe de stations comprenant plusieurs stations :
 
-- Seul l'appareil maître du groupe Pico possède une adresse IP accessible.
+- Seul l'appareil maître du groupe Pico dispose d'une adresse IP accessible.
 
 - Ne charge qu'à partir du réglage minimal de l'appareil, p. ex. 6000 mA.
-    Avec un réglage du groupe à 12000 mA
-    Avec trois charges actives : entraîne une charge monophasée de 12 A chacune sur L1, L2 et L3
-    Avec deux charges actives : entraîne deux charges triphasées à 6A
-    Avec une charge active : entraîne une charge triphasée à 12 A
+    Avec un réglage du groupe de 12000 mA
+    Avec trois charges actives : donne une charge monophasée de 12 A chacune sur L1, L2 et L3
+    Avec deux charges actives : donne deux charges triphasées à 6A
+    Avec une charge active : donne une charge triphasée à 12 A
 
 
 ### À partir de la version de firmware 0.0.53 :
 
 Le courant de charge peut :
 
-- être prédéfini pour les trois phases ensemble via le registre 0x206E en mA (même valeur pour toutes)
+- Être prédéfini pour les trois phases ensemble via le registre 0x206E en mA (même valeur pour toutes)
 
-- être indiqué ensemble mais individuellement par phase en mA ou en A (jusqu'à 499A, au-delà les mA sont supposés) via le registre 0x2071 
+- Être indiqué ensemble mais individuellement par phase en mA ou en A (jusqu'à 499A, au-delà les mA sont supposés) via le registre 0x2071 
 
-- être indiqué individuellement, phase par phase, en mA ou en A (jusqu'à 499A, au-delà les mA sont supposés) via les registres 0x2071, 0x 2073, 0x2075
+- Être indiqué individuellement, l'une après l'autre, par phase en mA ou en A (jusqu'à 499A, au-delà les mA sont supposés) via les registres 0x2071, 0x 2073, 0x2075
 
 
 Généralités sur le fonctionnement :
 
 - Le passage entre monophasé et triphasé devrait être limité côté commande à  1x toutes les 10 minutes.
 
-- Il est possible de basculer sur une phase prédéfinie L1, L2, L3 en prédéfinissant la disponibilité du courant. (La plus grande est retenue)
+- Il est possible de basculer sur une phase prédéfinie L1, L2, L3 en indiquant la disponibilité du courant. (La plus grande est retenue)
 
 - Il est possible de changer de phase entre L1, L2, L3 pendant une charge monophasée. (Changement du courant le plus élevé)
 
 
 Remarque importante concernant la commande externe :
 
-Il n'existe aucune limitation pour le passage d'une phase à l'autre ; veillez à le limiter par l'algorithme de commande.
+Il n'y a aucune limitation du changement entre les différentes phases ; veillez à le limiter au moyen de l'algorithme de commande.
 Il en va de même pour le passage de la charge monophasée à la charge triphasée et inversement.
-L'utilisation intensive des contacts de relais peut entraîner une défaillance prématurée des relais. Il est recommandé de ne pas changer de phase si le gain de puissance n'est pas proportionné. Une météo instable, d'autres gros consommateurs et d'autres raisons peuvent provoquer des commutations involontaires. Idéalement, l'attribution à une phase ne devrait pas changer lorsque le surplus manque seulement brièvement.
-smart-me décline toute responsabilité en cas de défaillance prématurée des relais lors de l'utilisation de commandes de fournisseurs tiers.
+L'utilisation intensive des contacts de relais peut entraîner une défaillance prématurée des relais. Il est recommandé de ne pas changer de phase lorsque le gain de puissance n'est pas proportionné. Une météo instable, d'autres gros consommateurs et d'autres raisons peuvent entraîner des commutations involontaires. Idéalement, l'attribution à une phase ne devrait pas changer lorsque l'excédent fait défaut seulement brièvement.
+smart-me décline toute responsabilité pour la défaillance prématurée de relais lors de l'utilisation de commandes de fournisseurs tiers.
 
-Commande d'une seule borne dans un groupe de recharge (commande individuelle) :
+Adressage d'une station individuelle dans un groupe de recharge (commande individuelle) :
 
 - -   Ne charge qu'à partir du réglage minimal de l'appareil, p. ex. 6000,6000,8000 mA.
-        Les trois courants peuvent avoir des valeurs différentes. L'appareil essaie d'exploiter autant que possible le courant disponible.
+        Les trois courants peuvent avoir des valeurs différentes. L'appareil tente d'exploiter au mieux le courant disponible.
         Dans ce cas, l'appareil chargera en triphasé à 3x6A)
 
-    - 0,8000,0 mA entraîne une charge monophasée à 8 A sur L2
+    - 0,8000,0 mA donne une charge monophasée de 8 A sur L2
 
-    - 0, 8000 mA, 10000 mA entraîne une charge monophasée à 10 A sur L3
+    - 0, 8000 mA, 10000 mA donne une charge monophasée de 10 A sur L3
 
 
-Commande d'un groupe de plusieurs bornes :
+Adressage d'un groupe de stations comprenant plusieurs stations :
 
-- Seul l'appareil maître du groupe Pico possède une adresse IP accessible.
+- Seul l'appareil maître du groupe Pico dispose d'une adresse IP accessible.
 
 - Ne charge qu'à partir du réglage minimal de l'appareil, p. ex. 6000,6000,8000 mA.
     Les trois courants peuvent avoir une valeur différente.
-    Le groupe essaie d'utiliser au mieux le courant disponible.
+    Le groupe tente d'utiliser au mieux le courant disponible.
 
     Avec une charge active : un appareil chargera en triphasé à 3x6A.
     Avec deux charges actives : un appareil charge à 8A sur la phase L3 et le second à 6A sur L2 ou L1
 
-- 0, 8000 mA, 10000 mA et deux unités actives : donne une charge monophasée à 10 A sur L3 et une autre à 8 A sur L2 
+- 0, 8000 mA, 10000 mA et deux unités actives : donne une charge monophasée de 10 A sur L3 et une autre de 8 A sur L2 
 
-- 0,16000,10000 mA et trois unités actives : donne une charge monophasée à 10 A sur L3 et deux charges monophasées à 8 A chacune sur L2
+- 0,16000,10000 mA et trois unités actives : donne une charge monophasée de 10 A sur L3 et deux charges monophasées de 8 A chacune sur L2
 
 - 20000,20000,20000 mA et trois unités actives : donne trois charges triphasées comprises chacune entre 6 et 7 A.

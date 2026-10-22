@@ -145,13 +145,13 @@ Hinweis: 
 Immobiliensoftwares welche den DTA-VHKA Standard unterstützen.
 Liste gemäss Qualipool: [https://qualipool.ch/projekt/](https://qualipool.ch/projekt/) 
 
-- [Immotop2](/schnittstellen/dta-vhka-files/Immotop2)
+- [Immotop2](/schnittstellen/dta-vhka-files/immotop2)
 
 - Rimo R5 (Anleitung Immotop2 )
 
-- [Garaio REM](/schnittstellen/dta-vhka-files/Garaio-REM)
+- [Garaio REM](/schnittstellen/dta-vhka-files/garaio-rem)
 
-- [Abaimmo](/schnittstellen/dta-vhka-files/AbaImmo)
+- [Abaimmo](/schnittstellen/dta-vhka-files/abaimmo)
 
 
 ## Fehlermeldungen behandeln

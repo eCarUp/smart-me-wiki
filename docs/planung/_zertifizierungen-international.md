@@ -42,6 +42,6 @@ Unterliegt das Messmittel der Messgeräterichtlinie 2004/22/EG (Elektro-, Wärme
 
 Solche Messmittel sind am „CE“ respektive „CH“ in Kombination mit dem Metrologiekennzeichen „M“ erkennbar.
 
-![Zertifizierungen – Abbildung 1](/img/planung-zertifizierungen/01.png)
+![Zertifizierungen – Abbildung 1](/img/planung-zertifizierungen-schweiz/01.png)
 
 Beispiel:  CE M 20 (Eichungsjahr) 1259 (Eichstelle)

@@ -1,16 +1,15 @@
 ---
 title: 'M-Bus Gateway'
 slug: '/produkte/m-bus-gateway'
-description: 'The smart-me M-Bus Gateways read energy meters with an M-Bus interface (EN 13757-2, -3) and transmit the data automatically and encrypted via WiFi to the smart-me C…'
+description: 'The smart-me M-Bus Gateways read out energy meters with an M-Bus interface (EN 13757-2, -3) and transmit the data automatically and encrypted via WLAN to the smart-me C…'
 sidebar_label: 'M-Bus Gateway'
 ---
-The smart-me M-Bus Gateways read energy meters with an M-Bus interface (EN 13757-2, -3) and transmit the data automatically and encrypted via WiFi to the smart-me Cloud. Via the smart-me portal or our open interface, the values of various energy sources (water, heat, gas, temperature) can then be flexibly analysed and exported to third-party systems. 
+The smart-me M-Bus Gateways read out energy meters with an M-Bus interface (EN 13757-2, -3) and transmit the data automatically and encrypted via WLAN to the smart-me Cloud. Using the smart-me portal or our open interface, you can then flexibly analyze the values of different energy sources (water, heat, gas, temperature) and export them to third-party systems. 
 
-[EN](/produkte/m-bus-gateway)
 
 ## M-Bus Gateway (50 standard loads)
 
-### Functions
+### Features
 
 - [Installation](/konfiguration/inbetriebnahme) with the free smart-me app.
 
@@ -19,7 +18,7 @@ The smart-me M-Bus Gateways read energy meters with an M-Bus interface (EN 13757
 - Integrated power supply
 
 - Supports M-Bus devices according to EN 13757-2, -3 (formerly EN 1434-3)
-    The standard defines the protocol, but not the data it contains. Compliance with the standard alone is therefore no guarantee of effective operation. Check our [compatibility list](/produkte/m-bus-gateway).
+    The standard defines the protocol, but not the data it contains. Compliance with the standard alone is therefore no guarantee that a device will actually work. Check our [compatibility list](/produkte/m-bus-gateway).
 
 - Billing with the [smart-me Billing Tool](/konfiguration/billing)
 
@@ -41,13 +40,13 @@ The smart-me M-Bus Gateways read energy meters with an M-Bus interface (EN 13757
 ### Shipping information
 
 Article number: 150590
-Article name: smart-me M-Bus Gateway (with WiFi interface)
+Article name: smart-me M-Bus Gateway (mit WiFi Schnittstelle)
 
 Customs tariff number: 9028.1000
 
-Weight with packaging: 150g
+Weight including packaging: 150g
 
-### Connection diagram
+### Wiring diagram
 
 ![M-Bus Gateway – Figure 2](/img/produkte-m-bus-gateway/02.png)
 
@@ -55,7 +54,7 @@ Weight with packaging: 150g
 
 T(4) button for installation
 
-Pressing the T(4) button for 10 seconds creates a local WiFi for the installation
+Pressing button T(4) for 10 seconds creates a local WiFi network for the installation
 
 ### Dimensions
 
@@ -63,7 +62,7 @@ Pressing the T(4) button for 10 seconds creates a local WiFi for the installatio
 
 ## M-Bus Gateway Sirius (250 standard loads)
 
-### Functions
+### Features
 
 - [Installation](/konfiguration/inbetriebnahme) with the free smart-me app.
 
@@ -72,7 +71,7 @@ Pressing the T(4) button for 10 seconds creates a local WiFi for the installatio
 - Integrated power supply
 
 - Supports M-Bus devices according to EN 13757-2, -3 (formerly EN 1434-3).
-    The standard defines the protocol, but not the data it contains. Compliance with the standard alone is therefore no guarantee of effective operation. Check our [compatibility list](/produkte/m-bus-gateway).
+    The standard defines the protocol, but not the data it contains. Compliance with the standard alone is therefore no guarantee that a device will actually work. Check our [compatibility list](/produkte/m-bus-gateway).
 
 - Billing with the [smart-me Billing Tool](/konfiguration/billing)
 
@@ -98,9 +97,9 @@ Article name: smart-me M-Bus Gateway Sirius
 
 Customs tariff number: 9028.9000
 
-Weight with packaging: 260g
+Weight including packaging: 260g
 
-### Connection diagram
+### Wiring diagram
 
 ![M-Bus Gateway – Figure 5](/img/produkte-m-bus-gateway/05.png)
 
@@ -108,45 +107,45 @@ Weight with packaging: 260g
 
 Installation button (T1)
 
-Press briefly once = Toggles the installation mode 
+Press briefly once = toggles installation mode 
 
 Reset button (T2)
 
-Press briefly once = Reads the MBUS slaves 
+Press briefly once = reads out the MBUS slaves 
 
-Press and hold = Scans the M-BUS 
+Press and hold = scans the M-BUS 
 
 Installation button (T1) and reset button (T2) simultaneously
 
-Press and hold = Restarts the device 
+Press and hold = restarts the device 
 
 ## Commissioning
 
-On these pages you will find all relevant information for successfully commissioning the M-Bus Gateway.
+On these pages you will find all the relevant information for successfully commissioning the M-Bus Gateway.
 
-- [Preparing the commissioning](/konfiguration/inbetriebnahme#instructions-for-both-m-bus-gateways)
+- [Preparing for commissioning](/konfiguration/inbetriebnahme#instructions-for-both-m-bus-gateways)
 
 - [Commissioning](/konfiguration/inbetriebnahme)
 
-- [Numbering for combination meters](/konfiguration/inbetriebnahme#numbering-for-combined-meters) 
+- [Numbering for combined meters](/konfiguration/inbetriebnahme#numbering-for-combined-meters) 
 
 - [Searching for M-Bus Gateway devices](/konfiguration/inbetriebnahme)
 
-- [Preventing automatic device detection](/konfiguration/inbetriebnahme)
+- [Disabling automatic device detection](/konfiguration/inbetriebnahme)
 
 
 ## Compatible electricity, heat, water and gas meters
 
-The M-Bus Gateway reads more than 1000 meter types from various manufacturers. Below you will find a non-exhaustive list of compatible device manufacturers.
+The M-Bus Gateway reads out more than 1000 meter types from various manufacturers. Below you will find a non-exhaustive list of compatible device manufacturers.
 
-Note: Pay explicit attention to how the meter is declared. It can be declared as a heat meter, heat / cooling meter, water meter or electricity meter.
-Combination meters that are not declared as heat / cooling meters may not work correctly in combination or may only work as heat meters.
+Note: Pay close attention to how the meter is declared. It may be declared as a heat meter, heat / cooling meter, water meter or electricity meter.
+Combined meters that are not declared as heat / cooling meters may not work correctly in combination, or may only work as heat meters.
 
-<Embed src="https://drive.google.com/file/d/1PVhN_1lLolihf6eNQ_1x7UxZK8cjE_hq/preview" height="700px" title="Drive, compatibility list M-Bus_Gateway.xlsx" />
+<Embed src="https://drive.google.com/file/d/1PVhN_1lLolihf6eNQ_1x7UxZK8cjE_hq/preview" height="700px" title="Drive, compatibility list Kompatibilitätsliste M-Bus_Gateway.xlsx" />
 
 Kompatibilitätsliste M-Bus\_Gateway.xlsx
 
-Do you belong on this list too? If your product supports the M-Bus standard EN 13757-2, -3 (formerly EN 1434-3), we will be happy to list you among the compatible device manufacturers as well! [Contact](/kontakt) us. 
+Do you belong on this list too? If your product supports the M-Bus standard EN 13757-2, -3 (formerly EN 1434-3), we will be happy to add you to the list of compatible device manufacturers! [Contact](/kontakt) us. 
 
 ### Device manufacturer contacts
 
@@ -288,42 +287,42 @@ Brunnenbachstrasse 1, CH-8340 Hinwil
 
 </Kacheln>
 
-## M-Bus installation regulations
+## M-Bus installation guidelines
 
-How to complete the installation in no time
+How to make the installation quick and easy
 
-- Empty conduits or cable routes from the data centre to the junction boxes and the measuring devices
+- Empty conduits or cable routes from the data center to the junction boxes and the metering devices
 
-- Pulling in electrical cables to all measuring devices and components
+- Pulling electrical cables to all metering devices and components
 
 - Sealable junction / connection boxes at all terminal and connection points
 
-- Mounting of the data centre incl. connection
+- Mounting of the data center including connection
 
-- Power supply 230V / 10A from sealable fuse groups
+- 230V / 10A power supply from sealable fuse groups
 
 
 Caution: Do not apply voltage to the smart-me M-Bus Gateway. The operating voltage may only be switched on by a smart-me partner.
 
 Recommended combination of cable routing
-We recommend dividing the laying of the bus lines into riser lines and branch lines:
+We recommend dividing the bus lines into risers and branch lines:
 
 ![M-Bus Gateway – Figure 6](/img/produkte-m-bus-gateway/06.png)
 
-### Regulations for cable and electrical installation
+### Regulations for cabling and electrical installation
 
-The SEV regulations apply in general. Keep the bus lines as short as possible.
+The SEV regulations generally apply. Keep the bus lines as short as possible.
 The following cable types are recommended:
 
-Riser line: TT2×1,5 mm2 (preferred), maximum line length = 1000 m
+Riser: TT2×1,5 mm2 (preferred), maximum line length = 1000 m
 
 Branch line: U72 1×4×0,8 mm2 (preferred), maximum line length = 50 m
 
-Note: All junction, connection and joint points must be sealable. 
+Note: All junction, connection and splice points must be sealable. 
 
 Sealing is carried out by a smart-me partner.
 
-### Material suggestions
+### Suggested materials
 
 Connections/joints:
 
@@ -332,22 +331,22 @@ Connections/joints:
 - Flush-mounted boxes: standard junction boxes
 
 
-Line connections:
+Wire connections:
 
-- Button press connectors «Scotchlok IDC» 0,5 ... 1,5 mm2
+- Button crimp connectors «Scotchlok IDC» 0,5 ... 1,5 mm2
 
 - Standard terminals for low-voltage conductors
 
 
 ### At what interval do the meters send data?
 
-According to the configured interval, the data is read sequentially from each M-Bus meter. Reading one meter takes approx. 3 seconds. The meters are read in the order in which they are listed under the M-Bus Gateway.
+The data is read out sequentially from each M-Bus meter according to the configured interval. Reading out one meter takes approx. 3 seconds. The meters are read out in the order in which they are listed under the M-Bus Gateway.
 
 ## Technical description of the M-BUS protocol
 
-The smart-me Cloud basically displays all data that the meter sends via M-BUS. smart-me complies with the EN 13757-2, -3 standard. 
+The smart-me Cloud generally displays all the data that the meter sends via M-BUS. smart-me complies with the EN 13757-2, -3 standard. 
 
-Some examples of the mapping of the M-BUS telegrams: [Examples: smart-me M-BUS OBIS Mapping](https://docs.google.com/spreadsheets/d/1YdANNycQFGBsSAA0OtO-GKNZQg42OdUJ03VKlixGZ1w/edit#gid=0) 
+Some examples of the mapping of M-BUS telegrams: [Examples: smart-me M-BUS OBIS Mapping](https://docs.google.com/spreadsheets/d/1YdANNycQFGBsSAA0OtO-GKNZQg42OdUJ03VKlixGZ1w/edit#gid=0) 
 
 ## Downloads and declaration of conformity
 
@@ -359,9 +358,9 @@ Some examples of the mapping of the M-BUS telegrams: [Examples: smart-me M-BUS O
 
 [CE declaration of conformity](https://docs.google.com/document/d/1DcX2xhoSa0i654ABunFbcA3ggE6kinu_O7UsLT10aT8/export?format=pdf)
 
-[Connection diagram ZIP files](https://drive.google.com/file/d/1aWqGhEJNUqLfAEyXakRlTvbjRjgCZhvd/view?usp=sharing)
+[Wiring diagram ZIP files](https://drive.google.com/file/d/1aWqGhEJNUqLfAEyXakRlTvbjRjgCZhvd/view?usp=sharing)
 
-(\*.DXF and \*.DWG data can be found in the ZIP archive)
+(\*.DXF and \*.DWG files can be found in the ZIP archive)
 
 [Quick Starter](https://docs.google.com/document/d/1JR1tvgsvp0dWkmVYG-stafguL_LFGnxfsjQzVaJ-3Zk/export?format=pdf)
 
@@ -373,8 +372,8 @@ Some examples of the mapping of the M-BUS telegrams: [Examples: smart-me M-BUS O
 
 [CE declaration of conformity](https://drive.google.com/file/d/1BC3GzxyQl_Rweyo2YkghBBnUSanmdk1J/view?usp=drive_link)
 
-[Connection diagram ZIP files](https://drive.google.com/file/d/1Ek2m9yTKiov2OZ5Yyt7GICimtmRaut30/view?usp=sharing)
+[Wiring diagram ZIP files](https://drive.google.com/file/d/1Ek2m9yTKiov2OZ5Yyt7GICimtmRaut30/view?usp=sharing)
 
-(\*.DXF data can be found in the ZIP archive)
+(\*.DXF files can be found in the ZIP archive)
 
 [Quick Starter](https://docs.google.com/document/d/10vunXjLE-58nRRgmSjM1b9HP6bTFtvs7D-GCRscIxWw/export?format=pdf)

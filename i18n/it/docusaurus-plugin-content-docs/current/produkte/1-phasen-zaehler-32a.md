@@ -5,9 +5,9 @@ description: 'Lo smart-me Meter è il primo contatore elettrico che può essere 
 sidebar_label: 'Contatore monofase 32A'
 displayed_sidebar: wikiSidebar
 ---
-Lo smart-me Meter è il primo contatore elettrico che può essere analizzato e comandato da qualsiasi luogo. Non è necessario alcun hardware aggiuntivo. Utilizza la rete WiFi esistente e si connette direttamente al smart-me Cloud. In questo modo è possibile visualizzare comodamente il proprio consumo di energia in tempo reale.
+Lo smart-me Meter è il primo contatore elettrico che può essere analizzato e comandato da qualsiasi luogo. Non è necessario alcun hardware aggiuntivo. Utilizza la rete WiFi esistente e si collega direttamente alla smart-me Cloud. In questo modo è possibile visualizzare comodamente il proprio consumo di energia in tempo reale.
 
-Vendita cessata il 01.01.2023, assistenza e supporto cloud continuano a essere garantiti.
+Vendita cessata il 01.01.2023, assistenza e supporto cloud restano garantiti.
 
 ![Contatore monofase 32A – Figura 1](/img/produkte-1-phasen-zaehler-32a/01.jpg)
 
@@ -25,9 +25,9 @@ Vendita cessata il 01.01.2023, assistenza e supporto cloud continuano a essere g
 
 - Datalogger integrato per due mesi (in caso di interruzione della connessione)
 
-- Connessione diretta e crittografata al smart-me Cloud (WiFi)
+- Connessione diretta e crittografata alla smart-me Cloud (WiFi)
 
-- Gestione completa dell'energia nel smart-me Cloud: 
+- Gestione completa dell'energia nella smart-me Cloud: 
 
     - Monitoraggio in tempo reale
 
@@ -40,7 +40,7 @@ Vendita cessata il 01.01.2023, assistenza e supporto cloud continuano a essere g
 
 ## Installazione
 
-Vedi [Messa in servizio](/konfiguration/inbetriebnahme) 
+Vedere [Messa in servizio](/konfiguration/inbetriebnahme) 
 
 ## Dati tecnici
 
@@ -52,9 +52,9 @@ Frequenza (f) 50 / 60 Hz
 
 Corrente max. 32 A (commutabile)
 
-Ingresso a impulsi E1 a potenziale zero\*, 25V - 253V AC/DC
+Ingresso a impulsi E1 a potenziale libero\*, 25V - 253V AC/DC
 
-Uscita digitale / uscita a impulsi S0 a potenziale zero\*, Opto Power MOSFET, 5-48VDC / 5- 230 VAC, max. 550mW
+Uscita digitale / uscita a impulsi S0 a potenziale libero\*, Opto Power MOSFET, 5-48VDC / 5- 230 VAC, max. 550mW
 
 \*non dispone di una propria alimentazione.
 
@@ -64,7 +64,7 @@ Corrente di avviamento &lt; 20 mA
 
 Tariffe 2+
 
-Montaggio su guida DIN
+Montaggio guida DIN
 
 Larghezza 2 moduli, 36 x 90 mm
 
@@ -76,7 +76,7 @@ Autoconsumo &lt; 0.5 W
 
 ## Configurare ingressi e uscite
 
-Lo smart-me Meter dispone di un'uscita e di un ingresso, che possono essere utilizzati come ingressi e uscite a impulsi o come contatto a potenziale zero commutabile. Trovi i dettagli [qui](/schnittstellen/ein_und_ausgaenge). 
+Lo smart-me Meter dispone di un'uscita e di un ingresso, che possono essere utilizzati come ingressi e uscite a impulsi o come contatto commutabile a potenziale libero. Trova i dettagli [qui](/schnittstellen/ein-und-ausgaenge). 
 
 ## Dimensioni e collegamenti
 
@@ -97,7 +97,7 @@ E1: commutazione tariffaria (ingresso digitale)
 
 \>25V tariffa 2
 
-S0: uscita a impulsi (contatto a potenziale zero)
+S0: uscita a impulsi (contatto a potenziale libero)
 
 </div>
 <div className="col col--7 text--center">
@@ -113,7 +113,7 @@ S0: uscita a impulsi (contatto a potenziale zero)
 
 - selezionare il contatore
 
-- in alto a destra selezionare la rotella dentata
+- in alto a destra selezionare la rotella
 
 - Impostazioni generali (Allgemeine Einstellungen)
 

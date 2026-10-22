@@ -23,7 +23,7 @@ Pico ist eine MID-zertifizierte Ladestation mit integrierter Mobilfunk- und WiFi
 
 [Pico Konfiguration](/konfiguration/inbetriebnahme/pico-konfiguration)
 
-[Zubehör](/produkte/pico-ladestation/pico-zubehör)
+[Zubehör](/produkte/pico-ladestation/pico-zubehoer)
 
 [Pico Anzeige](/produkte/pico-ladestation/pico-display)
 
@@ -47,7 +47,7 @@ Kurzvideo Pico erhält MID (2 min)
 
 - Integrierte SIM-Karte mit einem Datenvolumen von 10 Jahren
 
-- [MID-Zertifizierung](/planung/zertifizierungen#zertifizierungen-für-ladestationen-in-der-schweiz) und Lastgangzertifizierung der internen Meterhardware wegen grossem Display
+- [MID-Zertifizierung](/planung/zertifizierungen-schweiz#zertifizierungen-für-ladestationen-in-der-schweiz) und Lastgangzertifizierung der internen Meterhardware wegen grossem Display
 
 - Integrierte Fehlerschutzeinrichtungen 30mA AC nach IEC60947-2 und 6mA DC IEC62955
 
@@ -230,7 +230,7 @@ Pakete pro Europalette: 72 Stück
 
 ## Zubehör
 
-[Zubehör](/produkte/pico-ladestation/pico-zubehör) 
+[Zubehör](/produkte/pico-ladestation/pico-zubehoer) 
 
 ## Sicherheitshinweise
 

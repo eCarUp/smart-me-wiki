@@ -158,9 +158,9 @@ Anstatt die Leistung eines Zählers zu überwachen, kann auch der Schaltzustand 
 
     - Phasen (Nur 3 Phasen Zähler 32A und Plug)
 
-    - [Potentialfreier Ausgang](/schnittstellen/ein_und_ausgaenge)
+    - [Potentialfreier Ausgang](/schnittstellen/ein-und-ausgaenge)
 
-    - [Digitaler Eingang](/schnittstellen/ein_und_ausgaenge)
+    - [Digitaler Eingang](/schnittstellen/ein-und-ausgaenge)
 
 - Bei welchem Zustand soll die Dann-Aktion auslösen. "Ein", "Aus" oder beim Wechsel eines Zustands.
 

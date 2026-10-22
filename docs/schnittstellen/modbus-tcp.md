@@ -14,9 +14,9 @@ Um Modbus TCP zu aktivieren ist ein smart-me Professional Abo notwendig
 
 Folgende smart-me Geräte unterstützen Modbus TCP
 
-- [smart-me 3-Phasen Zähler Telstar](/produkte/telstar)
+- [smart-me 3-Phasen Zähler Telstar](/produkte/telstar-80a)
 
-- [3-Phasen Zähler Telstar CT](/produkte/Telstar-CT)
+- [3-Phasen Zähler Telstar CT](/produkte/telstar-ct)
 
 - [Pico Ladestation](/produkte/pico-ladestation)
 

@@ -24,10 +24,18 @@ const sidebars: SidebarsConfig = {
       label: 'Produkte',
       link: {type: 'doc', id: 'produkte/index'},
       items: [
-        'produkte/telstar',
-        'produkte/Telstar-CT',
-        'produkte/nimbus',
-        'produkte/m-bus-gateway',
+        'produkte/telstar-80a',
+        'produkte/telstar-ct',
+        'produkte/nimbus-100a',
+        {
+          type: 'category',
+          label: 'M-Bus Gateway',
+          link: {type: 'doc', id: 'produkte/m-bus-gateway/index'},
+          items: [
+            'produkte/m-bus-gateway/50-standardlasten',
+            'produkte/m-bus-gateway/sirius',
+          ],
+        },
         'produkte/lora-gateway-software',
         {
           type: 'category',
@@ -35,7 +43,7 @@ const sidebars: SidebarsConfig = {
           link: {type: 'doc', id: 'produkte/pico-ladestation/index'},
           items: [
             'produkte/pico-ladestation/pico-display',
-            'produkte/pico-ladestation/pico-zubehör',
+            'produkte/pico-ladestation/pico-zubehoer',
             'produkte/pico-ladestation/installationsplanung',
             'produkte/pico-ladestation/pico-lastmanagement',
             'produkte/pico-ladestation/pico-standfuss',
@@ -47,7 +55,7 @@ const sidebars: SidebarsConfig = {
             // Navigation beim Öffnen stehen bleibt.
           ],
         },
-        'produkte/1-phasen-zaehler',
+        'produkte/1-phasen-zaehler-80a',
         // Die eingestellten Produkte stehen bewusst nicht einzeln in der
         // Navigation: 1-Phasen Zähler 32A, 3-Phasen Zähler, Kamstrup Modul,
         // Landis+Gyr Modul, Pico Ladestation exA, Plug und smart-eye sind
@@ -65,16 +73,16 @@ const sidebars: SidebarsConfig = {
         {type: 'doc', id: 'planung/standard-messkonzept', customProps: {laender: ['de']}},
         {type: 'doc', id: 'planung/mkd3-messkonzept-nicht-teilnehmer', customProps: {laender: ['de']}},
         {type: 'doc', id: 'planung/investitionsrechner', customProps: {laender: ['ch']}},
-        {type: 'doc', id: 'planung/Projektkonfigurator', customProps: {laender: ['ch']}},
+        {type: 'doc', id: 'planung/projektkonfigurator', customProps: {laender: ['ch']}},
         {type: 'doc', id: 'planung/zev-zusammenschluss-zum-eigenverbrauch', customProps: {laender: ['ch']}},
         {type: 'doc', id: 'planung/virtuelle-zev-vzev', customProps: {laender: ['ch']}},
         {
           type: 'category',
           label: 'LEG - Lokale Elektrizitätsgemeinschaft',
           customProps: {laender: ['ch']},
-          link: {type: 'doc', id: 'planung/leg-lokale-elektrizitätsgemeinschaft/index'},
+          link: {type: 'doc', id: 'planung/leg-lokale-elektrizitaetsgemeinschaft/index'},
           items: [
-            'planung/leg-lokale-elektrizitätsgemeinschaft/leg-rechner',
+            'planung/leg-lokale-elektrizitaetsgemeinschaft/leg-rechner',
           ],
         },
         {
@@ -87,13 +95,13 @@ const sidebars: SidebarsConfig = {
             'planung/elektromobilitaet/smart-me-zev-und-pico',
           ],
         },
-        {type: 'doc', id: 'planung/zertifizierungen', customProps: {laender: ['ch']}},
+        {type: 'doc', id: 'planung/zertifizierungen-schweiz', customProps: {laender: ['ch']}},
         {type: 'doc', id: 'planung/zertifizierungen-deutschland', customProps: {laender: ['de']}},
         'planung/cloud-lizenzen',
         {type: 'doc', id: 'planung/abrechnung-vorbereiten', customProps: {laender: ['ch']}},
         {type: 'doc', id: 'planung/internetverbindung', customProps: {laender: ['ch']}},
         {type: 'doc', id: 'planung/vertrag-rechtliches', customProps: {laender: ['ch']}},
-        {type: 'doc', id: 'planung/Messkonzept-Notstromloesung', customProps: {laender: ['ch']}},
+        {type: 'doc', id: 'planung/messkonzept-notstromloesung', customProps: {laender: ['ch']}},
         {type: 'doc', id: 'planung/messkonzept-produzenten-hinter-haeuser', customProps: {laender: ['ch']}},
         {type: 'doc', id: 'planung/minergie', customProps: {laender: ['ch']}},
       ],
@@ -197,11 +205,11 @@ const sidebars: SidebarsConfig = {
         'stoerungsbehebung/multilevel-lastmanagement-fehlermeldung',
         'stoerungsbehebung/billing-fehlermeldungen',
         'stoerungsbehebung/telstar-ct-inbetriebnahmefehler',
-        'stoerungsbehebung/mbus-gateway-stoerungen',
+        'stoerungsbehebung/m-bus-gateway-stoerungen',
         'stoerungsbehebung/differenzen-mit-dem-ew',
         'stoerungsbehebung/visualisierungsfehler',
         'stoerungsbehebung/auto-export-fehler',
-        'stoerungsbehebung/virtueller-zähler-fehler',
+        'stoerungsbehebung/virtueller-zaehler-fehler',
         'stoerungsbehebung/csv-zahlen-richtig-formatieren',
         'stoerungsbehebung/systemgesundheit',
       ],
@@ -246,16 +254,16 @@ const sidebars: SidebarsConfig = {
       label: 'Drittprodukte',
       link: {type: 'doc', id: 'drittprodukte/index'},
       items: [
-        'drittprodukte/Stromwandler',
+        'drittprodukte/stromwandler',
         'drittprodukte/standfuss-fundamente',
-        'drittprodukte/zaehlersteckklemmen-nimbus-100A',
+        'drittprodukte/zaehlersteckklemmen-nimbus-100a',
       ],
     },
     {
       type: 'category',
       label: 'Schnittstellen',
       items: [
-        'schnittstellen/ein_und_ausgaenge',
+        'schnittstellen/ein-und-ausgaenge',
         'schnittstellen/api',
         'schnittstellen/ai-connector',
         'schnittstellen/auto-export',
@@ -268,9 +276,9 @@ const sidebars: SidebarsConfig = {
           // Am Oberpunkt gesetzt: Damit verschwinden die drei Unterseiten mit.
           customProps: {laender: ['ch']},
           items: [
-            'schnittstellen/dta-vhka-files/AbaImmo',
-            'schnittstellen/dta-vhka-files/Garaio-REM',
-            'schnittstellen/dta-vhka-files/Immotop2',
+            'schnittstellen/dta-vhka-files/abaimmo',
+            'schnittstellen/dta-vhka-files/garaio-rem',
+            'schnittstellen/dta-vhka-files/immotop2',
           ],
         },
         'schnittstellen/modbus-tcp',
@@ -292,30 +300,32 @@ const sidebars: SidebarsConfig = {
       label: 'Informationssicherheit',
       items: [
         'informationssicherheit/datensicherheit',
-        'informationssicherheit/zählertransaktionen',
+        'informationssicherheit/zaehlertransaktionen',
         'informationssicherheit/public-key-signature',
         'informationssicherheit/standardantworten',
       ],
     },
-    {type: 'doc', id: 'rma-antragsformulare', customProps: {laender: ['ch']}},
-    {type: 'doc', id: 'rma-antragsformulare-deutschland', customProps: {laender: ['de']}},
+    {type: 'doc', id: 'rma-antragsformular-schweiz', customProps: {laender: ['ch']}},
+    {type: 'doc', id: 'rma-antragsformular-deutschland', customProps: {laender: ['de']}},
     {
       type: 'category',
       label: 'News',
       items: [
         'news/firmware-release-notes',
         'news/app-release-notes',
-        {
-          type: 'category',
-          label: 'Status',
-          link: {type: 'doc', id: 'news/status/index'},
-          items: [
-            'news/status/pico-4g-ausfall',
-          ],
-        },
+        // „Kommunikationsunterbruch Pico über 4G" steht bewusst nicht in der
+        // Navigation: Die Seite gehört zu einer einzelnen Störung und ist von
+        // der Statusseite aus verlinkt – dort, wo die Störung beschrieben
+        // wird. Damit bleibt die Navigation frei von Einträgen, die nur so
+        // lange etwas bedeuten wie die Störung dauert. Die Seite ist weiterhin
+        // über die Suche und ihren Link erreichbar.
+        //
+        // Dadurch hat die Statusseite keine Unterseiten mehr und steht hier
+        // als einfacher Eintrag statt als Oberpunkt.
+        'news/status/index',
       ],
     },
-    {type: 'doc', id: 'kontakt', customProps: {laender: ['ch']}},
+    {type: 'doc', id: 'kontakt-schweiz', customProps: {laender: ['ch']}},
     {type: 'doc', id: 'kontakt-deutschland', customProps: {laender: ['de']}},
   ],
 };

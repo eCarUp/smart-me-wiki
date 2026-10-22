@@ -4,14 +4,14 @@ slug: '/faq'
 description: 'Le domande più frequenti sull''account smart-me, sull''abbonamento e sui contatori.'
 sidebar_label: 'Domande frequenti'
 ---
-Le domande che ci vengono poste più spesso. Se non trovi la tua tra queste, puoi rivolgerti ai nostri [Contatti](/kontakt).
+Le domande che riceviamo più spesso. Se non trovi la tua, il nostro [contatto](/kontakt-schweiz) ti aiuterà.
 
 <details id="wo-kann-ich-mein-login-passwort--e-mail-adresse-ändern">
 <summary>Dove posso modificare la password di accesso / l'indirizzo e-mail?</summary>
 
 Per modificare la password di accesso, vai su [smart-me.com](https://web.smart-me.com/login/) e accedi con il tuo account utente esistente. Clicca sul tuo nome utente (in alto a destra) e seleziona Impostazioni (Einstellungen). Clicca su Modifica password (Passwort ändern).
 
-Se non ricordi più la password, puoi reimpostarla tramite la funzione Password dimenticata (Passwort vergessen). A tale scopo, tuttavia, al momento della creazione dell'account deve essere stato utilizzato un indirizzo e-mail valido.
+Se non ricordi più la password, puoi reimpostarla tramite la funzione Password dimenticata (Passwort vergessen). A tale scopo, però, al momento della creazione dell'account deve essere stato utilizzato un indirizzo e-mail valido.
 
 </details>
 
@@ -27,13 +27,13 @@ Vai quindi su Pagamento (Bezahlung), Disdici abbonamento (Abo kündigen) e confe
 <details id="wieso-erscheint-mein-gelöschter-zähler-wieder-in-der-cloud">
 <summary>Perché il mio contatore eliminato ricompare nel cloud?</summary>
 
-Quando un contatore viene eliminato nel cloud, tutti i suoi dati nel cloud vengono eliminati. Se dopo l'eliminazione questo contatore invia nuovamente dati al cloud, il cloud lo ricrea (con un nuovo ID contatore). I dati di misura passati del contatore sono però eliminati in modo irrecuperabile. Anche le azioni se/allora o le impostazioni nel Billing non si riferiscono al "nuovo" contatore e devono quindi essere configurate di nuovo. 
+Quando un contatore viene eliminato nel cloud, vengono eliminati anche tutti i suoi dati nel cloud. Se dopo l'eliminazione questo contatore invia nuovamente dati al cloud, quest'ultimo lo ricrea (con un nuovo ID contatore). I dati di misura passati del contatore sono però eliminati in modo irreversibile. Anche le azioni se/allora o le impostazioni nel Billing non si riferiscono al "nuovo" contatore e devono quindi essere configurate di nuovo. 
 
-Con le seguenti misure si può evitare che il contatore invii nuovamente dati al cloud e venga quindi ricreato: 
+Con i seguenti accorgimenti si può evitare che il contatore invii di nuovo dati al cloud e venga quindi ricreato: 
 
 - Installare il contatore in un altro account, al quale potrà poi inviare i dati. 
 
-- Non alimentare più il contatore. Non appena il contatore viene nuovamente alimentato e dispone di nuovo di una connessione Internet, invia di nuovo i dati al cloud. 
+- Non alimentare più il contatore. Non appena il contatore viene di nuovo alimentato e dispone nuovamente di una connessione Internet, invia di nuovo i dati al cloud. 
 
 - Eliminare la rete WLAN dal contatore (vedi "[È possibile eliminare le informazioni WiFi salvate?](/konfiguration/inbetriebnahme#können-die-gespeicherten-wifi-informationen-gelöscht-werden)").  Senza Internet il contatore non può più inviare dati. 
 
@@ -72,12 +72,12 @@ Se l'account utilizza il modello di licenza Limited o Professional.
 
 5.  Clicca su Modifica nodo (Knoten editieren) (in alto sul riquadro verde)
 
-6.  Rimuovi la spunta da Contatore attivo (Zähler aktiv)
+6.  Togli la spunta da Contatore attivo (Zähler aktiv)
 
 7.  Premi Salva (Speichern).
 
-In alternativa puoi trascinare tutti i contatori in una cartella (ad es. "contatori disattivati") e, con un clic destro sulla cartella corrispondente, Azioni di massa (Massenaktionen), Disattiva tutti i contatori (Alle Zähler deaktivieren), disattivare tutti i contatori contemporaneamente. 
+In alternativa puoi trascinare i contatori tutti in una cartella (ad es. "contatori disattivati") e disattivarli tutti contemporaneamente cliccando con il tasto destro sulla cartella corrispondente, Azioni di massa (Massenaktionen), Disattiva tutti i contatori (Alle Zähler deaktivieren). 
 
-Nota sui contatori disattivati: un contatore disattivato non costa più alcuna licenza, ma finché è disattivato non puoi nemmeno accedere ai dati passati del contatore. Inoltre, per il periodo in cui il contatore è disattivato, nel cloud non vengono salvati nuovi dati di misura del contatore.  
+Nota sui contatori disattivati: un contatore disattivato non costa più alcuna licenza, ma finché è disattivato non puoi nemmeno più accedere ai dati passati del contatore. Inoltre, per il periodo in cui il contatore è disattivato, nel cloud non vengono salvati nuovi dati di misura del contatore.  
 
 </details>

@@ -76,7 +76,7 @@ Eigenverbrauch &lt; 0.5 W
 
 ## Ein- und Ausgänge konfigurieren
 
-Der smart-me Meter verfügt über einen Ausgang und einen Eingang, welche als Impuls Ein- und Ausgänge oder als schaltbarer potentialfreier Kontakt genutzt werden können. Details dazu findest du [hier](/schnittstellen/ein_und_ausgaenge). 
+Der smart-me Meter verfügt über einen Ausgang und einen Eingang, welche als Impuls Ein- und Ausgänge oder als schaltbarer potentialfreier Kontakt genutzt werden können. Details dazu findest du [hier](/schnittstellen/ein-und-ausgaenge). 
 
 ## Abmessungen und Anschlüsse
 

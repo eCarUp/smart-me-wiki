@@ -490,9 +490,9 @@ Zeilen dazu. Nur steht das Foto dort gross und mittig statt klein und links:
 ```jsx
 <Kacheln min="15rem">
 
-<Kachel bild="/img/produkte/01.png" bildtext="Telstar 80A" titel="Telstar 80A" href="/produkte/telstar" bildhoehe="10rem" mittig>
+<Kachel bild="/img/produkte/01.png" bildtext="Telstar 80A" titel="Telstar 80A" href="/produkte/telstar-80a" bildhoehe="10rem" mittig>
 
-Nachfolger: [3-Phasen Zähler Telstar 80A](/produkte/telstar)
+Nachfolger: [3-Phasen Zähler Telstar 80A](/produkte/telstar-80a)
 
 </Kachel>
 
@@ -954,9 +954,9 @@ Inbetriebnahme                   https://ecarup.github.io/smart-me-wiki/konfigur
 Rechnungsstellung                https://ecarup.github.io/smart-me-wiki/konfiguration/billing
 Drittsysteme                     https://ecarup.github.io/smart-me-wiki/drittsysteme
 Drittprodukte                    https://ecarup.github.io/smart-me-wiki/drittprodukte
-RMA-Antragsformular Schweiz      https://ecarup.github.io/smart-me-wiki/rma-antragsformulare?land=ch
-RMA-Antragsformular Deutschland  https://ecarup.github.io/smart-me-wiki/rma-antragsformulare-deutschland?land=de
-Kontakt Schweiz                  https://ecarup.github.io/smart-me-wiki/kontakt?land=ch
+RMA-Antragsformular Schweiz      https://ecarup.github.io/smart-me-wiki/rma-antragsformular-schweiz?land=ch
+RMA-Antragsformular Deutschland  https://ecarup.github.io/smart-me-wiki/rma-antragsformular-deutschland?land=de
+Kontakt Schweiz                  https://ecarup.github.io/smart-me-wiki/kontakt-schweiz?land=ch
 Kontakt Deutschland              https://ecarup.github.io/smart-me-wiki/kontakt-deutschland?land=de
 ```
 
@@ -974,9 +974,9 @@ Inbetriebnahme                   https://ecarup.github.io/smart-me-wiki/en/konfi
 Rechnungsstellung                https://ecarup.github.io/smart-me-wiki/en/konfiguration/billing
 Drittsysteme                     https://ecarup.github.io/smart-me-wiki/en/drittsysteme
 Drittprodukte                    https://ecarup.github.io/smart-me-wiki/en/drittprodukte
-RMA-Antragsformular Schweiz      https://ecarup.github.io/smart-me-wiki/en/rma-antragsformulare?land=ch
-RMA-Antragsformular Deutschland  https://ecarup.github.io/smart-me-wiki/en/rma-antragsformulare-deutschland?land=de
-Kontakt Schweiz                  https://ecarup.github.io/smart-me-wiki/en/kontakt?land=ch
+RMA-Antragsformular Schweiz      https://ecarup.github.io/smart-me-wiki/en/rma-antragsformular-schweiz?land=ch
+RMA-Antragsformular Deutschland  https://ecarup.github.io/smart-me-wiki/en/rma-antragsformular-deutschland?land=de
+Kontakt Schweiz                  https://ecarup.github.io/smart-me-wiki/en/kontakt-schweiz?land=ch
 Kontakt Deutschland              https://ecarup.github.io/smart-me-wiki/en/kontakt-deutschland?land=de
 ```
 
@@ -994,9 +994,9 @@ Inbetriebnahme                   https://ecarup.github.io/smart-me-wiki/fr/konfi
 Rechnungsstellung                https://ecarup.github.io/smart-me-wiki/fr/konfiguration/billing
 Drittsysteme                     https://ecarup.github.io/smart-me-wiki/fr/drittsysteme
 Drittprodukte                    https://ecarup.github.io/smart-me-wiki/fr/drittprodukte
-RMA-Antragsformular Schweiz      https://ecarup.github.io/smart-me-wiki/fr/rma-antragsformulare?land=ch
-RMA-Antragsformular Deutschland  https://ecarup.github.io/smart-me-wiki/fr/rma-antragsformulare-deutschland?land=de
-Kontakt Schweiz                  https://ecarup.github.io/smart-me-wiki/fr/kontakt?land=ch
+RMA-Antragsformular Schweiz      https://ecarup.github.io/smart-me-wiki/fr/rma-antragsformular-schweiz?land=ch
+RMA-Antragsformular Deutschland  https://ecarup.github.io/smart-me-wiki/fr/rma-antragsformular-deutschland?land=de
+Kontakt Schweiz                  https://ecarup.github.io/smart-me-wiki/fr/kontakt-schweiz?land=ch
 Kontakt Deutschland              https://ecarup.github.io/smart-me-wiki/fr/kontakt-deutschland?land=de
 ```
 
@@ -1014,9 +1014,9 @@ Inbetriebnahme                   https://ecarup.github.io/smart-me-wiki/it/konfi
 Rechnungsstellung                https://ecarup.github.io/smart-me-wiki/it/konfiguration/billing
 Drittsysteme                     https://ecarup.github.io/smart-me-wiki/it/drittsysteme
 Drittprodukte                    https://ecarup.github.io/smart-me-wiki/it/drittprodukte
-RMA-Antragsformular Schweiz      https://ecarup.github.io/smart-me-wiki/it/rma-antragsformulare?land=ch
-RMA-Antragsformular Deutschland  https://ecarup.github.io/smart-me-wiki/it/rma-antragsformulare-deutschland?land=de
-Kontakt Schweiz                  https://ecarup.github.io/smart-me-wiki/it/kontakt?land=ch
+RMA-Antragsformular Schweiz      https://ecarup.github.io/smart-me-wiki/it/rma-antragsformular-schweiz?land=ch
+RMA-Antragsformular Deutschland  https://ecarup.github.io/smart-me-wiki/it/rma-antragsformular-deutschland?land=de
+Kontakt Schweiz                  https://ecarup.github.io/smart-me-wiki/it/kontakt-schweiz?land=ch
 Kontakt Deutschland              https://ecarup.github.io/smart-me-wiki/it/kontakt-deutschland?land=de
 ```
 

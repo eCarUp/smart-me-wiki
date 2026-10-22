@@ -19,7 +19,7 @@ Konto, Abonnement und Zähler — die Fragen, die uns am häufigsten erreichen.
 
 </Kachel>
 
-<Kachel titel="Kontakt Schweiz" href="/kontakt">
+<Kachel titel="Kontakt Schweiz" href="/kontakt-schweiz">
 
 Verkauf, Lizenzen und technischer Support für die Schweiz und Liechtenstein.
 

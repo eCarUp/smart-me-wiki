@@ -7,7 +7,7 @@ sidebar_label: 'Zertifizierungen Deutschland'
 
 import International from './_zertifizierungen-international.md';
 
-Diese Seite gilt für Deutschland. Für die Schweiz und Liechtenstein gibt es eine [eigene Seite](/planung/zertifizierungen). Die Produktnormen und die MID gelten in beiden Ländern und stehen deshalb auf beiden Seiten.
+Diese Seite gilt für Deutschland. Für die Schweiz und Liechtenstein gibt es eine [eigene Seite](/planung/zertifizierungen-schweiz). Die Produktnormen und die MID gelten in beiden Ländern und stehen deshalb auf beiden Seiten.
 
 <International />
 
@@ -40,15 +40,15 @@ Zwingende Beschriftungen auf der Ladehardware:
 
 MID-Zertifizierung:
 
-![MID-Kennzeichnung](/img/planung-zertifizierungen/01.png)
+![MID-Kennzeichnung](/img/planung-zertifizierungen-schweiz/01.png)
 
-![MID-Kennzeichnung auf der Ladestation](/img/planung-zertifizierungen/07.png)
+![MID-Kennzeichnung auf der Ladestation](/img/planung-zertifizierungen-schweiz/07.png)
 
 Eichrecht:
 
-![Eichrecht-Kennzeichnung](/img/planung-zertifizierungen/08.png)
+![Eichrecht-Kennzeichnung](/img/planung-zertifizierungen-schweiz/08.png)
 
-![Eichrecht-Kennzeichnung auf der Ladestation](/img/planung-zertifizierungen/09.png)
+![Eichrecht-Kennzeichnung auf der Ladestation](/img/planung-zertifizierungen-schweiz/09.png)
 
 </div>
 </div>
@@ -62,7 +62,7 @@ Der Stromzähler misst die verbrauchte Energie und bestimmt den Betrag, der dem 
 
 Die Eichrecht-Vorschriften regeln auch andere Aspekte der Abrechnung. Die Ladestationen müssen die Preise deutlich anzeigen und den Kunden eine Quittung aushändigen, auf der die verbrauchte Energiemenge, der berechnete Preis und andere relevante Details angegeben sind.
 
-Die Ladevorgänge müssen dabei durch eine [unabhängige Transparenzsoftware](/informationssicherheit/zählertransaktionen) auf ihre Korrektheit gegengeprüft werden können.
+Die Ladevorgänge müssen dabei durch eine [unabhängige Transparenzsoftware](/informationssicherheit/zaehlertransaktionen) auf ihre Korrektheit gegengeprüft werden können.
 
 Das Eichgesetz regelt auch die Fragen der Datensicherheit und der Energieverluste bei den Ladevorgängen durch Verkabelung oder andere Mittel.
 

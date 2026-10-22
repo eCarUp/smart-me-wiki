@@ -1,12 +1,11 @@
 ---
 title: 'M-Bus Gateway'
 slug: '/produkte/m-bus-gateway'
-description: 'I gateway M-Bus smart-me leggono i contatori di energia con interfaccia M-Bus (EN 13757-2, -3) e trasmettono i dati in modo automatico e crittografato via WLAN al C…'
+description: 'I M-Bus Gateway smart-me leggono i contatori di energia con interfaccia M-Bus (EN 13757-2, -3) e trasmettono i dati automaticamente e in forma crittografata via WLAN nella smart-me C…'
 sidebar_label: 'M-Bus Gateway'
 ---
-I gateway M-Bus smart-me leggono i contatori di energia con interfaccia M-Bus (EN 13757-2, -3) e trasmettono i dati in modo automatico e crittografato via WLAN al cloud smart-me. Tramite il portale smart-me o la nostra interfaccia aperta è poi possibile analizzare in modo flessibile i valori di diversi vettori energetici (acqua, calore, gas, temperatura) ed esportarli in sistemi di terzi.
+I M-Bus Gateway smart-me leggono i contatori di energia con interfaccia M-Bus (EN 13757-2, -3) e trasmettono i dati automaticamente e in forma crittografata via WLAN nella smart-me Cloud. Tramite il portale smart-me o la nostra interfaccia aperta, i valori di diversi vettori energetici (acqua, calore, gas, temperatura) possono poi essere analizzati in modo flessibile ed esportati in sistemi di terzi. 
 
-[EN](/produkte/m-bus-gateway)
 
 ## M-Bus Gateway (50 carichi standard)
 
@@ -19,15 +18,15 @@ I gateway M-Bus smart-me leggono i contatori di energia con interfaccia M-Bus (E
 - Alimentatore integrato
 
 - Supporta dispositivi M-Bus secondo EN 13757-2, -3 (in precedenza EN 1434-3)
-    Lo standard definisce il protocollo, ma non i dati contenuti. Il solo rispetto della norma non garantisce quindi il funzionamento effettivo. Verifica la nostra [lista di compatibilità](/produkte/m-bus-gateway).
+    Lo standard definisce il protocollo, ma non i dati contenuti. Il solo rispetto della norma non garantisce quindi il funzionamento effettivo. Verifichi il nostro [elenco di compatibilità](/produkte/m-bus-gateway).
 
 - Fatturazione con lo [smart-me Billing Tool](/konfiguration/billing)
 
 - [Visualizzazioni](/konfiguration/visualisierung)
 
-- [Interfacce](/) tramite API, CSV, MSCONS e IS-E
+- [Interfacce](/) via API, CSV, MSCONS e IS-E
 
-- Connessione dati crittografata in tempo reale al cloud smart-me
+- Connessione dati crittografata in tempo reale con la smart-me Cloud
 
 
 ![M-Bus Gateway – Figura 1](/img/produkte-m-bus-gateway/01.jpg)
@@ -41,7 +40,7 @@ I gateway M-Bus smart-me leggono i contatori di energia con interfaccia M-Bus (E
 ### Informazioni di spedizione
 
 Numero articolo: 150590
-Nome articolo: smart-me M-Bus Gateway (con interfaccia WiFi)
+Nome articolo: smart-me M-Bus Gateway (mit WiFi Schnittstelle)
 
 Numero di tariffa doganale: 9028.1000
 
@@ -53,7 +52,7 @@ Peso con imballaggio: 150g
 
 ### Funzione del tasto
 
-Tasto T(4) per l'installazione
+T(4) Tasto per l'installazione
 
 Se il tasto T(4) viene premuto per 10 secondi, viene generata una rete WiFi locale per l'installazione
 
@@ -72,15 +71,15 @@ Se il tasto T(4) viene premuto per 10 secondi, viene generata una rete WiFi loca
 - Alimentatore integrato
 
 - Supporta dispositivi M-Bus secondo EN 13757-2, -3 (in precedenza EN 1434-3).
-    Lo standard definisce il protocollo, ma non i dati contenuti. Il solo rispetto della norma non garantisce quindi il funzionamento effettivo. Verifica la nostra [lista di compatibilità](/produkte/m-bus-gateway).
+    Lo standard definisce il protocollo, ma non i dati contenuti. Il solo rispetto della norma non garantisce quindi il funzionamento effettivo. Verifichi il nostro [elenco di compatibilità](/produkte/m-bus-gateway).
 
 - Fatturazione con lo [smart-me Billing Tool](/konfiguration/billing)
 
 - [Visualizzazioni](/konfiguration/visualisierung)
 
-- [Interfacce](/) tramite API, CSV, MSCONS e IS-E
+- [Interfacce](/) via API, CSV, MSCONS e IS-E
 
-- Connessione dati crittografata in tempo reale al cloud smart-me
+- Connessione dati crittografata in tempo reale con la smart-me Cloud
 
 
 ![M-Bus Gateway – Figura 4](/img/produkte-m-bus-gateway/04.png)
@@ -108,45 +107,45 @@ Peso con imballaggio: 260g
 
 Tasto di installazione (T1)
 
-Una breve pressione = attiva/disattiva la modalità di installazione
+Una breve pressione = Attiva/disattiva la modalità di installazione 
 
 Tasto di reset (T2)
 
-Una breve pressione = legge gli slave MBUS
+Una breve pressione = Legge gli slave MBUS 
 
-Pressione prolungata = esegue la scansione del M-BUS
+Pressione prolungata = Esegue la scansione dell'M-BUS 
 
 Tasto di installazione (T1) e tasto di reset (T2) contemporaneamente
 
-Pressione prolungata = riavvia il dispositivo
+Pressione prolungata = Riavvia il dispositivo 
 
 ## Messa in servizio
 
-In queste pagine trovi tutte le informazioni rilevanti per una messa in servizio corretta del M-Bus Gateway.
+In queste pagine trova tutte le informazioni rilevanti per una messa in servizio corretta dell'M-Bus Gateway.
 
 - [Preparazione della messa in servizio](/konfiguration/inbetriebnahme#istruzioni-per-entrambi-gli-m-bus-gateway)
 
 - [Messa in servizio](/konfiguration/inbetriebnahme)
 
-- [Numerazione dei contatori combinati](/konfiguration/inbetriebnahme#numerazione-dei-contatori-combinati)
+- [Numerazione dei contatori combinati](/konfiguration/inbetriebnahme#numerazione-dei-contatori-combinati) 
 
 - [Ricerca di dispositivi M-Bus Gateway](/konfiguration/inbetriebnahme)
 
-- [Disattivare il riconoscimento automatico dei dispositivi](/konfiguration/inbetriebnahme)
+- [Disattivare il rilevamento automatico dei dispositivi](/konfiguration/inbetriebnahme)
 
 
 ## Contatori elettrici, di calore, dell'acqua e del gas compatibili
 
-Il M-Bus Gateway legge oltre 1000 tipi di contatori di diversi produttori. Qui sotto trovi una lista non esaustiva dei produttori di dispositivi compatibili.
+L'M-Bus Gateway legge oltre 1000 tipi di contatori di diversi produttori. Qui sotto trova un elenco non esaustivo di produttori di dispositivi compatibili.
 
-Nota: presta particolare attenzione a come è dichiarato il contatore. Può essere dichiarato come contatore di calore, contatore di calore / freddo, contatore dell'acqua o contatore elettrico.
+Nota: presti particolare attenzione a come è dichiarato il contatore. Può essere dichiarato come contatore di calore, contatore di calore / freddo, contatore dell'acqua o contatore elettrico.
 I contatori combinati che non sono dichiarati come contatori di calore / freddo potrebbero non funzionare correttamente in modalità combinata o funzionare solo come contatori di calore.
 
-<Embed src="https://drive.google.com/file/d/1PVhN_1lLolihf6eNQ_1x7UxZK8cjE_hq/preview" height="700px" title="Drive, lista di compatibilità M-Bus_Gateway.xlsx" />
+<Embed src="https://drive.google.com/file/d/1PVhN_1lLolihf6eNQ_1x7UxZK8cjE_hq/preview" height="700px" title="Drive, Kompatibilitätsliste M-Bus_Gateway.xlsx" />
 
 Kompatibilitätsliste M-Bus\_Gateway.xlsx
 
-Anche tu dovresti figurare in questa lista? Se il tuo prodotto supporta lo standard M-Bus EN 13757-2, -3 (in precedenza EN 1434-3), saremo lieti di inserirti tra i produttori di dispositivi compatibili! [Contattaci](/kontakt).
+Anche Lei dovrebbe figurare in questo elenco? Se il Suo prodotto supporta lo standard M-Bus EN 13757-2, -3 (in precedenza EN 1434-3), saremo lieti di inserirla tra i produttori di dispositivi compatibili! [Ci contatti](/kontakt). 
 
 ### Contatti dei produttori di dispositivi
 
@@ -192,7 +191,7 @@ Zofingerstrasse 61, CH-4665 Oftringen
 
 [www.ista-swiss.ch](https://www.ista-swiss.ch)
 
-André Huber (caposquadra / centro tecnico) 
+André Huber (caposquadra / Technik Center) 
 
 +41 62 746 99 10 
 
@@ -254,7 +253,7 @@ Steinackerstr. 55, CH-8902 Urdorf
 
 [www.techem.ch](https://www.techem.ch)
 
-Roger Holliger (gestione prodotti) 
+Roger Holliger (product management) 
 
 +41 43 455 65 16 
 
@@ -292,9 +291,9 @@ Brunnenbachstrasse 1, CH-8340 Hinwil
 
 Così l'installazione riesce in un attimo
 
-- Tubi vuoti o canaline dalla centrale dati alle scatole di derivazione e agli strumenti di misura
+- Tubi vuoti o canaline dalla centrale dati alle scatole di derivazione e agli apparecchi di misura
 
-- Posa dei cavi elettrici verso tutti gli strumenti di misura e i componenti
+- Posa dei cavi elettrici verso tutti gli apparecchi di misura e i componenti
 
 - Scatole di derivazione / di collegamento piombabili in tutti i punti di serraggio e di collegamento
 
@@ -303,23 +302,23 @@ Così l'installazione riesce in un attimo
 - Alimentazione 230V / 10A da gruppi di fusibili piombabili
 
 
-Attenzione: non applicare tensione al smart-me M-Bus Gateway. L'inserimento della tensione di esercizio può essere eseguito solo da un partner smart-me.
+Attenzione: non applicare tensione all'M-Bus Gateway smart-me. L'inserimento della tensione di esercizio può essere effettuato solo da un partner smart-me.
 
 Raccomandazione per la combinazione dei percorsi dei cavi
 Raccomandiamo di suddividere la posa delle linee bus in linee montanti e linee di derivazione:
 
 ![M-Bus Gateway – Figura 6](/img/produkte-m-bus-gateway/06.png)
 
-### Prescrizioni per cavi e installazioni elettriche
+### Prescrizioni per l'installazione dei cavi e l'impianto elettrico
 
-In generale valgono le prescrizioni SEV. Dimensiona le linee bus il più corte possibile.
+In generale valgono le prescrizioni SEV. Le linee bus vanno dimensionate il più corte possibile.
 Si raccomandano i seguenti tipi di cavo:
 
 Linea montante: TT2×1,5 mm2 (preferito), lunghezza massima della linea = 1000 m
 
 Linea di derivazione: U72 1×4×0,8 mm2 (preferito), lunghezza massima della linea = 50 m
 
-Nota: tutti i punti di derivazione, di collegamento e di giunzione devono essere piombabili.
+Nota: tutti i punti di derivazione, di collegamento e di giunzione devono essere piombabili. 
 
 La piombatura viene eseguita da un partner smart-me.
 
@@ -327,12 +326,12 @@ La piombatura viene eseguita da un partner smart-me.
 
 Collegamenti/giunzioni:
 
-- Scatole AP: ad es. Woertz 78×78 mm
+- Scatole AP (a vista): ad es. Woertz 78×78 mm
 
-- Scatole UP: scatole di derivazione standard
+- Scatole UP (incassate): scatole di derivazione standard
 
 
-Giunzioni dei cavi:
+Giunzioni dei conduttori:
 
 - Connettori a pressione «Scotchlok IDC» 0,5 ... 1,5 mm2
 
@@ -341,13 +340,13 @@ Giunzioni dei cavi:
 
 ### A quale intervallo i contatori inviano i dati?
 
-In base all'intervallo impostato, i dati vengono letti in sequenza su ogni contatore M-Bus. La lettura di un contatore dura circa 3 secondi. I contatori vengono letti nell'ordine in cui sono elencati sotto il M-Bus Gateway.
+In base all'intervallo impostato, i dati vengono letti in sequenza da ciascun contatore M-Bus. La lettura di un contatore dura circa 3 secondi. I contatori vengono letti nell'ordine in cui sono elencati sotto l'M-Bus Gateway.
 
 ## Descrizione tecnica del protocollo M-BUS
 
-Nel cloud smart-me vengono di norma visualizzati tutti i dati che il contatore invia tramite M-BUS. smart-me si attiene allo standard EN 13757-2, -3.
+Nella smart-me Cloud vengono di norma visualizzati tutti i dati che il contatore invia tramite M-BUS. smart-me si attiene allo standard EN 13757-2, -3. 
 
-Alcuni esempi di mapping dei telegrammi M-BUS: [Examples: smart-me M-BUS OBIS Mapping](https://docs.google.com/spreadsheets/d/1YdANNycQFGBsSAA0OtO-GKNZQg42OdUJ03VKlixGZ1w/edit#gid=0)
+Alcuni esempi di mapping dei telegrammi M-BUS: [Examples: smart-me M-BUS OBIS Mapping](https://docs.google.com/spreadsheets/d/1YdANNycQFGBsSAA0OtO-GKNZQg42OdUJ03VKlixGZ1w/edit#gid=0) 
 
 ## Download e dichiarazione di conformità
 
@@ -359,7 +358,7 @@ Alcuni esempi di mapping dei telegrammi M-BUS: [Examples: smart-me M-BUS OBIS Ma
 
 [Dichiarazione di conformità CE](https://docs.google.com/document/d/1DcX2xhoSa0i654ABunFbcA3ggE6kinu_O7UsLT10aT8/export?format=pdf)
 
-[Schema di collegamento file ZIP](https://drive.google.com/file/d/1aWqGhEJNUqLfAEyXakRlTvbjRjgCZhvd/view?usp=sharing)
+[File ZIP dello schema di collegamento](https://drive.google.com/file/d/1aWqGhEJNUqLfAEyXakRlTvbjRjgCZhvd/view?usp=sharing)
 
 (I dati \*.DXF e \*.DWG si trovano nell'archivio ZIP)
 
@@ -373,7 +372,7 @@ Alcuni esempi di mapping dei telegrammi M-BUS: [Examples: smart-me M-BUS OBIS Ma
 
 [Dichiarazione di conformità CE](https://drive.google.com/file/d/1BC3GzxyQl_Rweyo2YkghBBnUSanmdk1J/view?usp=drive_link)
 
-[Schema di collegamento file ZIP](https://drive.google.com/file/d/1Ek2m9yTKiov2OZ5Yyt7GICimtmRaut30/view?usp=sharing)
+[File ZIP dello schema di collegamento](https://drive.google.com/file/d/1Ek2m9yTKiov2OZ5Yyt7GICimtmRaut30/view?usp=sharing)
 
 (I dati \*.DXF si trovano nell'archivio ZIP)
 

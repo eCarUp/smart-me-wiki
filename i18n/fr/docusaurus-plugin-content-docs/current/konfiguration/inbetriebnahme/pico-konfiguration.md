@@ -1,10 +1,10 @@
 ---
 title: 'Configuration Pico'
 slug: '/konfiguration/inbetriebnahme/pico-konfiguration'
-description: 'Cette page présente les principales configurations relatives au matériel Pico.'
+description: 'Sur cette page, vous trouverez les principales configurations relatives au matériel Pico.'
 sidebar_label: 'Configuration Pico'
 ---
-Cette page présente les principales configurations relatives au matériel Pico. La configuration de la borne de recharge Pico s'effectue toujours, dans un premier temps, via la plateforme smart-me. Ensuite, la méthode d'authentification peut être activée via un système backend (eCarUp).
+Sur cette page, vous trouverez les principales configurations relatives au matériel Pico. La première étape de configuration de la borne de recharge Pico se fait toujours sur la plateforme smart-me. Ensuite, la méthode d'authentification peut être activée par un système backend (eCarUp).
 
 ![Configuration Pico – Figure 1](/img/konfiguration-inbetriebnahme-pico-konfiguration/01.png)
 
@@ -14,25 +14,25 @@ Cette page présente les principales configurations relatives au matériel Pico.
 
 
 
-La borne de recharge Pico peut être utilisée au choix avec ou sans méthode d'authentification.
+La borne de recharge Pico peut être utilisée avec ou sans méthode d'authentification.
 
 
 
-### Configuration None :
+### Configuration None:
 
-Aucune authentification n'est nécessaire pour recharger. (la recharge démarre dès que le véhicule est branché)
+Aucune authentification n'est nécessaire pour la recharge. (la recharge démarre dès que le câble est branché)
 
 
 
-### Configuration avec backend eCarUp :
+### Configuration avec le backend eCarUp:
 
-Pour exploiter une Pico de manière publique / semi-publique ou pour utiliser toute forme de fonction de déverrouillage, la borne doit être exploitée en mode backend via eCarUp.
+Pour exploiter une Pico de manière publique / semi-publique ou pour utiliser des fonctions de déverrouillage de quelque type que ce soit, la borne doit fonctionner en mode backend avec eCarUp.
 
-Fonctions de déverrouillage :
+Fonctions de déverrouillage:
 
 - RFID
 
-- Activation / désactivation manuelle (On / Off) via l'app
+- Activation / désactivation manuelle via l'app
 
 - Codes QR
 
@@ -41,35 +41,35 @@ Fonctions de déverrouillage :
 
 
 
-Dès que « Backend eCarUp » (“eCarUp Backend”) est sélectionné, la borne est automatiquement ajoutée au compte eCarUp du même nom. (mêmes nom d'utilisateur et mot de passe que pour smart-me)
+Dès que « Backend eCarUp » (eCarUp Backend) est sélectionné, la borne est automatiquement ajoutée au compte eCarUp du même nom. (même nom d'utilisateur et même mot de passe que pour smart-me)
 
 La configuration d'eCarUp s'effectue dans le portail web [www.ecarup.com](http://www.ecarup.com).
 
-Sous Conducteurs (Fahrer), ajoutez un badge RFID ou enregistrez un « badge » (« Karten-Tag ») à l'aide de l'app eCarUp pour Android et iOS.
+Ajoutez un badge RFID sous Conducteurs (Fahrer) ou lisez un « badge » (Karten-Tag) à l'aide de l'app eCarUp pour Android et iOS.
 
-Vous trouverez des informations détaillées sur la configuration d'eCarUp et des bornes de recharge publiques dans le
-wiki eCarUp : [https://ecarupwiki.smart-me.com](https://ecarupwiki.smart-me.com) 
+Vous trouverez les détails sur la configuration d'eCarUp et des bornes de recharge publiques dans le
+wiki eCarUp: [https://ecarupwiki.smart-me.com](https://ecarupwiki.smart-me.com) 
 
 
 
-### Configuration avec backend OCPP externe :
+### Configuration d'un backend OCPP externe:
 
 Pour intégrer la Pico dans le backend d'un fournisseur tiers, il vous suffit d'enregistrer l'URL du backend de ce fournisseur sur la borne de recharge concernée.
 
 Cette option ne doit pas être utilisée si la borne est connectée via eCarUp.
 
-Remarque :
+Remarque:
 L'URL commence par ws:// ou wss://
 
-Paramètre Pico dans le portail smart-me :
+Paramètre Pico dans le portail smart-me:
 
 ![Configuration Pico – Figure 3](/img/konfiguration-inbetriebnahme-pico-konfiguration/03.png)
 
-Menu du portail eCarUp :
+Menu du portail eCarUp:
 
 ![Configuration Pico – Figure 4](/img/konfiguration-inbetriebnahme-pico-konfiguration/04.png)
 
-Enregistrer l'URL du backend du fournisseur tiers :
+Enregistrer l'URL du backend du fournisseur tiers:
 
 ![Configuration Pico – Figure 5](/img/konfiguration-inbetriebnahme-pico-konfiguration/05.png)
 
@@ -84,7 +84,7 @@ Enregistrer l'URL du backend du fournisseur tiers :
 
 
 
-Prix = 0 CHF, Accès : Privé (Privat)
+Prix (Preise) = 0 CHF, Accès: Privé (Zugriff: Privat)
 
 ![Configuration Pico – Figure 7](/img/konfiguration-inbetriebnahme-pico-konfiguration/07.png)
 
@@ -97,7 +97,7 @@ Prix = 0 CHF, Accès : Privé (Privat)
 
 ![Configuration Pico – Figure 8](/img/konfiguration-inbetriebnahme-pico-konfiguration/06.png)
 
-3\. Choisir les prix
+3\. Sélectionner les prix (Preise)
 
 ![Configuration Pico – Figure 9](/img/konfiguration-inbetriebnahme-pico-konfiguration/09.png)
 
@@ -107,28 +107,25 @@ Les conducteurs créent leur propre compte eCarUp et communiquent le nom de leur
 
 ![Configuration Pico – Figure 10](/img/konfiguration-inbetriebnahme-pico-konfiguration/10.png)
 
-## Personnalisation de l'affichage de la Pico
+## Personnaliser l'affichage de la Pico
 
-Nous déconseillons d'utiliser une image de fond noire, car il devient alors impossible de savoir si la Pico fonctionne ou non. En particulier lorsqu'elle est hors ligne, il est difficile de juger à distance si la borne est défectueuse ou simplement pas connectée. C'est pourquoi nous recommandons aux personnes soucieuses de leur consommation d'énergie d'ajouter cette image de 4 pixels, afin de toujours pouvoir reconnaître si la borne fonctionne encore localement. [Pixel Status.gif](https://drive.google.com/uc?export=download&id=1iaQ6ZVWwL5f6gTqEcRyhkmrbaiKq3CNC)
+Nous déconseillons d'utiliser une image de fond noire, car il n'est alors pas possible de savoir si la Pico fonctionne ou non. En particulier lorsqu'elle est hors ligne, il est difficile de juger à distance si la borne est défectueuse ou simplement non connectée. C'est pourquoi nous recommandons aux personnes soucieuses de leur consommation d'énergie d'ajouter cette image de 4 pixels, afin de toujours pouvoir constater si la borne fonctionne encore localement ou non. [Pixel Status.gif](https://drive.google.com/uc?export=download&id=1iaQ6ZVWwL5f6gTqEcRyhkmrbaiKq3CNC)
 
 Le nom de la borne et l'affichage en cas de non-utilisation peuvent être librement choisis et personnalisés.
 
-En plus des émoticônes déjà disponibles, vous pouvez également téléverser vos propres GIF ou images. 
+En plus des émoticônes déjà disponibles, vous pouvez également télécharger vos propres GIF ou images. 
 
-- Formats pris en charge : JPG, PNG, GIF
+- Formats pris en charge: JPG, PNG, GIF
 
-- Résolution : 32x32 pixels
+- Résolution: 32x32 pixels
 
-- Taille : max. 200 kB
+- Taille: max. 200 kB
 
 - L'arrière-plan doit être entièrement noir (#000000)
 
 - Les animations (GIF) ont 10 images/s (100ms par image)
 
-
-Remarque : Vous obtiendrez le meilleur résultat si vous veillez, lors de la création et de l'édition, à téléverser l'image en 32x32 pixels au format GIF.
-
-
+Remarque: Vous obtiendrez le meilleur résultat si, lors de la création et de l'édition, vous veillez à ce que l'image soit téléchargée en 32x32 pixels au format GIF.
 
 \-> Créez vos propres GIF avec [piskelapp](/drittsysteme/piskelapp) 
 
@@ -138,47 +135,45 @@ Remarque : Vous obtiendrez le meilleur résultat si vous veillez, lors de la cr�
 
 ### Limiter la puissance de la borne
 
-La borne de recharge Pico peut être standardisée lors de l'installation.
+La borne de recharge Pico peut être paramétrée de manière standard lors de l'installation.
 
-Ce réglage est pris en compte par la gestion de la charge automatique et n'est jamais écrasé.
+Ce paramètre est pris en compte par la gestion de la charge automatique et n'est jamais écrasé.
 
-Le réglage du courant de charge maximal permet de limiter de manière fixe la puissance maximale de la borne. La limitation s'effectue par paliers de 1 ampère.
+Le paramètre du courant de charge maximal permet de limiter de manière fixe la puissance maximale de la borne. La limitation se fait par paliers de 1 ampère.
 
 32A = 22kW de puissance maximale
 
 16A = 11kW de puissance maximale
 
-Le réglage du courant minimal permet d'empêcher des recharges ou de définir des courants minimaux adaptés au démarrage de la recharge d'un véhicule.
+Le paramètre du courant minimal permet d'empêcher des recharges ou de définir des courants minimaux adaptés au démarrage de la recharge d'une voiture.
 
-Remarque :
-Certains véhicules ne peuvent pas être rechargés avec un courant de démarrage de 6A en raison de la technique intégrée au véhicule. Dans ce cas, le courant minimal peut être augmenté.
+Remarque:
+Certains véhicules ne peuvent pas être rechargés avec un courant de démarrage de 6A, en raison de la technique intégrée au véhicule. Dans ce cas, le courant minimal peut être relevé.
 
 ![Configuration Pico – Figure 12](/img/konfiguration-inbetriebnahme-pico-konfiguration/12.png)
 
 ### Gestion de la charge statique (groupe de bornes)
 
-La gestion de la charge statique régule les bornes au sein d'un même groupe de gestion de la charge. Cette fonction empêche le dépassement du courant maximal sur la ligne d'alimentation, p. ex. un câble plat, et régule la répartition du courant disponible entre les bornes. 
+La gestion de la charge statique régule les bornes au sein d'un même groupe de gestion de la charge. Cette fonction empêche que le courant maximal sur la ligne d'alimentation, p. ex. un câble plat, soit dépassé et régule la répartition du courant disponible entre les bornes. 
 
 La taille des groupes de recharge est limitée à 200 bornes de recharge.
 
-Fonctionnement en détail :
-Les bornes de recharge se régulent elles-mêmes sur la base du courant maximal défini. La puissance de charge triphasée est répartie entre toutes les bornes actives jusqu'à ce que la puissance minimale réglée en triphasé ne puisse plus être fournie à tous les véhicules en charge. La puissance est ensuite basculée en monophasé. Tous les véhicules continuent à se recharger en monophasé avec le courant maximal possible par phase (commutation de phases). Une recharge supplémentaire n'est impossible que lorsque tous les véhicules déjà en charge ont atteint le minimum en monophasé. Dès qu'un des véhicules en charge quitte la borne, la charge réservée est libérée pour un autre.
+Fonctionnement en détail:
+Les bornes de recharge se régulent elles-mêmes sur la base du courant maximal défini. La puissance de recharge triphasée est répartie entre toutes les bornes actives, jusqu'à ce que la puissance minimale triphasée réglée ne puisse plus être mise à disposition de toutes les voitures en recharge. La puissance passe alors en monophasé. Toutes les voitures continuent à se recharger en monophasé avec le courant maximal possible par phase (commutation de phase). Une recharge supplémentaire ne devient impossible que lorsque toutes les voitures déjà en recharge ont atteint le minimum en monophasé. Dès que l'un des véhicules en recharge quitte la borne, la charge réservée est libérée pour un autre.
 
-Configuration :
+Configuration:
 
 1.  Créer un groupe de gestion de la charge (Nouveau groupe / Neue Gruppe)
 
 2.  Définir le courant maximal de la ligne d'alimentation (Courant disponible / Verfügbarer Strom)
 
 3.  Définir l'action en cas de perte de connexion
-    (En combinaison avec la gestion de la charge multiniveau, seule la variante Courant max. par groupe (Max. Strom pro Gruppe) est utilisable)
+
+    (Pour une combinaison avec la gestion de la charge multiniveau, seule la variante Courant max. par groupe (Max. Strom pro Gruppe) est utilisable)
 
 4.  Ajouter les bornes au groupe de gestion de la charge correspondant (Modifier / Editieren)
 
-
-
-
-Plus de détails : [Gestion de la charge Pico](/produkte/pico-ladestation/pico-lastmanagement)
+Plus de détails: [Gestion de la charge Pico](/produkte/pico-ladestation/pico-lastmanagement)
 
 ![Configuration Pico – Figure 13](/img/konfiguration-inbetriebnahme-pico-konfiguration/13.png)
 
@@ -190,16 +185,16 @@ La gestion de la charge dynamique permet de prendre en compte un point de réfé
 
 [Planification de la gestion de la charge](/planung/elektromobilitaet) 
 
-Les produits suivants conviennent comme matériel pour la mesure de référence :
+Les produits suivants conviennent comme matériel pour la mesure de référence:
 
-- [Telstar 80A](/produkte/telstar)
+- [Telstar 80A](/produkte/telstar-80a)
 
-- [Telstar CT](/produkte/Telstar-CT)
+- [Telstar CT](/produkte/telstar-ct)
 
 
 La configuration de la gestion de la charge dynamique s'effectue via la gestion de la charge multiniveau de smart-me.
 
-Vous trouverez des détails et des exemples ici : [Gestion de la charge multiniveau](/konfiguration/multilevel-lastmanagement)
+Vous trouverez des détails et des exemples ici: [Gestion de la charge multiniveau](/konfiguration/multilevel-lastmanagement)
 
 Vous pouvez ainsi agir sur les courants maximaux des groupes de bornes en tenant compte du courant circulant actuellement à ce point de référence.
 
@@ -209,7 +204,7 @@ Vous pouvez ainsi agir sur les courants maximaux des groupes de bornes en tenant
 
 Délestage matériel (entrées externes de la Pico)
 
-[](https://drive.google.com/open?id=1CnvydIjsXnRTXNFNnteObEg5VLJM9RqU5_PA78Gd_kY "Ouvrir la feuille de calcul Délestage Pico dans une nouvelle fenêtre")
+[](https://drive.google.com/open?id=1CnvydIjsXnRTXNFNnteObEg5VLJM9RqU5_PA78Gd_kY "Open Spreadsheet, Pico Lastabwurf in new window")
 
 <Embed src="https://docs.google.com/spreadsheets/d/1CnvydIjsXnRTXNFNnteObEg5VLJM9RqU5_PA78Gd_kY/htmlembed" height="245px" title="Feuille de calcul, délestage Pico" />
 
@@ -217,21 +212,21 @@ Délestage Pico
 
 Le délestage peut également être réalisé avec un seul signal disponible. 
 
-Pour la configuration de « aucune recharge » à « puissance de charge maximale », le signal est câblé sur IN1 et IN2 ainsi que sur COM. Pour la configuration de « puissance minimale de 6A » à « puissance de charge maximale », le signal doit être câblé uniquement sur IN2 ainsi que sur COM.
+Pour la configuration « aucune recharge à puissance de recharge maximale », le signal est câblé sur IN1 et IN2 ainsi que sur COM. Pour la configuration « puissance minimale de 6A à puissance de recharge maximale », le signal doit être câblé uniquement sur IN2 ainsi que sur COM.
 
-COM est le conducteur neutre ; IN1 et IN2 doivent être sous tension lors du signal ON. IN1 et IN2 ne génèrent pas de tension, celle-ci doit être fournie de l'extérieur.
+COM est le conducteur neutre, IN1 et IN2 doivent être sous tension en cas de signal ON. IN1 et IN2 ne génèrent pas de tension; celle-ci doit être fournie de l'extérieur.
 
-Attention :
+Attention:
 Le délestage peut être câblé soit sur toutes les Pico, soit au minimum sur une Pico de chaque groupe de charge statique.
-Cette fonction est garantie même sans Internet !
+Cette fonction est également garantie sans connexion Internet!
 
 Délestage basé sur le cloud via MLM
 
-Le délestage peut également être réalisé via la gestion de la charge multiniveau. L'avantage est qu'aucun signal ne doit être raccordé au matériel Pico : un signal est appliqué à n'importe quel autre matériel (compteur) et utilisé comme déclencheur.
+Le délestage peut également être réalisé via la gestion de la charge multiniveau. L'avantage est qu'aucun signal ne doit être raccordé au matériel de la Pico: un signal est appliqué sur n'importe quel autre matériel (compteur) et utilisé comme déclencheur.
 
 L'inconvénient est toutefois que la fonction n'est pas exécutée en l'absence de connexion Internet.
 
-Plus de détails sur la configuration : [Gestion de la charge multiniveau](/konfiguration/multilevel-lastmanagement)
+Plus de détails sur la configuration: [Gestion de la charge multiniveau](/konfiguration/multilevel-lastmanagement)
 
 ![Configuration Pico – Figure 16](/img/konfiguration-inbetriebnahme-pico-konfiguration/16.png)
 
@@ -240,7 +235,7 @@ Plus de détails sur la configuration : [Gestion de la charge multiniveau](/konf
 <div className="row">
 <div className="col col--6">
 
-En tant que propriétaire de la borne, vous pouvez ici déverrouiller le câble, redémarrer la borne ou afficher le relevé du compteur sur l'écran pour vérification.
+Ici, en tant que propriétaire de la borne, vous pouvez déverrouiller le câble, redémarrer la borne ou afficher le relevé du compteur à l'écran à des fins de vérification.
 
 </div>
 <div className="col col--6 text--center">
@@ -255,13 +250,13 @@ En tant que propriétaire de la borne, vous pouvez ici déverrouiller le câble,
 <div className="row">
 <div className="col col--6">
 
-Détection automatique du véhicule (Automatische Auto Erkennung) :
-Pour que l'authentification CarID fonctionne, vous devez autoriser la communication de la borne avec le véhicule.
+Détection automatique de la voiture (Automatische Auto Erkennung):
+Pour que l'authentification CarID fonctionne, vous devez autoriser la communication entre la borne et le véhicule.
 
-Modbus TCP :
+Modbus TCP:
 Activation de l'interface Modbus TCP de la Pico
 
-Supprimer la borne (Station löschen) :
+Supprimer la borne (Station löschen):
 Supprime la borne et toutes les données dans le cloud
 
 </div>
@@ -276,16 +271,15 @@ Supprime la borne et toutes les données dans le cloud
 
 Le câble de recharge peut être verrouillé sur la borne de recharge Pico.
 
-Procédure :
-Brancher le câble --> Se connecter au portail smart-me --> Choisir la Pico --> Cliquer sur la roue dentée en haut à droite --> Paramètres avancés (erweiterte Einstellungen) --> Toujours verrouiller le câble (Kabel immer fest verriegeln). 
+Procédure:
+Brancher le câble --> se connecter au portail smart-me --> sélectionner la Pico --> sélectionner la roue dentée en haut à droite --> paramètres avancés (erweiterte Einstellungen) --> Toujours verrouiller le câble (Kabel immer fest verriegeln). 
 
-Remarque : 
+Remarque: 
 
-- Le véhicule ne doit pas être branché lors de la fixation du câble.
+- La voiture ne doit pas être branchée lors de la fixation du câble.
 
-- Si l'alimentation électrique est interrompue ou si la Pico est redémarrée, le câble est brièvement déverrouillé, puis reverrouillé au démarrage.
+- En cas de coupure de l'alimentation électrique ou de redémarrage de la Pico, le câble est brièvement déverrouillé, puis verrouillé à nouveau au démarrage.
 
-
-Condition préalable : la Pico doit disposer au minimum de la version de communication 0.0.7. Les Pico fabriquées avant le 31.12.2022 peuvent être concernées.
+Condition préalable: la Pico doit disposer au minimum de la version de communication 0.0.7. Les Pico fabriquées avant le 31.12.2022 peuvent être concernées.
 
 ![Toujours verrouiller le câble](/img/konfiguration-inbetriebnahme-pico-konfiguration/19.png)

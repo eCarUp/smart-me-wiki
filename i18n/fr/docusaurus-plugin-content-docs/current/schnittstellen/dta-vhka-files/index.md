@@ -6,26 +6,26 @@ sidebar_label: 'Fichiers DTA-VHKA'
 ---
 ## Description générale de l'interface
 
-DTA-VHKA (Daten Träger Austausch der verbrauchsabhängigen Heiz- und Warmwasserkostenabrechnung, soit l'échange de supports de données pour le décompte des frais de chauffage et d'eau chaude sanitaire en fonction de la consommation) désigne l'interface d'échange électronique des données de consommation entre les entreprises de décompte et les gérances immobilières.
+DTA-VHKA (échange de supports de données pour le décompte des frais de chauffage et d'eau chaude en fonction de la consommation) désigne l'interface d'échange électronique des données de consommation entre les entreprises de décompte et les gérances immobilières.
 
-Une interface uniforme dans toute la Suisse pour l'import des données de consommation dans les logiciels de gérance garantit efficacité et flexibilité.
-Ainsi, les gérances immobilières peuvent collaborer avec toutes les entreprises de relevé, quel que soit le logiciel qu'elles utilisent.
+Une interface uniforme pour toute la Suisse, permettant d'importer les données de consommation dans les logiciels de gérance, garantit efficacité et flexibilité.
+Les gérances immobilières peuvent ainsi collaborer avec toutes les entreprises de relevé, quel que soit le logiciel qu'elles utilisent.
 
 ## Consignes de travail concernant les fichiers VHKA
 
-- L'état locatif est géré dans le logiciel immobilier. Dans le portail smart-me, les contrats et les logements vacants sont repris automatiquement sous « Destinataires des factures » ("Rechnungsempfänger").
+- L'état locatif est tenu à jour dans le logiciel immobilier. Dans le portail smart-me, les contrats et les vacances locatives sont repris automatiquement sous « Destinataires des factures » (Rechnungsempfänger).
 
-- L'état locatif dans le logiciel immobilier doit être complet ; les logements vacants doivent impérativement être transmis.
+- L'état locatif dans le logiciel immobilier doit être complet ; les vacances locatives doivent impérativement être transmises.
 
 
 ## Description du processus d'import et d'export DTA-VHKA
 
-1.  Exporter le fichier de demande VHKA de l'immeuble depuis le logiciel immobilier.
-    Le fichier est créé sur la base d'une période de décompte (date de début, date de fin) d'un immeuble.
-    Ce fichier contient alors, pour chaque locataire de l'immeuble au cours de cette période et pour chaque unité de décompte existante, une demande portant sur :
+1.  Exportez le fichier de demande VHKA de l'immeuble depuis le logiciel immobilier.
+    Le fichier est créé à partir d'une période de décompte (date de début, date de fin) d'un immeuble.
+    Ce fichier contient alors une demande pour chaque locataire de l'immeuble durant cette période, pour chaque unité de décompte existante, portant sur :
 
 
-- La consommation de l'unité de comptage en kWh ou m3
+- La consommation de l'unité de comptage en kWh ou en m3
 
 - La valeur en pour mille de la somme des coûts répartis
     (VEWA doit être configuré dans smart-me)
@@ -33,7 +33,7 @@ Ainsi, les gérances immobilières peuvent collaborer avec toutes les entreprise
 - La valeur en pour mille des coûts de base et des coûts variables
     (VEWA doit être configuré dans smart-me)
 
-- Le prix, dans une devise, des coûts accumulés, sous forme de somme ou répartis en coûts de base et coûts variables.
+- Le prix, dans une devise, des coûts accumulés, sous forme de somme ou répartis entre coûts de base et coûts variables.
     (VEWA doit être configuré dans smart-me)
 
 
@@ -43,7 +43,7 @@ Ainsi, les gérances immobilières peuvent collaborer avec toutes les entreprise
 
 4.  smart-me Billing calcule les consommations des différentes unités de décompte par type d'énergie et complète le fichier téléversé avec les données.
 
-5.  Le fichier complété avec les données est à nouveau exporté.
+5.  Le fichier complété par les données est à nouveau exporté.
 
 6.  Le fichier VHKA complété peut maintenant être téléversé à nouveau dans le logiciel immobilier.
 
@@ -55,26 +55,26 @@ Ainsi, les gérances immobilières peuvent collaborer avec toutes les entreprise
 - XML (standard DTA-VHKA)
 
 
-### Téléverser et télécharger le fichier
+### Téléverser et télécharger un fichier
 
 ![Import / export de fichiers DTA-VHKA (bêta) – Figure 2](/img/schnittstellen-dta-vhka-files/02.png)
 
 ![Import / export de fichiers DTA-VHKA (bêta) – Figure 3](/img/schnittstellen-dta-vhka-files/03.png)
 
-1.  Dans Billing, accédez à « Factures » ("Rechnungen"), puis à la section « Exporter » ("Exportieren")
+1.  Dans Billing, accédez à « Factures » (Rechnungen), puis à la section « Exporter » (Exportieren)
 
 
-2\. Sélectionnez le type d'export et téléversez le fichier via « Exporter » ("Exportieren").
+2\. Sélectionnez le type d'export et téléversez le fichier via « Exporter » (Exportieren).
 
-3\. Téléchargez le fichier complété sur votre ordinateur via « Télécharger » ("Herunterladen").
+3\. Téléchargez le fichier complété sur votre ordinateur via « Télécharger » (Herunterladen).
 
-## Liaison des centres de coûts avec les tarifs énergétiques et les unités d'habitation smart-me
+## Liaison des centres de coûts avec les tarifs d'énergie et les unités d'habitation smart-me
 
 Pour que la liaison entre le logiciel de gérance et l'immeuble smart-me fonctionne, des centres de coûts et des unités d'habitation correspondants doivent être créés dans les deux systèmes.
 
-Ceux-ci sont à leur tour reliés une seule fois, au moyen des numéros d'ID du fichier de mandat, aux tarifs et aux unités d'habitation dans smart-me.
+Ceux-ci sont à leur tour liés une seule fois, au moyen des numéros d'ID du fichier de mandat, aux tarifs et aux unités d'habitation dans smart-me.
 
-L'aperçu ci-dessous s'applique de manière générale à tous les systèmes de gérance immobilière.
+L'aperçu ci-dessous s'applique en principe à tous les systèmes de gestion immobilière.
 
 ### Centres de coûts et liaisons tarifaires lorsqu'un centre de coûts correspond à un système tarifaire
 
@@ -103,37 +103,37 @@ Centres de coûts pour l'électricité combinée
 
 Combinaisons les plus fréquentes :
 
-- Centre de coûts électricité du réseau : tarifs HT et NT + électricité de pointe
+- Centre de coûts électricité du réseau : tarifs HP et HC + électricité de pointe
 
-- Centre de coûts électricité locale : tarifs électricité solaire HT + électricité solaire NT 
+- Centre de coûts électricité locale : tarifs électricité solaire HP + électricité solaire HC 
 
 
 ![Import / export de fichiers DTA-VHKA (bêta) – Figure 7](/img/schnittstellen-dta-vhka-files/07.png)
 
-### Relier les centres de coûts aux tarifs énergétiques (définir les clés VKA)
+### Lier les centres de coûts aux tarifs d'énergie (définir la clé VKA)
 
-Des clés externes sont nécessaires pour mettre en correspondance les unités de décompte et les centres de coûts du fichier de demande avec les tarifs et les unités de décompte de la plateforme smart-me. 
+Les clés externes sont nécessaires pour faire correspondre les unités de décompte et les centres de coûts du fichier de demande avec les tarifs et les unités de décompte de la plateforme smart-me. 
 
 Remarque :
 Tant qu'aucune modification n'intervient du côté du logiciel immobilier (locaux ou centres de coûts supplémentaires), les clés externes sont statiques et ne doivent pas être renouvelées à chaque fois.
 
 ![Import / export de fichiers DTA-VHKA (bêta) – Figure 8](/img/schnittstellen-dta-vhka-files/08.png)
 
-Pour que les centres de coûts du fichier de mandat VHKA puissent être attribués de manière univoque, un tarif correspondant doit être défini et relié dans le portail smart-me pour chaque agent énergétique demandé.
+Pour que les centres de coûts du fichier de mandat VHKA puissent être attribués sans ambiguïté, un tarif correspondant doit être défini et lié dans le portail smart-me pour chaque agent énergétique demandé.
 
-La liaison se fait via la clé externe (Externer Schlüssel) du tarif créé.
+La liaison s'effectue via la clé externe respective du tarif créé.
 
-Si plusieurs tarifs sont reliés au même centre de coûts, plusieurs tarifs reçoivent simplement le même ID de centre de coûts.
+Si plusieurs tarifs sont liés au même centre de coûts, plusieurs tarifs reçoivent simplement le même ID de centre de coûts.
 
 Individuel :
-Centre de coûts électricité du réseau (ID= 6) --> Tarif unique réseau ( clé externe = 6)
+Centre de coûts électricité du réseau (ID= 6) --> Tarif unique réseau ( Clé externe = 6)
 
 Combiné :
-Centre de coûts électricité du réseau (ID= 6) \-->  heures pleines ( clé externe = 6) et heures creuses (clé externe = 6)
+Centre de coûts électricité du réseau (ID= 6) \-->  Heures pleines ( Clé externe = 6) et heures creuses (Clé externe = 6)
 
 Remarque : 
 
-- Si des tarifs d'électricité sont transmis de manière combinée, les prix des tarifs électriques doivent être saisis dans smart-me !
+- Si les tarifs d'électricité sont transmis de manière combinée , les prix des tarifs électriques doivent être enregistrés dans smart-me !
 
 - Pour les tarifs de chaleur et d'eau combinés, les coûts ne sont pas nécessaires dans smart-me.
 
@@ -145,13 +145,13 @@ Remarque :
 Logiciels immobiliers qui prennent en charge le standard DTA-VHKA.
 Liste selon Qualipool : [https://qualipool.ch/projekt/](https://qualipool.ch/projekt/) 
 
-- [Immotop2](/schnittstellen/dta-vhka-files/Immotop2)
+- [Immotop2](/schnittstellen/dta-vhka-files/immotop2)
 
 - Rimo R5 (instructions Immotop2 )
 
-- [Garaio REM](/schnittstellen/dta-vhka-files/Garaio-REM)
+- [Garaio REM](/schnittstellen/dta-vhka-files/garaio-rem)
 
-- [Abaimmo](/schnittstellen/dta-vhka-files/AbaImmo)
+- [Abaimmo](/schnittstellen/dta-vhka-files/abaimmo)
 
 
-## Traitement des messages d'erreur
+## Traiter les messages d'erreur

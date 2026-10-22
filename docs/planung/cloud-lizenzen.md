@@ -28,9 +28,9 @@ Standard für API, OCPP und M-Bus Zähler:
 
 Standard für:
 
-- [1-Phasen Zähler](/produkte/1-phasen-zaehler)
-- [3-Phasen Zähler Telstar](/produkte/telstar)
-- [3-Phasen Zähler Telstar CT](/produkte/Telstar-CT)
+- [1-Phasen Zähler](/produkte/1-phasen-zaehler-80a)
+- [3-Phasen Zähler Telstar](/produkte/telstar-80a)
+- [3-Phasen Zähler Telstar CT](/produkte/telstar-ct)
 - [Kamstrup Modul](/produkte/kamstrup-modul) (abgekündigt)
 - [Pico Ladestation](/produkte/pico-ladestation)
 

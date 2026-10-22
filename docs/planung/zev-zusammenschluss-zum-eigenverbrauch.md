@@ -47,8 +47,8 @@ Grundlagen
 - Alle in Rechnung zu stellenden Abrechnungseinheiten müssen mit einem Zählerpunkt gemessen werden. (Wohnungen, Wärmepumpen, Allgemeinabgänge)
     Hardwareoptionen für die Messung elektrischer Energie
     \- [Telstar 80A
-    ](/produkte/telstar)\- [Telstar CT
-    ](/produkte/Telstar-CT)\- [Nimbus 100A (Zählerplatte)](/produkte/nimbus)
+    ](/produkte/telstar-80a)\- [Telstar CT
+    ](/produkte/telstar-ct)\- [Nimbus 100A (Zählerplatte)](/produkte/nimbus-100a)
 
 - Alle Produktionen und Speichersysteme müssen gemessen werden, entweder zusammen oder separiert.
 
@@ -95,7 +95,7 @@ Der Projekt Konfigurator erstellt dir auf Basis deiner Angaben die Stückliste a
 
 Ideal für Planer, Elektrofachleute.
 
-[Projektkonfigurator](/planung/Projektkonfigurator)
+[Projektkonfigurator](/planung/projektkonfigurator)
 
 ## Beispiel von ZEV's
 

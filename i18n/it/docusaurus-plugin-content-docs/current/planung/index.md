@@ -1,12 +1,12 @@
 ---
 title: 'Pianificazione'
 slug: '/planung'
-description: 'Esempi di installazione hardware nel raggruppamento ai fini del consumo proprio (RCP) incl.'
+description: 'Esempi di installazione hardware nel raggruppamento ai fini del consumo proprio, incl.'
 sidebar_label: 'Pianificazione'
 ---
 ## Pianificazione nel RCP
 
-Esempi di installazione hardware nel raggruppamento ai fini del consumo proprio (RCP) incl. acqua, calore e mobilità elettrica
+Esempi di installazione hardware nel raggruppamento ai fini del consumo proprio (RCP), incl. acqua, calore e mobilità elettrica
 
 ## Pianificazione delle stazioni di ricarica
 
@@ -16,15 +16,15 @@ Esempio di installazione hardware per la mobilità elettrica con eCarUp
 
 [Struttura della gestione del carico statica e dinamica](/planung/elektromobilitaet)
 
-## Pianifica ora il tuo progetto con il nostro configuratore
+## Pianifichi ora il Suo progetto con il nostro configuratore
 
-Il Projekt Konfigurator crea per te, sulla base dei tuoi dati, la distinta dei materiali con tutti i prodotti smart-me, il numero di punti di misura e uno schema visivo per la verifica.
+Sulla base dei Suoi dati, il Projektkonfigurator Le crea la distinta dei materiali con tutti i prodotti smart-me, il numero di punti di misura e uno schema visivo per la verifica.
 
-Ideale per progettisti ed elettricisti.
+Ideale per progettisti ed elettricisti specializzati.
 
-[Projektkonfigurator](/planung/Projektkonfigurator)
+[Projektkonfigurator](/planung/projektkonfigurator)
 
-[Certificazioni](/planung/zertifizierungen)
+[Certificazioni](/planung/zertifizierungen-schweiz)
 
 [Licenze cloud](/planung/cloud-lizenzen)
 
@@ -34,6 +34,6 @@ Ideale per progettisti ed elettricisti.
 
 [Contratto / Aspetti legali](/planung/vertrag-rechtliches)
 
-[Schema di misura per soluzione di alimentazione di emergenza](/planung/Messkonzept-Notstromloesung)
+[Schema di misura per soluzioni di alimentazione d'emergenza](/planung/messkonzept-notstromloesung)
 
 [Schema di misura per produttori dietro le case](/planung/messkonzept-produzenten-hinter-haeuser)

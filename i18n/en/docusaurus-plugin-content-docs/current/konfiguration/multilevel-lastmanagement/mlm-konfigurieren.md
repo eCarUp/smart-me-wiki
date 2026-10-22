@@ -6,13 +6,13 @@ sidebar_label: 'Configure multilevel load management'
 ---
 ## Configuring dynamic multilevel load management (MLM)
 
-Multilevel load management is configured in the "Multilevel load management" ("Multilevel Lastmanagement") section of the main navigation
+Multilevel load management is configured in the "Multilevel load management" ("Multilevel Lastmanagement") area of the main navigation
 
 The function enables:
 
 - Dynamic control of multiple static Pico charging groups
 
-- Limiting the charging power to reference points within the installation or site
+- Limiting charging power at reference points within the installation or site
 
 - Solar optimization
 
@@ -20,12 +20,11 @@ The function enables:
 
 - Charging group prioritization
 
-
 ![Configure multilevel load management – Figure 1](/img/konfiguration-multilevel-lastmanagement-mlm-konfigurieren/01.png)
 
 ### Definition of terms
 
-Multilevel load management can be thought of as a tree, with the following terms and uses:
+Multilevel load management can be viewed as a tree, with the following terms and uses:
 
 - Trunk (main connection point of the installation)
 
@@ -36,9 +35,9 @@ Multilevel load management can be thought of as a tree, with the following terms
 
 
 
-The trunk and the branches can perform several functions:
+The trunk and the branches can take on several functions:
 
-- Current limitation (maximum fuse protection)
+- Current limiting (maximum fuse rating)
 
 - Solar optimization ON or OFF
 
@@ -49,15 +48,15 @@ The trunk and the branches can perform several functions:
 
 Unmeasured loads:
 
-An unmeasured load is a producer or consumer that is not a Pico charging station group. To be able to take this production or load into account dynamically, meter hardware must be provided as a reference. (Measured branch)
+An unmeasured load is a producer or consumer that is not a Pico charging station group. To take this production or load into account dynamically, meter hardware must be provided as a reference. (Measured branch)
 
-The branch can also be limited statically without a reference meter, but must then be restricted to a functional maximum of the fuse protection, taking the base load into account.
+The branch can also be limited statically without a reference meter, but must then be restricted to a functional maximum of the fuse rating, taking the base load into account.
 
 Typical branches with unmeasured loads: 
 
-- Building connections (apartments, solar installations, battery storage, outdoor lighting)
+- Building connections (apartments, solar systems, battery storage, outdoor lighting)
 
-- Sub-distribution boards (interconnection of several building complexes, SDB East, SDB West,...)
+- Sub-distribution boards (interconnection of several building complexes, sub-distribution East, sub-distribution West,...)
 
 - E-mobility feeders (Pico standby consumption and garage lighting)
 
@@ -70,13 +69,13 @@ Typical branches with unmeasured loads:
 
 Adding:
 
-Select the trunk or a branch and use "Add branch" ("Ast hinzufügen") to create an additional branch or junction.
+Select the trunk or a branch and create an additional branch or junction using "Add branch" ("Ast hinzufügen").
 
 Deleting:
 
-Selecting the corresponding branch and using the "Delete" ("Löschen") function deletes the selected branch as well as all branches attached to it.
+Selecting the relevant branch and using the "Delete" ("Löschen") function deletes the selected branch as well as all branches attached to it.
 
-To keep the subordinate elements, the branches and groups can first be attached to another branch or the trunk using drag & drop.
+To keep the subsequent elements, the branches and groups can first be attached to another branch or the trunk using drag & drop.
 
 
 
@@ -121,14 +120,14 @@ Depending on the choice, the solar surplus is optimized across all charging stat
 
 Group configuration:
 
-For solar optimization to take effect, the station groups to be optimized must temporarily be assigned a reduced minimum charging current.
-This minimum charging current is defined on the corresponding charging group (group configuration) and corresponds to the maximum possible grid consumption for the charging group during the defined hours.
+For solar optimization to have the intended effect, the station groups to be optimized must temporarily be assigned a reduced minimum charging current.
+This minimum charging current is defined on the relevant charging group (group configuration) and corresponds to the maximum possible grid consumption for the charging group during the defined hours.
 
-At the same time, setting the minimum charging current can also be used for peak shaving.
+At the same time, the minimum charging current setting can also be used for peak shaving.
 
 Each group can be configured differently.
 
-Groups with a higher minimum charging current are given priority when available grid current is distributed.
+Groups with a higher minimum charging current are prioritized when available grid current is distributed.
 
 </div>
 <div className="col col--6 text--center">
@@ -144,18 +143,17 @@ Groups with a higher minimum charging current are given priority when available 
 
 Changes to the configuration are only saved if the configuration is also activated.
 
-If activation cannot be carried out due to misconfiguration, this may be due to the following:
+If activation cannot be carried out due to misconfiguration, this may be due to the following points:
 
 - The charging group is not correctly configured for the MLM (internet failure setting is not set to Max. current per group)
 
 - Individual devices relevant to the MLM are not online at the time of saving. (bring them online)
 
-
 ![Configure multilevel load management – Figure 9](/img/konfiguration-multilevel-lastmanagement-mlm-konfigurieren/09.png)
 
 ### Deleting the MLM configuration
 
-The configuration of an MLLM can be deleted in its entirety at the push of a button in order to create a new configuration.
+The configuration of an MLLM can be deleted entirely at the push of a button in order to enter a new configuration.
 
 ![Configure multilevel load management – Figure 10](/img/konfiguration-multilevel-lastmanagement-mlm-konfigurieren/10.png)
 
@@ -174,14 +172,14 @@ Notes:
 
 - The function requires an active internet connection to work. If the internet connection is lost, the configured internet failure value of the Pico groups is used.
 
-The function makes it possible to interpret one or more digital signals from energy suppliers and to allocate reduced charging power to all charging station groups of the MLM.
+The function makes it possible to interpret one or more digital signals from energy suppliers and to allocate a reduced charging power to all charging station groups of the MLM.
 
 The control signals are wired to one or two nearby meter inputs (E1).
 
 smart-me Telstar CT and Telstar 80A hardware are compatible for this purpose.
 
 Note:
-For the inputs to be usable, they must be configured as "Digital input" ("Digitaler Eingang") on the hardware side. (Meter settings, E1 --> Digital input ("Digitaler Eingang"))
+For the inputs to be usable, they must be configured as "Digital input" ("Digitaler Eingang") on the hardware side. (Meter settings, E1 --> Digital input)
 
 Control configurations:
 
@@ -197,23 +195,23 @@ With two signals:
 
 Applying percentages to EnWG14a in Germany:
 
-- For 22kW installations, a reduction of 82% corresponds to the commitment of 4200W minimum power per device in the installation.
+- For 22kW installations, a reduction of 82% corresponds to the guaranteed 4200W minimum power per device in the installation.
 
-- For 11kW installations, a reduction of 73% corresponds to the commitment of 4200W minimum power per device in the installation.
+- For 11kW installations, a reduction of 73% corresponds to the guaranteed 4200W minimum power per device in the installation.
 
 Signal interpretation:
 
 The signal can be interpreted in different ways.
 
-If the energy supplier removes the signal in the event of load shedding (230V --> 0V), "Low active" ("Low-Aktiv") is the correct configuration.
+If the energy supplier removes the signal in the event of load shedding (230V --> 0V), "Active low" ("Low-Aktiv") is the correct configuration.
 
-No signal (0) = 1 = available energy is reduced
+No signal (0) = 1 = Available energy is reduced
 
-If the energy supplier applies the signal in the event of load shedding (0V --> 230V), select "High active" ("High-Aktiv").
+If the energy supplier applies the signal in the event of load shedding (0V --> 230V), select "Active high" ("High-Aktiv").
 
-Signal (1) = 1 = available energy is reduced.
+Signal (1) = 1 = Available energy is reduced.
 
-[Wiring and configuration of meter inputs](/schnittstellen/ein_und_ausgaenge)
+[Wiring and configuration of meter inputs](/schnittstellen/ein-und-ausgaenge)
 
 </div>
 <div className="col col--5 text--center">
@@ -233,44 +231,44 @@ The MLM configuration can be deactivated and reactivated at any time.
 
 - Stops the calculation process and the active allocation of values from reference points.
 
-- Gives all subordinate load groups free use of the defined internet failure value.
+- Gives all subordinate load groups the defined internet failure value for free use.
 
 
 Set the value to active or inactive and then save the configuration to pass it on to the processor.
 
 ![Configure multilevel load management – Figure 14](/img/konfiguration-multilevel-lastmanagement-mlm-konfigurieren/14.png)
 
-## Example configuration: house with e-mobility feeder + garage lighting, solar installation and midday peak smoothing
+## Example configuration: Building with e-mobility feeder + garage lighting, solar system and midday peak smoothing
 
 - Here, the trunk corresponds to the building connection
 
-- The fuse protection of the connection is 100A per phase.
+- The fuse rating of the connection is 100A per phase.
 
-- Solar optimization is applied to the building connection here.
+- Solar optimization is on the building connection here.
 
-- Solar production and the building's own consumption are measured and taken into account by the meter "House connection Telstar 80A" ("Hausanschluss Telstar 80A").
+- The solar system production and the building's own consumption are measured and taken into account by the meter "Hausanschluss Telstar 80A".
 
 
 ![Configure multilevel load management – Figure 15](/img/konfiguration-multilevel-lastmanagement-mlm-konfigurieren/15.png)
 
 ![Configure multilevel load management – Figure 16](/img/konfiguration-multilevel-lastmanagement-mlm-konfigurieren/16.png)
 
-The subordinate e-mobility feeder is actively measured here to account for the garage lighting. This allows the charging groups to react dynamically to the garage lighting.
+The subordinate e-mobility feeder is actively measured here to account for the garage lighting. This way, the charging groups react dynamically to the garage lighting.
 
-- The garage lighting is taken into account with the reference meter "E-mobility feeder 63A Telstar 80A" ("E-Mobilitätsabgang 63A Telstar 80A").
+- The garage lighting is taken into account with the reference meter "E-Mobilitätsabgang 63A Telstar 80A".
 
-- The fuse protection of the feeder is 63A per phase.
+- The fuse rating of the feeder is 63A per phase.
 
 
 ![Configure multilevel load management – Figure 17](/img/konfiguration-multilevel-lastmanagement-mlm-konfigurieren/17.png)
 
 ![Configure multilevel load management – Figure 18](/img/konfiguration-multilevel-lastmanagement-mlm-konfigurieren/18.png)
 
-For solar optimization to take effect, the minimum charging current is reduced during the day.
+For solar optimization to take effect, the minimum charging current is reduced over the course of the day.
 
 - The minimum current corresponds to the maximum possible grid consumption at the defined hour.
 
-- As soon as the minimum current is 100% covered by the solar installation, the stations additionally receive the additional surplus from the solar installation.
+- As soon as the solar system covers 100% of the minimum current, the stations additionally receive the additional surplus from the solar system.
 
 - Solar optimization for the whole week from 6:00 to 17:00 with a minimum charging current of 15A per phase
 
@@ -279,51 +277,51 @@ For solar optimization to take effect, the minimum charging current is reduced d
 - Night-time charging from 18:00 to 22:00 is possible at 50% capacity.
 
 - Night-time charging from 22:00 until 7:00 in the morning is possible at 100% capacity.
-    (e.g. making use of the off-peak tariff)
+    (e.g. making full use of the off-peak tariff)
 
 
 ![Configure multilevel load management – Figure 19](/img/konfiguration-multilevel-lastmanagement-mlm-konfigurieren/19.png)
 
 ![Configure multilevel load management – Figure 20](/img/konfiguration-multilevel-lastmanagement-mlm-konfigurieren/20.png)
 
-## Example configuration: site with several houses, solar installations and e-mobility feeders
+## Example configuration: Site with several buildings, solar systems and e-mobility feeders
 
-- ZEV (association for own consumption) site with 3 houses
+- ZEV (association for own consumption) site with 3 buildings
 
-- Each house has an underground car park
+- Each building has an underground car park
 
 - Several charging groups in underground car parks
 
 - TG1 has outdoor parking spaces for visitors as well as tenant parking spaces
 
-- Houses TG1 and TG2 have solar installations
+- Buildings TG1 and TG2 have solar systems
 
-- Solar optimization on the site so that TG3 can also benefit from solar energy.
+- Solar optimization on the site, so that TG3 can also benefit from solar energy.
 
-- Site fuse protection 300A per phase
+- Site fuse rating 300A per phase
 
-- House fuse protection 180A per phase
+- Building fuse ratings 180A per phase
 
 - E-mobility feeders 63 A or 32A per phase
 
 
 ![Configure multilevel load management – Figure 21](/img/konfiguration-multilevel-lastmanagement-mlm-konfigurieren/21.png)
 
-- The ampere value corresponds to the fuse protection of the supply line
+- The ampere value corresponds to the fuse rating of the supply line
 
-- The measuring point is fuse-protected but not itself measured.
-    Since the subordinate branches all have measurements and these correspond to 100% of the site's consumption, the trunk can be limited virtually.
+- The measuring point is fused but itself unmeasured.
+    Since the subsequent branches all have measurements and these correspond to 100% of the site's consumption, the trunk can be limited virtually.
 
-- Solar power optimization on the trunk (site) active. (Availability of solar power for all three houses)
+- Solar power optimization on the trunk (site) active. (Availability of solar power for all three buildings)
 
 
 ![Configure multilevel load management – Figure 22](/img/konfiguration-multilevel-lastmanagement-mlm-konfigurieren/22.png)
 
 ![Configure multilevel load management – Figure 23](/img/konfiguration-multilevel-lastmanagement-mlm-konfigurieren/23.png)
 
-HAK TG1: building connection of building 1 on the site
+HAK TG1: Building connection of building 1 on the site
 
-- Fuse protection 180A per phase
+- Fuse rating 180A per phase
 
 - Unmeasured loads active: apartments, heating, lighting, common areas, solar
 
@@ -336,7 +334,7 @@ HAK TG1: building connection of building 1 on the site
 
 TG1 e-mobility feeder
 
-- Fuse protection 63A per phase
+- Fuse rating 63A per phase
 
 - Unmeasured loads active: garage lighting and ventilation in addition
     to the EV charging stations
@@ -357,7 +355,7 @@ Visitor parking spaces on the site (public charging stations)
 
 - Midday peak shaving from 12:00 to 13:00 only 23A per phase grid + solar surplus.
 
-- Cable fuse protection 63A per phase
+- Cable fuse rating 63A per phase
 
 
 ![Configure multilevel load management – Figure 28](/img/konfiguration-multilevel-lastmanagement-mlm-konfigurieren/28.png)
@@ -370,10 +368,10 @@ Tenant parking spaces on the site
 
 - Permanently 50% of the possible capacity from the grid.
 
-- Cable fuse protection 32A per phase.
+- Cable fuse rating 32A per phase.
 
 - Midday peak shaving 0A from 12:00 to 13:00.
-    Solar charging only possible if the production is not used elsewhere on the site.
+    Solar charging only possible if the production is not used by the site for other purposes.
 
 
 ![Configure multilevel load management – Figure 30](/img/konfiguration-multilevel-lastmanagement-mlm-konfigurieren/30.png)
@@ -385,11 +383,11 @@ Tenant parking spaces on the site
 
 Parts of the installation not covered:
 
-- The building connections and e-mobility feeders of houses 2 and 3 are configured in the same way.
+- The building connections and e-mobility feeders of buildings 2 and 3 are identical in the way they are configured.
 
 - The 4 charging groups in underground car park 3 (TG3) are configured similarly to the tenant parking spaces in underground car park 1 (TG1)
 
-- Each charging group can have its own behaviour and can also receive different emergency supply currents in the event of an internet failure.
+- Each charging group can have its own behavior and can also receive different emergency supply currents in the event of an internet failure.
 
 </div>
 <div className="col col--8 text--center">

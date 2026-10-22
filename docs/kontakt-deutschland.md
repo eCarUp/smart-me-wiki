@@ -4,7 +4,7 @@ slug: '/kontakt-deutschland'
 description: 'Ansprechpartner für Deutschland: Vertrieb und Support über smartRED.'
 sidebar_label: 'Kontakt Deutschland'
 ---
-Diese Seite gilt für Deutschland. Für die Schweiz und Liechtenstein gibt es einen [eigenen Kontakt](/kontakt).
+Diese Seite gilt für Deutschland. Für die Schweiz und Liechtenstein gibt es einen [eigenen Kontakt](/kontakt-schweiz).
 
 ### Wichtig zu wissen
 
@@ -22,7 +22,7 @@ Als Privatkunde wendest du dich an smartRED. Dort wirst du an einen Partner in d
 
 </Kachel>
 
-<Kachel titel="Partner werden" href="https://www.smartred.de/fachpartner-mieterstrom-elektromobilitaet/">
+<Kachel titel="Partner werden" href="https://web.smart-me.com/partner-werden/">
 
 Du möchtest Partner werden oder eine Schulung besuchen? Hier geht es zur Anmeldung für die Partnerschulung.
 
@@ -44,7 +44,7 @@ Dieselstrasse 17, DE-89160 Dornstadt
 
 </Kachel>
 
-<Kachel titel="RMA / Rücksendungen" href="/rma-antragsformulare-deutschland">
+<Kachel titel="RMA / Rücksendungen" href="/rma-antragsformular-deutschland">
 
 Geräte aus Deutschland werden über das Formular von smartRED zurückgesendet.
 
@@ -66,7 +66,7 @@ Der technische Support für zertifizierte Partner läuft wie in der Schweiz:
 
 </Kachel>
 
-<Kachel bild="/img/kontakt/01.jpg" bildtext="TeamViewer für smart-me" titel="TeamViewer-Support" href="https://get.teamviewer.com/68stbb8">
+<Kachel bild="/img/kontakt-schweiz/01.jpg" bildtext="TeamViewer für smart-me" titel="TeamViewer-Support" href="https://get.teamviewer.com/68stbb8">
 
 Nur nach telefonischer Vereinbarung verfügbar. Über diese Kachel lädst du TeamViewer für smart-me herunter.
 

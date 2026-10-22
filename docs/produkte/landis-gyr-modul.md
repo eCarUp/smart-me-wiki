@@ -104,9 +104,9 @@ Die CII-Schnittstelle (Kundenschnittstelle) des Landis+Gyr Zählers (z. B. E450 
 
 smart-me bietet kein Nachfolgeprodukt für L&G Zähler an. 
 
-Wenn du einen smart-me ZEV betreibst und eine neue Lösung für deine Messung (z.B. HAK) benötigst, muss das L&G Modul durch ein [Telstar 80A](/produkte/telstar) oder [Telstar CT](/produkte/Telstar-CT) ersetzt werden.
+Wenn du einen smart-me ZEV betreibst und eine neue Lösung für deine Messung (z.B. HAK) benötigst, muss das L&G Modul durch ein [Telstar 80A](/produkte/telstar-80a) oder [Telstar CT](/produkte/telstar-ct) ersetzt werden.
 
-Wenn im privaten Bereich Messungen für Monitoring, Hausautomation usw. durchgeführt werden, kann der [Telstar 80A](/produkte/telstar) oder [Telstar CT](/produkte/Telstar-CT) jederzeit installiert werden. Wenn du eine Lösung mit deinem vorhandenen L&G Zähler suchst, empfehlen wir dir einen Blick auf diese Seite zu werfen. [https://gplug.ch/](https://gplug.ch/)
+Wenn im privaten Bereich Messungen für Monitoring, Hausautomation usw. durchgeführt werden, kann der [Telstar 80A](/produkte/telstar-80a) oder [Telstar CT](/produkte/telstar-ct) jederzeit installiert werden. Wenn du eine Lösung mit deinem vorhandenen L&G Zähler suchst, empfehlen wir dir einen Blick auf diese Seite zu werfen. [https://gplug.ch/](https://gplug.ch/)
 
 ## Downloads
 

@@ -14,7 +14,7 @@ Nun werden die Tarife ohne Solarzähler korrekt berechnet und erspart die umstä
 
 Hinweis: Wenn die Installation eines Solarstromzählers möglich ist, zögere bitte nicht, dies zu tun. Die vollständige Abdeckung des Messkonzeptes kann Fehldaten durch Zählerdefekte abdecken, systematisches Weglassen beraubt aber dieser Möglichkeit.
 
-[Mehr Details](/planung/Messkonzept-Notstromloesung)
+[Mehr Details](/planung/messkonzept-notstromloesung)
 
 ![Technische Daten & Handbücher – Abbildung 1](/img/home/01.png)
 
@@ -233,7 +233,7 @@ Unsere Produktfamilie wächst weiter: Mit dem Sirius bringen wir unser bisher le
 
 - Maximale Sicherheit – Riesiger Datenspeicher bei Verbindungsausfällen.
 
-[→ Mehr Informationen zum Sirius](/produkte/m-bus-gateway#m-bus-gateway-sirius-250-standardlasten)
+[→ Mehr Informationen zum Sirius](/produkte/m-bus-gateway/sirius)
 
 ![Technische Daten & Handbücher – Abbildung 16](/img/home/16.jpg)
 

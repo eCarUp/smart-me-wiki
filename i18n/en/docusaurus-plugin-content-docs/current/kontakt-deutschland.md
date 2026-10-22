@@ -4,11 +4,11 @@ slug: '/kontakt-deutschland'
 description: 'Contacts for Germany: sales and support via smartRED.'
 sidebar_label: 'Contact Germany'
 ---
-This page applies to Germany. Switzerland and Liechtenstein have a [separate contact page](/kontakt).
+This page applies to Germany. Switzerland and Liechtenstein have their [own contact page](/kontakt-schweiz).
 
 ### Important to know
 
-smart-me is a hardware and technology supplier. We do not carry out projects and do not configure installations for end customers. As a rule, our technical support is available exclusively to certified partners.
+smart-me is a hardware and technology supplier. We do not carry out projects and do not configure systems for end customers. Our technical support is generally reserved for certified partners.
 
 In Germany, sales and support are handled by our subsidiary [smartRED](/drittsysteme/smartred).
 
@@ -16,15 +16,15 @@ In Germany, sales and support are handled by our subsidiary [smartRED](/drittsys
 
 <Kacheln min="18rem">
 
-<Kachel titel="For private customers" href="https://www.smartred.de/kontakt/">
+<Kachel titel="Für Privatkunden" href="https://www.smartred.de/kontakt/">
 
 As a private customer, please contact smartRED. They will put you in touch with a partner near you.
 
 </Kachel>
 
-<Kachel titel="Become a partner" href="https://www.smartred.de/fachpartner-mieterstrom-elektromobilitaet/">
+<Kachel titel="Partner werden" href="https://web.smart-me.com/partner-werden/">
 
-Would you like to become a partner or attend a training course? Register for the partner training here.
+Would you like to become a partner or attend a training course? This is where you register for the partner training.
 
 </Kachel>
 
@@ -44,7 +44,7 @@ This tile takes you to the contact form.
 
 </Kachel>
 
-<Kachel titel="RMA / Returns" href="/rma-antragsformulare-deutschland">
+<Kachel titel="RMA / Rücksendungen" href="/rma-antragsformular-deutschland">
 
 Devices from Germany are returned using the smartRED form.
 
@@ -58,7 +58,7 @@ Technical support for certified partners works the same way as in Switzerland:
 
 <Kacheln min="15rem">
 
-<Kachel titel="Technical support">
+<Kachel titel="Technischer Support">
 
 [support@smart-me.com](mailto:support@smart-me.com)
 
@@ -66,7 +66,7 @@ Technical support for certified partners works the same way as in Switzerland:
 
 </Kachel>
 
-<Kachel bild="/img/kontakt/01.jpg" bildtext="TeamViewer for smart-me" titel="TeamViewer support" href="https://get.teamviewer.com/68stbb8">
+<Kachel bild="/img/kontakt-schweiz/01.jpg" bildtext="TeamViewer für smart-me" titel="TeamViewer-Support" href="https://get.teamviewer.com/68stbb8">
 
 Only available by prior arrangement by phone. Use this tile to download TeamViewer for smart-me.
 

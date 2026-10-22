@@ -6,25 +6,25 @@ sidebar_label: 'Planning'
 ---
 ## Planning in a ZEV
 
-Examples of hardware installation in a ZEV (association for own consumption), including water, heat and E-Mobility
+Examples of hardware installation in a ZEV (association for own consumption) incl. water, heat and e-mobility
 
 ## Planning charging stations
 
-Example of a hardware installation for E-Mobility with eCarUp
+Example of hardware installation for e-mobility with eCarUp
 
-[Single building or development with E-Mobility](/planung/zev-zusammenschluss-zum-eigenverbrauch)
+[Single building or development with e-mobility](/planung/zev-zusammenschluss-zum-eigenverbrauch)
 
 [Setting up static and dynamic load management](/planung/elektromobilitaet)
 
 ## Plan your project now with our configurator
 
-Based on your input, the Projektkonfigurator creates a bill of materials from all smart-me products, the number of metering points and a visual diagram for review.
+Based on your input, the project configurator creates the bill of materials from all smart-me products, the number of metering points and a visual schematic for review.
 
-Ideal for planners and electrical professionals.
+Ideal for planners and electricians.
 
-[Projektkonfigurator](/planung/Projektkonfigurator)
+[Projektkonfigurator](/planung/projektkonfigurator)
 
-[Certification](/planung/zertifizierungen)
+[Certification](/planung/zertifizierungen-schweiz)
 
 [Cloud License](/planung/cloud-lizenzen)
 
@@ -34,6 +34,6 @@ Ideal for planners and electrical professionals.
 
 [Contract / Legal](/planung/vertrag-rechtliches)
 
-[Measurement concept emergency power solution](/planung/Messkonzept-Notstromloesung)
+[Measurement concept emergency power solution](/planung/messkonzept-notstromloesung)
 
 [Measurement concept producers behind houses](/planung/messkonzept-produzenten-hinter-haeuser)

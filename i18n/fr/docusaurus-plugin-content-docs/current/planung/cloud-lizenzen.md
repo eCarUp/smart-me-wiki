@@ -156,8 +156,8 @@ Les illustrations ci-dessous vous permettent de déterminer facilement si vous a
 
 Pour le décompte RCP, il est déterminant de savoir quel système tarifaire doit être représenté et si le décompte doit être automatisé.
 
-![Licences cloud – Illustration 1](/img/planung-cloud-lizenzen/01.png)
+![Licences cloud – Illustration 1](/img/planung-cloud-lizenzen/01_EN.png)
 
 ### Pilotage RCP
 
-![Licences cloud – Illustration 2](/img/planung-cloud-lizenzen/02.png)
+![Licences cloud – Illustration 2](/img/planung-cloud-lizenzen/02_EN.png)

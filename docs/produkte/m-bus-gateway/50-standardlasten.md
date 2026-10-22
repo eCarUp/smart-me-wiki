@@ -1,8 +1,8 @@
 ---
-title: 'M-Bus Gateway (50 Standardlasten)'
+title: 'M-Bus Gateway'
 slug: '/produkte/m-bus-gateway/50-standardlasten'
 description: 'Das smart-me M-Bus Gateway mit integriertem Pegelwandler für 50 M-Bus-Standardlasten: technische Daten, Anschlussschema, Tastenfunktion und Downloads.'
-sidebar_label: 'M-Bus Gateway (50 Lasten)'
+sidebar_label: 'M-Bus Gateway'
 ---
 Das M-Bus Gateway mit integriertem Pegelwandler für 50 M-Bus-Standardlasten. Kompatibilitätsliste, Inbetriebnahme und Installationsvorschrift gelten für beide Geräte und stehen auf der [Übersichtsseite](/produkte/m-bus-gateway).
 

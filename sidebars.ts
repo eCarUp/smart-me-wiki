@@ -29,7 +29,7 @@ const sidebars: SidebarsConfig = {
         'produkte/nimbus-100a',
         {
           type: 'category',
-          label: 'M-Bus Gateway',
+          label: 'M-Bus Gateways',
           link: {type: 'doc', id: 'produkte/m-bus-gateway/index'},
           items: [
             'produkte/m-bus-gateway/50-standardlasten',

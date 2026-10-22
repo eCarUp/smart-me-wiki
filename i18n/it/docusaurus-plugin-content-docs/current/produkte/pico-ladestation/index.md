@@ -137,7 +137,7 @@ Il comportamento del display è descritto alla pagina [Display Pico](/produkte/p
 
 ## Collegamenti e dimensioni di Pico
 
-![Stazione di ricarica Pico – Figura 3](/img/produkte-pico-ladestation/03.jpg)
+![Stazione di ricarica Pico – Figura 3](/img/produkte-pico-ladestation/03_EN.jpg)
 
 ### Schema di collegamento
 
@@ -193,7 +193,7 @@ In alternativa, il distacco del carico può avvenire anche tramite la [gestione 
 </div>
 <div className="col col--5 text--center">
 
-![Stazione di ricarica Pico – Figura 5](/img/produkte-pico-ladestation/05.png)
+![Stazione di ricarica Pico – Figura 5](/img/produkte-pico-ladestation/05_EN.png)
 
 ![Stazione di ricarica Pico – Figura 6](/img/produkte-pico-ladestation/06.png)
 

@@ -1,5 +1,5 @@
 ---
-title: 'M-Bus Gateway Sirius (250 Standardlasten)'
+title: 'M-Bus Gateway Sirius'
 slug: '/produkte/m-bus-gateway/sirius'
 description: 'Das smart-me M-Bus Gateway Sirius mit integriertem Pegelwandler für 250 M-Bus-Standardlasten: technische Daten, Anschlussschema, Tastenfunktionen und Downloads.'
 sidebar_label: 'M-Bus Gateway Sirius'

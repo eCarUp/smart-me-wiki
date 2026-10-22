@@ -156,8 +156,8 @@ Con le figure qui sotto puoi scoprire facilmente se ti servono licenze Professio
 
 Per il conteggio RCP (raggruppamento ai fini del consumo proprio) è determinante quale sistema tariffario deve essere rappresentato e se il conteggio deve avvenire in modo automatizzato.
 
-![Licenze cloud – Figura 1](/img/planung-cloud-lizenzen/01.png)
+![Licenze cloud – Figura 1](/img/planung-cloud-lizenzen/01_EN.png)
 
 ### Controllo RCP
 
-![Licenze cloud – Figura 2](/img/planung-cloud-lizenzen/02.png)
+![Licenze cloud – Figura 2](/img/planung-cloud-lizenzen/02_EN.png)

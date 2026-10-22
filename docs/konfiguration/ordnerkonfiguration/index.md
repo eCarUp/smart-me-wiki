@@ -3,7 +3,7 @@ title: 'Zähler- und Ordnerkonfiguration'
 slug: '/konfiguration/ordnerkonfiguration'
 description: 'Video Anleitung Ordner erstellen und Zähler zuordnen'
 sidebar_label: 'Ordnerkonfiguration'
-naechste_schritte: [konfiguration/ordnerkonfiguration/nur-strom, konfiguration/ordnerkonfiguration/strom-und-eine-heizung, konfiguration/ordnerkonfiguration/strom-und-mehrere-heizungen]
+naechste_schritte: [konfiguration/ordnerkonfiguration/nur-strom, konfiguration/ordnerkonfiguration/strom-und-eine-heizung, konfiguration/ordnerkonfiguration/strom-und-mehrere-heizungen, konfiguration/ordnerkonfiguration/mieterstrom-standard, konfiguration/ordnerkonfiguration/mieterstrom-nicht-teilnehmer]
 ---
 <Embed src="https://player.vimeo.com/video/661999827" aspect="1.291" title="Ordnerkonfiguration" />
 

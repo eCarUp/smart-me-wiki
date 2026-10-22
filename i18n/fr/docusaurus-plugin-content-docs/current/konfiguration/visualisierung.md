@@ -3,7 +3,7 @@ title: 'Visualisation et Public Links'
 slug: '/konfiguration/visualisierung'
 description: 'Vous avez besoin d''un abonnement smart-me Limited ou Professional pour utiliser cette fonction.'
 sidebar_label: 'Visualisation et Public Links'
-naechste_schritte: [konfiguration/billing/index]
+naechste_schritte: [konfiguration/billing/index, konfiguration/billing-deutschland/index]
 ---
 ### Prérequis
 
@@ -11,16 +11,16 @@ Vous avez besoin d'un abonnement smart-me Limited ou Professional pour utiliser 
 
 ## Navigation dans le tableau de bord en tant que locataire
 
-Vous trouverez ici un mode d'emploi pour votre tableau de bord en tant que locataire. Découvrez où obtenir quelles informations sur votre consommation et comprenez ce qui vous est affiché.
+Vous trouverez ici un guide d'utilisation de votre tableau de bord en tant que locataire. Découvrez où obtenir les différentes informations sur votre consommation et comprenez ce qui vous est affiché.
 
-[Mode d'emploi pour les locataires](/nutzeranleitungen/mieter)
+[Guide d'utilisation pour les locataires](/nutzeranleitungen/mieter)
 
 ## Configurer les visualisations
 
 <div className="row">
 <div className="col col--6">
 
-Une visualisation est créée sur un dossier. Lorsque vous cliquez sur le dossier dans l'app ou sur le web, la visualisation correspondante s'affiche. 
+Une visualisation est créée sur un dossier. Lorsque vous cliquez sur le dossier dans l'application ou sur le web, la visualisation correspondante s'affiche. 
 
 </div>
 <div className="col col--6 text--center">
@@ -51,22 +51,22 @@ Procédez comme suit pour créer une visualisation :
 
 ## Vue pour les locataires
 
-Une vue spéciale pour les locataires est disponible pour les tarifs virtuels. Elle affiche la consommation d'énergie actuelle (électricité) et sa provenance (solaire ou réseau). De plus, la barre indique la source d'approvisionnement en électricité au cours du temps écoulé.
+Une vue spéciale pour les locataires est disponible pour les tarifs virtuels. Elle affiche la consommation d'énergie actuelle (électricité) et sa provenance (solaire ou réseau). De plus, la barre indique la source d'approvisionnement en électricité au cours de la période passée.
 
-Elle doit en outre être configurée pour chaque nœud d'appartement.
+Celle-ci doit en outre être configurée pour chaque nœud de logement.
 
-La visualisation s'appelle : « Tarifs virtuels simples appartement » ("Einfache virtuelle Tarife Wohnung")
+La visualisation s'appelle : « Tarifs virtuels simples logement » ("Einfache virtuelle Tarife Wohnung")
 
-Attention : il faut sélectionner ici le dossier concerné de l'appartement, et non les compteurs qu'il contient !
+Attention : il faut sélectionner ici le dossier correspondant au logement, et non les compteurs qu'il contient !
 
 
 
-Facultatif :
+Optionnel :
 Flux d'énergie du bâtiment
 
 Le flux d'énergie du bâtiment peut être visualisé en option. 
 
-- Pour cela, le locataire doit en plus obtenir l'accès aux points de mesure bilan, production et batterie. Le choix des compteurs de référence est automatique et se fait sur la base des noms.
+- Pour cela, le locataire doit en outre obtenir l'accès aux points de mesure bilan, production et batterie. Le choix des compteurs de référence est automatique et basé sur les noms.
 
     Ajoutez par exemple le compte utilisateur au dossier des compteurs techniques qui contient les points de mesure mentionnés.
 
@@ -75,7 +75,7 @@ Le flux d'énergie du bâtiment peut être visualisé en option.
 
 Détails de la reconnaissance automatique des noms
 
-Allemand
+Deutsch
 
 Compteur de bilan :
 Bilan… (Bilanz, Bilanzmessung) · Netz… (Netzbezug, Netzanschluss) · Bezug · Einspeis… · Hauptz… (Hauptzähler) · HAK · Anschluss (auch Hausanschluss) · Zählpunkt / Zaehlpunkt · Messpunkt · Übergabe / Uebergabe · Transformat… (Transformator) · Trafo
@@ -146,7 +146,7 @@ Toutes les données pertinentes de votre RCP (regroupement dans le cadre de la c
 
 - Batterie
 
-- Graphiques de flux d'énergie
+- Graphiques des flux d'énergie
 
 - Heat-map solaire
 
@@ -157,7 +157,7 @@ Toutes les données pertinentes de votre RCP (regroupement dans le cadre de la c
 
 Affiche le flux d'énergie pour une installation solaire, le soutirage du réseau et la consommation du bâtiment.
 
-Deux de ces trois compteurs doivent être indiqués, le troisième est calculé automatiquement. Si les trois compteurs sont indiqués, des affichages erronés peuvent survenir. Nous recommandons toujours, si possible, d'indiquer des mesures directes et non des compteurs virtuels.
+Deux de ces trois compteurs doivent être indiqués, le troisième est calculé automatiquement. Si les trois compteurs sont indiqués, des affichages erronés peuvent survenir. Nous recommandons toujours, dans la mesure du possible, d'indiquer des mesures directes et non des compteurs virtuels.
 
 ![Visualisation et Public Links – Illustration 10](/img/konfiguration-visualisierung/10.png)
 
@@ -165,7 +165,7 @@ Deux de ces trois compteurs doivent être indiqués, le troisième est calculé 
 
 Jusqu'à dix consommateurs ou producteurs peuvent être visualisés pour un bâtiment.
 
-Au choix, les puissances (actuelles) ou les valeurs de consommation des 30 ou 365 derniers jours peuvent être affichées.
+Au choix, il est possible d'afficher les puissances (actuelles) ou les valeurs de consommation des 30 ou 365 derniers jours.
 
 ## Visualisations pour RCP et vRCP
 
@@ -197,7 +197,7 @@ Pour cela, les installations de production du vRCP et les compteurs de raccordem
 
 ![Visualisation et Public Links – Illustration 12](/img/konfiguration-visualisierung/12.png)
 
-### Taux d'autoconsommation et d'autarcie
+### Taux d'autoconsommation et taux d'autarcie
 
 Le taux d'autoconsommation et le taux d'autarcie d'un bâtiment sont représentés. Les valeurs sont calculées à partir des compteurs PV et du ou des compteurs de bilan.
 
@@ -215,7 +215,7 @@ Toutes les données pertinentes de vos bornes de recharge en un coup d'œil :
 
 - Occupée / En charge / Libre
 
-- Gestion de la charge et courants libérés
+- Gestion de la charge et courants autorisés
 
 - Statut en ligne
 
@@ -226,13 +226,13 @@ Toutes les données pertinentes de vos bornes de recharge en un coup d'œil :
 
 ![Visualisation et Public Links – Illustration 14](/img/konfiguration-visualisierung/14.jpg)
 
-### Consommation d'un appartement comparée à un appartement de référence
+### Consommation d'un logement comparée à un logement de référence
 
-Les puissances actuelles d'un appartement (électricité, chaleur et eau) sont affichées.
+Les puissances actuelles d'un logement (électricité, chaleur et eau) sont affichées.
 
-Pour les valeurs de consommation historiques, une comparaison avec un appartement de référence est en outre affichée (p. ex. « 10% d'électricité consommée en moins que la moyenne »).
+Pour les valeurs de consommation historiques, une comparaison avec un logement de référence est en outre affichée (p. ex. « 10% d'électricité consommée en moins que la moyenne »).
 
-## Possibilités supplémentaires (facultatif)
+## Possibilités supplémentaires (optionnel)
 
 Pour terminer, vous pouvez encore activer des interfaces ou mettre en place des commandes.
 
@@ -246,6 +246,6 @@ Avec l'abonnement Limited ou Professional de smart-me, vous pouvez, au moyen d'u
 
 Pour cela, cliquez en haut à droite dans le portail smart-me sur Configuration (Konfiguration), puis sélectionnez la tuile Public Links.
 
-Dans l'interface qui s'affiche alors, vous pouvez, via le bouton Ajouter (Hinzufügen), définir le nom de votre Public Link et sélectionner le point de mesure souhaité ainsi que le mode de représentation. Le code HTML pour l'intégration sur le site web de votre choix est ensuite généré. Insérez-le par copier-coller.
+Dans l'interface qui s'affiche alors, vous pouvez, via le bouton Ajouter (Hinzufügen), définir le nom de votre Public Link et sélectionner le point de mesure et le mode d'affichage souhaités. Le code HTML pour l'intégration sur le site web de votre choix est ensuite généré. Insérez-le par copier-coller.
 
 ![Visualisation et Public Links – Illustration 15](/img/konfiguration-visualisierung/15.png)

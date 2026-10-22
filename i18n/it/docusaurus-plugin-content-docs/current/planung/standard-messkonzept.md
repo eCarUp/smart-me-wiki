@@ -6,48 +6,14 @@ sidebar_label: 'Schema di misura standard'
 ---
 ![Schema di misura standard – Figura 1](/img/planung-standard-messkonzept/01.png)
 
-## Tariffazione dello schema di misura standard
+## Tariffazione e struttura dello schema di misura standard
 
-La tariffazione dello schema di misura avviene tramite il contatore di bilancio e la produzione oppure, in alternativa, tramite consumo / FV o batteria con riferimento al contatore di bilancio.
+La tariffazione dello schema di misura avviene tramite il contatore di bilancio e la produzione oppure, in alternativa, tramite il consumo / l'impianto fotovoltaico o la batteria con riferimento al contatore di bilancio.
 
-### Tariffazione con tariffa solare incl. vRCP
+Lo schema di misura è completo non appena viene misurato il 100% di tutti i consumi e di tutte le produzioni. Il contatore di bilancio all'allacciamento dell'edificio funge da correzione e da riferimento.
 
-Il contatore di bilancio viene referenziato per il calcolo della tariffazione.
+### Validazione e conteggio del fornitore di energia
 
-Utilizzando la tariffa solare incl. RCP virtuale (vRCP) non sono dovute licenze aggiuntive per contatori virtuali.
+La somma dell'energia di rete venduta corrisponde approssimativamente alla quantità di energia elettrica fatturata dal fornitore di energia
 
-Contatore di bilancio
-
-Il contatore dell'allacciamento domestico viene referenziato come contatore di bilancio (Bilanzzähler).
-
-![Schema di misura standard – Figura 2](/img/planung-standard-messkonzept/02.png)
-
-Contatore di produzione
-
-Tutti i contatori di produzione e i contatori della batteria vengono registrati come produzione (Produktion).
-
-![Schema di misura standard – Figura 3](/img/planung-standard-messkonzept/03.png)
-
-### Tariffazione tramite tariffa solare (consumo / FV) con o senza tariffa batteria (consumo / batteria)
-
-Il contatore di bilancio viene ignorato per il calcolo della tariffazione e viene considerato solo in seguito per la verifica.
-
-Utilizzando la tariffa solare (consumo / FV) sono dovute licenze aggiuntive per contatori virtuali.
-
-È necessario almeno il consumo totale. Questo viene creato come contatore virtuale composto da tutte le partenze partecipanti all'elettricità per gli inquilini.
-
-Consumo totale = Appartamento 1.1 + Appartamento 1.2 + Appartamento 2.1 + Parti comuni + Parcheggio 1 + Parcheggio 2 + Pompa di calore
-
-Sotto produzione (Produktion) viene aggiunto di volta in volta il contatore dell'impianto solare o, nel caso della tariffa batteria, il contatore della batteria.
-
-Sotto consumo totale (Gesamtverbrauch) viene inserito il consumo totale creato virtualmente.
-
-Il contatore di bilancio viene qui referenziato intenzionalmente per aumentare la precisione!
-
-![Schema di misura standard – Figura 4](/img/planung-standard-messkonzept/04.png)
-
-### Validazione e conteggio dell'azienda elettrica
-
-Le somme dell'energia di rete venduta corrispondono approssimativamente alla quantità di energia fatturata dall'azienda elettrica
-
-La quantità di energia immessa nel registro di esportazione del contatore di bilancio corrisponde approssimativamente al valore della quantità indicata nella rimunerazione per l'immissione dell'azienda elettrica.
+La quantità di energia reimmessa nel registro di esportazione del contatore di bilancio corrisponde approssimativamente alla quantità indicata nella rimunerazione per l'immissione del fornitore di energia.

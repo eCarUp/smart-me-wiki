@@ -644,17 +644,45 @@
         "origin": "translated"
       }
     },
-    "docs/konfiguration/billing/index.md": {
+    "docs/konfiguration/billing-deutschland/index.md": {
       "en": {
-        "hash": "e8a4be754421619f",
-        "origin": "translated"
-      },
-      "fr": {
-        "hash": "e8a4be754421619f",
+        "hash": "7e7c664a058f3966",
         "origin": "translated"
       },
       "it": {
-        "hash": "e8a4be754421619f",
+        "hash": "7e7c664a058f3966",
+        "origin": "translated"
+      },
+      "fr": {
+        "hash": "7e7c664a058f3966",
+        "origin": "translated"
+      }
+    },
+    "docs/konfiguration/billing-deutschland/stromtarife-definieren.md": {
+      "en": {
+        "hash": "7c05ce7bca5a7a2c",
+        "origin": "translated"
+      },
+      "fr": {
+        "hash": "7c05ce7bca5a7a2c",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "7c05ce7bca5a7a2c",
+        "origin": "translated"
+      }
+    },
+    "docs/konfiguration/billing/index.md": {
+      "en": {
+        "hash": "844e8ee95b683d53",
+        "origin": "translated"
+      },
+      "fr": {
+        "hash": "844e8ee95b683d53",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "844e8ee95b683d53",
         "origin": "translated"
       }
     },
@@ -968,15 +996,43 @@
     },
     "docs/konfiguration/ordnerkonfiguration/index.md": {
       "en": {
-        "hash": "3606925a9e88f8f1",
+        "hash": "6b517d4712f4e71c",
         "origin": "translated"
       },
       "fr": {
-        "hash": "3606925a9e88f8f1",
+        "hash": "6b517d4712f4e71c",
         "origin": "translated"
       },
       "it": {
-        "hash": "3606925a9e88f8f1",
+        "hash": "6b517d4712f4e71c",
+        "origin": "translated"
+      }
+    },
+    "docs/konfiguration/ordnerkonfiguration/mieterstrom-nicht-teilnehmer.md": {
+      "en": {
+        "hash": "616c1176620f9ca0",
+        "origin": "translated"
+      },
+      "fr": {
+        "hash": "616c1176620f9ca0",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "616c1176620f9ca0",
+        "origin": "translated"
+      }
+    },
+    "docs/konfiguration/ordnerkonfiguration/mieterstrom-standard.md": {
+      "en": {
+        "hash": "425148af5a2084db",
+        "origin": "translated"
+      },
+      "fr": {
+        "hash": "425148af5a2084db",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "425148af5a2084db",
         "origin": "translated"
       }
     },
@@ -1052,29 +1108,29 @@
     },
     "docs/konfiguration/visualisierung.md": {
       "en": {
-        "hash": "d6065cb767ae2bd2",
+        "hash": "80cb5146b47d768a",
         "origin": "translated"
       },
       "fr": {
-        "hash": "d6065cb767ae2bd2",
+        "hash": "80cb5146b47d768a",
         "origin": "translated"
       },
       "it": {
-        "hash": "d6065cb767ae2bd2",
+        "hash": "80cb5146b47d768a",
         "origin": "translated"
       }
     },
     "docs/konfiguration/wenndann-aktionen/alarme.md": {
       "en": {
-        "hash": "47fabd34a252fca7",
+        "hash": "9b257e5ff8cced17",
         "origin": "translated"
       },
       "fr": {
-        "hash": "47fabd34a252fca7",
+        "hash": "9b257e5ff8cced17",
         "origin": "translated"
       },
       "it": {
-        "hash": "47fabd34a252fca7",
+        "hash": "9b257e5ff8cced17",
         "origin": "translated"
       }
     },
@@ -1332,57 +1388,57 @@
     },
     "docs/planung/elektromobilitaet/drittanbieter-zev-und-pico.md": {
       "en": {
-        "hash": "f124778e399302f1",
+        "hash": "a9e62911ed48aa32",
         "origin": "translated"
       },
       "fr": {
-        "hash": "f124778e399302f1",
+        "hash": "a9e62911ed48aa32",
         "origin": "translated"
       },
       "it": {
-        "hash": "f124778e399302f1",
+        "hash": "a9e62911ed48aa32",
         "origin": "translated"
       }
     },
     "docs/planung/elektromobilitaet/index.md": {
       "en": {
-        "hash": "87cf1607478d1308",
+        "hash": "ea22d957aaed7690",
         "origin": "translated"
       },
       "fr": {
-        "hash": "87cf1607478d1308",
+        "hash": "ea22d957aaed7690",
         "origin": "translated"
       },
       "it": {
-        "hash": "87cf1607478d1308",
+        "hash": "ea22d957aaed7690",
         "origin": "translated"
       }
     },
     "docs/planung/elektromobilitaet/smart-me-zev-und-fremdstationen.md": {
       "en": {
-        "hash": "cc0d40c78d65376a",
+        "hash": "5ecd213e8be60793",
         "origin": "translated"
       },
       "fr": {
-        "hash": "cc0d40c78d65376a",
+        "hash": "5ecd213e8be60793",
         "origin": "translated"
       },
       "it": {
-        "hash": "cc0d40c78d65376a",
+        "hash": "5ecd213e8be60793",
         "origin": "translated"
       }
     },
     "docs/planung/elektromobilitaet/smart-me-zev-und-pico.md": {
       "en": {
-        "hash": "806ea3f27b6b8cd5",
+        "hash": "ef2ac1e13b7181a1",
         "origin": "translated"
       },
       "fr": {
-        "hash": "806ea3f27b6b8cd5",
+        "hash": "ef2ac1e13b7181a1",
         "origin": "translated"
       },
       "it": {
-        "hash": "806ea3f27b6b8cd5",
+        "hash": "ef2ac1e13b7181a1",
         "origin": "translated"
       }
     },
@@ -1528,15 +1584,15 @@
     },
     "docs/planung/mkd3-messkonzept-nicht-teilnehmer.md": {
       "en": {
-        "hash": "0d12154283966a27",
+        "hash": "7eb6953410260aae",
         "origin": "translated"
       },
       "fr": {
-        "hash": "0d12154283966a27",
+        "hash": "7eb6953410260aae",
         "origin": "translated"
       },
       "it": {
-        "hash": "0d12154283966a27",
+        "hash": "7eb6953410260aae",
         "origin": "translated"
       }
     },
@@ -1556,15 +1612,15 @@
     },
     "docs/planung/standard-messkonzept.md": {
       "en": {
-        "hash": "e341e5bc89497659",
+        "hash": "b81874a1ba9bc8f1",
         "origin": "translated"
       },
       "fr": {
-        "hash": "e341e5bc89497659",
+        "hash": "b81874a1ba9bc8f1",
         "origin": "translated"
       },
       "it": {
-        "hash": "e341e5bc89497659",
+        "hash": "b81874a1ba9bc8f1",
         "origin": "translated"
       }
     },
@@ -1598,15 +1654,15 @@
     },
     "docs/planung/zertifizierungen-deutschland.md": {
       "en": {
-        "hash": "659c0d63774a7d87",
+        "hash": "61683356723828fa",
         "origin": "translated"
       },
       "fr": {
-        "hash": "659c0d63774a7d87",
+        "hash": "61683356723828fa",
         "origin": "translated"
       },
       "it": {
-        "hash": "659c0d63774a7d87",
+        "hash": "61683356723828fa",
         "origin": "translated"
       }
     },
@@ -1822,43 +1878,43 @@
     },
     "docs/produkte/m-bus-gateway/50-standardlasten.md": {
       "en": {
-        "hash": "32cf097450924586",
+        "hash": "339e5a531e830409",
         "origin": "translated"
       },
       "fr": {
-        "hash": "32cf097450924586",
+        "hash": "339e5a531e830409",
         "origin": "translated"
       },
       "it": {
-        "hash": "32cf097450924586",
+        "hash": "339e5a531e830409",
         "origin": "translated"
       }
     },
     "docs/produkte/m-bus-gateway/index.md": {
       "en": {
-        "hash": "5dbd4371d6b01960",
+        "hash": "4700c7b1d98828a3",
         "origin": "translated"
       },
       "fr": {
-        "hash": "5dbd4371d6b01960",
+        "hash": "4700c7b1d98828a3",
         "origin": "translated"
       },
       "it": {
-        "hash": "5dbd4371d6b01960",
+        "hash": "4700c7b1d98828a3",
         "origin": "translated"
       }
     },
     "docs/produkte/m-bus-gateway/sirius.md": {
       "en": {
-        "hash": "7d4eef5ca33183a3",
+        "hash": "7fe88802034159dd",
         "origin": "translated"
       },
       "fr": {
-        "hash": "7d4eef5ca33183a3",
+        "hash": "7fe88802034159dd",
         "origin": "translated"
       },
       "it": {
-        "hash": "7d4eef5ca33183a3",
+        "hash": "7fe88802034159dd",
         "origin": "translated"
       }
     },
@@ -2088,29 +2144,29 @@
     },
     "docs/rma-antragsformular-deutschland.md": {
       "en": {
-        "hash": "e52c1c8b384d4c13",
+        "hash": "6a747a9aaf185a6e",
         "origin": "translated"
       },
       "it": {
-        "hash": "e52c1c8b384d4c13",
+        "hash": "6a747a9aaf185a6e",
         "origin": "translated"
       },
       "fr": {
-        "hash": "e52c1c8b384d4c13",
+        "hash": "6a747a9aaf185a6e",
         "origin": "translated"
       }
     },
     "docs/rma-antragsformular-schweiz.md": {
       "en": {
-        "hash": "b749103e7d42c4dd",
+        "hash": "973fa1f3371ad026",
         "origin": "translated"
       },
       "fr": {
-        "hash": "b749103e7d42c4dd",
+        "hash": "973fa1f3371ad026",
         "origin": "translated"
       },
       "it": {
-        "hash": "b749103e7d42c4dd",
+        "hash": "973fa1f3371ad026",
         "origin": "translated"
       }
     },

@@ -72,28 +72,19 @@ Mehr Details findest du unter "Abrechnung" im jeweiligen Thementeil.
 </div>
 </div>
 
-### smart-me ZEV und smart-me Pico Ladestation
+### smart-me System + smart-me Pico Ladestation
 
 [Detaillösung](/planung/elektromobilitaet/smart-me-zev-und-pico)
 
 [Projektkonfigurator](/planung/projektkonfigurator)
 
-![Elektromobilität – Abbildung 2](/img/planung-elektromobilitaet/02.png)
 
-![Elektromobilität – Abbildung 3](/img/planung-elektromobilitaet/03.png)
-
-### smart-me ZEV und Fremdstationen
+### smart-me System + Fremdstationen
 
 [Detaillösung](/planung/elektromobilitaet/smart-me-zev-und-fremdstationen)
 
-![Elektromobilität – Abbildung 4](/img/planung-elektromobilitaet/04.png)
 
-![Elektromobilität – Abbildung 5](/img/planung-elektromobilitaet/05.png)
-
-### Drittanbieter ZEV und smart-me Pico Ladestation
+### Drittanbieter System + smart-me Pico Ladestation
 
 [Detaillösung](/planung/elektromobilitaet/drittanbieter-zev-und-pico)
 
-![Elektromobilität – Abbildung 6](/img/planung-elektromobilitaet/06.png)
-
-![Elektromobilität – Abbildung 7](/img/planung-elektromobilitaet/07.png)

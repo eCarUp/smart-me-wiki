@@ -94,5 +94,17 @@
   "sidebar.wikiSidebar.category.LEG - Lokale Elektrizitätsgemeinschaft": {
     "message": "CEL - Communauté électrique locale",
     "description": "The label for category 'LEG - Lokale Elektrizitätsgemeinschaft' in sidebar 'wikiSidebar'"
+  },
+  "sidebar.wikiSidebar.category.M-Bus Gateways": {
+    "message": "M-Bus Gateways",
+    "description": "The label for category 'M-Bus Gateways' in sidebar 'wikiSidebar'"
+  },
+  "sidebar.wikiSidebar.category.Rechnungsstellung Schweiz": {
+    "message": "Rechnungsstellung Schweiz",
+    "description": "The label for category 'Rechnungsstellung Schweiz' in sidebar 'wikiSidebar'"
+  },
+  "sidebar.wikiSidebar.category.Rechnungsstellung Mieterstrom": {
+    "message": "Rechnungsstellung Mieterstrom",
+    "description": "The label for category 'Rechnungsstellung Mieterstrom' in sidebar 'wikiSidebar'"
   }
 }

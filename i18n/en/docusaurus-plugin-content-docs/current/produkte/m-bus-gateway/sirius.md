@@ -1,12 +1,12 @@
 ---
-title: 'M-Bus Gateway Sirius (250 standard loads)'
+title: 'M-Bus Gateway Sirius'
 slug: '/produkte/m-bus-gateway/sirius'
 description: 'The smart-me M-Bus Gateway Sirius with integrated level converter for 250 M-Bus standard loads: technical data, connection diagram, button functions and downloads.'
 sidebar_label: 'M-Bus Gateway Sirius'
 ---
-The Sirius is the larger of the two devices: integrated level converter for 250 M-Bus standard loads, intended for large building infrastructures. The compatibility list, commissioning and installation instructions apply to both devices and are found on the [overview page](/produkte/m-bus-gateway).
+The Sirius is the larger of the two devices: integrated level converter for 250 M-Bus standard loads, designed for large building infrastructures. The compatibility list, commissioning and installation instructions apply to both devices and can be found on the [overview page](/produkte/m-bus-gateway).
 
-## Features
+## Functions
 
 - [Installation](/konfiguration/inbetriebnahme) with the free smart-me app.
 
@@ -63,9 +63,9 @@ Press and hold = Restarts the device
 
 ## Downloads and declaration of conformity
 
-[Datasheet German](https://drive.google.com/file/d/1Z6PuaBpdTn4L-C8pjyz8fmIWStQGZ9wB/view?usp=sharing)
+[Data sheet German](https://drive.google.com/file/d/1Z6PuaBpdTn4L-C8pjyz8fmIWStQGZ9wB/view?usp=sharing)
 
-[Datasheet English](https://drive.google.com/file/d/1-5Mgp7s1IxnqqzxtS7tYg0dlcXQ8Bhjd/view?usp=sharing)
+[Data sheet English](https://drive.google.com/file/d/1-5Mgp7s1IxnqqzxtS7tYg0dlcXQ8Bhjd/view?usp=sharing)
 
 [CE declaration of conformity](https://drive.google.com/file/d/1BC3GzxyQl_Rweyo2YkghBBnUSanmdk1J/view?usp=drive_link)
 

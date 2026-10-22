@@ -1,16 +1,16 @@
 ---
-title: 'Drittanbieter ZEV und Pico'
+title: 'Drittanbieter System und Pico'
 slug: '/planung/elektromobilitaet/drittanbieter-zev-und-pico'
 description: 'E-Mobilität mit der smart-me Pico Ladestation ohne smart-me ZEV'
-sidebar_label: 'Drittanbieter ZEV und Pico'
+sidebar_label: 'Drittanbieter System und Pico'
 ---
-## E-Mobilität mit der smart-me Pico Ladestation ohne smart-me ZEV
+## E-Mobilität mit der smart-me Pico Ladestation ohne smart-me ZEV / Mieterstrom
 
-### Prinzipschema einer Überbauung ohne smart-me ZEV
+### Prinzipschema einer Überbauung ohne smart-me ZEV / Mieterstrom
 
 ![Drittanbieter ZEV und Pico – Abbildung 1](/img/planung-elektromobilitaet-drittanbieter-zev-und-pico/01.png)
 
-### Beschreibung der Lastmanagementlösung im Messkonzept ohne ZEV oder mit Drittanbieter ZEV
+### Beschreibung der Lastmanagementlösung im Messkonzept ohne ZEV / Mieterstrom oder mit Drittanbieter
 
 Das Lastmanagement der Pico Ladestation basiert auf der smart-me Zählerhardware. Diese Hardware kann direkt als Referenzpunkte verwendet werden.
 
@@ -50,7 +50,7 @@ Funktional benötigte Hardwarepunkte für das gesamtheitliche Lastmanagement mit
 
 [Kompatible Drittanbieter Lastmanagement Software](/drittsysteme)
 
-### Abrechnung der E-Mobilität ohne ZEV
+### Abrechnung der E-Mobilität ohne ZEV / Mieterstrom
 
 Die Abrechnung kann auf verschiedene Arten erfolgen mit ihren spezifischen Vor- und Nachteilen:
 

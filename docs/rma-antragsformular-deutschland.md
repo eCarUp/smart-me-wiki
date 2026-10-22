@@ -2,7 +2,7 @@
 title: 'RMA-Antragsformular Deutschland'
 slug: '/rma-antragsformular-deutschland'
 description: 'RMA-Antragsformular für Geräte in Deutschland.'
-sidebar_label: 'RMA-Antragsformular Deutschland'
+sidebar_label: 'RMA Deutschland'
 ---
 Diese Seite gilt für Deutschland. Für die Schweiz und Liechtenstein gibt es [eigene Formulare](/rma-antragsformular-schweiz).
 

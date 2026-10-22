@@ -30,6 +30,7 @@ import {existsSync} from 'node:fs';
 import {join, relative, sep} from 'node:path';
 import type {LoadContext, Plugin} from '@docusaurus/types';
 import matter from 'gray-matter';
+import sidebars from '../../sidebars';
 
 export type Schrittkette = {
   /** Kennung der Seite → Kennungen der Folgeseiten */
@@ -38,7 +39,55 @@ export type Schrittkette = {
   optionale: Record<string, string[]>;
   /** Kennung der Seite → Kennung der vorhergehenden Seite */
   vorherige: Record<string, string>;
+  /**
+   * Kennung der Seite → Länder, für die sie gilt.
+   *
+   * Gelesen aus `sidebars.ts`, nicht aus dem Frontmatter: Dort steht die
+   * Länderzuordnung ohnehin schon, und zwei Stellen würden auseinanderlaufen.
+   * Seiten ohne Eintrag gelten überall — das ist der Normalfall.
+   */
+  laender: Record<string, string[]>;
 };
+
+/**
+ * Sammelt aus der Navigation, welche Seite für welches Land gilt.
+ *
+ * Ein Eintrag erbt die Kennzeichnung seiner Kategorie: Steht die ganze
+ * Rechnungsstellung auf „nur Deutschland", gilt das auch für die Seiten
+ * darin, ohne dass jede einzeln markiert werden muss.
+ */
+export function leseLaender(): Record<string, string[]> {
+  const aus: Record<string, string[]> = {};
+
+  const lauf = (eintraege: unknown, geerbt: string[] | undefined): void => {
+    if (!Array.isArray(eintraege)) return;
+    for (const e of eintraege) {
+      if (typeof e === 'string') {
+        if (geerbt) aus[e] = geerbt;
+        continue;
+      }
+      if (!e || typeof e !== 'object') continue;
+      const eintrag = e as {
+        type?: string;
+        id?: string;
+        link?: {id?: string};
+        items?: unknown;
+        customProps?: {laender?: unknown};
+      };
+      const eigene = eintrag.customProps?.laender;
+      const laender = Array.isArray(eigene)
+        ? eigene.filter((l): l is string => typeof l === 'string')
+        : geerbt;
+
+      const kennung = eintrag.id ?? eintrag.link?.id;
+      if (kennung && laender) aus[kennung] = laender;
+      if (eintrag.items) lauf(eintrag.items, laender);
+    }
+  };
+
+  for (const liste of Object.values(sidebars)) lauf(liste, undefined);
+  return aus;
+}
 
 async function alleDateien(dir: string): Promise<string[]> {
   if (!existsSync(dir)) return [];
@@ -91,7 +140,12 @@ export async function leseKette(docsDir: string): Promise<Schrittkette> {
     }
   }
 
-  return {naechste, optionale, vorherige: {...hergeleitet, ...gesetzt}};
+  return {
+    naechste,
+    optionale,
+    vorherige: {...hergeleitet, ...gesetzt},
+    laender: leseLaender(),
+  };
 }
 
 // Rückgabetyp bewusst `Plugin<unknown>`: So erwartet es die Plugin-Liste in
@@ -110,7 +164,11 @@ export default function schrittkettePlugin(context: LoadContext): Plugin<unknown
     },
 
     getPathsToWatch() {
-      return [join(context.siteDir, 'docs', '**', '*.{md,mdx}')];
+      // `sidebars.ts` gehört dazu: Von dort kommt die Länderzuordnung.
+      return [
+        join(context.siteDir, 'docs', '**', '*.{md,mdx}'),
+        join(context.siteDir, 'sidebars.ts'),
+      ];
     },
   };
 }

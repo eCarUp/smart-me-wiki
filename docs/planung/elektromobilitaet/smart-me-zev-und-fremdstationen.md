@@ -1,10 +1,10 @@
 ---
-title: 'smart-me ZEV und Fremdstationen'
+title: 'smart-me System und Fremdstationen'
 slug: '/planung/elektromobilitaet/smart-me-zev-und-fremdstationen'
 description: 'E-Mobilität in der smart-me ZEV mit Drittanbieter Ladestationen'
-sidebar_label: 'smart-me ZEV und Fremdstationen'
+sidebar_label: 'smart-me System und Fremdstationen'
 ---
-## E-Mobilität in der smart-me ZEV mit Drittanbieter Ladestationen
+## E-Mobilität in der smart-me ZEV / Mieterstrom mit Drittanbieter Ladestationen
 
 ![smart-me ZEV und Fremdstationen – Abbildung 1](/img/planung-elektromobilitaet-smart-me-zev-und-fremdstationen/01.png)
 
@@ -13,7 +13,7 @@ sidebar_label: 'smart-me ZEV und Fremdstationen'
 Bei der Verwendung von Drittanbieter Hardware, kümmert sich smart-me nicht um das Lastmanagement.
 Der Hersteller der Ladehardware bietet seine eigene Messlösung zur Steuerung an.
 
-Innerhalb einer smart-me ZEV muss damit gerechnet werden das an den Stellen wo sich die roten Pfeile befinden zusätzlich zu den smart-me Zählern für die Berechnung des ZEV noch Zählerhardware zur Steuerung eingebaut werden muss.
+Innerhalb einer smart-me ZEV / Mieterstrom muss damit gerechnet werden das an den Stellen wo sich die roten Pfeile befinden zusätzlich zu den smart-me Zählern für die Berechnung des ZEV / Mieterstrom noch Zählerhardware zur Steuerung eingebaut werden muss.
 
 Wird hingegen das Lastmanagement nicht vom jeweiligen Hersteller verwendet, sondern über eine Drittanbieter Software gelöst, so können die smart-me Zähler auch für die Drittanbieterhardware als Referenz und Informationsquelle dienen.
 
@@ -24,7 +24,7 @@ Smart-me Messhardware als Informationsquelle für Drittanbietersoftware zur Steu
 - [Telstar CT](/produkte/telstar-ct)
 
 
-### Erweiterte Informationen zum Lastmanagement und ZEV
+### Erweiterte Informationen zum Lastmanagement und ZEV / Mieterstrom
 
 [Stückliste der Beispielüberbauung](https://dok.smart-me.com/planung/überbauung)
 
@@ -32,7 +32,7 @@ Smart-me Messhardware als Informationsquelle für Drittanbietersoftware zur Steu
 
 
 
-### Abrechnung der E-Mobilität im ZEV
+### Abrechnung der E-Mobilität im ZEV / Mieterstrom
 
 Die Abrechnung kann auf verschiedene Arten erfolgen, mit ihren spezifischen Vor- und Nachteilen:
 

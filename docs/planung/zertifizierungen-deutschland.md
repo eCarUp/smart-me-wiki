@@ -68,4 +68,4 @@ Das Eichgesetz regelt auch die Fragen der Datensicherheit und der Energieverlust
 
 ## Mieterstrom
 
-Für die Abrechnung von Mieterstrom gelten dieselben Anforderungen an die Zähler-Hardware wie oben: ein MID-zertifiziertes Messgerät ist die Grundlage. Wie du einen Mieterstrom in smart-me einrichtest und abrechnest, steht unter [Mieterstrom](/konfiguration/billing/mieterstrom).
+Für die Abrechnung von Mieterstrom gelten dieselben Anforderungen an die Zähler-Hardware wie oben: ein MID-zertifiziertes Messgerät ist die Grundlage. Wie du einen Mieterstrom in smart-me einrichtest und abrechnest, steht unter [Energie abrechnen (Deutschland)](/konfiguration/billing-deutschland).

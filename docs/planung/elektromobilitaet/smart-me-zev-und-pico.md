@@ -1,16 +1,16 @@
 ---
-title: 'smart-me ZEV und Pico'
+title: 'smart-me System und Pico'
 slug: '/planung/elektromobilitaet/smart-me-zev-und-pico'
 description: 'E-Mobilität in der smart-me ZEV mit der Pico Ladestationshardware'
-sidebar_label: 'smart-me ZEV und Pico'
+sidebar_label: 'smart-me System und Pico'
 ---
-## E-Mobilität in der smart-me ZEV mit der Pico Ladestationshardware
+## E-Mobilität in der smart-me ZEV / Mieterstrom mit der Pico Ladestationshardware
 
 ### Prinzipschema einer Überbauung im Zusammenschluss zum Eigenverbrauch
 
 ![smart-me ZEV und Pico – Abbildung 1](/img/planung-elektromobilitaet-smart-me-zev-und-pico/01.png)
 
-### Beschreibung der Lastmanagementlösung im Messkonzept eines ZEV
+### Beschreibung der Lastmanagementlösung im Messkonzept eines ZEV / Mieterstrom Objekts
 
 Das Lastmanagement der Pico Ladestation basiert auf der smart-me Zählerhardware. Diese Hardware kann direkt als Referenzpunkte verwendet werden.
 
@@ -32,17 +32,17 @@ Vorteile des smart-me Lastmanagements:
 - Ladegruppenpriorisierungen und passive Lastspitzenminimierung
 
 
-Funktional benötigte Hardwarepunkte für das gesamtheitliche Lastmanagement im ZEV mit smart-me Hardware (Rote Pfeile):
+Funktional benötigte Hardwarepunkte für das gesamtheitliche Lastmanagement im ZEV / Mieterstrom mit smart-me Hardware (Rote Pfeile):
 
 - 2x Haus Zähler ([Telstar 80A](/produkte/telstar-80a) oder [Telstar CT](/produkte/telstar-ct))
     \- Solaroptimierungspunkt und nötig zur Kapazitätsverteilung innerhalb des Areales.
 
-- Optional aber im ZEV empfohlen 2x E-Mobility Zähler ([Telstar 80A](/produkte/telstar-80a) oder [Telstar CT](/produkte/telstar-ct))
+- Optional aber empfohlen 2x E-Mobility Zähler ([Telstar 80A](/produkte/telstar-80a) oder [Telstar CT](/produkte/telstar-ct))
     \- Referenz wenn mehrere Ladegruppen an einem Abgang angeschlossen sind und sich die Kapazität teilen.
     \- Abrechnungsmessung für Verluste und Standbyenergie
     \- Andere Verbraucher welche nicht Pico Ladestationen sind können zusätzlich berücksichtigt werden. z.B. Garagenbeleuchtung, Steckdosen, usw.
 
-- Optional aber im ZEV ausdrücklich empfohlen 1x Arealzähler ([Telstar 80A](/produkte/telstar-80a) oder [Telstar CT](/produkte/telstar-ct))
+- Optional aber ausdrücklich empfohlen 1x Arealzähler ([Telstar 80A](/produkte/telstar-80a) oder [Telstar CT](/produkte/telstar-ct))
     \- Wenn im ZEV bereits vorhanden, kann dieser Punkt berücksichtigt werden. Fehlt der Arealzähler, kann dieser virtuell abgebildet werden.
 
 
@@ -54,7 +54,7 @@ Funktional benötigte Hardwarepunkte für das gesamtheitliche Lastmanagement im 
 
 [Pico allgemeine Installationsplanung Abgänge und Absicherungen.](/produkte/pico-ladestation/installationsplanung)
 
-### Abrechnung der E-Mobilität im ZEV
+### Abrechnung der E-Mobilität im ZEV / Mieterstrom
 
 Die Abrechnung kann auf verschiedene Arten erfolgen mit ihren spezifischen Vor- und Nachteilen:
 

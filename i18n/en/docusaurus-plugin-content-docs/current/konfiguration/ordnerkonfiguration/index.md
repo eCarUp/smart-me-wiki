@@ -1,17 +1,17 @@
 ---
 title: 'Folder and Meter Configuration'
 slug: '/konfiguration/ordnerkonfiguration'
-description: 'Video tutorial: creating folders and assigning meters'
+description: 'Video guide: creating folders and assigning meters'
 sidebar_label: 'Folder configuration'
-naechste_schritte: [konfiguration/ordnerkonfiguration/nur-strom, konfiguration/ordnerkonfiguration/strom-und-eine-heizung, konfiguration/ordnerkonfiguration/strom-und-mehrere-heizungen]
+naechste_schritte: [konfiguration/ordnerkonfiguration/nur-strom, konfiguration/ordnerkonfiguration/strom-und-eine-heizung, konfiguration/ordnerkonfiguration/strom-und-mehrere-heizungen, konfiguration/ordnerkonfiguration/mieterstrom-standard, konfiguration/ordnerkonfiguration/mieterstrom-nicht-teilnehmer]
 ---
 <Embed src="https://player.vimeo.com/video/661999827" aspect="1.291" title="Folder configuration" />
 
-Video tutorial: creating folders and assigning meters
+Video guide: creating folders and assigning meters
 
 ## Step-by-step guide
 
-### Navigating to the Folder and Meter Configuration area
+### Navigating to the Folder and Meter Configuration section
 
 <div className="row">
 <div className="col col--6">
@@ -32,7 +32,7 @@ Video tutorial: creating folders and assigning meters
 
 ![Folder and Meter Configuration – Figure 2](/img/konfiguration-ordnerkonfiguration/02.png)
 
-Add node (Knoten Hinzufügen):
+Add node ("Knoten Hinzufügen"):
 
 Adds a node with a name and a freely selectable icon.
 
@@ -43,33 +43,33 @@ The name determines the order in which the node is displayed in the tree.
 2.  Sorted alphabetically
 
 
-Edit folder node (Ordner Knoten Editieren) 
+Edit folder node ("Ordner Knoten Editieren") 
 
 Allows changes to the node name, icon and parent folder.
 
 
 
-Edit meter node (Zähler Knoten editieren)
+Edit meter node ("Zähler Knoten editieren")
 
-Name (Name):  Set the name of the meter.
-Description (Beschreibung):
+Name ("Name"):  Define the name of the meter.
+Description ("Beschreibung"):
 Optionally add a description for the meter.
-Value correction (Wert Korrektur): 
-Corrects the meter's measured value in the cloud. (Position calculations)
-Parent folder value correction (Überordner Wert Korrektur):
-Defines as a percentage how much of the measured value is to be summed in the parent folder.
-Meter active (Zähler aktiv):
+Value correction ("Wert Korrektur"): 
+Corrects the measured value of the meter on the cloud side. (Position calculations)
+Parent folder value correction ("Überordner Wert Korrektur"):
+Defines as a percentage how much of the measured value is to be summed up in the parent folder.
+Meter active ("Zähler aktiv"):
 Activate or deactivate a meter to save licenses. Deactivated meters no longer show any data. You can find more information on deactivated meters in our FAQ under [How do I deactivate my meter?](/faq#wie-deaktiviere-ich-meinen-zähler)
 
-To activate or deactivate several meters at once, you can move them into a folder in the Folder and Meter Configuration (Zähler- / Ordnerkonfiguration), right-click that folder and choose a bulk action. 
+To activate or deactivate several meters at once, you can move them into a folder in the Folder and Meter Configuration ("Zähler- / Ordnerkonfiguration"), right-click this folder and select a bulk action. 
 
-![Deactivate meters](/img/konfiguration-ordnerkonfiguration/03.jpg)
+![Deactivating meters](/img/konfiguration-ordnerkonfiguration/03.jpg)
 
-Delete node (Knoten Löschen)
+Delete node ("Knoten Löschen")
 
-Deletes the selected node or meter point from the tree. 
+Deletes the selected node or metering point from the tree. 
 
-Meters then return to the left-hand side as unassigned meters.
+Meters then fall back to the left side as unassigned meters.
 
 ![Folder and Meter Configuration – Figure 4](/img/konfiguration-ordnerkonfiguration/04.png)
 
@@ -82,9 +82,9 @@ Meters then return to the left-hand side as unassigned meters.
 
 - All meters must be labelled. Our suggestions for meter names 
 
-    - Usage unit meter number (e.g. WHG 1 6352415)
+    - Usage unit, meter number (e.g. APT 1 6352415)
 
-    - Medium usage unit meter number (e.g. Wärme WHG 1)
+    - Medium, usage unit, meter number (e.g. Heat APT 1)
 
 </div>
 <div className="col col--4 text--center">
@@ -99,19 +99,19 @@ Meters then return to the left-hand side as unassigned meters.
 <div className="row">
 <div className="col col--7">
 
-Some M-Bus meter manufacturers report during data transmission that the meter is a cold water meter, even though it should be a domestic hot water meter. In this case, the meter type must be overridden in smart-me.
+Some M-Bus meter manufacturers indicate during data transmission that the device is a cold water meter, even though it should be a domestic hot water meter. In this case, the meter type must be overridden in smart-me.
 
-- Navigate to the dashboard
+- Navigate to the Dashboard ("Dashboard")
 
-- Select the meter in the Dashboard menu
+- Select the meter in the Dashboard menu ("Dashboard")
 
 - Select the gear icon at the top right
 
-- Advanced settings (Erweiterte Einstellungen)
+- Advanced settings ("Erweiterte Einstellungen")
 
-- Change the device type (Geräte Type).
+- Change the device type ("Geräte Type").
 
-- Save (Speichern)
+- Save ("Speichern")
 
 Note: This adjustment provides support in smart-me Billing. The Auto Export for energy suppliers is not changed by it.
 
@@ -125,13 +125,13 @@ Note: For technical reasons, this change is not possible with heat and cooling m
 </div>
 </div>
 
-### Folder structures and their effect on downstream processes
+### Folder structures and their influence on subsequent processes
 
-The current system allows billing for electricity to be created automatically. For this to work, heat and water must be kept separate from electricity. Mixed systems are nevertheless possible to reduce the effort for tenant lists, but unfortunately the automated creation of invoices is then lost.
+The current system allows automated creation of electricity billing. For this to work, heat and water must be kept separate from electricity. Mixed systems are nevertheless possible to save effort on the tenant lists, but unfortunately the automation of invoice creation is then lost.
 
-In systems with several heating systems, however, splitting into several properties is unavoidable.
+For systems with several heating systems, however, a separation into several properties is unavoidable.
 
-Each individually created property can in principle represent 1x electricity and 1x heat/water.
+Each individually created property is basically able to represent 1x electricity and 1x heat/water.
 
 <Embed src="/embeds/konfiguration-ordnerkonfiguration-02.html" aspect="2.308" title="Folder configuration" />
 
@@ -147,13 +147,13 @@ The basic structure for each form of energy and each building consists of two ba
 
     - -   Billing unit 1 of the property (apartment or rooms)
 
-            - -   Apartment meter (100% share)
+            - -   Apartment meter (100% shares)
 
         - Billing unit 2 of the property (apartment or rooms)
 
         - ...
 
-- Technical meters (collection of meter points that are not billed directly)
+- Technical meters (collection of metering points not billed directly)
 
     Any number of subfolders may be created here for structuring. 
 
@@ -161,17 +161,17 @@ The basic structure for each form of energy and each building consists of two ba
 
             - Solar system meter
 
-            - General meters distributed as a percentage across billing units
+            - General meters distributed as a percentage to billing units
 
-            - Heat meters distributed as a percentage across billing units
+            - Heat meters distributed as a percentage to billing units
 
-            - Water meters distributed as a percentage across billing units
+            - Water meters distributed as a percentage to billing units
 
 ![Folder and Meter Configuration – Figure 7](/img/konfiguration-ordnerkonfiguration/07.png)
 
 ### Create the structure for your project
 
-Now choose, based on your project, which guide you want to follow.
+Now choose which guide you want to follow based on your project.
 
 [Electricity only](/konfiguration/ordnerkonfiguration/nur-strom)
 
@@ -181,17 +181,17 @@ Now choose, based on your project, which guide you want to follow.
 
 ## Additional information
 
-### Creating folders automatically with CSV files
+### Automatically creating folders with CSV files
 
 smart-me offers the option of automating the creation of folders, assignments and renaming of meters using a CSV file. This function requires a smart-me Professional subscription.
 
 CSV files contain tabular data stored in text form. They can be edited with a text editor (e.g. notepad++).
 
-Caution: existing folders are deleted when this function is used. This means that all functions used with these folders will no longer work (e.g. if/then actions, smart-me billing configurations, etc.). 
+Caution: existing folders are deleted when this function is used. This means that all functions that were used with these folders no longer work (e.g. if/then actions, smart-me billing configurations, etc.). 
 
 
 
-<Video src="YQVcTxPgdzM" title="YouTube video, creating folders using a CSV file" />
+<Video src="YQVcTxPgdzM" title="YouTube video, creating folders using a csv file" />
 
 ![Folder and Meter Configuration – Figure 8](/img/konfiguration-ordnerkonfiguration/08.png)
 
@@ -205,7 +205,7 @@ wiki 2.0 tables
 
 The separators ";" and "//" must not be used in names. They are reserved for separating columns and folders in paths.
 
-If the 4 columns "MeterPointId", "ExportFormat", "UploadType" and "ExportInterval" are present, the meter is additionally registered for Auto Export.
+If the 4 columns "MeterPointId", "ExportFormat", "UploadType" and "ExportInterval" are present, the meter is additionally registered for the Auto Export.
 
 An example configuration without Auto Export:
 
@@ -229,9 +229,9 @@ MeterSerialNumber;MeterName;FolderPath;MeterPointId;ExportFormat;UploadType;Expo
 
 Excel also supports editing CSV files. There are two points to bear in mind:
 
-1.  You must prevent Excel from rounding the meter serial number or displaying it in exponential notation (e.g. by having Excel treat numbers as text.)
+1.  You must prevent Excel from rounding the meter serial number or displaying it in exponential form (e.g. by treating numbers as text in Excel.)
 
-2.  The CSV file must use the UTF-8 character set. Excel does not display umlauts correctly. In a text editor (e.g. notepad++), however, these characters are displayed correctly.
+2.  The CSV file must be in the UTF-8 character set. Excel does not display umlauts correctly. In a text editor (e.g. notepad++), however, these characters are displayed correctly.
 
 
 ![Folder and Meter Configuration – Figure 9](/img/konfiguration-ordnerkonfiguration/09.png)
@@ -240,19 +240,19 @@ The recommended workflow is as follows:
 
 1.  Log in to the [smart-me website](https://web.smart-me.com/login/).
 
-2.  Click Configuration (Konfiguration) at the top right
+2.  Click on Configuration ("Konfiguration") at the top right
 
-3.  Click Meter / Folder Configuration (Zähler / Ordner Konfiguration)
+3.  Click on Meter / Folder Configuration ("Zähler / Ordner Konfiguration")
 
-4.  Click Node configuration via CSV (Knoten Konfiguration über CSV)
+4.  Click on Node configuration via CSV ("Knoten Konfiguration über CSV")
 
-5.  Click Download node configuration (Download Knoten Konfiguration) to download the current configuration as a CSV file
+5.  Click on Download node configuration ("Download Knoten Konfiguration") to download the current configuration as a CSV file
 
 6.  Edit the configuration
 
-7.  Check the configuration in a text editor that supports the UTF-8 character set to make sure meter serial numbers and names are displayed correctly
+7.  Check the configuration in a text editor that supports the UTF-8 character set to make sure that meter serial numbers and names are displayed correctly
 
-8.  Click Browse (Durchsuchen) and select the edited CSV file
+8.  Click on Browse ("Durchsuchen") and select the edited CSV file
 
-9.  Click Upload node configuration (Upload Knoten Konfiguration) to apply the configuration
+9.  Click on Upload node configuration ("Upload Knoten Konfiguration") to apply the configuration
     Caution: the resulting changes cannot be undone

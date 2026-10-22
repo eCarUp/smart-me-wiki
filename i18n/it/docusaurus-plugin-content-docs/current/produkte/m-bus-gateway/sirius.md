@@ -1,21 +1,21 @@
 ---
-title: 'M-Bus Gateway Sirius (250 carichi standard)'
+title: 'M-Bus Gateway Sirius'
 slug: '/produkte/m-bus-gateway/sirius'
-description: 'Il smart-me M-Bus Gateway Sirius con convertitore di livello integrato per 250 carichi standard M-Bus: dati tecnici, schema di collegamento, funzioni dei tasti e download.'
+description: 'Lo smart-me M-Bus Gateway Sirius con convertitore di livello integrato per 250 carichi standard M-Bus: dati tecnici, schema di collegamento, funzioni dei tasti e download.'
 sidebar_label: 'M-Bus Gateway Sirius'
 ---
-Il Sirius è il più grande dei due apparecchi: convertitore di livello integrato per 250 carichi standard M-Bus, pensato per grandi infrastrutture edilizie. La lista di compatibilità, la messa in servizio e le prescrizioni d'installazione valgono per entrambi gli apparecchi e si trovano nella [pagina di panoramica](/produkte/m-bus-gateway).
+Il Sirius è il più grande dei due dispositivi. Ha un convertitore di livello integrato per 250 carichi standard M-Bus ed è pensato per grandi infrastrutture edilizie. L'elenco di compatibilità, la messa in servizio e le prescrizioni di installazione valgono per entrambi i dispositivi e si trovano nella [pagina di panoramica](/produkte/m-bus-gateway).
 
 ## Funzioni
 
-- [Installazione](/konfiguration/inbetriebnahme) con l'app gratuita smart-me.
+- [Installazione](/konfiguration/inbetriebnahme) con l'app smart-me gratuita.
 
 - Convertitore di livello integrato per 250 carichi standard M-Bus
 
 - Alimentatore integrato
 
-- Supporta apparecchi M-Bus secondo EN 13757-2, -3 (in precedenza EN 1434-3).
-    Lo standard definisce il protocollo, ma non i dati contenuti. Il solo rispetto della norma non garantisce quindi il funzionamento effettivo. Consulti la nostra [lista di compatibilità](/produkte/m-bus-gateway).
+- Supporta dispositivi M-Bus conformi alla EN 13757-2, -3 (in precedenza EN 1434-3).
+    Lo standard definisce il protocollo, ma non i dati contenuti. Il solo rispetto della norma non garantisce quindi il funzionamento effettivo. Verifica il nostro [elenco di compatibilità](/produkte/m-bus-gateway).
 
 - Fatturazione con lo [smart-me Billing Tool](/konfiguration/billing)
 
@@ -23,7 +23,7 @@ Il Sirius è il più grande dei due apparecchi: convertitore di livello integrat
 
 - [Interfacce](/schnittstellen/api) tramite API, CSV, MSCONS e IS-E
 
-- Connessione dati crittografata in tempo reale verso la smart-me Cloud
+- Connessione dati crittografata in tempo reale con lo smart-me Cloud
 
 
 ![M-Bus Gateway Sirius – Figura 4](/img/produkte-m-bus-gateway/04.png)
@@ -34,10 +34,10 @@ Il Sirius è il più grande dei due apparecchi: convertitore di livello integrat
 
 ## Informazioni di spedizione
 
-Numero articolo: 262090
-Nome articolo: smart-me M-Bus Gateway Sirius
+Numero d'articolo: 262090
+Nome dell'articolo: smart-me M-Bus Gateway Sirius
 
-Voce di tariffa doganale: 9028.9000
+Numero di tariffa doganale: 9028.9000
 
 Peso con imballaggio: 260g
 
@@ -49,17 +49,17 @@ Peso con imballaggio: 260g
 
 Tasto di installazione (T1)
 
-Premere brevemente una volta = Attiva/disattiva la modalità di installazione
+Una pressione breve = attiva o disattiva la modalità di installazione
 
 Tasto di reset (T2)
 
-Premere brevemente una volta = Legge gli slave MBUS
+Una pressione breve = legge gli slave MBUS
 
-Tenere premuto = Esegue la scansione del M-BUS
+Pressione lunga = esegue la scansione del M-BUS
 
 Tasto di installazione (T1) e tasto di reset (T2) contemporaneamente
 
-Tenere premuto = Riavvia l'apparecchio
+Pressione lunga = riavvia il dispositivo
 
 ## Download e dichiarazione di conformità
 

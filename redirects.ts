@@ -24,7 +24,11 @@ export const redirects: Redirect[] = [
   {from: '/configuration/applab', to: '/konfiguration/applab'},
   {from: '/configuration/billing', to: '/konfiguration/billing'},
   {from: '/configuration/billing/define-electrical-tariffs', to: '/konfiguration/billing/stromtarife-definieren'},
-  {from: '/configuration/billing/mieterstrom', to: '/konfiguration/billing/mieterstrom'},
+  // Die Mieterstrom-Seite ist in „Energie abrechnen (Deutschland)" aufgegangen.
+  {
+    from: ['/configuration/billing/mieterstrom', '/konfiguration/billing/mieterstrom'],
+    to: '/konfiguration/billing-deutschland',
+  },
   {from: '/configuration/billing/vewa-billing', to: '/konfiguration/billing/vewa-abrechnung'},
   // Virtuelle Zähler lagen bis Oktober 2026 unter der Rechnungsstellung.
   {

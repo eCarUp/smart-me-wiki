@@ -90,9 +90,9 @@ const sidebars: SidebarsConfig = {
           label: 'Elektromobilität',
           link: {type: 'doc', id: 'planung/elektromobilitaet/index'},
           items: [
+            'planung/elektromobilitaet/smart-me-zev-und-pico',
             'planung/elektromobilitaet/drittanbieter-zev-und-pico',
             'planung/elektromobilitaet/smart-me-zev-und-fremdstationen',
-            'planung/elektromobilitaet/smart-me-zev-und-pico',
           ],
         },
         {type: 'doc', id: 'planung/zertifizierungen-schweiz', customProps: {laender: ['ch']}},
@@ -136,9 +136,14 @@ const sidebars: SidebarsConfig = {
           label: 'Ordnerkonfiguration',
           link: {type: 'doc', id: 'konfiguration/ordnerkonfiguration/index'},
           items: [
-            'konfiguration/ordnerkonfiguration/nur-strom',
-            'konfiguration/ordnerkonfiguration/strom-und-eine-heizung',
-            'konfiguration/ordnerkonfiguration/strom-und-mehrere-heizungen',
+            // Die Ordnerkonfiguration selbst gilt überall – welche Struktur
+            // darunter passt, hängt am Land: ZEV in der Schweiz, Mieterstrom
+            // in Deutschland.
+            {type: 'doc', id: 'konfiguration/ordnerkonfiguration/nur-strom', customProps: {laender: ['ch']}},
+            {type: 'doc', id: 'konfiguration/ordnerkonfiguration/strom-und-eine-heizung', customProps: {laender: ['ch']}},
+            {type: 'doc', id: 'konfiguration/ordnerkonfiguration/strom-und-mehrere-heizungen', customProps: {laender: ['ch']}},
+            {type: 'doc', id: 'konfiguration/ordnerkonfiguration/mieterstrom-standard', customProps: {laender: ['de']}},
+            {type: 'doc', id: 'konfiguration/ordnerkonfiguration/mieterstrom-nicht-teilnehmer', customProps: {laender: ['de']}},
           ],
         },
         // Virtuelle Zähler sind Messinfrastruktur, keine Abrechnungsfunktion:
@@ -158,8 +163,11 @@ const sidebars: SidebarsConfig = {
         },
         {
           type: 'category',
-          label: 'Rechnungsstellung',
+          label: 'Rechnungsstellung Schweiz',
           link: {type: 'doc', id: 'konfiguration/billing/index'},
+          // Die ganze Kategorie gilt für die Schweiz – ZEV, VEWA, MWST. Die
+          // Kennzeichnung steht am Oberpunkt, die Seiten darin erben sie.
+          customProps: {laender: ['ch']},
           items: [
             {
               type: 'category',
@@ -169,14 +177,22 @@ const sidebars: SidebarsConfig = {
                 'konfiguration/billing/stromtarife-definieren/stromtarif-rechner',
               ],
             },
-            {type: 'doc', id: 'konfiguration/billing/vewa-abrechnung', customProps: {laender: ['ch']}},
-            {type: 'doc', id: 'konfiguration/billing/mwst-zev-nebenkosten', customProps: {laender: ['ch']}},
-            {
-              type: 'doc',
-              id: 'konfiguration/billing/mieterstrom/index',
-              label: 'Mieterstrom',
-              customProps: {laender: ['de']},
-            },
+            'konfiguration/billing/vewa-abrechnung',
+            'konfiguration/billing/mwst-zev-nebenkosten',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Rechnungsstellung Mieterstrom',
+          link: {type: 'doc', id: 'konfiguration/billing-deutschland/index'},
+          // Das deutsche Gegenstück: Mieterstrom nach § 42 EnWG. Wer ein
+          // Land gewählt hat, sieht immer nur eine der beiden Kategorien.
+          // Die Namen müssen sich unterscheiden – Docusaurus bildet aus dem
+          // Label den Übersetzungsschlüssel, und zwei gleiche Labels
+          // kollidieren beim Bauen der anderen Sprachen.
+          customProps: {laender: ['de']},
+          items: [
+            'konfiguration/billing-deutschland/stromtarife-definieren',
           ],
         },
         'konfiguration/benutzerkonfiguration',

@@ -2,7 +2,7 @@
 title: 'RMA-Antragsformular Schweiz und Liechtenstein'
 slug: '/rma-antragsformular-schweiz'
 description: 'Antragsformular für alle smart-me Geräte:'
-sidebar_label: 'RMA-Antragsformulare Schweiz'
+sidebar_label: 'RMA Schweiz'
 ---
 Diese Seite gilt für die Schweiz und Liechtenstein. Für Deutschland gibt es ein [eigenes Formular](/rma-antragsformular-deutschland).
 

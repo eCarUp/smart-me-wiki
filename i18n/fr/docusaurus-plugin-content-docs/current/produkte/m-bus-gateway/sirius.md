@@ -1,14 +1,14 @@
 ---
-title: 'Passerelle M-Bus Sirius (250 charges standard)'
+title: 'M-Bus Gateway Sirius'
 slug: '/produkte/m-bus-gateway/sirius'
-description: 'La passerelle M-Bus Sirius de smart-me avec convertisseur de niveau intégré pour 250 charges standard M-Bus : données techniques, schéma de raccordement, fonctions des touches et téléchargements.'
-sidebar_label: 'Passerelle M-Bus Sirius'
+description: 'Le smart-me M-Bus Gateway Sirius avec convertisseur de niveau intégré pour 250 charges standard M-Bus : caractéristiques techniques, schéma de raccordement, fonctions des touches et téléchargements.'
+sidebar_label: 'M-Bus Gateway Sirius'
 ---
-Le Sirius est le plus grand des deux appareils : convertisseur de niveau intégré pour 250 charges standard M-Bus, conçu pour les grandes infrastructures de bâtiments. La liste de compatibilité, la mise en service et les prescriptions d'installation s'appliquent aux deux appareils et figurent sur la [page de présentation](/produkte/m-bus-gateway).
+Le Sirius est le plus grand des deux appareils : il intègre un convertisseur de niveau pour 250 charges standard M-Bus et il est conçu pour les grandes infrastructures de bâtiments. La liste de compatibilité, la mise en service et les prescriptions d'installation s'appliquent aux deux appareils. Vous les trouverez sur la [page d'aperçu](/produkte/m-bus-gateway).
 
 ## Fonctions
 
-- [Installation](/konfiguration/inbetriebnahme) avec l'application smart-me gratuite.
+- [Installation](/konfiguration/inbetriebnahme) avec l'app smart-me gratuite.
 
 - Convertisseur de niveau intégré pour 250 charges standard M-Bus
 
@@ -26,11 +26,11 @@ Le Sirius est le plus grand des deux appareils : convertisseur de niveau intégr
 - Connexion de données chiffrée en temps réel vers le cloud smart-me
 
 
-![Passerelle M-Bus Sirius – Illustration 4](/img/produkte-m-bus-gateway/04.png)
+![M-Bus Gateway Sirius – illustration 4](/img/produkte-m-bus-gateway/04.png)
 
-## Données techniques
+## Caractéristiques techniques
 
-<Embed src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTmayprR4Vh48nmvnu_ZbxO2BDz8btgHbcJ9pR_-cv_irut8RWRsdGGeIUEGcU8p8qNdzdAKR6xG2kh/pubhtml?gid=0&range=A1:B25&single=true&widget=false&headers=false&chrome=false" height="697px" title="Passerelle M-Bus Sirius" />
+<Embed src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTmayprR4Vh48nmvnu_ZbxO2BDz8btgHbcJ9pR_-cv_irut8RWRsdGGeIUEGcU8p8qNdzdAKR6xG2kh/pubhtml?gid=0&range=A1:B25&single=true&widget=false&headers=false&chrome=false" height="697px" title="M-Bus Gateway Sirius" />
 
 ## Informations d'expédition
 
@@ -43,17 +43,17 @@ Poids avec emballage : 260g
 
 ## Schéma de raccordement
 
-![Passerelle M-Bus Sirius – Illustration 5](/img/produkte-m-bus-gateway/05.png)
+![M-Bus Gateway Sirius – illustration 5](/img/produkte-m-bus-gateway/05.png)
 
 ## Fonctions des touches
 
 Touche d'installation (T1)
 
-Appui court unique = active ou désactive le mode d'installation
+Appuyer une fois brièvement = active ou désactive le mode d'installation
 
 Touche de réinitialisation (T2)
 
-Appui court unique = lit les esclaves MBUS
+Appuyer une fois brièvement = lit les esclaves MBUS
 
 Appui long = scanne le M-BUS
 

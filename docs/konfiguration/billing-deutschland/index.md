@@ -1,60 +1,69 @@
 ---
-title: 'smart-me Billing für deutschen Mieterstrom'
-slug: '/konfiguration/billing/mieterstrom'
-description: 'Du brauchst ein smart-me Professional Abo, um Stromabrechnungen nach dem Energiewirtschaftsgesetz (EnWG) erstellen zu können.'
-sidebar_label: 'Mieterstrom'
+title: 'Energie abrechnen (Deutschland)'
+slug: '/konfiguration/billing-deutschland'
+description: 'Stromabrechnung nach § 42 Energiewirtschaftsgesetz (EnWG): Abrechnungseinheiten, virtuelle Tarife, Messkonzept und Rechnungserstellung für deutschen Mieterstrom.'
+sidebar_label: 'Rechnungsstellung Deutschland'
+naechste_schritte: [konfiguration/benutzerkonfiguration]
+optionale_schritte: [konfiguration/billing-deutschland/stromtarife-definieren]
+vorheriger_schritt: konfiguration/wenndann-aktionen/alarme
 ---
 ### Voraussetzung
 
-Du brauchst ein smart-me Professional Abo, um Stromabrechnungen nach  dem Energiewirtschaftsgesetz (EnWG) erstellen zu können.   
+Du brauchst ein smart-me Professional Abo, um Stromabrechnungen nach dem Energiewirtschaftsgesetz (EnWG) erstellen zu können.
+
+Diese Seite führt durch die Abrechnung für **deutschen Mieterstrom**. Die Schweizer Variante mit ZEV und VEWA findest du unter [Rechnungsstellung Schweiz](/konfiguration/billing).
 
 ## Video Tutorial
 
 Unser Video Tutorial erklärt dir Schritt für Schritt die zusätzlich notwendigen Einstellungen.
 
+<div className="row">
+<div className="col col--4">
+
 <Video src="KSCBESne84M" title="YouTube Video, smartRED Webinar: So geht Mieterstrom – Einfache Umsetzung und Funktionen erklärt" />
 
 Vorstellung Mieterstrom
+
+</div>
+<div className="col col--4">
 
 <Video src="wXGSibdoBR8" title="YouTube Video, Ismanings erste Mieterstromanlage der Körmer GmbH - Mieterstrom mit smartRED" />
 
 Referenzobjekt
 
+</div>
+<div className="col col--4">
+
 <Video src="rsI2zut_HKM" title="YouTube Video, Tutorial: smartRED Zählerkonfiguration in der smart-me Cloud" />
 
 Zählerkonfiguration Mieterstrom
 
-## Einleitung
+</div>
+</div>
 
-Im smart-me Billing können mithilfe einiger Zusatzeinstellungen Stromrechnungen gemäss den Vorschriften von Paragraph § 42 des Deutschen Energiewirtschaftsgesetzes (EnWG) erstellt werden. 
-
-WICHTIG:  Damit du die Zusatzeinstellungen für Mieterstrom erfolgreich vornehmen kannst, musst du vorher die [virtuellen Tarife](/konfiguration/billing) für deine Liegenschaft eingerichtet und die normalen Einstellungen des [smart-me Billings](/konfiguration/billing) vorgenommen haben.
-
-WICHTIG:  Bei Mieterstrom muss immer mit den [virtuellen Tarifen](/konfiguration/billing) gearbeitet werden.
+<div className="row">
+<div className="col col--8">
 
 ## Beispiel Mieterstromabrechnung
 
 Eine fertig konfigurierte Mieterstromabrechnung kann folgendermassen aussehen: 
 
+</div>
+<div className="col col--4 bild--mitte">
+
 <Embed src="https://drive.google.com/file/d/1MGD7-EFY5qNWxINhmGS3asAVvA4_C4Uw/preview" aspect="1.330" title="Drive, Musterrechnung Mieterstrom.pdf" />
 
 Musterrechnung Mieterstrom.pdf
 
-## Messkonzepte Konfigurieren und Abgleichen
+</div>
+</div>
 
-### Standard Messkonzept (Alle Bezüger sind Mieterstromteilnehmer)
+# Schritt für Schritt
 
-![smart-me Billing für deutschen Mieterstrom – Abbildung 1](/img/konfiguration-billing-mieterstrom/01.png)
+## Einstellungen Allgemein
 
-[Details Standardkonzept Tarifierung und Abgleich](/planung/standard-messkonzept)
-
-### Messkonzept MKD3 (Mieterstrom mit nicht Teilnehmern)
-
-![smart-me Billing für deutschen Mieterstrom – Abbildung 2](/img/konfiguration-billing-mieterstrom/02.png)
-
-[Details Messkonzept MKD3 Tarifierung und Abgleich](/planung/mkd3-messkonzept-nicht-teilnehmer)
-
-## Einstellungen allgemein
+<div className="row">
+<div className="col col--7">
 
 - Logge dich in den gewünschten smart-me Account ein 
 
@@ -62,43 +71,40 @@ Musterrechnung Mieterstrom.pdf
 
 - Wähle nun zuerst den Button "Einstellungen"
 
-Hier nimmst du die allgemeinen Einstellungen für die Darstellung des Rechnungsdokument vor. Dort nimmst du auch die bereits aus dem im normalen [Billing Artikel](/konfiguration/billing) beschriebenen Einstellungen vor:
-
+Hier nimmst du die allgemeinen Einstellungen für die Darstellung des Rechnungsdokument vor.
 - Währung (bei Mieterstrom immer EUR)
-
 - Steuer 
-
 - Logo ihrer Firma (für die Darstellung im  Rechnungsdokument)
-
 - Kopfzeile / Absender
-
 - Fusszeile
+
+</div> 
+<div className="col col--5 bild--mitte">
 
 ![smart-me Billing für deutschen Mieterstrom – Abbildung 3](/img/konfiguration-billing-mieterstrom/03.png)
 
-Zusätzlich kannst du nun unten im Bereich "Mieterstrom Deutschland" den Knopf aktivieren.  Damit werden die zusätzlichen Einstellungen für die Mieterstrom - Erweiterungen freigeschaltet.
+</div>
+</div>
 
-Direkt hier kannst du folgende Erweiterungen machen:
+### Mieterstrom aktivieren
+
+Zusätzlich kannst du nun unten im Bereich "Mieterstrom Deutschland" den Knopf aktivieren.  Damit werden die zusätzlichen Einstellungen für die Mieterstrom - Erweiterungen freigeschaltet.
 
 ![smart-me Billing für deutschen Mieterstrom – Abbildung 4](/img/konfiguration-billing-mieterstrom/04.png)
 
-### Netzbetreiber
+#### Netzbetreiber
 
 Hier legst du fest, wer der Versorgungsnetzbetreiber bei dir ist. Die Information solltest du von deinem Elektroinstallateur/PV Anlagenbauer oder im Internet erhalten.
 
-### Kundenservice / Schlichtungsstelle
+#### Kundenservice / Schlichtungsstelle
 
-Vorschlag Titel:
+**Vorschlag Titel:** Was uns antreibt? Ihre Zufriedenheit
 
-Was uns antreibt? Ihre Zufriedenheit
-
-Vorschlag Freitext (für ganz Deutschland / ohne Gewähr auf Rechtssicherheit):
+**Vorschlag Freitext (für ganz Deutschland / ohne Gewähr auf Rechtssicherheit):**
 
 "Kundenservice steht bei uns an erster Stelle. Sie erreichen uns unter der Nummer 01234 / 87589.
 
 Falls es dennoch zu Beschwerden kommen sollte und Sie – wider Erwarten – nach vier Wochen keine Antwort oder Abhilfe von uns erhalten haben, können Sie eine Schlichtung beantragen:
-
-
 
 Schlichtungsstelle Energie e. V.
 
@@ -111,8 +117,9 @@ Telefon: +49 (0) 30 / 27 57 240 – 0
 Fax: +49 (0) 30 / 27 57 240 – 69
 
 E-Mail: [info@schlichtungsstelle-energie.de
+](mailto:info@schlichtungsstelle-energie.de)
 
-](mailto:info@schlichtungsstelle-energie.de)ACHTUNG: Die aufgeführte Schlichtungsstelle ist nur als Beispiel genannt. Es gibt in Deutschland eine Vielzahl an Schlichtungsstellen und du hast die freie Wahl. Kontaktiere die gewünschte Schlichtungsstelle frühzeitig.
+ACHTUNG: Die aufgeführte Schlichtungsstelle ist nur als Beispiel genannt. Es gibt in Deutschland eine Vielzahl an Schlichtungsstellen und du hast die freie Wahl. Kontaktiere die gewünschte Schlichtungsstelle frühzeitig.
 
 Diese Informationen werden in deinem Rechnungsdokument ganz unten aufgeführt.
 
@@ -166,30 +173,14 @@ ACHTUNG: Denke daran, die richtigen Werte  für die von dir gewählte Abrechnun
 
 Angaben der Tabelle ohne Gewähr.
 
-Praxistipp:  Direkt unter dem Eingabefeld für den Verbrauch zur Vorperiode und anderen findest du die von dir bereits konfigurierten [Virtuellen Tarife](/konfiguration/billing). Wenn du einen Einheitstarif verrechnen möchtest (Netz- und Solarstrom sind gleich teuer), dann musst du in einem Mieterstrommodell trotzdem zwei Tarife (mit dem selben Preis) definieren. Dies stellt sicher, dass die Abgaben zu den verschiedenen Stromkomponenten, von unserem Billing Tool korrekt ermittelt werden können.
+## Tarife konfigurieren
 
-### Definition der Tarifkomponenten pro Stromsorte
+- Menu Rechnungsstellung
+- Konfiguration
+- Links die Liegenschaft wählen (Hauptordner z.B. Altgasse 13)
+- Virtuelle Stromtarife Hinzufügen. (z.B. Hochtarif, Niedertarif, Solartarif)
 
-Weiter unten kannst du unter "Sonstiges" die Tarifkomponenten pro Stromsorte (Netz und Solar) definieren. Dies hat den Zweck, dem Endkunden aufzuzeigen, wie sein Strompreis zustande kommt. Du musst dies sowohl für den Netzstrom, wie auch den Solarstrom tun. Die Komponenten müssen zusammen den von dir definierten Preis pro Stromsorte (hast du bei den [Virtuellen Tarifen](/konfiguration/billing) festgelegt) ergeben, ansonsten gibt dir das Billing eine Fehlermeldung aus.
-
-![smart-me Billing für deutschen Mieterstrom – Abbildung 8](/img/konfiguration-billing-mieterstrom/08.png)
-
-Du kannst entweder die Standard- Mieterstrom-Tarifkomponenten direkt einfügen oder über "Editieren" einzelne Tarifkomponenten erfassen.
-
-Wichtig: Wähle den korrekten Typ beim Editieren bzw. spezifiziere ob es sich um eine Tarifkomponente des Netzstroms (Reststroms) oder des Solarstroms handelt.
-
-
-Wichtig: Die Angaben zu der Zusammensetzung der Komponenten für den Netzstrom (Reststrom) erhältst du bei deinem gewählten Reststromanbieter.
-
-Der Solarstrom besteht üblicherweise nur aus EEG-Umlage und Erzeugungspreis.
-
-![smart-me Billing für deutschen Mieterstrom – Abbildung 9](/img/konfiguration-billing-mieterstrom/09.png)
-
-Ein fertige Konfiguration kann so aussehen:
-
-![smart-me Billing für deutschen Mieterstrom – Abbildung 10](/img/konfiguration-billing-mieterstrom/10.png)
-
-Danach hast alle Einstellungen auf der Ebene Liegenschaft vorgenommen.  Zum Abschluss musst du noch in den einzelnen Wohneinheiten die Kundennummer und die Angaben zum Vertrag und Laufzeit eintragen.
+Im Detail: [Stromtarife definieren](/konfiguration/billing-deutschland/stromtarife-definieren)
 
 ## Konfiguration der Wohneinheiten
 
@@ -212,3 +203,4 @@ Ihr Vertrag hat eine Laufzeit bis DD.MM.YYYY und verlängert sich entsprechend d
 ![smart-me Billing für deutschen Mieterstrom – Abbildung 11](/img/konfiguration-billing-mieterstrom/11.png)
 
 Gratulation, du hast es geschafft! Wenn du nun Rechnungen im smart-me Billing Tool generierst, wird dir ein Rechnungsdokument mit allen nötigen Angaben sowie den visuellen Darstellungen ausgegeben.
+

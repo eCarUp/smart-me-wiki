@@ -8,44 +8,9 @@ sidebar_label: 'MKD3 Messkonzept (nicht Teilnehmer)'
 
 ## Tarifierung des Messkonzepts MKD3 mit Nichtteilnehmern
 
-Die Tarifierung des Messkonzepts erfolgt ausschliesslich über Produktion und den Teilnehmern am Mieterstrom
+Die Tarifierung des Messkonzepts erfolgt ausschliesslich über Produktion und den Teilnehmenden Verbrauchern am Mieterstrom.
+Der Hausanschlusszähler sollte als Prüfstein einbezogen werden und nicht bewusst weggelassen werden.
 
-### Tarifierung mit Solartarif inkl. vZEV
-
-Der Bilanzzähler wird für die Tarifierungsberechnung ignoriert, er wird später nur zur Verifizierung betrachtet.
-
-Bei der Nutzung des Solartarif inkl. vZEV werden keine zusätzlichen Lizenzen für virtuelle Zähler fällig.
-
-Bilanzzähler
-
-Alle Teilnehmenden Wohnungen / Parkplätze und Produktionen als Bilanzzähler.
-
-![MKD3 Messkonzept (mit nicht Teilnehmer) – Abbildung 2](/img/planung-mkd3-messkonzept-nicht-teilnehmer/02.png)
-
-Produktionszähler
-
-Alle Produktionszähler als Produktion erfassen
-
-
-![MKD3 Messkonzept (mit nicht Teilnehmer) – Abbildung 3](/img/planung-mkd3-messkonzept-nicht-teilnehmer/03.png)
-
-### Tarifierung mittels Solartarif (Verbrauch / PV) mit oder ohne Batterietarif (Verbrauch / Batterie)
-
-Der Bilanzzähler wird für die Tarifierungsberechnung ignoriert, er wird später nur zur Verifizierung betrachtet.
-
-Bei der Nutzung des Solartarif /verbrauch /PV) werden zusätzliche Lizenzen für virtuellen Zähler fällig.
-
-Der Gesamtvebrauch wird mindestens benötigt. Dieser wird als virtueller Zähler erstellt bestehend aus allen Teilnehmenden Abgängen des Mieterstroms.
-
-Gesamtverbrauch = Wohnung 1.1 + Wohnung 1.2 + Allgemein + Parkplatz 1 + Parkplatz 2 + Wärmepumpe
-
-Es wird jeweils unter Produktion der Solaranlagenzähler bzw. Batteriezähler beim Batterietarif hinzugefügt.
-
-Beim Gesamtverbrauch wird der virtuell erstellte Gesamtverbrauch hinterlegt.
-
-Der Bilanzzähler wird bewusst nicht referenziert um die virtuelle Bilanzierung nicht flasch zu korrigieren!
-
-![MKD3 Messkonzept (mit nicht Teilnehmer) – Abbildung 4](/img/planung-mkd3-messkonzept-nicht-teilnehmer/04.png)
 
 ## Bilanzierung und Validierung des MKD3
 

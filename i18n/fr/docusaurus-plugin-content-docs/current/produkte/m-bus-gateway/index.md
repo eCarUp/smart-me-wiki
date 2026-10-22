@@ -1,14 +1,14 @@
 ---
-title: 'M-Bus Gateway'
+title: 'Passerelles M-Bus'
 slug: '/produkte/m-bus-gateway'
-description: 'Les M-Bus Gateways smart-me relèvent les compteurs d''énergie dotés d''une interface M-Bus (EN 13757-2, -3) et transmettent les données automatiquement et de manière chiffrée par WLAN vers le smart-me Cloud.'
-sidebar_label: 'M-Bus Gateway'
+description: 'Les passerelles M-Bus smart-me relèvent les compteurs d''énergie dotés d''une interface M-Bus (EN 13757-2, -3) et transmettent les données automatiquement et de manière chiffrée par WLAN vers le cloud smart-me.'
+sidebar_label: 'Passerelles M-Bus'
 ---
-Les M-Bus Gateways smart-me relèvent les compteurs d'énergie dotés d'une interface M-Bus (EN 13757-2, -3) et transmettent les données automatiquement et de manière chiffrée par WLAN vers le smart-me Cloud. Via le portail smart-me ou notre interface ouverte, les valeurs des différents vecteurs énergétiques (eau, chaleur, gaz, température) peuvent ensuite être évaluées de manière flexible et exportées vers des systèmes tiers.
+Les passerelles M-Bus smart-me relèvent les compteurs d'énergie dotés d'une interface M-Bus (EN 13757-2, -3) et transmettent les données automatiquement et de manière chiffrée par WLAN vers le cloud smart-me. Via le portail smart-me ou notre interface ouverte, vous pouvez ensuite analyser de manière flexible les valeurs de différents vecteurs énergétiques (eau, chaleur, gaz, température) et les exporter vers des systèmes tiers.
 
 ## Les deux appareils
 
-Les deux appareils offrent les mêmes fonctions. Ils se distinguent par le nombre de charges standard M-Bus, c'est-à-dire par le nombre de compteurs pouvant être raccordés à une passerelle.
+Les deux appareils offrent les mêmes fonctions — ils se distinguent par le nombre de charges standard M-Bus, c'est-à-dire par le nombre de compteurs pouvant être raccordés à une passerelle.
 
 <Kacheln min="15rem">
 
@@ -30,14 +30,14 @@ Numéro d'article 262090
 
 </Kacheln>
 
-Les données techniques, le schéma de raccordement, les fonctions des touches et les téléchargements figurent sur la page de chaque appareil. Tout le reste de cette page s'applique aux deux appareils.
+Les caractéristiques techniques, le schéma de raccordement, les fonctions des touches et les téléchargements figurent sur la page de chaque appareil. Tout le reste de cette page s'applique aux deux appareils.
 
-## Compteurs électriques, de chaleur, d'eau et de gaz compatibles
+## Compteurs d'électricité, de chaleur, d'eau et de gaz compatibles
 
-Le M-Bus Gateway relève plus de 1000 types de compteurs de différents fabricants. Vous trouverez ci-dessous une liste non exhaustive des fabricants d'appareils compatibles.
+La passerelle M-Bus relève plus de 1000 types de compteurs de différents fabricants. Vous trouverez ci-dessous une liste non exhaustive des fabricants d'appareils compatibles.
 
-Remarque : vérifiez explicitement comment le compteur est déclaré. Il peut être déclaré comme compteur de chaleur, compteur de chaleur / de froid, compteur d'eau ou compteur électrique.
-Les compteurs combinés qui ne sont pas déclarés comme compteurs de chaleur / de froid peuvent, dans certains cas, ne pas fonctionner correctement en mode combiné ou ne fonctionner que comme compteurs de chaleur.
+Remarque : vérifiez précisément la manière dont le compteur est déclaré. Il peut être déclaré comme compteur de chaleur, compteur de chaleur / froid, compteur d'eau ou compteur d'électricité.
+Les compteurs combinés qui ne sont pas déclarés comme compteurs de chaleur / froid peuvent, dans certains cas, ne pas fonctionner correctement en mode combiné ou ne fonctionner que comme compteurs de chaleur.
 
 <Embed src="https://drive.google.com/file/d/1PVhN_1lLolihf6eNQ_1x7UxZK8cjE_hq/preview" height="700px" title="Drive, liste de compatibilité M-Bus_Gateway.xlsx" />
 
@@ -85,7 +85,7 @@ Eichaustrasse 1, CH-9463 Oberriet
 
 +41 58 715 50 50 · [www.neovac.ch](https://www.neovac.ch)
 
-Heinz Marti (responsable du secteur technique) · +41 58 715 56 90 · [heinz.marti@neovac.ch](mailto:heinz.marti@neovac.ch)
+Heinz Marti (responsable du département technique) · +41 58 715 56 90 · [heinz.marti@neovac.ch](mailto:heinz.marti@neovac.ch)
 
 </Kachel>
 
@@ -141,7 +141,7 @@ Brunnenbachstrasse 1, CH-8340 Hinwil
 
 ## Mise en service
 
-Ces pages contiennent toutes les informations utiles pour réussir la mise en service du M-Bus Gateway.
+Sur ces pages, vous trouverez toutes les informations utiles pour réussir la mise en service de la passerelle M-Bus.
 
 - [Préparation de la mise en service](/konfiguration/inbetriebnahme#guide-pour-les-deux-m-bus-gateways)
 
@@ -149,14 +149,14 @@ Ces pages contiennent toutes les informations utiles pour réussir la mise en se
 
 - [Numérotation des compteurs combinés](/konfiguration/inbetriebnahme#numérotation-des-compteurs-combinés)
 
-- [Recherche d'appareils M-Bus Gateway](/konfiguration/inbetriebnahme#rechercher-des-appareils-avec-le-m-bus-gateway)
+- [Recherche d'appareils de la passerelle M-Bus](/konfiguration/inbetriebnahme#rechercher-des-appareils-avec-le-m-bus-gateway)
 
 - [Désactiver la détection automatique des appareils](/konfiguration/inbetriebnahme#empêcher-la-détection-de-nouveaux-appareils-par-le-m-bus-gateway)
 
 
 ## Prescriptions d'installation M-Bus
 
-Pour une installation en un tour de main
+Pour une installation en un tournemain
 
 - Tubes vides ou chemins de câbles depuis la centrale de données jusqu'aux boîtes de dérivation et aux appareils de mesure
 
@@ -169,19 +169,19 @@ Pour une installation en un tour de main
 - Alimentation 230V / 10A depuis des groupes de fusibles plombables
 
 
-Attention : ne mettez pas le M-Bus Gateway smart-me sous tension. La mise sous tension de service doit être effectuée exclusivement par un partenaire smart-me.
+Attention : ne mettez pas la passerelle M-Bus smart-me sous tension. La mise sous tension de service ne doit être effectuée que par un partenaire smart-me.
 
 Recommandation pour la combinaison des cheminements de câbles
-Nous recommandons de répartir la pose des lignes de bus en colonnes montantes et en lignes de dérivation :
+Nous recommandons de répartir la pose des lignes de bus en lignes montantes et en lignes de dérivation :
 
-![M-Bus Gateway – illustration 6](/img/produkte-m-bus-gateway/06.png)
+![Passerelle M-Bus – figure 6](/img/produkte-m-bus-gateway/06.png)
 
-### Prescriptions relatives aux câbles et à l'installation électrique
+### Prescriptions pour l'installation des câbles et l'installation électrique
 
 Les prescriptions SEV s'appliquent de manière générale. Les lignes de bus doivent être aussi courtes que possible.
 Les types de câbles suivants sont recommandés :
 
-Colonne montante : TT2×1,5 mm2 (de préférence), longueur de ligne maximale = 1000 m
+Ligne montante : TT2×1,5 mm2 (de préférence), longueur de ligne maximale = 1000 m
 
 Ligne de dérivation : U72 1×4×0,8 mm2 (de préférence), longueur de ligne maximale = 50 m
 
@@ -189,13 +189,13 @@ Remarque : tous les points de dérivation, de raccordement et de connexion doive
 
 Le plombage est effectué par un partenaire smart-me.
 
-### Suggestions de matériel
+### Propositions de matériel
 
 Raccordements / connexions :
 
-- Boîtes apparentes (AP) : p. ex. Woertz 78×78 mm
+- Boîtes apparentes : p. ex. Woertz 78×78 mm
 
-- Boîtes encastrées (UP) : boîtes de dérivation standard
+- Boîtes encastrées : boîtes de dérivation standard
 
 
 Connexions de lignes :
@@ -205,12 +205,12 @@ Connexions de lignes :
 - Bornes usuelles pour conducteurs à courant faible
 
 
-### À quel intervalle les compteurs envoient-ils des données ?
+### À quel intervalle les compteurs envoient-ils leurs données ?
 
-Les données sont relevées de manière séquentielle sur chaque compteur M-Bus selon l'intervalle défini. Le relevé d'un compteur dure environ 3 secondes. Les compteurs sont relevés dans l'ordre dans lequel ils sont listés sous le M-Bus Gateway.
+Les données sont relevées séquentiellement sur chaque compteur M-Bus selon l'intervalle configuré. Le relevé d'un compteur dure env. 3 secondes. Les compteurs sont relevés dans l'ordre dans lequel ils sont listés sous la passerelle M-Bus.
 
 ## Description technique du protocole M-BUS
 
-Le smart-me Cloud affiche en principe toutes les données que le compteur envoie via M-BUS. smart-me respecte la norme EN 13757-2, -3.
+Le cloud smart-me affiche en principe toutes les données que le compteur envoie via M-BUS. smart-me respecte la norme EN 13757-2, -3.
 
 Quelques exemples de mapping des télégrammes M-BUS : [Examples: smart-me M-BUS OBIS Mapping](https://docs.google.com/spreadsheets/d/1YdANNycQFGBsSAA0OtO-GKNZQg42OdUJ03VKlixGZ1w/edit#gid=0)

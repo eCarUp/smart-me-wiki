@@ -1113,6 +1113,36 @@ vorheriger_schritt: konfiguration/ordnerkonfiguration/index
 Ohne diese Zeile nimmt der Wegweiser die erste Seite, die er findet — das ist
 dann Zufall, nicht Absicht. Setz sie also überall dort, wo Wege zusammenlaufen.
 
+### Ein Weg je Land
+
+Manche Schritte gehen in der Schweiz anders weiter als in Deutschland. Nach
+der Inbetriebnahme folgt hier die ZEV-Ordnerstruktur, dort die für
+Mieterstrom. Dafür braucht es keine zweite Inbetriebnahmeseite: Sie zählt
+einfach **beide** Folgeseiten auf.
+
+```yaml
+naechste_schritte: [konfiguration/billing/index, konfiguration/billing-deutschland/index]
+```
+
+Welche davon erscheint, entscheidet die Länderwahl des Lesers. Der Wegweiser
+schlägt dazu in `sidebars.ts` nach, wie die Zielseite gekennzeichnet ist —
+dieselbe Angabe, die auch die Navigation filtert. **Du pflegst die
+Länderzuordnung also weiterhin nur an einer Stelle.**
+
+| Leser hat gewählt | sieht |
+| --- | --- |
+| Schweiz | nur Ziele ohne Kennzeichnung und solche mit `ch` |
+| Deutschland | nur Ziele ohne Kennzeichnung und solche mit `de` |
+| Alle Länder | alle Ziele, jedes mit seinem eigenen Titel |
+
+Damit die Kacheln im Zustand „Alle Länder" unterscheidbar bleiben, **gehört
+das Land in den Titel der Seite** — „Energie abrechnen (Schweiz)" und
+„Energie abrechnen (Deutschland)" statt zweimal „Energie abrechnen". Der
+Wegweiser zeigt den Titel der Zielseite, nicht einen eigenen Linktext.
+
+Das gilt auch rückwärts: Zeigt `vorheriger_schritt` auf eine Seite, die zum
+gewählten Land nicht passt, bleibt der Rückwärtsverweis einfach aus.
+
 ### Was du nicht angeben musst
 
 Beschriftung und Adresse holt sich der Wegweiser von der Zielseite. Du
@@ -1140,21 +1170,31 @@ Nur dort, wo es **wirklich** einen nächsten Schritt gibt — also am Ende einer
 Anleitung, die Teil eines Ablaufs ist. Der eingerichtete Pfad:
 
 ```
-Inbetriebnahme
-  → Zähler- und Ordnerkonfiguration
-      → nur Strom · Strom und eine Heizung · Strom und mehrere Heizungen
-          → Alarme
-              → Rechnungsstellung  ← Knotenpunkt
-                  ↳ optional: Stromtarife definieren (↳ optional: Tarifzeiten)
-                  ↳ optional: VEWA - Abrechnung
-                  → Benutzerkonfiguration (Mieterzugänge)
-                      → Visualisierung und Public Links
-                          → zurück zur Rechnungsstellung · fertig
+Inbetriebnahme                                    (überall gleich)
+  → Zähler- und Ordnerkonfiguration               (überall gleich)
+      │
+      ├─ Schweiz ──→ nur Strom · Strom und eine Heizung · mehrere Heizungen
+      └─ Deutschland → Mieterstrom Standard · Mieterstrom mit nicht Teilnehmern
+          │
+          → Alarme                                (überall gleich)
+              → Energie abrechnen  ← Knotenpunkt, je Land eine Seite
+                  │
+                  ├─ Schweiz:     ↳ Stromtarife definieren (↳ Tarifzeiten)
+                  │               ↳ VEWA - Abrechnung
+                  └─ Deutschland: ↳ Stromtarife definieren (Deutschland)
+                                  ↳ Mieterstrom im Detail
+                  → Benutzerkonfiguration (Mieterzugänge)   (überall gleich)
+                      → Visualisierung und Public Links     (überall gleich)
+                          → zurück zur Abrechnung · fertig
 ```
 
-Die Rechnungsstellung ist der Knotenpunkt: Von dort geht man in die
-Zwischenschritte und kommt zurück, und am Ende — nach Mieterzugängen und
-Visualisierung — landet man wieder dort, um die Rechnung zu erstellen.
+Die Abrechnung ist der Knotenpunkt: Von dort geht man in die Zwischenschritte
+und kommt zurück, und am Ende — nach Mieterzugängen und Visualisierung —
+landet man wieder dort, um die Rechnung zu erstellen.
+
+Der Ablauf gabelt sich an zwei Stellen nach Land, bleibt sonst aber einer.
+Inbetriebnahme, Ordnerkonfiguration, Alarme, Mieterzugänge und Visualisierung
+gelten für beide Länder und existieren nur einmal.
 
 Auf einer Produktseite, einer Übersicht oder einer Nachschlageseite gehört er
 nicht hin. „Nichts" ist hier die richtige Antwort und der Normalfall.

@@ -11,13 +11,13 @@ This page applies to Germany. There is a [separate page](/planung/zertifizierung
 
 <International />
 
-## Certification for charging stations in Germany
+## Certifications for charging stations in Germany
 
 Charge points in rental properties:
 
-For charging station hardware used in a rental property, Germany generally requires the same as for standard meter hardware:
+For charging station hardware used in a rental property, Germany generally has the same requirements as for standard meter hardware:
 
-- MID certification in order to be allowed to bill the recorded energy.
+- MID certification, so that the recorded energy may be billed.
 
 
 
@@ -31,7 +31,7 @@ Charge points in public areas with different users:
 <div className="col col--7">
 
 Note:
-The markings on the right are mandatory symbols that must be visible on the hardware at all times in order to have MID, load profile or calibration law (Eichrecht) approval.
+The markings on the right are mandatory symbols that must be visible on the hardware at all times in order to hold MID, load profile or calibration law (Eichrecht) approval.
 
 Mandatory markings on the charging hardware:
 
@@ -55,17 +55,17 @@ Calibration law (Eichrecht):
 
 ## Calibration law (Eichrecht)
 
-The Eichrecht is a German law that regulates the accuracy and transparency of measurements in Germany. When charging electric vehicles, this regulation ensures that the measurements at the charging stations are accurate and transparent in order to protect consumers. 
+Eichrecht is a German law that governs the accuracy and transparency of measurements in Germany. When charging electric vehicles, this regulation ensures that the measurements at charging stations are accurate and transparent in order to protect consumers. 
 
-Under the Eichrecht, EV charging stations must be equipped with an electricity meter that is certified and calibrated (MID).
+Under Eichrecht, EV charging stations must be equipped with an electricity meter that is certified and calibrated (MID).
 The electricity meter measures the energy consumed and determines the amount billed to the EV driver. 
 
-The Eichrecht regulations also govern other aspects of billing. Charging stations must clearly display prices and provide customers with a receipt stating the amount of energy consumed, the price charged and other relevant details.
+The Eichrecht regulations also govern other aspects of billing. Charging stations must display prices clearly and provide customers with a receipt stating the amount of energy consumed, the price charged and other relevant details.
 
-It must be possible to cross-check the charging sessions for correctness using [independent transparency software](/informationssicherheit/zaehlertransaktionen).
+It must be possible to verify the correctness of the charging sessions using [independent transparency software](/informationssicherheit/zaehlertransaktionen).
 
-The calibration law also governs questions of data security and of energy losses during charging sessions caused by cabling or other means.
+The calibration law also governs data security and energy losses during charging sessions caused by cabling or other means.
 
 ## Tenant electricity
 
-The same requirements for meter hardware as above apply to the billing of tenant electricity: an MID-certified measuring device is the basis. How to set up and bill tenant electricity in smart-me is described under [Tenant electricity](/konfiguration/billing/mieterstrom).
+The same requirements for meter hardware as above apply to the billing of tenant electricity: an MID-certified measuring device is the basis. How to set up and bill tenant electricity in smart-me is described under [Energy Billing (Germany)](/konfiguration/billing-deutschland).

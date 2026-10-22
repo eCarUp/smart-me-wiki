@@ -1,10 +1,10 @@
 ---
-title: 'M-Bus Gateway (50 carichi standard)'
+title: 'M-Bus Gateway'
 slug: '/produkte/m-bus-gateway/50-standardlasten'
-description: 'Il gateway M-Bus smart-me con convertitore di livello integrato per 50 carichi standard M-Bus: dati tecnici, schema di collegamento, funzione del tasto e download.'
-sidebar_label: 'M-Bus Gateway (50 carichi)'
+description: 'Lo smart-me M-Bus Gateway con convertitore di livello integrato per 50 carichi standard M-Bus: dati tecnici, schema di collegamento, funzione del tasto e download.'
+sidebar_label: 'M-Bus Gateway'
 ---
-Il gateway M-Bus con convertitore di livello integrato per 50 carichi standard M-Bus. La lista di compatibilità, la messa in servizio e le prescrizioni di installazione valgono per entrambi i dispositivi e si trovano nella [pagina di panoramica](/produkte/m-bus-gateway).
+L'M-Bus Gateway con convertitore di livello integrato per 50 carichi standard M-Bus. L'elenco di compatibilità, la messa in servizio e le prescrizioni d'installazione valgono per entrambi i dispositivi e si trovano nella [pagina panoramica](/produkte/m-bus-gateway).
 
 ## Funzioni
 
@@ -15,7 +15,7 @@ Il gateway M-Bus con convertitore di livello integrato per 50 carichi standard M
 - Alimentatore integrato
 
 - Supporta dispositivi M-Bus secondo EN 13757-2, -3 (in precedenza EN 1434-3)
-    Lo standard definisce il protocollo, ma non i dati contenuti. Il solo rispetto della norma non garantisce quindi il funzionamento effettivo. Verifichi la nostra [lista di compatibilità](/produkte/m-bus-gateway).
+    Lo standard definisce il protocollo, ma non i dati contenuti. Il solo rispetto della norma non garantisce quindi l'effettivo funzionamento. Verifica il nostro [elenco di compatibilità](/produkte/m-bus-gateway).
 
 - Fatturazione con lo [smart-me Billing Tool](/konfiguration/billing)
 
@@ -35,7 +35,7 @@ Il gateway M-Bus con convertitore di livello integrato per 50 carichi standard M
 ## Informazioni di spedizione
 
 Numero articolo: 150590
-Nome articolo: smart-me M-Bus Gateway (con interfaccia WiFi)
+Nome articolo: smart-me M-Bus Gateway (mit WiFi Schnittstelle)
 
 Numero di tariffa doganale: 9028.1000
 
@@ -47,9 +47,9 @@ Peso con imballaggio: 150g
 
 ## Funzione del tasto
 
-T(4) Tasto per l'installazione
+Tasto T(4) per l'installazione
 
-Tenendo premuto il tasto T(4) per 10 secondi viene generata una rete WiFi locale per l'installazione
+Se si tiene premuto il tasto T(4) per 10 secondi, viene creata una rete WiFi locale per l'installazione
 
 ## Dimensioni
 

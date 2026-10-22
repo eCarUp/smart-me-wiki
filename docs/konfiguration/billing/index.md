@@ -1,5 +1,5 @@
 ---
-title: 'Billing: Energie abrechnen'
+title: 'Energie abrechnen (Schweiz)'
 slug: '/konfiguration/billing'
 description: 'Du brauchst ein smart-me Professional Abo, um Energiekostenabrechnungen erstellen zu können.'
 sidebar_label: 'Rechnungsstellung'

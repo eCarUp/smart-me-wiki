@@ -1,10 +1,10 @@
 ---
-title: 'Passerelle M-Bus'
+title: 'M-Bus Gateway'
 slug: '/produkte/m-bus-gateway/50-standardlasten'
-description: 'La passerelle M-Bus smart-me avec convertisseur de niveau intégré pour 50 charges standard M-Bus : caractéristiques techniques, schéma de raccordement, fonction des touches et téléchargements.'
-sidebar_label: 'Passerelle M-Bus'
+description: 'Le M-Bus Gateway smart-me avec convertisseur de niveau intégré pour 50 charges standard M-Bus : caractéristiques techniques, schéma de raccordement, fonction de la touche et téléchargements.'
+sidebar_label: 'M-Bus Gateway'
 ---
-La passerelle M-Bus avec convertisseur de niveau intégré pour 50 charges standard M-Bus. La liste de compatibilité, la mise en service et les prescriptions d'installation s'appliquent aux deux appareils et se trouvent sur la [page d'aperçu](/produkte/m-bus-gateway).
+Le M-Bus Gateway avec convertisseur de niveau intégré pour 50 charges standard M-Bus. La liste de compatibilité, la mise en service et les prescriptions d'installation s'appliquent aux deux appareils et se trouvent sur la [page d'aperçu](/produkte/m-bus-gateway).
 
 ## Fonctions
 
@@ -12,12 +12,12 @@ La passerelle M-Bus avec convertisseur de niveau intégré pour 50 charges stand
 
 - Convertisseur de niveau intégré pour 50 charges M-Bus
 
-- Bloc d'alimentation intégré
+- Alimentation intégrée
 
 - Prend en charge les appareils M-Bus selon EN 13757-2, -3 (anciennement EN 1434-3)
-    La norme définit le protocole, mais pas les données transmises. Le seul respect de la norme ne garantit donc pas le bon fonctionnement. Consultez notre [liste de compatibilité](/produkte/m-bus-gateway).
+    La norme définit le protocole, mais pas les données qu'il contient. Le respect de la norme ne garantit donc pas à lui seul le bon fonctionnement. Consultez notre [liste de compatibilité](/produkte/m-bus-gateway).
 
-- Facturation avec l'[outil smart-me Billing](/konfiguration/billing)
+- Facturation avec le [smart-me Billing Tool](/konfiguration/billing)
 
 - [Visualisations](/konfiguration/visualisierung)
 
@@ -26,11 +26,33 @@ La passerelle M-Bus avec convertisseur de niveau intégré pour 50 charges stand
 - Connexion de données chiffrée en temps réel vers le cloud smart-me
 
 
-![Passerelle M-Bus – Illustration 1](/img/produkte-m-bus-gateway/01.jpg)
+![M-Bus Gateway – Figure 1](/img/produkte-m-bus-gateway/01.jpg)
 
 ## Caractéristiques techniques
 
-<Embed src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTS_V0Z-_eYRhsXEj3_EJEfKJUK_UP_ZtCxld8cwubPmkDx3eOCcscx_DfAkDd1ngnfvuES569q42lz/pubhtml?gid=0&range=A1:B22&single=true&widget=false&headers=false&chrome=false" height="575px" title="Passerelle M-Bus" />
+| Caractéristique | Valeur |
+| --- | --- |
+| Certification du produit | CE |
+| Tension du réseau | 100-240 VAC 50/60 Hz |
+| Plage de température | -25°C à +55°C |
+| Humidité relative | Moyenne annuelle 75%, sans condensation<br />brièvement 95%, sans condensation |
+| Interfaces | WLAN, M-BUS |
+| Communication | WLAN IEEE 802.11 b/g/n (2.4 GHz) |
+| Norme de sécurité WLAN | WEP, WPA-PSK/WPA2-PSK |
+| Nombre d'esclaves M-BUS | 50 charges standard<br />(Avec répéteur jusqu'à 100)<br />Jusqu'à 25 sans alimentation propre |
+| Débit en bauds M-BUS | 300, 2400, 9600 (recherche et détection automatiques) |
+| Isolation galvanique | Présente |
+| Mémoire de données | 6'000 relevés |
+| Mise à jour du firmware | Possible en ligne |
+| Immunité CEM | EN 61000-6-2 (environnement industriel) |
+| Émissions CEM | EN 61000-6-3 (environnement résidentiel) |
+| Indice de protection boîtier/raccordements, utilisation | IP20 / IP51 (monté dans une armoire électrique), intérieur |
+| Montage | Rail DIN |
+| Dimensions | 2 modules, L:90mm l:36mm H:65.7mm |
+| Emplacement des serveurs | Suisse |
+| Classe de protection | II |
+| Volume de données | ≤ 1KB par appareil et par relevé |
+| Dernière modification | 25.09.2023 |
 
 ## Informations d'expédition
 
@@ -43,17 +65,17 @@ Poids avec emballage : 150g
 
 ## Schéma de raccordement
 
-![Passerelle M-Bus – Illustration 2](/img/produkte-m-bus-gateway/02.png)
+![M-Bus Gateway – Figure 2](/img/produkte-m-bus-gateway/02.png)
 
-## Fonction des touches
+## Fonction de la touche
 
 T(4) Touche pour l'installation
 
-Si la touche T(4) est maintenue enfoncée pendant 10 secondes, un réseau WiFi local est créé pour l'installation
+Si la touche T(4) est maintenue enfoncée pendant 10 secondes, un WiFi local est créé pour l'installation
 
 ## Dimensions
 
-![Passerelle M-Bus – Illustration 3](/img/produkte-m-bus-gateway/03.png)
+![M-Bus Gateway – Figure 3](/img/produkte-m-bus-gateway/03.png)
 
 ## Téléchargements et déclaration de conformité
 

@@ -1,7 +1,7 @@
 ---
-title: 'Conteggio dell''energia (Svizzera)'
+title: 'Conteggiare l''energia (Svizzera)'
 slug: '/konfiguration/billing'
-description: 'Per poter allestire conteggi dei costi energetici è necessario un abbonamento smart-me Professional.'
+description: 'Per poter creare conteggi dei costi energetici è necessario un abbonamento smart-me Professional.'
 sidebar_label: 'Fatturazione'
 naechste_schritte: [konfiguration/billing/einstellungen]
 vorheriger_schritt: konfiguration/wenndann-aktionen/alarme
@@ -10,13 +10,13 @@ vorheriger_schritt: konfiguration/wenndann-aktionen/alarme
 
 ### Requisito
 
-Per poter allestire conteggi dei costi energetici è necessario un abbonamento smart-me Professional. 
+Per poter creare conteggi dei costi energetici è necessario un abbonamento smart-me Professional. 
 
 ## Configurare il conteggio passo dopo passo
 
-Con queste istruzioni passo dopo passo desideriamo aiutarLa a configurare il Suo Billing. Tenga presente che si tratta solo di un esempio a cui può fare riferimento. A seconda della struttura del Suo immobile, vi saranno differenze rispetto al nostro esempio. 
+Con queste istruzioni passo dopo passo desideriamo aiutarLa nella configurazione del Suo Billing. Tenga presente che si tratta solo di un esempio a cui può fare riferimento. A seconda della struttura del Suo immobile, vi saranno differenze rispetto al nostro esempio. 
 
-Ogni passo ha una propria pagina. Può seguirle in ordine — in fondo a ogni pagina è indicato come proseguire — oppure passare direttamente da qui al punto in cui si trova.
+Ogni passaggio ha una propria pagina. Può seguirle in ordine (in fondo a ogni pagina è indicato come proseguire) oppure passare direttamente da qui al punto in cui si trova.
 
 <Ablauf land="ch" bis="konfiguration/billing/rechnung-erstellen" />
 
@@ -26,7 +26,7 @@ Ogni passo ha una propria pagina. Può seguirle in ordine — in fondo a ogni pa
 
 ## Webinar smart-me Billing dalla A alla Z
 
-Nel nostro webinar viene spiegato passo dopo passo come allestire conteggi dei costi energetici con lo strumento Billing:
+Nel nostro webinar viene spiegato passo dopo passo come creare conteggi dei costi energetici con lo strumento Billing:
 
 <div className="row">
 <div className="col col--6">
@@ -36,7 +36,7 @@ Nel nostro webinar viene spiegato passo dopo passo come allestire conteggi dei c
 </div>
 <div className="col col--6">
 
-<Video src="mK1HYLRtBUI" title="Video YouTube, smart-me Billing - tariffe virtuali, potenza di picco, modifica del noleggio del contatore" />
+<Video src="mK1HYLRtBUI" title="Video YouTube, smart-me Billing - tariffe virtuali, potenza di punta, modifica del noleggio del contatore" />
 
 Contenuto del video
 
@@ -44,7 +44,7 @@ Contenuto del video
 
 - Adeguamento dei prezzi delle tariffe virtuali
 
-- Potenza di picco
+- Potenza di punta
 
 - Noleggio del contatore
 
@@ -53,13 +53,9 @@ Contenuto del video
 
 ## Esempi di fatture smart-me Billing
 
-Beispiel Energiekostenabrechnung.pdf
+- [Esempio: conteggio dell'elettricità (.pdf)](https://drive.google.com/file/d/1vVJ5y0_sV8l2NgH8Pf-gJCn36MmDXWfe/view?usp=sharing)
 
-Esempio: conteggio dell'elettricità
-
-Beispiel\_Rechnung\_VEWA\_Heizkosten.pdf
-
-Esempio: conteggio VEWA
+- [Esempio: conteggio VEWA (.pdf)](https://drive.google.com/file/d/1-YR543M1bawFrKgrj-MsQR5Es_wKFzRu/view?usp=sharing)
 
 ## Indicazioni utili sui dati tariffari
 
@@ -73,7 +69,7 @@ Nella vista standard della cartella dell'unità di conteggio (ad es. un appartam
 </div>
 <div className="col col--5 bild--mitte">
 
-![Billing: conteggio dell'energia – Figura 12](/img/konfiguration-billing/12.jpg)
+![Billing: conteggiare l'energia – Figura 12](/img/konfiguration-billing/12.jpg)
 
 </div>
 </div>
@@ -83,9 +79,9 @@ Nella vista standard della cartella dell'unità di conteggio (ad es. un appartam
 <div className="row">
 <div className="col col--7">
 
-La piattaforma smart-me utilizza il contatore di produzione (contatore FV) per determinare la quantità di energia elettrica prodotta e il contatore virtuale del consumo totale per determinare la quantità di energia elettrica consumata. Da questi valori viene calcolata una quota percentuale di energia solare. 
+La piattaforma smart-me utilizza il contatore di produzione (contatore FV) per determinare la quantità di energia elettrica prodotta e il contatore virtuale del consumo totale per determinare la quantità di energia elettrica consumata. Da questi dati viene calcolata una quota percentuale di energia solare. 
 
-Ogni contatore elettrico (inquilino) ha quindi diritto alla stessa quota di energia solare ogni 15 minuti, ad es. il 40% del suo consumo in kWh.
+Ogni contatore elettrico (inquilino) ha quindi diritto alla stessa quota di energia solare per ogni intervallo di 15 minuti, ad es. il 40% del suo consumo in kWh.
 
 Esempio di ripartizione dell'energia solare
 
@@ -102,7 +98,7 @@ La precisione può essere migliorata configurando il contatore di bilancio per l
 </div>
 <div className="col col--5 bild--mitte">
 
-![Billing: conteggio dell'energia – Figura 13](/img/konfiguration-billing/13.png)
+![Billing: conteggiare l'energia – Figura 13](/img/konfiguration-billing/13.png)
 
 </div>
 </div>

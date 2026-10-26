@@ -458,9 +458,20 @@ Erscheint das 4G, obwohl die Pico mit WLAN verbunden sein soll, muss man die Pic
 
 ### Pico Konfiguration & Lastmanagement
 
-[Pico Konfiguration](/konfiguration/inbetriebnahme/pico-konfiguration) 
+<Kacheln min="16rem">
 
-[Multilevel Lastmanagement](/konfiguration/multilevel-lastmanagement) 
+<Kachel titel="Pico Konfiguration" href="/konfiguration/inbetriebnahme/pico-konfiguration">
+
+Konfiguriere das individuelle Design und Verhalten der Pico und deren Lastgruppenzugehörigkeit.
+
+</Kachel>
+<Kachel titel="Multilevel Lastmanagement" href="/konfiguration/multilevel-lastmanagement">
+
+Konfiguriere die Pico in einem übergeordneten Lastmanagement für das Gesamte Gebäude oder Areal.
+
+</Kachel>
+</Kacheln>
+
 
 ![Statusanzeige einer Pico Ladestation im Portal mit rot markiertem WLAN-Symbol](/img/konfiguration-inbetriebnahme/23.png)
 

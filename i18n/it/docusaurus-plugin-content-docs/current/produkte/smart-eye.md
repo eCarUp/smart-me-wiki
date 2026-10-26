@@ -1,13 +1,13 @@
 ---
 title: 'smart-eye'
 slug: '/produkte/smart-eye'
-description: 'Lo smart-eye porta nella smart-me Cloud i contatori di energia conformi al capitolato FNN per contatori di base (dispositivi di misura moderni).'
+description: 'Lo smart-eye porta nella smart-me Cloud i contatori di energia conformi al capitolato FNN per contatori di base (moderni dispositivi di misura).'
 sidebar_label: 'smart-eye'
 displayed_sidebar: wikiSidebar
 ---
-Lo smart-eye porta nella smart-me Cloud i contatori di energia conformi al capitolato FNN per contatori di base (dispositivi di misura moderni). A tale scopo, lo smart-eye viene applicato sull'interfaccia ottica dati INFO. In questo modo i dati energetici vengono trasmessi alla smart-me Cloud tramite la rete WiFi locale. Tramite app o login online è possibile consultare quasi in tempo reale le visualizzazioni dei consumi ed eventualmente dati rilevanti per l'esercizio della rete come frequenza, tensione o corrente.
+Lo smart-eye porta nella smart-me Cloud i contatori di energia conformi al capitolato FNN per contatori di base (moderni dispositivi di misura). A tale scopo, lo smart-eye viene applicato sull'interfaccia ottica dati INFO. I dati energetici vengono così trasmessi alla smart-me Cloud tramite la rete WiFi locale. Tramite app o login online sono consultabili, quasi in tempo reale, le visualizzazioni dei consumi ed eventualmente dati rilevanti per l'esercizio della rete come frequenza, tensione o corrente.
 
-Vendita cessata il 30.03.2021, il supporto e il servizio cloud sono garantiti fino al 30.03.2025.
+Vendita interrotta il 30.03.2021; il supporto e l'assistenza cloud sono garantiti fino al 30.03.2025.
 
 Il sistema smart-me è multi-vettore: anche i valori di misura di altri contatori, come ad es. i contatori del gas, possono essere letti e integrati nella gestione energetica. Inoltre, a seconda del tipo di contatore, lo smart-eye può inserire automaticamente il codice PIN per lo sblocco del set di dati esteso. 
 
@@ -23,9 +23,9 @@ Il sistema smart-me è multi-vettore: anche i valori di misura di altri contator
 
 - Connessione WiFi crittografata alla smart-me Cloud
 
-- Gestione energetica completa, fatturazione automatica, controllo e allarmi tramite la smart-me Cloud
+- Gestione energetica completa, fatturazione automatica, comando e allarmi tramite la smart-me Cloud
 
-- Installazione semplice con l'app smart-me gratuita per Android e iOS
+- Installazione semplice con la smart-me App gratuita per Android e iOS
 
 
 <Video src="0bvtbGs8G94" title="Video YouTube, smart eye per contatori di base FNN" />
@@ -34,29 +34,20 @@ Installazione e messa in servizio del modulo smart-eye
 
 ## Dati tecnici
 
-Contatori supportati  tutti i contatori conformi al capitolato FNN per contatori di base                                
-
-Tensione di esercizio interfaccia USB tipo C (5V)    
-
-Interfacce WiFi, interfaccia INFO (comunicazione con il contatore)
-
-Memoria dati 2 mesi     
-
-Aggiornamento del firmware possibile online
-
-Certificazione del prodotto CE     
-
-Standard WiFi 802.11 b/g/n
-
-Standard di sicurezza WiFi WEP, WPA, WPA2 (Personal)
-
-Dimensioni 34x34x25.5 mm
-
-Peso 40 g 
-
-Intervallo di temperatura −40°C fino a 70°C
-
-Montaggio magnetico
+| Caratteristica | Valore |
+| --- | --- |
+| Contatori supportati | tutti i contatori conformi al capitolato FNN per contatori di base |
+| Tensione di esercizio | Interfaccia USB tipo C (5V) |
+| Interfacce | WiFi, interfaccia INFO (comunicazione con il contatore) |
+| Memoria dati | 2 mesi |
+| Aggiornamento del firmware | Possibile online |
+| Certificazione del prodotto | CE |
+| Standard WiFi | 802.11 b/g/n |
+| Standard di sicurezza WiFi | WEP, WPA, WPA2 (Personal) |
+| Dimensioni | 34x34x25.5 mm |
+| Peso | 40 g |
+| Intervallo di temperatura | −40°C fino a 70°C |
+| Montaggio | Magnetico |
 
 ## Contatori testati
 
@@ -80,7 +71,7 @@ Modificare l'intervallo di upload
 
 - Selezionare il contatore
 
-- In alto a destra selezionare la rotella dentata
+- In alto a destra, selezionare la rotella dentata
 
 - Impostazioni generali (Allgemeine Einstellungen)
 

@@ -149,9 +149,9 @@ On these pages you will find all relevant information for the successful commiss
 
 - [Numbering of combination meters](/konfiguration/inbetriebnahme/smart-me-geraete#numbering-for-combined-meters)
 
-- [Searching for M-Bus Gateway devices](/konfiguration/inbetriebnahme/smart-me-geraete#m-bus-gateway-search-for-devices)
+- [Searching for M-Bus Gateway devices](/konfiguration/inbetriebnahme/smart-me-geraete)
 
-- [Preventing automatic device detection](/konfiguration/inbetriebnahme/smart-me-geraete#m-bus-gateway-prevent-detection-of-new-devices)
+- [Preventing automatic device detection](/konfiguration/inbetriebnahme/smart-me-geraete)
 
 
 ## M-Bus installation guidelines

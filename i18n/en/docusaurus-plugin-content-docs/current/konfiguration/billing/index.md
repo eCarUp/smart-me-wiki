@@ -1,7 +1,7 @@
 ---
 title: 'Energy Billing (Switzerland)'
 slug: '/konfiguration/billing'
-description: 'You need a smart-me Professional subscription to create energy cost bills.'
+description: 'You need a smart-me Professional subscription to create energy cost billings.'
 sidebar_label: 'Billing'
 naechste_schritte: [konfiguration/billing/einstellungen]
 vorheriger_schritt: konfiguration/wenndann-aktionen/alarme
@@ -10,13 +10,13 @@ vorheriger_schritt: konfiguration/wenndann-aktionen/alarme
 
 ### Prerequisite
 
-You need a smart-me Professional subscription to create energy cost bills. 
+You need a smart-me Professional subscription to create energy cost billings. 
 
 ## Configuring billing step by step
 
-This step-by-step guide is meant to support you in configuring your billing. Please note that this is only an example for you to use as orientation. Depending on the setup of your property, there will be differences from our example. 
+This step-by-step guide is intended to help you configure your billing. Please note that this is only an example for orientation. Depending on the setup of your property, there will be differences from our example. 
 
-Each step has its own page. You can work through them in order — the bottom of each page tells you how to continue — or jump directly from here to where you currently are.
+Each step has its own page. You can work through them in order — the bottom of each page tells you what comes next — or jump directly from here to where you currently are.
 
 <Ablauf land="ch" bis="konfiguration/billing/rechnung-erstellen" />
 
@@ -26,7 +26,7 @@ Each step has its own page. You can work through them in order — the bottom of
 
 ## Webinar smart-me Billing from A to Z
 
-Our webinar explains step by step how to create energy cost bills with the Billing tool:
+Our webinar explains step by step how to create energy cost billings with the Billing tool:
 
 <div className="row">
 <div className="col col--6">
@@ -53,13 +53,9 @@ Video content
 
 ## smart-me Billing invoice examples
 
-Example energy cost bill.pdf
+- [Example: electricity billing (.pdf)](https://drive.google.com/file/d/1vVJ5y0_sV8l2NgH8Pf-gJCn36MmDXWfe/view?usp=sharing)
 
-Example: electricity billing
-
-Example\_invoice\_VEWA\_heating\_costs.pdf
-
-Example: VEWA billing
+- [Example: VEWA billing (.pdf)](https://drive.google.com/file/d/1-YR543M1bawFrKgrj-MsQR5Es_wKFzRu/view?usp=sharing)
 
 ## Helpful notes on the tariff data
 
@@ -68,7 +64,7 @@ Example: VEWA billing
 <div className="row">
 <div className="col col--7">
 
-A new tile is now displayed in the standard view of the folder of the billing unit (e.g. an apartment). It shows the meter readings for the virtual tariffs. Clicking this tile displays the load profile for the virtual tariffs. 
+A new tile is now displayed in the default view of the billing unit's folder (e.g. an apartment). It shows the meter readings for the virtual tariffs. Clicking this tile displays the load profile for the virtual tariffs. 
 
 </div>
 <div className="col col--5 bild--mitte">
@@ -78,7 +74,7 @@ A new tile is now displayed in the standard view of the folder of the billing un
 </div>
 </div>
 
-### How the solar power is allocated
+### How is the solar power allocated
 
 <div className="row">
 <div className="col col--7">

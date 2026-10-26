@@ -30,7 +30,29 @@ Das M-Bus Gateway mit integriertem Pegelwandler für 50 M-Bus-Standardlasten. Ko
 
 ## Technische Daten
 
-<Embed src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTS_V0Z-_eYRhsXEj3_EJEfKJUK_UP_ZtCxld8cwubPmkDx3eOCcscx_DfAkDd1ngnfvuES569q42lz/pubhtml?gid=0&range=A1:B22&single=true&widget=false&headers=false&chrome=false" height="575px" title="M-Bus Gateway" />
+| Merkmal | Wert |
+| --- | --- |
+| Produktzertifizierung | CE |
+| Netzspannung | 100-240 VAC 50/60 Hz |
+| Temperaturbereich | -25°C bis +55°C |
+| Rel. Luftfeuchtigkeit | Jahresmittel 75%, ohne Kondensation<br />kurzzeitig 95%, ohne Kondensation |
+| Schnittstellen | WLAN, M-BUS |
+| Kommunikation | WLAN IEEE 802.11 b/g/n (2.4 GHz) |
+| WLAN Sicherheitsstandard | WEP, WPA-PSK/WPA2-PSK |
+| Anzahl M-BUS Slaves | 50 Standardlasten<br />(Mit Repeater bis zu 100)<br />Bis 25 ohne Selbstversorgung |
+| M-BUS Baudrate | 300, 2400, 9600 (Automatische Suche und Detektion) |
+| Galvanische Trennung | Vorhanden |
+| Datenspeicher | 6'000 Auslesungen |
+| Firmware Update | Online möglich |
+| EMV Störfestigkeit | EN 61000-6-2 (Industriebereich) |
+| EMV Störaussendung | EN 61000-6-3 (Wohnbereich) |
+| Schutzart Gehäuse/Anschlüsse, Verwendung | IP20 / IP51 (eingebaut in Schaltschrank), Innenraum |
+| Montage | DIN-Schiene |
+| Abmessungen | 2 Module, L:90mm B:36mm H:65.7mm |
+| Serverstandort | Schweiz |
+| Schutzklasse | II |
+| Datenmenge | ≤ 1KB pro Gerät pro Auslesung |
+| Letzte Änderung | 25.09.2023 |
 
 ## Versandinformationen
 

@@ -100,6 +100,7 @@ const sidebars: SidebarsConfig = {
         'planung/cloud-lizenzen',
         {type: 'doc', id: 'planung/abrechnung-vorbereiten', customProps: {laender: ['ch']}},
         {type: 'doc', id: 'planung/internetverbindung', customProps: {laender: ['ch']}},
+        {type: 'doc', id: 'planung/internetverbindung-deutschland', customProps: {laender: ['de']}},
         {type: 'doc', id: 'planung/vertrag-rechtliches', customProps: {laender: ['ch']}},
         {type: 'doc', id: 'planung/messkonzept-notstromloesung', customProps: {laender: ['ch']}},
         {type: 'doc', id: 'planung/messkonzept-produzenten-hinter-haeuser', customProps: {laender: ['ch']}},
@@ -129,8 +130,12 @@ const sidebars: SidebarsConfig = {
               ],
             },
             'konfiguration/inbetriebnahme/swisseldex',
-            'konfiguration/inbetriebnahme/pico-konfiguration',
-            'konfiguration/inbetriebnahme/zaehler-loeschen',
+            // Pico Konfiguration und „Zähler löschen / deaktivieren" stehen
+            // bewusst nicht hier: Beide sind von den Seiten aus verlinkt, auf
+            // denen die Frage aufkommt — die Pico-Konfiguration von den
+            // Pico-Seiten, das Löschen aus der Ordnerkonfiguration, dem FAQ
+            // und der Einstiegsseite. Sie tragen `displayed_sidebar:
+            // wikiSidebar`, damit die Navigation beim Öffnen stehen bleibt.
           ],
         },
         {

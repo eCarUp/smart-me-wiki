@@ -30,7 +30,29 @@ Das Sirius ist das grössere der beiden Geräte: integrierter Pegelwandler für 
 
 ## Technische Daten
 
-<Embed src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTmayprR4Vh48nmvnu_ZbxO2BDz8btgHbcJ9pR_-cv_irut8RWRsdGGeIUEGcU8p8qNdzdAKR6xG2kh/pubhtml?gid=0&range=A1:B25&single=true&widget=false&headers=false&chrome=false" height="697px" title="M-Bus Gateway Sirius" />
+| Merkmal | Wert |
+| --- | --- |
+| Produktzertifizierung | CE |
+| Netzspannung | 230 VAC 50/60 Hz |
+| Temperaturbereich | -20°C bis +50°C |
+| Rel. Luftfeuchtigkeit | Jahresmittel 75%, ohne Kondensation<br />kurzzeitig 95%, ohne Kondensation |
+| Schnittstellen | WLAN, M-BUS |
+| Kommunikation | WLAN IEEE 802.11 b/g/n (2.4 GHz) |
+| WLAN Sicherheitsstandard | WEP, WPA-PSK/WPA2-PSK |
+| Anzahl M-BUS Slaves | 250 Standardlasten |
+| M-BUS Baudrate | 300, 2400, 9600 (Automatische Suche und Detektion) |
+| Galvanische Trennung | Vorhanden |
+| Datenspeicher | 131'056 Auslesungen<br />15min Intervall:<br />10 Geräte: ~136 days<br />50 Geräte: ~27 days<br />250 Geräte: ~5 days |
+| Firmware Update | Online möglich |
+| EMV Störfestigkeit | EN 61000-6-2 (Industriebereich) |
+| EMV Störaussendung | EN 61000-6-3 (Wohnbereich) |
+| Schutzart Gehäuse/Anschlüsse, Verwendung | IP20 / IP51 (eingebaut in Schaltschrank), Innenraum |
+| Montage | DIN-Schiene |
+| Abmessungen | 6 Module, W:105mm H:90mm D:65.7mm |
+| Serverstandort | Schweiz |
+| Schutzklasse | II |
+| Datenmenge | ≤ 1KB pro Gerät pro Auslesung |
+| Letzte Änderung | 26.03.2026 |
 
 ## Versandinformationen
 

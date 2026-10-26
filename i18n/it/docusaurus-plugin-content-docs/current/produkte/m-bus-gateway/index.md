@@ -149,7 +149,7 @@ In queste pagine trovi tutte le informazioni rilevanti per una corretta messa in
 
 - [Numerazione dei contatori combinati](/konfiguration/inbetriebnahme/smart-me-geraete#numerazione-dei-contatori-combinati)
 
-- [Ricerca di dispositivi gateway M-Bus](/konfiguration/inbetriebnahme/smart-me-geraete#cercare-dispositivi-con-lm-bus-gateway)
+- [Ricerca di dispositivi gateway M-Bus](/konfiguration/inbetriebnahme/smart-me-geraete)
 
 - [Disattivare il riconoscimento automatico dei dispositivi](/konfiguration/inbetriebnahme/smart-me-geraete#impedire-il-riconoscimento-di-nuovi-dispositivi-da-parte-dellm-bus-gateway)
 

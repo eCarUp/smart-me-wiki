@@ -34,29 +34,20 @@ Installation und Inbetriebnahme des smart-eye Moduls
 
 ## Technische Daten
 
-Unterstützte Zähler  alle Zähler gemäss FNN-Lastenheft Basiszähler                                
-
-Betriebsspannung USB typ C Schnittstelle (5V)    
-
-Schnittstellen WiFi, INFO-Schnittstelle (Kommunikation mit dem Zähler)
-
-Datenspeicher 2 Monate     
-
-Firmware Update Online möglich
-
-Produkt -Zertifizierung CE     
-
-WiFi Standard 802.11 b/g/n
-
-WiFi Sicherheitsstandard WEP, WPA, WPA2 (Personal)
-
-Abmessungen 34x34x25.5 mm
-
-Gewicht 40 g 
-
-Temperaturbereich −40°C bis 70°C
-
-Montage Magnetisch
+| Merkmal | Wert |
+| --- | --- |
+| Unterstützte Zähler | alle Zähler gemäss FNN-Lastenheft Basiszähler |
+| Betriebsspannung | USB typ C Schnittstelle (5V) |
+| Schnittstellen | WiFi, INFO-Schnittstelle (Kommunikation mit dem Zähler) |
+| Datenspeicher | 2 Monate |
+| Firmware Update | Online möglich |
+| Produkt-Zertifizierung | CE |
+| WiFi Standard | 802.11 b/g/n |
+| WiFi Sicherheitsstandard | WEP, WPA, WPA2 (Personal) |
+| Abmessungen | 34x34x25.5 mm |
+| Gewicht | 40 g |
+| Temperaturbereich | −40°C bis 70°C |
+| Montage | Magnetisch |
 
 ## Getestete Zähler
 

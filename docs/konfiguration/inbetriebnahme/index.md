@@ -5,7 +5,9 @@ description: 'Alles rund um die Inbetriebnahme von smart-me Geräten: Was bei de
 sidebar_label: 'Inbetriebnahme'
 naechste_schritte: [konfiguration/ordnerkonfiguration/index]
 ---
-Alles rund um die Inbetriebnahme von smart-me Geräten: Was bei der Inbetriebnahme beachtet werden sollte, häufige Fehlerquellen und spezifische Antworten auf Installationsfragen.
+Alles rund um die Inbetriebnahme von Geräten: Was bei der Inbetriebnahme beachtet werden sollte, häufige Fehlerquellen und spezifische Antworten auf Installationsfragen.
+
+### Inbetriebnahme von Hardware durchführen
 
 <Kacheln min="16rem">
 
@@ -26,7 +28,17 @@ LoRa Gateway registrieren und Zähler über LoRaWAN anbinden.
 Zähler über die Swisseldex-Schnittstelle (SDAT) übernehmen.
 
 </Kachel>
+</Kacheln>
+
+### Etwas ist schief gelaufen oder muss bereinigt werden
+
+<Kacheln min="16rem">
+
+<Kachel titel="Gerät löschen oder deaktivieren" href="/konfiguration/inbetriebnahme/zaehler-loeschen">
+
+Gerät im falschen Account installiert oder ein Gerät wurde getauscht und muss nun deaktiviert werden.
+
+</Kachel>
 
 </Kacheln>
 
-[Zähler löschen / deaktivieren](/konfiguration/inbetriebnahme/zaehler-loeschen)

@@ -9,7 +9,7 @@ The smart-me Plug is a power meter, thermostat and timer in one. In addition, th
 
 Sales discontinued on 30.03.2021
 Technical support discontinued on 30.03.2025
-Hardware and cloud functions: operation remains guaranteed
+Hardware and cloud functions: operation still guaranteed
 
 ![Plug – Figure 1](/img/produkte-plug/01.jpg)
 
@@ -28,7 +28,7 @@ Available in European, Swiss and UK versions.
 
 - Energy meter: In addition to the current power, the smart-me Plug measures energy, current, voltage and power factor. smart-me guarantees an accuracy of 99% (max. 1% error).
 
-- Temperature meter: Monitor the temperature live and analyze historical data.
+- Temperature meter: Monitor the temperature live and analyse historical data.
 
 - Remote switch: Switch the power on or off via the app or web portal. 
 
@@ -48,27 +48,22 @@ Available in European, Swiss and UK versions.
 
 <Video src="r1NFkuI7CUM" title="YouTube video, Plug installation" />
 
-Video installation
+Installation video
 
 ## Technical data
 
-Voltage (U) 110V - 230V
+| Feature | Value |
+| --- | --- |
+| Voltage (U) | 110V - 230V |
+| Measuring range (P) | 0.1-3680W |
+| Accuracy | 1 % (class 1) |
+| Frequency (f) | 50/60Hz |
+| Current (I) | 10A / 16A |
+| Protection class | IP20 |
+| Self-consumption | 0.1W |
+| Dimensions | 95 x 54 x 29 mm (3.7 x 2.1 x 1.1 in) |
 
-Measuring range (P) 0.1-3680W
-
-Accuracy 1 % (class 1)
-
-Frequency (f) 50/60Hz 
-
-Current (I) 10A / 16A
-
-Protection class IP20
-
-Self-consumption 0.1W
-
-Dimensions 95 x 54 x 29 mm (3.7 x 2.1 x 1.1 in)
-
-## Can the meter reading be reset?
+## Can the meter reading be reset.
 
 No.
 

@@ -123,11 +123,11 @@ Pressione prolungata = Riavvia il dispositivo
 
 In queste pagine trova tutte le informazioni rilevanti per una messa in servizio corretta dell'M-Bus Gateway.
 
-- [Preparazione della messa in servizio](/konfiguration/inbetriebnahme#istruzioni-per-entrambi-gli-m-bus-gateway)
+- [Preparazione della messa in servizio](/konfiguration/inbetriebnahme)
 
 - [Messa in servizio](/konfiguration/inbetriebnahme)
 
-- [Numerazione dei contatori combinati](/konfiguration/inbetriebnahme#numerazione-dei-contatori-combinati) 
+- [Numerazione dei contatori combinati](/konfiguration/inbetriebnahme) 
 
 - [Ricerca di dispositivi M-Bus Gateway](/konfiguration/inbetriebnahme)
 

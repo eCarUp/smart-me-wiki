@@ -8,37 +8,21 @@ sidebar_label: 'Mise à jour du firmware'
 
 ## Effectuer une mise à jour du firmware
 
-Les produits smart-me sont régulièrement améliorés et enrichis de nouvelles fonctionnalités tout au long de leur cycle de vie.
-Ces optimisations peuvent être installées par l'utilisateur lui-même.
+Tout au long de leur cycle de vie, les produits smart-me bénéficient régulièrement d'améliorations et de nouvelles fonctionnalités.
+L'utilisateur peut effectuer lui-même ces optimisations.
 
-ⓘ Remarque : les mises à jour du firmware sont surtout à appliquer lorsque vous avez constaté un comportement défectueux ou que vous souhaitez utiliser une nouvelle fonction que le firmware précédent ne prenait pas encore en charge. Les produits dont les fonctions évoluent rapidement, comme la borne de recharge Pico, devraient être mis à jour régulièrement.
+ⓘ Remarque : les mises à jour du firmware sont surtout à appliquer lorsque vous avez constaté un comportement défaillant ou que vous souhaitez utiliser une nouvelle fonction que le firmware précédent ne prenait pas encore en charge. Les produits dont les fonctions évoluent rapidement, comme la borne de recharge Pico, devraient être mis à jour régulièrement.
 
-### Ouvrir la page web de mise à jour du firmware
-
-Une mise à jour du firmware peut être effectuée à tout moment sur le matériel smart-me, à condition qu'un accès à Internet soit garanti.
-
-Via ce lien
-
-1.  [https://webforms.smart-me.com/Connect/DeviceOverview.aspx](https://webforms.smart-me.com/Connect/DeviceOverview.aspx)
-
-
-Ou via le menu smart-me
-
-1.  Connectez-vous dans le navigateur via [https://portalweb.smart-me.com/Login](https://portalweb.smart-me.com/Login) avec vos identifiants.
-
-2.  Dans le menu, sélectionnez Système / Mise à jour du firmware (System / Firmware Update)
-
-
-![Mise à jour du firmware – Illustration 1](/img/konfiguration-firmware-update/01.png)
 
 ## Procédure
 
-1.  ### Sélectionnez l'appareil à mettre à jour : « Update » ou « Update Communication »
+### 1\. Sélectionnez l'appareil à mettre à jour :
 
+« Mettre à jour » (Update) ou « Mettre à jour la communication » (Update Communication)
 
-- Update : firmware de l'appareil
+- Mettre à jour (Update) : firmware de l'appareil
 
-- Update Communication : mise à jour du module de communication
+- Mettre à jour la communication (Update Communication) : mise à jour du module de communication
 
 
 Remarque :
@@ -46,16 +30,16 @@ Pour effectuer plusieurs mises à jour en parallèle, vous pouvez ouvrir plusieu
 
 ![Mise à jour du firmware – Illustration 2](/img/konfiguration-firmware-update/02.png)
 
-### 2\. Sélectionnez « Mettre à jour le firmware » (« Firmware aktualisieren »)
+### 2\. Sélectionnez « Mettre à jour le firmware » (Firmware aktualisieren)
 
 <div className="row">
 <div className="col col--5">
 
-Délai jusqu'au démarrage : 
+Délai avant le démarrage : 
 
 - Pour Telstar (CT) et Pico, cela peut prendre jusqu'à 5 minutes.
 
-- Pour la passerelle M-Bus, cela dépend de l'intervalle de téléversement.
+- Pour le M-Bus Gateway, cela dépend de l'intervalle de téléversement.
 
 </div>
 <div className="col col--7 text--center">
@@ -70,15 +54,15 @@ Délai jusqu'au démarrage :
 <div className="row">
 <div className="col col--4">
 
-ⓘ Remarque : une fois la mise à jour commencée (> 1%), le navigateur n'a plus besoin de rester ouvert.
+ⓘ Remarque : une fois la mise à jour commencée (> 1%), il n'est plus nécessaire de laisser le navigateur ouvert.
 
 Durée jusqu'à la fin de la mise à jour : 
 
-- Pour Telstar (CT), environ 5 minutes.
+- Pour Telstar (CT), env. 5 minutes.
 
 - Pour Pico, cela peut prendre jusqu'à un jour. Voir ci-dessous pour accélérer la mise à jour du firmware.
 
-- Pour la passerelle M-Bus, cela dépend de l'intervalle de téléversement.
+- Pour le M-Bus Gateway, cela dépend de l'intervalle de téléversement.
 
 </div>
 <div className="col col--8 text--center">
@@ -100,9 +84,9 @@ Si la mise à jour est surveillée activement, elle peut être accélérée comm
 
 - Sélectionnez la vue normale.
 
-- Laissez l'onglet ouvert et actif dans le navigateur. Ainsi, le compteur ou la Pico communique plus souvent avec le cloud smart-me, ce qui permet d'échanger davantage de paquets de données et d'achever la mise à jour plus rapidement.
+- Laissez l'onglet du navigateur ouvert et actif. Ainsi, le compteur ou la Pico communique plus souvent avec le smart-me Cloud, ce qui permet d'échanger davantage de paquets de données et de terminer la mise à jour plus rapidement.
 
-- La tension permet de vérifier si la communication est active. Comme elle varie toujours légèrement, il est facile d'observer si l'appareil envoie désormais des données toutes les 1 à 2 secondes.
+- La tension permet de vérifier si la communication est active. Comme elle varie toujours légèrement, il est facile d'observer si l'appareil envoie désormais des données toutes les 1-2 secondes.
 
 
 ![Mise à jour du firmware – Illustration 6](/img/konfiguration-firmware-update/06.png)

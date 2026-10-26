@@ -4,6 +4,20 @@ slug: '/planung/virtuelle-zev-vzev'
 description: '0:00 Einführung Webinar vZEV'
 sidebar_label: 'Virtuelle ZEV (vZEV)'
 ---
+
+
+## Der virtuelle Zusammenschluss zum Eigenverbrauch - vZEV
+
+Eine vZEV entspricht einem Netzinkludierenden Zusammenschluss zum Eigenverbrauch. Anders als beim herkömmlichen ZEV, wo alle Gebäude ein und den selben Netzanschluss besitzen müssen, ist es bei einem vZEV möglich mehrere Netzanschlüsse an ein und dem Selben Niederspannungstransformator (&lt; 1kV) zu vereinen.
+
+Neben dieser grundlegenden Anforderung sind noch weitere Punkte zu klären ob und mit wem in der Nachbarschaft eine vZEV ermöglicht werden kann.
+
+Dazu gehören:
+
+- effektive Netztopologie
+
+- Verbindungstypen(Muffennetze oder Verteilkabinen)
+
 <Video src="cTF9C7b3QwU" title="YouTube Video, Webinaraufzeichnung«Virtuelle ZEV (vZEV) mit smart-me umsetzen»" />
 
 [0:00](https://www.youtube.com/watch?v=cTF9C7b3QwU&t=0s) Einführung Webinar vZEV
@@ -17,18 +31,6 @@ sidebar_label: 'Virtuelle ZEV (vZEV)'
 [30:19](https://www.youtube.com/watch?v=cTF9C7b3QwU&t=1819s) Live Demo
 
 [35:18](https://www.youtube.com/watch?v=cTF9C7b3QwU&t=2118s) FAQ 
-
-## Der virtuelle Zusammenschluss zum Eigenverbrauch - vZEV
-
-Eine vZEV entspricht einem Netzinkludierenden Zusammenschluss zum Eigenverbrauch. Anders als beim herkömmlichen ZEV, wo alle Gebäude ein und den selben Netzanschluss besitzen müssen, ist es bei einem vZEV möglich mehrere Netzanschlüsse an ein und dem Selben Niederspannungstransformator (&lt; 1kV) zu vereinen.
-
-Neben dieser grundlegenden Anforderung sind noch weitere Punkte zu klären ob und mit wem in der Nachbarschaft eine vZEV ermöglicht werden kann.
-
-Dazu gehören:
-
-- effektive Netztopologie
-
-- Verbindungstypen(Muffennetze oder Verteilkabinen)
 
 ### Schritt 1: Initiale vZEV Abklärung
 

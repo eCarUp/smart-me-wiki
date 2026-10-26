@@ -123,11 +123,11 @@ Press and hold = restarts the device
 
 On these pages you will find all the relevant information for successfully commissioning the M-Bus Gateway.
 
-- [Preparing for commissioning](/konfiguration/inbetriebnahme#instructions-for-both-m-bus-gateways)
+- [Preparing for commissioning](/konfiguration/inbetriebnahme)
 
 - [Commissioning](/konfiguration/inbetriebnahme)
 
-- [Numbering for combined meters](/konfiguration/inbetriebnahme#numbering-for-combined-meters) 
+- [Numbering for combined meters](/konfiguration/inbetriebnahme) 
 
 - [Searching for M-Bus Gateway devices](/konfiguration/inbetriebnahme)
 

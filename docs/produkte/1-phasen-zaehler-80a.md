@@ -26,7 +26,35 @@ Der smart-me 1-Phasenzähler 80A ist ein Energiezähler mit integrierter WiFi-Sc
 
 ## Technische Daten
 
-<Embed src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQwIoMZViXao8dxkIFICgLCZSRrq0y5xWTFc2KwSY-seab4j4GP6asN_YRqtjIKoKanrFOG7bLHoVZi/pubhtml?gid=0&range=A1:B28&single=true&widget=false&headers=false&chrome=false" height="636px" title="1-Phasen Zähler" />
+| Merkmal | Wert |
+| --- | --- |
+| Produktzertifizierung | CE |
+| Genauigkeitsklasse | Klasse 1 nach EN 50470-1 (IEC62053-21), 1% über den gesamten Messbereich |
+| Richtung | +A (Bezug), -A (Lieferung) |
+| Netzspannung | 85-253 VAC 50/60 Hz |
+| Maximaler Strom Imax | 80 A |
+| Temperaturbereich | -40°C bis +70°C |
+| Rel. Luftfeuchtigkeit | Jahresmittel 75%, ohne Kondensation<br />kurzzeitig 95%, ohne Kondensation |
+| Messwerte | Wirkenergie (kWh), Wirkleistung (kW)<br />Strom (A), Spannung (V), Leistungsfaktor (cosφ) |
+| Eigenverbrauch | < 0.8 W |
+| Tarife | Zwei über digitalen Tarifeingang E1, unbegrenzt virtuelle Tarife in der smart-me Cloud |
+| S0-Ausgang | 1'000 Imp/kWh |
+| Digitaler Eingang / Tarif | Potentialfreier Eingang, 25-253 VAC/VDC |
+| Digitaler Ausgang / S0 | Potentialfreier Ausgang, 12 VDC / 230 VAC, max. 0.4W |
+| Kommunikation | WLAN IEEE 802.11 b/g/n (2.4 GHz) |
+| Datenmenge | < 75MB/Monat |
+| Datenrate | < 0.1 Mbit/s |
+| WLAN Sicherheitsstandard | WEP, WPA-PSK/WPA2-PSK |
+| Datenspeicher | 2 Monate |
+| Firmware Update | Online möglich |
+| EMV Störfestigkeit | EN 61000-6-2 (Industriebereich) |
+| EMV Störaussendung | EN 61000-6-3 (Wohnbereich) |
+| Schutzart Gehäuse/Anschlüsse, Verwendung | IP20 / IP51 (eingebaut in Schaltschrank), Innenraum |
+| Montage | DIN-Schiene |
+| Abmessungen | 2 Module, L:90mm B:36mm H:65.7mm |
+| Serverstandort | Schweiz |
+| Schutzklasse | II |
+| Letzte Änderung | 25.09.2023 |
 
 ## Display
 

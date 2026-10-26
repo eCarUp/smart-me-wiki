@@ -35,7 +35,7 @@ Impostazioni concrete per l'IVA:
 </div>
 <div className="col col--5 bild--mitte">
 
-![Billing: conteggio dell'energia – Figura 2](/img/konfiguration-billing/02.png)
+![Billing: conteggio dell'energia – Figura 2](/img/konfiguration-billing/02_IT.png)
 
 </div>
 </div>

@@ -4,15 +4,15 @@ slug: '/produkte/1-phasen-zaehler-80a'
 description: 'The smart-me Single Phase Meter 80A is an energy meter with an integrated WiFi interface for transmitting real-time data.'
 sidebar_label: 'Single Phase Meter'
 ---
-The smart-me Single Phase Meter 80A is an energy meter with an integrated WiFi interface for transmitting real-time data. The meter synchronizes the measured values automatically and encrypted to the smart-me Cloud. The data can be exported and further processed in the smart-me Portal or in third-party systems via our open interface. The meter has a digital output for controlling potential-free devices.
+The smart-me Single Phase Meter 80A is an energy meter with an integrated WiFi interface for transmitting real-time data. The meter synchronizes the measured values automatically and encrypted to the smart-me Cloud. The data can be exported to third-party systems and processed further in the smart-me portal or via our open interface. The meter has a digital output for controlling potential-free devices.
 
 ![Single Phase Meter 80A – Figure 1](/img/produkte-1-phasen-zaehler-80a/01.jpg)
 
 ## Functions
 
-- [Installation](/konfiguration/inbetriebnahme) with the free smart-me App.
+- [Installation](/konfiguration/inbetriebnahme) with the free smart-me app.
 
-- Control with [if/then actions](/konfiguration/wenndann-aktionen) or [event actions](/konfiguration/wenndann-aktionen/ereignisaktionen)
+- Control with [If / Then Actions](/konfiguration/wenndann-aktionen) or [Event-related Actions](/konfiguration/wenndann-aktionen/ereignisaktionen)
 
 - [Visualizations](/konfiguration/visualisierung)
 
@@ -26,7 +26,35 @@ The smart-me Single Phase Meter 80A is an energy meter with an integrated WiFi i
 
 ## Technical data
 
-<Embed src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQwIoMZViXao8dxkIFICgLCZSRrq0y5xWTFc2KwSY-seab4j4GP6asN_YRqtjIKoKanrFOG7bLHoVZi/pubhtml?gid=0&range=A1:B28&single=true&widget=false&headers=false&chrome=false" height="636px" title="Single Phase Meter" />
+| Feature | Value |
+| --- | --- |
+| Product certification | CE |
+| Accuracy class | Class 1 according to EN 50470-1 (IEC62053-21), 1% over the entire measuring range |
+| Direction | +A (consumption), -A (delivery) |
+| Mains voltage | 85-253 VAC 50/60 Hz |
+| Maximum current Imax | 80 A |
+| Temperature range | -40°C to +70°C |
+| Rel. humidity | Annual average 75%, non-condensing<br />short-term 95%, non-condensing |
+| Measured values | Active energy (kWh), active power (kW)<br />Current (A), voltage (V), power factor (cosφ) |
+| Self-consumption | < 0.8 W |
+| Tariffs | Two via digital tariff input E1, unlimited virtual tariffs in the smart-me Cloud |
+| S0 output | 1'000 Imp/kWh |
+| Digital input / tariff | Potential-free input, 25-253 VAC/VDC |
+| Digital output / S0 | Potential-free output, 12 VDC / 230 VAC, max. 0.4W |
+| Communication | WLAN IEEE 802.11 b/g/n (2.4 GHz) |
+| Data volume | < 75MB/month |
+| Data rate | < 0.1 Mbit/s |
+| WLAN security standard | WEP, WPA-PSK/WPA2-PSK |
+| Data storage | 2 months |
+| Firmware update | Possible online |
+| EMC immunity | EN 61000-6-2 (industrial environment) |
+| EMC emission | EN 61000-6-3 (residential environment) |
+| Protection rating housing/terminals, use | IP20 / IP51 (installed in control cabinet), indoor |
+| Mounting | DIN rail |
+| Dimensions | 2 modules, L:90mm W:36mm H:65.7mm |
+| Server location | Switzerland |
+| Protection class | II |
+| Last change | 25.09.2023 |
 
 ## Display
 
@@ -48,19 +76,19 @@ The meter alternately displays different values.
 
 ![Single Phase Meter 80A – Figure 2](/img/produkte-1-phasen-zaehler-80a/02.png)
 
-### Wiring diagram
+### Connection diagram
 
 ![Single Phase Meter 80A – Figure 3](/img/produkte-1-phasen-zaehler-80a/03.png)
 
 ## Button functions
 
-T(4) button for the installation
+T(4) button for installation
 
-If the T(4) button is pressed for 10 seconds, it creates a local WiFi for the installation
+If button T(4) is pressed for 10 seconds, a local WiFi is created for the installation
 
 ## Configuring inputs and outputs
 
-The Single Phase Meter 80A has one digital output and one digital input, which can be used as pulse inputs and outputs or as a switchable potential-free contact. You can find details on the wiki page [Inputs and outputs](/schnittstellen/ein-und-ausgaenge) 
+The Single Phase Meter 80A has a digital output and a digital input, which can be used as pulse inputs and outputs or as a switchable potential-free contact. You can find details on the wiki page [Input and Output Configuration](/schnittstellen/ein-und-ausgaenge) 
 
 ## Shipping information
 
@@ -69,7 +97,7 @@ Article name: smart-me Meter 1-phasig, 5(80)A
 
 Customs tariff number: 9028.3011
 
-Weight with packaging: 130g
+Weight including packaging: 130g
 
 ## Downloads and declaration of conformity
 
@@ -79,7 +107,7 @@ Weight with packaging: 130g
 
 [CE declaration of conformity](https://drive.google.com/file/d/10y8f8oD-F35VTPD9ygTtsLqXAIbuyc3S/view?usp=drive_link)
 
-[Wiring diagram ZIP files](https://drive.google.com/file/d/1aY9_dMdLi2RjgHjk9y89Ibd_AIGwMUZW/view?usp=share_link) (\*.DXF and \*.DWG data can be found in the ZIP archive)
+[Connection diagram ZIP files](https://drive.google.com/file/d/1aY9_dMdLi2RjgHjk9y89Ibd_AIGwMUZW/view?usp=share_link) (\*.DXF and \*.DWG data can be found in the ZIP archive)
 
 [Quick Starter](https://docs.google.com/document/d/1XNv61P1L0gXvgaCT4bvFbou8h6rOBkNjgkRk9sUTS60/export?format=pdf)
 

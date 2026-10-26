@@ -32,7 +32,35 @@ Der smart-me Telstar CT ist ein MID-zertifizierter Energiezähler mit integriert
 
 ## Technische Daten
 
-<Embed src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTJmdsIN6iLOfY_AML4DXbCamh1SwcZohszYBjYiVtusFdlA1zrAnZZu4ZFDsQP5pfZxvfloSHGBjkf/pubhtml?gid=0&range=A1:B28&single=true&widget=false&headers=false&chrome=false" height="680px" title="3-Phasen Zähler Telstar CT" />
+| Merkmal | Wert |
+| --- | --- |
+| Produktzertifizierung | CE, MID 2014 / 32 / EU, CH-Lastgang / Blindenergie, RED |
+| Genauigkeitsklasse für Wirkenergie/Blindenergie | B (MID) / 2 (IEC) |
+| Richtung | +A (Bezug), -A (Lieferung), +R, -R |
+| Quadranten | Q1, Q2, Q3, Q4 |
+| Netzspannung | 3x230/400VAC 50Hz |
+| Strommessbereich Imin-Iref(Imax) | 0.01-1(6)A |
+| Leiterquerschnitt | 0.5 - 6 mm² |
+| Wandlerverhältnis | 1:1 bis 20'000:1 oder 5:5 bis 20'000:5 |
+| Messgeräte-Kategorie | CAT III |
+| Temperaturbereich | -25°C bis +70°C |
+| Rel. Luftfeuchtigkeit | Jahresmittel 75%, ohne Kondensation<br />kurzzeitig 95%, ohne Kondensation |
+| Messwerte | Wirkenergie (kWh), Wirkleistung (kW)<br />Blindenergie (kvarh), Blindleistung (kvar)<br />Strom (A), Spannung (V), Leistungsfaktor (cosφ) |
+| Eigenverbrauch | < 0.8W pro Phase |
+| Tarife | 2 über digitalen Tarifeingang E1, unbegrenzt virtuelle Tarife in der smart-me Cloud |
+| S0-Ausgang | 1'000 Imp/kWh |
+| Digitaler Eingang E1 | Potentialfreier Tarifeingang (12VDC / 230 VAC) |
+| Digitale Ausgänge S0-0, S-1 | Potentialfreie Ausgänge (SG Ready), 12 VDC / 230 VAC<br />S0-0: max. 0.4W<br />S-1: max. 8A@230VAC oder 5A@12VDC |
+| Kommunikation | WLAN IEEE 802.11 b/g/n (2.4 GHz) |
+| Datenmenge | < 75MB/Monat |
+| Wi-Fi Sicherheitsstandard | WEP, WPA-PSK/WPA2-PSK |
+| Datenrate | < 0.1 Mbit/s |
+| Datenspeicher | 2 Monate |
+| Schutzklasse | II |
+| Schutzart Gehäuse/Anschlüsse, Verwendung | IP20 / IP51 (eingebaut in Schaltschrank), Innenraum |
+| Montage | DIN-Schiene |
+| Abmessungen | 5 Module, L:90mm B:90mm H:65.7mm |
+| Serverstandort | Schweiz |
 
 ## Technische Anforderungen an die Wandler
 

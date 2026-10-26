@@ -25,7 +25,7 @@ I punti di misura da ripartire che si trovano nel nodo "Contatori tecnici" ("Tec
 </div>
 <div className="col col--6 bild--mitte">
 
-![Billing: conteggio dell'energia – Figura 5](/img/konfiguration-billing/05.png)
+![Billing: conteggio dell'energia – Figura 5](/img/konfiguration-billing/05_IT.png)
 
 </div>
 </div>

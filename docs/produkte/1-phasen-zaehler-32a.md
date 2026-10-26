@@ -44,35 +44,24 @@ Siehe [Inbetriebnahme](/konfiguration/inbetriebnahme) 
 
 ## Technische Daten
 
-Genauigkeit 1 gemäss IEC62053-21
-
-Betriebsspannung 85 - 253 VAC
-
-Frequenz (f) 50 / 60 Hz
-
-Max. Strom 32 A (schaltbar)
-
-Impulseingang E1 Potentialfrei\*, 25V - 253V AC/DC
-
-Digitaler Ausgang / Impulsausgang S0 Potentialfrei\*, Opto Power MOSFET, 5-48VDC / 5- 230 VAC, max. 550mW
+| Merkmal | Wert |
+| --- | --- |
+| Genauigkeit | 1 gemäss IEC62053-21 |
+| Betriebsspannung | 85 - 253 VAC |
+| Frequenz (f) | 50 / 60 Hz |
+| Max. Strom | 32 A (schaltbar) |
+| Impulseingang E1 | Potentialfrei\*, 25V - 253V AC/DC |
+| Digitaler Ausgang / Impulsausgang S0 | Potentialfrei\*, Opto Power MOSFET, 5-48VDC / 5- 230 VAC, max. 550mW |
+| Referenzstrom | 5 A |
+| Anlaufstrom | &lt; 20 mA |
+| Tarife | 2+ |
+| Montage | DIN-Schiene |
+| Breite | 2 Modul, 36 x 90 mm |
+| Schnittstellen | WiFi, S0 |
+| S0 Impulswertigkeit | 1000 Impulse pro kWh |
+| Eigenverbrauch | &lt; 0.5 W |
 
 \*verfügt über keine eigene Spannungsversorgung.
-
-Referenzstrom  5 A
-
-Anlaufstrom &lt; 20 mA
-
-Tarife 2+
-
-Montage DIN-Schiene
-
-Breite 2 Modul, 36 x 90 mm
-
-Schnittstellen WiFi, S0
-
-S0 Impulswertigkeit 1000 Impulse pro kWh
-
-Eigenverbrauch &lt; 0.5 W
 
 ## Ein- und Ausgänge konfigurieren
 

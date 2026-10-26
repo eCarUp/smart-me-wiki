@@ -4,36 +4,36 @@ slug: '/planung'
 description: 'Beispiele zur Hardwareinstallation im Zusammenschluss zum Eigenverbrauch inkl.'
 sidebar_label: 'Planung'
 ---
-## Planung im ZEV
 
-Beispiele zur Hardwareinstallation im Zusammenschluss zum Eigenverbrauch inkl. Wasser, Wärme und E-Mobility
+Finde in dieser Kategorie Details und Planungshilfen zu deinem smart-me Projekt.
 
-## Planung Ladestationen
+### Die Modelle
 
-Beispiel für Hardwareinstalltion für E-Mobility mit eCarUp
+<Unterseiten nur="planung/standard-messkonzept, planung/zev-zusammenschluss-zum-eigenverbrauch, planung/virtuelle-zev-vzev, planung/leg-lokale-elektrizitaetsgemeinschaft/index, planung/elektromobilitaet/index" />
 
-[Einzelgebäude oder Überbauung mit E-Mobilität](/planung/zev-zusammenschluss-zum-eigenverbrauch)
+### Lizenzierung
 
-[Aufbau statisches und dynamisches Lastmanagement](/planung/elektromobilitaet)
+<Unterseiten nur="planung/cloud-lizenzen" />
 
-## Plane jetzt dein Projekt mit unserem Konfigurator
+<NurFuer land="ch">
 
-Der Projekt Konfigurator erstellt dir auf Basis deiner Angaben die Stückliste aus allen smart-me Produkten, die Anzahl Messstellen und ein visuelles Schema zur Prüfung.
+### Hilfsmittel zur Planung
 
-Ideal für Planer, Elektrofachleute.
+<Unterseiten nur="planung/investitionsrechner, planung/projektkonfigurator" />
 
-[Projektkonfigurator](/planung/projektkonfigurator)
+</NurFuer>
 
-[Zertifizierungen](/planung/zertifizierungen-schweiz)
+### Spezielle Messkonzepte
 
-[Cloud Lizenzen](/planung/cloud-lizenzen)
+<Unterseiten nur=" planung/mkd3-messkonzept-nicht-teilnehmer, planung/messkonzept-notstromloesung, planung/messkonzept-produzenten-hinter-haeuser" />
 
-[Abrechnung vorbereiten](/planung/abrechnung-vorbereiten)
+### Konnektivität
 
-[Internetverbindung](/planung/internetverbindung)
+<Unterseiten nur="planung/internetverbindung, planung/internetverbindung-deutschland" />
 
-[Vertrag / Rechtliches](/planung/vertrag-rechtliches)
+### Rechtliches und Zertifizierungen
 
-[Messkonzept Notstromlösung](/planung/messkonzept-notstromloesung)
+<Unterseiten nur="planung/vertrag-rechtliches, planung/zertifizierungen-schweiz, planung/zertifizierungen-deutschland, planung/minergie" />
 
-[Messkonzept Produzenten hinter Häuser](/planung/messkonzept-produzenten-hinter-haeuser)
+<Unterseiten titel="Weiteres" ohne="planung/zev-zusammenschluss-zum-eigenverbrauch, planung/virtuelle-zev-vzev, planung/leg-lokale-elektrizitaetsgemeinschaft/index, planung/elektromobilitaet/index, planung/cloud-lizenzen, planung/investitionsrechner, planung/projektkonfigurator, planung/standard-messkonzept, planung/mkd3-messkonzept-nicht-teilnehmer, planung/messkonzept-notstromloesung, planung/messkonzept-produzenten-hinter-haeuser, planung/internetverbindung, planung/internetverbindung-deutschland, planung/vertrag-rechtliches, planung/zertifizierungen-schweiz, planung/zertifizierungen-deutschland, planung/minergie" />
+

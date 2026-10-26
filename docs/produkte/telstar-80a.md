@@ -28,7 +28,34 @@ Der smart-me Telstar 80A ist ein MID-zertifizierter Energiezähler mit integrier
 
 ## Technische Daten
 
-<Embed src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSQ2T_oNXpPR0sUnjcsWY-ymK0lgmZxopMCiyV0gQq9rV7fH5oJEYEVx0a4AUHNfunOHC5igswOLVyi/pubhtml?gid=0&range=A1:B27&single=true&widget=false&headers=false&chrome=false" height="689px" title="3-Phasen Zähler Telstar 80A" />
+| Merkmal | Wert |
+| --- | --- |
+| Produktzertifizierung | CE, MID 2014/32/EU, CH-Lastgang / Blindenergie, RED |
+| Genauigkeitsklasse für Wirkenergie/Blindenergie | B (MID) / 2 (IEC) |
+| Richtung | +A (Bezug), -A (Lieferung), +R, -R |
+| Quadranten | Q1, Q2, Q3, Q4 |
+| Netzspannung | 3x230/400VAC 50Hz |
+| Strommessbereich Imin-Iref(Imax) | 0.25-5(80)A |
+| Leiterquerschnitt | 2.5 - 35 mm² |
+| Messgeräte-Kategorie | CAT III |
+| Temperaturbereich | -25°C bis +70°C |
+| Rel. Luftfeuchtigkeit | Jahresmittel 75%, ohne Kondensation<br />kurzzeitig 95%, ohne Kondensation |
+| Messwerte | Wirkenergie (kWh), Wirkleistung (kW)<br />Blindenergie (kvarh), Blindleistung (kvar)<br />Strom (A), Spannung (V), Leistungsfaktor (cosφ) |
+| Eigenverbrauch | < 0.8W pro Phase |
+| Tarife | Zwei über digitalen Tarifeingang E1, unbegrenzt virtuelle Tarife in der smart-me Cloud |
+| S0-Ausgang | 1'000 Imp/kWh |
+| Digitaler Eingang E1 | Potentialfreier Tarifeingang (12 VDC / 230 VAC) |
+| Digitale Ausgänge S0-0, S-1 | Potentialfreie Ausgänge (SG Ready), 12 VDC / 230 VAC<br />S0-0: max. 0.4W<br />S-1: max. 8A@230VAC oder 5A@12VDC |
+| Kommunikation | WLAN IEEE 802.11 b/g/n (2.4 GHz) |
+| Datenmenge | < 75MB/Monat |
+| Datenrate | < 0.1 Mbit/s |
+| WLAN Sicherheitsstandard | WEP, WPA-PSK/WPA2-PSK |
+| Datenspeicher | 2 Monate |
+| Schutzart Gehäuse/Anschlüsse, Verwendung | IP20 / IP51 (eingebaut in Schaltschrank), Innenraum |
+| Montage | DIN-Schiene |
+| Abmessungen | 5 Module, L:90mm B:90mm H:65.7mm |
+| Serverstandort | Schweiz |
+| Schutzklasse | II |
 
 ## Display
 

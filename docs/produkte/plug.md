@@ -52,21 +52,16 @@ Video Installation
 
 ## Technische Daten
 
-Spannung (U) 110V - 230V
-
-Messbereich (P) 0.1-3680W
-
-Genauigkeit 1 % (class 1)
-
-Frequenz (f) 50/60Hz 
-
-Strom (I) 10A / 16A
-
-Schutzklasse IP20
-
-Eigenverbrauch 0.1W
-
-Abmessungen 95 x 54 x 29 mm (3.7 x 2.1 x 1.1 in)
+| Merkmal | Wert |
+| --- | --- |
+| Spannung (U) | 110V - 230V |
+| Messbereich (P) | 0.1-3680W |
+| Genauigkeit | 1 % (class 1) |
+| Frequenz (f) | 50/60Hz |
+| Strom (I) | 10A / 16A |
+| Schutzklasse | IP20 |
+| Eigenverbrauch | 0.1W |
+| Abmessungen | 95 x 54 x 29 mm (3.7 x 2.1 x 1.1 in) |
 
 ## Kann der Zählerstand zurückgesetzt werden.
 

@@ -26,7 +26,7 @@ On this page you will find a description of the most common error messages and p
 </div>
 <div className="col col--7 bild--mitte">
 
-![“Create invoice” dialog with billing period, invoice number and the buttons Invoice preview, Create invoice and Export](/img/konfiguration-billing/14.png)
+![“Create invoice” dialog with billing period, invoice number and the buttons Invoice preview, Create invoice and Export](/img/konfiguration-billing/14_EN.png)
 
 </div>
 </div>

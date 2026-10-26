@@ -127,11 +127,11 @@ Sur ces pages, vous trouverez toutes les informations utiles pour réussir la mi
 
 - [Mise en service](/konfiguration/inbetriebnahme)
 
-- [Numérotation des compteurs combinés](/konfiguration/inbetriebnahme#numérotation-des-compteurs-combinés) 
+- [Numérotation des compteurs combinés](/konfiguration/inbetriebnahme) 
 
-- [Recherche d'appareils M-Bus Gateway](/konfiguration/inbetriebnahme#rechercher-des-appareils-avec-le-m-bus-gateway)
+- [Recherche d'appareils M-Bus Gateway](/konfiguration/inbetriebnahme)
 
-- [Empêcher la détection automatique des appareils](/konfiguration/inbetriebnahme#empêcher-la-détection-de-nouveaux-appareils-par-le-m-bus-gateway)
+- [Empêcher la détection automatique des appareils](/konfiguration/inbetriebnahme)
 
 
 ## Compteurs électriques, de chaleur, d'eau et de gaz compatibles

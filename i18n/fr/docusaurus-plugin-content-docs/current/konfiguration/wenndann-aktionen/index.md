@@ -68,7 +68,7 @@ Les actions si/alors sont enregistrées dans le cloud et ne fonctionnent donc qu
 
 Les événements SI (déclencheurs) suivants sont disponibles :
 
-![Valeur mesurée supérieure / inférieure](/img/konfiguration-wenndann-aktionen/02.png)
+![Valeur mesurée supérieure / inférieure](/img/konfiguration-wenndann-aktionen/02_EN.png)
 
 Valeur mesurée supérieure/inférieure (Messwert grösser/kleiner)
 

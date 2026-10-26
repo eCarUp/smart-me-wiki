@@ -1,39 +1,38 @@
 ---
 title: 'Planning'
 slug: '/planung'
-description: 'Examples of hardware installation in a ZEV (association for own consumption) incl.'
+description: 'Examples of hardware installation in an association for own consumption incl.'
 sidebar_label: 'Planning'
 ---
-## Planning in a ZEV
 
-Examples of hardware installation in a ZEV (association for own consumption) incl. water, heat and e-mobility
+In this category, you will find details and planning aids for your smart-me project.
 
-## Planning charging stations
+### The models
 
-Example of hardware installation for e-mobility with eCarUp
+<Unterseiten nur="planung/standard-messkonzept, planung/zev-zusammenschluss-zum-eigenverbrauch, planung/virtuelle-zev-vzev, planung/leg-lokale-elektrizitaetsgemeinschaft/index, planung/elektromobilitaet/index" />
 
-[Single building or development with e-mobility](/planung/zev-zusammenschluss-zum-eigenverbrauch)
+### Licensing
 
-[Setting up static and dynamic load management](/planung/elektromobilitaet)
+<Unterseiten nur="planung/cloud-lizenzen" />
 
-## Plan your project now with our configurator
+<NurFuer land="ch">
 
-Based on your input, the project configurator creates the bill of materials from all smart-me products, the number of metering points and a visual schematic for review.
+### Planning tools
 
-Ideal for planners and electricians.
+<Unterseiten nur="planung/investitionsrechner, planung/projektkonfigurator" />
 
-[Projektkonfigurator](/planung/projektkonfigurator)
+</NurFuer>
 
-[Certification](/planung/zertifizierungen-schweiz)
+### Special metering concepts
 
-[Cloud License](/planung/cloud-lizenzen)
+<Unterseiten nur=" planung/mkd3-messkonzept-nicht-teilnehmer, planung/messkonzept-notstromloesung, planung/messkonzept-produzenten-hinter-haeuser" />
 
-[Prepare Billing](/planung/abrechnung-vorbereiten)
+### Connectivity
 
-[Internet Connection](/planung/internetverbindung)
+<Unterseiten nur="planung/internetverbindung, planung/internetverbindung-deutschland" />
 
-[Contract / Legal](/planung/vertrag-rechtliches)
+### Legal and certifications
 
-[Measurement concept emergency power solution](/planung/messkonzept-notstromloesung)
+<Unterseiten nur="planung/vertrag-rechtliches, planung/zertifizierungen-schweiz, planung/zertifizierungen-deutschland, planung/minergie" />
 
-[Measurement concept producers behind houses](/planung/messkonzept-produzenten-hinter-haeuser)
+<Unterseiten titel="Weiteres" ohne="planung/zev-zusammenschluss-zum-eigenverbrauch, planung/virtuelle-zev-vzev, planung/leg-lokale-elektrizitaetsgemeinschaft/index, planung/elektromobilitaet/index, planung/cloud-lizenzen, planung/investitionsrechner, planung/projektkonfigurator, planung/standard-messkonzept, planung/mkd3-messkonzept-nicht-teilnehmer, planung/messkonzept-notstromloesung, planung/messkonzept-produzenten-hinter-haeuser, planung/internetverbindung, planung/internetverbindung-deutschland, planung/vertrag-rechtliches, planung/zertifizierungen-schweiz, planung/zertifizierungen-deutschland, planung/minergie" />

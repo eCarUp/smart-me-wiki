@@ -68,7 +68,7 @@ Le azioni se/allora vengono salvate nel cloud e funzionano quindi solo se il dis
 
 Sono disponibili i seguenti eventi Se (trigger):
 
-![Valore misurato maggiore / minore](/img/konfiguration-wenndann-aktionen/02.png)
+![Valore misurato maggiore / minore](/img/konfiguration-wenndann-aktionen/02_EN.png)
 
 Valore misurato maggiore/minore (Messwert grösser/kleiner)
 

@@ -4,23 +4,22 @@ slug: '/planung/vertrag-rechtliches'
 description: 'Base contrattuale per un RCP (Svizzera)'
 sidebar_label: 'Contratto / Aspetti legali'
 ---
-[Inglese](/planung/vertrag-rechtliches)
 
 ## Base contrattuale per un RCP (Svizzera)
 
-Il RCP (raggruppamento ai fini del consumo proprio)  è un raggruppamento contrattuale di più consumatori finali che consente loro di consumare sul posto l'elettricità che producono autonomamente. 
+Il RCP (raggruppamento ai fini del consumo proprio)  è un raggruppamento contrattuale di più consumatori finali allo scopo di consumare sul posto l'elettricità da loro stessi prodotta. 
 
 In un raggruppamento ai fini del consumo proprio, le consumatrici e i consumatori finali dispongono di un allacciamento alla rete comune. Nei confronti del gestore della rete di distribuzione, tutte le consumatrici e tutti i consumatori finali che partecipano al rispettivo RCP si presentano come un unico cliente. 
 
 ### Modelli standardizzati di contratti RCP e di adeguamenti dei contratti di locazione (modello di contratto RCP)
 
-Associazione dei proprietari fondiari: [https://www.hev-schweiz.ch/wohnen/bauen/haustechnik-gebaeudetechnik/eigenverbrauch/](https://www.hev-schweiz.ch/wohnen/bauen/haustechnik-gebaeudetechnik/eigenverbrauch/) (login richiesto)
+Associazione dei proprietari fondiari (HEV): [https://www.hev-schweiz.ch/wohnen/bauen/haustechnik-gebaeudetechnik/eigenverbrauch/](https://www.hev-schweiz.ch/wohnen/bauen/haustechnik-gebaeudetechnik/eigenverbrauch/) (login richiesto)
 
 Guida all'autoconsumo di SvizzeraEnergia: [https://www.energieschweiz.ch/gebaeude/eigenverbrauch/](https://www.energieschweiz.ch/gebaeude/eigenverbrauch/)  
 
 
 
-Se ha bisogno di un supporto legale approfondito per l'attuazione del RCP, qui sotto trova i partner a noi noti.
+Se necessita di un supporto legale approfondito per la realizzazione del RCP, qui sotto trova i partner a noi noti.
 
 Aspetti legali del RCP con Domenig & Partner 
 
@@ -28,18 +27,18 @@ Programma
 
 - [00:00 Introduzione](https://www.youtube.com/watch?v=KqU1XWR4YOU)
 
-- [00:55 Nozioni di base smart-me](https://youtu.be/KqU1XWR4YOU?si=_Y0PLCH2BewXjj-Y&t=55)s
+- [00:55 smart-me Basic](https://youtu.be/KqU1XWR4YOU?si=_Y0PLCH2BewXjj-Y&t=55)s
 
-- [12:19 Nozioni giuridiche di base del RCP](https://www.youtube.com/watch?v=KqU1XWR4YOU&t=739s)
+- [12:19 Basi legali del RCP](https://www.youtube.com/watch?v=KqU1XWR4YOU&t=739s)
 
 
-<Video src="KqU1XWR4YOU" title="Video YouTube, webinar - Nozioni giuridiche di base del RCP" />
+<Video src="KqU1XWR4YOU" title="Video YouTube, webinar - Basi legali del RCP" />
 
 ### Partner a noi noti
 
 ![Contratto / Aspetti legali – Figura 1](/img/planung-vertrag-rechtliches/01.png)
 
-Dr.iur., avvocato Mischa Morgenbesser
+Dr. iur., avvocato Mischa Morgenbesser
 
 BADERTSCHER RECHTSANWÄLTE AG
 
@@ -60,7 +59,7 @@ Web: [https://www.b-legal.ch/](https://www.b-legal.ch/)
 
 
 
-Dr.iur., avvocata Simone Walther
+Dr. iur., avvocata Simone Walther
 
 Schärer Rechtsanwälte
 
@@ -108,7 +107,7 @@ Zollstrasse 53
 
 
 
-Consulenza e gestione di progetti in ambito economico e giuridico 
+Consulenza e gestione di progetti in ambito economico e legale 
 
 M: +41 79 205 91 91
 
@@ -122,4 +121,4 @@ Web: [www.bachenergy.ch](http://www.bachenergy.ch)
 
 [https://www.bundesnetzagentur.de/DE/Vportal/Energie/Vertragsarten/Mieterstrom/start.html](https://www.bundesnetzagentur.de/DE/Vportal/Energie/Vertragsarten/Mieterstrom/start.html)
 
-Per domande La preghiamo di contattare smartred.de. Smart-Red è la nostra società affiliata che serve il mercato tedesco e commercializza i nostri prodotti in progetti di elettricità per gli inquilini nel rispetto del quadro giuridico.
+In caso di domande, La preghiamo di contattare smartred.de. Smart-Red è la nostra società affiliata che serve il mercato tedesco e commercializza i nostri prodotti in progetti di elettricità per gli inquilini nel rispetto del quadro giuridico vigente.

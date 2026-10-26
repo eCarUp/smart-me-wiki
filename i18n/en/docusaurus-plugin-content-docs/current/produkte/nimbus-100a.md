@@ -34,7 +34,7 @@ sidebar_label: '3-Phase Meter Nimbus 100A'
 
 ### A secure anchor for your blockchain solution
 
-The Nimbus meter was designed as a trustworthy "hardware oracle" to solve the critical oracle problem when connecting IoT devices to decentralised systems.
+The Nimbus meter was designed as a trustworthy "hardware oracle" to solve the critical oracle problem when connecting IoT devices to decentralized systems.
 
 The ECDSA signature process:
 
@@ -44,11 +44,41 @@ The ECDSA signature process:
 
 3.  Verifiable origin: The result is a data packet with a digital signature. Using the meter's public key, any application can verify beyond doubt that the data is authentic and unaltered.
 
-The Nimbus thus offers a hardware-based security guarantee that is superior to pure software solutions and provides the perfect foundation for robust P2P trading platforms, local electricity communities (LEC) and other decentralised energy services.
+The Nimbus thus offers a hardware-based security guarantee that is superior to pure software solutions and provides the perfect foundation for robust P2P trading platforms, local electricity communities (LEC) and other decentralized energy services.
 
 ## Technical data
 
-<Embed src="https://docs.google.com/spreadsheets/d/e/2PACX-1vR4UWY0pXsfUBgArWNNkGZGvIscStumVrGrU7_h2DGk1YNe_XYOxPLnZoJlARRCO86Fz-aOo0cb0pGh/pubhtml?gid=0&range=A1:B30&single=true&widget=false&headers=false&chrome=false" height="719px" title="3-Phase Meter Nimbus 100A" />
+| Feature | Value |
+| --- | --- |
+| Product certification | CE, MID 2014/32/EU, CH load profile / reactive energy, RED 2014/53/EU |
+| Accuracy class for active energy/reactive energy | B (MID) / 2 (IEC) |
+| Applied standards | EN50470-1:2006, EN 50470-3:2006 |
+| Direction | +A (consumption), -A (delivery), +R, -R |
+| Quadrants | Q1, Q2, Q3, Q4 |
+| Mains voltage | 3x230/400VAC 50Hz |
+| Current measuring range Imin-Iref(Imax) | 0.25-5(100)A |
+| Terminal cable cross-sections | 2.5-35 mm2 |
+| Measuring instrument category | CAT III |
+| Customer interface | DSMR P1 V5.0.2 , RJ12 socket |
+| Temperature range (operation, storage and transport) | -25°C to +70°C |
+| Rel. humidity | Annual average 75%, non-condensing<br />short-term 95%, non-condensing |
+| Altitude | up to 2000m |
+| Measured values | Active energy (kWh), active power (kW)<br />Reactive energy (kvarh), reactive power (kvar)<br />Current (A), voltage (V), power factor (cosφ) |
+| Self-consumption per phase | < 0.8W |
+| Tariffs | unlimited virtual tariffs in the smart-me Cloud |
+| Optical test output | 10'000 Imp/kWh |
+| Communication | WLAN IEEE 802.11 b/g/n (2.4 GHz)<br />LTE CAT-M1 (plug-in module, optional) |
+| WLAN security standard | WEP, WPA-PSK/WPA2-PSK |
+| Data storage (logbook & meter reading profile) | 9 months |
+| Data security | AES-128 CBC, signed 15min meter reading profile, OCMF format |
+| Housing | Protection rating: IP51 (installed on mounting plate)<br />Housing material: glass-fibre reinforced polycarbonate<br />Dimensions: W:171mm H:236mm D:59mm |
+| Ambient conditions | M1, E2, indoor |
+| Mounting | Meter plate according to DIN 43857-1 |
+| Server location | Switzerland |
+| Protection class | II |
+| Rated impulse voltage (Uimp, Safety) | 6 kV |
+| Utilization category | UC 2 |
+| Last modified | 24.09.2025 |
 
 ## Display
 
@@ -107,7 +137,7 @@ Error display (OBIS code followed by error messages)
 
 C.60.9 Error messages (page is only displayed if errors are present)
 
-- PhL Wiring error (wrong phase sequence or unwired phases)
+- PhL Wiring error (wrong phase sequence or phases not wired)
 
     123: Wrong phase sequence. 1, 2 and 3 flash.
 
@@ -143,9 +173,9 @@ C.60.9 Error messages (page is only displayed if errors are present)
 
     0x1X: Logbook full
 
-- Meter manipulation symbol (magnet):  OBIS code C.51.6  Meter has been negatively influenced.
+- Symbol meter manipulation (magnet):  OBIS code C.51.6  Meter was negatively influenced.
 
-- Terminal cover opened symbol ( "G"):  OBIS code C.51.2  Terminal cover is open.
+- Symbol terminal cover open ( "G"):  OBIS code C.51.2  Terminal cover is open.
 
 Firmware (OBIS code followed by information)
 
@@ -168,7 +198,7 @@ Opening and leaving the memory:
 
 Meter reading profile:
 
-- 1.8.0 and 2.8.0: OBIS codes represented in the memory
+- 1.8.0 and 2.8.0: OBIS codes shown in the memory
 
 - 0001: Entry number in the memory 
 
@@ -186,7 +216,7 @@ Logbook
 
 Opening the logbook:
 
-- Press the display button for 7-8 seconds in normal mode.
+- Press the display button in normal mode for 7-8 seconds.
 
 Entering the password to display the logbook:
 
@@ -216,9 +246,9 @@ C.60.9 :  OBIS code of the currently displayed message
 
 - 0001  :  Number of the stored message; 0001 is the most recent message.
 
-- 8192  :  Maximum possible number of messages in the logbook.
+- 8192  :  Maximum possible messages in the logbook.
 
-    When the maximum possible number of messages is stored in the logbook, no further messages are stored ⇨ LOGBOOK FULL.
+    When the maximum possible messages are stored in the logbook, no further messages are stored ⇨ LOGBOOK FULL.
 
     When LOGBOOK FULL, further changes to the metrologically relevant parameters are no longer possible without breaching the metrological seal.
 
@@ -234,7 +264,7 @@ Log information:
 
 - Terminal cover opened or closed (Open, close terminal cover)
 
-- Manipulation detected and ended (Start, End Meter Manipulation)
+- Manipulation detected and cleared (Start, End Meter Manipulation)
 
 - Wiring error detected (Set, End Connection)
 
@@ -256,18 +286,18 @@ Log information:
 
 Wiring
 
-Stranded conductors, solid conductors and flexible wires between 4-35 mm2 are permitted as supply lines. Flexible wires may only be installed with suitable ferrules. Further information on the connection cables can be found in the Quickstarter Guide.
+Stranded cables, solid conductors and flexible strands between 4-35 mm2 are permitted as supply lines. Flexible strands may only be installed with suitable ferrules. Further information on the connection cables can be found in the Quickstarter Guide.
 
 Screw drive: Torx 25
 
-Before installation, the supply lines must be de-energised and secured against manipulation.
+Before installation, the supply lines must be de-energized and secured against manipulation.
 
 Connection with looped-through neutral conductor
 
 ![smart-me Nimbus 100A – Figure 9](/img/produkte-nimbus-100a/09.png)
 
 Connection diagram with excitation neutral conductor
-(neutral conductor may be considerably smaller than L1, L2 or L3)
+(neutral conductor may be significantly smaller than L1, L2 or L3)
 
 ![smart-me Nimbus 100A – Figure 10](/img/produkte-nimbus-100a/10.png)
 
@@ -275,15 +305,15 @@ Connection diagram with excitation neutral conductor
 
 Button 1 (T1)
 
-To connect the meter to a smart-me account, button 1 is pressed for 10 seconds during commissioning with the smart-me app. A device-specific Wifi is then created, to which the mobile phone can connect in order to store the Wifi access data on the meter.
+To connect the meter to a smart-me account, button 1 is pressed for 10 seconds during commissioning with the smart-me app. A device-specific Wifi is then created, which the mobile phone can connect to in order to store the Wifi access data on the meter.
 
 Button 2 (T2)
 
-Button 2 can be used to open the logbook and the meter reading profile. To display the meter reading profile, button 2 must be pressed for 4 seconds. The password can then be entered. The currently selected digit is indicated by flashing. To change this digit, briefly press button 2. After 10 seconds, the display moves one position further.
+Button 2 can be used to open the logbook and the meter reading profile. To display the meter reading profile, button 2 must be pressed for 4 seconds. The password can then be entered. The currently selected digit is indicated by flashing. To change this digit, briefly press button 2. After 10 seconds, the display moves one position to the right.
 
 Access passwords have 4 numeric digits.
 
-If the password is correct, the last entry of the meter reading profile is displayed. To display the next entry, briefly press button 2. If button 2 is not pressed for 60 seconds, the display returns to showing the meter reading.
+If the password is correct, the last entry of the meter reading profile is displayed. To display the next entry, briefly press button 2. If button 2 is not pressed for 60 seconds, the display switches back to showing the meter reading.
 
 P1 Interface
 
@@ -304,9 +334,9 @@ Status LED - lights up steadily when connected to the smart-me Cloud
 
 L2
 
-Pulse LED - shows currently measured power in 10'000 Imp / kWh
+Pulse LED - shows currently measured power at 10'000 Imp / kWh
 
-The pulse LED can display active and reactive energy. To switch from active to reactive power or vice versa, button T2 must be pressed 10 times at intervals of 1 second. Whether active or reactive power is currently shown on the LED can be seen on the bottom line of the display.
+The pulse LED can display active and reactive energy. To switch from active to reactive power or vice versa, button T2 must be pressed 10 times at intervals of 1 sec. Whether active or reactive power is currently shown on the LED can be seen on the bottom line of the display.
 
 ![smart-me Nimbus 100A – Figure 11](/img/produkte-nimbus-100a/11.png)
 
@@ -315,7 +345,7 @@ The pulse LED can display active and reactive energy. To switch from active to r
 The P1 interface of the Nimbus allows third-party providers or end customers to reuse the measured data in their own control or analysis systems.
 
 This requires a P1 interface reading module with an RJ-12 connector.
-It must support the “P1 Companion Standard” from Netbeheer Nederland, version 5.0.2 (26 February 2016).
+It must support the “P1 Companion Standard” of Netbeheer Nederland. Version 5.0.2 (26.Februar.2016).
 
 Voltage:  5V DC, maximum load:  100mA DC, reinforced insulation against mains
 
@@ -331,7 +361,7 @@ Clean the device housing with a dry cloth. Do not use chemical cleaning agents!
 
 ## Maintenance and warranty information
 
-The device is maintenance-free. In the event of damage (e.g. due to transport or storage), do not carry out any repairs yourself. Opening the device voids the warranty claim. The same applies if a defect is attributable to external influences (e.g. lightning, water, fire, extreme temperatures and weather conditions) as well as in the event of improper or careless use or handling. The seals may only be broken by authorised persons! 
+The device is maintenance-free. In the event of damage (e.g. due to transport, storage), do not carry out any repairs yourself. Opening the device voids the warranty claim. The same applies if a defect is attributable to external influences (e.g. lightning, water, fire, extreme temperatures and weather conditions) as well as improper or negligent use or handling. The seals may only be broken by authorized persons! 
 
 ## Shipping information
 
@@ -351,9 +381,9 @@ Manufacturer: smart-me AG, Riedstrasse 18, 6343 Rotkreuz
 
 ## Downloads and declaration of conformity
 
-[Datasheet German](https://docs.google.com/document/d/1tcs5EvHC442kjFp2khZIJCFZguj6PGaukyTmDoJuPaU/export?format=pdf)
+[Data sheet German](https://docs.google.com/document/d/1tcs5EvHC442kjFp2khZIJCFZguj6PGaukyTmDoJuPaU/export?format=pdf)
 
-[Datasheet English](https://docs.google.com/document/d/1rb7S8jR9PbH3F1A4RE9wVNmU8WbtwwjxydKl-hCU1qI/export?format=pdf)
+[Data sheet English](https://docs.google.com/document/d/1rb7S8jR9PbH3F1A4RE9wVNmU8WbtwwjxydKl-hCU1qI/export?format=pdf)
 
 [Quick Starter](https://docs.google.com/document/d/1phDRJ66HykZ1iLdGiOnJHnGE1lK8t3DSuDcbuHEF5LY/export?format=pdf)
 
@@ -366,6 +396,6 @@ Manufacturer: smart-me AG, Riedstrasse 18, 6343 Rotkreuz
 <details id="kann-ich-den-zählerstand-auf-null-zurücksetzten">
 <summary>Can I reset the meter reading to zero?</summary>
 
-No, because our meters are used for billing, it is not possible to reset them.
+No, since our meters are used for billing, it is not possible to reset them.
 
 </details>

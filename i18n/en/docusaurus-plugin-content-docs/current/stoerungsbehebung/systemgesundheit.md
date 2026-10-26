@@ -1,10 +1,12 @@
 ---
-title: 'System health'
+title: 'System Health'
 slug: '/stoerungsbehebung/systemgesundheit'
-description: 'System health requires a Professional license'
-sidebar_label: 'System health'
+description: 'System Health requires a Professional license'
+sidebar_label: 'System Health'
 ---
-System health (Systemgesundheit) requires a Professional license 
+<Menueweg>System → System Health</Menueweg>
+
+System Health requires a Professional license 
 
 Display:
 
@@ -22,7 +24,7 @@ The devices are sorted by type.
 - Other devices (Andere Geräte): API or imported devices
 
 
-Sorting:
+Order:
 
 The columns can be sorted, but by default they are arranged so that all offline devices appear at the top.
 
@@ -32,12 +34,12 @@ This is the ID with which this meter can be addressed directly via the API.
 
 
 
-![System health – Figure 1](/img/stoerungsbehebung-systemgesundheit/01.png)
+![System Health – Figure 1](/img/stoerungsbehebung-systemgesundheit/01.png)
 
 <div className="row">
 <div className="col col--4 text--center">
 
-![System health – Figure 2](/img/stoerungsbehebung-systemgesundheit/02.png)
+![System Health – Figure 2](/img/stoerungsbehebung-systemgesundheit/02.png)
 
 </div>
 <div className="col col--8">

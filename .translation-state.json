@@ -632,15 +632,15 @@
     },
     "docs/konfiguration/benutzerkonfiguration.md": {
       "en": {
-        "hash": "b831dadf9187668b",
+        "hash": "c1b4e88960720d4e",
         "origin": "translated"
       },
       "fr": {
-        "hash": "b831dadf9187668b",
+        "hash": "c1b4e88960720d4e",
         "origin": "translated"
       },
       "it": {
-        "hash": "b831dadf9187668b",
+        "hash": "c1b4e88960720d4e",
         "origin": "translated"
       }
     },
@@ -772,15 +772,15 @@
     },
     "docs/konfiguration/billing/index.md": {
       "en": {
-        "hash": "1c13d06be3cc4afa",
+        "hash": "369f90b07113fe69",
         "origin": "translated"
       },
       "fr": {
-        "hash": "1c13d06be3cc4afa",
+        "hash": "369f90b07113fe69",
         "origin": "translated"
       },
       "it": {
-        "hash": "1c13d06be3cc4afa",
+        "hash": "369f90b07113fe69",
         "origin": "translated"
       }
     },
@@ -982,15 +982,15 @@
     },
     "docs/konfiguration/firmware-update.md": {
       "en": {
-        "hash": "dccb089446e1dac6",
+        "hash": "aaa4755c68a7c48c",
         "origin": "translated"
       },
       "fr": {
-        "hash": "dccb089446e1dac6",
+        "hash": "aaa4755c68a7c48c",
         "origin": "translated"
       },
       "it": {
-        "hash": "dccb089446e1dac6",
+        "hash": "aaa4755c68a7c48c",
         "origin": "translated"
       }
     },
@@ -1080,43 +1080,43 @@
     },
     "docs/konfiguration/inbetriebnahme/index.md": {
       "en": {
-        "hash": "47438b43085b13d8",
+        "hash": "f58d416b5d90288c",
         "origin": "translated"
       },
       "fr": {
-        "hash": "47438b43085b13d8",
+        "hash": "f58d416b5d90288c",
         "origin": "translated"
       },
       "it": {
-        "hash": "47438b43085b13d8",
+        "hash": "f58d416b5d90288c",
         "origin": "translated"
       }
     },
     "docs/konfiguration/inbetriebnahme/pico-konfiguration.md": {
       "en": {
-        "hash": "d8224a551531d817",
+        "hash": "dc9eebfdc3d1a297",
         "origin": "translated"
       },
       "fr": {
-        "hash": "d8224a551531d817",
+        "hash": "dc9eebfdc3d1a297",
         "origin": "translated"
       },
       "it": {
-        "hash": "d8224a551531d817",
+        "hash": "dc9eebfdc3d1a297",
         "origin": "translated"
       }
     },
     "docs/konfiguration/inbetriebnahme/smart-me-geraete.md": {
       "en": {
-        "hash": "3e337b3f186ebe27",
+        "hash": "3261b891fb3e28a4",
         "origin": "translated"
       },
       "fr": {
-        "hash": "3e337b3f186ebe27",
+        "hash": "3261b891fb3e28a4",
         "origin": "translated"
       },
       "it": {
-        "hash": "3e337b3f186ebe27",
+        "hash": "3261b891fb3e28a4",
         "origin": "translated"
       }
     },
@@ -1136,29 +1136,29 @@
     },
     "docs/konfiguration/inbetriebnahme/zaehler-loeschen.md": {
       "en": {
-        "hash": "0ed8b009a5f1e69b",
+        "hash": "b9522363b8b40404",
         "origin": "translated"
       },
       "fr": {
-        "hash": "0ed8b009a5f1e69b",
+        "hash": "b9522363b8b40404",
         "origin": "translated"
       },
       "it": {
-        "hash": "0ed8b009a5f1e69b",
+        "hash": "b9522363b8b40404",
         "origin": "translated"
       }
     },
     "docs/konfiguration/installer-app-anleitung.md": {
       "en": {
-        "hash": "bcc2593aaa7b4733",
+        "hash": "6d3614b450829bff",
         "origin": "translated"
       },
       "fr": {
-        "hash": "bcc2593aaa7b4733",
+        "hash": "6d3614b450829bff",
         "origin": "translated"
       },
       "it": {
-        "hash": "bcc2593aaa7b4733",
+        "hash": "6d3614b450829bff",
         "origin": "translated"
       }
     },
@@ -1178,15 +1178,15 @@
     },
     "docs/konfiguration/multilevel-lastmanagement/mlm-konfigurieren.md": {
       "en": {
-        "hash": "15cc699c7cecd4f1",
+        "hash": "9728ad5b75f9037f",
         "origin": "translated"
       },
       "fr": {
-        "hash": "15cc699c7cecd4f1",
+        "hash": "9728ad5b75f9037f",
         "origin": "translated"
       },
       "it": {
-        "hash": "15cc699c7cecd4f1",
+        "hash": "9728ad5b75f9037f",
         "origin": "translated"
       }
     },
@@ -1388,15 +1388,15 @@
     },
     "docs/konfiguration/wenndann-aktionen/tarifzeiten-definieren.md": {
       "en": {
-        "hash": "0e31c215dcdaa616",
+        "hash": "65a60c2d25384775",
         "origin": "translated"
       },
       "fr": {
-        "hash": "0e31c215dcdaa616",
+        "hash": "65a60c2d25384775",
         "origin": "translated"
       },
       "it": {
-        "hash": "0e31c215dcdaa616",
+        "hash": "65a60c2d25384775",
         "origin": "translated"
       }
     },
@@ -1570,15 +1570,15 @@
     },
     "docs/planung/abrechnung-vorbereiten.md": {
       "en": {
-        "hash": "1e73d6dc2309ddab",
+        "hash": "3ad25fb5accbe0b0",
         "origin": "translated"
       },
       "fr": {
-        "hash": "1e73d6dc2309ddab",
+        "hash": "3ad25fb5accbe0b0",
         "origin": "translated"
       },
       "it": {
-        "hash": "1e73d6dc2309ddab",
+        "hash": "3ad25fb5accbe0b0",
         "origin": "translated"
       }
     },
@@ -1654,29 +1654,43 @@
     },
     "docs/planung/index.md": {
       "en": {
-        "hash": "e9c9ad4ac89a3cce",
+        "hash": "0bf96c6a828378c0",
         "origin": "translated"
       },
       "fr": {
-        "hash": "e9c9ad4ac89a3cce",
+        "hash": "0bf96c6a828378c0",
         "origin": "translated"
       },
       "it": {
-        "hash": "e9c9ad4ac89a3cce",
+        "hash": "0bf96c6a828378c0",
+        "origin": "translated"
+      }
+    },
+    "docs/planung/internetverbindung-deutschland.md": {
+      "en": {
+        "hash": "d8df599cb08a6c86",
+        "origin": "translated"
+      },
+      "fr": {
+        "hash": "d8df599cb08a6c86",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "d8df599cb08a6c86",
         "origin": "translated"
       }
     },
     "docs/planung/internetverbindung.md": {
       "en": {
-        "hash": "baf19a9fe7242a8a",
+        "hash": "62d7cec42829aef0",
         "origin": "translated"
       },
       "fr": {
-        "hash": "baf19a9fe7242a8a",
+        "hash": "62d7cec42829aef0",
         "origin": "translated"
       },
       "it": {
-        "hash": "baf19a9fe7242a8a",
+        "hash": "62d7cec42829aef0",
         "origin": "translated"
       }
     },
@@ -1836,43 +1850,43 @@
     },
     "docs/planung/vertrag-rechtliches.md": {
       "en": {
-        "hash": "5f001b5784d05296",
+        "hash": "1cd6d3cf1cace86c",
         "origin": "translated"
       },
       "fr": {
-        "hash": "5f001b5784d05296",
+        "hash": "1cd6d3cf1cace86c",
         "origin": "translated"
       },
       "it": {
-        "hash": "5f001b5784d05296",
+        "hash": "1cd6d3cf1cace86c",
         "origin": "translated"
       }
     },
     "docs/planung/virtuelle-zev-vzev.md": {
       "en": {
-        "hash": "f05b8093ed237c40",
+        "hash": "ebe36c885cb1a0ca",
         "origin": "translated"
       },
       "fr": {
-        "hash": "f05b8093ed237c40",
+        "hash": "ebe36c885cb1a0ca",
         "origin": "translated"
       },
       "it": {
-        "hash": "f05b8093ed237c40",
+        "hash": "ebe36c885cb1a0ca",
         "origin": "translated"
       }
     },
     "docs/planung/zertifizierungen-deutschland.md": {
       "en": {
-        "hash": "61683356723828fa",
+        "hash": "91b1926cd2870e9f",
         "origin": "translated"
       },
       "fr": {
-        "hash": "61683356723828fa",
+        "hash": "91b1926cd2870e9f",
         "origin": "translated"
       },
       "it": {
-        "hash": "61683356723828fa",
+        "hash": "91b1926cd2870e9f",
         "origin": "translated"
       }
     },
@@ -1920,29 +1934,29 @@
     },
     "docs/produkte/1-phasen-zaehler-32a.md": {
       "en": {
-        "hash": "8547a278d9619d84",
+        "hash": "a73807dbe490a7af",
         "origin": "translated"
       },
       "fr": {
-        "hash": "8547a278d9619d84",
+        "hash": "a73807dbe490a7af",
         "origin": "translated"
       },
       "it": {
-        "hash": "8547a278d9619d84",
+        "hash": "a73807dbe490a7af",
         "origin": "translated"
       }
     },
     "docs/produkte/1-phasen-zaehler-80a.md": {
       "en": {
-        "hash": "9237ea659e3c5e31",
+        "hash": "69a049851a006225",
         "origin": "translated"
       },
       "fr": {
-        "hash": "9237ea659e3c5e31",
+        "hash": "69a049851a006225",
         "origin": "translated"
       },
       "it": {
-        "hash": "9237ea659e3c5e31",
+        "hash": "69a049851a006225",
         "origin": "translated"
       }
     },
@@ -1962,15 +1976,15 @@
     },
     "docs/produkte/3-phasen-zaehler.md": {
       "en": {
-        "hash": "ce4a3c1d2c52d9c7",
+        "hash": "9bfcf0bfe76191e5",
         "origin": "translated"
       },
       "fr": {
-        "hash": "ce4a3c1d2c52d9c7",
+        "hash": "9bfcf0bfe76191e5",
         "origin": "translated"
       },
       "it": {
-        "hash": "ce4a3c1d2c52d9c7",
+        "hash": "9bfcf0bfe76191e5",
         "origin": "translated"
       }
     },
@@ -2046,15 +2060,15 @@
     },
     "docs/produkte/landis-gyr-modul.md": {
       "en": {
-        "hash": "9d51ab6bfe32b430",
+        "hash": "f911e11a494c4b3d",
         "origin": "translated"
       },
       "fr": {
-        "hash": "9d51ab6bfe32b430",
+        "hash": "f911e11a494c4b3d",
         "origin": "translated"
       },
       "it": {
-        "hash": "9d51ab6bfe32b430",
+        "hash": "f911e11a494c4b3d",
         "origin": "translated"
       }
     },
@@ -2088,15 +2102,15 @@
     },
     "docs/produkte/m-bus-gateway/50-standardlasten.md": {
       "en": {
-        "hash": "339e5a531e830409",
+        "hash": "16fcd4bcde52812f",
         "origin": "translated"
       },
       "fr": {
-        "hash": "339e5a531e830409",
+        "hash": "16fcd4bcde52812f",
         "origin": "translated"
       },
       "it": {
-        "hash": "339e5a531e830409",
+        "hash": "16fcd4bcde52812f",
         "origin": "translated"
       }
     },
@@ -2116,29 +2130,29 @@
     },
     "docs/produkte/m-bus-gateway/sirius.md": {
       "en": {
-        "hash": "7fe88802034159dd",
+        "hash": "0333b5a531a4fffc",
         "origin": "translated"
       },
       "fr": {
-        "hash": "7fe88802034159dd",
+        "hash": "0333b5a531a4fffc",
         "origin": "translated"
       },
       "it": {
-        "hash": "7fe88802034159dd",
+        "hash": "0333b5a531a4fffc",
         "origin": "translated"
       }
     },
     "docs/produkte/nimbus-100a.md": {
       "en": {
-        "hash": "5b81cf50f8e5fd35",
+        "hash": "7132aebe2997796e",
         "origin": "translated"
       },
       "fr": {
-        "hash": "5b81cf50f8e5fd35",
+        "hash": "7132aebe2997796e",
         "origin": "translated"
       },
       "it": {
-        "hash": "5b81cf50f8e5fd35",
+        "hash": "7132aebe2997796e",
         "origin": "translated"
       }
     },
@@ -2158,29 +2172,29 @@
     },
     "docs/produkte/pico-ladestation-exa.md": {
       "en": {
-        "hash": "687bee720ef218fc",
+        "hash": "b9404b666d98260f",
         "origin": "translated"
       },
       "fr": {
-        "hash": "687bee720ef218fc",
+        "hash": "b9404b666d98260f",
         "origin": "translated"
       },
       "it": {
-        "hash": "687bee720ef218fc",
+        "hash": "b9404b666d98260f",
         "origin": "translated"
       }
     },
     "docs/produkte/pico-ladestation/index.md": {
       "en": {
-        "hash": "027fd828ec28f351",
+        "hash": "c7725113568c97d4",
         "origin": "translated"
       },
       "fr": {
-        "hash": "027fd828ec28f351",
+        "hash": "c7725113568c97d4",
         "origin": "translated"
       },
       "it": {
-        "hash": "027fd828ec28f351",
+        "hash": "c7725113568c97d4",
         "origin": "translated"
       }
     },
@@ -2284,57 +2298,57 @@
     },
     "docs/produkte/plug.md": {
       "en": {
-        "hash": "f668005ce6dee058",
+        "hash": "e87f3fdf7a155bdf",
         "origin": "translated"
       },
       "fr": {
-        "hash": "f668005ce6dee058",
+        "hash": "e87f3fdf7a155bdf",
         "origin": "translated"
       },
       "it": {
-        "hash": "f668005ce6dee058",
+        "hash": "e87f3fdf7a155bdf",
         "origin": "translated"
       }
     },
     "docs/produkte/smart-eye.md": {
       "en": {
-        "hash": "194237537cecbb1b",
+        "hash": "b4290ecdd8aa141c",
         "origin": "translated"
       },
       "fr": {
-        "hash": "194237537cecbb1b",
+        "hash": "b4290ecdd8aa141c",
         "origin": "translated"
       },
       "it": {
-        "hash": "194237537cecbb1b",
+        "hash": "b4290ecdd8aa141c",
         "origin": "translated"
       }
     },
     "docs/produkte/telstar-80a.md": {
       "en": {
-        "hash": "9569f7d73e6402ac",
+        "hash": "2b5dfedad2f3c311",
         "origin": "translated"
       },
       "fr": {
-        "hash": "9569f7d73e6402ac",
+        "hash": "2b5dfedad2f3c311",
         "origin": "translated"
       },
       "it": {
-        "hash": "9569f7d73e6402ac",
+        "hash": "2b5dfedad2f3c311",
         "origin": "translated"
       }
     },
     "docs/produkte/telstar-ct.md": {
       "en": {
-        "hash": "65b4f61922cb62f3",
+        "hash": "4a0808e0883dcdab",
         "origin": "translated"
       },
       "fr": {
-        "hash": "65b4f61922cb62f3",
+        "hash": "4a0808e0883dcdab",
         "origin": "translated"
       },
       "it": {
-        "hash": "65b4f61922cb62f3",
+        "hash": "4a0808e0883dcdab",
         "origin": "translated"
       }
     },
@@ -2788,15 +2802,15 @@
     },
     "docs/stoerungsbehebung/systemgesundheit.md": {
       "en": {
-        "hash": "ed6669914584e78b",
+        "hash": "638a0a2cacce3074",
         "origin": "translated"
       },
       "fr": {
-        "hash": "ed6669914584e78b",
+        "hash": "638a0a2cacce3074",
         "origin": "translated"
       },
       "it": {
-        "hash": "ed6669914584e78b",
+        "hash": "638a0a2cacce3074",
         "origin": "translated"
       }
     },

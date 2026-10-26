@@ -1,44 +1,44 @@
 ---
 title: 'Modulo Landis+Gyr'
 slug: '/produkte/landis-gyr-modul'
-description: 'Vendita cessata il 30.04.2021, il supporto e l''assistenza cloud sono garantiti fino al 30.03.2025.'
+description: 'Vendita sospesa il 30.04.2021, il supporto e l''assistenza cloud sono garantiti fino al 30.03.2025.'
 sidebar_label: 'Modulo Landis+Gyr'
 displayed_sidebar: wikiSidebar
 ---
 <div className="row">
 <div className="col col--7">
 
-Vendita cessata il 30.04.2021, il supporto e l'assistenza cloud sono garantiti fino al 30.03.2025.
+Vendita sospesa il 30.04.2021, il supporto e l'assistenza cloud sono garantiti fino al 30.03.2025.
 
-Il modulo Landis+Gyr trasferisce i dati di misura dei contatori di energia L+G E450 ed E350 nel cloud smart-me.
+Il modulo Landis+Gyr trasmette i dati di misura dei contatori di energia L+G E450 ed E350 al cloud smart-me.
 
-Per il modulo non è necessario alcun hardware aggiuntivo. Utilizza la rete WiFi esistente e si collega direttamente al cloud smart-me. È il modo più semplice per analizzare e ottimizzare il consumo energetico in tempo reale su smartphone, tablet o computer.
+Il modulo non richiede hardware aggiuntivo. Utilizza la rete WiFi esistente e si collega direttamente al cloud smart-me. È il modo più semplice per analizzare e ottimizzare in tempo reale il consumo di energia su smartphone, tablet o computer.
 
 Con un abbonamento Professional è possibile leggere i valori del contatore anche tramite l'interfaccia Modbus TCP.
 
 </div>
 <div className="col col--5 text--center">
 
-![Modulo Landis+Gyr – Figura 1](/img/produkte-landis-gyr-modul/01.png)
+![Modulo Landis+Gyr – figura 1](/img/produkte-landis-gyr-modul/01.png)
 
 </div>
 </div>
 
 ## Funzioni
 
-- Visualizzazione in tempo reale di potenza, lettura del contatore totale (prelievo e immissione), tariffa 1 e 2, potenza reattiva ed energia reattiva
+- Visualizzazione in tempo reale di potenza, lettura totale del contatore (prelievo e immissione), tariffa 1 e 2, potenza reattiva ed energia reattiva
 
 - Salvataggio automatico delle letture del contatore nel cloud
 
-- Memorizzazione e sincronizzazione automatica dei valori misurati in caso di interruzione della connessione
+- Memorizzazione e sincronizzazione automatica dei valori di misura in caso di interruzione della connessione
 
-- Uscita a contatto per il comando di dispositivi esterni
+- Uscita a contatto per comandare dispositivi esterni
 
 - Connessione WLAN crittografata direttamente al cloud smart-me
 
-- Gestione completa dei dati energetici, fatturazione automatica nonché comando e allarmi tramite il cloud smart-me
+- Ampia gestione dei dati energetici, fatturazione automatica nonché comando e allarmi tramite il cloud smart-me
 
-- Installazione semplice con l'app smart-me gratuita per Android e iOS
+- Installazione semplice con l'app gratuita smart-me per Android e iOS
 
 
 ### Video: installazione
@@ -46,42 +46,31 @@ Con un abbonamento Professional è possibile leggere i valori del contatore anch
 Nota:
 Dopo la messa in servizio la batteria può essere rimossa, poiché il modulo viene alimentato dal contatore.
 
-<Video src="35_hjsvRtwM" title="Video YouTube, smart-me for Landis+Gyr" />
+<Video src="35_hjsvRtwM" title="Video YouTube, smart-me per Landis+Gyr" />
 
 ## Dati tecnici
 
-Contatori supportati L+G E450 e L+G E350 con modulo E35C                  
+| Caratteristica | Valore |
+| --- | --- |
+| Contatori supportati | L+G E450 e L+G E350 con modulo E35C |
+| Intervallo di upload | 5 secondi |
+| Tensione di esercizio | fornita dal contatore |
+| Interfacce | WiFi |
+| Memoria dati | 2 mesi |
+| Aggiornamento del firmware | possibile online |
+| Certificazione del prodotto | CE |
+| Standard WiFi | 802.11 b/g/n |
+| Standard di sicurezza WiFi | WEP, WPA, WPA2 (Personal) |
+| Dimensioni | 84 × 40 × 23 mm |
+| Peso | 37 g |
+| Intervallo di temperatura | da −40°C a 70°C |
+| Montaggio | accanto al contatore L+G o su di esso |
 
-Intervallo di upload 5 secondi             
-
-Tensione di esercizio fornita dal contatore 
-
-Interfacce WiFi
-
-Memoria dati 2 mesi
-
-Aggiornamento del firmware possibile online
-
-Certificazione del prodotto CE
-
-Standard WiFi 802.11 b/g/n
-
-Standard di sicurezza WiFi WEP, WPA, WPA2 (Personal)
-
-Dimensioni 84 × 40 × 23 mm
-
-Peso 37 g
-
-Intervallo di temperatura −40°C fino a 70°C
-
-Montaggio accanto o sul contatore L+G
-
-
-Nota: per l'installazione è necessaria per breve tempo una batteria da 9V (blocco da 9 volt). 
+Nota: per l'installazione è necessaria per breve tempo una batteria da 9V (blocco da 9 volt).
 
 ## Configurazione dell'interfaccia CII
 
-L'interfaccia CII (interfaccia cliente) del contatore Landis+Gyr (ad es. E450 o E350) deve essere attivata. Segui le istruzioni per configurare correttamente l'interfaccia.
+L'interfaccia CII (interfaccia cliente) del contatore Landis+Gyr (ad es. E450 o E350) deve essere attivata. Segua le istruzioni per configurare correttamente l'interfaccia.
 
 [Configurazione standard dell'interfaccia CII (inglese)](https://drive.google.com/file/d/1i9KXi5yAHfoNvlFB_08XW9oC2_65ujTF/view)
 
@@ -89,24 +78,24 @@ L'interfaccia CII (interfaccia cliente) del contatore Landis+Gyr (ad es. E450 o 
 
 ## Modificare l'intervallo di upload
 
-- accedere al portale smart-me
+- Accedere al portale smart-me
 
-- selezionare il contatore
+- Selezionare il contatore
 
-- in alto a destra selezionare la rotella dentata
+- Selezionare la rotella in alto a destra
 
 - Impostazioni generali (Allgemeine Einstellungen)
 
 
-![Modulo Landis+Gyr – Figura 2](/img/produkte-landis-gyr-modul/02.png)
+![Modulo Landis+Gyr – figura 2](/img/produkte-landis-gyr-modul/02.png)
 
 ## Prodotto successore
 
 smart-me non offre alcun prodotto successore per i contatori L&G. 
 
-Se gestisci un RCP (raggruppamento ai fini del consumo proprio) smart-me e hai bisogno di una nuova soluzione per la tua misura (ad es. HAK), il modulo L&G deve essere sostituito da un [Telstar 80A](/produkte/telstar-80a) o da un [Telstar CT](/produkte/telstar-ct).
+Se gestisce un RCP (raggruppamento ai fini del consumo proprio) smart-me e necessita di una nuova soluzione per la Sua misurazione (ad es. HAK), il modulo L&G deve essere sostituito con un [Telstar 80A](/produkte/telstar-80a) o un [Telstar CT](/produkte/telstar-ct).
 
-Se in ambito privato vengono effettuate misure per monitoraggio, domotica ecc., il [Telstar 80A](/produkte/telstar-80a) o il [Telstar CT](/produkte/telstar-ct) può essere installato in qualsiasi momento. Se cerchi una soluzione con il tuo contatore L&G esistente, ti consigliamo di dare un'occhiata a questa pagina. [https://gplug.ch/](https://gplug.ch/)
+Se in ambito privato vengono effettuate misurazioni per monitoraggio, domotica ecc., è possibile installare in qualsiasi momento il [Telstar 80A](/produkte/telstar-80a) o il [Telstar CT](/produkte/telstar-ct). Se cerca una soluzione con il Suo contatore L&G esistente, Le consigliamo di consultare questa pagina. [https://gplug.ch/](https://gplug.ch/)
 
 ## Download
 

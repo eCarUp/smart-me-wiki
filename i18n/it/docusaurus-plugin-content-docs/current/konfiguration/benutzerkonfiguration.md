@@ -1,7 +1,7 @@
 ---
 title: 'Creare utenti'
 slug: '/konfiguration/benutzerkonfiguration'
-description: 'Per utilizzare questa funzione ti serve un abbonamento smart-me Professional.'
+description: 'Per utilizzare questa funzione hai bisogno di un abbonamento smart-me Professional.'
 sidebar_label: 'Configurazione utente'
 naechste_schritte: [konfiguration/visualisierung]
 vorheriger_schritt: [konfiguration/billing/rechnung-erstellen, konfiguration/billing-deutschland/rechnung-erstellen]
@@ -10,11 +10,11 @@ vorheriger_schritt: [konfiguration/billing/rechnung-erstellen, konfiguration/bil
 
 ### Requisito
 
-Per utilizzare questa funzione ti serve un abbonamento smart-me Professional.
+Per utilizzare questa funzione hai bisogno di un abbonamento smart-me Professional.
 
 In smart-me puoi creare nuovi utenti e assegnare loro le relative autorizzazioni su contatori o cartelle. Questi utenti hanno solo diritti di lettura.
 
-In questo modo puoi dare agli inquilini l'accesso ai loro dati finché abitano nell'immobile.
+In questo modo puoi dare agli inquilini accesso ai loro dati finché abitano nell'immobile.
 
 
 <div className="row">
@@ -22,7 +22,7 @@ In questo modo puoi dare agli inquilini l'accesso ai loro dati finché abitano n
 
 Per creare nuovi utenti procedi come segue:
 
-Tieni presente che prima devi [creare le cartelle](/konfiguration/ordnerkonfiguration)
+Tieni presente che devi prima [creare le cartelle](/konfiguration/ordnerkonfiguration)
 
 1.  Accedi al [sito web](https://web.smart-me.com/login/) di smart-me.
 
@@ -37,7 +37,7 @@ Tieni presente che prima devi [creare le cartelle](/konfiguration/ordnerkonfigur
 </div>
 <div className="col col--4 text--center">
 
-![Creare utenti – figura 2](/img/konfiguration-benutzerkonfiguration/02.png)
+![Creare utenti – Figura 2](/img/konfiguration-benutzerkonfiguration/02.png)
 
 </div>
 </div>
@@ -56,21 +56,19 @@ Se sul nodo viene utilizzata una visualizzazione che accede ai dati dei contator
 </div>
 <div className="col col--8 text--center">
 
-![Creare utenti – figura 3](/img/konfiguration-benutzerkonfiguration/03.png)
+![Creare utenti – Figura 3](/img/konfiguration-benutzerkonfiguration/03_EN.png)
 
 </div>
 </div>
 
-Ora crea le visualizzazioni per gli inquilini o per il proprietario dell'immobile.
+Crea ora le visualizzazioni per gli inquilini o per il proprietario dell'immobile.
 
 ### Vista per gli inquilini
 
-Per le tariffe virtuali è disponibile una vista speciale per gli inquilini. Mostra il consumo di energia attuale (elettricità) e la sua provenienza (solare o rete). Inoltre, nella barra viene mostrata la fonte di prelievo di elettricità nel passato.
+Per le tariffe virtuali è disponibile una vista speciale per gli inquilini. Mostra il consumo di energia attuale (elettricità) e la provenienza (solare o rete). Inoltre, nella barra viene mostrata la fonte di prelievo di elettricità nel passato.
 
 Questa vista deve essere configurata in aggiunta per ogni nodo dell'appartamento.
 
-Per i dettagli sulla configurazione vedi: [Visualizzazione e link pubblici](/konfiguration/visualisierung) 
-
 La visualizzazione si chiama: "Tariffe virtuali semplici appartamento" ("Einfache virtuelle Tarife Wohnung")
 
-![Creare utenti – figura 4](/img/konfiguration-benutzerkonfiguration/04.png)
+![Creare utenti – Figura 4](/img/konfiguration-benutzerkonfiguration/04.png)

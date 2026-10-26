@@ -48,7 +48,37 @@ Damit bietet der Nimbus eine hardwarebasierte Sicherheitsgarantie, die reinen So
 
 ## Technische Daten
 
-<Embed src="https://docs.google.com/spreadsheets/d/e/2PACX-1vR4UWY0pXsfUBgArWNNkGZGvIscStumVrGrU7_h2DGk1YNe_XYOxPLnZoJlARRCO86Fz-aOo0cb0pGh/pubhtml?gid=0&range=A1:B30&single=true&widget=false&headers=false&chrome=false" height="719px" title="3-Phasen Zähler Nimbus 100A" />
+| Merkmal | Wert |
+| --- | --- |
+| Produktzertifizierung | CE, MID 2014/32/EU, CH-Lastgang / Blindenergie, RED 2014/53/EU |
+| Genauigkeitsklasse für Wirkenergie/Blindenergie | B (MID) / 2 (IEC) |
+| Angewandte Normen | EN50470-1:2006, EN 50470-3:2006 |
+| Richtung | +A (Bezug), -A (Lieferung), +R, -R |
+| Quadranten | Q1, Q2, Q3, Q4 |
+| Netzspannung | 3x230/400VAC 50Hz |
+| Strommessbereich Imin-Iref(Imax) | 0.25-5(100)A |
+| Kabel-Querschnitte Klemmen | 2.5-35 mm2 |
+| Messgeräte-Kategorie | CAT III |
+| Kundenschnittstelle | DSMR P1 V5.0.2 , RJ12 Buchse |
+| Temperaturbereich (Betrieb, Lagerung und Transport) | -25°C bis +70°C |
+| Rel. Luftfeuchtigkeit | Jahresmittel 75%, ohne Kondensation<br />kurzzeitig 95%, ohne Kondensation |
+| Höhenlage | bis 2000m |
+| Messwerte | Wirkenergie (kWh), Wirkleistung (kW)<br />Blindenergie (kvarh), Blindleistung (kvar)<br />Strom (A), Spannung (V), Leistungsfaktor (cosφ) |
+| Eigenverbrauch pro Phase | < 0.8W |
+| Tarife | unbegrenzt virtuelle Tarife in der smart-me Cloud |
+| Optischer Prüfausgang | 10'000 Imp/kWh |
+| Kommunikation | WLAN IEEE 802.11 b/g/n (2.4 GHz)<br />LTE CAT-M1 (steckbares Modul, optional) |
+| WLAN Sicherheitsstandard | WEP, WPA-PSK/WPA2-PSK |
+| Datenspeicher (Logbuch & Zählerstandsgang) | 9 Monate |
+| Datensicherheit | AES-128 CBC, signierter 15min Zählerstandsgang, Format OCMF |
+| Gehäuse | Schutzart: IP51 (verbaut auf Montageplatte)<br />Gehäusematerial: Polycarbonat glasfaserverstärkt<br />Abmessungen: B:171mm H:236mm T:59mm |
+| Umgebungsbedingungen | M1, E2, Innenraum |
+| Montage | Zählerplatte nach DIN 43857-1 |
+| Serverstandort | Schweiz |
+| Schutzklasse | II |
+| Bemessungsstossspannung (Uimp, Safety) | 6 kV |
+| Gebrauchskategorie | UC 2 |
+| Letzte Änderung | 24.09.2025 |
 
 ## Display
 

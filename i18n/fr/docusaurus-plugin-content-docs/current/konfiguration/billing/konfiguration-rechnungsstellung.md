@@ -25,7 +25,7 @@ Les points de comptage qui doivent être répartis et qui se trouvent dans le n�
 </div>
 <div className="col col--6 bild--mitte">
 
-![Billing : décompte de l'énergie – Illustration 5](/img/konfiguration-billing/05.png)
+![Billing : décompte de l'énergie – Illustration 5](/img/konfiguration-billing/05_FR.png)
 
 </div>
 </div>

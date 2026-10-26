@@ -7,7 +7,7 @@ displayed_sidebar: wikiSidebar
 ---
 The smart-me Meter is the first electricity meter that can be analysed and controlled from anywhere. No additional hardware is required. It uses the existing WiFi network and connects directly to the smart-me Cloud. This lets you conveniently view your energy consumption in real time.
 
-Sales discontinued on 01.01.2023, support and cloud services continue to be provided.
+Sales discontinued on 01.01.2023, support and cloud service continue to be provided.
 
 ![Single Phase Meter 32A – Figure 1](/img/produkte-1-phasen-zaehler-32a/01.jpg)
 
@@ -44,35 +44,24 @@ See [Commissioning](/konfiguration/inbetriebnahme)
 
 ## Technical data
 
-Accuracy 1 according to IEC62053-21
-
-Operating voltage 85 - 253 VAC
-
-Frequency (f) 50 / 60 Hz
-
-Max. current 32 A (switchable)
-
-Pulse input E1 potential-free\*, 25V - 253V AC/DC
-
-Digital output / pulse output S0 potential-free\*, Opto Power MOSFET, 5-48VDC / 5- 230 VAC, max. 550mW
+| Feature | Value |
+| --- | --- |
+| Accuracy | 1 according to IEC62053-21 |
+| Operating voltage | 85 - 253 VAC |
+| Frequency (f) | 50 / 60 Hz |
+| Max. current | 32 A (switchable) |
+| Pulse input E1 | Potential-free\*, 25V - 253V AC/DC |
+| Digital output / pulse output S0 | Potential-free\*, Opto Power MOSFET, 5-48VDC / 5- 230 VAC, max. 550mW |
+| Reference current | 5 A |
+| Starting current | &lt; 20 mA |
+| Tariffs | 2+ |
+| Mounting | DIN rail |
+| Width | 2 modules, 36 x 90 mm |
+| Interfaces | WiFi, S0 |
+| S0 pulse value | 1000 pulses per kWh |
+| Self-consumption | &lt; 0.5 W |
 
 \*has no power supply of its own.
-
-Reference current  5 A
-
-Starting current &lt; 20 mA
-
-Tariffs 2+
-
-Mounting DIN rail
-
-Width 2 modules, 36 x 90 mm
-
-Interfaces WiFi, S0
-
-S0 pulse rate 1000 pulses per kWh
-
-Self-consumption &lt; 0.5 W
 
 ## Configuring inputs and outputs
 
@@ -89,7 +78,7 @@ The smart-me Meter has one output and one input, which can be used as pulse inpu
 <div className="row">
 <div className="col col--5">
 
-T1: Button for installation
+T1: Installation button
 
 E1: Tariff switching (digital input)
 

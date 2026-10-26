@@ -47,71 +47,25 @@ Bevor du dein smart-me Gerät verwenden kannst, musst du es mit deinem WiFi Netz
 
 ## Technische Daten
 
-Betriebsspannung 3 x 230 VAC
-
-Referenzstrom 5 (80) A / 5 (32) A
-
-Eigenverbrauch &lt; 0.8 W pro Phase
-
-Lagertemperatur -40°C bis 85°C
-
-Temperaturbereich -25°C bis 70°C
-
-Luftfeuchtigkeit Jahresmittel 75%, kurzzeitig 95%, nicht kondensierend
-
-Genauigkeit Klasse B
-
-Zählerart Zweirichtungszähler (Bezug und Lieferung)
-
-Messwerte 
-
-- -   Wirkenergie (kWh)
-
-    - Wirkleistung (kW)
-
-    - Strom (A)
-
-    - Spannung (V)
-
-    - Leistungsfaktor (cosphi)
-
-    - Status Ein- und Ausgänge 
-
-    - Zusätzlich mit Professional Abo: Blindenergie (kvarh), Blindleistung (kvarh)
-
-Tarife 2 (Virtuelle Tarife cloudseitig erstellbar)
-
-Schnittstellen 
-
-- -   WiFi
-
-    - S0 / potentialfreie Kontaktausgänge
-
-    - Tarifeingang (24 - 48VDC  /  24 - 230 VAC)
-
-    - SG Ready
-
-    - mit Professional Abo: Modbus TCP
-
-Impulsausgänge / Digitale Ausgange S0, S1 Opto Power MOSFET, 5 - 48VDC  / 5 - 230 VAC , max. 550mW
-
-WiFi Standard 802.11 b/g/n
-
-WiFi Sicherheitsstandard WEP, WPA, WPA2 (personal)
-
-S0 Impulswertigkeit 10’000 oder 1’000 Impulse pro kWh
-
-Datenspeicher 2 Monate
-
-Produkt Zertifizierung CE, MID 2014/32/EU
-
-Umweltklassen: Mechanisch M1, Elektromagnetisch E2
-
-Schutzklasse IP20 (Klemmen), IP51 (Front)
-
-Abmessungen 5 Module, 90 x 90 mm
-
-Montage DIN-Schiene
+| Merkmal | Wert |
+| --- | --- |
+| Betriebsspannung | 3 x 230 VAC |
+| Referenzstrom | 5 (80) A / 5 (32) A |
+| Eigenverbrauch | &lt; 0.8 W pro Phase |
+| Lagertemperatur | -40°C bis 85°C |
+| Temperaturbereich | -25°C bis 70°C |
+| Luftfeuchtigkeit | Jahresmittel 75%, kurzzeitig 95%, nicht kondensierend |
+| Genauigkeit | Klasse B |
+| Zählerart | Zweirichtungszähler (Bezug und Lieferung) |
+| Messwerte | Wirkenergie (kWh)<br />Wirkleistung (kW)<br />Strom (A)<br />Spannung (V)<br />Leistungsfaktor (cosphi)<br />Status Ein- und Ausgänge<br />Zusätzlich mit Professional Abo: Blindenergie (kvarh), Blindleistung (kvarh) |
+| Tarife | 2 (Virtuelle Tarife cloudseitig erstellbar) |
+| Schnittstellen | WiFi<br />S0 / potentialfreie Kontaktausgänge<br />Tarifeingang (24 - 48VDC  /  24 - 230 VAC)<br />SG Ready<br />mit Professional Abo: Modbus TCP |
+| Impulsausgänge / Digitale Ausgange S0, S1 | Opto Power MOSFET, 5 - 48VDC  / 5 - 230 VAC , max. 550mW |
+| WiFi Standard | 802.11 b/g/n |
+| WiFi Sicherheitsstandard | WEP, WPA, WPA2 (personal) |
+| S0 Impulswertigkeit | 10’000 oder 1’000 Impulse pro kWh |
+| Datenspeicher | 2 Monate |
+| Produkt Zertifizierung | CE, MID 2014/32/EU |
 
 ## Ein und Ausgänge konfigurieren
 

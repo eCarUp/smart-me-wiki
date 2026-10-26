@@ -6,7 +6,7 @@ sidebar_label: 'M-Bus Gateway Sirius'
 ---
 The Sirius is the larger of the two devices: integrated level converter for 250 M-Bus standard loads, designed for large building infrastructures. The compatibility list, commissioning and installation instructions apply to both devices and can be found on the [overview page](/produkte/m-bus-gateway).
 
-## Functions
+## Features
 
 - [Installation](/konfiguration/inbetriebnahme) with the free smart-me app.
 
@@ -15,7 +15,7 @@ The Sirius is the larger of the two devices: integrated level converter for 250 
 - Integrated power supply
 
 - Supports M-Bus devices according to EN 13757-2, -3 (formerly EN 1434-3).
-    The standard defines the protocol, but not the data it contains. Compliance with the standard alone is therefore no guarantee that a device will actually work. Check our [compatibility list](/produkte/m-bus-gateway).
+    The standard defines the protocol, but not the data it contains. Compliance with the standard alone is therefore no guarantee of actual functionality. Check our [compatibility list](/produkte/m-bus-gateway).
 
 - Billing with the [smart-me Billing Tool](/konfiguration/billing)
 
@@ -30,7 +30,29 @@ The Sirius is the larger of the two devices: integrated level converter for 250 
 
 ## Technical data
 
-<Embed src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTmayprR4Vh48nmvnu_ZbxO2BDz8btgHbcJ9pR_-cv_irut8RWRsdGGeIUEGcU8p8qNdzdAKR6xG2kh/pubhtml?gid=0&range=A1:B25&single=true&widget=false&headers=false&chrome=false" height="697px" title="M-Bus Gateway Sirius" />
+| Feature | Value |
+| --- | --- |
+| Product certification | CE |
+| Mains voltage | 230 VAC 50/60 Hz |
+| Temperature range | -20°C to +50°C |
+| Rel. humidity | Annual average 75%, non-condensing<br />short-term 95%, non-condensing |
+| Interfaces | WLAN, M-BUS |
+| Communication | WLAN IEEE 802.11 b/g/n (2.4 GHz) |
+| WLAN security standard | WEP, WPA-PSK/WPA2-PSK |
+| Number of M-BUS slaves | 250 standard loads |
+| M-BUS baud rate | 300, 2400, 9600 (automatic search and detection) |
+| Galvanic isolation | Yes |
+| Data storage | 131'056 readings<br />15min interval:<br />10 devices: ~136 days<br />50 devices: ~27 days<br />250 devices: ~5 days |
+| Firmware update | Possible online |
+| EMC immunity | EN 61000-6-2 (industrial environment) |
+| EMC emission | EN 61000-6-3 (residential environment) |
+| Protection class housing/terminals, use | IP20 / IP51 (installed in control cabinet), indoor |
+| Mounting | DIN rail |
+| Dimensions | 6 modules, W:105mm H:90mm D:65.7mm |
+| Server location | Switzerland |
+| Protection class | II |
+| Data volume | ≤ 1KB per device per reading |
+| Last modified | 26.03.2026 |
 
 ## Shipping information
 

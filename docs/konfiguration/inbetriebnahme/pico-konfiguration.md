@@ -3,6 +3,7 @@ title: 'Pico Konfiguration'
 slug: '/konfiguration/inbetriebnahme/pico-konfiguration'
 description: 'Auf dieser Seite findest du die wichtigsten Konfigurationen im Zusammenhang mit der Pico Hardware.'
 sidebar_label: 'Pico Konfiguration'
+displayed_sidebar: wikiSidebar
 ---
 Auf dieser Seite findest du die wichtigsten Konfigurationen im Zusammenhang mit der Pico Hardware. Die Konfiguration der Pico Ladestation erfolgt im ersten Schritt immer über die smart-me Plattform. Nachfolgend kann die Authentifizierungsmethode über ein Backend-System (eCarUp) ermöglicht werden.
 

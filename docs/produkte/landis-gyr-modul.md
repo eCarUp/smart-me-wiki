@@ -50,34 +50,23 @@ Die Batterie kann nach der Inbetriebnahme wieder entfernt werden, da das Modul v
 
 ## Technische Daten
 
-Unterstützte Zähler L+G E450 und L+G E350 mit E35C Modul                  
+| Merkmal | Wert |
+| --- | --- |
+| Unterstützte Zähler | L+G E450 und L+G E350 mit E35C Modul |
+| Upload Intervall | 5 Sekunden |
+| Betriebsspannung | wird von Zähler bereitgestellt |
+| Schnittstellen | WiFi |
+| Datenspeicher | 2 Monate |
+| Firmware Update | Online möglich |
+| Produktzertifizierung | CE |
+| WiFi Standard | 802.11 b/g/n |
+| WiFi Sicherheitsstandard | WEP, WPA, WPA2 (Personal) |
+| Abmessungen | 84 × 40 × 23 mm |
+| Gewicht | 37 g |
+| Temperaturbereich | −40°C bis 70°C |
+| Montage | Neben oder am L+G Zähler |
 
-Upload Intervall 5 Sekunden             
-
-Betriebsspannung wird von Zähler bereitgestellt 
-
-Schnittstellen WiFi
-
-Datenspeicher 2 Monate
-
-Firmware Update Online möglich
-
-Produktzertifizierung CE
-
-WiFi Standard 802.11 b/g/n
-
-WiFi Sicherheitsstandard WEP, WPA, WPA2 (Personal)
-
-Abmessungen 84 × 40 × 23 mm
-
-Gewicht 37 g
-
-Temperaturbereich −40°C bis 70°C
-
-Montage Neben oder am L+G Zähler
-
-
-Hinweis: Für die Installation wird kurzzeitig eine 9V-Batterie (9-Volt-Block) benötigt. 
+Hinweis: Für die Installation wird kurzzeitig eine 9V-Batterie (9-Volt-Block) benötigt.
 
 ## Konfiguration der CII-Schnittstelle
 

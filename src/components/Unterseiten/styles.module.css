@@ -1,0 +1,51 @@
+/*
+ * Dieselbe Formensprache wie `<Kacheln>` für Partner und Produkte: heller
+ * Kasten, Rahmen, beim Überfahren die Primärfarbe. Nur ist hier die ganze
+ * Kachel der Link — es steht ja nichts darin, was man sonst anklicken könnte.
+ */
+.raster {
+  display: grid;
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.kachel {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: var(--ifm-card-border-radius, 0.4rem);
+  background: var(--ifm-background-surface-color);
+  color: var(--ifm-font-color-base);
+  text-decoration: none;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.kachel:hover {
+  border-color: var(--ifm-color-primary);
+  box-shadow: var(--ifm-global-shadow-lw);
+  color: var(--ifm-font-color-base);
+  text-decoration: none;
+}
+
+.titel {
+  margin-bottom: 0.35rem;
+  color: var(--ifm-link-color);
+}
+
+/*
+ * Die Beschreibung stammt aus dem Frontmatter der Zielseite und ist
+ * unterschiedlich lang. Drei Zeilen halten die Kacheln einer Reihe auf
+ * ähnlicher Höhe, ohne den Text abzuschneiden — er ist auf der Seite selbst
+ * ohnehin vollständig zu lesen.
+ */
+.text {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  overflow: hidden;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: var(--ifm-color-emphasis-700);
+}

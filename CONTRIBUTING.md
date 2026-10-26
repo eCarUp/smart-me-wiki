@@ -21,6 +21,7 @@ Editor arbeitet, findet den Weg dazu weiter unten unter
 - [Links, rechts oder mittig in einer Spalte](#links-rechts-oder-mittig-in-einer-spalte)
 - [Den Weg durchs Menü zeigen](#den-weg-durchs-menü-zeigen)
 - [Partner und Lieferanten in Kacheln](#partner-und-lieferanten-in-kacheln)
+- [Unterseiten auf einer Einstiegsseite zeigen](#unterseiten-auf-einer-einstiegsseite-zeigen)
 - [Tabellen](#tabellen)
 - [Eine Frage ins FAQ aufnehmen](#eine-frage-ins-faq-aufnehmen)
 
@@ -553,6 +554,98 @@ Zur Breite: `min` ist die Mindestbreite einer Kachel, nicht ihre feste Breite.
 Wie viele nebeneinander stehen, entscheidet das Fenster. In der Textspalte
 ergibt `13rem` drei Kacheln, `15rem` ebenfalls drei mit mehr Luft für Text,
 `20rem` zwei.
+
+---
+
+## Unterseiten auf einer Einstiegsseite zeigen
+
+Eine Einstiegsseite soll zeigen, was darunter liegt. Dafür musst du die Liste
+nicht abtippen — sie steht schon in `sidebars.ts`:
+
+```jsx
+<Unterseiten />
+```
+
+Daraus werden Kacheln für alle Seiten, die in der Navigation unter dieser
+stehen. Die Beschriftung kommt von der Zielseite selbst (`title` aus deren
+Frontmatter), die ganze Kachel ist anklickbar.
+
+Mit `mitText` steht zusätzlich die `description` der Zielseite in der Kachel.
+Das lohnt sich nur dort, wo diese Sätze fürs Kurzlesen geschrieben sind — sonst
+stehen in jeder Kachel drei Zeilen Kleingedrucktes, die niemand liest.
+
+**Gefiltert wird nach Land.** Steht bei einem Eintrag in `sidebars.ts` ein
+`customProps: {laender: ['ch']}`, erscheint seine Kachel nur, wenn die Schweiz
+eingestellt ist — dieselbe Regel wie in der Navigation links. Wer kein Land
+gewählt hat, sieht alle. Auf der Planungsseite sind das 14 Kacheln für die
+Schweiz, 5 für Deutschland.
+
+Vier Angaben kennt die Komponente:
+
+- `von` — die Übersichtsseite, deren Unterseiten gezeigt werden. Ohne Angabe
+  ist das die Seite, auf der die Zeile steht. Das ist der Normalfall.
+- `nur` — nur diese Kennungen, in dieser Reihenfolge, mit Komma getrennt.
+- `ohne` — alle ausser diesen Kennungen.
+- `titel` — eine Überschrift, die nur erscheint, wenn es auch Kacheln gibt.
+- `mitText` — zeigt zusätzlich die Beschreibung der Zielseite.
+- `min` — Mindestbreite einer Kachel, voreingestellt `16rem`. Damit steuerst
+  du, wie viele nebeneinander passen.
+
+### Die Seite in Abschnitte teilen
+
+Sind es viele Unterseiten, ordnest du sie mit `nur` in Abschnitte. Die
+Überschriften schreibst du selbst — welche Seite wohin gehört, weiss die
+Navigation nicht:
+
+```markdown
+### Die Modelle
+
+<Unterseiten nur="planung/zev-zusammenschluss-zum-eigenverbrauch, planung/virtuelle-zev-vzev" />
+
+### Weiteres
+
+<Unterseiten ohne="planung/zev-zusammenschluss-zum-eigenverbrauch, planung/virtuelle-zev-vzev" />
+```
+
+**Der letzte Abschnitt nimmt `ohne` und zählt dort alles auf, was oben schon
+steht.** Dann landet eine Seite, die später in die Navigation kommt, von selbst
+im letzten Abschnitt — statt unbemerkt zu fehlen. Mit lauter `nur`-Abschnitten
+wäre die Einstiegsseite nach dem nächsten Umbau unvollständig, ohne dass es
+jemandem auffällt.
+
+Genau dieser Sammelabschnitt kann aber leer ausfallen: Je nach Länderwahl
+bleibt nichts übrig, und eine Überschrift ohne Inhalt sieht nach Fehler aus.
+Dafür gibt es `titel` — die Überschrift gehört dann zur Komponente und
+erscheint nur mit Kacheln darunter:
+
+```jsx
+<Unterseiten titel="Weiteres" ohne="planung/zev-zusammenschluss-zum-eigenverbrauch, …" />
+```
+
+Für die benannten Abschnitte bleibt die Markdown-Überschrift die bessere Wahl:
+Sie steht im Inhaltsverzeichnis rechts, eine von der Komponente gesetzte nicht.
+
+Gilt ein ganzer Abschnitt nur für ein Land, gehört die Überschrift mit in die
+Länderklammer — sonst steht sie leer da:
+
+```jsx
+<NurFuer land="ch">
+
+### Hilfsmittel für die Planung
+
+<Unterseiten nur="planung/investitionsrechner, planung/projektkonfigurator" />
+
+</NurFuer>
+```
+
+Eine Unterkategorie erscheint als **eine** Kachel, die auf ihre Einstiegsseite
+führt — die Seiten darin zeigt dann wieder deren eigene `<Unterseiten />`.
+
+Der Unterschied zu `<Kacheln>`: Dort schreibst du jede Kachel selbst, mit Bild
+und beliebigem Text. Das ist richtig für Partner, Produkte oder eine Auswahl,
+die nicht der Navigation folgt. `<Unterseiten />` nimmt dir die Arbeit ab, wo
+Kacheln und Navigation ohnehin dasselbe sagen sollen — und bleibt richtig, wenn
+später eine Seite dazukommt.
 
 ---
 
@@ -1320,24 +1413,38 @@ Wegweiser.
 
 ## Eine neue Seite anlegen
 
-1. Im Repository in den passenden Ordner unter `docs/` wechseln.
-2. **„Add file" → „Create new file"**.
+Es gibt eine Vorlage: **`vorlagen/seite.md`**. Sie enthält den fertigen
+Kopfbereich und je ein Beispiel für Menüweg, Text neben Bild, Kacheln,
+Tabelle und FAQ — mit Hinweisen dazwischen, die auf der fertigen Seite nicht
+erscheinen. Was du nicht brauchst, löschst du.
+
+### Lokal mit VS Code
+
+```bash
+npm run neue-seite -- konfiguration/neue-funktion "Neue Funktion einrichten"
+```
+
+Das legt `docs/konfiguration/neue-funktion.md` aus der Vorlage an, trägt Titel,
+`slug` und `sidebar_label` ein, setzt den Bildpfad auf den passenden Ordner und
+sagt dir, was noch zu tun ist. Den Titel kannst du weglassen, dann wird der
+Dateiname genommen. Eine Übersichtsseite legst du als `…/index` an — die
+Adresse endet dann auf dem Ordnernamen.
+
+### Auf GitHub
+
+1. `vorlagen/seite.md` öffnen, auf **„Raw"** klicken, alles kopieren.
+2. Im passenden Ordner unter `docs/` auf **„Add file" → „Create new file"**.
 3. Als Dateiname etwas Kurzes ohne Umlaute und ohne Leerzeichen, endend auf
    `.md` — zum Beispiel `neue-funktion.md`.
-4. Als Erstes den Kopfbereich einfügen:
-
-   ```
-   ---
-   title: 'Titel der Seite'
-   slug: '/bereich/neue-funktion'
-   description: 'Worum es auf dieser Seite geht, in einem Satz.'
-   ---
-
-   Hier beginnt der Text.
-   ```
-
-   Der `slug` ist die spätere Adresse. Er sollte zum Ordner passen.
+4. Die Vorlage einfügen und im Kopfbereich `title`, `slug`, `description` und
+   `sidebar_label` ausfüllen. Der `slug` ist die spätere Adresse und sollte zum
+   Ordner passen: `docs/konfiguration/neue-funktion.md` →
+   `/konfiguration/neue-funktion`.
 5. Speichern wie oben beschrieben.
+
+Eine automatische Vorlage, die sich beim Anlegen einer Datei von selbst
+einsetzt, gibt es nicht — weder in Docusaurus noch auf GitHub. Der Umweg über
+Kopieren oder das Skript ist der kürzeste, den es gibt.
 
 ---
 

@@ -1,39 +1,38 @@
 ---
 title: 'Pianificazione'
 slug: '/planung'
-description: 'Esempi di installazione hardware nel raggruppamento ai fini del consumo proprio, incl.'
+description: 'Esempi di installazione hardware nel raggruppamento ai fini del consumo proprio incl.'
 sidebar_label: 'Pianificazione'
 ---
-## Pianificazione nel RCP
 
-Esempi di installazione hardware nel raggruppamento ai fini del consumo proprio (RCP), incl. acqua, calore e mobilità elettrica
+In questa categoria trovi dettagli e strumenti di pianificazione per il tuo progetto smart-me.
 
-## Pianificazione delle stazioni di ricarica
+### I modelli
 
-Esempio di installazione hardware per la mobilità elettrica con eCarUp
+<Unterseiten nur="planung/standard-messkonzept, planung/zev-zusammenschluss-zum-eigenverbrauch, planung/virtuelle-zev-vzev, planung/leg-lokale-elektrizitaetsgemeinschaft/index, planung/elektromobilitaet/index" />
 
-[Edificio singolo o complesso residenziale con mobilità elettrica](/planung/zev-zusammenschluss-zum-eigenverbrauch)
+### Licenze
 
-[Struttura della gestione del carico statica e dinamica](/planung/elektromobilitaet)
+<Unterseiten nur="planung/cloud-lizenzen" />
 
-## Pianifichi ora il Suo progetto con il nostro configuratore
+<NurFuer land="ch">
 
-Sulla base dei Suoi dati, il Projektkonfigurator Le crea la distinta dei materiali con tutti i prodotti smart-me, il numero di punti di misura e uno schema visivo per la verifica.
+### Strumenti di pianificazione
 
-Ideale per progettisti ed elettricisti specializzati.
+<Unterseiten nur="planung/investitionsrechner, planung/projektkonfigurator" />
 
-[Projektkonfigurator](/planung/projektkonfigurator)
+</NurFuer>
 
-[Certificazioni](/planung/zertifizierungen-schweiz)
+### Schemi di misura speciali
 
-[Licenze cloud](/planung/cloud-lizenzen)
+<Unterseiten nur=" planung/mkd3-messkonzept-nicht-teilnehmer, planung/messkonzept-notstromloesung, planung/messkonzept-produzenten-hinter-haeuser" />
 
-[Preparare il conteggio](/planung/abrechnung-vorbereiten)
+### Connettività
 
-[Connessione Internet](/planung/internetverbindung)
+<Unterseiten nur="planung/internetverbindung, planung/internetverbindung-deutschland" />
 
-[Contratto / Aspetti legali](/planung/vertrag-rechtliches)
+### Aspetti legali e certificazioni
 
-[Schema di misura per soluzioni di alimentazione d'emergenza](/planung/messkonzept-notstromloesung)
+<Unterseiten nur="planung/vertrag-rechtliches, planung/zertifizierungen-schweiz, planung/zertifizierungen-deutschland, planung/minergie" />
 
-[Schema di misura per produttori dietro le case](/planung/messkonzept-produzenten-hinter-haeuser)
+<Unterseiten titel="Weiteres" ohne="planung/zev-zusammenschluss-zum-eigenverbrauch, planung/virtuelle-zev-vzev, planung/leg-lokale-elektrizitaetsgemeinschaft/index, planung/elektromobilitaet/index, planung/cloud-lizenzen, planung/investitionsrechner, planung/projektkonfigurator, planung/standard-messkonzept, planung/mkd3-messkonzept-nicht-teilnehmer, planung/messkonzept-notstromloesung, planung/messkonzept-produzenten-hinter-haeuser, planung/internetverbindung, planung/internetverbindung-deutschland, planung/vertrag-rechtliches, planung/zertifizierungen-schweiz, planung/zertifizierungen-deutschland, planung/minergie" />

@@ -25,11 +25,11 @@ Les compteurs smart-me disposent d'une ou de plusieurs sorties, qui peuvent êtr
 
 Commander E1 avec un signal tarifaire ou un délestage
 
-![Entrées et sorties du compteur – illustration 2](/img/schnittstellen-ein-und-ausgaenge/02.png)
+![Entrées et sorties du compteur – illustration 2](/img/schnittstellen-ein-und-ausgaenge/02_EN.png)
 
 Circuit avec Telstar : l'enclenchement et le déclenchement (S1 et S0) se câblent de manière identique
 
-![Entrées et sorties du compteur – illustration 3](/img/schnittstellen-ein-und-ausgaenge/03.png)
+![Entrées et sorties du compteur – illustration 3](/img/schnittstellen-ein-und-ausgaenge/03_EN.png)
 
 ### Sortie d'impulsions
 
@@ -56,15 +56,15 @@ REMARQUE :
 La sortie S1 peut également être masquée de l'affichage en la commutant en sortie d'impulsions, si elle n'est pas utilisée comme sortie numérique.
 Dans la vue locataire, les sorties ne peuvent pas être activées ou désactivées, même si elles y sont visibles.
 
-![Entrées et sorties du compteur – illustration 4](/img/schnittstellen-ein-und-ausgaenge/04.png)
+![Entrées et sorties du compteur – illustration 4](/img/schnittstellen-ein-und-ausgaenge/04_EN.png)
 
 ### Affichage en ligne lors de la mise en service d'un Telstar 80A ou CT
 
-![Entrées et sorties du compteur – illustration 5](/img/schnittstellen-ein-und-ausgaenge/05.png)
+![Entrées et sorties du compteur – illustration 5](/img/schnittstellen-ein-und-ausgaenge/05_EN.png)
 
 ### Affichage en ligne après l'activation de S0\_0 comme sortie numérique
 
-![Entrées et sorties du compteur – illustration 6](/img/schnittstellen-ein-und-ausgaenge/06.png)
+![Entrées et sorties du compteur – illustration 6](/img/schnittstellen-ein-und-ausgaenge/06_EN.png)
 
 ### Câblage des sorties
 

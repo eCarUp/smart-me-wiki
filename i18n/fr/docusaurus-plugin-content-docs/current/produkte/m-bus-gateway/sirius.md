@@ -1,21 +1,21 @@
 ---
 title: 'M-Bus Gateway Sirius'
 slug: '/produkte/m-bus-gateway/sirius'
-description: 'Le smart-me M-Bus Gateway Sirius avec convertisseur de niveau intégré pour 250 charges standard M-Bus : caractéristiques techniques, schéma de raccordement, fonctions des touches et téléchargements.'
+description: 'La passerelle smart-me M-Bus Gateway Sirius avec convertisseur de niveau intégré pour 250 charges standard M-Bus : caractéristiques techniques, schéma de raccordement, fonctions des touches et téléchargements.'
 sidebar_label: 'M-Bus Gateway Sirius'
 ---
-Le Sirius est le plus grand des deux appareils : il intègre un convertisseur de niveau pour 250 charges standard M-Bus et il est conçu pour les grandes infrastructures de bâtiments. La liste de compatibilité, la mise en service et les prescriptions d'installation s'appliquent aux deux appareils. Vous les trouverez sur la [page d'aperçu](/produkte/m-bus-gateway).
+Le Sirius est le plus grand des deux appareils : convertisseur de niveau intégré pour 250 charges standard M-Bus, conçu pour les grandes infrastructures de bâtiments. La liste de compatibilité, la mise en service et les prescriptions d'installation s'appliquent aux deux appareils et figurent sur la [page de présentation](/produkte/m-bus-gateway).
 
 ## Fonctions
 
-- [Installation](/konfiguration/inbetriebnahme) avec l'app smart-me gratuite.
+- [Installation](/konfiguration/inbetriebnahme) avec l'application smart-me gratuite.
 
 - Convertisseur de niveau intégré pour 250 charges standard M-Bus
 
-- Bloc d'alimentation intégré
+- Alimentation intégrée
 
 - Prend en charge les appareils M-Bus selon EN 13757-2, -3 (anciennement EN 1434-3).
-    La norme définit le protocole, mais pas les données transmises. Le respect de la norme ne garantit donc pas à lui seul le bon fonctionnement. Consultez notre [liste de compatibilité](/produkte/m-bus-gateway).
+    La norme définit le protocole, mais pas les données transmises. Le respect de la norme ne garantit donc pas à lui seul le fonctionnement effectif. Consultez notre [liste de compatibilité](/produkte/m-bus-gateway).
 
 - Facturation avec le [smart-me Billing Tool](/konfiguration/billing)
 
@@ -30,7 +30,29 @@ Le Sirius est le plus grand des deux appareils : il intègre un convertisseur de
 
 ## Caractéristiques techniques
 
-<Embed src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTmayprR4Vh48nmvnu_ZbxO2BDz8btgHbcJ9pR_-cv_irut8RWRsdGGeIUEGcU8p8qNdzdAKR6xG2kh/pubhtml?gid=0&range=A1:B25&single=true&widget=false&headers=false&chrome=false" height="697px" title="M-Bus Gateway Sirius" />
+| Caractéristique | Valeur |
+| --- | --- |
+| Certification du produit | CE |
+| Tension réseau | 230 VAC 50/60 Hz |
+| Plage de température | -20°C à +50°C |
+| Humidité relative | Moyenne annuelle 75%, sans condensation<br />brièvement 95%, sans condensation |
+| Interfaces | WLAN, M-BUS |
+| Communication | WLAN IEEE 802.11 b/g/n (2.4 GHz) |
+| Norme de sécurité WLAN | WEP, WPA-PSK/WPA2-PSK |
+| Nombre d'esclaves M-BUS | 250 charges standard |
+| Débit M-BUS | 300, 2400, 9600 (recherche et détection automatiques) |
+| Isolation galvanique | Présente |
+| Mémoire de données | 131'056 relevés<br />Intervalle de 15min :<br />10 appareils : ~136 jours<br />50 appareils : ~27 jours<br />250 appareils : ~5 jours |
+| Mise à jour du firmware | Possible en ligne |
+| Immunité CEM | EN 61000-6-2 (environnement industriel) |
+| Émissions CEM | EN 61000-6-3 (environnement résidentiel) |
+| Indice de protection boîtier/raccordements, utilisation | IP20 / IP51 (monté dans une armoire électrique), intérieur |
+| Montage | Rail DIN |
+| Dimensions | 6 modules, W:105mm H:90mm D:65.7mm |
+| Emplacement des serveurs | Suisse |
+| Classe de protection | II |
+| Volume de données | ≤ 1KB par appareil et par relevé |
+| Dernière modification | 26.03.2026 |
 
 ## Informations d'expédition
 
@@ -49,11 +71,11 @@ Poids avec emballage : 260g
 
 Touche d'installation (T1)
 
-Appuyer une fois brièvement = active ou désactive le mode d'installation
+Appui bref unique = active ou désactive le mode d'installation
 
 Touche de réinitialisation (T2)
 
-Appuyer une fois brièvement = lit les esclaves MBUS
+Appui bref unique = lit les esclaves MBUS
 
 Appui long = scanne le M-BUS
 

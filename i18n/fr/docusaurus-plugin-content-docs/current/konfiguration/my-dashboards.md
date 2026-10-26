@@ -12,7 +12,7 @@ Créez une carte énergétique personnalisée de votre bâtiment.
 
 Utilisez pour cela une image ou une vue Google Maps et affichez directement sur l'image les valeurs en temps réel de votre choix.
 
-![My Dashboards – Illustration 2](/img/konfiguration-my-dashboards/02.png)
+![My Dashboards – Illustration 2](/img/konfiguration-my-dashboards/02_EN.png)
 
 ## Mon flux d'énergie
 

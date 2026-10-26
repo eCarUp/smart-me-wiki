@@ -54,6 +54,15 @@ export type Schrittkette = {
    * Seiten ohne Eintrag gelten überall — das ist der Normalfall.
    */
   laender: Record<string, string[]>;
+  /**
+   * Kennung einer Übersichtsseite → Kennungen der Seiten darunter.
+   *
+   * Ebenfalls aus `sidebars.ts`: Wer eine Einstiegsseite mit Kacheln auf ihre
+   * Unterseiten bestückt (siehe `src/components/Unterseiten/`), soll die Liste
+   * nicht ein zweites Mal pflegen. Eine Unterkategorie zählt als ein Kind —
+   * vertreten durch die Seite, auf die sie verweist.
+   */
+  kinder: Record<string, string[]>;
 };
 
 /**
@@ -101,6 +110,42 @@ export function leseLaender(): Record<string, string[]> {
   };
 
   for (const liste of Object.values(sidebars)) lauf(liste, undefined);
+  return aus;
+}
+
+/**
+ * Sammelt aus der Navigation, welche Seiten unter einer Übersichtsseite stehen.
+ *
+ * Gelesen wird nur die erste Ebene: Was unter „Planung" steht, gehört zu
+ * „Planung" — die Seiten darunter gehören zu ihrer eigenen Kategorie.
+ */
+export function leseKinder(): Record<string, string[]> {
+  const aus: Record<string, string[]> = {};
+
+  const kennungVon = (eintrag: unknown): string | undefined => {
+    if (typeof eintrag === 'string') return eintrag;
+    if (!eintrag || typeof eintrag !== 'object') return undefined;
+    const e = eintrag as {id?: string; link?: {id?: string}};
+    return e.id ?? e.link?.id;
+  };
+
+  const lauf = (eintraege: unknown): void => {
+    if (!Array.isArray(eintraege)) return;
+    for (const e of eintraege) {
+      if (!e || typeof e !== 'object') continue;
+      const eintrag = e as {link?: {id?: string}; items?: unknown};
+      const eltern = eintrag.link?.id;
+      if (eltern && Array.isArray(eintrag.items)) {
+        const kinder = eintrag.items
+          .map(kennungVon)
+          .filter((k): k is string => typeof k === 'string');
+        if (kinder.length > 0) aus[eltern] = kinder;
+      }
+      if (eintrag.items) lauf(eintrag.items);
+    }
+  };
+
+  for (const liste of Object.values(sidebars)) lauf(liste);
   return aus;
 }
 
@@ -164,6 +209,7 @@ export async function leseKette(docsDir: string): Promise<Schrittkette> {
     optionale,
     vorherige: {...hergeleitet, ...gesetzt},
     laender: leseLaender(),
+    kinder: leseKinder(),
   };
 }
 

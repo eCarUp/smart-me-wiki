@@ -3,6 +3,7 @@ title: 'Delete / Deactivate Meter'
 slug: '/konfiguration/inbetriebnahme/zaehler-loeschen'
 description: 'This page describes how to delete or deactivate a meter.'
 sidebar_label: 'Delete / deactivate meter'
+displayed_sidebar: wikiSidebar
 ---
 <Menueweg>Dashboard → Device → Settings (gear icon)</Menueweg>
 
@@ -10,11 +11,11 @@ This page describes how to delete or deactivate a meter.
 
 ## General
 
-Deleting a meter permanently deletes its data. The data cannot be restored.
+The data of a deleted meter is permanently deleted and cannot be restored.
 
-smart-me generally advises against deleting meters. We recommend deactivating them instead. Deactivated meters do not incur licence costs, and you can still access their historical data at any time.
+smart-me generally does not recommend deleting meters. We recommend deactivating meters instead. Deactivated meters do not incur any license costs, and you can access the historical data at any time.
 
-Deleting does not work for M-Bus meters. If such a meter is still online, it reappears in the portal at the next reading. In this case, deactivating is the only option.
+Deleting M-Bus meters has no lasting effect: if the meters are still online, they reappear in the portal at the next reading. In this case, deactivation is the only option.
 
 ## Deactivate meter
 
@@ -24,7 +25,7 @@ Deleting does not work for M-Bus meters. If such a meter is still online, it rea
 
 - Select the gear icon at the top right
 
-- Advanced Settings (Erweiterte Einstellungen)
+- Advanced settings (Erweiterte Einstellungen)
 
 - Set Meter active (Zähler aktiv) to No (Nein)
 

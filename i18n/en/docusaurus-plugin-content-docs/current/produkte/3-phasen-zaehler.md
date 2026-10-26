@@ -5,7 +5,7 @@ description: 'The smart-me 3-Phase Meter is a powerful and precise energy meter 
 sidebar_label: '3-Phase Meter'
 displayed_sidebar: wikiSidebar
 ---
-The smart-me 3-Phase Meter is a powerful and precise energy meter with an integrated WiFi interface. No additional hardware is required for integration into the smart-me Cloud. It uses the existing WiFi network and can be controlled and analysed from anywhere via the Internet. With a Professional subscription, the meter values can also be queried via the Modbus TCP interface. With the 5(32)A version, each phase can be switched individually.
+The smart-me 3-Phase Meter is a powerful and precise energy meter with an integrated WiFi interface. No additional hardware is required to integrate it into the smart-me Cloud. It uses the existing WiFi network and can be controlled and analysed from anywhere via the internet. With a Professional subscription, the meter values can also be queried via the Modbus TCP interface. With the 5(32)A version, each phase can be switched individually.
 
 This 3-phase meter is no longer available. You can find the new generation of our 3-phase meter here: [3-Phase Meter Telstar](/produkte/telstar-80a)
 
@@ -35,7 +35,7 @@ This 3-phase meter is no longer available. You can find the new generation of ou
 
 ## Installation
 
-Before you can use your smart-me device, you must connect it to your WiFi network and the Internet.
+Before you can use your smart-me device, you need to connect it to your WiFi network and the internet.
 
 1.  Connect your smartphone or tablet to the WiFi network.
 
@@ -45,81 +45,35 @@ Before you can use your smart-me device, you must connect it to your WiFi networ
 
 4.  Tap "Add device" („Gerät hinzufügen“) (+) and follow the instructions.
 
-## Technical Data
+## Technical data
 
-Operating voltage 3 x 230 VAC
+| Feature | Value |
+| --- | --- |
+| Operating voltage | 3 x 230 VAC |
+| Reference current | 5 (80) A / 5 (32) A |
+| Self-consumption | &lt; 0.8 W per phase |
+| Storage temperature | -40°C to 85°C |
+| Temperature range | -25°C to 70°C |
+| Humidity | Annual average 75%, briefly 95%, non-condensing |
+| Accuracy | Class B |
+| Meter type | Bidirectional meter (consumption and delivery) |
+| Measured values | Active energy (kWh)<br />Active power (kW)<br />Current (A)<br />Voltage (V)<br />Power factor (cosphi)<br />Status of inputs and outputs<br />Additionally with Professional subscription: reactive energy (kvarh), reactive power (kvarh) |
+| Tariffs | 2 (virtual tariffs can be created in the cloud) |
+| Interfaces | WiFi<br />S0 / potential-free contact outputs<br />Tariff input (24 - 48VDC  /  24 - 230 VAC)<br />SG Ready<br />with Professional subscription: Modbus TCP |
+| Pulse outputs / digital outputs S0, S1 | Opto Power MOSFET, 5 - 48VDC  / 5 - 230 VAC , max. 550mW |
+| WiFi standard | 802.11 b/g/n |
+| WiFi security standard | WEP, WPA, WPA2 (personal) |
+| S0 pulse rate | 10’000 or 1’000 pulses per kWh |
+| Data storage | 2 months |
+| Product certification | CE, MID 2014/32/EU |
 
-Reference current 5 (80) A / 5 (32) A
-
-Self-consumption &lt; 0.8 W per phase
-
-Storage temperature -40°C to 85°C
-
-Temperature range -25°C to 70°C
-
-Humidity annual average 75%, short-term 95%, non-condensing
-
-Accuracy class B
-
-Meter type bidirectional meter (consumption and delivery)
-
-Measured values 
-
-- -   Active energy (kWh)
-
-    - Active power (kW)
-
-    - Current (A)
-
-    - Voltage (V)
-
-    - Power factor (cosphi)
-
-    - Status of inputs and outputs 
-
-    - Additionally with Professional subscription: reactive energy (kvarh), reactive power (kvarh)
-
-Tariffs 2 (virtual tariffs can be created in the cloud)
-
-Interfaces 
-
-- -   WiFi
-
-    - S0 / potential-free contact outputs
-
-    - Tariff input (24 - 48VDC  /  24 - 230 VAC)
-
-    - SG Ready
-
-    - with Professional subscription: Modbus TCP
-
-Pulse outputs / digital outputs S0, S1 Opto Power MOSFET, 5 - 48VDC  / 5 - 230 VAC , max. 550mW
-
-WiFi standard 802.11 b/g/n
-
-WiFi security standard WEP, WPA, WPA2 (personal)
-
-S0 pulse rate 10’000 or 1’000 pulses per kWh
-
-Data storage 2 months
-
-Product certification CE, MID 2014/32/EU
-
-Environmental classes: mechanical M1, electromagnetic E2
-
-Protection class IP20 (terminals), IP51 (front)
-
-Dimensions 5 modules, 90 x 90 mm
-
-Mounting DIN rail
-
-## Configuring Inputs and Outputs
+## Configuring inputs and outputs
 
 The smart-me meter has two outputs and one input, which can be used as pulse inputs and outputs or as a switchable potential-free contact. You can find details [here](/schnittstellen/ein-und-ausgaenge). 
 
 ## Display
 
-The meter has a scrolling display. The items described below are shown one after the other. After the last item, the display starts again at item 1:
+The meter has a scrolling display. The items described below are shown one after the other. After the last item, the display starts again with item 1:
 
 1.  Phase sequence (if incorrect, see below)
 
@@ -134,13 +88,13 @@ The meter has a scrolling display. The items described below are shown one after
 
 4.  CRC value
 
-### Phase Sequence
+### Phase sequence
 
-PhL 1 -> only phase L1 has been connected (PhL2 for L2 etc.)
-PhL 12 -> only phases L1 and L2 have been connected (PhL13 for L1 and L3 etc.)
+PhL 1 -> only phase L1 has been connected (PhL2 for L2, etc.)
+PhL 12 -> only phases L1 and L2 have been connected (PhL13 for L1 and L3, etc.)
 PhL 123 -> an incorrect phase sequence has been detected
 
-## Dimensions and Connections
+## Dimensions and connections
 
 ### Dimensions \[mm\]
 
@@ -148,7 +102,7 @@ PhL 123 -> an incorrect phase sequence has been detected
 
 Note: .DXF and .DWG data can be found in the ZIP archive in the downloads.
 
-### Wiring Diagram
+### Connection diagram
 
 E1: Tariff input (digital input)
 
@@ -160,33 +114,33 @@ T1: Button for installation
 
 T2: Special functions
 
-Short: If T2 is pressed briefly, the green LED switches on / off. When activated, it indicates the connection status:
+Short: If T2 is pressed briefly, the green LED switches on / off. When it is activated, it indicates the connection status:
 
-Green steady: connected to the smart-me Cloud 
+Green steady: connected to smart-me Cloud 
 
 Green flashing: no connection
 
-Long: If T2 is pressed for a long time, the display of the reactive energy meter reading is activated (if available). The items reactive energy meter reading T1 and reactive energy meter reading T2 are added to the display sequence. The displayed value flashes and can therefore be distinguished from active energy.
+Long: If T2 is pressed for a long time, the display of the reactive energy meter reading is activated (if available). The items reactive energy meter reading T1 and reactive energy meter reading T2 are added to the display sequence. The displayed value flashes and can thus be distinguished from the active energy.
 
-CAUTION: This setting only changes what is shown on the display, not in the smart-me Cloud (app and website). If reactive energy is to be shown in the cloud, this must be set in the general settings. (When T2 is pressed, the red LED lights up; T2 must be held down until the red LED goes out)
+ATTENTION: This setting only changes the indication on the display, not in the smart-me Cloud (app and website). If the reactive energy is to be displayed in the cloud, this must be done in the general settings. (When T2 is pressed, the red LED lights up; T2 must be held down until the red LED goes out)
 
-S0\_0: S0 pulse output (optionally potential-free contact / caution Pmax = 550mW continuous)
+S0\_0: S0 pulse output (optionally potential-free contact / attention Pmax = 550mW continuous)
 
-S0\_1: S0 pulse output (optionally potential-free contact / caution Pmax = 550mW continuous)
+S0\_1: S0 pulse output (optionally potential-free contact / attention Pmax = 550mW continuous)
 
 ![3-Phase Meter – Figure 3](/img/produkte-3-phasen-zaehler/03.jpg)
 
-## Measured Values (OBIS Codes)
+## Measured values (OBIS codes)
 
 The following measured values are recorded by the meter and can be retrieved in the cloud and via the API
 
-[](https://drive.google.com/open?id=1-f4I5ZWg1-PAHNpzCsQ0aBqrL9k93lH8q9AuN8toJgI "Open Spreadsheet, Measured values (incl. OBIS codes) 3-Phase Meter V1 in new window")
+[](https://drive.google.com/open?id=1-f4I5ZWg1-PAHNpzCsQ0aBqrL9k93lH8q9AuN8toJgI "Open spreadsheet, measured values (incl. OBIS codes) 3-Phase Meter V1 in new window")
 
-<Embed src="https://docs.google.com/spreadsheets/d/1-f4I5ZWg1-PAHNpzCsQ0aBqrL9k93lH8q9AuN8toJgI/htmlembed" height="655px" title="Spreadsheet, Measured values (incl. OBIS codes) 3-Phase Meter V1" />
+<Embed src="https://docs.google.com/spreadsheets/d/1-f4I5ZWg1-PAHNpzCsQ0aBqrL9k93lH8q9AuN8toJgI/htmlembed" height="655px" title="Spreadsheet, measured values (incl. OBIS codes) 3-Phase Meter V1" />
 
 Measured values (incl. OBIS codes) 3-Phase Meter V1
 
-## Downloads and Declaration of Conformity
+## Downloads and declaration of conformity
 
 Data sheet
 
@@ -202,7 +156,7 @@ Technical documents
 
 [CE declaration of conformity](https://drive.google.com/file/d/1MBTTapoTlcpUFbXpglgAq2wpE4yfs_MO/view?usp=sharing)
 
-[Wiring diagram](https://drive.google.com/file/d/12wyjFnyECXzPXvnYKV_VhfHKuZwAhjdn/view?usp=sharing)
+[Connection diagram](https://drive.google.com/file/d/12wyjFnyECXzPXvnYKV_VhfHKuZwAhjdn/view?usp=sharing)
 
 ## FAQ
 

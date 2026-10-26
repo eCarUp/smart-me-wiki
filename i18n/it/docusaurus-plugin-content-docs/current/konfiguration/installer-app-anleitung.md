@@ -4,7 +4,7 @@ slug: '/konfiguration/installer-app-anleitung'
 description: 'In questa pagina del wiki ti mostriamo come mettere comodamente in servizio il nostro hardware con la nuova Installer App.'
 sidebar_label: 'Messa in servizio dell''hardware (Installer App)'
 ---
-In questa pagina del wiki ti mostriamo come mettere comodamente in servizio il nostro hardware con la nuova Installer App. La pagina è da intendersi come aiuto e non è esaustiva.
+In questa pagina del wiki ti mostriamo come mettere comodamente in servizio il nostro hardware con la nuova Installer App. La pagina è pensata come aiuto e non è esaustiva.
 
 ## Installer App
 
@@ -33,11 +33,11 @@ Scarica gratuitamente la nuova smart-me Installer App dall'App Store.
 
 ## Istruzioni per contatore 80A / CT
 
-1\. Collega il tuo smartphone alla rete WiFi dalla quale desideri installare l'hardware smart-me.
+Collega il tuo smartphone alla rete WiFi dalla quale desideri installare l'hardware smart-me.
 
 ### 2. Messa in servizio
 
-2.1\. Clicca su «Aggiungi dispositivo» („Gerät hinzufügen“) (+)
+2.1\. Fai clic su «Aggiungi dispositivo» („Gerät hinzufügen“) (+)
 
 ![Messa in servizio dell'hardware (Installer App) – Figura 5](/img/konfiguration-installer-app-anleitung/05.jpg)
 
@@ -49,7 +49,7 @@ Scarica gratuitamente la nuova smart-me Installer App dall'App Store.
 
 ![Messa in servizio dell'hardware (Installer App) – Figura 7](/img/konfiguration-installer-app-anleitung/07.jpg)
 
-2.4\. Clicca su «Aggiungi dispositivo» („Gerät hinzufügen“) (+)
+2.4\. Fai clic su «Aggiungi dispositivo» („Gerät hinzufügen“) (+)
 
 ![Messa in servizio dell'hardware (Installer App) – Figura 8](/img/konfiguration-installer-app-anleitung/08.jpg)
 
@@ -57,33 +57,33 @@ Scarica gratuitamente la nuova smart-me Installer App dall'App Store.
 
 ![Messa in servizio dell'hardware (Installer App) – Figura 9](/img/konfiguration-installer-app-anleitung/09.jpg)
 
-2.6\. Connettiti alla rete WLAN del contatore
+2.6\. Connettiti alla WLAN del contatore
 
 ![Messa in servizio dell'hardware (Installer App) – Figura 10](/img/konfiguration-installer-app-anleitung/10.jpg)
 
-2.7\. Premere il tasto T1 per 10 secondi
+2.7\. Premi il tasto T1 per 10 secondi
 
 ![Messa in servizio dell'hardware (Installer App) – Figura 11](/img/konfiguration-installer-app-anleitung/11.jpg)
 
-2.8\. Attendere che la connessione sia riuscita
+2.8\. Attendi che la connessione vada a buon fine
 
 ![Messa in servizio dell'hardware (Installer App) – Figura 12](/img/konfiguration-installer-app-anleitung/12.jpg)
 
-2.9\. Il contatore è installato correttamente & online
+2.9\. Il contatore è stato installato correttamente ed è online
 
 ![Messa in servizio dell'hardware (Installer App) – Figura 13](/img/konfiguration-installer-app-anleitung/13.jpg)
 
-2.10\. Selezionare il contatore per ulteriori informazioni
+2.10\. Seleziona il contatore per ulteriori informazioni
 
 ![Messa in servizio dell'hardware (Installer App) – Figura 14](/img/konfiguration-installer-app-anleitung/14.jpg)
 
-### 3. Uscire dall'account
+### 3. Disconnettersi dall'account
 
-3.1\. In alto a sinistra toccare le tre linee e selezionare il profilo
+3.1\. In alto a sinistra tocca le tre linee e seleziona il profilo
 
 ![Messa in servizio dell'hardware (Installer App) – Figura 15](/img/konfiguration-installer-app-anleitung/15.jpg)
 
-3.2\. In basso selezionare «Esci» („ausloggen“)
+3.2\. In basso seleziona «Esci» („ausloggen“)
 
 ![Messa in servizio dell'hardware (Installer App) – Figura 16](/img/konfiguration-installer-app-anleitung/16.jpg)
 
@@ -91,7 +91,7 @@ Scarica gratuitamente la nuova smart-me Installer App dall'App Store.
 
 ![Messa in servizio dell'hardware (Installer App) – Figura 17](/img/konfiguration-installer-app-anleitung/02.jpg)
 
-## 2. Istruzioni per la stazione di ricarica Pico
+## Istruzioni per la stazione di ricarica Pico
 
 - Collega il tuo smartphone alla rete WiFi dalla quale desideri installare l'hardware smart-me.
 
@@ -100,7 +100,7 @@ Nota: tieni presente che per ogni Pico hai 15 minuti di tempo per completare il 
 
 ### 2. Messa in servizio
 
-2.1\. Clicca su «Aggiungi dispositivo» („Gerät hinzufügen“) (+)
+2.1\. Fai clic su «Aggiungi dispositivo» („Gerät hinzufügen“) (+)
 
 ![Messa in servizio dell'hardware (Installer App) – Figura 21](/img/konfiguration-installer-app-anleitung/05.jpg)
 
@@ -112,7 +112,7 @@ Nota: tieni presente che per ogni Pico hai 15 minuti di tempo per completare il 
 
 ![Messa in servizio dell'hardware (Installer App) – Figura 23](/img/konfiguration-installer-app-anleitung/07.jpg)
 
-2.4\. Clicca su «Aggiungi dispositivo» („Gerät hinzufügen“) (+)
+2.4\. Fai clic su «Aggiungi dispositivo» („Gerät hinzufügen“) (+)
 
 ![Messa in servizio dell'hardware (Installer App) – Figura 24](/img/konfiguration-installer-app-anleitung/08.jpg)
 
@@ -120,21 +120,21 @@ Nota: tieni presente che per ogni Pico hai 15 minuti di tempo per completare il 
 
 ![Messa in servizio dell'hardware (Installer App) – Figura 25](/img/konfiguration-installer-app-anleitung/25.jpg)
 
-2.5.1 Il codice QR non può essere scansionato
+2.5.1 Il codice QR non si riesce a scansionare
 
-Se la scansione del codice QR non funziona, puoi inserire manualmente il numero di serie della Pico oppure avvicinare una qualsiasi tessera RFID alla Pico. Successivamente scansiona il codice QR visualizzato.
+Se la scansione del codice QR non funziona, puoi inserire manualmente il numero di serie della Pico oppure avvicinare una qualsiasi carta RFID alla Pico. Successivamente scansiona il codice QR visualizzato.
 
 ![Messa in servizio dell'hardware (Installer App) – Figura 26](/img/konfiguration-installer-app-anleitung/26.png)
 
-2.6\. Selezionare il tipo di connessione
+2.6\. Seleziona il tipo di connessione
 
 ![Messa in servizio dell'hardware (Installer App) – Figura 27](/img/konfiguration-installer-app-anleitung/27.jpg)
 
-2.7\. Collega il dispositivo alla rete WLAN
+2.7\. Connetti il dispositivo alla WLAN
 
 ![Messa in servizio dell'hardware (Installer App) – Figura 28](/img/konfiguration-installer-app-anleitung/28.jpg)
 
-2.8\. Avvicina una qualsiasi tessera RFID alla Pico
+2.8\. Avvicina una qualsiasi carta RFID alla Pico
 
 ![Messa in servizio dell'hardware (Installer App) – Figura 29](/img/konfiguration-installer-app-anleitung/29.jpg)
 
@@ -142,7 +142,7 @@ Se la scansione del codice QR non funziona, puoi inserire manualmente il numero 
 
 ![Messa in servizio dell'hardware (Installer App) – Figura 30](/img/konfiguration-installer-app-anleitung/30.jpg)
 
-2.10\. Selezionare il dispositivo per ulteriori informazioni
+2.10\. Seleziona il dispositivo per ulteriori informazioni
 
 ![Messa in servizio dell'hardware (Installer App) – Figura 31](/img/konfiguration-installer-app-anleitung/31.jpg)
 
@@ -150,13 +150,13 @@ Se la scansione del codice QR non funziona, puoi inserire manualmente il numero 
 
 ![Messa in servizio dell'hardware (Installer App) – Figura 32](/img/konfiguration-installer-app-anleitung/32.jpg)
 
-### 3. Uscire dall'account
+### 3. Disconnettersi dall'account
 
-3.1\. In alto a sinistra toccare le tre linee e selezionare il profilo
+3.1\. In alto a sinistra tocca le tre linee e seleziona il profilo
 
 ![Messa in servizio dell'hardware (Installer App) – Figura 15](/img/konfiguration-installer-app-anleitung/15.jpg)
 
-3.2\. In basso selezionare «Esci» („ausloggen“)
+3.2\. In basso seleziona «Esci» („ausloggen“)
 
 ![Messa in servizio dell'hardware (Installer App) – Figura 16](/img/konfiguration-installer-app-anleitung/16.jpg)
 
@@ -166,17 +166,17 @@ Se la scansione del codice QR non funziona, puoi inserire manualmente il numero 
 
 ### Mettere in servizio più dispositivi
 
-In questo passaggio hai la possibilità di mettere in servizio più contatori contemporaneamente, per velocizzare la messa in servizio in caso di molti contatori.
+In questo passaggio hai la possibilità di mettere in servizio più contatori contemporaneamente, per accelerare la messa in servizio quando i contatori sono molti.
 
 ![Messa in servizio dell'hardware (Installer App) – Figura 33](/img/konfiguration-installer-app-anleitung/08.jpg)
 
 ### Impostare il rapporto di trasformazione sul Telstar CT
 
-1.  Selezionare il contatore CT e modificarlo 
+1.  Seleziona il contatore CT e modificalo 
 
-2.  Inserire il rapporto di trasformazione 
+2.  Inserisci il rapporto di trasformazione 
 
-3.  Il rapporto di trasformazione può essere bloccato. Questo serve come protezione contro modifiche indesiderate da parte di persone non autorizzate. Per poter sbloccare il rapporto di trasformazione,  il dispositivo deve essere installato nuovamente con la smart-me App.
+3.  Il rapporto di trasformazione può essere bloccato. Questo serve a proteggerlo da modifiche indesiderate da parte di persone non autorizzate. Per poter sbloccare il rapporto di trasformazione,  il dispositivo deve essere installato nuovamente con l'app smart-me.
 
 
 ### Nota:

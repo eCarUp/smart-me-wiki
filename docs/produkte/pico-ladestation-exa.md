@@ -65,51 +65,31 @@ Die Konfiguration ist hier im Detail abgehandelt: [Pico Konfiguration](/konfigur
 
 ## Technische Daten
 
-Maximale Ladeleistung  22 kW bei 32A dreiphasig, 7.36 kW bei 32A einphasig
-
-Identifikation  Automatische Erkennung und Identifikation des Autos, RFID / NFC Reader (JEWEL, MIFARE, FELICA, ISO14443, NFC\_DEP, ISO14443\_B, ISO15693)
-
-Smart Meter  Integrierter nicht MID zertifizierter Stromzähler inkl. Security Prozessor
-
-Phasenausgleich  Automatischer Phasenausgleich
-
-Lastmanagement  Automatisches Lastmanagement über mehrere Stationen
-
-Kommunikation  WiFi (2.4 GHz) und Mobilfunk (LTE) inkl. SIM und Datentraffic für 10 Jahre von [1nce](https://1nce.com/de/laenderabdeckung/), [Modbus TCP](/)
-
-Cloud Anbindung  Anbindung an smart-me und eCarUp Cloud
-
-Sicherheit  Artikelnummer 202170exA RDC-DD 6mA nach IEC 62955 (Fehlergleichstrom- Nachweiseinrichtung)
-
-Temperaturbereich  \-30°C bis 50°C
-
-Netzspannungen 3x230/400VAC oder 1x 230VAC (+/-10%)
-
-Ladebuchse  IEC 62196-2 Typ 2 
-
-Schutzart  IP55 (Innen- und Aussenbereich)
-
-Stossfestigkeitsgrad  IK10
-
-Brennbarkeitsklasse  UL94
-
-Lastabwurf  2 potentialfreie Eingänge (4 Zustände),  min. 12V AC/DC, max. 48 VDC / 230 VAC
-
-S0-Ausgang  S0 Schnittstelle (1000 imp/kwh) für Eichung
-
-Stromanschluss  oben, unten, hinten
-
-Installationsart  Stromschiene, Flachbandkabel, sternförmig
-
-Abmessungen  H:300 mm B:220 mm T:112 mm
-
-Gewicht  3.8 kg
-
-Kabelquerschnitt  min. 2.5 mm2, max. 10 mm2
-
-Kabeldurchmesser  10-20 mm
-
-Serverstandort Schweiz 
+| Merkmal | Wert |
+| --- | --- |
+| Maximale Ladeleistung | 22 kW bei 32A dreiphasig, 7.36 kW bei 32A einphasig |
+| Identifikation | Automatische Erkennung und Identifikation des Autos, RFID / NFC Reader (JEWEL, MIFARE, FELICA, ISO14443, NFC\_DEP, ISO14443\_B, ISO15693) |
+| Smart Meter | Integrierter nicht MID zertifizierter Stromzähler inkl. Security Prozessor |
+| Phasenausgleich | Automatischer Phasenausgleich |
+| Lastmanagement | Automatisches Lastmanagement über mehrere Stationen |
+| Kommunikation | WiFi (2.4 GHz) und Mobilfunk (LTE) inkl. SIM und Datentraffic für 10 Jahre von [1nce](https://1nce.com/de/laenderabdeckung/), [Modbus TCP](/) |
+| Cloud Anbindung | Anbindung an smart-me und eCarUp Cloud |
+| Sicherheit | Artikelnummer 202170exA RDC-DD 6mA nach IEC 62955 (Fehlergleichstrom- Nachweiseinrichtung) |
+| Temperaturbereich | \-30°C bis 50°C |
+| Netzspannungen | 3x230/400VAC oder 1x 230VAC (+/-10%) |
+| Ladebuchse | IEC 62196-2 Typ 2 |
+| Schutzart | IP55 (Innen- und Aussenbereich) |
+| Stossfestigkeitsgrad | IK10 |
+| Brennbarkeitsklasse | UL94 |
+| Lastabwurf | 2 potentialfreie Eingänge (4 Zustände),  min. 12V AC/DC, max. 48 VDC / 230 VAC |
+| S0-Ausgang | S0 Schnittstelle (1000 imp/kwh) für Eichung |
+| Stromanschluss | oben, unten, hinten |
+| Installationsart | Stromschiene, Flachbandkabel, sternförmig |
+| Abmessungen | H:300 mm B:220 mm T:112 mm |
+| Gewicht | 3.8 kg |
+| Kabelquerschnitt | min. 2.5 mm2, max. 10 mm2 |
+| Kabeldurchmesser | 10-20 mm |
+| Serverstandort | Schweiz |
 
 ## Pico Anschlüsse und Dimensionen
 

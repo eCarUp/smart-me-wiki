@@ -1,20 +1,21 @@
 ---
 title: 'Supprimer / désactiver un compteur'
 slug: '/konfiguration/inbetriebnahme/zaehler-loeschen'
-description: 'Cette page décrit comment supprimer ou désactiver un compteur.'
+description: 'Cette page explique comment supprimer ou désactiver un compteur.'
 sidebar_label: 'Supprimer / désactiver un compteur'
+displayed_sidebar: wikiSidebar
 ---
 <Menueweg>Dashboard → Appareil → Paramètres (roue dentée)</Menueweg>
 
-Cette page décrit comment supprimer ou désactiver un compteur.
+Cette page explique comment supprimer ou désactiver un compteur.
 
 ## Généralités
 
 Les données d'un compteur supprimé sont effacées de manière irréversible et ne peuvent pas être restaurées.
 
-smart-me déconseille en principe de supprimer des compteurs. Nous recommandons de manière générale de désactiver les compteurs. Les compteurs désactivés n'engendrent aucun coût de licence et il reste possible d'accéder à tout moment aux données historiques.
+En principe, smart-me ne recommande pas de supprimer des compteurs. Nous recommandons de manière générale de désactiver les compteurs. Les compteurs désactivés ne génèrent aucun coût de licence et il est possible à tout moment d'accéder aux données historiques.
 
-Pour les compteurs M-Bus, la suppression n'est pas efficace : s'ils sont toujours en ligne, les compteurs réapparaissent dans le portail lors du relevé suivant. Dans ce cas, la désactivation est la seule possibilité.
+Pour les compteurs M-Bus, la suppression n'est pas efficace, car les compteurs réapparaissent dans le portail lors du relevé suivant s'ils sont toujours en ligne. Dans ce cas, la désactivation est la seule possibilité.
 
 ## Désactiver un compteur
 
@@ -47,7 +48,7 @@ Pour les compteurs M-Bus, la suppression n'est pas efficace : s'ils sont toujour
 
 - Modifier le nœud (Knoten editieren)
 
-- Désélectionner Compteur actif (Zähler aktiv)
+- Décocher Compteur actif (Zähler aktiv)
 
 - Oui (Ja)
 

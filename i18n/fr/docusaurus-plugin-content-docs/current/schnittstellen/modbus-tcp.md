@@ -4,9 +4,11 @@ slug: '/schnittstellen/modbus-tcp'
 description: 'Modbus TCP permet d''interroger les valeurs de mesure d''un appareil directement via la connexion réseau.'
 sidebar_label: 'Modbus TCP'
 ---
-Modbus TCP permet d'interroger les valeurs de mesure d'un appareil directement via la connexion réseau. Il n'est pas nécessaire de passer par le cloud.
+<Menueweg>Dashboard → Appareil → Paramètres (roue dentée)</Menueweg>
 
-### Prérequis
+Modbus TCP permet d'interroger les valeurs de mesure d'un appareil directement via la connexion réseau. Aucun détour par le cloud n'est nécessaire.
+
+### Conditions préalables
 
 Pour activer Modbus TCP, un abonnement smart-me Professional est nécessaire
 
@@ -25,20 +27,20 @@ Les appareils smart-me suivants prennent en charge Modbus TCP
 
 Il n'est pas possible d'attribuer une adresse IP fixe. Si vous le souhaitez, ce réglage doit être effectué sur le routeur. smart-me ne connaît pas l'adresse MAC des différents appareils. Celle-ci peut être déterminée à l'aide des instructions ci-dessous.
 
-Les requêtes ne devraient pas être effectuées plus souvent que toutes les 2 secondes. Une augmentation de la fréquence des requêtes peut, dans certaines configurations, entraîner des requêtes sans réponse. L'appareil ne peut pas être endommagé par un intervalle de requête de &lt; 2 secondes.
+Les requêtes ne devraient pas être effectuées plus souvent que toutes les 2 secondes. Une augmentation de la fréquence des requêtes peut, dans certaines configurations, entraîner des requêtes sans réponse. L'appareil ne peut pas être endommagé par un intervalle de requête &lt; 2 secondes.
 
 ## Activer Modbus TCP
 
 <div className="row">
 <div className="col col--6">
 
-1.  Connectez-vous sur le site web de smart-me.
+1.  Connectez-vous sur le site web smart-me.
 
 2.  Sélectionnez l'appareil souhaité.
 
 3.  Sélectionnez la roue dentée en haut à droite.
 
-4.  Sous Paramètres avancés (Erweiterte Einstellungen), activer Modbus TCP
+4.  Sous paramètres avancés (Erweiterte Einstellungen), activer Modbus TCP
 
 5.  Enregistrer (Speichern)
 
@@ -52,18 +54,18 @@ Les requêtes ne devraient pas être effectuées plus souvent que toutes les 2 s
 
 ## Particularités de la Pico et de Modbus TCP
 
-Modbus TCP peut être utilisé avec la Pico si :
+Modbus TCP peut être utilisé avec la Pico lorsque :
 
 1.  La Pico ne fait pas partie d'un groupe de gestion de la charge
 
 2.  La Pico fait partie d'un groupe de gestion de la charge et en est le maître (déterminé automatiquement)
 
 
-Modbus TCP est désactivé pour tous les esclaves d'un groupe de gestion de la charge, car ceux-ci ne disposent alors pas de leur propre adresse IP.
+Pour tous les esclaves d'un groupe de gestion de la charge, Modbus TCP est désactivé, car ils ne possèdent alors pas leur propre adresse IP.
 Nous recommandons d'utiliser Modbus TCP uniquement pour la commande d'appareils individuels sans MESH.
 Si les Pico d'un groupe de gestion de la charge doivent être lues ou commandées, nous recommandons l'[API REST](/schnittstellen/api). 
 
-## Trouver l'adresse de l'appareil
+## Déterminer l'adresse de l'appareil
 
 Le registre Modbus d'un appareil smart-me peut être lu via DNS ou via l'adresse IP. 
 
@@ -77,15 +79,15 @@ Le registre Modbus d'un appareil smart-me peut être lu via DNS ou via l'adresse
 <div className="row">
 <div className="col col--4">
 
-1.  Connectez-vous sur le site web de smart-me.
+1.  Connectez-vous sur le site web smart-me.
 
 2.  Sélectionnez l'appareil souhaité.
 
 3.  Sélectionnez la roue dentée en haut à droite.
 
-4.  Sous Paramètres avancés (Erweiterte Einstellungen), activer le DNS (DNS aktivieren).
+4.  Sous paramètres avancés (Erweiterte Einstellungen), activer le DNS.
 
-5.  Dans la plupart des cas, l'IP interne (Interne IP) est nécessaire. Voir les détails ci-dessous.
+5.  Le plus souvent, l'IP interne est nécessaire. Voir les détails ci-dessous.
 
 6.  Enregistrer (Speichern)
 
@@ -103,7 +105,7 @@ Comme adresse IP, vous pouvez choisir une adresse IP publique ou l'adresse IP in
 
 IP interne (Interne IP)
 
-Il s'agit de l'adresse IP locale de l'appareil smart-me. Elle peut être utilisée si vous vous trouvez dans le même réseau.
+Il s'agit de l'adresse IP locale de l'appareil smart-me. Elle peut être utilisée lorsque vous vous trouvez dans le même réseau.
 
 IP publique (Öffentliche IP)
 
@@ -117,17 +119,17 @@ smart-me utilise pour cela le service dns-me.com.
 
 ### Déterminer l'adresse IP avec le nom DNS
 
-Une fois le DNS activé, le nom DNS visible dans les paramètres avancés sous l'activation DNS peut être utilisé pour un ping.
+Une fois le DNS activé, le nom DNS visible dans les paramètres avancés sous Activation DNS peut être utilisé pour un ping.
 
 p. ex. ping smart-me\_6301587.dns-me.com
 
-En réponse, vous obtenez l'évaluation du ping, y compris l'adresse IP de l'appareil.
+En réponse, vous obtenez le résultat du ping, y compris l'adresse IP de l'appareil.
 
 ![Modbus TCP – Figure 3](/img/schnittstellen-modbus-tcp/03.png)
 
 ### Déterminer l'adresse IP directement sur le routeur
 
-smart-me ne connaît pas l'adresse MAC des différents appareils. Déterminer l'adresse IP sans activer préalablement le service DNS est donc plus compliqué. Une possibilité consiste à interroger toutes les adresses IP avec Modbus TCP et à vérifier quels numéros de série sont renvoyés en réponse.
+smart-me ne connaît pas l'adresse MAC des différents appareils. Déterminer l'adresse IP sans activation préalable du service DNS est donc plus compliqué. Une possibilité consiste à interroger toutes les adresses IP avec Modbus TCP et à vérifier quels numéros de série sont renvoyés en réponse.
 
 ## Transmission des données
 
@@ -135,7 +137,7 @@ Protocole Modbus TCP
 Port TCP : 502
 
 Fonctions
-Le compteur smart-me prend en charge les fonctions Modbus suivantes :
+Le smart-me Meter prend en charge les fonctions Modbus suivantes :
 
 - Read Holding Register (Code 03)
 
@@ -147,23 +149,23 @@ Pour des raisons historiques, l'adresse dans Modbus est inférieure de 1 à l'ad
 
 Exemple avec : https://www.modbusdriver.com/modpoll.html
 
-Modifier la gestion de la charge Pico
+Change Pico Loadmanagement
 
 modpoll.exe -r 0x206E -t 4:int -i -1 -m tcp -p 502 192.168.178.63 16000
 
 ## Adresses de registre pour les compteurs et modules smart-me
 
-[](https://drive.google.com/open?id=1OwCQ-w5eBYssrGwMTfjZ-HBxL3uJ-QJyK6aXNMgfrwQ "Ouvrir la feuille de calcul Register Addressing dans une nouvelle fenêtre")
+[](https://drive.google.com/open?id=1OwCQ-w5eBYssrGwMTfjZ-HBxL3uJ-QJyK6aXNMgfrwQ "Open Spreadsheet, Register Addressing in new window")
 
-<Embed src="https://docs.google.com/spreadsheets/d/1OwCQ-w5eBYssrGwMTfjZ-HBxL3uJ-QJyK6aXNMgfrwQ/htmlembed" height="720px" title="Feuille de calcul, Register Addressing" />
+<Embed src="https://docs.google.com/spreadsheets/d/1OwCQ-w5eBYssrGwMTfjZ-HBxL3uJ-QJyK6aXNMgfrwQ/htmlembed" height="720px" title="Tableur, adressage des registres" />
 
 Register Addressing
 
 ## Adresses de registre pour les bornes de recharge Pico
 
-[](https://drive.google.com/open?id=1uobN5-T43qRCa5Mvr4OHQfTNKyPBpHVYh19ONpXemYU "Ouvrir la feuille de calcul Pico-Modbus TCP dans une nouvelle fenêtre")
+[](https://drive.google.com/open?id=1uobN5-T43qRCa5Mvr4OHQfTNKyPBpHVYh19ONpXemYU "Open Spreadsheet, Pico-Modbus TCP in new window")
 
-<Embed src="https://docs.google.com/spreadsheets/d/1uobN5-T43qRCa5Mvr4OHQfTNKyPBpHVYh19ONpXemYU/htmlembed" height="720px" title="Feuille de calcul, Pico-Modbus TCP" />
+<Embed src="https://docs.google.com/spreadsheets/d/1uobN5-T43qRCa5Mvr4OHQfTNKyPBpHVYh19ONpXemYU/htmlembed" height="720px" title="Tableur, Pico-Modbus TCP" />
 
 Pico-Modbus TCP
 
@@ -171,38 +173,38 @@ Pico-Modbus TCP
 
 Une borne de recharge Pico peut être commandée via Modbus TCP et le courant de charge peut être prédéfini.
 
-### Pour une version de firmware &lt; 0.0.53 :
+### Avec une version de firmware &lt; 0.0.53 :
 
-Le courant de charge peut être prédéfini une seule fois via le registre 0x206E, en mA, pour les trois phases simultanément.
+Le courant de charge peut être prédéfini une seule fois via le registre 0x206E en tant que courant de charge en mA pour les trois phases simultanément.
 
-Adressage d'une station individuelle dans un groupe de recharge (commande individuelle) :
+Adressage d'une borne individuelle dans un groupe de recharge (commande individuelle) :
 
 - -   Ne charge qu'à partir du réglage minimal de l'appareil, p. ex. 6000 mA.
-        L'appareil tente d'exploiter au mieux le courant disponible.
+        L'appareil tente d'exploiter au maximum le courant disponible.
         Dans ce cas, l'appareil chargera en triphasé à 3x6A
         Une charge monophasée ne peut pas être imposée de manière dédiée. La charge d'un véhicule monophasé s'effectue en mode triphasé.
 
 
-Adressage d'un groupe de stations comprenant plusieurs stations :
+Adressage d'un groupe de bornes comprenant plusieurs bornes :
 
-- Seul l'appareil maître du groupe Pico dispose d'une adresse IP accessible.
+- Seul l'appareil maître du groupe Pico possède une adresse IP adressable.
 
 - Ne charge qu'à partir du réglage minimal de l'appareil, p. ex. 6000 mA.
-    Avec un réglage du groupe de 12000 mA
-    Avec trois charges actives : donne une charge monophasée de 12 A chacune sur L1, L2 et L3
-    Avec deux charges actives : donne deux charges triphasées à 6A
-    Avec une charge active : donne une charge triphasée à 12 A
+    Avec un réglage de groupe de 12000 mA
+    Avec trois charges actives : conduit à une charge monophasée de 12 A chacune sur L1, L2 et L3
+    Avec deux charges actives : conduit à deux charges triphasées à 6A
+    Avec une charge active : conduit à une charge triphasée à 12 A
 
 
 ### À partir de la version de firmware 0.0.53 :
 
-Le courant de charge peut :
+Le courant de charge peut être :
 
-- Être prédéfini pour les trois phases ensemble via le registre 0x206E en mA (même valeur pour toutes)
+- Prédéfini pour les trois phases ensemble via le registre 0x206E en mA (même valeur pour toutes)
 
-- Être indiqué ensemble mais individuellement par phase en mA ou en A (jusqu'à 499A, au-delà les mA sont supposés) via le registre 0x2071 
+- Indiqué ensemble mais individuellement par phase en mA ou en A (jusqu'à 499A, au-delà des mA sont supposés) via le registre 0x2071 
 
-- Être indiqué individuellement, l'une après l'autre, par phase en mA ou en A (jusqu'à 499A, au-delà les mA sont supposés) via les registres 0x2071, 0x 2073, 0x2075
+- Indiqué individuellement, l'une après l'autre, par phase en mA ou en A (jusqu'à 499A, au-delà des mA sont supposés) via les registres 0x2071, 0x 2073, 0x2075
 
 
 Généralités sur le fonctionnement :
@@ -211,30 +213,30 @@ Généralités sur le fonctionnement :
 
 - Il est possible de basculer sur une phase prédéfinie L1, L2, L3 en indiquant la disponibilité du courant. (La plus grande est retenue)
 
-- Il est possible de changer de phase entre L1, L2, L3 pendant une charge monophasée. (Changement du courant le plus élevé)
+- Il est possible de changer entre les phases L1, L2, L3 pendant une charge monophasée. (Changement du courant le plus élevé)
 
 
 Remarque importante concernant la commande externe :
 
-Il n'y a aucune limitation du changement entre les différentes phases ; veillez à le limiter au moyen de l'algorithme de commande.
+Il n'existe aucune limitation pour le changement entre les différentes phases ; veillez à le limiter au moyen de l'algorithme de commande.
 Il en va de même pour le passage de la charge monophasée à la charge triphasée et inversement.
 L'utilisation intensive des contacts de relais peut entraîner une défaillance prématurée des relais. Il est recommandé de ne pas changer de phase lorsque le gain de puissance n'est pas proportionné. Une météo instable, d'autres gros consommateurs et d'autres raisons peuvent entraîner des commutations involontaires. Idéalement, l'attribution à une phase ne devrait pas changer lorsque l'excédent fait défaut seulement brièvement.
 smart-me décline toute responsabilité pour la défaillance prématurée de relais lors de l'utilisation de commandes de fournisseurs tiers.
 
-Adressage d'une station individuelle dans un groupe de recharge (commande individuelle) :
+Adressage d'une borne individuelle dans un groupe de recharge (commande individuelle) :
 
 - -   Ne charge qu'à partir du réglage minimal de l'appareil, p. ex. 6000,6000,8000 mA.
-        Les trois courants peuvent avoir des valeurs différentes. L'appareil tente d'exploiter au mieux le courant disponible.
+        Les trois courants peuvent avoir des valeurs différentes. L'appareil tente d'exploiter au maximum le courant disponible.
         Dans ce cas, l'appareil chargera en triphasé à 3x6A)
 
-    - 0,8000,0 mA donne une charge monophasée de 8 A sur L2
+    - 0,8000,0 mA conduit à une charge monophasée de 8 A sur L2
 
-    - 0, 8000 mA, 10000 mA donne une charge monophasée de 10 A sur L3
+    - 0, 8000 mA, 10000 mA conduit à une charge monophasée de 10 A sur L3
 
 
-Adressage d'un groupe de stations comprenant plusieurs stations :
+Adressage d'un groupe de bornes comprenant plusieurs bornes :
 
-- Seul l'appareil maître du groupe Pico dispose d'une adresse IP accessible.
+- Seul l'appareil maître du groupe Pico possède une adresse IP adressable.
 
 - Ne charge qu'à partir du réglage minimal de l'appareil, p. ex. 6000,6000,8000 mA.
     Les trois courants peuvent avoir une valeur différente.

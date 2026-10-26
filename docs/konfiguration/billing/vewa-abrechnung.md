@@ -6,7 +6,8 @@ sidebar_label: 'VEWA - Abrechnung'
 naechste_schritte: [konfiguration/billing/rechnung-erstellen]
 vorheriger_schritt: konfiguration/billing/sonstige-kosten
 ---
-![VEWA - Abrechnung – Abbildung 1](/img/konfiguration-billing-vewa-abrechnung/01.png)
+
+<Menueweg>Rechnungserstellung → Liegenschaften & Tarife → VEWA</Menueweg>
 
 ## Wärme und Wasser abrechnen — zwei Wege
 

@@ -4,6 +4,8 @@ slug: '/schnittstellen/swisseldex-sdat-import'
 description: 'Du brauchst ein smart-me Professional Abo pro Messpunkt, um den Import zu nutzen.'
 sidebar_label: 'VZEV-Swisseldex (SDAT) Import'
 ---
+<Menueweg>Schnittstellen → Swisseldex Import</Menueweg>
+
 ### Voraussetzung
 
 Du brauchst ein smart-me Professional Abo pro Messpunkt, um den Import zu nutzen. 

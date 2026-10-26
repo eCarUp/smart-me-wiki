@@ -4,6 +4,8 @@ slug: '/konfiguration/wenndann-aktionen/beispiel-boilersteuerung'
 description: 'Beispielkonfigurationen werden auf dieser Seite ausführlich beschrieben.'
 sidebar_label: 'Beispiel Boilersteuerung'
 ---
+<Menueweg>Wenn-Dann Aktionen</Menueweg>
+
 Beispielkonfigurationen werden auf dieser Seite ausführlich beschrieben.
 
 ## Voraussetzungen

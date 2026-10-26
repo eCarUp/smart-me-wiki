@@ -66,11 +66,19 @@ export type Schrittkette = {
 export function leseLaender(): Record<string, string[]> {
   const aus: Record<string, string[]> = {};
 
+  // Vereinigung statt Überschreiben: Eine Seite, die in zwei Kategorien steht —
+  // „Zähler zuweisen" einmal unter der Schweiz, einmal unter Mieterstrom —,
+  // gilt für beide Länder. Beim blossen Zuweisen gewänne der zuletzt gelesene
+  // Eintrag, und die Seite verschwände für das andere Land aus dem Ablauf.
+  const merke = (kennung: string, laender: string[]): void => {
+    aus[kennung] = [...new Set([...(aus[kennung] ?? []), ...laender])];
+  };
+
   const lauf = (eintraege: unknown, geerbt: string[] | undefined): void => {
     if (!Array.isArray(eintraege)) return;
     for (const e of eintraege) {
       if (typeof e === 'string') {
-        if (geerbt) aus[e] = geerbt;
+        if (geerbt) merke(e, geerbt);
         continue;
       }
       if (!e || typeof e !== 'object') continue;
@@ -87,13 +95,7 @@ export function leseLaender(): Record<string, string[]> {
         : geerbt;
 
       const kennung = eintrag.id ?? eintrag.link?.id;
-      // Vereinigung statt Überschreiben: Eine Seite, die in zwei Kategorien
-      // steht — einmal unter der Schweiz, einmal unter Mieterstrom —, gilt für
-      // beide Länder. Beim blossen Zuweisen gewänne der zuletzt gelesene
-      // Eintrag, und die Seite verschwände für das andere Land aus dem Ablauf.
-      if (kennung && laender) {
-        aus[kennung] = [...new Set([...(aus[kennung] ?? []), ...laender])];
-      }
+      if (kennung && laender) merke(kennung, laender);
       if (eintrag.items) lauf(eintrag.items, laender);
     }
   };

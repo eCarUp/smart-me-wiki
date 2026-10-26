@@ -6,10 +6,9 @@ sidebar_label: 'Benutzerkonfiguration'
 naechste_schritte: [konfiguration/visualisierung]
 vorheriger_schritt: [konfiguration/billing/rechnung-erstellen, konfiguration/billing-deutschland/rechnung-erstellen]
 ---
-### Voraussetzung
+<Menueweg>Benutzerkonfiguration</Menueweg>
 
-<div className="row">
-<div className="col col--6">
+### Voraussetzung
 
 Du brauchst ein smart-me Professional Abo um diese Funktion zu nutzen.
 
@@ -17,13 +16,6 @@ In smart-me kannst du neue Benutzer erstellen und diesen entsprechende Berechtig
 
 Damit kannst du den Mietern Zugriff auf ihre Daten geben sollange diese die Liegenschaft bewohnen.
 
-</div>
-<div className="col col--6 text--center">
-
-![Benutzer erstellen – Abbildung 1](/img/konfiguration-benutzerkonfiguration/01.png)
-
-</div>
-</div>
 
 <div className="row">
 <div className="col col--8">

@@ -8,7 +8,7 @@ The smart-me M-Bus Gateways read energy meters with an M-Bus interface (EN 13757
 
 ## The two devices
 
-Both devices offer the same functions — they differ in the number of M-Bus standard loads, i.e. in how many meters can be connected to one gateway.
+Both devices have the same functions. They differ in the number of M-Bus standard loads, i.e. in how many meters can be connected to one gateway.
 
 <Kacheln min="15rem">
 
@@ -37,7 +37,7 @@ Technical data, wiring diagram, button functions and downloads can be found on t
 The M-Bus Gateway reads more than 1000 meter types from various manufacturers. Below you will find a non-exhaustive list of compatible device manufacturers.
 
 Note: Pay close attention to how the meter is declared. It can be declared as a heat meter, heat / cooling meter, water meter or electricity meter.
-Combination meters that are not declared as heat / cooling meters may not work correctly in combination or may only work as heat meters.
+Combination meters that are not declared as heat / cooling meters may not work correctly in combined mode or may only work as heat meters.
 
 <Embed src="https://drive.google.com/file/d/1PVhN_1lLolihf6eNQ_1x7UxZK8cjE_hq/preview" height="700px" title="Drive, compatibility list M-Bus_Gateway.xlsx" />
 
@@ -85,7 +85,7 @@ Eichaustrasse 1, CH-9463 Oberriet
 
 +41 58 715 50 50 · [www.neovac.ch](https://www.neovac.ch)
 
-Heinz Marti (Head of Technical Division) · +41 58 715 56 90 · [heinz.marti@neovac.ch](mailto:heinz.marti@neovac.ch)
+Heinz Marti (Head of Technology) · +41 58 715 56 90 · [heinz.marti@neovac.ch](mailto:heinz.marti@neovac.ch)
 
 </Kachel>
 
@@ -141,30 +141,30 @@ Brunnenbachstrasse 1, CH-8340 Hinwil
 
 ## Commissioning
 
-On these pages you will find all the relevant information for successfully commissioning the M-Bus Gateway.
+On these pages you will find all relevant information for the successful commissioning of the M-Bus Gateway.
 
-- [Preparing for commissioning](/konfiguration/inbetriebnahme#instructions-for-both-m-bus-gateways)
+- [Preparing for commissioning](/konfiguration/inbetriebnahme/smart-me-geraete#instructions-for-both-m-bus-gateways)
 
 - [Commissioning](/konfiguration/inbetriebnahme)
 
-- [Numbering for combination meters](/konfiguration/inbetriebnahme#numbering-for-combined-meters)
+- [Numbering of combination meters](/konfiguration/inbetriebnahme/smart-me-geraete#numbering-for-combined-meters)
 
-- [Searching for M-Bus Gateway devices](/konfiguration/inbetriebnahme#search-for-m-bus-gateway-devices)
+- [Searching for M-Bus Gateway devices](/konfiguration/inbetriebnahme/smart-me-geraete#m-bus-gateway-search-for-devices)
 
-- [Preventing automatic device detection](/konfiguration/inbetriebnahme#prevent-the-m-bus-gateway-from-detecting-new-devices)
+- [Preventing automatic device detection](/konfiguration/inbetriebnahme/smart-me-geraete#m-bus-gateway-prevent-detection-of-new-devices)
 
 
 ## M-Bus installation guidelines
 
-How to get the installation done in no time
+How to make the installation quick and easy
 
 - Empty conduits or cable routes from the data centre to the junction boxes and the measuring devices
 
-- Pulling electrical cables to all measuring devices and components
+- Pulling of electrical cables to all measuring devices and components
 
 - Sealable junction / connection boxes at all terminal and connection points
 
-- Mounting of the data centre incl. connection
+- Mounting of the data centre including connection
 
 - Power supply 230V / 10A from sealable fuse groups
 
@@ -172,13 +172,13 @@ How to get the installation done in no time
 Caution: Do not apply voltage to the smart-me M-Bus Gateway. The operating voltage may only be switched on by a smart-me partner.
 
 Recommended combination of cable routing
-We recommend dividing the routing of the bus lines into riser lines and branch lines:
+We recommend dividing the bus lines into riser lines and branch lines:
 
 ![M-Bus Gateway – Figure 6](/img/produkte-m-bus-gateway/06.png)
 
-### Regulations for cable and electrical installation
+### Regulations for cabling and electrical installation
 
-The SEV regulations apply in general. Keep the bus lines as short as possible.
+The SEV regulations generally apply. Keep the bus lines as short as possible.
 The following cable types are recommended:
 
 Riser line: TT2×1,5 mm2 (preferred), maximum line length = 1000 m
@@ -189,7 +189,7 @@ Note: All junction, connection and joint points must be sealable.
 
 Sealing is carried out by a smart-me partner.
 
-### Suggested materials
+### Material suggestions
 
 Connections/joints:
 
@@ -198,7 +198,7 @@ Connections/joints:
 - Flush-mounted boxes: standard junction boxes
 
 
-Wire connections:
+Cable connections:
 
 - Button press connectors «Scotchlok IDC» 0,5 ... 1,5 mm2
 
@@ -213,4 +213,4 @@ The data is read sequentially from each M-Bus meter according to the configured 
 
 The smart-me Cloud generally displays all data that the meter sends via M-BUS. smart-me complies with the EN 13757-2, -3 standard.
 
-Some examples of the mapping of the M-BUS telegrams: [Examples: smart-me M-BUS OBIS Mapping](https://docs.google.com/spreadsheets/d/1YdANNycQFGBsSAA0OtO-GKNZQg42OdUJ03VKlixGZ1w/edit#gid=0)
+Some examples of the mapping of M-BUS telegrams: [Examples: smart-me M-BUS OBIS Mapping](https://docs.google.com/spreadsheets/d/1YdANNycQFGBsSAA0OtO-GKNZQg42OdUJ03VKlixGZ1w/edit#gid=0)

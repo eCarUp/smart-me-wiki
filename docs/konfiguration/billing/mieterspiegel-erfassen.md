@@ -5,14 +5,12 @@ description: 'Für die Abrechnung nach VEWA müssen alle Mieterkontrakte und Lee
 sidebar_label: 'Mieterspiegel erfassen'
 naechste_schritte: [konfiguration/billing/stromtarife-definieren/index]
 ---
+<Menueweg>Rechnungserstellung → Liegenschaften & Tarife → Wohn-/ Gewerbeeinheit</Menueweg>
+
 <div className="row">
 <div className="col col--7">
 
 Für die Abrechnung nach VEWA müssen alle Mieterkontrakte und Leerstände lückenlos bei smart-me angegeben werden.
-
-- Menu Rechnungsstellung
-
-- Konfiguration
 
 - Links Abrechnungseinheit auswählen (Unterordner z.B. WHG 1)
 

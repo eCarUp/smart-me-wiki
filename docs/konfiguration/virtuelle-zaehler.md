@@ -4,6 +4,8 @@ slug: '/konfiguration/virtuelle-zaehler'
 description: 'Mit virtuellen Zählern können mathematische Operationen über mehrere physische Zähler gemacht werden.'
 sidebar_label: 'Virtuelle Zähler'
 ---
+<Menueweg>Virtuelle Zähler</Menueweg>
+
 Mit virtuellen Zählern können mathematische Operationen über mehrere physische Zähler gemacht werden. Meistens wird dies im Zusammenhang mit dem smart-me Billing verwendet.
 
 ## Voraussetzung

@@ -6,6 +6,9 @@ sidebar_label: 'Mieterspiegel erfassen'
 naechste_schritte: [konfiguration/billing-deutschland/stromtarife-definieren]
 vorheriger_schritt: konfiguration/billing/zaehler-zuweisen
 ---
+
+<Menueweg>Rechnungserstellung → Liegenschaften & Tarife → Abrechnungseinheit</Menueweg>
+
 ## Konfiguration der Wohneinheiten
 
 Klicke nun nacheinander auf die verschiedenen Wohneinheiten Ihrer Liegenschaft und spezifizieren sie.

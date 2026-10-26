@@ -4,6 +4,8 @@ slug: '/konfiguration/firmware-update'
 description: 'Firmware Update durchführen'
 sidebar_label: 'Firmware Update'
 ---
+<Menueweg>System → Firmware Update</Menueweg>
+
 ## Firmware Update durchführen
 
 Die smart-me Produkte erfahren durch Ihren Produktlebenszyklus immer wieder Verbesserungen und Funktionserweiterungen.

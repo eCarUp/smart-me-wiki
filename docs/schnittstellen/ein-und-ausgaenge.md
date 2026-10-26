@@ -4,6 +4,8 @@ slug: '/schnittstellen/ein-und-ausgaenge'
 description: 'Ein- und Ausgänge konfigurieren'
 sidebar_label: 'Ein- und Ausgänge'
 ---
+<Menueweg>Dashboard → Gerät → Einstellungen (Zahnrad)</Menueweg>
+
 ## Ein- und Ausgänge konfigurieren
 
 <div className="row">

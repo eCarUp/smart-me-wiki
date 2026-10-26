@@ -4,18 +4,20 @@ slug: '/konfiguration/multilevel-lastmanagement'
 description: 'Webinar multilevel load management (50 min)'
 sidebar_label: 'Multilevel load management'
 ---
+<Menueweg>Multilevel Load Management</Menueweg>
+
 <Video src="YiiACL00jko" title="YouTube video, webinar recording of the multilevel load management release" />
 
 Webinar multilevel load management (50 min)
 
 ### Technical requirements for using multilevel load management
 
-- Pico firmware version 0.0.25 or higher --> [Perform a firmware update](/konfiguration/firmware-update)
+- Pico firmware version 0.0.25 or higher --> [Perform a firmware upgrade](/konfiguration/firmware-update)
 
 - All if/then rules involving Pico have been deleted so that no commands contradicting the MLM are sent.
 
 - As of: 12.03.2024
-    No support for load shedding via Telstar input contacts --> release of the solution in MLM will follow.
+    No support for load shedding via Telstar input contacts --> release of the solution in MLM to follow.
 
 - Load management only works with Telstar CT / Telstar 80A or Nimbus
 
@@ -24,7 +26,7 @@ Webinar multilevel load management (50 min)
 
 Dynamic multilevel load management coordinates the limiting and dynamic capabilities of the individual load groups at building connection and site level.
 
-Its task is to make the remaining free current capacity at each reference point available to the subordinate load groups and thus protect the branch points from overload.
+Its task is to make the remaining free current capacity at each reference point available to the subordinate load groups, thereby protecting the branch points from overload.
 
 Examples of important branch points:
 
@@ -32,7 +34,7 @@ Examples of important branch points:
 
 - Building connection
 
-- Sub-distribution supply line
+- Sub-distribution feeder
 
 - Garage feeder
 
@@ -44,54 +46,54 @@ Limits of dynamic multilevel load management:
 
 - Max. 50 branches (reference points)
 
-![Multilevel load management – figure 1](/img/konfiguration-multilevel-lastmanagement/01.png)
+![Multilevel load management – Figure 1](/img/konfiguration-multilevel-lastmanagement/01.png)
 
 ### Overload protection of the branch points (site connection, sub-distributions, building connection)
 
-Maximum current values can be defined for all branches created in multilevel load management. These act as the absolute upper limit of current consumption and correspond to the fuse rating of the supply lines.
+Maximum current values can be defined for all branches created in multilevel load management. These act as an absolute upper limit for current consumption and correspond to the fuse rating of the feeders.
 
 A branch can only exist according to the following scheme:
 
-- Branch with "unmeasured loads" :
-    There are further consumers or producers behind this branch that are not exclusively Pico groups. A reference meter is required to determine them.
+- Branch with "unmeasured loads":
+    Behind this branch there are further consumers or producers that are not exclusively Pico groups. A reference meter is required to determine them.
 
 - Branch without "unmeasured loads", virtual:
-    The downstream consumers consist exclusively of Pico load groups or of "branches with unmeasured loads" and a corresponding reference meter.
+    The downstream consumers consist exclusively of Pico load groups or of "branches with unmeasured loads" and their corresponding reference meter.
     The total current can therefore be calculated from the sum of these available measurements and corresponds to 100% of the current to be controlled.
 
-    Fields of application:
-    \- Limiting the total site current by means of measured sub-distributions (saving a site meter)
+    Areas of application:
+    \- Limiting the total site current using measured sub-distributions (saving a site meter)
     \- Protecting several branching flat cables from one fused feeder
 
 
-![Multilevel load management – figure 2](/img/konfiguration-multilevel-lastmanagement/02.png)
+![Multilevel load management – Figure 2](/img/konfiguration-multilevel-lastmanagement/02.png)
 
-![Multilevel load management – figure 3](/img/konfiguration-multilevel-lastmanagement/03.png)
+![Multilevel load management – Figure 3](/img/konfiguration-multilevel-lastmanagement/03.png)
 
 Virtual branch (purple) limits on the basis of the branch with unmeasured loads and Pico groups.
 
-### Example setup of a housing development with MLM
+### Example setup of a residential development with MLM
 
-![Multilevel load management – figure 4](/img/konfiguration-multilevel-lastmanagement/04.png)
+![Multilevel load management – Figure 4](/img/konfiguration-multilevel-lastmanagement/04.png)
 
 ### Solar optimization
 
 Solar optimization enables efficient allocation of surplus electricity to the subordinate Pico charging groups. This requires at least one "branch with unmeasured loads" and a corresponding reference meter.
 
-The optimization can only take place once in series (tree from top to bottom) or multiple times in parallel branches.
+The optimization can only take place once in series (tree from top to bottom) or several times in parallel branches.
 
-This means solar optimization can be implemented for the entire site or only for specific buildings.
+This allows solar optimization to be implemented for the entire site or only for specific buildings.
 
 Example:
 
-- Site optimization: solar optimization active on the branch, referenced to the site meter or to a virtually created branch based on the measured sub-branches.
+- Site optimization: solar optimization active on the branch, referencing the site meter or a virtually created branch based on the measured sub-branches.
 
-- Building optimization: solar optimization active on several branches, referenced to the respective building meters.
+- Building optimization: solar optimization active on several branches, each referencing the respective building meter.
 
 
 With solar optimization on the site connection, surplus produced in building B is also available to the charging infrastructure in building A.
 
-![Multilevel load management – figure 5](/img/konfiguration-multilevel-lastmanagement/05.png)
+![Multilevel load management – Figure 5](/img/konfiguration-multilevel-lastmanagement/05.png)
 
 ### Minimum charging current: indirect prioritization and peak load smoothing
 
@@ -106,19 +108,19 @@ This function makes it possible to provide a minimum charging current independen
 
 Only an exceeded current limit of a branch would have an opposing effect on it.
 
-If the minimum charging current can be guaranteed, it limits direct grid consumption to the set level. 
+Provided the minimum charging current can be guaranteed, it limits direct grid consumption to the set level. 
 
 If solar optimization is in place, however, the available charging current can rise above the set minimum and is increased accordingly.
 
-Application example:
+Example of use:
 
-Reduce charging current during production times to reduce load peaks.
+Reduce the charging current during production hours to reduce load peaks.
 
-Reduce charging current at midday to reduce load peaks.
+Reduce the charging current at midday to reduce load peaks.
 
-Reduce charging current during the day to achieve a higher prioritization of solar power.
+Reduce the charging current during the day to achieve a higher prioritization of solar power.
 
-Giving preference to outdoor parking groups over underground car park spaces (group prioritization)
+Prefer outdoor parking space groups over underground car park spaces (group prioritization)
 
 Prioritization
 
@@ -127,7 +129,7 @@ Setting the available minimum current of a group implies a certain priority over
 Example:
 
 26 A per phase are currently available for distribution in the MLM:
-Charging group A : minimum current = 10A
+Charging group A: minimum current = 10A
 Charging group B: minimum current = 20A
 
 Charging group B is supplied with 20A first and charging group A receives the rest.
@@ -135,9 +137,9 @@ Charging group B is supplied with 20A first and charging group A receives the re
 </div>
 <div className="col col--6 text--center">
 
-![Multilevel load management – figure 6](/img/konfiguration-multilevel-lastmanagement/06.png)
+![Multilevel load management – Figure 6](/img/konfiguration-multilevel-lastmanagement/06.png)
 
-![Multilevel load management – figure 7](/img/konfiguration-multilevel-lastmanagement/07.png)
+![Multilevel load management – Figure 7](/img/konfiguration-multilevel-lastmanagement/07.png)
 
 </div>
 </div>
@@ -147,19 +149,19 @@ Charging group B is supplied with 20A first and charging group A receives the re
 All Pico charging stations must be set to the connection loss setting "Max. current (per group)" ("Max. Strom (pro Gruppe)"). The other two modes are only permitted for standalone operation.
 
 Function:
-Charging groups affected by internet loss are regulated back to the level defined for the group. The current is distributed automatically by the charging manager, taking the active charging sessions into account.
-Multilevel load management assumes that the lost branches draw the defined group current and subtracts this from the available remaining current.
+Charging groups affected by internet loss are regulated back to the level defined by the group. The current is distributed automatically by the charging manager, taking the active charging sessions into account.
+Multilevel load management assumes that the lost branches draw the defined group current and deducts this from the available remaining current.
 
 The functional part of the installation with an active internet connection continues to operate in normal mode with this defined restriction.
 
-![Multilevel load management – figure 8](/img/konfiguration-multilevel-lastmanagement/08.png)
+![Multilevel load management – Figure 8](/img/konfiguration-multilevel-lastmanagement/08.png)
 
 ### Load shedding with MLM
 
-Load shedding can be implemented in various ways using the
-RSE signal of the energy supplier.
+Load shedding can be implemented in various ways with the help of the
+ripple control signal (RSE) from the energy supplier.
 
-- Pico hardware inputs on the rear for transmission to one Pico group.
+- Pico hardware inputs on the rear for transmission to a Pico group.
 
 - Signal on meter inputs and transmission via MLM to all load groups.
 
@@ -168,21 +170,21 @@ More on this under
 
 [Configuring load shedding with MLM](/konfiguration/multilevel-lastmanagement/mlm-konfigurieren#configuring-load-shedding)
 
-[Configuring load shedding via external inputs](/produkte/pico-ladestation#load-shedding-external-inputs)
+[Configuring load shedding using external inputs](/produkte/pico-ladestation#load-shedding-external-inputs)
 
-![Multilevel load management – figure 9](/img/konfiguration-multilevel-lastmanagement/09.png)
+![Multilevel load management – Figure 9](/img/konfiguration-multilevel-lastmanagement/09.png)
 
 Pico hardware inputs
 
-![Multilevel load management – figure 10](/img/konfiguration-multilevel-lastmanagement/10.png)
+![Multilevel load management – Figure 10](/img/konfiguration-multilevel-lastmanagement/10.png)
 
 Cloud-based load shedding (MLM)
 
 ### Limits of multilevel load management
 
-Maximum number of Picos and reference meter points : 1000 units
+Maximum number of Picos and reference meter points: 1000 units
 
-Maximum number of virtual and hardware reference points: 50 units, 6 in series
+Maximum number of virtual and hardware reference points: 50 units, 6 units in series
 
 Maximum size of an individual charging station group: 200 charging stations
 
@@ -193,14 +195,14 @@ Minimum number of reference points in the MLM: 1 unit (hardware or virtual)
 Maximum number of charging groups: 60 groups
 
 
-Examples of minimum configurations:
+Examples of minimum designs:
 
 - 1 feeder with 1-200 charging stations incl. 1 reference point
 
 
-Examples of a typical maximum configuration:
+Examples of a typical maximum design:
 
-- 60 feeders with 16 charging stations each incl. 8 reference points can be created. (Large housing developments with ZEV (association for own consumption))
+- 60 feeders with 16 charging stations each incl. 8 reference points can be created. (Large residential developments with ZEV)
 
 
 - 6 feeders with 150 stations each incl. 50 reference points (public parking complexes)

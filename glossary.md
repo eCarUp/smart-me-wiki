@@ -108,6 +108,51 @@ der ersten Nennung in einem Abschnitt eingeführt und danach verwendet.
 | Multilevel Lastmanagement | multilevel load management | gestion de la charge multiniveau | gestione del carico multilivello |
 | Standfuss | stand | socle | piedistallo |
 
+### Beschriftungen in der smart-me Oberfläche
+
+Menüpunkte und Schaltflächen, wie sie im Portal tatsächlich heissen. Sie
+erscheinen im Text als Menüweg — `<Menueweg>Rechnungserstellung → Einstellungen</Menueweg>`
+— und müssen deshalb genau so übersetzt werden wie die Oberfläche selbst.
+Weicht eine Übersetzung hier ab, sucht der Leser im Portal nach einem Eintrag,
+den es dort nicht gibt.
+
+Die Tabelle bildet die Navigation des Portals vollständig ab, abgelesen am
+11. Oktober 2026. **Für Menüpunkte gilt sie vor jeder anderen Tabelle dieses
+Glossars** — auch dort, wo derselbe Begriff im Fliesstext anders übersetzt wird.
+Eingerückte Einträge stehen im Menü unter dem Punkt darüber.
+
+| Deutsch | English | Français | Italiano |
+| --- | --- | --- | --- |
+| Dashboard | Dashboard | Dashboard | Pannello di controllo |
+| Meine Dashboards | My Dashboards | Mes tableaux de bord | I miei dashboard |
+| Zähler & Ordner Konfiguration | Meter & Folder Configuration | Configuration du compteur et du dossier | Configurazione di contatori e cartelle |
+| Benutzerkonfiguration | User Configuration | Configuration de l'utilisateur | Configurazione utente |
+| Wenn-Dann Aktionen | If-Then Actions | Actions si-alors | Azioni "se-quando |
+| Öffentliche Links | Public Links | Liens publics | Link pubblici |
+| Rechnungserstellung | Billing | Facturation | Fatturazione |
+| → Einstellungen | Settings | Paramètres | Impostazioni |
+| → Liegenschaften & Tarife | Properties & tariffs | Immeubles & tarifs | Immobili & tariffe |
+| → Rechnung erstellen | Create invoice | Établir une facture | Emettere una fattura |
+| → Rechnungen | Invoices | Factures | Fatture |
+| Virtuelle Zähler | Virtual Meters | Compteurs virtuels | Contatori virtuali |
+| Schnittstellen | Interfaces | Interfaces | Interfacce |
+| → Automatischer Export | Auto Export | Exportation automatique | Esportazione automatica |
+| → Swisseldex Import | Swisseldex Import | Importation Swisseldex | Importazione da Swisseldex |
+| → Drittanbieter-Import | 3rd Party Import | Importation de tiers | Importazione di terze parti |
+| → LoRa Gateway | LoRa Gateway | Passerelle LoRa | Gateway LoRa |
+| Multilevel Lastmanagement | Multilevel Load Management | Gestion de charge à plusieurs niveaux | Gestione del carico multilivello |
+| System | System | Système | Sistema |
+| → Systemgesundheit | System Health | Santé du système | Salute del sistema |
+| → Firmware Update | Firmware update | Mise à jour du firmware | Aggiornamento del firmware |
+| Technische Hilfsmittel | Technical Tools | Aides techniques | Ausili tecnici |
+| App-Labor | AppLAB | Laboratoire d'applications | Laboratorio delle app |
+| Neuigkeiten | News | Nouvelles | Ultime notizie |
+| Smart-Me Wiki | Smart-Me Wiki | Smart-Me Wiki | Wiki Smart-Me |
+| Funktioniert etwas nicht? | Something not working? | Quelque chose ne fonctionne pas ? | C'è qualcosa che non funziona? |
+
+Der Menüpunkt **API** heisst in allen Sprachen gleich und steht deshalb oben in
+Abschnitt 1.
+
 ### Software und Bedienung
 
 | Deutsch | English | Français | Italiano |

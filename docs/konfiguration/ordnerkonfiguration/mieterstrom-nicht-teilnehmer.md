@@ -5,6 +5,8 @@ description: 'Ordnerstruktur für deutschen Mieterstrom nach Messkonzept MKD3, w
 sidebar_label: 'Mieterstrom mit nicht Teilnehmern'
 naechste_schritte: [konfiguration/wenndann-aktionen/alarme]
 ---
+<Menueweg>Zähler & Ordner Konfiguration</Menueweg>
+
 ### Einzelne Parteien nehmen nicht teil
 
 Diese Struktur gilt für das [Messkonzept MKD3](/planung/mkd3-messkonzept-nicht-teilnehmer): Hinter dem Hausanschluss hängen sowohl Mieterstromteilnehmer als auch Parteien, die ihren Strom weiterhin direkt vom Energieversorger beziehen.

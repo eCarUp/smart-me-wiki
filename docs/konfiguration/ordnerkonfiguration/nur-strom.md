@@ -5,6 +5,8 @@ description: 'Nur Strom mit oder ohne E-Mobilität in Einzelgebäuden oder Über
 sidebar_label: 'Liegenschaft nur mit Strom'
 naechste_schritte: [konfiguration/wenndann-aktionen/alarme]
 ---
+<Menueweg>Zähler & Ordner Konfiguration</Menueweg>
+
 ### Nur Strom mit oder ohne E-Mobilität in Einzelgebäuden oder Überbauungen
 
 Relevant für ZEV's mit Stromzähler und optional Ladestationen.

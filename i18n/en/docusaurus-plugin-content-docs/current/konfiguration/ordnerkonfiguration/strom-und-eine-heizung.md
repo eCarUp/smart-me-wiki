@@ -5,23 +5,25 @@ description: 'Configuration without automatic electricity billing'
 sidebar_label: 'Property with electricity and heat / water'
 naechste_schritte: [konfiguration/wenndann-aktionen/alarme]
 ---
+<Menueweg>Meter & Folder Configuration</Menueweg>
+
 ## Configuration without automatic electricity billing
 
 Advantage:
 
-- No need to enter tenant contracts twice
+- No duplicate entry of tenant contracts required
 
 
 Disadvantage:
 
 - No automatic billing for electricity
 
-- Electricity tariffs must be entered multiple times (per property)
+- Multiple entry of the electricity tariffs (per property)
 
 
 ### 3b. Electricity with or without e-mobility and multi-energy with one building.
 
-Possible differences: For properties with electricity meters only and no multi-energy, the heat pump can be allocated directly to the apartments using an allocation key. With multi-energy, the heat pump is set up as a sub-meter (separate folder) so that a separate invoice is created, which then has to be transferred as a cost factor in the VEWA configuration.
+Possible differences: For properties with electricity meters only and no multi-energy, the heat pump can be allocated directly to the apartments using an allocation key. With multi-energy, the heat pump is stored as a sub-meter (separate folder) so that a separate invoice is created, which must then be transferred as a cost factor in the VEWA configuration.
 
 3b. Basic structure
 
@@ -31,13 +33,13 @@ Possible differences: For properties with electricity meters only and no multi-e
 
 Use drag and drop to add the relevant meters to the nodes.
 
-Important information on the assignment:
+Important information on assignment:
 
 Electricity / heat / water
 
 Only assign metering points directly to the billing units if the invoice recipient will later have to pay 100% of the consumption.
 
-If you only want to assign meters to part of an individual billing unit, move the meter into a node within the "Technical meters" ("Technischen Zähler") node.
+If you only want to assign a meter to part of an individual billing unit, move the meter into a node within the "Technical Meters" ("Technische Zähler") node.
 
 Later, such a meter can be distributed by percentage in Billing.
 
@@ -54,7 +56,7 @@ Do not assign charging stations directly to apartments; instead, create a separa
 
 Charging stations from other manufacturers
 
-Charging stations from other manufacturers are not managed or billed directly in smart-me. In this case, create a node for the e-mobility outgoing circuit and assign the outgoing circuit meter to the node. This gives you the total consumption for all charging stations.
+Charging stations from other manufacturers are not managed or billed directly in smart-me. In this case, create a node for the e-mobility feeder and assign the feeder meter to the node. This gives you the total consumption for all charging stations.
 
 
 
@@ -64,7 +66,7 @@ Charging stations from other manufacturers are not managed or billed directly in
 
 ### Finally, create the alarms for a connection failure.
 
-This way, you notice early on when a meter fails and minimize the resulting gap in the measurement data. 
+This way, you notice early when a meter fails and minimize the resulting gap in the measurement data. 
 
 
 ## Configuration with automatic electricity billing
@@ -73,22 +75,22 @@ Advantage:
 
 - Automatic billing for electricity
 
-- No need to enter electricity tariffs twice
+- No duplicate entry of electricity tariffs
 
 
 Disadvantage:
 
-- Tenant contracts must be entered multiple times
+- Multiple entry of tenant contracts
 
 
 ### Coming soon
 
 Disclaimer:
 
-For this configuration, an additional property for electricity only must be created, which contains all apartments of the three buildings.
+For this configuration, an additional property must be created for electricity only, which contains all apartments of the three buildings.
 
 Only the electricity meters are assigned in this property.
 
 ### Finally, create the alarms for a connection failure.
 
-This way, you notice early on when a meter fails and minimize the resulting gap in the measurement data.
+This way, you notice early when a meter fails and minimize the resulting gap in the measurement data.

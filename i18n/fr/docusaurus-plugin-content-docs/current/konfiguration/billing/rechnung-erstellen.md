@@ -1,21 +1,30 @@
 ---
-title: 'Créer une facture'
+title: 'Établir une facture'
 slug: '/konfiguration/billing/rechnung-erstellen'
-description: 'Créer une facture d''essai et les factures définitives – la dernière étape de la configuration de Billing.'
-sidebar_label: 'Créer une facture'
+description: 'Établir une facture d''essai et les factures définitives – la dernière étape de la configuration de Billing.'
+sidebar_label: 'Établir une facture'
 naechste_schritte: [konfiguration/benutzerkonfiguration]
 vorheriger_schritt: konfiguration/billing/vewa-abrechnung
 ---
-Lorsque l'encadré bleu des tarifs virtuels (Virtuelle Tarife) atteint la date du jour, vous pouvez créer une facture d'essai.
+<Menueweg>Facturation → Établir une facture</Menueweg>
 
-- Menu Facturation (Rechnungsstellung)
+<div className="row">
+<div className="col col--5">
 
-- Factures (Rechnungen)
+Lorsque la case bleue des tarifs virtuels (Virtuelle Tarife) se trouve à la date du jour, vous pouvez établir une facture d'essai.
 
 - Saisir la date
 
-- Créer l'aperçu des factures (Rechnungsvorschau erstellen)
+- Créer l'aperçu de la facture (Rechnungsvorschau erstellen)
 
-Si l'aperçu vous convient, vous pouvez revenir en arrière et créer les factures définitives.
+Si l'aperçu vous convient, vous pouvez revenir en arrière et établir les factures définitives.
 
-Cette page décrit les messages d'erreur les plus fréquents et les solutions possibles : [Messages d'erreur Billing](/stoerungsbehebung/billing-fehlermeldungen)
+Vous trouverez sur cette page une description des messages d'erreur les plus fréquents et des solutions possibles : [Messages d'erreur Billing](/stoerungsbehebung/billing-fehlermeldungen)
+
+</div>
+<div className="col col--7 bild--mitte">
+
+![Boîte de dialogue « Établir une facture » avec la période de décompte, le numéro de facture et les boutons Aperçu de la facture, Établir une facture et Exporter](/img/konfiguration-billing/14.png)
+
+</div>
+</div>

@@ -4,6 +4,8 @@ slug: '/schnittstellen/p1-schnittstelle'
 description: 'Die P1 Schnittstelle erlaubt es Livedaten von unserer Meterhardware in Drittsysteme zu bringen.'
 sidebar_label: 'P1 Schnittstelle'
 ---
+<Menueweg>Dashboard → Gerät → Einstellungen (Zahnrad)</Menueweg>
+
 ## P1 Schnittstelle
 
 Die P1 Schnittstelle erlaubt es Livedaten von unserer Meterhardware in Drittsysteme zu bringen. Die Daten können dann zur Analyse oder zur Steuerung verwendet werden.

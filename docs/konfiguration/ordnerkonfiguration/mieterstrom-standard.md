@@ -5,6 +5,8 @@ description: 'Ordnerstruktur für deutschen Mieterstrom, wenn alle Bezüger am M
 sidebar_label: 'Mieterstrom Standard'
 naechste_schritte: [konfiguration/wenndann-aktionen/alarme]
 ---
+<Menueweg>Zähler & Ordner Konfiguration</Menueweg>
+
 ### Alle Bezüger sind Mieterstromteilnehmer
 
 Diese Struktur gilt für das [Standard Messkonzept](/planung/standard-messkonzept): Hinter dem Hausanschluss hängen ausschliesslich Parteien, die am Mieterstrom teilnehmen. Nimmt auch nur eine Partei nicht teil, brauchst du stattdessen [Mieterstrom mit nicht Teilnehmern](/konfiguration/ordnerkonfiguration/mieterstrom-nicht-teilnehmer).

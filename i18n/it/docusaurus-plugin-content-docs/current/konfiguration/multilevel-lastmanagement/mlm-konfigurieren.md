@@ -4,29 +4,31 @@ slug: '/konfiguration/multilevel-lastmanagement/mlm-konfigurieren'
 description: 'Configurazione di una gestione del carico multilivello (MLM) dinamica'
 sidebar_label: 'Configurazione della gestione del carico multilivello'
 ---
+<Menueweg>Gestione del carico multilivello</Menueweg>
+
 ## Configurazione di una gestione del carico multilivello (MLM) dinamica
 
-La configurazione di una gestione del carico multilivello si effettua nella sezione «Gestione del carico multilivello» («Multilevel Lastmanagement») della navigazione principale
+La configurazione di una gestione del carico multilivello si effettua nella sezione "Gestione del carico multilivello" ("Multilevel Lastmanagement") della navigazione principale
 
 La funzione consente:
 
 - Controllo dinamico di più gruppi di ricarica Pico statici
 
-- Limitazione delle potenze di ricarica su punti di riferimento all'interno dell'installazione o dell'area
+- Limitazione delle potenze di ricarica a punti di riferimento all'interno dell'impianto o dell'area
 
 - Ottimizzazioni solari
 
 - Riduzioni dei picchi di carico
 
-- Prioritizzazioni dei gruppi di ricarica
+- Prioritizzazione dei gruppi di ricarica
 
 ![Configurazione della gestione del carico multilivello – Figura 1](/img/konfiguration-multilevel-lastmanagement-mlm-konfigurieren/01.png)
 
 ### Definizione dei termini
 
-La gestione del carico multilivello può essere considerata come un albero, con i seguenti termini e utilizzi:
+La gestione del carico multilivello può essere vista come un albero, con i seguenti termini e utilizzi:
 
-- Tronco (punto di allacciamento principale dell'installazione)
+- Tronco (punto di allacciamento principale dell'impianto)
 
 - Rami (punti limitanti come diramazioni, allacciamenti degli edifici, sottodistribuzioni, partenze cumulative)
 
@@ -35,22 +37,22 @@ La gestione del carico multilivello può essere considerata come un albero, con 
 
 
 
-Il tronco e i rami possono assumere più funzioni:
+Il tronco e i rami possono assumere diverse funzioni:
 
 - Limitazione della corrente (protezione massima)
 
 - Ottimizzazione solare ON o OFF
 
-- Presenza di carichi non misurati (attivo o inattivo)
+- Presenza di carichi non misurati (attivi o inattivi)
 
 
 
 
 Carichi non misurati:
 
-Un carico non misurato corrisponde a un produttore o a un utilizzatore che non è un gruppo di stazioni di ricarica Pico. Per poter considerare dinamicamente questa produzione o questo carico, è necessario mettere a disposizione un hardware di misura come riferimento. (Ramo misurato)
+Un carico non misurato corrisponde a un produttore o a un consumatore che non è un gruppo di stazioni di ricarica Pico. Per poter considerare dinamicamente questa produzione o questo carico, è necessario mettere a disposizione un hardware di misura come riferimento. (Ramo misurato)
 
-Il ramo può essere limitato anche staticamente senza un contatore di riferimento, ma in questo caso deve essere limitato a un massimo funzionale della protezione, tenendo conto del carico di base.
+Il ramo può anche essere limitato staticamente senza un contatore di riferimento, ma in tal caso deve essere limitato a un massimo funzionale, tenendo conto del carico di base, rispetto alla protezione.
 
 Rami tipici con carichi non misurati: 
 
@@ -69,13 +71,13 @@ Rami tipici con carichi non misurati:
 
 Aggiungere:
 
-Seleziona il tronco o un ramo e crea un ramo o una diramazione aggiuntivi tramite «Aggiungi ramo» («Ast hinzufügen»).
+Seleziona il tronco o un ramo e crea un ramo o una diramazione aggiuntivi tramite "Aggiungi ramo" ("Ast hinzufügen").
 
 Eliminare:
 
-Selezionando il ramo corrispondente e la funzione «Elimina» («Löschen») vengono eliminati il ramo selezionato e tutti i rami a esso collegati.
+Selezionando il ramo corrispondente e utilizzando la funzione "Elimina" ("Löschen") vengono eliminati il ramo selezionato e tutti i rami ad esso collegati.
 
-Per mantenere gli elementi successivi, i rami e i gruppi possono essere collegati preventivamente a un altro ramo o al tronco tramite la funzione Drag & Drop.
+Affinché gli elementi successivi vengano mantenuti, i rami e i gruppi possono essere preventivamente collegati a un altro ramo o al tronco tramite la funzione drag & drop.
 
 
 
@@ -90,12 +92,12 @@ Per mantenere gli elementi successivi, i rami e i gruppi possono essere collegat
 
 I gruppi di stazioni di ricarica non ancora assegnati e configurati correttamente per l'MLM si trovano sul lato destro.
 
-Possono essere collegati ai rami tramite la funzione Drag & Drop e spostati anche all'interno della configurazione tramite Drag & Drop.
+Possono essere collegati ai rami tramite la funzione drag & drop e spostati con drag & drop anche all'interno della configurazione.
 
 Nota:
-Il presupposto per l'utilizzo nell'MLM è che l'impostazione in caso di interruzione della connessione sia configurata su «Corrente max. (per gruppo)» («Max. Strom (pro Gruppe)»).
+Il presupposto per l'utilizzo nell'MLM è che l'impostazione in caso di interruzione della connessione sia configurata su "Corrente max. (per gruppo)" ("Max. Strom (pro Gruppe)").
 
-Questa impostazione può essere modificata su una stazione di ricarica Pico nella «Configurazione» («Konfiguration»).
+Questa impostazione può essere modificata su una stazione di ricarica Pico in "Configurazione" ("Konfiguration").
 
 </div>
 <div className="col col--5 text--center">
@@ -112,22 +114,22 @@ Questa impostazione può essere modificata su una stazione di ricarica Pico nell
 <div className="row">
 <div className="col col--6">
 
-Configurazione dei rami:
+Configurazione del ramo:
 
 L'ottimizzazione solare è possibile 1x sul tronco (ottimizzata sull'area) oppure più volte in parallelo su rami con carichi non misurati attivi, ad es. allacciamenti degli edifici.
 
 A seconda della scelta, l'eccedenza solare viene ottimizzata su tutti i gruppi di stazioni di ricarica o solo su una parte di essi.
 
-Configurazione dei gruppi:
+Configurazione del gruppo:
 
-Affinché l'ottimizzazione solare abbia l'effetto desiderato, ai gruppi di stazioni da ottimizzare deve essere assegnata temporaneamente una corrente minima di ricarica ridotta.
-Questa corrente minima di ricarica viene definita sul gruppo di ricarica corrispondente (configurazione del gruppo) e corrisponde al prelievo massimo possibile dalla rete per il gruppo di ricarica nelle ore definite.
+Affinché l'ottimizzazione solare abbia l'effetto desiderato, ai gruppi di stazioni da ottimizzare deve essere assegnata temporaneamente una corrente di ricarica minima ridotta.
+Questa corrente di ricarica minima viene definita sul relativo gruppo di ricarica (configurazione del gruppo) e corrisponde al prelievo massimo possibile dalla rete per il gruppo di ricarica nelle ore definite.
 
-Contemporaneamente, con l'impostazione della corrente minima di ricarica è possibile praticare anche la riduzione dei picchi di carico.
+Allo stesso tempo, con l'impostazione della corrente di ricarica minima è possibile anche ridurre i picchi di carico.
 
 Ogni gruppo può essere configurato in modo diverso.
 
-I gruppi con una corrente minima di ricarica più elevata vengono trattati in modo prioritario nella distribuzione della corrente di rete disponibile.
+I gruppi con una corrente di ricarica minima più elevata vengono trattati con priorità nella distribuzione della corrente di rete disponibile.
 
 </div>
 <div className="col col--6 text--center">
@@ -153,16 +155,16 @@ Se l'attivazione non può essere eseguita a causa di configurazioni errate, le c
 
 ### Eliminare la configurazione dell'MLM
 
-La configurazione di un MLLM può essere eliminata completamente premendo un pulsante, per poter inserire una nuova configurazione.
+La configurazione di un MLLM può essere eliminata completamente premendo un pulsante, per poter registrare una nuova configurazione.
 
 ![Configurazione della gestione del carico multilivello – Figura 10](/img/konfiguration-multilevel-lastmanagement-mlm-konfigurieren/10.png)
 
-### Configurazione del distacco dei carichi
+### Configurazione del distacco del carico
 
 <div className="row">
 <div className="col col--7">
 
-L'MLM dispone di un controllo integrato del distacco dei carichi.
+L'MLM dispone di un controllo integrato del distacco del carico.
 
 Questo controllo può essere utilizzato al posto degli ingressi hardware sul retro delle stazioni di ricarica Pico. 
 
@@ -170,18 +172,18 @@ Note:
 
 - I segnali collegati direttamente all'hardware Pico non possono essere sovrascritti con questa funzione. 
 
-- La funzione richiede una connessione Internet attiva per funzionare. In caso di perdita della connessione Internet viene utilizzato il valore impostato per l'interruzione di Internet dei gruppi Pico.
+- Per funzionare, la funzione richiede una connessione Internet attiva. In caso di perdita della connessione Internet viene utilizzato il valore impostato per l'interruzione di Internet dei gruppi Pico.
 
-La funzione consente di interpretare uno o più segnali digitali delle aziende di approvvigionamento energetico e di assegnare a tutti i gruppi di stazioni di ricarica dell'MLM una potenza di ricarica ridotta.
+La funzione consente di interpretare uno o più segnali digitali delle aziende elettriche e di assegnare a tutti i gruppi di stazioni di ricarica dell'MLM una potenza di ricarica ridotta.
 
 I segnali di comando vengono cablati su uno o due ingressi di contatori (E1) situati nelle vicinanze.
 
-Sono compatibili a tale scopo gli hardware smart-me Telstar CT e Telstar 80A.
+Sono compatibili a questo scopo gli hardware smart-me Telstar CT e Telstar 80A.
 
 Nota:
-Affinché gli ingressi possano essere utilizzati, devono essere configurati lato hardware su «Ingresso digitale» («Digitaler Eingang»). (Impostazioni del contatore («Zählereinstellungen»), E1 --> Ingresso digitale («Digitaler Eingang»))
+Affinché gli ingressi possano essere utilizzati, devono essere configurati lato hardware su "Ingresso digitale" ("Digitaler Eingang"). (Impostazioni del contatore, E1 --> Ingresso digitale)
 
-Configurazioni di comando:
+Configurazioni di controllo:
 
 Con un solo segnale:
 
@@ -195,21 +197,21 @@ Con due segnali:
 
 Applicazione delle percentuali secondo EnWG14a in Germania:
 
-- Per impianti da 22kW, una riduzione dell'82% corrisponde alla garanzia di 4200W di potenza minima per dispositivo nell'installazione.
+- Per impianti da 22kW, una riduzione dell'82% corrisponde alla garanzia di 4200W di potenza minima per dispositivo nell'impianto.
 
-- Per impianti da 11kW, una riduzione del 73% corrisponde alla garanzia di 4200W di potenza minima per dispositivo nell'installazione.
+- Per impianti da 11kW, una riduzione del 73% corrisponde alla garanzia di 4200W di potenza minima per dispositivo nell'impianto.
 
 Interpretazione del segnale:
 
 Il segnale può essere interpretato in modi diversi.
 
-Se il segnale dell'azienda di approvvigionamento energetico viene rimosso in caso di distacco dei carichi (230V --> 0V), la configurazione corretta è «Attivo basso» («Low-Aktiv»).
+Se in caso di distacco del carico il segnale viene rimosso dall'azienda elettrica (230V --> 0V), la configurazione corretta è "Attivo basso" ("Low-Aktiv").
 
-Nessun segnale (0) = 1 = L'energia disponibile viene ridotta
+Nessun segnale (0) = 1 = l'energia disponibile viene ridotta
 
-Se il segnale dell'azienda di approvvigionamento energetico viene applicato in caso di distacco dei carichi (0V --> 230V), occorre selezionare «Attivo alto» («High-Aktiv»).
+Se in caso di distacco del carico il segnale dell'azienda elettrica viene applicato (0V --> 230V), occorre selezionare "Attivo alto" ("High-Aktiv").
 
-Segnale (1) = 1 = L'energia disponibile viene ridotta.
+Segnale (1) = 1 = l'energia disponibile viene ridotta.
 
 [Cablaggio e configurazione degli ingressi dei contatori](/schnittstellen/ein-und-ausgaenge)
 
@@ -229,7 +231,7 @@ Segnale (1) = 1 = L'energia disponibile viene ridotta.
 
 La configurazione MLM può essere disattivata e riattivata in qualsiasi momento.
 
-- Arresta il processo di calcolo e l'assegnazione attiva di valori dai punti di riferimento.
+- Arresta il processo di calcolo e l'assegnazione attiva di valori provenienti dai punti di riferimento.
 
 - Mette a libera disposizione di tutti i gruppi di carico subordinati il valore definito per l'interruzione di Internet.
 
@@ -246,7 +248,7 @@ Imposta il valore su attivo o inattivo e salva poi la configurazione per comunic
 
 - L'ottimizzazione solare si trova qui sull'allacciamento dell'edificio.
 
-- La produzione dell'impianto solare e il consumo proprio dell'edificio vengono misurati e considerati tramite il contatore «Hausanschluss Telstar 80A».
+- La produzione dell'impianto solare e il consumo proprio della casa vengono misurati e considerati tramite il contatore "Allacciamento edificio Telstar 80A" ("Hausanschluss Telstar 80A").
 
 
 ![Configurazione della gestione del carico multilivello – Figura 15](/img/konfiguration-multilevel-lastmanagement-mlm-konfigurieren/15.png)
@@ -255,7 +257,7 @@ Imposta il valore su attivo o inattivo e salva poi la configurazione per comunic
 
 La partenza subordinata per la mobilità elettrica viene qui misurata attivamente per tenere conto dell'illuminazione del garage. In questo modo i gruppi di ricarica devono reagire dinamicamente all'illuminazione del garage.
 
-- L'illuminazione del garage viene considerata con il contatore di riferimento «E-Mobilitätsabgang 63A Telstar 80A».
+- L'illuminazione del garage viene considerata con il contatore di riferimento "Partenza mobilità elettrica 63A Telstar 80A" ("E-Mobilitätsabgang 63A Telstar 80A").
 
 - La protezione della partenza corrisponde a 63A per fase.
 
@@ -272,7 +274,7 @@ Affinché l'ottimizzazione solare abbia effetto, durante il giorno viene ridotta
 
 - Ottimizzazione solare per tutta la settimana dalle 6:00 alle 17:00 con corrente di ricarica minima di 15A per fase
 
-- Livellamento dei picchi a mezzogiorno: dalle 12:00 alle 13:00 le ricariche sono possibili solo con eccedenza solare, il prelievo dalla rete resta a 0A
+- Livellamento dei picchi a mezzogiorno: dalle 12:00 alle 13:00 le ricariche sono possibili solo con eccedenza solare, il prelievo dalla rete rimane a 0A
 
 - La ricarica notturna dalle 18:00 alle 22:00 è possibile con il 50% della capacità.
 
@@ -290,7 +292,7 @@ Affinché l'ottimizzazione solare abbia effetto, durante il giorno viene ridotta
 
 - Ogni casa dispone di un'autorimessa sotterranea
 
-- Più gruppi di ricarica nelle autorimesse sotterranee
+- Diversi gruppi di ricarica nelle autorimesse sotterranee
 
 - TG1 dispone di parcheggi esterni per i visitatori e di parcheggi per gli inquilini
 
@@ -312,7 +314,7 @@ Affinché l'ottimizzazione solare abbia effetto, durante il giorno viene ridotta
 - Il punto di misura è protetto ma non è misurato.
     Poiché i rami successivi dispongono tutti di misurazioni e queste corrispondono al 100% del consumo dell'area, il tronco può essere limitato virtualmente.
 
-- Ottimizzazione della corrente solare sul tronco (area) attiva. (Disponibilità di corrente solare per tutte e tre le case)
+- Ottimizzazione dell'energia solare sul tronco (area) attiva. (Disponibilità di energia solare per tutte e tre le case)
 
 
 ![Configurazione della gestione del carico multilivello – Figura 22](/img/konfiguration-multilevel-lastmanagement-mlm-konfigurieren/22.png)
@@ -337,7 +339,7 @@ TG1 partenza per la mobilità elettrica
 - Protezione 63A per fase
 
 - Carichi non misurati attivi: illuminazione del garage e ventilazione in aggiunta
-    alle stazioni di ricarica elettriche
+    alle stazioni di ricarica
 
 - Considerazione dinamica dell'illuminazione del garage e della ventilazione
 
@@ -346,12 +348,12 @@ TG1 partenza per la mobilità elettrica
 
 ![Configurazione della gestione del carico multilivello – Figura 27](/img/konfiguration-multilevel-lastmanagement-mlm-konfigurieren/27.png)
 
-Parcheggi per visitatori dell'area (stazioni di ricarica pubbliche)
+Parcheggi visitatori dell'area (stazioni di ricarica pubbliche)
 
-- Elevata disponibilità di energia e prioritizzazione a un prezzo di vendita più alto.
-    Pubblicati tramite il backend eCarUp. (Autenticazione backend)
+- Elevata disponibilità di energia e priorità a un prezzo di vendita più alto.
+    Pubblicate tramite il backend eCarUp. (Autenticazione backend)
 
-- Permanentemente il 100% della capacità possibile dalla rete + copertura solare.
+- Costantemente il 100% della capacità possibile dalla rete + copertura solare.
 
 - Riduzione dei picchi di carico a mezzogiorno dalle 12:00 alle 13:00 solo 23A per fase dalla rete + eccedenza solare.
 
@@ -364,14 +366,14 @@ Parcheggi per visitatori dell'area (stazioni di ricarica pubbliche)
 
 Parcheggi per gli inquilini dell'area
 
-- Disponibilità di energia e prioritizzazione medie, con focus sull'energia solare durante il giorno.
+- Disponibilità di energia e priorità medie, focus sull'energia solare durante il giorno.
 
-- Permanentemente il 50% della capacità possibile dalla rete.
+- Costantemente il 50% della capacità possibile dalla rete.
 
 - Protezione del cavo 32A per fase.
 
 - Riduzione dei picchi di carico a mezzogiorno 0A dalle 12:00 alle 13:00.
-    Ricarica solare possibile solo se la produzione non viene utilizzata dall'area per altri scopi.
+    Ricarica solo solare possibile se la produzione non viene utilizzata dall'area per altri scopi.
 
 
 ![Configurazione della gestione del carico multilivello – Figura 30](/img/konfiguration-multilevel-lastmanagement-mlm-konfigurieren/30.png)
@@ -381,13 +383,13 @@ Parcheggi per gli inquilini dell'area
 <div className="row">
 <div className="col col--4">
 
-Parti dell'installazione non trattate:
+Parti dell'impianto non trattate:
 
 - Gli allacciamenti degli edifici e le partenze per la mobilità elettrica delle case 2 e 3 sono identici nel tipo di configurazione.
 
 - I 4 gruppi di ricarica nell'autorimessa sotterranea 3 (TG3) sono configurati in modo simile ai parcheggi per gli inquilini nell'autorimessa sotterranea 1 (TG1)
 
-- Ogni gruppo di ricarica può avere comportamenti separati e ricevere anche correnti di alimentazione d'emergenza diverse in caso di interruzione di Internet.
+- Ogni gruppo di ricarica può avere comportamenti propri e ricevere anche correnti di alimentazione di emergenza diverse in caso di interruzione di Internet.
 
 </div>
 <div className="col col--8 text--center">

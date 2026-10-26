@@ -19,6 +19,7 @@ Editor arbeitet, findet den Weg dazu weiter unten unter
 - [Ein Bild hinzufügen](#ein-bild-hinzufügen)
 - [Bild neben Text stellen](#bild-neben-text-stellen)
 - [Links, rechts oder mittig in einer Spalte](#links-rechts-oder-mittig-in-einer-spalte)
+- [Den Weg durchs Menü zeigen](#den-weg-durchs-menü-zeigen)
 - [Partner und Lieferanten in Kacheln](#partner-und-lieferanten-in-kacheln)
 - [Tabellen](#tabellen)
 - [Eine Frage ins FAQ aufnehmen](#eine-frage-ins-faq-aufnehmen)
@@ -437,6 +438,43 @@ Prüf in dieser Reihenfolge:
 4. Ist das Fenster schmal? Unter rund 1000 Pixel Breite rutschen die Spalten
    untereinander und nehmen die volle Breite ein — dann sieht mittig aus wie
    mittig auf der ganzen Seite.
+
+---
+
+## Den Weg durchs Menü zeigen
+
+Fast jede Anleitung beginnt mit derselben Frage: Wo im Portal bin ich
+eigentlich? Dafür gibt es `<Menueweg>`:
+
+```jsx
+<Menueweg>Rechnungserstellung → Einstellungen</Menueweg>
+```
+
+Daraus wird eine abgesetzte Zeile mit Menüsymbol, die beim Überfliegen
+auffällt. Getrennt wird mit `→`, `›`, `>` oder `|` — was dir bequemer ist. Die
+Zeile gehört an den **Anfang** der Seite, vor den ersten Absatz.
+
+Warum das besser ist als ein Bildschirmfoto des Menüs:
+
+- Die Beschriftungen sind gewöhnlicher Text und gehen damit durch die
+  Übersetzung. Im Glossar steht unter *Beschriftungen in der smart-me
+  Oberfläche*, wie jeder Menüpunkt in den vier Sprachen heisst — der Leser
+  findet den Eintrag im Portal also unter genau dem Namen wieder.
+- Ein Vorleseprogramm liest den Weg vor.
+- Ändert sich die Menüführung, ist eine Textzeile in einer Minute angepasst.
+  Vier Screenshots sind es nicht.
+
+Nimm die Beschriftungen **wörtlich so, wie sie im Portal stehen**. Steht dort
+„Liegenschaften & Tarife", schreib nicht „Liegenschaftskonfiguration" — sonst
+sucht jemand im Menü nach einem Eintrag, den es nicht gibt. Fehlt ein neuer
+Menüpunkt im Glossar, trag ihn dort nach, bevor du ihn verwendest.
+
+Für die Stationen *innerhalb* einer Seite — „Liegenschaft wählen", „Virtuelle
+Tarife" — darf der Weg weitergehen, wenn das dem Lesen hilft:
+
+```jsx
+<Menueweg>Rechnungserstellung → Liegenschaften & Tarife → Liegenschaft → Virtuelle Tarife</Menueweg>
+```
 
 ---
 
@@ -1120,7 +1158,7 @@ Beispiel. Solche Seiten gibt es trotzdem nur einmal. Sie nennen einfach beide
 Folgeseiten, und angezeigt wird die, die zum eingestellten Land passt:
 
 ```yaml
-naechste_schritte: [konfiguration/billing/zahlungsdaten-erfassen, konfiguration/billing-deutschland/mieterspiegel-erfassen]
+naechste_schritte: [konfiguration/billing/iban-hinterlegen, konfiguration/billing-deutschland/mieterspiegel-erfassen]
 vorheriger_schritt: [konfiguration/billing/konfiguration-rechnungsstellung, konfiguration/billing-deutschland/konfiguration-rechnungsstellung]
 ```
 

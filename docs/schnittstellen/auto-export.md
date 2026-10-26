@@ -4,6 +4,8 @@ slug: '/schnittstellen/auto-export'
 description: 'smart-me bietet die Möglichkeit, Messdaten automatisch in ein anderes System zu exportieren.'
 sidebar_label: 'Auto Export'
 ---
+<Menueweg>Schnittstellen → Automatischer Export</Menueweg>
+
 smart-me bietet die Möglichkeit, Messdaten automatisch in ein anderes System zu exportieren.
 
 ### Voraussetzungen

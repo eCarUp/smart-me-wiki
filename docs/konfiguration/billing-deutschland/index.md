@@ -6,6 +6,8 @@ sidebar_label: 'Rechnungsstellung Deutschland'
 naechste_schritte: [konfiguration/billing-deutschland/einstellungen]
 vorheriger_schritt: konfiguration/wenndann-aktionen/alarme
 ---
+<Menueweg>Rechnungserstellung</Menueweg>
+
 ### Voraussetzung
 
 Du brauchst ein smart-me Professional Abo, um Stromabrechnungen nach dem Energiewirtschaftsgesetz (EnWG) erstellen zu können.

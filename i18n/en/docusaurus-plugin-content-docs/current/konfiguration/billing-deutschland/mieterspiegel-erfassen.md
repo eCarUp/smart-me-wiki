@@ -1,11 +1,14 @@
 ---
-title: 'Enter the tenant schedule'
+title: 'Enter tenant schedule'
 slug: '/konfiguration/billing-deutschland/mieterspiegel-erfassen'
 description: 'Store the customer number, contract and term for each residential unit of the tenant electricity property.'
-sidebar_label: 'Enter the tenant schedule'
+sidebar_label: 'Enter tenant schedule'
 naechste_schritte: [konfiguration/billing-deutschland/stromtarife-definieren]
 vorheriger_schritt: konfiguration/billing/zaehler-zuweisen
 ---
+
+<Menueweg>Billing → Properties & tariffs → Billing unit</Menueweg>
+
 ## Configuring the residential units
 
 Now click on each of the residential units of your property in turn and specify them.
@@ -13,7 +16,7 @@ Now click on each of the residential units of your property in turn and specify 
 <div className="row">
 <div className="col col--7">
 
-### Customer number (Kundennummer)
+### Customer number
 
 Here you set the customer number for this tenant.
 
@@ -21,7 +24,7 @@ Note:
 
 The customer number is automatically also used as the name of the PDF document to make external identification easier.
 
-### Contract and term (Vertrag und Laufzeit)
+### Contract and term
 
 Here you can insert contractual provisions. An example (no guarantee of legal validity) would be:
 

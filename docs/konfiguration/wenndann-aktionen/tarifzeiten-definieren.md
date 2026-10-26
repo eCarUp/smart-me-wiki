@@ -5,7 +5,7 @@ description: 'Aufbau der Wenn Aktion für virtuelle Tarife'
 sidebar_label: 'Tarifzeiten definieren'
 naechste_schritte: [konfiguration/billing/stromtarife-definieren/index]
 ---
-![Tarifzeiten definieren – Abbildung 1](/img/konfiguration-wenndann-aktionen-tarifzeiten-definieren/01.png)
+<Menueweg>Wenn-Dann Aktionen</Menueweg>
 
 ## Aufbau der Wenn Aktion für virtuelle Tarife
 

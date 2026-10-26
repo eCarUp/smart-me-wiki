@@ -4,7 +4,7 @@ slug: '/konfiguration/my-dashboards'
 description: 'Erzeuge eine personalisierte Energiekarte deines Gebäudes.'
 sidebar_label: 'My Dashboards'
 ---
-![My Dashboards – Abbildung 1](/img/konfiguration-my-dashboards/01.png)
+<Menueweg>Meine Dashboards</Menueweg>
 
 ## Meine Energiekarte
 

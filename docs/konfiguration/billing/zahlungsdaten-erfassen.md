@@ -5,6 +5,9 @@ description: 'IBAN und Kontodaten für die QR-Rechnung erfassen: Aufbau der Rech
 sidebar_label: 'Zahlungsdaten (QR)'
 naechste_schritte: [konfiguration/billing/mieterspiegel-erfassen]
 ---
+
+<Menueweg>Rechnungserstellung → Liegenschaften & Tarife</Menueweg>
+
 <div className="row">
 <div className="col col--7">
 

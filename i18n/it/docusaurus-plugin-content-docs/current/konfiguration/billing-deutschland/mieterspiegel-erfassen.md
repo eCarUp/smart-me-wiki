@@ -6,16 +6,19 @@ sidebar_label: 'Registrare l''elenco degli inquilini'
 naechste_schritte: [konfiguration/billing-deutschland/stromtarife-definieren]
 vorheriger_schritt: konfiguration/billing/zaehler-zuweisen
 ---
+
+<Menueweg>Fatturazione → Immobili & tariffe → Unità di conteggio</Menueweg>
+
 ## Configurazione delle unità abitative
 
-Clicchi ora una dopo l'altra sulle diverse unità abitative del Suo immobile e le specifichi.
+Fai clic una dopo l'altra sulle diverse unità abitative del tuo immobile e specificale.
 
 <div className="row">
 <div className="col col--7">
 
 ### Numero cliente
 
-Qui definisce il numero cliente per questo inquilino.
+Qui definisci il numero cliente (Kundennummer) per questo inquilino.
 
 Nota:
 
@@ -23,9 +26,9 @@ Il numero cliente viene utilizzato automaticamente anche come nome del documento
 
 ### Contratto e durata
 
-Qui può inserire disposizioni contrattuali. Un esempio (senza garanzia di validità giuridica) potrebbe essere:
+Qui puoi inserire le disposizioni contrattuali. Un esempio (senza garanzia di validità giuridica) potrebbe essere:
 
-Il Suo contratto ha una durata fino al DD.MM.YYYY e, in assenza di disdetta tempestiva, si rinnova di un anno conformemente alla disposizione del punto X del Suo contratto di fornitura di elettricità. Può disdire il contratto di fornitura di elettricità con un preavviso di tre mesi per il DD.MM.YYYY, conformemente al punto X del contratto di fornitura di elettricità. Resta salvo il diritto di recesso straordinario
+Il tuo contratto ha una durata fino al DD.MM.YYYY e, conformemente a quanto previsto al punto X del tuo contratto di fornitura di energia elettrica, si rinnova di un anno se non viene disdetto in tempo utile. Puoi disdire il contratto di fornitura di energia elettrica con un preavviso di tre mesi per il DD.MM.YYYY, ai sensi del punto X del contratto di fornitura di energia elettrica. Resta salvo il diritto di recesso straordinario
 
 </div>
 <div className="col col--5 bild--mitte">

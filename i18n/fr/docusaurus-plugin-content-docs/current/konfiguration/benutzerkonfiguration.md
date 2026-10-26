@@ -6,24 +6,16 @@ sidebar_label: 'Configuration des utilisateurs'
 naechste_schritte: [konfiguration/visualisierung]
 vorheriger_schritt: [konfiguration/billing/rechnung-erstellen, konfiguration/billing-deutschland/rechnung-erstellen]
 ---
-### Prérequis
+<Menueweg>Configuration de l'utilisateur</Menueweg>
 
-<div className="row">
-<div className="col col--6">
+### Prérequis
 
 Vous avez besoin d'un abonnement smart-me Professional pour utiliser cette fonction.
 
-Dans smart-me, vous pouvez créer de nouveaux utilisateurs et leur attribuer les autorisations correspondantes sur des compteurs ou des dossiers. Ces utilisateurs disposent uniquement de droits de lecture.
+Dans smart-me, vous pouvez créer de nouveaux utilisateurs et leur attribuer des autorisations sur des compteurs ou des dossiers. Ces utilisateurs disposent uniquement de droits de lecture.
 
-Vous pouvez ainsi donner aux locataires l'accès à leurs données tant qu'ils occupent l'immeuble.
+Vous pouvez ainsi donner aux locataires l'accès à leurs données aussi longtemps qu'ils habitent l'immeuble.
 
-</div>
-<div className="col col--6 text--center">
-
-![Créer des utilisateurs – Illustration 1](/img/konfiguration-benutzerkonfiguration/01_EN.png)
-
-</div>
-</div>
 
 <div className="row">
 <div className="col col--8">
@@ -36,7 +28,7 @@ Veuillez noter que vous devez d'abord [créer des dossiers](/konfiguration/ordne
 
 2.  Cliquez en haut à droite sur Configuration (Konfiguration)
 
-3.  Sélectionnez Configuration des utilisateurs (Benutzerkonfiguration)
+3.  Sélectionnez Configuration de l'utilisateur (Benutzerkonfiguration)
 
 4.  Créez un nouvel utilisateur en cliquant sur Ajouter un utilisateur (Benutzer hinzufügen).
 
@@ -45,7 +37,7 @@ Veuillez noter que vous devez d'abord [créer des dossiers](/konfiguration/ordne
 </div>
 <div className="col col--4 text--center">
 
-![Créer des utilisateurs – Illustration 2](/img/konfiguration-benutzerkonfiguration/02.png)
+![Créer des utilisateurs – Figure 2](/img/konfiguration-benutzerkonfiguration/02.png)
 
 </div>
 </div>
@@ -57,14 +49,14 @@ Veuillez noter que vous devez d'abord [créer des dossiers](/konfiguration/ordne
 
 Les utilisateurs disposent toujours uniquement d'un accès en lecture.
 
-Il est possible de partager soit uniquement le nœud explicite, soit le nœud avec tous ses sous-nœuds.
+Il est possible de partager soit uniquement le nœud concerné, soit le nœud y compris tous ses sous-nœuds.
 
 Si une visualisation qui accède aux données des compteurs est utilisée sur le nœud, l'utilisateur doit être autorisé à voir les compteurs.
 
 </div>
 <div className="col col--8 text--center">
 
-![Créer des utilisateurs – Illustration 3](/img/konfiguration-benutzerkonfiguration/03_EN.png)
+![Créer des utilisateurs – Figure 3](/img/konfiguration-benutzerkonfiguration/03.png)
 
 </div>
 </div>
@@ -73,12 +65,12 @@ Créez maintenant les visualisations pour les locataires ou pour le propriétair
 
 ### Vue pour les locataires
 
-Une vue spéciale pour les locataires est disponible pour les tarifs virtuels. Elle affiche la consommation d'énergie actuelle (électricité) et sa provenance (solaire ou réseau). De plus, la barre indique la source d'approvisionnement en électricité dans le passé.
+Une vue spéciale pour les locataires est disponible pour les tarifs virtuels. Elle affiche la consommation d'énergie actuelle (électricité) et sa provenance (solaire ou réseau). En outre, la barre indique la source d'approvisionnement en électricité au cours de la période passée.
 
-Cette vue doit en outre être configurée pour chaque nœud d'appartement.
+Cette vue doit en plus être configurée pour chaque nœud de logement.
 
 Voir les détails de la configuration : [Visualisation et liens publics](/konfiguration/visualisierung) 
 
-La visualisation s'appelle : « Tarifs virtuels simples appartement » ("Einfache virtuelle Tarife Wohnung")
+La visualisation s'appelle : « Tarifs virtuels simples logement » (Einfache virtuelle Tarife Wohnung)
 
-![Créer des utilisateurs – Illustration 4](/img/konfiguration-benutzerkonfiguration/04.png)
+![Créer des utilisateurs – Figure 4](/img/konfiguration-benutzerkonfiguration/04.png)

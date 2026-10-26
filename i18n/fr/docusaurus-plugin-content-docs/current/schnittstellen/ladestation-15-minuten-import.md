@@ -4,7 +4,9 @@ slug: '/schnittstellen/ladestation-15-minuten-import'
 description: 'Vous avez besoin d''un abonnement eCarUp Premium par borne pour décompter les données importées ou les transférer vers d''autres systèmes.'
 sidebar_label: 'Importation 15 minutes des bornes de recharge'
 ---
-### Condition préalable
+<Menueweg>Interfaces → Importation de tiers</Menueweg>
+
+### Prérequis
 
 Vous avez besoin d'un abonnement eCarUp Premium par borne pour décompter les données importées ou les transférer vers d'autres systèmes.
 

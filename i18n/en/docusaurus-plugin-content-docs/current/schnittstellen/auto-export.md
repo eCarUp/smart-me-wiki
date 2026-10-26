@@ -4,51 +4,51 @@ slug: '/schnittstellen/auto-export'
 description: 'smart-me lets you export measurement data automatically to another system.'
 sidebar_label: 'Auto Export'
 ---
+<Menueweg>Interfaces → Auto Export</Menueweg>
+
 smart-me lets you export measurement data automatically to another system.
 
 ### Requirements
 
-To use Auto Export, you need a smart-me Professional licence.
+To use Auto Export, you need a smart-me Professional license.
 
 ![Auto Export – Figure 1](/img/schnittstellen-auto-export/01.png)
 
-## Features for Gold Partners
+## Functions for Gold Partners
 
-If an account is assigned to a Gold Partner, the user sees the Gold Partner's existing "upload types" ("Upload Arten") and "export formats" ("Export Formate") as well as their own. This means, for example, that the FTP settings only have to be entered in the partner account. The normal user cannot see or change them. 
+If an account is assigned to a Gold Partner, the user sees the Gold Partner's predefined "Upload Types" ("Upload Arten") and "Export Formats" ("Export Formate") in addition to their own. This means, for example, that the FTP settings only need to be configured in the partner account and cannot be seen or changed by the normal user. 
 
-The inherited settings have a blue background so you can tell them apart.
+For easier identification, the inherited settings are highlighted in blue.
 
 ![Auto Export – Figure 2](/img/schnittstellen-auto-export/02.jpg)
 
 ## Bulk mutation (re-trigger export)
 
-With a bulk mutation, you can re-trigger exports in smart-me for several devices at once.
+A bulk mutation lets you re-trigger exports in smart-me for several devices at the same time.
 
 How to enter the date:
 
-In the mutation, enter the date of the last successful export. The system then calculates the next period automatically.
+For the mutation, you must enter the date of the last successful export. From there, the system automatically calculates the next period.
 
 Example (daily export):
 
 - You enter the date 03.02.2026.
 
-- The system assumes that the export on 03.02.2026 was successful.
+- The system assumes: The export on 03.02.2026 was fine.
 
-- The system now starts the export for 04.02.2026 (content: data from 03.02.2026, 00:00 to 23:59).
+- The system now starts the export for 04.02.2026 (content: data from 03.02.2026 from 00:00 to 23:59).
 
-
-Allow time for processing: Regenerating export files takes time. As a guideline, allow about 45 minutes per file.
+Note the processing time: Regenerating export files takes time. As a guideline, allow approx. 45 minutes per individual file.
 
 - Daily export: A full month (30 days = 30 files) takes about 22 hours.
 
 - Weekly export: A full month (4 weeks = 4 files) takes about 3 hours.
 
-
 ![Auto Export – Figure 3](/img/schnittstellen-auto-export/03.png)
 
 ## Bulk mutation (replace metering point ID)
 
-With a bulk mutation, you can replace existing metering point IDs with new ones quickly and without errors.
+A bulk mutation lets you replace existing metering point IDs with new ones quickly and without errors.
 
 Procedure:
 
@@ -56,12 +56,12 @@ Procedure:
 
 - Each line represents one metering point.
 
-- The file must contain the old and the new metering point ID, separated by a semicolon (;). Example: Alte\_ID\_123;Neue\_ID\_456
+- The file must contain the old and the new name of the metering point ID, separated by a semicolon (;). Example: Old\_ID\_123;New\_ID\_456
 
 - Upload the CSV file. The IDs are overwritten directly in the system.
 
 
-Note: Metering points that are not in the CSV file are not changed. This means you can replace only some of the IDs (e.g. only 5 of 50 metering points in an account).
+Note: If a metering point is not in the CSV file, it is not changed. This makes it easy to replace only some of them (e.g. only 5 of 50 metering points in an account).
 
 ![Auto Export – Figure 4](/img/schnittstellen-auto-export/04.png)
 
@@ -70,19 +70,19 @@ Note: Metering points that are not in the CSV file are not changed. This means y
 <div className="row">
 <div className="col col--5">
 
-The upload type defines how the data is uploaded to the external system. The following types are currently supported:
+The upload type defines how the data is to be uploaded to the external system. The following types are currently supported:
 
 FTP: FTP upload (unencrypted)
 
 FTPs: Encrypted FTP upload
 
-- You can specify the port explicitly with a colon (:), e.g. ftp.smart-com:990
+- The port can be specified explicitly with a :, e.g. ftp.smart-com:990
 
 sFTP (with username and password): Encrypted FTP upload.
 
 - Username and password
 
-sFTP (with key file) (sFTP (mit Key File)): Encrypted FTP upload. A key file is used instead of a password.
+sFTP (with key file): Encrypted FTP upload. A key file is used instead of a password.
 
 - Example of creating an sFTP key file with openssl
 
@@ -92,7 +92,7 @@ sFTP (with key file) (sFTP (mit Key File)): Encrypted FTP upload. A key file is 
 
 - Example: [enc\_key.pem](https://drive.google.com/file/d/19ChMy3gsfkBAD14A8Oe0i0lPFXmIGc77/view?usp=sharing)
 
-Note: The password must not contain the following characters: (&lt;, >, =)
+Note: The password must not contain the following characters (&lt;, >, =)
 
 </div>
 <div className="col col--7 text--center">
@@ -106,10 +106,9 @@ Note: The password must not contain the following characters: (&lt;, >, =)
 
 The export format defines the file format for the export. The following formats are currently supported:
 
-CSV: The format is defined (CSV), but the content is not standardised.
+CSV: The format is defined (CSV), but the content is not standardized.
 
-- Basic export to CSV format. You define which meter values are exported using Obis codes. See the section below for details.
-
+- Basic export in CSV format. The export of meter values is defined using Obis codes. For details, see the section below.
 
 IS-E: Export to an innosolv energy system from Innosolv AG
 
@@ -117,24 +116,21 @@ IS-E: Export to an innosolv energy system from Innosolv AG
 
 - Virtual meter reading (if calculated in smart-me and the folder is selected)
 
-
 IS-E Vorschub / IS-E feed: Export to an innosolv energy system from Innosolv AG
 
 - Consumption
 
 - Virtual consumption (if calculated in smart-me and the folder is selected)
 
-
 IS-E peak export
 
 - Shows peak power.
 
-- Note: 1) In the assignment, select the folder with virtual tariffs, 2) in the assignment, under measured values to export, select "Virtual tariffs (IS-E only)" ("Virtuelle Tarife (nur IS-E)"), and 3) in the export format, enter the virtual tariff numbers (Export Tariffs (peak)) that exist in smart-me Billing.
+- Note: 1) For the assignment, select the folder with virtual tariffs, 2) for the assignment, select "Virtual tariffs (IS-E only)" ("Virtuelle Tarife (nur IS-E)") under measured values to export, and 3) in the export format, enter the virtual tariff numbers (Export Tariffs (peak)) that exist in smart-me Billing.
 
+IS-E Zeitreihen / IS-E Load profile: Export to an innosolv energy system from Innosolv AG System from Innosolv AG
 
-IS-E Zeitreihen / IS-E Load profile: Export to an innosolv energy system from Innosolv AG System der Innosolv AG
-
-- Time series module (consumption, 15 minutes)
+- Time series module (consumption 15 minutes)
 
     - Only basic data (1 / 0)
 
@@ -144,18 +140,15 @@ IS-E Zeitreihen / IS-E Load profile: Export to an innosolv energy system from In
 
         - empty kWh and kvar
 
-
 mscons 2.2e: mscons (Metered Services Consumption report message) in version 2.2e.
 
-Note: Use this format for encontrol.
+Note: Please use this format for encontrol.
 
 - Consumption
-
 
 mscons 2.4a: mscons (Metered Services Consumption report message) in version 2.4a
 
 - Consumption
-
 
 ![Auto Export – Figure 6](/img/schnittstellen-auto-export/06.jpg)
 
@@ -176,30 +169,30 @@ Set "Only basic data" to 0 to export reactive energy
 
 ## Assignment
 
-An automatic export consists of several settings:
+The automatic export consists of several configurations:
 
-Metering point ID (Messpunkt ID): Defines the ID assigned to this metering point. This ID is used in the mscons export format, for example.
+Metering point ID (Messpunkt ID): Defines the ID to be assigned to this metering point. This ID is used, for example, in the mscons export format.
 
-Meter or folder (Zähler oder Ordner): The meter or folder to export.
+Meter or folder (Zähler oder Ordner): The meter or folder to be exported.
 
-Export format (Export Format): Defines the format used for the export. You define the export format under the "Export Format" menu item.
+Export format (Export Format): Defines the format that can be used for the export. The export format is defined under the menu item "Export Format".
 
-Upload type (Upload Art): Specifies how the data is uploaded to the external system. You define the upload type under the "Upload type" ("Upload Art") menu item.
+Upload type (Upload Art): Specifies how the data is to be uploaded to the external system. The upload type is defined under the menu item "Upload Type" ("Upload Art").
 
-Export interval (Export Intervall): Specifies how often the data is exported.
+Export interval (Export Intervall): Specifies the interval at which the data is to be exported.
 
 Export trigger (Export Auslöser): Defines what triggers the export.
 
-- "When all MEASUREMENT DATA is available" ("Wenn alle MESSDATEN vorhanden sind") triggers as soon as all the data is available. If the data is never complete (e.g. because the start date was before installation), the export never triggers.
+- "When all MEASUREMENT DATA is available" ("Wenn alle MESSDATEN vorhanden sind") triggers as soon as all data is available. If the data is never complete (e.g. because the start value was before the installation), it will never trigger.
 
--  "12h after the end date" ("12h nach dem Enddatum") triggers 12 hours later, whether all the data is available or not.
+-  "12h after the end date" ("12h nach dem Enddatum") triggers 12 hours later, regardless of whether all data is available or not.
 
 - Note: Auto Export starts between 0:00 and 1:00 and can take up to 3h.
 
 
-Start date of next export (Start Datum nächster Export): The start date for the next data export. If the date is in the past, all data up to the current date is exported.
+Start date of next export (Start Datum nächster Export): The start date for the next export of the data. If the date is in the past, all data up to the current date is exported.
 
-Measured values to export (Zu exportierende Messwerte) : If you select a folder with virtual tariffs, you can choose whether to export the normal measured values or the virtual tariffs.
+Measured values to export (Zu exportierende Messwerte): If you select a folder with virtual tariffs, you can choose whether to export the normal measured values or the virtual tariffs.
 
 ![Auto Export – Figure 8](/img/schnittstellen-auto-export/08.png)
 
@@ -209,9 +202,9 @@ If you have set up virtual tariffs in smart-me Billing, you can export them to I
 
 Setup
 
-1.  Create the virtual tariffs in smart-me Billing.  Make sure you set the tariff number of the virtual tariff correctly. During export, it is encoded as the "tariff" in the Obis code. Example: Tariff number 3 results in Obis: (IS-E meter readings) 1-5:1.8.3 (1-5:1.8.&lt;tariff number>), (IS-E feed) 1-5:1.9.3 (1-5:1.9.&lt;tariff number>)
+1.  Create the virtual tariffs in smart-me Billing.  Make sure you set the tariff number of the virtual tariff correctly. It is encoded as the "tariff" in the Obis code during export. Example: Tariff number 3 results in Obis: (IS-E meter readings) 1-5:1.8.3 (1-5:1.8.&lt;tariff number>), (IS-E feed) 1-5:1.9.3 (1-5:1.9.&lt;tariff number>)
 
-2.  In "Auto Export", under "Assignment" ("Zuordnung"), select the folder with the virtual tariffs, and under "Measured values to export" ("Zu exportierende Messwerte"), select "Virtual tariffs" ("Virtuelle Tarife"). 
+2.  In "Auto Export", under "Assignment" ("Zuordnung"), select the folder with the virtual tariffs and, under "Measured values to export" ("Zu exportierende Messwerte"), select "Virtual tariffs" ("Virtuelle Tarife"). 
 
 
 ![Auto Export – Figure 9](/img/schnittstellen-auto-export/09.png)
@@ -224,18 +217,18 @@ Setup
 
 - [ISE-Load profile](https://drive.google.com/file/d/1CeIbKSYTFt6OgOmuujFGEvP1s68OjA5h/view?usp=sharing)
 
-- [csv](https://drive.google.com/file/d/1sPDUHu82A8agZ1vW9XXP7htphXfELqXb/view?usp=sharing): You can configure the CSV file individually. The test file was generated with the configuration  «1-0:1.8.0\*255;1-0:1.8.1\*255;1-0:1.8.2\*255;1-0:2.8.0\*255;1-0:2.8.1\*255;1-0:2.8.2\*255;».
+- [csv](https://drive.google.com/file/d/1sPDUHu82A8agZ1vW9XXP7htphXfELqXb/view?usp=sharing): The CSV file can be configured individually. The test file was generated with the configuration  «1-0:1.8.0\*255;1-0:1.8.1\*255;1-0:1.8.2\*255;1-0:2.8.0\*255;1-0:2.8.1\*255;1-0:2.8.2\*255;».
 
 - [IS-E Peak export](https://drive.google.com/file/d/1isUBF_2xUpr6h8AeRtkupJvFkuMMSJM4/view?usp=sharing) 
 
 
-Obis codes
+Obis Codes
 
 OBIS codes are used to describe a (meter) value. 
 
-[Obis codes (Excel)](https://drive.google.com/open?id=1eTs4ZXD9AUagGxNEQSof0IWHkZg54nsK6SyHp4ygDSc&authuser=0)
+[Obis Codes (Excel)](https://drive.google.com/open?id=1eTs4ZXD9AUagGxNEQSof0IWHkZg54nsK6SyHp4ygDSc&authuser=0)
 
-Tip for decoding: This [website](https://www.kbr.de/de/obis-kennzeichen/obis-kennzeichen#obis-kennzeichensystem) explains how the codes are structured. Click a medium there to see what each digit of the code stands for. 
+Decoding tip: On this [website](https://www.kbr.de/de/obis-kennzeichen/obis-kennzeichen#obis-kennzeichensystem) you can read up on how the coding system works. If you click on a medium there, you can see what each digit of the code stands for. 
 
 ![Auto Export – Figure 10](/img/schnittstellen-auto-export/10.png)
 
@@ -243,9 +236,9 @@ The csv test file was exported with the configuration above.
 
 ## Supported Obis Codes
 
-OBIS codes are used to describe a (meter) value: [Obis codes (Excel)](https://drive.google.com/open?id=1eTs4ZXD9AUagGxNEQSof0IWHkZg54nsK6SyHp4ygDSc&authuser=0)
+OBIS codes are used to describe a (meter) value: [Obis Codes (Excel)](https://drive.google.com/open?id=1eTs4ZXD9AUagGxNEQSof0IWHkZg54nsK6SyHp4ygDSc&authuser=0)
 
-Tip for decoding: This [website](https://www.kbr.de/de/obis-kennzeichen/obis-kennzeichen#obis-kennzeichensystem) explains how the codes are structured. Click a medium there to see what each digit of the code stands for. 
+Decoding tip: On this [website](https://www.kbr.de/de/obis-kennzeichen/obis-kennzeichen#obis-kennzeichensystem) you can read up on how the coding system works. If you click on a medium there, you can see what each digit of the code stands for. 
 
 ### Obis Code IS-E
 
@@ -269,9 +262,9 @@ Tip for decoding: This [website](https://www.kbr.de/de/obis-kennzeichen/obis-ken
 
 1-1:8.8.0:  Reactive Energy Q4
 
-5-1:1.0.0: Cold (energy)
+5-1:1.0.0: Cold (Energy)
 
-6-1:1.0.0: Heat (energy)
+6-1:1.0.0: Heat (Energy)
 
 8-1:1.0.0: Cold water (m3)
 

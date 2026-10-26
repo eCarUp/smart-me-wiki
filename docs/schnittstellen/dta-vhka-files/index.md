@@ -4,6 +4,8 @@ slug: '/schnittstellen/dta-vhka-files'
 description: 'Allgemeine Beschreibung der Schnittstelle'
 sidebar_label: 'DTA-VHKA Files'
 ---
+<Menueweg>Rechnungserstellung → Rechnung erstellen → Exportieren</Menueweg>
+
 ## Allgemeine Beschreibung der Schnittstelle
 
 DTA-VHKA (Daten Träger Austausch der verbrauchsabhängigen Heiz- und Warmwasserkostenabrechnung) ist die Bezeichnung der Schnittstelle zum elektronischen Datenaustausch von verbrauchsabhängigen Daten zwischen den Abrechnungsunternehmen und den Immobilienbewirtschaftern.

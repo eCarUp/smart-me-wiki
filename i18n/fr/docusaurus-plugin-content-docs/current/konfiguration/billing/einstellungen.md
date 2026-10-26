@@ -6,10 +6,14 @@ sidebar_label: 'Paramètres'
 naechste_schritte: [konfiguration/billing/konfiguration-rechnungsstellung]
 vorheriger_schritt: konfiguration/billing/index
 ---
+
+<Menueweg>Facturation → Paramètres</Menueweg>
+
 <div className="row">
 <div className="col col--7">
 
-Rendez-vous d'abord dans les paramètres de la facturation (Einstellungen der Rechnungsstellung).
+
+Rendez-vous d'abord dans les paramètres de la facturation.
 
 Configurez ici la devise et l'application de la TVA.
 
@@ -27,10 +31,9 @@ Paramètres concrets pour la TVA :
 
     \- Taxe déjà incluse dans les prix (Steuer in Preise bereits inbegriffen) : NON
 
+
 </div>
 <div className="col col--5 bild--mitte">
-
-![Billing : décompte de l'énergie – Illustration 1](/img/konfiguration-billing/01.png)
 
 ![Billing : décompte de l'énergie – Illustration 2](/img/konfiguration-billing/02.png)
 
@@ -44,7 +47,7 @@ Paramètres concrets pour la TVA :
 
 Profitez-en pour configurer également votre logo pour la facture.
 
-Complétez l'en-tête avec le contact et l'adresse de l'expéditeur de la facture, et adressez quelques mots aimables à vos clients dans le pied de page.
+Renseignez dans l'en-tête le contact et l'adresse de l'expéditeur de la facture, et adressez quelques mots aimables à vos clients dans le pied de page.
 
 </div>
 <div className="col col--6 bild--mitte">

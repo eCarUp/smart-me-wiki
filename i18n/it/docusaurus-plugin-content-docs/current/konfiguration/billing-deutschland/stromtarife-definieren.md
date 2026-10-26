@@ -7,30 +7,31 @@ naechste_schritte: [konfiguration/billing-deutschland/sonstige-kosten]
 optionale_schritte: [konfiguration/wenndann-aktionen/tarifzeiten-definieren]
 vorheriger_schritt: konfiguration/billing-deutschland/mieterspiegel-erfassen
 ---
+<Menueweg>Fatturazione → Immobili & tariffe</Menueweg>
 
-Per l'elettricità per gli inquilini occorre **sempre lavorare con tariffe virtuali**. Solo così è possibile indicare, per ogni unità di conteggio, quale quota dell'elettricità proveniva dall'impianto solare e quale dalla rete. È proprio ciò che richiede il conteggio secondo il § 42 EnWG.
+Per l'elettricità per gli inquilini si deve **sempre lavorare con tariffe virtuali**. Solo così è possibile indicare, per ogni unità di conteggio, quale quota dell'elettricità proviene dall'impianto solare e quale dalla rete — ed è esattamente ciò che richiede il conteggio secondo il § 42 EnWG.
 
-## Dove trovare le tariffe
+## Dove trovi le tariffe
 
-- Menu Fatturazione (Rechnungsstellung)
-- Configurazione (Konfiguration)
-- A sinistra selezionare l'immobile (cartella principale, ad es. Altgasse 13)
-- Aggiungere tariffe elettriche virtuali (Virtuelle Stromtarife Hinzufügen). (ad es. ore di punta, ore fuori punta, tariffa solare)
+<Menueweg>Fatturazione → Immobili & tariffe</Menueweg>
 
-
-## Si procuri il foglio tariffario del Suo fornitore di energia
+- A sinistra seleziona l'immobile (cartella principale, ad es. Altgasse 13)
+- Aggiungi le tariffe elettriche virtuali (Virtuelle Stromtarife Hinzufügen). (ad es. ore di punta, ore fuori punta, tariffa solare)
 
 
-## Inserimento della tariffa di rete
+## Procurati il foglio tariffario del tuo fornitore di energia
 
 
-## Calcolo e inserimento delle tariffe solare e batteria
+## Inserire la tariffa di rete
+
+
+## Calcolare e inserire le tariffe solare e batteria
 
 ### Configurare le tariffe elettriche per lo schema di misura standard
 
 #### Tariffazione con tariffa solare incl. RCP virtuale (vRCP)
 
-Il contatore di bilancio viene referenziato per il calcolo della tariffazione.
+Per il calcolo della tariffazione viene referenziato il contatore di bilancio.
 
 Utilizzando la tariffa solare incl. vRCP non sono dovute licenze aggiuntive per contatori virtuali.
 
@@ -48,19 +49,19 @@ Tutti i contatori di produzione e i contatori della batteria vengono registrati 
 
 #### Tariffazione mediante tariffa solare (consumo / FV) con o senza tariffa batteria (consumo / batteria)
 
-Il contatore di bilancio viene ignorato per il calcolo della tariffazione; verrà considerato in seguito solo per la verifica.
+Il contatore di bilancio viene ignorato per il calcolo della tariffazione e viene considerato solo in seguito per la verifica.
 
 Utilizzando la tariffa solare (consumo / FV) sono dovute licenze aggiuntive per contatori virtuali.
 
 È necessario almeno il consumo totale. Questo viene creato come contatore virtuale composto da tutte le partenze partecipanti all'elettricità per gli inquilini.
 
-Consumo totale = Appartamento 1.1 + Appartamento 1.2 + Appartamento 2.1 + Parti comuni + Parcheggio 1 + Parcheggio 2 + Pompa di calore
+Consumo totale = Wohnung 1.1 + Wohnung 1.2 + Wohnung 2.1 + Allgemein + Parkplatz 1 + Parkplatz 2 + Wärmepumpe
 
-Sotto Produzione si aggiunge di volta in volta il contatore dell'impianto solare oppure, per la tariffa batteria, il contatore della batteria.
+Sotto produzione viene aggiunto di volta in volta il contatore dell'impianto solare o, per la tariffa batteria, il contatore della batteria.
 
-Come consumo totale si imposta il consumo totale creato virtualmente.
+Per il consumo totale viene indicato il consumo totale creato virtualmente.
 
-Qui il contatore di bilancio viene referenziato di proposito per aumentare la precisione!
+Il contatore di bilancio viene qui referenziato di proposito per aumentare la precisione!
 
 ![Schema di misura standard – Figura 4](/img/planung-standard-messkonzept/04.png)
 
@@ -69,13 +70,13 @@ Qui il contatore di bilancio viene referenziato di proposito per aumentare la pr
 
 #### Tariffazione con tariffa solare incl. RCP virtuale (vRCP)
 
-Il contatore di bilancio viene ignorato per il calcolo della tariffazione; verrà considerato in seguito solo per la verifica.
+Il contatore di bilancio viene ignorato per il calcolo della tariffazione e viene considerato solo in seguito per la verifica.
 
 Utilizzando la tariffa solare incl. vRCP non sono dovute licenze aggiuntive per contatori virtuali.
 
 Contatore di bilancio
 
-Tutti gli appartamenti / parcheggi partecipanti e le produzioni come contatore di bilancio.
+Tutti gli appartamenti / posteggi partecipanti e le produzioni come contatori di bilancio.
 
 ![Schema di misura MKD3 (con non partecipanti) – Figura 2](/img/planung-mkd3-messkonzept-nicht-teilnehmer/02.png)
 
@@ -88,19 +89,19 @@ Registrare tutti i contatori di produzione come produzione
 
 #### Tariffazione mediante tariffa solare (consumo / FV) con o senza tariffa batteria (consumo / batteria)
 
-Il contatore di bilancio viene ignorato per il calcolo della tariffazione; verrà considerato in seguito solo per la verifica.
+Il contatore di bilancio viene ignorato per il calcolo della tariffazione e viene considerato solo in seguito per la verifica.
 
 Utilizzando la tariffa solare (consumo / FV) sono dovute licenze aggiuntive per contatori virtuali.
 
 È necessario almeno il consumo totale. Questo viene creato come contatore virtuale composto da tutte le partenze partecipanti all'elettricità per gli inquilini.
 
-Consumo totale = Appartamento 1.1 + Appartamento 1.2 + Parti comuni + Parcheggio 1 + Parcheggio 2 + Pompa di calore
+Consumo totale = Wohnung 1.1 + Wohnung 1.2 + Allgemein + Parkplatz 1 + Parkplatz 2 + Wärmepumpe
 
-Sotto Produzione si aggiunge di volta in volta il contatore dell'impianto solare oppure, per la tariffa batteria, il contatore della batteria.
+Sotto produzione viene aggiunto di volta in volta il contatore dell'impianto solare o, per la tariffa batteria, il contatore della batteria.
 
-Come consumo totale si imposta il consumo totale creato virtualmente.
+Per il consumo totale viene indicato il consumo totale creato virtualmente.
 
-Qui il contatore di bilancio di proposito non viene referenziato, per non correggere in modo errato il bilancio virtuale!
+Il contatore di bilancio di proposito non viene referenziato, per non correggere in modo errato il bilancio virtuale!
 
 ![Schema di misura MKD3 (con non partecipanti) – Figura 4](/img/planung-mkd3-messkonzept-nicht-teilnehmer/04.png)
 
@@ -108,18 +109,18 @@ Qui il contatore di bilancio di proposito non viene referenziato, per non correg
 
 ### Definizione delle componenti tariffarie per tipo di elettricità
 
-Più in basso, sotto "Altro" (Sonstiges), può definire le componenti tariffarie per tipo di elettricità (rete e solare). Lo scopo è mostrare al cliente finale come si compone il suo prezzo dell'elettricità. Deve farlo sia per l'elettricità di rete sia per l'elettricità solare. Le componenti, sommate, devono dare il prezzo da Lei definito per ciascun tipo di elettricità (stabilito nelle [tariffe virtuali](/konfiguration/billing)); in caso contrario il Billing emette un messaggio di errore.
+Più in basso, sotto "Altro" ("Sonstiges"), puoi definire le componenti tariffarie per tipo di elettricità (rete e solare). Lo scopo è mostrare al cliente finale come si compone il suo prezzo dell'elettricità. Devi farlo sia per l'elettricità di rete sia per l'elettricità solare. Insieme, le componenti devono dare il prezzo che hai definito per ciascun tipo di elettricità (lo hai stabilito nelle [Tariffe virtuali](/konfiguration/billing)), altrimenti il Billing restituisce un messaggio d'errore.
 
 ![smart-me Billing per l'elettricità per gli inquilini in Germania – Figura 8](/img/konfiguration-billing-mieterstrom/08.png)
 
-Può inserire direttamente le componenti tariffarie standard per l'elettricità per gli inquilini oppure registrare singole componenti tariffarie tramite "Modifica" (Editieren).
+Puoi inserire direttamente le componenti tariffarie standard per l'elettricità per gli inquilini oppure registrare singole componenti tariffarie tramite "Modifica" ("Editieren").
 
-Importante: durante la modifica selezioni il tipo corretto, ovvero specifichi se si tratta di una componente tariffaria dell'elettricità di rete (elettricità residua) o dell'elettricità solare.
+Importante: durante la modifica seleziona il tipo corretto, ovvero specifica se si tratta di una componente tariffaria dell'elettricità di rete (elettricità residua) o dell'elettricità solare.
 
 
-Importante: le informazioni sulla composizione delle componenti per l'elettricità di rete (elettricità residua) Le vengono fornite dal fornitore di elettricità residua da Lei scelto.
+Importante: le indicazioni sulla composizione delle componenti per l'elettricità di rete (elettricità residua) le ottieni dal fornitore di elettricità residua che hai scelto.
 
-Di norma l'elettricità solare è composta solo dal supplemento EEG (EEG-Umlage) e dal prezzo di produzione.
+L'elettricità solare è composta di solito solo dal contributo EEG (EEG-Umlage) e dal prezzo di produzione.
 
 ![smart-me Billing per l'elettricità per gli inquilini in Germania – Figura 9](/img/konfiguration-billing-mieterstrom/09.png)
 
@@ -127,4 +128,4 @@ Una configurazione completa può presentarsi così:
 
 ![smart-me Billing per l'elettricità per gli inquilini in Germania – Figura 10](/img/konfiguration-billing-mieterstrom/10.png)
 
-A questo punto ha effettuato tutte le impostazioni a livello di immobile.
+A questo punto hai effettuato tutte le impostazioni a livello di immobile.

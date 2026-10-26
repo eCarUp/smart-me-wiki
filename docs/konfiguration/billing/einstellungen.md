@@ -6,8 +6,12 @@ sidebar_label: 'Einstellungen'
 naechste_schritte: [konfiguration/billing/konfiguration-rechnungsstellung]
 vorheriger_schritt: konfiguration/billing/index
 ---
+
+<Menueweg>Rechnungserstellung → Einstellungen</Menueweg>
+
 <div className="row">
 <div className="col col--7">
+
 
 Navigiere als erstes in die Einstellungen der Rechnungsstellung.
 
@@ -27,10 +31,9 @@ Konkrete Einstellungen bei der MWST:
 
     \- Steuer in Preise bereits inbegriffen: NEIN
 
+
 </div>
 <div className="col col--5 bild--mitte">
-
-![Billing: Energie abrechnen – Abbildung 1](/img/konfiguration-billing/01.png)
 
 ![Billing: Energie abrechnen – Abbildung 2](/img/konfiguration-billing/02.png)
 

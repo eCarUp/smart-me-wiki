@@ -1,18 +1,20 @@
 ---
-title: 'Delete meter'
+title: 'Delete / Deactivate Meter'
 slug: '/konfiguration/inbetriebnahme/zaehler-loeschen'
 description: 'This page describes how to delete or deactivate a meter.'
-sidebar_label: 'Delete meter'
+sidebar_label: 'Delete / deactivate meter'
 ---
+<Menueweg>Dashboard → Device → Settings (gear icon)</Menueweg>
+
 This page describes how to delete or deactivate a meter.
 
 ## General
 
-The data of a deleted meter is irrevocably deleted and cannot be restored.
+Deleting a meter permanently deletes its data. The data cannot be restored.
 
-As a rule, smart-me does not recommend deleting meters. We generally recommend deactivating meters instead. Deactivated meters do not incur any license costs, and the historical data remains accessible at any time.
+smart-me generally advises against deleting meters. We recommend deactivating them instead. Deactivated meters do not incur licence costs, and you can still access their historical data at any time.
 
-For M-Bus meters, deleting is not effective, because the meters reappear in the portal at the next reading if they are still online. In this case, deactivation is the only option.
+Deleting does not work for M-Bus meters. If such a meter is still online, it reappears in the portal at the next reading. In this case, deactivating is the only option.
 
 ## Deactivate meter
 
@@ -22,9 +24,9 @@ For M-Bus meters, deleting is not effective, because the meters reappear in the 
 
 - Select the gear icon at the top right
 
-- Advanced settings (Erweiterte Einstellungen)
+- Advanced Settings (Erweiterte Einstellungen)
 
-- Set Meter active (Zähler aktiv) to no (nein)
+- Set Meter active (Zähler aktiv) to No (Nein)
 
 - Save (Speichern)
 
@@ -33,13 +35,13 @@ For M-Bus meters, deleting is not effective, because the meters reappear in the 
 - The meter is now grey
 
 
-![Delete meter – Figure 1](/img/konfiguration-inbetriebnahme-zaehler-loeschen/01.png)
+![Delete / Deactivate Meter – Figure 1](/img/konfiguration-inbetriebnahme-zaehler-loeschen/01.png)
 
 ## Deactivate Pico
 
 - Log in to the portal
 
-- Select Meter and folder configuration (Zähler und Ordner Konfiguration)
+- Select Meter & Folder Configuration (Zähler und Ordner Konfiguration)
 
 - Select the Pico in the tree
 
@@ -54,11 +56,11 @@ For M-Bus meters, deleting is not effective, because the meters reappear in the 
 - The Pico is now grey
 
 
-![Delete meter – Figure 2](/img/konfiguration-inbetriebnahme-zaehler-loeschen/02.png)
+![Delete / Deactivate Meter – Figure 2](/img/konfiguration-inbetriebnahme-zaehler-loeschen/02.png)
 
 ## Delete meter
 
-- Deleting is irreversible
+- Deleting cannot be undone
 
 - Log in to the portal
 
@@ -78,4 +80,4 @@ For M-Bus meters, deleting is not effective, because the meters reappear in the 
 
 - The meter is now deleted.
 
-![Delete meter – Figure 3](/img/konfiguration-inbetriebnahme-zaehler-loeschen/03.png)
+![Delete / Deactivate Meter – Figure 3](/img/konfiguration-inbetriebnahme-zaehler-loeschen/03.png)

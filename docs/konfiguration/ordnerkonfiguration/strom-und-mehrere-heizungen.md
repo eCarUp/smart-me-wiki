@@ -5,6 +5,8 @@ description: 'Konfiguration ohne automatische Stromrechnungsstellung'
 sidebar_label: 'Strom und mehrere Heizungen'
 naechste_schritte: [konfiguration/wenndann-aktionen/alarme]
 ---
+<Menueweg>Zähler & Ordner Konfiguration</Menueweg>
+
 ## Konfiguration ohne automatische Stromrechnungsstellung
 
 Vorteil:

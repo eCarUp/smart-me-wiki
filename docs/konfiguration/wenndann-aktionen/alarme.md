@@ -6,6 +6,8 @@ sidebar_label: 'Alarme'
 naechste_schritte: [konfiguration/billing/index, konfiguration/billing-deutschland/index]
 vorheriger_schritt: konfiguration/ordnerkonfiguration/index
 ---
+<Menueweg>Wenn-Dann Aktionen</Menueweg>
+
 Alarme können eingerichtet werden, um eine E-Mail zu bekommen, wenn Zähler keine Verbindung mehr mit unserer Cloud hat.
 
 ## Voraussetzung

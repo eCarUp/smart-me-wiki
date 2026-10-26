@@ -5,30 +5,16 @@ description: 'You need a smart-me Limited or Professional subscription to use th
 sidebar_label: 'Visualization and Public Links'
 naechste_schritte: [konfiguration/billing/index, konfiguration/billing-deutschland/index]
 ---
+<Menueweg>Meter & Folder Configuration → Select node → Edit visualization</Menueweg>
+
 ### Prerequisite
 
 You need a smart-me Limited or Professional subscription to use this function.
 
-## Navigating the dashboard as a tenant
-
-Here you will find a user guide for your dashboard as a tenant. Learn where to find which information about your consumption and understand what is displayed to you.
-
-[User guide for tenants](/nutzeranleitungen/mieter)
-
 ## Configuring visualizations
-
-<div className="row">
-<div className="col col--6">
 
 A visualization is created on a folder. When you click on the folder in the app or on the web, the corresponding visualization is displayed. 
 
-</div>
-<div className="col col--6 text--center">
-
-![Visualization and Public Links – Figure 1](/img/konfiguration-visualisierung/01.png)
-
-</div>
-</div>
 
 ### Creating visualizations
 
@@ -36,11 +22,11 @@ Proceed as follows to create a visualization:
 
 1.  Log in to the [smart-me website](https://web.smart-me.com/).
 
-2.  Click on Meter / Folder Configuration (Zähler / Ordner Konfiguration).
+2.  Click on Meter & Folder Configuration (Zähler / Ordner Konfiguration).
 
 3.  Select the folder on which the visualization is to be created.
 
-4.  Next to Visualization (Visualisierung), click on edit (editieren). 
+4.  Click on edit (editieren) next to Visualization (Visualisierung). 
 
 5.  Select the desired visualization and add the corresponding meters. 
 
@@ -55,9 +41,9 @@ A special view for tenants is available for the virtual tariffs. It shows the cu
 
 This must additionally be configured for each apartment node.
 
-The visualization is called: "Simple virtual tariffs apartment (Einfache virtuelle Tarife Wohnung)"
+The visualization is called: "Simple virtual tariffs apartment" ("Einfache virtuelle Tarife Wohnung")
 
-Attention: Here you must select the relevant folder of the apartment, not the meters it contains!
+Caution: Here you must select the relevant folder of the apartment, not the meters it contains!
 
 
 
@@ -68,20 +54,20 @@ The energy flow of the building can optionally be visualized.
 
 - To do this, the tenant must additionally be given access to the balance, production and battery metering points. The reference meters are selected automatically based on their names.
 
-    For example, add the user account to the technical meters folder that contains the metering points mentioned.
+    Add the user account, for example, to the technical meters folder that contains the metering points mentioned.
 
 
 ![Visualization and Public Links – Figure 4](/img/konfiguration-visualisierung/04.png)
 
 Automatic name recognition details
 
-German
+Deutsch
 
-Balance meter:
+Bilanzzähler:
 Bilan… (Bilanz, Bilanzmessung) · Netz… (Netzbezug, Netzanschluss) · Bezug · Einspeis… · Hauptz… (Hauptzähler) · HAK · Anschluss (auch Hausanschluss) · Zählpunkt / Zaehlpunkt · Messpunkt · Übergabe / Uebergabe · Transformat… (Transformator) · Trafo
-Solar meter:
+Solarzähler:
 Solar… (Solar, Solaranlage) · PV · PVA · Photovolta… (Photovoltaik) · Fotovolta… · Produktion
-Battery meter:
+Batteriezähler:
 Batteri… (Batterie) · Akkumul… (Akkumulator) · Akku · Speicher · Powerwall
 
 English
@@ -122,9 +108,9 @@ Bateri… (Baterija) · Akumul… (Akumulator) · Skladište / Skladiste · Powe
 
 ## Various visualizations for the entire property
 
-This is a selection of various possible visualizations. The list is not exhaustive.
+This is a selection of the various possible visualizations. The list is not exhaustive.
 
-Empty nodes can be created in order to create as many visualizations as desired.
+Empty nodes can be created in order to set up as many visualizations as desired.
 
 ## Visualizations for ZEV
 
@@ -157,7 +143,7 @@ All relevant data on your ZEV (association for own consumption) at a glance:
 
 Shows the energy flow for a solar system, grid consumption and household consumption.
 
-Two of these three meters must be specified; the third is calculated automatically. If all three meters are specified, incorrect displays may occur. We always recommend specifying direct measurements wherever possible and not virtual meters.
+Two of these three meters must be specified; the third is calculated automatically. If all three meters are specified, incorrect values may be displayed. We always recommend specifying direct measurements where possible and not virtual meters.
 
 ![Visualization and Public Links – Figure 10](/img/konfiguration-visualisierung/10.png)
 
@@ -175,25 +161,25 @@ You can choose to display either the power (now) or the consumption values of th
 
 Shows where the produced energy is consumed 
 
-ZEV: 
+ZEV (association for own consumption): 
 
 - Local consumption in the house 
 
 - Fed into the grid
 
 
-For this, the production system and the (physical) house connection meter must be defined.
+For this, the production system and the (physical) building connection meter must be defined.
 
-vZEV: 
+vZEV (virtual ZEV): 
 
 - Local consumption
 
-- Supplied to neighbours
+- Delivered to neighbours
 
 - Fed into the grid
 
 
-For this, the production systems of the vZEV and the (physical) house connection meters of the vZEV participants must be defined.
+For this, the production systems of the vZEV and the (physical) building connection meters of the vZEV participants must be defined.
 
 ![Visualization and Public Links – Figure 12](/img/konfiguration-visualisierung/12.png)
 
@@ -205,7 +191,7 @@ Self-consumption rate: How much of the solar energy is consumed directly in the 
 
 Self-sufficiency rate: How much of the total consumption is produced by the solar system.
 
-Attention: The main meter must not be a virtual meter!
+Caution: The main meter must not be a virtual meter!
 
 ![Visualization and Public Links – Figure 13](/img/konfiguration-visualisierung/13.png)
 
@@ -230,22 +216,22 @@ All relevant data on your charging stations at a glance:
 
 The current power values of an apartment (electricity, heat and water) are displayed.
 
-For the historical consumption values, a comparison with a reference apartment is also displayed (e.g. "10% less electricity consumed than the average").
+For the historical consumption values, a comparison with a reference apartment is also shown (e.g. "10% less electricity consumed than average").
 
 ## Further options (optional)
 
 Finally, you can now activate interfaces or implement controls.
 
-To do this, navigate in the wiki main menu (at the top) to:
+To do this, navigate in the main wiki menu (at the top) to:
 
 Configuration or Interfaces.
 
 ## Public Links
 
-With the smart-me Limited or Professional subscription, you can use a Public Link to display the power and/or the meter reading of any metering point or folder from your smart-me metering infrastructure in real time on a website of your choice.
+With the smart-me Limited or Professional subscription, you can use a Public Link to display the power and/or the meter reading of any metering point or folder in your smart-me metering infrastructure in real time on a website of your choice.
 
-To do this, click on Configuration (Konfiguration) at the top right of the smart-me portal and then select the Public Links tile.
+To do this, click on Configuration (Konfiguration) at the top right of the smart-me portal and then select the Public Links (Öffentliche Links) tile.
 
-In the interface that now appears, you can use the Add (Hinzufügen) button to specify the name of your Public Link and select the desired metering point and display format. The HTML code for embedding on the website of your choice is then generated for you. Insert it using copy and paste.
+In the interface that now appears, you can use the Add (Hinzufügen) button to define the name of your Public Link and select the desired metering point and display format. The HTML code for embedding on the website of your choice is then generated for you. Insert it using copy and paste.
 
 ![Visualization and Public Links – Figure 15](/img/konfiguration-visualisierung/15.png)

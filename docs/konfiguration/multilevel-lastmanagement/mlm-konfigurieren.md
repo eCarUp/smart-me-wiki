@@ -4,6 +4,8 @@ slug: '/konfiguration/multilevel-lastmanagement/mlm-konfigurieren'
 description: 'Konfigurieren eines dynamischen Multilevel-Lastmanagements (MLM)'
 sidebar_label: 'Konfiguration Multilevel Lastmanagement'
 ---
+<Menueweg>Multilevel Lastmanagement</Menueweg>
+
 ## Konfigurieren eines dynamischen Multilevel-Lastmanagements (MLM)
 
 Die Konfiguration eines Multilevel Lastmanagements erfolgt im Bereich "Multilevel Lastmanagement" in der Hauptnavigation

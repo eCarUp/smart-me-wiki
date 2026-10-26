@@ -4,6 +4,8 @@ slug: '/schnittstellen/ladestation-15-minuten-import'
 description: 'Du brauchst pro Station ein eCarUp Premium Abo, um die importierten Daten abzurechnen oder in andere Systeme zu überführen.'
 sidebar_label: 'Ladestation 15-Minuten Import'
 ---
+<Menueweg>Schnittstellen → Drittanbieter-Import</Menueweg>
+
 ### Voraussetzung
 
 Du brauchst pro Station ein eCarUp Premium Abo, um die importierten Daten abzurechnen oder in andere Systeme zu überführen.

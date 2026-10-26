@@ -1,20 +1,22 @@
 ---
 title: 'Conteggio dell''energia (Svizzera)'
 slug: '/konfiguration/billing'
-description: 'Per poter creare conteggi dei costi energetici ti serve un abbonamento smart-me Professional.'
+description: 'Per poter allestire conteggi dei costi energetici è necessario un abbonamento smart-me Professional.'
 sidebar_label: 'Fatturazione'
 naechste_schritte: [konfiguration/billing/einstellungen]
 vorheriger_schritt: konfiguration/wenndann-aktionen/alarme
 ---
+<Menueweg>Fatturazione</Menueweg>
+
 ### Requisito
 
-Per poter creare conteggi dei costi energetici ti serve un abbonamento smart-me Professional. 
+Per poter allestire conteggi dei costi energetici è necessario un abbonamento smart-me Professional. 
 
 ## Configurare il conteggio passo dopo passo
 
-Con queste istruzioni passo dopo passo vogliamo aiutarti a configurare il tuo Billing. Tieni presente che si tratta solo di un esempio a cui puoi fare riferimento. A seconda della struttura del tuo immobile, ci saranno differenze rispetto al nostro esempio. 
+Con queste istruzioni passo dopo passo desideriamo aiutarLa a configurare il Suo Billing. Tenga presente che si tratta solo di un esempio a cui può fare riferimento. A seconda della struttura del Suo immobile, vi saranno differenze rispetto al nostro esempio. 
 
-Ogni passo ha una propria pagina. Puoi seguirle in ordine (in fondo a ogni pagina trovi il passo successivo) oppure passare direttamente da qui al punto in cui ti trovi.
+Ogni passo ha una propria pagina. Può seguirle in ordine — in fondo a ogni pagina è indicato come proseguire — oppure passare direttamente da qui al punto in cui si trova.
 
 <Ablauf land="ch" bis="konfiguration/billing/rechnung-erstellen" />
 
@@ -24,7 +26,7 @@ Ogni passo ha una propria pagina. Puoi seguirle in ordine (in fondo a ogni pagin
 
 ## Webinar smart-me Billing dalla A alla Z
 
-Il nostro webinar spiega passo dopo passo come creare conteggi dei costi energetici con lo strumento Billing:
+Nel nostro webinar viene spiegato passo dopo passo come allestire conteggi dei costi energetici con lo strumento Billing:
 
 <div className="row">
 <div className="col col--6">
@@ -34,7 +36,7 @@ Il nostro webinar spiega passo dopo passo come creare conteggi dei costi energet
 </div>
 <div className="col col--6">
 
-<Video src="mK1HYLRtBUI" title="Video YouTube, smart-me Billing - tariffe virtuali, potenza di punta, modificare il noleggio del contatore" />
+<Video src="mK1HYLRtBUI" title="Video YouTube, smart-me Billing - tariffe virtuali, potenza di picco, modifica del noleggio del contatore" />
 
 Contenuto del video
 
@@ -42,7 +44,7 @@ Contenuto del video
 
 - Adeguamento dei prezzi delle tariffe virtuali
 
-- Potenza di punta
+- Potenza di picco
 
 - Noleggio del contatore
 
@@ -66,7 +68,7 @@ Esempio: conteggio VEWA
 <div className="row">
 <div className="col col--7">
 
-Nella vista standard della cartella dell'unità di conteggio (ad es. un appartamento) viene ora visualizzato un nuovo riquadro. Questo indica le letture del contatore per le tariffe virtuali. Cliccando su questo riquadro viene visualizzato il profilo di carico per le tariffe virtuali. 
+Nella vista standard della cartella dell'unità di conteggio (ad es. un appartamento) viene ora visualizzato un nuovo riquadro. Questo indica le letture del contatore per le tariffe virtuali. Facendo clic su questo riquadro viene visualizzato il profilo di carico per le tariffe virtuali. 
 
 </div>
 <div className="col col--5 bild--mitte">

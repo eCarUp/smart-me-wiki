@@ -1,23 +1,32 @@
 ---
-title: 'Creare la fattura'
+title: 'Emettere una fattura'
 slug: '/konfiguration/billing-deutschland/rechnung-erstellen'
 description: 'Creare la fattura di prova e le fatture effettive per l''elettricità per gli inquilini: l''ultimo passo della configurazione.'
-sidebar_label: 'Creare la fattura'
+sidebar_label: 'Emettere una fattura'
 naechste_schritte: [konfiguration/benutzerkonfiguration]
 vorheriger_schritt: konfiguration/billing-deutschland/sonstige-kosten
 ---
-Quando il riquadro blu nelle tariffe virtuali si trova sulla data odierna, puoi creare una fattura di prova.
+<Menueweg>Fatturazione → Emettere una fattura</Menueweg>
 
-- Menu Fatturazione (Rechnungsstellung)
+<div className="row">
+<div className="col col--5">
 
-- Fatture (Rechnungen)
+Quando il riquadro blu nelle tariffe virtuali si trova sulla data odierna, si può creare una fattura di prova.
 
-- Inserire la data
+- Inserisci la data
 
-- Creare l'anteprima della fattura (Rechnungsvorschau erstellen)
+- Crea l'anteprima della fattura (Rechnungsvorschau erstellen)
 
 Se l'anteprima ti soddisfa, puoi tornare indietro e creare le fatture effettive.
 
-Congratulazioni, ce l'hai fatta! Quando generi le fatture nello smart-me Billing Tool, ottieni un documento di fattura con tutte le informazioni necessarie e le rappresentazioni grafiche.
+Complimenti, ce l'hai fatta! Quando generi delle fatture nello strumento smart-me Billing, ottieni un documento di fatturazione con tutte le indicazioni necessarie e le rappresentazioni grafiche.
 
-In questa pagina trovi una descrizione dei messaggi di errore più frequenti e delle possibili soluzioni: [Messaggi di errore di Billing](/stoerungsbehebung/billing-fehlermeldungen)
+In questa pagina trovi una descrizione dei messaggi di errore più frequenti e le possibili soluzioni: [Messaggi di errore di Billing](/stoerungsbehebung/billing-fehlermeldungen)
+
+</div>
+<div className="col col--7 bild--mitte">
+
+![Finestra di dialogo «Emettere una fattura» con periodo di conteggio, numero di fattura e i pulsanti Anteprima della fattura, Emettere una fattura ed Esporta](/img/konfiguration-billing/14.png)
+
+</div>
+</div>

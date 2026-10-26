@@ -4,16 +4,18 @@ slug: '/schnittstellen/dta-vhka-files'
 description: 'General description of the interface'
 sidebar_label: 'DTA-VHKA Files'
 ---
+<Menueweg>Billing → Create invoice → Export</Menueweg>
+
 ## General description of the interface
 
-DTA-VHKA (Daten Träger Austausch der verbrauchsabhängigen Heiz- und Warmwasserkostenabrechnung, i.e. data carrier exchange for consumption-based heating and domestic hot water cost billing) is the name of the interface for the electronic exchange of consumption-based data between billing companies and property managers.
+DTA-VHKA (Daten Träger Austausch der verbrauchsabhängigen Heiz- und Warmwasserkostenabrechnung – data carrier exchange for consumption-based heating and domestic hot water cost billing) is the name of the interface for the electronic exchange of consumption-based data between billing companies and property managers.
 
-A uniform interface across Switzerland for importing consumption data into property management software ensures efficiency and flexibility.
+A uniform Switzerland-wide interface for importing consumption data into property management software ensures efficiency and flexibility.
 This allows property management companies to work with all meter reading companies, regardless of the software they use.
 
-## Working notes on VHKA files
+## Working notes for VHKA files
 
-- The tenant list is maintained in the property management software. In the smart-me portal, the contracts and vacancies are automatically imported under "Invoice recipients" ("Rechnungsempfänger").
+- The tenant list is maintained in the property management software. In the smart-me portal, the contracts and vacancies are automatically imported under "Invoice recipients" (Rechnungsempfänger).
 
 - The tenant list in the property management software must be complete; vacancies must always be transferred.
 
@@ -27,13 +29,13 @@ This allows property management companies to work with all meter reading compani
 
 - The consumption of the meter unit in kWh or m3
 
-- The per mille value of the total distributed costs
+- The per mille value of the sum of the distributed costs
     (VEWA must be configured in smart-me)
 
-- The per mille value for base costs and variable costs
+- The per mille value for basic costs and variable costs
     (VEWA must be configured in smart-me)
 
-- The price of the accrued costs in a currency, as a total or split into base costs and variable costs.
+- The price in a currency of the accrued costs as a sum or split into basic costs and variable costs.
     (VEWA must be configured in smart-me)
 
 
@@ -61,20 +63,20 @@ This allows property management companies to work with all meter reading compani
 
 ![DTA-VHKA Files Import / Export (Beta) – Figure 3](/img/schnittstellen-dta-vhka-files/03.png)
 
-1.  In Billing, navigate to "Invoices" ("Rechnungen") and then to the "Export" ("Exportieren") section
+1.  In Billing, navigate to "Invoices" (Rechnungen) and then to the "Export" (Exportieren) section
 
 
-2\. Select the export type and upload the file using "Export" ("Exportieren").
+2\. Select the export type and upload the file using "Export" (Exportieren).
 
-3\. Download the supplemented file to your computer using "Download" ("Herunterladen").
+3\. Download the supplemented file to your computer using "Download" (Herunterladen).
 
 ## Linking cost centres with smart-me energy tariffs and residential units
 
 For the connection between the property management software and the smart-me property to work, matching cost centres and residential units must be created in both systems.
 
-These are in turn linked once to the tariffs and residential units in smart-me via ID numbers from the order file.
+These are in turn linked once with the tariffs and residential units in smart-me via ID numbers from the order file.
 
-The overview below generally applies to all property management systems.
+The overview below applies in principle to all property management systems.
 
 ### Cost centres and tariff links when one cost centre = one tariff system
 
@@ -86,7 +88,7 @@ Cost centres for electricity
 
 ![DTA-VHKA Files Import / Export (Beta) – Figure 5](/img/schnittstellen-dta-vhka-files/05.png)
 
-### Cost centres and tariff links when one cost centre = several tariffs combined
+### Cost centres and tariff links when one cost centre = several combined tariffs
 
 Cost centres for heating, cooling, domestic hot water and cold water when combined
 
@@ -119,23 +121,23 @@ As long as there are no changes on the property management software side (additi
 
 ![DTA-VHKA Files Import / Export (Beta) – Figure 8](/img/schnittstellen-dta-vhka-files/08.png)
 
-So that the cost centres in the VHKA order file can be assigned unambiguously, a matching tariff must be defined and linked in the smart-me portal for each energy source queried.
+So that the cost centres in the VHKA order file can be assigned unambiguously, a matching tariff must be defined and linked in the smart-me portal for each queried energy source.
 
 The link is made via the respective external key of the created tariff.
 
 If several tariffs are linked to the same cost centre, several tariffs simply receive the same cost centre ID.
 
 Single:
-Grid electricity cost centre (ID= 6) --> Uniform grid tariff ( external key = 6)
+Grid electricity cost centre (ID= 6) --> Uniform grid tariff ( External key = 6)
 
 Combined:
-Grid electricity cost centre (ID= 6) \-->  Peak tariff ( external key = 6) and off-peak tariff (external key = 6)
+Grid electricity cost centre (ID= 6) \-->  Peak tariff ( External key = 6) and off-peak tariff (External key = 6)
 
 Note: 
 
-- If electricity tariffs are transmitted combined, the prices for the electrical tariffs must be stored in smart-me!
+- If electricity tariffs are transmitted in combination, the prices for the electrical tariffs must be stored in smart-me!
 
-- For heat and water tariffs in combination, the costs are not required in smart-me.
+- For combined heating and water tariffs, the costs are not required in smart-me.
 
 
 ![DTA-VHKA Files Import / Export (Beta) – Figure 9](/img/schnittstellen-dta-vhka-files/09.png)
@@ -147,7 +149,7 @@ List according to Qualipool: [https://qualipool.ch/projekt/](https://qualipool.c
 
 - [Immotop2](/schnittstellen/dta-vhka-files/immotop2)
 
-- Rimo R5 (Immotop2 instructions )
+- Rimo R5 (Immotop2 guide )
 
 - [Garaio REM](/schnittstellen/dta-vhka-files/garaio-rem)
 

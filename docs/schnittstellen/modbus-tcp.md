@@ -4,6 +4,8 @@ slug: '/schnittstellen/modbus-tcp'
 description: 'Mit Modbus TCP können die Messwerte eines Gerätes direkt über die Netzwerkverbindung abgefragt werden.'
 sidebar_label: 'Modbus TCP'
 ---
+<Menueweg>Dashboard → Gerät → Einstellungen (Zahnrad)</Menueweg>
+
 Mit Modbus TCP können die Messwerte eines Gerätes direkt über die Netzwerkverbindung abgefragt werden. Dabei ist kein Umweg über die Cloud notwendig.
 
 ### Voraussetzungen

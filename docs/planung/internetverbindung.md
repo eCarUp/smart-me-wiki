@@ -19,7 +19,7 @@ Ausfallebenen
 
 - Mehrere Access-Points mit derselben SSID und Passwort bereitzustellen. Alle smart-me Produkte wählen automatisch einen Access-Point mit Internetverbindung aus.
 
-- Mehrere WiFi-Netzwerke auf dem smart-me Gerät hinterlegen: [Kann ich mein Gerät mit mehreren WiFi-Netzwerken nutzen?](/konfiguration/inbetriebnahme#kann-ich-mein-gerät-mit-mehreren-wifi-netzwerken-nutzen)
+- Mehrere WiFi-Netzwerke auf dem smart-me Gerät hinterlegen: [Kann ich mein Gerät mit mehreren WiFi-Netzwerken nutzen?](/konfiguration/inbetriebnahme/smart-me-geraete#kann-ich-mein-gerät-mit-mehreren-wifi-netzwerken-nutzen)
 
 
 ![Internetverbindung – Abbildung 1](/img/planung-internetverbindung/01.png)

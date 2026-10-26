@@ -115,6 +115,7 @@ const sidebars: SidebarsConfig = {
           label: 'Inbetriebnahme',
           link: {type: 'doc', id: 'konfiguration/inbetriebnahme/index'},
           items: [
+            'konfiguration/inbetriebnahme/smart-me-geraete',
             {
               type: 'category',
               label: 'Inbetriebnahme LoRa',
@@ -127,6 +128,7 @@ const sidebars: SidebarsConfig = {
                 'konfiguration/inbetriebnahme/inbetriebnahme-lora/wisgate-edge-lite-2',
               ],
             },
+            'konfiguration/inbetriebnahme/swisseldex',
             'konfiguration/inbetriebnahme/pico-konfiguration',
             'konfiguration/inbetriebnahme/zaehler-loeschen',
           ],

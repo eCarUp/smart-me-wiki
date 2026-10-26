@@ -1,20 +1,22 @@
 ---
 title: 'Décompte de l''énergie (Suisse)'
 slug: '/konfiguration/billing'
-description: 'Vous avez besoin d''un abonnement smart-me Professional pour pouvoir établir des décomptes des coûts d''énergie.'
+description: 'Vous avez besoin d''un abonnement smart-me Professional pour pouvoir établir des décomptes des coûts énergétiques.'
 sidebar_label: 'Facturation'
 naechste_schritte: [konfiguration/billing/einstellungen]
 vorheriger_schritt: konfiguration/wenndann-aktionen/alarme
 ---
+<Menueweg>Facturation</Menueweg>
+
 ### Prérequis
 
-Vous avez besoin d'un abonnement smart-me Professional pour pouvoir établir des décomptes des coûts d'énergie. 
+Vous avez besoin d'un abonnement smart-me Professional pour pouvoir établir des décomptes des coûts énergétiques. 
 
 ## Configurer le décompte étape par étape
 
-Ce guide étape par étape vous accompagne dans la configuration de votre Billing. Veuillez noter qu'il ne s'agit que d'un exemple qui peut vous servir de repère. Selon la structure de votre immeuble, il y aura des différences par rapport à notre exemple. 
+Ce guide étape par étape a pour but de vous accompagner dans la configuration de votre Billing. Veuillez noter qu'il ne s'agit que d'un exemple sur lequel vous pouvez vous appuyer. Selon la structure de votre immeuble, il y aura des différences par rapport à notre exemple. 
 
-Chaque étape a sa propre page. Vous pouvez les parcourir dans l'ordre — en bas de chaque page, vous trouverez la suite — ou passer directement d'ici à l'étape où vous en êtes.
+Chaque étape a sa propre page. Vous pouvez les parcourir dans l'ordre (le bas de chaque page indique la suite) ou passer directement d'ici à l'étape où vous en êtes.
 
 <Ablauf land="ch" bis="konfiguration/billing/rechnung-erstellen" />
 
@@ -24,7 +26,7 @@ Chaque étape a sa propre page. Vous pouvez les parcourir dans l'ordre — en ba
 
 ## Webinaire smart-me Billing de A à Z
 
-Notre webinaire explique étape par étape comment établir des décomptes des coûts d'énergie avec l'outil Billing :
+Notre webinaire explique étape par étape comment établir des décomptes des coûts énergétiques avec l'outil Billing :
 
 <div className="row">
 <div className="col col--6">
@@ -38,7 +40,7 @@ Notre webinaire explique étape par étape comment établir des décomptes des c
 
 Contenu de la vidéo
 
-- Passage des heures pleines et heures creuses à un tarif unique
+- Passage de la configuration heures pleines et heures creuses à un tarif unique
 
 - Adaptation des prix des tarifs virtuels
 
@@ -66,12 +68,12 @@ Exemple : décompte VEWA
 <div className="row">
 <div className="col col--7">
 
-Dans la vue standard du dossier de l'unité de décompte (p. ex. un appartement), une nouvelle tuile s'affiche désormais. Elle indique les relevés du compteur pour les tarifs virtuels. Un clic sur cette tuile affiche le profil de charge des tarifs virtuels. 
+Dans la vue standard du dossier de l'unité de décompte (p. ex. un appartement), une nouvelle tuile s'affiche désormais. Elle indique les relevés du compteur pour les tarifs virtuels. Un clic sur cette tuile affiche la courbe de charge des tarifs virtuels. 
 
 </div>
 <div className="col col--5 bild--mitte">
 
-![Billing : décompte de l'énergie – figure 12](/img/konfiguration-billing/12.jpg)
+![Billing : décompte de l'énergie – Figure 12](/img/konfiguration-billing/12.jpg)
 
 </div>
 </div>
@@ -81,9 +83,9 @@ Dans la vue standard du dossier de l'unité de décompte (p. ex. un appartement)
 <div className="row">
 <div className="col col--7">
 
-La plateforme smart-me utilise le compteur de production (compteur PV) pour déterminer la quantité d'électricité produite et le compteur virtuel de consommation totale pour déterminer la quantité d'électricité consommée. Il en résulte une part en pourcentage d'électricité solaire. 
+La plateforme smart-me utilise le compteur de production (compteur PV) pour déterminer la quantité d'électricité produite et le compteur virtuel de consommation totale pour déterminer la quantité d'électricité consommée. Une part en pourcentage d'électricité solaire en est déduite. 
 
-Chaque compteur électrique (locataire) a ainsi droit à la même part d'électricité solaire par tranche de 15 minutes, p. ex. 40% de sa consommation en kWh.
+Chaque compteur d'électricité (locataire) a ainsi droit à la même part d'électricité solaire par tranche de 15 minutes, p. ex. 40 % de sa consommation en kWh.
 
 Exemple de répartition de l'électricité solaire
 
@@ -100,7 +102,7 @@ La précision peut être améliorée en configurant le compteur de bilan pour le
 </div>
 <div className="col col--5 bild--mitte">
 
-![Billing : décompte de l'énergie – figure 13](/img/konfiguration-billing/13.png)
+![Billing : décompte de l'énergie – Figure 13](/img/konfiguration-billing/13.png)
 
 </div>
 </div>

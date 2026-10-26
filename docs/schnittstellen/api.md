@@ -4,6 +4,8 @@ slug: '/schnittstellen/api'
 description: 'Die Grundfunktionen der API sind im Basic-Model für nicht kommerzielle Nutzung verfügbar.'
 sidebar_label: 'API'
 ---
+<Menueweg>Schnittstellen → API</Menueweg>
+
 ### Voraussetzungen
 
 Die Grundfunktionen der API sind im Basic-Model für nicht kommerzielle Nutzung verfügbar.

@@ -4,7 +4,7 @@ slug: '/konfiguration/technische-tools'
 description: 'Prüfe die Installation schnell und einfach auf mögliche Fehler bei der physischen Verdrahtung'
 sidebar_label: 'Technische Tools'
 ---
-![Technische Tools – Abbildung 1](/img/konfiguration-technische-tools/01.png)
+<Menueweg>Technische Hilfsmittel</Menueweg>
 
 ## Installationsprüfung
 

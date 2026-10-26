@@ -1,15 +1,15 @@
 ---
 title: 'AppLAB'
 slug: '/konfiguration/applab'
-description: 'In this section you will find new experimental apps that we are evaluating in order to possibly offer a more comprehensive solution later.'
+description: 'In this section you will find new experimental apps that we are evaluating in order to possibly offer a more comprehensive solution later on.'
 sidebar_label: 'AppLAB'
 ---
-![AppLAB – Figure 1](/img/konfiguration-applab/01_EN.png)
+<Menueweg>AppLAB</Menueweg>
 
-In this section you will find new experimental apps that we are evaluating in order to possibly offer a more comprehensive solution later.
+In this section you will find new experimental apps that we are evaluating in order to possibly offer a more comprehensive solution later on.
 
 
 
-Just try them out.
+Just give them a try.
 
-![AppLAB – Figure 2](/img/konfiguration-applab/02_EN.png)
+![AppLAB – Figure 2](/img/konfiguration-applab/02.png)

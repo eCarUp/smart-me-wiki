@@ -4,12 +4,14 @@ slug: '/schnittstellen/ein-und-ausgaenge'
 description: 'Configure inputs and outputs'
 sidebar_label: 'Inputs and Outputs'
 ---
+<Menueweg>Dashboard → Device (Gerät) → Settings (gear icon)</Menueweg>
+
 ## Configure inputs and outputs
 
 <div className="row">
 <div className="col col--6">
 
-The smart-me meters have one or more outputs, which can be used as a pulse output or as a potential-free contact.  By default, the S0\_0 output is defined as a pulse output and S1 as a digital relay output with the name "Relay" ("Relais").
+The smart-me meters have one or more outputs, which can be used as a pulse output or as a potential-free contact. By default, the S0\_0 output is defined as a pulse output and S1 as a digital relay output named "Relay" ("Relais").
 
 </div>
 <div className="col col--6 text--center">
@@ -23,11 +25,11 @@ The smart-me meters have one or more outputs, which can be used as a pulse outpu
 
 Controlling E1 with a tariff signal or load shedding
 
-![Meter inputs and outputs – Figure 2](/img/schnittstellen-ein-und-ausgaenge/02_EN.png)
+![Meter inputs and outputs – Figure 2](/img/schnittstellen-ein-und-ausgaenge/02.png)
 
-Switching on and off with Telstar (S1 and S0) is wired identically
+Switching on and off with Telstar: S1 and S0 are wired identically
 
-![Meter inputs and outputs – Figure 3](/img/schnittstellen-ein-und-ausgaenge/03_EN.png)
+![Meter inputs and outputs – Figure 3](/img/schnittstellen-ein-und-ausgaenge/03.png)
 
 ### Pulse output
 
@@ -47,26 +49,26 @@ If the output is defined as a potential-free contact, any device can be controll
 
     - You can give the output any name you like.
 
-    - You can define an action to be executed if the meter loses its connection to the smart-me Cloud.
+    - You can define an action to be carried out if the meter loses its connection to the smart-me Cloud.
 
 
 NOTE:
 If S1 is not used as a digital output, it can also be hidden from the view by switching it to pulse output.
 In the tenant view, the outputs cannot be activated or deactivated, even if they are visible there.
 
-![Meter inputs and outputs – Figure 4](/img/schnittstellen-ein-und-ausgaenge/04_EN.png)
+![Meter inputs and outputs – Figure 4](/img/schnittstellen-ein-und-ausgaenge/04.png)
 
 ### Online view when commissioning a Telstar 80A or CT
 
-![Meter inputs and outputs – Figure 5](/img/schnittstellen-ein-und-ausgaenge/05_EN.png)
+![Meter inputs and outputs – Figure 5](/img/schnittstellen-ein-und-ausgaenge/05.png)
 
 ### Online view after activating S0\_0 as a digital output
 
-![Meter inputs and outputs – Figure 6](/img/schnittstellen-ein-und-ausgaenge/06_EN.png)
+![Meter inputs and outputs – Figure 6](/img/schnittstellen-ein-und-ausgaenge/06.png)
 
 ### Wiring the outputs
 
-Observe the maximum voltage, current and power ratings of the respective outputs. Put simply, each of the potential-free outputs can be regarded as an unconnected switch. For it to work, a circuit from high to low potential must be established.
+Observe the maximum voltage, current and power ratings of the respective outputs. Put simply, each of the potential-free outputs can be regarded as an unconnected switch. For it to function, a circuit must be established from high to low potential.
 
 The outputs do not provide any voltage level themselves, so a voltage source must be connected upstream.
 
@@ -81,7 +83,7 @@ For 230V AC circuits:
 
 For DC circuits:
 
-- from + VDC to the "+" contact of S1
+- From + VDC to the "+" contact of S1
 
 - Wire the "-" contact of S1 to the "+" input of the external circuit.
 
@@ -94,9 +96,9 @@ For DC circuits:
 
 ![Meter inputs and outputs – Figure 8](/img/schnittstellen-ein-und-ausgaenge/08.png)
 
-## Configure the input
+## Configure input
 
-The smart-me meters have a digital input that can be used as a tariff input or as a normal digital input. By default, this input is defined as a tariff input. If the input is configured as a digital input, it can be used as an event to control other devices or trigger alarms.  If the input is defined as a tariff input, metering switches from tariff 1 to tariff 2 when a voltage is applied.
+The smart-me meters have a digital input that can be used as a tariff input or as a normal digital input. By default, this input is defined as a tariff input. If the input is configured as a digital input, it can be used as an event to control other devices or trigger alarms. If the input is defined as a tariff input, metering switches from tariff 1 to tariff 2 when a voltage is applied.
 
 ### Configuration as a digital input
 
@@ -112,19 +114,19 @@ To configure an input as a digital input, proceed as follows:
 
     - You can define a text to be displayed when the input is "On" ("Ein") or "Off" ("Aus").
 
-4.  You can now see the digital input and its status in the smart-me app and on the smart-me web portal.
+4.  You will now see the digital input and its status in the smart-me app and on the smart-me web portal.
 
 
 ### Using the digital input for control
 
-You can use the digital input to switch other devices or send alarms. To do this, define the if event "Switching state" ("Schaltzustand") under the [if/then actions](/konfiguration/wenndann-aktionen/ereignisaktionen).
+You can use the digital input to switch other devices or send alarms. To do this, define the if-event "Switching state" ("Schaltzustand") under [if/then actions](/konfiguration/wenndann-aktionen/ereignisaktionen).
 
 ### Wiring the connection
 
-To switch the potential-free contact, an external voltage and potential (e.g. neutral conductor) must be applied. The respective voltage values can be found in the technical data of the individual products. 
+To switch the potential-free contact, an external voltage and potential (e.g. neutral conductor) must be applied. The respective voltage values can be found in the technical data of the individual products.
 
 Logic:
-1 (High) = voltage according to data sheet
+1 (High) = voltage as per data sheet
 0 (Low) = 0 volts
 
 Note: With DC voltage, the polarity (E1+/E1-) must be observed, whereas it does not matter with AC voltage.

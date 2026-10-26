@@ -5,20 +5,11 @@ description: 'Liegenschaft konfigurieren, Reststromzusammensetzung hinterlegen u
 sidebar_label: 'Konfiguration Rechnungsstellung'
 naechste_schritte: [konfiguration/billing/zaehler-zuweisen]
 ---
+<Menueweg>Rechnungserstellung → Liegenschaften & Tarife</Menueweg>
+
 ## Konfiguration der Liegenschaft
 
-<div className="row">
-<div className="col col--6">
-
-Wechsele oben im Reiter auf den Menüpunkt "Konfiguration", hier kannst du nun die freigeschalteten Erweiterungen für die Liegenschaft und in den einzelnen Wohneinheiten vornehmen. Klicke zuerst auf den Ordner der gewünschten Liegenschaft.
-
-</div>
-<div className="col col--6 bild--mitte">
-
-![smart-me Billing für deutschen Mieterstrom – Abbildung 5](/img/konfiguration-billing-mieterstrom/05.png)
-
-</div>
-</div>
+Hier nimmst du die freigeschalteten Erweiterungen für die Liegenschaft und für die einzelnen Wohneinheiten vor. Klicke zuerst auf den Ordner der gewünschten Liegenschaft.
 
 ## Reststromzusammensetzung
 

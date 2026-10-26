@@ -4,6 +4,8 @@ slug: '/konfiguration/wenndann-aktionen/ereignisaktionen'
 description: 'Automatische Steuerungen können für jedes Gerät in der smart-me Plattform erstellt werden.'
 sidebar_label: 'Ereignisaktionen'
 ---
+<Menueweg>Dashboard → Gerät → Einstellungen (Zahnrad)</Menueweg>
+
 Automatische Steuerungen können für jedes Gerät in der smart-me Plattform erstellt werden. Es gibt zwei Möglichkeiten, solche Aktionen zu definieren. Entweder werden Ereignisaktionen oder [Wenn/Dann Aktionen](/konfiguration/wenndann-aktionen) erstellt. In diesem Artikel werden Ereignisaktionen erklärt.
 
 ## Ereignisaktionen, nur für 1-Phasenzähler und 3-Phasenzähler Telstar

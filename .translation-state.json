@@ -520,15 +520,15 @@
     },
     "docs/faq.md": {
       "en": {
-        "hash": "96dd34026fe44652",
+        "hash": "7a90a3a353326223",
         "origin": "translated"
       },
       "fr": {
-        "hash": "96dd34026fe44652",
+        "hash": "7a90a3a353326223",
         "origin": "translated"
       },
       "it": {
-        "hash": "96dd34026fe44652",
+        "hash": "7a90a3a353326223",
         "origin": "translated"
       }
     },
@@ -618,141 +618,141 @@
     },
     "docs/konfiguration/applab.md": {
       "en": {
-        "hash": "660b38c0c34a4e54",
+        "hash": "5645189f73258bfd",
         "origin": "translated"
       },
       "fr": {
-        "hash": "660b38c0c34a4e54",
+        "hash": "5645189f73258bfd",
         "origin": "translated"
       },
       "it": {
-        "hash": "660b38c0c34a4e54",
+        "hash": "5645189f73258bfd",
         "origin": "translated"
       }
     },
     "docs/konfiguration/benutzerkonfiguration.md": {
       "en": {
-        "hash": "9968283dc261ee39",
+        "hash": "b831dadf9187668b",
         "origin": "translated"
       },
       "fr": {
-        "hash": "9968283dc261ee39",
+        "hash": "b831dadf9187668b",
         "origin": "translated"
       },
       "it": {
-        "hash": "9968283dc261ee39",
+        "hash": "b831dadf9187668b",
         "origin": "translated"
       }
     },
     "docs/konfiguration/billing-deutschland/einstellungen.md": {
       "en": {
-        "hash": "45ead776bfa64979",
+        "hash": "09241e3f13b0f4db",
         "origin": "translated"
       },
       "fr": {
-        "hash": "45ead776bfa64979",
+        "hash": "09241e3f13b0f4db",
         "origin": "translated"
       },
       "it": {
-        "hash": "45ead776bfa64979",
+        "hash": "09241e3f13b0f4db",
         "origin": "translated"
       }
     },
     "docs/konfiguration/billing-deutschland/index.md": {
       "en": {
-        "hash": "e283ebf80a90301d",
+        "hash": "5493581aa8045f13",
         "origin": "translated"
       },
       "it": {
-        "hash": "e283ebf80a90301d",
+        "hash": "5493581aa8045f13",
         "origin": "translated"
       },
       "fr": {
-        "hash": "e283ebf80a90301d",
+        "hash": "5493581aa8045f13",
         "origin": "translated"
       }
     },
     "docs/konfiguration/billing-deutschland/konfiguration-rechnungsstellung.md": {
       "en": {
-        "hash": "3ffcc598e3a2d206",
+        "hash": "80df4df311eec73c",
         "origin": "translated"
       },
       "fr": {
-        "hash": "3ffcc598e3a2d206",
+        "hash": "80df4df311eec73c",
         "origin": "translated"
       },
       "it": {
-        "hash": "3ffcc598e3a2d206",
+        "hash": "80df4df311eec73c",
         "origin": "translated"
       }
     },
     "docs/konfiguration/billing-deutschland/mieterspiegel-erfassen.md": {
       "en": {
-        "hash": "028a21be5b8f58e6",
+        "hash": "a29a84d013ba6ce3",
         "origin": "translated"
       },
       "fr": {
-        "hash": "028a21be5b8f58e6",
+        "hash": "a29a84d013ba6ce3",
         "origin": "translated"
       },
       "it": {
-        "hash": "028a21be5b8f58e6",
+        "hash": "a29a84d013ba6ce3",
         "origin": "translated"
       }
     },
     "docs/konfiguration/billing-deutschland/rechnung-erstellen.md": {
       "en": {
-        "hash": "5efed660bd226786",
+        "hash": "2c9f9cd041bea5a8",
         "origin": "translated"
       },
       "fr": {
-        "hash": "5efed660bd226786",
+        "hash": "2c9f9cd041bea5a8",
         "origin": "translated"
       },
       "it": {
-        "hash": "5efed660bd226786",
+        "hash": "2c9f9cd041bea5a8",
         "origin": "translated"
       }
     },
     "docs/konfiguration/billing-deutschland/sonstige-kosten.md": {
       "en": {
-        "hash": "29208b5b21668f98",
+        "hash": "6f000d753cee973e",
         "origin": "translated"
       },
       "fr": {
-        "hash": "29208b5b21668f98",
+        "hash": "6f000d753cee973e",
         "origin": "translated"
       },
       "it": {
-        "hash": "29208b5b21668f98",
+        "hash": "6f000d753cee973e",
         "origin": "translated"
       }
     },
     "docs/konfiguration/billing-deutschland/stromtarife-definieren.md": {
       "en": {
-        "hash": "aee52382bc64d96a",
+        "hash": "338fe1d0c1a71ed6",
         "origin": "translated"
       },
       "fr": {
-        "hash": "aee52382bc64d96a",
+        "hash": "338fe1d0c1a71ed6",
         "origin": "translated"
       },
       "it": {
-        "hash": "aee52382bc64d96a",
+        "hash": "338fe1d0c1a71ed6",
         "origin": "translated"
       }
     },
     "docs/konfiguration/billing/einstellungen.md": {
       "en": {
-        "hash": "30489e389590cb2b",
+        "hash": "632e7ab76653fad1",
         "origin": "translated"
       },
       "fr": {
-        "hash": "30489e389590cb2b",
+        "hash": "632e7ab76653fad1",
         "origin": "translated"
       },
       "it": {
-        "hash": "30489e389590cb2b",
+        "hash": "632e7ab76653fad1",
         "origin": "translated"
       }
     },
@@ -772,43 +772,43 @@
     },
     "docs/konfiguration/billing/index.md": {
       "en": {
-        "hash": "84e5bdf3b86bb607",
+        "hash": "1c13d06be3cc4afa",
         "origin": "translated"
       },
       "fr": {
-        "hash": "84e5bdf3b86bb607",
+        "hash": "1c13d06be3cc4afa",
         "origin": "translated"
       },
       "it": {
-        "hash": "84e5bdf3b86bb607",
+        "hash": "1c13d06be3cc4afa",
         "origin": "translated"
       }
     },
     "docs/konfiguration/billing/konfiguration-rechnungsstellung.md": {
       "en": {
-        "hash": "b2acb12f72271942",
+        "hash": "6ee40a4fada149ec",
         "origin": "translated"
       },
       "fr": {
-        "hash": "b2acb12f72271942",
+        "hash": "6ee40a4fada149ec",
         "origin": "translated"
       },
       "it": {
-        "hash": "b2acb12f72271942",
+        "hash": "6ee40a4fada149ec",
         "origin": "translated"
       }
     },
     "docs/konfiguration/billing/mieterspiegel-erfassen.md": {
       "en": {
-        "hash": "cfe3048fda68f2ab",
+        "hash": "f90b6d0afdac1b11",
         "origin": "translated"
       },
       "fr": {
-        "hash": "cfe3048fda68f2ab",
+        "hash": "f90b6d0afdac1b11",
         "origin": "translated"
       },
       "it": {
-        "hash": "cfe3048fda68f2ab",
+        "hash": "f90b6d0afdac1b11",
         "origin": "translated"
       }
     },
@@ -870,43 +870,43 @@
     },
     "docs/konfiguration/billing/rechnung-erstellen.md": {
       "en": {
-        "hash": "283f4dd38ab22193",
+        "hash": "575411876df0e515",
         "origin": "translated"
       },
       "fr": {
-        "hash": "283f4dd38ab22193",
+        "hash": "575411876df0e515",
         "origin": "translated"
       },
       "it": {
-        "hash": "283f4dd38ab22193",
+        "hash": "575411876df0e515",
         "origin": "translated"
       }
     },
     "docs/konfiguration/billing/sonstige-kosten.md": {
       "en": {
-        "hash": "015fc73104ac772a",
+        "hash": "dde26e325d5b4dee",
         "origin": "translated"
       },
       "fr": {
-        "hash": "015fc73104ac772a",
+        "hash": "dde26e325d5b4dee",
         "origin": "translated"
       },
       "it": {
-        "hash": "015fc73104ac772a",
+        "hash": "dde26e325d5b4dee",
         "origin": "translated"
       }
     },
     "docs/konfiguration/billing/stromtarife-definieren/index.md": {
       "en": {
-        "hash": "03c155a739752ba0",
+        "hash": "5e8e17a717fbd97e",
         "origin": "translated"
       },
       "fr": {
-        "hash": "03c155a739752ba0",
+        "hash": "5e8e17a717fbd97e",
         "origin": "translated"
       },
       "it": {
-        "hash": "03c155a739752ba0",
+        "hash": "5e8e17a717fbd97e",
         "origin": "translated"
       }
     },
@@ -926,15 +926,15 @@
     },
     "docs/konfiguration/billing/vewa-abrechnung.md": {
       "en": {
-        "hash": "a7fdb7d8580052d1",
+        "hash": "573692ba6fb51061",
         "origin": "translated"
       },
       "fr": {
-        "hash": "a7fdb7d8580052d1",
+        "hash": "573692ba6fb51061",
         "origin": "translated"
       },
       "it": {
-        "hash": "a7fdb7d8580052d1",
+        "hash": "573692ba6fb51061",
         "origin": "translated"
       }
     },
@@ -954,43 +954,43 @@
     },
     "docs/konfiguration/billing/zaehler-zuweisen.md": {
       "en": {
-        "hash": "de1b9522740d384e",
+        "hash": "b6aeb2cdb0b5bbe9",
         "origin": "translated"
       },
       "fr": {
-        "hash": "de1b9522740d384e",
+        "hash": "b6aeb2cdb0b5bbe9",
         "origin": "translated"
       },
       "it": {
-        "hash": "de1b9522740d384e",
+        "hash": "b6aeb2cdb0b5bbe9",
         "origin": "translated"
       }
     },
     "docs/konfiguration/billing/zahlungsdaten-erfassen.md": {
       "en": {
-        "hash": "d60253f87a6d54a5",
+        "hash": "f227cd59da2e2a22",
         "origin": "translated"
       },
       "fr": {
-        "hash": "d60253f87a6d54a5",
+        "hash": "f227cd59da2e2a22",
         "origin": "translated"
       },
       "it": {
-        "hash": "d60253f87a6d54a5",
+        "hash": "f227cd59da2e2a22",
         "origin": "translated"
       }
     },
     "docs/konfiguration/firmware-update.md": {
       "en": {
-        "hash": "cbe2602bc8abfd3b",
+        "hash": "dccb089446e1dac6",
         "origin": "translated"
       },
       "fr": {
-        "hash": "cbe2602bc8abfd3b",
+        "hash": "dccb089446e1dac6",
         "origin": "translated"
       },
       "it": {
-        "hash": "cbe2602bc8abfd3b",
+        "hash": "dccb089446e1dac6",
         "origin": "translated"
       }
     },
@@ -1080,15 +1080,15 @@
     },
     "docs/konfiguration/inbetriebnahme/index.md": {
       "en": {
-        "hash": "fe142b2a1bade68f",
+        "hash": "47438b43085b13d8",
         "origin": "translated"
       },
       "fr": {
-        "hash": "fe142b2a1bade68f",
+        "hash": "47438b43085b13d8",
         "origin": "translated"
       },
       "it": {
-        "hash": "fe142b2a1bade68f",
+        "hash": "47438b43085b13d8",
         "origin": "translated"
       }
     },
@@ -1106,269 +1106,297 @@
         "origin": "translated"
       }
     },
-    "docs/konfiguration/inbetriebnahme/zaehler-loeschen.md": {
+    "docs/konfiguration/inbetriebnahme/smart-me-geraete.md": {
       "en": {
-        "hash": "2739d3b251f0f1bc",
+        "hash": "3e337b3f186ebe27",
         "origin": "translated"
       },
       "fr": {
-        "hash": "2739d3b251f0f1bc",
+        "hash": "3e337b3f186ebe27",
         "origin": "translated"
       },
       "it": {
-        "hash": "2739d3b251f0f1bc",
+        "hash": "3e337b3f186ebe27",
+        "origin": "translated"
+      }
+    },
+    "docs/konfiguration/inbetriebnahme/swisseldex.md": {
+      "en": {
+        "hash": "00ef816d1a5011fe",
+        "origin": "translated"
+      },
+      "fr": {
+        "hash": "00ef816d1a5011fe",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "00ef816d1a5011fe",
+        "origin": "translated"
+      }
+    },
+    "docs/konfiguration/inbetriebnahme/zaehler-loeschen.md": {
+      "en": {
+        "hash": "0ed8b009a5f1e69b",
+        "origin": "translated"
+      },
+      "fr": {
+        "hash": "0ed8b009a5f1e69b",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "0ed8b009a5f1e69b",
         "origin": "translated"
       }
     },
     "docs/konfiguration/installer-app-anleitung.md": {
       "en": {
-        "hash": "03fa38c8af62d319",
+        "hash": "bcc2593aaa7b4733",
         "origin": "translated"
       },
       "fr": {
-        "hash": "03fa38c8af62d319",
+        "hash": "bcc2593aaa7b4733",
         "origin": "translated"
       },
       "it": {
-        "hash": "03fa38c8af62d319",
+        "hash": "bcc2593aaa7b4733",
         "origin": "translated"
       }
     },
     "docs/konfiguration/multilevel-lastmanagement/index.md": {
       "en": {
-        "hash": "2383efb566dd2611",
+        "hash": "9f58dc73e782795d",
         "origin": "translated"
       },
       "fr": {
-        "hash": "2383efb566dd2611",
+        "hash": "9f58dc73e782795d",
         "origin": "translated"
       },
       "it": {
-        "hash": "2383efb566dd2611",
+        "hash": "9f58dc73e782795d",
         "origin": "translated"
       }
     },
     "docs/konfiguration/multilevel-lastmanagement/mlm-konfigurieren.md": {
       "en": {
-        "hash": "f988ae05de54511b",
+        "hash": "15cc699c7cecd4f1",
         "origin": "translated"
       },
       "fr": {
-        "hash": "f988ae05de54511b",
+        "hash": "15cc699c7cecd4f1",
         "origin": "translated"
       },
       "it": {
-        "hash": "f988ae05de54511b",
+        "hash": "15cc699c7cecd4f1",
         "origin": "translated"
       }
     },
     "docs/konfiguration/my-dashboards.md": {
       "en": {
-        "hash": "86dbd877965cc489",
+        "hash": "65a7f7a62aea31fc",
         "origin": "translated"
       },
       "fr": {
-        "hash": "86dbd877965cc489",
+        "hash": "65a7f7a62aea31fc",
         "origin": "translated"
       },
       "it": {
-        "hash": "86dbd877965cc489",
+        "hash": "65a7f7a62aea31fc",
         "origin": "translated"
       }
     },
     "docs/konfiguration/ordnerkonfiguration/index.md": {
       "en": {
-        "hash": "6b517d4712f4e71c",
+        "hash": "e435ce2bc2405ed3",
         "origin": "translated"
       },
       "fr": {
-        "hash": "6b517d4712f4e71c",
+        "hash": "e435ce2bc2405ed3",
         "origin": "translated"
       },
       "it": {
-        "hash": "6b517d4712f4e71c",
+        "hash": "e435ce2bc2405ed3",
         "origin": "translated"
       }
     },
     "docs/konfiguration/ordnerkonfiguration/mieterstrom-nicht-teilnehmer.md": {
       "en": {
-        "hash": "616c1176620f9ca0",
+        "hash": "bbe436e79f1d4b12",
         "origin": "translated"
       },
       "fr": {
-        "hash": "616c1176620f9ca0",
+        "hash": "bbe436e79f1d4b12",
         "origin": "translated"
       },
       "it": {
-        "hash": "616c1176620f9ca0",
+        "hash": "bbe436e79f1d4b12",
         "origin": "translated"
       }
     },
     "docs/konfiguration/ordnerkonfiguration/mieterstrom-standard.md": {
       "en": {
-        "hash": "425148af5a2084db",
+        "hash": "c13015812e2442a5",
         "origin": "translated"
       },
       "fr": {
-        "hash": "425148af5a2084db",
+        "hash": "c13015812e2442a5",
         "origin": "translated"
       },
       "it": {
-        "hash": "425148af5a2084db",
+        "hash": "c13015812e2442a5",
         "origin": "translated"
       }
     },
     "docs/konfiguration/ordnerkonfiguration/nur-strom.md": {
       "en": {
-        "hash": "9df2b21f0507c200",
+        "hash": "19e87e9dfcbacf3c",
         "origin": "translated"
       },
       "fr": {
-        "hash": "9df2b21f0507c200",
+        "hash": "19e87e9dfcbacf3c",
         "origin": "translated"
       },
       "it": {
-        "hash": "9df2b21f0507c200",
+        "hash": "19e87e9dfcbacf3c",
         "origin": "translated"
       }
     },
     "docs/konfiguration/ordnerkonfiguration/strom-und-eine-heizung.md": {
       "en": {
-        "hash": "40716075122b1ebd",
+        "hash": "793842d69ecdc9a8",
         "origin": "translated"
       },
       "fr": {
-        "hash": "40716075122b1ebd",
+        "hash": "793842d69ecdc9a8",
         "origin": "translated"
       },
       "it": {
-        "hash": "40716075122b1ebd",
+        "hash": "793842d69ecdc9a8",
         "origin": "translated"
       }
     },
     "docs/konfiguration/ordnerkonfiguration/strom-und-mehrere-heizungen.md": {
       "en": {
-        "hash": "bb30e585c7904abe",
+        "hash": "0255e8037632bd64",
         "origin": "translated"
       },
       "fr": {
-        "hash": "bb30e585c7904abe",
+        "hash": "0255e8037632bd64",
         "origin": "translated"
       },
       "it": {
-        "hash": "bb30e585c7904abe",
+        "hash": "0255e8037632bd64",
         "origin": "translated"
       }
     },
     "docs/konfiguration/technische-tools.md": {
       "en": {
-        "hash": "3102b9f74d406952",
+        "hash": "271f3db30c55f27c",
         "origin": "translated"
       },
       "fr": {
-        "hash": "3102b9f74d406952",
+        "hash": "271f3db30c55f27c",
         "origin": "translated"
       },
       "it": {
-        "hash": "3102b9f74d406952",
+        "hash": "271f3db30c55f27c",
         "origin": "translated"
       }
     },
     "docs/konfiguration/virtuelle-zaehler.md": {
       "en": {
-        "hash": "02b8cdb65242b041",
+        "hash": "6054ea0acb07831e",
         "origin": "translated"
       },
       "fr": {
-        "hash": "02b8cdb65242b041",
+        "hash": "6054ea0acb07831e",
         "origin": "translated"
       },
       "it": {
-        "hash": "02b8cdb65242b041",
+        "hash": "6054ea0acb07831e",
         "origin": "translated"
       }
     },
     "docs/konfiguration/visualisierung.md": {
       "en": {
-        "hash": "80cb5146b47d768a",
+        "hash": "5b16588d84a75705",
         "origin": "translated"
       },
       "fr": {
-        "hash": "80cb5146b47d768a",
+        "hash": "5b16588d84a75705",
         "origin": "translated"
       },
       "it": {
-        "hash": "80cb5146b47d768a",
+        "hash": "5b16588d84a75705",
         "origin": "translated"
       }
     },
     "docs/konfiguration/wenndann-aktionen/alarme.md": {
       "en": {
-        "hash": "9b257e5ff8cced17",
+        "hash": "5f56266f59b40247",
         "origin": "translated"
       },
       "fr": {
-        "hash": "9b257e5ff8cced17",
+        "hash": "5f56266f59b40247",
         "origin": "translated"
       },
       "it": {
-        "hash": "9b257e5ff8cced17",
+        "hash": "5f56266f59b40247",
         "origin": "translated"
       }
     },
     "docs/konfiguration/wenndann-aktionen/beispiel-boilersteuerung.md": {
       "en": {
-        "hash": "49fe62af590dfad7",
+        "hash": "7eedf46c9412cd2b",
         "origin": "translated"
       },
       "it": {
-        "hash": "49fe62af590dfad7",
+        "hash": "7eedf46c9412cd2b",
         "origin": "translated"
       },
       "fr": {
-        "hash": "49fe62af590dfad7",
+        "hash": "7eedf46c9412cd2b",
         "origin": "translated"
       }
     },
     "docs/konfiguration/wenndann-aktionen/ereignisaktionen.md": {
       "en": {
-        "hash": "96d7da26b03aee46",
+        "hash": "77fe313b6bcf355c",
         "origin": "translated"
       },
       "fr": {
-        "hash": "96d7da26b03aee46",
+        "hash": "77fe313b6bcf355c",
         "origin": "translated"
       },
       "it": {
-        "hash": "96d7da26b03aee46",
+        "hash": "77fe313b6bcf355c",
         "origin": "translated"
       }
     },
     "docs/konfiguration/wenndann-aktionen/index.md": {
       "en": {
-        "hash": "8a08ddf6353cde25",
+        "hash": "dcebb42b1a420667",
         "origin": "translated"
       },
       "fr": {
-        "hash": "8a08ddf6353cde25",
+        "hash": "dcebb42b1a420667",
         "origin": "translated"
       },
       "it": {
-        "hash": "8a08ddf6353cde25",
+        "hash": "dcebb42b1a420667",
         "origin": "translated"
       }
     },
     "docs/konfiguration/wenndann-aktionen/tarifzeiten-definieren.md": {
       "en": {
-        "hash": "4fc282dd454c67cb",
+        "hash": "0e31c215dcdaa616",
         "origin": "translated"
       },
       "fr": {
-        "hash": "4fc282dd454c67cb",
+        "hash": "0e31c215dcdaa616",
         "origin": "translated"
       },
       "it": {
-        "hash": "4fc282dd454c67cb",
+        "hash": "0e31c215dcdaa616",
         "origin": "translated"
       }
     },
@@ -1640,15 +1668,15 @@
     },
     "docs/planung/internetverbindung.md": {
       "en": {
-        "hash": "90a5f0ac5617410e",
+        "hash": "baf19a9fe7242a8a",
         "origin": "translated"
       },
       "fr": {
-        "hash": "90a5f0ac5617410e",
+        "hash": "baf19a9fe7242a8a",
         "origin": "translated"
       },
       "it": {
-        "hash": "90a5f0ac5617410e",
+        "hash": "baf19a9fe7242a8a",
         "origin": "translated"
       }
     },
@@ -2074,15 +2102,15 @@
     },
     "docs/produkte/m-bus-gateway/index.md": {
       "en": {
-        "hash": "4700c7b1d98828a3",
+        "hash": "7afd40c1bf73ac69",
         "origin": "translated"
       },
       "fr": {
-        "hash": "4700c7b1d98828a3",
+        "hash": "7afd40c1bf73ac69",
         "origin": "translated"
       },
       "it": {
-        "hash": "4700c7b1d98828a3",
+        "hash": "7afd40c1bf73ac69",
         "origin": "translated"
       }
     },
@@ -2396,29 +2424,29 @@
     },
     "docs/schnittstellen/api.md": {
       "en": {
-        "hash": "f354e5b7ad8c65a8",
+        "hash": "60e9d9acdaf6da88",
         "origin": "translated"
       },
       "fr": {
-        "hash": "f354e5b7ad8c65a8",
+        "hash": "60e9d9acdaf6da88",
         "origin": "translated"
       },
       "it": {
-        "hash": "f354e5b7ad8c65a8",
+        "hash": "60e9d9acdaf6da88",
         "origin": "translated"
       }
     },
     "docs/schnittstellen/auto-export.md": {
       "en": {
-        "hash": "f3500e37f1a49fcc",
+        "hash": "f3f909ba77fff144",
         "origin": "translated"
       },
       "fr": {
-        "hash": "f3500e37f1a49fcc",
+        "hash": "f3f909ba77fff144",
         "origin": "translated"
       },
       "it": {
-        "hash": "f3500e37f1a49fcc",
+        "hash": "f3f909ba77fff144",
         "origin": "translated"
       }
     },
@@ -2508,15 +2536,15 @@
     },
     "docs/schnittstellen/dta-vhka-files/index.md": {
       "en": {
-        "hash": "30b1780fdfc4541f",
+        "hash": "0a725f88e77c0209",
         "origin": "translated"
       },
       "fr": {
-        "hash": "30b1780fdfc4541f",
+        "hash": "0a725f88e77c0209",
         "origin": "translated"
       },
       "it": {
-        "hash": "30b1780fdfc4541f",
+        "hash": "0a725f88e77c0209",
         "origin": "translated"
       }
     },
@@ -2536,15 +2564,15 @@
     },
     "docs/schnittstellen/ein-und-ausgaenge.md": {
       "en": {
-        "hash": "20eeb08f5fc889ef",
+        "hash": "e0d5fbf877e346b2",
         "origin": "translated"
       },
       "fr": {
-        "hash": "20eeb08f5fc889ef",
+        "hash": "e0d5fbf877e346b2",
         "origin": "translated"
       },
       "it": {
-        "hash": "20eeb08f5fc889ef",
+        "hash": "e0d5fbf877e346b2",
         "origin": "translated"
       }
     },
@@ -2564,15 +2592,15 @@
     },
     "docs/schnittstellen/ladestation-15-minuten-import.md": {
       "en": {
-        "hash": "122ef95ea46c6c17",
+        "hash": "3c8576f243e009b3",
         "origin": "translated"
       },
       "fr": {
-        "hash": "122ef95ea46c6c17",
+        "hash": "3c8576f243e009b3",
         "origin": "translated"
       },
       "it": {
-        "hash": "122ef95ea46c6c17",
+        "hash": "3c8576f243e009b3",
         "origin": "translated"
       }
     },
@@ -2592,43 +2620,43 @@
     },
     "docs/schnittstellen/modbus-tcp.md": {
       "en": {
-        "hash": "1bf28d052eefdca6",
+        "hash": "3e44d5bce1c37029",
         "origin": "translated"
       },
       "fr": {
-        "hash": "1bf28d052eefdca6",
+        "hash": "3e44d5bce1c37029",
         "origin": "translated"
       },
       "it": {
-        "hash": "1bf28d052eefdca6",
+        "hash": "3e44d5bce1c37029",
         "origin": "translated"
       }
     },
     "docs/schnittstellen/p1-schnittstelle.md": {
       "en": {
-        "hash": "36998431b5849760",
+        "hash": "3602acfa2b75b6a4",
         "origin": "translated"
       },
       "fr": {
-        "hash": "36998431b5849760",
+        "hash": "3602acfa2b75b6a4",
         "origin": "translated"
       },
       "it": {
-        "hash": "36998431b5849760",
+        "hash": "3602acfa2b75b6a4",
         "origin": "translated"
       }
     },
     "docs/schnittstellen/swisseldex-sdat-import.md": {
       "en": {
-        "hash": "e799886e6f8e50af",
+        "hash": "472c5888ba9fcb09",
         "origin": "translated"
       },
       "fr": {
-        "hash": "e799886e6f8e50af",
+        "hash": "472c5888ba9fcb09",
         "origin": "translated"
       },
       "it": {
-        "hash": "e799886e6f8e50af",
+        "hash": "472c5888ba9fcb09",
         "origin": "translated"
       }
     },

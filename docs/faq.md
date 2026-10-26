@@ -35,7 +35,7 @@ Mit folgenden Punkten kann verhindert werden, dass der Zähler wieder Daten an d
 
 - Den Zähler nicht mehr speisen. Sobald der Zähler aber gespiesen wird und wieder eine Internetverbindung hat, schickt er die Daten wieder zur Cloud. 
 
-- Das WLAN vom Zähler löschen (siehe "[Können die gespeicherten WiFi-Informationen gelöscht werden?](/konfiguration/inbetriebnahme#können-die-gespeicherten-wifi-informationen-gelöscht-werden)").  Der Zähler kann ohne Internet keine Daten mehr schicken. 
+- Das WLAN vom Zähler löschen (siehe "[Können die gespeicherten WiFi-Informationen gelöscht werden?](/konfiguration/inbetriebnahme/smart-me-geraete#können-die-gespeicherten-wifi-informationen-gelöscht-werden)").  Der Zähler kann ohne Internet keine Daten mehr schicken. 
 
 Alternativ kannst du den Zähler in der Cloud auch deaktivieren. Ein deaktivierter Zähler benötigt keine Lizenzen und du kannst Ihn jederzeit wieder aktivieren und auf seine Daten zugreifen. 
 

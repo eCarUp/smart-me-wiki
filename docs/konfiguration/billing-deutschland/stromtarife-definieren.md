@@ -7,13 +7,14 @@ naechste_schritte: [konfiguration/billing-deutschland/sonstige-kosten]
 optionale_schritte: [konfiguration/wenndann-aktionen/tarifzeiten-definieren]
 vorheriger_schritt: konfiguration/billing-deutschland/mieterspiegel-erfassen
 ---
+<Menueweg>Rechnungserstellung → Liegenschaften & Tarife</Menueweg>
 
 Bei Mieterstrom muss **immer mit virtuellen Tarifen** gearbeitet werden. Nur so lässt sich pro Abrechnungseinheit ausweisen, welcher Anteil des Stroms aus der Solaranlage und welcher aus dem Netz kam — und genau das verlangt die Abrechnung nach § 42 EnWG.
 
 ## Wo du die Tarife findest
 
-- Menu Rechnungsstellung
-- Konfiguration
+<Menueweg>Rechnungserstellung → Liegenschaften & Tarife</Menueweg>
+
 - Links die Liegenschaft wählen (Hauptordner z.B. Altgasse 13)
 - Virtuelle Stromtarife Hinzufügen. (z.B. Hochtarif, Niedertarif, Solartarif)
 

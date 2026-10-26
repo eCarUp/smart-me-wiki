@@ -4,9 +4,11 @@ slug: '/schnittstellen/p1-schnittstelle'
 description: 'The P1 interface allows live data from our meter hardware to be transferred to third-party systems.'
 sidebar_label: 'P1 Interface'
 ---
+<Menueweg>Dashboard → Device → Settings (gear icon)</Menueweg>
+
 ## P1 Interface
 
-The P1 interface allows live data from our meter hardware to be transferred to third-party systems. The data can then be used for analysis or control.
+The P1 interface allows live data from our meter hardware to be transferred to third-party systems. The data can then be used for analysis or for control purposes.
 
 To use this interface, you need a P1 reader module that supports the protocol standard.
 You can find information on the respective standard in the product-specific downloads.

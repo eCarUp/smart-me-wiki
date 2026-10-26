@@ -6,6 +6,8 @@ sidebar_label: 'Rechnungsstellung'
 naechste_schritte: [konfiguration/billing/einstellungen]
 vorheriger_schritt: konfiguration/wenndann-aktionen/alarme
 ---
+<Menueweg>Rechnungserstellung</Menueweg>
+
 ### Voraussetzung
 
 Du brauchst ein smart-me Professional Abo, um Energiekostenabrechnungen erstellen zu können. 
@@ -51,13 +53,9 @@ Inhalt vom Video
 
 ## smart-me Billing Rechnungsbeispiele
 
-Beispiel Energiekostenabrechnung.pdf
+- [Beispiel: Strom Abrechnung (.pdf)](https://drive.google.com/file/d/1vVJ5y0_sV8l2NgH8Pf-gJCn36MmDXWfe/view?usp=sharing)
 
-Beispiel: Strom Abrechnung
-
-Beispiel\_Rechnung\_VEWA\_Heizkosten.pdf
-
-Beispiel: VEWA Abrechnung
+- [Beispiel: VEWA Abrechnung (.pdf)](https://drive.google.com/file/d/1-YR543M1bawFrKgrj-MsQR5Es_wKFzRu/view?usp=sharing)
 
 ## Hilfreiche Hinweise zu den Tarifdaten
 

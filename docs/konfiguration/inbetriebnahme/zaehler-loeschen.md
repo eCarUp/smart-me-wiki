@@ -4,6 +4,8 @@ slug: '/konfiguration/inbetriebnahme/zaehler-loeschen'
 description: 'Hier wird beschrieben, wie ein Zähler gelöscht oder deaktiviert werden kann.'
 sidebar_label: 'Zähler löschen / deaktivieren'
 ---
+<Menueweg>Dashboard → Gerät → Einstellungen (Zahnrad)</Menueweg>
+
 Hier wird beschrieben, wie ein Zähler gelöscht oder deaktiviert werden kann.
 
 ## Allgemein

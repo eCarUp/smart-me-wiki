@@ -7,7 +7,7 @@ naechste_schritte: [konfiguration/billing/sonstige-kosten]
 optionale_schritte: [konfiguration/wenndann-aktionen/tarifzeiten-definieren]
 vorheriger_schritt: konfiguration/billing/mieterspiegel-erfassen
 ---
-![Stromtarife definieren – Abbildung 1](/img/konfiguration-billing-stromtarife-definieren/01.png)
+<Menueweg>Rechnungserstellung → Liegenschaften & Tarife</Menueweg>
 
 ## Strompreis festlegen
 
@@ -103,13 +103,7 @@ Beim dynamischen Tarif: Wähle 80% Elcom methode und suche im Rechner den H4 Tar
 
 Navigiere nun wieder in die Liegenschaftskonfiguration.
 
-1.  Rechnungsstellung
-
-2.  Konfiguration
-
-3.  Liegenschaft
-
-4.  Virtuelle Tarife
+<Menueweg>Rechnungserstellung → Liegenschaften & Tarife → Liegenschaft → Virtuelle Tarife</Menueweg>
 
 
 ![Stromtarife definieren – Abbildung 3](/img/konfiguration-billing-stromtarife-definieren/03.png)

@@ -4,7 +4,7 @@ slug: '/konfiguration/applab'
 description: 'In diesem Bereich findest du neue Versuchsapps welche wir evaluieren um später möglicherweise eine umfassendere Lösung anzubieten.'
 sidebar_label: 'AppLAB'
 ---
-![AppLAB – Abbildung 1](/img/konfiguration-applab/01.png)
+<Menueweg>App-Labor</Menueweg>
 
 In diesem Bereich findest du neue Versuchsapps welche wir evaluieren um später möglicherweise eine umfassendere Lösung anzubieten.
 

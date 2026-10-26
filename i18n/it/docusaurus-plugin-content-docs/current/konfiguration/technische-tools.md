@@ -1,29 +1,29 @@
 ---
 title: 'Strumenti tecnici'
 slug: '/konfiguration/technische-tools'
-description: 'Verifichi in modo rapido e semplice l''installazione per individuare eventuali errori nel cablaggio fisico'
+description: 'Verifica in modo rapido e semplice l''installazione per individuare eventuali errori nel cablaggio fisico'
 sidebar_label: 'Strumenti tecnici'
 ---
-![Strumenti tecnici – Figura 1](/img/konfiguration-technische-tools/01.png)
+<Menueweg>Ausili tecnici</Menueweg>
 
 ## Verifica dell'installazione
 
 Installazione (Installation)
 
-Verifichi in modo rapido e semplice l'installazione per individuare eventuali errori nel cablaggio fisico
+Verifica in modo rapido e semplice l'installazione per individuare eventuali errori nel cablaggio fisico
 
 Test di carico (Lasttest)
 
-Ha perso la visione d'insieme e non sa più quale contatore appartiene a quale appartamento?
+Hai perso la visione d'insieme e non sai più quale contatore appartiene a quale appartamento?
 
-Utilizzi il test dell'asciugacapelli per assegnare il contatore all'appartamento corretto. Si rechi nell'appartamento, colleghi l'asciugacapelli oppure faccia funzionare il bollitore o la macchina del caffè. Il contatore con la maggiore variazione di consumo passa subito in cima all'elenco, così da poterlo rinominare.
+Usa il test dell'asciugacapelli per assegnare il contatore all'appartamento corretto. Entra nell'appartamento, accendi l'asciugacapelli oppure metti in funzione il bollitore o la macchina del caffè. Il contatore con la maggiore variazione di consumo salta subito in cima all'elenco, così puoi rinominarlo.
 
 Connettività (Konnektivität)
 
-Verifichi a colpo d'occhio la connettività dei singoli dispositivi.
+Verifica a colpo d'occhio la connettività dei singoli dispositivi.
 
 Protocollo (Protokoll)
 
-Crei con un clic un protocollo con numeri di serie, tipo di dispositivo e assegnazione alla struttura di archiviazione.
+Genera con un clic un protocollo con numeri di serie, tipo di dispositivo e assegnazione da archiviare.
 
 ![Strumenti tecnici – Figura 2](/img/konfiguration-technische-tools/02.png)

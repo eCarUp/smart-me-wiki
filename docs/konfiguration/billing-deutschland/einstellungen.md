@@ -6,16 +6,11 @@ sidebar_label: 'Einstellungen'
 naechste_schritte: [konfiguration/billing-deutschland/konfiguration-rechnungsstellung]
 vorheriger_schritt: konfiguration/billing-deutschland/index
 ---
+<Menueweg>Rechnungserstellung → Einstellungen</Menueweg>
+
 ## Einstellungen allgemein
 
-<div className="row">
-<div className="col col--7">
-
-- Logge dich in den gewünschten smart-me Account ein 
-
-- Klicke oben rechts auf "Konfiguration" und dann auf "Rechnung erstellen"
-
-- Wähle nun zuerst den Button "Einstellungen"
+Logge dich in den gewünschten smart-me Account ein und öffne die Einstellungen der Rechnungserstellung.
 
 Hier nimmst du die allgemeinen Einstellungen für die Darstellung des Rechnungsdokument vor.
 - Währung (bei Mieterstrom immer EUR)
@@ -23,14 +18,6 @@ Hier nimmst du die allgemeinen Einstellungen für die Darstellung des Rechnungsd
 - Logo ihrer Firma (für die Darstellung im  Rechnungsdokument)
 - Kopfzeile / Absender
 - Fusszeile
-
-</div> 
-<div className="col col--5 bild--mitte">
-
-![smart-me Billing für deutschen Mieterstrom – Abbildung 3](/img/konfiguration-billing-mieterstrom/03.png)
-
-</div>
-</div>
 
 ## Mieterstrom aktivieren
 

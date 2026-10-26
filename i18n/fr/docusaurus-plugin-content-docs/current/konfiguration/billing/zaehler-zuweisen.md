@@ -6,20 +6,22 @@ sidebar_label: 'Attribuer des compteurs'
 naechste_schritte: [konfiguration/billing/zahlungsdaten-erfassen, konfiguration/billing-deutschland/mieterspiegel-erfassen]
 vorheriger_schritt: [konfiguration/billing/konfiguration-rechnungsstellung, konfiguration/billing-deutschland/konfiguration-rechnungsstellung]
 ---
+<Menueweg>Facturation → Immeubles & tarifs → Unité de décompte</Menueweg>
+
 <div className="row">
 <div className="col col--7">
 
 Lors de la création de l'immeuble, les compteurs sont automatiquement attribués à 100% à l'unité de décompte (dossier).
 
-Si vous souhaitez répartir un compteur (p. ex. Général) selon une clé de répartition ou modifier l'attribution ultérieurement, cela doit être fait manuellement.
+Si vous souhaitez répartir un compteur (p. ex. Général) selon une clé de répartition ou modifier ultérieurement l'attribution, vous devez le faire manuellement.
 
 - À gauche, sélectionnez l'unité de décompte (sous-dossier, p. ex. WHG 1)
 
-- Cliquez, p. ex. sous Électricité (Elektrizität), sur Ajouter (Hinzufügen)
+- Cliquez p. ex. pour Électricité (Elektrizität) sur Ajouter (Hinzufügen)
 
 - Sélectionnez le compteur souhaité et indiquez le pourcentage à facturer.
 
-La procédure décrite fonctionne de la même manière pour les autres types d'énergie (chaleur, froid, etc.)
+La procédure décrite s'applique de manière analogue aux autres types d'énergie (chaleur, froid, etc.)
 
 </div>
 <div className="col col--5 bild--mitte">

@@ -4,13 +4,13 @@ slug: '/konfiguration/wenndann-aktionen'
 description: 'Um Wenn/Dann-Aktionen nutzen zu können, musst du eine smart-me Limited- oder Professional-Lizenz haben.'
 sidebar_label: 'Wenn/Dann-Aktionen'
 ---
+<Menueweg>Wenn-Dann Aktionen</Menueweg>
+
 ## Voraussetzungen
 
 Um Wenn/Dann-Aktionen nutzen zu können, musst du eine smart-me Limited- oder Professional-Lizenz haben.
 
 Um die Wenn/Dann-Aktionen Pico Regelung nutzen zu können, musst du eine smart-me Professional-Lizenz haben.
-
-![Wenn/Dann-Aktionen – Abbildung 1](/img/konfiguration-wenndann-aktionen/01.png)
 
 ## Wofür WENN / DANN AKtionen genutzt werden
 

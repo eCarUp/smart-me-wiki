@@ -4,7 +4,7 @@ slug: '/faq'
 description: 'Le domande più frequenti sull''account smart-me, sull''abbonamento e sui contatori.'
 sidebar_label: 'Domande frequenti'
 ---
-Le domande che riceviamo più spesso. Se non trovi la tua, il nostro [contatto](/kontakt-schweiz) ti aiuterà.
+Le domande che riceviamo più spesso. Se non trovi la tua, rivolgiti al nostro [contatto](/kontakt-schweiz).
 
 <details id="wo-kann-ich-mein-login-passwort--e-mail-adresse-ändern">
 <summary>Dove posso modificare la password di accesso / l'indirizzo e-mail?</summary>
@@ -19,23 +19,23 @@ Se non ricordi più la password, puoi reimpostarla tramite la funzione Password 
 <summary>Come posso disdire il mio abbonamento?</summary>
 
 Per disdire il tuo abbonamento alle licenze cloud, vai su smart-me.com ed effettua l'accesso.
-Clicca poi in alto a destra sul nome utente e seleziona Impostazioni (Einstellungen).
-Vai quindi su Pagamento (Bezahlung), Disdici abbonamento (Abo kündigen) e conferma con Sì (Ja).
+Clicca quindi in alto a destra sul nome utente e seleziona Impostazioni (Einstellungen).
+Vai poi su Pagamento (Bezahlung), Disdici abbonamento (Abo kündigen) e conferma con Sì (Ja).
 
 </details>
 
 <details id="wieso-erscheint-mein-gelöschter-zähler-wieder-in-der-cloud">
 <summary>Perché il mio contatore eliminato ricompare nel cloud?</summary>
 
-Quando un contatore viene eliminato nel cloud, vengono eliminati anche tutti i suoi dati nel cloud. Se dopo l'eliminazione questo contatore invia nuovamente dati al cloud, quest'ultimo lo ricrea (con un nuovo ID contatore). I dati di misura passati del contatore sono però eliminati in modo irreversibile. Anche le azioni se/allora o le impostazioni nel Billing non si riferiscono al "nuovo" contatore e devono quindi essere configurate di nuovo. 
+Se un contatore viene eliminato nel cloud, tutti i suoi dati nel cloud vengono eliminati. Se dopo l'eliminazione questo contatore invia di nuovo dati al cloud, il cloud crea nuovamente il contatore (con un nuovo ID contatore). I dati di misura passati del contatore, tuttavia, sono eliminati in modo irrecuperabile. Anche le azioni se/allora o le impostazioni nel Billing non si riferiscono al "nuovo" contatore e devono quindi essere configurate di nuovo. 
 
 Con i seguenti accorgimenti si può evitare che il contatore invii di nuovo dati al cloud e venga quindi ricreato: 
 
 - Installare il contatore in un altro account, al quale potrà poi inviare i dati. 
 
-- Non alimentare più il contatore. Non appena il contatore viene di nuovo alimentato e dispone nuovamente di una connessione Internet, invia di nuovo i dati al cloud. 
+- Non alimentare più il contatore. Non appena il contatore viene alimentato e dispone di nuovo di una connessione Internet, invia di nuovo i dati al cloud. 
 
-- Eliminare la rete WLAN dal contatore (vedi "[È possibile eliminare le informazioni WiFi salvate?](/konfiguration/inbetriebnahme#können-die-gespeicherten-wifi-informationen-gelöscht-werden)").  Senza Internet il contatore non può più inviare dati. 
+- Eliminare la rete WLAN dal contatore (vedi "[È possibile eliminare le informazioni WiFi salvate?](/konfiguration/inbetriebnahme/smart-me-geraete#können-die-gespeicherten-wifi-informationen-gelöscht-werden)").  Senza Internet il contatore non può più inviare dati. 
 
 In alternativa puoi anche disattivare il contatore nel cloud. Un contatore disattivato non richiede licenze e puoi riattivarlo in qualsiasi momento e accedere ai suoi dati. 
 
@@ -64,13 +64,13 @@ Se l'account utilizza il modello di licenza Limited o Professional.
 
 1.  Accedi al portale smart-me 
 
-2.  Clicca su Configura (konfigurieren)
+2.  Clicca su configura (konfigurieren)
 
-3.  Clicca su Configurazione contatori/cartelle (Zähler/Ordner-Konfiguration)
+3.  Clicca su Configurazione di contatori e cartelle (Zähler/Ordner-Konfiguration)
 
 4.  Seleziona il contatore da disattivare
 
-5.  Clicca su Modifica nodo (Knoten editieren) (in alto sul riquadro verde)
+5.  Clicca su Modifica nodo (Knoten editieren) (in alto sulla tessera verde)
 
 6.  Togli la spunta da Contatore attivo (Zähler aktiv)
 

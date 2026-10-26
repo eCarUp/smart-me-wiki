@@ -4,27 +4,29 @@ slug: '/konfiguration/inbetriebnahme/zaehler-loeschen'
 description: 'Cette page décrit comment supprimer ou désactiver un compteur.'
 sidebar_label: 'Supprimer / désactiver un compteur'
 ---
+<Menueweg>Dashboard → Appareil → Paramètres (roue dentée)</Menueweg>
+
 Cette page décrit comment supprimer ou désactiver un compteur.
 
 ## Généralités
 
-Les données d'un compteur supprimé sont définitivement effacées et ne peuvent pas être restaurées.
+Les données d'un compteur supprimé sont effacées de manière irréversible et ne peuvent pas être restaurées.
 
-En règle générale, smart-me déconseille de supprimer des compteurs. Nous recommandons plutôt de les désactiver. Les compteurs désactivés n'entraînent pas de coûts de licence et leurs données historiques restent accessibles à tout moment.
+smart-me déconseille en principe de supprimer des compteurs. Nous recommandons de manière générale de désactiver les compteurs. Les compteurs désactivés n'engendrent aucun coût de licence et il reste possible d'accéder à tout moment aux données historiques.
 
-Pour les compteurs M-Bus, la suppression n'a aucun effet : s'ils sont toujours en ligne, ils réapparaissent dans le portail au relevé suivant. Dans ce cas, la désactivation est la seule possibilité.
+Pour les compteurs M-Bus, la suppression n'est pas efficace : s'ils sont toujours en ligne, les compteurs réapparaissent dans le portail lors du relevé suivant. Dans ce cas, la désactivation est la seule possibilité.
 
 ## Désactiver un compteur
 
-- Connectez-vous au portail
+- Se connecter au portail
 
-- Sélectionnez le compteur
+- Sélectionner le compteur
 
-- Sélectionnez la roue dentée en haut à droite
+- Sélectionner la roue dentée en haut à droite
 
 - Paramètres avancés (Erweiterte Einstellungen)
 
-- Réglez Compteur actif (Zähler aktiv) sur non
+- Régler Compteur actif (Zähler aktiv) sur non
 
 - Enregistrer (Speichern)
 
@@ -37,15 +39,15 @@ Pour les compteurs M-Bus, la suppression n'a aucun effet : s'ils sont toujours e
 
 ## Désactiver une Pico
 
-- Connectez-vous au portail
+- Se connecter au portail
 
-- Sélectionnez Configuration des compteurs et des dossiers (Zähler und Ordner Konfiguration)
+- Sélectionner Configuration du compteur et du dossier (Zähler & Ordner Konfiguration)
 
-- Sélectionnez la Pico dans l'arborescence
+- Sélectionner la Pico dans l'arborescence
 
 - Modifier le nœud (Knoten editieren)
 
-- Décochez Compteur actif (Zähler aktiv)
+- Désélectionner Compteur actif (Zähler aktiv)
 
 - Oui (Ja)
 
@@ -60,17 +62,17 @@ Pour les compteurs M-Bus, la suppression n'a aucun effet : s'ils sont toujours e
 
 - La suppression est irréversible
 
-- Connectez-vous au portail
+- Se connecter au portail
 
-- Sélectionnez le compteur
+- Sélectionner le compteur
 
-- Sélectionnez la roue dentée en haut à droite
+- Sélectionner la roue dentée en haut à droite
 
-- Vérifiez que le numéro de série est correct. Le champ ne doit pas être vide.
+- Vérifier que le numéro de série est correct. Le champ ne doit pas être vide.
 
 - Supprimer l'appareil (Gerät Löschen)
 
-- Vérifiez que le numéro de série est correct. Le champ ne doit pas être vide.
+- Vérifier que le numéro de série est correct. Le champ ne doit pas être vide.
 
 - Oui (Ja)
 

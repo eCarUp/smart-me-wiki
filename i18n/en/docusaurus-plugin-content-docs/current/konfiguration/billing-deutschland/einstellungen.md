@@ -1,43 +1,30 @@
 ---
 title: 'Billing settings'
 slug: '/konfiguration/billing-deutschland/einstellungen'
-description: 'General settings for tenant electricity billing and enabling the tenant electricity extensions with grid operator, customer service and arbitration board.'
+description: 'General settings for tenant electricity billing and how to enable the tenant electricity extensions with grid operator, customer service and arbitration board.'
 sidebar_label: 'Settings'
 naechste_schritte: [konfiguration/billing-deutschland/konfiguration-rechnungsstellung]
 vorheriger_schritt: konfiguration/billing-deutschland/index
 ---
+<Menueweg>Billing → Settings</Menueweg>
+
 ## General settings
 
-<div className="row">
-<div className="col col--7">
-
-- Log in to the desired smart-me account 
-
-- Click "Configuration" ("Konfiguration") at the top right and then "Create invoice" ("Rechnung erstellen")
-
-- First select the "Settings" ("Einstellungen") button
+Log in to the smart-me account you want to use and open the billing settings.
 
 Here you make the general settings for how the invoice document is displayed.
-- Currency (always EUR for tenant electricity)
-- Tax 
-- Your company logo (for display in the invoice document)
-- Header / sender
-- Footer
+- Currency (Währung) (always EUR for tenant electricity)
+- Tax (Steuer) 
+- Your company logo (Logo) (for display in the invoice document)
+- Header / sender (Kopfzeile / Absender)
+- Footer (Fusszeile)
 
-</div> 
-<div className="col col--5 bild--mitte">
-
-![smart-me Billing for German Mieterstrom – Figure 3](/img/konfiguration-billing-mieterstrom/03.png)
-
-</div>
-</div>
-
-## Enable tenant electricity
+## Enabling tenant electricity
 
 <div className="row">
 <div className="col col--6">
 
-In addition, you can now activate the switch at the bottom in the "Tenant electricity Germany" ("Mieterstrom Deutschland") section.  This unlocks the additional settings for the tenant electricity extensions.
+You can now also activate the switch at the bottom in the "German tenant electricity" ("Mieterstrom Deutschland") section. This enables the additional settings for the tenant electricity extensions.
 
 </div>
 <div className="col col--6 bild--mitte">
@@ -49,17 +36,17 @@ In addition, you can now activate the switch at the bottom in the "Tenant electr
 
 ### Grid operator
 
-Here you specify who your distribution grid operator is. You should be able to get this information from your electrical installer/PV system installer or on the internet.
+Here you specify who your grid operator is. You can get this information from your electrician or PV system installer, or find it online.
 
 ### Customer service / arbitration board
 
 **Suggested title:** What drives us? Your satisfaction
 
-**Suggested free text (for all of Germany / no guarantee of legal certainty):**
+**Suggested free text (for all of Germany / no guarantee of legal compliance):**
 
 "Customer service is our top priority. You can reach us at 01234 / 87589.
 
-If you nevertheless have a complaint and – contrary to expectations – have not received a response or remedy from us after four weeks, you can apply for arbitration:
+If you nevertheless have a complaint and – contrary to expectations – have not received a response or a remedy from us after four weeks, you can request arbitration:
 
 Schlichtungsstelle Energie e. V.
 

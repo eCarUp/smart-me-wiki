@@ -4,6 +4,8 @@ slug: '/konfiguration/multilevel-lastmanagement'
 description: 'Webinar Multilevel Lastmanagement (50 Min)'
 sidebar_label: 'Multilevel Lastmanagement'
 ---
+<Menueweg>Multilevel Lastmanagement</Menueweg>
+
 <Video src="YiiACL00jko" title="YouTube Video, Webinaraufzeichnung Release Multilevel Lastmanagement" />
 
 Webinar Multilevel Lastmanagement (50 Min)

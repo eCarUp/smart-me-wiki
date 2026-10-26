@@ -14,153 +14,153 @@ Download the new smart-me Installer App free of charge from the App Store.
 
 [Google Play](https://play.google.com/store/apps/details?id=smartme.installer&hl=de_CH)
 
-![Hardware Commissioning (Installer App) – Figure 1](/img/konfiguration-installer-app-anleitung/01.png)
+![Hardware commissioning (Installer App) – Figure 1](/img/konfiguration-installer-app-anleitung/01.png)
 
-## Step-by-step guide for meter 80A / CT
+## 1. Log in or register an account
 
-### 1\. Connect your smartphone to the WiFi network from which you want to install the smart-me hardware.
+1.1\. Log in or create a new account
 
-## Log in or register an account
+![Hardware commissioning (Installer App) – Figure 2](/img/konfiguration-installer-app-anleitung/02.jpg)
 
-### 2\. Log in or create a new account
+1.2 Account creation:
 
-![Hardware Commissioning (Installer App) – Figure 2](/img/konfiguration-installer-app-anleitung/02.jpg)
+![Hardware commissioning (Installer App) – Figure 3](/img/konfiguration-installer-app-anleitung/03.jpg)
 
-### 2.1 Account creation:
+1.3 Account login:
 
-![Hardware Commissioning (Installer App) – Figure 3](/img/konfiguration-installer-app-anleitung/03.jpg)
+![Hardware commissioning (Installer App) – Figure 4](/img/konfiguration-installer-app-anleitung/04.jpg)
 
-### 2.2 Account login:
 
-![Hardware Commissioning (Installer App) – Figure 4](/img/konfiguration-installer-app-anleitung/04.jpg)
-
-## Commissioning
-
-### 3\. Click on "Add device" („Gerät hinzufügen“) (+)
-
-![Hardware Commissioning (Installer App) – Figure 5](/img/konfiguration-installer-app-anleitung/05.jpg)
-
-### 4\. Go to "Edit"
-
-![Hardware Commissioning (Installer App) – Figure 6](/img/konfiguration-installer-app-anleitung/06.jpg)
-
-### 5\. Enter the WiFi password
-
-![Hardware Commissioning (Installer App) – Figure 7](/img/konfiguration-installer-app-anleitung/07.jpg)
-
-### 6\. Click on "Add device" („Gerät hinzufügen“) (+)
-
-![Hardware Commissioning (Installer App) – Figure 8](/img/konfiguration-installer-app-anleitung/08.jpg)
-
-### 7\. Scan the QR code of the device
-
-![Hardware Commissioning (Installer App) – Figure 9](/img/konfiguration-installer-app-anleitung/09.jpg)
-
-### 8\. Connect to the WiFi network of the meter
-
-![Hardware Commissioning (Installer App) – Figure 10](/img/konfiguration-installer-app-anleitung/10.jpg)
-
-### 9\. Press the T1 button for 10 seconds
-
-![Hardware Commissioning (Installer App) – Figure 11](/img/konfiguration-installer-app-anleitung/11.jpg)
-
-### 10\. Wait until the connection is successful
-
-![Hardware Commissioning (Installer App) – Figure 12](/img/konfiguration-installer-app-anleitung/12.jpg)
-
-### 11\. The meter has been successfully installed & is online
-
-![Hardware Commissioning (Installer App) – Figure 13](/img/konfiguration-installer-app-anleitung/13.jpg)
-
-### 12\. Select the meter for more information
-
-![Hardware Commissioning (Installer App) – Figure 14](/img/konfiguration-installer-app-anleitung/14.jpg)
-
-## Log out of the account
-
-### Tap the three lines at the top left and select Profile (Profil)
-
-![Hardware Commissioning (Installer App) – Figure 15](/img/konfiguration-installer-app-anleitung/15.jpg)
-
-### Select Log out (Ausloggen) at the bottom
-
-![Hardware Commissioning (Installer App) – Figure 16](/img/konfiguration-installer-app-anleitung/16.jpg)
-
-### Logged out
-
-![Hardware Commissioning (Installer App) – Figure 17](/img/konfiguration-installer-app-anleitung/02.jpg)
-
-## Step-by-step guide for the Pico EV Charger
+## Instructions for meter 80A / CT
 
 1\. Connect your smartphone to the WiFi network from which you want to install the smart-me hardware.
 
+### 2. Commissioning
+
+2.1\. Tap “Add device” (“Gerät hinzufügen”) (+)
+
+![Hardware commissioning (Installer App) – Figure 5](/img/konfiguration-installer-app-anleitung/05.jpg)
+
+2.2\. Go to “Edit”
+
+![Hardware commissioning (Installer App) – Figure 6](/img/konfiguration-installer-app-anleitung/06.jpg)
+
+2.3\. Enter the WiFi password
+
+![Hardware commissioning (Installer App) – Figure 7](/img/konfiguration-installer-app-anleitung/07.jpg)
+
+2.4\. Tap “Add device” (“Gerät hinzufügen”) (+)
+
+![Hardware commissioning (Installer App) – Figure 8](/img/konfiguration-installer-app-anleitung/08.jpg)
+
+2.5\. Scan the QR code of the device
+
+![Hardware commissioning (Installer App) – Figure 9](/img/konfiguration-installer-app-anleitung/09.jpg)
+
+2.6\. Connect to the meter's WiFi network
+
+![Hardware commissioning (Installer App) – Figure 10](/img/konfiguration-installer-app-anleitung/10.jpg)
+
+2.7\. Press the T1 button for 10 seconds
+
+![Hardware commissioning (Installer App) – Figure 11](/img/konfiguration-installer-app-anleitung/11.jpg)
+
+2.8\. Wait until the connection is successful
+
+![Hardware commissioning (Installer App) – Figure 12](/img/konfiguration-installer-app-anleitung/12.jpg)
+
+2.9\. The meter has been installed successfully and is online
+
+![Hardware commissioning (Installer App) – Figure 13](/img/konfiguration-installer-app-anleitung/13.jpg)
+
+2.10\. Select the meter for more information
+
+![Hardware commissioning (Installer App) – Figure 14](/img/konfiguration-installer-app-anleitung/14.jpg)
+
+### 3. Log out of the account
+
+3.1\. Tap the three lines at the top left and select “Profile” (“Profil”)
+
+![Hardware commissioning (Installer App) – Figure 15](/img/konfiguration-installer-app-anleitung/15.jpg)
+
+3.2\. Select “Log out” (“Ausloggen”) at the bottom
+
+![Hardware commissioning (Installer App) – Figure 16](/img/konfiguration-installer-app-anleitung/16.jpg)
+
+3.3\. Logged out
+
+![Hardware commissioning (Installer App) – Figure 17](/img/konfiguration-installer-app-anleitung/02.jpg)
+
+## 2. Instructions for Pico EV Charger
+
+- Connect your smartphone to the WiFi network from which you want to install the smart-me hardware.
+
 Note: Please note that you have 15 minutes per Pico to complete the installation process. Otherwise, you must restart the Pico and begin the process again from the start.
 
-## Log in or register an account
 
-### 2\. Log in or create a new account
+### 2. Commissioning
 
-![Hardware Commissioning (Installer App) – Figure 18](/img/konfiguration-installer-app-anleitung/02.jpg)
+2.1\. Tap “Add device” (“Gerät hinzufügen”) (+)
 
-### 2.1 Account creation:
+![Hardware commissioning (Installer App) – Figure 21](/img/konfiguration-installer-app-anleitung/05.jpg)
 
-![Hardware Commissioning (Installer App) – Figure 19](/img/konfiguration-installer-app-anleitung/03.jpg)
+2.2\. Go to “Edit”
 
-### 2.2 Account login:
+![Hardware commissioning (Installer App) – Figure 22](/img/konfiguration-installer-app-anleitung/06.jpg)
 
-![Hardware Commissioning (Installer App) – Figure 20](/img/konfiguration-installer-app-anleitung/20.jpg)
+2.3\. Enter the WiFi password
 
-## Commissioning
+![Hardware commissioning (Installer App) – Figure 23](/img/konfiguration-installer-app-anleitung/07.jpg)
 
-### 3\. Click on "Add device" („Gerät hinzufügen“) (+)
+2.4\. Tap “Add device” (“Gerät hinzufügen”) (+)
 
-![Hardware Commissioning (Installer App) – Figure 21](/img/konfiguration-installer-app-anleitung/05.jpg)
+![Hardware commissioning (Installer App) – Figure 24](/img/konfiguration-installer-app-anleitung/08.jpg)
 
-### 4\. Go to "Edit"
+2.5\. Scan the QR code of the Pico
 
-![Hardware Commissioning (Installer App) – Figure 22](/img/konfiguration-installer-app-anleitung/06.jpg)
+![Hardware commissioning (Installer App) – Figure 25](/img/konfiguration-installer-app-anleitung/25.jpg)
 
-### 5\. Enter the WiFi password
+2.5.1 QR code cannot be scanned
 
-![Hardware Commissioning (Installer App) – Figure 23](/img/konfiguration-installer-app-anleitung/07.jpg)
+If scanning the QR code does not work, you can enter the serial number of the Pico manually or hold any RFID card to the Pico. Then scan the QR code that is displayed.
 
-### 6\. Click on "Add device" („Gerät hinzufügen“) (+)
+![Hardware commissioning (Installer App) – Figure 26](/img/konfiguration-installer-app-anleitung/26.png)
 
-![Hardware Commissioning (Installer App) – Figure 24](/img/konfiguration-installer-app-anleitung/08.jpg)
+2.6\. Select the connection type
 
-### 7\. Scan the QR code of the Pico
+![Hardware commissioning (Installer App) – Figure 27](/img/konfiguration-installer-app-anleitung/27.jpg)
 
-![Hardware Commissioning (Installer App) – Figure 25](/img/konfiguration-installer-app-anleitung/25.jpg)
+2.7\. Connect the device to the WiFi network
 
-### 7.1 QR code cannot be scanned
+![Hardware commissioning (Installer App) – Figure 28](/img/konfiguration-installer-app-anleitung/28.jpg)
 
-If scanning the QR code does not work, you can enter the serial number of the Pico manually or hold any RFID card against the Pico. Then scan the QR code that is displayed.
+2.8\. Hold any RFID card to the Pico
 
-![Hardware Commissioning (Installer App) – Figure 26](/img/konfiguration-installer-app-anleitung/26.png)
+![Hardware commissioning (Installer App) – Figure 29](/img/konfiguration-installer-app-anleitung/29.jpg)
 
-### 8\. Select the connection type
+2.9\. Wait until the Pico connects
 
-![Hardware Commissioning (Installer App) – Figure 27](/img/konfiguration-installer-app-anleitung/27.jpg)
+![Hardware commissioning (Installer App) – Figure 30](/img/konfiguration-installer-app-anleitung/30.jpg)
 
-### 9\. Connect the device to the WiFi network
+2.10\. Select the device for more information
 
-![Hardware Commissioning (Installer App) – Figure 28](/img/konfiguration-installer-app-anleitung/28.jpg)
+![Hardware commissioning (Installer App) – Figure 31](/img/konfiguration-installer-app-anleitung/31.jpg)
 
-### 10\. Hold any RFID card against the Pico
+2.11\. More information and editing options
 
-![Hardware Commissioning (Installer App) – Figure 29](/img/konfiguration-installer-app-anleitung/29.jpg)
+![Hardware commissioning (Installer App) – Figure 32](/img/konfiguration-installer-app-anleitung/32.jpg)
 
-### 11\. Wait until the Pico connects
+### 3. Log out of the account
 
-![Hardware Commissioning (Installer App) – Figure 30](/img/konfiguration-installer-app-anleitung/30.jpg)
+3.1\. Tap the three lines at the top left and select “Profile” (“Profil”)
 
-### 12\. Select the device for more information
+![Hardware commissioning (Installer App) – Figure 15](/img/konfiguration-installer-app-anleitung/15.jpg)
 
-![Hardware Commissioning (Installer App) – Figure 31](/img/konfiguration-installer-app-anleitung/31.jpg)
+3.2\. Select “Log out” (“Ausloggen”) at the bottom
 
-### 13\. More information and editing options
+![Hardware commissioning (Installer App) – Figure 16](/img/konfiguration-installer-app-anleitung/16.jpg)
 
-![Hardware Commissioning (Installer App) – Figure 32](/img/konfiguration-installer-app-anleitung/32.jpg)
+3.3\. Logged out
 
 ## Tips and tricks
 
@@ -168,19 +168,19 @@ If scanning the QR code does not work, you can enter the serial number of the Pi
 
 In this step, you can commission several meters at the same time to speed up commissioning when there are many meters.
 
-![Hardware Commissioning (Installer App) – Figure 33](/img/konfiguration-installer-app-anleitung/08.jpg)
+![Hardware commissioning (Installer App) – Figure 33](/img/konfiguration-installer-app-anleitung/08.jpg)
 
-### Setting the current transformer ratio on the Telstar CT
+### Setting the transformer ratio on the Telstar CT
 
 1.  Select the CT meter and edit it 
 
-2.  Enter the current transformer ratio 
+2.  Enter the transformer ratio 
 
-3.  The current transformer ratio can be locked. This protects against unwanted changes by unauthorized persons. To unlock the current transformer ratio,  the device must be installed again with the smart-me App.
+3.  The transformer ratio can be locked. This protects against unwanted changes by unauthorized persons. To unlock the transformer ratio, the device must be installed again with the smart-me app.
 
 
 ### Note:
 
-Changing the current transformer ratio does not alter historical data. This step should therefore be carried out immediately after commissioning.
+The transformer ratio does not change any historical data. This step should therefore be carried out immediately after commissioning.
 
-![Hardware Commissioning (Installer App) – Figure 34](/img/konfiguration-installer-app-anleitung/34.jpg)
+![Hardware commissioning (Installer App) – Figure 34](/img/konfiguration-installer-app-anleitung/34.jpg)

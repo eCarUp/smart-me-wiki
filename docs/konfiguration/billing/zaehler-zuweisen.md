@@ -6,6 +6,8 @@ sidebar_label: 'Zähler zuweisen'
 naechste_schritte: [konfiguration/billing/zahlungsdaten-erfassen, konfiguration/billing-deutschland/mieterspiegel-erfassen]
 vorheriger_schritt: [konfiguration/billing/konfiguration-rechnungsstellung, konfiguration/billing-deutschland/konfiguration-rechnungsstellung]
 ---
+<Menueweg>Rechnungserstellung → Liegenschaften & Tarife → Abrechnungseinheit</Menueweg>
+
 <div className="row">
 <div className="col col--7">
 

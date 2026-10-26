@@ -6,11 +6,12 @@ sidebar_label: 'Rechnung erstellen'
 naechste_schritte: [konfiguration/benutzerkonfiguration]
 vorheriger_schritt: konfiguration/billing-deutschland/sonstige-kosten
 ---
+<Menueweg>Rechnungserstellung → Rechnung erstellen</Menueweg>
+
+<div className="row">
+<div className="col col--5">
+
 Wenn der blaue Kasten bei den virtuellen Tarifen auf dem heutigen Datum ist, kann eine Proberechnung erstellt werden.
-
-- Menu Rechnungsstellung
-
-- Rechnungen
 
 - Datum eingeben
 
@@ -21,3 +22,11 @@ Bist du zufrieden mit der Vorschau, so kannst du zurückkehren und die echten Re
 Gratulation, du hast es geschafft! Wenn du nun Rechnungen im smart-me Billing Tool generierst, wird dir ein Rechnungsdokument mit allen nötigen Angaben sowie den visuellen Darstellungen ausgegeben.
 
 Auf dieser Seite findest du eine Beschreibung der häufigsten Fehlermeldungen und mögliche Lösungen: [Billing Fehlermeldungen](/stoerungsbehebung/billing-fehlermeldungen)
+
+</div>
+<div className="col col--7 bild--mitte">
+
+![Dialog „Rechnung erstellen" mit Abrechnungszeitraum, Rechnungsnummer und den Schaltflächen Rechnungsvorschau, Rechnung erstellen und Exportieren](/img/konfiguration-billing/14.png)
+
+</div>
+</div>

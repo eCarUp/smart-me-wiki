@@ -5,30 +5,16 @@ description: 'Du brauchst ein smart-me Limited oder Professional Abo um diese Fu
 sidebar_label: 'Visualisierung und Public Links'
 naechste_schritte: [konfiguration/billing/index, konfiguration/billing-deutschland/index]
 ---
+<Menueweg>Zähler & Ordner Konfiguration → Knoten wählen → Visualisierung editieren</Menueweg>
+
 ### Voraussetzung
 
 Du brauchst ein smart-me Limited oder Professional Abo um diese Funktion zu nutzen.
 
-## Navigation im Dashboard als Mieter
-
-Hier findest du eine Nutzeranleitung für dein Dashboard als Mieter. Erfahre wo du welche Informationene zu deinem Verbrauch beziehen kannst und verstehe was dir angezeigt wird.
-
-[Nutzeranleitung für Mieter](/nutzeranleitungen/mieter)
-
 ## Visualisierungen konfigurieren
-
-<div className="row">
-<div className="col col--6">
 
 Eine Visualisierung wird auf einem Ordner erstellt. Wenn du in der App oder im Web auf den Ordner klickst, wird die entsprechende Visualisierung angezeigt. 
 
-</div>
-<div className="col col--6 text--center">
-
-![Visualisierung und Public Links – Abbildung 1](/img/konfiguration-visualisierung/01.png)
-
-</div>
-</div>
 
 ### Visualisierungen erstellen
 

@@ -5,34 +5,16 @@ description: 'Video Anleitung Ordner erstellen und Zähler zuordnen'
 sidebar_label: 'Ordnerkonfiguration'
 naechste_schritte: [konfiguration/ordnerkonfiguration/nur-strom, konfiguration/ordnerkonfiguration/strom-und-eine-heizung, konfiguration/ordnerkonfiguration/strom-und-mehrere-heizungen, konfiguration/ordnerkonfiguration/mieterstrom-standard, konfiguration/ordnerkonfiguration/mieterstrom-nicht-teilnehmer]
 ---
-<Embed src="https://player.vimeo.com/video/661999827" aspect="1.291" title="Ordnerkonfiguration" />
-
-Video Anleitung Ordner erstellen und Zähler zuordnen
-
-## Schritt für Schritt Anleitung
-
-### Navigation zum Bereich Zähler und Ordnerkonfiguration
+<Menueweg>Zähler & Ordner Konfiguration</Menueweg>
 
 <div className="row">
 <div className="col col--6">
 
-1.  Logge dich auf der [smart-me Webseite](https://web.smart-me.com/) ein.
-
-2.  Navigiere links im Menü zu "Zähler- und Ordnerkonfiguration"
-
-</div>
-<div className="col col--6 text--center">
-
-![Zähler- und Ordnerkonfiguration – Abbildung 1](/img/konfiguration-ordnerkonfiguration/01.png)
-
-</div>
-</div>
-
-### Funktionsbeschreibung der Aktionen
+## Knoten Funktionen
 
 ![Zähler- und Ordnerkonfiguration – Abbildung 2](/img/konfiguration-ordnerkonfiguration/02.png)
 
-Knoten Hinzufügen:
+### Knoten Hinzufügen:
 
 Fügt einen Knoten hinzu mit einem Namen und einem frei Wählbaren Symbol.
 
@@ -43,13 +25,20 @@ Der Name hat Einfluss auf die Reihenfolge in welcher der Knoten im Baum angezeig
 2.  Ordnung nach Alphabet
 
 
-Ordner Knoten Editieren 
+### Ordner Knoten Editieren 
 
 Erlaubt Änderungen am Knoten Namen, Symbol und Unterordnung.
 
+</div>
+<div className="col col--6 text--center">
 
+<Embed src="https://player.vimeo.com/video/661999827" aspect="1.291" title="Ordnerkonfiguration" />
+Video Anleitung Ordner erstellen und Zähler zuordnen
 
-Zähler Knoten editieren
+</div>
+</div>
+
+### Zähler Knoten editieren
 
 Name:  Lege den Namen des Zählers fest.
 Beschreibung:
@@ -65,7 +54,7 @@ Um mehrere Zähler gleichzeitig zu aktivieren oder deaktivieren, kannst du diese
 
 ![Zähler deaktvieren](/img/konfiguration-ordnerkonfiguration/03.jpg)
 
-Knoten Löschen
+### Knoten Löschen
 
 Löscht den ausgewählten Knoten oder Zählerpunkt aus dem Baum. 
 
@@ -73,7 +62,7 @@ Zähler fallen dann zurück auf die Linke Seite als nicht zugeordneter Zähler.
 
 ![Zähler- und Ordnerkonfiguration – Abbildung 4](/img/konfiguration-ordnerkonfiguration/04.png)
 
-### Zähler beschriften
+## Zähler beschriften
 
 <div className="row">
 <div className="col col--8">
@@ -94,7 +83,7 @@ Zähler fallen dann zurück auf die Linke Seite als nicht zugeordneter Zähler.
 </div>
 </div>
 
-### Kaltwasserzähler umwandeln zu Warmwasserzählern (falls nötig)
+## Kaltwasserzähler umwandeln zu Warmwasserzählern
 
 <div className="row">
 <div className="col col--7">
@@ -125,7 +114,7 @@ Hinweis: Diese Manipulation ist mit Wärme- und Kältezähler aus technischen Gr
 </div>
 </div>
 
-### Ordnerstrukturen und deren Einfluss auf Folgeprozesse
+## Ordnerstrukturen und deren Einfluss auf Folgeprozesse
 
 Das aktuelle System erlaubt eine automatisierte Abrechnungserstellung von Elektrizität. Damit dies gelingt muss Wärme und Wasser vom Strom getrennt bleiben. Trotzdem sind Mischsysteme möglich um Aufwand bei den Mieterspiegeln zu sparen, leider geht damit aber die Automatisierung der Rechnungserstellung verloren.
 
@@ -135,7 +124,7 @@ Jede individuelle erstellte Liegenschaft ist grundsätzlich in der Lage 1x Strom
 
 <Embed src="/embeds/konfiguration-ordnerkonfiguration-02.html" aspect="2.308" title="Ordnerkonfiguration" />
 
-### Grundlagen der Baumstruktur und Knoten erstellen
+## Grundlagen der Baumstruktur und Knoten erstellen
 
 Um ein Gebäude für die Abrechnung bereitzumachen, müssen die passenden Liegenschaften und Abrechnungseinheiten erstellt werden.
 
@@ -169,17 +158,15 @@ Die grundlegende Struktur für jede Energieform und jedes Gebäude besteht aus z
 
 ![Zähler- und Ordnerkonfiguration – Abbildung 7](/img/konfiguration-ordnerkonfiguration/07.png)
 
-### Erstelle deine Struktur für dein Projekt
+## Erstelle deine Struktur für dein Projekt
 
-Wähle nun anhand deines Projektes welcher Anleitung du folgen möchtest.
+Wähle nun anhand deines Projektes welcher Anleitung du folgen möchtest am Ende der Seite.
 
-[Nur Strom](/konfiguration/ordnerkonfiguration/nur-strom)
 
-[Strom und eine Heizung](/konfiguration/ordnerkonfiguration/strom-und-eine-heizung)
+## CSV Upload von Ordnerstrukturen
 
-[Strom und mehrere Heizungen](/konfiguration/ordnerkonfiguration/strom-und-mehrere-heizungen)
-
-## Zusatz Informationen
+<details id="ordner-mit-csv-erstellen">
+<summary>Automatisches Erstellen von Ordnern mit CSV Dateien</summary>
 
 ### Automatisches Erstellen von Ordnern mit CSV Dateien
 
@@ -256,3 +243,5 @@ Der empfohlene Arbeitsablauf sieht dabei wie folgt aus:
 
 9.  Klicke auf Upload Knoten Konfiguration um die Konfiguration anzuwenden
     Vorsicht: die resultierenden Änderungen können nicht rückgängig gemacht werden
+
+</details>

@@ -143,15 +143,15 @@ Brunnenbachstrasse 1, CH-8340 Hinwil
 
 Auf diesen Seiten findest du alle relevanten Informationen für die erfolgreiche Inbetriebnahme des M-Bus Gateways.
 
-- [Vorbereitung der Inbetriebnahme](/konfiguration/inbetriebnahme#anleitung-für-beide-m-bus-gateways)
+- [Vorbereitung der Inbetriebnahme](/konfiguration/inbetriebnahme/smart-me-geraete#anleitung-für-beide-m-bus-gateways)
 
 - [Inbetriebnahme](/konfiguration/inbetriebnahme)
 
-- [Nummerierung bei Kombizählern](/konfiguration/inbetriebnahme#nummerierung-bei-kombizähler)
+- [Nummerierung bei Kombizählern](/konfiguration/inbetriebnahme/smart-me-geraete#nummerierung-bei-kombizähler)
 
-- [Suche nach M-Bus Gateway-Geräten](/konfiguration/inbetriebnahme#m-bus-gateway-geräte-suchen)
+- [Suche nach M-Bus Gateway-Geräten](/konfiguration/inbetriebnahme/smart-me-geraete#m-bus-gateway-geräte-suchen)
 
-- [Automatische Geräteerkennung unterbinden](/konfiguration/inbetriebnahme#m-bus-gateway-erkennung-von-neuen-geräte-unterbinden)
+- [Automatische Geräteerkennung unterbinden](/konfiguration/inbetriebnahme/smart-me-geraete#m-bus-gateway-erkennung-von-neuen-geräte-unterbinden)
 
 
 ## M-Bus Installationsvorschrift

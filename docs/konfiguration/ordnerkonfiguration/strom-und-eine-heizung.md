@@ -5,6 +5,8 @@ description: 'Konfiguration ohne automatische Stromrechnungsstellung'
 sidebar_label: 'Liegenschaft mit Strom und Wärme / Wasser'
 naechste_schritte: [konfiguration/wenndann-aktionen/alarme]
 ---
+<Menueweg>Zähler & Ordner Konfiguration</Menueweg>
+
 ## Konfiguration ohne automatische Stromrechnungsstellung
 
 Vorteil:

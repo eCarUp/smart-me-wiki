@@ -5,18 +5,9 @@ description: 'Die Liegenschaft in der Rechnungsstellung anlegen, damit Ordner un
 sidebar_label: 'Konfiguration Rechnungsstellung'
 naechste_schritte: [konfiguration/billing/zaehler-zuweisen]
 ---
-<div className="row">
-<div className="col col--5">
+<Menueweg>Rechnungserstellung → Liegenschaften & Tarife</Menueweg>
 
-Navigiere nun zur Rechnungsstellung Konfiguration um die Abrechnungen aus den Liegenschaften zu konfigurieren.
-
-</div>
-<div className="col col--7 bild--mitte">
-
-![Billing: Energie abrechnen – Abbildung 4](/img/konfiguration-billing/04.png)
-
-</div>
-</div>
+Hier konfigurierst du die Abrechnungen aus den Liegenschaften.
 
 ## Liegenschaft erstellen
 

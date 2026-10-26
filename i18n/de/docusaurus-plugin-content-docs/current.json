@@ -1,0 +1,98 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.wikiSidebar.category.Produkte": {
+    "message": "Produkte",
+    "description": "The label for category 'Produkte' in sidebar 'wikiSidebar'"
+  },
+  "sidebar.wikiSidebar.category.M-Bus Gateways": {
+    "message": "M-Bus Gateways",
+    "description": "The label for category 'M-Bus Gateways' in sidebar 'wikiSidebar'"
+  },
+  "sidebar.wikiSidebar.category.Pico Ladestation": {
+    "message": "Pico Ladestation",
+    "description": "The label for category 'Pico Ladestation' in sidebar 'wikiSidebar'"
+  },
+  "sidebar.wikiSidebar.category.Planung": {
+    "message": "Planung",
+    "description": "The label for category 'Planung' in sidebar 'wikiSidebar'"
+  },
+  "sidebar.wikiSidebar.category.LEG - Lokale Elektrizitätsgemeinschaft": {
+    "message": "LEG - Lokale Elektrizitätsgemeinschaft",
+    "description": "The label for category 'LEG - Lokale Elektrizitätsgemeinschaft' in sidebar 'wikiSidebar'"
+  },
+  "sidebar.wikiSidebar.category.Elektromobilität": {
+    "message": "Elektromobilität",
+    "description": "The label for category 'Elektromobilität' in sidebar 'wikiSidebar'"
+  },
+  "sidebar.wikiSidebar.category.Konfiguration": {
+    "message": "Konfiguration",
+    "description": "The label for category 'Konfiguration' in sidebar 'wikiSidebar'"
+  },
+  "sidebar.wikiSidebar.category.Inbetriebnahme": {
+    "message": "Inbetriebnahme",
+    "description": "The label for category 'Inbetriebnahme' in sidebar 'wikiSidebar'"
+  },
+  "sidebar.wikiSidebar.category.Inbetriebnahme LoRa": {
+    "message": "Inbetriebnahme LoRa",
+    "description": "The label for category 'Inbetriebnahme LoRa' in sidebar 'wikiSidebar'"
+  },
+  "sidebar.wikiSidebar.category.Ordnerkonfiguration": {
+    "message": "Ordnerkonfiguration",
+    "description": "The label for category 'Ordnerkonfiguration' in sidebar 'wikiSidebar'"
+  },
+  "sidebar.wikiSidebar.category.Wenn/Dann-Aktionen": {
+    "message": "Wenn/Dann-Aktionen",
+    "description": "The label for category 'Wenn/Dann-Aktionen' in sidebar 'wikiSidebar'"
+  },
+  "sidebar.wikiSidebar.category.Rechnungsstellung Schweiz": {
+    "message": "Rechnungsstellung Schweiz",
+    "description": "The label for category 'Rechnungsstellung Schweiz' in sidebar 'wikiSidebar'"
+  },
+  "sidebar.wikiSidebar.category.Stromtarife definieren": {
+    "message": "Stromtarife definieren",
+    "description": "The label for category 'Stromtarife definieren' in sidebar 'wikiSidebar'"
+  },
+  "sidebar.wikiSidebar.category.Rechnungsstellung Mieterstrom": {
+    "message": "Rechnungsstellung Mieterstrom",
+    "description": "The label for category 'Rechnungsstellung Mieterstrom' in sidebar 'wikiSidebar'"
+  },
+  "sidebar.wikiSidebar.category.Multilevel Lastmanagement": {
+    "message": "Multilevel Lastmanagement",
+    "description": "The label for category 'Multilevel Lastmanagement' in sidebar 'wikiSidebar'"
+  },
+  "sidebar.wikiSidebar.category.Stoerungsbehebung": {
+    "message": "Stoerungsbehebung",
+    "description": "The label for category 'Stoerungsbehebung' in sidebar 'wikiSidebar'"
+  },
+  "sidebar.wikiSidebar.category.Drittsysteme": {
+    "message": "Drittsysteme",
+    "description": "The label for category 'Drittsysteme' in sidebar 'wikiSidebar'"
+  },
+  "sidebar.wikiSidebar.category.Drittprodukte": {
+    "message": "Drittprodukte",
+    "description": "The label for category 'Drittprodukte' in sidebar 'wikiSidebar'"
+  },
+  "sidebar.wikiSidebar.category.Schnittstellen": {
+    "message": "Schnittstellen",
+    "description": "The label for category 'Schnittstellen' in sidebar 'wikiSidebar'"
+  },
+  "sidebar.wikiSidebar.category.DTA-VHKA Files": {
+    "message": "DTA-VHKA Files",
+    "description": "The label for category 'DTA-VHKA Files' in sidebar 'wikiSidebar'"
+  },
+  "sidebar.wikiSidebar.category.Nutzeranleitungen": {
+    "message": "Nutzeranleitungen",
+    "description": "The label for category 'Nutzeranleitungen' in sidebar 'wikiSidebar'"
+  },
+  "sidebar.wikiSidebar.category.Informationssicherheit": {
+    "message": "Informationssicherheit",
+    "description": "The label for category 'Informationssicherheit' in sidebar 'wikiSidebar'"
+  },
+  "sidebar.wikiSidebar.category.News": {
+    "message": "News",
+    "description": "The label for category 'News' in sidebar 'wikiSidebar'"
+  }
+}

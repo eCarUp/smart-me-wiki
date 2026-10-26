@@ -3,9 +3,24 @@ title: 'VEWA - Abrechnung'
 slug: '/konfiguration/billing/vewa-abrechnung'
 description: 'Einleitung smart-me ab 2min 20sec'
 sidebar_label: 'VEWA - Abrechnung'
-naechste_schritte: [konfiguration/billing/index]
+naechste_schritte: [konfiguration/billing/rechnung-erstellen]
+vorheriger_schritt: konfiguration/billing/sonstige-kosten
 ---
 ![VEWA - Abrechnung – Abbildung 1](/img/konfiguration-billing-vewa-abrechnung/01.png)
+
+## Wärme und Wasser abrechnen — zwei Wege
+
+Bei der Tarifierung und Abrechnung von Multienergie bestehen grundsätzlich zwei Möglichkeiten der Konfiguration:
+
+**Abrechnung ohne VEWA Funktion**
+
+- Abrechnung mittels extern kalkuliertem Energietarif pro Energieart. Wird mit einem Preis pro CHF/m3 oder CHF/kWh in der Liegenschaft unterhalb der virtuellen Tarife geführt.
+
+**Abrechnung mit VEWA Funktion (Empfohlen)**
+
+- Auflaufende Kosten übers Jahr von Wärme / Wasser können erfasst werden. Der Tarif wird danach über die Periode berechnet und mit Verteilschlüsseln auf die Abrechnungseinheiten verteilt.
+
+Diese Seite beschreibt den empfohlenen Weg mit der VEWA-Funktion.
 
 ## Webinar VEWA
 
@@ -108,7 +123,7 @@ Diese können danach individuell abgerechnet werden mit verschiedenen Abrechnung
 
 ## VEWA Konfigurieren
 
-1.  ### VEWA aktivieren und Kostenaufteilungen konfigurieren.
+### 1. VEWA aktivieren und Kostenaufteilungen konfigurieren.
 
 
 Das Wärmesystem auswählen:

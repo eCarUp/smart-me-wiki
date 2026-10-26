@@ -1113,6 +1113,24 @@ vorheriger_schritt: konfiguration/ordnerkonfiguration/index
 Ohne diese Zeile nimmt der Wegweiser die erste Seite, die er findet — das ist
 dann Zufall, nicht Absicht. Setz sie also überall dort, wo Wege zusammenlaufen.
 
+### Eine Seite in zwei Abläufen
+
+Manche Schritte sind in beiden Ländern dieselben — „Zähler zuweisen" zum
+Beispiel. Solche Seiten gibt es trotzdem nur einmal. Sie nennen einfach beide
+Folgeseiten, und angezeigt wird die, die zum eingestellten Land passt:
+
+```yaml
+naechste_schritte: [konfiguration/billing/zahlungsdaten-erfassen, konfiguration/billing-deutschland/mieterspiegel-erfassen]
+vorheriger_schritt: [konfiguration/billing/konfiguration-rechnungsstellung, konfiguration/billing-deutschland/konfiguration-rechnungsstellung]
+```
+
+`vorheriger_schritt` darf also eine Liste sein, genau wie `naechste_schritte` —
+nötig ist das nur hier, wo auch der Rückweg vom Land abhängt.
+
+Damit die Seite für beide Länder sichtbar bleibt, steht sie in `sidebars.ts` in
+**beiden** Kategorien. Die Länderkennzeichnungen werden dabei vereinigt, aus
+`['ch']` und `['de']` wird `['ch', 'de']`.
+
 ### Ein Weg je Land
 
 Manche Schritte gehen in der Schweiz anders weiter als in Deutschland. Nach
@@ -1220,6 +1238,45 @@ Im Detail: [Stromtarife definieren](/konfiguration/billing/stromtarife-definiere
 
 Die Faustregel: **im Text, wo er beim Lesen hilft — unten, wo es weitergeht.**
 Beides am selben Ort ist einmal zu viel.
+
+### Den ganzen Ablauf auf der Einstiegsseite zeigen
+
+Ein längerer Ablauf steht nicht mehr auf einer Seite, sondern auf einem Dutzend
+— die Rechnungsstellung ist das Beispiel. Wer ihn zum zweiten Mal durchgeht,
+will nicht durchblättern, sondern dorthin springen, wo er stehengeblieben ist.
+Dafür gibt es `<Ablauf>`:
+
+```markdown
+<Ablauf bis="konfiguration/billing/rechnung-erstellen" />
+```
+
+Die Übersicht nummeriert die Schritte, verlinkt jeden einzeln und stellt die
+optionalen Abstecher eingerückt darunter. Gepflegt wird dabei **nichts**: Die
+Reihenfolge ist dieselbe Schrittkette aus dem Frontmatter, die auch den
+Wegweiser am Seitenfuss speist. Wird eine Seite dazwischengeschoben, umbenannt
+oder verschoben, steht sie beim nächsten Bauen von selbst an der richtigen
+Stelle.
+
+Zwei Angaben kennt die Komponente:
+
+- `bis` — die letzte Seite, die noch gezeigt wird. Ohne sie läuft die Kette
+  weiter, bis sie sich gabelt; bei der Rechnungsstellung liefe sie sonst über
+  die Benutzerkonfiguration hinaus, die mit dem Billing nichts mehr zu tun hat.
+- `von` — die Seite, bei der begonnen wird. Ohne Angabe ist das die Seite, auf
+  der die Zeile steht. Das ist der Normalfall.
+- `land` — `ch` oder `de`. Nötig auf den beiden Einstiegsseiten der
+  Rechnungsstellung: Ihr Ablauf gehört zu einem Land, gleichgültig was der
+  Leser oben eingestellt hat. Ohne die Angabe bliebe die Übersicht bei
+  „Alle Länder" an der ersten Gabelung stehen — beim Zuweisen der Zähler, wo
+  sich Schweiz und Deutschland trennen.
+
+Gabelt sich die Kette (zwei Folgeseiten für dasselbe Land), endet die
+Darstellung dort. Das ist Absicht — ein Ablauf mit Verzweigung ist kein Ablauf
+mehr, sondern eine Landkarte, und dafür gibt es die Navigation links.
+
+Die Länderzuordnung gilt auch hier: Schritte, die für das eingestellte Land
+nicht gelten, fallen aus der Übersicht heraus — dieselbe Regel wie beim
+Wegweiser.
 
 ---
 

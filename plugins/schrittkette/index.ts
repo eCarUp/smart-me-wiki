@@ -37,8 +37,15 @@ export type Schrittkette = {
   naechste: Record<string, string[]>;
   /** Kennung der Seite → Kennungen der optionalen Zwischenschritte */
   optionale: Record<string, string[]>;
-  /** Kennung der Seite → Kennung der vorhergehenden Seite */
-  vorherige: Record<string, string>;
+  /**
+   * Kennung der Seite → Kennungen der vorhergehenden Seiten.
+   *
+   * Mehrere, weil eine Seite in zwei Abläufen stehen kann: „Zähler zuweisen"
+   * gehört zur Schweizer wie zur deutschen Abrechnung, und wohin es zurück
+   * geht, hängt vom eingestellten Land ab. Gefiltert wird erst bei der
+   * Anzeige, siehe `src/theme/DocItem/Paginator/`.
+   */
+  vorherige: Record<string, string[]>;
   /**
    * Kennung der Seite → Länder, für die sie gilt.
    *
@@ -80,7 +87,13 @@ export function leseLaender(): Record<string, string[]> {
         : geerbt;
 
       const kennung = eintrag.id ?? eintrag.link?.id;
-      if (kennung && laender) aus[kennung] = laender;
+      // Vereinigung statt Überschreiben: Eine Seite, die in zwei Kategorien
+      // steht — einmal unter der Schweiz, einmal unter Mieterstrom —, gilt für
+      // beide Länder. Beim blossen Zuweisen gewänne der zuletzt gelesene
+      // Eintrag, und die Seite verschwände für das andere Land aus dem Ablauf.
+      if (kennung && laender) {
+        aus[kennung] = [...new Set([...(aus[kennung] ?? []), ...laender])];
+      }
       if (eintrag.items) lauf(eintrag.items, laender);
     }
   };
@@ -116,8 +129,8 @@ function alsListe(wert: unknown): string[] {
 export async function leseKette(docsDir: string): Promise<Schrittkette> {
   const naechste: Record<string, string[]> = {};
   const optionale: Record<string, string[]> = {};
-  const gesetzt: Record<string, string> = {};
-  const hergeleitet: Record<string, string> = {};
+  const gesetzt: Record<string, string[]> = {};
+  const hergeleitet: Record<string, string[]> = {};
 
   for (const datei of await alleDateien(docsDir)) {
     const {data} = matter(await readFile(datei, 'utf8'));
@@ -127,16 +140,20 @@ export async function leseKette(docsDir: string): Promise<Schrittkette> {
     const nebenbei = alsListe(data.optionale_schritte);
     if (weiter.length > 0) naechste[kennung] = weiter;
     if (nebenbei.length > 0) optionale[kennung] = nebenbei;
-    if (typeof data.vorheriger_schritt === 'string' && data.vorheriger_schritt) {
-      gesetzt[kennung] = data.vorheriger_schritt;
-    }
+    // `vorheriger_schritt` darf eine einzelne Kennung sein oder eine Liste —
+    // letzteres für Seiten, die in zwei Länderabläufen stehen.
+    const zurueck =
+      typeof data.vorheriger_schritt === 'string' && data.vorheriger_schritt
+        ? [data.vorheriger_schritt]
+        : alsListe(data.vorheriger_schritt);
+    if (zurueck.length > 0) gesetzt[kennung] = zurueck;
 
     // Die Umkehrung. Optionale Abstecher zählen mit: Wer von der Abrechnung
     // zu den Stromtarifen abbiegt, kam von der Abrechnung.
     for (const ziel of [...weiter, ...nebenbei]) {
       // Erster Treffer gewinnt; bei mehreren entscheidet ohnehin
       // `vorheriger_schritt` auf der Zielseite.
-      hergeleitet[ziel] ??= kennung;
+      hergeleitet[ziel] ??= [kennung];
     }
   }
 

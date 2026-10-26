@@ -4,6 +4,7 @@ slug: '/konfiguration/benutzerkonfiguration'
 description: 'Du brauchst ein smart-me Professional Abo um diese Funktion zu nutzen.'
 sidebar_label: 'Benutzerkonfiguration'
 naechste_schritte: [konfiguration/visualisierung]
+vorheriger_schritt: [konfiguration/billing/rechnung-erstellen, konfiguration/billing-deutschland/rechnung-erstellen]
 ---
 ### Voraussetzung
 

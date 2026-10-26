@@ -1,0 +1,40 @@
+---
+title: 'Konfiguration der Rechnungsstellung'
+slug: '/konfiguration/billing/konfiguration-rechnungsstellung'
+description: 'Die Liegenschaft in der Rechnungsstellung anlegen, damit Ordner und Zähler automatisch den Abrechnungseinheiten zugeordnet werden.'
+sidebar_label: 'Konfiguration Rechnungsstellung'
+naechste_schritte: [konfiguration/billing/zaehler-zuweisen]
+---
+<div className="row">
+<div className="col col--5">
+
+Navigiere nun zur Rechnungsstellung Konfiguration um die Abrechnungen aus den Liegenschaften zu konfigurieren.
+
+</div>
+<div className="col col--7 bild--mitte">
+
+![Billing: Energie abrechnen – Abbildung 4](/img/konfiguration-billing/04.png)
+
+</div>
+</div>
+
+## Liegenschaft erstellen
+
+<div className="row">
+<div className="col col--6">
+
+In der Rechnungsstellung kann die Liegenschaft hinzugefügt (angelegt) werden.
+
+Dies wird nun für alle Knoten durchgeführt, welche Abrechnungseinheiten enthalten.
+
+Bei diesem Schritt werden alle bereits erstellen Unterordner und zugewiesen Zähler automatisch zugeordnet. Aus diesem Grund empfehlen wird, dies jeweils vor dem Anlegen der Liegenschaft in smart-me Billing zu tun.
+
+Die Zählerpunkte welche verteilt werden sollen und sich im "Technischen Zähler" Knoten befinden, müssen nun noch manuell zugeordnet werden.
+
+</div>
+<div className="col col--6 bild--mitte">
+
+![Billing: Energie abrechnen – Abbildung 5](/img/konfiguration-billing/05.png)
+
+</div>
+</div>

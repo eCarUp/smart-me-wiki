@@ -632,57 +632,183 @@
     },
     "docs/konfiguration/benutzerkonfiguration.md": {
       "en": {
-        "hash": "f924a9536e99a579",
+        "hash": "9968283dc261ee39",
         "origin": "translated"
       },
       "fr": {
-        "hash": "f924a9536e99a579",
+        "hash": "9968283dc261ee39",
         "origin": "translated"
       },
       "it": {
-        "hash": "f924a9536e99a579",
+        "hash": "9968283dc261ee39",
+        "origin": "translated"
+      }
+    },
+    "docs/konfiguration/billing-deutschland/einstellungen.md": {
+      "en": {
+        "hash": "45ead776bfa64979",
+        "origin": "translated"
+      },
+      "fr": {
+        "hash": "45ead776bfa64979",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "45ead776bfa64979",
         "origin": "translated"
       }
     },
     "docs/konfiguration/billing-deutschland/index.md": {
       "en": {
-        "hash": "7e7c664a058f3966",
+        "hash": "e283ebf80a90301d",
         "origin": "translated"
       },
       "it": {
-        "hash": "7e7c664a058f3966",
+        "hash": "e283ebf80a90301d",
         "origin": "translated"
       },
       "fr": {
-        "hash": "7e7c664a058f3966",
+        "hash": "e283ebf80a90301d",
+        "origin": "translated"
+      }
+    },
+    "docs/konfiguration/billing-deutschland/konfiguration-rechnungsstellung.md": {
+      "en": {
+        "hash": "3ffcc598e3a2d206",
+        "origin": "translated"
+      },
+      "fr": {
+        "hash": "3ffcc598e3a2d206",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "3ffcc598e3a2d206",
+        "origin": "translated"
+      }
+    },
+    "docs/konfiguration/billing-deutschland/mieterspiegel-erfassen.md": {
+      "en": {
+        "hash": "028a21be5b8f58e6",
+        "origin": "translated"
+      },
+      "fr": {
+        "hash": "028a21be5b8f58e6",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "028a21be5b8f58e6",
+        "origin": "translated"
+      }
+    },
+    "docs/konfiguration/billing-deutschland/rechnung-erstellen.md": {
+      "en": {
+        "hash": "5efed660bd226786",
+        "origin": "translated"
+      },
+      "fr": {
+        "hash": "5efed660bd226786",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "5efed660bd226786",
+        "origin": "translated"
+      }
+    },
+    "docs/konfiguration/billing-deutschland/sonstige-kosten.md": {
+      "en": {
+        "hash": "29208b5b21668f98",
+        "origin": "translated"
+      },
+      "fr": {
+        "hash": "29208b5b21668f98",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "29208b5b21668f98",
         "origin": "translated"
       }
     },
     "docs/konfiguration/billing-deutschland/stromtarife-definieren.md": {
       "en": {
-        "hash": "7c05ce7bca5a7a2c",
+        "hash": "aee52382bc64d96a",
         "origin": "translated"
       },
       "fr": {
-        "hash": "7c05ce7bca5a7a2c",
+        "hash": "aee52382bc64d96a",
         "origin": "translated"
       },
       "it": {
-        "hash": "7c05ce7bca5a7a2c",
+        "hash": "aee52382bc64d96a",
+        "origin": "translated"
+      }
+    },
+    "docs/konfiguration/billing/einstellungen.md": {
+      "en": {
+        "hash": "30489e389590cb2b",
+        "origin": "translated"
+      },
+      "fr": {
+        "hash": "30489e389590cb2b",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "30489e389590cb2b",
+        "origin": "translated"
+      }
+    },
+    "docs/konfiguration/billing/iban-hinterlegen.md": {
+      "en": {
+        "hash": "7270c42b1a180012",
+        "origin": "translated"
+      },
+      "fr": {
+        "hash": "7270c42b1a180012",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "7270c42b1a180012",
         "origin": "translated"
       }
     },
     "docs/konfiguration/billing/index.md": {
       "en": {
-        "hash": "844e8ee95b683d53",
+        "hash": "84e5bdf3b86bb607",
         "origin": "translated"
       },
       "fr": {
-        "hash": "844e8ee95b683d53",
+        "hash": "84e5bdf3b86bb607",
         "origin": "translated"
       },
       "it": {
-        "hash": "844e8ee95b683d53",
+        "hash": "84e5bdf3b86bb607",
+        "origin": "translated"
+      }
+    },
+    "docs/konfiguration/billing/konfiguration-rechnungsstellung.md": {
+      "en": {
+        "hash": "b2acb12f72271942",
+        "origin": "translated"
+      },
+      "fr": {
+        "hash": "b2acb12f72271942",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "b2acb12f72271942",
+        "origin": "translated"
+      }
+    },
+    "docs/konfiguration/billing/mieterspiegel-erfassen.md": {
+      "en": {
+        "hash": "cfe3048fda68f2ab",
+        "origin": "translated"
+      },
+      "fr": {
+        "hash": "cfe3048fda68f2ab",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "cfe3048fda68f2ab",
         "origin": "translated"
       }
     },
@@ -742,17 +868,45 @@
         "origin": "translated"
       }
     },
-    "docs/konfiguration/billing/stromtarife-definieren/index.md": {
+    "docs/konfiguration/billing/rechnung-erstellen.md": {
       "en": {
-        "hash": "0d4c2d154fb97c63",
+        "hash": "283f4dd38ab22193",
         "origin": "translated"
       },
       "fr": {
-        "hash": "0d4c2d154fb97c63",
+        "hash": "283f4dd38ab22193",
         "origin": "translated"
       },
       "it": {
-        "hash": "0d4c2d154fb97c63",
+        "hash": "283f4dd38ab22193",
+        "origin": "translated"
+      }
+    },
+    "docs/konfiguration/billing/sonstige-kosten.md": {
+      "en": {
+        "hash": "015fc73104ac772a",
+        "origin": "translated"
+      },
+      "fr": {
+        "hash": "015fc73104ac772a",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "015fc73104ac772a",
+        "origin": "translated"
+      }
+    },
+    "docs/konfiguration/billing/stromtarife-definieren/index.md": {
+      "en": {
+        "hash": "03c155a739752ba0",
+        "origin": "translated"
+      },
+      "fr": {
+        "hash": "03c155a739752ba0",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "03c155a739752ba0",
         "origin": "translated"
       }
     },
@@ -772,15 +926,15 @@
     },
     "docs/konfiguration/billing/vewa-abrechnung.md": {
       "en": {
-        "hash": "a42f251986144300",
+        "hash": "a7fdb7d8580052d1",
         "origin": "translated"
       },
       "fr": {
-        "hash": "a42f251986144300",
+        "hash": "a7fdb7d8580052d1",
         "origin": "translated"
       },
       "it": {
-        "hash": "a42f251986144300",
+        "hash": "a7fdb7d8580052d1",
         "origin": "translated"
       }
     },
@@ -795,6 +949,34 @@
       },
       "it": {
         "hash": "cb08eb93d9ae35d1",
+        "origin": "translated"
+      }
+    },
+    "docs/konfiguration/billing/zaehler-zuweisen.md": {
+      "en": {
+        "hash": "de1b9522740d384e",
+        "origin": "translated"
+      },
+      "fr": {
+        "hash": "de1b9522740d384e",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "de1b9522740d384e",
+        "origin": "translated"
+      }
+    },
+    "docs/konfiguration/billing/zahlungsdaten-erfassen.md": {
+      "en": {
+        "hash": "d60253f87a6d54a5",
+        "origin": "translated"
+      },
+      "fr": {
+        "hash": "d60253f87a6d54a5",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "d60253f87a6d54a5",
         "origin": "translated"
       }
     },

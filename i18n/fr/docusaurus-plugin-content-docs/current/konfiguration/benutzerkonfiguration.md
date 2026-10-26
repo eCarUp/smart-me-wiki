@@ -4,6 +4,7 @@ slug: '/konfiguration/benutzerkonfiguration'
 description: 'Vous avez besoin d''un abonnement smart-me Professional pour utiliser cette fonction.'
 sidebar_label: 'Configuration des utilisateurs'
 naechste_schritte: [konfiguration/visualisierung]
+vorheriger_schritt: [konfiguration/billing/rechnung-erstellen, konfiguration/billing-deutschland/rechnung-erstellen]
 ---
 ### Prérequis
 
@@ -12,14 +13,14 @@ naechste_schritte: [konfiguration/visualisierung]
 
 Vous avez besoin d'un abonnement smart-me Professional pour utiliser cette fonction.
 
-Dans smart-me, vous pouvez créer de nouveaux utilisateurs et leur attribuer des autorisations sur des compteurs ou des dossiers. Ces utilisateurs disposent uniquement de droits de lecture.
+Dans smart-me, vous pouvez créer de nouveaux utilisateurs et leur attribuer les autorisations correspondantes sur des compteurs ou des dossiers. Ces utilisateurs disposent uniquement de droits de lecture.
 
-Vous pouvez ainsi donner aux locataires l'accès à leurs données aussi longtemps qu'ils habitent dans l'immeuble.
+Vous pouvez ainsi donner aux locataires l'accès à leurs données tant qu'ils occupent l'immeuble.
 
 </div>
 <div className="col col--6 text--center">
 
-![Créer des utilisateurs – figure 1](/img/konfiguration-benutzerkonfiguration/01_EN.png)
+![Créer des utilisateurs – Illustration 1](/img/konfiguration-benutzerkonfiguration/01_EN.png)
 
 </div>
 </div>
@@ -44,7 +45,7 @@ Veuillez noter que vous devez d'abord [créer des dossiers](/konfiguration/ordne
 </div>
 <div className="col col--4 text--center">
 
-![Créer des utilisateurs – figure 2](/img/konfiguration-benutzerkonfiguration/02.png)
+![Créer des utilisateurs – Illustration 2](/img/konfiguration-benutzerkonfiguration/02.png)
 
 </div>
 </div>
@@ -56,14 +57,14 @@ Veuillez noter que vous devez d'abord [créer des dossiers](/konfiguration/ordne
 
 Les utilisateurs disposent toujours uniquement d'un accès en lecture.
 
-Il est possible de partager soit uniquement le nœud explicite, soit le nœud y compris tous ses sous-nœuds.
+Il est possible de partager soit uniquement le nœud explicite, soit le nœud avec tous ses sous-nœuds.
 
 Si une visualisation qui accède aux données des compteurs est utilisée sur le nœud, l'utilisateur doit être autorisé à voir les compteurs.
 
 </div>
 <div className="col col--8 text--center">
 
-![Créer des utilisateurs – figure 3](/img/konfiguration-benutzerkonfiguration/03_EN.png)
+![Créer des utilisateurs – Illustration 3](/img/konfiguration-benutzerkonfiguration/03_EN.png)
 
 </div>
 </div>
@@ -72,12 +73,12 @@ Créez maintenant les visualisations pour les locataires ou pour le propriétair
 
 ### Vue pour les locataires
 
-Une vue spéciale pour les locataires est disponible pour les tarifs virtuels. Elle affiche la consommation d'énergie actuelle (électricité) et sa provenance (solaire ou réseau). En outre, la barre indique la source d'approvisionnement en électricité au cours de la période écoulée.
+Une vue spéciale pour les locataires est disponible pour les tarifs virtuels. Elle affiche la consommation d'énergie actuelle (électricité) et sa provenance (solaire ou réseau). De plus, la barre indique la source d'approvisionnement en électricité dans le passé.
 
-Cette vue doit en plus être configurée pour chaque nœud de logement.
+Cette vue doit en outre être configurée pour chaque nœud d'appartement.
 
 Voir les détails de la configuration : [Visualisation et liens publics](/konfiguration/visualisierung) 
 
-La visualisation s'appelle : « Tarifs virtuels simples logement » (« Einfache virtuelle Tarife Wohnung »)
+La visualisation s'appelle : « Tarifs virtuels simples appartement » ("Einfache virtuelle Tarife Wohnung")
 
-![Créer des utilisateurs – figure 4](/img/konfiguration-benutzerkonfiguration/04.png)
+![Créer des utilisateurs – Illustration 4](/img/konfiguration-benutzerkonfiguration/04.png)

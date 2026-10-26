@@ -3,11 +3,19 @@ title: 'Stromtarife definieren (Deutschland)'
 slug: '/konfiguration/billing-deutschland/stromtarife-definieren'
 description: 'Virtuelle Tarife für deutschen Mieterstrom: Solartarif inklusive vZEV oder Solartarif über Verbrauch und PV, mit oder ohne Batterietarif.'
 sidebar_label: 'Stromtarife definieren'
-naechste_schritte: [konfiguration/billing-deutschland/index]
+naechste_schritte: [konfiguration/billing-deutschland/sonstige-kosten]
 optionale_schritte: [konfiguration/wenndann-aktionen/tarifzeiten-definieren]
+vorheriger_schritt: konfiguration/billing-deutschland/mieterspiegel-erfassen
 ---
 
 Bei Mieterstrom muss **immer mit virtuellen Tarifen** gearbeitet werden. Nur so lässt sich pro Abrechnungseinheit ausweisen, welcher Anteil des Stroms aus der Solaranlage und welcher aus dem Netz kam — und genau das verlangt die Abrechnung nach § 42 EnWG.
+
+## Wo du die Tarife findest
+
+- Menu Rechnungsstellung
+- Konfiguration
+- Links die Liegenschaft wählen (Hauptordner z.B. Altgasse 13)
+- Virtuelle Stromtarife Hinzufügen. (z.B. Hochtarif, Niedertarif, Solartarif)
 
 
 ## Beschaffe dir das Tarifblatt deines Energieversorgers
@@ -119,4 +127,4 @@ Ein fertige Konfiguration kann so aussehen:
 
 ![smart-me Billing für deutschen Mieterstrom – Abbildung 10](/img/konfiguration-billing-mieterstrom/10.png)
 
-Danach hast alle Einstellungen auf der Ebene Liegenschaft vorgenommen.  Zum Abschluss musst du noch in den einzelnen Wohneinheiten die Kundennummer und die Angaben zum Vertrag und Laufzeit eintragen.
+Danach hast du alle Einstellungen auf der Ebene Liegenschaft vorgenommen.

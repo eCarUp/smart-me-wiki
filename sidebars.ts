@@ -168,7 +168,16 @@ const sidebars: SidebarsConfig = {
           // Die ganze Kategorie gilt für die Schweiz – ZEV, VEWA, MWST. Die
           // Kennzeichnung steht am Oberpunkt, die Seiten darin erben sie.
           customProps: {laender: ['ch']},
+          // Reihenfolge wie der Ablauf: Die Seiten stehen hier in genau der
+          // Folge, in der die Schrittkette durch sie führt (siehe das
+          // Frontmatter `naechste_schritte` und `<Ablauf>` auf der
+          // Einstiegsseite). Wer links liest statt zu klicken, liest dasselbe.
           items: [
+            'konfiguration/billing/einstellungen',
+            'konfiguration/billing/konfiguration-rechnungsstellung',
+            'konfiguration/billing/zaehler-zuweisen',
+            'konfiguration/billing/zahlungsdaten-erfassen',
+            'konfiguration/billing/mieterspiegel-erfassen',
             {
               type: 'category',
               label: 'Stromtarife definieren',
@@ -177,7 +186,9 @@ const sidebars: SidebarsConfig = {
                 'konfiguration/billing/stromtarife-definieren/stromtarif-rechner',
               ],
             },
+            'konfiguration/billing/sonstige-kosten',
             'konfiguration/billing/vewa-abrechnung',
+            'konfiguration/billing/rechnung-erstellen',
             'konfiguration/billing/mwst-zev-nebenkosten',
           ],
         },
@@ -191,8 +202,22 @@ const sidebars: SidebarsConfig = {
           // Label den Übersetzungsschlüssel, und zwei gleiche Labels
           // kollidieren beim Bauen der anderen Sprachen.
           customProps: {laender: ['de']},
+          // Reihenfolge wie der Ablauf, genau wie bei der Schweizer Kategorie.
+          //
+          // „Zähler zuweisen" steht bewusst zweimal in dieser Datei: Die Seite
+          // gilt für beide Länder — in Deutschland folgt danach der
+          // Mieterspiegel statt der IBAN, die Seite selbst ist dieselbe. Ohne
+          // den Eintrag hier fehlte sie in der deutschen Navigation.
+          // `leseLaender()` in plugins/schrittkette vereinigt die beiden
+          // Kennzeichnungen zu ['ch', 'de'].
           items: [
+            'konfiguration/billing-deutschland/einstellungen',
+            'konfiguration/billing-deutschland/konfiguration-rechnungsstellung',
+            'konfiguration/billing/zaehler-zuweisen',
+            'konfiguration/billing-deutschland/mieterspiegel-erfassen',
             'konfiguration/billing-deutschland/stromtarife-definieren',
+            'konfiguration/billing-deutschland/sonstige-kosten',
+            'konfiguration/billing-deutschland/rechnung-erstellen',
           ],
         },
         'konfiguration/benutzerkonfiguration',

@@ -1,0 +1,112 @@
+/*
+ * Der Ablauf steht mitten im Text der Einstiegsseite und soll als Einheit
+ * lesbar sein: eine Spalte, untereinander, mit einer Linie von Schritt zu
+ * Schritt. Nebeneinander gestellt sähe er aus wie eine Auswahl — er ist aber
+ * eine Reihenfolge.
+ */
+.ablauf {
+  list-style: none;
+  margin: 1.5rem 0 2rem;
+  padding: 0;
+  display: grid;
+  gap: 0.75rem;
+}
+
+.station {
+  position: relative;
+  margin: 0;
+}
+
+/* Die Linie zum nächsten Schritt. Sie sitzt unter der Nummer und überbrückt
+   genau den Abstand der Liste. */
+.station:not(:last-child)::after {
+  content: '';
+  position: absolute;
+  left: 2.2rem;
+  bottom: -0.8rem;
+  height: 0.85rem;
+  border-left: 2px solid var(--ifm-color-emphasis-300);
+}
+
+.feld {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.85rem 1.25rem;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: var(--ifm-card-border-radius, 0.4rem);
+  background: var(--ifm-background-surface-color);
+  color: var(--ifm-heading-color);
+  text-decoration: none;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.feld:hover {
+  border-color: var(--ifm-color-primary);
+  box-shadow: var(--ifm-global-shadow-lw);
+  color: var(--ifm-heading-color);
+  text-decoration: none;
+}
+
+.nummer {
+  flex: 0 0 auto;
+  display: grid;
+  place-items: center;
+  width: 1.9rem;
+  height: 1.9rem;
+  border-radius: 50%;
+  background: var(--ifm-color-primary);
+  color: var(--ifm-background-surface-color);
+  font-size: 0.95rem;
+  font-weight: var(--sm-fw-bold, 600);
+  line-height: 1;
+}
+
+.titel {
+  flex: 1 1 auto;
+  font-weight: var(--sm-fw-bold, 600);
+}
+
+.pfeil {
+  flex: 0 0 auto;
+  color: var(--ifm-color-primary);
+  font-size: 1.25rem;
+  transition: transform 0.15s ease;
+}
+
+.feld:hover .pfeil {
+  transform: translateX(0.25rem);
+}
+
+/*
+ * Abstecher gehören zum Schritt darüber, nicht in die Nummerierung: Sie stehen
+ * eingerückt unter ihm und ohne Rahmen, damit die Reihe der nummerierten
+ * Schritte nicht reisst.
+ */
+.abstecher {
+  list-style: none;
+  margin: 0.35rem 0 0 3.5rem;
+  padding: 0;
+}
+
+.abstecher li {
+  margin: 0;
+}
+
+.abstecherZiel {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.4rem;
+  padding: 0.2rem 0;
+  color: var(--ifm-color-emphasis-700);
+  font-size: 0.95rem;
+}
+
+.abstecherZiel:hover {
+  color: var(--ifm-color-primary);
+}
+
+.haken {
+  flex: 0 0 auto;
+  color: var(--ifm-color-emphasis-500);
+}

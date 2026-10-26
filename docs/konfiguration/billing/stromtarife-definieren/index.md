@@ -3,8 +3,9 @@ title: 'Stromtarife definieren'
 slug: '/konfiguration/billing/stromtarife-definieren'
 description: 'Im Video Rechts werden dir von Guy die Grundlagen erklärt wie die Strompreise Generell zusammengesetzt sind.'
 sidebar_label: 'Stromtarife definieren'
-naechste_schritte: [konfiguration/billing/index]
+naechste_schritte: [konfiguration/billing/sonstige-kosten]
 optionale_schritte: [konfiguration/wenndann-aktionen/tarifzeiten-definieren]
+vorheriger_schritt: konfiguration/billing/mieterspiegel-erfassen
 ---
 ![Stromtarife definieren – Abbildung 1](/img/konfiguration-billing-stromtarife-definieren/01.png)
 
@@ -125,12 +126,13 @@ Erstelle nun die Netztarife deiner Tarifperiode
 
 ### Beispiel: Doppeltarif
 
-</div>
-</div>
-
 Das Timing des Tarifs bildest du in den Wenn-Aktionen ab:
 
 [Tarifzeiten definieren](/konfiguration/wenndann-aktionen/tarifzeiten-definieren)
+
+</div>
+</div>
+
 
 <div className="row">
 <div className="col col--6">
@@ -167,12 +169,12 @@ Bei Doppeltarifen, muss das Timing vorrangig erstellt werden mittels [WENN/DANN]
 </div>
 </div>
 
-Erstelle nun den Solartarif dazu
+**Erstelle nun den Solartarif dazu**
 
-Hinweis:
-Es gibt verschiedene Soalrtarife und Batterietarife mit unterschiedlichen Fähigkeiten und voraussetzungen.
+**Hinweis:**
+Es gibt verschiedene Solartarife und Batterietarife mit unterschiedlichen Fähigkeiten und Voraussetzungen.
 
-Allgemein ist der Solartarif vZEV die beste und universellste Wahl.
+Allgemein ist der **Solartarif vZEV** die beste und universellste Wahl.
 
 Was dieser nicht kann ist unterschiedliche Tarife für Batterie und Solarenergie defineiren. Dazu muss der alternative Tarif verwendet werden.
 
@@ -201,14 +203,14 @@ Alternative Option: 
 <div className="row">
 <div className="col col--6">
 
-Solareinheitstarif
+**Solareinheitstarif**
 
 ![Stromtarife definieren – Abbildung 9](/img/konfiguration-billing-stromtarife-definieren/09.png)
 
 </div>
 <div className="col col--6">
 
-Solardoppeltarif
+**Solardoppeltarif**
 
 ![Stromtarife definieren – Abbildung 10](/img/konfiguration-billing-stromtarife-definieren/10.png)
 
@@ -265,7 +267,9 @@ Die Kosten der Grundgebühr fällt auf allen Abrechnungseinheiten an, daher kann
 
 ## Alle Details zu den Tarifen und Funktionen
 
-## Virtuelle Tarifkonfiguration (Netz-, Solar-, Batterietarife)
+Von hier an ist die Seite ein Nachschlagewerk: Die Abschnitte stehen aufklappbar da, damit du nur das öffnest, was du gerade brauchst.
+
+### Virtuelle Tarifkonfiguration (Netz-, Solar-, Batterietarife)
 
 Virtuelle Tarife erlauben es, selbst ein dynamisches Tarifmodell für die Verrechnung der Energie zu definieren. Dies kann z. B. verwendet werden, um bei einem Zusammenschluss zum Eigenverbrauch (ZEV oder Mieterstrom) zu unterscheiden, ob ein Mieter Strom von einer Solaranlage oder vom Netz bezieht. 
 
@@ -318,7 +322,8 @@ Hinweise: 
 
 <Video src="7iLDy1YZDyY" title="YouTube Video, Virtuelle Tarife" />
 
-### Netztarif
+<details id="netztarif">
+<summary>Netztarif</summary>
 
 Der Netztarif kann als folgende Tarife erfasst werden:
 
@@ -369,7 +374,10 @@ Das Timing wird über die [WENN/DANN](/konfiguration/wenndann-aktionen) Aktionen
 
 ![Stromtarife definieren – Abbildung 18](/img/konfiguration-billing-stromtarife-definieren/18.png)
 
-### Solartarif vZEV konfigurieren
+</details>
+
+<details id="solartarif-vzev-konfigurieren">
+<summary>Solartarif vZEV konfigurieren</summary>
 
 Der Solartarif vZEV ermöglicht die Umsetzung von ZEV und vZEV Lösungen. 
 
@@ -434,7 +442,10 @@ Tarifieren von Reiheneinfamilienhäusern als vZEV
 
 ![Stromtarife definieren – Abbildung 24](/img/konfiguration-billing-stromtarife-definieren/24.png)
 
-### Solar und Batterietarif konfigurieren
+</details>
+
+<details id="solar-und-batterietarif-konfigurieren">
+<summary>Solar und Batterietarif konfigurieren</summary>
 
 Die Solartarife und Batterietarife der Legacy Reihe ermöglichen die Umsetzung einer ZEV mit oder ohne Bilanzzähler.
 
@@ -490,7 +501,9 @@ ZEV tarifieren mit legacy Tarifen (mehrere Häuser )
 
 ![Stromtarife definieren – Abbildung 29](/img/konfiguration-billing-stromtarife-definieren/29.png)
 
-## Spitzenstromtarife
+</details>
+
+### Spitzenstromtarife
 
 Mit den Spitzenstromtarifen können erweiterte oder neuartige Strommodelle von Energieversorgern abgedeckt werden. 
 
@@ -520,7 +533,8 @@ Als Basis dient die jeweilige verursachte Stromspitze (nur Netzbezug) jedes indi
 
 ![Stromtarife definieren – Abbildung 31](/img/konfiguration-billing-stromtarife-definieren/31.png)
 
-### Spitzentarife ohne aktive Hauptmessung (Manuelle Kosteneintragung)
+<details id="spitzentarife-ohne-aktive-hauptmessung">
+<summary>Spitzentarife ohne aktive Hauptmessung (Manuelle Kosteneintragung)</summary>
 
 Eignet sich für alle Systeme die keine Referenzmessung besitzen. 
 
@@ -528,22 +542,33 @@ Eignet sich für alle Systeme die keine Referenzmessung besitzen. 
 
 ![Stromtarife definieren – Abbildung 33](/img/konfiguration-billing-stromtarife-definieren/33.png)
 
-### Spitzentarife mit aktiver Hauptmessung (Automatische Kostenberechnung)
+</details>
+
+<details id="spitzentarife-mit-aktiver-hauptmessung">
+<summary>Spitzentarife mit aktiver Hauptmessung (Automatische Kostenberechnung)</summary>
 
 Eignet sich für alle Systeme die eine direkte Bilanzmessung besitzen.
 
 ![Stromtarife definieren – Abbildung 34](/img/konfiguration-billing-stromtarife-definieren/34.png)
 
+</details>
+
 ## FAQ
 
-Aufbau: Einheitstarif ohne Solar
+Je nach Tarifmodell deines Energieversorgers sieht die Konfiguration anders aus. Klapp den Aufbau auf, der zu deinem Fall passt.
+
+<details id="einheitstarif-ohne-solar">
+<summary>Einheitstarif ohne Solar</summary>
 
 - In diesem Fall empfehlen wir, keine virtuellen Tarife zu verwenden. Elektrizitätstarife (Alle) sind in diesem Fall effizienter. Es ist jederzeit möglich, von Elektrizitätstarife auf virtuelle Tarife zu wechseln.
 
 
 Logik: Die Zählerstände werden abgefragt und für das Billing verwendet. Es ist keine Berechnung nötig.
 
-Aufbau: Einheitstarif mit Solar
+</details>
+
+<details id="einheitstarif-mit-solar">
+<summary>Einheitstarif mit Solar</summary>
 
 - Solarstrom Einheitstarif: Solartarif definieren ohne Wenn Aktion
 
@@ -552,7 +577,10 @@ Aufbau: Einheitstarif mit Solar
 
 Logik: Zuerst wird der verfügbare Solarstrom verteilt. Wenn zu wenig oder keiner verfügbar ist, wird der normale Tarif verwendet.
 
-Aufbau: Hoch- und Niedertarif für Netzstrom und Einheitstarif bei Solarstrom
+</details>
+
+<details id="hoch-und-niedertarif-netzstrom-einheitstarif-solar">
+<summary>Hoch- und Niedertarif für Netzstrom und Einheitstarif bei Solarstrom</summary>
 
 - Solarstrom Einheitstarif: Solartarif definieren ohne Wenn Aktion
 
@@ -565,7 +593,10 @@ Aufbau: Hoch- und Niedertarif für Netzstrom und Einheitstarif bei Solarstrom
 
 Logik: Zuerst wird der verfügbare Solarstrom verteilt. Wenn zu wenig oder keiner verfügbar ist, wird der normale Tarif verwendet, der eine Bedingung erfüllt. Zum Schluss wird der Tarif ohne Bedingung für den restlichen Strom versendet.
 
-Aufbau: Hoch- und Niedertarif für Netz- und Solarstrom
+</details>
+
+<details id="hoch-und-niedertarif-netz-und-solarstrom">
+<summary>Hoch- und Niedertarif für Netz- und Solarstrom</summary>
 
 - Solarstrom Hochtarif: Solartarif definieren mit Wenn Aktion
 
@@ -586,7 +617,10 @@ Aufbau: Hoch- und Niedertarif für Netz- und Solarstrom
 
 Logik: Zuerst wird der verfügbare Solarstrom mit der gültigen Bedingung verwendet. Wenn zu wenig oder keiner verfügbar ist, wird der Normale Tarif mit der gültigen Bedingung verwendet. Es ist wichtig, dass in diesem Anwendungsfall 24h/Tag mit einer Wenn Bedingung abgedeckt ist.
 
-Aufbau: Sommer und Winter mit Hoch- und Niedertarif für Netzstrom und Einheitstarif bei Solarstrom
+</details>
+
+<details id="sommer-winter-netzstrom-einheitstarif-solar">
+<summary>Sommer und Winter mit Hoch- und Niedertarif für Netzstrom und Einheitstarif bei Solarstrom</summary>
 
 - Solarstrom Hochtarif: Solartarif definieren ohne Wenn Aktion
 
@@ -609,7 +643,10 @@ Aufbau: Sommer und Winter mit Hoch- und Niedertarif für Netzstrom und Einheitst
 
 Logik: Zuerst wird der verfügbare Solarstrom verwendet. Wenn zu wenig oder keiner verfügbar ist, wird der Normale Tarif mit der gültigen Bedingung verwendet. Es ist wichtig, dass in diesem Anwendungsfall 24h/Tag mit einer Wenn Bedingung abgedeckt ist.
 
-Aufbau: Sommer und Winter mit Hoch- und Niedertarif für Netzstrom und Einheitstarif bei Solarstrom und Niedertarif über den Mittag nur im Winter (z.B. EWS/EBS)
+</details>
+
+<details id="sommer-winter-mit-mittagsniedertarif-im-winter">
+<summary>Sommer und Winter mit Hoch- und Niedertarif für Netzstrom und Einheitstarif bei Solarstrom und Niedertarif über den Mittag nur im Winter (z.B. EWS/EBS)</summary>
 
 Beispiel
 
@@ -660,7 +697,10 @@ Beispiel
 
 Logik: Zuerst wird der verfügbare Solarstrom verwendet. Wenn zu wenig oder keiner verfügbar ist, wird der Normale Tarif mit der gültigen Bedingung verwendet. Es ist wichtig, dass in diesem Anwendungsfall 24h/Tag mit einer Wenn Bedingung abgedeckt ist.
 
-Aufbau: Sommer und Winter mit Hoch- und Niedertarif für Netzstrom und Solarstrom, Tagsüber Niedertarif im Sommer und Hochtarif im Winter(z.B. Energie Uri ab 1.10.2025)
+</details>
+
+<details id="sommer-winter-tagsueber-wechselnd-energie-uri">
+<summary>Sommer und Winter mit Hoch- und Niedertarif für Netzstrom und Solarstrom, Tagsüber Niedertarif im Sommer und Hochtarif im Winter(z.B. Energie Uri ab 1.10.2025)</summary>
 
 Beschreibung: Hier muss in zwei Schritten gearbeitet werden. 1x Wenn Dann und 1x mit den Zeiten in den Virtuellen Tarifen
 
@@ -794,6 +834,8 @@ Die Perioden bzw. Dauer müssen in diesem Fall hinterlegt werden. Bei diesen Tar
 <Embed src="https://drive.google.com/file/d/1qFuisQkiLisSbWTh8Avhrf7gIXOfxjjn/preview" aspect="1.350" title="Drive, Wiki Tarife Enerige Uri Tarife 2026.mp4" />
 
 Wiki Tarife Enerige Uri Tarife 2026.mp4
+
+</details>
 
 ## Reine Netztarifsysteme (Externe Signallösung)
 

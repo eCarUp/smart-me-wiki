@@ -11,9 +11,9 @@
  * siehe `plugins/schrittkette/` und `src/components/NaechsterSchritt/`.
  *
  * Gefiltert wird nach Land: Eine Seite darf mehrere Folgeseiten angeben, von
- * denen je nach Länderwahl nur eine passt. Nach der Inbetriebnahme folgt in
- * der Schweiz die ZEV-Ordnerstruktur, in Deutschland die für Mieterstrom —
- * dieselbe Seite, zwei Wege. Wer kein Land gewählt hat, sieht beide.
+ * denen je nach Länderwahl nur eine passt. Nach dem Zuweisen der Zähler folgt
+ * in der Schweiz die IBAN, in Deutschland der Mieterspiegel — dieselbe Seite,
+ * zwei Wege. Dasselbe gilt rückwärts. Wer kein Land gewählt hat, sieht alle.
  */
 import React from 'react';
 import {useDoc} from '@docusaurus/plugin-content-docs/client';
@@ -35,13 +35,12 @@ export default function PaginatorWrapper(): React.ReactNode {
     sichtbar(kette.laender[kennung], land);
 
   const kennung = metadata.id;
-  const vorherige = kette.vorherige[kennung];
 
   return (
     <NaechsterSchritt
       naechste={(kette.naechste[kennung] ?? []).filter(passt)}
       optionale={(kette.optionale[kennung] ?? []).filter(passt)}
-      vorherige={vorherige && passt(vorherige) ? vorherige : undefined}
+      vorherige={(kette.vorherige[kennung] ?? []).filter(passt)[0]}
     />
   );
 }

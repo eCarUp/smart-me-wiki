@@ -3,9 +3,24 @@ title: 'VEWA - Conteggio'
 slug: '/konfiguration/billing/vewa-abrechnung'
 description: 'Introduzione smart-me da 2min 20sec'
 sidebar_label: 'VEWA - Conteggio'
-naechste_schritte: [konfiguration/billing/index]
+naechste_schritte: [konfiguration/billing/rechnung-erstellen]
+vorheriger_schritt: konfiguration/billing/sonstige-kosten
 ---
 ![VEWA - Conteggio – Figura 1](/img/konfiguration-billing-vewa-abrechnung/01.png)
+
+## Conteggio di calore e acqua: due modalità
+
+Per la tariffazione e il conteggio di più vettori energetici esistono fondamentalmente due possibilità di configurazione:
+
+**Conteggio senza la funzione VEWA**
+
+- Conteggio tramite una tariffa energetica calcolata esternamente per ciascun tipo di energia. Viene gestita nella proprietà sotto le tariffe virtuali con un prezzo in CHF/m3 o CHF/kWh.
+
+**Conteggio con la funzione VEWA (consigliato)**
+
+- I costi di calore e acqua maturati nel corso dell'anno possono essere registrati. La tariffa viene poi calcolata sull'intero periodo e ripartita sulle unità di conteggio mediante chiavi di ripartizione.
+
+Questa pagina descrive la modalità consigliata con la funzione VEWA.
 
 ## Webinar VEWA
 
@@ -15,14 +30,14 @@ naechste_schritte: [konfiguration/billing/index]
 
 - [VEWA](https://youtu.be/nrziX2lLI0s?si=O-Q5qFbhTNm4v4s-&t=770) da 12min 50sec
 
-- [Live demo](https://youtu.be/nrziX2lLI0s?si=CYljDSjMHWwKagCu&t=1498) da 24min 58sec 
+- [Demo live](https://youtu.be/nrziX2lLI0s?si=CYljDSjMHWwKagCu&t=1498) da 24min 58sec 
 
 - [Domande](https://youtu.be/nrziX2lLI0s?si=sr3GAi-mrt6gyLyQ&t=2432) da 40min 32sec 
 
 
-## Informazioni generali su VEWA
+## Informazioni generali sulla VEWA
 
-VEWA sta per conteggio delle spese energetiche e dell'acqua in base al consumo (Verbrauchsabhängige Energie- und Wasserkosten Abrechnung). Offre una guida per la ripartizione equa di tutti i tipi di costi energetici e comprende:
+VEWA sta per conteggio dei costi di energia e acqua in base al consumo (Verbrauchsabhängige Energie- und Wasserkosten Abrechnung). Offre una guida per un addebito equo di tutti i tipi di costi energetici e comprende:
 
 - Calore
 
@@ -32,14 +47,14 @@ VEWA sta per conteggio delle spese energetiche e dell'acqua in base al consumo (
 
 - Acqua fredda 
 
-- Elettricità (può essere gestita anche separatamente)
+- Elettricità (può anche essere gestita separatamente)
 
 
-La VEWA è il successore del noto conteggio VHKA e supporta vettori energetici aggiuntivi e procedure semplificate.
+La VEWA è la succeditrice del noto conteggio VHKA e supporta ulteriori vettori energetici e procedure semplificate.
 
 La VEWA si occupa della ripartizione dei costi per sistemi di riscaldamento separati o combinati sulla base dei valori misurati dai contatori e ripartisce i costi nel modo più equo possibile.
 
-A tale scopo, per calore, freddo e acqua calda sanitaria vengono applicate procedure speciali per compensare disparità dovute alla posizione dell'appartamento, perdite nelle condutture o altre differenze tra gli utenti.
+A tale scopo, per calore, freddo e acqua calda sanitaria vengono applicate procedure speciali per compensare le disparità dovute alla posizione degli appartamenti, le perdite nelle condotte o altre differenze tra gli utenti.
 
 Esistono le seguenti forme di ripartizione dei costi:
 
@@ -68,61 +83,61 @@ Calore + freddo e acqua calda sanitaria combinati
 
 ### Quali sistemi possono essere conteggiati con smart-me VEWA?
 
-- sistemi di riscaldamento e dell'acqua separati (calore, freddo, acqua calda sanitaria, acqua fredda)
+- sistemi di riscaldamento e idrici separati (calore, freddo, acqua calda sanitaria, acqua fredda)
 
-- sistemi combinati di riscaldamento e acqua calda sanitaria (calore + acqua calda sanitaria, freddo , acqua fredda)
+- sistemi combinati di riscaldamento e acqua calda sanitaria (calore + acqua calda sanitaria, freddo, acqua fredda)
 
 - sistemi combinati di riscaldamento, acqua calda sanitaria e raffreddamento (calore + freddo + acqua calda sanitaria, acqua fredda)
 
 
-Il presupposto per un conteggio corretto di un tipo di energia è che per ogni tipo di energia siano presenti contatori di consumo nelle unità.
+Il presupposto per un conteggio corretto di un tipo di energia è che nelle unità siano presenti contatori di consumo per ciascun tipo di energia.
 
 Nota: 
 
 - I ripartitori dei costi di riscaldamento non sono supportati
 
-- In caso di conteggio con contatori della produzione totale, i costi possono essere ripartiti in percentuale sulle unità abitative.
+- In caso di addebito con contatori della produzione totale, i costi possono essere ripartiti in percentuale sulle unità abitative.
 
 
 ![VEWA - Conteggio – Figura 5](/img/konfiguration-billing-vewa-abrechnung/05.png)
 
 Locali comuni:
 
-È possibile ripartire in un secondo momento (Billing) in percentuale gruppi di contatori in cartelle sulle unità di conteggio.
+È possibile ripartire in un secondo momento (Billing) in percentuale gruppi di contatori raccolti in cartelle sulle unità di conteggio.
 
-Ciò è supportato per entrambe le varianti di sistema sopra indicate.
+Questo è supportato per entrambe le varianti di sistema sopra descritte.
 
 ### Quanti sistemi possono essere configurati in un account?
 
-È possibile conteggiare un sistema VEWA per immobile. In caso di più sistemi di riscaldamento, vengono creati più immobili nello stesso account.
+Per ogni proprietà può essere conteggiato un sistema VEWA. In presenza di più sistemi di riscaldamento, nello stesso account vengono create più proprietà.
 
-Questi possono poi essere conteggiati singolarmente con periodi di conteggio diversi.
+Queste possono poi essere conteggiate singolarmente con periodi di conteggio diversi.
 
 ### Modalità di lavoro generale con smart-me VEWA
 
-- La VEWA può essere applicata a qualsiasi immobile. Assicuratevi quindi che tutti i contatori di consumo dello stesso sistema di riscaldamento si trovino nello stesso immobile.
-    Se un sistema di riscaldamento è lo stesso per più edifici, gli edifici devono essere riuniti in uno solo.
+- La VEWA può essere applicata a qualsiasi proprietà. Assicurarsi quindi che tutti i contatori di consumo dello stesso sistema di riscaldamento si trovino nella stessa proprietà.
+    Se più edifici condividono lo stesso sistema di riscaldamento, gli edifici devono essere riuniti in uno solo.
 
-- Quando si applica la VEWA, nell'elenco degli inquilini devono essere registrati correttamente tutti i contratti di locazione e anche gli sfitti. O in smart-me Billing o nel software immobiliare esterno in caso di utilizzo di file DTA-VKA.
+- Quando si applica la VEWA, nell'elenco degli inquilini devono essere registrati correttamente tutti i contratti di locazione e anche gli sfitti. O in smart-me Billing oppure nel software immobiliare esterno, se si utilizzano file DTA-VKA.
 
 
 ## Configurare la VEWA
 
-1.  ### Attivare la VEWA e configurare le ripartizioni dei costi.
+### 1. Attivare la VEWA e configurare le ripartizioni dei costi.
 
 
-Selezionare il sistema di riscaldamento:
+Selezionare il sistema termico:
 
-- Calore, freddo e acqua calda sanitaria combinati (Wärme, Kälte und Warmwasser kombiniert)
+- Calore, freddo e acqua calda sanitaria combinati
 
-- Calore, acqua calda sanitaria combinati (Wärme, Warmwasser kombiniert)
+- Calore e acqua calda sanitaria combinati
 
-- Sistemi separati (Separierte Systeme)
+- Sistemi separati
 
 
-La scelta tra combinato o meno dipende dalla produzione di calore. Se ad esempio si utilizza una pompa di calore per il riscaldamento, il raffreddamento e la produzione di acqua calda sanitaria, è indicato il conteggio combinato, poiché per tutte e tre le energie la grandezza di spesa è la stessa, ovvero l'elettricità.
+La scelta tra sistema combinato o meno dipende dalla produzione di calore. Se, ad esempio, si utilizza una pompa di calore per il riscaldamento, il raffreddamento e la produzione di acqua calda sanitaria, è indicato l'addebito combinato, poiché per tutte e tre le energie la grandezza di dispendio è la stessa, ovvero l'elettricità.
 
-Se invece il riscaldamento è garantito da un riscaldamento a olio, ma l'acqua calda sanitaria è prodotta in modo puramente elettrico senza il supporto del riscaldamento a olio, la scelta ricade sui conteggi non combinati.
+Se invece il riscaldamento è garantito da un riscaldamento a olio, mentre l'acqua calda sanitaria è prodotta in modo puramente elettrico senza il supporto del riscaldamento a olio, la scelta ricade su addebiti non combinati.
 
 Ripartizione dei costi
 
@@ -130,48 +145,48 @@ La ripartizione dei costi suddivide i costi totali in costi fissi (costi di base
 
 Costi di base
 
-I costi di base tengono conto di eventuali perdite nelle condutture, perdite di circolazione, posizione privilegiata di un appartamento con più sole ecc. e ripartiscono una quota dei costi su tutti gli inquilini e sulla loro quota di superficie rispetto all'intero immobile.
+I costi di base tengono conto di eventuali perdite nelle condotte, perdite di circolazione, posizione privilegiata di un appartamento con maggiore soleggiamento ecc. e ripartiscono una quota dei costi su tutti gli inquilini in base alla loro quota di superficie rispetto all'intera proprietà.
 
 Costi variabili
 
-I costi variabili vengono applicati direttamente alle quantità di energia consumate rilevate. Corrispondono al consumo individuale di ogni inquilino.
+I costi variabili vengono applicati direttamente alle quantità di energia consumate registrate. Corrispondono al consumo individuale di ciascun inquilino.
 
 Produzione di acqua calda sanitaria
 
-Affinché l'energia confluita nella produzione di acqua calda sanitaria possa essere stimata sulla base dei valori in m3, viene applicata la seguente formula standard:
+Affinché l'energia impiegata per la produzione di acqua calda sanitaria possa essere stimata sulla base dei valori in m3, viene applicata la seguente formula standard:
 
 Energia acqua calda sanitaria in kWh =
 Totale valori di consumo acqua calda sanitaria \[m3\] \* 1.163 \* differenza di temperatura \[K\] \* 1,25
 
-La differenza di temperatura può essere selezionata e si riferisce alla differenza di temperatura dell'acqua fredda dall'ingresso nell'edificio (di solito +10°C) fino al riscaldamento alla temperatura media del boiler (di solito +52°C).
+La differenza di temperatura può essere scelta e si riferisce alla differenza tra la temperatura dell'acqua fredda all'ingresso nell'edificio (solitamente +10°C) e la temperatura media del boiler a cui viene riscaldata (solitamente +52°C).
 
-Secondo questo esempio, la differenza è quindi pari a: 
+Secondo questo esempio, la differenza è quindi: 
 
-Differenza di temperatura = temperatura target - temperatura di ingresso = 52°C - 10°C = 42 K
+Differenza di temperatura = temperatura obiettivo - temperatura d'ingresso = 52°C - 10°C = 42 K
 
 ![VEWA - Conteggio – Figura 6](/img/konfiguration-billing-vewa-abrechnung/06.png)
 
-Valori indicativi per la configurazione dei costi di base e dei costi variabili:
+Valori indicativi per la configurazione di costi di base e costi variabili:
 
 Nuove costruzioni (tutto dal 2018): 
 
 - Costi di base 30%, costi variabili 70%
 
 
-Vecchi edifici risanati (isolamento migliorato secondo lo standard delle nuove costruzioni):
+Edifici esistenti risanati (isolamento migliorato secondo lo standard delle nuove costruzioni):
 
 - Costi di base 40%, costi variabili 60%
 
 
-Vecchi edifici non risanati (prima del 2018):
+Edifici esistenti non risanati (prima del 2018):
 
 - Costi di base dal 40%\-50%, costi variabili dal 50-60%
 
-- Inoltre, per ogni appartamento deve essere calcolata una compensazione per la posizione. O si riduce il valore misurato dal contatore dell'appartamento oppure si ponderano le percentuali di ripartizione del contatore totale. 
+- Inoltre, per ogni appartamento deve essere calcolata una compensazione della posizione. O si riduce il valore misurato dal contatore dell'appartamento oppure si ponderano le percentuali di ripartizione del contatore totale. 
     (Dettagli nel capitolo 10 del documento VEWA nella letteratura di approfondimento)
 
 
-Qui è possibile influenzare i valori misurati dai contatori degli appartamenti per effettuare l'adeguamento in base alla posizione: [Configurazione contatori/cartelle](/konfiguration/ordnerkonfiguration)  
+Qui è possibile influenzare i valori misurati dei contatori degli appartamenti per effettuare l'adeguamento della posizione: [Configurazione contatori/cartelle](/konfiguration/ordnerkonfiguration)  
 
 - Se un contatore deve ridurre il proprio valore misurato del 20%: 
     la correzione del valore (Wertkorrektur) viene impostata dal 100% all'80%.
@@ -179,8 +194,8 @@ Qui è possibile influenzare i valori misurati dai contatori degli appartamenti 
 
 ### 2\. Registrare un periodo di conteggio
 
-I costi possono essere registrati come costi totali per tipo di energia.
-Nei sistemi combinati, i singoli costi dei singoli vettori energetici vengono sommati.
+I costi possono essere registrati come costi totali per ciascun tipo di energia.
+Nei sistemi combinati, i costi dei singoli vettori energetici vengono sommati.
 
 ![VEWA - Conteggio – Figura 7](/img/konfiguration-billing-vewa-abrechnung/07.png)
 
@@ -189,11 +204,11 @@ Nei sistemi combinati, i singoli costi dei singoli vettori energetici vengono so
 <div className="row">
 <div className="col col--4">
 
-1.  Creazione del periodo di conteggio
+1.  Creare il periodo di conteggio
 
 2.  Attivare o disattivare il contenuto
 
-Se l'elettricità e le spese di riscaldamento e accessorie vengono conteggiate a intervalli diversi, si registrano più periodi.
+Se l'elettricità e i costi di riscaldamento e accessori vengono conteggiati a intervalli diversi, si registrano più periodi.
 
 ad es.:
 
@@ -205,7 +220,7 @@ ad es.:
 
 - Periodo elettricità Q4 2024 (solo elettricità e altro)
 
-- Periodo calore acqua 2024 (solo calore, freddo, acqua calda sanitaria e acqua fredda)
+- Periodo calore e acqua 2024 (solo calore, freddo, acqua calda sanitaria e acqua fredda)
 
 </div>
 <div className="col col--8 text--center">
@@ -218,9 +233,9 @@ ad es.:
 ### 4\. Registrare i costi del periodo di conteggio
 
 Nota per l'esportazione in software immobiliari con file DTA-VHKA:
-Se desiderate utilizzare la VEWA, ma esportate i dati in un altro sistema in permille o in valori di consumo, non è necessario registrare i costi. Il periodo di fatturazione deve però essere creato in precedenza.
+Se si desidera utilizzare la VEWA ma esportare i dati in un altro sistema in millesimi o valori di consumo, non è necessario registrare costi. Il periodo di fatturazione deve tuttavia essere creato in precedenza.
 
-I costi che possono essere registrati si suddividono grosso modo nei seguenti costi:
+I costi che possono essere registrati si suddividono a grandi linee nei seguenti:
 
 Costi energetici
 
@@ -233,24 +248,24 @@ Costi per il vettore energetico acquistato, ad es.:
 - 10 m3 di acqua fredda per 50 CHF
 
 
-Spese accessorie energetiche
+Costi accessori dell'energia
 
 Costi di esercizio e manutenzione
 
 - Costi della revisione periodica dell'impianto di riscaldamento
 
-- Costi per il servizio di lettura (ad es. ammortamento dei costi di licenza di smart-me per i dispositivi)
+- Costi per il servizio di lettura (ad es. ammortamento dei costi di licenza smart-me per gli apparecchi)
 
-- Lavori amministrativi in relazione all'impianto di riscaldamento
+- Lavori amministrativi relativi all'impianto di riscaldamento
 
 - Costi dello spazzacamino
 
-- Smaltimento dei rifiuti, se il sistema di riscaldamento comporta tali costi.
+- Smaltimento dei rifiuti, se il sistema di riscaldamento genera tali costi.
 
 
-Cosa non rientra nelle spese accessorie energetiche
+Cosa non rientra nei costi accessori dell'energia
 
-- Infrastruttura di misura (questa viene regolata tramite un aumento della pigione)
+- Infrastruttura di misura (viene regolata tramite un aumento della pigione)
 
 
 Nota sui costi dell'acqua calda sanitaria:
@@ -259,32 +274,32 @@ I costi per l'acqua calda sanitaria comprendono solo i costi per il riscaldament
 
 - Se un contatore totale dell'acqua fredda viene ripartito in percentuale su più appartamenti, l'intera quantità di acqua fredda viene calcolata da questo contatore comune.
 
-- Se negli appartamenti si trovano contatori dell'acqua fredda e dell'acqua calda sanitaria e questi vengono applicati con il 100% del consumo, la somma per l'acqua fredda è la somma di tutti i contatori dell'acqua calda sanitaria e dell'acqua fredda.
+- Se negli appartamenti si trovano contatori dell'acqua fredda e calda sanitaria applicati con il 100% del consumo, la somma per l'acqua fredda è la somma di tutti i contatori dell'acqua calda sanitaria e dell'acqua fredda.
 
 
-Questi possono essere inseriti per tipo di energia e vengono sommati.
+Questi possono essere inseriti per ciascun tipo di energia e vengono sommati.
 
 ![VEWA - Conteggio – Figura 9](/img/konfiguration-billing-vewa-abrechnung/09.png)
 
 ### 5\. Addebitare il noleggio dei contatori
 
-A differenza del RCP (raggruppamento ai fini del consumo proprio), nella VEWA i costi per l'ammortamento dei contatori di calore e dei contatori dell'acqua possono essere addebitati ai consumatori.
+A differenza del RCP (raggruppamento ai fini del consumo proprio), nella VEWA è consentito addebitare ai consumatori i costi per l'ammortamento dei contatori di calore e dei contatori dell'acqua.
 
-Ciò deve però avvenire tramite l'aumento delle pigioni, non tramite le spese accessorie.
+Questo deve però avvenire tramite l'aumento delle pigioni, non tramite le spese accessorie.
 
-Possono essere riversati i costi dell'hardware e dell'installazione di un contatore.
+È consentito trasferire i costi dell'hardware e dell'installazione di un contatore.
 
 Si applica un periodo di ammortamento di 10 anni.
 
-Le regole di riversamento sono descritte nell'art. 269d CO e negli art. 19 e 20 OLAL
+Le regole di trasferimento sono descritte nell'art. 269d CO e negli artt. 19 e 20 OLAL
 
 Dettagli sul calcolo nel documento ufficiale VEWA al punto 2.2 FORMELLE ÜBERWÄLZUNGSREGELN 
 
-### 6\. Registrare una tariffa sempre valida per ogni vettore energetico
+### 6\. Registrare una tariffa sempre valida per ciascun vettore energetico
 
 - Questa tariffa viene inserita senza prezzo (0) con una validità illimitata (2099).
 
-- Ogni vettore energetico con una tariffa valida viene rappresentato sulla fattura.
+- Ogni vettore energetico con una tariffa valida viene riportato sulla fattura.
 
 
 
@@ -295,7 +310,7 @@ Dettagli sul calcolo nel documento ufficiale VEWA al punto 2.2 FORMELLE ÜBERWÄ
 
 Per il calcolo VEWA e la ripartizione dei costi di base devono essere note le superfici degli appartamenti. Queste possono essere definite nella rispettiva unità di conteggio. Vengono poi sommate per ottenere la superficie totale rilevante.
 
-Nota: per rendicontare correttamente la superficie totale rilevante, tutti i locali devono essere registrati come unità di conteggio, anche se non hanno contatori associati e vengono gestiti esternamente in modo forfettario.
+Nota: per riportare correttamente la superficie totale rilevante, tutti i locali devono essere registrati come unità di conteggio, anche se a essi non fossero associati contatori e vengano gestiti esternamente in modo forfettario.
 Sono possibili solo numeri interi.
 
 ![VEWA - Conteggio – Figura 11](/img/konfiguration-billing-vewa-abrechnung/11.png)
@@ -310,22 +325,22 @@ La panoramica contiene tutti i costi a colpo d'occhio, comprese eventuali impost
 
 ### Calore
 
-La sezione calore mostra i costi totali per il centro di costo calore e le chiavi di ripartizione e grandezze di riferimento applicate.
+La sezione Calore mostra i costi totali per il centro di costo Calore e le chiavi di ripartizione e grandezze di riferimento applicate.
 
-- Quota costi di base in % (qui 30%)
+- Quota dei costi di base in % (qui 30%)
 
-- Quota costi di consumo in % (qui 70%)
+- Quota dei costi di consumo in % (qui 70%)
 
-- Consumo totale dell'immobile in kWh (qui 700 kWh)
+- Consumo totale della proprietà in kWh (qui 700 kWh)
 
-- Superficie abitativa totale in m2 dell'immobile (qui 300 m2)
+- Superficie abitativa totale della proprietà in m2 (qui 300 m2)
 
 
 Le tariffe calcolate vengono poi applicate al rispettivo appartamento (blocco blu) sulla base dei valori misurati dai contatori dell'appartamento.
 
 - Superficie abitativa dell'appartamento in m2 (qui 100 m2)
 
-- Giorni di occupazione (qui 91 su 91, occupazione al 100%)
+- Giorni di occupazione (qui 91 su 91, occupazione 100%)
 
 - Valore misurato dal contatore del rispettivo appartamento (qui 500kWh)
 
@@ -338,25 +353,25 @@ Le tariffe calcolate vengono poi applicate al rispettivo appartamento (blocco bl
 
 ### Acqua calda sanitaria
 
-La sezione acqua calda sanitaria mostra i costi totali per il centro di costo acqua calda sanitaria e le chiavi di ripartizione e grandezze di riferimento applicate.
+La sezione Acqua calda sanitaria mostra i costi totali per il centro di costo Acqua calda sanitaria e le chiavi di ripartizione e grandezze di riferimento applicate.
 
-- Quota costi di base in % (qui 30%)
+- Quota dei costi di base in % (qui 30%)
 
-- Quota costi di consumo in % (qui 70%)
+- Quota dei costi di consumo in % (qui 70%)
 
-- Consumo totale dell'immobile in m3 (qui 5 m2)
+- Consumo totale della proprietà in m3 (qui 5 m2)
 
-- Superficie abitativa totale in m2 dell'immobile (qui 300 m2) 
+- Superficie abitativa totale della proprietà in m2 (qui 300 m2) 
 
 
-Questi costi sono costituiti esclusivamente dai costi necessari per la produzione di acqua calda sanitaria, ma non dall'acqua fredda impiegata a tale scopo.
+Questi costi comprendono esclusivamente i costi necessari per la produzione di acqua calda sanitaria, ma non l'acqua fredda impiegata a tale scopo.
 Maggiori informazioni sui costi nella sezione Panoramica dei centri di costo.
 
 Le tariffe calcolate vengono poi applicate al rispettivo appartamento (blocco blu) sulla base dei valori misurati dai contatori dell'appartamento.
 
 - Superficie abitativa dell'appartamento in m2 (qui 100 m2)
 
-- Giorni di occupazione (qui 91 su 91, occupazione al 100%)
+- Giorni di occupazione (qui 91 su 91, occupazione 100%)
 
 - Valore misurato dal contatore del rispettivo appartamento in m3 (qui 3 m3)
 
@@ -365,37 +380,37 @@ Le tariffe calcolate vengono poi applicate al rispettivo appartamento (blocco bl
 
 ### Acqua fredda
 
-La sezione acqua fredda mostra i costi totali per il centro di costo acqua fredda e le chiavi di ripartizione e grandezze di riferimento applicate.
+La sezione Acqua fredda mostra i costi totali per il centro di costo Acqua fredda e le chiavi di ripartizione e grandezze di riferimento applicate.
 
-- Quota costi di base in % (qui 20%)
+- Quota dei costi di base in % (qui 20%)
 
-- Quota costi di consumo in % (qui 70%)
+- Quota dei costi di consumo in % (qui 70%)
 
-- Consumo totale dell'immobile in m3 (qui 13 m2)
+- Consumo totale della proprietà in m3 (qui 13 m2)
 
-- Superficie abitativa totale in m2 dell'immobile (qui 300 m2) 
+- Superficie abitativa totale della proprietà in m2 (qui 300 m2) 
 
 
 Le tariffe calcolate vengono poi applicate al rispettivo appartamento (blocco blu) sulla base dei valori misurati dai contatori dell'appartamento.
 
 - Superficie abitativa dell'appartamento in m2 (qui 100 m2)
 
-- Giorni di occupazione (qui 91 su 91, occupazione al 100%)
+- Giorni di occupazione (qui 91 su 91, occupazione 100%)
 
-- Valore misurato dal contatore del rispettivo appartamento in m3 acqua calda sanitaria
+- Valore misurato dal contatore del rispettivo appartamento in m3 di acqua calda sanitaria
     (qui 3 m3)
 
-- Valore misurato dal contatore del rispettivo appartamento in m3 acqua fredda
+- Valore misurato dal contatore del rispettivo appartamento in m3 di acqua fredda
     (qui 5 m3)
 
 
 Nota:
 
-A seconda del sistema, qui possono figurare solo contatori dell'acqua fredda oppure contatori misti dell'acqua fredda e dell'acqua calda sanitaria; il rilevamento di questi sistemi è automatizzato.
+A seconda del sistema, qui possono figurare solo contatori dell'acqua fredda oppure contatori misti dell'acqua fredda e calda sanitaria; il rilevamento di questi sistemi è automatico.
 
-- Se esiste un contatore principale per l'acqua fredda e nessuno negli appartamenti, oppure solo contatori dell'acqua calda sanitaria negli appartamenti, qui figurerebbe solo un contatore dell'acqua fredda con quota percentuale.
+- Se esiste un contatore principale dell'acqua fredda e nessuno negli appartamenti, oppure negli appartamenti ci sono solo contatori dell'acqua calda sanitaria, qui figurerebbe solo un contatore dell'acqua fredda con quota percentuale.
 
-- Se esistono contatori degli appartamenti per l'acqua calda sanitaria e l'acqua fredda, qui figurano sempre entrambi i contatori per appartamento; la somma dà il consumo totale di acqua.
+- Se esistono contatori degli appartamenti per l'acqua calda sanitaria e fredda, qui figurano sempre entrambi i contatori per appartamento; la somma dà il consumo totale di acqua.
 
 
 ![VEWA - Conteggio – Figura 15](/img/konfiguration-billing-vewa-abrechnung/15.png)
@@ -404,20 +419,20 @@ A seconda del sistema, qui possono figurare solo contatori dell'acqua fredda opp
 
 Centri di costo separati
 
-Ogni fattura dispone della panoramica dei centri di costo. Questa contiene tutte le voci di costo inserite relative ai singoli centri di costo.
+Ogni fattura dispone della panoramica dei centri di costo. Questa contiene tutte le voci di costo registrate per i singoli centri di costo.
 
 - Per il calore sono elencati tutti i costi relativi al sistema di riscaldamento.
 
 - Per l'acqua calda sanitaria figurano solo i costi relativi al riscaldamento dell'acqua calda sanitaria, ma non la quantità di acqua fredda utilizzata.
 
-- Per l'acqua fredda vengono inseriti tutti i costi relativi all'acqua fredda e alle acque di scarico.
+- Per l'acqua fredda vengono registrati tutti i costi relativi all'acqua fredda e alle acque di scarico.
 
 
 Centri di costo combinati
 
 La panoramica dei centri di costo può cambiare visivamente quando i sistemi vengono combinati.
 
-È comune ad es. la combinazione di calore e acqua calda sanitaria, poiché una parte dell'energia per la produzione di acqua calda sanitaria proviene dal sistema di riscaldamento. (Accumulatore di acqua calda sanitaria accoppiato al riscaldamento)
+È comune, ad esempio, la combinazione di calore e acqua calda sanitaria, poiché una parte dell'energia per la produzione di acqua calda sanitaria proviene dal sistema di riscaldamento. (Accumulatore di acqua calda sanitaria accoppiato al riscaldamento)
 
 In questo caso i costi vengono mostrati in forma combinata.
 
@@ -438,10 +453,10 @@ Panoramica dei centri di costo combinati calore + acqua calda sanitaria
 
 ## Gestione degli errori VEWA e Billing
 
-[Problemi in relazione alla VEWA](/stoerungsbehebung/billing-fehlermeldungen)
+[Anomalie relative alla VEWA](/stoerungsbehebung/billing-fehlermeldungen)
 
 ## Letteratura e documenti di approfondimento sulla VEWA (situazione giuridica attuale)
 
-[Dettagli e guida sul modello di conteggio VEWA](https://www.admin.ch/gov/de/start/dokumentation/medienmitteilungen.msg-id-67271.html)
+[Modello di conteggio VEWA: dettagli e guida](https://www.admin.ch/gov/de/start/dokumentation/medienmitteilungen.msg-id-67271.html)
 
 [Vai all'interfaccia VHKA](/schnittstellen/dta-vhka-files)

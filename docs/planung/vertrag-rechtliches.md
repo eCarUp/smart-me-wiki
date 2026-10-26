@@ -4,7 +4,6 @@ slug: '/planung/vertrag-rechtliches'
 description: 'Vertragliche Grundlage für ein ZEV (Schweiz)'
 sidebar_label: 'Vertrag / Rechtliches'
 ---
-[Englisch](/planung/vertrag-rechtliches)
 
 ## Vertragliche Grundlage für ein ZEV (Schweiz)
 

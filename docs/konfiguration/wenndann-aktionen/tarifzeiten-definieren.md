@@ -9,14 +9,22 @@ naechste_schritte: [konfiguration/billing/stromtarife-definieren/index]
 
 ## Aufbau der Wenn Aktion für virtuelle Tarife
 
+<div className="row">
+<div className="col col--6">
+
 Du kannst mit einer zusätzlichen Bedingung definieren, ab wann dieser Tarif gültig sein soll. Dies kann eine Zeitspanne sein (z. B. für Hoch- / Niedertarif) oder auch eine beliebige Andere. Die Bedingung muss vorher als [Wenn/Dann-Aktion](/konfiguration/wenndann-aktionen) definiert worden sein. Die gängigsten Beispiele sind unten beschrieben.
 
 Hinweise:
 
 - Wenn du alle Tarife definiert hast, musst du zwingend auf Neu rechnen klicken. Somit werden alle virtuellen Tarife korrekt berechnet. Dieser Vorgang kann einige Stunden dauern.
 
+</div>
+<div className="col col--6">
 
 <Video src="0LTDpKKA3-k" title="YouTube Video, Solar im Hoch- und Niedertarif abrechnen" />
+
+</div>
+</div>
 
 ### Wenn / Dann Oberfläche
 
@@ -26,13 +34,19 @@ Hinweise:
 
 Schau auf dem Tarifblatt die jeweiligen Zeiten für den Hochtarif an. In unserem Beispiel ist die Situation folgende:
 
-HT Zeit:
+<div className="row">
+<div className="col col--6">
+
+**HT Zeit:**
 
 Mo- Fr: 7:00 bis 22:00 Uhr
-Sa: 7:00 bis 13:00 Uhr£
 
+Sa: 7:00 bis 13:00 Uhr
 
-NT Zeit:
+</div>
+<div className="col col--6">
+
+**NT Zeit:**
 
 Mo-Fr: 22:00 bis 7:00 Uhr
 
@@ -40,7 +54,13 @@ Sa: 13:00 bis 00:00
 
 So : Ganzer Tag
 
+</div>
+</div>
+
 ### HT Zeit erstellen
+
+<div className="row">
+<div className="col col--6">
 
 Klicke auf das "+" um ein neues Timing zu erstellen.
 
@@ -52,124 +72,171 @@ Wenn eine der WENN Bedingungen zutrifft ist es HT Zeit.
 
 Klicke bei WENN Ereignisse auf das "+" um die HT Zeit Mo-Fr zu erstellen.
 
+</div>
+<div className="col col--6 bild--mitte">
+
 ![Tarifzeiten definieren – Abbildung 3](/img/konfiguration-wenndann-aktionen-tarifzeiten-definieren/03.png)
 
+</div>
+</div>
+
+#### HT Zeit Mo-Fr
+
+![Datum & Uhrzeit](/img/konfiguration-wenndann-aktionen-tarifzeiten-definieren/04.png)
+
+<div className="row">
+<div className="col col--6">
+
 Wähle Datum & Uhrzeit
-
-
-
-![Tarifzeiten definieren – Abbildung 4](/img/konfiguration-wenndann-aktionen-tarifzeiten-definieren/04.png)
 
 Definiere die Zeiten für Mo-Fr
 
 7:00 bis 22:00
 
-
-
 und speichere die Einstellung.
+
+</div>
+<div className="col col--6 bild--mitte">
 
 ![Tarifzeiten definieren – Abbildung 5](/img/konfiguration-wenndann-aktionen-tarifzeiten-definieren/05.png)
 
+</div>
+</div>
+
+#### HT Zeit Samstag
+
+![Datum & Uhrzeit](/img/konfiguration-wenndann-aktionen-tarifzeiten-definieren/04.png)
+
+<div className="row">
+<div className="col col--6">
+
 Klicke unter den WENN Ereignissen wieder auf "+" um den Samstag zu definieren.
 
-![Tarifzeiten definieren – Abbildung 6](/img/konfiguration-wenndann-aktionen-tarifzeiten-definieren/06.png)
-
 Wähle Datum & Uhrzeit
-
-![Tarifzeiten definieren – Abbildung 7](/img/konfiguration-wenndann-aktionen-tarifzeiten-definieren/04.png)
 
 Definiere die Zeiten für Samstag
 
 7:00 bis 13:00
 
-
-
 und speichere die Einstellung.
-
-![Tarifzeiten definieren – Abbildung 8](/img/konfiguration-wenndann-aktionen-tarifzeiten-definieren/08.png)
 
 Die HT Zeit ist nun definiert.
 
+</div>
+<div className="col col--6 bild--mitte">
 
+![Tarifzeiten definieren – Abbildung 6](/img/konfiguration-wenndann-aktionen-tarifzeiten-definieren/06.png)
 
-Weiter gehts mit der NT Zeit
+![Tarifzeiten definieren – Abbildung 8](/img/konfiguration-wenndann-aktionen-tarifzeiten-definieren/08.png)
 
 ![Tarifzeiten definieren – Abbildung 9](/img/konfiguration-wenndann-aktionen-tarifzeiten-definieren/09.png)
+
+</div>
+</div>
 
 ### NT Zeit erstellen
 
 <div className="row">
-<div className="col col--5">
+<div className="col col--6">
 
 Klicke auf das "+" um ein neues Timing zu erstellen.
 
 Klicke auf "+" um eine weitere Aktion zu erfassen für die NT Zeit
 
 </div>
-<div className="col col--7 text--center">
+<div className="col col--6 bild--mitte">
 
 ![Tarifzeiten definieren – Abbildung 10](/img/konfiguration-wenndann-aktionen-tarifzeiten-definieren/10.png)
 
-</div>
-</div>
-
 ![Tarifzeiten definieren – Abbildung 11](/img/konfiguration-wenndann-aktionen-tarifzeiten-definieren/11.png)
 
-Wähle Datum & Uhrzeit
+</div>
+</div>
 
-![Tarifzeiten definieren – Abbildung 12](/img/konfiguration-wenndann-aktionen-tarifzeiten-definieren/04.png)
+#### NT Zeit Mo-Fr
+
+![Datum & Uhrzeit](/img/konfiguration-wenndann-aktionen-tarifzeiten-definieren/04.png)
+
+<div className="row">
+<div className="col col--6">
+
+Wähle Datum & Uhrzeit
 
 Definiere die NT Zeit für Mo-Fr
 
 Sie entspricht in diesem Fall der Zweit von 22:00 bis 7:00
 
-
-
 Speichere die Einstellung.
+
+</div>
+<div className="col col--6 bild--mitte">
 
 ![Tarifzeiten definieren – Abbildung 13](/img/konfiguration-wenndann-aktionen-tarifzeiten-definieren/13.png)
 
+</div>
+</div>
+
+#### NT Zeit Samstag
+
+![Datum & Uhrzeit](/img/konfiguration-wenndann-aktionen-tarifzeiten-definieren/04.png)
+
+<div className="row">
+<div className="col col--6">
+
 Klicke auf "+" um den Samstag zu definieren
 
-![Tarifzeiten definieren – Abbildung 14](/img/konfiguration-wenndann-aktionen-tarifzeiten-definieren/14.png)
-
 Wähle Datum & Uhrzeit
-
-![Tarifzeiten definieren – Abbildung 15](/img/konfiguration-wenndann-aktionen-tarifzeiten-definieren/04.png)
 
 Der Samstag definiert sich folgender massen:
 
 13:00 bis 00:00 des Tages
 
-
-
 Speichere die Einstellung.
+
+</div>
+<div className="col col--6 bild--mitte">
+
+![Tarifzeiten definieren – Abbildung 14](/img/konfiguration-wenndann-aktionen-tarifzeiten-definieren/14.png)
 
 ![Tarifzeiten definieren – Abbildung 16](/img/konfiguration-wenndann-aktionen-tarifzeiten-definieren/16.png)
 
-Klicke auf "+" um den noch fehlenden Sonnatg zu definieren
+</div>
+</div>
 
-![Tarifzeiten definieren – Abbildung 17](/img/konfiguration-wenndann-aktionen-tarifzeiten-definieren/17.png)
+#### NT Zeit Sonntag
+
+![Datum & Uhrzeit](/img/konfiguration-wenndann-aktionen-tarifzeiten-definieren/04.png)
+
+<div className="row">
+<div className="col col--6">
+
+Klicke auf "+" um den noch fehlenden Sonnatg zu definieren
 
 Wähle Datum & Uhrzeit
 
-![Tarifzeiten definieren – Abbildung 18](/img/konfiguration-wenndann-aktionen-tarifzeiten-definieren/04.png)
-
 Für einen ganztägigen Niedertarif am Sonntag, wird für den Sonntag 00:00 bis 00:00 eingetragen.
-
-
 
 Speichere die Einstellung
 
+</div>
+<div className="col col--6 bild--mitte">
+
+![Tarifzeiten definieren – Abbildung 17](/img/konfiguration-wenndann-aktionen-tarifzeiten-definieren/17.png)
+
 ![Tarifzeiten definieren – Abbildung 19](/img/konfiguration-wenndann-aktionen-tarifzeiten-definieren/19.png)
 
+</div>
+</div>
+
+### Timings den Tarifen zuweisen
+
 <div className="row">
-<div className="col col--4">
+<div className="col col--6">
 
 Jetzt wo du die relevanten Tarifzeiten definiert hast, kehre zurück zu der Tarifdefinition um den Tarifen die Timings zuzuweisen.
 
 </div>
-<div className="col col--8 text--center">
+<div className="col col--6 bild--mitte">
 
 ![Tarifzeiten definieren – Abbildung 20](/img/konfiguration-wenndann-aktionen-tarifzeiten-definieren/20.png)
 
@@ -178,7 +245,10 @@ Jetzt wo du die relevanten Tarifzeiten definiert hast, kehre zurück zu der Tari
 
 ## Andere Beispiele
 
-Aufbau: Hoch- und Niedertarif für Netzstrom und Einheitstarif bei Solarstrom
+Je nach Tarifmodell deines Energieversorgers sieht die Wenn-Aktion anders aus. Klapp den Aufbau auf, der zu deinem Fall passt.
+
+<details id="hoch-und-niedertarif-netzstrom-einheitstarif-solar">
+<summary>Hoch- und Niedertarif für Netzstrom und Einheitstarif bei Solarstrom</summary>
 
 - Solarstrom Einheitstarif: Solartarif definieren ohne Wenn Aktion
 
@@ -191,7 +261,10 @@ Aufbau: Hoch- und Niedertarif für Netzstrom und Einheitstarif bei Solarstrom
 
 Logik: Zuerst wird der verfügbare Solarstrom verteilt. Wenn zu wenig oder keiner verfügbar ist, wird der normale Tarif verwendet, der eine Bedingung erfüllt. Zum Schluss wird der Tarif ohne Bedingung für den restlichen Strom versendet.
 
-Aufbau: Hoch- und Niedertarif für Netz- und Solarstrom
+</details>
+
+<details id="hoch-und-niedertarif-netz-und-solarstrom">
+<summary>Hoch- und Niedertarif für Netz- und Solarstrom</summary>
 
 - Solarstrom Hochtarif: Solartarif definieren mit Wenn Aktion
 
@@ -212,7 +285,10 @@ Aufbau: Hoch- und Niedertarif für Netz- und Solarstrom
 
 Logik: Zuerst wird der verfügbare Solarstrom mit der gültigen Bedingung verwendet. Wenn zu wenig oder keiner verfügbar ist, wird der Normale Tarif mit der gültigen Bedingung verwendet. Es ist wichtig, dass in diesem Anwendungsfall 24h/Tag mit einer Wenn Bedingung abgedeckt ist.
 
-Aufbau: Sommer und Winter mit Hoch- und Niedertarif für Netzstrom und Einheitstarif bei Solarstrom
+</details>
+
+<details id="sommer-winter-netzstrom-einheitstarif-solar">
+<summary>Sommer und Winter mit Hoch- und Niedertarif für Netzstrom und Einheitstarif bei Solarstrom</summary>
 
 - Solarstrom Hochtarif: Solartarif definieren ohne Wenn Aktion
 
@@ -235,7 +311,10 @@ Aufbau: Sommer und Winter mit Hoch- und Niedertarif für Netzstrom und Einheitst
 
 Logik: Zuerst wird der verfügbare Solarstrom verwendet. Wenn zu wenig oder keiner verfügbar ist, wird der Normale Tarif mit der gültigen Bedingung verwendet. Es ist wichtig, dass in diesem Anwendungsfall 24h/Tag mit einer Wenn Bedingung abgedeckt ist.
 
-Aufbau: Sommer und Winter mit Hoch- und Niedertarif für Netzstrom und Einheitstarif bei Solarstrom und Niedertarif über den Mittag nur im Winter (z.B. EWS/EBS)
+</details>
+
+<details id="sommer-winter-mit-mittagsniedertarif-im-winter">
+<summary>Sommer und Winter mit Hoch- und Niedertarif für Netzstrom und Einheitstarif bei Solarstrom und Niedertarif über den Mittag nur im Winter (z.B. EWS/EBS)</summary>
 
 Beispiel
 
@@ -286,7 +365,10 @@ Beispiel
 
 Logik: Zuerst wird der verfügbare Solarstrom verwendet. Wenn zu wenig oder keiner verfügbar ist, wird der Normale Tarif mit der gültigen Bedingung verwendet. Es ist wichtig, dass in diesem Anwendungsfall 24h/Tag mit einer Wenn Bedingung abgedeckt ist.
 
-Aufbau: Sommer und Winter mit Hoch- und Niedertarif für Netzstrom und Solarstrom, Tagsüber Niedertarif im Sommer und Hochtarif im Winter(z.B. Energie Uri ab 1.10.2025)
+</details>
+
+<details id="sommer-winter-tagsueber-wechselnd-energie-uri">
+<summary>Sommer und Winter mit Hoch- und Niedertarif für Netzstrom und Solarstrom, Tagsüber Niedertarif im Sommer und Hochtarif im Winter(z.B. Energie Uri ab 1.10.2025)</summary>
 
 Beschreibung: Hier muss in zwei Schritten gearbeitet werden. 1x Wenn Dann und 1x mit den Zeiten in den Virtuellen Tarifen
 
@@ -420,3 +502,5 @@ Die Perioden bzw. Dauer müssen in diesem Fall hinterlegt werden. Bei diesen Tar
 <Embed src="https://drive.google.com/file/d/1qFuisQkiLisSbWTh8Avhrf7gIXOfxjjn/preview" aspect="1.350" title="Drive, Wiki Tarife Enerige Uri Tarife 2026.mp4" />
 
 Wiki Tarife Enerige Uri Tarife 2026.mp4
+
+</details>

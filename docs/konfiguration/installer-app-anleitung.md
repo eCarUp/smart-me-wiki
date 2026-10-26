@@ -33,7 +33,7 @@ Lade die neue smart-me Installer App kostenlos im App Store herunter.   
 
 ## Anleitung für Zähler 80A / CT
 
-1\. Verbinde dein Smartphone mit dem WiFi, von dem aus du die smart-me Hardware installieren möchtest.
+Verbinde dein Smartphone mit dem WiFi, von dem aus du die smart-me Hardware installieren möchtest.
 
 ### 2. Inbetriebnahme
 
@@ -91,7 +91,7 @@ Lade die neue smart-me Installer App kostenlos im App Store herunter.   
 
 ![Hardware Inbetriebnahme (Installer App) – Abbildung 17](/img/konfiguration-installer-app-anleitung/02.jpg)
 
-## 2. Anleitung für E-Ladestation Pico
+## Anleitung für E-Ladestation Pico
 
 - Verbinde dein Smartphone mit dem WiFi, von dem aus du die smart-me Hardware installieren möchtest.
 

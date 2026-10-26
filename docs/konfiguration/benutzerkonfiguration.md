@@ -69,8 +69,6 @@ Für die virtuellen Tarife ist eine spezielle Ansicht für Mieter vorhanden. Die
 
 Diese muss zusätzlich Konfiguriert werden pro Wohnungsknoten.
 
-Siehe Details zur Konfiguration: [Visualisierung und Public Links](/konfiguration/visualisierung) 
-
 Die Visualisierung heisst: "Einfache virtuelle Tarife Wohnung"
 
 ![Benutzer erstellen – Abbildung 4](/img/konfiguration-benutzerkonfiguration/04.png)

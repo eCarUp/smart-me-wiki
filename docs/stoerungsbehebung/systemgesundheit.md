@@ -4,6 +4,8 @@ slug: '/stoerungsbehebung/systemgesundheit'
 description: 'Die Systemgesundheit benötigt eine Professonal Lizenz'
 sidebar_label: 'Systemgesundheit'
 ---
+<Menueweg>System → Systemgesundheit</Menueweg>
+
 Die Systemgesundheit benötigt eine Professonal Lizenz 
 
 Anzeige:

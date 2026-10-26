@@ -35,8 +35,6 @@ Das Multilevel Lastmanagement kann als ein Baum angesehen werden, wobei es folge
 - Blätter (statische Pico Ladegruppen)
 
 
-
-
 Der Stamm sowie die Äste können mehrere Funktionen übernehmen:
 
 - Strombegrenzung (maximale Absicherung)
@@ -44,8 +42,6 @@ Der Stamm sowie die Äste können mehrere Funktionen übernehmen:
 - Solaroptimierung AN oder AUS
 
 - Nicht gemessene Lasten vorhanden (aktiv oder inaktiv)
-
-
 
 
 Nicht gemessene Lasten:
@@ -63,9 +59,18 @@ Typische Äste mit nicht gemessenen Lasten: 
 - E-Mobilitätsabgänge (Pico Standbyverbrauch und Garagenbeleuchtung)
 
 
+<div className="row">
+<div className="col col--6 bild--mitte">
+
 ![Konfiguration Multilevel Lastmanagement – Abbildung 2](/img/konfiguration-multilevel-lastmanagement-mlm-konfigurieren/02.png)
 
+</div>
+<div className="col col--6 bild--mitte">
+
 ![Konfiguration Multilevel Lastmanagement – Abbildung 3](/img/konfiguration-multilevel-lastmanagement-mlm-konfigurieren/03.png)
+
+</div>
+</div>
 
 ### Ast hinzufügen oder Löschen
 
@@ -78,9 +83,6 @@ Löschen:
 Mit der Auswahl des entsprechenden Astes und der Funktion "Löschen" werden der gewählte Ast, sowie alle daran hängenden Äste gelöscht.
 
 Damit das Nachfolgende erhalten bleibt, können die Äste und Gruppen via Drag & Drop Funktion vorgängig an einen anderen Ast oder Stamm angegliedert werden.
-
-
-
 
 
 ![Konfiguration Multilevel Lastmanagement – Abbildung 4](/img/konfiguration-multilevel-lastmanagement-mlm-konfigurieren/04.png)
@@ -251,9 +253,18 @@ Setze den Wert auf aktiv oder inaktiv und speichere danach die Konfiguration um 
 - Die Solaranlagenproduktion sowie der hauseigene Verbrauch wird mittels dem Zähler "Hausanschluss Telstar 80A" gemessen und berücksichtigt.
 
 
+<div className="row">
+<div className="col col--4 bild--mitte">
+
 ![Konfiguration Multilevel Lastmanagement – Abbildung 15](/img/konfiguration-multilevel-lastmanagement-mlm-konfigurieren/15.png)
 
+</div>
+<div className="col col--8 bild--mitte">
+
 ![Konfiguration Multilevel Lastmanagement – Abbildung 16](/img/konfiguration-multilevel-lastmanagement-mlm-konfigurieren/16.png)
+
+</div>
+</div>
 
 Der Untergeordnete Emobilitätsabgang wird hier aktiv gemessen um der Gragenbeleuchtung Rechnung zu tragen. Die Ladegruppen sollen so dynamisch auf die Garagenbeleuchtung reagieren.
 
@@ -262,9 +273,18 @@ Der Untergeordnete Emobilitätsabgang wird hier aktiv gemessen um der Gragenbele
 - Die Absicherung des Abganges entspricht 63A pro Phase.
 
 
+<div className="row">
+<div className="col col--4 bild--mitte">
+
 ![Konfiguration Multilevel Lastmanagement – Abbildung 17](/img/konfiguration-multilevel-lastmanagement-mlm-konfigurieren/17.png)
 
+</div>
+<div className="col col--8 bild--mitte">
+
 ![Konfiguration Multilevel Lastmanagement – Abbildung 18](/img/konfiguration-multilevel-lastmanagement-mlm-konfigurieren/18.png)
+
+</div>
+</div>
 
 Damit die Solaroptimierung Wirkung zeigt, wird über den Tag die Minimalstrommenge des Ladestroms reduziert.
 
@@ -282,9 +302,18 @@ Damit die Solaroptimierung Wirkung zeigt, wird über den Tag die Minimalstrommen
     (z.B. Niedertarifausschöpfung)
 
 
+<div className="row">
+<div className="col col--4 bild--mitte">
+
 ![Konfiguration Multilevel Lastmanagement – Abbildung 19](/img/konfiguration-multilevel-lastmanagement-mlm-konfigurieren/19.png)
 
+</div>
+<div className="col col--8 bild--mitte">
+
 ![Konfiguration Multilevel Lastmanagement – Abbildung 20](/img/konfiguration-multilevel-lastmanagement-mlm-konfigurieren/20.png)
+
+</div>
+</div>
 
 ## Beispiel Konfiguration: Areal mit mehreren Häusern, Solaranlagen und E-Mobilitätsabgängen
 
@@ -317,9 +346,18 @@ Damit die Solaroptimierung Wirkung zeigt, wird über den Tag die Minimalstrommen
 - Solarstromoptimierung auf den Stamm (Areal) aktiv. (Verfügbarkeit von Solarstrom für alle drei Häuser)
 
 
+<div className="row">
+<div className="col col--4 bild--mitte">
+
 ![Konfiguration Multilevel Lastmanagement – Abbildung 22](/img/konfiguration-multilevel-lastmanagement-mlm-konfigurieren/22.png)
 
+</div>
+<div className="col col--8 bild--mitte">
+
 ![Konfiguration Multilevel Lastmanagement – Abbildung 23](/img/konfiguration-multilevel-lastmanagement-mlm-konfigurieren/23.png)
+
+</div>
+</div>
 
 HAK TG1: Hausanschluss des Gebäude 1 im Areal
 
@@ -330,9 +368,18 @@ HAK TG1: Hausanschluss des Gebäude 1 im Areal
 - Dynamische Berücksichtuigung der Wohnungen und Wärmepumpen
 
 
+<div className="row">
+<div className="col col--4 bild--mitte">
+
 ![Konfiguration Multilevel Lastmanagement – Abbildung 24](/img/konfiguration-multilevel-lastmanagement-mlm-konfigurieren/24.png)
 
+</div>
+<div className="col col--8 bild--mitte">
+
 ![Konfiguration Multilevel Lastmanagement – Abbildung 25](/img/konfiguration-multilevel-lastmanagement-mlm-konfigurieren/25.png)
+
+</div>
+</div>
 
 TG1 E-Mobilitätsabgang
 
@@ -344,9 +391,18 @@ TG1 E-Mobilitätsabgang
 - Dynamische Berücksichtigung der Garagenbeleuchtung und Lüftung
 
 
+<div className="row">
+<div className="col col--4 bild--mitte">
+
 ![Konfiguration Multilevel Lastmanagement – Abbildung 26](/img/konfiguration-multilevel-lastmanagement-mlm-konfigurieren/26.png)
 
+</div>
+<div className="col col--8 bild--mitte">
+
 ![Konfiguration Multilevel Lastmanagement – Abbildung 27](/img/konfiguration-multilevel-lastmanagement-mlm-konfigurieren/27.png)
+
+</div>
+</div>
 
 Besucherparkplätze des Areals (Öffentliche Ladestationen)
 
@@ -360,9 +416,18 @@ Besucherparkplätze des Areals (Öffentliche Ladestationen)
 - Kabelabsicherung 63A pro Phase
 
 
+<div className="row">
+<div className="col col--4 bild--mitte">
+
 ![Konfiguration Multilevel Lastmanagement – Abbildung 28](/img/konfiguration-multilevel-lastmanagement-mlm-konfigurieren/28.png)
 
+</div>
+<div className="col col--8 bild--mitte">
+
 ![Konfiguration Multilevel Lastmanagement – Abbildung 29](/img/konfiguration-multilevel-lastmanagement-mlm-konfigurieren/29.png)
+
+</div>
+</div>
 
 Mieterparkplätze des Areals
 
@@ -376,9 +441,18 @@ Mieterparkplätze des Areals
     Nur Solarladen möglich wenn Produktion nicht vom Areal für anderes verwendet wird.
 
 
+<div className="row">
+<div className="col col--4 bild--mitte">
+
 ![Konfiguration Multilevel Lastmanagement – Abbildung 30](/img/konfiguration-multilevel-lastmanagement-mlm-konfigurieren/30.png)
 
+</div>
+<div className="col col--8 bild--mitte">
+
 ![Konfiguration Multilevel Lastmanagement – Abbildung 31](/img/konfiguration-multilevel-lastmanagement-mlm-konfigurieren/31.png)
+
+</div>
+</div>
 
 <div className="row">
 <div className="col col--4">

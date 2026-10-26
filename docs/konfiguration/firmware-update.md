@@ -13,28 +13,12 @@ Diese Optimierungen können selbstständig durch den Nutzer ausgeführt werden.
 
 ⓘ Hinweis: Firmware Updates sind vor allem dann anzuwenden, wenn du ein fehlerhaftes Verhalten festgestellt hast oder eine neue Funktion verwenden möchtest, welche die vorherige Firmware noch nicht unterstützte. Produkte mit sich schnell entwickelnden Funktionen wie z.B. die Pico Ladestation, sollten regelmässig Updates erfahren.
 
-### Firmware Update Webseite öffnen
-
-Bei smart-me Hardware kann jederzeit ein Firmwareupgrade durchgeführt werden, sofern Internetzugang gewährleistet ist.
-
-Über diesen Link
-
-1.  [https://webforms.smart-me.com/Connect/DeviceOverview.aspx](https://webforms.smart-me.com/Connect/DeviceOverview.aspx)
-
-
-Oder über das smart-me Menu
-
-1.  Loge dich im Browser über [https://portalweb.smart-me.com/Login](https://portalweb.smart-me.com/Login) mit deinen Log-in Daten ein.
-
-2.  Im Menu wähle System / Firmware Update
-
-
-![Firmware Update – Abbildung 1](/img/konfiguration-firmware-update/01.png)
 
 ## Vorgehensweise
 
-1.  ### Wähle das Gerät zum Updaten aus: "Update" oder "Update Communication"
+### 1\. Wähle das Gerät zum Updaten aus:
 
+"Update" oder "Update Communication"
 
 - Update: Firmware des Gerätes
 

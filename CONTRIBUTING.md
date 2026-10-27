@@ -1405,6 +1405,36 @@ Gabelt sich die Kette (zwei Folgeseiten für dasselbe Land), endet die
 Darstellung dort. Das ist Absicht — ein Ablauf mit Verzweigung ist kein Ablauf
 mehr, sondern eine Landkarte, und dafür gibt es die Navigation links.
 
+### Die Schritte von Hand setzen
+
+Eine Übersicht eine Ebene darüber folgt nicht der Schrittkette: Auf der
+Konfigurationsseite stehen fünf Abschnitte, von denen jeder seinen eigenen
+Ablauf hat. Dort schreibst du die Schritte selbst:
+
+```jsx
+<Ablauf>
+
+<Schritt seite="konfiguration/inbetriebnahme/index">Hardware aus verschiedenen Quellen in Betrieb nehmen</Schritt>
+
+<Schritt seite="konfiguration/ordnerkonfiguration/index">Struktur des Projektes anlegen</Schritt>
+
+<Schritt seite="konfiguration/multilevel-lastmanagement/index" optional>Wenn E-Mobilität mit smart-me Pico umgesetzt wird</Schritt>
+
+</Ablauf>
+```
+
+- `seite` ist die Kennung der Zielseite — derselbe Pfad wie in `sidebars.ts`,
+  ohne `docs/` und ohne `.md`.
+- Der Text dazwischen steht als zweite Zeile in der Kachel. Ein halber Satz
+  genügt; die Überschrift der Zielseite steht ja darüber.
+- `optional` nimmt den Schritt aus der Nummerierung und stellt ihn darunter.
+
+**Auch hier wird nach Land gefiltert.** Schreib die beiden Rechnungsstellungen
+einfach untereinander in die Liste: Wer die Schweiz eingestellt hat, sieht die
+Schweizer, wer Deutschland eingestellt hat, die deutsche, und die Nummerierung
+rückt entsprechend nach. Nur bei „Alle Länder" stehen beide da — das ist
+derselbe Fall wie überall sonst im Wiki.
+
 Die Länderzuordnung gilt auch hier: Schritte, die für das eingestellte Land
 nicht gelten, fallen aus der Übersicht heraus — dieselbe Regel wie beim
 Wegweiser.

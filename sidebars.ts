@@ -110,6 +110,7 @@ const sidebars: SidebarsConfig = {
     {
       type: 'category',
       label: 'Konfiguration',
+      link: {type: 'doc', id: 'konfiguration/index'},
       items: [
         {
           type: 'category',

@@ -13,6 +13,12 @@
  * - Links im Fliesstext immer unterstrichen.
  * - Semantische Farbquartette für Hinweise und Warnungen.
  *
+ * Zu Schriftgrössen, Zeilenhöhen und Abständen schweigen die Guidelines – der
+ * offene Punkt steht als TODO in tokens.css. Das Raster dafür stammt deshalb
+ * aus einer fremden Quelle und ist unten im Abschnitt "Schrift- und
+ * Abstandsraster" beschrieben. Es gehört bewusst nicht in tokens.css: die
+ * Datei ist eine unveränderte Kopie der Guidelines.
+ *
  * Der Dark Mode ist in den Guidelines nicht beschrieben. Er übernimmt hier die
  * Markenfarben, hellt Blau aber so weit auf, dass der Kontrast auf dunklem
  * Grund ausreicht – siehe Abschnitt "Dark Mode".
@@ -86,10 +92,153 @@
   --ifm-breadcrumb-item-background-active: var(--sm-blue-10pct);
 
   /* ---------- Code ---------- */
-  --ifm-code-font-size: 92%;
+  /* Grösse, Innenabstand und Kante stehen im Abschnitt "Schrift- und
+     Abstandsraster". */
   --ifm-code-background: var(--sm-blue-5pct);
   --ifm-pre-background: var(--sm-blue-5pct);
   --docusaurus-highlighted-code-line-bg: var(--sm-blue-10pct);
+}
+
+/* ==========================================================================
+   Schrift- und Abstandsraster
+
+   Die Grössen, Zeilenhöhen und Abstände sind aus der Notion-Hilfe übernommen
+   (www.notion.com/help, ausgelesene computed styles, Stand 27.10.2026). Farben
+   und Schriftfamilie bleiben unverändert aus tokens.css.
+
+   Drei bewusste Abweichungen von der Vorlage, alle wegen der Schrift:
+
+   - Notion setzt Inter mit kräftig negativer Laufweite (H1 -0.036em). Noto
+     Sans läuft offener und wirkt damit gedrängt; hier ist es gut die Hälfte.
+     Die Werte stehen in em, damit sie auf kleinen Bildschirmen mitgehen.
+   - Notions Zeilenhöhen für Überschriften (H1 1.143) unterschreiten die
+     natürliche Zeilenbox von Noto Sans von rund 1.36. Bei einzeiligen Titeln
+     fällt das nicht auf, bei zweizeiligen stossen die Unterlängen der
+     deutschen Langwörter aneinander. Deshalb etwas mehr Luft.
+   - H3 setzt Notion in 600. Die Guidelines kennen nur 400/500/700, die
+     Überschriften bleiben hier deshalb durchgehend 700 und unterscheiden sich
+     allein über die Grösse.
+
+   Nicht übernommen ist Notions Textspalte von 804px: die Breite ergibt sich
+   hier aus Navigation und Inhaltsverzeichnis, und die mehrspaltigen Seiten
+   rechnen mit der vollen Spalte.
+   ========================================================================== */
+
+:root {
+  /* ---------- Schriftgrössen, Basis 16px ---------- */
+  --wiki-text-xs: 0.75rem;     /* 12px  Label */
+  --wiki-text-sm: 0.875rem;    /* 14px  Kleintext, Bildlegende, Code */
+  --wiki-text-base: 1rem;      /* 16px  Fliesstext */
+  --wiki-text-lg: 1.125rem;    /* 18px  H4 */
+  --wiki-text-xl: 1.625rem;    /* 26px  H3 */
+  --wiki-text-2xl: 2rem;       /* 32px  H2 */
+  --wiki-text-3xl: 2.625rem;   /* 42px  H1 */
+
+  /* ---------- Zeilenhöhen ----------
+     Einheitslos, damit sie sich als Faktor vererben: kleinerer Text in einer
+     Kachel bekommt so automatisch den passenden Abstand. */
+  --wiki-lh-h1: 1.2;
+  --wiki-lh-h2: 1.28;
+  --wiki-lh-h3: 1.3;
+  --wiki-lh-h4: 1.45;
+  --wiki-lh-base: 1.5;         /* Fliesstext, 16/24 */
+  --wiki-lh-sm: 1.45;          /* Kleintext, 14/20 */
+
+  /* ---------- Abstandsraster ----------
+     Grundmass ist der Absatzabstand von 10.4px. */
+  --wiki-space-1: 0.25rem;     /*  4px  zwischen Listenpunkten */
+  --wiki-space-2: 0.5rem;      /*  8px */
+  --wiki-space-3: 0.65rem;     /* 10px  Absatz, Block, unter Überschriften */
+  --wiki-space-4: 0.75rem;     /* 12px */
+  --wiki-space-5: 1rem;        /* 16px */
+  --wiki-space-6: 1.25rem;     /* 20px  Listeneinzug */
+  --wiki-space-8: 2rem;        /* 32px  vor H3 */
+  --wiki-space-12: 4rem;       /* 64px  vor H2 */
+
+  /* ---------- Abbildung auf Infima ---------- */
+  --ifm-line-height-base: var(--wiki-lh-base);
+  --ifm-heading-line-height: var(--wiki-lh-h3);
+
+  --ifm-h1-font-size: var(--wiki-text-3xl);
+  --ifm-h2-font-size: var(--wiki-text-2xl);
+  --ifm-h3-font-size: var(--wiki-text-xl);
+  --ifm-h4-font-size: var(--wiki-text-lg);
+  --ifm-h5-font-size: var(--wiki-text-base);
+  --ifm-h6-font-size: var(--wiki-text-sm);
+
+  /* `--ifm-leading` ist Infimas Grundmass für den senkrechten Rhythmus:
+     Absatzabstand, Abstand unter Überschriften und rund um Blöcke. Die
+     Vielfachen davon stehen weiter unten bei `.markdown`. */
+  --ifm-leading-desktop: 0.65; /* 10.4px */
+
+  --ifm-list-margin: var(--wiki-space-3);
+  --ifm-list-left-padding: var(--wiki-space-6);
+  --ifm-list-item-margin: var(--wiki-space-1);
+  --ifm-list-paragraph-margin: var(--wiki-space-3);
+
+  --ifm-code-font-size: 87.5%; /* 14px */
+  --ifm-code-padding-vertical: 0.0625rem;
+  --ifm-code-padding-horizontal: var(--wiki-space-1);
+  --ifm-code-border-radius: var(--sm-radius-sm);
+}
+
+/* Infima rechnet die Abstände der Überschriften als Vielfache von
+   `--ifm-leading`, also von 10.4px. */
+.markdown {
+  --ifm-h1-vertical-rhythm-bottom: 2;        /* 21px unter dem Seitentitel */
+  --ifm-h2-vertical-rhythm-top: 6;           /* 62px vor H2 */
+  --ifm-h3-vertical-rhythm-top: 3;           /* 31px vor H3 */
+  --ifm-heading-vertical-rhythm-top: 2;      /* 21px vor H4 und kleiner */
+  --ifm-heading-vertical-rhythm-bottom: 1;   /* 10px unter jeder Überschrift */
+}
+
+/* Die obersten Überschriften einer Seite setzt Infima innerhalb von
+   `.markdown` noch einmal eigens (H1 3rem, H2 2rem, H3 1.5rem). Diese drei
+   Regeln holen sie zurück ins Raster. */
+.markdown h1:first-child {
+  --ifm-h1-font-size: var(--wiki-text-3xl);
+}
+
+.markdown > h2 {
+  --ifm-h2-font-size: var(--wiki-text-2xl);
+}
+
+.markdown > h3 {
+  --ifm-h3-font-size: var(--wiki-text-xl);
+}
+
+h1 {
+  line-height: var(--wiki-lh-h1);
+  letter-spacing: -0.02em;
+}
+
+h2 {
+  line-height: var(--wiki-lh-h2);
+  letter-spacing: -0.012em;
+}
+
+h3 {
+  line-height: var(--wiki-lh-h3);
+  letter-spacing: -0.012em;
+}
+
+h4,
+h5,
+h6 {
+  line-height: var(--wiki-lh-h4);
+  letter-spacing: 0;
+}
+
+/* Auf schmalen Bildschirmen nimmt Notion die Überschriften deutlich zurück
+   (H1 26px, H2 und H3 je 22px). H2 und H3 unterscheidet es dort nur noch über
+   das Schriftgewicht – das geht hier nicht, beide sind 700. Deshalb bleibt H3
+   eine Stufe kleiner. */
+@media (max-width: 996px) {
+  :root {
+    --wiki-text-3xl: 1.625rem; /* 26px */
+    --wiki-text-2xl: 1.375rem; /* 22px */
+    --wiki-text-xl: 1.25rem;   /* 20px */
+  }
 }
 
 /* ==========================================================================
@@ -157,7 +306,8 @@
    Kacheln bleiben ausgenommen – dort ist die Position bereits eindeutig. */
 .markdown a:not(.card):not(.button) {
   text-decoration: underline;
-  text-underline-offset: 0.15em;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.12em;
 }
 
 /* Fliesstext linksbündig mit Flattersatz, nie Blocksatz. */

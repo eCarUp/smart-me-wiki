@@ -19,6 +19,23 @@
  * (zwei Folgeseiten für dasselbe Land), endet die Darstellung dort. Das ist
  * Absicht — ein Ablauf mit Verzweigung ist kein Ablauf mehr, sondern eine
  * Landkarte, und dafür gibt es die Navigation.
+ *
+ * Für eine Übersicht eine Ebene darüber lassen sich die Schritte auch von Hand
+ * setzen. Dann zählt nicht die Schrittkette, sondern diese Liste:
+ *
+ *     <Ablauf>
+ *
+ *     <Schritt seite="konfiguration/inbetriebnahme/index">Hardware in Betrieb nehmen</Schritt>
+ *
+ *     <Schritt seite="konfiguration/ordnerkonfiguration/index">Struktur des Projektes anlegen</Schritt>
+ *
+ *     <Schritt seite="konfiguration/multilevel-lastmanagement/index" optional>Wenn E-Mobilität dazugehört</Schritt>
+ *
+ *     </Ablauf>
+ *
+ * Gefiltert wird auch hier nach Land: Ein Schritt, der für das eingestellte
+ * Land nicht gilt, fällt heraus und die Nummerierung rückt nach. So stehen
+ * beide Rechnungsstellungen nebeneinander in der Liste, und jeder sieht seine.
  */
 import React from 'react';
 import Link from '@docusaurus/Link';
@@ -53,7 +70,34 @@ type AblaufProps = {
    * Benutzerkonfiguration, die zum Billing nichts mehr beiträgt.
    */
   bis?: string;
+  /** Von Hand gesetzte Schritte (`<Schritt>`) statt der Schrittkette. */
+  children?: React.ReactNode;
 };
+
+type SchrittProps = {
+  /** Kennung der Zielseite, z.B. `konfiguration/ordnerkonfiguration/index`. */
+  seite: string;
+  /** Abseits des Hauptwegs — erscheint unter der Liste statt nummeriert. */
+  optional?: boolean;
+  /** Ein kurzer Satz, was in diesem Schritt geschieht. */
+  children?: React.ReactNode;
+};
+
+/**
+ * Ein von Hand gesetzter Schritt. Steht nur innerhalb von `<Ablauf>`; allein
+ * zeigt er nichts — `<Ablauf>` liest seine Angaben und baut daraus die Liste.
+ */
+export function Schritt(_props: SchrittProps): null {
+  return null;
+}
+
+/** Beschriftung des Bereichs für Vorleseprogramme. */
+const BEREICH = (): string =>
+  translate({
+    id: 'ablauf.bereich',
+    message: 'Ablauf',
+    description: 'Beschriftung der Ablaufübersicht auf einer Einstiegsseite',
+  });
 
 type Station = {kennung: string; optionale: string[]};
 
@@ -62,7 +106,8 @@ function Halt({
   nummer,
   kennung,
   optionale,
-}: Station & {nummer: number}): React.ReactElement | null {
+  text,
+}: Station & {nummer: number; text?: React.ReactNode}): React.ReactElement | null {
   // Wie beim Wegweiser: `useDocById` kennt den Titel, `useLayoutDoc` die
   // fertige Adresse samt Sprachpräfix. Eine Kennung, die es nicht gibt, lässt
   // schon das Bauen scheitern — nicht erst den Leser ins Leere laufen.
@@ -76,7 +121,10 @@ function Halt({
         <span className={styles.nummer} aria-hidden="true">
           {nummer}
         </span>
-        <span className={styles.titel}>{ziel.title}</span>
+        <span className={styles.inhalt}>
+          <span className={styles.titel}>{ziel.title}</span>
+          {text && <span className={styles.text}>{text}</span>}
+        </span>
         <span className={styles.pfeil} aria-hidden="true">
           →
         </span>
@@ -93,7 +141,13 @@ function Halt({
 }
 
 /** Ein optionaler Zwischenschritt, eingerückt und zurückgenommen. */
-function Abstecher({kennung}: {kennung: string}): React.ReactElement | null {
+function Abstecher({
+  kennung,
+  text,
+}: {
+  kennung: string;
+  text?: React.ReactNode;
+}): React.ReactElement | null {
   const ziel = useDocById(kennung);
   const adresse = useLayoutDoc(kennung);
   if (!adresse) return null;
@@ -104,7 +158,10 @@ function Abstecher({kennung}: {kennung: string}): React.ReactElement | null {
         <span className={styles.haken} aria-hidden="true">
           ↳
         </span>
-        {ziel.title}
+        <span>
+          {ziel.title}
+          {text && <span className={styles.abstecherText}> — {text}</span>}
+        </span>
       </Link>
     </li>
   );
@@ -114,6 +171,7 @@ export default function Ablauf({
   von,
   bis,
   land,
+  children,
 }: AblaufProps): React.ReactElement | null {
   const {metadata} = useDoc();
   const kette = usePluginData('smart-me-schrittkette') as Schrittkette | undefined;
@@ -127,6 +185,48 @@ export default function Ablauf({
 
   const passt = (kennung: string): boolean =>
     sichtbar(kette.laender[kennung], gilt);
+
+  // Von Hand gesetzte Schritte haben Vorrang vor der Kette.
+  const eigene = React.Children.toArray(children).filter(
+    (kind): kind is React.ReactElement<SchrittProps> =>
+      React.isValidElement(kind) && typeof (kind.props as SchrittProps).seite === 'string',
+  );
+
+  if (eigene.length > 0) {
+    const sichtbare = eigene.filter((kind) => passt(kind.props.seite));
+    const haupt = sichtbare.filter((kind) => !kind.props.optional);
+    const neben = sichtbare.filter((kind) => kind.props.optional);
+    if (haupt.length === 0 && neben.length === 0) return null;
+
+    return (
+      <nav aria-label={BEREICH()}>
+        {haupt.length > 0 && (
+          <ol className={styles.ablauf}>
+            {haupt.map((kind, i) => (
+              <Halt
+                key={kind.props.seite}
+                nummer={i + 1}
+                kennung={kind.props.seite}
+                optionale={[]}
+                text={kind.props.children}
+              />
+            ))}
+          </ol>
+        )}
+        {neben.length > 0 && (
+          <ul className={styles.abstecher}>
+            {neben.map((kind) => (
+              <Abstecher
+                key={kind.props.seite}
+                kennung={kind.props.seite}
+                text={kind.props.children}
+              />
+            ))}
+          </ul>
+        )}
+      </nav>
+    );
+  }
 
   const stationen: Station[] = [];
   const gesehen = new Set<string>([von ?? metadata.id]);
@@ -151,13 +251,7 @@ export default function Ablauf({
   if (stationen.length === 0) return null;
 
   return (
-    <nav
-      aria-label={translate({
-        id: 'ablauf.bereich',
-        message: 'Ablauf',
-        description: 'Beschriftung der Ablaufübersicht auf einer Einstiegsseite',
-      })}
-    >
+    <nav aria-label={BEREICH()}>
       <ol className={styles.ablauf}>
         {stationen.map((station, i) => (
           <Halt

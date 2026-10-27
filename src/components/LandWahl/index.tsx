@@ -7,6 +7,10 @@
  * Drei Einträge, mehr nicht: Schweiz, Deutschland, Alle Länder. „Alle Länder"
  * ist zugleich die Voreinstellung und der Weg zurück, wenn jemand die
  * Einschränkung wieder loswerden will.
+ *
+ * Gezeigt werden die Namen, davor eine Weltkugel. Flaggen stünden hier zwar
+ * nahe, tragen aber daneben schon die Sprachauswahl — und „Alle Länder" hat
+ * ohnehin keine. Die Weltkugel passt auf alle drei Einträge.
  */
 import React, {useCallback, useEffect, useRef, useState} from 'react';
 import clsx from 'clsx';
@@ -15,6 +19,33 @@ import {LAENDER, landName, useLand, waehleLand} from '@site/src/laender';
 import styles from './styles.module.css';
 
 type Props = {mobile?: boolean; className?: string};
+
+/**
+ * Die Weltkugel vor dem Ländernamen.
+ *
+ * Der Äquator bleibt weg: Bei 16 Pixeln liefen drei waagrechte Linien
+ * ineinander, zwei lassen die Kugel noch als Kugel erkennen.
+ */
+function Welt(): React.ReactElement {
+  return (
+    <svg
+      className={styles.welt}
+      viewBox="0 0 24 24"
+      width="16"
+      height="16"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1.7"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      aria-hidden="true"
+      focusable="false">
+      <circle cx="12" cy="12" r="9" />
+      <path d="M12 3c2.2 2.4 3.4 5.5 3.4 9s-1.2 6.6-3.4 9c-2.2-2.4-3.4-5.5-3.4-9S9.8 5.4 12 3Z" />
+      <path d="M3.5 9h17M3.5 15h17" />
+    </svg>
+  );
+}
 
 export default function LandWahl({mobile, className}: Props): React.ReactElement {
   const land = useLand();
@@ -44,6 +75,13 @@ export default function LandWahl({mobile, className}: Props): React.ReactElement
     // der zutreffende Eintrag, auch wenn im Speicher noch nichts steht.
     aktiv: land === l.schluessel || (land === null && l.schluessel === 'alle'),
   }));
+
+  // Zusammengesetzt statt als eigener Übersetzungstext: „Land" gibt es schon,
+  // der Ländername ohnehin. So kommt für die Beschriftung kein neuer
+  // Schlüssel in die Sprachdateien.
+  const beschriftung = `${translate({id: 'landwahl.ueberschrift', message: 'Land'})}: ${landName(
+    land,
+  )}`;
 
   // Im ausgeklappten Menü auf schmalen Fenstern gibt es kein Dropdown –
   // dort stehen die Länder einfach untereinander.
@@ -94,12 +132,14 @@ export default function LandWahl({mobile, className}: Props): React.ReactElement
         href="#"
         role="button"
         className="navbar__link"
+        aria-label={beschriftung}
         aria-expanded={offen}
         aria-haspopup="true"
         onClick={(e) => {
           e.preventDefault();
           setOffen((z) => !z);
         }}>
+        <Welt />
         {landName(land)}
       </a>
       <ul className="dropdown__menu">

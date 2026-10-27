@@ -396,5 +396,11 @@
   },
   "landwahl.ueberschrift": {
     "message": "Country"
+  },
+  "menueweg.titel": {
+    "message": "Navigation in the software"
+  },
+  "ablauf.bereich": {
+    "message": "Steps"
   }
 }

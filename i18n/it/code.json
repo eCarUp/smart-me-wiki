@@ -396,5 +396,11 @@
   },
   "landwahl.ueberschrift": {
     "message": "Paese"
+  },
+  "menueweg.titel": {
+    "message": "Navigazione nel software"
+  },
+  "ablauf.bereich": {
+    "message": "Procedura"
   }
 }

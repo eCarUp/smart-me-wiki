@@ -148,11 +148,9 @@ const config: Config = {
           type: 'localeDropdown',
           position: 'right',
         },
-        {
-          href: 'https://github.com/ecarup/smart-me-wiki',
-          label: 'GitHub',
-          position: 'right',
-        },
+        // Kein Link auf das Repository: Die Kopfzeile ist für Besucher da, und
+        // der Weg zu GitHub steht weiterhin im Fuss unter "Mitarbeiten" sowie
+        // auf jeder Seite unten als "Diese Seite bearbeiten".
       ],
     },
     footer: {

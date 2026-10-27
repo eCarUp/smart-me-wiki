@@ -16,8 +16,14 @@
  *
  * Getrennt wird mit `→`, `›`, `>` oder `|` — was die Schreibende bequemer
  * findet. Fehlt ein Trenner, steht der ganze Text als eine Station da.
+ *
+ * Über dem Weg steht immer dieselbe Zeile: „Navigation in der Software". Ohne
+ * sie bleibt der Kasten mehrdeutig — er könnte ebenso gut ein Hinweis oder ein
+ * Zitat sein. Mit ihr ist auf den ersten Blick klar, dass hier ein Weg durch
+ * das Portal beschrieben wird und nicht durch dieses Wiki.
  */
 import React from 'react';
+import {translate} from '@docusaurus/Translate';
 import styles from './styles.module.css';
 
 const TRENNER = /\s*(?:→|›|»|>|\|)\s*/;
@@ -38,6 +44,38 @@ function alsText(kinder: React.ReactNode): string {
   return '';
 }
 
+/**
+ * Der Trenner zwischen zwei Stationen.
+ *
+ * Statt des einfachen Winkels `›` ein ausgeschriebener Pfeil mit Schaft — das
+ * Zeichen „long-right" aus der smart-me Icon-Bibliothek. Ein Winkel liest sich
+ * als Gliederung („hier geht es tiefer"), ein Pfeil als Bewegung („dann dort
+ * hin"), und genau das ist bei einem Weg durch ein Menü gemeint.
+ *
+ * Die Masse hängen an der Schriftgrösse (`em`): Wächst der Text, wächst der
+ * Pfeil mit. Ausgerichtet wird er nicht über `vertical-align`, sondern vom
+ * Flexbox-Container `.stufen` — der stellt ihn ohnehin mittig.
+ */
+function Pfeil(): React.ReactElement {
+  return (
+    <svg
+      className={styles.pfeil}
+      viewBox="0 0 24 24"
+      width="1.25em"
+      height="1.25em"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      aria-hidden="true"
+      focusable="false">
+      <path d="M4 12h15" />
+      <path d="M13.5 6.5 19 12l-5.5 5.5" />
+    </svg>
+  );
+}
+
 export default function Menueweg({
   children,
 }: {
@@ -52,7 +90,8 @@ export default function Menueweg({
 
   return (
     <div className={styles.weg}>
-      {/* Das Symbol sagt ohne Worte, worum es geht: eine Stelle im Menü. */}
+      {/* Das Symbol steht neben der Überschrift, nicht neben dem Weg: zusammen
+          sagen die beiden, worum es geht — ein Menü in der Software. */}
       <svg
         className={styles.symbol}
         viewBox="0 0 16 16"
@@ -64,14 +103,17 @@ export default function Menueweg({
         <rect x="1" y="7.2" width="14" height="1.6" rx="0.8" fill="currentColor" />
         <rect x="1" y="11.9" width="9" height="1.6" rx="0.8" fill="currentColor" />
       </svg>
+      <span className={styles.titel}>
+        {translate({
+          id: 'menueweg.titel',
+          message: 'Navigation in der Software',
+          description: 'Überschrift über dem Menüweg durch das smart-me Portal',
+        })}
+      </span>
       <span className={styles.stufen}>
         {stufen.map((stufe, i) => (
           <React.Fragment key={`${i}-${stufe}`}>
-            {i > 0 && (
-              <span className={styles.pfeil} aria-hidden="true">
-                ›
-              </span>
-            )}
+            {i > 0 && <Pfeil />}
             <span className={styles.stufe}>{stufe}</span>
           </React.Fragment>
         ))}

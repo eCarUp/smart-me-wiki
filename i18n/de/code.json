@@ -39,6 +39,10 @@
   "landwahl.ueberschrift": {
     "message": "Land"
   },
+  "menueweg.titel": {
+    "message": "Navigation in der Software",
+    "description": "Überschrift über dem Menüweg durch das smart-me Portal"
+  },
   "theme.ErrorPageContent.title": {
     "message": "Die Seite ist abgestürzt.",
     "description": "The title of the fallback page when the page crashed"

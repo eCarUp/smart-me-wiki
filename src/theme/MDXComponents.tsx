@@ -1,5 +1,5 @@
 import MDXComponents from '@theme-original/MDXComponents';
-import Ablauf from '@site/src/components/Ablauf';
+import Ablauf, {Schritt} from '@site/src/components/Ablauf';
 import Embed from '@site/src/components/Embed';
 import Menueweg from '@site/src/components/Menueweg';
 import Unterseiten from '@site/src/components/Unterseiten';
@@ -14,6 +14,7 @@ import NurFuer from '@site/src/components/NurFuer';
 export default {
   ...MDXComponents,
   Ablauf,
+  Schritt,
   Embed,
   Menueweg,
   Unterseiten,

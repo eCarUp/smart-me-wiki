@@ -62,9 +62,23 @@
   line-height: 1;
 }
 
-.titel {
+/* Titel und Erklärung stehen untereinander, die Nummer links daneben. */
+.inhalt {
   flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+}
+
+.titel {
   font-weight: var(--sm-fw-bold, 600);
+}
+
+.text {
+  font-size: 0.9rem;
+  font-weight: var(--ifm-font-weight-normal);
+  line-height: 1.4;
+  color: var(--ifm-color-emphasis-700);
 }
 
 .pfeil {
@@ -109,4 +123,8 @@
 .haken {
   flex: 0 0 auto;
   color: var(--ifm-color-emphasis-500);
+}
+
+.abstecherText {
+  color: var(--ifm-color-emphasis-600);
 }

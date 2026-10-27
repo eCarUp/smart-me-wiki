@@ -730,15 +730,15 @@
     },
     "docs/konfiguration/billing-deutschland/stromtarife-definieren.md": {
       "en": {
-        "hash": "338fe1d0c1a71ed6",
+        "hash": "28ef346df297b0de",
         "origin": "translated"
       },
       "fr": {
-        "hash": "338fe1d0c1a71ed6",
+        "hash": "28ef346df297b0de",
         "origin": "translated"
       },
       "it": {
-        "hash": "338fe1d0c1a71ed6",
+        "hash": "28ef346df297b0de",
         "origin": "translated"
       }
     },
@@ -1145,6 +1145,20 @@
       },
       "it": {
         "hash": "b9522363b8b40404",
+        "origin": "translated"
+      }
+    },
+    "docs/konfiguration/index.md": {
+      "en": {
+        "hash": "323855cea553e2a4",
+        "origin": "translated"
+      },
+      "fr": {
+        "hash": "323855cea553e2a4",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "323855cea553e2a4",
         "origin": "translated"
       }
     },
@@ -1654,15 +1668,15 @@
     },
     "docs/planung/index.md": {
       "en": {
-        "hash": "9f4100535b932c5e",
+        "hash": "ff838e178d387a05",
         "origin": "translated"
       },
       "fr": {
-        "hash": "9f4100535b932c5e",
+        "hash": "ff838e178d387a05",
         "origin": "translated"
       },
       "it": {
-        "hash": "9f4100535b932c5e",
+        "hash": "ff838e178d387a05",
         "origin": "translated"
       }
     },

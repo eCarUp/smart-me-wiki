@@ -1,24 +1,26 @@
 ---
 title: '3-Phase Meter Telstar CT'
 slug: '/produkte/telstar-ct'
-description: 'The smart-me Telstar CT is an MID-certified energy meter with an integrated WiFi interface for transmitting real-time data and with a connection for external transformers.'
+description: 'The smart-me Telstar CT is a MID-certified energy meter with an integrated WiFi interface for transmitting real-time data and a connection for external current transformers.'
 sidebar_label: '3-Phase Meter Telstar CT'
 ---
-The smart-me Telstar CT is an MID-certified energy meter with an integrated WiFi interface for transmitting real-time data and with a connection for external transformers. The meter synchronizes the measured values automatically and encrypted to the smart-me Cloud. The data can be exported to third-party systems and processed further in the smart-me Portal or via our open interface. The meter has two digital outputs for controlling potential-free devices.
+The smart-me Telstar CT is a MID-certified energy meter with an integrated WiFi interface for transmitting real-time data and a connection for external current transformers. The meter synchronizes the measured values automatically and encrypted to the smart-me Cloud. The data can be exported to third-party systems and processed further in the smart-me portal or via our open interface. The meter has two digital outputs for controlling potential-free devices.
 
 ![3-Phase Meter Telstar CT – Figure 1](/img/produkte-telstar-ct/01.png)
 
-[Transformers and accessories](/drittprodukte/stromwandler)
+## Required accessories
 
-## Features
+[Current transformers and accessories](/drittprodukte/stromwandler)
 
-- [Installation](/konfiguration/inbetriebnahme) with the free smart-me App.
+## Functions
 
-- Transformer connection for [external transformers](/) with output currents from 0.01A to 6A
+- [Installation](/konfiguration/inbetriebnahme) with the free smart-me app.
+
+- Transformer connection for [external current transformers](/) with output currents from 0.01A to 6A
 
 - Billing with the [smart-me Billing Tool](/konfiguration/billing)
 
-- Control with [if/then actions](/konfiguration/wenndann-aktionen) or [event actions](/konfiguration/wenndann-aktionen/ereignisaktionen)
+- Control with [if/then\-actions](/konfiguration/wenndann-aktionen) or [event actions](/konfiguration/wenndann-aktionen/ereignisaktionen)
 
 - [Visualizations](/konfiguration/visualisierung)
 
@@ -36,13 +38,13 @@ The smart-me Telstar CT is an MID-certified energy meter with an integrated WiFi
 | --- | --- |
 | Product certification | CE, MID 2014 / 32 / EU, CH load profile / reactive energy, RED |
 | Accuracy class for active energy/reactive energy | B (MID) / 2 (IEC) |
-| Direction | +A (consumption), -A (feed-in), +R, -R |
+| Direction | +A (consumption), -A (delivery), +R, -R |
 | Quadrants | Q1, Q2, Q3, Q4 |
 | Mains voltage | 3x230/400VAC 50Hz |
 | Current measuring range Imin-Iref(Imax) | 0.01-1(6)A |
 | Conductor cross-section | 0.5 - 6 mm² |
 | Transformer ratio | 1:1 to 20'000:1 or 5:5 to 20'000:5 |
-| Measurement category | CAT III |
+| Measuring category | CAT III |
 | Temperature range | -25°C to +70°C |
 | Rel. humidity | Annual average 75%, non-condensing<br />short-term 95%, non-condensing |
 | Measured values | Active energy (kWh), active power (kW)<br />Reactive energy (kvarh), reactive power (kvar)<br />Current (A), voltage (V), power factor (cosφ) |
@@ -57,14 +59,14 @@ The smart-me Telstar CT is an MID-certified energy meter with an integrated WiFi
 | Data rate | < 0.1 Mbit/s |
 | Data storage | 2 months |
 | Protection class | II |
-| Degree of protection housing/connections, use | IP20 / IP51 (installed in control cabinet), indoor |
+| Degree of protection housing/terminals, use | IP20 / IP51 (installed in control cabinet), indoor |
 | Mounting | DIN rail |
 | Dimensions | 5 modules, L:90mm W:90mm H:65.7mm |
 | Server location | Switzerland |
 
-## Technical requirements for the transformers
+## Technical requirements for the current transformers
 
-A wide range of current transformers can be used with the Telstar CT. The basic requirements are as follows:
+A wide variety of current transformers can be used with the Telstar CT. The basic requirements are as follows:
 
 - Current transformer ratio: 1:1 to 20'000:1 to 5:5 to 20'000:5
     The secondary number can be any integer between 1 and 5.
@@ -72,28 +74,28 @@ A wide range of current transformers can be used with the Telstar CT. The basic 
 
 - Output current: 1A to 5A
 
-- Output power: at least 1VA or higher (recommended 5VA)
+- Output power: at least 1VA or higher (recommendation 5VA)
 
-- Type: split-core or solid-core
+- Type: open or closed
 
 - Accuracy class: 1 or better\*
 
-\*If the meters are to be used for billing, calibrated transformers are required that meet at least class 0.5 or lower.
+\*If the meters are to be used for billing, calibrated current transformers are required that meet at least class 0.5 or lower.
 
-You can find recommendations for transformers and accessories on the page: [Current transformers and accessories](/drittprodukte/stromwandler) 
+You can find recommendations for current transformers and accessories on the page: [Current Transformers and accessories](/drittprodukte/stromwandler) 
 
 ## Display
 
 <div className="row">
 <div className="col col--6">
 
-Value / symbol Description
+Value / Symbol Description
 
-1.8.1 OBIS code for the displayed meter reading
+1.8.1 OBIS\-code for the displayed meter reading
 
 T1 Active tariff (tariff 1 or tariff 2)
 
-Arrow Current direction (right consumption / left feed-in)
+Arrow Direction of current (right consumption / left delivery)
 
 Reception (bars) WiFi signal strength
 
@@ -113,20 +115,20 @@ M Function no longer used (can be ignored)
 </div>
 </div>
 
-The meter has a scrolling display. The items described below are shown one after the other. After the last item, the first item is shown again.
+The meter has a rolling display. The items described below are shown one after the other. After the last item, the first item is shown again.
 
 Meter reading (OBIS code followed by meter reading) 
 
 1.8.1 (A+) Active energy consumption tariff 1
 1.8.2 (A+) Active energy consumption tariff 2
-2.8.1 (A+) Active energy feed-in tariff 1
-2.8.2 (A+) Active energy feed-in tariff 2
+2.8.1 (A+) Active energy delivery tariff 1
+2.8.2 (A+) Active energy delivery tariff 2
 1.8.0:5A (A+) Active energy total consumption 5A basis
-2.8.0:5A (A-) Active energy total feed-in 5A basis
+2.8.0:5A (A-) Active energy total delivery 5A basis
 5.8.0 (Q1) Inductive reactive energy consumption total
 6.8.0 (Q2) Capacitive reactive energy consumption total
-7.8.0 (Q3) Inductive reactive energy feed-in total
-8.8.0 (Q4) Capacitive reactive energy feed-in total
+7.8.0 (Q3) Inductive reactive energy delivery total
+8.8.0 (Q4) Capacitive reactive energy delivery total
 
 Transformer factor (OBIS code followed by information)
 
@@ -168,15 +170,15 @@ Incorrect phase sequence: numbers flash
 <div className="row">
 <div className="col col--7">
 
-1.  Top right on the gear icon (Settings (Einstellungen)) 
+1.  Click the gear icon (Settings (Einstellungen)) at the top right 
 
 2.  Edit (Editieren) 
 
 3.  General settings (Allgemeine Einstellungen) 
 
-4.  Enter the transformer ratio 
+4.  Enter the transformer ratio (Wandlerverhältnis) 
 
-5.  The transformer ratio can be locked. This serves as protection against unwanted changes by unauthorized persons. To unlock the transformer ratio, the device must be installed again with the smart-me App. Deleting is not necessary for the reinstallation.
+5.  The transformer ratio can be locked. This serves as protection against unwanted changes by unauthorized persons. To unlock the transformer ratio, the device must be installed again with the smart-me app. Deleting it is not necessary for the reinstallation.
 
 Note: Entering the transformer ratio does not change the historically stored data. For this reason, this step must be carried out immediately after commissioning.
 
@@ -194,7 +196,7 @@ Note: Entering the transformer ratio does not change the historically stored dat
 
 T1 Button for installation
 
-If button T1 is pressed for 10 seconds, a local WiFi is created for the installation
+If button T1 is pressed for 10 seconds, this creates a local WiFi for the installation
 
 T1 + T2 Restart
 
@@ -202,9 +204,9 @@ Press buttons T1 and T2 simultaneously for 10 seconds to force a restart.
 
 T2 Special functions
 
-Short: If T2 is pressed >2s, the green LED toggles (from on to off or from off to on). When it is activated, it shows the connection status 
+Short: If T2 is pressed >2s, the green LED toggles (from on to off or from off to on). When activated, it shows the connection status 
 
-🟢 Green steady: connected to the smart-me Cloud
+🟢 Green steady: connected to smart-me Cloud
 
  ☀︎ Green flashing: establishing connection or no connection
 
@@ -212,7 +214,7 @@ Long: If T2 is pressed >8s, the power display toggles between active & reactive 
 
 Very long: If T2 is pressed >14s, the S0-0 pulse output toggles between active power and reactive power.
 
-Note: This setting only changes the display on the screen, not in the smart-me Cloud (app and website). If reactive energy is to be shown in the cloud, this must be set in the general settings. 
+Note: This setting only changes what is shown on the display, not in the smart-me Cloud (app and website). If reactive energy is to be displayed in the cloud, this must be done in the general settings. 
 
 ## LED
 
@@ -243,26 +245,26 @@ Note: This setting only changes the display on the screen, not in the smart-me C
 
 - Shows the currently consumed active or reactive power in 1000 pulses/kWh or 1000 pulses/kVArh. Whether active or reactive power is shown can be set with button T2.
 
-- For example: An LED labelled “1000 pulses/kWh” flashes 1000 times when 1 kilowatt hour (kWh) of energy has been consumed or delivered. If the 1000 pulses were counted within 1 hour, a constant power of 1 kW was measured.
+- For example: An LED labeled "1000 pulses/kWh" flashes 1000 times when 1 kilowatt hour (kWh) of energy has been consumed or delivered. If the 1000 pulses were counted within 1 hour, a constant power of 1 kW was measured.
 
 </div>
 </div>
 
 ## Configuring inputs and outputs
 
-The Telstar CT has two digital outputs and one digital input, which can be used as pulse inputs and outputs or as a switchable potential-free contact. You can find details on the wiki page [Inputs and outputs](/schnittstellen/ein-und-ausgaenge) 
+The Telstar CT has two digital outputs and one digital input, which can be used as pulse inputs and outputs or as a switchable potential-free contact. You can find details on the wiki page [Input and Output Configuration](/schnittstellen/ein-und-ausgaenge) 
 
 On one digital output, the Telstar CT has a relay that can switch up to 8A.
 
 ## Mesh technology
 
-If WiFi reception is very weak or missing, the Telstar CT automatically connects via the mesh function to another neighbouring meter within range. This meter then takes over communication with the smart-me Cloud. Mesh technology ensures that the meters have higher availability towards the smart-me Cloud. It is not possible to deactivate the mesh function on the meter. Specific restrictions apply when [Modbus TCP](/schnittstellen/modbus-tcp) is activated.
+If WiFi reception is very weak or missing, the Telstar CT automatically connects via the mesh function to another neighboring meter within range. This meter then takes over communication with the smart-me Cloud. Mesh technology ensures that the meters have higher availability towards the smart-me Cloud. It is not possible to deactivate the mesh function on the meter. Specific restrictions apply when [Modbus TCP](/schnittstellen/modbus-tcp) is activated.
 
-## Transformers and accessories
+## Current transformers and accessories
 
-You can find recommendations for transformers and accessories on the page: [Current transformers and accessories](/drittprodukte/stromwandler) 
+You can find recommendations for current transformers and accessories on the page: [Current Transformers and accessories](/drittprodukte/stromwandler) 
 
-None of these products are sold by smart-me AG or offered as accessories at the time of purchase. Please buy these products directly from the manufacturer. 
+None of these products are sold by smart-me AG or offered as accessories at the time of purchase. Please purchase these products directly from the manufacturer. 
 
 ### Shipping information
 
@@ -305,7 +307,7 @@ Weight with packaging: 315g
 
     - Voltage change greater than 1V
 
-    - Every second when the meter is selected in the GUI (smart-me Portal)
+    - Every second when the meter is selected in the GUI (smart-me portal)
 
 </details>
 

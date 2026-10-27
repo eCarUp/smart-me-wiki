@@ -1,13 +1,15 @@
 ---
 title: 'Planification'
 slug: '/planung'
-description: 'Exemples d''installation du matériel dans le regroupement dans le cadre de la consommation propre (RCP), incl.'
+description: 'Exemples d''installation du matériel dans le cadre d''un regroupement dans le cadre de la consommation propre (RCP), incl.'
 sidebar_label: 'Planification'
 ---
 
-Trouvez dans cette catégorie des détails et des aides à la planification pour votre projet smart-me.
+Vous trouverez dans cette catégorie des détails et des informations importantes pour vous aider à planifier votre projet smart-me.
 
 ### Les modèles
+
+Les modèles présentent la structure et les schémas de mesure utilisés pour votre système cible.
 
 <Unterseiten nur="planung/standard-messkonzept, planung/zev-zusammenschluss-zum-eigenverbrauch, planung/virtuelle-zev-vzev, planung/leg-lokale-elektrizitaetsgemeinschaft/index, planung/elektromobilitaet/index" />
 
@@ -17,17 +19,20 @@ Trouvez dans cette catégorie des détails et des aides à la planification pour
 
 <NurFuer land="ch">
 
-### Outils d'aide à la planification
+### Outils de planification
+Utilisez nos outils pour consolider votre projet et établir les listes de matériel correspondantes.
 
 <Unterseiten nur="planung/investitionsrechner, planung/projektkonfigurator" />
 
 </NurFuer>
 
 ### Schémas de mesure spéciaux
+Vous trouverez ici des schémas de mesure spéciaux ou rares ainsi que leurs effets sur votre exploitation.
 
 <Unterseiten nur=" planung/mkd3-messkonzept-nicht-teilnehmer, planung/messkonzept-notstromloesung, planung/messkonzept-produzenten-hinter-haeuser" />
 
 ### Connectivité
+Détails sur la connectivité, élément central de votre infrastructure smart-me.
 
 <Unterseiten nur="planung/internetverbindung, planung/internetverbindung-deutschland" />
 

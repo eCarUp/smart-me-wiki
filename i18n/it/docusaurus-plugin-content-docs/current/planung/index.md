@@ -1,13 +1,15 @@
 ---
 title: 'Pianificazione'
 slug: '/planung'
-description: 'Esempi di installazione hardware nel raggruppamento ai fini del consumo proprio incl.'
+description: 'Esempi di installazione dell''hardware nel raggruppamento ai fini del consumo proprio, incl.'
 sidebar_label: 'Pianificazione'
 ---
 
-In questa categoria trovi dettagli e strumenti di pianificazione per il tuo progetto smart-me.
+In questa categoria trovi dettagli e indicazioni importanti come supporto alla pianificazione del tuo progetto smart-me.
 
 ### I modelli
+
+I modelli mostrano la struttura e gli schemi di misura utilizzati per il tuo sistema di destinazione.
 
 <Unterseiten nur="planung/standard-messkonzept, planung/zev-zusammenschluss-zum-eigenverbrauch, planung/virtuelle-zev-vzev, planung/leg-lokale-elektrizitaetsgemeinschaft/index, planung/elektromobilitaet/index" />
 
@@ -17,17 +19,20 @@ In questa categoria trovi dettagli e strumenti di pianificazione per il tuo prog
 
 <NurFuer land="ch">
 
-### Strumenti di pianificazione
+### Strumenti per la pianificazione
+Utilizza i nostri strumenti per consolidare il tuo progetto e creare le relative distinte dei materiali.
 
 <Unterseiten nur="planung/investitionsrechner, planung/projektkonfigurator" />
 
 </NurFuer>
 
 ### Schemi di misura speciali
+Qui trovi schemi di misura speciali o rari e le loro ripercussioni sul tuo esercizio.
 
 <Unterseiten nur=" planung/mkd3-messkonzept-nicht-teilnehmer, planung/messkonzept-notstromloesung, planung/messkonzept-produzenten-hinter-haeuser" />
 
 ### Connettività
+Dettagli sulla connettività, il cuore della tua infrastruttura smart-me.
 
 <Unterseiten nur="planung/internetverbindung, planung/internetverbindung-deutschland" />
 

@@ -8,6 +8,8 @@ Der smart-me Telstar CT ist ein MID-zertifizierter Energiezähler mit integriert
 
 ![3-Phasen Energiezähler Telstar CT – Abbildung 1](/img/produkte-telstar-ct/01.png)
 
+## Benötigtes Zubehör
+
 [Wandler und Zubehör](/drittprodukte/stromwandler)
 
 ## Funktionen

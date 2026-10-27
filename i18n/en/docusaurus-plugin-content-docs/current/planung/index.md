@@ -1,13 +1,15 @@
 ---
 title: 'Planning'
 slug: '/planung'
-description: 'Examples of hardware installation in an association for own consumption incl.'
+description: 'Examples of hardware installation in a ZEV (association for own consumption) incl.'
 sidebar_label: 'Planning'
 ---
 
-In this category, you will find details and planning aids for your smart-me project.
+In this category you will find details and important input to help you plan your smart-me project.
 
 ### The models
+
+The models show the structure and the metering concepts used for your target system.
 
 <Unterseiten nur="planung/standard-messkonzept, planung/zev-zusammenschluss-zum-eigenverbrauch, planung/virtuelle-zev-vzev, planung/leg-lokale-elektrizitaetsgemeinschaft/index, planung/elektromobilitaet/index" />
 
@@ -18,16 +20,19 @@ In this category, you will find details and planning aids for your smart-me proj
 <NurFuer land="ch">
 
 ### Planning tools
+Use our tools to firm up your project and create the corresponding bills of materials.
 
 <Unterseiten nur="planung/investitionsrechner, planung/projektkonfigurator" />
 
 </NurFuer>
 
 ### Special metering concepts
+Here you will find special or rare metering concepts and their effects on your operation.
 
 <Unterseiten nur=" planung/mkd3-messkonzept-nicht-teilnehmer, planung/messkonzept-notstromloesung, planung/messkonzept-produzenten-hinter-haeuser" />
 
 ### Connectivity
+Details on connectivity, the core of your smart-me infrastructure.
 
 <Unterseiten nur="planung/internetverbindung, planung/internetverbindung-deutschland" />
 

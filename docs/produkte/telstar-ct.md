@@ -89,23 +89,23 @@ Empfehlungen für Wandler und Zubehör findest du auf der Seite: [Stromwandler u
 <div className="row">
 <div className="col col--6">
 
-Wert / Symbol Beschreibung
+**Wert / Symbol Beschreibung**
 
-1.8.1 OBIS\-Kennzahl für den angezeigten Zählerstand
+- 1.8.1 OBIS\-Kennzahl für den angezeigten Zählerstand
 
-T1 Aktiver Tarif (Tarif 1 oder Tarif 2)
+- T1 Aktiver Tarif (Tarif 1 oder Tarif 2)
 
-Pfeil Stromrichtung (rechts Bezug / links Lieferung)
+- Pfeil Stromrichtung (rechts Bezug / links Lieferung)
 
-Empfang (Balken) WiFi Signalstärke
+- Empfang (Balken) WiFi Signalstärke
 
-0000053.2 Zählerstand
+- 0000053.2 Zählerstand
 
-5520W Momentan gemessene Leistung mit Einheit
+- 5520W Momentan gemessene Leistung mit Einheit
 
-kWh Einheit des angezeigten Zählerstandes
+- kWh Einheit des angezeigten Zählerstandes
 
-M Nicht mehr genutzte Funktion (kann ignoriert werden)
+- M Nicht mehr genutzte Funktion (kann ignoriert werden)
 
 </div>
 <div className="col col--6 text--center">
@@ -117,39 +117,39 @@ M Nicht mehr genutzte Funktion (kann ignoriert werden)
 
 Der Zähler hat ein rollendes Display. Die unten beschriebenen Punkte werden nacheinander angezeigt. Nach dem letzten Punkt wird wieder der erste Punkt angezeigt.
 
-Zählerstand (OBIS Code gefolgt von Zählerstand) 
+**Zählerstand (OBIS Code gefolgt von Zählerstand)**
 
-1.8.1 (A+) Wirkenergie Bezug Tarif 1
-1.8.2 (A+) Wirkenergie Bezug Tarif 2
-2.8.1 (A+) Wirkenergie Lieferung Tarif 1
-2.8.2 (A+) Wirkenergie Lieferung Tarif 2
-1.8.0:5A (A+) Wirkenergie Total Bezug 5A Basis
-2.8.0:5A (A-) Wirkenergie Total Lieferung 5A Basis
-5.8.0 (Q1) Induktive Blindenergie Bezug total
-6.8.0 (Q2) Kapazitive Blindenergie Bezug total
-7.8.0 (Q3) Induktive Blindenergie Lieferung total
-8.8.0 (Q4) Kapazitive Blindenergie Lieferung total
+- 1.8.1 (A+) Wirkenergie Bezug Tarif 1
+- 1.8.2 (A+) Wirkenergie Bezug Tarif 2
+- 2.8.1 (A+) Wirkenergie Lieferung Tarif 1
+- 2.8.2 (A+) Wirkenergie Lieferung Tarif 2
+- 1.8.0:5A (A+) Wirkenergie Total Bezug 5A Basis
+- 2.8.0:5A (A-) Wirkenergie Total Lieferung 5A Basis
+- 5.8.0 (Q1) Induktive Blindenergie Bezug total
+- 6.8.0 (Q2) Kapazitive Blindenergie Bezug total
+- 7.8.0 (Q3) Induktive Blindenergie Lieferung total
+- 8.8.0 (Q4) Kapazitive Blindenergie Lieferung total
 
-Wandlerfaktor (OBIS Code gefolgt von Informationen)
+**Wandlerfaktor (OBIS Code gefolgt von Informationen)**
 
-0.4.2       Wandlerfaktor (inkl. S0 Impulse / kWh)
+- 0.4.2       Wandlerfaktor (inkl. S0 Impulse / kWh)
 
-Firmware (OBIS Code gefolgt von Informationen)
+- Firmware (OBIS Code gefolgt von Informationen)
 
-C.1.6 Ch: 2218 Firmware Checksumme
-0.2.0 V 1.1 Firmware Version
+- C.1.6 Ch: 2218 Firmware Checksumme
+- 0.2.0 V 1.1 Firmware Version
 
-Fehleranzeige (OBIS Code gefolgt von Fehlermeldungen)
+**Fehleranzeige (OBIS Code gefolgt von Fehlermeldungen)**
 
-C.60.9 Fraud Flag (möglicher Betrugsversuch erkannt)
-PhL: 1 nur Phase L1 angeschlossen
-PhL: 2 nur Phase L2 angeschlossen
-PhL: 3 nur Phase L3 angeschlossen
-PhL: 23 Phase L1 nicht angeschlossen
-PhL: 13 Phase L2 nicht angeschlossen
-PhL: 12 Phase L3 nicht angeschlossen
-Korrekte Phasenreihenfolge: Zahlen leuchten statisch
-Falsche Phasenreihenfolge: Zahlen blinken
+- C.60.9 Fraud Flag (möglicher Betrugsversuch erkannt)
+- PhL: 1 nur Phase L1 angeschlossen
+- PhL: 2 nur Phase L2 angeschlossen
+- PhL: 3 nur Phase L3 angeschlossen
+- PhL: 23 Phase L1 nicht angeschlossen
+- PhL: 13 Phase L2 nicht angeschlossen
+- PhL: 12 Phase L3 nicht angeschlossen
+- Korrekte Phasenreihenfolge: Zahlen leuchten statisch
+- Falsche Phasenreihenfolge: Zahlen blinken
 
 ## Abmessungen und Anschlüsse
 

@@ -17,17 +17,6 @@ Pico ist eine MID-zertifizierte Ladestation mit integrierter Mobilfunk- und WiFi
 
 - Ziehe die Dichtungsmittel adäquat an und prüfe den Sitz der Dichtungen.
 
-[Installationsplanung](/produkte/pico-ladestation/installationsplanung)
-
-[Pico Lastmanagement](/produkte/pico-ladestation/pico-lastmanagement)
-
-[Pico Konfiguration](/konfiguration/inbetriebnahme/pico-konfiguration)
-
-[Zubehör](/produkte/pico-ladestation/pico-zubehoer)
-
-[Pico Anzeige](/produkte/pico-ladestation/pico-display)
-
-[Pico Standfuss](/produkte/pico-ladestation/pico-standfuss)
 
 <Video src="YiiACL00jko" title="YouTube Video, Webinaraufzeichnung Release Multilevel Lastmanagement" />
 
@@ -261,7 +250,7 @@ Pakete pro Europalette: 72 Stück
 
 Die Sicherheitshinweise sind unter allen Umständen einzuhalten:
 
-Installation, Wartung, Reparatur, Inbetriebnahme:
+**Installation, Wartung, Reparatur, Inbetriebnahme:**
 
 - Lies das gesamte Handbuch vor Installation und Bedienung des Produkts sorgfältig durch.
 
@@ -287,13 +276,13 @@ Installation, Wartung, Reparatur, Inbetriebnahme:
 
 - Das Produkt muss in Kombination mit einem Leitungsschutzschalter betrieben werden. Die Kurzschlussfähigkeit des Leitungsschutzschalters muss der maximalen Kurzschlussfähigkeit des Anschlusspunktes entsprechen. Für die Selektivität kann ein Leitungsschutzschalter für mehrere Ladestationen ausreichen. Beachten Sie die landesspezifischen Hinweise auf unserem Wiki. Die Stationen können individuelle Kurzschlüsse bis 3kA problemlos bewältigen.
 
-Verwendungszweck:
+**Verwendungszweck:**
 
 - Dieses Produkt ist ausschliesslich für das Aufladen von elektrisch betriebenen Fahrzeugen vorgesehen, welche mit nicht gasenden Batterien ausgestattet sind. Das Produkt darf nur mit einem Ladekabel nach IEC 62196 verwendet werden. Andere Verwendungen als die hier angegebenen sind unzulässig.
 
 - Das Gerät ist für die Verwendung Drinnen und Draussen vorgesehen.
 
-Betrieb:
+**Betrieb:**
 
 - Niemals das Produkt verwenden oder berühren, wenn es beschädigt ist oder nicht ordnungsgemäss funktioniert. Das Produkt im Notfall (Rauch, Brand, Funken oder andere nicht ordnungsgemässe Funktionen) sofort über den FI-Schalter abschalten und Kunden Support verständigen. 
 
@@ -365,11 +354,13 @@ Nein, da unsere Zähler für Abrechnungen verwendet werden, ist es nicht möglic
 
 ## Installationshandbuch, Downloads und Konformitätserklärung
 
-Datenblatt
+**Datenblatt**
+
+[Deutsch](https://docs.google.com/presentation/d/1tq5HPM2mc4Br8264vKs_yjMv4HauvtQM0A0DY87EMks/export/pdf)
 
 [Englisch](https://docs.google.com/presentation/d/1TPUl4Yk2u3fwl8zy6TWZ7TcwLpEe6Yzkx-jUVWnAl7k/export/pdf)
 
-Technische Dokumente
+**Technische Dokumente**
 
 [Pico Quickstarter](https://docs.google.com/document/d/1jRLrb7J9hg7yreVMQyvvFeWXF4lVsgWtSucW4cy1XLk/export?format=pdf) 
 

@@ -6,7 +6,7 @@ sidebar_label: '3-Phasen Zähler Nimbus 100A'
 ---
 ![smart-me Nimbus 100A – Abbildung 1](/img/produkte-nimbus-100a/01.png)
 
-## Benötigtes Zubehör
+## Optionales Zubehör
 
 [Zählersteckklemmen für Nimbus 100A](/drittprodukte/zaehlersteckklemmen-nimbus-100a)
 
@@ -92,21 +92,21 @@ Damit bietet der Nimbus eine hardwarebasierte Sicherheitsgarantie, die reinen So
 </div>
 <div className="col col--6">
 
-Wert / Symbol Beschreibung
+**Wert / Symbol Beschreibung**
 
-1.8.0 OBIS\-Kennzahl für den angezeigten Zählerstand
+- 1.8.0 OBIS\-Kennzahl für den angezeigten Zählerstand
 
-Q1 Aktueller Quadrant (Q1-Q4)
+- Q1 Aktueller Quadrant (Q1-Q4)
 
-Pfeil Energierichtung (rechts Bezug / links Lieferung)
+- Pfeil Energierichtung (rechts Bezug / links Lieferung)
 
-Empfang (Balken) WLAN Signalqualität
+- Empfang (Balken) WLAN Signalqualität
 
-0000053.2 Zählerstand
+- 0000053.2 Zählerstand
 
-5520W Momentan gemessene Leistung mit Einheit (w oder var)
+- 5520W Momentan gemessene Leistung mit Einheit (w oder var)
 
-kWh Einheit des angezeigten Zählerstandes (kWh oder varh)
+- kWh Einheit des angezeigten Zählerstandes (kWh oder varh)
 
 </div>
 </div>
@@ -121,21 +121,21 @@ kWh Einheit des angezeigten Zählerstandes (kWh oder varh)
 </div>
 <div className="col col--6">
 
-Zählerstand (OBIS Code gefolgt von Zählerstand) 
+**Zählerstand (OBIS Code gefolgt von Zählerstand)**
 
-1.8.0 (A+) Wirkenergie Bezug Total
-2.8.0 (A+) Wirkenergie Lieferung Total
-5.8.0 (Q1) Induktive Blindenergie Bezug total
-6.8.0 (Q2) Kapazitive Blindenergie Bezug total
-7.8.0 (Q3) Induktive Blindenergie Lieferung total
-8.8.0 (Q4) Kapazitive Blindenergie Lieferung total
+- 1.8.0 (A+) Wirkenergie Bezug Total
+- 2.8.0 (A+) Wirkenergie Lieferung Total
+- 5.8.0 (Q1) Induktive Blindenergie Bezug total
+- 6.8.0 (Q2) Kapazitive Blindenergie Bezug total
+- 7.8.0 (Q3) Induktive Blindenergie Lieferung total
+- 8.8.0 (Q4) Kapazitive Blindenergie Lieferung total
 
 </div>
 </div>
 
 ![smart-me Nimbus 100A – Abbildung 4](/img/produkte-nimbus-100a/04.jpg)
 
-Fehleranzeige (OBIS Code gefolgt von Fehlermeldungen)
+**Fehleranzeige (OBIS Code gefolgt von Fehlermeldungen)**
 
 C.60.9 Fehlermeldungen (Seite wird nur angezeigt wenn Fehler vorliegen)
 
@@ -179,16 +179,16 @@ C.60.9 Fehlermeldungen (Seite wird nur angezeigt wenn Fehler vorliegen)
 
 - Symbol Terminalabdeckung geöffnet ( "G"):  OBIS Code C.51.2  Klemmendeckel ist offen.
 
-Firmware (OBIS Code gefolgt von Informationen)
+**Firmware (OBIS Code gefolgt von Informationen)**
 
-C.1.6 762A MID Firmware part Checksumme
-0.2.1 V 1.1 Firmware Version MID part.
+- C.1.6 762A MID Firmware part Checksumme
+- 0.2.1 V 1.1 Firmware Version MID part.
 
 ### Spezialfunktionen Display
 
 ![smart-me Nimbus 100A – Abbildung 5](/img/produkte-nimbus-100a/05.jpg)
 
-Zählerstandsgang (15min Werte)
+**Zählerstandsgang (15min Werte)**
 
 Öfnnen und verlassen des Speichers:
 
@@ -198,7 +198,7 @@ Zählerstandsgang (15min Werte)
 
 - Um von einem Wert zum nächsten zu gelangen drücke die Anzeigetaste jeweils kurz.
 
-Zählerstandsgang:
+**Zählerstandsgang:**
 
 - 1.8.0 und 2.8.0: Abgebildete OBIS Codes im Speicher
 
@@ -214,13 +214,13 @@ Zählerstandsgang:
 
 ![smart-me Nimbus 100A – Abbildung 7](/img/produkte-nimbus-100a/07.jpg)
 
-Logbuch 
+**Logbuch**
 
-Öffnen des Logbuches:
+**Öffnen des Logbuches:**
 
 - Anzeigetaste im Normalmodus 7-8 Sekunden drücken.
 
-Eingabe des Passwortes für Anzeige des Logbuches:
+**Eingabe des Passwortes für Anzeige des Logbuches:**
 
 Das Passwort erhält der Benutzer des NIMBUS Meters vom Provider.
 
@@ -238,7 +238,7 @@ Das Passwort erhält der Benutzer des NIMBUS Meters vom Provider.
 
 - Ist noch keine Meldung im Logbuch (Total : NO ENTRY), schaltet die Anzeige zurück in den Normal - Mode auf Anzeigebild 2 oder 3.
 
-Beenden der Anzeige des Logbuches:
+**Beenden der Anzeige des Logbuches:**
 
 - Zum Verlassen des Logbuches muss die Anzeigetaste ca. 3 - 4 Sekunden dauernd gedrückt werden. 
 
@@ -260,7 +260,7 @@ C.60.9 :  OBIS Code der momentan angezeigten Meldung 
 
 - Vierte Zeile: Datum und Uhrzeit der Meldung
 
-Loginformationen:
+**Loginformationen:**
 
 - Firmware Upgrade (New Firmware)
 
@@ -286,7 +286,7 @@ Loginformationen:
 
 ## Anschlussschema
 
-Verdrahtung
+**Verdrahtung**
 
 Es sind Seile, feste Leiter und Litzen zwischen 4-35 mm2 als Zuleitungen zugelassen. Litzen dürfen nur mit passenden Ferrulen montiert werden. Weitere Informationen zu den Anschlussleitungen finden Sie im Quickstarter-Guide.
 
@@ -317,26 +317,17 @@ Zugangs-Passwörter haben 4 numerische Stellen.
 
 Ist das Passwort korrekt, wird der letzte Eintrag des Zählerstandsgang angezeigt. Um den nächste Eintrag anzuzeigen muss die Taste 2 kurz gedrückt werden. Wird die Taste 2 für 60 Sekunden nicht gedrückt, wechselt die Anzeige zurück in zur Anzeige des Zählerstandes.
 
-P1 Interface
+- **P1 Interface**
 
-RJ-12 Steckdose für P1-Module
+- **RJ-12 Steckdose für P1-Module**
 
-EX1
+- **EX1** - Schnittstelle für externe Schützensteuerung (noch nicht Unterstützt)
 
-Schnittstelle für externe Schützensteuerung (noch nicht Unterstützt)
+- **EX2** - Steckplatz für alternative Kommunikationsmodule (noch nicht Unterstützt)
 
-EX2
+- **L1** - Status LED - leuchtet statisch wenn Verbindung zur smart-me Cloud
 
-Steckplatz für alternative Kommunikationsmodule
-(noch nicht Unterstützt)
-
-L1
-
-Status LED - leuchtet statisch wenn Verbindung zur smart-me Cloud
-
-L2
-
-Impuls LED - zeigt aktuell gemessene Leistung in 10'000 Imp / kWh
+- **L2** - Impuls LED - zeigt aktuell gemessene Leistung in 10'000 Imp / kWh
 
 Die Impuls-LED kann Wirk- und Blindenergie anzeigen. Für die Umschaltung von Wirk- auf Blindleistung oder umgekehrt muss die Taste T2 10 mal mit einem Abstand von 1 Sek gedrückt werden. Ob aktuell die Wirk- oder Blindleistung auf der LED angezeigt wird, ist auf dem Display auf der untersten Zeile erkennbar.
 

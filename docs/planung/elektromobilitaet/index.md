@@ -3,6 +3,7 @@ title: 'Elektromobilität'
 slug: '/planung/elektromobilitaet'
 description: 'Die E-Mobilität ist ein grosser Verbraucher innerhalb einer Liegenschaft oder Areals.'
 sidebar_label: 'Elektromobilität'
+symbol: 'ladestation'
 ---
 ## E-Mobilität planen
 

@@ -3,6 +3,7 @@ title: 'Messkonzepte Notstromlösungen'
 slug: '/planung/messkonzept-notstromloesung'
 description: 'So misst und verrechnest du eine Anlage mit Notstromsystem im smart-me Billing.'
 sidebar_label: 'Messkonzept Notstromlösung'
+symbol: 'notstrom'
 ---
 So misst und verrechnest du eine Anlage mit Notstromsystem im smart-me Billing. 
 

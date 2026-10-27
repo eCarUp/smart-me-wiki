@@ -40,7 +40,7 @@ Rahmenbedingungen
 
 - Zugangsdaten zum Konto müssen bekannt sein, da die Verbindung des Gerätes zwingend mit dem bestehenden smart-me-Account hergestellt werden muss.
 
-- Die Installation muss mit der smart-me Installer-App erfolgen. [Installer App Anleitung](/konfiguration/installer-app-anleitung)  
+- Die Installation muss mit der smart-me Installer-App erfolgen. [Installer App Anleitung](/konfiguration/inbetriebnahme/smart-me-geraete)  
 
 - Ein RFID Karte muss vorliegen, um den Installationsmodus zu aktivieren.
 
@@ -63,7 +63,7 @@ Pico mit temporäres WLAN verbinden.
 
 - Wichtig für den nächsten Schritt: Die Installation muss im Konto erfolgen in dem die Pico aktuell offline ist.
 
-- Die Installation mit der smart-me Installer App durchführen. [Installer App Anleitung](/konfiguration/installer-app-anleitung).
+- Die Installation mit der smart-me Installer App durchführen. [Installer App Anleitung](/konfiguration/inbetriebnahme/smart-me-geraete).
 
     - Wenn bei Schritt 5 die SSID nicht erscheint sondern z.B. &lt;&lt;unknown>>, muss der Standort aktivieren und die App muss darauf zugreifen können.
 

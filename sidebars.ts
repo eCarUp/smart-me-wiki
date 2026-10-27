@@ -242,7 +242,6 @@ const sidebars: SidebarsConfig = {
         'konfiguration/firmware-update',
         'konfiguration/technische-tools',
         'konfiguration/applab',
-        'konfiguration/installer-app-anleitung',
       ],
     },
     {

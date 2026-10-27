@@ -2,6 +2,7 @@
 title: 'Investitionsrechner'
 slug: '/planung/investitionsrechner'
 sidebar_label: 'Investitionsrechner'
+symbol: 'rechner'
 ---
 Nutze den Investitionskostenrechner um dir ein Bild von deinem Projekt zu machen. Der Kostenrechner nimmt aktuelle Marktpreise und Durchschnittsproduktionsdaten sowie Beschaffungspreise von Anlagen von Swisssolar um dein Projekt zu validieren.
 

@@ -52,8 +52,6 @@ Android: Standort, Kamera
 
 [Play Store](https://play.google.com/store/apps/details?id=smartme.installer&hl=de_CH)
 
-[Anleitung](/konfiguration/installer-app-anleitung)
-
 ## Installation
 
 ## Kurzanleitung

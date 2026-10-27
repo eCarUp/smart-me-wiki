@@ -63,6 +63,14 @@ export type Schrittkette = {
    * vertreten durch die Seite, auf die sie verweist.
    */
   kinder: Record<string, string[]>;
+  /**
+   * Kennung der Seite → Name ihres Symbols.
+   *
+   * Aus dem Frontmatter der Seite selbst (`symbol: wlan`). Damit gehört das
+   * Symbol zur Seite und nicht zu der Einstiegsseite, die sie in Kacheln
+   * zeigt — siehe `src/components/Seitensymbol/`.
+   */
+  symbole: Record<string, string>;
 };
 
 /**
@@ -176,12 +184,17 @@ function alsListe(wert: unknown): string[] {
 export async function leseKette(docsDir: string): Promise<Schrittkette> {
   const naechste: Record<string, string[]> = {};
   const optionale: Record<string, string[]> = {};
+  const symbole: Record<string, string> = {};
   const gesetzt: Record<string, string[]> = {};
   const hergeleitet: Record<string, string[]> = {};
 
   for (const datei of await alleDateien(docsDir)) {
     const {data} = matter(await readFile(datei, 'utf8'));
     const kennung = kennungVon(docsDir, datei);
+
+    if (typeof data.symbol === 'string' && data.symbol.trim()) {
+      symbole[kennung] = data.symbol.trim();
+    }
 
     const weiter = alsListe(data.naechste_schritte);
     const nebenbei = alsListe(data.optionale_schritte);
@@ -210,6 +223,7 @@ export async function leseKette(docsDir: string): Promise<Schrittkette> {
     vorherige: {...hergeleitet, ...gesetzt},
     laender: leseLaender(),
     kinder: leseKinder(),
+    symbole,
   };
 }
 

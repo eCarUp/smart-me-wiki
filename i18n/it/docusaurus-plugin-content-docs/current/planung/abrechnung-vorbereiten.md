@@ -1,15 +1,16 @@
 ---
 title: 'Preparare il conteggio / la rimunerazione'
 slug: '/planung/abrechnung-vorbereiten'
-description: 'Conteggiare l''elettricità con il conteggio dei costi energetici di smart-me'
+description: 'Conteggiare l''elettricità con il conteggio dei costi energetici smart-me'
 sidebar_label: 'Preparare il conteggio / la rimunerazione'
+symbol: 'rechnung'
 ---
 
-## Conteggio RCP
+## Conteggio del RCP
 
-### Conteggiare l'elettricità con il conteggio dei costi energetici di smart-me
+### Conteggiare l'elettricità con il conteggio dei costi energetici smart-me
 
-Questo tipo di conteggio supporta la tariffa unica, la doppia tariffa o tariffe multiple con tariffe solari.
+Questo tipo di conteggio supporta la tariffa unica, la tariffa doppia o le tariffe multiple con tariffe solari.
 
 Per il conteggio della parte elettrica del RCP (raggruppamento ai fini del consumo proprio) ti servono:
 
@@ -17,18 +18,18 @@ Per il conteggio della parte elettrica del RCP (raggruppamento ai fini del consu
 
 - I prezzi dell'elettricità dell'azienda elettrica con le tariffe.
 
-- Non necessario: un segnale tariffario esterno collegato a tutti i contatori
+- non necessario: un segnale tariffario esterno collegato a tutti i contatori
 
 
-### Conteggiare calore e acqua con la funzione VEWA (conforme a VEWA)
+### Conteggiare calore e acqua con la funzione VEWA (conforme VEWA)
 
-Affinché tutti i costi energetici possano essere generati in un conteggio delle spese accessorie di riscaldamento conforme a VEWA, ti servono:
+Affinché tutti i costi energetici possano essere generati in un conteggio delle spese accessorie di riscaldamento conforme VEWA, ti servono:
 
 - Lo stato Professional dell'account e lo [smart-me Billing con funzione VEWA](/konfiguration/billing/vewa-abrechnung)
 
 - I prezzi dell'elettricità dell'azienda elettrica con le tariffe
 
-- Un riepilogo dei costi maturati per le energie da conteggiare
+- Il riepilogo dei costi maturati per le energie da conteggiare
 
 - La guida VEWA
 
@@ -39,28 +40,28 @@ Affinché tutti i costi energetici possano essere generati in un conteggio delle
 
 
 
-## Conteggiare la mobilità elettrica nel RCP
+## Conteggio della mobilità elettrica nel RCP
 
 ![Preparare il conteggio / la rimunerazione – Figura 1](/img/planung-abrechnung-vorbereiten/01.png)
 
 ## Guida VEWA e RCP
 
-Guida all'autoconsumo di energia di SvizzeraEnergia (aspetti generali, forme giuridiche, costi): [https://www.energieschweiz.ch/gebaeude/eigenverbrauch/](https://www.energieschweiz.ch/gebaeude/eigenverbrauch/)   
+Guida all'autoconsumo di SvizzeraEnergia (aspetti generali, forme giuridiche, costi): [https://www.energieschweiz.ch/gebaeude/eigenverbrauch/](https://www.energieschweiz.ch/gebaeude/eigenverbrauch/)   
 
-Modello VEWA per il conteggio dei costi dell'energia e dell'acqua in base al consumo: [https://www.energieschweiz.ch/haushalt/warmwasser/](https://www.energieschweiz.ch/haushalt/warmwasser/) 
+Modello VEWA per il conteggio dei costi di energia e acqua in base al consumo: [https://www.energieschweiz.ch/haushalt/warmwasser/](https://www.energieschweiz.ch/haushalt/warmwasser/) 
 
 ## Funzionamento delle tariffe e rimborso agli investitori
 
 ### Funzionamento dell'identificazione della tariffa e della ripartizione sui consumatori
 
-L'identificazione di una tariffa dipende principalmente dagli strumenti di misura assegnati e da una componente temporale opzionale (azione SE/ALLORA).
+L'identificazione di una tariffa dipende principalmente dagli strumenti di misura associati e da una componente temporale opzionale (azione SE/ALLORA).
 
-- Le tariffe di rete valgono come quantità di elettricità residua: ciò significa che si applicano sempre all'elettricità che non è stato possibile attribuire ad altre tariffe tramite le misurazioni.
+- Le tariffe di rete valgono come quantità di elettricità residua: ciò significa che si applicano sempre all'elettricità che non è stato possibile attribuire ad altre tariffe tramite misurazioni.
 
-- Le tariffe solari e delle batterie considerano i prelievi e le forniture di punti di misura rilevanti, come ad es. il contatore FV e il consumo totale o la misurazione di bilancio, più una componente temporale opzionale.
+- Le tariffe solari e delle batterie considerano i prelievi e le forniture dei punti di misura rilevanti, come ad es. il contatore FV e il consumo totale o la misurazione di bilancio, più una componente temporale opzionale.
 
 
-### Determinazione delle quote del mix elettrico ogni 15 minuti
+### Determinazione delle quote del mix elettrico per 15 minuti
 
 Il mix elettrico viene sempre determinato per 15 minuti e poi applicato in egual misura a tutti i consumatori. 
 
@@ -86,7 +87,7 @@ In questo caso la quota percentuale dei singoli fornitori sul consumo totale si 
 
 ### Applicazione del mix elettrico alle unità di conteggio e al loro consumo
 
-Il mix energetico di cui sopra viene ora applicato per gli ultimi 15 minuti a ogni singola unità di conteggio. Di conseguenza ognuno ha lo stesso diritto rispetto al mix energetico, indipendentemente da quanta energia consuma rispetto agli altri partecipanti.
+Il mix energetico di cui sopra viene ora applicato per gli ultimi 15 minuti a ogni singola unità di conteggio. Di conseguenza, ognuno ha lo stesso diritto in termini di mix energetico, indipendentemente da quanta energia consuma rispetto agli altri partecipanti.
 
 - Consumo totale appartamento A:
 
@@ -96,20 +97,20 @@ Il mix energetico di cui sopra viene ora applicato per gli ultimi 15 minuti a og
 
     100 kWh (10 kWh dalla batteria, 50kWh dal solare, 40 kWh dalla rete)
 
-Nota 1: il mix elettrico rispecchia la realtà e il mix elettrico effettivamente presente nel RCP. Quando si preleva elettricità, il consumo corrisponde esattamente a questo mix.
-Nota 2: questa applicazione del mix elettrico consente ai grandi consumatori una maggiore disponibilità, in termini di quantità, di elettricità solare e da batteria a basso costo.
-Nota 3: l'applicazione del mix elettrico non ha il compito di occuparsi delle rimunerazioni agli investitori o di distribuire contingenti ai consumatori. 
+Nota 1: Il mix elettrico rispecchia la realtà e il mix elettrico effettivamente presente nel RCP. Quando si preleva elettricità, il consumo corrisponde esattamente a questo mix.
+Nota 2: Questa applicazione del mix elettrico consente ai grandi consumatori una maggiore disponibilità, in termini di quantità, di elettricità solare e da batteria a basso costo.
+Nota 3: L'applicazione del mix elettrico non ha il compito di occuparsi delle rimunerazioni agli investitori o di distribuire contingenti ai consumatori. 
 
 ![Preparare il conteggio / la rimunerazione – Figura 3](/img/planung-abrechnung-vorbereiten/03.png)
 
 ### Prezzo dell'elettricità solare e rimunerazione agli investitori
 
-La best practice per rimunerare gli investitori consiste nel farli partecipare all'utile derivante dalla produzione realizzata, indennizzandoli in questo modo. Il presupposto è che, anche se tutti hanno investito, l'elettricità solare non venga offerta internamente a 0 CHF.
+La best practice per rimunerare gli investitori consiste nel farli partecipare all'utile derivante dalla produzione realizzata e indennizzarli in questo modo. Il presupposto è che, anche se tutti hanno investito, il prezzo solare non venga offerto internamente a 0 CHF.
 
-Se l'elettricità solare e quella da batteria hanno un prezzo, i grandi consumatori indennizzano gli altri investitori del loro debito tramite questo prezzo da pagare.
+Se l'elettricità solare e quella da batteria hanno un prezzo, i grandi consumatori saldano il loro debito nei confronti degli altri investitori tramite questo prezzo da pagare.
 
 Esempio con 3 investitori e 3 unità di conteggio:
-Il prezzo solare è fissato a 17 cts. / kWh.
+Il prezzo solare è fissato a 17 Rp. / kWh.
 
 - Consumatore A (200 kWh di prelievo solare, investimento 33%):
     200 kWh \* 0.17 CHF / kWh = 34 CHF
@@ -121,11 +122,11 @@ Il prezzo solare è fissato a 17 cts. / kWh.
     50 kWh \* 0.17 CHF / kWh = 8.5 CHF
 
 
-Complessivamente dalla vendita di elettricità solare sono stati ora ricavati in totale 45.9 CHF.
+Complessivamente, dalla vendita di elettricità solare sono stati ricavati 45.9 CHF.
 
 ![Preparare il conteggio / la rimunerazione – Figura 4](/img/planung-abrechnung-vorbereiten/04.png)
 
-Poiché tutti e tre hanno investito in egual misura, per 1/3, ora ognuno ha diritto a un terzo di questo denaro ricavato.
+Poiché tutti e tre hanno investito in egual misura, per 1/3, ora hanno tutti diritto a un terzo del denaro ricavato.
 
 0.33 \* 45.9 CHF = 15.14 CHF di rimborso per l'elettricità solare utilizzata internamente.
 
@@ -140,4 +141,4 @@ Poiché tutti e tre hanno investito in egual misura, per 1/3, ora ognuno ha diri
 
 
 Nota:
-La tariffa solare deve includere il prezzo di produzione e anche i rendimenti. Esempio: regola dell'80%. Il denaro può quindi confluire nel fondo di rinnovamento (vantaggi fiscali) oppure essere rimborsato in base ai costi d'investimento.
+La tariffa solare deve includere sia il prezzo di produzione sia i rendimenti. Esempio: regola dell'80%. Il denaro può quindi confluire nel fondo di rinnovamento (vantaggi fiscali) o essere rimborsato in base ai costi d'investimento.

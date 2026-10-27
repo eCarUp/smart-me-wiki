@@ -12,7 +12,11 @@
 .kachel {
   display: flex;
   flex-direction: column;
-  padding: 1rem;
+  /* Mittig: Symbol und Titel stehen übereinander auf einer Achse. Ohne das
+     klebte das Symbol links und der Titel liefe darunter weg. */
+  align-items: center;
+  text-align: center;
+  padding: 1.25rem 1rem;
   border: 1px solid var(--ifm-color-emphasis-300);
   border-radius: var(--ifm-card-border-radius, 0.4rem);
   background: var(--ifm-background-surface-color);
@@ -26,6 +30,20 @@
   box-shadow: var(--ifm-global-shadow-lw);
   color: var(--ifm-font-color-base);
   text-decoration: none;
+}
+
+/*
+ * Das Symbol steht über dem Titel und nicht daneben: Die Kacheln sind schmal,
+ * und ein Zeichen links vom Text drückte lange Titel in den Umbruch. In der
+ * Primärfarbe, damit die Reihe beim Überfliegen zuerst als Bildzeile wirkt.
+ *
+ * Die Grösse (56 Pixel) steht bei der Komponente in `index.tsx` — sie gehört
+ * ins SVG selbst, sonst skaliert der Browser die Striche mit und sie werden
+ * unscharf.
+ */
+.symbol {
+  margin-bottom: 0.75rem;
+  color: var(--ifm-color-primary);
 }
 
 .titel {

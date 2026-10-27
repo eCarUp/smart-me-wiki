@@ -3,23 +3,24 @@ title: 'Contract / Legal'
 slug: '/planung/vertrag-rechtliches'
 description: 'Contractual basis for a ZEV (Switzerland)'
 sidebar_label: 'Contract / Legal'
+symbol: 'vertrag'
 ---
 
 ## Contractual basis for a ZEV (Switzerland)
 
-The ZEV (association for own consumption)  is a contractual association of several end consumers who consume the electricity they produce themselves on site. 
+The ZEV (association for own consumption)  is a contractual association of several end consumers who consume their self-produced electricity on site. 
 
-In an association for own consumption, the end consumers share a common grid connection. All end consumers participating in the respective ZEV act as a single customer towards the distribution grid operator. 
+In an association for own consumption, the end consumers share a common grid connection. Towards the distribution grid operator, all end consumers participating in the respective ZEV act as a single customer. 
 
-### Standardized templates for ZEV contracts and tenancy agreement amendments (ZEV contract template)
+### Standardised templates for ZEV contracts and tenancy agreement amendments (ZEV contract template)
 
-Swiss Homeowners' Association (Hauseigentümerverband): [https://www.hev-schweiz.ch/wohnen/bauen/haustechnik-gebaeudetechnik/eigenverbrauch/](https://www.hev-schweiz.ch/wohnen/bauen/haustechnik-gebaeudetechnik/eigenverbrauch/) (login required)
+Homeowners' association: [https://www.hev-schweiz.ch/wohnen/bauen/haustechnik-gebaeudetechnik/eigenverbrauch/](https://www.hev-schweiz.ch/wohnen/bauen/haustechnik-gebaeudetechnik/eigenverbrauch/) (login required)
 
-Self-consumption guide from EnergieSchweiz: [https://www.energieschweiz.ch/gebaeude/eigenverbrauch/](https://www.energieschweiz.ch/gebaeude/eigenverbrauch/)  
+Self-consumption guide by Energie Schweiz: [https://www.energieschweiz.ch/gebaeude/eigenverbrauch/](https://www.energieschweiz.ch/gebaeude/eigenverbrauch/)  
 
 
 
-If you need in-depth legal support when implementing your ZEV, you will find partners known to us below.
+If you need in-depth legal support with implementing your ZEV, you will find partners known to us below.
 
 ZEV legal matters with Domenig & Partner 
 
@@ -27,7 +28,7 @@ Agenda
 
 - [00:00 Introduction](https://www.youtube.com/watch?v=KqU1XWR4YOU)
 
-- [00:55 smart-me Basics](https://youtu.be/KqU1XWR4YOU?si=_Y0PLCH2BewXjj-Y&t=55)s
+- [00:55 smart-me Basic](https://youtu.be/KqU1XWR4YOU?si=_Y0PLCH2BewXjj-Y&t=55)s
 
 - [12:19 Legal basics of the ZEV](https://www.youtube.com/watch?v=KqU1XWR4YOU&t=739s)
 
@@ -38,7 +39,7 @@ Agenda
 
 ![Contract / Legal – Figure 1](/img/planung-vertrag-rechtliches/01.png)
 
-Dr. iur., Attorney at law Mischa Morgenbesser
+Dr.iur., attorney at law Mischa Morgenbesser
 
 BADERTSCHER RECHTSANWÄLTE AG
 
@@ -59,7 +60,7 @@ Web: [https://www.b-legal.ch/](https://www.b-legal.ch/)
 
 
 
-Dr. iur., Attorney at law Simone Walther
+Dr.iur., attorney at law Simone Walther
 
 Schärer Rechtsanwälte
 

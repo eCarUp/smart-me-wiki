@@ -47,7 +47,7 @@ Courte vidéo : Pico obtient la certification MID (2 min)
 
 - Carte SIM intégrée avec un volume de données pour 10 ans
 
-- [Certification MID](/planung/zertifizierungen-schweiz#certifications-des-bornes-de-recharge-en-suisse) et certification de la courbe de charge du matériel de mesure interne grâce au grand écran
+- [Certification MID](/planung/zertifizierungen-schweiz) et certification de la courbe de charge du matériel de mesure interne grâce au grand écran
 
 - Dispositifs de protection contre les défauts intégrés 30mA AC selon IEC60947-2 et 6mA DC IEC62955
 

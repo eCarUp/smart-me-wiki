@@ -3,22 +3,23 @@ title: 'Internet Connection'
 slug: '/planung/internetverbindung-deutschland'
 description: 'The smart-me system and its hardware require a direct internet connection to the cloud.'
 sidebar_label: 'Internet Connection'
+symbol: 'wlan'
 ---
-The smart-me system and its hardware require a direct internet connection to the cloud. You therefore need to provide a 2.4GHz Wi-Fi network with internet access on site. 5GHz is not supported due to its limited range.
+The smart-me system and its hardware require a direct internet connection to the cloud. Locally, you therefore need to provide a 2.4GHz Wi-Fi network with internet access. 5GHz is not supported because of its short range.
 
 
 Internet access can be provided as follows:
 
-- A cable provider offer from Telekom, Vodafone, 1&1 or another local internet provider, together with a 2.4GHz Wi-Fi router, usually supplied by the provider.
+- A wired provider plan from Telekom, Vodafone, 1&1 or another local internet provider, plus a 2.4GHz Wi-Fi router, usually supplied by the provider.
 
 - Internet via a mobile SIM card and a 2.4GHz Wi-Fi router. 
 
 
 Redundancy levels
 
-- Provide several access points with the same SSID and password. All smart-me products automatically select an access point with an internet connection.
+- Provide multiple access points with the same SSID and password. All smart-me products automatically select an access point with an internet connection.
 
-- Store several Wi-Fi networks on the smart-me device: [Can I use my device with several Wi-Fi networks?](/konfiguration/inbetriebnahme/smart-me-geraete#kann-ich-mein-gerät-mit-mehreren-wifi-netzwerken-nutzen)
+- Store multiple Wi-Fi networks on the smart-me device: [Can I use my device with multiple Wi-Fi networks?](/konfiguration/inbetriebnahme/smart-me-geraete#kann-ich-mein-gerät-mit-mehreren-wifi-netzwerken-nutzen)
 
 
 ![Internet connection – Figure 1](/img/planung-internetverbindung/01.png)
@@ -32,7 +33,7 @@ Key points\*:
 - Wi-Fi frequency: 2.4 GHz
 
 
-\* Further details can be found in the technical data of the respective [products](/produkte).
+\* Further details can be found in the technical data of the respective [Products](/produkte).
 
 Specifications as required:
 
@@ -40,8 +41,8 @@ Specifications as required:
 
 
 Clients:
-The number of supported clients defines how many devices can communicate with the access point or router at the same time. This number must match your installation. There are cost-effective access points that support 200+ clients.
-The number can be found in the device datasheet, usually under "Max. Clients" or "Concurred Clients".
+The number of supported clients defines how many devices can communicate with the access point or router at the same time. The number must match your installation. There are cost-effective access points that support 200+ clients.
+The number can be found in the device data sheet, usually under "Max. Clients" or "Concurred Clients".
 
 ## Possible hardware components
 
@@ -56,7 +57,7 @@ Access points convert a signal passed on from the router via LAN (RJ-45) into a 
 
 ### Repeater
 
-Repeaters amplify an existing Wi-Fi signal to extend its coverage.
+Repeaters amplify an existing Wi-Fi signal to extend the coverage area.
 
 
 ### Mobile LTE router with 2.4GHz Wi-Fi
@@ -80,7 +81,7 @@ The UniFi 6 Lite is a 2x2 Wi-Fi 6 access point that offers an aggregate radio ra
 
 WLAN-Accesspoint 3xUAE/USB ACR WLAN – Rutenbeck 
 
-WLAN-Accesspoint 3xUAE/USB ACR WLAN 22610408 Max. transmission rate 150Mbit/s, frequency band 2.4 GHz, managed, radio protocol IEEE 802.11 b/g/n, WPA2 encryption, Ethernet, number of 10/100 Mbps LAN ports 2, VPN security, connection for external antenna, bridge function, repeater function, Power over Ethernet, width 72mm, height 90mm, depth 65mm, degree of protection (IP) IP21, suitable for DIN rail mounting, Wi-Fi access point for DIN rail mounting 
+WLAN-Accesspoint 3xUAE/USB ACR WLAN 22610408 Max. transfer rate 150Mbit/s, frequency band 2.4 GHz, managed, radio protocol IEEE 802.11 b/g/n, encryption WPA2, Ethernet, number of 10/100 Mbps LAN ports 2, VPN security, connection for external antenna, bridge function, repeater function, Power over Ethernet, width 72mm, height 90mm, depth 65mm, degree of protection (IP) IP21, suitable for DIN rail mounting, Wi-Fi access point for DIN rail mounting 
 
 ### Wi-Fi requirements
 

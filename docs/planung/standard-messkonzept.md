@@ -1,16 +1,17 @@
 ---
-title: 'Standard Messkonzept'
+title: 'Mieterstrom Messkonzept'
 slug: '/planung/standard-messkonzept'
-description: 'Tarifierung des Standard Messkonzepts'
-sidebar_label: 'Standard Messkonzept'
+description: 'Tarifierung des Mieterstrom Messkonzepts'
+sidebar_label: 'Mieterstrom Messkonzept'
+symbol: 'gebaeude'
 ---
-![Standard Messkonzept – Abbildung 1](/img/planung-standard-messkonzept/01.png)
+![Mieterstrom Messkonzept – Abbildung 1](/img/planung-standard-messkonzept/01.png)
 
-## Tarifierung und Ausgestalltung des Standard Messkonzepts
+## Tarifierung und Ausgestalltung des Mieterstrom Messkonzepts
 
 Die Tarifierung des Messkonzepts erfolgt über Bilanzzähler und Produktion oder alternativ über Verbrauch / PV oder Batterie mit Referenzierung des Bilanzzählers.
 
-Das Messkonzept ist vollstänig, sobald 100% aller verbräuche un Produktionen gemessen werden. Der Bilanzzähler am hausanschluss fungiert als Korrektur und als Referenz.
+Das Messkonzept ist vollstänig, sobald 100% aller Verbraucher und Produktionen gemessen werden. Der Bilanzzähler am Hausanschluss fungiert als Korrektur und als Referenz.
 
 ### Validierung und Abrechnung des Energieversorgers
 

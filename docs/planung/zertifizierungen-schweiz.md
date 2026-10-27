@@ -3,6 +3,7 @@ title: 'Zertifizierungen Schweiz'
 slug: '/planung/zertifizierungen-schweiz'
 description: 'Produktnormen, MID, CH-Lastgang, ZEV und Nacheichung für die Schweiz.'
 sidebar_label: 'Zertifizierungen Schweiz'
+symbol: 'zertifikat'
 ---
 
 import International from './_zertifizierungen-international.md';

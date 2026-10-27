@@ -45,6 +45,13 @@
  *
  * Für die benannten Abschnitte ist eine gewöhnliche Markdown-Überschrift
  * besser — sie steht im Inhaltsverzeichnis rechts.
+ *
+ * Trägt eine Zielseite im Frontmatter ein `symbol`, steht dieses Zeichen über
+ * ihrem Titel in der Kachel — welche es gibt, steht in
+ * `src/components/Seitensymbol/`. Ohne Angabe bleibt die Kachel schlicht, auch
+ * gemischt: Eine Reihe aus Kacheln mit und ohne Symbol sieht allerdings unruhig
+ * aus, deshalb lohnt es sich, einen Abschnitt ganz oder gar nicht zu
+ * bebildern.
  */
 import React from 'react';
 import Link from '@docusaurus/Link';
@@ -56,6 +63,7 @@ import {
 import {usePluginData} from '@docusaurus/useGlobalData';
 import {sichtbar, useLand} from '@site/src/laender';
 import type {Schrittkette} from '@site/plugins/schrittkette';
+import Seitensymbol from '@site/src/components/Seitensymbol';
 import styles from './styles.module.css';
 
 type Props = {
@@ -82,9 +90,11 @@ type Props = {
 
 function Kachel({
   kennung,
+  symbol,
   mitText,
 }: {
   kennung: string;
+  symbol?: string;
   mitText?: boolean;
 }): React.ReactElement | null {
   // Wie beim Wegweiser: Titel und Adresse hält Docusaurus getrennt bereit.
@@ -95,6 +105,9 @@ function Kachel({
 
   return (
     <Link className={styles.kachel} to={adresse.path}>
+      {/* Das Symbol steht im Frontmatter der Zielseite. Hat sie keines,
+          zeichnet `Seitensymbol` nichts und die Kachel sieht aus wie zuvor. */}
+      <Seitensymbol name={symbol} className={styles.symbol} groesse={56} />
       <strong className={styles.titel}>{ziel.title}</strong>
       {mitText && ziel.description && (
         <span className={styles.text}>{ziel.description}</span>
@@ -147,7 +160,12 @@ export default function Unterseiten({
           gridTemplateColumns: `repeat(auto-fit, minmax(min(${min}, 100%), 1fr))`,
         }}>
         {kinder.map((kennung) => (
-          <Kachel key={kennung} kennung={kennung} mitText={mitText} />
+          <Kachel
+            key={kennung}
+            kennung={kennung}
+            symbol={kette.symbole[kennung]}
+            mitText={mitText}
+          />
         ))}
       </div>
     </>

@@ -1,42 +1,43 @@
 ---
 title: 'LEC - Local Electricity Community'
 slug: '/planung/leg-lokale-elektrizitaetsgemeinschaft'
-description: 'Does setting up an LEC pay off?'
+description: 'Is it worth setting up an LEC?'
 sidebar_label: 'LEC - Local Electricity Community'
+symbol: 'vernetzt'
 ---
-## Does setting up an LEC pay off?
+## Is it worth setting up an LEC?
 
 ![LEC - Local Electricity Community – Figure 1](/img/planung-leg-lokale-elektrizitaetsgemeinschaft/01.jpg)
 
 [Go to the LEC calculator](/planung/leg-lokale-elektrizitaetsgemeinschaft/leg-rechner)
 
-## General information on the LEC
+## General information about the LEC
 
-The local electricity community (LEC) is a legal model that allows locally produced electricity to be exchanged and sold over the public distribution grid within a regional perimeter.
+The local electricity community (LEC) is a legal model for exchanging and selling locally produced electricity over the public distribution grid within a regional perimeter.
 
-### The key features:
+### Key features:
 
-- Regionality: Electricity exchange is limited to the grid area within a single municipality.
+- Regionality: The electricity exchange is limited to the grid area within one municipality.
 
 - Grid usage: Participants use parts of the grid of the distribution system operator (DSO). A reduced grid usage tariff applies for this.
 
 - Combinability: A ZEV (association for own consumption) or a vZEV (virtual ZEV) can be integrated into an LEC as a participant.
 
-- Security of supply: LEC consumers remain in the regular basic supply for their residual electricity demand.
+- Security of supply: LEC consumers stay in the regular basic supply for their remaining electricity needs.
 
 
 ### Tariffs and conditions
 
-The price of solar power within the LEC is not set by the DSO but by the community itself. However, the DSO charges a grid usage fee for the energy transmitted. The maximum discount on the grid usage fee is currently 40%. (As of Q1 2026)
+The DSO does not set the price of solar power within the LEC. The community sets it. However, the DSO charges a grid usage fee for the energy transmitted through its grid. The grid usage fee can currently be reduced by up to 40%. (As of Q1 2026)
 
-Detailed information, as well as the VSE industry recommendation on the LEC, is available at: [www.lokalerstrom.ch](http://www.lokalerstrom.ch)
+You can find detailed information, including the VSE industry recommendation on the LEC, at: [www.lokalerstrom.ch](http://www.lokalerstrom.ch)
 
 
 
 ### Status at smart-me
 
-smart-me currently does not offer any specific products for directly implementing LECs. However, as we are actively following the development of this market, we are interested in your application ideas and feedback.
+smart-me does not currently offer any products specifically for implementing LECs. We are following how this market develops, though, and we would like to hear your ideas for applications and your feedback.
 
-Interested in an exchange? Book an appointment directly with Fabio (Product Management):  [https://calendar.app.google/kiwRFrwoDeXNyFRi8](https://calendar.app.google/kiwRFrwoDeXNyFRi8)
+Want to talk it over? Book an appointment directly with Fabio (Product Management):  [https://calendar.app.google/kiwRFrwoDeXNyFRi8](https://calendar.app.google/kiwRFrwoDeXNyFRi8)
 
 ![LEC - Local Electricity Community – Figure 2](/img/planung-leg-lokale-elektrizitaetsgemeinschaft/02.png)

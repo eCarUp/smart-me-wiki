@@ -3,6 +3,7 @@ title: 'LEG - Lokale Elektrizitätsgemeinschaft'
 slug: '/planung/leg-lokale-elektrizitaetsgemeinschaft'
 description: 'Rechnet sich die Gründung einer LEG?'
 sidebar_label: 'LEG - Lokale Elektrizitätsgemeinschaft'
+symbol: 'vernetzt'
 ---
 ## Rechnet sich die Gründung einer LEG?
 

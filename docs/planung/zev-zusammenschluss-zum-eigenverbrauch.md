@@ -3,6 +3,7 @@ title: 'ZEV Zusammenschluss zum Eigenverbrauch'
 slug: '/planung/zev-zusammenschluss-zum-eigenverbrauch'
 description: 'Zusammenschluss zum Eigenverbrauch (ZEV)'
 sidebar_label: 'ZEV Zusammenschluss zum Eigenverbrauch'
+symbol: 'gebaeude'
 ---
 ## Zusammenschluss zum Eigenverbrauch (ZEV)
 

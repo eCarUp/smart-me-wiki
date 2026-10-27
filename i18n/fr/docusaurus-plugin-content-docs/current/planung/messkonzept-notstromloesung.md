@@ -3,6 +3,7 @@ title: 'Schémas de mesure pour solutions d''alimentation de secours'
 slug: '/planung/messkonzept-notstromloesung'
 description: 'Comment mesurer et décompter une installation avec système d''alimentation de secours dans smart-me Billing.'
 sidebar_label: 'Schéma de mesure alimentation de secours'
+symbol: 'notstrom'
 ---
 Comment mesurer et décompter une installation avec système d'alimentation de secours dans smart-me Billing. 
 
@@ -12,11 +13,11 @@ Vous avez besoin d'un abonnement smart-me Professional
 
 ## Principe de base
 
-Le commutateur du système d'alimentation de secours dispose de trois raccordements : Grid (réseau, après le compteur de bilan Z1 ), Load (toute la maison) et WR (onduleur avec PV et batterie). Seule la ligne entre le commutateur et l'onduleur transporte exclusivement du courant PV et de batterie. Si elle est accessible, le compteur solaire Z2 y mesure directement la production. 
+Le commutateur du système d'alimentation de secours possède trois raccordements : Grid (réseau, après le compteur de bilan Z1 ), Load (toute la maison) et WR (onduleur avec PV et batterie). Seule la ligne entre le commutateur et l'onduleur transporte exclusivement du courant PV et de batterie. Si elle est accessible, le compteur solaire Z2 y mesure directement la production. 
 
 ## Étape par étape
 
-### 1 - Clarifier l'architecture et choisir la variante
+### 1 - Clarifier la configuration et choisir la variante
 
 Vérifiez à l'aide de la fiche technique, du schéma électrique ou auprès du fabricant où se trouve la commutation : 
 
@@ -25,7 +26,7 @@ Vérifiez à l'aide de la fiche technique, du schéma électrique ou auprès du 
 - Commutateur intégré (onduleur avec son propre port Grid et Backup) : la connexion se trouve dans l'appareil. → Variante B sans compteur solaire. Pour la variante A, vérifiez en outre si le fabricant autorise un compteur sur la ligne vers l'onduleur. 
 
 
-### 2 - Prévoir et installer les compteurs
+### 2 - Planifier et installer les compteurs
 
 Variante A · commutateur séparé
 
@@ -41,7 +42,7 @@ Z1 avant le port Grid, chaque consommateur sans exception avec son propre compte
 
 ### 3 - Créer les tarifs
 
-Mettez tous les compteurs en service et placez-les dans le dossier de l'immeuble. Créez ensuite un tarif solaire dans le Billing (prix, validité et numéro de tarif comme d'habitude) : 
+Mettre tous les compteurs en service et les placer dans le dossier de l'immeuble. Créer ensuite un tarif solaire dans Billing (prix, validité et numéro de tarif comme d'habitude) : 
 
 Variante A · avec compteur solaire 
 
@@ -58,7 +59,7 @@ Variante B · sans compteur solaire
 
 - Type de tarif (Tarif Typ) : Tarif solaire incl. vRCP (Solartarif inkl. vZEV) 
 
-- Compteur de référence (Referenzzähler) : Consommation + bilan Tous (Verbrauch + Bilanz Alle) 
+- Compteur de référence (Referenzzähler) : Consommation + bilan tous (Verbrauch + Bilanz Alle) 
 
 - Compteur de bilan (Bilanzzähler) : Z1 
 
@@ -67,4 +68,4 @@ Variante B · sans compteur solaire
 
 ![Schémas de mesure pour solutions d'alimentation de secours – Figure 4](/img/planung-messkonzept-notstromloesung/04.png)
 
-<Embed src="/embeds/planung-messkonzept-notstromloesung-01.html" aspect="2.305" title="Schéma de mesure solution d'alimentation de secours" />
+<Embed src="/embeds/planung-messkonzept-notstromloesung-01.html" aspect="2.305" title="Schéma de mesure pour solution d'alimentation de secours" />

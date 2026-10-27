@@ -3,6 +3,7 @@ title: 'Zertifizierungen'
 slug: '/planung/zertifizierungen-deutschland'
 description: 'Produktnormen, MID und Eichrecht für Deutschland.'
 sidebar_label: 'Zertifizierungen'
+symbol: 'zertifikat'
 ---
 
 import International from './_zertifizierungen-international.md';

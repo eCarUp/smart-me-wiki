@@ -3,6 +3,7 @@ title: 'Abrechnung / Vergütung vorbereiten'
 slug: '/planung/abrechnung-vorbereiten'
 description: 'Elektro mit smart-me Energiekostenabrechnung abrechnen'
 sidebar_label: 'Abrechnung / Vergütung vorbereiten'
+symbol: 'rechnung'
 ---
 
 ## ZEV Abrechnen

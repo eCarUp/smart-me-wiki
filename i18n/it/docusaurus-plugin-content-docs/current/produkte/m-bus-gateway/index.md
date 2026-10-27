@@ -151,7 +151,7 @@ In queste pagine trovi tutte le informazioni rilevanti per una corretta messa in
 
 - [Ricerca di dispositivi gateway M-Bus](/konfiguration/inbetriebnahme/smart-me-geraete)
 
-- [Disattivare il riconoscimento automatico dei dispositivi](/konfiguration/inbetriebnahme/smart-me-geraete#impedire-il-riconoscimento-di-nuovi-dispositivi-da-parte-dellm-bus-gateway)
+- [Disattivare il riconoscimento automatico dei dispositivi](/konfiguration/inbetriebnahme/smart-me-geraete)
 
 
 ## Prescrizioni di installazione M-Bus

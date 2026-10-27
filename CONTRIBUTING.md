@@ -641,6 +641,59 @@ Länderklammer — sonst steht sie leer da:
 Eine Unterkategorie erscheint als **eine** Kachel, die auf ihre Einstiegsseite
 führt — die Seiten darin zeigt dann wieder deren eigene `<Unterseiten />`.
 
+### Ein Symbol in die Kachel setzen
+
+Welches Symbol eine Kachel trägt, entscheidet die **Zielseite** in ihrem
+Frontmatter:
+
+```yaml
+---
+title: 'Internetverbindung'
+sidebar_label: 'Internetverbindung'
+symbol: 'wlan'
+---
+```
+
+Damit gehört das Symbol zur Seite und nicht zu der Einstiegsseite, die sie
+zeigt: Taucht die Seite später in einer zweiten Kachelgruppe auf, bringt sie es
+mit. Eine Seite ohne `symbol` bekommt keines, und die Kachel sieht aus wie
+vorher.
+
+Eine Reihe aus Kacheln mit und ohne Symbol wirkt allerdings unruhig — **einen
+Abschnitt deshalb ganz oder gar nicht bebildern.**
+
+Diese Symbole gibt es:
+
+| Name | Zeichnung | gedacht für |
+| --- | --- | --- |
+| `zaehler` | Zähler mit Anzeige | Messkonzepte |
+| `gebaeude` | Mehrfamilienhaus mit Sonne | ZEV |
+| `vernetzt` | zwei Häuser, gestrichelt verbunden | virtuelle ZEV |
+| `gemeinschaft` | drei Häuser auf einer Linie | LEG |
+| `ladestation` | Ladesäule mit Blitz | Elektromobilität |
+| `lizenz` | Schlüssel | Lizenzen, Zugänge |
+| `rechner` | Taschenrechner | Rechner, Kalkulationen |
+| `konfigurator` | Schieberegler | Konfiguratoren, Einstellungen |
+| `ausserhalb` | Haus ausserhalb einer gestrichelten Grenze | Nicht-Teilnehmer |
+| `notstrom` | Batterie mit Blitz | Notstrom, Speicher |
+| `solar` | geneigtes Solarfeld | Produktion, PV |
+| `wlan` | Funkwellen | Internet, Konnektivität |
+| `blatt` | Blatt | Nachhaltigkeit, Minergie |
+| `zertifikat` | Urkunde mit Band | Zertifizierungen |
+| `vertrag` | Blatt mit Unterschrift | Verträge, Rechtliches |
+| `rechnung` | Blatt mit Zeilen | Abrechnung |
+
+Ein Name, den es nicht gibt, bricht den Bau **nicht** ab — die Kachel bleibt
+dann einfach ohne Symbol. Schreib dich also nicht vertippt: Es fällt nur beim
+Hinsehen auf.
+
+**Ein neues Symbol anlegen:** In `src/components/Seitensymbol/index.tsx` einen
+Eintrag in `ZEICHNUNGEN` ergänzen. Die Zeichnungen sind alle gleich gebaut —
+24×24, keine Flächen, Striche in `currentColor` mit 1.7 Breite und runden
+Enden. So passen sie zusammen, nehmen die Farbe ihrer Umgebung an und
+funktionieren im Dark Mode, ohne dass du etwas tun musst. Halte dich daran,
+sonst fällt das neue Zeichen aus der Reihe.
+
 Der Unterschied zu `<Kacheln>`: Dort schreibst du jede Kachel selbst, mit Bild
 und beliebigem Text. Das ist richtig für Partner, Produkte oder eine Auswahl,
 die nicht der Navigation folgt. `<Unterseiten />` nimmt dir die Arbeit ab, wo

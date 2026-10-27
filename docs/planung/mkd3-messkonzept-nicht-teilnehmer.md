@@ -3,6 +3,7 @@ title: 'MKD3 Messkonzept (Teilteilnahme)'
 slug: '/planung/mkd3-messkonzept-nicht-teilnehmer'
 description: 'Tarifierung des Messkonzepts MKD3 mit Nichtteilnehmern'
 sidebar_label: 'MKD3 Messkonzept (nicht Teilnehmer)'
+symbol: 'ausserhalb'
 ---
 ![MKD3 Messkonzept (mit nicht Teilnehmer) – Abbildung 1](/img/planung-mkd3-messkonzept-nicht-teilnehmer/01.png)
 
@@ -22,18 +23,18 @@ Die Menge des verkauften Netzstromes entspricht nicht dem Wert der Rechnung des 
 
 Beim MKD3 erfolgt die Vergütung für Nichtteilnehmer periodisch einmalig in der Abrechnungsperiode.
 
-Begründung zur Abweichung
+**Begründung zur Abweichung**
 
 Die Berechnung und Verteilung im smart-me berechnet den Bezug und Verbrauch der Teilnehmer im 15-Minuten Intervall. Dadurch wird eindeutig identifiziert wer, wann aus welcher Quelle Strom bezieht und wie viel.
 
-Beispiel:
+**Beispiel:**
 
 Wenn zu einem Zeitpunkt X in 15-Minuten 100 kWh Solarstrom produziert werden und die Mieterstrommitglieder zusammen 0 kWh beziehen, während der Nichtteilnehmer 100 kWh beziehen, wird zu diesem Zeitpunkt im von Mieterstrommitgliedern kein Solarstrom bezogen.
 
 Die virtuelle Bilanz des Mieterstroms berechnet nun folgerichtig 0 kWh Bezug, 100 kWh Überschuss.
 Der physische Bilanzzähler misst hingegen 0 kWh Bezug, 0 kWh Überschuss weil die Nichtteilnehmer die ganze Produktion direkt verbraucht hat.
 
-Die Kompensationsrechnung der Energieversorger folgt folgender Regel:
+**Die Kompensationsrechnung der Energieversorger folgt folgender Regel:**
 
 Mieterstrombilanz Import kompensiert = Bilanzzähler Importwert - Bezug Import der Nichtteilnehmer
 \--> Wenn  der Import durch die Kompensation &lt; 0 wird, wird der Rest des Abzuges auf den Export der Bilanz addiert.
@@ -47,11 +48,11 @@ Da die Kompensation je nach dem nicht 15-Minütig sondern Periodisch einmalig ge
 
 ### Validierung
 
-Wenn 15-Minuten Kompensation seitens Energieversorger geschieht:
+**Wenn 15-Minuten Kompensation seitens Energieversorger geschieht:**
 
 Geschieht diese Kompensation seitens Energieversorger auf 15-Minuten Basis, so ist das Ergebnis der virtuellen Bilanzierung von smart-me gleich der Bilanzierung des Energieversorgers.
 
-Validierung
+**Validierung**
 
 - Verrechneter Gesamtnetzstrom Wert = Summe Verkauftem Netzstromwert im Mieterstrom
 
@@ -60,11 +61,11 @@ Validierung
 
 
 
-Wenn die Kompensation 1x pro Periode seitens Energieversorger geschieht:
+**Wenn die Kompensation 1x pro Periode seitens Energieversorger geschieht:**
 
 Wird die Kompensation vom Energieversorger einmalig z.B.  Pro Monat gemacht, so entstehen gröbere Diskrepanzen zwischen den Energieversorgerwerten zu den von uns verkauften Energiemengen. Die Validierung ist nun etwas gewöhnungsbedürftiger.
 
-Begründung:
+**Begründung:**
 
 Wird die Kompensation einmalig pro Monat gemacht mit dem Gesamtbezug der Nichtteilnehmer, findet keine Berücksichtigung statt ob und wie viel die Nichtteilnehmer eigentlich vom lokalen Produzenten beliefert wurden und sich dadurch die virtuelle Bilanz veränderte.
 
@@ -72,7 +73,7 @@ Parallel dazu berechnet das System für die Mieterstromteilnehmer folgerichtig d
 
 Da hier zwei Welten aufeinander prallen (zeitlich) ergibt sich niemals das gleiche Resultat um den einfachen Abgleich zu ermöglichen.
 
-Erkenntnis
+**Erkenntnis:**
 
 Wenn die Kompensation 1x pro Monat stattfindet, so wird der komplette Verbrauch der Nichtteilnehmer als Netzstrom vergütet.
 \--> Das ist grundsätzlich förderlich für den Mieterstromanbieter. (Es erfolgt zwangsweise eine Überkompensation seitens Energieversorger)
@@ -100,7 +101,7 @@ Der Bilanzexport hingegen wird dafür nicht korrekt angepasst und ist dem zu Fol
 
 Wir erhalten anstelle Einspeisevergütung für die Menge, den Netzstromtarif als Rabatt.
 
-Validierung
+**Validierung**
 
 - Der Verrechnete Netzbezug des Energieversorgers ist immer kleiner als die von uns Verrechnete Netzstrom Menge. (Zusätzliche Einnahmen)
 

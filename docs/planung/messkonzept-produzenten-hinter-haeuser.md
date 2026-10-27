@@ -3,6 +3,7 @@ title: 'Messkonzept Produzenten hinter Häuser'
 slug: '/planung/messkonzept-produzenten-hinter-haeuser'
 description: 'Wir erläutern hier, welche Massnahmen getroffen werden müssen, um das Messkonzept für mehrere Produzenten hinter verschiedenen Häusern abzubilden.'
 sidebar_label: 'Messkonzept Produzenten hinter Häuser'
+symbol: 'solar'
 ---
 Wir erläutern hier, welche Massnahmen getroffen werden müssen, um das Messkonzept für mehrere Produzenten hinter verschiedenen Häusern abzubilden.
 

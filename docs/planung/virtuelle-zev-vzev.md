@@ -3,6 +3,7 @@ title: 'Virtuelle ZEV (vZEV)'
 slug: '/planung/virtuelle-zev-vzev'
 description: '0:00 Einführung Webinar vZEV'
 sidebar_label: 'Virtuelle ZEV (vZEV)'
+symbol: 'gemeinschaft'
 ---
 
 

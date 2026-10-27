@@ -3,6 +3,7 @@ title: 'Minergie-Modul Monitoring'
 slug: '/planung/minergie'
 description: 'Gebäude Minergie zertifizieren'
 sidebar_label: 'Minergie'
+symbol: 'blatt'
 ---
 ![Minergie-Modul Monitoring – Abbildung 1](/img/planung-minergie/01.png)
 

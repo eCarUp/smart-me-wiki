@@ -3,6 +3,7 @@ title: 'Cloud Lizenzen'
 slug: '/planung/cloud-lizenzen'
 description: 'Beachte, dass der Professional-Status des Accounts nur erreicht wird, wenn jeder Messpunkt über eine gleichwertige Lizenz verfügt.'
 sidebar_label: 'Cloud Lizenzen'
+symbol: 'lizenz'
 ---
 Beachte, dass der Professional-Status des Accounts nur erreicht wird, wenn jeder Messpunkt über eine gleichwertige Lizenz verfügt.
 

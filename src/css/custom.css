@@ -19,9 +19,9 @@
  * Abstandsraster" beschrieben. Es gehört bewusst nicht in tokens.css: die
  * Datei ist eine unveränderte Kopie der Guidelines.
  *
- * Der Dark Mode ist in den Guidelines nicht beschrieben. Er übernimmt hier die
- * Markenfarben, hellt Blau aber so weit auf, dass der Kontrast auf dunklem
- * Grund ausreicht – siehe Abschnitt "Dark Mode".
+ * Einen Dark Mode gibt es nicht: Er ist in den Guidelines nicht beschrieben,
+ * und die semantischen Farbquartette sind auf hellen Grund gerechnet.
+ * Abgeschaltet wird er in docusaurus.config.ts unter `colorMode`.
  */
 
 /* ==========================================================================
@@ -242,49 +242,6 @@ h6 {
 }
 
 /* ==========================================================================
-   Dark Mode
-
-   Nicht Teil der Guidelines. smart-me Blau (#28599A) hat auf dunklem Grund zu
-   wenig Kontrast, deshalb übernehmen hier die helleren Stufen derselben
-   Blau-Rampe die Rolle der Primärfarbe. Grün und die semantischen Farben
-   bleiben unverändert – sie tragen auf dunklem Grund.
-   ========================================================================== */
-
-[data-theme='dark'] {
-  --ifm-color-primary: var(--sm-illu-blue-200);
-  --ifm-color-primary-dark: var(--sm-illu-blue-300);
-  --ifm-color-primary-darker: var(--sm-illu-blue-400);
-  --ifm-color-primary-darkest: var(--sm-illu-blue-500);
-  --ifm-color-primary-light: var(--sm-blue-25pct);
-  --ifm-color-primary-lighter: #d6dfec;
-  --ifm-color-primary-lightest: var(--sm-illu-blue-50);
-
-  --ifm-background-color: #16202e;
-  --ifm-background-surface-color: #1b2939;
-  --ifm-font-color-base: #e6ebf2;
-  --ifm-heading-color: var(--sm-blue-25pct);
-
-  --ifm-navbar-background-color: #1b2939;
-  --ifm-navbar-link-color: #e6ebf2;
-  --ifm-navbar-shadow: 0 1px 0 #2b3d52;
-  --ifm-menu-color: #c3cddb;
-  --ifm-menu-color-background-active: #22344a;
-  --ifm-menu-color-background-hover: #1f2f43;
-  --ifm-breadcrumb-item-background-active: #22344a;
-  --ifm-toc-border-color: #2b3d52;
-  --ifm-hr-border-color: #2b3d52;
-
-  --ifm-link-color: var(--sm-illu-blue-100);
-  --ifm-link-hover-color: var(--sm-blue-25pct);
-
-  --ifm-footer-background-color: #101924;
-
-  --ifm-code-background: #22344a;
-  --ifm-pre-background: #101924;
-  --docusaurus-highlighted-code-line-bg: #22344a;
-}
-
-/* ==========================================================================
    Feinheiten aus den Guidelines
    ========================================================================== */
 
@@ -296,10 +253,6 @@ h6 {
   --ifm-footer-link-color: var(--sm-blue-25pct);
   --ifm-footer-link-hover-color: var(--sm-grey-200);
   --ifm-footer-title-color: var(--sm-grey-200);
-}
-
-[data-theme='dark'] .footer--dark {
-  --ifm-footer-background-color: #101924;
 }
 
 /* Links im Fliesstext sind immer unterstrichen. Navigation, Sidebar und
@@ -339,13 +292,7 @@ h6 {
   color: var(--sm-blue);
 }
 
-[data-theme='dark'] .markdown strong {
-  color: var(--sm-blue-25pct);
-}
-
-/* Das Logo ist eine Wortmarke und darf nicht verändert werden. Auf dunklem
-   Grund reicht der Kontrast des Blauanteils nicht, deshalb steht es dort auf
-   einer hellen Fläche – die von den Guidelines vorgesehene Ausnahme. */
+/* Das Logo ist eine Wortmarke und darf nicht verändert werden. */
 .navbar__logo {
   height: 1.6rem;
   display: flex;
@@ -355,12 +302,6 @@ h6 {
 .navbar__logo img {
   height: 100%;
   width: auto;
-}
-
-[data-theme='dark'] .navbar__logo {
-  background: var(--sm-grey-200);
-  border-radius: var(--sm-radius-sm);
-  padding: 0.2rem 0.4rem;
 }
 
 /* Der Seitentitel steht direkt neben der Wortmarke und ergänzt sie zu
@@ -436,8 +377,4 @@ h6 {
 /* Ruhige Fläche für die Suchergebnisse und die Sidebar-Kopfzeile. */
 .theme-doc-sidebar-container {
   background: var(--sm-blue-5pct);
-}
-
-[data-theme='dark'] .theme-doc-sidebar-container {
-  background: #101924;
 }

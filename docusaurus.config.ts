@@ -122,8 +122,16 @@ const config: Config = {
 
   themeConfig: {
     image: 'img/smart-me-social-card.png',
+    // Kein Dark Mode. Die Guidelines beschreiben ihn nicht, und die
+    // semantischen Farbquartette (Hinweise, FAQ-Klappblöcke) sind auf hellen
+    // Grund gerechnet: Auf dunklem Grund stand dort weisse Schrift auf
+    // hellblauer Fläche. `disableSwitch` nimmt den Schalter aus der Kopfzeile,
+    // `respectPrefersColorScheme: false` sorgt dafür, dass auch eine dunkel
+    // eingestellte Systemoberfläche nicht umschaltet.
     colorMode: {
-      respectPrefersColorScheme: true,
+      defaultMode: 'light',
+      disableSwitch: true,
+      respectPrefersColorScheme: false,
     },
     navbar: {
       // Die Wortmarke traegt bereits den Namen – daneben steht nur noch der

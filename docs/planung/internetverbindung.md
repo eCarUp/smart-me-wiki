@@ -26,9 +26,9 @@ Ausfallebenen
 
 ## Mobilfunk Datenanbieter (LTE)
 
-Die Datenabos: [Digital Republic - Mobiles Internet für deine Geräte](https://digitalrepublic.ch/de/lp/ecarup-smartme-dr-ladestationen/?utm_source=ecarup&utm_medium=ecarupwiki&utm_campaign=ecarupwiki)
+Die Datenabos: [Digital Republic - Mobiles Internet für deine Geräte](https://digitalrepublic.ch/)
 
-[![Internetverbindung – Abbildung 2](/img/planung-internetverbindung/02.png)](https://digitalrepublic.ch/de/lp/ecarup-smartme-dr-ladestationen/?utm_source=smartme&utm_medium=smartmewiki&utm_campaign=smartmewiki)
+[![Internetverbindung – Abbildung 2](/img/planung-internetverbindung/02.png)](https://digitalrepublic.ch/)
 
 ## Hardwareanforderungen
 

@@ -8,11 +8,11 @@ Auf dieser Seite werden die häufigsten Fehler rund um das M-Bus Gateway behande
 
 ## Gateway findet nicht alle Zähler
 
-Viele M-Bus Zähler beziehen Ihren Strom vom Gateway. Unser Gateway unterstützt 50 Standard Lasten. 
+Viele M-Bus Zähler beziehen ihren Strom vom Gateway. Unser Gateway unterstützt 50 Standard Lasten. 
 
-- Starte noch 1-2x ein Suchdurchlauf. Es kann sein, dass der Zähler sich nicht immer beim ersten suchdurchlauf meldet.
+- Starte noch 1-2x einen Suchdurchlauf. Es kann sein, dass der Zähler sich nicht immer beim ersten Suchdurchlauf meldet.
 
-- Überprüfe ob die Summe der Lasten 50 nicht überschreitet.
+- Überprüfe, ob die Summe der Lasten 50 nicht überschreitet.
 
 - Zu lange Leitungen, bzw. zu dünne Zähler führen zu Verlusten auf den Leitungen.
 
@@ -47,10 +47,10 @@ Eine instabile Verbindung kann zu fehlerhafter Übertragung der Seriennummer fü
 
 - -   Lösung 1: Diese Zähler können deaktiviert werden, so wird verhindert, dass dieser eine Lizenz bezieht.
 
-    - Lösung 2: Erkennung von neuen Geräte unterbinden
+    - Lösung 2: Erkennung von neuen Geräten unterbinden
 
 
-Wir wird das erkennen von neuen Geräten unterbunden
+Wie wird das Erkennen von neuen Geräten unterbunden
 
 - M-Bus Gateway auswählen.
 
@@ -97,16 +97,16 @@ Technische Erklärung
 
 - Zähler fallen unregelmässig aus, es sind nicht immer die gleichen Zähler.
 
-    - Die Zähler benötigen etwa 10 Sekunden zum antworten. Ist der Ausleseintervall zu klein eingestellt, haben diese keine Möglichkeit dazu. 
+    - Die Zähler benötigen etwa 10 Sekunden zum Antworten. Ist der Ausleseintervall zu klein eingestellt, haben diese keine Möglichkeit dazu. 
 
         - Lösung: Auf dem M-Bus Gateway kann der Ausleseintervall erhöht werden. Empfohlen sind 10 Sekunden pro Gerät.
 
 
 
 
-- Zähler verlieren immer um die selbe Tageszeit (Stunde und Minute) die Verbindung. 
+- Zähler verlieren immer um dieselbe Tageszeit (Stunde und Minute) die Verbindung. 
 
-    - In diesem Fall kann ein sein, dass Zähler batteriegestützt sind und zur Schonung der Batterie, nur eine bestimmte Anzahl Auslesungen pro Tag erlauben. 
+    - In diesem Fall kann es sein, dass Zähler batteriegestützt sind und zur Schonung der Batterie nur eine bestimmte Anzahl Auslesungen pro Tag erlauben. 
 
         - Lösung: Hier kann der Ausleseintervall auf 6 oder 12 Stunden erhöht werden.
 
@@ -115,7 +115,7 @@ Technische Erklärung
 
 - Zähler fallen unregelmässig aus, es sind mehrheitlich die gleichen Zähler.
 
-    - Externe Störungen auf den Leitungen, vor allem bei längeren Leitungen, können zur fehlerhaften Übertragungen führen.
+    - Externe Störungen auf den Leitungen, vor allem bei längeren Leitungen, können zu fehlerhaften Übertragungen führen.
 
         - Lösung: Zählerverdrahtung kurz halten.
 
@@ -135,11 +135,11 @@ Technische Erklärung
 
 - M-Bus in Betrieb nehmen.
 
-- Auf dem Portal das Ausleseintervall setzten.
+- Auf dem Portal das Ausleseintervall setzen.
 
 - Geräte suchen.
 
-- Prüfen ob alle M-Bus Zähler aktuelle Werte geliefert haben.
+- Prüfen, ob alle M-Bus Zähler aktuelle Werte geliefert haben.
 
 
-Hinweis: Es muss in der smart-me Konfiguration und im Billing nichts an den bestehenden M-Bus Zähler geändert werden.
+Hinweis: Es muss in der smart-me Konfiguration und im Billing nichts an den bestehenden M-Bus Zählern geändert werden.

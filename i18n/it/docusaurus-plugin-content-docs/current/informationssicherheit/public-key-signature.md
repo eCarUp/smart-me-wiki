@@ -4,16 +4,16 @@ slug: '/informationssicherheit/public-key-signature'
 description: 'I contatori smart-me (a partire dalla versione 2.0) firmano digitalmente tutti i dati di misura e le transazioni.'
 sidebar_label: 'Public Key Signature'
 ---
-I contatori smart-me (a partire dalla versione 2.0) firmano digitalmente tutti i dati di misura e le transazioni. In questo modo è possibile verificare in qualsiasi momento l'autenticità dei valori misurati. A tale scopo smart-me utilizza il principio crittografico della protezione end-to-end mediante una firma digitale basata sulla crittografia asimmetrica.
+I contatori smart-me (a partire dalla versione 2.0) firmano digitalmente tutti i dati di misura e le transazioni. In questo modo è possibile verificare in qualsiasi momento l'autenticità dei valori misurati. A tale scopo smart-me utilizza il principio crittografico di una protezione end-to-end mediante una firma digitale basata sulla crittografia asimmetrica.
 
-smart-me distingue tra due tipi di valori misurati firmati:
+smart-me distingue tra due tipi di valori di misura firmati:
 
-- Signed meter values: valori misurati firmati, che vengono salvati e firmati ogni 15 minuti. Ideali per il conteggio del consumo di energia.
+- Signed meter values: valori di misura firmati, che vengono salvati e firmati ogni 15 minuti. Ideali per il conteggio del consumo di energia.
 
-- Signed transaction: le transazioni firmate sono pensate per i consumi di energia in un determinato periodo (ad es. ricarica di veicoli elettrici). Hanno sempre un valore iniziale e un valore finale.
+- Signed transaction: le transazioni firmate sono pensate per i consumi di energia in un determinato periodo (ad es. la ricarica di veicoli elettrici). Hanno sempre un valore iniziale e un valore finale.
 
 
-## Tecnologia / procedura
+## Tecnologia / Procedura
 
 Algoritmo di firma: ECDSA 256 Bit NIST curve (SECP256R1)
 
@@ -23,9 +23,9 @@ Algoritmo di hash: SHA256
 
 Durante la produzione del contatore viene generata una coppia di chiavi asimmetriche, che viene salvata sul contatore. La chiave pubblica (Public Key) viene inoltre salvata nel cloud, dove è accessibile pubblicamente.
 
-### Procedura: firma dei valori misurati
+### Procedura: firma dei valori di misura
 
-- Ogni 15 minuti o al termine di una transazione viene creato un pacchetto di dati con i relativi valori misurati.
+- Ogni 15 minuti o al termine di una transazione viene creato un pacchetto di dati con i relativi valori di misura.
 
 - Su questi dati viene calcolato un hash (SHA256).
 
@@ -34,7 +34,7 @@ Durante la produzione del contatore viene generata una coppia di chiavi asimmetr
 - Il pacchetto di dati viene inviato al cloud insieme alla firma e lì salvato.
 
 
-### Procedura: verifica dei valori misurati
+### Procedura: verifica dei valori di misura
 
 - Il cliente riceve il pacchetto con i dati di misura tramite l'app, il web o una terza parte.
 
@@ -47,7 +47,7 @@ Durante la produzione del contatore viene generata una coppia di chiavi asimmetr
 
 ### Pacchetti di dati
 
-Per mantenere il più piccoli possibile le dimensioni del pacchetto di dati e quindi la quantità di dati necessaria per la trasmissione, smart-me utilizza per i valori misurati il formato di dati "Google Protocol Buffers". I pacchetti di dati sono strutturati come segue:
+Per mantenere il più ridotte possibile le dimensioni del pacchetto di dati e quindi la quantità di dati necessaria per la trasmissione, smart-me utilizza "Google Protocol Buffers" come formato dei dati per i valori di misura. I pacchetti di dati sono strutturati come segue:
 
 Signed meter values
 
@@ -70,18 +70,18 @@ Measurement values
 
 SerialNumber: il numero di serie del contatore (ad es. 6300000)
 TimestampUtc: Unix Time Stamp (UTC) di questi dati di misura
-Values: elenco di tutti i valori misurati (CounterValue) contenuti in questo pacchetto di dati.
+Values: elenco di tutti i valori di misura (CounterValue) contenuti in questo pacchetto di dati.
 
 CounterValue
 
-Obis: codice OBIS del valore misurato (6 bytes). Ad es.
+Obis: codice OBIS del valore di misura (6 bytes). Ad es.
 &#123; 0x01, 0x00, 0x01, 0x08, 0x01, 0xFF &#125; per 1-0:1.8.1\*255 (energia attiva prelievo tariffa 1)
-Value: il valore misurato
-Unit: l'unità del valore misurato. Con smart-me di solito mWh (milliwattora)
+Value: il valore di misura
+Unit: l'unità del valore di misura. Per smart-me di solito mWh (milliwattora)
 
 ## Transazioni firmate
 
-Le transazioni sono costituite da un valore iniziale e da un valore finale.
+Le transazioni sono composte da un valore iniziale e da un valore finale.
 
 ```
 message CounterValue {
@@ -109,10 +109,10 @@ message Transaction
 
 Transazione
 SerialNumber: il numero di serie del contatore (ad es. 6300000)
-TransactionNumber: il numero della transazione. Questo numero viene incrementato a ogni transazione.
+TransactionNumber: il numero della transazione. Questo numero aumenta a ogni transazione.
 UserId: l'ID dell'utente che ha avviato questa transazione.
-StartValues: i valori misurati all'inizio della transazione (vedi sopra)
-EndValues: i valori misurati alla fine della transazione (vedi sopra)
+StartValues: i valori di misura all'inizio della transazione (vedi sopra)
+EndValues: i valori di misura alla fine della transazione (vedi sopra)
 
 ## Esempio
 
@@ -206,13 +206,13 @@ StartValues
 
 TimeStampUtc 1556194384 = 25.04.2019 12:04 (UTC)
 
-Valore misurato 1 Obis: AQABCAD/ = 01 00 01 08 00 ff = 1-0:1.8.0\*255 (energia attiva prelievo totale)
+Valore di misura 1 Obis: AQABCAD/ = 01 00 01 08 00 ff = 1-0:1.8.0\*255 (energia attiva prelievo totale)
 
-Valore misurato 1: valore 3830562339 mWh = 3830.562 kWh
+Valore di misura 1: valore 3830562339 mWh = 3830.562 kWh
 
-Valore misurato 2 Obis: AQACCAD/ = 01 00 02 08 00 ff = 1-0:2.8.0\*255 (energia attiva immissione totale)
+Valore di misura 2 Obis: AQACCAD/ = 01 00 02 08 00 ff = 1-0:2.8.0\*255 (energia attiva immissione totale)
 
-Valore misurato 2: valore 6177828 mWh = 6.177 kWh
+Valore di misura 2: valore 6177828 mWh = 6.177 kWh
 
 
 
@@ -220,13 +220,13 @@ EndValues
 
 TimeStampUtc 1556194384 = 25.04.2019 12:13 (UTC)
 
-Valore misurato 1 Obis: AQABCAD/ = 01 00 01 08 00 ff = 1-0:1.8.0\*255 (energia attiva prelievo totale)
+Valore di misura 1 Obis: AQABCAD/ = 01 00 01 08 00 ff = 1-0:1.8.0\*255 (energia attiva prelievo totale)
 
-Valore misurato 1: valore 3833552299 mWh = 3833.552 kWh
+Valore di misura 1: valore 3833552299 mWh = 3833.552 kWh
 
-Valore misurato 2 Obis: AQACCAD/ = 01 00 02 08 00 ff = 1-0:2.8.0\*255 (energia attiva immissione totale)
+Valore di misura 2 Obis: AQACCAD/ = 01 00 02 08 00 ff = 1-0:2.8.0\*255 (energia attiva immissione totale)
 
-Valore misurato 2: valore 6177828 mWh = 6.177 kWh
+Valore di misura 2: valore 6177828 mWh = 6.177 kWh
 
 
 

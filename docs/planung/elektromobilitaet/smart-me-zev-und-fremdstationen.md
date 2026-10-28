@@ -10,10 +10,10 @@ sidebar_label: 'smart-me System und Fremdstationen'
 
 ### Beschreibung der Lastmanagementlösung im Messkonzept mit Drittanbieter Ladestationen
 
-Bei der Verwendung von Drittanbieter Hardware, kümmert sich smart-me nicht um das Lastmanagement.
+Bei der Verwendung von Drittanbieter Hardware kümmert sich smart-me nicht um das Lastmanagement.
 Der Hersteller der Ladehardware bietet seine eigene Messlösung zur Steuerung an.
 
-Innerhalb einer smart-me ZEV / Mieterstrom muss damit gerechnet werden das an den Stellen wo sich die roten Pfeile befinden zusätzlich zu den smart-me Zählern für die Berechnung des ZEV / Mieterstrom noch Zählerhardware zur Steuerung eingebaut werden muss.
+Innerhalb einer smart-me ZEV / Mieterstrom muss damit gerechnet werden, dass an den Stellen, wo sich die roten Pfeile befinden, zusätzlich zu den smart-me Zählern für die Berechnung des ZEV / Mieterstrom noch Zählerhardware zur Steuerung eingebaut werden muss.
 
 Wird hingegen das Lastmanagement nicht vom jeweiligen Hersteller verwendet, sondern über eine Drittanbieter Software gelöst, so können die smart-me Zähler auch für die Drittanbieterhardware als Referenz und Informationsquelle dienen.
 

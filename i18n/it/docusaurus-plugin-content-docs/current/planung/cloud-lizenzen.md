@@ -41,7 +41,7 @@ Standard per:
 - Report
 - Profili di carico
 - Gestione avanzata di cartelle e contatori
-- [Link pubblici](/konfiguration/visualisierung)
+- [Public Links](/konfiguration/visualisierung)
 - 1 valore di misura al minuto (API)
 - API: solo uso privato e controllo \*\*
 
@@ -49,14 +49,14 @@ Standard per:
 
 <Kachel titel="Professional *">
 
-Estensione possibile per tutti i punti di misura nel cloud smart-me.
+Estensione possibile per tutti i punti di misura nella smart-me Cloud.
 
-**Funzionalità: tutto quanto incluso in Limited, inoltre**
+**Funzionalità: tutto quanto incluso in Limited, più**
 
 - [Billing](/konfiguration/billing)
 - [Contatori virtuali](/konfiguration/virtuelle-zaehler)
 - [Auto Export](/schnittstellen/auto-export)
-- [Configurazione utente](/konfiguration/benutzerkonfiguration)
+- [Configurazione degli utenti](/konfiguration/benutzerkonfiguration)
 - [Gestione dinamica del carico Pico](/produkte/pico-ladestation/pico-lastmanagement)
 - Se/allora → regolazione Pico
 - oAuth
@@ -69,7 +69,7 @@ Estensione possibile per tutti i punti di misura nel cloud smart-me.
 
 </Kacheln>
 
-\*Il rispettivo livello di abbonamento viene raggiunto solo se ogni punto di misura nell'account ha lo stesso livello di licenza.
+\*Il rispettivo livello di abbonamento viene raggiunto solo se ogni punto contatore dell'account ha lo stesso livello di licenza.
 
 \*\* Un uso commerciale dell'API richiede sempre il livello di abbonamento Professional.
 
@@ -81,36 +81,36 @@ Gli account misti non sono possibili e rimangono nello stato Basic o Limited se 
 
 ## Calcolo del numero corretto di licenze Professional
 
-Affinché il tuo account raggiunga lo stato Professional, ti serve almeno una licenza Professional per ogni contatore (anche virtuale) presente nell'account.
+Affinché il tuo account raggiunga lo stato Professional, ti serve almeno una licenza Professional per ogni contatore (anche virtuale) nell'account.
 
 Non è possibile combinare in un account contatori con licenza e contatori senza licenza.
 
-Regola empirica per RCP (raggruppamento ai fini del consumo proprio) e RCP virtuale (vRCP) con tariffa solare e/o della batteria uniforme:
+Regola pratica per RCP (raggruppamento ai fini del consumo proprio) e RCP virtuale (vRCP) con tariffa solare e/o della batteria unica:
 
-RCP con 1 impianto fotovoltaico: numero di contatori = numero di licenze
-RCP con \>1 impianto fotovoltaico (visualizzazioni): numero di contatori + 1 (virtuale)
+RCP con 1x impianto FV: numero di contatori = numero di licenze
+RCP con \>1x impianto FV (visualizzazioni): numero di contatori + 1 (virtuale)
 
-Regola empirica per sistemi RCP con tariffa solare e tariffa della batteria separate (solo sistemi con accoppiamento AC):
+Regola pratica per sistemi RCP con tariffa solare e tariffa della batteria separate (solo sistemi con accoppiamento AC):
 
-RCP con 1 impianto fotovoltaico: numero di contatori + 1 (virtuale)
+RCP con 1x impianto FV: numero di contatori + 1 (virtuale)
 
-RCP con >1 impianto fotovoltaico: numero di contatori + 2 (virtuali)
+RCP con >1x impianto FV: numero di contatori + 2 (virtuali)
 
-### Esempio elettricità con contatori smart-me (1 impianto fotovoltaico)
+### Esempio elettricità con contatori smart-me (1x FV)
 
 3x Telstar 80A
 2x Telstar CT
 
 Totale Professional tutti i tipi di energia: 5 pezzi
 
-### Esempio elettricità con contatori smart-me + calore / acqua con M-Bus Gateway (1 impianto fotovoltaico)
+### Esempio elettricità con contatori smart-me + calore / acqua con M-Bus Gateway (1x FV)
 
 3x Telstar 80A
 2x Telstar CT
 
 Licenze Professional tutti i tipi di energia: 5 pezzi
 
-1x M-Bus Gateway con contatori di calore / acqua collegati
+1x M-Bus Gateway con contatori di calore / dell'acqua collegati
 
 3x calore
 3x freddo
@@ -125,7 +125,7 @@ Nota: l'M-Bus Gateway stesso non richiede alcuna licenza.
 
 ## Copertura delle licenze
 
-L'installazione descritta sopra con diversi vettori energetici può essere coperta da licenze in due modi.
+L'installazione descritta sopra con diversi vettori energetici può ora essere coperta da licenza in due modi.
 
 ### Abbonamento mensile
 
@@ -151,14 +151,14 @@ Le licenze pluriennali sono in media più convenienti e non sono soggette agli e
 
 ## Sei un cliente "Professional"?
 
-Con le figure riportate di seguito puoi scoprire facilmente se ti servono licenze Professional nel tuo account. 
+Con le figure seguenti scopri facilmente se ti servono licenze Professional nel tuo account. 
 
 ### Conteggio RCP
 
 Nel conteggio RCP (raggruppamento ai fini del consumo proprio) è determinante quale sistema tariffario deve essere rappresentato e se il conteggio deve avvenire in modo automatizzato.
 
-![Licenze cloud – Figura 1](/img/planung-cloud-lizenzen/01.png)
+![Licenze cloud – Figura 1](/img/planung-cloud-lizenzen/01_EN.png)
 
 ### Controllo RCP
 
-![Licenze cloud – Figura 2](/img/planung-cloud-lizenzen/02.png)
+![Licenze cloud – Figura 2](/img/planung-cloud-lizenzen/02_EN.png)

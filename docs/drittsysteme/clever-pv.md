@@ -14,7 +14,7 @@ Für die PV-Überschussnutzung ist es essenziell, dass die aktuelle Einspeise- b
 Die Energiedaten zur Steuerung können schnell und zuverlässig von smart-me Metern direkt in Clever-PV gestreamt werden.
 
 </div>
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
 ![Clever PV – Abbildung 1](/img/drittsysteme-clever-pv/01.png)
 

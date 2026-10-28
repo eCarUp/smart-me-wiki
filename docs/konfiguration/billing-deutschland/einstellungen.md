@@ -12,10 +12,10 @@ vorheriger_schritt: konfiguration/billing-deutschland/index
 
 Logge dich in den gewünschten smart-me Account ein und öffne die Einstellungen der Rechnungserstellung.
 
-Hier nimmst du die allgemeinen Einstellungen für die Darstellung des Rechnungsdokument vor.
+Hier nimmst du die allgemeinen Einstellungen für die Darstellung des Rechnungsdokuments vor.
 - Währung (bei Mieterstrom immer EUR)
 - Steuer 
-- Logo ihrer Firma (für die Darstellung im  Rechnungsdokument)
+- Logo ihrer Firma (für die Darstellung im Rechnungsdokument)
 - Kopfzeile / Absender
 - Fusszeile
 
@@ -24,7 +24,7 @@ Hier nimmst du die allgemeinen Einstellungen für die Darstellung des Rechnungsd
 <div className="row">
 <div className="col col--6">
 
-Zusätzlich kannst du nun unten im Bereich "Mieterstrom Deutschland" den Knopf aktivieren.  Damit werden die zusätzlichen Einstellungen für die Mieterstrom - Erweiterungen freigeschaltet.
+Zusätzlich kannst du nun unten im Bereich "Mieterstrom Deutschland" den Knopf aktivieren. Damit werden die zusätzlichen Einstellungen für die Mieterstrom - Erweiterungen freigeschaltet.
 
 </div>
 <div className="col col--6 bild--mitte">

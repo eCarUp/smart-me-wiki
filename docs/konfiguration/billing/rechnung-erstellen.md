@@ -11,7 +11,7 @@ vorheriger_schritt: konfiguration/billing/vewa-abrechnung
 <div className="row">
 <div className="col col--5">
 
-Wenn der Blaue Kasten bei den Virtuellen Tarifen auf dem heutigen Datum ist, kann eine Proberechnung erstellt werden.
+Wenn der blaue Kasten bei den Virtuellen Tarifen auf dem heutigen Datum ist, kann eine Proberechnung erstellt werden.
 
 - Datum eingeben
 

@@ -4,34 +4,34 @@ slug: '/konfiguration/inbetriebnahme/inbetriebnahme-lora/milesight-ug56-868mhz'
 description: 'Collegamento del gateway al cloud smart-me'
 sidebar_label: 'Milesight UG56 868Mhz'
 ---
-## Guida all'integrazione
+## Istruzioni di integrazione
 
 ![Milesight UG56 868Mhz – Figura 1](/img/konfiguration-inbetriebnahme-inbetriebnahme-lora-milesight-ug56-868mhz/01.png)
 
 ## Collegamento del gateway al cloud smart-me
 
-1.  Alimenti il dispositivo
+1.  Alimenta il dispositivo
 
-2.  Con il Suo laptop si colleghi alla rete Wi-Fi del Milesight UG56 (Gateway\_\*\*\*\*\*\*\*), non è necessaria alcuna password.
-    Password Wi-Fi: iotpassword
+2.  Collegati con il tuo laptop alla rete Wifi del Milesight UG56 (Gateway\_\*\*\*\*\*\*\*), nessuna password necessaria.
+    Password Wifi: iotpassword
 
-3.  Apra il browser web e visiti 192.168.1.1
+3.  Apri il browser web e vai all'indirizzo 192.168.1.1
 
-4.  Effettui l'accesso.
-    Nome utente: admin
+4.  Effettua il login.
+    Username: admin
     Password: password
 
-5.  Navighi fino a "Packet Forwarder" e copi l'EUI del dispositivo per la successiva implementazione in smart-me.
+5.  Vai a "Packet Forwarder" e copia l'EUI del dispositivo per la successiva implementazione in smart-me.
 
-6.  Crei una nuova destinazione con:
+6.  Crea una nuova destinazione (Destination) con:
     Tipo: Semtech
     Indirizzo del server: lora-gateway.smart-me.com
     Port Up: 1700
     Port Down: 1700
 
-7.  Salvi l'impostazione
+7.  Salva l'impostazione
 
-8.  Registri il dispositivo con il suo EUI nello smart-me LoRa Gateway
+8.  Registra il dispositivo con il suo EUI nel Gateway LoRa (LoRa Gateway) di smart-me
 
 
 Nota: in seguito è possibile accedere di nuovo all'interfaccia web tramite l'access point solo se il cavo Ethernet non è collegato.

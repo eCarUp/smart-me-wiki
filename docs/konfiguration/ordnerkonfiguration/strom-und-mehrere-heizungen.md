@@ -11,7 +11,7 @@ naechste_schritte: [konfiguration/wenndann-aktionen/alarme]
 
 Vorteil:
 
-- Keine doppelte erfassung von Mieterkontrakten notwendig
+- Keine doppelte Erfassung von Mieterkontrakten notwendig
 
 
 Nachteil:
@@ -21,14 +21,14 @@ Nachteil:
 - Multiple Eintragung der Stromtarife (Pro Liegenschaft)
 
 
-### Strom mit oder ohne E-Mobilität und Multienergie mit mehreren Gebäuden und indivuduellen Heizungen. (Überbauung)
+### Strom mit oder ohne E-Mobilität und Multienergie mit mehreren Gebäuden und individuellen Heizungen. (Überbauung)
 
 Relevant für ZEV's mit Stromzähler, Multienergiezähler, mehreren Gebäuden und optional Ladestationen.
 
 Bei Arealen mit mehreren Gebäuden und individuellen Heizsystemen ist pro Heizsystem eine Liegenschaft zu erstellen. Wenn also drei Gebäude unterschiedliche Heizsysteme haben, muss die Konfiguration gemäss 3c ausgeführt werden.
 
 Hinweis:
-Wenn nur ein Gebäude eine individuelle Heizung besitzt und die zwei anderen sich eine Zentralheizung teilen, reichen zwei Liegenschaften welche die Bezüger passend zusammenfasst.
+Wenn nur ein Gebäude eine individuelle Heizung besitzt und die zwei anderen sich eine Zentralheizung teilen, reichen zwei Liegenschaften, welche die Bezüger passend zusammenfassen.
 
 Beispiel:
 Drei Gebäude mit den Namen Altgasse 13, Altgasse 15+17, Altgasse 19.
@@ -65,7 +65,7 @@ Weise Ladestationen nicht direkt Wohnungen zu, erstelle lieber eine separate Abr
 
 Ladestationen anderer Hersteller
 
-Ladestationen anderer Hersteller werden im smart-me nicht direkt verwaltet oder Abgerechnet. In diesem Fall erstelle einen Knoten für den E-Mobilitätsabgang und weise den Abgangszähler dem Knoten zu. So erhälst du den Gesamtaufwand für alle Ladestationen.
+Ladestationen anderer Hersteller werden im smart-me nicht direkt verwaltet oder abgerechnet. In diesem Fall erstelle einen Knoten für den E-Mobilitätsabgang und weise den Abgangszähler dem Knoten zu. So erhältst du den Gesamtaufwand für alle Ladestationen.
 
 
 
@@ -93,12 +93,12 @@ Nachteil:
 
 - Mehrfacherfassung von Mieterkontrakten
 
-Für diese Konfiguration muss eine zusätzliche Liegenschaft nur für Strom erstellt werden welche alle Wohnungen der drei Gebäude beinhaltet.
+Für diese Konfiguration muss eine zusätzliche Liegenschaft nur für Strom erstellt werden, welche alle Wohnungen der drei Gebäude beinhaltet.
 
 Es werden in dieser Liegenschaft nur die Stromzähler zugeordnet.
 
 </div>
-<div className="col col--5 text--center">
+<div className="col col--5 bild--mitte">
 
 ![Strom und mehrere Heizungen – Abbildung 3](/img/konfiguration-ordnerkonfiguration-strom-und-mehrere-heizungen/03.png)
 

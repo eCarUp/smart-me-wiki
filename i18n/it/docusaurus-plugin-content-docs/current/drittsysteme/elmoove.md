@@ -1,20 +1,20 @@
 ---
 title: 'elmoove'
 slug: '/drittsysteme/elmoove'
-description: 'Ricarica intelligente con la mooveBar'
+description: 'Ricaricare in modo intelligente con la mooveBar'
 sidebar_label: 'elmoove'
 ---
 ## Registrazione del webinar
 
 <Video src="5DH7QX_c5qY" title="Video YouTube" />
 
-## Ricarica intelligente con la mooveBar
+## Ricaricare in modo intelligente con la mooveBar
 
-Elmoove è un'azienda svizzera che dal 2017 si occupa di E-Mobility, E-Micromobility e sistemi di gestione dell'energia.
+Elmoove è un'azienda svizzera che dal 2017 si occupa di e-mobility, e-micromobility e sistemi di gestione dell'energia.
 
-La mooveBar è il prodotto più innovativo in termini di soluzioni di ricarica nel mercato delle e-bike. Grazie alla sua struttura modulare, può essere impiegata per conteggi energetici qualificati negli immobili. La mooveBar è dotata di 4 prese, alle quali è possibile collegare qualsiasi caricabatterie. Le prese sono permanentemente prive di tensione e devono essere abilitate mediante tessere RFID. In questo modo si garantisce che nessuno possa ricaricare il proprio veicolo senza autorizzazione. 
+La mooveBar è il prodotto più innovativo tra le soluzioni di ricarica nel mercato delle e-bike. Grazie alla sua struttura modulare, può essere impiegata per conteggi energetici qualificati negli immobili. La mooveBar è dotata di 4 prese, alle quali è possibile collegare qualsiasi caricabatterie. Le prese sono permanentemente prive di tensione e devono essere abilitate tramite tessere RFID. In questo modo si garantisce che nessuno possa ricaricare il proprio veicolo senza autorizzazione. 
 
-Per un'integrazione corretta, la ditta elmoove GmbH può configurare la stazione. 
+Per un'integrazione riuscita, la stazione può essere configurata dalla ditta elmoove GmbH. 
 
 Per un'offerta, le informazioni necessarie sono disponibili in qualsiasi momento sul sito web di elmoove [www.elmoove.ch](http://www.elmoove.ch). 
 

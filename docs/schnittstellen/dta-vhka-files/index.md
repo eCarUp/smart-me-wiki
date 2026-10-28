@@ -39,9 +39,9 @@ Somit können die Immobilienverwaltungen, unabhängig ihrer verwendeten Software
     (VEWA muss in smart-me konfiguriert sein)
 
 
-2.  Die Abrechnungseinheiten und entsprechenden Kostenstellen müssen in beiden Softwares abgleichbar sein. Dies wird mit Hilfe den externen Schlüsseln im smart-me bewerkstelligt.
+2.  Die Abrechnungseinheiten und entsprechenden Kostenstellen müssen in beiden Softwares abgleichbar sein. Dies wird mit Hilfe der externen Schlüssel im smart-me bewerkstelligt.
 
-3.  Das Exportierte VHKA-Anfragefile kann danach im smart-me Billing hochgeladen werden.
+3.  Das exportierte VHKA-Anfragefile kann danach im smart-me Billing hochgeladen werden.
 
 4.  Das smart-me Billing berechnet die Verbräuche der einzelnen Abrechnungseinheiten pro Energietyp und befüllt das hochgeladene File mit den Daten.
 
@@ -117,7 +117,7 @@ Häufigste Kombinationen:
 Externe Schlüssel werden für den Abgleich der Abrechnungseinheiten und Kostenstellen im Anfragefile mit den Tarifen und Abrechnungseinheiten der smart-me Plattform benötigt. 
 
 Hinweis:
-Solange sich keine Änderungen auf Seiten der Immobiliensoftware ergeben (Zusätzliche Räume oder Kostenstellen), sind die externen Schlüssel statisch und müssen nicht jedes mal erneuert werden.
+Solange sich keine Änderungen auf Seiten der Immobiliensoftware ergeben (Zusätzliche Räume oder Kostenstellen), sind die externen Schlüssel statisch und müssen nicht jedes Mal erneuert werden.
 
 ![DTA-VHKA Files Import / Export (Beta) – Abbildung 8](/img/schnittstellen-dta-vhka-files/08.png)
 
@@ -125,7 +125,7 @@ Damit die Kostenstellen im VHKA-Auftragsfile eindeutig zugeordnet werden können
 
 Die Verlinkung passiert über den jeweiligen externen Schlüssel beim erzeugten Tarif.
 
-Wenn mehrere Tarife auf die gleiche Kostenstelle gelinkt werden, erhalten einfach mehrere tarife die gleiche Kostenstellen ID.
+Wenn mehrere Tarife auf die gleiche Kostenstelle gelinkt werden, erhalten einfach mehrere Tarife die gleiche Kostenstellen ID.
 
 Einzeln:
 Kostenstelle Netzstrom (ID= 6) --> Einheitstarif Netz ( Externer Schlüssel = 6)
@@ -144,7 +144,7 @@ Hinweis: 
 
 ## Kompatible Softwares und spezifische Konfigurationshinweise
 
-Immobiliensoftwares welche den DTA-VHKA Standard unterstützen.
+Immobiliensoftwares, welche den DTA-VHKA Standard unterstützen.
 Liste gemäss Qualipool: [https://qualipool.ch/projekt/](https://qualipool.ch/projekt/) 
 
 - [Immotop2](/schnittstellen/dta-vhka-files/immotop2)

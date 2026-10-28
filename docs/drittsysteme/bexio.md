@@ -26,7 +26,7 @@ Funktionen
 3.  Bei "Export zu Drittanbieter" wähle Bexio
 4.  Klicke auf Login und logge dich in Bexio ein
 5.  Klicke auf speichern
-6.  Warte, bis Login ok (grün) erscheinnt (geht teileweise 1-2 minuten)
+6.  Warte, bis Login ok (grün) erscheint (geht teilweise 1-2 Minuten)
 
 - Rechnungstitel: Der Titel der Rechnung in Bexio
 - Sprache der Rechnung: Die Sprache welche in Bexio für die Rechnung verwendet werden soll.
@@ -45,7 +45,7 @@ Funktionen
 3.  Wähle den Kontakt aus Bexio aus
 
 </div>
-<div className="col col--8 text--center">
+<div className="col col--8 bild--mitte">
 
 ![Bexio – Abbildung 3](/img/drittsysteme-bexio/03.jpg)
 
@@ -61,10 +61,10 @@ Erstelle auf einer Liegenschaft die Rechnungen
 
 \-> Die Rechnungen werden automatisch nach Bexio exportiert.
 
-smart-me Billing übernimmt die Rechnungsnummer aus Bexio (Bespiel: RE-1570 ist in smart-me die Rechnung mit der Nummer 1570)
+smart-me Billing übernimmt die Rechnungsnummer aus Bexio (Beispiel: RE-1570 ist in smart-me die Rechnung mit der Nummer 1570)
 
 </div>
-<div className="col col--8 text--center">
+<div className="col col--8 bild--mitte">
 
 ![Bexio – Abbildung 4](/img/drittsysteme-bexio/04.jpg)
 
@@ -95,10 +95,10 @@ Beispiel einer exportierten VEWA Rechnung
 
 Unter Einstellungen >> Alle Einstellungen >> Buchhaltung
 
-Prüfen ob die Kachel Steuersätze sichtbar sind.
+Prüfen, ob die Kachel Steuersätze sichtbar sind.
 
 </div>
-<div className="col col--7 text--center">
+<div className="col col--7 bild--mitte">
 
 ![Bexio – Abbildung 8](/img/drittsysteme-bexio/08.png)
 
@@ -115,21 +115,21 @@ Steuersätze 0%
 Inbegriffen.
 
 </div>
-<div className="col col--7 text--center">
+<div className="col col--7 bild--mitte">
 
 ![Bexio – Abbildung 9](/img/drittsysteme-bexio/09.png)
 
 </div>
 </div>
 
-### 5\. Fehlebehandlung
+### 5\. Fehlerbehandlung
 
 account\_id \[Diese Eingabe ist nicht korrekt.\]
 Das Konto für Bexio Buchungen ist ungültig. Es muss ein Bexio Konto verwendet werden, auf dem auch Rechnungen verbucht werden können. 
 
 tax\_id \[Diese Eingabe ist nicht korrekt.\]
 Für eine Rechnungsposition wurde kein gültiger Steuersatz gefunden.
-\- Prüfe ob die Steuersätze  für alle verwendeten Steuersätze (0%, 8.1%, 2.6%,...) im Bexio vorhanden und gültig sind
+\- Prüfe, ob die Steuersätze  für alle verwendeten Steuersätze (0%, 8.1%, 2.6%,...) im Bexio vorhanden und gültig sind
 \- Stelle sicher, dass alle relevanten Mehrwertsteuersätze dem Formular 303 zugeordnet sind.
 Falls nicht, erstelle zusätzliche für jede Steuer.
 \--> Übersicht Einstellungen --> Buchhaltung --> Steuersätze --> Mehrwertsteuer bearbeiten
@@ -145,7 +145,7 @@ Dem Mieter wurde kein oder ein ungültiger Bexio Benutzer zugeordnet. Bitte ordn
 
 Im smart-me ist in den Einstellungen eine Steuer bereits inbegriffen. z.B. 8.1%. 
 
-Im Bexio untern Einstellungen (Oben rechts) / Alle Einstellungen / Buchhaltung / Grundeinstellung MWST ist nichts eingerichtet.
+Im Bexio unter Einstellungen (Oben rechts) / Alle Einstellungen / Buchhaltung / Grundeinstellung MWST ist nichts eingerichtet.
 
 Möglichkeit im smart-me 0% angeben.
 
@@ -153,7 +153,7 @@ Möglichkeit im smart-me 0% angeben.
 
 Export im smart-me auf  3400 (Konto für Bexio Buchung) wählen.
 
-Privatpersonen können ein Konto 3680 Sontige Erlöse erstellen
+Privatpersonen können ein Konto 3680 Sonstige Erlöse erstellen
 
 ![Bexio – Abbildung 10](/img/drittsysteme-bexio/10.png)
 

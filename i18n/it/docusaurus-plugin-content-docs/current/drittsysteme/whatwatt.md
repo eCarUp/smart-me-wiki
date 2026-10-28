@@ -1,17 +1,17 @@
 ---
 title: 'whatwatt'
 slug: '/drittsysteme/whatwatt'
-description: 'Il modulo whatwatt è un piccolo modulo hardware per la lettura dei contatori di energia utilizzati dall''azienda elettrica.'
+description: 'Il modulo whatwatt è un piccolo modulo hardware per la lettura dei contatori di energia in uso presso l''azienda elettrica.'
 sidebar_label: 'whatwatt'
 ---
 
 <div className="row">
 <div className="col col--8">
 
-Il modulo whatwatt è un piccolo modulo hardware per la lettura dei contatori di energia utilizzati dall'azienda elettrica.
-Trasmette le letture del contatore rilevanti, i profili di carico e i valori di potenza in tempo reale.
+Il modulo whatwatt è un piccolo modulo hardware per la lettura dei contatori di energia in uso presso l'azienda elettrica.
+Vengono trasmessi le letture del contatore rilevanti, i profili di carico e i valori in tempo reale della potenza.
 
-Il modulo trasmette i suoi dati tramite un'interfaccia API direttamente al nostro cloud.
+Il modulo trasmette i suoi dati tramite interfaccia API direttamente al nostro cloud.
 
 
 
@@ -23,11 +23,11 @@ Requisiti:
 Applicazioni:
 
 - Conteggio di RCP virtuali (vRCP)
-- Trasmettitore di valori misurati per il controllo di prodotti di terzi tramite Modbus TCP, MQTT o API
+- Trasduttore di misura per il controllo di prodotti di terzi tramite Modbus TCP, MQTT o API
 - Compatibile con smart-me Nimbus 100A per la lettura locale tramite Modbus TCP
 
 </div>
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
 ![whatwatt – Figura 1](/img/drittsysteme-whatwatt/01.png)
 
@@ -43,14 +43,14 @@ Applicazioni:
 
 L'ora trasmessa deve essere impostata sull'ora NTP per ogni modulo.
 
-1.  Apra la sua APP whatwatt
-2.  Passi all'interfaccia web (browser)
+1.  Apra la sua app whatwatt
+2.  Navighi nella Web-UI (browser)
 3.  Clicchi su Meter
 4.  Scorra verso il basso fino a Time Handling
 5.  Imposti Time Handling su "Use Networktime" in Reports
 
 </div>
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
 ![whatwatt – Figura 2](/img/drittsysteme-whatwatt/02.jpg)
 

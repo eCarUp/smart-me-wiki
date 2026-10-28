@@ -25,7 +25,7 @@ Die Switzercloud kann die Messdaten vom smart-me Portal mittels API abrufen, sam
 Die Verarbeitung mündet in Alarmierungen, Reports, Verrechnungen, Steuerungen und/oder Visualisierungen mit Hilfe von Colibird.
 
 </div>
-<div className="col col--5 text--center">
+<div className="col col--5 bild--mitte">
 
 ![Switzercloud / Colibird – Abbildung 2](/img/drittsysteme-switzercloud-colibird/02.png)
 

@@ -10,7 +10,7 @@ Mit Modbus TCP können die Messwerte eines Gerätes direkt über die Netzwerkver
 
 ### Voraussetzungen
 
-Um Modbus TCP zu aktivieren ist ein smart-me Professional Abo notwendig
+Um Modbus TCP zu aktivieren, ist ein smart-me Professional Abo notwendig
 
 ## Unterstützte Geräte
 
@@ -40,12 +40,12 @@ Die Abfragen sollten nicht häufiger als alle 2 Sekunden erfolgen. Eine Erhöhun
 
 3.  Wähle oben rechts das Zahnrad.
 
-4.  Unter erweiterten Einstellungen Modus-TCP aktivieren
+4.  Unter erweiterten Einstellungen Modbus-TCP aktivieren
 
 5.  Speichern
 
 </div>
-<div className="col col--6 text--center">
+<div className="col col--6 bild--mitte">
 
 ![modbus-tcp](/img/schnittstellen-modbus-tcp/01.png)
 
@@ -54,7 +54,7 @@ Die Abfragen sollten nicht häufiger als alle 2 Sekunden erfolgen. Eine Erhöhun
 
 ## Spezifisches zu Pico und Modbus TCP
 
-Modbus TCP kann bei der Pico genutzt werden wenn:
+Modbus TCP kann bei der Pico genutzt werden, wenn:
 
 1.  Die Pico nicht in einer Lastmanagement-Gruppe ist
 
@@ -87,14 +87,14 @@ Das Modbus-Register eines smart-me Gerätes kann über DNS oder IP-Adresse ausge
 
 4.  Unter erweiterten Einstellungen DNS aktivieren.
 
-5.  Meisten wird wird die Interne IP benötigt. Details siehe unten.
+5.  Meistens wird die Interne IP benötigt. Details siehe unten.
 
 6.  Speichern
 
 7.  Der DNS Name wird im Text unter DNS aktivieren angezeigt.
 
 </div>
-<div className="col col--8 text--center">
+<div className="col col--8 bild--mitte">
 
 ![Modbus TCP – Abbildung 2](/img/schnittstellen-modbus-tcp/02.png)
 
@@ -129,7 +129,7 @@ Als Antwort erhältst du die Auswertung des Pings inklusive der IP-Adresse des G
 
 ### IP-Adresse direkt am Router ermitteln
 
-smart-me kennt die MAC-Adresse der einzelnen Geräte nicht. Die Ermittlung der IP-Adresse ohne vorherige Aktivierung des DNS-Dienstes ist daher komplizierter. Eine Möglichkeit ist, alle IP-Adressen mit Modbus TCP abzufragen und zu prüfen, welche Seriennummern als Antwort zurückgegeben geben.
+smart-me kennt die MAC-Adresse der einzelnen Geräte nicht. Die Ermittlung der IP-Adresse ohne vorherige Aktivierung des DNS-Dienstes ist daher komplizierter. Eine Möglichkeit ist, alle IP-Adressen mit Modbus TCP abzufragen und zu prüfen, welche Seriennummern als Antwort zurückgegeben werden.
 
 ## Datenübertragung
 
@@ -177,7 +177,7 @@ Eine Pico Ladestation kann mittels Modbus TCP angesteuert werden und der Ladestr
 
 Der Ladestrom kann einmalig mittels Register 0x206E als Ladestrom in mA für alle drei Phasen gleichzeitig vorgegeben werden.
 
-Ansprechen einer Einzelnen Station in einer Ladegruppe (Einzelansteuerung):
+Ansprechen einer einzelnen Station in einer Ladegruppe (Einzelansteuerung):
 
 - -   Lädt erst ab der Mindesteinstellung des Geräts, z. B. 6000 mA.
         Das Gerät versucht, den verfügbaren Strom so weit wie möglich auszunutzen.
@@ -200,7 +200,7 @@ Ansprechen einer Stationsgruppe mit mehreren Stationen:
 
 Der Ladestrom kann:
 
-- Für alle Drei Phasen gemeinsam vorgegeben werden mittels Register 0x206E in mA (alle gleicher Wert)
+- Für alle drei Phasen gemeinsam vorgegeben werden mittels Register 0x206E in mA (alle gleicher Wert)
 
 - Gemeinsam aber individuell pro Phase in mA oder A (bis 499A, danach wird mA angenommen) angegeben werden mittels dem Register 0x2071 
 
@@ -209,7 +209,7 @@ Der Ladestrom kann:
 
 Allgemeines zur Funktion:
 
-- Der Wechsel zwischen 1-phasig und 3-phasig sollte Steuerungsseitig auf  1xalle 10 Minuten begrenzt werden.
+- Der Wechsel zwischen 1-phasig und 3-phasig sollte steuerungsseitig auf  1xalle 10 Minuten begrenzt werden.
 
 - Es kann auf eine vordefinierte Phase L1, L2, L3 umgeschaltet werden mittels Vorgabe der Strom Verfügbarkeit. (Grösste wird genommen)
 
@@ -219,9 +219,9 @@ Allgemeines zur Funktion:
 Wichtiger Hinweis zur externen Steuerung:
 
 Es gibt keine Begrenzung für den Wechsel zwischen einzelnen Phasen achten Sie darauf, dies durch den Steuerungsalgorithmus zu begrenzen.
-Gleiches gilt auch für den Wechsel von 1-Phasen zu 3-Phaen laden und umgekehrt.
-Die intensive Nutzung von Relaiskontakten kann zu einem vorzeitigen Ausfall der Relaisschalter führen. Es wird empfohlen, nicht zwischen einzelnen Phasen zu wechseln, wenn die Mehrleistung nicht Verhältnismässig ist. Unbeständiges Wetter, andere Grossverbraucher und andere Gründe können zu unbeabsichtigten Umschaltungen führen. Am Besten soll eine Zuweisung zu einer Phase nicht ändern wenn nur kurzzeitig der Überschuss fehlt.
-Für den Vorzeitigen Ausfall von Relais bei der Verwendung von Steuerungen von Drittanbietern übernimmt smart-me keinerlei Verantwortung.
+Gleiches gilt auch für den Wechsel von 1-Phasen zu 3-Phasen laden und umgekehrt.
+Die intensive Nutzung von Relaiskontakten kann zu einem vorzeitigen Ausfall der Relaisschalter führen. Es wird empfohlen, nicht zwischen einzelnen Phasen zu wechseln, wenn die Mehrleistung nicht verhältnismässig ist. Unbeständiges Wetter, andere Grossverbraucher und andere Gründe können zu unbeabsichtigten Umschaltungen führen. Am besten soll eine Zuweisung zu einer Phase nicht ändern, wenn nur kurzzeitig der Überschuss fehlt.
+Für den vorzeitigen Ausfall von Relais bei der Verwendung von Steuerungen von Drittanbietern übernimmt smart-me keinerlei Verantwortung.
 
 Ansprechen einer einzelnen Station in einer Ladegruppe (Einzelansteuerung):
 
@@ -242,10 +242,10 @@ Ansprechen einer Stationsgruppe mit mehreren Stationen:
     Alle drei Ströme können einen unterschiedlichen Wert haben.
     Die Gruppe versucht, den verfügbaren Strom so gut wie möglich zu nutzen.
 
-    Wenn eine aktive Ladung: Ein wird Gerät mit 3x6A 3-phasig laden.
+    Wenn eine aktive Ladung: Ein Gerät wird mit 3x6A 3-phasig laden.
     Wenn zwei aktive Ladungen: Ein Gerät lädt mit 8A auf Phase L3 und das zweite mit 6A auf L2 oder L1
 
-- 0, 8000 mA, 10000 mA und zwei aktive Einheiten: Ergibt eine 1-phasige Ladungen mit 10 A auf L3 und eine weitere mit 8 A auf L2 
+- 0, 8000 mA, 10000 mA und zwei aktive Einheiten: Ergibt eine 1-phasige Ladung mit 10 A auf L3 und eine weitere mit 8 A auf L2 
 
 - 0,16000,10000 mA und drei aktive Einheiten: Ergibt eine einphasige Ladung mit 10 A auf L3 und zwei einphasige Ladungen mit jeweils 8 A auf L2
 

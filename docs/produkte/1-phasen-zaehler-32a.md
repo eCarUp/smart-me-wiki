@@ -89,7 +89,7 @@ E1: Tarifumschaltung (digitaler Eingang)
 S0: Impulsausgang (potentialfreier Kontakt)
 
 </div>
-<div className="col col--7 text--center">
+<div className="col col--7 bild--mitte">
 
 ![1-Phasenzähler 32A – Abbildung 3](/img/produkte-1-phasen-zaehler-32a/03.png)
 

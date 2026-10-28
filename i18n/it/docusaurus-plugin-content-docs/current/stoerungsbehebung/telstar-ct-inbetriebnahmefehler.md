@@ -8,24 +8,24 @@ In questa pagina sono descritti gli errori frequenti che possono verificarsi dur
 
 ## La potenza non corrisponde a quella del contatore dell'azienda elettrica.
 
-Per la risoluzione del problema, segua i punti seguenti.
+Per la risoluzione dei problemi segua i punti riportati di seguito.
 
 ### 1\. Verifichi il rapporto di trasformazione
 
-Questo approccio va considerato soprattutto quando il valore misurato è inferiore di un fattore intero (ad es. effettivo: 4W, atteso: 240W (fattore 60))
+Questo approccio va preso in considerazione soprattutto quando il valore misurato è inferiore di un fattore intero (ad es. valore effettivo: 4W, valore atteso: 240W (fattore 60))
 
-- Soluzione: nel portale smart-me -> selezioni il contatore -> clicchi sulla rotella dentata -> Impostazioni generali (Allgemeine Einstellungen) -> inserisca il rapporto e salvi.
+- Soluzione: nel portale smart-me -> selezionare il contatore -> cliccare sulla rotella dentata -> Impostazioni generali (Allgemeine Einstellungen) -> inserire il rapporto (Verhältnis) e salvare.
 
-- smart-me raccomanda di impostare il rapporto di trasformazione secondo quanto indicato sul trasformatore, ad es. 300A/5A --> 300:5
+- smart-me raccomanda di impostare il rapporto di trasformazione secondo l'indicazione riportata sul trasformatore, ad es. 300A/5A --> 300:5
 
 - Importante: i dati storici non vengono adeguati. 
 
 
 ### 2\. Verifichi se lo scostamento tra il contatore dell'azienda elettrica e il contatore smart-me è inferiore o uguale al 2%.
 
-Questo approccio va considerato soprattutto quando i consumi dei due contatori sono relativamente vicini tra loro.
+Questo approccio va preso in considerazione soprattutto quando i consumi dei due contatori sono relativamente vicini.
 
-I nostri apparecchi hanno una precisione di misura dell'1% secondo lo standard MID. A ciò si aggiunge lo scostamento del trasformatore di 0,5-1%. Questi scostamenti sono ammessi nella classe di precisione B. Per determinare la differenza massima ammessa in base alle tolleranze consentite, si può applicare la seguente formula empirica.
+I nostri apparecchi hanno una precisione di misura dell'1% secondo lo standard MID. A ciò si aggiunge lo scostamento del trasformatore dello 0,5-1%. Questi scostamenti sono ammessi nella classe di precisione B. Per determinare la differenza massima ammessa in base alle tolleranze consentite, si può applicare la seguente formula empirica.
 
 Formula empirica: differenza massima ammessa \[kWh\] = energia del contatore dell'azienda elettrica \* (errore di misura Telstar CT in % + errore di misura trasformatore in %)
 
@@ -35,33 +35,41 @@ Telstar CT: consumo 992kWh
 
 differenza massima ammessa \[kWh\] = energia del contatore dell'azienda elettrica \* (errore di misura Telstar CT in % + errore di misura trasformatore in %) = 1000kWh \* (0.01 + 0.01) = 20kWh
 
-Il valore misurato dal Telstar CT può trovarsi nell'intervallo 1000kWh +/- 20kWh; con 992kWh corrisponde all'errore atteso
+Il valore misurato dal Telstar CT può trovarsi nell'intervallo 1000kWh +/- 20kWh; con 992kWh corrisponde all'errore atteso.
 
-Attenzione: il consumo dipende dalla durata della misurazione. Per la stima sopra indicata occorre scegliere per entrambi i contatori lo stesso periodo in cui l'energia è stata consumata.  La lettura del contatore dell'azienda elettrica non deve necessariamente essere uguale a quella del Telstar CT. 
+Attenzione: il consumo dipende dalla durata della misurazione. Per la stima sopra riportata occorre scegliere per entrambi i contatori lo stesso periodo in cui l'energia è stata consumata.  La lettura del contatore dell'azienda elettrica non deve necessariamente coincidere con quella del Telstar CT. 
 
 ### 3\. Verifichi se i morsetti della morsettiera di misura sono chiusi.
 
-Questo approccio va considerato soprattutto quando le potenze risultano sospettosamente basse (metà della potenza attesa o meno).
+Questo approccio va preso in considerazione soprattutto quando le potenze risultano sospettosamente basse (metà della potenza attesa o meno).
 
-- In alcuni progetti, dopo l'installazione, ci si dimentica per errore di rimuovere il cortocircuito sul lato della morsettiera di misura.
-    I morsetti non chiusi della morsettiera di misura lasciano comunque passare una piccola corrente, che viene misurata dal contatore ma non corrisponde al corretto rapporto di ripartizione. (Collegamento in parallelo nella morsettiera di misura rispetto al punto di misura nel contatore)
+- In alcuni progetti, dopo l'installazione ci si dimentica per errore di rimuovere il cortocircuito sul lato della morsettiera di misura.
+    I morsetti non chiusi della morsettiera di misura lasciano comunque passare un debole flusso di corrente, che viene misurato dal contatore ma non corrisponde al corretto rapporto di ripartizione. (Collegamento in parallelo nella morsettiera di misura rispetto al punto di misura nel contatore)
 
 
 ### 4\. Verificare se il trasformatore dispone di un ponticello di cortocircuito.
 
-Questo approccio va considerato soprattutto quando le potenze risultano sospettosamente basse (metà della potenza attesa o meno).
+<div className="row">
+<div className="col col--6">
+
+Questo approccio va preso in considerazione soprattutto quando le potenze risultano sospettosamente basse (metà della potenza attesa o meno).
 
 - Alcuni trasformatori, come ad es. l'SRT01605A di Hager, sono dotati di ponticelli di cortocircuito che devono essere rimossi dopo il montaggio e il cablaggio dei trasformatori, come descritto nelle istruzioni per l'uso.
 
+</div>
+<div className="col col--6 bild--mitte">
 
 ![Errori di messa in servizio Telstar CT – Figura 1](/img/stoerungsbehebung-telstar-ct-inbetriebnahmefehler/01.png)
+
+</div>
+</div>
 
 ### 5\. Verifichi la direzione del flusso dei trasformatori di corrente.
 
 <div className="row">
 <div className="col col--7">
 
-Questo approccio si segue soprattutto quando le potenze di fase risultano negative, sebbene ciò non sia previsto.
+Questo approccio viene seguito soprattutto quando le potenze di fase risultano negative, sebbene ciò non sia previsto.
 
 Tutti i trasformatori hanno una direzione del flusso, contrassegnata da una freccia.
 
@@ -79,24 +87,24 @@ Il retro della freccia (piatto) è sempre rivolto verso:
 
 Cosa corrisponde alle aspettative:
 
-- Sul contatore FV, durante la produzione, deve riscontrare correnti e potenze negative. 
+- Nel contatore FV durante la produzione deve trovare correnti e potenze negative. 
 
-    Se al momento non c'è produzione attiva, di norma si riscontrano correnti e potenze positive. (Questa situazione non è però univoca)
+    Se al momento non c'è produzione attiva, di norma si trovano correnti e potenze positive. (Questa situazione non è però univoca)
 
 - I contatori di solo consumo presentano esclusivamente segni positivi per correnti e potenze.
 
 - Il contatore di bilancio può presentare, a seconda della situazione, segni diversi per ciascuna fase. 
 
-    - In caso di acquisto, di norma questi sono positivi (impianto solare SPENTO per il test)
+    - In caso di prelievo sono di norma positivi (impianto solare SPENTO per il test)
 
-    - In caso di fornitura, di norma questi sono negativi (impianto solare ACCESO per il test, sono possibili scostamenti su singole fasi)
+    - In caso di immissione sono di norma negativi (impianto solare ACCESO per il test, sono possibili scostamenti sulle singole fasi)
 
-    - La potenza complessiva del bilancio deve però corrispondere alla produzione + il consumo.
+    - La potenza totale del bilancio deve però corrispondere alla produzione + il consumo.
 
-        (Verifica tramite profilo di carico o tramite la visualizzazione "Flusso energetico semplice" (Energiefluss Einfach). Inserisca solo il contatore FV e il consumo totale per calcolare artificialmente il bilancio, quindi confronti i valori nella visualizzazione con la potenza attiva del contatore di bilancio)
+        (Verificare tramite il profilo di carico o tramite la visualizzazione "Flusso di energia semplice" ("Energiefluss Einfach"). Inserire solo il contatore FV e il consumo totale per calcolare artificialmente il bilancio, quindi confrontare i valori nella visualizzazione con la potenza attiva del contatore di bilancio)
 
 </div>
-<div className="col col--5 text--center">
+<div className="col col--5 bild--mitte">
 
 ![Errori di messa in servizio Telstar CT – Figura 2](/img/stoerungsbehebung-telstar-ct-inbetriebnahmefehler/02.png)
 
@@ -105,46 +113,45 @@ Cosa corrisponde alle aspettative:
 </div>
 </div>
 
-### 6\. Verifichi gli sfasamenti tramite il valore di cos phi per ciascuna fase
+### 6\. Verifichi gli sfasamenti con il valore Cos Phi per fase
 
-Se il valore di cos phi di più fasi è costantemente inferiore a 0,5, è possibile che vi sia una tensione di fase scambiata.
+Se il valore Cos Phi di più fasi è costantemente inferiore a 0,5, è possibile che vi sia una tensione di fase invertita.
 
-In tal caso il contatore misura sull'ingresso U fase 1 la tensione di L1, mentre I IN e I OUT della fase 1 misurano la corrente di L2.
+Il contatore misura allora sull'ingresso U fase 1 la tensione di L1, ma I IN e I OUT della fase 1 misurano la corrente di L2.
 
-Da ricordare: se una fase è scambiata, sono sempre scambiate due fasi contemporaneamente!
+Da ricordare: se una fase è invertita, sono sempre invertite contemporaneamente due fasi!
 
-Ciò porta a valori di cos phi compresi tra 0 e 0,6 circa (tendenzialmente inferiori a 0,5)
+Ciò porta a valori Cos Phi compresi tra 0 e 0,6 circa (tendenzialmente inferiori a 0,5)
 
 - Verifichi che tutte le tensioni e correnti siano cablate correttamente.
 
 - Verifichi la direzione del flusso dei trasformatori
 
-
-Se questi valori sono buoni, si trovano tutti ben al di sopra di 0,5 e tutti i passaggi precedenti sono stati eseguiti, come ultima opzione rimane la verifica delle potenze reattive. Questa tratta scambi multipli di direzioni di flusso e collegamenti.
+Se questi valori sono buoni, sono tutti ben superiori a 0,5 e tutti i passi precedenti sono stati eseguiti, resta come ultima opzione la verifica delle linee reattive. Questa riguarda inversioni multiple delle direzioni del flusso e dei collegamenti.
 
 ![Errori di messa in servizio Telstar CT – Figura 4](/img/stoerungsbehebung-telstar-ct-inbetriebnahmefehler/04.png)
 
 ### 7\. Verifichi i registri della potenza reattiva del contatore
 
-Se i valori misurati continuano a sembrare poco plausibili, è possibile che siano stati scambiati i prelievi di tensione e la misura di corrente. Un'indicazione in tal senso può essere fornita dai registri della potenza reattiva.
+Se i valori misurati continuano a sembrare poco plausibili, è possibile che le prese di tensione e la misurazione della corrente siano state invertite. Un indizio in tal senso ci può essere fornito dai registri della potenza reattiva.
 
-Supponiamo che due tensioni di fase siano state portate sugli ingressi sbagliati e che inoltre singoli trasformatori siano stati collegati con la direzione del flusso errata: l'analisi basata sui dati di potenza attiva diventa molto difficile, se non quasi impossibile.
+Supponiamo che due tensioni di fase siano state portate sugli ingressi sbagliati e che inoltre alcuni trasformatori siano stati collegati con la direzione del flusso errata: in questo caso l'analisi sui dati di potenza attiva diventa molto difficile, se non quasi impossibile.
 
-Per visualizzare questi registri dell'energia reattiva, la misurazione deve essere attivata. Attivazione della misurazione dell'energia reattiva: selezioni il contatore --> Configurazione hardware (Hardwarekonfiguration) (rotelle dentate) --> Impostazioni generali (Allgemeine Einstellungen) --> Attiva energia reattiva (Blindenergie aktivieren) (Sì (Ja))
+Per visualizzare questi registri dell'energia reattiva, la misurazione deve essere attivata. Attivazione della misurazione dell'energia reattiva: selezionare il contatore --> Configurazione hardware (Hardwarekonfiguration) (rotelle dentate) --> Impostazioni generali (Allgemeine Einstellungen) --> Attiva energia reattiva (Blindenergie aktivieren) (Sì (Ja))
 
-Considerando una casa unifamiliare/plurifamiliare con impianto solare, l'ordine delle letture del contatore dei quadranti dovrebbe nella maggior parte dei casi presentarsi così:
+Considerando una casa unifamiliare o plurifamiliare con impianto solare, l'ordine delle letture dei contatori dei quadranti dovrebbe nella maggior parte dei casi essere il seguente:
 
 - Q1: prelievo di energia reattiva induttiva:
-    motori, impianti di ventilazione
+    motori, ventilazioni
     \--> valori elevati (molto più alti di Q2) 
 
-- Q2. fornitura di energia reattiva induttiva:
+- Q2. Immissione di energia reattiva induttiva:
     generatori trifase come generatori diesel o turbine eoliche
     \--> valore più basso di tutti 
 
-- Q3: fornitura di energia reattiva capacitiva:
+- Q3: immissione di energia reattiva capacitiva:
     produttori come impianti FV, batterie o stazioni di ricarica bidirezionali
-    (la produzione deve però essere già avvenuta)
+    (la produzione deve però già essere avvenuta)
     \--> valore elevato (molto più alto di Q2, spesso anche di Q1) 
 
 - Q4: prelievo di energia reattiva capacitiva:
@@ -152,9 +159,9 @@ Considerando una casa unifamiliare/plurifamiliare con impianto solare, l'ordine 
     \--> valori da medi a elevati (molto più alti di Q2, spesso anche di Q1) 
 
 
-Q1 e Q4 sono difficili da valutare senza una conoscenza più approfondita. In una casa plurifamiliare con impianto solare, invece, Q2 e Q3 si possono valutare facilmente. Se l'andamento di Q2 e Q3 non segue la tendenza dell'esempio sopra riportato, si è probabilmente in presenza di:
+Q1 e Q4 sono difficili da valutare senza conoscenze più approfondite. In una casa plurifamiliare con impianto solare si possono invece valutare facilmente Q2 e Q3. Se l'andamento di Q2 e Q3 non segue la tendenza dell'esempio sopra riportato, è probabile che si verifichi quanto segue:
 
-- almeno una tensione e una corrente scambiate
+- almeno una tensione e una corrente invertite
 
 - almeno un trasformatore con direzione del flusso errata o cavi incrociati verso il contatore
 
@@ -163,7 +170,7 @@ Possibili fonti di errore:
 
 - direzione del flusso di montaggio dei trasformatori
 
-- scambio dei prelievi dei trasformatori
+- inversione delle prese dei trasformatori
 
 - cablaggio errato sulla morsettiera di misura
 
@@ -183,12 +190,11 @@ Esempio di un contatore di bilancio in una casa unifamiliare con impianto solare
 
 ### 8\. Verifichi i connettori e le resistenze di linea dell'uscita del trasformatore
 
-Questo approccio va considerato quando i segni delle potenze e delle correnti sono corretti, ma il valore delle correnti risulta innaturalmente basso.
+Questo approccio va preso in considerazione quando i segni delle potenze e delle correnti sono corretti, ma il valore delle correnti risulta innaturalmente basso.
 
 - Ogni trasformatore ha una potenza di uscita in volt-ampere S \[VA\]
 
-- Le resistenze di linea non devono essere superiori a quanto consente il flusso della corrente secondaria massima con la potenza disponibile.
-
+- Le resistenze di linea non devono essere così elevate da impedire alla corrente secondaria massima di fluire con la potenza disponibile.
 
 Formula:  resistenza di linea max. R = S / corrente secondaria I^2
 
@@ -196,25 +202,24 @@ Esempio: trasformatore 200A / 5A con potenza di uscita di 1VA
 
 R max. = 1VA/(5A\*5A) = 0.04 Ohm
 
-Pertanto la resistenza misurata tra il collegamento positivo e negativo del trasformatore non deve essere superiore a 0.04 Ohm.
-Il valore non dovrebbe nemmeno essere troppo al limite: la resistenza in corrente alternata a 50Hz è leggermente superiore alla resistenza in corrente continua.
+Pertanto la resistenza misurata tra il collegamento positivo e negativo del trasformatore non deve superare 0.04 Ohm.
+Non dovrebbe nemmeno essere troppo al limite: la resistenza in corrente alternata a 50Hz è leggermente superiore alla resistenza in corrente continua.
 
 Nota: 
 
 - La misurazione deve essere eseguita con il trasformatore scollegato!
-    Altrimenti si misura la resistenza della bobina del trasformatore e non quella della linea di andata e ritorno.
 
+    Altrimenti viene misurata la resistenza dell'avvolgimento del trasformatore e non quella della linea di andata e ritorno.
 
 Cosa posso fare se la resistenza di linea risulta troppo elevata?
 
 1.  Controllare tutti i connettori, serrarli nuovamente e ripetere la misurazione.
 
-2.  Aumentare la sezione del conduttore (usuale è 2.5mm2)
+2.  Aumentare la sezione dei conduttori (di norma 2.5mm2)
 
 3.  Accorciare le linee
 
 4.  Sostituire il trasformatore con uno più potente, ad es. 5VA
-
 
 ![Errori di messa in servizio Telstar CT – Figura 7](/img/stoerungsbehebung-telstar-ct-inbetriebnahmefehler/07.png)
 
@@ -222,11 +227,11 @@ Cosa posso fare se la resistenza di linea risulta troppo elevata?
 
 ### Introduzione
 
-La seguente analisi intende illustrare il comportamento di misura di un contatore con trasformatori in caso di errore. L'analisi si basa su semplici tensioni e correnti sinusoidali, per non complicare inutilmente l'argomento. È però importante sapere che le correnti non hanno quasi mai una forma sinusoidale e che lo sfasamento descritto di seguito in caso di cablaggio errato presenterà leggeri scostamenti rispetto a questa analisi.
+La seguente analisi intende illustrare il comportamento di misura di un contatore con trasformatori in caso di errore. L'analisi si basa su semplici tensioni e correnti sinusoidali, per non complicare inutilmente l'argomento. È però importante sapere che le correnti non presentano quasi mai una forma sinusoidale e che lo sfasamento descritto di seguito in caso di cablaggio errato presenterà leggeri scostamenti rispetto a questa analisi.
 
-### Informazioni generali
+### Generalità
 
-1.  Le tensioni e le correnti delle tre fasi sono sfasate nel tempo l'una rispetto all'altra per poter generare un movimento rotatorio in un motore.
+1.  Le tensioni e le correnti delle tre fasi sono sfasate nel tempo l'una rispetto all'altra, per poter generare un movimento rotatorio in un motore.
 
 2.  La corrente è una conseguenza della tensione applicata ed è determinata dal comportamento del carico.
 
@@ -240,26 +245,26 @@ Lo sfasamento temporale sopra menzionato corrisponde esattamente a 120° su una 
 - La fase 3 inizia a 240°
 
 
-A 50 Hz, 360° = 20ms ovvero 1/frequenza = periodo
-Lo sfasamento temporale tra le singole fasi è quindi: 20 ms/360° \* 120° = 6,666 ms
+A 50 Hz, 360° corrispondono a 20ms ovvero 1/frequenza = periodo
+Lo sfasamento temporale tra le singole fasi è di conseguenza: 20 ms/360° \* 120° = 6,666 ms
 
 ### Cosa fa il contatore con trasformatori?
 
-Un contatore con trasformatori interpreta ogni tensione di fase, ogni corrente di fase e la relativa potenza di fase indipendentemente dalle altre due e somma le tre potenze di fase risultanti in una potenza complessiva trifase. 
+Un contatore con trasformatori interpreta ogni tensione di fase, ogni corrente di fase e la relativa potenza di fase in modo indipendente dalle altre due e somma le tre potenze di fase risultanti in una potenza totale trifase. 
 
 Somma P = potenza di fase 1 + potenza di fase 2 + potenza di fase 3
 
-Se alcune di esse fossero negative (ad es. il trasformatore di corrente di una fase ha la direzione del flusso invertita), ne risulta una potenza inferiore a quella attesa.
+Se alcune di esse fossero negative (ad es. il trasformatore di corrente di una fase ha la direzione del flusso invertita), si otterrebbe una potenza inferiore a quella attesa.
 
 ![Errori di messa in servizio Telstar CT – Figura 8](/img/stoerungsbehebung-telstar-ct-inbetriebnahmefehler/08.png)
 
-Vista all'oscilloscopio di un sistema trifase
+Vista oscilloscopio di un sistema trifase
 
 ### Tensione di fase e corrente di fase sono collegate correttamente (U1 / I1)
 
 Consideriamo qui una fase collegata correttamente. Vengono misurate la tensione L1 (U1) e la corrente L1 (I1) (il trasformatore è collegato con la direzione del flusso corretta).
 
-Entrambe le semionde danno una potenza positiva, poiché tensione e corrente hanno lo stesso segno nella rispettiva semionda.
+Entrambe le semionde danno luogo a una potenza positiva, poiché tensione e corrente hanno lo stesso segno nella rispettiva semionda.
 
 La potenza misurata corrisponde correttamente a 6500W (rosso).
 
@@ -269,20 +274,20 @@ La potenza misurata corrisponde correttamente a 6500W (rosso).
 
 Esempio: impianto solare
 
-L'impianto solare produce una potenza di 30kW --> 10kW per ogni fase. (Gli impianti solari producono sempre nel modo più equilibrato possibile sulle tre fasi)
-Se tutto è corretto, questi 30kW si leggono anche sullo strumento di misura.
+L'impianto solare produce una potenza di 30kW --> 10kW per ciascuna fase. (Gli impianti solari producono sempre nel modo più equilibrato possibile sulle tre fasi)
+Se tutto è corretto, questi 30kW sono leggibili anche sullo strumento di misura.
 
 Se il trasformatore della fase 1 ha la direzione del flusso invertita, ne risulta una potenza di fase negativa per la fase 1.
 
 Somma P = -10kW + 10kW + 10kW = 10kW
 
-La potenza complessiva corrisponde solo a 1/3 della potenza attesa.
+La potenza totale corrisponde solo a 1/3 della potenza attesa.
 
-### Tensione di fase e correnti di fase sono state scambiate
+### Tensione di fase e correnti di fase sono state invertite
 
-Nota: se una corrente di fase o una tensione di fase è stata collegata all'ingresso sbagliato del contatore, sono sempre interessate due fasi contemporaneamente!
+Nota: se una corrente di fase o una tensione di fase è stata collegata all'ingresso sbagliato del contatore, sono sempre interessate contemporaneamente due fasi!
 
-Tensione di fase e corrente di fase sono state scambiate (U1 / I2) e vengono misurate sulla fase 1
+Tensione di fase e corrente di fase sono state invertite (U1 / I2) e vengono misurate sulla fase 1
 
 Consideriamo qui il risultato di una misurazione in cui al contatore viene fornita la tensione corretta L1 (U1), ma la corrente sbagliata L2 (I2). 
 
@@ -294,11 +299,11 @@ Risultato: potenza negativa e dimezzata rispetto ai 6500 W attesi)
 
 P = -3250W (rosso)
 
-Nota: occorre considerare che in un sistema reale il fattore di potenza può essere superiore o inferiore a 0.5 (ad es. da 0,3 a 0,7). Ciò è dovuto al fatto che il fattore di potenza sulla fase 1, anche con cablaggio e misurazione corretti, è già compreso tra 0,8 e 1.
+Nota: occorre considerare che in un sistema reale il fattore di potenza può essere superiore o inferiore a 0.5 (ad es. da 0,3 a 0,7). Ciò è dovuto al fatto che il fattore di potenza sulla fase 1, anche con cablaggio e misurazione corretti, si trova già tra 0,8 e 1.
 
 ![Errori di messa in servizio Telstar CT – Figura 10](/img/stoerungsbehebung-telstar-ct-inbetriebnahmefehler/10.png)
 
-Tensione di fase e corrente di fase sono state scambiate (U1 / I3)
+Tensione di fase e corrente di fase sono state invertite (U1 / I3)
 
 Consideriamo qui il risultato di una misurazione in cui al contatore viene fornita la tensione corretta, ma la corrente sbagliata. 
 
@@ -310,6 +315,6 @@ Risultato: potenza negativa e dimezzata rispetto ai 6500 W attesi)
 
 P = -3250W (rosso)
 
-Nota: occorre considerare che in un sistema reale il fattore di potenza può essere superiore o inferiore a 0.5 (ad es. da 0,3 a 0,7). Ciò è dovuto al fatto che il fattore di potenza sulla fase 1, anche con cablaggio e misurazione corretti, è già compreso tra 0,8 e 1.
+Nota: occorre considerare che in un sistema reale il fattore di potenza può essere superiore o inferiore a 0.5 (ad es. da 0,3 a 0,7). Ciò è dovuto al fatto che il fattore di potenza sulla fase 1, anche con cablaggio e misurazione corretti, si trova già tra 0,8 e 1.
 
 ![Errori di messa in servizio Telstar CT – Figura 11](/img/stoerungsbehebung-telstar-ct-inbetriebnahmefehler/11.png)

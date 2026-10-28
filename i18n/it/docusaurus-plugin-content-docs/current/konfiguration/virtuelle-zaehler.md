@@ -10,15 +10,15 @@ Con i contatori virtuali è possibile eseguire operazioni matematiche su più co
 
 ## Requisito
 
-Per i contatori reali da cui si crea il contatore virtuale, così come per il contatore virtuale stesso, sono necessarie licenze Professional.
+Per i contatori reali da cui crei il contatore virtuale, così come per il contatore virtuale stesso, ti servono licenze Professional.
 
-## Utilizzo
+## Scopo d'impiego
 
-I contatori virtuali vengono utilizzati nel [Billing](/konfiguration/billing) per conteggiare la tariffa solare.
+I contatori virtuali vengono utilizzati nel [Billing](/konfiguration/billing) per fatturare la tariffa solare.
 
-- In questo modo si calcola la somma di tutte le utenze (consumo totale nella tariffa solare).
+- In questo modo si calcola la somma di tutti i consumatori (consumo totale nella tariffa solare).
 
-- È possibile calcolare la somma di tutti gli impianti solari, se questi vengono misurati separatamente in un immobile.
+- È possibile calcolare la somma di tutti gli impianti solari, se in un immobile questi vengono misurati separatamente.
 
 
 Visualizzazioni
@@ -32,7 +32,7 @@ Visualizzazioni
 
 Nel Billing i contatori virtuali non possono essere assegnati a un'unità di conteggio.
 
-- I contatori virtuali possono essere utilizzati per le strutture tariffarie virtuali nel Billing, tuttavia non è consentito effettuare il conteggio con contatori calcolati virtualmente. Per questo motivo, nel Billing non viene proposta la selezione di un contatore virtuale.
+- I contatori virtuali possono essere utilizzati per le strutture tariffarie virtuali nel Billing, ma non è consentito effettuare il conteggio con contatori calcolati virtualmente. Per questo motivo, nel Billing non viene proposta la selezione di un contatore virtuale.
 
 
 ## Creare un contatore virtuale
@@ -49,11 +49,11 @@ Per creare un contatore virtuale, procedi come segue:
 
 - Inserisci un nome per il contatore virtuale.
 
-- Cliccando nel campo di testo Formula (Formel) vengono visualizzati tutti i contatori disponibili.
+- Con un clic nel campo di testo della formula vengono visualizzati tutti i contatori disponibili.
 
 - Successivamente occorre inserire un operatore e confermarlo con Invio (ad es. "+")
 
-- Aggiungi tutti i contatori desiderati e completali con un operatore adeguato.
+- Aggiungi tutti i contatori desiderati e completali con l'operatore corrispondente.
 
 
 Nota: se il contatore virtuale viene creato come contatore del consumo totale per il Billing, consigliamo di assegnargli il nome Consumo totale (Gesamtverbrauch).
@@ -77,13 +77,13 @@ Nota: se il contatore virtuale viene creato come contatore del consumo totale pe
 
 ## Creare un contatore del consumo totale per la tariffa solare e la tariffa batteria
 
-La funzione Somma tutti i contatori di elettricità (Summiere alle Stromzähler) è utile quando si ha un ambiente con molti contatori. Consente di calcolare la somma di tutti i contatori.
+La funzione Somma tutti i contatori elettrici (Summiere alle Stromzähler) è utile quando è presente un ambiente con molti contatori. Consente di calcolare la somma di tutti i contatori.
 
 - Inserisci un nome per il contatore virtuale.
 
 - Alla voce Formula (Formel), seleziona la freccia verso il basso a destra.
 
-- Seleziona Somma tutti i contatori di elettricità (Summieren alle Stromzähler).
+- Seleziona Somma tutti i contatori elettrici (Summieren alle Stromzähler).
 
 - Se alcuni contatori (ad es. solare o bilancio) non sono necessari, devono essere rimossi. Occorre rimuovere i contatori e i relativi "+".
 
@@ -92,10 +92,10 @@ La funzione Somma tutti i contatori di elettricità (Summiere alle Stromzähler)
 
 ### Aggiungere i contatori corretti al consumo totale virtuale
 
-- Occorre assicurarsi che la somma dei contatori copra esattamente il 100% delle potenze prelevate.
+- Occorre fare attenzione che la somma dei contatori copra esattamente il 100% delle potenze prelevate.
 
-- Per gli apparecchi in serie sono rilevanti solo quelli più vicini al sottoquadro di distribuzione o all'allacciamento dell'edificio. (Esempio: mobilità elettrica)
-    Occorre fare attenzione che, se si fa riferimento alla partenza, le stazioni di ricarica a valle vengano rimosse dalla somma.
+- Per gli apparecchi in serie sono rilevanti solo quelli più vicini al quadro di distribuzione secondario o all'allacciamento dell'edificio. (Esempio mobilità elettrica)
+    Occorre fare attenzione che, se viene referenziata la partenza, le stazioni di ricarica situate a valle vengano rimosse dalla somma.
 
 
 ![Contatori virtuali – Figura 3](/img/konfiguration-virtuelle-zaehler/03.png)

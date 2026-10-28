@@ -41,7 +41,7 @@ Bevor du dein smart-me Gerät verwenden kannst, musst du es mit deinem WiFi Netz
 
 2.  Downloade und installiere die smart-me App aus dem Playstore oder iOS Store.
 
-3.  Starte die App und erstelle einen Account oder loge dich mit dem entsprechenden Account ein.
+3.  Starte die App und erstelle einen Account oder logge dich mit dem entsprechenden Account ein.
 
 4.  Klicke auf „Gerät hinzufügen“ (+) und folge den Anweisungen.
 
@@ -67,7 +67,7 @@ Bevor du dein smart-me Gerät verwenden kannst, musst du es mit deinem WiFi Netz
 | Datenspeicher | 2 Monate |
 | Produkt Zertifizierung | CE, MID 2014/32/EU |
 
-## Ein und Ausgänge konfigurieren
+## Ein- und Ausgänge konfigurieren
 
 Der smart-me Meter verfügt über zwei Ausgänge und einen Eingang, welche als Impuls Ein- und Ausgänge oder als schaltbarer potentialfreier Kontakt genutzt werden können. Details dazu findest du [hier](/schnittstellen/ein-und-ausgaenge). 
 

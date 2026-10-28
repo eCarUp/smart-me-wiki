@@ -1,22 +1,22 @@
 ---
 title: 'Trasformatori di corrente e accessori per Telstar CT'
 slug: '/drittprodukte/stromwandler'
-description: 'Nessuno di questi prodotti è distribuito dalla smart-me AG né offerto come accessorio al momento dell''acquisto.'
+description: 'Nessuno di questi prodotti è distribuito dalla smart-me AG o offerto come accessorio al momento dell''acquisto.'
 sidebar_label: 'Trasformatori di corrente'
 ---
 Avviso importante:
 
-Nessuno di questi prodotti è distribuito dalla smart-me AG né offerto come accessorio al momento dell'acquisto. Acquisti questi prodotti direttamente presso il produttore.
+Nessuno di questi prodotti è distribuito dalla smart-me AG o offerto come accessorio al momento dell'acquisto. Acquista questi prodotti direttamente presso il produttore.
 
-Di seguito trova un elenco di prodotti consigliati. smart-me non guadagna nulla con i prodotti consigliati e non fornisce alcuna garanzia per essi. È sempre possibile utilizzare altri prodotti. In tal caso occorre sempre verificare che soddisfino i requisiti del rispettivo prodotto, in questo caso del [contatore trifase Telstar CT](/produkte/telstar-ct).
+Qui trovi un elenco di prodotti consigliati. smart-me non guadagna nulla con i prodotti consigliati e non si assume alcuna garanzia per essi. È sempre possibile utilizzare altri prodotti. In tal caso occorre sempre verificare che soddisfino i requisiti del rispettivo prodotto, in questo caso del [contatore trifase Telstar CT](/produkte/telstar-ct).
 
-Lo scopo dei consigli è offrire ai nostri partner la possibilità di trovare in modo semplice ed efficiente determinati prodotti, quando non ne conoscono ancora nessuno.
+Lo scopo di questi consigli è offrire ai nostri partner la possibilità di trovare in modo semplice ed efficiente determinati prodotti, quando non ne conoscono ancora uno adatto.
 
-## Trasformatori di corrente tarati a fini di fatturazione
+## Trasformatori di corrente tarati per scopi di fatturazione
 
 Se i contatori devono essere utilizzati per la fatturazione, sono necessari trasformatori tarati che soddisfino almeno la classe 0.5 o inferiore.
 
-![Trasformatori di corrente e accessori per Telstar CT – figura 1](/img/drittprodukte-stromwandler/01.png)
+![Trasformatori di corrente e accessori per Telstar CT – Figura 1](/img/drittprodukte-stromwandler/01.png)
 
 ### Trasformatori di misura Pfiffner (tarati)
 
@@ -24,7 +24,7 @@ Paese di distribuzione: Svizzera
 
 Scopo d'impiego:
 
-- Fini di fatturazione
+- Scopi di fatturazione
 
 
 Tipo: 
@@ -52,11 +52,11 @@ Signor Samuel Gloor
 </Kacheln>
 
 
-Taratura a fini di fatturazione:
+Taratura per scopi di fatturazione:
 
-La taratura deve essere richiesta specificamente o indicata al momento dell'ordine.
+La taratura deve essere richiesta espressamente o indicata al momento dell'ordine.
 
-![Trasformatori di corrente e accessori per Telstar CT – figura 2](/img/drittprodukte-stromwandler/02.png)
+![Trasformatori di corrente e accessori per Telstar CT – Figura 2](/img/drittprodukte-stromwandler/02.png)
 
 ### Trasformatori di misura Hager (tarati)
 
@@ -64,7 +64,7 @@ Paese di distribuzione: Svizzera
 
 Scopo d'impiego:
 
-- Fini di fatturazione
+- Scopi di fatturazione
 
 
 Tipo: 
@@ -90,11 +90,11 @@ Possibili fonti di approvvigionamento:
 </Kacheln>
 
 
-Taratura a fini di fatturazione:
+Taratura per scopi di fatturazione:
 
-La taratura deve essere richiesta specificamente o indicata al momento dell'ordine.
+La taratura deve essere richiesta espressamente o indicata al momento dell'ordine.
 
-![Trasformatori di corrente e accessori per Telstar CT – figura 3](/img/drittprodukte-stromwandler/03.png)
+![Trasformatori di corrente e accessori per Telstar CT – Figura 3](/img/drittprodukte-stromwandler/03.png)
 
 ### Trasformatori di misura Redur (tarati)
 
@@ -102,7 +102,7 @@ Paese di distribuzione: Germania
 
 Scopo d'impiego:
 
-- Fini di fatturazione
+- Scopi di fatturazione
 
 
 Tipo: 
@@ -115,9 +115,9 @@ Fonte: [https://www.redur.de/](https://www.redur.de/)
 - Redur Regulus Series
 
 
-## Trasformatori di corrente a fini di monitoraggio
+## Trasformatori di corrente per scopi di monitoraggio
 
-![Trasformatori di corrente e accessori per Telstar CT – figura 4](/img/drittprodukte-stromwandler/04.png)
+![Trasformatori di corrente e accessori per Telstar CT – Figura 4](/img/drittprodukte-stromwandler/04.png)
 
 ### Trasformatori apribili Optec
 
@@ -129,11 +129,11 @@ Tipo: trasformatore di corrente aperto
 
 Fonte: [https://www.optec.ch](https://www.optec.ch)
 
-- Optec serie RX aperte
+- Serie Optec RX aperte
 
-- Optec serie KUW (apribili)
+- Serie Optec KUW (apribili)
 
-- Optec serie SC-CT (apribili)
+- Serie Optec SC-CT (apribili)
 
 
 Possibile fonte di approvvigionamento:
@@ -141,7 +141,7 @@ Possibile fonte di approvvigionamento:
 - Negozio online Optec
 
 
-![Trasformatori di corrente e accessori per Telstar CT – figura 5](/img/drittprodukte-stromwandler/05.png)
+![Trasformatori di corrente e accessori per Telstar CT – Figura 5](/img/drittprodukte-stromwandler/05.png)
 
 ### Sensori di corrente Optec
 
@@ -153,7 +153,7 @@ Tipo: trasformatore di corrente chiuso
 
 Fonte:[https://www.optec.ch](https://www.optec.ch)
 
-- Optec serie RX chiuse
+- Serie Optec RX chiuse
 
 
 Possibile fonte di approvvigionamento:
@@ -161,7 +161,7 @@ Possibile fonte di approvvigionamento:
 - Negozio online Optec
 
 
-![Trasformatori di corrente e accessori per Telstar CT – figura 6](/img/drittprodukte-stromwandler/03.png)
+![Trasformatori di corrente e accessori per Telstar CT – Figura 6](/img/drittprodukte-stromwandler/03.png)
 
 ### Trasformatori di misura Redur
 
@@ -176,7 +176,7 @@ Fonte: [https://www.redur.de/](https://www.redur.de/)
 - Redur Regulus Series
 
 
-![Trasformatori di corrente e accessori per Telstar CT – figura 7](/img/drittprodukte-stromwandler/07.png)
+![Trasformatori di corrente e accessori per Telstar CT – Figura 7](/img/drittprodukte-stromwandler/07.png)
 
 ### Trasformatori di misura Redur
 
@@ -191,13 +191,13 @@ Fonte: [https://www.redur.de/](https://www.redur.de/)
 - Redur RSC Series
 
 
-## Morsetti sezionabili per trasformatori di misura
+## Morsetti di sezionamento per trasformatori di misura
 
-Per sostituire facilmente un contatore, anche durante il funzionamento, è possibile utilizzare morsetti sezionabili per trasformatori di misura. Questi consentono di cortocircuitare le uscite dei trasformatori, in modo da non danneggiarli durante la sostituzione del contatore.
+Per sostituire facilmente un contatore, anche durante il funzionamento, si possono utilizzare morsetti di sezionamento per trasformatori di misura. Questi permettono di cortocircuitare le uscite dei trasformatori, in modo da non danneggiarli durante la sostituzione del contatore.
 
-![Trasformatori di corrente e accessori per Telstar CT – figura 8](/img/drittprodukte-stromwandler/08.png)
+![Trasformatori di corrente e accessori per Telstar CT – Figura 8](/img/drittprodukte-stromwandler/08.png)
 
-### Morsetti sezionabili Phoenix
+### Morsetti di sezionamento Phoenix
 
 Tipo: montaggio su guida DIN
 

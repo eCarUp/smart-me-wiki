@@ -9,13 +9,13 @@ symbol: 'blatt'
 
 ## Gebäude Minergie zertifizieren
 
-Minergie Bauten benötigen um die Zertifizierung zu schaffen zwangsweise ein Energiemonitoring. Dieses kann mit dem zertifizierten Minergie-Modul Monitoring von smart-me erledigt werden. Mit den Geräten und Gateways von smart-me sowie der Cloudoberfläche kann die Zertifizierung einfach bewältigt werden.
+Minergie Bauten benötigen, um die Zertifizierung zu schaffen, zwangsweise ein Energiemonitoring. Dieses kann mit dem zertifizierten Minergie-Modul Monitoring von smart-me erledigt werden. Mit den Geräten und Gateways von smart-me sowie der Cloudoberfläche kann die Zertifizierung einfach bewältigt werden.
 
 Zu zertifizierende Bauten werden vom Projektleiter oder Minergie-Fachpartner bei Minergie angemeldet und auf der Label-Plattform von Minergie erfasst. Damit die Zertifizierung durchgeführt werden kann, muss das Monitoringsystem nachgewiesen werden. 
 
 - Die Planung und Durchführung der Gebäude Zertifizierung wird durch einen Minergie-Fachpartner durchgeführt.
 
-- Die Realisierung des Monitorings und Minergie Monitoring+ kann hingehen von jedem smart-me Partner mit Minergie-Fachkompetenz durchgeführt werden.
+- Die Realisierung des Monitorings und Minergie Monitoring+ kann hingegen von jedem smart-me Partner mit Minergie-Fachkompetenz durchgeführt werden.
 
 
 ## Minergie-Monitoring Nachweis einfach erstellen:
@@ -28,7 +28,7 @@ Voraussetzung für diese nächsten Schritte ist eine Partnerschaft mit smart-me 
 
 3.  Auswählen des Monitorings: Standard oder Light (Abhängig vom Gebäude)
 
-4.  Auswählen, dass der Nachweis mit einem zertifiziertem Modulanbieter erfolgt
+4.  Auswählen, dass der Nachweis mit einem zertifizierten Modulanbieter erfolgt
 
 5.  smart-me als Modulanbieter auswählen.
 
@@ -44,9 +44,9 @@ In diesem Fall delegiert smart-me die Aufgabe an einen seiner gelisteten Systemi
 
 ## Minergie-Modul Monitoring + (Vergleich Plan- und Effektiv-Daten)
 
-Die smart-me Cloud ermöglicht mit seiner direkt Schnittstelle zur Minergie Datenbank auch die neuen Zusatzmodule Minergie Betrieb um Plandaten und Effektivdaten abzugleichen.
+Die smart-me Cloud ermöglicht mit seiner direkten Schnittstelle zur Minergie Datenbank auch die neuen Zusatzmodule Minergie Betrieb, um Plandaten und Effektivdaten abzugleichen.
 
-Die Auswertung der Daten wird auf der Minergieplatform zur Verfügung gestellt und ist von Seiten Minergie Kostenpflichtig.
+Die Auswertung der Daten wird auf der Minergieplatform zur Verfügung gestellt und ist von Seiten Minergie kostenpflichtig.
 
 [Mehr zum Monitoring +](https://www.minergie.ch/de/zertifizieren/minergie-betrieb/)
 
@@ -54,11 +54,11 @@ Die Auswertung der Daten wird auf der Minergieplatform zur Verfügung gestellt u
 
 ## Der Weg zum smart-me Partner mit Minergie Fachkompetenz
 
-Um mit smart-me Minergie Monitorings umzusetzen, bedarf es der absolvierten Partnerschulung und dem Selbststudium der Minergie Reglemente und Richtlinien.
+Um mit smart-me Minergie Monitorings umzusetzen, bedarf es der absolvierten Partnerschulung und des Selbststudiums der Minergie Reglemente und Richtlinien.
 
 Die generellen Informationen sind unterhalb zu finden.
 
-Nach dem Selbststudium kann ein Antrag als Systemintegrator bei der smart-me AG eingereicht werden. Nach erfolgreicher Prüfung des Antrags, wird der Systemintegrator offiziell als solcher in der Partnerliste eingetragen. 
+Nach dem Selbststudium kann ein Antrag als Systemintegrator bei der smart-me AG eingereicht werden. Nach erfolgreicher Prüfung des Antrags wird der Systemintegrator offiziell als solcher in der Partnerliste eingetragen. 
 
 Anfragen werden ab diesem Zeitpunkt an die Systemintegratoren weitergegeben und die Integratoren erhalten Zugang zur Verwendung der Schnittstelle zur Datenübertragung an Minergie.
 
@@ -104,16 +104,16 @@ Lade den Antrag herunter, prüfe den Inhalt, unterschreibe diesen und sende ihn 
 
 ### Kosten im Zusammenhang mit Minergie Monitoring +
 
-Die Kosten richten sich für die Integratoren nach den Preisen von Minergie. Die Aktuellen Preise befinden sich im Dokument "Reglement Minergie Monitoring" unter Kapitel 4.4 "Royalties für Auswertung Monitoring +"
+Die Kosten richten sich für die Integratoren nach den Preisen von Minergie. Die aktuellen Preise befinden sich im Dokument "Reglement Minergie Monitoring" unter Kapitel 4.4 "Royalties für Auswertung Monitoring +"
 
 Diese Kosten sind jährlich als Integrator gegenüber Minergie zu entrichten. 
 
 Ansonsten fallen im Zusammenhang mit dem Monitoring selbst keine weiteren Kosten seitens Minergie an.
 
 Hinweis:
-Es fallen Kosten zur Zertifizierung des Gebäudes im Minergie Standard selbst an, diese Kosten werden aber nicht von smart-me erhoben und sind üblicherweise einmalig. Weitere Informationen zu diesem Kosten können Sie bei den Kontakten für allgemeine Auskünfte bei Minergie direkt erfragen.
+Es fallen Kosten zur Zertifizierung des Gebäudes im Minergie Standard selbst an, diese Kosten werden aber nicht von smart-me erhoben und sind üblicherweise einmalig. Weitere Informationen zu diesen Kosten können Sie bei den Kontakten für allgemeine Auskünfte bei Minergie direkt erfragen.
 
-Royalties Stand 11.2025 (Änderungen seitens Minergie jederzeit Möglich, prüfen SIe die Kosten im aktuellen Dokument)
+Royalties Stand 11.2025 (Änderungen seitens Minergie jederzeit möglich, prüfen Sie die Kosten im aktuellen Dokument)
 
 ![Minergie-Modul Monitoring – Abbildung 5](/img/planung-minergie/05.png)
 

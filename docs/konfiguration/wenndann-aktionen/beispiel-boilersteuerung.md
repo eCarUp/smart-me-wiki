@@ -30,19 +30,19 @@ Die smart-me Zähler sind mit bistabilen Relais ausgestattet, wenn ein Einschalt
 
 Bestimme den Verbrauch und plane eine Reserve für Verbrauchsschwankungen ein
 
-Um ein gutes Steuerung zu konfigurieren, ist es wichtig, die von den Verbrauchern verbrauchte Leistung zu kennen. Es ist auch notwendig, für jeden Fall eine Reserve vorzusehen. Wenn zum Beispiel der DG-Boiler 3 kW benötigt, wird der Boiler eingeschaltet wenn weniger als -3,5 kW auf dem Bilanzzähler gemessen wird und erst wieder ausgeschaltet wenn mehr als 0 kW gemessen wird. Die 0,5 kW Differenz dienen dann als Puffer, wenn jemand z.B. einen Computer (60 Watt) einschaltet, damit in diesem Fall nicht unmittelbar zu wenig Energie zur Verfügung steht.
+Um eine gute Steuerung zu konfigurieren, ist es wichtig, die von den Verbrauchern verbrauchte Leistung zu kennen. Es ist auch notwendig, für jeden Fall eine Reserve vorzusehen. Wenn zum Beispiel der DG-Boiler 3 kW benötigt, wird der Boiler eingeschaltet, wenn weniger als -3,5 kW auf dem Bilanzzähler gemessen wird und erst wieder ausgeschaltet, wenn mehr als 0 kW gemessen wird. Die 0,5 kW Differenz dienen dann als Puffer, wenn jemand z.B. einen Computer (60 Watt) einschaltet, damit in diesem Fall nicht unmittelbar zu wenig Energie zur Verfügung steht.
 
 Zeitversetztes Ein- oder Ausschalten
 
 Ausserdem muss vor dem Ein- oder Ausschalten eine Zeitspanne einberechnet werden. So wird z.B. der Boiler erst abgeschaltet, wenn der Wert von 0 kW länger als 5 Minuten überschritten wird. So wird sichergestellt, dass ein kurzzeitiger Verbraucher wie ein Backofen oder ein Wasserkocher nicht unmittelbar zur Folge hat, dass der Verbraucher immer aus- und eingeschaltet werden muss. Dies ist umso wichtiger, je grösser das Gebäude ist.
 
-Bestimmen, wie viele Verbraucher gleichzeitig eingeschalten werden können 
+Bestimmen, wie viele Verbraucher gleichzeitig eingeschaltet werden können 
 
 Du solltest immer überprüfen, wie die Sicherungen dimensioniert wurden. Dies muss berücksichtigt werden, wenn alle Verbraucher gleichzeitig laufen, z. B. nachts. Wenn die Sicherung zu klein ist, musst du die Wenn/Dann-Aktionen so konfigurieren, dass die Verbraucher nicht gleichzeitig eingeschaltet werden.
 
 Ermitteln der Ein- und Ausschaltzeiten von Verbrauchern für ein stufenweises Einschalten
 
-Beim schrittweisen Einschalten von Verbrauchern, z. B. mehreren Boilern, muss sichergestellt werden, dass die Verzögerung zwischen dem ersten und dem zweiten Verbraucher lang genug ist, damit der erste Verbraucher die volle Leistung bezieht. Wenn es z. B. nur 20 Sekunden dauert, bis die Verbraucher die volle Leistung bezieht, können die Verbraucher mit einer Verzögerung von einer Minute eingeschaltet werden. Sofern genügend Strom vorhanden ist.
+Beim schrittweisen Einschalten von Verbrauchern, z. B. mehreren Boilern, muss sichergestellt werden, dass die Verzögerung zwischen dem ersten und dem zweiten Verbraucher lang genug ist, damit der erste Verbraucher die volle Leistung bezieht. Wenn es z. B. nur 20 Sekunden dauert, bis die Verbraucher die volle Leistung beziehen, können die Verbraucher mit einer Verzögerung von einer Minute eingeschaltet werden. Sofern genügend Strom vorhanden ist.
 
 Wenn es feste Ein- und Ausschaltzeiten gibt, muss darauf geachtet werden, dass diese um mindestens 1 Minute verschoben werden. Zum Beispiel Einschalten zwischen 5:00 und 8:00 und Ausschalten zwischen 8:01 und 4:59
 
@@ -50,18 +50,18 @@ Ausschalten von Verbrauchern
 
 Beim Ausschalten von Verbrauchern, z. B. von mehreren Boilern, ist es möglich, alles auf einmal auszuschalten. Also z.B. mit einer Verzögerung von 5 Minuten (Zeitversetztes Ausschalten). Es ist aber auch möglich, die Boiler schrittweise abzuschalten.
 
-Beispiel für eine Schrittweise Abschaltung mit Verzögerung: 
+Beispiel für eine schrittweise Abschaltung mit Verzögerung: 
 
-- Der erste Boiler schaltet sich mit einer Verzögerung von 5 Minuten aus, damit z. B. jemand den Wasserkocher einschalten kann, ohne dass dies den Boiler Ausschaltet. 
+- Der erste Boiler schaltet sich mit einer Verzögerung von 5 Minuten aus, damit z. B. jemand den Wasserkocher einschalten kann, ohne dass dies den Boiler ausschaltet. 
 
-- Der zweite Boiler wird nach 7 Minuten erhöhtem Netzbezug Ausgeschaltet (Also 5 Minuten nach dem Ersten + 2 Minuten Wartezeit)
+- Der zweite Boiler wird nach 7 Minuten erhöhtem Netzbezug ausgeschaltet (Also 5 Minuten nach dem Ersten + 2 Minuten Wartezeit)
 
-- Der dritte Boiler wird dann 9 Minuten erhöhtem Netzbezug Ausgeschaltet
+- Der dritte Boiler wird dann 9 Minuten erhöhtem Netzbezug ausgeschaltet
 
 
 Netzoptimiert vs. Eigenverbrauchsoptimiert
 
-Bei der Konfiguration der Ein- und Ausschalt-Schwellwerten muss entscheiden werden, ob es sich um eine netzoptimierte Anlage handelt, d. h. die Verbraucher schalten sich möglichst immer dann ein und aus, wenn Strom aus dem Netz bezogen wird. Oder ob die Anlage für den Eigenverbrauch optimiert werden soll. Das heisst, dass möglichst viel Strom vom Dach genutzt werden soll.
+Bei der Konfiguration der Ein- und Ausschalt-Schwellwerte muss entschieden werden, ob es sich um eine netzoptimierte Anlage handelt, d. h. die Verbraucher schalten sich möglichst immer dann ein und aus, wenn Strom aus dem Netz bezogen wird. Oder ob die Anlage für den Eigenverbrauch optimiert werden soll. Das heisst, dass möglichst viel Strom vom Dach genutzt werden soll.
 
 - Beispiel für einen Verbraucher von 2,5 kW mit einer Reserve für Verbrauchsschwankungen von 0,5 kW.
 
@@ -78,7 +78,7 @@ Wir haben gute Erfahrungen gemacht, wenn die Verbraucher sich dann einschalten, 
 
 Booster Knopf
 
-Die Einrichtung eines Booster-Knopf für einen Verbraucher ist zwar möglich, macht die Einrichtung aber aufwendiger und komplizierter. Ausserdem ist zu beachten, dass nur der Besitzer des smart-me-Kontos die Möglichkeit hat, einen Booster-Button zu aktivieren. 
+Die Einrichtung eines Booster-Knopfs für einen Verbraucher ist zwar möglich, macht die Einrichtung aber aufwendiger und komplizierter. Ausserdem ist zu beachten, dass nur der Besitzer des smart-me-Kontos die Möglichkeit hat, einen Booster-Button zu aktivieren. 
 
 Für diese Funktion müssen wir einen digitalen Ausgang verwenden, der nicht physisch mit einem Verbraucher verbunden ist. Wir verwenden dann den Knopf nur als Zustand für die Wenn/Dann Aktionen.
 
@@ -86,7 +86,7 @@ Nachheizen mit Hoch- und Niedertarif vs. Nachheizen mit Eintarif. 
 
 Bei Boilern, die mit den Wenn Dann Aktionen nachgeheizt werden, kann die lokale Tarifstruktur beachtet werden. 
 
-Wenn der Strom nachts billiger ist, ist es üblich, in der Nacht nachzuheizen. Dies hat jedoch zur Folge, dass der Boiler in der Regel bei Sonnenaufgang die Maximale Temperatur hat. 
+Wenn der Strom nachts billiger ist, ist es üblich, in der Nacht nachzuheizen. Dies hat jedoch zur Folge, dass der Boiler in der Regel bei Sonnenaufgang die maximale Temperatur hat. 
 
 Wenn ein Einheitstarif angewendet wird, ist es am besten, das Nachheizen ab 12 Uhr zu staffeln. So kann der Boiler im Sommer morgens optimal geladen und ggf. nachmittags aufgeheizt werden. Auf diese Weise ist der Solarertrag für den Boiler besser. In den folgenden Beispielen wird nachts nachgeheizt. Wenn dies tagsüber erfolgen soll, ändern Sie einfach die Einschaltzeiten der Beispiele. Achten Sie darauf, dass auch das Ausschalten auch berücksichtigt werden muss.
 
@@ -153,7 +153,7 @@ Wenn Datum & Uhrzeit:
 - Bis: 01:00
 
 </div>
-<div className="col col--7 text--center">
+<div className="col col--7 bild--mitte">
 
 ![Beispiele Boilersteuerung mit Wenn/Dann-Aktionen – Abbildung 5](/img/konfiguration-wenndann-aktionen-beispiel-boilersteuerung/05.png)
 
@@ -184,14 +184,14 @@ Wenn/Dann Aktion: Boiler EG Aus
 
 Diese Wenn/Dann Aktion erfüllt die Funktion:
 
-- Den Boiler auszuschalten, wenn der Bilanzzähler mehr als drei Minute lang nicht ausreichend Strom liefert.
+- Den Boiler auszuschalten, wenn der Bilanzzähler mehr als drei Minuten lang nicht ausreichend Strom liefert.
 
 - Und
 
 - Wenn sich der Boiler nicht innerhalb des festgelegten Zeitraums befindet, in dem er in jedem Fall drei Stunden lang nachgeheizt wird.
 
 
-Die Konfiguration ist unten in der tabellarische Ansicht erläutert. Wichtig ist zu beachten, dass es eine UND Aktion ist, der Schwellwert neu über und nicht mehr unter ist und die Zeiten das Gegenteil vom Einschalten (Nachheizen) sind mit 1 Minuten Zeitversetzt.
+Die Konfiguration ist unten in der tabellarischen Ansicht erläutert. Wichtig ist zu beachten, dass es eine UND Aktion ist, der Schwellwert neu über und nicht mehr unter ist und die Zeiten das Gegenteil vom Einschalten (Nachheizen) sind mit 1 Minuten Zeitversetzt.
 
 Konfiguration: Boiler 1 Aus (EG)
 
@@ -678,7 +678,7 @@ Leistung: 
 
 ### Konfiguration: Legionelle Ein
 
-Dies muss nur Konfiguriert werden der Legionellenschutz aktivieren werden soll. z.B. 1x Pro Woche am Freitag ab 3:15. Hier wird eine Dauer angegeben, welche 30 Minuten (Default) ist, damit wir sicherstellen können, dass auch wenn eine Datenpaket verloren geht der Zustand auf "Ein" gesetzt wird.
+Dies muss nur konfiguriert werden der Legionellenschutz aktiviert werden soll. z.B. 1x Pro Woche am Freitag ab 3:15. Hier wird eine Dauer angegeben, welche 30 Minuten (Default) ist, damit wir sicherstellen können, dass auch wenn ein Datenpaket verloren geht der Zustand auf "Ein" gesetzt wird.
 
 Wenn/Dann Aktion: Legionelle Ein
 
@@ -824,7 +824,7 @@ Relais sind mit Boilern verbunden und wurden mit dem Namen "Boiler" versehen.
 Das Mosfet wird entsprechend den [Ein- und Ausgänge](/schnittstellen/ein-und-ausgaenge) konfiguriert und trägt den Namen "Boiler Booster".
 
 </div>
-<div className="col col--6 text--center">
+<div className="col col--6 bild--mitte">
 
 ![Beispiele Boilersteuerung mit Wenn/Dann-Aktionen – Abbildung 15](/img/konfiguration-wenndann-aktionen-beispiel-boilersteuerung/15.png)
 
@@ -1052,7 +1052,7 @@ Dann ein- / ausschalten
 - Boiler: Aus
 
 
-nKonfiguration: Boiler 2 Aus (DG)
+Konfiguration: Boiler 2 Aus (DG)
 
 Wenn/Dann Aktion: Boiler DG Aus
 
@@ -1176,7 +1176,7 @@ Dann ein- / ausschalten
 
 Konfiguration: Boiler 2 Booster Reset (DG)
 
-Wenn Dann/Aktion: Boiler DG Booster Reset
+Wenn/Dann Aktion: Boiler DG Booster Reset
 
 Wenn Schaltzustände:
 

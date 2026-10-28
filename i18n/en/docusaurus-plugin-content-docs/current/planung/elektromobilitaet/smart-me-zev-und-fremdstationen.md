@@ -4,27 +4,27 @@ slug: '/planung/elektromobilitaet/smart-me-zev-und-fremdstationen'
 description: 'E-mobility in the smart-me ZEV with third-party charging stations'
 sidebar_label: 'smart-me System and Third-Party Stations'
 ---
-## E-mobility in the smart-me ZEV / tenant electricity with third-party charging stations
+## E-Mobility in the smart-me ZEV / Tenant Electricity with Third-Party Charging Stations
 
 ![smart-me ZEV and third-party stations – Figure 1](/img/planung-elektromobilitaet-smart-me-zev-und-fremdstationen/01.png)
 
-### Description of the load management solution in the metering concept with third-party charging stations
+### Description of the Load Management Solution in the Metering Concept with Third-Party Charging Stations
 
-When third-party hardware is used, smart-me does not take care of load management.
+When third-party hardware is used, smart-me does not handle load management.
 The manufacturer of the charging hardware offers its own metering solution for control.
 
-Within a smart-me ZEV (association for own consumption) / tenant electricity setup, you must expect that at the points marked by the red arrows, additional meter hardware for control has to be installed alongside the smart-me meters used to calculate the ZEV / tenant electricity.
+Within a smart-me ZEV / tenant electricity setup, you should expect that at the points marked by the red arrows, additional meter hardware for control must be installed alongside the smart-me meters used for the ZEV / tenant electricity calculation.
 
-If, however, load management is not handled by the respective manufacturer but by third-party software, the smart-me meters can also serve as a reference and source of information for the third-party hardware.
+If, on the other hand, load management is not provided by the respective manufacturer but handled by third-party software, the smart-me meters can also serve as a reference and information source for the third-party hardware.
 
-smart-me metering hardware as a source of information for third-party software controlling third-party charging stations:
+smart-me metering hardware as an information source for third-party software to control third-party charging stations:
 
 - [Telstar 80A](/produkte/telstar-80a) 
 
 - [Telstar CT](/produkte/telstar-ct)
 
 
-### Further information on load management and ZEV / tenant electricity
+### Further Information on Load Management and ZEV / Tenant Electricity
 
 [Bill of materials for the example development](https://dok.smart-me.com/planung/überbauung)
 
@@ -32,12 +32,12 @@ smart-me metering hardware as a source of information for third-party software c
 
 
 
-### Billing of e-mobility in the ZEV / tenant electricity
+### Billing of E-Mobility in the ZEV / Tenant Electricity
 
-Billing can be carried out in different ways, each with its specific advantages and disadvantages:
+Billing can be done in several ways, each with its specific advantages and disadvantages:
 
-- Billing in a single-tariff or multi-tariff system in the ZEV (association for own consumption) with [smart-me Billing](https://web.smart-me.com/energiekostenabrechnung/), either separately or together with the apartment consumption (depending on the third-party hardware).
+- Billing with a single-rate or multi-rate system in the ZEV with [smart-me Billing](https://web.smart-me.com/energiekostenabrechnung/), either separately or together with the apartment consumption (depending on the third-party hardware).
 
-- Billing in a single-tariff system using the post-payment method and the [eCarUp backend](https://web.ecarup.com/referenzen/).
+- Billing with a single-rate system using the post-payment method and the [eCarUp Backend](https://web.ecarup.com/referenzen/).
 
-- Billing at a single tariff using highly automated credit card billing and the [eCarUp backend](https://web.ecarup.com/referenzen/).
+- Billing with a single rate using highly automated credit card billing and the [eCarUp Backend](https://web.ecarup.com/referenzen/).

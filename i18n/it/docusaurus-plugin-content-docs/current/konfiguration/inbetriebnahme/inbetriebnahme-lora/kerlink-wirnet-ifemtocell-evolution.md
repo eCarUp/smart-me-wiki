@@ -4,7 +4,7 @@ slug: '/konfiguration/inbetriebnahme/inbetriebnahme-lora/kerlink-wirnet-ifemtoce
 description: 'Attivazione della modalità Private Network'
 sidebar_label: 'kerlink Wirnet iFemtocell-evolution'
 ---
-## Istruzioni di integrazione
+## Guida all'integrazione
 
 ## Attivazione della modalità Private Network
 
@@ -19,16 +19,16 @@ sidebar_label: 'kerlink Wirnet iFemtocell-evolution'
 
     user: root
 
-    PW: pdmk-\*Serial\*  (es.: EUI = 7076FFyyzz06001E, quindi la Serial è = 06001E)
+    PW: pdmk-\*Serial\*  (es.: EUI = 7076FFyyzz06001E, allora il Serial è 06001E)
 
 4.  Esegui il seguente comando:
 
     klk\_apps\_config --activate-cpf --lns-server lora-gateway.smart-me.com --lns-dport 1700 --lns-uport 1700
 
-    Nota che Ins è la forma minuscola di LNS!
+    Tieni presente che Ins è la forma minuscola di LNS!
 
 </div>
-<div className="col col--5 text--center">
+<div className="col col--5 bild--mitte">
 
 ![kerlink Wirnet iFemtocell-evolution – Figura 1](/img/konfiguration-inbetriebnahme-inbetriebnahme-lora-kerlink-wirnet-ifemtocell-evolution/01.png)
 
@@ -41,24 +41,24 @@ sidebar_label: 'kerlink Wirnet iFemtocell-evolution'
 
 ## Aprire il Remote Webtool
 
-1.  Collega il dispositivo a Ethernet, WLAN o tramite 4G secondo le istruzioni
+1.  Collega il dispositivo alla rete Ethernet, al WLAN o tramite 4G secondo le istruzioni
 
 2.  Apri il browser del tuo laptop e inserisci il seguente URL:
     [http://klk-fevo-](/)&lt;Serial>/
 
 
-&lt;Serial> è il segnaposto per le ultime cifre dell'EUI del dispositivo, riportato sul dispositivo stesso:
+&lt;Serial> è il segnaposto per le ultime cifre dell'EUI del dispositivo, che si trova sul dispositivo stesso:
 
-Es.: EUI = 7076FFyyzz060001, quindi la Serial è = 060001
+Es.: EUI = 7076FFyyzz060001, allora il Serial è 060001
 
 
 3.  Accedi
-    Default User: admin
-    Default Passwort: pwd4admin
+    Utente predefinito: admin
+    Password predefinita: pwd4admin
 
-4.  Seleziona "Amministrazione" ("Administration")
+4.  Seleziona "Administration"
 
-5.  Imposta il fuso orario corretto per la tua località
+5.  Imposta il fuso orario corretto per la tua ubicazione
 
 
 ![kerlink Wirnet iFemtocell-evolution – Figura 4](/img/konfiguration-inbetriebnahme-inbetriebnahme-lora-kerlink-wirnet-ifemtocell-evolution/04.png)

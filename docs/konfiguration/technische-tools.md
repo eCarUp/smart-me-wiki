@@ -14,9 +14,9 @@ Prüfe die Installation schnell und einfach auf mögliche Fehler bei der physisc
 
 Lasttest
 
-Du hast den Überblick verloren und weisst nicht mehr welcher Zähler für Welche Wohnung ist?
+Du hast den Überblick verloren und weisst nicht mehr, welcher Zähler für welche Wohnung ist?
 
-Nutze den Föhntest um den Zähler der korrekten Wohnung zuzuordnen. Geh in die Wohnung, stecke den Föhn an oder lasse den Wassserkocher oder die Kaffemaschiene laufen. Der Zähler mit dem grössten Verbrauchsdelta spring sofort zum Beginn der Liste um ihn umzubenennen.
+Nutze den Föhntest, um den Zähler der korrekten Wohnung zuzuordnen. Geh in die Wohnung, stecke den Föhn an oder lasse den Wasserkocher oder die Kaffeemaschine laufen. Der Zähler mit dem grössten Verbrauchsdelta springt sofort zum Beginn der Liste, um ihn umzubenennen.
 
 Konnektivität
 

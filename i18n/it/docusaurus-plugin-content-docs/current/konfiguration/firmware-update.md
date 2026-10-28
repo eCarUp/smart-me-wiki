@@ -8,17 +8,17 @@ sidebar_label: 'Aggiornamento del firmware'
 
 ## Eseguire l'aggiornamento del firmware
 
-Nel corso del loro ciclo di vita, i prodotti smart-me ricevono costantemente miglioramenti ed estensioni delle funzionalità.
-Queste ottimizzazioni possono essere eseguite autonomamente dall'utente.
+Nel corso del loro ciclo di vita, i prodotti smart-me ricevono continuamente miglioramenti ed estensioni delle funzioni.
+L'utente può eseguire autonomamente queste ottimizzazioni.
 
-ⓘ Nota: gli aggiornamenti del firmware vanno applicati soprattutto quando hai riscontrato un comportamento errato o desideri utilizzare una nuova funzione non ancora supportata dal firmware precedente. I prodotti con funzionalità in rapida evoluzione, come ad esempio la stazione di ricarica Pico, dovrebbero essere aggiornati regolarmente.
+ⓘ Nota: gli aggiornamenti del firmware vanno eseguiti soprattutto se hai riscontrato un comportamento errato o se vuoi utilizzare una nuova funzione che il firmware precedente non supportava ancora. I prodotti con funzioni in rapida evoluzione, come ad esempio la stazione di ricarica Pico, dovrebbero essere aggiornati regolarmente.
 
 
 ## Procedura
 
 ### 1\. Seleziona il dispositivo da aggiornare:
 
-"Update" o "Update Communication"
+"Update" oppure "Update Communication"
 
 - Update: firmware del dispositivo
 
@@ -28,7 +28,7 @@ Queste ottimizzazioni possono essere eseguite autonomamente dall'utente.
 Nota:
 Per eseguire più aggiornamenti in parallelo, puoi aprire più link in una nuova scheda facendo clic con il tasto destro sul link.
 
-![Aggiornamento del firmware – Figura 2](/img/konfiguration-firmware-update/02.png)
+![Aggiornamento del firmware – figura 2](/img/konfiguration-firmware-update/02.png)
 
 ### 2\. Seleziona "Aggiorna firmware" ("Firmware aktualisieren")
 
@@ -39,12 +39,12 @@ Tempo fino all'avvio:
 
 - Per Telstar (CT) e Pico possono essere necessari fino a 5 minuti.
 
-- Per il M-Bus Gateway dipende dall'intervallo di upload.
+- Per il gateway M-Bus dipende dall'intervallo di caricamento.
 
 </div>
-<div className="col col--7 text--center">
+<div className="col col--7 bild--mitte">
 
-![Aggiornamento del firmware – Figura 3](/img/konfiguration-firmware-update/03.png)
+![Aggiornamento del firmware – figura 3](/img/konfiguration-firmware-update/03.png)
 
 </div>
 </div>
@@ -54,7 +54,7 @@ Tempo fino all'avvio:
 <div className="row">
 <div className="col col--4">
 
-ⓘ Nota: una volta iniziato l'aggiornamento (> 1%), non è necessario lasciare aperto il browser.
+ⓘ Nota: una volta avviato l'aggiornamento (> 1%), non è necessario lasciare aperto il browser.
 
 Tempo fino al completamento dell'aggiornamento: 
 
@@ -62,34 +62,34 @@ Tempo fino al completamento dell'aggiornamento:
 
 - Per Pico può essere necessario fino a un giorno. Vedi sotto per accelerare l'aggiornamento del firmware.
 
-- Per il M-Bus Gateway dipende dall'intervallo di upload.
+- Per il gateway M-Bus dipende dall'intervallo di caricamento.
 
 </div>
-<div className="col col--8 text--center">
+<div className="col col--8 bild--mitte">
 
-![Aggiornamento del firmware – Figura 4](/img/konfiguration-firmware-update/04.png)
+![Aggiornamento del firmware – figura 4](/img/konfiguration-firmware-update/04.png)
 
-![Aggiornamento del firmware – Figura 5](/img/konfiguration-firmware-update/05.png)
+![Aggiornamento del firmware – figura 5](/img/konfiguration-firmware-update/05.png)
 
 </div>
 </div>
 
 ### Accelerare l'aggiornamento del firmware
 
-Di norma l'aggiornamento prosegue anche senza un monitoraggio attivo o un browser aperto.
+Di norma l'aggiornamento prosegue anche senza una supervisione attiva e senza un browser aperto.
 
-Se l'aggiornamento viene monitorato attivamente, può essere accelerato come segue:
+Se l'aggiornamento viene seguito attivamente, è possibile accelerarlo come segue:
 
 - Seleziona il contatore o la Pico in una seconda scheda del browser.
 
 - Seleziona la vista normale.
 
-- Lascia la scheda del browser aperta e attiva. In questo modo il contatore o la Pico comunica più frequentemente con la smart-me Cloud e possono quindi essere scambiati più pacchetti di dati, così da completare l'aggiornamento più rapidamente.
+- Lascia la scheda del browser aperta e attiva. In questo modo il contatore o la Pico comunica più spesso con il cloud smart-me e si possono quindi scambiare più pacchetti di dati, così che l'aggiornamento si concluda più rapidamente.
 
-- Se la comunicazione è attiva lo si può riconoscere dalla tensione. Poiché questa varia sempre leggermente, è facile osservare se il dispositivo invia ora dati ogni 1-2 secondi.
+- Puoi verificare se la comunicazione è attiva osservando la tensione. Poiché questa oscilla sempre leggermente, è facile vedere se il dispositivo invia ora dati ogni 1-2 secondi.
 
 
-![Aggiornamento del firmware – Figura 6](/img/konfiguration-firmware-update/06.png)
+![Aggiornamento del firmware – figura 6](/img/konfiguration-firmware-update/06.png)
 
 ## Note di rilascio del firmware
 

@@ -1,10 +1,10 @@
 ---
 title: 'Passerelles M-Bus'
 slug: '/produkte/m-bus-gateway'
-description: 'Les passerelles M-Bus smart-me lisent les compteurs d''énergie dotés d''une interface M-Bus (EN 13757-2, -3) et transmettent les données automatiquement et de manière chiffrée par WLAN au cloud smart-me.'
+description: 'Les passerelles M-Bus smart-me relèvent les compteurs d''énergie dotés d''une interface M-Bus (EN 13757-2, -3) et transmettent les données automatiquement et de manière chiffrée par WLAN vers le cloud smart-me.'
 sidebar_label: 'Passerelles M-Bus'
 ---
-Les passerelles M-Bus smart-me lisent les compteurs d'énergie dotés d'une interface M-Bus (EN 13757-2, -3) et transmettent les données automatiquement et de manière chiffrée par WLAN au cloud smart-me. Via le portail smart-me ou notre interface ouverte, les valeurs de différents vecteurs énergétiques (eau, chaleur, gaz, température) peuvent ensuite être évaluées de manière flexible et exportées vers des systèmes tiers.
+Les passerelles M-Bus smart-me relèvent les compteurs d'énergie dotés d'une interface M-Bus (EN 13757-2, -3) et transmettent les données automatiquement et de manière chiffrée par WLAN vers le cloud smart-me. Via le portail smart-me ou notre interface ouverte, les valeurs des différents vecteurs énergétiques (eau, chaleur, gaz, température) peuvent ensuite être analysées de manière flexible et exportées vers des systèmes tiers.
 
 ## Les deux appareils
 
@@ -34,14 +34,14 @@ Les caractéristiques techniques, le schéma de raccordement, les fonctions des 
 
 ## Compteurs électriques, de chaleur, d'eau et de gaz compatibles
 
-La passerelle M-Bus lit plus de 1000 types de compteurs de différents fabricants. Vous trouverez ci-dessous une liste non exhaustive des fabricants d'appareils compatibles.
+La passerelle M-Bus relève plus de 1000 types de compteurs de différents fabricants. Vous trouverez ci-dessous une liste non exhaustive des fabricants d'appareils compatibles.
 
-Remarque : vérifiez expressément comment le compteur est déclaré. Il peut être déclaré comme compteur de chaleur, compteur de chaleur / froid, compteur d'eau ou compteur électrique.
-Les compteurs combinés qui ne sont pas déclarés comme compteurs de chaleur / froid peuvent, dans certaines circonstances, ne pas fonctionner correctement en mode combiné ou ne fonctionner que comme compteurs de chaleur.
+Remarque : vérifiez explicitement la manière dont le compteur est déclaré. Il peut être déclaré comme compteur de chaleur, compteur de chaleur / froid, compteur d'eau ou compteur électrique.
+Les compteurs combinés qui ne sont pas déclarés comme compteurs de chaleur / froid peuvent, selon les circonstances, ne pas fonctionner correctement en mode combiné ou ne fonctionner que comme compteur de chaleur.
 
 <Embed src="https://drive.google.com/file/d/1PVhN_1lLolihf6eNQ_1x7UxZK8cjE_hq/preview" height="700px" title="Drive, liste de compatibilité M-Bus_Gateway.xlsx" />
 
-Kompatibilitätsliste M-Bus\_Gateway.xlsx
+Liste de compatibilité M-Bus\_Gateway.xlsx
 
 Vous aussi, vous avez votre place sur cette liste ? Si votre produit prend en charge la norme M-Bus EN 13757-2, -3 (anciennement EN 1434-3), nous vous ajouterons volontiers à la liste des fabricants d'appareils compatibles ! [Contactez](/kontakt-schweiz)-nous.
 
@@ -143,20 +143,20 @@ Brunnenbachstrasse 1, CH-8340 Hinwil
 
 Sur ces pages, vous trouverez toutes les informations utiles pour réussir la mise en service de la passerelle M-Bus.
 
-- [Préparation de la mise en service](/konfiguration/inbetriebnahme/smart-me-geraete)
+- [Préparation de la mise en service](/konfiguration/inbetriebnahme/smart-me-geraete#instructions-pour-les-deux-m-bus-gateways)
 
 - [Mise en service](/konfiguration/inbetriebnahme)
 
 - [Numérotation des compteurs combinés](/konfiguration/inbetriebnahme/smart-me-geraete#numérotation-des-compteurs-combinés)
 
-- [Recherche d'appareils de passerelle M-Bus](/konfiguration/inbetriebnahme/smart-me-geraete)
+- [Recherche d'appareils de la passerelle M-Bus](/konfiguration/inbetriebnahme/smart-me-geraete#m-bus-gateway--rechercher-des-appareils)
 
-- [Empêcher la détection automatique des appareils](/konfiguration/inbetriebnahme/smart-me-geraete)
+- [Désactiver la détection automatique des appareils](/konfiguration/inbetriebnahme/smart-me-geraete#m-bus-gateway--empêcher-la-détection-de-nouveaux-appareils)
 
 
 ## Prescriptions d'installation M-Bus
 
-Pour réussir l'installation en un tour de main
+Voici comment réussir l'installation en un tournemain
 
 - Tubes vides ou chemins de câbles depuis la centrale de données jusqu'aux boîtes de dérivation et aux appareils de mesure
 
@@ -169,14 +169,14 @@ Pour réussir l'installation en un tour de main
 - Alimentation 230V / 10A depuis des groupes de fusibles plombables
 
 
-Attention : ne pas mettre la passerelle M-Bus smart-me sous tension. La mise sous tension de service ne doit être effectuée que par un partenaire smart-me.
+Attention : ne mettez pas la passerelle M-Bus smart-me sous tension. La mise sous tension de la tension de service ne doit être effectuée que par un partenaire smart-me.
 
 Recommandation pour la combinaison des cheminements de câbles
 Nous recommandons de répartir la pose des lignes de bus en colonnes montantes et en lignes de dérivation :
 
-![Passerelle M-Bus – Illustration 6](/img/produkte-m-bus-gateway/06.png)
+![Passerelle M-Bus – illustration 6](/img/produkte-m-bus-gateway/06.png)
 
-### Prescriptions relatives aux câbles et à l'installation électrique
+### Prescriptions pour les câbles et l'installation électrique
 
 Les prescriptions SEV s'appliquent de manière générale. Les lignes de bus doivent être aussi courtes que possible.
 Les types de câbles suivants sont recommandés :
@@ -193,21 +193,21 @@ Le plombage est effectué par un partenaire smart-me.
 
 Raccordements / connexions :
 
-- Boîtes apparentes (AP) : p. ex. Woertz 78×78 mm
+- Boîtes en saillie : p. ex. Woertz 78×78 mm
 
-- Boîtes encastrées (UP) : boîtes de dérivation standard
+- Boîtes encastrées : boîtes de dérivation standard
 
 
 Connexions de lignes :
 
-- Connecteurs autodénudants à sertir «Scotchlok IDC» 0,5 ... 1,5 mm2
+- Connecteurs à sertir « Scotchlok IDC » 0,5 ... 1,5 mm2
 
 - Bornes usuelles pour conducteurs à courant faible
 
 
 ### À quel intervalle les compteurs envoient-ils des données ?
 
-Selon l'intervalle configuré, les données sont lues de manière séquentielle sur chaque compteur M-Bus. La lecture d'un compteur dure environ 3 secondes. Les compteurs sont lus dans l'ordre dans lequel ils sont listés sous la passerelle M-Bus.
+Selon l'intervalle défini, les données sont relevées de manière séquentielle sur chaque compteur M-Bus. Le relevé d'un compteur dure environ 3 secondes. Les compteurs sont relevés dans l'ordre dans lequel ils sont listés sous la passerelle M-Bus.
 
 ## Description technique du protocole M-BUS
 

@@ -55,9 +55,9 @@ Die VEWA ist der Nachfolger der bekannten VHKA-Abrechnung und unterstützt erwei
 
 VEWA übernimmt die Kostenverteilung für separate oder kombinierte Heizsysteme basierend auf Zählermesswerten und verteilt die Kosten so fair wie möglich.
 
-Dazu werden bei Wärme, Kälte, Warmwasser spezielle verfahren angewendet um Ungleichheiten der Wohnungslokation, Verluste in Leitungen oder andere unterschiede zu den Bezügern auszugleichen.
+Dazu werden bei Wärme, Kälte, Warmwasser spezielle Verfahren angewendet, um Ungleichheiten der Wohnungslokation, Verluste in Leitungen oder andere Unterschiede zu den Bezügern auszugleichen.
 
-Es gibt dabei folgende Formen der der Kostenaufteilungen:
+Es gibt dabei folgende Formen der Kostenaufteilungen:
 
 Separierte Kostenstellen
 
@@ -86,7 +86,7 @@ Kombinierte Wärme + Kälte und Warmwasser
 
 - separierte Heiz und Wassersysteme (Wärme, Kälte, Warmwasser, Kaltwasser)
 
-- kombinierte Heiz- und Warmwassersysteme (Wärme + Warmwasser, Kälte , Kaltwasser)
+- kombinierte Heiz- und Warmwassersysteme (Wärme + Warmwasser, Kälte, Kaltwasser)
 
 - kombinierte Heiz- Warmwasser- und Kühlsysteme (Wärme + Kälte + Warmwasser, Kaltwasser)
 
@@ -97,7 +97,7 @@ Hinweis: 
 
 - Heizkostenverteiler werden nicht unterstützt
 
-- Bei Verrechnung mit Totalerzeugungsmetern, können die Kosten prozentual auf die Wohneinheiten verteilt werden.
+- Bei Verrechnung mit Totalerzeugungsmetern können die Kosten prozentual auf die Wohneinheiten verteilt werden.
 
 
 ![VEWA - Abrechnung – Abbildung 5](/img/konfiguration-billing-vewa-abrechnung/05.png)
@@ -136,7 +136,7 @@ Das Wärmesystem auswählen:
 - Separierte Systeme
 
 
-Ob Kombiniert oder nicht ist abhängig von der Wärmeerzeugung. Wird beispielsweise eine Wärmepumpe für die Heizung, Kühlung und Warmwasseraufbereitung verwendet, bietet sich die kombinierte Verrechnung an, da für alle drei Energien die Aufwandsgrösse die gleiche ist, nämlich Strom.
+Ob kombiniert oder nicht, ist abhängig von der Wärmeerzeugung. Wird beispielsweise eine Wärmepumpe für die Heizung, Kühlung und Warmwasseraufbereitung verwendet, bietet sich die kombinierte Verrechnung an, da für alle drei Energien die Aufwandsgrösse die gleiche ist, nämlich Strom.
 
 Wird die Heizung aber über eine Ölheizung ermöglicht, das Warmwasser aber rein elektrisch aufbereitet ohne Unterstützung der Ölheizung, sind nicht kombinierte Verrechnungen die Wahl.
 
@@ -146,15 +146,15 @@ Die Kostenaufteilung teilt die Gesamtkosten in Fixkosten (Grundkosten) und in va
 
 Grundkosten
 
-Die Grundkosten berücksichtigen allfällige Leitungsverluste, Zirkulationsverluste, bevorzugte Lage einer Wohnung mit mehr Sonnenschein usw. und verteilt ein Anteil der Kosten auf alle Mieter und deren Flächenanteil an der Gesamtliegenschaft.
+Die Grundkosten berücksichtigen allfällige Leitungsverluste, Zirkulationsverluste, bevorzugte Lage einer Wohnung mit mehr Sonnenschein usw. und verteilen einen Anteil der Kosten auf alle Mieter und deren Flächenanteil an der Gesamtliegenschaft.
 
 Variable Kosten
 
-Die Variablen Kosten werden direkt auf die erfassten verbrauchten Energiemengen angewendet. Sie entsprechen dem individuellen Verbrauch jedes Mieters.
+Die variablen Kosten werden direkt auf die erfassten verbrauchten Energiemengen angewendet. Sie entsprechen dem individuellen Verbrauch jedes Mieters.
 
 Warmwasseraufbereitung
 
-Damit die Energie welche in die Warmwasseraufbereitung geflossen ist anhand m3-Werten geschätzt werden kann wird die folgende Standardformel angewendet:
+Damit die Energie, welche in die Warmwasseraufbereitung geflossen ist, anhand m3-Werten geschätzt werden kann, wird die folgende Standardformel angewendet:
 
 Warmwasserenergie in kWh =
 Total Verbrauchswerte Warmwasser \[m3\] \* 1.163 \* Temperaturdifferenz \[K\] \* 1,25
@@ -209,7 +209,7 @@ Bei kombinierten Systemen werden die Einzelkosten der einzelnen Energieträger z
 
 2.  Inhalt aktivieren oder deaktivieren
 
-Wird Strom und die Heiz- und Nebenkosten in unterschiedlichen Intervallen abgerechnet, werden mehrere Perioden erfasst.
+Werden Strom und die Heiz- und Nebenkosten in unterschiedlichen Intervallen abgerechnet, werden mehrere Perioden erfasst.
 
 z.B.:
 
@@ -224,7 +224,7 @@ z.B.:
 - Wärme Wasser Periode 2024 (Nur Wärme, Kälte, Warm- und Kaltwasser)
 
 </div>
-<div className="col col--8 text--center">
+<div className="col col--8 bild--mitte">
 
 ![VEWA - Abrechnung – Abbildung 8](/img/konfiguration-billing-vewa-abrechnung/08.png)
 
@@ -240,7 +240,7 @@ Die Kosten welche erfasst werden dürfen, teilen sich grob in folgende Kosten:
 
 Energiekosten
 
-Kosten für den eigekauften Energieträger z.B.: 
+Kosten für den eingekauften Energieträger z.B.: 
 
 - 1000 Liter Öl für 2000 CHF
 
@@ -261,7 +261,7 @@ Kosten für Betrieb und Instandhaltung
 
 - Kosten Kaminfeger
 
-- Abfallbeseitigung falls das Heizsystem solche Kosten aufwirft.
+- Abfallbeseitigung, falls das Heizsystem solche Kosten aufwirft.
 
 
 Was nicht zu den Energienebenkosten gehört
@@ -286,11 +286,11 @@ Diese können pro Energietyp eingetragen werden und werden aufsummiert.
 
 Anders als im ZEV, dürfen im VEWA Kosten für die Amortisation von Wärme und Wasserzählern gegenüber den Verbrauchern verrechnet werden.
 
-Dies muss aber über die Erhöhung Mietzinse geschehen, nicht über die Nebenkosten.
+Dies muss aber über die Erhöhung der Mietzinse geschehen, nicht über die Nebenkosten.
 
 Es dürfen die Hardwarekosten und der Einbau eines Zählers überwälzt werden.
 
-Es gelten die Amortisationszeit von 10 Jahren.
+Es gilt die Amortisationszeit von 10 Jahren.
 
 Überwälzungsregeln sind beschrieben in Art. 269d OR und Art. 19 und 20 VMWG
 
@@ -311,7 +311,7 @@ Details zur Berechnung im offiziellen VEWA Dokument unter 2.2 FORMELLE ÜBERWÄL
 
 Für die VEWA Berechnung und Umlage der Grundkosten müssen die Wohnungsflächen bekannt sein. Diese können in der jeweiligen Abrechnungseinheit festgelegt werden. Sie werden danach zur relevanten Gesamtfläche summiert.
 
-Hinweis: Um die relevante Gesamtfläche korrekt zu rapportieren, müssen alle Räumlichkeiten als Abrechnungseinheit erfasst werden, auch wenn diese selber keine Zähler angegliedert hätten und diese extern Pauschal abgehandelt werden.
+Hinweis: Um die relevante Gesamtfläche korrekt zu rapportieren, müssen alle Räumlichkeiten als Abrechnungseinheit erfasst werden, auch wenn diese selber keine Zähler angegliedert hätten und diese extern pauschal abgehandelt werden.
 Nur ganze Zahlen möglich.
 
 ![VEWA - Abrechnung – Abbildung 11](/img/konfiguration-billing-vewa-abrechnung/11.png)
@@ -365,7 +365,7 @@ Der Bereich Warmwasser zeigt die Gesamtkosten für die Kostenstelle Warmwasser u
 - Total Wohnfläche in m2 der Liegenschaft (hier 300 m2) 
 
 
-Diese Kosten bestehen ausschliesslich aus den Kosten die zur Warmwassererzeugung benötigt werden, nicht aber das Kaltwasser welches dafür aufgewendet wird.
+Diese Kosten bestehen ausschliesslich aus den Kosten, die zur Warmwassererzeugung benötigt werden, nicht aber das Kaltwasser, welches dafür aufgewendet wird.
 Mehr zu den Kosten im Bereich Kostenstellenübersicht.
 
 Die Berechneten Tarife werden dann auf die jeweilige Wohnung angewandt (Blauer Block) basierend auf den Gemessenen Zählerwerten der Wohnung.
@@ -409,9 +409,9 @@ Hinweis:
 
 In Abhängigkeit des Systems können hier nur Kaltwasserzähler oder gemischt Kalt- und Warmwasserzähler stehen, die Detektion dieser Systeme ist automatisiert.
 
-- Gibt es einen Hauptzähler für Kaltwasser und keine in den Wohnungen oder nur Warmwasserzähler in den Wohnungen würde hier nur ein %-Anteiliger Kaltwasserzähler stehen.
+- Gibt es einen Hauptzähler für Kaltwasser und keine in den Wohnungen oder nur Warmwasserzähler in den Wohnungen, würde hier nur ein %-Anteiliger Kaltwasserzähler stehen.
 
-- Gibt es Wohnungszähler für Warm- und Kaltwasser stehen hier immer beide Zähler pro Wohnung, die Summe ergibt den Totalwasserverbrauch.
+- Gibt es Wohnungszähler für Warm- und Kaltwasser, stehen hier immer beide Zähler pro Wohnung, die Summe ergibt den Totalwasserverbrauch.
 
 
 ![VEWA - Abrechnung – Abbildung 15](/img/konfiguration-billing-vewa-abrechnung/15.png)
@@ -431,13 +431,13 @@ Jede Rechnung verfügt über die Kostenstellenübersicht. Diese enthält alle ei
 
 Kombinierte Kostenstellen
 
-Die Kostenstellenübersicht kann sich optisch verändern wenn Systeme kombiniert werden.
+Die Kostenstellenübersicht kann sich optisch verändern, wenn Systeme kombiniert werden.
 
 Üblich ist z.B. die Kombinierung von Wärme und Warmwasser, da ein Teil der Energie zur Warmwasseraufbereitung aus dem Heizsystem kommt. (Heizungsgekoppelter Warmwasserspeicher)
 
 In diesem Fall zeigen sich die Kosten dann kombiniert.
 
-Speziell daran ist der Ausweis der verwendeten Umrechnungsformel um die Gesamtenergie in Wärmeenergie und Warmwasseraufbereitungsenergie aufzusplitten.
+Speziell daran ist der Ausweis der verwendeten Umrechnungsformel, um die Gesamtenergie in Wärmeenergie und Warmwasseraufbereitungsenergie aufzusplitten.
 
 Separierte Kostenstellen Kostenübersicht
 

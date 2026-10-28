@@ -14,16 +14,16 @@ sidebar_label: 'Ein- und Ausgänge'
 Die smart-me Meter verfügen über einen oder mehrere Ausgänge, welche als Impulsausgang oder als potentialfreier Kontakt genutzt werden können.  Ab Werk ist der S0\_0 Ausgang als Impulsausgang definiert und der S1 als digitaler Relais-Ausgang mit dem Namen "Relais".
 
 </div>
-<div className="col col--6 text--center">
+<div className="col col--6 bild--mitte">
 
 ![Zähler Ein- und Ausgänge – Abbildung 1](/img/schnittstellen-ein-und-ausgaenge/01.png)
 
 </div>
 </div>
 
-### Externe beschaltung der Ein- und Ausgänge
+### Externe Beschaltung der Ein- und Ausgänge
 
-E1 mit Tarifsingal oder Lastabwurf ansteuern
+E1 mit Tarifsignal oder Lastabwurf ansteuern
 
 ![Zähler Ein- und Ausgänge – Abbildung 2](/img/schnittstellen-ein-und-ausgaenge/02.png)
 
@@ -53,7 +53,7 @@ Wird der Ausgang als potentialfreier Kontakt definiert, können beliebige Gerät
 
 
 HINWEIS:
-Der S1 kann mittels umstellen auf Impulsausgang auch aus der Ansicht ausgeblendet werden, wenn er nicht als Digitaler Ausgang verwendet wird.
+Der S1 kann mittels Umstellen auf Impulsausgang auch aus der Ansicht ausgeblendet werden, wenn er nicht als Digitaler Ausgang verwendet wird.
 In der Mieteransicht können diese nicht aktiviert oder deaktiviert werden, auch wenn sie dort sichtbar sind.
 
 ![Zähler Ein- und Ausgänge – Abbildung 4](/img/schnittstellen-ein-und-ausgaenge/04.png)
@@ -98,7 +98,7 @@ Bei Gleichstromschaltungen:
 
 ## Eingang konfigurieren
 
-Die smart-me Meter verfügen über einen digitalen Eingang der als Tarifeingang oder normaler digitaler Eingang genutzt werden kann. Ab Werk ist dieser Eingang als Tarifeingang definiert. Wird der Eingang als Digitaler Eingang konfiguriert, kann dieser als Ereignis genutzt werden, um andere Geräte zu steuern oder Alarme auszulösen.  Ist der Eingang als Tarifeingang definiert wird die Zählung beim Anlegen einer Spannung von Tarif 1 auf Tarif 2 umgeschaltet.
+Die smart-me Meter verfügen über einen digitalen Eingang, der als Tarifeingang oder normaler digitaler Eingang genutzt werden kann. Ab Werk ist dieser Eingang als Tarifeingang definiert. Wird der Eingang als Digitaler Eingang konfiguriert, kann dieser als Ereignis genutzt werden, um andere Geräte zu steuern oder Alarme auszulösen.  Ist der Eingang als Tarifeingang definiert, wird die Zählung beim Anlegen einer Spannung von Tarif 1 auf Tarif 2 umgeschaltet.
 
 ### Konfiguration als digitaler Eingang
 
@@ -112,9 +112,9 @@ Um einen Eingang als digitalen Eingang zu konfigurieren, gehe wie folgt vor:
 
     - Du kannst dem Eingang einen beliebigen Namen geben.
 
-    - Du kannst einen Text definieren, der angezeigt werden soll wenn der Eingang "Ein" bzw. "Aus" ist.
+    - Du kannst einen Text definieren, der angezeigt werden soll, wenn der Eingang "Ein" bzw. "Aus" ist.
 
-4.  Du siehts nun den digitalen Eingang und dessen Status in der smart-me App und auf dem smart-me Webportal.
+4.  Du siehst nun den digitalen Eingang und dessen Status in der smart-me App und auf dem smart-me Webportal.
 
 
 ### Digitalen Eingang für Steuerungen nutzen
@@ -123,7 +123,7 @@ Du kannst den digitalen Eingang zum Schalten von anderen Geräten oder Senden vo
 
 ### Anschluss verdrahten
 
-Um den potentialfreien Kontakt zu schalten, muss eine externe Spannung und potential (z.B. Neutralleiter) angelegt werden. Die jeweiligen Spannungswerte können den Technischen Daten der einzelnen Produkte entnommen werden. 
+Um den potentialfreien Kontakt zu schalten, muss eine externe Spannung und Potential (z.B. Neutralleiter) angelegt werden. Die jeweiligen Spannungswerte können den Technischen Daten der einzelnen Produkte entnommen werden. 
 
 Logik:
 1 (High) = Spannung aus Datenblatt

@@ -25,23 +25,23 @@ Vorteile des smart-me Lastmanagements:
 
 - Zentral gesteuerter Lastabwurf der gesamten Anlage
 
-- Areal- oder Hausoptimierte Solaroptimierungsfunktion
+- Areal- oder hausoptimierte Solaroptimierungsfunktion
 
 - Ladegruppenpriorisierungen und passive Lastspitzenminimierung
 
 
-Funktional benötigte Hardwarepunkte für das gesamtheitliche Lastmanagement mit smart-me Hardware (Rote Pfeile):
+Funktional benötigte Hardwarepunkte für das gesamtheitliche Lastmanagement mit smart-me Hardware (rote Pfeile):
 
 - 2x Haus Zähler ([Telstar 80A](/produkte/telstar-80a) oder [Telstar CT](/produkte/telstar-ct))
     \- Solaroptimierungspunkt und nötig zur Kapazitätsverteilung innerhalb des Areales.
 
 - Optional 2x E-Mobility Zähler ([Telstar 80A](/produkte/telstar-80a) oder [Telstar CT](/produkte/telstar-ct))
-    \- Referenz wenn mehrere Ladegruppen an einem Abgang angeschlossen sind und sich die Kapazität teilen.
+    \- Referenz, wenn mehrere Ladegruppen an einem Abgang angeschlossen sind und sich die Kapazität teilen.
     \- Abrechnungsmessung für Verluste und Standbyenergie
-    \- Andere Verbraucher welche nicht Pico Ladestationen sind können zusätzlich berücksichtigt werden. z.B. Garagenbeleuchtung
+    \- Andere Verbraucher, welche nicht Pico Ladestationen sind, können zusätzlich berücksichtigt werden. z.B. Garagenbeleuchtung
 
 - Optional wenn alle Häuser gemessen sind 1x Arealzähler ([Telstar 80A](/produkte/telstar-80a) oder [Telstar CT](/produkte/telstar-ct))
-    \- Dieser Punkt kann virtuell aus den beiden Hauszählern gebildet werden. Voraussetzung ist das 100% der Lasten im Areal durch die Hauszähler gemessen werden.
+    \- Dieser Punkt kann virtuell aus den beiden Hauszählern gebildet werden. Voraussetzung ist, dass 100% der Lasten im Areal durch die Hauszähler gemessen werden.
 
 
 ### Erweiterte Informationen zum Lastmanagement der Pico Ladestation

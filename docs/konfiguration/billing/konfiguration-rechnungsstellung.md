@@ -18,9 +18,9 @@ In der Rechnungsstellung kann die Liegenschaft hinzugefügt (angelegt) werden.
 
 Dies wird nun für alle Knoten durchgeführt, welche Abrechnungseinheiten enthalten.
 
-Bei diesem Schritt werden alle bereits erstellen Unterordner und zugewiesen Zähler automatisch zugeordnet. Aus diesem Grund empfehlen wird, dies jeweils vor dem Anlegen der Liegenschaft in smart-me Billing zu tun.
+Bei diesem Schritt werden alle bereits erstellten Unterordner und zugewiesenen Zähler automatisch zugeordnet. Aus diesem Grund empfehlen wir, dies jeweils vor dem Anlegen der Liegenschaft in smart-me Billing zu tun.
 
-Die Zählerpunkte welche verteilt werden sollen und sich im "Technischen Zähler" Knoten befinden, müssen nun noch manuell zugeordnet werden.
+Die Zählerpunkte, welche verteilt werden sollen und sich im "Technischen Zähler" Knoten befinden, müssen nun noch manuell zugeordnet werden.
 
 </div>
 <div className="col col--6 bild--mitte">

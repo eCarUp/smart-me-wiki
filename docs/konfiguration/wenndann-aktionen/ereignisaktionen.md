@@ -70,7 +70,7 @@ Nun können Ereignisaktionen definiert werden (bis zu 16). Dafür müssen drei E
 
 - Ereignis -> Sobald dies eintritt, wird die Aktion ausgelöst
 
-- Aktion -> Definiert was gemacht werden soll, wenn das Ereignis eintritt
+- Aktion -> Definiert, was gemacht werden soll, wenn das Ereignis eintritt
 
 - Name -> Der Name der Ereignis-Aktion
 
@@ -89,20 +89,20 @@ Bemerkungen:
 
 - Wird der Strom manuell wieder eingeschaltet, bleibt er eingeschaltet, bis das Ereignis erneut eintritt.
 
-- Bei schwankenden Leistungen wäre es möglich, dass diese Bedingung mehrmals nacheinander auftritt. Das kann zu unerwünschten Effekten führen, deshalb wird mit einer sogenannten Hysterese gearbeitet. Dies bedeutet, dass sich der Schwellenwert (in diesem Beispiel 10 Watt) bei der zweiten Aktivierung um 3 Watt erhöht wird.
+- Bei schwankenden Leistungen wäre es möglich, dass diese Bedingung mehrmals nacheinander auftritt. Das kann zu unerwünschten Effekten führen, deshalb wird mit einer sogenannten Hysterese gearbeitet. Dies bedeutet, dass sich der Schwellenwert (in diesem Beispiel 10 Watt) bei der zweiten Aktivierung um 3 Watt erhöht.
 
 
 ### Uhrzeit
 
-Es kann ein Zeitpunkt definiert werden, ab wann die Aktion ausgeführt werden soll. Falls gewisse Wochentage von dieser Regel ausgeschlossen werden sollen, müssen diese markiert werden (rot)
+Es kann ein Zeitpunkt definiert werden, ab wann die Aktion ausgeführt werden soll. Falls gewisse Wochentage von dieser Regel ausgeschlossen werden sollen, müssen diese markiert werden (rot).
 
-Beispiel: Ereignis -> Immer um 9 Uhr morgens wird der Strom ausgeschalten, jedoch nicht am Wochenende.
+Beispiel: Ereignis -> Immer um 9 Uhr morgens wird der Strom ausgeschaltet, jedoch nicht am Wochenende.
 
 Bemerkungen:
 
 - Die Aktion (in diesem Beispiel "Strom ausschalten") wird nur ausgeführt, wenn das entsprechende Ereignis stattgefunden hat, d.h. ein Wechsel der Uhrzeit von 08:59 Uhr auf 09:00 Uhr.
 
-- Wird der Strom manuell wieder eingeschaltet, bleibt er eingeschaltet bis das Ereignis erneut eintritt.
+- Wird der Strom manuell wieder eingeschaltet, bleibt er eingeschaltet, bis das Ereignis erneut eintritt.
 
 
 ## Aktionen
@@ -113,7 +113,7 @@ Es stehen verschiedenste Aktionen zur Auswahl. Diese können selbstverständlich
 
 Das smart-me Gerät schaltet sich selbst ein beziehungsweise aus. 
 
-Beispiel: Immer um 9 Uhr morgens wird der Strom ausgeschalten, jedoch nicht am Wochenende.
+Beispiel: Immer um 9 Uhr morgens wird der Strom ausgeschaltet, jedoch nicht am Wochenende.
 
 ### Strom umschalten (ein/aus)
 
@@ -131,4 +131,4 @@ Das smart-me Gerät kann sich nicht nur selbst ein- bzw. ausschalten, sondern es
 
 ### Strom umschalten (ein/aus) auf anderem Gerät
 
-Das smart-me Gerät kann sich nicht nur selber ein- bzw. ausschalten, sondern es kann auch andere smart-me Geräte steuern (funktioniert nur wenn beide smart-me Geräte eine WLAN-/Internetverbindung haben). Beachte ebenfalls, dass nur der der 32A Meter schalten kann)
+Das smart-me Gerät kann sich nicht nur selber ein- bzw. ausschalten, sondern es kann auch andere smart-me Geräte steuern (funktioniert nur, wenn beide smart-me Geräte eine WLAN-/Internetverbindung haben). Beachte ebenfalls, dass nur der 32A Meter schalten kann)

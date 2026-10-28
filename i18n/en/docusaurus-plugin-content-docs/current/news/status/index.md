@@ -9,22 +9,22 @@ Current and resolved disruptions of smart-me services. Open disruptions are show
 ## Current disruptions
 
 <details id="pico-wlan-installation-04-2026" open>
-<summary>Picos delivered between 21.04. and 30.04.2026: installation via Wi-Fi not possible</summary>
+<summary>Picos delivered 21.04.–30.04.2026: installation via Wi-Fi not possible</summary>
 
 <div className="row">
 <div className="col col--8">
 
 Problem:
 
-- Picos delivered between 21.04.2026 and 30.04.2026 cannot be installed with Wi-Fi using the normal process. 4G works without any issues.
+- Picos delivered between 21.04.2026 and 30.04.2026 cannot be installed via Wi-Fi using the normal process. 4G works without any issues.
 
-Solution together with support
+Solution together with Support
 
 1.  Create an account or log in to the account in which the Pico is to be installed
 
 2.  Create an RFID card as shown in the video on the right.
 
-3.  Install the Picos with the RFID card by holding the RFID card against the Pico. Make sure you use the card supplied with the Pico, and hold it there until the green check mark appears.
+3.  Install the Picos with the RFID card by holding the RFID card up to the Pico. Make sure to use the card supplied with the Pico and hold it there until the green check mark appears.
 
 </div>
 <div className="col col--4">
@@ -41,11 +41,11 @@ Pico IBN RFID Karte.mp4
 ## Resolved disruptions
 
 <details id="2026-03-10-telefonieanlage">
-<summary>10.03.2026 · Phone system not working</summary>
+<summary>10.03.2026 · Telephone system not working</summary>
 
 Problem:
 
-- The phone system is not working, so we cannot be reached by phone.
+- The telephone system is not working, so we cannot be reached by phone.
 
 Start of the disruption
 
@@ -62,7 +62,7 @@ Problem:
 
 - Picos connected via the integrated SIM card may go offline.
 
-- 2G/3G connectivity is impaired. Devices may be unable to connect to the network or to establish data connections.
+- 2G/3G connectivity is impaired. Devices may be unable to connect to the network or establish data connections.
 
 Start of the disruption
 
@@ -70,13 +70,13 @@ Start of the disruption
 
 Status:
 
-- 16.01.2026 9h00 1nce is currently experiencing disruptions on 3G and 4G, which means that Picos connected via 4G are offline.
+- 16.01.2026 9h00 1nce is currently experiencing 3G and 4G disruptions, which means that Picos connected via 4G are offline.
 
-- 16.01.2026 11h30 1nce problem solved.
+- 16.01.2026 11h30 1nce problem resolved.
 
-- 16.01.2026 14h30 some picos are still offline
+- 16.01.2026 14h30 some Picos are still offline
 
-- 16.01.2026 14h45 Workaround to bring the picos back online. [Pico 4G outage](/news/status/pico-4g-ausfall)
+- 16.01.2026 14h45 Workaround to bring the Picos back online. [Pico 4G outage](/news/status/pico-4g-ausfall)
 
 - 19.01.2026 8h30 Problem closed. Only individual Picos are still offline, approx. 10 units.
 

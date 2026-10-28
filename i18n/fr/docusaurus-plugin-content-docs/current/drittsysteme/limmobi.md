@@ -1,23 +1,23 @@
 ---
 title: 'Limmobi'
 slug: '/drittsysteme/limmobi'
-description: 'LIMMOBI est une solution logicielle moderne dans le cloud qui permet de réaliser la gestion immobilière de A à Z de manière numérique et efficace.'
+description: 'LIMMOBI est une solution logicielle moderne dans le cloud qui permet de gérer des biens immobiliers de A à Z de manière numérique et efficace.'
 sidebar_label: 'Limmobi'
 ---
-[LIMMOBI](https://limmobi.ch)  est une solution logicielle moderne dans le cloud qui permet de réaliser la gestion immobilière de A à Z de manière numérique et efficace. Le traitement des factures entrantes, le contrôle des paiements reçus et l'établissement du décompte des charges accessoires sont automatisés.
+[LIMMOBI](https://limmobi.ch)  est une solution logicielle moderne dans le cloud qui permet de gérer des biens immobiliers de A à Z de manière numérique et efficace. Le traitement des factures entrantes, le contrôle des paiements reçus et l'établissement du décompte des charges accessoires sont automatisés.
 
-L'automatisation des processus, les services complémentaires et la navigation intuitive permettent de réduire au minimum les connaissances spécialisées que l'utilisateur doit avoir en comptabilité, en droit et en informatique.
+L'automatisation des processus, les services complémentaires et une utilisation intuitive permettent de réduire au minimum les connaissances spécialisées que l'utilisateur doit avoir en comptabilité, en droit et en informatique.
 
 - Données smart-me directement via API.
 
-- Décompte d'électricité à partir des tarifs calculés (heures creuses, heures pleines, tarifs solaires) et / ou des relevés du compteur.
+- Décompte d'électricité à partir de tarifs calculés (heures creuses, heures pleines, tarifs solaires) et / ou de relevés du compteur.
 
 - Décompte des charges accessoires pour la chaleur, l'eau et le gaz selon VEWA.
 
 
 ![Limmobi – Illustration 1](/img/drittsysteme-limmobi/01.png)
 
-Le tutoriel vidéo montre avec quelle simplicité smart-me et LIMMOBI peuvent être intégrés. Les relevés du compteur provenant de smart-me peuvent ainsi être utilisés automatiquement pour le décompte des frais de chauffage et des charges accessoires dans LIMMOBI. 
+Le tutoriel vidéo montre avec quelle facilité smart-me et LIMMOBI peuvent être intégrés. Les relevés du compteur de smart-me peuvent ainsi être utilisés automatiquement pour le décompte des frais de chauffage et des charges accessoires dans LIMMOBI. 
 
 <Video src="XIlkmWgBjn4" title="Vidéo YouTube, démo en direct LIMMOBI" />
 

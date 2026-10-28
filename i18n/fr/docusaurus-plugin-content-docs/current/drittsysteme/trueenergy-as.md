@@ -1,22 +1,22 @@
 ---
 title: 'TrueEnergy AS'
 slug: '/drittsysteme/trueenergy-as'
-description: 'L''application de TrueEnergy permet, en combinaison avec le module Kamstrup de smart-me, de piloter des appareils et des bornes de recharge pour voitures.'
+description: 'Associée au module Kamstrup de smart-me, l''application de TrueEnergy permet de piloter des appareils et des bornes de recharge pour voitures.'
 sidebar_label: 'TrueEnergy AS'
 ---
 <div className="row">
 <div className="col col--7">
 
-L'application de TrueEnergy permet, en combinaison avec le module Kamstrup de smart-me, de piloter des appareils et des bornes de recharge pour voitures.
+Associée au module Kamstrup de smart-me, l'application de TrueEnergy permet de piloter des appareils et des bornes de recharge pour voitures.
 
-Votre voiture est toujours chargée au bon moment autant que nécessaire et se recharge au prix le plus avantageux, en fonction de l'électricité solaire disponible ou aussi rapidement que possible.
+Votre voiture est toujours chargée au bon moment, autant que nécessaire, et se recharge au prix le plus avantageux, en fonction de l'électricité solaire disponible ou le plus rapidement possible.
 
-Dans le même esprit, des appareils tels que l'éclairage et les lave-linge peuvent également être pilotés via IFTT.
+Dans le même esprit, des appareils comme l'éclairage et les machines à laver peuvent aussi être pilotés via IFTT.
 
 Groupe cible : Danemark / maisons individuelles
 
 </div>
-<div className="col col--5 text--center">
+<div className="col col--5 bild--mitte">
 
 ![TrueEnergy AS – Illustration 1](/img/drittsysteme-trueenergy-as/01.png)
 
@@ -27,7 +27,7 @@ Fonctions :
 
 - Recharge des véhicules électriques en fonction du niveau de charge, des horaires, des meilleurs prix et de l'électricité solaire disponible.
 
-- Pilotage d'appareils avec IFTT en fonction des prix de l'électricité et des horaires
+- Pilotage des appareils avec IFTT en fonction des prix de l'électricité et des horaires
 
 <div className="row">
 <div className="col col--6 bild--mitte">

@@ -15,7 +15,7 @@ sidebar_label: 'kerlink Wirnet iFemtocell-evolution'
 
 2.  Rufe mit Putty (SSH) folgende IP Adresse auf 192.168.120.1. 
 
-3.  Loge dich ein mit
+3.  Logge dich ein mit
 
     user: root
 
@@ -25,10 +25,10 @@ sidebar_label: 'kerlink Wirnet iFemtocell-evolution'
 
     klk\_apps\_config --activate-cpf --lns-server lora-gateway.smart-me.com --lns-dport 1700 --lns-uport 1700
 
-    Beachte das Ins die kleine form von LNS ist!
+    Beachte, dass Ins die kleine Form von LNS ist!
 
 </div>
-<div className="col col--5 text--center">
+<div className="col col--5 bild--mitte">
 
 ![kerlink Wirnet iFemtocell-evolution – Abbildung 1](/img/konfiguration-inbetriebnahme-inbetriebnahme-lora-kerlink-wirnet-ifemtocell-evolution/01.png)
 
@@ -47,18 +47,18 @@ sidebar_label: 'kerlink Wirnet iFemtocell-evolution'
     [http://klk-fevo-](/)&lt;Serial>/
 
 
-&lt;Serial> ist Platzhalter für die letzten Digits der Geräte EUI die auf dem Gerät zu finden ist:
+&lt;Serial> ist Platzhalter für die letzten Digits der Geräte EUI, die auf dem Gerät zu finden ist:
 
 Bsp: EUI = 7076FFyyzz060001, dann ist die Serial = 060001
 
 
-3.  Loge dich ein
+3.  Logge dich ein
     Default User: admin
     Default Passwort: pwd4admin
 
 4.  Wähle "Administration"
 
-5.  Setze die Korrekte Zeitzone für deinen Standort
+5.  Setze die korrekte Zeitzone für deinen Standort
 
 
 ![kerlink Wirnet iFemtocell-evolution – Abbildung 4](/img/konfiguration-inbetriebnahme-inbetriebnahme-lora-kerlink-wirnet-ifemtocell-evolution/04.png)

@@ -4,13 +4,13 @@ slug: '/drittsysteme/elmoove'
 description: 'Clever laden mit der mooveBar'
 sidebar_label: 'elmoove'
 ---
-## Webinaraufzeichung
+## Webinaraufzeichnung
 
 <Video src="5DH7QX_c5qY" title="YouTube Video" />
 
 ## Clever laden mit der mooveBar
 
-Elmoove ist ein Schweizer Unternehmen, welches sich seit 2017 mit E-Mobility, E-Micromobility und Energiemanagement Systeme beschäftigt.
+Elmoove ist ein Schweizer Unternehmen, welches sich seit 2017 mit E-Mobility, E-Micromobility und Energiemanagement Systemen beschäftigt.
 
 Die mooveBar ist das innovativste Produkt in Bezug auf Auflade Lösungen im E-Bike Markt. Modular aufgebaut kann es für qualifizierte Energieabrechnungen in Liegenschaften eingesetzt werden. Die mooveBar ist mit 4 Steckdosen ausgerüstet, bei welcher sämtliche Ladegeräte angeschlossen werden können. Die Steckdosen sind permanent stromlos und müssen mittels RFID Karten freigeschaltet werden. Somit wird sichergestellt, dass niemand unberechtigt sein Fahrzeug aufladen kann. 
 

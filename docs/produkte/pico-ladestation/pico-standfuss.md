@@ -82,7 +82,7 @@ Die Montage erfolgt auf einem Betonsockel mit Lochmass nach Anleitung. Details u
 Oberfläche: feuerverzinkt, pulverbeschichtet und lackiert in RAL 9004 Signalschwarz
 
 </div>
-<div className="col col--3 text--center">
+<div className="col col--3 bild--mitte">
 
 ![Pico Ständer – Abbildung 5](/img/produkte-pico-ladestation-pico-standfuss/05.png)
 
@@ -91,6 +91,7 @@ Oberfläche: feuerverzinkt, pulverbeschichtet und lackiert in RAL 9004 Signalsch
 
 <div className="row">
 <div className="col col--6">
+
 ### 232070-PL Pico Ständer mit Servicezugang
 
 Universal Standfuss mit Boden Platte nach OPI-2020 Standard
@@ -119,7 +120,7 @@ Oberfläche: feuerverzinkt, pulverbeschichtet und lackiert in RAL 9004 Signalsch
 ![Pico Ständer – Abbildung 4](/img/produkte-pico-ladestation-pico-standfuss/06.jpg)
 
 </div>
-<div className="col col--3 text--center">
+<div className="col col--3 bild--mitte">
 
 ![Pico Ständer – Abbildung 7](/img/produkte-pico-ladestation-pico-standfuss/07.png)
 
@@ -130,7 +131,7 @@ Oberfläche: feuerverzinkt, pulverbeschichtet und lackiert in RAL 9004 Signalsch
 
 ### 232070-PL/PH1 und 232070-PL/PH2 Pico Ständerköpfe mit Kabeldock
 
-Diese Kopfvariante verfügt zusätzlich zum Kabelhaken, zum aufrollen des Kabels, über Steckerhalterungen, um das lose Ende des Kabels nach dem Ladevorgang wassergeschützt zu verstauen.
+Diese Kopfvariante verfügt zusätzlich zum Kabelhaken, zum Aufrollen des Kabels, über Steckerhalterungen, um das lose Ende des Kabels nach dem Ladevorgang wassergeschützt zu verstauen.
 
 Dieser Kopf eignet sich besonders für öffentliche Ladestationen mit fixem Kabel an der Ladestation.
 
@@ -142,13 +143,13 @@ Die Köpfe passen auf alle Standfussvarianten.
 232070-PL/PH1 Pico Ständerkopf 1x Pico mit Kabeldock
 
 Inhalt:
-- 1x Kabeldock rechte Seite (von Vorne)
+- 1x Kabeldock rechte Seite (von vorne)
 - 1x Pico Halteblech
 - Kabelhaken
 - Zubehör
 
 </div>
-<div className="col col--3 text--center">
+<div className="col col--3 bild--mitte">
 
 ![Pico Ständer – Abbildung 8](/img/produkte-pico-ladestation-pico-standfuss/08.jpg)
 
@@ -161,13 +162,13 @@ Inhalt:
 2302070-PL/PH2 Pico Ständerkopf 2x Pico mit Kabeldocks
 
 Inhalt:
-- 2x Kabeldock rechte und linke Seite (von Vorne)
+- 2x Kabeldock rechte und linke Seite (von vorne)
 - 2x Pico Halteblech
 - Kabelhaken
 - Zubehör
 
 </div>
-<div className="col col--3 text--center">
+<div className="col col--3 bild--mitte">
 
 ![Pico Ständer – Abbildung 9](/img/produkte-pico-ladestation-pico-standfuss/09.jpg)
 
@@ -179,14 +180,14 @@ Inhalt:
 <div className="row">
 <div className="col col--9">
 
-Das Stanfuss Fundament kann aus Beton gegossen werden mit den nebenstehenden Bodenplatteninformationen.
+Das Standfuss Fundament kann aus Beton gegossen werden mit den nebenstehenden Bodenplatteninformationen.
 
 Alternativ kann ein Drittprodukt erzeugt oder eingekauft werden.
 
 [Drittanbieter Standfuss Fundamente](/drittprodukte/standfuss-fundamente)
 
 </div>
-<div className="col col--3 text--center">
+<div className="col col--3 bild--mitte">
 
 ![Pico Ständer – Abbildung 12](/img/produkte-pico-ladestation-pico-standfuss/12.png)
 

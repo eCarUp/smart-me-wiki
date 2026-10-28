@@ -1,40 +1,40 @@
 ---
 title: 'Landis+Gyr Module'
 slug: '/produkte/landis-gyr-modul'
-description: 'Sales discontinued on 30.04.2021, support and cloud service guaranteed until 30.03.2025.'
+description: 'Sales discontinued on 30.04.2021, support and cloud support guaranteed until 30.03.2025.'
 sidebar_label: 'Landis+Gyr Module'
 displayed_sidebar: wikiSidebar
 ---
 <div className="row">
 <div className="col col--7">
 
-Sales discontinued on 30.04.2021, support and cloud service guaranteed until 30.03.2025.
+Sales discontinued on 30.04.2021, support and cloud support guaranteed until 30.03.2025.
 
-The Landis+Gyr Module brings the measurement data of the L+G E450 and E350 energy meters into the smart-me Cloud.
+The Landis+Gyr module brings the measurement data of the L+G E450 and E350 energy meters into the smart-me Cloud.
 
-The module requires no additional hardware. It uses your existing WiFi network and connects directly to the smart-me Cloud. This is the simplest way to analyse and optimise energy consumption in real time on your smartphone, tablet or computer.
+The module does not require any additional hardware. It uses the existing WiFi network and connects directly to the smart-me Cloud. This is the easiest way to analyze and optimize energy consumption in real time on your smartphone, tablet or computer.
 
 With a Professional subscription, the meter values can also be queried via the Modbus TCP interface.
 
 </div>
-<div className="col col--5 text--center">
+<div className="col col--5 bild--mitte">
 
 ![Landis+Gyr Module – Figure 1](/img/produkte-landis-gyr-modul/01.png)
 
 </div>
 </div>
 
-## Features
+## Functions
 
-- Real-time visualization of power, total meter reading (consumption and feed-in), tariff 1 and 2, reactive power and reactive energy
+- Real-time visualization of power, total meter reading (consumption and delivery), tariff 1 and 2, reactive power and reactive energy
 
 - Automatic storage of meter readings in the cloud
 
-- Storage and automatic synchronisation of measured values in the event of a connection failure
+- Storage and automatic synchronization of measured values in the event of a connection failure
 
 - Contact output for controlling external devices
 
-- Encrypted WiFi connection directly to the smart-me Cloud
+- Encrypted WLAN connection directly to the smart-me Cloud
 
 - Comprehensive energy data management, automatic billing as well as control and alarms via the smart-me Cloud
 
@@ -54,7 +54,7 @@ The battery can be removed again after commissioning, as the module is powered b
 | --- | --- |
 | Supported meters | L+G E450 and L+G E350 with E35C module |
 | Upload interval | 5 seconds |
-| Operating voltage | supplied by the meter |
+| Operating voltage | provided by the meter |
 | Interfaces | WiFi |
 | Data storage | 2 months |
 | Firmware update | Possible online |
@@ -93,9 +93,9 @@ The CII interface (customer interface) of the Landis+Gyr meter (e.g. E450 or E35
 
 smart-me does not offer a successor product for L&G meters. 
 
-If you operate a smart-me ZEV (association for own consumption) and need a new solution for your metering (e.g. service connection box), the L&G module must be replaced by a [Telstar 80A](/produkte/telstar-80a) or [Telstar CT](/produkte/telstar-ct).
+If you operate a smart-me ZEV (association for own consumption) and need a new solution for your metering (e.g. HAK), the L&G module must be replaced by a [Telstar 80A](/produkte/telstar-80a) or [Telstar CT](/produkte/telstar-ct).
 
-If measurements are carried out in a private setting for monitoring, home automation etc., the [Telstar 80A](/produkte/telstar-80a) or [Telstar CT](/produkte/telstar-ct) can be installed at any time. If you are looking for a solution with your existing L&G meter, we recommend taking a look at this page. [https://gplug.ch/](https://gplug.ch/)
+If measurements are carried out in a private setting for monitoring, home automation, etc., the [Telstar 80A](/produkte/telstar-80a) or [Telstar CT](/produkte/telstar-ct) can be installed at any time. If you are looking for a solution with your existing L&G meter, we recommend taking a look at this page. [https://gplug.ch/](https://gplug.ch/)
 
 ## Downloads
 

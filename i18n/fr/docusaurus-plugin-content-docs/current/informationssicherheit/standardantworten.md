@@ -1,10 +1,10 @@
 ---
 title: 'Réponses standard'
 slug: '/informationssicherheit/standardantworten'
-description: 'Cette page répond aux questions générales sur la sécurité de l''information et des données chez smart-me AG et vise à permettre aux partenaires de remplir eux-mêmes les questionnaires de sécurité standard…'
+description: 'Cette page répond aux questions générales sur la sécurité de l''information et des données chez smart-me AG et vise à permettre aux partenaires de remplir de manière autonome les questionnaires de sécurité standard…'
 sidebar_label: 'Réponses standard'
 ---
-Cette page répond aux questions générales sur la sécurité de l'information et des données chez smart-me AG et vise à permettre aux partenaires de remplir eux-mêmes les questionnaires de sécurité standard.
+Cette page répond aux questions générales sur la sécurité de l'information et des données chez smart-me AG et vise à permettre aux partenaires de remplir de manière autonome les questionnaires de sécurité standard.
 
 Contact : security@smart-me.com
 
@@ -15,18 +15,18 @@ Dernière mise à jour : 16.01.2025
 <details id="unternehmens-informationen">
 <summary>Informations sur l'entreprise</summary>
 
-- Entreprise active à l'international avec environ 50 collaborateurs.
+- Entreprise active à l'international et comptant environ 50 collaborateurs.
 
-- Développement et production d'une solution de décompte pour les RCP (regroupement dans le cadre de la consommation propre) / l'électricité pour les locataires, l'électromobilité et le multi-énergie.
+- Développement et production d'une solution de décompte pour les RCP (regroupements dans le cadre de la consommation propre) / l'électricité pour les locataires, l'électromobilité et le multi-énergie.
 
 </details>
 
 <details id="zusaetzliche-dokumente">
 <summary>Documents complémentaires</summary>
 
-- Conditions générales de vente (CGV)
+- Conditions générales (CG)
 
-- Contrat de traitement des données (CTD) : annexe des CGV
+- Contrat de traitement des données sur mandat (ADV) : annexe des CG
 
 - Déclaration de protection des données
 
@@ -42,9 +42,9 @@ Dernière mise à jour : 16.01.2025
 
 - Pour l'achat de licences par carte de crédit, les informations de carte de crédit sont traitées via Stripe.
 
-- Pour les commandes et les offres, les informations clients sont traitées via Bexio.
+- Pour les commandes ou les offres, les informations client sont traitées via Bexio.
 
-- Les cas de support et les informations associées sont traités via Freshdesk.
+- Les demandes de support et les informations qui s'y rapportent sont traitées via Freshdesk.
 
 </details>
 
@@ -52,9 +52,9 @@ Dernière mise à jour : 16.01.2025
 <summary>Comment les données sont-elles supprimées ?</summary>
 
 - Les clients sont eux-mêmes responsables de leurs comptes smart-me et peuvent les supprimer à tout moment dans le portail web.
-    Lorsqu'un client supprime son compte, ces données sont effacées de manière irréversible.
+    Lorsqu'un client supprime son compte, ces données sont supprimées de manière irréversible.
 
-- Après 30 jours, plus aucune sauvegarde n'est disponible.
+- Après 30 jours, il n'existe plus aucune sauvegarde.
 
 - Les données traitées via Freshdesk ou Bexio peuvent être supprimées sur demande.
 
@@ -63,7 +63,7 @@ Dernière mise à jour : 16.01.2025
 <details id="wer-hat-zugang-zu-den-daten">
 <summary>Qui a accès aux données ?</summary>
 
-L'accès à nos serveurs est limité aux adresses IP internes du cluster. Smart-me n'a accès aux données de compte des clients qu'avec leur autorisation explicite
+L'accès à nos serveurs est limité aux adresses IP internes du cluster. smart-me n'a accès aux données de compte des clients qu'avec leur autorisation explicite.
 
 </details>
 
@@ -72,7 +72,7 @@ L'accès à nos serveurs est limité aux adresses IP internes du cluster. Smart-
 <details id="wo-wird-die-anwendung-gehostet">
 <summary>Où l'application est-elle hébergée ?</summary>
 
-Tous les services smart-me sont hébergés sur des serveurs Microsoft Azure Suisse. Nous n'exploitons nous-mêmes aucun serveur.
+Tous les services smart-me sont hébergés sur des serveurs Microsoft Azure en Suisse. Nous n'exploitons nous-mêmes aucun serveur.
 
 </details>
 
@@ -92,7 +92,7 @@ La disponibilité des systèmes est garantie par l'infrastructure de Microsoft A
 
 </details>
 
-## Sécurité et chiffrement des données
+## Sécurité des données et chiffrement
 
 <details id="wie-werden-daten-verschluesselt">
 <summary>Comment les données sont-elles chiffrées ?</summary>
@@ -113,7 +113,7 @@ Les mots de passe sont hachés avec RIPEMD-160 et un sel dynamique.
 <details id="unterstuetzen-wir-foederierte-identitaeten">
 <summary>Prenons-nous en charge les identités fédérées ?</summary>
 
-Non. L'exception est l'accès via notre API, qui prend en charge oAuth 2.0 en plus de Basic Auth.
+Non. L'exception est l'accès via notre API, qui prend en charge OAuth 2.0 en plus de Basic Auth.
 
 </details>
 
@@ -122,14 +122,14 @@ Non. L'exception est l'accès via notre API, qui prend en charge oAuth 2.0 en pl
 
 Les données des compteurs font l'objet de sauvegardes quotidiennes par Instaclustr. [Informations à ce sujet](https://www.instaclustr.com/support/documentation/cassandra/cassandra-cluster-operations/cluster-data-backups/)
 
-Les données clients traitées via Freshdesk, Bexio ou Stripe sont soumises à la sécurité des données des fournisseurs respectifs et donc également à leurs processus de sauvegarde.
+Les données client traitées via Freshdesk, Bexio ou Stripe sont soumises à la sécurité des données des fournisseurs respectifs et donc également à leurs processus de sauvegarde.
 
 </details>
 
 ## Directives et processus de sécurité
 
 <details id="verfuegen-wir-ueber-spezifische-dokumentiere-informationssicherheitsrichtlinien">
-<summary>Disposons-nous de directives de sécurité de l'information spécifiques et documentées ?</summary>
+<summary>Disposons-nous de directives spécifiques et documentées en matière de sécurité de l'information ?</summary>
 
 Non
 
@@ -157,7 +157,7 @@ Non, mais notre fournisseur d'infrastructure cloud, Microsoft Azure, est certifi
 </details>
 
 <details id="fuehren-wir-it-sicherheitsaudits-bei-unseren-anbietern-durch">
-<summary>Effectuons-nous des audits de sécurité informatique auprès de nos fournisseurs ?</summary>
+<summary>Réalisons-nous des audits de sécurité informatique auprès de nos fournisseurs ?</summary>
 
 Non
 
@@ -180,7 +180,7 @@ Oui, mais uniquement sur la base d'informations accessibles au public
 ## Sécurité des terminaux et du réseau
 
 <details id="haben-wir-ein-konzept-zur-netzwerksegmentierung-implementiert">
-<summary>Avons-nous mis en place un concept de segmentation du réseau ?</summary>
+<summary>Avons-nous mis en œuvre un concept de segmentation du réseau ?</summary>
 
 Comme notre application n'est pas hébergée localement, notre architecture réseau est indépendante de l'architecture des serveurs. La segmentation locale se présente comme suit :
 
@@ -195,7 +195,7 @@ Comme notre application n'est pas hébergée localement, notre architecture rés
 <details id="sensibilisieren-wir-mitarbeitende-fuer-cybersicherheit">
 <summary>Sensibilisons-nous nos collaborateurs à la cybersécurité ?</summary>
 
-Oui, des formations en cybersécurité sont organisées :
+Oui, des formations en cybersécurité sont dispensées :
 
 - Fréquence : tous les six mois ainsi que lors de l'onboarding.
 
@@ -218,7 +218,7 @@ Oui, nous disposons de ressources internes en cybersécurité.
 </details>
 
 <details id="halten-wir-ihre-software-und-systeme-auf-dem-neuesten-stand">
-<summary>Maintenons-nous les logiciels et les systèmes à jour ?</summary>
+<summary>Maintenons-nous vos logiciels et systèmes à jour ?</summary>
 
 Oui, tous les systèmes et appareils sont régulièrement mis à jour vers les dernières versions stables.
 

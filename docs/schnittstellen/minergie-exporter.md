@@ -11,12 +11,12 @@ sidebar_label: 'Minergie Exporter'
 
 Der Minergie Daten Exporter ermöglicht die direkte Übertragung von Messpunktdaten in die Minergie Datenbank.
 
-Mit den Daten in der Minergie Datenbank, können seitens Minergie kostenpflichtige Plandaten und Ist-Datenvergleiche durchgeführt werden.
+Mit den Daten in der Minergie Datenbank können seitens Minergie kostenpflichtige Plandaten und Ist-Datenvergleiche durchgeführt werden.
 
-Das genannte Produkt nennt sich Minergie Monitroing+ und ermöglicht einfach und schnell Verbesserungspotentiale zu erkennen, sowie Fehlkonfigurationen aufzudecken.
+Das genannte Produkt nennt sich Minergie Monitoring+ und ermöglicht einfach und schnell Verbesserungspotentiale zu erkennen, sowie Fehlkonfigurationen aufzudecken.
 
 </div>
-<div className="col col--5 text--center">
+<div className="col col--5 bild--mitte">
 
 ![Minergie Exporter – Abbildung 1](/img/schnittstellen-minergie-exporter/01.png)
 
@@ -31,15 +31,15 @@ Bist du noch Minergie Systemintegrator geworden, werde einer und informiere dich
 
 
 
-1.  Loge dich dafür mit den Logindaten des jeweiligen smart-me Objektes auf [smart-me.com](http://smart-me.com)  ein und erstelle den API Key.
+1.  Logge dich dafür mit den Logindaten des jeweiligen smart-me Objektes auf [smart-me.com](http://smart-me.com)  ein und erstelle den API Key.
 
-2.  Loge dich danach beim Minergie Exporter (Dir zur Verfügung gestellte Webadresse) mit dem gleichen Account Daten ein und erstelle die Konfiguration.
+2.  Logge dich danach beim Minergie Exporter (Dir zur Verfügung gestellte Webadresse) mit den gleichen Account Daten ein und erstelle die Konfiguration.
 
 
 
 ## Den Export pro Objekt aufsetzen
 
-1.  Drücke auf das "+" um eine neue Exportaufgabe zu erfassen.
+1.  Drücke auf das "+", um eine neue Exportaufgabe zu erfassen.
 
 
 ![Minergie Exporter – Abbildung 2](/img/schnittstellen-minergie-exporter/02.png)
@@ -57,9 +57,9 @@ Erstelle einen neuen Schlüssel mit einem von dir gewählten Namen. Wähle die R
 
 3\. Hinterlege den Schlüssel im Auftrag des Minergie-Exporters unter API-Key
 
-4\. Trage unter "Minergie target" die Objekt-ID ein, welche du von Minergie und Ihrer Datenbank über die Label-Platform erhalten hast.
+4\. Trage unter "Minergie target" die Objekt-ID ein, welche du von Minergie und ihrer Datenbank über die Label-Platform erhalten hast.
 
-5\. Verbinde die relevanten Messpuntke aus dem MinergieObjekt mit einem Messpunkt im smart-me Account. Summenzähler können direkt im Minergie Exporter gebildet werden.
+5\. Verbinde die relevanten Messpunkte aus dem MinergieObjekt mit einem Messpunkt im smart-me Account. Summenzähler können direkt im Minergie Exporter gebildet werden.
 
 6\. Starte die Übertragung.
 
@@ -67,7 +67,7 @@ Erstelle einen neuen Schlüssel mit einem von dir gewählten Namen. Wähle die R
 
 ## Datenexport Funktion und Häufigkeit
 
-Der Daten Exporter überträgt die Daten einmal Pro Tag im 15- Minutenintervall.
+Der Daten Exporter überträgt die Daten einmal pro Tag im 15- Minutenintervall.
 
 Die Daten aus der Vergangenheit können jederzeit neu geladen und in der Minergie Datenbank überschrieben werden.
 

@@ -12,7 +12,7 @@ naechste_schritte: [konfiguration/billing/stromtarife-definieren/index]
 <div className="row">
 <div className="col col--6">
 
-Du kannst mit einer zusätzlichen Bedingung definieren, ab wann dieser Tarif gültig sein soll. Dies kann eine Zeitspanne sein (z. B. für Hoch- / Niedertarif) oder auch eine beliebige Andere. Die Bedingung muss vorher als [Wenn/Dann-Aktion](/konfiguration/wenndann-aktionen) definiert worden sein. Die gängigsten Beispiele sind unten beschrieben.
+Du kannst mit einer zusätzlichen Bedingung definieren, ab wann dieser Tarif gültig sein soll. Dies kann eine Zeitspanne sein (z. B. für Hoch- / Niedertarif) oder auch eine beliebige andere. Die Bedingung muss vorher als [Wenn/Dann-Aktion](/konfiguration/wenndann-aktionen) definiert worden sein. Die gängigsten Beispiele sind unten beschrieben.
 
 Hinweise:
 
@@ -68,9 +68,9 @@ Wähle die Oder-Verknüpfung
 
 Funktion ODER:
 
-Wenn eine der WENN Bedingungen zutrifft ist es HT Zeit.
+Wenn eine der WENN Bedingungen zutrifft, ist es HT Zeit.
 
-Klicke bei WENN Ereignisse auf das "+" um die HT Zeit Mo-Fr zu erstellen.
+Klicke bei WENN Ereignisse auf das "+", um die HT Zeit Mo-Fr zu erstellen.
 
 </div>
 <div className="col col--6 bild--mitte">
@@ -110,7 +110,7 @@ und speichere die Einstellung.
 <div className="row">
 <div className="col col--6">
 
-Klicke unter den WENN Ereignissen wieder auf "+" um den Samstag zu definieren.
+Klicke unter den WENN Ereignissen wieder auf "+", um den Samstag zu definieren.
 
 Wähle Datum & Uhrzeit
 
@@ -141,7 +141,7 @@ Die HT Zeit ist nun definiert.
 
 Klicke auf das "+" um ein neues Timing zu erstellen.
 
-Klicke auf "+" um eine weitere Aktion zu erfassen für die NT Zeit
+Klicke auf "+", um eine weitere Aktion zu erfassen für die NT Zeit
 
 </div>
 <div className="col col--6 bild--mitte">
@@ -164,7 +164,7 @@ Wähle Datum & Uhrzeit
 
 Definiere die NT Zeit für Mo-Fr
 
-Sie entspricht in diesem Fall der Zweit von 22:00 bis 7:00
+Sie entspricht in diesem Fall der Zeit von 22:00 bis 7:00
 
 Speichere die Einstellung.
 
@@ -187,7 +187,7 @@ Klicke auf "+" um den Samstag zu definieren
 
 Wähle Datum & Uhrzeit
 
-Der Samstag definiert sich folgender massen:
+Der Samstag definiert sich folgendermassen:
 
 13:00 bis 00:00 des Tages
 
@@ -210,7 +210,7 @@ Speichere die Einstellung.
 <div className="row">
 <div className="col col--6">
 
-Klicke auf "+" um den noch fehlenden Sonnatg zu definieren
+Klicke auf "+", um den noch fehlenden Sonntag zu definieren
 
 Wähle Datum & Uhrzeit
 
@@ -233,7 +233,7 @@ Speichere die Einstellung
 <div className="row">
 <div className="col col--6">
 
-Jetzt wo du die relevanten Tarifzeiten definiert hast, kehre zurück zu der Tarifdefinition um den Tarifen die Timings zuzuweisen.
+Jetzt wo du die relevanten Tarifzeiten definiert hast, kehre zurück zu der Tarifdefinition, um den Tarifen die Timings zuzuweisen.
 
 </div>
 <div className="col col--6 bild--mitte">
@@ -370,9 +370,9 @@ Logik: Zuerst wird der verfügbare Solarstrom verwendet. Wenn zu wenig oder kein
 <details id="sommer-winter-tagsueber-wechselnd-energie-uri">
 <summary>Sommer und Winter mit Hoch- und Niedertarif für Netzstrom und Solarstrom, Tagsüber Niedertarif im Sommer und Hochtarif im Winter(z.B. Energie Uri ab 1.10.2025)</summary>
 
-Beschreibung: Hier muss in zwei Schritten gearbeitet werden. 1x Wenn Dann und 1x mit den Zeiten in den Virtuellen Tarifen
+Beschreibung: Hier muss in zwei Schritten gearbeitet werden. 1x Wenn Dann und 1x mit den Zeiten in den virtuellen Tarifen
 
-Ersten müssen die Wenn Aktionen definiert werden.
+Erstens müssen die Wenn Aktionen definiert werden.
 
 - Netz- und Solarstrom Sommer NT
 
@@ -430,7 +430,7 @@ Ersten müssen die Wenn Aktionen definiert werden.
 
 Dann müssen die Preise pro Zeitperiode definiert werden.
 
-Die Perioden bzw. Dauer müssen in diesem Fall hinterlegt werden. Bei diesen Tarifmodell ist eine Kombination aus Wenn Dann und Periode notwendig.
+Die Perioden bzw. Dauer müssen in diesem Fall hinterlegt werden. Bei diesem Tarifmodell ist eine Kombination aus Wenn Dann und Periode notwendig.
 
 - Name: Uri Sommer HT Netz
 

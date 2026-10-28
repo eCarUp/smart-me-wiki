@@ -102,7 +102,7 @@ Achtung: Das Kamstrup Modul braucht den Verschlüsselungspin des Zählers, um di
 
 Dies kann für jedes Gerät manuell eingestellt werden. 
 
-- Das Intervall kann bis zu 1 Sekunden heruntergesetzt werden.
+- Das Intervall kann bis zu 1 Sekunde heruntergesetzt werden.
 
 Dies kann wie folgt eingestellt werden
 
@@ -124,25 +124,25 @@ Dies kann wie folgt eingestellt werden
 
 Allgemeine Informationen sind unter [Zähler offline](/stoerungsbehebung/zaehler-offline) zu finden.
 
-Zählerspezifische Angaben sind sind hier zu finden
+Zählerspezifische Angaben sind hier zu finden.
 
 ### Zähler neu starten
 
-- Dies ist nur zur Info wie es gemacht wird.
+- Dies ist nur zur Info, wie es gemacht wird.
 
 - Ablauf: Modul aus dem Zähler entfernen. Warten bis keine LED mehr leuchtet. Modul wieder im Zähler einschieben.
 
 ### Wie erkenne ich den Empfangszustand von einem Zähler
 
-- Verbunden mit dem WLAN: orange LED Links und gründe LED Rechst leuchten dauerhaft.
+- Verbunden mit dem WLAN: orange LED links und grüne LED rechts leuchten dauerhaft.
 
 - Kann sich mit dem WLAN nicht verbinden: to be defined
 
-- Zähler erzeugt ein lokales WLAN: orange LED links leuchten dauerhaft und. Rote LED in der Mitte und grüne LED rechst leuchten abwechseln im 0.5 Sekunden Takt.
+- Zähler erzeugt ein lokales WLAN: orange LED links leuchten dauerhaft und. Rote LED in der Mitte und grüne LED rechts leuchten abwechselnd im 0.5 Sekunden Takt.
 
 ### Prüfung bei der Ankunft
 
-Folgend Punkte können bei der Ankunft geprüft werden. Sollte bereits etwas am Zähler gemacht worden sein, ist wichtig, dass am Zähler während mindestens 5 Minuten nichts gemacht wird. Es ist auch möglich, ein Video vom Zähler vom Kunden vor Ort zu verlangen (30 Sekunden) um die Situation besser zu beurteilen.
+Folgende Punkte können bei der Ankunft geprüft werden. Sollte bereits etwas am Zähler gemacht worden sein, ist es wichtig, dass am Zähler während mindestens 5 Minuten nichts gemacht wird. Es ist auch möglich, ein Video vom Zähler vom Kunden vor Ort zu verlangen (30 Sekunden), um die Situation besser zu beurteilen.
 
 - Mit dem Video den Zustand prüfen: [https://www.youtube.com/watch?v=CwS65mPsTws](https://www.youtube.com/watch?v=CwS65mPsTws) oder [https://vimeo.com/688374505](https://vimeo.com/688374505)
 
@@ -182,7 +182,7 @@ Problem
 
 Lösung
 
-Die Ursache des Problems ist seit dem 14.5.2025 13:43 bekannt: Im Zuge einer Systemwartung der CKW wurden aus versehen alle Schlüssel der Kamstrup Zähler erneuert und die vorherigen ungültig.
+Die Ursache des Problems ist seit dem 14.5.2025 13:43 bekannt: Im Zuge einer Systemwartung der CKW wurden aus Versehen alle Schlüssel der Kamstrup Zähler erneuert und die vorherigen ungültig.
 
 Als Lösung musst du der CKW ein Mail an [messtechnik@ckw.ch](mailto:messtechnik@ckw.ch) senden mit der Zählernummer (Siehe Bild rechts unten). CKW sendet dir dann einen neuen Schlüssel.
 
@@ -205,7 +205,7 @@ Technische Dokumente
 <details id="in-welchem-intervall-senden-die-zähler-daten">
 <summary>In welchem Intervall senden die Zähler Daten?</summary>
 
-- Alle 15 Minuten, also um xx:00:00 xx:15:00, xx:30:00 und xx:45:00. Hiermit werden die nötigen Daten für den Lastgang gesendet. Diese Daten werden im Fall eines Verbindungsunterbruchs lokal gespeichert und nachgesendet.
+- Alle 15 Minuten, also um xx:00:00, xx:15:00, xx:30:00 und xx:45:00. Hiermit werden die nötigen Daten für den Lastgang gesendet. Diese Daten werden im Fall eines Verbindungsunterbruchs lokal gespeichert und nachgesendet.
 
 - Zusätzlich dazu kann eine individuelle Konfiguration vorgenommen werden:
 

@@ -16,7 +16,7 @@ naechste_schritte: [konfiguration/ordnerkonfiguration/nur-strom, konfiguration/o
 
 ### Knoten Hinzufügen:
 
-Fügt einen Knoten hinzu mit einem Namen und einem frei Wählbaren Symbol.
+Fügt einen Knoten hinzu mit einem Namen und einem frei wählbaren Symbol.
 
 Der Name hat Einfluss auf die Reihenfolge in welcher der Knoten im Baum angezeigt wird. 
 
@@ -44,11 +44,11 @@ Name:  Lege den Namen des Zählers fest.
 Beschreibung:
 Füge optional eine Beschreibung für den Zähler hinzu.
 Wert Korrektur: 
-Korrigiert Cloudseitig den Messwert des Zählers. (Lageberechnungen)
+Korrigiert cloudseitig den Messwert des Zählers. (Lageberechnungen)
 Überordner Wert Korrektur:
-Definiert Prozentual wie viel vom Messwert im übergeordneten Ordner summiert werden soll.
+Definiert prozentual, wie viel vom Messwert im übergeordneten Ordner summiert werden soll.
 Zähler aktiv:
-Aktiviere oder deaktiviere einen Zähler um Lizenzen zu sparen. Deaktivierte Zähler zeigen keine Daten mehr. Weitere Informationen zu deaktivierten Zählern findest du in unseren FAQ unter [Wie deaktiviere ich meinen Zähler?](/faq#wie-deaktiviere-ich-meinen-zähler)
+Aktiviere oder deaktiviere einen Zähler, um Lizenzen zu sparen. Deaktivierte Zähler zeigen keine Daten mehr. Weitere Informationen zu deaktivierten Zählern findest du in unseren FAQ unter [Wie deaktiviere ich meinen Zähler?](/faq#wie-deaktiviere-ich-meinen-zähler)
 
 Um mehrere Zähler gleichzeitig zu aktivieren oder deaktivieren, kannst du diese in der Zähler- / Ordnerkonfiguration in einen Ordner schieben, diesen rechts-klicken und eine Massenaktion wählen. 
 
@@ -58,7 +58,7 @@ Um mehrere Zähler gleichzeitig zu aktivieren oder deaktivieren, kannst du diese
 
 Löscht den ausgewählten Knoten oder Zählerpunkt aus dem Baum. 
 
-Zähler fallen dann zurück auf die Linke Seite als nicht zugeordneter Zähler.
+Zähler fallen dann zurück auf die linke Seite als nicht zugeordneter Zähler.
 
 ![Zähler- und Ordnerkonfiguration – Abbildung 4](/img/konfiguration-ordnerkonfiguration/04.png)
 
@@ -69,14 +69,14 @@ Zähler fallen dann zurück auf die Linke Seite als nicht zugeordneter Zähler.
 
 - Alle Zähler müssen im entsprechenden Account installiert sein. [Inbetriebnahme](/konfiguration/inbetriebnahme) 
 
-- Alle Zähler müssen beschriftet werden. Unsere Vorschläge für die Zählerbezeichnunge 
+- Alle Zähler müssen beschriftet werden. Unsere Vorschläge für die Zählerbezeichnungen 
 
     - Nutzeinheit Zählernummer (z.B. WHG 1 6352415)
 
     - Medium Nutzeinheit Zählernummer (z.B. Wärme WHG 1)
 
 </div>
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
 ![Zähler- und Ordnerkonfiguration – Abbildung 5](/img/konfiguration-ordnerkonfiguration/05.png)
 
@@ -88,13 +88,13 @@ Zähler fallen dann zurück auf die Linke Seite als nicht zugeordneter Zähler.
 <div className="row">
 <div className="col col--7">
 
-Gewisse M-Bus Zähler Hersteller geben bei der Datenübermittlung an, dass es sich um ein Kaltwasserzähler handelt. Dies, obwohl es ein Warmwasserzähler sein sollte. In diesem Fall muss der Zähler Typ im smart-me übersteuert werden.
+Gewisse M-Bus Zähler Hersteller geben bei der Datenübermittlung an, dass es sich um einen Kaltwasserzähler handelt. Dies, obwohl es ein Warmwasserzähler sein sollte. In diesem Fall muss der Zähler Typ im smart-me übersteuert werden.
 
 - Navigiere zum Dashboard
 
 - Zähler wählen im Menu Dashboard
 
-- Zahnrad oben Rechts wählen
+- Zahnrad oben rechts wählen
 
 - Erweiterte Einstellungen
 
@@ -107,7 +107,7 @@ Hinweis: Diese Anpassung führt zu einer Unterstützung im smart-me Billing. Der
 Hinweis: Diese Manipulation ist mit Wärme- und Kältezähler aus technischen Gründen nicht möglich.
 
 </div>
-<div className="col col--5 text--center">
+<div className="col col--5 bild--mitte">
 
 ![Zähler- und Ordnerkonfiguration – Abbildung 6](/img/konfiguration-ordnerkonfiguration/06.png)
 
@@ -116,11 +116,11 @@ Hinweis: Diese Manipulation ist mit Wärme- und Kältezähler aus technischen Gr
 
 ## Ordnerstrukturen und deren Einfluss auf Folgeprozesse
 
-Das aktuelle System erlaubt eine automatisierte Abrechnungserstellung von Elektrizität. Damit dies gelingt muss Wärme und Wasser vom Strom getrennt bleiben. Trotzdem sind Mischsysteme möglich um Aufwand bei den Mieterspiegeln zu sparen, leider geht damit aber die Automatisierung der Rechnungserstellung verloren.
+Das aktuelle System erlaubt eine automatisierte Abrechnungserstellung von Elektrizität. Damit dies gelingt, muss Wärme und Wasser vom Strom getrennt bleiben. Trotzdem sind Mischsysteme möglich, um Aufwand bei den Mieterspiegeln zu sparen, leider geht damit aber die Automatisierung der Rechnungserstellung verloren.
 
-Bei Systemen mit mehreren Heizungen, ist eine Trennung in mehrere Liegenschaften aber unvermeidlich.
+Bei Systemen mit mehreren Heizungen ist eine Trennung in mehrere Liegenschaften aber unvermeidlich.
 
-Jede individuelle erstellte Liegenschaft ist grundsätzlich in der Lage 1x Strom und 1x Wärme/Wasser abzubilden.
+Jede individuell erstellte Liegenschaft ist grundsätzlich in der Lage 1x Strom und 1x Wärme/Wasser abzubilden.
 
 <Embed src="/embeds/konfiguration-ordnerkonfiguration-02.html" aspect="2.308" title="Ordnerkonfiguration" />
 
@@ -132,7 +132,7 @@ Grundlegende Ordnerstruktur jeder individuellen Liegenschaft
 
 Die grundlegende Struktur für jede Energieform und jedes Gebäude besteht aus zwei grundlegenden Knoten und multiplen Subknoten:
 
-- Liegenschaft (späteres Konfiguration einer Abrechnung)
+- Liegenschaft (spätere Konfiguration einer Abrechnung)
 
     - -   Abrechnungseinheit 1 der Liegenschaft (Wohnung oder Räume)
 
@@ -142,25 +142,25 @@ Die grundlegende Struktur für jede Energieform und jedes Gebäude besteht aus z
 
         - ...
 
-- Technische Zähler (Sammlung von nicht direkt abgerechneter Zählerpunkte)
+- Technische Zähler (Sammlung von nicht direkt abgerechneten Zählerpunkten)
 
-    Hier dürfen beliebig viele Unterordner zur strukturierung entstehen. 
+    Hier dürfen beliebig viele Unterordner zur Strukturierung entstehen. 
 
     - -   -   Bilanzzähler
 
             - Solaranlagenzähler
 
-            - Allgemeinzähler die Prozentual verteilt werden auf Abrechnungseinheiten
+            - Allgemeinzähler, die prozentual verteilt werden auf Abrechnungseinheiten
 
-            - Wärmezähler die Prozentual verteilt werden auf Abrechnungseinheiten
+            - Wärmezähler, die prozentual verteilt werden auf Abrechnungseinheiten
 
-            - Wasserzähler die Prozentual verteilt werden auf Abrechnungseinheiten
+            - Wasserzähler, die prozentual verteilt werden auf Abrechnungseinheiten
 
 ![Zähler- und Ordnerkonfiguration – Abbildung 7](/img/konfiguration-ordnerkonfiguration/07.png)
 
 ## Erstelle deine Struktur für dein Projekt
 
-Wähle nun anhand deines Projektes welcher Anleitung du folgen möchtest am Ende der Seite.
+Wähle nun anhand deines Projektes, welcher Anleitung du folgen möchtest am Ende der Seite.
 
 
 ## CSV Upload von Ordnerstrukturen
@@ -174,7 +174,7 @@ smart-me bietet die Möglichkeit, das Erstellen von Ordnern, Zuweisungen und Umb
 
 CSV-Dateien enthalten tabellarische Daten, die in Textform gespeichert sind. Sie können mit einem Text-Editor (z. B. notepad++) bearbeitet werden.
 
-Achtung: bereits bestehende Ordner werden durch das Verwenden dieser Funktion gelöscht. Das bedeutet, sämtliche Funktionen die mit diesen Ordnern verwendet wurden, funktionieren nicht mehr (z. B. Wenn/Dann-Aktionen, smart-me billing Konfigurationen usw.). 
+Achtung: bereits bestehende Ordner werden durch das Verwenden dieser Funktion gelöscht. Das bedeutet, sämtliche Funktionen, die mit diesen Ordnern verwendet wurden, funktionieren nicht mehr (z. B. Wenn/Dann-Aktionen, smart-me billing Konfigurationen usw.). 
 
 
 
@@ -241,7 +241,7 @@ Der empfohlene Arbeitsablauf sieht dabei wie folgt aus:
 
 8.  Klicke auf Durchsuchen und wähle die bearbeitete CSV-Datei aus
 
-9.  Klicke auf Upload Knoten Konfiguration um die Konfiguration anzuwenden
+9.  Klicke auf Upload Knoten Konfiguration, um die Konfiguration anzuwenden
     Vorsicht: die resultierenden Änderungen können nicht rückgängig gemacht werden
 
 </details>

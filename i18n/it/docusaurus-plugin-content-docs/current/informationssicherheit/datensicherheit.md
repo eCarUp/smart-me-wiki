@@ -1,12 +1,12 @@
 ---
 title: 'Sicurezza dei dati'
 slug: '/informationssicherheit/datensicherheit'
-description: 'Per smart-me la protezione e la sicurezza dei dati sono di grande importanza.'
+description: 'La protezione e la sicurezza dei dati sono di primaria importanza per smart-me.'
 sidebar_label: 'Sicurezza dei dati'
 ---
-Per smart-me la protezione e la sicurezza dei dati sono di grande importanza. Distinguiamo tra diversi ambiti della sicurezza dei dati:
+La protezione e la sicurezza dei dati sono di primaria importanza per smart-me. Distinguiamo tra diversi ambiti della sicurezza dei dati:
 
-- Dispositivi: la comunicazione dei dispositivi smart-me con la smart-me Cloud
+- Dispositivi: la comunicazione dei dispositivi smart-me con il cloud smart-me
 
 - Cloud: la sicurezza dei server smart-me
 
@@ -17,9 +17,9 @@ Ulteriori informazioni sono disponibili anche nella nostra dettagliata [informat
 
 ## Dispositivi
 
-Tutte le connessioni tra i dispositivi smart-me (contatori, moduli e gateway) e la smart-me Cloud sono crittografate. Ogni dispositivo dispone di una propria chiave univoca (256 bit). Come algoritmo viene utilizzato l'Advanced Encryption Standard (AES). In questo modo l'intera comunicazione tra la smart-me Cloud e i dispositivi viene crittografata e convalidata. 
+Tutte le connessioni tra i dispositivi smart-me (contatori, moduli e gateway) e il cloud smart-me sono crittografate. Ogni dispositivo dispone di una propria chiave univoca (256 bit). Come algoritmo viene utilizzato l'Advanced Encryption Standard (AES). In questo modo l'intera comunicazione tra il cloud smart-me e i dispositivi viene crittografata e convalidata. 
 
-Suggerimento: contribuisci attivamente a una protezione ancora più sicura dei tuoi dati crittografando la tua rete WiFi con una password robusta.
+Consiglio: contribuisci attivamente a una protezione ancora più sicura dei tuoi dati crittografando la tua rete WiFi con una password robusta.
 
 ## Cloud
 
@@ -29,7 +29,7 @@ Con il cloud i dati non vengono salvati localmente sul posto di lavoro, ma in un
 
 ### Dove salva i dati smart-me?
 
-smart-me attribuisce grande importanza al salvataggio dei dati vicino al cliente. I server di smart-me si trovano in Svizzera.  Con la sede dei server in Svizzera garantiamo la salvaguardia dei dati secondo il diritto svizzero.
+smart-me attribuisce grande importanza al salvataggio dei dati vicino al cliente. I server di smart-me si trovano in Svizzera.  Con la sede dei server in Svizzera garantiamo la protezione dei dati secondo il diritto svizzero.
 
 I centri di calcolo sono certificati e protetti a più livelli. Tra l'altro sono certificati secondo la ISO 27001, la norma riconosciuta per la sicurezza delle informazioni.
 
@@ -43,7 +43,7 @@ Tutti i server smart-me sono protetti dagli attacchi tramite firewall. Inoltre s
 
 ### Aggiornamenti
 
-La smart-me Cloud viene costantemente migliorata e ampliata. Gli aggiornamenti vengono installati regolarmente e senza interruzione del sistema.
+Il cloud smart-me viene costantemente migliorato e ampliato. Gli aggiornamenti vengono installati regolarmente e senza interruzioni del sistema.
 
 ## App e web
 

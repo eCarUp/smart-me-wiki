@@ -10,7 +10,7 @@ naechste_schritte: [konfiguration/billing/mieterspiegel-erfassen]
 
 Im smart-me Billing kann optional die QR-Rechnung aktiviert werden.
 
-Nach dem Hinterlegung der Kontodaten wird für jede Abrechnungseinheit (Mieter) eine QR-Rechnung für die Einzahlung angehängt.
+Nach der Hinterlegung der Kontodaten wird für jede Abrechnungseinheit (Mieter) eine QR-Rechnung für die Einzahlung angehängt.
 
 smart-me erkennt die korrekt ausgefüllten Absender automatisch, wenn die Rechnungsadresse im Billing auf 3 Zeilen hinterlegt ist. Wenn eine Firma oder eine Anschrift gewählt wird, muss diese vor dem Namen hinzugefügt werden.
 
@@ -24,7 +24,7 @@ Löwenzahnstrasse 42
 
 Wird keine korrekte Adresse erkannt, bleibt das Feld Absender (Zahlbar durch) in der QR-Rechnung leer.
 
-smart-me unterstützt keine Referenznummern. Um diese nutzen zu können, wird ein [Drittystem](/drittsysteme) benötigt welches dies auch unterstützt (z.B.[Bexio](/drittsysteme/bexio)).
+smart-me unterstützt keine Referenznummern. Um diese nutzen zu können, wird ein [Drittystem](/drittsysteme) benötigt, welches dies auch unterstützt (z.B.[Bexio](/drittsysteme/bexio)).
 
 Um die Rechnung ohne Referenz zu identifizieren, wird eine Zusätzliche Information (Mitteilung an den Begünstigten) auf der QR-Rechnung angefügt, welche sich wie folgt zusammensetzt: Name der Abrechnungseinheit (Ordnername).
 

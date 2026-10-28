@@ -39,11 +39,11 @@ Gehe wie folgt vor, um eine Visualisierung zu erstellen:
 
 Für die virtuellen Tarife ist eine spezielle Ansicht für Mieter vorhanden. Diese zeigt den aktuellen Energieverbrauch (Elektrizität) und die Herkunft (Solar oder Netz). Ausserdem wird im Balken die aktuelle Strombezugsquelle in der Vergangenheit angezeigt.
 
-Diese muss zusätzlich Konfiguriert werden pro Wohnungsknoten.
+Diese muss zusätzlich konfiguriert werden pro Wohnungsknoten.
 
 Die Visualisierung heisst: "Einfache virtuelle Tarife Wohnung"
 
-Achtung: Hier muss der Relevante Ordner der Wohnung ausgewählt werden, nicht die darin liegenden Zähler!
+Achtung: Hier muss der relevante Ordner der Wohnung ausgewählt werden, nicht die darin liegenden Zähler!
 
 
 
@@ -54,7 +54,7 @@ Der Energiefluss des Gebäudes kann optional visualisiert werden. 
 
 - Dazu muss dem Mieter zusätzlich Zugriff auf die Zählpunkte Bilanz, Produktion und Batterie gegeben werden. Die Wahl der Referenzzähler ist automatisch und namensbasiert.
 
-    Fügen Sie den Benutzeraccount z.B dem Ordner technische Zähler hinzu, welche die genannten Messpuntke enthält.
+    Fügen Sie den Benutzeraccount z.B. dem Ordner technische Zähler hinzu, welche die genannten Messpunkte enthält.
 
 
 ![Visualisierung und Public Links – Abbildung 4](/img/konfiguration-visualisierung/04.png)
@@ -110,7 +110,7 @@ Bateri… (Baterija) · Akumul… (Akumulator) · Skladište / Skladiste · Powe
 
 Dies ist ein Auszug über verschiedene mögliche Visualisierungen. Die Liste ist nicht abschliessend.
 
-Es können leere Knoten erstellt werden um sowiele VIsualisierungen zu erstellen wie gewünscht.
+Es können leere Knoten erstellt werden, um so viele Visualisierungen zu erstellen wie gewünscht.
 
 ## Visualisierungen für ZEV
 
@@ -126,7 +126,7 @@ Es können leere Knoten erstellt werden um sowiele VIsualisierungen zu erstellen
 
 Auf einen Blick alle relevanten Daten zu deiner ZEV:
 
-- Produktions und Ertragsübersicht
+- Produktions- und Ertragsübersicht
 
 - Spitzenleistungen
 
@@ -168,7 +168,7 @@ ZEV: 
 - Eingespeist ins Netz
 
 
-Dafür muss die Produktionsanlage und der Hausanschlusszähler (physisch) definiert werden.
+Dafür müssen die Produktionsanlage und der Hausanschlusszähler (physisch) definiert werden.
 
 vZEV: 
 
@@ -179,7 +179,7 @@ vZEV: 
 - eingespeist ins Netz
 
 
-Dafür müssen die Porduktionsanlagen des vZEV und Hausanschlusszähler (physisch) der vZEV Teilnehmer definiert werden.
+Dafür müssen die Produktionsanlagen des vZEV und Hausanschlusszähler (physisch) der vZEV Teilnehmer definiert werden.
 
 ![Visualisierung und Public Links – Abbildung 12](/img/konfiguration-visualisierung/12.png)
 
@@ -220,7 +220,7 @@ Bei den historischen Verbrauchswerten wird zudem ein Vergleich zu einer Referenz
 
 ## Weiterführende Möglichkeiten (optional)
 
-Abschliessen kannst du nun noch Schnittstellen aktivieren oder Steuerungen Umsetzen.
+Abschliessen kannst du nun noch Schnittstellen aktivieren oder Steuerungen umsetzen.
 
 Navigiere dazu im Wikihauptmenu (Oben) unter:
 

@@ -16,7 +16,7 @@ Was ist [Piskelapp.com](http://piskelapp.com)?
 Piskel ist ein kostenloses, webbasiertes Zeichenprogramm, mit dem sich einfach Pixel-Art und animierte GIFs erstellen lassen. Es läuft direkt im Browser, ohne Installation, und bietet eine Echtzeit-Vorschau, in der Animationen sofort abgespielt werden können. Neben den zahlreichen Zeichenwerkzeugen wie Pinsel, Füllwerkzeug, Formen oder Symmetrie-Modus kann man eigene Pixelbilder frame-weise gestalten. Fertige Animationen lassen sich als GIF, Spritesheet oder einzelne PNG-Dateien exportieren. 
 
 </div>
-<div className="col col--5 text--center">
+<div className="col col--5 bild--mitte">
 
 ![piskelapp – Abbildung 1](/img/drittsysteme-piskelapp/01.png)
 
@@ -33,7 +33,7 @@ Piskel ist ein kostenloses, webbasiertes Zeichenprogramm, mit dem sich einfach P
 - Rechts findest du die Einstellungen – setze die Grösse auf 32 × 32 Pixel.
 
 </div>
-<div className="col col--5 text--center">
+<div className="col col--5 bild--mitte">
 
 ![piskelapp – Abbildung 2](/img/drittsysteme-piskelapp/02.png)
 
@@ -58,7 +58,7 @@ Piskel ist ein kostenloses, webbasiertes Zeichenprogramm, mit dem sich einfach P
 - Lade die GIF-Datei im smart-me Webportal hoch.
 
 </div>
-<div className="col col--5 text--center">
+<div className="col col--5 bild--mitte">
 
 ![piskelapp – Abbildung 3](/img/drittsysteme-piskelapp/03.png)
 

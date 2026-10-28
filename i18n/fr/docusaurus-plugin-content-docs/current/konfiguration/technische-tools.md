@@ -1,16 +1,16 @@
 ---
 title: 'Outils techniques'
 slug: '/konfiguration/technische-tools'
-description: 'Vérifiez rapidement et simplement l''installation pour détecter d''éventuelles erreurs de câblage physique'
+description: 'Vérifiez rapidement et facilement l''installation pour détecter d''éventuelles erreurs de câblage physique'
 sidebar_label: 'Outils techniques'
 ---
 <Menueweg>Aides techniques</Menueweg>
 
 ## Vérification de l'installation
 
-Installation (Installation)
+Installation
 
-Vérifiez rapidement et simplement l'installation pour détecter d'éventuelles erreurs de câblage physique
+Vérifiez rapidement et facilement l'installation pour détecter d'éventuelles erreurs de câblage physique
 
 Test de charge (Lasttest)
 
@@ -22,8 +22,8 @@ Connectivité (Konnektivität)
 
 Vérifiez d'un coup d'œil la connectivité de chaque appareil.
 
-Rapport (Protokoll)
+Protocole (Protokoll)
 
-Générez en un clic un rapport avec les numéros de série, le type d'appareil et l'attribution au dossier.
+Établissez d'un simple clic un protocole contenant les numéros de série, le type d'appareil et l'attribution, à des fins d'archivage.
 
 ![Outils techniques – Illustration 2](/img/konfiguration-technische-tools/02.png)

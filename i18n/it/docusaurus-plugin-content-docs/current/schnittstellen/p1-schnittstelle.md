@@ -1,14 +1,14 @@
 ---
 title: 'Interfaccia P1'
 slug: '/schnittstellen/p1-schnittstelle'
-description: 'L''interfaccia P1 consente di trasferire i dati in tempo reale del nostro hardware dei contatori a sistemi di terzi.'
+description: 'L''interfaccia P1 consente di trasferire i dati in tempo reale dal nostro hardware di misura a sistemi di terzi.'
 sidebar_label: 'Interfaccia P1'
 ---
 <Menueweg>Pannello di controllo → Dispositivo → Impostazioni (ingranaggio)</Menueweg>
 
 ## Interfaccia P1
 
-L'interfaccia P1 consente di trasferire i dati in tempo reale del nostro hardware dei contatori a sistemi di terzi. I dati possono poi essere utilizzati per l'analisi o per il controllo.
+L'interfaccia P1 consente di trasferire i dati in tempo reale dal nostro hardware di misura a sistemi di terzi. I dati possono quindi essere utilizzati per l'analisi o per il controllo.
 
 Per poter utilizzare questa interfaccia è necessario un modulo di lettura P1 che supporti lo standard del protocollo.
 Le informazioni sul rispettivo standard sono disponibili nei download specifici del prodotto.

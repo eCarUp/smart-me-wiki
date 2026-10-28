@@ -1,12 +1,12 @@
 ---
 title: 'Switzercloud / Colibird'
 slug: '/drittsysteme/switzercloud-colibird'
-description: 'La Switzercloud permet de connecter et de collecter des données de différents fabricants, technologies de transmission, applications et systèmes.'
+description: 'La Switzercloud permet de connecter et de collecter des données issues de différents fabricants, technologies de transmission, applications et systèmes.'
 sidebar_label: 'Switzercloud / Colibird'
 ---
-La Switzercloud permet de connecter et de collecter des données de différents fabricants, technologies de transmission, applications et systèmes.
+La Switzercloud permet de connecter et de collecter des données issues de différents fabricants, technologies de transmission, applications et systèmes.
 
-Avec la Switzercloud, collectez les données d'appareils IoT utilisant les voies de transmission les plus diverses, des capteurs LORAWAN aux appareils Ethernet, jusqu'aux transferts de données directs de cloud à cloud (API).
+Avec Switzercloud, collectez des données provenant d'appareils IoT utilisant les voies de transmission les plus diverses, des capteurs LORAWAN aux appareils Ethernet, jusqu'aux transferts de données directs de cloud à cloud (API).
 
 1.  Collecter les données
 
@@ -21,11 +21,11 @@ Avec la Switzercloud, collectez les données d'appareils IoT utilisant les voies
 <div className="row">
 <div className="col col--7">
 
-La Switzercloud peut récupérer les données de mesure du portail smart-me via l'API, puis les collecter et les traiter.
-Le traitement aboutit à des alertes, des rapports, des facturations, des commandes et/ou des visualisations à l'aide de Colibird.
+La Switzercloud peut récupérer les données de mesure du portail smart-me via l'API, les collecter et les traiter.
+Ce traitement aboutit à des alertes, des rapports, des facturations, des commandes et/ou des visualisations à l'aide de Colibird.
 
 </div>
-<div className="col col--5 text--center">
+<div className="col col--5 bild--mitte">
 
 ![Switzercloud / Colibird – Illustration 2](/img/drittsysteme-switzercloud-colibird/02.png)
 

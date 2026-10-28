@@ -8,7 +8,7 @@ Ein Dienstleister für die gesamte Dienstleistung und Abrechnung rund um ZEV und
 
 ## IMOVATEC für den ZEV
 
-Erhalte schnell und einfach den Überblick was dir IMOVATEC anbieten kann im nebenstehenden Webinar.
+Erhalte schnell und einfach den Überblick, was dir IMOVATEC anbieten kann im nebenstehenden Webinar.
 
 - Abrechnung und Inkasso ZEV
 - Dienstleistung und Support

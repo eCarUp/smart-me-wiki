@@ -16,7 +16,7 @@ Diese Seite gilt für Deutschland. Für die Schweiz und Liechtenstein gibt es ei
 
 Ladepunkte im Mietverhältnis:
 
-Deutschland verlangt von Ladestationshardware, welche in einem Mietverhältnis verwendet werden, grundsätzlich dasselbe wie bei üblicher Zählerhardware:
+Deutschland verlangt von Ladestationshardware, welche in einem Mietverhältnis verwendet wird, grundsätzlich dasselbe wie bei üblicher Zählerhardware:
 
 - MID-Zertifizierung, um die erfasste Energie abrechnen zu dürfen.
 
@@ -25,7 +25,7 @@ Deutschland verlangt von Ladestationshardware, welche in einem Mietverhältnis v
 
 Ladepunkte im öffentlichen Bereich mit unterschiedlichen Nutzern:
 
-- In Deutschland besteht die Notwendigkeit einer Eichrechtskonformität für öffentliche Ladepunkte. Die Grundlage für das Eichrecht ist das die Zähler\-Hardware in der Ladestation, die MID-Zertifizierung besitzt. 
+- In Deutschland besteht die Notwendigkeit einer Eichrechtskonformität für öffentliche Ladepunkte. Die Grundlage für das Eichrecht ist, dass die Zähler\-Hardware in der Ladestation, die MID-Zertifizierung besitzt. 
 
 
 <div className="row">

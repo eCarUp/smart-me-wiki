@@ -6,7 +6,7 @@ sidebar_label: 'Altri costi'
 naechste_schritte: [konfiguration/billing-deutschland/rechnung-erstellen]
 vorheriger_schritt: konfiguration/billing-deutschland/stromtarife-definieren
 ---
-Nel campo Altro (Sonstiges) è possibile aggiungere ulteriori voci di costo. Ciò può avvenire singolarmente per ogni unità di conteggio (Abrechnungseinheit) oppure a livello globale per tutte le unità di conteggio (Liegenschaft).
+Nel campo Altro (Sonstiges) è possibile aggiungere ulteriori voci di costo. Ciò può avvenire individualmente per ogni unità di conteggio (Abrechnungseinheit) oppure globalmente per tutte le unità di conteggio (Liegenschaft).
 
 Nota: gli altri costi (Sonstiges) sono disponibili solo con la fattura dell'elettricità.
 
@@ -19,12 +19,12 @@ Nota: gli altri costi (Sonstiges) sono disponibili solo con la fattura dell'elet
 Esempio:
 l'80% della quota dei costi di base del fornitore di energia deve essere addebitato in egual misura a tutti i partecipanti in relazione alla tariffa solare.
 
-- La tariffa inserita viene aggiunta mensilmente a tutte le fatture
+- La tassa inserita viene aggiunta a tutte le fatture per ogni mese
 
 </div>
 <div className="col col--5 bild--mitte">
 
-![Billing: conteggio dell'energia – figura 11](/img/konfiguration-billing/11.png)
+![Billing: conteggio dell'energia – Figura 11](/img/konfiguration-billing/11.png)
 
 </div>
 </div>
@@ -33,6 +33,6 @@ l'80% della quota dei costi di base del fornitore di energia deve essere addebit
 <Menueweg>Fatturazione → Immobili & tariffe → Unità di conteggio</Menueweg>
 
 Esempio:
-una stazione di ricarica viene noleggiata e deve essere fatturata mensilmente all'unità di conteggio.
+una stazione di ricarica viene affittata e deve essere fatturata mensilmente all'unità di conteggio.
 
-- I costi vengono addebitati solo a quell'unica unità di conteggio
+- I costi vengono addebitati solo a quella singola unità di conteggio

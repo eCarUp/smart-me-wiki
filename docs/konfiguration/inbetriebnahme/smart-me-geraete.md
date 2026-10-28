@@ -30,7 +30,7 @@ Folgende Punkte müssen vor der Inbetriebnahme vorhanden sein
 
 ## smart-me Account
 
-Wir empfehlen einen Account im vorraus und für jede Installation seperat zu erstellen. Es werden für die Inbetriebnahme keine Lizenzen benötigt.
+Wir empfehlen einen Account im Voraus und für jede Installation separat zu erstellen. Es werden für die Inbetriebnahme keine Lizenzen benötigt.
 
 ## Installer App
 
@@ -44,7 +44,7 @@ Android: Standort, Kamera
 
 - Pico: Eine RFID Karte (mitgeliefert)
 
-- Telstar 80A, CT und M-Bus Gateway: Ein kleiner Schraubenzieher zum drücken der Taste T1
+- Telstar 80A, CT und M-Bus Gateway: Ein kleiner Schraubenzieher zum Drücken der Taste T1
 
 ![Symbol der smart-me Installer App: ein gekreuztes Werkzeugpaar auf blauem Grund](/img/konfiguration-inbetriebnahme/01.png)
 
@@ -64,9 +64,9 @@ Android: Standort, Kamera
 
 4.  Verbinde dein Smartphone oder Tablet mit dem WiFi, in welches du das smart-me Gerät installieren möchtest.
 
-5.  Starte die App logge dich ein mit dem entsprechenden Account ein oder erstelle einen Account.
+5.  Starte die App, logge dich ein mit dem entsprechenden Account ein oder erstelle einen Account.
 
-6.  Im Menu prüfen mit Diagnose ob die Server erreichbar sind.
+6.  Im Menu prüfen mit Diagnose, ob die Server erreichbar sind.
 
 7.  Klicke unten rechts auf „Gerät installieren“ (+)
 
@@ -100,7 +100,7 @@ Android: Standort, Kamera
 
 Sollte die Installation fehlschlagen, bitte die detaillierte Anleitung inkl. Fehlerbeschreibung befolgen.
 
-## Detailliert Anleitung inkl. Fehlerbeschreibung
+## Detaillierte Anleitung inkl. Fehlerbeschreibung
 
 <div className="row">
 <div className="col col--4">
@@ -299,7 +299,7 @@ Erscheint die Warnung wegen des 5-GHz-Netzwerks, muss zusätzlich ein 2,4-GHz-Ne
 - Das Wandler-Verhältnis kann gesperrt werden. Dies dient als Schutz vor ungewollten Änderungen von unbefugten Personen. Damit das Wandlerverhältnis entsperrt werden kann,  muss das Gerät nochmals mit der smart-me App installiert werden.
 
 </div>
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
 ![Gerätedetails in der App mit dem Wandlerfaktor 200:5 und dem Schalter „Wandlerfaktor sperren"](/img/konfiguration-inbetriebnahme/16.jpg)
 
@@ -321,9 +321,9 @@ Hardware Installationsschritte:
 2.  Mit Hilfe der App die Installation gemäss Anleitung abschliessen.
     (Hardware mit WLAN und Ziel-Account verlinken. WLAN 2.4GHz)
 
-3.  Unter Konfiguration in der App oder am Desktop den  "automatischen Suchlauf" starten um die Geräte zu finden.
+3.  Unter Konfiguration in der App oder am Desktop den  "automatischen Suchlauf" starten, um die Geräte zu finden.
 
-Die Inbetriebnahme der Wärme- und Wasserzähler dagegen werden weiterhin durch den Lieferanten (z. B. Neovac, Ista, GWF, Techem usw.) ausgeführt. Meistens wird dazu im Technikraum von diesen Firmen ein eigener M-Bus Master angeschlossen, damit sie überprüfen können, ob die Zähler auch auf dem M-Bus ankommen.
+Die Inbetriebnahme der Wärme- und Wasserzähler dagegen wird weiterhin durch den Lieferanten (z. B. Neovac, Ista, GWF, Techem usw.) ausgeführt. Meistens wird dazu im Technikraum von diesen Firmen ein eigener M-Bus Master angeschlossen, damit sie überprüfen können, ob die Zähler auch auf dem M-Bus ankommen.
 
 Anschliessend wird ein Inbetriebnahmeprotokoll erstellt und erst danach wird unser M-Bus Gateway wieder angeschlossen.
 
@@ -362,11 +362,11 @@ Enthält ein Zähler mehr als 1 Zähler, werden diese jeweils wie folgt nummerie
 
 - Hauptzähler = Sekundäradresse von der Liste des M-Bus Gateways (z.B. 71440145)
 
-- Weitere Zähler = Nebenadresse des Hauptzählers, die ersten 1 oder 2 Zahl werden gelöscht (z.B. 7) und am Ende wird eine Zahl hochgezählt (z.B. 14401451,14401452).
+- Weitere Zähler = Nebenadresse des Hauptzählers, die ersten 1 oder 2 Zahlen werden gelöscht (z.B. 7) und am Ende wird eine Zahl hochgezählt (z.B. 14401451,14401452).
 
 - Subzähler = Diese enthalten die letzten vier Ziffern des Hauptzählers (z.B. 0145) und eine vierstellige Aufzählungsnummer am Ende (z.B. 01450001)
 
-Hinweis zu führenden 0er: Wenn ein Zähler z.B. die Nummer 1000017 hat, werden nach dem abschneiden die führenden 0er nicht berücksichtigt werden also z.B. 000017 und werden am Schluss angefügt z.B. 1700001
+Hinweis zu führenden 0er: Wenn ein Zähler z.B. die Nummer 1000017 hat, werden nach dem Abschneiden die führenden 0er nicht berücksichtigt werden also z.B. 000017 und werden am Schluss angefügt z.B. 1700001
 
 ![Einzelner gefundener Zähler „Heat 71440145" mit seiner Adressierung](/img/konfiguration-inbetriebnahme/19.png)
 
@@ -378,7 +378,7 @@ Weitere Konfigurationen müssen im Webportal gemacht werden
 
 Editieren
 
-- Intervall verändern. Das M-Bus Benötigt 10 Sekunden pro Gerät zum Auslesen.
+- Intervall verändern. Das M-Bus benötigt 10 Sekunden pro Gerät zum Auslesen.
 
 Geräte Suchlauf beim M-Bus Gateway starten
 
@@ -392,19 +392,19 @@ Hinweis: Die Suche kann mehrere Minuten dauern.
 
 Gateway findet nicht alle Zähler
 
-- Starte den Suchdurchlauf  nochmals (1-2x). Es kann sein, dass der Zähler sich nicht immer beim ersten Suchdurchlauf gefunden wird.
+- Starte den Suchdurchlauf  nochmals (1-2x). Es kann sein, dass der Zähler nicht immer beim ersten Suchdurchlauf gefunden wird.
 
 - Weitere Ursachen findest du auf der Seite [M-Bus Gateway Störungen](/stoerungsbehebung/m-bus-gateway-stoerungen) 
 
 Gateway findet mehr Zähler als verbaut wurden
 
-- Meistens während der Inbetriebnahme: Je nach M-Bus Zähler kann dieser mehrere Subzähler erstellen. Diese erkennt man daran, das die Seriennummer um eine Stelle nach Links verschoben ist, gefolgt von einer steigenden Zahl. Beginnend mit 1. Bsp: Hauptzähler 00200001, Subzähler 02000011
+- Meistens während der Inbetriebnahme: Je nach M-Bus Zähler kann dieser mehrere Subzähler erstellen. Diese erkennt man daran, dass die Seriennummer um eine Stelle nach links verschoben ist, gefolgt von einer steigenden Zahl. Beginnend mit 1. Bsp: Hauptzähler 00200001, Subzähler 02000011
 
 - Weitere Ursachen findest du auf der Seite [M-Bus Gateway Störungen](/stoerungsbehebung/m-bus-gateway-stoerungen) 
 
 ![Menü des M-Bus Gateways im Portal mit dem grün hervorgehobenen Knopf „Geräte suchen"](/img/konfiguration-inbetriebnahme/21.png)
 
-### M-Bus Gateway erkennung von neuen Geräte unterbinden
+### M-Bus Gateway Erkennung von neuen Geräten unterbinden
 
 Wie wird die Option aktiviert?
 
@@ -465,7 +465,7 @@ Konfiguriere das individuelle Design und Verhalten der Pico und deren Lastgruppe
 </Kachel>
 <Kachel titel="Multilevel Lastmanagement" href="/konfiguration/multilevel-lastmanagement">
 
-Konfiguriere die Pico in einem übergeordneten Lastmanagement für das Gesamte Gebäude oder Areal.
+Konfiguriere die Pico in einem übergeordneten Lastmanagement für das gesamte Gebäude oder Areal.
 
 </Kachel>
 </Kacheln>
@@ -483,7 +483,7 @@ Konfiguriere die Pico in einem übergeordneten Lastmanagement für das Gesamte G
 In diesem Schritt hast du die Möglichkeit, mehrere Zähler gleichzeitig in Betrieb zu nehmen, um die Inbetriebnahme bei vielen Zählern zu beschleunigen.
 
 </div>
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
 ![Geräteliste mit gesetztem Installations-WLAN und dem Plus-Knopf unten rechts](/img/konfiguration-inbetriebnahme/10.jpg)
 
@@ -495,26 +495,26 @@ In diesem Schritt hast du die Möglichkeit, mehrere Zähler gleichzeitig in Betr
 <div className="row">
 <div className="col col--4">
 
-1.  Oben links auf die drei Striche und Profil Wählen
+1.  Oben links auf die drei Striche und Profil wählen
 
 2.  Unten Ausloggen auswählen
 
 3.  Ausgeloggt
 
 </div>
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
 ![Seitenmenü der App mit dem markierten Eintrag Benutzer Profil](/img/konfiguration-inbetriebnahme/26.jpg)
 
 </div>
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
 ![Profilseite der App mit dem Knopf Abmelden am unteren Rand](/img/konfiguration-inbetriebnahme/27.jpg)
 
 </div>
 </div>
 
-### Installation Fehlgeschlagen
+### Installation fehlgeschlagen
 
 Sollte die Installation fehlschlagen und du es erneut versuchen möchtest, schliesse die App bitte vollständig und öffne sie danach wieder. Dadurch wird sichergestellt, dass keine zwischengespeicherten (Cache) Informationen verwendet werden.
 
@@ -530,14 +530,14 @@ Wenn die SSID und das Passwort von einem privaten WLAN genützt wird, gibt es zw
 
 - Lösung 1: Auf dem neuen Router ein Gäste-WLAN machen, welches die gleiche SSID und Passwort wie das Alte hat. Anschliessend verbinden sich automatisch die Zähler mit diesem WLAN, welches gleich ist wie das Alte.
 
-- Lösung 2: Jeden Zähler einzeln wieder einlesen, damit lokal auf jedem Zähler die neuen Daten gespeichert werden. Die Installation erfolgt genau gleich wie eine Neuinstallation. Der  Zähler darf unter keinen Umständen gelöscht werden, da ansonsten alle historischen Daten verloren gehen . Bei einer erneuten Installation merkt unsere Cloud-Umgebung, dass die Seriennummer bereits im Konto vorhanden ist und fügt die neuen Werte einfach hinzu.
+- Lösung 2: Jeden Zähler einzeln wieder einlesen, damit lokal auf jedem Zähler die neuen Daten gespeichert werden. Die Installation erfolgt genau gleich wie eine Neuinstallation. Der  Zähler darf unter keinen Umständen gelöscht werden, da ansonsten alle historischen Daten verloren gehen. Bei einer erneuten Installation merkt unsere Cloud-Umgebung, dass die Seriennummer bereits im Konto vorhanden ist und fügt die neuen Werte einfach hinzu.
 
 </details>
 
 <details id="wie-kann-ich-ein-gerät-neu-starten-reboot">
 <summary>Wie kann ich ein Gerät neu starten (reboot)?</summary>
 
-Alle Geräte können mit eine Stromunterbruch neu gestartet werden.
+Alle Geräte können mit einem Stromunterbruch neu gestartet werden.
 
 3 Phasen Zähler: T1 und T2 gleichzeitig für 10 Sekunden drücken.
 
@@ -557,7 +557,7 @@ Ja, das smart-me Gerät (ausser [Pico Ladestation](/produkte/pico-ladestation)) 
 </details>
 
 <details id="kann-ich-den-zählerstand-auf-null-zurücksetzten">
-<summary>Kann ich den Zählerstand auf Null zurücksetzten?</summary>
+<summary>Kann ich den Zählerstand auf Null zurücksetzen?</summary>
 
 Nein, da unsere Zähler für Abrechnungen verwendet werden, ist es nicht möglich, diese zurückzusetzen.
 
@@ -566,7 +566,7 @@ Nein, da unsere Zähler für Abrechnungen verwendet werden, ist es nicht möglic
 <details id="wo-wird-das-wifi-passwort-gespeichert">
 <summary>Wo wird das WiFi-Passwort gespeichert?</summary>
 
-Das WiFi-Passwort wird ausschliesslich auf dem smart-me Gerät gespeichert und niemals an einen Server übertragen 
+Das WiFi-Passwort wird ausschliesslich auf dem smart-me Gerät gespeichert und niemals an einen Server übertragen. 
 
 </details>
 
@@ -578,7 +578,7 @@ Ja, das Gerät speichert alle Einstellungen und Werte bei einem Stromausfall. So
 </details>
 
 <details id="wie-kann-ich-eine-neues-wifi-hinterlegen-ohne-die-bestehenden-daten-zu-verlieren">
-<summary>Wie kann ich eine neues WiFi hinterlegen ohne die bestehenden Daten zu verlieren?</summary>
+<summary>Wie kann ich ein neues WiFi hinterlegen, ohne die bestehenden Daten zu verlieren?</summary>
 
 Um ein weiteres Netzwerk hinzuzufügen, muss das Gerät ordnungsgemäss mit der smart-me App installiert werden. Wird es zuvor nicht aus der Cloud gelöscht, bleiben Energiedaten und Konfigurationseinstellungen erhalten.
 
@@ -589,9 +589,9 @@ Um ein weiteres Netzwerk hinzuzufügen, muss das Gerät ordnungsgemäss mit der 
 
 Die WiFi Informationen werden nur auf dem Gerät gespeichert. Das Löschen der Daten kann wie folgt erfolgen:
 
-- 10s lang den Knopf des smart-me Gerätes drücken. Bei pico muss die RIFD Karten, spätestens 15 Minuten nach dem Neustart (Stromlos) hingehalten werden.
+- 10s lang den Knopf des smart-me Gerätes drücken. Bei pico muss die RFID Karte, spätestens 15 Minuten nach dem Neustart (Stromlos) hingehalten werden.
 
-- Mit einem Smartphone eine Verbindung mit dem smart-me WiFi herstellen (der Name des WiFi Netzwerkes lautet smart-me\_XXXXXX wobei das X für die Seriennummer des smart-me Gerätes steht)
+- Mit einem Smartphone eine Verbindung mit dem smart-me WiFi herstellen (der Name des WiFi Netzwerkes lautet smart-me\_XXXXXX, wobei das X für die Seriennummer des smart-me Gerätes steht)
 
 - Mit einem Browser eine Verbindung mit der IP 192.168.1.1 herstellen.
 
@@ -602,7 +602,7 @@ Die WiFi Informationen werden nur auf dem Gerät gespeichert. Das Löschen der D
 <details id="wie-finde-ich-die-mac-adresse-meines-smart-me-geräts-raus">
 <summary>Wie finde ich die MAC-Adresse meines smart-me Geräts raus?</summary>
 
-Es gibt keine direkte Möglichkeit, die MAC\-Adresse herauszufinden. Wenn du über ein Professional Lizenz verfügst, kannst du in den erweiterten Einstellungen vom smart-me Gerät DNS aktivieren und die Option Interne IP wählen. Mit einem Ping auf den DNS Name kann die IP ermittelt werden, diese kann dann auf dem Router mit der IP / MAC Tabelle verglichen werden
+Es gibt keine direkte Möglichkeit, die MAC\-Adresse herauszufinden. Wenn du über eine Professional Lizenz verfügst, kannst du in den erweiterten Einstellungen vom smart-me Gerät DNS aktivieren und die Option Interne IP wählen. Mit einem Ping auf den DNS Namen kann die IP ermittelt werden, diese kann dann auf dem Router mit der IP / MAC Tabelle verglichen werden.
 
 </details>
 
@@ -630,7 +630,7 @@ Es gibt keine direkte Möglichkeit, die MAC\-Adresse herauszufinden. Wenn du üb
 </details>
 
 <details id="was-passiert-wenn-ich-ein-zähler-deaktiviere">
-<summary>Was passiert wenn ich ein Zähler deaktiviere?</summary>
+<summary>Was passiert, wenn ich einen Zähler deaktiviere?</summary>
 
 Alle Daten, die bereits in der Cloud gespeichert sind, bleiben erhalten. Nach dem Deaktivieren werden keine weiteren Daten mehr abgespeichert. Für deaktivierte Zähler fallen keine Lizenzkosten an.
 

@@ -4,7 +4,7 @@ slug: '/schnittstellen/ein-und-ausgaenge'
 description: 'Configurare ingressi e uscite'
 sidebar_label: 'Ingressi e uscite'
 ---
-<Menueweg>Pannello di controllo → Dispositivo → Impostazioni (rotella)</Menueweg>
+<Menueweg>Pannello di controllo → Dispositivo → Impostazioni (rotella dentata)</Menueweg>
 
 ## Configurare ingressi e uscite
 
@@ -14,7 +14,7 @@ sidebar_label: 'Ingressi e uscite'
 I contatori smart-me dispongono di una o più uscite, che possono essere utilizzate come uscita a impulsi o come contatto a potenziale zero.  Di fabbrica, l'uscita S0\_0 è definita come uscita a impulsi e la S1 come uscita digitale a relè con il nome "Relè" ("Relais").
 
 </div>
-<div className="col col--6 text--center">
+<div className="col col--6 bild--mitte">
 
 ![Ingressi e uscite del contatore – Figura 1](/img/schnittstellen-ein-und-ausgaenge/01.png)
 
@@ -27,7 +27,7 @@ Comandare E1 con segnale tariffario o distacco del carico
 
 ![Ingressi e uscite del contatore – Figura 2](/img/schnittstellen-ein-und-ausgaenge/02_EN.png)
 
-Circuito con Telstar: accensione e spegnimento (S1 e S0) vanno cablati in modo identico
+Circuito con Telstar: l'accensione e lo spegnimento (S1 e S0) vanno cablati in modo identico
 
 ![Ingressi e uscite del contatore – Figura 3](/img/schnittstellen-ein-und-ausgaenge/03_EN.png)
 
@@ -35,11 +35,11 @@ Circuito con Telstar: accensione e spegnimento (S1 e S0) vanno cablati in modo i
 
 È possibile configurare l'uscita come uscita a impulsi. Si può distinguere tra energia reattiva ed energia attiva.
 
-Nota: non è possibile distinguere tra prelievo e fornitura. Viene sempre emesso il valore assoluto.
+Nota: non è possibile distinguere tra prelievo e immissione. Viene sempre emesso il valore assoluto.
 
 ### Configurazione come contatto a potenziale zero
 
-Se l'uscita è definita come contatto a potenziale zero, è possibile comandare qualsiasi apparecchio tramite il cloud smart-me. Il comando può avvenire manualmente (on/off) oppure in modo automatico tramite [azioni basate su eventi](/konfiguration/wenndann-aktionen/ereignisaktionen) o [azioni se/allora](/konfiguration/wenndann-aktionen).
+Se l'uscita è definita come contatto a potenziale zero, è possibile comandare qualsiasi apparecchio tramite il cloud smart-me. Il comando può avvenire manualmente (acceso/spento) oppure in modo automatico tramite [azioni basate su eventi](/konfiguration/wenndann-aktionen/ereignisaktionen) o [azioni se/allora](/konfiguration/wenndann-aktionen).
 
 1.  Accedi al [sito web smart-me](https://web.smart-me.com/login/) o all'app smart-me
 
@@ -49,7 +49,7 @@ Se l'uscita è definita come contatto a potenziale zero, è possibile comandare 
 
     - Puoi assegnare all'uscita un nome a piacere.
 
-    - Puoi definire un'azione da eseguire quando il contatore perde la connessione con il cloud smart-me.
+    - Puoi definire un'azione da eseguire quando il contatore perde la connessione al cloud smart-me.
 
 
 NOTA:
@@ -68,7 +68,7 @@ Nella vista inquilino queste uscite non possono essere attivate o disattivate, a
 
 ### Cablaggio delle uscite
 
-Rispetta i valori massimi di tensione, corrente e potenza delle rispettive uscite. In modo semplificato, ciascuna delle uscite a potenziale zero può essere considerata come un interruttore non collegato. Affinché vi sia una funzione, deve essere reso possibile un circuito da un potenziale alto a uno basso.
+Rispetta i valori massimi di tensione, corrente e potenza delle rispettive uscite. In termini semplificati, ciascuna delle uscite a potenziale zero può essere considerata come un interruttore non collegato. Affinché funzioni, deve essere possibile un circuito dal potenziale alto a quello basso.
 
 Le uscite non forniscono di per sé alcun livello di tensione; è quindi necessario collegare a monte una sorgente di tensione.
 
@@ -76,29 +76,29 @@ Per circuiti a corrente alternata 230V:
 
 - 230 VAC sul contatto "+" di S1
 
-- Cablare il contatto "-" di S1 sull'ingresso "+" del circuito esterno.
+- Cablare il contatto "-" di S1 all'ingresso "+" del circuito esterno.
 
-- Infine collegare il "-" del circuito esterno al conduttore di neutro. (Non è necessario collegare un carico ohmico)
+- Infine collegare il "-" del circuito esterno al conduttore neutro. (Non è necessario collegare un carico ohmico)
 
 
 Per circuiti a corrente continua:
 
-- da + VDC sul contatto "+" di S1
+- da + VDC al contatto "+" di S1
 
-- Cablare il contatto "-" di S1 sull'ingresso "+" del circuito esterno.
+- Cablare il contatto "-" di S1 all'ingresso "+" del circuito esterno.
 
 - Infine collegare il "-" del circuito esterno a GND.
 
 
 ![Ingressi e uscite del contatore – Figura 7](/img/schnittstellen-ein-und-ausgaenge/07.png)
 
-\*A seconda del tipo di dispositivo
+\*A seconda del tipo di apparecchio
 
 ![Ingressi e uscite del contatore – Figura 8](/img/schnittstellen-ein-und-ausgaenge/08.png)
 
 ## Configurare l'ingresso
 
-I contatori smart-me dispongono di un ingresso digitale che può essere utilizzato come ingresso tariffario o come normale ingresso digitale. Di fabbrica, questo ingresso è definito come ingresso tariffario. Se l'ingresso è configurato come ingresso digitale, può essere utilizzato come evento per comandare altri apparecchi o attivare allarmi.  Se l'ingresso è definito come ingresso tariffario, applicando una tensione il conteggio viene commutato dalla tariffa 1 alla tariffa 2.
+I contatori smart-me dispongono di un ingresso digitale che può essere utilizzato come ingresso tariffario o come normale ingresso digitale. Di fabbrica, questo ingresso è definito come ingresso tariffario. Se l'ingresso è configurato come ingresso digitale, può essere utilizzato come evento per comandare altri apparecchi o per attivare allarmi.  Se l'ingresso è definito come ingresso tariffario, applicando una tensione il conteggio passa dalla tariffa 1 alla tariffa 2.
 
 ### Configurazione come ingresso digitale
 
@@ -119,14 +119,14 @@ Per configurare un ingresso come ingresso digitale, procedi come segue:
 
 ### Utilizzare l'ingresso digitale per i comandi
 
-Puoi utilizzare l'ingresso digitale per commutare altri apparecchi o inviare allarmi. A tale scopo, nelle [azioni se/allora](/konfiguration/wenndann-aktionen/ereignisaktionen) è possibile definire l'evento "se" "Stato di commutazione" ("Schaltzustand").
+Puoi utilizzare l'ingresso digitale per commutare altri apparecchi o per inviare allarmi. A tale scopo, nelle [azioni se/allora](/konfiguration/wenndann-aktionen/ereignisaktionen) è possibile definire l'evento "se" "Stato di commutazione" ("Schaltzustand").
 
 ### Cablare il collegamento
 
-Per commutare il contatto a potenziale zero, è necessario applicare una tensione esterna e un potenziale (ad es. conduttore di neutro). I rispettivi valori di tensione sono riportati nei dati tecnici dei singoli prodotti. 
+Per commutare il contatto a potenziale zero è necessario applicare una tensione esterna e un potenziale (ad es. conduttore neutro). I rispettivi valori di tensione sono riportati nei dati tecnici dei singoli prodotti. 
 
 Logica:
-1 (High) = tensione secondo la scheda tecnica
+1 (High) = tensione da scheda tecnica
 0 (Low) = 0 Volt
 
 Nota: con la tensione continua occorre rispettare la polarità (E1+/E1-), mentre con la tensione alternata questa non ha importanza.

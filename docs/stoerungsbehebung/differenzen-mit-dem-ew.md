@@ -8,7 +8,7 @@ In diesem Abschnitt wird eine einheitliche Methodik beschrieben, um zu prüfen o
 
 ## Methodik
 
-Es gibt zwei Ansätze dem Fehler auf die Spur zu kommen. Je nachdem ist das eine oder andere Vorgehen einfacher.
+Es gibt zwei Ansätze, dem Fehler auf die Spur zu kommen. Je nachdem ist das eine oder andere Vorgehen einfacher.
 
 - Das smart-me Billing wird nochmals geprüft. Sollte ein Konfigurationsfehler vorliegen, kann dieser zu falschen Werten im smart-me Billing führen.
 
@@ -46,7 +46,7 @@ Die Kontrollpunkte erfüllen jeweils einen bestimmten Zweck:
 
 - Netzbezug EW vs. smart-me Billing: Hier wird geprüft, ob im smart-me Billing Hoch-, Nieder- und Solartarife mit der Rechnung vom EW übereinstimmen.
 
-- Eigenverbrauch vs. smart-me Billing: Hier wird geprüft, ob jede Kilowattstunde des selbst verbrauchten PV-Stroms, auch verrechnet wird.
+- Eigenverbrauch vs. smart-me Billing: Hier wird geprüft, ob jede Kilowattstunde des selbst verbrauchten PV-Stroms auch verrechnet wird.
 
 
 ## Vorbehalt
@@ -69,4 +69,4 @@ Sollte ein Problem in der Abrechnung festgestellt werden und es gewünscht ist, 
 - Rückvergütung vom EW
 
 
-Hinweis: Wir analysieren nur Anlagen, die unser Messkonzept einhalten. Dazu gehört das jede Produktion und jeder Verbraucher inkl. Bilanzzähler gemessen sind.
+Hinweis: Wir analysieren nur Anlagen, die unser Messkonzept einhalten. Dazu gehört, dass jede Produktion und jeder Verbraucher inkl. Bilanzzähler gemessen sind.

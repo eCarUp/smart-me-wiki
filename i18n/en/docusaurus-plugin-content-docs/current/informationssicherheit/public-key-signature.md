@@ -4,11 +4,11 @@ slug: '/informationssicherheit/public-key-signature'
 description: 'smart-me meters (version 2.0 and later) digitally sign all measurement data and transactions.'
 sidebar_label: 'Public Key Signature'
 ---
-smart-me meters (version 2.0 and later) digitally sign all measurement data and transactions. This means the authenticity of measured values can be verified at any time. To do this, smart-me uses the cryptographic principle of end-to-end protection by means of a digital signature based on asymmetric encryption.
+smart-me meters (version 2.0 and later) digitally sign all measurement data and transactions. This makes it possible to verify the authenticity of measured values at any time. For this purpose, smart-me uses the cryptographic principle of end-to-end protection by means of a digital signature based on asymmetric encryption.
 
 smart-me distinguishes between two types of signed measured values:
 
-- Signed meter values: Signed measured values that are stored and signed every 15 minutes. Ideal for billing energy consumption.
+- Signed meter values: Signed measured values that are stored and signed every 15 minutes. Ideal for energy consumption billing.
 
 - Signed transaction: Signed transactions are intended for energy consumption over a specific period of time (e.g. charging electric vehicles). They always have a start value and an end value.
 
@@ -27,7 +27,7 @@ During production of the meter, an asymmetric key pair is generated and stored o
 
 - Every 15 minutes, or when a transaction ends, a data packet containing the corresponding measured values is created.
 
-- A hash (SHA256) is calculated over this data.
+- A hash (SHA256) is computed over this data.
 
 - This hash is encrypted (ECDSA 256) and stored as the signature.
 
@@ -38,7 +38,7 @@ During production of the meter, an asymmetric key pair is generated and stored o
 
 - The customer receives the data packet with the measurement data via the app, the web or a third party.
 
-- The hash (SHA256) is calculated over the data packet.
+- The hash (SHA256) is computed over the data packet.
 
 - The public key for all smart-me meters is publicly available in the cloud (also via API)
 
@@ -47,7 +47,7 @@ During production of the meter, an asymmetric key pair is generated and stored o
 
 ### Data packets
 
-To keep the size of the data packet, and therefore the amount of data required for transmission, as small as possible, smart-me uses "Google Protocol Buffers" as the data format for the measured values. The data packets are structured as follows:
+To keep the size of the data packet, and thus the amount of data required for transmission, as small as possible, smart-me uses "Google Protocol Buffers" as the data format for the measured values. The data packets are structured as follows:
 
 Signed meter values
 
@@ -69,7 +69,7 @@ message MeasurementValues
 Measurement values
 
 SerialNumber: The serial number of the meter (e.g. 6300000)
-TimestampUtc: Unix time stamp (UTC) of this measurement data
+TimestampUtc: Unix timestamp (UTC) of this measurement data
 Values: List of all measured values (CounterValue) in this data packet.
 
 CounterValue
@@ -109,7 +109,7 @@ message Transaction
 
 Transaction
 SerialNumber: The serial number of the meter (e.g. 6300000)
-TransactionNumber: The number of the transaction. This number is incremented with every transaction.
+TransactionNumber: The number of the transaction. This number is incremented with each transaction.
 UserId: The ID of the user who started this transaction.
 StartValues: The measured values at the start of the transaction (see above)
 EndValues: The measured values at the end of the transaction (see above)
@@ -156,7 +156,7 @@ Validate the hash with the public key using ECDSA 256
 
 OK
 
-Deserialize the data packet: Together with the protobuffer definition, the data packet can easily be deserialized (example visualized as JSON):
+Deserialize the data packet: Together with the Protobuffer definition, the data packet can easily be deserialized (example visualized as JSON):
 
 ```
 {
@@ -200,7 +200,7 @@ Deserialize the data packet: Together with the protobuffer definition, the data 
 
 
 
-Reading guide
+Reading aid
 
 StartValues
 

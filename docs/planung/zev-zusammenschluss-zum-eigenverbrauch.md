@@ -10,7 +10,7 @@ symbol: 'gebaeude'
 <div className="row">
 <div className="col col--7">
 
-Ein Zusammenschluss zum Eigenverbrauch kann aus einem einzelnen Gebäude wie auch aus mehreren Gebäuden mit dem selben Anschlusspunkt gegenüber dem Energieversorger bestehen.
+Ein Zusammenschluss zum Eigenverbrauch kann aus einem einzelnen Gebäude wie auch aus mehreren Gebäuden mit demselben Anschlusspunkt gegenüber dem Energieversorger bestehen.
 
 Innerhalb des ZEV liegt die Abrechnung und Tarifierung des Netzstromes und des lokal produzierten Stromes in der Hand der ZEV-Betreiber.
 
@@ -25,7 +25,7 @@ Grundlagen
 - VNB-Zähler am Einspeisepunkt mit Rechnung des VNB
 
 </div>
-<div className="col col--5 text--center">
+<div className="col col--5 bild--mitte">
 
 ![ZEV Zusammenschluss zum Eigenverbrauch – Abbildung 1](/img/planung-zev-zusammenschluss-zum-eigenverbrauch/01.png)
 
@@ -34,13 +34,13 @@ Grundlagen
 
 ## Generelles Messkonzept
 
-### Lizenzflichtige Messpunkte:
+### Lizenzpflichtige Messpunkte:
 
-- Jeder Messpunkt welcher erfasst werden muss ist [lizenzpflichtig](/planung/cloud-lizenzen).
+- Jeder Messpunkt, welcher erfasst werden muss, ist [lizenzpflichtig](/planung/cloud-lizenzen).
 
-- Jeder virtuelle Zähler (Summenproduktionen, Gesamtverbrauch) sind [lizenzpflichtig](/planung/cloud-lizenzen).
+- Jeder virtuelle Zähler (Summenproduktionen, Gesamtverbrauch) ist [lizenzpflichtig](/planung/cloud-lizenzen).
 
-- Jeder M-Bus oder LoRa-Zähler\-Register welches abgerechnet werden will gilt als Messpunkt (Kombizähler Wärme / Kälte = 2 Lizenzen) und ist somit [lizenzpflichtig](/planung/cloud-lizenzen), nicht aber das M-Bus Gateway selbst. Nicht verwendete können inaktiv gesetzt werden.
+- Jeder M-Bus oder LoRa-Zähler\-Register, welches abgerechnet werden will, gilt als Messpunkt (Kombizähler Wärme / Kälte = 2 Lizenzen) und ist somit [lizenzpflichtig](/planung/cloud-lizenzen), nicht aber das M-Bus Gateway selbst. Nicht verwendete können inaktiv gesetzt werden.
 
 
 ### Strom
@@ -59,7 +59,7 @@ Grundlagen
 
 - Die Tarifierung kann je nach Modell mittels Areal / Hausanschlusszähler und Produktionen oder alternativ mittels Produktionen und virtuellem Gesamtverbrauch errechnet werden. (+1 virtueller Gesamtverbrauchszähler)
 
-- Sind mehrere Produktionen gemessen (Batterien / PV) so sind diese virtuell zu Summieren (+1 virtueller Summenzähler)
+- Sind mehrere Produktionen gemessen (Batterien / PV) so sind diese virtuell zu summieren (+1 virtueller Summenzähler)
 
 
 ![ZEV Zusammenschluss zum Eigenverbrauch – Abbildung 2](/img/planung-zev-zusammenschluss-zum-eigenverbrauch/02.png)
@@ -111,7 +111,7 @@ Ideal für Planer, Elektrofachleute.
 
 ### ZEV als Areallösung
 
-- Der Arealmesspunkt ist Massgebend für die perfekte Tarifierungsgenauigkeit
+- Der Arealmesspunkt ist massgebend für die perfekte Tarifierungsgenauigkeit
 
 - Die Hausanschlüsse sind hier relevant für die dynamische Steuerung der Hausinfrastruktur wie Wärmepumpen, Ladestationen und Solaranlagen.
 

@@ -1,18 +1,18 @@
 ---
-title: 'Formattare correttamente i numeri nei CSV'
+title: 'Formattare correttamente i numeri CSV'
 slug: '/stoerungsbehebung/csv-zahlen-richtig-formatieren'
 description: 'Apri un file CSV in Excel e i numeri...'
-sidebar_label: 'Formattare correttamente i numeri nei CSV'
+sidebar_label: 'Formattare correttamente i numeri CSV'
 ---
 ### In generale
 
-Apri un file CSV in Excel e i numeri... sembrano rotti.
+Apri un file CSV in Excel e i numeri... sembrano danneggiati.
 
-Il problema è quasi sempre la confusione globale dei separatori (ovvero la lotta tra 1.000,50, 1,000.50, 1'000.50 e 1000.50). Purtroppo Excel è un po' testardo e durante l'importazione si aspetta un formato che corrisponda esattamente alle impostazioni regionali del tuo sistema.
+Il problema è quasi sempre la confusione globale tra i separatori (cioè la lotta tra 1.000,50, 1,000.50, 1'000.50 e 1000.50). Purtroppo Excel è piuttosto rigido e durante l'importazione si aspetta un formato che corrisponda esattamente alle impostazioni regionali del tuo sistema.
 
-Poiché il nostro sistema smart-me attualmente non è ancora in grado di esportare il formato CSV perfetto per ogni singola regione, a volte è necessario un adattamento manuale in Excel.
+Poiché il nostro sistema smart-me al momento non è ancora in grado di esportare il formato CSV perfetto per ogni singola regione, a volte è necessario un adattamento manuale in Excel.
 
-Qui di seguito trovi due semplici soluzioni con cui puoi assicurarti che Excel visualizzi correttamente i tuoi dati.
+Qui sotto trovi due semplici soluzioni per assicurarti che Excel visualizzi correttamente i tuoi dati.
 
 ### Modificare il CSV con Trova/Sostituisci
 
@@ -21,7 +21,7 @@ Qui di seguito trovi due semplici soluzioni con cui puoi assicurarti che Excel v
 - Premi Ctrl+H
 
 
-![Formattare correttamente i numeri nei CSV – Figura 1](/img/stoerungsbehebung-csv-zahlen-richtig-formatieren/01.png)
+![Formattare correttamente i numeri CSV – Figura 1](/img/stoerungsbehebung-csv-zahlen-richtig-formatieren/01.png)
 
 ### Modificare il CSV con Trova/Sostituisci
 
@@ -30,22 +30,22 @@ Qui di seguito trovi due semplici soluzioni con cui puoi assicurarti che Excel v
 
 - Premi Ctrl+H
 
-- Trova "." (punto)
+- Cerca "." (punto)
 
 - Sostituisci con "" (niente)
 
 - Sostituisci tutto
 
-- Trova "," (virgola)
+- Cerca "," (virgola)
 
 - Sostituisci con "." (punto)
 
 - Sostituisci tutto
 
 </div>
-<div className="col col--8 text--center">
+<div className="col col--8 bild--mitte">
 
-![Formattare correttamente i numeri nei CSV – Figura 2](/img/stoerungsbehebung-csv-zahlen-richtig-formatieren/02.png)
+![Formattare correttamente i numeri CSV – Figura 2](/img/stoerungsbehebung-csv-zahlen-richtig-formatieren/02.png)
 
 </div>
 </div>
@@ -65,4 +65,4 @@ Qui di seguito trovi due semplici soluzioni con cui puoi assicurarti che Excel v
     - Separatore delle migliaia .  (punto)
 
 
-![Formattare correttamente i numeri nei CSV – Figura 3](/img/stoerungsbehebung-csv-zahlen-richtig-formatieren/03.png)
+![Formattare correttamente i numeri CSV – Figura 3](/img/stoerungsbehebung-csv-zahlen-richtig-formatieren/03.png)

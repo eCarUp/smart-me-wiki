@@ -12,7 +12,7 @@ Mit dem neuen Update vom SolarManager werden Picos nicht mehr über die Seriennu
 
 In dem kurzen Video zeige ich dir Schritt für Schritt, wie das funktioniert, damit du die Einstellungen auf der smart-me Seite korrekt vornehmen kannst.
 
-Das ist super zu wissen: mit dem Update ist somit das einphasige Laden mit 6 A (ca. 1,4 kW) möglich, was ideal für geringere PV-Überschüsse ist. Wie dies konfiguriert werden kann, findest du in der Dokumentation vom Solarmanager
+Das ist super zu wissen: mit dem Update ist somit das einphasige Laden mit 6 A (ca. 1,4 kW) möglich, was ideal für geringere PV-Überschüsse ist. Wie dies konfiguriert werden kann, findest du in der Dokumentation vom Solarmanager.
 
 <Embed src="https://drive.google.com/file/d/1Oc3uuTCMusCJMHL7hjlJzFbkoFONHpm4/preview" aspect="1.350" title="Drive, solarmanager_update_2026.mp4" />
 
@@ -107,20 +107,20 @@ Schlyffistäg 36, CH-5630 Muri
 <details id="stromfreigabe-pico-ladestation-funktioniert-nicht-ab-4200w">
 <summary>Stromfreigabe Pico Ladestation funktioniert nicht ab 4200W</summary>
 
-Die Pico Ladestation wird standardmässig mit dem Minimalstrom 8A ausgeliefert um alle möglichen Fahrzuegtypen nach der Installation direkt zu supporten.
+Die Pico Ladestation wird standardmässig mit dem Minimalstrom 8A ausgeliefert um alle möglichen Fahrzeugtypen nach der Installation direkt zu supporten.
 
-Im Zusammenspiel mit Solarmanager geht dieser Standardmässig aber von einem Minimalstrom von 6A aus um die Pico anzusteuern.
+Im Zusammenspiel mit Solarmanager geht dieser standardmässig aber von einem Minimalstrom von 6A aus um die Pico anzusteuern.
 
-Wählen Sie den jeweiligen Fall der auf Ihr Fahrzeug zutrifft um die von Ihnen gewünschte Konfiguration fehlerfrei zu unterstützen:
+Wählen Sie den jeweiligen Fall, der auf Ihr Fahrzeug zutrifft um die von Ihnen gewünschte Konfiguration fehlerfrei zu unterstützen:
 
-Fall A: Du hast ein Fahrzeug das mit 6A Startstrom umgehen kann
+Fall A: Du hast ein Fahrzeug, das mit 6A Startstrom umgehen kann
 
 - Setze den Minimalstrom auf der Pico Hardware auf 6A.
 
 ![Solar Manager – Abbildung 5](/img/drittsysteme-solarmanager/05.png)
 
-Fall B: Du hast ein Fahrzueg das wissenlich nicht mit 6A  Startstrom klarkommt (z.B Renault Zoe)
+Fall B: Du hast ein Fahrzeug, das wissentlich nicht mit 6A  Startstrom klarkommt (z.B Renault Zoe)
 
-- Setze im Solarmanager in der Fahzreugauswahl das Setting "Renault Zoe 9A"
+- Setze im Solarmanager in der Fahrzeugauswahl das Setting "Renault Zoe 9A"
 
 </details>

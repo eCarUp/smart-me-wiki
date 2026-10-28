@@ -122,4 +122,4 @@ Web: [www.bachenergy.ch](http://www.bachenergy.ch)  
 
 [https://www.bundesnetzagentur.de/DE/Vportal/Energie/Vertragsarten/Mieterstrom/start.html](https://www.bundesnetzagentur.de/DE/Vportal/Energie/Vertragsarten/Mieterstrom/start.html)
 
-Bei Fragen nimm bitte mit smartred.de Kontakt auf. Smart-Red ist unser Tochterunternehmen die den deutschen Markt bedienen und unsere Produkte in Mieterstromprojekten gemäss den rechtlichen Rahmenbedingungen vermarkten.
+Bei Fragen nimm bitte mit smartred.de Kontakt auf. Smart-Red ist unser Tochterunternehmen, das den deutschen Markt bedient und unsere Produkte in Mieterstromprojekten gemäss den rechtlichen Rahmenbedingungen vermarktet.

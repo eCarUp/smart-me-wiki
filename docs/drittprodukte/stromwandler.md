@@ -8,11 +8,11 @@ Wichtiger Hinweis:
 
 Keines dieser Produkte wird durch die smart-me AG vertrieben oder als Zubehör beim Kauf angeboten. Bitte kaufe diese Produkte direkt beim Hersteller.
 
-Anbei findest du eine Liste von Produktempfehlungen. smart-me verdient mit den empfohlenen Produkten kein Geld und übernimmt dafür keine Garantie. Es ist jederzeit möglich andere Produkte zu verwenden. Dabei ist stets darauf zu achten, dass diese die Anforderungen des jeweiligen Produkt, in diesem Fall des [3-Phasen Zähler Telstar CT](/produkte/telstar-ct) erfüllt.
+Anbei findest du eine Liste von Produktempfehlungen. smart-me verdient mit den empfohlenen Produkten kein Geld und übernimmt dafür keine Garantie. Es ist jederzeit möglich andere Produkte zu verwenden. Dabei ist stets darauf zu achten, dass diese die Anforderungen des jeweiligen Produkts, in diesem Fall des [3-Phasen Zähler Telstar CT](/produkte/telstar-ct) erfüllen.
 
-Ziel der Empfehlungen ist es unseren Partnern die Möglichkeit zu bieten, einfach und effizient bestimmte Produkte zu finden, wenn dafür noch keine bekannte vorliegen.
+Ziel der Empfehlungen ist es, unseren Partnern die Möglichkeit zu bieten, einfach und effizient bestimmte Produkte zu finden, wenn dafür noch keine bekannte vorliegen.
 
-## Stromwandler geeicht zu Verrechnungszwecke
+## Stromwandler geeicht zu Verrechnungszwecken
 
 Falls die Zähler für Verrechnungen verwendet werden sollen, werden geeichte Wandler benötigt, die mindestens die Klasse 0.5 oder kleiner erfüllen.
 
@@ -193,7 +193,7 @@ Quelle: [https://www.redur.de/](https://www.redur.de/) 
 
 ## Messwandler Trennklemmen
 
-Um einen Zähler einfach auszutauschen, sogar in Betrieb, können Messwandler Trennklemmen verwendet werden. Diese bieten die Möglichkeit die Wandlerausgänge kurzzuschliessen um die Wandler beim Zählerwechsel nicht zu beschädigen.
+Um einen Zähler einfach auszutauschen, sogar in Betrieb, können Messwandler Trennklemmen verwendet werden. Diese bieten die Möglichkeit die Wandlerausgänge kurzzuschliessen, um die Wandler beim Zählerwechsel nicht zu beschädigen.
 
 ![Stromwandler und Zubehör zu Telstar CT – Abbildung 8](/img/drittprodukte-stromwandler/08.png)
 

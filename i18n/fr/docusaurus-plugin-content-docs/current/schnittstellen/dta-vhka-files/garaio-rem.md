@@ -1,33 +1,33 @@
 ---
 title: 'Garaio REM'
 slug: '/schnittstellen/dta-vhka-files/garaio-rem'
-description: 'Remarques essentielles sur le décompte avec Garaio REM et smart-me'
+description: 'Remarques essentielles concernant le décompte avec Garaio REM et smart-me'
 sidebar_label: 'Garaio REM'
 ---
-## Remarques essentielles sur le décompte avec Garaio REM et smart-me
+## Remarques essentielles concernant le décompte avec Garaio REM et smart-me
 
-- Le décompte et la répartition des coûts selon VEWA sont effectués dans le système smart\-me.
+- Le décompte et la répartition des coûts selon la VEWA s'effectuent dans le système smart\-me.
 
-- Chaque unité de décompte de Garaio REM qui doit être interrogée doit exister de manière identique dans smart-me.
+- Chaque unité de décompte dans Garaio REM qui doit être interrogée doit exister de manière identique dans smart-me.
 
-- Pour que le décompte soit correct, les rapports de location ainsi que les vacances doivent être saisis dans toutes les unités pour chaque période de décompte !
+- Pour que le décompte soit correct, les baux ainsi que les logements vacants doivent être saisis dans toutes les unités pour chaque période de décompte !
 
 - Garaio REM ne prend en charge qu'une seule période de décompte par groupe de charges accessoires. L'électricité doit donc être décomptée sur la même période que toutes les autres charges accessoires.
 
 - L'état locatif de Garaio REM est automatiquement synchronisé avec smart-me.
 
-- Garaio REM ne peut pas importer de valeurs sans qu'une comptabilisation de valeurs ait été effectuée au préalable dans le centre de coûts principal.
+- Garaio REM ne peut pas importer de valeurs sans qu'une écriture de valeurs ait été passée au préalable dans le centre de coûts principal.
 
 
 ## Implémentation actuelle
 
 Actuellement pris en charge :
 
-- Export d'un centre de coûts collectif par centre de coûts principal sous forme de pour mille
-    \- Frais de chauffage totaux (chaleur et eau chaude sanitaire combinées sous forme de pour mille)
-    \- Frais de chauffage et de refroidissement totaux (chaleur, froid et eau chaude sanitaire combinés sous forme de pour mille)
-    \- Frais de chaleur, d'eau chaude sanitaire, de froid et d'eau froide séparés sous forme de pour mille
-    \- Frais d'électricité du réseau séparés ou combinés  (consommation d'électricité du réseau et puissance de pointe)
+- Exportation d'un centre de coûts collectif par centre de coûts principal, exprimée en pour mille
+    \- Total des frais de chauffage (chaleur et eau chaude sanitaire combinées, exprimées en pour mille)
+    \- Total des frais de chauffage et de refroidissement (chaleur, froid et eau chaude sanitaire combinés, exprimés en pour mille)
+    \- Frais de chaleur, d'eau chaude sanitaire, de froid et d'eau froide séparés, exprimés en pour mille
+    \- Frais d'électricité du réseau séparés ou combinés (consommation d'électricité du réseau et électricité de pointe)
     \- Frais d'électricité locale séparés ou combinés (solaire, batterie)
 
 
@@ -40,17 +40,17 @@ Non pris en charge :
     Pour que cela fonctionne, la somme des kWh ou le prix total doit avoir été comptabilisé au préalable dans Garaio REM.
 
 
-## Fichier d'import / d'export Garaio REM et définition des clés dans smart-me
+## Fichier d'importation / d'exportation Garaio REM et définition des clés dans smart-me
 
 ### Définir les clés dans smart-me à partir d'un fichier DTA-REM
 
-Dans le fichier exporté de GaraioREM, vous trouverez les ID pertinents pour relier le fichier d'export à smart-me.
+Dans le fichier exporté depuis GaraioREM, vous trouverez les ID pertinents pour relier le fichier d'exportation à smart-me.
 
-Les ID pertinents sont marqués en bleu et doivent être enregistrés comme suit.
+Les ID pertinents sont indiqués en bleu et doivent être enregistrés comme suit.
 
 Clé externe pour un centre de coûts principal :
 
-HauptkostenstellenID (100)
+ID du centre de coûts principal (100)
 
 Pour les centres de coûts séparés, la chaleur est liée à l'ID = 100
 
@@ -66,11 +66,11 @@ HausID +":"+ObjektID (01 et 30001 = 01:30001)
 
 
 
-Lors de l'export, le résultat sous forme de part en pour mille est inscrit à l'emplacement (marqué en brun) pour l'ensemble du centre de coûts collectif et pour la consommation individuelle par rapport de location.
+Lors de l'exportation, le résultat exprimé en part pour mille est inscrit à l'emplacement (marqué en brun) pour l'ensemble du centre de coûts collectif ainsi que pour la consommation individuelle de chaque bail.
 
-![Garaio REM – Figure 1](/img/schnittstellen-dta-vhka-files-garaio-rem/01.png)
+![Garaio REM – Illustration 1](/img/schnittstellen-dta-vhka-files-garaio-rem/01.png)
 
-![Garaio REM – Figure 2](/img/schnittstellen-dta-vhka-files-garaio-rem/02.png)
+![Garaio REM – Illustration 2](/img/schnittstellen-dta-vhka-files-garaio-rem/02.png)
 
 ### Exemple de fichier DTA-REM
 
@@ -135,18 +135,18 @@ Chaque type d'énergie dispose de son propre centre de coûts principal et d'un 
 - Eau froide
 
 
-La comptabilisation des coûts de l'électricité locale et de l'électricité du réseau du côté de Garaio REM peut être réglée à l'aide de la vue d'ensemble et de la saisie du prix dans le tarif smart-me.
+L'écriture des coûts côté Garaio REM pour l'électricité locale et l'électricité du réseau peut être réglée à l'aide de la vue d'ensemble et de la saisie du prix dans le tarif smart-me.
 Le prix total peut ensuite être comptabilisé dans Garaio pour les centres de coûts Électricité locale et Électricité du réseau.
 
-### Effectuer la comptabilisation des centres de coûts dans Garaio REM
+### Passer les écritures sur les centres de coûts dans Garaio REM
 
-Si des comptabilisations préalables sur les centres de coûts sont nécessaires dans Garaio REM, elles peuvent être reprises du résumé CSV (Zusammenfassung CSV) de chaque facture établie.
+Si des écritures préalables sur les centres de coûts sont nécessaires dans Garaio REM, elles peuvent être reprises du Résumé CSV (Zusammenfassung CSV) de chaque facture établie.
 
 C'est généralement le cas pour l'électricité solaire, l'électricité du réseau et les coûts d'électricité de la pompe à chaleur / du chauffage / du chauffe-eau.
 
 Pour la répartition de l'électricité solaire, cela sera souvent nécessaire, car l'origine de cette information se trouve dans le système smart-me.
 
-Pour les autres centres de coûts, des factures externes sont généralement disponibles et peuvent être comptabilisées.
+Pour les autres centres de coûts, il existe généralement des factures externes qui peuvent être comptabilisées.
 
 1.  Accédez au smart-me Billing via l'onglet Facturation (Rechnungsstellung)
 
@@ -154,31 +154,31 @@ Pour les autres centres de coûts, des factures externes sont généralement dis
 
 3.  Sélectionnez la période de facturation et établissez une facture
 
-4.  Une fois la facture de la période correspondante établie, ouvrez le résumé CSV (Zusammenfassung CSV)
+4.  Une fois la facture de la période correspondante établie, ouvrez le Résumé CSV (Zusammenfassung CSV)
 
 
-![Garaio REM – Figure 3](/img/schnittstellen-dta-vhka-files-garaio-rem/03.png)
+![Garaio REM – Illustration 3](/img/schnittstellen-dta-vhka-files-garaio-rem/03.png)
 
-![Garaio REM – Figure 4](/img/schnittstellen-dta-vhka-files-garaio-rem/04.png)
+![Garaio REM – Illustration 4](/img/schnittstellen-dta-vhka-files-garaio-rem/04.png)
 
 Vous y trouverez les kWh et m3 vendus ainsi que le prix par tarif, par unité de décompte et au total.
 
-Avec cette valeur totale du tarif concerné, une comptabilisation peut être effectuée dans Garaio, puis répartie de manière appropriée en pour mille avec le fichier DTA-REM.
+Avec cette valeur totale du tarif concerné, une écriture peut être passée dans Garaio, puis répartie de manière appropriée en pour mille au moyen du fichier DTA-REM.
 
 ## Influence de la configuration sur les chiffres exportés
 
 Option VEWA non activée :
 
-- Export en pour mille par centre de coûts
-    Dans ce cas, 1000 pour mille correspondent à la consommation totale en kWh. Les pour mille du contrat correspondent à la consommation rapportée à ce total.
+- Exportation en pour mille par centre de coûts
+    Dans ce cas, 1000 pour mille correspondent à la consommation totale en kWh. Les pour mille du contrat se rapportent à la consommation par rapport à ce total.
 
 
 Option VEWA activée :
 
 - Si un tarif unique est enregistré, 1000 pour mille correspondent au prix total (consommation totale \* prix du tarif), mais en même temps aussi à la consommation totale en kWh.
 
-- Si plusieurs tarifs sont enregistrés, p. ex. électricité du réseau et électricité solaire, 1000 pour mille correspondent au prix total, respectivement au total des kWh du tarif concerné.
-    Les tarifs peuvent ainsi être transmis séparément dans des centres de coûts, avec des comptabilisations individuelles des kWh ou du prix dans Garaio REM.
-    Si l'on souhaite exporter les tarifs de manière regroupée dans un centre de coûts collectif, la saisie d'un prix pour le tarif du côté de smart-me est indispensable pour la pondération.
+- Si plusieurs tarifs sont enregistrés, p. ex. électricité du réseau et électricité solaire, 1000 pour mille correspondent au prix total, ou au total des kWh du tarif concerné.
+    Les tarifs peuvent ainsi être transmis séparément dans des centres de coûts, avec des écritures individuelles des kWh ou du prix dans Garaio REM.
+    Si vous souhaitez exporter les tarifs de manière regroupée dans un centre de coûts collectif, la saisie d'un prix pour le tarif côté smart-me est indispensable pour la pondération.
 
-    C'est déjà le cas, par exemple, lorsqu'un tarif unique (réseau) et un tarif de pointe (réseau) doivent être transmis de manière combinée.
+    C'est par exemple déjà le cas lorsqu'un tarif unique (réseau) et un tarif de pointe (réseau) doivent être transmis de manière combinée.

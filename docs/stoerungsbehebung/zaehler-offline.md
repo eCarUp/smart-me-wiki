@@ -8,15 +8,15 @@ Auf dieser Seite werden die bekannten Schritte erläutert, um einen offline befi
 
 ## Gut zu wissen
 
-### Wie erkenne ich ob ein Zähler offline ist?
+### Wie erkenne ich, ob ein Zähler offline ist?
 
 <div className="row">
 <div className="col col--8">
 
-Ein smart-me Zähler ist offline, wenn sich dieser seit mehr als 15 Minuten nicht mehr in der Cloud gemeldet hat. Dies kann ermittelt werden indem auf dem Zähler die letzte Verbindung verifiziert wird.
+Ein smart-me Zähler ist offline, wenn sich dieser seit mehr als 15 Minuten nicht mehr in der Cloud gemeldet hat. Dies kann ermittelt werden, indem auf dem Zähler die letzte Verbindung verifiziert wird.
 
 </div>
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
 ![Letzte Verbindung](/img/stoerungsbehebung-zaehler-offline/01.png)
 
@@ -29,7 +29,7 @@ Zusätzlich bietet die Systemgesundheit eine Übersicht aller Geräte
 
 ### Firmware Version (Telstar 80A und Telstar CT)
 
-Bis und mit FW-Version 1.16 and 1.17 wurden auf dem Telstar CT und Telstar 80A diverse Anpassungen gemacht, um die Stabilität der WiFi Verbindung zu verbessern. Aus diesem Grund empfehlen wir immer kurz zu prüfen, ob die aktuellste Version auf dem Zähler ist und diese gegebenenfalls zu aktualisieren. [Firmware Update](/konfiguration/firmware-update) 
+Bis und mit FW-Version 1.16 und 1.17 wurden auf dem Telstar CT und Telstar 80A diverse Anpassungen gemacht, um die Stabilität der WiFi Verbindung zu verbessern. Aus diesem Grund empfehlen wir immer kurz zu prüfen, ob die aktuellste Version auf dem Zähler ist und diese gegebenenfalls zu aktualisieren. [Firmware Update](/konfiguration/firmware-update) 
 
 Sollte ein Zähler mit der neusten Firmware Version offline sein, obwohl Nachbarzähler online sind, bitten wir dich uns diese zu melden.
 
@@ -39,7 +39,7 @@ Siehe unten Zähler neu installieren
 
 ### Zähler neu installieren
 
-Mit einer Neuinstallation kann auf dem Zähler ein neues WiFi gespeichert werden. Die Installation muss vom Konto erfolgen bei dem der Zähler offline ist. Die smart-me Cloud erkennt bekannte Geräte und fügt neue Daten hinzu ohne die bestehenden Daten zu verändern.
+Mit einer Neuinstallation kann auf dem Zähler ein neues WiFi gespeichert werden. Die Installation muss vom Konto erfolgen, bei dem der Zähler offline ist. Die smart-me Cloud erkennt bekannte Geräte und fügt neue Daten hinzu, ohne die bestehenden Daten zu verändern.
 
 Die Neuinstallation erfolgt mit derselben Prozedur wie in der [Inbetriebnahme](/konfiguration/inbetriebnahme) beschrieben. In der App oben rechts das + wählen und das Gerät neu installieren. Dabei wird automatisch die neue SSID und Passwort auf dem Gerät gespeichert. Es ist wichtig darauf zu achten, dass du mit dem korrekten Konto eingeloggt bist.
 
@@ -53,7 +53,7 @@ Mögliche Probleme könnten sein:
 
 - Es wurde ein neuer Internetanbieter aktiviert oder eine neue SSID (Name des WLAN-Netzwerks) wurde definiert. In diesem Fall musst du das neue Netzwerk auf jedem smart-me Gerät speichern, damit sie sich wieder verbinden können.
 
-- Bei mobilen Internetverbindungen kann es sein, dass das Abonnement nicht bezahlt wurde. Stelle sicher, dass die Zahlungen für das mobile Internet in Ordnung ist.
+- Bei mobilen Internetverbindungen kann es sein, dass das Abonnement nicht bezahlt wurde. Stelle sicher, dass die Zahlungen für das mobile Internet in Ordnung sind.
 
 
 Wenn nur ein einzelner Zähler oder eine kleine Gruppe von Zählern die Verbindung verloren hat, liegt das Problem in der Regel eher beim betroffenen smart-me Zähler.
@@ -77,7 +77,7 @@ Bitte beachte die folgenden Voraussetzungen:
 
 1.  ### Zähler neu starten
 
-Dies ist nur zur Info wie es gemacht wird, es kann weiter unten verlangt werden den Zähler neu zu starten, um ihn wieder online zu bringen. 
+Dies ist nur zur Info, wie es gemacht wird, es kann weiter unten verlangt werden den Zähler neu zu starten, um ihn wieder online zu bringen. 
 
 Neustart erzwingen: 
 
@@ -89,9 +89,9 @@ Wie erkenne ich den Neustart:
 
 Verhalten wenn der Zähler wieder online kommt:
 
-- Oben Rechts am Bildschirm wechselt das Empfangssignal direkt nach dem Neustart zwischen X und Empfang. 
+- Oben rechts am Bildschirm wechselt das Empfangssignal direkt nach dem Neustart zwischen X und Empfang. 
 
-- Der Zähler ist online, wenn nach ca. 1 Minute das Empfangssignal oben rechts auf dem Display dauerhaft Ein und schwarz ist.
+- Der Zähler ist online, wenn nach ca. 1 Minute das Empfangssignal oben rechts auf dem Display dauerhaft ein und schwarz ist.
 
 - Kurz prüfen ob der Zähler in der Cloud online ist.
 
@@ -99,7 +99,7 @@ Verhalten wenn der Zähler wieder online kommt:
 
 Verhalten wenn der Zähler nicht online kommt:
 
-- Oben rechts am Bildschirm wechselt das Empfangssignal nach dem Neustart zwischen X und Empfang für mehr als 2 Minuten ohne online zu kommen.
+- Oben rechts am Bildschirm wechselt das Empfangssignal nach dem Neustart zwischen X und Empfang für mehr als 2 Minuten, ohne online zu kommen.
 
 - Wenn dies nicht hilft, den Support anrufen.
 
@@ -113,7 +113,7 @@ Verhalten wenn der Zähler nicht online kommt:
 Folgende Punkte können bei der Ankunft überprüft werden. Wenn bereits etwas am Zähler geändert wurde, ist es wichtig, dass am Zähler für mindestens 5 Minuten keine weiteren Änderungen vorgenommen werden. Es ist auch möglich, vom Kunden vor Ort ein 30-Sekunden-Video des Zählers zu verlangen, um die Situation besser beurteilen zu können. 
 
 </div>
-<div className="col col--5 text--center">
+<div className="col col--5 bild--mitte">
 
 ![Zähler offline – Abbildung 4](/img/stoerungsbehebung-zaehler-offline/04.gif)
 
@@ -126,14 +126,14 @@ Folgende Punkte können bei der Ankunft überprüft werden. Wenn bereits etwas a
 
 - Lösung 1: Drücke T1 und T2 gleichzeitig: Der Zähler sollte kurz dunkel werden. Warte 1 Minute und prüfe, ob der Zähler wieder online ist.
 
-- Lösung 2: Installiere den Zähler neu. Bitte wählen das Zielkonto aus und lösch auf keinen Fall den Zähler im Konto.
+- Lösung 2: Installiere den Zähler neu. Bitte wähle das Zielkonto aus und lösch auf keinen Fall den Zähler im Konto.
 
 - Lösung 3: Support anrufen 
 
 
 ### Anzeige ist dunkel:
 
-- Lösung 1: Prüfen, dass mindesten Phase 1 angeschlossen ist
+- Lösung 1: Prüfen, dass mindestens Phase 1 angeschlossen ist
 
 - Lösung 2: Prüfen, dass der Neutralleiter korrekt angeschlossen ist. 
 
@@ -144,7 +144,7 @@ Folgende Punkte können bei der Ankunft überprüft werden. Wenn bereits etwas a
 
 Anzeige immer wieder dunkel wird:
 
-- Beschreibung des Problem: Der Zähler zeigt etwas an. Nach einem Moment zeigt es für einige Sekunden nichts mehr an. Dann kommt er wieder, etc...
+- Beschreibung des Problems: Der Zähler zeigt etwas an. Nach einem Moment zeigt es für einige Sekunden nichts mehr an. Dann kommt er wieder, etc...
 
 - Lösung 1: Prüfen, ob der Neutralleiter korrekt angeschlossen und verdrahtet ist. 
 
@@ -153,7 +153,7 @@ Anzeige immer wieder dunkel wird:
 
 Zähler erzeugt ein lokales WLAN für mehr als 5 Minuten:
 
-- Wie erkenne ich diesen Zustand: Empfangssignal oben Rechts auf dem Display wechselt zwischen Empfang hell und dunkel ab.
+- Wie erkenne ich diesen Zustand: Empfangssignal oben rechts auf dem Display wechselt zwischen Empfang hell und dunkel ab.
 
 - In diesem Fall deutet dies auf eine verklemmte Taste T1 hin.
 
@@ -164,18 +164,18 @@ Zähler erzeugt ein lokales WLAN für mehr als 5 Minuten:
 
 Zähler zeigt oben rechts dauerhaft ein X an:
 
-- Lösung 1: Prüfen ob die Anzeige immer wieder dunkel wird. Wenn dies der Fall ist, bitte im oberen Abschnitt "Anzeige immer wieder dunkel" die Lösung nachlesen.
+- Lösung 1: Prüfen, ob die Anzeige immer wieder dunkel wird. Wenn dies der Fall ist, bitte im oberen Abschnitt "Anzeige immer wieder dunkel" die Lösung nachlesen.
 
 - Lösung 2: Zähler neu starten (siehe Beschreibung oben)
 
 - Lösung 3: Wenn es ohne grossen Aufwand möglich ist, Sicherung entfernen und wieder einfügen. 
 
-- Lösung 4: Wenn nach Lösung 1 und 2 immer noch dauerhaft ein X anzeigt wird, ist der Zähler defekt. In diesem Fall kann ein [RMA-Antragsformular](/rma-antragsformular-schweiz) ausgefüllt werden (Fehlerbeschreibung: X wird immer angezeigt Code:xx).
+- Lösung 4: Wenn nach Lösung 1 und 2 immer noch dauerhaft ein X angezeigt wird, ist der Zähler defekt. In diesem Fall kann ein [RMA-Antragsformular](/rma-antragsformular-schweiz) ausgefüllt werden (Fehlerbeschreibung: X wird immer angezeigt Code:xx).
 
 
 Zähler kann sich nicht mit dem WLAN verbinden:
 
-- Empfangssignal oben Rechts auf dem Display wechselt zwischen Empfang und X ab.
+- Empfangssignal oben rechts auf dem Display wechselt zwischen Empfang und X ab.
 
 
 - Lösung 1: Zähler neu starten (siehe Beschreibung oben)
@@ -233,7 +233,7 @@ Verhalten wenn der Zähler nicht online kommt:
 Folgende Punkte können bei der Ankunft überprüft werden. Wenn bereits etwas am Zähler geändert wurde, ist es wichtig, dass am Zähler für mindestens 5 Minuten keine weiteren Änderungen vorgenommen werden. Es ist auch möglich, vom Kunden vor Ort ein 30-Sekunden-Video des Zählers zu verlangen, um die Situation besser beurteilen zu können. 
 
 </div>
-<div className="col col--6 text--center">
+<div className="col col--6 bild--mitte">
 
 ![Zähler offline – Abbildung 5](/img/stoerungsbehebung-zaehler-offline/05.gif)
 
@@ -242,7 +242,7 @@ Folgende Punkte können bei der Ankunft überprüft werden. Wenn bereits etwas a
 
 Zähler ist dunkel:
 
-- Lösung 1: Prüfen, dass mindesten Phase 1 und Neutralleiter korrekt angeschlossen sind. 
+- Lösung 1: Prüfen, dass mindestens Phase 1 und Neutralleiter korrekt angeschlossen sind. 
 
 - Lösung 2: Wenn es ohne grossen Aufwand möglich ist, Sicherung entfernen und wieder einfügen. 
 
@@ -255,14 +255,14 @@ Zähler ist dunkel:
 
 - Lösung 2: Wenn es ohne grossen Aufwand möglich ist, Sicherung entfernen und wieder einfügen. 
 
-- Lösung 3: Wenn nach Lösung 1 und 2 immer noch 888888 anzeigt wird, ist der Zähler defekt.
+- Lösung 3: Wenn nach Lösung 1 und 2 immer noch 888888 angezeigt wird, ist der Zähler defekt.
 
 
 Zähler erzeugt ein lokales WLAN für mehr als 5 Minuten:
 
 - Wie erkenne ich diesen Zustand: WiFi Signal oben links auf dem Display wird mit und ohne Ausrufezeichen abwechselnd angezeigt.
 
-- In diesem Fall deutet dies auf eine Verklemmt Taste T1.
+- In diesem Fall deutet dies auf eine verklemmte Taste T1.
 
 - Lösung 1: Versuchen die Taste T1 zu lösen
 
@@ -276,7 +276,7 @@ Zähler kann sich  nicht mit dem WLAN verbinden:
 
 - Lösung 1: Zähler neu starten (siehe Beschreibung oben)
 
-- Lösung 2: Mit dem Smartphone ein Hotspot mit der gleichen SSID und Passwort wie das bestehende WiFi erstellen. Dann nochmals den Zähler neu starten und prüfen ob er sich dann über den Hotspot vom Smartphone verbindet. Wenn der Zähler sich über den Hotspot verbindet, deutet dies auf ein Problem mit dem WLAN-Router oder Accesspoint hin. Es ist darauf zu achten, dass die meisten Smartphones maximal fünf Geräten erlaubt eine Verbindung über den Hotspot zu erstellen.
+- Lösung 2: Mit dem Smartphone einen Hotspot mit der gleichen SSID und Passwort wie das bestehende WiFi erstellen. Dann nochmals den Zähler neu starten und prüfen, ob er sich dann über den Hotspot vom Smartphone verbindet. Wenn der Zähler sich über den Hotspot verbindet, deutet dies auf ein Problem mit dem WLAN-Router oder Accesspoint hin. Es ist darauf zu achten, dass die meisten Smartphones maximal fünf Geräten erlaubt eine Verbindung über den Hotspot zu erstellen.
 
 - Lösung 3: Wenn es ohne grossen Aufwand möglich ist, Sicherung entfernen und wieder einfügen. 
 
@@ -313,7 +313,7 @@ Diese Information kann von allen Accounts über die [API](https://sites.google.c
     - Pico: Mobile (0 = unknown, 1 bis -74 = excellent, -75 bis -84 = good,  -85 bis -94 = low) (-99 Schlecht, -1 Gut)
 
 </div>
-<div className="col col--7 text--center">
+<div className="col col--7 bild--mitte">
 
 ![Zähler offline – Abbildung 6](/img/stoerungsbehebung-zaehler-offline/06.png)
 
@@ -331,7 +331,7 @@ Diese Information kann von allen Accounts über die [API](https://sites.google.c
 
 - Partner
 
-- Geräteverwaltung (Kann bei vielen Geräte etwas dauern)
+- Geräteverwaltung (Kann bei vielen Geräten etwas dauern)
 
 - Eine neue Spalte mit der Verbindungsart wird angezeigt
 
@@ -346,7 +346,7 @@ Diese Information kann von allen Accounts über die [API](https://sites.google.c
 Diese Information kann von allen Accounts über die [API](https://sites.google.com/u/0/d/1aCvQ4VBGjc0Zn6Acdv_my2AEp54cDrdX/revisionspreview?revision=415029&pageId=1L6QLXZEHWjDfqgdtjRQyM9vH29YdMCAn) mit dem Befehl "GET /api/AdditionalDeviceInformation/&#123;id&#125;" abgerufen werden.
 
 </div>
-<div className="col col--5 text--center">
+<div className="col col--5 bild--mitte">
 
 ![Zähler offline – Abbildung 7](/img/stoerungsbehebung-zaehler-offline/07.png)
 

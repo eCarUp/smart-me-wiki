@@ -86,7 +86,7 @@ Nachteil:
 
 Ladepunkte im Mietverhältnis:
 
-Die Schweiz verlangt von Ladestationshardware, welche in einem Mietverhältnis verwendet werden, grundsätzlich dasselbe wie bei üblicher Zählerhardware:
+Die Schweiz verlangt von Ladestationshardware, welche in einem Mietverhältnis verwendet wird, grundsätzlich dasselbe wie bei üblicher Zählerhardware:
 
 - MID-Zertifizierung, um die erfasste Energie im Einheitstarif abzurechnen.
 
@@ -155,7 +155,7 @@ Die Zertifizierung ist, unabhängig vom Hersteller,  10 Jahre gültig. 
 
 Eichen im Losverfahren (statistisches Prüfverfahren)
 
-Die SAK und die CKW eichen smart-me Zähler im Losverfahren kostenpflichtig nach. Bitte wende dich bei Interesse direkt an die jeweiligen Leiter der Eichstellen. In der Praxis werden die meisten Zähler in ZEV nicht nachgeeicht sondern, über die Jahre abgeschrieben und am Ende von deren Lebenszeit durch neue Zähler ersetzt.
+Die SAK und die CKW eichen smart-me Zähler im Losverfahren kostenpflichtig nach. Bitte wende dich bei Interesse direkt an die jeweiligen Leiter der Eichstellen. In der Praxis werden die meisten Zähler in ZEV nicht nachgeeicht, sondern über die Jahre abgeschrieben und am Ende von deren Lebenszeit durch neue Zähler ersetzt.
 
 Das Prüfen im Losverfahren erfordert eine erste Stichprobenüberprüfung nach 5 Jahren und dann periodisch alle 5 Jahre wieder.
 
@@ -167,11 +167,11 @@ Läuft die Eichung der Geräte aus und ein Loseichungsprüfverfahren ist nicht m
 
 ## MINERGIE Zertifizierung mit smart-me
 
-Zur MINERGIE-Zertifizierung bedarf es eines passenden Messystems für das verlangte Monitoring. 
+Zur MINERGIE-Zertifizierung bedarf es eines passenden Messsystems für das verlangte Monitoring. 
 
 smart-me ist ein zertifiziertes Modul nach Minergie und kann direkt für die Erfüllung des Monitorings eingesetzt werden.
 
-Das smart-me System besitzt auch die automatisierte Schnittstelle zur Übertragung von Daten in die Minergiedatenbank für die erweiterung Minergie Monitoring +.
+Das smart-me System besitzt auch die automatisierte Schnittstelle zur Übertragung von Daten in die Minergiedatenbank für die Erweiterung Minergie Monitoring +.
 
 [Mehr Details für Partner](/planung/minergie)
 

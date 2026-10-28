@@ -15,7 +15,7 @@ Ordnerstruktur für das smart-me Billing Strom
 
 Ordnerstruktur: Zweistufigkeit ist Pflicht.
 
-An dieser Stelle wird eine Abrechnung eingerichtet und beinhaltet alle Wohnungen, Räume, Parkplätze als untergeordneter Ordner und dessen relevante Stromzähler
+An dieser Stelle wird eine Abrechnung eingerichtet und beinhaltet alle Wohnungen, Räume, Parkplätze als untergeordneter Ordner und dessen relevante Stromzähler.
 
 - 1 Ordner für die Liegenschaft (z.B. Altgasse ZEV)
 
@@ -51,7 +51,7 @@ Beispiele:
 
 - Allgemeinzähler
 
-- Wärmezähler eines Stockwers, welches 4 Abrechnungseinheiten bedient
+- Wärmezähler eines Stockwerks, welches 4 Abrechnungseinheiten bedient
 
 
 Ladestationen mit smart-me Pico / Zaptec / Easee
@@ -60,7 +60,7 @@ Weise Ladestationen nicht direkt Wohnungen zu, erstelle lieber eine separate Abr
 
 Ladestationen anderer Hersteller
 
-Ladestationen anderer Hersteller werden im smart-me nicht direkt verwaltet oder abgerechnet. In diesem Fall erstelle einen Knoten für den E-Mobilitätsabgang als Abrechnungseinheit und weise den Abgangszähler dem Knoten zu. So erhälst du den Gesamtaufwand für alle Ladestationen.
+Ladestationen anderer Hersteller werden im smart-me nicht direkt verwaltet oder abgerechnet. In diesem Fall erstelle einen Knoten für den E-Mobilitätsabgang als Abrechnungseinheit und weise den Abgangszähler dem Knoten zu. So erhältst du den Gesamtaufwand für alle Ladestationen.
 
 
 
@@ -68,7 +68,7 @@ Ladestationen anderer Hersteller werden im smart-me nicht direkt verwaltet oder 
 
 ![Liegenschaft nur mit Strom – Abbildung 2](/img/konfiguration-ordnerkonfiguration-nur-strom/02.png)
 
-### Erstelle abschliessend die Alarme für einen Verbindungsaufall.
+### Erstelle abschliessend die Alarme für einen Verbindungsausfall.
 
 Auf diese Weise merkst du frühzeitig, wenn ein Zähler ausfällt und minimierst die Messdatenlücke, die daraus folgend entsteht. 
 

@@ -5,17 +5,17 @@ description: 'Qui viene descritto come eliminare o disattivare un contatore.'
 sidebar_label: 'Eliminare / disattivare un contatore'
 displayed_sidebar: wikiSidebar
 ---
-<Menueweg>Pannello di controllo → Dispositivo → Impostazioni (ruota dentata)</Menueweg>
+<Menueweg>Pannello di controllo → Dispositivo → Impostazioni (ingranaggio)</Menueweg>
 
 Qui viene descritto come eliminare o disattivare un contatore.
 
 ## In generale
 
-I dati di un contatore eliminato vengono cancellati definitivamente e non possono essere ripristinati.
+I dati di un contatore eliminato vengono cancellati in modo irreversibile e non possono essere ripristinati.
 
-In linea di principio, smart-me sconsiglia di eliminare i contatori. In generale, consigliamo di disattivarli. I contatori disattivati non generano costi di licenza e i dati storici restano consultabili in qualsiasi momento.
+In linea di principio, smart-me sconsiglia l'eliminazione dei contatori. In generale raccomandiamo di disattivare i contatori. I contatori disattivati non generano costi di licenza ed è possibile accedere in qualsiasi momento ai dati storici.
 
-Per i contatori M-Bus l'eliminazione non è efficace, perché alla lettura successiva, se ancora online, i contatori ricompaiono nel portale. In questo caso la disattivazione è l'unica possibilità.
+Per i contatori M-Bus l'eliminazione non è efficace, poiché i contatori ricompaiono nel portale alla lettura successiva, se sono ancora online; in questo caso la disattivazione è l'unica possibilità.
 
 ## Disattivare un contatore
 
@@ -23,7 +23,7 @@ Per i contatori M-Bus l'eliminazione non è efficace, perché alla lettura succe
 
 - Selezionare il contatore
 
-- Selezionare la ruota dentata in alto a destra
+- Selezionare l'ingranaggio in alto a destra
 
 - Impostazioni avanzate (Erweiterte Einstellungen)
 
@@ -38,13 +38,13 @@ Per i contatori M-Bus l'eliminazione non è efficace, perché alla lettura succe
 
 ![Eliminare / disattivare un contatore – Figura 1](/img/konfiguration-inbetriebnahme-zaehler-loeschen/01.png)
 
-## Disattivare un Pico
+## Disattivare una Pico
 
 - Accedere al portale
 
-- Selezionare Configurazione di contatori e cartelle (Zähler & Ordner Konfiguration)
+- Selezionare Configurazione di contatori e cartelle (Zähler und Ordner Konfiguration)
 
-- Selezionare il Pico nell'albero
+- Selezionare la Pico nell'albero
 
 - Modifica nodo (Knoten editieren)
 
@@ -54,7 +54,7 @@ Per i contatori M-Bus l'eliminazione non è efficace, perché alla lettura succe
 
 - Salva (Speichern)
 
-- Il Pico ora è grigio
+- La Pico ora è grigia
 
 
 ![Eliminare / disattivare un contatore – Figura 2](/img/konfiguration-inbetriebnahme-zaehler-loeschen/02.png)
@@ -67,7 +67,7 @@ Per i contatori M-Bus l'eliminazione non è efficace, perché alla lettura succe
 
 - Selezionare il contatore
 
-- Selezionare la ruota dentata in alto a destra
+- Selezionare l'ingranaggio in alto a destra
 
 - Verificare che il numero di serie sia corretto. Il campo non deve essere vuoto.
 

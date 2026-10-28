@@ -20,7 +20,7 @@ Die Modelle zeigen dir den Aufbau und die verwendeten Messkonzepte für dein Zie
 <NurFuer land="ch">
 
 ### Hilfsmittel zur Planung
-Nutze unsere Tools um dein Projekt zu festigen und die Stücklisten dazu zu erstellen.
+Nutze unsere Tools, um dein Projekt zu festigen und die Stücklisten dazu zu erstellen.
 
 <Unterseiten nur="planung/investitionsrechner, planung/projektkonfigurator" />
 

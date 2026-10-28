@@ -20,7 +20,7 @@ Features:
 
 - Zum Verbinden der Geräte ist lediglich das Einloggen in die Cloud-Konten der Geräte erforderlich.
 
-- Automatisches schalten von Geräten (z.B. EV-Ladegerät, Wärmepumpe) basierend auf PV-Überschuss und/oder dynamischen Tarifen mittels unserer Algorithmen.
+- Automatisches Schalten von Geräten (z.B. EV-Ladegerät, Wärmepumpe) basierend auf PV-Überschuss und/oder dynamischen Tarifen mittels unserer Algorithmen.
 
 - Anzeigen der Top-Verbraucher und manuelles Ein-/Ausschalten.
 

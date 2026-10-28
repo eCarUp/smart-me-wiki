@@ -12,7 +12,7 @@ Symcon ist eine Software, wie auch ein optionales Hardwarepaket (Symbox), das St
 Die smart-me Daten können leicht über unsere API abgefragt werden.
 
 </div>
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
 ![Symcon – Abbildung 1](/img/drittsysteme-symcon/01.png)
 
@@ -79,7 +79,7 @@ URL: API Call: z.B. "https://smart-me.com:443/api/devices/&#123;id&#125;
 
 6\. Diagramm konfigurieren
 
-- Es können meherere Variablen im gleichen Diagramm angezeigt werden (Bsp.: Aktive Leistung Total und aktive Leistung der einzelnen Phasen).
+- Es können mehrere Variablen im gleichen Diagramm angezeigt werden (Bsp.: Aktive Leistung Total und aktive Leistung der einzelnen Phasen).
 
 
 ![Symcon – Abbildung 8](/img/drittsysteme-symcon/08.png)

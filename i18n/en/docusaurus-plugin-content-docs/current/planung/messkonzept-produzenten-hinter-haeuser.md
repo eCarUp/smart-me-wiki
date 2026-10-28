@@ -1,13 +1,13 @@
 ---
 title: 'Measurement concept producers behind houses'
 slug: '/planung/messkonzept-produzenten-hinter-haeuser'
-description: 'Here we explain which measures need to be taken to implement the metering concept for multiple producers behind different houses.'
+description: 'Here we explain which measures must be taken to map the metering concept for multiple producers behind different houses.'
 sidebar_label: 'Measurement concept producers behind houses'
 symbol: 'solar'
 ---
-Here we explain which measures need to be taken to implement the metering concept for multiple producers behind different houses.
+Here we explain which measures must be taken to map the metering concept for multiple producers behind different houses.
 
-### Requirement
+### Prerequisite
 
 You need a smart-me Professional subscription
 
@@ -15,28 +15,28 @@ You need a smart-me Professional subscription
 
 smart-me does not recommend this metering concept for the following reasons:
 
-- There is currently no fully automated solution in the smart-me system to implement this metering concept.
+- There is currently no fully automated solution in the smart-me system to map this metering concept.
 
-    - Note: smart-me third-party systems, such as [egonline](/drittsysteme/egonline), offer solutions that are compatible with smart-me meters. Please contact the respective providers directly for information.
+    - Note: smart-me third-party systems, such as [egonline](/drittsysteme/egonline), offer solutions that are compatible with smart-me meters. Please contact the respective providers directly for more information.
 
-- You should expect manual work of approx. 30 minutes per billing unit and billing period.
+- You should expect manual effort of approx. 30 minutes per billing unit and billing period.
 
 - Due to the complexity of the installation, this can lead to many queries. smart-me reserves the right to charge for the effort involved in support requests.
 
-- The number of kWh sold between parties within the ZEV (association for own consumption) is determined as an average over the billing period based on the surplus of the individual parties. The same applies to the feed-in to the energy supplier.
+- The number of kWh sold between parties within the ZEV (association for own consumption) is determined as an average over the billing period based on the surplus of the individual parties. The same applies to the return transfer to the energy supplier.
 
 - The self-consumption of each house that also has a photovoltaic system cannot be determined.
 
-- The charts provided by smart-me are not compatible with this metering concept.
+- The graphics provided by smart-me are not compatible with this metering concept.
 
 
-smart-me reserves the right to list further restrictions. Currently, only a few buildings are equipped with this metering concept. For this reason, smart-me is not focusing on the development of these properties. They may become easier in the future, but we are not prioritizing this metering concept in our development.
+smart-me reserves the right to list further restrictions. Currently, only a few buildings are equipped with this metering concept. For this reason, smart-me is not focusing on the development of these properties. They may become simpler in the future, but we are not prioritising this metering concept in our development.
 
 ## Metering concept
 
-The balance, the houses and, if present, the common areas are metered.
+The balance, the houses and, if present, the common areas are measured.
 
-Metering the PV is optional and offers no advantage for billing.
+Measuring the PV is optional and offers no advantage for billing.
 
 ![Measurement concept producers behind houses – Figure 1](/img/planung-messkonzept-produzenten-hinter-haeuser/01.png)
 
@@ -50,7 +50,7 @@ Virtual meters
 
 Sum of all meters that are relevant for billing.
 
-Name: Total consumption + production
+Name: Total consumption + production (Gesamtverbrauch + Produktion)
 
 
 
@@ -58,24 +58,24 @@ Name: Total consumption + production
 
 Virtual tariffs
 
-[Billing](/konfiguration/billing)\-configuration in accordance with the standard metering concept 
+[Billing](/konfiguration/billing)\-configuration according to the standard metering concept 
 
 Deviation for the virtual tariff:
 
 - Tariff type (Tarif Typ): Battery tariff (Batterie Tarif)
 
-- Solar or battery meter (Solar oder Batterie Zähler): Total consumption + production
+- Solar or battery meter (Solar oder Batterie Zähler): Total consumption + production (Gesamtverbrauch + Produktion)
 
-- Total consumption (Gesamtverbrauch): Total consumption + production
+- Total consumption (Gesamtverbrauch): Total consumption + production (Gesamtverbrauch + Produktion)
 
-- Balance meter (Bilanzzähler): Main meter
+- Balance meter (Bilanzzähler): Main meter (Hauptzähler)
 
 
 ![Measurement concept producers behind houses – Figure 4](/img/planung-messkonzept-produzenten-hinter-haeuser/04.png)
 
 ## Billing
 
-The information below assumes that you are familiar with billing for a smart-me [Billing](/konfiguration/billing) with the standard metering concept.
+The information below assumes that you are familiar with billing in a smart-me [Billing](/konfiguration/billing) with the standard metering concept.
 
 Fill in the Excel file
 
@@ -103,9 +103,9 @@ Calculation logic
 
 ![Measurement concept producers behind houses – Figure 5](/img/planung-messkonzept-produzenten-hinter-haeuser/05.png)
 
-Add an "Other" item (Sonstiges)
+Add an "Other" item (Sonstiges Position)
 
-Values from the Excel credit can be entered as a negative amount for each billing unit.
+Values according to the Excel credit can be entered as a negative amount for each billing unit.
 
 ![Measurement concept producers behind houses – Figure 6](/img/planung-messkonzept-produzenten-hinter-haeuser/06.png)
 

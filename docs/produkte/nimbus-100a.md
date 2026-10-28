@@ -85,7 +85,7 @@ Damit bietet der Nimbus eine hardwarebasierte Sicherheitsgarantie, die reinen So
 ## Display
 
 <div className="row">
-<div className="col col--6 text--center">
+<div className="col col--6 bild--mitte">
 
 ![smart-me Nimbus 100A – Abbildung 2](/img/produkte-nimbus-100a/02.jpg)
 
@@ -114,7 +114,7 @@ Damit bietet der Nimbus eine hardwarebasierte Sicherheitsgarantie, die reinen So
 ### Rollendes Display
 
 <div className="row">
-<div className="col col--6 text--center">
+<div className="col col--6 bild--mitte">
 
 ![smart-me Nimbus 100A – Abbildung 3](/img/produkte-nimbus-100a/03.jpg)
 
@@ -139,7 +139,7 @@ Damit bietet der Nimbus eine hardwarebasierte Sicherheitsgarantie, die reinen So
 
 C.60.9 Fehlermeldungen (Seite wird nur angezeigt wenn Fehler vorliegen)
 
-- PhL Verdrahtungsfehler (Flasche Phasenreihenfolge oder nicht verdrahtete Phasen)
+- PhL Verdrahtungsfehler (Falsche Phasenreihenfolge oder nicht verdrahtete Phasen)
 
     123: Falsche Phasenreihenfolge. 1, 2 und 3 blinken.
 
@@ -190,13 +190,13 @@ C.60.9 Fehlermeldungen (Seite wird nur angezeigt wenn Fehler vorliegen)
 
 **Zählerstandsgang (15min Werte)**
 
-Öfnnen und verlassen des Speichers:
+Öffnen und Verlassen des Speichers:
 
 - Um in den Speicher zu gelangen, drücke die Anzeigetaste T1 3-4 Sekunden lang.
 
 - Um den Speicher zu verlassen, drücke wiederum die Anzeigetaste T1 3-4 Sekunden lang oder warte 60 Sekunden lang.
 
-- Um von einem Wert zum nächsten zu gelangen drücke die Anzeigetaste jeweils kurz.
+- Um von einem Wert zum nächsten zu gelangen, drücke die Anzeigetaste jeweils kurz.
 
 **Zählerstandsgang:**
 
@@ -270,7 +270,7 @@ C.60.9 :  OBIS Code der momentan angezeigten Meldung 
 
 - Verdrahtungsfehler entdeckt (Set, End Connection)
 
-- Neuer MID Firmware Version (New MID part)
+- Neue MID Firmware Version (New MID part)
 
 - Zeit neu gesetzt (Time: OLD --> NEW)
 
@@ -311,19 +311,19 @@ Um den Zähler mit einem smart-me Account zu verbinden, wird während der Inbetr
 
 Taste 2 (T2)
 
-Mit Taste 2 können Logbuch und Zählerstandsgang geöffnet werden. Um den Zählerstandsgang anzuzeigen muss die Taste 2 für 4 Sekunden gedrückt werden. Danach kann das Passwort eingegeben werden. Die aktuell angewählte wird durch blinken angezeigt. Um diese Ziffer zu ändern kann die Taste 2 kurz gedrückt werden. Nach 10 Sekunden wechselt die Anzeige um eine Stelle nach hinten.
+Mit Taste 2 können Logbuch und Zählerstandsgang geöffnet werden. Um den Zählerstandsgang anzuzeigen, muss die Taste 2 für 4 Sekunden gedrückt werden. Danach kann das Passwort eingegeben werden. Die aktuell angewählte wird durch Blinken angezeigt. Um diese Ziffer zu ändern, kann die Taste 2 kurz gedrückt werden. Nach 10 Sekunden wechselt die Anzeige um eine Stelle nach hinten.
 
 Zugangs-Passwörter haben 4 numerische Stellen.
 
-Ist das Passwort korrekt, wird der letzte Eintrag des Zählerstandsgang angezeigt. Um den nächste Eintrag anzuzeigen muss die Taste 2 kurz gedrückt werden. Wird die Taste 2 für 60 Sekunden nicht gedrückt, wechselt die Anzeige zurück in zur Anzeige des Zählerstandes.
+Ist das Passwort korrekt, wird der letzte Eintrag des Zählerstandsgangs angezeigt. Um den nächsten Eintrag anzuzeigen, muss die Taste 2 kurz gedrückt werden. Wird die Taste 2 für 60 Sekunden nicht gedrückt, wechselt die Anzeige zurück zur Anzeige des Zählerstandes.
 
 - **P1 Interface**
 
 - **RJ-12 Steckdose für P1-Module**
 
-- **EX1** - Schnittstelle für externe Schützensteuerung (noch nicht Unterstützt)
+- **EX1** - Schnittstelle für externe Schützensteuerung (noch nicht unterstützt)
 
-- **EX2** - Steckplatz für alternative Kommunikationsmodule (noch nicht Unterstützt)
+- **EX2** - Steckplatz für alternative Kommunikationsmodule (noch nicht unterstützt)
 
 - **L1** - Status LED - leuchtet statisch wenn Verbindung zur smart-me Cloud
 
@@ -335,7 +335,7 @@ Die Impuls-LED kann Wirk- und Blindenergie anzeigen. Für die Umschaltung von Wi
 
 ## P1 Interface (Kundenschnittstelle)
 
-Das P1 Interface des Nimbus ermöglicht es Drittanbietern oder Endkunden die gemessenen Daten in eigenen Steuer- oder Analysessystemen weiterzuverwenden.
+Das P1 Interface des Nimbus ermöglicht es Drittanbietern oder Endkunden, die gemessenen Daten in eigenen Steuer- oder Analysesystemen weiterzuverwenden.
 
 Dafür wird ein P1-Schnittstellenauslesemodul mit RJ-12 Stecker benötigt.
 Dieses muss den “P1 Companion Standard” von Netbeheer Nederland. Version 5.0.2 (26.Februar.2016) unterstützen.
@@ -387,7 +387,7 @@ Hersteller: smart-me AG, Riedstrasse 18, 6343 Rotkreuz
 ## FAQ
 
 <details id="kann-ich-den-zählerstand-auf-null-zurücksetzten">
-<summary>Kann ich den Zählerstand auf Null zurücksetzten?</summary>
+<summary>Kann ich den Zählerstand auf Null zurücksetzen?</summary>
 
 Nein, da unsere Zähler für Abrechnungen verwendet werden, ist es nicht möglich, diese zurückzusetzen.
 

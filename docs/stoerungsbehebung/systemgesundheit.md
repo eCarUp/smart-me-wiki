@@ -21,12 +21,12 @@ Die Geräte sind nach Typen sortiert.
 - M-Bus Geräte:
     Alle vom M-Bus Gateway erzeugten Zähler.
 
-- Andere Geräte: API oder Importierte Geräte
+- Andere Geräte: API oder importierte Geräte
 
 
 Ordnung:
 
-Die Spalten können sortiert werden, sind aber Default so arrangiert, damit alle Offline Geräte zu Oberst erscheinen.
+Die Spalten können sortiert werden, sind aber Default so arrangiert, damit alle Offline Geräte zuoberst erscheinen.
 
 Device ID:
 
@@ -37,7 +37,7 @@ Ist die ID mit welcher dieser Zähler direkt via API angesprochen werden kann.
 ![Systemgesundheit – Abbildung 1](/img/stoerungsbehebung-systemgesundheit/01.png)
 
 <div className="row">
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
 ![Systemgesundheit – Abbildung 2](/img/stoerungsbehebung-systemgesundheit/02.png)
 

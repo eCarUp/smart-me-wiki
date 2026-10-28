@@ -16,7 +16,7 @@ Klicke nun nacheinander auf die verschiedenen Wohneinheiten Ihrer Liegenschaft u
 <div className="row">
 <div className="col col--7">
 
-### Kundenummer
+### Kundennummer
 
 Hier legst du die Kundennummer für diesen Mieter fest.
 
@@ -28,7 +28,7 @@ Die Kundennummer wird automatisch auch beim PDF-Dokument als Name mitverwendet z
 
 Hier kannst du vertragliche Bestimmungen einfügen. Ein Beispiel (ohne Gewähr auf Rechtssicherheit) wäre:
 
-Ihr Vertrag hat eine Laufzeit bis DD.MM.YYYY und verlängert sich entsprechend der Regelung in Ziffer X Ihres Stromliefervertrages um ein Jahr, wenn keine rechtzeitige Kündigung erfolgt. Die Kündigung des Stromliefervertrages ist Ihnen mit einer Frist von drei Monaten zum DD.MM.YYYY gemäß Ziffer X des Stromliefervertrages möglich. Ein Sonderkündigungsrecht bleibt unberührt
+Ihr Vertrag hat eine Laufzeit bis DD.MM.YYYY und verlängert sich entsprechend der Regelung in Ziffer X Ihres Stromliefervertrages um ein Jahr, wenn keine rechtzeitige Kündigung erfolgt. Die Kündigung des Stromliefervertrages ist Ihnen mit einer Frist von drei Monaten zum DD.MM.YYYY gemäß Ziffer X des Stromliefervertrages möglich. Ein Sonderkündigungsrecht bleibt unberührt.
 
 </div>
 <div className="col col--5 bild--mitte">

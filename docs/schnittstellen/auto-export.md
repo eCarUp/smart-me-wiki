@@ -22,7 +22,7 @@ Zur besseren Kennzeichnung sind die vererbten Einstellungen blau hinterlegt.
 
 ![Auto Export – Abbildung 2](/img/schnittstellen-auto-export/02.jpg)
 
-## Massenmuation (Export nochmals anstossen)
+## Massenmutation (Export nochmals anstossen)
 
 Über eine Massenmutation können fin smart-me für mehrere Geräte gleichzeitig neu angestossen werden.
 
@@ -46,13 +46,13 @@ Dauer der Verarbeitung beachten: Die Neuerstellung von Exportdateien braucht Zei
 
 ![Auto Export – Abbildung 3](/img/schnittstellen-auto-export/03.png)
 
-## Massenmuation (Messpunkt ID ersetzten)
+## Massenmutation (Messpunkt ID ersetzen)
 
 Über die Massenmutation können bestehende Messpunkt-IDs schnell und fehlerfrei durch neue ersetzt werden.
 
 Vorgehen:
 
-- Erstelle ein eine einfache CSV-Datei.
+- Erstelle eine einfache CSV-Datei.
 
 - Jede Zeile steht für einen Messpunkt.
 
@@ -70,7 +70,7 @@ Hinweis: Wenn ein Messpunkt nicht in der CSV-Datei steht, wird er auch nicht ver
 <div className="row">
 <div className="col col--5">
 
-Die Upload Art definiert wie die Daten auf das externe System geladen werden sollen. Aktuell sind folgende Arten unterstützt:
+Die Upload Art definiert, wie die Daten auf das externe System geladen werden sollen. Aktuell sind folgende Arten unterstützt:
 
 FTP: FTP Upload (unverschlüsselt)
 
@@ -95,7 +95,7 @@ sFTP (mit Key File): Verschlüsselter FTP Upload. Anstelle eines Passwortes wird
 Hinweis: Das Passwort darf folgende Zeichen nicht beinhalten (&lt;, >, =)
 
 </div>
-<div className="col col--7 text--center">
+<div className="col col--7 bild--mitte">
 
 ![Auto Export – Abbildung 5](/img/schnittstellen-auto-export/05.jpg)
 
@@ -114,7 +114,7 @@ IS-E: Export in ein innosolv-Energie-System der Innosolv AG
 
 - Zählerstand
 
-- Virtuelle Zählerstand (Wenn im smart-me berechnet und der Ordner gewählt wird)
+- Virtueller Zählerstand (Wenn im smart-me berechnet und der Ordner gewählt wird)
 
 IS-E Vorschub / IS-E feed: Export in ein innosolv-Energie-System der Innosolv AG
 
@@ -124,11 +124,11 @@ IS-E Vorschub / IS-E feed: Export in ein innosolv-Energie-System der Innosolv AG
 
 IS-E peak export
 
-- Weist spitzenleistung aus.
+- Weist Spitzenleistung aus.
 
 - Hinweis: 1) Bei der Zuordnung Ordner mit virtuellen Tarifen wählen und 2) Bei der Zuordnung Zu exportierenden Messwerten "Virtuelle Tarife (nur IS-E)" wählen 3) Beim Export Format jeweils die Virtuellen Tarifnummern angeben (Export Tariffs (peak)) welche im smart-me Billing vorliegen.
 
-IS-E Zeitreihen / IS-E Load profile: Export in ein innosolv-Energie-System der Innosolv AG System der Innosolv AG
+IS-E Zeitreihen / IS-E Load profile: Export in ein innosolv-Energie-System der Innosolv AG
 
 - Zeitreihenmodul (Verbrauch 15 Minuten)
 
@@ -157,10 +157,10 @@ mscons 2.4a: mscons (Metered Services Consumption report message) in der Version
 <div className="row">
 <div className="col col--4">
 
-"Only basic data" auf 0 setzten um die Blindenergie zu exportieren
+"Only basic data" auf 0 setzen, um die Blindenergie zu exportieren
 
 </div>
-<div className="col col--8 text--center">
+<div className="col col--8 bild--mitte">
 
 ![Auto Export – Abbildung 7](/img/schnittstellen-auto-export/07.jpg)
 
@@ -171,11 +171,11 @@ mscons 2.4a: mscons (Metered Services Consumption report message) in der Version
 
 Der automatische Export besteht aus verschiedenen Konfigurationen:
 
-Messpunkt ID: Definiert die ID die diesem Messpunkt zugeordnet werden soll. Diese ID wird z. B. im mscons Export Format verwendet.
+Messpunkt ID: Definiert die ID, die diesem Messpunkt zugeordnet werden soll. Diese ID wird z. B. im mscons Export Format verwendet.
 
-Zähler oder Ordner: Der Zähler oder Ordner der exportiert werden soll.
+Zähler oder Ordner: Der Zähler oder Ordner, der exportiert werden soll.
 
-Export Format: Definiert das Format das für den Export verwendet werden kann. Das Export Format wird unter dem Menüpunkt "Export Format" definiert.
+Export Format: Definiert das Format, das für den Export verwendet werden kann. Das Export Format wird unter dem Menüpunkt "Export Format" definiert.
 
 Upload Art: Gibt an, wie die Daten in das externe System geladen werden sollen. Die Upload Art wird unter dem Menüpunkt "Upload Art" definiert.
 
@@ -183,7 +183,7 @@ Export Intervall: Gibt an, in welchem Intervall die Daten exportiert werden soll
 
 Export Auslöser: Definiert den Auslöser des Exports.
 
-- "Wenn alle MESSDATEN vorhanden sind", löst aus sobald alle Daten vorhanden sind. Sind diese nie vollständig (z.B. Da der Startwert vor der Installation war) wird dieser nie auslösen.
+- "Wenn alle MESSDATEN vorhanden sind", löst aus, sobald alle Daten vorhanden sind. Sind diese nie vollständig (z.B. da der Startwert vor der Installation war) wird dieser nie auslösen.
 
 -  "12h nach dem Enddatum", löst 12 Stunden später aus, unabhängig ob alle Daten vorhanden sind oder nicht.
 
@@ -192,7 +192,7 @@ Export Auslöser: Definiert den Auslöser des Exports.
 
 Start Datum nächster Export: Das Startdatum für den nächsten Export der Daten. Liegt das Datum in der Vergangenheit, werden bis zum aktuellen Datum alle Daten exportiert.
 
-Zu exportierende Messwerte : Falls du einen Ordner mit virtuellen Tarifen auswählst, kannst du auswählen, ob du die normalen Messwerte oder die virtuellen Tarife exportieren möchtest.
+Zu exportierende Messwerte: Falls du einen Ordner mit virtuellen Tarifen auswählst, kannst du auswählen, ob du die normalen Messwerte oder die virtuellen Tarife exportieren möchtest.
 
 ![Auto Export – Abbildung 8](/img/schnittstellen-auto-export/08.png)
 
@@ -204,7 +204,7 @@ Einrichten
 
 1.  Erstelle im smart-me Billing die virtuellen Tarife.  Beachte, dass du die Tarifnummer des virtuellen Tarifs korrekt setzt. Diese wird bei Export als "Tarif" im Obis Code kodiert. Beispiel: Tarifnummer 3 ergibt Obis: (IS-E Zählerstände) 1-5:1.8.3 (1-5:1.8.&lt;Tarifnummer>), (IS-E Vorschub) 1-5:1.9.3 (1-5:1.9.&lt;Tarifnummer>)
 
-2.  Wähle im "Auto Export" unter "Zuordnung" den Ordner mit den Virtuellen Tarifen aus und wähle unter "Zu exportierende Messwerte" "Virtuelle Tarife" aus. 
+2.  Wähle im "Auto Export" unter "Zuordnung" den Ordner mit den virtuellen Tarifen aus und wähle unter "Zu exportierende Messwerte" "Virtuelle Tarife" aus. 
 
 
 ![Auto Export – Abbildung 9](/img/schnittstellen-auto-export/09.png)
@@ -234,7 +234,7 @@ Tipp zur Entschlüsselung: Auf dieser [Website](https://www.kbr.de/de/obis-kennz
 
 Das csv Test File wurde mit obiger Konfiguration exportiert.
 
-## Unterstützte Obis Code
+## Unterstützte Obis Codes
 
 OBIS Codes werden verwendet, um einen (Zähler-)Wert zu beschreiben: [Obis Codes (Excel)](https://drive.google.com/open?id=1eTs4ZXD9AUagGxNEQSof0IWHkZg54nsK6SyHp4ygDSc&authuser=0)
 

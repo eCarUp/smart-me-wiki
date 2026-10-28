@@ -18,7 +18,7 @@ Hinweis: Die Sonstiges Kosten sind nur mit der Elektrizitätsrechnung verfügbar
 <Menueweg>Rechnungserstellung → Liegenschaften & Tarife</Menueweg>
 
 Beispiel:
-80% Grundkostenanteils des Energieversorger soll im zusammenhand mit dem Solartarif an alle Teilnehmer gleichermassen verrechnet wwerden.
+80% Grundkostenanteils des Energieversorgers soll im Zusammenhang mit dem Solartarif an alle Teilnehmer gleichermassen verrechnet werden.
 
 - Die eingetragene Gebühr wird auf allen Rechnungen pro Monat ergänzt
 
@@ -34,6 +34,6 @@ Beispiel:
 <Menueweg>Rechnungserstellung → Liegenschaften & Tarife → Abrechnungseinheit</Menueweg>
 
 Beispiel:
-Eine Ladestation wird vermietet und soll Monatlich der Abrechnungseinheit in Rechnung gestellt werden.
+Eine Ladestation wird vermietet und soll monatlich der Abrechnungseinheit in Rechnung gestellt werden.
 
-- Die Kosten wird nur der einen Abrechnungseinheit angelastet
+- Die Kosten werden nur der einen Abrechnungseinheit angelastet

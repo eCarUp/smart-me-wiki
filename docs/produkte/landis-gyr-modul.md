@@ -17,7 +17,7 @@ Für das Modul wird keine zusätzliche Hardware benötigt. Es nutzt das bestehen
 Mit einem Professional Abo können die Zählerwerte auch über die Modbus TCP Schnittstelle abgefragt werden.
 
 </div>
-<div className="col col--5 text--center">
+<div className="col col--5 bild--mitte">
 
 ![Landis+Gyr Modul – Abbildung 1](/img/produkte-landis-gyr-modul/01.png)
 

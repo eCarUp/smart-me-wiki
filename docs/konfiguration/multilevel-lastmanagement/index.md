@@ -14,7 +14,7 @@ Webinar Multilevel Lastmanagement (50 Min)
 
 - Pico Firmware Version 0.0.25 oder höher --> [Firmware upgrade durchführen](/konfiguration/firmware-update)
 
-- Alle Wenn/Dann-Regelungen mit Pico sind gelöscht worden um keine gegenteiligen Befehle zum MLM zu senden.
+- Alle Wenn/Dann-Regelungen mit Pico sind gelöscht worden, um keine gegenteiligen Befehle zum MLM zu senden.
 
 - Stand: 12.03.2024
     Kein Anspruch für Lastabwurf über Telstar Eingangskontakte --> Release der Lösung in MLM folgt.
@@ -26,7 +26,7 @@ Webinar Multilevel Lastmanagement (50 Min)
 
 Das dynamische Multilevel Lastmanagement koordiniert die begrenzenden und dynamischen Fähigkeiten der einzelnen Lastgruppen auf Hausanschluss- und Arealebene.
 
-Die Aufgabe besteht darin die noch freien Stromkapazitäten an jedem Referenzpunkt den untergeordneten Lastgruppen zur Verfügung zustellen und so die Verzweigstellen vor Überlast zu schützen.
+Die Aufgabe besteht darin, die noch freien Stromkapazitäten an jedem Referenzpunkt den untergeordneten Lastgruppen zur Verfügung zu stellen und so die Verzweigstellen vor Überlast zu schützen.
 
 Beispiele für wichtige Verzweigpunkte:
 
@@ -80,7 +80,7 @@ Virtueller Ast (violett) begrenzt auf Basis Ast mit ungemessenen Lasten und Pico
 
 Die Solaroptimierung ermöglicht eine effiziente Zuteilung überschüssigen Stromes an die untergeordneten Pico-Ladegruppen. Voraussetzung dafür ist mindestens ein "Ast mit ungemessenen Lasten" und entsprechendem Referenzzähler.
 
-Die Optimierung kann nur 1x Seriell (Baum oben nach unten) erfolgen oder mehrfach in parallelen Verästelungen.
+Die Optimierung kann nur 1x seriell (Baum oben nach unten) erfolgen oder mehrfach in parallelen Verästelungen.
 
 Damit kann eine Solaroptimierung auf das ganze Areal oder bloss gebäudespezifisch umgesetzt werden.
 
@@ -91,7 +91,7 @@ Beispiel:
 - Gebäudeoptimierung: Solaroptimierung aktiv auf mehreren Ästen mit Referenz auf die jeweiligen Hauszähler.
 
 
-Bei der Solaroptimierung auf den Arealanschluss, steht der Ladeinfrastruktur in Haus A auch produzierter Überschuss aus Haus B zur Verfügung.
+Bei der Solaroptimierung auf den Arealanschluss steht der Ladeinfrastruktur in Haus A auch produzierter Überschuss aus Haus B zur Verfügung.
 
 ![Multilevel Lastmanagement – Abbildung 5](/img/konfiguration-multilevel-lastmanagement/05.png)
 
@@ -106,19 +106,19 @@ Die Einstellung erfolgt flexibel pro Stunde des Tages.
 
 Diese Funktion ermöglicht einen minimalen Ladestrom unabhängig von anderen parallelen Optimierungen zur Verfügung zu stellen.
 
-Einzig eine Übertretene Stromlimitierung eines Astes würde darauf gegenteiligen Einfluss haben.
+Einzig eine übertretene Stromlimitierung eines Astes würde darauf gegenteiligen Einfluss haben.
 
-Sofern der minimale Ladestrom gewährleistet werden kann, limitiert diese den direkten Netzbezug auf das eingestellte Mass. 
+Sofern der minimale Ladestrom gewährleistet werden kann, limitiert dieser den direkten Netzbezug auf das eingestellte Mass. 
 
-Ist eine Solaroptimierung vorhanden kann der verfügbare Ladestrom aber über das eingestellte Minimum steigen und wird entsprechend erhöht.
+Ist eine Solaroptimierung vorhanden, kann der verfügbare Ladestrom aber über das eingestellte Minimum steigen und wird entsprechend erhöht.
 
 Einsatzbeispiel:
 
-Ladestrom während Produktionszeiten verringern um Lastspitzen zu reduzieren.
+Ladestrom während Produktionszeiten verringern, um Lastspitzen zu reduzieren.
 
-Ladestrom während Mittagszeit reduzieren um Lastspitzen zu reduzieren.
+Ladestrom während Mittagszeit reduzieren, um Lastspitzen zu reduzieren.
 
-Ladestrom über Tag reduzieren um eine höhere Solarstrompriorisierung zu erreichen.
+Ladestrom über Tag reduzieren, um eine höhere Solarstrompriorisierung zu erreichen.
 
 Bevorzugen der Aussenparkplatzgruppen vor Tiefgaragenparkplätzen (Gruppenpriorisierungen)
 
@@ -135,7 +135,7 @@ Ladegruppe B: Minimalstrom = 20A
 Ladegruppe B wird zuerst mit 20A versorgt und Ladegruppe A erhält den Rest.
 
 </div>
-<div className="col col--6 text--center">
+<div className="col col--6 bild--mitte">
 
 ![Multilevel Lastmanagement – Abbildung 6](/img/konfiguration-multilevel-lastmanagement/06.png)
 
@@ -150,7 +150,7 @@ Alle Pico Ladestationen müssen mit dem Verbindungsausfallsetting "Max. Strom (p
 
 Funktion:
 Ladegruppen, welche von Internetverlust betroffen sind, werden auf das von der Gruppe definierte Mass zurück geregelt. Die Verteilung des Stromes erfolgt automatisch durch den Lademanager und berücksichtigt dabei die aktiven Ladevorgänge.
-Das Multilevel Lastmanagement geht dabei davon aus, das die verlorenen Äste den definierten Gruppenstrom beziehen und ziehen diese vom verfügbaren Reststrom ab.
+Das Multilevel Lastmanagement geht dabei davon aus, dass die verlorenen Äste den definierten Gruppenstrom beziehen und ziehen diese vom verfügbaren Reststrom ab.
 
 Der funktionstüchtige Teil der Installation mit aktiver Internetverbindung operiert weiter im Normalmodus mit dieser definierten Einschränkung.
 

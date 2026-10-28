@@ -36,7 +36,7 @@ Technische Daten, Anschlussschema, Tastenfunktionen und Downloads stehen auf der
 
 Das M-Bus Gateway liest über 1000 Zählertypen verschiedener Hersteller aus. Untenstehend findest du eine nicht abschliessende Liste kompatibler Gerätehersteller.
 
-Hinweis: Achte explizit darauf wie der Zähler deklariert ist. Er kann als Wärmezähler, Wärme / Kältezähler, Wasserzähler oder Elektrozähler deklariert sein.
+Hinweis: Achte explizit darauf, wie der Zähler deklariert ist. Er kann als Wärmezähler, Wärme / Kältezähler, Wasserzähler oder Elektrozähler deklariert sein.
 Kombizähler, welche nicht als Wärme / Kältezähler deklariert sind, können unter Umständen kombiniert nicht richtig funktionieren oder nur als Wärmezähler funktionieren.
 
 <Embed src="https://drive.google.com/file/d/1PVhN_1lLolihf6eNQ_1x7UxZK8cjE_hq/preview" height="700px" title="Drive, Kompatibilitätsliste M-Bus_Gateway.xlsx" />
@@ -151,7 +151,7 @@ Auf diesen Seiten findest du alle relevanten Informationen für die erfolgreiche
 
 - [Suche nach M-Bus Gateway-Geräten](/konfiguration/inbetriebnahme/smart-me-geraete#m-bus-gateway-geräte-suchen)
 
-- [Automatische Geräteerkennung unterbinden](/konfiguration/inbetriebnahme/smart-me-geraete#m-bus-gateway-erkennung-von-neuen-geräte-unterbinden)
+- [Automatische Geräteerkennung unterbinden](/konfiguration/inbetriebnahme/smart-me-geraete#m-bus-gateway-erkennung-von-neuen-geräten-unterbinden)
 
 
 ## M-Bus Installationsvorschrift

@@ -90,7 +90,7 @@ Faustregel für ZEV und vZEV mit einheitlichem Solar und / oder Batterietarif:
 ZEV mit 1x PV Anlage: Zähleranzahl = Lizenzanzahl
 ZEV mit \>1x PV-Anlage (Visualisierungen): Zähleranzahl + 1 (virtuell)
 
-Faustregel für ZEV Systeme mit separiertem Solar- und Batterietarif (nur AC- gekopelte Systeme):
+Faustregel für ZEV Systeme mit separiertem Solar- und Batterietarif (nur AC- gekoppelte Systeme):
 
 ZEV mit 1x PV-Anlage: Zähleranzahl + 1 (virtuell)
 
@@ -127,7 +127,7 @@ Hinweis: Das M-Bus Gateway selbst benötigt keine Lizenz.
 
 Die oben beschriebene Installation mit verschiedenen Energieträgern kann nun auf zwei Arten lizenziert werden.
 
-### Monatliches Abonement
+### Monatliches Abonnement
 
 Die Installation erfordert 18 Professional Lizenzen.
 
@@ -136,7 +136,7 @@ Diese können zu einem monatlichen Betrag eingekauft werden und decken zu jedem 
 - 18x Monatliche Professional Lizenz Alle Energietypen
 
 
-Das Monatliche Abo ist Inflations- und Deflationseffekten unterworfen.
+Das monatliche Abo ist Inflations- und Deflationseffekten unterworfen.
 
 ### Mehrjahreslizenzmodell
 

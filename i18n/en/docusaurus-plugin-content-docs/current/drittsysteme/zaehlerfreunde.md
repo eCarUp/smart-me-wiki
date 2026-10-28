@@ -8,15 +8,15 @@ sidebar_label: 'Zaehlerfreunde'
 <div className="row">
 <div className="col col--8">
 
-Zählerfreunde offers tailor-made solutions for individual installations, tenant electricity projects, energy suppliers and municipal utilities. The solution is based on a web or app-based platform that enables tenants, landlords and project operators to better monitor and manage electricity consumption and electricity production.
+Zählerfreunde offers tailor-made solutions for individual installations, tenant electricity projects, energy suppliers and municipal utilities. The solution is based on a web or app-based platform that allows tenants, landlords and project operators to better monitor and manage their electricity consumption and production.
 
 Target group: smart-me users, energy suppliers and tenants with a smart-me account
 
 Note:
-Within tenant electricity installations, the tariff switch only works for the operator of the tenant electricity installation
+Within tenant electricity systems, the tariff switch only works for the operator of the tenant electricity system
 
 </div>
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
 ![Zählerfreunde – Figure 1](/img/drittsysteme-zaehlerfreunde/01.png)
 
@@ -26,7 +26,7 @@ Within tenant electricity installations, the tariff switch only works for the op
 
 ## Comprehensive solution
 
-Of course, we support all common browsers. In addition, on request we publish and maintain your own mobile app: for Android and iOS.
+Of course, we support all common browsers. On request, we also publish and maintain your own mobile app: for Android and iOS.
 
 ![Zählerfreunde – Figure 2](/img/drittsysteme-zaehlerfreunde/02.png)
 
@@ -53,13 +53,13 @@ Transparent, cross-utility visualization. Thanks to our modular structure, you c
 
 ## Support for additional devices
 
-Do your customers have PV systems, wallboxes, digital electricity meters? We visualize (almost) everything! Users have the option of adding further smart devices. Do you offer battery storage, for example? Great – sell it directly via the platform and then have it visualized.
+Do your customers have PV systems, wallboxes or digital electricity meters? We visualize (almost) everything! Users can add further smart devices. Do you offer battery storage, for example? Great – sell it directly via the platform and then have it visualized.
 
 ![Zählerfreunde – Figure 4](/img/drittsysteme-zaehlerfreunde/04.png)
 
 ## Offer new electricity products
 
-Offer your existing customers new tariff products such as flexible tariffs. If required, we calculate whether the customer is still on the best tariff for them. Visualization and tariff management in one place.
+Do you offer your existing customers new tariff products such as flexible tariffs? If required, we calculate whether the customer is still on the best tariff for them. Visualization and tariff management in one place.
 
 ![Zählerfreunde – Figure 5](/img/drittsysteme-zaehlerfreunde/05.png)
 
@@ -84,7 +84,7 @@ Enhance your tenant electricity offering with a comprehensive end-customer solut
 
 Never worry about the tedious tariff switch again!
 
-Switch your electricity tariff either once, or conveniently and automatically every year (certified green electricity guaranteed). This saves you a lot of money every year while supporting a non-profit project of your choice.
+Switch your electricity tariff either once or conveniently and automatically every year (certified green electricity guaranteed). This saves you a lot of money every year while supporting a non-profit project of your choice.
 
 
 

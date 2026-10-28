@@ -1,16 +1,16 @@
 ---
 title: 'zevvy'
 slug: '/drittsysteme/zevvy'
-description: 'zevvy aiuta le case plurifamiliari a conteggiare in modo semplice i costi energetici e le spese accessorie complesse con un software online.'
+description: 'zevvy aiuta le case plurifamiliari con un software online a conteggiare in modo semplice spese energetiche e accessorie complesse.'
 sidebar_label: 'zevvy'
 ---
 <div className="row">
 <div className="col col--7">
 
-zevvy aiuta le case plurifamiliari a conteggiare in modo semplice i costi energetici e le spese accessorie complesse con un software online. In questo modo i proprietari o la loro amministrazione immobiliare possono creare in pochi clic i conteggi per l'energia solare (RCP), le stazioni di ricarica per veicoli elettrici, il riscaldamento, l'acqua calda sanitaria, l'acqua fredda e altri vettori. Anche altri costi, ad esempio per il giardinaggio, il custode, i servizi o i consumi delle parti comuni, possono essere registrati e ripartiti tra i residenti. Secondo il modello VEWA, i costi del software zevvy possono essere addebitati agli inquilini come spese accessorie per l'energia.
+zevvy aiuta le case plurifamiliari con un software online a conteggiare in modo semplice spese energetiche e accessorie complesse. In questo modo i proprietari o la loro amministrazione immobiliare possono creare in pochi clic i conteggi per l'energia solare (RCP, raggruppamento ai fini del consumo proprio), le stazioni di ricarica elettrica, il riscaldamento, l'acqua calda sanitaria, l'acqua fredda e altri vettori. Anche altri costi come giardinaggio, custode, servizi o consumi generali possono essere facilmente registrati e ripartiti tra gli abitanti. Secondo VEWA, i costi del software zevvy possono essere riaddebitati agli inquilini come spese accessorie energetiche.
 
 </div>
-<div className="col col--5 text--center">
+<div className="col col--5 bild--mitte">
 
 ![zevvy – Figura 1](/img/drittsysteme-zevvy/01.png)
 
@@ -19,7 +19,7 @@ zevvy aiuta le case plurifamiliari a conteggiare in modo semplice i costi energe
 
 Nel video scopri come integrare i contatori smart-me in zevvy e come utilizzarne i dati per il conteggio delle spese accessorie.
 
-<Video src="oMVCWsbPQNg" title="Video YouTube, zevvy Live Demo" />
+<Video src="oMVCWsbPQNg" title="Video YouTube, demo live di zevvy" />
 
 ## Contatto
 

@@ -8,14 +8,14 @@ sidebar_label: 'Digital Republic'
 <div className="row">
 <div className="col col--8">
 
-Il nostro partner Digital Republic ti offre una soluzione SIM dati semplice e flessibile per la tua installazione smart-me. Le schede SIM di Digital Republic sono versatili e utilizzabili in tutti i dispositivi compatibili con LTE.  Grazie alla nostra collaborazione con Digital Republic puoi ordinare gratuitamente una prima scheda SIM a scopo di test. 
+Il nostro partner Digital Republic ti offre una soluzione SIM dati semplice e flessibile per la tua installazione smart-me. Le schede SIM di Digital Republic sono versatili e utilizzabili in tutti i dispositivi compatibili con LTE.  Grazie alla nostra collaborazione con Digital Republic, puoi ordinare gratuitamente una prima scheda SIM a scopo di test. 
 
 Offerta valida solo in Svizzera 🇨🇭
 
 All'offerta di Digital Republic: [SIM dati](https://digitalrepublic.ch/de/lp/ecarup-smartme-dr-ladestationen/?utm_source=smartme&utm_medium=smartmewiki&utm_campaign=smartmewiki)
 
 </div>
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
 [![Digital Republic – Figura 1](/img/drittsysteme-digital-republic/01.jpg)](https://digitalrepublic.ch/de/lp/ecarup-smartme-dr-ladestationen/?utm_source=smartme&utm_medium=smartmewiki&utm_campaign=smartmewiki)
 

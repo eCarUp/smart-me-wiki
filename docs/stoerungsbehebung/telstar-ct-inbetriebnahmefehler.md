@@ -4,7 +4,7 @@ slug: '/stoerungsbehebung/telstar-ct-inbetriebnahmefehler'
 description: 'Auf dieser Seite werden häufige Fehler beschrieben, welche bei der Inbetriebnahme der Telstar CT auftreten können.'
 sidebar_label: 'Telstar CT Inbetriebnahmefehler'
 ---
-Auf dieser Seite werden häufige Fehler beschrieben, welche bei der Inbetriebnahme der Telstar CT auftreten können. Es wird beschrieben wie diese Fehler zu prüfen und zu beheben sind.
+Auf dieser Seite werden häufige Fehler beschrieben, welche bei der Inbetriebnahme der Telstar CT auftreten können. Es wird beschrieben, wie diese Fehler zu prüfen und zu beheben sind.
 
 ## Leistung stimmt nicht mit EW Zähler überein.
 
@@ -16,12 +16,12 @@ Dieser Ansatz ist vor allem dann in Betracht zu ziehen, wenn das gemessene um ga
 
 - Lösung: im smart-me Portal -> Zähler wählen -> auf das Zahnrad -> Allgemeine Einstellungen -> Verhältnis eintragen und speichern.
 
-- smart-me empfielt das Wandlerverhältnis gemäss Angabe auf dem Wandler einzustellen, wie es auf z.B. 300A/5A --> 300:5
+- smart-me empfiehlt das Wandlerverhältnis gemäss Angabe auf dem Wandler einzustellen, wie es auf z.B. 300A/5A --> 300:5
 
 - Wichtig: Die historischen Daten werden nicht angepasst. 
 
 
-### 2\. Prüfe ob die Abweichung des EW-Zählers und des smart-me Zählers kleiner gleich 2% ist.
+### 2\. Prüfe, ob die Abweichung des EW-Zählers und des smart-me Zählers kleiner gleich 2% ist.
 
 Dieser Ansatz ist vor allem dann in Betracht zu ziehen, wenn die Verbräuche der beiden Meter relativ eng beieinander liegen.
 
@@ -35,19 +35,19 @@ Telstar CT: Verbrauch 992kWh
 
 maximal zulässige Differenz \[kWh\] = EW-Meterenergie \* (Messfehler Telstar CT in % + Messfehler Wandler in %) = 1000kWh \* (0.01 + 0.01) = 20kWh
 
-Der Messwert des Telstar CT darf im Bereich von 1000kWh +/- 20kWh liegen, mit 992kWh entspricht das dem zu erwartenden Fehler
+Der Messwert des Telstar CT darf im Bereich von 1000kWh +/- 20kWh liegen, mit 992kWh entspricht das dem zu erwartenden Fehler.
 
 Achtung: Der Verbrauch ist abhängig von der Messdauer. Für obige Abschätzung muss bei beiden Zählern der gleiche Zeitraum, in welchem die Energie verbraucht wurde, gewählt werden.  Der Zählerstand auf dem EW-Zähler muss nicht zwingend gleich sein, wie der des Telstar CT. 
 
-### 3\. Prüfe ob die Klemmen beim Messklemmenblock geschlossen sind.
+### 3\. Prüfe, ob die Klemmen beim Messklemmenblock geschlossen sind.
 
 Dieser Ansatz ist vor allem dann in Betracht zu ziehen, wenn die Leistungen verdächtig klein ausfallen (halbe erwartete Leistung oder kleiner).
 
-- Bei einigen Projekten wird nach der Installation aus Versehen vergessen den Messklemmenblockseitigen Kurzschluss wieder zu entfernen.
+- Bei einigen Projekten wird nach der Installation aus Versehen vergessen den messklemmenblockseitigen Kurzschluss wieder zu entfernen.
     Ungeschlossene Klemmen beim Messklemmenblock lassen trotzdem einen geringen Stromfluss zu, dieser wird vom Zähler gemessen, entspricht aber nicht dem richtigen Teilungsverhältnis. (Parallelverbindung im Messklemmenblock zur Messstelle im Zähler)
 
 
-### 4\. Prüfen ob der Wandler über Kurzschlussbrücke verfügt.
+### 4\. Prüfen, ob der Wandler über Kurzschlussbrücke verfügt.
 
 <div className="row">
 <div className="col col--6">
@@ -57,7 +57,7 @@ Dieser Ansatz ist vor allem dann in Betracht zu ziehen, wenn die Leistungen verd
 - Einige Wandler, wie z.B. der SRT01605A von Hager, sind mit Kurzschlussbrücken ausgestattet, die nach dem Zusammenbau und der Verdrahtung der Wandler, wie in der Bedienungsanleitung beschrieben, entfernt werden müssen.
 
 </div>
-<div className="col col--6 text--center">
+<div className="col col--6 bild--mitte">
 
 ![Telstar CT Inbetriebnahmefehler – Abbildung 1](/img/stoerungsbehebung-telstar-ct-inbetriebnahmefehler/01.png)
 
@@ -69,7 +69,7 @@ Dieser Ansatz ist vor allem dann in Betracht zu ziehen, wenn die Leistungen verd
 <div className="row">
 <div className="col col--7">
 
-Dieser Ansatz wird vor allem dann verfolgt wenn Phasenleistungen negativ ausfallen, obwohl das nicht zu erwarten ist.
+Dieser Ansatz wird vor allem dann verfolgt, wenn Phasenleistungen negativ ausfallen, obwohl das nicht zu erwarten ist.
 
 Alle Wandler besitzen eine Flussrichtung, welche mit einem Pfeil gekennzeichnet ist.
 
@@ -101,10 +101,10 @@ Was den Erwartungen entspricht:
 
     - Die Gesamtleistung der Bilanz muss aber der Produktion + dem Verbrauch entsprechen.
 
-        (Prüfen via Lastprofil oder über Visualisierung "Energiefluss Einfach". Nur PV Zähler und Gesamtverbrauch hinterlegen um die Bilanz künstlich zu berechnen, vergleiche dann die Werte in der Visualisierung zur Aktiven Leistung des Bilanzzählers)
+        (Prüfen via Lastprofil oder über Visualisierung "Energiefluss Einfach". Nur PV Zähler und Gesamtverbrauch hinterlegen, um die Bilanz künstlich zu berechnen, vergleiche dann die Werte in der Visualisierung zur Aktiven Leistung des Bilanzzählers)
 
 </div>
-<div className="col col--5 text--center">
+<div className="col col--5 bild--mitte">
 
 ![Telstar CT Inbetriebnahmefehler – Abbildung 2](/img/stoerungsbehebung-telstar-ct-inbetriebnahmefehler/02.png)
 
@@ -115,7 +115,7 @@ Was den Erwartungen entspricht:
 
 ### 6\. Prüfe die Phasenverschiebungen mit dem Cos Phi Wert pro Phase
 
-Liegt der Cos Phi Wert mehrerer Phasen stetig unter dem Wert von 0,5 besteht die Möglichkeit einer vertauschten Phasenspannung.
+Liegt der Cos Phi Wert mehrerer Phasen stetig unter dem Wert von 0,5, besteht die Möglichkeit einer vertauschten Phasenspannung.
 
 Der Zähler misst dann auf dem Eingang U Phase 1 die Spannung von L1, aber I IN und I OUT der Phase 1 misst den Strom von L2.
 
@@ -127,7 +127,7 @@ Dies führt zu Cos Phi-Werten rund um den Wert von 0 bis 0,6 (Tendenz unter 0,5)
 
 - Prüfe die Flussrichtung der Wandler
 
-Sehen diese Zahlen gut aus und liegen alle weit über 0,5 und haben alle vorherigen Schritte durch exerziert, bleibt noch die Prüfung der Blindleitungen als letzte Option. Diese behandelt mehrfache Vertauschungen von Flussrichtungen und Anschlüssen.
+Sehen diese Zahlen gut aus und liegen alle weit über 0,5 und haben alle vorherigen Schritte durchexerziert, bleibt noch die Prüfung der Blindleitungen als letzte Option. Diese behandelt mehrfache Vertauschungen von Flussrichtungen und Anschlüssen.
 
 ![Telstar CT Inbetriebnahmefehler – Abbildung 4](/img/stoerungsbehebung-telstar-ct-inbetriebnahmefehler/04.png)
 
@@ -139,7 +139,7 @@ Nehmen wir an, dass zwei Phasenspannungen auf die falschen Eingänge gebracht un
 
 Um diese Blindenergieregister anzuzeigen, muss die Messung aktiviert sein. Aktivieren der Blindenergiemessung: Zähler auswählen --> Hardwarekonfiguration (Zahnräder) --> Allgemeine Einstellungen --> Blindenergie aktivieren (Ja)
 
-In der Betrachtung eines EFH/MFH mit Solaranlage, sollte die Reihenfolge der Zählerstände der Quadranten in den meisten Fällen so aussehen:
+In der Betrachtung eines EFH/MFH mit Solaranlage sollte die Reihenfolge der Zählerstände der Quadranten in den meisten Fällen so aussehen:
 
 - Q1: Bezug Induktive Blindenergie:
     Motoren, Lüftungen
@@ -159,11 +159,11 @@ In der Betrachtung eines EFH/MFH mit Solaranlage, sollte die Reihenfolge der Zä
     \--> Mittlere bis hohe Werte (weit höher als Q2, oft auch als Q1) 
 
 
-Q1 und Q4 lassen sich schwer ohne genauere Kenntnis beurteilen. In einem MFH mit Solaranlage lassen sich aber einfach Q2 und Q3 beurteilen. Ist die Entwicklung nicht mit der Tendenz nach obigem Beispiel mit Q2 und Q3 liegt vermutlich folgendes vor:
+Q1 und Q4 lassen sich schwer ohne genauere Kenntnis beurteilen. In einem MFH mit Solaranlage lassen sich aber einfach Q2 und Q3 beurteilen. Ist die Entwicklung nicht mit der Tendenz nach obigem Beispiel mit Q2 und Q3, liegt vermutlich folgendes vor:
 
 - Mindestens eine vertauschte Spannung und Strom
 
-- Mindestens einen Wandler mit falscher Flussrichtung oder gekreuzte Kabel zum Zähler
+- Mindestens ein Wandler mit falscher Flussrichtung oder gekreuzte Kabel zum Zähler
 
 
 Mögliche Fehlerquellen:
@@ -194,7 +194,7 @@ Dieser Ansatz ist in Betracht zu ziehen, wenn die Vorzeichen der Leistungen und 
 
 - Jeder Wandler besitzt eine Ausgangsleistung in Volt-Ampere S \[VA\]
 
-- Die Leitungswiderstände dürfen nicht grösser sein als das der maximale Sekundärstrom mit der vorhandenen Leistung fliessen kann.
+- Die Leitungswiderstände dürfen nicht grösser sein als dass der maximale Sekundärstrom mit der vorhandenen Leistung fliessen kann.
 
 Formel:  max. Leitungswiderstand R = S / Sekundärstrom I^2
 
@@ -219,7 +219,7 @@ Was kann ich tun, wenn der Leitungswiderstand zu gross ausfällt?
 
 3.  Leitungen kürzen
 
-4.  Wandler durch einen Leistungsfähigeren Wandler tauschen z.B. 5VA
+4.  Wandler durch einen leistungsfähigeren Wandler tauschen z.B. 5VA
 
 ![Telstar CT Inbetriebnahmefehler – Abbildung 7](/img/stoerungsbehebung-telstar-ct-inbetriebnahmefehler/07.png)
 
@@ -231,7 +231,7 @@ Die folgende Betrachtung soll das Messverhalten eines Wandlerzählers im Fehlerf
 
 ### Allgemeines
 
-1.  Die drei Phasen Spannungen und Ströme sind zueinander zeitlich versetzt um eine Drehbewegung in einem Motor erzeugen zu können.
+1.  Die drei Phasen Spannungen und Ströme sind zueinander zeitlich versetzt, um eine Drehbewegung in einem Motor erzeugen zu können.
 
 2.  Der Strom ist eine Folge der angelegten Spannung und wird durch das Verhalten der Ladung bestimmt.
 
@@ -274,8 +274,8 @@ Die gemessene Leistung entspricht korrekterweise 6500W (rot).
 
 Beispiel: Solaranlage
 
-Die Solaranlage produziert eine Leistung von 30kW --> Jede Phase 10kW. (Solaranlagen Produzieren immer möglichst ausgeglichen auf den drei Phasen)
-Ist alles korrekt sind diese 30kW auch auf dem Messgerät zu lesen.
+Die Solaranlage produziert eine Leistung von 30kW --> Jede Phase 10kW. (Solaranlagen produzieren immer möglichst ausgeglichen auf den drei Phasen)
+Ist alles korrekt, sind diese 30kW auch auf dem Messgerät zu lesen.
 
 Ist der Wandler der Phase 1 in verkehrter Flussrichtung, resultiert eine negative Phasenleistung für Phase 1.
 
@@ -285,7 +285,7 @@ Die Gesamtleistung entspricht nur noch 1/3 der erwarteten Leistung.
 
 ### Phasenspannung und Phasenströme sind vertauscht worden
 
-Hinweis: Wurde ein Phasenstrom oder Phasenspannung am falschen Eingang des Zählers angeschlossen sind immer gleich zwei Phasen betroffen!
+Hinweis: Wurde ein Phasenstrom oder Phasenspannung am falschen Eingang des Zählers angeschlossen, sind immer gleich zwei Phasen betroffen!
 
 Phasenspannung und Phasenstrom sind vertauscht worden (U1 / I2) werden auf Phase 1 gemessen
 
@@ -293,7 +293,7 @@ Betrachten wir hier den Ausgang einer Messung, wenn dem Zähler zwar die richtig
 
 Wir vermischen also die Spannung der Phase 1 mit dem Strom der Phase 2.
 
-Die Phasenleistung wird negativ. Die Phasenverschiebung von 120° resultieren im Messgerät in einer gemessenen Phasenverschiebung von nur 60° und wird nun mit einem Powerfaktor von 0,5 angezeigt. 
+Die Phasenleistung wird negativ. Die Phasenverschiebung von 120° resultiert im Messgerät in einer gemessenen Phasenverschiebung von nur 60° und wird nun mit einem Powerfaktor von 0,5 angezeigt. 
 
 Resultat: Negative und halbe Leistung der erwarteten 6500 W)
 
@@ -309,7 +309,7 @@ Betrachten wir hier den Ausgang einer Messung, wenn dem Zähler zwar die richtig
 
 Wir vermischen die Spannung der Phase 1 mit dem Strom der Phase 3.
 
-Die Phasenleistung wird negativ. Die Phasenverschiebung von 120° resultieren im Messgerät in einer gemessenen Phasenverschiebung von nur -60° und wird nun mit einem Powerfaktor von 0,5 angezeigt. (Der Powerfaktor kann im Messgerät nur Werte von 0 bis 1 annehmen, obwohl nun cos (Phi) = -0,5 korrekt wäre)
+Die Phasenleistung wird negativ. Die Phasenverschiebung von 120° resultiert im Messgerät in einer gemessenen Phasenverschiebung von nur -60° und wird nun mit einem Powerfaktor von 0,5 angezeigt. (Der Powerfaktor kann im Messgerät nur Werte von 0 bis 1 annehmen, obwohl nun cos (Phi) = -0,5 korrekt wäre)
 
 Resultat: Negative und halbe Leistung der erwarteten 6500 W)
 

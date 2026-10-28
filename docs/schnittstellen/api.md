@@ -9,7 +9,7 @@ sidebar_label: 'API'
 ### Voraussetzungen
 
 Die Grundfunktionen der API sind im Basic-Model für nicht kommerzielle Nutzung verfügbar.
-Für kommerzielle Nutzung und höherem Rate-Limit ist die Professional Lizenz nötig.
+Für kommerzielle Nutzung und höheres Rate-Limit ist die Professional Lizenz nötig.
 
 ## API Beschreibung
 
@@ -53,7 +53,7 @@ Jeder Aufruf der API muss die Authentifizierung im HTTP Header enthalten: Author
 Beispiel:
 curl -X "PUT" "https://api.smart-me.com/Devices/6a7fae30-c598-4778-8f1f-a14620550274" -H "accept: \*/\*" -H "Authorization: ApiKey MTRH5eUjFXV8U4i1viZF2jHNoUNsnDTx"
 
-Key können im Web Portal unter API, Api Keys erstellt werden:
+Keys können im Web Portal unter API, Api Keys erstellt werden:
 
 ![API – Abbildung 2](/img/schnittstellen-api/02.png)
 
@@ -61,9 +61,9 @@ Key können im Web Portal unter API, Api Keys erstellt werden:
 
 ### Claims
 
-Sowohl ApiKeys wie auch oAuth 2.0 unterstützen Claims um nur limitierte Berechtigungen frei zu geben.
+Sowohl ApiKeys wie auch oAuth 2.0 unterstützen Claims, um nur limitierte Berechtigungen freizugeben.
 
-Eine Liste der Endpunkte zu Claims mapping, finden sie hier: 
+Eine Liste der Endpunkte zu Claims mapping finden Sie hier: 
 
 [](https://drive.google.com/open?id=1b2bYdjBi4iCf7fUxpEPO9e8DNuhtEvA4_wIDKAJsiq0 "Open Spreadsheet, Claims in new window")
 
@@ -81,7 +81,7 @@ smart-me unterstützt das Autorisierungsframework OAuth 2.0. Externe Anwendungen
 
 ### Einrichtung OAuth im smart-me Portal
 
-Voraussetzungen für die Nutzung von oAuth ist ein Konto mit dem [Lizenzmodell](/planung/cloud-lizenzen) professional. Solltest du noch kein Konto mit dem Lizenzmodell Professional haben, musst du 1 Lizenz erwerben.
+Voraussetzung für die Nutzung von oAuth ist ein Konto mit dem [Lizenzmodell](/planung/cloud-lizenzen) professional. Solltest du noch kein Konto mit dem Lizenzmodell Professional haben, musst du 1 Lizenz erwerben.
 
 - [Login im smart-me Portal](https://www.smart-me.com/Login.aspx)
 
@@ -92,11 +92,11 @@ Voraussetzungen für die Nutzung von oAuth ist ein Konto mit dem [Lizenzmodell](
 
 oAuth Applikationen hinzufügen
 
-- Vertrauchlich (Begrenzt auf 3 Client ID)
+- Vertraulich (Begrenzt auf 3 Client ID)
 
     - Client ID und Client secret wird erzeugt
 
-    - Für vertrauliche Applikationen welche das Passwort (Secret) sicher verwahren können.
+    - Für vertrauliche Applikationen, welche das Passwort (Secret) sicher verwahren können.
 
     - Wir empfehlen die Verwendung vom "Authorization Code Flow mit PKCE" und "Device Code Flow".
 
@@ -104,7 +104,7 @@ oAuth Applikationen hinzufügen
 
     - Client ID wird erzeugt
 
-    - Für öffentliche Applikationen welche das Secret nicht Geheim behalten können, z.B. Web oder Mobile Apps.
+    - Für öffentliche Applikationen, welche das Secret nicht geheim behalten können, z.B. Web oder Mobile Apps.
 
     - Wir empfehlen die Verwendung vom "Authorization Code Flow mit PKCE" und "Device Code Flow"
 
@@ -112,12 +112,12 @@ oAuth Applikationen hinzufügen
 
     - Client ID und Client secret wird erzeugt
 
-    - Kann als Ersatz für Basic Authentication in embedded Geräten verwendet werden welche kein grafisches Interface haben.
+    - Kann als Ersatz für Basic Authentication in embedded Geräten verwendet werden, welche kein grafisches Interface haben.
 
     - Unterstützt nur den OAuth Flow "client credentials".
 
 
-Benötige Informationen:
+Benötigte Informationen:
 
 - -   Name
 
@@ -250,7 +250,7 @@ message DeviceValue {
 
 ## Goldpartner - API
 
-Um unsere API - Goldparner zu nutzen zu können, musst du über das Lizenzmodell smart-me Goldpartner verfügen. Weitere Infos zu diesem Lizenzmodell können über den Verkauf verlangt werden.
+Um unsere API - Goldpartner nutzen zu können, musst du über das Lizenzmodell smart-me Goldpartner verfügen. Weitere Infos zu diesem Lizenzmodell können über den Verkauf verlangt werden.
 
 ### Endpoints
 
@@ -392,7 +392,7 @@ PartnerVisualization
 
 ### REST API Samples
 
-Damit kannst du beliebige Datensätze abholen die wir zur Verfügung stellen. [https://api.smart-me.com/swagger/index.html](https://api.smart-me.com/swagger/index.html) 
+Damit kannst du beliebige Datensätze abholen, die wir zur Verfügung stellen. [https://api.smart-me.com/swagger/index.html](https://api.smart-me.com/swagger/index.html) 
 
 Python (Ein und Ausgänge steuern)
 
@@ -566,7 +566,7 @@ print('OAuth:', oauth_response.status_code) #Returns 200 if successful
 
 API-Client-Bibliothek für .Net
 
-Um die smart-me API-Funktionalität in Ihre .Net-Anwendung zu integrieren, können Sie [diese Bibliothek](https://github.com/eCarUp/smartme-api-client-library-dotnet) verwenden. Sie stellt HTTP-Anfragen an die smart-me REST API Alle HTTP-Anfrage- und Antwortkörper werden auf .Net-Klassen abgebildet.
+Um die smart-me API-Funktionalität in Ihre .Net-Anwendung zu integrieren, können Sie [diese Bibliothek](https://github.com/eCarUp/smartme-api-client-library-dotnet) verwenden. Sie stellt HTTP-Anfragen an die smart-me REST API. Alle HTTP-Anfrage- und Antwortkörper werden auf .Net-Klassen abgebildet.
 
 ## Echtzeit-API (Webhook) Beispiele
 

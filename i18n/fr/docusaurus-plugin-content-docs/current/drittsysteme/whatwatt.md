@@ -1,15 +1,15 @@
 ---
 title: 'whatwatt'
 slug: '/drittsysteme/whatwatt'
-description: 'Le module whatwatt est un petit module matériel destiné à la lecture des compteurs d''énergie utilisés par le fournisseur d''électricité.'
+description: 'Le module whatwatt est un petit module matériel destiné au relevé des compteurs d''énergie utilisés par le fournisseur d''énergie.'
 sidebar_label: 'whatwatt'
 ---
 
 <div className="row">
 <div className="col col--8">
 
-Le module whatwatt est un petit module matériel destiné à la lecture des compteurs d'énergie utilisés par le fournisseur d'électricité.
-Il transmet les relevés du compteur pertinents, les courbes de charge et les valeurs instantanées de la puissance.
+Le module whatwatt est un petit module matériel destiné au relevé des compteurs d'énergie utilisés par le fournisseur d'énergie.
+Il transmet les relevés du compteur pertinents, les profils de charge et les valeurs instantanées de la puissance.
 
 Le module transmet ses données directement à notre cloud via une interface API.
 
@@ -22,12 +22,12 @@ Prérequis :
 
 Applications :
 
-- Décompte de RCP virtuels (vRCP)
+- Décompte des RCP virtuels (vRCP)
 - Capteur de mesure pour la commande de produits tiers via Modbus TCP, MQTT ou API
-- Compatible avec le smart-me Nimbus 100A pour la lecture locale via Modbus TCP
+- Compatible avec le smart-me Nimbus 100A pour le relevé local via Modbus TCP
 
 </div>
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
 ![whatwatt – Illustration 1](/img/drittsysteme-whatwatt/01.png)
 
@@ -47,10 +47,10 @@ L'heure transmise doit être réglée sur l'heure NTP pour chaque module.
 2.  Accédez à l'interface web (navigateur)
 3.  Cliquez sur Meter
 4.  Faites défiler vers le bas jusqu'à Time Handling
-5.  Réglez Time Handling sur "Use Networktime" dans Reports
+5.  Réglez Time Handling sur « Use Networktime » dans Reports
 
 </div>
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
 ![whatwatt – Illustration 2](/img/drittsysteme-whatwatt/02.jpg)
 

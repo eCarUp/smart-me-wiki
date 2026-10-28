@@ -12,7 +12,7 @@ Auf dieser Seite werden die bekannten Pico Fehler erläutert.
 
 Bedeutung: 
 
-- Beim scannen der RFID wird weder der QR-Code noch das RFID Logo angezeigt.
+- Beim Scannen der RFID wird weder der QR-Code noch das RFID Logo angezeigt.
 
 
 
@@ -21,7 +21,7 @@ Mögliche Fehlerquellen:
 
 - RFID Karte ist defekt
 
-- Pico hat ein Fehler
+- Pico hat einen Fehler
 
 
 
@@ -35,7 +35,7 @@ Massnahme:
 
 ### Reduzierte Ladeleistung
 
-Wenn die Pico weniger Leistung abgibt, als diese sollte, könnte es sein, dass eine Phase nicht korrekt angeschlossen ist, oder eine Sicherung ausgelöst hat. Durch klicken auf "Normal" können ähnlich wie bei den Stromzählern, die Spannungen und Ströme angeschaut werden.
+Wenn die Pico weniger Leistung abgibt, als diese sollte, könnte es sein, dass eine Phase nicht korrekt angeschlossen ist, oder eine Sicherung ausgelöst hat. Durch Klicken auf "Normal" können, ähnlich wie bei den Stromzählern, die Spannungen und Ströme angeschaut werden.
 
 ### Schwarzer Bildschirm (Keine Anzeige)
 
@@ -59,7 +59,7 @@ Massnahme:
 
     - Schritt 1: stromlos machen und wieder einschalten.
 
-    - Schritt 2: Prüfen ob Application Version 1.xx ([Hardware Version prüfen](https://webforms.smart-me.com/connect/deviceoverview.aspx)),  wenn ja, [RMA Ausfüllen](/rma-antragsformular-schweiz) mit Fehlerbeschreibung: Schwarzer Bildschirm mit Application Version 1.xx
+    - Schritt 2: Prüfen, ob Application Version 1.xx ([Hardware Version prüfen](https://webforms.smart-me.com/connect/deviceoverview.aspx)),  wenn ja, [RMA Ausfüllen](/rma-antragsformular-schweiz) mit Fehlerbeschreibung: Schwarzer Bildschirm mit Application Version 1.xx
 
     - Schritt 3: Wenn es nicht hilft, beim Support melden.
 
@@ -77,19 +77,19 @@ Wenn ein Auto eingesteckt wird, sollte im Normalfall bei 
 
     - Das Standby Bild verschwinden und eine Abfolge mit einem Ladestart erscheinen
 
-- Authentication eCarUp Backen 
+- Authentication eCarUp Backend 
 
     - das Bild mit "Auth RFID App" kommen.
 
 
-Wenn dies nicht der Fall ist bitte wie folgt vorgehen
+Wenn dies nicht der Fall ist, bitte wie folgt vorgehen
 
-- Am Auto prüfen ob das Kabel korrekt eingesteckt ist.
+- Am Auto prüfen, ob das Kabel korrekt eingesteckt ist.
 
 - An der Pico sicherstellen, dass das Kabel am Anschlag ist.
 
 
-Wenn es immer noch nicht reagiert muss der Stationsbetreiber prüfen ob Fix eine Kabel an der Station ist.
+Wenn es immer noch nicht reagiert, muss der Stationsbetreiber prüfen, ob fix ein Kabel an der Station ist.
 
 - Wenn dies der Fall ist, bitte sicherstellen, dass im smart-me Portal die Option "Kabel immer fest verriegelt" aktiviert ist. 
 
@@ -108,7 +108,7 @@ Kabel oder Auto (meistens)
 
 Bedeutung: 
 
-- Problem mit dem RDC-Sensor (residual current device). RCD ist eine Personen-Schutzeinrichtung in der Elektroinstallation .
+- Problem mit dem RDC-Sensor (residual current device). RCD ist eine Personen-Schutzeinrichtung in der Elektroinstallation.
 
 
 
@@ -144,7 +144,7 @@ Massnahme: 
 
 - Starte die  Pico einmal neu. Entweder über die Cloud oder lokal. Dadurch wird der Sensor für die Kabelverriegelung neu kalibriert.
 
-- In den meisten Fälle reicht es auch das Kabel richtig (mit etwas Kraft) einzustecken und es nochmals zu versuchen.
+- In den meisten Fällen reicht es auch das Kabel richtig (mit etwas Kraft) einzustecken und es nochmals zu versuchen.
 
 
 Anzeige im Portal
@@ -254,7 +254,7 @@ Massnahme:
 
 - An der Pico ist keine Massnahme nötig. Sie kann nach 30 Sekunden wieder ganz normal benutzt werden.
 
-- Prüfen ob mindestens die Version 0.0.42 auf der Pico installiert ist. [Firmware Update](/konfiguration/firmware-update) 
+- Prüfen, ob mindestens die Version 0.0.42 auf der Pico installiert ist. [Firmware Update](/konfiguration/firmware-update) 
 
 
 ![Pico Fehler – Abbildung 11](/img/stoerungsbehebung-pico-fehler/11.png)
@@ -266,12 +266,12 @@ Anzeige:
 - Der untere Balken ist nur ein Pixel breit und rot
 
 
-Bedeutung : 
+Bedeutung: 
 
 - Die Ladestation gibt keinen Strom frei.
 
 
-Mögliche Fehlerquellen :
+Mögliche Fehlerquellen:
 
 - Das Lademanagement kann keinen Strom an die Station freigeben, weil eine Pico überlastet ist.
 
@@ -309,7 +309,7 @@ Mögliche Fehlerquellen:
 
 Massnahme:
 
-- Firmware-Update durchführen wenn die Version kleiner als 0.0.29 ist.
+- Firmware-Update durchführen, wenn die Version kleiner als 0.0.29 ist.
 
 - Die Display-Helligkeit der Pico sollte auf das Minimum gesetzt werden. Das hat den grössten Effekt, da somit weniger Energie direkt im Gehäuse erzeugt wird.
 
@@ -318,11 +318,11 @@ Autospezifische Probleme
 
 - Hyundai Ioniq 5: Dieses Auto löst in Einzelfällen der FI am Ende des Ladevorgangs aus, daran können wir als Hersteller von Ladestationen nichts ändern. Da der FI, unabhängig von der Ladestation augelöst wird.
 
-- Zoé: Die älteren Modellen müssen mit einem Start-Strom von 10A konfiguriert werden. Da diese mit 6A die Ladung nicht starten. Ein Test hat gezeigt, dass mit einem einphasigen Ladekabel die Ladung auch dann startet, wenn nur 6A Startstrom zur Verfügung stehen. Dieses Auto löst in Einzelfällen der FI am Ende des Ladevorgangs aus, daran können wir als Hersteller von Ladestationen nichts ändern. Da der FI, unabhängig von der Ladestation augelöst wird.
+- Zoé: Die älteren Modelle müssen mit einem Start-Strom von 10A konfiguriert werden. Da diese mit 6A die Ladung nicht starten. Ein Test hat gezeigt, dass mit einem einphasigen Ladekabel die Ladung auch dann startet, wenn nur 6A Startstrom zur Verfügung stehen. Dieses Auto löst in Einzelfällen der FI am Ende des Ladevorgangs aus, daran können wir als Hersteller von Ladestationen nichts ändern. Da der FI, unabhängig von der Ladestation augelöst wird.
 
 - Renault Kangoo Electric: Startet die Ladung nur ab 8A
 
-- Skoda Enyaq: Es kann teilweise bis zu 1min 30sec dauern, bis der Ladevorgang startet. Alternative Car-ID deatkvieren.
+- Skoda Enyaq: Es kann teilweise bis zu 1min 30sec dauern, bis der Ladevorgang startet. Alternative Car-ID deaktivieren.
 
 - Audi Q4: Ladung startet nicht. 
 
@@ -338,8 +338,8 @@ Autospezifische Probleme
 
 - Subaru Solterra: Startet die Ladung nur ab 8A und deaktivierter Car-ID
 
-- Mazda MX-30: Startet die Ladung nur wenn die Car-ID deaktiviert ist.
+- Mazda MX-30: Startet die Ladung nur, wenn die Car-ID deaktiviert ist.
 
 - Honda E:ny1: Startet die Ladung nur ab 8A.
 
-- dongfeng box: Kommt mit der Phasenumschaltung nicht klar. Es muss seitens Auto, wenn die Ladung nach einer Minute autoseitig unterbrochen wird, nach 7 Minuten die Türe Aufgeschlossen und dann fängt er mit dem Laden wieder an.
+- dongfeng box: Kommt mit der Phasenumschaltung nicht klar. Es muss seitens Auto, wenn die Ladung nach einer Minute autoseitig unterbrochen wird, nach 7 Minuten die Türe aufgeschlossen und dann fängt er mit dem Laden wieder an.

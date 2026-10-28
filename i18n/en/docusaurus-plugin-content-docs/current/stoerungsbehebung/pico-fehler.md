@@ -35,7 +35,7 @@ Action:
 
 ### Reduced charging power
 
-If the Pico delivers less power than it should, a phase may not be connected correctly, or a fuse may have tripped. By clicking on "Normal" (Normal), you can view the voltages and currents, just as with the electricity meters.
+If the Pico delivers less power than it should, a phase may not be connected correctly, or a fuse may have tripped. By clicking on "Normal" (Normal), you can view the voltages and currents, similar to the electricity meters.
 
 ### Black screen (no display)
 
@@ -43,7 +43,7 @@ If the Pico delivers less power than it should, a phase may not be connected cor
 
 Meaning: 
 
-- The Pico screen displays nothing. 
+- The Pico screen does not display anything. 
 
 Possible causes:
 
@@ -57,15 +57,15 @@ Action:
 
 - If the Pico is offline
 
-    - Step 1: disconnect the power and switch it back on.
+    - Step 1: Disconnect it from the power supply and switch it back on.
 
-    - Step 2: Check whether the Application Version is 1.xx ([Check hardware version](https://webforms.smart-me.com/connect/deviceoverview.aspx)). If so, [fill in the RMA](/rma-antragsformular-schweiz) with the error description: Black screen with Application Version 1.xx
+    - Step 2: Check whether the Application Version is 1.xx ([Check hardware version](https://webforms.smart-me.com/connect/deviceoverview.aspx)), if so, [fill in the RMA](/rma-antragsformular-schweiz) with the error description: Black screen with Application Version 1.xx
 
     - Step 3: If this does not help, contact support.
 
-- If the Pico is online, it can be restarted via the smart-me portal. (Select Pico / gear icon at the top right / Advanced actions (Erweiterte Aktionen) / Restart (Neustart))
+- If the Pico is online, it can be restarted via the smart-me portal. (Select Pico / cogwheel at the top right / Advanced actions (Erweiterte Aktionen) / Restart (Neustart))
 
-- If the RCD trips, it may be an isolated case. If it happens more often, please contact us. Except for the "IONIQ 5" and "Zoé": in isolated cases, these cars trip the RCD at the end of the charging session, and as a manufacturer of charging stations there is nothing we can do about it.
+- If the RCD trips, it may be an isolated incident. If it happens more frequently, please contact us. Except for the "IONIQ 5" and "Zoé": in isolated cases, these cars trip the RCD at the end of the charging session, and as a manufacturer of charging stations there is nothing we can do about it.
 
 ![Pico errors – Figure 1](/img/stoerungsbehebung-pico-fehler/01.png)
 
@@ -75,16 +75,16 @@ When a car is plugged in, the following should normally happen with
 
 - Authentication None 
 
-    - The standby screen disappears and a sequence with a charging start appears
+    - The standby image disappears and a sequence with a charging start appears
 
-- Authentication eCarUp Backen 
+- Authentication eCarUp Backend 
 
-    - the screen with "Auth RFID App" appears.
+    - the image with "Auth RFID App" appears.
 
 
 If this is not the case, please proceed as follows
 
-- On the car, check whether the cable is plugged in correctly.
+- Check on the car whether the cable is plugged in correctly.
 
 - On the Pico, make sure that the cable is fully inserted.
 
@@ -102,13 +102,13 @@ If it still does not respond, the station operator must check whether a cable is
 
 
 
-Cable or car (mostly)
+Cable or car (usually)
 
 
 
 Meaning: 
 
-- Problem with the RDC sensor (residual current device). An RCD is a personal protection device in the electrical installation .
+- Problem with the RDC sensor (residual current device). An RCD is a personal protection device in the electrical installation.
 
 
 
@@ -119,7 +119,7 @@ Possible causes:
 
 - Charging cable that froze overnight and thawed again.
 
-- Defect in the cable or car. This can be tested by having another car charge at the station or by having the car causing the error charge at another Pico.
+- Defect in the cable or car. This can be tested by having another car charge at the station or by charging the car causing the error at another Pico.
 
 - Defect in the Pico electronics, e.g. water damage.
 
@@ -137,14 +137,14 @@ Action:
 
 Meaning: 
 
-- This error occurs when the cable cannot be locked (e.g. if the plug is not inserted properly).
+- This error occurs when the cable cannot be locked (e.g. if the plug is not inserted correctly).
 
 
 Action: 
 
-- Restart the  Pico once, either via the cloud or locally. This recalibrates the sensor for the cable lock.
+- Restart the Pico once, either via the cloud or locally. This recalibrates the sensor for the cable lock.
 
-- In most cases, it is also sufficient to insert the cable properly (with some force) and try again.
+- In most cases, it is also sufficient to insert the cable correctly (with some force) and try again.
 
 
 Display in the portal
@@ -198,7 +198,7 @@ Action:
 
 Meaning:  
 
-- An error with the MID energy measuring device
+- An error with the MID power measuring device
 
 
 
@@ -266,14 +266,14 @@ Display:
 - The lower bar is only one pixel wide and red
 
 
-Meaning : 
+Meaning: 
 
 - The charging station does not release any current.
 
 
-Possible causes :
+Possible causes:
 
-- The charging management cannot release any current to the station because a Pico is overloaded.
+- The charging management cannot release current to the station because a Pico is overloaded.
 
 - The Pico in the charging group cannot communicate via the mesh with other Picos in the same charging group.
 
@@ -311,34 +311,34 @@ Action:
 
 - Perform a firmware update if the version is lower than 0.0.29.
 
-- The display brightness of the Pico should be set to the minimum. This has the greatest effect, as less energy is then generated directly inside the housing.
+- The display brightness of the Pico should be set to the minimum. This has the greatest effect, as less energy is generated directly inside the housing.
 
 
 Car-specific problems
 
-- Hyundai Ioniq 5: In isolated cases, this car trips the RCD at the end of the charging session, and as a manufacturer of charging stations there is nothing we can do about it, since the RCD is tripped independently of the charging station.
+- Hyundai Ioniq 5: In isolated cases, this car trips the RCD at the end of the charging session, and as a manufacturer of charging stations there is nothing we can do about it. The RCD trips independently of the charging station.
 
-- Zoé: The older models must be configured with a start current of 10A, as they do not start charging at 6A. A test has shown that with a single-phase charging cable, charging starts even when only 6A start current is available. In isolated cases, this car trips the RCD at the end of the charging session, and as a manufacturer of charging stations there is nothing we can do about it, since the RCD is tripped independently of the charging station.
+- Zoé: The older models must be configured with a start current of 10A, as they do not start charging at 6A. A test has shown that with a single-phase charging cable, charging also starts when only 6A start current is available. In isolated cases, this car trips the RCD at the end of the charging session, and as a manufacturer of charging stations there is nothing we can do about it. The RCD trips independently of the charging station.
 
 - Renault Kangoo Electric: Only starts charging from 8A
 
-- Skoda Enyaq: It can sometimes take up to 1min 30sec for the charging session to start. Alternatively, deactivate Car-ID.
+- Skoda Enyaq: It can sometimes take up to 1min 30sec for the charging session to start. Alternatively, deactivate the Car-ID.
 
 - Audi Q4: Charging does not start. 
 
     - Solution 1: According to initial experience on 23.01.2026, the problem could also be solved with the latest Audi software. 
 
-    - Solution 2: Install at least version 0.0.33 on the Pico and deactivate car-id.
+    - Solution 2: Install at least version 0.0.33 on the Pico and deactivate the car-id.
 
-- Dacia Spring: Charging does not start. Solution: Install version 0.0.33 and deactivate car-id on the Pico.
+- Dacia Spring: Charging does not start. Solution: Install version 0.0.33 and deactivate the car-id on the Pico.
 
-- Hyundai Ioniq: The car only starts if the RFID card is presented first and then charging is started. Alternatively, Car-ID must be deactivated.
+- Hyundai Ioniq: The car only starts if the RFID card is presented first and charging is then started. Alternatively, the Car-ID must be deactivated.
 
-- Leapmotor / T03: Cannot cope with phase switching. If charging is interrupted by the car after one  minute, the door must be opened and closed several times on the car side.
+- Leapmotor / T03: Cannot cope with phase switching. If charging is interrupted by the car after one minute, the door must be opened and closed several times on the car side.
 
-- Subaru Solterra: Only starts charging from 8A and with Car-ID deactivated
+- Subaru Solterra: Only starts charging from 8A and with the Car-ID deactivated
 
-- Mazda MX-30: Only starts charging if Car-ID is deactivated.
+- Mazda MX-30: Only starts charging if the Car-ID is deactivated.
 
 - Honda E:ny1: Only starts charging from 8A.
 

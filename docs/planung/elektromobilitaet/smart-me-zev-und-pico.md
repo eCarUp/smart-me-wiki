@@ -14,7 +14,7 @@ sidebar_label: 'smart-me System und Pico'
 
 Das Lastmanagement der Pico Ladestation basiert auf der smart-me Zählerhardware. Diese Hardware kann direkt als Referenzpunkte verwendet werden.
 
-Ist bereits eine Fremdzählerinstallation vorhanden kann das Lastmanagement für Picos auch über eine Drittanbietersoftware gelöst werden, anstelle des smart-me Multi-Level-Lastmanagements.
+Ist bereits eine Fremdzählerinstallation vorhanden, kann das Lastmanagement für Picos auch über eine Drittanbietersoftware gelöst werden, anstelle des smart-me Multi-Level-Lastmanagements.
 Weitere Informationen dazu findest du hier unter "erweiterte Informationen".
 
 Vorteile des smart-me Lastmanagements:
@@ -38,9 +38,9 @@ Funktional benötigte Hardwarepunkte für das gesamtheitliche Lastmanagement im 
     \- Solaroptimierungspunkt und nötig zur Kapazitätsverteilung innerhalb des Areales.
 
 - Optional aber empfohlen 2x E-Mobility Zähler ([Telstar 80A](/produkte/telstar-80a) oder [Telstar CT](/produkte/telstar-ct))
-    \- Referenz wenn mehrere Ladegruppen an einem Abgang angeschlossen sind und sich die Kapazität teilen.
+    \- Referenz, wenn mehrere Ladegruppen an einem Abgang angeschlossen sind und sich die Kapazität teilen.
     \- Abrechnungsmessung für Verluste und Standbyenergie
-    \- Andere Verbraucher welche nicht Pico Ladestationen sind können zusätzlich berücksichtigt werden. z.B. Garagenbeleuchtung, Steckdosen, usw.
+    \- Andere Verbraucher, welche nicht Pico Ladestationen sind, können zusätzlich berücksichtigt werden. z.B. Garagenbeleuchtung, Steckdosen, usw.
 
 - Optional aber ausdrücklich empfohlen 1x Arealzähler ([Telstar 80A](/produkte/telstar-80a) oder [Telstar CT](/produkte/telstar-ct))
     \- Wenn im ZEV bereits vorhanden, kann dieser Punkt berücksichtigt werden. Fehlt der Arealzähler, kann dieser virtuell abgebildet werden.

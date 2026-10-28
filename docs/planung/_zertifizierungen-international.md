@@ -1,11 +1,11 @@
 ## Generelle Produktnormen und EU-Regulierungen
 
-### RED - Radio Equipement Directive und EN 18031
+### RED - Radio Equipment Directive und EN 18031
 
-Die Radio Equipment Directive muss von allen Geräten erfüllt werden welche Schnittstellen mit Funkanbindungen besitzen und in der Schweiz oder der EU angeboten werden wollen.
-Diese kümmert sich z.B. um die Einhaltung von Signalstärken, Störaussendung oder Störfestigkeit von W-LAN, 4G und Bluetooth Modulen. Des weiteren auch um Funktionalitäten und die Sicherheitsanforderungen an diese Module und Produkte.
+Die Radio Equipment Directive muss von allen Geräten erfüllt werden, welche Schnittstellen mit Funkanbindungen besitzen und in der Schweiz oder der EU angeboten werden wollen.
+Diese kümmert sich z.B. um die Einhaltung von Signalstärken, Störaussendung oder Störfestigkeit von W-LAN, 4G und Bluetooth Modulen. Des Weiteren auch um Funktionalitäten und die Sicherheitsanforderungen an diese Module und Produkte.
 
-Die RED (EU) 2022/30 erfährt aktuelle eine Erweiterung um die Artikel 3.3 d, 3.3 e und 3.3 f. Diese befassen sich mit dem Aspekt der Cybersicherheit für das Netz und dem Schutz vor Datenklau / Datenänderung und Hacking.
+Die RED (EU) 2022/30 erfährt aktuell eine Erweiterung um die Artikel 3.3 d, 3.3 e und 3.3 f. Diese befassen sich mit dem Aspekt der Cybersicherheit für das Netz und dem Schutz vor Datenklau / Datenänderung und Hacking.
 
 Seit dem 01.08.2025  kann die Norm EN 18031-1, -2, -3 zur Erfüllung dieser ergänzenden RED Artikel herangezogen werden.
 
@@ -19,7 +19,7 @@ Das umfasst beispielsweise folgende Punkte: 
 
 - Unveränderbarkeit der Firmware für die Messhardware.
 
-- Keine unnötigen Kommunikationswege welche Default mässig aktiviert sind.
+- Keine unnötigen Kommunikationswege, welche Default mässig aktiviert sind.
 
 - Einsatz hochentwickelter kryptographischer Chipsätze zur Erzeugung und Speicherung von kryptografischen Schlüsseln.
 
@@ -30,9 +30,9 @@ Das umfasst beispielsweise folgende Punkte: 
 
 Produktnormen beschreiben generell den zu erfüllenden Rahmen in Bezug auf EMV, Sicherheit und Funktionalität eines Produktes.
 Für fast alle Produkte gibt es einen definierten Standard, welcher bei der Entwicklung herangezogen werden kann.
-Die Normen sind allerdings nicht immer Punktgenau anwendbar auf ein vorliegendes Produkt. Teilweise müssen mehrere Produktnormen gleichzeitig erfüllt werden.
+Die Normen sind allerdings nicht immer punktgenau anwendbar auf ein vorliegendes Produkt. Teilweise müssen mehrere Produktnormen gleichzeitig erfüllt werden.
 
-Die Verwendeten Produktnormen sind auf dem Konformitätszeugnis des Produktes ausgewiesen.
+Die verwendeten Produktnormen sind auf dem Konformitätszeugnis des Produktes ausgewiesen.
 
 ## Measuring Instruments Directive (MID) - Zertifizierung
 

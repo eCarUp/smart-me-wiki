@@ -10,9 +10,9 @@ sidebar_label: 'AbaImmo'
 
 - Die Abrechnung und Verschlüsselung der Kosten nach VEWA erfolgt im smart\-me System.
 
-- Jede Abrechnungseinheit im AbaImmo die Abgefragt werden will, muss in Smart-me kongruent bestehen
+- Jede Abrechnungseinheit im AbaImmo, die abgefragt werden will, muss in Smart-me kongruent bestehen
 
-- Damit die Abrechnung stimmt, müssen für jede Abrechnungperiode in allen Einheiten die Mietverhältnisse sowie Leerstände erfasst sein!
+- Damit die Abrechnung stimmt, müssen für jede Abrechnungsperiode in allen Einheiten die Mietverhältnisse sowie Leerstände erfasst sein!
 
 - Der Mieterspiegel aus AbaImmo wird mit smart-me automatisch abgeglichen.
 
@@ -23,7 +23,7 @@ sidebar_label: 'AbaImmo'
 
 Aktuell unterstützt:
 
-- Übertragung von kWh, m3, Promille oder Preis Wert eines einzelnen Tarifs für Wärme, Kälte, Warmwasser und Kaltwasser uns Stromeinheitstarif
+- Übertragung von kWh, m3, Promille oder Preis Wert eines einzelnen Tarifs für Wärme, Kälte, Warmwasser und Kaltwasser und Stromeinheitstarif
 
 - Übertragung von Promille oder Preis Werten als Summe von Tarifen wie z.B. Elektrizität
 
@@ -72,13 +72,13 @@ Am einfachsten lässt sich die Datenübertragung im ZEV so arrangieren:
 
 8.  Hinterlege nun bei jedem abzufragenden Objekt der Immobilie die Ablesefirma "smart-me" mittels der VHKA Nummer von AbaImmo.
 
-    Die Hinterlegung steuert ob die Anfrage im Abfragefile getätigt oder ignoriert wird.
+    Die Hinterlegung steuert, ob die Anfrage im Abfragefile getätigt oder ignoriert wird.
 
 9.  Navigiere nun zu Y2312 VHKA-Schnittstelle verarbeiten
 
 10.  Wähle nun die gewünschte Immobilie aus und den Speicherort für das VHKA-File.
 
-11.  Exportiere nun das File um es anschliessend in smart-me hochzuladen.
+11.  Exportiere nun das File, um es anschliessend in smart-me hochzuladen.
 
 ![AbaImmo – Abbildung 2](/img/schnittstellen-dta-vhka-files-abaimmo/02.png)
 
@@ -88,21 +88,21 @@ Am einfachsten lässt sich die Datenübertragung im ZEV so arrangieren:
 
 ![AbaImmo – Abbildung 5](/img/schnittstellen-dta-vhka-files-abaimmo/05.png)
 
-12\. Navigiere im smart-me Rechnungserstellung zu "Konfiguration" und prüfe ob VEWA aktiviert oder inaktiv ist.
+12\. Navigiere im smart-me Rechnungserstellung zu "Konfiguration" und prüfe, ob VEWA aktiviert oder inaktiv ist.
 
-\--> ist es aktiviert, so muss geprüft werden ob eine Abrechnungsperiode gleich dem Abfragefile aus AbaImmo besteht, falls nicht eine entsprechende erfassen.
+\--> ist es aktiviert, so muss geprüft werden, ob eine Abrechnungsperiode gleich dem Abfragefile aus AbaImmo besteht, falls nicht eine entsprechende erfassen.
 
 13\. Navigiere nun zu "Rechnungen" selektiere die Liegenschaft und drücke rechts auf "exportieren"
 
 14\. Wähle den Export Typ "AbaImmo" und konfiguriere die Informationen gemäss Auswahl. Beachte, dass Strom nur ab V2025 zur Verfügung steht.
 
-15\. Wähle nun die Datei zum Hochladen aus und klicke auf "exportieren". Nach beendigung der Berechnung steht das File zu m Herunterladen bereit.
+15\. Wähle nun die Datei zum Hochladen aus und klicke auf "exportieren". Nach Beendigung der Berechnung steht das File zum Herunterladen bereit.
 
 16. Lade das ergänzte File mittels "Herunterladen" auf deinen Rechner.
 
 17\. Lade nun das heruntergeladene File im AbaImmo unter Y2312 Schnittstelle verarbeiten hoch (Import).
 
-18\. Betrachte die hochgeladenen Daten unter Y2311. (Wähle die Imobiliennummer)
+18\. Betrachte die hochgeladenen Daten unter Y2311. (Wähle die Immobiliennummer)
 
 ![AbaImmo – Abbildung 6](/img/schnittstellen-dta-vhka-files-abaimmo/06.png)
 
@@ -131,13 +131,13 @@ Gemäss oberem Beispiel wird nun für die Wohnung 303-2.2 im smart-me die 4,5-Zi
 
 ### Kostenstellenbuchung im Abaimmo durchführen
 
-Werden vorausgehende Buchungen in AbImmo auf die Kostenstellen benötigt, können diese aus der Zusammenfassung CSV bei jeder erstellter Rechnung entnommen werden.
+Werden vorausgehende Buchungen in AbaImmo auf die Kostenstellen benötigt, können diese aus der Zusammenfassung CSV bei jeder erstellten Rechnung entnommen werden.
 
-Üblicherweise ist das der Fall für den Strom, welcher nur als einzel position übertragen wird. Bei Buchungen in diesem Fall muss der Solarstrom und der Netzstrom gebucht werden. Einzelanteile können aus dem CSV entnommen werden die Einnahmen zu verteilen.
+Üblicherweise ist das der Fall für den Strom, welcher nur als Einzelposition übertragen wird. Bei Buchungen in diesem Fall muss der Solarstrom und der Netzstrom gebucht werden. Einzelanteile können aus dem CSV entnommen werden die Einnahmen zu verteilen.
 
 Bei der Umlage des Solarstromes wird dies öfters nötig sein, da der Ursprung dieser Information im smart-me System liegt.
 
-Bei den anderen Kostenstellen liegen üblicherweise externe Rechnungen vor welche gebucht werden können.
+Bei den anderen Kostenstellen liegen üblicherweise externe Rechnungen vor, welche gebucht werden können.
 
 1.  Betrete das smart-me Billing über den Tab Rechnungsstellung
 
@@ -152,6 +152,6 @@ Bei den anderen Kostenstellen liegen üblicherweise externe Rechnungen vor welch
 
 ![AbaImmo – Abbildung 11](/img/schnittstellen-dta-vhka-files-abaimmo/11.png)
 
-Darin enthalten sin die jeweils verkauften kWh, m3 und der Preis pro Tarif, Abrechnungseinheit und im Total zu finden.
+Darin enthalten sind die jeweils verkauften kWh, m3 und der Preis pro Tarif, Abrechnungseinheit und im Total zu finden.
 
 Mit diesem Totalwert des jeweiligen Tarifs, kann eine Buchung in AbaImmo erledigt werden und dann mit dem DTA-VHKA File mit Promille passend verteilt werden.

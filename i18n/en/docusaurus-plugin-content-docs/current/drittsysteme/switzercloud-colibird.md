@@ -6,7 +6,7 @@ sidebar_label: 'Switzercloud / Colibird'
 ---
 The Switzercloud lets you connect and collect data across different manufacturers, transmission technologies, applications and systems.
 
-Use Switzercloud to collect data from IoT devices that use a wide range of transmission paths, from LORAWAN sensors and Ethernet devices to direct cloud-to-cloud data transfers (API).
+With Switzercloud, you collect data from IoT devices over a wide range of transmission paths, from LORAWAN sensors and Ethernet devices through to direct cloud-to-cloud data transfers (API).
 
 1.  Collect data
 
@@ -14,18 +14,18 @@ Use Switzercloud to collect data from IoT devices that use a wide range of trans
 
 3.  Process data
 
-4.  Raise alarms and control
+4.  Alert and control
 
 ![Switzercloud / Colibird – Figure 1](/img/drittsysteme-switzercloud-colibird/01.png)
 
 <div className="row">
 <div className="col col--7">
 
-The Switzercloud can retrieve, collect and further process the measurement data from the smart-me portal via the API.
-The processing results in alarms, reports, invoicing, control actions and/or visualizations with the help of Colibird.
+The Switzercloud can retrieve, collect and further process the measurement data from the smart-me portal via API.
+The processing results in alerts, reports, billing, control actions and/or visualizations with the help of Colibird.
 
 </div>
-<div className="col col--5 text--center">
+<div className="col col--5 bild--mitte">
 
 ![Switzercloud / Colibird – Figure 2](/img/drittsysteme-switzercloud-colibird/02.png)
 

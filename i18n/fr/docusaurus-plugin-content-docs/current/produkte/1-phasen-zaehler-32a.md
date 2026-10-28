@@ -1,13 +1,13 @@
 ---
 title: 'Compteur monophasé 32A'
 slug: '/produkte/1-phasen-zaehler-32a'
-description: 'Le smart-me Meter est le premier compteur d''électricité pouvant être analysé et commandé depuis n''importe où.'
+description: 'Le smart-me Meter est le premier compteur électrique qui peut être analysé et commandé de n''importe où.'
 sidebar_label: 'Compteur monophasé 32A'
 displayed_sidebar: wikiSidebar
 ---
-Le smart-me Meter est le premier compteur d'électricité pouvant être analysé et commandé depuis n'importe où. Aucun matériel supplémentaire n'est nécessaire. Il utilise le réseau WiFi existant et se connecte directement au smart-me Cloud. Vous pouvez ainsi consulter confortablement votre consommation d'énergie en temps réel.
+Le smart-me Meter est le premier compteur électrique qui peut être analysé et commandé de n'importe où. Aucun matériel supplémentaire n'est nécessaire. Il utilise le réseau WiFi existant et se connecte directement au smart-me Cloud. Vous voyez ainsi confortablement votre consommation d'énergie en temps réel.
 
-Vente arrêtée le 01.01.2023, le support et la prise en charge dans le cloud restent assurés.
+Vente arrêtée le 01.01.2023, le support et le service cloud restent assurés.
 
 ![Compteur monophasé 32A – Illustration 1](/img/produkte-1-phasen-zaehler-32a/01.jpg)
 
@@ -29,11 +29,11 @@ Vente arrêtée le 01.01.2023, le support et la prise en charge dans le cloud re
 
 - Gestion complète de l'énergie dans le smart-me Cloud : 
 
-    - Surveillance en temps réel
+    - Monitoring en temps réel
 
-    - facturation automatique ([smart-me Billing](/konfiguration/billing))
+    - Facturation automatique ([smart-me Billing](/konfiguration/billing))
 
-    - Commande à l'aide d'[actions déclenchées par un événement](/konfiguration/wenndann-aktionen/ereignisaktionen) et d'[actions si/alors](/konfiguration/wenndann-aktionen)
+    - Commande avec des [actions déclenchées par un événement](/konfiguration/wenndann-aktionen/ereignisaktionen) et des [actions si/alors](/konfiguration/wenndann-aktionen)
 
 - Installation simple avec l'app smart-me gratuite pour [Android](https://play.google.com/store/apps/details?id=com.smart_me) et [iOS](https://apps.apple.com/ch/app/smart-me/id929146952?ign-mpt=uo%3D4)
 
@@ -59,13 +59,13 @@ Voir [Mise en service](/konfiguration/inbetriebnahme)
 | Largeur | 2 modules, 36 x 90 mm |
 | Interfaces | WiFi, S0 |
 | Valeur d'impulsion S0 | 1000 impulsions par kWh |
-| Autoconsommation | &lt; 0.5 W |
+| Consommation propre | &lt; 0.5 W |
 
-\*ne dispose pas de sa propre alimentation électrique.
+\*ne dispose pas de sa propre alimentation en tension.
 
 ## Configurer les entrées et sorties
 
-Le smart-me Meter dispose d'une sortie et d'une entrée, qui peuvent être utilisées comme entrée et sortie d'impulsions ou comme contact libre de potentiel commutable. Vous trouverez plus de détails [ici](/schnittstellen/ein-und-ausgaenge). 
+Le smart-me Meter dispose d'une sortie et d'une entrée qui peuvent être utilisées comme entrée et sortie d'impulsions ou comme contact libre de potentiel commutable. Vous trouverez plus de détails [ici](/schnittstellen/ein-und-ausgaenge). 
 
 ## Dimensions et raccordements
 
@@ -89,20 +89,20 @@ E1 : commutation tarifaire (entrée numérique)
 S0 : sortie d'impulsions (contact libre de potentiel)
 
 </div>
-<div className="col col--7 text--center">
+<div className="col col--7 bild--mitte">
 
 ![Compteur monophasé 32A – Illustration 3](/img/produkte-1-phasen-zaehler-32a/03.png)
 
 </div>
 </div>
 
-## Modifier l'intervalle d'envoi
+## Modifier l'intervalle de téléversement
 
-- se connecter au portail smart-me
+- Se connecter au portail smart-me
 
-- sélectionner le compteur
+- Sélectionner le compteur
 
-- en haut à droite, sélectionner la roue dentée
+- En haut à droite, sélectionner la roue dentée
 
 - Paramètres généraux (Allgemeine Einstellungen)
 

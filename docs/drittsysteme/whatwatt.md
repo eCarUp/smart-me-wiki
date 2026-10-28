@@ -27,7 +27,7 @@ Anwendungen:
 - Kompatibel mit smart-me Nimbus 100A zur lokalen Auslesung per Modbus TCP
 
 </div>
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
 ![whatwatt – Abbildung 1](/img/drittsysteme-whatwatt/01.png)
 
@@ -41,16 +41,16 @@ Anwendungen:
 <div className="row">
 <div className="col col--8">
 
-Die Übertragene Zeit muss pro Modul auf NTP Zeit gestellt werden.
+Die übertragene Zeit muss pro Modul auf NTP Zeit gestellt werden.
 
-1.  Öffnen Sie ihre Whatwatt APP
+1.  Öffnen Sie Ihre Whatwatt APP
 2.  Navigiere ins Web-UI (Browser)
 3.  Klicke auf Meter
 4.  Scrolle runter bis Time Handling
 5.  Setze Time Handling auf "Use Networktime" in Reports
 
 </div>
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
 ![whatwatt – Abbildung 2](/img/drittsysteme-whatwatt/02.jpg)
 

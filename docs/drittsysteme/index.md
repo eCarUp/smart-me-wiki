@@ -104,7 +104,7 @@ smart-me ist ein offenes Energiemanagement-System. Mit smart-me können Strom-, 
 
 ### Webinar "ZEV Planung"
 
-Finde heraus ob du einen Partner brauchst, einfach erklärt.
+Finde heraus, ob du einen Partner brauchst, einfach erklärt.
 
 <Video src="fb33ML8YTYA" title="YouTube Video, Webinar &quot;Planung einer ZEV&quot;" />
 

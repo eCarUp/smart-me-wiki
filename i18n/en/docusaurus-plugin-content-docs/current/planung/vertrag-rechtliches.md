@@ -8,19 +8,19 @@ symbol: 'vertrag'
 
 ## Contractual basis for a ZEV (Switzerland)
 
-The ZEV (association for own consumption)  is a contractual association of several end consumers who consume their self-produced electricity on site. 
+The ZEV (association for own consumption)  is a contractual association of several end consumers who consume the electricity they produce themselves on site. 
 
 In an association for own consumption, the end consumers share a common grid connection. Towards the distribution grid operator, all end consumers participating in the respective ZEV act as a single customer. 
 
-### Standardised templates for ZEV contracts and tenancy agreement amendments (ZEV contract template)
+### Standardized templates for ZEV contracts and tenancy agreement amendments (ZEV contract template)
 
-Homeowners' association: [https://www.hev-schweiz.ch/wohnen/bauen/haustechnik-gebaeudetechnik/eigenverbrauch/](https://www.hev-schweiz.ch/wohnen/bauen/haustechnik-gebaeudetechnik/eigenverbrauch/) (login required)
+Swiss Homeowners' Association (Hauseigentümerverband): [https://www.hev-schweiz.ch/wohnen/bauen/haustechnik-gebaeudetechnik/eigenverbrauch/](https://www.hev-schweiz.ch/wohnen/bauen/haustechnik-gebaeudetechnik/eigenverbrauch/) (login required)
 
-Self-consumption guide by Energie Schweiz: [https://www.energieschweiz.ch/gebaeude/eigenverbrauch/](https://www.energieschweiz.ch/gebaeude/eigenverbrauch/)  
+Self-consumption guide from SwissEnergy (Energie Schweiz): [https://www.energieschweiz.ch/gebaeude/eigenverbrauch/](https://www.energieschweiz.ch/gebaeude/eigenverbrauch/)  
 
 
 
-If you need in-depth legal support with implementing your ZEV, you will find partners known to us below.
+If you need in-depth legal support with implementing the ZEV, you will find partners known to us below.
 
 ZEV legal matters with Domenig & Partner 
 
@@ -39,7 +39,7 @@ Agenda
 
 ![Contract / Legal – Figure 1](/img/planung-vertrag-rechtliches/01.png)
 
-Dr.iur., attorney at law Mischa Morgenbesser
+Dr. iur., attorney Mischa Morgenbesser
 
 BADERTSCHER RECHTSANWÄLTE AG
 
@@ -60,7 +60,7 @@ Web: [https://www.b-legal.ch/](https://www.b-legal.ch/)
 
 
 
-Dr.iur., attorney at law Simone Walther
+Dr. iur., attorney Simone Walther
 
 Schärer Rechtsanwälte
 

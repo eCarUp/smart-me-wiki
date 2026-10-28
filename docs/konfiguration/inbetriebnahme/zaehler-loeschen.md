@@ -15,7 +15,7 @@ Die Daten eines gelöschten Zählers sind unwiderruflich gelöscht und können n
 
 Das Löschen von Zählern wird grundsätzlich von smart-me nicht empfohlen. Wir empfehlen generell, die Zähler zu deaktivieren. Deaktivierte Zähler verursachen keine Lizenzkosten und es ist jederzeit möglich, auf die historischen Daten zuzugreifen.
 
-Bei M-Bus-Zähler ist das Löschen nicht effektiv, da die Zähler bei der nächsten Ablesung, sofern immer noch online, wieder im Portal auftauchen, in diesem Fall ist die Deaktivierung die einzige Möglichkeit.
+Bei M-Bus-Zählern ist das Löschen nicht effektiv, da die Zähler bei der nächsten Ablesung, sofern immer noch online, wieder im Portal auftauchen, in diesem Fall ist die Deaktivierung die einzige Möglichkeit.
 
 ## Zähler deaktivieren
 
@@ -54,7 +54,7 @@ Bei M-Bus-Zähler ist das Löschen nicht effektiv, da die Zähler bei der nächs
 
 - Speichern
 
-- Die pico ist nun grau
+- Die Pico ist nun grau
 
 
 ![Zähler Löschen / Deaktivieren – Abbildung 2](/img/konfiguration-inbetriebnahme-zaehler-loeschen/02.png)

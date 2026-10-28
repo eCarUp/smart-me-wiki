@@ -5,7 +5,7 @@ description: 'Die Lastmanagementgruppe ist vermutlich nicht korrekt konfiguriert
 sidebar_label: 'Multilevel Lastmanagement Fehlermeldung'
 ---
 <div className="row">
-<div className="col col--6 text--center">
+<div className="col col--6 bild--mitte">
 
 ![Multilevel Lastmanagement Fehlermeldung – Abbildung 1](/img/stoerungsbehebung-multilevel-lastmanagement-fehlermeldung/01.png)
 
@@ -39,7 +39,7 @@ sidebar_label: 'Multilevel Lastmanagement Fehlermeldung'
 
 
 <div className="row">
-<div className="col col--7 text--center">
+<div className="col col--7 bild--mitte">
 
 ![Multilevel Lastmanagement Fehlermeldung – Abbildung 6](/img/stoerungsbehebung-multilevel-lastmanagement-fehlermeldung/06.png)
 
@@ -62,7 +62,7 @@ Dafür kann es folgende Gründe geben:
 
 - Es hat nicht genug Kapazität für alle Gruppen --> Reduziere die Gruppenströme ein wenig, um eine Balance zwischen den Gruppen zu erhalten.
 
-- Es hat nicht genug Kapazität für alle Gruppen --> Reduziere die Gruppenströme Zeitweise mit der Minimalstrom Gruppeneinstellung pro Stunde.
+- Es hat nicht genug Kapazität für alle Gruppen --> Reduziere die Gruppenströme zeitweise mit der Minimalstrom Gruppeneinstellung pro Stunde.
 
 
 ## Den Gruppen wird immer nur der Internetausfallstrom zur Verfügung gestellt

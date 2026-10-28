@@ -109,7 +109,7 @@ PE: Schutzleiter
 
 
 
-Der Schutzleiter sollte an der oberen Anschlussschraube angehängt werden damit der Standfuss direkt zusammen mit der Station geerdet wird.
+Der Schutzleiter sollte an der oberen Anschlussschraube angehängt werden, damit der Standfuss direkt zusammen mit der Station geerdet wird.
 
 Das Produkt kann nur in 3-Phasen Sternschaltung oder 1-phasig betrieben werden!
 
@@ -187,7 +187,7 @@ Installation, Wartung, Reparatur, Inbetriebnahme:
 
 - Lies das gesamte Handbuch vor Installation und Bedienung des Produkts sorgfältig durch.
 
-- Lebensgefahr durch hohe elektrische Spannung. Niemals Veränderungen an Bauteilen, Software oder Anschlussleitungen durchführen ohne spannungsfrei zu sein. Deshalb sind die entsprechenden Vorsicherungen zu entfernen und so aufzubewahren, dass andere Personen diese nicht unbemerkt wiedereinsetzen können.
+- Lebensgefahr durch hohe elektrische Spannung. Niemals Veränderungen an Bauteilen, Software oder Anschlussleitungen durchführen, ohne spannungsfrei zu sein. Deshalb sind die entsprechenden Vorsicherungen zu entfernen und so aufzubewahren, dass andere Personen diese nicht unbemerkt wiedereinsetzen können.
 
 - Das Produkt darf ausschließlich von einer zugelassenen Elektrofachkraft installiert, repariert oder gewartet werden. Dabei müssen alle gültigen kommunalen, regionalen und nationalen Vorschriften für elektrische Anlagen eingehalten werden. 
 
@@ -208,7 +208,7 @@ Verwendungszweck:
 
 - Dieses Produkt ist ausschließlich für das Aufladen von elektrisch betriebenen Fahrzeugen vorgesehen, welche mit nicht gasenden Batterien ausgestattet sind. Das Produkt darf nur mit einem Ladekabel nach IEC 62196 verwendet werden. Andere Verwendungen als die hier angegebenen sind unzulässig.
 
-- Das Gerät ist für die Verwendung Drinnen und Draussen vorgesehen.
+- Das Gerät ist für die Verwendung drinnen und draussen vorgesehen.
 
 
 Betrieb:

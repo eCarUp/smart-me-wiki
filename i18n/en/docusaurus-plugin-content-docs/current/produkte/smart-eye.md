@@ -1,31 +1,31 @@
 ---
 title: 'smart-eye'
 slug: '/produkte/smart-eye'
-description: 'The smart-eye brings energy meters that comply with the FNN specification for basic meters (modern metering devices) into the smart-me Cloud.'
+description: 'The smart-eye brings energy meters according to the FNN specification for basic meters (modern metering devices) into the smart-me Cloud.'
 sidebar_label: 'smart-eye'
 displayed_sidebar: wikiSidebar
 ---
-The smart-eye brings energy meters that comply with the FNN specification for basic meters (modern metering devices) into the smart-me Cloud. To do this, the smart-eye is attached to the optical INFO data interface. The energy data is then transmitted to the smart-me Cloud via local WiFi. Using the app or the online login, you can view consumption visualizations in near real time and, where applicable, grid-relevant data such as frequency, voltage or current.
+The smart-eye brings energy meters according to the FNN specification for basic meters (modern metering devices) into the smart-me Cloud. For this purpose, the smart-eye is attached to the optical INFO data interface. The energy data is then transmitted to the smart-me Cloud via local WiFi. Via the app or online login, consumption visualizations and, where applicable, data relevant to grid operation such as frequency, voltage or current can be accessed in near real time.
 
 Sales discontinued on 30.03.2021, support and cloud support are guaranteed until 30.03.2025.
 
-The smart-me system supports multiple utilities: the readings of other meters, such as gas meters, can also be read and integrated into energy management. In addition, depending on the meter type, the smart-eye can automatically enter the PIN code to unlock the extended data set. 
+The smart-me system is multi-utility capable: the readings of other meters, such as gas meters, can also be read and integrated into energy management. In addition, depending on the meter type, the smart-eye can automatically enter the PIN code for unlocking the extended data set. 
 
 ![smart-eye – Figure 1](/img/produkte-smart-eye/01.jpg)
 
 ## Functions
 
-- Real-time visualization of meter data
+- Real-time visualization of the meter data
 
-- Automatic storage of meter readings in the cloud
+- Automatic storage of the meter readings in the cloud
 
-- Data logger: stores readings during a connection failure and automatically synchronizes them with the cloud once the connection is restored
+- Data logger: storage of the measured values in the event of a connection failure and automatic synchronization with the cloud once the connection is restored
 
 - Encrypted WiFi connection to the smart-me Cloud
 
 - Comprehensive energy management, automatic billing, control and alarms via the smart-me Cloud
 
-- Easy installation with the free smart-me app for Android and iOS
+- Simple installation with the free smart-me app for Android and iOS
 
 
 <Video src="0bvtbGs8G94" title="YouTube video, smart eye for FNN basic meters" />
@@ -37,7 +37,7 @@ Installation and commissioning of the smart-eye module
 | Feature | Value |
 | --- | --- |
 | Supported meters | all meters according to the FNN specification for basic meters |
-| Operating voltage | USB type C interface (5V) |
+| Operating voltage | USB Type C interface (5V) |
 | Interfaces | WiFi, INFO interface (communication with the meter) |
 | Data storage | 2 months |
 | Firmware update | Possible online |

@@ -4,7 +4,7 @@ slug: '/drittsysteme'
 description: 'smart-me è un sistema di gestione dell''energia aperto.'
 sidebar_label: 'Sistemi di terzi'
 ---
-smart-me è un sistema di gestione dell'energia aperto. Con smart-me è possibile trasferire nel cloud i valori di misura di elettricità, acqua, gas e calore. Per il conteggio e l'ottimizzazione offriamo alcuni strumenti nel nostro portale. Puoi però anche trasferire i dati energetici in sistemi di terzi e utilizzarne gli strumenti.
+smart-me è un sistema di gestione dell'energia aperto. Con smart-me è possibile trasferire nel cloud i valori di misura di elettricità, acqua, gas e calore. Per il conteggio e l'ottimizzazione offriamo alcuni strumenti nel nostro portale. Può però anche trasferire i dati energetici in sistemi di terzi e utilizzarne gli strumenti.
 
 ### Software di controllo
 
@@ -102,11 +102,11 @@ smart-me è un sistema di gestione dell'energia aperto. Con smart-me è possibil
 
 </Kacheln>
 
-### Webinar "Pianificazione RCP"
+### Webinar "Pianificazione di un RCP (raggruppamento ai fini del consumo proprio)"
 
-Scopri se hai bisogno di un partner, spiegato in modo semplice.
+Scopra, spiegato in modo semplice, se ha bisogno di un partner.
 
-<Video src="fb33ML8YTYA" title="Video YouTube, webinar &quot;Pianificazione di un RCP (raggruppamento ai fini del consumo proprio)&quot;" />
+<Video src="fb33ML8YTYA" title="Video YouTube, webinar &quot;Pianificazione di un RCP&quot;" />
 
 ### Webinar "Esportare i dati energetici"
 

@@ -14,7 +14,7 @@ Du benötigst für die realen Zähler, aus welchen du den virtuellen Zähler ers
 
 ## Verwendungszweck
 
-Virtuelle Zähler werden im [Billing](/konfiguration/billing) verwendet um den Solartarif zu verrechnen.
+Virtuelle Zähler werden im [Billing](/konfiguration/billing) verwendet, um den Solartarif zu verrechnen.
 
 - Die Summe aller Verbraucher wird hiermit berechnet (Gesamtverbrauch im Solartarif).
 
@@ -92,9 +92,9 @@ Die Funktion Summiere alle Stromzähler ist hilfreich, wenn eine Umgebung mit vi
 
 ### Die korrekten Zähler dem virtuellen Gesamtverbrauch hinzufügen
 
-- Es muss darauf geachtet werden, das die Summe der Zähler genau 100% der bezogenen Leistungen abdeckt.
+- Es muss darauf geachtet werden, dass die Summe der Zähler genau 100% der bezogenen Leistungen abdeckt.
 
-- Bei Geräten in Serie sind nur die Geräte relevant die näher zur Unterverteilung bzw. dem Hausanschluss liegen. (Beispiel E-Mobilität)
+- Bei Geräten in Serie sind nur die Geräte relevant, die näher zur Unterverteilung bzw. dem Hausanschluss liegen. (Beispiel E-Mobilität)
     Es ist darauf zu achten, dass wenn der Abgang referenziert wird, die dahinter befindlichen Ladestationen aus der Summe entfernt werden.
 
 

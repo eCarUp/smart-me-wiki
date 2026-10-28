@@ -14,7 +14,7 @@ sidebar_label: 'Dragino LPS8N'
 
 2.  Öffne den Browser deines Laptops und gib folgende URL in die Adressleiste ein 10.130.1.1
 
-3.  Loge dich ein
+3.  Logge dich ein
     Default User: root
     Default Passwort: dragino
 
@@ -34,12 +34,12 @@ sidebar_label: 'Dragino LPS8N'
 <div className="row">
 <div className="col col--6">
 
-9\. Überprüfe in der Systemübersicht dass bei Lora, IoT Service und Internet ein grüner Hacken ist.
+9\. Überprüfe in der Systemübersicht, dass bei Lora, IoT Service und Internet ein grüner Haken ist.
 
 10\. Auf [https://lora.smart-me.com](https://lora.smart-me.com)  sollte der Gateway nun als "online" angezeigt werden. 
 
 </div>
-<div className="col col--6 text--center">
+<div className="col col--6 bild--mitte">
 
 ![Dragino LPS8N – Abbildung 3](/img/konfiguration-inbetriebnahme-inbetriebnahme-lora-dragino-lps8n/03.png)
 

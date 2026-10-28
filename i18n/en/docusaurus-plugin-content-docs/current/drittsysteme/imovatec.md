@@ -1,20 +1,20 @@
 ---
 title: 'IMOVATEC'
 slug: '/drittsysteme/imovatec'
-description: 'A service provider for all services and billing related to ZEV (association for own consumption) and e-mobility using smart-me and eCarUp technology.'
+description: 'A service provider for the complete range of services and billing for ZEV and e-mobility using smart-me and eCarUp technology.'
 sidebar_label: 'IMOVATEC'
 ---
-A service provider for all services and billing related to ZEV (association for own consumption) and e-mobility using smart-me and eCarUp technology.
+A service provider for the complete range of services and billing for ZEV (association for own consumption) and e-mobility using smart-me and eCarUp technology.
 
 ## IMOVATEC for the ZEV
 
-Get a quick and easy overview of what IMOVATEC can offer you in the webinar alongside.
+The webinar alongside gives you a quick and easy overview of what IMOVATEC can offer you.
 
 - ZEV billing and debt collection
 - Services and support
-- Billing of EV charging stations
+- Billing for EV charging stations
 
-Are you interested as an end customer, property manager, or as a partner and provider of the complete solution?
+Are you interested as an end customer, property manager or as a partner and provider of the complete solution?
 
 Contact IMOVATEC directly to arrange a meeting.
 

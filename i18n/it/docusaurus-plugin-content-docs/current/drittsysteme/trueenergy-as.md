@@ -1,22 +1,22 @@
 ---
 title: 'TrueEnergy AS'
 slug: '/drittsysteme/trueenergy-as'
-description: 'L''app di TrueEnergy consente, insieme al modulo Kamstrup di smart-me, di comandare apparecchi terminali e stazioni di ricarica per auto.'
+description: 'L''app di TrueEnergy, insieme al modulo Kamstrup di smart-me, consente di controllare apparecchi e stazioni di ricarica per auto.'
 sidebar_label: 'TrueEnergy AS'
 ---
 <div className="row">
 <div className="col col--7">
 
-L'app di TrueEnergy consente, insieme al modulo Kamstrup di smart-me, di comandare apparecchi terminali e stazioni di ricarica per auto.
+L'app di TrueEnergy, insieme al modulo Kamstrup di smart-me, consente di controllare apparecchi e stazioni di ricarica per auto.
 
-La vostra auto è sempre caricata al momento giusto quanto necessario e si ricarica al prezzo più conveniente, in base all'energia solare disponibile o il più rapidamente possibile.
+La tua auto è sempre carica quanto serve al momento giusto e si ricarica al prezzo più conveniente, in base all'energia solare disponibile o il più rapidamente possibile.
 
-Allo stesso modo, anche apparecchi terminali come luci e lavatrici possono essere comandati tramite IFTT.
+Allo stesso modo, anche apparecchi come luci e lavatrici possono essere controllati tramite IFTT.
 
 Destinatari: Danimarca / case unifamiliari
 
 </div>
-<div className="col col--5 text--center">
+<div className="col col--5 bild--mitte">
 
 ![TrueEnergy AS – Figura 1](/img/drittsysteme-trueenergy-as/01.png)
 
@@ -25,9 +25,9 @@ Destinatari: Danimarca / case unifamiliari
 
 Funzioni:
 
-- Ricarica di veicoli elettrici in funzione del livello di carica, degli orari, dei prezzi migliori e dell'energia solare disponibile.
+- Ricarica dei veicoli elettrici in base al livello di carica, agli orari, ai prezzi migliori e all'energia solare disponibile.
 
-- Comando di apparecchi terminali con IFTT in base ai prezzi dell'elettricità e agli orari
+- Controllo di apparecchi con IFTT in base ai prezzi dell'elettricità e agli orari
 
 <div className="row">
 <div className="col col--6 bild--mitte">

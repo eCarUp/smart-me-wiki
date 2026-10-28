@@ -14,9 +14,9 @@ Vous avez besoin d'un abonnement smart-me Professional pour pouvoir établir des
 
 ## Configurer le décompte étape par étape
 
-Ce guide étape par étape a pour but de vous aider à configurer votre Billing. Veuillez noter qu'il s'agit uniquement d'un exemple dont vous pouvez vous inspirer. Selon la structure de votre immeuble, il y aura des différences par rapport à notre exemple. 
+Ce guide étape par étape a pour but de vous aider à configurer votre Billing. Veuillez noter qu'il ne s'agit que d'un exemple dont vous pouvez vous inspirer. Selon la structure de votre immeuble, il y aura des différences par rapport à notre exemple. 
 
-Chaque étape a sa propre page. Vous pouvez les parcourir dans l'ordre — au bas de chaque page, vous trouverez la suite — ou passer directement d'ici à l'étape où vous en êtes.
+Chaque étape a sa propre page. Vous pouvez les parcourir dans l'ordre — au bas de chaque page, vous trouverez la suite — ou passer directement ici à l'étape où vous en êtes.
 
 <Ablauf land="ch" bis="konfiguration/billing/rechnung-erstellen" />
 
@@ -64,7 +64,7 @@ Contenu de la vidéo
 <div className="row">
 <div className="col col--7">
 
-Dans la vue standard du dossier de l'unité de décompte (p. ex. un appartement), une nouvelle tuile s'affiche désormais. Elle indique les relevés du compteur pour les tarifs virtuels. Un clic sur cette tuile affiche la courbe de charge des tarifs virtuels. 
+Dans la vue standard du dossier de l'unité de décompte (p. ex. un appartement), une nouvelle tuile s'affiche désormais. Elle indique les relevés du compteur pour les tarifs virtuels. Un clic sur cette tuile affiche le profil de charge des tarifs virtuels. 
 
 </div>
 <div className="col col--5 bild--mitte">
@@ -79,9 +79,9 @@ Dans la vue standard du dossier de l'unité de décompte (p. ex. un appartement)
 <div className="row">
 <div className="col col--7">
 
-La plateforme smart-me utilise le compteur de production (compteur PV) pour déterminer la quantité d'électricité produite et le compteur virtuel de consommation totale pour déterminer la quantité d'électricité consommée. Une part en pourcentage de l'électricité solaire en est déduite. 
+La plateforme smart-me utilise le compteur de production (compteur PV) pour déterminer la quantité d'électricité produite et le compteur virtuel de consommation totale pour déterminer la quantité d'électricité consommée. Une part en pourcentage de l'électricité solaire en est calculée. 
 
-Chaque compteur électrique (locataire) a ainsi droit à la même part d'électricité solaire par tranche de 15 minutes, p. ex. 40% de sa consommation en kWh.
+Chaque compteur d'électricité (locataire) a ainsi droit à la même part d'électricité solaire par tranche de 15 minutes, p. ex. 40% de sa consommation en kWh.
 
 Exemple de répartition de l'électricité solaire
 

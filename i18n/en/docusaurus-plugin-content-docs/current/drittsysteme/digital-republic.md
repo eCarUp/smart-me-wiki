@@ -8,14 +8,14 @@ sidebar_label: 'Digital Republic'
 <div className="row">
 <div className="col col--8">
 
-Our partner Digital Republic offers you a simple and flexible data SIM solution for your smart-me installation. The Digital Republic SIM cards are versatile and can be used in all LTE-capable devices.  Thanks to our partnership with Digital Republic, you can order your first SIM card free of charge for testing purposes. 
+Our partner Digital Republic offers you a simple and flexible data SIM solution for your smart-me installation. Digital Republic SIM cards are versatile and can be used in any LTE-capable device.  Thanks to our collaboration with Digital Republic, you can order a first SIM card free of charge for testing purposes. 
 
 Offer valid in Switzerland only 🇨🇭
 
-To the Digital Republic offer: [Data SIM](https://digitalrepublic.ch/de/lp/ecarup-smartme-dr-ladestationen/?utm_source=smartme&utm_medium=smartmewiki&utm_campaign=smartmewiki)
+Go to the Digital Republic offer: [Data SIM](https://digitalrepublic.ch/de/lp/ecarup-smartme-dr-ladestationen/?utm_source=smartme&utm_medium=smartmewiki&utm_campaign=smartmewiki)
 
 </div>
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
 [![Digital Republic – Figure 1](/img/drittsysteme-digital-republic/01.jpg)](https://digitalrepublic.ch/de/lp/ecarup-smartme-dr-ladestationen/?utm_source=smartme&utm_medium=smartmewiki&utm_campaign=smartmewiki)
 

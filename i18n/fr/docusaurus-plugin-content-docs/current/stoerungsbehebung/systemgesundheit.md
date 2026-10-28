@@ -16,7 +16,7 @@ Les appareils sont triés par type.
 
 - Appareils Pico (Pico Geräte) : bornes de recharge Pico
 
-- Passerelles M-Bus (M-Bus Gateways) : toutes les passerelles
+- M-Bus Gateways (M-Bus Gateways) : toutes les passerelles
 
 - Appareils M-Bus (M-Bus Geräte) :
     tous les compteurs générés par la passerelle M-Bus.
@@ -26,7 +26,7 @@ Les appareils sont triés par type.
 
 Ordre :
 
-Les colonnes peuvent être triées, mais elles sont disposées par défaut de manière à ce que tous les appareils hors ligne apparaissent tout en haut.
+Les colonnes peuvent être triées, mais sont disposées par défaut de manière à ce que tous les appareils hors ligne apparaissent tout en haut.
 
 Device ID :
 
@@ -34,12 +34,12 @@ Il s'agit de l'ID avec lequel ce compteur peut être adressé directement via l'
 
 
 
-![Santé du système – illustration 1](/img/stoerungsbehebung-systemgesundheit/01.png)
+![Santé du système – Figure 1](/img/stoerungsbehebung-systemgesundheit/01.png)
 
 <div className="row">
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
-![Santé du système – illustration 2](/img/stoerungsbehebung-systemgesundheit/02.png)
+![Santé du système – Figure 2](/img/stoerungsbehebung-systemgesundheit/02.png)
 
 </div>
 <div className="col col--8">

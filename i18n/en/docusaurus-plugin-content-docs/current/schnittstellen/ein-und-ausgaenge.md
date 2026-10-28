@@ -4,17 +4,17 @@ slug: '/schnittstellen/ein-und-ausgaenge'
 description: 'Configure inputs and outputs'
 sidebar_label: 'Inputs and Outputs'
 ---
-<Menueweg>Dashboard → Device (Gerät) → Settings (gear icon)</Menueweg>
+<Menueweg>Dashboard → Device → Settings (gear)</Menueweg>
 
 ## Configure inputs and outputs
 
 <div className="row">
 <div className="col col--6">
 
-The smart-me meters have one or more outputs, which can be used as a pulse output or as a potential-free contact. By default, the S0\_0 output is defined as a pulse output and S1 as a digital relay output named "Relay" ("Relais").
+smart-me meters have one or more outputs that can be used as a pulse output or as a potential-free contact.  By default, the S0\_0 output is set up as a pulse output and S1 as a digital relay output named "Relay" ("Relais").
 
 </div>
-<div className="col col--6 text--center">
+<div className="col col--6 bild--mitte">
 
 ![Meter inputs and outputs – Figure 1](/img/schnittstellen-ein-und-ausgaenge/01.png)
 
@@ -27,25 +27,25 @@ Controlling E1 with a tariff signal or load shedding
 
 ![Meter inputs and outputs – Figure 2](/img/schnittstellen-ein-und-ausgaenge/02_EN.png)
 
-Switching on and off with Telstar: S1 and S0 are wired identically
+Circuit for switching on and off with Telstar (S1 and S0 are wired the same way)
 
 ![Meter inputs and outputs – Figure 3](/img/schnittstellen-ein-und-ausgaenge/03_EN.png)
 
 ### Pulse output
 
-The output can be configured as a pulse output. You can choose between reactive energy and active energy.
+You can configure the output as a pulse output. You can choose between reactive energy and active energy.
 
-Note: It is not possible to distinguish between consumption and delivery. The absolute value is always output.
+Note: It is not possible to distinguish between consumption and feed-in. The absolute value is always output.
 
 ### Configuration as a potential-free contact
 
-If the output is defined as a potential-free contact, any device can be controlled via the smart-me Cloud. Control can be manual (on/off) or automated via [event actions](/konfiguration/wenndann-aktionen/ereignisaktionen) or [if/then actions](/konfiguration/wenndann-aktionen).
+If the output is set up as a potential-free contact, you can control any device via the smart-me Cloud. Control can be manual (on/off) or automated via [event actions](/konfiguration/wenndann-aktionen/ereignisaktionen) or [if/then actions](/konfiguration/wenndann-aktionen).
 
 1.  Log in to the [smart-me website](https://web.smart-me.com/login/) or the smart-me app
 
 2.  Select a meter and click "Edit" ("Editieren").
 
-3.  Under "Outputs" ("Ausgänge"), select the desired output and configure it as "Digital output" ("Digitaler Ausgang")
+3.  Under "Outputs" ("Ausgänge"), select the output you want and configure it as "Digital output" ("Digitaler Ausgang")
 
     - You can give the output any name you like.
 
@@ -53,8 +53,8 @@ If the output is defined as a potential-free contact, any device can be controll
 
 
 NOTE:
-If S1 is not used as a digital output, it can also be hidden from the view by switching it to pulse output.
-In the tenant view, the outputs cannot be activated or deactivated, even if they are visible there.
+If S1 is not used as a digital output, you can also hide it from the view by switching it to pulse output.
+In the tenant view, these outputs cannot be switched on or off, even if they are visible there.
 
 ![Meter inputs and outputs – Figure 4](/img/schnittstellen-ein-und-ausgaenge/04_EN.png)
 
@@ -68,9 +68,9 @@ In the tenant view, the outputs cannot be activated or deactivated, even if they
 
 ### Wiring the outputs
 
-Observe the maximum voltage, current and power ratings of the respective outputs. Put simply, each of the potential-free outputs can be regarded as an unconnected switch. For it to function, a circuit must be established from high to low potential.
+Observe the maximum voltage, current and power ratings of each output. To put it simply, you can think of each potential-free output as an unconnected switch. For it to work, there must be a circuit from high to low potential.
 
-The outputs do not provide any voltage level themselves, so a voltage source must be connected upstream.
+The outputs do not supply any voltage themselves, so a voltage source must be connected upstream.
 
 For 230V AC circuits:
 
@@ -83,7 +83,7 @@ For 230V AC circuits:
 
 For DC circuits:
 
-- From + VDC to the "+" contact of S1
+- from + VDC to the "+" contact of S1
 
 - Wire the "-" contact of S1 to the "+" input of the external circuit.
 
@@ -96,9 +96,9 @@ For DC circuits:
 
 ![Meter inputs and outputs – Figure 8](/img/schnittstellen-ein-und-ausgaenge/08.png)
 
-## Configure input
+## Configure the input
 
-The smart-me meters have a digital input that can be used as a tariff input or as a normal digital input. By default, this input is defined as a tariff input. If the input is configured as a digital input, it can be used as an event to control other devices or trigger alarms. If the input is defined as a tariff input, metering switches from tariff 1 to tariff 2 when a voltage is applied.
+smart-me meters have a digital input that can be used as a tariff input or as a standard digital input. By default, this input is set up as a tariff input. If you configure the input as a digital input, you can use it as an event to control other devices or trigger alarms.  If the input is set up as a tariff input, metering switches from tariff 1 to tariff 2 when voltage is applied.
 
 ### Configuration as a digital input
 
@@ -112,21 +112,21 @@ To configure an input as a digital input, proceed as follows:
 
     - You can give the input any name you like.
 
-    - You can define a text to be displayed when the input is "On" ("Ein") or "Off" ("Aus").
+    - You can define a text to be shown when the input is "On" ("Ein") or "Off" ("Aus").
 
 4.  You will now see the digital input and its status in the smart-me app and on the smart-me web portal.
 
 
 ### Using the digital input for control
 
-You can use the digital input to switch other devices or send alarms. To do this, define the if-event "Switching state" ("Schaltzustand") under [if/then actions](/konfiguration/wenndann-aktionen/ereignisaktionen).
+You can use the digital input to switch other devices or send alarms. To do this, define the "Switching state" ("Schaltzustand") if-event under [if/then actions](/konfiguration/wenndann-aktionen/ereignisaktionen).
 
 ### Wiring the connection
 
-To switch the potential-free contact, an external voltage and potential (e.g. neutral conductor) must be applied. The respective voltage values can be found in the technical data of the individual products.
+To switch the potential-free contact, an external voltage and potential (e.g. neutral conductor) must be applied. You can find the voltage values in the technical data of each product. 
 
 Logic:
-1 (High) = voltage as per data sheet
+1 (High) = voltage according to data sheet
 0 (Low) = 0 volts
 
-Note: With DC voltage, the polarity (E1+/E1-) must be observed, whereas it does not matter with AC voltage.
+Note: With DC voltage, pay attention to the polarity (E1+/E1-). With AC voltage, polarity does not matter.

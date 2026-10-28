@@ -21,25 +21,25 @@ The description of the display applies to all [firmware versions](/konfiguration
 <div className="row">
 <div className="col col--8">
 
-Displayed when no vehicle is connected and no charging is taking place. You can personalise this image yourself.
+Displayed when no vehicle is connected and no charging is taking place. You can personalise this image yourself. 
 
 </div>
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
 ![Pico Display – Figure 2](/img/produkte-pico-ladestation-pico-display/01.png)
 
 </div>
 </div>
 
-### Sequence: plugged-in car waiting for release
+### Sequence: plugged-in car waiting for approval
 
 <div className="row">
 <div className="col col--8">
 
-Displayed repeatedly when the car is plugged in but the station has not yet been released in the backend.
+Displayed repeatedly when the car is plugged in but the station has not yet been approved in the backend.
 
 </div>
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
 ![Pico Display – Figure 3](/img/produkte-pico-ladestation-pico-display/03.png)
 
@@ -49,10 +49,10 @@ Displayed repeatedly when the car is plugged in but the station has not yet been
 <div className="row">
 <div className="col col--8">
 
-Displayed repeatedly when the car is plugged in but the station has not yet been released in the backend.
+Displayed repeatedly when the car is plugged in but the station has not yet been approved in the backend.
 
 </div>
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
 ![Pico Display – Figure 4](/img/produkte-pico-ladestation-pico-display/04.png)
 
@@ -61,7 +61,7 @@ Displayed repeatedly when the car is plugged in but the station has not yet been
 
 
 
-### Sequence: authentication with CarID (Pico online)
+### Sequence: authentication with CarID (Pico Online)
 
 <div className="row">
 <div className="col col--8">
@@ -69,7 +69,7 @@ Displayed repeatedly when the car is plugged in but the station has not yet been
 Displayed when the car is plugged in and the Car ID is being checked.
 
 </div>
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
 ![Pico Display – Figure 5](/img/produkte-pico-ladestation-pico-display/05.png)
 
@@ -79,10 +79,10 @@ Displayed when the car is plugged in and the Car ID is being checked.
 <div className="row">
 <div className="col col--8">
 
-Displayed when the vehicle is not authorised or the Car ID is not stored in the eCarUp driver account. The Pico then switches to the "Sequence: plugged-in car waiting for release".
+Displayed when the vehicle is not authorised or the Car ID is not stored in the eCarUp driver account. The Pico then switches to the "Sequence: plugged-in car waiting for approval"
 
 </div>
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
 ![Pico Display – Figure 6](/img/produkte-pico-ladestation-pico-display/06.png)
 
@@ -95,14 +95,14 @@ Displayed when the vehicle is not authorised or the Car ID is not stored in the 
 Displayed when the vehicle is authorised. The Pico then switches to the "Sequence: active charging".
 
 </div>
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
 ![Pico Display – Figure 7](/img/produkte-pico-ladestation-pico-display/07.png)
 
 </div>
 </div>
 
-### Sequence: authentication with RFID (Pico online)
+### Sequence: authentication with RFID (Pico Online)
 
 <div className="row">
 <div className="col col--8">
@@ -110,7 +110,7 @@ Displayed when the vehicle is authorised. The Pico then switches to the "Sequenc
 The RFID card is being checked. With a very good connection, the text may not be displayed at all.
 
 </div>
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
 ![Pico Display – Figure 8](/img/produkte-pico-ladestation-pico-display/08.png)
 
@@ -123,7 +123,7 @@ The RFID card is being checked. With a very good connection, the text may not be
 Displayed when the RFID is authorised.
 
 </div>
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
 ![Pico Display – Figure 9](/img/produkte-pico-ladestation-pico-display/09.png)
 
@@ -136,7 +136,7 @@ Displayed when the RFID is authorised.
 Displayed when the RFID authorisation was successful and no car is plugged in. If a car is plugged in, this display is skipped and the Pico switches to the "Sequence: active charging".
 
 </div>
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
 ![Pico Display – Figure 10](/img/produkte-pico-ladestation-pico-display/10.png)
 
@@ -146,10 +146,10 @@ Displayed when the RFID authorisation was successful and no car is plugged in. I
 <div className="row">
 <div className="col col--8">
 
-Displayed when the RFID is not authorised. The Pico then switches to the "Sequence: plugged-in car waiting for release" or the "Sequence: no active charging".
+Displayed when the RFID is not authorised. The Pico then switches to the "Sequence: plugged-in car waiting for approval" or the "Sequence: no active charging".
 
 </div>
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
 ![Pico Display – Figure 11](/img/produkte-pico-ladestation-pico-display/11.png)
 
@@ -158,15 +158,15 @@ Displayed when the RFID is not authorised. The Pico then switches to the "Sequen
 
 
 
-### Sequence: authentication with QR code (Pico online)
+### Sequence: authentication with QR code (Pico Online)
 
 <div className="row">
 <div className="col col--8">
 
-Charging was successfully released with the QR code.
+Charging was successfully approved with the QR code.
 
 </div>
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
 ![Pico Display – Figure 12](/img/produkte-pico-ladestation-pico-display/12.png)
 
@@ -179,7 +179,7 @@ Charging was successfully released with the QR code.
 Displayed when the authorisation was successful and no car is plugged in. If a car is plugged in, this display is skipped and the Pico switches to the "Sequence: active charging".
 
 </div>
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
 ![Pico Display – Figure 13](/img/produkte-pico-ladestation-pico-display/10.png)
 
@@ -196,7 +196,7 @@ Displayed when the authorisation was successful and no car is plugged in. If a c
 6A Minimum charging current
 
 </div>
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
 ![Pico Display – Figure 14](/img/produkte-pico-ladestation-pico-display/14.png)
 
@@ -215,7 +215,7 @@ Value / symbol Description
 When the station increases the maximum charging current, this image is briefly displayed with the new max. charging current.
 
 </div>
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
 ![Pico Display – Figure 15](/img/produkte-pico-ladestation-pico-display/15.png)
 
@@ -236,7 +236,7 @@ kWh Unit of the displayed consumption
 Battery No meaning
 
 </div>
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
 ![Pico Display – Figure 16](/img/produkte-pico-ladestation-pico-display/16.png)
 
@@ -255,7 +255,7 @@ Value / symbol Description
 00:05:13 Duration of active charging
 
 </div>
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
 ![Pico Display – Figure 17](/img/produkte-pico-ladestation-pico-display/17.png)
 
@@ -273,10 +273,10 @@ kW Unit of the displayed power
 
 ….. blue = max. power released by the station (1 pixel = 1A) 
 
- green = current consumption of the car per phase (1 pixel = 1A)
+ green = current drawn by the car per phase (1 pixel = 1A)
 
 </div>
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
 ![Pico Display – Figure 18](/img/produkte-pico-ladestation-pico-display/18.png)
 
@@ -295,7 +295,7 @@ Value / symbol Description
 When the station reduces the maximum charging current, this image is briefly displayed with the new max. charging current
 
 </div>
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
 ![Pico Display – Figure 19](/img/produkte-pico-ladestation-pico-display/19.png)
 
@@ -310,7 +310,7 @@ Value / symbol Description
 6A Minimum charging current
 
 </div>
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
 ![Pico Display – Figure 20](/img/produkte-pico-ladestation-pico-display/20.png)
 
@@ -327,7 +327,7 @@ Value / symbol Description
 BYE Successfully logged off
 
 </div>
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
 ![Pico Display – Figure 21](/img/produkte-pico-ladestation-pico-display/21.png)
 
@@ -346,7 +346,7 @@ Value / symbol Description
 After logging off, the total consumption of the last charging session is displayed for approx. 14 sec. 
 
 </div>
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
 ![Pico Display – Figure 22](/img/produkte-pico-ladestation-pico-display/22.png)
 
@@ -365,7 +365,7 @@ Value / symbol Description
 BYE Signal for the restart
 
 </div>
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
 ![Pico Display – Figure 23](/img/produkte-pico-ladestation-pico-display/21.png)
 
@@ -382,7 +382,7 @@ Value / symbol Description
 kWh Unit of the displayed consumption
 
 </div>
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
 ![Pico Display – Figure 24](/img/produkte-pico-ladestation-pico-display/22.png)
 
@@ -392,10 +392,10 @@ kWh Unit of the displayed consumption
 <div className="row">
 <div className="col col--8">
 
-The screen remains black for approx. 20 sec.
+The screen stays black for approx. 20 sec.
 
 </div>
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
 ![Pico Display – Figure 25](/img/produkte-pico-ladestation-pico-display/25.png)
 
@@ -407,10 +407,10 @@ The screen remains black for approx. 20 sec.
 
 This is the first sign that the Pico is starting up.
 
-After the sequence "restarting the station", the Pico switches to the MID mode sequence
+After the sequence for restarting the station, the Pico switches to the MID Mode sequence
 
 </div>
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
 ![Pico Display – Figure 26](/img/produkte-pico-ladestation-pico-display/26.png)
 
@@ -419,23 +419,23 @@ After the sequence "restarting the station", the Pico switches to the MID mode s
 
 
 
-### Error messages and warnings
+### Fault messages and warnings
 
 <div className="row">
 <div className="col col--8">
 
-Fatal error
+Fatal fault
 
 - Error 1: Problem with the Wi-Fi module
 
-- Error 2: There is no M4 communication
+- Error 2: We have no M4 communication
 
 - Error 3: An error with the meter SOM
 
 - Error 4: Problem with the RDC sensor
 
 </div>
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
 ![Pico Display – Figure 27](/img/produkte-pico-ladestation-pico-display/27.png)
 
@@ -451,7 +451,7 @@ SIM Error
 - Problem with the SIM
 
 </div>
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
 ![Pico Display – Figure 28](/img/produkte-pico-ladestation-pico-display/28.png)
 
@@ -467,7 +467,7 @@ Diode Error
 - The diode in the car is not correct. Check the charging cable and the plug connection to the car 
 
 </div>
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
 ![Pico Display – Figure 29](/img/produkte-pico-ladestation-pico-display/29.png)
 
@@ -480,10 +480,10 @@ Diode Error
 
 Cable Error
 
-- The charging cable reports an error. Check whether it is plugged in correctly. 
+- The charging cable reports an error. Check that it is plugged in correctly. 
 
 </div>
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
 ![Pico Display – Figure 30](/img/produkte-pico-ladestation-pico-display/30.png)
 
@@ -499,7 +499,7 @@ P Limit
 - Load shedding is active. The charging power has been reduced. 
 
 </div>
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
 ![Pico Display – Figure 31](/img/produkte-pico-ladestation-pico-display/31.png)
 
@@ -517,7 +517,7 @@ Warn RDC
 - The RDC-DD 6mA according to IEC 62955 (residual direct current detecting device) has tripped. Charging was stopped for safety reasons. 
 
 </div>
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
 ![Pico Display – Figure 32](/img/produkte-pico-ladestation-pico-display/32.png)
 
@@ -533,7 +533,7 @@ Offline
 - The charging station has no connection to the smart-me Cloud. 
 
 </div>
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
 ![Pico Display – Figure 33](/img/produkte-pico-ladestation-pico-display/33.png)
 
@@ -552,7 +552,7 @@ LED lights up orange/red in the top right corner of the display
 - Indicates an error message. After 30 seconds at the latest, the error image (e.g. Cable Error) is shown on the screen.
 
 </div>
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
 ![Pico Display – Figure 34](/img/produkte-pico-ladestation-pico-display/34.png)
 
@@ -566,7 +566,7 @@ LED lights up orange/red in the top right corner of the display
 
 To enter MID mode, you can click "Show meter reading on display" ("Zählerstand auf Display anzeigen") via the advanced action in the smart-me portal, start or restart the station, or use the brightness sensor.
 
-Using a torch on the brightness sensor, you can flash the following code: dark - light - dark - light - dark (each state must last between 1 and 5 seconds)
+Using a torch on the brightness sensor, the user can flash the following code: dark - light - dark - light - dark (each state must last between 1 and 5 seconds)
 
 <div className="row">
 <div className="col col--8">
@@ -576,7 +576,7 @@ Value / symbol Description
 Dot Light sensor
 
 </div>
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
 ![Pico Display – Figure 35](/img/produkte-pico-ladestation-pico-display/35.png)
 
@@ -589,14 +589,14 @@ Dot Light sensor
 Value / symbol Description
 M MID mode active
 
-0.2.1 Version and checksum according to Obis code
+0.2.1 Version and checksum according to OBIS code
 
 v 2.2 Version number of the firmware
 
 CRC 4F55 Checksum of the firmware
 
 </div>
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
 ![Pico Display – Figure 36](/img/produkte-pico-ladestation-pico-display/36.png)
 
@@ -609,7 +609,7 @@ CRC 4F55 Checksum of the firmware
 Value / symbol Description
 M   MID mode active
 
-F.F.0   Obis code
+F.F.0   OBIS code
 
 03   Error code
 
@@ -627,7 +627,7 @@ x4: Display process error (checksum)
 4x: Meter SOM error (flash) Other: General meter SOM error 
 
 </div>
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
 ![Pico Display – Figure 37](/img/produkte-pico-ladestation-pico-display/37.png)
 
@@ -640,12 +640,12 @@ x4: Display process error (checksum)
 Value / symbol Description
 M MID mode active
 
-1.8.0 Obis code
+1.8.0 OBIS code
 
 00013.04 kWh The meter reading in kWh with 2 decimal places.
 
 </div>
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
 ![Pico Display – Figure 38](/img/produkte-pico-ladestation-pico-display/38.png)
 

@@ -22,11 +22,11 @@ Broches de compteur pour Nimbus : Art. A00-906 5x5x45mm
 
 ZAK : jusqu'à 100A
 
-Broches de compteur pour Nimbus : N° art. A00-901 6x7x45mm, rondes
+Broches de compteur pour Nimbus : N° d'art. A00-901 6x7x45mm, rondes
 
-![Bornes enfichables pour compteur Nimbus 100A – illustration 1](/img/drittprodukte-zaehlersteckklemmen-nimbus-100a/01.png)
+![Bornes enfichables pour compteur Nimbus 100A – Illustration 1](/img/drittprodukte-zaehlersteckklemmen-nimbus-100a/01.png)
 
-![Bornes enfichables pour compteur Nimbus 100A – illustration 2](/img/drittprodukte-zaehlersteckklemmen-nimbus-100a/02.png)
+![Bornes enfichables pour compteur Nimbus 100A – Illustration 2](/img/drittprodukte-zaehlersteckklemmen-nimbus-100a/02.png)
 
 ## Bornes Hager
 
@@ -40,9 +40,9 @@ Broche de compteur pour Nimbus : Hager KJZ080A4 80A Ø6×41mm
 
 
 
-![Bornes enfichables pour compteur Nimbus 100A – illustration 3](/img/drittprodukte-zaehlersteckklemmen-nimbus-100a/03.png)
+![Bornes enfichables pour compteur Nimbus 100A – Illustration 3](/img/drittprodukte-zaehlersteckklemmen-nimbus-100a/03.png)
 
-![Bornes enfichables pour compteur Nimbus 100A – illustration 4](/img/drittprodukte-zaehlersteckklemmen-nimbus-100a/04.png)
+![Bornes enfichables pour compteur Nimbus 100A – Illustration 4](/img/drittprodukte-zaehlersteckklemmen-nimbus-100a/04.png)
 
 ## Bornes Seidl
 
@@ -56,9 +56,9 @@ SL-ZAKD : jusqu'à 80A en courant permanent et 128A en courant de surcharge - bo
 Broche de compteur pour Nimbus : SL-6-6-42
 
 </div>
-<div className="col col--6 text--center">
+<div className="col col--6 bild--mitte">
 
-![Bornes enfichables pour compteur Nimbus 100A – illustration 5](/img/drittprodukte-zaehlersteckklemmen-nimbus-100a/05.png)
+![Bornes enfichables pour compteur Nimbus 100A – Illustration 5](/img/drittprodukte-zaehlersteckklemmen-nimbus-100a/05.png)
 
 </div>
 </div>

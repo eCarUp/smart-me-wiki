@@ -32,7 +32,7 @@ smart-me is an open energy management system. With smart-me, electricity, water,
 
 </Kacheln>
 
-### Heating and ancillary costs billing software
+### Heating and ancillary cost billing software
 
 <Kacheln min="11rem">
 
@@ -50,7 +50,7 @@ smart-me is an open energy management system. With smart-me, electricity, water,
 
 </Kacheln>
 
-### Analytics software
+### Analysis software
 
 <Kacheln min="11rem">
 
@@ -104,7 +104,7 @@ smart-me is an open energy management system. With smart-me, electricity, water,
 
 ### Webinar "ZEV planning"
 
-Find out whether you need a partner, simply explained.
+Find out whether you need a partner, explained simply.
 
 <Video src="fb33ML8YTYA" title="YouTube video, webinar &quot;Planning a ZEV&quot;" />
 

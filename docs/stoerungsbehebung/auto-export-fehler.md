@@ -72,7 +72,7 @@ Lösung:
 
 - Datum bis auf "Letzen Export" aus dem AutoExport setzen
 
-- Sich das ältestes Datum bei Elektrizität Zeitspanne merken.
+- Sich das älteste Datum bei Elektrizität Zeitspanne merken.
 
 - Im Menu Schnittstellen / Automatische Export
 
@@ -80,9 +80,9 @@ Lösung:
 
 - Editieren
 
-- Letzer Export auf "ältestes Datum bei Elektrizität Zeitspanne" +1 setzten. 
+- Letzer Export auf "ältestes Datum bei Elektrizität Zeitspanne" +1 setzen. 
 
-- Es ist wichtig das Datum + 1 zu setzten, da wir nur ganze Tage exportieren können.
+- Es ist wichtig das Datum + 1 zu setzen, da wir nur ganze Tage exportieren können.
 
 - Bis zu 45 Minuten warten, bis der Export den Status aktualisiert.
 
@@ -136,9 +136,9 @@ Problem 1: Key File ist nicht erfasst.
 
 Lösung 1
 
-- Sicherstellen, dass das Key File Gemäss [Auto Export](/schnittstellen/auto-export) --> Upload Art korrekt konfiguriert ist.
+- Sicherstellen, dass das Key File gemäss [Auto Export](/schnittstellen/auto-export) --> Upload Art korrekt konfiguriert ist.
 
-- Prüfen ob das erzeugte Key File wie folgt beginnt:
+- Prüfen, ob das erzeugte Key File wie folgt beginnt:
 
 
 \-----BEGIN RSA PRIVATE KEY-----
@@ -149,11 +149,11 @@ Proc-Type: 4,ENCRYPTED,...
 
 ### FTP upload Error: The remote server returned an error 550
 
-Problem: Smart-me hat keine Berechtigung in den agegebenen Path zu schreiben.
+Problem: Smart-me hat keine Berechtigung in den angegebenen Path zu schreiben.
 
 Lösung: Berechtigungen erteilen.
 
-Problem 2: Speziallfall beim Einsatz von MOVEit (Stand 8.7.2024: #32171)
+Problem 2: Spezialfall beim Einsatz von MOVEit (Stand 8.7.2024: #32171)
 
 - Verwenden Sie die "key file", die mit den beiden openssl-Befehlen erstellt wurde. [Auto Export](/schnittstellen/auto-export) -->  Upload Art
 
@@ -161,7 +161,7 @@ Problem 2: Speziallfall beim Einsatz von MOVEit (Stand 8.7.2024: #32171)
 
 - In meiner Software "MOVEit" erhalte ich eine Meldung (grün im Bild). Ich muss dann den Benutzer erneut aktivieren (in blau) und das Zertifikat akzeptieren (in rot).
 
-- Entferne das "/" aus dem Pfad, damit die Dateien im Ordner "Export" abgelegen werden können. (Falsch: "/Export", Richtig: "Export)
+- Entferne das "/" aus dem Pfad, damit die Dateien im Ordner "Export" abgelegt werden können. (Falsch: "/Export", Richtig: "Export)
 
 
 ![Auto Export Fehler – Abbildung 5](/img/stoerungsbehebung-auto-export-fehler/05.png)

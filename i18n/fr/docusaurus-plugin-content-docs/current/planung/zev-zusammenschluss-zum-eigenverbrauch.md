@@ -10,11 +10,11 @@ symbol: 'gebaeude'
 <div className="row">
 <div className="col col--7">
 
-Un regroupement dans le cadre de la consommation propre peut se composer d'un seul bâtiment ou de plusieurs bâtiments ayant le même point de raccordement vis-à-vis du fournisseur d'énergie.
+Un regroupement dans le cadre de la consommation propre peut se composer d'un seul bâtiment ou de plusieurs bâtiments partageant le même point de raccordement vis-à-vis du fournisseur d'énergie.
 
 Au sein du RCP, le décompte et la tarification de l'électricité du réseau et de l'électricité produite localement relèvent des exploitants du RCP.
 
-Pour que ce décompte puisse être effectué, il faut l'infrastructure nécessaire et un schéma de mesure cohérent pour les différentes énergies.
+Pour que ce décompte puisse être effectué, l'infrastructure nécessaire et un schéma de mesure cohérent pour les différentes énergies sont requis.
 
 Principes de base
 
@@ -25,7 +25,7 @@ Principes de base
 - Compteur du GRD au point d'injection avec facture du GRD
 
 </div>
-<div className="col col--5 text--center">
+<div className="col col--5 bild--mitte">
 
 ![RCP Regroupement dans le cadre de la consommation propre – Figure 1](/img/planung-zev-zusammenschluss-zum-eigenverbrauch/01.png)
 
@@ -36,16 +36,16 @@ Principes de base
 
 ### Points de mesure soumis à licence :
 
-- Chaque point de mesure devant être saisi est [soumis à licence](/planung/cloud-lizenzen).
+- Chaque point de mesure devant être relevé est [soumis à licence](/planung/cloud-lizenzen).
 
-- Chaque compteur virtuel (sommes de production, consommation totale) est [soumis à licence](/planung/cloud-lizenzen).
+- Chaque compteur virtuel (productions totales, consommation totale) est [soumis à licence](/planung/cloud-lizenzen).
 
-- Chaque registre de compteur M-Bus ou LoRa\-devant faire l'objet d'un décompte compte comme point de mesure (compteur combiné chaleur / froid = 2 licences) et est donc [soumis à licence](/planung/cloud-lizenzen), mais pas la passerelle M-Bus elle-même. Les registres non utilisés peuvent être désactivés.
+- Chaque registre de compteur M-Bus ou LoRa\-devant faire l'objet d'un décompte est considéré comme un point de mesure (compteur combiné chaleur / froid = 2 licences) et est donc [soumis à licence](/planung/cloud-lizenzen), mais pas la passerelle M-Bus elle-même. Les registres non utilisés peuvent être désactivés.
 
 
 ### Électricité
 
-- Toutes les unités de décompte à facturer doivent être mesurées avec un point de comptage. (Logements, pompes à chaleur, départs communs)
+- Toutes les unités de décompte à facturer doivent être mesurées avec un point de comptage. (Appartements, pompes à chaleur, départs communs)
     Options matérielles pour la mesure de l'énergie électrique
     \- [Telstar 80A
     ](/produkte/telstar-80a)\- [Telstar CT
@@ -68,9 +68,9 @@ Principes de base
 
 - L'électromobilité est réalisée au moyen de points de recharge privés, semi-privés ou publics.
 
-- Le matériel [smart-me Pico 22kW](/produkte/pico-ladestation) offre la combinaison optimale entre matériel pour une exploitation publique et pour une exploitation privée dans le RCP. Avec [eCarUp](https://www.ecarup.com), d'autres solutions matérielles compatibles sont toutefois également disponibles.
+- Le matériel [smart-me Pico 22kW](/produkte/pico-ladestation) offre la combinaison idéale pour une exploitation publique et une exploitation privée au sein du RCP. Avec [eCarUp](https://www.ecarup.com), d'autres solutions matérielles compatibles sont toutefois également disponibles.
 
-- Le décompte s'effectue p. ex. par carte de crédit à tarif unique avec [eCarUp](https://www.ecarup.com) ou de manière tarifée directement via le décompte des logements avec [smart-me Billing](/konfiguration/billing).
+- La facturation s'effectue par exemple par carte de crédit à un tarif unique avec [eCarUp](https://www.ecarup.com) ou de manière tarifée directement via le décompte des appartements avec [smart-me Billing](/konfiguration/billing).
 
 - La commande des bornes de recharge Pico et la protection de l'infrastructure sont assurées par la [gestion de la charge multiniveau](/konfiguration/multilevel-lastmanagement) avancée.
 
@@ -81,9 +81,9 @@ Principes de base
 
 - Mesure de matériel tiers via [LoRa](/produkte/lora-gateway-software) ou [M-Bus](/produkte/m-bus-gateway) ou [API](/schnittstellen/api)
 
-- Prend en charge le matériel déjà installé ainsi que le nouveau matériel des fournisseurs habituels Neovac, Techem, GWF, ISTA ou Brunata, entre autres.
+- Prend en charge le matériel déjà installé ainsi que le nouveau matériel des fournisseurs usuels Neovac, Techem, GWF, ISTA ou Brunata et d'autres.
 
-- Sont mesurés soit les compteurs totaux de la production, soit les compteurs de consommation dans les unités de décompte, soit les deux, p. ex. pour Minergie.
+- Sont mesurés soit les compteurs totaux de la production, soit les compteurs de consommation dans les unités de décompte, soit les deux, par exemple dans le cas de Minergie.
 
 - Décompte au moyen de l'intégration smart-me [Billing VEWA](/konfiguration/billing/vewa-abrechnung).
 
@@ -100,11 +100,11 @@ Idéal pour les planificateurs et les électriciens.
 
 ## Exemples de RCP
 
-### RCP pour un seul bâtiment
+### RCP en tant que bâtiment individuel
 
 - Le raccordement de l'immeuble est ici déterminant pour la commande dynamique de l'infrastructure du bâtiment, comme les pompes à chaleur, les bornes de recharge et les installations solaires, ainsi que pour une tarification précise.
 
-- Les compteurs des parties communes et de la pompe à chaleur (chauffage) sont mesurés séparément. Cela garantit que les coûts énergétiques peuvent être présentés individuellement. Les coûts énergétiques peuvent soit être répartis en pourcentage entre les parties, soit être remis dans leur ensemble à l'attention d'une gérance.
+- Les compteurs des services généraux et de la pompe à chaleur (chauffage) sont mesurés séparément. Cela garantit que les coûts énergétiques peuvent être présentés individuellement. Les coûts énergétiques peuvent soit être répartis en pourcentage entre les parties, soit être transmis dans leur ensemble à l'attention d'une gérance immobilière.
 
 
 ![RCP Regroupement dans le cadre de la consommation propre – Figure 3](/img/planung-zev-zusammenschluss-zum-eigenverbrauch/03.png)
@@ -115,7 +115,7 @@ Idéal pour les planificateurs et les électriciens.
 
 - Les raccordements des immeubles sont ici déterminants pour la commande dynamique de l'infrastructure du bâtiment, comme les pompes à chaleur, les bornes de recharge et les installations solaires.
 
-- Les compteurs des parties communes et de la pompe à chaleur (chauffage) sont mesurés séparément. Cela garantit que les coûts énergétiques peuvent être présentés individuellement. Les coûts énergétiques peuvent soit être répartis en pourcentage entre les parties, soit être remis dans leur ensemble à l'attention d'une gérance.
+- Les compteurs des services généraux et de la pompe à chaleur (chauffage) sont mesurés séparément. Cela garantit que les coûts énergétiques peuvent être présentés individuellement. Les coûts énergétiques peuvent soit être répartis en pourcentage entre les parties, soit être transmis dans leur ensemble à l'attention d'une gérance immobilière.
 
 
 ![RCP Regroupement dans le cadre de la consommation propre – Figure 4](/img/planung-zev-zusammenschluss-zum-eigenverbrauch/04.png)

@@ -16,8 +16,8 @@ Nutze dafür ein Bild oder eine Googlemapsansicht und zeige ausgewählte Livewer
 
 ## Mein Energiefluss
 
-Erstelle deinen personalisierten Energiefluss deines Hauses oder mehrer Häuser.
+Erstelle deinen personalisierten Energiefluss deines Hauses oder mehrerer Häuser.
 
-Wähle frei aus allen Messpunkten welche dir pro Karte angezeigt werden sollen und erhalte eine schnelle Verbrauchsübersicht.
+Wähle frei aus allen Messpunkten, welche dir pro Karte angezeigt werden sollen und erhalte eine schnelle Verbrauchsübersicht.
 
 ![My Dashboards – Abbildung 3](/img/konfiguration-my-dashboards/03.png)

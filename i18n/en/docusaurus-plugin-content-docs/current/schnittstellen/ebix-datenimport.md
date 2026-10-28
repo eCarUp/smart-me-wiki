@@ -1,20 +1,20 @@
 ---
 title: 'Ebix Data Import'
 slug: '/schnittstellen/ebix-datenimport'
-description: 'smart-me offers automatic data import in the Ebix format'
+description: 'smart-me offers automatic data import using the Ebix format'
 sidebar_label: 'Ebix Data Import'
 ---
-smart-me offers automatic data import in the Ebix format
+smart-me offers automatic data import using the Ebix format
 
 ### Requirements
 
-Only smart-me Gold Partners can use the automatic data import. You can ask Sales for more information about this licence model.
+Only smart-me Gold Partners can use the automatic data import. Further information about this licence model is available from Sales.
 
 ## Ebix (SDAT)
 
-You can import Ebix XML files into smart-me. Ebix is the standard format for exchanging data in the electricity market.
+The XML files (Ebix) for standardised data exchange in the electricity market can be imported into smart-me.
 
-### Supported schemas
+### Supported Schemas
 
 - ValidatedMeteredData\_1p1.xsd
 
@@ -25,26 +25,26 @@ You can import Ebix XML files into smart-me. Ebix is the standard format for exc
 - ValidatedMeteredData\_1p4.xsd
 
 
-### Data upload
+### Data Upload
 
-You can upload the files to the smart-me FTP server via FTP or FTPS (TLS):
+The files can be uploaded to the smart-me FTP servers via FTP or FTPS (TLS):
 
 Server: ftp.smart-me.com
 
 Path: /Ebix/
 
-Username: "Email of a sub-account of the partner"
+Username: "Email address of a sub-account of the partner"
 
 Password: "The corresponding password"
 
-Files for import can be up to 50 megabytes.
+The file size for the import is limited to 50 megabytes.
 
-### Assignment to a user account
+### Assignment to a User Account
 
-Once a partner's user has uploaded Ebix files to the server, the metering point ID appears under "Configuration->Partner->Data Import" ("Konfiguration->Partner->Daten Import"):
+As soon as Ebix files have been uploaded to the servers by a user of the partner, the metering point ID is shown under "Configuration->Partner->Data Import" ("Konfiguration->Partner->Daten Import"):
 
-![Ebix Data Import – Figure 1](/img/schnittstellen-ebix-datenimport/01.jpg)
+![Ebix data import – figure 1](/img/schnittstellen-ebix-datenimport/01.jpg)
 
-To assign the metering point to another user, click edit (editieren):
+The metering point can be assigned to a different user by clicking on edit (editieren):
 
-![Ebix Data Import – Figure 2](/img/schnittstellen-ebix-datenimport/02.jpg)
+![Ebix data import – figure 2](/img/schnittstellen-ebix-datenimport/02.jpg)

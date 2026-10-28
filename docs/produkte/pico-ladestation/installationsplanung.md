@@ -17,7 +17,7 @@ Pico kann auf verschiedene Arten installiert werden. Hier findest du die üblich
     \- vor 2024 oder Seriennummer 7002702 wird für NIN Konformität ein serieller RCD Typ-A vor jeder Ladestation benötigt.
 
 - Die Pico Ladestationen können Kurzschlussströme von 3kA problemlos selber bewältigen.
-    Wenn mehrere Ladestationen an einem Abgang hängen muss ein Leitungsschutzschalter am Abgang verwendet werden.
+    Wenn mehrere Ladestationen an einem Abgang hängen, muss ein Leitungsschutzschalter am Abgang verwendet werden.
     Die Lastschutzeinrichtung ist auf die Kurzschlussfähigkeit des Abgangs auszulegen.
     Empfohlen sind mind. 6kA Varianten in jedem Fall.
 
@@ -42,7 +42,7 @@ Alle Pico Ladestationen ab Seriennummer 7002702 verfügen intern über einen RCD
 
 Hinweis: 
 
-Der Kurzschlusstrom muss nur an der Pico Basisplatte überprüft werden, nicht am Ausgang / Typ 2 des Pico Gerätes.
+Der Kurzschlussstrom muss nur an der Pico Basisplatte überprüft werden, nicht am Ausgang / Typ 2 des Pico Gerätes.
 
 ### Pico intern abgeschlaufte Installation oder mit Pico Standfuss Basic (212070-PL)
 
@@ -54,7 +54,7 @@ Der Kurzschlusstrom muss nur an der Pico Basisplatte überprüft werden, nicht a
 
 ### Blitzschutz für Ausseninstallationen von Ladeinfrastruktur
 
-- Beachte die bei Standfussinstallationen unbedingt auch die NIN und lokalen Regelungen betreffend Blitzschutzeinrichtungen für Ausseninstallationen von Ladeinfrastruktur.
+- Beachte bei Standfussinstallationen unbedingt auch die NIN und lokalen Regelungen betreffend Blitzschutzeinrichtungen für Ausseninstallationen von Ladeinfrastruktur.
     Schweizer NIN Kapitel: 5.3.4
     Deutschland Norm: VDE 0100-534 
 
@@ -71,8 +71,8 @@ Bei Gebäuden ohne äusseren Blitzschutz: (z.B. eine Fangeinrichtung auf dem Dac
 
 Für Geräte der Überspannungskategorie III ist der Schutz durch einen SPD Typ 2 erforderlich, um die Stossspannungsfestigkeit der Geräte nicht zu überschreiten.
 
-Bei Gebäuden mit äusseren Blitzschutz: (z.B. eine Fangeinrichtung auf dem Dach)
-Die Installation benötigt hier einen SPD Typ-1 Blitzschutz und Typ-2 Blitzschutz, ansonsten besteht die Gefahr, das bei Einschlag in die Fangeinrichtung der SPD Typ-2 zerstört wird.
+Bei Gebäuden mit äusserem Blitzschutz: (z.B. eine Fangeinrichtung auf dem Dach)
+Die Installation benötigt hier einen SPD Typ-1 Blitzschutz und Typ-2 Blitzschutz, ansonsten besteht die Gefahr, dass bei Einschlag in die Fangeinrichtung der SPD Typ-2 zerstört wird.
 
 ## Downloads
 
@@ -104,7 +104,7 @@ Die Installation benötigt hier einen SPD Typ-1 Blitzschutz und Typ-2 Blitzschut
 <summary>Lastschutz für Ladestationsgruppenabsicherung und Zuleitung bis 80A pro Phase</summary>
 
 Der Lastschutz am Abgang für die gesamte Ladegruppe sollte die Charakteristik C aufweisen.
-Die üblichen Lastschutzeinrichtungen nach Charakteristik B eignen sich nicht für Ladestationsinstallationen und neigen dazu zu früh auszulösen.
+Die üblichen Lastschutzeinrichtungen nach Charakteristik B eignen sich nicht für Ladestationsinstallationen und neigen dazu, zu früh auszulösen.
 
 Bei einem 63A E-Mobilitätsabgang wäre z.B. ein 63A Lastschutz, Typ C mit 6kA oder 10kA Kurzschlussfähigkeit zu empfehlen.
 

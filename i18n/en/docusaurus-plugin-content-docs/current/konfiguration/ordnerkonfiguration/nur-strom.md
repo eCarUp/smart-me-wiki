@@ -15,7 +15,7 @@ Folder structure for smart-me Billing electricity
 
 Folder structure: a two-level structure is mandatory.
 
-Billing is set up at this level. It includes all apartments, rooms and parking spaces as subfolders, together with their relevant electricity meters.
+This is where a billing is set up. It contains all apartments, rooms and parking spaces as subfolders, together with their relevant electricity meters.
 
 - 1 folder for the property (e.g. Altgasse ZEV)
 
@@ -24,9 +24,9 @@ Billing is set up at this level. It includes all apartments, rooms and parking s
 
 Naming billing units (tips):
 
-- -   ZEV with one building: apartment name (e.g. APT UF Left, APT UF, Right, etc....)
+- -   ZEV with one building: apartment name (e.g. APT UF left, APT UF, right, etc....)
 
-    - ZEV with several buildings:  building name and apartment name (e.g. Altgasse 13 APT UF Left, Altgasse13 APT UF, Right, etc....)
+    - ZEV with several buildings:  building name apartment name (e.g. Altgasse 13 APT UF left, Altgasse13 APT UF, right, etc....)
 
 
 3a. Basic structure
@@ -37,21 +37,21 @@ Naming billing units (tips):
 
 Use drag and drop to add the relevant meters to the nodes.
 
-Important information on assignment:
+Important information on the assignment:
 
 Electricity / heat / water
 
-Only assign metering points directly to billing units if the invoice recipient will later pay 100% of the consumption.
+Only assign metering points directly to billing units if the invoice recipient will later have to pay 100% of the consumption.
 
-If you want to assign only part of a meter to an individual billing unit, move the meter into a node within the "Technical Meters" ("Technische Zähler") node.
+If you only want to assign part of a meter to an individual billing unit, move the meter into a node within the "Technical meters" ("Technische Zähler") node.
 
-Later, such a meter can be allocated by percentage in Billing.
+Such a meter can later be distributed by percentage in Billing.
 
 Examples:
 
 - General meter
 
-- Heat meter for one floor that serves 4 billing units
+- Heat meter of a floor that serves 4 billing units
 
 
 Charging stations with smart-me Pico / Zaptec / Easee
@@ -60,7 +60,7 @@ Do not assign charging stations directly to apartments; instead, create a separa
 
 Charging stations from other manufacturers
 
-Charging stations from other manufacturers are not managed or billed directly in smart-me. In this case, create a node for the e-mobility outgoing circuit as a billing unit and assign the outgoing circuit meter to that node. This gives you the total consumption of all charging stations.
+Charging stations from other manufacturers are not managed or billed directly in smart-me. In this case, create a node for the e-mobility outgoing feeder as a billing unit and assign the feeder meter to the node. This gives you the total consumption for all charging stations.
 
 
 
@@ -70,4 +70,4 @@ Charging stations from other manufacturers are not managed or billed directly in
 
 ### Finally, create the alarms for a connection failure.
 
-This way, you notice early when a meter fails and minimize the resulting gap in the measurement data.
+This way you will notice early if a meter fails and minimize the resulting gap in the measurement data.

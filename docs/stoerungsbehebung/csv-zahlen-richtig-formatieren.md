@@ -16,7 +16,7 @@ Anbei findest du zwei einfache Lösungen, mit denen du sicherstellst, dass Excel
 
 ### CSV mit Suchen/Ersetzten bearbeiten
 
-- Alle Werte welche falsch formatiert sind wählen.
+- Alle Werte, welche falsch formatiert sind, wählen.
 
 - Ctrl+H drücken
 
@@ -43,7 +43,7 @@ Anbei findest du zwei einfache Lösungen, mit denen du sicherstellst, dass Excel
 - Alle erstezen
 
 </div>
-<div className="col col--8 text--center">
+<div className="col col--8 bild--mitte">
 
 ![CSV Zahlen richtig Formatieren – Abbildung 2](/img/stoerungsbehebung-csv-zahlen-richtig-formatieren/02.png)
 
@@ -62,7 +62,7 @@ Anbei findest du zwei einfache Lösungen, mit denen du sicherstellst, dass Excel
 
     - Dezimaltrennzeichen ,  (Komma)
 
-    - Tausendertrennezichen .  (Punkt)
+    - Tausendertrennzeichen .  (Punkt)
 
 
 ![CSV Zahlen richtig Formatieren – Abbildung 3](/img/stoerungsbehebung-csv-zahlen-richtig-formatieren/03.png)

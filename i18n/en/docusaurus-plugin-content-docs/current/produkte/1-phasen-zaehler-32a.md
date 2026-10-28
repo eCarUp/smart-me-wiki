@@ -7,7 +7,7 @@ displayed_sidebar: wikiSidebar
 ---
 The smart-me Meter is the first electricity meter that can be analysed and controlled from anywhere. No additional hardware is required. It uses the existing WiFi network and connects directly to the smart-me Cloud. This lets you conveniently view your energy consumption in real time.
 
-Sales discontinued on 01.01.2023, support and cloud service continue to be provided.
+Sales discontinued on 01.01.2023, support and cloud services continue to be provided.
 
 ![Single Phase Meter 32A – Figure 1](/img/produkte-1-phasen-zaehler-32a/01.jpg)
 
@@ -23,7 +23,7 @@ Sales discontinued on 01.01.2023, support and cloud service continue to be provi
 
 - Accuracy class 1 according to IEC62053-21
 
-- Integrated data logger for two months (in case of connection loss)
+- Integrated data logger for two months (in the event of connection loss)
 
 - Direct, encrypted connection to the smart-me Cloud (WiFi)
 
@@ -33,7 +33,7 @@ Sales discontinued on 01.01.2023, support and cloud service continue to be provi
 
     - Automatic billing ([smart-me Billing](/konfiguration/billing))
 
-    - Control with [Event-related Actions](/konfiguration/wenndann-aktionen/ereignisaktionen) and [If / Then Actions](/konfiguration/wenndann-aktionen)
+    - Control with [event-related actions](/konfiguration/wenndann-aktionen/ereignisaktionen) and [if/then actions](/konfiguration/wenndann-aktionen)
 
 - Easy installation with the free smart-me app for [Android](https://play.google.com/store/apps/details?id=com.smart_me) and [iOS](https://apps.apple.com/ch/app/smart-me/id929146952?ign-mpt=uo%3D4)
 
@@ -65,7 +65,7 @@ See [Commissioning](/konfiguration/inbetriebnahme)
 
 ## Configuring inputs and outputs
 
-The smart-me Meter has one output and one input, which can be used as pulse inputs and outputs or as a switchable potential-free contact. You can find details [here](/schnittstellen/ein-und-ausgaenge). 
+The smart-me Meter has one output and one input, which can be used as pulse input and output or as a switchable potential-free contact. You can find details [here](/schnittstellen/ein-und-ausgaenge). 
 
 ## Dimensions and connections
 
@@ -78,7 +78,7 @@ The smart-me Meter has one output and one input, which can be used as pulse inpu
 <div className="row">
 <div className="col col--5">
 
-T1: Installation button
+T1: Button for installation
 
 E1: Tariff switching (digital input)
 
@@ -89,7 +89,7 @@ E1: Tariff switching (digital input)
 S0: Pulse output (potential-free contact)
 
 </div>
-<div className="col col--7 text--center">
+<div className="col col--7 bild--mitte">
 
 ![Single Phase Meter 32A – Figure 3](/img/produkte-1-phasen-zaehler-32a/03.png)
 

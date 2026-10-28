@@ -10,7 +10,7 @@ sidebar_label: 'SMARTFOX'
 smart-me Geräte können direkt und einfach in eine SMARTFOX Installation integriert werden.
 
 </div>
-<div className="col col--5 text--center">
+<div className="col col--5 bild--mitte">
 
 ![SMARTFOX – Abbildung 1](/img/drittsysteme-smartfox/01.png)
 
@@ -50,7 +50,7 @@ Funktionen: 
 
 Einsatzmöglichkeiten: 
 
-- Hochauflösendes Monitoring von Verbraucher
+- Hochauflösendes Monitoring von Verbrauchern
 
 - Hochauflösendes Monitoring von Erzeugungsanlagen
 
@@ -64,7 +64,7 @@ Einsatzmöglichkeiten: 
 
 ## Anleitung zur Verknüpfung von smart-me Zähler und SMARTFOX
 
-Komplete [Anleitung zur Verknüpfung](https://drive.google.com/file/d/1FaH_zWsVsDhH9CMsMmJ5JkJ0OZN69d2J/view?usp=drive_link) mit allen Einzelheiten
+Komplette [Anleitung zur Verknüpfung](https://drive.google.com/file/d/1FaH_zWsVsDhH9CMsMmJ5JkJ0OZN69d2J/view?usp=drive_link) mit allen Einzelheiten
 
 ### Schnellanleitung
 
@@ -82,7 +82,7 @@ Komplete [Anleitung zur Verknüpfung](https://drive.google.com/file/d/1FaH_zWsVs
 5.  Speichern.
 
 </div>
-<div className="col col--6 text--center">
+<div className="col col--6 bild--mitte">
 
 ![SMARTFOX – Abbildung 3](/img/drittsysteme-smartfox/03.png)
 

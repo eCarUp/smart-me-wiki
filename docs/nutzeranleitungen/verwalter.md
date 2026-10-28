@@ -18,7 +18,7 @@ sidebar_label: 'Verwalter'
 smart-me Startseite -> Benutzerkonfiguration
 
 </div>
-<div className="col col--7 text--center">
+<div className="col col--7 bild--mitte">
 
 ![Anleitung für Verwalter – Abbildung 1](/img/nutzeranleitungen-verwalter/01.png)
 
@@ -33,7 +33,7 @@ smart-me Startseite -> Benutzerkonfiguration
 smart-me Startseite -> Rechnungsstellung
 
 </div>
-<div className="col col--7 text--center">
+<div className="col col--7 bild--mitte">
 
 ![Anleitung für Verwalter – Abbildung 2](/img/nutzeranleitungen-verwalter/02.png)
 
@@ -42,7 +42,7 @@ smart-me Startseite -> Rechnungsstellung
 
 ## Voraussetzungen und Prüfungen bei der Übergabe
 
-Hinweis: Partner sind die erste Ansprechperson für Verwaltungen sofern die Verwaltungsschulung bei uns nicht besucht wurde.
+Hinweis: Partner sind die erste Ansprechperson für Verwaltungen, sofern die Verwaltungsschulung bei uns nicht besucht wurde.
 
 - Alarm (bzw. abmachen wer sich darum kümmert)
 
@@ -76,7 +76,7 @@ Hinweis: Partner sind die erste Ansprechperson für Verwaltungen sofern die Verw
 
 ## Mieterwechsel
 
-Wie man einen Mieterzugang erstellt, eine Mieterwechsel im smart-me Billing vollzieht und wie Tarife erneuert werden.
+Wie man einen Mieterzugang erstellt, einen Mieterwechsel im smart-me Billing vollzieht und wie Tarife erneuert werden.
 
 ![Anleitung für Verwalter – Abbildung 4](/img/nutzeranleitungen-verwalter/04.png)
 
@@ -102,14 +102,14 @@ Mieter erstellen
 
 7.  Passwort setzen
 
-8.  Per Drag und Drop dem berechtigten Knoten zuordnen. (In der Regel bekommt der Mieter zugriff zu den Graphiken, Technische Zähler und seine Wohneinheit)
+8.  Per Drag und Drop dem berechtigten Knoten zuordnen. (In der Regel bekommt der Mieter Zugriff zu den Graphiken, Technische Zähler und seine Wohneinheit)
 
 
 ![Anleitung für Verwalter – Abbildung 5](/img/nutzeranleitungen-verwalter/05.png)
 
 ### Mieterzugang verändern
 
-Wenn ein neuer Mieter einzieht, kann verhindert werden, dass er auf die alten Daten zugreiffen kann.
+Wenn ein neuer Mieter einzieht, kann verhindert werden, dass er auf die alten Daten zugreifen kann.
 
 1.  Benutzer anwählen und editieren
 
@@ -153,7 +153,7 @@ Abrechnungseinheit
 
 Die pauschalen Orientierungspunkte
 
-- Solartarif = 80% des Netztarif 
+- Solartarif = 80% des Netztarifs 
 
     - Leitfaden Eigenverbrauch von Energie Schweiz: [https://www.energieschweiz.ch/gebaeude/eigenverbrauch/](https://www.energieschweiz.ch/gebaeude/eigenverbrauch/)
 
@@ -162,7 +162,7 @@ Die pauschalen Orientierungspunkte
 
 ### Einzahlungskonto ändern
 
-Das Auszahlungskonto kann im smart-me Billing an zwei orten gepfelgt werden.
+Das Auszahlungskonto kann im smart-me Billing an zwei Orten gepflegt werden.
 
 In der Fusszeile
 
@@ -233,14 +233,14 @@ Wohnungsabhängige Zusatzkosten (zusätzliche Zählermiete oder Parkplatzgebühr
 2.  Ganz runter scrollen "Sonstiges"
 
 
-Kosten werden nicht aufgeteilt sondern auf allen gleich hinzugefügt.
+Kosten werden nicht aufgeteilt, sondern auf allen gleich hinzugefügt.
 Beispiel: Zählermiete des Energieversorgers 5CHF pro Monat. 5x Abrechnungseinheiten -> 1CHF/Mt in Sonstiger Position
 
 ![Anleitung für Verwalter – Abbildung 12](/img/nutzeranleitungen-verwalter/12.png)
 
 ### Tarife Wärme / Warmwasser
 
-Wenn kein VEWA verwenden wird, müssen die Preiskomponenten der Multienergiezähler hinzugefügt werden. Bei VEWA werden diese überschrieben.
+Wenn kein VEWA verwendet wird, müssen die Preiskomponenten der Multienergiezähler hinzugefügt werden. Bei VEWA werden diese überschrieben.
 
 Tarife für Heizung und Warmwasser bestimmen
 
@@ -251,7 +251,7 @@ Tarife für Heizung und Warmwasser bestimmen
 
 ### Rechnung erstellen (nur Strom)
 
-Bsp. 01.10.2024 bis 04.11.2024 kann nun Abgerechnet werden.
+Bsp. 01.10.2024 bis 04.11.2024 kann nun abgerechnet werden.
 
 1.  Rechnungsstellung
 
@@ -259,13 +259,13 @@ Bsp. 01.10.2024 bis 04.11.2024 kann nun Abgerechnet werden.
 
 3.  Liegenschaft oder Abrechnungseinheit auswählen
 
-4.  Rechnungsperiode definieren (Hinweis: Der Inbetriebnahme Tag und der aktuell tag kann nicht abgerechnet werden)
+4.  Rechnungsperiode definieren (Hinweis: Der Inbetriebnahme Tag und der aktuelle Tag kann nicht abgerechnet werden)
 
 5.  Rechnungsnummer definieren (Zählt dann hoch)
 
 6.  Rechnung erstellen.
 
-7.  Sicherstellen, dass keine Warnungen vorhanden sind, wenn doch bitte mit dem Installationspartner prüfen sofern die Verwalterschulung nicht besucht wurden.
+7.  Sicherstellen, dass keine Warnungen vorhanden sind, wenn doch bitte mit dem Installationspartner prüfen sofern die Verwalterschulung nicht besucht wurde.
 
 
 ![Anleitung für Verwalter – Abbildung 13](/img/nutzeranleitungen-verwalter/13.png)
@@ -275,16 +275,16 @@ Bsp. 01.10.2024 bis 04.11.2024 kann nun Abgerechnet werden.
 <div className="row">
 <div className="col col--4">
 
-1.  Zur Liegenscharf navigieren.
+1.  Zur Liegenschaft navigieren.
 
 2.  Editieren und neue Periode erfassen
 
 3.  Auswählen was verrechnet werden soll
 
-4.  Kosten für die einzelnen Position erfassen
+4.  Kosten für die einzelnen Positionen erfassen
 
 </div>
-<div className="col col--8 text--center">
+<div className="col col--8 bild--mitte">
 
 ![Anleitung für Verwalter – Abbildung 14](/img/nutzeranleitungen-verwalter/14.png)
 
@@ -308,7 +308,7 @@ Bsp. 01.10.2024 bis 04.11.2024 kann nun Abgerechnet werden.
 
 ### QR Code Rechnung in Hochformat ändern
 
-Um die QR Code Rechnung korrekt im hochformat ausdrucken zu können. Müssen folgende Einstellungen in der Druck-Maske geändert werden. Beispiel mit Adobe Acrobat Reader.
+Um die QR Code Rechnung korrekt im Hochformat ausdrucken zu können, müssen folgende Einstellungen in der Druck-Maske geändert werden. Beispiel mit Adobe Acrobat Reader.
 
 - Tatsächliche Grösse aktivieren
 
@@ -332,7 +332,7 @@ Hinweis: Es darf nicht bereits ein Konto mit der neuen E-Mail existieren.
 
 4\. Neue E-Mail eingeben, bestätigen und auf E-Mail ändern klicken
 
-5\. Sie erhalten auf die neue E-Mail einen Link zum bestätigen.
+5\. Sie erhalten auf die neue E-Mail einen Link zum Bestätigen.
 
 Wichtig: Wenn dieser auf einem anderen Gerät geöffnet wird, muss sich nochmals mit den alten Logindaten angemeldet werden.
 
@@ -357,7 +357,7 @@ Hinweis: Es darf nicht bereits ein Konto mit der neuen E-Mail existieren.
 
 6\. Auf Übertragungskonto klicken
 
-7\. Sie werden auf die neue Mail einen Link erhalten um die Übertragung anzunehmen.
+7\. Sie werden auf die neue Mail einen Link erhalten, um die Übertragung anzunehmen.
 
 Wichtig: Der Link ist nur 6h gültig. Danach muss der Prozess nochmals gestartet werden. 
 

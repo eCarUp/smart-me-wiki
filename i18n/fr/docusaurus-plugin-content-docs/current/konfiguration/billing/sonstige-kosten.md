@@ -1,13 +1,13 @@
 ---
 title: 'Configurer les autres coûts pour l''électricité'
 slug: '/konfiguration/billing/sonstige-kosten'
-description: 'Postes de coûts supplémentaires dans le champ Divers – de manière globale pour tout l''immeuble ou individuellement pour chaque unité de décompte.'
+description: 'Postes de coûts supplémentaires dans le champ Divers – globalement pour tout l''immeuble ou individuellement par unité de décompte.'
 sidebar_label: 'Autres coûts'
 naechste_schritte: [konfiguration/billing/vewa-abrechnung]
 vorheriger_schritt: konfiguration/billing/stromtarife-definieren/index
 ---
 
-Dans le champ Divers (Sonstiges), vous pouvez ajouter d'autres postes de coûts. Cela est possible individuellement pour chaque unité de décompte (Abrechnungseinheit) ou globalement pour toutes les unités de décompte (immeuble).
+Le champ Divers (Sonstiges) permet d'ajouter des postes de coûts supplémentaires. Cela peut se faire individuellement pour chaque unité de décompte (Abrechnungseinheit) ou globalement pour toutes les unités de décompte (immeuble).
 
 Remarque : les autres coûts (Sonstiges) ne sont disponibles qu'avec la facture d'électricité.
 
@@ -18,9 +18,9 @@ Remarque : les autres coûts (Sonstiges) ne sont disponibles qu'avec la facture 
 <Menueweg>Facturation → Immeubles & tarifs</Menueweg>
 
 Exemple :
-80% de la part des coûts de base du fournisseur d'électricité doivent être facturés à parts égales à tous les participants en lien avec le tarif solaire.
+80% de la part des coûts de base du fournisseur d'électricité doivent être facturés à parts égales à tous les participants dans le cadre du tarif solaire.
 
-- Le montant saisi est ajouté chaque mois sur toutes les factures
+- La taxe saisie est ajoutée chaque mois sur toutes les factures
 
 </div>
 <div className="col col--5 bild--mitte">
@@ -36,4 +36,4 @@ Exemple :
 Exemple :
 Une borne de recharge est louée et doit être facturée mensuellement à l'unité de décompte.
 
-- Les coûts sont imputés uniquement à cette unité de décompte
+- Les coûts ne sont imputés qu'à cette seule unité de décompte

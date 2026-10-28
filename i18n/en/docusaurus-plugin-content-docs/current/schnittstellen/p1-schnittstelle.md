@@ -11,7 +11,7 @@ sidebar_label: 'P1 Interface'
 The P1 interface allows live data from our meter hardware to be transferred to third-party systems. The data can then be used for analysis or for control purposes.
 
 To use this interface, you need a P1 reader module that supports the protocol standard.
-You can find information on the respective standard in the product-specific downloads.
+Information on the respective standard can be found in the product-specific downloads.
 
 ## Downloads
 

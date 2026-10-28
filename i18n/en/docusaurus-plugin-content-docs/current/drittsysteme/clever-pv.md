@@ -7,14 +7,14 @@ sidebar_label: 'Clever PV'
 <div className="row">
 <div className="col col--8">
 
-Clever-PV is an online-based home energy management system (HEMS). With Clever-PV, you can connect your power generators and consumers via the internet and control them intelligently.
+Clever-PV is an online-based home energy management system (HEMS). Clever-PV lets you connect your power generators and consumers via the internet and control them intelligently.
 
-For using surplus PV power, it is essential to know the current feed-in or consumption power from the building's electricity meter. The current production output of the PV system is not required for control.
+For using PV surplus, it is essential that the current feed-in or consumption power from the building's meter is known. The current production output of the PV system is not required for control.
 
 The energy data for control can be streamed quickly and reliably from smart-me meters directly into Clever-PV.
 
 </div>
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
 ![Clever PV – Figure 1](/img/drittsysteme-clever-pv/01.png)
 

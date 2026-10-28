@@ -81,7 +81,7 @@ Der smart-me Telstar 80A ist ein MID-zertifizierter Energiezähler mit integrier
 - M Nicht mehr genutzte Funktion (kann ignoriert werden)
 
 </div>
-<div className="col col--5 text--center">
+<div className="col col--5 bild--mitte">
 
 ![3-Phasenzähler Telstar 80A – Abbildung 2](/img/produkte-telstar-80a/02.png)
 
@@ -125,12 +125,12 @@ Der Zähler hat ein rollendes Display. Die unten beschriebenen Punkte werden na
 ### Abmessungen \[mm\]
 
 <div className="row">
-<div className="col col--6 text--center">
+<div className="col col--6 bild--mitte">
 
 ![3-Phasenzähler Telstar 80A – Abbildung 3](/img/produkte-telstar-80a/03.png)
 
 </div>
-<div className="col col--6 text--center">
+<div className="col col--6 bild--mitte">
 
 ![3-Phasenzähler Telstar 80A – Abbildung 4](/img/produkte-telstar-80a/04.png)
 
@@ -151,7 +151,7 @@ Wenn die Taste T1 für 10 Sekunden gedrückt wird, erzeugt dies ein lokales WiFi
 
 T1 + T2 Neustart
 
-Tasten T1 und T2 gleichzeitig für 10 Sekunden drücken um einen Neustart zu erzwingen.
+Tasten T1 und T2 gleichzeitig für 10 Sekunden drücken, um einen Neustart zu erzwingen.
 
 T2 Spezialfunktionen
 
@@ -171,7 +171,7 @@ Hinweis: Diese Einstellung ändert nur die Anzeige auf dem Display, nicht in der
 ## LED
 
 <div className="row">
-<div className="col col--5 text--center">
+<div className="col col--5 bild--mitte">
 
 ![3-Phasenzähler Telstar 80A – Abbildung 7](/img/produkte-telstar-80a/07.png)
 
@@ -186,7 +186,7 @@ Hinweis: Diese Einstellung ändert nur die Anzeige auf dem Display, nicht in der
 </div>
 
 <div className="row">
-<div className="col col--5 text--center">
+<div className="col col--5 bild--mitte">
 
 ![3-Phasenzähler Telstar 80A – Abbildung 8](/img/produkte-telstar-80a/08.png)
 
@@ -195,7 +195,7 @@ Hinweis: Diese Einstellung ändert nur die Anzeige auf dem Display, nicht in der
 
 🔴 Rote LED - Impuls LED
 
-- Zeigt die aktuell bezogene Wirk- oder Blindleistung in 1000 Impulsen/kWh resp. 1000 Imulse/kVArh an. Ob Wirk- oder Blindleistung angezeigt wird, kann mit der Taste T2 eingestellt werden.
+- Zeigt die aktuell bezogene Wirk- oder Blindleistung in 1000 Impulsen/kWh resp. 1000 Impulse/kVArh an. Ob Wirk- oder Blindleistung angezeigt wird, kann mit der Taste T2 eingestellt werden.
 
 - Zum Beispiel: Eine LED mit der Kennzeichnung „1000 Impulse/kWh“ blinkt 1000 Mal, wenn 1 Kilowattstunde (kWh) Energie bezogen oder geliefert wurde. Wurden die 1000 Impulse innerhalb von 1 Stunde gezählt, wurde konstant 1 kW Leistung gemessen.
 
@@ -240,9 +240,9 @@ Gewicht mit Verpackung: 415g
 <details id="in-welchem-intervall-senden-die-zähler-daten">
 <summary>In welchem Intervall senden die Zähler Daten?</summary>
 
-- Alle 15 Minuten, also um xx:00:00 xx:15:00, xx:30:00 und xx:45:00. Hiermit werden die nötigen Daten für den Lastgang gesendet. Diese Daten werden im Fall eines Verbindungsunterbruchs lokal gespeichert und nachgesendet.
+- Alle 15 Minuten, also um xx:00:00, xx:15:00, xx:30:00 und xx:45:00. Hiermit werden die nötigen Daten für den Lastgang gesendet. Diese Daten werden im Fall eines Verbindungsunterbruchs lokal gespeichert und nachgesendet.
 
-- Zudem mindestens aller 330 Sekunden.
+- Zudem mindestens alle 330 Sekunden.
 
 - Anschliessend, wenn eines der folgenden Ereignisse eintritt:
 
@@ -259,7 +259,7 @@ Gewicht mit Verpackung: 415g
 </details>
 
 <details id="kann-ich-den-zählerstand-auf-null-zurücksetzten">
-<summary>Kann ich den Zählerstand auf Null zurücksetzten?</summary>
+<summary>Kann ich den Zählerstand auf Null zurücksetzen?</summary>
 
 Nein, da unsere Zähler für Abrechnungen verwendet werden, ist es nicht möglich, diese zurückzusetzen.
 

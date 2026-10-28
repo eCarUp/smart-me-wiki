@@ -1,11 +1,11 @@
 ---
 title: 'Planification'
 slug: '/planung'
-description: 'Exemples d''installation du matériel dans un RCP (regroupement dans le cadre de la consommation propre), incl.'
+description: 'Exemples d''installation du matériel dans un regroupement dans le cadre de la consommation propre (RCP), y c.'
 sidebar_label: 'Planification'
 ---
 
-Trouvez dans cette catégorie des détails et des informations importantes pour vous aider à planifier votre projet smart-me.
+Cette catégorie contient des détails et des informations importantes pour vous aider à planifier votre projet smart-me.
 
 ### Les modèles
 
@@ -32,7 +32,7 @@ Vous trouverez ici des schémas de mesure spéciaux ou rares et leurs effets sur
 <Unterseiten nur=" planung/mkd3-messkonzept-nicht-teilnehmer, planung/messkonzept-notstromloesung, planung/messkonzept-produzenten-hinter-haeuser" />
 
 ### Connectivité
-Détails sur la connectivité, élément central de votre infrastructure smart-me.
+Détails sur la connectivité, le cœur de votre infrastructure smart-me.
 
 <Unterseiten nur="planung/internetverbindung, planung/internetverbindung-deutschland" />
 
@@ -40,4 +40,4 @@ Détails sur la connectivité, élément central de votre infrastructure smart-m
 
 <Unterseiten nur="planung/vertrag-rechtliches, planung/zertifizierungen-schweiz, planung/zertifizierungen-deutschland, planung/minergie" />
 
-<Unterseiten titel="Autres" ohne="planung/zev-zusammenschluss-zum-eigenverbrauch, planung/virtuelle-zev-vzev, planung/leg-lokale-elektrizitaetsgemeinschaft/index, planung/elektromobilitaet/index, planung/cloud-lizenzen, planung/investitionsrechner, planung/projektkonfigurator, planung/standard-messkonzept, planung/mkd3-messkonzept-nicht-teilnehmer, planung/messkonzept-notstromloesung, planung/messkonzept-produzenten-hinter-haeuser, planung/internetverbindung, planung/internetverbindung-deutschland, planung/vertrag-rechtliches, planung/zertifizierungen-schweiz, planung/zertifizierungen-deutschland, planung/minergie" />
+<Unterseiten titel="Weiteres" ohne="planung/zev-zusammenschluss-zum-eigenverbrauch, planung/virtuelle-zev-vzev, planung/leg-lokale-elektrizitaetsgemeinschaft/index, planung/elektromobilitaet/index, planung/cloud-lizenzen, planung/investitionsrechner, planung/projektkonfigurator, planung/standard-messkonzept, planung/mkd3-messkonzept-nicht-teilnehmer, planung/messkonzept-notstromloesung, planung/messkonzept-produzenten-hinter-haeuser, planung/internetverbindung, planung/internetverbindung-deutschland, planung/vertrag-rechtliches, planung/zertifizierungen-schweiz, planung/zertifizierungen-deutschland, planung/minergie" />

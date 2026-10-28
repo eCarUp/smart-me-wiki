@@ -15,7 +15,7 @@ Das Lastmanagementsystem von Pico beruht auf zwei grundlegenden Funktionalitäte
 
 ## Pico Lastmanagement (Lastgruppen)
 
-Die Pico Lastgruppe definiert eine Gruppierung von Pico-Hardware welche sich ein Stromkabel oder eine Stromverteilung teilen.
+Die Pico Lastgruppe definiert eine Gruppierung von Pico-Hardware, welche sich ein Stromkabel oder eine Stromverteilung teilen.
 Diese Einstellungen werden auf der Pico-Hardware hinterlegt und gespeichert. 
 
 - Maximaler Stromwert für die Zuleitung (Absicherungswert pro Phase)
@@ -27,11 +27,11 @@ Die Lastgruppenfunktionalität erfüllt folgende Aufgaben:
 
 ### MESH-Kommunikation
 
-Die Pico-Hardware verfügt über eine MESH-Funktionalität. Diese ermöglicht eine lokale Kommunikation der Picos untereinander auch wenn Wifi oder die Mobile Verbindung zum Internet nicht gewährleistet ist. Das MESH kann auch Ladestationen ohne direkten Accesspoint Zugang mit der Cloud über benachbarte Picos verbinden. Voraussetzung dafür ist aber, dass sie sich zusammen in einer Ladegruppe befinden und ein Wifi vorhanden ist.
+Die Pico-Hardware verfügt über eine MESH-Funktionalität. Diese ermöglicht eine lokale Kommunikation der Picos untereinander, auch wenn Wifi oder die mobile Verbindung zum Internet nicht gewährleistet ist. Das MESH kann auch Ladestationen ohne direkten Accesspoint Zugang mit der Cloud über benachbarte Picos verbinden. Voraussetzung dafür ist aber, dass sie sich zusammen in einer Ladegruppe befinden und ein Wifi vorhanden ist.
 
 Das MESH-Netzwerk kann maximal 200 Ladestationen in einer Lastgruppe unterstützen.
 
-Das MESH übermittelt in jedem Fall die Lastmanagement Werte und Entscheidungen im Bezug auf die Gruppe vom Master zu den anderen Gruppenmitgliedern.
+Das MESH übermittelt in jedem Fall die Lastmanagement Werte und Entscheidungen in Bezug auf die Gruppe vom Master zu den anderen Gruppenmitgliedern.
 
 Die Mitglieder des MESH-Netzwerkes benötigen nicht direkten Kontakt zur Master-Pico, sondern können auch über bis zu 5 benachbarte Ladestationen Verbindung zum MESH-Master (A) aufbauen.
 
@@ -46,7 +46,7 @@ Es sollte darauf geachtet werden, dass sich alle Picos an ein und denselben E-Mo
 
 Ist dies aus Lokationsgründen aller Picos nicht möglich, können auch mehrere Ladegruppen auf einem Kabel mit Hilfe des Multi-Level-Lastmanagements verwaltet werden.
 
-Es empfiehlt sich in diesem Fall z.B. 3er, 6er oder 9er Gruppen zu bilden um die 1-Phasenumschaltung möglichst effizient nutzen zu können.
+Es empfiehlt sich in diesem Fall z.B. 3er, 6er oder 9er Gruppen zu bilden, um die 1-Phasenumschaltung möglichst effizient nutzen zu können.
 
 Die Lastgruppenfunktion hat keine Ansprüche an den gleichnamigen Hotspot oder gleich lautende Zugangsdaten für die Verbindung zum Internet. Das MESH ist ein eigenes System und basiert nur darauf, dass die Geräte der Lastgruppe sich untereinander erreichen können.
 
@@ -91,7 +91,7 @@ In diesem Beispiel werden 63A auf vier aktive Ladestationen verteilt.
 Die Ladeströme werden ganzzahlig den aktiven Ladungen zugewiesen.
 
 </div>
-<div className="col col--6 text--center">
+<div className="col col--6 bild--mitte">
 
 ![Pico Lastmanagement – Abbildung 4](/img/produkte-pico-ladestation-pico-lastmanagement/04.png)
 
@@ -100,18 +100,18 @@ Die Ladeströme werden ganzzahlig den aktiven Ladungen zugewiesen.
 
 ### Phasenumschaltung und Phasenausgleich
 
-Pico verfügt über eine aktive Phasenumschaltung welche zwei Funktionen erfüllt:
+Pico verfügt über eine aktive Phasenumschaltung, welche zwei Funktionen erfüllt:
 
-- Phasenausgleich für Lastsymetrie unter aktiven Ladungen
+- Phasenausgleich für Lastsymmetrie unter aktiven Ladungen
 
 - Verteilung der Energie bei Unterversorgung
 
 
-Lastsymetrie:
+Lastsymmetrie:
 
-Die Pico identifiziert 1-Phasige Fahrzeuge und legt diese entsprechend auf eine Phase um zu laden. Kommen im Ladeverlauf mehr 1-Phasige Fahrzeuge dazu selektiert die Pico Gruppe automatisch eine noch nicht belastete Phase für dieses Fahrzeug.
+Die Pico identifiziert 1-Phasige Fahrzeuge und legt diese entsprechend auf eine Phase um zu laden. Kommen im Ladeverlauf mehr 1-Phasige Fahrzeuge dazu, selektiert die Pico Gruppe automatisch eine noch nicht belastete Phase für dieses Fahrzeug.
 
-Die Symmetrie gehorcht mehreren Regeln welche auch 3-Phasige Fahrzeuge in den 1-Phasenmodus zwingen kann falls die Asymmetrie zu gross wird. 
+Die Symmetrie gehorcht mehreren Regeln, welche auch 3-Phasige Fahrzeuge in den 1-Phasenmodus zwingen können, falls die Asymmetrie zu gross wird. 
 
 Unterversorgung:
 
@@ -126,12 +126,12 @@ Die aktiven Ladungen werden gleichmässig über die drei Phasen verteilt und der
 
 Berücksichtigt werden vom Algorithmus entsprechend auch pausierte oder beendete Ladungen.
 
-Pausierte Ladungen reservieren den minimal nötigen Strom um z.B. Fahrzeugstandheizungsfunktionen zu gewährleisten.
+Pausierte Ladungen reservieren den minimal nötigen Strom, um z.B. Fahrzeugstandheizungsfunktionen zu gewährleisten.
 
 Hinweis:
-Die Verfügbarkeit von minimal 6A ist ein Anspruch des Fahrzeuges und muss ladestationsseitig jederzeit gewährleistet werden. Dies unabhängig davon ob ich die Station im 3-phasigen oder 1-phasigen Betrieb befindet. Fällt der Wert darunter, stoppt das Fahrzeug die Ladung eigenmächtig oder das Fahrzeug beginnt gar nicht erst zu laden.
+Die Verfügbarkeit von minimal 6A ist ein Anspruch des Fahrzeuges und muss ladestationsseitig jederzeit gewährleistet werden. Dies unabhängig davon, ob sich die Station im 3-phasigen oder 1-phasigen Betrieb befindet. Fällt der Wert darunter, stoppt das Fahrzeug die Ladung eigenmächtig oder das Fahrzeug beginnt gar nicht erst zu laden.
 
-Einige ältere Fahrzeuge unterlassen den Ladestart sogar wenn weniger als 8A zur Verfügung stehen.
+Einige ältere Fahrzeuge unterlassen den Ladestart, sogar wenn weniger als 8A zur Verfügung stehen.
 
 Tipp: Öffentliche Stationen für Besucher oder Tankstellen mit dem Minimum von 8A konfigurieren.
 
@@ -139,12 +139,12 @@ Tipp: Öffentliche Stationen für Besucher oder Tankstellen mit dem Minimum von 
 
 ![Pico Lastmanagement – Abbildung 5](/img/produkte-pico-ladestation-pico-lastmanagement/05.png)
 
-Situation: Der Verfügbare Strom reicht nicht um alle Fahrzeuge 3-phasig mit dem Minimum zu versorgen.
+Situation: Der verfügbare Strom reicht nicht, um alle Fahrzeuge 3-phasig mit dem Minimum zu versorgen.
 \--> Die Ladestationen werden alle auf 1-phasiges Laden umgeschaltet.
 
 ![Pico Lastmanagement – Abbildung 6](/img/produkte-pico-ladestation-pico-lastmanagement/06.png)
 
-Situation: Der Verfügbare Strom würde für alle Geräte gleichzeitig reichen, eine Pausierte Ladung würde aber zu viele Energie binden. Die Ladestation mit dem fertig geladenen Fahrzeug wird auf 1-phasig gestellt um Kapazitäten an die anderen 3-phasigen Ladungen abzugeben.
+Situation: Der verfügbare Strom würde für alle Geräte gleichzeitig reichen, eine pausierte Ladung würde aber zu viel Energie binden. Die Ladestation mit dem fertig geladenen Fahrzeug wird auf 1-phasig gestellt, um Kapazitäten an die anderen 3-phasigen Ladungen abzugeben.
 
 ## Multilevel Lastmanagement (MLM)
 

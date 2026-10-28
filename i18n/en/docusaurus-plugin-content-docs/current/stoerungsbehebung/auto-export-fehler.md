@@ -1,14 +1,14 @@
 ---
 title: 'Auto Export errors'
 slug: '/stoerungsbehebung/auto-export-fehler'
-description: 'This section describes known error messages related to the Auto Export and possible solutions.'
+description: 'This section describes known error messages related to Auto Export and possible solutions.'
 sidebar_label: 'Auto Export errors'
 ---
-This section describes known error messages related to the Auto Export and possible solutions.
+This section describes known error messages related to Auto Export and possible solutions.
 
 ## General
 
-The configuration of the Auto Export is described here: [Auto Export](/schnittstellen/auto-export) 
+The configuration of Auto Export is described here: [Auto Export](/schnittstellen/auto-export) 
 
 If the Auto Export was successful, you can check the status of each metering point under Configuration (Konfiguration) --> Auto Export (Auto-Export) --> Assignment (Zuordnung) (on the right-hand side).
 
@@ -36,12 +36,12 @@ Problem 1: Date is in the future
 
 Solution:
 
-- Wait until the configured date has fully passed.
+- Wait until the configured date has fully elapsed.
 
 
 Problem 2: Waiting
 
-- The system has not yet completed a successful export since the assignment was created or last changed.
+- The system has not yet performed a successful export since the assignment was created / last changed.
 
 
 Solution:
@@ -58,9 +58,9 @@ Problem:
 
 Solution:
 
-- In the menu Interfaces (Schnittstellen) / Automatic export (Automatische Export)
+- In the menu Interfaces (Schnittstellen) / Auto Export (Automatischer Export)
 
-- Make a note of the date of the last export.
+- Note the date of the last export.
 
 - In the menu Dashboard
 
@@ -68,21 +68,21 @@ Solution:
 
 - Report
 
-- Set Date from (Datum von) to the "Last export" (Letzen Export) from the Auto Export
+- Set Date from (Datum von) to the "Last export" (Letzter Export) from the Auto Export
 
-- Set Date to (Datum bis) to the "Last export" (Letzen Export) from the Auto Export
+- Set Date to (Datum bis) to the "Last export" (Letzter Export) from the Auto Export
 
-- Make a note of the oldest date under Electricity time span (Elektrizität Zeitspanne).
+- Note the oldest date under Electricity time span (Elektrizität Zeitspanne).
 
-- In the menu Interfaces (Schnittstellen) / Automatic export (Automatische Export)
+- In the menu Interfaces (Schnittstellen) / Auto Export (Automatischer Export)
 
 - Select the station 
 
 - Edit (Editieren)
 
-- Set Last export (Letzer Export) to "oldest date under Electricity time span" +1. 
+- Set Last export (Letzter Export) to "oldest date under Electricity time span" +1. 
 
-- It is important to set the date + 1, as we can only export full days.
+- It is important to set the date + 1, as we can only export whole days.
 
 - Wait up to 45 minutes until the export updates the status.
 
@@ -98,17 +98,17 @@ Solution
 
 - The metering point must be brought back online.
 
-- The Auto Export then restarts automatically.
+- The Auto Export will then restart automatically.
 
 
 Problem 2: Data for an entire day is missing
 
-- The metering point does not have all data for the period between the last export and the next export. For example, because the metering point was installed on 2.3.2024 at 12h37, no export can be performed for 2.3.2024, as this day is incomplete.
+- The metering point does not have all data for the period between the last export and the next export. E.g. because the metering point was installed on 2.3.2024 at 12h37, no export can be performed for 2.3.2024, as this day is incomplete.
 
 
 Solution
 
-- (optional) Manual reading in the downstream system, e.g. EDM, so that the day is fully recorded. (The reading can be taken, for example, with a report in the main overview of smart-me).
+- (optional) Manual reading in the downstream system, e.g. EDM, so that the day is fully recorded. (The reading can be taken e.g. with a report in the main overview of smart-me).
 
 - Edit the metering point and set Last export (Letzter Export) to the next date.
 
@@ -149,7 +149,7 @@ Proc-Type: 4,ENCRYPTED,...
 
 ### FTP upload Error: The remote server returned an error 550
 
-Problem: smart-me does not have permission to write to the specified path.
+Problem: Smart-me does not have permission to write to the specified path.
 
 Solution: Grant permissions.
 

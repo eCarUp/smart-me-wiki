@@ -53,11 +53,11 @@ and one head for mounting the Picos (all heads are compatible with both stand va
 <div className="col col--6">
 
 ## Ordering Information OnePole Stand
-⚡NEW: the Pico charging station is compatible with the universal charging pole from [ONEPOLE](https://onepole.no/de). The bracket for the Pico and the charging pole can be ordered in various versions directly from the Otto Fischer webshop ➡️ [Pico bracket](https://www.ottofischer.ch/de/item/halterung-onepole-pro-fur-pico-ladestation-896511561#item-downloads) and [ONEPOLE stands](https://www.ottofischer.ch/de/catalog/standfusse-5581978?q=&expanded_filters=id_brands&brands=20630654&limit=48&sort=abc_value). For further information, please contact Otto Fischer.
+⚡NEW: the Pico charging station is compatible with the universal charging pole from [ONEPOLE](https://onepole.no/de). The bracket for the Pico and the charging pole can be ordered in different versions directly from the Otto Fischer webshop ➡️ [Pico bracket](https://www.ottofischer.ch/de/item/halterung-onepole-pro-fur-pico-ladestation-896511561#item-downloads) and [ONEPOLE stands](https://www.ottofischer.ch/de/catalog/standfusse-5581978?q=&expanded_filters=id_brands&brands=20630654&limit=48&sort=abc_value). For further information, please contact Otto Fischer.
 
 
 
-ONEPOLE stands for innovative pole solutions that impress with their modular design and high flexibility. Developed and manufactured in Norway, the products are characterised by first-class materials, excellent build quality and well-thought-out, innovative features. 
+ONEPOLE stands for innovative pole solutions that impress with their modular design and high flexibility. Developed and manufactured in Norway, the products are characterised by first-class materials, excellent build quality and well-designed, innovative features. 
 
 ![Pico stand – figure 3](/img/produkte-pico-ladestation-pico-standfuss/03.jpg)
 
@@ -75,14 +75,14 @@ Universal stand with base plate according to the OPI-2020 standard
 
 - Mounting of 1-2 Pico charging stations.
 
-- Supply cables run directly from the fuse box to the charging station.
+- Supply lines directly from the fuse box to the charging station.
 
-Mounting is carried out on a concrete base with hole spacing according to the instructions. Details under Downloads Pico.
+The stand is mounted on a concrete base with the hole pattern as per the instructions. Details under Pico downloads.
 
 Surface: hot-dip galvanised, powder-coated and painted in RAL 9004 signal black
 
 </div>
-<div className="col col--3 text--center">
+<div className="col col--3 bild--mitte">
 
 ![Pico stand – figure 5](/img/produkte-pico-ladestation-pico-standfuss/05.png)
 
@@ -91,6 +91,7 @@ Surface: hot-dip galvanised, powder-coated and painted in RAL 9004 signal black
 
 <div className="row">
 <div className="col col--6">
+
 ### 232070-PL Pico Stand with Service Access
 
 Universal stand with base plate according to the OPI-2020 standard
@@ -110,7 +111,7 @@ Universal stand with base plate according to the OPI-2020 standard
 - Terminal blocks
 - PE terminals
 
-Mounting is carried out on a concrete base with hole spacing according to the instructions. Details under Downloads Pico.
+The stand is mounted on a concrete base with the hole pattern as per the instructions. Details under Pico downloads.
 Surface: hot-dip galvanised, powder-coated and painted in RAL 9004 signal black
 </div>
 
@@ -119,7 +120,7 @@ Surface: hot-dip galvanised, powder-coated and painted in RAL 9004 signal black
 ![Pico stand – figure 4](/img/produkte-pico-ladestation-pico-standfuss/06.jpg)
 
 </div>
-<div className="col col--3 text--center">
+<div className="col col--3 bild--mitte">
 
 ![Pico stand – figure 7](/img/produkte-pico-ladestation-pico-standfuss/07.png)
 
@@ -130,7 +131,7 @@ Surface: hot-dip galvanised, powder-coated and painted in RAL 9004 signal black
 
 ### 232070-PL/PH1 and 232070-PL/PH2 Pico Stand Heads with Cable Dock
 
-In addition to the cable hook for coiling the cable, this head variant has connector holders so that the loose end of the cable can be stowed away protected from water after the charging session.
+In addition to the cable hook for coiling the cable, this head variant features connector holders for storing the loose end of the cable protected from water after the charging session.
 
 This head is particularly suitable for public charging stations with a fixed cable on the charging station.
 
@@ -148,7 +149,7 @@ Contents:
 - Accessories
 
 </div>
-<div className="col col--3 text--center">
+<div className="col col--3 bild--mitte">
 
 ![Pico stand – figure 8](/img/produkte-pico-ladestation-pico-standfuss/08.jpg)
 
@@ -167,7 +168,7 @@ Contents:
 - Accessories
 
 </div>
-<div className="col col--3 text--center">
+<div className="col col--3 bild--mitte">
 
 ![Pico stand – figure 9](/img/produkte-pico-ladestation-pico-standfuss/09.jpg)
 
@@ -186,7 +187,7 @@ Alternatively, a third-party product can be produced or purchased.
 [Third-party stand foundations](/drittprodukte/standfuss-fundamente)
 
 </div>
-<div className="col col--3 text--center">
+<div className="col col--3 bild--mitte">
 
 ![Pico stand – figure 12](/img/produkte-pico-ladestation-pico-standfuss/12.png)
 
@@ -217,7 +218,7 @@ Alternatively, a third-party product can be produced or purchased.
 
 [Quickstarter 212070 / 232070](https://docs.google.com/document/d/19Hp4eK43o-_NGerpnEkw-MIVr2FcFZlMv78Ic6f22Iw/export?format=pdf)
 
-[EU Declaration of Conformity](https://drive.google.com/file/d/14h6QNwvbybeGwOvgesNnSBxI-GsjvXd9/view?usp=drive_link)
+[EU declaration of conformity](https://drive.google.com/file/d/14h6QNwvbybeGwOvgesNnSBxI-GsjvXd9/view?usp=drive_link)
 
 ### Drawings
 

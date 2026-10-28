@@ -15,7 +15,7 @@ Auf dieser Seite findest du die wichtigsten Konfigurationen im Zusammenhang mit 
 
 
 
-Die Pico Ladestation kann wahlweise mit oder ohne Authentifizierunsmethode verwendet werden.
+Die Pico Ladestation kann wahlweise mit oder ohne Authentifizierungsmethode verwendet werden.
 
 
 
@@ -114,7 +114,7 @@ Wir raten davon ab, ein schwarzes Hintergrundbild einzufügen, da es dann unklar
 
 Der Name der Station und die Anzeige bei Nichtgebrauch kann frei gewählt  und personalisiert werden.
 
-Neben den bereits zur Verfügung stehenden Emoticons kann man auch eigene GIFs oder Bilder hochgeladen. 
+Neben den bereits zur Verfügung stehenden Emoticons kann man auch eigene GIFs oder Bilder hochladen. 
 
 - Unterstützte Formate: JPG, PNG, GIF
 
@@ -164,7 +164,7 @@ Die Ladestationen regeln sich selbst anhand des definierten maximalen Stroms. Di
 
 Konfiguration:
 
-1.  Lastmangement-Gruppe erstellen (Neue Gruppe)
+1.  Lastmanagement-Gruppe erstellen (Neue Gruppe)
 
 2.  Maximalstrom der Zuleitung definieren (Verfügbarer Strom)
 
@@ -239,7 +239,7 @@ Mehr Details zur Einrichtung: [Multilevel Lastmanagement](/konfiguration/multile
 Hier kannst du als Stationsbesitzer das Kabel entriegeln, die Station neu starten oder den Zählerstand auf dem Display zur Überprüfung anzeigen.
 
 </div>
-<div className="col col--6 text--center">
+<div className="col col--6 bild--mitte">
 
 ![Pico Konfiguration – Abbildung 17](/img/konfiguration-inbetriebnahme-pico-konfiguration/17.png)
 
@@ -261,7 +261,7 @@ Station löschen:
 Löscht die Station und alle Daten auf der Cloud
 
 </div>
-<div className="col col--6 text--center">
+<div className="col col--6 bild--mitte">
 
 ![Pico Konfiguration – Abbildung 18](/img/konfiguration-inbetriebnahme-pico-konfiguration/18.png)
 

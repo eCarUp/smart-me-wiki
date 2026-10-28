@@ -22,7 +22,7 @@ Du möchtest die Abrechnungen nicht selber erstellen? Dann erstellen wir sämtli
 
 - Schnittstellen zum Export der Abrechnungen in Software wie AbaImmo, ImmoTop2, Rimo R5, Microsoft Navision und weitere
 
-- Wir unterstützen dich bei der Konfiguration der Abrechnungen. Wir haben für fast jeden ZEV die passende Einstellung. z.B. Hoch-und Niedertarif für Solarstrom separat, eigener Tarif für Batteriestrom, Abrechnung mit/ohne MwSt., Abrechnung von Leistungsspitzen, Aufteilung der Allgemeinstromkosten auf die Nutzer, Ausweis des Solarertrags für die Anlagenbesitzer, Einbezug von Akontorechnungen und vieles mehr.
+- Wir unterstützen dich bei der Konfiguration der Abrechnungen. Wir haben für fast jeden ZEV die passende Einstellung. z.B. Hoch- und Niedertarif für Solarstrom separat, eigener Tarif für Batteriestrom, Abrechnung mit/ohne MwSt., Abrechnung von Leistungsspitzen, Aufteilung der Allgemeinstromkosten auf die Nutzer, Ausweis des Solarertrags für die Anlagenbesitzer, Einbezug von Akontorechnungen und vieles mehr.
 
 - Optionale Monitoringdienstleistungen stellen sicher, dass deine Solaranlage und Wärmepumpe effizient und fehlerfrei funktionieren
 

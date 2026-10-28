@@ -1,10 +1,10 @@
 ---
 title: 'Fornitori di servizi RCP, conteggio delle spese di riscaldamento/accessorie'
 slug: '/drittsysteme/nebenkostenabrechnung'
-description: 'Per utilizzare i dati dei contatori di smart-me in un conteggio delle spese accessorie, i contatori necessitano di una licenza Professional.'
-sidebar_label: 'Fornitori di servizi spese accessorie'
+description: 'Per utilizzare i dati dei contatori smart-me in un conteggio delle spese accessorie, i contatori necessitano di una licenza Professional.'
+sidebar_label: 'Fornitori servizi spese accessorie'
 ---
-Per utilizzare i dati dei contatori di smart-me in un conteggio delle spese accessorie, i contatori necessitano di una licenza Professional.
+Per utilizzare i dati dei contatori smart-me in un conteggio delle spese accessorie, i contatori necessitano di una licenza Professional.
 
 [EN](https://doc.smart-me.com/third-party-systems/service-charge-settlement)
 
@@ -40,10 +40,10 @@ Hauptstrasse 48, CH-6277 Kleinwangen · +41 41 510 06 25
 
 [www.adenatec.ch](https://www.adenatec.ch/) · [info@adenatec.ch](mailto:info@adenatec.ch)
 
-- Conteggio RCP, RCP virtuale (vRCP) e mobilità elettrica
+- Conteggio RCP, vRCP ed E-Mobility
 - Conteggio e incasso incl. configurazione del portale
 - Fatturazione fino a 4× all'anno
-- Conteggio VEWA per millesimi 1× all'anno
+- Conteggio VEWA in millesimi 1× all'anno
 - Funzionamento esclusivamente con hardware smart-me
 
 </Kachel>
@@ -55,11 +55,11 @@ Allmendingenweg 11, CH-3073 Gümligen · +41 31 950 60 70
 [gerberelektro.ch](https://gerberelektro.ch/) · [info@gerberelektro.ch](mailto:info@gerberelektro.ch)
 
 - Conteggio indipendente dall'hardware (interfaccia con smart-me)
-- Invio delle fatture via e-mail o per posta
+- Invio delle fatture per e-mail o per posta
 - Supporto nella definizione delle tariffe
 - Consulenza per l'ottimizzazione energetica
 - Conteggio per RCP, vRCP e CEL (comunità elettrica locale) (fino a 4× all'anno)
-- Opzionale: preparazione dei dati per l'esercizio Minergie
+- Opzionale: elaborazione dei dati per l'esercizio Minergie
 - Opzionale: servizio di picchetto 24h con manutenzione remota
 - Opzionale: messa a disposizione dell'accesso a Internet
 
@@ -71,8 +71,8 @@ Blattenbach 8, CH-8636 Wald · +41 55 266 11 33
 
 [honegger.com](https://honegger.com/) · [info@honegger.com](mailto:info@honegger.com)
 
-- Conteggio di impianti di mobilità elettrica, RCP e vRCP installati da noi stessi
-- Pianifichiamo, costruiamo e assistiamo tutto da un unico fornitore
+- Conteggio di impianti E-Mobility, RCP e vRCP installati in proprio
+- Pianifichiamo, realizziamo e assistiamo tutto da un unico fornitore
 - Conteggio solo con hardware smart-me
 - Fatturazione trimestrale
 - Durata minima da concordare
@@ -98,8 +98,8 @@ Kirchstrasse 18, CH-9200 Gossau SG · +41 71 388 20 10
 
 [www.techcom.ch](https://www.techcom.ch/) · [info@techcom.ch](mailto:info@techcom.ch)
 
-- Soluzione completa con installazione e servizio di conteggio RCP, vRCP, CEL e mobilità elettrica
-- Conteggio per RCP, vRCP, CEL e mobilità elettrica
+- Soluzione completa con installazione e servizio di conteggio RCP, vRCP, CEL ed E-Mobility
+- Conteggio per RCP, vRCP, CEL ed E-Mobility
 - Conteggio delle spese accessorie VEWA
 - Ottimizzazione energetica
 
@@ -251,7 +251,7 @@ Ebenaustrasse 10, CH-6048 Horw
 
 <Kachel bild="/img/drittsysteme-nebenkostenabrechnung/18.png" titel="Schibli AG">
 
-Centro di competenza energie rinnovabili
+Centro di competenza Energie rinnovabili
 
 Klosbachstrasse 67, CH-8032 Zürich
 

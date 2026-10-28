@@ -8,10 +8,10 @@ sidebar_label: 'IBM - Node-RED'
 <div className="col col--8">
 
 L'interfaccia API aperta di smart-me si integra molto facilmente nei flussi di IBM Node-Red.
-Crei flussi di lavoro tramite richieste HTTP e la nostra API, con l'intera gamma di dati e funzioni di controllo.
+Crea flussi di lavoro con le richieste HTTP e la nostra API, con l'intera gamma di dati e funzioni di controllo.
 
 </div>
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
 ![IBM Node-RED – Figura 1](/img/drittsysteme-ibm-node-red/01.png)
 
@@ -23,10 +23,10 @@ Crei flussi di lavoro tramite richieste HTTP e la nostra API, con l'intera gamma
 <div className="row">
 <div className="col col--5">
 
-Per poter utilizzare l'API sono necessari i blocchi HTTP-Request di Node-Red.
+Per usare l'API ti servono i nodi HTTP request di Node-Red.
 
 </div>
-<div className="col col--7 text--center">
+<div className="col col--7 bild--mitte">
 
 ![IBM Node-RED – Figura 2](/img/drittsysteme-ibm-node-red/02.png)
 
@@ -41,14 +41,14 @@ Le richieste HTTP si basano sui nostri comandi API e vengono inserite come URL.
 
 https://smart-me.com...
 
-- .../api/devices --> Leggere tutti i dispositivi dell'account (elenco)
+- .../api/devices --> Legge tutti i dispositivi dell'account (elenco)
 
-- .../api/devices/&#123;id&#125; --> Leggere i dati attuali di un determinato contatore; l'ID può essere ricavato tramite api/devices.
+- .../api/devices/&#123;id&#125; --> Legge i dati attuali di un determinato contatore; l'ID si può ricavare con api/devices.
 
 
 Ecco il comando per richiedere le informazioni attuali di un determinato contatore:
 
-https://smart-me.com/api/devices/&#123;ID-contatore&#125;
+https://smart-me.com/api/devices/&#123;Zähler-ID&#125;
 \--> https://smart-me.com/api/devices/32b30ab1-3ac5-4...
 
 - Tutti i comandi API e lo strumento di test: [API](/schnittstellen/api) 
@@ -58,11 +58,11 @@ https://smart-me.com/api/devices/&#123;ID-contatore&#125;
 
 Autenticazione:
 
-Per l'autenticazione è possibile utilizzare la Basic Authentication con il nome utente e la password del Suo account smart-me.
+Per l'autenticazione puoi usare la Basic Authentication con nome utente e password del tuo account smart-me.
 
 ![IBM Node-RED – Figura 4](/img/drittsysteme-ibm-node-red/04.png)
 
-Con i Change-Node può ridurre il messaggio nel payload ai dati rilevanti, ad esempio ActivePower.
+Con i nodi Change puoi ridurre il messaggio nel payload ai soli dati rilevanti, ad esempio ActivePower.
 
 msg.payload.ValueName (stessa grafia del JSON)
 
@@ -83,17 +83,17 @@ Esempi:
 
 ![IBM Node-RED – Figura 6](/img/drittsysteme-ibm-node-red/06.png)
 
-Con il nodo HTTP-Request è possibile comandare le nostre uscite. A tale scopo occorre inviare un codice JSON tramite un nodo HTTP-Request.
+Con il nodo HTTP request è possibile comandare le nostre uscite. A questo scopo occorre inviare un codice JSON tramite un nodo HTTP request.
 
-Il relativo comando POST è il comando http://smart-me.com/api/actions.
+Il comando POST corrispondente è il comando http://smart-me.com/api/actions.
 
 
 
-Tramite il comando GET /api/actions/&#123;id&#125; è possibile trovare le uscite disponibili per il rispettivo dispositivo.
+Con il comando GET /api/actions/&#123;id&#125; puoi trovare le uscite disponibili per il rispettivo dispositivo.
 
-Per il Telstar 80A e CT i codici OBIS delle uscite sono sempre gli stessi.
+Per Telstar 80A e Telstar CT i codici OBIS delle uscite sono sempre gli stessi.
 
-(Tenga presente che vengono elencate solo le uscite digitali definite sul dispositivo)
+(Tieni presente che vengono elencate solo le uscite digitali definite sul dispositivo)
 
 ```
 Output api/actions/{id}:
@@ -115,7 +115,7 @@ Configurazione POST con il comando api/actions
 
 ![IBM Node-RED – Figura 7](/img/drittsysteme-ibm-node-red/07.png)
 
-Struttura del comando JSON per il comando POST api/actions nell'Inject-Node: commutare il relè S1 da 0 (OFF) a 1 (ON).
+Struttura JSON del comando POST api/actions nel nodo Inject: commutare il relè S1 da 0 (OFF) a 1 (ON).
 
 &#123;
 
@@ -142,7 +142,7 @@ Struttura del comando JSON per il comando POST api/actions nell'Inject-Node: com
 
 ## Supporto per Node-RED
 
-Per l'ulteriore elaborazione dei dati in Node-Red si informi sul sito web e nella community di Node-RED.
+Per l'ulteriore elaborazione dei dati in Node-Red, informati sul sito web e nella community di Node-RED.
 
 [https://nodered.org/](https://nodered.org/) 
 

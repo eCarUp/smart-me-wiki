@@ -1,32 +1,32 @@
 ---
 title: 'Dragino LPS8N'
 slug: '/konfiguration/inbetriebnahme/inbetriebnahme-lora/dragino-lps8n'
-description: '1. Si colleghi alla rete WLAN del Dragino.'
+description: '1. Connettiti alla rete WLAN del Dragino.'
 sidebar_label: 'Dragino LPS8N'
 ---
 ## Istruzioni di integrazione
 
 ![Dragino LPS8N – Figura 1](/img/konfiguration-inbetriebnahme-inbetriebnahme-lora-dragino-lps8n/01.png)
 
-1.  Si colleghi alla rete WLAN del Dragino.
+1.  Connettiti alla rete WLAN del Dragino.
     SSID: dragino-xxxxxxx,
     Password predefinita: dragino+dragino
 
-2.  Apra il browser del Suo laptop e inserisca il seguente URL nella barra degli indirizzi 10.130.1.1
+2.  Apri il browser del tuo laptop e inserisci il seguente URL nella barra degli indirizzi 10.130.1.1
 
-3.  Effettui l'accesso
+3.  Effettua il login
     Utente predefinito: root
     Password predefinita: dragino
 
-4.  Selezioni "LoRaWAN" -> "LoRaWAN Semtec UDP"
+4.  Seleziona "LoRaWAN" -> "LoRaWAN Semtec UDP"
 
-5.  Selezioni come Service Provider "Custom / Private LoRaWAN"
+5.  Come Service Provider seleziona "Custom / Private LoRaWAN"
 
-6.  Inserisca come indirizzo del server: lora-gateway.smart-me.com
+6.  Come indirizzo del server inserisci: lora-gateway.smart-me.com
 
 7.  La porta di uplink e di downlink è 1700
 
-8.  Clicchi su "Save & Apply"
+8.  Clicca su "Save & Apply"
 
 
 ![Dragino LPS8N – Figura 2](/img/konfiguration-inbetriebnahme-inbetriebnahme-lora-dragino-lps8n/02.png)
@@ -34,12 +34,12 @@ sidebar_label: 'Dragino LPS8N'
 <div className="row">
 <div className="col col--6">
 
-9\. Verifichi nella panoramica del sistema che per Lora, IoT Service e Internet sia presente una spunta verde.
+9\. Nella panoramica di sistema verifica che per Lora, IoT Service e Internet sia presente un segno di spunta verde.
 
 10\. Su [https://lora.smart-me.com](https://lora.smart-me.com)  il gateway dovrebbe ora essere visualizzato come "online". 
 
 </div>
-<div className="col col--6 text--center">
+<div className="col col--6 bild--mitte">
 
 ![Dragino LPS8N – Figura 3](/img/konfiguration-inbetriebnahme-inbetriebnahme-lora-dragino-lps8n/03.png)
 

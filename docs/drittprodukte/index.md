@@ -4,9 +4,9 @@ slug: '/drittprodukte'
 description: 'Anbei findest du eine Liste von Produkt- und Dienstleistungsempfehlungen.'
 sidebar_label: 'Drittprodukte'
 ---
-Anbei findest du eine Liste von Produkt- und Dienstleistungsempfehlungen. smart-me verdient mit den empfohlenen Produkten kein Geld und übernimmt dafür keine Garantie. Es ist jederzeit möglich andere Produkte zu verwenden. Dabei ist stets darauf zu Achten, dass diese die Anforderungen des jeweiligen [Produkt](/produkte) erfüllen.
+Anbei findest du eine Liste von Produkt- und Dienstleistungsempfehlungen. smart-me verdient mit den empfohlenen Produkten kein Geld und übernimmt dafür keine Garantie. Es ist jederzeit möglich andere Produkte zu verwenden. Dabei ist stets darauf zu achten, dass diese die Anforderungen des jeweiligen [Produkts](/produkte) erfüllen.
 
-Ziel der Empfehlungen ist es unseren Partnern die Möglichkeit zu bieten, einfach und effizient bestimmte Produkte oder Dienstleistungen zu finden, wenn dafür noch keine bekannte vorliegen.
+Ziel der Empfehlungen ist es unseren Partnern die Möglichkeit zu bieten, einfach und effizient bestimmte Produkte oder Dienstleistungen zu finden, wenn dafür noch keine bekannten vorliegen.
 
 [Stromwandler und Zubehör zu Telstar CT](/drittprodukte/stromwandler)
 
@@ -14,6 +14,6 @@ Ziel der Empfehlungen ist es unseren Partnern die Möglichkeit zu bieten, einfac
 
 [Pico Standfuss Fundamente](/drittprodukte/standfuss-fundamente)
 
-Alternativ zum Standfuss der smart-me, ist die Pico auch mit dem One Pole System kompatibel.
+Alternativ zum Standfuss der smart-me ist die Pico auch mit dem One Pole System kompatibel.
 
 [Pico Standfuss - One Pole](/produkte/pico-ladestation/pico-standfuss#onepole-pro-für-pico-ladestation)

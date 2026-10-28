@@ -25,7 +25,7 @@ Riedstrasse 18, CH-6343 Rotkreuz · +41 41 511 09 99
 **Autobill-Dienstleistung**
 
 - Immer zusammen mit einem smart-me Partner (Schulung besucht)
-- Einhaltung des smart-me Messkonzept
+- Einhaltung des smart-me Messkonzepts
 - Abrechnung nur mit smart-me Hardware
 - Modul 1 Konfiguration durch smart-me
 - Rechnungstellung ZEV, max. 4x pro Jahr
@@ -72,9 +72,9 @@ Blattenbach 8, CH-8636 Wald · +41 55 266 11 33
 [honegger.com](https://honegger.com/) · [info@honegger.com](mailto:info@honegger.com)
 
 - Abrechnung von selbst installierten E-Mobility, ZEV & vZEV Anlagen
-- Wir planen bauen und betreuen alles aus einer Hand
+- Wir planen, bauen und betreuen alles aus einer Hand
 - Abrechnung nur mit smart-me Hardware
-- Rechnungstellung quartalsweise
+- Rechnungsstellung quartalsweise
 - Mindestlaufzeit nach Absprache
 
 </Kachel>

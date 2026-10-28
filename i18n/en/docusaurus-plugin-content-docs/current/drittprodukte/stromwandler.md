@@ -8,15 +8,15 @@ Important note:
 
 None of these products are sold by smart-me AG or offered as accessories at the time of purchase. Please buy these products directly from the manufacturer.
 
-Below is a list of recommended products. smart-me earns no money from the recommended products and provides no warranty for them. You can use other products at any time. Always make sure that they meet the requirements of the product in question, in this case the [3-Phase Meter Telstar CT](/produkte/telstar-ct).
+Below is a list of recommended products. smart-me does not earn any money from the recommended products and provides no warranty for them. You can use other products at any time. Make sure that they meet the requirements of the product in question, in this case the [3-Phase Meter Telstar CT](/produkte/telstar-ct).
 
-These recommendations help our partners find suitable products quickly when they do not already know one.
+These recommendations are meant to help our partners find suitable products quickly and efficiently when they do not yet know of any.
 
 ## Calibrated current transformers for billing purposes
 
-If the meters are to be used for billing, you need calibrated transformers of at least accuracy class 0.5 or better.
+If the meters are used for billing, you need calibrated transformers that meet at least class 0.5 or better.
 
-![Current transformers and accessories for Telstar CT – Figure 1](/img/drittprodukte-stromwandler/01.png)
+![Current Transformers and accessories for Telstar CT – Figure 1](/img/drittprodukte-stromwandler/01.png)
 
 ### Pfiffner instrument transformers (calibrated)
 
@@ -56,7 +56,7 @@ Calibration for billing purposes:
 
 You must request calibration specifically or state it when ordering.
 
-![Current transformers and accessories for Telstar CT – Figure 2](/img/drittprodukte-stromwandler/02.png)
+![Current Transformers and accessories for Telstar CT – Figure 2](/img/drittprodukte-stromwandler/02.png)
 
 ### Hager instrument transformers (calibrated)
 
@@ -94,7 +94,7 @@ Calibration for billing purposes:
 
 You must request calibration specifically or state it when ordering.
 
-![Current transformers and accessories for Telstar CT – Figure 3](/img/drittprodukte-stromwandler/03.png)
+![Current Transformers and accessories for Telstar CT – Figure 3](/img/drittprodukte-stromwandler/03.png)
 
 ### Redur instrument transformers (calibrated)
 
@@ -117,7 +117,7 @@ Source: [https://www.redur.de/](https://www.redur.de/)
 
 ## Current transformers for monitoring purposes
 
-![Current transformers and accessories for Telstar CT – Figure 4](/img/drittprodukte-stromwandler/04.png)
+![Current Transformers and accessories for Telstar CT – Figure 4](/img/drittprodukte-stromwandler/04.png)
 
 ### Optec split-core transformers
 
@@ -141,7 +141,7 @@ Possible supplier:
 - Optec online shop
 
 
-![Current transformers and accessories for Telstar CT – Figure 5](/img/drittprodukte-stromwandler/05.png)
+![Current Transformers and accessories for Telstar CT – Figure 5](/img/drittprodukte-stromwandler/05.png)
 
 ### Optec current sensors
 
@@ -161,7 +161,7 @@ Possible supplier:
 - Optec online shop
 
 
-![Current transformers and accessories for Telstar CT – Figure 6](/img/drittprodukte-stromwandler/03.png)
+![Current Transformers and accessories for Telstar CT – Figure 6](/img/drittprodukte-stromwandler/03.png)
 
 ### Redur instrument transformers
 
@@ -176,7 +176,7 @@ Source: [https://www.redur.de/](https://www.redur.de/)
 - Redur Regulus Series
 
 
-![Current transformers and accessories for Telstar CT – Figure 7](/img/drittprodukte-stromwandler/07.png)
+![Current Transformers and accessories for Telstar CT – Figure 7](/img/drittprodukte-stromwandler/07.png)
 
 ### Redur instrument transformers
 
@@ -193,9 +193,9 @@ Source: [https://www.redur.de/](https://www.redur.de/)
 
 ## Instrument transformer disconnect terminals
 
-With instrument transformer disconnect terminals, you can replace a meter easily, even during operation. They let you short-circuit the transformer outputs so the transformers are not damaged when you change the meter.
+Instrument transformer disconnect terminals make it easy to replace a meter, even while it is in operation. They let you short-circuit the transformer outputs so that the transformers are not damaged when the meter is replaced.
 
-![Current transformers and accessories for Telstar CT – Figure 8](/img/drittprodukte-stromwandler/08.png)
+![Current Transformers and accessories for Telstar CT – Figure 8](/img/drittprodukte-stromwandler/08.png)
 
 ### Phoenix disconnect terminals
 

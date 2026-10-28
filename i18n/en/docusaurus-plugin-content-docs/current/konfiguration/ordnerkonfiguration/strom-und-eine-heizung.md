@@ -18,12 +18,12 @@ Disadvantage:
 
 - No automatic billing for electricity
 
-- Multiple entry of the electricity tariffs (per property)
+- Electricity tariffs must be entered multiple times (per property)
 
 
 ### 3b. Electricity with or without e-mobility and multi-energy with one building.
 
-Possible differences: For properties with electricity meters only and no multi-energy, the heat pump can be allocated directly to the apartments using an allocation key. With multi-energy, the heat pump is stored as a sub-meter (separate folder) so that a separate invoice is created, which must then be transferred as a cost factor in the VEWA configuration.
+Possible differences: For properties with electricity meters only and no multi-energy, the heat pump can be allocated directly to the apartments using an allocation key. With multi-energy, the heat pump is set up as a sub-meter (separate folder) so that a separate invoice is created, which must then be transferred as a cost factor in the VEWA configuration.
 
 3b. Basic structure
 
@@ -39,7 +39,7 @@ Electricity / heat / water
 
 Only assign metering points directly to the billing units if the invoice recipient will later have to pay 100% of the consumption.
 
-If you only want to assign a meter to part of an individual billing unit, move the meter into a node within the "Technical Meters" ("Technische Zähler") node.
+If you only want to assign a meter to part of an individual billing unit, move the meter into a node within the "Technical meters" ("Technische Zähler") node.
 
 Later, such a meter can be distributed by percentage in Billing.
 
@@ -66,7 +66,7 @@ Charging stations from other manufacturers are not managed or billed directly in
 
 ### Finally, create the alarms for a connection failure.
 
-This way, you notice early when a meter fails and minimize the resulting gap in the measurement data. 
+This way you notice early when a meter fails and minimize the resulting gap in the measurement data. 
 
 
 ## Configuration with automatic electricity billing
@@ -87,10 +87,10 @@ Disadvantage:
 
 Disclaimer:
 
-For this configuration, an additional property must be created for electricity only, which contains all apartments of the three buildings.
+For this configuration, an additional property for electricity only must be created, containing all apartments of the three buildings.
 
 Only the electricity meters are assigned in this property.
 
 ### Finally, create the alarms for a connection failure.
 
-This way, you notice early when a meter fails and minimize the resulting gap in the measurement data.
+This way you notice early when a meter fails and minimize the resulting gap in the measurement data.

@@ -1,7 +1,7 @@
 ---
 title: 'Creare utenti'
 slug: '/konfiguration/benutzerkonfiguration'
-description: 'Per utilizzare questa funzione hai bisogno di un abbonamento smart-me Professional.'
+description: 'Per utilizzare questa funzione ti serve un abbonamento smart-me Professional.'
 sidebar_label: 'Configurazione utente'
 naechste_schritte: [konfiguration/visualisierung]
 vorheriger_schritt: [konfiguration/billing/rechnung-erstellen, konfiguration/billing-deutschland/rechnung-erstellen]
@@ -10,23 +10,23 @@ vorheriger_schritt: [konfiguration/billing/rechnung-erstellen, konfiguration/bil
 
 ### Requisito
 
-Per utilizzare questa funzione hai bisogno di un abbonamento smart-me Professional.
+Per utilizzare questa funzione ti serve un abbonamento smart-me Professional.
 
-In smart-me puoi creare nuovi utenti e assegnare loro le relative autorizzazioni su contatori o cartelle. Questi utenti hanno solo diritti di lettura.
+In smart-me puoi creare nuovi utenti e assegnare loro le relative autorizzazioni su contatori o cartelle. Questi utenti dispongono solo di diritti di lettura.
 
-In questo modo puoi dare agli inquilini accesso ai loro dati finché abitano nell'immobile.
+In questo modo puoi dare agli inquilini l'accesso ai loro dati per tutto il tempo in cui abitano nell'immobile.
 
 
 <div className="row">
 <div className="col col--8">
 
-Per creare nuovi utenti procedi come segue:
+Per creare nuovi utenti, procedi come segue:
 
-Tieni presente che devi prima [creare le cartelle](/konfiguration/ordnerkonfiguration)
+Tieni presente che devi prima [creare le cartelle](/konfiguration/ordnerkonfiguration).
 
 1.  Accedi al [sito web](https://web.smart-me.com/login/) di smart-me.
 
-2.  Clicca in alto a destra su Configurazione (Konfiguration)
+2.  In alto a destra, clicca su Configurazione (Konfiguration)
 
 3.  Seleziona Configurazione utente (Benutzerkonfiguration)
 
@@ -35,7 +35,7 @@ Tieni presente che devi prima [creare le cartelle](/konfiguration/ordnerkonfigur
 5.  Trascina con il mouse l'utente sulla cartella che deve essere visibile per questo utente.
 
 </div>
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
 ![Creare utenti – Figura 2](/img/konfiguration-benutzerkonfiguration/02.png)
 
@@ -49,12 +49,12 @@ Tieni presente che devi prima [creare le cartelle](/konfiguration/ordnerkonfigur
 
 Gli utenti hanno sempre e solo accesso in lettura.
 
-È possibile condividere solo il nodo esplicito oppure il nodo con tutti i sottonodi.
+Si può condividere solo il nodo specifico oppure il nodo con tutti i sottonodi.
 
 Se sul nodo viene utilizzata una visualizzazione che accede ai dati dei contatori, l'utente deve essere autorizzato a vedere i contatori.
 
 </div>
-<div className="col col--8 text--center">
+<div className="col col--8 bild--mitte">
 
 ![Creare utenti – Figura 3](/img/konfiguration-benutzerkonfiguration/03_EN.png)
 
@@ -65,7 +65,7 @@ Crea ora le visualizzazioni per gli inquilini o per il proprietario dell'immobil
 
 ### Vista per gli inquilini
 
-Per le tariffe virtuali è disponibile una vista speciale per gli inquilini. Mostra il consumo di energia attuale (elettricità) e la provenienza (solare o rete). Inoltre, nella barra viene mostrata la fonte di prelievo di elettricità nel passato.
+Per le tariffe virtuali è disponibile una vista speciale per gli inquilini. Mostra il consumo di energia attuale (elettricità) e la provenienza (solare o rete). Inoltre, nella barra viene mostrata la fonte di prelievo di elettricità nel tempo.
 
 Questa vista deve essere configurata in aggiunta per ogni nodo dell'appartamento.
 

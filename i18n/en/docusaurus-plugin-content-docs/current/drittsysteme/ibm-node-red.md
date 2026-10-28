@@ -11,7 +11,7 @@ The open smart-me API interface can be implemented very easily in flows in IBM's
 Create workflows using HTTP requests and our API with the full range of data and control.
 
 </div>
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
 ![IBM Node-RED – Figure 1](/img/drittsysteme-ibm-node-red/01.png)
 
@@ -26,7 +26,7 @@ Create workflows using HTTP requests and our API with the full range of data and
 To use the API, you need the HTTP request nodes from Node-Red.
 
 </div>
-<div className="col col--7 text--center">
+<div className="col col--7 bild--mitte">
 
 ![IBM Node-RED – Figure 2](/img/drittsysteme-ibm-node-red/02.png)
 
@@ -37,7 +37,7 @@ To use the API, you need the HTTP request nodes from Node-Red.
 
 The HTTP request 
 
-The HTTP requests are based on our API commands and are entered as a URL.
+The HTTP requests are based on our API commands and are used as the URL.
 
 https://smart-me.com...
 
@@ -46,9 +46,9 @@ https://smart-me.com...
 - .../api/devices/&#123;id&#125; --> Read the current data of a specific meter; the ID can be found using api/devices.
 
 
-Here is the command for requesting current information from a specific meter:
+Here is the command to request current information for a specific meter:
 
-https://smart-me.com/api/devices/&#123;Zähler-ID&#125;
+https://smart-me.com/api/devices/&#123;Meter ID&#125;
 \--> https://smart-me.com/api/devices/32b30ab1-3ac5-4...
 
 - All API commands and test tool: [API](/schnittstellen/api) 
@@ -62,7 +62,7 @@ For authentication, you can use basic authentication with the username and passw
 
 ![IBM Node-RED – Figure 4](/img/drittsysteme-ibm-node-red/04.png)
 
-With the change nodes, you can reduce the message in the payload to the relevant data, e.g. ActivePower.
+With the change nodes, you can trim the message in the payload down to the relevant data, e.g. ActivePower.
 
 msg.payload.ValueName (same spelling as in the JSON)
 
@@ -83,13 +83,13 @@ Examples:
 
 ![IBM Node-RED – Figure 6](/img/drittsysteme-ibm-node-red/06.png)
 
-Our outputs can be controlled with the HTTP request node. To do this, JSON code must be sent via an HTTP request node.
+Our outputs can be controlled with the HTTP request node. To do this, a JSON code must be sent via an HTTP request node.
 
 The corresponding POST command is the http://smart-me.com/api/actions command.
 
 
 
-The available outputs for the respective device can be found using the GET command /api/actions/&#123;id&#125;.
+The GET command /api/actions/&#123;id&#125; lets you find the available outputs for the respective device.
 
 For the Telstar 80A and CT, the OBIS codes of the outputs are always the same.
 
@@ -111,11 +111,11 @@ Output api/actions/{id}:
 ]
 ```
 
-POST configuration with the api/actions command
+Configuring POST with the api/actions command
 
 ![IBM Node-RED – Figure 7](/img/drittsysteme-ibm-node-red/07.png)
 
-JSON command structure for the POST command api/actions in the inject node, switching the S1 relay from 0 (OFF) to 1 (ON).
+JSON command structure for the POST command api/actions in the inject node: switching the S1 relay from 0 (OFF) to 1 (ON).
 
 &#123;
 
@@ -140,7 +140,7 @@ JSON command structure for the POST command api/actions in the inject node, swit
 
 ![IBM Node-RED – Figure 8](/img/drittsysteme-ibm-node-red/08.png)
 
-## Node-RED support
+## Support for Node-RED
 
 For further processing of the data in Node-Red, refer to the Node-RED website and community.
 

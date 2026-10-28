@@ -10,6 +10,6 @@ In diesem Bereich findest du neue Versuchsapps welche wir evaluieren um später 
 
 
 
-Probiere Sie einfach aus.
+Probiere sie einfach aus.
 
 ![AppLAB – Abbildung 2](/img/konfiguration-applab/02.png)

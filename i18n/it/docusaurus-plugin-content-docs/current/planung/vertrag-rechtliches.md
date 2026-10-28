@@ -1,26 +1,26 @@
 ---
 title: 'Contratto / Aspetti legali'
 slug: '/planung/vertrag-rechtliches'
-description: 'Basi contrattuali per un RCP (Svizzera)'
+description: 'Base contrattuale per un RCP (Svizzera)'
 sidebar_label: 'Contratto / Aspetti legali'
 symbol: 'vertrag'
 ---
 
-## Basi contrattuali per un RCP (Svizzera)
+## Base contrattuale per un RCP (Svizzera)
 
-Il RCP (raggruppamento ai fini del consumo proprio) è un raggruppamento contrattuale di più consumatori finali che consumano sul posto l'elettricità che producono. 
+Il RCP (raggruppamento ai fini del consumo proprio)  è un raggruppamento contrattuale di più consumatori finali che consumano direttamente sul posto l'elettricità da loro stessi prodotta. 
 
-In un raggruppamento ai fini del consumo proprio, i consumatori finali dispongono di un allacciamento alla rete comune. Nei confronti del gestore della rete di distribuzione, tutti i consumatori finali che partecipano al RCP si presentano come un unico cliente. 
+In un raggruppamento ai fini del consumo proprio, le consumatrici e i consumatori finali dispongono di un allacciamento alla rete comune. Nei confronti del gestore della rete di distribuzione, tutte le consumatrici e tutti i consumatori finali che partecipano al rispettivo RCP si presentano come un unico cliente. 
 
-### Modelli standardizzati di contratti RCP e di adeguamenti dei contratti di locazione (modello di contratto RCP)
+### Modelli standardizzati per contratti RCP e adeguamenti dei contratti di locazione (modello di contratto RCP)
 
-Associazione dei proprietari fondiari (Hauseigentümerverband): [https://www.hev-schweiz.ch/wohnen/bauen/haustechnik-gebaeudetechnik/eigenverbrauch/](https://www.hev-schweiz.ch/wohnen/bauen/haustechnik-gebaeudetechnik/eigenverbrauch/) (login richiesto)
+Associazione dei proprietari fondiari: [https://www.hev-schweiz.ch/wohnen/bauen/haustechnik-gebaeudetechnik/eigenverbrauch/](https://www.hev-schweiz.ch/wohnen/bauen/haustechnik-gebaeudetechnik/eigenverbrauch/) (login necessario)
 
 Guida all'autoconsumo di SvizzeraEnergia: [https://www.energieschweiz.ch/gebaeude/eigenverbrauch/](https://www.energieschweiz.ch/gebaeude/eigenverbrauch/)  
 
 
 
-Se necessita di un supporto legale approfondito per la realizzazione del RCP, qui sotto trova i partner che conosciamo.
+Se ha bisogno di un supporto legale approfondito per l'attuazione del RCP, qui sotto trova i partner a noi noti.
 
 Aspetti legali del RCP con Domenig & Partner 
 
@@ -35,11 +35,11 @@ Programma
 
 <Video src="KqU1XWR4YOU" title="Video YouTube, webinar - Basi giuridiche del RCP" />
 
-### Partner che conosciamo
+### Partner a noi noti
 
 ![Contratto / Aspetti legali – Figura 1](/img/planung-vertrag-rechtliches/01.png)
 
-Dr.iur., avvocato Mischa Morgenbesser
+Dr. iur., avvocato Mischa Morgenbesser
 
 BADERTSCHER RECHTSANWÄLTE AG
 
@@ -60,7 +60,7 @@ Web: [https://www.b-legal.ch/](https://www.b-legal.ch/)
 
 
 
-Dr.iur., avvocata Simone Walther
+Dr. iur., avvocata Simone Walther
 
 Schärer Rechtsanwälte
 

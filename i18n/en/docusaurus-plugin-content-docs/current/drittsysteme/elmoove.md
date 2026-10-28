@@ -12,11 +12,11 @@ sidebar_label: 'elmoove'
 
 Elmoove is a Swiss company that has been working on e-mobility, e-micromobility and energy management systems since 2017.
 
-The mooveBar is the most innovative charging solution on the e-bike market. Its modular design means it can be used for certified energy billing in properties. The mooveBar has 4 sockets that any charger can be plugged into. The sockets are always switched off and must be enabled with RFID cards. This ensures that nobody can charge their vehicle without authorization. 
+The mooveBar is the most innovative charging solution on the e-bike market. Its modular design allows it to be used for qualified energy billing in properties. The mooveBar is equipped with 4 sockets to which any charger can be connected. The sockets are permanently de-energized and must be enabled using RFID cards. This ensures that nobody can charge their vehicle without authorization. 
 
-To ensure successful integration, elmoove GmbH can configure the station. 
+For a successful integration, elmoove GmbH can configure the station. 
 
-For a quote, you can find all the information you need on the elmoove website [www.elmoove.ch](http://www.elmoove.ch) at any time. 
+For a quote, you can find the necessary information at any time on the elmoove website [www.elmoove.ch](http://www.elmoove.ch). 
 
 ### Contact
 

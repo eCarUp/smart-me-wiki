@@ -11,12 +11,12 @@ sidebar_label: 'Minergie Exporter'
 
 Le Minergie Exporter permet de transférer directement les données des points de mesure dans la base de données Minergie.
 
-Grâce aux données présentes dans la base de données Minergie, Minergie peut effectuer, contre rémunération, des comparaisons entre les données planifiées et les données réelles.
+Grâce aux données enregistrées dans la base de données Minergie, Minergie peut effectuer, contre rémunération, des comparaisons entre les données de planification et les données réelles.
 
 Ce produit s'appelle Minergie Monitoring+. Il permet d'identifier simplement et rapidement les potentiels d'amélioration et de détecter les erreurs de configuration.
 
 </div>
-<div className="col col--5 text--center">
+<div className="col col--5 bild--mitte">
 
 ![Minergie Exporter – Illustration 1](/img/schnittstellen-minergie-exporter/01.png)
 
@@ -25,21 +25,21 @@ Ce produit s'appelle Minergie Monitoring+. Il permet d'identifier simplement et 
 
 ## Connexion au Minergie Exporter
 
-Tout partenaire smart-me disposant de l'avenant contractuel « Intégrateur système Minergie » reçoit le lien vers l'Exporter.
+Chaque partenaire smart-me disposant de l'avenant contractuel « intégrateur système Minergie » reçoit le lien vers l'Exporter.
 
 Si vous n'êtes pas encore intégrateur système Minergie, devenez-le et informez-vous ici : [Devenir partenaire Minergie](/planung/minergie) 
 
 
 
-1.  Connectez-vous pour cela sur [smart-me.com](http://smart-me.com) avec les identifiants de l'objet smart-me concerné et créez la clé API.
+1.  Pour cela, connectez-vous sur [smart-me.com](http://smart-me.com) avec les identifiants de l'objet smart-me concerné et créez la clé API.
 
 2.  Connectez-vous ensuite au Minergie Exporter (adresse web mise à votre disposition) avec les mêmes identifiants de compte et créez la configuration.
 
 
 
-## Configurer l'export pour chaque objet
+## Configurer l'exportation par objet
 
-1.  Cliquez sur le « + » pour créer une nouvelle tâche d'export.
+1.  Cliquez sur « + » pour créer une nouvelle tâche d'exportation.
 
 
 ![Minergie Exporter – Illustration 2](/img/schnittstellen-minergie-exporter/02.png)
@@ -55,20 +55,20 @@ Créez une nouvelle clé avec un nom de votre choix. Attribuez-lui au minimum de
 
 ![Minergie Exporter – Illustration 5](/img/schnittstellen-minergie-exporter/05.png)
 
-3\. Enregistrez la clé dans la tâche du Minergie Exporter, sous « Clé API » (API-Key)
+3\. Saisissez la clé dans la tâche du Minergie Exporter sous « Clé API » (API-Key).
 
-4\. Sous « Minergie target », saisissez l'ID de l'objet que vous avez reçu de Minergie et de sa base de données via la plateforme des labels.
+4\. Sous « Minergie target », saisissez l'ID de l'objet que vous avez reçu de Minergie et de sa base de données via la plateforme de labels.
 
-5\. Associez les points de mesure pertinents de l'objet Minergie à un point de mesure du compte smart-me. Les compteurs totalisateurs peuvent être créés directement dans le Minergie Exporter.
+5\. Reliez les points de mesure pertinents de l'objet Minergie à un point de mesure du compte smart-me. Les compteurs totalisateurs peuvent être créés directement dans le Minergie Exporter.
 
 6\. Lancez le transfert.
 
 ![Minergie Exporter – Illustration 6](/img/schnittstellen-minergie-exporter/06.png)
 
-## Fonctionnement et fréquence de l'export des données
+## Fonctionnement et fréquence de l'exportation des données
 
-L'Exporter transfère les données une fois par jour, au pas de 15 minutes.
+Le Minergie Exporter transfère les données une fois par jour, à intervalles de 15 minutes.
 
 Les données passées peuvent être rechargées à tout moment et écrasées dans la base de données Minergie.
 
-Lorsque des données passées sont chargées, elles sont transférées petit à petit, réparties sur les transferts réguliers. Le transfert de toutes les données passées peut prendre quelques jours.
+Lorsque des données passées sont chargées, elles sont transférées progressivement, réparties sur les transferts réguliers. Le transfert de toutes les données passées peut prendre quelques jours.

@@ -14,9 +14,9 @@ You need a smart-me Professional subscription to create energy cost billings.
 
 ## Configuring billing step by step
 
-This step-by-step guide is intended to help you configure your billing. Please note that this is only an example for orientation. Depending on the setup of your property, there will be differences from our example. 
+This step-by-step guide is intended to help you configure your billing. Please note that this is only an example you can use for orientation. Depending on the structure of your property, there will be differences from our example. 
 
-Each step has its own page. You can work through them in order — the bottom of each page tells you what comes next — or jump directly from here to where you currently are.
+Each step has its own page. You can go through them in order — the bottom of each page tells you how to continue — or jump straight to where you are right now.
 
 <Ablauf land="ch" bis="konfiguration/billing/rechnung-erstellen" />
 
@@ -26,7 +26,7 @@ Each step has its own page. You can work through them in order — the bottom of
 
 ## Webinar smart-me Billing from A to Z
 
-Our webinar explains step by step how to create energy cost billings with the Billing tool:
+Our webinar explains step by step how to create energy cost billings with the billing tool:
 
 <div className="row">
 <div className="col col--6">
@@ -38,11 +38,11 @@ Our webinar explains step by step how to create energy cost billings with the Bi
 
 <Video src="mK1HYLRtBUI" title="YouTube video, smart-me Billing - virtual tariffs, peak power, changing meter rental" />
 
-Video content
+Video contents
 
 - Configuring peak and off-peak tariff to a single tariff
 
-- Price adjustment of the virtual tariffs
+- Adjusting the prices of the virtual tariffs
 
 - Peak power
 
@@ -64,7 +64,7 @@ Video content
 <div className="row">
 <div className="col col--7">
 
-A new tile is now displayed in the default view of the billing unit's folder (e.g. an apartment). It shows the meter readings for the virtual tariffs. Clicking this tile displays the load profile for the virtual tariffs. 
+A new tile is now displayed in the default view of the folder of the billing unit (e.g. an apartment). It shows the meter readings for the virtual tariffs. Clicking this tile displays the load profile for the virtual tariffs. 
 
 </div>
 <div className="col col--5 bild--mitte">
@@ -74,7 +74,7 @@ A new tile is now displayed in the default view of the billing unit's folder (e.
 </div>
 </div>
 
-### How is the solar power allocated
+### How the solar power is allocated
 
 <div className="row">
 <div className="col col--7">

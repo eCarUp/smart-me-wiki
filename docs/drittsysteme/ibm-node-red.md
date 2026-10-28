@@ -11,7 +11,7 @@ Die offene API-Schnittstelle von smart-me lässt sich sehr einfach in Abläufe i
 Erschaffe Arbeitsabläufe mittels HTTP-Requests und unserer API mit dem vollen Spektrum an Daten und Kontrolle.
 
 </div>
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
 ![IBM Node-RED – Abbildung 1](/img/drittsysteme-ibm-node-red/01.png)
 
@@ -26,7 +26,7 @@ Erschaffe Arbeitsabläufe mittels HTTP-Requests und unserer API mit dem vollen S
 Um die API nutzen zu können, benötigst du die HTTP-Request-Bausteine aus Node-Red.
 
 </div>
-<div className="col col--7 text--center">
+<div className="col col--7 bild--mitte">
 
 ![IBM Node-RED – Abbildung 2](/img/drittsysteme-ibm-node-red/02.png)
 
@@ -91,7 +91,7 @@ Der dazugehörige POST Befehl ist der Befehl http://smart-me.com/api/actions Bef
 
 Über den GET-Befehl /api/actions/&#123;id&#125; können die möglichen Ausgänge für das jeweilige Gerät gefunden werden.
 
-Für den Telstar 80A und CT sind die OBIS-Codes der Ausgänge immer die Selben.
+Für den Telstar 80A und CT sind die OBIS-Codes der Ausgänge immer dieselben.
 
 (Beachte, dass nur die geräteseitig definierten digitalen Ausgänge  aufgeführt werden)
 

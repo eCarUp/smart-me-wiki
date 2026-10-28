@@ -108,7 +108,7 @@ Empfehlungen für Wandler und Zubehör findest du auf der Seite: [Stromwandler u
 - M Nicht mehr genutzte Funktion (kann ignoriert werden)
 
 </div>
-<div className="col col--6 text--center">
+<div className="col col--6 bild--mitte">
 
 ![3-Phasen Energiezähler Telstar CT – Abbildung 2](/img/produkte-telstar-ct/02.png)
 
@@ -178,12 +178,12 @@ Der Zähler hat ein rollendes Display. Die unten beschriebenen Punkte werden na
 
 4.  Wandlerverhältnis eingeben 
 
-5.  Das Wandlerverhältnis kann gesperrt werden. Dies dient als Schutz vor ungewollten Änderungen von unbefugten Personen. Um das Wandlerverhältnis zu entsperren muss das Gerät nochmals mit der smart-me App installiert werden. Bei der Wiederinstallation ist das Löschen unnötig.
+5.  Das Wandlerverhältnis kann gesperrt werden. Dies dient als Schutz vor ungewollten Änderungen von unbefugten Personen. Um das Wandlerverhältnis zu entsperren, muss das Gerät nochmals mit der smart-me App installiert werden. Bei der Wiederinstallation ist das Löschen unnötig.
 
-Hinweis: Mit der Eingabe des Wandlerverhältnis werden die historisch gespeicherten Daten nicht geändert. Aus diesem Grund ist dieser Schritt unmittelbar nach der Inbetriebnahme zu machen.
+Hinweis: Mit der Eingabe des Wandlerverhältnisses werden die historisch gespeicherten Daten nicht geändert. Aus diesem Grund ist dieser Schritt unmittelbar nach der Inbetriebnahme zu machen.
 
 </div>
-<div className="col col--5 text--center">
+<div className="col col--5 bild--mitte">
 
 ![3-Phasen Energiezähler Telstar CT – Abbildung 6](/img/produkte-telstar-ct/06.png)
 
@@ -200,7 +200,7 @@ Wenn die Taste T1 für 10 Sekunden gedrückt wird, erzeugt dies ein lokales WiFi
 
 T1 + T2 Neustart
 
-Tasten T1 und T2 gleichzeitig für 10 Sekunden drücken um einen Neustart zu erzwingen.
+Tasten T1 und T2 gleichzeitig für 10 Sekunden drücken, um einen Neustart zu erzwingen.
 
 T2 Spezialfunktionen
 
@@ -219,7 +219,7 @@ Hinweis: Diese Einstellung ändert nur die Anzeige auf dem Display, nicht in der
 ## LED
 
 <div className="row">
-<div className="col col--7 text--center">
+<div className="col col--7 bild--mitte">
 
 ![3-Phasen Energiezähler Telstar CT – Abbildung 8](/img/produkte-telstar-ct/08.png)
 
@@ -234,7 +234,7 @@ Hinweis: Diese Einstellung ändert nur die Anzeige auf dem Display, nicht in der
 </div>
 
 <div className="row">
-<div className="col col--5 text--center">
+<div className="col col--5 bild--mitte">
 
 ![3-Phasen Energiezähler Telstar CT – Abbildung 9](/img/produkte-telstar-ct/09.png)
 
@@ -243,18 +243,18 @@ Hinweis: Diese Einstellung ändert nur die Anzeige auf dem Display, nicht in der
 
 🔴 Rote LED - Impuls LED
 
-- Zeigt die aktuell bezogene Wirk- oder Blindleistung in 1000 Impulsen/kWh resp. 1000 Imulse/kVArh an. Ob Wirk- oder Blindleistung angezeigt wird, kann mit der Taste T2 eingestellt werden.
+- Zeigt die aktuell bezogene Wirk- oder Blindleistung in 1000 Impulsen/kWh resp. 1000 Impulse/kVArh an. Ob Wirk- oder Blindleistung angezeigt wird, kann mit der Taste T2 eingestellt werden.
 
 - Zum Beispiel: Eine LED mit der Kennzeichnung „1000 Impulse/kWh“ blinkt 1000 Mal, wenn 1 Kilowattstunde (kWh) Energie bezogen oder geliefert wurde. Wurden die 1000 Impulse innerhalb von 1 Stunde gezählt, wurde konstant 1 kW Leistung gemessen.
 
 </div>
 </div>
 
-## Ein und Ausgänge konfigurieren
+## Ein- und Ausgänge konfigurieren
 
 Der Telstar CT verfügt über zwei digitale Ausgänge und einen digitalen Eingang, welche als Impuls Ein- und Ausgänge oder als schaltbarer potentialfreier Kontakt genutzt werden können. Details dazu findest du auf der Wiki-Seite [Ein- und Ausgänge](/schnittstellen/ein-und-ausgaenge) 
 
-Der Telstar CT verfügt bei einem digitalen Ausgang ein Relais, welches bis zu 8A schalten kann.
+Der Telstar CT verfügt bei einem digitalen Ausgang über ein Relais, welches bis zu 8A schalten kann.
 
 ## Mesh-Technologie
 
@@ -293,9 +293,9 @@ Gewicht mit Verpackung: 315g
 <details id="in-welchem-intervall-senden-die-zähler-daten">
 <summary>In welchem Intervall senden die Zähler Daten?</summary>
 
-- Alle 15 Minuten, also um xx:00:00 xx:15:00, xx:30:00 und xx:45:00. Hiermit werden die nötigen Daten für den Lastgang gesendet. Diese Daten werden im Fall eines Verbindungsunterbruchs lokal gespeichert und nachgesendet.
+- Alle 15 Minuten, also um xx:00:00, xx:15:00, xx:30:00 und xx:45:00. Hiermit werden die nötigen Daten für den Lastgang gesendet. Diese Daten werden im Fall eines Verbindungsunterbruchs lokal gespeichert und nachgesendet.
 
-- Zudem mindestens aller 330 Sekunden.
+- Zudem mindestens alle 330 Sekunden.
 
 - Anschliessend, wenn eines der folgenden Ereignisse eintritt:
 

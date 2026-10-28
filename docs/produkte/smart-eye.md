@@ -37,7 +37,7 @@ Installation und Inbetriebnahme des smart-eye Moduls
 | Merkmal | Wert |
 | --- | --- |
 | Unterstützte Zähler | alle Zähler gemäss FNN-Lastenheft Basiszähler |
-| Betriebsspannung | USB typ C Schnittstelle (5V) |
+| Betriebsspannung | USB Typ C Schnittstelle (5V) |
 | Schnittstellen | WiFi, INFO-Schnittstelle (Kommunikation mit dem Zähler) |
 | Datenspeicher | 2 Monate |
 | Firmware Update | Online möglich |

@@ -4,11 +4,11 @@ slug: '/drittprodukte/zaehlersteckklemmen-nimbus-100a'
 description: 'Der Nimbus 100A ist mit verschiedenen Zählersteckklemmen direkt Kompatibel.'
 sidebar_label: 'Zählersteckklemmen Nimbus 100A'
 ---
-Der Nimbus 100A ist mit verschiedenen Zählersteckklemmen direkt Kompatibel. Die uns bekannten und getesteten Steckklemmen findest du hier aufgeführt.
+Der Nimbus 100A ist mit verschiedenen Zählersteckklemmen direkt kompatibel. Die uns bekannten und getesteten Steckklemmen findest du hier aufgeführt.
 
-Die Zählersteckklemmen erlauben das Ersetzen oder Austauschen von Zählern im Betrieb ohne unterbrechen der Stromversogung.
+Die Zählersteckklemmen erlauben das Ersetzen oder Austauschen von Zählern im Betrieb ohne Unterbrechen der Stromversorgung.
 
-Bitte beachte das für den Einsatz dieser Steckklemmen auch Zubehör wie Verbinderwerkzeug und Zähleranschlussstifte mitbestellt werden müssen.
+Bitte beachte, dass für den Einsatz dieser Steckklemmen auch Zubehör wie Verbinderwerkzeug und Zähleranschlussstifte mitbestellt werden müssen.
 
 ## Eweco Klemmen
 
@@ -56,7 +56,7 @@ SL-ZAKD: bis 80A Dauerstrom und 128A Überlaststrom - Schraubklemme
 Zählerstift für Nimbus: SL-6-6-42
 
 </div>
-<div className="col col--6 text--center">
+<div className="col col--6 bild--mitte">
 
 ![Zählersteckklemmen Nimbus 100A – Abbildung 5](/img/drittprodukte-zaehlersteckklemmen-nimbus-100a/05.png)
 

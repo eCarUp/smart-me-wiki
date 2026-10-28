@@ -11,7 +11,7 @@ naechste_schritte: [konfiguration/wenndann-aktionen/alarme]
 
 Vorteil:
 
-- Keine doppelte erfassung von Mieterkontrakten notwendig
+- Keine doppelte Erfassung von Mieterkontrakten notwendig
 
 
 Nachteil:
@@ -47,7 +47,7 @@ Beispiele:
 
 - Allgemeinzähler
 
-- Wärmezähler eines Stockwers, welches 4 Abrechnungseinheiten bedient
+- Wärmezähler eines Stockwerks, welches 4 Abrechnungseinheiten bedient
 
 
 Ladestationen mit smart-me Pico / Zaptec / Easee
@@ -56,7 +56,7 @@ Weise Ladestationen nicht direkt Wohnungen zu, erstelle lieber eine separate Abr
 
 Ladestationen anderer Hersteller
 
-Ladestationen anderer Hersteller werden im smart-me nicht direkt verwaltet oder Abgerechnet. In diesem Fall erstelle einen Knoten für den E-Mobilitätsabgang und weise den Abgangszähler dem Knoten zu. So erhälst du den Gesamtaufwand für alle Ladestationen.
+Ladestationen anderer Hersteller werden im smart-me nicht direkt verwaltet oder abgerechnet. In diesem Fall erstelle einen Knoten für den E-Mobilitätsabgang und weise den Abgangszähler dem Knoten zu. So erhältst du den Gesamtaufwand für alle Ladestationen.
 
 
 
@@ -87,7 +87,7 @@ Nachteil:
 
 Disclaimer:
 
-Für diese Konfiguration muss eine zusätzliche Liegenschaft nur für Strom erstellt werden, welche alle Wohnungen der Drei Gebäude beinhaltet.
+Für diese Konfiguration muss eine zusätzliche Liegenschaft nur für Strom erstellt werden, welche alle Wohnungen der drei Gebäude beinhaltet.
 
 Es werden in dieser Liegenschaft nur die Stromzähler zugeordnet.
 

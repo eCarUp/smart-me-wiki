@@ -16,7 +16,7 @@ Hinweis:
 Innerhalb von Mieterstromanlagen funktioniert der Tarifwechsel nur für den Mieterstromanlagenbetreiber
 
 </div>
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
 ![Zählerfreunde – Abbildung 1](/img/drittsysteme-zaehlerfreunde/01.png)
 
@@ -53,13 +53,13 @@ Transparente, spartenübergreifende Visualisierung. Durch unsere Baukastenstrukt
 
 ## Unterstützung weiterer Geräte
 
-Deine Kunden haben PV-Anlagen, Wallboxen, digitale Stromzähler? Wir visualisieren (fast) alles! Nutzer haben die Möglichkeit weitere intelligente Geräte hinzuzufügen. Bietest du zum Beispiel Batteriespeicher an? Super, direkt über die Plattform vertreiben und anschliessend visualisieren lassen.
+Deine Kunden haben PV-Anlagen, Wallboxen, digitale Stromzähler? Wir visualisieren (fast) alles! Nutzer haben die Möglichkeit, weitere intelligente Geräte hinzuzufügen. Bietest du zum Beispiel Batteriespeicher an? Super, direkt über die Plattform vertreiben und anschliessend visualisieren lassen.
 
 ![Zählerfreunde – Abbildung 4](/img/drittsysteme-zaehlerfreunde/04.png)
 
 ## Neue Stromprodukte anbieten
 
-Bietest du deinen Bestandskunden neue Tarifprodukte wie flexible Tarife an. Bei Bedarf berechnen wir, ob sich der Kunde noch in dem für ihn besten Tarif befindet. Visualisierung und Tarifmanagement an einem Ort.
+Bietest du deinen Bestandskunden neue Tarifprodukte wie flexible Tarife an? Bei Bedarf berechnen wir, ob sich der Kunde noch in dem für ihn besten Tarif befindet. Visualisierung und Tarifmanagement an einem Ort.
 
 ![Zählerfreunde – Abbildung 5](/img/drittsysteme-zaehlerfreunde/05.png)
 

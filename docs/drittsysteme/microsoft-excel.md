@@ -50,7 +50,7 @@ Nun wirst du aufgefordert, die Authentifizierung des jeweiligen Links anzugeben.
 
 3.  Klicke unter Anmeldeinformationen auf Bearbeiten
 
-4.  Gib den Benutzername und das Passwort des Accounts im Tab "Standard" ein
+4.  Gib den Benutzernamen und das Passwort des Accounts im Tab "Standard" ein
 
 
 ![Microsoft Excel – Abbildung 3](/img/drittsysteme-microsoft-excel/03.png)
@@ -102,7 +102,7 @@ Wähle im Excel einen Platz aus, wo die Eingabe für das Datum erfolgen soll.  
 
 ![Microsoft Excel – Abbildung 12](/img/drittsysteme-microsoft-excel/12.png)
 
-Wähle einen Bereich von 4 Feldern aus, damit jeweils ein Spaltenname und der Text inkl. dem Wert platz finden.
+Wähle einen Bereich von 4 Feldern aus, damit jeweils ein Spaltenname und der Text inkl. dem Wert Platz finden.
 
 ![Microsoft Excel – Abbildung 13](/img/drittsysteme-microsoft-excel/13.png)
 
@@ -112,7 +112,7 @@ Damit Power Query später weiss, in welcher Tabelle die Variable zu finden ist, 
 
 ![Microsoft Excel – Abbildung 14](/img/drittsysteme-microsoft-excel/14.png)
 
-### Variabelnfeld formatieren (Textfeld)
+### Variablenfeld formatieren (Textfeld)
 
 <div className="row">
 <div className="col col--6">
@@ -120,7 +120,7 @@ Damit Power Query später weiss, in welcher Tabelle die Variable zu finden ist, 
 Damit das Datum später auch verwendet werden kann, muss der Inhalt als Text formatiert werden. Dazu markierst du die Tabelle und wählst oben das Format Text aus.
 
 </div>
-<div className="col col--6 text--center">
+<div className="col col--6 bild--mitte">
 
 ![Microsoft Excel – Abbildung 15](/img/drittsysteme-microsoft-excel/15.png)
 
@@ -236,7 +236,7 @@ In unserem Beispiel möchten wir gern alle Daten mit DeviceId, Datum, Obis-Code 
 
 ### Obis Codes interpretieren und zuordnen
 
-Die Obis-Codes sind standardisiert. Um diese zuordnen zu können kann die Excelliste mit den Obis-Codes mit SVERWEIS abgeglichen werden.
+Die Obis-Codes sind standardisiert. Um diese zuordnen zu können, kann die Excelliste mit den Obis-Codes mit SVERWEIS abgeglichen werden.
 Du erhältst so den Namen des Obis Codes und die Einheit der Werte.
 
 [Obis Codes (Excel)](https://drive.google.com/open?id=1eTs4ZXD9AUagGxNEQSof0IWHkZg54nsK6SyHp4ygDSc&authuser=0)

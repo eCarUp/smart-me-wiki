@@ -1,7 +1,7 @@
 ---
 title: 'Create invoice'
 slug: '/konfiguration/billing/rechnung-erstellen'
-description: 'Create test invoices and real invoices – the final step of the billing configuration.'
+description: 'Create a test invoice and real invoices – the last step of the billing configuration.'
 sidebar_label: 'Create invoice'
 naechste_schritte: [konfiguration/benutzerkonfiguration]
 vorheriger_schritt: konfiguration/billing/vewa-abrechnung
@@ -11,7 +11,7 @@ vorheriger_schritt: konfiguration/billing/vewa-abrechnung
 <div className="row">
 <div className="col col--5">
 
-Once the blue box in the virtual tariffs has reached today's date, you can create a test invoice.
+Once the blue box for the virtual tariffs (Virtuelle Tarife) is on today's date, you can create a test invoice.
 
 - Enter the date
 
@@ -24,7 +24,7 @@ This page describes the most common error messages and possible solutions: [Bill
 </div>
 <div className="col col--7 bild--mitte">
 
-![“Create invoice” dialog with billing period, invoice number and the buttons Invoice preview, Create invoice and Export](/img/konfiguration-billing/14_EN.png)
+![“Create invoice” (Rechnung erstellen) dialog with billing period, invoice number and the buttons Invoice preview (Rechnungsvorschau), Create invoice (Rechnung erstellen) and Export (Exportieren)](/img/konfiguration-billing/14_EN.png)
 
 </div>
 </div>

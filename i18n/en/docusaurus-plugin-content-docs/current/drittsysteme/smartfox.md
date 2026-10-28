@@ -10,22 +10,22 @@ sidebar_label: 'SMARTFOX'
 smart-me devices can be integrated directly and easily into a SMARTFOX installation.
 
 </div>
-<div className="col col--5 text--center">
+<div className="col col--5 bild--mitte">
 
 ![SMARTFOX – Figure 1](/img/drittsysteme-smartfox/01.png)
 
 </div>
 </div>
 
-The intelligent SMARTFOX Pro energy manager continuously monitors and controls electricity generation and consumption. With it, you can shift the consumption of electrical devices such as heat pumps, charging stations etc. into the sunshine hours and increase both the self-consumption rate and the degree of self-sufficiency.
+The intelligent SMARTFOX Pro energy manager continuously monitors and controls power generation and consumption. With it, the consumption of electrical devices such as heat pumps, charging stations etc. can be shifted into the sunshine hours, increasing both the self-consumption rate and the degree of self-sufficiency.
 
 Target group:
 
-- Single-family home
+- Single-family house
 
 - Small business
 
-- Multi-occupancy building
+- Multi-family house
 
 Connection type:
 
@@ -33,7 +33,7 @@ Connection type:
 
 Requirement:
 
-- smart-me Professional licences. [Learn more](/planung/cloud-lizenzen)
+- smart-me Professional licenses. [Learn more](/planung/cloud-lizenzen)
 
 ![SMARTFOX – Figure 2](/img/drittsysteme-smartfox/02.png)
 
@@ -43,7 +43,7 @@ Functions:
 
 - Visualization
 
-- Evaluation
+- Analysis
 
 
 
@@ -52,7 +52,7 @@ Use cases:
 
 - High-resolution monitoring of consumers
 
-- High-resolution monitoring of generation systems
+- High-resolution monitoring of generation plants
 
 - Smart meter function at the building connection point
 
@@ -62,7 +62,7 @@ Use cases:
 
 
 
-## Instructions for linking a smart-me meter and SMARTFOX
+## Instructions for linking smart-me meters and SMARTFOX
 
 Complete [linking instructions](https://drive.google.com/file/d/1FaH_zWsVsDhH9CMsMmJ5JkJ0OZN69d2J/view?usp=drive_link) with all details
 
@@ -82,7 +82,7 @@ Complete [linking instructions](https://drive.google.com/file/d/1FaH_zWsVsDhH9CM
 5.  Save.
 
 </div>
-<div className="col col--6 text--center">
+<div className="col col--6 bild--mitte">
 
 ![SMARTFOX – Figure 3](/img/drittsysteme-smartfox/03.png)
 

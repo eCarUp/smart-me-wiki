@@ -20,11 +20,11 @@ Problem:
 
 Lösung zusammen mit dem Support
 
-1.  Konto erstellen oder dich im Konto einloggen in dem die Pico installiert werden muss
+1.  Konto erstellen oder dich im Konto einloggen, in dem die Pico installiert werden muss
 
 2.  RFID-Karte gemäss Video auf der rechten Seite erstellen.
 
-3.  Installiere die Picos mit der RFID-Karte, indem du die RFID-Karte an die Pico haltest. Achte darauf, die mit der Pico mitgelieferte Karte zu verwenden und halte sie so lange hin, bis der grüne Haken erscheint.
+3.  Installiere die Picos mit der RFID-Karte, indem du die RFID-Karte an die Pico hältst. Achte darauf, die mit der Pico mitgelieferte Karte zu verwenden und halte sie so lange hin, bis der grüne Haken erscheint.
 
 </div>
 <div className="col col--4">
@@ -60,7 +60,7 @@ Abschluss: 10.03.2026 14h45
 
 Problem:
 
-- Picos welche über die integrierten SIM Karte verbunden sind können offline fallen.
+- Picos, welche über die integrierte SIM Karte verbunden sind, können offline fallen.
 
 - Die 2G/3G-Konnektivität ist beeinträchtigt. Die Geräte können möglicherweise keine Verbindung zum Netzwerk herstellen oder keine Datenverbindungen aufbauen.
 
@@ -72,11 +72,11 @@ Status:
 
 - 16.01.2026 9h00 1nce hat derzeit Störungen bei 3G und 4G, was bedeutet, dass Picos über 4G offline sind.
 
-- 16.01.2026 11h30 1nce problem gelöst.
+- 16.01.2026 11h30 1nce Problem gelöst.
 
-- 16.01.2026 14h30 einige picos sind immer noch offline
+- 16.01.2026 14h30 einige Picos sind immer noch offline
 
-- 16.01.2026 14h45 Workaround um die picos wieder online zu bringen. [Pico 4G Ausfall](/news/status/pico-4g-ausfall)
+- 16.01.2026 14h45 Workaround, um die Picos wieder online zu bringen. [Pico 4G Ausfall](/news/status/pico-4g-ausfall)
 
 - 19.01.2026 8h30 Problem geschlossen. Nur einzelne Picos sind immer noch offline ca. 10 Stück.
 

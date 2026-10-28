@@ -25,7 +25,7 @@ Bei Mieterstrom muss **immer mit virtuellen Tarifen** gearbeitet werden. Nur so 
 ## Eintragen des Netztarifs
 
 
-## Berechnen und Eintragen des Solar- und Batterietarife
+## Berechnen und Eintragen der Solar- und Batterietarife
 
 ### Stromtarife konfigurieren Standard Messkonzept
 
@@ -53,7 +53,7 @@ Alle Produktionszähler und Batteriezähler werden als Produktion erfasst.
 
 - Bei der Nutzung des Solartarif /verbrauch /PV) werden zusätzliche Lizenzen für virtuellen Zähler fällig.
 
-- Der Gesamtvebrauch wird mindestens benötigt. Dieser wird als virtueller Zähler erstellt bestehend aus allen Teilnehmenden Abgängen des Mieterstroms.
+- Der Gesamtverbrauch wird mindestens benötigt. Dieser wird als virtueller Zähler erstellt bestehend aus allen Teilnehmenden Abgängen des Mieterstroms.
 
 Gesamtverbrauch = Wohnung 1.1 + Wohnung 1.2 + Wohnung 2.1 + Allgemein + Parkplatz 1 + Parkplatz 2 + Wärmepumpe
 
@@ -61,7 +61,7 @@ Gesamtverbrauch = Wohnung 1.1 + Wohnung 1.2 + Wohnung 2.1 + Allgemein + Parkplat
 
 - Beim Gesamtverbrauch wird der virtuell erstellte Gesamtverbrauch hinterlegt.
 
-- Der Bilanzzähler wird hier bewusst referenziert um die Genauigkeit zu erhöhen!
+- Der Bilanzzähler wird hier bewusst referenziert, um die Genauigkeit zu erhöhen!
 
 ![Standard Messkonzept – Abbildung 4](/img/planung-standard-messkonzept/04.png)
 
@@ -76,7 +76,7 @@ Bei der Nutzung des Solartarif inkl. vZEV werden keine zusätzlichen Lizenzen f�
 
 Bilanzzähler
 
-Alle Teilnehmenden Wohnungen / Parkplätze und Produktionen als Bilanzzähler.
+Alle teilnehmenden Wohnungen / Parkplätze und Produktionen als Bilanzzähler.
 
 ![MKD3 Messkonzept (mit nicht Teilnehmer) – Abbildung 2](/img/planung-mkd3-messkonzept-nicht-teilnehmer/02.png)
 
@@ -101,7 +101,7 @@ Es wird jeweils unter Produktion der Solaranlagenzähler bzw. Batteriezähler be
 
 Beim Gesamtverbrauch wird der virtuell erstellte Gesamtverbrauch hinterlegt.
 
-Der Bilanzzähler wird bewusst nicht referenziert um die virtuelle Bilanzierung nicht flasch zu korrigieren!
+Der Bilanzzähler wird bewusst nicht referenziert, um die virtuelle Bilanzierung nicht falsch zu korrigieren!
 
 ![MKD3 Messkonzept (mit nicht Teilnehmer) – Abbildung 4](/img/planung-mkd3-messkonzept-nicht-teilnehmer/04.png)
 
@@ -115,7 +115,7 @@ Weiter unten kannst du unter "Sonstiges" die Tarifkomponenten pro Stromsorte (Ne
 
 Du kannst entweder die Standard- Mieterstrom-Tarifkomponenten direkt einfügen oder über "Editieren" einzelne Tarifkomponenten erfassen.
 
-Wichtig: Wähle den korrekten Typ beim Editieren bzw. spezifiziere ob es sich um eine Tarifkomponente des Netzstroms (Reststroms) oder des Solarstroms handelt.
+Wichtig: Wähle den korrekten Typ beim Editieren bzw. spezifiziere, ob es sich um eine Tarifkomponente des Netzstroms (Reststroms) oder des Solarstroms handelt.
 
 
 Wichtig: Die Angaben zu der Zusammensetzung der Komponenten für den Netzstrom (Reststrom) erhältst du bei deinem gewählten Reststromanbieter.
@@ -124,7 +124,7 @@ Der Solarstrom besteht üblicherweise nur aus EEG-Umlage und Erzeugungspreis.
 
 ![smart-me Billing für deutschen Mieterstrom – Abbildung 9](/img/konfiguration-billing-mieterstrom/09.png)
 
-Ein fertige Konfiguration kann so aussehen:
+Eine fertige Konfiguration kann so aussehen:
 
 ![smart-me Billing für deutschen Mieterstrom – Abbildung 10](/img/konfiguration-billing-mieterstrom/10.png)
 

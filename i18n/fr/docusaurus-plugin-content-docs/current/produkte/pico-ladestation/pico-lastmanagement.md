@@ -6,7 +6,7 @@ sidebar_label: 'Gestion de la charge Pico'
 ---
 ## Le système de gestion de la charge Pico
 
-Le système de gestion de la charge de Pico repose sur deux fonctionnalités de base :
+Le système de gestion de la charge de Pico repose sur deux fonctionnalités fondamentales :
 
 - Groupes de charge de la gestion de la charge Pico
 
@@ -27,28 +27,28 @@ La fonctionnalité de groupe de charge remplit les tâches suivantes :
 
 ### Communication MESH
 
-Le matériel Pico dispose d'une fonctionnalité MESH. Celle-ci permet une communication locale entre les Picos, même lorsque le Wifi ou la connexion mobile à Internet n'est pas garanti. Le MESH peut également relier au cloud des bornes de recharge sans accès direct à un point d'accès, par l'intermédiaire de Picos voisines. La condition est toutefois qu'elles se trouvent ensemble dans un même groupe de recharge et qu'un Wifi soit disponible.
+Le matériel Pico dispose d'une fonctionnalité MESH. Celle-ci permet aux Picos de communiquer localement entre eux, même lorsque la connexion Wifi ou mobile à Internet n'est pas assurée. Le MESH peut également connecter au cloud des bornes de recharge sans accès direct à un point d'accès, par l'intermédiaire de Picos voisines. Pour cela, elles doivent toutefois se trouver ensemble dans un groupe de recharge et un Wifi doit être disponible.
 
 Le réseau MESH peut prendre en charge au maximum 200 bornes de recharge dans un groupe de charge.
 
-Dans tous les cas, le MESH transmet les valeurs et décisions de gestion de la charge relatives au groupe du maître aux autres membres du groupe.
+Dans tous les cas, le MESH transmet les valeurs et les décisions de gestion de la charge relatives au groupe du maître aux autres membres du groupe.
 
-Les membres du réseau MESH n'ont pas besoin d'un contact direct avec la Pico maître, mais peuvent également établir la connexion avec le maître MESH (A) via jusqu'à 5 bornes de recharge voisines.
+Les membres du réseau MESH n'ont pas besoin d'un contact direct avec la Pico maître ; ils peuvent également établir la connexion avec le maître MESH (A) via jusqu'à 5 bornes de recharge voisines.
 
 Chaque Pico peut servir de point de distribution pour jusqu'à 6 appareils simultanément.
 
-La Pico maître est choisie de manière appropriée par le groupe lui-même et s'optimise en permanence.
+Le maître Pico est choisi de manière appropriée par le groupe lui-même et s'optimise en permanence.
 
-La portée maximale d'une connexion entre les différentes Picos est de 30 mètres sans obstacles et d'env. 10m avec obstacles.
+La portée maximale d'une connexion entre les différentes Picos est de 30 mètres sans obstacles et d'environ 10m avec obstacles.
 
 Remarque :
-Veillez à ce que toutes les Picos raccordées à un seul et même départ e-mobilité puissent se trouver dans le même groupe de recharge. (Mesure de construction)
+Il convient de veiller à ce que toutes les Picos raccordées à un seul et même départ e-mobilité puissent se trouver dans le même groupe de recharge. (Mesure constructive)
 
-Si cela n'est pas possible en raison de l'emplacement des Picos, plusieurs groupes de recharge sur un même câble peuvent également être gérés à l'aide de la gestion de la charge multiniveau.
+Si cela n'est pas possible en raison de l'emplacement de toutes les Picos, plusieurs groupes de recharge sur un même câble peuvent également être gérés à l'aide de la gestion de la charge multiniveau.
 
-Dans ce cas, il est recommandé de former par ex. des groupes de 3, 6 ou 9 afin de pouvoir utiliser la commutation monophasée le plus efficacement possible.
+Dans ce cas, il est recommandé de former par exemple des groupes de 3, 6 ou 9, afin d'exploiter le plus efficacement possible la commutation monophasée.
 
-La fonction de groupe de charge n'exige ni un hotspot du même nom ni des identifiants identiques pour la connexion à Internet. Le MESH est un système autonome et repose uniquement sur le fait que les appareils du groupe de charge peuvent communiquer entre eux.
+La fonction de groupe de charge n'exige ni hotspot du même nom ni identifiants identiques pour la connexion à Internet. Le MESH est un système autonome qui repose uniquement sur le fait que les appareils du groupe de charge peuvent se joindre entre eux.
 
 ![Gestion de la charge Pico – Figure 1](/img/produkte-pico-ladestation-pico-lastmanagement/01.png)
 
@@ -56,42 +56,42 @@ La fonction de groupe de charge n'exige ni un hotspot du même nom ni des identi
 
 ### Comportement en cas de perte de connexion
 
-Les groupes de recharge Pico statiques peuvent continuer à garantir la fonction de recharge en cas de perte de la connexion Internet. 
+Les groupes de recharge Pico statiques peuvent continuer à assurer la fonction de recharge en cas de perte de la connexion Internet. 
 
 Pour cela, les trois valeurs suivantes peuvent être choisies :
 
-- Aucune action
-    (Aucune régulation, les véhicules en cours de recharge continuent de charger avec le courant libéré précédemment, mais il n'est pas possible de démarrer de nouvelles recharges)
+- Aucune action (Keine Aktion)
+    (Aucune régulation, les véhicules en charge continuent de se recharger avec le courant précédemment libéré, mais il n'est pas possible de démarrer de nouvelles recharges)
 
-- Courant minimal :
-    Cette Pico revient à sa puissance minimale réglée (individuelle).
+- Courant minimal (Minimalstrom) :
+    Cette Pico revient à sa puissance minimale réglée (individuellement).
 
-- Courant max. (par groupe)
+- Courant max. (par groupe) (Max. Strom (pro Gruppe))
     (Seul réglage compatible avec la gestion de la charge multiniveau)
-    Chaque Pico reçoit une fraction de la puissance de recharge définie du groupe de recharge.
-    La puissance individuelle est répartie automatiquement par le gestionnaire de recharge sur les recharges actives.
+    Chaque Pico reçoit une fraction de la puissance de charge définie pour le groupe de recharge.
+    La puissance individuelle est répartie automatiquement par le gestionnaire de recharge entre les recharges actives.
 
 
 ![Gestion de la charge Pico – Figure 3](/img/produkte-pico-ladestation-pico-lastmanagement/03_EN.png)
 
 ### Protection contre la surcharge du départ ou de la ligne d'alimentation
 
-Les groupes de charge reçoivent au maximum le « courant protégé » à leur libre disposition et pour la répartition sur les recharges actives. Cela garantit que le groupe de charge Pico ne soutire jamais plus de courant que ce qui est autorisé.
+Les groupes de charge reçoivent au maximum le « courant protégé » (Abgesicherter Strom), dont ils disposent librement pour le répartir entre les recharges actives. Cela garantit que le groupe de charge Pico ne soutire jamais plus de courant que ce qui est autorisé.
 
-### Répartition du courant de recharge sur les recharges actives
+### Répartition du courant de charge entre les recharges actives
 
 <div className="row">
 <div className="col col--6">
 
-Le courant de recharge disponible est réparti automatiquement sur les recharges actives. Les courants disponibles sont répartis de la manière la plus équitable possible.
+Le courant de charge disponible est réparti automatiquement entre les recharges actives. Les courants disponibles sont distribués de la manière la plus équitable possible.
 
-Dans cet exemple, 63A sont répartis sur quatre bornes de recharge actives.
+Dans cet exemple, 63A sont répartis entre quatre bornes de recharge actives.
 63 A / 4 recharges actives = 15.75A par borne.
 
-Les courants de recharge sont attribués aux recharges actives en nombres entiers.
+Les courants de charge sont attribués aux recharges actives en nombres entiers.
 
 </div>
-<div className="col col--6 text--center">
+<div className="col col--6 bild--mitte">
 
 ![Gestion de la charge Pico – Figure 4](/img/produkte-pico-ladestation-pico-lastmanagement/04.png)
 
@@ -104,21 +104,21 @@ Pico dispose d'une commutation de phase active qui remplit deux fonctions :
 
 - Équilibrage des phases pour la symétrie de charge entre les recharges actives
 
-- Répartition de l'énergie en cas de sous-alimentation
+- Répartition de l'énergie en cas d'alimentation insuffisante
 
 
 Symétrie de charge :
 
-La Pico identifie les véhicules monophasés et les place en conséquence sur une phase pour la recharge. Si d'autres véhicules monophasés s'ajoutent au cours de la recharge, le groupe Pico sélectionne automatiquement pour ce véhicule une phase encore non chargée.
+La Pico identifie les véhicules monophasés et les place en conséquence sur une phase pour la recharge. Si d'autres véhicules monophasés s'ajoutent en cours de recharge, le groupe Pico sélectionne automatiquement pour ce véhicule une phase encore non chargée.
 
-La symétrie obéit à plusieurs règles qui peuvent également forcer des véhicules triphasés en mode monophasé si l'asymétrie devient trop importante. 
+La symétrie obéit à plusieurs règles, qui peuvent également contraindre des véhicules triphasés à passer en mode monophasé si l'asymétrie devient trop importante. 
 
-Sous-alimentation :
+Alimentation insuffisante :
 
-La Pico utilise le courant disponible en triphasé tant que le minimum triphasé réglé peut être maintenu, par ex. 6A en triphasé.
-(Le seuil peut être influencé via le courant minimal de chaque Pico.)
+La Pico utilise le courant disponible en triphasé tant que le minimum triphasé réglé peut être maintenu, p. ex. triphasé 6A.
+(Le seuil peut être influencé par le courant minimal des différentes Picos.)
 
-Si un véhicule supplémentaire s'ajoute et que la recharge triphasée au courant minimal réglé ne peut plus être fournie à tous les véhicules, les bornes de recharge passent progressivement en mode de recharge monophasé afin de garantir la meilleure efficacité possible.
+Si un véhicule supplémentaire s'ajoute et que la recharge triphasée au courant minimal réglé ne peut plus être fournie à tous les véhicules, les bornes de recharge passent progressivement en mode de recharge monophasé afin de garantir la plus grande efficacité possible.
 
 Il est donc possible que des recharges triphasées et des recharges monophasées aient lieu en parallèle dans un groupe de recharge.
 
@@ -126,30 +126,30 @@ Les recharges actives sont réparties uniformément sur les trois phases et le c
 
 L'algorithme tient également compte des recharges en pause ou terminées.
 
-Les recharges en pause réservent le courant minimal nécessaire, par ex. pour garantir les fonctions de préchauffage du véhicule.
+Les recharges en pause réservent le courant minimal nécessaire, p. ex. pour assurer les fonctions de chauffage stationnaire du véhicule.
 
 Remarque :
-La disponibilité d'au moins 6A est une exigence du véhicule et doit être garantie en tout temps du côté de la borne de recharge. Ceci indépendamment du fait que la borne fonctionne en mode triphasé ou monophasé. Si la valeur descend en dessous, le véhicule arrête la recharge de lui-même ou ne commence même pas à charger.
+La disponibilité d'au moins 6A est une exigence du véhicule et doit être garantie en tout temps du côté de la borne de recharge. Cela indépendamment du fait que la borne fonctionne en mode triphasé ou monophasé. Si la valeur descend en dessous, le véhicule interrompt la recharge de lui-même ou ne commence même pas à se recharger.
 
-Certains véhicules plus anciens ne démarrent même pas la recharge lorsque moins de 8A sont disponibles.
+Certains véhicules plus anciens ne démarrent pas la recharge lorsque moins de 8A sont disponibles.
 
-Conseil : configurez les bornes publiques pour visiteurs ou les stations-service avec un minimum de 8A.
+Conseil : configurer les bornes publiques pour visiteurs ou les stations-service avec le minimum de 8A.
 
 
 
 ![Gestion de la charge Pico – Figure 5](/img/produkte-pico-ladestation-pico-lastmanagement/05.png)
 
 Situation : le courant disponible ne suffit pas pour alimenter tous les véhicules en triphasé avec le minimum.
-\--> Les bornes de recharge sont toutes commutées en recharge monophasée.
+\--> Toutes les bornes de recharge sont commutées en recharge monophasée.
 
 ![Gestion de la charge Pico – Figure 6](/img/produkte-pico-ladestation-pico-lastmanagement/06.png)
 
-Situation : le courant disponible suffirait pour tous les appareils simultanément, mais une recharge en pause mobiliserait trop d'énergie. La borne de recharge avec le véhicule entièrement chargé est passée en monophasé afin de céder des capacités aux autres recharges triphasées.
+Situation : le courant disponible suffirait pour tous les appareils simultanément, mais une recharge en pause immobiliserait trop d'énergie. La borne de recharge avec le véhicule entièrement rechargé est passée en monophasé afin de céder de la capacité aux autres recharges triphasées.
 
 ## Gestion de la charge multiniveau (MLM)
 
-La gestion de la charge multiniveau permet la commande dynamique des groupes de recharge Pico à travers les raccordements de site, la distribution, les raccordements d'immeuble et les sous-distributions.
+La gestion de la charge multiniveau permet de piloter dynamiquement les groupes de recharge Pico à travers les raccordements de site, la distribution, les raccordements d'immeubles et les sous-distributions.
 
-Elle permet en outre de prioriser des groupes de recharge ainsi que des fonctions d'optimisation solaire.
+Elle permet en outre de prioriser des groupes de recharge et offre des fonctions d'optimisation solaire.
 
 [En savoir plus](/konfiguration/multilevel-lastmanagement)

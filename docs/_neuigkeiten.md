@@ -10,7 +10,7 @@ Da oft der Platz für den Solarzähler fehlt, kannst du nun einfach mittels Haus
 Wähle dazu den Solartarif inkl. vZEV:
 \- Referenzzähler: Verbrauch und Bilanz
 
-Nun werden die Tarife ohne Solarzähler korrekt berechnet und erspart die umständliche Auf- und Umbauten.
+Nun werden die Tarife ohne Solarzähler korrekt berechnet und erspart die umständlichen Auf- und Umbauten.
 
 Hinweis: Wenn die Installation eines Solarstromzählers möglich ist, zögere bitte nicht, dies zu tun. Die vollständige Abdeckung des Messkonzeptes kann Fehldaten durch Zählerdefekte abdecken, systematisches Weglassen beraubt aber dieser Möglichkeit.
 
@@ -29,7 +29,7 @@ Mit dem neuen Update vom SolarManager werden Picos nicht mehr über die Seriennu
 
 In dem kurzen Video zeige ich dir Schritt für Schritt, wie das funktioniert, damit du die Einstellungen auf der smart-me Seite korrekt vornehmen kannst.
 
-Das ist super zu wissen: mit dem Update ist somit das einphasige Laden mit 6 A (ca. 1,4 kW) möglich, was ideal für geringere PV-Überschüsse ist. Wie dies konfiguriert werden kann, findest du in der Dokumentation vom Solarmanager
+Das ist super zu wissen: mit dem Update ist somit das einphasige Laden mit 6 A (ca. 1,4 kW) möglich, was ideal für geringere PV-Überschüsse ist. Wie dies konfiguriert werden kann, findest du in der Dokumentation vom Solarmanager.
 
 <Embed src="https://drive.google.com/file/d/1Oc3uuTCMusCJMHL7hjlJzFbkoFONHpm4/preview" aspect="1.350" title="Drive, solarmanager_update_2026.mp4" />
 
@@ -106,7 +106,7 @@ Bereite dich auf den reibungslosen Wechsel auf unsere neue, moderne Plattform vo
 
 Rechne neu auch dynamische Netztarife gegenüber deinen Mietern ab. 
 
-Wir importieren von deinem Provider den dynamischen Tarif und wenden diesen alle 15-Minuten auf den effektiven Netzbezug des jeweiligen Verbrauchers an.
+Wir importieren von deinem Provider den dynamischen Tarif und wenden diesen alle 15 Minuten auf den effektiven Netzbezug des jeweiligen Verbrauchers an.
 
 [→ Mehr Informationen zu den Tarifen](/konfiguration/billing/stromtarife-definieren)
 
@@ -151,7 +151,7 @@ In der neuen Abteilung Technische Tools findest du Hilfsmittel für Installation
 <details id="applab">
 <summary>Neu: AppLAB</summary>
 
-Die neue Abteilung AppLAB ist ein Versuchsbereich und stellt verschiedene Features bereit um deren Wirksamkeit zu testen.
+Die neue Abteilung AppLAB ist ein Versuchsbereich und stellt verschiedene Features bereit, um deren Wirksamkeit zu testen.
 
 ![Technische Daten & Handbücher – Abbildung 11](/img/home/11.png)
 
@@ -214,7 +214,7 @@ Neue Pico Visualisierung:
 
 Sehen Sie sich die neue Pico-Visualisierung an, die alle Pico-Ladepunkte und deren Ladegruppen auf einen Blick anzeigt – mit Stromaufnahme, Belegung, maximaler Leistungsaufnahme und vielem mehr.
 
-[→ Mehr Informationen zur den neuen Visualisierungen](/konfiguration/visualisierung)
+[→ Mehr Informationen zu den neuen Visualisierungen](/konfiguration/visualisierung)
 
 ![Technische Daten & Handbücher – Abbildung 14](/img/home/14.png)
 
@@ -252,7 +252,7 @@ Das MWST-Gesetz zum ZEV ist ähnlich schnell im Wandel wie die Technik.
 [→ Mehr Informationen für unsere Partner](/konfiguration/billing/mwst-zev-nebenkosten)
 
 </div>
-<div className="col col--6 text--center">
+<div className="col col--6 bild--mitte">
 
 ![Technische Daten & Handbücher – Abbildung 17](/img/home/17.png)
 

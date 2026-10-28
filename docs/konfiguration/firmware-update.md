@@ -8,7 +8,7 @@ sidebar_label: 'Firmware Update'
 
 ## Firmware Update durchführen
 
-Die smart-me Produkte erfahren durch Ihren Produktlebenszyklus immer wieder Verbesserungen und Funktionserweiterungen.
+Die smart-me Produkte erfahren durch ihren Produktlebenszyklus immer wieder Verbesserungen und Funktionserweiterungen.
 Diese Optimierungen können selbstständig durch den Nutzer ausgeführt werden.
 
 ⓘ Hinweis: Firmware Updates sind vor allem dann anzuwenden, wenn du ein fehlerhaftes Verhalten festgestellt hast oder eine neue Funktion verwenden möchtest, welche die vorherige Firmware noch nicht unterstützte. Produkte mit sich schnell entwickelnden Funktionen wie z.B. die Pico Ladestation, sollten regelmässig Updates erfahren.
@@ -42,14 +42,14 @@ Dauer bis zum Start: 
 - Bei M-Bus Gateway hängt es vom Upload-Intervall ab.
 
 </div>
-<div className="col col--7 text--center">
+<div className="col col--7 bild--mitte">
 
 ![Firmware Update – Abbildung 3](/img/konfiguration-firmware-update/03.png)
 
 </div>
 </div>
 
-### 3\. Warte bis die Aktualisierung abgeschlossen ist und mit "OK" bestätigen
+### 3\. Warte, bis die Aktualisierung abgeschlossen ist und mit "OK" bestätigen
 
 <div className="row">
 <div className="col col--4">
@@ -65,7 +65,7 @@ Dauer bis zum Abschluss der Aktualisierung: 
 - Für M-Bus Gateway hängt es vom Upload-Intervall ab.
 
 </div>
-<div className="col col--8 text--center">
+<div className="col col--8 bild--mitte">
 
 ![Firmware Update – Abbildung 4](/img/konfiguration-firmware-update/04.png)
 

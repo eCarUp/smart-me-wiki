@@ -1,18 +1,18 @@
 ---
 title: 'Symcon'
 slug: '/drittsysteme/symcon'
-description: 'Symcon è un software, disponibile anche con un pacchetto hardware opzionale (Symbox), che consente di realizzare comandi e visualizzazioni nella vostra casa o nel vostro edificio.'
+description: 'Symcon è un software, nonché un pacchetto hardware opzionale (Symbox), che consente controlli e visualizzazioni nella vostra casa o nel vostro edificio.'
 sidebar_label: 'Symcon'
 ---
 <div className="row">
 <div className="col col--8">
 
-Symcon è un software, disponibile anche con un pacchetto hardware opzionale (Symbox), che consente di realizzare comandi e visualizzazioni nella vostra casa o nel vostro edificio. Funge da interfaccia e da centro decisionale.
+Symcon è un software, nonché un pacchetto hardware opzionale (Symbox), che consente controlli e visualizzazioni nella vostra casa o nel vostro edificio. Funge da interfaccia e da centro decisionale.
 
 I dati smart-me possono essere interrogati facilmente tramite la nostra API.
 
 </div>
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
 ![Symcon – Figura 1](/img/drittsysteme-symcon/01.png)
 
@@ -37,7 +37,7 @@ Willy-Brandt-Allee 31b, D-23554 Lübeck
 </Kachel>
 </Kacheln>
 
-### Come si integra un punto di misura smart-me in Symcon?
+### Come integro un punto di misura smart-me in Symcon?
 
 1.  Aggiungere un'istanza (JSON Decoder)
 
@@ -50,7 +50,7 @@ Nome utente: account smart-me
 
 Password: password smart-me
 
-URL: chiamata API: ad es. "https://smart-me.com:443/api/devices/&#123;id&#125;
+URL: chiamata API: p.es. "https://smart-me.com:443/api/devices/&#123;id&#125;
 
 ![Symcon – Figura 3](/img/drittsysteme-symcon/03.png)
 
@@ -71,26 +71,26 @@ URL: chiamata API: ad es. "https://smart-me.com:443/api/devices/&#123;id&#125;
 
 ![Symcon – Figura 6](/img/drittsysteme-symcon/06.png)
 
-### Come si crea un grafico in Syncom?
+### Come posso creare un diagramma in Syncom?
 
-5\. Creare un grafico per il Webfront
+5\. Creare un diagramma per WebFront
 
 ![Symcon – Figura 7](/img/drittsysteme-symcon/07.png)
 
-6\. Configurare il grafico
+6\. Configurare il diagramma
 
-- È possibile visualizzare più variabili nello stesso grafico (ad es.: potenza attiva totale e potenza attiva delle singole fasi).
+- È possibile visualizzare più variabili nello stesso diagramma (ad es.: potenza attiva totale e potenza attiva delle singole fasi).
 
 
 ![Symcon – Figura 8](/img/drittsysteme-symcon/08.png)
 
-7\. Aprire il Webfront
+7\. Aprire WebFront
 
 ![Symcon – Figura 9](/img/drittsysteme-symcon/09.png)
 
 ![Symcon – Figura 10](/img/drittsysteme-symcon/10.png)
 
-8\. Visualizzare il grafico (cliccare a destra accanto al grafico PowerHaus).
+8\. Visualizzare il diagramma (cliccare a destra accanto al diagramma PowerHaus).
 
 ![Symcon – Figura 11](/img/drittsysteme-symcon/11.png)
 

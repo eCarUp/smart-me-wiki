@@ -1,14 +1,14 @@
 ---
 title: 'Importazione dati Ebix'
 slug: '/schnittstellen/ebix-datenimport'
-description: 'smart-me offre la possibilità di un''importazione automatica dei dati con il formato Ebix'
+description: 'smart-me offre la possibilità di un''importazione automatica dei dati nel formato Ebix'
 sidebar_label: 'Importazione dati Ebix'
 ---
-smart-me offre la possibilità di un'importazione automatica dei dati con il formato Ebix
+smart-me offre la possibilità di un'importazione automatica dei dati nel formato Ebix
 
 ### Requisiti
 
-Solo i Gold Partner smart-me possono utilizzare l'importazione automatica dei dati. Ulteriori informazioni su questo modello di licenza possono essere richieste all'ufficio vendite.
+Solo i partner Gold di smart-me possono utilizzare l'importazione automatica dei dati. Ulteriori informazioni su questo modello di licenza possono essere richieste al reparto vendite.
 
 ## Ebix (SDAT)
 
@@ -45,6 +45,6 @@ Non appena i file Ebix sono stati caricati sui server da un utente del partner, 
 
 ![Importazione dati Ebix – Figura 1](/img/schnittstellen-ebix-datenimport/01.jpg)
 
-Il punto di misura può essere assegnato a un altro utente con un clic su modifica (editieren):
+Il punto di misura può essere assegnato a un altro utente cliccando su modifica (editieren):
 
 ![Importazione dati Ebix – Figura 2](/img/schnittstellen-ebix-datenimport/02.jpg)

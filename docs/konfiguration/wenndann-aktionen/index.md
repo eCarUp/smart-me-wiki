@@ -12,11 +12,11 @@ Um Wenn/Dann-Aktionen nutzen zu können, musst du eine smart-me Limited- oder Pr
 
 Um die Wenn/Dann-Aktionen Pico Regelung nutzen zu können, musst du eine smart-me Professional-Lizenz haben.
 
-## Wofür WENN / DANN AKtionen genutzt werden
+## Wofür WENN / DANN Aktionen genutzt werden
 
 - Tarifzeitenbasis für Doppel und Multitarife im Billing
 
-- Sterungen mit den Zähler Ein- und Ausgängen 
+- Steuerungen mit den Zähler Ein- und Ausgängen 
 
 - Alarme wie Verbindungsunterbrüche und Zählerstillstände
 
@@ -59,7 +59,7 @@ Die Wenn /Dann-Aktionen werden in der Cloud gespeichert und funktionieren deshal
 
 1.  Mindestens ein Wenn-Ereignis muss definiert werden, denn dieses löst die Aktion aus. Falls mehrere Wenn-Ereignisse definiert wurden, können diese mit UND- sowie ODER-Befehlen verknüpft werden.
 
-2.  Mindesten eine Dann-Aktion muss definiert werden (Ausnahme bei Bedingung für Tarife). Wurden mehrere Dann-Aktionen definiert, werden alle gleichzeitig ausgeführt, sobald die Wenn-Bedingung(en) erfüllt wurden.
+2.  Mindestens eine Dann-Aktion muss definiert werden (Ausnahme bei Bedingung für Tarife). Wurden mehrere Dann-Aktionen definiert, werden alle gleichzeitig ausgeführt, sobald die Wenn-Bedingung(en) erfüllt wurden.
 
 3.  Einen Namen für diese Aktion
 
@@ -96,7 +96,7 @@ Datum und Uhrzeit
 
 Sie können einzelne Ereignisse oder Zeitspannen als Wenn-Ereignis festlegen. 
 
-Dabei werden folgende varianten unterschieden:
+Dabei werden folgende Varianten unterschieden:
 
 - Einzelne Ereignisse
 
@@ -105,11 +105,11 @@ Dabei werden folgende varianten unterschieden:
 
 Einzelne Ereignisse:
 
-Die Einzelnen Ereignisse werden immer zu einem bestimmten Zeitpunkt ausgeführt. War es zum Zeitpunkt aber aus technischen Gründen (z.B. kein Internet) nicht möglich, wird der Befehl erst bei nächstem Eintreffen der Bedingung wiederholt. Diese Variante eignet sich, wenn in der Zwischenzeit andere Quellen den beeinflussten Schaltzustand verändern sollen.
+Die einzelnen Ereignisse werden immer zu einem bestimmten Zeitpunkt ausgeführt. War es zum Zeitpunkt aber aus technischen Gründen (z.B. kein Internet) nicht möglich, wird der Befehl erst bei nächstem Eintreffen der Bedingung wiederholt. Diese Variante eignet sich, wenn in der Zwischenzeit andere Quellen den beeinflussten Schaltzustand verändern sollen.
 
 Zeitspannen Ereignisse:
 
-Die Zeitspannen Ereignisse werden innerhalb der Definierten Zeitspanne alle 5 Minuten überprüft und wiederholt. Der Schaltzustand würde geändert werden sobald die technischen Probleme beseitigt würden, verhindert aber externes Eingreifen auf die gesteuerten Schaltzustände.
+Die Zeitspannen Ereignisse werden innerhalb der definierten Zeitspanne alle 5 Minuten überprüft und wiederholt. Der Schaltzustand würde geändert werden, sobald die technischen Probleme beseitigt würden, verhindert aber externes Eingreifen auf die gesteuerten Schaltzustände.
 
 ![Wenn/Dann-Aktionen – Abbildung 5](/img/konfiguration-wenndann-aktionen/05.png)
 
@@ -128,8 +128,8 @@ Tipp: Wenn ein Ordner gewählt wird, werden alle hierarchisch darunterliegenden 
 
 Hinweis: 
 
-Diese Wenn-Aktion wird nur einmalig ausgeführt. Ein weiteres Mal wird dieser Befehl erst ausgeführt, nach dem alle von diesem Alarm betroffenen Zähler (Ordner) wieder online waren.
-(prüfen Sie daher im Alarmfall kurz alle Zähler auf Ihre aktuelle Verbindung)
+Diese Wenn-Aktion wird nur einmalig ausgeführt. Ein weiteres Mal wird dieser Befehl erst ausgeführt, nachdem alle von diesem Alarm betroffenen Zähler (Ordner) wieder online waren.
+(prüfen Sie daher im Alarmfall kurz alle Zähler auf ihre aktuelle Verbindung)
 
 ![Zählerstillstand](/img/konfiguration-wenndann-aktionen/07.png)
 
@@ -144,7 +144,7 @@ Ein Wenn-Ereignis kann für einen Zählerstillstand festgelegt werden. Folgende 
 
 Hinweis: 
 
-Nehmen Sie als Zeiteinheit hier mehr als einen Tag (1440 Minuten) oder mindestens das doppelte des längsten Zählerausleseintervalls.
+Nehmen Sie als Zeiteinheit hier mehr als einen Tag (1440 Minuten) oder mindestens das Doppelte des längsten Zählerausleseintervalls.
 
 ![Schaltzustände](/img/konfiguration-wenndann-aktionen/08.png)
 
@@ -169,9 +169,9 @@ Anstatt die Leistung eines Zählers zu überwachen, kann auch der Schaltzustand 
 
 ![Strom grösser / kleiner](/img/konfiguration-wenndann-aktionen/09.png)
 
-Die Funktion Ströme grösser / kleiner ermöglicht Steuerung von Lasten um Überlastsituationen an Referenzpunkten zu vermeiden. 
+Die Funktion Ströme grösser / kleiner ermöglicht Steuerung von Lasten, um Überlastsituationen an Referenzpunkten zu vermeiden. 
 
-Spezifisch kann er als Auslöser für eine Pico Regelung dienen.
+Spezifisch kann sie als Auslöser für eine Pico Regelung dienen.
 
 Die Funktion verfolgt automatisch den stärksten positiven Strom des Gerätes. 
 
@@ -225,7 +225,7 @@ Ein- /Ausschalten
 
 Treten die Wenn-Ereignisse ein, schaltet das ausgewählte Gerät. Es können auch Ordner gewählt werden, dann werden sämtliche schaltbaren Geräte in diesem Ordner entsprechend geschalten.
 
-Hinweis: Zähler verfügen nur über Schaltzustände wenn diese auch bei der Hardware eingeschaltet wurden.
+Hinweis: Zähler verfügen nur über Schaltzustände, wenn diese auch bei der Hardware eingeschaltet wurden.
 
 Folgende Einstellungen müssen gemacht werden:
 

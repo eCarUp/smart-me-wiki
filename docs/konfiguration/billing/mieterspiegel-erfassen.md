@@ -20,7 +20,7 @@ Für die Abrechnung nach VEWA müssen alle Mieterkontrakte und Leerstände lück
 
 Hinweis für Export in Immobiliensoftwares mit DTA-VHKA Files:
 Wenn Sie die VEWA verwenden wollen, aber die Daten in ein anderes System exportieren, brauchen Sie keinen Mieterspiegel zu erfassen, dieser wird über das Importfile erstellt.
-Achten Sie darauf dass alle Mieterverhältnisse und Leerständer verzeichnet sind.
+Achten Sie darauf, dass alle Mieterverhältnisse und Leerstände verzeichnet sind.
 
 </div>
 <div className="col col--5 bild--mitte">

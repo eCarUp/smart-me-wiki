@@ -37,7 +37,7 @@ This is the ID with which this meter can be addressed directly via the API.
 ![System Health – Figure 1](/img/stoerungsbehebung-systemgesundheit/01.png)
 
 <div className="row">
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
 ![System Health – Figure 2](/img/stoerungsbehebung-systemgesundheit/02.png)
 

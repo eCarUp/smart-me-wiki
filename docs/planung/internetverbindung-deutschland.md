@@ -41,7 +41,7 @@ Spezifikationen nach Bedarf:
 
 
 Clients:
-Die Unterstützten Clients definieren wie viele Geräte parallel mit dem Accesspoint oder Router sprechen können. Die Anzahl muss auf deine Installation passen. Es gibt kosteneffiziente Accesspoints welche die Clientzahl von 200+ erfüllen.
+Die unterstützten Clients definieren, wie viele Geräte parallel mit dem Accesspoint oder Router sprechen können. Die Anzahl muss auf deine Installation passen. Es gibt kosteneffiziente Accesspoints, welche die Clientzahl von 200+ erfüllen.
 Die Anzahl ist im Datenblatt der Geräte zu finden, meistens unter "Max. Clients" oder "Concurred Clients".
 
 ## Mögliche Hardwarekomponenten
@@ -57,7 +57,7 @@ Accesspoints wandeln ein mit LAN (RJ-45) weitergegebenes Signal des Routers in e
 
 ### Repeater
 
-Repeater verstärken ein vorhandenes WLAN-Signal um den Bereich zu erweitern.
+Repeater verstärken ein vorhandenes WLAN-Signal, um den Bereich zu erweitern.
 
 
 ### Mobilfunk LTE-Router mit 2.4GHz WLAN

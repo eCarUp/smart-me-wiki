@@ -12,16 +12,16 @@ Visualizzazione:
 
 I dispositivi sono ordinati per tipo.
 
-- Meter Geräte: contatori smart-me
+- Dispositivi Meter (Meter Geräte): contatori smart-me
 
-- Pico Geräte: stazioni di ricarica Pico
+- Dispositivi Pico (Pico Geräte): stazioni di ricarica Pico
 
-- M-Bus Gateways: tutti i gateway
+- Gateway M-Bus (M-Bus Gateways): tutti i gateway
 
-- M-Bus Geräte:
-    Tutti i contatori generati dal gateway M-Bus.
+- Dispositivi M-Bus (M-Bus Geräte):
+    tutti i contatori generati dal gateway M-Bus.
 
-- Andere Geräte: dispositivi API o importati
+- Altri dispositivi (Andere Geräte): dispositivi API o importati
 
 
 Ordinamento:
@@ -37,7 +37,7 @@ Device ID:
 ![Salute del sistema – Figura 1](/img/stoerungsbehebung-systemgesundheit/01.png)
 
 <div className="row">
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
 ![Salute del sistema – Figura 2](/img/stoerungsbehebung-systemgesundheit/02.png)
 

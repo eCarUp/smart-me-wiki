@@ -64,7 +64,7 @@ Inhalt vom Video
 <div className="row">
 <div className="col col--7">
 
-In der Standardansicht des Ordners der Abrechnungseinheit (z. B. eine Wohnung) wird nun eine neue Kachel angezeigt. Diese gibt die Zählerstände für die virtuellen Tarife an. Wenn man auf diese Kachel klickt wird das Lastprofil für die virtuellen Tarife angezeigt. 
+In der Standardansicht des Ordners der Abrechnungseinheit (z. B. eine Wohnung) wird nun eine neue Kachel angezeigt. Diese gibt die Zählerstände für die virtuellen Tarife an. Wenn man auf diese Kachel klickt, wird das Lastprofil für die virtuellen Tarife angezeigt. 
 
 </div>
 <div className="col col--5 bild--mitte">

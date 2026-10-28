@@ -12,7 +12,7 @@ Pico ist eine MID-zertifizierte Ladestation mit integrierter Mobilfunk- und WiFi
 
 - Pico verfügt über eine Phasenumschaltung - Bitte verbinde alle Phasen gemäss Anschrift (L1 = L1, L2 = L2, L3 = L3)
 
-- Beachte besonders bei einer Aussenanwendung die Montageanleitung um keine Dichtungsmittel zu vergessen. IP55 wird nur mit den Dichtmitteln erreicht.
+- Beachte besonders bei einer Aussenanwendung die Montageanleitung, um keine Dichtungsmittel zu vergessen. IP55 wird nur mit den Dichtmitteln erreicht.
     [Installations- und Montageanleitung  (Deutsch)](https://docs.google.com/presentation/d/1d_ejgHn-M8dmJdRPlC1F2z5bBZTvtU89_p2z1f22_aw/export/pdf) 
 
 - Ziehe die Dichtungsmittel adäquat an und prüfe den Sitz der Dichtungen.
@@ -24,7 +24,7 @@ Multilevel Lastmanagement (50 Min)
 
 <Video src="Bx9QOYZPWEk" title="YouTube Video, MID-Zertifizierung Pico - Webinar" />
 
-Was Steckt hinter der MID Zertifizierung (30 Min)
+Was steckt hinter der MID Zertifizierung (30 Min)
 
 <Video src="bSEN20E-h18" title="YouTube Video, Pico Ladestation erhält MID-Zertifizierung" />
 
@@ -117,22 +117,22 @@ Langfristig soll der Fahrzeugspeicher zur Stabilisierung des öffentlichen Netze
 
 Ist das aktuell schon Realität?
 
-Der Einsatz dieses Standards ist noch sehr eingeschränkt. Es werden aktuell seitens verschiedener Ladehardware- und Fahrzeughersteller Tests zu diesem Thema gemacht um die Kommunikation abzustimmen und weiterzuentwickeln.
+Der Einsatz dieses Standards ist noch sehr eingeschränkt. Es werden aktuell seitens verschiedener Ladehardware- und Fahrzeughersteller Tests zu diesem Thema gemacht, um die Kommunikation abzustimmen und weiterzuentwickeln.
 Plug & Charge Lösungen sind teilweise im echten Leben bereits in Betrieb aber noch nicht sonderlich verbreitet.
 
 V2G und V2H Applikationen werden seitens DC-Ladestationen teilweise heute schon unterstützt.
-Das Angebot für V2G und V2H seitens AC-Ladestationen ist aktuell noch stark begrenzt bzw. Inexistent durch die nicht Verfügbarkeit der nötigen Einrichtungen seitens der Fahrzeuge.
+Das Angebot für V2G und V2H seitens AC-Ladestationen ist aktuell noch stark begrenzt bzw. inexistent durch die nicht Verfügbarkeit der nötigen Einrichtungen seitens der Fahrzeuge.
 
-Erste Fahrzeughersteller haben aber bereits Fahrzeuge angekündigt welche über die technischen Einrichtungen verfügen werden. Aktuell kann aber noch keines dieser Fahrzeug am Markt erworben werden. (Stand 16.05.2025)
+Erste Fahrzeughersteller haben aber bereits Fahrzeuge angekündigt, welche über die technischen Einrichtungen verfügen werden. Aktuell kann aber noch keines dieser Fahrzeuge am Markt erworben werden. (Stand 16.05.2025)
 
 Was bedeutet das für Ihre Pico Ladestation?
 
-Ihre Pico Ladestation ist vollumfänglich vorbereitet für die Zukunft. Ein Softwareupdate wird genügen um die Funktionen auf Ihrer Pico freizuschalten.
+Ihre Pico Ladestation ist vollumfänglich vorbereitet für die Zukunft. Ein Softwareupdate wird genügen, um die Funktionen auf Ihrer Pico freizuschalten.
 Wir arbeiten aktuell intensiv an der Implementation der Funktionalitäten.
 
 ### RCD / Gleichstromfehlerdetektion und Lastschutz
 
-Die integrierten Sicherheitseinrichtungen überprüfen sich vollautomatisch auf Ihre Funktionstüchtigkeit. 
+Die integrierten Sicherheitseinrichtungen überprüfen sich vollautomatisch auf ihre Funktionstüchtigkeit. 
 
 - Mindestens alle 24 Stunden seit letzter Prüfung.
 
@@ -145,7 +145,7 @@ Das Rücksetzen des Fehlers kann nur mechanisch durch das Ausstecken und erneute
 
 ## Display
 
-Das verhalten des Display ist auf der Seite [Pico Anzeige](/produkte/pico-ladestation/pico-display) beschrieben
+Das Verhalten des Displays ist auf der Seite [Pico Anzeige](/produkte/pico-ladestation/pico-display) beschrieben
 
 ![Pico E-Ladestation – Abbildung 2](/img/produkte-pico-ladestation/02.png)
 
@@ -165,7 +165,7 @@ N: Neutralleiter / Nullleiter
 
 PE: Schutzleiter
 
-Der Schutzleiter sollte an der oberen Anschlussschraube angehängt werden damit der Standfuss direkt zusammen mit der Station geerdet wird.
+Der Schutzleiter sollte an der oberen Anschlussschraube angehängt werden, damit der Standfuss direkt zusammen mit der Station geerdet wird.
 
 Achtung:
 Das Produkt kann nur in 3-Phasen Sternschaltung oder 1-phasig betrieben werden!
@@ -195,7 +195,7 @@ Pico Lastabwurf
 
 Der Lastabwurf kann auch mit nur einem verfügbaren Signal realisiert werden. 
 
-Für die Konfiguration von keine Ladung zu maximaler Ladeleistung wird das Signal auf IN1 und IN2 sowie COM verdrahtet. Für die Konfiguration von 6A Minimalleistung auf maximale Ladeleistung muss das Signal nur auf IN2 sowie COM verdrahtet werden.
+Für die Konfiguration von keiner Ladung zu maximaler Ladeleistung wird das Signal auf IN1 und IN2 sowie COM verdrahtet. Für die Konfiguration von 6A Minimalleistung auf maximale Ladeleistung muss das Signal nur auf IN2 sowie COM verdrahtet werden.
 
 COM ist der Neutralleiter, IN1 und IN2 müssen beim ON Signal mit einer Spannung versehen werden. IN1 und IN2 erzeugen keine Spannung, diese muss von extern zur Verfügung gestellt werden.
 
@@ -205,7 +205,7 @@ Der Lastabwurf kann entweder auf alle Picos verdrahtet werden oder minimal auf e
 Alternativ kann der Lastabwurf auch über das [Multilevel Lastmanagement](/konfiguration/multilevel-lastmanagement/mlm-konfigurieren#konfiguration-des-lastabwurfs) mittels Zählereingangssignalen erfolgen.
 
 </div>
-<div className="col col--5 text--center">
+<div className="col col--5 bild--mitte">
 
 ![Pico E-Ladestation – Abbildung 5](/img/produkte-pico-ladestation/05.png)
 
@@ -254,7 +254,7 @@ Die Sicherheitshinweise sind unter allen Umständen einzuhalten:
 
 - Lies das gesamte Handbuch vor Installation und Bedienung des Produkts sorgfältig durch.
 
-- Lebensgefahr durch hohe elektrische Spannung. Niemals Veränderungen an Bauteilen, Software oder Anschlussleitungen durchführen ohne spannungsfrei zu sein. Deshalb sind die entsprechenden Vorsicherungen zu entfernen und so aufzubewahren, dass andere Personen diese nicht unbemerkt wiedereinsetzen können.
+- Lebensgefahr durch hohe elektrische Spannung. Niemals Veränderungen an Bauteilen, Software oder Anschlussleitungen durchführen, ohne spannungsfrei zu sein. Deshalb sind die entsprechenden Vorsicherungen zu entfernen und so aufzubewahren, dass andere Personen diese nicht unbemerkt wiedereinsetzen können.
 
 - Das Produkt darf ausschliesslich von einer zugelassenen Elektrofachkraft installiert, repariert oder gewartet werden. Dabei müssen alle gültigen kommunalen, regionalen und nationalen Vorschriften für elektrische Anlagen eingehalten werden. 
 
@@ -280,7 +280,7 @@ Die Sicherheitshinweise sind unter allen Umständen einzuhalten:
 
 - Dieses Produkt ist ausschliesslich für das Aufladen von elektrisch betriebenen Fahrzeugen vorgesehen, welche mit nicht gasenden Batterien ausgestattet sind. Das Produkt darf nur mit einem Ladekabel nach IEC 62196 verwendet werden. Andere Verwendungen als die hier angegebenen sind unzulässig.
 
-- Das Gerät ist für die Verwendung Drinnen und Draussen vorgesehen.
+- Das Gerät ist für die Verwendung drinnen und draussen vorgesehen.
 
 **Betrieb:**
 
@@ -322,7 +322,7 @@ Die Norm IEC 61851 schreibt vor, dass jedes Auto immer mindestens 6 A zur Verfü
 <details id="benötigt-pico-einen-seriellen-rcd-typ-a-pro-ladestation">
 <summary>Benötigt Pico einen seriellen RCD Typ-A pro Ladestation?</summary>
 
-Die Pico Ladestationen mit Seriennummern vor 7002701 benötigen einen seriellen Typ-A RCD 40A 30mA für die erfüllung von nationalen Standards.
+Die Pico Ladestationen mit Seriennummern vor 7002701 benötigen einen seriellen Typ-A RCD 40A 30mA für die Erfüllung von nationalen Standards.
 Die Funktion ist bei diesen Geräten vorhanden aber nicht konform.
 Ab Seriennummer 7002702 oder BY2024 benötigt die Pico keinen seriellen RCD mehr, dieser ist nun integriert und konform nach 60947-2.
 
@@ -333,7 +333,7 @@ Welches Material sich dafür eignet, steht unter [Materialempfehlung RCD Typ-A](
 <details id="unterstützt-die-pico-ladestation-iso15118-für-plug--charge-und-v2g--v2h">
 <summary>Unterstützt die Pico Ladestation ISO15118 für Plug & Charge und V2G / V2H?</summary>
 
-Die Pico Ladestationen besitzen alle technischen Einrichtungen um den ISO15118 und ISO15118-20 Standard langfristig zu unterstützen.
+Die Pico Ladestationen besitzen alle technischen Einrichtungen, um den ISO15118 und ISO15118-20 Standard langfristig zu unterstützen.
 Eine Befähigung der Pico zur Unterstützung der Funktionen ist ausschliesslich Software abhängig und bedarf keiner Hardwareänderung oder Anpassung.
 
 Bidirektionales Laden V2H und V2G mit der Pico:
@@ -341,12 +341,12 @@ Die Befähigung der Pico Ladestation zum bidirektionalen Laden unter ISO15118-20
 
 Die ersten dafür fähigen und effektiv erwerbbaren Fahrzeuge werden in den kommenden Jahren erwartet.
 
-Wir arbeiten fortwährend an der Entwicklung dieser Funktionen in unserer Pico Ladestation um für diesen Moment bereit zu sein.
+Wir arbeiten fortwährend an der Entwicklung dieser Funktionen in unserer Pico Ladestation, um für diesen Moment bereit zu sein.
 
 </details>
 
 <details id="kann-ich-den-zählerstand-auf-null-zurücksetzten">
-<summary>Kann ich den Zählerstand auf Null zurücksetzten?</summary>
+<summary>Kann ich den Zählerstand auf Null zurücksetzen?</summary>
 
 Nein, da unsere Zähler für Abrechnungen verwendet werden, ist es nicht möglich, diese zurückzusetzen.
 

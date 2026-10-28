@@ -1,18 +1,18 @@
 ---
 title: 'Errori Auto Export'
 slug: '/stoerungsbehebung/auto-export-fehler'
-description: 'In questa sezione vengono descritti i messaggi di errore noti relativi ad Auto Export e le possibili soluzioni.'
+description: 'Questa sezione descrive i messaggi di errore noti relativi all''Auto Export e le possibili soluzioni.'
 sidebar_label: 'Errori Auto Export'
 ---
-In questa sezione vengono descritti i messaggi di errore noti relativi ad Auto Export e le possibili soluzioni.
+Questa sezione descrive i messaggi di errore noti relativi all'Auto Export e le possibili soluzioni.
 
-## Generale
+## Informazioni generali
 
-La configurazione di Auto Export è descritta qui: [Auto Export](/schnittstellen/auto-export) 
+La configurazione dell'Auto Export è descritta qui: [Auto Export](/schnittstellen/auto-export) 
 
-Se l'Auto Export è stato eseguito correttamente, in Configurazione (Konfiguration) --> Auto-Export --> Assegnazione (Zuordnung) è possibile verificare lo stato di ciascun punto di misura (sul lato destro).
+Se l'Auto Export è andato a buon fine, lo stato di ciascun punto di misura può essere verificato in Configurazione (Konfiguration) --> Auto Export (Auto-Export) --> Assegnazione (Zuordnung) (sul lato destro).
 
-Per aggiornare la visualizzazione dello stato dell'esportazione, occorre cliccare sul menu Auto Export sul lato sinistro.
+Per aggiornare la visualizzazione dello stato dell'esportazione, occorre fare clic sul menu Auto Export sul lato sinistro.
 
 Il nostro sistema verifica ogni 10 minuti se un job è in ritardo.
 
@@ -46,7 +46,7 @@ Problema 2: attesa
 
 Soluzione:
 
-- Attendere 15 minuti. In seguito viene visualizzato OK oppure un messaggio di errore.
+- Attendere 15 minuti. Successivamente viene visualizzato OK oppure un messaggio di errore.
 
 
 ### Meter 'xxx' is missing data
@@ -58,29 +58,29 @@ Problema:
 
 Soluzione:
 
-- Nel menu Interfacce (Schnittstellen) / Esportazione automatica (Automatische Export)
+- Nel menu Interfacce (Schnittstellen) / Esportazione automatica (Automatischer Export)
 
 - Annotare la data dell'ultima esportazione.
 
-- Nel menu Dashboard
+- Nel menu Pannello di controllo (Dashboard)
 
 - Selezionare la stazione
 
 - Report
 
-- Impostare Data da (Datum von) sull'"ultima esportazione" (Letzen Export) indicata nell'AutoExport
+- Impostare la data da (Datum von) su "Ultima esportazione" (Letzter Export) dell'Auto Export
 
-- Impostare Data a (Datum bis) sull'"ultima esportazione" (Letzen Export) indicata nell'AutoExport
+- Impostare la data a (Datum bis) su "Ultima esportazione" (Letzter Export) dell'Auto Export
 
-- Annotare la data più vecchia in Elettricità Periodo (Elektrizität Zeitspanne).
+- Annotare la data più vecchia in Periodo elettricità (Elektrizität Zeitspanne).
 
-- Nel menu Interfacce (Schnittstellen) / Esportazione automatica (Automatische Export)
+- Nel menu Interfacce (Schnittstellen) / Esportazione automatica (Automatischer Export)
 
 - Selezionare la stazione 
 
 - Modificare (Editieren)
 
-- Impostare Ultima esportazione (Letzer Export) sulla "data più vecchia in Elettricità Periodo" +1. 
+- Impostare Ultima esportazione (Letzter Export) su "data più vecchia in Periodo elettricità (Elektrizität Zeitspanne)" +1. 
 
 - È importante impostare la data + 1, poiché possiamo esportare solo giorni interi.
 
@@ -103,12 +103,12 @@ Soluzione
 
 Problema 2: mancano i dati di un giorno intero
 
-- Il punto di misura non dispone di tutti i dati per il periodo compreso tra l'ultima esportazione e quella successiva. Ad es. poiché il punto di misura è stato installato il 2.3.2024 alle 12h37, non è possibile eseguire un'esportazione per il 2.3.2024, dato che questo giorno è incompleto.
+- Il punto di misura non dispone di tutti i dati per il periodo compreso tra l'ultima e la prossima esportazione. Ad es. se il punto di misura è stato installato il 2.3.2024 alle 12h37, non è possibile eseguire un'esportazione per il 2.3.2024, poiché questo giorno è incompleto.
 
 
 Soluzione
 
-- (facoltativo) Lettura manuale nel sistema a valle, ad es. EDM, in modo che il giorno venga registrato in modo completo. (La lettura può essere effettuata ad es. con un report nella panoramica principale di smart-me).
+- (opzionale) Lettura manuale nel sistema a valle, ad es. EDM, affinché il giorno venga registrato completamente. (La lettura può essere eseguita ad es. con un report nella panoramica principale di smart-me).
 
 - Modificare il punto di misura e impostare Ultima esportazione (Letzter Export) sulla data successiva.
 
@@ -117,7 +117,7 @@ Soluzione
 
 Problema:
 
-- L'ID del punto di misura contiene a sinistra uno o più spazi
+- L'ID del punto di misura contiene uno o più spazi a sinistra
 
 
 Soluzione:
@@ -153,11 +153,11 @@ Problema: smart-me non ha l'autorizzazione a scrivere nel percorso indicato.
 
 Soluzione: concedere le autorizzazioni.
 
-Problema 2: caso particolare con l'utilizzo di MOVEit (stato al 8.7.2024: #32171)
+Problema 2: caso particolare con l'utilizzo di MOVEit (stato 8.7.2024: #32171)
 
 - Utilizzare il "key file" creato con i due comandi openssl. [Auto Export](/schnittstellen/auto-export) -->  Tipo di upload (Upload Art)
 
-- Stabilire una prima connessione, che fallisce (restituisce un errore di certificato non valido).
+- Stabilire una prima connessione, che non riesce (restituisce un errore di certificato non valido).
 
 - Nel mio software "MOVEit" ricevo un messaggio (in verde nell'immagine). Devo quindi riattivare l'utente (in blu) e accettare il certificato (in rosso).
 

@@ -37,7 +37,7 @@ Direkt darunter kannst du zum Vergleich die Stromwerte von Vergleichswerten defi
 
 Das Rechnungsdokument wird den Stromempfängern diese Referenzwerte sowie den eigenen Verbrauch in der Vorperiode ausgeben.
 
-ACHTUNG: Denke daran, die richtigen Werte  für die von dir gewählte Abrechnungsperiode einzusetzen.  Wenn du also monatliche Rechnungen erstellst, wähle die Referenzwerte auf Monatsbasis usw.
+ACHTUNG: Denke daran, die richtigen Werte für die von dir gewählte Abrechnungsperiode einzusetzen. Wenn du also monatliche Rechnungen erstellst, wähle die Referenzwerte auf Monatsbasis usw.
 
 </div>
 <div className="col col--8 bild--mitte">

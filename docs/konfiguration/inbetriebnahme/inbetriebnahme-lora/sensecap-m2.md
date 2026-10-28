@@ -15,7 +15,7 @@ sidebar_label: 'Sensecap M2'
 
 3.  Öffne den Browser deines Laptops und gib folgende URL in die Adressleiste ein 192.168.168.1 
 
-4.  Loge dich ein:
+4.  Logge dich ein:
     Default User: admin
     Das Default Passwort findest du auf der Rückseite des Gateways
 
@@ -35,12 +35,12 @@ sidebar_label: 'Sensecap M2'
 <div className="row">
 <div className="col col--6">
 
-10\. Überprüfe unter "Status" -> "Overview" ob zwei grüne Hacken angezeigt werden. 
+10\. Überprüfe unter "Status" -> "Overview", ob zwei grüne Haken angezeigt werden. 
 
 11\. Auf lora.smart-me.com sollte der Gateway nun als "online" angezeigt werden. 
 
 </div>
-<div className="col col--6 text--center">
+<div className="col col--6 bild--mitte">
 
 ![Sensecap M2 – Abbildung 3](/img/konfiguration-inbetriebnahme-inbetriebnahme-lora-sensecap-m2/03.png)
 

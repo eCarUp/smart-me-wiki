@@ -17,11 +17,11 @@ sidebar_label: 'Milesight UG56 868Mhz'
 
 3.  Öffne deinen Webbrowser und besuche 192.168.1.1
 
-4.  Loge dich ein.
+4.  Logge dich ein.
     Username: admin
     Passwort: password
 
-5.  Navigiere zu "Packet Forwarder" und Kopiere die EUI des Gerätes für die spätere Implementation in smart-me.
+5.  Navigiere zu "Packet Forwarder" und kopiere die EUI des Gerätes für die spätere Implementation in smart-me.
 
 6.  Erstelle eine neue Destination mit:
     Typ: Semtech
@@ -34,7 +34,7 @@ sidebar_label: 'Milesight UG56 868Mhz'
 8.  Erfasse das Gerät mit seiner EUI im smart-me LoRa Gateway
 
 
-Hinweis: Über den Accesspoint danach wieder auf das Webinterface zu kommen klappt nur wenn das Ethernet nicht angesteckt ist.
+Hinweis: Über den Accesspoint danach wieder auf das Webinterface zu kommen klappt nur, wenn das Ethernet nicht angesteckt ist.
 
 ![Milesight UG56 868Mhz – Abbildung 2](/img/konfiguration-inbetriebnahme-inbetriebnahme-lora-milesight-ug56-868mhz/02.png)
 

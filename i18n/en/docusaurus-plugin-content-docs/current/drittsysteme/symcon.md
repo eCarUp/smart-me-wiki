@@ -1,18 +1,18 @@
 ---
 title: 'Symcon'
 slug: '/drittsysteme/symcon'
-description: 'Symcon is both software and an optional hardware package (Symbox) that enables control and visualization in your home or building.'
+description: 'Symcon is software, as well as an optional hardware package (Symbox), that enables control and visualization in your home or building.'
 sidebar_label: 'Symcon'
 ---
 <div className="row">
 <div className="col col--8">
 
-Symcon is both software and an optional hardware package (Symbox) that enables control and visualization in your home or building. It acts as an interface and decision-maker.
+Symcon is software, as well as an optional hardware package (Symbox), that enables control and visualization in your home or building. It acts as an interface and decision-maker.
 
-The smart-me data can easily be queried via our API.
+The smart-me data can easily be retrieved via our API.
 
 </div>
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
 ![Symcon – Figure 1](/img/drittsysteme-symcon/01.png)
 
@@ -39,12 +39,12 @@ Willy-Brandt-Allee 31b, D-23554 Lübeck
 
 ### How do I get a smart-me metering point into Symcon?
 
-1.  Add an instance (JSON Decoder)
+1.  Add instance (JSON Decoder)
 
 
 ![Symcon – Figure 2](/img/drittsysteme-symcon/02.png)
 
-2\. Configure the instance
+2\. Configure instance
 
 Username: smart-me account
 
@@ -54,13 +54,13 @@ URL: API call: e.g. "https://smart-me.com:443/api/devices/&#123;id&#125;
 
 ![Symcon – Figure 3](/img/drittsysteme-symcon/03.png)
 
-3\. Edit the variable (double-click)
+3\. Edit variable (double-click)
 
 ![Symcon – Figure 4](/img/drittsysteme-symcon/04.png)
 
-4\. Set up the variable
+4\. Set up variable
 
-- Give it a name
+- Enter a name
 
 - Location (JSON Decoder)
 
@@ -73,24 +73,24 @@ URL: API call: e.g. "https://smart-me.com:443/api/devices/&#123;id&#125;
 
 ### How can I create a chart in Syncom?
 
-5\. Create a chart for WebFront
+5\. Create chart for Webfront
 
 ![Symcon – Figure 7](/img/drittsysteme-symcon/07.png)
 
-6\. Configure the chart
+6\. Configure chart
 
-- Multiple variables can be displayed in the same chart (e.g. total active power and the active power of the individual phases).
+- Several variables can be displayed in the same chart (e.g.: total active power and active power of the individual phases).
 
 
 ![Symcon – Figure 8](/img/drittsysteme-symcon/08.png)
 
-7\. Open WebFront
+7\. Open Webfront
 
 ![Symcon – Figure 9](/img/drittsysteme-symcon/09.png)
 
 ![Symcon – Figure 10](/img/drittsysteme-symcon/10.png)
 
-8\. Display the chart (click to the right of the PowerHaus chart).
+8\. Display chart (click to the right of the PowerHaus chart).
 
 ![Symcon – Figure 11](/img/drittsysteme-symcon/11.png)
 

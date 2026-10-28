@@ -1,7 +1,7 @@
 ---
 title: 'Enter payment details (QR)'
 slug: '/konfiguration/billing/zahlungsdaten-erfassen'
-description: 'Enter the IBAN and account details for the QR-bill: structure of the billing address, message to the beneficiary and limitations regarding reference numbers.'
+description: 'Enter the IBAN and account details for the QR bill: structure of the billing address, message to the beneficiary and limitations regarding reference numbers.'
 sidebar_label: 'Payment details (QR)'
 naechste_schritte: [konfiguration/billing/mieterspiegel-erfassen]
 ---
@@ -11,11 +11,11 @@ naechste_schritte: [konfiguration/billing/mieterspiegel-erfassen]
 <div className="row">
 <div className="col col--7">
 
-The QR-bill can optionally be activated in smart-me Billing.
+The QR bill can optionally be activated in smart-me Billing.
 
-Once the account details have been entered, a QR-bill for payment is attached for each billing unit (tenant).
+Once the account details have been entered, a QR bill for payment is attached for each billing unit (tenant).
 
-smart-me automatically recognizes correctly entered senders if the billing address in Billing is entered on 3 lines. If a company or a form of address is used, it must be added before the name.
+smart-me automatically recognizes correctly filled-in senders if the billing address in Billing is entered on 3 lines. If a company or a form of address is used, it must be added before the name.
 
 e.g.
 
@@ -25,13 +25,13 @@ Löwenzahnstrasse 42
 6666 Risch
 ```
 
-If no valid address is recognized, the sender field "Payable by" (Zahlbar durch) on the QR-bill remains empty.
+If no valid address is recognized, the Sender (Payable by) field on the QR bill remains empty.
 
-smart-me does not support reference numbers. To use them, a [third-party system](/drittsysteme) that supports them is required (e.g. [Bexio](/drittsysteme/bexio)).
+smart-me does not support reference numbers. To use them, you need a [third-party system](/drittsysteme) that also supports them (e.g. [Bexio](/drittsysteme/bexio)).
 
-To identify the invoice without a reference, additional information (message to the beneficiary) is added to the QR-bill, composed as follows: name of the billing unit (folder name).
+To identify the invoice without a reference, additional information (message to the beneficiary) is added to the QR bill. It is made up as follows: name of the billing unit (folder name).
 
-The layout is optimized for sending by e-mail. If the invoices are printed, we recommend deactivating the QR-bill and ordering it from the bank instead.
+The layout is optimized for sending by email. If the invoices are printed, we recommend deactivating the QR bill and ordering it from your bank.
 
 </div>
 <div className="col col--5 bild--mitte">

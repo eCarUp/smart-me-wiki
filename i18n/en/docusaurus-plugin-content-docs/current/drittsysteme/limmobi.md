@@ -1,18 +1,18 @@
 ---
 title: 'Limmobi'
 slug: '/drittsysteme/limmobi'
-description: 'LIMMOBI is a modern cloud-based software solution that enables property management to be carried out digitally and efficiently from A to Z.'
+description: 'LIMMOBI is a modern cloud-based software solution that makes it possible to manage real estate digitally and efficiently from A to Z.'
 sidebar_label: 'Limmobi'
 ---
-[LIMMOBI](https://limmobi.ch)  is a modern cloud-based software solution that enables property management to be carried out digitally and efficiently from A to Z. The processing of incoming invoices, the monitoring of incoming payments and the preparation of the ancillary costs billing are automated.
+[LIMMOBI](https://limmobi.ch)  is a modern cloud-based software solution that makes it possible to manage real estate digitally and efficiently from A to Z. The processing of incoming invoices, the monitoring of incoming payments and the preparation of the ancillary costs statement are automated.
 
-Process automation, additional services and intuitive user guidance minimise the specialist knowledge of accounting, law and IT that users need.
+Process automation, additional services and intuitive user guidance minimize the specialist knowledge of accounting, law and IT required of the user.
 
 - smart-me data directly via API.
 
 - Electricity billing based on calculated tariffs (off-peak, peak, solar tariffs) and / or meter readings.
 
-- Ancillary costs billing for heat, water and gas according to VEWA.
+- Ancillary costs billing for heat, water and gas in accordance with VEWA.
 
 
 ![Limmobi – Figure 1](/img/drittsysteme-limmobi/01.png)

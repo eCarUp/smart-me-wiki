@@ -1,7 +1,7 @@
 ---
 title: 'Planning'
 slug: '/planung'
-description: 'Examples of hardware installation in a ZEV (association for own consumption) incl.'
+description: 'Examples of hardware installation in an association for own consumption incl.'
 sidebar_label: 'Planning'
 ---
 
@@ -27,7 +27,7 @@ Use our tools to firm up your project and create the corresponding bills of mate
 </NurFuer>
 
 ### Special metering concepts
-Find special and rare metering concepts here, along with their effects on your operation.
+Here you will find special / rare metering concepts and their impact on your operation.
 
 <Unterseiten nur=" planung/mkd3-messkonzept-nicht-teilnehmer, planung/messkonzept-notstromloesung, planung/messkonzept-produzenten-hinter-haeuser" />
 

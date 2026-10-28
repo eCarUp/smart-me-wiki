@@ -8,19 +8,19 @@ sidebar_label: 'Auto Export'
 
 smart-me offre la possibilité d'exporter automatiquement les données de mesure vers un autre système.
 
-### Prérequis
+### Conditions préalables
 
 Pour pouvoir utiliser Auto Export, vous devez disposer d'une licence smart-me Professional.
 
-![Auto Export – figure 1](/img/schnittstellen-auto-export/01.png)
+![Auto Export – Illustration 1](/img/schnittstellen-auto-export/01.png)
 
 ## Fonctions pour les partenaires Gold
 
-Si un compte est rattaché à un partenaire Gold, l'utilisateur voit, en plus de ses propres « Types d'upload » (Upload Arten) et « Formats d'exportation » (Export Formate), les « Types d'upload » (Upload Arten) et « Formats d'exportation » (Export Formate) déjà définis par le partenaire Gold. Ainsi, les paramètres FTP, par exemple, ne doivent être configurés que dans le compte partenaire et ne sont ni visibles ni modifiables pour l'utilisateur normal. 
+Si un compte est rattaché à un partenaire Gold, l'utilisateur voit, en plus de ses propres « types de téléversement » (Upload Arten) et « formats d'exportation » (Export Formate), les « types de téléversement » (Upload Arten) et « formats d'exportation » (Export Formate) déjà définis par le partenaire Gold. Ainsi, les paramètres FTP, par exemple, ne doivent être configurés que dans le compte partenaire et ne sont ni visibles ni modifiables pour l'utilisateur normal. 
 
-Pour mieux les identifier, les paramètres hérités sont surlignés en bleu.
+Pour une meilleure identification, les paramètres hérités sont surlignés en bleu.
 
-![Auto Export – figure 2](/img/schnittstellen-auto-export/02.jpg)
+![Auto Export – Illustration 2](/img/schnittstellen-auto-export/02.jpg)
 
 ## Mutation de masse (relancer l'exportation)
 
@@ -34,17 +34,17 @@ Exemple (exportation quotidienne) :
 
 - Vous saisissez la date 03.02.2026.
 
-- Le système part du principe que l'exportation du 03.02.2026 s'est déroulée correctement.
+- Le système part du principe que l'exportation du 03.02.2026 s'est bien déroulée.
 
 - Le système lance alors l'exportation pour le 04.02.2026 (contenu : données du 03.02.2026 de 00:00 à 23:59).
 
-Tenez compte de la durée du traitement : la régénération des fichiers d'exportation prend du temps. À titre indicatif, comptez env. 45 minutes par fichier.
+Tenez compte de la durée de traitement : la régénération des fichiers d'exportation prend du temps. À titre indicatif, comptez environ 45 minutes par fichier.
 
 - Exportation quotidienne : un mois entier (30 jours = 30 fichiers) prend environ 22 heures.
 
 - Exportation hebdomadaire : un mois entier (4 semaines = 4 fichiers) prend environ 3 heures.
 
-![Auto Export – figure 3](/img/schnittstellen-auto-export/03.png)
+![Auto Export – Illustration 3](/img/schnittstellen-auto-export/03.png)
 
 ## Mutation de masse (remplacer l'ID du point de mesure)
 
@@ -61,28 +61,28 @@ Procédure :
 - Téléversez le fichier CSV. Les ID sont directement écrasés dans le système.
 
 
-Remarque : si un point de mesure ne figure pas dans le fichier CSV, il n'est pas modifié. Il est donc tout à fait possible de n'effectuer qu'un remplacement partiel (p. ex. seulement 5 des 50 points de mesure d'un compte).
+Remarque : un point de mesure qui ne figure pas dans le fichier CSV n'est pas modifié. Il est donc tout à fait possible de n'effectuer qu'un remplacement partiel (p. ex. seulement 5 des 50 points de mesure d'un compte).
 
-![Auto Export – figure 4](/img/schnittstellen-auto-export/04.png)
+![Auto Export – Illustration 4](/img/schnittstellen-auto-export/04.png)
 
-## Type d'upload
+## Type de téléversement
 
 <div className="row">
 <div className="col col--5">
 
-Le type d'upload définit la manière dont les données doivent être chargées sur le système externe. Les types suivants sont actuellement pris en charge :
+Le type de téléversement (Upload Art) définit la manière dont les données doivent être chargées sur le système externe. Les types suivants sont actuellement pris en charge :
 
-FTP : upload FTP (non chiffré)
+FTP : téléversement FTP (non chiffré)
 
-FTPs : upload FTP chiffré
+FTPs : téléversement FTP chiffré
 
 - Le port peut être indiqué explicitement avec un :, p. ex. ftp.smart-com:990
 
-sFTP (with username and password) : upload FTP chiffré.
+sFTP (with username and password) : téléversement FTP chiffré.
 
 - Nom d'utilisateur et mot de passe
 
-sFTP (avec fichier de clé) : upload FTP chiffré. Un fichier de clé est utilisé à la place d'un mot de passe.
+sFTP (avec fichier de clé) : téléversement FTP chiffré. Un fichier de clé est utilisé à la place d'un mot de passe.
 
 - Exemple de création d'un fichier de clé sFTP avec openssl
 
@@ -95,28 +95,28 @@ sFTP (avec fichier de clé) : upload FTP chiffré. Un fichier de clé est utilis
 Remarque : le mot de passe ne doit pas contenir les caractères suivants (&lt;, >, =)
 
 </div>
-<div className="col col--7 text--center">
+<div className="col col--7 bild--mitte">
 
-![Auto Export – figure 5](/img/schnittstellen-auto-export/05.jpg)
+![Auto Export – Illustration 5](/img/schnittstellen-auto-export/05.jpg)
 
 </div>
 </div>
 
 ## Format d'exportation
 
-Le format d'exportation définit le format de fichier utilisé pour l'exportation. Les formats suivants sont actuellement pris en charge :
+Le format d'exportation (Export Format) définit le format de fichier de l'exportation. Les formats suivants sont actuellement pris en charge :
 
 CSV : le format est défini (CSV), mais le contenu n'est pas normalisé.
 
 - Exportation rudimentaire au format CSV. L'exportation des valeurs du compteur est définie au moyen de codes OBIS. Pour plus de détails, voir la section ci-dessous.
 
-IS-E : exportation vers un système innosolv-Energie d'Innosolv AG
+IS-E : exportation vers un système innosolv-Energie de la société Innosolv AG
 
 - Relevé du compteur
 
 - Relevé du compteur virtuel (si calculé dans smart-me et si le dossier est sélectionné)
 
-IS-E Vorschub / IS-E feed : exportation vers un système innosolv-Energie d'Innosolv AG
+IS-E Vorschub / IS-E feed : exportation vers un système innosolv-Energie de la société Innosolv AG
 
 - Consommation
 
@@ -126,15 +126,15 @@ IS-E peak export
 
 - Indique la puissance de pointe.
 
-- Remarque : 1) Lors de l'attribution, sélectionnez un dossier avec des tarifs virtuels et 2) lors de l'attribution, sélectionnez « Tarifs virtuels (IS-E uniquement) » (Virtuelle Tarife (nur IS-E)) sous « Valeurs de mesure à exporter » (Zu exportierende Messwerte) 3) Dans le format d'exportation, indiquez à chaque fois les numéros des tarifs virtuels (Export Tariffs (peak)) qui existent dans smart-me Billing.
+- Remarque : 1) Lors de l'attribution, sélectionnez le dossier avec les tarifs virtuels et 2) lors de l'attribution, sélectionnez pour les valeurs de mesure à exporter « Tarifs virtuels (IS-E uniquement) » (Virtuelle Tarife (nur IS-E)) 3) Dans le format d'exportation, indiquez à chaque fois les numéros de tarif virtuels (Export Tariffs (peak)) qui existent dans smart-me Billing.
 
-IS-E Zeitreihen / IS-E Load profile : exportation vers un système innosolv-Energie d'Innosolv AG System der Innosolv AG
+IS-E Zeitreihen / IS-E Load profile : exportation vers un système innosolv-Energie de la société Innosolv AG
 
 - Module de séries temporelles (consommation 15 minutes)
 
     - Only basic data (1 / 0)
 
-        - 1 kWh uniquement
+        - 1 uniquement kWh
 
         - 0 kWh et kvar
 
@@ -150,7 +150,7 @@ mscons 2.4a : mscons (Metered Services Consumption report message) dans la versi
 
 - Consommation
 
-![Auto Export – figure 6](/img/schnittstellen-auto-export/06.jpg)
+![Auto Export – Illustration 6](/img/schnittstellen-auto-export/06.jpg)
 
 ### Énergie réactive avec is-e load profile
 
@@ -160,9 +160,9 @@ mscons 2.4a : mscons (Metered Services Consumption report message) dans la versi
 Réglez « Only basic data » sur 0 pour exporter l'énergie réactive
 
 </div>
-<div className="col col--8 text--center">
+<div className="col col--8 bild--mitte">
 
-![Auto Export – figure 7](/img/schnittstellen-auto-export/07.jpg)
+![Auto Export – Illustration 7](/img/schnittstellen-auto-export/07.jpg)
 
 </div>
 </div>
@@ -171,30 +171,30 @@ Réglez « Only basic data » sur 0 pour exporter l'énergie réactive
 
 L'exportation automatique se compose de différentes configurations :
 
-ID du point de mesure : définit l'ID qui doit être attribué à ce point de mesure. Cet ID est utilisé p. ex. dans le format d'exportation mscons.
+ID du point de mesure (Messpunkt ID) : définit l'ID à attribuer à ce point de mesure. Cet ID est utilisé p. ex. dans le format d'exportation mscons.
 
-Compteur ou dossier : le compteur ou le dossier à exporter.
+Compteur ou dossier (Zähler oder Ordner) : le compteur ou le dossier à exporter.
 
-Format d'exportation : définit le format qui peut être utilisé pour l'exportation. Le format d'exportation est défini sous le point de menu « Format d'exportation » (Export Format).
+Format d'exportation (Export Format) : définit le format qui peut être utilisé pour l'exportation. Le format d'exportation est défini sous le point de menu « Format d'exportation » (Export Format).
 
-Type d'upload : indique la manière dont les données doivent être chargées dans le système externe. Le type d'upload est défini sous le point de menu « Type d'upload » (Upload Art).
+Type de téléversement (Upload Art) : indique la manière dont les données doivent être chargées dans le système externe. Le type de téléversement est défini sous le point de menu « Type de téléversement » (Upload Art).
 
-Intervalle d'exportation : indique à quel intervalle les données doivent être exportées.
+Intervalle d'exportation (Export Intervall) : indique à quel intervalle les données doivent être exportées.
 
-Déclencheur d'exportation : définit le déclencheur de l'exportation.
+Déclencheur d'exportation (Export Auslöser) : définit le déclencheur de l'exportation.
 
-- « Lorsque toutes les DONNÉES DE MESURE sont disponibles » (Wenn alle MESSDATEN vorhanden sind) déclenche l'exportation dès que toutes les données sont disponibles. Si elles ne sont jamais complètes (p. ex. parce que la valeur de départ est antérieure à l'installation), l'exportation ne se déclenchera jamais.
+- « Lorsque toutes les DONNÉES DE MESURE sont disponibles » (Wenn alle MESSDATEN vorhanden sind) déclenche dès que toutes les données sont disponibles. Si celles-ci ne sont jamais complètes (p. ex. parce que la valeur de départ était antérieure à l'installation), l'exportation ne se déclenchera jamais.
 
--  « 12 h après la date de fin » (12h nach dem Enddatum) déclenche l'exportation 12 heures plus tard, que toutes les données soient disponibles ou non.
+-  « 12h après la date de fin » (12h nach dem Enddatum) déclenche 12 heures plus tard, que toutes les données soient disponibles ou non.
 
-- Remarque : Auto Export démarre entre 0:00 et 1:00 et peut durer jusqu'à 3 h.
+- Remarque : Auto Export démarre entre 0:00 et 1:00 et peut durer jusqu'à 3h.
 
 
-Date de début de la prochaine exportation : la date de début de la prochaine exportation des données. Si la date se situe dans le passé, toutes les données jusqu'à la date actuelle sont exportées.
+Date de début de la prochaine exportation (Start Datum nächster Export) : la date de début de la prochaine exportation des données. Si la date est dans le passé, toutes les données jusqu'à la date actuelle sont exportées.
 
-Valeurs de mesure à exporter : si vous sélectionnez un dossier avec des tarifs virtuels, vous pouvez choisir d'exporter les valeurs de mesure normales ou les tarifs virtuels.
+Valeurs de mesure à exporter (Zu exportierende Messwerte) : si vous sélectionnez un dossier avec des tarifs virtuels, vous pouvez choisir d'exporter les valeurs de mesure normales ou les tarifs virtuels.
 
-![Auto Export – figure 8](/img/schnittstellen-auto-export/08.png)
+![Auto Export – Illustration 8](/img/schnittstellen-auto-export/08.png)
 
 ### Exporter les tarifs virtuels
 
@@ -202,12 +202,12 @@ Si vous avez configuré des tarifs virtuels dans smart-me Billing, vous pouvez l
 
 Configuration
 
-1.  Créez les tarifs virtuels dans smart-me Billing.  Veillez à définir correctement le numéro du tarif virtuel. Lors de l'exportation, il est codé comme « tarif » dans le code OBIS. Exemple : le numéro de tarif 3 donne le code OBIS : (relevés du compteur IS-E) 1-5:1.8.3 (1-5:1.8.&lt;numéro de tarif>), (IS-E Vorschub) 1-5:1.9.3 (1-5:1.9.&lt;numéro de tarif>)
+1.  Créez les tarifs virtuels dans smart-me Billing.  Veillez à définir correctement le numéro de tarif du tarif virtuel. Lors de l'exportation, celui-ci est codé comme « tarif » dans le code OBIS. Exemple : le numéro de tarif 3 donne le code OBIS : (IS-E relevés du compteur) 1-5:1.8.3 (1-5:1.8.&lt;numéro de tarif>), (IS-E Vorschub) 1-5:1.9.3 (1-5:1.9.&lt;numéro de tarif>)
 
-2.  Dans « Auto Export », sous « Attribution » (Zuordnung), sélectionnez le dossier avec les tarifs virtuels, puis sélectionnez « Tarifs virtuels » (Virtuelle Tarife) sous « Valeurs de mesure à exporter » (Zu exportierende Messwerte). 
+2.  Dans « Auto Export », sous « Attribution » (Zuordnung), sélectionnez le dossier contenant les tarifs virtuels et choisissez « Tarifs virtuels » (Virtuelle Tarife) sous « Valeurs de mesure à exporter » (Zu exportierende Messwerte). 
 
 
-![Auto Export – figure 9](/img/schnittstellen-auto-export/09.png)
+![Auto Export – Illustration 9](/img/schnittstellen-auto-export/09.png)
 
 ## Fichiers de test
 
@@ -217,7 +217,7 @@ Configuration
 
 - [ISE-Load profile](https://drive.google.com/file/d/1CeIbKSYTFt6OgOmuujFGEvP1s68OjA5h/view?usp=sharing)
 
-- [csv](https://drive.google.com/file/d/1sPDUHu82A8agZ1vW9XXP7htphXfELqXb/view?usp=sharing) : le fichier CSV peut être configuré individuellement. Le fichier de test a été généré avec la configuration  «1-0:1.8.0\*255;1-0:1.8.1\*255;1-0:1.8.2\*255;1-0:2.8.0\*255;1-0:2.8.1\*255;1-0:2.8.2\*255;».
+- [csv](https://drive.google.com/file/d/1sPDUHu82A8agZ1vW9XXP7htphXfELqXb/view?usp=sharing) : le fichier CSV peut être configuré individuellement. Le fichier de test a été généré avec la configuration  « 1-0:1.8.0\*255;1-0:1.8.1\*255;1-0:1.8.2\*255;1-0:2.8.0\*255;1-0:2.8.1\*255;1-0:2.8.2\*255; ».
 
 - [IS-E Peak export](https://drive.google.com/file/d/1isUBF_2xUpr6h8AeRtkupJvFkuMMSJM4/view?usp=sharing) 
 
@@ -228,19 +228,19 @@ Les codes OBIS servent à décrire une valeur (de compteur).
 
 [Codes OBIS (Excel)](https://drive.google.com/open?id=1eTs4ZXD9AUagGxNEQSof0IWHkZg54nsK6SyHp4ygDSc&authuser=0)
 
-Astuce pour le décodage : sur ce [site web](https://www.kbr.de/de/obis-kennzeichen/obis-kennzeichen#obis-kennzeichensystem), vous pouvez consulter la systématique du codage. En cliquant sur un fluide, vous voyez ce que représente chacun des chiffres du code. 
+Conseil pour le décodage : sur ce [site web](https://www.kbr.de/de/obis-kennzeichen/obis-kennzeichen#obis-kennzeichensystem), vous pouvez consulter la systématique du codage. En cliquant sur un fluide, vous voyez la signification de chacun des chiffres du code. 
 
-![Auto Export – figure 10](/img/schnittstellen-auto-export/10.png)
+![Auto Export – Illustration 10](/img/schnittstellen-auto-export/10.png)
 
-Le fichier de test CSV a été exporté avec la configuration ci-dessus.
+Le fichier de test csv a été exporté avec la configuration ci-dessus.
 
 ## Codes OBIS pris en charge
 
 Les codes OBIS servent à décrire une valeur (de compteur) : [Codes OBIS (Excel)](https://drive.google.com/open?id=1eTs4ZXD9AUagGxNEQSof0IWHkZg54nsK6SyHp4ygDSc&authuser=0)
 
-Astuce pour le décodage : sur ce [site web](https://www.kbr.de/de/obis-kennzeichen/obis-kennzeichen#obis-kennzeichensystem), vous pouvez consulter la systématique du codage. En cliquant sur un fluide, vous voyez ce que représente chacun des chiffres du code. 
+Conseil pour le décodage : sur ce [site web](https://www.kbr.de/de/obis-kennzeichen/obis-kennzeichen#obis-kennzeichensystem), vous pouvez consulter la systématique du codage. En cliquant sur un fluide, vous voyez la signification de chacun des chiffres du code. 
 
-### Codes OBIS IS-E
+### Code OBIS IS-E
 
 1-1:1.8.0: Active Energy Total Import
 
@@ -270,7 +270,7 @@ Astuce pour le décodage : sur ce [site web](https://www.kbr.de/de/obis-kennzeic
 
 9-1:1.0.0: Hot water (m3)
 
-### Codes OBIS mscons
+### Code OBIS mscons
 
 1-1:1.29.0\*255: Active Energy Total Import (load profile)
 
@@ -292,7 +292,7 @@ Astuce pour le décodage : sur ce [site web](https://www.kbr.de/de/obis-kennzeic
 
 9-1:1.29.0\*255: Hot water (load profile)
 
-### Codes OBIS CSV
+### Code OBIS CSV
 
 1-0:1.8.0\*255: Active Energy Total Import
 

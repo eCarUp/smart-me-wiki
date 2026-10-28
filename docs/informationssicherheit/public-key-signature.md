@@ -110,13 +110,13 @@ message Transaction
 Transaktion
 SerialNumber: Die Seriennummer des Zählers (z. B. 6300000)
 TransactionNumber: Die Nummer der Transaktion. Diese Nummer zählt bei jeder Transaktion hoch.
-UserId: Die ID des Benutzer welche diese Transaktion gestartet hat.
+UserId: Die ID des Benutzers, welcher diese Transaktion gestartet hat.
 StartValues: Die Messwerte bei Beginn der Transaktion (siehe oben)
 EndValues: Die Messwerte beim Ende der Transaktion (siehe oben)
 
 ## Beispiel
 
-Dieses Bespiel zeigt die Validierung einer signierten Transaktion.
+Dieses Beispiel zeigt die Validierung einer signierten Transaktion.
 
 Datenpaket (Transaktion)
 

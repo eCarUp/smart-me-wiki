@@ -8,10 +8,10 @@ sidebar_label: 'Firmware Update'
 
 ## Performing a firmware update
 
-smart-me products receive improvements and new functions throughout their product life cycle.
-Users can install these updates themselves.
+smart-me products receive improvements and new features throughout their product life cycle.
+You can install these updates yourself.
 
-ⓘ Note: Install a firmware update mainly if you have noticed a fault or want to use a new function that the previous firmware did not support. Products whose functions change quickly, such as the Pico charging station, should be updated regularly.
+ⓘ Note: Apply a firmware update mainly when you have noticed faulty behaviour or want to use a new feature that the previous firmware did not support. Update products with fast-changing features regularly, for example the Pico charging station.
 
 
 ## Procedure
@@ -26,11 +26,11 @@ Users can install these updates themselves.
 
 
 Note:
-To run several updates in parallel, right-click on each link and open it in a new tab.
+To run several updates at the same time, right-click each link and open it in a new tab.
 
-![Firmware Update – Figure 2](/img/konfiguration-firmware-update/02.png)
+![Firmware update – figure 2](/img/konfiguration-firmware-update/02.png)
 
-### 2\. Select "Update firmware" ("Firmware aktualisieren")
+### 2\. Select "Update firmware" (Firmware aktualisieren)
 
 <div className="row">
 <div className="col col--5">
@@ -39,12 +39,12 @@ Time until the update starts:
 
 - For Telstar (CT) and Pico, it can take up to 5 minutes.
 
-- For the M-Bus Gateway, it depends on the upload interval.
+- For the M-Bus gateway, it depends on the upload interval.
 
 </div>
-<div className="col col--7 text--center">
+<div className="col col--7 bild--mitte">
 
-![Firmware Update – Figure 3](/img/konfiguration-firmware-update/03.png)
+![Firmware update – figure 3](/img/konfiguration-firmware-update/03.png)
 
 </div>
 </div>
@@ -62,34 +62,34 @@ Time until the update is complete:
 
 - For Pico, it can take up to one day. See below for how to speed up the firmware update.
 
-- For the M-Bus Gateway, it depends on the upload interval.
+- For the M-Bus gateway, it depends on the upload interval.
 
 </div>
-<div className="col col--8 text--center">
+<div className="col col--8 bild--mitte">
 
-![Firmware Update – Figure 4](/img/konfiguration-firmware-update/04.png)
+![Firmware update – figure 4](/img/konfiguration-firmware-update/04.png)
 
-![Firmware Update – Figure 5](/img/konfiguration-firmware-update/05.png)
+![Firmware update – figure 5](/img/konfiguration-firmware-update/05.png)
 
 </div>
 </div>
 
 ### Speeding up the firmware update
 
-The update usually continues even if nobody is monitoring it and no browser is open.
+The update normally continues without active monitoring and without an open browser.
 
 If you actively monitor the update, you can speed it up as follows:
 
-- Open the meter or the Pico in a second browser tab.
+- Select the meter or the Pico in a second browser tab.
 
 - Select the normal view.
 
-- Leave the tab open and active in the browser. The meter or the Pico then communicates with the smart-me Cloud more often, so it can exchange more data packets and finish the update sooner.
+- Keep the browser tab open and active. The meter or the Pico then communicates more often with the smart-me cloud, so more data packets can be exchanged and the update finishes faster.
 
-- You can check the voltage to see whether communication is active. The voltage always fluctuates slightly, so you can easily tell whether the device is now sending data every 1-2 seconds.
+- You can see whether communication is active by watching the voltage. It always fluctuates slightly, so it is easy to see whether the device is now sending data every 1-2 seconds.
 
 
-![Firmware Update – Figure 6](/img/konfiguration-firmware-update/06.png)
+![Firmware update – figure 6](/img/konfiguration-firmware-update/06.png)
 
 ## Firmware Release Notes
 

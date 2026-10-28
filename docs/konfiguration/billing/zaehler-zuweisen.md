@@ -13,9 +13,9 @@ vorheriger_schritt: [konfiguration/billing/konfiguration-rechnungsstellung, konf
 
 Beim Erstellen der Liegenschaft werden die Zähler automatisch zur Abrechnungseinheit (Ordner) zu 100% zugewiesen.
 
-Möchtest du ein Zähler (z.B. Allgemein) gemäss einem Verteilschlüssel aufteilen oder nachträglich ändern, muss dies manuell getätigt werden.
+Möchtest du einen Zähler (z.B. Allgemein) gemäss einem Verteilschlüssel aufteilen oder nachträglich ändern, muss dies manuell getätigt werden.
 
-- Links die Abrechnungseinheit wählen (Unterordner z.B, WHG 1)
+- Links die Abrechnungseinheit wählen (Unterordner z.B. WHG 1)
 
 - Klicken z.B. bei Elektrizität auf Hinzufügen
 

@@ -18,7 +18,7 @@ A visualization is created on a folder. When you click on the folder in the app 
 
 ### Creating visualizations
 
-Proceed as follows to create a visualization:
+To create a visualization, proceed as follows:
 
 1.  Log in to the [smart-me website](https://web.smart-me.com/).
 
@@ -26,7 +26,7 @@ Proceed as follows to create a visualization:
 
 3.  Select the folder on which the visualization is to be created.
 
-4.  Click on edit (editieren) next to Visualization (Visualisierung). 
+4.  Next to Visualization (Visualisierung), click on edit (editieren). 
 
 5.  Select the desired visualization and add the corresponding meters. 
 
@@ -37,13 +37,13 @@ Proceed as follows to create a visualization:
 
 ## View for tenants
 
-A special view for tenants is available for the virtual tariffs. It shows the current energy consumption (electricity) and its source (solar or grid). In addition, the bar shows the past electricity supply source.
+A special view for tenants is available for the virtual tariffs. It shows the current energy consumption (electricity) and its source (solar or grid). In addition, the bar shows the past source of electricity consumption.
 
-This must additionally be configured for each apartment node.
+This must also be configured for each apartment node.
 
 The visualization is called: "Simple virtual tariffs apartment" ("Einfache virtuelle Tarife Wohnung")
 
-Caution: Here you must select the relevant folder of the apartment, not the meters it contains!
+Attention: Here you must select the relevant folder of the apartment, not the meters it contains!
 
 
 
@@ -52,9 +52,9 @@ Energy flow of the building
 
 The energy flow of the building can optionally be visualized. 
 
-- To do this, the tenant must additionally be given access to the balance, production and battery metering points. The reference meters are selected automatically based on their names.
+- To do this, the tenant must also be given access to the balance, production and battery metering points. The reference meters are selected automatically based on their names.
 
-    Add the user account, for example, to the technical meters folder that contains the metering points mentioned.
+    For example, add the user account to the technical meters folder that contains the metering points mentioned.
 
 
 ![Visualization and Public Links – Figure 4](/img/konfiguration-visualisierung/04.png)
@@ -108,9 +108,9 @@ Bateri… (Baterija) · Akumul… (Akumulator) · Skladište / Skladiste · Powe
 
 ## Various visualizations for the entire property
 
-This is a selection of the various possible visualizations. The list is not exhaustive.
+This is an overview of various possible visualizations. The list is not exhaustive.
 
-Empty nodes can be created in order to set up as many visualizations as desired.
+Empty nodes can be created in order to create as many visualizations as desired.
 
 ## Visualizations for ZEV
 
@@ -141,17 +141,17 @@ All relevant data on your ZEV (association for own consumption) at a glance:
 
 ### Simple energy flow
 
-Shows the energy flow for a solar system, grid consumption and household consumption.
+Shows the energy flow for a solar installation, grid consumption and household consumption.
 
-Two of these three meters must be specified; the third is calculated automatically. If all three meters are specified, incorrect values may be displayed. We always recommend specifying direct measurements where possible and not virtual meters.
+Two of these three meters must be specified; the third is calculated automatically. If all three meters are specified, incorrect values may be displayed. We always recommend specifying direct measurements wherever possible rather than virtual meters.
 
 ![Visualization and Public Links – Figure 10](/img/konfiguration-visualisierung/10.png)
 
-### House with multiple consumers and producers
+### House with several consumers and producers
 
 Up to ten consumers or producers can be visualized for a house.
 
-You can choose to display either the power (now) or the consumption values of the last 30 or 365 days.
+Either the power values (now) or the consumption values of the last 30 or 365 days can be displayed.
 
 ## Visualizations for ZEV and vZEV
 
@@ -159,7 +159,7 @@ You can choose to display either the power (now) or the consumption values of th
 
 ### Consumption and production monitoring
 
-Shows where the produced energy is consumed 
+Shows where the energy produced is consumed 
 
 ZEV (association for own consumption): 
 
@@ -168,18 +168,18 @@ ZEV (association for own consumption):
 - Fed into the grid
 
 
-For this, the production system and the (physical) building connection meter must be defined.
+For this, the production plant and the building connection meter (physical) must be defined.
 
 vZEV (virtual ZEV): 
 
 - Local consumption
 
-- Delivered to neighbours
+- Supplied to neighbours
 
 - Fed into the grid
 
 
-For this, the production systems of the vZEV and the (physical) building connection meters of the vZEV participants must be defined.
+For this, the production plants of the vZEV and the building connection meters (physical) of the vZEV participants must be defined.
 
 ![Visualization and Public Links – Figure 12](/img/konfiguration-visualisierung/12.png)
 
@@ -189,9 +189,9 @@ The self-consumption rate and self-sufficiency rate of a building are displayed.
 
 Self-consumption rate: How much of the solar energy is consumed directly in the house.
 
-Self-sufficiency rate: How much of the total consumption is produced by the solar system.
+Self-sufficiency rate: How much of the total consumption is produced by the solar installation.
 
-Caution: The main meter must not be a virtual meter!
+Attention: The main meter must not be a virtual meter!
 
 ![Visualization and Public Links – Figure 13](/img/konfiguration-visualisierung/13.png)
 
@@ -216,13 +216,13 @@ All relevant data on your charging stations at a glance:
 
 The current power values of an apartment (electricity, heat and water) are displayed.
 
-For the historical consumption values, a comparison with a reference apartment is also shown (e.g. "10% less electricity consumed than average").
+For the historical consumption values, a comparison with a reference apartment is also displayed (e.g. "10% less electricity consumed than the average").
 
 ## Further options (optional)
 
 Finally, you can now activate interfaces or implement controls.
 
-To do this, navigate in the main wiki menu (at the top) to:
+To do this, navigate in the main wiki menu (top) to:
 
 Configuration or Interfaces.
 

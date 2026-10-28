@@ -19,7 +19,7 @@ Immer genügend Warmwasser, das Haus mit angenehmer Temperatur und das
 Elektroauto rechtzeitig geladen. Massgeschneidert auf Ihre persönlichen Bedürfnisse.
 Diese Aufgaben übernimmt der Soleco Optimizer für Sie im Hintergrund, zuverlässig, kostengünstig und mit modernster Technik.
 Auf der Benutzeroberfläche finden Interessierte jederzeit verschiedene aktualisierte graphische Auswertungen.
-Der Bezug von Strom aus dem Netz wird mit der Wettervorhersage hinsichtlich der Stromtarife und Stromertrag aus der Photovoltaik im Zusammenspiel mit den Verbrauchern ganzheitlich optimiert. Dieser neue Ansatz bringt signifikante Kosteneinsparungen, ohne jegliche Komforteinbussen.
+Der Bezug von Strom aus dem Netz wird mit der Wettervorhersage hinsichtlich der Stromtarife und des Stromertrags aus der Photovoltaik im Zusammenspiel mit den Verbrauchern ganzheitlich optimiert. Dieser neue Ansatz bringt signifikante Kosteneinsparungen, ohne jegliche Komforteinbussen.
 
 ### Kontakt
 
@@ -36,7 +36,7 @@ Hubrainweg 18, 8124 Maur
 </Kacheln>
 
 </div>
-<div className="col col--5 text--center">
+<div className="col col--5 bild--mitte">
 
 ![Soleco Optimizer – Abbildung 1](/img/drittsysteme-soleco/01.png)
 

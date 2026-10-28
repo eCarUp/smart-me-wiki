@@ -10,8 +10,8 @@ sidebar_label: 'P1 Schnittstelle'
 
 Die P1 Schnittstelle erlaubt es Livedaten von unserer Meterhardware in Drittsysteme zu bringen. Die Daten können dann zur Analyse oder zur Steuerung verwendet werden.
 
-Damit diese Schnittstelle verwendet werden kann, wird ein P1-Auslesemodul benötigt welche den Protokollstandard unterstützt.
-Informationen zum jeweiligen Standard finden Sie in den Produktspezifischen Downloads.
+Damit diese Schnittstelle verwendet werden kann, wird ein P1-Auslesemodul benötigt, welches den Protokollstandard unterstützt.
+Informationen zum jeweiligen Standard finden Sie in den produktspezifischen Downloads.
 
 ## Downloads
 

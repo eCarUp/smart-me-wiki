@@ -15,7 +15,7 @@ smart-me ist nicht im Projektgeschäft tätig. Installationen werden von Install
 
 Wir empfehlen dir, die smart-me App auf deinem Smartphone zu nutzen. Lade die App einfach herunter und melde dich auf deinem Smartphone an.
 
-Deine Mieter-Login Daten sollte dir von der Vermieterin, der Betreiberin des ZEVs erstellt und zur Verfügung gestellt werden.
+Deine Mieter-Login Daten sollten dir von der Vermieterin, der Betreiberin des ZEVs erstellt und zur Verfügung gestellt werden.
 
 Hier geht's zur smart-me App:
 
@@ -27,7 +27,7 @@ Alternativ kannst du dich auch über das smart-me Portal im Browser einloggen.
 [https://portalweb.smart-me.com/Login](https://portalweb.smart-me.com/Login) 
 
 </div>
-<div className="col col--5 text--center">
+<div className="col col--5 bild--mitte">
 
 ![Anleitung für Mieter – Abbildung 1](/img/nutzeranleitungen-mieter/01.jpg)
 
@@ -42,7 +42,7 @@ Alternativ kannst du dich auch über das smart-me Portal im Browser einloggen.
 In deinem Zugang unter "Dashboard" findest du deine Abrechnungseinheiten und die dir zugewiesenen Zählerpunkte.
 
 </div>
-<div className="col col--5 text--center">
+<div className="col col--5 bild--mitte">
 
 ![Anleitung für Mieter – Abbildung 2](/img/nutzeranleitungen-mieter/02.png)
 
@@ -61,7 +61,7 @@ Zeigt dir deinen aktuellen Verbrauch mit einer Visualisierung (Optional, nur wen
 
 ### Normal
 
-Die Normalansicht mit allen Livewerten und Historischen Diagrammen
+Die Normalansicht mit allen Livewerten und historischen Diagrammen
 
 ### Report
 
@@ -77,7 +77,7 @@ Die Tarifeverbräuche sind auf den Ordnern beheimatet.
 
 ### Tarifprofil
 
-Klicke auf die Kachel "Virtuelle Tarife" um dein Lastprofil mit Tarifbezug zu sehen.
+Klicke auf die Kachel "Virtuelle Tarife", um dein Lastprofil mit Tarifbezug zu sehen.
 
 
 
@@ -89,7 +89,7 @@ Das Lastprofil entspricht deinem durchschnittlichen Energiebezug pro Zeitinterva
 
 ### Lastprofil
 
-Klicke auf die Kachel "Leistung" um dein Lastprofil zu sehen.
+Klicke auf die Kachel "Leistung", um dein Lastprofil zu sehen.
 
 
 
@@ -109,7 +109,7 @@ Damit du den Überblick behältst, bietet die smart-me App verschiedene Visualis
 
 Zeigt den Energiefluss für eine Solaranlage, Netzbezug und den Hausverbrauch.
 
-Zwei dieser drei Zähler müssen angegeben werden, der Dritte wird automatisch gerechnet. Wenn alle drei Zähler angegeben werden, kann es zu falschen Anzeigen kommen. Wir empfehlen immer, wenn möglich, direkte Messungen anzugeben und keine virtullen Zähler
+Zwei dieser drei Zähler müssen angegeben werden, der Dritte wird automatisch gerechnet. Wenn alle drei Zähler angegeben werden, kann es zu falschen Anzeigen kommen. Wir empfehlen immer, wenn möglich, direkte Messungen anzugeben und keine virtuellen Zähler.
 
 ### Eigenverbrauchs- und Autarkiegrad
 
@@ -156,7 +156,7 @@ Abrechnungsrelevante Zähler eines ZEVs
     Wird benötigt, um die produzierte Energie der PV Anlage zu messen.
 
 - Bilanzzähler (Elekto 26P4 Bilanzm...)
-    Wird benötigt um zu wissen, wie viel Strom aus dem Netz bezogen, respektive eingespeist wurde.
+    Wird benötigt, um zu wissen, wie viel Strom aus dem Netz bezogen, respektive eingespeist wurde.
 
 - Gesamtverbrauch (Verbrauch Feld 37)
     Wird benötigt, um den Gesamtverbrauch der Liegenschaft/Wohnung zu ermitteln (PV- und Netzbezug).
@@ -216,7 +216,7 @@ Letzte 7 Tage: 57.202 kWh
 Letzte 30 Tage: 244.984 kWh
 
 </div>
-<div className="col col--6 text--center">
+<div className="col col--6 bild--mitte">
 
 ![Anleitung für Mieter – Abbildung 17](/img/nutzeranleitungen-mieter/17.jpg)
 
@@ -257,7 +257,7 @@ Wärme (4522 kWh) 1223.43 CHF (3)
 Warmwasser (47.01 m3 oder 2870.31 kWh)   776.57 CHF (4)
 
 </div>
-<div className="col col--6 text--center">
+<div className="col col--6 bild--mitte">
 
 ![Anleitung für Mieter – Abbildung 18](/img/nutzeranleitungen-mieter/18.png)
 
@@ -266,7 +266,7 @@ Warmwasser (47.01 m3 oder 2870.31 kWh)   776.57 CHF (4)
 
 ### Verteilung der Kosten auf Mieter
 
-Die Aufteilung der Gesamtkosten auf die Grundkosten (30%) und die Verbrauchskosten (70%) wird in diesem Beispiel der branchenüblicher Verteilschlüssel verwendet.
+Die Aufteilung der Gesamtkosten auf die Grundkosten (30%) und die Verbrauchskosten (70%) wird in diesem Beispiel der branchenübliche Verteilschlüssel verwendet.
 
 ### Beispiel Wärme
 
@@ -277,7 +277,7 @@ Wir haben für die Wärme der Liegenschaft einen Gesamtbetrag von 1223.43 CHF im
 - Verbrauchskosten Wärme 856.40 CHF (6)
 
 
-Um diese Kosten nun fair auf die Mietparteien zu verteilen werden die Grundkosten anhand der Wohnfläche und die Verbrauchskosten (kWh) anhand des gemessenen Verbrauchs aufgeteilt.
+Um diese Kosten nun fair auf die Mietparteien zu verteilen, werden die Grundkosten anhand der Wohnfläche und die Verbrauchskosten (kWh) anhand des gemessenen Verbrauchs aufgeteilt.
 
 Die gesamte Liegenschaft hat eine Wohnfläche von 250m2 und unsere Wohnung hat eine Wohnfläche von 150m2. Die Grundkosten werden also zu 60% ((100/250)x150) der Wohnung angerechnet.
 
@@ -286,33 +286,33 @@ Die gesamte Liegenschaft hat eine Wohnfläche von 250m2 und unsere Wohnung hat e
 
 ![Anleitung für Mieter – Abbildung 19](/img/nutzeranleitungen-mieter/19.png)
 
-Für die gesamte Liegenschaft wurde ein Energieverbrauch von 4522 kWh gemessen. Unsere Wohnung hat einen separaten Stromzähler der einen Verbrauch von 2450 kWh gemessen. Die Verbrauchskosten werden also 54.18% ((100/4522)x2450) der Wohnung angerechnet.
+Für die gesamte Liegenschaft wurde ein Energieverbrauch von 4522 kWh gemessen. Unsere Wohnung hat einen separaten Stromzähler, der einen Verbrauch von 2450 kWh gemessen. Die Verbrauchskosten werden also 54.18% ((100/4522)x2450) der Wohnung angerechnet.
 
 Verbrauchskosten Wärme: 856.40 CHF x 54.18% = 464.- CHF (8)
 
-Die Totalen Kosten\* für die die Mieter der Wohnung für Wärme betragen also 220.22 CHF + 464.- CHF = 684.21 CHF (9).
+Die totalen Kosten\* für die Mieter der Wohnung für Wärme betragen also 220.22 CHF + 464.- CHF = 684.21 CHF (9).
 
 ### Beispiel Warmwasser
 
-Die Berechnung für die Verteilung von Warmwasser wird analog zur Berechnung der Wärme gemacht. Wir haben für die Warmwasser der Liegenschaft einen Gesamtbetrag von 776.57 CHF im vorherigen Schritt ermittelt. Dieser wird nun anteilsmässig zu 30% Grundkosten und zu 70% Verbrauchskosten für die gesamte Liegenschaft aufgeteilt. Dies entspricht folgend Kosten:
+Die Berechnung für die Verteilung von Warmwasser wird analog zur Berechnung der Wärme gemacht. Wir haben für das Warmwasser der Liegenschaft einen Gesamtbetrag von 776.57 CHF im vorherigen Schritt ermittelt. Dieser wird nun anteilsmässig zu 30% Grundkosten und zu 70% Verbrauchskosten für die gesamte Liegenschaft aufgeteilt. Dies entspricht folgend Kosten:
 
 - Grundkosten Warmwasser 232.97 CHF (10)
 
 - Verbrauchskosten Warmwasser 543.60 CHF (11)
 
 
-Um diese Kosten nun fair auf die Mietparteien zu verteilen werden die Grundkosten anhand der Wohnfläche und die Verbrauchskosten anhand des gemessenen Verbrauchs (m3) aufgeteilt.
+Um diese Kosten nun fair auf die Mietparteien zu verteilen, werden die Grundkosten anhand der Wohnfläche und die Verbrauchskosten anhand des gemessenen Verbrauchs (m3) aufgeteilt.
 
 Die gesamte Liegenschaft hat eine Wohnfläche von 250m2 und unsere Wohnung hat eine Wohnfläche von 150m2. Die Grundkosten werden also zu 60% ((100/250)x150) der Wohnung angerechnet.
 
 - Grundkosten Warmwasser: 232.97 CHF x 60% = 139.78 CHF (12)
 
 
-Für die gesamte Liegenschaft wurde ein Warmwasserverbrauch von 47.01 m3 gemessen. Unsere Wohnung hat einen separaten Warmwasserzähler der einen Verbrauch von 26.68 m3 gemessen. Die Verbrauchskosten werden also 56.75% ((100/47.01)x26.68) der Wohnung angerechnet.
+Für die gesamte Liegenschaft wurde ein Warmwasserverbrauch von 47.01 m3 gemessen. Unsere Wohnung hat einen separaten Warmwasserzähler, der einen Verbrauch von 26.68 m3 gemessen. Die Verbrauchskosten werden also 56.75% ((100/47.01)x26.68) der Wohnung angerechnet.
 
 Verbrauchskosten Warmwasser: 543.60 CHF x 56.75% = 308.51 CHF (13)
 
-Die Totalen Kosten\* für die die Mieter der Wohnung für Warmwasser betragen also 139.78 CHF + 308.51 CHF = 448.29 CHF (14)
+Die totalen Kosten\* für die Mieter der Wohnung für Warmwasser betragen also 139.78 CHF + 308.51 CHF = 448.29 CHF (14)
 
 \* Für die Ermittlung der Gesamtkosten nicht die angezeigten gerundeten Werte, sondern die exakten Werte genommen.
 
@@ -326,7 +326,7 @@ Wenn die verfügbaren Informationen in der smart-me App nicht ausreichen sollten
 [smart-me Webportal - Login](https://portalweb.smart-me.com/Login)
 
 </div>
-<div className="col col--5 text--center">
+<div className="col col--5 bild--mitte">
 
 ![Anleitung für Mieter – Abbildung 20](/img/nutzeranleitungen-mieter/20.jpg)
 

@@ -10,7 +10,7 @@ sidebar_label: 'Interface P1'
 
 L'interface P1 permet de transférer des données en temps réel de notre matériel de comptage vers des systèmes tiers. Les données peuvent ensuite être utilisées à des fins d'analyse ou de pilotage.
 
-Pour pouvoir utiliser cette interface, un module de lecture P1 prenant en charge le standard de protocole est nécessaire.
+Pour pouvoir utiliser cette interface, il faut un module de lecture P1 qui prend en charge le standard de protocole.
 Vous trouverez des informations sur le standard concerné dans les téléchargements spécifiques à chaque produit.
 
 ## Téléchargements

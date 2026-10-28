@@ -64,7 +64,7 @@ Der Zähler zeigt abwechselnd verschiedene Werte an.
 
 - "CH XXXX" ist die Prüfsumme der Software.
 
-- "Zahl + T1/T2" ist der Jeweilige Tarif Wert
+- "Zahl + T1/T2" ist der jeweilige Tarif Wert
 
 - "Er XX" ist ein Fehlercode.
 
@@ -80,13 +80,13 @@ Der Zähler zeigt abwechselnd verschiedene Werte an.
 
 ![1-Phasenzähler 80A – Abbildung 3](/img/produkte-1-phasen-zaehler-80a/03.png)
 
-## Tastenfuktionen
+## Tastenfunktionen
 
 T(4) Taste für die Installation
 
-Wenn die Taste T(4) für 10 Sekunden gedrückt wird, erzeugt dies ein lokals WiFi für die Installation
+Wenn die Taste T(4) für 10 Sekunden gedrückt wird, erzeugt dies ein lokales WiFi für die Installation
 
-## Ein und Ausgänge konfigurieren
+## Ein- und Ausgänge konfigurieren
 
 Der 1 Phasenzähler 80A verfügt über einen digitalen Ausgang und einen digitalen Eingang, welche als Impuls Ein- und Ausgänge oder als schaltbarer potentialfreier Kontakt genutzt werden können. Details dazu findest du auf der Wiki-Seite [Ein- und Ausgänge](/schnittstellen/ein-und-ausgaenge) 
 
@@ -123,7 +123,7 @@ Gewicht mit Verpackung: 130g
 </details>
 
 <details id="kann-ich-den-zählerstand-auf-null-zurücksetzten">
-<summary>Kann ich den Zählerstand auf Null zurücksetzten?</summary>
+<summary>Kann ich den Zählerstand auf Null zurücksetzen?</summary>
 
 Nein, da unsere Zähler für Abrechnungen verwendet werden, ist es nicht möglich, diese zurückzusetzen.
 

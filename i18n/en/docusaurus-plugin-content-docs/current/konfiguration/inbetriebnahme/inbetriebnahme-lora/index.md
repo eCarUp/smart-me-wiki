@@ -1,10 +1,10 @@
 ---
 title: 'Commissioning LoRa'
 slug: '/konfiguration/inbetriebnahme/inbetriebnahme-lora'
-description: '1\. Register the LoRa gateway on smart-me'
+description: '1\. Register the LoRa Gateway on smart-me'
 sidebar_label: 'Commissioning LoRa'
 ---
-## 1\. Register the LoRa gateway on smart-me
+## 1\. Register the LoRa Gateway on smart-me
 
 <div className="row">
 <div className="col col--6">
@@ -16,14 +16,14 @@ sidebar_label: 'Commissioning LoRa'
 3.  Enter the name and the device EUI. Alternatively, you can scan the QR code of the EUI with the camera.
 
 </div>
-<div className="col col--6 text--center">
+<div className="col col--6 bild--mitte">
 
 ![Commissioning LoRa – Figure 1](/img/konfiguration-inbetriebnahme-inbetriebnahme-lora/01.png)
 
 </div>
 </div>
 
-## 2\. Install the LoRaWAN gateway and connect it to the smart-me LoRa gateway
+## 2\. Install the LoRaWAN gateway and connect it to the smart-me LoRa Gateway
 
 Detailed instructions for internally tested devices:
 
@@ -38,7 +38,7 @@ Detailed instructions for internally tested devices:
 - [Milesight UG56](/konfiguration/inbetriebnahme/inbetriebnahme-lora/milesight-ug56-868mhz)
 
 
-## 3\. Adding the meters and sensors
+## 3\. Adding meters and sensors
 
 <div className="row">
 <div className="col col--5">
@@ -49,12 +49,12 @@ Detailed instructions for internally tested devices:
 
 3.  Enter the required information for the meter or sensor.
 
-4.  Press "Save" ("Speichern")
+4.  Click "Save" ("Speichern")
 
-5.  Check the status of the sensor in the Lora devices overview (Lora Geräte Übersicht).
+5.  Check the status of the sensor in the Lora Devices (Lora Geräte) overview.
 
 </div>
-<div className="col col--7 text--center">
+<div className="col col--7 bild--mitte">
 
 ![Commissioning LoRa – Figure 2](/img/konfiguration-inbetriebnahme-inbetriebnahme-lora/02.png)
 

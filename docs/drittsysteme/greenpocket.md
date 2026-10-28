@@ -21,7 +21,7 @@ Die smart-me MSCONS Daten enthalten folgende Energieträger:
 - Kälte
 
 </div>
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
 ![GreenPocket – Abbildung 1](/img/drittsysteme-greenpocket/01.png)
 

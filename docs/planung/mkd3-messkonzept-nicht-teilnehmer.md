@@ -9,7 +9,7 @@ symbol: 'ausserhalb'
 
 ## Tarifierung des Messkonzepts MKD3 mit Nichtteilnehmern
 
-Die Tarifierung des Messkonzepts erfolgt ausschliesslich über Produktion und den Teilnehmenden Verbrauchern am Mieterstrom.
+Die Tarifierung des Messkonzepts erfolgt ausschliesslich über Produktion und die teilnehmenden Verbraucher am Mieterstrom.
 Der Hausanschlusszähler sollte als Prüfstein einbezogen werden und nicht bewusst weggelassen werden.
 
 
@@ -25,14 +25,14 @@ Beim MKD3 erfolgt die Vergütung für Nichtteilnehmer periodisch einmalig in der
 
 **Begründung zur Abweichung**
 
-Die Berechnung und Verteilung im smart-me berechnet den Bezug und Verbrauch der Teilnehmer im 15-Minuten Intervall. Dadurch wird eindeutig identifiziert wer, wann aus welcher Quelle Strom bezieht und wie viel.
+Die Berechnung und Verteilung im smart-me berechnet den Bezug und Verbrauch der Teilnehmer im 15-Minuten Intervall. Dadurch wird eindeutig identifiziert, wer wann aus welcher Quelle Strom bezieht und wie viel.
 
 **Beispiel:**
 
 Wenn zu einem Zeitpunkt X in 15-Minuten 100 kWh Solarstrom produziert werden und die Mieterstrommitglieder zusammen 0 kWh beziehen, während der Nichtteilnehmer 100 kWh beziehen, wird zu diesem Zeitpunkt im von Mieterstrommitgliedern kein Solarstrom bezogen.
 
 Die virtuelle Bilanz des Mieterstroms berechnet nun folgerichtig 0 kWh Bezug, 100 kWh Überschuss.
-Der physische Bilanzzähler misst hingegen 0 kWh Bezug, 0 kWh Überschuss weil die Nichtteilnehmer die ganze Produktion direkt verbraucht hat.
+Der physische Bilanzzähler misst hingegen 0 kWh Bezug, 0 kWh Überschuss, weil die Nichtteilnehmer die ganze Produktion direkt verbraucht haben.
 
 **Die Kompensationsrechnung der Energieversorger folgt folgender Regel:**
 
@@ -44,7 +44,7 @@ Bilanz Import kompensiert = Bilanzwert 0 kWh - Bezug Nichtteilnehmer 100 kWh -->
 
 Bilanz Export kompensiert = 0 kWh + 100 kWh = 100 kWh
 
-Da die Kompensation je nach dem nicht 15-Minütig sondern Periodisch einmalig geschieht, ergibt dies unterschiedliche Werte für die Validierung!
+Da die Kompensation je nach dem nicht 15-Minütig sondern periodisch einmalig geschieht, ergibt dies unterschiedliche Werte für die Validierung!
 
 ### Validierung
 
@@ -67,11 +67,11 @@ Wird die Kompensation vom Energieversorger einmalig z.B.  Pro Monat gemacht, so
 
 **Begründung:**
 
-Wird die Kompensation einmalig pro Monat gemacht mit dem Gesamtbezug der Nichtteilnehmer, findet keine Berücksichtigung statt ob und wie viel die Nichtteilnehmer eigentlich vom lokalen Produzenten beliefert wurden und sich dadurch die virtuelle Bilanz veränderte.
+Wird die Kompensation einmalig pro Monat gemacht mit dem Gesamtbezug der Nichtteilnehmer, findet keine Berücksichtigung statt, ob und wie viel die Nichtteilnehmer eigentlich vom lokalen Produzenten beliefert wurden und sich dadurch die virtuelle Bilanz veränderte.
 
 Parallel dazu berechnet das System für die Mieterstromteilnehmer folgerichtig der rechtzeitigen Nutzung und Verfügbarkeit der Produktion den effektiv bezogenen Wert aus den Quellen. (Berücksichtigt ob von der aktuellen Produktion tatsächlich Strom von Mieterstromteilnehmern abgenommen wurde oder ob eigentlich Netzstrom bezogen wurde für die Deckung)
 
-Da hier zwei Welten aufeinander prallen (zeitlich) ergibt sich niemals das gleiche Resultat um den einfachen Abgleich zu ermöglichen.
+Da hier zwei Welten aufeinander prallen (zeitlich) ergibt sich niemals das gleiche Resultat, um den einfachen Abgleich zu ermöglichen.
 
 **Erkenntnis:**
 
@@ -84,7 +84,7 @@ Bilanz Import Messung = 100 KWh
 
 Bilanz Export Messung = 50 kWh
 
-Nichteilnehmer Bezug Total = 100 kWh
+Nichtteilnehmer Bezug Total = 100 kWh
 
 Mieterstrom Teilnehmer Bezug Total = 100 kWh
 
@@ -97,17 +97,17 @@ Netzbezug verrechnet vom Energieversorger = Bilanz Import 100 kWh - Nichtteilneh
 In diesem Fall wird uns kein Netzstrom für den Mieterstrom in Rechnung gestellt, obwohl die Teilnehmer des Mieterstroms definitiv über den Monat Netzstrombezug aufweisen würden (z.B Strombezug bei Nacht).
 
 Der Netzstrom wird also in diesem Fall immer überkompensiert.
-Der Bilanzexport hingegen wird dafür nicht korrekt angepasst und ist dem zu Folge immer zu Tief.
+Der Bilanzexport hingegen wird dafür nicht korrekt angepasst und ist demzufolge immer zu tief.
 
 Wir erhalten anstelle Einspeisevergütung für die Menge, den Netzstromtarif als Rabatt.
 
 **Validierung**
 
-- Der Verrechnete Netzbezug des Energieversorgers ist immer kleiner als die von uns Verrechnete Netzstrom Menge. (Zusätzliche Einnahmen)
+- Der verrechnete Netzbezug des Energieversorgers ist immer kleiner als die von uns verrechnete Netzstrom Menge. (Zusätzliche Einnahmen)
 
-- Die Einspeisemenge des Energieversorgers entspricht der Menge des physischen Bilanzzähler Exportwertes und ist kleiner als die Berechnete Menge der virtuellen Bilanz. (Verlust durch nicht Vergütung)
+- Die Einspeisemenge des Energieversorgers entspricht der Menge des physischen Bilanzzähler Exportwertes und ist kleiner als die berechnete Menge der virtuellen Bilanz. (Verlust durch nicht Vergütung)
 
-- Die Menge des vergüteten Einspeisemenge und der vom Energieversorger dokumentierten Menge für den Mieterstromzuschlag entspricht der Gesamten Produktionsmenge.
+- Die Menge der vergüteten Einspeisemenge und der vom Energieversorger dokumentierten Menge für den Mieterstromzuschlag entspricht der gesamten Produktionsmenge.
 
 
-\--> Die Überkompensierung ist in jedem Fall Gewinnbringend für den Mieterstrombetreiber.
+\--> Die Überkompensierung ist in jedem Fall gewinnbringend für den Mieterstrombetreiber.

@@ -6,9 +6,9 @@ sidebar_label: 'Other costs'
 naechste_schritte: [konfiguration/billing-deutschland/rechnung-erstellen]
 vorheriger_schritt: konfiguration/billing-deutschland/stromtarife-definieren
 ---
-In the Other (Sonstiges) field, additional cost items can be added. This can be done individually for each billing unit (billing unit) or globally for all billing units (property).
+In the Other (Sonstiges) field, you can add further cost items. This can be done individually for each billing unit (Abrechnungseinheit) or globally for all billing units (property).
 
-Note: The Other (Sonstiges) costs are only available with the electricity invoice.
+Note: The other costs are only available with the electricity invoice.
 
 <div className="row">
 <div className="col col--7">
@@ -33,6 +33,6 @@ Example:
 <Menueweg>Billing → Properties & tariffs → Billing unit</Menueweg>
 
 Example:
-A charging station is rented out and is to be invoiced monthly to the billing unit.
+A charging station is rented out and is to be invoiced to the billing unit monthly.
 
 - The costs are charged to that one billing unit only

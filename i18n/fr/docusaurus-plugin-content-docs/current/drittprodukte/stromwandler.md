@@ -1,14 +1,14 @@
 ---
 title: 'Transformateurs de courant et accessoires pour Telstar CT'
 slug: '/drittprodukte/stromwandler'
-description: 'Aucun de ces produits n''est vendu par smart-me AG ni proposé comme accessoire lors de l''achat.'
+description: 'Aucun de ces produits n''est distribué par smart-me AG ni proposé comme accessoire lors de l''achat.'
 sidebar_label: 'Transformateurs de courant'
 ---
 Remarque importante :
 
-Aucun de ces produits n'est vendu par smart-me AG ni proposé comme accessoire lors de l'achat. Veuillez acheter ces produits directement auprès du fabricant.
+Aucun de ces produits n'est distribué par smart-me AG ni proposé comme accessoire lors de l'achat. Veuillez acheter ces produits directement auprès du fabricant.
 
-Vous trouverez ci-dessous une liste de produits recommandés. smart-me ne perçoit aucune rémunération pour les produits recommandés et n'assume aucune garantie à leur sujet. Il est à tout moment possible d'utiliser d'autres produits. Il faut toujours veiller à ce qu'ils satisfassent aux exigences du produit concerné, en l'occurrence du [Compteur triphasé Telstar CT](/produkte/telstar-ct).
+Vous trouverez ci-dessous une liste de produits recommandés. smart-me ne perçoit aucune rémunération pour les produits recommandés et n'offre aucune garantie à leur sujet. Il est possible d'utiliser d'autres produits à tout moment. Il faut toutefois toujours veiller à ce que ceux-ci répondent aux exigences du produit concerné, en l'occurrence du [Compteur triphasé Telstar CT](/produkte/telstar-ct).
 
 Ces recommandations ont pour but de permettre à nos partenaires de trouver facilement et efficacement certains produits lorsqu'ils n'en connaissent pas encore.
 
@@ -16,7 +16,7 @@ Ces recommandations ont pour but de permettre à nos partenaires de trouver faci
 
 Si les compteurs doivent être utilisés pour la facturation, des transformateurs étalonnés satisfaisant au minimum à la classe 0.5 ou inférieure sont nécessaires.
 
-![Transformateurs de courant et accessoires pour Telstar CT – Figure 1](/img/drittprodukte-stromwandler/01.png)
+![Transformateurs de courant et accessoires pour Telstar CT – Illustration 1](/img/drittprodukte-stromwandler/01.png)
 
 ### Transformateurs de mesure Pfiffner (étalonnés)
 
@@ -56,7 +56,7 @@ M. Samuel Gloor
 
 L'étalonnage doit être demandé spécifiquement ou indiqué lors de la commande.
 
-![Transformateurs de courant et accessoires pour Telstar CT – Figure 2](/img/drittprodukte-stromwandler/02.png)
+![Transformateurs de courant et accessoires pour Telstar CT – Illustration 2](/img/drittprodukte-stromwandler/02.png)
 
 ### Transformateurs de mesure Hager (étalonnés)
 
@@ -94,7 +94,7 @@ Sources d'approvisionnement possibles :
 
 L'étalonnage doit être demandé spécifiquement ou indiqué lors de la commande.
 
-![Transformateurs de courant et accessoires pour Telstar CT – Figure 3](/img/drittprodukte-stromwandler/03.png)
+![Transformateurs de courant et accessoires pour Telstar CT – Illustration 3](/img/drittprodukte-stromwandler/03.png)
 
 ### Transformateurs de mesure Redur (étalonnés)
 
@@ -117,7 +117,7 @@ Source : [https://www.redur.de/](https://www.redur.de/)
 
 ## Transformateurs de courant à des fins de monitoring
 
-![Transformateurs de courant et accessoires pour Telstar CT – Figure 4](/img/drittprodukte-stromwandler/04.png)
+![Transformateurs de courant et accessoires pour Telstar CT – Illustration 4](/img/drittprodukte-stromwandler/04.png)
 
 ### Transformateurs ouvrants Optec
 
@@ -141,7 +141,7 @@ Source d'approvisionnement possible :
 - Boutique en ligne Optec
 
 
-![Transformateurs de courant et accessoires pour Telstar CT – Figure 5](/img/drittprodukte-stromwandler/05.png)
+![Transformateurs de courant et accessoires pour Telstar CT – Illustration 5](/img/drittprodukte-stromwandler/05.png)
 
 ### Capteurs de courant Optec
 
@@ -161,7 +161,7 @@ Source d'approvisionnement possible :
 - Boutique en ligne Optec
 
 
-![Transformateurs de courant et accessoires pour Telstar CT – Figure 6](/img/drittprodukte-stromwandler/03.png)
+![Transformateurs de courant et accessoires pour Telstar CT – Illustration 6](/img/drittprodukte-stromwandler/03.png)
 
 ### Transformateurs de mesure Redur
 
@@ -176,7 +176,7 @@ Source : [https://www.redur.de/](https://www.redur.de/)
 - Redur Regulus Series
 
 
-![Transformateurs de courant et accessoires pour Telstar CT – Figure 7](/img/drittprodukte-stromwandler/07.png)
+![Transformateurs de courant et accessoires pour Telstar CT – Illustration 7](/img/drittprodukte-stromwandler/07.png)
 
 ### Transformateurs de mesure Redur
 
@@ -193,9 +193,9 @@ Source : [https://www.redur.de/](https://www.redur.de/)
 
 ## Bornes de sectionnement pour transformateurs de mesure
 
-Pour remplacer facilement un compteur, même en service, il est possible d'utiliser des bornes de sectionnement pour transformateurs de mesure. Elles permettent de court-circuiter les sorties des transformateurs afin de ne pas les endommager lors du remplacement du compteur.
+Pour remplacer facilement un compteur, même en service, il est possible d'utiliser des bornes de sectionnement pour transformateurs de mesure. Elles permettent de court-circuiter les sorties des transformateurs afin de ne pas endommager ceux-ci lors du changement de compteur.
 
-![Transformateurs de courant et accessoires pour Telstar CT – Figure 8](/img/drittprodukte-stromwandler/08.png)
+![Transformateurs de courant et accessoires pour Telstar CT – Illustration 8](/img/drittprodukte-stromwandler/08.png)
 
 ### Bornes de sectionnement Phoenix
 

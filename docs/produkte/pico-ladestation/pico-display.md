@@ -21,10 +21,10 @@ Die Beschreibung der Anzeige ist für alle [Firmware Versionen](/konfiguration/f
 <div className="row">
 <div className="col col--8">
 
-Wird angezeigt wenn kein Fahrzeug verbunden ist und keine Ladung stattfindet. Dieses Bild kann selbst personalisiert werden 
+Wird angezeigt, wenn kein Fahrzeug verbunden ist und keine Ladung stattfindet. Dieses Bild kann selbst personalisiert werden. 
 
 </div>
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
 ![Pico Display – Abbildung 2](/img/produkte-pico-ladestation-pico-display/01.png)
 
@@ -39,7 +39,7 @@ Wird angezeigt wenn kein Fahrzeug verbunden ist und keine Ladung stattfindet. Di
 Wird immer wieder angezeigt, wenn das Auto eingesteckt wird, aber die Station im Backend noch nicht freigegeben ist.
 
 </div>
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
 ![Pico Display – Abbildung 3](/img/produkte-pico-ladestation-pico-display/03.png)
 
@@ -52,7 +52,7 @@ Wird immer wieder angezeigt, wenn das Auto eingesteckt wird, aber die Station im
 Wird immer wieder angezeigt, wenn das Auto eingesteckt wird, aber die Station im Backend noch nicht freigegeben ist.
 
 </div>
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
 ![Pico Display – Abbildung 4](/img/produkte-pico-ladestation-pico-display/04.png)
 
@@ -69,7 +69,7 @@ Wird immer wieder angezeigt, wenn das Auto eingesteckt wird, aber die Station im
 Wird angezeigt, wenn das Auto eingesteckt wird und die Car-ID geprüft wird.
 
 </div>
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
 ![Pico Display – Abbildung 5](/img/produkte-pico-ladestation-pico-display/05.png)
 
@@ -79,10 +79,10 @@ Wird angezeigt, wenn das Auto eingesteckt wird und die Car-ID geprüft wird.
 <div className="row">
 <div className="col col--8">
 
-Wird angezeigt, wenn das Fahrzeug nicht autorisiert ist oder die die Car-ID im eCarUp Fahrer account nicht hinterlegt ist. Anschliessend wechselt die Pico in den "Ablauf Eingestecktes Auto warten auf Freigabe"
+Wird angezeigt, wenn das Fahrzeug nicht autorisiert ist oder die Car-ID im eCarUp Fahrer account nicht hinterlegt ist. Anschliessend wechselt die Pico in den "Ablauf Eingestecktes Auto warten auf Freigabe"
 
 </div>
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
 ![Pico Display – Abbildung 6](/img/produkte-pico-ladestation-pico-display/06.png)
 
@@ -95,7 +95,7 @@ Wird angezeigt, wenn das Fahrzeug nicht autorisiert ist oder die die Car-ID im e
 Wird angezeigt, wenn das Fahrzeug autorisiert ist. Anschliessend wechselt die Pico in den "Ablauf aktive Ladung".
 
 </div>
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
 ![Pico Display – Abbildung 7](/img/produkte-pico-ladestation-pico-display/07.png)
 
@@ -107,10 +107,10 @@ Wird angezeigt, wenn das Fahrzeug autorisiert ist. Anschliessend wechselt die Pi
 <div className="row">
 <div className="col col--8">
 
-RFID Karte wird kontrolliert. Bei einer sehr guten Verbindung, kann es sein, dass der Text gar nicht angezeigt wird.
+RFID Karte wird kontrolliert. Bei einer sehr guten Verbindung kann es sein, dass der Text gar nicht angezeigt wird.
 
 </div>
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
 ![Pico Display – Abbildung 8](/img/produkte-pico-ladestation-pico-display/08.png)
 
@@ -123,7 +123,7 @@ RFID Karte wird kontrolliert. Bei einer sehr guten Verbindung, kann es sein, das
 Wird angezeigt, wenn die RFID autorisiert ist.
 
 </div>
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
 ![Pico Display – Abbildung 9](/img/produkte-pico-ladestation-pico-display/09.png)
 
@@ -133,10 +133,10 @@ Wird angezeigt, wenn die RFID autorisiert ist.
 <div className="row">
 <div className="col col--8">
 
-Wird angezeigt, wenn die RFID-Autorisierung erfolgreich war und kein Auto eingesteckt ist. Wenn ein Auto eingesteckt ist, wird diese Anzeige ignoriert und die Pico welchselt in den "Ablauf aktive Ladung".
+Wird angezeigt, wenn die RFID-Autorisierung erfolgreich war und kein Auto eingesteckt ist. Wenn ein Auto eingesteckt ist, wird diese Anzeige ignoriert und die Pico wechselt in den "Ablauf aktive Ladung".
 
 </div>
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
 ![Pico Display – Abbildung 10](/img/produkte-pico-ladestation-pico-display/10.png)
 
@@ -149,7 +149,7 @@ Wird angezeigt, wenn die RFID-Autorisierung erfolgreich war und kein Auto einges
 Wird angezeigt, wenn die RFID nicht autorisiert ist. Anschliessend wechselt die Pico in den "Ablauf Eingestecktes Auto wartet auf Freigabe" oder "Ablauf keine aktive Ladung".
 
 </div>
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
 ![Pico Display – Abbildung 11](/img/produkte-pico-ladestation-pico-display/11.png)
 
@@ -166,7 +166,7 @@ Wird angezeigt, wenn die RFID nicht autorisiert ist. Anschliessend wechselt die 
 Ladung wurde mit QR-Code erfolgreich freigegeben.
 
 </div>
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
 ![Pico Display – Abbildung 12](/img/produkte-pico-ladestation-pico-display/12.png)
 
@@ -179,7 +179,7 @@ Ladung wurde mit QR-Code erfolgreich freigegeben.
 Wird angezeigt, wenn die Autorisierung erfolgreich war und kein Auto eingesteckt ist. Wenn ein Auto eingesteckt ist, wird diese Anzeige ignoriert und die Pico wechselt in den "Ablauf aktive Ladung".
 
 </div>
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
 ![Pico Display – Abbildung 13](/img/produkte-pico-ladestation-pico-display/10.png)
 
@@ -196,7 +196,7 @@ Wird angezeigt, wenn die Autorisierung erfolgreich war und kein Auto eingesteckt
 6A Minimum Ladestrom
 
 </div>
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
 ![Pico Display – Abbildung 14](/img/produkte-pico-ladestation-pico-display/14.png)
 
@@ -215,7 +215,7 @@ Wert / Symbol Beschreibung
 Wenn der maximale Ladestrom von der Station erhöht wird, zeigt es kurz dieses Bild mit dem neuen max. Ladestrom an.
 
 </div>
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
 ![Pico Display – Abbildung 15](/img/produkte-pico-ladestation-pico-display/15.png)
 
@@ -236,7 +236,7 @@ kWh Einheit des angezeigten Verbrauchs
 Batterie Keine Bedeutung
 
 </div>
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
 ![Pico Display – Abbildung 16](/img/produkte-pico-ladestation-pico-display/16.png)
 
@@ -255,7 +255,7 @@ Wert / Symbol Beschreibung
 00:05:13 Dauer der aktiven Ladung
 
 </div>
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
 ![Pico Display – Abbildung 17](/img/produkte-pico-ladestation-pico-display/17.png)
 
@@ -276,7 +276,7 @@ kW Einheit der angezeigten Leistung
  grün = Bezug Strom vom Auto pro Phase. (1 Pixel = 1A)
 
 </div>
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
 ![Pico Display – Abbildung 18](/img/produkte-pico-ladestation-pico-display/18.png)
 
@@ -292,10 +292,10 @@ Wert / Symbol Beschreibung
 
 32A Max. zugelassener Strom 
 
-Wenn der Maximale Ladestrom von der Station verringert wird, zeigt es kurz dieses Bild mit dem neuen max. Ladestrom an
+Wenn der maximale Ladestrom von der Station verringert wird, zeigt es kurz dieses Bild mit dem neuen max. Ladestrom an
 
 </div>
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
 ![Pico Display – Abbildung 19](/img/produkte-pico-ladestation-pico-display/19.png)
 
@@ -310,7 +310,7 @@ Wert / Symbol Beschreibung
 6A Minimum Ladestrom
 
 </div>
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
 ![Pico Display – Abbildung 20](/img/produkte-pico-ladestation-pico-display/20.png)
 
@@ -327,7 +327,7 @@ Wert / Symbol Beschreibung
 BYE Erfolgreich abgemeldet
 
 </div>
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
 ![Pico Display – Abbildung 21](/img/produkte-pico-ladestation-pico-display/21.png)
 
@@ -346,7 +346,7 @@ Wert / Symbol Beschreibung
 Nach der Abmeldung wird der Gesamtverbrauch der letzten Ladung ca. 14 Sek. angezeigt. 
 
 </div>
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
 ![Pico Display – Abbildung 22](/img/produkte-pico-ladestation-pico-display/22.png)
 
@@ -355,7 +355,7 @@ Nach der Abmeldung wird der Gesamtverbrauch der letzten Ladung ca. 14 Sek. angez
 
 ### Ablauf Station neustarten
 
-Dieser Ablauf beschreibt das neustarten einer Station über das Portal
+Dieser Ablauf beschreibt das Neustarten einer Station über das Portal
 
 <div className="row">
 <div className="col col--8">
@@ -365,7 +365,7 @@ Wert / Symbol Beschreibung
 BYE Signal für den Neustart
 
 </div>
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
 ![Pico Display – Abbildung 23](/img/produkte-pico-ladestation-pico-display/21.png)
 
@@ -382,7 +382,7 @@ Wert / Symbol Beschreibung
 kWh Einheit des angezeigten Verbrauchs
 
 </div>
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
 ![Pico Display – Abbildung 24](/img/produkte-pico-ladestation-pico-display/22.png)
 
@@ -392,10 +392,10 @@ kWh Einheit des angezeigten Verbrauchs
 <div className="row">
 <div className="col col--8">
 
-Der Bildschirm bleibt Schwarz für ca. 20 Sek.
+Der Bildschirm bleibt schwarz für ca. 20 Sek.
 
 </div>
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
 ![Pico Display – Abbildung 25](/img/produkte-pico-ladestation-pico-display/25.png)
 
@@ -410,7 +410,7 @@ Ist das erste Anzeichen, dass die Pico aufstartet.
 Nach dem Ablauf Station neustarten wechselt die Pico in den Ablauf MID Mode
 
 </div>
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
 ![Pico Display – Abbildung 26](/img/produkte-pico-ladestation-pico-display/26.png)
 
@@ -435,7 +435,7 @@ Fatale Störung
 - Fehler 4: Problem mit dem RDC sensor
 
 </div>
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
 ![Pico Display – Abbildung 27](/img/produkte-pico-ladestation-pico-display/27.png)
 
@@ -451,7 +451,7 @@ SIM Error
 - Problem bei der SIM
 
 </div>
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
 ![Pico Display – Abbildung 28](/img/produkte-pico-ladestation-pico-display/28.png)
 
@@ -467,7 +467,7 @@ Diode Error
 - Die Diode im Auto ist nicht korrekt. Prüfe das Ladekabel, sowie die Steckverbindung zum Auto 
 
 </div>
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
 ![Pico Display – Abbildung 29](/img/produkte-pico-ladestation-pico-display/29.png)
 
@@ -480,10 +480,10 @@ Diode Error
 
 Cable Error
 
-- Das Ladekabel meldet einen Fehler. Prüfe ob es korrekt eingesteckt ist. 
+- Das Ladekabel meldet einen Fehler. Prüfe, ob es korrekt eingesteckt ist. 
 
 </div>
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
 ![Pico Display – Abbildung 30](/img/produkte-pico-ladestation-pico-display/30.png)
 
@@ -499,7 +499,7 @@ P Limit
 - Der Lastabwurf ist aktiv. Die Ladeleistung wurde reduziert. 
 
 </div>
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
 ![Pico Display – Abbildung 31](/img/produkte-pico-ladestation-pico-display/31.png)
 
@@ -517,7 +517,7 @@ Warn RDC
 - Der RDC-DD 6mA nach IEC 62955 (Fehlergleichstrom- Nachweiseinrichtung) hat ausgelöst. Die Ladung wurde aus Sicherheitsgründen beendet. 
 
 </div>
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
 ![Pico Display – Abbildung 32](/img/produkte-pico-ladestation-pico-display/32.png)
 
@@ -533,7 +533,7 @@ Offline
 - Die Ladestation hat keine Verbindung zur smart-me Cloud. 
 
 </div>
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
 ![Pico Display – Abbildung 33](/img/produkte-pico-ladestation-pico-display/33.png)
 
@@ -549,10 +549,10 @@ Offline
 
 LED leuchtet Orange/ Rot in der rechten oberen Ecke des Displays
 
-- Hinweis auf eine Fehlermeldung. Nach spätesten 30 Sekunden wird das Fehlerbild (z.B. Cable Error) auf dem Bildschirm angezeigt.
+- Hinweis auf eine Fehlermeldung. Nach spätestens 30 Sekunden wird das Fehlerbild (z.B. Cable Error) auf dem Bildschirm angezeigt.
 
 </div>
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
 ![Pico Display – Abbildung 34](/img/produkte-pico-ladestation-pico-display/34.png)
 
@@ -564,7 +564,7 @@ LED leuchtet Orange/ Rot in der rechten oberen Ecke des Displays
 
 ### MID Mode
 
-Um in den MID Modus zukommen,  kann man über die erweitere  Aktion im smart-me Portal auf "Zählerstand auf Display anzeigen" klicken, Start, bzw. Neustart der Station oder über den Helligkeitssensor.
+Um in den MID Modus zu kommen,  kann man über die erweiterte  Aktion im smart-me Portal auf "Zählerstand auf Display anzeigen" klicken, Start, bzw. Neustart der Station oder über den Helligkeitssensor.
 
 Mit einer Taschenlampe am Helligkeitssensor kann der Benutzer folgenden Code ein blinken: Dunkel - Hell - Dunkel - Hell - Dunkel (Jeder Zustand muss zwischen 1 und 5 Sekunden dauern)
 
@@ -576,7 +576,7 @@ Wert / Symbol Beschreibung
 Punkt Lichtsensor
 
 </div>
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
 ![Pico Display – Abbildung 35](/img/produkte-pico-ladestation-pico-display/35.png)
 
@@ -596,7 +596,7 @@ v 2.2 Version Nummer der Firmware
 CRC 4F55 Prüfsumme der Firmware
 
 </div>
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
 ![Pico Display – Abbildung 36](/img/produkte-pico-ladestation-pico-display/36.png)
 
@@ -627,7 +627,7 @@ x4: Fehler Display Prozess (Prüfsumme)
 4x: Fehler Meter-SOM (Flash) Sonstige: Genereller Fehler Meter-SOM 
 
 </div>
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
 ![Pico Display – Abbildung 37](/img/produkte-pico-ladestation-pico-display/37.png)
 
@@ -645,7 +645,7 @@ M MID-Mode aktiv
 00013.04 kWh Der Zählerstand in kWh mit 2 Nachkommastellen.
 
 </div>
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
 ![Pico Display – Abbildung 38](/img/produkte-pico-ladestation-pico-display/38.png)
 

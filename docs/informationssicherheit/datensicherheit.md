@@ -13,13 +13,13 @@ Datenschutz und Datensicherheit haben bei smart-me einen hohen Stellenwert. Wir 
 - App und Web: Die Sicherheit der smart-me Webseite und der smart-me Apps
 
 
-Weitere Informationen findest du auch in unserer umfangreichen [Datenschutzererklärung](https://web.smart-me.com/datenschutzerklaerung/).
+Weitere Informationen findest du auch in unserer umfangreichen [Datenschutzerklärung](https://web.smart-me.com/datenschutzerklaerung/).
 
 ## Geräte
 
 Alle Verbindungen zwischen den smart-me Geräten (Zähler, Module und Gateways) und der smart-me Cloud sind verschlüsselt. Jedes Gerät verfügt über einen eigenen, einmaligen Schlüssel (256 Bit). Als Algorithmus wird Advanced Encryption Standard (AES) genutzt. Somit wird die komplette Kommunikation zwischen der smart-me Cloud und den Geräten verschlüsselt und validiert. 
 
-Tipp: Trage aktiv zu einem noch sicheren Schutz deiner Daten bei, indem du dein WiFi-Netzwerk mit einem starken Passwort verschlüsselst.
+Tipp: Trage aktiv zu einem noch sichereren Schutz deiner Daten bei, indem du dein WiFi-Netzwerk mit einem starken Passwort verschlüsselst.
 
 ## Cloud
 
@@ -31,7 +31,7 @@ Mit der Cloud werden Daten nicht lokal am Arbeitsplatz, sondern in einem externe
 
 smart-me legt grossen  Wert darauf, die Daten in der Nähe des Kunden zu speichern. Die Server von smart-me stehen in der Schweiz.  Mit dem Server-Standort Schweiz garantieren wir die Datensicherung nach Schweizer Recht.
 
-Die Rechenzentren sind mehrfach zertifiziert und gesichert Rechenzentren. Unter anderem sind diese nach ISO 27001 zertifiziert, der anerkannten Norm zur Informationssicherheit.
+Die Rechenzentren sind mehrfach zertifizierte und gesicherte Rechenzentren. Unter anderem sind diese nach ISO 27001 zertifiziert, der anerkannten Norm zur Informationssicherheit.
 
 ### Ausfallsicherheit
 

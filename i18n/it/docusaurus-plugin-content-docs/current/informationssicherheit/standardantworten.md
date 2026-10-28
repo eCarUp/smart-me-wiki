@@ -1,10 +1,10 @@
 ---
 title: 'Risposte standard'
 slug: '/informationssicherheit/standardantworten'
-description: 'Questa pagina risponde a domande generali sulla sicurezza delle informazioni e dei dati presso smart-me AG e ha lo scopo di consentire ai partner di compilare autonomamente i questionari di sicurezza standard…'
+description: 'Questa pagina risponde a domande generali sulla sicurezza delle informazioni e dei dati presso smart-me AG e mira a consentire ai partner di compilare autonomamente i questionari di sicurezza standard…'
 sidebar_label: 'Risposte standard'
 ---
-Questa pagina risponde a domande generali sulla sicurezza delle informazioni e dei dati presso smart-me AG e ha lo scopo di consentire ai partner di compilare autonomamente i questionari di sicurezza standard.
+Questa pagina risponde a domande generali sulla sicurezza delle informazioni e dei dati presso smart-me AG e mira a consentire ai partner di compilare autonomamente i questionari di sicurezza standard.
 
 Contatto: security@smart-me.com
 
@@ -52,7 +52,7 @@ Ultimo aggiornamento: 16.01.2025
 <summary>Come vengono cancellati i dati?</summary>
 
 - I clienti sono responsabili dei propri account smart-me e possono cancellarli in qualsiasi momento nel portale web.
-    Se un cliente cancella il proprio account, questi dati vengono rimossi in modo irreversibile.
+    Quando un cliente cancella il proprio account, i dati vengono rimossi in modo irreversibile.
 
 - Dopo 30 giorni non esiste più alcun backup.
 
@@ -63,7 +63,7 @@ Ultimo aggiornamento: 16.01.2025
 <details id="wer-hat-zugang-zu-den-daten">
 <summary>Chi ha accesso ai dati?</summary>
 
-L'accesso ai nostri server è limitato agli IP interni del cluster. Smart-me ha accesso ai dati dell'account dei clienti solo con il loro esplicito consenso
+L'accesso ai nostri server è limitato agli IP interni del cluster. Smart-me ha accesso ai dati dell'account dei clienti solo con il loro esplicito consenso.
 
 </details>
 
@@ -97,23 +97,23 @@ La disponibilità dei sistemi è garantita dall'infrastruttura di Microsoft Azur
 <details id="wie-werden-daten-verschluesselt">
 <summary>Come vengono crittografati i dati?</summary>
 
-I dati dell'applicazione non sono crittografati singolarmente, ma lo è il database nel suo insieme, in cui sono contenuti i dati dell'applicazione. 
+I dati dell'applicazione non sono crittografati singolarmente, ma lo è il database nel suo complesso, che contiene i dati dell'applicazione. 
 
 La comunicazione tra contatori e cloud è crittografata con AES-256.
 
 </details>
 
 <details id="wie-werden-passwoerter-von-smart-me-konten-gehashed">
-<summary>Come vengono sottoposte ad hashing le password degli account smart-me?</summary>
+<summary>Come vengono sottoposte a hashing le password degli account smart-me?</summary>
 
-Le password vengono sottoposte ad hashing con RIPEMD-160 con salt dinamico.
+Le password vengono sottoposte a hashing con RIPEMD-160 con salt dinamico.
 
 </details>
 
 <details id="unterstuetzen-wir-foederierte-identitaeten">
 <summary>Supportiamo le identità federate?</summary>
 
-No. Fa eccezione l'accesso tramite la nostra API, che oltre a Basic Auth supporta anche oAuth 2.0.
+No. L'eccezione è l'accesso tramite la nostra API, che oltre a Basic Auth supporta anche oAuth 2.0.
 
 </details>
 
@@ -150,14 +150,14 @@ Sì, tuttavia i dettagli specifici sono confidenziali.
 </details>
 
 <details id="verfuegen-wir-ueber-ein-informationssicherheitszertifikat">
-<summary>Disponiamo di un certificato di sicurezza delle informazioni?</summary>
+<summary>Disponiamo di una certificazione sulla sicurezza delle informazioni?</summary>
 
 No, tuttavia il nostro fornitore di infrastruttura cloud, Microsoft Azure, è certificato ISO27001.
 
 </details>
 
 <details id="fuehren-wir-it-sicherheitsaudits-bei-unseren-anbietern-durch">
-<summary>Eseguiamo audit di sicurezza IT presso i nostri fornitori?</summary>
+<summary>Effettuiamo audit di sicurezza informatica presso i nostri fornitori?</summary>
 
 No
 
@@ -171,7 +171,7 @@ No
 </details>
 
 <details id="erlauben-wir-it-audits">
-<summary>Consentiamo audit IT?</summary>
+<summary>Consentiamo audit informatici?</summary>
 
 Sì, ma solo con informazioni pubblicamente disponibili
 
@@ -186,7 +186,7 @@ Poiché la nostra applicazione non è ospitata localmente, la nostra architettur
 
 - Rete di produzione 
 
-- Wi-Fi ospiti
+- WLAN ospiti
 
 - Rete dell'ufficio
 
@@ -213,19 +213,19 @@ No
 <details id="verfuegen-wir-ueber-dedizierte-cybersicherheitsressourcen">
 <summary>Disponiamo di risorse dedicate alla cybersicurezza?</summary>
 
-Sì, disponiamo di risorse interne dedicate alla cybersicurezza.
+Sì, disponiamo di risorse interne per la cybersicurezza.
 
 </details>
 
 <details id="halten-wir-ihre-software-und-systeme-auf-dem-neuesten-stand">
-<summary>Manteniamo i Suoi software e sistemi aggiornati?</summary>
+<summary>Manteniamo aggiornati i Suoi software e sistemi?</summary>
 
 Sì, tutti i sistemi e i dispositivi vengono aggiornati regolarmente alle versioni stabili più recenti.
 
 </details>
 
 <details id="haben-wir-eine-av-schutzloesung-installiert">
-<summary>Abbiamo installato una soluzione di protezione AV?</summary>
+<summary>Abbiamo installato una soluzione di protezione antivirus?</summary>
 
 Sì, tutti i dispositivi sono dotati di:
 

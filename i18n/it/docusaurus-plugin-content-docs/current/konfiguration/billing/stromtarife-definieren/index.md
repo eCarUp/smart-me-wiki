@@ -9,93 +9,93 @@ vorheriger_schritt: konfiguration/billing/mieterspiegel-erfassen
 ---
 <Menueweg>Fatturazione → Immobili & tariffe</Menueweg>
 
-## Fissare il prezzo dell'elettricità
+## Stabilire il prezzo dell'elettricità
 
 Nel video a destra Guy ti spiega le basi di come sono composti in generale i prezzi dell'elettricità. 
 
 
 
-Ora puoi però utilizzare anche il nostro calcolatore online delle tariffe elettriche, che ti dà una mano e si basa su questa spiegazione.
+Ora puoi però anche utilizzare il nostro calcolatore online delle tariffe elettriche, che ti dà una mano e si basa su questa spiegazione.
 
 [Calcolatore delle tariffe elettriche smart-me](/konfiguration/billing/stromtarife-definieren/stromtarif-rechner)
 
-<Video src="ju7m6Bs8U_M" title="Video YouTube, smart-me Billing - Fissare i prezzi nel RCP" />
+<Video src="ju7m6Bs8U_M" title="Video YouTube, smart-me Billing - Stabilire i prezzi RCP" />
 
-smart-me Billing: fissare i prezzi nel RCP (raggruppamento ai fini del consumo proprio), spiegato da Guy.
+smart-me Billing: stabilire i prezzi RCP, spiegato da Guy.
 
-Attenzione: il video è stato registrato con una versione precedente del file Excel, che conteneva ancora un errore nelle formule. Il file Excel è stato corretto.
+Attenzione: il video è stato registrato con una vecchia versione del file Excel, che conteneva ancora un errore nelle formule. Il file Excel è stato corretto.
 
-[Esempio Preise im ZEV festlegen.xlsx](https://drive.google.com/uc?export=download&id=1cGOAL1UIo4ZmvW55drHcfdPw0v4vnJ9Z) 
+[Esempio di definizione dei prezzi nel RCP.xlsx](https://drive.google.com/uc?export=download&id=1cGOAL1UIo4ZmvW55drHcfdPw0v4vnJ9Z) 
 
 ## Configurare le tariffe elettriche
 
-In smart-me Billing si può lavorare con le tariffe dell'elettricità oppure con le tariffe virtuali. La soluzione con le tariffe dell'elettricità è adatta esclusivamente alla realizzazione di sistemi puramente con elettricità di rete. In tutti gli altri casi vanno utilizzate le tariffe virtuali.
+In smart-me Billing si può lavorare con le tariffe di elettricità oppure con le tariffe virtuali. La soluzione con le tariffe di elettricità è adatta esclusivamente alla realizzazione di sistemi con sola elettricità di rete. In tutti gli altri casi vanno utilizzate le tariffe virtuali.
 
-### 1.Procurati il foglio tariffario del tuo fornitore di energia
+### 1.Procurati il foglio tariffale del tuo fornitore di energia
 
-Il foglio tariffario del tuo fornitore di energia è disponibile online sul suo sito web già mesi prima dell'inizio del nuovo periodo tariffario.
+Il foglio tariffale del tuo fornitore di energia è disponibile online sul suo sito web già mesi prima dell'inizio del nuovo periodo tariffale.
 
 Informati anche su quale tariffa acquisti esattamente dal fornitore di energia: 
 
-- Verde, blu, grigia o altre versioni
+- Verde , Blu, Grigio o altre versioni
 
 - Tariffa unica, tariffa doppia o dinamica.
 
 
-Leggere il foglio tariffario:
+Leggere il foglio tariffale:
 
-Le informazioni rilevanti sono in parte un po' sparse. Il foglio tariffario stesso è di solito composto da 4 sezioni:
+Le informazioni rilevanti sono in parte un po' sparse. Il foglio tariffale vero e proprio si compone di solito di 4 sezioni:
 
 - Prezzi dell'energia
 
-- Prezzi per l'utilizzazione della rete
+- Prezzi per l'utilizzo della rete
 
-- Corrispettivi per la misurazione
+- Tariffe di misurazione
 
 - Tributi pubblici
 
 
-I tributi pubblici in particolare non sono riportati integralmente sul foglio tariffario. I tributi comunali variano da comune a comune e sono riportati in un foglio tariffario esterno. Nel 99% dei casi il link si trova nella nota a piè di pagina del foglio tariffario.
+I tributi pubblici in particolare non figurano completamente sul foglio tariffale. I tributi comunali variano da comune a comune e sono riportati in un foglio tariffale esterno. Nel 99% dei casi il link si trova nella nota a piè di pagina del foglio tariffale.
 
-Procurati questo valore per la tua tariffazione tramite il link stampato sul foglio tariffario.
+Procurati questo valore per la tua tariffazione tramite il link stampato sul foglio tariffale.
 
-Di solito è anch'esso un valore in Rp. / kWh, ma può anche essere indicato in % dell'utilizzazione della rete (componenti differenti).
+Di solito è anch'esso un valore in ct. / kWh, ma può anche essere indicato in % dell'utilizzo della rete (componenti diverse).
 
 ![Definire le tariffe elettriche – Figura 2](/img/konfiguration-billing-stromtarife-definieren/02.png)
 
-### 2\. Scegli il calcolo della tariffa solare da utilizzare per il tuo (v)RCP
+### 2\. Scegli il calcolo della tariffa solare da utilizzare per il tuo RCP (o vRCP)
 
-Puoi scegliere tra due approcci fondamentali:
+Puoi scegliere tra due approcci di fondo:
 
 - Metodo forfettario all'80% del prodotto di rete standard
-    Qui è importante che il metodo forfettario copra automaticamente tutti gli altri costi. Non possono essere addebitati costi per la misurazione, il conteggio e la gestione della vendita di elettricità del RCP.
+    Importante: il metodo forfettario copre automaticamente tutti gli altri costi. Non possono essere addebitati costi per la misurazione, il conteggio e la gestione della vendita di elettricità del RCP.
 
-    Qui non possono essere addebitati costi per la misurazione del RCP, l'amministrazione e il conteggio del RCP.
-    La tassa per il contatore dell'azienda elettrica per il contatore principale del RCP non può essere addebitata separatamente in aggiunta.
+    In questo caso non possono essere addebitati costi per la misurazione del RCP, l'amministrazione e il conteggio del RCP.
+    La tassa per il contatore del fornitore di energia per il contatore principale del RCP non può essere addebitata separatamente in aggiunta.
 
     - -   Variante 1: elettricità di rete fatturata 1:1, elettricità solare all'80% dei costi di base e all'80% del prezzo d'acquisto dell'elettricità di rete
-            Questa variante è adatta all'ottimizzazione del profitto all'interno del RCP, fintanto che il tasso di occupazione degli affitti è elevato.
+            Questa variante è adatta all'ottimizzazione degli utili all'interno del RCP, finché il tasso di occupazione degli appartamenti in affitto è elevato.
             Questo metodo non è adatto se nello stesso edificio si trovano grandi consumatori industriali ed è presente un sistema multitariffa.
             Soluzione migliore per i sistemi multitariffa.
 
         - Variante 2: elettricità di rete 1:1, elettricità solare all'80% del prezzo di riferimento Elcom (da utilizzare in caso di tariffe dinamiche del fornitore di energia)
-            Questa variante è adatta a tutti i RCP senza grandi consumatori industriali ed è la più semplice da implementare.
+            Questa variante è adatta a tutti i RCP senza grandi consumatori industriali ed è la più semplice da attuare.
             Opzione migliore in caso di frequenti sfitti.
-            Se questa variante viene utilizzata in combinazione con industria e multitariffa (tariffa doppia), può succedere che l'utente industriale, a causa della tariffa solare più alta, alla fine paghi di più che al di fuori del RCP!
+            Se questa variante viene utilizzata in combinazione con industria e multitariffa (tariffa doppia), può succedere che il cliente industriale, a causa della tariffa solare più alta, alla fine paghi di più che al di fuori del RCP!
 
 - Costi effettivi (calcolo dei costi di produzione)
-    Con questo metodo possono essere addebitati costi per la misurazione, il conteggio e la gestione, in aggiunta al valore calcolato dell'elettricità solare. Trovi i dettagli in merito nel manuale VEWA. 
+    Con questo metodo possono essere addebitati costi per la misurazione, il conteggio e la gestione, in aggiunta al valore calcolato dell'elettricità solare. I dettagli si trovano nel manuale VEWA. 
 
-    - -   Questo metodo è adatto se l'80% dell'elettricità di rete non fosse eventualmente sufficiente a coprire i costi del tuo impianto solare. Questo caso è molto raro.
+    - -   Questo metodo è adatto se l'80% dell'elettricità di rete non dovesse coprire i costi del tuo impianto solare. Questo succede molto raramente.
 
         - Questo metodo deve essere comprovato anno per anno con il calcolo e aumenta l'onere amministrativo.
 
 
-### 3\. Calcola le tue tariffe per il periodo tariffario
+### 3\. Calcola le tue tariffe per il periodo tariffale
 
-Per il calcolo, il modo più semplice è usare il nostro calcolatore tariffario. A seconda del metodo scelto, ti indica quali dati devi inserire in smart-me.
+Il modo più semplice per il calcolo è il nostro calcolatore delle tariffe. A seconda del metodo scelto, ti indica quali dati devi inserire in smart-me.
 
-In caso di tariffa dinamica: scegli il metodo Elcom 80% e cerca nel calcolatore la tariffa H4 della tua regione e del tuo fornitore di energia come riferimento.
+Con la tariffa dinamica: scegli il metodo 80% Elcom e cerca nel calcolatore la tariffa H4 della tua regione e del tuo fornitore di energia come riferimento.
 
 [Calcolatore delle tariffe elettriche smart-me](/konfiguration/billing/stromtarife-definieren/stromtarif-rechner)
 
@@ -108,7 +108,7 @@ Torna ora alla configurazione dell'immobile.
 
 ![Definire le tariffe elettriche – Figura 3](/img/konfiguration-billing-stromtarife-definieren/03.png)
 
-Crea ora le tariffe di rete del tuo periodo tariffario
+Crea ora le tariffe di rete del tuo periodo tariffale
 
 <div className="row">
 <div className="col col--6">
@@ -120,7 +120,7 @@ Crea ora le tariffe di rete del tuo periodo tariffario
 
 ### Esempio: tariffa doppia
 
-La tempistica della tariffa la rappresenti nelle azioni se/allora:
+Le fasce orarie della tariffa si definiscono nelle azioni se:
 
 [Definire le fasce tariffarie](/konfiguration/wenndann-aktionen/tarifzeiten-definieren)
 
@@ -137,7 +137,7 @@ Esempio di tariffa unica con metodo forfettario all'80%:
 
 Crea ora una tariffa di rete con il prezzo indicato:
 
-- Tariffa di rete 2026: 0.19707 CHF / kWh
+- Tariffa di rete 2026 : 0.19707 CHF / kWh
 
 ![Definire le tariffe elettriche – Figura 5](/img/konfiguration-billing-stromtarife-definieren/05.png)
 
@@ -154,7 +154,7 @@ Crea ora due tariffe di rete con i prezzi indicati:
 
 - Tariffa di rete NT 2026: 0.17007 CHF / kWh
 
-In caso di tariffe doppie, la tempistica deve essere creata prima mediante le azioni [SE/ALLORA](/konfiguration/wenndann-aktionen); queste azioni possono poi essere collegate con la "Condizione aggiuntiva" ("Zusätzliche Bedingung") per gestire la validità nel corso della settimana.
+Con le tariffe doppie, le fasce orarie devono essere create prima tramite le azioni [SE/ALLORA](/konfiguration/wenndann-aktionen); queste azioni possono poi essere collegate con la "Condizione aggiuntiva" ("Zusätzliche Bedingung") per controllarne la validità nel corso della settimana.
 
 ![Definire le tariffe elettriche – Figura 7](/img/konfiguration-billing-stromtarife-definieren/07.png)
 
@@ -168,30 +168,30 @@ In caso di tariffe doppie, la tempistica deve essere creata prima mediante le az
 **Nota:**
 Esistono diverse tariffe solari e tariffe batteria con funzionalità e requisiti differenti.
 
-In generale la **tariffa solare vRCP** è la scelta migliore e più universale.
+In generale la **tariffa solare vRCP** (Solartarif vZEV) è la scelta migliore e più universale.
 
-Ciò che non può fare è definire tariffe diverse per la batteria e per l'energia solare. Per questo occorre utilizzare la tariffa alternativa.
+Ciò che questa tariffa non consente è definire tariffe diverse per la batteria e per l'energia solare. Per farlo va utilizzata la tariffa alternativa.
 
-Trovi i dettagli più sotto nella sezione "Tutti i dettagli".
+I dettagli si trovano più sotto nella sezione "Tutti i dettagli".
 
 In questo esempio viene utilizzata la tariffa solare vRCP.
 
 Misurazioni:
 
-Tutte le tariffe solari richiedono punti di misura rilevanti che devono essere collegati.
+Tutte le tariffe solari richiedono punti di misura rilevanti, che devono essere collegati.
 
 Opzione più semplice: 
 
-- Campo "Contatore solare" ("Solarzähler"): seleziona tutti i contatori di produzione (solare e batteria).
+- Campo „Contatore solare" („Solarzähler"): seleziona tutti i contatori di produzione (solare e batteria).
 
-- Campo "Contatore di bilancio" ("Bilanzzähler"): seleziona i contatori di bilancio (1 casa: contatore di allacciamento dell'edificio, area: contatore dell'area o più contatori di allacciamento dell'edificio)
+- Campo „Contatore di bilancio" („Bilanzzähler"): seleziona i contatori di bilancio (1 edificio: contatore dell'allacciamento dell'edificio; area: contatore dell'area o più contatori dell'allacciamento)
 
 
 Opzione alternativa: 
 
-- Campo "Contatore solare" ("Solarzähler"): seleziona tutti i contatori di produzione (solare e batteria).
+- Campo „Contatore solare" („Solarzähler"): seleziona tutti i contatori di produzione (solare e batteria).
 
-- Campo "Contatore di bilancio" ("Bilanzzähler"): seleziona tutti i contatori di consumo e i contatori di produzione.
+- Campo „Contatore di bilancio" („Bilanzzähler"): seleziona tutti i contatori di consumo e di produzione.
 
 
 <div className="row">
@@ -215,13 +215,13 @@ Opzione alternativa:
 
 ### Avviare il ricalcolo delle tariffe elettriche
 
-Se si utilizzano le tariffe virtuali, al termine della configurazione (e in caso di successive modifiche della configurazione) occorre cliccare su Ricalcola (Neu berechnen) (preferibilmente a partire dall'1.1.2018). In questo modo tutti i valori precedenti vengono ricalcolati.
+Se vengono utilizzate le tariffe virtuali, alla fine della configurazione (e in caso di successive modifiche alla configurazione) occorre cliccare su Ricalcola (Neu berechnen) (idealmente a partire dal 1.1.2018). In questo modo tutti i valori precedenti vengono ricalcolati.
 
-Prima di poter emettere una fattura, bisogna attendere che l'ultimo valore calcolato sia su "Oggi" ("Heute") e che non compaia alcun messaggio di errore.
+Prima di poter emettere una fattura occorre attendere che l'ultimo valore calcolato sia su "Oggi" ("Heute") e che non compaia alcun messaggio d'errore.
 
-I messaggi di errore riconducibili a un problema di configurazione vengono di norma visualizzati entro un minuto. Conviene quindi cliccare su "Ricalcola" ("Neu berechnen") e attendere brevemente per vedere se compare o meno un messaggio di errore.
+I messaggi d'errore riconducibili a un problema di configurazione vengono di norma visualizzati entro un minuto. Conviene quindi cliccare su "Ricalcola" ("Neu berechnen") e attendere brevemente per vedere se compare o meno un messaggio d'errore.
 
-Suggerimento: in caso di modifiche dei prezzi o degli inquilini (indirizzi, data di entrata o di uscita) non è necessario un ricalcolo; in tutti gli altri casi un ricalcolo è sempre necessario.
+Suggerimento: in caso di modifiche dei prezzi o degli inquilini (indirizzi, data di entrata o di uscita) un ricalcolo non è necessario; in tutti gli altri casi il ricalcolo è sempre necessario.
 
 ![Definire le tariffe elettriche – Figura 12](/img/konfiguration-billing-stromtarife-definieren/12.png)
 
@@ -229,75 +229,75 @@ Suggerimento: in caso di modifiche dei prezzi o degli inquilini (indirizzi, data
 
 ![Definire le tariffe elettriche – Figura 13](/img/konfiguration-billing-stromtarife-definieren/13.png)
 
-Con le tariffe di punta di potenza è possibile coprire modelli elettrici ampliati o innovativi dei fornitori di energia. 
+Con le tariffe di picco si possono coprire modelli tariffari estesi o innovativi dei fornitori di energia. 
 
-Nel foglio tariffario la si riconosce dalla sua unità. Di solito è indicata ad es. come 1.50.- / kW / mese
+Nel foglio tariffale è riconoscibile dalla sua unità di misura. Indicata di solito come p.es. 1.50.- / kW / mese
 
-Nel nostro esempio inseriamo il prezzo calcolato.
+Nel nostro esempio registriamo il prezzo calcolato.
 
-I costi della potenza di punta possono essere registrati con uno di due metodi:
+I costi della potenza di picco possono essere registrati con uno dei due metodi seguenti:
 
 - Misurazione del consumo: automaticamente tramite la propria misurazione di bilancio
 
-- Registrazione dei costi: registrazione successiva dei costi per ogni mese dopo il ricevimento della fattura
+- Registrazione dei costi: registrazione successiva dei costi per ogni mese dopo aver ricevuto la fattura
 
 
 Durata di validità:
-La durata di validità di una tariffa di punta di potenza è limitata a 1 anno; può essere creata più volte per più anni.
+La durata di validità di una tariffa di picco è limitata a 1 anno; può essere creata più volte per più anni.
 
-Le tariffe di punta si basano sui costi sostenuti mensilmente (fattura del fornitore di energia) oppure dipendono dalla tariffa registrata e dalla misurazione attiva del punto di misura principale.
+Le tariffe di picco si basano sui costi effettivamente sostenuti ogni mese (fattura del fornitore di energia) oppure dipendono dalla tariffa registrata e dalla misurazione attiva del punto di misura principale.
 
 ![Definire le tariffe elettriche – Figura 14](/img/konfiguration-billing-stromtarife-definieren/14.png)
 
 ### Inserire la tassa di base all'80% (se è stato scelto il metodo 80% con tassa di base)
 
-In questo esempio utilizziamo il metodo 80% con tassa di base. Di conseguenza questi costi devono ancora essere registrati in "Altro" ("Sonstiges")
+In questo esempio utilizziamo il metodo 80% con tassa di base. Di conseguenza questi costi devono ancora essere registrati sotto "Altro" ("Sonstiges")
 
 ![Definire le tariffe elettriche – Figura 15](/img/konfiguration-billing-stromtarife-definieren/15.png)
 
-I costi della tassa di base si applicano a tutte le unità di conteggio, per cui possono essere registrati globalmente nelle tariffe per l'anno 2026.
+I costi della tassa di base gravano su tutte le unità di conteggio, per cui possono essere registrati globalmente presso le tariffe per l'anno 2026.
 
 ![Definire le tariffe elettriche – Figura 16](/img/konfiguration-billing-stromtarife-definieren/16.png)
 
 ## Tutti i dettagli sulle tariffe e sulle funzioni
 
-Da qui in poi la pagina è un'opera di consultazione: le sezioni sono richiudibili, così apri solo quello che ti serve al momento.
+Da qui in poi la pagina è un'opera di consultazione: le sezioni sono richiudibili, così apri solo ciò che ti serve al momento.
 
 ### Configurazione delle tariffe virtuali (tariffe di rete, solari, batteria)
 
-Le tariffe virtuali consentono di definire autonomamente un modello tariffario dinamico per la fatturazione dell'energia. Questo può essere utilizzato ad es. in un raggruppamento ai fini del consumo proprio (RCP o elettricità per gli inquilini) per distinguere se un inquilino preleva elettricità da un impianto solare o dalla rete. 
+Le tariffe virtuali permettono di definire autonomamente un modello tariffario dinamico per la fatturazione dell'energia. Questo può essere utilizzato p.es. in un raggruppamento ai fini del consumo proprio (RCP o elettricità per gli inquilini) per distinguere se un inquilino preleva elettricità da un impianto solare o dalla rete. 
 
-Tieni presente che tutte le tariffe normali per l'elettricità devono essere state eliminate.
+Tieni presente che tutte le normali tariffe di elettricità devono essere eliminate.
 
-In Tariffe virtuali (Virtuelle Tarife) vedi tutte le tariffe virtuali già registrate. Clicca su Aggiungi (Hinzufügen) e registra ora tutte le tariffe virtuali.
+Sotto Tariffe virtuali (Virtuelle Tarife) vedi tutte le tariffe virtuali già registrate. Clicca su Aggiungi (Hinzufügen) e registra ora tutte le tariffe virtuali.
 
 Nome: il nome della tariffa viene mostrato anche all'utente (inquilino).
 
 Tipo di tariffa 
 
-- Tariffa solare vRCP (nuova):
-    Consente di creare una tariffa solare globale in un RCP o in un vRCP.
-    L'energia solare viene distribuita uniformemente su tutti i consumatori e si basa sulla somma dei bilanci degli edifici (RCP) e sulla somma delle produzioni (contatori solari e/o contatori della batteria). Con questa tariffa non è necessario misurare il 100% dei carichi se è fisicamente presente un contatore di allacciamento dell'edificio. Con questa tariffa non servono contatori somma virtuali.
+- Tariffa solare vRCP (nuova) (Solartarif vZEV (neu)):
+    Consente di creare una tariffa solare globale in un RCP o in un RCP virtuale (vRCP).
+    L'energia solare viene distribuita in modo uniforme su tutti i consumatori e si basa sulla somma dei bilanci degli edifici (RCP) e sulla somma delle produzioni (contatori solari e/o contatori della batteria). Con questa tariffa non è necessario misurare il 100% dei carichi, se è fisicamente presente un contatore dell'allacciamento dell'edificio. Con questa tariffa non servono contatori virtuali di somma.
 
-- Tariffa solare (legacy):
+- Tariffa solare (legacy) (Solartarif (legacy)):
     Consente di fatturare l'energia di un impianto solare all'interno di un RCP.
-    Consente di realizzare RCP con o senza contatore di bilancio (GRD). La tariffa richiede un contatore somma virtuale di tutti i carichi rilevanti (misurazione al 100%).
+    Consente di realizzare RCP con o senza contatore di bilancio (VNB). La tariffa richiede un contatore virtuale di somma di tutti i carichi rilevanti (misurazione al 100%).
 
-- Tariffa batteria (legacy):
-    Consente di distribuire l'energia di una batteria accoppiata in AC all'interno di un RCP. Questa tariffa è compatibile solo con la tariffa solare (legacy). La tariffa richiede un contatore somma virtuale di tutti i carichi rilevanti (misurazione al 100%).
+- Tariffa batteria (legacy) (Batterietarif (legacy)):
+    Consente di distribuire all'interno di un RCP l'energia di una batteria con accoppiamento AC. Questa tariffa è compatibile solo con la tariffa solare (legacy). La tariffa richiede un contatore virtuale di somma di tutti i carichi rilevanti (misurazione al 100%).
 
-- Tariffa di rete (tariffa normale o tariffa dinamica):
-    Con essa viene fatturata l'elettricità di rete. Se necessario, può essere suddivisa anche in fasce di ore di punta e ore fuori punta oppure in modo dinamico.
+- Tariffa di rete (tariffa normale o tariffa dinamica) (Netztarif):
+    Con essa si fattura l'elettricità di rete. Se necessario può inoltre essere suddivisa  anche in ore di punta e ore fuori punta oppure in modo dinamico.
 
 - Condizione aggiuntiva (Zusätzliche Bedingung)
-    Con una condizione aggiuntiva puoi stabilire quando questa tariffa è valida. Può trattarsi di un intervallo di tempo (ad es. per ore di punta/ore fuori punta) o di qualsiasi altra condizione. La condizione deve essere stata definita in precedenza come [azione se/allora](/konfiguration/wenndann-aktionen).
+    Con una condizione aggiuntiva puoi stabilire quando questa tariffa è valida. Può trattarsi di un periodo di tempo (p.es. per ore di punta/ore fuori punta) o di qualsiasi altra condizione. La condizione deve essere stata definita prima come [azione se/allora](/konfiguration/wenndann-aktionen).
 
 
-Aspetti generali delle tariffe
+Informazioni generali sulle tariffe
 
-Per ogni tariffa è possibile registrare il prezzo / unità di consumo e una validità.
+Per ogni tariffa possono essere registrati il prezzo / unità di consumo e una validità.
 
-Prezzo / kWh (Preis / kWh): il prezzo per questa tariffa
+Prezzo / kWh (Preis / kWh): il prezzo di questa tariffa
 
 Valido dal (Gültig von): la data a partire dalla quale questa tariffa deve essere valida. Vedi nota.
 
@@ -305,9 +305,9 @@ Valido fino al (Gültig bis): la data fino alla quale questa tariffa deve essere
 
 Note: 
 
-- Consigliamo di impostare la validità dall'1.1.2000 al 31.12.2099. Condizione per questa procedura è che le fatture vengano inviate con la stessa periodicità dell'azienda elettrica locale. In questo caso il prezzo può essere fissato prima dell'emissione della fattura. Se in smart-me Billing viene modificato solo il prezzo, non è necessario premere il pulsante "Ricalcola" ("neu rechnen"). Per tutte le altre modifiche il ricalcolo è invece necessario.
+- Consigliamo di impostare la validità dal 1.1.2000 al 31.12.2099. Presupposto per questa procedura è che le fatture vengano inviate con la stessa periodicità del fornitore di energia locale. In tal caso il prezzo può essere stabilito prima della fatturazione. Se in smart-me Billing viene modificato solo il prezzo, non è necessario premere il pulsante "Ricalcola" ("neu rechnen"). Per tutte le altre modifiche il ricalcolo è invece necessario.
 
-- Una volta definite tutte le tariffe, devi cliccare su "Ricalcola" ("Neu berechnen"). In questo modo tutte le tariffe virtuali vengono calcolate e attivate. Questa operazione può richiedere alcune ore.
+- Dopo aver definito tutte le tariffe devi cliccare su „Ricalcola" („Neu berechnen"). In questo modo tutte le tariffe virtuali vengono calcolate e attivate. Questa operazione può richiedere alcune ore.
 
 - Se sono salvate una o più condizioni, tutte le tariffe devono coprire le 24 ore del giorno. Se è registrata una tariffa normale senza condizioni, questa intercetta automaticamente tutte le quantità di energia non attribuibili e copre così le 24 ore. In alternativa occorre assicurarsi che gli orari delle condizioni siano configurati correttamente (vedi esempio sopra).
 
@@ -332,7 +332,7 @@ La tariffa di rete può essere registrata come una delle seguenti tariffe:
 
 Tariffa unica (statica e dinamica)
 
-La tariffa unica può essere creata come statica (tariffa fissa) o dinamica.
+La tariffa unica può essere creata come statica (tariffa fissa) oppure dinamica.
 
 Tariffa fissa
 
@@ -342,27 +342,27 @@ La tariffa fissa applica il prezzo / kWh definito per l'elettricità di rete.
 
 Tariffa dinamica
 
-La tariffa dinamica invece si avvale di un'API esterna e richiede al provider disponibile, per ogni ora, il prezzo attualmente valido.
+La tariffa dinamica invece si avvale di una API esterna e interroga il provider disponibile per ogni ora sul prezzo attualmente valido.
 
 Il prezzo viene poi applicato per ogni ora.
 
 Tieni presente che i prezzi dinamici non trasmettono tutti i costi rilevanti e che occorre effettuare inserimenti aggiuntivi.
 
 - Tasse supplementari come le tasse di concessione del comune
-    (Da inserire come prezzo fisso aggiuntivo)
+    (da inserire come prezzo fisso aggiuntivo)
 
 - Tasse di allacciamento mensili (sezione Altro (Sonstiges))
 
 
-Il calcolo delle fatture con tariffa dinamica dura sensibilmente più a lungo rispetto agli altri metodi (trasferimento dei dati e applicazione)
+Il calcolo delle fatture con tariffa dinamica richiede sensibilmente più tempo rispetto agli altri metodi (trasferimento dei dati e applicazione)
 
 
 
 Tariffa doppia e multitariffe
 
-Per ogni tariffa differente viene creata una tariffa (tariffa di rete). Queste vengono poi collegate a una tempistica con l'aiuto delle condizioni.
+Per ogni tariffa diversa viene creata una tariffa (tariffa di rete). Queste vengono poi collegate a delle fasce orarie tramite le condizioni.
 
-La tempistica viene definita tramite le azioni [SE/ALLORA](/konfiguration/wenndann-aktionen).
+Le fasce orarie vengono definite tramite le azioni [SE/ALLORA](/konfiguration/wenndann-aktionen).
 
 
 
@@ -373,11 +373,11 @@ La tempistica viene definita tramite le azioni [SE/ALLORA](/konfiguration/wennda
 <details id="solartarif-vzev-konfigurieren">
 <summary>Configurare la tariffa solare vRCP</summary>
 
-La tariffa solare vRCP consente di realizzare soluzioni RCP e vRCP. 
+La tariffa solare vRCP consente di realizzare soluzioni RCP e RCP virtuale (vRCP). 
 
-La configurazione della tariffa solare vRCP calcola l'eccedenza effettiva di un RCP virtuale e il prelievo effettivo dalla rete sulla base di più contatori di produzione solare e contatori di allacciamento dell'edificio. 
+La configurazione della tariffa solare vRCP calcola l'eccedenza effettiva di un RCP virtuale e il prelievo effettivo dalla rete sulla base di più contatori di produzione solare e contatori dell'allacciamento degli edifici. 
 
-Il calcolo tiene conto delle eccedenze individuali di un edificio e, allo stesso tempo, della domanda di altri edifici per questa eccedenza.
+Il calcolo tiene conto delle eccedenze individuali di un edificio e, allo stesso tempo, della domanda di questa eccedenza da parte di altri edifici.
 
 Se c'è un fabbisogno, l'eccedenza viene messa a disposizione dell'edificio vicino. Se non c'è, l'eccedenza viene identificata come immissione in rete.
 
@@ -390,13 +390,13 @@ La soluzione supporta le seguenti realizzazioni:
     \- RCP con bilancio e consumo totale (consumo + bilancio)
     \- RCP con solare e consumo totale (produzione + consumo)
 
-- vRCP: più RCP smart-me con contatori di allacciamento dell'edificio
+- vRCP: più RCP smart-me con contatori dell'allacciamento degli edifici
 
-- vRCP: combinazione di RCP smart-me con edifici con soli consumatori
+- vRCP: combinazione di RCP smart-me con edifici dotati solo di consumatori
 
-- vRCP: combinazione di RCP smart-me con case unifamiliari con impianti solari 
+- vRCP: combinazione di RCP smart-me con case unifamiliari (EFH) dotate di impianti solari 
 
-- vRCP: più RCP smart-me in combinazione con ex modelli pratici del GRD
+- vRCP: più RCP smart-me in combinazione con ex modelli pratici VNB
 
 
 Nota:
@@ -406,7 +406,7 @@ Con questo sistema tariffario la batteria non può essere tariffata separatament
 
 Tariffare un RCP
 
-- Contatore di allacciamento dell'edificio 
+- Contatore dell'allacciamento dell'edificio 
 
 - Misurazione della produzione (FV + batteria)
 
@@ -432,7 +432,7 @@ Tariffare un vRCP esteso con diverse combinazioni di schemi di misura
 
 ![Definire le tariffe elettriche – Figura 23](/img/konfiguration-billing-stromtarife-definieren/23.png)
 
-Tariffare case unifamiliari a schiera come vRCP
+Tariffare villette a schiera come vRCP
 
 ![Definire le tariffe elettriche – Figura 24](/img/konfiguration-billing-stromtarife-definieren/24.png)
 
@@ -454,27 +454,27 @@ Requisiti per l'utilizzo:
 
 - Applicazione di uno schema di misura al 100%: tutti i consumatori misurati devono corrispondere al 100% del carico.
 
-- Richiede un contatore somma virtuale di tutti i carichi.
+- Richiede un contatore virtuale di somma di tutti i carichi.
 
 
-Contatore solare o della batteria (Solar- oder Batteriezähler)
+Contatore solare o della batteria
 Per la tariffa solare e la tariffa batteria devi indicare il contatore che misura la batteria o l'impianto solare. 
 
-Consumo totale (Gesamtverbrauch)
-Per la tariffa solare e la tariffa batteria devi indicare un contatore che misuri tutti i consumatori sui quali questa energia deve essere distribuita. Di solito si tratta di un contatore virtuale che somma tutti i consumatori (attenzione: i contatori virtuali richiedono in tal caso una licenza aggiuntiva).
+Consumo totale
+Per la tariffa solare e la tariffa batteria devi indicare un contatore che misura tutti i consumatori sui quali questa energia deve essere distribuita. Di solito si tratta di un contatore virtuale che somma tutti i consumatori (attenzione: i contatori virtuali richiedono in tal caso una licenza aggiuntiva).
 
-Contatore di bilancio (Bilanzzähler)
-Per la tariffa solare e la tariffa batteria è possibile indicare facoltativamente un contatore di bilancio. Se il contatore di bilancio è indicato, nel calcolo della tariffa solare viene tenuta in considerazione l'energia immessa in rete. Ciò significa che ogni 15 minuti viene distribuita solo l'energia solare effettivamente consumata nell'edificio (energia disponibile = produzione FV - immissione in rete).
+Contatore di bilancio
+Per la tariffa solare e la tariffa batteria si può indicare facoltativamente un contatore di bilancio. Se il contatore di bilancio è indicato, nel calcolo della tariffa solare si tiene conto dell'energia immessa in rete. Ciò significa che per ogni intervallo di 15 minuti viene distribuita solo l'energia solare effettivamente consumata nell'edificio (energia disponibile = produzione FV - immissione in rete).
 
 Attenzione:
-Rinunciando al contatore di bilancio fisico, non sono insoliti scostamenti nell'attribuzione delle tariffe nell'ordine del 10-15%.
+Se si rinuncia al contatore di bilancio fisico, non sono insolite differenze nell'attribuzione delle tariffe dell'ordine del 10-15%.
 
-Contatori somma virtuali
+Contatori virtuali di somma
 
-- Il contatore somma virtuale (consumo totale) è necessario per formare il riferimento per l'attribuzione delle tariffe. Viene formato da tutti i contatori di carico ed è a pagamento (1x licenza Professional)
+- Il contatore virtuale di somma (consumo totale) è necessario per formare il riferimento per l'attribuzione delle tariffe. Viene formato da tutti i contatori di carico ed è a pagamento (1x licenza Professional)
 
     La somma dei contatori deve corrispondere esattamente al 100% del carico. Se hai contatori collegati in serie, è rilevante solo il contatore più vicino alla sottodistribuzione / all'allacciamento dell'edificio.
-    I contatori solari, i contatori della batteria e i contatori di allacciamento dell'edificio vanno esclusi.
+    I contatori solari, i contatori della batteria e i contatori dell'allacciamento dell'edificio vanno esclusi.
 
 - Se nel sistema sono presenti più impianti solari che non possono essere misurati insieme, è necessaria un'ulteriore licenza per la produzione totale.
 
@@ -483,13 +483,13 @@ Contatori somma virtuali
 
 ![Definire le tariffe elettriche – Figura 25](/img/konfiguration-billing-stromtarife-definieren/17.png)
 
-Tariffare un RCP con tariffe legacy (1 casa)
+Tariffare un RCP con tariffe legacy (1 edificio)
 
 ![Definire le tariffe elettriche – Figura 26](/img/konfiguration-billing-stromtarife-definieren/26.png)
 
 ![Definire le tariffe elettriche – Figura 27](/img/konfiguration-billing-stromtarife-definieren/27.png)
 
-Tariffare un RCP con tariffe legacy (più case )
+Tariffare un RCP con tariffe legacy (più edifici )
 
 ![Definire le tariffe elettriche – Figura 28](/img/konfiguration-billing-stromtarife-definieren/28.png)
 
@@ -497,40 +497,40 @@ Tariffare un RCP con tariffe legacy (più case )
 
 </details>
 
-### Tariffe di punta di potenza
+### Tariffe di picco
 
-Con le tariffe di punta di potenza è possibile coprire modelli elettrici ampliati o innovativi dei fornitori di energia. 
+Con le tariffe di picco si possono coprire modelli tariffari estesi o innovativi dei fornitori di energia. 
 
-- Tariffa doppia per il consumo di base + potenza di punta
-    (Tariffe virtuali in combinazione con la tariffa Peak)
+- Tariffa doppia per il consumo di base + potenza di picco
+    (tariffe virtuali in combinazione con la tariffa Peak)
 
-- Tariffa unica per il consumo di base + potenza di punta
-    (Tariffe virtuali in combinazione con la tariffa Peak)
+- Tariffa unica per il consumo di base + potenza di picco
+    (tariffe virtuali in combinazione con la tariffa Peak)
 
-- Solo tariffa di punta senza tariffe di base
+- Solo tariffa di picco senza tariffe di base
 
 
 Durata di validità:
-La durata di validità di una tariffa di punta di potenza è limitata a 1 anno; può essere creata più volte per più anni.
+La durata di validità di una tariffa di picco è limitata a 1 anno; può essere creata più volte per più anni.
 
-Le tariffe di punta si basano sui costi sostenuti mensilmente (fattura del fornitore di energia) oppure dipendono dalla tariffa registrata e dalla misurazione attiva del punto di misura principale.
+Le tariffe di picco si basano sui costi effettivamente sostenuti ogni mese (fattura del fornitore di energia) oppure dipendono dalla tariffa registrata e dalla misurazione attiva del punto di misura principale.
 
 ![Definire le tariffe elettriche – Figura 30](/img/konfiguration-billing-stromtarife-definieren/30.png)
 
-Esempio di una tariffa elettrica registrata su base dei costi (inserimento dei costi)
+Esempio di tariffa elettrica registrata su base costi (inserimento dei costi)
 
 Funzionamento generale:
 
-I costi delle tariffe di punta registrati oppure i costi calcolati automaticamente in base alla misurazione e alla tariffa registrata vengono ripartiti tra i consumatori al momento dell'emissione della fattura, nell'intervallo di calcolo scelto. 
+I costi delle tariffe di picco registrati o i costi calcolati automaticamente in base alla misurazione e alla tariffa registrata vengono ripartiti sui consumatori durante la fatturazione, nell'intervallo di calcolo scelto. 
 
-La base è costituita dalla rispettiva punta di potenza causata (solo prelievo dalla rete) da ogni singolo consumatore nel periodo di conteggio e nel rispettivo intervallo di calcolo scelto.
+La base è il picco di potenza causato (solo prelievo dalla rete) da ciascun singolo consumatore nel periodo di conteggio e nell'intervallo di calcolo scelto.
 
 ![Definire le tariffe elettriche – Figura 31](/img/konfiguration-billing-stromtarife-definieren/31.png)
 
 <details id="spitzentarife-ohne-aktive-hauptmessung">
-<summary>Tariffe di punta senza misurazione principale attiva (inserimento manuale dei costi)</summary>
+<summary>Tariffe di picco senza misurazione principale attiva (inserimento manuale dei costi)</summary>
 
-Adatte a tutti i sistemi che non dispongono di una misurazione di riferimento. 
+Adatto a tutti i sistemi che non dispongono di una misurazione di riferimento. 
 
 ![Definire le tariffe elettriche – Figura 32](/img/konfiguration-billing-stromtarife-definieren/32.png)
 
@@ -539,9 +539,9 @@ Adatte a tutti i sistemi che non dispongono di una misurazione di riferimento.
 </details>
 
 <details id="spitzentarife-mit-aktiver-hauptmessung">
-<summary>Tariffe di punta con misurazione principale attiva (calcolo automatico dei costi)</summary>
+<summary>Tariffe di picco con misurazione principale attiva (calcolo automatico dei costi)</summary>
 
-Adatte a tutti i sistemi che dispongono di una misurazione di bilancio diretta.
+Adatto a tutti i sistemi che dispongono di una misurazione di bilancio diretta.
 
 ![Definire le tariffe elettriche – Figura 34](/img/konfiguration-billing-stromtarife-definieren/34.png)
 
@@ -554,7 +554,7 @@ A seconda del modello tariffario del tuo fornitore di energia, la configurazione
 <details id="einheitstarif-ohne-solar">
 <summary>Tariffa unica senza solare</summary>
 
-- In questo caso consigliamo di non utilizzare tariffe virtuali. Le tariffe dell'elettricità (tutte) sono in questo caso più efficienti. È possibile passare in qualsiasi momento dalle tariffe dell'elettricità alle tariffe virtuali.
+- In questo caso consigliamo di non utilizzare tariffe virtuali. Le tariffe di elettricità (Tutte) sono in questo caso più efficienti. È possibile passare in qualsiasi momento dalle tariffe di elettricità alle tariffe virtuali.
 
 
 Logica: le letture dei contatori vengono rilevate e utilizzate per il Billing. Non è necessario alcun calcolo.
@@ -564,9 +564,9 @@ Logica: le letture dei contatori vengono rilevate e utilizzate per il Billing. N
 <details id="einheitstarif-mit-solar">
 <summary>Tariffa unica con solare</summary>
 
-- Tariffa unica elettricità solare: definire una tariffa solare senza azione se/allora
+- Tariffa unica per l'elettricità solare: definire una tariffa solare senza azione se
 
-- Tariffa unica elettricità di rete: definire una tariffa normale senza azione se/allora
+- Tariffa unica per l'elettricità di rete: definire una tariffa normale senza azione se
 
 
 Logica: per prima cosa viene distribuita l'elettricità solare disponibile. Se ce n'è troppo poca o non ce n'è, viene utilizzata la tariffa normale.
@@ -576,13 +576,13 @@ Logica: per prima cosa viene distribuita l'elettricità solare disponibile. Se c
 <details id="hoch-und-niedertarif-netzstrom-einheitstarif-solar">
 <summary>Ore di punta e ore fuori punta per l'elettricità di rete e tariffa unica per l'elettricità solare</summary>
 
-- Tariffa unica elettricità solare: definire una tariffa solare senza azione se/allora
+- Tariffa unica per l'elettricità solare: definire una tariffa solare senza azione se
 
-- Elettricità di rete ore di punta: definire una tariffa normale con azione se/allora
+- Elettricità di rete ore di punta: definire una tariffa normale con azione se
 
-    - Esempio: da lu a ve dalle 7h00 alle 22h00 oppure sa dalle 7h00 alle 13h00 
+    - Esempio. da lu a ve dalle 7h00 alle 22h00 oppure sa dalle 7h00 alle 13h00 
 
-- Elettricità di rete ore fuori punta: definire una tariffa normale senza azione se/allora
+- Elettricità di rete ore fuori punta: definire una tariffa normale senza azione se
 
 
 Logica: per prima cosa viene distribuita l'elettricità solare disponibile. Se ce n'è troppo poca o non ce n'è, viene utilizzata la tariffa normale che soddisfa una condizione. Infine, per l'elettricità restante viene applicata la tariffa senza condizione.
@@ -592,125 +592,125 @@ Logica: per prima cosa viene distribuita l'elettricità solare disponibile. Se c
 <details id="hoch-und-niedertarif-netz-und-solarstrom">
 <summary>Ore di punta e ore fuori punta per l'elettricità di rete e solare</summary>
 
-- Elettricità solare ore di punta: definire una tariffa solare con azione se/allora
+- Elettricità solare ore di punta: definire una tariffa solare con azione se
 
     - Esempio: da lu a ve dalle 7h00 alle 22h00 oppure sa dalle 7h00 alle 13h00 
 
-- Elettricità solare ore fuori punta: definire una tariffa solare con azione se/allora
+- Elettricità solare ore fuori punta: definire una tariffa solare con azione se
 
     - Esempio: da lu a ve dalle 22h00 alle 7h00 oppure sa dalle 13h00 alle 7h00 oppure do dalle 0h00 alle 0h00
 
-- Elettricità di rete ore di punta: definire una tariffa normale con azione se/allora
+- Elettricità di rete ore di punta: definire una tariffa normale con azione se
 
-    - Utilizzare la stessa azione se/allora usata per l'elettricità solare ore di punta 
+    - Utilizzare la stessa azione se dell'elettricità solare ore di punta 
 
-- Elettricità di rete ore fuori punta: definire una tariffa normale con azione se/allora
+- Elettricità di rete ore fuori punta: definire una tariffa normale con azione se
 
-    - Utilizzare la stessa azione se/allora usata per l'elettricità solare ore fuori punta 
+    - Utilizzare la stessa azione se dell'elettricità solare ore fuori punta 
 
 
-Logica: per prima cosa viene utilizzata l'elettricità solare disponibile con la condizione valida. Se ce n'è troppo poca o non ce n'è, viene utilizzata la tariffa normale con la condizione valida. In questo caso d'uso è importante che le 24h/giorno siano coperte da una condizione se/allora.
+Logica: per prima cosa viene utilizzata l'elettricità solare disponibile con la condizione valida. Se ce n'è troppo poca o non ce n'è, viene utilizzata la tariffa normale con la condizione valida. In questo caso d'uso è importante che le 24 ore al giorno siano coperte da una condizione se.
 
 </details>
 
 <details id="sommer-winter-netzstrom-einheitstarif-solar">
 <summary>Estate e inverno con ore di punta e ore fuori punta per l'elettricità di rete e tariffa unica per l'elettricità solare</summary>
 
-- Elettricità solare ore di punta: definire una tariffa solare senza azione se/allora
+- Elettricità solare ore di punta: definire una tariffa solare senza azione se
 
-- Elettricità di rete ore di punta estate: definire una tariffa normale con azione se/allora
+- Elettricità di rete ore di punta estate: definire una tariffa normale con azione se
 
-    - Esempio: intervallo di tempo ogni giorno: da lu a do dalle 7h00 alle 22h00 e intervallo di tempo ogni anno dall'1 / 04 / 00:00 all'1 / 10 / 00:00.
+    - Esempio: intervallo ogni giorno (Zeitspanne Jeden Tag): da lu a do dalle 7h00 alle 22h00 e intervallo ogni anno (Zeitspanne Jedes Jahr) dal 1 / 04 / 00:00 al 1 / 10 / 00:00.
 
-- Elettricità di rete ore fuori punta estate: definire una tariffa normale con azione se/allora
+- Elettricità di rete ore fuori punta estate: definire una tariffa normale con azione se
 
-    - Esempio: intervallo di tempo ogni giorno: da lu a do dalle 22h00 alle 07h00 e intervallo di tempo ogni anno dall'1 / 04 / 00:00 all'1 / 10 / 00:00.
+    - Esempio: intervallo ogni giorno (Zeitspanne Jeden Tag): da lu a do dalle 22h00 alle 07h00 e intervallo ogni anno (Zeitspanne Jedes Jahr) dal 1 / 04 / 00:00 al 1 / 10 / 00:00.
 
-- Elettricità di rete ore di punta inverno: definire una tariffa normale con azione se/allora
+- Elettricità di rete ore di punta inverno: definire una tariffa normale con azione se
 
-    - Esempio: intervallo di tempo ogni giorno: da lu a do dalle 7h00 alle 22h00 e intervallo di tempo ogni anno dall'1 / 10 / 00:00 all'1 / 4 / 00:00.
+    - Esempio: intervallo ogni giorno (Zeitspanne Jeden Tag): da lu a do dalle 7h00 alle 22h00 e intervallo ogni anno (Zeitspanne Jedes Jahr) dal 1 / 10 / 00:00 al 1 / 4 / 00:00.
 
-- Elettricità di rete ore fuori punta inverno: definire una tariffa normale con azione se/allora
+- Elettricità di rete ore fuori punta inverno: definire una tariffa normale con azione se
 
-    - Esempio: intervallo di tempo ogni giorno: da lu a do dalle 22h00 alle 07h00 e intervallo di tempo ogni anno dall'1 / 10 / 00:00 all'1 / 4 / 00:00.
+    - Esempio: intervallo ogni giorno (Zeitspanne Jeden Tag): da lu a do dalle 22h00 alle 07h00 e intervallo ogni anno (Zeitspanne Jedes Jahr) dal 1 / 10 / 00:00 al 1 / 4 / 00:00.
 
 
-Logica: per prima cosa viene utilizzata l'elettricità solare disponibile. Se ce n'è troppo poca o non ce n'è, viene utilizzata la tariffa normale con la condizione valida. In questo caso d'uso è importante che le 24h/giorno siano coperte da una condizione se/allora.
+Logica: per prima cosa viene utilizzata l'elettricità solare disponibile. Se ce n'è troppo poca o non ce n'è, viene utilizzata la tariffa normale con la condizione valida. In questo caso d'uso è importante che le 24 ore al giorno siano coperte da una condizione se.
 
 </details>
 
 <details id="sommer-winter-mit-mittagsniedertarif-im-winter">
-<summary>Estate e inverno con ore di punta e ore fuori punta per l'elettricità di rete, tariffa unica per l'elettricità solare e ore fuori punta a mezzogiorno solo in inverno (ad es. EWS/EBS)</summary>
+<summary>Estate e inverno con ore di punta e ore fuori punta per l'elettricità di rete e tariffa unica per l'elettricità solare, con ore fuori punta a mezzogiorno solo in inverno (p.es. EWS/EBS)</summary>
 
 Esempio
 
 - Elettricità di rete e solare ore fuori punta inverno 
 
-    - Esempio: inverno NT dalle 22h00 alle 07h00 tra l'1.10 e l'1.4.
+    - Esempio: inverno NT dalle 22h00 alle 07h00 tra il 1.10 e il 1.4.
 
-    - Azione se/allora con collegamento E
+    - Azione se/allora con collegamento E (UND)
 
-        - Intervallo di tempo ogni giorno: da lu a do dalle 22h00 alle 07h00 
+        - Intervallo ogni giorno (Zeitspanne Jeden Tag): da lu a do dalle 22h00 alle 07h00 
 
-        - Intervallo di tempo ogni anno dall'1 / 10 / 00:00 all'1 / 04 / 00:00.
+        - Intervallo ogni anno (Zeitspanne Jedes Jahr) dal 1 / 10 / 00:00 al 1 / 04 / 00:00.
 
 - Elettricità di rete e solare ore di punta inverno 
 
-    - Esempio: inverno HT dalle 07h00 alle 22h00 tra l'1.10 e l'1.4.
+    - Esempio: inverno HT dalle 07h00 alle 22h00 tra il 1.10 e il 1.4.
 
-    - Azione se/allora con collegamento E
+    - Azione se/allora con collegamento E (UND)
 
-        - Intervallo di tempo ogni giorno: da lu a do dalle 7h00 alle 22h00 
+        - Intervallo ogni giorno (Zeitspanne Jeden Tag): da lu a do dalle 7h00 alle 22h00 
 
-        - Intervallo di tempo ogni anno dall'1 / 10 / 00:00 all'1 / 04 / 00:00.
+        - Intervallo ogni anno (Zeitspanne Jedes Jahr) dal 1 / 10 / 00:00 al 1 / 04 / 00:00.
 
 - Elettricità di rete e solare ore fuori punta estate
 
-    - Esempio: estate NT dalle 00h00 alle 06h00 e dalle 12h00 alle 15h00 tra l'1.4 e l'1.10
+    - Esempio: estate NT dalle 00h00 alle 06h00 e dalle 12h00 alle 15h00 tra il 1.4 e il 1.10
 
-    - Azione se/allora con collegamento E
+    - Azione se/allora con collegamento E (UND)
 
-        - Intervallo di tempo ogni giorno: da lu a do dalle 12h00 alle 06h00 
+        - Intervallo ogni giorno (Zeitspanne Jeden Tag): da lu a do dalle 12h00 alle 06h00 
 
-        - Intervallo di tempo ogni giorno: da lu a do dalle 00h00 alle 15h00 
+        - Intervallo ogni giorno (Zeitspanne Jeden Tag): da lu a do dalle 00h00 alle 15h00 
 
-        - Intervallo di tempo ogni anno dall'1 / 4 / 00:00 all'1 / 10 / 00:00.
+        - Intervallo ogni anno (Zeitspanne Jedes Jahr) dal 1 / 4 / 00:00 al 1 / 10 / 00:00.
 
 - Elettricità di rete e solare ore di punta estate 
 
-    - Esempio: estate HT dalle 06h00 alle 12h00 e dalle 15h00 alle 00h00 tra l'1.4 e l'1.10
+    - Esempio: estate HT dalle 06h00 alle 12h00 e dalle 15h00 alle 00h00 tra il 1.4 e il 1.10
 
-    - Azione se/allora con collegamento E
+    - Azione se/allora con collegamento E (UND)
 
-        - Intervallo di tempo ogni giorno: da lu a do dalle 06h00 alle 00h00 
+        - Intervallo ogni giorno (Zeitspanne Jeden Tag): da lu a do dalle 06h00 alle 00h00 
 
-        - Intervallo di tempo ogni giorno: da lu a do dalle 15h00 alle 12h00 
+        - Intervallo ogni giorno (Zeitspanne Jeden Tag): da lu a do dalle 15h00 alle 12h00 
 
-        - Intervallo di tempo ogni anno dall'1 / 4 / 00:00 all'1 / 10 / 00:00.
+        - Intervallo ogni anno (Zeitspanne Jedes Jahr) dal 1 / 4 / 00:00 al 1 / 10 / 00:00.
 
 
-Logica: per prima cosa viene utilizzata l'elettricità solare disponibile. Se ce n'è troppo poca o non ce n'è, viene utilizzata la tariffa normale con la condizione valida. In questo caso d'uso è importante che le 24h/giorno siano coperte da una condizione se/allora.
+Logica: per prima cosa viene utilizzata l'elettricità solare disponibile. Se ce n'è troppo poca o non ce n'è, viene utilizzata la tariffa normale con la condizione valida. In questo caso d'uso è importante che le 24 ore al giorno siano coperte da una condizione se.
 
 </details>
 
 <details id="sommer-winter-tagsueber-wechselnd-energie-uri">
-<summary>Estate e inverno con ore di punta e ore fuori punta per l'elettricità di rete e solare, di giorno ore fuori punta in estate e ore di punta in inverno (ad es. Energie Uri dall'1.10.2025)</summary>
+<summary>Estate e inverno con ore di punta e ore fuori punta per l'elettricità di rete e solare, di giorno ore fuori punta in estate e ore di punta in inverno (p.es. Energie Uri dal 1.10.2025)</summary>
 
-Descrizione: qui bisogna lavorare in due fasi. 1x con le azioni se/allora e 1x con gli orari nelle tariffe virtuali
+Descrizione: qui occorre procedere in due passaggi. 1x con se/allora e 1x con gli orari nelle tariffe virtuali
 
-Per prima cosa devono essere definite le azioni se/allora.
+Per prima cosa vanno definite le azioni se.
 
 - Elettricità di rete e solare estate NT
 
-    - Esempio: estate NT da lu a ve dalle 06h00 alle 22h00 da lu a ve e sa e do sempre
+    - Esempio: estate NT da lu a ve dalle 06h00 alle 22h00 da lu a VE e sa e do sempre
 
     - Nome: Uri Sommer NT
 
-    - Azione se/allora con collegamento O
+    - Azione se/allora con collegamento O (ODER)
 
-        - Intervallo di tempo da lu a ve: dalle 6h00 alle 22h00 
+        - Intervallo da lu a ve: dalle 6h00 alle 22h00 
 
-        - Intervallo di tempo sa e do: dalle 00h00 alle 00h00
+        - Intervallo sa e do: dalle 00h00 alle 00h00
 
 
 
@@ -723,22 +723,22 @@ Per prima cosa devono essere definite le azioni se/allora.
 
     - Azione se/allora
 
-        - Intervallo di tempo da lu a ve: dalle 22h00 alle 06h00 
+        - Intervallo da lu a ve: dalle 22h00 alle 06h00 
 
 
 
 
 - Elettricità di rete e solare inverno NT
 
-    - Esempio: inverno NT da lu a ve dalle 22h00 alle 06h00 da lu a ve e sa e do sempre
+    - Esempio: inverno NT da lu a ve dalle 22h00 alle 06h00 da lu a VE e sa e do sempre
 
     - Nome: Uri Winter NT
 
-    - Azione se/allora con collegamento O
+    - Azione se/allora con collegamento O (ODER)
 
-        - Intervallo di tempo da lu a ve: dalle 22h00 alle 06h00 
+        - Intervallo da lu a ve: dalle 22h00 alle 06h00 
 
-        - Intervallo di tempo sa e do: dalle 00h00 alle 00h00
+        - Intervallo sa e do: dalle 00h00 alle 00h00
 
 
 
@@ -749,94 +749,94 @@ Per prima cosa devono essere definite le azioni se/allora.
 
     - Nome: Uri Winter HT
 
-    - Azione se/allora con collegamento O
+    - Azione se/allora con collegamento O (ODER)
 
-        - Intervallo di tempo da lu a ve: dalle 06h00 alle 22h00 
+        - Intervallo da lu a ve: dalle 06h00 alle 22h00 
 
 
-Poi devono essere definiti i prezzi per ogni periodo di tempo.
+Poi vanno definiti i prezzi per ogni periodo.
 
-In questo caso i periodi o la durata devono essere registrati. Con questo modello tariffario è necessaria una combinazione di azione se/allora e periodo.
+In questo caso devono essere registrati i periodi ovvero la durata. Con questo modello tariffario è necessaria una combinazione di se/allora e periodo.
 
 - Nome: Uri Sommer HT Netz
 
-    - Tipo: tariffa di rete
+    - Tipo: tariffa di rete (Netztarif)
 
-    - Durata: dall'1.4.2026 al 30.9.2026
+    - Durata: dal 1.4.2026 al 30.9.2026
 
-    - Condizione aggiuntiva: Uri Sommer HT
+    - Condizione aggiuntiva (Zusätzliche Bedingung): Uri Sommer HT
 
 - Nome: Uri Sommer HT Solar
 
 
-- Tipo: tariffa solare incl. vRCP 
+- Tipo: tariffa solare incl. vRCP (Solartarif inkl. vZEV) 
 
-- Durata: dall'1.4.2026 al 30.9.2026
+- Durata: dal 1.4.2026 al 30.9.2026
 
-- Condizione aggiuntiva: Uri Sommer HT
+- Condizione aggiuntiva (Zusätzliche Bedingung): Uri Sommer HT
 
 
 - Nome: Uri Sommer NT Netz
 
-    - Tipo: tariffa di rete
+    - Tipo: tariffa di rete (Netztarif)
 
-    - Durata: dall'1.4.2026 al 30.9.2026
+    - Durata: dal 1.4.2026 al 30.9.2026
 
-    - Condizione aggiuntiva: Uri Sommer NT
+    - Condizione aggiuntiva (Zusätzliche Bedingung): Uri Sommer NT
 
 - Nome: Uri Sommer NT Solar
 
-    - Tipo: tariffa solare incl. vRCP (bilancio/produzioni)
+    - Tipo: tariffa solare incl. vRCP (bilancio/produzioni) (Solartarif inkl. vZEV (Bilanz/Produktionen))
 
-    - Durata: dall'1.4.2026 al 30.9.2026
+    - Durata: dal 1.4.2026 al 30.9.2026
 
-    - Condizione aggiuntiva: Uri Sommer NT
+    - Condizione aggiuntiva (Zusätzliche Bedingung): Uri Sommer NT
 
 - Nome: Uri Winter HT Netz
 
-    - Tipo: tariffa di rete
+    - Tipo: tariffa di rete (Netztarif)
 
-    - Durata: dall'1.10.2025 al 31.3.2026
+    - Durata: dal 1.10.2025 al 31.3.2026
 
-    - Condizione aggiuntiva: Uri Winter HT 
+    - Condizione aggiuntiva (Zusätzliche Bedingung): Uri Winter HT 
 
 - Nome: Uri Winter HT Solar
 
-    - Tipo: tariffa solare incl. vRCP (bilancio/produzioni)
+    - Tipo: tariffa solare incl. vRCP (bilancio/produzioni) (Solartarif inkl. vZEV (Bilanz/Produktionen))
 
-    - Durata: dall'1.10.2025 al 31.3.2026
+    - Durata: dal 1.10.2025 al 31.3.2026
 
-    - Condizione aggiuntiva: Uri Winter HT
+    - Condizione aggiuntiva (Zusätzliche Bedingung): Uri Winter HT
 
 - Nome: Uri Winter NT Netz
 
-    - Tipo: tariffa di rete
+    - Tipo: tariffa di rete (Netztarif)
 
-    - Durata: dall'1.10.2025 al 31.3.2026
+    - Durata: dal 1.10.2025 al 31.3.2026
 
-    - Condizione aggiuntiva: Uri Winter NT
+    - Condizione aggiuntiva (Zusätzliche Bedingung): Uri Winter NT
 
 - Nome: Uri Winter NT Solar
 
-    - Tipo: tariffa solare incl. vRCP (bilancio/produzioni)
+    - Tipo: tariffa solare incl. vRCP (bilancio/produzioni) (Solartarif inkl. vZEV (Bilanz/Produktionen))
 
-    - Durata: dall'1.10.2025 al 31.3.2026
+    - Durata: dal 1.10.2025 al 31.3.2026
 
-    - Condizione aggiuntiva: Uri Winter NT 
+    - Condizione aggiuntiva (Zusätzliche Bedingung): Uri Winter NT 
 
 
-<Embed src="https://drive.google.com/file/d/1qFuisQkiLisSbWTh8Avhrf7gIXOfxjjn/preview" aspect="1.350" title="Drive, Wiki tariffe Energie Uri tariffe 2026.mp4" />
+<Embed src="https://drive.google.com/file/d/1qFuisQkiLisSbWTh8Avhrf7gIXOfxjjn/preview" aspect="1.350" title="Drive, Wiki Tarife Enerige Uri Tarife 2026.mp4" />
 
 Wiki Tarife Enerige Uri Tarife 2026.mp4
 
 </details>
 
-## Sistemi puramente con tariffe di rete (soluzione con segnale esterno)
+## Sistemi con sole tariffe di rete (soluzione con segnale esterno)
 
-Tariffe dell'elettricità (supportate solo se la funzione VEWA non viene utilizzata)
+Tariffe di elettricità (supportate solo se non viene utilizzata la funzione VEWA)
 
-Per accedere alle impostazioni delle tariffe dell'elettricità, clicca a sinistra sull'immobile e scorri fino alla finestra verde Tariffe elettricità (Tarife Elektrizität). Qui vengono visualizzate le due tariffe T1 e T2. Seleziona una delle tariffe e clicca su Modifica (Editieren) per apportare modifiche alle sue proprietà (ad es. nome, prezzo ecc.)
+Per accedere alle impostazioni delle tariffe di elettricità, clicca a sinistra sull'immobile e scorri fino alla finestra verde Tariffe elettricità (Tarife Elektrizität). Qui vengono visualizzate le due tariffe T1 e T2. Seleziona una delle tariffe e clicca su Modifica (Editieren) per apportare modifiche alle sue proprietà (p.es. nome, prezzo ecc.)
 
-Per poter lavorare con le tariffe dell'elettricità, il segnale tariffario dell'azienda elettrica deve essere collegato all'ingresso tariffario dei rispettivi contatori.
+Per poter lavorare con le tariffe di elettricità, il segnale tariffario dell'azienda elettrica deve essere collegato all'ingresso tariffario dei rispettivi contatori.
 
 ![Definire le tariffe elettriche – Figura 35](/img/konfiguration-billing-stromtarife-definieren/35.png)

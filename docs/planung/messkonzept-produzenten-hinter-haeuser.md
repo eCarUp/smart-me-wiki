@@ -30,7 +30,7 @@ smart-me empfiehlt dieses Messkonzept aus den folgenden Gründen nicht:
 - Die von smart-me zur Verfügung gestellten Grafiken sind mit diesem Messkonzept nicht kompatibel.
 
 
-smart-me behält sich das Recht vor, weitere Einschränkungen aufzulisten. Derzeit sind nur wenige Gebäude mit diesem Messkonzept ausgestattet. Aus diesem Grund konzentriert sich smart-me nicht auf die Entwicklung dieser Objekte. Es ist möglich, dass sie in Zukunft einfacher werden, aber wir legen bei den Entwicklung keinen Schwerpunkt auf dieses Messkonzept.
+smart-me behält sich das Recht vor, weitere Einschränkungen aufzulisten. Derzeit sind nur wenige Gebäude mit diesem Messkonzept ausgestattet. Aus diesem Grund konzentriert sich smart-me nicht auf die Entwicklung dieser Objekte. Es ist möglich, dass sie in Zukunft einfacher werden, aber wir legen bei der Entwicklung keinen Schwerpunkt auf dieses Messkonzept.
 
 ## Messkonzept
 
@@ -44,11 +44,11 @@ Die Messung von PV ist optional und bietet keinen Vorteil für die Abrechnung.
 
 ## Konfiguration
 
-Die unteren Angaben setzten voraus, dass die Konfiguration für ein smart-me [Billing](/konfiguration/billing) mit dem Standard Messkonzept bekannt sind.
+Die unteren Angaben setzen voraus, dass die Konfiguration für ein smart-me [Billing](/konfiguration/billing) mit dem Standard Messkonzept bekannt sind.
 
 Virtuelle Zähler
 
-Summe von allen Zählern welche Abrechnungsrelevant sind.
+Summe von allen Zählern, welche abrechnungsrelevant sind.
 
 Name: Gesamtverbrauch + Produktion
 
@@ -75,7 +75,7 @@ Abweichung beim virtuellen Tarif:
 
 ## Abrechnung
 
-Die unteren Angaben setzten voraus, dass die Abrechnung für ein smart-me [Billing](/konfiguration/billing) mit dem Standard Messkonzept bekannt sind.
+Die unteren Angaben setzen voraus, dass die Abrechnung für ein smart-me [Billing](/konfiguration/billing) mit dem Standard Messkonzept bekannt sind.
 
 Excel ausfüllen
 
@@ -83,7 +83,7 @@ Excel ausfüllen
 
 Zweck vom Excel
 
-- Ermittelt welchen Betrag pro Partei gutgeschrieben werden kann.
+- Ermittelt, welchen Betrag pro Partei gutgeschrieben werden kann.
 
 Benötigte Informationen
 

@@ -19,7 +19,7 @@ Verwaltungen sparen Zeit und Geld beim Einrichten der Lösung, bei der Schulung 
 - Begrenzt bei der Abrechnung von elektrischer Energie (kein Solartarif)
 
 </div>
-<div className="col col--3 text--center">
+<div className="col col--3 bild--mitte">
 
 ![Fairwalter – Abbildung 1](/img/drittsysteme-fairwalter/01.png)
 

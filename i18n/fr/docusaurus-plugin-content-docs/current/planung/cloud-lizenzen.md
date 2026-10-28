@@ -1,11 +1,11 @@
 ---
 title: 'Licences cloud'
 slug: '/planung/cloud-lizenzen'
-description: 'Notez que le statut Professional du compte n''est atteint que si chaque point de mesure dispose d''une licence équivalente.'
+description: 'Veuillez noter que le statut Professional du compte n''est atteint que si chaque point de mesure dispose d''une licence équivalente.'
 sidebar_label: 'Licences cloud'
 symbol: 'lizenz'
 ---
-Notez que le statut Professional du compte n'est atteint que si chaque point de mesure dispose d'une licence équivalente.
+Veuillez noter que le statut Professional du compte n'est atteint que si chaque point de mesure dispose d'une licence équivalente.
 
 ## Les trois niveaux de licence
 
@@ -15,7 +15,7 @@ Notez que le statut Professional du compte n'est atteint que si chaque point de 
 
 Standard pour les compteurs API, OCPP et M-Bus :
 
-- [M-Bus Gateway](/produkte/m-bus-gateway)
+- [Passerelle M-Bus](/produkte/m-bus-gateway)
 
 **Étendue**
 
@@ -41,7 +41,7 @@ Standard pour :
 - Rapports
 - Profils de charge
 - Gestion avancée des dossiers et des compteurs
-- [Liens publics](/konfiguration/visualisierung)
+- [Liens publics (Öffentliche Links)](/konfiguration/visualisierung)
 - 1 valeur de mesure par minute (API)
 - API : uniquement utilisation et pilotage privés \*\*
 
@@ -51,17 +51,17 @@ Standard pour :
 
 Extension possible pour tous les points de mesure dans le cloud smart-me.
 
-**Étendue : tout ce qu'offre Limited, plus**
+**Étendue : tout ce qui est inclus dans Limited, plus**
 
 - [Billing](/konfiguration/billing)
-- [Compteurs virtuels](/konfiguration/virtuelle-zaehler)
+- [Compteurs virtuels (Virtuelle Zähler)](/konfiguration/virtuelle-zaehler)
 - [Auto Export](/schnittstellen/auto-export)
-- [Configuration des utilisateurs](/konfiguration/benutzerkonfiguration)
+- [Configuration de l'utilisateur (Benutzerkonfiguration)](/konfiguration/benutzerkonfiguration)
 - [Gestion dynamique de la charge Pico](/produkte/pico-ladestation/pico-lastmanagement)
 - Si/alors → régulation Pico
 - oAuth
 - [Modbus TCP](/schnittstellen/modbus-tcp)
-- [Santé du système](/stoerungsbehebung/systemgesundheit)
+- [Santé du système (Systemgesundheit)](/stoerungsbehebung/systemgesundheit)
 - 1 valeur de mesure par seconde (API)
 - API : pour une utilisation privée **et commerciale**
 
@@ -69,28 +69,28 @@ Extension possible pour tous les points de mesure dans le cloud smart-me.
 
 </Kacheln>
 
-\*Le niveau d'abonnement concerné n'est atteint que si chaque point de comptage du compte dispose du même niveau de licence.
+\*Le niveau d'abonnement correspondant n'est atteint que si chaque point de comptage du compte dispose du même niveau de licence.
 
 \*\* Une utilisation commerciale de l'API nécessite toujours le niveau d'abonnement Professional.
 
 Professional = tous les compteurs du compte disposent d'une licence Professional.
 
-Le compteur ayant le niveau d'abonnement le plus bas dans le compte détermine le niveau d'abonnement global du compte.
+Le compteur ayant le niveau d'abonnement le plus bas du compte détermine le niveau d'abonnement global du compte.
 
 Les comptes mixtes ne sont pas possibles et restent au statut Basic ou Limited si le nombre de licences est insuffisant.
 
 ## Calculer le bon nombre de licences Professional
 
-Pour que votre compte passe au statut Professional, vous avez besoin d'au moins une licence Professional pour chaque compteur (y compris les compteurs virtuels) du compte.
+Pour que votre compte obtienne le statut Professional, vous avez besoin d'au moins une licence Professional pour chaque compteur (y compris virtuel) du compte.
 
-Il n'est pas possible de combiner des compteurs sous licence et des compteurs sans licence dans un même compte.
+Il n'est pas possible de mélanger des compteurs sous licence et des compteurs sans licence dans un même compte.
 
-Règle empirique pour les RCP (regroupement dans le cadre de la consommation propre) et les RCP virtuels (vRCP) avec un tarif solaire et / ou de batterie uniforme :
+Règle empirique pour les RCP (regroupement dans le cadre de la consommation propre) et vRCP avec un tarif solaire et / ou batterie uniforme :
 
 RCP avec 1x installation PV : nombre de compteurs = nombre de licences
 RCP avec \>1x installation PV (visualisations) : nombre de compteurs + 1 (virtuel)
 
-Règle empirique pour les systèmes RCP avec tarif solaire et tarif de batterie séparés (uniquement systèmes couplés AC) :
+Règle empirique pour les systèmes RCP avec tarif solaire et tarif batterie séparés (uniquement systèmes couplés AC) :
 
 RCP avec 1x installation PV : nombre de compteurs + 1 (virtuel)
 
@@ -103,14 +103,14 @@ RCP avec >1x installation PV : nombre de compteurs + 2 (virtuels)
 
 Total Professional tous types d'énergie : 5 pièces
 
-### Exemple électricité avec compteurs smart-me + chaleur / eau avec M-Bus Gateway (1x PV)
+### Exemple électricité avec compteurs smart-me + chaleur / eau avec passerelle M-Bus (1x PV)
 
 3x Telstar 80A
 2x Telstar CT
 
 Licences Professional tous types d'énergie : 5 pièces
 
-1x M-Bus Gateway avec compteurs de chaleur / d'eau raccordés
+1x passerelle M-Bus avec compteurs de chaleur / d'eau raccordés
 
 3x chaleur
 3x froid
@@ -121,11 +121,11 @@ Licences Professional pour chaleur / eau / gaz : 12 pièces
 
 Total licences Professional : 17 pièces
 
-Remarque : le M-Bus Gateway lui-même ne nécessite pas de licence.
+Remarque : la passerelle M-Bus elle-même ne nécessite pas de licence.
 
 ## Couverture des licences
 
-L'installation décrite ci-dessus avec différents agents énergétiques peut être couverte par des licences de deux manières.
+L'installation décrite ci-dessus avec différents agents énergétiques peut maintenant être couverte par des licences de deux manières.
 
 ### Abonnement mensuel
 
@@ -155,10 +155,10 @@ Les illustrations ci-dessous vous permettent de déterminer facilement si vous a
 
 ### Décompte RCP
 
-Pour le décompte RCP (regroupement dans le cadre de la consommation propre), le facteur décisif est le système tarifaire à représenter et le fait que le décompte doive être automatisé ou non.
+Pour le décompte RCP, il est déterminant de savoir quel système tarifaire doit être représenté et si le décompte doit être automatisé.
 
-![Licences cloud – Illustration 1](/img/planung-cloud-lizenzen/01.png)
+![Licences cloud – Illustration 1](/img/planung-cloud-lizenzen/01_EN.png)
 
 ### Pilotage RCP
 
-![Licences cloud – Illustration 2](/img/planung-cloud-lizenzen/02.png)
+![Licences cloud – Illustration 2](/img/planung-cloud-lizenzen/02_EN.png)

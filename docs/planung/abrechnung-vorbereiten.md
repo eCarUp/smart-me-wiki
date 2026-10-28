@@ -21,9 +21,9 @@ Für die Abrechnung des ZEVs für den Elektroteil benötigst du:
 - nicht notwendig: externes Tarifsignal verbunden mit allen Zählern
 
 
-### Wärme und Wasser mit VEWA-Funktion abrechnen (VEWA-Konform)
+### Wärme und Wasser mit VEWA-Funktion abrechnen (VEWA-konform)
 
-Damit alle Energiekosten in einer VEWA-Konformen Heiz-Nebenkostenabrechnung generiert werden können, benötigst du:
+Damit alle Energiekosten in einer VEWA-konformen Heiz-Nebenkostenabrechnung generiert werden können, benötigst du:
 
 - Professional-Status des Accounts und das [smart-me Billing mit VEWA Funktion](/konfiguration/billing/vewa-abrechnung)
 
@@ -48,15 +48,15 @@ Damit alle Energiekosten in einer VEWA-Konformen Heiz-Nebenkostenabrechnung gene
 
 Leitfaden Eigenverbrauch von Energie Schweiz (Allgemeines, Rechtsformen, Kosten): [https://www.energieschweiz.ch/gebaeude/eigenverbrauch/](https://www.energieschweiz.ch/gebaeude/eigenverbrauch/)   
 
-VEWA Model für Verbrauchsabhängige Energie- und Wasserkostenabrechnung: [https://www.energieschweiz.ch/haushalt/warmwasser/](https://www.energieschweiz.ch/haushalt/warmwasser/) 
+VEWA Modell für Verbrauchsabhängige Energie- und Wasserkostenabrechnung: [https://www.energieschweiz.ch/haushalt/warmwasser/](https://www.energieschweiz.ch/haushalt/warmwasser/) 
 
 ## Funktionsweise von Tarifen und Rückvergütung an Investoren
 
 ### Funktionsweise der Identifikation des Tarifs und der Verteilung auf Verbraucher
 
-Die Identifikation eines Tarifs ist primär Abhängig von seinen hinterlegten Messmitteln und einer optionalen zeitabhängigen Komponente (WENN/DANN Aktion).
+Die Identifikation eines Tarifs ist primär abhängig von seinen hinterlegten Messmitteln und einer optionalen zeitabhängigen Komponente (WENN/DANN Aktion).
 
-- Netztarife gelten als Reststrommengen, dies bedeutet das diese immer zur Anwendung kommen für den Strom welcher nicht durch Messungen anderen Tarifen zugeordnet werden konnten.
+- Netztarife gelten als Reststrommengen, dies bedeutet, dass diese immer zur Anwendung kommen für den Strom welcher nicht durch Messungen anderen Tarifen zugeordnet werden konnte.
 
 - Solar- und Batterietarife betrachten die Bezüge und die Lieferungen von relevanten Messpunkten wie z.B. PV-Zähler und Gesamtverbrauch oder der Bilanzmessung + einer optionalen zeitlichen Komponente.
 
@@ -98,8 +98,8 @@ Der obige Energiemix wird nun für die letzten 15 Minuten angewendet für jede i
     100 kWh (10 kWh aus Batterie, 50kWh aus Solar, 40 kWh vom Netz)
 
 Hinweis 1: Der Strommix bildet die Realität und den effektiv vorherrschenden Strommix im ZEV ab. Wenn Strom bezogen wird, entspricht der Verbrauch exakt diesem Mix.
-Hinweis 2: Diese Anwendung des Stromix ermöglicht Grossverbrauchern mengenmässig einen höhere Verfügbarkeit von günstigem Solar und Batteriestrom.
-Hinweis 3: Die Anwendung des Stromixes hat nicht die Aufgabe sich um Vergütungen an Investoren zu kümmern oder Kontingente an Verbraucher zu verteilen. 
+Hinweis 2: Diese Anwendung des Strommix ermöglicht Grossverbrauchern mengenmässig eine höhere Verfügbarkeit von günstigem Solar und Batteriestrom.
+Hinweis 3: Die Anwendung des Strommixes hat nicht die Aufgabe sich um Vergütungen an Investoren zu kümmern oder Kontingente an Verbraucher zu verteilen. 
 
 ![Abrechnung / Vergütung vorbereiten – Abbildung 3](/img/planung-abrechnung-vorbereiten/03.png)
 
@@ -126,9 +126,9 @@ Insgesamt wurden nun aus dem Solarstromverkauf insgesamt 45.9 CHF erwirtschaftet
 
 ![Abrechnung / Vergütung vorbereiten – Abbildung 4](/img/planung-abrechnung-vorbereiten/04.png)
 
-Da alle Drei gleichermassen investiert sind, zu 1/3, haben nun alle Anrecht auf einen Drittel dieses erwirtschafteten Geldes.
+Da alle drei gleichermassen investiert sind, zu 1/3, haben nun alle Anrecht auf ein Drittel dieses erwirtschafteten Geldes.
 
-0.33 \* 45.9 CHF = 15.14 CHF Rückvergütung für intern Genutzten Solarstrom.
+0.33 \* 45.9 CHF = 15.14 CHF Rückvergütung für intern genutzten Solarstrom.
 
 - Bezüger A (Investition 33%):
     34 CHF Rechnungsbetrag - 15.14 CHF Rückvergütung = 18.86 CHF für Solarstrom bezahlt

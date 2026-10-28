@@ -4,7 +4,7 @@ slug: '/drittsysteme/smartred'
 description: 'smartRED ist das gemeinsame Tochterunternehmen von smart-me und ABM.'
 sidebar_label: 'smartRED'
 ---
-smartRED ist das gemeinsame Tochterunternehmen von smart-me und ABM. Der Fokus liegt auf der Weiterentwicklung und den Vertrieb der smart-me und eCarUp Produkte für den deutschen Markt.
+smartRED ist das gemeinsame Tochterunternehmen von smart-me und ABM. Der Fokus liegt auf der Weiterentwicklung und dem Vertrieb der smart-me und eCarUp Produkte für den deutschen Markt.
 
 Seit 2017 hat smartRED gemeinsam mit seinem Partnernetzwerk über 1.000 Mieterstromanlagen erfolgreich umgesetzt und ermöglicht damit die lokale Nutzung von Solarstrom direkt vor Ort.
 

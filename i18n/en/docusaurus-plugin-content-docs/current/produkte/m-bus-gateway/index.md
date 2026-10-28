@@ -4,11 +4,11 @@ slug: '/produkte/m-bus-gateway'
 description: 'The smart-me M-Bus Gateways read energy meters with an M-Bus interface (EN 13757-2, -3) and transmit the data automatically and encrypted via Wi-Fi to the smart-me Cloud.'
 sidebar_label: 'M-Bus Gateways'
 ---
-The smart-me M-Bus Gateways read energy meters with an M-Bus interface (EN 13757-2, -3) and transmit the data automatically and encrypted via Wi-Fi to the smart-me Cloud. Using the smart-me portal or our open interface, you can then flexibly evaluate the values of various energy sources (water, heat, gas, temperature) and export them to third-party systems.
+The smart-me M-Bus Gateways read energy meters with an M-Bus interface (EN 13757-2, -3) and transmit the data automatically and encrypted via Wi-Fi to the smart-me Cloud. Using the smart-me portal or our open interface, you can then flexibly analyse the values of various energy sources (water, heat, gas, temperature) and export them to third-party systems.
 
 ## The two devices
 
-Both devices have the same functions. They differ in the number of M-Bus standard loads, i.e. in how many meters can be connected to one gateway.
+Both devices can do the same — they differ in the number of M-Bus standard loads, i.e. in how many meters can be connected to one gateway.
 
 <Kacheln min="15rem">
 
@@ -34,14 +34,14 @@ Technical data, wiring diagram, button functions and downloads can be found on t
 
 ## Compatible electricity, heat, water and gas meters
 
-The M-Bus Gateway reads more than 1000 meter types from various manufacturers. Below you will find a non-exhaustive list of compatible device manufacturers.
+The M-Bus Gateway reads over 1000 meter types from various manufacturers. Below you will find a non-exhaustive list of compatible device manufacturers.
 
-Note: Pay close attention to how the meter is declared. It can be declared as a heat meter, heat / cooling meter, water meter or electricity meter.
-Combination meters that are not declared as heat / cooling meters may not work correctly in combined mode or may only work as heat meters.
+Note: Pay explicit attention to how the meter is declared. It can be declared as a heat meter, heat / cooling meter, water meter or electricity meter.
+Combined meters that are not declared as heat / cooling meters may not work correctly in combination or may only work as a heat meter.
 
 <Embed src="https://drive.google.com/file/d/1PVhN_1lLolihf6eNQ_1x7UxZK8cjE_hq/preview" height="700px" title="Drive, compatibility list M-Bus_Gateway.xlsx" />
 
-Kompatibilitätsliste M-Bus\_Gateway.xlsx
+Compatibility list M-Bus\_Gateway.xlsx
 
 Do you belong on this list too? If your product supports the M-Bus standard EN 13757-2, -3 (formerly EN 1434-3), we will be happy to list you among the compatible device manufacturers as well! [Contact](/kontakt-schweiz) us.
 
@@ -95,7 +95,7 @@ Guyer-Zeller-Strasse 14, CH-8620 Wetzikon ZH
 
 +41 44 933 07 70 · [www.optec.ch](https://www.optec.ch)
 
-Burak Nurten (Deputy Head of Internal Sales) · [burak.nurten@optec.ch](mailto:burak.nurten@optec.ch)
+Burak Nurten (Deputy Head of Sales Office) · [burak.nurten@optec.ch](mailto:burak.nurten@optec.ch)
 
 </Kachel>
 
@@ -147,24 +147,24 @@ On these pages you will find all relevant information for the successful commiss
 
 - [Commissioning](/konfiguration/inbetriebnahme)
 
-- [Numbering of combination meters](/konfiguration/inbetriebnahme/smart-me-geraete#numbering-for-combined-meters)
+- [Numbering of combined meters](/konfiguration/inbetriebnahme/smart-me-geraete#numbering-for-combined-meters)
 
-- [Searching for M-Bus Gateway devices](/konfiguration/inbetriebnahme/smart-me-geraete)
+- [Searching for M-Bus Gateway devices](/konfiguration/inbetriebnahme/smart-me-geraete#m-bus-gateway-search-for-devices)
 
-- [Preventing automatic device detection](/konfiguration/inbetriebnahme/smart-me-geraete)
+- [Preventing automatic device detection](/konfiguration/inbetriebnahme/smart-me-geraete#m-bus-gateway-prevent-detection-of-new-devices)
 
 
-## M-Bus installation guidelines
+## M-Bus installation instructions
 
-How to make the installation quick and easy
+How to complete the installation in no time
 
 - Empty conduits or cable routes from the data centre to the junction boxes and the measuring devices
 
-- Pulling of electrical cables to all measuring devices and components
+- Pulling in electrical cables to all measuring devices and components
 
 - Sealable junction / connection boxes at all terminal and connection points
 
-- Mounting of the data centre including connection
+- Mounting of the data centre incl. connection
 
 - Power supply 230V / 10A from sealable fuse groups
 
@@ -172,13 +172,13 @@ How to make the installation quick and easy
 Caution: Do not apply voltage to the smart-me M-Bus Gateway. The operating voltage may only be switched on by a smart-me partner.
 
 Recommended combination of cable routing
-We recommend dividing the bus lines into riser lines and branch lines:
+We recommend dividing the routing of the bus lines into riser lines and branch lines:
 
 ![M-Bus Gateway – Figure 6](/img/produkte-m-bus-gateway/06.png)
 
-### Regulations for cabling and electrical installation
+### Regulations for cable and electrical installation
 
-The SEV regulations generally apply. Keep the bus lines as short as possible.
+The SEV regulations apply in general. You should keep the bus lines as short as possible.
 The following cable types are recommended:
 
 Riser line: TT2×1,5 mm2 (preferred), maximum line length = 1000 m
@@ -189,7 +189,7 @@ Note: All junction, connection and joint points must be sealable.
 
 Sealing is carried out by a smart-me partner.
 
-### Material suggestions
+### Suggested materials
 
 Connections/joints:
 
@@ -198,11 +198,11 @@ Connections/joints:
 - Flush-mounted boxes: standard junction boxes
 
 
-Cable connections:
+Wire connections:
 
 - Button press connectors «Scotchlok IDC» 0,5 ... 1,5 mm2
 
-- Standard terminals for low-voltage conductors
+- Standard terminals for low-current conductors
 
 
 ### At what interval do the meters send data?
@@ -213,4 +213,4 @@ The data is read sequentially from each M-Bus meter according to the configured 
 
 The smart-me Cloud generally displays all data that the meter sends via M-BUS. smart-me complies with the EN 13757-2, -3 standard.
 
-Some examples of the mapping of M-BUS telegrams: [Examples: smart-me M-BUS OBIS Mapping](https://docs.google.com/spreadsheets/d/1YdANNycQFGBsSAA0OtO-GKNZQg42OdUJ03VKlixGZ1w/edit#gid=0)
+Some examples of the mapping of the M-BUS telegrams: [Examples: smart-me M-BUS OBIS Mapping](https://docs.google.com/spreadsheets/d/1YdANNycQFGBsSAA0OtO-GKNZQg42OdUJ03VKlixGZ1w/edit#gid=0)

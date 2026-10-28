@@ -9,7 +9,7 @@ Die Fragen, die uns am häufigsten erreichen. Findest du deine nicht darunter, h
 <details id="wo-kann-ich-mein-login-passwort--e-mail-adresse-ändern">
 <summary>Wo kann ich mein Login Passwort / E-Mail-Adresse ändern?</summary>
 
-Um dein Login Passwort zu ändern, gehe auf [smart-me.com](https://web.smart-me.com/login/) und logge dich mit deinen bestehenden Benutzeraccount ein. Klicke auf deinen Benutzernamen (oben rechts) und wähle Einstellungen. Klicke auf Passwort ändern.
+Um dein Login Passwort zu ändern, gehe auf [smart-me.com](https://web.smart-me.com/login/) und logge dich mit deinem bestehenden Benutzeraccount ein. Klicke auf deinen Benutzernamen (oben rechts) und wähle Einstellungen. Klicke auf Passwort ändern.
 
 Falls du dein Passwort nicht mehr weisst, kann dies über die Passwort-vergessen-Funktion zurückgesetzt werden. Dafür muss jedoch beim Erstellen des Accounts eine gültige Email Adresse verwendet worden sein.
 
@@ -18,7 +18,7 @@ Falls du dein Passwort nicht mehr weisst, kann dies über die Passwort-vergessen
 <details id="wie-kann-ich-mein-abonnement-kündigen">
 <summary>Wie kann ich mein Abonnement kündigen?</summary>
 
-Um dein Cloud-Lizenzen-Abonnement zu kündigen, gehe auf smart-me.com und loggen dich ein.
+Um dein Cloud-Lizenzen-Abonnement zu kündigen, gehe auf smart-me.com und logge dich ein.
 Klicke dann oben rechts auf den Benutzernamen und wähle Einstellungen.
 Gehe dann auf Bezahlung, Abo kündigen und bestätige das mit Ja.
 
@@ -37,7 +37,7 @@ Mit folgenden Punkten kann verhindert werden, dass der Zähler wieder Daten an d
 
 - Das WLAN vom Zähler löschen (siehe "[Können die gespeicherten WiFi-Informationen gelöscht werden?](/konfiguration/inbetriebnahme/smart-me-geraete#können-die-gespeicherten-wifi-informationen-gelöscht-werden)").  Der Zähler kann ohne Internet keine Daten mehr schicken. 
 
-Alternativ kannst du den Zähler in der Cloud auch deaktivieren. Ein deaktivierter Zähler benötigt keine Lizenzen und du kannst Ihn jederzeit wieder aktivieren und auf seine Daten zugreifen. 
+Alternativ kannst du den Zähler in der Cloud auch deaktivieren. Ein deaktivierter Zähler benötigt keine Lizenzen und du kannst ihn jederzeit wieder aktivieren und auf seine Daten zugreifen. 
 
 </details>
 
@@ -76,8 +76,8 @@ Wenn das Konto im Limited oder Professional Lizenz-Modell ist.
 
 7.  Drücke auf Speichern.
 
-Alternativ kannst du die Zähler und alle in einem Ordner (z. B. "deaktivierte Zähler") ziehen und mit Rechtsklick auf den entsprechenden Ordner, Massenaktionen, Alle Zähler deaktivieren, alle Zähler gleichzeitig deaktivieren. 
+Alternativ kannst du die Zähler und alle in einen Ordner (z. B. "deaktivierte Zähler") ziehen und mit Rechtsklick auf den entsprechenden Ordner, Massenaktionen, Alle Zähler deaktivieren, alle Zähler gleichzeitig deaktivieren. 
 
-Hinweis zu deaktivierten Zählern: Ein deaktivierter Zähler kostet keine Lizenz mehr, du kannst aber auch nicht mehr auf die vergangenen Daten des Zählers zugreifen, solang er deaktiviert ist. Für die Zeit, in der der Zähler deaktiviert ist, werden zudem keine neuen Messdaten des Zählers in der Cloud gespeichert.  
+Hinweis zu deaktivierten Zählern: Ein deaktivierter Zähler kostet keine Lizenz mehr, du kannst aber auch nicht mehr auf die vergangenen Daten des Zählers zugreifen, solange er deaktiviert ist. Für die Zeit, in der der Zähler deaktiviert ist, werden zudem keine neuen Messdaten des Zählers in der Cloud gespeichert.  
 
 </details>

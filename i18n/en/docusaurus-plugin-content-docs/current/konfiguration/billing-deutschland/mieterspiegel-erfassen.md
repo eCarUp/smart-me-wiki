@@ -1,8 +1,8 @@
 ---
-title: 'Enter tenant schedule'
+title: 'Record tenant list'
 slug: '/konfiguration/billing-deutschland/mieterspiegel-erfassen'
 description: 'Store the customer number, contract and term for each residential unit of the tenant electricity property.'
-sidebar_label: 'Enter tenant schedule'
+sidebar_label: 'Record tenant list'
 naechste_schritte: [konfiguration/billing-deutschland/stromtarife-definieren]
 vorheriger_schritt: konfiguration/billing/zaehler-zuweisen
 ---
@@ -22,13 +22,13 @@ Here you set the customer number for this tenant.
 
 Note:
 
-The customer number is automatically also used as the name of the PDF document to make external identification easier.
+The customer number is automatically also used as the name of the PDF document, making it easier to identify externally.
 
 ### Contract and term
 
-Here you can insert contractual provisions. An example (no guarantee of legal validity) would be:
+Here you can add contractual provisions. An example (no guarantee of legal validity) would be:
 
-Your contract runs until DD.MM.YYYY and, in accordance with the provision in clause X of your electricity supply contract, is extended by one year unless it is terminated in due time. You may terminate the electricity supply contract with three months' notice effective DD.MM.YYYY in accordance with clause X of the electricity supply contract. Any special right of termination remains unaffected
+Your contract runs until DD.MM.YYYY and is extended by one year in accordance with the provision in Section X of your electricity supply contract unless it is terminated in due time. You may terminate the electricity supply contract with three months' notice effective DD.MM.YYYY in accordance with Section X of the electricity supply contract. Any special right of termination remains unaffected.
 
 </div>
 <div className="col col--5 bild--mitte">

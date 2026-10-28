@@ -1,18 +1,18 @@
 ---
 title: 'GreenPocket'
 slug: '/drittsysteme/greenpocket'
-description: 'Greenpocket GmbH riunisce i dati dei contatori provenienti da diversi sistemi e consente analisi personalizzate dei dati di misura, ad es. per valutazioni secondo ISO50001.'
+description: 'Greenpocket GmbH riunisce i dati dei contatori provenienti da diversi sistemi e consente analisi personalizzate dei dati di misura, ad es. per valutazioni ISO50001.'
 sidebar_label: 'GreenPocket'
 ---
 
 <div className="row">
 <div className="col col--8">
 
-Greenpocket GmbH riunisce i dati dei contatori provenienti da diversi sistemi e consente analisi personalizzate dei dati di misura, ad es. per valutazioni secondo ISO50001.
+Greenpocket GmbH riunisce i dati dei contatori provenienti da diversi sistemi e consente analisi personalizzate dei dati di misura, ad es. per valutazioni ISO50001.
 
 I dati di misura smart-me vengono trasferiti nel software di Greenpocket tramite [esportazioni MSCONS automatiche](/schnittstellen/auto-export).
 
-I dati MSCONS di smart-me contengono i seguenti vettori energetici:
+I dati MSCONS di smart-me comprendono i seguenti vettori energetici:
 
 - Elettricità 
 - Acqua fredda 
@@ -21,7 +21,7 @@ I dati MSCONS di smart-me contengono i seguenti vettori energetici:
 - Freddo
 
 </div>
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
 ![GreenPocket – Figura 1](/img/drittsysteme-greenpocket/01.png)
 
@@ -31,7 +31,7 @@ I dati MSCONS di smart-me contengono i seguenti vettori energetici:
 ## Funzioni:
 
 - Gestione dei dati di più sedi
-- Allarmi per andamenti insoliti nelle sedi
+- Allarmi per andamenti anomali nelle sedi
 - Confronto di set di dati secondo formule personalizzate
     (ad es. elettricità per posto di lavoro al 100% nelle sedi)
 - Creazione di panoramiche delle sedi
@@ -44,10 +44,10 @@ I dati MSCONS di smart-me contengono i seguenti vettori energetici:
 ### Panoramiche delle sedi o delle regioni con funzioni di confronto
 ![GreenPocket – Figura 2](/img/drittsysteme-greenpocket/02.png)
 
-### Gestione delle sedi e allarmi basati su mappa
+### Gestione delle sedi su mappa e allarmi
 ![GreenPocket – Figura 3](/img/drittsysteme-greenpocket/03.png)
 
-### Analisi dei dati delle sedi rispetto a indicatori personalizzati, ad es. consumo energetico per posto di lavoro al 100% nella sede
+### Analisi dei dati delle sedi rispetto a indicatori personalizzati, ad es. consumo energetico per posto al 100% nella sede
 ![GreenPocket – Figura 4](/img/drittsysteme-greenpocket/04.png)
 
 ### Possibilità di analisi grafica dei dati

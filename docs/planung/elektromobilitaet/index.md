@@ -18,7 +18,7 @@ Generell muss ab zwei Ladestationen im System ein Lastmanagement aktiv die Kapaz
 Es soll damit verhindert werden, dass zu hoher Strombezug der Ladeinfrastruktur dazu führt, dass Absicherungen zum Schutz der Infrastruktur ausgelöst werden.
 Die Folge daraus wäre vorübergehender Stromausfall in Teilen oder im gesamten Areal, sowie Serviceleistungen zur Instandstellung der Situation.
 
-Gleichzeitig muss eine Reduktion der Ladeleistung gewährleistet werden wenn der Energieversorger bei Unterversorgung sein Netz schützen muss.
+Gleichzeitig muss eine Reduktion der Ladeleistung gewährleistet werden, wenn der Energieversorger bei Unterversorgung sein Netz schützen muss.
 
 Das Lastmanagement übernimmt neben dem Überlastschutz normalerweise noch weitere Funktionen:
 
@@ -40,15 +40,15 @@ Mehr Details findest du unter "Beschreibung Lastmanagement" im jeweiligen Themen
 Ladestationen sind Grossverbraucher und werfen entsprechend Kosten bei der Nutzung auf.
 Primär die zum Laden verwendete Energie, andererseits der Betriebsstrom und die Verluste daraus, sowie eine eventuelle Miete der Ladestation.
 
-Die Abrechnung kann zum Einheits- oder Mehrtarif erfolgen, z.B. Hoch-, Nieder und Solartarif, in Abhängigkeit der verwendeten Hardware und der Abrechnungslösungskombination.
+Die Abrechnung kann zum Einheits- oder Mehrtarif erfolgen, z.B. Hoch-, Nieder- und Solartarif, in Abhängigkeit der verwendeten Hardware und der Abrechnungslösungskombination.
 
 Mehr Details findest du unter "Abrechnung" im jeweiligen Thementeil.
 
 ### Abrechnung der E-Mobilität gegenüber Dritten oder Unbekannten (Öffentlich / Halböffentlich)
 
-Bei Installation von Ladeinfrastruktur entstehen oftmals hohe Kosten. Ein guter Weg die Amortisation zu beschleunigen oder auch um ein gewünschtes öffentliches Angebot zu ermöglichen, ist die Ladestation Dritten zugänglich zu machen. 
+Bei Installation von Ladeinfrastruktur entstehen oftmals hohe Kosten. Ein guter Weg, die Amortisation zu beschleunigen oder auch um ein gewünschtes öffentliches Angebot zu ermöglichen, ist die Ladestation Dritten zugänglich zu machen. 
 
-Um eine Ladestation der Öffentlichkeit zur Verfügung zu stellen bedarf es einer E-Mobility Backendsoftware.
+Um eine Ladestation der Öffentlichkeit zur Verfügung zu stellen, bedarf es einer E-Mobility Backendsoftware.
 
 Die Backendsoftware übernimmt dann die Freigabe einer Ladung an Dritte in Abhängigkeit deiner Bedürfnisse und gewählten Bezahlmethode.
 
@@ -66,7 +66,7 @@ Mehr Details findest du unter "Abrechnung" im jeweiligen Thementeil.
 [Projektkonfigurator](/planung/projektkonfigurator)
 
 </div>
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
 ![Elektromobilität – Abbildung 1](/img/planung-elektromobilitaet/01.png)
 

@@ -15,7 +15,7 @@ Im Video Rechts werden dir von Guy die Grundlagen erklärt wie die Strompreise G
 
 
 
-Du kannst neu aber auch unseren Online-Stromtarifrechner verwenden welcher dir unter die Arme greift und auf der Erklärung basiert.
+Du kannst neu aber auch unseren Online-Stromtarifrechner verwenden, welcher dir unter die Arme greift und auf der Erklärung basiert.
 
 [smart-me Stromtarifrechner](/konfiguration/billing/stromtarife-definieren/stromtarif-rechner)
 
@@ -23,19 +23,19 @@ Du kannst neu aber auch unseren Online-Stromtarifrechner verwenden welcher dir u
 
 smart-me Billing Preise ZEV festlegen von Guy erklärt.
 
-Achtung: Video wurde mit einem alter Version vom Excel aufgenommen. Dort ist noch ein Fehler in den Formeln drin. Excel wurde korrigiert.
+Achtung: Video wurde mit einer alten Version vom Excel aufgenommen. Dort ist noch ein Fehler in den Formeln drin. Excel wurde korrigiert.
 
 [Beispiel Preise im ZEV festlegen.xlsx](https://drive.google.com/uc?export=download&id=1cGOAL1UIo4ZmvW55drHcfdPw0v4vnJ9Z) 
 
 ## Stromtarife konfigurieren
 
-Im smart-me Billing kann entweder mit den Elektrizitätstarifen oder mit virtuellen Tarifen gearbeitet werden. Die Lösung mit Elektrizitätstarifen eignet sich ausschliesslich für die realisierung von reinen Netzstromsystemen. In allen anderen Fällen sind die virtuellen Tarife zu verwenden.
+Im smart-me Billing kann entweder mit den Elektrizitätstarifen oder mit virtuellen Tarifen gearbeitet werden. Die Lösung mit Elektrizitätstarifen eignet sich ausschliesslich für die Realisierung von reinen Netzstromsystemen. In allen anderen Fällen sind die virtuellen Tarife zu verwenden.
 
 ### 1.Beschaffe dir das Tarifblatt deines Energieversorgers
 
-Das Tarifblatt deines Energieversorgers ist schon Monate vor beginn der neuen Tarifperiode online auf seiner Webseite verfügbar.
+Das Tarifblatt deines Energieversorgers ist schon Monate vor Beginn der neuen Tarifperiode online auf seiner Webseite verfügbar.
 
-Informiere dich auch welchen Tarif du beim Energieversorger genau einkaufst: 
+Informiere dich auch, welchen Tarif du beim Energieversorger genau einkaufst: 
 
 - Grün , Blau, Grau oder andere Versionen
 
@@ -55,7 +55,7 @@ Die relevanten Informationen sind teilweise etwas verstreut. Das Tarifblatt selb
 - Öffentliche Abgaben
 
 
-Die Öffentlichen Abgaben im speziellen sind nicht vollständig auf dem Tarifblatt vorhanden. Die Gemeindeabgaben sind unterschiedlich pro Gemeinde und sind in eimem externen Tarifblatt festgehalten. Der Link befindet sich in 99% der Fälle in der Fussnote des Tarifblattes.
+Die öffentlichen Abgaben im Speziellen sind nicht vollständig auf dem Tarifblatt vorhanden. Die Gemeindeabgaben sind unterschiedlich pro Gemeinde und sind in einem externen Tarifblatt festgehalten. Der Link befindet sich in 99% der Fälle in der Fussnote des Tarifblattes.
 
 Beschaffe diesen Wert für deine Tarifierung über den auf dem Tarifblatt aufgedruckten Link.
 
@@ -65,7 +65,7 @@ Er ist üblicherweise auch ein Rp. / kWh Wert, kann aber auch in % der Netznutzu
 
 ### 2\. Wähle für deinen (v)ZEV die zu verwendende Solartarifberechnung
 
-Du Kannst zwischen zwei grundsätzlichen Ansätzen wählen:
+Du kannst zwischen zwei grundsätzlichen Ansätzen wählen:
 
 - Pauschalmethode nach 80% des Standardnetzprodukts
     Wichtig hier ist, dass die Pauschalmethode automatisch alle anderen Kosten abdeckt. Es dürfen keine Kosten erhoben werden für die Messung, Abrechnung und Management des ZEV-Stromverkaufs.
@@ -75,27 +75,27 @@ Du Kannst zwischen zwei grundsätzlichen Ansätzen wählen:
 
     - -   Ausprägung 1: Netzstrom verrechnet 1:1, Solarstrom 80% der Grundkosten und 80% des Netzstromeinkaufspreises
             Diese Variante eignet sich für die Gewinnoptimierung innerhalb des ZEV, solange eine hohe Auslastung bei den Mieten besteht.
-            Diese Methode eignet sich nicht, wenn Industrielle Grossverbraucher im gleichen Gebäude sind und ein Multitarifsystem besteht.
+            Diese Methode eignet sich nicht, wenn industrielle Grossverbraucher im gleichen Gebäude sind und ein Multitarifsystem besteht.
             Beste Lösung für Multitarifsysteme.
 
         - Ausprägung 2: Netzstrom 1:1, Solarstrom 80% des Elcom-Referenzpreises (Verwenden wenn dynamische Tarife vom Energieversorger)
-            Diese Variante eignet sich für alle ZEV ohne Industrielle Grossverbraucher und ist die einfachste in der Umsetzung.
+            Diese Variante eignet sich für alle ZEV ohne industrielle Grossverbraucher und ist die einfachste in der Umsetzung.
             Bessere Option bei häufigen Leerständen.
-            Wird diese Variante in Zusammenhang mit Industrie und Multitarif (Doppeltarif) verwendet, kann es sein, dass der Industrielle über den höheren Solartarif am Ende mehr bezahlt wie ausserhalb des ZEV!
+            Wird diese Variante in Zusammenhang mit Industrie und Multitarif (Doppeltarif) verwendet, kann es sein, dass der Industrielle über den höheren Solartarif am Ende mehr bezahlt als ausserhalb des ZEV!
 
 - Effektive Kosten (Gestehungskostenrechnung)
-    Bei dieser Methode können Kosten für Messung, Abrechnung und Management erhoben werden, zusätzlich zum Kalkulierten Wert des Solarstromes. Details dazu findest du im VEWA Handbuch. 
+    Bei dieser Methode können Kosten für Messung, Abrechnung und Management erhoben werden, zusätzlich zum kalkulierten Wert des Solarstromes. Details dazu findest du im VEWA Handbuch. 
 
-    - -   Diese Methode eignet sich, wenn 80% des Netzstromes allenfalls nicht kostendeckend für deine Solarnlage wären. Dies ist sehr selten der Fall.
+    - -   Diese Methode eignet sich, wenn 80% des Netzstromes allenfalls nicht kostendeckend für deine Solaranlage wären. Dies ist sehr selten der Fall.
 
-        - Diese Methode muss Jahr für Jahr mit der Kalkulation bewiesen werden und erhöht den Administrativen Aufwand.
+        - Diese Methode muss Jahr für Jahr mit der Kalkulation bewiesen werden und erhöht den administrativen Aufwand.
 
 
 ### 3\. Berechne deine Tarife für die Tarifperiode
 
 Nutze für die Berechnung am einfachsten unseren Tarifrechner. Er lässt dich je nach Wahl der Methode wissen, welche Eintragungen du im smart-me machen musst.
 
-Beim dynamischen Tarif: Wähle 80% Elcom methode und suche im Rechner den H4 Tarif deiner Region und Energieversorgers als Referenz.
+Beim dynamischen Tarif: Wähle 80% Elcom Methode und suche im Rechner den H4 Tarif deiner Region und Energieversorgers als Referenz.
 
 [smart-me Stromtarifrechner](/konfiguration/billing/stromtarife-definieren/stromtarif-rechner)
 
@@ -154,7 +154,7 @@ Erstelle nun zwei Netztarife mit den angegebenen Preisen:
 
 - Netztarif NT 2026: 0.17007 CHF / kWh
 
-Bei Doppeltarifen, muss das Timing vorrangig erstellt werden mittels [WENN/DANN](/konfiguration/wenndann-aktionen) Aktionen, diese Aktionen, können dann mit der "Zusätzlichen Bedingung" verlinkt werden um die Gültigkeit durch die Woche zu steuern.
+Bei Doppeltarifen, muss das Timing vorrangig erstellt werden mittels [WENN/DANN](/konfiguration/wenndann-aktionen) Aktionen, diese Aktionen, können dann mit der "Zusätzlichen Bedingung" verlinkt werden, um die Gültigkeit durch die Woche zu steuern.
 
 ![Stromtarife definieren – Abbildung 7](/img/konfiguration-billing-stromtarife-definieren/07.png)
 
@@ -170,7 +170,7 @@ Es gibt verschiedene Solartarife und Batterietarife mit unterschiedlichen Fähig
 
 Allgemein ist der **Solartarif vZEV** die beste und universellste Wahl.
 
-Was dieser nicht kann ist unterschiedliche Tarife für Batterie und Solarenergie defineiren. Dazu muss der alternative Tarif verwendet werden.
+Was dieser nicht kann ist unterschiedliche Tarife für Batterie und Solarenergie definieren. Dazu muss der alternative Tarif verwendet werden.
 
 Details findest du unterhalb in der Sektion "Alle Details".
 
@@ -239,7 +239,7 @@ Die Spitzenleistungskosten können mit einer von zwei Methoden erfasst werden:
 
 - Verbrauchsmessung: Automatisch durch eigene Bilanzmessung
 
-- Kostenerfassung: Spätere Kostenerfassung pro Monat nach erhalt der Rechnung
+- Kostenerfassung: Spätere Kostenerfassung pro Monat nach Erhalt der Rechnung
 
 
 Gültigkeitsdauer:
@@ -255,7 +255,7 @@ In diesem Beispiel nutzen wir die 80% Methode mit Grundgebühr. Entsprechend mü
 
 ![Stromtarife definieren – Abbildung 15](/img/konfiguration-billing-stromtarife-definieren/15.png)
 
-Die Kosten der Grundgebühr fällt auf allen Abrechnungseinheiten an, daher kann Sie global bei den Tarifen hinterlegt werden für das Jahr 2026.
+Die Kosten der Grundgebühr fallen auf allen Abrechnungseinheiten an, daher kann sie global bei den Tarifen hinterlegt werden für das Jahr 2026.
 
 ![Stromtarife definieren – Abbildung 16](/img/konfiguration-billing-stromtarife-definieren/16.png)
 
@@ -277,7 +277,7 @@ Tarif Type 
 
 - Solartarif vZEV (neu):
     Damit kann ein globaler Solartarif in einer ZEV oder einer vZEV erstellt werden.
-    Die Solarenergie wird dabei gleichmässig auf alle Verbraucher verteilt und Basiert auf der Summe der Hausbilanzen (ZEV) und der Summe der Produktionen (Solarzähler und oder Batteriezähler). Mit diesem Tarif ist es nicht nötig 100% der Lasten zu messen wenn ein Hausanschlusszähler physisch vorhanden ist. Die Notwendigkeit von virtuellen Summenzählern entfällt bei diesem Tarif.
+    Die Solarenergie wird dabei gleichmässig auf alle Verbraucher verteilt und basiert auf der Summe der Hausbilanzen (ZEV) und der Summe der Produktionen (Solarzähler und oder Batteriezähler). Mit diesem Tarif ist es nicht nötig 100% der Lasten zu messen, wenn ein Hausanschlusszähler physisch vorhanden ist. Die Notwendigkeit von virtuellen Summenzählern entfällt bei diesem Tarif.
 
 - Solartarif (legacy):
     Damit kann die Energie einer Solaranlage innerhalb eines ZEV verrechnet werden.
@@ -305,7 +305,7 @@ Gültig bis: Das Datum, bis wann dieser Tarif gültig sein soll. Siehe Hinweis.
 
 Hinweise: 
 
-- Wir empfehlen, die Gültigkeit von 1.1.2000 bis 31.12.2099 zu setzten. Bedingung für diese Handhabung ist, dass die Rechnungen in der gleichen Periodizität versendet werden wie der lokale Energieversorger. In diesem Fall kann vor der Rechnungserstellung der Preis festgelegt werden. Wird im smart-me Billing nur der Preis geändert, ist es nicht notwendig den Knopf "neu rechnen" zu betätigen. Bei allen anderen Anpassungen ist das neu rechnen jedoch notwendig.
+- Wir empfehlen, die Gültigkeit von 1.1.2000 bis 31.12.2099 zu setzen. Bedingung für diese Handhabung ist, dass die Rechnungen in der gleichen Periodizität versendet werden wie der lokale Energieversorger. In diesem Fall kann vor der Rechnungserstellung der Preis festgelegt werden. Wird im smart-me Billing nur der Preis geändert, ist es nicht notwendig den Knopf "neu rechnen" zu betätigen. Bei allen anderen Anpassungen ist das neu rechnen jedoch notwendig.
 
 - Wenn Sie alle Tarife definiert haben, müssen Sie auf „Neu berechnen“ klicken. Dadurch werden alle virtuellen Tarife berechnet und aktiviert. Dieser Vorgang kann einige Stunden in Anspruch nehmen.
 
@@ -336,31 +336,31 @@ Der Einheitstarif kann entweder statisch (fixer Tarif) oder dynamisch angelegt w
 
 Festtarif
 
-Der fixe Tarif wendet den definierten Pries / kWh Netzstrom an.
+Der fixe Tarif wendet den definierten Preis / kWh Netzstrom an.
 
 
 
 Dynamischer Tarif
 
-Der dynamische Tarif hingegen bedinet sich einer externen API und fragt den verfügbaren Provider für jede Stunde nach dem aktuell gültigen Preis.
+Der dynamische Tarif hingegen bedient sich einer externen API und fragt den verfügbaren Provider für jede Stunde nach dem aktuell gültigen Preis.
 
 Der Preis wird dann pro Stunde appliziert.
 
-Bitte beachte, das die dynamischen Preise nicht alle relevanten Kosten übertragen und zusätzliche Eintragungen gemacht werden müssen.
+Bitte beachte, dass die dynamischen Preise nicht alle relevanten Kosten übertragen und zusätzliche Eintragungen gemacht werden müssen.
 
 - Zusatzgebühren wie Konzessionsgebühren der Gemeinde
     (Als zusätzlicher Fixpreis eintragen)
 
-- Montaliche Anschlussgebühren (Bereich Sonstiges)
+- Monatliche Anschlussgebühren (Bereich Sonstiges)
 
 
-Die Berechnung von Rechnungen mit dynamischen Tarif dauern merklich länger als die anderen Methoden (Datentransfer und Applikation)
+Die Berechnung von Rechnungen mit dynamischen Tarif dauert merklich länger als die anderen Methoden (Datentransfer und Applikation)
 
 
 
-Doppeltarif unf Multitarife
+Doppeltarif und Multitarife
 
-Es wird für jeden unterschiedlichen Tarif ein Tarif (Netztarif) angelegt. DIese werden danach mit Hilfe der Bedingungen an ein Timing gekoppelt.
+Es wird für jeden unterschiedlichen Tarif ein Tarif (Netztarif) angelegt. Diese werden danach mit Hilfe der Bedingungen an ein Timing gekoppelt.
 
 Das Timing wird über die [WENN/DANN](/konfiguration/wenndann-aktionen) Aktionen definiert.
 
@@ -396,7 +396,7 @@ Die Lösung unterstützt folgende Umsetzungen:
 
 - vZEV: Kombination von smart-me ZEV's mit EFH's mit Solaranlagen 
 
-- vZEV: Mehrere smart-me ZEV's in kombination mit ehemaligen VNB Praxismodellen
+- vZEV: Mehrere smart-me ZEV's in Kombination mit ehemaligen VNB Praxismodellen
 
 
 Hinweis:
@@ -471,7 +471,7 @@ Bei Verzicht auf den physischen Bilanzzähler sind Abweichungen bei Zuteilung de
 
 Virtuelle Summenzähler
 
-- Der Virtuelle Summenzähler (Gesamtverbrauch) ist notwendig für die Bildung der Referenz für die Tarifzuteilung. Dieser wird aus allen Lastzählern gebildet und ist Kostenplfichtig (1x Professionallizenz)
+- Der Virtuelle Summenzähler (Gesamtverbrauch) ist notwendig für die Bildung der Referenz für die Tarifzuteilung. Dieser wird aus allen Lastzählern gebildet und ist kostenpflichtig (1x Professionallizenz)
 
     Die Summe der Zähler muss genau 100% der Last betragen. Wenn Sie Zähler in Reihe geschaltet haben, ist nur der Zähler in der näher zur Unterverteilung / Hausanschlusses relevant.
     Solarzähler, Batteriezähler und Hausanschlusszähler sind zu exkludieren.
@@ -523,14 +523,14 @@ Generelle Funktionsweise:
 
 Die erfassten Spitzentarifskosten oder die automatisch berechneten Kosten aufgrund der Messung und des hinterlegten Tarifs, werden bei der Rechnungserstellung im gewählten Berechnungsintervall auf die Verbraucher aufgeteilt. 
 
-Als Basis dient die jeweilige verursachte Stromspitze (nur Netzbezug) jedes individuellen Verbrauchers in der Abrechnungsperiode und dem jeweils gewählten Berechnungsintervalls.
+Als Basis dient die jeweilige verursachte Stromspitze (nur Netzbezug) jedes individuellen Verbrauchers in der Abrechnungsperiode und dem jeweils gewählten Berechnungsintervall.
 
 ![Stromtarife definieren – Abbildung 31](/img/konfiguration-billing-stromtarife-definieren/31.png)
 
 <details id="spitzentarife-ohne-aktive-hauptmessung">
 <summary>Spitzentarife ohne aktive Hauptmessung (Manuelle Kosteneintragung)</summary>
 
-Eignet sich für alle Systeme die keine Referenzmessung besitzen. 
+Eignet sich für alle Systeme, die keine Referenzmessung besitzen. 
 
 ![Stromtarife definieren – Abbildung 32](/img/konfiguration-billing-stromtarife-definieren/32.png)
 
@@ -541,7 +541,7 @@ Eignet sich für alle Systeme die keine Referenzmessung besitzen. 
 <details id="spitzentarife-mit-aktiver-hauptmessung">
 <summary>Spitzentarife mit aktiver Hauptmessung (Automatische Kostenberechnung)</summary>
 
-Eignet sich für alle Systeme die eine direkte Bilanzmessung besitzen.
+Eignet sich für alle Systeme, die eine direkte Bilanzmessung besitzen.
 
 ![Stromtarife definieren – Abbildung 34](/img/konfiguration-billing-stromtarife-definieren/34.png)
 
@@ -554,7 +554,7 @@ Je nach Tarifmodell deines Energieversorgers sieht die Konfiguration anders aus.
 <details id="einheitstarif-ohne-solar">
 <summary>Einheitstarif ohne Solar</summary>
 
-- In diesem Fall empfehlen wir, keine virtuellen Tarife zu verwenden. Elektrizitätstarife (Alle) sind in diesem Fall effizienter. Es ist jederzeit möglich, von Elektrizitätstarife auf virtuelle Tarife zu wechseln.
+- In diesem Fall empfehlen wir, keine virtuellen Tarife zu verwenden. Elektrizitätstarife (Alle) sind in diesem Fall effizienter. Es ist jederzeit möglich, von Elektrizitätstarifen auf virtuelle Tarife zu wechseln.
 
 
 Logik: Die Zählerstände werden abgefragt und für das Billing verwendet. Es ist keine Berechnung nötig.
@@ -756,7 +756,7 @@ Ersten müssen die Wenn Aktionen definiert werden.
 
 Dann müssen die Preise pro Zeitperiode definiert werden.
 
-Die Perioden bzw. Dauer müssen in diesem Fall hinterlegt werden. Bei diesen Tarifmodell ist eine Kombination aus Wenn Dann und Periode notwendig.
+Die Perioden bzw. Dauer müssen in diesem Fall hinterlegt werden. Bei diesem Tarifmodell ist eine Kombination aus Wenn Dann und Periode notwendig.
 
 - Name: Uri Sommer HT Netz
 

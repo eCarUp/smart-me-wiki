@@ -5,64 +5,64 @@ description: 'Certifier un bâtiment Minergie'
 sidebar_label: 'Minergie'
 symbol: 'blatt'
 ---
-![Module Minergie Monitoring – illustration 1](/img/planung-minergie/01.png)
+![Module Minergie Monitoring – figure 1](/img/planung-minergie/01.png)
 
 ## Certifier un bâtiment Minergie
 
-Pour obtenir la certification, les bâtiments Minergie doivent impérativement disposer d'un monitoring énergétique. Celui-ci peut être réalisé avec le module Minergie Monitoring certifié de smart-me. Les appareils et passerelles smart-me et l'interface cloud facilitent l'obtention de la certification.
+Pour obtenir la certification, les bâtiments Minergie doivent obligatoirement disposer d'un monitoring énergétique. Celui-ci peut être réalisé avec le module Minergie Monitoring certifié de smart-me. Avec les appareils et les passerelles de smart-me ainsi que l'interface cloud, la certification s'obtient facilement.
 
-Le chef de projet ou le partenaire spécialisé Minergie inscrit les bâtiments à certifier auprès de Minergie et les saisit sur la plateforme de labels de Minergie. Pour que la certification puisse avoir lieu, le système de monitoring doit être justifié. 
+Les bâtiments à certifier sont annoncés auprès de Minergie par le chef de projet ou le partenaire spécialisé Minergie, puis saisis sur la plateforme Label de Minergie. Pour que la certification puisse être effectuée, le système de monitoring doit être justifié. 
 
 - La planification et la réalisation de la certification du bâtiment sont assurées par un partenaire spécialisé Minergie.
 
-- Le monitoring et le Minergie Monitoring+ peuvent en revanche être réalisés par tout partenaire smart-me disposant de la compétence spécialisée Minergie.
+- La mise en place du monitoring et de Minergie Monitoring+ peut en revanche être réalisée par tout partenaire smart-me disposant de compétences spécialisées Minergie.
 
 
-## Établir simplement le justificatif de monitoring Minergie :
+## Établir facilement le justificatif de monitoring Minergie :
 
-Ces étapes nécessitent un partenariat avec smart-me et un contrat Minergie, ou un intégrateur système smart-me répertorié comme représentant.
+Ces étapes supposent un partenariat avec smart-me et un contrat Minergie, ou un intégrateur système smart-me répertorié comme représentant.
 
-1.  Se connecter à la plateforme de labels Minergie : [https://www.label-plattform.ch/login](https://www.label-plattform.ch/login) 
+1.  Connectez-vous à la plateforme Label de Minergie : [https://www.label-plattform.ch/login](https://www.label-plattform.ch/login) 
 
-2.  Aller dans « Monitoring »
+2.  Naviguez vers « Monitoring »
 
-3.  Choisir le monitoring : Standard ou Light (selon le bâtiment)
+3.  Sélectionnez le monitoring : Standard ou Light (selon le bâtiment)
 
-4.  Indiquer que le justificatif est fourni par un fournisseur de module certifié
+4.  Indiquez que le justificatif est fourni par un fournisseur de module certifié
 
-5.  Sélectionner smart-me comme fournisseur de module.
+5.  Sélectionnez smart-me comme fournisseur de module.
 
 
-La demande de justificatif est transmise à smart-me si la planification n'a pas encore attribué d'intégrateur système au bâtiment.
+La demande de justificatif est transmise à smart-me, pour autant qu'aucun intégrateur système n'ait encore été attribué au bâtiment par la planification.
 Dans ce cas, smart-me délègue la tâche à l'un de ses intégrateurs système répertoriés.
 
-![Module Minergie Monitoring – illustration 2](/img/planung-minergie/02.png)
+![Module Minergie Monitoring – figure 2](/img/planung-minergie/02.png)
 
-## Annoncer l'immeuble Minergie à smart-me :
+## Annonce de l'immeuble Minergie à smart-me :
 
 [Inscription de l'objet Minergie](https://docs.google.com/forms/d/e/1FAIpQLScG1xwJWjP0vKgiQ1gL3gXi4rB1zEQQekRgW9bA4w_EU-4NIg/viewform?usp=header) 
 
 ## Module Minergie Monitoring + (comparaison des données planifiées et effectives)
 
-Grâce à son interface directe avec la base de données Minergie, le cloud smart-me permet aussi d'utiliser les nouveaux modules complémentaires Minergie Exploitation pour comparer les données planifiées et les données effectives.
+Grâce à son interface directe avec la base de données Minergie, le cloud smart-me permet également d'utiliser les nouveaux modules complémentaires Minergie Exploitation, afin de comparer les données planifiées et les données effectives.
 
 L'évaluation des données est mise à disposition sur la plateforme Minergie et est payante auprès de Minergie.
 
 [En savoir plus sur le Monitoring +](https://www.minergie.ch/de/zertifizieren/minergie-betrieb/)
 
-![Module Minergie Monitoring – illustration 3](/img/planung-minergie/03.png)
+![Module Minergie Monitoring – figure 3](/img/planung-minergie/03.png)
 
-## Devenir partenaire smart-me avec compétence spécialisée Minergie
+## Devenir partenaire smart-me avec compétences spécialisées Minergie
 
 Pour réaliser des monitorings Minergie avec smart-me, il faut avoir suivi la formation partenaire et étudié de manière autonome les règlements et directives Minergie.
 
 Les informations générales se trouvent ci-dessous.
 
-Après cette étude autonome, une demande d'intégrateur système peut être déposée auprès de smart-me AG. Si la demande est acceptée après examen, l'intégrateur système est officiellement inscrit en tant que tel dans la liste des partenaires. 
+Après l'étude autonome, une demande d'intégrateur système peut être déposée auprès de smart-me AG. Après examen positif de la demande, l'intégrateur système est officiellement inscrit comme tel dans la liste des partenaires. 
 
-Dès lors, les demandes sont transmises aux intégrateurs système, qui obtiennent l'accès à l'interface de transmission des données à Minergie.
+À partir de ce moment, les demandes sont transmises aux intégrateurs système, et ceux-ci obtiennent l'accès à l'interface de transmission des données à Minergie.
 
-### Règlements pour la réalisation de Minergie -P ou -A :
+### Règlements pour la mise en œuvre de Minergie -P ou -A :
 
 - [https://www.minergie.ch/de/zertifizieren/minergie-p/](https://www.minergie.ch/de/zertifizieren/minergie-p/) 
 
@@ -74,56 +74,56 @@ Dès lors, les demandes sont transmises aux intégrateurs système, qui obtienne
 - [https://www.minergie.ch/de/zertifizieren/module/](https://www.minergie.ch/de/zertifizieren/module/) 
 
 
-![Module Minergie Monitoring – illustration 4](/img/planung-minergie/04.png)
+![Module Minergie Monitoring – figure 4](/img/planung-minergie/04.png)
 
-## Demande de compétence spécialisée Minergie en tant que partenaire smart-me
+## Demande de compétences spécialisées Minergie en tant que partenaire smart-me
 
 Téléchargez la demande, vérifiez son contenu, signez-la et envoyez-la à : [info@smart-me.com](mailto:info@smart-me.com) 
 
 [Télécharger le contrat](https://docs.google.com/document/d/1ncBPleMpr_TSE4LcLPSbgPWPel-ALSdSWSmM27RRhNk/edit?usp=drive_link/export?format=docx)
 
-## Obligations du partenaire smart-me avec compétence spécialisée Minergie :
+## Obligations du partenaire smart-me avec compétences spécialisées Minergie :
 
-- Mise en service correcte : la mise en service des installations doit être effectuée dans les règles de l'art et documentée par un procès-verbal de mise en service qui répertorie tous les appareils utilisés. Le modèle de procès-verbal fourni par Minergie peut être utilisé à cet effet.
-
-
-- Configuration sur la plateforme de labels : chaque objet doit être configuré correctement et dans les délais sur la plateforme de labels Minergie. Cela comprend la saisie des données complètes du client final (nom, entreprise, adresse, e-mail, téléphone).
+- Mise en service correcte : une mise en service des installations conforme aux règles de l'art doit être effectuée et documentée au moyen d'un procès-verbal de mise en service listant tous les appareils utilisés. Le modèle de procès-verbal mis à disposition par Minergie peut être utilisé à cet effet.
 
 
-- Livraison des données : une livraison des données correcte et complète conformément au règlement « Module Minergie Monitoring » relève de la responsabilité de l'intégrateur système. smart-me AG apporte bien entendu son soutien technique pour y parvenir.
+- Configuration sur la plateforme Label : chaque objet doit être configuré correctement et dans les délais sur la plateforme Label de Minergie. Cela inclut la saisie des données complètes du client final (nom, entreprise, adresse, e-mail, téléphone).
 
 
-- Obligation d'annoncer les modifications : Minergie doit être informé activement et sans délai (via monitoring@minergie.ch) de toute modification du système de monitoring (p. ex. remplacement d'appareils de mesure).
+- Livraison des données : une livraison des données correcte et sans lacune conformément au règlement « Module Minergie Monitoring » relève de la responsabilité de l'intégrateur système. smart-me AG apporte bien entendu son soutien technique pour satisfaire à cette exigence.
 
 
-- Annonce de l'immeuble à smart-me : chaque objet doit être annoncé à smart-me via le formulaire du Wiki prévu à cet effet. Cela permet, si le client manifeste un intérêt ultérieur, de transmettre les demandes aux bons partenaires. [Inscription de l'objet Minergie](https://docs.google.com/forms/d/e/1FAIpQLScG1xwJWjP0vKgiQ1gL3gXi4rB1zEQQekRgW9bA4w_EU-4NIg/viewform?usp=header) 
+- Obligation d'annoncer les modifications : Minergie doit être informé activement et sans délai (via monitoring@minergie.ch) de toute modification apportée au système de monitoring (p. ex. remplacement d'appareils de mesure).
 
 
-- Transmission du procès-verbal : le procès-verbal de mise en service de chaque objet doit être transmis à Minergie dans les délais ou téléversé sur la plateforme de labels.
+- Annonce de l'immeuble à smart-me : chaque objet doit être annoncé à smart-me via le formulaire du Wiki prévu à cet effet. Cela permet, en cas d'intérêt ultérieur des clients, d'acheminer les demandes vers les bons partenaires. [Inscription de l'objet Minergie](https://docs.google.com/forms/d/e/1FAIpQLScG1xwJWjP0vKgiQ1gL3gXi4rB1zEQQekRgW9bA4w_EU-4NIg/viewform?usp=header) 
 
 
-### Coûts liés au Minergie Monitoring +
+- Transmission du procès-verbal : le procès-verbal de mise en service doit être transmis à Minergie dans les délais pour chaque objet ou téléversé sur la plateforme Label.
 
-Pour les intégrateurs, les coûts se basent sur les prix de Minergie. Les prix actuels figurent dans le document « Règlement Minergie Monitoring », au chapitre 4.4 « Royalties pour l'évaluation Monitoring + »
 
-L'intégrateur doit s'acquitter de ces coûts chaque année auprès de Minergie. 
+### Coûts liés à Minergie Monitoring +
 
-Par ailleurs, le monitoring lui-même n'entraîne aucun autre coût de la part de Minergie.
+Pour les intégrateurs, les coûts sont fixés selon les tarifs de Minergie. Les prix actuels figurent dans le document « Règlement Minergie Monitoring », au chapitre 4.4 « Redevances pour l'évaluation Monitoring + »
+
+Ces coûts sont à verser chaque année à Minergie en tant qu'intégrateur. 
+
+Par ailleurs, Minergie ne facture aucun autre coût en lien avec le monitoring lui-même.
 
 Remarque :
-La certification du bâtiment selon le standard Minergie entraîne elle-même des coûts, mais ceux-ci ne sont pas perçus par smart-me et sont généralement uniques. Pour plus d'informations sur ces coûts, adressez-vous directement aux contacts pour les renseignements généraux de Minergie.
+La certification du bâtiment selon le standard Minergie engendre elle-même des coûts ; ceux-ci ne sont toutefois pas perçus par smart-me et sont généralement uniques. Pour plus d'informations sur ces coûts, adressez-vous directement aux contacts de Minergie pour les renseignements généraux.
 
-Royalties état 11.2025 (modifications possibles à tout moment de la part de Minergie, vérifiez les coûts dans le document actuel)
+Redevances état 11.2025 (modifications possibles à tout moment de la part de Minergie, vérifiez les coûts dans le document actuel)
 
-![Module Minergie Monitoring – illustration 5](/img/planung-minergie/05.png)
+![Module Minergie Monitoring – figure 5](/img/planung-minergie/05.png)
 
-## Coordonnées de Minergie
+## Coordonnées Minergie
 
 <Kacheln min="16rem">
 
 <Kachel titel="Allgemeine Auskunft">
 
-Secrétariat de Minergie
+Secrétariat Minergie
 
 [info@minergie.ch](mailto:info@minergie.ch) · +41 61 205 25 50
 
@@ -131,7 +131,7 @@ Secrétariat de Minergie
 
 <Kachel titel="Label-Plattform">
 
-Support de la plateforme de labels
+Support plateforme Label
 
 [support@label-plattform.ch](mailto:support@label-plattform.ch) · +41 61 205 25 55
 

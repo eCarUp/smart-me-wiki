@@ -15,7 +15,7 @@ Offre valable uniquement en Suisse 🇨🇭
 Vers l'offre de Digital Republic : [SIM de données](https://digitalrepublic.ch/de/lp/ecarup-smartme-dr-ladestationen/?utm_source=smartme&utm_medium=smartmewiki&utm_campaign=smartmewiki)
 
 </div>
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
 [![Digital Republic – Illustration 1](/img/drittsysteme-digital-republic/01.jpg)](https://digitalrepublic.ch/de/lp/ecarup-smartme-dr-ladestationen/?utm_source=smartme&utm_medium=smartmewiki&utm_campaign=smartmewiki)
 

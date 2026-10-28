@@ -8,13 +8,13 @@ sidebar_label: 'Konfiguration Multilevel Lastmanagement'
 
 ## Konfigurieren eines dynamischen Multilevel-Lastmanagements (MLM)
 
-Die Konfiguration eines Multilevel Lastmanagements erfolgt im Bereich "Multilevel Lastmanagement" in der Hauptnavigation
+Die Konfiguration eines Multilevel Lastmanagements erfolgt im Bereich "Multilevel Lastmanagement" in der Hauptnavigation.
 
 Die Funktion ermöglicht:
 
 - Dynamische Steuerung mehrerer statischer Pico Ladegruppen
 
-- Begrenzung der Ladeleistungen auf Referenzpunkte innerhalb der Installation oder Areals
+- Begrenzung der Ladeleistungen auf Referenzpunkte innerhalb der Installation oder des Areals
 
 - Solaroptimierungen
 
@@ -46,7 +46,7 @@ Der Stamm sowie die Äste können mehrere Funktionen übernehmen:
 
 Nicht gemessene Lasten:
 
-Eine nicht gemessene Last entspricht einem Produzenten oder Verbraucher welcher nicht einer Pico Ladestationsgruppe entspricht. Um diese Produktion oder Last dynamisch berücksichtigen zu können, muss eine Meterhardware als Referenz zur Verfügung gestellt werden. (Gemessener Ast)
+Eine nicht gemessene Last entspricht einem Produzenten oder Verbraucher, welcher nicht einer Pico Ladestationsgruppe entspricht. Um diese Produktion oder Last dynamisch berücksichtigen zu können, muss eine Meterhardware als Referenz zur Verfügung gestellt werden. (Gemessener Ast)
 
 Der Ast kann auch statisch begrenzt werden ohne einen Referenzmeter, muss aber auf ein funktionelles Maximum, unter Berücksichtigung der Grundlast, bei der Absicherung beschränkt werden.
 
@@ -72,7 +72,7 @@ Typische Äste mit nicht gemessenen Lasten: 
 </div>
 </div>
 
-### Ast hinzufügen oder Löschen
+### Ast hinzufügen oder löschen
 
 Hinzufügen:
 
@@ -92,7 +92,7 @@ Damit das Nachfolgende erhalten bleibt, können die Äste und Gruppen via Drag &
 <div className="row">
 <div className="col col--7">
 
-Die noch nicht zugewiesenen und korrekt konfigurierten Ladestationsgruppen für das MLM befinden sich auf der Rechten Seite.
+Die noch nicht zugewiesenen und korrekt konfigurierten Ladestationsgruppen für das MLM befinden sich auf der rechten Seite.
 
 Diese können via Drag & Drop Funktion den Ästen angegliedert werden und auch innerhalb der Konfiguration per Drag & Drop verschoben werden.
 
@@ -102,7 +102,7 @@ Voraussetzung für die Verwendung im MLM ist, dass die Verbindungsausfalleinstel
 Diese kann auf einer Pico-Ladestation in der "Konfiguration" angepasst werden.
 
 </div>
-<div className="col col--5 text--center">
+<div className="col col--5 bild--mitte">
 
 ![Konfiguration Multilevel Lastmanagement – Abbildung 5](/img/konfiguration-multilevel-lastmanagement-mlm-konfigurieren/05.png)
 
@@ -120,12 +120,12 @@ Astkonfiguration:
 
 Die Solaroptimierung ist möglich 1x auf dem Stamm (Arealoptimiert) oder mehrfach parallel auf Äste mit aktiven ungemessenen Lasten z.B. Hausanschlüsse.
 
-Entsprechend der Wahl, wird der Solarüberschuss auf alle Ladestationsgruppen oder nur auf einen Teil der Ladestationsgruppen optimiert.
+Entsprechend der Wahl wird der Solarüberschuss auf alle Ladestationsgruppen oder nur auf einen Teil der Ladestationsgruppen optimiert.
 
 Gruppenkonfiguration:
 
 Damit die Solaroptimierung auch die entsprechende Wirkung erhält, muss den zu optimierenden Stationsgruppen zeitweise ein verminderter Minimalladestrom zugewiesen werden.
-Dieser Minimale Ladestrom, wird auf der entsprechenden Ladegruppe (Gruppenkonfiguration) definiert und entspricht dem maximal möglichen Netzbezug für die Ladegruppe in den definierten Stunden.
+Dieser minimale Ladestrom wird auf der entsprechenden Ladegruppe (Gruppenkonfiguration) definiert und entspricht dem maximal möglichen Netzbezug für die Ladegruppe in den definierten Stunden.
 
 Gleichzeitig kann mit der Einstellung des Minimalladestroms auch Lastspitzenbrechung praktiziert werden.
 
@@ -134,7 +134,7 @@ Jede Gruppe kann auf unterschiedliche Weise konfiguriert werden.
 Gruppen mit höherem Minimal Ladestrom werden priorisiert bei der Verteilung von verfügbarem Netzstrom behandelt.
 
 </div>
-<div className="col col--6 text--center">
+<div className="col col--6 bild--mitte">
 
 ![Konfiguration Multilevel Lastmanagement – Abbildung 7](/img/konfiguration-multilevel-lastmanagement-mlm-konfigurieren/07.png)
 
@@ -151,13 +151,13 @@ Kann die Aktivierung aus Gründen von Fehlkonfigurationen nicht durchgeführt we
 
 - Die Ladegruppe ist nicht korrekt für das MLM konfiguriert (Internetausfalleinstellung ist nicht auf Max. Strom pro Gruppe gesetzt)
 
-- Einzelne Geräte welche relevant für das MLM sind sind nicht online zum Zeitpunkt der Speicherung. (online bringen)
+- Einzelne Geräte, welche relevant für das MLM sind, sind nicht online zum Zeitpunkt der Speicherung. (online bringen)
 
 ![Konfiguration Multilevel Lastmanagement – Abbildung 9](/img/konfiguration-multilevel-lastmanagement-mlm-konfigurieren/09.png)
 
 ### Konfiguration des MLM löschen
 
-Die Konfiguration eines MLLM kann ganzheitlich per Knopfdruck gelöscht werden um eine neue Konfiguration zu erfassen.
+Die Konfiguration eines MLM kann ganzheitlich per Knopfdruck gelöscht werden um eine neue Konfiguration zu erfassen.
 
 ![Konfiguration Multilevel Lastmanagement – Abbildung 10](/img/konfiguration-multilevel-lastmanagement-mlm-konfigurieren/10.png)
 
@@ -174,16 +174,16 @@ Hinweise: 
 
 - Signale welche an Pico-Hardware direkt angebracht sind können mit dieser Funktion nicht übersteuert werden. 
 
-- Die Funktion benötigt eine aktive Internet Verbindung um zu funktionieren. Bei Internetverlust wird der eingestellte Internetausfallwert der Picogruppen verwendet.
+- Die Funktion benötigt eine aktive Internet Verbindung, um zu funktionieren. Bei Internetverlust wird der eingestellte Internetausfallwert der Picogruppen verwendet.
 
-Die Funktion ermöglicht eines oder mehrere digitale Signale von Energieversorgern zu interpretieren und allen Ladestationsgruppen des MLM eine reduzierte Ladeleistung zuzuteilen.
+Die Funktion ermöglicht, ein oder mehrere digitale Signale von Energieversorgern zu interpretieren und allen Ladestationsgruppen des MLM eine reduzierte Ladeleistung zuzuteilen.
 
 Die Steuersignale werden auf einen oder zwei in der Nähe befindlichen Zählereingänge (E1) verdrahtet.
 
 Kompatibel dafür sind smart-me Telstar CT und Telstar 80A Hardware.
 
 Hinweis:
-Damit die Eingänge verwendet werden können, müssen diese Hardwareseitig auf "Digitaler Eingang" konfiguriert werden. (Zählereinstellungen, E1 --> Digitaler Eingang)
+Damit die Eingänge verwendet werden können, müssen diese hardwareseitig auf "Digitaler Eingang" konfiguriert werden. (Zählereinstellungen, E1 --> Digitaler Eingang)
 
 Steuerungskonfigurationen:
 
@@ -218,7 +218,7 @@ Signal (1) = 1 = Verfügbare Energie wird reduziert.
 [Beschaltung und Konfiguration Zählereingänge](/schnittstellen/ein-und-ausgaenge)
 
 </div>
-<div className="col col--5 text--center">
+<div className="col col--5 bild--mitte">
 
 ![Konfiguration Multilevel Lastmanagement – Abbildung 11](/img/konfiguration-multilevel-lastmanagement-mlm-konfigurieren/11.png)
 
@@ -238,7 +238,7 @@ Die MLM-Konfiguration kann jederzeit deaktiviert und re-aktiviert werden.
 - Gibt allen untergeordneten Lastgruppen den definierten Internetausfallswert zur freien Verfügung.
 
 
-Setze den Wert auf aktiv oder inaktiv und speichere danach die Konfiguration um sie dem Prozessor mitzuteilen.
+Setze den Wert auf aktiv oder inaktiv und speichere danach die Konfiguration, um sie dem Prozessor mitzuteilen.
 
 ![Konfiguration Multilevel Lastmanagement – Abbildung 14](/img/konfiguration-multilevel-lastmanagement-mlm-konfigurieren/14.png)
 
@@ -266,7 +266,7 @@ Setze den Wert auf aktiv oder inaktiv und speichere danach die Konfiguration um 
 </div>
 </div>
 
-Der Untergeordnete Emobilitätsabgang wird hier aktiv gemessen um der Gragenbeleuchtung Rechnung zu tragen. Die Ladegruppen sollen so dynamisch auf die Garagenbeleuchtung reagieren.
+Der untergeordnete Emobilitätsabgang wird hier aktiv gemessen, um der Garagenbeleuchtung Rechnung zu tragen. Die Ladegruppen sollen so dynamisch auf die Garagenbeleuchtung reagieren.
 
 - Die Garagenbeleuchtung wird mit dem Referenzzähler "E-Mobilitätsabgang 63A Telstar 80A" berücksichtigt.
 
@@ -288,11 +288,11 @@ Der Untergeordnete Emobilitätsabgang wird hier aktiv gemessen um der Gragenbele
 
 Damit die Solaroptimierung Wirkung zeigt, wird über den Tag die Minimalstrommenge des Ladestroms reduziert.
 
-- Die Minimalestrommenge entspricht dem maximal möglichen Netzbezug zur definierten Stunde.
+- Die Minimalstrommenge entspricht dem maximal möglichen Netzbezug zur definierten Stunde.
 
 - Sobald von der Solaranlage die Minimalstrommenge zu 100% gedeckt wird, erhalten die Stationen zusätzlich den zusätzlichen Überschuss der Solaranlage.
 
-- Solaroptimierung für die Ganze Woche von 6:00 bis 17:00 Uhr minimal Ladestrom von 15A pro Phase
+- Solaroptimierung für die ganze Woche von 6:00 bis 17:00 Uhr minimal Ladestrom von 15A pro Phase
 
 - Spitzenglättung zur Mittagszeit: Ladungen von 12:00 bis 13:00 Uhr sind nur bei Solarüberschuss möglich, der Netzbezug bleibt bei 0A
 
@@ -365,7 +365,7 @@ HAK TG1: Hausanschluss des Gebäude 1 im Areal
 
 - Nicht gemessene Lasten aktiv: Wohnungen, Heizung, Beleuchtung, Allgemein, Solar
 
-- Dynamische Berücksichtuigung der Wohnungen und Wärmepumpen
+- Dynamische Berücksichtigung der Wohnungen und Wärmepumpen
 
 
 <div className="row">
@@ -438,7 +438,7 @@ Mieterparkplätze des Areals
 - Kabelabsicherung 32A pro Phase.
 
 - Lastspitzenbruch zur Mittagszeit 0A von 12:00 bis 13:00.
-    Nur Solarladen möglich wenn Produktion nicht vom Areal für anderes verwendet wird.
+    Nur Solarladen möglich, wenn Produktion nicht vom Areal für anderes verwendet wird.
 
 
 <div className="row">
@@ -466,7 +466,7 @@ Unbehandelte Installationsteile:
 - Jede Ladegruppe kann separate Verhaltensweisen ausbilden und auch unterschiedliche Notversorgungsströme bei Internetausfall erhalten.
 
 </div>
-<div className="col col--8 text--center">
+<div className="col col--8 bild--mitte">
 
 ![Konfiguration Multilevel Lastmanagement – Abbildung 32](/img/konfiguration-multilevel-lastmanagement-mlm-konfigurieren/32.png)
 

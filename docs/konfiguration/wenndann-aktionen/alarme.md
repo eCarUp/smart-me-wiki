@@ -12,7 +12,7 @@ Alarme können eingerichtet werden, um eine E-Mail zu bekommen, wenn Zähler kei
 
 ## Voraussetzung
 
-Du brauchst ein smart-me Limited oder Professional Abo um diese Funktion zu nutzen.
+Du brauchst ein smart-me Limited oder Professional Abo, um diese Funktion zu nutzen.
 
 ### Konfiguration der Alarme
 
@@ -24,7 +24,7 @@ Es kann ein Wenn-Ereignis eingestellt werden, das dann auslöst, wenn ein Zähle
 
 - Wenn ein Ordner gewählt wird, werden alle dazugehörigen Zähler überwacht. Wenn du mehrere Ordner wählst, bitte ein ODER wählen.
 
-- Wenn ein Zähler gewählt wird, wird nur diese Zähler überwacht.
+- Wenn ein Zähler gewählt wird, wird nur dieser Zähler überwacht.
 
 Definition der Ausfallzeit: 
 
@@ -52,7 +52,7 @@ Hinweis: Wir empfehlen die Dann-Aktion nur mit der E-Mail zu ergänzen und den R
 Wenn der Alarm an mehrere Mail-Adressen gehen soll, muss eine Dann-Aktion für jede einzelne Mail gemacht werden.
 
 </div>
-<div className="col col--6 text--center">
+<div className="col col--6 bild--mitte">
 
 ![Alarme – Abbildung 2](/img/konfiguration-wenndann-aktionen-alarme/02.png)
 
@@ -64,19 +64,19 @@ Wenn der Alarm an mehrere Mail-Adressen gehen soll, muss eine Dann-Aktion für j
 
 Wie oft wird eine Alert E-Mail verschickt?
 
-Die E-Mail wird nur einmal versandt, wenn sich der Status verschlechtert. Wenn weitere Zähler ausfallen bevor der erste wieder online ist, wird keine weitere E-Mail mehr verschickt. 
+Die E-Mail wird nur einmal versandt, wenn sich der Status verschlechtert. Wenn weitere Zähler ausfallen, bevor der erste wieder online ist, wird keine weitere E-Mail mehr verschickt. 
 
 Nach der Behebung des Problems empfehlen wir in den Wenn/Dann Aktionen zu prüfen, ob "Zuletzt ausgelöst" "nie" lautet. Wenn dort ein Zeitpunkt steht, gibt es noch Zähler, die offline sind.
 
 Wenn du mehr als eine E-Mail erhalten möchtest, musst du zwei Alarme einrichten. Den ersten z.B. mit 1440 Minuten und den zweiten mit 7200 Minuten. So kann z.B. eine unbemerkte E-Mail ein zweites Mal versendet werden.
 
 </div>
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
 ![Alarme – Abbildung 3](/img/konfiguration-wenndann-aktionen-alarme/03.png)
 
 </div>
 </div>
 
-Nun ist die gesamte Infrastruktur bereit um die Abrechnung darauf aufzubauen.
+Nun ist die gesamte Infrastruktur bereit, um die Abrechnung darauf aufzubauen.
 

@@ -5,28 +5,28 @@ description: 'The smart-me system and its hardware require a direct internet con
 sidebar_label: 'Internet Connection'
 symbol: 'wlan'
 ---
-The smart-me system and its hardware require a direct internet connection to the cloud. On site, you therefore need to provide a 2.4GHz Wi-Fi network with internet access. 5GHz is not supported due to its limited range.
+The smart-me system and its hardware require a direct internet connection to the cloud. On site, you therefore need to provide a 2.4GHz WLAN with internet access. 5GHz is not supported due to its limited range.
 
 
 Internet access can be provided as follows:
 
-- A wired offering from Swisscom, Sunrise or another local internet provider, plus a 2.4GHz Wi-Fi router, usually supplied by the provider.
+- A cable offering from Swisscom, Sunrise or another local internet provider plus a 2.4GHz WLAN router, usually supplied by the provider.
 
-- Internet via a mobile SIM card and a 2.4GHz Wi-Fi router. 
+- Internet via a mobile SIM card and a 2.4GHz WLAN router. 
 
 
 Redundancy levels
 
 - Provide several access points with the same SSID and password. All smart-me products automatically select an access point with an internet connection.
 
-- Store several Wi-Fi networks on the smart-me device: [Can I use my device with multiple Wi-Fi networks?](/konfiguration/inbetriebnahme/smart-me-geraete#kann-ich-mein-gerät-mit-mehreren-wifi-netzwerken-nutzen)
+- Store several WiFi networks on the smart-me device: [Can I use my device with several WiFi networks?](/konfiguration/inbetriebnahme/smart-me-geraete#kann-ich-mein-gerät-mit-mehreren-wifi-netzwerken-nutzen)
 
 
 ![Internet connection – Figure 1](/img/planung-internetverbindung/01.png)
 
 ## Mobile data providers (LTE)
 
-The data plans: [Digital Republic - Mobile internet for your devices](https://digitalrepublic.ch/de/lp/ecarup-smartme-dr-ladestationen/?utm_source=ecarup&utm_medium=ecarupwiki&utm_campaign=ecarupwiki)
+Data plans: [Digital Republic - Mobile internet for your devices](https://digitalrepublic.ch/de/lp/ecarup-smartme-dr-ladestationen/?utm_source=ecarup&utm_medium=ecarupwiki&utm_campaign=ecarupwiki)
 
 [![Internet connection – Figure 2](/img/planung-internetverbindung/02.png)](https://digitalrepublic.ch/de/lp/ecarup-smartme-dr-ladestationen/?utm_source=smartme&utm_medium=smartmewiki&utm_campaign=smartmewiki)
 
@@ -36,7 +36,7 @@ Key points\*:
 
 - Standard: 802.11 b / g / n 
 
-- Wi-Fi frequency: 2.4 GHz
+- WiFi frequency: 2.4 GHz
 
 
 \* Further details can be found in the technical data of the respective [Products](/produkte).
@@ -47,7 +47,7 @@ Specifications as required:
 
 
 Clients:
-The number of supported clients defines how many devices can communicate with the access point or router in parallel. The number must suit your installation. There are cost-efficient access points that support 200+ clients.
+The supported clients define how many devices can communicate with the access point or router in parallel. The number must suit your installation. There are cost-efficient access points that support 200+ clients.
 The number can be found in the device data sheet, usually under "Max. Clients" or "Concurred Clients".
 
 ## Possible hardware components
@@ -55,47 +55,47 @@ The number can be found in the device data sheet, usually under "Max. Clients" o
 ### Router
 
 The router is the source that is connected to the internet/provider and converts it into
-LAN (RJ-45) or Wi-Fi 2.4 GHz / 5 GHz.
+LAN (RJ-45) or Wifi 2.4 Ghz / 5 GHz.
 
 ### Access points
 
-Access points convert a signal passed on from the router via LAN (RJ-45) into a 2.4 GHz / 5GHz Wi-Fi network.
+Access points convert a signal passed on from the router via LAN (RJ-45) into a 2.4 GHz / 5GHz WLAN.
 
-### Repeaters
+### Repeater
 
-Repeaters amplify an existing Wi-Fi signal to extend its coverage.
+Repeaters amplify an existing WLAN signal to extend its coverage.
 
 
-### Mobile LTE router with 2.4GHz Wi-Fi
-
-Teltonika RUT241 (max. 50 clients)
-
-An external SIM card slot and signal strength LEDs make commissioning easy. The router's 4G module offers LTE Cat 4 speeds of up to 300 Mbps. Alternatively, the device can also be used as a DSL router or Wi-Fi client and has a fallback function that automatically switches to LTE or Wi-Fi if the DSL connection fails.  
+### Mobile LTE router with 2.4GHz WLAN
 
 Teltonika RUT241 (max. 50 clients)
 
-Possible source: [Teltonika RUT241 - digitec](https://www.digitec.ch/de/search?q=Rut+241)
+An external SIM card slot and signal strength LEDs make commissioning easy. The router's 4G module provides LTE Cat 4 speeds of up to 300 Mbps. Alternatively, the device can also be used as a DSL router or WLAN client and has a fallback function that automatically switches to LTE or WLAN if the DSL connection fails.  
+
+Teltonika RUT241 (max. 50 clients)
+
+Possible supplier: [Teltonika RUT241 - digitec](https://www.digitec.ch/de/search?q=Rut+241)
 
 
 
 Teltonika RUT951 (max. 100 clients)
 
-Possible source: [Teltonika RUT951 - digitec](https://www.digitec.ch/de/search?q=RUT951&take=6)
+Possible supplier: [Teltonika RUT951 - digitec](https://www.digitec.ch/de/search?q=RUT951&take=6)
 
-### Wi-Fi access point 2.4GHz
+### WLAN access point 2.4GHz
 
 Ubiquiti U6-Lite
 
-The UniFi 6 Lite is a 2x2 Wi-Fi 6 access point that offers an aggregate radio rate of up to 1.5 Gbit/s with 5 GHz (MU-MIMO and OFDMA) and 2.4 GHz (MIMO) radios.
+The UniFi 6 Lite is a 2x2 Wi-Fi 6 access point that delivers an aggregate radio rate of up to 1.5 Gbit/s with 5 GHz (MU-MIMO and OFDMA) and 2.4 GHz (MIMO) radios.
 
-Possible source: [Ubiquiti | UniFi | U6-Lite - Digitec](https://www.digitec.ch/de/s1/product/ubiquiti-u6-lite-1200-mbits-300-mbits-access-point-14489581?supplier=406802)
+Possible supplier: [Ubiquiti | UniFi | U6-Lite - Digitec](https://www.digitec.ch/de/s1/product/ubiquiti-u6-lite-1200-mbits-300-mbits-access-point-14489581?supplier=406802)
 
-### DIN rail Wi-Fi access point 2.4Ghz
+### DIN rail WLAN access point 2.4Ghz
 
-Wi-Fi access point 3xUAE/USB ACR WLAN – Rutenbeck 
+WLAN access point 3xUAE/USB ACR WLAN – Rutenbeck 
 
-Wi-Fi access point 3xUAE/USB ACR WLAN 22610408 Max. transfer rate 150Mbit/s, frequency band 2.4 GHz, managed, radio protocol IEEE 802.11 b/g/n, encryption WPA2, Ethernet, number of 10/100 Mbps LAN ports 2, VPN security, connection for external antenna, bridge function, repeater function, Power over Ethernet, width 72mm, height 90mm, depth 65mm, degree of protection (IP) IP21, suitable for DIN rail mounting, Wi-Fi access point for distribution board mounting 
+WLAN access point 3xUAE/USB ACR WLAN 22610408 Max. transmission rate 150Mbit/s, frequency band 2.4 GHz, managed, radio protocol IEEE 802.11 b/g/n, encryption WPA2, Ethernet, number of 10/100 Mbps LAN ports 2, VPN security, connector for external antenna, bridge function, repeater function, Power over Ethernet, width 72mm, height 90mm, depth 65mm, degree of protection (IP) IP21, suitable for DIN rail mounting, WLAN access point for DIN rail mounting 
 
-### Wi-Fi requirements
+### WLAN requirements
 
 [Commissioning](/konfiguration/inbetriebnahme)

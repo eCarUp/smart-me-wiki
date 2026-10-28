@@ -13,13 +13,13 @@ sidebar_label: 'kerlink Wirnet iFemtocell-evolution'
 
 1.  Connect the device to your laptop via USB-C
 
-2.  Use PuTTY (SSH) to connect to the following IP address: 192.168.120.1. 
+2.  Use PuTTY (SSH) to open the following IP address: 192.168.120.1. 
 
 3.  Log in with
 
     user: root
 
-    PW: pdmk-\*Serial\*  (e.g.: EUI = 7076FFyyzz06001E, then the Serial = 06001E)
+    PW: pdmk-\*Serial\*  (e.g. EUI = 7076FFyyzz06001E, then the serial = 06001E)
 
 4.  Run the following command:
 
@@ -28,7 +28,7 @@ sidebar_label: 'kerlink Wirnet iFemtocell-evolution'
     Note that Ins is the lowercase form of LNS!
 
 </div>
-<div className="col col--5 text--center">
+<div className="col col--5 bild--mitte">
 
 ![kerlink Wirnet iFemtocell-evolution – Figure 1](/img/konfiguration-inbetriebnahme-inbetriebnahme-lora-kerlink-wirnet-ifemtocell-evolution/01.png)
 
@@ -41,7 +41,7 @@ sidebar_label: 'kerlink Wirnet iFemtocell-evolution'
 
 ## Opening the remote web tool
 
-1.  Connect the device via Ethernet, Wi-Fi or 4G as described in the instructions
+1.  Connect the device to Ethernet, Wi-Fi or 4G as described in the instructions
 
 2.  Open the browser on your laptop and enter the following URL:
     [http://klk-fevo-](/)&lt;Serial>/
@@ -49,7 +49,7 @@ sidebar_label: 'kerlink Wirnet iFemtocell-evolution'
 
 &lt;Serial> is a placeholder for the last digits of the device EUI, which can be found on the device:
 
-E.g.: EUI = 7076FFyyzz060001, then the Serial = 060001
+E.g. EUI = 7076FFyyzz060001, then the serial = 060001
 
 
 3.  Log in

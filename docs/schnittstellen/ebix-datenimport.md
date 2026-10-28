@@ -41,10 +41,10 @@ Die Dateigrösse für den Import ist auf 50 Megabyte beschränkt.
 
 ### Zuordnung zu einem Benutzeraccount
 
-Sobald Ebix Dateien von einem Benutzer des Partner auf die Server geladen wurde, ist die Messpunkt ID unter "Konfiguration->Partner->Daten Import" ersichtlich:
+Sobald Ebix Dateien von einem Benutzer des Partners auf die Server geladen wurden, ist die Messpunkt ID unter "Konfiguration->Partner->Daten Import" ersichtlich:
 
 ![Ebix Datenimport – Abbildung 1](/img/schnittstellen-ebix-datenimport/01.jpg)
 
-Der Messpunkt kann durch ein Klick auf editieren einem anderen Benutzer zugeordnet werden:
+Der Messpunkt kann durch einen Klick auf editieren einem anderen Benutzer zugeordnet werden:
 
 ![Ebix Datenimport – Abbildung 2](/img/schnittstellen-ebix-datenimport/02.jpg)

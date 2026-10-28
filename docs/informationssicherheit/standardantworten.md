@@ -4,7 +4,7 @@ slug: '/informationssicherheit/standardantworten'
 description: 'Diese Seite beantwortet allgemeine Fragen zur Informations- und Datensicherheit bei smart-me AG und zielt darauf ab das Partner die Standard Sicherheits Questionaries selbststän…'
 sidebar_label: 'Standardantworten'
 ---
-Diese Seite beantwortet allgemeine Fragen zur Informations- und Datensicherheit bei smart-me AG und zielt darauf ab das Partner die Standard Sicherheits Questionaries selbstständig beantworten können.
+Diese Seite beantwortet allgemeine Fragen zur Informations- und Datensicherheit bei smart-me AG und zielt darauf ab, dass Partner die Standard Sicherheits Questionaries selbstständig beantworten können.
 
 Kontakt: security@smart-me.com
 
@@ -51,7 +51,7 @@ Letzter Stand: 16.01.2025
 <details id="wie-werden-daten-geloescht">
 <summary>Wie werden Daten gelöscht?</summary>
 
-- Kunden sind für Ihre smart-me Accounts selbst verantwortlich und können diesen jederzeit im Webportal löschen.
+- Kunden sind für ihre smart-me Accounts selbst verantwortlich und können diesen jederzeit im Webportal löschen.
     Wenn ein Kunde sein Konto löscht, werden diese Daten irreversibel entfernt.
 
 - Nach 30 Tagen ist kein Backup mehr vorhanden.
@@ -63,7 +63,7 @@ Letzter Stand: 16.01.2025
 <details id="wer-hat-zugang-zu-den-daten">
 <summary>Wer hat Zugang zu den Daten?</summary>
 
-Der Zugang auf unsere Server sind auf interne IPs des Clusters beschränkt. Smart-me hat nur auf explizite Erlaubnis des Kunden, Zugang auf deren Kontodaten
+Der Zugang auf unsere Server ist auf interne IPs des Clusters beschränkt. Smart-me hat nur auf explizite Erlaubnis des Kunden, Zugang auf deren Kontodaten.
 
 </details>
 
@@ -129,14 +129,14 @@ Kundendaten, welche über Freshdesk, Bexio oder Stripe bearbeitet werden, unterl
 ## Sicherheitsrichtlinien und -prozesse
 
 <details id="verfuegen-wir-ueber-spezifische-dokumentiere-informationssicherheitsrichtlinien">
-<summary>Verfügen wir über spezifische dokumentiere Informationssicherheitsrichtlinien?</summary>
+<summary>Verfügen wir über spezifische dokumentierte Informationssicherheitsrichtlinien?</summary>
 
 Nein
 
 </details>
 
 <details id="haben-wir-dokumentiere-sichere-entwicklungsrichtlinien">
-<summary>Haben wir dokumentiere sichere Entwicklungsrichtlinien?</summary>
+<summary>Haben wir dokumentierte sichere Entwicklungsrichtlinien?</summary>
 
 Nein
 
@@ -220,7 +220,7 @@ Ja, wir haben interne Cybersicherheitsressourcen.
 <details id="halten-wir-ihre-software-und-systeme-auf-dem-neuesten-stand">
 <summary>Halten wir Ihre Software und Systeme auf dem neuesten Stand?</summary>
 
-Ja, alle Systeme und Geräte werden regelmäßig auf die neuesten stabilen Versionen aktualisiert.
+Ja, alle Systeme und Geräte werden regelmässig auf die neuesten stabilen Versionen aktualisiert.
 
 </details>
 

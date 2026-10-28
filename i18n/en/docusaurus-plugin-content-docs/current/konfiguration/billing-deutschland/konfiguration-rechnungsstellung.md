@@ -16,7 +16,7 @@ Here you configure the enabled extensions for the property and for the individua
 <div className="row">
 <div className="col col--6">
 
-At the very top, you can define the residual electricity mix. Residual electricity is the amount of electricity that is not produced directly by your own tenant electricity system but has to be supplied additionally from the grid. You receive the details on the residual electricity mix from your chosen residual electricity supplier.
+At the very top, you can define the residual electricity mix. Residual electricity is the amount of electricity that is not produced directly by your tenant electricity system itself, but has to be supplied additionally from the grid. You can obtain the information on the residual electricity mix from your chosen residual electricity supplier.
 
 An example might look like this:
 
@@ -33,11 +33,11 @@ An example might look like this:
 <div className="row">
 <div className="col col--4">
 
-Directly below, you can define electricity values to use as comparison values.
+Directly below, you can define electricity figures as comparison values.
 
-The invoice document shows the electricity recipients these reference values as well as their own consumption in the previous period.
+The invoice document will show the electricity recipients these reference values as well as their own consumption in the previous period.
 
-CAUTION: Remember to enter the correct values for the billing period you have chosen. So if you create monthly invoices, choose reference values on a monthly basis, and so on.
+ATTENTION: Remember to enter the correct values for the billing period you have chosen. So if you create monthly invoices, select the reference values on a monthly basis, and so on.
 
 </div>
 <div className="col col--8 bild--mitte">
@@ -47,10 +47,10 @@ CAUTION: Remember to enter the correct values for the billing period you have ch
 </div>
 </div>
 
-[](https://drive.google.com/open?id=1mWbJe2QTUs5BnZdcZ7tJ1EwmQpi65nG0xFCrMNafJ4I "Open spreadsheet, % electricity consumption Germany in new window")
+[](https://drive.google.com/open?id=1mWbJe2QTUs5BnZdcZ7tJ1EwmQpi65nG0xFCrMNafJ4I "Open Spreadsheet, % electricity consumption Germany in new window")
 
 <Embed src="https://docs.google.com/spreadsheets/d/1mWbJe2QTUs5BnZdcZ7tJ1EwmQpi65nG0xFCrMNafJ4I/htmlembed?gid=0" height="314px" title="Spreadsheet, % electricity consumption Germany" />
 
 % electricity consumption Germany
 
-The information in the table is provided without guarantee.
+Information in the table provided without guarantee.

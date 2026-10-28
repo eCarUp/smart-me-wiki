@@ -1,5 +1,5 @@
 ---
-title: 'Service providers for ZEV, heating/ancillary cost billing'
+title: 'Service providers for ZEV, heating and ancillary cost billing'
 slug: '/drittsysteme/nebenkostenabrechnung'
 description: 'To use smart-me meter data in an ancillary cost billing, the meters require a Professional license.'
 sidebar_label: 'Ancillary cost service providers'
@@ -8,7 +8,7 @@ To use smart-me meter data in an ancillary cost billing, the meters require a Pr
 
 [EN](https://doc.smart-me.com/third-party-systems/service-charge-settlement)
 
-The following service providers offer billing services based on our smart-me platform. They also take over installations they did not install themselves and, on request, offer billing only for these.
+The following service providers offer billing services based on our smart-me platform. They also take on installations they did not install themselves and, on request, offer billing only for them.
 
 ## Highly automated/specialized services with Autobill:
 
@@ -29,7 +29,7 @@ Riedstrasse 18, CH-6343 Rotkreuz · +41 41 511 09 99
 - Billing only with smart-me hardware
 - Module 1 configuration by smart-me
 - ZEV billing, max. 4x per year
-- VEWA billing 1x per year (without payments on account)
+- VEWA billing 1x per year (without advance payments)
 - Minimum term 2 years
 
 </Kachel>
@@ -88,7 +88,7 @@ Zürichstrasse 68, CH-6004 Luzern · +41 41 562 39 61
 - Billing with smart-me hardware or SDAT files
 - Module 1 configuration by Liveno
 - ZEV billing, max. 4x per year
-- VEWA billing 1x per year (without payments on account)
+- VEWA billing 1x per year (without advance payments)
 
 </Kachel>
 
@@ -251,7 +251,7 @@ Ebenaustrasse 10, CH-6048 Horw
 
 <Kachel bild="/img/drittsysteme-nebenkostenabrechnung/18.png" titel="Schibli AG">
 
-Competence Center for Renewable Energy
+Competence Center Renewable Energy
 
 Klosbachstrasse 67, CH-8032 Zürich
 
@@ -277,7 +277,7 @@ Delehala 36, LIE-9493 Mauren
 
 </Kacheln>
 
-## Compatible software for heating/ancillary cost billing without service
+## Compatible software for heating and ancillary cost billing without service
 
 <Kacheln min="12rem">
 

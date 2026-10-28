@@ -10,14 +10,14 @@ sidebar_label: 'Gestion de la charge multiniveau'
 
 Webinaire Gestion de la charge multiniveau (50 min)
 
-### Conditions techniques pour utiliser la gestion de la charge multiniveau
+### Conditions techniques pour l'utilisation de la gestion de la charge multiniveau
 
 - Version du firmware Pico 0.0.25 ou supérieure --> [Effectuer la mise à jour du firmware](/konfiguration/firmware-update)
 
-- Toutes les règles si/alors impliquant le Pico ont été supprimées afin de ne pas envoyer de commandes contradictoires au MLM.
+- Toutes les règles si/alors impliquant des Pico ont été supprimées afin de ne pas envoyer de commandes contradictoires au MLM.
 
 - État : 12.03.2024
-    Aucune garantie pour le délestage via les contacts d'entrée du Telstar --> la publication de la solution dans le MLM suivra.
+    Aucune garantie pour le délestage via les contacts d'entrée du Telstar --> la solution sera publiée dans le MLM ultérieurement.
 
 - La gestion de la charge fonctionne uniquement avec Telstar CT / Telstar 80A ou Nimbus
 
@@ -26,7 +26,7 @@ Webinaire Gestion de la charge multiniveau (50 min)
 
 La gestion de la charge multiniveau dynamique coordonne les capacités de limitation et les capacités dynamiques des différents groupes de charge au niveau du raccordement de l'immeuble et du site.
 
-Sa tâche consiste à mettre à la disposition des groupes de charge subordonnés les capacités de courant encore libres à chaque point de référence, et à protéger ainsi les points de dérivation contre les surcharges.
+Sa tâche consiste à mettre les capacités de courant encore disponibles à chaque point de référence à la disposition des groupes de charge subordonnés et à protéger ainsi les points de dérivation contre les surcharges.
 
 Exemples de points de dérivation importants :
 
@@ -34,11 +34,11 @@ Exemples de points de dérivation importants :
 
 - Raccordement de l'immeuble
 
-- Ligne d'alimentation de la distribution secondaire
+- Ligne d'alimentation de la sous-distribution
 
-- Départ vers le garage
+- Départ du garage
 
-Dans le même temps, la gestion de la charge multiniveau permet l'optimisation solaire et offre des fonctions de lissage des pointes de charge.
+Dans le même temps, la gestion de la charge multiniveau permet l'optimisation solaire et offre des fonctions de lissage des pics de charge.
 
 Limites de la gestion de la charge multiniveau dynamique :
 
@@ -48,21 +48,21 @@ Limites de la gestion de la charge multiniveau dynamique :
 
 ![Gestion de la charge multiniveau – Figure 1](/img/konfiguration-multilevel-lastmanagement/01.png)
 
-### Protection contre les surcharges des points de dérivation (raccordement du site, distributions secondaires, raccordement de l'immeuble)
+### Protection contre les surcharges des points de dérivation (raccordement du site, sous-distributions, raccordement de l'immeuble)
 
 Des valeurs de courant maximales peuvent être définies pour toutes les branches créées dans la gestion de la charge multiniveau. Elles agissent comme limite supérieure absolue du soutirage de courant et correspondent à la valeur de protection des lignes d'alimentation.
 
 Une branche ne peut exister que selon le schéma suivant :
 
 - Branche avec « charges non mesurées » :
-    D'autres consommateurs ou producteurs, qui ne sont pas exclusivement des groupes Pico, se trouvent derrière cette branche. Un compteur de référence est nécessaire pour la détermination.
+    D'autres consommateurs ou producteurs, qui ne sont pas exclusivement des groupes Pico, se trouvent derrière cette branche. Un compteur de référence est nécessaire pour les déterminer.
 
 - Branche sans « charges non mesurées », virtuelle :
-    Les consommateurs en aval sont constitués exclusivement de groupes de charge Pico ou de « branches avec charges non mesurées » et du compteur de référence correspondant.
-    Le courant total peut donc être calculé à partir de la somme de ces mesures disponibles et correspond à 100% du courant à contrôler.
+    Les consommateurs suivants sont constitués exclusivement de groupes de charge Pico ou de « branches avec charges non mesurées » et du compteur de référence correspondant.
+    Le courant total peut donc être formé à partir de la somme de ces mesures disponibles et correspond à 100% du courant à contrôler.
 
     Domaines d'application :
-    \- Limitation du courant total du site au moyen de distributions secondaires mesurées (économie d'un compteur de site)
+    \- Limitation du courant total du site au moyen de sous-distributions mesurées (économie d'un compteur de site)
     \- Protection de plusieurs câbles plats dérivés à partir d'un départ protégé
 
 
@@ -80,43 +80,43 @@ Branche virtuelle (violet) limitée sur la base d'une branche avec charges non m
 
 L'optimisation solaire permet une répartition efficace du courant excédentaire entre les groupes de recharge Pico subordonnés. Elle requiert au moins une « branche avec charges non mesurées » et le compteur de référence correspondant.
 
-L'optimisation ne peut être effectuée qu'une seule fois en série (de haut en bas de l'arborescence) ou plusieurs fois dans des ramifications parallèles.
+L'optimisation ne peut se faire qu'une seule fois en série (de haut en bas dans l'arborescence) ou plusieurs fois dans des ramifications parallèles.
 
-Une optimisation solaire peut ainsi être mise en œuvre sur l'ensemble du site ou uniquement par bâtiment.
+Une optimisation solaire peut ainsi être mise en œuvre pour l'ensemble du site ou uniquement pour un bâtiment spécifique.
 
 Exemple :
 
 - Optimisation du site : optimisation solaire active sur la branche, référence sur le compteur du site ou branche créée virtuellement sur la base des sous-branches mesurées.
 
-- Optimisation par bâtiment : optimisation solaire active sur plusieurs branches avec référence sur les compteurs respectifs des immeubles.
+- Optimisation du bâtiment : optimisation solaire active sur plusieurs branches avec référence sur les compteurs respectifs des immeubles.
 
 
-Lors de l'optimisation solaire sur le raccordement du site, l'excédent produit dans l'immeuble B est également à la disposition de l'infrastructure de recharge de l'immeuble A.
+Avec l'optimisation solaire sur le raccordement du site, l'excédent produit dans l'immeuble B est également à la disposition de l'infrastructure de recharge de l'immeuble A.
 
 ![Gestion de la charge multiniveau – Figure 5](/img/konfiguration-multilevel-lastmanagement/05.png)
 
-### Courant de charge minimal : priorisation indirecte et lissage des pointes de charge
+### Courant de charge minimal : priorisation indirecte et lissage des pics de charge
 
 <div className="row">
 <div className="col col--6">
 
 Chaque groupe de charge Pico peut être doté d'un courant de charge minimal dépendant de l'heure.
 
-Le réglage se fait de manière flexible pour chaque heure de la journée.
+Le réglage s'effectue de manière flexible pour chaque heure de la journée.
 
-Cette fonction permet de mettre à disposition un courant de charge minimal indépendamment des autres optimisations parallèles.
+Cette fonction permet de mettre à disposition un courant de charge minimal indépendamment d'autres optimisations parallèles.
 
-Seul un dépassement de la limitation de courant d'une branche aurait une influence contraire sur celui-ci.
+Seul un dépassement de la limitation de courant d'une branche aurait un effet contraire.
 
-Dans la mesure où le courant de charge minimal peut être garanti, celui-ci limite le soutirage direct du réseau à la valeur réglée. 
+Pour autant que le courant de charge minimal puisse être garanti, celui-ci limite le soutirage direct du réseau à la valeur réglée. 
 
-En présence d'une optimisation solaire, le courant de charge disponible peut toutefois dépasser le minimum réglé et est augmenté en conséquence.
+Si une optimisation solaire est présente, le courant de charge disponible peut toutefois dépasser le minimum réglé et est augmenté en conséquence.
 
-Exemple d'utilisation :
+Exemple d'application :
 
-Réduire le courant de charge pendant les heures de production afin de réduire les pointes de charge.
+Réduire le courant de charge pendant les heures de production afin de réduire les pics de charge.
 
-Réduire le courant de charge à midi afin de réduire les pointes de charge.
+Réduire le courant de charge à midi afin de réduire les pics de charge.
 
 Réduire le courant de charge pendant la journée afin d'obtenir une priorisation plus élevée du courant solaire.
 
@@ -124,7 +124,7 @@ Privilégier les groupes de places de stationnement extérieures par rapport aux
 
 Priorisation
 
-Le réglage du courant minimal disponible d'un groupe implique une certaine priorité par rapport aux autres groupes de bornes de recharge. Le groupe de bornes de recharge disposant du courant minimal disponible le plus élevé à un moment donné est toujours traité en priorité par l'algorithme.
+Le réglage du courant minimal disponible d'un groupe implique une certaine priorité par rapport aux autres groupes de bornes de recharge. Le groupe de bornes de recharge ayant le courant minimal disponible le plus élevé à un moment donné est toujours traité en priorité par l'algorithme.
 
 Exemple :
 
@@ -132,10 +132,10 @@ Exemple :
 Groupe de recharge A : courant minimal = 10A
 Groupe de recharge B : courant minimal = 20A
 
-Le groupe de recharge B est d'abord alimenté avec 20A et le groupe de recharge A reçoit le reste.
+Le groupe de recharge B est alimenté en premier avec 20A et le groupe de recharge A reçoit le reste.
 
 </div>
-<div className="col col--6 text--center">
+<div className="col col--6 bild--mitte">
 
 ![Gestion de la charge multiniveau – Figure 6](/img/konfiguration-multilevel-lastmanagement/06.png)
 
@@ -149,8 +149,8 @@ Le groupe de recharge B est d'abord alimenté avec 20A et le groupe de recharge 
 Toutes les bornes de recharge Pico doivent être configurées avec le réglage de perte de connexion « Courant max. (par groupe) » (Max. Strom (pro Gruppe)). Les deux autres modes ne sont autorisés que pour le fonctionnement individuel.
 
 Fonctionnement :
-Les groupes de recharge concernés par une perte d'Internet sont ramenés à la valeur définie par le groupe. La répartition du courant est effectuée automatiquement par le gestionnaire de recharge, en tenant compte des sessions de recharge actives.
-La gestion de la charge multiniveau part alors du principe que les branches perdues soutirent le courant de groupe défini et les déduit du courant résiduel disponible.
+Les groupes de recharge concernés par la perte d'Internet sont ramenés à la valeur définie par le groupe. La répartition du courant est effectuée automatiquement par le gestionnaire de recharge, qui tient compte des sessions de recharge actives.
+La gestion de la charge multiniveau part alors du principe que les branches perdues soutirent le courant de groupe défini et le déduit du courant résiduel disponible.
 
 La partie fonctionnelle de l'installation disposant d'une connexion Internet active continue de fonctionner en mode normal avec cette restriction définie.
 
@@ -161,7 +161,7 @@ La partie fonctionnelle de l'installation disposant d'une connexion Internet act
 Le délestage peut être réalisé selon différentes variantes à l'aide du
 signal RSE du fournisseur d'électricité.
 
-- Entrées matérielles au dos du Pico pour la transmission à un groupe Pico.
+- Entrées matérielles à l'arrière du Pico pour la transmission à un groupe Pico.
 
 - Signal sur les entrées du compteur et transmission via le MLM à tous les groupes de charge.
 
@@ -202,14 +202,14 @@ Exemples de configurations minimales :
 
 Exemples d'une configuration maximale typique :
 
-- 60 départs avec chacun 16 bornes de recharge, y compris 8 points de référence. (Grands lotissements avec RCP (regroupement dans le cadre de la consommation propre))
+- 60 départs de 16 bornes de recharge chacun, y compris 8 points de référence. (Grands lotissements avec RCP (regroupement dans le cadre de la consommation propre))
 
 
-- 6 départs avec chacun 150 bornes, y compris 50 points de référence (complexes de stationnement publics)
+- 6 départs de 150 bornes chacun, y compris 50 points de référence (complexes de stationnement publics)
 
-- 4 départs avec chacun 200 bornes, y compris 50 points de référence (complexes de stationnement publics)
+- 4 départs de 200 bornes chacun, y compris 50 points de référence (complexes de stationnement publics)
 
 
-## Configurer le MLM
+## Configuration du MLM
 
 [En savoir plus](/konfiguration/multilevel-lastmanagement/mlm-konfigurieren)

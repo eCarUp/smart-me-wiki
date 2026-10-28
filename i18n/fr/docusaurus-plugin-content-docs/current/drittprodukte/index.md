@@ -4,9 +4,9 @@ slug: '/drittprodukte'
 description: 'Vous trouverez ci-dessous une liste de recommandations de produits et de services.'
 sidebar_label: 'Produits tiers'
 ---
-Vous trouverez ci-dessous une liste de recommandations de produits et de services. smart-me ne perçoit aucune rémunération sur les produits recommandés et n'assume aucune garantie à leur égard. Il est possible à tout moment d'utiliser d'autres produits. Veillez toujours à ce que ceux-ci répondent aux exigences du [produit](/produkte) concerné.
+Vous trouverez ci-dessous une liste de recommandations de produits et de services. smart-me ne gagne pas d'argent avec les produits recommandés et n'assume aucune garantie à leur égard. Il est possible à tout moment d'utiliser d'autres produits. Il faut toutefois toujours veiller à ce que ceux-ci répondent aux exigences du [produit](/produkte) concerné.
 
-Ces recommandations ont pour but de permettre à nos partenaires de trouver simplement et efficacement certains produits ou services lorsqu'ils n'en connaissent pas encore.
+L'objectif de ces recommandations est de permettre à nos partenaires de trouver simplement et efficacement certains produits ou services lorsqu'ils n'en connaissent pas encore.
 
 [Transformateurs de courant et accessoires pour Telstar CT](/drittprodukte/stromwandler)
 
@@ -14,6 +14,6 @@ Ces recommandations ont pour but de permettre à nos partenaires de trouver simp
 
 [Fondations pour socle Pico](/drittprodukte/standfuss-fundamente)
 
-Comme alternative au socle de smart-me, la Pico est également compatible avec le système One Pole.
+Au lieu du socle de smart-me, la Pico est également compatible avec le système One Pole.
 
 [Socle Pico - One Pole](/produkte/pico-ladestation/pico-standfuss#onepole-pro-pour-borne-de-recharge-pico)

@@ -8,9 +8,9 @@ sidebar_label: 'Garaio REM'
 
 - Die Abrechnung und Verschlüsselung der Kosten nach VEWA erfolgt im smart\-me System.
 
-- Jede Abrechnungseinheit im Garaio REM die Abgefragt werden will muss in smart-me kongruent bestehen.
+- Jede Abrechnungseinheit im Garaio REM, die abgefragt werden will, muss in smart-me kongruent bestehen.
 
-- Damit die Abrechnung stimmt, müssen für jede Abrechnungperiode in allen Einheiten die Mietverhältnisse sowie Leerstände erfasst sein!
+- Damit die Abrechnung stimmt, müssen für jede Abrechnungsperiode in allen Einheiten die Mietverhältnisse sowie Leerstände erfasst sein!
 
 - Garaio REM unterstützt nur eine Abrechnungsperiode pro Nebenkostengruppe, daher muss der Strom in der gleichen Periode abgerechnet werden wie alle anderen Nebenkosten.
 
@@ -37,16 +37,16 @@ Nicht unterstützt:
 
 - Übertragung der Verbräuche in kWh oder als Preis
     Diese Funktion wird seitens Garaio REM nicht passend unterstützt, dass es einen Mehrwert bedeutet.
-    Damit dies Funktioniert muss die Summe der kWh oder der Gesamtpreis im Vorfeld im Garaio REM gebucht worden sein.
+    Damit dies funktioniert, muss die Summe der kWh oder der Gesamtpreis im Vorfeld im Garaio REM gebucht worden sein.
 
 
 ## Garaio REM Import / Export File und Schlüsseldefinition in smart-me
 
 ### Schlüssel in smart-me definieren aus einem DTA-REM File
 
-Im Exportierten File von GaraioREM findest du die relevanten ID's zur verknüpfung des Exportfiles mit smart-me.
+Im exportierten File von GaraioREM findest du die relevanten ID's zur Verknüpfung des Exportfiles mit smart-me.
 
-Die Relevanten ID's sind in blau gehalten und sind wie folgt zu hinterlegen.
+Die relevanten ID's sind in blau gehalten und sind wie folgt zu hinterlegen.
 
 Externer Schlüssel für eine Hauptkostenstelle:
 
@@ -66,7 +66,7 @@ HausID +":"+ObjektID (01 und 30001 = 01:30001)
 
 
 
-Das Ergebnis als Promilleanteil wird beim Export an der Stelle (braun markiert) für die Gesamte Sammelstelle und den individuellen Verbrauch pro Mieterverhältnis eingetragen.
+Das Ergebnis als Promilleanteil wird beim Export an der Stelle (braun markiert) für die gesamte Sammelstelle und den individuellen Verbrauch pro Mieterverhältnis eingetragen.
 
 ![Garaio REM – Abbildung 1](/img/schnittstellen-dta-vhka-files-garaio-rem/01.png)
 
@@ -140,13 +140,13 @@ Der Gesamtpreis kann dann im Garaio für die Kostenstelle Lokalstrom und Netzstr
 
 ### Kostenstellenbuchung im Garaio REM durchführen
 
-Werden vorausgehende Buchungen in Garaio REM auf die Kostenstellen benötigt, können diese aus der Zusammenfassung CSV bei jeder erstellter Rechnung entnommen werden.
+Werden vorausgehende Buchungen in Garaio REM auf die Kostenstellen benötigt, können diese aus der Zusammenfassung CSV bei jeder erstellten Rechnung entnommen werden.
 
 Üblicherweise ist das der Fall für den Solarstrom, den Netzstrom und für die Elektrizitätskosten der Wärmepumpe / Heizung / Boiler.
 
 Bei der Umlage des Solarstromes wird dies öfters nötig sein, da der Ursprung dieser Information im smart-me System liegt.
 
-Bei den anderen Kostenstellen liegen üblicherweise externe Rechnungen vor welche gebucht werden können.
+Bei den anderen Kostenstellen liegen üblicherweise externe Rechnungen vor, welche gebucht werden können.
 
 1.  Betrete das smart-me Billing über den Tab Rechnungsstellung
 
@@ -161,9 +161,9 @@ Bei den anderen Kostenstellen liegen üblicherweise externe Rechnungen vor welch
 
 ![Garaio REM – Abbildung 4](/img/schnittstellen-dta-vhka-files-garaio-rem/04.png)
 
-Darin enthalten sin die jeweils verkauften kWh, m3 und der Preis pro Tarif, Abrechnungseinheit und im Total zu finden.
+Darin enthalten sind die jeweils verkauften kWh, m3 und der Preis pro Tarif, Abrechnungseinheit und im Total zu finden.
 
-Mit diesem Totalwert des jeweiligen Tarifs, kann eine Buchung in Garaio erledigt werden und dann mit dem DTA-REM File mit Promille passend verteilt werden.
+Mit diesem Totalwert des jeweiligen Tarifs kann eine Buchung in Garaio erledigt werden und dann mit dem DTA-REM File mit Promille passend verteilt werden.
 
 ## Konfigurationseinfluss auf die exportierten Zahlen
 
@@ -179,6 +179,6 @@ VEWA Option ist aktiviert:
 
 - Sind mehrere Tarife hinterlegt z.B. Netzstrom und Solarstrom, entsprechen 1000 Promille dem Gesamtpreis, bzw. dem Total der kWh des jeweiligen Tarifs.
     So können die Tarife separat in Kostenstellen übertragen werden, mit Einzelbuchungen der kWh oder des Preises in Garaio REM.
-    Möchte man die Tarife zusammengefasst exportieren in eine Sammelkostenstelle ist eine Preiseintragung beim Tarif seitens smart-me für die Gewichtung unerlässlich.
+    Möchte man die Tarife zusammengefasst exportieren in eine Sammelkostenstelle, ist eine Preiseintragung beim Tarif seitens smart-me für die Gewichtung unerlässlich.
 
-    Dies ist z.B. bereits der Fall wenn ein Einheitstarif (Netz) und ein Spitzentarif (Netz) gemischt übertragen werden sollen.
+    Dies ist z.B. bereits der Fall, wenn ein Einheitstarif (Netz) und ein Spitzentarif (Netz) gemischt übertragen werden sollen.

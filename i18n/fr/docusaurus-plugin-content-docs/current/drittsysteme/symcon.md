@@ -1,25 +1,25 @@
 ---
 title: 'Symcon'
 slug: '/drittsysteme/symcon'
-description: 'Symcon est à la fois un logiciel et un pack matériel optionnel (Symbox), qui permet la commande et la visualisation dans votre maison ou votre bâtiment.'
+description: 'Symcon est à la fois un logiciel et un ensemble matériel optionnel (Symbox) qui permettent de piloter et de visualiser les installations de votre maison ou de votre bâtiment.'
 sidebar_label: 'Symcon'
 ---
 <div className="row">
 <div className="col col--8">
 
-Symcon est à la fois un logiciel et un pack matériel optionnel (Symbox), qui permet la commande et la visualisation dans votre maison ou votre bâtiment. Il sert d'interface et de centre de décision.
+Symcon est à la fois un logiciel et un ensemble matériel optionnel (Symbox) qui permettent de piloter et de visualiser les installations de votre maison ou de votre bâtiment. Il fait office d'interface et prend les décisions.
 
 Les données smart-me peuvent être facilement interrogées via notre API.
 
 </div>
-<div className="col col--4 text--center">
+<div className="col col--4 bild--mitte">
 
-![Symcon – Figure 1](/img/drittsysteme-symcon/01.png)
+![Symcon – illustration 1](/img/drittsysteme-symcon/01.png)
 
 </div>
 </div>
 
-Groupe cible : maisons individuelles, immeubles collectifs et industrie
+Public cible : maisons individuelles, immeubles collectifs et industrie
 
 ### Contact
 
@@ -42,7 +42,7 @@ Willy-Brandt-Allee 31b, D-23554 Lübeck
 1.  Ajouter une instance (JSON Decoder)
 
 
-![Symcon – Figure 2](/img/drittsysteme-symcon/02.png)
+![Symcon – illustration 2](/img/drittsysteme-symcon/02.png)
 
 2\. Configurer l'instance
 
@@ -52,11 +52,11 @@ Mot de passe : mot de passe smart-me
 
 URL : appel API : p. ex. "https://smart-me.com:443/api/devices/&#123;id&#125;
 
-![Symcon – Figure 3](/img/drittsysteme-symcon/03.png)
+![Symcon – illustration 3](/img/drittsysteme-symcon/03.png)
 
 3\. Modifier la variable (double-clic)
 
-![Symcon – Figure 4](/img/drittsysteme-symcon/04.png)
+![Symcon – illustration 4](/img/drittsysteme-symcon/04.png)
 
 4\. Paramétrer la variable
 
@@ -67,31 +67,31 @@ URL : appel API : p. ex. "https://smart-me.com:443/api/devices/&#123;id&#125;
 - Paramètres d'archivage (activer l'enregistrement et afficher dans le WebFront)
 
 
-![Symcon – Figure 5](/img/drittsysteme-symcon/05.png)
+![Symcon – illustration 5](/img/drittsysteme-symcon/05.png)
 
-![Symcon – Figure 6](/img/drittsysteme-symcon/06.png)
+![Symcon – illustration 6](/img/drittsysteme-symcon/06.png)
 
 ### Comment créer un diagramme dans Syncom ?
 
 5\. Créer un diagramme pour le WebFront
 
-![Symcon – Figure 7](/img/drittsysteme-symcon/07.png)
+![Symcon – illustration 7](/img/drittsysteme-symcon/07.png)
 
 6\. Configurer le diagramme
 
-- Plusieurs variables peuvent être affichées dans le même diagramme (p. ex. : puissance active totale et puissance active des différentes phases).
+- Plusieurs variables peuvent être affichées dans le même diagramme (p. ex. puissance active totale et puissance active de chacune des phases).
 
 
-![Symcon – Figure 8](/img/drittsysteme-symcon/08.png)
+![Symcon – illustration 8](/img/drittsysteme-symcon/08.png)
 
 7\. Ouvrir le WebFront
 
-![Symcon – Figure 9](/img/drittsysteme-symcon/09.png)
+![Symcon – illustration 9](/img/drittsysteme-symcon/09.png)
 
-![Symcon – Figure 10](/img/drittsysteme-symcon/10.png)
+![Symcon – illustration 10](/img/drittsysteme-symcon/10.png)
 
 8\. Afficher le diagramme (cliquer à droite du diagramme PowerHaus).
 
-![Symcon – Figure 11](/img/drittsysteme-symcon/11.png)
+![Symcon – illustration 11](/img/drittsysteme-symcon/11.png)
 
-![Symcon – Figure 12](/img/drittsysteme-symcon/12.png)
+![Symcon – illustration 12](/img/drittsysteme-symcon/12.png)

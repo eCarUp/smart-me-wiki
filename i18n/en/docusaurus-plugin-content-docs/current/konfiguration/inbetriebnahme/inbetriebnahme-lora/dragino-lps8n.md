@@ -1,14 +1,14 @@
 ---
 title: 'Dragino LPS8N'
 slug: '/konfiguration/inbetriebnahme/inbetriebnahme-lora/dragino-lps8n'
-description: '1. Connect to the Dragino''s Wi-Fi.'
+description: '1. Connect to the Dragino''s Wi-Fi network.'
 sidebar_label: 'Dragino LPS8N'
 ---
 ## Integration guide
 
 ![Dragino LPS8N – Figure 1](/img/konfiguration-inbetriebnahme-inbetriebnahme-lora-dragino-lps8n/01.png)
 
-1.  Connect to the Dragino's Wi-Fi.
+1.  Connect to the Dragino's Wi-Fi network.
     SSID: dragino-xxxxxxx,
     Default password: dragino+dragino
 
@@ -22,7 +22,7 @@ sidebar_label: 'Dragino LPS8N'
 
 5.  Select "Custom / Private LoRaWAN" as the service provider
 
-6.  Enter the following as the server address: lora-gateway.smart-me.com
+6.  Enter lora-gateway.smart-me.com as the server address
 
 7.  The uplink and downlink port is 1700
 
@@ -34,12 +34,12 @@ sidebar_label: 'Dragino LPS8N'
 <div className="row">
 <div className="col col--6">
 
-9\. In the system overview, check that there is a green check mark next to LoRa, IoT Service and Internet.
+9\. In the system overview, check that LoRa, IoT Service and Internet each show a green check mark.
 
-10\. On [https://lora.smart-me.com](https://lora.smart-me.com)  the gateway should now be shown as "online". 
+10\. On [https://lora.smart-me.com](https://lora.smart-me.com)  the gateway should now be displayed as "online". 
 
 </div>
-<div className="col col--6 text--center">
+<div className="col col--6 bild--mitte">
 
 ![Dragino LPS8N – Figure 3](/img/konfiguration-inbetriebnahme-inbetriebnahme-lora-dragino-lps8n/03.png)
 

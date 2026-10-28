@@ -6,7 +6,7 @@ sidebar_label: 'Limmobi'
 ---
 [LIMMOBI](https://limmobi.ch)  ist eine moderne Software-Lösung aus der Cloud, die es ermöglicht die Immobilienbewirtschaftung von A bis Z digital und effizient auszuführen. Die Bearbeitung von eingehenden Rechnungen, die Zahlungseingangskontrolle und die Erstellung der Nebenkostenabrechnung sind automatisiert.
 
-Die Prozessautomation, Zusatzdienstleistungen und intuitive Benutzerführung ermöglichen es die Anforderungen an Spezialwissen des Benutzers über Buchhaltung, Recht und IT zu minimieren.
+Die Prozessautomation, Zusatzdienstleistungen und intuitive Benutzerführung ermöglichen es, die Anforderungen an Spezialwissen des Benutzers über Buchhaltung, Recht und IT zu minimieren.
 
 - smart-me Daten direkt über API.
 

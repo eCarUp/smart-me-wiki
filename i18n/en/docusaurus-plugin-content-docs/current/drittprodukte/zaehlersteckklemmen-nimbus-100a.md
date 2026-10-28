@@ -4,11 +4,11 @@ slug: '/drittprodukte/zaehlersteckklemmen-nimbus-100a'
 description: 'The Nimbus 100A is directly compatible with various meter plug-in terminals.'
 sidebar_label: 'Meter plug-in terminals'
 ---
-The Nimbus 100A is directly compatible with various meter plug-in terminals. The plug-in terminals we know of and have tested are listed here.
+The Nimbus 100A is directly compatible with various meter plug-in terminals. The plug-in terminals that we know and have tested are listed here.
 
-Meter plug-in terminals allow meters to be replaced or exchanged during operation without interrupting the power supply.
+The meter plug-in terminals let you replace or swap meters during operation without interrupting the power supply.
 
-Please note that accessories such as the connector tool and meter connection pins must also be ordered for use with these plug-in terminals.
+Please note that accessories such as the connector tool and meter connection pins must also be ordered to use these plug-in terminals.
 
 ## Eweco terminals
 
@@ -56,7 +56,7 @@ SL-ZAKD: up to 80A continuous current and 128A overload current - screw terminal
 Meter pin for Nimbus: SL-6-6-42
 
 </div>
-<div className="col col--6 text--center">
+<div className="col col--6 bild--mitte">
 
 ![Meter plug-in terminals Nimbus 100A – Figure 5](/img/drittprodukte-zaehlersteckklemmen-nimbus-100a/05.png)
 

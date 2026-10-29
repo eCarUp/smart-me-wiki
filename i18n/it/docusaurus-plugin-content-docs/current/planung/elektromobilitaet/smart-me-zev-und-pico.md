@@ -10,7 +10,7 @@ Mobilità elettrica nel RCP (raggruppamento ai fini del consumo proprio) smart-m
 
 <div className="bild--voll">
 
-![RCP smart-me e Pico – Figura 1](/img/planung-elektromobilitaet-smart-me-zev-und-pico/01.png)
+![RCP smart-me e Pico – Figura 1](/img/planung-elektromobilitaet-smart-me-zev-und-pico/01_IT.png)
 
 </div>
 

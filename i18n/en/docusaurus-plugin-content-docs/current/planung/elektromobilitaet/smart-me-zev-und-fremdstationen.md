@@ -8,7 +8,7 @@ E-mobility in the smart-me ZEV (association for own consumption) / tenant electr
 
 <div className="bild--voll">
 
-![smart-me ZEV and third-party stations – Figure 1](/img/planung-elektromobilitaet-smart-me-zev-und-fremdstationen/01.png)
+![smart-me ZEV and third-party stations – Figure 1](/img/planung-elektromobilitaet-smart-me-zev-und-fremdstationen/01_EN.png)
 
 </div>
 

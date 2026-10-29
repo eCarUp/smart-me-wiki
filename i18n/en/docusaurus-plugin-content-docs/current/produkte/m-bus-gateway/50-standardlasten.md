@@ -1,10 +1,10 @@
 ---
 title: 'M-Bus Gateway'
 slug: '/produkte/m-bus-gateway/50-standardlasten'
-description: 'The smart-me M-Bus Gateway with integrated level converter for 50 M-Bus standard loads: technical data, connection diagram, button function and downloads.'
+description: 'The smart-me M-Bus Gateway with integrated level converter for 50 M-Bus unit loads: technical data, connection diagram, button function and downloads.'
 sidebar_label: 'M-Bus Gateway'
 ---
-The M-Bus Gateway with integrated level converter for 50 M-Bus standard loads. The compatibility list, commissioning and installation instructions apply to both devices and can be found on the [overview page](/produkte/m-bus-gateway).
+The M-Bus Gateway with integrated level converter for 50 M-Bus unit loads. The compatibility list, commissioning and installation instructions apply to both devices and can be found on the [overview page](/produkte/m-bus-gateway).
 
 ## Features
 
@@ -39,7 +39,7 @@ The M-Bus Gateway with integrated level converter for 50 M-Bus standard loads. T
 | Interfaces | WLAN, M-BUS |
 | Communication | WLAN IEEE 802.11 b/g/n (2.4 GHz) |
 | WLAN security standard | WEP, WPA-PSK/WPA2-PSK |
-| Number of M-BUS slaves | 50 standard loads<br />(Up to 100 with repeater)<br />Up to 25 without self-powering |
+| Number of M-BUS slaves | 50 unit loads<br />(With repeater up to 100)<br />Up to 25 without self-powering |
 | M-BUS baud rate | 300, 2400, 9600 (automatic search and detection) |
 | Galvanic isolation | Yes |
 | Data storage | 6'000 readings |
@@ -56,7 +56,7 @@ The M-Bus Gateway with integrated level converter for 50 M-Bus standard loads. T
 
 ## Shipping information
 
-Article number: 150590
+Article number: 152090
 Article name: smart-me M-Bus Gateway (mit WiFi Schnittstelle)
 
 Customs tariff number: 9028.1000
@@ -87,6 +87,6 @@ Pressing the T(4) button for 10 seconds creates a local WiFi network for the ins
 
 [Connection diagram ZIP files](https://drive.google.com/file/d/1aWqGhEJNUqLfAEyXakRlTvbjRjgCZhvd/view?usp=sharing)
 
-(\*.DXF and \*.DWG data can be found in the ZIP archive)
+(\*.DXF and \*.DWG files can be found in the ZIP archive)
 
 [Quick Starter](https://docs.google.com/document/d/1JR1tvgsvp0dWkmVYG-stafguL_LFGnxfsjQzVaJ-3Zk/export?format=pdf)

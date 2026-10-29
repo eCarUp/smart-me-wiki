@@ -64,21 +64,21 @@ Separate cost centres
 - Each energy comes from a different source
 
 
-![VEWA - Billing – Figure 2](/img/konfiguration-billing-vewa-abrechnung/02.png)
+![VEWA - Billing – Figure 2](/img/konfiguration-billing-vewa-abrechnung/02_EN.png)
 
 Combined heat and domestic hot water
 
 - Heating of any kind with a connected hot water storage tank
 
 
-![VEWA - Billing – Figure 3](/img/konfiguration-billing-vewa-abrechnung/03.png)
+![VEWA - Billing – Figure 3](/img/konfiguration-billing-vewa-abrechnung/03_EN.png)
 
 Combined heat + cooling and domestic hot water
 
 - Heat pump with free cooling
 
 
-![VEWA - Billing – Figure 4](/img/konfiguration-billing-vewa-abrechnung/04.png)
+![VEWA - Billing – Figure 4](/img/konfiguration-billing-vewa-abrechnung/04_EN.png)
 
 ## Scope of functions
 
@@ -100,7 +100,7 @@ Note:
 - When billing with total generation meters, the costs can be distributed to the residential units as percentages.
 
 
-![VEWA - Billing – Figure 5](/img/konfiguration-billing-vewa-abrechnung/05.png)
+![VEWA - Billing – Figure 5](/img/konfiguration-billing-vewa-abrechnung/05_EN.png)
 
 Common areas:
 

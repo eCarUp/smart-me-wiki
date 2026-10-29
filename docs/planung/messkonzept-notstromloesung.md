@@ -68,4 +68,15 @@ Variante B · ohne Solarzähler
 
 ![Messkonzepte Notstromlösungen – Abbildung 4](/img/planung-messkonzept-notstromloesung/04.png)
 
-<Embed src="/embeds/planung-messkonzept-notstromloesung-01.html" aspect="2.305" title="Messkonzept Notstromlösung" />
+## Die beiden Varianten im Vergleich
+
+| Merkmal | A · separater Umschalter | B · integrierter Umschalter |
+| --- | --- | --- |
+| Bilanzierungszähler **Z1** | nötig | nötig |
+| Solarzähler **Z2** | nötig | nicht möglich |
+| Gesamtverbrauch **Zb** | nötig | nötig |
+| Verbraucherzähler | nötig | nötig, lückenlos |
+| Tarif Typ | Solartarif (Verbrauch/PV) | Solartarif inkl. vZEV, Referenz Verbrauch + Bilanz |
+| Visualisierung | möglich | nicht möglich |
+| Analyse bei Differenzen zur EVU-Rechnung | vollständig | nur beschränkt |
+| Empfehlung | **Standard** | wenn A nicht möglich ist |

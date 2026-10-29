@@ -56,7 +56,7 @@ Das M-Bus Gateway mit integriertem Pegelwandler für 50 M-Bus-Standardlasten. Ko
 
 ## Versandinformationen
 
-Artikelnummer: 150590
+Artikelnummer: 152090
 Artikelname: smart-me M-Bus Gateway (mit WiFi Schnittstelle)
 
 Zolltarifnummer: 9028.1000

@@ -64,21 +64,21 @@ Centres de coûts séparés
 - Chaque énergie provient d'une source différente
 
 
-![VEWA - Décompte – Figure 2](/img/konfiguration-billing-vewa-abrechnung/02.png)
+![VEWA - Décompte – Figure 2](/img/konfiguration-billing-vewa-abrechnung/02_FR.png)
 
 Chaleur et eau chaude sanitaire combinées
 
 - Chauffage de tout type avec accumulateur d'eau chaude raccordé
 
 
-![VEWA - Décompte – Figure 3](/img/konfiguration-billing-vewa-abrechnung/03.png)
+![VEWA - Décompte – Figure 3](/img/konfiguration-billing-vewa-abrechnung/03_FR.png)
 
 Chaleur + froid et eau chaude sanitaire combinés
 
 - Pompe à chaleur avec freecooling
 
 
-![VEWA - Décompte – Figure 4](/img/konfiguration-billing-vewa-abrechnung/04.png)
+![VEWA - Décompte – Figure 4](/img/konfiguration-billing-vewa-abrechnung/04_FR.png)
 
 ## Fonctionnalités
 
@@ -100,7 +100,7 @@ Remarque :
 - En cas de décompte avec des compteurs de production totale, les coûts peuvent être répartis en pourcentage entre les unités d'habitation.
 
 
-![VEWA - Décompte – Figure 5](/img/konfiguration-billing-vewa-abrechnung/05.png)
+![VEWA - Décompte – Figure 5](/img/konfiguration-billing-vewa-abrechnung/05_FR.png)
 
 Locaux communs :
 

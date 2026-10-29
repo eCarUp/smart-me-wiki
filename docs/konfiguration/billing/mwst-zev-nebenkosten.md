@@ -59,7 +59,7 @@ Für jede Energie muss individuell entschieden werden, ob eine MWST-Pflicht daf�
 
 ### Ist der ZEV Mehrwertsteuerpflichtig für elektrische Energie und Dienstleistungen?
 
-![MWST ZEV / Nebenkosten – Abbildung 2](/img/konfiguration-billing-mwst-zev-nebenkosten/02.jpg)
+![MWST ZEV / Nebenkosten – Abbildung 2](/img/konfiguration-billing-mwst-zev-nebenkosten/02.png)
 
 Eine Mehrwertsteuerpflicht kann grundsätzlich durch die folgenden Bedingungen entstehen:
 
@@ -102,7 +102,7 @@ Gemessen an diesen zwei Beispielen ist klar ersichtlich, dass die Verhältnisse 
 
 Fall 1:
 
-![MWST ZEV / Nebenkosten – Abbildung 3](/img/konfiguration-billing-mwst-zev-nebenkosten/03.jpg)
+![MWST ZEV / Nebenkosten – Abbildung 3](/img/konfiguration-billing-mwst-zev-nebenkosten/03.png)
 
 Details:
 
@@ -178,7 +178,7 @@ Tritt der ZEV oder Abrechnungsdienstleister im Mandat als Dienstleister für die
 
 Fall 2:
 
-![MWST ZEV / Nebenkosten – Abbildung 4](/img/konfiguration-billing-mwst-zev-nebenkosten/04.jpg)
+![MWST ZEV / Nebenkosten – Abbildung 4](/img/konfiguration-billing-mwst-zev-nebenkosten/04.png)
 
 ## Erweiterte Informationen und Gesetze
 

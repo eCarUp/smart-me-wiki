@@ -64,21 +64,21 @@ Centri di costo separati
 - Ogni energia proviene da una fonte diversa
 
 
-![VEWA - Conteggio – Figura 2](/img/konfiguration-billing-vewa-abrechnung/02.png)
+![VEWA - Conteggio – Figura 2](/img/konfiguration-billing-vewa-abrechnung/02_IT.png)
 
 Calore e acqua calda sanitaria combinati
 
 - Riscaldamento di qualsiasi tipo con accumulatore di acqua calda sanitaria collegato
 
 
-![VEWA - Conteggio – Figura 3](/img/konfiguration-billing-vewa-abrechnung/03.png)
+![VEWA - Conteggio – Figura 3](/img/konfiguration-billing-vewa-abrechnung/03_IT.png)
 
 Calore + freddo e acqua calda sanitaria combinati
 
 - Pompa di calore con freecooling
 
 
-![VEWA - Conteggio – Figura 4](/img/konfiguration-billing-vewa-abrechnung/04.png)
+![VEWA - Conteggio – Figura 4](/img/konfiguration-billing-vewa-abrechnung/04_IT.png)
 
 ## Funzionalità
 
@@ -100,7 +100,7 @@ Nota:
 - In caso di fatturazione con contatori della produzione totale, i costi possono essere ripartiti in percentuale sulle unità abitative.
 
 
-![VEWA - Conteggio – Figura 5](/img/konfiguration-billing-vewa-abrechnung/05.png)
+![VEWA - Conteggio – Figura 5](/img/konfiguration-billing-vewa-abrechnung/05_IT.png)
 
 Locali comuni:
 

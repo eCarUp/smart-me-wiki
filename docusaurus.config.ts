@@ -62,9 +62,10 @@ const config: Config = {
           // Dateinamen wie "1-phasen-zaehler.md" stammen aus den alten URLs.
           // Ohne diese Zeile würde Docusaurus die "1-" als Positionspräfix deuten.
           numberPrefixParser: false,
-          editUrl: 'https://github.com/ecarup/smart-me-wiki/edit/main/',
-          // Übersetzungen werden generiert – kein Edit-Link auf i18n-Dateien.
-          editLocalizedFiles: false,
+          // Kein `editUrl`: Ohne ihn erscheint unter den Seiten kein
+          // "Diese Seite bearbeiten". Das Wiki wird innerhalb der Organisation
+          // gepflegt; ein Bearbeiten-Link lädt Aussenstehende dazu ein, es zu
+          // versuchen, und weckt den Eindruck, sie könnten hier mitschreiben.
           showLastUpdateTime: true,
         },
         blog: false,
@@ -156,9 +157,8 @@ const config: Config = {
           type: 'localeDropdown',
           position: 'right',
         },
-        // Kein Link auf das Repository: Die Kopfzeile ist für Besucher da, und
-        // der Weg zu GitHub steht weiterhin im Fuss unter "Mitarbeiten" sowie
-        // auf jeder Seite unten als "Diese Seite bearbeiten".
+        // Kein Link auf das Repository: Die Seite richtet sich an Besucher,
+        // nicht an Mitschreibende.
       ],
     },
     footer: {
@@ -169,12 +169,6 @@ const config: Config = {
           items: [
             {label: 'smart-me.com', href: 'https://www.smart-me.com'},
             {label: 'Portal', href: 'https://smart-me.com/Portal'},
-          ],
-        },
-        {
-          title: 'Wiki',
-          items: [
-            {label: 'Mitarbeiten', href: 'https://github.com/ecarup/smart-me-wiki/blob/main/CONTRIBUTING.md'},
           ],
         },
       ],

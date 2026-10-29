@@ -1,28 +1,28 @@
 ---
-title: 'Contratto / Aspetti legali'
+title: 'Contratto / Aspetti giuridici'
 slug: '/planung/vertrag-rechtliches'
 description: 'Base contrattuale per un RCP (Svizzera)'
-sidebar_label: 'Contratto / Aspetti legali'
+sidebar_label: 'Contratto / Aspetti giuridici'
 symbol: 'vertrag'
 ---
 
 ## Base contrattuale per un RCP (Svizzera)
 
-Il RCP (raggruppamento ai fini del consumo proprio)  è un raggruppamento contrattuale di più consumatori finali che consumano direttamente sul posto l'elettricità da loro stessi prodotta. 
+Il RCP (raggruppamento ai fini del consumo proprio)  è un raggruppamento contrattuale di più consumatori finali che consumano sul posto l'elettricità da loro stessi prodotta. 
 
-In un raggruppamento ai fini del consumo proprio, le consumatrici e i consumatori finali dispongono di un allacciamento alla rete comune. Nei confronti del gestore della rete di distribuzione, tutte le consumatrici e tutti i consumatori finali che partecipano al rispettivo RCP si presentano come un unico cliente. 
+In un raggruppamento ai fini del consumo proprio, i consumatori finali dispongono di un allacciamento alla rete comune. Nei confronti del gestore della rete di distribuzione, tutti i consumatori finali che partecipano al rispettivo RCP si presentano come un unico cliente. 
 
 ### Modelli standardizzati per contratti RCP e adeguamenti dei contratti di locazione (modello di contratto RCP)
 
-Associazione dei proprietari fondiari: [https://www.hev-schweiz.ch/wohnen/bauen/haustechnik-gebaeudetechnik/eigenverbrauch/](https://www.hev-schweiz.ch/wohnen/bauen/haustechnik-gebaeudetechnik/eigenverbrauch/) (login necessario)
+Associazione dei proprietari immobiliari: [https://www.hev-schweiz.ch/wohnen/bauen/haustechnik-gebaeudetechnik/eigenverbrauch/](https://www.hev-schweiz.ch/wohnen/bauen/haustechnik-gebaeudetechnik/eigenverbrauch/) (login necessario)
 
 Guida all'autoconsumo di SvizzeraEnergia: [https://www.energieschweiz.ch/gebaeude/eigenverbrauch/](https://www.energieschweiz.ch/gebaeude/eigenverbrauch/)  
 
 
 
-Se ha bisogno di un supporto legale approfondito per l'attuazione del RCP, qui sotto trova i partner a noi noti.
+Se hai bisogno di un supporto giuridico approfondito per realizzare il RCP, qui sotto trovi i partner che conosciamo.
 
-Aspetti legali del RCP con Domenig & Partner 
+Aspetti giuridici del RCP con Domenig & Partner 
 
 Programma
 
@@ -35,91 +35,80 @@ Programma
 
 <Video src="KqU1XWR4YOU" title="Video YouTube, webinar - Basi giuridiche del RCP" />
 
-### Partner a noi noti
+### Partner che conosciamo in Svizzera
 
-![Contratto / Aspetti legali – Figura 1](/img/planung-vertrag-rechtliches/01.png)
+<Kacheln min="20rem">
 
-Dr. iur., avvocato Mischa Morgenbesser
+<Kachel bild="/img/planung-vertrag-rechtliches/01.png" titel="Badertscher Rechtsanwälte AG" href="https://www.b-legal.ch/">
 
-BADERTSCHER RECHTSANWÄLTE AG
+Dr. iur. Mischa Morgenbesser, avvocato
 
-Mühlebachstrasse 32
+Mühlebachstrasse 32, CH-8042 Zürich
 
-8042 Zürich
+T +41 44 266 20 66 · M +41 79 796 37 99
 
+[morgenbesser@b-legal.ch](mailto:morgenbesser@b-legal.ch) · [www.b-legal.ch](https://www.b-legal.ch/)
 
+</Kachel>
 
-T: +41 44 266 20 66
+<Kachel bild="/img/planung-vertrag-rechtliches/02.png" titel="Schärer Rechtsanwälte" href="https://www.5001.ch/anwaelte/simon-walther">
 
-M: +41 79 796 37 99
+Dr. iur. Simone Walther, avvocata
 
-E-mail: [morgenbesser@b-legal.ch](mailto:morgenbesser@b-legal.ch)  
+Hintere Bahnhofstrasse 6, CH-5001 Aarau
 
-Web: [https://www.b-legal.ch/](https://www.b-legal.ch/) 
+T +41 62 837 50 00 · F +41 62 837 50 01
 
+[simone.walther@5001.ch](mailto:simone.walther@5001.ch) · [www.5001.ch](https://www.5001.ch/anwaelte/simon-walther)
 
+</Kachel>
 
+<Kachel bild="/img/planung-vertrag-rechtliches/03.png" titel="Domenig & Partner Rechtsanwälte AG" href="https://www.domenig.law/">
 
-Dr. iur., avvocata Simone Walther
+Laupenstrasse 1, CH-3008 Bern
 
-Schärer Rechtsanwälte
+T +41 31 380 11 00
 
-Hintere Bahnhofstrasse 6
+[info@domenig.law](mailto:info@domenig.law) · [www.domenig.law](https://www.domenig.law/)
 
-5001 Aarau
+</Kachel>
 
+<Kachel bild="/img/planung-vertrag-rechtliches/04.png" titel="BachEnergy GmbH" href="http://www.bachenergy.ch">
 
+Consulenza e accompagnamento economico e giuridico di progetti
 
-T: +41 62 837 50 00
+Zollstrasse 53, CH-8005 Zürich
 
-F: +41 62 837 50 01
+M +41 79 205 91 91
 
-E-mail: [simone.walther@5001.ch](mailto:simone.walther@5001.ch)  
+[hello@bachenergy.ch](mailto:hello@bachenergy.ch) · [www.bachenergy.ch](http://www.bachenergy.ch)
 
-Web: [https://www.5001.ch/anwaelte/simon-walther](https://www.5001.ch/anwaelte/simon-walther) 
+</Kachel>
 
-
-
-![Contratto / Aspetti legali – Figura 2](/img/planung-vertrag-rechtliches/02.png)
-
-![Contratto / Aspetti legali – Figura 3](/img/planung-vertrag-rechtliches/03.png)
-
-Domenig & Partner Rechtsanwälte AG
-
-Laupenstrasse 1
-
-3008 Bern
-
-
-
-T: 031 380 11 00
-
-E-mail: [info@domenig.law](mailto:info@domenig.law) 
-
-Web: [www.domenig.law](https://www.domenig.law/)
-
-![Contratto / Aspetti legali – Figura 4](/img/planung-vertrag-rechtliches/04.png)
-
-BachEnergy GmbH
-
-Zollstrasse 53
-
-8005 Zürich
-
-
-
-Consulenza e gestione di progetti in ambito economico e giuridico 
-
-M: +41 79 205 91 91
-
-E-mail: [hello@bachenergy.ch](mailto:hello@bachenergy.ch) 
-
-Web: [www.bachenergy.ch](http://www.bachenergy.ch)  
-
-
+</Kacheln>
 
 ## Elettricità per gli inquilini (Germania)
 
-[https://www.bundesnetzagentur.de/DE/Vportal/Energie/Vertragsarten/Mieterstrom/start.html](https://www.bundesnetzagentur.de/DE/Vportal/Energie/Vertragsarten/Mieterstrom/start.html)
+Per domande sull'elettricità per gli inquilini in Germania (Mieterstrom), contatta smartRED. smartRED è la nostra società affiliata che opera sul mercato tedesco e commercializza i nostri prodotti in progetti di elettricità per gli inquilini nel rispetto del quadro giuridico.
 
-In caso di domande, contatti smartred.de. Smart-Red è la nostra società affiliata che serve il mercato tedesco e commercializza i nostri prodotti in progetti di elettricità per gli inquilini nel rispetto del quadro giuridico.
+<Kacheln min="20rem">
+
+<Kachel bild="/img/planung-vertrag-rechtliches/05.png" bildtext="Logo Bundesnetzagentur" titel="Bundesnetzagentur" href="https://www.bundesnetzagentur.de/DE/Vportal/Energie/Vertragsarten/Mieterstrom/start.html">
+
+Quadro giuridico per l'elettricità per gli inquilini in Germania
+
+[bundesnetzagentur.de](https://www.bundesnetzagentur.de/DE/Vportal/Energie/Vertragsarten/Mieterstrom/start.html)
+
+</Kachel>
+
+<Kachel bild="/img/drittsysteme-smartred/01.png" bildtext="Logo smartRED" titel="smartRED" href="https://www.smartred.de/kontakt/">
+
+Interlocutore per progetti di elettricità per gli inquilini in Germania
+
+Dieselstrasse 17, DE-89160 Dornstadt
+
+[info@smartred.de](mailto:info@smartred.de) · [www.smartred.de](https://www.smartred.de)
+
+</Kachel>
+
+</Kacheln>

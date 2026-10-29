@@ -8,15 +8,15 @@ symbol: 'vertrag'
 
 ## Base contractuelle d'un RCP (Suisse)
 
-Le RCP (regroupement dans le cadre de la consommation propre)  est un regroupement contractuel de plusieurs consommateurs finaux visant à consommer sur place l'électricité qu'ils produisent eux-mêmes. 
+Le RCP (regroupement dans le cadre de la consommation propre)  est un regroupement contractuel de plusieurs consommateurs finaux, qui leur permet de consommer sur place l'électricité qu'ils produisent eux-mêmes. 
 
-Dans un regroupement dans le cadre de la consommation propre, les consommateurs finaux disposent d'un raccordement au réseau commun. Vis-à-vis du gestionnaire de réseau de distribution (GRD), tous les consommateurs finaux participant au RCP concerné apparaissent comme un seul et unique client. 
+Dans un regroupement dans le cadre de la consommation propre, les consommatrices et consommateurs finaux disposent d'un raccordement au réseau commun. Vis-à-vis du gestionnaire de réseau de distribution (GRD), toutes les consommatrices et tous les consommateurs finaux participant au RCP apparaissent comme un seul et unique client. 
 
 ### Modèles standardisés de contrats RCP et d'avenants aux contrats de bail (modèle de contrat RCP)
 
 Association des propriétaires fonciers (HEV) : [https://www.hev-schweiz.ch/wohnen/bauen/haustechnik-gebaeudetechnik/eigenverbrauch/](https://www.hev-schweiz.ch/wohnen/bauen/haustechnik-gebaeudetechnik/eigenverbrauch/) (connexion requise)
 
-Guide de l'autoconsommation de SuisseEnergie : [https://www.energieschweiz.ch/gebaeude/eigenverbrauch/](https://www.energieschweiz.ch/gebaeude/eigenverbrauch/)  
+Guide sur l'autoconsommation de SuisseEnergie : [https://www.energieschweiz.ch/gebaeude/eigenverbrauch/](https://www.energieschweiz.ch/gebaeude/eigenverbrauch/)  
 
 
 
@@ -35,91 +35,80 @@ Programme
 
 <Video src="KqU1XWR4YOU" title="Vidéo YouTube, webinaire - Notions juridiques de base du RCP" />
 
-### Partenaires que nous connaissons
+### Partenaires que nous connaissons en Suisse
 
-![Contrat / Aspects juridiques – Illustration 1](/img/planung-vertrag-rechtliches/01.png)
+<Kacheln min="20rem">
 
-Dr iur., avocat Mischa Morgenbesser
+<Kachel bild="/img/planung-vertrag-rechtliches/01.png" titel="Badertscher Rechtsanwälte AG" href="https://www.b-legal.ch/">
 
-BADERTSCHER RECHTSANWÄLTE AG
+Dr. iur. Mischa Morgenbesser, avocat
 
-Mühlebachstrasse 32
+Mühlebachstrasse 32, CH-8042 Zürich
 
-8042 Zürich
+T +41 44 266 20 66 · M +41 79 796 37 99
 
+[morgenbesser@b-legal.ch](mailto:morgenbesser@b-legal.ch) · [www.b-legal.ch](https://www.b-legal.ch/)
 
+</Kachel>
 
-T : +41 44 266 20 66
+<Kachel bild="/img/planung-vertrag-rechtliches/02.png" titel="Schärer Rechtsanwälte" href="https://www.5001.ch/anwaelte/simon-walther">
 
-M : +41 79 796 37 99
+Dr. iur. Simone Walther, avocate
 
-E-mail : [morgenbesser@b-legal.ch](mailto:morgenbesser@b-legal.ch)  
+Hintere Bahnhofstrasse 6, CH-5001 Aarau
 
-Web : [https://www.b-legal.ch/](https://www.b-legal.ch/) 
+T +41 62 837 50 00 · F +41 62 837 50 01
 
+[simone.walther@5001.ch](mailto:simone.walther@5001.ch) · [www.5001.ch](https://www.5001.ch/anwaelte/simon-walther)
 
+</Kachel>
 
+<Kachel bild="/img/planung-vertrag-rechtliches/03.png" titel="Domenig & Partner Rechtsanwälte AG" href="https://www.domenig.law/">
 
-Dr iur., avocate Simone Walther
+Laupenstrasse 1, CH-3008 Bern
 
-Schärer Rechtsanwälte
+T +41 31 380 11 00
 
-Hintere Bahnhofstrasse 6
+[info@domenig.law](mailto:info@domenig.law) · [www.domenig.law](https://www.domenig.law/)
 
-5001 Aarau
+</Kachel>
 
+<Kachel bild="/img/planung-vertrag-rechtliches/04.png" titel="BachEnergy GmbH" href="http://www.bachenergy.ch">
 
+Conseil et accompagnement de projets sur les plans économique et juridique
 
-T : +41 62 837 50 00
+Zollstrasse 53, CH-8005 Zürich
 
-F : +41 62 837 50 01
+M +41 79 205 91 91
 
-E-mail : [simone.walther@5001.ch](mailto:simone.walther@5001.ch)  
+[hello@bachenergy.ch](mailto:hello@bachenergy.ch) · [www.bachenergy.ch](http://www.bachenergy.ch)
 
-Web : [https://www.5001.ch/anwaelte/simon-walther](https://www.5001.ch/anwaelte/simon-walther) 
+</Kachel>
 
-
-
-![Contrat / Aspects juridiques – Illustration 2](/img/planung-vertrag-rechtliches/02.png)
-
-![Contrat / Aspects juridiques – Illustration 3](/img/planung-vertrag-rechtliches/03.png)
-
-Domenig & Partner Rechtsanwälte AG
-
-Laupenstrasse 1
-
-3008 Bern
-
-
-
-T : 031 380 11 00
-
-E-mail : [info@domenig.law](mailto:info@domenig.law) 
-
-Web : [www.domenig.law](https://www.domenig.law/)
-
-![Contrat / Aspects juridiques – Illustration 4](/img/planung-vertrag-rechtliches/04.png)
-
-BachEnergy GmbH
-
-Zollstrasse 53
-
-8005 Zürich
-
-
-
-Conseil et gestion de projets sur les plans économique et juridique 
-
-M : +41 79 205 91 91
-
-E-mail : [hello@bachenergy.ch](mailto:hello@bachenergy.ch) 
-
-Web : [www.bachenergy.ch](http://www.bachenergy.ch)  
-
-
+</Kacheln>
 
 ## Électricité pour les locataires (Allemagne)
 
-[https://www.bundesnetzagentur.de/DE/Vportal/Energie/Vertragsarten/Mieterstrom/start.html](https://www.bundesnetzagentur.de/DE/Vportal/Energie/Vertragsarten/Mieterstrom/start.html)
+Pour toute question concernant l'électricité pour les locataires en Allemagne (Mieterstrom), veuillez contacter smartRED. smartRED est notre filiale qui dessert le marché allemand et commercialise nos produits dans des projets d'électricité pour les locataires conformément au cadre juridique.
 
-Pour toute question, veuillez contacter smartred.de. Smart-Red est notre filiale qui dessert le marché allemand et commercialise nos produits dans le cadre de projets d'électricité pour les locataires, conformément au cadre juridique en vigueur.
+<Kacheln min="20rem">
+
+<Kachel bild="/img/planung-vertrag-rechtliches/05.png" bildtext="Logo Bundesnetzagentur" titel="Bundesnetzagentur" href="https://www.bundesnetzagentur.de/DE/Vportal/Energie/Vertragsarten/Mieterstrom/start.html">
+
+Cadre juridique de l'électricité pour les locataires en Allemagne
+
+[bundesnetzagentur.de](https://www.bundesnetzagentur.de/DE/Vportal/Energie/Vertragsarten/Mieterstrom/start.html)
+
+</Kachel>
+
+<Kachel bild="/img/drittsysteme-smartred/01.png" bildtext="Logo smartRED" titel="smartRED" href="https://www.smartred.de/kontakt/">
+
+Interlocuteur pour les projets d'électricité pour les locataires en Allemagne
+
+Dieselstrasse 17, DE-89160 Dornstadt
+
+[info@smartred.de](mailto:info@smartred.de) · [www.smartred.de](https://www.smartred.de)
+
+</Kachel>
+
+</Kacheln>

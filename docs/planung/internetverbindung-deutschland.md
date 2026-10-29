@@ -22,7 +22,11 @@ Ausfallebenen
 - Mehrere WiFi-Netzwerke auf dem smart-me Gerät hinterlegen: [Kann ich mein Gerät mit mehreren WiFi-Netzwerken nutzen?](/konfiguration/inbetriebnahme/smart-me-geraete#kann-ich-mein-gerät-mit-mehreren-wifi-netzwerken-nutzen)
 
 
+<div className="bild--voll">
+
 ![Internetverbindung – Abbildung 1](/img/planung-internetverbindung/01.png)
+
+</div>
 
 ## Hardwareanforderungen
 

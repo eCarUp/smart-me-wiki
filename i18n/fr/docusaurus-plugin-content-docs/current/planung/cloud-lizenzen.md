@@ -15,13 +15,13 @@ Veuillez noter que le statut Professional du compte n'est atteint que si chaque 
 
 Standard pour les compteurs API, OCPP et M-Bus :
 
-- [Passerelle M-Bus](/produkte/m-bus-gateway)
+- [M-Bus Gateway](/produkte/m-bus-gateway)
 
 **Étendue**
 
-- Rapports : export CSV manuel
+- Rapports : exportation CSV manuelle
 - 1 valeur de mesure toutes les 15 minutes (API)
-- API : uniquement utilisation et pilotage privés \*\*
+- API : uniquement pour un usage privé et le pilotage \*\*
 
 </Kachel>
 
@@ -40,10 +40,10 @@ Standard pour :
 - [Actions si/alors](/konfiguration/wenndann-aktionen) (sans régulation Pico)
 - Rapports
 - Profils de charge
-- Gestion avancée des dossiers et des compteurs
-- [Liens publics (Öffentliche Links)](/konfiguration/visualisierung)
+- Gestion étendue des dossiers et des compteurs
+- [Liens publics](/konfiguration/visualisierung)
 - 1 valeur de mesure par minute (API)
-- API : uniquement utilisation et pilotage privés \*\*
+- API : uniquement pour un usage privé et le pilotage \*\*
 
 </Kachel>
 
@@ -51,19 +51,19 @@ Standard pour :
 
 Extension possible pour tous les points de mesure dans le cloud smart-me.
 
-**Étendue : tout ce qui est inclus dans Limited, plus**
+**Étendue : tout ce que comprend Limited, plus**
 
 - [Billing](/konfiguration/billing)
-- [Compteurs virtuels (Virtuelle Zähler)](/konfiguration/virtuelle-zaehler)
+- [Compteurs virtuels](/konfiguration/virtuelle-zaehler)
 - [Auto Export](/schnittstellen/auto-export)
-- [Configuration de l'utilisateur (Benutzerkonfiguration)](/konfiguration/benutzerkonfiguration)
-- [Gestion dynamique de la charge Pico](/produkte/pico-ladestation/pico-lastmanagement)
+- [Configuration des utilisateurs](/konfiguration/benutzerkonfiguration)
+- [Gestion de la charge dynamique Pico](/produkte/pico-ladestation/pico-lastmanagement)
 - Si/alors → régulation Pico
 - oAuth
 - [Modbus TCP](/schnittstellen/modbus-tcp)
-- [Santé du système (Systemgesundheit)](/stoerungsbehebung/systemgesundheit)
+- [Santé du système](/stoerungsbehebung/systemgesundheit)
 - 1 valeur de mesure par seconde (API)
-- API : pour une utilisation privée **et commerciale**
+- API : pour un usage privé **et commercial**
 
 </Kachel>
 
@@ -79,18 +79,18 @@ Le compteur ayant le niveau d'abonnement le plus bas du compte détermine le niv
 
 Les comptes mixtes ne sont pas possibles et restent au statut Basic ou Limited si le nombre de licences est insuffisant.
 
-## Calculer le bon nombre de licences Professional
+## Calculer le nombre correct de licences Professional
 
-Pour que votre compte obtienne le statut Professional, vous avez besoin d'au moins une licence Professional pour chaque compteur (y compris virtuel) du compte.
+Pour que votre compte obtienne le statut Professional, vous avez besoin d'au moins une licence Professional pour chaque compteur (y compris les compteurs virtuels) du compte.
 
 Il n'est pas possible de mélanger des compteurs sous licence et des compteurs sans licence dans un même compte.
 
-Règle empirique pour les RCP (regroupement dans le cadre de la consommation propre) et vRCP avec un tarif solaire et / ou batterie uniforme :
+Règle empirique pour les RCP (regroupements dans le cadre de la consommation propre) et vRCP avec un tarif solaire et / ou batterie uniforme :
 
 RCP avec 1x installation PV : nombre de compteurs = nombre de licences
 RCP avec \>1x installation PV (visualisations) : nombre de compteurs + 1 (virtuel)
 
-Règle empirique pour les systèmes RCP avec tarif solaire et tarif batterie séparés (uniquement systèmes couplés AC) :
+Règle empirique pour les systèmes RCP avec tarifs solaire et batterie séparés (uniquement pour les systèmes couplés AC) :
 
 RCP avec 1x installation PV : nombre de compteurs + 1 (virtuel)
 
@@ -101,31 +101,31 @@ RCP avec >1x installation PV : nombre de compteurs + 2 (virtuels)
 3x Telstar 80A
 2x Telstar CT
 
-Total Professional tous types d'énergie : 5 pièces
+Total Professional tous types d'énergie : 5 unités
 
-### Exemple électricité avec compteurs smart-me + chaleur / eau avec passerelle M-Bus (1x PV)
+### Exemple électricité avec compteurs smart-me + chaleur / eau avec M-Bus Gateway (1x PV)
 
 3x Telstar 80A
 2x Telstar CT
 
-Licences Professional tous types d'énergie : 5 pièces
+Licences Professional tous types d'énergie : 5 unités
 
-1x passerelle M-Bus avec compteurs de chaleur / d'eau raccordés
+1x M-Bus Gateway avec compteurs de chaleur / d'eau connectés
 
 3x chaleur
 3x froid
 3x compteurs d'eau chaude sanitaire
 3x compteurs d'eau froide
 
-Licences Professional pour chaleur / eau / gaz : 12 pièces
+Licences Professional pour chaleur / eau / gaz : 12 unités
 
-Total licences Professional : 17 pièces
+Total licences Professional : 17 unités
 
-Remarque : la passerelle M-Bus elle-même ne nécessite pas de licence.
+Remarque : le M-Bus Gateway lui-même ne nécessite pas de licence.
 
 ## Couverture des licences
 
-L'installation décrite ci-dessus avec différents agents énergétiques peut maintenant être couverte par des licences de deux manières.
+L'installation décrite ci-dessus avec différents agents énergétiques peut désormais être couverte par des licences de deux manières.
 
 ### Abonnement mensuel
 
@@ -157,8 +157,16 @@ Les illustrations ci-dessous vous permettent de déterminer facilement si vous a
 
 Pour le décompte RCP, il est déterminant de savoir quel système tarifaire doit être représenté et si le décompte doit être automatisé.
 
-![Licences cloud – Illustration 1](/img/planung-cloud-lizenzen/01_EN.png)
+<div className="bild--voll">
+
+![Licences cloud – illustration 1](/img/planung-cloud-lizenzen/01.png)
+
+</div>
 
 ### Pilotage RCP
 
-![Licences cloud – Illustration 2](/img/planung-cloud-lizenzen/02_EN.png)
+<div className="bild--voll">
+
+![Licences cloud – illustration 2](/img/planung-cloud-lizenzen/02.png)
+
+</div>

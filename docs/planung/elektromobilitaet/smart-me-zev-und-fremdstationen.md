@@ -4,9 +4,13 @@ slug: '/planung/elektromobilitaet/smart-me-zev-und-fremdstationen'
 description: 'E-Mobilität in der smart-me ZEV mit Drittanbieter Ladestationen'
 sidebar_label: 'smart-me System und Fremdstationen'
 ---
-## E-Mobilität in der smart-me ZEV / Mieterstrom mit Drittanbieter Ladestationen
+E-Mobilität in der smart-me ZEV / Mieterstrom mit Drittanbieter Ladestationen
+
+<div className="bild--voll">
 
 ![smart-me ZEV und Fremdstationen – Abbildung 1](/img/planung-elektromobilitaet-smart-me-zev-und-fremdstationen/01.png)
+
+</div>
 
 ### Beschreibung der Lastmanagementlösung im Messkonzept mit Drittanbieter Ladestationen
 

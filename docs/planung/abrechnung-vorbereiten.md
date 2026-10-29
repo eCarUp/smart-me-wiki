@@ -42,7 +42,12 @@ Damit alle Energiekosten in einer VEWA-konformen Heiz-Nebenkostenabrechnung gene
 
 ## E-Mobilität im ZEV abrechnen
 
-![Abrechnung / Vergütung vorbereiten – Abbildung 1](/img/planung-abrechnung-vorbereiten/01.png)
+| Merkmal | Private Station mit Pico | Halb-öffentliche Station | Öffentliche Ladestation |
+| --- | --- | --- | --- |
+| Wer kann laden | nur der Mieter der Wohnung | die Mieter der Liegenschaft | alle eCarUp Nutzer |
+| Abrechnung | automatisch zusammen mit dem Wohnungsstrom, nach Tarifmodell (HT, NT, Solar) | **Option A:** Die Mieter laden zum Preis von 0 CHF. Die Stromkosten werden der Verwaltung verrechnet und über die Reportfunktion an die Mieter weitergegeben (Tarife manuell).<br /><br />**Option B:** limitiert, mit Fixtarif und Kreditkartenabrechnung | Die Stromkosten werden der Verwaltung verrechnet, die Weiterverrechnung läuft über Fixtarif und Kreditkartenabrechnung |
+| Öffentlich verfügbar | nein | nein | ja, über eCarUp öffentlich zur Verfügung gestellt |
+| Station | Pico | Pico oder OCPP-Station | Pico oder OCPP-Station |
 
 ## VEWA und ZEV Leitfaden
 
@@ -83,7 +88,11 @@ In diesem Fall berechnet sich der prozentuale Anteil am Gesamtverbrauch der einz
 
 - Reststrom Netz = 100% - Batterieanteil - Solaranteil = 40%
 
+<div className="bild--voll">
+
 ![Abrechnung / Vergütung vorbereiten – Abbildung 2](/img/planung-abrechnung-vorbereiten/02.png)
+
+</div>
 
 ### Anwendung des Strommix auf Abrechnungseinheiten und deren Verbrauch
 
@@ -101,7 +110,11 @@ Hinweis 1: Der Strommix bildet die Realität und den effektiv vorherrschenden St
 Hinweis 2: Diese Anwendung des Strommix ermöglicht Grossverbrauchern mengenmässig eine höhere Verfügbarkeit von günstigem Solar und Batteriestrom.
 Hinweis 3: Die Anwendung des Strommixes hat nicht die Aufgabe sich um Vergütungen an Investoren zu kümmern oder Kontingente an Verbraucher zu verteilen. 
 
+<div className="bild--voll">
+
 ![Abrechnung / Vergütung vorbereiten – Abbildung 3](/img/planung-abrechnung-vorbereiten/03.png)
+
+</div>
 
 ### Solarstrompreis und Vergütung an Investoren
 
@@ -124,7 +137,11 @@ Der Solarpreis wird zu 17 Rp. / kWh festgelegt.
 
 Insgesamt wurden nun aus dem Solarstromverkauf insgesamt 45.9 CHF erwirtschaftet.
 
+<div className="bild--voll">
+
 ![Abrechnung / Vergütung vorbereiten – Abbildung 4](/img/planung-abrechnung-vorbereiten/04.png)
+
+</div>
 
 Da alle drei gleichermassen investiert sind, zu 1/3, haben nun alle Anrecht auf ein Drittel dieses erwirtschafteten Geldes.
 

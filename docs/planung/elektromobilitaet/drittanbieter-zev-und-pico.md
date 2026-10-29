@@ -4,7 +4,7 @@ slug: '/planung/elektromobilitaet/drittanbieter-zev-und-pico'
 description: 'E-Mobilität mit der smart-me Pico Ladestation ohne smart-me ZEV'
 sidebar_label: 'Drittanbieter System und Pico'
 ---
-## E-Mobilität mit der smart-me Pico Ladestation ohne smart-me ZEV / Mieterstrom
+E-Mobilität mit der smart-me Pico Ladestation ohne smart-me ZEV / Mieterstrom
 
 ### Prinzipschema einer Überbauung ohne smart-me ZEV / Mieterstrom
 

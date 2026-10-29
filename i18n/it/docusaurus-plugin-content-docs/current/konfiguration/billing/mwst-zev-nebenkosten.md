@@ -20,7 +20,7 @@ L'obiettivo è che l'IVA su un prodotto venga tassata una sola volta, complessiv
 
 <div className="bild--voll">
 
-![IVA RCP / spese accessorie – Figura 1](/img/konfiguration-billing-mwst-zev-nebenkosten/01.png)
+![IVA RCP / spese accessorie – Figura 1](/img/konfiguration-billing-mwst-zev-nebenkosten/01_IT.png)
 
 </div>
 
@@ -65,7 +65,7 @@ Per ogni energia occorre decidere individualmente se vi è o meno l'assoggettame
 
 <div className="bild--voll">
 
-![IVA RCP / spese accessorie – Figura 2](/img/konfiguration-billing-mwst-zev-nebenkosten/02.png)
+![IVA RCP / spese accessorie – Figura 2](/img/konfiguration-billing-mwst-zev-nebenkosten/02_IT.png)
 
 </div>
 
@@ -112,7 +112,7 @@ Caso 1:
 
 <div className="bild--voll">
 
-![IVA RCP / spese accessorie – Figura 3](/img/konfiguration-billing-mwst-zev-nebenkosten/03.png)
+![IVA RCP / spese accessorie – Figura 3](/img/konfiguration-billing-mwst-zev-nebenkosten/03_IT.png)
 
 </div>
 
@@ -193,7 +193,7 @@ Caso 2:
 
 <div className="bild--voll">
 
-![IVA RCP / spese accessorie – Figura 4](/img/konfiguration-billing-mwst-zev-nebenkosten/04.png)
+![IVA RCP / spese accessorie – Figura 4](/img/konfiguration-billing-mwst-zev-nebenkosten/04_IT.png)
 
 </div>
 

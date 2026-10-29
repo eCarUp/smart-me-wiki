@@ -1,13 +1,13 @@
 ---
 title: 'Cloud License'
 slug: '/planung/cloud-lizenzen'
-description: 'Please note that the account only reaches Professional status if every metering point has an equivalent license.'
+description: 'Note that the account only reaches Professional status if every metering point has a license of the same level.'
 sidebar_label: 'Cloud License'
 symbol: 'lizenz'
 ---
-Please note that the account only reaches Professional status if every metering point has an equivalent license.
+Note that the account only reaches Professional status if every metering point has a license of the same level.
 
-## The three license tiers
+## The three license levels
 
 <Kacheln min="14rem">
 
@@ -33,7 +33,7 @@ Standard for:
 - [3-Phase Meter Telstar](/produkte/telstar-80a)
 - [3-Phase Meter Telstar CT](/produkte/telstar-ct)
 - [Kamstrup Module](/produkte/kamstrup-modul) (discontinued)
-- [Pico EV Charger](/produkte/pico-ladestation)
+- [Pico charging station](/produkte/pico-ladestation)
 
 **Scope**
 
@@ -49,16 +49,16 @@ Standard for:
 
 <Kachel titel="Professional *">
 
-Upgrade available for all metering points in the smart-me Cloud.
+Upgrade possible for all metering points in the smart-me Cloud.
 
-**Scope: everything from Limited, plus**
+**Scope: everything in Limited, plus**
 
 - [Billing](/konfiguration/billing)
 - [Virtual Meters](/konfiguration/virtuelle-zaehler)
 - [Auto Export](/schnittstellen/auto-export)
 - [User Configuration](/konfiguration/benutzerkonfiguration)
 - [Pico dynamic load management](/produkte/pico-ladestation/pico-lastmanagement)
-- If/Then → Pico control
+- If/then → Pico control
 - oAuth
 - [Modbus TCP](/schnittstellen/modbus-tcp)
 - [System Health](/stoerungsbehebung/systemgesundheit)
@@ -69,21 +69,21 @@ Upgrade available for all metering points in the smart-me Cloud.
 
 </Kacheln>
 
-\*The respective subscription tier is only reached if every meter point in the account has the same license tier.
+\*The respective subscription level is only reached if every metering point in the account has the same license level.
 
-\*\* Commercial use of the API always requires the Professional subscription tier.
+\*\* Commercial use of the API always requires the Professional subscription level.
 
 Professional = All meters in the account have a Professional license.
 
-The meter with the lowest subscription tier in the account determines the overall subscription tier of the account.
+The meter with the lowest subscription level in the account determines the overall subscription level of the account.
 
-Mixed accounts are not possible and remain at Basic or Limited status if the number of licenses is insufficient.
+Mixed accounts are not possible; they remain at Basic or Limited status if the number of licenses is insufficient.
 
 ## Calculating the correct number of Professional licenses
 
 For your account to reach Professional status, you need at least one Professional license for every meter (including virtual meters) in the account.
 
-It is not possible to mix licensed meters with unlicensed meters in one account.
+It is not possible to mix licensed and unlicensed meters in one account.
 
 Rule of thumb for ZEV (association for own consumption) and vZEV (virtual ZEV) with a uniform solar and/or battery tariff:
 
@@ -133,7 +133,7 @@ The installation requires 18 Professional licenses.
 
 These can be purchased for a monthly fee and cover all energy types at all times.
 
-- 18x monthly Professional license all energy types
+- 18x Monthly Professional license all energy types
 
 
 The monthly subscription is subject to inflation and deflation effects.
@@ -155,10 +155,18 @@ The figures below make it easy to find out whether you need Professional license
 
 ### ZEV billing
 
-For ZEV billing, the deciding factors are which tariff system is to be mapped and whether billing is to be automated.
+For ZEV billing, the decisive factors are which tariff system is to be mapped and whether billing is to be automated.
 
-![Cloud License – Figure 1](/img/planung-cloud-lizenzen/01_EN.png)
+<div className="bild--voll">
+
+![Cloud License – Figure 1](/img/planung-cloud-lizenzen/01.png)
+
+</div>
 
 ### ZEV control
 
-![Cloud License – Figure 2](/img/planung-cloud-lizenzen/02_EN.png)
+<div className="bild--voll">
+
+![Cloud License – Figure 2](/img/planung-cloud-lizenzen/02.png)
+
+</div>

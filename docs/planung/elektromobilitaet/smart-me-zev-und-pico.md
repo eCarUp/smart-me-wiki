@@ -4,11 +4,15 @@ slug: '/planung/elektromobilitaet/smart-me-zev-und-pico'
 description: 'E-Mobilität in der smart-me ZEV mit der Pico Ladestationshardware'
 sidebar_label: 'smart-me System und Pico'
 ---
-## E-Mobilität in der smart-me ZEV / Mieterstrom mit der Pico Ladestationshardware
+E-Mobilität in der smart-me ZEV / Mieterstrom mit der Pico Ladestationshardware
 
-### Prinzipschema einer Überbauung im Zusammenschluss zum Eigenverbrauch
+### Prinzipschema einer Überbauung im ZEV / Mieterstrom
+
+<div className="bild--voll">
 
 ![smart-me ZEV und Pico – Abbildung 1](/img/planung-elektromobilitaet-smart-me-zev-und-pico/01.png)
+
+</div>
 
 ### Beschreibung der Lastmanagementlösung im Messkonzept eines ZEV / Mieterstrom Objekts
 

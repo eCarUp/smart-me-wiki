@@ -157,8 +157,16 @@ Mit den untenstehenden Abbildungen findest du einfach heraus, ob du Professional
 
 Bei der ZEV-Abrechnung ist entscheidend, welches Tarifsystem abgebildet werden soll und ob die Abrechnung automatisiert geschehen soll.
 
+<div className="bild--voll">
+
 ![Cloud Lizenzen – Abbildung 1](/img/planung-cloud-lizenzen/01.png)
+
+</div>
 
 ### ZEV-Steuerung
 
+<div className="bild--voll">
+
 ![Cloud Lizenzen – Abbildung 2](/img/planung-cloud-lizenzen/02.png)
+
+</div>

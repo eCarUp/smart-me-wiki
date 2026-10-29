@@ -64,21 +64,33 @@ Separierte Kostenstellen
 - Jede Energie kommt aus unterschiedlicher Quelle
 
 
+<div className="bild--voll">
+
 ![VEWA - Abrechnung – Abbildung 2](/img/konfiguration-billing-vewa-abrechnung/02.png)
+
+</div>
 
 Kombinierte Wärme und Warmwasser
 
 - Heizung jeglicher Art mit verbundenem Warmwasserspeicher
 
 
+<div className="bild--voll">
+
 ![VEWA - Abrechnung – Abbildung 3](/img/konfiguration-billing-vewa-abrechnung/03.png)
+
+</div>
 
 Kombinierte Wärme + Kälte und Warmwasser
 
 - Wärmepumpe mit Freecooling
 
 
+<div className="bild--voll">
+
 ![VEWA - Abrechnung – Abbildung 4](/img/konfiguration-billing-vewa-abrechnung/04.png)
+
+</div>
 
 ## Funktionsumfang
 
@@ -100,7 +112,11 @@ Hinweis: 
 - Bei Verrechnung mit Totalerzeugungsmetern können die Kosten prozentual auf die Wohneinheiten verteilt werden.
 
 
+<div className="bild--voll">
+
 ![VEWA - Abrechnung – Abbildung 5](/img/konfiguration-billing-vewa-abrechnung/05.png)
+
+</div>
 
 Allgemeine Räumlichkeiten:
 

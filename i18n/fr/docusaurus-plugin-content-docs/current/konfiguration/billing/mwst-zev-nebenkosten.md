@@ -20,7 +20,7 @@ L'objectif est que la TVA sur un produit ne soit prélevée qu'une seule fois, g
 
 <div className="bild--voll">
 
-![TVA RCP / charges accessoires – Illustration 1](/img/konfiguration-billing-mwst-zev-nebenkosten/01.png)
+![TVA RCP / charges accessoires – Illustration 1](/img/konfiguration-billing-mwst-zev-nebenkosten/01_FR.png)
 
 </div>
 
@@ -65,7 +65,7 @@ Pour chaque énergie, il faut décider individuellement si elle est soumise ou n
 
 <div className="bild--voll">
 
-![TVA RCP / charges accessoires – Illustration 2](/img/konfiguration-billing-mwst-zev-nebenkosten/02.png)
+![TVA RCP / charges accessoires – Illustration 2](/img/konfiguration-billing-mwst-zev-nebenkosten/02_FR.png)
 
 </div>
 
@@ -112,7 +112,7 @@ Cas 1 :
 
 <div className="bild--voll">
 
-![TVA RCP / charges accessoires – Illustration 3](/img/konfiguration-billing-mwst-zev-nebenkosten/03.png)
+![TVA RCP / charges accessoires – Illustration 3](/img/konfiguration-billing-mwst-zev-nebenkosten/03_FR.png)
 
 </div>
 
@@ -193,7 +193,7 @@ Cas 2 :
 
 <div className="bild--voll">
 
-![TVA RCP / charges accessoires – Illustration 4](/img/konfiguration-billing-mwst-zev-nebenkosten/04.png)
+![TVA RCP / charges accessoires – Illustration 4](/img/konfiguration-billing-mwst-zev-nebenkosten/04_FR.png)
 
 </div>
 

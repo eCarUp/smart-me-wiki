@@ -1,11 +1,11 @@
 ---
 title: 'Licenze cloud'
 slug: '/planung/cloud-lizenzen'
-description: 'Tieni presente che lo stato Professional dell''account viene raggiunto solo se ogni punto di misura dispone di una licenza equivalente.'
+description: 'Si noti che lo stato Professional dell''account viene raggiunto solo se ogni punto di misura dispone di una licenza equivalente.'
 sidebar_label: 'Licenze cloud'
 symbol: 'lizenz'
 ---
-Tieni presente che lo stato Professional dell'account viene raggiunto solo se ogni punto di misura dispone di una licenza equivalente.
+Si noti che lo stato Professional dell'account viene raggiunto solo se ogni punto di misura dispone di una licenza equivalente.
 
 ## I tre livelli di licenza
 
@@ -13,7 +13,7 @@ Tieni presente che lo stato Professional dell'account viene raggiunto solo se og
 
 <Kachel titel="Basic">
 
-Standard per contatori API, OCPP e M-Bus:
+Standard per API, OCPP e contatori M-Bus:
 
 - [M-Bus Gateway](/produkte/m-bus-gateway)
 
@@ -41,7 +41,7 @@ Standard per:
 - Report
 - Profili di carico
 - Gestione avanzata di cartelle e contatori
-- [Public Links](/konfiguration/visualisierung)
+- [Link pubblici](/konfiguration/visualisierung)
 - 1 valore di misura al minuto (API)
 - API: solo uso privato e controllo \*\*
 
@@ -49,7 +49,7 @@ Standard per:
 
 <Kachel titel="Professional *">
 
-Estensione possibile per tutti i punti di misura nella smart-me Cloud.
+Estensione possibile per tutti i punti di misura nel cloud smart-me.
 
 **Funzionalità: tutto quanto incluso in Limited, più**
 
@@ -69,7 +69,7 @@ Estensione possibile per tutti i punti di misura nella smart-me Cloud.
 
 </Kacheln>
 
-\*Il rispettivo livello di abbonamento viene raggiunto solo se ogni punto contatore dell'account ha lo stesso livello di licenza.
+\*Il rispettivo livello di abbonamento viene raggiunto solo se ogni punto di misura nell'account ha lo stesso livello di licenza.
 
 \*\* Un uso commerciale dell'API richiede sempre il livello di abbonamento Professional.
 
@@ -81,16 +81,16 @@ Gli account misti non sono possibili e rimangono nello stato Basic o Limited se 
 
 ## Calcolo del numero corretto di licenze Professional
 
-Affinché il tuo account raggiunga lo stato Professional, ti serve almeno una licenza Professional per ogni contatore (anche virtuale) nell'account.
+Affinché il Suo account raggiunga lo stato Professional, è necessaria almeno una licenza Professional per ogni contatore (anche virtuale) presente nell'account.
 
 Non è possibile combinare in un account contatori con licenza e contatori senza licenza.
 
-Regola pratica per RCP (raggruppamento ai fini del consumo proprio) e RCP virtuale (vRCP) con tariffa solare e/o della batteria unica:
+Regola empirica per RCP (raggruppamento ai fini del consumo proprio) e RCP virtuale (vRCP) con tariffa solare e/o della batteria unificata:
 
 RCP con 1x impianto FV: numero di contatori = numero di licenze
 RCP con \>1x impianto FV (visualizzazioni): numero di contatori + 1 (virtuale)
 
-Regola pratica per sistemi RCP con tariffa solare e tariffa della batteria separate (solo sistemi con accoppiamento AC):
+Regola empirica per sistemi RCP con tariffa solare e tariffa della batteria separate (solo sistemi con accoppiamento AC):
 
 RCP con 1x impianto FV: numero di contatori + 1 (virtuale)
 
@@ -149,16 +149,24 @@ L'installazione richiede in totale 18 licenze Professional.
 
 Le licenze pluriennali sono in media più convenienti e non sono soggette agli effetti dell'inflazione o della deflazione durante il periodo di utilizzo.
 
-## Sei un cliente "Professional"?
+## È un cliente "Professional"?
 
-Con le figure seguenti scopri facilmente se ti servono licenze Professional nel tuo account. 
+Con le illustrazioni seguenti può scoprire facilmente se nel Suo account sono necessarie licenze Professional. 
 
 ### Conteggio RCP
 
-Nel conteggio RCP (raggruppamento ai fini del consumo proprio) è determinante quale sistema tariffario deve essere rappresentato e se il conteggio deve avvenire in modo automatizzato.
+Nel conteggio RCP (raggruppamento ai fini del consumo proprio) è determinante quale sistema tariffario debba essere rappresentato e se il conteggio debba avvenire in modo automatizzato.
 
-![Licenze cloud – Figura 1](/img/planung-cloud-lizenzen/01_EN.png)
+<div className="bild--voll">
+
+![Licenze cloud – Figura 1](/img/planung-cloud-lizenzen/01.png)
+
+</div>
 
 ### Controllo RCP
 
-![Licenze cloud – Figura 2](/img/planung-cloud-lizenzen/02_EN.png)
+<div className="bild--voll">
+
+![Licenze cloud – Figura 2](/img/planung-cloud-lizenzen/02.png)
+
+</div>

@@ -22,7 +22,11 @@ Ausfallebenen
 - Mehrere WiFi-Netzwerke auf dem smart-me Gerät hinterlegen: [Kann ich mein Gerät mit mehreren WiFi-Netzwerken nutzen?](/konfiguration/inbetriebnahme/smart-me-geraete#kann-ich-mein-gerät-mit-mehreren-wifi-netzwerken-nutzen)
 
 
+<div className="bild--voll">
+
 ![Internetverbindung – Abbildung 1](/img/planung-internetverbindung/01.png)
+
+</div>
 
 ## Mobilfunk Datenanbieter (LTE)
 
@@ -92,9 +96,24 @@ Mögliche Bezugsquelle: [Ubiquiti | UniFi | U6-Lite - Digitec](https://www.digit
 
 ### DIN-Schienen WLAN Accesspoint 2.4Ghz
 
-WLAN-Accesspoint 3xUAE/USB ACR WLAN – Rutenbeck 
+**WLAN-Accesspoint 3xUAE/USB ACR WLAN – Rutenbeck**
 
-WLAN-Accesspoint 3xUAE/USB ACR WLAN 22610408 Max. Übertragungsrate 150Mbit/s, Frequenzband 2,4 GHz, Managed, Funkprotokoll IEEE 802.11 b/g/n, Verschlüsselung WPA2, Ethernet, Anzahl der 10/100 Mbps LAN-Ports 2, VPN-Security, Anschluss für externe Antenne, Bridgefunktion, Repeaterfunktion, Power over Ethernet, Breite 72mm, Höhe 90mm, Tiefe 65mm, Schutzart (IP) IP21, Geeignet für Hutschienenmontage, WLAN Accesspoint für REG-Montage 
+WLAN-Accesspoint 3xUAE/USB ACR WLAN 22610408
+- Max. Übertragungsrate 150Mbit/s
+- Frequenzband 2,4 GHz
+- Managed
+- Funkprotokoll IEEE 802.11 b/g/n
+- Verschlüsselung WPA2
+- Ethernet
+- Anzahl der 10/100 Mbps LAN-Ports 2
+- VPN-Security
+- Anschluss für externe Antenne
+- Bridgefunktion, Repeaterfunktion
+- Power over Ethernet
+- Breite 72mm, Höhe 90mm, Tiefe 65mm
+- Schutzart (IP) IP21
+- Geeignet für Hutschienenmontage
+- WLAN Accesspoint für REG-Montage 
 
 ### WLAN Voraussetzungen
 

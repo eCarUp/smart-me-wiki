@@ -24,7 +24,7 @@ Livelli di ridondanza
 
 <div className="bild--voll">
 
-![Connessione Internet – Figura 1](/img/planung-internetverbindung/01.png)
+![Connessione Internet – Figura 1](/img/planung-internetverbindung/01_IT.png)
 
 </div>
 

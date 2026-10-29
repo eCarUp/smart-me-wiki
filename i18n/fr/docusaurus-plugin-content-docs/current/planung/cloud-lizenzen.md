@@ -159,7 +159,7 @@ Pour le décompte RCP, il est déterminant de savoir quel système tarifaire doi
 
 <div className="bild--voll">
 
-![Licences cloud – illustration 1](/img/planung-cloud-lizenzen/01.png)
+![Licences cloud – illustration 1](/img/planung-cloud-lizenzen/01_FR.png)
 
 </div>
 
@@ -167,6 +167,6 @@ Pour le décompte RCP, il est déterminant de savoir quel système tarifaire doi
 
 <div className="bild--voll">
 
-![Licences cloud – illustration 2](/img/planung-cloud-lizenzen/02.png)
+![Licences cloud – illustration 2](/img/planung-cloud-lizenzen/02_FR.png)
 
 </div>

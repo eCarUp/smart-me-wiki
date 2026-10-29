@@ -66,7 +66,7 @@ Centri di costo separati
 
 <div className="bild--voll">
 
-![VEWA - Conteggio – Figura 2](/img/konfiguration-billing-vewa-abrechnung/02.png)
+![VEWA - Conteggio – Figura 2](/img/konfiguration-billing-vewa-abrechnung/02_IT.png)
 
 </div>
 
@@ -77,7 +77,7 @@ Calore e acqua calda sanitaria combinati
 
 <div className="bild--voll">
 
-![VEWA - Conteggio – Figura 3](/img/konfiguration-billing-vewa-abrechnung/03.png)
+![VEWA - Conteggio – Figura 3](/img/konfiguration-billing-vewa-abrechnung/03_IT.png)
 
 </div>
 
@@ -88,7 +88,7 @@ Calore + freddo e acqua calda sanitaria combinati
 
 <div className="bild--voll">
 
-![VEWA - Conteggio – Figura 4](/img/konfiguration-billing-vewa-abrechnung/04.png)
+![VEWA - Conteggio – Figura 4](/img/konfiguration-billing-vewa-abrechnung/04_IT.png)
 
 </div>
 
@@ -114,7 +114,7 @@ Nota:
 
 <div className="bild--voll">
 
-![VEWA - Conteggio – Figura 5](/img/konfiguration-billing-vewa-abrechnung/05.png)
+![VEWA - Conteggio – Figura 5](/img/konfiguration-billing-vewa-abrechnung/05_IT.png)
 
 </div>
 

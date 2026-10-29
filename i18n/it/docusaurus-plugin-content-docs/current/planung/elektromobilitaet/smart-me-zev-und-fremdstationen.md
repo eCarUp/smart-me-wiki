@@ -8,7 +8,7 @@ Mobilità elettrica nel RCP (raggruppamento ai fini del consumo proprio) smart-m
 
 <div className="bild--voll">
 
-![RCP smart-me e stazioni di ricarica di terzi – figura 1](/img/planung-elektromobilitaet-smart-me-zev-und-fremdstationen/01.png)
+![RCP smart-me e stazioni di ricarica di terzi – figura 1](/img/planung-elektromobilitaet-smart-me-zev-und-fremdstationen/01_IT.png)
 
 </div>
 

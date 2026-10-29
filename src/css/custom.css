@@ -367,6 +367,18 @@ h6 {
   object-position: right center;
 }
 
+/*
+ * Diagramme sind oft hoch und stossen deshalb an die Höhenbegrenzung oben.
+ * Sie werden dann kleiner eingepasst, statt die Spalte zu füllen – bei einem
+ * fast quadratischen Bild bleibt knapp die halbe Spaltenbreite übrig.
+ * `bild--voll` hebt die Grenze auf: Das Bild nimmt die volle Spaltenbreite
+ * ein, die Höhe folgt dem Seitenverhältnis.
+ */
+.bild--voll img {
+  max-height: none;
+  width: 100%;
+}
+
 /* Migrierte Tabellen sind teilweise breit – horizontal scrollbar statt gequetscht. */
 .markdown table {
   display: block;

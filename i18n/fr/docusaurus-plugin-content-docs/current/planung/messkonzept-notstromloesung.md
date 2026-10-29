@@ -32,13 +32,13 @@ Variante A · commutateur séparé
 
 Z1 avant l'entrée Grid, Z2 entre le commutateur et l'onduleur, chaque consommateur avec son propre compteur (ensemble Zb).
 
-![Schémas de mesure pour solutions d'alimentation de secours – Figure 1](/img/planung-messkonzept-notstromloesung/01.png)
+![Schémas de mesure pour solutions d'alimentation de secours – Figure 1](/img/planung-messkonzept-notstromloesung/01_FR.png)
 
 Variante B · commutateur intégré
 
 Z1 avant le port Grid, chaque consommateur sans exception avec son propre compteur. La production est calculée à partir de la consommation totale Zb et du bilan Z1.
 
-![Schémas de mesure pour solutions d'alimentation de secours – Figure 2](/img/planung-messkonzept-notstromloesung/02.png)
+![Schémas de mesure pour solutions d'alimentation de secours – Figure 2](/img/planung-messkonzept-notstromloesung/02_FR.png)
 
 ### 3 - Créer les tarifs
 

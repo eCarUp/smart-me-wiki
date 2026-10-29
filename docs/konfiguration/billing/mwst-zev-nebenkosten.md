@@ -18,7 +18,11 @@ MWST-pflichtige Unternehmen haben aber gleichzeitig ein Recht zum MWST-Vorabzug 
 
 Das Ziel ist es die MWST auf ein Produkt nur einmalig gesamthaft seinem Wert beim Endkonsumenten entsprechend zu versteuern.
 
+<div className="bild--voll">
+
 ![MWST ZEV / Nebenkosten – Abbildung 1](/img/konfiguration-billing-mwst-zev-nebenkosten/01.png)
+
+</div>
 
 Details zum Beispiel
 
@@ -59,7 +63,11 @@ Für jede Energie muss individuell entschieden werden, ob eine MWST-Pflicht daf�
 
 ### Ist der ZEV Mehrwertsteuerpflichtig für elektrische Energie und Dienstleistungen?
 
+<div className="bild--voll">
+
 ![MWST ZEV / Nebenkosten – Abbildung 2](/img/konfiguration-billing-mwst-zev-nebenkosten/02.png)
+
+</div>
 
 Eine Mehrwertsteuerpflicht kann grundsätzlich durch die folgenden Bedingungen entstehen:
 
@@ -102,7 +110,12 @@ Gemessen an diesen zwei Beispielen ist klar ersichtlich, dass die Verhältnisse 
 
 Fall 1:
 
+<div className="bild--voll">
+
 ![MWST ZEV / Nebenkosten – Abbildung 3](/img/konfiguration-billing-mwst-zev-nebenkosten/03.png)
+
+</div>
+
 
 Details:
 
@@ -178,7 +191,11 @@ Tritt der ZEV oder Abrechnungsdienstleister im Mandat als Dienstleister für die
 
 Fall 2:
 
+<div className="bild--voll">
+
 ![MWST ZEV / Nebenkosten – Abbildung 4](/img/konfiguration-billing-mwst-zev-nebenkosten/04.png)
+
+</div>
 
 ## Erweiterte Informationen und Gesetze
 

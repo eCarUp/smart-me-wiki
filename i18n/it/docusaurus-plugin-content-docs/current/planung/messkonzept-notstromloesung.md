@@ -32,13 +32,13 @@ Variante A · commutatore separato
 
  Z1 prima dell'ingresso Grid, Z2 tra commutatore e inverter, ogni utenza con un proprio contatore (insieme Zb ). 
 
-![Schemi di misura per soluzioni di alimentazione di emergenza – Figura 1](/img/planung-messkonzept-notstromloesung/01.png)
+![Schemi di misura per soluzioni di alimentazione di emergenza – Figura 1](/img/planung-messkonzept-notstromloesung/01_IT.png)
 
 Variante B · commutatore integrato 
 
 Z1 prima della porta Grid, ogni utenza senza eccezioni con un proprio contatore. La produzione viene calcolata dal consumo totale Zb e dal bilancio Z1. 
 
-![Schemi di misura per soluzioni di alimentazione di emergenza – Figura 2](/img/planung-messkonzept-notstromloesung/02.png)
+![Schemi di misura per soluzioni di alimentazione di emergenza – Figura 2](/img/planung-messkonzept-notstromloesung/02_IT.png)
 
 ### 3 - Creare le tariffe
 

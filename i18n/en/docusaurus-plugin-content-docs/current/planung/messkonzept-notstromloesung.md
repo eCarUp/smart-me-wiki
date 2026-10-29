@@ -32,13 +32,13 @@ Variant A · separate transfer switch
 
  Z1 before the grid input, Z2 between the transfer switch and the inverter, every consumer with its own meter (together Zb ). 
 
-![Measurement concepts emergency power solutions – Figure 1](/img/planung-messkonzept-notstromloesung/01.png)
+![Measurement concepts emergency power solutions – Figure 1](/img/planung-messkonzept-notstromloesung/01_EN.png)
 
 Variant B · integrated transfer switch 
 
 Z1 before the grid port, every consumer without exception with its own meter. The production is calculated from the total consumption Zb and the balance Z1. 
 
-![Measurement concepts emergency power solutions – Figure 2](/img/planung-messkonzept-notstromloesung/02.png)
+![Measurement concepts emergency power solutions – Figure 2](/img/planung-messkonzept-notstromloesung/02_EN.png)
 
 ### 3 - Create tariffs
 

@@ -8,7 +8,7 @@ sidebar_label: 'Système tiers et Pico'
 
 ### Schéma de principe d'un lotissement sans RCP smart-me / électricité pour les locataires
 
-![RCP tiers et Pico – Illustration 1](/img/planung-elektromobilitaet-drittanbieter-zev-und-pico/01.png)
+![RCP tiers et Pico – Illustration 1](/img/planung-elektromobilitaet-drittanbieter-zev-und-pico/01_FR.png)
 
 ### Description de la solution de gestion de la charge dans le schéma de mesure sans RCP / électricité pour les locataires ou avec un fournisseur tiers
 

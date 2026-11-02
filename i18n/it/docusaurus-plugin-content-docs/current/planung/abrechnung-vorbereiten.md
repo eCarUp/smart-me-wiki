@@ -90,7 +90,7 @@ In questo caso la quota percentuale dei singoli fornitori sul consumo totale si 
 
 <div className="bild--voll">
 
-![Preparare conteggio / rimunerazione – Figura 2](/img/planung-abrechnung-vorbereiten/02.png)
+![Preparare conteggio / rimunerazione – Figura 2](/img/planung-abrechnung-vorbereiten/02_IT.png)
 
 </div>
 
@@ -112,7 +112,7 @@ Nota 3: l'applicazione del mix elettrico non ha il compito di occuparsi delle ri
 
 <div className="bild--voll">
 
-![Preparare conteggio / rimunerazione – Figura 3](/img/planung-abrechnung-vorbereiten/03.png)
+![Preparare conteggio / rimunerazione – Figura 3](/img/planung-abrechnung-vorbereiten/03_IT.png)
 
 </div>
 
@@ -139,7 +139,7 @@ In totale, dalla vendita di elettricità solare sono stati ora ricavati 45.9 CHF
 
 <div className="bild--voll">
 
-![Preparare conteggio / rimunerazione – Figura 4](/img/planung-abrechnung-vorbereiten/04.png)
+![Preparare conteggio / rimunerazione – Figura 4](/img/planung-abrechnung-vorbereiten/04_IT.png)
 
 </div>
 

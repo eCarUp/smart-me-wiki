@@ -8,7 +8,7 @@ E-mobility with the smart-me Pico charging station without smart-me ZEV (associa
 
 ### Schematic diagram of a development without smart-me ZEV / tenant electricity
 
-![Third-party ZEV and Pico – Figure 1](/img/planung-elektromobilitaet-drittanbieter-zev-und-pico/01.png)
+![Third-party ZEV and Pico – Figure 1](/img/planung-elektromobilitaet-drittanbieter-zev-und-pico/01_EN.png)
 
 ### Description of the load management solution in the metering concept without ZEV / tenant electricity or with a third-party provider
 

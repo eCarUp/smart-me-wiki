@@ -24,7 +24,7 @@ Niveaux de redondance
 
 <div className="bild--voll">
 
-![Connexion Internet – Illustration 1](/img/planung-internetverbindung/01.png)
+![Connexion Internet – Illustration 1](/img/planung-internetverbindung/01_FR.png)
 
 </div>
 

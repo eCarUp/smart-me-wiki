@@ -1,6 +1,8 @@
 ---
 title: 'Billy – supporto IA'
 slug: '/support-ki-agent'
+hide_title: true
+hide_table_of_contents: true
 description: 'Billy risponde alle tue domande su smart-me attingendo a questa wiki.'
 sidebar_label: 'Billy – supporto IA'
 ---

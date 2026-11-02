@@ -1,5 +1,6 @@
 import React from 'react';
 import useBaseUrl from '@docusaurus/useBaseUrl';
+import {useLand} from '@site/src/laender';
 import styles from './styles.module.css';
 
 type EmbedProps = {
@@ -23,6 +24,14 @@ type EmbedProps = {
    * Rest darunter sieht nach einem Fehler aus.
    */
   height?: string;
+  /**
+   * Gibt die Länderwahl des Besuchers an die Anwendung weiter.
+   *
+   * Nur für Anwendungen, die etwas damit anfangen – Billy antwortet je nach
+   * Land über ZEV und VEWA oder über Mieterstrom. Ohne Wahl wird `null`
+   * gesendet, und das heisst dort wie hier: alle Länder.
+   */
+  mitLand?: boolean;
 };
 
 /**
@@ -37,6 +46,7 @@ export default function Embed({
   title,
   aspect,
   height,
+  mitLand,
 }: EmbedProps): React.ReactElement {
   const ratio = aspect ? Number(aspect) : NaN;
   const style: React.CSSProperties =
@@ -50,8 +60,37 @@ export default function Embed({
   // Bildern im Markdown ergänzt Docusaurus sie in JSX-Attributen nicht selbst.
   const url = useBaseUrl(src);
 
+  const rahmen = React.useRef<HTMLIFrameElement>(null);
+  const gewaehlt = useLand();
+
+  // Die Länderwahl geht als Nachricht hinüber und nicht als `?land=` in der
+  // Adresse: eine veränderte Adresse lädt den Rahmen neu, und ein angefangenes
+  // Gespräch wäre weg. Gesendet wird bei jeder Wahl und noch einmal, sobald der
+  // Rahmen geladen ist – je nachdem, was zuerst kommt.
+  React.useEffect(() => {
+    if (!mitLand) return undefined;
+    const rahmenEl = rahmen.current;
+    if (!rahmenEl) return undefined;
+
+    const senden = () => {
+      try {
+        rahmenEl.contentWindow?.postMessage(
+          {type: 'smartme-wiki:land', land: gewaehlt},
+          new URL(url, window.location.href).origin,
+        );
+      } catch {
+        // Andere Herkunft noch nicht geladen o. Ä. – das `load` unten holt es nach.
+      }
+    };
+
+    senden();
+    rahmenEl.addEventListener('load', senden);
+    return () => rahmenEl.removeEventListener('load', senden);
+  }, [mitLand, gewaehlt, url]);
+
   return (
     <iframe
+      ref={rahmen}
       className={styles.embed}
       style={style}
       src={url}

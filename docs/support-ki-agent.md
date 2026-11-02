@@ -1,6 +1,8 @@
 ---
-title: 'support KI-Agent'
+title: 'Billy – KI-Support'
 slug: '/support-ki-agent'
-sidebar_label: 'support KI-Agent'
+description: 'Billy beantwortet deine Fragen zu smart-me aus diesem Wiki.'
+sidebar_label: 'Billy – KI-Support'
 ---
-<Embed src="https://west-orange-candlekeep-production.azurewebsites.net/plugins/aiguy?maximized=true&hideMinimizeMaximize=true" aspect="1.706" title="support KI-Agent" />
+
+<Embed mitLand src="https://canvas.smart-me.com/billy-wiki/?lang=de" title="Billy – smart-me KI-Support" />

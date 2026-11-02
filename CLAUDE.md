@@ -179,6 +179,17 @@ Wert, sonst „alle"). Gefiltert wird nur die Navigation: über Suche und direkt
 Links bleibt jede Seite erreichbar. Länderspezifische Seiten sagen deshalb im
 ersten Absatz selbst, für welches Land sie gelten.
 
+Die Kennzeichnung steht in `sidebars.ts` und damit **nicht** im Seitentext. Wer
+nur das Markdown liest — etwa ein KI-Werkzeug über `llms-full.txt` — sähe sie
+also nie. `plugins/llms-txt/` geht sie deshalb beim Bauen durch
+(`laenderJeSeite()`; eine Kategorie vererbt an ihren Inhalt, denn eine
+ausgeblendete Kategorie nimmt ihn mit) und schreibt pro Seite eine Zeile
+`Länder: ch` unter `Quelle:`. Keine Zeile heisst wie überall sonst: gilt für
+alle Länder. `<Embed mitLand …>` gibt die Wahl per `postMessage` an eine
+eingebettete Anwendung weiter (Billy) — als Nachricht und nicht in der Adresse,
+weil ein geänderter `src` den Rahmen neu lädt und ein angefangenes Gespräch
+verloren wäre.
+
 `src/components/LandKarte/` ist die Karte auf der Startseite; eingehängt wird
 sie über `src/theme/DocItem/Content/`, nicht im Markdown, damit sie in allen
 vier Sprachen steht. Sie erscheint nur, solange nichts gewählt ist. Ein Land

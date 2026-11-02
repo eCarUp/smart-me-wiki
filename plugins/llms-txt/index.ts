@@ -16,6 +16,7 @@ import {existsSync} from 'node:fs';
 import {join, sep} from 'node:path';
 import type {LoadContext, Plugin} from '@docusaurus/types';
 import matter from 'gray-matter';
+import {leseLaender} from '../schrittkette';
 
 type Page = {
   /** Pfad der Quelldatei, relativ zum Wurzelordner der Sprache */
@@ -24,6 +25,17 @@ type Page = {
   description?: string;
   slug: string;
   body: string;
+  /**
+   * Für welche Länder die Seite gilt – leer heisst: für alle.
+   *
+   * Die Kennzeichnung steht in `sidebars.ts` und nicht im Seitentext (siehe
+   * `src/laender`), also muss sie hier dazukommen. Sonst wüsste ein Modell,
+   * das nur `llms-full.txt` liest, nicht, dass ZEV schweizerisch und
+   * Mieterstrom deutsch ist. Gelesen wird sie mit `leseLaender()` aus
+   * `plugins/schrittkette` – nur **in** der Navigation lässt sie sich
+   * kennzeichnen, eine Seite ausserhalb gilt zwangsläufig überall.
+   */
+  laender: string[];
 };
 
 async function walk(dir: string): Promise<string[]> {
@@ -53,7 +65,12 @@ function sectionOf(relativePath: string): string {
   return rest.length === 0 ? 'Allgemein' : first;
 }
 
-async function collectPages(dir: string): Promise<Page[]> {
+/** Die Dokument-ID einer Quelldatei: ihr Pfad ohne Endung, wie in `sidebars.ts`. */
+function dokumentId(relativePath: string): string {
+  return relativePath.replace(/\.mdx?$/, '');
+}
+
+async function collectPages(dir: string, laender: Record<string, string[]>): Promise<Page[]> {
   const files = await walk(dir);
   const pages: Page[] = [];
   for (const file of files) {
@@ -66,6 +83,8 @@ async function collectPages(dir: string): Promise<Page[]> {
       description: data.description,
       slug: data.slug ?? `/${relativePath.replace(/(?:\/index)?\.mdx?$/, '')}`,
       body: parsed.content.trim(),
+      // Die Übersetzungen liegen unter denselben IDs wie das Deutsche.
+      laender: laender[dokumentId(relativePath)] ?? [],
     });
   }
   return pages.sort((a, b) => a.relativePath.localeCompare(b.relativePath));
@@ -113,6 +132,9 @@ export function renderFull(opts: {
       `# ${page.title}`,
       '',
       `Quelle: ${url}`,
+      // Nur wo die Seite wirklich auf Länder eingeschränkt ist. Keine Zeile heisst
+      // „gilt überall" – das ist der Normalfall und hält die Datei lesbar.
+      ...(page.laender.length > 0 ? [`Länder: ${page.laender.join(', ')}`] : []),
       ...(page.description ? ['', page.description] : []),
       '',
       page.body,
@@ -129,7 +151,11 @@ export default function llmsTxtPlugin(context: LoadContext): Plugin<unknown> {
     async postBuild({outDir, siteConfig}) {
       const {currentLocale, defaultLocale} = context.i18n;
       const dir = docsDirFor(context.siteDir, currentLocale, defaultLocale);
-      const pages = await collectPages(dir);
+      // Die Länderkennzeichnung steht in der Navigation, nicht im Seitentext.
+      // Gelesen wird sie mit derselben Funktion wie für die Schrittketten: eine
+      // Seite kann in zwei Kategorien stehen („Zähler zuweisen" einmal unter der
+      // Schweiz, einmal unter Mieterstrom), und dann gilt sie für beide Länder.
+      const pages = await collectPages(dir, leseLaender());
 
       if (pages.length === 0) {
         console.warn(`[llms-txt] Keine Inhalte für "${currentLocale}" – Dateien werden übersprungen.`);

@@ -7,4 +7,4 @@ description: 'Billy répond à tes questions sur smart-me à partir de ce wiki.'
 sidebar_label: 'Billy – support IA'
 ---
 
-<Embed mitLand src="https://canvas.smart-me.com/billy-wiki/?lang=fr" title="Billy – support IA smart-me" />
+<Embed mitKontext src="https://canvas.smart-me.com/billy-wiki/?lang=fr" title="Billy – support IA smart-me" />

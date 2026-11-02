@@ -195,9 +195,13 @@ Eintrag in `sidebars.ts` gilt damit zwangsläufig für alle Länder — auch dan
 wenn ihr Inhalt es nicht tut. Wer eine länderspezifische Seite aus der
 Navigation nimmt, nimmt ihr still die Kennzeichnung.
 
-`<Embed mitLand …>` gibt die Wahl per `postMessage` an eine eingebettete
-Anwendung weiter (Billy) — als Nachricht und nicht in der Adresse, weil ein
-geänderter `src` den Rahmen neu lädt und ein angefangenes Gespräch verloren wäre.
+`<Embed mitKontext …>` gibt einer eingebetteten Anwendung (Billy) weiter, worin
+sie steckt: die Länderwahl des Besuchers und ob diese Seite hell oder dunkel ist.
+Beides als `postMessage` und nicht in der Adresse, weil ein geänderter `src` den
+Rahmen neu lädt und ein angefangenes Gespräch verloren wäre. Das Aussehen muss
+mitgehen, weil der Rahmen es nicht sehen kann und sich sonst nach dem
+Betriebssystem des Besuchers richtet — wer das Wiki hell liest, aber ein dunkles
+System hat, bekäme sonst einen schwarzen Kasten in eine weisse Seite.
 
 `src/components/LandKarte/` ist die Karte auf der Startseite; eingehängt wird
 sie über `src/theme/DocItem/Content/`, nicht im Markdown, damit sie in allen

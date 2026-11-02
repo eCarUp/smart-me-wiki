@@ -25,13 +25,18 @@ type EmbedProps = {
    */
   height?: string;
   /**
-   * Gibt die Länderwahl des Besuchers an die Anwendung weiter.
+   * Gibt weiter, in welcher Umgebung die Anwendung steckt: die Länderwahl des
+   * Besuchers und ob diese Seite hell oder dunkel ist.
    *
    * Nur für Anwendungen, die etwas damit anfangen – Billy antwortet je nach
-   * Land über ZEV und VEWA oder über Mieterstrom. Ohne Wahl wird `null`
-   * gesendet, und das heisst dort wie hier: alle Länder.
+   * Land über ZEV und VEWA oder über Mieterstrom, und er richtet sich nach dem
+   * Aussehen dieser Seite statt nach dem Betriebssystem des Besuchers. Ohne
+   * Länderwahl wird `null` gesendet, und das heisst dort wie hier: alle Länder.
+   *
+   * Beides geht als Nachricht und nicht über die Adresse: eine veränderte
+   * Adresse lädt den Rahmen neu und wirft weg, was darin schon passiert ist.
    */
-  mitLand?: boolean;
+  mitKontext?: boolean;
 };
 
 /**
@@ -46,7 +51,7 @@ export default function Embed({
   title,
   aspect,
   height,
-  mitLand,
+  mitKontext,
 }: EmbedProps): React.ReactElement {
   const ratio = aspect ? Number(aspect) : NaN;
   const style: React.CSSProperties =
@@ -68,7 +73,7 @@ export default function Embed({
   // Gespräch wäre weg. Gesendet wird bei jeder Wahl und noch einmal, sobald der
   // Rahmen geladen ist – je nachdem, was zuerst kommt.
   React.useEffect(() => {
-    if (!mitLand) return undefined;
+    if (!mitKontext) return undefined;
     const rahmenEl = rahmen.current;
     if (!rahmenEl) return undefined;
 
@@ -86,7 +91,38 @@ export default function Embed({
     senden();
     rahmenEl.addEventListener('load', senden);
     return () => rahmenEl.removeEventListener('load', senden);
-  }, [mitLand, gewaehlt, url]);
+  }, [mitKontext, gewaehlt, url]);
+
+  // Hell oder dunkel ebenso: Der Rahmen kann die Einstellung dieser Seite nicht sehen und richtete
+  // sich sonst nach dem Betriebssystem des Besuchers – wer das Wiki hell liest, aber ein dunkles
+  // System hat, bekäme einen schwarzen Kasten mitten in eine weisse Seite. Docusaurus schreibt die
+  // Wahl als `data-theme` an <html>; beobachtet wird sie dort, damit auch der Schalter in der
+  // Kopfzeile sofort durchschlägt.
+  React.useEffect(() => {
+    if (!mitKontext) return undefined;
+    const rahmenEl = rahmen.current;
+    if (!rahmenEl) return undefined;
+
+    const senden = () => {
+      try {
+        rahmenEl.contentWindow?.postMessage(
+          {type: 'smartme-wiki:theme', theme: document.documentElement.dataset.theme ?? 'light'},
+          new URL(url, window.location.href).origin,
+        );
+      } catch {
+        // Siehe oben – das `load` holt es nach.
+      }
+    };
+
+    senden();
+    rahmenEl.addEventListener('load', senden);
+    const beobachter = new MutationObserver(senden);
+    beobachter.observe(document.documentElement, {attributes: true, attributeFilter: ['data-theme']});
+    return () => {
+      rahmenEl.removeEventListener('load', senden);
+      beobachter.disconnect();
+    };
+  }, [mitKontext, url]);
 
   return (
     <iframe

@@ -68,61 +68,58 @@ export default function Embed({
   const rahmen = React.useRef<HTMLIFrameElement>(null);
   const gewaehlt = useLand();
 
-  // Die Länderwahl geht als Nachricht hinüber und nicht als `?land=` in der
-  // Adresse: eine veränderte Adresse lädt den Rahmen neu, und ein angefangenes
-  // Gespräch wäre weg. Gesendet wird bei jeder Wahl und noch einmal, sobald der
-  // Rahmen geladen ist – je nachdem, was zuerst kommt.
+  // Länderwahl und Aussehen gehen als Nachricht hinüber und nicht über die
+  // Adresse: ein geänderter `src` lädt den Rahmen neu, und ein angefangenes
+  // Gespräch wäre weg. Das Aussehen muss überhaupt mit, weil der Rahmen es
+  // nicht sehen kann und sich sonst nach dem Betriebssystem des Besuchers
+  // richtet — wer das Wiki hell liest, aber ein dunkles System hat, bekäme
+  // einen schwarzen Kasten mitten in eine weisse Seite.
+  //
+  // **Den richtigen Zeitpunkt sagt die Anwendung selbst.** Ihn zu erraten geht
+  // schief: Beim Einhängen ist der Rahmen meist noch `about:blank`, die
+  // Nachricht wird verworfen, und ein danach angehängter `load`-Zuhörer feuert
+  // nie mehr, wenn der Rahmen schon geladen war. Genau daran lag es, dass der
+  // Rahmen anfangs dunkel in einem hellen Wiki stand. Gesendet wird deshalb auf
+  // ihre Meldung hin — und zusätzlich bei jeder Änderung hier.
   React.useEffect(() => {
     if (!mitKontext) return undefined;
     const rahmenEl = rahmen.current;
     if (!rahmenEl) return undefined;
+    const ziel = new URL(url, window.location.href).origin;
 
     const senden = () => {
       try {
-        rahmenEl.contentWindow?.postMessage(
-          {type: 'smartme-wiki:land', land: gewaehlt},
-          new URL(url, window.location.href).origin,
-        );
-      } catch {
-        // Andere Herkunft noch nicht geladen o. Ä. – das `load` unten holt es nach.
-      }
-    };
-
-    senden();
-    rahmenEl.addEventListener('load', senden);
-    return () => rahmenEl.removeEventListener('load', senden);
-  }, [mitKontext, gewaehlt, url]);
-
-  // Hell oder dunkel ebenso: Der Rahmen kann die Einstellung dieser Seite nicht sehen und richtete
-  // sich sonst nach dem Betriebssystem des Besuchers – wer das Wiki hell liest, aber ein dunkles
-  // System hat, bekäme einen schwarzen Kasten mitten in eine weisse Seite. Docusaurus schreibt die
-  // Wahl als `data-theme` an <html>; beobachtet wird sie dort, damit auch der Schalter in der
-  // Kopfzeile sofort durchschlägt.
-  React.useEffect(() => {
-    if (!mitKontext) return undefined;
-    const rahmenEl = rahmen.current;
-    if (!rahmenEl) return undefined;
-
-    const senden = () => {
-      try {
+        rahmenEl.contentWindow?.postMessage({type: 'smartme-wiki:land', land: gewaehlt}, ziel);
         rahmenEl.contentWindow?.postMessage(
           {type: 'smartme-wiki:theme', theme: document.documentElement.dataset.theme ?? 'light'},
-          new URL(url, window.location.href).origin,
+          ziel,
         );
       } catch {
-        // Siehe oben – das `load` holt es nach.
+        // Rahmen noch nicht so weit – seine Meldung holt es nach.
       }
     };
 
+    const aufMeldung = (e: MessageEvent) => {
+      if (
+        e.source === rahmenEl.contentWindow &&
+        e.origin === ziel &&
+        (e.data as {type?: string} | null)?.type === 'smartme-wiki:ready'
+      ) {
+        senden();
+      }
+    };
+
+    window.addEventListener('message', aufMeldung);
     senden();
     rahmenEl.addEventListener('load', senden);
     const beobachter = new MutationObserver(senden);
     beobachter.observe(document.documentElement, {attributes: true, attributeFilter: ['data-theme']});
     return () => {
+      window.removeEventListener('message', aufMeldung);
       rahmenEl.removeEventListener('load', senden);
       beobachter.disconnect();
     };
-  }, [mitKontext, url]);
+  }, [mitKontext, gewaehlt, url]);
 
   return (
     <iframe

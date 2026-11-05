@@ -386,6 +386,19 @@ h6 {
   max-width: 100%;
 }
 
+/*
+ * Eine Seite, deren Einbettung das Fenster füllt (`<Embed>` ohne Höhe und
+ * ohne Seitenverhältnis, siehe dort – heute Billy): Unter dem Rahmen steht
+ * nichts mehr, sonst scrollte die Seite doch wieder, und der Rahmen hat
+ * seinen eigenen Scrollbalken. Fusszeile, «Letztes Update» und der
+ * Wegweiser am Seitenfuss fallen deshalb nur hier weg.
+ */
+html:has(iframe[data-fuellen]) .footer,
+html:has(iframe[data-fuellen]) .theme-doc-footer,
+html:has(iframe[data-fuellen]) .pagination-nav {
+  display: none;
+}
+
 /* Ruhige Fläche für die Suchergebnisse und die Sidebar-Kopfzeile. */
 .theme-doc-sidebar-container {
   background: var(--sm-blue-5pct);

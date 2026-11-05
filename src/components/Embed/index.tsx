@@ -18,6 +18,13 @@ type EmbedProps = {
    * Feste Höhe als CSS-Wert, wenn kein Seitenverhältnis bekannt ist.
    * Eingebettete Anwendungen können ihre Höhe nicht selbst melden.
    *
+   * **Ohne `height` und ohne `aspect` füllt der Rahmen das Fenster** bis zum
+   * unteren Rand, und die Seite selbst scrollt nicht mehr: Fusszeile und
+   * «Letztes Update» fallen auf dieser Seite weg. Das ist für eine Anwendung
+   * gedacht, die die ganze Seite ist und selbst scrollt – Billy. Mit einer
+   * festen Höhe darin stünden zwei Scrollbalken nebeneinander, und das
+   * Eingabefeld rutschte unter den Fensterrand.
+   *
    * Eine hier angegebene Höhe gilt **genau so** – die Mindesthöhe aus dem
    * Stylesheet wird ausgeschaltet. Das ist für eingebettete Tabellen nötig:
    * eine Tabelle mit sechs Zeilen braucht keine 520 Pixel, und der leere
@@ -54,10 +61,14 @@ export default function Embed({
   mitKontext,
 }: EmbedProps): React.ReactElement {
   const ratio = aspect ? Number(aspect) : NaN;
+  const hatVerhaeltnis = Number.isFinite(ratio) && ratio > 0;
+  const fuellen = height === undefined && !hatVerhaeltnis;
+  // Beim Füllen sind 75vh nur der Wert bis zur ersten Messung (und ohne
+  // JavaScript): ungefähr richtig, damit nichts springt.
   const style: React.CSSProperties =
     height !== undefined
       ? {height, minHeight: 0}
-      : Number.isFinite(ratio) && ratio > 0
+      : hatVerhaeltnis
         ? {aspectRatio: String(ratio)}
         : {height: '75vh'};
 
@@ -121,10 +132,50 @@ export default function Embed({
     };
   }, [mitKontext, gewaehlt, url]);
 
+  // Füllen: Die Höhe ist «Fenster minus alles darüber», und das lässt sich
+  // nur messen – Navigationsleiste, Brotkrumen und Abstände sind je nach
+  // Breite, Sprache und Schrift verschieden hoch. Gemessen wird in zwei
+  // Schritten: erst bis zum Fensterrand, dann um das gekürzt, was die Seite
+  // darunter noch übersteht (Innenabstände, die man von hier aus nicht
+  // sieht). Auf einem sehr niedrigen Fenster gewinnt die Mindesthöhe aus dem
+  // Stylesheet, dann scrollt die Seite eben – benutzbar bleibt der Rahmen.
+  React.useEffect(() => {
+    if (!fuellen) return undefined;
+    const rahmenEl = rahmen.current;
+    if (!rahmenEl) return undefined;
+    let bild = 0;
+
+    const anpassen = () => {
+      cancelAnimationFrame(bild);
+      bild = requestAnimationFrame(() => {
+        const wurzel = document.documentElement;
+        const fenster = wurzel.clientHeight;
+        const oben = rahmenEl.getBoundingClientRect().top + window.scrollY;
+        const rand = parseFloat(getComputedStyle(rahmenEl).marginBottom) || 0;
+        const hoehe = Math.floor(fenster - oben - rand);
+        rahmenEl.style.height = `${hoehe}px`;
+        const ueberstand = wurzel.scrollHeight - fenster;
+        if (ueberstand > 0) rahmenEl.style.height = `${hoehe - ueberstand}px`;
+      });
+    };
+
+    anpassen();
+    window.addEventListener('resize', anpassen);
+    window.addEventListener('load', anpassen);
+    // Die Schrift lädt nach und macht die Navigationsleiste etwas höher.
+    document.fonts?.ready.then(anpassen).catch(() => undefined);
+    return () => {
+      cancelAnimationFrame(bild);
+      window.removeEventListener('resize', anpassen);
+      window.removeEventListener('load', anpassen);
+    };
+  }, [fuellen]);
+
   return (
     <iframe
       ref={rahmen}
       className={styles.embed}
+      data-fuellen={fuellen ? '' : undefined}
       style={style}
       src={url}
       title={title}

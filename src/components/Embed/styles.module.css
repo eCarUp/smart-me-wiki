@@ -8,3 +8,10 @@
   background: var(--ifm-background-surface-color);
   margin-bottom: var(--ifm-leading);
 }
+
+/* Ein füllender Rahmen (siehe Embed) darf kleiner werden: Auf dem Handy
+   bleiben unter Navigationsleiste und Brotkrumen oft keine 520 px, und die
+   Seite soll trotzdem nicht scrollen. Billy ist mit 360 px noch bedienbar. */
+.embed[data-fuellen] {
+  min-height: 360px;
+}

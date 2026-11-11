@@ -7,7 +7,7 @@ symbol: 'ausserhalb'
 ---
 <div className="bild--voll">
 
-![Schema di misura MKD3 (con non partecipanti) – Figura 1](/img/planung-mkd3-messkonzept-nicht-teilnehmer/01.png)
+![Schema di misura MKD3 (con non partecipanti) – Figura 1](/img/planung-mkd3-messkonzept-nicht-teilnehmer/01_IT.png)
 
 </div>
 
@@ -40,7 +40,7 @@ Il contatore dell'allacciamento dell'edificio dovrebbe essere incluso come eleme
 
 <div className="bild--voll">
 
-![Schema di misura MKD3 (con non partecipanti) – Figura 2](/img/planung-mkd3-messkonzept-nicht-teilnehmer/02.png)
+![Schema di misura MKD3 (con non partecipanti) – Figura 2](/img/planung-mkd3-messkonzept-nicht-teilnehmer/02_IT.png)
 
 </div>
 

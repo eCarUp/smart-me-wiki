@@ -4,22 +4,27 @@ slug: '/drittprodukte/standfuss-fundamente'
 description: 'Fondazione Borner (blocco di calcestruzzo prefabbricato con piastra in alluminio)'
 sidebar_label: 'Fondazioni per piedistallo'
 ---
-![Fondazioni per piedistallo – Figura 1](/img/drittprodukte-standfuss-fundamente/01.png)
 
-### Fondazione Borner (blocco di calcestruzzo prefabbricato con piastra in alluminio)
+<Kacheln min="15rem">
 
-- Fondazione da interrare
+<Kachel bild="/img/drittprodukte-standfuss-fundamente/01.png" bildtext="Fondazione Borner" titel="Fondazione Borner" bildhoehe="11rem">
 
+Blocco di calcestruzzo prefabbricato con piastra in alluminio
 
-Fonti di approvvigionamento:[
-https://borner.ch/products/energy-block/](https://borner.ch/products/energy-block/)
+Fondazione da interrare
 
-![Fondazioni per piedistallo – Figura 2](/img/drittprodukte-standfuss-fundamente/02.png)
+Fornitore: [borner.ch](https://borner.ch/products/energy-block/)
 
-### Fondazione Crea Beton (blocco di calcestruzzo prefabbricato con piastra in alluminio)
+</Kachel>
 
-- Fondazione da interrare
+<Kachel bild="/img/drittprodukte-standfuss-fundamente/02.png" bildtext="Fondazione Crea Beton" titel="Fondazione Crea Beton" bildhoehe="11rem">
 
+Blocco di calcestruzzo prefabbricato con piastra in alluminio
 
-Fonti di approvvigionamento:
-[https://creabeton.ch/leitungsbau/kabelkeller-fuer-elektroladestationen-d1523/](https://creabeton.ch/leitungsbau/kabelkeller-fuer-elektroladestationen-d1523/)
+Fondazione da interrare
+
+Fornitore: [creabeton.ch](https://creabeton.ch/leitungsbau/kabelkeller-fuer-elektroladestationen-d1523/)
+
+</Kachel>
+
+</Kacheln>

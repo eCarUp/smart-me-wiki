@@ -1,10 +1,10 @@
 ---
 title: 'Compteur hors ligne'
 slug: '/stoerungsbehebung/zaehler-offline'
-description: 'Cette page explique les étapes connues pour remettre en ligne un compteur d''électricité smart-me hors ligne.'
+description: 'Cette page présente les étapes connues pour remettre en ligne un compteur électrique smart-me hors ligne.'
 sidebar_label: 'Compteur hors ligne'
 ---
-Cette page explique les étapes connues pour remettre en ligne un compteur d'électricité smart-me hors ligne. 
+Cette page présente les étapes connues pour remettre en ligne un compteur électrique smart-me hors ligne. 
 
 ## Bon à savoir
 
@@ -13,7 +13,7 @@ Cette page explique les étapes connues pour remettre en ligne un compteur d'él
 <div className="row">
 <div className="col col--8">
 
-Un compteur smart-me est hors ligne lorsqu'il ne s'est plus manifesté dans le cloud depuis plus de 15 minutes. Vous pouvez le vérifier en contrôlant la dernière connexion du compteur.
+Un compteur smart-me est hors ligne lorsqu'il ne s'est plus manifesté auprès du cloud depuis plus de 15 minutes. Pour le déterminer, vérifiez la dernière connexion du compteur.
 
 </div>
 <div className="col col--4 bild--mitte">
@@ -23,15 +23,15 @@ Un compteur smart-me est hors ligne lorsqu'il ne s'est plus manifesté dans le c
 </div>
 </div>
 
-![Compteur hors ligne – Illustration 2](/img/stoerungsbehebung-zaehler-offline/02.png)
+![Compteur hors ligne – Figure 2](/img/stoerungsbehebung-zaehler-offline/02.png)
 
 En outre, la Santé du système (Systemgesundheit) offre une vue d'ensemble de tous les appareils
 
 ### Version du firmware (Telstar 80A et Telstar CT)
 
-Jusqu'aux versions FW 1.16 et 1.17 incluses, diverses adaptations ont été apportées aux Telstar CT et Telstar 80A afin d'améliorer la stabilité de la connexion WiFi. C'est pourquoi nous recommandons de toujours vérifier rapidement si la version la plus récente est installée sur le compteur et, le cas échéant, de la mettre à jour. [Mise à jour du firmware](/konfiguration/firmware-update) 
+Jusqu'aux versions FW 1.16 et 1.17 incluses, diverses adaptations ont été apportées au Telstar CT et au Telstar 80A afin d'améliorer la stabilité de la connexion WiFi. C'est pourquoi nous recommandons de toujours vérifier rapidement si la version la plus récente est installée sur le compteur et, le cas échéant, de la mettre à jour. [Mise à jour du firmware](/konfiguration/firmware-update) 
 
-Si un compteur équipé de la version de firmware la plus récente est hors ligne alors que les compteurs voisins sont en ligne, merci de nous le signaler.
+Si un compteur équipé de la version de firmware la plus récente est hors ligne alors que les compteurs voisins sont en ligne, nous vous prions de nous le signaler.
 
 ### Comment enregistrer un nouveau réseau sur l'appareil smart-me ?
 
@@ -39,21 +39,21 @@ Voir ci-dessous Réinstaller le compteur
 
 ### Réinstaller le compteur
 
-Une réinstallation permet d'enregistrer un nouveau WiFi sur le compteur. L'installation doit être effectuée depuis le compte dans lequel le compteur est hors ligne. Le cloud smart-me reconnaît les appareils connus et ajoute les nouvelles données sans modifier les données existantes.
+Une réinstallation permet d'enregistrer un nouveau WiFi sur le compteur. L'installation doit être effectuée depuis le compte sur lequel le compteur est hors ligne. Le cloud smart-me reconnaît les appareils connus et ajoute les nouvelles données sans modifier les données existantes.
 
 La réinstallation s'effectue selon la même procédure que celle décrite dans la [mise en service](/konfiguration/inbetriebnahme). Dans l'app, sélectionnez le + en haut à droite et réinstallez l'appareil. Le nouveau SSID et le mot de passe sont alors automatiquement enregistrés sur l'appareil. Veillez à être connecté avec le bon compte.
 
 ### Délimitation du problème
 
-Il est important de déterminer d'abord grossièrement d'où vient le problème de connexion. Si plusieurs compteurs perdent la connexion (sont hors ligne) presque au même moment, cela indique probablement des problèmes avec le point d'accès, le routeur ou la connexion Internet.
+Il est important de déterminer d'abord, dans les grandes lignes, d'où vient le problème de connexion. Si plusieurs compteurs perdent la connexion (sont hors ligne) presque au même moment, cela indique probablement un problème au niveau du point d'accès, du routeur ou de la connexion Internet.
 
-Problèmes possibles :
+Les problèmes possibles sont les suivants :
 
 - Le point d'accès ou le routeur présente un problème. Dans ce cas, il peut être utile de redémarrer le routeur ou le point d'accès. Après le redémarrage, nos appareils devraient normalement se reconnecter au cloud smart-me en quelques minutes.
 
-- Un nouveau fournisseur d'accès Internet a été activé ou un nouveau SSID (nom du réseau WiFi) a été défini. Dans ce cas, vous devez enregistrer le nouveau réseau sur chaque appareil smart-me afin qu'ils puissent se reconnecter.
+- Un nouveau fournisseur d'accès Internet a été activé ou un nouveau SSID (nom du réseau WLAN) a été défini. Dans ce cas, vous devez enregistrer le nouveau réseau sur chaque appareil smart-me afin qu'ils puissent se reconnecter.
 
-- Avec une connexion Internet mobile, il se peut que l'abonnement n'ait pas été payé. Assurez-vous que les paiements pour l'Internet mobile sont en ordre.
+- Pour les connexions Internet mobiles, il se peut que l'abonnement n'ait pas été payé. Assurez-vous que les paiements pour l'Internet mobile sont en ordre.
 
 
 Si un seul compteur ou un petit groupe de compteurs a perdu la connexion, le problème se situe généralement plutôt au niveau du compteur smart-me concerné.
@@ -75,9 +75,9 @@ Veuillez tenir compte des conditions préalables suivantes :
 
 - Le numéro de série commence par 62\* : Telstar CT
 
-1.  ### Redémarrer le compteur
+#### 1\. Redémarrer le compteur
 
-Ceci est uniquement à titre d'information sur la manière de procéder ; plus bas, il peut être demandé de redémarrer le compteur pour le remettre en ligne. 
+Ceci est uniquement à titre d'information sur la manière de procéder ; il peut être demandé plus bas de redémarrer le compteur afin de le remettre en ligne. 
 
 Forcer le redémarrage : 
 
@@ -85,15 +85,15 @@ Forcer le redémarrage :
 
 Comment reconnaître le redémarrage :
 
-- Le compteur s'éteint brièvement et plus rien n'est affiché à l'écran.
+- Le compteur s'assombrit brièvement et plus rien n'est affiché à l'écran.
 
 Comportement lorsque le compteur revient en ligne :
 
 - En haut à droite de l'écran, le signal de réception alterne entre X et réception directement après le redémarrage. 
 
-- Le compteur est en ligne lorsque, après env. 1 minute, le signal de réception en haut à droite de l'écran est allumé en permanence et noir.
+- Le compteur est en ligne lorsque, après environ 1 minute, le signal de réception en haut à droite de l'écran est allumé en permanence et noir.
 
-- Vérifier rapidement si le compteur est en ligne dans le cloud.
+- Vérifier brièvement si le compteur est en ligne dans le cloud.
 
 - Vérifier si une [mise à jour du firmware](/konfiguration/firmware-update) est disponible. Si oui, mettre à jour tous les compteurs.
 
@@ -101,37 +101,37 @@ Comportement lorsque le compteur ne revient pas en ligne :
 
 - En haut à droite de l'écran, le signal de réception alterne entre X et réception pendant plus de 2 minutes après le redémarrage, sans que le compteur revienne en ligne.
 
-- Si cela n'aide pas, appeler le support.
+- Si cela ne résout pas le problème, appeler le support.
 
-![Compteur hors ligne – Illustration 3](/img/stoerungsbehebung-zaehler-offline/03.gif)
+![Compteur hors ligne – Figure 3](/img/stoerungsbehebung-zaehler-offline/03.gif)
 
-### 2\. Contrôle à l'arrivée
+#### 2\. Vérification à l'arrivée
 
 <div className="row">
 <div className="col col--7">
 
-Les points suivants peuvent être contrôlés à l'arrivée. Si une modification a déjà été apportée au compteur, il est important de ne plus effectuer d'autres modifications sur le compteur pendant au moins 5 minutes. Il est également possible de demander au client sur place une vidéo de 30 secondes du compteur afin de mieux évaluer la situation. 
+Les points suivants peuvent être vérifiés à l'arrivée. Si une modification a déjà été apportée au compteur, il est important de ne procéder à aucune autre modification sur le compteur pendant au moins 5 minutes. Il est également possible de demander au client sur place une vidéo de 30 secondes du compteur afin de mieux évaluer la situation. 
 
 </div>
 <div className="col col--5 bild--mitte">
 
-![Compteur hors ligne – Illustration 4](/img/stoerungsbehebung-zaehler-offline/04.gif)
+![Compteur hors ligne – Figure 4](/img/stoerungsbehebung-zaehler-offline/04.gif)
 
 </div>
 </div>
 
-### Le compteur alterne entre X et le symbole de réception :
+#### 3\. Le compteur alterne entre X et le symbole de réception :
 
 - Vérifier si, en appuyant sur la touche T1 pendant 10 secondes, le symbole de réception à l'écran alterne entre clair et foncé. Si ce n'est pas le cas, veuillez appeler le support.
 
-- Solution 1 : appuyez simultanément sur T1 et T2 : le compteur devrait s'éteindre brièvement. Attendez 1 minute et vérifiez si le compteur est de nouveau en ligne.
+- Solution 1 : appuyez simultanément sur T1 et T2 : le compteur devrait s'assombrir brièvement. Attendez 1 minute et vérifiez si le compteur est de nouveau en ligne.
 
 - Solution 2 : réinstallez le compteur. Veuillez sélectionner le compte cible et ne supprimez en aucun cas le compteur dans le compte.
 
 - Solution 3 : appeler le support 
 
 
-### L'écran est éteint :
+#### 4\. L'écran est éteint :
 
 - Solution 1 : vérifier qu'au moins la phase 1 est raccordée
 
@@ -144,14 +144,14 @@ Les points suivants peuvent être contrôlés à l'arrivée. Si une modification
 
 L'écran s'éteint régulièrement :
 
-- Description du problème : le compteur affiche quelque chose. Après un moment, il n'affiche plus rien pendant quelques secondes. Puis l'affichage revient, etc...
+- Description du problème : le compteur affiche quelque chose. Au bout d'un moment, il n'affiche plus rien pendant quelques secondes. Puis l'affichage revient, etc...
 
 - Solution 1 : vérifier si le conducteur neutre est correctement raccordé et câblé. 
 
 - Solution 2 : appeler le support 
 
 
-Le compteur génère un WiFi local pendant plus de 5 minutes :
+Le compteur génère un WLAN local pendant plus de 5 minutes :
 
 - Comment reconnaître cet état : le signal de réception en haut à droite de l'écran alterne entre réception claire et foncée.
 
@@ -166,36 +166,36 @@ Le compteur affiche en permanence un X en haut à droite :
 
 - Solution 1 : vérifier si l'écran s'éteint régulièrement. Si c'est le cas, veuillez consulter la solution dans la section ci-dessus « L'écran s'éteint régulièrement ».
 
-- Solution 2 : redémarrer le compteur (voir description ci-dessus)
+- Solution 2 : redémarrer le compteur (voir la description ci-dessus)
 
 - Solution 3 : si cela est possible sans grand effort, retirer le fusible et le remettre en place. 
 
 - Solution 4 : si, après les solutions 1 et 2, un X est toujours affiché en permanence, le compteur est défectueux. Dans ce cas, un [formulaire de demande RMA](/rma-antragsformular-schweiz) peut être rempli (description de l'erreur : X wird immer angezeigt Code:xx).
 
 
-Le compteur ne parvient pas à se connecter au WiFi :
+Le compteur ne parvient pas à se connecter au WLAN :
 
 - Le signal de réception en haut à droite de l'écran alterne entre réception et X.
 
 
-- Solution 1 : redémarrer le compteur (voir description ci-dessus)
+- Solution 1 : redémarrer le compteur (voir la description ci-dessus)
 
-- Solution 2 : celle-ci ne doit être appliquée que si aucun autre compteur n'est en ligne à proximité. Créer avec le smartphone un hotspot avec le même SSID et le même mot de passe que le WiFi existant. Redémarrer ensuite à nouveau le compteur et vérifier s'il se connecte via le hotspot du smartphone. Si le compteur se connecte via le hotspot, cela indique un problème avec le routeur WiFi ou le point d'accès. Veillez à ce que la plupart des smartphones n'autorisent au maximum que cinq appareils à se connecter via le hotspot.
+- Solution 2 : celle-ci ne doit être appliquée que si aucun autre compteur n'est en ligne à proximité. Créer avec le smartphone un point d'accès mobile avec le même SSID et le même mot de passe que le WiFi existant. Redémarrer ensuite le compteur et vérifier s'il se connecte via le point d'accès du smartphone. Si le compteur se connecte via le point d'accès mobile, cela indique un problème au niveau du routeur WLAN ou du point d'accès. Veuillez noter que la plupart des smartphones autorisent au maximum cinq appareils à se connecter via le point d'accès mobile.
 
 - Solution 3 : si cela est possible sans grand effort, retirer le fusible et le remettre en place. 
 
 - Solution 4 : appeler le support 
 
 
-## Triphasé 80A (ancienne version)
+### Triphasé 80A (ancienne version)
 
-- Le numéro de série commence par 60\* : triphasé 80A
-
-
-1.  ### Redémarrer le compteur
+- Le numéro de série commence par 60\* : Triphasé 80A
 
 
-Ceci est uniquement à titre d'information sur la manière de procéder. Plus bas, il peut être demandé de redémarrer le compteur pour le remettre en ligne. 
+#### 1. Redémarrer le compteur
+
+
+Ceci est uniquement à titre d'information sur la manière de procéder. Il peut être demandé plus bas de redémarrer le compteur afin de le remettre en ligne. 
 
 Forcer le redémarrage : 
 
@@ -209,11 +209,11 @@ Comment reconnaître le redémarrage ?
 
 Comportement lorsque le compteur revient en ligne :
 
-- En haut à gauche de l'écran, le signal WiFi alterne directement après le redémarrage entre WiFi avec et sans point d'exclamation.
+- En haut à gauche de l'écran, le signal WiFi alterne entre WiFi avec et sans point d'exclamation directement après le redémarrage.
 
-- Le compteur est en ligne lorsque, après env. 1 minute, le signal WiFi en haut à gauche de l'écran est affiché en permanence sans point d'exclamation.
+- Le compteur est en ligne lorsque, après environ 1 minute, le signal WiFi en haut à gauche de l'écran est affiché en permanence sans point d'exclamation.
 
-- Vérifier rapidement si le compteur est en ligne dans le cloud.
+- Vérifier brièvement si le compteur est en ligne dans le cloud.
 
 - Vérifier si une [mise à jour du firmware](/konfiguration/firmware-update) est disponible. Si oui, mettre à jour tous les compteurs.
 
@@ -222,20 +222,20 @@ Comportement lorsque le compteur ne revient pas en ligne :
 
 - En haut à gauche de l'écran, le signal WiFi alterne entre WiFi avec et sans point d'exclamation pendant plus de 2 minutes après le redémarrage, sans que le compteur revienne en ligne.
 
-- Si cela n'aide pas, appeler le support.
+- Si cela ne résout pas le problème, appeler le support.
 
 
-### Contrôle à l'arrivée
+#### Vérification à l'arrivée
 
 <div className="row">
 <div className="col col--6">
 
-Les points suivants peuvent être contrôlés à l'arrivée. Si une modification a déjà été apportée au compteur, il est important de ne plus effectuer d'autres modifications sur le compteur pendant au moins 5 minutes. Il est également possible de demander au client sur place une vidéo de 30 secondes du compteur afin de mieux évaluer la situation. 
+Les points suivants peuvent être vérifiés à l'arrivée. Si une modification a déjà été apportée au compteur, il est important de ne procéder à aucune autre modification sur le compteur pendant au moins 5 minutes. Il est également possible de demander au client sur place une vidéo de 30 secondes du compteur afin de mieux évaluer la situation. 
 
 </div>
 <div className="col col--6 bild--mitte">
 
-![Compteur hors ligne – Illustration 5](/img/stoerungsbehebung-zaehler-offline/05.gif)
+![Compteur hors ligne – Figure 5](/img/stoerungsbehebung-zaehler-offline/05.gif)
 
 </div>
 </div>
@@ -258,7 +258,7 @@ Le compteur est éteint :
 - Solution 3 : si, après les solutions 1 et 2, 888888 est toujours affiché, le compteur est défectueux.
 
 
-Le compteur génère un WiFi local pendant plus de 5 minutes :
+Le compteur génère un WLAN local pendant plus de 5 minutes :
 
 - Comment reconnaître cet état : le signal WiFi en haut à gauche de l'écran est affiché alternativement avec et sans point d'exclamation.
 
@@ -266,24 +266,24 @@ Le compteur génère un WiFi local pendant plus de 5 minutes :
 
 - Solution 1 : essayer de débloquer la touche T1
 
-- Solution 2 : si, après la solution 1, un WiFi local est toujours généré, le compteur est défectueux.
+- Solution 2 : si, après la solution 1, un WLAN local est toujours généré, le compteur est défectueux.
 
 
-Le compteur ne parvient pas à se connecter au WiFi :
+Le compteur ne parvient pas à se connecter au WLAN :
 
 - Comment reconnaître cet état : le signal WiFi en haut à gauche de l'écran est affiché avec un point d'exclamation.
 
 
-- Solution 1 : redémarrer le compteur (voir description ci-dessus)
+- Solution 1 : redémarrer le compteur (voir la description ci-dessus)
 
-- Solution 2 : créer avec le smartphone un hotspot avec le même SSID et le même mot de passe que le WiFi existant. Redémarrer ensuite à nouveau le compteur et vérifier s'il se connecte via le hotspot du smartphone. Si le compteur se connecte via le hotspot, cela indique un problème avec le routeur WiFi ou le point d'accès. Veillez à ce que la plupart des smartphones n'autorisent au maximum que cinq appareils à se connecter via le hotspot.
+- Solution 2 : créer avec le smartphone un point d'accès mobile avec le même SSID et le même mot de passe que le WiFi existant. Redémarrer ensuite le compteur et vérifier s'il se connecte via le point d'accès du smartphone. Si le compteur se connecte via le point d'accès mobile, cela indique un problème au niveau du routeur WLAN ou du point d'accès. Veuillez noter que la plupart des smartphones autorisent au maximum cinq appareils à se connecter via le point d'accès mobile.
 
 - Solution 3 : si cela est possible sans grand effort, retirer le fusible et le remettre en place. 
 
 - Solution 4 : appeler le support
 
 
-## Station Bauer
+### Station Bauer
 
 - Le symbole dans le portail smart-me est un symbole de station-service et non un éclair
 
@@ -292,19 +292,19 @@ Le compteur ne parvient pas à se connecter au WiFi :
 - Le numéro de série commence par 62\* : Telstar 80A (nouveau)
 
 
-### Contrôle à l'arrivée
+#### Vérification à l'arrivée
 
 - -   Appeler le support. Instructions en cours de rédaction.
 
 
 ## Qualité de la connexion
 
-### Qualité de réception WiFi du Pico
+### Qualité de réception WLAN du Pico
 
 <div className="row">
 <div className="col col--5">
 
-À partir de la version FW 0.0.18, la qualité de réception WiFi est affichée dans le portail smart-me. [Mise à jour du firmware](https://sites.google.com/u/0/d/1aCvQ4VBGjc0Zn6Acdv_my2AEp54cDrdX/revisionspreview?revision=415029&pageId=1nDT64kPszZGmBXffYtc_9fUGbxTlFM8J) 
+À partir de la version FW 0.0.18, la qualité de réception WLAN est affichée dans le portail smart-me. [Mise à jour du firmware](https://sites.google.com/u/0/d/1aCvQ4VBGjc0Zn6Acdv_my2AEp54cDrdX/revisionspreview?revision=415029&pageId=1nDT64kPszZGmBXffYtc_9fUGbxTlFM8J) 
 
 Cette information peut être consultée depuis tous les comptes via l'[API](https://sites.google.com/u/0/d/1aCvQ4VBGjc0Zn6Acdv_my2AEp54cDrdX/revisionspreview?revision=415029&pageId=1L6QLXZEHWjDfqgdtjRQyM9vH29YdMCAn) avec la commande "GET /api/AdditionalDeviceInformation/&#123;id&#125;".
 
@@ -315,7 +315,7 @@ Cette information peut être consultée depuis tous les comptes via l'[API](http
 </div>
 <div className="col col--7 bild--mitte">
 
-![Compteur hors ligne – Illustration 6](/img/stoerungsbehebung-zaehler-offline/06.png)
+![Compteur hors ligne – Figure 6](/img/stoerungsbehebung-zaehler-offline/06.png)
 
 </div>
 </div>
@@ -348,7 +348,7 @@ Cette information peut être consultée depuis tous les comptes via l'[API](http
 </div>
 <div className="col col--5 bild--mitte">
 
-![Compteur hors ligne – Illustration 7](/img/stoerungsbehebung-zaehler-offline/07.png)
+![Compteur hors ligne – Figure 7](/img/stoerungsbehebung-zaehler-offline/07.png)
 
 </div>
 </div>

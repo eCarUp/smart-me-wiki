@@ -6,7 +6,8 @@ sidebar_label: 'M-Bus Gateway Störungen'
 ---
 Auf dieser Seite werden die häufigsten Fehler rund um das M-Bus Gateway behandelt
 
-## Gateway findet nicht alle Zähler
+<details id="nicht-alle-zaehler-gefunden">
+<summary>Gateway findet nicht alle Zähler</summary>
 
 Viele M-Bus Zähler beziehen ihren Strom vom Gateway. Unser Gateway unterstützt 50 Standard Lasten. 
 
@@ -18,8 +19,10 @@ Viele M-Bus Zähler beziehen ihren Strom vom Gateway. Unser Gateway unterstützt
 
 - Nicht jeder M-Bus Zähler ist kompatibel mit unserem Gateway. Die Liste an kompatiblen Zählern findest du auf der [M-Bus Gateway Produktseite](/produkte/m-bus-gateway)
 
+</details>
 
-## Gateway findet mehr Zähler als verbaut wurden (Bei der Inbetriebnahme)
+<details id="zu-viele-zaehler-inbetriebnahme">
+<summary>Gateway findet mehr Zähler als verbaut wurden (Bei der Inbetriebnahme)</summary>
 
 Grund: Nummerierung bei Kombizähler
 
@@ -41,7 +44,10 @@ Enthält ein Zähler mehr als 1 Zähler, werden diese jeweils wie folgt nummerie
 
 ![M-Bus Gateway Störungen – Abbildung 2](/img/stoerungsbehebung-m-bus-gateway-stoerungen/02.png)
 
-## Gateway findet mehr Zähler als verbaut wurden (während dem Betrieb)
+</details>
+
+<details id="zu-viele-zaehler-betrieb">
+<summary>Gateway findet mehr Zähler als verbaut wurden (während dem Betrieb)</summary>
 
 Eine instabile Verbindung kann zu fehlerhafter Übertragung der Seriennummer führen. 
 
@@ -93,7 +99,10 @@ Technische Erklärung
 
 ![M-Bus Gateway Störungen – Abbildung 3](/img/stoerungsbehebung-m-bus-gateway-stoerungen/03.png)
 
-## M-Bus Zähler ist offline
+</details>
+
+<details id="zaehler-offline">
+<summary>M-Bus Zähler ist offline</summary>
 
 - Zähler fallen unregelmässig aus, es sind nicht immer die gleichen Zähler.
 
@@ -119,8 +128,10 @@ Technische Erklärung
 
         - Lösung: Zählerverdrahtung kurz halten.
 
+</details>
 
-## Zählerwerte stimmen nicht mit physischem Zähler überein
+<details id="werte-stimmen-nicht">
+<summary>Zählerwerte stimmen nicht mit physischem Zähler überein</summary>
 
 - Überprüfe die Zählerkonfiguration.
 
@@ -128,8 +139,10 @@ Technische Erklärung
 
 - Nicht jeder M-Bus Zähler ist kompatibel mit unserem Gateway. Die Liste an kompatiblen Zählern findest du auf der [M-Bus Gateway Produktseite](/produkte/m-bus-gateway)
 
+</details>
 
-## M-Bus Gateway austauschen
+<details id="gateway-austauschen">
+<summary>M-Bus Gateway austauschen</summary>
 
 - Neues M-Bus Gateway verbauen und die Verdrahtung auf das neue Gateway legen.
 
@@ -143,3 +156,5 @@ Technische Erklärung
 
 
 Hinweis: Es muss in der smart-me Konfiguration und im Billing nichts an den bestehenden M-Bus Zählern geändert werden.
+
+</details>

@@ -8,8 +8,6 @@ Auf dieser Seite werden die bekannten Pico Fehler erläutert.
 
 ### RFID wird nicht erkannt.
 
-
-
 Bedeutung: 
 
 - Beim Scannen der RFID wird weder der QR-Code noch das RFID Logo angezeigt.
@@ -32,14 +30,14 @@ Massnahme:
 
 - Mit einer neuen RFID Karte probieren
 
-
 ### Reduzierte Ladeleistung
 
 Wenn die Pico weniger Leistung abgibt, als diese sollte, könnte es sein, dass eine Phase nicht korrekt angeschlossen ist, oder eine Sicherung ausgelöst hat. Durch Klicken auf "Normal" können, ähnlich wie bei den Stromzählern, die Spannungen und Ströme angeschaut werden.
 
 ### Schwarzer Bildschirm (Keine Anzeige)
 
-
+<div className="row">
+<div className="col col--8">
 
 Bedeutung: 
 
@@ -67,7 +65,13 @@ Massnahme:
 
 - Wenn der FI ausgelöst wird, kann es sich um einen Einzelfall handeln. Sollte es häufiger auftreten, kontaktiere uns bitte. Ausser beim "IONIQ 5" und "Zoé" diese Autos löst in Einzelfällen der FI am Ende des Ladevorgangs aus, daran können wir als Hersteller von Ladestationen nichts ändern.
 
+</div>
+<div className="col col--4 bild--voll">
+
 ![Pico Fehler – Abbildung 1](/img/stoerungsbehebung-pico-fehler/01.png)
+
+</div>
+</div>
 
 ### Auto ist eingesteckt und die Ladestation reagiert nicht
 
@@ -95,12 +99,10 @@ Wenn es immer noch nicht reagiert, muss der Stationsbetreiber prüfen, ob fix ei
 
 - Wenn dies nicht der Fall ist, bitte dies durchführen.
 
-
-![Pico Fehler – Abbildung 2](/img/stoerungsbehebung-pico-fehler/02.png)
-
 ### Warn RDC
 
-
+<div className="row">
+<div className="col col--8">
 
 Kabel oder Auto (meistens)
 
@@ -130,10 +132,18 @@ Massnahme:
 
 - Wenn der Fehler ausgelöst wurde, muss die Station neu gestartet werden, um den Fehler zurückzusetzen.
 
+</div>
+<div className="col col--4 bild--voll">
 
-![Pico Fehler – Abbildung 3](/img/stoerungsbehebung-pico-fehler/03.png)
+![Pico Fehler – Abbildung 2](/img/stoerungsbehebung-pico-fehler/02.png)
+
+</div>
+</div>
 
 ### Cable Lock Error
+
+<div className="row">
+<div className="col col--8">
 
 Bedeutung: 
 
@@ -151,14 +161,20 @@ Anzeige im Portal
 
 - Kabelverriegelung fehlgeschlagen
 
+</div>
+<div className="col col--4 bild--voll">
+
+![Pico Fehler – Abbildung 3](/img/stoerungsbehebung-pico-fehler/03.png)
+
+</div>
+</div>
 
 ![Pico Fehler – Abbildung 4](/img/stoerungsbehebung-pico-fehler/04.png)
 
-![Pico Fehler – Abbildung 5](/img/stoerungsbehebung-pico-fehler/05.png)
-
 ### Error 1
 
-
+<div className="row">
+<div className="col col--8">
 
 Bedeutung: 
 
@@ -171,12 +187,18 @@ Massnahme: 
 
 - Wenn ein Neustart nicht den gewünschten Erfolg bringt, muss ein RMA ausgefüllt werden. Fehlerbeschreibung: Error 1
 
+</div>
+<div className="col col--4 bild--voll">
 
-![Pico Fehler – Abbildung 6](/img/stoerungsbehebung-pico-fehler/06.png)
+![Pico Fehler – Abbildung 5](/img/stoerungsbehebung-pico-fehler/05.png)
+
+</div>
+</div>
 
 ### Error 2
 
-
+<div className="row">
+<div className="col col--8">
 
 Bedeutung:  
 
@@ -189,12 +211,18 @@ Massnahme: 
 
 - Wenn ein Neustart nicht den gewünschten Erfolg bringt, muss ein RMA ausgefüllt werden. Fehlerbeschreibung: Error 2
 
+</div>
+<div className="col col--4 bild--voll">
 
-![Pico Fehler – Abbildung 7](/img/stoerungsbehebung-pico-fehler/07.png)
+![Pico Fehler – Abbildung 6](/img/stoerungsbehebung-pico-fehler/06.png)
+
+</div>
+</div>
 
 ### Error 3
 
-
+<div className="row">
+<div className="col col--8">
 
 Bedeutung:  
 
@@ -207,12 +235,18 @@ Massnahme: 
 
 - Wenn ein Neustart nicht den gewünschten Erfolg bringt, muss ein RMA ausgefüllt werden. Fehlerbeschreibung: Error 3
 
+</div>
+<div className="col col--4 bild--voll">
 
-![Pico Fehler – Abbildung 8](/img/stoerungsbehebung-pico-fehler/08.png)
+![Pico Fehler – Abbildung 7](/img/stoerungsbehebung-pico-fehler/07.png)
+
+</div>
+</div>
 
 ### Error 4
 
-
+<div className="row">
+<div className="col col--8">
 
 Bedeutung:  
 
@@ -225,10 +259,18 @@ Massnahme:
 
 - Siehe WARN RDC
 
+</div>
+<div className="col col--4 bild--voll">
 
-![Pico Fehler – Abbildung 9](/img/stoerungsbehebung-pico-fehler/09.png)
+![Pico Fehler – Abbildung 8](/img/stoerungsbehebung-pico-fehler/08.png)
+
+</div>
+</div>
 
 ### P-Limit
+
+<div className="row">
+<div className="col col--8">
 
 Bedeutung:
 
@@ -236,12 +278,18 @@ Bedeutung:
 
 - Lastabwurf aktiv: Leistung begrenzt
 
+</div>
+<div className="col col--4 bild--voll">
 
-![Pico Fehler – Abbildung 10](/img/stoerungsbehebung-pico-fehler/10.png)
+![Pico Fehler – Abbildung 9](/img/stoerungsbehebung-pico-fehler/09.png)
+
+</div>
+</div>
 
 ### Diode Error
 
-
+<div className="row">
+<div className="col col--8">
 
 Mögliche Fehlerquellen:
 
@@ -256,10 +304,18 @@ Massnahme:
 
 - Prüfen, ob mindestens die Version 0.0.42 auf der Pico installiert ist. [Firmware Update](/konfiguration/firmware-update) 
 
+</div>
+<div className="col col--4 bild--voll">
 
-![Pico Fehler – Abbildung 11](/img/stoerungsbehebung-pico-fehler/11.png)
+![Pico Fehler – Abbildung 10](/img/stoerungsbehebung-pico-fehler/10.png)
+
+</div>
+</div>
 
 ### Auto ladet nicht (Balken ist nur ein Pixel breit und rot)
+
+<div className="row">
+<div className="col col--8">
 
 Anzeige:
 
@@ -284,10 +340,15 @@ Massnahmen:
 
 - Für eine genauere Analyse rufe bitte den Support an.
 
+</div>
+<div className="col col--4 bild--voll">
+
+![Pico Fehler – Abbildung 11](/img/stoerungsbehebung-pico-fehler/11.png)
+
+</div>
+</div>
 
 ### Temperatur hoch
-
-
 
 Temperatur hoch
 

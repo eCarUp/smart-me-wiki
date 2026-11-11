@@ -13,7 +13,7 @@ Innerhalb des ZEV liegt die Abrechnung und Tarifierung des Netzstromes und des l
 
 Damit diese Abrechnung durchgeführt werden kann, bedarf es der nötigen Infrastruktur und eines durchgängigen Messkonzeptes für die jeweiligen Energien.
 
-Grundlagen
+**Grundlagen:**
 
 - Private Messung
 

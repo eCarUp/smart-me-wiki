@@ -10,55 +10,60 @@ Die Zählersteckklemmen erlauben das Ersetzen oder Austauschen von Zählern im B
 
 Bitte beachte, dass für den Einsatz dieser Steckklemmen auch Zubehör wie Verbinderwerkzeug und Zähleranschlussstifte mitbestellt werden müssen.
 
-## Eweco Klemmen
+<Kacheln min="15rem">
 
-Die Zählersteckklemmen von Eweco sind direkt kompatibel und werden in der Schweiz hergestellt.
+<Kachel bild="/img/drittprodukte-zaehlersteckklemmen-nimbus-100a/02.png" bildtext="Eweco ZSK" titel="Eweco ZSK" bildhoehe="8rem">
 
-Herstellerwebseite und Informationen zum Vertrieb: [https://www.ewecoklemmen.ch/de/](https://www.ewecoklemmen.ch/de/) 
-
-ZSK: bis 80A
+Strom: bis 80 A
 
 Zählerstifte für Nimbus: Art. A00-906 5x5x45mm
 
-ZAK: bis 100A
+Hersteller: [ewecoklemmen.ch](https://www.ewecoklemmen.ch/de/)
+
+Hergestellt in der Schweiz
+
+</Kachel>
+
+<Kachel bild="/img/drittprodukte-zaehlersteckklemmen-nimbus-100a/01.png" bildtext="Eweco ZAK" titel="Eweco ZAK" bildhoehe="8rem">
+
+Strom: bis 100 A
 
 Zählerstifte für Nimbus: Art. Nr. A00-901 6x7x45mm, rund
 
-![Zählersteckklemmen Nimbus 100A – Abbildung 1](/img/drittprodukte-zaehlersteckklemmen-nimbus-100a/01.png)
+Hersteller: [ewecoklemmen.ch](https://www.ewecoklemmen.ch/de/)
 
-![Zählersteckklemmen Nimbus 100A – Abbildung 2](/img/drittprodukte-zaehlersteckklemmen-nimbus-100a/02.png)
+Hergestellt in der Schweiz
 
-## Hager Klemmen
+</Kachel>
 
-Herstellerwebseite und Informationen zum Vertrieb:
-[Zählersteckklemmen und Zubehör | Hager Schweiz](https://hager.com/de-ch/katalog/verteilersysteme-und-schraenke/anschlusstechnik/zaehlersteckklemmen-und-zubehoer?AT_MarketingNodeNameSysFunc%5b0%5d=Z%C3%A4hleranschlussklemme) 
+<Kachel bild="/img/drittprodukte-zaehlersteckklemmen-nimbus-100a/04.png" bildtext="Hager KJ31CH01" titel="Hager KJ31CH01" bildhoehe="8rem">
 
-Serie KJ31CH01: bis 100A 
+Strom: bis 100 A
 
-Serie KJD080C1: bis 80A
-Zählerstift für Nimbus: Hager KJZ080A4 80A Ø6×41mm 
+Hersteller: [Zählersteckklemmen bei Hager](https://hager.com/de-ch/katalog/verteilersysteme-und-schraenke/anschlusstechnik/zaehlersteckklemmen-und-zubehoer?AT_MarketingNodeNameSysFunc%5b0%5d=Z%C3%A4hleranschlussklemme)
 
+</Kachel>
 
+<Kachel bild="/img/drittprodukte-zaehlersteckklemmen-nimbus-100a/03.png" bildtext="Hager KJD080C1" titel="Hager KJD080C1" bildhoehe="8rem">
 
-![Zählersteckklemmen Nimbus 100A – Abbildung 3](/img/drittprodukte-zaehlersteckklemmen-nimbus-100a/03.png)
+Strom: bis 80 A
 
-![Zählersteckklemmen Nimbus 100A – Abbildung 4](/img/drittprodukte-zaehlersteckklemmen-nimbus-100a/04.png)
+Zählerstift für Nimbus: Hager KJZ080A4 80A Ø6×41mm
 
-## Seidl Klemmen
+Hersteller: [Zählersteckklemmen bei Hager](https://hager.com/de-ch/katalog/verteilersysteme-und-schraenke/anschlusstechnik/zaehlersteckklemmen-und-zubehoer?AT_MarketingNodeNameSysFunc%5b0%5d=Z%C3%A4hleranschlussklemme)
 
-<div className="row">
-<div className="col col--6">
+</Kachel>
 
-Herstellerwebseite und Informationen zum Vertrieb: [https://seidlgmbh.com/produkte/](https://seidlgmbh.com/produkte/) 
+<Kachel bild="/img/drittprodukte-zaehlersteckklemmen-nimbus-100a/05.png" bildtext="Seidl SL-ZAKD" titel="Seidl SL-ZAKD" bildhoehe="8rem">
 
-SL-ZAKD: bis 80A Dauerstrom und 128A Überlaststrom - Schraubklemme
+Strom: bis 80 A Dauerstrom, 128 A Überlaststrom
+
+Typ: Schraubklemme
 
 Zählerstift für Nimbus: SL-6-6-42
 
-</div>
-<div className="col col--6 bild--mitte">
+Hersteller: [seidlgmbh.com](https://seidlgmbh.com/produkte/)
 
-![Zählersteckklemmen Nimbus 100A – Abbildung 5](/img/drittprodukte-zaehlersteckklemmen-nimbus-100a/05.png)
+</Kachel>
 
-</div>
-</div>
+</Kacheln>

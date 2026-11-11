@@ -75,7 +75,7 @@ Bitte beachte die folgenden Voraussetzungen:
 
 - Seriennummer startet mit 62\*: Telstar CT
 
-1.  ### Zähler neu starten
+#### 1\. Zähler neu starten
 
 Dies ist nur zur Info, wie es gemacht wird, es kann weiter unten verlangt werden den Zähler neu zu starten, um ihn wieder online zu bringen. 
 
@@ -105,7 +105,7 @@ Verhalten wenn der Zähler nicht online kommt:
 
 ![Zähler offline – Abbildung 3](/img/stoerungsbehebung-zaehler-offline/03.gif)
 
-### 2\. Prüfung bei der Ankunft
+#### 2\. Prüfung bei der Ankunft
 
 <div className="row">
 <div className="col col--7">
@@ -120,7 +120,7 @@ Folgende Punkte können bei der Ankunft überprüft werden. Wenn bereits etwas a
 </div>
 </div>
 
-### Zähler wechselt zwischen X und Empfangssymbol:
+#### 3\. Zähler wechselt zwischen X und Empfangssymbol:
 
 - Prüfen, ob durch 10 Sekunden langes Drücken der Taste T1 das Empfangssymbol auf dem Display zwischen hell und dunkel wechselt. Ist dies nicht der Fall, ruf bitte den Support an.
 
@@ -131,7 +131,7 @@ Folgende Punkte können bei der Ankunft überprüft werden. Wenn bereits etwas a
 - Lösung 3: Support anrufen 
 
 
-### Anzeige ist dunkel:
+#### 4\. Anzeige ist dunkel:
 
 - Lösung 1: Prüfen, dass mindestens Phase 1 angeschlossen ist
 
@@ -187,12 +187,12 @@ Zähler kann sich nicht mit dem WLAN verbinden:
 - Lösung 4: Support anrufen 
 
 
-## 3 Phasen 80A (alte Version)
+### 3 Phasen 80A (alte Version)
 
 - Seriennummer startet mit 60\*: 3 Phasen 80A
 
 
-1.  ### Zähler neu starten
+#### 1. Zähler neu starten
 
 
 Dies ist nur zur Info, wie es gemacht wird. Weiter unten kann verlangt werden den Zähler neu zu starten, um ihn wieder online zu bringen. 
@@ -225,7 +225,7 @@ Verhalten wenn der Zähler nicht online kommt:
 - Wenn dies nicht hilft, den Support anrufen.
 
 
-### Prüfung bei der Ankunft
+#### Prüfung bei der Ankunft
 
 <div className="row">
 <div className="col col--6">
@@ -283,7 +283,7 @@ Zähler kann sich  nicht mit dem WLAN verbinden:
 - Lösung 4: Support anrufen
 
 
-## Bauer Station
+### Bauer Station
 
 - Das Symbol im smart-me Portal ist ein Tankstellensymbol und kein Blitz
 
@@ -292,7 +292,7 @@ Zähler kann sich  nicht mit dem WLAN verbinden:
 - Seriennummer startet mit 62\*: Telstar 80A (neu)
 
 
-### Prüfung bei der Ankunft
+#### Prüfung bei der Ankunft
 
 - -   Support anrufen. Anleitung in Arbeit.
 

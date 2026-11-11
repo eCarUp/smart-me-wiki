@@ -6,7 +6,8 @@ sidebar_label: 'Errori di visualizzazione'
 ---
 In questa sezione sono descritti i messaggi di errore noti relativi alle visualizzazioni e le possibili soluzioni.
 
-### L'utente in sola lettura non vede il flusso di energia.
+<details id="energiefluss-lese-user">
+<summary>L'utente in sola lettura non vede il flusso di energia.</summary>
 
 <div className="row">
 <div className="col col--6">
@@ -27,22 +28,28 @@ I dati energetici non vengono visualizzati.
 </div>
 </div>
 
-### Le tariffe virtuali semplici (appartamento) vengono visualizzate vuote
+</details>
 
-La visualizzazione non funziona o risulta vuota
+<details id="virtuelle-tarife-leer">
+<summary>Le tariffe virtuali semplici (appartamento) vengono visualizzate vuote</summary>
+
+La visualizzazione non funziona o viene mostrata vuota
 
 - Soluzione 1: verificare che nello smart-me Billing il calcolo delle tariffe virtuali (riquadro blu) non presenti errori. [Messaggi di errore del Billing](/stoerungsbehebung/billing-fehlermeldungen) 
 
-- Soluzione 2: assicurarsi di aver selezionato la cartella dell'appartamento. Se si seleziona il contatore, non funziona.
+- Soluzione 2: assicurarsi che sia stata selezionata la cartella dell'appartamento. Se si seleziona il contatore, non funziona.
 
 
 ![Errori di visualizzazione – Figura 4](/img/stoerungsbehebung-visualisierungsfehler/04.png)
 
-### Flusso di energia semplice
+</details>
+
+<details id="einfacher-energiefluss">
+<summary>Flusso di energia semplice</summary>
 
 I valori non vengono visualizzati correttamente:
 
-- Soluzione 1: assicurarsi che nella configurazione siano registrati solo due contatori su tre. Se vengono indicati tutti e tre i contatori, possono verificarsi visualizzazioni errate. Raccomandiamo sempre, se possibile, di indicare misurazioni dirette e non contatori virtuali
+- Soluzione 1: assicurarsi che nella configurazione siano registrati solo due contatori su tre. Se vengono indicati tutti e tre i contatori, la visualizzazione può risultare errata. Consigliamo sempre, se possibile, di indicare misurazioni dirette e non contatori virtuali
 
 - Soluzione 2: verificare che i contatori forniscano i valori corretti.
 
@@ -52,9 +59,9 @@ I valori non vengono visualizzati correttamente:
 <div className="row">
 <div className="col col--8">
 
-Il contatore FV era collegato in modo errato. Dopo averlo collegato correttamente, il grafico non è più corretto.
+Il contatore FV era collegato in modo errato. Dopo averlo collegato correttamente, ora il grafico non è più corretto.
 
-- Soluzione 1: la freccia del grafico è determinata dalla lettura del contatore. Ora è sufficiente attendere finché la lettura del contatore diventa negativa.
+- Soluzione 1: la freccia del grafico è determinata dalla lettura del contatore. Ora basta semplicemente attendere finché la lettura del contatore diventa negativa.
 
 </div>
 <div className="col col--4 bild--mitte">
@@ -64,17 +71,25 @@ Il contatore FV era collegato in modo errato. Dopo averlo collegato correttament
 </div>
 </div>
 
-### Monitoraggio di consumo e produzione
+</details>
+
+<details id="verbrauch-produktion-monitoring">
+<summary>Monitoraggio di consumo e produzione</summary>
 
 Viene visualizzato NaN%
 
-- Soluzione 1: in questo giorno il contatore solare non ha ancora prodotto nulla. Attendere 24h oppure selezionare il periodo "Personalizzato" ("Individuell"), in modo che venga visualizzato il giorno corrente.
+- Soluzione 1: il contatore solare in quel giorno non ha ancora prodotto nulla. Attendere 24h oppure selezionare il periodo "Personalizzato" ("Individuell"), in modo che venga visualizzato il giorno corrente.
 
 
 ![Errori di visualizzazione – Figura 7](/img/stoerungsbehebung-visualisierungsfehler/07.png)
 
-### Il diagramma a torta non mostra tutti i contatori
+</details>
 
-Ciò accade quando solo alcuni contatori sono online, ad esempio, da 7 giorni: in tal caso vengono visualizzati solo questi e gli altri non ancora.
+<details id="kuchendiagramm-unvollstaendig">
+<summary>Il diagramma a torta non mostra tutti i contatori</summary>
+
+Ciò accade quando solo alcuni contatori sono online, ad es. da 7 giorni: in questo caso vengono visualizzati solo questi e gli altri non ancora.
 
 ![Errori di visualizzazione – Figura 8](/img/stoerungsbehebung-visualisierungsfehler/08.png)
+
+</details>

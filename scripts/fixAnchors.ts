@@ -17,6 +17,10 @@
  * Überschriftenfolge hat wie ihre deutsche Vorlage. Die n-te Überschrift der
  * deutschen Seite entspricht also der n-ten der übersetzten – und damit lässt
  * sich jeder deutsche Anker auf seinen übersetzten Gegenpart abbilden.
+ *
+ * Umgebogen werden Markdown-Links (`[…](/seite#anker)`) und Sprungmarken in
+ * JSX-Attributen (`<Kachel href="/seite#anker">`). Letztere kommen vor, seit
+ * Navigationskacheln die früheren Linklisten ersetzen.
  */
 import {readFile, readdir, writeFile} from 'node:fs/promises';
 import {existsSync} from 'node:fs';
@@ -116,49 +120,74 @@ export async function fixAnchors(
       const self = target.slice(`${root}/`.length);
       const original = await readFile(target, 'utf8');
 
-      const updated = original.replace(
+      /**
+       * Der passende Anker der Zielseite in dieser Sprache.
+       *
+       * `null` heisst: nichts zu tun, der Anker bleibt stehen. Ein leerer
+       * String heisst: der Anker kommt nirgends vor und entfällt.
+       */
+      const umbiegen = (
+        linkPath: string | undefined,
+        anchor: string,
+      ): string | null => {
+        // Ohne Pfad meint der Link eine Stelle auf derselben Seite.
+        const relativePath = linkPath
+          ? pathBySlug.get(linkPath.replace(/\/$/, '') || '/')
+          : self;
+        if (!relativePath) return null;
+
+        const deSlugs = slugsBySource.get(relativePath);
+        const localeSlugs = slugsByTarget.get(relativePath);
+        if (!deSlugs || !localeSlugs) return null;
+
+        // Der Anker trifft bereits eine Überschrift der Zielseite – nichts zu
+        // tun. Damit ist der Lauf auch mehrfach ausführbar.
+        if (localeSlugs.includes(anchor)) return null;
+
+        // Ein ausdrücklich vergebenes Sprungziel (`<details id="…">`) heisst
+        // in jeder Sprache gleich und bleibt deshalb unangetastet.
+        // Geprüft wird gegen beide Seiten: Solange die Übersetzung noch nicht
+        // neu erzeugt ist, trägt nur die deutsche Vorlage die ID.
+        const ids = [
+          ...(idsByTarget.get(relativePath) ?? []),
+          ...(idsBySource.get(relativePath) ?? []),
+        ];
+        if (ids.includes(anchor)) return null;
+
+        const index = deSlugs.indexOf(anchor);
+        if (index >= 0 && index < localeSlugs.length) return localeSlugs[index];
+
+        // Weder in dieser Sprache noch im deutschen Master zu finden. Das
+        // passiert bei den aus dem alten englischen Wiki übernommenen Seiten:
+        // Ihre Sprungmarken zeigen auf die damaligen englischen
+        // Überschriften, und sobald die Zielseite neu übersetzt wurde, gibt
+        // es die nicht mehr. Eine Zuordnung wäre geraten, deshalb bleibt der
+        // Link auf die Seite – ohne Sprungmarke – statt ins Leere zu zeigen.
+        if (deSlugs.length > 0) {
+          unresolved.push({file: target, anchor});
+          return '';
+        }
+        return null;
+      };
+
+      let updated = original.replace(
         /\]\((\/[^)\s#]*)?#([^)\s]+)\)/g,
         (match, linkPath: string | undefined, anchor: string) => {
-          // Ohne Pfad meint der Link eine Stelle auf derselben Seite.
-          const relativePath = linkPath
-            ? pathBySlug.get(linkPath.replace(/\/$/, '') || '/')
-            : self;
-          if (!relativePath) return match;
+          const ziel = umbiegen(linkPath, anchor);
+          if (ziel === null) return match;
+          return ziel ? `](${linkPath ?? ''}#${ziel})` : `](${linkPath ?? ''})`;
+        },
+      );
 
-          const deSlugs = slugsBySource.get(relativePath);
-          const localeSlugs = slugsByTarget.get(relativePath);
-          if (!deSlugs || !localeSlugs) return match;
-
-          // Der Anker trifft bereits eine Überschrift der Zielseite – nichts zu
-          // tun. Damit ist der Lauf auch mehrfach ausführbar.
-          if (localeSlugs.includes(anchor)) return match;
-
-          // Ein ausdrücklich vergebenes Sprungziel (`<details id="…">`) heisst
-          // in jeder Sprache gleich und bleibt deshalb unangetastet.
-          // Geprüft wird gegen beide Seiten: Solange die Übersetzung noch nicht
-          // neu erzeugt ist, trägt nur die deutsche Vorlage die ID.
-          const ids = [
-            ...(idsByTarget.get(relativePath) ?? []),
-            ...(idsBySource.get(relativePath) ?? []),
-          ];
-          if (ids.includes(anchor)) return match;
-
-          const index = deSlugs.indexOf(anchor);
-          if (index >= 0 && index < localeSlugs.length) {
-            return `](${linkPath ?? ''}#${localeSlugs[index]})`;
-          }
-
-          // Weder in dieser Sprache noch im deutschen Master zu finden. Das
-          // passiert bei den aus dem alten englischen Wiki übernommenen Seiten:
-          // Ihre Sprungmarken zeigen auf die damaligen englischen
-          // Überschriften, und sobald die Zielseite neu übersetzt wurde, gibt
-          // es die nicht mehr. Eine Zuordnung wäre geraten, deshalb bleibt der
-          // Link auf die Seite – ohne Sprungmarke – statt ins Leere zu zeigen.
-          if (deSlugs.length > 0) {
-            unresolved.push({file: target, anchor});
-            return `](${linkPath ?? ''})`;
-          }
-          return match;
+      // Sprungmarken in JSX-Attributen, etwa `<Kachel href="/seite#anker">`.
+      updated = updated.replace(
+        /href="(\/[^"\s#]*)?#([^"\s]+)"/g,
+        (match, linkPath: string | undefined, anchor: string) => {
+          const ziel = umbiegen(linkPath, anchor);
+          if (ziel === null) return match;
+          if (ziel) return `href="${linkPath ?? ''}#${ziel}"`;
+          // Ohne Pfad bliebe ein leeres href übrig – dann lieber stehen lassen.
+          return linkPath ? `href="${linkPath}"` : match;
         },
       );
 

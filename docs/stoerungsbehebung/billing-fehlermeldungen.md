@@ -40,7 +40,8 @@ Rechnungsstellung  --> Konfiguration --> Liegenschaft editieren --> Rechnungen 
 
 ![Billing Problembehebung – Abbildung 3](/img/stoerungsbehebung-billing-fehlermeldungen/03.png)
 
-### Berechnung startet bald ...
+<details id="berechnung-startet-bald">
+<summary>Berechnung startet bald ...</summary>
 
 Diese Meldung wird angezeigt, wenn keine virtuellen Tarife berechnet wurden. Dies kann folgende Ursachen haben:
 
@@ -92,8 +93,10 @@ Die Ordnerstruktur der Liegenschaft ist einstufig (nur Abrechnungseinheiten), so
 
     - Lösung: Ordnerstruktur prüfen
 
+</details>
 
-### EVT001: There must be at least one normal virtual tariff active, but for ValuePeriod &#123; ... &#125; there is none
+<details id="evt001">
+<summary>EVT001: There must be at least one normal virtual tariff active, but for ValuePeriod &#123; ... &#125; there is none</summary>
 
 Diese Meldung wird angezeigt, wenn nicht für den ganzen Abrechnungszeitraum mindestens ein Netztarif gültig ist. In der geschweiften Klammer wird ein Zeitpunkt genannt, bei dem kein Netztarif gültig ist (Angaben in UTC). 
 
@@ -105,8 +108,10 @@ Diese Meldung wird angezeigt, wenn nicht für den ganzen Abrechnungszeitraum min
 
 - Lösung 3: "neu rechnen" drücken und erst das Datum eingeben, ab dem ein gültiger Tarif konfiguriert ist.
 
+</details>
 
-### EVT002: Not more than one unconditional normal virtual tariff must be active at a time, but for ValuePeriod ... there are the following ones: - ...
+<details id="evt002">
+<summary>EVT002: Not more than one unconditional normal virtual tariff must be active at a time, but for ValuePeriod ... there are the following ones: - ...</summary>
 
 Diese Meldung wird angezeigt, wenn mehr als ein Netztarif gleichzeitig gültig ist. Dadurch kann das Billing nicht entscheiden, auf welchen Tarif der Verbrauch gerechnet werden muss.
 
@@ -116,8 +121,10 @@ Diese Meldung wird angezeigt, wenn mehr als ein Netztarif gleichzeitig gültig i
 
 - Lösung 3: Die Wenn/Dann Aktionen wurden falsch konfiguriert. Dies tritt vor allem dann auf, wenn Hoch- und Niedertarife für Netz- und Solarstrom konfiguriert sind.
 
+</details>
 
-### EVT003: For ValuePeriod ... the following virtual tariffs are active but erroneous: - Solar tariff ... is invalid because of: Solar Meter: Meter with id ....' does not exist
+<details id="evt003">
+<summary>EVT003: For ValuePeriod ... the following virtual tariffs are active but erroneous: - Solar tariff ... is invalid because of: Solar Meter: Meter with id ....' does not exist</summary>
 
 Diese Meldung wird angezeigt, wenn bei einem Solartarif hinterlegtem Zähler ein Problem vorliegt.
 
@@ -125,15 +132,19 @@ Diese Meldung wird angezeigt, wenn bei einem Solartarif hinterlegtem Zähler ein
 
 - Lösung 2: Es wurde ein alter Zähler hinterlegt, welcher in der Zwischenzeit gelöscht wurde -> neuen Zähler hinterlegen
 
+</details>
 
-### EVT004: The following residential commercial units are defective: - '....': the following assignments are defective: - Meter with id '....' does not exist
+<details id="evt004">
+<summary>EVT004: The following residential commercial units are defective: - '....': the following assignments are defective: - Meter with id '....' does not exist</summary>
 
 In einer der Abrechnungseinheiten befindet sich ein gelöschter Zähler.
 
 - Die Abrechnungseinheit wählen, welche in der Fehlermeldung angegeben wird und den gelöschten Zähler "not found" löschen und eventuell neuen Zähler hinterlegen
 
+</details>
 
-### EVT005: There is no residential commercial unit.
+<details id="evt005">
+<summary>EVT005: There is no residential commercial unit.</summary>
 
 Diese Fehlermeldung taucht auf, wenn keine Abrechnungseinheit gefunden wurde.
 
@@ -150,8 +161,10 @@ Bei den externen Schlüsseln (Am Ende der Seite) werden keine Abrechnungseinheit
 
     - Lösung: Die Abrechnungseinheiten müssen neu erstellt werden. Wichtig ist jeweils den Liegenschaftsordner anzuwählen und dann "Knoten hinzufügen" zu wählen. Bei "Übergeordneter Ordner" muss der Name des Liegenschaftsordners angezeigt werden.
 
+</details>
 
-### EVT006: Failed to load meters of folder '...': - Erroneous virtual meter '....: - Meter with id '....' does not exist
+<details id="evt006">
+<summary>EVT006: Failed to load meters of folder '...': - Erroneous virtual meter '....: - Meter with id '....' does not exist</summary>
 
 <div className="row">
 <div className="col col--5">
@@ -166,7 +179,10 @@ Der virtuelle Zähler besteht aus Zählern, die gelöscht wurden.
 </div>
 </div>
 
-### EVT007: Möglicherweise verfügen nicht alle Zähler in der Konfiguration über die für virtuelle Tarife gesetzlich vorgeschriebene Lastgang- oder Zählerstandgang-Zertifizierung.
+</details>
+
+<details id="evt007">
+<summary>EVT007: Möglicherweise verfügen nicht alle Zähler in der Konfiguration über die für virtuelle Tarife gesetzlich vorgeschriebene Lastgang- oder Zählerstandgang-Zertifizierung.</summary>
 
 Dieser Hinweis ist rein informativ und wird angezeigt, wenn Fremdgeräte oder von smart-me nicht zertifizierte Zähler verwendet werden. Er hat keinen Einfluss auf die Berechnung.
 
@@ -174,7 +190,10 @@ Mit diesem Hinweis wollen wir sicherstellen, dass sich der Rechnungssteller bewu
 
 Hinweis: Diese Meldung kann nicht deaktiviert werden.
 
-### EVT020: Waiting for meter values of .... Last values at.... (UTC))
+</details>
+
+<details id="evt020">
+<summary>EVT020: Waiting for meter values of .... Last values at.... (UTC))</summary>
 
 Diese Meldung taucht auf, wenn nicht alle nötigen Lastgangdaten vorhanden sind, um die Tarife weiter berechnen zu können.
 
@@ -186,24 +205,35 @@ Diese Meldung taucht auf, wenn nicht alle nötigen Lastgangdaten vorhanden sind,
 
 - Zähler müssen Lastgangdaten senden. Bei Defekt werden eventuell nur Livedaten versendet, diese sind für die Abrechnung nicht geeignet. (Es benötigt 15min Lastgangdaten.)
 
+</details>
 
-### EBC010: Die Kosten der Batteriepreiskomponente stimmen nicht mit den virtuellen Tarifkosten überein
-
-Diese Meldung kommt nur wenn Mieterstrom aktiviert ist. Dies kommt vor wenn die Tarifstruktur geändert wurde, die Preiskomponenten bei den Sonstigen Positionen jedoch noch nicht geupdated wurde.
-
-### EBC011: Die Kosten der Netz- oder Solar-Preiskomponenten stimmen nicht mit den virtuellen Tarifkosten überein
+<details id="ebc010">
+<summary>EBC010: Die Kosten der Batteriepreiskomponente stimmen nicht mit den virtuellen Tarifkosten überein</summary>
 
 Diese Meldung kommt nur wenn Mieterstrom aktiviert ist. Dies kommt vor wenn die Tarifstruktur geändert wurde, die Preiskomponenten bei den Sonstigen Positionen jedoch noch nicht geupdated wurde.
 
-### EBC012: Die Kosten der Solar-Preiskomponenten stimmen nicht mit den virtuellen Tarifkosten überein.
+</details>
+
+<details id="ebc011">
+<summary>EBC011: Die Kosten der Netz- oder Solar-Preiskomponenten stimmen nicht mit den virtuellen Tarifkosten überein</summary>
 
 Diese Meldung kommt nur wenn Mieterstrom aktiviert ist. Dies kommt vor wenn die Tarifstruktur geändert wurde, die Preiskomponenten bei den Sonstigen Positionen jedoch noch nicht geupdated wurde.
+
+</details>
+
+<details id="ebc012">
+<summary>EBC012: Die Kosten der Solar-Preiskomponenten stimmen nicht mit den virtuellen Tarifkosten überein.</summary>
+
+Diese Meldung kommt nur wenn Mieterstrom aktiviert ist. Dies kommt vor wenn die Tarifstruktur geändert wurde, die Preiskomponenten bei den Sonstigen Positionen jedoch noch nicht geupdated wurde.
+
+</details>
 
 ## Fehler bei erstellten Rechnungen
 
 ![Billing Problembehebung – Abbildung 5](/img/stoerungsbehebung-billing-fehlermeldungen/05.png)
 
-### EBC001: Verbräuche der virtuellen Tarife stimmen nicht mit dem Verbrauch überein.
+<details id="ebc001">
+<summary>EBC001: Verbräuche der virtuellen Tarife stimmen nicht mit dem Verbrauch überein.</summary>
 
 Diese Meldung wird angezeigt, wenn die Summe der virtuellen Tarife nicht dem Verbrauch der Zähler entspricht. Dieses Problem entsteht, wenn die Zuweisung der virtuellen Tarife nicht korrekt passiert. 
 
@@ -265,8 +295,10 @@ vZEV Daten wurden aktualisiert
 
 - Lösung: Es muss neu gerechnet werden.
 
+</details>
 
-### EBC002/EBC003: Keine Werte zum Startdatum oder Enddatum gefunden.
+<details id="ebc002-ebc003">
+<summary>EBC002/EBC003: Keine Werte zum Startdatum oder Enddatum gefunden.</summary>
 
 Diese Meldung betrifft Multienergiezähler.
 
@@ -282,10 +314,12 @@ Mögliche Ursachen:
 
 - Das gewählte Jahr ist falsch.
 
+</details>
 
-### EBC004: Rechnungen werden leer oder gar nicht generiert.
+<details id="ebc004">
+<summary>EBC004: Rechnungen werden leer oder gar nicht generiert.</summary>
 
-### Mögliche Ursachen:
+**Mögliche Ursachen:**
 
 - Bei der entsprechenden Abrechnungseinheit wurde keine gültige Rechnungsadresse hinterlegt (Zeitraum beachten) →  unser System geht sonst davon aus, dass kein Mieter in der Wohnung wohnt und erzeugt dementsprechend auch keine Rechnung. 
 
@@ -297,32 +331,39 @@ Mögliche Ursachen:
 
 - Es ist keine Rechnungsadresse für den Zeitraum hinterlegt. 
 
+</details>
 
-### EBC005: The added or subtracted value results in an un-representable DateTime. Parameter name: value Index was outside the bounds of the array.
+<details id="ebc005">
+<summary>EBC005: The added or subtracted value results in an un-representable DateTime. Parameter name: value Index was outside the bounds of the array.</summary>
 
 Ihr Bexio-Login ist nicht mehr gültig. Du musst dich neu einloggen.
 
-### QR bill data is invalid: currency should be "CHF" or "EUR" (currency\_not\_chf\_or\_eur)
+</details>
+
+<details id="qr-bill-waehrung">
+<summary>QR bill data is invalid: currency should be "CHF" or "EUR" (currency\_not\_chf\_or\_eur)</summary>
 
 Die Währung ist nicht auf CHF oder EUR gesetzt. 
 
 Login--> Rechnungserstellung --> Einstellungen --> Währung ändern und auf "CHF" setzen --> Speichern.
 
+</details>
 
-
-### QR bill data is invalid: amount should be between 0.01 and 999 999 999.99 (amount\_outside\_valid\_range)
+<details id="qr-bill-betrag">
+<summary>QR bill data is invalid: amount should be between 0.01 and 999 999 999.99 (amount\_outside\_valid\_range)</summary>
 
 Der zu verrechnende Betrag ist negativ. Das kann passieren, bei einer Sonstige Positionen z.B. Rückvergütungen.
 
 Dies kann nicht umgangen werden. Die Rechnung wird trotzdem erstellt (Ohne QR Code).
 
-
+</details>
 
 ## Spitzenverbrauch Tarife spezifische Fehlermeldungen
 
-### EPK001: Zähler für Netzstrom wurde nicht konfiguriert
+<details id="epk001">
+<summary>EPK001: Zähler für Netzstrom wurde nicht konfiguriert</summary>
 
-### Mögliche Ursachen:
+**Mögliche Ursachen:**
 
 - Im smart-me Billing wurde der Bilanzzähler nicht im Spitzentarif hinterlegt.
 
@@ -333,14 +374,19 @@ Problem Lösen: 
 
 - smart-me Billing --> Konfiguration --> Spitzenverbrauch Tarife --> Editieren --> Bilanzzähler hinzufügen --> Speichern.
 
+</details>
 
-### EPK002: Spitzenlastkosteneinträge fehlen für den Abrechnungszeitraum
+<details id="epk002">
+<summary>EPK002: Spitzenlastkosteneinträge fehlen für den Abrechnungszeitraum</summary>
 
 Im smart-me Billing wurden die Kosten des Spitzentarifs nicht hinterlegt.
 
 Lösung: smart-me Billing --> Konfiguration --> Spitzenverbrauch Tarife --> Kosten hinzufügen --> Preis / kW hinzufügen --> Speichern.
 
-### EPK003: Der Netzverbrauch im Abrechnungszeitraum konnte nicht ermittelt werden.
+</details>
+
+<details id="epk003">
+<summary>EPK003: Der Netzverbrauch im Abrechnungszeitraum konnte nicht ermittelt werden.</summary>
 
 Der Bilanzzähler hat keine Daten geliefert.
 
@@ -355,8 +401,10 @@ Der Bilanzzähler hat nicht für einen ganzen Monat Daten geliefert.
 
 - Lösung: Spitzentarif erst ab einem Monat später konfigurieren. Für den Monat mit Lücke kann ein Spitzenverbrauch mit "Zugewiesenen Kosten" erstellt werden. 
 
+</details>
 
-### EPK004: Mindestens eine Abrechnungseinheit muss einen Verbrauch im Abrechnungszeitraum haben.
+<details id="epk004">
+<summary>EPK004: Mindestens eine Abrechnungseinheit muss einen Verbrauch im Abrechnungszeitraum haben.</summary>
 
 Es wird nur Solartarif verrechnet
 
@@ -371,20 +419,28 @@ Es wurde kein Verbrauch gemessen
 
 - Lösung 1: Prüfen, wann die Zähler in Betrieb genommen wurden und ob über die gesamte Periode Daten vorhanden sind.
 
+</details>
 
 ## VEWA spezifische Fehlermeldungen
 
-### Auf der Rechnung werden die Werte gar nicht oder mit 0kWh angezeigt, obwohl ein Verbrauch stattgefunden hat.
+<details id="werte-fehlen-auf-der-rechnung">
+<summary>Auf der Rechnung werden die Werte gar nicht oder mit 0kWh angezeigt, obwohl ein Verbrauch stattgefunden hat.</summary>
 
 Es muss jeweils ein Tarif hinterlegt sein (Platzhalter) für die jeweiligen Energietypen. Wärme, Warmwasser, etc.
 
 Login --> Rechnung erstellen --> Einstellungen (oben Mitte) --> Liegenschaft editieren --> Tarife für Wärme / Warmwasser / etc. mit 0 CHF hinterlegen. --> Speichern.
 
-### Word & Excel-Dateien werden leer erstellt (0 Byte)
+</details>
+
+<details id="word-und-excel-leer">
+<summary>Word & Excel-Dateien werden leer erstellt (0 Byte)</summary>
 
 Diese Dateien sind nur ausserhalb von VEWA nutzbar. Wenn VEWA aktiviert ist, bleiben die Tasten dafür zwar sichtbar, geben jedoch nur leere Dateien aus.
 
-### Keine Werte für Zähler. Es werden Ersatzwerte verwendet.
+</details>
+
+<details id="ersatzwerte">
+<summary>Keine Werte für Zähler. Es werden Ersatzwerte verwendet.</summary>
 
 Dieser Fehler kann vorkommen und ist nicht in jedem Fall kritisch zu bewerten. Es ist aber darauf zu achten, wie weit der Ersatzwert sich vom angefragten Wert absetzt.
 
@@ -392,25 +448,30 @@ Die Fehlermeldung tritt nach spätestens 48h Abweichung auf.
 
 Hinweis: Überprüfe evtl. das Ausleseintervall des M-Bus Gateways dass es sich öfters als alle 2 Tage ausliest um auszuschliessen das der Fehler systematisch auftritt.
 
+</details>
 
-
-### EVW001: Fehlendes Mietverhältnis oder Leerstand!
+<details id="evw001">
+<summary>EVW001: Fehlendes Mietverhältnis oder Leerstand!</summary>
 
 Bitte trage das fehlende Mietverhältnis oder den Leerstand nach.
 
 Ohne die Nachtragung werden die Kosten vollumfänglich auf die eingetragenen Kontrakte verrechnet und die Referenzsummenenergie auch nur aus diesen Kontrakten gebildet. (Weniger Energie als eigentlich verbraucht)
 
+</details>
 
-
-### EVW002: Doppelbelegung der Abrechnungseinheit!
+<details id="evw002">
+<summary>EVW002: Doppelbelegung der Abrechnungseinheit!</summary>
 
 Prüfe die Leerstände und Mietverhältnisse auf Doppelbelegungen.
 
 Ohne die Korrektur werden die Kosten vollumfänglich auf die eingetragenen Kontrakte verrechnet und die Referenzsummenenergie aus zu vielen Kontrakten gebildet. (Mehr Energie als eigentlich verbraucht)
 
+</details>
+
 ## Adresse kann nicht gepflegt werden
 
-### ID Address Email Description Valid from Valid to Valid to (ISO) Valid from (ISO)Third party key
+<details id="adresse-externe-schluessel">
+<summary>ID Address Email Description Valid from Valid to Valid to (ISO) Valid from (ISO)Third party key</summary>
 
 Mögliche Ursachen:
 
@@ -420,6 +481,8 @@ Mögliche Ursachen:
 
 
 Lösung: Siehe EVT005
+
+</details>
 
 ## Themen detaillierter erklärt:
 

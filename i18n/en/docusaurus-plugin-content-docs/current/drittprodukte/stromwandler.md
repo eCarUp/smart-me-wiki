@@ -2,212 +2,186 @@
 title: 'Current Transformers and accessories for Telstar CT'
 slug: '/drittprodukte/stromwandler'
 description: 'None of these products are sold by smart-me AG or offered as accessories at the time of purchase.'
-sidebar_label: 'Current transformers'
+sidebar_label: 'Current Transformers'
 ---
 Important note:
 
 None of these products are sold by smart-me AG or offered as accessories at the time of purchase. Please buy these products directly from the manufacturer.
 
-Below is a list of recommended products. smart-me does not earn any money from the recommended products and provides no warranty for them. You can use other products at any time. Make sure that they meet the requirements of the product in question, in this case the [3-Phase Meter Telstar CT](/produkte/telstar-ct).
+Below you will find a list of product recommendations. smart-me does not earn any money from the recommended products and provides no warranty for them. You can use other products at any time. Always make sure that they meet the requirements of the respective product, in this case the [3-Phase Meter Telstar CT](/produkte/telstar-ct).
 
-These recommendations are meant to help our partners find suitable products quickly and efficiently when they do not yet know of any.
+The aim of these recommendations is to give our partners an easy and efficient way to find specific products when they do not yet know a suitable one.
 
 ## Calibrated current transformers for billing purposes
 
-If the meters are used for billing, you need calibrated transformers that meet at least class 0.5 or better.
+If the meters are to be used for billing, you need calibrated transformers that meet at least accuracy class 0.5 or better.
 
-![Current Transformers and accessories for Telstar CT – Figure 1](/img/drittprodukte-stromwandler/01.png)
+<Kacheln min="15rem">
 
-### Pfiffner instrument transformers (calibrated)
+<Kachel bild="/img/drittprodukte-stromwandler/01.png" bildtext="Pfiffner Messwandler (geeicht)" titel="Pfiffner Messwandler (geeicht)" bildhoehe="8rem">
 
 Country of sale: Switzerland
 
-Intended use:
+Intended use: billing purposes
 
-- Billing purposes
-
-
-Type: 
-
-- Closed current transformer, calibrated
-
-
-Source: [https://www.pfiffner-group.com](https://www.pfiffner-group.com/)  
+Type: closed current transformer, calibrated
 
 - Pfiffner TGH1 / TGK1 Series
-
 - Pfiffner TSC 1-8 Series
 
+Source: [pfiffner-group.com](https://www.pfiffner-group.com/)
 
-Possible suppliers:
+**Suppliers**
 
-<Kacheln min="20rem">
-<Kachel titel="Pfiffner Messwandler direkt">
-
-Mr Samuel Gloor
+Pfiffner direct · Mr Samuel Gloor
 
 +41 62 739 29 19 · [msns@pmw.ch](mailto:msns@pmw.ch)
 
+**Calibration for billing purposes**
+
+Calibration must be specifically requested or specified when ordering.
+
 </Kachel>
-</Kacheln>
 
-
-Calibration for billing purposes:
-
-You must request calibration specifically or state it when ordering.
-
-![Current Transformers and accessories for Telstar CT – Figure 2](/img/drittprodukte-stromwandler/02.png)
-
-### Hager instrument transformers (calibrated)
+<Kachel bild="/img/drittprodukte-stromwandler/02.png" bildtext="Hager Messwandler (geeicht)" titel="Hager Messwandler (geeicht)" bildhoehe="8rem">
 
 Country of sale: Switzerland
 
-Intended use:
+Intended use: billing purposes
 
-- Billing purposes
-
-
-Type: 
-
-- Closed current transformer, calibrated
-
-
-Source: [https://hager.com/](https://hager.com/)
+Type: closed current transformer, calibrated
 
 - Hager 300K05G
-
 - Hager 600K05G
 
+Source: [hager.com](https://hager.com/)
 
-Possible suppliers:
+**Suppliers**
 
-<Kacheln min="20rem">
-<Kachel titel="Hager direkt">
+Hager direct
 
 +41 41 269 90 00 · [emmenbruecke@hager.com](mailto:emmenbruecke@hager.com)
 
+**Calibration for billing purposes**
+
+Calibration must be specifically requested or specified when ordering.
+
 </Kachel>
-</Kacheln>
 
-
-Calibration for billing purposes:
-
-You must request calibration specifically or state it when ordering.
-
-![Current Transformers and accessories for Telstar CT – Figure 3](/img/drittprodukte-stromwandler/03.png)
-
-### Redur instrument transformers (calibrated)
+<Kachel bild="/img/drittprodukte-stromwandler/03.png" bildtext="Redur Messwandler (geeicht)" titel="Redur Messwandler (geeicht)" bildhoehe="8rem">
 
 Country of sale: Germany
 
-Intended use:
+Intended use: billing purposes
 
-- Billing purposes
-
-
-Type: 
-
-- Closed current transformer, calibrated
-
-
-Source: [https://www.redur.de/](https://www.redur.de/)
+Type: closed current transformer, calibrated
 
 - Redur Regulus Series
 
+Source: [redur.de](https://www.redur.de/)
+
+**Calibration for billing purposes**
+
+Calibration must be specifically requested or specified when ordering.
+
+</Kachel>
+
+</Kacheln>
 
 ## Current transformers for monitoring purposes
 
-![Current Transformers and accessories for Telstar CT – Figure 4](/img/drittprodukte-stromwandler/04.png)
+<Kacheln min="15rem">
 
-### Optec split-core transformers
+<Kachel bild="/img/drittprodukte-stromwandler/04.png" bildtext="Optec Klapp-Wandler" titel="Optec Klapp-Wandler" bildhoehe="8rem">
 
 Country of sale: Switzerland
 
-Intended use: Monitoring
+Intended use: monitoring
 
-Type: Open current transformer
-
-Source: [https://www.optec.ch](https://www.optec.ch)
+Type: open current transformer
 
 - Optec RX series, open
-
 - Optec KUW series (split-core)
-
 - Optec SC-CT series (split-core)
 
 
-Possible supplier:
+**Supplier**
 
-- Optec online shop
+Optec online shop
 
+Source: [optec.ch](https://www.optec.ch)
 
-![Current Transformers and accessories for Telstar CT – Figure 5](/img/drittprodukte-stromwandler/05.png)
+</Kachel>
 
-### Optec current sensors
+<Kachel bild="/img/drittprodukte-stromwandler/05.png" bildtext="Optec Stromsensoren" titel="Optec Stromsensoren" bildhoehe="8rem">
 
 Country of sale: Switzerland
 
-Intended use: Monitoring
+Intended use: monitoring
 
-Type: Closed current transformer
-
-Source:[https://www.optec.ch](https://www.optec.ch)
+Type: closed current transformer
 
 - Optec RX series, closed
 
 
-Possible supplier:
+**Supplier**
 
-- Optec online shop
+Optec online shop
 
+Source: [optec.ch](https://www.optec.ch)
 
-![Current Transformers and accessories for Telstar CT – Figure 6](/img/drittprodukte-stromwandler/03.png)
+</Kachel>
 
-### Redur instrument transformers
+<Kachel bild="/img/drittprodukte-stromwandler/03.png" bildtext="Redur Messwandler (geschlossen)" titel="Redur Messwandler (geschlossen)" bildhoehe="8rem">
 
 Country of sale: Germany
 
-Intended use: Monitoring
+Intended use: monitoring
 
-Type: Closed current transformer
-
-Source: [https://www.redur.de/](https://www.redur.de/) 
+Type: closed current transformer
 
 - Redur Regulus Series
 
+Source: [redur.de](https://www.redur.de/)
 
-![Current Transformers and accessories for Telstar CT – Figure 7](/img/drittprodukte-stromwandler/07.png)
+</Kachel>
 
-### Redur instrument transformers
+<Kachel bild="/img/drittprodukte-stromwandler/07.png" bildtext="Redur Messwandler (offen)" titel="Redur Messwandler (offen)" bildhoehe="8rem">
 
 Country of sale: Germany
 
-Intended use: Monitoring
+Intended use: monitoring
 
-Type: Open current transformer
-
-Source: [https://www.redur.de/](https://www.redur.de/) 
+Type: open current transformer
 
 - Redur RSC Series
 
+Source: [redur.de](https://www.redur.de/)
+
+</Kachel>
+
+</Kacheln>
 
 ## Instrument transformer disconnect terminals
 
-Instrument transformer disconnect terminals make it easy to replace a meter, even while it is in operation. They let you short-circuit the transformer outputs so that the transformers are not damaged when the meter is replaced.
+To replace a meter easily, even during operation, you can use instrument transformer disconnect terminals. They allow you to short-circuit the transformer outputs so that the transformers are not damaged when the meter is replaced.
 
-![Current Transformers and accessories for Telstar CT – Figure 8](/img/drittprodukte-stromwandler/08.png)
+<Kacheln min="15rem">
 
-### Phoenix disconnect terminals
+<Kachel bild="/img/drittprodukte-stromwandler/08.png" bildtext="Phoenix Trennklemmen" titel="Phoenix Trennklemmen" bildhoehe="8rem">
 
 Type: DIN rail mounted
 
-Source: [www.phoenixcontact.com](http://www.phoenixcontact.com/)
-
 - Phoenix Contact PTME 4
 
+Source: [phoenixcontact.com](http://www.phoenixcontact.com/)
 
-Possible suppliers:
+**Suppliers**
 
-- Phoenix Contacts
+Phoenix Contacts
 
-- [www.distrelec.ch](http://www.distrelec.ch)
+[www.distrelec.ch](http://www.distrelec.ch)
+
+</Kachel>
+
+</Kacheln>

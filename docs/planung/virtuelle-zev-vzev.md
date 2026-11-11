@@ -63,26 +63,6 @@ Nach Erfüllung aller obiger Punkte und rund 3 Monaten kann die vZEV seinen Betr
 
 ## Bisherige Modell Landschaft
 
-ZEV: Zusammenschluss zum Eigenverbrauch 
-
-- Private Messung
-
-- Private Abrechnung
-
-- VNB-Zähler am Einspeisepunkt mit Rechnung des VNB
-
-VNB-Modell:
-
-- Messung durch VNB
-
-- Abrechnung und Tarifierung durch VNB
-
-- Bilanzierung auf Verbrauchs- und Solarproduktionszählern
-
-Normalbezüger:
-
-- Strombezüger beim VNB als Haus oder Wohnung im EFH oder MFH
-
 ![Virtuelle ZEV (vZEV) – Abbildung 2](/img/planung-virtuelle-zev-vzev/02.png)
 
 ## vZEV Modelle
@@ -113,31 +93,13 @@ Die Voraussetzungen der Topologie zur berechtigten Teilnahme am vZEV sind unterh
 
 ### Netztopologien zur Erstellung einer erweiterten vZEV
 
-Gleiche Sammelschiene oder Verteilkasten auf der Niederspannungsebene (&lt; 1kV)
-
-Alle Gebäude sind auf den gleichen Verteilkasten oder die gleiche Sammelschiene auf der Niederspannungsebene NE7 geführt.
-
 ![Virtuelle ZEV (vZEV) – Abbildung 5](/img/planung-virtuelle-zev-vzev/05.png)
-
-Gleiche Sammelschiene auf der Niederspannungsseite am Netztransformator (&lt;1kV)
-
-Alle Gebäude sind am gleichen Transformator angeschlossen und sind auf der Niederspannungsebene an der gleichen Sammelschiene angeschlossen.
 
 ![Virtuelle ZEV (vZEV) – Abbildung 6](/img/planung-virtuelle-zev-vzev/06.png)
 
-Muffennetze
-Eine erweiterte vZEV über mehrere Gebäude geht nur, wenn sich Gebäude die gleiche Muffe teilen
-(sehr selten der Fall)
-
-Das Bilden einer vZEV eines Einzelgebäudes ist aber immer möglich.
-
-<div className="bild--voll">
-
 ![Virtuelle ZEV (vZEV) – Abbildung 7](/img/planung-virtuelle-zev-vzev/07.png)
 
-</div>
-
-## Mögliche Mitglieder einer vZEV und die benötigte Messtechnik
+## Mögliche Mitglieder einer vZEV und Messtechnik
 
 Bei einer vZEV können verschiedene Infrastrukturen vom Netzbetreiber und aus privatem Umfeld aufeinander treffen. Die Messung der verschiedenen Gebäude kann unterschiedlich bereitgestellt werden und fügt sich im vZEV zu einem einheitlichen Tarifmodell zusammen.
 
@@ -151,7 +113,7 @@ Bei einer vZEV können verschiedene Infrastrukturen vom Netzbetreiber und aus pr
 
 ![Virtuelle ZEV (vZEV) – Abbildung 8](/img/planung-virtuelle-zev-vzev/08.png)
 
-## Zählerinfrastruktur für vZEV Tarifierungsmodell von smart-me
+## Zählerinfrastruktur für vZEV Tarifierungsmodell
 
 Die Tarifierung einer vZEV orientiert sich an der Gleichberechtigung der Teilnehmer. Alle Teilnehmer haben gleichviel Anspruch auf die aktuell produzierte Solarleistung.
 

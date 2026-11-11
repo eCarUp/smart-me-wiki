@@ -4,22 +4,27 @@ slug: '/drittprodukte/standfuss-fundamente'
 description: 'Borner foundation (prefabricated concrete block with aluminium plate)'
 sidebar_label: 'Stand foundation'
 ---
-![Stand foundation – Figure 1](/img/drittprodukte-standfuss-fundamente/01.png)
 
-### Borner foundation (prefabricated concrete block with aluminium plate)
+<Kacheln min="15rem">
 
-- Foundation for burying in the ground
+<Kachel bild="/img/drittprodukte-standfuss-fundamente/01.png" bildtext="Borner Fundament" titel="Borner Fundament" bildhoehe="11rem">
 
+Prefabricated concrete block with aluminium plate
 
-Suppliers:[
-https://borner.ch/products/energy-block/](https://borner.ch/products/energy-block/)
+Foundation for burying in the ground
 
-![Stand foundation – Figure 2](/img/drittprodukte-standfuss-fundamente/02.png)
+Available from: [borner.ch](https://borner.ch/products/energy-block/)
 
-### Crea Beton foundation (prefabricated concrete block with aluminium plate)
+</Kachel>
 
-- Foundation for burying in the ground
+<Kachel bild="/img/drittprodukte-standfuss-fundamente/02.png" bildtext="Crea Beton Fundament" titel="Crea Beton Fundament" bildhoehe="11rem">
 
+Prefabricated concrete block with aluminium plate
 
-Suppliers:
-[https://creabeton.ch/leitungsbau/kabelkeller-fuer-elektroladestationen-d1523/](https://creabeton.ch/leitungsbau/kabelkeller-fuer-elektroladestationen-d1523/)
+Foundation for burying in the ground
+
+Available from: [creabeton.ch](https://creabeton.ch/leitungsbau/kabelkeller-fuer-elektroladestationen-d1523/)
+
+</Kachel>
+
+</Kacheln>

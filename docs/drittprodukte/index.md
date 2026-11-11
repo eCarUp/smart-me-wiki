@@ -8,12 +8,18 @@ Anbei findest du eine Liste von Produkt- und Dienstleistungsempfehlungen. smart-
 
 Ziel der Empfehlungen ist es unseren Partnern die Möglichkeit zu bieten, einfach und effizient bestimmte Produkte oder Dienstleistungen zu finden, wenn dafür noch keine bekannten vorliegen.
 
-[Stromwandler und Zubehör zu Telstar CT](/drittprodukte/stromwandler)
+<Kacheln min="15rem">
 
-[Zählersteckklemmen Nimbus 100A](/drittprodukte/zaehlersteckklemmen-nimbus-100a)
+<Kachel bild="/img/drittprodukte-stromwandler/01.png" bildtext="Stromwandler und Zubehör zu Telstar CT" titel="Stromwandler und Zubehör zu Telstar CT" href="/drittprodukte/stromwandler" bildhoehe="9rem" mittig />
 
-[Pico Standfuss Fundamente](/drittprodukte/standfuss-fundamente)
+<Kachel bild="/img/drittprodukte-zaehlersteckklemmen-nimbus-100a/02.png" bildtext="Zählersteckklemmen Nimbus 100A" titel="Zählersteckklemmen Nimbus 100A" href="/drittprodukte/zaehlersteckklemmen-nimbus-100a" bildhoehe="9rem" mittig />
+
+<Kachel bild="/img/drittprodukte-standfuss-fundamente/01.png" bildtext="Pico Standfuss Fundamente" titel="Pico Standfuss Fundamente" href="/drittprodukte/standfuss-fundamente" bildhoehe="9rem" mittig />
+
+<Kachel bild="/img/produkte-pico-ladestation-pico-standfuss/13.png" bildtext="Pico Standfuss – One Pole" titel="Pico Standfuss – One Pole" href="/produkte/pico-ladestation/pico-standfuss#onepole-pro-für-pico-ladestation" bildhoehe="9rem" mittig>
 
 Alternativ zum Standfuss der smart-me ist die Pico auch mit dem One Pole System kompatibel.
 
-[Pico Standfuss - One Pole](/produkte/pico-ladestation/pico-standfuss#onepole-pro-für-pico-ladestation)
+</Kachel>
+
+</Kacheln>

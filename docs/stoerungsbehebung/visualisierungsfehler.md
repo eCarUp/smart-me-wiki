@@ -6,7 +6,8 @@ sidebar_label: 'Visualisierungsfehler'
 ---
 In diesem Abschnitt werden bekannte Fehlermeldungen im Zusammenhang mit den Visualisierungen und mögliche Lösungsansätze beschrieben.
 
-### Der Lese-User sieht den Energiefluss nicht.
+<details id="energiefluss-lese-user">
+<summary>Der Lese-User sieht den Energiefluss nicht.</summary>
 
 <div className="row">
 <div className="col col--6">
@@ -27,7 +28,10 @@ Energiedaten werden nicht angezeigt.
 </div>
 </div>
 
-### Einfache virtuelle Tarife (Wohnung) wird leer angezeigt
+</details>
+
+<details id="virtuelle-tarife-leer">
+<summary>Einfache virtuelle Tarife (Wohnung) wird leer angezeigt</summary>
 
 Anzeige geht nicht bzw. wird leer angezeigt
 
@@ -38,7 +42,10 @@ Anzeige geht nicht bzw. wird leer angezeigt
 
 ![Visualisierungsfehler – Abbildung 4](/img/stoerungsbehebung-visualisierungsfehler/04.png)
 
-### Einfacher Energiefluss
+</details>
+
+<details id="einfacher-energiefluss">
+<summary>Einfacher Energiefluss</summary>
 
 Werte werden nicht korrekt angezeigt:
 
@@ -64,7 +71,10 @@ PV Zähler war falsch angeschlossen. Nachdem er korrekt angeschlossen wurde, sti
 </div>
 </div>
 
-### Verbrauchs und Produktions Monitoring
+</details>
+
+<details id="verbrauch-produktion-monitoring">
+<summary>Verbrauchs und Produktions Monitoring</summary>
 
 NaN% wird angezeigt
 
@@ -73,8 +83,13 @@ NaN% wird angezeigt
 
 ![Visualisierungsfehler – Abbildung 7](/img/stoerungsbehebung-visualisierungsfehler/07.png)
 
-### Das Kuchendiagramm zeigt nicht alle Zähler an
+</details>
+
+<details id="kuchendiagramm-unvollstaendig">
+<summary>Das Kuchendiagramm zeigt nicht alle Zähler an</summary>
 
 Dies kommt vor, wenn nur einzelne Zähler z.B. 7 Tage online sind, dann werden nur diese angezeigt und die anderen noch nicht.
 
 ![Visualisierungsfehler – Abbildung 8](/img/stoerungsbehebung-visualisierungsfehler/08.png)
+
+</details>

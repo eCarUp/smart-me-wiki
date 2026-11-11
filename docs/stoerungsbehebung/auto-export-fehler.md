@@ -27,7 +27,8 @@ Der Status gibt jeweils Auskunft über den Status des Exports
 
 ![Auto Export Fehler – Abbildung 2](/img/stoerungsbehebung-auto-export-fehler/02.png)
 
-## waiting...
+<details id="waiting">
+<summary>waiting...</summary>
 
 Problem 1: Datum liegt in der Zukunft
 
@@ -48,8 +49,10 @@ Lösung:
 
 - 15 Minuten warten. Danach wird entweder OK oder eine Fehlermeldung angezeigt.
 
+</details>
 
-### Meter 'xxx' is missing data
+<details id="meter-missing-data">
+<summary>Meter 'xxx' is missing data</summary>
 
 Problem:
 
@@ -86,8 +89,10 @@ Lösung:
 
 - Bis zu 45 Minuten warten, bis der Export den Status aktualisiert.
 
+</details>
 
-### Waiting for meter values of ".... Last values at "...." (UTC))
+<details id="waiting-for-meter-values">
+<summary>Waiting for meter values of ".... Last values at "...." (UTC))</summary>
 
 Problem 1: Zähler offline
 
@@ -112,8 +117,10 @@ Lösung
 
 - Messpunkt bearbeiten und Letzter Export auf das nächste Datum setzen.
 
+</details>
 
-### FTPs Upload Error: The remote server returned an error: 150 Opening data channel for file upload to server of ....
+<details id="ftps-upload-150">
+<summary>FTPs Upload Error: The remote server returned an error: 150 Opening data channel for file upload to server of ....</summary>
 
 Problem:
 
@@ -127,7 +134,10 @@ Lösung:
 
 ![Auto Export Fehler – Abbildung 3](/img/stoerungsbehebung-auto-export-fehler/03.png)
 
-### SFTP upload: issue with key file: Invalide private key file.
+</details>
+
+<details id="sftp-key-file">
+<summary>SFTP upload: issue with key file: Invalide private key file.</summary>
 
 Problem 1: Key File ist nicht erfasst.
 
@@ -147,7 +157,10 @@ Proc-Type: 4,ENCRYPTED,...
 
 ![Auto Export Fehler – Abbildung 4](/img/stoerungsbehebung-auto-export-fehler/04.png)
 
-### FTP upload Error: The remote server returned an error 550
+</details>
+
+<details id="ftp-upload-550">
+<summary>FTP upload Error: The remote server returned an error 550</summary>
 
 Problem: Smart-me hat keine Berechtigung in den angegebenen Path zu schreiben.
 
@@ -171,3 +184,5 @@ Bild aus MOVEit
 ![Auto Export Fehler – Abbildung 6](/img/stoerungsbehebung-auto-export-fehler/06.png)
 
 Bild von der Auto-Export Zuordnung
+
+</details>

@@ -5,13 +5,58 @@ description: 'Tarifierung des Messkonzepts MKD3 mit Nichtteilnehmern'
 sidebar_label: 'MKD3 Messkonzept (nicht Teilnehmer)'
 symbol: 'ausserhalb'
 ---
+<div className="bild--voll">
+
 ![MKD3 Messkonzept (mit nicht Teilnehmer) – Abbildung 1](/img/planung-mkd3-messkonzept-nicht-teilnehmer/01.png)
+
+</div>
 
 ## Tarifierung des Messkonzepts MKD3 mit Nichtteilnehmern
 
 Die Tarifierung des Messkonzepts erfolgt ausschliesslich über Produktion und die teilnehmenden Verbraucher am Mieterstrom.
 Der Hausanschlusszähler sollte als Prüfstein einbezogen werden und nicht bewusst weggelassen werden.
 
+## Generelles Messkonzept
+
+### Lizenzpflichtige Messpunkte:
+
+- Jeder Messpunkt, welcher erfasst werden muss, ist [lizenzpflichtig](/planung/cloud-lizenzen).
+
+- Jeder virtuelle Zähler (Summenproduktionen, Gesamtverbrauch) ist [lizenzpflichtig](/planung/cloud-lizenzen).
+
+### Strom
+
+- Alle in Rechnung zu stellenden Abrechnungseinheiten müssen mit einem Zählerpunkt gemessen werden (Wohnungen, Wärmepumpen, Allgemeinabgänge). Hardwareoptionen für die Messung elektrischer Energie: [Telstar 80A](/produkte/telstar-80a), [Telstar CT](/produkte/telstar-ct), [Nimbus 100A (Zählerplatte)](/produkte/nimbus-100a)
+
+- Alle Produktionen und Speichersysteme müssen gemessen werden, entweder zusammen oder separiert.
+
+- Die Messung am Hausanschluss bildet die korrekte Bilanzsumme zur akkuraten Tarifierung. Hausanschlussmessungen sind die wichtigsten Messpunkte für dynamische Steuerungen von Verbrauchern innerhalb von Gebäuden.
+
+- Tarifieren und Abrechnen über [smart-me Billing](/konfiguration/billing)
+
+- Die Tarifierung kann je nach Modell mittels Bilanz- / Hausanschlusszähler und Produktionen oder alternativ mittels Produktionen und virtuellem Gesamtverbrauch errechnet werden. (+1 virtueller Gesamtverbrauchszähler)
+
+- Sind mehrere Produktionen gemessen (Batterien / PV) so sind diese virtuell zu summieren (+1 virtueller Summenzähler)
+
+<div className="bild--voll">
+
+![MKD3 Messkonzept (mit nicht Teilnehmer) – Abbildung 2](/img/planung-mkd3-messkonzept-nicht-teilnehmer/02.png)
+
+</div>
+
+Im Beispiel nimmt die Wohnung A in Haus B nicht am Mieterstrom teil: Ihr Zähler bleibt beim VNB und wird im Messkonzept nicht mitgerechnet.
+
+### E-Mobilität mit smart-me und eCarUp
+
+- Die E-Mobilität wird durch private, halbprivate oder öffentliche Ladepunkte realisiert.
+
+- Die [smart-me Pico 22kW](/produkte/pico-ladestation) Hardware bietet den optimalen Mix aus Hardware für öffentlichen Betrieb und privaten Betrieb im Mieterstrom. Es gibt aber mit [eCarUp](https://www.ecarup.com) auch weitere kompatible Hardwareansätze.
+
+- Die Abrechnung erfolgt z.B. per Kreditkarte im Einheitstarif mit [eCarUp](https://www.ecarup.com) oder tarifiert über die Wohnungsabrechnung direkt mit [smart-me Billing](/konfiguration/billing).
+
+- Die Steuerung der Pico Ladestationen und der Schutz der Infrastruktur übernimmt das fortschrittliche [Multilevel-Lastmanagement](/konfiguration/multilevel-lastmanagement).
+
+- Der Lastabwurf wird über die [Hardware](/produkte/pico-ladestation) direkt oder über das [Multilevel-Lastmanagement](/konfiguration/multilevel-lastmanagement) gelöst.
 
 ## Bilanzierung und Validierung des MKD3
 

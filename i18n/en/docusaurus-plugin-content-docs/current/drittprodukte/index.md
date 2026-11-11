@@ -1,19 +1,25 @@
 ---
-title: 'Third-Party Products'
+title: 'Third-party products'
 slug: '/drittprodukte'
 description: 'Below you will find a list of recommended products and services.'
-sidebar_label: 'Third-Party Products'
+sidebar_label: 'Third-party products'
 ---
-Below you will find a list of recommended products and services. smart-me does not earn any money from the recommended products and does not provide any warranty for them. You can use other products at any time. Always make sure that they meet the requirements of the respective [product](/produkte).
+Below you will find a list of recommended products and services. smart-me does not earn any money from the recommended products and does not provide any guarantee for them. You can use other products at any time. Always make sure that they meet the requirements of the relevant [product](/produkte).
 
-The aim of these recommendations is to give our partners a simple and efficient way to find certain products or services when they do not yet know of any.
+The aim of these recommendations is to help our partners find specific products or services easily and efficiently when they do not yet know of any.
 
-[Current Transformers and accessories for Telstar CT](/drittprodukte/stromwandler)
+<Kacheln min="15rem">
 
-[Meter plug-in terminals Nimbus 100A](/drittprodukte/zaehlersteckklemmen-nimbus-100a)
+<Kachel bild="/img/drittprodukte-stromwandler/01.png" bildtext="Current Transformers and accessories for Telstar CT" titel="Current Transformers and accessories for Telstar CT" href="/drittprodukte/stromwandler" bildhoehe="9rem" mittig />
 
-[Pico Stand foundations](/drittprodukte/standfuss-fundamente)
+<Kachel bild="/img/drittprodukte-zaehlersteckklemmen-nimbus-100a/02.png" bildtext="Meter plug-in terminals Nimbus 100A" titel="Meter plug-in terminals Nimbus 100A" href="/drittprodukte/zaehlersteckklemmen-nimbus-100a" bildhoehe="9rem" mittig />
 
-As an alternative to the smart-me stand, the Pico is also compatible with the One Pole System.
+<Kachel bild="/img/drittprodukte-standfuss-fundamente/01.png" bildtext="Pico stand foundations" titel="Pico stand foundations" href="/drittprodukte/standfuss-fundamente" bildhoehe="9rem" mittig />
 
-[Pico Stand - One Pole](/produkte/pico-ladestation/pico-standfuss#onepole-pro-for-pico-charging-station)
+<Kachel bild="/img/produkte-pico-ladestation-pico-standfuss/13.png" bildtext="Pico stand – One Pole" titel="Pico stand – One Pole" href="/produkte/pico-ladestation/pico-standfuss#onepole-pro-for-pico-charging-station" bildhoehe="9rem" mittig>
+
+As an alternative to the smart-me stand, the Pico is also compatible with the One Pole system.
+
+</Kachel>
+
+</Kacheln>

@@ -10,9 +10,9 @@ This section describes known error messages related to Auto Export and possible 
 
 The configuration of Auto Export is described here: [Auto Export](/schnittstellen/auto-export) 
 
-If the Auto Export was successful, you can check the status of each metering point under Configuration (Konfiguration) --> Auto Export (Auto-Export) --> Assignment (Zuordnung) (on the right-hand side).
+If the Auto Export was successful, you can check the status for each metering point under Configuration (Konfiguration) --> Auto Export (Auto-Export) --> Assignment (Zuordnung) (on the right-hand side).
 
-To refresh the export status display, click the Auto Export menu on the left-hand side.
+To refresh the display of the export status, click the Auto Export menu on the left-hand side.
 
 Our system checks every 10 minutes whether a job is overdue.
 
@@ -20,14 +20,15 @@ Our system checks every 10 minutes whether a job is overdue.
 
 ## Status
 
-The status shows the current state of the export
+The status always indicates the state of the export
 
 - OK: Last export successful
 
 
 ![Auto Export errors – Figure 2](/img/stoerungsbehebung-auto-export-fehler/02.png)
 
-## waiting...
+<details id="waiting">
+<summary>waiting...</summary>
 
 Problem 1: Date is in the future
 
@@ -36,7 +37,7 @@ Problem 1: Date is in the future
 
 Solution:
 
-- Wait until the configured date has fully elapsed.
+- Wait until the configured date has fully passed.
 
 
 Problem 2: Waiting
@@ -48,8 +49,10 @@ Solution:
 
 - Wait 15 minutes. After that, either OK or an error message is displayed.
 
+</details>
 
-### Meter 'xxx' is missing data
+<details id="meter-missing-data">
+<summary>Meter 'xxx' is missing data</summary>
 
 Problem:
 
@@ -68,9 +71,9 @@ Solution:
 
 - Report
 
-- Set Date from (Datum von) to the "Last export" (Letzter Export) from the Auto Export
+- Set Date from (Datum von) to the "Last export (Letzter Export)" date from Auto Export
 
-- Set Date to (Datum bis) to the "Last export" (Letzter Export) from the Auto Export
+- Set Date to (Datum bis) to the "Last export (Letzter Export)" date from Auto Export
 
 - Note the oldest date under Electricity time span (Elektrizität Zeitspanne).
 
@@ -82,12 +85,14 @@ Solution:
 
 - Set Last export (Letzter Export) to "oldest date under Electricity time span" +1. 
 
-- It is important to set the date + 1, as we can only export whole days.
+- It is important to set the date + 1, as we can only export full days.
 
 - Wait up to 45 minutes until the export updates the status.
 
+</details>
 
-### Waiting for meter values of ".... Last values at "...." (UTC))
+<details id="waiting-for-meter-values">
+<summary>Waiting for meter values of ".... Last values at "...." (UTC))</summary>
 
 Problem 1: Meter offline
 
@@ -103,21 +108,23 @@ Solution
 
 Problem 2: Data for an entire day is missing
 
-- The metering point does not have all data for the period between the last export and the next export. E.g. because the metering point was installed on 2.3.2024 at 12h37, no export can be performed for 2.3.2024, as this day is incomplete.
+- The metering point does not have all data for the period between the last export and the next export. For example, because the metering point was installed on 2.3.2024 at 12h37, no export can be performed for 2.3.2024, as this day is incomplete.
 
 
 Solution
 
-- (optional) Manual reading in the downstream system, e.g. EDM, so that the day is fully recorded. (The reading can be taken e.g. with a report in the main overview of smart-me).
+- (optional) Manual reading in the downstream system, e.g. EDM, so that the day is fully recorded. (The reading can be taken, for example, with a report in the main overview of smart-me).
 
 - Edit the metering point and set Last export (Letzter Export) to the next date.
 
+</details>
 
-### FTPs Upload Error: The remote server returned an error: 150 Opening data channel for file upload to server of ....
+<details id="ftps-upload-150">
+<summary>FTPs Upload Error: The remote server returned an error: 150 Opening data channel for file upload to server of ....</summary>
 
 Problem:
 
-- The metering point ID has one or more spaces on the left
+- The metering point ID has one or more leading spaces on the left
 
 
 Solution:
@@ -127,7 +134,10 @@ Solution:
 
 ![Auto Export errors – Figure 3](/img/stoerungsbehebung-auto-export-fehler/03.png)
 
-### SFTP upload: issue with key file: Invalide private key file.
+</details>
+
+<details id="sftp-key-file">
+<summary>SFTP upload: issue with key file: Invalide private key file.</summary>
 
 Problem 1: Key file has not been entered.
 
@@ -136,9 +146,9 @@ Problem 1: Key file has not been entered.
 
 Solution 1
 
-- Make sure that the key file is configured correctly as described in [Auto Export](/schnittstellen/auto-export) --> Upload type (Upload Art).
+- Make sure that the key file is configured correctly according to [Auto Export](/schnittstellen/auto-export) --> Upload type (Upload Art).
 
-- Check whether the generated key file begins as follows:
+- Check that the generated key file begins as follows:
 
 
 \-----BEGIN RSA PRIVATE KEY-----
@@ -147,7 +157,10 @@ Proc-Type: 4,ENCRYPTED,...
 
 ![Auto Export errors – Figure 4](/img/stoerungsbehebung-auto-export-fehler/04.png)
 
-### FTP upload Error: The remote server returned an error 550
+</details>
+
+<details id="ftp-upload-550">
+<summary>FTP upload Error: The remote server returned an error 550</summary>
 
 Problem: Smart-me does not have permission to write to the specified path.
 
@@ -159,7 +172,7 @@ Problem 2: Special case when using MOVEit (as of 8.7.2024: #32171)
 
 - Establish a first connection, which fails (returns an invalid certificate error).
 
-- In my software "MOVEit" I receive a message (green in the image). I then have to reactivate the user (in blue) and accept the certificate (in red).
+- In my "MOVEit" software, I receive a message (green in the image). I then have to reactivate the user (in blue) and accept the certificate (in red).
 
 - Remove the "/" from the path so that the files can be stored in the "Export" folder. (Wrong: "/Export", Correct: "Export)
 
@@ -171,3 +184,5 @@ Image from MOVEit
 ![Auto Export errors – Figure 6](/img/stoerungsbehebung-auto-export-fehler/06.png)
 
 Image of the Auto Export assignment
+
+</details>

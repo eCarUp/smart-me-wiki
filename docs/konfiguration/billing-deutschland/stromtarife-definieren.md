@@ -39,13 +39,13 @@ Bei der Nutzung des Solartarif inkl. vZEV werden keine zusätzlichen Lizenzen f�
 
 Der Hausanschlusszähler wird referenziert als Bilanzzähler.
 
-![Standard Messkonzept – Abbildung 2](/img/planung-standard-messkonzept/02.png)
+![Stromtarife definieren (Deutschland) – Abbildung 1](/img/konfiguration-billing-deutschland-stromtarife-definieren/01.png)
 
 **Produktionszähler**
 
 Alle Produktionszähler und Batteriezähler werden als Produktion erfasst.
 
-![Standard Messkonzept – Abbildung 3](/img/planung-standard-messkonzept/03.png)
+![Stromtarife definieren (Deutschland) – Abbildung 2](/img/konfiguration-billing-deutschland-stromtarife-definieren/02.png)
 
 #### Tarifierung mittels Solartarif (Verbrauch / PV) mit oder ohne Batterietarif (Verbrauch / Batterie)
 
@@ -63,7 +63,7 @@ Gesamtverbrauch = Wohnung 1.1 + Wohnung 1.2 + Wohnung 2.1 + Allgemein + Parkplat
 
 - Der Bilanzzähler wird hier bewusst referenziert, um die Genauigkeit zu erhöhen!
 
-![Standard Messkonzept – Abbildung 4](/img/planung-standard-messkonzept/04.png)
+![Stromtarife definieren (Deutschland) – Abbildung 3](/img/konfiguration-billing-deutschland-stromtarife-definieren/03.png)
 
 
 ### Stromtarife konfigurieren MKD3 mit Nicht Teilnehmern
@@ -78,14 +78,14 @@ Bilanzzähler
 
 Alle teilnehmenden Wohnungen / Parkplätze und Produktionen als Bilanzzähler.
 
-![MKD3 Messkonzept (mit nicht Teilnehmer) – Abbildung 2](/img/planung-mkd3-messkonzept-nicht-teilnehmer/02.png)
+![Stromtarife definieren (Deutschland) – Abbildung 4](/img/konfiguration-billing-deutschland-stromtarife-definieren/04.png)
 
 Produktionszähler
 
 Alle Produktionszähler als Produktion erfassen
 
 
-![MKD3 Messkonzept (mit nicht Teilnehmer) – Abbildung 3](/img/planung-mkd3-messkonzept-nicht-teilnehmer/03.png)
+![Stromtarife definieren (Deutschland) – Abbildung 5](/img/konfiguration-billing-deutschland-stromtarife-definieren/05.png)
 
 #### Tarifierung mittels Solartarif (Verbrauch / PV) mit oder ohne Batterietarif (Verbrauch / Batterie)
 
@@ -103,7 +103,7 @@ Beim Gesamtverbrauch wird der virtuell erstellte Gesamtverbrauch hinterlegt.
 
 Der Bilanzzähler wird bewusst nicht referenziert, um die virtuelle Bilanzierung nicht falsch zu korrigieren!
 
-![MKD3 Messkonzept (mit nicht Teilnehmer) – Abbildung 4](/img/planung-mkd3-messkonzept-nicht-teilnehmer/04.png)
+![Stromtarife definieren (Deutschland) – Abbildung 6](/img/konfiguration-billing-deutschland-stromtarife-definieren/06.png)
 
 
 

@@ -16,110 +16,83 @@ Ziel der Empfehlungen ist es, unseren Partnern die Möglichkeit zu bieten, einfa
 
 Falls die Zähler für Verrechnungen verwendet werden sollen, werden geeichte Wandler benötigt, die mindestens die Klasse 0.5 oder kleiner erfüllen.
 
-![Stromwandler und Zubehör zu Telstar CT – Abbildung 1](/img/drittprodukte-stromwandler/01.png)
+<Kacheln min="15rem">
 
-### Pfiffner Messwandler (geeicht)
+<Kachel bild="/img/drittprodukte-stromwandler/01.png" bildtext="Pfiffner Messwandler (geeicht)" titel="Pfiffner Messwandler (geeicht)" bildhoehe="8rem">
 
 Vertriebsland: Schweiz
 
-Verwendungszweck:
+Verwendungszweck: Verrechnungszwecke
 
-- Verrechnungszwecke
-
-
-Typ: 
-
-- Geschlossener Stromwandler geeicht
-
-
-Quelle: [https://www.pfiffner-group.com](https://www.pfiffner-group.com/)  
+Typ: Geschlossener Stromwandler geeicht
 
 - Pfiffner TGH1 / TGK1 Series
-
 - Pfiffner TSC 1-8 Series
 
+Quelle: [pfiffner-group.com](https://www.pfiffner-group.com/)
 
-Mögliche Bezugsquellen:
+**Bezugsquellen**
 
-<Kacheln min="20rem">
-<Kachel titel="Pfiffner Messwandler direkt">
-
-Herr Samuel Gloor
+Pfiffner direkt · Herr Samuel Gloor
 
 +41 62 739 29 19 · [msns@pmw.ch](mailto:msns@pmw.ch)
 
-</Kachel>
-</Kacheln>
-
-
-Eichung für Verrechnungszwecke:
+**Eichung für Verrechnungszwecke**
 
 Die Eichung muss spezifisch beantragt werden bzw. bei Bestellung angegeben werden.
 
-![Stromwandler und Zubehör zu Telstar CT – Abbildung 2](/img/drittprodukte-stromwandler/02.png)
+</Kachel>
 
-### Hager Messwandler (geeicht)
+<Kachel bild="/img/drittprodukte-stromwandler/02.png" bildtext="Hager Messwandler (geeicht)" titel="Hager Messwandler (geeicht)" bildhoehe="8rem">
 
 Vertriebsland: Schweiz
 
-Verwendungszweck:
+Verwendungszweck: Verrechnungszwecke
 
-- Verrechnungszwecke
-
-
-Typ: 
-
-- Geschlossener Stromwandler geeicht
-
-
-Quelle: [https://hager.com/](https://hager.com/)
+Typ: Geschlossener Stromwandler geeicht
 
 - Hager 300K05G
-
 - Hager 600K05G
 
+Quelle: [hager.com](https://hager.com/)
 
-Mögliche Bezugsquellen:
+**Bezugsquellen**
 
-<Kacheln min="20rem">
-<Kachel titel="Hager direkt">
+Hager direkt
 
 +41 41 269 90 00 · [emmenbruecke@hager.com](mailto:emmenbruecke@hager.com)
 
-</Kachel>
-</Kacheln>
-
-
-Eichung für Verrechnungszwecke:
+**Eichung für Verrechnungszwecke**
 
 Die Eichung muss spezifisch beantragt werden bzw. bei Bestellung angegeben werden.
 
-![Stromwandler und Zubehör zu Telstar CT – Abbildung 3](/img/drittprodukte-stromwandler/03.png)
+</Kachel>
 
-### Redur Messwandler (geeicht)
+<Kachel bild="/img/drittprodukte-stromwandler/03.png" bildtext="Redur Messwandler (geeicht)" titel="Redur Messwandler (geeicht)" bildhoehe="8rem">
 
 Vertriebsland: Deutschland
 
-Verwendungszweck:
+Verwendungszweck: Verrechnungszwecke
 
-- Verrechnungszwecke
-
-
-Typ: 
-
-- Geschlossener Stromwandler geeicht
-
-
-Quelle: [https://www.redur.de/](https://www.redur.de/)
+Typ: Geschlossener Stromwandler geeicht
 
 - Redur Regulus Series
 
+Quelle: [redur.de](https://www.redur.de/)
+
+**Eichung für Verrechnungszwecke**
+
+Die Eichung muss spezifisch beantragt werden bzw. bei Bestellung angegeben werden.
+
+</Kachel>
+
+</Kacheln>
 
 ## Stromwandler zu Monitoringzwecken
 
-![Stromwandler und Zubehör zu Telstar CT – Abbildung 4](/img/drittprodukte-stromwandler/04.png)
+<Kacheln min="15rem">
 
-### Optec Klapp-Wandler
+<Kachel bild="/img/drittprodukte-stromwandler/04.png" bildtext="Optec Klapp-Wandler" titel="Optec Klapp-Wandler" bildhoehe="8rem">
 
 Vertriebsland: Schweiz
 
@@ -127,43 +100,39 @@ Verwendungszweck: Monitoring
 
 Typ: Offener Stromwandler
 
-Quelle: [https://www.optec.ch](https://www.optec.ch)
-
-- Optec RX- Serien offene
-
+- Optec RX-Serien offene
 - Optec KUW-Serien (Klapp)
-
 - Optec SC-CT-Serien (Klapp)
 
 
-Mögliche Bezugsquelle:
+**Bezugsquelle**
 
-- Optec Online Shop
+Optec Online Shop
 
+Quelle: [optec.ch](https://www.optec.ch)
 
-![Stromwandler und Zubehör zu Telstar CT – Abbildung 5](/img/drittprodukte-stromwandler/05.png)
+</Kachel>
 
-### Optec Stromsensoren
+<Kachel bild="/img/drittprodukte-stromwandler/05.png" bildtext="Optec Stromsensoren" titel="Optec Stromsensoren" bildhoehe="8rem">
 
 Vertriebsland: Schweiz
 
 Verwendungszweck: Monitoring
 
 Typ: Geschlossener Stromwandler
-
-Quelle:[https://www.optec.ch](https://www.optec.ch)
 
 - Optec RX-Serien geschlossen
 
 
-Mögliche Bezugsquelle:
+**Bezugsquelle**
 
-- Optec Online Shop
+Optec Online Shop
 
+Quelle: [optec.ch](https://www.optec.ch)
 
-![Stromwandler und Zubehör zu Telstar CT – Abbildung 6](/img/drittprodukte-stromwandler/03.png)
+</Kachel>
 
-### Redur Messwandler
+<Kachel bild="/img/drittprodukte-stromwandler/03.png" bildtext="Redur Messwandler (geschlossen)" titel="Redur Messwandler (geschlossen)" bildhoehe="8rem">
 
 Vertriebsland: Deutschland
 
@@ -171,14 +140,13 @@ Verwendungszweck: Monitoring
 
 Typ: Geschlossener Stromwandler
 
-Quelle: [https://www.redur.de/](https://www.redur.de/) 
-
 - Redur Regulus Series
 
+Quelle: [redur.de](https://www.redur.de/)
 
-![Stromwandler und Zubehör zu Telstar CT – Abbildung 7](/img/drittprodukte-stromwandler/07.png)
+</Kachel>
 
-### Redur Messwandler
+<Kachel bild="/img/drittprodukte-stromwandler/07.png" bildtext="Redur Messwandler (offen)" titel="Redur Messwandler (offen)" bildhoehe="8rem">
 
 Vertriebsland: Deutschland
 
@@ -186,28 +154,34 @@ Verwendungszweck: Monitoring
 
 Typ: Offener Stromwandler
 
-Quelle: [https://www.redur.de/](https://www.redur.de/) 
-
 - Redur RSC Series
 
+Quelle: [redur.de](https://www.redur.de/)
+
+</Kachel>
+
+</Kacheln>
 
 ## Messwandler Trennklemmen
 
 Um einen Zähler einfach auszutauschen, sogar in Betrieb, können Messwandler Trennklemmen verwendet werden. Diese bieten die Möglichkeit die Wandlerausgänge kurzzuschliessen, um die Wandler beim Zählerwechsel nicht zu beschädigen.
 
-![Stromwandler und Zubehör zu Telstar CT – Abbildung 8](/img/drittprodukte-stromwandler/08.png)
+<Kacheln min="15rem">
 
-### Phoenix Trennklemmen
+<Kachel bild="/img/drittprodukte-stromwandler/08.png" bildtext="Phoenix Trennklemmen" titel="Phoenix Trennklemmen" bildhoehe="8rem">
 
 Typ: DIN-Schienen montiert
 
-Quelle: [www.phoenixcontact.com](http://www.phoenixcontact.com/)
-
 - Phoenix Contact PTME 4
 
+Quelle: [phoenixcontact.com](http://www.phoenixcontact.com/)
 
-Mögliche Bezugsquellen:
+**Bezugsquellen**
 
-- Phoenix Contacts
+Phoenix Contacts
 
-- [www.distrelec.ch](http://www.distrelec.ch)
+[www.distrelec.ch](http://www.distrelec.ch)
+
+</Kachel>
+
+</Kacheln>

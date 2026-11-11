@@ -1,149 +1,119 @@
 ---
 title: 'Transformateurs de courant et accessoires pour Telstar CT'
 slug: '/drittprodukte/stromwandler'
-description: 'Aucun de ces produits n''est distribué par smart-me AG ni proposé comme accessoire lors de l''achat.'
+description: 'Aucun de ces produits n''est vendu par smart-me AG ni proposé comme accessoire lors de l''achat.'
 sidebar_label: 'Transformateurs de courant'
 ---
 Remarque importante :
 
-Aucun de ces produits n'est distribué par smart-me AG ni proposé comme accessoire lors de l'achat. Veuillez acheter ces produits directement auprès du fabricant.
+Aucun de ces produits n'est vendu par smart-me AG ni proposé comme accessoire lors de l'achat. Veuillez acheter ces produits directement auprès du fabricant.
 
-Vous trouverez ci-dessous une liste de produits recommandés. smart-me ne perçoit aucune rémunération pour les produits recommandés et n'offre aucune garantie à leur sujet. Il est possible d'utiliser d'autres produits à tout moment. Il faut toutefois toujours veiller à ce que ceux-ci répondent aux exigences du produit concerné, en l'occurrence du [Compteur triphasé Telstar CT](/produkte/telstar-ct).
+Vous trouverez ci-dessous une liste de produits recommandés. smart-me ne perçoit aucune rémunération pour les produits recommandés et n'offre aucune garantie à leur sujet. Il est à tout moment possible d'utiliser d'autres produits. Il faut toujours veiller à ce que ceux-ci répondent aux exigences du produit concerné, en l'occurrence du [compteur triphasé Telstar CT](/produkte/telstar-ct).
 
 Ces recommandations ont pour but de permettre à nos partenaires de trouver facilement et efficacement certains produits lorsqu'ils n'en connaissent pas encore.
 
 ## Transformateurs de courant étalonnés à des fins de facturation
 
-Si les compteurs doivent être utilisés pour la facturation, des transformateurs étalonnés satisfaisant au minimum à la classe 0.5 ou inférieure sont nécessaires.
+Si les compteurs doivent être utilisés pour la facturation, des transformateurs étalonnés d'une classe de précision d'au moins 0.5 ou inférieure sont nécessaires.
 
-![Transformateurs de courant et accessoires pour Telstar CT – Illustration 1](/img/drittprodukte-stromwandler/01.png)
+<Kacheln min="15rem">
 
-### Transformateurs de mesure Pfiffner (étalonnés)
+<Kachel bild="/img/drittprodukte-stromwandler/01.png" bildtext="Pfiffner Messwandler (geeicht)" titel="Pfiffner Messwandler (geeicht)" bildhoehe="8rem">
 
 Pays de distribution : Suisse
 
-Utilisation :
+Utilisation : facturation
 
-- Facturation
-
-
-Type : 
-
-- Transformateur de courant fermé étalonné
-
-
-Source : [https://www.pfiffner-group.com](https://www.pfiffner-group.com/)  
+Type : transformateur de courant fermé étalonné
 
 - Pfiffner TGH1 / TGK1 Series
-
 - Pfiffner TSC 1-8 Series
 
+Source : [pfiffner-group.com](https://www.pfiffner-group.com/)
 
-Sources d'approvisionnement possibles :
+**Points de vente**
 
-<Kacheln min="20rem">
-<Kachel titel="Pfiffner Messwandler direkt">
-
-M. Samuel Gloor
+Pfiffner en direct · M. Samuel Gloor
 
 +41 62 739 29 19 · [msns@pmw.ch](mailto:msns@pmw.ch)
 
-</Kachel>
-</Kacheln>
-
-
-Étalonnage à des fins de facturation :
+**Étalonnage à des fins de facturation**
 
 L'étalonnage doit être demandé spécifiquement ou indiqué lors de la commande.
 
-![Transformateurs de courant et accessoires pour Telstar CT – Illustration 2](/img/drittprodukte-stromwandler/02.png)
+</Kachel>
 
-### Transformateurs de mesure Hager (étalonnés)
+<Kachel bild="/img/drittprodukte-stromwandler/02.png" bildtext="Hager Messwandler (geeicht)" titel="Hager Messwandler (geeicht)" bildhoehe="8rem">
 
 Pays de distribution : Suisse
 
-Utilisation :
+Utilisation : facturation
 
-- Facturation
-
-
-Type : 
-
-- Transformateur de courant fermé étalonné
-
-
-Source : [https://hager.com/](https://hager.com/)
+Type : transformateur de courant fermé étalonné
 
 - Hager 300K05G
-
 - Hager 600K05G
 
+Source : [hager.com](https://hager.com/)
 
-Sources d'approvisionnement possibles :
+**Points de vente**
 
-<Kacheln min="20rem">
-<Kachel titel="Hager direkt">
+Hager en direct
 
 +41 41 269 90 00 · [emmenbruecke@hager.com](mailto:emmenbruecke@hager.com)
 
-</Kachel>
-</Kacheln>
-
-
-Étalonnage à des fins de facturation :
+**Étalonnage à des fins de facturation**
 
 L'étalonnage doit être demandé spécifiquement ou indiqué lors de la commande.
 
-![Transformateurs de courant et accessoires pour Telstar CT – Illustration 3](/img/drittprodukte-stromwandler/03.png)
+</Kachel>
 
-### Transformateurs de mesure Redur (étalonnés)
+<Kachel bild="/img/drittprodukte-stromwandler/03.png" bildtext="Redur Messwandler (geeicht)" titel="Redur Messwandler (geeicht)" bildhoehe="8rem">
 
 Pays de distribution : Allemagne
 
-Utilisation :
+Utilisation : facturation
 
-- Facturation
-
-
-Type : 
-
-- Transformateur de courant fermé étalonné
-
-
-Source : [https://www.redur.de/](https://www.redur.de/)
+Type : transformateur de courant fermé étalonné
 
 - Redur Regulus Series
 
+Source : [redur.de](https://www.redur.de/)
+
+**Étalonnage à des fins de facturation**
+
+L'étalonnage doit être demandé spécifiquement ou indiqué lors de la commande.
+
+</Kachel>
+
+</Kacheln>
 
 ## Transformateurs de courant à des fins de monitoring
 
-![Transformateurs de courant et accessoires pour Telstar CT – Illustration 4](/img/drittprodukte-stromwandler/04.png)
+<Kacheln min="15rem">
 
-### Transformateurs ouvrants Optec
+<Kachel bild="/img/drittprodukte-stromwandler/04.png" bildtext="Optec Klapp-Wandler" titel="Optec Klapp-Wandler" bildhoehe="8rem">
 
 Pays de distribution : Suisse
 
 Utilisation : monitoring
 
-Type : transformateur de courant ouvert
+Type : transformateur de courant ouvrant
 
-Source : [https://www.optec.ch](https://www.optec.ch)
-
-- Optec séries RX ouvertes
-
-- Optec séries KUW (ouvrants)
-
-- Optec séries SC-CT (ouvrants)
+- Optec RX-Serien ouvrants
+- Optec KUW-Serien (ouvrants à charnière)
+- Optec SC-CT-Serien (ouvrants à charnière)
 
 
-Source d'approvisionnement possible :
+**Point de vente**
 
-- Boutique en ligne Optec
+Boutique en ligne Optec
 
+Source : [optec.ch](https://www.optec.ch)
 
-![Transformateurs de courant et accessoires pour Telstar CT – Illustration 5](/img/drittprodukte-stromwandler/05.png)
+</Kachel>
 
-### Capteurs de courant Optec
+<Kachel bild="/img/drittprodukte-stromwandler/05.png" bildtext="Optec Stromsensoren" titel="Optec Stromsensoren" bildhoehe="8rem">
 
 Pays de distribution : Suisse
 
@@ -151,63 +121,67 @@ Utilisation : monitoring
 
 Type : transformateur de courant fermé
 
-Source :[https://www.optec.ch](https://www.optec.ch)
-
-- Optec séries RX fermées
+- Optec RX-Serien fermés
 
 
-Source d'approvisionnement possible :
+**Point de vente**
 
-- Boutique en ligne Optec
+Boutique en ligne Optec
 
+Source : [optec.ch](https://www.optec.ch)
 
-![Transformateurs de courant et accessoires pour Telstar CT – Illustration 6](/img/drittprodukte-stromwandler/03.png)
+</Kachel>
 
-### Transformateurs de mesure Redur
+<Kachel bild="/img/drittprodukte-stromwandler/03.png" bildtext="Redur Messwandler (geschlossen)" titel="Redur Messwandler (geschlossen)" bildhoehe="8rem">
 
 Pays de distribution : Allemagne
 
 Utilisation : monitoring
 
 Type : transformateur de courant fermé
-
-Source : [https://www.redur.de/](https://www.redur.de/) 
 
 - Redur Regulus Series
 
+Source : [redur.de](https://www.redur.de/)
 
-![Transformateurs de courant et accessoires pour Telstar CT – Illustration 7](/img/drittprodukte-stromwandler/07.png)
+</Kachel>
 
-### Transformateurs de mesure Redur
+<Kachel bild="/img/drittprodukte-stromwandler/07.png" bildtext="Redur Messwandler (offen)" titel="Redur Messwandler (offen)" bildhoehe="8rem">
 
 Pays de distribution : Allemagne
 
 Utilisation : monitoring
 
-Type : transformateur de courant ouvert
-
-Source : [https://www.redur.de/](https://www.redur.de/) 
+Type : transformateur de courant ouvrant
 
 - Redur RSC Series
 
+Source : [redur.de](https://www.redur.de/)
+
+</Kachel>
+
+</Kacheln>
 
 ## Bornes de sectionnement pour transformateurs de mesure
 
-Pour remplacer facilement un compteur, même en service, il est possible d'utiliser des bornes de sectionnement pour transformateurs de mesure. Elles permettent de court-circuiter les sorties des transformateurs afin de ne pas endommager ceux-ci lors du changement de compteur.
+Pour remplacer facilement un compteur, même en service, il est possible d'utiliser des bornes de sectionnement pour transformateurs de mesure. Elles permettent de court-circuiter les sorties des transformateurs afin de ne pas les endommager lors du remplacement du compteur.
 
-![Transformateurs de courant et accessoires pour Telstar CT – Illustration 8](/img/drittprodukte-stromwandler/08.png)
+<Kacheln min="15rem">
 
-### Bornes de sectionnement Phoenix
+<Kachel bild="/img/drittprodukte-stromwandler/08.png" bildtext="Phoenix Trennklemmen" titel="Phoenix Trennklemmen" bildhoehe="8rem">
 
 Type : montage sur rail DIN
 
-Source : [www.phoenixcontact.com](http://www.phoenixcontact.com/)
-
 - Phoenix Contact PTME 4
 
+Source : [phoenixcontact.com](http://www.phoenixcontact.com/)
 
-Sources d'approvisionnement possibles :
+**Points de vente**
 
-- Phoenix Contacts
+Phoenix Contacts
 
-- [www.distrelec.ch](http://www.distrelec.ch)
+[www.distrelec.ch](http://www.distrelec.ch)
+
+</Kachel>
+
+</Kacheln>

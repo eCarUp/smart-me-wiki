@@ -4,22 +4,27 @@ slug: '/drittprodukte/standfuss-fundamente'
 description: 'Borner Fundament (Fertiger Betonblock mit Aluminium-Platte)'
 sidebar_label: 'Standfuss Fundamente'
 ---
-![Standfuss Fundamente – Abbildung 1](/img/drittprodukte-standfuss-fundamente/01.png)
 
-### Borner Fundament (Fertiger Betonblock mit Aluminium-Platte)
+<Kacheln min="15rem">
 
-- Fundament zum Vergraben
+<Kachel bild="/img/drittprodukte-standfuss-fundamente/01.png" bildtext="Borner Fundament" titel="Borner Fundament" bildhoehe="11rem">
 
+Fertiger Betonblock mit Aluminium-Platte
 
-Bezugsquellen:[
-https://borner.ch/products/energy-block/](https://borner.ch/products/energy-block/)
+Fundament zum Vergraben
 
-![Standfuss Fundamente – Abbildung 2](/img/drittprodukte-standfuss-fundamente/02.png)
+Bezugsquelle: [borner.ch](https://borner.ch/products/energy-block/)
 
-### Crea Beton Fundament (Fertiger Betonblock mit Aluminium-Platte)
+</Kachel>
 
-- Fundament zum Vergraben
+<Kachel bild="/img/drittprodukte-standfuss-fundamente/02.png" bildtext="Crea Beton Fundament" titel="Crea Beton Fundament" bildhoehe="11rem">
 
+Fertiger Betonblock mit Aluminium-Platte
 
-Bezugsquellen:
-[https://creabeton.ch/leitungsbau/kabelkeller-fuer-elektroladestationen-d1523/](https://creabeton.ch/leitungsbau/kabelkeller-fuer-elektroladestationen-d1523/)
+Fundament zum Vergraben
+
+Bezugsquelle: [creabeton.ch](https://creabeton.ch/leitungsbau/kabelkeller-fuer-elektroladestationen-d1523/)
+
+</Kachel>
+
+</Kacheln>

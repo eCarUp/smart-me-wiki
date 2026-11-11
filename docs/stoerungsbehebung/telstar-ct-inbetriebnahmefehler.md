@@ -10,7 +10,8 @@ Auf dieser Seite werden häufige Fehler beschrieben, welche bei der Inbetriebnah
 
 Folge zur Fehlerbehebung den nachfolgenden Punkten.
 
-### 1\. Prüfe das Wandlerverhältnis
+<details id="wandlerverhaeltnis">
+<summary>1\. Prüfe das Wandlerverhältnis</summary>
 
 Dieser Ansatz ist vor allem dann in Betracht zu ziehen, wenn das gemessene um ganzzahlige Faktoren kleiner ist (z.B. Ist: 4W, Soll: 240W (Faktor 60))
 
@@ -20,8 +21,10 @@ Dieser Ansatz ist vor allem dann in Betracht zu ziehen, wenn das gemessene um ga
 
 - Wichtig: Die historischen Daten werden nicht angepasst. 
 
+</details>
 
-### 2\. Prüfe, ob die Abweichung des EW-Zählers und des smart-me Zählers kleiner gleich 2% ist.
+<details id="abweichung-zwei-prozent">
+<summary>2\. Prüfe, ob die Abweichung des EW-Zählers und des smart-me Zählers kleiner gleich 2% ist.</summary>
 
 Dieser Ansatz ist vor allem dann in Betracht zu ziehen, wenn die Verbräuche der beiden Meter relativ eng beieinander liegen.
 
@@ -39,15 +42,20 @@ Der Messwert des Telstar CT darf im Bereich von 1000kWh +/- 20kWh liegen, mit 99
 
 Achtung: Der Verbrauch ist abhängig von der Messdauer. Für obige Abschätzung muss bei beiden Zählern der gleiche Zeitraum, in welchem die Energie verbraucht wurde, gewählt werden.  Der Zählerstand auf dem EW-Zähler muss nicht zwingend gleich sein, wie der des Telstar CT. 
 
-### 3\. Prüfe, ob die Klemmen beim Messklemmenblock geschlossen sind.
+</details>
+
+<details id="messklemmenblock">
+<summary>3\. Prüfe, ob die Klemmen beim Messklemmenblock geschlossen sind.</summary>
 
 Dieser Ansatz ist vor allem dann in Betracht zu ziehen, wenn die Leistungen verdächtig klein ausfallen (halbe erwartete Leistung oder kleiner).
 
 - Bei einigen Projekten wird nach der Installation aus Versehen vergessen den messklemmenblockseitigen Kurzschluss wieder zu entfernen.
     Ungeschlossene Klemmen beim Messklemmenblock lassen trotzdem einen geringen Stromfluss zu, dieser wird vom Zähler gemessen, entspricht aber nicht dem richtigen Teilungsverhältnis. (Parallelverbindung im Messklemmenblock zur Messstelle im Zähler)
 
+</details>
 
-### 4\. Prüfen, ob der Wandler über Kurzschlussbrücke verfügt.
+<details id="kurzschlussbruecke">
+<summary>4\. Prüfen, ob der Wandler über Kurzschlussbrücke verfügt.</summary>
 
 <div className="row">
 <div className="col col--6">
@@ -64,7 +72,10 @@ Dieser Ansatz ist vor allem dann in Betracht zu ziehen, wenn die Leistungen verd
 </div>
 </div>
 
-### 5\. Prüfe die Flussrichtung der Stromwandler.
+</details>
+
+<details id="flussrichtung-wandler">
+<summary>5\. Prüfe die Flussrichtung der Stromwandler.</summary>
 
 <div className="row">
 <div className="col col--7">
@@ -113,7 +124,10 @@ Was den Erwartungen entspricht:
 </div>
 </div>
 
-### 6\. Prüfe die Phasenverschiebungen mit dem Cos Phi Wert pro Phase
+</details>
+
+<details id="cos-phi">
+<summary>6\. Prüfe die Phasenverschiebungen mit dem Cos Phi Wert pro Phase</summary>
 
 Liegt der Cos Phi Wert mehrerer Phasen stetig unter dem Wert von 0,5, besteht die Möglichkeit einer vertauschten Phasenspannung.
 
@@ -131,7 +145,10 @@ Sehen diese Zahlen gut aus und liegen alle weit über 0,5 und haben alle vorheri
 
 ![Telstar CT Inbetriebnahmefehler – Abbildung 4](/img/stoerungsbehebung-telstar-ct-inbetriebnahmefehler/04.png)
 
-### 7\. Prüfe die Blindleistungsregister des Zählers
+</details>
+
+<details id="blindleistungsregister">
+<summary>7\. Prüfe die Blindleistungsregister des Zählers</summary>
 
 Falls die Messwerte weiterhin unglaubwürdig erscheinen, wurden möglicherweise Spannungsabgriffe und Strommessung vertauscht. Ein Hinweis darauf können uns die Blindleistungsregister geben.
 
@@ -188,7 +205,10 @@ Beispiel eines Bilanzzählers eines grossen MFH mit Solaranlage
 
 Beispiel eines Bilanzzählers in einem Einfamilienhaus mit Solaranlage
 
-### 8\. Prüfe die Konnektoren und die Leitungswiderstände des Wandlerausgangs
+</details>
+
+<details id="leitungswiderstand">
+<summary>8\. Prüfe die Konnektoren und die Leitungswiderstände des Wandlerausgangs</summary>
 
 Dieser Ansatz ist in Betracht zu ziehen, wenn die Vorzeichen der Leistungen und Ströme passen, aber der Wert der Ströme unnatürlich klein ausfällt.
 
@@ -222,6 +242,8 @@ Was kann ich tun, wenn der Leitungswiderstand zu gross ausfällt?
 4.  Wandler durch einen leistungsfähigeren Wandler tauschen z.B. 5VA
 
 ![Telstar CT Inbetriebnahmefehler – Abbildung 7](/img/stoerungsbehebung-telstar-ct-inbetriebnahmefehler/07.png)
+
+</details>
 
 ## Dreiphasen Drehstromsystem und den Wandlerzähler verstehen
 

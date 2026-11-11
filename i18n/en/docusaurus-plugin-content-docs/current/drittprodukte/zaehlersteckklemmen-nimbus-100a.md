@@ -1,64 +1,69 @@
 ---
-title: 'Meter plug-in terminals'
+title: 'Meter plug-in terminals for Nimbus 100A'
 slug: '/drittprodukte/zaehlersteckklemmen-nimbus-100a'
 description: 'The Nimbus 100A is directly compatible with various meter plug-in terminals.'
-sidebar_label: 'Meter plug-in terminals'
+sidebar_label: 'Meter plug-in terminals for Nimbus 100A'
 ---
-The Nimbus 100A is directly compatible with various meter plug-in terminals. The plug-in terminals that we know and have tested are listed here.
+The Nimbus 100A is directly compatible with various meter plug-in terminals. The plug-in terminals we know of and have tested are listed here.
 
-The meter plug-in terminals let you replace or swap meters during operation without interrupting the power supply.
+Meter plug-in terminals allow meters to be replaced or exchanged during operation without interrupting the power supply.
 
-Please note that accessories such as the connector tool and meter connection pins must also be ordered to use these plug-in terminals.
+Please note that accessories such as a connector tool and meter connection pins must also be ordered to use these plug-in terminals.
 
-## Eweco terminals
+<Kacheln min="15rem">
 
-The meter plug-in terminals from Eweco are directly compatible and are manufactured in Switzerland.
+<Kachel bild="/img/drittprodukte-zaehlersteckklemmen-nimbus-100a/02.png" bildtext="Eweco ZSK" titel="Eweco ZSK" bildhoehe="8rem">
 
-Manufacturer website and sales information: [https://www.ewecoklemmen.ch/de/](https://www.ewecoklemmen.ch/de/) 
+Current: up to 80 A
 
-ZSK: up to 80A
+Meter pins for Nimbus: Item no. A00-906 5x5x45mm
 
-Meter pins for Nimbus: Art. A00-906 5x5x45mm
+Manufacturer: [ewecoklemmen.ch](https://www.ewecoklemmen.ch/de/)
 
-ZAK: up to 100A
+Made in Switzerland
 
-Meter pins for Nimbus: Art. No. A00-901 6x7x45mm, round
+</Kachel>
 
-![Meter plug-in terminals Nimbus 100A – Figure 1](/img/drittprodukte-zaehlersteckklemmen-nimbus-100a/01.png)
+<Kachel bild="/img/drittprodukte-zaehlersteckklemmen-nimbus-100a/01.png" bildtext="Eweco ZAK" titel="Eweco ZAK" bildhoehe="8rem">
 
-![Meter plug-in terminals Nimbus 100A – Figure 2](/img/drittprodukte-zaehlersteckklemmen-nimbus-100a/02.png)
+Current: up to 100 A
 
-## Hager terminals
+Meter pins for Nimbus: Item no. A00-901 6x7x45mm, round
 
-Manufacturer website and sales information:
-[Meter plug-in terminals and accessories | Hager Switzerland](https://hager.com/de-ch/katalog/verteilersysteme-und-schraenke/anschlusstechnik/zaehlersteckklemmen-und-zubehoer?AT_MarketingNodeNameSysFunc%5b0%5d=Z%C3%A4hleranschlussklemme) 
+Manufacturer: [ewecoklemmen.ch](https://www.ewecoklemmen.ch/de/)
 
-Series KJ31CH01: up to 100A 
+Made in Switzerland
 
-Series KJD080C1: up to 80A
-Meter pin for Nimbus: Hager KJZ080A4 80A Ø6×41mm 
+</Kachel>
 
+<Kachel bild="/img/drittprodukte-zaehlersteckklemmen-nimbus-100a/04.png" bildtext="Hager KJ31CH01" titel="Hager KJ31CH01" bildhoehe="8rem">
 
+Current: up to 100 A
 
-![Meter plug-in terminals Nimbus 100A – Figure 3](/img/drittprodukte-zaehlersteckklemmen-nimbus-100a/03.png)
+Manufacturer: [Meter plug-in terminals at Hager](https://hager.com/de-ch/katalog/verteilersysteme-und-schraenke/anschlusstechnik/zaehlersteckklemmen-und-zubehoer?AT_MarketingNodeNameSysFunc%5b0%5d=Z%C3%A4hleranschlussklemme)
 
-![Meter plug-in terminals Nimbus 100A – Figure 4](/img/drittprodukte-zaehlersteckklemmen-nimbus-100a/04.png)
+</Kachel>
 
-## Seidl terminals
+<Kachel bild="/img/drittprodukte-zaehlersteckklemmen-nimbus-100a/03.png" bildtext="Hager KJD080C1" titel="Hager KJD080C1" bildhoehe="8rem">
 
-<div className="row">
-<div className="col col--6">
+Current: up to 80 A
 
-Manufacturer website and sales information: [https://seidlgmbh.com/produkte/](https://seidlgmbh.com/produkte/) 
+Meter pin for Nimbus: Hager KJZ080A4 80A Ø6×41mm
 
-SL-ZAKD: up to 80A continuous current and 128A overload current - screw terminal
+Manufacturer: [Meter plug-in terminals at Hager](https://hager.com/de-ch/katalog/verteilersysteme-und-schraenke/anschlusstechnik/zaehlersteckklemmen-und-zubehoer?AT_MarketingNodeNameSysFunc%5b0%5d=Z%C3%A4hleranschlussklemme)
+
+</Kachel>
+
+<Kachel bild="/img/drittprodukte-zaehlersteckklemmen-nimbus-100a/05.png" bildtext="Seidl SL-ZAKD" titel="Seidl SL-ZAKD" bildhoehe="8rem">
+
+Current: up to 80 A continuous current, 128 A overload current
+
+Type: screw terminal
 
 Meter pin for Nimbus: SL-6-6-42
 
-</div>
-<div className="col col--6 bild--mitte">
+Manufacturer: [seidlgmbh.com](https://seidlgmbh.com/produkte/)
 
-![Meter plug-in terminals Nimbus 100A – Figure 5](/img/drittprodukte-zaehlersteckklemmen-nimbus-100a/05.png)
+</Kachel>
 
-</div>
-</div>
+</Kacheln>

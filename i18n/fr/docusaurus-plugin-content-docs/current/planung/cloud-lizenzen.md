@@ -1,11 +1,11 @@
 ---
 title: 'Licences cloud'
 slug: '/planung/cloud-lizenzen'
-description: 'Veuillez noter que le statut Professional du compte n''est atteint que si chaque point de mesure dispose d''une licence équivalente.'
+description: 'Notez que le statut Professional du compte n''est atteint que si chaque point de mesure dispose d''une licence équivalente.'
 sidebar_label: 'Licences cloud'
 symbol: 'lizenz'
 ---
-Veuillez noter que le statut Professional du compte n'est atteint que si chaque point de mesure dispose d'une licence équivalente.
+Notez que le statut Professional du compte n'est atteint que si chaque point de mesure dispose d'une licence équivalente.
 
 ## Les trois niveaux de licence
 
@@ -19,9 +19,9 @@ Standard pour les compteurs API, OCPP et M-Bus :
 
 **Étendue**
 
-- Rapports : exportation CSV manuelle
-- 1 valeur de mesure toutes les 15 minutes (API)
-- API : uniquement pour un usage privé et le pilotage \*\*
+- Rapports : export CSV manuel
+- 1 valeur de mesure par 15 minutes (API)
+- API : uniquement utilisation privée et commande \*\*
 
 </Kachel>
 
@@ -40,10 +40,10 @@ Standard pour :
 - [Actions si/alors](/konfiguration/wenndann-aktionen) (sans régulation Pico)
 - Rapports
 - Profils de charge
-- Gestion étendue des dossiers et des compteurs
+- Gestion avancée des dossiers et des compteurs
 - [Liens publics](/konfiguration/visualisierung)
 - 1 valeur de mesure par minute (API)
-- API : uniquement pour un usage privé et le pilotage \*\*
+- API : uniquement utilisation privée et commande \*\*
 
 </Kachel>
 
@@ -51,7 +51,7 @@ Standard pour :
 
 Extension possible pour tous les points de mesure dans le cloud smart-me.
 
-**Étendue : tout ce que comprend Limited, plus**
+**Étendue : tout ce qu'offre Limited, plus**
 
 - [Billing](/konfiguration/billing)
 - [Compteurs virtuels](/konfiguration/virtuelle-zaehler)
@@ -63,13 +63,13 @@ Extension possible pour tous les points de mesure dans le cloud smart-me.
 - [Modbus TCP](/schnittstellen/modbus-tcp)
 - [Santé du système](/stoerungsbehebung/systemgesundheit)
 - 1 valeur de mesure par seconde (API)
-- API : pour un usage privé **et commercial**
+- API : pour une utilisation privée **et commerciale**
 
 </Kachel>
 
 </Kacheln>
 
-\*Le niveau d'abonnement correspondant n'est atteint que si chaque point de comptage du compte dispose du même niveau de licence.
+\*Le niveau d'abonnement concerné n'est atteint que si chaque point de comptage du compte dispose du même niveau de licence.
 
 \*\* Une utilisation commerciale de l'API nécessite toujours le niveau d'abonnement Professional.
 
@@ -79,49 +79,48 @@ Le compteur ayant le niveau d'abonnement le plus bas du compte détermine le niv
 
 Les comptes mixtes ne sont pas possibles et restent au statut Basic ou Limited si le nombre de licences est insuffisant.
 
-## Calculer le nombre correct de licences Professional
+## Calculer le bon nombre de licences Professional
 
-Pour que votre compte obtienne le statut Professional, vous avez besoin d'au moins une licence Professional pour chaque compteur (y compris les compteurs virtuels) du compte.
+Pour que votre compte obtienne le statut Professional, il vous faut au moins une licence Professional pour chaque compteur (y compris les compteurs virtuels) du compte.
 
 Il n'est pas possible de mélanger des compteurs sous licence et des compteurs sans licence dans un même compte.
 
-Règle empirique pour les RCP (regroupements dans le cadre de la consommation propre) et vRCP avec un tarif solaire et / ou batterie uniforme :
+Règle empirique pour les RCP (regroupements dans le cadre de la consommation propre) et les RCP virtuels (vRCP) avec un tarif solaire et / ou batterie uniforme :
 
-RCP avec 1x installation PV : nombre de compteurs = nombre de licences
-RCP avec \>1x installation PV (visualisations) : nombre de compteurs + 1 (virtuel)
+- RCP avec 1x installation PV : nombre de compteurs = nombre de licences
+- RCP avec \>1x installation PV (visualisations) : nombre de compteurs + 1 (virtuel)
 
-Règle empirique pour les systèmes RCP avec tarifs solaire et batterie séparés (uniquement pour les systèmes couplés AC) :
+Règle empirique pour les systèmes RCP avec tarif solaire et tarif batterie séparés (uniquement systèmes à couplage AC) :
 
-RCP avec 1x installation PV : nombre de compteurs + 1 (virtuel)
-
-RCP avec >1x installation PV : nombre de compteurs + 2 (virtuels)
+- RCP avec 1x installation PV : nombre de compteurs + 1 (virtuel)
+- RCP avec >1x installation PV : nombre de compteurs + 2 (virtuels)
 
 ### Exemple électricité avec compteurs smart-me (1x PV)
 
-3x Telstar 80A
-2x Telstar CT
+- 3x Telstar 80A
+- 2x Telstar CT
 
 Total Professional tous types d'énergie : 5 unités
 
-### Exemple électricité avec compteurs smart-me + chaleur / eau avec M-Bus Gateway (1x PV)
+### Exemple électricité avec compteurs smart-me + chaleur / eau avec M-Bus (1x PV)
 
-3x Telstar 80A
-2x Telstar CT
+- 3x Telstar 80A
+- 2x Telstar CT
 
 Licences Professional tous types d'énergie : 5 unités
 
-1x M-Bus Gateway avec compteurs de chaleur / d'eau connectés
+1x M-Bus Gateway avec compteurs de chaleur / d'eau raccordés
 
-3x chaleur
-3x froid
-3x compteurs d'eau chaude sanitaire
-3x compteurs d'eau froide
+- 3x chaleur
+- 3x froid
+- 3x compteurs d'eau chaude sanitaire
+- 3x compteurs d'eau froide
 
 Licences Professional pour chaleur / eau / gaz : 12 unités
 
-Total licences Professional : 17 unités
+**Total licences Professional : 17 unités**
 
-Remarque : le M-Bus Gateway lui-même ne nécessite pas de licence.
+**Remarque :** le M-Bus Gateway lui-même ne nécessite pas de licence.
 
 ## Couverture des licences
 
@@ -135,7 +134,6 @@ Celles-ci peuvent être achetées pour un montant mensuel et couvrent à tout mo
 
 - 18x licence Professional mensuelle tous types d'énergie
 
-
 L'abonnement mensuel est soumis aux effets de l'inflation et de la déflation.
 
 ### Modèle de licence pluriannuelle
@@ -143,7 +141,6 @@ L'abonnement mensuel est soumis aux effets de l'inflation et de la déflation.
 L'installation nécessite au total 18 licences Professional.
 
 - 6x licence Professional tous types d'énergie, 10 ans (électricité + compteurs virtuels)
-
 - 12x licence Professional chaleur / eau / gaz, 10 ans
 
 
@@ -155,18 +152,18 @@ Les illustrations ci-dessous vous permettent de déterminer facilement si vous a
 
 ### Décompte RCP
 
-Pour le décompte RCP, il est déterminant de savoir quel système tarifaire doit être représenté et si le décompte doit être automatisé.
+Pour le décompte RCP (regroupement dans le cadre de la consommation propre), il est déterminant de savoir quel système tarifaire doit être représenté et si le décompte doit être automatisé.
 
 <div className="bild--voll">
 
-![Licences cloud – illustration 1](/img/planung-cloud-lizenzen/01_FR.png)
+![Licences cloud – Illustration 1](/img/planung-cloud-lizenzen/01_FR.png)
 
 </div>
 
-### Pilotage RCP
+### Commande RCP
 
 <div className="bild--voll">
 
-![Licences cloud – illustration 2](/img/planung-cloud-lizenzen/02_FR.png)
+![Licences cloud – Illustration 2](/img/planung-cloud-lizenzen/02_FR.png)
 
 </div>

@@ -1,11 +1,11 @@
 ---
 title: 'Licenze cloud'
 slug: '/planung/cloud-lizenzen'
-description: 'Si noti che lo stato Professional dell''account viene raggiunto solo se ogni punto di misura dispone di una licenza equivalente.'
+description: 'Tieni presente che lo stato Professional dell''account viene raggiunto solo se ogni punto di misura dispone di una licenza equivalente.'
 sidebar_label: 'Licenze cloud'
 symbol: 'lizenz'
 ---
-Si noti che lo stato Professional dell'account viene raggiunto solo se ogni punto di misura dispone di una licenza equivalente.
+Tieni presente che lo stato Professional dell'account viene raggiunto solo se ogni punto di misura dispone di una licenza equivalente.
 
 ## I tre livelli di licenza
 
@@ -13,9 +13,9 @@ Si noti che lo stato Professional dell'account viene raggiunto solo se ogni punt
 
 <Kachel titel="Basic">
 
-Standard per API, OCPP e contatori M-Bus:
+Standard per contatori API, OCPP e M-Bus:
 
-- [M-Bus Gateway](/produkte/m-bus-gateway)
+- [Gateway M-Bus](/produkte/m-bus-gateway)
 
 **Funzionalità**
 
@@ -69,7 +69,7 @@ Estensione possibile per tutti i punti di misura nel cloud smart-me.
 
 </Kacheln>
 
-\*Il rispettivo livello di abbonamento viene raggiunto solo se ogni punto di misura nell'account ha lo stesso livello di licenza.
+\*Il rispettivo livello di abbonamento viene raggiunto solo se ogni punto di misura dell'account ha lo stesso livello di licenza.
 
 \*\* Un uso commerciale dell'API richiede sempre il livello di abbonamento Professional.
 
@@ -77,55 +77,54 @@ Professional = tutti i contatori dell'account hanno una licenza Professional.
 
 Il contatore con il livello di abbonamento più basso nell'account determina il livello di abbonamento complessivo dell'account.
 
-Gli account misti non sono possibili e rimangono nello stato Basic o Limited se il numero di licenze non è sufficiente.
+Gli account misti non sono possibili e restano nello stato Basic o Limited se il numero di licenze non è sufficiente.
 
 ## Calcolo del numero corretto di licenze Professional
 
-Affinché il Suo account raggiunga lo stato Professional, è necessaria almeno una licenza Professional per ogni contatore (anche virtuale) presente nell'account.
+Affinché il tuo account raggiunga lo stato Professional, ti serve almeno una licenza Professional per ogni contatore (anche virtuale) dell'account.
 
 Non è possibile combinare in un account contatori con licenza e contatori senza licenza.
 
-Regola empirica per RCP (raggruppamento ai fini del consumo proprio) e RCP virtuale (vRCP) con tariffa solare e/o della batteria unificata:
+Regola empirica per RCP (raggruppamento ai fini del consumo proprio) e RCP virtuale (vRCP) con tariffa solare e/o tariffa batteria unificata:
 
-RCP con 1x impianto FV: numero di contatori = numero di licenze
-RCP con \>1x impianto FV (visualizzazioni): numero di contatori + 1 (virtuale)
+- RCP con 1 impianto FV: numero di contatori = numero di licenze
+- RCP con \>1 impianto FV (visualizzazioni): numero di contatori + 1 (virtuale)
 
-Regola empirica per sistemi RCP con tariffa solare e tariffa della batteria separate (solo sistemi con accoppiamento AC):
+Regola empirica per sistemi RCP con tariffa solare e tariffa batteria separate (solo sistemi con accoppiamento AC):
 
-RCP con 1x impianto FV: numero di contatori + 1 (virtuale)
+- RCP con 1 impianto FV: numero di contatori + 1 (virtuale)
+- RCP con >1 impianto FV: numero di contatori + 2 (virtuali)
 
-RCP con >1x impianto FV: numero di contatori + 2 (virtuali)
+### Esempio elettricità con contatori smart-me (1 impianto FV)
 
-### Esempio elettricità con contatori smart-me (1x FV)
-
-3x Telstar 80A
-2x Telstar CT
+- 3x Telstar 80A
+- 2x Telstar CT
 
 Totale Professional tutti i tipi di energia: 5 pezzi
 
-### Esempio elettricità con contatori smart-me + calore / acqua con M-Bus Gateway (1x FV)
+### Esempio elettricità con contatori smart-me + calore / acqua con M-Bus (1 impianto FV)
 
-3x Telstar 80A
-2x Telstar CT
+- 3x Telstar 80A
+- 2x Telstar CT
 
 Licenze Professional tutti i tipi di energia: 5 pezzi
 
-1x M-Bus Gateway con contatori di calore / dell'acqua collegati
+1x Gateway M-Bus con contatori di calore / acqua collegati
 
-3x calore
-3x freddo
-3x contatori dell'acqua calda sanitaria
-3x contatori dell'acqua fredda
+- 3x calore
+- 3x freddo
+- 3x contatori dell'acqua calda sanitaria
+- 3x contatori dell'acqua fredda
 
 Licenze Professional per calore / acqua / gas: 12 pezzi
 
-Totale licenze Professional: 17 pezzi
+**Totale licenze Professional: 17 pezzi**
 
-Nota: l'M-Bus Gateway stesso non richiede alcuna licenza.
+**Nota:** il Gateway M-Bus stesso non richiede alcuna licenza.
 
 ## Copertura delle licenze
 
-L'installazione descritta sopra con diversi vettori energetici può ora essere coperta da licenza in due modi.
+L'installazione descritta sopra con diversi vettori energetici può essere ora coperta da licenze in due modi.
 
 ### Abbonamento mensile
 
@@ -135,27 +134,25 @@ Queste possono essere acquistate a un importo mensile e coprono in ogni momento 
 
 - 18x licenza Professional mensile tutti i tipi di energia
 
-
-L'abbonamento mensile è soggetto agli effetti dell'inflazione e della deflazione.
+L'abbonamento mensile è soggetto agli effetti di inflazione e deflazione.
 
 ### Modello di licenza pluriennale
 
 L'installazione richiede in totale 18 licenze Professional.
 
 - 6x licenza Professional tutti i tipi di energia, 10 anni (elettricità + contatori virtuali)
-
 - 12x licenza Professional calore / acqua / gas, 10 anni
 
 
-Le licenze pluriennali sono in media più convenienti e non sono soggette agli effetti dell'inflazione o della deflazione durante il periodo di utilizzo.
+Le licenze pluriennali sono in media più convenienti e non sono soggette ad effetti di inflazione o deflazione durante il periodo di utilizzo.
 
-## È un cliente "Professional"?
+## Sei un cliente "Professional"?
 
-Con le illustrazioni seguenti può scoprire facilmente se nel Suo account sono necessarie licenze Professional. 
+Con le figure riportate qui sotto puoi scoprire facilmente se ti servono licenze Professional nel tuo account. 
 
 ### Conteggio RCP
 
-Nel conteggio RCP (raggruppamento ai fini del consumo proprio) è determinante quale sistema tariffario debba essere rappresentato e se il conteggio debba avvenire in modo automatizzato.
+Per il conteggio RCP è determinante quale sistema tariffario deve essere rappresentato e se il conteggio deve avvenire in modo automatizzato.
 
 <div className="bild--voll">
 

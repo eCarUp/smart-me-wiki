@@ -87,41 +87,40 @@ Es ist nicht möglich, lizenzierte Zähler mit unlizenzierten in einem Account z
 
 Faustregel für ZEV und vZEV mit einheitlichem Solar und / oder Batterietarif:
 
-ZEV mit 1x PV Anlage: Zähleranzahl = Lizenzanzahl
-ZEV mit \>1x PV-Anlage (Visualisierungen): Zähleranzahl + 1 (virtuell)
+- ZEV mit 1x PV Anlage: Zähleranzahl = Lizenzanzahl
+- ZEV mit \>1x PV-Anlage (Visualisierungen): Zähleranzahl + 1 (virtuell)
 
 Faustregel für ZEV Systeme mit separiertem Solar- und Batterietarif (nur AC- gekoppelte Systeme):
 
-ZEV mit 1x PV-Anlage: Zähleranzahl + 1 (virtuell)
-
-ZEV mit >1x PV-Anlage: Zähleranzahl + 2 (virtuell)
+- ZEV mit 1x PV-Anlage: Zähleranzahl + 1 (virtuell)
+- ZEV mit >1x PV-Anlage: Zähleranzahl + 2 (virtuell)
 
 ### Beispiel Elektro mit smart-me Zählern (1x PV)
 
-3x Telstar 80A
-2x Telstar CT
+- 3x Telstar 80A
+- 2x Telstar CT
 
 Total Professional alle Energietypen: 5 Stück
 
-### Beispiel Elektro mit smart-me Zähler + Wärme / Wasser mit M-Bus Gateway (1x PV)
+### Beispiel Elektro mit smart-me Zähler + Wärme / Wasser mit M-Bus (1x PV)
 
-3x Telstar 80A
-2x Telstar CT
+- 3x Telstar 80A
+- 2x Telstar CT
 
 Lizenzen Professional alle Energietypen: 5 Stück
 
 1x M-Bus Gateway mit verbundenen Wärme / Wasser Zählern
 
-3x Wärme
-3x Kälte
-3x Warmwasserzähler
-3x Kaltwasser Zähler
+- 3x Wärme
+- 3x Kälte
+- 3x Warmwasserzähler
+- 3x Kaltwasser Zähler
 
 Lizenzen Professional für Wärme / Wasser / Gas: 12 Stück
 
-Total Professional Lizenzen: 17 Stück
+**Total Professional Lizenzen: 17 Stück**
 
-Hinweis: Das M-Bus Gateway selbst benötigt keine Lizenz.
+**Hinweis:** Das M-Bus Gateway selbst benötigt keine Lizenz.
 
 ## Lizenzerfüllung
 
@@ -135,7 +134,6 @@ Diese können zu einem monatlichen Betrag eingekauft werden und decken zu jedem 
 
 - 18x Monatliche Professional Lizenz Alle Energietypen
 
-
 Das monatliche Abo ist Inflations- und Deflationseffekten unterworfen.
 
 ### Mehrjahreslizenzmodell
@@ -143,7 +141,6 @@ Das monatliche Abo ist Inflations- und Deflationseffekten unterworfen.
 Die Installation erfordert total 18 Professional Lizenzen.
 
 - 6x Professional Lizenz alle Energietypen, 10 Jahre (Elektro + virtuelle Zähler)
-
 - 12x Professional Lizenz Wärme / Wasser / Gas, 10 Jahre
 
 

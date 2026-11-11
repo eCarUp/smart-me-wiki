@@ -9,7 +9,7 @@ symbol: 'gemeinschaft'
 
 ## Il raggruppamento virtuale ai fini del consumo proprio - vRCP
 
-Un vRCP corrisponde a un raggruppamento ai fini del consumo proprio che include la rete. A differenza dell'RCP (raggruppamento ai fini del consumo proprio) tradizionale, in cui tutti gli edifici devono disporre di un unico allacciamento alla rete, con un vRCP è possibile riunire più allacciamenti alla rete sullo stesso trasformatore di bassa tensione (&lt; 1kV).
+Un vRCP corrisponde a un raggruppamento ai fini del consumo proprio che include la rete. A differenza del RCP (raggruppamento ai fini del consumo proprio) tradizionale, in cui tutti gli edifici devono disporre di un unico e medesimo allacciamento alla rete, con un vRCP è possibile riunire più allacciamenti alla rete collegati a un unico e medesimo trasformatore di bassa tensione (&lt; 1kV).
 
 Oltre a questo requisito fondamentale, occorre chiarire altri punti per stabilire se e con chi nel vicinato è possibile realizzare un vRCP.
 
@@ -27,7 +27,7 @@ Tra questi:
 
 [16:00](https://www.youtube.com/watch?v=cTF9C7b3QwU&t=960s) Modelli di autoconsumo
 
-[28:33](https://www.youtube.com/watch?v=cTF9C7b3QwU&t=1713s) smart-me vRCP
+[28:33](https://www.youtube.com/watch?v=cTF9C7b3QwU&t=1713s) vRCP smart-me
 
 [30:19](https://www.youtube.com/watch?v=cTF9C7b3QwU&t=1819s) Demo dal vivo
 
@@ -35,27 +35,27 @@ Tra questi:
 
 ### Passo 1: verifica iniziale del vRCP
 
-La verifica iniziale di questi aspetti viene richiesta direttamente al gestore della rete di distribuzione.
+La verifica iniziale di questi aspetti va richiesta direttamente al gestore della rete di distribuzione.
 
-In seguito sarà chiaro se un vRCP è possibile e, in caso affermativo, con quali partecipanti.
+In seguito risulta chiaro se un vRCP è possibile e, in caso affermativo, con quali partecipanti.
 
-Il GRD deve fornire questa informazione al più tardi entro 14 giorni, con un riscontro positivo o negativo e la relativa motivazione.
+Questa informazione deve essere fornita dal GRD al più tardi entro 14 giorni, con una risposta positiva o negativa e la relativa motivazione.
 
 ### Passo 2: determinare i partecipanti e richiedere il vRCP
 
-In un secondo passo occorre verificare l'interesse. Si informano i possibili partecipanti della possibilità di aderire al vRCP.
-Sia l'informazione sia le risposte positive devono essere documentate per iscritto con le firme di adesione.
-Queste saranno necessarie in seguito per l'autorizzazione alla trasmissione dei dati, nonché come allegato ai contratti e ad altri documenti.
+In un secondo passo occorre verificare l'interesse. Informate i possibili partecipanti della possibilità di aderire al vRCP.
+Sia l'informazione sia le risposte positive devono essere documentate per iscritto, con le firme per la partecipazione.
+Questi documenti saranno necessari in seguito per l'autorizzazione alla trasmissione dei dati e come allegato ai contratti e ad altro.
 
 A questo punto occorre presentare al GRD una notifica ufficiale del vRCP con tutti gli interessati. Entro 3 mesi vengono verificati e sbrigati ulteriori punti relativi al vRCP.
 
-- La potenza di produzione deve essere pari ad almeno il 10% della potenza di prelievo.
+- La potenza di produzione deve corrispondere almeno al 10% della potenza di prelievo.
 
-- Tutti i partecipanti si trovano dietro lo stesso punto di connessione al livello di bassa tensione?
+- Tutti i partecipanti si trovano dietro lo stesso punto di connessione a livello di bassa tensione?
 
-- In tutte le ubicazioni sono già installati smart meter o no? (In tal caso devono essere installati a posteriori)
+- In tutte le ubicazioni sono già installati smart meter oppure no? (In tal caso devono essere aggiunti)
 
-- È disponibile ulteriore hardware per la lettura locale dei punti di misura e/o una richiesta per la trasmissione SDTA tramite Swisseldex?
+- È disponibile altro hardware per la lettura locale dei punti di misura e/o è presente una richiesta di trasmissione SDTA tramite Swisseldex?
 
 Una volta soddisfatti tutti i punti sopra indicati e dopo circa 3 mesi, il vRCP può entrare in funzione.
 
@@ -63,83 +63,45 @@ Una volta soddisfatti tutti i punti sopra indicati e dopo circa 3 mesi, il vRCP 
 
 ## Panorama dei modelli finora esistenti
 
-RCP: raggruppamento ai fini del consumo proprio 
-
-- Misurazione privata
-
-- Conteggio privato
-
-- Contatore del GRD al punto di immissione con fattura del GRD
-
-Modello GRD:
-
-- Misurazione da parte del GRD
-
-- Conteggio e tariffazione da parte del GRD
-
-- Bilanciamento sui contatori di consumo e di produzione solare
-
-Consumatori normali:
-
-- Consumatori di elettricità presso il GRD come casa o appartamento in una casa unifamiliare o plurifamiliare
-
 ![RCP virtuale (vRCP) – Figura 2](/img/planung-virtuelle-zev-vzev/02_IT.png)
 
-## Modelli vRCP
+## Modelli di vRCP
 
-### vRCP edificio singolo (RCP con bilanciamento virtuale)
+### vRCP per singolo edificio (RCP con bilancio virtuale)
 
 Un edificio condivide un allacciamento comune.
 
 Il passaggio dal modello GRD al vRCP è semplice.
 
-In questo modo, il precedente modello GRD viene in linea di principio semplicemente gestito e conteggiato privatamente come vRCP, svincolandosi così dai servizi del GRD.
+In questo modo il precedente modello GRD viene in sostanza semplicemente gestito e conteggiato privatamente come vRCP, svincolandosi così dai servizi del GRD.
 
 ![RCP virtuale (vRCP) – Figura 3](/img/planung-virtuelle-zev-vzev/03_IT.png)
 
-### vRCP plurifabbricato (vRCP esteso)
+### vRCP su più edifici (vRCP esteso)
 
-Più RCP o edifici con un proprio allacciamento alla rete condividono lo stesso allacciamento in bassa tensione (&lt;1kV)
+Più RCP o edifici con un proprio allacciamento alla rete condividono lo stesso allacciamento di bassa tensione (&lt;1kV)
 
-Questi possono ora utilizzare le linee di collegamento tra gli edifici per trasmettere l'energia solare.
+Ora possono utilizzare le linee di collegamento tra gli edifici per trasmettere l'elettricità solare.
 
-In questo modo, l'energia prodotta negli edifici a sinistra viene messa a disposizione anche delle case plurifamiliari a destra.
+In questo modo l'energia prodotta negli edifici a sinistra viene messa a disposizione anche delle case plurifamiliari a destra.
 
 Non però della casa unifamiliare, poiché questa si trova al di fuori della topologia autorizzata di un vRCP.
 
-I requisiti di topologia per la partecipazione legittima al vRCP sono definiti più in dettaglio qui sotto.
+I requisiti topologici per la partecipazione legittima al vRCP sono definiti più in dettaglio qui sotto.
 
 ![RCP virtuale (vRCP) – Figura 4](/img/planung-virtuelle-zev-vzev/04_IT.png)
 
 ### Topologie di rete per la creazione di un vRCP esteso
 
-Stessa sbarra collettrice o stessa cassetta di distribuzione al livello di bassa tensione (&lt; 1kV)
-
-Tutti gli edifici sono collegati alla stessa cassetta di distribuzione o alla stessa sbarra collettrice al livello di bassa tensione NE7.
-
 ![RCP virtuale (vRCP) – Figura 5](/img/planung-virtuelle-zev-vzev/05_IT.png)
-
-Stessa sbarra collettrice sul lato di bassa tensione del trasformatore di rete (&lt;1kV)
-
-Tutti gli edifici sono collegati allo stesso trasformatore e, al livello di bassa tensione, alla stessa sbarra collettrice.
 
 ![RCP virtuale (vRCP) – Figura 6](/img/planung-virtuelle-zev-vzev/06_IT.png)
 
-Reti a muffole
-Un vRCP esteso su più edifici è possibile solo se gli edifici condividono la stessa muffola
-(caso molto raro)
-
-La costituzione di un vRCP per un edificio singolo è invece sempre possibile.
-
-<div className="bild--voll">
-
 ![RCP virtuale (vRCP) – Figura 7](/img/planung-virtuelle-zev-vzev/07_IT.png)
 
-</div>
+## Possibili membri di un vRCP e tecnica di misura
 
-## Possibili membri di un vRCP e tecnica di misura necessaria
-
-In un vRCP possono incontrarsi diverse infrastrutture del gestore della rete di distribuzione e di ambito privato. La misurazione dei diversi edifici può essere fornita in modi diversi e confluisce nel vRCP in un modello tariffario unitario.
+In un vRCP possono incontrarsi diverse infrastrutture del gestore della rete di distribuzione e dell'ambito privato. La misurazione dei diversi edifici può essere fornita in modi differenti e si integra nel vRCP in un modello tariffario unitario.
 
 - Ex modello pratico (GRD)
 
@@ -151,46 +113,46 @@ In un vRCP possono incontrarsi diverse infrastrutture del gestore della rete di 
 
 ![RCP virtuale (vRCP) – Figura 8](/img/planung-virtuelle-zev-vzev/08_IT.png)
 
-## Infrastruttura dei contatori per il modello di tariffazione vRCP di smart-me
+## Infrastruttura dei contatori per il modello tariffario vRCP
 
-La tariffazione di un vRCP si basa sulla parità di diritti dei partecipanti. Tutti i partecipanti hanno lo stesso diritto alla potenza solare attualmente prodotta.
+La tariffazione di un vRCP si basa sulla parità di trattamento dei partecipanti. Tutti i partecipanti hanno lo stesso diritto alla potenza solare prodotta al momento.
 
 Affinché la tariffazione dei diversi modelli funzioni insieme, sono necessarie unità di contatore selezionate da registrare come riferimento nella nostra tariffa.
 
-Nell'immagine seguente sono indicati tutti i punti di misura rilevanti necessari per il corretto bilanciamento e la corretta tariffazione per ciascuna infrastruttura.
+Nell'immagine seguente sono indicati tutti i punti di misura rilevanti necessari per il corretto bilancio e la corretta tariffazione per ogni infrastruttura.
 
 ![RCP virtuale (vRCP) – Figura 9](/img/planung-virtuelle-zev-vzev/09_IT.png)
 
-### Ex modello pratico (modello ex GRD privatizzato in vRCP)
+### Ex modello pratico (ex modello GRD privatizzato in vRCP)
 
-In questo modello non esiste alcun punto di misura come contatore di bilancio, né dell'azienda elettrica né privato. Per questo motivo questo RCP viene bilanciato virtualmente.
-A tal fine è necessaria la misurazione di tutti i produttori e di tutti i consumatori. Il modello funziona come edificio singolo, ma anche come parte di un vRCP esteso.
+In questo modello non esiste alcun punto di misura come contatore di bilancio, né dell'azienda elettrica né privato. Per questo motivo il bilancio di questo RCP viene effettuato virtualmente.
+A tal fine è necessaria la misurazione di tutti i produttori e di tutti i consumatori. Il modello funziona come singolo edificio, ma anche come parte di un vRCP esteso.
 
 ### RCP privato (con contatore di bilancio)
 
-In questo modello esiste almeno un punto di misura dell'azienda elettrica al punto di allacciamento principale dell'RCP. I dati di questo punto di misura possono essere importati in smart-me tramite una sottomisurazione privata oppure tramite il datahub dell'azienda elettrica.
+In questo modello esiste almeno un punto di misura dell'azienda elettrica nel punto di allacciamento principale del RCP. I dati di questo punto di misura possono essere importati in smart-me tramite una sottomisurazione privata oppure tramite il datahub dell'azienda elettrica.
 
-La sottomisurazione privata consente un controllo efficiente in tempo reale dell'RCP, possibile solo in parte con il contatore dell'azienda elettrica.
+La sottomisurazione privata consente un controllo efficiente in tempo reale del RCP, possibile solo in misura limitata con il contatore dell'azienda elettrica.
 
-[Maggiori informazioni sullo schema di misura degli RCP privati](/planung/zev-zusammenschluss-zum-eigenverbrauch)
+[Maggiori informazioni sullo schema di misura dei RCP privati](/planung/zev-zusammenschluss-zum-eigenverbrauch)
 
 ### Casa con produzione solare (casa unifamiliare)
 
-In questo modello esiste almeno un punto di misura dell'azienda elettrica al punto di allacciamento principale e in parte anche una misurazione della produzione.
+In questo modello esiste almeno un punto di misura dell'azienda elettrica nel punto di allacciamento principale e in parte anche una misurazione della produzione.
 La tariffazione di una casa a schiera è possibile senza contatore della produzione solare. Idealmente, però, anche la produzione solare della casa a schiera viene misurata, dal GRD o privatamente.
-Questi dati possono essere rilevati mediante misurazione con uno smart-me Telstar come misurazione privata oppure come importazione dal datahub tramite Swisseldex.
+Questi dati possono essere rilevati tramite misurazione con uno smart-me Telstar come misurazione privata oppure tramite importazione dal datahub via Swisseldex.
 
 ### Casa o appartamento senza produzione solare (casa unifamiliare)
 
-In questo modello esiste almeno un punto di misura dell'azienda elettrica all'allacciamento dell'edificio. I dati di questi consumatori possono essere rilevati come importazione dal datahub tramite Swisseldex.
+In questo modello esiste almeno un punto di misura dell'azienda elettrica all'allacciamento dell'edificio. I dati di questi consumatori possono essere rilevati tramite importazione dal datahub via Swisseldex.
 
-Una casa plurifamiliare senza impianto solare ma con misurazioni private segue l'infrastruttura di misura dell'RCP senza produzione.
+Una casa plurifamiliare senza impianto solare ma con misurazioni private segue l'infrastruttura di misura del RCP senza produzione.
 
 [Dettagli sulla configurazione delle tariffe vRCP](/konfiguration/billing/stromtarife-definieren)
 
-## Pianifica ora il tuo progetto con il nostro configuratore
+## Pianificate ora il vostro progetto con il nostro configuratore
 
-Il Projektkonfigurator crea per te, sulla base dei tuoi dati, la distinta materiali di tutti i prodotti smart-me, il numero di punti di misura e uno schema visivo da verificare.
+Il Projektkonfigurator crea per voi, sulla base delle vostre indicazioni, la distinta dei materiali con tutti i prodotti smart-me, il numero di punti di misura e uno schema visivo per la verifica.
 
 Ideale per progettisti ed elettricisti specializzati.
 
@@ -201,7 +163,7 @@ Ideale per progettisti ed elettricisti specializzati.
 I dati di misura dei punti di misura rilevanti possono essere importati tramite il datahub di Swisseldex.
 Smart-me è registrata presso Swisseldex come destinataria di questi dati. 
 
-Su richiesta e previa autorizzazione, le aziende elettriche inviano i dati tramite Swisseldex al datahub di importazione di smart-me. I dati possono quindi essere gestiti, visualizzati e conteggiati nel rispettivo account smart-me.
+I dati vengono inviati dalle aziende elettriche, su richiesta e previa autorizzazione, tramite Swisseldex al datahub di importazione di smart-me. I dati possono quindi essere gestiti, visualizzati e conteggiati nel rispettivo account smart-me.
 
 Caratteristiche dei dati delle aziende elettriche:
 
@@ -209,11 +171,11 @@ Caratteristiche dei dati delle aziende elettriche:
 
 - risoluzione di 15 minuti
 
-- messa a disposizione non verificata circa ogni 24h
+- messa a disposizione circa ogni 24h, non verificati
 
-- messa a disposizione verificata circa ogni 30 giorni
+- messa a disposizione circa ogni 30 giorni, verificati
 
-Qui trovi istruzioni dettagliate sull'importazione dei dati: [Dettagli sull'importazione da Swisseldex](/schnittstellen/swisseldex-sdat-import)
+Qui trovate una guida dettagliata all'importazione dei dati: [Dettagli sull'importazione da Swisseldex](/schnittstellen/swisseldex-sdat-import)
 
 ![RCP virtuale (vRCP) – Figura 10](/img/planung-virtuelle-zev-vzev/10_IT.png)
 
@@ -222,21 +184,21 @@ Qui trovi istruzioni dettagliate sull'importazione dei dati: [Dettagli sull'impo
 <details id="kann-ein-vzev-in-einem-muffennetz-entstehen">
 <summary>Un vRCP può nascere in una rete a muffole?</summary>
 
-Sì, è possibile, ma i requisiti sono soddisfatti solo molto raramente.
+Sì, è possibile, ma i requisiti necessari sono soddisfatti solo molto raramente.
 
-Affinché in una rete a muffole possa nascere un vRCP, tutti gli edifici devono condividere esattamente la stessa muffola. Altrimenti viene coinvolta la rete pubblica tra una muffola e l'altra, il che non corrisponde più alla regolamentazione del vRCP.
+Affinché un vRCP possa nascere in una rete a muffole, tutti gli edifici devono condividere esattamente la stessa muffola. In caso contrario viene coinvolta la rete pubblica tra una muffola e l'altra, il che non corrisponde più alla regolamentazione del vRCP.
 
 </details>
 
 <details id="kann-ein-gebäude-ohne-solaranlage-einem-vzev-beitreten-und-die-vnb-zähler-durch-privatzähler-ersetzen">
 <summary>Un edificio senza impianto solare può aderire a un vRCP e sostituire i contatori del GRD con contatori privati?</summary>
 
-Sì, per le misurazioni interne all'edificio della produzione e del consumo.
-All'interno del vRCP costituito, il gestore del vRCP è autonomamente responsabile della misurazione e del conteggio. Ciò implica quindi anche che il gestore del vRCP può impiegare lo strumento di misura di sua scelta per l'intero vRCP.
+Sì, per le misurazioni interne della produzione e del consumo.
+All'interno del vRCP costituito, il gestore del vRCP è responsabile in modo autonomo della misurazione e del conteggio. Ciò implica quindi anche che il gestore del vRCP può impiegare lo strumento di misura di sua scelta per l'intero vRCP.
 
-Naturalmente, però, anche il gestore della rete di distribuzione necessita di punti di misura propri per la contromisurazione e il bilanciamento del vRCP. Questi deve installarli di conseguenza.
+Naturalmente, però, anche il gestore della rete di distribuzione ha bisogno di punti di misura per la contromisurazione e il bilancio del vRCP stesso. Deve installarli di conseguenza.
 
-Se una casa plurifamiliare senza impianto solare desidera aderire al vRCP, è possibile installare un contatore privato per ciascuna unità di conteggio. Il gestore della rete di distribuzione deve però installare di conseguenza un punto di misura all'allacciamento dell'edificio.
+Se una casa plurifamiliare senza impianto solare desidera aderire al vRCP, è possibile installare un contatore privato per ciascuna unità di conteggio. In tal caso, però, il gestore della rete di distribuzione deve installare un punto di misura all'allacciamento dell'edificio.
 
 </details>
 
@@ -245,8 +207,8 @@ Se una casa plurifamiliare senza impianto solare desidera aderire al vRCP, è po
 
 Sì e no.
 
-È possibile costituire un vRCP a partire da due RCP esistenti sullo stesso allacciamento al trasformatore.
-Non è però possibile che i due RCP continuino a esistere giuridicamente in modo individuale.
+È possibile costituire un vRCP a partire da due RCP esistenti collegati allo stesso trasformatore.
+Non è però possibile che i due RCP continuino a esistere individualmente dal punto di vista giuridico.
 Dal punto di vista giuridico, questi due RCP diventano un unico (v)RCP.
 
 I due RCP vengono quindi sciolti giuridicamente e sostituiti da un (v)RCP.
@@ -254,19 +216,19 @@ I due RCP vengono quindi sciolti giuridicamente e sostituiti da un (v)RCP.
 </details>
 
 <details id="kann-die-interne-tarifierung-und-der-strompreis-des-zev-oder-vzevs-frei-gewählt-werden">
-<summary>La tariffazione interna e il prezzo dell'elettricità dell'RCP o del vRCP possono essere scelti liberamente?</summary>
+<summary>La tariffazione interna e il prezzo dell'elettricità del RCP o del vRCP possono essere scelti liberamente?</summary>
 
 Sì e no.
 
-La regolamentazione è esattamente la stessa dell'RCP.
+La regolamentazione è esattamente la stessa del RCP.
 
-La struttura tariffaria all'interno di un RCP o di un vRCP può essere regolata autonomamente secondo il diritto privato e in modo diverso dall'offerta del gestore della rete di distribuzione.
-Continuano tuttavia ad applicarsi le basi giuridiche dell'RCP in materia di determinazione dei prezzi.
+La struttura tariffaria all'interno di un RCP o di un vRCP può essere disciplinata autonomamente secondo il diritto privato e in modo diverso dall'offerta del gestore della rete di distribuzione.
+Restano tuttavia applicabili le basi giuridiche del RCP in materia di determinazione dei prezzi.
 
 Esempio:
-Se l'elettricità di rete è regolata come tariffa unica con tariffa di potenza, all'interno dell'RCP o del vRCP si può anche decidere di offrire solo una tariffa unica o una tariffa doppia.
+Se l'elettricità di rete è regolata come tariffa unica con tariffa di potenza, all'interno del RCP o del vRCP si può anche decidere di offrire solo una tariffa unica o una tariffa doppia.
 Occorre invece garantire che, indipendentemente dalla tariffazione scelta, non si incassi più denaro di quanto sia effettivamente costata l'elettricità di rete.
 
-Anche l'energia solare interna deve seguire le regole e, a seconda della regola applicata, non può costare più dell'80% fino a max. il 100% dell'equivalente elettricità di rete.
+Anche l'elettricità solare interna deve seguire le regole e, a seconda della regola applicata, non può costare più dell'80% fino a max. il 100% dell'elettricità di rete equivalente.
 
 </details>

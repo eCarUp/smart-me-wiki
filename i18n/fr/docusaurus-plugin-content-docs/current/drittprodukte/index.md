@@ -1,19 +1,25 @@
 ---
 title: 'Produits tiers'
 slug: '/drittprodukte'
-description: 'Vous trouverez ci-dessous une liste de recommandations de produits et de services.'
+description: 'Vous trouverez ci-après une liste de recommandations de produits et de services.'
 sidebar_label: 'Produits tiers'
 ---
-Vous trouverez ci-dessous une liste de recommandations de produits et de services. smart-me ne gagne pas d'argent avec les produits recommandés et n'assume aucune garantie à leur égard. Il est possible à tout moment d'utiliser d'autres produits. Il faut toutefois toujours veiller à ce que ceux-ci répondent aux exigences du [produit](/produkte) concerné.
+Vous trouverez ci-après une liste de recommandations de produits et de services. smart-me ne perçoit aucune rémunération sur les produits recommandés et n'assume aucune garantie à leur sujet. Il est à tout moment possible d'utiliser d'autres produits. Veillez toutefois toujours à ce que ceux-ci satisfassent aux exigences du [produit](/produkte) concerné.
 
 L'objectif de ces recommandations est de permettre à nos partenaires de trouver simplement et efficacement certains produits ou services lorsqu'ils n'en connaissent pas encore.
 
-[Transformateurs de courant et accessoires pour Telstar CT](/drittprodukte/stromwandler)
+<Kacheln min="15rem">
 
-[Bornes enfichables pour compteur Nimbus 100A](/drittprodukte/zaehlersteckklemmen-nimbus-100a)
+<Kachel bild="/img/drittprodukte-stromwandler/01.png" bildtext="Stromwandler und Zubehör zu Telstar CT" titel="Stromwandler und Zubehör zu Telstar CT" href="/drittprodukte/stromwandler" bildhoehe="9rem" mittig />
 
-[Fondations pour socle Pico](/drittprodukte/standfuss-fundamente)
+<Kachel bild="/img/drittprodukte-zaehlersteckklemmen-nimbus-100a/02.png" bildtext="Zählersteckklemmen Nimbus 100A" titel="Zählersteckklemmen Nimbus 100A" href="/drittprodukte/zaehlersteckklemmen-nimbus-100a" bildhoehe="9rem" mittig />
+
+<Kachel bild="/img/drittprodukte-standfuss-fundamente/01.png" bildtext="Pico Standfuss Fundamente" titel="Pico Standfuss Fundamente" href="/drittprodukte/standfuss-fundamente" bildhoehe="9rem" mittig />
+
+<Kachel bild="/img/produkte-pico-ladestation-pico-standfuss/13.png" bildtext="Pico Standfuss – One Pole" titel="Pico Standfuss – One Pole" href="/produkte/pico-ladestation/pico-standfuss#onepole-pro-pour-borne-de-recharge-pico" bildhoehe="9rem" mittig>
 
 Au lieu du socle de smart-me, la Pico est également compatible avec le système One Pole.
 
-[Socle Pico - One Pole](/produkte/pico-ladestation/pico-standfuss#onepole-pro-pour-borne-de-recharge-pico)
+</Kachel>
+
+</Kacheln>

@@ -4,22 +4,27 @@ slug: '/drittprodukte/standfuss-fundamente'
 description: 'Fondation Borner (bloc de béton préfabriqué avec plaque en aluminium)'
 sidebar_label: 'Fondations pour socle'
 ---
-![Fondations pour socle – illustration 1](/img/drittprodukte-standfuss-fundamente/01.png)
 
-### Fondation Borner (bloc de béton préfabriqué avec plaque en aluminium)
+<Kacheln min="15rem">
 
-- Fondation à enterrer
+<Kachel bild="/img/drittprodukte-standfuss-fundamente/01.png" bildtext="Borner Fundament" titel="Borner Fundament" bildhoehe="11rem">
 
+Bloc de béton préfabriqué avec plaque en aluminium
 
-Sources d'approvisionnement :[
-https://borner.ch/products/energy-block/](https://borner.ch/products/energy-block/)
+Fondation à enterrer
 
-![Fondations pour socle – illustration 2](/img/drittprodukte-standfuss-fundamente/02.png)
+Source d'approvisionnement : [borner.ch](https://borner.ch/products/energy-block/)
 
-### Fondation Crea Beton (bloc de béton préfabriqué avec plaque en aluminium)
+</Kachel>
 
-- Fondation à enterrer
+<Kachel bild="/img/drittprodukte-standfuss-fundamente/02.png" bildtext="Crea Beton Fundament" titel="Crea Beton Fundament" bildhoehe="11rem">
 
+Bloc de béton préfabriqué avec plaque en aluminium
 
-Sources d'approvisionnement :
-[https://creabeton.ch/leitungsbau/kabelkeller-fuer-elektroladestationen-d1523/](https://creabeton.ch/leitungsbau/kabelkeller-fuer-elektroladestationen-d1523/)
+Fondation à enterrer
+
+Source d'approvisionnement : [creabeton.ch](https://creabeton.ch/leitungsbau/kabelkeller-fuer-elektroladestationen-d1523/)
+
+</Kachel>
+
+</Kacheln>

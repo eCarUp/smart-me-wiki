@@ -7,19 +7,19 @@ symbol: 'gebaeude'
 ---
 ## Raggruppamento ai fini del consumo proprio (RCP)
 
-Un raggruppamento ai fini del consumo proprio può essere costituito da un singolo edificio oppure da più edifici con lo stesso punto di allacciamento nei confronti dell'azienda elettrica.
+Un raggruppamento ai fini del consumo proprio può essere costituito da un singolo edificio oppure da più edifici con lo stesso punto di allacciamento verso il fornitore di energia.
 
-All'interno dell'RCP, il conteggio e la tariffazione dell'elettricità di rete e dell'elettricità prodotta localmente sono di competenza dei gestori dell'RCP.
+All'interno del RCP, il conteggio e la tariffazione dell'elettricità di rete e dell'elettricità prodotta localmente sono di competenza dei gestori del RCP.
 
-Affinché questo conteggio possa essere eseguito, sono necessari l'infrastruttura adeguata e uno schema di misura completo per le rispettive energie.
+Per poter eseguire questo conteggio sono necessarie l'infrastruttura adeguata e uno schema di misura completo per le rispettive energie.
 
-Principi di base
+**Principi:**
 
 - Misurazione privata
 
 - Conteggio privato
 
-- Contatore del gestore della rete di distribuzione al punto di immissione con fattura del gestore della rete di distribuzione
+- Contatore del gestore della rete di distribuzione nel punto di immissione con fattura del gestore della rete di distribuzione
 
 <div className="bild--voll">
 
@@ -31,11 +31,11 @@ Principi di base
 
 ### Punti di misura soggetti a licenza:
 
-- Ogni punto di misura che deve essere rilevato è [soggetto a licenza](/planung/cloud-lizenzen).
+- Ogni punto di misura da rilevare è [soggetto a licenza](/planung/cloud-lizenzen).
 
-- Ogni contatore virtuale (produzioni totali, consumo complessivo) è [soggetto a licenza](/planung/cloud-lizenzen).
+- Ogni contatore virtuale (somma delle produzioni, consumo totale) è [soggetto a licenza](/planung/cloud-lizenzen).
 
-- Ogni registro di un contatore M-Bus o LoRa che deve essere conteggiato vale come punto di misura (contatore combinato calore / freddo = 2 licenze) ed è quindi [soggetto a licenza](/planung/cloud-lizenzen), ma non il gateway M-Bus stesso. I registri non utilizzati possono essere impostati come inattivi.
+- Ogni registro di un contatore M-Bus o LoRa\-che deve essere conteggiato vale come punto di misura (contatore combinato caldo / freddo = 2 licenze) ed è quindi [soggetto a licenza](/planung/cloud-lizenzen), ma non il gateway M-Bus stesso. I registri non utilizzati possono essere impostati come inattivi.
 
 
 ### Elettricità
@@ -46,15 +46,15 @@ Principi di base
     ](/produkte/telstar-80a)\- [Telstar CT
     ](/produkte/telstar-ct)\- [Nimbus 100A (piastra contatore)](/produkte/nimbus-100a)
 
-- Tutte le produzioni e tutti i sistemi di accumulo devono essere misurati, insieme o separatamente.
+- Tutte le produzioni e i sistemi di accumulo devono essere misurati, insieme o separatamente.
 
-- La misurazione all'allacciamento dell'edificio / dell'area costituisce il saldo corretto per una tariffazione accurata. Le misurazioni all'allacciamento dell'edificio sono i punti di misura più importanti per il controllo dinamico delle utenze all'interno degli edifici.
+- La misurazione all'allacciamento dell'edificio / dell'area fornisce la corretta somma di bilancio per una tariffazione accurata. Le misurazioni all'allacciamento dell'edificio sono i punti di misura più importanti per il controllo dinamico delle utenze all'interno degli edifici.
 
 - Tariffazione e conteggio tramite [smart-me Billing](/konfiguration/billing)
 
-- A seconda del modello, la tariffazione può essere calcolata tramite il contatore dell'area / dell'allacciamento dell'edificio e le produzioni oppure, in alternativa, tramite le produzioni e il consumo complessivo virtuale. (+1 contatore virtuale del consumo complessivo)
+- A seconda del modello, la tariffazione può essere calcolata tramite il contatore dell'area / dell'allacciamento dell'edificio e le produzioni, oppure in alternativa tramite le produzioni e il consumo totale virtuale. (+1 contatore virtuale del consumo totale)
 
-- Se vengono misurate più produzioni (batterie / FV), queste devono essere sommate virtualmente (+1 contatore virtuale totalizzatore)
+- Se vengono misurate più produzioni (batterie / FV), queste devono essere sommate virtualmente (+1 contatore virtuale di somma)
 
 
 <div className="bild--voll">
@@ -65,15 +65,15 @@ Principi di base
 
 ### Mobilità elettrica con smart-me ed eCarUp
 
-- La mobilità elettrica viene realizzata tramite punti di ricarica privati, semiprivati o pubblici.
+- La mobilità elettrica viene realizzata tramite punti di ricarica privati, semi-privati o pubblici.
 
-- L'hardware [smart-me Pico 22kW](/produkte/pico-ladestation) offre il mix ottimale di hardware per l'esercizio pubblico e per l'esercizio privato nell'RCP. Con [eCarUp](https://www.ecarup.com) sono tuttavia disponibili anche altre soluzioni hardware compatibili.
+- L'hardware [smart-me Pico 22kW](/produkte/pico-ladestation) offre il mix ottimale di hardware per l'esercizio pubblico e privato nel RCP. Con [eCarUp](https://www.ecarup.com) sono però disponibili anche altre soluzioni hardware compatibili.
 
-- Il conteggio avviene ad es. tramite carta di credito a tariffa unica con [eCarUp](https://www.ecarup.com) oppure con tariffazione direttamente nel conteggio dell'appartamento con [smart-me Billing](/konfiguration/billing).
+- Il conteggio avviene ad es. tramite carta di credito con tariffa unica con [eCarUp](https://www.ecarup.com) oppure con tariffazione direttamente tramite il conteggio dell'appartamento con [smart-me Billing](/konfiguration/billing).
 
 - Il controllo delle stazioni di ricarica Pico e la protezione dell'infrastruttura sono affidati all'avanzata [gestione del carico multilivello](/konfiguration/multilevel-lastmanagement).
 
-- Il distacco del carico viene gestito direttamente tramite l'[hardware](/produkte/pico-ladestation) oppure tramite la [gestione del carico multilivello](/konfiguration/multilevel-lastmanagement).
+- Il distacco del carico viene risolto direttamente tramite l'[hardware](/produkte/pico-ladestation) oppure tramite la [gestione del carico multilivello](/konfiguration/multilevel-lastmanagement).
 
 
 ### Calore e acqua
@@ -91,19 +91,19 @@ Principi di base
 
 ## Pianifica ora il tuo progetto con il nostro configuratore
 
-Il Projektkonfigurator crea per te, sulla base dei tuoi dati, la distinta dei materiali con tutti i prodotti smart-me, il numero di punti di misura e uno schema visivo per la verifica.
+Il Projektkonfigurator crea, sulla base dei tuoi dati, la distinta dei materiali con tutti i prodotti smart-me, il numero di punti di misura e uno schema visivo per la verifica.
 
-Ideale per progettisti ed elettricisti specializzati.
+Ideale per progettisti ed elettricisti.
 
 [Projektkonfigurator](/planung/projektkonfigurator)
 
 ## Esempi di RCP
 
-### RCP come edificio singolo
+### RCP come singolo edificio
 
-- L'allacciamento dell'edificio è qui rilevante per il controllo dinamico dell'infrastruttura dell'edificio, come pompe di calore, stazioni di ricarica e impianti solari, e per una tariffazione accurata.
+- Qui l'allacciamento dell'edificio è rilevante per il controllo dinamico dell'infrastruttura dell'edificio, come pompe di calore, stazioni di ricarica e impianti solari, e per una tariffazione accurata.
 
-- Il contatore delle utenze comuni e quello della pompa di calore (riscaldamento) vengono misurati separatamente. In questo modo si garantisce che i costi energetici possano essere indicati singolarmente. I costi energetici possono essere ripartiti percentualmente tra le parti oppure essere addebitati nel loro insieme all'attenzione di un'amministrazione immobiliare.
+- Il contatore delle utenze comuni e quello della pompa di calore (riscaldamento) vengono misurati separatamente. In questo modo si garantisce che i costi energetici possano essere indicati singolarmente. I costi energetici possono essere ripartiti percentualmente tra le parti oppure essere addebitati complessivamente all'attenzione di un'amministrazione immobiliare.
 
 
 <div className="bild--voll">
@@ -116,9 +116,9 @@ Ideale per progettisti ed elettricisti specializzati.
 
 - Il punto di misura dell'area è determinante per una perfetta precisione della tariffazione
 
-- Gli allacciamenti degli edifici sono qui rilevanti per il controllo dinamico dell'infrastruttura degli edifici, come pompe di calore, stazioni di ricarica e impianti solari.
+- Qui gli allacciamenti degli edifici sono rilevanti per il controllo dinamico dell'infrastruttura degli edifici, come pompe di calore, stazioni di ricarica e impianti solari.
 
-- Il contatore delle utenze comuni e quello della pompa di calore (riscaldamento) vengono misurati separatamente. In questo modo si garantisce che i costi energetici possano essere indicati singolarmente. I costi energetici possono essere ripartiti percentualmente tra le parti oppure essere addebitati nel loro insieme all'attenzione di un'amministrazione immobiliare.
+- Il contatore delle utenze comuni e quello della pompa di calore (riscaldamento) vengono misurati separatamente. In questo modo si garantisce che i costi energetici possano essere indicati singolarmente. I costi energetici possono essere ripartiti percentualmente tra le parti oppure essere addebitati complessivamente all'attenzione di un'amministrazione immobiliare.
 
 
 <div className="bild--voll">

@@ -5,13 +5,58 @@ description: 'Tariffing of the MKD3 metering concept with non-participants'
 sidebar_label: 'MKD3 metering concept (non-participants)'
 symbol: 'ausserhalb'
 ---
-![MKD3 metering concept (with non-participants) – Figure 1](/img/planung-mkd3-messkonzept-nicht-teilnehmer/01.png)
+<div className="bild--voll">
+
+![MKD3 metering concept (with non-participants) – Figure 1](/img/planung-mkd3-messkonzept-nicht-teilnehmer/01_EN.png)
+
+</div>
 
 ## Tariffing of the MKD3 metering concept with non-participants
 
-The metering concept is tariffed exclusively via production and the consumers participating in tenant electricity.
-The building connection meter should be included as a cross-check and should not be deliberately left out.
+The metering concept is tariffed exclusively on the basis of production and the consumers participating in the tenant electricity scheme.
+The building connection meter should be included as a cross-check and not deliberately left out.
 
+## General metering concept
+
+### Metering points subject to a licence:
+
+- Every metering point that has to be recorded is [subject to a licence](/planung/cloud-lizenzen).
+
+- Every virtual meter (production totals, total consumption) is [subject to a licence](/planung/cloud-lizenzen).
+
+### Electricity
+
+- All billing units to be invoiced must be measured with a metering point (apartments, heat pumps, common area circuits). Hardware options for measuring electrical energy: [Telstar 80A](/produkte/telstar-80a), [Telstar CT](/produkte/telstar-ct), [Nimbus 100A (meter board)](/produkte/nimbus-100a)
+
+- All production and storage systems must be measured, either together or separately.
+
+- The measurement at the building connection provides the correct balance total for accurate tariffing. Building connection measurements are the most important metering points for the dynamic control of consumers within buildings.
+
+- Tariffing and billing via [smart-me Billing](/konfiguration/billing)
+
+- Depending on the model, the tariffing can be calculated using the balance / building connection meter and the production, or alternatively using the production and a virtual total consumption. (+1 virtual total consumption meter)
+
+- If several production sources are measured (batteries / PV), they must be totalled virtually (+1 virtual totalizing meter)
+
+<div className="bild--voll">
+
+![MKD3 metering concept (with non-participants) – Figure 2](/img/planung-mkd3-messkonzept-nicht-teilnehmer/02_EN.png)
+
+</div>
+
+In the example, apartment A in building B does not take part in the tenant electricity scheme: its meter remains with the DSO and is not included in the metering concept.
+
+### E-mobility with smart-me and eCarUp
+
+- E-mobility is implemented through private, semi-private or public charge points.
+
+- The [smart-me Pico 22kW](/produkte/pico-ladestation) hardware offers the ideal mix of hardware for public operation and private operation within a tenant electricity scheme. With [eCarUp](https://www.ecarup.com), however, other compatible hardware approaches are also available.
+
+- Billing is done, for example, by credit card at a flat rate with [eCarUp](https://www.ecarup.com) or tariffed directly via the apartment billing with [smart-me Billing](/konfiguration/billing).
+
+- The advanced [multilevel load management](/konfiguration/multilevel-lastmanagement) controls the Pico charging stations and protects the infrastructure.
+
+- Load shedding is handled directly via the [hardware](/produkte/pico-ladestation) or via the [multilevel load management](/konfiguration/multilevel-lastmanagement).
 
 ## Balancing and validation of the MKD3
 
@@ -19,57 +64,57 @@ The building connection meter should be included as a cross-check and should not
 
 ### Balancing
 
-The quantity of grid electricity sold does not match the value on the energy supplier's invoice, and the feed-in quantity does not match the value recorded by the balancing meter.
+The amount of grid electricity sold does not correspond to the value on the energy supplier's invoice, and the feed-in amount does not correspond to the value recorded by the balance meter.
 
-With MKD3, the remuneration for non-participants is settled once per billing period.
+With MKD3, the remuneration for non-participants is made periodically, once per billing period.
 
 **Reason for the deviation**
 
-The calculation and allocation in smart-me computes the consumption and usage of the participants in 15-minute intervals. This clearly identifies who draws electricity from which source, when, and how much.
+The calculation and allocation in smart-me computes the consumption of the participants in 15-minute intervals. This clearly identifies who draws electricity from which source, when, and how much.
 
 **Example:**
 
-If, at a point in time X, 100 kWh of solar power is produced within 15 minutes and the tenant electricity members together consume 0 kWh while the non-participants consume 100 kWh, no solar power is drawn by tenant electricity members at that point in time.
+If at a point in time X, 100 kWh of solar power is produced within 15 minutes and the tenant electricity members together consume 0 kWh while the non-participants consume 100 kWh, then no solar power is drawn by the tenant electricity members at that point in time.
 
-The virtual balance of the tenant electricity scheme therefore correctly calculates 0 kWh consumption, 100 kWh surplus.
-The physical balancing meter, on the other hand, measures 0 kWh consumption, 0 kWh surplus, because the non-participants consumed the entire production directly.
+The virtual balance of the tenant electricity scheme therefore correctly calculates 0 kWh consumption and 100 kWh surplus.
+The physical balance meter, on the other hand, measures 0 kWh consumption and 0 kWh surplus, because the non-participants consumed the entire production directly.
 
 **The energy supplier's compensation calculation follows this rule:**
 
-Tenant electricity balance import compensated = balancing meter import value - consumption import of non-participants
-\--> If the import becomes &lt; 0 through the compensation, the remainder of the deduction is added to the export of the balance.
+Tenant electricity balance import compensated = balance meter import value - import consumption of the non-participants
+\--> If the import becomes &lt; 0 due to the compensation, the remainder of the deduction is added to the export of the balance.
 
-For these 15 minutes, this would look as follows:
-Balance import compensated = balance value 0 kWh - consumption of non-participants 100 kWh --> consumption 0 kWh (delta 100 kWh remainder)
+For these 15 minutes, it would look like this:
+Balance import compensated = balance value 0 kWh - consumption non-participants 100 kWh --> consumption 0 kWh (delta 100 kWh remainder)
 
 Balance export compensated = 0 kWh + 100 kWh = 100 kWh
 
-Since, depending on the case, the compensation does not take place every 15 minutes but once per period, this results in different values for the validation!
+Since the compensation may not take place every 15 minutes but only once per period, this results in different values for the validation!
 
 ### Validation
 
-**If the energy supplier compensates on a 15-minute basis:**
+**If the energy supplier compensates every 15 minutes:**
 
-If the energy supplier performs this compensation on a 15-minute basis, the result of smart-me's virtual balancing is the same as the energy supplier's balancing.
+If the energy supplier carries out this compensation on a 15-minute basis, the result of the smart-me virtual balancing is the same as the energy supplier's balancing.
 
 **Validation**
 
-- Total grid electricity value billed = sum of grid electricity value sold within the tenant electricity scheme
+- Total grid electricity value invoiced = total grid electricity value sold in the tenant electricity scheme
 
-- Sum of solar power sold internally = production - feed-in quantity (energy supplier invoice)
+- Total solar power sold internally = production - feed-in amount (energy supplier's invoice)
 
 
 
 
 **If the energy supplier compensates once per period:**
 
-If the energy supplier performs the compensation once, e.g. per month, larger discrepancies arise between the energy supplier's values and the energy quantities we sold. Validation then takes some getting used to.
+If the energy supplier carries out the compensation only once, e.g. per month, larger discrepancies arise between the energy supplier's values and the amounts of energy sold by us. The validation then takes some getting used to.
 
 **Reason:**
 
-If the compensation is performed once per month using the total consumption of the non-participants, no account is taken of whether and how much the non-participants were actually supplied by the local producer and how this changed the virtual balance.
+If the compensation is carried out once per month using the total consumption of the non-participants, no account is taken of whether, and how much, the non-participants were actually supplied by the local producer and how this changed the virtual balance.
 
-In parallel, the system calculates for the tenant electricity participants the value actually drawn from each source, consistent with the timely use and availability of the production. (It takes into account whether electricity from the current production was actually taken by tenant electricity participants or whether grid electricity was in fact drawn to cover demand.)
+At the same time, the system correctly calculates for the tenant electricity participants the value actually drawn from each source, based on the timely use and availability of the production. (It takes into account whether electricity from the current production was actually consumed by tenant electricity participants or whether grid electricity was in fact drawn to cover the demand.)
 
 Since two worlds collide here (in terms of timing), the result is never the same, which would allow a simple reconciliation.
 
@@ -84,30 +129,30 @@ Balance import measurement = 100 KWh
 
 Balance export measurement = 50 kWh
 
-Non-participants consumption total = 100 kWh
+Non-participants total consumption = 100 kWh
 
-Tenant electricity participants consumption total = 100 kWh
+Tenant electricity participants total consumption = 100 kWh
 
 Production = 250 kWh
 
 In this example, the total consumption of the non-participants is now deducted from the balance measurement:
 
-Grid consumption billed by the energy supplier = balance import 100 kWh - non-participants consumption total 100 kWh = consumption 0kWh
+Grid consumption invoiced by the energy supplier = balance import 100 kWh - non-participants total consumption 100 kWh = consumption 0kWh
 
-In this case, we are not billed for any grid electricity for the tenant electricity scheme, even though the tenant electricity participants would definitely show grid consumption over the month (e.g. electricity consumption at night).
+In this case, we are not invoiced for any grid electricity for the tenant electricity scheme, even though the tenant electricity participants would definitely show grid electricity consumption over the month (e.g. electricity consumption at night).
 
-In this case, the grid electricity is therefore always overcompensated.
-The balance export, on the other hand, is not adjusted correctly and is consequently always too low.
+The grid electricity is therefore always overcompensated in this case.
+The balance export, on the other hand, is not correctly adjusted and is therefore always too low.
 
-Instead of feed-in remuneration for this quantity, we receive the grid electricity tariff as a discount.
+Instead of the feed-in remuneration for this amount, we receive the grid electricity tariff as a discount.
 
 **Validation**
 
-- The grid consumption billed by the energy supplier is always lower than the grid electricity quantity we billed. (Additional revenue)
+- The grid consumption invoiced by the energy supplier is always lower than the amount of grid electricity invoiced by us. (Additional revenue)
 
-- The energy supplier's feed-in quantity matches the export value of the physical balancing meter and is lower than the quantity calculated by the virtual balance. (Loss due to non-remuneration)
+- The energy supplier's feed-in amount corresponds to the export value of the physical balance meter and is lower than the amount calculated by the virtual balance. (Loss due to non-remuneration)
 
-- The remunerated feed-in quantity plus the quantity documented by the energy supplier for the tenant electricity premium equals the total production quantity.
+- The sum of the remunerated feed-in amount and the amount documented by the energy supplier for the tenant electricity surcharge corresponds to the total production.
 
 
-\--> In any case, the overcompensation is profitable for the tenant electricity operator.
+\--> The overcompensation is in any case profitable for the tenant electricity operator.

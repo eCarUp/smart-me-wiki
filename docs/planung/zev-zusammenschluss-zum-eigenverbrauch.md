@@ -7,9 +7,6 @@ symbol: 'gebaeude'
 ---
 ## Zusammenschluss zum Eigenverbrauch (ZEV)
 
-<div className="row">
-<div className="col col--7">
-
 Ein Zusammenschluss zum Eigenverbrauch kann aus einem einzelnen Gebäude wie auch aus mehreren Gebäuden mit demselben Anschlusspunkt gegenüber dem Energieversorger bestehen.
 
 Innerhalb des ZEV liegt die Abrechnung und Tarifierung des Netzstromes und des lokal produzierten Stromes in der Hand der ZEV-Betreiber.
@@ -24,12 +21,10 @@ Grundlagen
 
 - VNB-Zähler am Einspeisepunkt mit Rechnung des VNB
 
-</div>
-<div className="col col--5 bild--mitte">
+<div className="bild--voll">
 
 ![ZEV Zusammenschluss zum Eigenverbrauch – Abbildung 1](/img/planung-zev-zusammenschluss-zum-eigenverbrauch/01.png)
 
-</div>
 </div>
 
 ## Generelles Messkonzept
@@ -62,7 +57,11 @@ Grundlagen
 - Sind mehrere Produktionen gemessen (Batterien / PV) so sind diese virtuell zu summieren (+1 virtueller Summenzähler)
 
 
+<div className="bild--voll">
+
 ![ZEV Zusammenschluss zum Eigenverbrauch – Abbildung 2](/img/planung-zev-zusammenschluss-zum-eigenverbrauch/02.png)
+
+</div>
 
 ### E-Mobilität mit smart-me und eCarUp
 
@@ -107,7 +106,11 @@ Ideal für Planer, Elektrofachleute.
 - Der Allgemein - und Wärmepumpe (Heizung) Zähler wird separat gemessen. Damit wird sichergestellt, dass die Energiekosten einzeln ausgewiesen werden können. Die Energiekosten können entweder prozentual auf die Parteien verteilt werden oder sie können als Ganzes z.H. einer Liegenschaftsverwaltung abgegeben werden.
 
 
+<div className="bild--voll">
+
 ![ZEV Zusammenschluss zum Eigenverbrauch – Abbildung 3](/img/planung-zev-zusammenschluss-zum-eigenverbrauch/03.png)
+
+</div>
 
 ### ZEV als Areallösung
 
@@ -118,8 +121,16 @@ Ideal für Planer, Elektrofachleute.
 - Der Allgemein - und Wärmepumpe (Heizung) Zähler wird separat gemessen. Damit wird sichergestellt, dass die Energiekosten einzeln ausgewiesen werden können. Die Energiekosten können entweder prozentual auf die Parteien verteilt werden oder sie können als Ganzes z.H. einer Liegenschaftsverwaltung abgegeben werden.
 
 
+<div className="bild--voll">
+
 ![ZEV Zusammenschluss zum Eigenverbrauch – Abbildung 4](/img/planung-zev-zusammenschluss-zum-eigenverbrauch/04.png)
+
+</div>
 
 ### Schema Beispiel
 
+<div className="bild--voll">
+
 ![ZEV Zusammenschluss zum Eigenverbrauch – Abbildung 5](/img/planung-zev-zusammenschluss-zum-eigenverbrauch/05.png)
+
+</div>

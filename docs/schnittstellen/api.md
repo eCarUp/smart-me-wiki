@@ -15,7 +15,15 @@ Für kommerzielle Nutzung und höheres Rate-Limit ist die Professional Lizenz n�
 
 Die API-Schnittstelle ermöglicht den einfachen und sicheren Zugriff auf die Daten von smart-me Geräten und der Plattform. Über diese Schnittstelle können Verbrauchsdaten, Gerätestatus, Messwerte und weitere Informationen in Echtzeit abgerufen und in externe Systeme integriert werden.
 
-Alle API Calls sind auf folgender Seite dokumentiert: [smart-me API](https://api.smart-me.com/swagger/index.html)
+<Kacheln min="22rem">
+
+<Kachel titel="smart-me Swagger Seite" href="https://api.smart-me.com/swagger/index.html">
+
+Hier sind alle API Calls dokumentiert und lassen sich direkt ausprobieren.
+
+</Kachel>
+
+</Kacheln>
 
 ### Obis Codes
 

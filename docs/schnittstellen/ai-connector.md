@@ -25,11 +25,13 @@ Er handelt in Ihrem Namen mit Ihren eigenen Berechtigungen, er fragt nach, bevor
 
 ## Verbinden
 
-In Claude:
+### In Claude:
 
-Öffnen Sie Einstellungen → Konnektoren, suchen Sie nach «smart-me» und klicken Sie auf «Verbinden». Oder direkt über diesen Link: [smart-me in Claude
+Öffnen Sie Einstellungen → Konnektoren, suchen Sie nach «smart-me» und klicken Sie auf «Verbinden». Oder direkt über diesen Link: 
 
-](https://claude.ai/directory/smart-me)In ChatGPT:
+[smart-me in Claude](https://claude.ai/directory/smart-me)
+
+### In ChatGPT:
 
 Öffnen Sie in der Seitenleiste «Plugins», suchen Sie nach «smart-me» und klicken Sie auf «Install plugin». Oder direkt über diesen Link: [smart-me in ChatGPT](https://chatgpt.com/plugins/plugin_asdk_app_6a8b50d183f081918339e17cd4c95bd0)
 
@@ -38,7 +40,7 @@ Im Chat rufen Sie den Connector mit @smart-me auf, zum Beispiel: «@smart-me Zei
 Hinweis: ChatGPT kann dem Connector relevante Chats und Erinnerungen als Kontext mitgeben. Sie können das in den ChatGPT-Einstellungen steuern oder die Verbindung jederzeit trennen.
 
 
-Andere:
+### Andere:
 Custom MCP Server hinzufügen: https://mcp.smart-me.com/mcp
 
 

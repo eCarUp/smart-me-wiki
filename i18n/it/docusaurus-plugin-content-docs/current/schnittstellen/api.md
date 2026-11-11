@@ -1,42 +1,50 @@
 ---
 title: 'API'
 slug: '/schnittstellen/api'
-description: 'Le funzioni di base dell''API sono disponibili nel modello Basic per l''uso non commerciale.'
+description: 'Le funzioni di base dell''API sono disponibili nel modello Basic per un uso non commerciale.'
 sidebar_label: 'API'
 ---
 <Menueweg>Interfacce → API</Menueweg>
 
 ### Requisiti
 
-Le funzioni di base dell'API sono disponibili nel modello Basic per l'uso non commerciale.
-Per l'uso commerciale e per un rate limit più elevato è necessaria la licenza Professional.
+Le funzioni di base dell'API sono disponibili nel modello Basic per un uso non commerciale.
+Per un uso commerciale e per un rate limit più elevato è necessaria la licenza Professional.
 
 ## Descrizione dell'API
 
 L'interfaccia API consente un accesso semplice e sicuro ai dati dei dispositivi smart-me e della piattaforma. Tramite questa interfaccia è possibile richiamare in tempo reale dati di consumo, stato dei dispositivi, valori di misura e altre informazioni e integrarli in sistemi esterni.
 
-Tutte le chiamate API sono documentate alla seguente pagina: [smart-me API](https://api.smart-me.com/swagger/index.html)
+<Kacheln min="22rem">
 
-### Codici OBIS
+<Kachel titel="smart-me Swagger Seite" href="https://api.smart-me.com/swagger/index.html">
 
-I codici OBIS sono identificativi standardizzati per i valori di misura nei contatori di energia. Ogni codice OBIS descrive in modo univoco quale valore viene misurato (ad es. consumo di corrente attuale, lettura del contatore, tensione per fase).
+Qui sono documentate tutte le chiamate API, che possono essere provate direttamente.
 
-[Codici OBIS (Excel)](https://drive.google.com/open?id=1eTs4ZXD9AUagGxNEQSof0IWHkZg54nsK6SyHp4ygDSc&authuser=0)
+</Kachel>
 
-Suggerimento per la decodifica: su questo [sito web](https://www.kbr.de/de/obis-kennzeichen/obis-kennzeichen#obis-kennzeichensystem) puoi consultare la sistematica della codifica. Se lì fai clic su un mezzo, vedi che cosa rappresentano le singole cifre del codice. 
+</Kacheln>
+
+### Codici Obis
+
+I codici Obis sono identificativi standardizzati per i valori di misura nei contatori di energia. Ogni codice Obis descrive in modo univoco quale valore viene misurato (ad es. consumo di corrente attuale, lettura del contatore, tensione per fase).
+
+[Codici Obis (Excel)](https://drive.google.com/open?id=1eTs4ZXD9AUagGxNEQSof0IWHkZg54nsK6SyHp4ygDSc&authuser=0)
+
+Suggerimento per la decodifica: su questo [sito web](https://www.kbr.de/de/obis-kennzeichen/obis-kennzeichen#obis-kennzeichensystem) puoi consultare la sistematica della codifica. Se lì clicchi su un mezzo, vedi che cosa rappresentano le singole cifre del codice. 
 
 ### DeviceID
 
-Il DeviceID è un'assegnazione univoca e indipendente dal nome a un punto di misura.
-Viene indicato sia nell'API sia nella [Salute del sistema (Systemgesundheit)](/stoerungsbehebung/systemgesundheit) (funzione Professional)
+La DeviceID è un'assegnazione univoca a un punto di misura, indipendente dal nome.
+Viene indicata sia nell'API sia nella [Salute del sistema (Systemgesundheit)](/stoerungsbehebung/systemgesundheit) (funzione Professional)
 
 ![API – Figura 1](/img/schnittstellen-api/01.png)
 
 ## Autenticazione
 
-### Basic Auth (sconsigliata / obsoleta)
+### Basic Auth (non consigliato / obsoleto)
 
-Attualmente è possibile utilizzare Basic Auth come autenticazione. Questa opzione verrà però rimossa a medio termine per motivi di sicurezza insufficiente. In alternativa si possono utilizzare le API key.
+Attualmente è possibile utilizzare Basic Auth come autenticazione. Questa opzione verrà però rimossa a medio termine per mancanza di sicurezza. In alternativa sono disponibili le API Key.
 Il client secret è username:password codificato in Base64.
 
 Ogni chiamata all'API deve contenere l'autenticazione nell'header HTTP: Authorization: Basic &lt;client secret>
@@ -44,16 +52,16 @@ Ogni chiamata all'API deve contenere l'autenticazione nell'header HTTP: Authoriz
 Esempio:
 curl -X "PUT" "https://api.smart-me.com/Devices/6a7fae30-c598-4778-8f1f-a14620550274" -H "accept: \*/\*" -H "Authorization: Basic d2VyX2Rhc19sZXNlbl9rYW5uOmhhdF96dXZpZWxfemVpdA=="
 
-### API key (consigliate)
+### API Key (consigliato)
 
-Le API key consentono un'autenticazione simile a Basic Auth per un accesso semplice a un account. In questo caso si crea una key nel portale smart-me e le si assegnano determinate autorizzazioni (claims (vedi sotto)). La key può poi essere aggiunta nell'header HTTP in modo analogo al secret di Basic Auth. 
+Le API Key consentono un'autenticazione simile a Basic Auth per un accesso semplice a un account. In questo caso si crea una Key nel portale smart-me e le si assegnano determinate autorizzazioni (Claims (vedi sotto)). La Key può poi essere aggiunta nell'header HTTP in modo analogo al secret di Basic Auth. 
 
 Ogni chiamata all'API deve contenere l'autenticazione nell'header HTTP: Authorization: ApiKey &lt;api key>
 
 Esempio:
 curl -X "PUT" "https://api.smart-me.com/Devices/6a7fae30-c598-4778-8f1f-a14620550274" -H "accept: \*/\*" -H "Authorization: ApiKey MTRH5eUjFXV8U4i1viZF2jHNoUNsnDTx"
 
-Le key possono essere create nel portale web alla voce API, Api Keys:
+Le Key possono essere create nel portale web alla voce API, Api Keys:
 
 ![API – Figura 2](/img/schnittstellen-api/02.png)
 
@@ -61,11 +69,11 @@ Le key possono essere create nel portale web alla voce API, Api Keys:
 
 ### Claims
 
-Sia le ApiKey sia OAuth 2.0 supportano i claims, per concedere solo autorizzazioni limitate.
+Sia le ApiKey sia oAuth 2.0 supportano i Claims, per concedere solo autorizzazioni limitate.
 
-Un elenco della corrispondenza tra endpoint e claims è disponibile qui: 
+Un elenco della corrispondenza tra endpoint e Claims è disponibile qui: 
 
-[](https://drive.google.com/open?id=1b2bYdjBi4iCf7fUxpEPO9e8DNuhtEvA4_wIDKAJsiq0 "Open Spreadsheet, Claims in new window")
+[](https://drive.google.com/open?id=1b2bYdjBi4iCf7fUxpEPO9e8DNuhtEvA4_wIDKAJsiq0 "Apri foglio di calcolo, Claims in una nuova finestra")
 
 <Embed src="https://docs.google.com/spreadsheets/d/1b2bYdjBi4iCf7fUxpEPO9e8DNuhtEvA4_wIDKAJsiq0/htmlembed" height="720px" title="Foglio di calcolo, Claims" />
 
@@ -73,7 +81,7 @@ Claims
 
 ## OAuth 2.0 (consigliato)
 
-smart-me supporta il framework di autorizzazione OAuth 2.0. Le applicazioni esterne possono richiedere l'accesso a un account senza conoscerne le credenziali di accesso. Maggiori informazioni sono riportate più sotto.
+smart-me supporta il framework di autorizzazione OAuth 2.0. Le applicazioni esterne possono richiedere l'accesso a un account senza conoscerne le credenziali di accesso. Ulteriori informazioni sono riportate più sotto.
 
 ### Informazioni su OAuth
 
@@ -81,22 +89,22 @@ smart-me supporta il framework di autorizzazione OAuth 2.0. Le applicazioni este
 
 ### Configurazione di OAuth nel portale smart-me
 
-Il requisito per l'utilizzo di OAuth è un account con il [modello di licenza](/planung/cloud-lizenzen) Professional. Se non disponi ancora di un account con il modello di licenza Professional, devi acquistare 1 licenza.
+Il requisito per l'utilizzo di oAuth è un account con il [modello di licenza](/planung/cloud-lizenzen) professional. Se non disponi ancora di un account con il modello di licenza Professional, devi acquistare 1 licenza.
 
-- [Accesso al portale smart-me](https://www.smart-me.com/Login.aspx)
+- [Login nel portale smart-me](https://www.smart-me.com/Login.aspx)
 
 - A sinistra su API
 
 
 ![API – Figura 4](/img/schnittstellen-api/04.png)
 
-Aggiungere applicazioni OAuth
+Aggiungere applicazioni oAuth
 
 - Riservata (limitata a 3 Client ID)
 
     - Vengono generati Client ID e Client secret
 
-    - Per applicazioni riservate in grado di custodire in modo sicuro la password (secret).
+    - Per applicazioni riservate, in grado di custodire la password (secret) in modo sicuro.
 
     - Consigliamo l'utilizzo di "Authorization Code Flow con PKCE" e "Device Code Flow".
 
@@ -104,15 +112,15 @@ Aggiungere applicazioni OAuth
 
     - Viene generato il Client ID
 
-    - Per applicazioni pubbliche che non possono mantenere segreto il secret, ad es. app web o mobile.
+    - Per applicazioni pubbliche che non sono in grado di mantenere segreto il secret, ad es. app web o mobili.
 
     - Consigliamo l'utilizzo di "Authorization Code Flow con PKCE" e "Device Code Flow"
 
-- Dispositivo (limitata a 50 Client ID)
+- Dispositivo (limitato a 50 Client ID)
 
     - Vengono generati Client ID e Client secret
 
-    - Può essere utilizzata in sostituzione della Basic Authentication in dispositivi embedded che non dispongono di un'interfaccia grafica.
+    - Può essere utilizzato in sostituzione della Basic Authentication in dispositivi embedded privi di interfaccia grafica.
 
     - Supporta solo il flusso OAuth "client credentials".
 
@@ -130,25 +138,25 @@ Informazioni necessarie:
 
 ### Grants & Endpoints
 
-L'implementazione di OAuth non è descritta nel nostro wiki. Su questa pagina trovi le informazioni necessarie per implementare OAuth: [https://oauth.net/2/](https://oauth.net/2/) 
+L'implementazione di OAuth non è descritta nel nostro wiki. Su questa pagina trovi le informazioni necessarie per implementare oAuth: [https://oauth.net/2/](https://oauth.net/2/) 
 
-Supported Grants (Flows) for oAuth Confidential and Public Applications:
+Grants (flussi) supportati per le applicazioni oAuth riservate e pubbliche:
 
-\- Authorization Code without PKCE (deprecated)
+\- Authorization Code senza PKCE (obsoleto)
 
-\- Authorization Code with PKCE
+\- Authorization Code con PKCE
 
-\- Implicit Flow (deprecated)
+\- Implicit Flow (obsoleto)
 
 \- Device Code
 
 \- Refresh Token
 
-Supported Grants (Flows) for oAuth Device (Client Credentials) Applications:
+Grants (flussi) supportati per le applicazioni oAuth di tipo dispositivo (Client Credentials):
 
 \- Client Credentials
 
-smart-me Endpoints
+Endpoint smart-me
 
 \- Authorization: /api/oauth/authorize/
 
@@ -158,7 +166,7 @@ smart-me Endpoints
 
 ## API in tempo reale (Webhook)
 
-L'API in tempo reale di smart-me (webhook) ti consente di abbonarti ai nuovi dati di un dispositivo. Puoi registrarti per un singolo dispositivo o per tutti i dispositivi di un utente. Quando un dispositivo invia nuovi dati al cloud, un webhook invia questi dati come richiesta POST a un URL appositamente configurato. Maggiori informazioni sono disponibili [qui](https://www.smart-me.com/Description/api/realtimeapi.aspx).
+L'API in tempo reale di smart-me (Webhook) ti consente di abbonarti ai nuovi dati di un dispositivo. Puoi registrarti per un singolo dispositivo o per tutti i dispositivi di un utente. Quando un dispositivo invia nuovi dati al cloud, un webhook invia questi dati come richiesta POST a un URL appositamente configurato. Ulteriori informazioni sono disponibili [qui](https://www.smart-me.com/Description/api/realtimeapi.aspx).
 
 File proto
 
@@ -248,9 +256,9 @@ message DeviceValue {
 }
 ```
 
-## API Goldpartner
+## Goldpartner - API
 
-Per poter utilizzare la nostra API Goldpartner, devi disporre del modello di licenza smart-me Goldpartner. Ulteriori informazioni su questo modello di licenza possono essere richieste all'ufficio vendite.
+Per poter utilizzare la nostra API Goldpartner, devi disporre del modello di licenza smart-me Goldpartner. Ulteriori informazioni su questo modello di licenza possono essere richieste al reparto vendite.
 
 ### Endpoints
 
@@ -258,7 +266,7 @@ Per poter utilizzare la nostra API Goldpartner, devi disporre del modello di lic
 
 Get all devices 
 
-- Gets all devices assigned to the partner
+- Restituisce tutti i dispositivi assegnati al partner
 
 - GET /PartnerAllDevices
 
@@ -267,27 +275,27 @@ Get all devices
 
 Get all devices from one Account
 
-- Gets all devices assigned to one of the users assigned to the partner (Get Id with "Get users" )
+- Restituisce tutti i dispositivi assegnati a uno degli utenti assegnati al partner (ottenere l'Id con "Get users")
 
-- GET /PartnerAllDevices/&#123;id&#125; - only for one device
+- GET /PartnerAllDevices/&#123;id&#125; - solo per un dispositivo
 
 
 
 
 Get all device informations 
 
-- Gets all information for all devices assigned to the partner user or to a sub-user of the partner
+- Restituisce tutte le informazioni di tutti i dispositivi assegnati all'utente partner o a un sottoutente del partner
 
 - GET /PartnerAllDeviceInformations
 
-- GET /PartnerAllDeviceInformations/&#123;id&#125; - only for one device
+- GET /PartnerAllDeviceInformations/&#123;id&#125; - solo per un dispositivo
 
 
 
 
 Get fast send device values
 
-- Force a device to send the data every second (if supported). This for about 30s
+- Forza un dispositivo a inviare i dati ogni secondo (se supportato). Questo per circa 30s
 
 
 - GET /partner/fastsenddevicevalues
@@ -297,7 +305,7 @@ Get fast send device values
 
 Get Folder menu 
 
-- Gets the folder menu items for a user of a partner
+- Restituisce le voci del menu delle cartelle per un utente di un partner
 
 
 - GET /partner/foldermenu/&#123;id&#125;
@@ -307,7 +315,7 @@ Get Folder menu
 
 Update folder menu 
 
-- Creates and updates the folder menu items for a user. Attention: All existing configuration (folder, billing, export, ...) is deleted!!
+- Crea e aggiorna le voci del menu delle cartelle per un utente. Attenzione: tutta la configurazione esistente (cartelle, conteggio, esportazione, ...) viene eliminata!!
 
 - POST /partner/foldermenu/&#123;id&#125;
 
@@ -316,7 +324,7 @@ Update folder menu
 
 Get users
 
-- Get the information about all users of the partner
+- Restituisce le informazioni su tutti gli utenti del partner
 
 - GET /partner/user
 
@@ -325,7 +333,7 @@ Get users
 
 Update user 
 
-- Updates the email and/or the password of a user. The user must be created by the partner.
+- Aggiorna l'e-mail e/o la password di un utente. L'utente deve essere stato creato dal partner.
 
 
 - POST /partner/user/&#123;id&#125;
@@ -335,7 +343,7 @@ Update user
 
 Sign up user 
 
-- Creates a new user and assign it to the partner user
+- Crea un nuovo utente e lo assegna all'utente partner
 
 - POST /SignUpPartner
 
@@ -344,7 +352,7 @@ Sign up user
 
 Get values in past multiple 
 
-- Gets multiple values of a device. The device must be installed in an account assigned to your partner account.
+- Restituisce più valori di un dispositivo. Il dispositivo deve essere installato in un account assegnato al tuo account partner.
 
 - GET /partner/ValuesInPastMultiple/&#123;id&#125;
 
@@ -353,7 +361,7 @@ Get values in past multiple
 
 Get values in past multiple interpolated
 
-- Gets multiple interpolated Values of device
+- Restituisce più valori interpolati di un dispositivo
 
 - GET /partner/ValuesInPastMultipleInterpolated/&#123;id&#125;
 
@@ -363,7 +371,7 @@ Get values in past multiple interpolated
 
 Get visualization configuration
 
-- Gets the visualization configuration for all folders of a user
+- Restituisce la configurazione della visualizzazione per tutte le cartelle di un utente
 
 - GET /partner/visualizationconfiguration/&#123;id&#125;
 
@@ -372,7 +380,7 @@ Get visualization configuration
 
 Update firmware 
 
-- Update the Firmware (if available) for the given devices
+- Aggiorna il firmware (se disponibile) per i dispositivi indicati
 
 - POST /UpdateFirmwarePartner
 
@@ -381,7 +389,7 @@ Update firmware
 
 PartnerVisualization
 
-- Gets the visualization configuration for all folders of a user
+- Restituisce la configurazione della visualizzazione per tutte le cartelle di un utente
 
 - GET /partner/visualizationconfiguration/&#123;id&#125;
 
@@ -566,11 +574,11 @@ print('OAuth:', oauth_response.status_code) #Returns 200 if successful
 
 Libreria client API per .Net
 
-Per integrare le funzionalità dell'API smart-me nella tua applicazione .Net, puoi utilizzare [questa libreria](https://github.com/eCarUp/smartme-api-client-library-dotnet). Essa invia richieste HTTP alla REST API di smart-me. Tutti i corpi delle richieste e delle risposte HTTP vengono mappati su classi .Net.
+Per integrare le funzionalità dell'API smart-me nella tua applicazione .Net, puoi utilizzare [questa libreria](https://github.com/eCarUp/smartme-api-client-library-dotnet). Esegue richieste HTTP verso la REST API di smart-me. Tutti i corpi delle richieste e delle risposte HTTP vengono mappati su classi .Net.
 
 ## Esempi di API in tempo reale (Webhook)
 
-L'API in tempo reale di smart-me invia i dati serializzati con Google Protocol Buffers
+La Realtime API di smart-me invia i dati serializzati con Google Protocol Buffers
 
 File proto
 
@@ -667,7 +675,7 @@ Dati di esempio
 
 Device ID (UUID / GUID)
 
-UUID Data: 0xE9, 0xFC, 0xD0, 0x3B, 0x8E, 0x9F, 0x83, 0x41, 0xB3, 0xD1, 0x0C, 0x16, 0x22, 0xA2, 0x2C, 0xA1
+Dati UUID: 0xE9, 0xFC, 0xD0, 0x3B, 0x8E, 0x9F, 0x83, 0x41, 0xB3, 0xD1, 0x0C, 0x16, 0x22, 0xA2, 0x2C, 0xA1
 
 GUID:  3bd0fce9-9f8e-4183-b3d1-0c1622a22ca1
 
@@ -675,9 +683,9 @@ GUID:  3bd0fce9-9f8e-4183-b3d1-0c1622a22ca1
 
 Datetime (UTC)
 
-Il campo 1 contiene l'offset in tick a partire dall'01.01.1970
+Il campo 1 contiene l'offset in tick dal 01.01.1970
 
-Secondi dall'01.01.1970:  15712284449788512 / 10000000  = 1571228444 (Unix time stamp UTC)
+Secondi dal 01.01.1970:  15712284449788512 / 10000000  = 1571228444 (Unix time stamp UTC)
 
 \-> 16.10.2019 12:20:44 (UTC)
 
@@ -687,6 +695,6 @@ Device values
 
 Il campo 1 contiene il codice OBIS, il campo 2 contiene il valore.
 
-01-00-01-08-00-FF:  (1-0:1.8.0\*255):Energia attiva importazione totale: 1879583.2 mWh = 1879.5832 Wh
+01-00-01-08-00-FF:  (1-0:1.8.0\*255): energia attiva prelievo totale: 1879583.2 mWh = 1879.5832 Wh
 
 ![API – Figura 10](/img/schnittstellen-api/10.png)

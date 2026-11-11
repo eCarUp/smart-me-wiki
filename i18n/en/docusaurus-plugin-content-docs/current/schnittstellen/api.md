@@ -15,15 +15,23 @@ For commercial use and a higher rate limit, the Professional license is required
 
 The API interface provides simple and secure access to the data of smart-me devices and the platform. Through this interface, consumption data, device status, measured values and other information can be retrieved in real time and integrated into external systems.
 
-All API calls are documented on the following page: [smart-me API](https://api.smart-me.com/swagger/index.html)
+<Kacheln min="22rem">
 
-### Obis Codes
+<Kachel titel="smart-me Swagger Seite" href="https://api.smart-me.com/swagger/index.html">
 
-Obis Codes are standardized identifiers for measured values in energy meters. Each Obis Code uniquely describes which value is measured (e.g. current power consumption, meter reading, voltage per phase).
+All API calls are documented here and can be tried out directly.
 
-[Obis Codes (Excel)](https://drive.google.com/open?id=1eTs4ZXD9AUagGxNEQSof0IWHkZg54nsK6SyHp4ygDSc&authuser=0)
+</Kachel>
 
-Tip for decoding: On this [website](https://www.kbr.de/de/obis-kennzeichen/obis-kennzeichen#obis-kennzeichensystem) you can read up on how the coding system works. If you click on a medium there, you can see what each digit of the code stands for. 
+</Kacheln>
+
+### Obis codes
+
+Obis codes are standardized identifiers for measured values in energy meters. Each Obis code clearly describes which value is being measured (e.g. current power consumption, meter reading, voltage per phase).
+
+[Obis codes (Excel)](https://drive.google.com/open?id=1eTs4ZXD9AUagGxNEQSof0IWHkZg54nsK6SyHp4ygDSc&authuser=0)
+
+Decoding tip: On this [website](https://www.kbr.de/de/obis-kennzeichen/obis-kennzeichen#obis-kennzeichensystem) you can read up on the coding system. If you click on a medium there, you can see what each digit of the code stands for. 
 
 ### DeviceID
 
@@ -36,7 +44,7 @@ It is shown both in the API and in [System Health (Systemgesundheit)](/stoerungs
 
 ### Basic Auth (not recommended / deprecated)
 
-Basic Auth is currently available as an authentication method. However, this option will be removed in the medium term due to insufficient security. API keys are the recommended alternative.
+Basic Auth is currently available as an authentication method. However, this option will be removed in the medium term due to insufficient security. API keys are a suitable alternative.
 The client secret is username:password encoded in Base64.
 
 Every API call must include the authentication in the HTTP header: Authorization: Basic &lt;client secret>
@@ -44,9 +52,9 @@ Every API call must include the authentication in the HTTP header: Authorization
 Example:
 curl -X "PUT" "https://api.smart-me.com/Devices/6a7fae30-c598-4778-8f1f-a14620550274" -H "accept: \*/\*" -H "Authorization: Basic d2VyX2Rhc19sZXNlbl9rYW5uOmhhdF96dXZpZWxfemVpdA=="
 
-### API Keys (recommended)
+### API keys (recommended)
 
-API keys allow authentication similar to Basic Auth for simple access to an account. A key is created in the Smart-me portal and given certain permissions (claims (see below)). The key can then be added to the HTTP header in the same way as the Basic Auth secret. 
+API keys allow authentication similar to Basic Auth for simple access to an account. A key is created in the smart-me portal and given certain permissions (claims (see below)). The key can then be added to the HTTP header in the same way as the Basic Auth secret. 
 
 Every API call must include the authentication in the HTTP header: Authorization: ApiKey &lt;api key>
 
@@ -61,9 +69,9 @@ Keys can be created in the web portal under API, Api Keys:
 
 ### Claims
 
-Both ApiKeys and oAuth 2.0 support claims so that only limited permissions are granted.
+Both ApiKeys and oAuth 2.0 support claims in order to grant only limited permissions.
 
-You can find a list mapping endpoints to claims here: 
+You can find a list of the endpoint-to-claims mapping here: 
 
 [](https://drive.google.com/open?id=1b2bYdjBi4iCf7fUxpEPO9e8DNuhtEvA4_wIDKAJsiq0 "Open Spreadsheet, Claims in new window")
 
@@ -85,7 +93,7 @@ To use oAuth, you need an account with the Professional [license model](/planung
 
 - [Log in to the smart-me portal](https://www.smart-me.com/Login.aspx)
 
-- On the left, click API
+- Click API on the left
 
 
 ![API – Figure 4](/img/schnittstellen-api/04.png)
@@ -114,7 +122,7 @@ Add oAuth applications
 
     - Can be used as a replacement for Basic Authentication in embedded devices that have no graphical interface.
 
-    - Supports only the "client credentials" OAuth flow.
+    - Only supports the OAuth flow "client credentials".
 
 
 Required information:
@@ -128,7 +136,7 @@ Required information:
 
 ![API – Figure 5](/img/schnittstellen-api/05.png)
 
-### Grants & Endpoints
+### Grants & endpoints
 
 The implementation of OAuth is not described in our wiki. You can find the information needed to implement oAuth on this page: [https://oauth.net/2/](https://oauth.net/2/) 
 
@@ -250,7 +258,7 @@ message DeviceValue {
 
 ## Gold partner API
 
-To use our Gold partner API, you need the smart-me Gold partner license model. Further information on this license model can be requested from our sales team.
+To use our gold partner API, you need the smart-me Goldpartner license model. Further information on this license model can be requested from our sales team.
 
 ### Endpoints
 
@@ -390,9 +398,9 @@ PartnerVisualization
 
 ## API examples
 
-### REST API Samples
+### REST API samples
 
-With this, you can retrieve any data sets we make available. [https://api.smart-me.com/swagger/index.html](https://api.smart-me.com/swagger/index.html) 
+This lets you retrieve any data sets that we provide. [https://api.smart-me.com/swagger/index.html](https://api.smart-me.com/swagger/index.html) 
 
 Python (controlling inputs and outputs)
 
@@ -449,7 +457,7 @@ except requests.exceptions.RequestException as e:
 
 
 
-HTML / Javascript (show all devices with meter reading and last connection)
+HTML / JavaScript (show all devices with meter reading and last connection)
 
 ```
 <html>
@@ -564,9 +572,9 @@ print('OAuth:', oauth_response.status_code) #Returns 200 if successful
 
 
 
-API client library for .Net
+API client library for .NET
 
-To integrate the smart-me API functionality into your .Net application, you can use [this library](https://github.com/eCarUp/smartme-api-client-library-dotnet). It sends HTTP requests to the smart-me REST API. All HTTP request and response bodies are mapped to .Net classes.
+To integrate the smart-me API functionality into your .NET application, you can use [this library](https://github.com/eCarUp/smartme-api-client-library-dotnet). It makes HTTP requests to the smart-me REST API. All HTTP request and response bodies are mapped to .NET classes.
 
 ## Real-time API (webhook) examples
 

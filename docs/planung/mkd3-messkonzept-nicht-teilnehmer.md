@@ -123,17 +123,17 @@ Da hier zwei Welten aufeinander prallen (zeitlich) ergibt sich niemals das gleic
 Wenn die Kompensation 1x pro Monat stattfindet, so wird der komplette Verbrauch der Nichtteilnehmer als Netzstrom vergütet.
 \--> Das ist grundsätzlich förderlich für den Mieterstromanbieter. (Es erfolgt zwangsweise eine Überkompensation seitens Energieversorger)
 
-Beispiel für eine 1-Monatige Kompensation:
+**Beispiel für eine 1-Monatige Kompensation:**
 
-Bilanz Import Messung = 100 KWh
+- Bilanz Import Messung = 100 KWh
 
-Bilanz Export Messung = 50 kWh
+- Bilanz Export Messung = 50 kWh
 
-Nichtteilnehmer Bezug Total = 100 kWh
+- Nichtteilnehmer Bezug Total = 100 kWh
 
-Mieterstrom Teilnehmer Bezug Total = 100 kWh
+- Mieterstrom Teilnehmer Bezug Total = 100 kWh
 
-Produktion = 250 kWh
+- Produktion = 250 kWh
 
 In diesem Beispiel wird nun der Gesamtbezug der Nichtteilnehmer von der Bilanzmessung abgezogen:
 

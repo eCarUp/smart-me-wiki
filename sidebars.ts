@@ -246,7 +246,7 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
-      label: 'Stoerungsbehebung',
+      label: 'Störungsbehebung',
       items: [
         'stoerungsbehebung/zaehler-offline',
         'stoerungsbehebung/pico-fehler',

@@ -179,6 +179,30 @@ Wert, sonst „alle"). Gefiltert wird nur die Navigation: über Suche und direkt
 Links bleibt jede Seite erreichbar. Länderspezifische Seiten sagen deshalb im
 ersten Absatz selbst, für welches Land sie gelten.
 
+Die Kennzeichnung steht in `sidebars.ts` und damit **nicht** im Seitentext. Wer
+nur das Markdown liest — etwa ein KI-Werkzeug über `llms-full.txt` — sähe sie
+also nie. `plugins/llms-txt/` schreibt sie deshalb beim Bauen als Zeile
+`Länder: ch` unter `Quelle:`. Gelesen wird sie mit **`leseLaender()` aus
+`plugins/schrittkette`** — dieselbe Funktion, die auch die Schrittketten
+benutzen. Eine zweite Umsetzung davon wäre ein Fehler in Wartung: sie vereinigt
+die Kennzeichnungen einer Seite, die in zwei Kategorien steht (siehe den
+Kommentar bei `konfiguration/billing/zaehler-zuweisen` in `sidebars.ts`), und
+das ist leicht zu übersehen. Keine Zeile heisst wie überall sonst: gilt für alle
+Länder.
+
+**Nur was in der Navigation steht, lässt sich kennzeichnen.** Eine Seite ohne
+Eintrag in `sidebars.ts` gilt damit zwangsläufig für alle Länder — auch dann,
+wenn ihr Inhalt es nicht tut. Wer eine länderspezifische Seite aus der
+Navigation nimmt, nimmt ihr still die Kennzeichnung.
+
+`<Embed mitKontext …>` gibt einer eingebetteten Anwendung (Billy) weiter, worin
+sie steckt: die Länderwahl des Besuchers und ob diese Seite hell oder dunkel ist.
+Beides als `postMessage` und nicht in der Adresse, weil ein geänderter `src` den
+Rahmen neu lädt und ein angefangenes Gespräch verloren wäre. Das Aussehen muss
+mitgehen, weil der Rahmen es nicht sehen kann und sich sonst nach dem
+Betriebssystem des Besuchers richtet — wer das Wiki hell liest, aber ein dunkles
+System hat, bekäme sonst einen schwarzen Kasten in eine weisse Seite.
+
 `src/components/LandKarte/` ist die Karte auf der Startseite; eingehängt wird
 sie über `src/theme/DocItem/Content/`, nicht im Markdown, damit sie in allen
 vier Sprachen steht. Sie erscheint nur, solange nichts gewählt ist. Ein Land

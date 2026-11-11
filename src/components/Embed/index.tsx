@@ -1,5 +1,6 @@
 import React from 'react';
 import useBaseUrl from '@docusaurus/useBaseUrl';
+import {useLand} from '@site/src/laender';
 import styles from './styles.module.css';
 
 type EmbedProps = {
@@ -17,12 +18,32 @@ type EmbedProps = {
    * Feste Höhe als CSS-Wert, wenn kein Seitenverhältnis bekannt ist.
    * Eingebettete Anwendungen können ihre Höhe nicht selbst melden.
    *
+   * **Ohne `height` und ohne `aspect` füllt der Rahmen das Fenster** bis zum
+   * unteren Rand, und die Seite selbst scrollt nicht mehr: Fusszeile und
+   * «Letztes Update» fallen auf dieser Seite weg. Das ist für eine Anwendung
+   * gedacht, die die ganze Seite ist und selbst scrollt – Billy. Mit einer
+   * festen Höhe darin stünden zwei Scrollbalken nebeneinander, und das
+   * Eingabefeld rutschte unter den Fensterrand.
+   *
    * Eine hier angegebene Höhe gilt **genau so** – die Mindesthöhe aus dem
    * Stylesheet wird ausgeschaltet. Das ist für eingebettete Tabellen nötig:
    * eine Tabelle mit sechs Zeilen braucht keine 520 Pixel, und der leere
    * Rest darunter sieht nach einem Fehler aus.
    */
   height?: string;
+  /**
+   * Gibt weiter, in welcher Umgebung die Anwendung steckt: die Länderwahl des
+   * Besuchers und ob diese Seite hell oder dunkel ist.
+   *
+   * Nur für Anwendungen, die etwas damit anfangen – Billy antwortet je nach
+   * Land über ZEV und VEWA oder über Mieterstrom, und er richtet sich nach dem
+   * Aussehen dieser Seite statt nach dem Betriebssystem des Besuchers. Ohne
+   * Länderwahl wird `null` gesendet, und das heisst dort wie hier: alle Länder.
+   *
+   * Beides geht als Nachricht und nicht über die Adresse: eine veränderte
+   * Adresse lädt den Rahmen neu und wirft weg, was darin schon passiert ist.
+   */
+  mitKontext?: boolean;
 };
 
 /**
@@ -37,12 +58,17 @@ export default function Embed({
   title,
   aspect,
   height,
+  mitKontext,
 }: EmbedProps): React.ReactElement {
   const ratio = aspect ? Number(aspect) : NaN;
+  const hatVerhaeltnis = Number.isFinite(ratio) && ratio > 0;
+  const fuellen = height === undefined && !hatVerhaeltnis;
+  // Beim Füllen sind 75vh nur der Wert bis zur ersten Messung (und ohne
+  // JavaScript): ungefähr richtig, damit nichts springt.
   const style: React.CSSProperties =
     height !== undefined
       ? {height, minHeight: 0}
-      : Number.isFinite(ratio) && ratio > 0
+      : hatVerhaeltnis
         ? {aspectRatio: String(ratio)}
         : {height: '75vh'};
 
@@ -50,9 +76,106 @@ export default function Embed({
   // Bildern im Markdown ergänzt Docusaurus sie in JSX-Attributen nicht selbst.
   const url = useBaseUrl(src);
 
+  const rahmen = React.useRef<HTMLIFrameElement>(null);
+  const gewaehlt = useLand();
+
+  // Länderwahl und Aussehen gehen als Nachricht hinüber und nicht über die
+  // Adresse: ein geänderter `src` lädt den Rahmen neu, und ein angefangenes
+  // Gespräch wäre weg. Das Aussehen muss überhaupt mit, weil der Rahmen es
+  // nicht sehen kann und sich sonst nach dem Betriebssystem des Besuchers
+  // richtet — wer das Wiki hell liest, aber ein dunkles System hat, bekäme
+  // einen schwarzen Kasten mitten in eine weisse Seite.
+  //
+  // **Den richtigen Zeitpunkt sagt die Anwendung selbst.** Ihn zu erraten geht
+  // schief: Beim Einhängen ist der Rahmen meist noch `about:blank`, die
+  // Nachricht wird verworfen, und ein danach angehängter `load`-Zuhörer feuert
+  // nie mehr, wenn der Rahmen schon geladen war. Genau daran lag es, dass der
+  // Rahmen anfangs dunkel in einem hellen Wiki stand. Gesendet wird deshalb auf
+  // ihre Meldung hin — und zusätzlich bei jeder Änderung hier.
+  React.useEffect(() => {
+    if (!mitKontext) return undefined;
+    const rahmenEl = rahmen.current;
+    if (!rahmenEl) return undefined;
+    const ziel = new URL(url, window.location.href).origin;
+
+    const senden = () => {
+      try {
+        rahmenEl.contentWindow?.postMessage({type: 'smartme-wiki:land', land: gewaehlt}, ziel);
+        rahmenEl.contentWindow?.postMessage(
+          {type: 'smartme-wiki:theme', theme: document.documentElement.dataset.theme ?? 'light'},
+          ziel,
+        );
+      } catch {
+        // Rahmen noch nicht so weit – seine Meldung holt es nach.
+      }
+    };
+
+    const aufMeldung = (e: MessageEvent) => {
+      if (
+        e.source === rahmenEl.contentWindow &&
+        e.origin === ziel &&
+        (e.data as {type?: string} | null)?.type === 'smartme-wiki:ready'
+      ) {
+        senden();
+      }
+    };
+
+    window.addEventListener('message', aufMeldung);
+    senden();
+    rahmenEl.addEventListener('load', senden);
+    const beobachter = new MutationObserver(senden);
+    beobachter.observe(document.documentElement, {attributes: true, attributeFilter: ['data-theme']});
+    return () => {
+      window.removeEventListener('message', aufMeldung);
+      rahmenEl.removeEventListener('load', senden);
+      beobachter.disconnect();
+    };
+  }, [mitKontext, gewaehlt, url]);
+
+  // Füllen: Die Höhe ist «Fenster minus alles darüber», und das lässt sich
+  // nur messen – Navigationsleiste, Brotkrumen und Abstände sind je nach
+  // Breite, Sprache und Schrift verschieden hoch. Gemessen wird in zwei
+  // Schritten: erst bis zum Fensterrand, dann um das gekürzt, was die Seite
+  // darunter noch übersteht (Innenabstände, die man von hier aus nicht
+  // sieht). Auf einem sehr niedrigen Fenster gewinnt die Mindesthöhe aus dem
+  // Stylesheet, dann scrollt die Seite eben – benutzbar bleibt der Rahmen.
+  React.useEffect(() => {
+    if (!fuellen) return undefined;
+    const rahmenEl = rahmen.current;
+    if (!rahmenEl) return undefined;
+    let bild = 0;
+
+    const anpassen = () => {
+      cancelAnimationFrame(bild);
+      bild = requestAnimationFrame(() => {
+        const wurzel = document.documentElement;
+        const fenster = wurzel.clientHeight;
+        const oben = rahmenEl.getBoundingClientRect().top + window.scrollY;
+        const rand = parseFloat(getComputedStyle(rahmenEl).marginBottom) || 0;
+        const hoehe = Math.floor(fenster - oben - rand);
+        rahmenEl.style.height = `${hoehe}px`;
+        const ueberstand = wurzel.scrollHeight - fenster;
+        if (ueberstand > 0) rahmenEl.style.height = `${hoehe - ueberstand}px`;
+      });
+    };
+
+    anpassen();
+    window.addEventListener('resize', anpassen);
+    window.addEventListener('load', anpassen);
+    // Die Schrift lädt nach und macht die Navigationsleiste etwas höher.
+    document.fonts?.ready.then(anpassen).catch(() => undefined);
+    return () => {
+      cancelAnimationFrame(bild);
+      window.removeEventListener('resize', anpassen);
+      window.removeEventListener('load', anpassen);
+    };
+  }, [fuellen]);
+
   return (
     <iframe
+      ref={rahmen}
       className={styles.embed}
+      data-fuellen={fuellen ? '' : undefined}
       style={style}
       src={url}
       title={title}

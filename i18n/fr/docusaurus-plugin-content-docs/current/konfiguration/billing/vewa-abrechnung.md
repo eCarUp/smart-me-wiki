@@ -66,7 +66,7 @@ Centres de coûts séparés
 
 <div className="bild--voll">
 
-![VEWA - Décompte – Illustration 2](/img/konfiguration-billing-vewa-abrechnung/02.png)
+![VEWA - Décompte – Illustration 2](/img/konfiguration-billing-vewa-abrechnung/02_FR.png)
 
 </div>
 
@@ -77,7 +77,7 @@ Chaleur et eau chaude sanitaire combinées
 
 <div className="bild--voll">
 
-![VEWA - Décompte – Illustration 3](/img/konfiguration-billing-vewa-abrechnung/03.png)
+![VEWA - Décompte – Illustration 3](/img/konfiguration-billing-vewa-abrechnung/03_FR.png)
 
 </div>
 
@@ -88,7 +88,7 @@ Chaleur + froid et eau chaude sanitaire combinés
 
 <div className="bild--voll">
 
-![VEWA - Décompte – Illustration 4](/img/konfiguration-billing-vewa-abrechnung/04.png)
+![VEWA - Décompte – Illustration 4](/img/konfiguration-billing-vewa-abrechnung/04_FR.png)
 
 </div>
 
@@ -114,7 +114,7 @@ Remarque :
 
 <div className="bild--voll">
 
-![VEWA - Décompte – Illustration 5](/img/konfiguration-billing-vewa-abrechnung/05.png)
+![VEWA - Décompte – Illustration 5](/img/konfiguration-billing-vewa-abrechnung/05_FR.png)
 
 </div>
 

@@ -23,13 +23,13 @@ Note: If it is possible to install a solar power meter, please do not hesitate t
 </NurFuer>
 
 <details id="kleines-update-zum-solarmanager-ab-august-2026" open>
-<summary>Small update to Solar Manager from August 2026</summary>
+<summary>Small update to SolarManager from August 2026</summary>
 
-With the new Solar Manager update, Picos are no longer controlled via the serial number, but via the ID of the load management level 1 group.
+With the new SolarManager update, Picos are no longer controlled via the serial number, but via the ID of the load management level 1 group.
 
 In this short video, I show you step by step how this works so that you can configure the settings on the smart-me side correctly.
 
-Good to know: the update makes single-phase charging at 6 A (approx. 1.4 kW) possible, which is ideal for smaller PV surpluses. You can find out how to configure this in the Solar Manager documentation.
+Good to know: the update makes single-phase charging at 6 A (approx. 1.4 kW) possible, which is ideal for smaller PV surpluses. You can find out how to configure this in the SolarManager documentation.
 
 <Embed src="https://drive.google.com/file/d/1Oc3uuTCMusCJMHL7hjlJzFbkoFONHpm4/preview" aspect="1.350" title="Drive, solarmanager_update_2026.mp4" />
 

@@ -23,13 +23,13 @@ Nota: se l'installazione di un contatore dell'energia solare è possibile, non e
 </NurFuer>
 
 <details id="kleines-update-zum-solarmanager-ab-august-2026" open>
-<summary>Piccolo aggiornamento sul Solarmanager da agosto 2026</summary>
+<summary>Piccolo aggiornamento sul SolarManager da agosto 2026</summary>
 
 Con il nuovo aggiornamento del SolarManager, i Pico non vengono più comandati tramite il numero di serie, ma tramite l'ID del gruppo di gestione del carico di livello 1.
 
 Nel breve video ti mostro passo dopo passo come funziona, in modo che tu possa effettuare correttamente le impostazioni sul lato smart-me.
 
-È molto utile sapere che con l'aggiornamento è quindi possibile la ricarica monofase a 6 A (ca. 1,4 kW), ideale per eccedenze fotovoltaiche ridotte. Come configurarla è descritto nella documentazione del Solarmanager.
+È molto utile sapere che con l'aggiornamento è quindi possibile la ricarica monofase a 6 A (ca. 1,4 kW), ideale per eccedenze fotovoltaiche ridotte. Come configurarla è descritto nella documentazione del SolarManager.
 
 <Embed src="https://drive.google.com/file/d/1Oc3uuTCMusCJMHL7hjlJzFbkoFONHpm4/preview" aspect="1.350" title="Drive, solarmanager_update_2026.mp4" />
 

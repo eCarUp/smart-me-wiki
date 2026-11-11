@@ -1,24 +1,24 @@
 ---
-title: 'Solar Manager'
+title: 'SolarManager'
 slug: '/drittsysteme/solarmanager'
-description: 'smart-me Geräte können im Solar Manager direkt über die Cloud eingebunden werden.'
-sidebar_label: 'Solar Manager'
+description: 'smart-me Geräte können im SolarManager direkt über die Cloud eingebunden werden.'
+sidebar_label: 'SolarManager'
 ---
-smart-me Geräte können im Solar Manager direkt über die Cloud eingebunden werden. Auch [virtuelle Zähler](/konfiguration/virtuelle-zaehler) können übernommen werden. 
+smart-me Geräte können im SolarManager direkt über die Cloud eingebunden werden. Auch [virtuelle Zähler](/konfiguration/virtuelle-zaehler) können übernommen werden. 
 
-## Kleines Update zum Solarmanager ab August 2026
+## Kleines Update zum SolarManager ab August 2026
 
 Mit dem neuen Update vom SolarManager werden Picos nicht mehr über die Seriennummer gesteuert, sondern über die ID der Lastmanagement Level 1 Gruppe.
 
 In dem kurzen Video zeige ich dir Schritt für Schritt, wie das funktioniert, damit du die Einstellungen auf der smart-me Seite korrekt vornehmen kannst.
 
-Das ist super zu wissen: mit dem Update ist somit das einphasige Laden mit 6 A (ca. 1,4 kW) möglich, was ideal für geringere PV-Überschüsse ist. Wie dies konfiguriert werden kann, findest du in der Dokumentation vom Solarmanager.
+Das ist super zu wissen: mit dem Update ist somit das einphasige Laden mit 6 A (ca. 1,4 kW) möglich, was ideal für geringere PV-Überschüsse ist. Wie dies konfiguriert werden kann, findest du in der Dokumentation vom SolarManager.
 
 <Embed src="https://drive.google.com/file/d/1Oc3uuTCMusCJMHL7hjlJzFbkoFONHpm4/preview" aspect="1.350" title="Drive, solarmanager_update_2026.mp4" />
 
 solarmanager\_update\_2026.mp4
 
-Im Solar Manager gibt es mehrere Optionen den smart-me Zähler und Pico Ladestationen zu verwenden:
+Im SolarManager gibt es mehrere Optionen den smart-me Zähler und Pico Ladestationen zu verwenden:
 
 - Als Smart Meter bzw. Bilanzzähler direkt nach dem EW-Zähler
 
@@ -32,13 +32,13 @@ Im Solar Manager gibt es mehrere Optionen den smart-me Zähler und Pico Ladestat
 
 Zielgruppe: Einfamilien- und Mehrfamilienhäuser
 
-<Video src="D3Mh-cAyHvw" title="YouTube Video, Demo Solar Manager Integration von smart-me Zählern" />
+<Video src="D3Mh-cAyHvw" title="YouTube Video, Demo SolarManager Integration von smart-me Zählern" />
 
 ## Einbindung Allgemein
 
 Zur Einbindung werden die Cloud-Zugangsdaten (Benutzernamen und Passwort)  sowie die Seriennummer des Zählers benötigt. Die Seriennummer ist direkt im smart-me Portal und auf den Geräten selbst ersichtlich. Bei der Seriennummer nur die Ziffern vor dem Bindestrich verwenden!
 
-![Solar Manager – Abbildung 1](/img/drittsysteme-solarmanager/01.png)
+![SolarManager – Abbildung 1](/img/drittsysteme-solarmanager/01.png)
 
 ### Beispiel:
 
@@ -48,7 +48,7 @@ Seriennummer Zähler: 07907952-123 (-123 weglassen)
 
 ## smart-me Zähler als Smart Meter
 
-Im Solar Manager kann ein Smart Meter hinzugefügt werden, dieses kann auf zwei Arten montiert werden:
+Im SolarManager kann ein Smart Meter hinzugefügt werden, dieses kann auf zwei Arten montiert werden:
 
 - Direkt nach dem EVU-Zähler (Bilanzzähler), wobei Produktion (-) und Verbrauch (+) direkt gemessen werden 
 
@@ -60,11 +60,11 @@ Zur Einrichtung fügt man ein Smart Meter hinzu und wählt dort smart-me Cloud. 
 
 - Messung invertieren: Falls der Zähler invertiert montiert wäre, könnte man hier das Vorzeichen ändern. 
 
-![Solar Manager – Abbildung 2](/img/drittsysteme-solarmanager/02.png)
+![SolarManager – Abbildung 2](/img/drittsysteme-solarmanager/02.png)
 
 ## smart-me Relais nutzen
 
-Der [3-Phasenzähler Telstar](/produkte/telstar-80a) hat zwei potentialfreie Kontaktausgänge zur Steuerung von externen Geräten, einer davon mit integriertem 8A-Relais. Im Solar Manager kann dieser geschalten werden. Pro Relais wird ein «Schalter» erfasst und parametrisiert. Die Schalter müssen vorgängig im smart-me Portal als digitale Ausgänge definiert werden (siehe [Ein- & Ausgänge](/)) 
+Der [3-Phasenzähler Telstar](/produkte/telstar-80a) hat zwei potentialfreie Kontaktausgänge zur Steuerung von externen Geräten, einer davon mit integriertem 8A-Relais. Im SolarManager kann dieser geschalten werden. Pro Relais wird ein «Schalter» erfasst und parametrisiert. Die Schalter müssen vorgängig im smart-me Portal als digitale Ausgänge definiert werden (siehe [Ein- & Ausgänge](/)) 
 
 Zur Einrichtung fügt man unter Geräte einen neuen «Schalter» hinzu und wählt dort «Relais am smart-me 3-Phasen Zähler». Mit Zugangsdaten und der 8-stelligen Seriennummer wird der Zähler verbunden. 
 
@@ -86,14 +86,14 @@ Mindestlaufzeit (min): 
 
 Wie lange muss das Gerät mindestens laufen. Praktisch bei Wärmepumpen mit Verdichtern etc.
 
-![Solar Manager – Abbildung 3](/img/drittsysteme-solarmanager/03.png)
+![SolarManager – Abbildung 3](/img/drittsysteme-solarmanager/03.png)
 
-![Solar Manager – Abbildung 4](/img/drittsysteme-solarmanager/04.png)
+![SolarManager – Abbildung 4](/img/drittsysteme-solarmanager/04.png)
 
 ## Kontakt:
 
 <Kacheln min="20rem">
-<Kachel titel="Solar Manager AG">
+<Kachel titel="SolarManager AG">
 
 Schlyffistäg 36, CH-5630 Muri
 
@@ -109,7 +109,7 @@ Schlyffistäg 36, CH-5630 Muri
 
 Die Pico Ladestation wird standardmässig mit dem Minimalstrom 8A ausgeliefert um alle möglichen Fahrzeugtypen nach der Installation direkt zu supporten.
 
-Im Zusammenspiel mit Solarmanager geht dieser standardmässig aber von einem Minimalstrom von 6A aus um die Pico anzusteuern.
+Im Zusammenspiel mit SolarManager geht dieser standardmässig aber von einem Minimalstrom von 6A aus um die Pico anzusteuern.
 
 Wählen Sie den jeweiligen Fall, der auf Ihr Fahrzeug zutrifft um die von Ihnen gewünschte Konfiguration fehlerfrei zu unterstützen:
 
@@ -117,10 +117,10 @@ Fall A: Du hast ein Fahrzeug, das mit 6A Startstrom umgehen kann
 
 - Setze den Minimalstrom auf der Pico Hardware auf 6A.
 
-![Solar Manager – Abbildung 5](/img/drittsysteme-solarmanager/05.png)
+![SolarManager – Abbildung 5](/img/drittsysteme-solarmanager/05.png)
 
 Fall B: Du hast ein Fahrzeug, das wissentlich nicht mit 6A  Startstrom klarkommt (z.B Renault Zoe)
 
-- Setze im Solarmanager in der Fahrzeugauswahl das Setting "Renault Zoe 9A"
+- Setze im SolarManager in der Fahrzeugauswahl das Setting "Renault Zoe 9A"
 
 </details>

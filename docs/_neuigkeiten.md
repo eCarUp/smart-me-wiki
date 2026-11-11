@@ -23,13 +23,13 @@ Hinweis: Wenn die Installation eines Solarstromzählers möglich ist, zögere bi
 </NurFuer>
 
 <details id="kleines-update-zum-solarmanager-ab-august-2026" open>
-<summary>Kleines Update zum Solarmanager ab August 2026</summary>
+<summary>Kleines Update zum SolarManager ab August 2026</summary>
 
 Mit dem neuen Update vom SolarManager werden Picos nicht mehr über die Seriennummer gesteuert, sondern über die ID der Lastmanagement Level 1 Gruppe.
 
 In dem kurzen Video zeige ich dir Schritt für Schritt, wie das funktioniert, damit du die Einstellungen auf der smart-me Seite korrekt vornehmen kannst.
 
-Das ist super zu wissen: mit dem Update ist somit das einphasige Laden mit 6 A (ca. 1,4 kW) möglich, was ideal für geringere PV-Überschüsse ist. Wie dies konfiguriert werden kann, findest du in der Dokumentation vom Solarmanager.
+Das ist super zu wissen: mit dem Update ist somit das einphasige Laden mit 6 A (ca. 1,4 kW) möglich, was ideal für geringere PV-Überschüsse ist. Wie dies konfiguriert werden kann, findest du in der Dokumentation vom SolarManager.
 
 <Embed src="https://drive.google.com/file/d/1Oc3uuTCMusCJMHL7hjlJzFbkoFONHpm4/preview" aspect="1.350" title="Drive, solarmanager_update_2026.mp4" />
 

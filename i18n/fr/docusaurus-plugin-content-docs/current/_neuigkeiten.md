@@ -23,13 +23,13 @@ Remarque : si l'installation d'un compteur d'électricité solaire est possible,
 </NurFuer>
 
 <details id="kleines-update-zum-solarmanager-ab-august-2026" open>
-<summary>Petite mise à jour concernant Solar Manager à partir d'août 2026</summary>
+<summary>Petite mise à jour concernant SolarManager à partir d'août 2026</summary>
 
-Avec la nouvelle mise à jour de Solar Manager, les Pico ne sont plus pilotés via le numéro de série, mais via l'ID du groupe de gestion de la charge de niveau 1.
+Avec la nouvelle mise à jour de SolarManager, les Pico ne sont plus pilotés via le numéro de série, mais via l'ID du groupe de gestion de la charge de niveau 1.
 
 Dans cette courte vidéo, je vous montre étape par étape comment cela fonctionne, afin que vous puissiez effectuer correctement les réglages du côté smart-me.
 
-Bon à savoir : grâce à cette mise à jour, la recharge monophasée à 6 A (env. 1,4 kW) est désormais possible, ce qui est idéal pour de faibles excédents photovoltaïques. Vous trouverez comment le configurer dans la documentation de Solar Manager.
+Bon à savoir : grâce à cette mise à jour, la recharge monophasée à 6 A (env. 1,4 kW) est désormais possible, ce qui est idéal pour de faibles excédents photovoltaïques. Vous trouverez comment le configurer dans la documentation de SolarManager.
 
 <Embed src="https://drive.google.com/file/d/1Oc3uuTCMusCJMHL7hjlJzFbkoFONHpm4/preview" aspect="1.350" title="Drive, solarmanager_update_2026.mp4" />
 

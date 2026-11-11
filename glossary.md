@@ -36,7 +36,7 @@ Sprachen unverändert — inklusive Gross-/Kleinschreibung.
 
 ### Dritthersteller und Partnersysteme
 
-`bexio` · `Fairwalter` · `Loxone` · `SMARTFOX` · `smartRED` · `Solar Manager` ·
+`bexio` · `Fairwalter` · `Loxone` · `SMARTFOX` · `smartRED` · `SolarManager` ·
 `Soleco` · `Symcon` · `whatwatt` · `zerofy` · `zevvy` · `Zaehlerfreunde` ·
 `Askoma` · `Clever PV` · `Digital Republic` · `eSMART` · `GreenPocket` ·
 `IMOVATEC` · `Limmobi` · `Node-RED` · `Immotop2` · `Garaio REM` · `AbaImmo` ·

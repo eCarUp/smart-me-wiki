@@ -12,7 +12,7 @@ smart-me è un sistema di gestione dell'energia aperto. Con smart-me è possibil
 
 <Kachel bild="/img/drittsysteme-loxone/logo.png" bildtext="Loxone" titel="Loxone" href="/drittsysteme/loxone" bildhoehe="4rem" mittig />
 
-<Kachel bild="/img/drittsysteme-solarmanager/logo.png" bildtext="Solar Manager" titel="Solar Manager" href="/drittsysteme/solarmanager" bildhoehe="4rem" mittig />
+<Kachel bild="/img/drittsysteme-solarmanager/logo.png" bildtext="SolarManager" titel="SolarManager" href="/drittsysteme/solarmanager" bildhoehe="4rem" mittig />
 
 <Kachel bild="/img/drittsysteme-clever-pv/01.png" bildtext="Clever PV" titel="Clever PV" href="/drittsysteme/clever-pv" bildhoehe="4rem" mittig />
 

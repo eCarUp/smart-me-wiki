@@ -6,7 +6,7 @@ sidebar_label: 'Tenants'
 ---
 ## Contact for questions
 
-smart-me does not carry out projects. Installations are carried out by installers, landlords or ZEV operators, who are also the first point of contact for questions.
+smart-me does not carry out projects. Installations are carried out by installers, landlords or ZEV (association for own consumption) operators, who are also your first point of contact for questions.
 
 ## Navigation
 
@@ -15,12 +15,14 @@ smart-me does not carry out projects. Installations are carried out by installer
 
 We recommend using the smart-me app on your smartphone. Simply download the app and log in on your smartphone.
 
-Your tenant login details should be created and provided to you by your landlord or the operator of the ZEV (association for own consumption).
+Your tenant login details should be created and provided to you by your landlord or the operator of the ZEV.
 
-Get the smart-me app here:
+**Get the smart-me app here:**
 
-     [smart-me](https://play.google.com/store/apps/details?id=com.smart_me)     [smart-me
-](https://apps.apple.com/ch/app/smart-me/id929146952?l=en-GB)Google Play Store Apple App Store
+[smart-me APP Android](https://play.google.com/store/apps/details?id=com.smart_me)
+ 
+
+[smart-me APP iOs](https://apps.apple.com/ch/app/smart-me/id929146952?l=en-GB) 
 
 Alternatively, you can also log in via the smart-me portal in your browser.
 
@@ -39,7 +41,7 @@ Alternatively, you can also log in via the smart-me portal in your browser.
 <div className="row">
 <div className="col col--7">
 
-In your account under "Dashboard" (Dashboard) you will find your billing units and the metering points assigned to you.
+In your account, under "Dashboard" ("Dashboard"), you will find your billing units and the metering points assigned to you.
 
 </div>
 <div className="col col--5 bild--mitte">
@@ -77,11 +79,11 @@ The tariff consumption values are stored on the folders.
 
 ### Tariff profile
 
-Click the "Virtual Tariffs" (Virtuelle Tarife) tile to see your load profile with tariff information.
+Click the "Virtual Tariffs" ("Virtuelle Tarife") tile to see your load profile with tariff information.
 
 
 
-The load profile corresponds to your average energy consumption per time interval and is supplemented with the tariff information, i.e. the price you pay per unit of time.
+The load profile corresponds to your average energy consumption per time interval and is supplemented with the tariff information, i.e. the price you pay per time unit.
 
 ![Guide for tenants – Figure 8](/img/nutzeranleitungen-mieter/08.png)
 
@@ -89,7 +91,7 @@ The load profile corresponds to your average energy consumption per time interva
 
 ### Load profile
 
-Click the "Power" (Leistung) tile to see your load profile.
+Click the "Power" ("Leistung") tile to see your load profile.
 
 
 
@@ -107,9 +109,9 @@ To help you keep track, the smart-me app offers various visualizations that show
 
 ![Guide for tenants – Figure 21](/img/nutzeranleitungen-mieter/21.jpg)
 
-The view shows the values of your own billing unit, i.e. your apartment and not the entire property.
+This view shows the values of your own billing unit, i.e. your apartment and not the entire property.
 
-For the selected period (Now, Previous day, 30 or 365 days (Jetzt, Vortag, 30 oder 365 Tage)) you see your consumption, broken down by the origin of the electricity into solar, battery and grid, together with the share from solar and storage and the costs charged to you for it. The chart below shows the progression over the period, and the "Tariffs" (Tarife) section shows the breakdown across your virtual tariffs.
+For the selected period (Now, Previous day, 30 or 365 days), you can see your consumption, broken down by the source of the electricity into solar, battery and grid, along with the share from solar and storage and the costs charged to you for it. The chart below shows the trend over the period, and the "Tariffs" ("Tarife") section shows the breakdown across your virtual tariffs.
 
 ### Simple energy flow
 
@@ -117,7 +119,7 @@ For the selected period (Now, Previous day, 30 or 365 days (Jetzt, Vortag, 30 od
 
 Shows the energy flow for a solar system, grid consumption and household consumption.
 
-Two of these three meters must be specified; the third is calculated automatically. If all three meters are specified, incorrect displays may occur. Wherever possible, we always recommend specifying direct measurements rather than virtual meters.
+Two of these three meters must be specified; the third is calculated automatically. If all three meters are specified, incorrect values may be displayed. Wherever possible, we always recommend specifying direct measurements rather than virtual meters.
 
 ### Self-consumption rate and self-sufficiency rate
 
@@ -125,9 +127,9 @@ Two of these three meters must be specified; the third is calculated automatical
 
 The self-consumption rate and self-sufficiency rate of a building are displayed. The values are calculated from the PV meter and the balance meter.
 
-Self-consumption rate: How much of the solar energy is consumed directly in the building.
+Self-consumption rate: how much of the solar energy is consumed directly in the building.
 
-Self-sufficiency rate: How much of the total consumption is produced by the solar system.
+Self-sufficiency rate: how much of the total consumption is produced by the solar system.
 
 
 
@@ -147,7 +149,7 @@ Meters of an apartment
     Measures the electricity consumed (kWh)
 
 - Heating meter (Heizung WHG 11.4...)
-    Measures the energy consumed to run the heating (kWh)
+    Measures the energy consumed to operate the heating (kWh)
 
 - Cold water meter (Kaltwasser WHG 11.4...)
     Measures cold water consumption (m3)
@@ -177,7 +179,7 @@ Meters in an apartment
 
 ![Guide for tenants – Figure 15](/img/nutzeranleitungen-mieter/15.jpg)
 
-At the top of the menu are the visualizations, below them the property with its folders and meters.
+The visualizations are at the top of the menu, followed by the property with its folders and meters.
 
 Meters of a ZEV
 
@@ -188,26 +190,26 @@ Meters of a ZEV
 <div className="row">
 <div className="col col--6">
 
-Power (Leistung), analogue display
-Shows the current active power that the meter is measuring at the moment. Here it is 160.4 W; the scale goes up to the rated power of the meter.
+Power (analog display)
+Shows the current active power that the meter is measuring. Here it is 160.4 W; the scale extends to the rated power of the meter.
 
-Power (Leistung)
+Power
 The same value as a number (160.1 W). A negative value means feed-in to the grid.
 
-Power (Q) (Leistung (Q))
+Power (Q)
 The reactive power in var, here -223.9 var.
 
-Meter reading (Zählerstand)
+Meter reading
 The cumulative energy consumption in kilowatt hours (kWh), here 13318.0 kWh.
 
-Meter reading (Q) (Zählerstand (Q))
+Meter reading (Q)
 The cumulative reactive energy in kvarh, here -6859.1 kvarh.
 
-Energy consumption (last 24h, 7 days, 30 days) (Energieverbrauch (letzte 24h, 7 Tage, 30 Tage))
+Energy consumption (last 24h, 7 days, 30 days)
 The consumption over the respective periods in kWh, here 11.829 kWh in the last 24 hours and 91.071 kWh in the last 7 days.
 
 Further down in the view
-Depending on the meter type, this is followed by the values per phase (voltage, current, power, Cos Phi), the state of the relay and the time of the last connection.
+Depending on the meter type, the values per phase follow (voltage, current, power, Cos Phi), the relay status and the time of the last connection.
 
 </div>
 <div className="col col--6 bild--mitte">
@@ -219,33 +221,33 @@ Depending on the meter type, this is followed by the values per phase (voltage, 
 
 ## How do I read a VEWA billing statement correctly?
 
-VEWA billing (consumption-based energy and water cost billing) governs how the costs for heating and domestic hot water in an apartment building are distributed among the tenants. The aim is to divide the costs fairly and transparently, taking actual consumption into account and creating incentives to save.
+Billing according to VEWA (consumption-based energy and water cost billing) governs how the costs for heating and domestic hot water in an apartment building are distributed among the tenants. The aim is to divide the costs fairly and transparently, taking actual consumption into account and creating incentives to save.
 
 In a first step, the landlord determines the actual costs incurred for heat and domestic hot water production during the billing period. Since these are based on real consumption and operating costs, the final amounts are only known at the end of the billing period.
 
-These costs are then divided into two categories: base costs and consumption-based costs.
+These costs are then divided into two categories: basic costs and consumption-based costs.
 
-- Base costs include fixed costs such as maintenance and upkeep of the heating and domestic hot water systems. They are based on the total floor area of the building (m2) and are distributed proportionally according to the size of the apartment (m2).
+- Basic costs include fixed costs such as servicing and maintenance of the heating and domestic hot water systems. They are based on the total floor area of the building (m2) and are distributed proportionally according to the size of the apartment (m2).
 
 - Consumption costs reflect the actual energy consumption of the tenants and are calculated based on the meter values or other measurement methods.
 
 
-Meters ensure that each tenant only pays the energy costs they have actually caused. This promotes a fair distribution of costs and encourages a more conscious use of energy.
+Meters ensure that each tenant only pays the energy costs they actually caused. This promotes a fair distribution of costs and encourages a more conscious use of energy.
 
-VEWA billing is standardized, which ensures transparent and uniform cost distribution. This makes it easier for tenants to understand the billing statement and to compare it with other apartments. Clear rules for recording and charging the costs also help to avoid misunderstandings or disputes.
+VEWA billing is standardized, which ensures a transparent and uniform cost distribution. This makes it easier for tenants to understand the billing statement and compare it with other apartments. Clear rules for recording and charging costs also help to avoid misunderstandings or disputes.
 
 ### Determining the actual costs (landlord side)
 
 <div className="row">
 <div className="col col--6">
 
-In our example, at the end of the billing period the landlord recorded costs totalling CHF 2000.-: CHF 1000.- each for heat generation (1) and CHF 1000.- for domestic hot water generation (2).
+In our example, the landlord recorded total costs of 2000.- CHF at the end of the billing period: 1000.- CHF each for heat generation (1) and 1000.- CHF for domestic hot water generation (2).
 
-The heat generated is stated in kWh and the domestic hot water in m3. 
+The heat generated is shown in kWh and the domestic hot water in m3. 
 
 To bring the 47.01 m3 of domestic hot water to the desired temperature (e.g. 60°C), 2870.31 kWh were required.
 
-The total costs of CHF 2000.- are therefore divided according to the energy (kWh) used in each case:
+The total costs of 2000.- CHF are therefore divided according to the energy (kWh) used in each case:
 
 Heat (4522 kWh) 1223.43 CHF (3)
 Domestic hot water (47.01 m3 or 2870.31 kWh)   776.57 CHF (4)
@@ -258,24 +260,24 @@ Domestic hot water (47.01 m3 or 2870.31 kWh)   776.57 CHF (4)
 </div>
 </div>
 
-### Distribution of costs among tenants
+### Distributing the costs to tenants
 
-In this example, the industry-standard allocation key is used to divide the total costs into base costs (30%) and consumption costs (70%).
+In this example, the industry-standard allocation key is used to divide the total costs into basic costs (30%) and consumption costs (70%).
 
-### Example heat
+### Example: heat
 
-In the previous step, we determined a total amount of 1223.43 CHF for the heat of the property. This is now divided proportionally into 30% base costs and 70% consumption costs for the entire property. This corresponds to the following costs:
+In the previous step, we determined a total amount of 1223.43 CHF for the heat of the property. This is now divided proportionally into 30% basic costs and 70% consumption costs for the entire property. This corresponds to the following costs:
 
-- Base costs heat 367.03 CHF (5)
+- Basic costs heat 367.03 CHF (5)
 
 - Consumption costs heat 856.40 CHF (6)
 
 
-To distribute these costs fairly among the tenants, the base costs are allocated based on the living area and the consumption costs (kWh) based on the measured consumption.
+To distribute these costs fairly among the tenants, the basic costs are divided based on the living area and the consumption costs (kWh) based on the measured consumption.
 
-The entire property has a living area of 250m2 and our apartment has a living area of 150m2. 60% ((100/250)x150) of the base costs are therefore allocated to the apartment.
+The entire property has a living area of 250m2 and our apartment has a living area of 150m2. 60% ((100/250)x150) of the basic costs are therefore allocated to the apartment.
 
-- Base costs heat: 367.03 CHF x 60% = 220.22 CHF (7)
+- Basic costs heat: 367.03 CHF x 60% = 220.22 CHF (7)
 
 
 ![Guide for tenants – Figure 19](/img/nutzeranleitungen-mieter/19.png)
@@ -286,20 +288,20 @@ Consumption costs heat: 856.40 CHF x 54.18% = 464.- CHF (8)
 
 The total costs\* for heat for the tenants of the apartment therefore amount to 220.22 CHF + 464.- CHF = 684.21 CHF (9).
 
-### Example domestic hot water
+### Example: domestic hot water
 
-The distribution of domestic hot water is calculated in the same way as for heat. In the previous step, we determined a total amount of 776.57 CHF for the domestic hot water of the property. This is now divided proportionally into 30% base costs and 70% consumption costs for the entire property. This corresponds to the following costs:
+The calculation for distributing domestic hot water is carried out in the same way as the calculation for heat. In the previous step, we determined a total amount of 776.57 CHF for the domestic hot water of the property. This is now divided proportionally into 30% basic costs and 70% consumption costs for the entire property. This corresponds to the following costs:
 
-- Base costs domestic hot water 232.97 CHF (10)
+- Basic costs domestic hot water 232.97 CHF (10)
 
 - Consumption costs domestic hot water 543.60 CHF (11)
 
 
-To distribute these costs fairly among the tenants, the base costs are allocated based on the living area and the consumption costs based on the measured consumption (m3).
+To distribute these costs fairly among the tenants, the basic costs are divided based on the living area and the consumption costs based on the measured consumption (m3).
 
-The entire property has a living area of 250m2 and our apartment has a living area of 150m2. 60% ((100/250)x150) of the base costs are therefore allocated to the apartment.
+The entire property has a living area of 250m2 and our apartment has a living area of 150m2. 60% ((100/250)x150) of the basic costs are therefore allocated to the apartment.
 
-- Base costs domestic hot water: 232.97 CHF x 60% = 139.78 CHF (12)
+- Basic costs domestic hot water: 232.97 CHF x 60% = 139.78 CHF (12)
 
 
 A domestic hot water consumption of 47.01 m3 was measured for the entire property. Our apartment has a separate domestic hot water meter, which measured a consumption of 26.68 m3. 56.75% ((100/47.01)x26.68) of the consumption costs are therefore allocated to the apartment.

@@ -17,10 +17,12 @@ Wir empfehlen dir, die smart-me App auf deinem Smartphone zu nutzen. Lade die Ap
 
 Deine Mieter-Login Daten sollten dir von der Vermieterin, der Betreiberin des ZEVs erstellt und zur Verfügung gestellt werden.
 
-Hier geht's zur smart-me App:
+**Hier geht's zur smart-me App:**
 
-     [smart-me](https://play.google.com/store/apps/details?id=com.smart_me)     [smart-me
-](https://apps.apple.com/ch/app/smart-me/id929146952?l=en-GB)Google Play Store Apple App Store
+[smart-me APP Android](https://play.google.com/store/apps/details?id=com.smart_me)
+ 
+
+[smart-me APP iOs](https://apps.apple.com/ch/app/smart-me/id929146952?l=en-GB) 
 
 Alternativ kannst du dich auch über das smart-me Portal im Browser einloggen.
 

@@ -13,6 +13,8 @@ Diese Optimierungen können selbstständig durch den Nutzer ausgeführt werden.
 
 ⓘ Hinweis: Firmware Updates sind vor allem dann anzuwenden, wenn du ein fehlerhaftes Verhalten festgestellt hast oder eine neue Funktion verwenden möchtest, welche die vorherige Firmware noch nicht unterstützte. Produkte mit sich schnell entwickelnden Funktionen wie z.B. die Pico Ladestation, sollten regelmässig Updates erfahren.
 
+Besuche folgende Webseite über das Protal oder über folgenden Link:
+[Firmware Update Webseite](https://webforms.smart-me.com/Connect/DeviceOverview.aspx) 
 
 ## Vorgehensweise
 

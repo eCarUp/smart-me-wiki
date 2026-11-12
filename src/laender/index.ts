@@ -11,11 +11,16 @@
  * 1. `?land=de` in der Adresse. Damit lässt sich von aussen auf das Wiki
  *    verweisen und die Navierung gleich mitgeben — etwa aus einem deutschen
  *    Angebot heraus auf die Startseite.
- * 2. Was beim letzten Besuch gewählt wurde (im Browser gespeichert).
- * 3. Nichts — alles sichtbar.
+ * 2. Die Einstiegsseite, auf der jemand steht: `/schweiz` und `/deutschland`
+ *    setzen beim Öffnen ihr eigenes Land (siehe `src/theme/DocItem/Content`).
+ * 3. Was beim letzten Besuch gewählt wurde (im Browser gespeichert).
+ * 4. Nichts — alles sichtbar.
  *
  * Die gespeicherte Wahl ist bewusst nur eine Bequemlichkeit. Sie steht nicht
- * in der Adresse und verändert deshalb nie, was ein verschickter Link zeigt.
+ * in der Adresse und verändert deshalb nie den Inhalt, den ein verschickter
+ * Link zeigt — wohl aber, was die Navigation daneben auflistet. Genau deshalb
+ * setzen die beiden Länder-Einstiegsseiten die Wahl selbst: Sonst zeigte
+ * /schweiz jemandem mit gespeichertem `de` eine deutsche Navigation.
  */
 import {useEffect, useState} from 'react';
 import {translate} from '@docusaurus/Translate';

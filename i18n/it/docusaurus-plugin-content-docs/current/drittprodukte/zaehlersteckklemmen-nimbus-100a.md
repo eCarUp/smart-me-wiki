@@ -4,11 +4,11 @@ slug: '/drittprodukte/zaehlersteckklemmen-nimbus-100a'
 description: 'Il Nimbus 100A è direttamente compatibile con diversi morsetti a innesto per contatori.'
 sidebar_label: 'Morsetti a innesto per contatori Nimbus 100A'
 ---
-Il Nimbus 100A è direttamente compatibile con diversi morsetti a innesto per contatori. Di seguito sono elencati i morsetti a innesto a noi noti e da noi testati.
+Il Nimbus 100A è direttamente compatibile con diversi morsetti a innesto per contatori. Qui sono elencati i morsetti a innesto a noi noti e da noi testati.
 
 I morsetti a innesto per contatori consentono di sostituire o scambiare i contatori durante il funzionamento, senza interrompere l'alimentazione elettrica.
 
-Si noti che per l'impiego di questi morsetti a innesto occorre ordinare anche gli accessori, come l'attrezzo per connettori e gli spinotti di collegamento del contatore.
+Tenere presente che per l'impiego di questi morsetti a innesto occorre ordinare anche accessori come l'utensile di collegamento e i perni di collegamento per contatori.
 
 <Kacheln min="15rem">
 
@@ -16,7 +16,7 @@ Si noti che per l'impiego di questi morsetti a innesto occorre ordinare anche gl
 
 Corrente: fino a 80 A
 
-Spinotti del contatore per Nimbus: art. A00-906 5x5x45mm
+Perni per contatore per Nimbus: art. A00-906 5x5x45mm
 
 Produttore: [ewecoklemmen.ch](https://www.ewecoklemmen.ch/de/)
 
@@ -28,7 +28,7 @@ Prodotto in Svizzera
 
 Corrente: fino a 100 A
 
-Spinotti del contatore per Nimbus: n. art. A00-901 6x7x45mm, rotondi
+Perni per contatore per Nimbus: art. n. A00-901 6x7x45mm, rotondi
 
 Produttore: [ewecoklemmen.ch](https://www.ewecoklemmen.ch/de/)
 
@@ -48,7 +48,7 @@ Produttore: [Morsetti a innesto per contatori di Hager](https://hager.com/de-ch/
 
 Corrente: fino a 80 A
 
-Spinotto del contatore per Nimbus: Hager KJZ080A4 80A Ø6×41mm
+Perno per contatore per Nimbus: Hager KJZ080A4 80A Ø6×41mm
 
 Produttore: [Morsetti a innesto per contatori di Hager](https://hager.com/de-ch/katalog/verteilersysteme-und-schraenke/anschlusstechnik/zaehlersteckklemmen-und-zubehoer?AT_MarketingNodeNameSysFunc%5b0%5d=Z%C3%A4hleranschlussklemme)
 
@@ -56,11 +56,11 @@ Produttore: [Morsetti a innesto per contatori di Hager](https://hager.com/de-ch/
 
 <Kachel bild="/img/drittprodukte-zaehlersteckklemmen-nimbus-100a/05.png" bildtext="Seidl SL-ZAKD" titel="Seidl SL-ZAKD" bildhoehe="8rem">
 
-Corrente: fino a 80 A di corrente permanente, 128 A di corrente di sovraccarico
+Corrente: fino a 80 A in continuo, 128 A di sovraccarico
 
 Tipo: morsetto a vite
 
-Spinotto del contatore per Nimbus: SL-6-6-42
+Perno per contatore per Nimbus: SL-6-6-42
 
 Produttore: [seidlgmbh.com](https://seidlgmbh.com/produkte/)
 

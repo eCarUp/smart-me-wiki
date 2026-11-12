@@ -1,191 +1,191 @@
 ---
 title: 'VAT ZEV / Ancillary Costs'
 slug: '/konfiguration/billing/mwst-zev-nebenkosten'
-description: 'In this section, we take a closer look at VAT in the ZEV.'
+description: 'This section looks at VAT in the ZEV.'
 sidebar_label: 'VAT ZEV / Ancillary Costs'
 ---
-In this section, we take a closer look at VAT in the ZEV (association for own consumption). Deciding whether and how VAT must be shown on invoices and paid to the state is fairly complex. 
+This section looks at VAT in the ZEV (association for own consumption). Deciding whether and how VAT has to be shown and paid to the state is fairly complex. 
 
-In this section, we walk through the initial questions and the decisions that follow from them.
+This section walks through the initial questions and the decisions that follow from them.
 
 ## How does VAT work?
 
-Value added tax is primarily a tax on turnover. 
+Value added tax is mainly a tax on turnover. 
 
 A company that is liable for VAT must charge a tax on its turnover (sales of products and services), collect it and then pay it to the state.
 
-At the same time, companies liable for VAT are entitled to deduct the VAT on purchased goods and services as input tax.
+At the same time, companies liable for VAT have the right to deduct the VAT they paid on purchased goods and services (input tax deduction).
 
-The aim is for VAT on a product to be taxed only once in total, based on its value to the end consumer.
+The aim is for VAT on a product to be paid only once in total, based on its value to the end consumer.
 
 <div className="bild--voll">
 
-![VAT ZEV / ancillary costs – Figure 1](/img/konfiguration-billing-mwst-zev-nebenkosten/01_EN.png)
+![VAT ZEV / ancillary costs – Figure 1](/img/konfiguration-billing-mwst-zev-nebenkosten/01.png)
 
 </div>
 
 Details of the example
 
-If company A orders 100 kWh of energy for CHF 100 net from its supplier, it receives an invoice from the VAT-registered energy supplier for the 100 kWh of energy (CHF 100 net) + VAT (8.1%, 8.10 CHF), totalling 108.10 CHF.
+If company A orders 100 kWh of energy for CHF 100 net from the supplier, it receives an invoice from the VAT-liable energy supplier for the 100 kWh of energy (CHF 100 net) + VAT (8.1%, CHF 8.10), totalling CHF 108.10.
 
-Company A pays 108.10 CHF, the energy supplier pays the 8.10 CHF to the state and keeps 100 CHF for its services.
+Company A pays CHF 108.10. The energy supplier pays the CHF 8.10 to the state and keeps CHF 100 for its services.
 
-If company A were now to resell this energy to a consumer (here without profit, for easier understanding), company A offers the consumer the 100kWh of energy again at a price of 100 CHF and in turn charges VAT itself, since company A is itself liable for VAT. 
+If company A now resells this energy to a consumer (here without profit, to keep it simple), company A offers the consumer the 100 kWh of energy for CHF 100 again and charges VAT itself, because company A is liable for VAT. 
 
-The invoice to the consumer is therefore as follows:
+The invoice to the consumer therefore looks like this:
 
-100 kWh of energy (100CHF net) + VAT (8.1%, 8.10 CHF), totalling 108.10 CHF.
+100 kWh of energy (CHF 100 net) + VAT (8.1%, CHF 8.10), totalling CHF 108.10.
 
-The consumer pays the 108.10 CHF to company A.
+The consumer pays the CHF 108.10 to company A.
 
-Company A receives 100 CHF for the energy and pays the VAT of 8.10 CHF to the state.
+Company A receives CHF 100 for the energy and pays the CHF 8.10 VAT to the state.
 
 Now the important point:
-Company A may now claim the input tax deduction on the VAT amounts it owes before settling its liability.
+Before settling its debt, company A may claim the input tax deduction against the VAT it has to pay.
 
-From the input tax deduction, company A may deduct 8.10 CHF (previously paid to the energy supplier with the energy invoice).
-Since there was no markup on the energy price (no profit), the liability from the sales is 8.10 CHF - the input tax deduction = 0 CHF
-Company A therefore does not have to pay anything extra; company A spent 100 CHF and took in 100 CHF.
+Company A may deduct CHF 8.10 as input tax (previously paid to the energy supplier with the energy invoice).
+Because there was no mark-up on the energy price (no profit), the debt from sales is CHF 8.10 minus the input tax deduction = CHF 0.
+Company A therefore has nothing further to pay: company A spent CHF 100 and took in CHF 100.
 
-The state has had the 8.10 CHF for the energy in its account from the start, and the consumer, who in this case is not liable for VAT and therefore cannot deduct it, cannot reclaim the 8.10 CHF. This means that only the end consumer pays the VAT on the product or service.
+The state has had the CHF 8.10 for the energy in its account from the start. In this case the consumer is not liable for VAT, so cannot deduct it and cannot reclaim the CHF 8.10. This means only the end consumer pays the VAT on the product or service.
 
 Everyone in between can reclaim the VAT.
 
-## When is one liable for VAT, and for what? (As of 01.2026)
+## When are you liable for VAT, and for what? (as of 01.2026)
 
-In a ZEV (association for own consumption) / vZEV (virtual ZEV), essentially one type of product and one service are sold.
-In this case, the product is electrical energy and the service is the billing of this energy.
+A ZEV (association for own consumption) / vZEV (virtual ZEV) mainly sells one kind of product and one service.
+In this case the product is electrical energy and the service is the billing of this energy.
 
 Increasingly, however, heat / water and ancillary costs are also billed together with the ZEV.
-In this context, there are various additional constellations that must be considered with regard to VAT.
+This creates several additional situations that have to be considered for VAT.
 
-For each energy, it must be decided individually whether VAT liability applies to it or not.
+For each type of energy, it has to be decided individually whether VAT liability applies or not.
 
 ### Is the ZEV liable for VAT on electrical energy and services?
 
 <div className="bild--voll">
 
-![VAT ZEV / ancillary costs – Figure 2](/img/konfiguration-billing-mwst-zev-nebenkosten/02_EN.png)
+![VAT ZEV / ancillary costs – Figure 2](/img/konfiguration-billing-mwst-zev-nebenkosten/02.png)
 
 </div>
 
-VAT liability can generally arise from the following conditions:
+VAT liability can basically arise under the following conditions:
 
-1.  Turnover from the ZEV's sales of energy and services > 100'000 CHF / year --> Automatic tax liability
+1.  Turnover from the ZEV's energy and service sales > CHF 100'000 / year --> automatic tax liability
 
-2.  Through voluntary registration of the ZEV for VAT liability (opting for taxation of the ZEV)
+2.  Voluntary registration of the ZEV for VAT (opting of the ZEV)
 
 
-In both cases, this must be registered with the tax office and a VAT number must be obtained for the ZEV.
+In both cases this must be registered with the tax office and a VAT number obtained for the ZEV.
 
-If either of the two applies, the following happens with regard to the ZEV:
+If either applies, the following happens with regard to the ZEV:
 
 The ZEV is liable for VAT:
 
-1.  The ZEV charges VAT on all electricity sales (grid energy as well as solar and battery power) and shows it on the invoices.
+1.  The ZEV charges VAT on all electricity sales (grid energy, solar and battery power) and shows it on the invoices.
 
 2.  The ZEV is entitled to deduct input tax on purchases and services related to electrical energy.
 
-3.  The ZEV must pay the VAT to the state after deducting input tax
+3.  The ZEV must pay the VAT to the state after the input tax deduction
 
 
 The ZEV is not liable for VAT:
 
 1.  Energy prices are billed at gross prices without VAT information
 
-2.  Services and ancillary energy costs are billed at gross prices without VAT information
+2.  Services and energy-related ancillary costs are billed at gross prices without VAT information
 
 
 ### Is there VAT liability on heat / water and ancillary costs?
 
-This question can only be answered based on the way these energies are sold and the relationship and mandate with respect to the property + the questions of turnover and opting for taxation.
+This question can only be answered by looking at how these energies are sold and at the relationship and mandate with regard to the property, plus the questions of turnover and opting.
 
-Case 1 (see details below): Are the energies produced in the property or purchased by the landlord and then distributed?
+Case 1 (details below): Are the energies produced in the property or purchased by the landlord and then distributed?
 \--> Central heating, district heating and allocation to the residents via ancillary costs
 
-Case 2 (see details below): Are the energies produced and supplied directly by the ZEV to the tenant?
+Case 2 (details below): Are the energies produced and supplied directly by the ZEV to the tenant?
 \--> Energy supplier situation, e.g. district heating?
 
-Based on these two examples, it is clear that the relationships and references differ and can accordingly lead to different results.
+These two examples clearly show that the relationships and supply arrangements differ and can therefore lead to different results.
 
 Case 1:
 
 <div className="bild--voll">
 
-![VAT ZEV / ancillary costs – Figure 3](/img/konfiguration-billing-mwst-zev-nebenkosten/03_EN.png)
+![VAT ZEV / ancillary costs – Figure 3](/img/konfiguration-billing-mwst-zev-nebenkosten/03.png)
 
 </div>
 
 
 Details:
 
-The energies are generated in the property by a heat pump with a hot water tank and then distributed within the properties.
+The energies are generated in the property by a heat pump with a hot water storage tank and then distributed within the properties.
 or
-The case of the STWEG (condominium owners' association), which purchases energy and then distributes it.
+The case of the condominium owners' association (STWEG), which purchases energy and then distributes it.
 
-Since the energies were generated in the property by equipment owned by the property owner, the question now arises as to whether the property owner is liable for VAT. (Energies and ancillary costs)
+Because the energies were generated in the property by equipment owned by the property owner, the question is whether the property owner is liable for VAT. (Energies and ancillary costs)
 
-The ZEV or billing service provider bills these energies as a service to the property owner under a mandate. The ZEV or billing service provider must charge VAT on the billing service itself, provided it is liable for VAT, but not on the energies and ancillary costs to be allocated.
+The ZEV or billing service provider bills these energies as a service to the property owner under a mandate. The ZEV or billing service provider must charge VAT on the billing service itself if it is liable for VAT, but not on the energies and ancillary costs to be distributed.
 
-In principle, the property owner can itself be liable for VAT for the same reasons:
+The property owner can in principle be liable for VAT themselves for the same reasons:
 
-1.  Turnover from taxable supplies  > 100'000 CHF / year --> Automatic tax liability
-    Taxable supplies are, for example, the rental of holiday apartments or parking spaces not connected to apartment rentals.
-    Services that are provided in-house are also taxable supplies.
+1.  Turnover from taxable supplies  > CHF 100'000 / year --> automatic tax liability
+    Taxable supplies are, for example, renting out holiday apartments or parking spaces not linked to apartment rentals.
+    Services that are provided by the owner themselves are also taxable supplies.
     Normal apartment rents themselves are not taxable supplies.
 
-2.  Through voluntary registration of the property for VAT liability (opting for taxation)
+2.  Voluntary registration of the property for VAT (opting)
 
 
-The most common option is voluntary registration. Liability arising from turnover is rather rare, since renting out pure residential space is not a taxable supply.
+The most common option is voluntary registration. Liability due to turnover is rather rare, because renting out pure living space is not a taxable supply.
 
-Opting (partially opting) a property for taxation
+Opting (partially opting) a property
 
-The decision to opt a property for taxation lies with the owner of the property. It can be a smart move when renting out commercial space, as the businesses can then deduct the VAT as input tax.
+Whether to opt a property is up to the property owner. It can be a smart move when renting out commercial space, because the businesses can then deduct the VAT as input tax.
 
-If the decision to opt for taxation is made, the entire property owned by the same landlord is opted and voluntarily made subject to VAT.
+If the decision to opt is made, the entire property owned by the same landlord is opted and voluntarily made subject to VAT.
 
-This is important to understand, because it places all parts of the property owned by this landlord under VAT. The exception, by law, is pure residential space, which cannot be opted for taxation.
+This is important to understand, because it now places all parts of the property owned by this landlord under VAT. The exception, by law, is pure living space, which cannot be opted.
 
 Example:
 
-If the building with 4 units (2x commercial space, 2x residential space) is entirely owned by owner A and this owner opts for taxation, they are effectively partially opted for all parts of the property that are not pure residential space.
+If the building with 4 units (2x commercial space, 2x living space) is entirely owned by owner A and owner A opts, the owner is effectively partially opted for all parts of the property that are not pure living space.
 
 1.  Commercial space 1 --> opted
 
 2.  Commercial space 2 --> opted
 
-3.  Residential space 1 --> not opted, because residential space is exempt from VAT
+3.  Living space 1 --> not opted, because living space is exempt from VAT
 
-4.  Residential space 2 --> not opted, because residential space is exempt from VAT
+4.  Living space 2 --> not opted, because living space is exempt from VAT
 
 
 For all opted units, the following must now happen:
 
-- Show heat / water invoice amounts net incl. VAT.
+- Show heat / water invoice amounts as net incl. VAT.
     It is important to note here that the VAT for all components is aligned with the VAT rate of the rents.
-    Even expenses with a reduced tax rate (2.6% for cold water) must then be taxed at the standard rate of 8.1%.
+    Costs with a reduced tax rate (2.6% for cold water) must then also be taxed at the standard rate of 8.1%.
 
-- Show ancillary costs invoice amounts net incl. VAT.
+- Show ancillary cost invoice amounts as net incl. VAT.
 
-- Show the rent net incl. VAT! (When the property is opted for taxation, the rent also becomes subject to VAT)
+- Show the rent as net incl. VAT! (When the property is opted, the rent also becomes subject to VAT)
 
 
-For all non-opted units (residential spaces):
+For all units that are not opted (living spaces):
 
 - Heat / water invoice amounts at gross prices without showing VAT.
 
-- Ancillary costs invoice amounts at gross prices without showing VAT.
+- Ancillary cost invoice amounts at gross prices without showing VAT.
 
 
-In addition to being liable for tax, the property owner is now also entitled to deduct input tax on all supplies relating to the opted parts of the property, but not on those relating to the non-opted parts.
+In addition to being liable for tax, the property owner is now also entitled to deduct input tax for all goods and services relating to the opted parts of the property, but not for the parts that are not opted.
 
 If the ZEV or billing service provider acts under a mandate as the service provider for heat / water and ancillary costs, the following is important:
 
-- The invoice to the tenant must clearly show that the invoice was issued on behalf of the landlord.
-    If this is not clearly stated, the sender of the invoice is deemed to be the issuer of the invoice. Since the invoices for rent and ancillary costs would then not come from the same issuer, the entitlement to VAT exemption for heat / water and ancillary costs is lost, as they are no longer regarded as part of the rent!
+- The invoice to the tenant must clearly show that it was issued on behalf of the landlord.
+    If this is not clearly stated, the sender of the invoice is considered the invoicing party. Because the invoices for rent and ancillary costs would then not come from the same invoicing party, the entitlement to VAT exemption for heat / water and ancillary costs is lost, since they are no longer considered part of the rent!
 
-    A note text: Invoicing and dispatch on behalf of your landlord XXXXXXXXXX
+    A note text: Invoicing and sending on behalf of your landlord XXXXXXXXXX
     If the landlord is liable for tax, with the landlord's VAT number.
 
 
@@ -193,11 +193,11 @@ Case 2:
 
 <div className="bild--voll">
 
-![VAT ZEV / ancillary costs – Figure 4](/img/konfiguration-billing-mwst-zev-nebenkosten/04_EN.png)
+![VAT ZEV / ancillary costs – Figure 4](/img/konfiguration-billing-mwst-zev-nebenkosten/04.png)
 
 </div>
 
-## Further information and laws
+## Further information and legislation
 
 [Principles of value added tax - Admin.ch](https://www.estv.admin.ch/dam/estv/de/dokumente/estv/steuersystem/dossier-steuerinformationen/d/d-grundsaetze-der-mehrwertsteuer.pdf.download.pdf/d-grundsaetze-der-mehrwertsteuer.pdf) 
 

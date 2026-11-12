@@ -1,43 +1,43 @@
 ---
 title: 'TrueEnergy'
 slug: '/drittsysteme/trueenergy-as'
-description: 'Together with the smart-me Kamstrup Module, the TrueEnergy app enables the control of end devices and car charging stations.'
+description: 'Together with the smart-me Kamstrup Module, the TrueEnergy app lets you control devices and car charging stations.'
 sidebar_label: 'TrueEnergy'
 ---
 <div className="row">
 <div className="col col--7">
 
-Together with the smart-me Kamstrup Module, the TrueEnergy app enables the control of end devices and car charging stations.
+Together with the smart-me Kamstrup Module, the TrueEnergy app lets you control devices and car charging stations.
 
-Your car is always charged as much as needed at the right time. It charges at the lowest price, according to the available solar power or as fast as possible.
+Your car is always charged as much as needed at the right time. It charges at the lowest price, based on available solar power, or as fast as possible.
 
-End devices such as lights and washing machines can also be controlled via IFTT.
+Devices such as lights and washing machines can also be controlled via IFTT.
 
 Target group: Denmark / single-family homes
 
 </div>
 <div className="col col--5 bild--mitte">
 
-![TrueEnergy AS – Figure 1](/img/drittsysteme-trueenergy-as/01.png)
+![TrueEnergy – Figure 1](/img/drittsysteme-trueenergy-as/01.png)
 
 </div>
 </div>
 
-Features:
+Functions:
 
-- Charging of electric vehicles depending on state of charge, times, best prices and available solar power.
+- Charging electric vehicles based on state of charge, times, best prices and available solar power.
 
-- Control of end devices with IFTT according to electricity prices and times
+- Controlling devices with IFTT based on electricity prices and times
 
 <div className="row">
 <div className="col col--6 bild--mitte">
 
-![TrueEnergy AS – Figure 2](/img/drittsysteme-trueenergy-as/02.png)
+![TrueEnergy – Figure 2](/img/drittsysteme-trueenergy-as/02.png)
 
 </div>
 <div className="col col--6 bild--mitte">
 
-![TrueEnergy AS – Figure 3](/img/drittsysteme-trueenergy-as/03.png)
+![TrueEnergy – Figure 3](/img/drittsysteme-trueenergy-as/03.png)
 
 </div>
 </div>
@@ -45,12 +45,12 @@ Features:
 <div className="row">
 <div className="col col--5 bild--mitte">
 
-![TrueEnergy AS – Figure 5](/img/drittsysteme-trueenergy-as/05.png)
+![TrueEnergy – Figure 5](/img/drittsysteme-trueenergy-as/05.png)
 
 </div>
 <div className="col col--7 bild--mitte">
 
-![TrueEnergy AS – Figure 4](/img/drittsysteme-trueenergy-as/04.png)
+![TrueEnergy – Figure 4](/img/drittsysteme-trueenergy-as/04.png)
 
 </div>
 </div>

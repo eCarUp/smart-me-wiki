@@ -4,7 +4,7 @@ slug: '/konfiguration'
 description: 'Du compteur mis en service au décompte final : la configuration d''un projet smart-me étape par étape.'
 sidebar_label: 'Configuration'
 ---
-Du compteur mis en service au décompte final. Les étapes s'enchaînent les unes aux autres — vous pouvez les suivre dans l'ordre ou passer directement à celle où vous en êtes.
+Du compteur mis en service au décompte final. Les étapes s'enchaînent — vous pouvez les parcourir dans l'ordre ou passer directement d'ici à celle où vous en êtes.
 
 ## Déroulement
 
@@ -18,9 +18,9 @@ Du compteur mis en service au décompte final. Les étapes s'enchaînent les une
 
 <Schritt seite="konfiguration/visualisierung">Configurer les visualisations pour les propriétaires et les locataires</Schritt>
 
-<Schritt seite="konfiguration/billing/index">Configuration de la facturation et des baux</Schritt>
+<Schritt seite="konfiguration/billing/index">Configuration de la facturation et des contrats de location</Schritt>
 
-<Schritt seite="konfiguration/billing-deutschland/index">Configuration de la facturation et des baux</Schritt>
+<Schritt seite="konfiguration/billing-deutschland/index">Configuration de la facturation et des contrats de location</Schritt>
 
 <Schritt seite="konfiguration/multilevel-lastmanagement/index" optional>Si l'électromobilité est mise en œuvre avec smart-me Pico</Schritt>
 

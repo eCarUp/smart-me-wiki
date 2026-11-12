@@ -13,7 +13,7 @@ sidebar_label: 'Messa in servizio LoRa'
 
 2.  Seleziona "Gateway LoRa" ("Lora Gateways") e clicca su "Aggiungi" ("Hinzufügen")
 
-3.  Inserisci il nome e l'EUI del dispositivo. In alternativa puoi scansionare con la fotocamera il codice QR dell'EUI.
+3.  Inserisci il nome e l'EUI del dispositivo. In alternativa puoi scansionare il codice QR dell'EUI con la fotocamera.
 
 </div>
 <div className="col col--6 bild--mitte">
@@ -51,7 +51,7 @@ Istruzioni dettagliate per i dispositivi testati internamente:
 
 4.  Premi "Salva" ("Speichern")
 
-5.  Verifica lo stato del sensore nella panoramica dei dispositivi LoRa ("Lora Geräte Übersicht").
+5.  Verifica lo stato del sensore nella panoramica dei dispositivi LoRa ("Lora Geräte").
 
 </div>
 <div className="col col--7 bild--mitte">

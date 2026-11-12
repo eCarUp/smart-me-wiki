@@ -1,14 +1,14 @@
 ---
 title: 'GreenPocket'
 slug: '/drittsysteme/greenpocket'
-description: 'Greenpocket GmbH regroupe les données de compteurs issues de différents systèmes et permet des analyses personnalisées des données de mesure, p. ex. pour des études ISO50001.'
+description: 'Greenpocket GmbH regroupe les données de compteurs issues de différents systèmes et permet des analyses personnalisées des données de mesure, p. ex. pour des études selon ISO50001.'
 sidebar_label: 'GreenPocket'
 ---
 
 <div className="row">
 <div className="col col--8">
 
-Greenpocket GmbH regroupe les données de compteurs issues de différents systèmes et permet des analyses personnalisées des données de mesure, p. ex. pour des études ISO50001.
+Greenpocket GmbH regroupe les données de compteurs issues de différents systèmes et permet des analyses personnalisées des données de mesure, p. ex. pour des études selon ISO50001.
 
 Les données de mesure smart-me sont transférées dans le logiciel de Greenpocket via des [exportations MSCONS automatiques](/schnittstellen/auto-export).
 

@@ -8,7 +8,7 @@ sidebar_label: 'Digital Republic'
 <div className="row">
 <div className="col col--8">
 
-Il nostro partner Digital Republic ti offre una soluzione SIM dati semplice e flessibile per la tua installazione smart-me. Le schede SIM di Digital Republic sono versatili e utilizzabili in tutti i dispositivi compatibili con LTE.  Grazie alla nostra collaborazione con Digital Republic, puoi ordinare gratuitamente una prima scheda SIM a scopo di test. 
+Il nostro partner Digital Republic ti offre una soluzione SIM dati semplice e flessibile per la tua installazione smart-me. Le schede SIM di Digital Republic sono versatili e utilizzabili in tutti i dispositivi compatibili con LTE. Grazie alla nostra collaborazione con Digital Republic puoi ordinare gratuitamente una prima scheda SIM a scopo di test. 
 
 Offerta valida solo in Svizzera 🇨🇭
 

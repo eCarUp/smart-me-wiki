@@ -3,16 +3,16 @@
 <details id="zev-mit-notstromsystemen" open>
 <summary>NOUVEAU : RCP avec systèmes d'alimentation de secours</summary>
 
-Vous pouvez désormais tarifer les systèmes d'alimentation de secours de manière alternative.  
+Vous pouvez désormais tarifer les systèmes d'alimentation de secours selon une autre méthode.  
 
-Comme la place pour le compteur solaire fait souvent défaut, vous pouvez maintenant tarifer simplement à l'aide du raccordement au bâtiment et de la consommation totale, sans devoir ajouter laborieusement le compteur solaire.
+Comme la place pour le compteur solaire manque souvent, vous pouvez maintenant tarifer simplement à l'aide du raccordement au réseau et de la consommation totale, sans devoir ajouter laborieusement le compteur solaire.
 
-Pour cela, sélectionnez le tarif solaire incl. vRCP (Solartarif inkl. vZEV) :
+Pour ce faire, sélectionnez le tarif solaire y compris RCP virtuel (vRCP) (Solartarif inkl. vZEV) :
 \- Compteur de référence : consommation et bilan (Referenzzähler: Verbrauch und Bilanz)
 
-Les tarifs sont alors calculés correctement sans compteur solaire, ce qui évite des installations et transformations fastidieuses.
+Les tarifs sont désormais calculés correctement sans compteur solaire, ce qui vous épargne des montages et transformations fastidieux.
 
-Remarque : si l'installation d'un compteur d'électricité solaire est possible, n'hésitez pas à la réaliser. La couverture complète du schéma de mesure permet de compenser des données erronées dues à des compteurs défectueux, alors qu'une omission systématique prive de cette possibilité.
+Remarque : si l'installation d'un compteur de production solaire est possible, n'hésitez pas à le faire. Une couverture complète du schéma de mesure permet de compenser des données erronées dues à des compteurs défectueux ; l'omettre systématiquement prive de cette possibilité.
 
 [Plus de détails](/planung/messkonzept-notstromloesung)
 
@@ -25,7 +25,7 @@ Remarque : si l'installation d'un compteur d'électricité solaire est possible,
 <details id="kleines-update-zum-solarmanager-ab-august-2026" open>
 <summary>Petite mise à jour concernant SolarManager à partir d'août 2026</summary>
 
-Avec la nouvelle mise à jour de SolarManager, les Picos ne sont plus pilotés via le numéro de série, mais via l'ID du groupe de gestion de la charge de niveau 1.
+Avec la nouvelle mise à jour de SolarManager, les Pico ne sont plus pilotées via le numéro de série, mais via l'ID du groupe de gestion de la charge de niveau 1.
 
 Dans cette courte vidéo, je vous montre étape par étape comment cela fonctionne, afin que vous puissiez effectuer correctement les réglages du côté smart-me.
 
@@ -40,7 +40,7 @@ solarmanager\_update\_2026.mp4
 <details id="rechnungsvorschau-v1">
 <summary>NOUVEAU : Aperçu de facture V1</summary>
 
-Générez désormais un aperçu de facture avant d'établir des factures définitives.
+Générez désormais un aperçu de facture avant d'établir les factures définitives.
 
 - Vérifiez rapidement et simplement vos configurations.
 
@@ -50,7 +50,7 @@ Générez désormais un aperçu de facture avant d'établir des factures défini
 
 Où ?
 
-Facturation (Rechnungsstellung) --> Factures (Rechnungen)
+Facturation (Rechnungserstellung) --> Factures (Rechnungen)
 
 ![Données techniques & manuels – Figure 2](/img/home/02.png)
 
@@ -59,11 +59,11 @@ Facturation (Rechnungsstellung) --> Factures (Rechnungen)
 </details>
 
 <details id="aktualisierung-unserer-agb-datenschutzrichtlinien">
-<summary>Mise à jour de nos CG & directives de protection des données</summary>
+<summary>Mise à jour de nos CG & de nos directives sur la protection des données</summary>
 
-Nous avons adapté nos Conditions générales (CG) et nos déclarations de protection des données. Afin de régler de manière juridiquement optimale le traitement des données au sein de notre groupe d'entreprises, les documents ont été complétés par un « Joint Controller Agreement » (JCA). Les versions mises à jour peuvent dès à présent être consultées en ligne.
+Nous avons adapté nos conditions générales (CG) et nos déclarations de protection des données. Afin de régler de manière juridiquement optimale le traitement des données au sein de notre groupe, les documents ont été complétés par un « Joint Controller Agreement » (JCA). Les versions mises à jour peuvent être consultées en ligne dès maintenant.
 
-[→ Vers les CG & dispositions de protection des données](https://web.smart-me.com/agb-smart-me-ag/)
+[→ Vers les CG & dispositions sur la protection des données](https://web.smart-me.com/agb-smart-me-ag/)
 
 </details><NurFuer land="ch">
 
@@ -74,20 +74,20 @@ Préparez-vous à une transition sans accroc vers notre nouvelle plateforme mode
 
 - Délai de commande dans l'ancienne boutique : passez vos commandes urgentes jusqu'au 26 juin 2026 à 11h00. L'ancien système sera ensuite désactivé. 
 
-- Solution transitoire par e-mail & téléphone : pendant la phase de transition (29 juin – 1er juillet), commandez directement chez nous en toute simplicité. 
+- Transition par e-mail & téléphone : pendant la phase de transition (29 juin – 1er juillet), commandez directement chez nous, en toute simplicité. 
 
 - Activation des comptes existants : utilisez le lien d'activation que vous recevrez le 30 juin par e-mail de notre nouveau prestataire Odoo.  
 
-- Rabais & prix habituels : continuez à profiter de vos conditions individuelles, déjà enregistrées dans le nouveau système. 
+- Rabais & prix habituels : continuez à bénéficier de vos conditions individuelles, déjà enregistrées dans le nouveau système. 
 
-- Lancement de la nouvelle plateforme : dès le 1er juillet 2026, achetez simplement et rapidement dans la nouvelle boutique.
+- Lancement de la nouvelle plateforme : à partir du 1er juillet 2026, achetez simplement et rapidement dans la nouvelle boutique.
 
 </details>
 
 </NurFuer>
 
 <details id="online-strom-und-solartarif-rechner">
-<summary>Mise à jour : calculateur en ligne des tarifs d'électricité et solaires</summary>
+<summary>Mise à jour : calculateur en ligne de tarifs d'électricité et solaires</summary>
 
 - Saisie étendue
 
@@ -134,9 +134,9 @@ Vous permet de créer des tableaux de bord personnalisés, tels que des flux d'�
 </details>
 
 <details id="technische-tools">
-<summary>Nouveau : Outils techniques</summary>
+<summary>Nouveau : Aides techniques</summary>
 
-Dans la nouvelle rubrique Outils techniques (Technische Tools), vous trouverez des aides pour l'installation et la maintenance de l'installation.
+Dans la nouvelle section Aides techniques (Technische Tools), vous trouverez des outils pour l'installation et la maintenance de l'installation.
 
 ![Données techniques & manuels – Figure 9](/img/home/09.png)
 
@@ -151,13 +151,13 @@ Dans la nouvelle rubrique Outils techniques (Technische Tools), vous trouverez d
 <details id="applab">
 <summary>Nouveau : AppLAB</summary>
 
-La nouvelle rubrique AppLAB est un espace d'essai qui met à disposition différentes fonctionnalités afin de tester leur efficacité.
+La nouvelle section AppLAB est un espace d'expérimentation qui met à disposition différentes fonctionnalités afin d'en tester l'efficacité.
 
 ![Données techniques & manuels – Figure 11](/img/home/11.png)
 
 [→ En savoir plus](/konfiguration/applab)
 
-- Explorateur des pics de charge (Spitzenlast-Explorer)
+- Explorateur de pointes de charge (Spitzenlast-Explorer)
 
 - Rapport sur la puissance réactive (Blindleistungsbericht)
 
@@ -189,9 +189,9 @@ Vérifiez la production et les rendements de votre RCP (regroupement dans le cad
 
 - Production d'énergie et rendement
 
-- Pics de soutirage et d'injection depuis et vers le réseau
+- Pointes de soutirage et d'injection depuis et vers le réseau
 
-- Identifiez les jours de forte production grâce à la visualisation en carte thermique
+- Identifiez les jours de forte production grâce à la visualisation par carte thermique
 
 - Analysez l'efficacité de votre batterie dans le RCP
 
@@ -208,11 +208,11 @@ Vérifiez la production et les rendements de votre RCP (regroupement dans le cad
 
 Visualisations existantes :
 
-Les visualisations existantes reçoivent un nouveau design. Elles sont mises à jour automatiquement, sans configuration supplémentaire.
+Les visualisations existantes bénéficient d'un nouveau design. Elles sont mises à jour automatiquement, sans configuration supplémentaire.
 
 Nouvelle visualisation Pico :
 
-Découvrez la nouvelle visualisation Pico, qui affiche d'un coup d'œil tous les points de recharge Pico et leurs groupes de recharge – avec consommation de courant, occupation, puissance absorbée maximale et bien plus encore.
+Découvrez la nouvelle visualisation Pico, qui affiche d'un coup d'œil tous les points de recharge Pico et leurs groupes de recharge – avec le courant absorbé, l'occupation, la puissance maximale absorbée et bien plus encore.
 
 [→ Plus d'informations sur les nouvelles visualisations](/konfiguration/visualisierung)
 
@@ -225,13 +225,13 @@ Découvrez la nouvelle visualisation Pico, qui affiche d'un coup d'œil tous les
 <details id="das-neue-m-bus-gateway-sirius-ist-da">
 <summary>La nouvelle passerelle M-Bus Sirius est arrivée !</summary>
 
-Notre famille de produits continue de s'agrandir : avec Sirius, nous lançons notre passerelle la plus performante à ce jour pour les grandes infrastructures de bâtiments.
+Notre gamme de produits continue de s'agrandir : avec Sirius, nous lançons notre passerelle la plus performante à ce jour, conçue pour les grandes infrastructures de bâtiments.
 
 - Capacité massive – Jusqu'à 250 charges standard M-Bus dans un seul appareil. 
 
 - Multi-énergie – Eau, chaleur, froid et gaz gérés de manière centralisée. 
 
-- Sécurité maximale – Mémoire de données gigantesque en cas de coupure de connexion.
+- Sécurité maximale – Mémoire de données très importante en cas de coupure de connexion.
 
 [→ Plus d'informations sur Sirius](/produkte/m-bus-gateway/sirius)
 
@@ -240,14 +240,14 @@ Notre famille de produits continue de s'agrandir : avec Sirius, nous lançons no
 </details><NurFuer land="ch">
 
 <details id="mwst-richtig-verrechnen">
-<summary>NOUVEAU : TVA – facturer correctement</summary>
+<summary>NOUVEAU : TVA – bien la facturer</summary>
 
 <div className="row">
 <div className="col col--6">
 
 L'application de la TVA est un point important du décompte. Pour éviter toute erreur, vous trouverez ici un guide pour indiquer correctement la TVA dans votre cas.
 
-La loi sur la TVA relative au RCP (regroupement dans le cadre de la consommation propre) évolue presque aussi vite que la technique.
+La législation sur la TVA relative au RCP (regroupement dans le cadre de la consommation propre) évolue presque aussi vite que la technique.
 
 [→ Plus d'informations pour nos partenaires](/konfiguration/billing/mwst-zev-nebenkosten)
 

@@ -1,33 +1,33 @@
 ---
 title: 'WisGate Edge Lite 2'
 slug: '/konfiguration/inbetriebnahme/inbetriebnahme-lora/wisgate-edge-lite-2'
-description: 'Collegare il gateway al cloud smart-me'
+description: 'Collegamento del gateway al cloud smart-me'
 sidebar_label: 'WisGate Edge Lite 2'
 ---
-## Istruzioni di integrazione
+## Guida all'integrazione
 
-## Collegare il gateway al cloud smart-me
+## Collegamento del gateway al cloud smart-me
 
 <div className="row">
 <div className="col col--7">
 
-1.  Alimenta il dispositivo.
+1.  Alimenta il dispositivo
 
-2.  Collega il tuo laptop alla rete Wi-Fi del WIsGate Edge (RAK7268\_XXXX). Non serve una password.
+2.  Collegati con il tuo laptop alla rete Wifi del WIsGate Edge (RAK7268\_XXXX), non è necessaria alcuna password.
 
-3.  Apri il browser web e vai all'indirizzo 192.168.230.1
+3.  Apri il browser web e vai su 192.168.230.1
 
-4.  Effettua l'accesso.
+4.  Effettua il login.
 
-    Nome utente: root
+    Username: root
 
     Password: root
 
-5.  Vai su Overview e leggi l'EUI, che ti servirà più tardi per il collegamento al cloud.
+5.  Vai su Overview per leggere l'EUI, che servirà in seguito per il collegamento al cloud.
 
-6.  Apri Impostazioni --> Configurazione
+6.  Apri le impostazioni --> configurazione
 
-7.  Effettua le impostazioni seguenti e salvale.
+7.  Effettua le seguenti impostazioni e salvale.
 
 8.  Registra il dispositivo con la sua EUI nel Gateway LoRa (LoRa Gateway) di smart-me
 

@@ -4,7 +4,7 @@ slug: '/konfiguration/inbetriebnahme/inbetriebnahme-lora/kerlink-wirnet-ifemtoce
 description: 'Activation du mode Private Network'
 sidebar_label: 'kerlink Wirnet iFemtocell-evolution'
 ---
-## Instructions d'intégration
+## Guide d'intégration
 
 ## Activation du mode Private Network
 
@@ -41,7 +41,7 @@ sidebar_label: 'kerlink Wirnet iFemtocell-evolution'
 
 ## Ouvrir l'outil web à distance
 
-1.  Connectez l'appareil à Ethernet, au WLAN ou via 4G conformément aux instructions
+1.  Connectez l'appareil à Ethernet, au Wi-Fi ou via 4G conformément aux instructions
 
 2.  Ouvrez le navigateur de votre ordinateur portable et saisissez l'URL suivante :
     [http://klk-fevo-](/)&lt;Serial>/
@@ -58,7 +58,7 @@ Ex. : EUI = 7076FFyyzz060001, la Serial est alors 060001
 
 4.  Sélectionnez « Administration »
 
-5.  Réglez le fuseau horaire correct pour votre site
+5.  Définissez le fuseau horaire correct pour votre emplacement
 
 
 ![kerlink Wirnet iFemtocell-evolution – Illustration 4](/img/konfiguration-inbetriebnahme-inbetriebnahme-lora-kerlink-wirnet-ifemtocell-evolution/04.png)

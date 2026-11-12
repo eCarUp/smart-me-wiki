@@ -10,12 +10,12 @@ sidebar_label: 'Fairwalter'
 
 Fairwalter is a comprehensive property management application and imports smart-me meter data via API.
 
-Private landlords get a clear and intuitive all-in-one solution. There is no installation and no manual updates. Family members, tax advisors, brokers or caretakers each get their own access, so the property can be managed together. 
+Private landlords get a clear, intuitive all-in-one solution. There is no installation and no manual updating. Family members, tax advisors, brokers and caretakers each get their own access, so the property can be managed together.
 
-Property management companies save time and money when setting up the solution, when training employees, and when working with owners and service providers. As a web solution, Fairwalter adapts to your processes: connect external solutions via an interface and design internal processes flexibly.
+Property management companies save time and money when setting up the solution, training employees, and working with owners and service providers. As a web solution, Fairwalter adapts to your processes: integrate external solutions via an interface and design internal processes flexibly.
 
 - Fairwalter retrieves smart-me data directly via API
-- Well suited for ancillary costs billing
+- Well suited for ancillary cost billing
 - Limited for billing electrical energy (no solar tariff)
 
 </div>
@@ -29,11 +29,11 @@ Property management companies save time and money when setting up the solution, 
 
 ### Integration with smart-me
 
-All consumption data recorded by smart-me is automatically used for heating and ancillary costs billing. All you need to do is assign the meters to the ancillary costs accounts.
+All consumption data recorded by smart-me is automatically used for the heating and ancillary cost billing. All you need to do is assign the meters to the ancillary cost accounts.
 
-[Live demo video](https://youtu.be/E7HuIAUehdE)
+[Video live demo](https://youtu.be/E7HuIAUehdE)
 
-<Video src="E7HuIAUehdE" title="YouTube video, Fairwalter live demo" />
+<Video src="E7HuIAUehdE" title="YouTube video, live demo Fairwalter" />
 
 ## Contact
 

@@ -7,7 +7,7 @@ sidebar_label: 'zevvy'
 <div className="row">
 <div className="col col--7">
 
-zevvy helps apartment buildings easily bill complex energy and ancillary costs with online software. This allows property owners or their property managers to create bills for solar power (ZEV, association for own consumption), EV charging stations, heating, domestic hot water, cold water and other media in just a few clicks. Other costs for gardening, caretaking, services or common-area consumption can also be easily listed and allocated to the residents. According to VEWA, the costs for the zevvy software can be passed on to the tenants as energy ancillary costs.
+zevvy helps apartment buildings easily bill complex energy and ancillary costs with online software. Property owners or their property managers can create bills for solar power (ZEV), EV charging stations, heating, domestic hot water, cold water and other utilities in just a few clicks. Other costs, such as gardening, caretaker, services or common-area consumption, can also be easily itemised and allocated to the residents. According to VEWA (consumption-based energy and water cost billing), the costs of the zevvy software can be passed on to the tenants as energy-related ancillary costs.
 
 </div>
 <div className="col col--5 bild--mitte">
@@ -17,7 +17,7 @@ zevvy helps apartment buildings easily bill complex energy and ancillary costs w
 </div>
 </div>
 
-In the video, you will learn how smart-me meters are integrated into zevvy and how their data can be used for ancillary cost billing.
+The video shows how smart-me meters are integrated into zevvy and how their data can be used for ancillary cost billing.
 
 <Video src="oMVCWsbPQNg" title="YouTube video, zevvy live demo" />
 

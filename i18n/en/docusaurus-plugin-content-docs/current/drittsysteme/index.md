@@ -32,7 +32,7 @@ smart-me is an open energy management system. With smart-me, electricity, water,
 
 </Kacheln>
 
-### Heating and ancillary cost billing software
+### Heating and ancillary costs billing software
 
 <Kacheln min="11rem">
 

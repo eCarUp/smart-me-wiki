@@ -1,11 +1,11 @@
 ---
 title: 'Messa in servizio'
 slug: '/konfiguration/inbetriebnahme'
-description: 'Tutto sulla messa in servizio dei dispositivi smart-me: a cosa prestare attenzione durante la messa in servizio, le fonti di errore più frequenti e risposte specifiche alle domande sull''installazione.'
+description: 'Tutto sulla messa in servizio dei dispositivi smart-me: cosa bisogna considerare durante la messa in servizio, le fonti di errore più frequenti e risposte specifiche alle domande sull''installazione.'
 sidebar_label: 'Messa in servizio'
 naechste_schritte: [konfiguration/ordnerkonfiguration/index]
 ---
-Tutto sulla messa in servizio dei dispositivi: a cosa prestare attenzione durante la messa in servizio, le fonti di errore più frequenti e risposte specifiche alle domande sull'installazione.
+Tutto sulla messa in servizio dei dispositivi: cosa bisogna considerare durante la messa in servizio, le fonti di errore più frequenti e risposte specifiche alle domande sull'installazione.
 
 ### Eseguire la messa in servizio dell'hardware
 
@@ -36,7 +36,7 @@ Acquisire i contatori tramite l'interfaccia Swisseldex (SDAT).
 
 <Kachel titel="Eliminare o disattivare un dispositivo" href="/konfiguration/inbetriebnahme/zaehler-loeschen">
 
-Il dispositivo è stato installato nell'account sbagliato oppure è stato sostituito e ora deve essere disattivato.
+Il dispositivo è stato installato nell'account sbagliato oppure un dispositivo è stato sostituito e ora deve essere disattivato.
 
 </Kachel>
 

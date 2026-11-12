@@ -7,7 +7,7 @@ sidebar_label: 'Fondazioni per piedistallo'
 
 <Kacheln min="15rem">
 
-<Kachel bild="/img/drittprodukte-standfuss-fundamente/01.png" bildtext="Fondazione Borner" titel="Fondazione Borner" bildhoehe="11rem">
+<Kachel bild="/img/drittprodukte-standfuss-fundamente/01.png" bildtext="Borner Fundament" titel="Borner Fundament" bildhoehe="11rem">
 
 Blocco di calcestruzzo prefabbricato con piastra in alluminio
 
@@ -17,7 +17,7 @@ Fornitore: [borner.ch](https://borner.ch/products/energy-block/)
 
 </Kachel>
 
-<Kachel bild="/img/drittprodukte-standfuss-fundamente/02.png" bildtext="Fondazione Crea Beton" titel="Fondazione Crea Beton" bildhoehe="11rem">
+<Kachel bild="/img/drittprodukte-standfuss-fundamente/02.png" bildtext="Crea Beton Fundament" titel="Crea Beton Fundament" bildhoehe="11rem">
 
 Blocco di calcestruzzo prefabbricato con piastra in alluminio
 

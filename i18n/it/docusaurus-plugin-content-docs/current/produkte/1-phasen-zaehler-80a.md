@@ -1,10 +1,10 @@
 ---
 title: 'Contatore monofase 80A'
 slug: '/produkte/1-phasen-zaehler-80a'
-description: 'Il contatore monofase 80A di smart-me è un contatore di energia con interfaccia WiFi integrata per la trasmissione di dati in tempo reale.'
+description: 'Il contatore monofase smart-me 80A è un contatore di energia con interfaccia WiFi integrata per la trasmissione di dati in tempo reale.'
 sidebar_label: 'Contatore monofase'
 ---
-Il contatore monofase 80A di smart-me è un contatore di energia con interfaccia WiFi integrata per la trasmissione di dati in tempo reale. Il contatore sincronizza i valori misurati in modo automatico e criptato nel cloud smart-me. I dati possono essere esportati ed elaborati nel portale smart-me oppure, tramite la nostra interfaccia aperta, in sistemi di terzi. Il contatore dispone di un'uscita digitale per il comando di apparecchi a potenziale zero.
+Il contatore monofase smart-me 80A è un contatore di energia con interfaccia WiFi integrata per la trasmissione di dati in tempo reale. Il contatore sincronizza i valori misurati in modo automatico e crittografato con la smart-me Cloud. I dati possono essere esportati ed elaborati nel portale smart-me oppure, tramite la nostra interfaccia aperta, in sistemi di terzi. Il contatore dispone di un'uscita digitale per il comando di apparecchi a potenziale zero.
 
 ![Contatore monofase 80A – Figura 1](/img/produkte-1-phasen-zaehler-80a/01.jpg)
 
@@ -18,11 +18,11 @@ Il contatore monofase 80A di smart-me è un contatore di energia con interfaccia
 
 - [Uscita a contatto a potenziale zero](/schnittstellen/ein-und-ausgaenge) per il comando di apparecchi esterni
 
-- Ingresso a contatto a potenziale zero per il segnale tariffario o come [ingresso digitale](/schnittstellen/ein-und-ausgaenge)
+- Ingresso a contatto a potenziale zero per segnale tariffario o [ingresso digitale](/schnittstellen/ein-und-ausgaenge)
 
 - [Interfacce](/) tramite API, CSV, MSCONS e IS-E
 
-- Connessione dati criptata in tempo reale verso il cloud smart-me 
+- Connessione dati crittografata in tempo reale con la smart-me Cloud 
 
 ## Dati tecnici
 
@@ -34,10 +34,10 @@ Il contatore monofase 80A di smart-me è un contatore di energia con interfaccia
 | Tensione di rete | 85-253 VAC 50/60 Hz |
 | Corrente massima Imax | 80 A |
 | Intervallo di temperatura | da -40°C a +70°C |
-| Umidità relativa dell'aria | Media annua 75%, senza condensa<br />per breve tempo 95%, senza condensa |
+| Umidità relativa | Media annua 75%, senza condensa<br />per brevi periodi 95%, senza condensa |
 | Valori misurati | Energia attiva (kWh), potenza attiva (kW)<br />Corrente (A), tensione (V), fattore di potenza (cosφ) |
 | Autoconsumo | < 0.8 W |
-| Tariffe | Due tramite l'ingresso tariffario digitale E1, tariffe virtuali illimitate nel cloud smart-me |
+| Tariffe | Due tramite ingresso tariffario digitale E1, tariffe virtuali illimitate nella smart-me Cloud |
 | Uscita S0 | 1'000 Imp/kWh |
 | Ingresso digitale / tariffa | Ingresso a potenziale zero, 25-253 VAC/VDC |
 | Uscita digitale / S0 | Uscita a potenziale zero, 12 VDC / 230 VAC, max. 0.4W |
@@ -49,7 +49,7 @@ Il contatore monofase 80A di smart-me è un contatore di energia con interfaccia
 | Aggiornamento del firmware | Possibile online |
 | Immunità EMC | EN 61000-6-2 (ambiente industriale) |
 | Emissioni EMC | EN 61000-6-3 (ambiente residenziale) |
-| Grado di protezione involucro/collegamenti, utilizzo | IP20 / IP51 (montato in quadro elettrico), interno |
+| Grado di protezione involucro/collegamenti, utilizzo | IP20 / IP51 (montato in quadro elettrico), interni |
 | Montaggio | Guida DIN |
 | Dimensioni | 2 moduli, L:90mm P:36mm A:65.7mm |
 | Ubicazione dei server | Svizzera |
@@ -70,7 +70,7 @@ Il contatore visualizza alternativamente diversi valori.
 
 ## Dimensioni e collegamenti
 
-I dati \*.DXF e \*.DWG si trovano nell'archivio ZIP nella sezione Download.
+I dati \*.DXF e \*.DWG si trovano nell'archivio ZIP nei download.
 
 ### Dimensioni
 
@@ -84,11 +84,11 @@ I dati \*.DXF e \*.DWG si trovano nell'archivio ZIP nella sezione Download.
 
 Tasto T(4) per l'installazione
 
-Se il tasto T(4) viene premuto per 10 secondi, viene creata una rete WiFi locale per l'installazione
+Tenendo premuto il tasto T(4) per 10 secondi viene creata una rete WiFi locale per l'installazione
 
 ## Configurare ingressi e uscite
 
-Il contatore monofase 80A dispone di un'uscita digitale e di un ingresso digitale, che possono essere utilizzati come ingressi e uscite a impulsi o come contatto commutabile a potenziale zero. Trovi i dettagli nella pagina wiki [Ingressi e uscite](/schnittstellen/ein-und-ausgaenge) 
+Il contatore monofase 80A dispone di un'uscita digitale e di un ingresso digitale, utilizzabili come ingressi e uscite a impulsi oppure come contatto commutabile a potenziale zero. Per i dettagli consultare la pagina wiki [Ingressi e uscite](/schnittstellen/ein-und-ausgaenge) 
 
 ## Informazioni di spedizione
 

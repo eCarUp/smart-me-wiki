@@ -10,7 +10,7 @@ smart-me distinguishes between two types of signed measured values:
 
 - Signed meter values: Signed measured values that are stored and signed every 15 minutes. Ideal for energy consumption billing.
 
-- Signed transaction: Signed transactions are intended for energy consumption over a specific period of time (e.g. charging electric vehicles). They always have a start value and an end value.
+- Signed transaction: Signed transactions are intended for energy consumption over a specific period (e.g. charging electric vehicles). They always have a start value and an end value.
 
 
 ## Technology / Process
@@ -27,7 +27,7 @@ During production of the meter, an asymmetric key pair is generated and stored o
 
 - Every 15 minutes, or when a transaction ends, a data packet containing the corresponding measured values is created.
 
-- A hash (SHA256) is computed over this data.
+- A hash (SHA256) is calculated over this data.
 
 - This hash is encrypted (ECDSA 256) and stored as the signature.
 
@@ -38,7 +38,7 @@ During production of the meter, an asymmetric key pair is generated and stored o
 
 - The customer receives the data packet with the measurement data via the app, the web or a third party.
 
-- The hash (SHA256) is computed over the data packet.
+- The hash (SHA256) is calculated over the data packet.
 
 - The public key for all smart-me meters is publicly available in the cloud (also via API)
 
@@ -69,12 +69,12 @@ message MeasurementValues
 Measurement values
 
 SerialNumber: The serial number of the meter (e.g. 6300000)
-TimestampUtc: Unix timestamp (UTC) of this measurement data
+TimestampUtc: Unix time stamp (UTC) of this measurement data
 Values: List of all measured values (CounterValue) in this data packet.
 
 CounterValue
 
-Obis: OBIS code of the measured value (6 bytes). e.g.
+Obis: OBIS code of the measured value (6 bytes). E.g.
 &#123; 0x01, 0x00, 0x01, 0x08, 0x01, 0xFF &#125; for 1-0:1.8.1\*255 (active energy consumption tariff 1)
 Value: The measured value
 Unit: The unit of the measured value. At smart-me usually mWh (milliwatt hours)
@@ -200,7 +200,7 @@ Deserialize the data packet: Together with the Protobuffer definition, the data 
 
 
 
-Reading aid
+Reading guide
 
 StartValues
 
@@ -210,7 +210,7 @@ Measured value 1 Obis: AQABCAD/ = 01 00 01 08 00 ff = 1-0:1.8.0\*255 (active ene
 
 Measured value 1: Value 3830562339 mWh = 3830.562 kWh
 
-Measured value 2 Obis: AQACCAD/ = 01 00 02 08 00 ff = 1-0:2.8.0\*255 (active energy delivery total)
+Measured value 2 Obis: AQACCAD/ = 01 00 02 08 00 ff = 1-0:2.8.0\*255 (active energy feed-in total)
 
 Measured value 2: Value 6177828 mWh = 6.177 kWh
 
@@ -224,7 +224,7 @@ Measured value 1 Obis: AQABCAD/ = 01 00 01 08 00 ff = 1-0:1.8.0\*255 (active ene
 
 Measured value 1: Value 3833552299 mWh = 3833.552 kWh
 
-Measured value 2 Obis: AQACCAD/ = 01 00 02 08 00 ff = 1-0:2.8.0\*255 (active energy delivery total)
+Measured value 2 Obis: AQACCAD/ = 01 00 02 08 00 ff = 1-0:2.8.0\*255 (active energy feed-in total)
 
 Measured value 2: Value 6177828 mWh = 6.177 kWh
 

@@ -11,9 +11,9 @@ sidebar_label: 'Mise en service LoRa'
 
 1.  Rendez-vous sur [lora.smart-me.com](https://lora.smart-me.com) et connectez-vous avec votre compte smart-me. 
 
-2.  Sélectionnez "Passerelles LoRa" ("Lora Gateways") et cliquez sur "Ajouter" ("Hinzufügen")
+2.  Sélectionnez « Passerelles LoRa » (Lora Gateways) et cliquez sur « Ajouter » (Hinzufügen)
 
-3.  Saisissez le nom ainsi que l'EUI de l'appareil. Vous pouvez aussi scanner le code QR de l'EUI avec la caméra.
+3.  Saisissez le nom ainsi que l'EUI de l'appareil. Vous pouvez également scanner le code QR de l'EUI avec la caméra.
 
 </div>
 <div className="col col--6 bild--mitte">
@@ -43,15 +43,15 @@ Instructions détaillées pour les appareils testés en interne :
 <div className="row">
 <div className="col col--5">
 
-1.  Accédez à l'onglet "Appareils LoRa" ("Lora Geräte")
+1.  Accédez à l'onglet « Appareils LoRa » (Lora Geräte)
 
-2.  Sélectionnez "Ajouter" ("Hinzufügen")
+2.  Sélectionnez « Ajouter » (Hinzufügen)
 
-3.  Indiquez les informations requises pour le compteur ou le capteur.
+3.  Indiquez les informations requises du compteur ou du capteur.
 
-4.  Cliquez sur "Enregistrer" ("Speichern")
+4.  Cliquez sur « Enregistrer » (Speichern)
 
-5.  Vérifiez l'état du capteur dans la vue d'ensemble des appareils LoRa ("Lora Geräte Übersicht").
+5.  Vérifiez l'état du capteur dans l'aperçu des appareils LoRa (Lora Geräte Übersicht).
 
 </div>
 <div className="col col--7 bild--mitte">

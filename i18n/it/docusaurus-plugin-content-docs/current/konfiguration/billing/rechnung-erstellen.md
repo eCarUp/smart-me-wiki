@@ -11,20 +11,20 @@ vorheriger_schritt: konfiguration/billing/vewa-abrechnung
 <div className="row">
 <div className="col col--5">
 
-Quando il riquadro blu delle tariffe virtuali (Virtuelle Tarife) arriva alla data odierna, è possibile creare una fattura di prova.
+Quando il riquadro blu nelle tariffe virtuali (Virtuelle Tarife) si trova sulla data odierna, è possibile creare una fattura di prova.
 
-- Inserire la data (Datum)
+- Inserire la data
 
 - Creare l'anteprima della fattura (Rechnungsvorschau)
 
-Se l'anteprima La soddisfa, può tornare indietro e creare le fatture reali (Rechnung erstellen).
+Se l'anteprima è soddisfacente, è possibile tornare indietro e creare le fatture reali.
 
-In questa pagina trova una descrizione dei messaggi di errore più frequenti e delle possibili soluzioni: [Messaggi di errore del Billing](/stoerungsbehebung/billing-fehlermeldungen)
+In questa pagina è disponibile una descrizione dei messaggi di errore più frequenti e delle possibili soluzioni: [Messaggi di errore del Billing](/stoerungsbehebung/billing-fehlermeldungen)
 
 </div>
 <div className="col col--7 bild--mitte">
 
-![Finestra di dialogo «Emettere una fattura» con periodo di conteggio, numero di fattura e i pulsanti Anteprima fattura, Emettere una fattura ed Esporta](/img/konfiguration-billing/14_IT.png)
+![Finestra di dialogo „Emettere una fattura" (Rechnung erstellen) con periodo di conteggio, numero di fattura e i pulsanti Anteprima della fattura (Rechnungsvorschau), Emettere una fattura (Rechnung erstellen) ed Esporta (Exportieren)](/img/konfiguration-billing/14.png)
 
 </div>
 </div>

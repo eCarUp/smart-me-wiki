@@ -55,9 +55,22 @@ Inhalt vom Video
 
 ## smart-me Billing Rechnungsbeispiele
 
-- [Beispiel: Strom Abrechnung (.pdf)](https://drive.google.com/file/d/1vVJ5y0_sV8l2NgH8Pf-gJCn36MmDXWfe/view?usp=sharing)
+<div className="row">
+<div className="col col--6 bild--mitte">
 
-- [Beispiel: VEWA Abrechnung (.pdf)](https://drive.google.com/file/d/1-YR543M1bawFrKgrj-MsQR5Es_wKFzRu/view?usp=sharing)
+<Embed src="https://drive.google.com/file/d/1vVJ5y0_sV8l2NgH8Pf-gJCn36MmDXWfe/preview" height="340px" title="Drive, Beispiel Energiekostenabrechnung.pdf" />
+
+[Beispiel: Strom Abrechnung (.pdf)](https://drive.google.com/file/d/1vVJ5y0_sV8l2NgH8Pf-gJCn36MmDXWfe/view?usp=sharing)
+
+</div>
+<div className="col col--6 bild--mitte">
+
+<Embed src="https://drive.google.com/file/d/1-YR543M1bawFrKgrj-MsQR5Es_wKFzRu/preview" height="340px" title="Drive, Beispiel Rechnung VEWA Heizkosten.pdf" />
+
+[Beispiel: VEWA Abrechnung (.pdf)](https://drive.google.com/file/d/1-YR543M1bawFrKgrj-MsQR5Es_wKFzRu/view?usp=sharing)
+
+</div>
+</div>
 
 ## Hilfreiche Hinweise zu den Tarifdaten
 

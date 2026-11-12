@@ -1,15 +1,15 @@
 ---
 title: 'Microsoft Excel'
 slug: '/drittsysteme/microsoft-excel'
-description: 'Microsoft Excel can import data directly from our cloud.'
+description: 'In Microsoft Excel, you can import data directly from our cloud.'
 sidebar_label: 'Microsoft Excel'
 ---
-Microsoft Excel can import data directly from our cloud. This lets you, for example, combine data from different accounts in one database, then read and process it.
-Excel uses the Power Query Editor for this. With it, you can send HTTP requests to our API. You can find the available API commands and a test environment [here](https://smart-me.com/swagger/ui/index#!/AccessToken/AccessToken_Put). 
+In Microsoft Excel, you can import data directly from our cloud. For example, this lets you combine data from different accounts in one database, read it out and process it.
+Excel uses the Power Query Editor for this. With it, you can make HTTP requests using our API. You can find the available API commands and a test environment [here](https://smart-me.com/swagger/ui/index#!/AccessToken/AccessToken_Put). 
 
 ## Download sample file
 
-The file  on the right contains a variable query of a meter's meter readings. You can add more meters to this file.
+The file  on the right contains a variable query of a meter's meter readings. You can extend this file with further meters.
 
 All required functions are available in Excel 0365 or Excel 2016 and later.
 
@@ -34,15 +34,15 @@ Start Excel and, on the Data tab, click Get Data, From Other Sources, From Web.
 
 ### Entering the API command
 
-Paste the link of the API command you want to query.  In the example, this is the command https://www.smart-me.com/api/Devices/&#123;id&#125; . So we want to read all current data of the device with the given ID.
+Paste the link of the API command you want to query.  In the example, this is the command https://www.smart-me.com/api/Devices/&#123;id&#125; . So we want to read out all current data of the device with the respective ID.
 
-You can find more information about the command itself in the test tool at the [link](https://smart-me.com/swagger/ui/index#!/AccessToken/AccessToken_Put) above. There you can also look up the ID of the device you want.
+You can find more information about the command itself in the test tool under the [link](https://smart-me.com/swagger/ui/index#!/AccessToken/AccessToken_Put) above. There you can also find out the ID of the device you want.
 
 ![Microsoft Excel – Figure 2](/img/drittsysteme-microsoft-excel/02.png)
 
 ### Authentication for the link (password and username)
 
-You are now prompted to enter the authentication for the link. You need the username and password of the corresponding account.
+You are now prompted to provide the authentication for the respective link. The username and password of the corresponding account are required.
 
 1.  Select the corresponding link
 
@@ -61,7 +61,7 @@ You are now prompted to enter the authentication for the link. You need the user
 
 ### Converting the data into a table in the Power Query Editor
 
-After the import, the Power Query Editor shows a list of the imported data. This data must now be converted into a table.
+After the import, a list of the imported data appears in the Power Query Editor. This data now has to be converted into a table.
 
 
 
@@ -75,7 +75,7 @@ After Close & Load, a new worksheet is created containing the information from t
 
 ### Connection query settings (interval and refresh)
 
-A pane opens on the right; right-clicking the existing connection there gives you further settings. Above all, you can set the refresh intervals of the connection here.
+A pane opens on the right; right-clicking the existing connection there gives you access to further settings. Above all, you can define the refresh intervals of the respective connection here.
 On the Data tab, you can also refresh on demand.
 
 ![Microsoft Excel – Figure 8](/img/drittsysteme-microsoft-excel/08.png)
@@ -86,17 +86,17 @@ On the Data tab, you can also refresh on demand.
 
 ## Data query with variables (querying meter readings with a variable date)
 
-Querying historical data follows the same principle as building the link for current data. The main difference is that the data must be queried with a changeable piece of information (a variable).
-To make this possible, two queries are needed:
+Querying historical data follows the same principle as building the link for current data. The main difference is that the data has to be queried with a changeable piece of information (variable).
+To make this possible, two queries are required:
 
-1.  A query within the Excel table for the "date" variable.
+1.  A query within the Excel table for the variable "Date".
 
-2.  A query from the web with a suitable API command. The suitable command here is [https://smart-me.com/api/ValuesInPast/&#123;id](https://smart-me.com/api/ValuesInPast/%7Bid)&#125;  (daily meter data from the past)
+2.  A web query with a suitable API command. The suitable command here is [https://smart-me.com/api/ValuesInPast/&#123;id](https://smart-me.com/api/ValuesInPast/%7Bid)&#125;  (daily meter data from the past)
 
 
 ### Creating the date variable
 
-In Excel, choose a location where the date will be entered.  Create a table there via Insert \--> Table. (Important)
+In Excel, choose a location where the date is to be entered.  To do so, create a table under Insert \--> Table. (Important)
 
 ![Microsoft Excel – Figure 11](/img/drittsysteme-microsoft-excel/11.png)
 
@@ -108,7 +108,7 @@ Select a range of 4 cells so that there is room for a column name and the text i
 
 ### Defining the table name for later programming
 
-So that Power Query later knows which table contains the variable, the table is referenced by its name. To make this unambiguous, we assign a fixed name (here Datumsauswahl).
+So that Power Query later knows which table contains the variable, the table is called by its name. To make this unambiguous, we assign a fixed name (here Datumsauswahl).
 
 ![Microsoft Excel – Figure 14](/img/drittsysteme-microsoft-excel/14.png)
 
@@ -117,7 +117,7 @@ So that Power Query later knows which table contains the variable, the table is 
 <div className="row">
 <div className="col col--6">
 
-So that the date can be used later, the content must be formatted as text. To do this, select the table and choose the Text format at the top.
+So that the date can be used later, the content must be formatted as text. To do so, select the table and choose the Text format at the top.
 
 </div>
 <div className="col col--6 bild--mitte">
@@ -144,16 +144,16 @@ Now we can add the query for our variable in Power Query:
 ![Microsoft Excel – Figure 17](/img/drittsysteme-microsoft-excel/17.png)
 
 4\. Copy the following text into the function bar of the query: \= Excel.CurrentWorkbook()&#123;\[Name="Datumsauswahl"\]&#125;\[Content\]
-"Datumsauswahl" is the name of the table in which the value of the variable can be found.
+"Datumsauswahl" here is the name of the table in which the value of the variable can be found.
 
 ![Microsoft Excel – Figure 18](/img/drittsysteme-microsoft-excel/18.png)
 
 ### Linking the variable and the Excel value
 
-Perform a drill down to select the field that contains the changeable parameter:
+Perform a drill down to select the field containing the changeable parameter:
 Select the field with the date value --> right-click --> Drill Down.
 
-The cell content then stands on its own and from now on goes by the name "Datumsauswahl".
+The content of the cell then stands on its own and from now on goes by the name "Datumsauswahl".
 
 ![Microsoft Excel – Figure 19](/img/drittsysteme-microsoft-excel/19.png)
 
@@ -169,11 +169,11 @@ The new query now contains the command for historical data and looks like this:
 
 https://smart-me.com:443/api/ValuesInPast/32b30ab1-3ac5-4fd5-b24f-96d02d3b2bed?date=01.01.2021
 
-It contains the path of the HTTP request and, at the end, a target date. We will later pass this target date as a variable. 
+It contains the path of the HTTP request and a target date at the end. We will pass this target date as a variable later. 
 
 To create the query, you can pass a hard-coded value. Make sure that data already exists in the cloud for this date.
 
-The date has the following format: month.day.year, i.e. mm.dd.yyyy
+The date has the following format: month.day.year or mm.dd.yyyy
 
 ![Microsoft Excel – Figure 22](/img/drittsysteme-microsoft-excel/22.png)
 
@@ -181,7 +181,7 @@ The date has the following format: month.day.year, i.e. mm.dd.yyyy
 
 ### Embedding the variable in the query
 
-To replace the fixed date with our variable, the function command needs to be adjusted slightly.
+To replace the fixed date with our variable, the function command has to be adjusted slightly.
 
 It changes from
 
@@ -197,9 +197,9 @@ to
 
 ### Adapting the table content to your needs
 
-You can now restructure the displayed content within the data set and adapt it to your needs.
+Within the data set, you can now restructure the displayed content and adapt it to your particular needs.
 
-In our example, we would like all data to include DeviceId, date, OBIS code and value.
+In our example, we would like all data to have a DeviceId, date, Obis code and value.
 
 
 
@@ -234,9 +234,9 @@ In our example, we would like all data to include DeviceId, date, OBIS code and 
 
 ![Microsoft Excel – Figure 33](/img/drittsysteme-microsoft-excel/33.png)
 
-### Interpreting and assigning OBIS codes
+### Interpreting and assigning Obis codes
 
-OBIS codes are standardized. To assign them, you can match the data against the Excel list of OBIS codes using VLOOKUP.
-This gives you the name of the OBIS code and the unit of the values.
+Obis codes are standardized. To assign them, you can match the data against the Excel list of Obis codes using VLOOKUP.
+This gives you the name of the Obis code and the unit of the values.
 
-[OBIS codes (Excel)](https://drive.google.com/open?id=1eTs4ZXD9AUagGxNEQSof0IWHkZg54nsK6SyHp4ygDSc&authuser=0)
+[Obis Codes (Excel)](https://drive.google.com/open?id=1eTs4ZXD9AUagGxNEQSof0IWHkZg54nsK6SyHp4ygDSc&authuser=0)

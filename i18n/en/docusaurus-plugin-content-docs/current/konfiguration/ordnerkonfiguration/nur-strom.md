@@ -37,13 +37,13 @@ Naming billing units (tips):
 
 Use drag and drop to add the relevant meters to the nodes.
 
-Important information on the assignment:
+Important information on assignment:
 
 Electricity / heat / water
 
 Only assign metering points directly to billing units if the invoice recipient will later have to pay 100% of the consumption.
 
-If you only want to assign part of a meter to an individual billing unit, move the meter into a node within the "Technical meters" ("Technische Zähler") node.
+If you want to assign a meter only partially to an individual billing unit, move the meter into a node within the "Technical meters" ("Technische Zähler") node.
 
 Such a meter can later be distributed by percentage in Billing.
 
@@ -60,7 +60,7 @@ Do not assign charging stations directly to apartments; instead, create a separa
 
 Charging stations from other manufacturers
 
-Charging stations from other manufacturers are not managed or billed directly in smart-me. In this case, create a node for the e-mobility outgoing feeder as a billing unit and assign the feeder meter to the node. This gives you the total consumption for all charging stations.
+Charging stations from other manufacturers are not managed or billed directly in smart-me. In this case, create a node for the e-mobility outgoing feeder as a billing unit and assign the feeder meter to the node. This gives you the total consumption of all charging stations.
 
 
 
@@ -70,4 +70,4 @@ Charging stations from other manufacturers are not managed or billed directly in
 
 ### Finally, create the alarms for a connection failure.
 
-This way you will notice early if a meter fails and minimize the resulting gap in the measurement data.
+This way you notice early when a meter fails and you minimise the resulting gap in the measurement data.

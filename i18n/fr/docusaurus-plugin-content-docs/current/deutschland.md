@@ -1,13 +1,13 @@
 ---
 title: 'smart-me Wiki Allemagne'
 slug: '/deutschland'
-description: 'Point d''entrée pour l''Allemagne : actualités, aide et contact.'
+description: 'Point d''entrée pour l''Allemagne : nouvelles, aide et contact.'
 sidebar_label: 'Accueil Allemagne'
 ---
 
 import Neuigkeiten from './_neuigkeiten.md';
 
-Cette page d'accueil s'applique à l'Allemagne. Pour l'électricité pour les locataires, la vente et le support, votre interlocuteur est notre filiale smartRED ; le matériel, la mise en service et le dépannage sont identiques partout.
+Cette page d'accueil s'applique à l'Allemagne. Pour l'électricité pour les locataires, la vente et le support, notre filiale smartRED est votre interlocuteur ; le matériel, la mise en service et le dépannage sont identiques partout.
 
 ## Aide et contact
 
@@ -15,7 +15,7 @@ Cette page d'accueil s'applique à l'Allemagne. Pour l'électricité pour les lo
 
 <Kachel titel="Questions fréquentes" href="/faq">
 
-Compte, abonnement et compteurs : les questions qui nous parviennent le plus souvent.
+Compte, abonnement et compteurs — les questions qui nous parviennent le plus souvent.
 
 </Kachel>
 
@@ -33,6 +33,6 @@ Perturbations actuelles et résolues des services smart-me.
 
 </Kacheln>
 
-## Actualités
+## Nouvelles
 
 <Neuigkeiten />

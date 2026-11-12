@@ -1,12 +1,12 @@
 ---
-title: 'Meter plug-in terminals for Nimbus 100A'
+title: 'Meter plug-in terminals'
 slug: '/drittprodukte/zaehlersteckklemmen-nimbus-100a'
 description: 'The Nimbus 100A is directly compatible with various meter plug-in terminals.'
-sidebar_label: 'Meter plug-in terminals for Nimbus 100A'
+sidebar_label: 'Meter plug-in terminals'
 ---
 The Nimbus 100A is directly compatible with various meter plug-in terminals. The plug-in terminals we know of and have tested are listed here.
 
-Meter plug-in terminals allow meters to be replaced or exchanged during operation without interrupting the power supply.
+Meter plug-in terminals let you replace or swap meters during operation without interrupting the power supply.
 
 Please note that accessories such as a connector tool and meter connection pins must also be ordered to use these plug-in terminals.
 
@@ -16,7 +16,7 @@ Please note that accessories such as a connector tool and meter connection pins 
 
 Current: up to 80 A
 
-Meter pins for Nimbus: Item no. A00-906 5x5x45mm
+Meter pins for Nimbus: Art. A00-906 5x5x45mm
 
 Manufacturer: [ewecoklemmen.ch](https://www.ewecoklemmen.ch/de/)
 
@@ -28,7 +28,7 @@ Made in Switzerland
 
 Current: up to 100 A
 
-Meter pins for Nimbus: Item no. A00-901 6x7x45mm, round
+Meter pins for Nimbus: Art. No. A00-901 6x7x45mm, round
 
 Manufacturer: [ewecoklemmen.ch](https://www.ewecoklemmen.ch/de/)
 

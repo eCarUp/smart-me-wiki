@@ -34,9 +34,9 @@ sidebar_label: 'Dragino LPS8N'
 <div className="row">
 <div className="col col--6">
 
-9\. Vérifiez dans l'aperçu du système qu'une coche verte figure pour Lora, IoT Service et Internet.
+9\. Vérifiez dans l'aperçu du système qu'une coche verte apparaît pour Lora, IoT Service et Internet.
 
-10\. Sur [https://lora.smart-me.com](https://lora.smart-me.com), la passerelle devrait maintenant s'afficher comme "en ligne" ("online"). 
+10\. Sur [https://lora.smart-me.com](https://lora.smart-me.com), la passerelle devrait maintenant s'afficher comme « en ligne » ("online"). 
 
 </div>
 <div className="col col--6 bild--mitte">

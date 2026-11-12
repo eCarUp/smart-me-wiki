@@ -1,20 +1,20 @@
 ---
 title: 'Transformateurs de courant et accessoires pour Telstar CT'
 slug: '/drittprodukte/stromwandler'
-description: 'Aucun de ces produits n''est vendu par smart-me AG ni proposé comme accessoire lors de l''achat.'
+description: 'Aucun de ces produits n''est distribué par smart-me AG ni proposé comme accessoire lors de l''achat.'
 sidebar_label: 'Transformateurs de courant'
 ---
 Remarque importante :
 
-Aucun de ces produits n'est vendu par smart-me AG ni proposé comme accessoire lors de l'achat. Veuillez acheter ces produits directement auprès du fabricant.
+Aucun de ces produits n'est distribué par smart-me AG ni proposé comme accessoire lors de l'achat. Veuillez acheter ces produits directement auprès du fabricant.
 
-Vous trouverez ci-dessous une liste de produits recommandés. smart-me ne perçoit aucune rémunération pour les produits recommandés et n'offre aucune garantie à leur sujet. Il est à tout moment possible d'utiliser d'autres produits. Il faut toujours veiller à ce que ceux-ci répondent aux exigences du produit concerné, en l'occurrence du [compteur triphasé Telstar CT](/produkte/telstar-ct).
+Vous trouverez ci-dessous une liste de produits recommandés. smart-me ne gagne pas d'argent avec les produits recommandés et n'assume aucune garantie à leur sujet. Il est possible à tout moment d'utiliser d'autres produits. Il faut toujours veiller à ce que ceux-ci remplissent les exigences du produit concerné, dans ce cas du [compteur triphasé Telstar CT](/produkte/telstar-ct).
 
 Ces recommandations ont pour but de permettre à nos partenaires de trouver facilement et efficacement certains produits lorsqu'ils n'en connaissent pas encore.
 
 ## Transformateurs de courant étalonnés à des fins de facturation
 
-Si les compteurs doivent être utilisés pour la facturation, des transformateurs étalonnés d'une classe de précision d'au moins 0.5 ou inférieure sont nécessaires.
+Si les compteurs doivent être utilisés pour la facturation, des transformateurs étalonnés de classe 0.5 ou inférieure sont nécessaires.
 
 <Kacheln min="15rem">
 
@@ -33,7 +33,7 @@ Source : [pfiffner-group.com](https://www.pfiffner-group.com/)
 
 **Points de vente**
 
-Pfiffner en direct · M. Samuel Gloor
+Pfiffner direct · M. Samuel Gloor
 
 +41 62 739 29 19 · [msns@pmw.ch](mailto:msns@pmw.ch)
 
@@ -58,7 +58,7 @@ Source : [hager.com](https://hager.com/)
 
 **Points de vente**
 
-Hager en direct
+Hager direct
 
 +41 41 269 90 00 · [emmenbruecke@hager.com](mailto:emmenbruecke@hager.com)
 
@@ -100,9 +100,9 @@ Utilisation : monitoring
 
 Type : transformateur de courant ouvrant
 
-- Optec RX-Serien ouvrants
-- Optec KUW-Serien (ouvrants à charnière)
-- Optec SC-CT-Serien (ouvrants à charnière)
+- Optec séries RX ouvrantes
+- Optec séries KUW (ouvrantes)
+- Optec séries SC-CT (ouvrantes)
 
 
 **Point de vente**
@@ -121,7 +121,7 @@ Utilisation : monitoring
 
 Type : transformateur de courant fermé
 
-- Optec RX-Serien fermés
+- Optec séries RX fermées
 
 
 **Point de vente**

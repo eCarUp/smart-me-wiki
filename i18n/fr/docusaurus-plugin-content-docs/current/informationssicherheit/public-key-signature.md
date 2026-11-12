@@ -4,13 +4,13 @@ slug: '/informationssicherheit/public-key-signature'
 description: 'Les compteurs smart-me (à partir de la version 2.0) signent numériquement toutes les données de mesure et toutes les transactions.'
 sidebar_label: 'Public Key Signature'
 ---
-Les compteurs smart-me (à partir de la version 2.0) signent numériquement toutes les données de mesure et toutes les transactions. Il est ainsi possible de vérifier à tout moment l'authenticité des valeurs mesurées. smart-me utilise pour cela le principe cryptographique d'une sécurisation de bout en bout au moyen d'une signature numérique basée sur un chiffrement asymétrique.
+Les compteurs smart-me (à partir de la version 2.0) signent numériquement toutes les données de mesure et toutes les transactions. Il est ainsi possible à tout moment de vérifier l'authenticité des valeurs mesurées. smart-me utilise pour cela le principe cryptographique d'une sécurisation de bout en bout au moyen d'une signature numérique basée sur un chiffrement asymétrique.
 
-smart-me distingue deux types de valeurs mesurées signées :
+smart-me distingue deux types de valeurs de mesure signées :
 
-- Signed meter values : valeurs mesurées signées, enregistrées et signées toutes les 15 minutes. Idéales pour le décompte de la consommation d'énergie.
+- Signed meter values : valeurs de mesure signées, enregistrées et signées toutes les 15 minutes. Idéales pour le décompte de la consommation d'énergie.
 
-- Signed transaction : les transactions signées sont destinées aux consommations d'énergie sur une période donnée (p. ex. recharge de véhicules électriques). Elles ont toujours une valeur de début et une valeur de fin.
+- Signed transaction : les transactions signées sont destinées aux consommations d'énergie sur une période déterminée (p. ex. recharge de véhicules électriques). Elles ont toujours une valeur de début et une valeur de fin.
 
 
 ## Technologie / déroulement
@@ -29,14 +29,14 @@ Lors de la production du compteur, une paire de clés asymétriques est génér�
 
 - Un hash (SHA256) est calculé sur ces données.
 
-- Ce hash est chiffré (ECDSA 256) et enregistré comme signature.
+- Ce hash est chiffré (ECDSA 256) et enregistré en tant que signature.
 
 - Le paquet de données est envoyé avec la signature au cloud, où il est enregistré.
 
 
 ### Déroulement : vérification des valeurs mesurées
 
-- Le client reçoit le paquet de données contenant les données de mesure via l'application, le web ou un tiers.
+- Le client reçoit le paquet de données contenant les données de mesure via l'app, le web ou un tiers.
 
 - Calcul du hash (SHA256) sur le paquet de données.
 
@@ -47,7 +47,7 @@ Lors de la production du compteur, une paire de clés asymétriques est génér�
 
 ### Paquets de données
 
-Afin de réduire au maximum la taille du paquet de données et donc le volume de données nécessaire à la transmission, smart-me utilise le format de données « Google Protocol Buffers » pour les valeurs mesurées. Les paquets de données sont structurés comme suit :
+Afin de réduire au maximum la taille du paquet de données et donc le volume de données nécessaire à la transmission, smart-me utilise le format de données "Google Protocol Buffers" pour les valeurs mesurées. Les paquets de données sont structurés comme suit :
 
 Signed meter values
 
@@ -69,7 +69,7 @@ message MeasurementValues
 Measurement values
 
 SerialNumber : le numéro de série du compteur (p. ex. 6300000)
-TimestampUtc : Unix Time Stamp (UTC) de ces données de mesure
+TimestampUtc : horodatage Unix (UTC) de ces données de mesure
 Values : liste de toutes les valeurs mesurées (CounterValue) de ce paquet de données.
 
 CounterValue
@@ -230,4 +230,4 @@ Valeur mesurée 2 : valeur 6177828 mWh = 6.177 kWh
 
 
 
-\-> Consommation d'énergie dans cette transaction : 3833.552 kWh - 3830.562 kWh = 2.99 kWh
+\-> Consommation d'énergie de cette transaction : 3833.552 kWh - 3830.562 kWh = 2.99 kWh

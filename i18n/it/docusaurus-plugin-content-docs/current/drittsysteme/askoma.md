@@ -1,13 +1,13 @@
 ---
 title: 'Askoma'
 slug: '/drittsysteme/askoma'
-description: 'Askoheat è un''azienda svizzera che produce elementi riscaldanti per il trattamento dell''acqua e l''accumulo di energia.'
+description: 'Askoheat è un''azienda svizzera che produce elementi riscaldanti per la preparazione dell''acqua e l''accumulo di energia.'
 sidebar_label: 'Askoma'
 ---
 <div className="row">
 <div className="col col--8">
 
-Askoheat è un'azienda svizzera che produce elementi riscaldanti per il trattamento dell'acqua e l'accumulo di energia.
+Askoheat è un'azienda svizzera che produce elementi riscaldanti per la preparazione dell'acqua e l'accumulo di energia.
 
 Gli elementi riscaldanti possono essere comandati in modo intelligente tramite sistemi di terzi come smart-me AG e accumulano così l'energia solare in eccesso, ad esempio nell'acqua calda sanitaria.
 
@@ -39,10 +39,10 @@ Prodotti Askoma supportati:
 <div className="col col--8">
 
 Telstar 80A / CT:
-- nelle impostazioni (selezionare il contatore, rotella dentata in alto a destra)
+- nelle impostazioni (Einstellungen) (selezionare il contatore, icona a forma di ingranaggio in alto a destra)
 - attivare Modbus TCP (Modbus TCP aktivieren)
 - attivare DNS (DNS aktivieren)
-- selezionare IP interno (Interne IP)
+- selezionare l'IP interno (Interne IP)
 - salvare (Speichern)
 
 </div>
@@ -56,7 +56,7 @@ Telstar 80A / CT:
 <div className="row">
 <div className="col col--8">
 
-- Leggere l'IP tramite CMD con il comando ping sull'indirizzo DNS visualizzato. L'indirizzo DNS si trova nelle impostazioni avanzate (Erweiterte Einstellungen) alla voce "Attivare DNS" ("DNS aktivieren"). Ad es. ping smart-me\_6303192.dns-me.com
+- Rilevare l'IP tramite CMD e il comando ping sull'indirizzo DNS visualizzato. L'indirizzo DNS si trova nelle impostazioni avanzate (Erweiterte Einstellungen) alla voce "Attivare DNS" ("DNS aktivieren"). Ad es. ping smart-me\_6303192.dns-me.com
 
 </div>
 <div className="col col--4 bild--mitte">
@@ -70,7 +70,7 @@ Telstar 80A / CT:
 <div className="col col--6">
 
 Impostazioni su Askoheat+
-Possono variare e non rientrano nella responsabilità di smart-me.
+Queste possono variare e non rientrano nella responsabilità di smart-me.
 
 [http://askoheat.local/setup3](http://askoheat.local/setup3)
 
@@ -79,7 +79,7 @@ Possono variare e non rientrano nella responsabilità di smart-me.
 - Selezionare Smart-Me dall'elenco
 - Fare clic su Start Connection
 
-- Puoi quindi verificare se il valore misurato, ovvero il valore in watt che si controlla nella pagina Setup3 sotto STATUS, si aggiorna ogni 1-3 secondi.
+- Puoi quindi verificare se il valore misurato si aggiorna: nella pagina Setup3, alla voce STATUS, il valore in watt deve aggiornarsi ogni 1-3 secondi.
 
 </div>
 <div className="col col--6 bild--mitte">

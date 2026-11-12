@@ -13,7 +13,7 @@ Bloc de béton préfabriqué avec plaque en aluminium
 
 Fondation à enterrer
 
-Source d'approvisionnement : [borner.ch](https://borner.ch/products/energy-block/)
+Fournisseur : [borner.ch](https://borner.ch/products/energy-block/)
 
 </Kachel>
 
@@ -23,7 +23,7 @@ Bloc de béton préfabriqué avec plaque en aluminium
 
 Fondation à enterrer
 
-Source d'approvisionnement : [creabeton.ch](https://creabeton.ch/leitungsbau/kabelkeller-fuer-elektroladestationen-d1523/)
+Fournisseur : [creabeton.ch](https://creabeton.ch/leitungsbau/kabelkeller-fuer-elektroladestationen-d1523/)
 
 </Kachel>
 

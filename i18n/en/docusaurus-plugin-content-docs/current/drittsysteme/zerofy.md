@@ -16,7 +16,7 @@ Platforms: iOS and Android.
 
 Features:
 
-- Integrates with a wide range of solar inverters, chargers and electric vehicles, heating, ventilation and air-conditioning units, as well as smart home appliances and smart plugs.
+- Integrates with a wide range of solar inverters, chargers and electric vehicles, heating, ventilation and air-conditioning devices, as well as smart home appliances and smart plugs.
 
 - To connect the devices, you only need to log in to the devices' cloud accounts.
 

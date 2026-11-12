@@ -14,13 +14,13 @@ Nota: gli altri costi (Sonstiges) sono disponibili solo con la fattura dell'elet
 <div className="row">
 <div className="col col--7">
 
-## A livello di immobile
+## A livello dell'immobile
 <Menueweg>Fatturazione → Immobili & tariffe</Menueweg>
 
 Esempio:
-l'80% della quota di costi di base del fornitore di energia deve essere addebitato in egual misura a tutti i partecipanti in relazione alla tariffa solare.
+l'80% della quota dei costi di base del fornitore di energia deve essere addebitato in parti uguali a tutti i partecipanti in relazione alla tariffa solare.
 
-- L'importo inserito viene aggiunto ogni mese a tutte le fatture
+- La tassa inserita viene aggiunta su tutte le fatture ogni mese
 
 </div>
 <div className="col col--5 bild--mitte">
@@ -30,10 +30,10 @@ l'80% della quota di costi di base del fornitore di energia deve essere addebita
 </div>
 </div>
 
-## A livello di unità di conteggio
+## A livello dell'unità di conteggio
 <Menueweg>Fatturazione → Immobili & tariffe → Unità di conteggio</Menueweg>
 
 Esempio:
-una stazione di ricarica viene noleggiata e deve essere fatturata mensilmente all'unità di conteggio.
+una stazione di ricarica viene affittata e deve essere fatturata mensilmente all'unità di conteggio.
 
-- I costi vengono addebitati solo a quella singola unità di conteggio
+- I costi vengono addebitati solo a quell'unica unità di conteggio

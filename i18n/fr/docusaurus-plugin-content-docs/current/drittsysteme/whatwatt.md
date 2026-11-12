@@ -1,15 +1,15 @@
 ---
 title: 'whatwatt'
 slug: '/drittsysteme/whatwatt'
-description: 'Le module whatwatt est un petit module matériel destiné au relevé des compteurs d''énergie utilisés par le fournisseur d''énergie.'
+description: 'Le module whatwatt est un petit module matériel destiné au relevé des compteurs d''énergie utilisés par le fournisseur d''électricité.'
 sidebar_label: 'whatwatt'
 ---
 
 <div className="row">
 <div className="col col--8">
 
-Le module whatwatt est un petit module matériel destiné au relevé des compteurs d'énergie utilisés par le fournisseur d'énergie.
-Il transmet les relevés du compteur pertinents, les profils de charge et les valeurs instantanées de la puissance.
+Le module whatwatt est un petit module matériel destiné au relevé des compteurs d'énergie utilisés par le fournisseur d'électricité.
+Il transmet les relevés de compteur pertinents, les courbes de charge et les valeurs instantanées de la puissance.
 
 Le module transmet ses données directement à notre cloud via une interface API.
 
@@ -22,9 +22,9 @@ Prérequis :
 
 Applications :
 
-- Décompte des RCP virtuels (vRCP)
+- Décompte de RCP virtuels (vRCP)
 - Capteur de mesure pour la commande de produits tiers via Modbus TCP, MQTT ou API
-- Compatible avec le smart-me Nimbus 100A pour le relevé local via Modbus TCP
+- Compatible avec le smart-me Nimbus 100A pour un relevé local via Modbus TCP
 
 </div>
 <div className="col col--4 bild--mitte">
@@ -67,7 +67,7 @@ L'heure transmise doit être réglée sur l'heure NTP pour chaque module.
 
 ![whatwatt – Illustration 5](/img/drittsysteme-whatwatt/05.png)
 
-Compatibilité avec les produits tiers :
+Compatibilité avec des produits tiers :
 
 [Vérifier la compatibilité](https://whatwatt.ch/de/compatibility)
 

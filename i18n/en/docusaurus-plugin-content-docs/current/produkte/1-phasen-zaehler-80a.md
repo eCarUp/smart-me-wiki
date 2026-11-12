@@ -4,13 +4,13 @@ slug: '/produkte/1-phasen-zaehler-80a'
 description: 'The smart-me Single Phase Meter 80A is an energy meter with an integrated WiFi interface for transmitting real-time data.'
 sidebar_label: 'Single Phase Meter'
 ---
-The smart-me Single Phase Meter 80A is an energy meter with an integrated WiFi interface for transmitting real-time data. The meter automatically synchronises the measured values to the smart-me Cloud in encrypted form. The data can be exported to third-party systems and processed further in the smart-me portal or via our open interface. The meter has a digital output for controlling potential-free devices.
+The smart-me Single Phase Meter 80A is an energy meter with an integrated WiFi interface for transmitting real-time data. The meter automatically synchronizes the measured values to the smart-me Cloud in encrypted form. The data can be viewed in the smart-me Portal or exported via our open interface to third-party systems for further processing. The meter has a digital output for controlling potential-free devices.
 
 ![Single Phase Meter 80A – Figure 1](/img/produkte-1-phasen-zaehler-80a/01.jpg)
 
-## Functions
+## Features
 
-- [Installation](/konfiguration/inbetriebnahme) with the free smart-me app.
+- [Installation](/konfiguration/inbetriebnahme) with the free smart-me App.
 
 - Control with [if/then actions](/konfiguration/wenndann-aktionen) or [event actions](/konfiguration/wenndann-aktionen/ereignisaktionen)
 
@@ -49,7 +49,7 @@ The smart-me Single Phase Meter 80A is an energy meter with an integrated WiFi i
 | Firmware update | Possible online |
 | EMC immunity | EN 61000-6-2 (industrial environment) |
 | EMC emission | EN 61000-6-3 (residential environment) |
-| Protection rating housing/terminals, use | IP20 / IP51 (installed in control cabinet), indoor |
+| Protection class housing/terminals, use | IP20 / IP51 (installed in control cabinet), indoor |
 | Mounting | DIN rail |
 | Dimensions | 2 modules, L:90mm W:36mm H:65.7mm |
 | Server location | Switzerland |
@@ -58,7 +58,7 @@ The smart-me Single Phase Meter 80A is an energy meter with an integrated WiFi i
 
 ## Display
 
-The meter alternately shows different values.
+The meter alternately displays various values.
 
 - "So XXXX" is the installed software version.
 
@@ -76,7 +76,7 @@ The meter alternately shows different values.
 
 ![Single Phase Meter 80A – Figure 2](/img/produkte-1-phasen-zaehler-80a/02.png)
 
-### Connection diagram
+### Wiring diagram
 
 ![Single Phase Meter 80A – Figure 3](/img/produkte-1-phasen-zaehler-80a/03.png)
 
@@ -88,7 +88,7 @@ Pressing the T(4) button for 10 seconds creates a local WiFi for the installatio
 
 ## Configuring inputs and outputs
 
-The Single Phase Meter 80A has one digital output and one digital input, which can be used as pulse inputs and outputs or as a switchable potential-free contact. You can find details on the wiki page [Input and Output Configuration](/schnittstellen/ein-und-ausgaenge) 
+The Single Phase Meter 80A has one digital output and one digital input, which can be used as pulse inputs and outputs or as a switchable potential-free contact. Details can be found on the wiki page [Input and Output Configuration](/schnittstellen/ein-und-ausgaenge) 
 
 ## Shipping information
 
@@ -101,13 +101,13 @@ Weight including packaging: 130g
 
 ## Downloads and declaration of conformity
 
-[Data sheet German](https://docs.google.com/presentation/d/1_Jfe0CJaqrfnAVuMe5WXQQ_95o4gC_FZUteEHCP-rWc/export/pdf)
+[Datasheet German](https://docs.google.com/presentation/d/1_Jfe0CJaqrfnAVuMe5WXQQ_95o4gC_FZUteEHCP-rWc/export/pdf)
 
-[Data sheet English](https://docs.google.com/presentation/d/18BsAkZ8OHF1BHj99_5l_RiHCwkL3AJVZHNrPb3BE5Wc/export/pdf)
+[Datasheet English](https://docs.google.com/presentation/d/18BsAkZ8OHF1BHj99_5l_RiHCwkL3AJVZHNrPb3BE5Wc/export/pdf)
 
 [CE declaration of conformity](https://drive.google.com/file/d/10y8f8oD-F35VTPD9ygTtsLqXAIbuyc3S/view?usp=drive_link)
 
-[Connection diagram ZIP files](https://drive.google.com/file/d/1aY9_dMdLi2RjgHjk9y89Ibd_AIGwMUZW/view?usp=share_link) (\*.DXF and \*.DWG data can be found in the ZIP archive)
+[Wiring diagram ZIP files](https://drive.google.com/file/d/1aY9_dMdLi2RjgHjk9y89Ibd_AIGwMUZW/view?usp=share_link) (\*.DXF and \*.DWG data can be found in the ZIP archive)
 
 [Quick Starter](https://docs.google.com/document/d/1XNv61P1L0gXvgaCT4bvFbou8h6rOBkNjgkRk9sUTS60/export?format=pdf)
 
@@ -116,7 +116,7 @@ Weight including packaging: 130g
 <details id="in-welchem-intervall-senden-die-zähler-daten">
 <summary>At what interval do the meters send data?</summary>
 
-- With Basic or Limited licences: max. once per minute.
+- With Basic or Limited licenses: max. once per minute.
 
 - With Pro licensing: max. once per second
 
@@ -125,6 +125,6 @@ Weight including packaging: 130g
 <details id="kann-ich-den-zählerstand-auf-null-zurücksetzten">
 <summary>Can I reset the meter reading to zero?</summary>
 
-No. Because our meters are used for billing, they cannot be reset.
+No. Since our meters are used for billing, they cannot be reset.
 
 </details>

@@ -12,7 +12,7 @@ naechste_schritte: [konfiguration/billing/stromtarife-definieren/index]
 <div className="row">
 <div className="col col--6">
 
-You can use an additional condition to define when this tariff applies. This can be a time span (e.g. for peak / off-peak tariff) or any other condition. The condition must first have been defined as an [if/then action](/konfiguration/wenndann-aktionen). The most common examples are described below.
+You can use an additional condition to define when this tariff applies. This can be a time span (e.g. for peak / off-peak tariff) or any other condition. The condition must first be defined as an [if/then action](/konfiguration/wenndann-aktionen). The most common examples are described below.
 
 Notes:
 
@@ -32,32 +32,32 @@ Notes:
 
 ## Creating a dual tariff step by step
 
-Check the tariff sheet for the peak tariff times. In our example, the situation is as follows:
+Look up the peak tariff times on the tariff sheet. In our example, the situation is as follows:
 
 <div className="row">
 <div className="col col--6">
 
-**Peak tariff (HT) time:**
+**HT time:**
 
-Mon–Fri: 7:00 to 22:00
+Mon- Fri: 7:00 to 22:00
 
 Sat: 7:00 to 13:00
 
 </div>
 <div className="col col--6">
 
-**Off-peak tariff (NT) time:**
+**NT time:**
 
-Mon–Fri: 22:00 to 7:00
+Mon-Fri: 22:00 to 7:00
 
 Sat: 13:00 to 00:00
 
-Sun: All day
+Sun : All day
 
 </div>
 </div>
 
-### Create the HT time
+### Create HT time
 
 <div className="row">
 <div className="col col--6">
@@ -66,11 +66,11 @@ Click the "+" to create a new timing.
 
 Select the OR operator (Oder-Verknüpfung)
 
-OR function:
+OR function (ODER):
 
 If any of the IF conditions applies, it is HT time.
 
-Under IF events (WENN Ereignisse), click the "+" to create the HT time Mon–Fri.
+Under IF events (WENN Ereignisse), click the "+" to create the HT time Mon-Fri.
 
 </div>
 <div className="col col--6 bild--mitte">
@@ -80,7 +80,7 @@ Under IF events (WENN Ereignisse), click the "+" to create the HT time Mon–Fri
 </div>
 </div>
 
-#### HT time Mon–Fri
+#### HT time Mon-Fri
 
 ![Date & time](/img/konfiguration-wenndann-aktionen-tarifzeiten-definieren/04.png)
 
@@ -89,7 +89,7 @@ Under IF events (WENN Ereignisse), click the "+" to create the HT time Mon–Fri
 
 Select Date & time (Datum & Uhrzeit)
 
-Define the times for Mon–Fri
+Define the times for Mon-Fri
 
 7:00 to 22:00
 
@@ -134,7 +134,7 @@ The HT time is now defined.
 </div>
 </div>
 
-### Create the NT time
+### Create NT time
 
 <div className="row">
 <div className="col col--6">
@@ -153,7 +153,7 @@ Click "+" to add another action for the NT time
 </div>
 </div>
 
-#### NT time Mon–Fri
+#### NT time Mon-Fri
 
 ![Date & time](/img/konfiguration-wenndann-aktionen-tarifzeiten-definieren/04.png)
 
@@ -162,7 +162,7 @@ Click "+" to add another action for the NT time
 
 Select Date & time (Datum & Uhrzeit)
 
-Define the NT time for Mon–Fri
+Define the NT time for Mon-Fri
 
 In this case, it corresponds to the time from 22:00 to 7:00
 
@@ -245,21 +245,21 @@ Now that you have defined the relevant tariff times, return to the tariff defini
 
 ## Other examples
 
-Depending on your energy supplier's tariff model, the if action looks different. Expand the structure that matches your case.
+The if action looks different depending on your energy supplier's tariff model. Expand the structure that matches your case.
 
 <details id="hoch-und-niedertarif-netzstrom-einheitstarif-solar">
-<summary>Peak and off-peak tariff for grid power and flat tariff for solar power</summary>
+<summary>Peak and off-peak tariff for grid power and a single tariff for solar power</summary>
 
-- Solar power flat tariff: define a solar tariff without an if action
+- Solar power single tariff: define a solar tariff without an if action
 
 - Grid power peak tariff: define a normal tariff with an if action
 
-    - Example: Mon to Fri 7h00 to 22h00 or Sat 7h00 to 13h00 
+    - Example. Mon to Fri 7h00 to 22h00 or Sat 7h00 to 13h00 
 
 - Grid power off-peak tariff: define a normal tariff without an if action
 
 
-Logic: The available solar power is distributed first. If too little or none is available, the normal tariff that meets a condition is used. Finally, the tariff without a condition is used for the remaining power.
+Logic: The available solar power is distributed first. If too little or none is available, the normal tariff that meets a condition is used. Finally, the tariff without a condition is used for the remaining electricity.
 
 </details>
 
@@ -288,7 +288,7 @@ Logic: The available solar power with the valid condition is used first. If too 
 </details>
 
 <details id="sommer-winter-netzstrom-einheitstarif-solar">
-<summary>Summer and winter with peak and off-peak tariff for grid power and flat tariff for solar power</summary>
+<summary>Summer and winter with peak and off-peak tariff for grid power and a single tariff for solar power</summary>
 
 - Solar power peak tariff: define a solar tariff without an if action
 
@@ -298,15 +298,15 @@ Logic: The available solar power with the valid condition is used first. If too 
 
 - Grid power off-peak tariff summer: define a normal tariff with an if action
 
-    - Example: Time span every day: Mon to Sun 22h00 to 07h00 and time span every year from 1 / 04 / 00:00 to 1 / 10 / 00:00.
+    - Example: Time span every day (Zeitspanne Jeden Tag): Mon to Sun 22h00 to 07h00 and time span every year (Zeitspanne Jedes Jahr) from 1 / 04 / 00:00 to 1 / 10 / 00:00.
 
 - Grid power peak tariff winter: define a normal tariff with an if action
 
-    - Example: Time span every day: Mon to Sun 7h00 to 22h00 and time span every year from 1 / 10 / 00:00 to 1 / 4 / 00:00.
+    - Example: Time span every day (Zeitspanne Jeden Tag): Mon to Sun 7h00 to 22h00 and time span every year (Zeitspanne Jedes Jahr) from 1 / 10 / 00:00 to 1 / 4 / 00:00.
 
 - Grid power off-peak tariff winter: define a normal tariff with an if action
 
-    - Example: Time span every day: Mon to Sun 22h00 to 07h00 and time span every year from 1 / 10 / 00:00 to 1 / 4 / 00:00.
+    - Example: Time span every day (Zeitspanne Jeden Tag): Mon to Sun 22h00 to 07h00 and time span every year (Zeitspanne Jedes Jahr) from 1 / 10 / 00:00 to 1 / 4 / 00:00.
 
 
 Logic: The available solar power is used first. If too little or none is available, the normal tariff with the valid condition is used. In this use case, it is important that 24h/day is covered by an if condition.
@@ -314,7 +314,7 @@ Logic: The available solar power is used first. If too little or none is availab
 </details>
 
 <details id="sommer-winter-mit-mittagsniedertarif-im-winter">
-<summary>Summer and winter with peak and off-peak tariff for grid power and flat tariff for solar power, with off-peak tariff at midday in winter only (e.g. EWS/EBS)</summary>
+<summary>Summer and winter with peak and off-peak tariff for grid power, a single tariff for solar power and an off-peak tariff over midday in winter only (e.g. EWS/EBS)</summary>
 
 Example
 
@@ -322,7 +322,7 @@ Example
 
     - Example: Winter NT 22h00 to 07h00 between 1.10 and 1.4.
 
-    - If/then action with AND operator (UND Verknüpfung)
+    - If-then action with AND operator (UND-Verknüpfung)
 
         - Time span every day (Zeitspanne Jeden Tag): Mon to Sun 22h00 to 07h00 
 
@@ -332,35 +332,35 @@ Example
 
     - Example: Winter HT 07h00 to 22h00 between 1.10 and 1.4.
 
-    - If/then action with AND operator
+    - If-then action with AND operator (UND-Verknüpfung)
 
-        - Time span every day: Mon to Sun 7h00 to 22h00 
+        - Time span every day (Zeitspanne Jeden Tag): Mon to Sun 7h00 to 22h00 
 
-        - Time span every year from 1 / 10 / 00:00 to 1 / 04 / 00:00.
+        - Time span every year (Zeitspanne Jedes Jahr) from 1 / 10 / 00:00 to 1 / 04 / 00:00.
 
 - Grid and solar power off-peak tariff summer
 
     - Example: Summer NT 00h00 to 06h00 and 12h00 to 15h00 between 1.4 and 1.10
 
-    - If/then action with AND operator
+    - If-then action with AND operator (UND-Verknüpfung)
 
-        - Time span every day: Mon to Sun 12h00 to 06h00 
+        - Time span every day (Zeitspanne Jeden Tag): Mon to Sun 12h00 to 06h00 
 
-        - Time span every day: Mon to Sun 00h00 to 15h00 
+        - Time span every day (Zeitspanne Jeden Tag): Mon to Sun 00h00 to 15h00 
 
-        - Time span every year from 1 / 4 / 00:00 to 1 / 10 / 00:00.
+        - Time span every year (Zeitspanne Jedes Jahr) from 1 / 4 / 00:00 to 1 / 10 / 00:00.
 
 - Grid and solar power peak tariff summer 
 
     - Example: Summer HT 06h00 to 12h00 and 15h00 to 00h00 between 1.4 and 1.10
 
-    - If/then action with AND operator
+    - If-then action with AND operator (UND-Verknüpfung)
 
-        - Time span every day: Mon to Sun 06h00 to 00h00 
+        - Time span every day (Zeitspanne Jeden Tag): Mon to Sun 06h00 to 00h00 
 
-        - Time span every day: Mon to Sun 15h00 to 12h00 
+        - Time span every day (Zeitspanne Jeden Tag): Mon to Sun 15h00 to 12h00 
 
-        - Time span every year from 1 / 4 / 00:00 to 1 / 10 / 00:00.
+        - Time span every year (Zeitspanne Jedes Jahr) from 1 / 4 / 00:00 to 1 / 10 / 00:00.
 
 
 Logic: The available solar power is used first. If too little or none is available, the normal tariff with the valid condition is used. In this use case, it is important that 24h/day is covered by an if condition.
@@ -370,7 +370,7 @@ Logic: The available solar power is used first. If too little or none is availab
 <details id="sommer-winter-tagsueber-wechselnd-energie-uri">
 <summary>Summer and winter with peak and off-peak tariff for grid power and solar power, off-peak tariff during the day in summer and peak tariff in winter (e.g. Energie Uri from 1.10.2025)</summary>
 
-Description: Here you have to work in two steps. Once with if/then and once with the times in the virtual tariffs
+Description: Here you have to work in two steps. Once with if-then and once with the times in the virtual tariffs
 
 First, the if actions must be defined.
 
@@ -380,7 +380,7 @@ First, the if actions must be defined.
 
     - Name: Uri Sommer NT
 
-    - If/then action with OR operator (ODER Verknüpfung)
+    - If-then action with OR operator (ODER-Verknüpfung)
 
         - Time span Mon to Fri: 6h00 to 22h00 
 
@@ -395,7 +395,7 @@ First, the if actions must be defined.
 
     - Name: Uri Sommer HT
 
-    - If/then action
+    - If-then action
 
         - Time span Mon to Fri: 22h00 to 06h00 
 
@@ -408,7 +408,7 @@ First, the if actions must be defined.
 
     - Name: Uri Winter NT
 
-    - If/then action with OR operator
+    - If-then action with OR operator (ODER-Verknüpfung)
 
         - Time span Mon to Fri: 22h00 to 06h00 
 
@@ -423,14 +423,14 @@ First, the if actions must be defined.
 
     - Name: Uri Winter HT
 
-    - If/then action with OR operator
+    - If-then action with OR operator (ODER-Verknüpfung)
 
         - Time span Mon to Fri: 06h00 to 22h00 
 
 
 Then the prices per time period must be defined.
 
-In this case, the periods or durations must be entered. This tariff model requires a combination of if/then and period.
+In this case, the periods or durations must be entered. This tariff model requires a combination of if-then and period.
 
 - Name: Uri Sommer HT Netz
 
@@ -445,58 +445,58 @@ In this case, the periods or durations must be entered. This tariff model requir
 
 - Type: Solar tariff incl. vZEV (Solartarif inkl. vZEV) 
 
-- Duration: 1.4.2026 to 30.9.2026
+- Duration (Dauer): 1.4.2026 to 30.9.2026
 
-- Additional condition: Uri Sommer HT
+- Additional condition (Zusätzliche Bedingung): Uri Sommer HT
 
 
 - Name: Uri Sommer NT Netz
 
-    - Type: Grid tariff
+    - Type: Grid tariff (Netztarif)
 
-    - Duration: 1.4.2026 to 30.9.2026
+    - Duration (Dauer): 1.4.2026 to 30.9.2026
 
-    - Additional condition: Uri Sommer NT
+    - Additional condition (Zusätzliche Bedingung): Uri Sommer NT
 
 - Name: Uri Sommer NT Solar
 
     - Type: Solar tariff incl. vZEV (balance/productions) (Solartarif inkl. vZEV (Bilanz/Produktionen))
 
-    - Duration: 1.4.2026 to 30.9.2026
+    - Duration (Dauer): 1.4.2026 to 30.9.2026
 
-    - Additional condition: Uri Sommer NT
+    - Additional condition (Zusätzliche Bedingung): Uri Sommer NT
 
 - Name: Uri Winter HT Netz
 
-    - Type: Grid tariff
+    - Type: Grid tariff (Netztarif)
 
-    - Duration: 1.10.2025 to 31.3.2026
+    - Duration (Dauer): 1.10.2025 to 31.3.2026
 
-    - Additional condition: Uri Winter HT 
+    - Additional condition (Zusätzliche Bedingung): Uri Winter HT 
 
 - Name: Uri Winter HT Solar
 
-    - Type: Solar tariff incl. vZEV (balance/productions)
+    - Type: Solar tariff incl. vZEV (balance/productions) (Solartarif inkl. vZEV (Bilanz/Produktionen))
 
-    - Duration: 1.10.2025 to 31.3.2026
+    - Duration (Dauer): 1.10.2025 to 31.3.2026
 
-    - Additional condition: Uri Winter HT
+    - Additional condition (Zusätzliche Bedingung): Uri Winter HT
 
 - Name: Uri Winter NT Netz
 
-    - Type: Grid tariff
+    - Type: Grid tariff (Netztarif)
 
-    - Duration: 1.10.2025 to 31.3.2026
+    - Duration (Dauer): 1.10.2025 to 31.3.2026
 
-    - Additional condition: Uri Winter NT
+    - Additional condition (Zusätzliche Bedingung): Uri Winter NT
 
 - Name: Uri Winter NT Solar
 
-    - Type: Solar tariff incl. vZEV (balance/productions)
+    - Type: Solar tariff incl. vZEV (balance/productions) (Solartarif inkl. vZEV (Bilanz/Produktionen))
 
-    - Duration: 1.10.2025 to 31.3.2026
+    - Duration (Dauer): 1.10.2025 to 31.3.2026
 
-    - Additional condition: Uri Winter NT 
+    - Additional condition (Zusätzliche Bedingung): Uri Winter NT 
 
 
 <Embed src="https://drive.google.com/file/d/1qFuisQkiLisSbWTh8Avhrf7gIXOfxjjn/preview" aspect="1.350" title="Drive, Wiki Tarife Enerige Uri Tarife 2026.mp4" />

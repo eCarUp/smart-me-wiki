@@ -1,20 +1,20 @@
 ---
 title: 'IMOVATEC'
 slug: '/drittsysteme/imovatec'
-description: 'Un fornitore di servizi che si occupa dell''intera gamma di servizi e del conteggio per RCP ed e-mobilità con la tecnologia smart-me ed eCarUp.'
+description: 'Un fornitore di servizi che copre l''intera gamma di prestazioni e il conteggio relativi al RCP (raggruppamento ai fini del consumo proprio) e alla mobilità elettrica con la tecnologia smart-me ed eCarUp.'
 sidebar_label: 'IMOVATEC'
 ---
-Un fornitore di servizi che si occupa dell'intera gamma di servizi e del conteggio per RCP (raggruppamento ai fini del consumo proprio) ed e-mobilità con la tecnologia smart-me ed eCarUp.
+Un fornitore di servizi che copre l'intera gamma di prestazioni e il conteggio relativi al RCP (raggruppamento ai fini del consumo proprio) e alla mobilità elettrica con la tecnologia smart-me ed eCarUp.
 
 ## IMOVATEC per il RCP
 
-Nel webinar qui accanto puoi farti un'idea rapida e semplice di ciò che IMOVATEC può offrirti.
+Nel webinar qui accanto ottieni in modo rapido e semplice una panoramica di ciò che IMOVATEC può offrirti.
 
-- Conteggio e incasso RCP
+- Conteggio e incasso RCP (raggruppamento ai fini del consumo proprio)
 - Servizi e supporto
-- Conteggio delle stazioni di ricarica elettrica
+- Conteggio delle stazioni di ricarica
 
-Sei interessato come cliente finale, amministrazione immobiliare oppure come partner e fornitore della soluzione completa?
+Sei interessato come cliente finale, come amministrazione immobiliare o come partner e fornitore della soluzione completa?
 
 Contatta direttamente IMOVATEC per un colloquio.
 

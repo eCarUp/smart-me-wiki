@@ -9,14 +9,14 @@ naechste_schritte: [konfiguration/billing/zaehler-zuweisen]
 
 ## Configurazione dell'immobile
 
-Qui imposti le estensioni attivate per l'immobile e per le singole unità abitative. Clicca prima sulla cartella dell'immobile desiderato.
+Qui configuri le estensioni attivate per l'immobile e per le singole unità abitative. Fai clic innanzitutto sulla cartella dell'immobile desiderato.
 
 ## Composizione dell'elettricità residua
 
 <div className="row">
 <div className="col col--6">
 
-In alto puoi definire la composizione dell'elettricità residua. L'elettricità residua è la quantità di elettricità che non viene prodotta direttamente dal tuo impianto di elettricità per gli inquilini, ma che deve essere fornita in aggiunta dalla rete. Le informazioni sulla composizione dell'elettricità residua ti vengono fornite dal fornitore di elettricità residua che hai scelto.
+In alto puoi definire la composizione dell'elettricità residua. L'elettricità residua è la quantità di energia elettrica che non viene prodotta direttamente dal tuo impianto per l'elettricità per gli inquilini, ma che deve essere fornita in aggiunta dalla rete. Le informazioni sulla composizione dell'elettricità residua ti vengono fornite dal fornitore di elettricità residua che hai scelto.
 
 Un esempio può essere il seguente:
 
@@ -33,9 +33,9 @@ Un esempio può essere il seguente:
 <div className="row">
 <div className="col col--4">
 
-Subito sotto puoi definire, a scopo di confronto, i valori di elettricità di riferimento.
+Subito sotto puoi definire, a titolo di confronto, i valori di consumo elettrico di riferimento.
 
-Il documento di fatturazione mostrerà ai destinatari dell'elettricità questi valori di riferimento e il loro consumo nel periodo precedente.
+Il documento di fatturazione riporterà ai destinatari dell'elettricità questi valori di riferimento e il loro consumo nel periodo precedente.
 
 ATTENZIONE: ricordati di inserire i valori corretti per il periodo di conteggio che hai scelto. Se quindi emetti fatture mensili, scegli i valori di riferimento su base mensile e così via.
 
@@ -51,6 +51,6 @@ ATTENZIONE: ricordati di inserire i valori corretti per il periodo di conteggio 
 
 <Embed src="https://docs.google.com/spreadsheets/d/1mWbJe2QTUs5BnZdcZ7tJ1EwmQpi65nG0xFCrMNafJ4I/htmlembed?gid=0" height="314px" title="Foglio di calcolo, % consumo di elettricità in Germania" />
 
-% Consumo di elettricità in Germania
+% consumo di elettricità in Germania
 
 Dati della tabella senza garanzia.

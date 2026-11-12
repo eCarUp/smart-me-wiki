@@ -1,13 +1,13 @@
 ---
 title: 'SMARTFOX'
 slug: '/drittsysteme/smartfox'
-description: 'Les appareils smart-me peuvent être intégrés directement et simplement dans une installation SMARTFOX.'
+description: 'Les appareils smart-me peuvent être intégrés directement et facilement dans une installation SMARTFOX.'
 sidebar_label: 'SMARTFOX'
 ---
 <div className="row">
 <div className="col col--7">
 
-Les appareils smart-me peuvent être intégrés directement et simplement dans une installation SMARTFOX.
+Les appareils smart-me peuvent être intégrés directement et facilement dans une installation SMARTFOX.
 
 </div>
 <div className="col col--5 bild--mitte">
@@ -17,7 +17,7 @@ Les appareils smart-me peuvent être intégrés directement et simplement dans u
 </div>
 </div>
 
-Le gestionnaire d'énergie intelligent SMARTFOX Pro surveille et régule en continu la production et la consommation d'électricité. Il permet de déplacer la consommation d'appareils électriques tels que les pompes à chaleur ou les bornes de recharge vers les heures d'ensoleillement, et d'augmenter ainsi le taux d'autoconsommation et le degré d'autarcie.
+Le gestionnaire d'énergie intelligent SMARTFOX Pro surveille et régule en continu la production et la consommation d'électricité. Il permet de déplacer la consommation d'appareils électriques tels que les pompes à chaleur ou les bornes de recharge vers les heures d'ensoleillement, et d'augmenter ainsi la part d'autoconsommation ainsi que le degré d'autarcie.
 
 Groupe cible :
 
@@ -57,7 +57,7 @@ Possibilités d'utilisation :
 - Fonction smart meter au point de raccordement du bâtiment
 
 
-- Sous-compteur pour un second niveau de régulation destiné à la gestion de la charge dynamique des bornes de recharge
+- Sous-compteur pour un second niveau de régulation pour la gestion de la charge dynamique des bornes de recharge
 
 
 
@@ -71,11 +71,11 @@ Possibilités d'utilisation :
 <div className="row">
 <div className="col col--6">
 
-1.  [Déterminer l'adresse IP du compteur smart-me](/schnittstellen/modbus-tcp).
+1.  [Déterminer l'adresse IP du compteur smart-me](/schnittstellen/modbus-tcp#ip-adresse-mit-dns-name-ermitteln).
 
 2.  Ajouter un appareil externe dans SMARTFOX. (Sélectionner smart-me Telstar)
 
-3.  Saisir l'adresse IP du compteur smart-me.
+3.  Indiquer l'adresse IP du compteur smart-me.
 
 4.  Sélectionner la fonction du compteur.
 

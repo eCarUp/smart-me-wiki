@@ -1,8 +1,8 @@
 ---
-title: 'Standard answers'
+title: 'Standard Answers'
 slug: '/informationssicherheit/standardantworten'
 description: 'This page answers general questions about information and data security at smart-me AG and aims to enable partners to complete standard security questionnaires indepen…'
-sidebar_label: 'Standard answers'
+sidebar_label: 'Standard Answers'
 ---
 This page answers general questions about information and data security at smart-me AG and aims to enable partners to complete standard security questionnaires independently.
 
@@ -26,9 +26,9 @@ Last updated: 16.01.2025
 
 - General Terms and Conditions (GTC)
 
-- Data Processing Agreement (DPA): annex to the GTC
+- Data Processing Agreement (DPA): Annex to the GTC
 
-- Privacy policy
+- Privacy Policy
 
 
 [Link to the documents](https://web.smart-me.com/agb-smart-me-ag/)
@@ -38,9 +38,9 @@ Last updated: 16.01.2025
 ## Data protection and processing
 
 <details id="werden-personenbezogene-daten-gemaess-dsg-dsgvo-verarbeitet">
-<summary>Is personal data processed in accordance with the FADP/GDPR (DSG/DSGVO)?</summary>
+<summary>Is personal data processed in accordance with the FADP/GDPR?</summary>
 
-- For the purchase of licences by credit card, the credit card information is processed via Stripe.
+- For purchasing licenses by credit card, the credit card information is processed via Stripe.
 
 - For orders and quotes, customer information is processed via Bexio.
 
@@ -54,7 +54,7 @@ Last updated: 16.01.2025
 - Customers are responsible for their own smart-me accounts and can delete them at any time in the web portal.
     When a customer deletes their account, this data is irreversibly removed.
 
-- After 30 days, no backup exists any longer.
+- After 30 days, no backup exists anymore.
 
 - Data processed via Freshdesk or Bexio can be deleted on request.
 
@@ -79,7 +79,7 @@ All smart-me services are hosted on Microsoft Azure Switzerland servers. We do n
 <details id="wie-werden-die-daten-geschuetzt">
 <summary>How is the data protected?</summary>
 
-The servers are protected by Microsoft Azure measures. In addition, we use Cloudflare as a Web Application Firewall (WAF) and for load balancing.
+The servers are protected by Microsoft Azure measures. In addition, we use Cloudflare as a Web Application Firewall (WAF) and for load management.
 
 </details>
 
@@ -97,7 +97,7 @@ System availability is guaranteed by the Microsoft Azure infrastructure.
 <details id="wie-werden-daten-verschluesselt">
 <summary>How is data encrypted?</summary>
 
-The application data itself is not encrypted; however, the database containing the application data is encrypted as a whole. 
+The application data itself is not encrypted, but the database containing the application data is encrypted as a whole. 
 
 Communication between meters and the cloud is encrypted using AES-256.
 
@@ -120,9 +120,9 @@ No. The exception is access via our API, which supports oAuth 2.0 in addition to
 <details id="backups">
 <summary>Backups</summary>
 
-The meter data is backed up daily by Instaclustr. [More information](https://www.instaclustr.com/support/documentation/cassandra/cassandra-cluster-operations/cluster-data-backups/)
+The meter data undergoes daily backups by Instaclustr. [Information on this](https://www.instaclustr.com/support/documentation/cassandra/cassandra-cluster-operations/cluster-data-backups/)
 
-Customer data processed via Freshdesk, Bexio or Stripe is subject to the data security of the respective providers and therefore also to their backup processes.
+Customer data processed via Freshdesk, Bexio or Stripe is subject to the data security of the respective vendors and therefore also to their backup processes.
 
 </details>
 
@@ -145,19 +145,19 @@ No
 <details id="verfolgen-wir-einen-sicheren-entwicklungsprozess">
 <summary>Do we follow a secure development process?</summary>
 
-Yes, but the specific details are confidential.
+Yes, however the specific details are confidential.
 
 </details>
 
 <details id="verfuegen-wir-ueber-ein-informationssicherheitszertifikat">
 <summary>Do we hold an information security certification?</summary>
 
-No, but our cloud infrastructure provider, Microsoft Azure, is ISO27001 certified.
+No, however our cloud infrastructure provider, Microsoft Azure, is ISO27001 certified.
 
 </details>
 
 <details id="fuehren-wir-it-sicherheitsaudits-bei-unseren-anbietern-durch">
-<summary>Do we carry out IT security audits of our suppliers?</summary>
+<summary>Do we conduct IT security audits of our vendors?</summary>
 
 No
 
@@ -195,11 +195,11 @@ Since our application is not hosted locally, our network architecture is indepen
 <details id="sensibilisieren-wir-mitarbeitende-fuer-cybersicherheit">
 <summary>Do we raise employee awareness of cybersecurity?</summary>
 
-Yes, cybersecurity training is carried out:
+Yes, cybersecurity training is conducted:
 
-- Frequency: every six months and during onboarding.
+- Frequency: Every six months and during onboarding.
 
-- Additional training: depending on current events or emerging threats.
+- Additional training: Depending on current events or emerging threats.
 
 </details>
 

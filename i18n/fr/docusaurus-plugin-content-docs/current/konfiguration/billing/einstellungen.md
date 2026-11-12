@@ -15,7 +15,7 @@ vorheriger_schritt: konfiguration/billing/index
 
 Rendez-vous d'abord dans les paramètres de la facturation.
 
-Configurez ici la devise et l'application de la TVA.
+Configurez-y la devise et l'application de la TVA.
 
 Paramètres concrets pour la TVA :
 
@@ -23,19 +23,19 @@ Paramètres concrets pour la TVA :
 
     \- TVA 0%
 
-    \- Taxe déjà incluse dans les prix (Steuer in Preise bereits inbegriffen) : OUI
+    \- Taxe déjà incluse dans les prix (Steuer in Preise bereits inbegriffen) : OUI (JA)
 
-- Cas B : vous êtes un RCP et votre chiffre d'affaires lié aux ventes d'électricité atteint 100'000 CHF ou plus, ou vous vous êtes assujetti volontairement à la TVA :
+- Cas B : vous êtes un RCP et votre chiffre d'affaires issu des ventes d'électricité atteint 100'000 CHF ou plus, ou vous vous êtes assujetti volontairement à la TVA :
 
     \- TVA 8.1%
 
-    \- Taxe déjà incluse dans les prix (Steuer in Preise bereits inbegriffen) : NON
+    \- Taxe déjà incluse dans les prix (Steuer in Preise bereits inbegriffen) : NON (NEIN)
 
 
 </div>
 <div className="col col--5 bild--mitte">
 
-![Billing : décompte de l'énergie – Illustration 2](/img/konfiguration-billing/02_FR.png)
+![Décompte de l'énergie – illustration 2](/img/konfiguration-billing/02.png)
 
 </div>
 </div>
@@ -47,12 +47,12 @@ Paramètres concrets pour la TVA :
 
 Profitez-en pour configurer également votre logo pour la facture.
 
-Renseignez dans l'en-tête le contact et l'adresse de l'expéditeur de la facture, et adressez quelques mots aimables à vos clients dans le pied de page.
+Complétez l'en-tête avec les coordonnées et l'adresse de l'expéditeur de la facture et adressez quelques mots aimables à vos clients dans le pied de page.
 
 </div>
 <div className="col col--6 bild--mitte">
 
-![Billing : décompte de l'énergie – Illustration 3](/img/konfiguration-billing/03.png)
+![Décompte de l'énergie – illustration 3](/img/konfiguration-billing/03.png)
 
 </div>
 </div>

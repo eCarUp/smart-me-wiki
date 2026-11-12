@@ -1,18 +1,18 @@
 ---
 title: 'Bexio'
 slug: '/drittsysteme/bexio'
-description: 'Per creare i conteggi dei costi energetici è necessario un abbonamento smart-me Professional.'
+description: 'Per poter creare conteggi dei costi energetici è necessario un abbonamento smart-me Professional.'
 sidebar_label: 'Bexio'
 ---
-### Prerequisito
+### Requisito
 
-Per creare i conteggi dei costi energetici è necessario un abbonamento smart-me Professional. 
+Per poter creare conteggi dei costi energetici è necessario un abbonamento smart-me Professional. 
 
-smart-me Billing consente di importare automaticamente le fatture in Bexio. Bexio è un software gestionale per aziende. Maggiori informazioni: [https://www.bexio.com/](https://www.bexio.com/)
+smart-me Billing offre la possibilità di importare automaticamente le fatture in Bexio. Bexio è un software gestionale. Maggiori informazioni: [https://www.bexio.com/](https://www.bexio.com/)
 
 Funzioni
 
-- Gestione dei clienti in Bexio: smart-me Billing riprende l'anagrafica clienti da Bexio
+- Gestione clienti in Bexio: smart-me Billing riprende l'anagrafica clienti da Bexio
 - Esportazione delle fatture: i conteggi dei costi energetici possono essere creati, inviati e gestiti in Bexio. 
 - Riconciliazione automatica dei pagamenti / Sollecito automatico
 
@@ -23,14 +23,14 @@ Funzioni
 
 1.  Apra smart-me Billing
 2.  Selezioni "Configurazione" ("Konfiguration") e l'immobile
-3.  In "Esportazione verso terzi" ("Export zu Drittanbieter") selezioni Bexio
-4.  Clicchi su "Accedi" ("Login") ed effettui l'accesso a Bexio
+3.  In "Esportazione a terzi" ("Export zu Drittanbieter") selezioni Bexio
+4.  Clicchi su Login ed effettui l'accesso a Bexio
 5.  Clicchi su "Salva" ("speichern")
-6.  Attenda finché compare "Accesso ok" ("Login ok") in verde (a volte occorrono 1-2 minuti)
+6.  Attenda finché compare Login ok (verde) (a volte richiede 1-2 minuti)
 
-- Titolo della fattura ("Rechnungstitel"): il titolo della fattura in Bexio
-- Lingua della fattura ("Sprache der Rechnung"): la lingua da utilizzare in Bexio per la fattura.
-- Conto per le registrazioni Bexio ("Konto für Bexio-Buchungen"): il conto Bexio al quale devono essere assegnate le posizioni.
+- Titolo della fattura: il titolo della fattura in Bexio
+- Lingua della fattura: la lingua da utilizzare in Bexio per la fattura.
+- Conto per le registrazioni Bexio: il conto Bexio al quale devono essere assegnate le posizioni.
 
 
 ![Bexio – Figura 2](/img/drittsysteme-bexio/02.jpg)
@@ -41,7 +41,7 @@ Funzioni
 <div className="col col--4">
 
 1.  Selezioni "Configurazione" ("Konfiguration") e un appartamento
-2.  Sotto Indirizzo di fatturazione ("Rechnungsadresse") clicchi su "Aggiungi" ("Hinzufügen")
+2.  Sotto Indirizzo di fatturazione clicchi su "Aggiungi" ("Hinzufügen")
 3.  Selezioni il contatto da Bexio
 
 </div>
@@ -75,8 +75,8 @@ smart-me Billing riprende il numero di fattura da Bexio (esempio: RE-1570 corris
 
 Le fatture sono ora state create in Bexio e possono essere ulteriormente elaborate.
 
-1.  Effettuare l'accesso a Bexio
-2.  Aprire le fatture
+1.  Effettui l'accesso a Bexio
+2.  Apra le fatture
 
 ![Bexio – Figura 5](/img/drittsysteme-bexio/05.jpg)
 
@@ -84,7 +84,7 @@ Esempio di una fattura dell'elettricità esportata
 
 ![Bexio – Figura 6](/img/drittsysteme-bexio/06.jpg)
 
-Esempio di una fattura VEWA esportata
+Esempio di una fattura CISE esportata
 
 ![Bexio – Figura 7](/img/drittsysteme-bexio/07.png)
 
@@ -95,7 +95,7 @@ Esempio di una fattura VEWA esportata
 
 In Impostazioni >> Tutte le impostazioni >> Contabilità
 
-Verificare che il riquadro Aliquote d'imposta sia visibile.
+Verifichi che il riquadro Aliquote d'imposta sia visibile.
 
 </div>
 <div className="col col--7 bild--mitte">
@@ -125,17 +125,17 @@ Inclusa.
 ### 5\. Gestione degli errori
 
 account\_id \[Diese Eingabe ist nicht korrekt.\]
-Il conto per le registrazioni Bexio non è valido. Occorre utilizzare un conto Bexio sul quale possono essere registrate anche le fatture. 
+Il conto per le registrazioni Bexio non è valido. Deve essere utilizzato un conto Bexio sul quale possono essere registrate anche le fatture. 
 
 tax\_id \[Diese Eingabe ist nicht korrekt.\]
-Per una posizione della fattura non è stata trovata un'aliquota d'imposta valida.
+Per una posizione della fattura non è stata trovata alcuna aliquota d'imposta valida.
 \- Verifichi che le aliquote d'imposta per tutte le aliquote utilizzate (0%, 8.1%, 2.6%,...) siano presenti e valide in Bexio
 \- Si assicuri che tutte le aliquote IVA rilevanti siano assegnate al modulo 303.
 In caso contrario, ne crei di aggiuntive per ogni imposta.
-\--> Panoramica Impostazioni --> Contabilità --> Aliquote d'imposta --> Modificare l'IVA
+\--> Panoramica Impostazioni --> Contabilità --> Aliquote d'imposta --> Modifica IVA
 
 Nessun indirizzo Bexio trovato per l'utente (Keine Bexio adresse für Benutzer gefunden)
-All'inquilino non è stato assegnato alcun utente Bexio oppure ne è stato assegnato uno non valido. Assegni un utente all'inquilino (vedi sopra: 2. Assegnare gli inquilini)
+All'inquilino non è stato assegnato alcun utente Bexio oppure è stato assegnato un utente Bexio non valido. Assegni un utente all'inquilino (vedi sopra: 2. Assegnare gli inquilini)
 
 &#123;"error\_code":422,"message":"The form could not be saved due to the following errors:","errors":\["positions: 0 \[account\_id \[Diese Eingabe ist nicht korrekt.\]\]"\]&#125;
 
@@ -143,9 +143,9 @@ All'inquilino non è stato assegnato alcun utente Bexio oppure ne è stato asseg
 
 **Soluzione 1:**
 
-In smart-me, nelle impostazioni, un'imposta è già inclusa, ad es. 8.1%. 
+In smart-me, nelle impostazioni è già inclusa un'imposta, ad es. 8.1%. 
 
-In Bexio, in Impostazioni (in alto a destra) / Tutte le impostazioni / Contabilità / Impostazioni di base IVA, non è configurato nulla.
+In Bexio, in Impostazioni (in alto a destra) / Tutte le impostazioni / Contabilità / Impostazioni di base IVA non è configurato nulla.
 
 Possibilità: indicare 0% in smart-me.
 

@@ -16,24 +16,24 @@ Cliquez maintenant l'un après l'autre sur les différents logements de votre im
 <div className="row">
 <div className="col col--7">
 
-### Numéro de client (Kundennummer)
+### Numéro de client
 
-Ici, vous définissez le numéro de client de ce locataire.
+Ici, vous définissez le numéro de client pour ce locataire.
 
 Remarque :
 
-Le numéro de client est automatiquement repris comme nom du document PDF afin de faciliter l'identification externe.
+Le numéro de client est automatiquement repris comme nom dans le document PDF, afin de faciliter l'identification externe.
 
-### Contrat et durée (Vertrag und Laufzeit)
+### Contrat et durée
 
-Ici, vous pouvez insérer des dispositions contractuelles. Un exemple (sans garantie de validité juridique) serait :
+Ici, vous pouvez insérer des dispositions contractuelles. Un exemple (sans garantie de sécurité juridique) serait :
 
-Votre contrat a une durée jusqu'au DD.MM.YYYY et se prolonge d'un an conformément à la réglementation du chiffre X de votre contrat de fourniture d'électricité, à défaut de résiliation en temps utile. Vous pouvez résilier le contrat de fourniture d'électricité moyennant un préavis de trois mois pour le DD.MM.YYYY conformément au chiffre X du contrat de fourniture d'électricité. Un droit de résiliation extraordinaire demeure réservé.
+Votre contrat a une durée jusqu'au DD.MM.YYYY et se prolonge d'un an conformément à la réglementation du point X de votre contrat de fourniture d'électricité, si aucune résiliation n'intervient dans les délais. Vous pouvez résilier le contrat de fourniture d'électricité moyennant un préavis de trois mois pour le DD.MM.YYYY, conformément au point X du contrat de fourniture d'électricité. Un droit de résiliation extraordinaire demeure réservé.
 
 </div>
 <div className="col col--5 bild--mitte">
 
-![smart-me Billing pour l'électricité pour les locataires en Allemagne – figure 11](/img/konfiguration-billing-mieterstrom/11.png)
+![smart-me Billing pour l'électricité pour les locataires en Allemagne – Figure 11](/img/konfiguration-billing-mieterstrom/11.png)
 
 </div>
 </div>

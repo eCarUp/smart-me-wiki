@@ -1,7 +1,7 @@
 ---
 title: 'Certificazioni Svizzera'
 slug: '/planung/zertifizierungen-schweiz'
-description: 'Norme di prodotto, MID, CH-Lastgang, RCP e ritaratura per la Svizzera.'
+description: 'Norme di prodotto, MID, CH-Lastgang, RCP e verificazione successiva per la Svizzera.'
 sidebar_label: 'Certificazioni Svizzera'
 symbol: 'zertifikat'
 ---
@@ -18,7 +18,7 @@ Questa sezione riassume le disposizioni vigenti in Svizzera in materia di diritt
 
 ### Certificazione della curva di carico
 
-La certificazione della curva di carico CH-Lastgang consente all'utilizzatore di effettuare il conteggio sulla base di letture del contatore con un intervallo di almeno 15 minuti. Questa certificazione richiede funzionalità tecniche aggiuntive e riguarda la firma, l'archiviazione dei dati e le vie di trasmissione (sicurezza, crittografia) dei dati.
+La certificazione della curva di carico CH-Lastgang consente all'utilizzatore di effettuare il conteggio sulla base di letture del contatore con un intervallo di almeno 15 minuti. Questa certificazione richiede funzionalità tecniche aggiuntive e riguarda la firma, la memorizzazione dei dati e i canali di trasmissione (sicurezza, crittografia) dei dati.
 
 [Contatore di energia trifase Telstar](/produkte/telstar-80a), [Contatore trifase Telstar CT](/produkte/telstar-ct) e [Stazione di ricarica Pico](/produkte/pico-ladestation) dispongono sia della certificazione MID sia della certificazione CH-Lastgang.
 
@@ -26,67 +26,67 @@ La certificazione della curva di carico CH-Lastgang consente all'utilizzatore di
 
 La tecnologia smart-me copre entrambe le varianti seguenti:
 
-### Variante 1: conteggio RCP mediante letture del contatore e tariffa unica o doppia (MID richiesta)
+### Variante 1: conteggio RCP tramite letture del contatore e tariffa unica o doppia tariffa (MID richiesta)
 
-Un RCP può essere conteggiato mediante la lettura del contatore iniziale e finale (date di riferimento). Per questo il legislatore richiede soltanto uno strumento di misura con certificazione MID. Le differenze tariffarie sono possibili solo con un segnale esterno, con ore di punta e ore fuori punta; in caso contrario si può utilizzare una tariffa unica.
+Un RCP può essere conteggiato tramite la lettura del contatore all'inizio e alla fine del periodo (date di riferimento). Per questo il legislatore richiede soltanto uno strumento di misura con certificazione MID. Differenze tariffarie sono possibili solo con un segnale esterno, con ore di punta e ore fuori punta; altrimenti si può utilizzare una tariffa unica.
 
 Vantaggi:
 
-- Lo strumento di misura deve essere soltanto certificato MID. ([Contatore di energia trifase smart-me Telstar)](/produkte/telstar-80a)
+- Lo strumento di misura deve essere solo certificato MID. ([Contatore di energia trifase smart-me Telstar)](/produkte/telstar-80a)
 
 - Conteggio semplice delle letture del contatore alle date di riferimento.
 
-- Possibile una soluzione software semplice o anche manuale.
+- Possibile una soluzione software semplice oppure anche manuale.
 
 
 Svantaggi della tariffa unica:
 
 - I costi possono essere addebitati solo in base alle quantità prelevate.
 
-- Nessuna ottimizzazione dei costi possibile da parte degli inquilini attraverso un uso oculato dell'elettricità al momento giusto.
+- Nessuna ottimizzazione dei costi da parte degli inquilini tramite un uso attento dell'elettricità al momento opportuno.
 
-- Nessun utilizzo mirato dell'energia solare da parte degli inquilini. (Minore efficienza nella vendita interna di elettricità)
+- Nessun utilizzo mirato dell'elettricità solare da parte degli inquilini. (Minore efficienza nella vendita interna di elettricità)
 
 
 Svantaggi della doppia tariffa con segnale tariffario esterno:
 
-- I costi possono essere ripartiti solo in base alle quantità prelevate nelle tariffe HT e NT mediante un segnale di comando esterno. (Nessuna tariffa solare)
+- I costi possono essere ripartiti solo in base alle quantità prelevate nella tariffa delle ore di punta (HT) e delle ore fuori punta (NT) tramite un segnale di comando esterno. (Nessuna tariffa solare)
 
-- Ottimizzazione dei costi limitata da parte degli inquilini attraverso un uso oculato dell'elettricità al momento giusto.
+- Ottimizzazione dei costi da parte degli inquilini possibile solo in misura limitata tramite un uso attento dell'elettricità al momento opportuno.
 
-- Nessun utilizzo mirato dell'energia solare da parte degli inquilini. (Minore efficienza nella vendita interna di elettricità)
-
-
+- Nessun utilizzo mirato dell'elettricità solare da parte degli inquilini. (Minore efficienza nella vendita interna di elettricità)
 
 
-### Variante 2: conteggio RCP mediante curva di carico e sistema multitariffa (certificazione MID e CH-Lastgang richieste)
 
-Un RCP può essere conteggiato mediante i dati della curva di carico (intervalli di 15 minuti). Questa variante sfrutta appieno le potenzialità di un RCP con tutti i vantaggi per gli inquilini e per i proprietari del RCP.
+
+### Variante 2: conteggio RCP tramite curva di carico e sistema multitariffa (certificazione MID e CH-Lastgang richiesta)
+
+Un RCP può essere conteggiato tramite i dati della curva di carico (intervalli di 15 minuti). Questa variante sfrutta appieno le possibilità di un RCP, con tutti i vantaggi per gli inquilini e i proprietari dell'RCP.
 
 Vantaggi:
 
 - Consente il conteggio con tariffe diverse. (Tariffa NT, HT, solare)
 
-- Ripartisce i costi sostenuti sui rispettivi responsabili. (Tiene conto anche della disponibilità di energia solare con una tariffa speciale)
+- Ripartisce i costi sostenuti sui rispettivi responsabili. (Tiene conto anche della disponibilità di elettricità solare con una tariffa speciale)
 
-- Gli inquilini possono ottimizzare autonomamente i propri costi e prestare attenzione all'energia solare.
+- Gli inquilini possono ottimizzare autonomamente i propri costi e prestare attenzione all'elettricità solare.
 
-- L'energia solare autoprodotta può essere venduta internamente in modo più efficace, migliorando così il ROI.
+- L'elettricità solare autoprodotta può essere venduta internamente in modo più efficace, migliorando così il ROI.
 
 - Tariffe elettriche differenziate rendono l'immobile nel complesso più attraente per gli inquilini.
 
 
 Svantaggi:
 
-- Richiede strumenti di misura certificati MID e per la curva di carico. ([Contatore di energia trifase smart-me Telstar)](/produkte/telstar-80a)
+- Richiede strumenti di misura con certificazione MID e della curva di carico. ([Contatore di energia trifase smart-me Telstar)](/produkte/telstar-80a)
 
-- Richiede un software idoneo per archiviare, analizzare ed elaborare i dati della curva di carico.
+- Richiede un software adeguato per memorizzare, analizzare ed elaborare i dati della curva di carico.
 
 ## Certificazioni per stazioni di ricarica in Svizzera
 
-Punti di ricarica in locazione:
+Punti di ricarica in un rapporto di locazione:
 
-Per l'hardware delle stazioni di ricarica utilizzato in un rapporto di locazione, la Svizzera richiede in linea di principio gli stessi requisiti dell'hardware dei contatori tradizionali:
+Per l'hardware delle stazioni di ricarica utilizzato in un rapporto di locazione, la Svizzera richiede in linea di principio gli stessi requisiti dell'hardware dei contatori usuale:
 
 - Certificazione MID, per conteggiare l'energia rilevata con tariffa unica.
 
@@ -95,19 +95,19 @@ Per l'hardware delle stazioni di ricarica utilizzato in un rapporto di locazione
 
 
 
-Punti di ricarica in area pubblica con utenti diversi:
+Punti di ricarica in aree pubbliche con utenti diversi:
 
-- In Germania il quadro normativo è stato definito e richiede la conformità al diritto metrologico. (vedi [Certificazioni Germania](/planung/zertifizierungen-deutschland)).
-    In Svizzera non sono attualmente definite prescrizioni legali sulla conformità MID.
+- In Germania la situazione legislativa è stata definita e richiede la conformità al diritto metrologico. (vedi [Certificazioni Germania](/planung/zertifizierungen-deutschland)).
+    In Svizzera attualmente non sono definite prescrizioni legali in materia di conformità MID.
 
 
 <div className="row">
 <div className="col col--7">
 
 Nota:
-Le marcature a destra sono simboli obbligatori che devono essere sempre visibili sull'hardware per disporre della certificazione MID, della curva di carico o della conformità al diritto metrologico.
+Le diciture a destra sono simboli obbligatori che devono essere sempre visibili sull'hardware per disporre della certificazione MID, della curva di carico o della conformità al diritto metrologico.
 
-Marcature obbligatorie sull'hardware di ricarica:
+Diciture obbligatorie sull'hardware di ricarica:
 
 </div>
 <div className="col col--5 bild--mitte">
@@ -127,21 +127,21 @@ Certificazione CH-Lastgang:
 </div>
 </div>
 
-## Ritaratura dei contatori MID
+## Verificazione successiva dei contatori MID
 
 Tutte le informazioni sono fornite con riserva e secondo l'[OSMisE 941.251](https://www.fedlex.admin.ch/eli/cc/2015/578/de)  (stato al 1° gennaio 2018).
 
 ### Contatori
 
-I contatori devono essere ritarati dall'Istituto federale di metrologia (METAS) o da un laboratorio di verificazione autorizzato secondo la procedura di cui all'allegato 7 numero 1 OMetr, come segue: 
+I contatori devono essere sottoposti a verificazione successiva dall'Istituto federale di metrologia (METAS) o da un ufficio di verificazione autorizzato secondo la procedura di cui all'allegato 7 numero 1 OStrM, come segue: 
 
-a. contatori con dispositivo di misura elettronico: ogni 10 anni ([Contatore di energia trifase smart-me Telstar)](/produkte/telstar-80a)
+a. contatori con dispositivo di misurazione elettronico: ogni 10 anni ([Contatore di energia trifase smart-me Telstar)](/produkte/telstar-80a)
 
-b. contatori con dispositivo di misura elettromeccanico: ogni 15 anni 
+b. contatori con dispositivo di misurazione elettromeccanico: ogni 15 anni 
 
 ### Trasformatori (sensori di corrente)
 
-I trasformatori devono essere ritarati dal METAS o da un laboratorio di verificazione autorizzato secondo la procedura di cui all'allegato 7 numero 1 OMetr, come segue: 
+I trasformatori devono essere sottoposti a verificazione successiva dal METAS o da un ufficio di verificazione autorizzato secondo la procedura di cui all'allegato 7 numero 1 OStrM, come segue: 
 
 a. trasformatori induttivi con nucleo non apribile: ogni 60 anni
 
@@ -149,21 +149,21 @@ b. trasformatori diversi da quelli di cui alla lettera a: ogni 2 anni.
 
 
 
-### Proroga della validità di una taratura esistente
+### Proroga della validità di una verificazione esistente
 
 La certificazione è valida 10 anni, indipendentemente dal produttore. 
 
-Taratura per lotti (procedura di controllo statistico)
+Verificazione per lotti (procedura statistica di controllo)
 
-SAK e CKW ritarano a pagamento i contatori smart-me con la procedura per lotti. In caso di interesse, rivolgiti direttamente ai responsabili dei rispettivi laboratori di verificazione. In pratica, la maggior parte dei contatori nei RCP non viene ritarata, ma ammortizzata nel corso degli anni e sostituita con nuovi contatori al termine della loro vita utile.
+La SAK e la CKW eseguono a pagamento la verificazione successiva per lotti dei contatori smart-me. In caso di interesse, rivolgiti direttamente ai rispettivi responsabili degli uffici di verificazione. Nella pratica, la maggior parte dei contatori negli RCP non viene sottoposta a verificazione successiva, ma viene ammortizzata nel corso degli anni e sostituita con nuovi contatori alla fine della sua vita utile.
 
 Il controllo per lotti richiede una prima verifica a campione dopo 5 anni e successivamente una verifica periodica ogni 5 anni.
 
-Se il METAS approva il lotto secondo la lettera E numero 6, i contatori del lotto approvato sono considerati tarati per ulteriori 5 anni, a condizione che restino sottoposti alla procedura di controllo statistico. 
+Se il METAS approva il lotto secondo la lettera E numero 6, i contatori del lotto approvato sono considerati verificati per altri 5 anni, a condizione che restino sottoposti alla procedura statistica di controllo. 
 
 ### Conseguenza
 
-Se la taratura degli apparecchi scade e non è possibile una procedura di controllo per lotti, i contatori devono essere sostituiti con nuovi apparecchi dopo 10 anni.
+Se la verificazione degli apparecchi scade e non è possibile una procedura di verificazione per lotti, dopo 10 anni i contatori devono essere sostituiti con apparecchi nuovi.
 
 ## Certificazione MINERGIE con smart-me
 

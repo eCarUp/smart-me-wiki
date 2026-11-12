@@ -10,17 +10,17 @@ symbol: 'vertrag'
 
 The ZEV (association for own consumption)  is a contractual association of several end consumers who consume the electricity they produce themselves on site. 
 
-In an association for own consumption, the end consumers share a common grid connection. Towards the distribution grid operator, all end consumers participating in the respective ZEV act as a single customer. 
+In an association for own consumption, the end consumers share a common grid connection. All end consumers participating in the respective ZEV appear to the distribution grid operator as a single customer. 
 
 ### Standardised templates for ZEV contracts and tenancy agreement amendments (ZEV contract template)
 
-Swiss Homeowners' Association: [https://www.hev-schweiz.ch/wohnen/bauen/haustechnik-gebaeudetechnik/eigenverbrauch/](https://www.hev-schweiz.ch/wohnen/bauen/haustechnik-gebaeudetechnik/eigenverbrauch/) (login required)
+Swiss Homeowners' Association (Hauseigentümerverband): [https://www.hev-schweiz.ch/wohnen/bauen/haustechnik-gebaeudetechnik/eigenverbrauch/](https://www.hev-schweiz.ch/wohnen/bauen/haustechnik-gebaeudetechnik/eigenverbrauch/) (login required)
 
-Self-consumption guide from SwissEnergy: [https://www.energieschweiz.ch/gebaeude/eigenverbrauch/](https://www.energieschweiz.ch/gebaeude/eigenverbrauch/)  
+Self-consumption guide from Energie Schweiz: [https://www.energieschweiz.ch/gebaeude/eigenverbrauch/](https://www.energieschweiz.ch/gebaeude/eigenverbrauch/)  
 
 
 
-If you need in-depth legal support when implementing the ZEV, you will find partners known to us below.
+If you need in-depth legal support with implementing the ZEV, you will find partners known to us below.
 
 ZEV legal matters with Domenig & Partner 
 
@@ -89,7 +89,7 @@ M +41 79 205 91 91
 
 ## Tenant electricity (Germany)
 
-If you have questions about German tenant electricity, please contact smartRED. smartRED is our subsidiary that serves the German market and markets our products in tenant electricity projects in accordance with the legal framework.
+If you have questions about German tenant electricity, please contact smartRED. smartRED is our subsidiary that serves the German market and sells our products in tenant electricity projects in accordance with the legal framework.
 
 <Kacheln min="20rem">
 

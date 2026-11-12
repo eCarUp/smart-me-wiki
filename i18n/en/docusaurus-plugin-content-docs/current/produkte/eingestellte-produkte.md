@@ -1,10 +1,10 @@
 ---
 title: 'Discontinued products'
 slug: '/produkte/eingestellte-produkte'
-description: 'These products are no longer sold.'
+description: 'Sales of these products have been discontinued.'
 sidebar_label: 'Discontinued products'
 ---
-These products are no longer sold. Support and cloud support remain guaranteed.
+Sales of these products have been discontinued. Support and cloud support remain guaranteed.
 
 <Kacheln min="15rem">
 

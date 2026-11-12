@@ -1,13 +1,13 @@
 ---
 title: 'Compteur monophasé 32A'
 slug: '/produkte/1-phasen-zaehler-32a'
-description: 'Le smart-me Meter est le premier compteur électrique qui peut être analysé et commandé de n''importe où.'
+description: 'Le smart-me Meter est le premier compteur électrique pouvant être analysé et piloté de n''importe où.'
 sidebar_label: 'Compteur monophasé 32A'
 displayed_sidebar: wikiSidebar
 ---
-Le smart-me Meter est le premier compteur électrique qui peut être analysé et commandé de n'importe où. Aucun matériel supplémentaire n'est nécessaire. Il utilise le réseau WiFi existant et se connecte directement au smart-me Cloud. Vous voyez ainsi confortablement votre consommation d'énergie en temps réel.
+Le smart-me Meter est le premier compteur électrique pouvant être analysé et piloté de n'importe où. Aucun matériel supplémentaire n'est nécessaire. Il utilise le réseau WiFi existant et se connecte directement au smart-me Cloud. Vous pouvez ainsi consulter facilement votre consommation d'énergie en temps réel.
 
-Vente arrêtée le 01.01.2023, le support et le service cloud restent assurés.
+Vente arrêtée le 01.01.2023, le support et la prise en charge cloud restent assurés.
 
 ![Compteur monophasé 32A – Illustration 1](/img/produkte-1-phasen-zaehler-32a/01.jpg)
 
@@ -23,17 +23,17 @@ Vente arrêtée le 01.01.2023, le support et le service cloud restent assurés.
 
 - Classe de précision 1 selon IEC62053-21
 
-- Enregistreur de données intégré pour deux mois (en cas de perte de connexion)
+- Enregistreur de données intégré pour deux mois (en cas de coupure de connexion)
 
 - Connexion directe et chiffrée au smart-me Cloud (WiFi)
 
 - Gestion complète de l'énergie dans le smart-me Cloud : 
 
-    - Monitoring en temps réel
+    - Surveillance en temps réel
 
-    - Facturation automatique ([smart-me Billing](/konfiguration/billing))
+    - facturation automatique ([smart-me Billing](/konfiguration/billing))
 
-    - Commande avec des [actions déclenchées par un événement](/konfiguration/wenndann-aktionen/ereignisaktionen) et des [actions si/alors](/konfiguration/wenndann-aktionen)
+    - Pilotage avec des [actions déclenchées par un événement](/konfiguration/wenndann-aktionen/ereignisaktionen) et des [actions si/alors](/konfiguration/wenndann-aktionen)
 
 - Installation simple avec l'app smart-me gratuite pour [Android](https://play.google.com/store/apps/details?id=com.smart_me) et [iOS](https://apps.apple.com/ch/app/smart-me/id929146952?ign-mpt=uo%3D4)
 
@@ -42,7 +42,7 @@ Vente arrêtée le 01.01.2023, le support et le service cloud restent assurés.
 
 Voir [Mise en service](/konfiguration/inbetriebnahme) 
 
-## Données techniques
+## Caractéristiques techniques
 
 | Caractéristique | Valeur |
 | --- | --- |
@@ -59,13 +59,13 @@ Voir [Mise en service](/konfiguration/inbetriebnahme)
 | Largeur | 2 modules, 36 x 90 mm |
 | Interfaces | WiFi, S0 |
 | Valeur d'impulsion S0 | 1000 impulsions par kWh |
-| Consommation propre | &lt; 0.5 W |
+| Autoconsommation | &lt; 0.5 W |
 
-\*ne dispose pas de sa propre alimentation en tension.
+\*ne dispose pas de sa propre alimentation électrique.
 
 ## Configurer les entrées et sorties
 
-Le smart-me Meter dispose d'une sortie et d'une entrée qui peuvent être utilisées comme entrée et sortie d'impulsions ou comme contact libre de potentiel commutable. Vous trouverez plus de détails [ici](/schnittstellen/ein-und-ausgaenge). 
+Le smart-me Meter dispose d'une sortie et d'une entrée, qui peuvent être utilisées comme entrées et sorties d'impulsions ou comme contact commutable libre de potentiel. Vous trouverez plus de détails [ici](/schnittstellen/ein-und-ausgaenge). 
 
 ## Dimensions et raccordements
 
@@ -98,11 +98,11 @@ S0 : sortie d'impulsions (contact libre de potentiel)
 
 ## Modifier l'intervalle de téléversement
 
-- Se connecter au portail smart-me
+- se connecter au portail smart-me
 
-- Sélectionner le compteur
+- sélectionner le compteur
 
-- En haut à droite, sélectionner la roue dentée
+- en haut à droite, sélectionner la roue dentée
 
 - Paramètres généraux (Allgemeine Einstellungen)
 
@@ -119,6 +119,6 @@ Fiche technique
 
 [Italien](https://docs.google.com/presentation/d/18O5ef93R--nzwNl14Zb9gFJ2KFwUOkTXb247jtWSaHI/export/pdf)
 
-Données techniques
+Caractéristiques techniques
 
 [Déclaration de conformité CE](https://docs.google.com/document/d/1t9Bj_Z8yZchoW1wGIWLeUEgj6M3Q893SPOGqkikALIs/export?format=pdf)

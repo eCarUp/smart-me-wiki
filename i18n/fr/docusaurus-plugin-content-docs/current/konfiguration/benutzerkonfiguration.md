@@ -12,9 +12,9 @@ vorheriger_schritt: [konfiguration/billing/rechnung-erstellen, konfiguration/bil
 
 Vous avez besoin d'un abonnement smart-me Professional pour utiliser cette fonction.
 
-Dans smart-me, vous pouvez créer de nouveaux utilisateurs et leur attribuer des autorisations sur des compteurs ou des dossiers. Ces utilisateurs disposent uniquement de droits de lecture.
+Dans smart-me, vous pouvez créer de nouveaux utilisateurs et leur attribuer les autorisations correspondantes sur des compteurs ou des dossiers. Ces utilisateurs disposent uniquement de droits de lecture.
 
-Vous pouvez ainsi donner aux locataires l'accès à leurs données tant qu'ils habitent dans l'immeuble.
+Vous pouvez ainsi donner aux locataires l'accès à leurs données tant qu'ils habitent l'immeuble.
 
 
 <div className="row">
@@ -37,7 +37,7 @@ Veuillez noter que vous devez d'abord [créer des dossiers](/konfiguration/ordne
 </div>
 <div className="col col--4 bild--mitte">
 
-![Créer des utilisateurs – Figure 2](/img/konfiguration-benutzerkonfiguration/02.png)
+![Créer des utilisateurs – figure 2](/img/konfiguration-benutzerkonfiguration/02.png)
 
 </div>
 </div>
@@ -49,14 +49,14 @@ Veuillez noter que vous devez d'abord [créer des dossiers](/konfiguration/ordne
 
 Les utilisateurs disposent toujours uniquement d'un accès en lecture.
 
-Il est possible de partager soit uniquement le nœud concerné, soit celui-ci avec tous ses sous-nœuds.
+Il est possible de partager soit uniquement le nœud explicite, soit le nœud avec tous ses sous-nœuds.
 
 Si une visualisation qui accède aux données des compteurs est utilisée sur le nœud, l'utilisateur doit être autorisé à voir les compteurs.
 
 </div>
 <div className="col col--8 bild--mitte">
 
-![Créer des utilisateurs – Figure 3](/img/konfiguration-benutzerkonfiguration/03_EN.png)
+![Créer des utilisateurs – figure 3](/img/konfiguration-benutzerkonfiguration/03.png)
 
 </div>
 </div>
@@ -65,10 +65,10 @@ Créez maintenant les visualisations pour les locataires ou pour le propriétair
 
 ### Vue pour les locataires
 
-Une vue spéciale pour les locataires est disponible pour les tarifs virtuels. Elle affiche la consommation d'énergie actuelle (électricité) et sa provenance (solaire ou réseau). En outre, la barre indique la source d'approvisionnement en électricité au fil du temps.
+Une vue spéciale pour les locataires est disponible pour les tarifs virtuels. Elle affiche la consommation d'énergie actuelle (électricité) et sa provenance (solaire ou réseau). En outre, la barre indique la source d'approvisionnement en électricité au cours de la période écoulée.
 
 Cette vue doit être configurée en plus pour chaque nœud d'appartement.
 
 La visualisation s'appelle : "Tarifs virtuels simples appartement" ("Einfache virtuelle Tarife Wohnung")
 
-![Créer des utilisateurs – Figure 4](/img/konfiguration-benutzerkonfiguration/04.png)
+![Créer des utilisateurs – figure 4](/img/konfiguration-benutzerkonfiguration/04.png)

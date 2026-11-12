@@ -1,13 +1,13 @@
 ---
 title: 'Symcon'
 slug: '/drittsysteme/symcon'
-description: 'Symcon is software, as well as an optional hardware package (Symbox), that enables control and visualization in your home or building.'
+description: 'Symcon is software and an optional hardware package (Symbox) that enables control and visualization in your house or building.'
 sidebar_label: 'Symcon'
 ---
 <div className="row">
 <div className="col col--8">
 
-Symcon is software, as well as an optional hardware package (Symbox), that enables control and visualization in your home or building. It acts as an interface and decision-maker.
+Symcon is software and an optional hardware package (Symbox) that enables control and visualization in your house or building. It acts as an interface and decision-maker.
 
 The smart-me data can easily be retrieved via our API.
 
@@ -19,7 +19,7 @@ The smart-me data can easily be retrieved via our API.
 </div>
 </div>
 
-Target group: single-family and multi-family homes and industry
+Target group: single-family and multi-family houses and industry
 
 ### Contact
 
@@ -60,11 +60,11 @@ URL: API call: e.g. "https://smart-me.com:443/api/devices/&#123;id&#125;
 
 4\. Set up variable
 
-- Enter a name
+- Give it a name
 
 - Location (JSON Decoder)
 
-- Archive settings (enable logging and show in WebFront)
+- Archive settings (activate logging and show in WebFront)
 
 
 ![Symcon – Figure 5](/img/drittsysteme-symcon/05.png)
@@ -73,24 +73,24 @@ URL: API call: e.g. "https://smart-me.com:443/api/devices/&#123;id&#125;
 
 ### How can I create a chart in Syncom?
 
-5\. Create chart for Webfront
+5\. Create chart for WebFront
 
 ![Symcon – Figure 7](/img/drittsysteme-symcon/07.png)
 
 6\. Configure chart
 
-- Several variables can be displayed in the same chart (e.g.: total active power and active power of the individual phases).
+- Several variables can be displayed in the same chart (e.g. total active power and active power of the individual phases).
 
 
 ![Symcon – Figure 8](/img/drittsysteme-symcon/08.png)
 
-7\. Open Webfront
+7\. Open WebFront
 
 ![Symcon – Figure 9](/img/drittsysteme-symcon/09.png)
 
 ![Symcon – Figure 10](/img/drittsysteme-symcon/10.png)
 
-8\. Display chart (click to the right of the PowerHaus chart).
+8\. Show chart (click to the right of the PowerHaus chart).
 
 ![Symcon – Figure 11](/img/drittsysteme-symcon/11.png)
 

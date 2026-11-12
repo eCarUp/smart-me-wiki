@@ -12,9 +12,9 @@ vorheriger_schritt: [konfiguration/billing/rechnung-erstellen, konfiguration/bil
 
 You need a smart-me Professional subscription to use this function.
 
-In smart-me, you can create new users and grant them the appropriate permissions on meters or folders. These users only have read access.
+In smart-me, you can create new users and give them the appropriate permissions for meters or folders. These users only have read access.
 
-This allows you to give tenants access to their data for as long as they live in the property.
+This lets you give tenants access to their data for as long as they live in the property.
 
 
 <div className="row">
@@ -24,7 +24,7 @@ To create new users, proceed as follows:
 
 Please note that you must first [create folders](/konfiguration/ordnerkonfiguration).
 
-1.  Log in to the smart-me [website](https://web.smart-me.com/login/).
+1.  Log in on the smart-me [website](https://web.smart-me.com/login/).
 
 2.  Click Configuration (Konfiguration) at the top right
 
@@ -56,7 +56,7 @@ If a visualization that accesses meter data is used on the node, the user must b
 </div>
 <div className="col col--8 bild--mitte">
 
-![Creating users – Figure 3](/img/konfiguration-benutzerkonfiguration/03_EN.png)
+![Creating users – Figure 3](/img/konfiguration-benutzerkonfiguration/03.png)
 
 </div>
 </div>
@@ -65,7 +65,7 @@ Now create the visualizations for the tenants or for the property owner.
 
 ### View for tenants
 
-A special view for tenants is available for the virtual tariffs. It shows the current energy consumption (electricity) and its source (solar or grid). In addition, the bar shows the past electricity source.
+A special view for tenants is available for the virtual tariffs. It shows the current energy consumption (electricity) and its source (solar or grid). The bar also shows the past electricity source over time.
 
 This view must also be configured for each apartment node.
 

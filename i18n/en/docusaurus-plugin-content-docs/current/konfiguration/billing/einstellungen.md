@@ -15,27 +15,27 @@ vorheriger_schritt: konfiguration/billing/index
 
 First, navigate to the billing settings.
 
-Here you configure the currency and how VAT is applied.
+Configure the currency and how VAT is applied here.
 
 Specific VAT settings:
 
-- Case A: You are a ZEV (association for own consumption), your revenue from electricity is definitely below 100'000CHF, and you have not voluntarily registered for VAT:
+- Case A: You are a ZEV (association for own consumption), your electricity revenue is definitely less than 100'000CHF and you have not voluntarily registered for VAT:
 
-    \- VAT (MWST) 0%
+    \- VAT 0%
 
-    \- Tax already included in prices (Steuer in Preise bereits inbegriffen): YES (JA)
+    \- Tax already included in prices (Steuer in Preise bereits inbegriffen): YES
 
 - Case B: You are a ZEV and your revenue from electricity sales is 100'000 CHF or more, or you have voluntarily registered for VAT:
 
-    \- VAT (MWST) 8.1%
+    \- VAT 8.1%
 
-    \- Tax already included in prices (Steuer in Preise bereits inbegriffen): NO (NEIN)
+    \- Tax already included in prices (Steuer in Preise bereits inbegriffen): NO
 
 
 </div>
 <div className="col col--5 bild--mitte">
 
-![Energy Billing – Figure 2](/img/konfiguration-billing/02_EN.png)
+![Energy Billing – Figure 2](/img/konfiguration-billing/02.png)
 
 </div>
 </div>
@@ -47,7 +47,7 @@ Specific VAT settings:
 
 While you are at it, also configure your logo for the invoice.
 
-Fill the header with the contact details and address of the invoice sender, and add a few friendly words for your customers in the footer.
+Add the contact details and address of the invoice sender to the header, and address a few friendly words to your customers in the footer.
 
 </div>
 <div className="col col--6 bild--mitte">

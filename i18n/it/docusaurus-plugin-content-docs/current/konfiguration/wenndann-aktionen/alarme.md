@@ -10,19 +10,19 @@ vorheriger_schritt: konfiguration/ordnerkonfiguration/index
 
 È possibile configurare degli allarmi per ricevere un'e-mail quando un contatore non è più connesso al nostro cloud.
 
-## Requisito
+## Prerequisito
 
-Per utilizzare questa funzione è necessario un abbonamento smart-me Limited o Professional.
+Per utilizzare questa funzione hai bisogno di un abbonamento smart-me Limited o Professional.
 
 ### Configurazione degli allarmi
 
-### Evento «se» / Nessuna connessione
+### Evento "se" / Nessuna connessione
 
-Questo tema è approfondito nella pagina [Azioni se/allora](/konfiguration/wenndann-aktionen).
+Approfondiamo questo argomento in [Azioni se/allora](/konfiguration/wenndann-aktionen).
 
-È possibile impostare un evento «se» che si attiva quando un contatore non è più connesso al cloud. Occorre effettuare le seguenti impostazioni:
+È possibile impostare un evento "se" che si attiva quando un contatore non è più connesso al cloud. Occorre effettuare le seguenti impostazioni:
 
-- Se si seleziona una cartella, vengono monitorati tutti i contatori che ne fanno parte. Se si selezionano più cartelle, scegliere l'opzione O (ODER).
+- Se si seleziona una cartella, vengono monitorati tutti i contatori che ne fanno parte. Se selezioni più cartelle, scegli un OPPURE (ODER).
 
 - Se si seleziona un contatore, viene monitorato solo quel contatore.
 
@@ -30,16 +30,16 @@ Definizione del tempo di interruzione:
 
 - In generale: i 1440 minuti (1 giorno) evitano un falso allarme in caso di breve interruzione di Internet per i contatori smart-me.
 
-- Pico: per gli allarmi di controllo dei Pico connessi a un backend, può essere opportuno ridurre questo tempo, ad es. a 15 o 60 minuti. In questo modo si evita che una stazione rimanga fuori servizio troppo a lungo.
+- Pico: per gli allarmi di controllo dei Pico collegati a un backend può essere utile ridurre questo tempo, ad es. a 15 o 60 minuti. In questo modo si evita che una stazione rimanga fuori servizio troppo a lungo.
 
 ![Allarmi – Figura 1](/img/konfiguration-wenndann-aktionen-alarme/01.png)
 
-### Azione «allora» / Allarme
+### Azione "allora" / Allarme
 
 <div className="row">
 <div className="col col--6">
 
-Quando si verificano gli eventi «se», viene inviata un'e-mail. Occorre effettuare le seguenti impostazioni:
+Quando gli eventi "se" si verificano, viene inviata un'e-mail. Occorre effettuare le seguenti impostazioni:
 
 - Nome dell'allarme
 
@@ -47,9 +47,9 @@ Quando si verificano gli eventi «se», viene inviata un'e-mail. Occorre effettu
 
 - Messaggio (Nachricht): testo contenuto nell'e-mail di allarme
 
-Nota: consigliamo di completare l'azione «allora» solo con l'indirizzo e-mail e di lasciare invariato il resto. Se gestisce più immobili, consigliamo di indicare nell'oggetto il nome dell'account, in modo da sapere sempre da quale account proviene l'allarme.
+Nota: consigliamo di completare l'azione "allora" solo con l'indirizzo e-mail e di lasciare invariato il resto. Se hai più immobili, consigliamo di indicare il nome dell'account nell'oggetto, così saprai sempre da quale account proviene l'allarme.
 
-Se l'allarme deve essere inviato a più indirizzi e-mail, occorre creare un'azione «allora» per ciascun indirizzo.
+Se l'allarme deve essere inviato a più indirizzi e-mail, occorre creare un'azione "allora" per ogni singolo indirizzo.
 
 </div>
 <div className="col col--6 bild--mitte">
@@ -62,13 +62,13 @@ Se l'allarme deve essere inviato a più indirizzi e-mail, occorre creare un'azio
 <div className="row">
 <div className="col col--8">
 
-Con quale frequenza viene inviata un'e-mail di allarme?
+Con quale frequenza viene inviata un'e-mail di avviso?
 
-L'e-mail viene inviata una sola volta, quando lo stato peggiora. Se altri contatori smettono di funzionare prima che il primo torni online, non viene inviata nessun'altra e-mail. 
+L'e-mail viene inviata una sola volta, quando lo stato peggiora. Se altri contatori smettono di funzionare prima che il primo torni online, non viene inviata alcuna ulteriore e-mail. 
 
-Dopo aver risolto il problema, consigliamo di verificare nelle azioni se/allora che alla voce "Ultima attivazione" ("Zuletzt ausgelöst") sia indicato "mai" ("nie"). Se vi è indicato un orario, ci sono ancora contatori offline.
+Dopo aver risolto il problema, consigliamo di verificare nelle azioni se/allora che "Ultima attivazione" ("Zuletzt ausgelöst") riporti "mai" ("nie"). Se vi è indicato un orario, ci sono ancora contatori offline.
 
-Se desidera ricevere più di un'e-mail, deve configurare due allarmi, ad es. il primo con 1440 minuti e il secondo con 7200 minuti. In questo modo, ad esempio, un'e-mail passata inosservata può essere inviata una seconda volta.
+Se desideri ricevere più di un'e-mail, devi configurare due allarmi. Il primo ad es. con 1440 minuti e il secondo con 7200 minuti. In questo modo, ad esempio, un'e-mail passata inosservata può essere inviata una seconda volta.
 
 </div>
 <div className="col col--4 bild--mitte">
@@ -78,4 +78,4 @@ Se desidera ricevere più di un'e-mail, deve configurare due allarmi, ad es. il 
 </div>
 </div>
 
-Ora l'intera infrastruttura è pronta per impostare il conteggio.
+Ora l'intera infrastruttura è pronta per impostarvi sopra il conteggio.

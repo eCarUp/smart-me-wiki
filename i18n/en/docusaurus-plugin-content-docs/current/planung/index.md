@@ -1,7 +1,7 @@
 ---
 title: 'Planning'
 slug: '/planung'
-description: 'Examples of hardware installation in an association for own consumption incl.'
+description: 'Examples of hardware installation in a ZEV (association for own consumption) incl.'
 sidebar_label: 'Planning'
 ---
 
@@ -9,7 +9,7 @@ In this category, you will find details and important input to help you plan you
 
 ### The models
 
-The models show you the setup and the metering concepts used for your target system.
+The models show you the structure and the metering concepts used for your target system.
 
 <Unterseiten nur="planung/standard-messkonzept, planung/zev-zusammenschluss-zum-eigenverbrauch, planung/virtuelle-zev-vzev, planung/leg-lokale-elektrizitaetsgemeinschaft/index, planung/elektromobilitaet/index" />
 
@@ -27,7 +27,7 @@ Use our tools to firm up your project and create the corresponding bills of mate
 </NurFuer>
 
 ### Special metering concepts
-Here you will find special / rare metering concepts and their impact on your operation.
+Find special and rare metering concepts here, along with their impact on your operation.
 
 <Unterseiten nur=" planung/mkd3-messkonzept-nicht-teilnehmer, planung/messkonzept-notstromloesung, planung/messkonzept-produzenten-hinter-haeuser" />
 

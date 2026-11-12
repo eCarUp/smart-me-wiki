@@ -1,18 +1,18 @@
 <NurFuer land="ch">
 
 <details id="zev-mit-notstromsystemen" open>
-<summary>NEW: ZEV with emergency power systems</summary>
+<summary>NEW: ZEV (association for own consumption) with emergency power systems</summary>
 
 You can now use an alternative tariff setup for emergency power systems.  
 
-Since there is often no space for the solar meter, you can now simply set up tariffs using the building connection and total consumption, without having to go to the trouble of adding the solar meter.
+Since there is often no space for the solar meter, you can now simply set up the tariffs using the building connection and total consumption, without having to go to the trouble of adding the solar meter.
 
-To do this, select the solar tariff incl. vZEV (Solartarif inkl. vZEV):
+To do this, select the solar tariff incl. vZEV:
 \- Reference meter: Consumption and balance (Referenzzähler: Verbrauch und Bilanz)
 
-The tariffs are now calculated correctly without a solar meter, saving you cumbersome installations and conversions.
+The tariffs are now calculated correctly without a solar meter, saving you cumbersome installations and modifications.
 
-Note: If it is possible to install a solar power meter, please do not hesitate to do so. Complete coverage of the metering concept can compensate for incorrect data caused by meter defects, whereas systematically leaving meters out removes this possibility.
+Note: If it is possible to install a solar power meter, please do not hesitate to do so. Complete coverage of the metering concept can compensate for incorrect data caused by meter defects; systematically omitting meters, however, removes this possibility.
 
 [More details](/planung/messkonzept-notstromloesung)
 
@@ -23,11 +23,11 @@ Note: If it is possible to install a solar power meter, please do not hesitate t
 </NurFuer>
 
 <details id="kleines-update-zum-solarmanager-ab-august-2026" open>
-<summary>Small update on the SolarManager from August 2026</summary>
+<summary>Small update to SolarManager from August 2026</summary>
 
-With the new SolarManager update, Picos are no longer controlled via the serial number but via the ID of the load management level 1 group.
+With the new SolarManager update, Picos are no longer controlled via the serial number, but via the ID of the load management level 1 group.
 
-In this short video, I show you step by step how this works so that you can make the correct settings on the smart-me side.
+In this short video, I show you step by step how this works so that you can configure the settings on the smart-me side correctly.
 
 This is great to know: the update makes single-phase charging at 6 A (approx. 1.4 kW) possible, which is ideal for smaller PV surpluses. You can find out how to configure this in the SolarManager documentation.
 
@@ -40,7 +40,7 @@ solarmanager\_update\_2026.mp4
 <details id="rechnungsvorschau-v1">
 <summary>NEW: Invoice preview V1</summary>
 
-You can now generate an invoice preview before creating final invoices.
+You can now generate an invoice preview before you create final invoices.
 
 - Check your configurations quickly and easily.
 
@@ -50,7 +50,7 @@ You can now generate an invoice preview before creating final invoices.
 
 Where?
 
-Billing (Rechnungsstellung) --> Invoices (Rechnungen)
+Billing --> Invoices (Rechnungsstellung --> Rechnungen)
 
 ![Technical data & manuals – Figure 2](/img/home/02.png)
 
@@ -59,11 +59,11 @@ Billing (Rechnungsstellung) --> Invoices (Rechnungen)
 </details>
 
 <details id="aktualisierung-unserer-agb-datenschutzrichtlinien">
-<summary>Update to our terms and conditions & privacy policies</summary>
+<summary>Update to our GTC & privacy policies</summary>
 
 We have updated our General Terms and Conditions (GTC) and privacy policies. To regulate data processing within our group of companies in the best possible legal way, the documents have been supplemented with a so-called "Joint Controller Agreement" (JCA). The updated versions are now available online for review.
 
-[→ To the terms and conditions & privacy policy](https://web.smart-me.com/agb-smart-me-ag/)
+[→ To the GTC & privacy policy](https://web.smart-me.com/agb-smart-me-ag/)
 
 </details><NurFuer land="ch">
 
@@ -95,7 +95,7 @@ Prepare for a smooth transition to our new, modern platform. Get a quick overvie
 
 - Dedicated specification of the entries in smart-me Billing
 
-[→ To the tariff calculator for electricity and solar](/konfiguration/billing/stromtarife-definieren/stromtarif-rechner)
+[→ To the electricity and solar tariff calculator](/konfiguration/billing/stromtarife-definieren/stromtarif-rechner)
 
 ![Technical data & manuals – Figure 4](/img/home/04.png)
 
@@ -106,7 +106,7 @@ Prepare for a smooth transition to our new, modern platform. Get a quick overvie
 
 You can now also bill dynamic grid tariffs to your tenants. 
 
-We import the dynamic tariff from your provider and apply it every 15 minutes to the actual grid consumption of the respective consumer.
+We import the dynamic tariff from your provider and apply it every 15 minutes to the effective grid consumption of the respective consumer.
 
 [→ More information on tariffs](/konfiguration/billing/stromtarife-definieren)
 
@@ -119,15 +119,15 @@ We import the dynamic tariff from your provider and apply it every 15 minutes to
 <details id="my-dashboards">
 <summary>New: My Dashboards</summary>
 
-Lets you create personalized dashboards such as energy flows and overview displays of your building.
+Lets you create personalized dashboards such as energy flows and overviews of your building.
 
 ![Technical data & manuals – Figure 7](/img/home/07.png)
 
 [→ Learn more](/konfiguration/my-dashboards)
 
-- Energy map
+- Energy map (Energiekarte)
 
-- Energy flows
+- Energy flows (Energieflüsse)
 
 ![Technical data & manuals – Figure 8](/img/home/08.png)
 
@@ -136,7 +136,7 @@ Lets you create personalized dashboards such as energy flows and overview displa
 <details id="technische-tools">
 <summary>New: Technical Tools</summary>
 
-In the new Technical Tools (Technische Tools) section, you will find aids for installation and maintenance of the installation.
+In the new Technical Tools (Technische Tools) section, you will find aids for installing and maintaining the installation.
 
 ![Technical data & manuals – Figure 9](/img/home/09.png)
 
@@ -157,15 +157,15 @@ The new AppLAB section is an experimental area that provides various features in
 
 [→ Learn more](/konfiguration/applab)
 
-- Peak Load Explorer (Spitzenlast-Explorer)
+- Peak load explorer (Spitzenlast-Explorer)
 
-- Reactive Power Report (Blindleistungsbericht)
+- Reactive power report (Blindleistungsbericht)
 
-- Battery Emulator (Batterie-Emulator)
+- Battery emulator (Batterie-Emulator)
 
-- ESG Report (ESG-Bericht)
+- ESG report (ESG-Bericht)
 
-- Autobill Setup Wizard (Autobill Einrichtungsassistent)
+- Autobill setup wizard (Autobill Einrichtungsassistent)
 
 </details>
 
@@ -174,7 +174,7 @@ The new AppLAB section is an experimental area that provides various features in
 
 The entire smart-me UI has received a design refresh.
 
-- Nothing has changed in terms of usage.
+- Nothing has changed in how it is used.
 
 ![Technical data & manuals – Figure 12](/img/home/12.png)
 
@@ -208,11 +208,11 @@ Check the production and yields of your ZEV (association for own consumption) in
 
 Existing visualizations:
 
-Existing visualizations receive a new design. They are updated automatically without any additional configuration.
+Existing visualizations are getting a new design. They are updated automatically without any additional configuration.
 
 New Pico visualization:
 
-Take a look at the new Pico visualization, which shows all Pico charge points and their charging groups at a glance – with current draw, occupancy, maximum power consumption and much more.
+Take a look at the new Pico visualization, which shows all Pico charge points and their charging groups at a glance – with current consumption, occupancy, maximum power consumption and much more.
 
 [→ More information on the new visualizations](/konfiguration/visualisierung)
 
@@ -223,15 +223,15 @@ Take a look at the new Pico visualization, which shows all Pico charge points an
 </details>
 
 <details id="das-neue-m-bus-gateway-sirius-ist-da">
-<summary>The new M-Bus Gateway Sirius is here!</summary>
+<summary>The new M-Bus gateway Sirius is here!</summary>
 
 Our product family continues to grow: with the Sirius, we are launching our most powerful gateway yet for large building infrastructures.
 
 - Massive capacity – Up to 250 M-Bus standard loads in one device. 
 
-- Multi-energy – Water, heat, cooling and gas managed centrally. 
+- Multi-energy – Water, heat, cooling and gas centrally under control. 
 
-- Maximum security – Huge data storage in the event of connection failures.
+- Maximum security – Huge data storage in case of connection failures.
 
 [→ More information on the Sirius](/produkte/m-bus-gateway/sirius)
 
@@ -240,14 +240,14 @@ Our product family continues to grow: with the Sirius, we are launching our most
 </details><NurFuer land="ch">
 
 <details id="mwst-richtig-verrechnen">
-<summary>NEW: VAT – charging it correctly</summary>
+<summary>NEW: VAT - Charging it correctly</summary>
 
 <div className="row">
 <div className="col col--6">
 
-Applying VAT is an important point in billing. To avoid making mistakes there, you will find instructions here on how to correctly show VAT for your case.
+Applying VAT is an important point in billing. To avoid mistakes, you will find instructions here on how to correctly show VAT for your case.
 
-VAT law relating to the ZEV (association for own consumption) is changing almost as quickly as the technology.
+VAT law on the ZEV (association for own consumption) is changing almost as quickly as the technology.
 
 [→ More information for our partners](/konfiguration/billing/mwst-zev-nebenkosten)
 

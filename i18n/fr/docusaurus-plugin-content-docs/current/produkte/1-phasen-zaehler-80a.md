@@ -1,28 +1,28 @@
 ---
 title: 'Compteur monophasé 80A'
 slug: '/produkte/1-phasen-zaehler-80a'
-description: 'Le compteur monophasé 80A smart-me est un compteur d''énergie doté d''une interface WiFi intégrée pour la transmission de données en temps réel.'
+description: 'Le compteur monophasé 80A de smart-me est un compteur d''énergie doté d''une interface WiFi intégrée pour la transmission de données en temps réel.'
 sidebar_label: 'Compteur monophasé'
 ---
-Le compteur monophasé 80A smart-me est un compteur d'énergie doté d'une interface WiFi intégrée pour la transmission de données en temps réel. Le compteur synchronise les valeurs mesurées de manière automatisée et chiffrée dans le cloud smart-me. Les données peuvent être exportées et traitées dans le portail smart-me ou, via notre interface ouverte, dans des systèmes tiers. Le compteur dispose d'une sortie numérique permettant de commander des appareils à contact libre de potentiel.
+Le compteur monophasé 80A de smart-me est un compteur d'énergie doté d'une interface WiFi intégrée pour la transmission de données en temps réel. Le compteur synchronise automatiquement les valeurs mesurées, de manière chiffrée, dans le Cloud smart-me. Les données peuvent être consultées dans le portail smart-me ou exportées vers des systèmes tiers via notre interface ouverte, puis y être traitées. Le compteur dispose d'une sortie numérique permettant de commander des appareils à contact sec.
 
 ![Compteur monophasé 80A – Illustration 1](/img/produkte-1-phasen-zaehler-80a/01.jpg)
 
 ## Fonctions
 
-- [Installation](/konfiguration/inbetriebnahme) avec l'app smart-me gratuite.
+- [Installation](/konfiguration/inbetriebnahme) avec l'application smart-me gratuite.
 
 - Commande via des [actions si/alors](/konfiguration/wenndann-aktionen) ou des [actions déclenchées par un événement](/konfiguration/wenndann-aktionen/ereignisaktionen)
 
 - [Visualisations](/konfiguration/visualisierung)
 
-- [Sortie à contact libre de potentiel](/schnittstellen/ein-und-ausgaenge) pour la commande d'appareils externes
+- [Sortie à contact sec](/schnittstellen/ein-und-ausgaenge) pour commander des appareils externes
 
-- Entrée à contact libre de potentiel pour le signal tarifaire ou comme [entrée numérique](/schnittstellen/ein-und-ausgaenge)
+- Entrée à contact sec pour le signal tarifaire ou comme [entrée numérique](/schnittstellen/ein-und-ausgaenge)
 
 - [Interfaces](/) via API, CSV, MSCONS et IS-E
 
-- Connexion de données chiffrée en temps réel vers le cloud smart-me 
+- Connexion de données chiffrée en temps réel vers le Cloud smart-me 
 
 ## Caractéristiques techniques
 
@@ -30,35 +30,35 @@ Le compteur monophasé 80A smart-me est un compteur d'énergie doté d'une inter
 | --- | --- |
 | Certification du produit | CE |
 | Classe de précision | Classe 1 selon EN 50470-1 (IEC62053-21), 1% sur toute la plage de mesure |
-| Sens | +A (soutirage), -A (injection) |
-| Tension du réseau | 85-253 VAC 50/60 Hz |
+| Sens | +A (soutirage), -A (fourniture) |
+| Tension réseau | 85-253 VAC 50/60 Hz |
 | Courant maximal Imax | 80 A |
 | Plage de température | -40°C à +70°C |
-| Humidité rel. de l'air | Moyenne annuelle 75%, sans condensation<br />temporairement 95%, sans condensation |
-| Valeurs mesurées | Énergie active (kWh), puissance active (kW)<br />courant (A), tension (V), facteur de puissance (cosφ) |
+| Humidité relative | Moyenne annuelle 75%, sans condensation<br />brièvement 95%, sans condensation |
+| Valeurs mesurées | Énergie active (kWh), puissance active (kW)<br />Courant (A), tension (V), facteur de puissance (cosφ) |
 | Autoconsommation | < 0.8 W |
-| Tarifs | Deux via l'entrée tarifaire numérique E1, tarifs virtuels illimités dans le cloud smart-me |
+| Tarifs | Deux via l'entrée tarifaire numérique E1, tarifs virtuels illimités dans le Cloud smart-me |
 | Sortie S0 | 1'000 Imp/kWh |
-| Entrée numérique / tarif | Entrée libre de potentiel, 25-253 VAC/VDC |
-| Sortie numérique / S0 | Sortie libre de potentiel, 12 VDC / 230 VAC, max. 0.4W |
+| Entrée numérique / tarif | Entrée à contact sec, 25-253 VAC/VDC |
+| Sortie numérique / S0 | Sortie à contact sec, 12 VDC / 230 VAC, max. 0.4W |
 | Communication | WLAN IEEE 802.11 b/g/n (2.4 GHz) |
 | Volume de données | < 75MB/mois |
 | Débit de données | < 0.1 Mbit/s |
 | Norme de sécurité WLAN | WEP, WPA-PSK/WPA2-PSK |
 | Mémoire de données | 2 mois |
 | Mise à jour du firmware | Possible en ligne |
-| CEM immunité | EN 61000-6-2 (environnement industriel) |
-| CEM émissions | EN 61000-6-3 (environnement résidentiel) |
-| Indice de protection boîtier/bornes, utilisation | IP20 / IP51 (monté dans une armoire électrique), intérieur |
+| Immunité CEM | EN 61000-6-2 (environnement industriel) |
+| Émissions CEM | EN 61000-6-3 (environnement résidentiel) |
+| Indice de protection boîtier/raccordements, utilisation | IP20 / IP51 (monté dans une armoire électrique), intérieur |
 | Montage | Rail DIN |
 | Dimensions | 2 modules, L:90mm l:36mm H:65.7mm |
 | Emplacement des serveurs | Suisse |
 | Classe de protection | II |
 | Dernière modification | 25.09.2023 |
 
-## Écran
+## Affichage
 
-Le compteur affiche alternativement différentes valeurs.
+Le compteur affiche différentes valeurs en alternance.
 
 - "So XXXX" est la version du logiciel installée.
 
@@ -70,7 +70,7 @@ Le compteur affiche alternativement différentes valeurs.
 
 ## Dimensions et raccordements
 
-Les données \*.DXF et \*.DWG se trouvent dans l'archive ZIP dans les téléchargements.
+Les fichiers \*.DXF et \*.DWG se trouvent dans l'archive ZIP de la section Téléchargements.
 
 ### Dimensions
 
@@ -84,11 +84,11 @@ Les données \*.DXF et \*.DWG se trouvent dans l'archive ZIP dans les téléchar
 
 Touche T(4) pour l'installation
 
-Un appui de 10 secondes sur la touche T(4) crée un WiFi local pour l'installation
+Un appui de 10 secondes sur la touche T(4) génère un réseau WiFi local pour l'installation
 
 ## Configurer les entrées et sorties
 
-Le compteur monophasé 80A dispose d'une sortie numérique et d'une entrée numérique, qui peuvent être utilisées comme entrées et sorties d'impulsions ou comme contact commutable libre de potentiel. Vous trouverez plus de détails sur la page wiki [Entrées et sorties](/schnittstellen/ein-und-ausgaenge) 
+Le compteur monophasé 80A dispose d'une sortie numérique et d'une entrée numérique, qui peuvent être utilisées comme entrées et sorties d'impulsions ou comme contact sec commutable. Vous trouverez plus de détails à ce sujet sur la page Wiki [Entrées et sorties](/schnittstellen/ein-und-ausgaenge) 
 
 ## Informations d'expédition
 
@@ -107,7 +107,7 @@ Poids avec emballage : 130g
 
 [Déclaration de conformité CE](https://drive.google.com/file/d/10y8f8oD-F35VTPD9ygTtsLqXAIbuyc3S/view?usp=drive_link)
 
-[Schéma de raccordement fichiers ZIP](https://drive.google.com/file/d/1aY9_dMdLi2RjgHjk9y89Ibd_AIGwMUZW/view?usp=share_link) (les données \*.DXF et \*.DWG se trouvent dans l'archive ZIP)
+[Schéma de raccordement fichiers ZIP](https://drive.google.com/file/d/1aY9_dMdLi2RjgHjk9y89Ibd_AIGwMUZW/view?usp=share_link) (les fichiers \*.DXF et \*.DWG se trouvent dans l'archive ZIP)
 
 [Quick Starter](https://docs.google.com/document/d/1XNv61P1L0gXvgaCT4bvFbou8h6rOBkNjgkRk9sUTS60/export?format=pdf)
 
@@ -118,13 +118,13 @@ Poids avec emballage : 130g
 
 - Avec les licences Basic ou Limited : max. 1x par minute.
 
-- Avec une licence Pro : max. 1x par seconde
+- Avec la licence Pro : max. 1x par seconde
 
 </details>
 
 <details id="kann-ich-den-zählerstand-auf-null-zurücksetzten">
 <summary>Puis-je remettre le relevé du compteur à zéro ?</summary>
 
-Non, comme nos compteurs sont utilisés pour des décomptes, il n'est pas possible de les remettre à zéro.
+Non, nos compteurs étant utilisés pour des décomptes, il n'est pas possible de les remettre à zéro.
 
 </details>

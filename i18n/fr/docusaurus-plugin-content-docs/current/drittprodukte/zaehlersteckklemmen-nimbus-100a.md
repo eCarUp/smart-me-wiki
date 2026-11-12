@@ -4,11 +4,11 @@ slug: '/drittprodukte/zaehlersteckklemmen-nimbus-100a'
 description: 'Le Nimbus 100A est directement compatible avec différentes bornes enfichables pour compteur.'
 sidebar_label: 'Bornes enfichables pour compteur Nimbus 100A'
 ---
-Le Nimbus 100A est directement compatible avec différentes bornes enfichables pour compteur. Vous trouverez ci-dessous la liste des bornes enfichables que nous connaissons et avons testées.
+Le Nimbus 100A est directement compatible avec différentes bornes enfichables pour compteur. Vous trouverez ci-dessous les bornes enfichables que nous connaissons et avons testées.
 
-Les bornes enfichables pour compteur permettent de remplacer ou d'échanger des compteurs en service, sans interrompre l'alimentation électrique.
+Les bornes enfichables pour compteur permettent de remplacer ou d'échanger des compteurs en cours d'exploitation, sans interrompre l'alimentation électrique.
 
-Veuillez noter que l'utilisation de ces bornes enfichables nécessite également de commander des accessoires tels qu'un outil de connexion et des broches de raccordement pour compteur.
+Veuillez noter que l'utilisation de ces bornes enfichables nécessite de commander également des accessoires tels que l'outil de connexion et les broches de raccordement pour compteur.
 
 <Kacheln min="15rem">
 

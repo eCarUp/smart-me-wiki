@@ -8,7 +8,7 @@ sidebar_label: 'Loxone'
 
 ## Integrazione tramite Modbus
 
-Il template permette di leggere i dati del contatore direttamente dal contatore.
+Il template offre la possibilità di leggere i dati del contatore direttamente dal contatore.
 
 - Requisito: [Modbus TCP](/schnittstellen/modbus-tcp) deve essere attivato sul contatore. L'IP o il nome DNS del contatore deve essere inserito nel template.
 
@@ -19,7 +19,7 @@ Il template permette di leggere i dati del contatore direttamente dal contatore.
 
 ## Integrazione tramite API - Basic Auth (obsoleta)
 
-Il template permette di leggere i dati del contatore dal nostro cloud e di comandare le uscite digitali.
+Il template offre la possibilità di leggere i dati del contatore dal nostro cloud e di comandare le uscite digitali.
 
 Nota: Basic Auth verrà disattivata per soddisfare i crescenti requisiti di sicurezza.
 
@@ -30,15 +30,15 @@ Possibile solo fino a novembre 2026 (fino a v.1.0.2)
 - [Documentazione API](/schnittstellen/api)
 
 
-Nel template, il nome utente e la password dell'account devono precedere l'URL della chiamata API. A seconda dei casi, il nome utente deve essere impostato da smart-me.
+Nel template, il nome utente e la password dell'account devono precedere l'URL della chiamata API. Il nome utente deve essere impostato a seconda di quanto definito da smart-me.
 
 ## Integrazione tramite API - Chiavi API (consigliata)
 
-Il template permette di leggere i dati del contatore dal nostro cloud e di comandare le uscite digitali.
+Il template offre la possibilità di leggere i dati del contatore dal nostro cloud e di comandare le uscite digitali.
 
 Nota: Loxone non offre un modo più semplice per gestire le chiavi API. La procedura descritta di seguito è stata elaborata insieme a Loxone. Le chiavi API sono state introdotte per soddisfare i crescenti requisiti di sicurezza.
 
-dalla versione 1.0.3
+a partire dalla versione 1.0.3
 
 - [Loxone Library](https://library.loxone.com/vendor/smart-me-1505)
 
@@ -48,13 +48,13 @@ dalla versione 1.0.3
 ### 1. Creare una chiave API nel portale smart-me.
 
 
-Accedere al portale smart-me --> Menu Interfacce (Schnittstellen) --> API  --> In alto nel banner arancione cliccare sul "Link" (Link) -->  "Crea nuova" (Neu erstellen).
+Login nel portale smart-me --> Menu Interfacce (Schnittstellen) --> API  --> In alto nel banner arancione, cliccare sul "Link" -->  "Crea nuovo" ("Neu erstellen").
 
 - Assegnare una denominazione alla chiave API, ad es. Loxone, 
 - Impostare la data di scadenza
 - Impostare le autorizzazioni. Per Loxone è sufficiente "device.readswitch" (se il browser lo traduce automaticamente in tedesco, utilizzare "Gerät.LesenSchalten") 
 - Creare
-- Copiare la chiave API.  Attenzione: in seguito la chiave non può più essere recuperata.
+- Copiare la chiave API.  Attenzione: in seguito la chiave non può più essere richiamata.
 - La chiave API sarà necessaria in seguito.
 
 
@@ -66,11 +66,11 @@ In generale: ulteriori informazioni sulle autorizzazioni: [API](/schnittstellen/
 
 ### 2\. Ottenere il DeviceID del contatore smart-me
 
-Se l'account è Professional, il DeviceID può essere ottenuto molto semplicemente 
+Se l'account è Professional, il DeviceID può essere ottenuto molto facilmente 
 
 1.  Menu Sistema (System) --> Salute del sistema (Systemgesundheit)
 2.  Cercare i dispositivi
-3.  L'ID dispositivo (Geräte-ID) verrà utilizzato in seguito. Ad es. 61c71d00-3d40-4963-745b2-7c6b0c512gf3
+3.  L'ID del dispositivo verrà utilizzato in seguito. ad es. 61c71d00-3d40-4963-745b2-7c6b0c512gf3
 
 Se l'account non è dotato di licenza, il DeviceID deve essere ottenuto tramite l'API.
 1.  Premere il tasto Windows e digitare "cmd".
@@ -81,43 +81,43 @@ Se l'account non è dotato di licenza, il DeviceID deve essere ottenuto tramite 
 
 curl -X "GET" "https://api.smart-me.com/Devices" -H "accept: \*/\*" -H "Authorization: ApiKey n9CUnYCGmTOQZCCX1iHRqrF5Erzx9pUu" 
 
-4\. Nella risposta cercare il nome del contatore e copiarne l'Id.
+4\. Nella risposta, cercare il nome del contatore e copiare l'Id.
 
 ![Loxone – Figura 4](/img/drittsysteme-loxone/04.png)
 
 ### 3\. Configurare l'uscita virtuale in Loxone
 
-- Scaricare il template dalla Loxone Library (VO\_XXXX). (Vedere il link più sopra)
-- Nella struttura ad albero / periferia di Loxone cliccare su Uscite virtuali (Virtuelle Ausgänge)
-- In alto nel menu di Loxone, sotto "Dispositivi predefiniti" (Vordefinierte Geräte), caricare la smart-me Request.
-- Compare una nuova uscita virtuale: cliccare sul comando "Meter".
-- Nel campo "Comando con ON" (Befehl bei EIN) &lt;meter.id\> deve essere sostituito con l'ID dispositivo.
-- Nel campo "HTTP header con ON" (HTTP header bei EIN) &lt;apikey> deve essere sostituito con la chiave API. Nota: la chiave API può essere la stessa per ogni contatore dello stesso account.
+- Scaricare il template dalla Loxone Library (VO\_XXXX). (Vedi link più sopra)
+- Nell'albero di Loxone / Periferia (Peripherie), cliccare su Uscite virtuali (Virtuelle Ausgänge)
+- In alto nel menu di Loxone, sotto "Dispositivi predefiniti" ("Vordefinierte Geräte"), caricare la smart-me Request.
+- Compare una nuova uscita virtuale; cliccare sul comando "Meter".
+- Nel campo "Comando con ON" ("Befehl bei EIN"), &lt;meter.id\> deve essere sostituito con l'ID del dispositivo.
+- Nel campo "Header HTTP con ON" ("HTTP header bei EIN"), &lt;apikey> deve essere sostituito con la chiave API. Nota: la chiave API può essere la stessa per ogni contatore dello stesso account.
 
 ![Loxone – Figura 5](/img/drittsysteme-loxone/05.png)
 
 ![Loxone – Figura 6](/img/drittsysteme-loxone/06.png)
 
-- Nel campo "Salva risposta HTTP" (HTTP-Antwort speichern) deve essere adattato il testo smartmeapi.html.
-- Il nome deve essere individuale per ogni uscita (cioè per ogni contatore). 
+- Nel campo "Salva risposta HTTP" ("HTTP-Antwort speichern") deve essere adattato il testo smartmeapi.html.
+- Il nome deve essere univoco per ogni uscita (quindi per ogni contatore). 
     - ad es. bilanz.html per il contatore di bilancio user/common/bilanz.html 
 
 ![Loxone – Figura 7](/img/drittsysteme-loxone/07.png)
 
 ### 4\. Configurare l'ingresso virtuale in Loxone
 
-- Seleziona le proprietà del Loxone Mini Server. Lì trovi il nome host o l'indirizzo IP del Miniserver. Questo dato è necessario per la configurazione successiva.
+- Selezionare le proprietà del Loxone Miniserver. Lì si trovano il nome host o l'indirizzo IP del Miniserver. Questi dati sono necessari per la configurazione successiva.
 
 ![Loxone – Figura 8](/img/drittsysteme-loxone/08.png)
 
 - Scaricare il template dalla Loxone Library (VI\_XXXX).
-- Sotto "Dispositivi HTTP predefiniti" (Vordefinierte HTTP-Geräte) caricare lo smart-me meter.
+- Sotto "Dispositivi HTTP predefiniti" ("Vordefinierte HTTP-Geräte"), caricare lo smart-me meter.
 - Compare un nuovo ingresso virtuale
 - Cliccare sull'ingresso "smart-me meter".
-- Nel campo "URL" devono essere adattati i seguenti elementi.
+- Nel campo "URL" devono essere adattati i seguenti punti.
     - Credenziali di accesso del Loxone Miniserver
-    - Nome host o IP del Loxone Mini Server
-    - Nome del file HTML inserito. Per lo stesso comando è necessario lo stesso nome indicato sopra, ad es. bilanz.html. 
+    - Nome host o IP del Loxone Miniserver
+    - Nome del file HTML memorizzato. Per lo stesso comando è necessario lo stesso nome indicato sopra. ad es. bilanz.html. 
 
 - Esempio di un comando:
 
@@ -129,7 +129,7 @@ curl -X "GET" "https://api.smart-me.com/Devices" -H "accept: \*/\*" -H "Authoriz
 
 ### 5\. Collegare il generatore di impulsi all'uscita virtuale
 
-Se non si utilizza l'Example Meter, il "Comando uscita virtuale" (Virtuelle Ausgang Befehl) deve essere comandato tramite un generatore di impulsi.
+Se non si utilizza l'Example Meter, il "Comando uscita virtuale" ("Virtuelle Ausgang Befehl") deve essere attivato tramite un generatore di impulsi.
 
 ![Loxone – Figura 10](/img/drittsysteme-loxone/10.png)
 
@@ -139,11 +139,11 @@ Se non si utilizza l'Example Meter, il "Comando uscita virtuale" (Virtuelle Ausg
 
 ## Utilizzare i contatori Loxone in smart-me
 
-Il modulo permette di inviare i dati del contatore al nostro cloud.
+Il modulo offre la possibilità di inviare i dati del contatore al nostro cloud.
 
 - [Loxone Library (da Loxone a smart-me)](https://library.loxone.com/detail/smart-me-cloud-1764/overview)
 
-Importante: questo modulo non è stato sviluppato da smart-me. Non offriamo supporto per esso. Le conoscenze necessarie per utilizzare questo modulo devi acquisirle autonomamente; dal nostro punto di vista è destinato a utenti Loxone esperti.
+Importante: questo modulo non è sviluppato da smart-me. Non offriamo supporto per questo modulo. Le conoscenze necessarie per utilizzarlo devono essere acquisite autonomamente e, dal nostro punto di vista, il modulo è destinato a utenti Loxone esperti.
 
 Queste istruzioni offrono solo una breve panoramica su come creare un punto di misura, operazione che non avviene tramite il modulo Loxone.
 

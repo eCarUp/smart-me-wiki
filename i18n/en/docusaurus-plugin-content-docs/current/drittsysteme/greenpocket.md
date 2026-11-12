@@ -33,7 +33,7 @@ The smart-me MSCONS data contains the following energy sources:
 - Data management for multiple sites
 - Alarms for unusual developments at the sites
 - Comparison of data sets using personalised formulas
-    (e.g. electricity per 100% full-time position at the sites)
+    (e.g. electricity per 100% position at sites)
 - Creation of site overviews
 - Visualizations
 - Automated personalised reports

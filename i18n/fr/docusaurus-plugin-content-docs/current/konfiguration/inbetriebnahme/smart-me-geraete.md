@@ -6,11 +6,11 @@ sidebar_label: 'Appareils smart-me'
 ---
 ## Préparation
 
-Les points suivants doivent être réunis avant la mise en service
+Les éléments suivants doivent être disponibles avant la mise en service
 
 ## Prérequis WiFi
 
-- WiFi 802.11 b/g/n 2.4GHz (pas de réseau 5GHz ni de réseau combiné avec le même SSID)
+- WiFi 802.11 b/g/n 2.4GHz (pas de 5GHz ni de réseau combiné avec le même SSID)
 
 - Les ports 80 UDP et 53 UDP/TCP doivent être ouverts vers l'extérieur.
 
@@ -18,9 +18,9 @@ Les points suivants doivent être réunis avant la mise en service
 
 - Le SSID ne doit pas être masqué.
 
-- Le SSID ne prend en charge que les caractères ASCII, à l'exception de $ (Ä,Ö,Ü ne fonctionnent pas)
+- Le SSID prend en charge uniquement les caractères ASCII, à l'exception de $ (Ä, Ö, Ü ne fonctionnent pas)
 
-- Les filtres d'adresses MAC doivent être désactivés pendant l'installation. (Les adresses MAC des appareils ne peuvent être lues que par ARP)
+- Les filtres d'adresses MAC doivent être désactivés pendant l'installation. (Les adresses MAC des appareils ne peuvent être lues que via ARP)
 
 - Le réseau doit disposer d'un serveur DHCP
 
@@ -30,7 +30,7 @@ Les points suivants doivent être réunis avant la mise en service
 
 ## Compte smart-me
 
-Nous recommandons de créer un compte à l'avance, et un compte distinct pour chaque installation. Aucune licence n'est nécessaire pour la mise en service.
+Nous recommandons de créer un compte à l'avance et séparément pour chaque installation. Aucune licence n'est nécessaire pour la mise en service.
 
 ## Installer App
 
@@ -44,9 +44,9 @@ Android : localisation, caméra
 
 - Pico : une carte RFID (fournie)
 
-- Telstar 80A, CT et M-Bus Gateway : un petit tournevis pour appuyer sur la touche T1
+- Telstar 80A, CT et passerelle M-Bus : un petit tournevis pour appuyer sur la touche T1
 
-![Icône de l'Installer App smart-me : deux outils croisés sur fond bleu](/img/konfiguration-inbetriebnahme/01.png)
+![Icône de la smart-me Installer App : deux outils croisés sur fond bleu](/img/konfiguration-inbetriebnahme/01.png)
 
 [App Store](https://apps.apple.com/ch/app/smart-me-installer/id6502614018)
 
@@ -66,7 +66,7 @@ Android : localisation, caméra
 
 5.  Lancez l'application, connectez-vous avec le compte correspondant ou créez un compte.
 
-6.  Dans le menu, vérifier avec Diagnostic (Diagnose) si les serveurs sont joignables.
+6.  Dans le menu, vérifier avec Diagnostic (Diagnose) que les serveurs sont joignables.
 
 7.  Cliquez en bas à droite sur « Installer l'appareil » („Gerät installieren“) (+)
 
@@ -84,9 +84,9 @@ Android : localisation, caméra
 
 14.  Choisir "WLAN quick connect"
 
-15.  Attendez que l'invite vous demandant de vous connecter à smart-me\_xxxxxx apparaisse.
+15.  Attendez que l'invite vous demandant de vous connecter à smart-me\_xxxxxx s'affiche.
 
-16.  Attendre que l'installation se soit terminée avec succès.
+16.  Attendre que l'installation soit terminée avec succès.
 
 17.  Attribuer un nom.
 
@@ -98,16 +98,16 @@ Android : localisation, caméra
 
      - Kamstrup :  clé du compteur (trois roues dentées / clé du compteur / enregistrer)
 
-Si l'installation échoue, veuillez suivre le guide détaillé avec la description des erreurs.
+Si l'installation échoue, veuillez suivre les instructions détaillées, description des erreurs comprise.
 
-## Guide détaillé avec description des erreurs
+## Instructions détaillées avec description des erreurs
 
 <div className="row">
 <div className="col col--4">
 
 **1. Connexion WIFI**
 
-Connectez le smartphone au même WLAN 2,4 GHz que celui auquel les appareils seront raccordés par la suite.
+Connectez le smartphone au même WLAN 2,4 GHz que celui dans lequel les appareils seront intégrés par la suite.
 
 </div>
 <div className="col col--4">
@@ -116,7 +116,7 @@ Connectez le smartphone au même WLAN 2,4 GHz que celui auquel les appareils ser
 
 <div className="text--center">
 
-![Écran d'accueil de l'Installer App avec les boutons LOG IN et Registrieren](/img/konfiguration-inbetriebnahme/02.jpg)
+![Écran d'accueil de l'Installer App avec les boutons LOG IN et S'inscrire](/img/konfiguration-inbetriebnahme/02.jpg)
 
 </div>
 
@@ -127,7 +127,7 @@ Connectez le smartphone au même WLAN 2,4 GHz que celui auquel les appareils ser
 
 <div className="text--center">
 
-![Formulaire d'inscription de l'application avec e-mail, mot de passe et confirmation](/img/konfiguration-inbetriebnahme/04_EN.jpg)
+![Formulaire d'inscription de l'application avec e-mail, mot de passe et confirmation](/img/konfiguration-inbetriebnahme/04.jpg)
 
 </div>
 
@@ -143,7 +143,7 @@ Connectez le smartphone au même WLAN 2,4 GHz que celui auquel les appareils ser
 
 <div className="text--center">
 
-![Formulaire de connexion de l'application avec e-mail et mot de passe](/img/konfiguration-inbetriebnahme/05_EN.jpg)
+![Formulaire de connexion de l'application avec e-mail et mot de passe](/img/konfiguration-inbetriebnahme/05.jpg)
 
 </div>
 
@@ -156,13 +156,13 @@ Connectez le smartphone au même WLAN 2,4 GHz que celui auquel les appareils ser
 
 <div className="text--center">
 
-![Contrôle WLAN avec intensité du signal, fréquence WLAN et joignabilité du serveur](/img/konfiguration-inbetriebnahme/06.png)
+![Contrôle WLAN avec puissance du signal, fréquence WLAN et joignabilité du serveur](/img/konfiguration-inbetriebnahme/06.png)
 
 </div>
 
-Cette étape est facultative. L'important est que « Serveur joignable » („Server erreichbar") soit sur *Yes*.
+Cette étape est facultative. L'important est que « Serveur joignable » („Server erreichbar") indique *Yes*.
 
-Si l'avertissement concernant le réseau 5 GHz apparaît, un réseau 2,4 GHz doit également être disponible. Le smartphone ne peut pas être forcé à utiliser celui-ci — c'est pourquoi il ne s'agit que d'un avertissement.
+Si l'avertissement concernant le réseau 5 GHz apparaît, un réseau 2,4 GHz doit également être disponible. Le smartphone ne peut pas être forcé à l'utiliser — c'est pourquoi il ne s'agit que d'un avertissement.
 
 </div>
 <div className="col col--4">
@@ -171,7 +171,7 @@ Si l'avertissement concernant le réseau 5 GHz apparaît, un réseau 2,4 GHz doi
 
 <div className="text--center">
 
-![Liste d'appareils vide de l'application avec le bouton plus en bas à droite](/img/konfiguration-inbetriebnahme/07_EN.jpg)
+![Liste d'appareils vide de l'application avec le bouton plus en bas à droite](/img/konfiguration-inbetriebnahme/07.jpg)
 
 </div>
 
@@ -185,11 +185,11 @@ Si l'avertissement concernant le réseau 5 GHz apparaît, un réseau 2,4 GHz doi
 
 <div className="text--center">
 
-![Liste d'appareils avec Éditer surligné en vert à côté du WLAN d'installation](/img/konfiguration-inbetriebnahme/08_EN.jpg)
+![Liste d'appareils avec Éditer surligné en vert à côté du WLAN d'installation](/img/konfiguration-inbetriebnahme/08.jpg)
 
 </div>
 
-**Remarque :** cette étape n'est pas nécessaire lorsque les Picos sont mises en service via 4G.
+**Remarque :** cette étape n'est pas nécessaire si les Picos sont mises en service via 4G.
 
 </div>
 <div className="col col--4">
@@ -198,11 +198,11 @@ Si l'avertissement concernant le réseau 5 GHz apparaît, un réseau 2,4 GHz doi
 
 <div className="text--center">
 
-![Champ de saisie du mot de passe du WLAN d'installation](/img/konfiguration-inbetriebnahme/09_EN.jpg)
+![Champ de saisie du mot de passe du WLAN d'installation](/img/konfiguration-inbetriebnahme/09.jpg)
 
 </div>
 
-**Problèmes possibles :** si le SSID affiché est `<<unknown>>`, la localisation doit être activée et le smartphone doit être connecté à un WLAN.
+**Problèmes possibles :** si le SSID indiqué est `<<unknown>>`, la localisation doit être activée et le smartphone doit être connecté à un WLAN.
 
 </div>
 <div className="col col--4">
@@ -238,7 +238,7 @@ Si l'avertissement concernant le réseau 5 GHz apparaît, un réseau 2,4 GHz doi
 
 <div className="text--center">
 
-![Liste d'appareils avec l'invite à se connecter au WLAN de l'appareil](/img/konfiguration-inbetriebnahme/12.jpg)
+![Liste d'appareils avec l'indication de se connecter au WLAN de l'appareil](/img/konfiguration-inbetriebnahme/12.jpg)
 
 </div>
 
@@ -263,7 +263,7 @@ Si l'avertissement concernant le réseau 5 GHz apparaît, un réseau 2,4 GHz doi
 
 <div className="text--center">
 
-![Instructions avec un dessin montrant comment maintenir la touche T1 de l'appareil enfoncée](/img/konfiguration-inbetriebnahme/14_EN.jpg)
+![Instructions avec dessin indiquant de maintenir enfoncée la touche T1 de l'appareil](/img/konfiguration-inbetriebnahme/14.jpg)
 
 </div>
 
@@ -292,16 +292,16 @@ Si l'avertissement concernant le réseau 5 GHz apparaît, un réseau 2,4 GHz doi
 <div className="row">
 <div className="col col--8">
 
-- Sélectionner le compteur CT et l'éditer 
+- Sélectionner et éditer le compteur CT 
 
 - Saisir le rapport de transformation 
 
-- Le rapport de transformation peut être verrouillé. Cela sert de protection contre des modifications involontaires par des personnes non autorisées. Pour déverrouiller le rapport de transformation,  l'appareil doit être réinstallé avec l'application smart-me.
+- Le rapport de transformation peut être verrouillé. Cela protège contre les modifications involontaires par des personnes non autorisées. Pour déverrouiller le rapport de transformation,  l'appareil doit être réinstallé avec l'application smart-me.
 
 </div>
 <div className="col col--4 bild--mitte">
 
-![Détails de l'appareil dans l'application avec le facteur de transformation 200:5 et l'interrupteur « Verrouiller le facteur de transformation » („Wandlerfaktor sperren")](/img/konfiguration-inbetriebnahme/16_EN.jpg)
+![Détails de l'appareil dans l'application avec le facteur de transformation 200:5 et l'interrupteur « Verrouiller le facteur de transformation »](/img/konfiguration-inbetriebnahme/16.jpg)
 
 </div>
 </div>
@@ -310,9 +310,9 @@ Si l'avertissement concernant le réseau 5 GHz apparaît, un réseau 2,4 GHz doi
 
 Le rapport de transformation ne modifie pas les données historiques. Cette étape doit donc être effectuée immédiatement après la mise en service.
 
-## M-Bus Gateway / Sirius
+## Passerelle M-Bus / Sirius
 
-### Instructions pour les deux M-Bus Gateways
+### Instructions pour les deux passerelles M-Bus
 
 Étapes d'installation du matériel :
 
@@ -321,23 +321,23 @@ Le rapport de transformation ne modifie pas les données historiques. Cette éta
 2.  Terminer l'installation à l'aide de l'application conformément aux instructions.
     (Lier le matériel au WLAN et au compte cible. WLAN 2.4GHz)
 
-3.  Sous Configuration (Konfiguration) dans l'application ou sur l'ordinateur, lancer la  « recherche automatique » ("automatischer Suchlauf") pour trouver les appareils.
+3.  Sous Configuration (Konfiguration), dans l'application ou sur l'ordinateur, lancer la « recherche automatique » ("automatischen Suchlauf") afin de trouver les appareils.
 
-La mise en service des compteurs de chaleur et des compteurs d'eau reste en revanche effectuée par le fournisseur (p. ex. Neovac, Ista, GWF, Techem, etc.). La plupart du temps, ces entreprises raccordent à cet effet leur propre M-Bus Master dans le local technique afin de vérifier que les compteurs sont bien présents sur le M-Bus.
+La mise en service des compteurs de chaleur et des compteurs d'eau reste en revanche assurée par le fournisseur (p. ex. Neovac, Ista, GWF, Techem, etc.). Le plus souvent, ces entreprises raccordent leur propre maître M-Bus dans le local technique afin de vérifier que les compteurs arrivent bien sur le M-Bus.
 
-Un procès-verbal de mise en service est ensuite établi, et ce n'est qu'après que notre M-Bus Gateway est à nouveau raccordé.
+Un procès-verbal de mise en service est ensuite établi, et ce n'est qu'après que notre passerelle M-Bus est à nouveau raccordée.
 
-À l'aide des documents correspondants, les différents compteurs peuvent ensuite être attribués aux bons appartements dans le smart-me Cloud et la configuration peut être finalisée.
+À l'aide des documents correspondants, les différents compteurs peuvent ensuite être attribués aux bons appartements dans le cloud smart-me et la configuration peut être finalisée.
 
 Voici les informations nécessaires
 
 - Liste de tous les compteurs installés
 
-- Adresse M-Bus (nous n'avons besoin que de l'adresse secondaire, l'adresse primaire n'est pas pertinente pour nous)
+- Adresse M-Bus (nous avons uniquement besoin de l'adresse secondaire, l'adresse primaire n'est pas pertinente pour nous)
 
-- Appartement associé (désignation de l'appartement)
+- Appartenance à l'appartement (désignation de l'appartement)
 
-- Type de compteur (chaleur, eau chaude sanitaire ou eau froide, etc.)
+- Type de compteur (chaleur, eau chaude ou eau froide, etc.)
 
 Important : l'adresse secondaire doit être unique par compte smart-me ; en outre, pour les compteurs combinés chaleur/froid, la combinaison des 4 derniers chiffres doit être unique dans le compte. Le plus simple est d'utiliser le numéro de série de l'appareil.
 
@@ -348,31 +348,31 @@ Résultat de la recherche automatique
 Création automatique des compteurs après la recherche
 (prend quelques minutes)
 
-![Arborescence des compteurs d'un appartement avec les entrées Froid, Électricité, Chaleur et Eau chaude sanitaire](/img/konfiguration-inbetriebnahme/18.png)
+![Arborescence des compteurs d'un appartement avec les entrées Froid, Électricité, Chaleur et Eau chaude](/img/konfiguration-inbetriebnahme/18.png)
 
 ### Numérotation des compteurs combinés
 
-Le M-Bus Gateway ne reconnaît à chaque fois qu'un seul compteur à l'aide de l'adresse secondaire, qui figure en général aussi sur le procès-verbal de réception.
+La passerelle M-Bus ne reconnaît à chaque fois qu'un seul compteur au moyen de l'adresse secondaire, qui figure en général aussi sur le procès-verbal de réception.
 
 Les compteurs combinés sont ensuite affichés séparément sur le portail. Pour cette application, smart-me utilise sa propre logique de numérotation.
 
-Tous les compteurs non pertinents pour le décompte peuvent être [désactivés](/konfiguration/inbetriebnahme/zaehler-loeschen) afin d'économiser des frais de licence. La suppression n'est pas utile, car le compteur réapparaît sans cesse.
+Tous les compteurs non pertinents pour le décompte peuvent être [désactivés](/konfiguration/inbetriebnahme/zaehler-loeschen) afin d'économiser des frais de licence. Les supprimer n'est pas judicieux, car le compteur réapparaît sans cesse.
 
 Si un compteur contient plus d'un compteur, ceux-ci sont numérotés comme suit :
 
-- Compteur principal = adresse secondaire de la liste du M-Bus Gateway (p. ex. 71440145)
+- Compteur principal = adresse secondaire figurant dans la liste de la passerelle M-Bus (p. ex. 71440145)
 
-- Autres compteurs = adresse secondaire du compteur principal, les 1 ou 2 premiers chiffres sont supprimés (p. ex. 7) et un chiffre est incrémenté à la fin (p. ex. 14401451,14401452).
+- Autres compteurs = adresse secondaire du compteur principal, dont les 1 ou 2 premiers chiffres sont supprimés (p. ex. 7) et à la fin de laquelle un chiffre est incrémenté (p. ex. 14401451,14401452).
 
-- Sous-compteurs = ils contiennent les quatre derniers chiffres du compteur principal (p. ex. 0145) et un numéro d'ordre à quatre chiffres à la fin (p. ex. 01450001)
+- Sous-compteurs = ceux-ci contiennent les quatre derniers chiffres du compteur principal (p. ex. 0145) et un numéro d'énumération à quatre chiffres à la fin (p. ex. 01450001)
 
-Remarque concernant les 0 de tête : si un compteur porte p. ex. le numéro 1000017, les 0 de tête ne sont pas pris en compte après la troncature, donc p. ex. 000017, et sont ajoutés à la fin, p. ex. 1700001
+Remarque concernant les 0 en tête : si un compteur porte p. ex. le numéro 1000017, les 0 en tête ne sont pas pris en compte après la troncature, donc p. ex. 000017, et sont ajoutés à la fin, p. ex. 1700001
 
-![Compteur individuel trouvé « Heat 71440145 » avec son adressage](/img/konfiguration-inbetriebnahme/19.png)
+![Compteur unique trouvé « Heat 71440145 » avec son adressage](/img/konfiguration-inbetriebnahme/19.png)
 
 ![Quatre compteurs d'un compteur combiné : deux fois Cold, une fois Heat et une fois Water](/img/konfiguration-inbetriebnahme/20.png)
 
-### M-Bus Gateway : rechercher des appareils
+### Rechercher des appareils avec la passerelle M-Bus
 
 Les autres configurations doivent être effectuées dans le portail web
 
@@ -380,9 +380,9 @@ Les autres configurations doivent être effectuées dans le portail web
 
 - Modifier l'intervalle. Le M-Bus a besoin de 10 secondes par appareil pour la lecture.
 
-Lancer la recherche d'appareils sur le M-Bus Gateway
+Lancer la recherche d'appareils sur la passerelle M-Bus
 
-1.  En haut à droite, sur l'icône de roue dentée (Paramètres) (Einstellungen) 
+1.  En haut à droite, cliquer sur l'icône de roue dentée (Paramètres) (Einstellungen) 
 
 2.  Rechercher des appareils (Geräte suchen)
 
@@ -390,27 +390,27 @@ Lancer la recherche d'appareils sur le M-Bus Gateway
 
 Remarque : la recherche peut durer plusieurs minutes.
 
-Le gateway ne trouve pas tous les compteurs
+La passerelle ne trouve pas tous les compteurs
 
 - Relancez la recherche  (1-2x). Il se peut que le compteur ne soit pas toujours trouvé lors de la première recherche.
 
-- Vous trouverez d'autres causes sur la page [Pannes du M-Bus Gateway](/stoerungsbehebung/m-bus-gateway-stoerungen) 
+- Vous trouverez d'autres causes sur la page [Pannes de la passerelle M-Bus](/stoerungsbehebung/m-bus-gateway-stoerungen) 
 
-Le gateway trouve plus de compteurs que ceux installés
+La passerelle trouve plus de compteurs que ceux installés
 
-- Le plus souvent pendant la mise en service : selon le compteur M-Bus, celui-ci peut créer plusieurs sous-compteurs. On les reconnaît au fait que le numéro de série est décalé d'une position vers la gauche, suivi d'un nombre croissant. En commençant par 1. Ex. : compteur principal 00200001, sous-compteur 02000011
+- Le plus souvent pendant la mise en service : selon le compteur M-Bus, celui-ci peut créer plusieurs sous-compteurs. On les reconnaît au fait que le numéro de série est décalé d'une position vers la gauche, suivi d'un nombre croissant commençant par 1. Ex. : compteur principal 00200001, sous-compteur 02000011
 
-- Vous trouverez d'autres causes sur la page [Pannes du M-Bus Gateway](/stoerungsbehebung/m-bus-gateway-stoerungen) 
+- Vous trouverez d'autres causes sur la page [Pannes de la passerelle M-Bus](/stoerungsbehebung/m-bus-gateway-stoerungen) 
 
-![Menu du M-Bus Gateway dans le portail avec le bouton « Rechercher des appareils » („Geräte suchen") surligné en vert](/img/konfiguration-inbetriebnahme/21.png)
+![Menu de la passerelle M-Bus dans le portail avec le bouton « Rechercher des appareils » surligné en vert](/img/konfiguration-inbetriebnahme/21.png)
 
-### M-Bus Gateway : empêcher la détection de nouveaux appareils
+### Empêcher la détection de nouveaux appareils par la passerelle M-Bus
 
 Comment activer l'option ?
 
-- Sélectionner le M-Bus Gateway.
+- Sélectionner la passerelle M-Bus.
 
-- Choisissez la roue dentée du M-Bus Gateway (en haut à droite). Remarque : ne choisissez pas la roue dentée supérieure, qui sert à la configuration des compteurs, mais celle du bas.
+- Choisissez la roue dentée de la passerelle M-Bus (en haut à droite). Remarque : ne choisissez pas la roue dentée supérieure, qui sert à la configuration des compteurs, mais celle du bas.
 
 - Modifier (Bearbeiten)
 
@@ -430,27 +430,27 @@ Quand cette option est-elle recommandée ?
 
 - Lorsque des appareils M-Bus qui n'existent pas apparaissent régulièrement dans le portail.
 
-- Par mesure de prévention :-)
+- À titre préventif :-)
 
 Dans quels cas cela peut-il se produire ?
 
-- En cas d'erreurs dans la transmission des données. Cela se produit plus souvent lorsque le câble M-Bus est trop long et que la qualité de la transmission des données diminue, ou lorsque le câble est mal blindé ou exposé à des perturbations externes.
+- En cas d'erreurs de transmission des données. Cela se produit plus fréquemment lorsque le câble M-Bus est trop long et que la qualité de la transmission des données diminue, ou lorsque le câble est mal blindé ou exposé à des perturbations externes.
 
 Explication technique
 
-- Le protocole M-Bus standardisé ne dispose que d'1 byte pour la somme de contrôle. La somme de contrôle est destinée à détecter certaines erreurs dans la transmission des données. Malheureusement, 1 byte, c'est peu, et il arrive régulièrement qu'un paquet de données erroné soit considéré comme correct et valide. Dans certaines installations utilisant des M-Bus Gateways, cela conduit régulièrement à ce que des paquets corrompus soient classés comme corrects et valides, puis détectés et ajoutés comme nouvel appareil M-Bus dans notre cloud. Le compte passe alors de Professional à Basic, car la couverture des licences n'est plus assurée.
+- Le protocole M-Bus standardisé ne dispose que de 1 byte pour la somme de contrôle. La somme de contrôle sert à détecter certaines erreurs dans la transmission des données. Malheureusement, 1 byte, c'est peu, et il arrive régulièrement qu'un paquet de données erroné soit considéré comme correct. Dans certaines installations utilisant des passerelles M-Bus, des paquets corrompus sont ainsi régulièrement classés comme corrects, puis détectés et ajoutés comme nouvel appareil M-Bus dans notre cloud. Le compte passe alors de Professional à Basic, car la couverture des licences n'est plus assurée.
 
-![Paramètres du M-Bus Gateway avec la case « Don't allow to add additional meters » cochée et le bouton Enregistrer](/img/konfiguration-inbetriebnahme/22.png)
+![Paramètres de la passerelle M-Bus avec la case « Don't allow to add additional meters » cochée et le bouton Enregistrer](/img/konfiguration-inbetriebnahme/22.png)
 
 ## Borne de recharge Pico
 
 ### Vérifier la connexion WLAN
 
-Après l'installation de la Pico, une icône apparaît dans le coin supérieur droit et indique le type de connexion.
+Après l'installation de la Pico, un symbole indiquant le type de connexion apparaît dans le coin supérieur droit.
 
-Si la Pico doit être connectée au WLAN, il est conseillé de vérifier rapidement que l'icône correspond à un symbole WLAN et non à 4G. 
+Si la Pico doit être connectée au WLAN, il est conseillé de vérifier rapidement que l'icône correspond bien à un symbole WLAN et non à la 4G. 
 
-Si 4G apparaît alors que la Pico devrait être connectée au WLAN, la Pico doit être réinstallée. Cela peut se produire lorsqu'une étape de l'installation n'a pas été effectuée correctement, p. ex. le mot de passe WLAN.
+Si la 4G apparaît alors que la Pico devrait être connectée au WLAN, la Pico doit être réinstallée. Cela peut arriver si une étape de l'installation n'a pas été effectuée correctement, p. ex. le mot de passe WLAN.
 
 ![Affichage d'état d'une borne de recharge Pico dans le portail avec le symbole WLAN marqué en rouge](/img/konfiguration-inbetriebnahme/23.png)
 
@@ -495,21 +495,21 @@ Configurez la Pico dans une gestion de la charge de niveau supérieur pour l'ens
 <div className="row">
 <div className="col col--4">
 
-1.  En haut à gauche, sur les trois traits, puis choisir Profil (Profil)
+1.  En haut à gauche, cliquer sur les trois traits et choisir Profil (Profil)
 
-2.  En bas, choisir Se déconnecter (Ausloggen)
+2.  En bas, sélectionner Se déconnecter (Ausloggen)
 
 3.  Déconnecté
 
 </div>
 <div className="col col--4 bild--mitte">
 
-![Menu latéral de l'application avec l'entrée Profil utilisateur marquée](/img/konfiguration-inbetriebnahme/26_EN.jpg)
+![Menu latéral de l'application avec l'entrée Profil utilisateur marquée](/img/konfiguration-inbetriebnahme/26.jpg)
 
 </div>
 <div className="col col--4 bild--mitte">
 
-![Page de profil de l'application avec le bouton Se déconnecter en bas](/img/konfiguration-inbetriebnahme/27_EN.jpg)
+![Page de profil de l'application avec le bouton Se déconnecter en bas](/img/konfiguration-inbetriebnahme/27.jpg)
 
 </div>
 </div>
@@ -528,9 +528,9 @@ Si les compteurs sont connectés à un WLAN technique et/ou à un point d'accès
 
 Si le SSID et le mot de passe d'un WLAN privé sont utilisés, il existe deux possibilités :
 
-- Solution 1 : créer sur le nouveau routeur un WLAN invité ayant le même SSID et le même mot de passe que l'ancien. Les compteurs se connectent ensuite automatiquement à ce WLAN, identique à l'ancien.
+- Solution 1 : sur le nouveau routeur, créer un WLAN invité ayant le même SSID et le même mot de passe que l'ancien. Les compteurs se connectent ensuite automatiquement à ce WLAN, identique à l'ancien.
 
-- Solution 2 : réinstaller chaque compteur individuellement afin que les nouvelles données soient enregistrées localement sur chaque compteur. L'installation se déroule exactement comme une nouvelle installation. Le  compteur ne doit en aucun cas être supprimé, sinon toutes les données historiques sont perdues. Lors d'une réinstallation, notre environnement cloud détecte que le numéro de série existe déjà dans le compte et ajoute simplement les nouvelles valeurs.
+- Solution 2 : réinstaller chaque compteur individuellement afin que les nouvelles données soient enregistrées localement sur chaque compteur. L'installation se déroule exactement comme une nouvelle installation. Le  compteur ne doit en aucun cas être supprimé, sinon toutes les données historiques sont perdues. Lors d'une réinstallation, notre environnement cloud constate que le numéro de série existe déjà dans le compte et ajoute simplement les nouvelles valeurs.
 
 </details>
 
@@ -539,27 +539,27 @@ Si le SSID et le mot de passe d'un WLAN privé sont utilisés, il existe deux po
 
 Tous les appareils peuvent être redémarrés par une coupure de courant.
 
-Compteur triphasé : appuyer simultanément sur T1 et T2 pendant 10 secondes.
+Compteurs triphasés : appuyer simultanément sur T1 et T2 pendant 10 secondes.
 
-Pico : dans le portail, en haut à droite, choisir la roue dentée, actions avancées (erweiterte Aktionen), redémarrage (Neustart). Ne fonctionne que si la Pico est en ligne.
+Pico : dans le portail, choisir la roue dentée en haut à droite, actions avancées (erweiterte Aktionen), redémarrage (Neustart). Fonctionne uniquement si la Pico est en ligne.
 
-Module Kamstrup : retirer le module du compteur, attendre 10 secondes et le réinsérer.
+Modules Kamstrup : retirer le module du compteur, attendre 10 secondes et le réinsérer.
 
-M-Bus Gateway et compteur monophasé : ces appareils ne peuvent être redémarrés que par une coupure de courant.
+Passerelle M-Bus et compteurs monophasés : ces appareils ne peuvent être redémarrés que par une coupure de courant.
 
 </details>
 
 <details id="kann-ich-mein-gerät-mit-mehreren-wifi-netzwerken-nutzen">
 <summary>Puis-je utiliser mon appareil avec plusieurs réseaux WiFi ?</summary>
 
-Oui, l'appareil smart-me (sauf la [borne de recharge Pico](/produkte/pico-ladestation)) enregistre jusqu'à 3 réseaux WiFi différents. Il vous suffit de l'installer une fois sur chaque réseau ; l'appareil choisit ensuite toujours automatiquement le réseau offrant la meilleure liaison radio.
+Oui, l'appareil smart-me (sauf la [borne de recharge Pico](/produkte/pico-ladestation)) enregistre jusqu'à 3 réseaux WiFi différents. Il vous suffit de l'installer une fois sur chaque réseau ; l'appareil choisit ensuite automatiquement le réseau offrant la meilleure liaison radio.
 
 </details>
 
 <details id="kann-ich-den-zählerstand-auf-null-zurücksetzten">
 <summary>Puis-je remettre le relevé du compteur à zéro ?</summary>
 
-Non, comme nos compteurs sont utilisés pour des décomptes, il n'est pas possible de les remettre à zéro.
+Non, nos compteurs étant utilisés pour des décomptes, il n'est pas possible de les remettre à zéro.
 
 </details>
 
@@ -573,27 +573,27 @@ Le mot de passe WiFi est enregistré exclusivement sur l'appareil smart-me et n'
 <details id="werden-die-einstellungen-und-zählerstände-gespeichert-falls-der-strom-ausfällt">
 <summary>Les paramètres et les relevés du compteur sont-ils conservés en cas de panne de courant ?</summary>
 
-Oui, l'appareil conserve tous les paramètres et toutes les valeurs en cas de panne de courant. Dès que l'alimentation est rétablie, l'appareil se reconnecte automatiquement au WiFi et revient à l'état dans lequel il se trouvait avant la panne. 
+Oui, l'appareil conserve tous les paramètres et toutes les valeurs en cas de panne de courant. Dès que l'alimentation électrique est rétablie, l'appareil se reconnecte automatiquement au WiFi et revient à l'état précédant la panne. 
 
 </details>
 
 <details id="wie-kann-ich-eine-neues-wifi-hinterlegen-ohne-die-bestehenden-daten-zu-verlieren">
 <summary>Comment enregistrer un nouveau WiFi sans perdre les données existantes ?</summary>
 
-Pour ajouter un réseau supplémentaire, l'appareil doit être installé correctement avec l'application smart-me. S'il n'a pas été supprimé du cloud au préalable, les données énergétiques et les paramètres de configuration sont conservés.
+Pour ajouter un autre réseau, l'appareil doit être installé correctement avec l'application smart-me. S'il n'est pas supprimé du cloud au préalable, les données énergétiques et les paramètres de configuration sont conservés.
 
 </details>
 
 <details id="können-die-gespeicherten-wifi-informationen-gelöscht-werden">
 <summary>Les informations WiFi enregistrées peuvent-elles être supprimées ?</summary>
 
-Les informations WiFi sont uniquement enregistrées sur l'appareil. Les données peuvent être supprimées comme suit :
+Les informations WiFi sont enregistrées uniquement sur l'appareil. Les données peuvent être supprimées comme suit :
 
-- Appuyer pendant 10s sur le bouton de l'appareil smart-me. Pour la pico, la carte RFID doit être présentée au plus tard 15 minutes après le redémarrage (mise hors tension).
+- Appuyer pendant 10 s sur le bouton de l'appareil smart-me. Pour la pico, la carte RFID doit être présentée au plus tard 15 minutes après le redémarrage (hors tension).
 
-- Établir une connexion avec le WiFi smart-me à l'aide d'un smartphone (le nom du réseau WiFi est smart-me\_XXXXXX, où X représente le numéro de série de l'appareil smart-me)
+- Avec un smartphone, établir une connexion avec le WiFi smart-me (le nom du réseau WiFi est smart-me\_XXXXXX, où X correspond au numéro de série de l'appareil smart-me)
 
-- Établir une connexion avec l'IP 192.168.1.1 à l'aide d'un navigateur.
+- Avec un navigateur, établir une connexion avec l'IP 192.168.1.1.
 
 - Sélectionner le WLAN indésirable, appuyer sur remove et redémarrer l'appareil.
 
@@ -602,7 +602,7 @@ Les informations WiFi sont uniquement enregistrées sur l'appareil. Les données
 <details id="wie-finde-ich-die-mac-adresse-meines-smart-me-geräts-raus">
 <summary>Comment trouver l'adresse MAC de mon appareil smart-me ?</summary>
 
-Il n'existe aucun moyen direct de trouver l'adresse MAC\-. Si vous disposez d'une licence Professional, vous pouvez activer le DNS dans les paramètres avancés de l'appareil smart-me et choisir l'option IP interne (Interne IP). Un ping sur le nom DNS permet de déterminer l'IP, qui peut ensuite être comparée avec la table IP / MAC du routeur.
+Il n'existe aucun moyen direct de connaître l'adresse MAC\. Si vous disposez d'une licence Professional, vous pouvez activer le DNS dans les paramètres avancés de l'appareil smart-me et choisir l'option IP interne (Interne IP). Un ping sur le nom DNS permet de déterminer l'IP, qui peut ensuite être comparée avec la table IP / MAC du routeur.
 
 </details>
 
@@ -632,12 +632,12 @@ Les compteurs triphasés Telstar et Telstar CT créent un réseau maillé (mesh)
 <details id="was-passiert-wenn-ich-ein-zähler-deaktiviere">
 <summary>Que se passe-t-il lorsque je désactive un compteur ?</summary>
 
-Toutes les données déjà enregistrées dans le cloud sont conservées. Après la désactivation, plus aucune donnée n'est enregistrée. Aucun frais de licence n'est facturé pour les compteurs désactivés.
+Toutes les données déjà enregistrées dans le cloud sont conservées. Après la désactivation, plus aucune donnée n'est enregistrée. Les compteurs désactivés n'engendrent aucuns frais de licence.
 
 </details>
 
 <details id="kann-auf-den-smart-me-geräten-ein-proxy-konfiguriert-werden">
-<summary>Peut-on configurer un proxy sur les appareils smart-me ?</summary>
+<summary>Un proxy peut-il être configuré sur les appareils smart-me ?</summary>
 
 Non
 

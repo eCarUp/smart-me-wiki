@@ -5,7 +5,7 @@ description: 'In questa pagina trovi le configurazioni più importanti relative 
 sidebar_label: 'Configurazione Pico'
 displayed_sidebar: wikiSidebar
 ---
-In questa pagina trovi le configurazioni più importanti relative all'hardware Pico. La configurazione della stazione di ricarica Pico avviene sempre, come primo passo, tramite la piattaforma smart-me. Successivamente è possibile abilitare il metodo di autenticazione tramite un sistema di backend (eCarUp).
+In questa pagina trovi le configurazioni più importanti relative all'hardware Pico. Il primo passo della configurazione della stazione di ricarica Pico avviene sempre tramite la piattaforma smart-me. Successivamente si può abilitare il metodo di autenticazione tramite un sistema backend (eCarUp).
 
 ![Configurazione Pico – Figura 1](/img/konfiguration-inbetriebnahme-pico-konfiguration/01.png)
 
@@ -19,15 +19,15 @@ La stazione di ricarica Pico può essere utilizzata a scelta con o senza metodo 
 
 
 
-### Configurazione Nessuna (None):
+### Configurazione None:
 
-Nessuna autenticazione necessaria per la ricarica. (ricarica non appena collegata)
+Per caricare non serve alcuna autenticazione. (carica non appena viene collegata)
 
 
 
 ### Configurazione con backend eCarUp:
 
-Per gestire una Pico in modo pubblico / semi-pubblico o per poter utilizzare qualsiasi tipo di funzione di sblocco, la stazione deve essere gestita in modalità backend tramite eCarUp.
+Per gestire una Pico in modo pubblico o semi-pubblico, oppure per poter utilizzare qualsiasi tipo di funzione di sblocco, la stazione deve funzionare in modalità backend tramite eCarUp.
 
 Funzioni di sblocco:
 
@@ -42,27 +42,27 @@ Funzioni di sblocco:
 
 
 
-Non appena è selezionato “backend eCarUp” (“eCarUp Backend”), la stazione viene aggiunta automaticamente all'account eCarUp con lo stesso nome. (stesso nome utente e password di smart-me)
+Non appena è selezionato “Backend eCarUp” (“eCarUp Backend”), la stazione viene aggiunta automaticamente all'account eCarUp con lo stesso nome. (stesso nome utente e stessa password di smart-me)
 
-La configurazione di eCarUp si effettua nel portale web [www.ecarup.com](http://www.ecarup.com).
+La configurazione di eCarUp si effettua nel portale web di [www.ecarup.com](http://www.ecarup.com).
 
-Aggiungi un tag di carta RFID alla voce Conducenti (Fahrer) oppure leggi un "tag di carta" con l'app eCarUp per Android e iOS.
+In Conducenti (Fahrer) aggiungi un tag di una tessera RFID oppure leggi un "tag della tessera" con l'app eCarUp per Android e iOS.
 
-I dettagli sulla configurazione di eCarUp e delle stazioni di ricarica pubbliche si trovano nel
-wiki di eCarUp: [https://ecarupwiki.smart-me.com](https://ecarupwiki.smart-me.com) 
+Trovi i dettagli sulla configurazione di eCarUp e delle stazioni di ricarica pubbliche nel
+Wiki di eCarUp: [https://ecarupwiki.smart-me.com](https://ecarupwiki.smart-me.com) 
 
 
 
-### Configurazione backend OCPP esterno:
+### Configurazione con backend OCPP esterno:
 
-Per integrare la Pico in un backend di terzi, è sufficiente inserire l'URL del backend del fornitore terzo sulla rispettiva stazione di ricarica.
+Per integrare la Pico in un backend di terzi è sufficiente inserire nella rispettiva stazione di ricarica l'URL del backend del fornitore terzo.
 
-Questa opzione non deve essere utilizzata se la stazione è collegata tramite eCarUp.
+Questa opzione non va utilizzata se la stazione è collegata tramite eCarUp.
 
 Nota:
-L'URL inizia con ws:// o wss://
+L'URL inizia con ws:// oppure wss://
 
-Impostazione Pico nel portale smart-me:
+Impostazione della Pico nel portale smart-me:
 
 ![Configurazione Pico – Figura 3](/img/konfiguration-inbetriebnahme-pico-konfiguration/03.png)
 
@@ -76,7 +76,7 @@ Inserire l'URL del backend di terzi:
 
 ### Configurazione per uso privato con autenticazione RFID
 
-1.  Vai a Stazioni → Gestione (Stationen → Verwaltung) nel portale eCarUp
+1.  Nel portale eCarUp vai su Stazioni → Gestione (Stationen → Verwaltung)
 
 2.  Modifica → Modifica connettore (Bearbeiten → Anschluss bearbeiten)
 
@@ -85,13 +85,13 @@ Inserire l'URL del backend di terzi:
 
 
 
-Prezzi (Preise) = 0 CHF, Accesso: Privato (Zugriff: Privat)
+Prezzi = 0 CHF, Accesso: Privato (Preise = 0 CHF, Zugriff: Privat)
 
 ![Configurazione Pico – Figura 7](/img/konfiguration-inbetriebnahme-pico-konfiguration/07.png)
 
 ### Configurazione per uso limitato con autenticazione RFID (inquilini con prezzi speciali)
 
-1.  Vai a Stazioni → Gestione (Stationen → Verwaltung) nel portale eCarUp
+1.  Nel portale eCarUp vai su Stazioni → Gestione (Stationen → Verwaltung)
 
 2.  Modifica → Modifica connettore (Bearbeiten → Anschluss bearbeiten)
 
@@ -108,13 +108,13 @@ I conducenti creano il proprio account su eCarUp e comunicano il nome dell'accou
 
 ![Configurazione Pico – Figura 10](/img/konfiguration-inbetriebnahme-pico-konfiguration/10.png)
 
-## Personalizzazione del display della Pico
+## Personalizzare il display della Pico
 
-Sconsigliamo di inserire un'immagine di sfondo nera, perché in tal caso non è chiaro se la Pico è in funzione o meno. Soprattutto quando è offline, è difficile valutare a distanza se la stazione è difettosa o non collegata. Per questo motivo consigliamo alle persone attente al consumo energetico di aggiungere questa immagine da 4 pixel, in modo da poter sempre riconoscere se la stazione è ancora in funzione localmente o meno. [Pixel Status.gif](https://drive.google.com/uc?export=download&id=1iaQ6ZVWwL5f6gTqEcRyhkmrbaiKq3CNC)
+Sconsigliamo di inserire un'immagine di sfondo nera, perché in tal caso non è chiaro se la Pico sia in funzione o meno. Soprattutto quando è offline, da lontano è difficile capire se la stazione sia guasta o non collegata. Per questo motivo, a chi è attento al consumo di energia consigliamo di aggiungere questa immagine da 4 pixel, così da poter sempre riconoscere se la stazione è ancora in funzione localmente o meno. [Pixel Status.gif](https://drive.google.com/uc?export=download&id=1iaQ6ZVWwL5f6gTqEcRyhkmrbaiKq3CNC)
 
-Il nome della stazione e la visualizzazione in caso di inutilizzo possono essere scelti e personalizzati liberamente.
+Il nome della stazione e la visualizzazione quando non è in uso possono essere scelti e personalizzati liberamente.
 
-Oltre alle emoticon già disponibili, è possibile caricare anche GIF o immagini proprie. 
+Oltre alle emoticon già disponibili, puoi caricare anche GIF o immagini personalizzate. 
 
 - Formati supportati: JPG, PNG, GIF
 
@@ -126,7 +126,7 @@ Oltre alle emoticon già disponibili, è possibile caricare anche GIF o immagini
 
 - Le animazioni (GIF) hanno 10 immagini/s (100ms per immagine)
 
-Nota: ottieni il miglior risultato se, durante la creazione e la modifica, ti assicuri che l'immagine venga caricata a 32x32 pixel in formato GIF.
+Nota: ottieni il miglior risultato se, durante la creazione e la modifica, fai in modo che l'immagine venga caricata a 32x32 pixel in formato GIF.
 
 \-> Crea le tue GIF con [piskelapp](/drittsysteme/piskelapp) 
 
@@ -136,11 +136,11 @@ Nota: ottieni il miglior risultato se, durante la creazione e la modifica, ti as
 
 ### Limitare la potenza della stazione
 
-La stazione di ricarica Pico può essere standardizzata al momento dell'installazione.
+La stazione di ricarica Pico può essere impostata in modo standard al momento dell'installazione.
 
-Questa impostazione viene considerata dalla gestione automatica del carico e non viene mai sovrascritta.
+Questa impostazione viene rispettata dalla gestione del carico automatica e non viene mai sovrascritta.
 
-Con l'impostazione della corrente di ricarica massima è possibile limitare in modo fisso la potenza massima della stazione. La limitazione avviene a passi di 1 ampere.
+Con l'impostazione della corrente di carica massima si può limitare in modo fisso la potenza massima della stazione. La limitazione avviene a passi di 1 ampere.
 
 32A = 22kW potenza massima
 
@@ -149,18 +149,18 @@ Con l'impostazione della corrente di ricarica massima è possibile limitare in m
 Con l'impostazione della corrente minima si impediscono le ricariche oppure si impostano correnti minime adeguate per l'avvio della ricarica di un'auto.
 
 Nota:
-Esistono veicoli che, a causa della tecnologia installata nel veicolo, non possono essere ricaricati con una corrente di avvio di 6A. In questo caso è possibile impostare una corrente minima più elevata.
+Esistono veicoli che, a causa della tecnologia installata nel veicolo, non possono essere caricati con una corrente di avvio di 6A. In questo caso la corrente minima può essere impostata più alta.
 
 ![Configurazione Pico – Figura 12](/img/konfiguration-inbetriebnahme-pico-konfiguration/12.png)
 
-### Gestione del carico statica (gruppo di stazioni)
+### Gestione statica del carico (gruppo di stazioni)
 
-La gestione del carico statica regola le stazioni all'interno dello stesso gruppo di gestione del carico. La funzione impedisce che la corrente massima sulla linea di alimentazione, ad es. il cavo piatto, venga superata e regola la distribuzione della corrente disponibile tra le stazioni. 
+La gestione statica del carico regola le stazioni all'interno dello stesso gruppo di gestione del carico. La funzione impedisce che venga superata la corrente massima sulla linea di alimentazione, ad es. un cavo piatto, e regola la ripartizione della corrente disponibile tra le stazioni. 
 
 La dimensione dei gruppi di ricarica è limitata a 200 stazioni di ricarica.
 
-Funzionamento in dettaglio:
-Le stazioni di ricarica si regolano autonomamente in base alla corrente massima definita. La potenza di ricarica trifase viene distribuita su tutte le stazioni attive finché la potenza minima impostata in trifase non può più essere messa a disposizione di tutte le auto in ricarica. A quel punto la potenza viene commutata in monofase. Tutte le auto continuano a caricare in monofase con la corrente massima possibile per fase (commutazione di fase). Un'ulteriore ricarica diventa impossibile solo quando tutte le auto già in ricarica hanno raggiunto il minimo in monofase. Non appena uno dei veicoli in ricarica lascia la stazione, la ricarica riservata viene liberata per un altro veicolo.
+Funzionamento nel dettaglio:
+Le stazioni di ricarica si regolano autonomamente in base alla corrente massima definita. La potenza di carica trifase viene ripartita su tutte le stazioni attive finché la potenza minima impostata in trifase non può più essere messa a disposizione di tutte le auto in carica. A quel punto la potenza passa al monofase. Tutte le auto continuano a caricare in monofase con la massima corrente possibile per fase (commutazione di fase). Un'ulteriore ricarica diventa impossibile solo quando tutte le auto già in carica hanno raggiunto il minimo in monofase. Non appena uno dei veicoli in carica lascia la stazione, la ricarica riservata viene liberata per un altro veicolo.
 
 Configurazione:
 
@@ -170,7 +170,7 @@ Configurazione:
 
 3.  Definisci l'azione in caso di interruzione della connessione
 
-    (Per la combinazione con la gestione del carico multilivello è utilizzabile solo la versione Corrente max. per gruppo (Max. Strom pro Gruppe))
+    (In combinazione con la gestione del carico multilivello è utilizzabile solo la versione Corrente max. per gruppo (Max. Strom pro Gruppe))
 
 4.  Aggiungi le stazioni al relativo gruppo di gestione del carico (Modifica (Editieren))
 
@@ -180,24 +180,24 @@ Maggiori dettagli: [Gestione del carico Pico](/produkte/pico-ladestation/pico-la
 
 ![Configurazione Pico – Figura 14](/img/konfiguration-inbetriebnahme-pico-konfiguration/14.png)
 
-### Gestione del carico dinamica e ricarica ottimizzata per il solare con la gestione del carico multilivello (MLM)
+### Gestione dinamica del carico e ricarica ottimizzata per il solare con la gestione del carico multilivello (MLM)
 
-La gestione del carico dinamica consente di considerare un punto di riferimento e di controllare le correnti massime in questo punto di riferimento. Nella mobilità elettrica si sceglie a tale scopo il punto di allacciamento dell'edificio oppure il punto di distribuzione.
+La gestione dinamica del carico permette di tenere conto di un punto di riferimento e di controllare le correnti massime in questo punto di riferimento. Nella mobilità elettrica si sceglie a tale scopo il punto di allacciamento dell'edificio oppure il punto di distribuzione.
 
 [Pianificazione della gestione del carico](/planung/elektromobilitaet) 
 
-Come hardware per la misurazione di riferimento sono adatti i seguenti prodotti:
+Per la misura di riferimento sono adatti i seguenti prodotti hardware:
 
 - [Telstar 80A](/produkte/telstar-80a)
 
 - [Telstar CT](/produkte/telstar-ct)
 
 
-La configurazione della gestione del carico dinamica avviene tramite la gestione del carico multilivello di smart-me.
+La configurazione della gestione dinamica del carico avviene tramite la gestione del carico multilivello di smart-me.
 
-Dettagli ed esempi sono disponibili qui: [Gestione del carico multilivello](/konfiguration/multilevel-lastmanagement)
+Trovi dettagli ed esempi qui: [Gestione del carico multilivello](/konfiguration/multilevel-lastmanagement)
 
-Tenendo conto della corrente che scorre attualmente in questo punto di riferimento, puoi quindi influire sulle correnti massime dei gruppi di stazioni.
+Puoi quindi influire sulle correnti massime dei gruppi di stazioni tenendo conto della corrente che scorre attualmente in questo punto di riferimento.
 
 ![Configurazione Pico – Figura 15](/img/konfiguration-inbetriebnahme-pico-konfiguration/15.png)
 
@@ -213,19 +213,19 @@ Distacco del carico Pico
 
 Il distacco del carico può essere realizzato anche con un solo segnale disponibile. 
 
-Per la configurazione da nessuna ricarica alla potenza di ricarica massima, il segnale viene cablato su IN1 e IN2 nonché su COM. Per la configurazione da una potenza minima di 6A alla potenza di ricarica massima, il segnale deve essere cablato solo su IN2 e COM.
+Per la configurazione da nessuna ricarica alla potenza di carica massima, il segnale viene cablato su IN1 e IN2 e su COM. Per la configurazione da una potenza minima di 6A alla potenza di carica massima, il segnale deve essere cablato solo su IN2 e su COM.
 
-COM è il conduttore neutro, IN1 e IN2 devono essere alimentati con una tensione in caso di segnale ON. IN1 e IN2 non generano tensione: questa deve essere fornita dall'esterno.
+COM è il conduttore neutro; con il segnale ON, IN1 e IN2 devono essere sotto tensione. IN1 e IN2 non generano tensione: questa deve essere fornita dall'esterno.
 
 Attenzione:
-Il distacco del carico può essere cablato su tutte le Pico oppure, come minimo, su una Pico di ciascun gruppo di carico statico.
+Il distacco del carico può essere cablato su tutte le Pico oppure, come minimo, su una Pico per ogni gruppo di carico statico.
 Questa funzione è garantita anche senza Internet!
 
 Distacco del carico basato su cloud tramite MLM
 
-Il distacco del carico può essere realizzato anche tramite la gestione del carico multilivello. Il vantaggio è che non è necessario collegare alcun segnale all'hardware Pico: un segnale viene applicato a qualsiasi altro hardware (contatore) e utilizzato come trigger.
+Il distacco del carico può essere realizzato anche tramite la gestione del carico multilivello. Il vantaggio è che non è necessario collegare un segnale all'hardware della Pico: il segnale viene applicato a un qualsiasi altro hardware (contatore) e utilizzato come trigger.
 
-Lo svantaggio è però che la funzione non viene eseguita se non è disponibile una connessione Internet.
+Lo svantaggio, però, è che la funzione non viene eseguita se non c'è una connessione Internet.
 
 Maggiori dettagli sulla configurazione: [Gestione del carico multilivello](/konfiguration/multilevel-lastmanagement)
 
@@ -236,7 +236,7 @@ Maggiori dettagli sulla configurazione: [Gestione del carico multilivello](/konf
 <div className="row">
 <div className="col col--6">
 
-Qui, in qualità di proprietario della stazione, puoi sbloccare il cavo, riavviare la stazione oppure visualizzare la lettura del contatore sul display per verificarla.
+Qui, in qualità di proprietario della stazione, puoi sbloccare il cavo, riavviare la stazione oppure visualizzare sul display la lettura del contatore per verificarla.
 
 </div>
 <div className="col col--6 bild--mitte">
@@ -258,7 +258,7 @@ Modbus TCP:
 Attivazione dell'interfaccia Modbus TCP della Pico
 
 Elimina stazione (Station löschen):
-Elimina la stazione e tutti i dati sul cloud
+Elimina la stazione e tutti i dati nel cloud
 
 </div>
 <div className="col col--6 bild--mitte">
@@ -268,19 +268,19 @@ Elimina la stazione e tutti i dati sul cloud
 </div>
 </div>
 
-### Blocca sempre il cavo in modo fisso
+### Bloccare sempre il cavo in modo fisso
 
 Il cavo di ricarica può essere bloccato sulla stazione di ricarica Pico.
 
 Procedura:
-Inserisci il cavo --> accedi al portale smart-me --> seleziona la Pico --> seleziona la rotella dentata in alto a destra --> impostazioni avanzate (erweiterte Einstellungen) --> Blocca sempre il cavo in modo fisso (Kabel immer fest verriegeln). 
+Collega il cavo --> accedi al portale smart-me --> seleziona la Pico --> in alto a destra seleziona l'icona dell'ingranaggio --> impostazioni avanzate (erweiterte Einstellungen) --> Blocca sempre il cavo in modo fisso (Kabel immer fest verriegeln). 
 
 Nota: 
 
 - Durante il fissaggio del cavo l'auto non deve essere collegata.
 
-- Se l'alimentazione elettrica viene interrotta o la Pico viene riavviata, il cavo viene sbloccato brevemente e nuovamente bloccato all'avvio.
+- Se l'alimentazione elettrica viene interrotta o la Pico viene riavviata, il cavo viene sbloccato brevemente e bloccato di nuovo all'avvio.
 
-Requisito: la Pico deve disporre almeno della versione di comunicazione 0.0.7. Le Pico prodotte prima del 31.12.2022 possono essere interessate.
+Requisito: la Pico deve avere almeno la versione di comunicazione 0.0.7. Possono essere interessate le Pico prodotte prima del 31.12.2022.
 
-![Blocca sempre il cavo in modo fisso](/img/konfiguration-inbetriebnahme-pico-konfiguration/19.png)
+![Bloccare sempre il cavo in modo fisso](/img/konfiguration-inbetriebnahme-pico-konfiguration/19.png)

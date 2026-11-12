@@ -23,7 +23,7 @@ Requisiti:
 Applicazioni:
 
 - Conteggio di RCP virtuali (vRCP)
-- Trasduttore di misura per il controllo di prodotti di terzi tramite Modbus TCP, MQTT o API
+- Trasmettitore di valori di misura per il comando di prodotti di terzi via Modbus TCP, MQTT o API
 - Compatibile con smart-me Nimbus 100A per la lettura locale tramite Modbus TCP
 
 </div>
@@ -44,7 +44,7 @@ Applicazioni:
 L'ora trasmessa deve essere impostata sull'ora NTP per ogni modulo.
 
 1.  Apra la sua app whatwatt
-2.  Navighi nella Web-UI (browser)
+2.  Passi all'interfaccia web (browser)
 3.  Clicchi su Meter
 4.  Scorra verso il basso fino a Time Handling
 5.  Imposti Time Handling su "Use Networktime" in Reports

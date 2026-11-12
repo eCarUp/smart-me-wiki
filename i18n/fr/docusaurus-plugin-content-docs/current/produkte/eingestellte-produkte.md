@@ -12,7 +12,7 @@ La vente de ces produits a été arrêtée. Le support et l'assistance cloud res
 
 Successeur : [Compteur triphasé Telstar 80A](/produkte/telstar-80a)
 
-N° de série du compteur triphasé 80A : 60\*
+N° de série compteur triphasé 80A : 60\*
 
 </Kachel>
 
@@ -28,7 +28,7 @@ N° de série Plug : 01\*, 02\*, 03\*, 04\*
 
 Appareil de remplacement smart-me possible : [Compteur triphasé Telstar 80A](/produkte/telstar-80a) ou [Compteur triphasé Telstar CT](/produkte/telstar-ct)
 
-N° de série du module Landis+Gyr : 93\*
+N° de série module Landis+Gyr : 93\*
 
 </Kachel>
 
@@ -50,7 +50,7 @@ Successeur : [Borne de recharge Pico](/produkte/pico-ladestation)
 
 Appareil de remplacement possible : [Compteur monophasé](/produkte/1-phasen-zaehler-80a)
 
-N° de série du compteur monophasé 32A : 51\*
+N° de série compteur monophasé 32A : 51\*
 
 </Kachel>
 
@@ -58,7 +58,7 @@ N° de série du compteur monophasé 32A : 51\*
 
 Appareil de remplacement smart-me possible : [Compteur triphasé Telstar 80A](/produkte/telstar-80a) ou [Compteur triphasé Telstar CT](/produkte/telstar-ct)
 
-N° de série du module Kamstrup : 92\*
+N° de série module Kamstrup : 92\*
 
 </Kachel>
 

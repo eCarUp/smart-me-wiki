@@ -11,11 +11,11 @@ vorheriger_schritt: [konfiguration/billing/konfiguration-rechnungsstellung, konf
 <div className="row">
 <div className="col col--7">
 
-Lors de la création de l'immeuble, les compteurs sont automatiquement attribués à 100 % à l'unité de décompte (dossier).
+Lors de la création de l'immeuble, les compteurs sont automatiquement attribués à 100% à l'unité de décompte (dossier).
 
 Si vous souhaitez répartir un compteur (p. ex. Général (Allgemein)) selon une clé de répartition ou modifier l'attribution ultérieurement, vous devez le faire manuellement.
 
-- À gauche, sélectionnez l'unité de décompte (sous-dossier, p. ex. WHG 1)
+- À gauche, sélectionnez l'unité de décompte (sous-dossier, p. ex. APP 1)
 
 - Cliquez p. ex. sous Électricité (Elektrizität) sur Ajouter (Hinzufügen)
 
@@ -26,7 +26,7 @@ La procédure décrite s'applique de la même manière aux autres types d'énerg
 </div>
 <div className="col col--5 bild--mitte">
 
-![Billing : décompte de l'énergie – figure 6](/img/konfiguration-billing/06.png)
+![Billing : décompte de l'énergie – Illustration 6](/img/konfiguration-billing/06.png)
 
 </div>
 </div>

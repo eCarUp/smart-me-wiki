@@ -15,7 +15,7 @@ Dans smart-me Billing, la facture QR peut être activée en option.
 
 Une fois les coordonnées bancaires enregistrées, une facture QR pour le paiement est jointe pour chaque unité de décompte (locataire).
 
-smart-me reconnaît automatiquement les expéditeurs correctement renseignés si l'adresse de facturation est saisie sur 3 lignes dans Billing. Si une entreprise ou une formule d'adresse est choisie, elle doit être ajoutée devant le nom.
+smart-me reconnaît automatiquement les expéditeurs correctement saisis si l'adresse de facturation est enregistrée sur 3 lignes dans Billing. Si une entreprise ou une formule d'adresse est indiquée, elle doit être ajoutée avant le nom.
 
 p. ex.
 
@@ -25,20 +25,20 @@ Löwenzahnstrasse 42
 6666 Risch
 ```
 
-Si aucune adresse correcte n'est reconnue, le champ Expéditeur – Payable par (Absender (Zahlbar durch)) reste vide sur la facture QR.
+Si aucune adresse correcte n'est reconnue, le champ Expéditeur (Zahlbar durch) reste vide sur la facture QR.
 
-smart-me ne prend pas en charge les numéros de référence. Pour pouvoir les utiliser, un [système tiers](/drittsysteme) qui les prend également en charge est nécessaire (p. ex.[Bexio](/drittsysteme/bexio)).
+smart-me ne prend pas en charge les numéros de référence. Pour pouvoir les utiliser, il faut un [système tiers](/drittsysteme) qui les prend également en charge (p. ex.[Bexio](/drittsysteme/bexio)).
 
-Afin d'identifier la facture sans référence, une information supplémentaire – Communication au bénéficiaire (Mitteilung an den Begünstigten) – est ajoutée sur la facture QR. Elle se compose comme suit : nom de l'unité de décompte (nom du dossier).
+Afin d'identifier la facture sans référence, une information supplémentaire (Mitteilung an den Begünstigten) est ajoutée sur la facture QR. Elle se compose comme suit : nom de l'unité de décompte (nom du dossier).
 
 La présentation est optimisée pour l'envoi par e-mail. Si les factures sont imprimées, nous recommandons de désactiver la facture QR et de la commander auprès de la banque.
 
 </div>
 <div className="col col--5 bild--mitte">
 
-![Billing : décompte de l'énergie – illustration 7](/img/konfiguration-billing/07.jpg)
+![Billing : décompte de l'énergie – figure 7](/img/konfiguration-billing/07.jpg)
 
-![Billing : décompte de l'énergie – illustration 8](/img/konfiguration-billing/08.png)
+![Billing : décompte de l'énergie – figure 8](/img/konfiguration-billing/08.png)
 
 </div>
 </div>

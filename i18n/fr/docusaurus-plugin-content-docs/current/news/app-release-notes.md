@@ -13,9 +13,9 @@ Nouvelles fonctionnalités
 
 - Amélioration du design UI/UX du processus d'installation
 
-- Modification du facteur du transformateur et verrouillage de celui-ci sur le Telstar CT
+- Modification du rapport de transformation et verrouillage de celui-ci sur le Telstar CT
 
-- Vérification de la version de l'app lors de la connexion (affichage éventuel d'une fenêtre contextuelle signalant qu'une mise à jour est requise)
+- Vérification de la version de l'app lors de la connexion (affichage éventuel d'une fenêtre contextuelle demandant une mise à jour)
 
 Corrections de bugs
 

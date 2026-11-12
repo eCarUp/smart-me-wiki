@@ -1,16 +1,16 @@
 ---
 title: 'Zählerfreunde'
 slug: '/drittsysteme/zaehlerfreunde'
-description: 'Zählerfreunde offre soluzioni su misura per impianti singoli, progetti di elettricità per gli inquilini, fornitori di energia e aziende municipalizzate.'
+description: 'Zählerfreunde offre soluzioni su misura per impianti singoli, progetti di elettricità per gli inquilini, aziende elettriche e aziende municipali.'
 sidebar_label: 'Zaehlerfreunde'
 ---
 
 <div className="row">
 <div className="col col--8">
 
-Zählerfreunde offre soluzioni su misura per impianti singoli, progetti di elettricità per gli inquilini, fornitori di energia e aziende municipalizzate. La soluzione si basa su una piattaforma web o app che consente a inquilini, locatori e gestori di progetti di monitorare e gestire meglio il consumo e la produzione di elettricità.
+Zählerfreunde offre soluzioni su misura per impianti singoli, progetti di elettricità per gli inquilini, aziende elettriche e aziende municipali. La soluzione si basa su una piattaforma web o app che consente a inquilini, locatori e gestori di progetto di monitorare e gestire meglio il consumo e la produzione di elettricità.
 
-Destinatari: utenti smart-me, fornitori di energia e inquilini con un account smart-me
+Destinatari: utenti smart-me, aziende elettriche e inquilini con un account smart-me
 
 Nota:
 All'interno degli impianti di elettricità per gli inquilini, il cambio di tariffa funziona solo per il gestore dell'impianto di elettricità per gli inquilini
@@ -34,7 +34,7 @@ Supportiamo naturalmente tutti i browser più diffusi. Inoltre, su richiesta, pu
 
 Visualizzazione trasparente e multisettoriale. Grazie alla nostra struttura modulare puoi decidere quali dettagli mostrare ai tuoi clienti e quali no.
 
-- Consumo, costi e acconti
+- Consumo, costi e pagamento in acconto
 
 - Gas, acqua e calore
 
@@ -53,28 +53,28 @@ Visualizzazione trasparente e multisettoriale. Grazie alla nostra struttura modu
 
 ## Supporto di altri dispositivi
 
-I tuoi clienti hanno impianti fotovoltaici, wallbox, contatori elettrici digitali? Visualizziamo (quasi) tutto! Gli utenti hanno la possibilità di aggiungere altri dispositivi intelligenti. Offri ad esempio sistemi di accumulo a batteria? Ottimo: vendili direttamente tramite la piattaforma e poi falli visualizzare.
+I tuoi clienti hanno impianti fotovoltaici, wallbox, contatori elettrici digitali? Visualizziamo (quasi) tutto! Gli utenti possono aggiungere altri dispositivi intelligenti. Offri ad esempio sistemi di accumulo a batteria? Ottimo: puoi venderli direttamente tramite la piattaforma e poi farli visualizzare.
 
 ![Zählerfreunde – Figura 4](/img/drittsysteme-zaehlerfreunde/04.png)
 
 ## Offrire nuovi prodotti elettrici
 
-Offri ai tuoi clienti esistenti nuovi prodotti tariffari, come le tariffe flessibili? Se necessario, calcoliamo se il cliente si trova ancora nella tariffa più conveniente per lui. Visualizzazione e gestione delle tariffe in un unico posto.
+Offri ai tuoi clienti esistenti nuovi prodotti tariffari come le tariffe flessibili? Se necessario, calcoliamo se il cliente si trova ancora nella tariffa più conveniente per lui. Visualizzazione e gestione delle tariffe in un unico posto.
 
 ![Zählerfreunde – Figura 5](/img/drittsysteme-zaehlerfreunde/05.png)
 
 ## Simulatore
 
-Con il simulatore Zählerfreunde i clienti possono verificare come un determinato impianto fotovoltaico o un sistema di accumulo a batteria incide sui loro costi annuali e sulla loro impronta di CO2. I calcoli si basano sul consumo individuale e su dati meteorologici geostazionari. Se vendi prodotti adatti a questo scopo, ti aiutiamo a offrirli tramite il simulatore.
+Con il simulatore Zählerfreunde i clienti possono verificare come un determinato impianto fotovoltaico o sistema di accumulo a batteria influisce sui loro costi annuali e sulla loro impronta di CO2. I calcoli si basano sul consumo individuale e su dati meteorologici geostazionari. Se vendi prodotti adatti a questo scopo, ti aiutiamo a offrirli tramite il simulatore.
 
 ![Zählerfreunde – Figura 6](/img/drittsysteme-zaehlerfreunde/06.png)
 
 ## Soluzione portale per l'elettricità per gli inquilini
 
-Valorizza la tua offerta di elettricità per gli inquilini con una soluzione trasversale per i clienti finali.
+Valorizza la tua offerta di elettricità per gli inquilini con una soluzione completa per i clienti finali.
 
 - Visualizzazione: tutte le rappresentazioni rilevanti come consumo/costi/CO2 ecc.
-- Aggiungere altri dispositivi IOT al dashboard
+- Aggiungere altri dispositivi IoT al dashboard
 - Elettricità locale e prelievo di elettricità residua
 - Quota fotovoltaica
 - Rappresentazione dei conteggi dei consumi (+ possibilità di download)
@@ -84,7 +84,7 @@ Valorizza la tua offerta di elettricità per gli inquilini con una soluzione tra
 
 Non dovrai mai più occuparti del fastidioso cambio di tariffa!
 
-Fai cambiare la tua tariffa elettrica una sola volta oppure comodamente in automatico ogni anno (elettricità verde certificata garantita). In questo modo risparmi ogni anno parecchi soldi e sostieni un progetto di pubblica utilità a tua scelta.
+Cambia la tua tariffa elettrica una sola volta oppure lasciala cambiare comodamente in modo automatico ogni anno (elettricità verde certificata garantita). In questo modo risparmi ogni anno molto denaro e sostieni un progetto di pubblica utilità di tua scelta.
 
 
 

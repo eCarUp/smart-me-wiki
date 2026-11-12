@@ -1,16 +1,16 @@
 ---
-title: 'Service providers for ZEV, heating and ancillary cost billing'
+title: 'Service Providers for ZEV, Heating/Ancillary Cost Billing'
 slug: '/drittsysteme/nebenkostenabrechnung'
 description: 'To use smart-me meter data in an ancillary cost billing, the meters require a Professional license.'
-sidebar_label: 'Ancillary cost service providers'
+sidebar_label: 'Ancillary Cost Service Providers'
 ---
 To use smart-me meter data in an ancillary cost billing, the meters require a Professional license.
 
 [EN](https://doc.smart-me.com/third-party-systems/service-charge-settlement)
 
-The following service providers offer billing services based on our smart-me platform. They also take on installations they did not install themselves and, on request, offer billing only for them.
+The following service providers offer billing services based on our smart-me platform. They also take on installations they did not install themselves and, on request, offer billing only for these.
 
-## Highly automated/specialized services with Autobill:
+## Highly Automated/Specialized Services with Autobill:
 
 <Kacheln min="22rem">
 
@@ -72,7 +72,7 @@ Blattenbach 8, CH-8636 Wald · +41 55 266 11 33
 [honegger.com](https://honegger.com/) · [info@honegger.com](mailto:info@honegger.com)
 
 - Billing of self-installed e-mobility, ZEV & vZEV installations
-- We plan, build and support everything from a single source
+- We plan, build and maintain everything from a single source
 - Billing only with smart-me hardware
 - Quarterly billing
 - Minimum term by arrangement
@@ -107,7 +107,7 @@ Kirchstrasse 18, CH-9200 Gossau SG · +41 71 388 20 10
 
 </Kacheln>
 
-## Other service providers:
+## Other Service Providers:
 
 <Kacheln>
 
@@ -251,7 +251,7 @@ Ebenaustrasse 10, CH-6048 Horw
 
 <Kachel bild="/img/drittsysteme-nebenkostenabrechnung/18.png" titel="Schibli AG">
 
-Competence Center Renewable Energy
+Competence Center for Renewable Energy
 
 Klosbachstrasse 67, CH-8032 Zürich
 
@@ -277,7 +277,7 @@ Delehala 36, LIE-9493 Mauren
 
 </Kacheln>
 
-## Compatible software for heating and ancillary cost billing without service
+## Compatible Software for Heating/Ancillary Cost Billing without Service
 
 <Kacheln min="12rem">
 

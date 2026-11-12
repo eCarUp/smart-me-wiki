@@ -7,26 +7,26 @@ naechste_schritte: [konfiguration/billing/index, konfiguration/billing-deutschla
 ---
 <Menueweg>Meter & Folder Configuration → Select node → Edit visualization</Menueweg>
 
-### Prerequisite
+### Requirement
 
 You need a smart-me Limited or Professional subscription to use this function.
 
 ## Configuring visualizations
 
-A visualization is created on a folder. When you click on the folder in the app or on the web, the corresponding visualization is displayed. 
+A visualization is created on a folder. When you click the folder in the app or on the web, the corresponding visualization is displayed. 
 
 
 ### Creating visualizations
 
-To create a visualization, proceed as follows:
+Proceed as follows to create a visualization:
 
 1.  Log in to the [smart-me website](https://web.smart-me.com/).
 
-2.  Click on Meter & Folder Configuration (Zähler / Ordner Konfiguration).
+2.  Click Meter & Folder Configuration (Zähler / Ordner Konfiguration).
 
 3.  Select the folder on which the visualization is to be created.
 
-4.  Next to Visualization (Visualisierung), click on edit (editieren). 
+4.  Click edit (editieren) next to Visualization (Visualisierung). 
 
 5.  Select the desired visualization and add the corresponding meters. 
 
@@ -37,9 +37,9 @@ To create a visualization, proceed as follows:
 
 ## View for tenants
 
-A special view for tenants is available for the virtual tariffs. It shows the current energy consumption (electricity) and its source (solar or grid). In addition, the bar shows the past source of electricity consumption.
+A special view for tenants is available for the virtual tariffs. It shows the current energy consumption (electricity) and its origin (solar or grid). In addition, the bar shows the past sources of electricity consumption.
 
-This must also be configured for each apartment node.
+This view must additionally be configured for each apartment node.
 
 The visualization is called: "Simple virtual tariffs apartment" ("Einfache virtuelle Tarife Wohnung")
 
@@ -52,7 +52,7 @@ Energy flow of the building
 
 The energy flow of the building can optionally be visualized. 
 
-- To do this, the tenant must also be given access to the balance, production and battery metering points. The reference meters are selected automatically based on their names.
+- To do this, the tenant must additionally be given access to the balance, production and battery metering points. The reference meters are selected automatically based on their names.
 
     For example, add the user account to the technical meters folder that contains the metering points mentioned.
 
@@ -61,13 +61,13 @@ The energy flow of the building can optionally be visualized.
 
 Automatic name recognition details
 
-Deutsch
+German
 
-Bilanzzähler:
-Bilan… (Bilanz, Bilanzmessung) · Netz… (Netzbezug, Netzanschluss) · Bezug · Einspeis… · Hauptz… (Hauptzähler) · HAK · Anschluss (auch Hausanschluss) · Zählpunkt / Zaehlpunkt · Messpunkt · Übergabe / Uebergabe · Transformat… (Transformator) · Trafo
-Solarzähler:
+Balance meter:
+Bilan… (Bilanz, Bilanzmessung) · Netz… (Netzbezug, Netzanschluss) · Bezug · Einspeis… · Hauptz… (Hauptzähler) · HAK · Anschluss (also Hausanschluss) · Zählpunkt / Zaehlpunkt · Messpunkt · Übergabe / Uebergabe · Transformat… (Transformator) · Trafo
+Solar meter:
 Solar… (Solar, Solaranlage) · PV · PVA · Photovolta… (Photovoltaik) · Fotovolta… · Produktion
-Batteriezähler:
+Battery meter:
 Batteri… (Batterie) · Akkumul… (Akkumulator) · Akku · Speicher · Powerwall
 
 English
@@ -79,7 +79,7 @@ Solar… (Solar) · PV · PVA · Photovolta… (Photovoltaic) · Production
 Battery meter:
 Battery · Storage · Accumul… (Accumulator) · Powerwall
 
-Français
+French
 
 Compteur de bilan (réseau) :
 Bilan… (Bilan) · Réseau / Reseau · Soutirage · Injection · Raccordement · Point de mesure / de raccordement / de livraison · Transformat… (Transformateur) · Trafo
@@ -88,7 +88,7 @@ Solair… (Solaire, solaires) · PV · PVA · Photovolta… (Photovoltaïque) ·
 Compteur de batterie :
 Batteri… (Batterie) · Stockage · Accumul… (Accumulateur) · Powerwall
 
-Italiano
+Italian
 
 Contatore di bilancio (rete):
 Bilan… (Bilancio) · Rete · Prelievo · Immissione · Allacciamento · Punto di misura / di consegna / di prelievo · Trasformat… (Trasformatore) · Trafo
@@ -97,7 +97,7 @@ Solar… (Solare) · PV · PVA · Fotovolta… (Fotovoltaico) · Produzione
 Contatore batteria:
 Batteri… (Batteria) · Accumul… (Accumulatore) · Powerwall
 
-Hrvatski / Srpski / Bosanski
+Croatian / Serbian / Bosnian
 
 Bilančno brojilo (mreža):
 Bilan… (Bilans) · Mreža / Mreza · Priključak / Prikljucak · Merno mesto / Mjerno mjesto · Transformat… (Transformator) · Trafo
@@ -106,11 +106,11 @@ Solar… (Solarni) · PV · PVA · Fotonapon… · Proizvodnja
 Brojilo baterije:
 Bateri… (Baterija) · Akumul… (Akumulator) · Skladište / Skladiste · Powerwall
 
-## Various visualizations for the entire property
+## Different visualizations for the entire property
 
 This is an overview of various possible visualizations. The list is not exhaustive.
 
-Empty nodes can be created in order to create as many visualizations as desired.
+Empty nodes can be created in order to set up as many visualizations as required.
 
 ## Visualizations for ZEV
 
@@ -132,7 +132,7 @@ All relevant data on your ZEV (association for own consumption) at a glance:
 
 - Battery
 
-- Energy flow graphics
+- Energy flow charts
 
 - Solar heat map
 
@@ -143,15 +143,15 @@ All relevant data on your ZEV (association for own consumption) at a glance:
 
 Shows the energy flow for a solar installation, grid consumption and household consumption.
 
-Two of these three meters must be specified; the third is calculated automatically. If all three meters are specified, incorrect values may be displayed. We always recommend specifying direct measurements wherever possible rather than virtual meters.
+Two of these three meters must be specified; the third is calculated automatically. If all three meters are specified, incorrect values may be displayed. Wherever possible, we always recommend specifying direct measurements rather than virtual meters.
 
 ![Visualization and Public Links – Figure 10](/img/konfiguration-visualisierung/10.png)
 
-### House with several consumers and producers
+### House with multiple consumers and producers
 
-Up to ten consumers or producers can be visualized for a house.
+Up to ten consumers or producers can be visualized for one house.
 
-Either the power values (now) or the consumption values of the last 30 or 365 days can be displayed.
+You can choose to display either the power (now) or the consumption values of the last 30 or 365 days.
 
 ## Visualizations for ZEV and vZEV
 
@@ -159,18 +159,18 @@ Either the power values (now) or the consumption values of the last 30 or 365 da
 
 ### Consumption and production monitoring
 
-Shows where the energy produced is consumed 
+Shows where the produced energy is consumed 
 
-ZEV (association for own consumption): 
+ZEV: 
 
 - Local consumption in the house 
 
 - Fed into the grid
 
 
-For this, the production plant and the building connection meter (physical) must be defined.
+For this, the production system and the (physical) house connection meter must be defined.
 
-vZEV (virtual ZEV): 
+vZEV: 
 
 - Local consumption
 
@@ -179,7 +179,7 @@ vZEV (virtual ZEV):
 - Fed into the grid
 
 
-For this, the production plants of the vZEV and the building connection meters (physical) of the vZEV participants must be defined.
+For this, the production systems of the vZEV (virtual ZEV) and the (physical) house connection meters of the vZEV participants must be defined.
 
 ![Visualization and Public Links – Figure 12](/img/konfiguration-visualisierung/12.png)
 
@@ -216,21 +216,21 @@ All relevant data on your charging stations at a glance:
 
 The current power values of an apartment (electricity, heat and water) are displayed.
 
-For the historical consumption values, a comparison with a reference apartment is also displayed (e.g. "10% less electricity consumed than the average").
+For the historical consumption values, a comparison with a reference apartment is also shown (e.g. "10% less electricity consumed than the average").
 
 ## Further options (optional)
 
 Finally, you can now activate interfaces or implement controls.
 
-To do this, navigate in the main wiki menu (top) to:
+To do this, navigate in the wiki main menu (at the top) to:
 
 Configuration or Interfaces.
 
 ## Public Links
 
-With the smart-me Limited or Professional subscription, you can use a Public Link to display the power and/or the meter reading of any metering point or folder in your smart-me metering infrastructure in real time on a website of your choice.
+With the smart-me Limited or Professional subscription, you can use a Public Link to display the power and/or the meter reading of any metering point or folder from your smart-me metering infrastructure in real time on a website of your choice.
 
-To do this, click on Configuration (Konfiguration) at the top right of the smart-me portal and then select the Public Links (Öffentliche Links) tile.
+To do this, click Configuration (Konfiguration) at the top right of the smart-me portal and then select the Public Links (Öffentliche Links) tile.
 
 In the interface that now appears, you can use the Add (Hinzufügen) button to define the name of your Public Link and select the desired metering point and display format. The HTML code for embedding on the website of your choice is then generated for you. Insert it using copy and paste.
 

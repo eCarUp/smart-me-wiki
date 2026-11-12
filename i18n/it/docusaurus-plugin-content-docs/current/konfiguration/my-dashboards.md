@@ -12,12 +12,12 @@ Crea una mappa energetica personalizzata del tuo edificio.
 
 Usa un'immagine o una vista di Google Maps e mostra i valori in tempo reale selezionati direttamente nell'immagine.
 
-![My Dashboards – Figura 2](/img/konfiguration-my-dashboards/02_EN.png)
+![My Dashboards – Figura 2](/img/konfiguration-my-dashboards/02.png)
 
 ## Il mio flusso energetico
 
 Crea il flusso energetico personalizzato della tua casa o di più case.
 
-Scegli liberamente tra tutti i punti di misura quelli da visualizzare per ogni mappa e ottieni una rapida panoramica dei consumi.
+Scegli liberamente tra tutti i punti di misura quelli da visualizzare per ogni scheda e ottieni una rapida panoramica dei consumi.
 
 ![My Dashboards – Figura 3](/img/konfiguration-my-dashboards/03.png)

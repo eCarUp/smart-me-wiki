@@ -1,7 +1,7 @@
 ---
 title: 'Paramètres de la facturation'
 slug: '/konfiguration/billing-deutschland/einstellungen'
-description: 'Paramètres généraux du décompte de l''électricité pour les locataires et activation des extensions électricité pour les locataires avec gestionnaire de réseau de distribution, service client et organe de conciliation.'
+description: 'Paramètres généraux du décompte de l''électricité pour les locataires et activation des extensions électricité pour les locataires avec gestionnaire de réseau de distribution (GRD), service client et organe de conciliation.'
 sidebar_label: 'Paramètres'
 naechste_schritte: [konfiguration/billing-deutschland/konfiguration-rechnungsstellung]
 vorheriger_schritt: konfiguration/billing-deutschland/index
@@ -12,7 +12,7 @@ vorheriger_schritt: konfiguration/billing-deutschland/index
 
 Connectez-vous au compte smart-me souhaité et ouvrez les paramètres de la facturation.
 
-Vous y effectuez les réglages généraux pour la présentation du document de facture.
+Vous y effectuez les réglages généraux concernant la présentation du document de facture.
 - Devise (toujours EUR pour l'électricité pour les locataires)
 - Taxe 
 - Logo de votre entreprise (pour la présentation dans le document de facture)
@@ -29,14 +29,14 @@ Vous pouvez en outre activer le bouton en bas, dans la section « Électricité 
 </div>
 <div className="col col--6 bild--mitte">
 
-![smart-me Billing pour l'électricité pour les locataires en Allemagne – figure 4](/img/konfiguration-billing-mieterstrom/04.png)
+![smart-me Billing pour l'électricité pour les locataires en Allemagne – Figure 4](/img/konfiguration-billing-mieterstrom/04.png)
 
 </div>
 </div>
 
 ### Gestionnaire de réseau de distribution (GRD)
 
-Vous définissez ici qui est votre gestionnaire de réseau de distribution (GRD). Vous obtiendrez cette information auprès de votre électricien/installateur photovoltaïque ou sur Internet.
+Vous définissez ici qui est votre gestionnaire de réseau de distribution (GRD). Vous pouvez obtenir cette information auprès de votre installateur électricien ou de votre installateur photovoltaïque, ou sur Internet.
 
 ### Service client / organe de conciliation
 
@@ -46,7 +46,7 @@ Vous définissez ici qui est votre gestionnaire de réseau de distribution (GRD)
 
 « Le service client est notre priorité absolue. Vous pouvez nous joindre au numéro 01234 / 87589.
 
-Si toutefois vous deviez avoir une réclamation et que, contre toute attente, vous n'avez reçu de notre part ni réponse ni solution au bout de quatre semaines, vous pouvez demander une procédure de conciliation :
+Si toutefois vous deviez avoir une réclamation et que, contre toute attente, vous n'avez reçu de notre part ni réponse ni solution au bout de quatre semaines, vous pouvez demander une conciliation :
 
 Schlichtungsstelle Energie e. V.
 
@@ -61,6 +61,6 @@ Fax : +49 (0) 30 / 27 57 240 – 69
 E-mail : [info@schlichtungsstelle-energie.de
 ](mailto:info@schlichtungsstelle-energie.de)
 
-ATTENTION : l'organe de conciliation mentionné ne l'est qu'à titre d'exemple. Il existe en Allemagne de nombreux organes de conciliation et vous êtes libre de choisir. Contactez suffisamment tôt l'organe de conciliation souhaité.
+ATTENTION : l'organe de conciliation mentionné n'est cité qu'à titre d'exemple. Il existe en Allemagne de nombreux organes de conciliation et vous êtes libre de choisir. Contactez suffisamment tôt l'organe de conciliation souhaité.
 
 Ces informations figurent tout en bas de votre document de facture.

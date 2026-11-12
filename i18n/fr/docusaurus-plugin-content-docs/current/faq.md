@@ -4,7 +4,7 @@ slug: '/faq'
 description: 'Les questions les plus fréquentes sur le compte smart-me, l''abonnement et les compteurs.'
 sidebar_label: 'Questions fréquentes'
 ---
-Voici les questions qui nous parviennent le plus souvent. Si vous n'y trouvez pas la vôtre, notre [service de contact](/kontakt-schweiz) vous aidera.
+Voici les questions qui nous parviennent le plus souvent. Si vous n'y trouvez pas la vôtre, notre [contact](/kontakt-schweiz) vous aidera.
 
 <details id="wo-kann-ich-mein-login-passwort--e-mail-adresse-ändern">
 <summary>Où puis-je modifier mon mot de passe de connexion / mon adresse e-mail ?</summary>
@@ -20,31 +20,31 @@ Si vous avez oublié votre mot de passe, vous pouvez le réinitialiser à l'aide
 
 Pour résilier votre abonnement aux licences cloud, rendez-vous sur smart-me.com et connectez-vous.
 Cliquez ensuite en haut à droite sur le nom d'utilisateur et sélectionnez Paramètres (Einstellungen).
-Allez ensuite dans Paiement (Bezahlung), Résilier l'abonnement (Abo kündigen) et confirmez avec Oui (Ja).
+Allez ensuite sur Paiement (Bezahlung), Résilier l'abonnement (Abo kündigen) et confirmez avec Oui (Ja).
 
 </details>
 
 <details id="wieso-erscheint-mein-gelöschter-zähler-wieder-in-der-cloud">
 <summary>Pourquoi mon compteur supprimé réapparaît-il dans le cloud ?</summary>
 
-Lorsqu'un compteur est supprimé dans le cloud, toutes ses données dans le cloud sont supprimées. Si ce compteur envoie à nouveau des données au cloud après la suppression, celui-ci recrée le compteur (avec un nouvel ID de compteur). Les données de mesure passées du compteur sont toutefois définitivement supprimées. Les actions si/alors ou les paramètres dans le Billing ne se rapportent pas non plus au « nouveau » compteur et doivent donc être reconfigurés. 
+Lorsqu'un compteur est supprimé dans le cloud, toutes ses données dans le cloud sont supprimées. Si ce compteur envoie à nouveau des données au cloud après la suppression, celui-ci recrée le compteur (avec un nouvel ID de compteur). Les données de mesure passées du compteur sont toutefois supprimées de manière irrémédiable. De même, les actions si/alors ou les paramètres dans le Billing ne se rapportent pas au « nouveau » compteur et doivent donc être reconfigurés. 
 
 Les mesures suivantes permettent d'éviter que le compteur envoie à nouveau des données au cloud et soit ainsi recréé : 
 
-- Installer le compteur dans un autre compte, auquel il pourra alors envoyer les données. 
+- Installer le compteur dans un autre compte, auquel il pourra alors envoyer ses données. 
 
-- Ne plus alimenter le compteur. Dès que le compteur est de nouveau alimenté et dispose à nouveau d'une connexion Internet, il renvoie les données au cloud. 
+- Ne plus alimenter le compteur. Dès que le compteur est de nouveau alimenté et dispose d'une connexion Internet, il renvoie ses données au cloud. 
 
 - Supprimer le WLAN du compteur (voir « [Les informations WiFi enregistrées peuvent-elles être supprimées ?](/konfiguration/inbetriebnahme/smart-me-geraete#können-die-gespeicherten-wifi-informationen-gelöscht-werden) »).  Sans Internet, le compteur ne peut plus envoyer de données. 
 
-Vous pouvez aussi désactiver le compteur dans le cloud. Un compteur désactivé ne nécessite aucune licence, et vous pouvez le réactiver à tout moment et accéder à ses données. 
+Vous pouvez également désactiver le compteur dans le cloud. Un compteur désactivé ne nécessite aucune licence, et vous pouvez le réactiver à tout moment et accéder à ses données. 
 
 </details>
 
 <details id="wie-deaktiviere-ich-meinen-zähler">
 <summary>Comment désactiver mon compteur ?</summary>
 
-Si le compte est dans le modèle de licence Basic.
+Si le compte utilise le modèle de licence Basic.
 
 1.  Connectez-vous au portail smart-me 
 
@@ -58,9 +58,9 @@ Si le compte est dans le modèle de licence Basic.
 
 6.  Enregistrer (Speichern)
 
-7.  Revenez à la vue d'ensemble principale ou actualisez le navigateur
+7.  Revenez à l'aperçu principal ou actualisez le navigateur
 
-Si le compte est dans le modèle de licence Limited ou Professional.
+Si le compte utilise le modèle de licence Limited ou Professional.
 
 1.  Connectez-vous au portail smart-me 
 
@@ -70,14 +70,14 @@ Si le compte est dans le modèle de licence Limited ou Professional.
 
 4.  Sélectionnez le compteur à désactiver
 
-5.  Cliquez sur Modifier le nœud (Knoten editieren) (en haut sur la tuile verte)
+5.  Cliquez sur Modifier le nœud (Knoten editieren) (sur la vignette verte en haut)
 
-6.  Décochez la case Compteur actif (Zähler aktiv)
+6.  Décochez Compteur actif (Zähler aktiv)
 
 7.  Cliquez sur Enregistrer (Speichern).
 
-Vous pouvez également faire glisser les compteurs et tous les autres dans un dossier (p. ex. « compteurs désactivés ») et, par un clic droit sur le dossier correspondant, Actions de masse (Massenaktionen), Désactiver tous les compteurs (Alle Zähler deaktivieren), désactiver tous les compteurs en même temps. 
+Vous pouvez également glisser les compteurs dans un dossier (p. ex. « compteurs désactivés ») et désactiver tous les compteurs en même temps par un clic droit sur le dossier correspondant, Actions groupées (Massenaktionen), Désactiver tous les compteurs (Alle Zähler deaktivieren). 
 
-Remarque concernant les compteurs désactivés : un compteur désactivé ne coûte plus de licence, mais vous ne pouvez plus accéder aux données passées du compteur tant qu'il est désactivé. De plus, aucune nouvelle donnée de mesure du compteur n'est enregistrée dans le cloud pendant la période où le compteur est désactivé.  
+Remarque concernant les compteurs désactivés : un compteur désactivé ne coûte plus de licence, mais vous ne pouvez plus accéder aux données passées du compteur tant qu'il est désactivé. En outre, aucune nouvelle donnée de mesure du compteur n'est enregistrée dans le cloud pendant la période où il est désactivé.  
 
 </details>

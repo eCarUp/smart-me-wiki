@@ -19,7 +19,7 @@ sidebar_label: 'kerlink Wirnet iFemtocell-evolution'
 
     user: root
 
-    PW: pdmk-\*Serial\*  (es.: EUI = 7076FFyyzz06001E, allora il Serial è 06001E)
+    PW: pdmk-\*Serial\*  (es.: EUI = 7076FFyyzz06001E, allora il Serial è = 06001E)
 
 4.  Esegui il seguente comando:
 
@@ -49,7 +49,7 @@ sidebar_label: 'kerlink Wirnet iFemtocell-evolution'
 
 &lt;Serial> è il segnaposto per le ultime cifre dell'EUI del dispositivo, che si trova sul dispositivo stesso:
 
-Es.: EUI = 7076FFyyzz060001, allora il Serial è 060001
+Es.: EUI = 7076FFyyzz060001, allora il Serial è = 060001
 
 
 3.  Accedi
@@ -58,7 +58,7 @@ Es.: EUI = 7076FFyyzz060001, allora il Serial è 060001
 
 4.  Seleziona "Administration"
 
-5.  Imposta il fuso orario corretto per la tua ubicazione
+5.  Imposta il fuso orario corretto per la tua località
 
 
 ![kerlink Wirnet iFemtocell-evolution – Figura 4](/img/konfiguration-inbetriebnahme-inbetriebnahme-lora-kerlink-wirnet-ifemtocell-evolution/04.png)

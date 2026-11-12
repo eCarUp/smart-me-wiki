@@ -8,21 +8,19 @@ symbol: 'vertrag'
 
 ## Base contrattuale per un RCP (Svizzera)
 
-Il RCP (raggruppamento ai fini del consumo proprio)  è un raggruppamento contrattuale di più consumatori finali che consumano sul posto l'elettricità da loro stessi prodotta. 
+Il RCP (raggruppamento ai fini del consumo proprio) è un raggruppamento contrattuale di più consumatori finali che consumano sul posto l'elettricità da loro stessi prodotta.
 
-In un raggruppamento ai fini del consumo proprio, i consumatori finali dispongono di un allacciamento alla rete comune. Nei confronti del gestore della rete di distribuzione, tutti i consumatori finali che partecipano al rispettivo RCP si presentano come un unico cliente. 
+In un raggruppamento ai fini del consumo proprio, i consumatori finali dispongono di un allacciamento alla rete comune. Nei confronti del gestore della rete di distribuzione, tutti i consumatori finali che partecipano al RCP si presentano come un unico cliente.
 
 ### Modelli standardizzati per contratti RCP e adeguamenti dei contratti di locazione (modello di contratto RCP)
 
-Associazione dei proprietari immobiliari: [https://www.hev-schweiz.ch/wohnen/bauen/haustechnik-gebaeudetechnik/eigenverbrauch/](https://www.hev-schweiz.ch/wohnen/bauen/haustechnik-gebaeudetechnik/eigenverbrauch/) (login necessario)
+Associazione dei proprietari fondiari: [https://www.hev-schweiz.ch/wohnen/bauen/haustechnik-gebaeudetechnik/eigenverbrauch/](https://www.hev-schweiz.ch/wohnen/bauen/haustechnik-gebaeudetechnik/eigenverbrauch/) (login necessario)
 
-Guida all'autoconsumo di SvizzeraEnergia: [https://www.energieschweiz.ch/gebaeude/eigenverbrauch/](https://www.energieschweiz.ch/gebaeude/eigenverbrauch/)  
+Guida all'autoconsumo di SvizzeraEnergia: [https://www.energieschweiz.ch/gebaeude/eigenverbrauch/](https://www.energieschweiz.ch/gebaeude/eigenverbrauch/)
 
+Se ha bisogno di un supporto giuridico approfondito per l'attuazione del RCP, qui sotto trova alcuni partner a noi noti.
 
-
-Se hai bisogno di un supporto giuridico approfondito per realizzare il RCP, qui sotto trovi i partner che conosciamo.
-
-Aspetti giuridici del RCP con Domenig & Partner 
+Aspetti giuridici del RCP con Domenig & Partner
 
 Programma
 
@@ -35,7 +33,7 @@ Programma
 
 <Video src="KqU1XWR4YOU" title="Video YouTube, webinar - Basi giuridiche del RCP" />
 
-### Partner che conosciamo in Svizzera
+### Partner a noi noti in Svizzera
 
 <Kacheln min="20rem">
 
@@ -89,7 +87,7 @@ M +41 79 205 91 91
 
 ## Elettricità per gli inquilini (Germania)
 
-Per domande sull'elettricità per gli inquilini in Germania (Mieterstrom), contatta smartRED. smartRED è la nostra società affiliata che opera sul mercato tedesco e commercializza i nostri prodotti in progetti di elettricità per gli inquilini nel rispetto del quadro giuridico.
+Per domande sull'elettricità per gli inquilini in Germania, La preghiamo di contattare smartRED. smartRED è la nostra società affiliata che serve il mercato tedesco e commercializza i nostri prodotti in progetti di elettricità per gli inquilini nel rispetto del quadro giuridico.
 
 <Kacheln min="20rem">
 

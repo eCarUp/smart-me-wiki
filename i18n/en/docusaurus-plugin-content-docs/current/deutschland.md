@@ -7,7 +7,7 @@ sidebar_label: 'Start Germany'
 
 import Neuigkeiten from './_neuigkeiten.md';
 
-This starting page applies to Germany. For tenant electricity, sales and support, your contact is our subsidiary smartRED; hardware, commissioning and troubleshooting are the same everywhere.
+This starting page applies to Germany. For tenant electricity, sales and support, our subsidiary smartRED is your point of contact; hardware, commissioning and troubleshooting are the same everywhere.
 
 ## Help and contact
 
@@ -25,9 +25,9 @@ Sales and support for Germany via smartRED.
 
 </Kachel>
 
-<Kachel titel="Service disruptions" href="/news/status">
+<Kachel titel="Outages" href="/news/status">
 
-Current and resolved disruptions of smart-me services.
+Current and resolved outages of the smart-me services.
 
 </Kachel>
 

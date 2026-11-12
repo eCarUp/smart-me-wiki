@@ -8,7 +8,7 @@ sidebar_label: 'IBM - Node-RED'
 <div className="col col--8">
 
 L'interface API ouverte de smart-me s'intègre très facilement dans les flux d'IBM Node-Red.
-Créez des flux de travail à l'aide de requêtes HTTP et de notre API, avec l'ensemble des données et des possibilités de commande.
+Créez des flux de travail au moyen de requêtes HTTP et de notre API, avec l'ensemble des données et des possibilités de contrôle.
 
 </div>
 <div className="col col--4 bild--mitte">
@@ -23,7 +23,7 @@ Créez des flux de travail à l'aide de requêtes HTTP et de notre API, avec l'e
 <div className="row">
 <div className="col col--5">
 
-Pour utiliser l'API, vous avez besoin des blocs HTTP-Request de Node-Red.
+Pour pouvoir utiliser l'API, vous avez besoin des blocs HTTP-Request de Node-Red.
 
 </div>
 <div className="col col--7 bild--mitte">
@@ -46,12 +46,12 @@ https://smart-me.com...
 - .../api/devices/&#123;id&#125; --> Lire les données actuelles d'un compteur donné ; l'ID peut être obtenu au moyen de api/devices.
 
 
-Voici la commande permettant d'interroger les informations actuelles d'un compteur donné :
+Voici la commande pour demander les informations actuelles d'un compteur donné :
 
-https://smart-me.com/api/devices/&#123;ID-du-compteur&#125;
+https://smart-me.com/api/devices/&#123;ID du compteur&#125;
 \--> https://smart-me.com/api/devices/32b30ab1-3ac5-4...
 
-- Toutes les commandes API et l'outil de test : [API](/schnittstellen/api) 
+- Toutes les commandes API et outil de test : [API](/schnittstellen/api) 
 
 
 
@@ -62,7 +62,7 @@ Pour l'authentification, vous pouvez utiliser l'authentification Basic avec le n
 
 ![IBM Node-RED – Illustration 4](/img/drittsysteme-ibm-node-red/04.png)
 
-Les Change-Nodes vous permettent de réduire le message dans la payload aux données pertinentes, p. ex. ActivePower.
+Avec les Change-Nodes, vous pouvez réduire le message dans la payload aux données pertinentes, p. ex. ActivePower.
 
 msg.payload.ValueName (même orthographe que dans le JSON)
 
@@ -83,7 +83,7 @@ Exemples :
 
 ![IBM Node-RED – Illustration 6](/img/drittsysteme-ibm-node-red/06.png)
 
-Le node HTTP-Request permet de commander nos sorties. Pour ce faire, un code JSON doit être envoyé via un node HTTP-Request.
+Le nœud HTTP-Request permet de commander nos sorties. Pour cela, un code JSON doit être envoyé via un nœud HTTP-Request.
 
 La commande POST correspondante est la commande http://smart-me.com/api/actions.
 
@@ -91,7 +91,7 @@ La commande POST correspondante est la commande http://smart-me.com/api/actions.
 
 La commande GET /api/actions/&#123;id&#125; permet de trouver les sorties disponibles pour l'appareil concerné.
 
-Pour les Telstar 80A et CT, les codes OBIS des sorties sont toujours les mêmes.
+Pour le Telstar 80A et CT, les codes OBIS des sorties sont toujours les mêmes.
 
 (Notez que seules les sorties numériques définies côté appareil sont listées)
 
@@ -115,7 +115,7 @@ Configuration POST avec la commande api/actions
 
 ![IBM Node-RED – Illustration 7](/img/drittsysteme-ibm-node-red/07.png)
 
-Structure de commande JSON pour la commande POST api/actions dans l'Inject-Node : commuter le relais S1 de 0 (OFF) à 1 (ON).
+Structure JSON de la commande POST api/actions dans l'Inject-Node : commuter le relais S1 de 0 (OFF) à 1 (ON).
 
 &#123;
 

@@ -13,7 +13,7 @@ Funzionalità
 
 - Miglioramento del design UI/UX del flusso di installazione
 
-- Modifica del fattore del trasformatore e relativo blocco sul Telstar CT
+- Modifica e blocco del fattore di trasformazione sul Telstar CT
 
 - Verifica della versione dell'app al login (eventuale visualizzazione di un popup di aggiornamento obbligatorio)
 
@@ -25,4 +25,4 @@ Correzioni di bug
 
 </details>
 
-smart-me si riserva il diritto di implementare funzionalità e correzioni di bug non comunicate, in particolare se si tratta di questioni interne.
+smart-me si riserva il diritto di implementare funzionalità e correzioni di bug non comunicate, in particolare quando si tratta di questioni interne.

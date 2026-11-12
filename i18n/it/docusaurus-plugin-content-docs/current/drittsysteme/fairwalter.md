@@ -10,12 +10,12 @@ sidebar_label: 'Fairwalter'
 
 Fairwalter è un'applicazione completa per la gestione immobiliare e importa i dati dei contatori smart-me tramite API.
 
-I locatori privati ricevono una soluzione completa, chiara e intuitiva. Non servono installazioni né aggiornamenti manuali. Familiari, consulenti fiscali, agenti immobiliari o custodi ricevono ciascuno un proprio accesso, così la gestione può avvenire in modo condiviso. 
+I locatori privati ottengono una soluzione completa, chiara e di facile comprensione. Non sono necessari né l'installazione né gli aggiornamenti manuali. Familiari, consulenti fiscali, agenti immobiliari o custodi ricevono ciascuno un proprio accesso, così da poter gestire insieme gli immobili. 
 
-Le amministrazioni risparmiano tempo e denaro nella configurazione della soluzione, nella formazione dei collaboratori e nella collaborazione con proprietari e fornitori di servizi. In quanto soluzione web, Fairwalter si adatta ai tuoi processi: integra soluzioni esterne tramite interfaccia e organizza i processi interni in modo flessibile.
+Le amministrazioni immobiliari risparmiano tempo e denaro nella configurazione della soluzione, nella formazione dei collaboratori e nella collaborazione con proprietari e fornitori di servizi. Come soluzione web, Fairwalter si adatta ai tuoi processi: integra soluzioni esterne tramite interfaccia e organizza i processi interni in modo flessibile.
 
 - Fairwalter preleva i dati smart-me direttamente tramite API
-- Adatto ai conteggi delle spese accessorie
+- Adatto per i conteggi delle spese accessorie
 - Limitato nel conteggio dell'energia elettrica (nessuna tariffa solare)
 
 </div>
@@ -29,11 +29,11 @@ Le amministrazioni risparmiano tempo e denaro nella configurazione della soluzio
 
 ### Integrazione con smart-me
 
-Tutti i dati di consumo rilevati da smart-me vengono utilizzati automaticamente per il conteggio delle spese di riscaldamento e delle spese accessorie. Basta assegnare i contatori ai conti delle spese accessorie.
+Tutti i dati di consumo rilevati da smart-me vengono utilizzati automaticamente per il conteggio delle spese di riscaldamento e delle spese accessorie. A tale scopo è sufficiente assegnare i contatori ai conti delle spese accessorie.
 
-[Video demo live](https://youtu.be/E7HuIAUehdE)
+[Video demo dal vivo](https://youtu.be/E7HuIAUehdE)
 
-<Video src="E7HuIAUehdE" title="Video YouTube, demo live Fairwalter" />
+<Video src="E7HuIAUehdE" title="Video YouTube, demo dal vivo Fairwalter" />
 
 ## Contatto
 

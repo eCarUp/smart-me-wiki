@@ -4,7 +4,7 @@ slug: '/informationssicherheit/datensicherheit'
 description: 'La protection et la sécurité des données revêtent une grande importance chez smart-me.'
 sidebar_label: 'Sécurité des données'
 ---
-La protection et la sécurité des données revêtent une grande importance chez smart-me. Nous distinguons plusieurs domaines de la sécurité des données :
+La protection et la sécurité des données revêtent une grande importance chez smart-me. Nous distinguons différents domaines de la sécurité des données :
 
 - Appareils : la communication des appareils smart-me avec le cloud smart-me
 
@@ -29,13 +29,13 @@ Avec le cloud, les données ne sont pas enregistrées localement sur le poste de
 
 ### Où smart-me enregistre-t-il les données ?
 
-smart-me attache une grande importance à enregistrer les données à proximité du client. Les serveurs de smart-me se trouvent en Suisse.  Avec des serveurs situés en Suisse, nous garantissons la sauvegarde des données conformément au droit suisse.
+smart-me attache une grande importance à l'enregistrement des données à proximité du client. Les serveurs de smart-me se trouvent en Suisse. Avec des serveurs situés en Suisse, nous garantissons la sauvegarde des données conformément au droit suisse.
 
-Les centres de données sont certifiés à plusieurs reprises et sécurisés. Ils sont notamment certifiés ISO 27001, la norme reconnue en matière de sécurité de l'information.
+Les centres de données sont multicertifiés et sécurisés. Ils sont notamment certifiés ISO 27001, la norme reconnue en matière de sécurité de l'information.
 
 ### Haute disponibilité
 
-Tous les serveurs smart-me utilisés disposent d'au moins un système de secours parallèle. En cas de panne d'un serveur, le système de secours prend automatiquement le relais, sans interruption. Toutes les données sont enregistrées de manière redondante sur trois sites différents.
+Tous les serveurs smart-me utilisés disposent d'au moins un système de secours parallèle. En cas de panne d'un serveur, le système de secours prend automatiquement le relais sans interruption. Toutes les données sont enregistrées de manière redondante sur trois sites différents.
 
 ### Sécurité contre les attaques
 
@@ -43,11 +43,11 @@ Tous les serveurs smart-me sont protégés contre les attaques par des pare-feu.
 
 ### Mises à jour
 
-Le cloud smart-me est constamment amélioré et étendu. Les mises à jour sont installées régulièrement et sans interruption du système.
+Le cloud smart-me est amélioré et étendu en permanence. Les mises à jour sont installées régulièrement et sans interruption du système.
 
 ## App et Web
 
-Les [apps smart-me](https://web.smart-me.com/project/smart-me-app/) ainsi que le [site web smart-me](https://web.smart-me.com/) utilisent uniquement des connexions sécurisées via https, c.-à-d. que la connexion est chiffrée avec SSL/TLS.
+Les [apps smart-me](https://web.smart-me.com/project/smart-me-app/) ainsi que le [site web smart-me](https://web.smart-me.com/) utilisent uniquement des connexions sécurisées via https, c'est-à-dire que la connexion est chiffrée avec SSL/TLS.
 
 ## Contact
 

@@ -4,7 +4,7 @@ slug: '/informationssicherheit/datensicherheit'
 description: 'Data protection and data security are a high priority at smart-me.'
 sidebar_label: 'Data Security'
 ---
-Data protection and data security are a high priority at smart-me. We distinguish between different areas of data security:
+Data protection and data security are a high priority at smart-me. We distinguish between several areas of data security:
 
 - Devices: The communication between smart-me devices and the smart-me Cloud
 
@@ -13,25 +13,25 @@ Data protection and data security are a high priority at smart-me. We distinguis
 - App and web: The security of the smart-me website and the smart-me apps
 
 
-You can find further information in our comprehensive [privacy policy](https://web.smart-me.com/datenschutzerklaerung/).
+You can also find more information in our comprehensive [privacy policy](https://web.smart-me.com/datenschutzerklaerung/).
 
 ## Devices
 
 All connections between smart-me devices (meters, modules and gateways) and the smart-me Cloud are encrypted. Each device has its own unique key (256 bit). The algorithm used is Advanced Encryption Standard (AES). This means that all communication between the smart-me Cloud and the devices is encrypted and validated. 
 
-Tip: Actively contribute to even better protection of your data by encrypting your WiFi network with a strong password.
+Tip: Actively help protect your data even better by securing your WiFi network with a strong password.
 
 ## Cloud
 
 ### What is the cloud?
 
-With the cloud, data is not stored locally at the workplace, but in an external, secured data centre.
+With the cloud, data is not stored locally at your workplace but in an external, secure data centre.
 
 ### Where does smart-me store the data?
 
-smart-me places great importance on storing data close to the customer. The smart-me servers are located in Switzerland.  With Switzerland as the server location, we guarantee data protection under Swiss law.
+smart-me attaches great  importance to storing data close to the customer. The smart-me servers are located in Switzerland.  With Switzerland as the server location, we guarantee that data is secured in accordance with Swiss law.
 
-The data centres are secured and hold multiple certifications. Among others, they are certified to ISO 27001, the recognised standard for information security.
+The data centres hold multiple certifications and are secured. Among other things, they are certified to ISO 27001, the recognised standard for information security.
 
 ### Fail-safety
 

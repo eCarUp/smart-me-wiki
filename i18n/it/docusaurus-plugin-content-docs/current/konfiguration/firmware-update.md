@@ -8,12 +8,12 @@ sidebar_label: 'Aggiornamento del firmware'
 
 ## Eseguire l'aggiornamento del firmware
 
-Nel corso del loro ciclo di vita, i prodotti smart-me ricevono regolarmente miglioramenti ed estensioni delle funzioni.
-L'utente può installare queste ottimizzazioni autonomamente.
+Durante il loro ciclo di vita, i prodotti smart-me ricevono continuamente miglioramenti ed estensioni delle funzionalità.
+Queste ottimizzazioni possono essere eseguite autonomamente dall'utente.
 
-ⓘ Nota: gli aggiornamenti del firmware vanno applicati soprattutto quando hai riscontrato un comportamento anomalo o vuoi usare una nuova funzione che il firmware precedente non supportava ancora. I prodotti con funzioni in rapida evoluzione, come ad esempio la stazione di ricarica Pico, dovrebbero essere aggiornati regolarmente.
+ⓘ Nota: gli aggiornamenti del firmware vanno applicati soprattutto quando hai riscontrato un comportamento anomalo o desideri utilizzare una nuova funzione che il firmware precedente non supportava ancora. I prodotti con funzioni in rapida evoluzione, come ad esempio la stazione di ricarica Pico, dovrebbero essere aggiornati regolarmente.
 
-Apri la seguente pagina web tramite il portale o tramite il link seguente:
+Visita la seguente pagina web tramite il portale oppure tramite il seguente link:
 [Pagina web per l'aggiornamento del firmware](https://webforms.smart-me.com/Connect/DeviceOverview.aspx) 
 
 ## Procedura
@@ -62,7 +62,7 @@ Tempo fino al completamento dell'aggiornamento:
 
 - Per Telstar (CT) circa 5 minuti.
 
-- Per Pico può essere necessario fino a un giorno. Vedi sotto per accelerare l'aggiornamento del firmware.
+- Per Pico può richiedere fino a un giorno. Vedi più sotto come accelerare l'aggiornamento del firmware.
 
 - Per il gateway M-Bus dipende dall'intervallo di upload.
 
@@ -78,15 +78,15 @@ Tempo fino al completamento dell'aggiornamento:
 
 ### Accelerare l'aggiornamento del firmware
 
-Di norma l'aggiornamento prosegue anche senza un monitoraggio attivo e senza un browser aperto.
+Di norma l'aggiornamento prosegue anche senza un monitoraggio attivo o un browser aperto.
 
-Se l'aggiornamento viene monitorato attivamente, è possibile accelerarlo come segue:
+Se l'aggiornamento viene monitorato attivamente, può essere accelerato come segue:
 
 - Seleziona il contatore o la Pico in una seconda scheda del browser.
 
 - Seleziona la visualizzazione normale.
 
-- Lascia la scheda del browser aperta e attiva. In questo modo il contatore o la Pico comunica più spesso con il cloud smart-me e possono quindi essere scambiati più pacchetti di dati, così da completare l'aggiornamento più rapidamente.
+- Lascia la scheda del browser aperta e attiva. In questo modo il contatore o la Pico comunica più spesso con la smart-me Cloud e possono quindi essere scambiati più pacchetti di dati, così da completare più rapidamente l'aggiornamento.
 
 - Puoi verificare se la comunicazione è attiva osservando la tensione. Poiché questa oscilla sempre leggermente, è facile vedere se il dispositivo invia ora dati ogni 1-2 secondi.
 

@@ -32,7 +32,7 @@ Sprachen unverändert — inklusive Gross-/Kleinschreibung.
 
 ### Schweizer Normen, Programme und Regelwerke
 
-`VEWA` · `Minergie` · `MKD3` · `VSE` · `METAS` · `EnDK`
+`Minergie` · `MKD3` · `VSE` · `METAS` · `EnDK`
 
 ### Dritthersteller und Partnersysteme
 
@@ -57,6 +57,7 @@ der ersten Nennung in einem Abschnitt eingeführt und danach verwendet.
 | ZEV (Zusammenschluss zum Eigenverbrauch) | ZEV (association for own consumption) | RCP (regroupement dans le cadre de la consommation propre) | RCP (raggruppamento ai fini del consumo proprio) |
 | vZEV (virtueller ZEV) | vZEV (virtual ZEV) | RCP virtuel (vRCP) | RCP virtuale (vRCP) |
 | LEG (Lokale Elektrizitätsgemeinschaft) | LEC (local electricity community) | CEL (communauté électrique locale) | CEL (comunità elettrica locale) |
+| VEWA (Verbrauchsabhängige Energie- und Wasserkostenabrechnung) | VEWA (consumption-based energy and water cost billing) | DIFEE (Décompte individuel des frais d'énergie et d'eau) | CISE (Conteggio individuale delle spese dell'energia e dell'acqua) |
 | Eigenverbrauch | self-consumption | autoconsommation | autoconsumo |
 | Mieterstrom | tenant electricity | électricité pour les locataires | elettricità per gli inquilini |
 | Nebenkosten | ancillary costs | charges accessoires | spese accessorie |

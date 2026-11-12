@@ -6,7 +6,7 @@ sidebar_label: 'Contact Allemagne'
 ---
 Cette page s'applique à l'Allemagne. Pour la Suisse et le Liechtenstein, il existe un [contact dédié](/kontakt-schweiz).
 
-### Informations importantes
+### À savoir
 
 smart-me est un fournisseur de matériel et de technologie. Nous ne réalisons pas de projets et n'effectuons pas de configurations d'installations pour les clientes et clients finaux. Notre support technique s'adresse en règle générale exclusivement aux partenaires certifiés.
 
@@ -16,15 +16,15 @@ En Allemagne, la vente et le support sont assurés par notre filiale [smartRED](
 
 <Kacheln min="18rem">
 
-<Kachel titel="Pour les clients particuliers" href="https://www.smartred.de/kontakt/">
+<Kachel titel="Für Privatkunden" href="https://www.smartred.de/kontakt/">
 
 En tant que client particulier, adressez-vous à smartRED. Vous y serez mis en relation avec un partenaire près de chez vous.
 
 </Kachel>
 
-<Kachel titel="Devenir partenaire" href="https://web.smart-me.com/partner-werden/">
+<Kachel titel="Partner werden" href="https://web.smart-me.com/partner-werden/">
 
-Vous souhaitez devenir partenaire ou suivre une formation ? Inscrivez-vous ici à la formation des partenaires.
+Vous souhaitez devenir partenaire ou suivre une formation ? C'est ici que vous pouvez vous inscrire à la formation des partenaires.
 
 </Kachel>
 
@@ -40,13 +40,13 @@ Dieselstrasse 17, DE-89160 Dornstadt
 
 [info@smartred.de](mailto:info@smartred.de) · [www.smartred.de](https://www.smartred.de)
 
-Cette vignette vous mène au formulaire de contact.
+Cette vignette vous permet d'accéder au formulaire de contact.
 
 </Kachel>
 
-<Kachel titel="RMA / Retours" href="/rma-antragsformular-deutschland">
+<Kachel titel="RMA / Rücksendungen" href="/rma-antragsformular-deutschland">
 
-Les appareils provenant d'Allemagne sont retournés au moyen du formulaire de smartRED.
+Les appareils provenant d'Allemagne sont retournés via le formulaire de smartRED.
 
 </Kachel>
 
@@ -54,11 +54,11 @@ Les appareils provenant d'Allemagne sont retournés au moyen du formulaire de sm
 
 ### Support technique
 
-Le support technique pour les partenaires certifiés fonctionne comme en Suisse :
+Le support technique pour les partenaires certifiés fonctionne de la même manière qu'en Suisse :
 
 <Kacheln min="15rem">
 
-<Kachel titel="Support technique">
+<Kachel titel="Technischer Support">
 
 [support@smart-me.com](mailto:support@smart-me.com)
 
@@ -66,9 +66,9 @@ Le support technique pour les partenaires certifiés fonctionne comme en Suisse 
 
 </Kachel>
 
-<Kachel bild="/img/kontakt-schweiz/01.jpg" bildtext="TeamViewer pour smart-me" titel="Support TeamViewer" href="https://get.teamviewer.com/68stbb8">
+<Kachel bild="/img/kontakt-schweiz/01.jpg" bildtext="TeamViewer für smart-me" titel="TeamViewer-Support" href="https://get.teamviewer.com/68stbb8">
 
-Disponible uniquement après accord téléphonique. Cette vignette vous permet de télécharger TeamViewer pour smart-me.
+Disponible uniquement sur rendez-vous téléphonique. Cette vignette vous permet de télécharger TeamViewer pour smart-me.
 
 </Kachel>
 

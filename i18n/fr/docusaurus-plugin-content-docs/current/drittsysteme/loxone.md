@@ -27,38 +27,38 @@ Possible uniquement jusqu'en novembre 2026 (jusqu'à v.1.0.2)
 
 - [Loxone Library](https://library.loxone.com/vendor/smart-me-1505)
 
-- [Documentation de l'API](/schnittstellen/api)
+- [Documentation API](/schnittstellen/api)
 
 
-Dans le modèle, le nom d'utilisateur et le mot de passe du compte doivent figurer devant l'URL de l'appel API. Le nom d'utilisateur doit être défini selon smart-me.
+Dans le modèle, le nom d'utilisateur et le mot de passe du compte doivent figurer avant l'URL de l'appel API. Le nom d'utilisateur doit être défini selon ce qui a été fixé par smart-me.
 
 ## Intégration via l'API - clés API (recommandé)
 
 Le modèle permet de lire les données des compteurs depuis notre cloud et de commander des sorties numériques.
 
-Remarque : Loxone ne propose pas de moyen plus simple de gérer les clés API. La procédure décrite ci-dessous a été élaborée en collaboration avec Loxone. Les clés API ont été introduites afin de répondre aux exigences de sécurité croissantes.
+Remarque : Loxone n'offre pas de moyen plus simple de gérer les clés API. La procédure décrite ci-dessous a été élaborée en collaboration avec Loxone. Les clés API ont été introduites afin de répondre aux exigences de sécurité croissantes.
 
 à partir de la version 1.0.3
 
 - [Loxone Library](https://library.loxone.com/vendor/smart-me-1505)
 
-- [Documentation de l'API](/schnittstellen/api)
+- [Documentation API](/schnittstellen/api)
 
 
 ### 1. Créer une clé API dans le portail smart-me.
 
 
-Connexion au portail smart-me --> menu Interfaces (Schnittstellen) --> API  --> Cliquer sur le « lien » (« Link ») dans la bannière orange en haut -->  « Créer » (« Neu erstellen »).
+Connexion au portail smart-me --> menu Interfaces (Schnittstellen) --> API  --> Dans la bannière orange en haut, cliquer sur le « lien » (Link) -->  « Créer » (Neu erstellen).
 
 - Donner une désignation à la clé API, p. ex. Loxone, 
 - Définir la date d'expiration
-- Définir les autorisations. Pour Loxone, « device.readswitch » suffit (si le navigateur traduit automatiquement la page en allemand, veuillez utiliser « Gerät.LesenSchalten ») 
-- Créer
+- Définir les autorisations. Pour Loxone, « device.readswitch » suffit (si la page est traduite automatiquement en allemand par le navigateur, veuillez utiliser « Gerät.LesenSchalten ») 
+- Créer (Erstellen)
 - Copier la clé API.  Attention : la clé ne peut plus être consultée par la suite.
 - La clé API sera nécessaire plus tard.
 
 
-En général : plus d'informations sur les autorisations : [API](/schnittstellen/api) 
+Généralités : plus d'informations sur les autorisations : [API](/schnittstellen/api) 
 
 ![Loxone – Figure 2](/img/drittsysteme-loxone/02.png)
 
@@ -87,35 +87,35 @@ curl -X "GET" "https://api.smart-me.com/Devices" -H "accept: \*/\*" -H "Authoriz
 
 ### 3\. Configurer la sortie virtuelle dans Loxone
 
-- Télécharger le modèle depuis la Loxone Library (VO\_XXXX). (Voir le lien ci-dessus)
-- Dans l'arborescence / la périphérie de Loxone, cliquer sur Sorties virtuelles (Virtuelle Ausgänge)
-- En haut, dans le menu Loxone, sous « Appareils prédéfinis » (« Vordefinierte Geräte »), charger le smart-me Request.
-- Une nouvelle sortie virtuelle apparaît ; cliquer sur la commande « Meter ».
-- Dans le champ « Commande sur ON » (« Befehl bei EIN »), &lt;meter.id\> doit être remplacé par l'ID de l'appareil.
-- Dans le champ « En-tête HTTP sur ON » (« HTTP header bei EIN »), &lt;apikey> doit être remplacé par la clé API. Remarque : la clé API peut être la même pour tous les compteurs d'un même compte.
+- Télécharger le modèle depuis la Loxone Library (VO\_XXXX). (Voir le lien plus haut)
+- Dans l'arborescence / la périphérie Loxone, cliquer sur Sorties virtuelles (Virtuelle Ausgänge)
+- En haut, dans le menu Loxone, sous « Appareils prédéfinis » (Vordefinierte Geräte), charger la requête smart-me.
+- Une nouvelle sortie virtuelle apparaît ; y cliquer sur la commande « Meter ».
+- Dans le champ « Commande sur ON » (Befehl bei EIN), &lt;meter.id\> doit être remplacé par l'ID de l'appareil.
+- Dans le champ « En-tête HTTP sur ON » (HTTP header bei EIN), &lt;apikey> doit être remplacé par la clé API. Remarque : la clé API peut être la même pour chaque compteur d'un même compte.
 
 ![Loxone – Figure 5](/img/drittsysteme-loxone/05.png)
 
 ![Loxone – Figure 6](/img/drittsysteme-loxone/06.png)
 
-- Dans le champ « Enregistrer la réponse HTTP » (« HTTP-Antwort speichern »), le texte smartmeapi.html doit être adapté.
-- Le nom doit être individuel pour chaque sortie (donc pour chaque compteur). 
+- Dans le champ « Enregistrer la réponse HTTP » (HTTP-Antwort speichern), le texte smartmeapi.html doit être adapté.
+- Le nom doit être unique pour chaque sortie (donc pour chaque compteur). 
     - p. ex. bilanz.html pour le compteur de bilan user/common/bilanz.html 
 
 ![Loxone – Figure 7](/img/drittsysteme-loxone/07.png)
 
 ### 4\. Configurer l'entrée virtuelle dans Loxone
 
-- Sélectionnez les propriétés du Loxone Mini Server. Vous y trouverez le nom d'hôte ou l'adresse IP du Miniserver. Ceci est nécessaire pour la suite de la configuration.
+- Sélectionnez les propriétés du Loxone Mini Server. Vous y trouverez le nom d'hôte ou l'adresse IP du Miniserver. Ces informations sont nécessaires pour la suite de la configuration.
 
 ![Loxone – Figure 8](/img/drittsysteme-loxone/08.png)
 
 - Télécharger le modèle depuis la Loxone Library (VI\_XXXX).
-- Sous « Appareils HTTP prédéfinis » (« Vordefinierte HTTP-Geräte »), charger le smart-me meter.
+- Sous « Appareils HTTP prédéfinis » (Vordefinierte HTTP-Geräte), charger le smart-me meter.
 - Une nouvelle entrée virtuelle apparaît
 - Cliquer sur l'entrée « smart-me meter ».
-- Dans le champ « URL », les éléments suivants doivent être adaptés.
-    - Identifiants d'accès du Loxone Miniserver
+- Dans le champ « URL », les erreurs suivantes doivent être corrigées.
+    - Données d'accès du Loxone Miniserver
     - Nom d'hôte ou IP du Loxone Mini Server
     - Nom du fichier HTML enregistré. Pour la même commande, le même nom que ci-dessus est nécessaire. p. ex. bilanz.html. 
 
@@ -129,7 +129,7 @@ curl -X "GET" "https://api.smart-me.com/Devices" -H "accept: \*/\*" -H "Authoriz
 
 ### 5\. Relier le générateur d'impulsions à la sortie virtuelle
 
-Si l'Example Meter n'est pas utilisé, la « commande de sortie virtuelle » (« Virtuelle Ausgang Befehl ») doit être pilotée au moyen d'un générateur d'impulsions.
+Si l'Example Meter n'est pas utilisé, la « commande de sortie virtuelle » (Virtuelle Ausgang Befehl) doit être pilotée au moyen d'un générateur d'impulsions.
 
 ![Loxone – Figure 10](/img/drittsysteme-loxone/10.png)
 
@@ -143,13 +143,13 @@ Le module permet d'envoyer des données de compteurs vers notre cloud.
 
 - [Loxone Library (Loxone vers smart-me)](https://library.loxone.com/detail/smart-me-cloud-1764/overview)
 
-Important : ce module n'est pas développé par smart-me. Nous n'offrons aucun support pour celui-ci. Vous devez acquérir vous-même les connaissances nécessaires à l'utilisation de ce module, qui s'adresse selon nous aux utilisateurs Loxone avancés.
+Important : ce module n'est pas développé par smart-me. Nous n'offrons pas de support pour celui-ci. Les connaissances nécessaires à l'utilisation de ce module sont à acquérir par vous-même ; de notre point de vue, il s'adresse aux utilisateurs Loxone avancés.
 
-Ce guide offre seulement un bref aperçu de la manière de créer un point de mesure, ce qui ne se fait pas via le module Loxone.
+Ce guide ne donne qu'un bref aperçu de la manière de créer un point de mesure, ce qui ne se fait pas via le module Loxone.
 
 1.  Créer une clé API dans le portail smart-me avec les claims : device.readwrite et user.readwrite (une seule clé par compte est nécessaire, pas une par compteur)
 
-2.  Exécuter l'appel suivant (modifier les champs au préalable (ApiKey & Name))
+2.  Exécuter l'appel suivant (éditer les champs auparavant (ApiKey & Name))
     Avec PowerShell :
     curl -i -X 'POST' 'https://api.smart-me.com/Devices' -H 'accept: text/plain' -H 'Authorization: ApiKey &lt;apikey>' -H 'Content-Type: application/json-patch+json' -d '&#123;"activePower": 0, "counterReading": 0, "counterReadingExport": 0, "valueDate": "2025-07-08T08:15:55.026Z", "name": "Loxone Beispiel", "deviceEnergyType": 1&#125;'
 
@@ -157,7 +157,7 @@ Ce guide offre seulement un bref aperçu de la manière de créer un point de me
     curl -i -X POST "https://api.smart-me.com/Devices" -H "accept: text/plain" -H "Authorization: ApiKey &lt;apikey> " -H "Content-Type: application/json" -d "&#123;\\"activePower\\": 0, \\"counterReading\\": 0, \\"counterReadingExport\\": 0, \\"valueDate\\": \\"2025-12-05T00:00:00.000Z\\", \\"name\\": \\"Loxone Beispiel\\", \\"deviceEnergyType\\": 1&#125;"
 
 3.  Reprendre l'UUID du compteur dans la réponse.
-    Alternative 1 : récupérer l'UUID depuis Santé du système (Systemgesundheit) dans le Dashboard
+    Alternative 1 : récupérer l'UUID dans Santé du système (Systemgesundheit) du Dashboard
     Alternative 2 : utiliser [https://api.smart-me.com/Devices](https://api.smart-me.com/Devices) GET pour obtenir tous les ID.
 
 4.  Ces données doivent être saisies dans la Loxone Library.

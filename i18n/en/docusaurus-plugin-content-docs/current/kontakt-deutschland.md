@@ -8,7 +8,7 @@ This page applies to Germany. Switzerland and Liechtenstein have their [own cont
 
 ### Important to know
 
-smart-me is a hardware and technology supplier. We do not carry out projects and do not configure systems for end customers. Our technical support is generally reserved for certified partners.
+smart-me is a hardware and technology supplier. We do not carry out projects, and we do not configure systems for end customers. Our technical support is generally available only to certified partners.
 
 In Germany, sales and support are handled by our subsidiary [smartRED](/drittsysteme/smartred).
 
@@ -18,13 +18,13 @@ In Germany, sales and support are handled by our subsidiary [smartRED](/drittsys
 
 <Kachel titel="Für Privatkunden" href="https://www.smartred.de/kontakt/">
 
-As a private customer, please contact smartRED. They will put you in touch with a partner near you.
+As a private customer, contact smartRED. They will put you in touch with a partner near you.
 
 </Kachel>
 
 <Kachel titel="Partner werden" href="https://web.smart-me.com/partner-werden/">
 
-Would you like to become a partner or attend a training course? This is where you register for the partner training.
+Would you like to become a partner or attend a training course? Register for the partner training here.
 
 </Kachel>
 
@@ -68,7 +68,7 @@ Technical support for certified partners works the same way as in Switzerland:
 
 <Kachel bild="/img/kontakt-schweiz/01.jpg" bildtext="TeamViewer für smart-me" titel="TeamViewer-Support" href="https://get.teamviewer.com/68stbb8">
 
-Only available by prior arrangement by phone. Use this tile to download TeamViewer for smart-me.
+Available only by prior arrangement by phone. Use this tile to download TeamViewer for smart-me.
 
 </Kachel>
 

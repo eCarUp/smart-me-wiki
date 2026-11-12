@@ -13,17 +13,17 @@ symbol: 'vernetzt'
 
 ## Généralités sur la CEL
 
-La communauté électrique locale (CEL) est un modèle juridique qui permet l'échange et la vente d'électricité produite localement via le réseau de distribution public, à l'intérieur d'un périmètre régional.
+La communauté électrique locale (CEL) est un modèle juridique qui permet l'échange et la vente d'électricité produite localement via le réseau de distribution public, au sein d'un périmètre régional.
 
 ### Les principales caractéristiques :
 
-- Régionalité : l'échange d'électricité est limité à la zone de desserte située sur le territoire d'une commune.
+- Régionalité : l'échange d'électricité est limité à la zone de desserte du réseau à l'intérieur d'une commune.
 
-- Utilisation du réseau : les participants utilisent une partie du réseau du gestionnaire de réseau de distribution (GRD). Un tarif d'utilisation du réseau réduit est dû pour cela.
+- Utilisation du réseau : les participants utilisent une partie du réseau du gestionnaire de réseau de distribution (GRD). Un tarif d'utilisation du réseau réduit est perçu à cet effet.
 
-- Combinabilité : un regroupement dans le cadre de la consommation propre (RCP) ou un RCP virtuel (vRCP) peut être intégré à une CEL en tant que participant.
+- Combinabilité : un regroupement dans le cadre de la consommation propre (RCP) ou un RCP virtuel (vRCP) peuvent être intégrés à une CEL en tant que participants.
 
-- Sécurité d'approvisionnement : les consommateurs d'une CEL restent dans l'approvisionnement de base ordinaire pour couvrir le reste de leurs besoins en électricité.
+- Sécurité d'approvisionnement : les consommateurs de la CEL restent dans l'approvisionnement de base ordinaire pour couvrir le reste de leurs besoins en électricité.
 
 
 ### Tarification et conditions
@@ -34,9 +34,9 @@ Vous trouverez des informations détaillées ainsi que la recommandation de la b
 
 
 
-### Statut chez smart-me
+### Situation chez smart-me
 
-smart-me ne propose actuellement aucun produit spécifique pour la mise en œuvre directe de CEL. Comme nous suivons toutefois activement l'évolution de ce marché, vos idées d'application et vos retours nous intéressent.
+Actuellement, smart-me ne propose pas de produits spécifiques pour la mise en œuvre directe de CEL. Comme nous suivons activement l'évolution de ce marché, vos idées d'application et vos retours nous intéressent.
 
 Intéressé par un échange ? Prenez directement rendez-vous avec Fabio (gestion des produits) :  [https://calendar.app.google/kiwRFrwoDeXNyFRi8](https://calendar.app.google/kiwRFrwoDeXNyFRi8)
 

@@ -1,10 +1,10 @@
 ---
 title: 'Risposte standard'
 slug: '/informationssicherheit/standardantworten'
-description: 'Questa pagina risponde a domande generali sulla sicurezza delle informazioni e dei dati presso smart-me AG e mira a consentire ai partner di compilare autonomamente i questionari di sicurezza standard…'
+description: 'Questa pagina risponde a domande generali sulla sicurezza delle informazioni e dei dati presso smart-me AG e ha lo scopo di permettere ai partner di compilare autonomamente i questionari di sicurezza standard…'
 sidebar_label: 'Risposte standard'
 ---
-Questa pagina risponde a domande generali sulla sicurezza delle informazioni e dei dati presso smart-me AG e mira a consentire ai partner di compilare autonomamente i questionari di sicurezza standard.
+Questa pagina risponde a domande generali sulla sicurezza delle informazioni e dei dati presso smart-me AG e ha lo scopo di permettere ai partner di compilare autonomamente i questionari di sicurezza standard.
 
 Contatto: security@smart-me.com
 
@@ -17,7 +17,7 @@ Ultimo aggiornamento: 16.01.2025
 
 - Azienda attiva a livello internazionale con circa 50 dipendenti.
 
-- Sviluppo e produzione di una soluzione di conteggio per RCP (raggruppamento ai fini del consumo proprio) / elettricità per gli inquilini, mobilità elettrica e multienergia.
+- Sviluppo e produzione di una soluzione di conteggio per RCP (raggruppamenti ai fini del consumo proprio) / elettricità per gli inquilini, mobilità elettrica e multienergia.
 
 </details>
 
@@ -26,7 +26,7 @@ Ultimo aggiornamento: 16.01.2025
 
 - Condizioni generali di contratto (CGC)
 
-- Accordo sul trattamento dei dati per conto terzi (ADV): allegato alle CGC
+- Accordo sul trattamento dei dati per conto terzi: allegato alle CGC
 
 - Informativa sulla protezione dei dati
 
@@ -42,7 +42,7 @@ Ultimo aggiornamento: 16.01.2025
 
 - Per l'acquisto di licenze con carta di credito, i dati della carta di credito vengono trattati tramite Stripe.
 
-- Per ordini e offerte, i dati dei clienti vengono trattati tramite Bexio.
+- Per ordini e offerte, i dati dei clienti vengono trattati tramite bexio.
 
 - I casi di supporto e le relative informazioni vengono trattati tramite Freshdesk.
 
@@ -52,11 +52,11 @@ Ultimo aggiornamento: 16.01.2025
 <summary>Come vengono cancellati i dati?</summary>
 
 - I clienti sono responsabili dei propri account smart-me e possono cancellarli in qualsiasi momento nel portale web.
-    Quando un cliente cancella il proprio account, i dati vengono rimossi in modo irreversibile.
+    Se un cliente cancella il proprio account, questi dati vengono rimossi in modo irreversibile.
 
 - Dopo 30 giorni non esiste più alcun backup.
 
-- I dati trattati tramite Freshdesk o Bexio possono essere cancellati su richiesta.
+- I dati trattati tramite Freshdesk o bexio possono essere cancellati su richiesta.
 
 </details>
 
@@ -77,7 +77,7 @@ Tutti i servizi smart-me sono ospitati su server di Microsoft Azure Svizzera. No
 </details>
 
 <details id="wie-werden-die-daten-geschuetzt">
-<summary>Come vengono protetti i dati?</summary>
+<summary>Come sono protetti i dati?</summary>
 
 I server sono protetti dalle misure di Microsoft Azure. Inoltre utilizziamo Cloudflare come Web Application Firewall (WAF) e per la gestione del carico.
 
@@ -97,7 +97,7 @@ La disponibilità dei sistemi è garantita dall'infrastruttura di Microsoft Azur
 <details id="wie-werden-daten-verschluesselt">
 <summary>Come vengono crittografati i dati?</summary>
 
-I dati dell'applicazione non sono crittografati singolarmente, ma lo è il database nel suo complesso, che contiene i dati dell'applicazione. 
+I dati dell'applicazione non sono crittografati singolarmente, ma lo è il database nel suo insieme, che contiene i dati dell'applicazione. 
 
 La comunicazione tra contatori e cloud è crittografata con AES-256.
 
@@ -106,7 +106,7 @@ La comunicazione tra contatori e cloud è crittografata con AES-256.
 <details id="wie-werden-passwoerter-von-smart-me-konten-gehashed">
 <summary>Come vengono sottoposte a hashing le password degli account smart-me?</summary>
 
-Le password vengono sottoposte a hashing con RIPEMD-160 con salt dinamico.
+Le password vengono sottoposte a hashing con RIPEMD-160 e salt dinamico.
 
 </details>
 
@@ -122,7 +122,7 @@ No. L'eccezione è l'accesso tramite la nostra API, che oltre a Basic Auth suppo
 
 I dati dei contatori sono sottoposti a backup giornalieri da parte di Instaclustr. [Informazioni in merito](https://www.instaclustr.com/support/documentation/cassandra/cassandra-cluster-operations/cluster-data-backups/)
 
-I dati dei clienti trattati tramite Freshdesk, Bexio o Stripe sono soggetti alla sicurezza dei dati dei rispettivi fornitori e quindi anche ai loro processi di backup.
+I dati dei clienti trattati tramite Freshdesk, bexio o Stripe sono soggetti alla sicurezza dei dati dei rispettivi fornitori e quindi anche ai loro processi di backup.
 
 </details>
 
@@ -152,12 +152,12 @@ Sì, tuttavia i dettagli specifici sono confidenziali.
 <details id="verfuegen-wir-ueber-ein-informationssicherheitszertifikat">
 <summary>Disponiamo di una certificazione sulla sicurezza delle informazioni?</summary>
 
-No, tuttavia il nostro fornitore di infrastruttura cloud, Microsoft Azure, è certificato ISO27001.
+No, tuttavia il nostro provider di infrastruttura cloud, Microsoft Azure, è certificato ISO27001.
 
 </details>
 
 <details id="fuehren-wir-it-sicherheitsaudits-bei-unseren-anbietern-durch">
-<summary>Effettuiamo audit di sicurezza informatica presso i nostri fornitori?</summary>
+<summary>Effettuiamo audit di sicurezza IT presso i nostri fornitori?</summary>
 
 No
 
@@ -171,7 +171,7 @@ No
 </details>
 
 <details id="erlauben-wir-it-audits">
-<summary>Consentiamo audit informatici?</summary>
+<summary>Consentiamo audit IT?</summary>
 
 Sì, ma solo con informazioni pubblicamente disponibili
 
@@ -193,9 +193,9 @@ Poiché la nostra applicazione non è ospitata localmente, la nostra architettur
 </details>
 
 <details id="sensibilisieren-wir-mitarbeitende-fuer-cybersicherheit">
-<summary>Sensibilizziamo i collaboratori sulla cybersicurezza?</summary>
+<summary>Sensibilizziamo i collaboratori sulla cibersicurezza?</summary>
 
-Sì, vengono svolte formazioni sulla cybersicurezza:
+Sì, vengono svolte formazioni sulla cibersicurezza:
 
 - Frequenza: ogni sei mesi e durante l'onboarding.
 
@@ -204,21 +204,21 @@ Sì, vengono svolte formazioni sulla cybersicurezza:
 </details>
 
 <details id="waren-wir-in-den-letzten-12-monaten-opfer-eines-sicherheitsvorfalls-oder-einer-datenpanne">
-<summary>Negli ultimi 12 mesi siamo stati vittime di un incidente di sicurezza o di una violazione dei dati?</summary>
+<summary>Negli ultimi 12 mesi siamo stati vittima di un incidente di sicurezza o di una violazione dei dati?</summary>
 
 No
 
 </details>
 
 <details id="verfuegen-wir-ueber-dedizierte-cybersicherheitsressourcen">
-<summary>Disponiamo di risorse dedicate alla cybersicurezza?</summary>
+<summary>Disponiamo di risorse dedicate alla cibersicurezza?</summary>
 
-Sì, disponiamo di risorse interne per la cybersicurezza.
+Sì, disponiamo di risorse interne per la cibersicurezza.
 
 </details>
 
 <details id="halten-wir-ihre-software-und-systeme-auf-dem-neuesten-stand">
-<summary>Manteniamo aggiornati i Suoi software e sistemi?</summary>
+<summary>Manteniamo aggiornati il vostro software e i vostri sistemi?</summary>
 
 Sì, tutti i sistemi e i dispositivi vengono aggiornati regolarmente alle versioni stabili più recenti.
 

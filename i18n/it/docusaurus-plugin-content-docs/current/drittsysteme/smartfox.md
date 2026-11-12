@@ -17,9 +17,9 @@ I dispositivi smart-me possono essere integrati in modo diretto e semplice in un
 </div>
 </div>
 
-Grazie all'impiego dell'intelligente energy manager SMARTFOX Pro, che monitora e regola costantemente la produzione e il consumo di energia elettrica, è possibile spostare il consumo di apparecchi elettrici come pompe di calore, stazioni di ricarica ecc. nelle ore di sole e aumentare sia la quota di autoconsumo sia il grado di autosufficienza.
+Grazie all'impiego dell'intelligente gestore energetico SMARTFOX Pro, che monitora e regola costantemente la produzione e il consumo di elettricità, è possibile spostare il consumo di apparecchi elettrici come pompe di calore, stazioni di ricarica ecc. nelle ore di sole e aumentare sia la quota di autoconsumo sia il grado di autarchia.
 
-Destinatari:
+Gruppo target:
 
 - Casa unifamiliare
 
@@ -33,7 +33,7 @@ Tipo di collegamento:
 
 Requisito:
 
-- Licenze smart-me Professional. [Ulteriori informazioni](/planung/cloud-lizenzen)
+- Licenze smart-me Professional. [Per saperne di più](/planung/cloud-lizenzen)
 
 ![SMARTFOX – Figura 2](/img/drittsysteme-smartfox/02.png)
 
@@ -62,7 +62,7 @@ Possibilità di impiego:
 
 
 
-## Istruzioni per il collegamento del contatore smart-me con SMARTFOX
+## Istruzioni per il collegamento tra contatore smart-me e SMARTFOX
 
 [Istruzioni complete per il collegamento](https://drive.google.com/file/d/1FaH_zWsVsDhH9CMsMmJ5JkJ0OZN69d2J/view?usp=drive_link) con tutti i dettagli
 
@@ -71,7 +71,7 @@ Possibilità di impiego:
 <div className="row">
 <div className="col col--6">
 
-1.  [Individuare l'indirizzo IP del contatore smart-me](/schnittstellen/modbus-tcp#determinare-lindirizzo-ip-con-il-nome-dns).
+1.  [Individuare l'indirizzo IP del contatore smart-me](/schnittstellen/modbus-tcp#ip-adresse-mit-dns-name-ermitteln).
 
 2.  Aggiungere un dispositivo esterno in SMARTFOX. (selezionare smart-me Telstar)
 

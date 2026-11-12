@@ -5,17 +5,17 @@ description: 'Qui viene descritto come eliminare o disattivare un contatore.'
 sidebar_label: 'Eliminare / disattivare un contatore'
 displayed_sidebar: wikiSidebar
 ---
-<Menueweg>Pannello di controllo → Dispositivo → Impostazioni (ingranaggio)</Menueweg>
+<Menueweg>Pannello di controllo → Dispositivo → Impostazioni (rotella dentata)</Menueweg>
 
 Qui viene descritto come eliminare o disattivare un contatore.
 
 ## In generale
 
-I dati di un contatore eliminato vengono cancellati in modo irreversibile e non possono essere ripristinati.
+I dati di un contatore eliminato vengono cancellati in modo irrevocabile e non possono essere ripristinati.
 
-In linea di principio, smart-me sconsiglia l'eliminazione dei contatori. In generale raccomandiamo di disattivare i contatori. I contatori disattivati non generano costi di licenza ed è possibile accedere in qualsiasi momento ai dati storici.
+In linea di principio smart-me sconsiglia l'eliminazione dei contatori. Raccomandiamo in generale di disattivare i contatori. I contatori disattivati non generano costi di licenza ed è possibile accedere in qualsiasi momento ai dati storici.
 
-Per i contatori M-Bus l'eliminazione non è efficace, poiché i contatori ricompaiono nel portale alla lettura successiva, se sono ancora online; in questo caso la disattivazione è l'unica possibilità.
+Per i contatori M-Bus l'eliminazione non è efficace, poiché alla lettura successiva, se ancora online, i contatori ricompaiono nel portale; in questo caso la disattivazione è l'unica possibilità.
 
 ## Disattivare un contatore
 
@@ -23,13 +23,13 @@ Per i contatori M-Bus l'eliminazione non è efficace, poiché i contatori ricomp
 
 - Selezionare il contatore
 
-- Selezionare l'ingranaggio in alto a destra
+- Selezionare la rotella dentata in alto a destra
 
 - Impostazioni avanzate (Erweiterte Einstellungen)
 
 - Impostare Contatore attivo (Zähler aktiv) su no
 
-- Salva (Speichern)
+- Salvare (Speichern)
 
 - Selezionare la freccia in alto a sinistra per tornare alla panoramica principale
 
@@ -46,13 +46,13 @@ Per i contatori M-Bus l'eliminazione non è efficace, poiché i contatori ricomp
 
 - Selezionare la Pico nell'albero
 
-- Modifica nodo (Knoten editieren)
+- Modificare il nodo (Knoten editieren)
 
 - Deselezionare Contatore attivo (Zähler aktiv)
 
 - Sì (Ja)
 
-- Salva (Speichern)
+- Salvare (Speichern)
 
 - La Pico ora è grigia
 
@@ -61,17 +61,17 @@ Per i contatori M-Bus l'eliminazione non è efficace, poiché i contatori ricomp
 
 ## Eliminare un contatore
 
-- L'eliminazione è irreversibile
+- L'eliminazione è irrevocabile
 
 - Accedere al portale
 
 - Selezionare il contatore
 
-- Selezionare l'ingranaggio in alto a destra
+- Selezionare la rotella dentata in alto a destra
 
 - Verificare che il numero di serie sia corretto. Il campo non deve essere vuoto.
 
-- Elimina dispositivo (Gerät Löschen)
+- Eliminare il dispositivo (Gerät Löschen)
 
 - Verificare che il numero di serie sia corretto. Il campo non deve essere vuoto.
 

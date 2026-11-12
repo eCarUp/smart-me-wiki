@@ -5,15 +5,15 @@ description: 'Vous avez besoin d''un abonnement smart-me Limited ou Professional
 sidebar_label: 'Visualisation et liens publics'
 naechste_schritte: [konfiguration/billing/index, konfiguration/billing-deutschland/index]
 ---
-<Menueweg>Configuration du compteur et du dossier → Sélectionner le nœud → Modifier la visualisation</Menueweg>
+<Menueweg>Configuration du compteur et du dossier → Sélectionner un nœud → Modifier la visualisation</Menueweg>
 
 ### Prérequis
 
 Vous avez besoin d'un abonnement smart-me Limited ou Professional pour utiliser cette fonction.
 
-## Configurer les visualisations
+## Configurer des visualisations
 
-Une visualisation est créée sur un dossier. Lorsque vous cliquez sur le dossier dans l'app ou sur le web, la visualisation correspondante s'affiche. 
+Une visualisation est créée sur un dossier. Lorsque vous cliquez sur le dossier dans l'application ou sur le web, la visualisation correspondante s'affiche. 
 
 
 ### Créer des visualisations
@@ -26,38 +26,38 @@ Procédez comme suit pour créer une visualisation :
 
 3.  Sélectionnez le dossier sur lequel la visualisation doit être créée.
 
-4.  À côté de Visualisation (Visualisierung), cliquez sur Modifier (editieren). 
+4.  Cliquez sur modifier (editieren) à côté de Visualisation (Visualisierung). 
 
 5.  Sélectionnez la visualisation souhaitée et ajoutez les compteurs correspondants. 
 
 
-![Visualisation et liens publics – Illustration 2](/img/konfiguration-visualisierung/02.png)
+![Visualisation et liens publics – Figure 2](/img/konfiguration-visualisierung/02.png)
 
-![Visualisation et liens publics – Illustration 3](/img/konfiguration-visualisierung/03.png)
+![Visualisation et liens publics – Figure 3](/img/konfiguration-visualisierung/03.png)
 
 ## Vue pour les locataires
 
-Pour les tarifs virtuels, une vue spéciale est disponible pour les locataires. Elle affiche la consommation d'énergie actuelle (électricité) et sa provenance (solaire ou réseau). La barre indique en outre la source d'approvisionnement en électricité au cours de la période écoulée.
+Pour les tarifs virtuels, une vue spéciale est disponible pour les locataires. Elle affiche la consommation d'énergie actuelle (électricité) et sa provenance (solaire ou réseau). En outre, la barre indique la source de soutirage d'électricité dans le passé.
 
-Elle doit être configurée en plus pour chaque nœud d'appartement.
+Cette vue doit être configurée en plus pour chaque nœud d'appartement.
 
 La visualisation s'appelle : « Tarifs virtuels simples appartement » ("Einfache virtuelle Tarife Wohnung")
 
-Attention : il faut sélectionner ici le dossier concerné de l'appartement, et non les compteurs qu'il contient !
+Attention : il faut sélectionner ici le dossier pertinent de l'appartement, et non les compteurs qu'il contient !
 
 
 
 Facultatif :
 Flux d'énergie du bâtiment
 
-Le flux d'énergie du bâtiment peut être visualisé en option. 
+Le flux d'énergie du bâtiment peut être visualisé de manière facultative. 
 
-- Pour cela, le locataire doit en plus obtenir l'accès aux points de mesure bilan, production et batterie. Le choix des compteurs de référence est automatique et se base sur leur nom.
+- Pour cela, le locataire doit en plus avoir accès aux points de mesure Bilan, Production et Batterie. Le choix des compteurs de référence est automatique et basé sur leur nom.
 
-    Ajoutez le compte utilisateur, par exemple, au dossier compteurs techniques qui contient les points de mesure mentionnés.
+    Ajoutez par exemple le compte utilisateur au dossier des compteurs techniques qui contient les points de mesure mentionnés.
 
 
-![Visualisation et liens publics – Illustration 4](/img/konfiguration-visualisierung/04.png)
+![Visualisation et liens publics – Figure 4](/img/konfiguration-visualisierung/04.png)
 
 Détails de la reconnaissance automatique des noms
 
@@ -110,21 +110,21 @@ Bateri… (Baterija) · Akumul… (Akumulator) · Skladište / Skladiste · Powe
 
 Voici un aperçu de différentes visualisations possibles. La liste n'est pas exhaustive.
 
-Il est possible de créer des nœuds vides afin de créer autant de visualisations que souhaité.
+Vous pouvez créer des nœuds vides afin de créer autant de visualisations que vous le souhaitez.
 
-## Visualisations pour RCP
+## Visualisations pour les RCP
 
-![Visualisation et liens publics – Illustration 5](/img/konfiguration-visualisierung/05.png)
+![Visualisation et liens publics – Figure 5](/img/konfiguration-visualisierung/05.png)
 
-![Visualisation et liens publics – Illustration 6](/img/konfiguration-visualisierung/06.png)
+![Visualisation et liens publics – Figure 6](/img/konfiguration-visualisierung/06.png)
 
-![Visualisation et liens publics – Illustration 7](/img/konfiguration-visualisierung/07.png)
+![Visualisation et liens publics – Figure 7](/img/konfiguration-visualisierung/07.png)
 
-![Visualisation et liens publics – Illustration 8](/img/konfiguration-visualisierung/08.png)
+![Visualisation et liens publics – Figure 8](/img/konfiguration-visualisierung/08.png)
 
-### Aperçu des performances RCP
+### Aperçu des performances du RCP
 
-Toutes les données importantes de votre RCP (regroupement dans le cadre de la consommation propre) en un coup d'œil :
+Toutes les données pertinentes de votre RCP (regroupement dans le cadre de la consommation propre) en un coup d'œil :
 
 - Aperçu de la production et du rendement
 
@@ -132,30 +132,30 @@ Toutes les données importantes de votre RCP (regroupement dans le cadre de la c
 
 - Batterie
 
-- Graphiques des flux d'énergie
+- Graphiques de flux d'énergie
 
-- Carte thermique solaire (Solar Heat-Map)
+- Heat-map solaire
 
 
-![Visualisation et liens publics – Illustration 9](/img/konfiguration-visualisierung/09.png)
+![Visualisation et liens publics – Figure 9](/img/konfiguration-visualisierung/09.png)
 
 ### Flux d'énergie simple
 
 Affiche le flux d'énergie pour une installation solaire, le soutirage du réseau et la consommation de la maison.
 
-Deux de ces trois compteurs doivent être indiqués, le troisième est calculé automatiquement. Si les trois compteurs sont indiqués, des affichages erronés peuvent survenir. Nous recommandons toujours, dans la mesure du possible, d'indiquer des mesures directes et non des compteurs virtuels.
+Deux de ces trois compteurs doivent être indiqués, le troisième est calculé automatiquement. Si les trois compteurs sont indiqués, des affichages erronés peuvent se produire. Nous recommandons toujours, si possible, d'indiquer des mesures directes et non des compteurs virtuels.
 
-![Visualisation et liens publics – Illustration 10](/img/konfiguration-visualisierung/10.png)
+![Visualisation et liens publics – Figure 10](/img/konfiguration-visualisierung/10.png)
 
 ### Maison avec plusieurs consommateurs et producteurs
 
 Jusqu'à dix consommateurs ou producteurs peuvent être visualisés pour une maison.
 
-Au choix, les puissances (actuelles) ou les valeurs de consommation des 30 ou 365 derniers jours peuvent être affichées.
+Au choix, les puissances (instantanées) ou les valeurs de consommation des 30 ou 365 derniers jours peuvent être affichées.
 
-## Visualisations pour RCP et vRCP
+## Visualisations pour RCP et RCP virtuel
 
-![Visualisation et liens publics – Illustration 11](/img/konfiguration-visualisierung/11.png)
+![Visualisation et liens publics – Figure 11](/img/konfiguration-visualisierung/11.png)
 
 ### Monitoring de la consommation et de la production
 
@@ -181,27 +181,27 @@ RCP virtuel (vRCP) :
 
 Pour cela, les installations de production du vRCP et les compteurs de raccordement (physiques) des participants au vRCP doivent être définis.
 
-![Visualisation et liens publics – Illustration 12](/img/konfiguration-visualisierung/12.png)
+![Visualisation et liens publics – Figure 12](/img/konfiguration-visualisierung/12.png)
 
 ### Taux d'autoconsommation et taux d'autarcie
 
 Le taux d'autoconsommation et le taux d'autarcie d'un bâtiment sont représentés. Les valeurs sont calculées à partir des compteurs PV et du ou des compteurs de bilan.
 
-Taux d'autoconsommation : part de l'énergie solaire consommée directement dans la maison.
+Taux d'autoconsommation : quelle part de l'énergie solaire est consommée directement dans la maison.
 
-Taux d'autarcie : part de la consommation totale produite par l'installation solaire.
+Taux d'autarcie : quelle part de la consommation totale est produite par l'installation solaire.
 
 Attention : le compteur principal ne doit pas être un compteur virtuel !
 
-![Visualisation et liens publics – Illustration 13](/img/konfiguration-visualisierung/13.png)
+![Visualisation et liens publics – Figure 13](/img/konfiguration-visualisierung/13.png)
 
 ### Monitoring des groupes Pico
 
-Toutes les données importantes de vos bornes de recharge en un coup d'œil :
+Toutes les données pertinentes de vos bornes de recharge en un coup d'œil :
 
 - Occupée / En charge / Libre
 
-- Gestion de la charge et courants autorisés
+- Gestion de la charge et courants libérés
 
 - Statut en ligne
 
@@ -210,7 +210,7 @@ Toutes les données importantes de vos bornes de recharge en un coup d'œil :
 
 ## Visualisations spéciales
 
-![Visualisation et liens publics – Illustration 14](/img/konfiguration-visualisierung/14.jpg)
+![Visualisation et liens publics – Figure 14](/img/konfiguration-visualisierung/14.jpg)
 
 ### Consommation d'un appartement comparée à un appartement de référence
 
@@ -228,10 +228,10 @@ Configuration ou Interfaces.
 
 ## Liens publics
 
-Avec l'abonnement Limited ou Professional de smart-me, vous pouvez, au moyen d'un lien public (Public Link), afficher en temps réel la puissance et/ou le relevé du compteur de n'importe quel point de mesure ou dossier de votre infrastructure de mesure smart-me sur la page web de votre choix.
+Avec l'abonnement Limited ou Professional de smart-me, vous pouvez, au moyen d'un lien public, afficher en temps réel la puissance et/ou le relevé du compteur de n'importe quel point de mesure ou dossier de votre infrastructure de mesure smart-me sur une page web de votre choix.
 
-Pour cela, cliquez en haut à droite du portail smart-me sur Configuration (Konfiguration), puis sélectionnez la tuile Liens publics (Public Links).
+Pour cela, cliquez dans le portail smart-me en haut à droite sur  Configuration (Konfiguration), puis sélectionnez la tuile Liens publics (Public Links).
 
-Dans l'interface qui s'affiche, le bouton Ajouter (Hinzufügen) vous permet de définir le nom de votre lien public et de sélectionner le point de mesure souhaité ainsi que la forme de représentation. Le code HTML à intégrer sur la page web de votre choix est ensuite généré. Insérez-le par copier-coller.
+Dans l'interface qui s'affiche alors, vous pouvez, via le bouton Ajouter (Hinzufügen), définir le nom de votre lien public et sélectionner le point de mesure ainsi que la forme de représentation souhaités. Le code HTML pour l'intégration sur la page web de votre choix est ensuite généré. Insérez-le par copier-coller.
 
-![Visualisation et liens publics – Illustration 15](/img/konfiguration-visualisierung/15.png)
+![Visualisation et liens publics – Figure 15](/img/konfiguration-visualisierung/15.png)

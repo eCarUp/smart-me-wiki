@@ -1,30 +1,30 @@
 ---
 title: 'Connexion Internet'
 slug: '/planung/internetverbindung'
-description: 'Le système smart-me et son matériel nécessitent une connexion Internet directe au cloud.'
+description: 'Le système smart-me et son matériel nécessitent une connexion Internet directe vers le cloud.'
 sidebar_label: 'Connexion Internet'
 symbol: 'wlan'
 ---
-Le système smart-me et son matériel nécessitent une connexion Internet directe au cloud. Sur place, vous devez donc mettre à disposition un réseau WLAN 2.4GHz avec connexion Internet. Le 5GHz n'est pas pris en charge en raison de sa faible portée.
+Le système smart-me et son matériel nécessitent une connexion Internet directe vers le cloud. Sur place, vous devez donc fournir un réseau WLAN 2.4GHz avec accès à Internet. Le 5GHz n'est pas pris en charge en raison de sa faible portée.
 
 
 L'accès à Internet peut être assuré de la manière suivante :
 
-- Offre d'un fournisseur par câble, de Swisscom, Sunrise ou d'un autre fournisseur d'accès Internet local, et routeur WLAN 2.4GHz, généralement fourni par le fournisseur.
+- Offre d'un fournisseur par câble (Swisscom, Sunrise ou autre fournisseur d'accès Internet local) et routeur WLAN 2.4GHz, généralement fourni par le fournisseur.
 
-- Établir l'accès à Internet via une carte SIM mobile et un routeur WLAN 2.4GHz. 
+- Accès Internet via une carte SIM de téléphonie mobile et un routeur WLAN 2.4GHz. 
 
 
 Niveaux de redondance
 
-- Mettre à disposition plusieurs points d'accès avec le même SSID et le même mot de passe. Tous les produits smart-me sélectionnent automatiquement un point d'accès disposant d'une connexion Internet.
+- Mettre à disposition plusieurs points d'accès avec le même SSID et le même mot de passe. Tous les produits smart-me choisissent automatiquement un point d'accès disposant d'une connexion Internet.
 
 - Enregistrer plusieurs réseaux WiFi sur l'appareil smart-me : [Puis-je utiliser mon appareil avec plusieurs réseaux WiFi ?](/konfiguration/inbetriebnahme/smart-me-geraete#kann-ich-mein-gerät-mit-mehreren-wifi-netzwerken-nutzen)
 
 
 <div className="bild--voll">
 
-![Connexion Internet – Illustration 1](/img/planung-internetverbindung/01_FR.png)
+![Connexion Internet – illustration 1](/img/planung-internetverbindung/01.png)
 
 </div>
 
@@ -32,18 +32,18 @@ Niveaux de redondance
 
 Les abonnements de données : [Digital Republic - Internet mobile pour vos appareils](https://digitalrepublic.ch/)
 
-[![Connexion Internet – Illustration 2](/img/planung-internetverbindung/02.png)](https://digitalrepublic.ch/)
+[![Connexion Internet – illustration 2](/img/planung-internetverbindung/02.png)](https://digitalrepublic.ch/)
 
 ## Exigences matérielles
 
 Points principaux\* :
 
-- Norme : 802.11 b / g / n 
+- Standard : 802.11 b / g / n 
 
 - Fréquence WiFi : 2.4 GHz
 
 
-\* vous trouverez plus de détails dans les caractéristiques techniques des [produits](/produkte).
+\* vous trouverez plus de détails dans les données techniques des [produits](/produkte).
 
 Spécifications selon les besoins :
 
@@ -51,30 +51,30 @@ Spécifications selon les besoins :
 
 
 Clients :
-Le nombre de clients pris en charge définit combien d'appareils peuvent communiquer simultanément avec le point d'accès ou le routeur. Ce nombre doit correspondre à votre installation. Il existe des points d'accès économiques qui prennent en charge 200+ clients.
-Ce nombre figure dans la fiche technique des appareils, le plus souvent sous « Max. Clients » ou « Concurred Clients ».
+Le nombre de clients pris en charge définit combien d'appareils peuvent communiquer simultanément avec le point d'accès ou le routeur. Ce nombre doit correspondre à votre installation. Il existe des points d'accès économiques qui prennent en charge 200 clients et plus.
+Ce nombre figure dans la fiche technique des appareils, le plus souvent sous "Max. Clients" ou "Concurred Clients".
 
 ## Composants matériels possibles
 
 ### Routeur
 
-Le routeur est la source reliée à Internet/au fournisseur, qui convertit cette connexion en
+Le routeur est la source reliée à Internet/au fournisseur d'accès, qui convertit cette connexion en
 LAN (RJ-45) ou en Wifi 2.4 Ghz / 5 GHz.
 
 ### Points d'accès
 
-Les points d'accès convertissent un signal du routeur transmis par LAN (RJ-45) en un WLAN 2.4 GHz / 5GHz.
+Les points d'accès convertissent un signal du routeur transmis par LAN (RJ-45) en WLAN 2.4 GHz / 5GHz.
 
 ### Répéteurs
 
 Les répéteurs amplifient un signal WLAN existant afin d'étendre la zone de couverture.
 
 
-### Routeur LTE mobile avec WLAN 2.4GHz
+### Routeur LTE de téléphonie mobile avec WLAN 2.4GHz
 
 Teltonika RUT241 (max. 50 clients)
 
-Un emplacement externe pour carte SIM et des LED indiquant la puissance du signal facilitent la mise en service. Le module 4G du routeur offre des débits LTE Cat 4 allant jusqu'à 300 Mbps. L'appareil peut également être utilisé comme routeur DSL ou client WLAN et dispose d'une fonction de secours permettant de basculer automatiquement sur LTE ou WLAN en cas de panne de la connexion DSL.  
+Un emplacement externe pour carte SIM et des LED indiquant la puissance du signal permettent une mise en service simple. Le module 4G du routeur offre des débits LTE Cat 4 jusqu'à 300 Mbps. L'appareil peut également être utilisé comme routeur DSL ou client WLAN et dispose d'une fonction de secours qui bascule automatiquement sur LTE ou WLAN en cas de panne de la connexion DSL.  
 
 Teltonika RUT241 (max. 50 clients)
 
@@ -86,11 +86,11 @@ Teltonika RUT951 (max. 100 clients)
 
 Source d'approvisionnement possible : [Teltonika RUT951 - digitec](https://www.digitec.ch/de/search?q=RUT951&take=6)
 
-### Point d'accès W-LAN 2.4GHz
+### Point d'accès WLAN 2.4GHz
 
 Ubiquiti U6-Lite
 
-L'UniFi 6 Lite est un point d'accès Wi-Fi 6 2x2 qui, grâce à ses radios 5 GHz (MU-MIMO et OFDMA) et 2,4 GHz (MIMO), offre un débit radio agrégé allant jusqu'à 1,5 Gbit/s.
+L'UniFi 6 Lite est un point d'accès Wi-Fi 6 2x2 qui offre un débit radio agrégé allant jusqu'à 1,5 Gbit/s grâce à ses radios 5 GHz (MU-MIMO et OFDMA) et 2,4 GHz (MIMO).
 
 Source d'approvisionnement possible : [Ubiquiti | UniFi | U6-Lite - Digitec](https://www.digitec.ch/de/s1/product/ubiquiti-u6-lite-1200-mbits-300-mbits-access-point-14489581?supplier=406802)
 
@@ -107,7 +107,7 @@ Point d'accès WLAN 3xUAE/USB ACR WLAN 22610408
 - Ethernet
 - Nombre de ports LAN 10/100 Mbps 2
 - Sécurité VPN
-- Raccordement pour antenne externe
+- Connecteur pour antenne externe
 - Fonction pont, fonction répéteur
 - Power over Ethernet
 - Largeur 72mm, hauteur 90mm, profondeur 65mm

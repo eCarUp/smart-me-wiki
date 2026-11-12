@@ -1,8 +1,8 @@
 ---
-title: 'Fornitori di servizi RCP, conteggio delle spese di riscaldamento/accessorie'
+title: 'Fornitori di servizi RCP, conteggio delle spese di riscaldamento e accessorie'
 slug: '/drittsysteme/nebenkostenabrechnung'
 description: 'Per utilizzare i dati dei contatori smart-me in un conteggio delle spese accessorie, i contatori necessitano di una licenza Professional.'
-sidebar_label: 'Fornitori servizi spese accessorie'
+sidebar_label: 'Fornitori di servizi spese accessorie'
 ---
 Per utilizzare i dati dei contatori smart-me in un conteggio delle spese accessorie, i contatori necessitano di una licenza Professional.
 
@@ -27,9 +27,9 @@ Riedstrasse 18, CH-6343 Rotkreuz · +41 41 511 09 99
 - Sempre insieme a un partner smart-me (formazione frequentata)
 - Rispetto dello schema di misura smart-me
 - Conteggio solo con hardware smart-me
-- Configurazione del modulo 1 da parte di smart-me
+- Configurazione del modulo 1 a cura di smart-me
 - Fatturazione RCP (raggruppamento ai fini del consumo proprio), max. 4x all'anno
-- Fatturazione VEWA 1x all'anno (senza acconti)
+- Fatturazione CISE (Conteggio individuale delle spese dell'energia e dell'acqua) 1x all'anno (senza acconto)
 - Durata minima 2 anni
 
 </Kachel>
@@ -40,11 +40,11 @@ Hauptstrasse 48, CH-6277 Kleinwangen · +41 41 510 06 25
 
 [www.adenatec.ch](https://www.adenatec.ch/) · [info@adenatec.ch](mailto:info@adenatec.ch)
 
-- Conteggio RCP, vRCP ed E-Mobility
+- Conteggio RCP, RCP virtuale (vRCP) ed E-Mobility
 - Conteggio e incasso incl. configurazione del portale
 - Fatturazione fino a 4× all'anno
-- Conteggio VEWA in millesimi 1× all'anno
-- Funzionamento esclusivamente con hardware smart-me
+- Conteggio CISE per millesimi 1× all'anno
+- Esercizio esclusivamente con hardware smart-me
 
 </Kachel>
 
@@ -59,8 +59,8 @@ Allmendingenweg 11, CH-3073 Gümligen · +41 31 950 60 70
 - Supporto nella definizione delle tariffe
 - Consulenza per l'ottimizzazione energetica
 - Conteggio per RCP, vRCP e CEL (comunità elettrica locale) (fino a 4× all'anno)
-- Opzionale: elaborazione dei dati per l'esercizio Minergie
-- Opzionale: servizio di picchetto 24h con manutenzione remota
+- Opzionale: preparazione dei dati per l'esercizio Minergie
+- Opzionale: servizio di picchetto 24h per la manutenzione a distanza
 - Opzionale: messa a disposizione dell'accesso a Internet
 
 </Kachel>
@@ -71,8 +71,8 @@ Blattenbach 8, CH-8636 Wald · +41 55 266 11 33
 
 [honegger.com](https://honegger.com/) · [info@honegger.com](mailto:info@honegger.com)
 
-- Conteggio di impianti E-Mobility, RCP e vRCP installati in proprio
-- Pianifichiamo, realizziamo e assistiamo tutto da un unico fornitore
+- Conteggio di impianti E-Mobility, RCP e vRCP installati da noi stessi
+- Pianifichiamo, realizziamo e seguiamo tutto da un unico fornitore
 - Conteggio solo con hardware smart-me
 - Fatturazione trimestrale
 - Durata minima da concordare
@@ -86,9 +86,9 @@ Zürichstrasse 68, CH-6004 Luzern · +41 41 562 39 61
 [liveno.ch](https://liveno.ch/) · [info@liveno.ch](mailto:info@liveno.ch)
 
 - Conteggio con hardware smart-me o file SDAT
-- Configurazione del modulo 1 da parte di Liveno
+- Configurazione del modulo 1 a cura di Liveno
 - Fatturazione RCP, max. 4x all'anno
-- Fatturazione VEWA 1x all'anno (senza acconti)
+- Fatturazione CISE 1x all'anno (senza acconto)
 
 </Kachel>
 
@@ -100,7 +100,7 @@ Kirchstrasse 18, CH-9200 Gossau SG · +41 71 388 20 10
 
 - Soluzione completa con installazione e servizio di conteggio RCP, vRCP, CEL ed E-Mobility
 - Conteggio per RCP, vRCP, CEL ed E-Mobility
-- Conteggio delle spese accessorie VEWA
+- Conteggio delle spese accessorie CISE
 - Ottimizzazione energetica
 
 </Kachel>
@@ -121,7 +121,7 @@ Morillonstrasse 77, CH-3007 Bern
 
 [info@blockstrom.com](mailto:info@blockstrom.com)
 
-opzionalmente con incasso
+opzionale con incasso
 
 </Kachel>
 
@@ -277,7 +277,7 @@ Delehala 36, LIE-9493 Mauren
 
 </Kacheln>
 
-## Software compatibili per il conteggio delle spese di riscaldamento e accessorie senza servizio
+## Software compatibile per il conteggio delle spese di riscaldamento e accessorie senza servizio
 
 <Kacheln min="12rem">
 

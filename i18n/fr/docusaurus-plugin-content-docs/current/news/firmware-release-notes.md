@@ -13,7 +13,7 @@ sidebar_label: 'Notes de version du firmware'
 
 Bugs :
 
-- Correction : la transaction reste ouverte lorsque la borne Pico passe au repos après une pause
+- Correction : la transaction reste ouverte lorsque la station Pico passe au repos après une pause
 
 - Correction d'un faux déclenchement pour surcharge de la protection contre les surintensités à 130 %
 
@@ -35,7 +35,7 @@ Bugs
 
 Bugs :
 
-- Plusieurs améliorations ont été apportées pour une meilleure connectivité WLAN, mesh et mobile.
+- Plusieurs améliorations ont été apportées afin d'assurer une meilleure connectivité WLAN, mesh et mobile.
 
 </details>
 
@@ -44,17 +44,17 @@ Bugs :
 
 Fonctionnalités
 
-- Affichage de l'écran « en attente de courant » lorsque la gestion de la charge ne peut pas attribuer de courant à une borne
+- Affichage de l'écran « en attente de courant » lorsque la gestion de la charge ne peut pas attribuer de courant à une station
 
 - Affichage d'un avertissement à l'écran et dans le cloud lorsque le CP est à 0V
 
 - Affichage d'une erreur à l'écran lorsque la communication Meter-SOM a échoué
 
-- Courant minimal par défaut porté à 8A et identification du véhicule (car id) désactivée par défaut
+- Courant minimal par défaut modifié à 8A et car id désactivé par défaut
 
 - EM-348 : mise en œuvre du processus d'installation des cartes RFID
 
-- EM-319 : l'avertissement de surchauffe n'est plus affiché à l'écran, uniquement dans le cloud
+- EM-319 : l'avertissement de chaleur n'est plus affiché à l'écran, uniquement dans le cloud
 
 - Recharge monophasée
 
@@ -64,7 +64,7 @@ Bugs :
 
 - EM-396 : comportement hors ligne incorrect de la gestion de la charge
 
-- EM-379 : l'équilibrage du courant ne fonctionne pas dans un groupe comportant une borne monophasée
+- EM-379 : l'équilibrage du courant ne fonctionne pas dans un groupe comportant une station monophasée
 
 - Erreur de communication SPI Meter-SOM (devrait corriger la communication Meter-SOM après un redémarrage)
 
@@ -72,19 +72,19 @@ Bugs :
 
 - Correction du temps d'attente PLC (car id)
 
-- Correction de la temporisation de la machine d'états de recharge
+- Correction du timing de la machine d'état de recharge
 
-- Courant réglé à 0A avant un déverrouillage du câble ou un redémarrage
+- Courant réglé sur 0A avant un déverrouillage du câble ou un redémarrage
 
-- Attente que le module WiFi soit opérationnel avant toute action (p. ex. activation des relais). Cela devrait éviter des problèmes lors de la mise à jour de l'ESP32.
+- Attendre que le module WiFi soit opérationnel avant toute action (p. ex. enclencher le relais). Cela devrait éviter des problèmes lors de la mise à jour de l'ESP32.
 
 - Le mode point d'accès (installation) ne démarre parfois pas
 
 - Redémarrage du module WiFi après 5min d'inactivité du contrôleur
 
-- Correction de la troncature des paquets UDP à 1 octet lors des mises à jour Arm parallèles relayées par le mesh
+- Correction de la troncature de paquets UDP de 1 octet lors des mises à jour Arm parallèles transmises via le mesh
 
-- Vérification au démarrage de la présence des fichiers de firmware requis
+- Vérification au démarrage de la présence des fichiers firmware requis
 
 - Améliorations de la mise à jour du firmware
 
@@ -92,9 +92,9 @@ Bugs :
 
 - EM-367 : activation par RFID – le véhicule passe d'abord en état d'erreur
 
-- EM-366 : la borne arrête la recharge lorsque le module WiFi redémarre suite à un délai d'inactivité hors ligne
+- EM-366 : la station arrête la recharge lorsque le module WiFi redémarre en raison d'un délai hors ligne
 
-- Correction d'un panic dû à un dépassement d'entier dans le calcul du temps de display\_module.rs
+- Correction d'une panique due à un dépassement d'entier dans le calcul du temps de display\_module.rs
 
 - EM-362 : impossible de se connecter au point d'accès d'installation
 
@@ -132,15 +132,15 @@ Corrections de bugs
 
 Fonctionnalités
 
-- EM-281 : gestion de la charge : libération du courant réservé (6A) pour les bornes en pause
+- EM-281 : gestion de la charge : libération du courant réservé (6A) pour les stations en pause
 
 - EM-172 : gestion de la charge : le courant à partir duquel la recharge passe de triphasée à monophasée est désormais réglable dans le cloud
 
-- EM-172 : gestion de la charge : courant max. (par borne) pour la recharge monophasée
+- EM-172 : gestion de la charge : courant max. (par station) pour la recharge monophasée
 
 - EM-329 : gestion de la charge : le passage de la recharge monophasée à triphasée est désormais possible. Le paramètre pour l'activer / le désactiver se trouve dans le cloud
 
-- Installation : le WLAN en mode installation dispose désormais d'un mot de passe ("smart-me"), pour les Pico >= 7005567 et (7003152 - 7005229)
+- Installation : le WLAN en mode installation dispose désormais d'un mot de passe (« smart-me »), pour les Picos >= 7005567 et (7003152 - 7005229)
 
 Bugs
 
@@ -151,7 +151,7 @@ Bugs
 <details id="pico-v0-0-30-r30">
 <summary>Pico v0.0.30-r30 · 03.10.2024</summary>
 
-- EM-320 Correction d'une possible perte de transactions de recharge lors de la communication (principalement mobile)
+- EM-320 Correction d'une possible perte de transactions de recharge lors de la communication (surtout mobile)
 
 </details>
 
@@ -160,7 +160,7 @@ Bugs
 
 Fonctionnalités
 
-- EM-245 : gestion de la charge : retour de la recharge monophasée à triphasée, même si des véhicules du groupe sont en cours de recharge.
+- EM-245 : gestion de la charge : retour de monophasé à triphasé, même si des véhicules du groupe sont en cours de recharge.
 
 Bugs
 
@@ -177,7 +177,7 @@ Fonctionnalités :
 
 - Nouveau déroulement et nouvelle animation des images d'autorisation (RFID, CardId) (EM-264)
 
-- Délai d'attente PLC supprimé (passé de 25s à 3s)
+- Timeout PLC supprimé (passé de 25s à 3s)
 
 Bugs
 
@@ -202,7 +202,7 @@ Bugs
 
 - Gestion de la charge : l'indice de déséquilibre de courant calculé renvoyait une valeur erronée
 
-- Gestion de la charge : dans certaines conditions, le gestionnaire de charge n'augmente pas le courant de la borne
+- Gestion de la charge : le gestionnaire de charge n'augmente pas le courant de la station dans certaines conditions
 
 Technique :
 
@@ -228,7 +228,7 @@ Bugs
 
 Bugs
 
-- Correction d'un problème de verrouillage par très basses températures (en dessous de -20 degrés C)
+- Correction d'un problème du verrou par très basses températures (en dessous de -20 degrés C)
 
 </details>
 
@@ -237,20 +237,20 @@ Bugs
 
 Fonctionnalités
 
-- Arrêt de la recharge lors de la désactivation du mode d'étalonnage (pour la validation des transactions en production)
+- Arrêt de la recharge lors de la désactivation du mode de calibration (pour la validation des transactions en production)
 
-- Agrandissement de la table de routage du module WiFi (prise en charge de jusqu'à 200 bornes par groupe de gestion de la charge au lieu de 20)
+- Agrandissement de la table de routage du module WiFi (prise en charge de jusqu'à 200 stations par groupe de gestion de la charge au lieu de 20)
 
 </details>
 
 <details id="pico-v0-0-20-r20">
 <summary>Pico v0.0.20-r20 · 03.07.2023</summary>
 
--  Affichage de la date/l'heure (heure de début de la recharge et durée) sur l'écran de recharge
+-  Affichage de la date/heure (heure de début de la recharge et durée) sur l'écran de recharge
 
 -  Affichage du courant utilisé et autorisé sur l'écran de puissance
 
--  Test RCD toutes les 24h à l'état A
+-  Test RCD toutes les 24h en état A
 
 -  Utilisation d'un débit en bauds plus faible si la mise à jour WiFi échoue
 
@@ -259,26 +259,26 @@ Fonctionnalités
 <details id="pico-v0-0-19-r19">
 <summary>Pico v0.0.19-r19 · 08.05.2023</summary>
 
--  Correction d'un bug dans la machine d'états de recharge (attente à l'état B1 jusqu'à la présence d'un signal PWM avant d'activer les relais)
+-  Correction d'un bug dans la machine d'état de recharge (attente en état B1 jusqu'à la présence d'un PWM avant d'enclencher le relais)
 
 </details>
 
 <details id="pico-v0-0-18-r18">
 <summary>Pico v0.0.18-r18 · 03.04.2023</summary>
 
--  Mise en mémoire tampon des images (moins de lectures dans la mémoire flash)
+-  Mise en mémoire tampon des images (moins de lectures de la mémoire flash)
 
--  RSSI (qualité du signal) pour le WiFi et le mobile
+-  Prise en charge du RSSI (qualité du signal) pour le WiFi et le mobile
 
--  Écriture sur le disque (flash) après l'écriture du fichier de paramètres ou des images / mises à jour du firmware
+-  Écriture sur disque (flash) après l'enregistrement du fichier de paramètres ou des images / mises à jour du firmware
 
 </details>
 
 <details id="pico-v0-0-17-r17">
 <summary>Pico v0.0.17-r17 · 17.02.2023</summary>
 
-- Modification de la temporisation de la mise sous tension une fois le véhicule prêt
-    (meilleure prise en charge des types de véhicules)
+- Modification du timing de mise sous tension une fois le véhicule prêt
+    (prise en charge étendue des types de véhicules)
 
 - Optimisations internes
 
@@ -294,7 +294,7 @@ Fonctionnalités
 <details id="pico-version-0-0-15-r15">
 <summary>Version 0.0.15-r15 · 12.12.2022</summary>
 
-- Amélioration du délestage Pico pour les bornes individuelles
+- Amélioration du délestage Pico pour les stations individuelles
 
 - Optimisations internes
 
@@ -333,17 +333,17 @@ Fonctionnalités
 <details id="pico-version-0-0-10-r10">
 <summary>Version 0.0.10-r10 · 23.09.2022</summary>
 
-- Correction de bug : détection CarID
+- Correction de bug : détection du CarID
 
 </details>
 ### Telstar 80A / Telstar CT
 
 <details id="telstar-version-9-v18-and-v19" open>
-<summary>Version 9 (V18 et V19) · 19.09.2023 (test bêta mené jusqu'en 08.2024)</summary>
+<summary>Version 9 (V18 et V19) · 19.09.2023 (le test bêta a duré jusqu'en 08.2024)</summary>
 
 Corrections de bugs :
 
- - Correction de Modbus TCP (problème de limite à 255 connexions)
+ - Correction de Modbus TCP (problème de 255 connexions seulement)
 
 </details>
 
@@ -352,7 +352,7 @@ Corrections de bugs :
 
 Corrections de bugs :
 
- - Correction : arrêt de « start wifi » après une déconnexion du point d'accès dans certains cas particuliers
+ - Correction : arrêt du « start wifi » après une déconnexion du point d'accès dans certains cas particuliers
 
 </details>
 
@@ -361,11 +361,11 @@ Corrections de bugs :
 
 Corrections de bugs :
 
- - Délai d'attente Modbus TCP (les clients inactifs sont déconnectés après 5min)
+ - Timeout Modbus TCP (les clients inactifs sont déconnectés après 5min)
 
  - Modbus TCP : nombre maximal de clients limité à 4
 
- - Désactivation de la connexion mesh lorsque Modbus TCP est activé
+ - Connexion mesh désactivée lorsque Modbus TCP est activé
 
  - Connexion au réseau mesh lorsque la connexion au point d'accès WiFi normal échoue 16 fois
 
@@ -382,7 +382,7 @@ Corrections de bugs :
 
  - Dépassement de tas Modbus TCP (au démarrage de Modbus)
 
- - Blocage (deadlock) de la résolution DNS avec un WiFi sans connexion Internet
+ - Blocage dans la résolution DNS avec un WiFi sans connexion Internet
 
 </details>
 
@@ -391,7 +391,7 @@ Corrections de bugs :
 
 Corrections de bugs :
 
- - L'action déclenchée par un événement de puissance était erronée d'un facteur 10
+ - L'action déclenchée par un événement de puissance était fausse d'un facteur 10
 
 </details>
 

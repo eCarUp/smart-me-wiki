@@ -17,15 +17,15 @@ smart-me devices can be integrated directly and easily into a SMARTFOX installat
 </div>
 </div>
 
-The intelligent SMARTFOX Pro energy manager continuously monitors and controls power generation and consumption. With it, the consumption of electrical devices such as heat pumps, charging stations etc. can be shifted into the sunshine hours, increasing both the self-consumption rate and the degree of self-sufficiency.
+The intelligent SMARTFOX Pro energy manager continuously monitors and controls electricity generation and consumption. With it, the consumption of electrical devices such as heat pumps, charging stations etc. can be shifted to the hours of sunshine, increasing both the self-consumption rate and the degree of self-sufficiency.
 
 Target group:
 
-- Single-family house
+- Single-family home
 
 - Small business
 
-- Multi-family house
+- Multi-occupancy building
 
 Connection type:
 
@@ -33,7 +33,7 @@ Connection type:
 
 Requirement:
 
-- smart-me Professional licenses. [Learn more](/planung/cloud-lizenzen)
+- smart-me Professional licences. [Learn more](/planung/cloud-lizenzen)
 
 ![SMARTFOX – Figure 2](/img/drittsysteme-smartfox/02.png)
 
@@ -48,7 +48,7 @@ Functions:
 
 
 
-Use cases: 
+Possible applications: 
 
 - High-resolution monitoring of consumers
 
@@ -71,7 +71,7 @@ Complete [linking instructions](https://drive.google.com/file/d/1FaH_zWsVsDhH9CM
 <div className="row">
 <div className="col col--6">
 
-1.  [Find out the IP address of the smart-me meter](/schnittstellen/modbus-tcp).
+1.  [Find out the IP address of the smart-me meter](/schnittstellen/modbus-tcp#ip-adresse-mit-dns-name-ermitteln).
 
 2.  Add an external device in SMARTFOX. (Select smart-me Telstar)
 

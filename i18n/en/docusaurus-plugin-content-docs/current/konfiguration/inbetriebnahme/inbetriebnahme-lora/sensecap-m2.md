@@ -25,7 +25,7 @@ sidebar_label: 'Sensecap M2'
 
 7.  Select the server address "lora-gateway.smart-me.com"
 
-8.  Server Port (Up) and Server Port (Down) is 1700
+8.  Server Port (Up) and Server Port (Down) are 1700
 
 9.  Click "Save & Apply"
 
@@ -35,7 +35,7 @@ sidebar_label: 'Sensecap M2'
 <div className="row">
 <div className="col col--6">
 
-10\. Under "Status" -> "Overview", check whether two green check marks are displayed. 
+10\. Under "Status" -> "Overview", check that two green check marks are displayed. 
 
 11\. The gateway should now be displayed as "online" on lora.smart-me.com. 
 

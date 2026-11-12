@@ -1,7 +1,7 @@
 ---
-title: 'Configuration des dossiers et des compteurs'
+title: 'Configuration des compteurs et des dossiers'
 slug: '/konfiguration/ordnerkonfiguration'
-description: 'Tutoriel vidéo : créer des dossiers et y affecter des compteurs'
+description: 'Tutoriel vidéo : créer des dossiers et attribuer des compteurs'
 sidebar_label: 'Configuration des dossiers'
 naechste_schritte: [konfiguration/ordnerkonfiguration/nur-strom, konfiguration/ordnerkonfiguration/strom-und-eine-heizung, konfiguration/ordnerkonfiguration/strom-und-mehrere-heizungen, konfiguration/ordnerkonfiguration/mieterstrom-standard, konfiguration/ordnerkonfiguration/mieterstrom-nicht-teilnehmer]
 ---
@@ -12,13 +12,13 @@ naechste_schritte: [konfiguration/ordnerkonfiguration/nur-strom, konfiguration/o
 
 ## Fonctions des nœuds
 
-![Configuration des dossiers et des compteurs – illustration 2](/img/konfiguration-ordnerkonfiguration/02.png)
+![Configuration des compteurs et des dossiers – Illustration 2](/img/konfiguration-ordnerkonfiguration/02.png)
 
 ### Ajouter un nœud (Knoten Hinzufügen) :
 
-Ajoute un nœud avec un nom et un symbole au choix.
+Ajoute un nœud avec un nom et un symbole librement choisi.
 
-Le nom détermine l'ordre dans lequel le nœud est affiché dans l'arborescence. 
+Le nom détermine l'ordre dans lequel le nœud s'affiche dans l'arborescence. 
 
 1.  Tri par chiffres
 
@@ -33,22 +33,22 @@ Permet de modifier le nom, le symbole et le rattachement du nœud.
 <div className="col col--6 text--center">
 
 <Embed src="https://player.vimeo.com/video/661999827" aspect="1.291" title="Configuration des dossiers" />
-Tutoriel vidéo : créer des dossiers et y affecter des compteurs
+Tutoriel vidéo : créer des dossiers et attribuer des compteurs
 
 </div>
 </div>
 
 ### Modifier un nœud de compteur (Zähler Knoten editieren)
 
-Nom (Name) :  définissez le nom du compteur.
+Nom (Name) :  Définissez le nom du compteur.
 Description (Beschreibung) :
-ajoutez si vous le souhaitez une description du compteur.
-Correction de la valeur (Wert Korrektur) : 
-corrige la valeur mesurée du compteur côté cloud (calculs de position).
-Correction de la valeur du dossier parent (Überordner Wert Korrektur) :
-définit en pourcentage la part de la valeur mesurée à additionner dans le dossier parent.
+Ajoutez, si vous le souhaitez, une description du compteur.
+Correction de valeur (Wert Korrektur) : 
+Corrige côté cloud la valeur mesurée du compteur (calculs de position).
+Correction de valeur du dossier parent (Überordner Wert Korrektur) :
+Définit en pourcentage la part de la valeur mesurée à additionner dans le dossier parent.
 Compteur actif (Zähler aktiv) :
-activez ou désactivez un compteur pour économiser des licences. Les compteurs désactivés n'affichent plus de données. Vous trouverez plus d'informations sur les compteurs désactivés dans notre FAQ sous [Comment désactiver mon compteur ?](/faq#wie-deaktiviere-ich-meinen-zähler)
+Activez ou désactivez un compteur pour économiser des licences. Les compteurs désactivés n'affichent plus de données. Vous trouverez plus d'informations sur les compteurs désactivés dans notre FAQ sous [Comment désactiver mon compteur ?](/faq#wie-deaktiviere-ich-meinen-zähler)
 
 Pour activer ou désactiver plusieurs compteurs à la fois, vous pouvez les déplacer dans un dossier de la configuration des compteurs et des dossiers, faire un clic droit sur ce dossier et choisir une action groupée. 
 
@@ -58,9 +58,9 @@ Pour activer ou désactiver plusieurs compteurs à la fois, vous pouvez les dép
 
 Supprime de l'arborescence le nœud ou le point de comptage sélectionné. 
 
-Les compteurs retournent alors sur le côté gauche en tant que compteurs non affectés.
+Les compteurs reviennent alors sur le côté gauche en tant que compteurs non attribués.
 
-![Configuration des dossiers et des compteurs – illustration 4](/img/konfiguration-ordnerkonfiguration/04.png)
+![Configuration des compteurs et des dossiers – Illustration 4](/img/konfiguration-ordnerkonfiguration/04.png)
 
 ## Nommer les compteurs
 
@@ -71,14 +71,14 @@ Les compteurs retournent alors sur le côté gauche en tant que compteurs non af
 
 - Tous les compteurs doivent être nommés. Nos propositions pour la désignation des compteurs 
 
-    - Unité d'utilisation Numéro de compteur (p. ex. WHG 1 6352415)
+    - Unité d'utilisation numéro de compteur (p. ex. APP 1 6352415)
 
-    - Fluide Unité d'utilisation Numéro de compteur (p. ex. Wärme WHG 1)
+    - Fluide unité d'utilisation numéro de compteur (p. ex. Chaleur APP 1)
 
 </div>
 <div className="col col--4 bild--mitte">
 
-![Configuration des dossiers et des compteurs – illustration 5](/img/konfiguration-ordnerkonfiguration/05.png)
+![Configuration des compteurs et des dossiers – Illustration 5](/img/konfiguration-ordnerkonfiguration/05.png)
 
 </div>
 </div>
@@ -109,58 +109,58 @@ Remarque : pour des raisons techniques, cette manipulation n'est pas possible av
 </div>
 <div className="col col--5 bild--mitte">
 
-![Configuration des dossiers et des compteurs – illustration 6](/img/konfiguration-ordnerkonfiguration/06.png)
+![Configuration des compteurs et des dossiers – Illustration 6](/img/konfiguration-ordnerkonfiguration/06.png)
 
 </div>
 </div>
 
-## Structures de dossiers et leur influence sur les processus en aval
+## Structures de dossiers et leur influence sur les processus suivants
 
-Le système actuel permet d'établir automatiquement les décomptes d'électricité. Pour cela, la chaleur et l'eau doivent rester séparées de l'électricité. Des systèmes mixtes sont néanmoins possibles afin de réduire le travail lié aux états locatifs, mais l'automatisation de la facturation est alors malheureusement perdue.
+Le système actuel permet d'établir automatiquement le décompte de l'électricité. Pour que cela fonctionne, la chaleur et l'eau doivent rester séparées de l'électricité. Des systèmes mixtes sont néanmoins possibles afin de réduire le travail lié aux états locatifs, mais l'automatisation de la facturation est alors malheureusement perdue.
 
-Pour les systèmes comportant plusieurs chauffages, une séparation en plusieurs immeubles est toutefois inévitable.
+Dans les systèmes comportant plusieurs chauffages, une séparation en plusieurs immeubles est toutefois inévitable.
 
-Chaque immeuble créé individuellement peut en principe représenter 1x l'électricité et 1x la chaleur/l'eau.
+Chaque immeuble créé individuellement peut en principe représenter 1x électricité et 1x chaleur/eau.
 
 <Embed src="/embeds/konfiguration-ordnerkonfiguration-02.html" aspect="2.308" title="Configuration des dossiers" />
 
-## Principes de l'arborescence et création des nœuds
+## Principes de l'arborescence et création de nœuds
 
 Pour préparer un bâtiment au décompte, il faut créer les immeubles et les unités de décompte appropriés.
 
 Structure de dossiers de base de chaque immeuble individuel
 
-La structure de base pour chaque forme d'énergie et chaque bâtiment se compose de deux nœuds de base et de plusieurs sous-nœuds :
+La structure de base pour chaque forme d'énergie et chaque bâtiment se compose de deux nœuds de base et de multiples sous-nœuds :
 
 - Immeuble (configuration ultérieure d'un décompte)
 
     - -   Unité de décompte 1 de l'immeuble (appartement ou locaux)
 
-            - -   Compteur d'appartement (parts de 100%)
+            - -   Compteur d'appartement (parts à 100%)
 
         - Unité de décompte 2 de l'immeuble (appartement ou locaux)
 
         - ...
 
-- Compteurs techniques (ensemble des points de comptage qui ne sont pas décomptés directement)
+- Compteurs techniques (ensemble des points de comptage qui ne sont pas directement décomptés)
 
-    Vous pouvez y créer autant de sous-dossiers que nécessaire pour structurer l'ensemble. 
+    Ici, vous pouvez créer autant de sous-dossiers que nécessaire pour structurer l'ensemble. 
 
     - -   -   Compteur de bilan
 
             - Compteur de l'installation solaire
 
-            - Compteurs des parties communes, répartis en pourcentage sur les unités de décompte
+            - Compteurs généraux répartis en pourcentage sur les unités de décompte
 
-            - Compteurs de chaleur, répartis en pourcentage sur les unités de décompte
+            - Compteurs de chaleur répartis en pourcentage sur les unités de décompte
 
-            - Compteurs d'eau, répartis en pourcentage sur les unités de décompte
+            - Compteurs d'eau répartis en pourcentage sur les unités de décompte
 
-![Configuration des dossiers et des compteurs – illustration 7](/img/konfiguration-ordnerkonfiguration/07.png)
+![Configuration des compteurs et des dossiers – Illustration 7](/img/konfiguration-ordnerkonfiguration/07.png)
 
 ## Créez la structure de votre projet
 
-En fonction de votre projet, choisissez maintenant le guide que vous souhaitez suivre en bas de la page.
+Choisissez maintenant, en fonction de votre projet, le guide que vous souhaitez suivre en fin de page.
 
 
 ## Import CSV de structures de dossiers
@@ -170,7 +170,7 @@ En fonction de votre projet, choisissez maintenant le guide que vous souhaitez s
 
 ### Création automatique de dossiers à l'aide de fichiers CSV
 
-smart-me permet d'automatiser la création de dossiers, l'affectation et le renommage de compteurs à l'aide d'un fichier CSV. Cette fonction nécessite un abonnement smart-me Professional.
+smart-me offre la possibilité d'automatiser la création de dossiers, les attributions et le renommage de compteurs à l'aide d'un fichier CSV. Cette fonction nécessite un abonnement smart-me Professional.
 
 Les fichiers CSV contiennent des données tabulaires enregistrées sous forme de texte. Ils peuvent être modifiés avec un éditeur de texte (p. ex. notepad++).
 
@@ -180,7 +180,7 @@ Attention : l'utilisation de cette fonction supprime les dossiers existants. Cel
 
 <Video src="YQVcTxPgdzM" title="Vidéo YouTube, création de dossiers à l'aide d'un fichier csv" />
 
-![Configuration des dossiers et des compteurs – illustration 8](/img/konfiguration-ordnerkonfiguration/08.png)
+![Configuration des compteurs et des dossiers – Illustration 8](/img/konfiguration-ordnerkonfiguration/08.png)
 
 Un fichier CSV de configuration contient les colonnes suivantes (ne pas modifier l'ordre) :
 
@@ -192,7 +192,7 @@ Tableaux wiki 2.0
 
 Les séparateurs ";" et "//" ne doivent pas être utilisés dans les noms. Ils sont réservés à la séparation des colonnes et des dossiers dans les chemins.
 
-Si les 4 colonnes "MeterPointId", "ExportFormat", "UploadType" et "ExportInterval" sont présentes, le compteur est en outre enregistré pour l'Auto Export.
+Si les 4 colonnes "MeterPointId", "ExportFormat", "UploadType" et "ExportInterval" sont présentes, le compteur est en plus enregistré pour l'Auto Export.
 
 Exemple de configuration sans Auto Export :
 
@@ -214,22 +214,22 @@ MeterSerialNumber;MeterName;FolderPath;MeterPointId;ExportFormat;UploadType;Expo
 
 ### Modification de fichiers CSV dans Excel
 
-Excel permet également de modifier des fichiers CSV. Deux points sont alors à respecter :
+Excel permet également de modifier des fichiers CSV. Deux points sont toutefois à respecter :
 
 1.  Il faut empêcher Excel d'arrondir le numéro de série du compteur ou de l'afficher sous forme exponentielle (p. ex. en traitant les nombres comme du texte dans Excel).
 
-2.  Le fichier CSV doit être encodé en UTF-8. Excel n'affiche alors pas correctement les caractères accentués (trémas). Dans un éditeur de texte (p. ex. notepad++), ces caractères s'affichent toutefois correctement.
+2.  Le fichier CSV doit être encodé en UTF-8. Excel n'affiche alors pas correctement les caractères accentués (umlauts). Dans un éditeur de texte (p. ex. notepad++), ces caractères s'affichent toutefois correctement.
 
 
-![Configuration des dossiers et des compteurs – illustration 9](/img/konfiguration-ordnerkonfiguration/09.png)
+![Configuration des compteurs et des dossiers – Illustration 9](/img/konfiguration-ordnerkonfiguration/09.png)
 
 La procédure recommandée est la suivante :
 
-1.  Connectez-vous sur le [site web smart-me](https://web.smart-me.com/login/).
+1.  Connectez-vous au [site web smart-me](https://web.smart-me.com/login/).
 
 2.  Cliquez en haut à droite sur Configuration (Konfiguration)
 
-3.  Cliquez sur Configuration du compteur et du dossier (Zähler / Ordner Konfiguration)
+3.  Cliquez sur Configuration des compteurs / dossiers (Zähler / Ordner Konfiguration)
 
 4.  Cliquez sur Configuration des nœuds via CSV (Knoten Konfiguration über CSV)
 
@@ -241,7 +241,7 @@ La procédure recommandée est la suivante :
 
 8.  Cliquez sur Parcourir (Durchsuchen) et sélectionnez le fichier CSV modifié
 
-9.  Cliquez sur Importer la configuration des nœuds (Upload Knoten Konfiguration) pour appliquer la configuration
-    Attention : les modifications qui en résultent sont irréversibles
+9.  Cliquez sur Charger la configuration des nœuds (Upload Knoten Konfiguration) pour appliquer la configuration
+    Attention : les modifications qui en résultent ne peuvent pas être annulées
 
 </details>

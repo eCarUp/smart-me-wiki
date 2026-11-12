@@ -8,7 +8,7 @@ vorheriger_schritt: konfiguration/wenndann-aktionen/alarme
 ---
 <Menueweg>Billing</Menueweg>
 
-<Knopf href="/konfiguration/billing-deutschland">Go to billing for Germany</Knopf>
+<Knopf href="/konfiguration/billing-deutschland">Switch to billing for Germany</Knopf>
 
 ### Prerequisite
 
@@ -16,9 +16,9 @@ You need a smart-me Professional subscription to create energy cost billings.
 
 ## Configuring billing step by step
 
-This step-by-step guide is intended to help you configure your billing. Please note that this is only an example for you to use as a guide. Depending on the structure of your property, there will be differences from our example. 
+This step-by-step guide is intended to help you configure your billing. Please note that this is only an example you can use for orientation. Depending on the structure of your property, there will be differences from our example. 
 
-Each step has its own page. You can go through them in order — the bottom of each page tells you what comes next — or jump directly from here to the step you are currently at.
+Each step has its own page. You can go through them in order — the bottom of each page tells you how to continue — or jump straight to where you are right now.
 
 <Ablauf land="ch" bis="konfiguration/billing/rechnung-erstellen" />
 
@@ -40,11 +40,11 @@ Our webinar explains step by step how to create energy cost billings with the bi
 
 <Video src="mK1HYLRtBUI" title="YouTube video, smart-me Billing - virtual tariffs, peak power, changing meter rental" />
 
-Video content
+Video contents
 
 - Configuring peak and off-peak tariff to a single tariff
 
-- Price adjustment of the virtual tariffs
+- Adjusting the prices of the virtual tariffs
 
 - Peak power
 
@@ -55,11 +55,24 @@ Video content
 
 ## smart-me Billing invoice examples
 
-- [Example: electricity billing (.pdf)](https://drive.google.com/file/d/1vVJ5y0_sV8l2NgH8Pf-gJCn36MmDXWfe/view?usp=sharing)
+<div className="row">
+<div className="col col--6 bild--mitte">
 
-- [Example: VEWA billing (.pdf)](https://drive.google.com/file/d/1-YR543M1bawFrKgrj-MsQR5Es_wKFzRu/view?usp=sharing)
+<Embed src="https://drive.google.com/file/d/1vVJ5y0_sV8l2NgH8Pf-gJCn36MmDXWfe/preview" height="340px" title="Drive, Beispiel Energiekostenabrechnung.pdf" />
 
-## Useful information on the tariff data
+[Example: electricity billing (.pdf)](https://drive.google.com/file/d/1vVJ5y0_sV8l2NgH8Pf-gJCn36MmDXWfe/view?usp=sharing)
+
+</div>
+<div className="col col--6 bild--mitte">
+
+<Embed src="https://drive.google.com/file/d/1-YR543M1bawFrKgrj-MsQR5Es_wKFzRu/preview" height="340px" title="Drive, Beispiel Rechnung VEWA Heizkosten.pdf" />
+
+[Example: VEWA billing (.pdf)](https://drive.google.com/file/d/1-YR543M1bawFrKgrj-MsQR5Es_wKFzRu/view?usp=sharing)
+
+</div>
+</div>
+
+## Helpful notes on the tariff data
 
 ### Visualization
 

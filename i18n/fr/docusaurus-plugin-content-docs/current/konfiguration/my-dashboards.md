@@ -10,13 +10,13 @@ sidebar_label: 'My Dashboards'
 
 Créez une carte énergétique personnalisée de votre bâtiment.
 
-Utilisez pour cela une image ou une vue Google Maps et affichez des valeurs en direct sélectionnées directement sur l'image.
+Utilisez pour cela une image ou une vue Google Maps et affichez des valeurs en temps réel sélectionnées directement sur l'image.
 
-![My Dashboards – Illustration 2](/img/konfiguration-my-dashboards/02_EN.png)
+![My Dashboards – Illustration 2](/img/konfiguration-my-dashboards/02.png)
 
 ## Mon flux d'énergie
 
-Créez votre flux d'énergie personnalisé pour votre maison ou pour plusieurs maisons.
+Créez le flux d'énergie personnalisé de votre maison ou de plusieurs maisons.
 
 Choisissez librement, parmi tous les points de mesure, ceux qui doivent être affichés sur chaque carte et obtenez un aperçu rapide de la consommation.
 

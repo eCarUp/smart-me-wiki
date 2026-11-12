@@ -1,15 +1,15 @@
 ---
 title: 'Askoma'
 slug: '/drittsysteme/askoma'
-description: 'Askoheat est une entreprise suisse qui fabrique des éléments chauffants pour le traitement de l''eau et le stockage d''énergie.'
+description: 'Askoheat est une entreprise suisse qui fabrique des éléments chauffants pour la production d''eau chaude et le stockage d''énergie.'
 sidebar_label: 'Askoma'
 ---
 <div className="row">
 <div className="col col--8">
 
-Askoheat est une entreprise suisse qui fabrique des éléments chauffants pour le traitement de l'eau et le stockage d'énergie.
+Askoheat est une entreprise suisse qui fabrique des éléments chauffants pour la production d'eau chaude et le stockage d'énergie.
 
-Les éléments chauffants peuvent être pilotés de manière intelligente par des systèmes tiers comme smart-me AG et stockent ainsi l'énergie solaire excédentaire, p. ex. dans l'eau chaude sanitaire.
+Les éléments chauffants peuvent être commandés de manière intelligente par des systèmes tiers comme smart-me AG et stockent ainsi l'énergie solaire excédentaire, par exemple dans l'eau chaude sanitaire.
 
 Produits Askoma pris en charge :
 
@@ -28,12 +28,12 @@ Produits Askoma pris en charge :
 ### Prérequis
 
 - Compteur smart-me Telstar 80A ou CT
-- Licence Professional pour l'activation de Modbus TCP et du service DNS
+- Licence Professional pour l'activation des services Modbus TCP et DNS
 - Disponible dans le logiciel standard à partir de mi-septembre 2024.
-- Il faut s'assurer au niveau du routeur que l'adresse IP du Telstar ne change pas.
+- Côté routeur, il faut s'assurer que l'adresse IP du Telstar ne change pas.
 
 
-### Configuration Askoheat+ et smart-me Telstar 80A / CT
+### Configuration de l'Askoheat+ et du smart-me Telstar 80A / CT
 
 <div className="row">
 <div className="col col--8">
@@ -56,7 +56,7 @@ Telstar 80A / CT :
 <div className="row">
 <div className="col col--8">
 
-- Relevez l'adresse IP via CMD avec la commande ping sur l'adresse DNS affichée. Vous trouvez l'adresse DNS dans les paramètres avancés (Erweiterte Einstellungen) sous « Activer DNS » (DNS aktivieren). P. ex. ping smart-me\_6303192.dns-me.com
+- Lire l'adresse IP via CMD avec la commande ping sur l'adresse DNS affichée. Vous trouverez l'adresse DNS dans les paramètres avancés (Erweiterte Einstellungen) sous « Activer DNS » (DNS aktivieren). Par exemple : ping smart-me\_6303192.dns-me.com
 
 </div>
 <div className="col col--4 bild--mitte">
@@ -69,17 +69,17 @@ Telstar 80A / CT :
 <div className="row">
 <div className="col col--6">
 
-Paramètres sur l'Askoheat+
+Réglages sur l'Askoheat+
 Ceux-ci peuvent varier et ne relèvent pas de la responsabilité de smart-me.
 
 [http://askoheat.local/setup3](http://askoheat.local/setup3)
 
 - Saisir l'adresse IP du Telstar
-- Activer le mode TCP Master
+- Activer le mode TCP-Master
 - Sélectionner Smart-Me dans la liste
 - Cliquer sur Start Connection
 
-- Vous pouvez ensuite vérifier sur la page Setup3, sous STATUS, que la valeur mesurée en watts est actualisée toutes les 1 à 3 secondes.
+- Vous pouvez ensuite vérifier si la valeur mesurée, c'est-à-dire la valeur en watts affichée sous STATUS sur la page Setup3, est actualisée toutes les 1 à 3 secondes.
 
 </div>
 <div className="col col--6 bild--mitte">

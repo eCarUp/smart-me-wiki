@@ -1,13 +1,13 @@
 ---
 title: 'Soleco Optimizer'
 slug: '/drittsysteme/soleco'
-description: 'Avec son produit Soleco Optimizer, la société Soleco AG répond aux attentes de ses clients en matière d''autoconsommation et d''optimisation des coûts énergétiques, avec l''appui de la technolo…'
+description: 'La société Soleco AG répond avec son produit Soleco Optimizer aux souhaits de ses clients en matière d''autoconsommation et d''optimisation des coûts énergétiques, avec le soutien de la technologie de mesure…'
 sidebar_label: 'Soleco'
 ---
 <div className="row">
 <div className="col col--7">
 
-Avec son produit Soleco Optimizer, la société Soleco AG répond aux attentes de ses clients en matière d'autoconsommation et d'optimisation des coûts énergétiques, avec l'appui de la technologie de mesure de smart-me.
+La société Soleco AG répond avec son produit Soleco Optimizer aux souhaits de ses clients en matière d'autoconsommation et d'optimisation des coûts énergétiques, avec le soutien de la technologie de mesure de smart-me.
 
 Applications : maisons individuelles, maisons mitoyennes et immeubles collectifs
 
@@ -15,9 +15,9 @@ Les avantages :
 
 Réduire les coûts énergétiques, préserver l'environnement, profiter du confort. 
 
-Toujours suffisamment d'eau chaude sanitaire, une maison à température agréable et la voiture électrique
-rechargée à temps. Sur mesure, selon vos besoins personnels.
-Le Soleco Optimizer se charge de ces tâches pour vous en arrière-plan, de manière fiable, économique et avec une technologie de pointe.
+Toujours suffisamment d'eau chaude sanitaire, une maison à température agréable et
+une voiture électrique rechargée à temps. Sur mesure, selon vos besoins personnels.
+Le Soleco Optimizer prend en charge ces tâches pour vous en arrière-plan, de manière fiable, économique et avec une technologie de pointe.
 Sur l'interface utilisateur, les personnes intéressées trouvent à tout moment différentes analyses graphiques actualisées.
 Le soutirage d'électricité du réseau est optimisé de manière globale à l'aide des prévisions météorologiques, en tenant compte des tarifs d'électricité et de la production photovoltaïque, en interaction avec les consommateurs. Cette nouvelle approche permet des économies significatives, sans aucune perte de confort.
 

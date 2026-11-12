@@ -1,10 +1,10 @@
 ---
 title: 'Prodotti fuori produzione'
 slug: '/produkte/eingestellte-produkte'
-description: 'La vendita di questi prodotti è stata interrotta.'
+description: 'La vendita di questi prodotti è stata sospesa.'
 sidebar_label: 'Prodotti fuori produzione'
 ---
-La vendita di questi prodotti è stata interrotta. L'assistenza e il supporto cloud restano garantiti.
+La vendita di questi prodotti è stata sospesa. Il supporto e l'assistenza cloud restano garantiti.
 
 <Kacheln min="15rem">
 

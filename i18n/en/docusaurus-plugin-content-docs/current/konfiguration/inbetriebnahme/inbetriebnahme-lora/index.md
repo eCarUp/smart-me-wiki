@@ -38,7 +38,7 @@ Detailed instructions for internally tested devices:
 - [Milesight UG56](/konfiguration/inbetriebnahme/inbetriebnahme-lora/milesight-ug56-868mhz)
 
 
-## 3\. Adding meters and sensors
+## 3\. Adding the meters and sensors
 
 <div className="row">
 <div className="col col--5">

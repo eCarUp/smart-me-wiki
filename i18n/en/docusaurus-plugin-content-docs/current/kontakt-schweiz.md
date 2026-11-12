@@ -1,7 +1,7 @@
 ---
 title: 'Contact Switzerland'
 slug: '/kontakt-schweiz'
-description: 'Contacts for Switzerland and Liechtenstein: sales, licences and technical support.'
+description: 'Contacts for Switzerland and Liechtenstein: sales, licenses and technical support.'
 sidebar_label: 'Contact Switzerland'
 ---
 This page applies to Switzerland and Liechtenstein. Germany has its [own contact page](/kontakt-deutschland).
@@ -10,7 +10,7 @@ If you can't find an answer to your question here, our support team will be happ
 
 ### Important to know
 
-smart-me is a hardware and technology supplier. We do not carry out projects and do not configure installations for end customers. Our technical support is generally available only to certified partners.
+smart-me is a hardware and technology supplier. We do not carry out projects and do not configure systems for end customers. Our technical support is generally available exclusively to certified partners.
 
 ### Private customers and future partners
 

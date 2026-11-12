@@ -1,14 +1,14 @@
 ---
 title: 'Event-related Actions'
 slug: '/konfiguration/wenndann-aktionen/ereignisaktionen'
-description: 'Automatic controls can be created for every device in the smart-me platform.'
+description: 'Automatic controls can be created for any device on the smart-me platform.'
 sidebar_label: 'Event-related Actions'
 ---
 <Menueweg>Dashboard → Device → Settings (gear icon)</Menueweg>
 
-Automatic controls can be created for every device in the smart-me platform. There are two ways to define such actions: you can create either event actions or [If / Then Actions](/konfiguration/wenndann-aktionen). This article explains event actions.
+Automatic controls can be created for any device on the smart-me platform. There are two ways to define such actions: you can create either event actions or [if/then actions](/konfiguration/wenndann-aktionen). This article explains event actions.
 
-## Event actions, only for Single Phase Meter and 3-Phase Meter Telstar
+## Event actions, only for single phase meters and 3-phase meters Telstar
 
 Event actions are stored on the device itself, so they also work without an internet connection, e.g. when the Wi-Fi router is switched off. However, you must define actions that do not require an internet connection. Sending an email obviously does not work without internet. Up to 16 event actions can be stored on the devices, and they can be created and edited in the app or in the web portal.
 
@@ -16,11 +16,11 @@ Possible triggers:
 
 - -   Power greater / less than xx
 
-    - Time
+    - Time of day
 
-    - Current less/greater (on one phase) (only for the [3-Phase Meter Telstar](/))
+    - Current less/greater (on one phase) (only with the [3-Phase Meter Telstar](/))
 
-    - Digital input (On/ Off) (only for the [3-Phase Meter Telstar](/))
+    - Digital input (On/ Off) (only with the [3-Phase Meter Telstar](/))
 
 
 
@@ -29,7 +29,7 @@ Possible actions:
 
 - -   [Alarm email](/konfiguration/wenndann-aktionen/alarme)
 
-    - Switch power on/off (only for the [3-Phase Meter Telstar](/))
+    - Switch power on / off (only with the [3-Phase Meter Telstar](/))
 
     - Toggle power on/off (no longer supported)
 
@@ -38,7 +38,7 @@ Possible actions:
     - Toggle power on/off on another device (no longer supported)
 
 
-## Creating an event action
+## Create an event action
 
 Event actions can be created in the app or in the web portal.
 
@@ -48,7 +48,7 @@ Event actions can be created in the app or in the web portal.
 
 - Select a meter
 
-- Now click the gear icon at the top right
+- Now click the gear icon in the top right corner
 
 - Click "Event actions" ("Ereignisaktionen") - "Add event action" ("Ereignisaktion hinzufügen")
 
@@ -64,7 +64,7 @@ Event actions can be created in the app or in the web portal.
 - Click Add event action (Ereignisaktion hinzufügen)
 
 
-### Defining an event action
+### Define an event action
 
 You can now define event actions (up to 16). Three settings are required for this:
 
@@ -85,22 +85,22 @@ Example: Event -> If power is less than 10 watts, switch off
 
 Remarks:
 
-- The action (in this example "Switch power off" ("Strom ausschalten")) is only executed when the corresponding event has occurred, i.e. a change in power from greater than 10 watts to less than 10 watts
+- The action (in this example "Switch power off") is only executed when the corresponding event has occurred, i.e. a change in power from greater than 10 watts to less than 10 watts
 
 - If the power is switched back on manually, it remains on until the event occurs again.
 
-- With fluctuating power, this condition could occur several times in succession. This can lead to undesired effects, which is why a so-called hysteresis is used. This means that the threshold (in this example 10 watts) increases by 3 watts on the second activation.
+- With fluctuating power, this condition could occur several times in succession. This can lead to undesirable effects, which is why a so-called hysteresis is used. This means that the threshold (in this example 10 watts) increases by 3 watts on the second activation.
 
 
-### Time
+### Time of day
 
-You can define a point in time from which the action is to be executed. If certain weekdays are to be excluded from this rule, they must be marked (red).
+You can define a point in time from which the action is to be executed. If certain days of the week are to be excluded from this rule, they must be marked (red).
 
-Example: Event -> The power is always switched off at 9 a.m., but not at weekends.
+Example: Event -> The power is always switched off at 9 a.m., but not at the weekend.
 
 Remarks:
 
-- The action (in this example "Switch power off" ("Strom ausschalten")) is only executed when the corresponding event has occurred, i.e. a change of time from 08:59 to 09:00.
+- The action (in this example "Switch power off") is only executed when the corresponding event has occurred, i.e. a change in time from 08:59 to 09:00.
 
 - If the power is switched back on manually, it remains on until the event occurs again.
 
@@ -113,7 +113,7 @@ A wide range of actions is available. These can of course be combined with any o
 
 The smart-me device switches itself on or off.
 
-Example: The power is always switched off at 9 a.m., but not at weekends.
+Example: The power is always switched off at 9 a.m., but not at the weekend.
 
 ### Toggle power (on/off)
 
@@ -127,8 +127,8 @@ Example: As soon as the power consumed is less than 10 watts, an email is sent.
 
 ### Switch power on on another device / Switch power off on another device
 
-The smart-me device can not only switch itself on or off, it can also control other smart-me devices (only works if both smart-me devices have a Wi-Fi/internet connection). Also note that only the 32A meter can switch)
+The smart-me device can not only switch itself on or off, it can also control other smart-me devices (only works if both smart-me devices have a Wi-Fi/internet connection). Please also note that only the 32A meter can switch)
 
 ### Toggle power (on/off) on another device
 
-The smart-me device can not only switch itself on or off, it can also control other smart-me devices (only works if both smart-me devices have a Wi-Fi/internet connection). Also note that only the 32A meter can switch)
+The smart-me device can not only switch itself on or off, it can also control other smart-me devices (only works if both smart-me devices have a Wi-Fi/internet connection). Please also note that only the 32A meter can switch)

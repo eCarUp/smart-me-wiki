@@ -19,4 +19,4 @@ sidebar_label: 'Produits'
 
 </Kacheln>
 
-Vous trouverez les appareils qui ne sont plus commercialisés sous [Produits abandonnés](/produkte/eingestellte-produkte). Le support et l'assistance cloud y sont maintenus.
+Les appareils qui ne sont plus vendus se trouvent sous [Produits abandonnés](/produkte/eingestellte-produkte). Le support et l'assistance cloud y sont maintenus.

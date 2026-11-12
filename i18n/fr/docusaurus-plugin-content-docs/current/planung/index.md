@@ -1,11 +1,11 @@
 ---
 title: 'Planification'
 slug: '/planung'
-description: 'Exemples d''installation du matériel dans un regroupement dans le cadre de la consommation propre (RCP), y c.'
+description: 'Exemples d''installation du matériel dans un regroupement dans le cadre de la consommation propre (RCP), y compris'
 sidebar_label: 'Planification'
 ---
 
-Cette catégorie contient des détails et des informations importantes pour vous aider à planifier votre projet smart-me.
+Dans cette catégorie, vous trouverez des détails et des informations importantes pour vous aider à planifier votre projet smart-me.
 
 ### Les modèles
 
@@ -27,7 +27,7 @@ Utilisez nos outils pour consolider votre projet et établir les listes de maté
 </NurFuer>
 
 ### Schémas de mesure spéciaux
-Vous trouverez ici des schémas de mesure spéciaux ou rares et leurs effets sur votre exploitation.
+Vous trouverez ici des schémas de mesure spéciaux ou rares ainsi que leurs effets sur votre exploitation.
 
 <Unterseiten nur=" planung/mkd3-messkonzept-nicht-teilnehmer, planung/messkonzept-notstromloesung, planung/messkonzept-produzenten-hinter-haeuser" />
 

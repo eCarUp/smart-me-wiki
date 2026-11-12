@@ -1,11 +1,11 @@
 ---
 title: 'Measurement concept producers behind houses'
 slug: '/planung/messkonzept-produzenten-hinter-haeuser'
-description: 'Here we explain which measures must be taken to map the metering concept for multiple producers behind different houses.'
+description: 'This page explains what needs to be done to implement the metering concept for multiple producers behind different houses.'
 sidebar_label: 'Measurement concept producers behind houses'
 symbol: 'solar'
 ---
-Here we explain which measures must be taken to map the metering concept for multiple producers behind different houses.
+This page explains what needs to be done to implement the metering concept for multiple producers behind different houses.
 
 ### Prerequisite
 
@@ -15,28 +15,28 @@ You need a smart-me Professional subscription
 
 smart-me does not recommend this metering concept for the following reasons:
 
-- There is currently no fully automated solution in the smart-me system to map this metering concept.
+- There is currently no fully automated solution in the smart-me system to implement this metering concept.
 
     - Note: smart-me third-party systems, such as [egonline](/drittsysteme/egonline), offer solutions that are compatible with smart-me meters. Please contact the respective providers directly for more information.
 
-- You should expect manual effort of approx. 30 minutes per billing unit and billing period.
+- Expect a manual effort of approx. 30 minutes per billing unit and billing period.
 
 - Due to the complexity of the installation, this can lead to many queries. smart-me reserves the right to charge for the effort involved in support requests.
 
-- The number of kWh sold between parties within the ZEV (association for own consumption) is determined as an average over the billing period based on the surplus of the individual parties. The same applies to the return transfer to the energy supplier.
+- The number of kWh sold between parties within the ZEV (association for own consumption) is determined as an average over the billing period based on the surplus of the individual parties. The same applies to the feed-in back to the energy supplier.
 
 - The self-consumption of each house that also has a photovoltaic system cannot be determined.
 
-- The graphics provided by smart-me are not compatible with this metering concept.
+- The charts provided by smart-me are not compatible with this metering concept.
 
 
-smart-me reserves the right to list further restrictions. Currently, only a few buildings are equipped with this metering concept. For this reason, smart-me is not focusing on the development of these properties. They may become simpler in the future, but we are not prioritising this metering concept in our development.
+smart-me reserves the right to list further restrictions. Currently, only a few buildings are equipped with this metering concept. For this reason, smart-me is not focusing on developing for these properties. They may become easier in the future, but we are not prioritising this metering concept in our development.
 
 ## Metering concept
 
-The balance, the houses and, if present, the common areas are measured.
+The balance, the houses and, if present, the common areas are metered.
 
-Measuring the PV is optional and offers no advantage for billing.
+Metering the PV is optional and offers no advantage for billing.
 
 ![Measurement concept producers behind houses – Figure 1](/img/planung-messkonzept-produzenten-hinter-haeuser/01.png)
 
@@ -75,7 +75,7 @@ Deviation for the virtual tariff:
 
 ## Billing
 
-The information below assumes that you are familiar with billing in a smart-me [Billing](/konfiguration/billing) with the standard metering concept.
+The information below assumes that you are familiar with the billing for a smart-me [Billing](/konfiguration/billing) with the standard metering concept.
 
 Fill in the Excel file
 
@@ -103,9 +103,9 @@ Calculation logic
 
 ![Measurement concept producers behind houses – Figure 5](/img/planung-messkonzept-produzenten-hinter-haeuser/05.png)
 
-Add an "Other" item (Sonstiges Position)
+Add an "Other" item (Sonstiges)
 
-Values according to the Excel credit can be entered as a negative amount for each billing unit.
+The values from the Excel credit calculation can be entered as a negative amount for each billing unit.
 
 ![Measurement concept producers behind houses – Figure 6](/img/planung-messkonzept-produzenten-hinter-haeuser/06.png)
 

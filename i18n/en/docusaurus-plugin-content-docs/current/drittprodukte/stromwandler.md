@@ -8,9 +8,9 @@ Important note:
 
 None of these products are sold by smart-me AG or offered as accessories at the time of purchase. Please buy these products directly from the manufacturer.
 
-Below you will find a list of product recommendations. smart-me does not earn any money from the recommended products and provides no warranty for them. You can use other products at any time. Always make sure that they meet the requirements of the respective product, in this case the [3-Phase Meter Telstar CT](/produkte/telstar-ct).
+Below you will find a list of product recommendations. smart-me does not earn any money from the recommended products and does not provide any warranty for them. You can use other products at any time. Always make sure that they meet the requirements of the respective product, in this case the [3-Phase Meter Telstar CT](/produkte/telstar-ct).
 
-The aim of these recommendations is to give our partners an easy and efficient way to find specific products when they do not yet know a suitable one.
+The aim of these recommendations is to give our partners an easy and efficient way to find certain products when they do not yet know of a suitable one.
 
 ## Calibrated current transformers for billing purposes
 
@@ -24,14 +24,14 @@ Country of sale: Switzerland
 
 Intended use: billing purposes
 
-Type: closed current transformer, calibrated
+Type: Closed current transformer, calibrated
 
 - Pfiffner TGH1 / TGK1 Series
 - Pfiffner TSC 1-8 Series
 
 Source: [pfiffner-group.com](https://www.pfiffner-group.com/)
 
-**Suppliers**
+**Where to buy**
 
 Pfiffner direct · Mr Samuel Gloor
 
@@ -39,7 +39,7 @@ Pfiffner direct · Mr Samuel Gloor
 
 **Calibration for billing purposes**
 
-Calibration must be specifically requested or specified when ordering.
+Calibration must be requested specifically or stated when ordering.
 
 </Kachel>
 
@@ -49,14 +49,14 @@ Country of sale: Switzerland
 
 Intended use: billing purposes
 
-Type: closed current transformer, calibrated
+Type: Closed current transformer, calibrated
 
 - Hager 300K05G
 - Hager 600K05G
 
 Source: [hager.com](https://hager.com/)
 
-**Suppliers**
+**Where to buy**
 
 Hager direct
 
@@ -64,7 +64,7 @@ Hager direct
 
 **Calibration for billing purposes**
 
-Calibration must be specifically requested or specified when ordering.
+Calibration must be requested specifically or stated when ordering.
 
 </Kachel>
 
@@ -74,7 +74,7 @@ Country of sale: Germany
 
 Intended use: billing purposes
 
-Type: closed current transformer, calibrated
+Type: Closed current transformer, calibrated
 
 - Redur Regulus Series
 
@@ -82,7 +82,7 @@ Source: [redur.de](https://www.redur.de/)
 
 **Calibration for billing purposes**
 
-Calibration must be specifically requested or specified when ordering.
+Calibration must be requested specifically or stated when ordering.
 
 </Kachel>
 
@@ -98,14 +98,14 @@ Country of sale: Switzerland
 
 Intended use: monitoring
 
-Type: open current transformer
+Type: Split-core current transformer
 
-- Optec RX series, open
-- Optec KUW series (split-core)
-- Optec SC-CT series (split-core)
+- Optec RX series, split-core
+- Optec KUW series (clamp-on)
+- Optec SC-CT series (clamp-on)
 
 
-**Supplier**
+**Where to buy**
 
 Optec online shop
 
@@ -119,12 +119,12 @@ Country of sale: Switzerland
 
 Intended use: monitoring
 
-Type: closed current transformer
+Type: Closed current transformer
 
 - Optec RX series, closed
 
 
-**Supplier**
+**Where to buy**
 
 Optec online shop
 
@@ -138,7 +138,7 @@ Country of sale: Germany
 
 Intended use: monitoring
 
-Type: closed current transformer
+Type: Closed current transformer
 
 - Redur Regulus Series
 
@@ -152,7 +152,7 @@ Country of sale: Germany
 
 Intended use: monitoring
 
-Type: open current transformer
+Type: Split-core current transformer
 
 - Redur RSC Series
 
@@ -176,7 +176,7 @@ Type: DIN rail mounted
 
 Source: [phoenixcontact.com](http://www.phoenixcontact.com/)
 
-**Suppliers**
+**Where to buy**
 
 Phoenix Contacts
 

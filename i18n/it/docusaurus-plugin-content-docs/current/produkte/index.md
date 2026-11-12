@@ -19,4 +19,4 @@ sidebar_label: 'Prodotti'
 
 </Kacheln>
 
-I dispositivi che non sono più in vendita si trovano in [Prodotti fuori produzione](/produkte/eingestellte-produkte). Il supporto e l'assistenza cloud continuano a essere garantiti.
+I dispositivi che non sono più in vendita si trovano in [Prodotti fuori produzione](/produkte/eingestellte-produkte). Per questi prodotti il supporto e l'assistenza cloud restano attivi.

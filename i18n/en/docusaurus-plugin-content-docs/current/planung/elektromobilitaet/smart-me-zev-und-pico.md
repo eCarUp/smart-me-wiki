@@ -10,7 +10,7 @@ E-mobility in the smart-me ZEV (association for own consumption) / tenant electr
 
 <div className="bild--voll">
 
-![smart-me ZEV and Pico – Figure 1](/img/planung-elektromobilitaet-smart-me-zev-und-pico/01_EN.png)
+![smart-me ZEV and Pico – Figure 1](/img/planung-elektromobilitaet-smart-me-zev-und-pico/01.png)
 
 </div>
 
@@ -19,19 +19,19 @@ E-mobility in the smart-me ZEV (association for own consumption) / tenant electr
 The load management of the Pico charging station is based on the smart-me meter hardware. This hardware can be used directly as reference points.
 
 If a third-party meter installation is already in place, load management for Picos can also be handled by third-party software instead of the smart-me multilevel load management.
-You can find more information on this below under "Extended information".
+You can find more information on this below under "Advanced information".
 
 Advantages of smart-me load management:
 
 - No additional metering hardware required
 
-- Same manufacturer for the metering hardware and the charging station: top compatibility and reliability
+- Same manufacturer for metering hardware and charging station: top compatibility and reliability
 
 - Multi-stage, dynamically controlled load management: minimal power losses and high availability
 
 - Centrally controlled load shedding for the entire installation
 
-- Solar optimization function optimized for the site or the building
+- Solar optimization function optimized for the site or the individual building
 
 - Charging group prioritization and passive peak load reduction
 
@@ -42,25 +42,25 @@ Hardware points functionally required for comprehensive load management in a ZEV
     \- Solar optimization point, required for distributing capacity within the site.
 
 - Optional but recommended: 2x e-mobility meter ([Telstar 80A](/produkte/telstar-80a) or [Telstar CT](/produkte/telstar-ct))
-    \- Reference when several charging groups are connected to one outgoing circuit and share its capacity.
+    \- Reference when several charging groups are connected to one outgoing feeder and share its capacity.
     \- Billing measurement for losses and standby energy
     \- Other consumers that are not Pico charging stations can also be taken into account, e.g. garage lighting, sockets, etc.
 
 - Optional but strongly recommended: 1x site meter ([Telstar 80A](/produkte/telstar-80a) or [Telstar CT](/produkte/telstar-ct))
-    \- If one already exists in the ZEV, this point can be taken into account. If there is no site meter, it can be mapped virtually.
+    \- If already present in the ZEV, this point can be taken into account. If there is no site meter, it can be mapped virtually.
 
 
-### Extended information on the load management of the Pico charging station
+### Advanced information on Pico charging station load management
 
 [Functional description of Pico load management](/produkte/pico-ladestation/pico-lastmanagement)
 
 [Compatible third-party load management software](/drittsysteme)
 
-[Pico general installation planning: outgoing circuits and fuses.](/produkte/pico-ladestation/installationsplanung)
+[Pico general installation planning: outgoing feeders and fuse protection.](/produkte/pico-ladestation/installationsplanung)
 
-### Billing of e-mobility in the ZEV (association for own consumption) / tenant electricity
+### Billing of e-mobility in a ZEV / tenant electricity setup
 
-Billing can be done in various ways, each with its specific advantages and disadvantages:
+Billing can be done in several ways, each with its own advantages and disadvantages:
 
 - Billing with a single-tariff or multi-tariff system in the ZEV with [smart-me Billing](https://web.smart-me.com/energiekostenabrechnung/), either separately or together with the apartment consumption.
 

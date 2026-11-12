@@ -32,7 +32,7 @@ smart-me è un sistema di gestione dell'energia aperto. Con smart-me puoi trasfe
 
 </Kacheln>
 
-### Software per il conteggio delle spese di riscaldamento e accessorie
+### Software per il conteggio delle spese di riscaldamento e delle spese accessorie
 
 <Kacheln min="11rem">
 
@@ -102,11 +102,11 @@ smart-me è un sistema di gestione dell'energia aperto. Con smart-me puoi trasfe
 
 </Kacheln>
 
-### Webinar "Pianificazione RCP"
+### Webinar "Pianificazione di un RCP"
 
 Scopri se hai bisogno di un partner, spiegato in modo semplice.
 
-<Video src="fb33ML8YTYA" title="Video YouTube, webinar &quot;Pianificazione di un RCP&quot;" />
+<Video src="fb33ML8YTYA" title="Video YouTube, webinar &quot;Pianificazione di un RCP (raggruppamento ai fini del consumo proprio)&quot;" />
 
 ### Webinar "Esportare i dati energetici"
 

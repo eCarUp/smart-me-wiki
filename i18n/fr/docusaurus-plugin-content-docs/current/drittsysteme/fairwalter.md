@@ -10,12 +10,12 @@ sidebar_label: 'Fairwalter'
 
 Fairwalter est une application complète de gestion immobilière qui importe les données des compteurs smart-me via API.
 
-Les bailleurs privés et bailleresses privées disposent d'une solution complète, claire et intuitive. Plus besoin d'installation ni de mises à jour manuelles. Les membres de la famille, conseillers fiscaux et conseillères fiscales, courtiers et courtières ou concierges reçoivent chacun leur propre accès, ce qui permet une gestion commune. 
+Les bailleurs privés disposent d'une solution complète claire et intuitive. Plus besoin d'installation ni de mises à jour manuelles. Les membres de la famille, les conseillers fiscaux, les courtiers ou les concierges reçoivent chacun leur propre accès, ce qui permet une gestion commune.
 
-Les gérances économisent du temps et de l'argent lors de la mise en place de la solution, de la formation des collaborateurs et collaboratrices, et de la collaboration avec les propriétaires et les prestataires de services. En tant que solution web, Fairwalter s'adapte à vos processus ; intégrez des solutions externes via une interface et organisez vos processus internes avec flexibilité.
+Les gérances gagnent du temps et de l'argent lors de la mise en place de la solution, de la formation des collaborateurs et de la collaboration avec les propriétaires et les prestataires de services. En tant que solution web, Fairwalter s'adapte à vos processus ; intégrez des solutions externes via une interface et organisez vos processus internes de manière flexible.
 
 - Fairwalter récupère les données smart-me directement via API
-- Bien adapté aux décomptes de charges accessoires
+- Adapté aux décomptes de charges accessoires
 - Limité pour le décompte de l'énergie électrique (pas de tarif solaire)
 
 </div>
@@ -29,7 +29,7 @@ Les gérances économisent du temps et de l'argent lors de la mise en place de l
 
 ### Intégration avec smart-me
 
-Toutes les données de consommation relevées par smart-me sont automatiquement utilisées pour le décompte de chauffage et de charges accessoires. Il suffit pour cela d'attribuer les compteurs aux comptes de charges accessoires.
+Toutes les données de consommation saisies par smart-me sont automatiquement utilisées pour le décompte des frais de chauffage et des charges accessoires. Il suffit pour cela d'attribuer les compteurs aux comptes de charges accessoires.
 
 [Vidéo démo en direct](https://youtu.be/E7HuIAUehdE)
 

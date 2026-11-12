@@ -1,10 +1,10 @@
 ---
 title: 'Public Key Signature'
 slug: '/informationssicherheit/public-key-signature'
-description: 'I contatori smart-me (a partire dalla versione 2.0) firmano digitalmente tutti i dati di misura e le transazioni.'
+description: 'I contatori smart-me (dalla versione 2.0) firmano digitalmente tutti i dati di misura e tutte le transazioni.'
 sidebar_label: 'Public Key Signature'
 ---
-I contatori smart-me (a partire dalla versione 2.0) firmano digitalmente tutti i dati di misura e le transazioni. In questo modo è possibile verificare in qualsiasi momento l'autenticità dei valori misurati. A tale scopo smart-me utilizza il principio crittografico di una protezione end-to-end mediante una firma digitale basata sulla crittografia asimmetrica.
+I contatori smart-me (dalla versione 2.0) firmano digitalmente tutti i dati di misura e tutte le transazioni. In questo modo è possibile verificare in qualsiasi momento l'autenticità dei valori misurati. A tale scopo smart-me utilizza il principio crittografico di una protezione end-to-end mediante una firma digitale basata sulla crittografia asimmetrica.
 
 smart-me distingue tra due tipi di valori di misura firmati:
 
@@ -47,7 +47,7 @@ Durante la produzione del contatore viene generata una coppia di chiavi asimmetr
 
 ### Pacchetti di dati
 
-Per mantenere il più ridotte possibile le dimensioni del pacchetto di dati e quindi la quantità di dati necessaria per la trasmissione, smart-me utilizza "Google Protocol Buffers" come formato dei dati per i valori di misura. I pacchetti di dati sono strutturati come segue:
+Per mantenere il più possibile ridotte le dimensioni del pacchetto di dati e quindi la quantità di dati necessaria per la trasmissione, smart-me utilizza "Google Protocol Buffers" come formato dei dati per i valori di misura. I pacchetti di dati sono strutturati come segue:
 
 Signed meter values
 
@@ -116,7 +116,7 @@ EndValues: i valori di misura alla fine della transazione (vedi sopra)
 
 ## Esempio
 
-Questo esempio mostra la validazione di una transazione firmata.
+Questo esempio mostra la convalida di una transazione firmata.
 
 Pacchetto di dati (transazione)
 
@@ -152,7 +152,7 @@ Calcolare l'hash (SHA256) del pacchetto di dati:
 
 SHA256(pacchetto di dati) = 52 2F 46 C6 26 70 17 32 B6 FD 4B 78 7E 31 5D 3B EE F0 F4 E3 42 66 4A D0 5F AB 95 74 F1 C1 3C 0C
 
-Validare l'hash con la Public Key mediante ECDSA 256
+Convalidare l'hash con la Public Key mediante ECDSA 256
 
 OK
 

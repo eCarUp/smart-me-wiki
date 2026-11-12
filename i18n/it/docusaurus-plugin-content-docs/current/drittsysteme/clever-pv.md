@@ -7,11 +7,11 @@ sidebar_label: 'Clever PV'
 <div className="row">
 <div className="col col--8">
 
-Clever-PV è un sistema di gestione dell'energia domestica (HEMS) basato sul web. Con Clever-PV puoi collegare in rete tramite Internet i tuoi impianti di produzione e i tuoi utilizzatori di energia elettrica e gestirli in modo intelligente.
+Clever-PV è un sistema di gestione dell'energia domestica (HEMS) basato sul web. Con Clever-PV può collegare in rete via Internet i Suoi produttori e consumatori di energia elettrica e gestirli in modo intelligente.
 
-Per sfruttare l'eccedenza fotovoltaica è essenziale conoscere la potenza attuale di immissione o di prelievo misurata dal contatore elettrico dell'edificio. La potenza di produzione attuale dell'impianto fotovoltaico non è necessaria per la gestione.
+Per sfruttare l'eccedenza fotovoltaica è indispensabile conoscere la potenza attuale di immissione o di prelievo misurata dal contatore elettrico dell'edificio. La potenza di produzione attuale dell'impianto fotovoltaico non serve per la regolazione.
 
-I dati energetici per la gestione possono essere trasmessi in streaming in modo rapido e affidabile dai contatori smart-me direttamente a Clever-PV.
+I dati energetici per la regolazione possono essere trasmessi in streaming dai contatori smart-me direttamente a Clever-PV, in modo rapido e affidabile.
 
 </div>
 <div className="col col--4 bild--mitte">
@@ -23,7 +23,7 @@ I dati energetici per la gestione possono essere trasmessi in streaming in modo 
 
 Destinatari: casa unifamiliare
 
-Gestione di:
+Regolazione di:
 - contatti di commutazione
 - stazioni di ricarica
 - inverter solari

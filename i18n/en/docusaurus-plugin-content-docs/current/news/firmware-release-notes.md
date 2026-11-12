@@ -404,4 +404,4 @@ Bug fixes:
 
 </details>
 
-smart-me reserves the right to implement features and bug fixes that are not communicated, particularly where internal matters are concerned.
+smart-me reserves the right to implement features and bug fixes that have not been communicated, particularly where internal matters are concerned.

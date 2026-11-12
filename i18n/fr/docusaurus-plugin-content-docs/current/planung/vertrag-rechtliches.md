@@ -8,19 +8,19 @@ symbol: 'vertrag'
 
 ## Base contractuelle d'un RCP (Suisse)
 
-Le RCP (regroupement dans le cadre de la consommation propre)  est un regroupement contractuel de plusieurs consommateurs finaux, qui leur permet de consommer sur place l'électricité qu'ils produisent eux-mêmes. 
+Le RCP (regroupement dans le cadre de la consommation propre)  est un regroupement contractuel de plusieurs consommateurs finaux qui consomment eux-mêmes, sur place, l'électricité qu'ils produisent. 
 
-Dans un regroupement dans le cadre de la consommation propre, les consommatrices et consommateurs finaux disposent d'un raccordement au réseau commun. Vis-à-vis du gestionnaire de réseau de distribution (GRD), toutes les consommatrices et tous les consommateurs finaux participant au RCP apparaissent comme un seul et unique client. 
+Dans un regroupement dans le cadre de la consommation propre, les consommatrices et consommateurs finaux disposent d'un raccordement au réseau commun. Face au gestionnaire de réseau de distribution (GRD), toutes les consommatrices et tous les consommateurs finaux participant au RCP apparaissent comme un seul et unique client. 
 
-### Modèles standardisés de contrats RCP et d'avenants aux contrats de bail (modèle de contrat RCP)
+### Modèles standardisés de contrats RCP et d'adaptations des contrats de bail (modèle de contrat RCP)
 
-Association des propriétaires fonciers (HEV) : [https://www.hev-schweiz.ch/wohnen/bauen/haustechnik-gebaeudetechnik/eigenverbrauch/](https://www.hev-schweiz.ch/wohnen/bauen/haustechnik-gebaeudetechnik/eigenverbrauch/) (connexion requise)
+Association des propriétaires fonciers : [https://www.hev-schweiz.ch/wohnen/bauen/haustechnik-gebaeudetechnik/eigenverbrauch/](https://www.hev-schweiz.ch/wohnen/bauen/haustechnik-gebaeudetechnik/eigenverbrauch/) (connexion requise)
 
-Guide sur l'autoconsommation de SuisseEnergie : [https://www.energieschweiz.ch/gebaeude/eigenverbrauch/](https://www.energieschweiz.ch/gebaeude/eigenverbrauch/)  
+Guide de l'autoconsommation de SuisseEnergie : [https://www.energieschweiz.ch/gebaeude/eigenverbrauch/](https://www.energieschweiz.ch/gebaeude/eigenverbrauch/)  
 
 
 
-Si vous avez besoin d'un soutien juridique approfondi pour la mise en œuvre du RCP, vous trouverez ci-dessous des partenaires que nous connaissons.
+Si vous avez besoin d'un soutien juridique approfondi pour la mise en œuvre de votre RCP, vous trouverez ci-dessous des partenaires que nous connaissons.
 
 Aspects juridiques du RCP avec Domenig & Partner 
 
@@ -28,12 +28,12 @@ Programme
 
 - [00:00 Introduction](https://www.youtube.com/watch?v=KqU1XWR4YOU)
 
-- [00:55 Notions de base smart-me](https://youtu.be/KqU1XWR4YOU?si=_Y0PLCH2BewXjj-Y&t=55)s
+- [00:55 smart-me Basic](https://youtu.be/KqU1XWR4YOU?si=_Y0PLCH2BewXjj-Y&t=55)s
 
-- [12:19 Notions juridiques de base du RCP](https://www.youtube.com/watch?v=KqU1XWR4YOU&t=739s)
+- [12:19 Bases juridiques du RCP](https://www.youtube.com/watch?v=KqU1XWR4YOU&t=739s)
 
 
-<Video src="KqU1XWR4YOU" title="Vidéo YouTube, webinaire - Notions juridiques de base du RCP" />
+<Video src="KqU1XWR4YOU" title="Vidéo YouTube, webinaire - Bases juridiques du RCP" />
 
 ### Partenaires que nous connaissons en Suisse
 
@@ -89,7 +89,7 @@ M +41 79 205 91 91
 
 ## Électricité pour les locataires (Allemagne)
 
-Pour toute question concernant l'électricité pour les locataires en Allemagne (Mieterstrom), veuillez contacter smartRED. smartRED est notre filiale qui dessert le marché allemand et commercialise nos produits dans des projets d'électricité pour les locataires conformément au cadre juridique.
+Pour toute question sur l'électricité pour les locataires en Allemagne, veuillez contacter smartRED. smartRED est notre filiale qui dessert le marché allemand et commercialise nos produits dans des projets d'électricité pour les locataires, conformément au cadre juridique en vigueur.
 
 <Kacheln min="20rem">
 

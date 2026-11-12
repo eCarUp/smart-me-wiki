@@ -4,7 +4,7 @@ slug: '/konfiguration/inbetriebnahme/inbetriebnahme-lora/dragino-lps8n'
 description: '1. Connettiti alla rete WLAN del Dragino.'
 sidebar_label: 'Dragino LPS8N'
 ---
-## Istruzioni di integrazione
+## Istruzioni per l'integrazione
 
 ![Dragino LPS8N – Figura 1](/img/konfiguration-inbetriebnahme-inbetriebnahme-lora-dragino-lps8n/01.png)
 
@@ -20,9 +20,9 @@ sidebar_label: 'Dragino LPS8N'
 
 4.  Seleziona "LoRaWAN" -> "LoRaWAN Semtec UDP"
 
-5.  Come Service Provider seleziona "Custom / Private LoRaWAN"
+5.  Seleziona come Service Provider "Custom / Private LoRaWAN"
 
-6.  Come indirizzo del server inserisci: lora-gateway.smart-me.com
+6.  Inserisci come indirizzo del server: lora-gateway.smart-me.com
 
 7.  La porta di uplink e di downlink è 1700
 
@@ -34,7 +34,7 @@ sidebar_label: 'Dragino LPS8N'
 <div className="row">
 <div className="col col--6">
 
-9\. Nella panoramica di sistema verifica che per Lora, IoT Service e Internet sia presente un segno di spunta verde.
+9\. Verifica nella panoramica del sistema che per Lora, IoT Service e Internet sia presente un segno di spunta verde.
 
 10\. Su [https://lora.smart-me.com](https://lora.smart-me.com)  il gateway dovrebbe ora essere visualizzato come "online". 
 

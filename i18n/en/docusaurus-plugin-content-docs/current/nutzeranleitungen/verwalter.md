@@ -1,16 +1,16 @@
 ---
-title: 'Guide for property managers'
+title: 'Guide for Property Managers'
 slug: '/nutzeranleitungen/verwalter'
-description: 'smart-me home page -> User Configuration (Benutzerkonfiguration)'
-sidebar_label: 'Property managers'
+description: 'smart-me home page -> User Configuration'
+sidebar_label: 'Property Manager'
 ---
 ## Video
 
-<Video src="1xeND8RbkO4" title="YouTube video, video guide: defining prices & adjusting the tenant list (2026)" />
+<Video src="1xeND8RbkO4" title="YouTube video, video tutorial on defining prices & adjusting the tenant list (2026)" />
 
 ## Navigation
 
-### How to get to tenant access
+### Getting to tenant access
 
 <div className="row">
 <div className="col col--5">
@@ -25,7 +25,7 @@ smart-me home page -> User Configuration (Benutzerkonfiguration)
 </div>
 </div>
 
-### How to get to Billing
+### Getting to Billing
 
 <div className="row">
 <div className="col col--5">
@@ -42,17 +42,17 @@ smart-me home page -> Billing (Rechnungsstellung)
 
 ## Requirements and checks at handover
 
-Note: Partners are the first point of contact for property management companies, unless the property management training with us has been attended.
+Note: Partners are the first point of contact for property management companies if they have not attended our property manager training.
 
 - Alarm (or agree on who takes care of it)
 
 - Virtual tariffs must be set.
 
-- The calculated date (virtual tariffs) is today.
+- Calculated date (virtual tariffs) is today.
 
-- VEWA has been set up, if present.
+- VEWA has been set up, if applicable.
 
-- Tenant access has been set up, if agreed.
+- Tenant accounts have been set up, if agreed.
 
 
 ### Global settings
@@ -63,7 +63,7 @@ Note: Partners are the first point of contact for property management companies,
 
 3.  Define the currency (CHF or EURO)
 
-4.  Define taxes (global); different taxes per tariff or other item can be defined in the respective tariff / other item.
+4.  Define taxes (global); different taxes per tariff or for other items can be defined in the respective tariff / other item.
 
 5.  Logo (max 1MB, 5000x5000 pixels)
 
@@ -76,11 +76,11 @@ Note: Partners are the first point of contact for property management companies,
 
 ## Change of tenant
 
-How to create tenant access, carry out a change of tenant in smart-me Billing and renew tariffs.
+How to create a tenant account, carry out a change of tenant in smart-me Billing and renew tariffs.
 
 ![Guide for property managers – Figure 4](/img/nutzeranleitungen-verwalter/04.png)
 
-### Creating tenant access
+### Creating a tenant account
 
 Create tenant
 
@@ -98,24 +98,24 @@ Create tenant
     (Tip: for tenants, “Read rights: Selected folders and all subfolders and meters” (“Leserechte: Ausgewühlte Ordner und alle Unterordner und Zähler”) is sufficient)
 
 6.  Validity of the access
-    (Tip: access from = move-in date / access until: 31.12.2099)
+    (Tip: Access from = move-in date / Access until: 31.12.2099)
 
 7.  Set password
 
-8.  Assign to the authorized node via drag and drop. (As a rule, the tenant gets access to the graphics, technical meters and their own apartment)
+8.  Assign to the authorized node by drag and drop. (As a rule, the tenant gets access to the graphics, technical meters and their apartment)
 
 
 ![Guide for property managers – Figure 5](/img/nutzeranleitungen-verwalter/05.png)
 
-### Changing tenant access
+### Changing a tenant account
 
-When a new tenant moves in, you can prevent them from accessing the old data.
+When a new tenant moves in, you can prevent the previous tenant from accessing the old data.
 
 1.  Select and edit the user
 
-2.  Set access until to the move-out date
+2.  Set Access until to the move-out date
 
-3.  Alternatively, delete the tenant access
+3.  Alternatively, delete the tenant account
 
 
 ![Guide for property managers – Figure 6](/img/nutzeranleitungen-verwalter/05.png)
@@ -128,15 +128,15 @@ Billing unit
 
 2.  Configuration (Konfiguration)
 
-3.  Select the billing unit
+3.  Select billing unit
 
-4.  Select the existing tenant
+4.  Select existing tenant
 
 5.  Edit
 
-6.  Change valid until to the move-out date.
+6.  Change Valid until to the move-out date.
 
-7.  Add / edit invoice address
+7.  Add / edit billing address
 
 8.  Name and address (or vacancy)
 
@@ -144,7 +144,7 @@ Billing unit
     automatic invoice dispatch (optional)
 
 10.  Validity
-     (valid from = move-in / valid until = 31.12.2099)
+     (Valid from = move-in / Valid until = 31.12.2099)
 
 
 ![Guide for property managers – Figure 7](/img/nutzeranleitungen-verwalter/07.png)
@@ -155,7 +155,7 @@ The general reference points
 
 - Solar tariff = 80% of the grid tariff 
 
-    - Energie Schweiz self-consumption guide: [https://www.energieschweiz.ch/gebaeude/eigenverbrauch/](https://www.energieschweiz.ch/gebaeude/eigenverbrauch/)
+    - Self-consumption guide from SwissEnergy: [https://www.energieschweiz.ch/gebaeude/eigenverbrauch/](https://www.energieschweiz.ch/gebaeude/eigenverbrauch/)
 
     - [Electricity tariff calculator](/konfiguration/billing/stromtarife-definieren/stromtarif-rechner)
 
@@ -204,7 +204,7 @@ Grid electricity tariffs
 
 6.  Adjust the special tax (if necessary)
 
-7.  Save (Speichern)
+7.  Save
 
 
 
@@ -215,9 +215,9 @@ Note: If anything other than the price is changed (e.g. the name or the validity
 
 ![Guide for property managers – Figure 11](/img/nutzeranleitungen-verwalter/11.png)
 
-### Entering an other item
+### Adding another item
 
-Other costs can be added in addition. General costs such as meter rental or administrative effort can be added at property level. 
+Other costs can also be added. General costs such as meter rental or administrative effort can be added at property level. 
 
 1.  Select the property
 
@@ -233,8 +233,8 @@ Apartment-specific additional costs (additional meter rental or parking fees) ca
 2.  Scroll all the way down to "Other" ("Sonstiges")
 
 
-Costs are not split, but added equally to everyone.
-Example: meter rental of the energy supplier 5CHF per month. 5x billing units -> 1CHF/month as an other item
+Costs are not split; the same amount is added to each.
+Example: Meter rental from the energy supplier 5CHF per month. 5x billing units -> 1CHF/month in the other item
 
 ![Guide for property managers – Figure 12](/img/nutzeranleitungen-verwalter/12.png)
 
@@ -242,7 +242,7 @@ Example: meter rental of the energy supplier 5CHF per month. 5x billing units ->
 
 If VEWA is not used, the price components of the multi-energy meters must be added. With VEWA, these are overwritten.
 
-Determining tariffs for heating and domestic hot water
+Defining tariffs for heating and domestic hot water
 
 - Set the period and add price components. 
 
@@ -259,13 +259,13 @@ E.g. 01.10.2024 to 04.11.2024 can now be billed.
 
 3.  Select the property or billing unit
 
-4.  Define the billing period (note: the commissioning day and the current day cannot be billed)
+4.  Define the billing period (Note: The commissioning day and the current day cannot be billed)
 
 5.  Define the invoice number (then counts up)
 
 6.  Create invoice.
 
-7.  Make sure there are no warnings; if there are, please check with the installation partner unless the property manager training has been attended.
+7.  Make sure there are no warnings; if there are, please check with the installation partner if the property manager training has not been attended.
 
 
 ![Guide for property managers – Figure 13](/img/nutzeranleitungen-verwalter/13.png)
@@ -310,48 +310,48 @@ E.g. 01.10.2024 to 04.11.2024 can now be billed.
 
 To print the QR code invoice correctly in portrait format, the following settings must be changed in the print dialog. Example with Adobe Acrobat Reader.
 
-- Enable actual size
+- Enable Actual size
 
-- Orientation: portrait
+- Orientation: Portrait
 
 
 ![Guide for property managers – Figure 18](/img/nutzeranleitungen-verwalter/18.png)
 
 ## Changing the email address (account)
 
-Note: An account with the new email must not already exist.
+Note: An account with the new email address must not already exist.
 
-1.  Click on the rocket. 
+1.  Click the rocket. 
 
-2.  Click on Account settings (Kontoeinstellungen)
+2.  Click Account settings (Kontoeinstellungen)
 
 
 ![Guide for property managers – Figure 19](/img/nutzeranleitungen-verwalter/19.png)
 
-3\. Enter the current email
+3\. Enter the current email address
 
-4\. Enter the new email, confirm it and click Change email (E-Mail ändern)
+4\. Enter the new email address, confirm it and click Change email (E-Mail ändern)
 
 5\. You will receive a confirmation link at the new email address.
 
-Important: If this link is opened on another device, you must log in again with the old login details.
+Important: If this link is opened on a different device, you must log in again with the old login details.
 
 ![Guide for property managers – Figure 20](/img/nutzeranleitungen-verwalter/20.png)
 
 ## Transferring an account
 
-Note: An account with the new email must not already exist.
+Note: An account with the new email address must not already exist.
 
-1.  Click on the rocket. 
+1.  Click the rocket. 
 
-2.  Click on Account settings (Kontoeinstellungen)
+2.  Click Account settings (Kontoeinstellungen)
 
 
 ![Guide for property managers – Figure 21](/img/nutzeranleitungen-verwalter/19.png)
 
 3\. Click Transfer account (Konto übertragen)
 
-4\. Enter and confirm the new email.
+4\. Enter and confirm the new email address.
 
 5\. Select the new language.
 

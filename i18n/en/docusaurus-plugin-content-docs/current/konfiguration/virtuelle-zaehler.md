@@ -8,31 +8,31 @@ sidebar_label: 'Virtual Meters'
 
 Virtual meters let you perform mathematical operations across several physical meters. They are mostly used together with smart-me Billing.
 
-## Prerequisite
+## Requirement
 
-You need Professional licences for the real meters from which you create the virtual meter, and for the virtual meter itself.
+You need Professional licenses for the real meters you create the virtual meter from, and also for the virtual meter itself.
 
 ## Purpose
 
-Virtual meters are used in [Billing](/konfiguration/billing) to charge the solar tariff.
+Virtual meters are used in [Billing](/konfiguration/billing) to bill the solar tariff.
 
-- They are used to calculate the sum of all consumers (total consumption in the solar tariff).
+- They calculate the sum of all consumers (total consumption in the solar tariff).
 
-- If the solar systems in a property are metered separately, you can calculate their sum.
+- They can add up all solar systems, if these are metered separately in a property.
 
 
 Visualizations
 
-- If no balance meter is installed in a property, some [visualizations](/konfiguration/visualisierung) may need the total consumption to be calculated.
+- If a property has no balance meter installed, some [visualizations](/konfiguration/visualisierung) may need the total consumption to be calculated.
 
 - If a property has separately metered solar systems and you want a visualization that includes solar.
 
 
-### Limitation
+### Restriction
 
-In Billing, you cannot assign virtual meters to a billing unit.
+In Billing, virtual meters cannot be assigned to a billing unit.
 
-- You can use virtual meters for the virtual tariff structures in Billing. However, billing with virtually calculated meters is not allowed. For this reason, Billing does not let you select a virtual meter.
+- You can use virtual meters for the virtual tariff structures in Billing, but billing with virtually calculated meters is not allowed. This is why Billing does not offer virtual meters for selection.
 
 
 ## Creating a virtual meter
@@ -51,14 +51,14 @@ To create a virtual meter, proceed as follows:
 
 - Click in the formula text field to display all available meters.
 
-- Then insert an operator and confirm it with Enter (e.g. "+")
+- Then insert an operator and confirm with Enter (e.g. "+")
 
-- Add all the meters you need and connect them with the appropriate operators.
+- Add all the meters you need and connect them with the appropriate operator.
 
 
 Note: If you create the virtual meter as a total consumption meter for Billing, we recommend naming it Total consumption (Gesamtverbrauch).
 
-![Virtual meters – Figure 1](/img/konfiguration-virtuelle-zaehler/01.png)
+![Virtual meters – figure 1](/img/konfiguration-virtuelle-zaehler/01.png)
 
 ### Supported operators
 
@@ -77,7 +77,7 @@ Note: If you create the virtual meter as a total consumption meter for Billing, 
 
 ## Creating a total consumption meter for the solar tariff and battery tariff
 
-The Sum all electricity meters (Summiere alle Stromzähler) function is useful when there are many meters. It adds up all the meters.
+The Sum all electricity meters (Summiere alle Stromzähler) function is useful in environments with many meters. It lets you add up all meters.
 
 - Enter a name for the virtual meter.
 
@@ -85,17 +85,17 @@ The Sum all electricity meters (Summiere alle Stromzähler) function is useful w
 
 - Select Sum all electricity meters (Summieren alle Stromzähler).
 
-- Remove any meters you do not need (e.g. solar or balance meters). Remove both the meters and their "+" operators.
+- If meters (e.g. solar or balance meters) are not needed, you must remove them. Remove both the meters and their associated "+".
 
 
-![Virtual meters – Figure 2](/img/konfiguration-virtuelle-zaehler/02.png)
+![Virtual meters – figure 2](/img/konfiguration-virtuelle-zaehler/02.png)
 
 ### Adding the correct meters to the virtual total consumption
 
-- Make sure that the sum of the meters covers exactly 100% of the power consumed.
+- Make sure that the sum of the meters covers exactly 100% of the power drawn.
 
-- For devices connected in series, only the devices closer to the sub-distribution board or the building connection count. (Example: e-mobility)
-    If you reference the outgoing circuit, remove the charging stations behind it from the sum.
+- For devices connected in series, only the devices closer to the sub-distribution board or the building connection are relevant. (Example: e-mobility)
+    If you reference the outgoing circuit, make sure to remove the charging stations behind it from the sum.
 
 
-![Virtual meters – Figure 3](/img/konfiguration-virtuelle-zaehler/03.png)
+![Virtual meters – figure 3](/img/konfiguration-virtuelle-zaehler/03.png)

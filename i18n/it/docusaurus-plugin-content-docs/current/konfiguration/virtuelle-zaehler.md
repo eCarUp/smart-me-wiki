@@ -12,11 +12,11 @@ Con i contatori virtuali è possibile eseguire operazioni matematiche su più co
 
 Per i contatori reali da cui crei il contatore virtuale, così come per il contatore virtuale stesso, ti servono licenze Professional.
 
-## Scopo d'impiego
+## Scopo di utilizzo
 
-I contatori virtuali vengono utilizzati nel [Billing](/konfiguration/billing) per fatturare la tariffa solare.
+I contatori virtuali vengono utilizzati nel [Billing](/konfiguration/billing) per conteggiare la tariffa solare.
 
-- In questo modo si calcola la somma di tutti i consumatori (consumo totale nella tariffa solare).
+- Con essi si calcola la somma di tutte le utenze (consumo totale nella tariffa solare).
 
 - È possibile calcolare la somma di tutti gli impianti solari, se in un immobile questi vengono misurati separatamente.
 
@@ -53,7 +53,7 @@ Per creare un contatore virtuale, procedi come segue:
 
 - Successivamente occorre inserire un operatore e confermarlo con Invio (ad es. "+")
 
-- Aggiungi tutti i contatori desiderati e completali con l'operatore corrispondente.
+- Aggiungi tutti i contatori desiderati e completali con un operatore adeguato.
 
 
 Nota: se il contatore virtuale viene creato come contatore del consumo totale per il Billing, consigliamo di assegnargli il nome Consumo totale (Gesamtverbrauch).
@@ -75,9 +75,9 @@ Nota: se il contatore virtuale viene creato come contatore del consumo totale pe
 - abs() Valore assoluto
 
 
-## Creare un contatore del consumo totale per la tariffa solare e la tariffa batteria
+## Creare il contatore del consumo totale per la tariffa solare e la tariffa batteria
 
-La funzione Somma tutti i contatori elettrici (Summiere alle Stromzähler) è utile quando è presente un ambiente con molti contatori. Consente di calcolare la somma di tutti i contatori.
+La funzione Somma tutti i contatori elettrici (Summiere alle Stromzähler) è utile quando si è in presenza di un ambiente con molti contatori. Consente di calcolare la somma di tutti i contatori.
 
 - Inserisci un nome per il contatore virtuale.
 
@@ -85,7 +85,7 @@ La funzione Somma tutti i contatori elettrici (Summiere alle Stromzähler) è ut
 
 - Seleziona Somma tutti i contatori elettrici (Summieren alle Stromzähler).
 
-- Se alcuni contatori (ad es. solare o bilancio) non sono necessari, devono essere rimossi. Occorre rimuovere i contatori e i relativi "+".
+- Se determinati contatori (ad es. solare o di bilancio) non sono necessari, devono essere rimossi. Occorre rimuovere i contatori e i relativi "+".
 
 
 ![Contatori virtuali – Figura 2](/img/konfiguration-virtuelle-zaehler/02.png)
@@ -94,8 +94,8 @@ La funzione Somma tutti i contatori elettrici (Summiere alle Stromzähler) è ut
 
 - Occorre fare attenzione che la somma dei contatori copra esattamente il 100% delle potenze prelevate.
 
-- Per gli apparecchi in serie sono rilevanti solo quelli più vicini al quadro di distribuzione secondario o all'allacciamento dell'edificio. (Esempio mobilità elettrica)
-    Occorre fare attenzione che, se viene referenziata la partenza, le stazioni di ricarica situate a valle vengano rimosse dalla somma.
+- Nel caso di apparecchi in serie, sono rilevanti solo gli apparecchi più vicini alla sottodistribuzione o all'allacciamento dell'edificio. (Esempio mobilità elettrica)
+    Occorre fare attenzione che, se si fa riferimento alla linea in partenza, le stazioni di ricarica situate a valle vengano rimosse dalla somma.
 
 
 ![Contatori virtuali – Figura 3](/img/konfiguration-virtuelle-zaehler/03.png)

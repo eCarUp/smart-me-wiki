@@ -1,53 +1,53 @@
 ---
 title: 'Bexio'
 slug: '/drittsysteme/bexio'
-description: 'Vous avez besoin d''un abonnement smart-me Professional pour pouvoir établir des décomptes des coûts énergétiques.'
+description: 'Vous avez besoin d''un abonnement smart-me Professional pour pouvoir établir des décomptes des frais d''énergie.'
 sidebar_label: 'Bexio'
 ---
 ### Prérequis
 
-Vous avez besoin d'un abonnement smart-me Professional pour pouvoir établir des décomptes des coûts énergétiques. 
+Vous avez besoin d'un abonnement smart-me Professional pour pouvoir établir des décomptes des frais d'énergie. 
 
 smart-me Billing permet d'importer automatiquement les factures dans Bexio. Bexio est un logiciel de gestion d'entreprise. Plus d'informations : [https://www.bexio.com/](https://www.bexio.com/)
 
 Fonctions
 
 - Gestion des clients dans Bexio : smart-me Billing reprend le fichier clients de Bexio
-- Exportation des factures : les décomptes des coûts énergétiques peuvent être établis, envoyés et gérés dans Bexio. 
-- Rapprochement automatique des paiements / rappels automatiques
+- Exportation des factures : les décomptes des frais d'énergie peuvent être établis, envoyés et gérés dans Bexio. 
+- Rapprochement automatique des paiements / rappel automatique
 
 
-![Bexio – figure 1](/img/drittsysteme-bexio/01.jpg)
+![Bexio – Figure 1](/img/drittsysteme-bexio/01.jpg)
 
 ### 1\. Activer Bexio
 
 1.  Ouvrez smart-me Billing
-2.  Sélectionnez « Configuration » (« Konfiguration ») puis l'immeuble
-3.  Sous « Exportation vers un tiers » (« Export zu Drittanbieter »), sélectionnez Bexio
-4.  Cliquez sur « Connexion » (« Login ») et connectez-vous à Bexio
-5.  Cliquez sur « Enregistrer » (« speichern »)
-6.  Attendez que « Connexion ok » (« Login ok ») apparaisse en vert (cela prend parfois 1-2 minutes)
+2.  Sélectionnez « Configuration » ("Konfiguration") et l'immeuble
+3.  Sous « Exportation vers un fournisseur tiers » ("Export zu Drittanbieter"), sélectionnez Bexio
+4.  Cliquez sur Login et connectez-vous à Bexio
+5.  Cliquez sur « Enregistrer » ("speichern")
+6.  Attendez que « Login ok » (vert) s'affiche (cela peut prendre 1-2 minutes)
 
 - Titre de la facture (Rechnungstitel) : le titre de la facture dans Bexio
 - Langue de la facture (Sprache der Rechnung) : la langue à utiliser dans Bexio pour la facture.
 - Compte pour les écritures Bexio (Konto für Bexio-Buchungen) : le compte Bexio auquel les positions doivent être attribuées.
 
 
-![Bexio – figure 2](/img/drittsysteme-bexio/02.jpg)
+![Bexio – Figure 2](/img/drittsysteme-bexio/02.jpg)
 
 ### 2\. Attribuer les locataires
 
 <div className="row">
 <div className="col col--4">
 
-1.  Sélectionnez « Configuration » (« Konfiguration ») puis un appartement
-2.  Sous « Adresse de facturation » (« Rechnungsadresse »), cliquez sur « Ajouter » (« Hinzufügen »)
+1.  Sélectionnez « Configuration » ("Konfiguration") et un appartement
+2.  Sous « Adresse de facturation » ("Rechnungsadresse"), cliquez sur « Ajouter » ("Hinzufügen")
 3.  Sélectionnez le contact dans Bexio
 
 </div>
 <div className="col col--8 bild--mitte">
 
-![Bexio – figure 3](/img/drittsysteme-bexio/03.jpg)
+![Bexio – Figure 3](/img/drittsysteme-bexio/03.jpg)
 
 </div>
 </div>
@@ -59,14 +59,14 @@ Fonctions
 
 Établissez les factures sur un immeuble
 
-\-> Les factures sont automatiquement exportées vers Bexio.
+\-> Les factures sont exportées automatiquement vers Bexio.
 
-smart-me Billing reprend le numéro de facture de Bexio (exemple : RE-1570 correspond dans smart-me à la facture portant le numéro 1570)
+smart-me Billing reprend le numéro de facture de Bexio (exemple : RE-1570 correspond dans smart-me à la facture numéro 1570)
 
 </div>
 <div className="col col--8 bild--mitte">
 
-![Bexio – figure 4](/img/drittsysteme-bexio/04.jpg)
+![Bexio – Figure 4](/img/drittsysteme-bexio/04.jpg)
 
 </div>
 </div>
@@ -75,32 +75,32 @@ smart-me Billing reprend le numéro de facture de Bexio (exemple : RE-1570 corre
 
 Les factures ont maintenant été créées dans Bexio et peuvent être traitées.
 
-1.  Connectez-vous à Bexio
-2.  Ouvrez les factures
+1.  Se connecter à Bexio
+2.  Ouvrir les factures
 
-![Bexio – figure 5](/img/drittsysteme-bexio/05.jpg)
+![Bexio – Figure 5](/img/drittsysteme-bexio/05.jpg)
 
 Exemple d'une facture d'électricité exportée
 
-![Bexio – figure 6](/img/drittsysteme-bexio/06.jpg)
+![Bexio – Figure 6](/img/drittsysteme-bexio/06.jpg)
 
-Exemple d'une facture VEWA exportée
+Exemple d'une facture DIFEE exportée
 
-![Bexio – figure 7](/img/drittsysteme-bexio/07.png)
+![Bexio – Figure 7](/img/drittsysteme-bexio/07.png)
 
 ### 5\. Configuration
 
 <div className="row">
 <div className="col col--5">
 
-Sous Paramètres >> Tous les paramètres >> Comptabilité (Einstellungen >> Alle Einstellungen >> Buchhaltung)
+Sous Paramètres >> Tous les paramètres >> Comptabilité
 
-Vérifiez que la tuile Taux d'imposition (Steuersätze) est visible.
+Vérifier que la tuile Taux d'imposition est visible.
 
 </div>
 <div className="col col--7 bild--mitte">
 
-![Bexio – figure 8](/img/drittsysteme-bexio/08.png)
+![Bexio – Figure 8](/img/drittsysteme-bexio/08.png)
 
 </div>
 </div>
@@ -117,25 +117,25 @@ Inclus.
 </div>
 <div className="col col--7 bild--mitte">
 
-![Bexio – figure 9](/img/drittsysteme-bexio/09.png)
+![Bexio – Figure 9](/img/drittsysteme-bexio/09.png)
 
 </div>
 </div>
 
-### 5\. Gestion des erreurs
+### 5\. Traitement des erreurs
 
 account\_id \[Diese Eingabe ist nicht korrekt.\]
 Le compte pour les écritures Bexio n'est pas valable. Il faut utiliser un compte Bexio sur lequel des factures peuvent également être comptabilisées. 
 
 tax\_id \[Diese Eingabe ist nicht korrekt.\]
 Aucun taux d'imposition valable n'a été trouvé pour une position de la facture.
-\- Vérifiez que les taux d'imposition pour tous les taux utilisés (0%, 8.1%, 2.6%,...) existent dans Bexio et sont valables
+\- Vérifiez que tous les taux d'imposition utilisés (0%, 8.1%, 2.6%,...) existent et sont valables dans Bexio
 \- Assurez-vous que tous les taux de TVA pertinents sont attribués au formulaire 303.
-Si ce n'est pas le cas, créez-en des supplémentaires pour chaque taxe.
-\--> Aperçu Paramètres --> Comptabilité --> Taux d'imposition --> Modifier la TVA (Übersicht Einstellungen --> Buchhaltung --> Steuersätze --> Mehrwertsteuer bearbeiten)
+Si ce n'est pas le cas, créez-en un supplémentaire pour chaque taxe.
+\--> Aperçu Paramètres --> Comptabilité --> Taux d'imposition --> Modifier la TVA
 
 Aucune adresse Bexio trouvée pour l'utilisateur (Keine Bexio adresse für Benutzer gefunden)
-Aucun utilisateur Bexio ou un utilisateur Bexio non valable a été attribué au locataire. Veuillez attribuer un utilisateur au locataire (voir ci-dessus : 2. Attribuer les locataires)
+Aucun utilisateur Bexio, ou un utilisateur Bexio non valable, a été attribué au locataire. Veuillez attribuer un utilisateur au locataire (voir ci-dessus : 2. Attribuer les locataires)
 
 &#123;"error\_code":422,"message":"The form could not be saved due to the following errors:","errors":\["positions: 0 \[account\_id \[Diese Eingabe ist nicht korrekt.\]\]"\]&#125;
 
@@ -145,17 +145,17 @@ Aucun utilisateur Bexio ou un utilisateur Bexio non valable a été attribué au
 
 Dans smart-me, une taxe est déjà incluse dans les paramètres, p. ex. 8.1%. 
 
-Dans Bexio, rien n'est configuré sous Paramètres (en haut à droite) / Tous les paramètres / Comptabilité / Paramètres de base TVA (Einstellungen / Alle Einstellungen / Buchhaltung / Grundeinstellung MWST).
+Dans Bexio, rien n'est configuré sous Paramètres (en haut à droite) / Tous les paramètres / Comptabilité / Paramètres de base TVA.
 
 Possibilité : indiquer 0% dans smart-me.
 
 **Solution 2 :**
 
-Dans smart-me, sélectionner 3400 pour l'exportation (compte pour les écritures Bexio).
+Dans l'exportation smart-me, sélectionner 3400 (compte pour les écritures Bexio).
 
-Les particuliers peuvent créer un compte 3680 Autres produits
+Les particuliers peuvent créer un compte 3680 Autres revenus (Sonstige Erlöse)
 
-![Bexio – figure 10](/img/drittsysteme-bexio/10.png)
+![Bexio – Figure 10](/img/drittsysteme-bexio/10.png)
 
 No tax in bexio found for 0%
 

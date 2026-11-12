@@ -12,9 +12,9 @@ sidebar_label: 'elmoove'
 
 Elmoove è un'azienda svizzera che dal 2017 si occupa di e-mobility, e-micromobility e sistemi di gestione dell'energia.
 
-La mooveBar è il prodotto più innovativo tra le soluzioni di ricarica nel mercato delle e-bike. Grazie alla sua struttura modulare, può essere impiegata per conteggi energetici qualificati negli immobili. La mooveBar è dotata di 4 prese, alle quali è possibile collegare qualsiasi caricabatterie. Le prese sono permanentemente prive di tensione e devono essere abilitate tramite tessere RFID. In questo modo si garantisce che nessuno possa ricaricare il proprio veicolo senza autorizzazione. 
+La mooveBar è il prodotto più innovativo tra le soluzioni di ricarica nel mercato delle e-bike. Grazie alla sua struttura modulare, può essere impiegata per conteggi qualificati dell'energia negli immobili. La mooveBar è dotata di 4 prese, alle quali è possibile collegare qualsiasi caricabatterie. Le prese sono permanentemente senza tensione e devono essere abilitate tramite tessere RFID. In questo modo si garantisce che nessuno possa ricaricare il proprio veicolo senza autorizzazione. 
 
-Per un'integrazione riuscita, la stazione può essere configurata dalla ditta elmoove GmbH. 
+Per un'integrazione corretta, la stazione può essere configurata dalla ditta elmoove GmbH. 
 
 Per un'offerta, le informazioni necessarie sono disponibili in qualsiasi momento sul sito web di elmoove [www.elmoove.ch](http://www.elmoove.ch). 
 

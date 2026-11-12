@@ -1,10 +1,10 @@
 ---
-title: 'Note di rilascio firmware'
+title: 'Note di rilascio del firmware'
 slug: '/news/firmware-release-notes'
 description: 'Pico v0.0.57-r57 Data: 11.9.2026'
-sidebar_label: 'Note di rilascio firmware'
+sidebar_label: 'Note di rilascio del firmware'
 ---
-## Note di rilascio firmware
+## Note di rilascio del firmware
 
 ### Pico
 
@@ -13,9 +13,9 @@ sidebar_label: 'Note di rilascio firmware'
 
 Bug:
 
-- Corretto: dopo una pausa, la transazione della stazione Pico inattiva resta aperta
+- Correzione: dopo una pausa, la stazione Pico resta inattiva e la transazione rimane aperta
 
-- Corretto lo scatto errato per sovraccarico della protezione da sovracorrente al 130%
+- Correzione dell'intervento errato per sovraccarico della protezione da sovracorrente al 130%
 
 </details>
 
@@ -24,7 +24,7 @@ Bug:
 
 Bug
 
-- EM-406: Migliorati UART e watchdog
+- EM-406: miglioramento di UART e watchdog
 
 - Correzione rapida della modalità WiFi AP
 
@@ -44,45 +44,45 @@ Bug:
 
 Funzionalità
 
-- Visualizzazione della schermata «in attesa di corrente» ("waiting for current") quando la gestione del carico non può assegnare corrente a una stazione
+- Visualizzazione della schermata "waiting for current" quando la gestione del carico non può assegnare corrente a una stazione
 
 - Visualizzazione di un avviso sullo schermo e nel cloud quando il CP è a 0V
 
-- Visualizzazione di un errore sullo schermo quando la comunicazione con il Meter-SOM non è riuscita
+- Visualizzazione di un errore sullo schermo quando la comunicazione Meter-SOM non è riuscita
 
-- Corrente minima predefinita modificata a 8A e car ID disattivato per impostazione predefinita
+- Corrente minima predefinita portata a 8A e car ID disattivato per impostazione predefinita
 
-- EM-348: Implementazione del processo di installazione delle tessere RFID
+- EM-348: implementazione della procedura di installazione delle carte RFID
 
-- EM-319: L'avviso di surriscaldamento non viene più mostrato sul display, ma solo nel cloud
+- EM-319: l'avviso di surriscaldamento non viene più mostrato sul display, ma solo nel cloud
 
 - Ricarica monofase
 
 Bug:
 
-- EM-380: I nodi mesh Pico non si aggiungono al gruppo di gestione del carico
+- EM-380: i nodi mesh Pico non entrano nel gruppo di gestione del carico
 
-- EM-396: Comportamento offline errato della gestione del carico
+- EM-396: comportamento offline errato della gestione del carico
 
-- EM-379: Il bilanciamento della corrente non funziona in un gruppo con una stazione monofase
+- EM-379: il bilanciamento della corrente non funziona in un gruppo con una stazione monofase
 
-- Errore di comunicazione SPI del Meter-SOM (dovrebbe correggere la comunicazione con il Meter-SOM dopo un riavvio)
+- Errore di comunicazione SPI del Meter-SOM (dovrebbe correggere la comunicazione Meter-SOM dopo un riavvio)
 
-- Corretto un bug nella risoluzione DNS (WiFi)
+- Correzione di un bug nella risoluzione DNS (WiFi)
 
-- Corretto il tempo di attesa PLC (car ID)
+- Correzione del tempo di attesa PLC (car ID)
 
-- Corretta la temporizzazione della macchina a stati di ricarica
+- Correzione delle tempistiche della macchina a stati di ricarica
 
-- La corrente viene impostata a 0A prima di sbloccare il cavo o di eseguire un riavvio
+- Impostazione della corrente a 0A prima di sbloccare il cavo o di eseguire un riavvio
 
-- Attesa che il modulo WiFi sia avviato e operativo prima di eseguire qualsiasi azione (ad es. accendere il relè). Questo dovrebbe evitare problemi durante l'aggiornamento dell'ESP32.
+- Attesa che il modulo WiFi sia completamente operativo prima di eseguire qualsiasi azione (ad es. attivare il relè). Questo dovrebbe evitare problemi durante l'aggiornamento dell'ESP32.
 
 - La modalità Access Point (installazione) a volte non si avvia
 
 - Riavvio del modulo WiFi dopo 5 min di inattività del controller
 
-- Corretto il troncamento dei pacchetti UDP a 1 byte negli aggiornamenti Arm paralleli inoltrati tramite mesh
+- Correzione del troncamento dei pacchetti UDP a 1 byte negli aggiornamenti Arm paralleli inoltrati tramite mesh
 
 - Verifica all'avvio della presenza dei file firmware necessari
 
@@ -90,13 +90,13 @@ Bug:
 
 - EM-368: Lexus interrompe la ricarica dopo 30 min
 
-- EM-367: Attivazione con RFID – il veicolo passa prima in stato di errore
+- EM-367: attivazione con RFID – il veicolo passa prima in stato di errore
 
-- EM-366: La stazione interrompe la ricarica quando il modulo WiFi si riavvia a causa del timeout offline
+- EM-366: la stazione interrompe la ricarica quando il modulo WiFi si riavvia a causa del timeout offline
 
-- Corretto un panic da overflow di interi nel calcolo del tempo in display\_module.rs
+- Correzione di un panic da overflow di interi nel calcolo del tempo in display\_module.rs
 
-- EM-362: Impossibile connettersi all'AP di installazione
+- EM-362: impossibile connettersi all'AP di installazione
 
 - WiFi: disaccoppiamento del contesto di esecuzione dei timer
 
@@ -123,7 +123,7 @@ Correzioni di bug
 
 Correzioni di bug
 
-- EM-336: Corretto un problema di installazione WLAN
+- EM-336: correzione di un problema di installazione WLAN
 
 </details>
 
@@ -132,15 +132,15 @@ Correzioni di bug
 
 Funzionalità
 
-- EM-281: Gestione del carico: liberata la corrente riservata (6A) per le stazioni in pausa
+- EM-281: gestione del carico: liberazione della corrente riservata (6A) per le stazioni in pausa
 
-- EM-172: Gestione del carico: la corrente alla quale si passa dalla ricarica trifase a quella monofase è ora regolabile nel cloud
+- EM-172: gestione del carico: la corrente alla quale si passa dalla ricarica trifase a quella monofase è ora regolabile nel cloud
 
-- EM-172: Gestione del carico: corrente massima (per stazione) per la ricarica monofase
+- EM-172: gestione del carico: corrente massima (per stazione) per la ricarica monofase
 
-- EM-329: Gestione del carico: è ora possibile passare dalla ricarica monofase a quella trifase. L'impostazione per attivarla / disattivarla si trova nel cloud
+- EM-329: gestione del carico: è ora possibile passare dalla ricarica monofase a quella trifase. L'impostazione per attivarla / disattivarla si trova nel cloud
 
-- Installazione: la WLAN in modalità di installazione ha ora una password ("smart-me"), per Pico >= 7005567 e (7003152 - 7005229)
+- Installazione: la WLAN in modalità di installazione ha ora una password ("smart-me"), per i Pico >= 7005567 e (7003152 - 7005229)
 
 Bug
 
@@ -151,7 +151,7 @@ Bug
 <details id="pico-v0-0-30-r30">
 <summary>Pico v0.0.30-r30 · 03.10.2024</summary>
 
-- EM-320 Corretta la possibile perdita di transazioni di ricarica durante la comunicazione (soprattutto mobile)
+- EM-320 Correzione di una possibile perdita di transazioni di ricarica nella comunicazione (soprattutto mobile)
 
 </details>
 
@@ -160,13 +160,13 @@ Bug
 
 Funzionalità
 
-- EM-245: Gestione del carico: ritorno da monofase a trifase anche se nel gruppo ci sono veicoli in ricarica.
+- EM-245: gestione del carico: ritorno da monofase a trifase anche se nel gruppo ci sono veicoli in ricarica.
 
 Bug
 
-- EM-311: Adeguati i limiti di temperatura
+- EM-311: adeguamento dei limiti di temperatura
 
-- EM-307: Migliorato il comportamento offline
+- EM-307: comportamento offline migliorato
 
 </details>
 
@@ -177,11 +177,11 @@ Funzionalità:
 
 - Nuovo flusso e nuova animazione delle immagini di autorizzazione (RFID, CardId) (EM-264)
 
-- Timeout PLC rimosso (modificato da 25s a 3s)
+- Timeout PLC rimosso (portato da 25s a 3s)
 
 Bug
 
-- Migliorato il rilevamento offline
+- Rilevamento offline migliorato
 
 - Miglioramenti WiFi
 
@@ -196,17 +196,17 @@ Funzionalità:
 
 Bug
 
-- Migliorata la connessione mobile
+- Connessione mobile migliorata
 
-- Visualizzazione della schermata «Non riuscito» ("Failed") quando l'autorizzazione con tessera RFID non è andata a buon fine
+- Visualizzazione della schermata "Failed" quando l'autorizzazione con carta RFID non è riuscita
 
-- Gestione del carico: l'indice di squilibrio della corrente calcolato restituiva un valore errato
+- Gestione del carico: l'indice di squilibrio di corrente calcolato restituisce un valore errato
 
-- Gestione del carico: in una determinata condizione il gestore del carico non aumenta la corrente della stazione
+- Gestione del carico: in determinate condizioni il gestore del carico non aumenta la corrente della stazione
 
-Tecnico:
+Aspetti tecnici:
 
-- Aggiornamento dell'algoritmo AES software
+- Aggiornamento dell'algoritmo software AES
 
 </details>
 
@@ -228,7 +228,7 @@ Bug
 
 Bug
 
-- Corretto un problema del dispositivo di blocco con temperature molto basse (sotto i -20 gradi C)
+- Correzione di un problema del dispositivo di blocco a temperature molto basse (sotto i -20 gradi C)
 
 </details>
 
@@ -237,9 +237,9 @@ Bug
 
 Funzionalità
 
-- Interruzione della ricarica alla disattivazione della modalità di calibrazione (per la convalida delle transazioni in produzione)
+- Interruzione della ricarica alla disattivazione della modalità di calibrazione (per la validazione delle transazioni in produzione)
 
-- Ampliata la tabella di routing del modulo WiFi (supporto fino a 200 stazioni per gruppo di gestione del carico anziché 20)
+- Ampliamento della tabella di routing del modulo WiFi (supporto fino a 200 stazioni per gruppo di gestione del carico invece di 20)
 
 </details>
 
@@ -250,7 +250,7 @@ Funzionalità
 
 -  Visualizzazione della corrente utilizzata e consentita nella schermata della potenza
 
--  Test RCD ogni 24h nello stato A
+-  Esecuzione del test RCD ogni 24h nello stato A
 
 -  Utilizzo di un baudrate inferiore se l'aggiornamento WiFi non riesce
 
@@ -259,14 +259,14 @@ Funzionalità
 <details id="pico-v0-0-19-r19">
 <summary>Pico v0.0.19-r19 · 08.05.2023</summary>
 
--  Corretto un bug nella macchina a stati di ricarica (attesa nello stato B1 finché è presente un PWM prima di accendere il relè)
+-  Correzione di un bug nella macchina a stati di ricarica (attesa nello stato B1 finché è presente un PWM prima di attivare il relè)
 
 </details>
 
 <details id="pico-v0-0-18-r18">
 <summary>Pico v0.0.18-r18 · 03.04.2023</summary>
 
--  Buffer per le immagini (meno letture dalla memoria flash)
+-  Bufferizzazione delle immagini (meno letture dalla memoria flash)
 
 -  RSSI (qualità del segnale) per il supporto WiFi e mobile
 
@@ -277,8 +277,8 @@ Funzionalità
 <details id="pico-v0-0-17-r17">
 <summary>Pico v0.0.17-r17 · 17.02.2023</summary>
 
-- Modifiche alla temporizzazione dell'erogazione di potenza quando il veicolo è pronto
-    (supporto ampliato dei tipi di veicolo)
+- Modifiche delle tempistiche di attivazione della potenza quando il veicolo è pronto
+    (supporto migliorato dei tipi di veicolo)
 
 - Ottimizzazioni interne
 
@@ -294,7 +294,7 @@ Funzionalità
 <details id="pico-version-0-0-15-r15">
 <summary>Versione 0.0.15-r15 · 12.12.2022</summary>
 
-- Migliorato il distacco del carico del Pico per le stazioni singole
+- Miglioramento del distacco del carico Pico per le stazioni singole
 
 - Ottimizzazioni interne
 
@@ -324,7 +324,7 @@ Funzionalità
 <details id="pico-version-0-0-11-r11">
 <summary>Versione 0.0.11-r11 · 11.10.2022</summary>
 
-- Migliorati avvisi ed errori nel cloud
+- Miglioramento di avvisi ed errori nel cloud
 
 - Correzione di bug: corrente dinamica della gestione del carico
 
@@ -333,17 +333,17 @@ Funzionalità
 <details id="pico-version-0-0-10-r10">
 <summary>Versione 0.0.10-r10 · 23.09.2022</summary>
 
-- Correzione di bug: rilevamento CarID
+- Correzione di bug: rilevamento del CarID
 
 </details>
 ### Telstar 80A / Telstar CT
 
 <details id="telstar-version-9-v18-and-v19" open>
-<summary>Versione 9 (V18 e V19) · 19.09.2023 (il beta test è durato fino al 08.2024)</summary>
+<summary>Versione 9 (V18 e V19) · 19.09.2023 (beta test fino al 08.2024)</summary>
 
 Correzioni di bug:
 
- - Corretto Modbus TCP (problema del limite di 255 connessioni)
+ - Correzione di Modbus TCP (problema del limite di 255 connessioni)
 
 </details>
 
@@ -352,7 +352,7 @@ Correzioni di bug:
 
 Correzioni di bug:
 
- - Corretto in casi particolari l'arresto di "start wifi" dopo la disconnessione dall'AP
+ - Correzione: in casi particolari, dopo la disconnessione dall'AP lo "start wifi" si interrompeva
 
 </details>
 
@@ -361,7 +361,7 @@ Correzioni di bug:
 
 Correzioni di bug:
 
- - Timeout Modbus TCP (i client inattivi vengono disconnessi dopo 5min)
+ - Timeout Modbus TCP (i client inattivi vengono disconnessi dopo 5 min)
 
  - Modbus TCP: numero massimo di client limitato a 4
 
@@ -369,9 +369,9 @@ Correzioni di bug:
 
  - Connessione alla rete mesh quando la connessione al normale AP WiFi fallisce 16 volte
 
-Tecnico:
+Aspetti tecnici:
 
- - Aggiornamenti interni per ESP
+ - Aggiornamenti interni per l'ESP
 
 </details>
 
@@ -380,7 +380,7 @@ Tecnico:
 
 Correzioni di bug:
 
- - Heap overflow Modbus TCP (all'avvio di Modbus)
+ - Heap overflow di Modbus TCP (all'avvio di Modbus)
 
  - Deadlock nella risoluzione DNS con WiFi senza connessione a Internet
 
@@ -400,7 +400,7 @@ Correzioni di bug:
 
 Correzioni di bug:
 
- - Corretto un bug di Modbus TCP
+ - Correzione di un bug di Modbus TCP
 
 </details>
 

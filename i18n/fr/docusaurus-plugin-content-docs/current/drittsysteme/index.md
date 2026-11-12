@@ -1,10 +1,10 @@
 ---
 title: 'Systèmes tiers'
 slug: '/drittsysteme'
-description: 'smart-me est un système ouvert de gestion de l''énergie.'
+description: 'smart-me est un système de gestion de l''énergie ouvert.'
 sidebar_label: 'Systèmes tiers'
 ---
-smart-me est un système ouvert de gestion de l'énergie. Avec smart-me, les valeurs de mesure d'électricité, d'eau, de gaz et de chaleur peuvent être transférées dans le cloud. Pour le décompte et l'optimisation, nous proposons quelques outils dans notre portail. Vous pouvez cependant aussi transférer les données énergétiques dans des systèmes tiers et utiliser leurs outils.
+smart-me est un système de gestion de l'énergie ouvert. Avec smart-me, les valeurs de mesure d'électricité, d'eau, de gaz et de chaleur peuvent être transférées dans le cloud. Pour le décompte et l'optimisation, nous proposons quelques outils dans notre portail. Vous pouvez toutefois aussi transférer les données énergétiques dans des systèmes tiers et utiliser leurs outils.
 
 ### Logiciels de pilotage
 
@@ -32,7 +32,7 @@ smart-me est un système ouvert de gestion de l'énergie. Avec smart-me, les val
 
 </Kacheln>
 
-### Logiciels de décompte du chauffage et des charges accessoires
+### Logiciels de décompte des frais de chauffage et des charges accessoires
 
 <Kacheln min="11rem">
 
@@ -106,7 +106,7 @@ smart-me est un système ouvert de gestion de l'énergie. Avec smart-me, les val
 
 Découvrez si vous avez besoin d'un partenaire, expliqué simplement.
 
-<Video src="fb33ML8YTYA" title="Vidéo YouTube, webinaire &quot;Planification d'un RCP&quot;" />
+<Video src="fb33ML8YTYA" title="Vidéo YouTube, webinaire &quot;Planification d'un RCP (regroupement dans le cadre de la consommation propre)&quot;" />
 
 ### Webinaire « Exporter les données énergétiques »
 

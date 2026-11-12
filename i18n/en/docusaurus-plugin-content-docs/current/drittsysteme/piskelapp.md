@@ -8,12 +8,12 @@ sidebar_label: 'piskelapp'
 <div className="col col--7">
 
 Our Pico charging station has a 32 × 32 pixel display that can show GIF animations.
-The smart-me web portal already includes a few preset GIFs, but you can also upload your own files to personalise your charging station even further.
+The smart-me web portal already offers a number of preset GIFs, but you can also upload your own files to personalise your charging station even further.
 
-The Piskel website makes this very easy. 
+This is easy to do with the Piskel website. 
 
 What is [Piskelapp.com](http://piskelapp.com)?
-Piskel is a free, web-based drawing program for creating pixel art and animated GIFs. It runs directly in the browser without installation and offers a real-time preview in which animations play back immediately. Alongside numerous drawing tools such as brush, fill tool, shapes and symmetry mode, you can design your own pixel images frame by frame. Finished animations can be exported as a GIF, a spritesheet or individual PNG files. 
+Piskel is a free, web-based drawing program for creating pixel art and animated GIFs. It runs directly in the browser without installation and offers a real-time preview in which animations can be played immediately. In addition to numerous drawing tools such as brush, fill tool, shapes or symmetry mode, you can design your own pixel images frame by frame. Finished animations can be exported as a GIF, a spritesheet or individual PNG files. 
 
 </div>
 <div className="col col--5 bild--mitte">
@@ -23,12 +23,12 @@ Piskel is a free, web-based drawing program for creating pixel art and animated 
 </div>
 </div>
 
-### How to create your own GIF
+### Instructions: creating your own GIF
 
 <div className="row">
 <div className="col col--7">
 
-- Open [piskelapp.com](https://www.piskelapp.com/) and click "Create Sprite" in the top right corner.
+- Open [piskelapp.com](https://www.piskelapp.com/) and click "Create Sprite" at the top right.
 
 - You will find the settings on the right – set the size to 32 × 32 pixels.
 
@@ -43,13 +43,13 @@ Piskel is a free, web-based drawing program for creating pixel art and animated 
 <div className="row">
 <div className="col col--7">
 
-- On the left, select the drawing tool and a colour.
+- Select the drawing tool you want and a colour on the left.
 
-- Draw your design in the work area.
+- Draw your desired motif in the work area.
 
-    (If you only want a static image, you can now export it as a PNG.)
+    (If you only want a static motif, you can now export it as a PNG.)
 
-- For an animation, add a new frame and draw the movement you want.
+- For an animation, add a new frame and draw the desired movement.
 
 - Export your work as a GIF.
 
@@ -65,6 +65,6 @@ Piskel is a free, web-based drawing program for creating pixel art and animated 
 </div>
 </div>
 
-### How to convert a GIF
+### Instructions: converting a GIF
 
 Upload a GIF via "Import" and resize it to 32 × 32 pixels. You can then export it as a GIF again and load it onto your Pico charging station in the smart-me web portal.

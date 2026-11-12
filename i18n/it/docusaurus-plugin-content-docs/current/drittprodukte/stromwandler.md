@@ -1,28 +1,28 @@
 ---
 title: 'Trasformatori di corrente e accessori per Telstar CT'
 slug: '/drittprodukte/stromwandler'
-description: 'Nessuno di questi prodotti è distribuito dalla smart-me AG né offerto come accessorio al momento dell''acquisto.'
+description: 'Nessuno di questi prodotti è distribuito da smart-me AG né offerto come accessorio al momento dell''acquisto.'
 sidebar_label: 'Trasformatori di corrente'
 ---
 Avviso importante:
 
-Nessuno di questi prodotti è distribuito dalla smart-me AG né offerto come accessorio al momento dell'acquisto. Acquista questi prodotti direttamente presso il produttore.
+Nessuno di questi prodotti è distribuito da smart-me AG né offerto come accessorio al momento dell'acquisto. Acquista questi prodotti direttamente presso il produttore.
 
-Qui di seguito trovi un elenco di prodotti consigliati. smart-me non guadagna nulla con i prodotti consigliati e non fornisce alcuna garanzia per essi. È sempre possibile utilizzare altri prodotti. In tal caso occorre sempre assicurarsi che soddisfino i requisiti del rispettivo prodotto, in questo caso del [contatore trifase Telstar CT](/produkte/telstar-ct).
+Di seguito trovi un elenco di prodotti consigliati. smart-me non guadagna nulla dai prodotti consigliati e non si assume alcuna garanzia per essi. È sempre possibile utilizzare altri prodotti. Occorre però sempre verificare che soddisfino i requisiti del rispettivo prodotto, in questo caso del [contatore trifase Telstar CT](/produkte/telstar-ct).
 
 Lo scopo dei consigli è offrire ai nostri partner la possibilità di trovare in modo semplice ed efficiente determinati prodotti, quando non ne conoscono ancora nessuno.
 
 ## Trasformatori di corrente tarati a fini di fatturazione
 
-Se i contatori devono essere utilizzati per la fatturazione, occorrono trasformatori tarati che soddisfino almeno la classe 0.5 o inferiore.
+Se i contatori devono essere utilizzati per la fatturazione, servono trasformatori tarati che soddisfino almeno la classe 0.5 o inferiore.
 
 <Kacheln min="15rem">
 
-<Kachel bild="/img/drittprodukte-stromwandler/01.png" bildtext="Trasformatori di misura Pfiffner (tarati)" titel="Trasformatori di misura Pfiffner (tarati)" bildhoehe="8rem">
+<Kachel bild="/img/drittprodukte-stromwandler/01.png" bildtext="Pfiffner Messwandler (geeicht)" titel="Pfiffner Messwandler (geeicht)" bildhoehe="8rem">
 
 Paese di distribuzione: Svizzera
 
-Uso previsto: fini di fatturazione
+Scopo d'impiego: fatturazione
 
 Tipo: trasformatore di corrente chiuso tarato
 
@@ -31,23 +31,23 @@ Tipo: trasformatore di corrente chiuso tarato
 
 Fonte: [pfiffner-group.com](https://www.pfiffner-group.com/)
 
-**Fornitori**
+**Canali di acquisto**
 
-Pfiffner direttamente · Signor Samuel Gloor
+Pfiffner direttamente · Sig. Samuel Gloor
 
 +41 62 739 29 19 · [msns@pmw.ch](mailto:msns@pmw.ch)
 
 **Taratura a fini di fatturazione**
 
-La taratura deve essere richiesta specificamente o indicata al momento dell'ordinazione.
+La taratura deve essere richiesta espressamente o indicata al momento dell'ordine.
 
 </Kachel>
 
-<Kachel bild="/img/drittprodukte-stromwandler/02.png" bildtext="Trasformatori di misura Hager (tarati)" titel="Trasformatori di misura Hager (tarati)" bildhoehe="8rem">
+<Kachel bild="/img/drittprodukte-stromwandler/02.png" bildtext="Hager Messwandler (geeicht)" titel="Hager Messwandler (geeicht)" bildhoehe="8rem">
 
 Paese di distribuzione: Svizzera
 
-Uso previsto: fini di fatturazione
+Scopo d'impiego: fatturazione
 
 Tipo: trasformatore di corrente chiuso tarato
 
@@ -56,7 +56,7 @@ Tipo: trasformatore di corrente chiuso tarato
 
 Fonte: [hager.com](https://hager.com/)
 
-**Fornitori**
+**Canali di acquisto**
 
 Hager direttamente
 
@@ -64,15 +64,15 @@ Hager direttamente
 
 **Taratura a fini di fatturazione**
 
-La taratura deve essere richiesta specificamente o indicata al momento dell'ordinazione.
+La taratura deve essere richiesta espressamente o indicata al momento dell'ordine.
 
 </Kachel>
 
-<Kachel bild="/img/drittprodukte-stromwandler/03.png" bildtext="Trasformatori di misura Redur (tarati)" titel="Trasformatori di misura Redur (tarati)" bildhoehe="8rem">
+<Kachel bild="/img/drittprodukte-stromwandler/03.png" bildtext="Redur Messwandler (geeicht)" titel="Redur Messwandler (geeicht)" bildhoehe="8rem">
 
 Paese di distribuzione: Germania
 
-Uso previsto: fini di fatturazione
+Scopo d'impiego: fatturazione
 
 Tipo: trasformatore di corrente chiuso tarato
 
@@ -82,7 +82,7 @@ Fonte: [redur.de](https://www.redur.de/)
 
 **Taratura a fini di fatturazione**
 
-La taratura deve essere richiesta specificamente o indicata al momento dell'ordinazione.
+La taratura deve essere richiesta espressamente o indicata al momento dell'ordine.
 
 </Kachel>
 
@@ -92,51 +92,51 @@ La taratura deve essere richiesta specificamente o indicata al momento dell'ordi
 
 <Kacheln min="15rem">
 
-<Kachel bild="/img/drittprodukte-stromwandler/04.png" bildtext="Trasformatori apribili Optec" titel="Trasformatori apribili Optec" bildhoehe="8rem">
+<Kachel bild="/img/drittprodukte-stromwandler/04.png" bildtext="Optec Klapp-Wandler" titel="Optec Klapp-Wandler" bildhoehe="8rem">
 
 Paese di distribuzione: Svizzera
 
-Uso previsto: monitoraggio
+Scopo d'impiego: monitoraggio
 
-Tipo: trasformatore di corrente aperto
+Tipo: trasformatore di corrente apribile
 
-- Optec serie RX aperti
-- Optec serie KUW (apribili)
-- Optec serie SC-CT (apribili)
+- Optec serie RX apribili
+- Optec serie KUW (apribili a scatto)
+- Optec serie SC-CT (apribili a scatto)
 
 
-**Fornitore**
+**Canale di acquisto**
 
-Negozio online Optec
+Optec Online Shop
 
 Fonte: [optec.ch](https://www.optec.ch)
 
 </Kachel>
 
-<Kachel bild="/img/drittprodukte-stromwandler/05.png" bildtext="Sensori di corrente Optec" titel="Sensori di corrente Optec" bildhoehe="8rem">
+<Kachel bild="/img/drittprodukte-stromwandler/05.png" bildtext="Optec Stromsensoren" titel="Optec Stromsensoren" bildhoehe="8rem">
 
 Paese di distribuzione: Svizzera
 
-Uso previsto: monitoraggio
+Scopo d'impiego: monitoraggio
 
 Tipo: trasformatore di corrente chiuso
 
 - Optec serie RX chiusi
 
 
-**Fornitore**
+**Canale di acquisto**
 
-Negozio online Optec
+Optec Online Shop
 
 Fonte: [optec.ch](https://www.optec.ch)
 
 </Kachel>
 
-<Kachel bild="/img/drittprodukte-stromwandler/03.png" bildtext="Trasformatori di misura Redur (chiusi)" titel="Trasformatori di misura Redur (chiusi)" bildhoehe="8rem">
+<Kachel bild="/img/drittprodukte-stromwandler/03.png" bildtext="Redur Messwandler (geschlossen)" titel="Redur Messwandler (geschlossen)" bildhoehe="8rem">
 
 Paese di distribuzione: Germania
 
-Uso previsto: monitoraggio
+Scopo d'impiego: monitoraggio
 
 Tipo: trasformatore di corrente chiuso
 
@@ -146,13 +146,13 @@ Fonte: [redur.de](https://www.redur.de/)
 
 </Kachel>
 
-<Kachel bild="/img/drittprodukte-stromwandler/07.png" bildtext="Trasformatori di misura Redur (aperti)" titel="Trasformatori di misura Redur (aperti)" bildhoehe="8rem">
+<Kachel bild="/img/drittprodukte-stromwandler/07.png" bildtext="Redur Messwandler (offen)" titel="Redur Messwandler (offen)" bildhoehe="8rem">
 
 Paese di distribuzione: Germania
 
-Uso previsto: monitoraggio
+Scopo d'impiego: monitoraggio
 
-Tipo: trasformatore di corrente aperto
+Tipo: trasformatore di corrente apribile
 
 - Redur RSC Series
 
@@ -162,13 +162,13 @@ Fonte: [redur.de](https://www.redur.de/)
 
 </Kacheln>
 
-## Morsetti di sezionamento per trasformatori di misura
+## Morsetti sezionabili per trasformatori di misura
 
-Per sostituire facilmente un contatore, anche durante il funzionamento, si possono utilizzare morsetti di sezionamento per trasformatori di misura. Consentono di cortocircuitare le uscite dei trasformatori, in modo da non danneggiarli durante la sostituzione del contatore.
+Per sostituire facilmente un contatore, anche durante il funzionamento, si possono utilizzare morsetti sezionabili per trasformatori di misura. Consentono di cortocircuitare le uscite dei trasformatori, in modo da non danneggiarli durante la sostituzione del contatore.
 
 <Kacheln min="15rem">
 
-<Kachel bild="/img/drittprodukte-stromwandler/08.png" bildtext="Morsetti di sezionamento Phoenix" titel="Morsetti di sezionamento Phoenix" bildhoehe="8rem">
+<Kachel bild="/img/drittprodukte-stromwandler/08.png" bildtext="Phoenix Trennklemmen" titel="Phoenix Trennklemmen" bildhoehe="8rem">
 
 Tipo: montaggio su guida DIN
 
@@ -176,7 +176,7 @@ Tipo: montaggio su guida DIN
 
 Fonte: [phoenixcontact.com](http://www.phoenixcontact.com/)
 
-**Fornitori**
+**Canali di acquisto**
 
 Phoenix Contacts
 

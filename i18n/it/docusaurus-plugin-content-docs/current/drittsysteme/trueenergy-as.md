@@ -1,19 +1,19 @@
 ---
 title: 'TrueEnergy AS'
 slug: '/drittsysteme/trueenergy-as'
-description: 'L''app di TrueEnergy, insieme al modulo Kamstrup di smart-me, consente di controllare apparecchi e stazioni di ricarica per auto.'
+description: 'L''app di TrueEnergy, insieme al modulo Kamstrup di smart-me, consente il controllo di apparecchi terminali e stazioni di ricarica per auto.'
 sidebar_label: 'TrueEnergy AS'
 ---
 <div className="row">
 <div className="col col--7">
 
-L'app di TrueEnergy, insieme al modulo Kamstrup di smart-me, consente di controllare apparecchi e stazioni di ricarica per auto.
+L'app di TrueEnergy, insieme al modulo Kamstrup di smart-me, consente il controllo di apparecchi terminali e stazioni di ricarica per auto.
 
 La tua auto è sempre carica quanto serve al momento giusto e si ricarica al prezzo più conveniente, in base all'energia solare disponibile o il più rapidamente possibile.
 
-Allo stesso modo, anche apparecchi come luci e lavatrici possono essere controllati tramite IFTT.
+Allo stesso modo, anche apparecchi terminali come luci e lavatrici possono essere controllati tramite IFTT.
 
-Destinatari: Danimarca / case unifamiliari
+Gruppo target: Danimarca / case unifamiliari
 
 </div>
 <div className="col col--5 bild--mitte">
@@ -25,9 +25,9 @@ Destinatari: Danimarca / case unifamiliari
 
 Funzioni:
 
-- Ricarica dei veicoli elettrici in base al livello di carica, agli orari, ai prezzi migliori e all'energia solare disponibile.
+- Ricarica di veicoli elettrici in base allo stato di carica, agli orari, ai prezzi migliori e all'energia solare disponibile.
 
-- Controllo di apparecchi con IFTT in base ai prezzi dell'elettricità e agli orari
+- Controllo di apparecchi terminali con IFTT in base ai prezzi dell'elettricità e agli orari
 
 <div className="row">
 <div className="col col--6 bild--mitte">

@@ -12,33 +12,33 @@ vorheriger_schritt: konfiguration/wenndann-aktionen/alarme
 
 ### Requisito
 
-Per poter creare conteggi dell'elettricità secondo la legge tedesca sull'economia energetica (EnWG) è necessario un abbonamento smart-me Professional.
+Per poter creare conteggi dell'elettricità secondo la legge tedesca sull'economia energetica (EnWG) ti serve un abbonamento smart-me Professional.
 
-Questa pagina La guida attraverso il conteggio per l'**elettricità per gli inquilini in Germania** (Mieterstrom).
+Questa pagina ti guida nel conteggio per l'**elettricità per gli inquilini in Germania**.
 
 ## Configurare il conteggio passo dopo passo
 
-Ogni passo ha una propria pagina. Può seguirle in ordine (in fondo a ogni pagina è indicato come proseguire) oppure passare direttamente da qui al punto in cui si trova.
+Ogni passaggio ha una pagina dedicata. Puoi seguirli in ordine — in fondo a ogni pagina trovi come proseguire — oppure passare direttamente da qui al punto in cui ti trovi.
 
 <Ablauf land="de" bis="konfiguration/billing-deutschland/rechnung-erstellen" />
 
 ## Video tutorial
 
-Il nostro video tutorial Le spiega passo dopo passo le impostazioni aggiuntive necessarie.
+Il nostro video tutorial ti spiega passo dopo passo le impostazioni aggiuntive necessarie.
 
 <div className="row">
 <div className="col col--4">
 
-<Video src="KSCBESne84M" title="Video YouTube, webinar smartRED: Ecco come funziona l'elettricità per gli inquilini – Implementazione semplice e funzioni spiegate" />
+<Video src="KSCBESne84M" title="Video YouTube, webinar smartRED: come funziona l'elettricità per gli inquilini – implementazione semplice e funzioni spiegate" />
 
 Presentazione dell'elettricità per gli inquilini
 
 </div>
 <div className="col col--4">
 
-<Video src="wXGSibdoBR8" title="Video YouTube, il primo impianto di elettricità per gli inquilini di Ismaning della Körmer GmbH - Elettricità per gli inquilini con smartRED" />
+<Video src="wXGSibdoBR8" title="Video YouTube, il primo impianto di elettricità per gli inquilini di Ismaning della Körmer GmbH - elettricità per gli inquilini con smartRED" />
 
-Oggetto di riferimento
+Progetto di riferimento
 
 </div>
 <div className="col col--4">
@@ -55,12 +55,12 @@ Configurazione dei contatori per l'elettricità per gli inquilini
 
 ## Esempio di conteggio dell'elettricità per gli inquilini
 
-Un conteggio dell'elettricità per gli inquilini completamente configurato può presentarsi come segue: 
+Un conteggio dell'elettricità per gli inquilini completamente configurato può presentarsi così: 
 
 </div>
 <div className="col col--4 bild--mitte">
 
-<Embed src="https://drive.google.com/file/d/1MGD7-EFY5qNWxINhmGS3asAVvA4_C4Uw/preview" aspect="1.330" title="Drive, fattura di esempio elettricità per gli inquilini (Musterrechnung Mieterstrom.pdf)" />
+<Embed src="https://drive.google.com/file/d/1MGD7-EFY5qNWxINhmGS3asAVvA4_C4Uw/preview" aspect="1.330" title="Drive, Musterrechnung Mieterstrom.pdf" />
 
 Musterrechnung Mieterstrom.pdf
 

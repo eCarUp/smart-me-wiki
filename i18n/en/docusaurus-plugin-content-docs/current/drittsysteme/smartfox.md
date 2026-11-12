@@ -71,7 +71,7 @@ Complete [linking instructions](https://drive.google.com/file/d/1FaH_zWsVsDhH9CM
 <div className="row">
 <div className="col col--6">
 
-1.  [Find out the IP address of the smart-me meter](/schnittstellen/modbus-tcp#ip-adresse-mit-dns-name-ermitteln).
+1.  [Find out the IP address of the smart-me meter](/schnittstellen/modbus-tcp#finding-the-ip-address-using-the-dns-name).
 
 2.  Add an external device in SMARTFOX. (Select smart-me Telstar)
 

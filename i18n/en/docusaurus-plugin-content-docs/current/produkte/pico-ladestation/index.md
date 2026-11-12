@@ -40,7 +40,7 @@ Short video: Pico receives MID (2 min)
 
 - Integrated fault protection devices 30mA AC according to IEC60947-2 and 6mA DC IEC62955
 
-- German [calibration law certification](/planung/zertifizierungen-deutschland#calibration-law-eichrecht) (Art. no. 242070, 2402070/1)
+- German [calibration law certification](/planung/zertifizierungen-deutschland) (Art. no. 242070, 2402070/1)
 
 - Easy assembly (small and light), suitable for flat ribbon cable
 

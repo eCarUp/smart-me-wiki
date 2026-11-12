@@ -202,7 +202,7 @@ COM è il conduttore neutro, IN1 e IN2 devono essere alimentati con una tensione
 Attenzione:
 Il distacco del carico può essere cablato su tutte le Pico oppure, come minimo, su una per ogni gruppo di carico. Questa funzione è garantita anche senza connessione Internet.
 
-In alternativa, il distacco del carico può avvenire anche tramite la [gestione del carico multilivello](/konfiguration/multilevel-lastmanagement/mlm-konfigurieren#configurazione-del-distacco-del-carico) mediante i segnali di ingresso del contatore.
+In alternativa, il distacco del carico può avvenire anche tramite la [gestione del carico multilivello](/konfiguration/multilevel-lastmanagement/mlm-konfigurieren) mediante i segnali di ingresso del contatore.
 
 </div>
 <div className="col col--5 bild--mitte">

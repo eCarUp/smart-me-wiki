@@ -16,7 +16,7 @@ Ces recommandations ont pour but de permettre à nos partenaires de trouver simp
 
 <Kachel bild="/img/drittprodukte-standfuss-fundamente/01.png" bildtext="Pico Standfuss Fundamente" titel="Pico Standfuss Fundamente" href="/drittprodukte/standfuss-fundamente" bildhoehe="9rem" mittig />
 
-<Kachel bild="/img/produkte-pico-ladestation-pico-standfuss/13.png" bildtext="Pico Standfuss – One Pole" titel="Pico Standfuss – One Pole" href="/produkte/pico-ladestation/pico-standfuss#onepole-pro-für-pico-ladestation" bildhoehe="9rem" mittig>
+<Kachel bild="/img/produkte-pico-ladestation-pico-standfuss/13.png" bildtext="Pico Standfuss – One Pole" titel="Pico Standfuss – One Pole" href="/produkte/pico-ladestation/pico-standfuss#onepole-pro-pour-borne-de-recharge-pico" bildhoehe="9rem" mittig>
 
 Comme alternative au socle de smart-me, la Pico est également compatible avec le système One Pole.
 

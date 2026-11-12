@@ -71,7 +71,7 @@ Possibilités d'utilisation :
 <div className="row">
 <div className="col col--6">
 
-1.  [Déterminer l'adresse IP du compteur smart-me](/schnittstellen/modbus-tcp#ip-adresse-mit-dns-name-ermitteln).
+1.  [Déterminer l'adresse IP du compteur smart-me](/schnittstellen/modbus-tcp#déterminer-ladresse-ip-à-laide-du-nom-dns).
 
 2.  Ajouter un appareil externe dans SMARTFOX. (Sélectionner smart-me Telstar)
 

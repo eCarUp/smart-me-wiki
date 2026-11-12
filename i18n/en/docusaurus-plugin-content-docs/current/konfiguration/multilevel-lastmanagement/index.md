@@ -168,9 +168,9 @@ ripple control signal (RSE) of the energy supplier.
 
 More on this under 
 
-[Configuring load shedding with MLM](/konfiguration/multilevel-lastmanagement/mlm-konfigurieren#konfiguration-des-lastabwurfs)
+[Configuring load shedding with MLM](/konfiguration/multilevel-lastmanagement/mlm-konfigurieren#configuring-load-shedding)
 
-[Configuring load shedding via external inputs](/produkte/pico-ladestation#lastabwurf-externe-eingänge)
+[Configuring load shedding via external inputs](/produkte/pico-ladestation#load-shedding-external-inputs)
 
 ![Multilevel load management – Figure 9](/img/konfiguration-multilevel-lastmanagement/09.png)
 

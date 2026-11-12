@@ -143,15 +143,15 @@ Brunnenbachstrasse 1, CH-8340 Hinwil
 
 Sur ces pages, vous trouverez toutes les informations utiles pour réussir la mise en service de la passerelle M-Bus.
 
-- [Préparation de la mise en service](/konfiguration/inbetriebnahme/smart-me-geraete#instructions-pour-les-deux-m-bus-gateways)
+- [Préparation de la mise en service](/konfiguration/inbetriebnahme/smart-me-geraete)
 
 - [Mise en service](/konfiguration/inbetriebnahme)
 
 - [Numérotation des compteurs combinés](/konfiguration/inbetriebnahme/smart-me-geraete#numérotation-des-compteurs-combinés)
 
-- [Recherche d'appareils de la passerelle M-Bus](/konfiguration/inbetriebnahme/smart-me-geraete#m-bus-gateway--rechercher-des-appareils)
+- [Recherche d'appareils de la passerelle M-Bus](/konfiguration/inbetriebnahme/smart-me-geraete)
 
-- [Désactiver la détection automatique des appareils](/konfiguration/inbetriebnahme/smart-me-geraete#m-bus-gateway--empêcher-la-détection-de-nouveaux-appareils)
+- [Désactiver la détection automatique des appareils](/konfiguration/inbetriebnahme/smart-me-geraete)
 
 
 ## Prescriptions d'installation M-Bus

@@ -147,11 +147,11 @@ In queste pagine trovi tutte le informazioni utili per una messa in servizio cor
 
 - [Messa in servizio](/konfiguration/inbetriebnahme)
 
-- [Numerazione dei contatori combinati](/konfiguration/inbetriebnahme/smart-me-geraete#numerazione-per-i-contatori-combinati)
+- [Numerazione dei contatori combinati](/konfiguration/inbetriebnahme/smart-me-geraete)
 
 - [Ricerca dei dispositivi del gateway M-Bus](/konfiguration/inbetriebnahme/smart-me-geraete#cercare-dispositivi-con-lm-bus-gateway)
 
-- [Disattivare il rilevamento automatico dei dispositivi](/konfiguration/inbetriebnahme/smart-me-geraete#impedire-il-riconoscimento-di-nuovi-dispositivi-con-lm-bus-gateway)
+- [Disattivare il rilevamento automatico dei dispositivi](/konfiguration/inbetriebnahme/smart-me-geraete)
 
 
 ## Prescrizioni di installazione M-Bus

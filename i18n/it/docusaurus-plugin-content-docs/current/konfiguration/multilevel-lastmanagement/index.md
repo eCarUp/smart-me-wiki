@@ -168,9 +168,9 @@ segnale RSE del fornitore di energia.
 
 Maggiori informazioni in 
 
-[Configurazione del distacco del carico con MLM](/konfiguration/multilevel-lastmanagement/mlm-konfigurieren#konfiguration-des-lastabwurfs)
+[Configurazione del distacco del carico con MLM](/konfiguration/multilevel-lastmanagement/mlm-konfigurieren#configurazione-del-distacco-dei-carichi)
 
-[Configurazione del distacco del carico tramite ingressi esterni](/produkte/pico-ladestation#lastabwurf-externe-eingänge)
+[Configurazione del distacco del carico tramite ingressi esterni](/produkte/pico-ladestation#distacco-del-carico-ingressi-esterni)
 
 ![Gestione del carico multilivello – Figura 9](/img/konfiguration-multilevel-lastmanagement/09.png)
 

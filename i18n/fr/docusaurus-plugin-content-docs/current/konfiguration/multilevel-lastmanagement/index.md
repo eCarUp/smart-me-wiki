@@ -168,9 +168,9 @@ signal de télécommande centralisée (RSE) du fournisseur d'électricité.
 
 Plus d'informations sous 
 
-[Configuration du délestage avec MLM](/konfiguration/multilevel-lastmanagement/mlm-konfigurieren#konfiguration-des-lastabwurfs)
+[Configuration du délestage avec MLM](/konfiguration/multilevel-lastmanagement/mlm-konfigurieren#configuration-du-délestage)
 
-[Configuration du délestage au moyen d'entrées externes](/produkte/pico-ladestation#lastabwurf-externe-eingänge)
+[Configuration du délestage au moyen d'entrées externes](/produkte/pico-ladestation#délestage-entrées-externes)
 
 ![Gestion de la charge multiniveau – Illustration 9](/img/konfiguration-multilevel-lastmanagement/09.png)
 

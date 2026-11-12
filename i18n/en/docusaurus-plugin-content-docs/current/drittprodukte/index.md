@@ -16,7 +16,7 @@ The aim of these recommendations is to give our partners an easy and efficient w
 
 <Kachel bild="/img/drittprodukte-standfuss-fundamente/01.png" bildtext="Pico stand foundations" titel="Pico stand foundations" href="/drittprodukte/standfuss-fundamente" bildhoehe="9rem" mittig />
 
-<Kachel bild="/img/produkte-pico-ladestation-pico-standfuss/13.png" bildtext="Pico Stand – One Pole" titel="Pico Stand – One Pole" href="/produkte/pico-ladestation/pico-standfuss#onepole-pro-für-pico-ladestation" bildhoehe="9rem" mittig>
+<Kachel bild="/img/produkte-pico-ladestation-pico-standfuss/13.png" bildtext="Pico Stand – One Pole" titel="Pico Stand – One Pole" href="/produkte/pico-ladestation/pico-standfuss#onepole-pro-for-pico-charging-station" bildhoehe="9rem" mittig>
 
 As an alternative to the smart-me stand, the Pico is also compatible with the One Pole system.
 

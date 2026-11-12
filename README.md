@@ -4,6 +4,8 @@ Das Support-Wiki der smart-me AG als [Docusaurus](https://docusaurus.io/)-Site.
 Es löst das bisherige Google-Sites-Wiki (`dok.smart-me.com`) ab und dient
 zugleich als Datenquelle für AI-Tools (Markdown im Repo + `llms.txt`).
 
+**Veröffentlicht unter <https://wiki.smart-me.com/>**
+
 ## Sprachen
 
 Deutsch ist die **Master-Sprache**. Alle Inhalte werden ausschliesslich unter
@@ -98,9 +100,40 @@ Jeder Push auf `main` baut die Site und veröffentlicht sie über
 `.github/workflows/deploy.yml` auf GitHub Pages. Einmalig muss unter
 *Settings → Pages* die Quelle auf **GitHub Actions** gestellt werden.
 
+Die veröffentlichte Site liegt unter:
+
+| Sprache | Adresse |
+| --- | --- |
+| Deutsch | <https://wiki.smart-me.com/> |
+| Englisch | <https://wiki.smart-me.com/en/> |
+| Französisch | <https://wiki.smart-me.com/fr/> |
+| Italienisch | <https://wiki.smart-me.com/it/> |
+
+Die Adresse ergibt sich aus `SITE_URL` und `BASE_URL` in
+`.github/workflows/deploy.yml`.
+
 ## Custom Domain
 
-Die Site wird auf GitHub Pages veröffentlicht. Für den Wechsel auf
-`dok.smart-me.com` genügen zwei Anpassungen: `static/CNAME` anlegen und in
-`docusaurus.config.ts` `url`/`baseUrl` setzen (bzw. die Umgebungsvariablen
-`SITE_URL` und `BASE_URL`).
+GitHub Pages erlaubt pro Repository nur eine Custom Domain. Das ist
+`wiki.smart-me.com`; die beiden alten Adressen werden bei Cloudflare
+weitergeleitet.
+
+| Domain | Cloudflare-DNS | Wirkung |
+| --- | --- | --- |
+| `wiki.smart-me.com` | CNAME → `ecarup.github.io`, **DNS only** | GitHub Pages |
+| `dok.smart-me.com` | AAAA `100::`, **proxied** | Redirect Rule: 301 auf `https://wiki.smart-me.com/${1}` |
+| `doc.smart-me.com` | AAAA `100::`, **proxied** | Redirect Rule: 301 auf `https://wiki.smart-me.com/en/${1}` |
+
+Die alten Google-Sites-Pfade leitet anschliessend `redirects.ts` auf die neuen
+Slugs um, für `doc.smart-me.com` innerhalb von `/en/`.
+
+Auf GitHub-Seite:
+
+- Die Domain wird unter *Settings → Pages → Custom domain* eingetragen, danach
+  *Enforce HTTPS* aktivieren. Eine Datei `static/CNAME` braucht es nicht — beim
+  Veröffentlichen über GitHub Actions ignoriert GitHub sie.
+- `smart-me.com` ist in der Organisation eCarUp unter *Settings → Pages* als
+  verifizierte Domain hinterlegt (TXT-Record `_github-pages-challenge-ecarup`),
+  damit kein anderes Konto die Subdomains übernehmen kann.
+- `wiki.smart-me.com` muss bei Cloudflare auf *DNS only* bleiben, sonst kann
+  GitHub kein Zertifikat ausstellen.

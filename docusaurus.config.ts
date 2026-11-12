@@ -5,10 +5,10 @@ import {redirects} from './redirects';
 import llmsTxtPlugin from './plugins/llms-txt';
 import schrittkettePlugin from './plugins/schrittkette';
 
-// Für einen späteren Wechsel auf eine Custom Domain (z.B. dok.smart-me.com)
-// muss nur SITE_URL/BASE_URL hier bzw. static/CNAME angepasst werden.
-const url = process.env.SITE_URL ?? 'https://ecarup.github.io';
-const baseUrl = process.env.BASE_URL ?? '/smart-me-wiki/';
+// Die Site läuft unter der Custom Domain wiki.smart-me.com (eingetragen unter
+// GitHub Settings -> Pages). SITE_URL/BASE_URL setzt der Deploy-Workflow.
+const url = process.env.SITE_URL ?? 'https://wiki.smart-me.com';
+const baseUrl = process.env.BASE_URL ?? '/';
 
 const config: Config = {
   title: 'smart-me Support',

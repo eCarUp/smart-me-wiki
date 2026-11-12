@@ -6,10 +6,13 @@ name: Auf GitHub Pages veröffentlichen
 #
 # Einmalige Einrichtung: Settings -> Pages -> Source auf "GitHub Actions".
 #
-# Custom Domain (dok.smart-me.com): eine Datei `static/CNAME` mit der Domain als
-# einzigem Inhalt anlegen und unten SITE_URL/BASE_URL entsprechend setzen:
-#   SITE_URL: https://dok.smart-me.com
-#   BASE_URL: /
+# Custom Domain: wiki.smart-me.com. Sie wird unter Settings -> Pages -> Custom
+# domain eingetragen. Eine Datei `static/CNAME` braucht es nicht – beim
+# Veröffentlichen über GitHub Actions wird sie von GitHub ignoriert.
+# SITE_URL/BASE_URL unten müssen zur eingetragenen Domain passen.
+#
+# dok.smart-me.com und doc.smart-me.com leitet Cloudflare per 301 hierher um
+# (doc.smart-me.com auf /en/…); die alten Pfade fängt redirects.ts ab.
 
 on:
   push:
@@ -57,8 +60,8 @@ jobs:
       - name: Build (alle Sprachen)
         run: npm run build
         env:
-          SITE_URL: https://ecarup.github.io
-          BASE_URL: /smart-me-wiki/
+          SITE_URL: https://wiki.smart-me.com
+          BASE_URL: /
 
       - uses: actions/configure-pages@v5
 

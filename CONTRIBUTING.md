@@ -1206,9 +1206,10 @@ Kontakt Deutschland              https://wiki.smart-me.com/it/kontakt-deutschlan
 
 ### Wenn die Adresse einmal umzieht
 
-Der vordere Teil steht in `docusaurus.config.ts` als `SITE_URL` und `BASE_URL`.
-Zieht das Wiki auf eine eigene Domain (etwa `dok.smart-me.com`), ändert sich
-nur dieser Teil — Sprachpräfix, Pfad und `?land=` bleiben, wie sie sind.
+Der vordere Teil (`https://wiki.smart-me.com/`) steht in
+`.github/workflows/deploy.yml` als `SITE_URL` und `BASE_URL`. Zieht das Wiki
+einmal auf eine andere Domain, ändert sich nur dieser Teil — Sprachpräfix, Pfad
+und `?land=` bleiben, wie sie sind.
 
 ---
 

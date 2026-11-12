@@ -84,8 +84,9 @@ export function Kachel({
   children,
 }: KachelProps): React.ReactElement {
   // In Markdown löst Docusaurus `/img/…` selbst gegen den baseUrl auf, in JSX
-  // nicht. Ohne das hier zeigte jedes Logo auf /img/… statt auf
-  // /smart-me-wiki/img/… – lokal unauffällig, in der Veröffentlichung tot.
+  // nicht. Unter wiki.smart-me.com (baseUrl `/`) fällt das nicht auf; läuft
+  // die Site aber unter einem Unterpfad – wie früher /smart-me-wiki/ –, zeigte
+  // ohne das hier jedes Logo ins Leere.
   const bildUrl = useBaseUrl(bild ?? '');
 
   const beschriftung = titel && <strong className={styles.titel}>{titel}</strong>;

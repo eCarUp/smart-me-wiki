@@ -16,7 +16,7 @@ type Props = WrapperProps<typeof ContentType>;
 
 export default function ContentWrapper(props: Props): React.ReactNode {
   const {pathname} = useLocation();
-  // useBaseUrl kennt die Sprache: /smart-me-wiki/ bzw. /smart-me-wiki/fr/.
+  // useBaseUrl kennt die Sprache: / bzw. /fr/.
   const start = useBaseUrl('/');
   const aufStartseite = pathname.replace(/\/$/, '') === start.replace(/\/$/, '');
 

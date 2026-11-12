@@ -1087,17 +1087,17 @@ Angebot, einer Signatur oder einem Portal heraus genau auf **Sprache, Land und
 Seite** zeigen:
 
 ```
-https://ecarup.github.io/smart-me-wiki/[sprache/]seite[?land=xx]
+https://wiki.smart-me.com/[sprache/]seite[?land=xx]
 ```
 
-**Sprache** — der Teil direkt nach `smart-me-wiki/`:
+**Sprache** — der Teil direkt nach `wiki.smart-me.com/`:
 
 | Sprache | Präfix | Beispiel |
 | --- | --- | --- |
-| Deutsch | *(keines)* | `…/smart-me-wiki/produkte` |
-| Englisch | `en/` | `…/smart-me-wiki/en/produkte` |
-| Französisch | `fr/` | `…/smart-me-wiki/fr/produkte` |
-| Italienisch | `it/` | `…/smart-me-wiki/it/produkte` |
+| Deutsch | *(keines)* | `…/produkte` |
+| Englisch | `en/` | `…/en/produkte` |
+| Französisch | `fr/` | `…/fr/produkte` |
+| Italienisch | `it/` | `…/it/produkte` |
 
 Der Pfad der Seite bleibt in allen Sprachen derselbe — `produkte` heisst auch
 auf Italienisch `produkte`. Übersetzt wird der Inhalt, nicht die Adresse.
@@ -1127,81 +1127,81 @@ ohne ihn wären sie zwar erreichbar, stünden aber nicht in der Navigation.
 #### Deutsch
 
 ```
-Länderwahl (Startseite)          https://ecarup.github.io/smart-me-wiki/
-Einstieg Schweiz                 https://ecarup.github.io/smart-me-wiki/schweiz?land=ch
-Einstieg Deutschland             https://ecarup.github.io/smart-me-wiki/deutschland?land=de
-support KI-Agent                 https://ecarup.github.io/smart-me-wiki/support-ki-agent
-Häufige Fragen                   https://ecarup.github.io/smart-me-wiki/faq
-Produkte                         https://ecarup.github.io/smart-me-wiki/produkte
-Planung                          https://ecarup.github.io/smart-me-wiki/planung
-Inbetriebnahme                   https://ecarup.github.io/smart-me-wiki/konfiguration/inbetriebnahme
-Rechnungsstellung                https://ecarup.github.io/smart-me-wiki/konfiguration/billing
-Drittsysteme                     https://ecarup.github.io/smart-me-wiki/drittsysteme
-Drittprodukte                    https://ecarup.github.io/smart-me-wiki/drittprodukte
-RMA-Antragsformular Schweiz      https://ecarup.github.io/smart-me-wiki/rma-antragsformular-schweiz?land=ch
-RMA-Antragsformular Deutschland  https://ecarup.github.io/smart-me-wiki/rma-antragsformular-deutschland?land=de
-Kontakt Schweiz                  https://ecarup.github.io/smart-me-wiki/kontakt-schweiz?land=ch
-Kontakt Deutschland              https://ecarup.github.io/smart-me-wiki/kontakt-deutschland?land=de
+Länderwahl (Startseite)          https://wiki.smart-me.com/
+Einstieg Schweiz                 https://wiki.smart-me.com/schweiz?land=ch
+Einstieg Deutschland             https://wiki.smart-me.com/deutschland?land=de
+support KI-Agent                 https://wiki.smart-me.com/support-ki-agent
+Häufige Fragen                   https://wiki.smart-me.com/faq
+Produkte                         https://wiki.smart-me.com/produkte
+Planung                          https://wiki.smart-me.com/planung
+Inbetriebnahme                   https://wiki.smart-me.com/konfiguration/inbetriebnahme
+Rechnungsstellung                https://wiki.smart-me.com/konfiguration/billing
+Drittsysteme                     https://wiki.smart-me.com/drittsysteme
+Drittprodukte                    https://wiki.smart-me.com/drittprodukte
+RMA-Antragsformular Schweiz      https://wiki.smart-me.com/rma-antragsformular-schweiz?land=ch
+RMA-Antragsformular Deutschland  https://wiki.smart-me.com/rma-antragsformular-deutschland?land=de
+Kontakt Schweiz                  https://wiki.smart-me.com/kontakt-schweiz?land=ch
+Kontakt Deutschland              https://wiki.smart-me.com/kontakt-deutschland?land=de
 ```
 
 #### Englisch
 
 ```
-Länderwahl (Startseite)          https://ecarup.github.io/smart-me-wiki/en/
-Einstieg Schweiz                 https://ecarup.github.io/smart-me-wiki/en/schweiz?land=ch
-Einstieg Deutschland             https://ecarup.github.io/smart-me-wiki/en/deutschland?land=de
-support KI-Agent                 https://ecarup.github.io/smart-me-wiki/en/support-ki-agent
-Häufige Fragen                   https://ecarup.github.io/smart-me-wiki/en/faq
-Produkte                         https://ecarup.github.io/smart-me-wiki/en/produkte
-Planung                          https://ecarup.github.io/smart-me-wiki/en/planung
-Inbetriebnahme                   https://ecarup.github.io/smart-me-wiki/en/konfiguration/inbetriebnahme
-Rechnungsstellung                https://ecarup.github.io/smart-me-wiki/en/konfiguration/billing
-Drittsysteme                     https://ecarup.github.io/smart-me-wiki/en/drittsysteme
-Drittprodukte                    https://ecarup.github.io/smart-me-wiki/en/drittprodukte
-RMA-Antragsformular Schweiz      https://ecarup.github.io/smart-me-wiki/en/rma-antragsformular-schweiz?land=ch
-RMA-Antragsformular Deutschland  https://ecarup.github.io/smart-me-wiki/en/rma-antragsformular-deutschland?land=de
-Kontakt Schweiz                  https://ecarup.github.io/smart-me-wiki/en/kontakt-schweiz?land=ch
-Kontakt Deutschland              https://ecarup.github.io/smart-me-wiki/en/kontakt-deutschland?land=de
+Länderwahl (Startseite)          https://wiki.smart-me.com/en/
+Einstieg Schweiz                 https://wiki.smart-me.com/en/schweiz?land=ch
+Einstieg Deutschland             https://wiki.smart-me.com/en/deutschland?land=de
+support KI-Agent                 https://wiki.smart-me.com/en/support-ki-agent
+Häufige Fragen                   https://wiki.smart-me.com/en/faq
+Produkte                         https://wiki.smart-me.com/en/produkte
+Planung                          https://wiki.smart-me.com/en/planung
+Inbetriebnahme                   https://wiki.smart-me.com/en/konfiguration/inbetriebnahme
+Rechnungsstellung                https://wiki.smart-me.com/en/konfiguration/billing
+Drittsysteme                     https://wiki.smart-me.com/en/drittsysteme
+Drittprodukte                    https://wiki.smart-me.com/en/drittprodukte
+RMA-Antragsformular Schweiz      https://wiki.smart-me.com/en/rma-antragsformular-schweiz?land=ch
+RMA-Antragsformular Deutschland  https://wiki.smart-me.com/en/rma-antragsformular-deutschland?land=de
+Kontakt Schweiz                  https://wiki.smart-me.com/en/kontakt-schweiz?land=ch
+Kontakt Deutschland              https://wiki.smart-me.com/en/kontakt-deutschland?land=de
 ```
 
 #### Französisch
 
 ```
-Länderwahl (Startseite)          https://ecarup.github.io/smart-me-wiki/fr/
-Einstieg Schweiz                 https://ecarup.github.io/smart-me-wiki/fr/schweiz?land=ch
-Einstieg Deutschland             https://ecarup.github.io/smart-me-wiki/fr/deutschland?land=de
-support KI-Agent                 https://ecarup.github.io/smart-me-wiki/fr/support-ki-agent
-Häufige Fragen                   https://ecarup.github.io/smart-me-wiki/fr/faq
-Produkte                         https://ecarup.github.io/smart-me-wiki/fr/produkte
-Planung                          https://ecarup.github.io/smart-me-wiki/fr/planung
-Inbetriebnahme                   https://ecarup.github.io/smart-me-wiki/fr/konfiguration/inbetriebnahme
-Rechnungsstellung                https://ecarup.github.io/smart-me-wiki/fr/konfiguration/billing
-Drittsysteme                     https://ecarup.github.io/smart-me-wiki/fr/drittsysteme
-Drittprodukte                    https://ecarup.github.io/smart-me-wiki/fr/drittprodukte
-RMA-Antragsformular Schweiz      https://ecarup.github.io/smart-me-wiki/fr/rma-antragsformular-schweiz?land=ch
-RMA-Antragsformular Deutschland  https://ecarup.github.io/smart-me-wiki/fr/rma-antragsformular-deutschland?land=de
-Kontakt Schweiz                  https://ecarup.github.io/smart-me-wiki/fr/kontakt-schweiz?land=ch
-Kontakt Deutschland              https://ecarup.github.io/smart-me-wiki/fr/kontakt-deutschland?land=de
+Länderwahl (Startseite)          https://wiki.smart-me.com/fr/
+Einstieg Schweiz                 https://wiki.smart-me.com/fr/schweiz?land=ch
+Einstieg Deutschland             https://wiki.smart-me.com/fr/deutschland?land=de
+support KI-Agent                 https://wiki.smart-me.com/fr/support-ki-agent
+Häufige Fragen                   https://wiki.smart-me.com/fr/faq
+Produkte                         https://wiki.smart-me.com/fr/produkte
+Planung                          https://wiki.smart-me.com/fr/planung
+Inbetriebnahme                   https://wiki.smart-me.com/fr/konfiguration/inbetriebnahme
+Rechnungsstellung                https://wiki.smart-me.com/fr/konfiguration/billing
+Drittsysteme                     https://wiki.smart-me.com/fr/drittsysteme
+Drittprodukte                    https://wiki.smart-me.com/fr/drittprodukte
+RMA-Antragsformular Schweiz      https://wiki.smart-me.com/fr/rma-antragsformular-schweiz?land=ch
+RMA-Antragsformular Deutschland  https://wiki.smart-me.com/fr/rma-antragsformular-deutschland?land=de
+Kontakt Schweiz                  https://wiki.smart-me.com/fr/kontakt-schweiz?land=ch
+Kontakt Deutschland              https://wiki.smart-me.com/fr/kontakt-deutschland?land=de
 ```
 
 #### Italienisch
 
 ```
-Länderwahl (Startseite)          https://ecarup.github.io/smart-me-wiki/it/
-Einstieg Schweiz                 https://ecarup.github.io/smart-me-wiki/it/schweiz?land=ch
-Einstieg Deutschland             https://ecarup.github.io/smart-me-wiki/it/deutschland?land=de
-support KI-Agent                 https://ecarup.github.io/smart-me-wiki/it/support-ki-agent
-Häufige Fragen                   https://ecarup.github.io/smart-me-wiki/it/faq
-Produkte                         https://ecarup.github.io/smart-me-wiki/it/produkte
-Planung                          https://ecarup.github.io/smart-me-wiki/it/planung
-Inbetriebnahme                   https://ecarup.github.io/smart-me-wiki/it/konfiguration/inbetriebnahme
-Rechnungsstellung                https://ecarup.github.io/smart-me-wiki/it/konfiguration/billing
-Drittsysteme                     https://ecarup.github.io/smart-me-wiki/it/drittsysteme
-Drittprodukte                    https://ecarup.github.io/smart-me-wiki/it/drittprodukte
-RMA-Antragsformular Schweiz      https://ecarup.github.io/smart-me-wiki/it/rma-antragsformular-schweiz?land=ch
-RMA-Antragsformular Deutschland  https://ecarup.github.io/smart-me-wiki/it/rma-antragsformular-deutschland?land=de
-Kontakt Schweiz                  https://ecarup.github.io/smart-me-wiki/it/kontakt-schweiz?land=ch
-Kontakt Deutschland              https://ecarup.github.io/smart-me-wiki/it/kontakt-deutschland?land=de
+Länderwahl (Startseite)          https://wiki.smart-me.com/it/
+Einstieg Schweiz                 https://wiki.smart-me.com/it/schweiz?land=ch
+Einstieg Deutschland             https://wiki.smart-me.com/it/deutschland?land=de
+support KI-Agent                 https://wiki.smart-me.com/it/support-ki-agent
+Häufige Fragen                   https://wiki.smart-me.com/it/faq
+Produkte                         https://wiki.smart-me.com/it/produkte
+Planung                          https://wiki.smart-me.com/it/planung
+Inbetriebnahme                   https://wiki.smart-me.com/it/konfiguration/inbetriebnahme
+Rechnungsstellung                https://wiki.smart-me.com/it/konfiguration/billing
+Drittsysteme                     https://wiki.smart-me.com/it/drittsysteme
+Drittprodukte                    https://wiki.smart-me.com/it/drittprodukte
+RMA-Antragsformular Schweiz      https://wiki.smart-me.com/it/rma-antragsformular-schweiz?land=ch
+RMA-Antragsformular Deutschland  https://wiki.smart-me.com/it/rma-antragsformular-deutschland?land=de
+Kontakt Schweiz                  https://wiki.smart-me.com/it/kontakt-schweiz?land=ch
+Kontakt Deutschland              https://wiki.smart-me.com/it/kontakt-deutschland?land=de
 ```
 
 ### Wenn die Adresse einmal umzieht

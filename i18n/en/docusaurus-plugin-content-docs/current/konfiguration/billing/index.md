@@ -8,15 +8,17 @@ vorheriger_schritt: konfiguration/wenndann-aktionen/alarme
 ---
 <Menueweg>Billing</Menueweg>
 
+<Knopf href="/konfiguration/billing-deutschland">Go to billing for Germany</Knopf>
+
 ### Prerequisite
 
 You need a smart-me Professional subscription to create energy cost billings. 
 
 ## Configuring billing step by step
 
-This step-by-step guide is intended to help you configure your billing. Please note that this is only an example you can use for orientation. Depending on the structure of your property, there will be differences from our example. 
+This step-by-step guide is intended to help you configure your billing. Please note that this is only an example for you to use as a guide. Depending on the structure of your property, there will be differences from our example. 
 
-Each step has its own page. You can go through them in order — the bottom of each page tells you how to continue — or jump straight to where you are right now.
+Each step has its own page. You can go through them in order — the bottom of each page tells you what comes next — or jump directly from here to the step you are currently at.
 
 <Ablauf land="ch" bis="konfiguration/billing/rechnung-erstellen" />
 
@@ -38,11 +40,11 @@ Our webinar explains step by step how to create energy cost billings with the bi
 
 <Video src="mK1HYLRtBUI" title="YouTube video, smart-me Billing - virtual tariffs, peak power, changing meter rental" />
 
-Video contents
+Video content
 
 - Configuring peak and off-peak tariff to a single tariff
 
-- Adjusting the prices of the virtual tariffs
+- Price adjustment of the virtual tariffs
 
 - Peak power
 
@@ -57,7 +59,7 @@ Video contents
 
 - [Example: VEWA billing (.pdf)](https://drive.google.com/file/d/1-YR543M1bawFrKgrj-MsQR5Es_wKFzRu/view?usp=sharing)
 
-## Helpful notes on the tariff data
+## Useful information on the tariff data
 
 ### Visualization
 

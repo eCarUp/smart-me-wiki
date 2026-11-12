@@ -1,0 +1,21 @@
+/*
+ * Der Knopf steht als eigener Block, nicht im Fliesstext: oben etwas Abstand
+ * zum Text darüber, unten so viel wie nach einem Absatz.
+ */
+.knopf {
+  display: inline-flex;
+  align-items: center;
+  margin: 0.25rem 0 1.5rem;
+}
+
+/*
+ * Auf dem Telefon ist eine lange Beschriftung breiter als das Fenster.
+ * Infima setzt `white-space: nowrap`, deshalb hier ausdrücklich der Umbruch.
+ */
+@media (max-width: 576px) {
+  .knopf {
+    display: flex;
+    white-space: normal;
+    text-align: center;
+  }
+}

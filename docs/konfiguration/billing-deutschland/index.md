@@ -8,11 +8,13 @@ vorheriger_schritt: konfiguration/wenndann-aktionen/alarme
 ---
 <Menueweg>Rechnungserstellung</Menueweg>
 
+<Knopf href="/konfiguration/billing">Zur Abrechnung für die Schweiz</Knopf>
+
 ### Voraussetzung
 
 Du brauchst ein smart-me Professional Abo, um Stromabrechnungen nach dem Energiewirtschaftsgesetz (EnWG) erstellen zu können.
 
-Diese Seite führt durch die Abrechnung für **deutschen Mieterstrom**. Die Schweizer Variante mit ZEV und VEWA findest du unter [Rechnungsstellung Schweiz](/konfiguration/billing).
+Diese Seite führt durch die Abrechnung für **deutschen Mieterstrom**.
 
 ## Schritt für Schritt die Abrechnung konfigurieren
 

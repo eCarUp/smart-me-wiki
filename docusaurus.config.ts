@@ -168,7 +168,7 @@ const config: Config = {
           title: 'smart-me',
           items: [
             {label: 'smart-me.com', href: 'https://www.smart-me.com'},
-            {label: 'Portal', href: 'https://smart-me.com/Portal'},
+            {label: 'Portal', href: 'https://portalweb.smart-me.com/'},
           ],
         },
       ],

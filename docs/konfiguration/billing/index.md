@@ -8,6 +8,8 @@ vorheriger_schritt: konfiguration/wenndann-aktionen/alarme
 ---
 <Menueweg>Rechnungserstellung</Menueweg>
 
+<Knopf href="/konfiguration/billing-deutschland">Zur Abrechnung für Deutschland</Knopf>
+
 ### Voraussetzung
 
 Du brauchst ein smart-me Professional Abo, um Energiekostenabrechnungen erstellen zu können. 

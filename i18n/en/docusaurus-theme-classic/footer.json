@@ -9,7 +9,7 @@
   },
   "link.item.label.Portal": {
     "message": "Portal",
-    "description": "The label of footer link with label=Portal linking to https://smart-me.com/Portal"
+    "description": "The label of footer link with label=Portal linking to https://portalweb.smart-me.com/"
   },
   "copyright": {
     "message": "Copyright © 2026 smart-me AG",

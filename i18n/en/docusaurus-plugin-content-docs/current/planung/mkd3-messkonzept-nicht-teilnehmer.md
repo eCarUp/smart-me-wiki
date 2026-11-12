@@ -7,7 +7,7 @@ symbol: 'ausserhalb'
 ---
 <div className="bild--voll">
 
-![MKD3 metering concept (with non-participants) – Figure 1](/img/planung-mkd3-messkonzept-nicht-teilnehmer/01.png)
+![MKD3 metering concept (with non-participants) – Figure 1](/img/planung-mkd3-messkonzept-nicht-teilnehmer/01_EN.png)
 
 </div>
 
@@ -40,7 +40,7 @@ The house connection meter should be included as a cross-check and not deliberat
 
 <div className="bild--voll">
 
-![MKD3 metering concept (with non-participants) – Figure 2](/img/planung-mkd3-messkonzept-nicht-teilnehmer/02.png)
+![MKD3 metering concept (with non-participants) – Figure 2](/img/planung-mkd3-messkonzept-nicht-teilnehmer/02_EN.png)
 
 </div>
 

@@ -7,7 +7,7 @@ symbol: 'ausserhalb'
 ---
 <div className="bild--voll">
 
-![Schéma de mesure MKD3 (avec non-participants) – Illustration 1](/img/planung-mkd3-messkonzept-nicht-teilnehmer/01.png)
+![Schéma de mesure MKD3 (avec non-participants) – Illustration 1](/img/planung-mkd3-messkonzept-nicht-teilnehmer/01_FR.png)
 
 </div>
 
@@ -40,7 +40,7 @@ Le compteur du raccordement de l'immeuble devrait servir de point de contrôle e
 
 <div className="bild--voll">
 
-![Schéma de mesure MKD3 (avec non-participants) – Illustration 2](/img/planung-mkd3-messkonzept-nicht-teilnehmer/02.png)
+![Schéma de mesure MKD3 (avec non-participants) – Illustration 2](/img/planung-mkd3-messkonzept-nicht-teilnehmer/02_FR.png)
 
 </div>
 

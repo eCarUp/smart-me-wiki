@@ -59,19 +59,19 @@ Navigation zwischen den Ansichten
 
 Zeigt dir deinen aktuellen Verbrauch mit einer Visualisierung (Optional, nur wenn konfiguriert)
 
+![Anleitung für Mieter – Abbildung 5](/img/nutzeranleitungen-mieter/05.png)
+
 ### Normal
 
 Die Normalansicht mit allen Livewerten und historischen Diagrammen
+
+![Anleitung für Mieter – Abbildung 6](/img/nutzeranleitungen-mieter/06.png)
 
 ### Report
 
 Downloadbereich von Ordner oder Zählerdaten.
 
 Die Tarifeverbräuche sind auf den Ordnern beheimatet.
-
-![Anleitung für Mieter – Abbildung 5](/img/nutzeranleitungen-mieter/05.png)
-
-![Anleitung für Mieter – Abbildung 6](/img/nutzeranleitungen-mieter/06.png)
 
 ![Anleitung für Mieter – Abbildung 7](/img/nutzeranleitungen-mieter/07.png)
 
@@ -102,6 +102,14 @@ Das Lastprofil entspricht deinem durchschnittlichen Energiebezug pro Zeitinterva
 ## APP
 
 Damit du den Überblick behältst, bietet die smart-me App verschiedene Visualisierungen, die dir Werte in Echtzeit anzeigen.
+
+### Übersicht deiner Abrechnungseinheit
+
+![Anleitung für Mieter – Abbildung 21](/img/nutzeranleitungen-mieter/21.jpg)
+
+Die Ansicht zeigt die Werte deiner eigenen Abrechnungseinheit, also deiner Wohnung und nicht der ganzen Liegenschaft.
+
+Für den gewählten Zeitraum (Jetzt, Vortag, 30 oder 365 Tage) siehst du deinen Verbrauch, aufgeteilt nach Herkunft des Stroms in Solar, Batterie und Netz, dazu den Anteil aus Solar und Speicher und die Kosten, die dir dafür verrechnet werden. Das Diagramm darunter zeigt den Verlauf über den Zeitraum, der Abschnitt "Tarife" die Aufteilung auf deine virtuellen Tarife.
 
 ### Einfacher Energiefluss
 
@@ -161,10 +169,15 @@ Abrechnungsrelevante Zähler eines ZEVs
 - Gesamtverbrauch (Verbrauch Feld 37)
     Wird benötigt, um den Gesamtverbrauch der Liegenschaft/Wohnung zu ermitteln (PV- und Netzbezug).
 
+- E-Mobilität und Heizung (Elektro 50P4 E-Mobil..., Emobilität (virtuell), Heizung (virtuell))
+    Fassen den Verbrauch der Ladestationen und der Heizung zusammen, damit diese Kosten separat ausgewiesen werden können.
+
 
 Zähler in einer Wohnung
 
 ![Anleitung für Mieter – Abbildung 15](/img/nutzeranleitungen-mieter/15.jpg)
+
+Im Menü stehen zuoberst die Visualisierungen, darunter die Liegenschaft mit ihren Ordnern und Zählern.
 
 Zähler eines ZEVs
 
@@ -175,45 +188,26 @@ Zähler eines ZEVs
 <div className="row">
 <div className="col col--6">
 
-Leistung (Analoganzeige und grüne Kachel)
-Zeigt die aktuelle Leistung in Kilowatt (kW) an, die von der Wohnung momentan verbraucht wird. Hier liegt sie bei 2.1 kW.
+Leistung (Analoganzeige)
+Zeigt die aktuelle Wirkleistung, die der Zähler gerade misst. Hier sind es 160.4 W; die Skala reicht bis zur Nennleistung des Zählers.
 
-Leistung (Phasen L1, L2, L3)
-Gibt die auf die drei Phasen (L1, L2, L3) aufgeteilte elektrische Leistung an.
-L1: 348.1 W
-L2: 1.546 kW
-L3: 225.8 W
+Leistung
+Derselbe Wert als Zahl (160.1 W). Ein negativer Wert bedeutet Rückspeisung ins Netz.
 
-Relais (Grün/Rot)
-Zeigt, ob die Stromzufuhr aktiv ist (grünes Symbol für "ein") oder deaktiviert wurde (rotes Symbol für "aus").
+Leistung (Q)
+Die Blindleistung in var, hier -223.9 var.
 
 Zählerstand
-Gibt den kumulierten Energieverbrauch der Wohnung in Kilowattstunden (kWh) an. Hier beträgt der Stand 320.842 kWh.
+Der kumulierte Energieverbrauch in Kilowattstunden (kWh), hier 13318.0 kWh.
 
-Spannung (Phasen L1, L2, L3)
-Zeigt die Spannung in Volt (V) für jede Phase:
-L1: 233.6 V
-L2: 235.1 V
-L3: 237.6 V
+Zählerstand (Q)
+Die kumulierte Blindenergie in kvarh, hier -6859.1 kvarh.
 
-Strom (Phasen L1, L2, L3)
-Zeigt den Strom in Ampere (A), der durch jede Phase fliesst:
-L1: 1.729 A
-L2: 6.591 A
-L3: 1.165 A
+Energieverbrauch (letzte 24h, 7 Tage, 30 Tage)
+Der Verbrauch über die jeweiligen Zeiträume in kWh, hier 11.829 kWh in den letzten 24 Stunden und 91.071 kWh in den letzten 7 Tagen.
 
-Cos Phi (Phasen L1, L2, L3)
-Gibt den Leistungsfaktor (Cos Phi) für jede Phase an, der das Verhältnis von Wirkleistung zur Scheinleistung beschreibt.
-Werte nahe 1 bedeuten eine effiziente Nutzung der elektrischen Energie.
-
-Letzte Verbindung
-Zeigt den Zeitpunkt, an dem die letzte Verbindung mit dem Stromzähler hergestellt wurde (25.11.2024, 18:42).
-
-Energieverbrauch (Letzte 24h, 7 Tage, 30 Tage)
-Zeigt den Energieverbrauch über verschiedene Zeiträume an:
-Letzte 24 Stunden: 9.103 kWh
-Letzte 7 Tage: 57.202 kWh
-Letzte 30 Tage: 244.984 kWh
+Weiter unten in der Ansicht
+Je nach Zählertyp folgen die Werte pro Phase (Spannung, Strom, Leistung, Cos Phi), der Zustand des Relais und der Zeitpunkt der letzten Verbindung.
 
 </div>
 <div className="col col--6 bild--mitte">

@@ -1,21 +1,21 @@
 ---
-title: 'Guida per inquilini'
+title: 'Guida per gli inquilini'
 slug: '/nutzeranleitungen/mieter'
-description: 'smart-me non opera nel settore dei progetti.'
+description: 'smart-me non si occupa della realizzazione di progetti.'
 sidebar_label: 'Inquilini'
 ---
-## Contatto in caso di domande
+## Contatti per domande
 
-smart-me non opera nel settore dei progetti. Le installazioni vengono eseguite da installatori, locatori o gestori di RCP (raggruppamento ai fini del consumo proprio), che sono anche il primo punto di contatto in caso di domande.
+smart-me non si occupa della realizzazione di progetti. Le installazioni vengono eseguite da installatori, locatori o gestori di un RCP (raggruppamento ai fini del consumo proprio), che sono anche il primo punto di riferimento per qualsiasi domanda.
 
 ## Navigazione
 
 <div className="row">
 <div className="col col--7">
 
-Ti consigliamo di utilizzare l'app smart-me sul tuo smartphone. Scarica semplicemente l'app e accedi dal tuo smartphone.
+Ti consigliamo di utilizzare l'app smart-me sul tuo smartphone. Scarica l'app e accedi dal tuo smartphone.
 
-I tuoi dati di accesso come inquilino dovrebbero esserti creati e messi a disposizione dalla locatrice, ovvero dalla gestrice del RCP (raggruppamento ai fini del consumo proprio).
+I tuoi dati di accesso come inquilino dovrebbero esserti creati e forniti dalla locatrice, la gestrice dell'RCP.
 
 Ecco l'app smart-me:
 
@@ -29,7 +29,7 @@ In alternativa puoi accedere anche tramite il portale smart-me nel browser.
 </div>
 <div className="col col--5 bild--mitte">
 
-![Guida per inquilini – Figura 1](/img/nutzeranleitungen-mieter/01.jpg)
+![Guida per gli inquilini – Figura 1](/img/nutzeranleitungen-mieter/01.jpg)
 
 </div>
 </div>
@@ -39,95 +39,103 @@ In alternativa puoi accedere anche tramite il portale smart-me nel browser.
 <div className="row">
 <div className="col col--7">
 
-Nel tuo accesso, alla voce "Pannello di controllo" ("Dashboard"), trovi le tue unità di conteggio e i punti di misura dei contatori a te assegnati.
+Nel tuo accesso, alla voce "Pannello di controllo" ("Dashboard"), trovi le tue unità di conteggio e i punti di misura a te assegnati.
 
 </div>
 <div className="col col--5 bild--mitte">
 
-![Guida per inquilini – Figura 2](/img/nutzeranleitungen-mieter/02.png)
+![Guida per gli inquilini – Figura 2](/img/nutzeranleitungen-mieter/02.png)
 
-![Guida per inquilini – Figura 3](/img/nutzeranleitungen-mieter/03.png)
+![Guida per gli inquilini – Figura 3](/img/nutzeranleitungen-mieter/03.png)
 
 </div>
 </div>
 
 Navigazione tra le viste
 
-![Guida per inquilini – Figura 4](/img/nutzeranleitungen-mieter/04.png)
+![Guida per gli inquilini – Figura 4](/img/nutzeranleitungen-mieter/04.png)
 
 ### Graphics
 
-Ti mostra il tuo consumo attuale con una visualizzazione (opzionale, solo se configurata)
+Mostra il tuo consumo attuale con una visualizzazione (opzionale, solo se configurata)
+
+![Guida per gli inquilini – Figura 5](/img/nutzeranleitungen-mieter/05.png)
 
 ### Normal
 
 La vista normale con tutti i valori in tempo reale e i diagrammi storici
 
+![Guida per gli inquilini – Figura 6](/img/nutzeranleitungen-mieter/06.png)
+
 ### Report
 
 Area di download dei dati delle cartelle o dei contatori.
 
-I consumi per tariffa sono collocati nelle cartelle.
+I consumi per tariffa si trovano nelle cartelle.
 
-![Guida per inquilini – Figura 5](/img/nutzeranleitungen-mieter/05.png)
-
-![Guida per inquilini – Figura 6](/img/nutzeranleitungen-mieter/06.png)
-
-![Guida per inquilini – Figura 7](/img/nutzeranleitungen-mieter/07.png)
+![Guida per gli inquilini – Figura 7](/img/nutzeranleitungen-mieter/07.png)
 
 ### Profilo tariffario
 
-Clicca sul riquadro "Tariffe virtuali" ("Virtuelle Tarife") per visualizzare il tuo profilo di carico con riferimento alla tariffa.
+Fai clic sul riquadro "Tariffe virtuali" ("Virtuelle Tarife") per visualizzare il tuo profilo di carico con riferimento alla tariffa.
 
 
 
-Il profilo di carico corrisponde al tuo prelievo medio di energia per intervallo di tempo ed è integrato con l'informazione tariffaria, ovvero il prezzo che paghi per unità di tempo.
+Il profilo di carico corrisponde al tuo prelievo medio di energia per intervallo di tempo ed è completato con l'informazione sulla tariffa, cioè il prezzo che paghi per unità di tempo.
 
-![Guida per inquilini – Figura 8](/img/nutzeranleitungen-mieter/08.png)
+![Guida per gli inquilini – Figura 8](/img/nutzeranleitungen-mieter/08.png)
 
-![Guida per inquilini – Figura 9](/img/nutzeranleitungen-mieter/09.png)
+![Guida per gli inquilini – Figura 9](/img/nutzeranleitungen-mieter/09.png)
 
 ### Profilo di carico
 
-Clicca sul riquadro "Potenza" ("Leistung") per visualizzare il tuo profilo di carico.
+Fai clic sul riquadro "Potenza" ("Leistung") per visualizzare il tuo profilo di carico.
 
 
 
 Il profilo di carico corrisponde al tuo prelievo medio di energia per intervallo di tempo.
 
-![Guida per inquilini – Figura 10](/img/nutzeranleitungen-mieter/10.png)
+![Guida per gli inquilini – Figura 10](/img/nutzeranleitungen-mieter/10.png)
 
-![Guida per inquilini – Figura 11](/img/nutzeranleitungen-mieter/11.png)
+![Guida per gli inquilini – Figura 11](/img/nutzeranleitungen-mieter/11.png)
 
 ## APP
 
-Per aiutarti a mantenere una visione d'insieme, l'app smart-me offre diverse visualizzazioni che ti mostrano i valori in tempo reale.
+Per aiutarti a mantenere una visione d'insieme, l'app smart-me offre diverse visualizzazioni che mostrano i valori in tempo reale.
+
+### Panoramica della tua unità di conteggio
+
+![Guida per gli inquilini – Figura 21](/img/nutzeranleitungen-mieter/21.jpg)
+
+La vista mostra i valori della tua unità di conteggio, cioè del tuo appartamento e non dell'intero immobile.
+
+Per il periodo selezionato (Adesso, Giorno precedente, 30 o 365 giorni) vedi il tuo consumo, suddiviso in base alla provenienza dell'elettricità in solare, batteria e rete, oltre alla quota proveniente da solare e accumulo e ai costi che ti vengono addebitati. Il diagramma sottostante mostra l'andamento nel periodo, la sezione "Tariffe" ("Tarife") la ripartizione sulle tue tariffe virtuali.
 
 ### Flusso di energia semplice
 
-![Guida per inquilini – Figura 12](/img/nutzeranleitungen-mieter/12.jpg)
+![Guida per gli inquilini – Figura 12](/img/nutzeranleitungen-mieter/12.jpg)
 
 Mostra il flusso di energia per un impianto solare, il prelievo dalla rete e il consumo dell'edificio.
 
-Devono essere indicati due di questi tre contatori, il terzo viene calcolato automaticamente. Se vengono indicati tutti e tre i contatori, possono verificarsi visualizzazioni errate. Raccomandiamo sempre, se possibile, di indicare misurazioni dirette e non contatori virtuali.
+Devono essere indicati due di questi tre contatori, il terzo viene calcolato automaticamente. Se vengono indicati tutti e tre i contatori, la visualizzazione può risultare errata. Consigliamo sempre, se possibile, di indicare misurazioni dirette e non contatori virtuali.
 
 ### Grado di autoconsumo e di autarchia
 
-![Guida per inquilini – Figura 13](/img/nutzeranleitungen-mieter/13.jpg)
+![Guida per gli inquilini – Figura 13](/img/nutzeranleitungen-mieter/13.jpg)
 
-Viene rappresentato il grado di autoconsumo e il grado di autarchia di un edificio. I valori si calcolano dal contatore FV e dal contatore di bilancio.
+Viene rappresentato il grado di autoconsumo e il grado di autarchia di un edificio. I valori vengono calcolati dal contatore FV e dal contatore di bilancio.
 
-Grado di autoconsumo: quanta parte dell'energia solare viene consumata direttamente nell'edificio.
+Grado di autoconsumo: quanta energia solare viene consumata direttamente nell'edificio.
 
 Grado di autarchia: quanta parte del consumo totale viene prodotta dall'impianto solare.
 
 
 
-### Monitoraggio di consumo e produzione
+### Monitoraggio del consumo e della produzione
 
-![Guida per inquilini – Figura 14](/img/nutzeranleitungen-mieter/14.jpg)
+![Guida per gli inquilini – Figura 14](/img/nutzeranleitungen-mieter/14.jpg)
 
-Mostra dove viene consumata l'energia prodotta (nell'edificio o immessa in rete) e da dove è stata prelevata l'energia consumata (solare o dalla rete).  
+Mostra dove viene consumata l'energia prodotta (nell'edificio o immessa in rete) e da dove proviene l'energia consumata (solare o dalla rete).  
 
 ### Tipi di contatore
 
@@ -139,7 +147,7 @@ Contatori di un appartamento
     Misura l'elettricità prelevata (kWh)
 
 - Contatore del riscaldamento (Heizung WHG 11.4...)
-    Misura l'energia consumata per far funzionare il riscaldamento (kWh)
+    Misura l'energia consumata per il funzionamento del riscaldamento (kWh)
 
 - Contatore dell'acqua fredda (Kaltwasser WHG 11.4...)
     Misura il prelievo di acqua fredda (m3)
@@ -150,93 +158,79 @@ Contatori di un appartamento
 
 
 
-Contatori rilevanti per il conteggio di un RCP (raggruppamento ai fini del consumo proprio)
+Contatori rilevanti per il conteggio di un RCP
 
 - Impianto fotovoltaico (Elekto 32P2 PVA)
-    Serve per misurare l'energia prodotta dall'impianto FV.
+    È necessario per misurare l'energia prodotta dall'impianto FV.
 
 - Contatore di bilancio (Elekto 26P4 Bilanzm...)
-    Serve per sapere quanta elettricità è stata prelevata dalla rete o immessa in rete.
+    È necessario per sapere quanta elettricità è stata prelevata dalla rete o immessa in rete.
 
 - Consumo totale (Verbrauch Feld 37)
-    Serve per determinare il consumo totale dell'immobile/appartamento (prelievo FV e dalla rete).
+    È necessario per determinare il consumo totale dell'immobile/appartamento (prelievo FV e dalla rete).
+
+- Mobilità elettrica e riscaldamento (Elektro 50P4 E-Mobil..., Emobilität (virtuell), Heizung (virtuell))
+    Raggruppano il consumo delle stazioni di ricarica e del riscaldamento, affinché questi costi possano essere indicati separatamente.
 
 
 Contatori in un appartamento
 
-![Guida per inquilini – Figura 15](/img/nutzeranleitungen-mieter/15.jpg)
+![Guida per gli inquilini – Figura 15](/img/nutzeranleitungen-mieter/15.jpg)
+
+Nel menu si trovano in alto le visualizzazioni, sotto l'immobile con le sue cartelle e i suoi contatori.
 
 Contatori di un RCP
 
-![Guida per inquilini – Figura 16](/img/nutzeranleitungen-mieter/16.jpg)
+![Guida per gli inquilini – Figura 16](/img/nutzeranleitungen-mieter/16.jpg)
 
-### Grandezze di misura rappresentate nell'app (contatore elettrico)
+### Grandezze di misura visualizzate nell'app (contatore elettrico)
 
 <div className="row">
 <div className="col col--6">
 
-Potenza (indicatore analogico e riquadro verde)
-Mostra la potenza attuale in kilowatt (kW) consumata in quel momento dall'appartamento. Qui è di 2.1 kW.
+Potenza (indicatore analogico)
+Mostra la potenza attiva attuale che il contatore sta misurando. Qui sono 160.4 W; la scala arriva fino alla potenza nominale del contatore.
 
-Potenza (fasi L1, L2, L3)
-Indica la potenza elettrica suddivisa sulle tre fasi (L1, L2, L3).
-L1: 348.1 W
-L2: 1.546 kW
-L3: 225.8 W
+Potenza
+Lo stesso valore in forma numerica (160.1 W). Un valore negativo indica un'immissione in rete.
 
-Relè (verde/rosso)
-Mostra se l'alimentazione elettrica è attiva (simbolo verde per "acceso") o è stata disattivata (simbolo rosso per "spento").
+Potenza (Q)
+La potenza reattiva in var, qui -223.9 var.
 
 Lettura del contatore
-Indica il consumo di energia cumulato dell'appartamento in kilowattora (kWh). Qui la lettura è di 320.842 kWh.
+Il consumo di energia cumulato in chilowattora (kWh), qui 13318.0 kWh.
 
-Tensione (fasi L1, L2, L3)
-Mostra la tensione in volt (V) per ogni fase:
-L1: 233.6 V
-L2: 235.1 V
-L3: 237.6 V
-
-Corrente (fasi L1, L2, L3)
-Mostra la corrente in ampere (A) che scorre attraverso ogni fase:
-L1: 1.729 A
-L2: 6.591 A
-L3: 1.165 A
-
-Cos Phi (fasi L1, L2, L3)
-Indica il fattore di potenza (Cos Phi) per ogni fase, che descrive il rapporto tra potenza attiva e potenza apparente.
-Valori vicini a 1 indicano un utilizzo efficiente dell'energia elettrica.
-
-Ultima connessione
-Mostra il momento in cui è stata stabilita l'ultima connessione con il contatore elettrico (25.11.2024, 18:42).
+Lettura del contatore (Q)
+L'energia reattiva cumulata in kvarh, qui -6859.1 kvarh.
 
 Consumo di energia (ultime 24h, 7 giorni, 30 giorni)
-Mostra il consumo di energia su diversi periodi:
-Ultime 24 ore: 9.103 kWh
-Ultimi 7 giorni: 57.202 kWh
-Ultimi 30 giorni: 244.984 kWh
+Il consumo nei rispettivi periodi in kWh, qui 11.829 kWh nelle ultime 24 ore e 91.071 kWh negli ultimi 7 giorni.
+
+Più in basso nella vista
+A seconda del tipo di contatore seguono i valori per fase (tensione, corrente, potenza, cos phi), lo stato del relè e il momento dell'ultima connessione.
 
 </div>
 <div className="col col--6 bild--mitte">
 
-![Guida per inquilini – Figura 17](/img/nutzeranleitungen-mieter/17.jpg)
+![Guida per gli inquilini – Figura 17](/img/nutzeranleitungen-mieter/17.jpg)
 
 </div>
 </div>
 
 ## Come si legge correttamente un conteggio VEWA?
 
-Il conteggio secondo VEWA (conteggio dei costi di energia e acqua in base al consumo) stabilisce come i costi per il calore e l'acqua calda sanitaria in un edificio plurifamiliare vengono ripartiti tra le parti locatarie. L'obiettivo è ripartire i costi in modo equo e trasparente, tenendo conto del consumo effettivo e creando incentivi al risparmio.
+Il conteggio secondo VEWA (conteggio dei costi energetici e dell'acqua in base al consumo) stabilisce come i costi per il calore e l'acqua calda sanitaria in un edificio plurifamiliare vengono ripartiti tra le parti locatarie. L'obiettivo è ripartire i costi in modo equo e trasparente, tenendo conto del consumo effettivo e creando incentivi al risparmio.
 
-In una prima fase il locatore determina i costi effettivi sostenuti durante il periodo di fatturazione per la produzione di calore e di acqua calda sanitaria. Poiché questi si basano su costi reali di consumo e di esercizio, gli importi definitivi sono noti solo alla fine del periodo di fatturazione.
+In una prima fase il locatore determina i costi effettivi sostenuti durante il periodo di conteggio per la produzione di calore e di acqua calda sanitaria. Poiché questi si basano su costi reali di consumo e di esercizio, gli importi definitivi sono noti solo alla fine del periodo di conteggio.
 
-Questi costi vengono poi suddivisi in due categorie: costi di base e costi dipendenti dal consumo.
+Questi costi vengono poi suddivisi in due categorie: costi di base e costi in funzione del consumo.
 
-- I costi di base comprendono costi fissi come la manutenzione e la riparazione degli impianti di riscaldamento e di acqua calda sanitaria. Si basano sulla superficie totale dell'edificio (m2) e vengono ripartiti proporzionalmente in base alla dimensione dell'appartamento (m2).
+- I costi di base comprendono costi fissi come la manutenzione e la riparazione degli impianti di riscaldamento e di acqua calda sanitaria. Si basano sulla superficie totale dell'edificio (m2) e vengono ripartiti proporzionalmente in base alla superficie dell'appartamento (m2).
 
-- I costi di consumo rispecchiano il consumo effettivo di energia delle parti locatarie e vengono calcolati in base ai valori dei contatori o ad altri metodi di misurazione.
+- I costi di consumo rispecchiano il consumo energetico effettivo delle parti locatarie e vengono calcolati in base ai valori dei contatori o ad altri metodi di misura.
 
 
-Grazie ai contatori si garantisce che ogni parte locataria paghi solo i costi energetici che ha effettivamente causato. Ciò favorisce una ripartizione equa dei costi e motiva a un uso più consapevole dell'energia.
+Grazie ai contatori si garantisce che ogni parte locataria paghi solo i costi energetici che ha effettivamente causato. Ciò favorisce una ripartizione equa dei costi e incoraggia un uso più consapevole dell'energia.
 
 Il conteggio VEWA è standardizzato, il che garantisce una ripartizione dei costi trasparente e uniforme. Ciò facilita agli inquilini la comprensione del conteggio e il confronto con altri appartamenti. Regole chiare per il rilevamento e l'addebito dei costi contribuiscono inoltre a evitare malintesi o controversie.
 
@@ -251,7 +245,7 @@ Il calore prodotto è indicato in kWh e l'acqua calda sanitaria in m3.
 
 Per portare i 47.01 m3 di acqua calda sanitaria alla temperatura desiderata (ad es. 60°C) sono stati necessari 2870.31 kWh.
 
-Pertanto i costi totali di 2000.- CHF vengono ripartiti in base all'energia (kWh) impiegata per ciascuno:
+I costi totali di 2000.- CHF vengono quindi ripartiti in base all'energia impiegata (kWh) per ciascun ambito:
 
 Calore (4522 kWh) 1223.43 CHF (3)
 Acqua calda sanitaria (47.01 m3 o 2870.31 kWh)   776.57 CHF (4)
@@ -259,18 +253,18 @@ Acqua calda sanitaria (47.01 m3 o 2870.31 kWh)   776.57 CHF (4)
 </div>
 <div className="col col--6 bild--mitte">
 
-![Guida per inquilini – Figura 18](/img/nutzeranleitungen-mieter/18.png)
+![Guida per gli inquilini – Figura 18](/img/nutzeranleitungen-mieter/18.png)
 
 </div>
 </div>
 
 ### Ripartizione dei costi sugli inquilini
 
-Per la suddivisione dei costi totali in costi di base (30%) e costi di consumo (70%) viene utilizzata in questo esempio la chiave di ripartizione usuale nel settore.
+Per la ripartizione dei costi totali in costi di base (30%) e costi di consumo (70%) in questo esempio viene utilizzata la chiave di ripartizione usuale nel settore.
 
 ### Esempio calore
 
-Nella fase precedente abbiamo determinato per il calore dell'immobile un importo totale di 1223.43 CHF. Questo viene ora suddiviso proporzionalmente per l'intero immobile in 30% di costi di base e 70% di costi di consumo. Ciò corrisponde ai seguenti costi:
+Nella fase precedente abbiamo determinato per il calore dell'immobile un importo totale di 1223.43 CHF. Questo viene ora ripartito proporzionalmente per l'intero immobile in 30% di costi di base e 70% di costi di consumo. Ciò corrisponde ai seguenti costi:
 
 - Costi di base calore 367.03 CHF (5)
 
@@ -279,22 +273,22 @@ Nella fase precedente abbiamo determinato per il calore dell'immobile un importo
 
 Per ripartire ora equamente questi costi tra le parti locatarie, i costi di base vengono suddivisi in base alla superficie abitativa e i costi di consumo (kWh) in base al consumo misurato.
 
-L'intero immobile ha una superficie abitativa di 250m2 e il nostro appartamento ha una superficie abitativa di 150m2. I costi di base vengono quindi addebitati all'appartamento per il 60% ((100/250)x150).
+L'intero immobile ha una superficie abitativa di 250m2 e il nostro appartamento ha una superficie abitativa di 150m2. I costi di base vengono quindi imputati all'appartamento nella misura del 60% ((100/250)x150).
 
 - Costi di base calore: 367.03 CHF x 60% = 220.22 CHF (7)
 
 
-![Guida per inquilini – Figura 19](/img/nutzeranleitungen-mieter/19.png)
+![Guida per gli inquilini – Figura 19](/img/nutzeranleitungen-mieter/19.png)
 
-Per l'intero immobile è stato misurato un consumo di energia di 4522 kWh. Il nostro appartamento dispone di un contatore elettrico separato, che ha misurato un consumo di 2450 kWh. I costi di consumo vengono quindi addebitati all'appartamento per il 54.18% ((100/4522)x2450).
+Per l'intero immobile è stato misurato un consumo di energia di 4522 kWh. Il nostro appartamento dispone di un contatore elettrico separato, che ha misurato un consumo di 2450 kWh. I costi di consumo vengono quindi imputati all'appartamento nella misura del 54.18% ((100/4522)x2450).
 
 Costi di consumo calore: 856.40 CHF x 54.18% = 464.- CHF (8)
 
-I costi totali\* per gli inquilini dell'appartamento per il calore ammontano quindi a 220.22 CHF + 464.- CHF = 684.21 CHF (9).
+I costi totali\* per il calore a carico degli inquilini dell'appartamento ammontano quindi a 220.22 CHF + 464.- CHF = 684.21 CHF (9).
 
 ### Esempio acqua calda sanitaria
 
-Il calcolo per la ripartizione dell'acqua calda sanitaria viene effettuato in modo analogo al calcolo del calore. Nella fase precedente abbiamo determinato per l'acqua calda sanitaria dell'immobile un importo totale di 776.57 CHF. Questo viene ora suddiviso proporzionalmente per l'intero immobile in 30% di costi di base e 70% di costi di consumo. Ciò corrisponde ai seguenti costi:
+Il calcolo per la ripartizione dell'acqua calda sanitaria viene effettuato in modo analogo a quello del calore. Nella fase precedente abbiamo determinato per l'acqua calda sanitaria dell'immobile un importo totale di 776.57 CHF. Questo viene ora ripartito proporzionalmente per l'intero immobile in 30% di costi di base e 70% di costi di consumo. Ciò corrisponde ai seguenti costi:
 
 - Costi di base acqua calda sanitaria 232.97 CHF (10)
 
@@ -303,16 +297,16 @@ Il calcolo per la ripartizione dell'acqua calda sanitaria viene effettuato in mo
 
 Per ripartire ora equamente questi costi tra le parti locatarie, i costi di base vengono suddivisi in base alla superficie abitativa e i costi di consumo in base al consumo misurato (m3).
 
-L'intero immobile ha una superficie abitativa di 250m2 e il nostro appartamento ha una superficie abitativa di 150m2. I costi di base vengono quindi addebitati all'appartamento per il 60% ((100/250)x150).
+L'intero immobile ha una superficie abitativa di 250m2 e il nostro appartamento ha una superficie abitativa di 150m2. I costi di base vengono quindi imputati all'appartamento nella misura del 60% ((100/250)x150).
 
 - Costi di base acqua calda sanitaria: 232.97 CHF x 60% = 139.78 CHF (12)
 
 
-Per l'intero immobile è stato misurato un consumo di acqua calda sanitaria di 47.01 m3. Il nostro appartamento dispone di un contatore dell'acqua calda sanitaria separato, che ha misurato un consumo di 26.68 m3. I costi di consumo vengono quindi addebitati all'appartamento per il 56.75% ((100/47.01)x26.68).
+Per l'intero immobile è stato misurato un consumo di acqua calda sanitaria di 47.01 m3. Il nostro appartamento dispone di un contatore dell'acqua calda sanitaria separato, che ha misurato un consumo di 26.68 m3. I costi di consumo vengono quindi imputati all'appartamento nella misura del 56.75% ((100/47.01)x26.68).
 
 Costi di consumo acqua calda sanitaria: 543.60 CHF x 56.75% = 308.51 CHF (13)
 
-I costi totali\* per gli inquilini dell'appartamento per l'acqua calda sanitaria ammontano quindi a 139.78 CHF + 308.51 CHF = 448.29 CHF (14)
+I costi totali\* per l'acqua calda sanitaria a carico degli inquilini dell'appartamento ammontano quindi a 139.78 CHF + 308.51 CHF = 448.29 CHF (14)
 
 \* Per determinare i costi totali non sono stati utilizzati i valori arrotondati visualizzati, ma i valori esatti.
 
@@ -321,14 +315,14 @@ I costi totali\* per gli inquilini dell'appartamento per l'acqua calda sanitaria
 <div className="row">
 <div className="col col--7">
 
-Se le informazioni disponibili nell'app smart-me non dovessero essere sufficienti, è possibile accedere al portale web tramite il browser. 
+Se le informazioni disponibili nell'app smart-me non dovessero essere sufficienti, è possibile accedere al portale web tramite browser. 
 
 [Portale web smart-me - Login](https://portalweb.smart-me.com/Login)
 
 </div>
 <div className="col col--5 bild--mitte">
 
-![Guida per inquilini – Figura 20](/img/nutzeranleitungen-mieter/20.jpg)
+![Guida per gli inquilini – Figura 20](/img/nutzeranleitungen-mieter/20.jpg)
 
 </div>
 </div>

@@ -929,6 +929,25 @@ wenn etwas klemmt, siehst du es bei einer Seite schneller als bei hundert.
 Ein fehlgeschlagener Lauf hinterlässt keinen Schaden: Nur fertig übersetzte
 Seiten werden geschrieben, der Rest bleibt, wie er war.
 
+### Hinterher prüfen
+
+```bash
+npm run translate:check
+```
+
+Vergleicht jede Übersetzung mit ihrer deutschen Seite und meldet, was dabei
+nicht stimmen kann: eine andere Gliederung, ein verschwundener Abschnitt, ein
+übersetzter Bildpfad, ein veränderter Code-Block, eine veraltete Bildvariante.
+
+Dazu den umgekehrten Fall: **einen Titel, der deutsch geblieben ist.** Seiten
+ohne Fliesstext — eine Seite, die nur einen Rechner einbettet — kommen aus dem
+Übersetzungslauf manchmal unverändert zurück, und dann steht in der
+französischen Navigation „Projektkonfigurator". Gemeldet wird nur, was auch
+deutsch aussieht (ein Umlaut oder ein Wortstamm aus einer Liste im Skript) —
+Askoma, Loxone, Modbus TCP oder Minergie heissen überall gleich und sind kein
+Befund. Trägt ein neuer Eigenname einmal einen deutschen Wortstamm, gehört er
+in `EIGENNAMEN` in `scripts/checkTranslations.ts`.
+
 > **Für die Entwicklung:** Der automatische Lauf auf GitHub braucht ein
 > Repository-Secret namens `CLAUDE_CODE_OAUTH_TOKEN`. Erzeugt wird es mit
 > `claude setup-token` und unter *Settings → Secrets and variables → Actions*

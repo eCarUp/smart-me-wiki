@@ -8,6 +8,11 @@
  * Überschriftenebenen, Bilder samt Pfad, Linkziele, Code-Blöcke, Video-
  * Einbettungen und der `slug` im Frontmatter.
  *
+ * Dazu kommt der umgekehrte Fall: ein **stehengebliebener deutscher Titel**.
+ * Seiten ohne Fliesstext – eine Seite, die nur einen Rechner einbettet –
+ * kommen aus dem Übersetzungslauf manchmal unverändert zurück, und dann steht
+ * in der französischen Navigation „Projektkonfigurator". Siehe `kopfProbleme`.
+ *
  * Der Build fängt kaputtes Markdown ohnehin ab. Dieser Test findet die
  * stilleren Fehler: eine abgeschnittene Seite, ein übersetzter Bildpfad, ein
  * verlorener Abschnitt.
@@ -41,12 +46,15 @@ type Shape = {
   /** src-Werte der <Video>-Einbettungen */
   videos: string[];
   slug: string | undefined;
+  /** Seitentitel und Beschriftung in der Navigation, für `kopfProbleme`. */
+  title: string | undefined;
+  sidebarLabel: string | undefined;
 };
 
 export function shapeOf(content: string): Shape {
   const parsed = matter(content);
   const body = parsed.content;
-  const data = parsed.data as {slug?: string};
+  const data = parsed.data as {slug?: string; title?: string; sidebar_label?: string};
 
   const headings: number[] = [];
   const codeBlocks: string[] = [];
@@ -77,7 +85,74 @@ export function shapeOf(content: string): Shape {
     .filter(Boolean);
   const videos = [...body.matchAll(/<Video\s[^>]*src="([^"]*)"/g)].map((m) => m[1]);
 
-  return {headings, images, links, codeBlocks, videos, slug: data.slug};
+  return {
+    headings,
+    images,
+    links,
+    codeBlocks,
+    videos,
+    slug: data.slug,
+    title: data.title,
+    sidebarLabel: data.sidebar_label,
+  };
+}
+
+/**
+ * Wortstämme, an denen ein deutsch gebliebener Titel zu erkennen ist.
+ *
+ * Ein Titel, der in zwei Sprachen gleich lautet, ist meistens völlig richtig:
+ * Askoma, Loxone, Modbus TCP, My Dashboards, Minergie — Eigennamen übersetzt
+ * man nicht. Gemeldet wird deshalb nur, was auch **deutsch aussieht**: ein
+ * Umlaut oder ein Stamm aus dieser Liste. Das ist bewusst eine Stichprobe und
+ * keine Sprachbestimmung — sie kostet nichts und fängt die Fälle, die in
+ * diesem Wiki vorkommen (zusammengesetzte Hauptwörter und Tätigkeiten).
+ *
+ * Trägt ein neuer Eigenname einen dieser Stämme, gehört er in `EIGENNAMEN`.
+ */
+const DEUTSCHE_STAEMME = [
+  'rechner', 'konfigurator', 'anleitung', 'übersicht', 'einstellung', 'abrechnung',
+  'messkonzept', 'schritt', 'erstellen', 'definieren', 'zuweisen', 'erfassen',
+  'hinterlegen', 'vorbereiten', 'verbindung', 'störung', 'nutzer', 'benutzer',
+  'lizenz', 'vertrag', 'wärme', 'wasser', 'strom', 'tarif', 'rechnung', 'ordner',
+  'inbetriebnahme', 'planung', 'sicherheit', 'antrag', 'formular', 'kosten',
+  'fehler', 'aktion', 'visualisierung', 'hinweis', 'kontakt', 'zähler', 'gerät',
+  'löschen', 'ladestation', 'rückgabe', 'frage',
+];
+
+/**
+ * Titel, die in jeder Sprache gleich lauten, obwohl sie deutsch aussehen.
+ * Kleingeschrieben eintragen; verglichen wird der ganze Titel.
+ */
+const EIGENNAMEN = new Set<string>([
+  'zählerfreunde',
+]);
+
+const deutschGeblieben = (text: string): boolean => {
+  const klein = text.toLowerCase();
+  if (EIGENNAMEN.has(klein)) return false;
+  if (/[äöüß]/.test(klein)) return true;
+  return DEUTSCHE_STAEMME.some((stamm) => klein.includes(stamm));
+};
+
+/**
+ * Meldet Titel und Navigationsbeschriftung, die wortgleich deutsch geblieben
+ * sind. Die Seite sieht dann übersetzt aus, heisst in der Navigation aber
+ * weiterhin deutsch — der Fehler, der am längsten unbemerkt bleibt, weil ihn
+ * nur sieht, wer die Seitenleiste in der anderen Sprache liest.
+ */
+function kopfProbleme(de: Shape, other: Shape): string[] {
+  const probleme: string[] = [];
+  const felder: [string, string | undefined, string | undefined][] = [
+    ['title', de.title, other.title],
+    ['sidebar_label', de.sidebarLabel, other.sidebarLabel],
+  ];
+  for (const [name, deutsch, uebersetzt] of felder) {
+    if (!deutsch || !uebersetzt) continue;
+    if (deutsch !== uebersetzt) continue;
+    if (!deutschGeblieben(deutsch)) continue;
+    probleme.push(`${name} ist deutsch geblieben: '${deutsch}'`);
+  }
+  return probleme;
 }
 
 export type Finding = {file: string; locale: Locale; problem: string};
@@ -113,6 +188,7 @@ function compare(de: Shape, other: Shape): string[] {
   if (list(de.videos) !== list(other.videos)) {
     problems.push(`Video-Einbettungen weichen ab: ${list(other.videos)} statt ${list(de.videos)}`);
   }
+  problems.push(...kopfProbleme(de, other));
   if (de.codeBlocks.length !== other.codeBlocks.length) {
     problems.push(
       `${other.codeBlocks.length} Code-Blöcke statt ${de.codeBlocks.length}`,

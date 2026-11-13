@@ -15,4 +15,4 @@ Information on the respective standard can be found in the product-specific down
 
 ## Downloads
 
-[Nimbus P1 Interface Documentation](https://docs.google.com/document/d/1c09pqgGwjLqk0RJfbX1jJw5UVb128gK4PUgz88o-AZ4/export?format=pdf)
+[Nimbus P1 Interface documentation](https://docs.google.com/document/d/1c09pqgGwjLqk0RJfbX1jJw5UVb128gK4PUgz88o-AZ4/export?format=pdf)

@@ -8,7 +8,7 @@ This page explains the known steps for bringing an offline smart-me electricity 
 
 ## Good to know
 
-### How can I tell whether a meter is offline?
+### How do I know whether a meter is offline?
 
 <div className="row">
 <div className="col col--8">
@@ -29,9 +29,9 @@ In addition, System Health (Systemgesundheit) provides an overview of all device
 
 ### Firmware version (Telstar 80A and Telstar CT)
 
-Up to and including FW versions 1.16 and 1.17, various changes were made to the Telstar CT and Telstar 80A to improve the stability of the WiFi connection. For this reason, we always recommend briefly checking whether the latest version is installed on the meter and updating it if necessary. [Firmware update](/konfiguration/firmware-update) 
+Up to and including FW versions 1.16 and 1.17, various adjustments were made to the Telstar CT and Telstar 80A to improve the stability of the WiFi connection. For this reason, we always recommend briefly checking whether the latest version is installed on the meter and updating it if necessary. [Firmware update](/konfiguration/firmware-update) 
 
-If a meter with the latest firmware version is offline even though neighbouring meters are online, please report this to us.
+If a meter with the latest firmware version is offline even though neighbouring meters are online, please report it to us.
 
 ### How do I save a new network on the smart-me device?
 
@@ -39,32 +39,32 @@ See "Reinstalling the meter" below
 
 ### Reinstalling the meter
 
-A reinstallation lets you save a new WiFi network on the meter. The installation must be carried out from the account in which the meter is offline. The smart-me Cloud recognises known devices and adds new data without changing the existing data.
+A reinstallation allows you to save a new WiFi network on the meter. The installation must be carried out from the account in which the meter is offline. The smart-me Cloud recognises known devices and adds new data without changing the existing data.
 
-The reinstallation follows the same procedure as described in [Commissioning](/konfiguration/inbetriebnahme). In the app, select the + at the top right and reinstall the device. The new SSID and password are automatically saved on the device. Make sure you are logged in with the correct account.
+The reinstallation follows the same procedure as described under [Commissioning](/konfiguration/inbetriebnahme). In the app, select the + at the top right and reinstall the device. The new SSID and password are automatically saved on the device. It is important to make sure that you are logged in with the correct account.
 
 ### Narrowing down the problem
 
-It is important to first roughly determine where the connection problem lies. If several meters lose their connection (go offline) at almost the same time, this most likely points to problems with the access point, the router or the internet connection.
+It is important to first roughly determine the cause of the connection problem. If several meters lose their connection (go offline) at almost the same time, this most likely indicates problems with the access point, the router or the internet connection.
 
 Possible problems could be:
 
 - The access point or router has a problem. In such cases, it can help to restart the router or the access point. After the restart, our devices should normally reconnect to the smart-me Cloud within a few minutes.
 
-- A new internet provider was activated or a new SSID (name of the WiFi network) was defined. In this case, you must save the new network on every smart-me device so that they can reconnect.
+- A new internet provider has been activated or a new SSID (name of the WiFi network) has been defined. In this case, you must save the new network on every smart-me device so that they can reconnect.
 
 - With mobile internet connections, the subscription may not have been paid. Make sure that the payments for the mobile internet are in order.
 
 
-If only a single meter or a small group of meters has lost the connection, the problem is usually more likely to lie with the affected smart-me meter.
+If only a single meter or a small group of meters has lost the connection, the problem usually lies with the affected smart-me meter.
 
 ## Bringing a meter back online
 
-The following guide proposes a standard procedure for bringing a meter back online. 
+The following instructions propose a standard procedure for bringing a meter back online. 
 
 Please note the following prerequisites:
 
-- This procedure assumes that the internet is configured correctly and meets all requirements.
+- This procedure assumes that the internet is configured correctly and meets all necessary requirements.
 
 - Make sure that another meter in the same account, which according to the planning should be connected to the same router or access point, is online. This ensures that neither the internet hardware nor its prerequisites are causing the problem.
 
@@ -79,9 +79,9 @@ Please note the following prerequisites:
 
 This is for information only on how it is done; further below you may be asked to restart the meter to bring it back online. 
 
-Forcing a restart: 
+Force a restart: 
 
-- Press T1 and T2 for 10 seconds. The display briefly goes off during the restart.
+- Press T1 and T2 for 10 seconds. The display briefly goes dark during the restart.
 
 How do I recognise the restart:
 
@@ -110,7 +110,7 @@ Behaviour when the meter does not come online:
 <div className="row">
 <div className="col col--7">
 
-The following points can be checked on arrival. If something has already been changed on the meter, it is important that no further changes are made to the meter for at least 5 minutes. You can also ask the customer on site for a 30-second video of the meter to better assess the situation. 
+The following points can be checked on arrival. If something has already been changed on the meter, it is important that no further changes are made to the meter for at least 5 minutes. You can also ask the customer on site for a 30-second video of the meter in order to better assess the situation. 
 
 </div>
 <div className="col col--5 bild--mitte">
@@ -139,12 +139,12 @@ The following points can be checked on arrival. If something has already been ch
 
 - Solution 3: If it is possible without much effort, remove the fuse and reinsert it. 
 
-- Solution 4: If the display is still permanently black after solutions 1 and 2, the meter is defective. In this case, an [RMA application form](/rma-antragsformular-schweiz) can be filled out (error description: Display Dunkel Code:dd).
+- Solution 4: If the display is still permanently black after solutions 1 and 2, the meter is defective. In this case, you can fill in an [RMA application form](/rma-antragsformular-schweiz) (error description: Display Dunkel Code:dd).
 
 
 Display repeatedly goes dark:
 
-- Description of the problem: The meter shows something. After a moment, it shows nothing for a few seconds. Then it comes back, etc...
+- Description of the problem: The meter displays something. After a moment, it shows nothing for a few seconds. Then it comes back, etc...
 
 - Solution 1: Check whether the neutral conductor is connected and wired correctly. 
 
@@ -153,13 +153,13 @@ Display repeatedly goes dark:
 
 Meter creates a local WiFi network for more than 5 minutes:
 
-- How do I recognise this state: The reception signal at the top right of the display alternates between light and dark reception.
+- How do I recognise this state: The reception signal at the top right of the display alternates between reception light and dark.
 
 - In this case, this indicates a stuck T1 button.
 
 - Solution 1: Try to free the T1 button. 
 
-- Solution 2: Fill out an [RMA application form](/rma-antragsformular-schweiz) (error description: Taste T1 klemmt Code:tk).
+- Solution 2: Fill in an [RMA application form](/rma-antragsformular-schweiz) (error description: Taste T1 klemmt Code:tk).
 
 
 Meter permanently shows an X at the top right:
@@ -170,17 +170,17 @@ Meter permanently shows an X at the top right:
 
 - Solution 3: If it is possible without much effort, remove the fuse and reinsert it. 
 
-- Solution 4: If an X is still permanently shown after solutions 1 and 2, the meter is defective. In this case, an [RMA application form](/rma-antragsformular-schweiz) can be filled out (error description: X wird immer angezeigt Code:xx).
+- Solution 4: If an X is still permanently displayed after solutions 1 and 2, the meter is defective. In this case, you can fill in an [RMA application form](/rma-antragsformular-schweiz) (error description: X wird immer angezeigt Code:xx).
 
 
-Meter cannot connect to the WiFi:
+Meter cannot connect to the WiFi network:
 
 - The reception signal at the top right of the display alternates between reception and X.
 
 
 - Solution 1: Restart the meter (see description above)
 
-- Solution 2: This only needs to be applied if no other meter nearby is online. Use a smartphone to create a hotspot with the same SSID and password as the existing WiFi. Then restart the meter again and check whether it connects via the smartphone's hotspot. If the meter connects via the hotspot, this indicates a problem with the WiFi router or access point. Note that most smartphones allow a maximum of five devices to connect via the hotspot.
+- Solution 2: This only needs to be applied if no other meter nearby is online. Use your smartphone to create a hotspot with the same SSID and password as the existing WiFi. Then restart the meter again and check whether it connects via the smartphone's hotspot. If the meter connects via the hotspot, this indicates a problem with the WiFi router or access point. Note that most smartphones allow a maximum of five devices to connect via the hotspot.
 
 - Solution 3: If it is possible without much effort, remove the fuse and reinsert it. 
 
@@ -197,7 +197,7 @@ Meter cannot connect to the WiFi:
 
 This is for information only on how it is done. Further below you may be asked to restart the meter to bring it back online. 
 
-Forcing a restart: 
+Force a restart: 
 
 - Press T1 and T2 for 10 seconds. The display shows 888888 for 1-2 seconds.
 
@@ -230,7 +230,7 @@ Behaviour when the meter does not come online:
 <div className="row">
 <div className="col col--6">
 
-The following points can be checked on arrival. If something has already been changed on the meter, it is important that no further changes are made to the meter for at least 5 minutes. You can also ask the customer on site for a 30-second video of the meter to better assess the situation. 
+The following points can be checked on arrival. If something has already been changed on the meter, it is important that no further changes are made to the meter for at least 5 minutes. You can also ask the customer on site for a 30-second video of the meter in order to better assess the situation. 
 
 </div>
 <div className="col col--6 bild--mitte">
@@ -255,7 +255,7 @@ Meter is dark:
 
 - Solution 2: If it is possible without much effort, remove the fuse and reinsert it. 
 
-- Solution 3: If 888888 is still shown after solutions 1 and 2, the meter is defective.
+- Solution 3: If 888888 is still displayed after solutions 1 and 2, the meter is defective.
 
 
 Meter creates a local WiFi network for more than 5 minutes:
@@ -269,14 +269,14 @@ Meter creates a local WiFi network for more than 5 minutes:
 - Solution 2: If a local WiFi network is still created after solution 1, the meter is defective.
 
 
-Meter cannot  connect to the WiFi:
+Meter cannot  connect to the WiFi network:
 
 - How do I recognise this state: The WiFi signal at the top left of the display is shown with an exclamation mark.
 
 
 - Solution 1: Restart the meter (see description above)
 
-- Solution 2: Use a smartphone to create a hotspot with the same SSID and password as the existing WiFi. Then restart the meter again and check whether it connects via the smartphone's hotspot. If the meter connects via the hotspot, this indicates a problem with the WiFi router or access point. Note that most smartphones allow a maximum of five devices to connect via the hotspot.
+- Solution 2: Use your smartphone to create a hotspot with the same SSID and password as the existing WiFi. Then restart the meter again and check whether it connects via the smartphone's hotspot. If the meter connects via the hotspot, this indicates a problem with the WiFi router or access point. Note that most smartphones allow a maximum of five devices to connect via the hotspot.
 
 - Solution 3: If it is possible without much effort, remove the fuse and reinsert it. 
 
@@ -294,7 +294,7 @@ Meter cannot  connect to the WiFi:
 
 #### Check on arrival
 
-- -   Call support. Guide in progress.
+- -   Call support. Instructions in progress.
 
 
 ## Connection quality
@@ -304,7 +304,7 @@ Meter cannot  connect to the WiFi:
 <div className="row">
 <div className="col col--5">
 
-From FW version 0.0.18, the WiFi reception quality is shown in the smart-me portal. [Firmware update](https://sites.google.com/u/0/d/1aCvQ4VBGjc0Zn6Acdv_my2AEp54cDrdX/revisionspreview?revision=415029&pageId=1nDT64kPszZGmBXffYtc_9fUGbxTlFM8J) 
+From FW version 0.0.18, the WiFi reception quality is displayed in the smart-me portal. [Firmware update](https://sites.google.com/u/0/d/1aCvQ4VBGjc0Zn6Acdv_my2AEp54cDrdX/revisionspreview?revision=415029&pageId=1nDT64kPszZGmBXffYtc_9fUGbxTlFM8J) 
 
 This information can be retrieved by all accounts via the [API](https://sites.google.com/u/0/d/1aCvQ4VBGjc0Zn6Acdv_my2AEp54cDrdX/revisionspreview?revision=415029&pageId=1L6QLXZEHWjDfqgdtjRQyM9vH29YdMCAn) with the command "GET /api/AdditionalDeviceInformation/&#123;id&#125;".
 
@@ -325,7 +325,7 @@ This information can be retrieved by all accounts via the [API](https://sites.go
 <div className="row">
 <div className="col col--7">
 
-- Log in to the gold partner account
+- Log in to the Gold partner account
 
 - Configuration (Konfiguration)
 

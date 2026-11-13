@@ -24,9 +24,9 @@ If this is the case, go to the following page:
 
 [Meter offline](/stoerungsbehebung/zaehler-offline)
 
-If you no longer need the offline meter, delete it and create the virtual meter again.
+If you no longer need the offline meter, you must delete it and create the virtual meter again.
 
-The problem should then be resolved.
+This should resolve the problem.
 
 </div>
 <div className="col col--5 bild--mitte">

@@ -6,7 +6,7 @@ sidebar_label: 'System Health'
 ---
 <Menueweg>System → System Health</Menueweg>
 
-System Health requires a Professional license 
+System Health (Systemgesundheit) requires a Professional license 
 
 Display:
 
@@ -16,7 +16,7 @@ The devices are sorted by type.
 
 - Pico devices (Pico Geräte): Pico charging stations
 
-- M-Bus gateways (M-Bus Gateways): All gateways
+- M-Bus Gateways: All gateways
 
 - M-Bus devices (M-Bus Geräte):
     All meters created by the M-Bus gateway.

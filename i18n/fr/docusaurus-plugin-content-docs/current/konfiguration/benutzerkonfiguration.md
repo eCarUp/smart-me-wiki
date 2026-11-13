@@ -56,7 +56,7 @@ Si une visualisation qui accède aux données des compteurs est utilisée sur le
 </div>
 <div className="col col--8 bild--mitte">
 
-![Créer des utilisateurs – figure 3](/img/konfiguration-benutzerkonfiguration/03.png)
+![Créer des utilisateurs – figure 3](/img/konfiguration-benutzerkonfiguration/03_EN.png)
 
 </div>
 </div>

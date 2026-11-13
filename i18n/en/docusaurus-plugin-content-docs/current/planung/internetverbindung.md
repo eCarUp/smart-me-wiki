@@ -24,7 +24,7 @@ Redundancy levels
 
 <div className="bild--voll">
 
-![Internet connection – Figure 1](/img/planung-internetverbindung/01.png)
+![Internet connection – Figure 1](/img/planung-internetverbindung/01_EN.png)
 
 </div>
 

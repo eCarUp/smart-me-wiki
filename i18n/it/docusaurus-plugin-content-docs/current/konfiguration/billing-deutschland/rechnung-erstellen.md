@@ -26,7 +26,7 @@ In questa pagina trova una descrizione dei messaggi di errore più frequenti e d
 </div>
 <div className="col col--7 bild--mitte">
 
-![Finestra di dialogo "Emettere una fattura" con periodo di conteggio, numero di fattura e i pulsanti Anteprima fattura, Emettere una fattura ed Esporta](/img/konfiguration-billing/14.png)
+![Finestra di dialogo "Emettere una fattura" con periodo di conteggio, numero di fattura e i pulsanti Anteprima fattura, Emettere una fattura ed Esporta](/img/konfiguration-billing/14_IT.png)
 
 </div>
 </div>

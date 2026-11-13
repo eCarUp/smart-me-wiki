@@ -66,7 +66,7 @@ Separate cost centres
 
 <div className="bild--voll">
 
-![VEWA - Billing – Figure 2](/img/konfiguration-billing-vewa-abrechnung/02.png)
+![VEWA - Billing – Figure 2](/img/konfiguration-billing-vewa-abrechnung/02_EN.png)
 
 </div>
 
@@ -77,7 +77,7 @@ Combined heating and domestic hot water
 
 <div className="bild--voll">
 
-![VEWA - Billing – Figure 3](/img/konfiguration-billing-vewa-abrechnung/03.png)
+![VEWA - Billing – Figure 3](/img/konfiguration-billing-vewa-abrechnung/03_EN.png)
 
 </div>
 
@@ -88,7 +88,7 @@ Combined heating + cooling and domestic hot water
 
 <div className="bild--voll">
 
-![VEWA - Billing – Figure 4](/img/konfiguration-billing-vewa-abrechnung/04.png)
+![VEWA - Billing – Figure 4](/img/konfiguration-billing-vewa-abrechnung/04_EN.png)
 
 </div>
 
@@ -114,7 +114,7 @@ Note:
 
 <div className="bild--voll">
 
-![VEWA - Billing – Figure 5](/img/konfiguration-billing-vewa-abrechnung/05.png)
+![VEWA - Billing – Figure 5](/img/konfiguration-billing-vewa-abrechnung/05_EN.png)
 
 </div>
 

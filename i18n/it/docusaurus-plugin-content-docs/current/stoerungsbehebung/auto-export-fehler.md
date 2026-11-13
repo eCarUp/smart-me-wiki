@@ -1,18 +1,18 @@
 ---
 title: 'Errori Auto Export'
 slug: '/stoerungsbehebung/auto-export-fehler'
-description: 'In questa sezione sono descritti i messaggi di errore noti relativi all''Auto-Export e le possibili soluzioni.'
+description: 'In questa sezione sono descritti i messaggi di errore noti relativi ad Auto Export e le possibili soluzioni.'
 sidebar_label: 'Errori Auto Export'
 ---
-In questa sezione sono descritti i messaggi di errore noti relativi all'Auto-Export e le possibili soluzioni.
+In questa sezione sono descritti i messaggi di errore noti relativi ad Auto Export e le possibili soluzioni.
 
 ## In generale
 
-La configurazione dell'Auto-Export è descritta qui: [Auto Export](/schnittstellen/auto-export) 
+Qui è descritta la configurazione di Auto Export: [Auto Export](/schnittstellen/auto-export) 
 
-Se l'Auto-Export è andato a buon fine, è possibile verificare lo stato di ogni punto di misura (sul lato destro) in Configurazione (Konfiguration) --> Auto-Export --> Assegnazione (Zuordnung).
+Se Auto Export è andato a buon fine, in Configurazione (Konfiguration) --> Auto Export (Auto-Export) --> Assegnazione (Zuordnung) è possibile verificare lo stato di ogni punto di misura (sul lato destro).
 
-Per aggiornare la visualizzazione dello stato dell'esportazione, occorre cliccare sul menu Auto Export sul lato sinistro.
+Per aggiornare la visualizzazione dello stato dell'esportazione, occorre cliccare sul lato sinistro sul menu Auto Export.
 
 Il nostro sistema verifica ogni 10 minuti se un job è in ritardo.
 
@@ -20,7 +20,7 @@ Il nostro sistema verifica ogni 10 minuti se un job è in ritardo.
 
 ## Stato
 
-Lo stato fornisce informazioni sullo stato dell'esportazione
+Lo stato fornisce di volta in volta informazioni sullo stato dell'esportazione
 
 - OK: ultima esportazione riuscita
 
@@ -42,7 +42,7 @@ Soluzione:
 
 Problema 2: attesa
 
-- Dalla creazione / dall'ultima modifica dell'assegnazione, il sistema non ha ancora eseguito un'esportazione riuscita.
+- Dalla creazione / dall'ultima modifica dell'assegnazione il sistema non ha ancora eseguito un'esportazione riuscita.
 
 
 Soluzione:
@@ -56,14 +56,14 @@ Soluzione:
 
 Problema:
 
-- Per questo giorno non sono disponibili dati.
+- Per questo giorno non ci sono dati.
 
 
 Soluzione:
 
-- Nel menu Interfacce / Esportazione automatica (Schnittstellen / Automatischer Export)
+- Nel menu Interfacce / Esportazione automatica (Schnittstellen / Automatische Export)
 
-- Annotare la data dell'ultima esportazione.
+- Annotarsi la data dell'ultima esportazione.
 
 - Nel menu Pannello di controllo (Dashboard)
 
@@ -71,19 +71,19 @@ Soluzione:
 
 - Report
 
-- Impostare la data da (Datum von) su "Ultima esportazione" (Letzter Export) dell'AutoExport
+- Impostare la data «da» su «Ultima esportazione» (Letzen Export) di AutoExport
 
-- Impostare la data a (Datum bis) su "Ultima esportazione" (Letzter Export) dell'AutoExport
+- Impostare la data «a» su «Ultima esportazione» (Letzen Export) di AutoExport
 
-- Annotare la data meno recente in Elettricità intervallo di tempo (Elektrizität Zeitspanne).
+- Annotarsi la data più vecchia in Elettricità Periodo (Elektrizität Zeitspanne).
 
-- Nel menu Interfacce / Esportazione automatica (Schnittstellen / Automatischer Export)
+- Nel menu Interfacce / Esportazione automatica (Schnittstellen / Automatische Export)
 
 - Selezionare la stazione 
 
-- Modifica (Editieren)
+- Modificare (Editieren)
 
-- Impostare Ultima esportazione (Letzter Export) su "data meno recente in Elettricità intervallo di tempo" +1. 
+- Impostare Ultima esportazione (Letzer Export) su «data più vecchia in Elettricità Periodo» +1. 
 
 - È importante impostare la data + 1, poiché possiamo esportare solo giorni interi.
 
@@ -103,17 +103,17 @@ Soluzione
 
 - Il punto di misura deve essere riportato online.
 
-- In seguito l'Auto-Export viene riavviato automaticamente.
+- In seguito Auto Export viene riavviato automaticamente.
 
 
 Problema 2: mancano i dati di un giorno intero
 
-- Il punto di misura non dispone di tutti i dati per il periodo tra l'ultima esportazione e quella successiva. Ad es. poiché il punto di misura è stato installato il 2.3.2024 alle 12h37, non è possibile eseguire un'esportazione per il 2.3.2024, dato che questo giorno è incompleto.
+- Il punto di misura non dispone di tutti i dati per il periodo tra l'ultima e la prossima esportazione. Ad es. se il punto di misura è stato installato il 2.3.2024 alle 12h37, non è possibile eseguire un'esportazione per il 2.3.2024, poiché questo giorno è incompleto.
 
 
 Soluzione
 
-- (opzionale) Lettura manuale nel sistema a valle, ad es. EDM, affinché il giorno venga registrato completamente. (La lettura può essere effettuata ad es. con un report nella panoramica principale di smart-me).
+- (opzionale) Lettura manuale nel sistema a valle, ad es. EDM, affinché il giorno sia registrato completamente. (La lettura può essere effettuata ad es. con un report nella panoramica principale di smart-me).
 
 - Modificare il punto di misura e impostare Ultima esportazione (Letzter Export) sulla data successiva.
 
@@ -124,7 +124,7 @@ Soluzione
 
 Problema:
 
-- L'ID del punto di misura presenta a sinistra uno o più spazi
+- L'ID del punto di misura contiene a sinistra uno o più spazi
 
 
 Soluzione:
@@ -166,15 +166,15 @@ Problema: smart-me non ha l'autorizzazione a scrivere nel percorso indicato.
 
 Soluzione: concedere le autorizzazioni.
 
-Problema 2: caso particolare con l'utilizzo di MOVEit (stato 8.7.2024: #32171)
+Problema 2: caso particolare con l'utilizzo di MOVEit (stato al 8.7.2024: #32171)
 
 - Utilizzare il "key file" creato con i due comandi openssl. [Auto Export](/schnittstellen/auto-export) -->  Tipo di upload (Upload Art)
 
-- Stabilire una prima connessione, che non riesce (restituisce un errore di certificato non valido).
+- Stabilire una prima connessione, che fallisce (restituzione di un errore di certificato non valido).
 
 - Nel mio software "MOVEit" ricevo un messaggio (in verde nell'immagine). Devo quindi riattivare l'utente (in blu) e accettare il certificato (in rosso).
 
-- Rimuovere la "/" dal percorso, in modo che i file possano essere salvati nella cartella "Export". (Errato: "/Export", corretto: "Export)
+- Rimuovere la "/" dal percorso, affinché i file possano essere salvati nella cartella "Export". (Errato: "/Export", corretto: "Export)
 
 
 ![Errori Auto Export – Figura 5](/img/stoerungsbehebung-auto-export-fehler/05.png)
@@ -183,6 +183,6 @@ Immagine da MOVEit
 
 ![Errori Auto Export – Figura 6](/img/stoerungsbehebung-auto-export-fehler/06.png)
 
-Immagine dell'assegnazione Auto-Export
+Immagine dell'assegnazione di Auto Export
 
 </details>

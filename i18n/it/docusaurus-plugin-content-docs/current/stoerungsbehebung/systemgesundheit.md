@@ -16,7 +16,7 @@ I dispositivi sono ordinati per tipo.
 
 - Dispositivi Pico (Pico Geräte): stazioni di ricarica Pico
 
-- Gateway M-Bus (M-Bus Gateways): tutti i gateway
+- M-Bus Gateways: tutti i gateway
 
 - Dispositivi M-Bus (M-Bus Geräte):
     tutti i contatori generati dal gateway M-Bus.

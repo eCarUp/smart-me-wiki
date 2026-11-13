@@ -1,23 +1,23 @@
 ---
 title: 'Differenze tra smart-me Billing e il fornitore di energia'
 slug: '/stoerungsbehebung/differenzen-mit-dem-ew'
-description: 'In questa sezione viene descritta una metodologia uniforme per verificare se sussiste una differenza tra la fattura del fornitore di energia e smart-me Billing.'
+description: 'In questa sezione viene descritto un metodo uniforme per verificare se esiste una differenza tra la fattura del fornitore di energia e lo smart-me Billing.'
 sidebar_label: 'Differenze con l''azienda elettrica'
 ---
-In questa sezione viene descritta una metodologia uniforme per verificare se sussiste una differenza tra la fattura del fornitore di energia e smart-me Billing. 
+In questa sezione viene descritto un metodo uniforme per verificare se esiste una differenza tra la fattura del fornitore di energia e lo smart-me Billing. 
 
-## Metodologia
+## Metodo
 
 Esistono due approcci per individuare l'errore. A seconda dei casi, l'uno o l'altro procedimento risulta più semplice.
 
-- smart-me Billing viene verificato nuovamente. Un eventuale errore di configurazione può portare a valori errati in smart-me Billing.
+- Lo smart-me Billing viene verificato nuovamente. Un eventuale errore di configurazione può portare a valori errati nello smart-me Billing.
 
-- Viene compilata la tabella Excel. Il file Excel può essere scaricato qui: [Differenz zwischen EW und smart-me.xlsx](https://drive.google.com/uc?export=download&id=1b4uvue-a0Irjw-Qouv6sfw7xJB33-d3A) 
+- Si compila la tabella Excel. Il file Excel può essere scaricato qui: [Differenz zwischen EW und smart-me.xlsx](https://drive.google.com/uc?export=download&id=1b4uvue-a0Irjw-Qouv6sfw7xJB33-d3A) 
 
 
 ## Requisiti
 
-1.  Il RCP (raggruppamento ai fini del consumo proprio) dispone di un contatore smart-me all'allacciamento dell'edificio (HAK)
+1.  Il RCP (raggruppamento ai fini del consumo proprio) dispone di un contatore smart-me sul raccordo domestico (HAK)
 
 2.  È disponibile una fattura dell'azienda elettrica relativa al consumo (prelievo) e alla rimunerazione (immissione) per un periodo di conteggio completo.
 
@@ -32,35 +32,35 @@ Esistono due approcci per individuare l'errore. A seconda dei casi, l'uno o l'al
 
 
 Nel file Excel sono presenti diversi punti di controllo.
-L'errore va cercato di volta in volta in corrispondenza del primo punto di controllo non soddisfatto. I punti di controllo si basano quindi l'uno sull'altro.
+L'errore va cercato sempre in corrispondenza del primo punto di controllo non soddisfatto. I punti di controllo sono infatti consequenziali.
 
 Ogni punto di controllo ha uno scopo preciso:
 
-- Differenza bilancio prelievo (Differenz Bilanz Bezug): qui si determina se il contatore di bilancio smart-me, per il consumo (prelievo), rientra nella tolleranza di misura dell'1% rispetto all'azienda elettrica.
+- Differenza bilancio prelievo: qui si determina se il contatore di bilancio smart-me, per il consumo (prelievo), rientra nella tolleranza di misura dell'1% rispetto all'azienda elettrica.
 
-- Differenza bilancio rimunerazione (Differenz Bilanz Rückvergütung): qui si determina se il contatore di bilancio smart-me, per la rimunerazione (immissione), rientra nella tolleranza di misura dell'1% rispetto all'azienda elettrica.
+- Differenza bilancio rimunerazione: qui si determina se il contatore di bilancio smart-me, per la rimunerazione (immissione), rientra nella tolleranza di misura dell'1% rispetto all'azienda elettrica.
 
-- Bilancio vs. sottoutenze (Bilanz vs. Unterverbraucher): qui si verifica se le sottomisurazioni e il contatore di bilancio smart-me rientrano nella tolleranza di misura dell'1%. Si tiene conto del consumo in standby dell'impianto fotovoltaico e di tutti i dispositivi smart-me.
+- Bilancio vs. utenze secondarie: qui si verifica se le misurazioni secondarie e il contatore di bilancio smart-me rientrano nella tolleranza di misura dell'1%. Si tiene conto del consumo in standby dell'impianto fotovoltaico e di tutti i dispositivi smart-me.
 
-- Lettura del contatore vs. contatori virtuali (Zählerstand vs. virtuelle Zähler): qui si verifica se in smart-me Billing ogni chilowattora misurato viene anche fatturato.
+- Lettura del contatore vs. contatori virtuali: qui si verifica se nello smart-me Billing ogni chilowattora misurato viene anche fatturato.
 
-- Prelievo dalla rete azienda elettrica vs. smart-me Billing (Netzbezug EW vs. smart-me Billing): qui si verifica se in smart-me Billing le tariffe per le ore di punta, per le ore fuori punta e solari corrispondono alla fattura dell'azienda elettrica.
+- Prelievo dalla rete azienda elettrica vs. smart-me Billing: qui si verifica se nello smart-me Billing le tariffe per le ore di punta, le ore fuori punta e la tariffa solare corrispondono alla fattura dell'azienda elettrica.
 
-- Autoconsumo vs. smart-me Billing (Eigenverbrauch vs. smart-me Billing): qui si verifica se ogni chilowattora di energia fotovoltaica autoconsumata viene anche fatturato.
+- Autoconsumo vs. smart-me Billing: qui si verifica se ogni chilowattora di energia fotovoltaica autoconsumata viene anche fatturato.
 
 
 ## Riserva
 
-- Il file Excel è un modello guidato per la verifica delle differenze. smart-me non risponde in modo definitivo del contenuto del file Excel.
+- Il file Excel è un modello guidato per la verifica delle differenze. smart-me non si assume alcuna responsabilità definitiva per il contenuto del file Excel.
 
-- Il file Excel è ancora in versione beta; è stato creato a fine estate 2023.
+- Il file Excel è ancora in versione beta ed è stato creato a fine estate 2023.
 
-- Al momento il file Excel non è in grado di verificare tutti i casi e può eventualmente presentare ancora piccoli errori. Questi vengono corretti costantemente.
+- Il file Excel attualmente non è in grado di verificare tutti i casi e potrebbe ancora contenere piccoli errori. Questi vengono corretti di continuo.
 
 
 ## Analisi smart-me
 
-Se viene riscontrato un problema nel conteggio e si desidera che lo analizziamo noi, abbiamo bisogno delle seguenti informazioni:
+Se viene riscontrato un problema nel conteggio e si desidera che lo analizziamo, abbiamo bisogno delle seguenti informazioni:
 
 - Dati di accesso all'account
 
@@ -69,4 +69,4 @@ Se viene riscontrato un problema nel conteggio e si desidera che lo analizziamo 
 - Rimunerazione dell'azienda elettrica
 
 
-Nota: analizziamo solo impianti che rispettano il nostro schema di misura. Ciò implica che ogni produzione e ogni utenza, incluso il contatore di bilancio, siano misurate.
+Nota: analizziamo soltanto impianti che rispettano il nostro schema di misura. Ciò significa che ogni produzione e ogni utenza, compreso il contatore di bilancio, devono essere misurate.

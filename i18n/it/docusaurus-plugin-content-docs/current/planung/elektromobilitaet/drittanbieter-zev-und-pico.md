@@ -8,7 +8,7 @@ Mobilità elettrica con la stazione di ricarica smart-me Pico senza RCP (raggrup
 
 ### Schema di principio di un complesso residenziale senza RCP smart-me / elettricità per gli inquilini
 
-![RCP di terzi e Pico – Figura 1](/img/planung-elektromobilitaet-drittanbieter-zev-und-pico/01.png)
+![RCP di terzi e Pico – Figura 1](/img/planung-elektromobilitaet-drittanbieter-zev-und-pico/01_IT.png)
 
 ### Descrizione della soluzione di gestione del carico nello schema di misura senza RCP / elettricità per gli inquilini o con un fornitore terzo
 

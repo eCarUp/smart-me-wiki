@@ -56,7 +56,7 @@ If a visualization that accesses meter data is used on the node, the user must b
 </div>
 <div className="col col--8 bild--mitte">
 
-![Creating users – Figure 3](/img/konfiguration-benutzerkonfiguration/03.png)
+![Creating users – Figure 3](/img/konfiguration-benutzerkonfiguration/03_EN.png)
 
 </div>
 </div>

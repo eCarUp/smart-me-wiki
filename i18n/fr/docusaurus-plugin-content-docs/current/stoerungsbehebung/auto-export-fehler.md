@@ -1,31 +1,31 @@
 ---
 title: 'Erreurs Auto Export'
 slug: '/stoerungsbehebung/auto-export-fehler'
-description: 'Cette section décrit les messages d''erreur connus en lien avec l''Auto Export ainsi que les solutions possibles.'
+description: 'Cette section décrit les messages d''erreur connus liés à l''Auto Export et les pistes de solution possibles.'
 sidebar_label: 'Erreurs Auto Export'
 ---
-Cette section décrit les messages d'erreur connus en lien avec l'Auto Export ainsi que les solutions possibles.
+Cette section décrit les messages d'erreur connus liés à l'Auto Export et les pistes de solution possibles.
 
 ## Généralités
 
 La configuration de l'Auto Export est décrite ici : [Auto Export](/schnittstellen/auto-export) 
 
-Si l'Auto Export a réussi, vous pouvez vérifier le statut de chaque point de mesure sous Configuration --> Auto Export --> Attribution (Konfiguration --> Auto-Export --> Zuordnung) (sur le côté droit).
+Si l'Auto Export a réussi, vous pouvez vérifier le statut de chaque point de mesure sous Configuration --> Auto Export --> Attribution (Konfiguration --> Auto-Export --> Zuordnung), sur le côté droit.
 
 Pour actualiser l'affichage du statut d'exportation, cliquez sur le menu Auto Export sur le côté gauche.
 
 Notre système vérifie toutes les 10 minutes si une tâche est en retard.
 
-![Erreurs Auto Export – figure 1](/img/stoerungsbehebung-auto-export-fehler/01.png)
+![Erreurs Auto Export – Illustration 1](/img/stoerungsbehebung-auto-export-fehler/01.png)
 
 ## Statut
 
-Le statut renseigne à chaque fois sur l'état de l'exportation
+Le statut renseigne sur l'état de l'exportation
 
-- OK : la dernière exportation a réussi
+- OK : dernière exportation réussie
 
 
-![Erreurs Auto Export – figure 2](/img/stoerungsbehebung-auto-export-fehler/02.png)
+![Erreurs Auto Export – Illustration 2](/img/stoerungsbehebung-auto-export-fehler/02.png)
 
 <details id="waiting">
 <summary>waiting...</summary>
@@ -37,12 +37,12 @@ Problème 1 : la date se situe dans le futur
 
 Solution :
 
-- Attendre que la date définie soit entièrement écoulée.
+- Attendre que la date configurée soit entièrement écoulée.
 
 
 Problème 2 : attente
 
-- Depuis la création / la dernière modification de l'attribution, le système n'a encore effectué aucune exportation réussie.
+- Depuis la création ou la dernière modification de l'attribution, le système n'a encore effectué aucune exportation réussie.
 
 
 Solution :
@@ -56,7 +56,7 @@ Solution :
 
 Problème :
 
-- Il n'existe aucune donnée pour ce jour.
+- Il n'y a aucune donnée pour ce jour.
 
 
 Solution :
@@ -71,9 +71,9 @@ Solution :
 
 - Rapport (Report)
 
-- Régler la date de début sur la « Dernière exportation » (Letzter Export) de l'AutoExport
+- Régler la date de début sur « Dernière exportation » (Letzter Export) issue de l'Auto Export
 
-- Régler la date de fin sur la « Dernière exportation » (Letzter Export) de l'AutoExport
+- Régler la date de fin sur « Dernière exportation » (Letzter Export) issue de l'Auto Export
 
 - Noter la date la plus ancienne sous Électricité Période (Elektrizität Zeitspanne).
 
@@ -83,11 +83,11 @@ Solution :
 
 - Modifier (Editieren)
 
-- Régler la Dernière exportation (Letzter Export) sur « date la plus ancienne sous Électricité Période » +1. 
+- Régler Dernière exportation (Letzter Export) sur « date la plus ancienne sous Électricité Période » +1. 
 
-- Il est important de régler la date + 1, car nous ne pouvons exporter que des jours complets.
+- Il est important de régler la date + 1, car nous ne pouvons exporter que des jours entiers.
 
-- Attendre jusqu'à 45 minutes, jusqu'à ce que l'exportation mette à jour le statut.
+- Attendre jusqu'à 45 minutes que l'exportation mette à jour le statut.
 
 </details>
 
@@ -106,16 +106,16 @@ Solution
 - L'Auto Export redémarre ensuite automatiquement.
 
 
-Problème 2 : les données d'une journée entière manquent
+Problème 2 : il manque les données d'une journée entière
 
 - Le point de mesure ne dispose pas de toutes les données pour la période entre la dernière et la prochaine exportation. Par exemple, si le point de mesure a été installé le 2.3.2024 à 12h37, aucune exportation ne peut être effectuée pour le 2.3.2024, car cette journée est incomplète.
 
 
 Solution
 
-- (facultatif) Relevé manuel dans le système en aval, p. ex. EDM, afin que la journée soit saisie intégralement. (Le relevé peut p. ex. être effectué avec un rapport dans la vue d'ensemble principale de smart-me).
+- (facultatif) Relevé manuel dans le système en aval, p. ex. EDM, afin que la journée soit saisie complètement. (Le relevé peut p. ex. être effectué avec un rapport dans la vue d'ensemble principale de smart-me).
 
-- Modifier le point de mesure et régler la Dernière exportation (Letzter Export) sur la date suivante.
+- Modifier le point de mesure et régler Dernière exportation (Letzter Export) sur la date suivante.
 
 </details>
 
@@ -132,7 +132,7 @@ Solution :
 - Supprimer les espaces et enregistrer.
 
 
-![Erreurs Auto Export – figure 3](/img/stoerungsbehebung-auto-export-fehler/03.png)
+![Erreurs Auto Export – Illustration 3](/img/stoerungsbehebung-auto-export-fehler/03.png)
 
 </details>
 
@@ -146,7 +146,7 @@ Problème 1 : le Key File n'est pas saisi.
 
 Solution 1
 
-- S'assurer que le Key File est correctement configuré selon [Auto Export](/schnittstellen/auto-export) --> Type de téléversement (Upload Art).
+- S'assurer que le Key File est correctement configuré selon [Auto Export](/schnittstellen/auto-export) --> Type d'upload (Upload Art).
 
 - Vérifier que le Key File généré commence comme suit :
 
@@ -155,7 +155,7 @@ Solution 1
 DEK-Info: DES-EDE3-CBC
 Proc-Type: 4,ENCRYPTED,...
 
-![Erreurs Auto Export – figure 4](/img/stoerungsbehebung-auto-export-fehler/04.png)
+![Erreurs Auto Export – Illustration 4](/img/stoerungsbehebung-auto-export-fehler/04.png)
 
 </details>
 
@@ -168,20 +168,20 @@ Solution : accorder les autorisations.
 
 Problème 2 : cas particulier lors de l'utilisation de MOVEit (état au 8.7.2024 : #32171)
 
-- Utilisez le « key file » créé avec les deux commandes openssl. [Auto Export](/schnittstellen/auto-export) -->  Type de téléversement (Upload Art)
+- Utilisez le « key file » créé avec les deux commandes openssl. [Auto Export](/schnittstellen/auto-export) -->  Type d'upload (Upload Art)
 
 - Établir une première connexion, qui échoue (renvoi d'une erreur de certificat non valide).
 
-- Dans mon logiciel « MOVEit », je reçois un message (en vert sur l'image). Je dois ensuite réactiver l'utilisateur (en bleu) et accepter le certificat (en rouge).
+- Dans mon logiciel « MOVEit », je reçois un message (en vert sur l'image). Je dois alors réactiver l'utilisateur (en bleu) et accepter le certificat (en rouge).
 
-- Supprimer le « / » du chemin afin que les fichiers puissent être déposés dans le dossier « Export ». (Faux : « /Export », correct : « Export)
+- Supprimer le « / » du chemin afin que les fichiers puissent être déposés dans le dossier « Export ». (Incorrect : « /Export », correct : « Export »)
 
 
-![Erreurs Auto Export – figure 5](/img/stoerungsbehebung-auto-export-fehler/05.png)
+![Erreurs Auto Export – Illustration 5](/img/stoerungsbehebung-auto-export-fehler/05.png)
 
-Image de MOVEit
+Image tirée de MOVEit
 
-![Erreurs Auto Export – figure 6](/img/stoerungsbehebung-auto-export-fehler/06.png)
+![Erreurs Auto Export – Illustration 6](/img/stoerungsbehebung-auto-export-fehler/06.png)
 
 Image de l'attribution Auto Export
 

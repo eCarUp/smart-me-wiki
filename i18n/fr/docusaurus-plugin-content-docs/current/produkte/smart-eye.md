@@ -1,17 +1,17 @@
 ---
 title: 'smart-eye'
 slug: '/produkte/smart-eye'
-description: 'Le smart-eye intègre dans le cloud smart-me les compteurs d''énergie conformes au cahier des charges FNN pour compteurs de base (dispositifs de mesure modernes).'
+description: 'Le smart-eye transmet au cloud smart-me les données des compteurs d''énergie conformes au cahier des charges FNN pour compteurs de base (moderne Messeinrichtungen).'
 sidebar_label: 'smart-eye'
 displayed_sidebar: wikiSidebar
 ---
-Le smart-eye intègre dans le cloud smart-me les compteurs d'énergie conformes au cahier des charges FNN pour compteurs de base (dispositifs de mesure modernes). Pour cela, le smart-eye se fixe sur l'interface de données optique INFO. Les données énergétiques sont ainsi transmises au cloud smart-me via le WiFi local. Depuis l'application ou en vous connectant en ligne, vous pouvez consulter presque en temps réel des visualisations de la consommation ainsi que, le cas échéant, des données utiles à l'exploitation du réseau comme la fréquence, la tension ou le courant.
+Le smart-eye transmet au cloud smart-me les données des compteurs d'énergie conformes au cahier des charges FNN pour compteurs de base (moderne Messeinrichtungen). Pour cela, le smart-eye est fixé sur l'interface de données optique INFO. Les données énergétiques sont ainsi transmises au cloud smart-me via le WiFi local. Via l'app ou la connexion en ligne, vous pouvez consulter quasiment en temps réel des visualisations de la consommation ainsi que, le cas échéant, des données pertinentes pour l'exploitation du réseau, comme la fréquence, la tension ou le courant.
 
-Vente arrêtée le 30.03.2021, le support et l'assistance cloud sont garantis jusqu'au 30.03.2025.
+Vente arrêtée le 30.03.2021, le support et la prise en charge par le cloud sont assurés jusqu'au 30.03.2025.
 
-Le système smart-me est multifluide : les valeurs mesurées d'autres compteurs, par exemple des compteurs de gaz, peuvent également être relevées et intégrées dans la gestion de l'énergie. De plus, selon le type de compteur, le smart-eye peut saisir automatiquement le code PIN qui débloque le jeu de données étendu. 
+Le système smart-me est multifluide : les valeurs mesurées d'autres compteurs, comme les compteurs de gaz, peuvent également être relevées et intégrées dans la gestion de l'énergie. En outre, selon le type de compteur, le smart-eye peut saisir automatiquement le code PIN pour le déverrouillage du jeu de données étendu. 
 
-![smart-eye – Figure 1](/img/produkte-smart-eye/01.jpg)
+![smart-eye – Illustration 1](/img/produkte-smart-eye/01.jpg)
 
 ## Fonctions
 
@@ -19,20 +19,20 @@ Le système smart-me est multifluide : les valeurs mesurées d'autres compteurs,
 
 - Enregistrement automatique des relevés du compteur dans le cloud
 
-- Enregistreur de données : stockage des valeurs mesurées en cas de coupure de connexion et synchronisation automatique avec le cloud au rétablissement de la connexion
+- Enregistreur de données : stockage des valeurs mesurées en cas de coupure de la connexion et synchronisation automatique avec le cloud lors du rétablissement de la connexion
 
-- Connexion WiFi chiffrée avec le cloud smart-me
+- Connexion WiFi chiffrée au cloud smart-me
 
 - Gestion complète de l'énergie, facturation automatique, commande et alarmes via le cloud smart-me
 
-- Installation simple avec l'application smart-me gratuite pour Android et iOS
+- Installation simple avec l'app smart-me gratuite pour Android et iOS
 
 
 <Video src="0bvtbGs8G94" title="Vidéo YouTube, smart eye pour compteurs de base FNN" />
 
 Installation et mise en service du module smart-eye
 
-## Caractéristiques techniques
+## Données techniques
 
 | Caractéristique | Valeur |
 | --- | --- |
@@ -51,32 +51,32 @@ Installation et mise en service du module smart-eye
 
 ## Compteurs testés
 
-[](https://drive.google.com/open?id=1WURxhIS6zPpfSeOv-tfZqnRQKIBkGNP9x4_n1r5iVds "Open Spreadsheet, Getestete Zähler in new window")
+[](https://drive.google.com/open?id=1WURxhIS6zPpfSeOv-tfZqnRQKIBkGNP9x4_n1r5iVds "Ouvrir la feuille de calcul, Compteurs testés dans une nouvelle fenêtre")
 
-<Embed src="https://docs.google.com/spreadsheets/d/1WURxhIS6zPpfSeOv-tfZqnRQKIBkGNP9x4_n1r5iVds/htmlembed?gid=0" height="493px" title="Feuille de calcul, compteurs testés" />
+<Embed src="https://docs.google.com/spreadsheets/d/1WURxhIS6zPpfSeOv-tfZqnRQKIBkGNP9x4_n1r5iVds/htmlembed?gid=0" height="493px" title="Feuille de calcul, Compteurs testés" />
 
 Compteurs testés
 
-## Codes de clignotement des LED
+## Codes de clignotement LED
 
-[](https://drive.google.com/open?id=10sNiDg0g8cwomZ-aEWn7gpCKbZLiay4X1O_fOJmM-QY "Open Spreadsheet, smart-eye LED blink codes in new window")
+[](https://drive.google.com/open?id=10sNiDg0g8cwomZ-aEWn7gpCKbZLiay4X1O_fOJmM-QY "Ouvrir la feuille de calcul, Codes de clignotement LED du smart-eye dans une nouvelle fenêtre")
 
-<Embed src="https://docs.google.com/spreadsheets/d/10sNiDg0g8cwomZ-aEWn7gpCKbZLiay4X1O_fOJmM-QY/htmlembed" height="216px" title="Feuille de calcul, codes de clignotement des LED du smart-eye" />
+<Embed src="https://docs.google.com/spreadsheets/d/10sNiDg0g8cwomZ-aEWn7gpCKbZLiay4X1O_fOJmM-QY/htmlembed" height="216px" title="Feuille de calcul, Codes de clignotement LED du smart-eye" />
 
-Codes de clignotement des LED du smart-eye
+Codes de clignotement LED du smart-eye
 
 Modifier l'intervalle de téléversement
 
-- Connectez-vous au portail smart-me
+- Se connecter au portail smart-me
 
-- Sélectionnez le compteur
+- Sélectionner le compteur
 
-- En haut à droite, cliquez sur la roue dentée
+- En haut à droite, sélectionner la roue dentée
 
 - Paramètres généraux (Allgemeine Einstellungen)
 
 
-![smart-eye – Figure 2](/img/produkte-smart-eye/02.png)
+![smart-eye – Illustration 2](/img/produkte-smart-eye/02.png)
 
 ## Téléchargements
 
@@ -86,4 +86,4 @@ Fiche technique
 
 Documents techniques
 
-[Quick Starter Guide](https://drive.google.com/file/d/1cfreWRx5zRDTSzjPYuchkZFk7RXvjVaJ/view?usp=sharing)
+[Guide de démarrage rapide](https://drive.google.com/file/d/1cfreWRx5zRDTSzjPYuchkZFk7RXvjVaJ/view?usp=sharing)

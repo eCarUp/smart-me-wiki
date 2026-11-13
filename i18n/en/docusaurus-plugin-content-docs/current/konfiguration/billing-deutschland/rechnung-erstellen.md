@@ -26,7 +26,7 @@ This page describes the most common error messages and possible solutions: [Bill
 </div>
 <div className="col col--7 bild--mitte">
 
-![“Create invoice” (Rechnung erstellen) dialog with billing period, invoice number and the buttons Invoice preview (Rechnungsvorschau), Create invoice (Rechnung erstellen) and Export (Exportieren)](/img/konfiguration-billing/14.png)
+![“Create invoice” (Rechnung erstellen) dialog with billing period, invoice number and the buttons Invoice preview (Rechnungsvorschau), Create invoice (Rechnung erstellen) and Export (Exportieren)](/img/konfiguration-billing/14_EN.png)
 
 </div>
 </div>

@@ -1,37 +1,37 @@
 ---
 title: 'Erreurs de compteur virtuel'
 slug: '/stoerungsbehebung/virtueller-zaehler-fehler'
-description: 'Cette page explique les erreurs connues concernant les compteurs virtuels.'
+description: 'Cette page explique les erreurs connues liées aux compteurs virtuels.'
 sidebar_label: 'Erreurs de compteur virtuel'
 ---
-Cette page explique les erreurs connues concernant les compteurs virtuels. 
+Cette page explique les erreurs connues liées aux compteurs virtuels. 
 
 Erreur : « Formule invalide » (« Formel ungültig »)
 
-Si vous souhaitez créer un compteur virtuel et que vous obtenez le message d'erreur suivant :
+Vous voulez créer un compteur virtuel et le message d'erreur suivant s'affiche.
 
-- Vérifiez si le compteur que vous souhaitez ajouter est hors ligne.
+- Vérifiez si le compteur que vous voulez ajouter est hors ligne.
 
 
-![Erreur de compteur virtuel – Figure 1](/img/stoerungsbehebung-virtueller-zaehler-fehler/01.png)
+![Erreurs de compteur virtuel – Illustration 1](/img/stoerungsbehebung-virtueller-zaehler-fehler/01.png)
 
 <div className="row">
 <div className="col col--7">
 
-Un compteur hors ligne apparaît comme suit dans la structure des dossiers.
+Voici comment un compteur hors ligne apparaît dans la structure des dossiers.
 
 Si c'est le cas, consultez la page suivante :
 
 [Compteur hors ligne](/stoerungsbehebung/zaehler-offline)
 
-Si vous n'avez plus besoin du compteur hors ligne, vous devez le supprimer et recréer le compteur virtuel.
+Si vous n'avez plus besoin du compteur hors ligne, supprimez-le, puis créez à nouveau le compteur virtuel.
 
 Le problème devrait alors être résolu.
 
 </div>
 <div className="col col--5 bild--mitte">
 
-![Erreur de compteur virtuel – Figure 2](/img/stoerungsbehebung-virtueller-zaehler-fehler/02.png)
+![Erreurs de compteur virtuel – Illustration 2](/img/stoerungsbehebung-virtueller-zaehler-fehler/02.png)
 
 </div>
 </div>

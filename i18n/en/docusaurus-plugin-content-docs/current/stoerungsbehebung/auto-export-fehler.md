@@ -10,9 +10,9 @@ This section describes known error messages related to Auto Export and possible 
 
 The configuration of Auto Export is described here: [Auto Export](/schnittstellen/auto-export) 
 
-If the Auto Export was successful, you can check the status for each metering point under Configuration (Konfiguration) --> Auto Export (Auto-Export) --> Assignment (Zuordnung) (on the right-hand side).
+If the Auto Export was successful, the status of each metering point can be checked under Configuration (Konfiguration) --> Auto Export (Auto-Export) --> Assignment (Zuordnung) (on the right-hand side).
 
-To refresh the display of the export status, click the Auto Export menu on the left-hand side.
+To refresh the export status display, click the Auto Export menu on the left-hand side.
 
 Our system checks every 10 minutes whether a job is overdue.
 
@@ -20,7 +20,7 @@ Our system checks every 10 minutes whether a job is overdue.
 
 ## Status
 
-The status always indicates the state of the export
+The status always shows the current state of the export.
 
 - OK: Last export successful
 
@@ -42,7 +42,7 @@ Solution:
 
 Problem 2: Waiting
 
-- The system has not yet performed a successful export since the assignment was created / last changed.
+- The system has not yet carried out a successful export since the assignment was created or last changed.
 
 
 Solution:
@@ -61,7 +61,7 @@ Problem:
 
 Solution:
 
-- In the menu Interfaces (Schnittstellen) / Auto Export (Automatischer Export)
+- In the menu Interfaces / Auto Export (Schnittstellen / Automatische Export)
 
 - Note the date of the last export.
 
@@ -71,21 +71,21 @@ Solution:
 
 - Report
 
-- Set Date from (Datum von) to the "Last export (Letzter Export)" date from Auto Export
+- Set the date from to the "Last export" (Letzen Export) from Auto Export
 
-- Set Date to (Datum bis) to the "Last export (Letzter Export)" date from Auto Export
+- Set the date to to the "Last export" (Letzen Export) from Auto Export
 
 - Note the oldest date under Electricity time span (Elektrizität Zeitspanne).
 
-- In the menu Interfaces (Schnittstellen) / Auto Export (Automatischer Export)
+- In the menu Interfaces / Auto Export (Schnittstellen / Automatische Export)
 
 - Select the station 
 
 - Edit (Editieren)
 
-- Set Last export (Letzter Export) to "oldest date under Electricity time span" +1. 
+- Set Last export (Letzer Export) to "oldest date under Electricity time span" +1. 
 
-- It is important to set the date + 1, as we can only export full days.
+- It is important to set the date + 1, as we can only export whole days.
 
 - Wait up to 45 minutes until the export updates the status.
 
@@ -103,12 +103,12 @@ Solution
 
 - The metering point must be brought back online.
 
-- The Auto Export will then restart automatically.
+- The Auto Export then restarts automatically.
 
 
 Problem 2: Data for an entire day is missing
 
-- The metering point does not have all data for the period between the last export and the next export. For example, because the metering point was installed on 2.3.2024 at 12h37, no export can be performed for 2.3.2024, as this day is incomplete.
+- The metering point does not have all data for the period between the last export and the next export. For example, if the metering point was installed on 2.3.2024 at 12h37, no export can be carried out for 2.3.2024, because that day is incomplete.
 
 
 Solution
@@ -146,9 +146,9 @@ Problem 1: Key file has not been entered.
 
 Solution 1
 
-- Make sure that the key file is configured correctly according to [Auto Export](/schnittstellen/auto-export) --> Upload type (Upload Art).
+- Make sure that the key file is configured correctly as described in [Auto Export](/schnittstellen/auto-export) --> Upload type (Upload Art).
 
-- Check that the generated key file begins as follows:
+- Check whether the generated key file begins as follows:
 
 
 \-----BEGIN RSA PRIVATE KEY-----
@@ -162,7 +162,7 @@ Proc-Type: 4,ENCRYPTED,...
 <details id="ftp-upload-550">
 <summary>FTP upload Error: The remote server returned an error 550</summary>
 
-Problem: Smart-me does not have permission to write to the specified path.
+Problem: smart-me does not have permission to write to the specified path.
 
 Solution: Grant permissions.
 
@@ -172,7 +172,7 @@ Problem 2: Special case when using MOVEit (as of 8.7.2024: #32171)
 
 - Establish a first connection, which fails (returns an invalid certificate error).
 
-- In my "MOVEit" software, I receive a message (green in the image). I then have to reactivate the user (in blue) and accept the certificate (in red).
+- In my software "MOVEit" I receive a message (green in the image). I then have to reactivate the user (in blue) and accept the certificate (in red).
 
 - Remove the "/" from the path so that the files can be stored in the "Export" folder. (Wrong: "/Export", Correct: "Export)
 

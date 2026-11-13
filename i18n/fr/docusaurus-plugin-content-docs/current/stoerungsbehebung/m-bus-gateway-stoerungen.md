@@ -1,17 +1,17 @@
 ---
-title: 'Pannes de la passerelle M-Bus'
+title: 'Dérangements de la passerelle M-Bus'
 slug: '/stoerungsbehebung/m-bus-gateway-stoerungen'
-description: 'Cette page traite des erreurs les plus fréquentes concernant la passerelle M-Bus'
-sidebar_label: 'Pannes de la passerelle M-Bus'
+description: 'Cette page traite des erreurs les plus fréquentes liées à la passerelle M-Bus'
+sidebar_label: 'Dérangements de la passerelle M-Bus'
 ---
-Cette page traite des erreurs les plus fréquentes concernant la passerelle M-Bus
+Cette page traite des erreurs les plus fréquentes liées à la passerelle M-Bus
 
 <details id="nicht-alle-zaehler-gefunden">
 <summary>La passerelle ne trouve pas tous les compteurs</summary>
 
 De nombreux compteurs M-Bus sont alimentés en courant par la passerelle. Notre passerelle prend en charge 50 charges standard. 
 
-- Lancez encore 1 à 2 recherches. Il se peut que le compteur ne se signale pas toujours lors de la première recherche.
+- Lancez encore 1 à 2 recherches. Il se peut que le compteur ne réponde pas toujours lors de la première recherche.
 
 - Vérifiez que la somme des charges ne dépasse pas 50.
 
@@ -26,28 +26,28 @@ De nombreux compteurs M-Bus sont alimentés en courant par la passerelle. Notre 
 
 Raison : numérotation des compteurs combinés
 
-La passerelle M-Bus ne reconnaît à chaque fois qu'un seul compteur à l'aide de l'adresse secondaire, qui figure généralement aussi sur le procès-verbal de réception.
+La passerelle M-Bus ne reconnaît à chaque fois qu'un seul compteur au moyen de l'adresse secondaire, qui figure généralement aussi sur le procès-verbal de réception.
 
 Les compteurs combinés sont ensuite affichés séparément sur le portail. Pour cette application, smart-me utilise sa propre logique de numérotation.
 
-Tous les compteurs non pertinents pour le décompte peuvent être [désactivés](/konfiguration/inbetriebnahme/zaehler-loeschen) afin d'économiser des frais de licence. La suppression n'est pas utile, car le compteur réapparaît sans cesse.
+Tous les compteurs qui ne sont pas pertinents pour le décompte peuvent être [désactivés](/konfiguration/inbetriebnahme/zaehler-loeschen) afin d'économiser des frais de licence. La suppression n'est pas utile, car le compteur réapparaît sans cesse.
 
 Si un compteur contient plus d'un compteur, ceux-ci sont numérotés comme suit :
 
 - Compteur principal = adresse secondaire figurant dans la liste de la passerelle M-Bus (p. ex. 71440145)
 
-- Autres compteurs = adresse secondaire du compteur principal, le premier chiffre est supprimé (p. ex. 7) et un chiffre est incrémenté à la fin (p. ex. 14401451,14401452).
+- Autres compteurs = adresse auxiliaire du compteur principal, le premier chiffre est supprimé (p. ex. 7) et un chiffre est incrémenté à la fin (p. ex. 14401451,14401452).
 
 - Sous-compteurs = ils contiennent les quatre derniers chiffres du compteur principal (p. ex. 0145) et un numéro d'énumération à quatre chiffres à la fin (p. ex. 01450001)
 
-![Pannes de la passerelle M-Bus – Figure 1](/img/stoerungsbehebung-m-bus-gateway-stoerungen/01.png)
+![Dérangements de la passerelle M-Bus – Figure 1](/img/stoerungsbehebung-m-bus-gateway-stoerungen/01.png)
 
-![Pannes de la passerelle M-Bus – Figure 2](/img/stoerungsbehebung-m-bus-gateway-stoerungen/02.png)
+![Dérangements de la passerelle M-Bus – Figure 2](/img/stoerungsbehebung-m-bus-gateway-stoerungen/02.png)
 
 </details>
 
 <details id="zu-viele-zaehler-betrieb">
-<summary>La passerelle trouve plus de compteurs que ceux installés (pendant l'exploitation)</summary>
+<summary>La passerelle trouve plus de compteurs que ceux installés (en cours d'exploitation)</summary>
 
 Une connexion instable peut entraîner une transmission erronée du numéro de série. 
 
@@ -61,18 +61,18 @@ Comment empêcher la détection de nouveaux appareils
 - Sélectionnez la passerelle M-Bus.
 
 
-- Sélectionnez la roue dentée de la passerelle M-Bus (en haut à droite). Remarque : ne sélectionnez pas la roue dentée du haut, qui sert à la configuration des compteurs, mais celle du bas.
+- Sélectionnez la roue dentée de la passerelle M-Bus (en haut à droite). Remarque : ne sélectionnez pas la roue dentée supérieure, qui sert à la configuration des compteurs, mais celle du bas.
 
-- Modifier (Bearbeiten)
+- « Modifier » (Bearbeiten)
 
 - Cochez la case « Don't allow to add additional meters ».
 
-- Enregistrer (Speichern)
+- « Enregistrer » (Speichern)
 
 
 Quel est l'effet de cette option ?
 
-- L'activation de l'option « Don't allow to add additional meters » empêche que des appareils qui n'existent pas encore dans le cloud soient enregistrés. 
+- L'activation de l'option « Don't allow to add additional meters » empêche l'enregistrement d'appareils qui ne sont pas encore présents dans le cloud. 
 
 
 À quoi faut-il faire attention ?
@@ -89,15 +89,15 @@ Quand cette option est-elle recommandée ?
 
 Dans quels cas cela peut-il se produire ?
 
-- En cas d'erreurs dans la transmission des données. Cela se produit plus souvent lorsque le câble M-Bus est trop long et que la qualité de la transmission des données diminue de ce fait, ou lorsque le câble est mal blindé ou exposé à des perturbations externes.
+- En cas d'erreurs de transmission des données. Cela arrive plus fréquemment lorsque le câble M-Bus est trop long et que la qualité de la transmission des données diminue de ce fait, ou lorsque le câble est mal blindé ou exposé à des perturbations externes.
 
 
 Explication technique
 
-- Le protocole M-Bus standardisé ne dispose que d'1 byte pour la somme de contrôle. La somme de contrôle est destinée à détecter certaines erreurs dans la transmission des données. Malheureusement, 1 byte, c'est peu, ce qui peut régulièrement conduire à ce qu'un paquet de données erroné soit considéré comme correct et valable. Dans certaines installations utilisant des passerelles M-Bus, il arrive ainsi régulièrement que des paquets corrompus soient classés comme corrects et valables, puis détectés et ajoutés dans notre cloud comme nouvel appareil M-Bus. Le compte passe alors de Professional à Basic, car la couverture des licences n'est plus garantie.
+- Le protocole M-Bus standardisé ne dispose que d'1 byte pour la somme de contrôle. La somme de contrôle sert à détecter certaines erreurs dans la transmission des données. Malheureusement, 1 byte, c'est peu, et il peut arriver régulièrement qu'un paquet de données erroné soit considéré comme correct et valide. Dans certaines installations utilisant des passerelles M-Bus, cela conduit régulièrement à ce que des paquets corrompus soient classés comme corrects et valides, puis détectés et ajoutés comme nouvel appareil M-Bus dans notre cloud. Le compte passe alors de Professional à Basic, car la couverture des licences n'est plus assurée.
 
 
-![Pannes de la passerelle M-Bus – Figure 3](/img/stoerungsbehebung-m-bus-gateway-stoerungen/03.png)
+![Dérangements de la passerelle M-Bus – Figure 3](/img/stoerungsbehebung-m-bus-gateway-stoerungen/03.png)
 
 </details>
 
@@ -115,16 +115,16 @@ Explication technique
 
 - Les compteurs perdent toujours la connexion à la même heure de la journée (heure et minute). 
 
-    - Dans ce cas, il se peut que les compteurs fonctionnent sur batterie et n'autorisent qu'un nombre limité de lectures par jour afin de ménager la batterie. 
+    - Dans ce cas, il se peut que les compteurs soient alimentés par batterie et n'autorisent qu'un nombre limité de lectures par jour afin de ménager la batterie. 
 
-        - Solution : l'intervalle de lecture peut ici être porté à 6 ou 12 heures.
+        - Solution : l'intervalle de lecture peut ici être augmenté à 6 ou 12 heures.
 
 
 
 
 - Les compteurs tombent en panne de manière irrégulière, et ce sont majoritairement les mêmes compteurs.
 
-    - Des perturbations externes sur les lignes, surtout sur des lignes assez longues, peuvent entraîner des transmissions erronées.
+    - Des perturbations externes sur les lignes, surtout sur les lignes plus longues, peuvent entraîner des transmissions erronées.
 
         - Solution : maintenir le câblage des compteurs aussi court que possible.
 

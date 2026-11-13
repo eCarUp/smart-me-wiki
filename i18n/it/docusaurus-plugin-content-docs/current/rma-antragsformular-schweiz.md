@@ -8,7 +8,7 @@ Questa pagina vale per la Svizzera e il Liechtenstein. Per la Germania esiste un
 
 ## Modulo di richiesta per tutti i dispositivi smart-me:
 
-Se il supporto per il fissaggio del contatore sulla guida DIN è difettoso o mancante, invii un'e-mail a [support@smart-me.com](mailto:support@smart-me.com) indicando l'indirizzo del destinatario.
+Se il supporto per il fissaggio del contatore sulla guida DIN è difettoso o manca, invia un'e-mail a [support@smart-me.com](mailto:support@smart-me.com) indicando l'indirizzo del destinatario.
 
 [Modulo RMA smart-me (DE) per la Svizzera e il Liechtenstein](https://docs.google.com/forms/d/e/1FAIpQLSfDD1WZhLs5X5RILeCvxx4QcQAxZ1n-skkS7qEd37bZLVfq8w/viewform?usp=sf_link)
 

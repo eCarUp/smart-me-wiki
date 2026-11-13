@@ -25,7 +25,7 @@ The metering points that are to be distributed and are located in the "Technical
 </div>
 <div className="col col--6 bild--mitte">
 
-![Energy Billing – Figure 5](/img/konfiguration-billing/05.png)
+![Energy Billing – Figure 5](/img/konfiguration-billing/05_EN.png)
 
 </div>
 </div>

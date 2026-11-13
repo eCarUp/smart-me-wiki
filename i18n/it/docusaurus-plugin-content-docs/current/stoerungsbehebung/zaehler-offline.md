@@ -8,12 +8,12 @@ Questa pagina illustra i passaggi noti per riportare online un contatore elettri
 
 ## Buono a sapersi
 
-### Come faccio a capire se un contatore è offline?
+### Come riconosco se un contatore è offline?
 
 <div className="row">
 <div className="col col--8">
 
-Un contatore smart-me è offline se da più di 15 minuti non si è più collegato al cloud. Per verificarlo, controllate sul contatore l'ultima connessione.
+Un contatore smart-me è offline se non si è più collegato al cloud da oltre 15 minuti. È possibile verificarlo controllando sul contatore l'ultima connessione.
 
 </div>
 <div className="col col--4 bild--mitte">
@@ -29,44 +29,44 @@ Inoltre, la Salute del sistema (Systemgesundheit) offre una panoramica di tutti 
 
 ### Versione del firmware (Telstar 80A e Telstar CT)
 
-Fino alle versioni FW 1.16 e 1.17 comprese, sul Telstar CT e sul Telstar 80A sono state apportate diverse modifiche per migliorare la stabilità della connessione WiFi. Per questo motivo consigliamo di verificare sempre brevemente se sul contatore è installata la versione più recente e, se necessario, di aggiornarla. [Aggiornamento del firmware](/konfiguration/firmware-update) 
+Fino alle versioni FW 1.16 e 1.17 incluse sono state apportate diverse modifiche al Telstar CT e al Telstar 80A per migliorare la stabilità della connessione WiFi. Per questo motivo consigliamo di verificare sempre brevemente se sul contatore è installata la versione più recente e, se necessario, di aggiornarla. [Aggiornamento del firmware](/konfiguration/firmware-update) 
 
-Se un contatore con la versione firmware più recente è offline nonostante i contatori vicini siano online, vi preghiamo di segnalarcelo.
+Se un contatore con la versione del firmware più recente è offline nonostante i contatori vicini siano online, La preghiamo di segnalarcelo.
 
 ### Come salvo una nuova rete sul dispositivo smart-me?
 
-Vedere più sotto Reinstallare il contatore
+Vedere più avanti Reinstallare il contatore
 
 ### Reinstallare il contatore
 
-Con una reinstallazione è possibile salvare una nuova rete WiFi sul contatore. L'installazione deve essere eseguita dall'account in cui il contatore è offline. Il cloud smart-me riconosce i dispositivi già noti e aggiunge i nuovi dati senza modificare quelli esistenti.
+Con una reinstallazione è possibile salvare una nuova rete WiFi sul contatore. L'installazione deve essere eseguita dall'account in cui il contatore risulta offline. Lo smart-me Cloud riconosce i dispositivi già noti e aggiunge i nuovi dati senza modificare quelli esistenti.
 
-La reinstallazione avviene con la stessa procedura descritta nella [messa in servizio](/konfiguration/inbetriebnahme). Nell'app selezionate il + in alto a destra e reinstallate il dispositivo. Il nuovo SSID e la nuova password vengono salvati automaticamente sul dispositivo. È importante assicurarsi di aver effettuato l'accesso con l'account corretto.
+La reinstallazione avviene con la stessa procedura descritta nella [messa in servizio](/konfiguration/inbetriebnahme). Nell'app selezioni il + in alto a destra e reinstalli il dispositivo. In questo modo il nuovo SSID e la nuova password vengono salvati automaticamente sul dispositivo. È importante assicurarsi di aver effettuato l'accesso con l'account corretto.
 
-### Circoscrivere il problema
+### Delimitazione del problema
 
-È importante innanzitutto capire a grandi linee da cosa dipende il problema di connessione. Se più contatori perdono la connessione (sono offline) quasi contemporaneamente, ciò indica probabilmente un problema con l'access point, il router o la connessione Internet.
+È importante innanzitutto capire a grandi linee da cosa dipende il problema di connessione. Se più contatori perdono la connessione quasi contemporaneamente (sono offline), ciò indica probabilmente problemi con l'access point, il router o la connessione Internet.
 
 Possibili problemi:
 
-- L'access point o il router ha un problema. In questi casi può essere utile riavviare il router o l'access point. Dopo il riavvio, i nostri dispositivi dovrebbero normalmente ricollegarsi al cloud smart-me entro pochi minuti.
+- L'access point o il router ha un problema. In questi casi può essere utile riavviare il router o l'access point. Dopo il riavvio, i nostri dispositivi dovrebbero di norma ristabilire la connessione con lo smart-me Cloud entro pochi minuti.
 
-- È stato attivato un nuovo provider Internet oppure è stato definito un nuovo SSID (nome della rete WLAN). In questo caso dovete salvare la nuova rete su ogni dispositivo smart-me, affinché possano ricollegarsi.
+- È stato attivato un nuovo provider Internet oppure è stato definito un nuovo SSID (nome della rete WLAN). In questo caso deve salvare la nuova rete su ogni dispositivo smart-me, affinché possano riconnettersi.
 
-- Nel caso di connessioni Internet mobili, può darsi che l'abbonamento non sia stato pagato. Assicuratevi che i pagamenti per Internet mobile siano in regola.
+- Con le connessioni Internet mobili può accadere che l'abbonamento non sia stato pagato. Si assicuri che i pagamenti per l'Internet mobile siano in regola.
 
 
-Se ha perso la connessione solo un singolo contatore o un piccolo gruppo di contatori, il problema risiede di norma piuttosto nel contatore smart-me interessato.
+Se solo un singolo contatore o un piccolo gruppo di contatori ha perso la connessione, il problema risiede di norma piuttosto nel contatore smart-me interessato.
 
 ## Riportare online il contatore
 
 Le seguenti istruzioni propongono una procedura uniforme per riportare online un contatore. 
 
-Tenete presenti i seguenti requisiti:
+Tenga presente i seguenti prerequisiti:
 
 - Questa procedura presuppone che Internet sia configurato correttamente e soddisfi tutti i requisiti necessari.
 
-- Assicuratevi che un altro contatore nello stesso account, che secondo la pianificazione dovrebbe essere collegato allo stesso router o access point, sia online. In questo modo si garantisce che né l'hardware Internet né i relativi requisiti siano la causa del problema.
+- Si assicuri che un altro contatore nello stesso account, che secondo la pianificazione dovrebbe essere collegato allo stesso router o access point, sia online. In questo modo si garantisce che né l'hardware Internet né i relativi requisiti siano la causa del problema.
 
 
 ### Telstar 80A e Telstar CT
@@ -77,7 +77,7 @@ Tenete presenti i seguenti requisiti:
 
 #### 1\. Riavviare il contatore
 
-Questa è solo un'informazione su come si procede; più avanti potrebbe esservi chiesto di riavviare il contatore per riportarlo online. 
+Questa è solo un'informazione su come procedere; più avanti potrebbe essere richiesto di riavviare il contatore per riportarlo online. 
 
 Forzare il riavvio: 
 
@@ -89,9 +89,9 @@ Come riconosco il riavvio:
 
 Comportamento quando il contatore torna online:
 
-- In alto a destra sullo schermo, subito dopo il riavvio, il simbolo del segnale alterna tra X e ricezione. 
+- In alto a destra sullo schermo, subito dopo il riavvio, il segnale di ricezione alterna tra X e ricezione. 
 
-- Il contatore è online quando, dopo circa 1 minuto, il simbolo del segnale in alto a destra sul display è acceso in modo permanente e nero.
+- Il contatore è online quando, dopo circa 1 minuto, il segnale di ricezione in alto a destra sul display è acceso in modo permanente e nero.
 
 - Verificare brevemente se il contatore è online nel cloud.
 
@@ -99,9 +99,9 @@ Comportamento quando il contatore torna online:
 
 Comportamento quando il contatore non torna online:
 
-- In alto a destra sullo schermo, dopo il riavvio, il simbolo del segnale alterna tra X e ricezione per più di 2 minuti, senza che il contatore torni online.
+- In alto a destra sullo schermo, dopo il riavvio, il segnale di ricezione alterna tra X e ricezione per più di 2 minuti senza tornare online.
 
-- Se questo non aiuta, chiamare il supporto.
+- Se ciò non aiuta, chiamare il supporto.
 
 ![Contatore offline – Figura 3](/img/stoerungsbehebung-zaehler-offline/03.gif)
 
@@ -122,11 +122,11 @@ All'arrivo è possibile verificare i seguenti punti. Se è già stato modificato
 
 #### 3\. Il contatore alterna tra X e simbolo di ricezione:
 
-- Verificare se, premendo il tasto T1 per 10 secondi, il simbolo di ricezione sul display alterna tra chiaro e scuro. In caso contrario, chiamate il supporto.
+- Verificare se, premendo il tasto T1 per 10 secondi, il simbolo di ricezione sul display alterna tra chiaro e scuro. In caso contrario, chiami il supporto.
 
-- Soluzione 1: premete contemporaneamente T1 e T2: il contatore dovrebbe oscurarsi brevemente. Attendete 1 minuto e verificate se il contatore è di nuovo online.
+- Soluzione 1: prema contemporaneamente T1 e T2: il contatore dovrebbe oscurarsi brevemente. Attenda 1 minuto e verifichi se il contatore è di nuovo online.
 
-- Soluzione 2: reinstallate il contatore. Selezionate l'account di destinazione e non eliminate in nessun caso il contatore nell'account.
+- Soluzione 2: reinstalli il contatore. Selezioni l'account di destinazione e non elimini in nessun caso il contatore nell'account.
 
 - Soluzione 3: chiamare il supporto 
 
@@ -144,7 +144,7 @@ All'arrivo è possibile verificare i seguenti punti. Se è già stato modificato
 
 Il display si oscura ripetutamente:
 
-- Descrizione del problema: il contatore visualizza qualcosa. Dopo un momento non visualizza più nulla per alcuni secondi. Poi riappare, ecc...
+- Descrizione del problema: il contatore visualizza qualcosa. Dopo un momento, per alcuni secondi non visualizza più nulla. Poi riappare, ecc...
 
 - Soluzione 1: verificare se il conduttore neutro è collegato e cablato correttamente. 
 
@@ -153,7 +153,7 @@ Il display si oscura ripetutamente:
 
 Il contatore genera una WLAN locale per più di 5 minuti:
 
-- Come riconosco questo stato: il simbolo del segnale in alto a destra sul display alterna tra ricezione chiara e scura.
+- Come riconosco questo stato: il segnale di ricezione in alto a destra sul display alterna tra ricezione chiara e scura.
 
 - In questo caso ciò indica un tasto T1 bloccato.
 
@@ -164,7 +164,7 @@ Il contatore genera una WLAN locale per più di 5 minuti:
 
 Il contatore visualizza permanentemente una X in alto a destra:
 
-- Soluzione 1: verificare se il display si oscura ripetutamente. In tal caso, leggere la soluzione nella sezione precedente "Il display si oscura ripetutamente".
+- Soluzione 1: verificare se il display si oscura ripetutamente. In tal caso, consultare la soluzione nella sezione precedente "Il display si oscura ripetutamente".
 
 - Soluzione 2: riavviare il contatore (vedere la descrizione sopra)
 
@@ -175,12 +175,12 @@ Il contatore visualizza permanentemente una X in alto a destra:
 
 Il contatore non riesce a connettersi alla WLAN:
 
-- Il simbolo del segnale in alto a destra sul display alterna tra ricezione e X.
+- Il segnale di ricezione in alto a destra sul display alterna tra ricezione e X.
 
 
 - Soluzione 1: riavviare il contatore (vedere la descrizione sopra)
 
-- Soluzione 2: va applicata solo se nelle vicinanze non c'è nessun altro contatore online. Con lo smartphone creare un hotspot con lo stesso SSID e la stessa password della rete WiFi esistente. Poi riavviare di nuovo il contatore e verificare se si connette tramite l'hotspot dello smartphone. Se il contatore si connette tramite l'hotspot, ciò indica un problema con il router WLAN o l'access point. Tenere presente che la maggior parte degli smartphone consente al massimo a cinque dispositivi di connettersi tramite l'hotspot.
+- Soluzione 2: va applicata solo se nelle vicinanze non c'è nessun altro contatore online. Con lo smartphone creare un hotspot con lo stesso SSID e la stessa password della rete WiFi esistente. Quindi riavviare nuovamente il contatore e verificare se si connette tramite l'hotspot dello smartphone. Se il contatore si connette tramite l'hotspot, ciò indica un problema con il router WLAN o l'access point. Occorre tenere presente che la maggior parte degli smartphone consente al massimo a cinque dispositivi di connettersi tramite l'hotspot.
 
 - Soluzione 3: se possibile senza grande sforzo, rimuovere il fusibile e reinserirlo. 
 
@@ -189,13 +189,13 @@ Il contatore non riesce a connettersi alla WLAN:
 
 ### Trifase 80A (versione precedente)
 
-- Il numero di serie inizia con 60\*: Trifase 80A
+- Il numero di serie inizia con 60\*: trifase 80A
 
 
 #### 1. Riavviare il contatore
 
 
-Questa è solo un'informazione su come si procede. Più avanti potrebbe esservi chiesto di riavviare il contatore per riportarlo online. 
+Questa è solo un'informazione su come procedere. Più avanti potrebbe essere richiesto di riavviare il contatore per riportarlo online. 
 
 Forzare il riavvio: 
 
@@ -209,9 +209,9 @@ Come riconosco il riavvio?
 
 Comportamento quando il contatore torna online:
 
-- In alto a sinistra sullo schermo, subito dopo il riavvio, il simbolo WiFi alterna tra WiFi con e senza punto esclamativo.
+- In alto a sinistra sullo schermo, subito dopo il riavvio, il segnale WiFi alterna tra WiFi con e senza punto esclamativo.
 
-- Il contatore è online quando, dopo circa 1 minuto, il simbolo WiFi in alto a sinistra sul display viene visualizzato permanentemente senza punto esclamativo.
+- Il contatore è online quando, dopo circa 1 minuto, il segnale WiFi in alto a sinistra sul display viene visualizzato permanentemente senza punto esclamativo.
 
 - Verificare brevemente se il contatore è online nel cloud.
 
@@ -220,9 +220,9 @@ Comportamento quando il contatore torna online:
 
 Comportamento quando il contatore non torna online:
 
-- In alto a sinistra sullo schermo, dopo il riavvio, il simbolo WiFi alterna tra WiFi con e senza punto esclamativo per più di 2 minuti, senza che il contatore torni online.
+- In alto a sinistra sullo schermo, dopo il riavvio, il segnale WiFi alterna tra WiFi con e senza punto esclamativo per più di 2 minuti senza tornare online.
 
-- Se questo non aiuta, chiamare il supporto.
+- Se ciò non aiuta, chiamare il supporto.
 
 
 #### Verifica all'arrivo
@@ -260,7 +260,7 @@ Sul display viene visualizzato 888888:
 
 Il contatore genera una WLAN locale per più di 5 minuti:
 
-- Come riconosco questo stato: il simbolo WiFi in alto a sinistra sul display viene visualizzato alternativamente con e senza punto esclamativo.
+- Come riconosco questo stato: il segnale WiFi in alto a sinistra sul display viene visualizzato alternativamente con e senza punto esclamativo.
 
 - In questo caso ciò indica un tasto T1 bloccato.
 
@@ -271,12 +271,12 @@ Il contatore genera una WLAN locale per più di 5 minuti:
 
 Il contatore non riesce a connettersi alla WLAN:
 
-- Come riconosco questo stato: il simbolo WiFi in alto a sinistra sul display viene visualizzato con il punto esclamativo.
+- Come riconosco questo stato: il segnale WiFi in alto a sinistra sul display viene visualizzato con il punto esclamativo.
 
 
 - Soluzione 1: riavviare il contatore (vedere la descrizione sopra)
 
-- Soluzione 2: con lo smartphone creare un hotspot con lo stesso SSID e la stessa password della rete WiFi esistente. Poi riavviare di nuovo il contatore e verificare se si connette tramite l'hotspot dello smartphone. Se il contatore si connette tramite l'hotspot, ciò indica un problema con il router WLAN o l'access point. Tenere presente che la maggior parte degli smartphone consente al massimo a cinque dispositivi di connettersi tramite l'hotspot.
+- Soluzione 2: con lo smartphone creare un hotspot con lo stesso SSID e la stessa password della rete WiFi esistente. Quindi riavviare nuovamente il contatore e verificare se si connette tramite l'hotspot dello smartphone. Se il contatore si connette tramite l'hotspot, ciò indica un problema con il router WLAN o l'access point. Occorre tenere presente che la maggior parte degli smartphone consente al massimo a cinque dispositivi di connettersi tramite l'hotspot.
 
 - Soluzione 3: se possibile senza grande sforzo, rimuovere il fusibile e reinserirlo. 
 
@@ -285,7 +285,7 @@ Il contatore non riesce a connettersi alla WLAN:
 
 ### Stazione Bauer
 
-- Il simbolo nel portale smart-me è un simbolo di distributore di benzina e non un fulmine
+- Il simbolo nel portale smart-me è un simbolo di distributore di carburante e non un fulmine
 
 - Il numero di serie inizia con 60\*: contatore trifase 80A (vecchio)
 
@@ -308,9 +308,9 @@ A partire dalla versione FW 0.0.18, la qualità di ricezione WLAN viene visualiz
 
 Questa informazione può essere richiamata da tutti gli account tramite l'[API](https://sites.google.com/u/0/d/1aCvQ4VBGjc0Zn6Acdv_my2AEp54cDrdX/revisionspreview?revision=415029&pageId=1L6QLXZEHWjDfqgdtjRQyM9vH29YdMCAn) con il comando "GET /api/AdditionalDeviceInformation/&#123;id&#125;".
 
-- -   Pico: WiFi (0 = unknown, da -1 a -49 = excellent,  da -50 a  -59 = very good,  da -60 a -69 = good, da -70 a -99= low) (-99 scarsa, -1 buona)
+- -   Pico: WiFi (0 = unknown, da -1 a -49 = excellent,  da -50 a  -59 = very good,  da -60 a -69 = good, da -70 a -99= low) (-99 scarso, -1 buono)
 
-    - Pico: Mobile (0 = unknown, da 1 a -74 = excellent, da -75 a -84 = good,  da -85 a -94 = low) (-99 scarsa, -1 buona)
+    - Pico: Mobile (0 = unknown, da 1 a -74 = excellent, da -75 a -84 = good,  da -85 a -94 = low) (-99 scarso, -1 buono)
 
 </div>
 <div className="col col--7 bild--mitte">
@@ -320,28 +320,28 @@ Questa informazione può essere richiamata da tutti gli account tramite l'[API](
 </div>
 </div>
 
-### I Goldpartner possono verificare online il tipo e la qualità di connessione di Telstar e Pico.
+### I Gold Partner possono verificare online il tipo e la qualità della connessione di Telstar e Pico.
 
 <div className="row">
 <div className="col col--7">
 
-- Accedere all'account Goldpartner
+- Accedere all'account Gold Partner
 
 - Configurazione (Konfiguration)
 
 - Partner (Partner)
 
-- Gestione dispositivi (Geräteverwaltung) (con molti dispositivi può richiedere un po' di tempo)
+- Gestione dei dispositivi (Geräteverwaltung) (con molti dispositivi può richiedere un po' di tempo)
 
 - Viene visualizzata una nuova colonna con il tipo di connessione
 
-- La qualità viene indicata tra parentesi.
+- La qualità è indicata tra parentesi.
 
-    - Telstar: WiFi &lt;= 40 può causare connessioni instabili (0 scarsa / 100 buona)
+    - Telstar: WiFi &lt;= 40 può causare connessioni instabili (0 scarso / 100 buono)
 
-    - Pico: WiFi (0 = unknown, da -1 a -49 = excellent,  da -50 a  -59 = very good,  da -60 a -69 = good, da -70 a -99= low) (-99 scarsa, -1 buona)
+    - Pico: WiFi (0 = unknown, da -1 a -49 = excellent,  da -50 a  -59 = very good,  da -60 a -69 = good, da -70 a -99= low) (-99 scarso, -1 buono)
 
-    - Pico: Mobile (0 = unknown, da 1 a -74 = excellent, da -75 a -84 = good,  da -85 a -94 = low) (-99 scarsa, -1 buona)
+    - Pico: Mobile (0 = unknown, da 1 a -74 = excellent, da -75 a -84 = good,  da -85 a -94 = low) (-99 scarso, -1 buono)
 
 Questa informazione può essere richiamata da tutti gli account tramite l'[API](https://sites.google.com/u/0/d/1aCvQ4VBGjc0Zn6Acdv_my2AEp54cDrdX/revisionspreview?revision=415029&pageId=1L6QLXZEHWjDfqgdtjRQyM9vH29YdMCAn) con il comando "GET /api/AdditionalDeviceInformation/&#123;id&#125;".
 

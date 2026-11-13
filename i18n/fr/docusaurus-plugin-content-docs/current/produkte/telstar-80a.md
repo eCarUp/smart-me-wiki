@@ -1,16 +1,16 @@
 ---
 title: 'Compteur triphasé Telstar 80A'
 slug: '/produkte/telstar-80a'
-description: 'Le Telstar 80A de smart-me est un compteur d''énergie certifié MID doté d''une interface WiFi intégrée pour la transmission de données en temps réel.'
+description: 'Le smart-me Telstar 80A est un compteur d''énergie certifié MID doté d''une interface WiFi intégrée pour la transmission de données en temps réel.'
 sidebar_label: 'Compteur triphasé Telstar 80A'
 ---
-Le Telstar 80A de smart-me est un compteur d'énergie certifié MID doté d'une interface WiFi intégrée pour la transmission de données en temps réel. Le compteur synchronise automatiquement les valeurs de mesure, de manière chiffrée, dans le smart-me Cloud. Les données peuvent être exportées et traitées dans le portail smart-me ou, via notre interface ouverte, dans des systèmes tiers. Le compteur dispose de deux sorties numériques pour la commande d'appareils libres de potentiel.
+Le smart-me Telstar 80A est un compteur d'énergie certifié MID doté d'une interface WiFi intégrée pour la transmission de données en temps réel. Le compteur synchronise les valeurs mesurées automatiquement et de manière chiffrée vers le smart-me Cloud. Les données peuvent être exportées et traitées dans le portail smart-me ou, via notre interface ouverte, dans des systèmes tiers. Le compteur dispose de deux sorties numériques pour la commande d'appareils libres de potentiel.
 
-![Compteur triphasé Telstar 80A – illustration 1](/img/produkte-telstar-80a/01.jpg)
+![Compteur triphasé Telstar 80A – Illustration 1](/img/produkte-telstar-80a/01.jpg)
 
 ## Fonctions
 
-- [Installation](/konfiguration/inbetriebnahme) avec l'app smart-me gratuite.
+- [Installation](/konfiguration/inbetriebnahme) avec l'application smart-me gratuite.
 
 - Facturation avec le [smart-me Billing Tool](/konfiguration/billing)
 
@@ -18,9 +18,9 @@ Le Telstar 80A de smart-me est un compteur d'énergie certifié MID doté d'une 
 
 - [Visualisations](/konfiguration/visualisierung)
 
-- [Sorties à contact libre de potentiel](/schnittstellen/ein-und-ausgaenge) pour la commande d'appareils externes, dont une avec relais 8A
+- [Sorties de contact libres de potentiel](/schnittstellen/ein-und-ausgaenge) pour la commande d'appareils externes, dont une avec relais 8A
 
-- Entrée à contact libre de potentiel pour signal tarifaire ou [entrée numérique](/schnittstellen/ein-und-ausgaenge)
+- Entrée de contact libre de potentiel pour signal tarifaire ou [entrée numérique](/schnittstellen/ein-und-ausgaenge)
 
 - [Interfaces](/) via API, CSV, MSCONS et IS-E
 
@@ -30,8 +30,8 @@ Le Telstar 80A de smart-me est un compteur d'énergie certifié MID doté d'une 
 
 | Caractéristique | Valeur |
 | --- | --- |
-| Certification du produit | CE, MID 2014/32/EU, CH-Lastgang / énergie réactive, RED |
-| Classe de précision pour l'énergie active/l'énergie réactive | B (MID) / 2 (IEC) |
+| Certification du produit | CE, MID 2014/32/EU, courbe de charge CH / énergie réactive, RED |
+| Classe de précision pour l'énergie active/énergie réactive | B (MID) / 2 (IEC) |
 | Sens | +A (soutirage), -A (injection), +R, -R |
 | Quadrants | Q1, Q2, Q3, Q4 |
 | Tension du réseau | 3x230/400VAC 50Hz |
@@ -39,13 +39,13 @@ Le Telstar 80A de smart-me est un compteur d'énergie certifié MID doté d'une 
 | Section des conducteurs | 2.5 - 35 mm² |
 | Catégorie de l'appareil de mesure | CAT III |
 | Plage de température | -25°C à +70°C |
-| Humidité relative | Moyenne annuelle 75%, sans condensation<br />brièvement 95%, sans condensation |
+| Humidité relative de l'air | Moyenne annuelle 75%, sans condensation<br />brièvement 95%, sans condensation |
 | Valeurs mesurées | Énergie active (kWh), puissance active (kW)<br />Énergie réactive (kvarh), puissance réactive (kvar)<br />Courant (A), tension (V), facteur de puissance (cosφ) |
 | Autoconsommation | < 0.8W par phase |
 | Tarifs | Deux via l'entrée tarifaire numérique E1, tarifs virtuels illimités dans le smart-me Cloud |
 | Sortie S0 | 1'000 Imp/kWh |
 | Entrée numérique E1 | Entrée tarifaire libre de potentiel (12 VDC / 230 VAC) |
-| Sorties numériques S0-0, S-1 | Sorties libres de potentiel (SG Ready), 12 VDC / 230 VAC<br />S0-0: max. 0.4W<br />S-1: max. 8A@230VAC ou 5A@12VDC |
+| Sorties numériques S0-0, S-1 | Sorties libres de potentiel (SG Ready), 12 VDC / 230 VAC<br />S0-0 : max. 0.4W<br />S-1 : max. 8A@230VAC ou 5A@12VDC |
 | Communication | WLAN IEEE 802.11 b/g/n (2.4 GHz) |
 | Volume de données | < 75MB/mois |
 | Débit de données | < 0.1 Mbit/s |
@@ -83,12 +83,12 @@ Le Telstar 80A de smart-me est un compteur d'énergie certifié MID doté d'une 
 </div>
 <div className="col col--5 bild--mitte">
 
-![Compteur triphasé Telstar 80A – illustration 2](/img/produkte-telstar-80a/02.png)
+![Compteur triphasé Telstar 80A – Illustration 2](/img/produkte-telstar-80a/02.png)
 
 </div>
 </div>
 
-Le compteur dispose d'un affichage défilant. Les points décrits ci-dessous s'affichent successivement. Après le dernier point, le premier point s'affiche à nouveau.
+Le compteur dispose d'un affichage défilant. Les points décrits ci-dessous s'affichent l'un après l'autre. Après le dernier point, le premier point s'affiche de nouveau.
 
 **Relevé du compteur (code OBIS suivi du relevé du compteur)**
 
@@ -120,30 +120,30 @@ Le compteur dispose d'un affichage défilant. Les points décrits ci-dessous s'a
 
 ## Dimensions et raccordements
 
-Les données \*.DXF et \*.DWG se trouvent dans l'archive ZIP, dans les téléchargements.
+Les fichiers \*.DXF et \*.DWG se trouvent dans l'archive ZIP des téléchargements.
 
 ### Dimensions \[mm\]
 
 <div className="row">
 <div className="col col--6 bild--mitte">
 
-![Compteur triphasé Telstar 80A – illustration 3](/img/produkte-telstar-80a/03.png)
+![Compteur triphasé Telstar 80A – Illustration 3](/img/produkte-telstar-80a/03.png)
 
 </div>
 <div className="col col--6 bild--mitte">
 
-![Compteur triphasé Telstar 80A – illustration 4](/img/produkte-telstar-80a/04.png)
+![Compteur triphasé Telstar 80A – Illustration 4](/img/produkte-telstar-80a/04.png)
 
 </div>
 </div>
 
 ### Schéma de raccordement
 
-![Compteur triphasé Telstar 80A – illustration 5](/img/produkte-telstar-80a/05.png)
+![Compteur triphasé Telstar 80A – Illustration 5](/img/produkte-telstar-80a/05.png)
 
 ## Fonctions des touches
 
-![Compteur triphasé Telstar 80A – illustration 6](/img/produkte-telstar-80a/06.png)
+![Compteur triphasé Telstar 80A – Illustration 6](/img/produkte-telstar-80a/06.png)
 
 T1 Touche pour l'installation
 
@@ -159,13 +159,13 @@ Court : si T2 est maintenue enfoncée >2s, la LED verte change d'état (d'étein
 
 🟢 Vert fixe : connecté au smart-me Cloud
 
-❇️ Vert clignotant : établissement de la connexion ou pas de connexion
+❇️ Vert clignotant : établissement de la connexion ou aucune connexion
 
-Long : si T2 est maintenue enfoncée >8s, l'affichage de la puissance bascule entre puissance active et puissance réactive. De plus, la LED d'impulsion d'étalonnage bascule entre énergie active et énergie réactive.
+Long : si T2 est maintenue enfoncée >8s, l'affichage de la puissance bascule entre puissance active et puissance réactive. De plus, la LED d'impulsions d'étalonnage bascule entre énergie active et énergie réactive.
 
 Très long : si T2 est maintenue enfoncée >14s, la sortie d'impulsions S0-0 bascule entre puissance active et puissance réactive.
 
-Remarque : ce réglage modifie uniquement l'affichage sur l'écran, pas dans le smart-me Cloud (app et site web). Si l'énergie réactive doit être affichée dans le Cloud, cela doit être configuré dans les paramètres généraux (allgemeinen Einstellungen). 
+Remarque : ce réglage modifie uniquement l'affichage à l'écran, pas dans le smart-me Cloud (application et site web). Pour afficher l'énergie réactive dans le Cloud, il faut le configurer dans les paramètres généraux. 
 
 
 ## LED
@@ -173,7 +173,7 @@ Remarque : ce réglage modifie uniquement l'affichage sur l'écran, pas dans le 
 <div className="row">
 <div className="col col--5 bild--mitte">
 
-![Compteur triphasé Telstar 80A – illustration 7](/img/produkte-telstar-80a/07.png)
+![Compteur triphasé Telstar 80A – Illustration 7](/img/produkte-telstar-80a/07.png)
 
 </div>
 <div className="col col--7">
@@ -188,14 +188,14 @@ Remarque : ce réglage modifie uniquement l'affichage sur l'écran, pas dans le 
 <div className="row">
 <div className="col col--5 bild--mitte">
 
-![Compteur triphasé Telstar 80A – illustration 8](/img/produkte-telstar-80a/08.png)
+![Compteur triphasé Telstar 80A – Illustration 8](/img/produkte-telstar-80a/08.png)
 
 </div>
 <div className="col col--7">
 
-🔴 LED rouge - LED d'impulsion
+🔴 LED rouge - LED d'impulsions
 
-- Indique la puissance active ou réactive actuellement soutirée à raison de 1000 impulsions/kWh resp. 1000 impulsions/kVArh. La touche T2 permet de choisir si la puissance active ou la puissance réactive est affichée.
+- Indique la puissance active ou réactive actuellement soutirée en 1000 impulsions/kWh resp. 1000 impulsions/kVArh. La touche T2 permet de choisir si la puissance active ou la puissance réactive est affichée.
 
 - Par exemple : une LED portant l'indication « 1000 impulsions/kWh » clignote 1000 fois lorsque 1 kilowattheure (kWh) d'énergie a été soutiré ou injecté. Si les 1000 impulsions ont été comptées en 1 heure, une puissance constante de 1 kW a été mesurée.
 
@@ -204,18 +204,18 @@ Remarque : ce réglage modifie uniquement l'affichage sur l'écran, pas dans le 
 
 ## Configurer les entrées et sorties
 
-Le Telstar 80A dispose de deux sorties numériques et d'une entrée numérique, qui peuvent être utilisées comme entrées et sorties d'impulsions ou comme contact commutable libre de potentiel. Vous trouverez des détails à ce sujet sur la page wiki [Entrées et sorties](/schnittstellen/ein-und-ausgaenge) 
+Le Telstar 80A dispose de deux sorties numériques et d'une entrée numérique, qui peuvent être utilisées comme entrées et sorties d'impulsions ou comme contact commutable libre de potentiel. Vous trouverez plus de détails à ce sujet sur la page du wiki [Entrées et sorties](/schnittstellen/ein-und-ausgaenge) 
 
-Le Telstar 80A dispose, sur une sortie numérique, d'un relais pouvant commuter jusqu'à 8A.
+Le Telstar 80A dispose, sur l'une des sorties numériques, d'un relais capable de commuter jusqu'à 8A.
 
-## Technologie mesh
+## Technologie maillée (mesh)
 
-En cas de réception WiFi très faible ou absente, le Telstar 80A se connecte automatiquement, via la fonction mesh, à un autre compteur voisin à portée. Celui-ci se charge alors de la communication avec le smart-me Cloud. La technologie mesh garantit une plus grande disponibilité des compteurs vis-à-vis du smart-me Cloud. Il n'est pas possible de désactiver la fonction mesh sur le compteur. Lorsque [Modbus TCP](/schnittstellen/modbus-tcp) est activé, des restrictions spécifiques s'appliquent.
+En cas de réception WiFi très faible ou absente, le Telstar 80A se connecte automatiquement via la fonction mesh à un autre compteur voisin à portée. Celui-ci prend alors en charge la communication avec le smart-me Cloud. La technologie mesh garantit une meilleure disponibilité des compteurs vis-à-vis du smart-me Cloud. Il n'est pas possible de désactiver la fonction mesh sur le compteur. Lorsque [Modbus TCP](/schnittstellen/modbus-tcp) est activé, des restrictions spécifiques s'appliquent.
 
 ## Informations d'expédition
 
 Numéro d'article : 202063
-Désignation de l'article : smart-me 3-Phasen-Energiezähler 80A MID Telstar Wifi
+Nom de l'article : smart-me 3-Phasen-Energiezähler 80A MID Telstar Wifi
 
 Numéro de tarif douanier : 9028.3019
 
@@ -231,7 +231,7 @@ Poids avec emballage : 415g
 
 [Schéma de raccordement](https://drive.google.com/file/d/1400_Edqq9WfG48wg-60NUsQZ5CrBbM5B/view?usp=sharing)
 
-[Schéma de raccordement fichiers ZIP](https://drive.google.com/file/d/1aKyx7qWyNh56Mrj-iAzfRxW_baVQtTmo/view?usp=share_link) (les données \*.DXF et \*.DWG se trouvent dans l'archive ZIP)
+[Schéma de raccordement fichiers ZIP](https://drive.google.com/file/d/1aKyx7qWyNh56Mrj-iAzfRxW_baVQtTmo/view?usp=share_link) (les fichiers \*.DXF et \*.DWG se trouvent dans l'archive ZIP)
 
 [Quick Starter](https://docs.google.com/document/d/1qW-3HcgJ3si6LE-HPIYaLg9N9HZhR4PZgu0LJcP5_DY/export?format=pdf)
 
@@ -240,7 +240,7 @@ Poids avec emballage : 415g
 <details id="in-welchem-intervall-senden-die-zähler-daten">
 <summary>À quel intervalle les compteurs envoient-ils des données ?</summary>
 
-- Toutes les 15 minutes, soit à xx:00:00, xx:15:00, xx:30:00 et xx:45:00. Les données nécessaires pour la courbe de charge sont ainsi envoyées. En cas d'interruption de la connexion, ces données sont enregistrées localement et envoyées ultérieurement.
+- Toutes les 15 minutes, soit à xx:00:00, xx:15:00, xx:30:00 et xx:45:00. Les données nécessaires à la courbe de charge sont ainsi envoyées. En cas d'interruption de la connexion, ces données sont enregistrées localement et envoyées ultérieurement.
 
 - En outre, au moins toutes les 330 secondes.
 
@@ -254,13 +254,13 @@ Poids avec emballage : 415g
 
     - Variation de la tension supérieure à 1V
 
-    - Chaque seconde, lorsque le compteur est sélectionné dans la GUI (portail smart-me)
+    - Chaque seconde, lorsque le compteur est sélectionné dans l'interface graphique (portail smart-me)
 
 </details>
 
 <details id="kann-ich-den-zählerstand-auf-null-zurücksetzten">
 <summary>Puis-je remettre le relevé du compteur à zéro ?</summary>
 
-Non, comme nos compteurs sont utilisés pour des décomptes, il n'est pas possible de les remettre à zéro.
+Non, nos compteurs étant utilisés pour des décomptes, il n'est pas possible de les remettre à zéro.
 
 </details>

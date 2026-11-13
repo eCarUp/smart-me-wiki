@@ -6,7 +6,7 @@ sidebar_label: 'Pico errors'
 ---
 This page explains the known Pico errors.
 
-### RFID is not recognized.
+### RFID is not detected.
 
 Meaning: 
 
@@ -17,22 +17,22 @@ Meaning:
 
 Possible causes:
 
-- The RFID card is defective
+- RFID card is defective
 
-- The Pico has an error
+- Pico has an error
 
 
 
 
 Action:
 
-- Restart the Pico. If the restart solved the problem, we would be grateful for an email to [support@smart-me.com](mailto:support@smart-me.com). Please state the date of the incident and the serial number of the Pico.
+- Restart the Pico. If the restart solved the problem, we would appreciate an email to [support@smart-me.com](mailto:support@smart-me.com). Please state the date of the incident and the serial number of the Pico.
 
 - Try with a new RFID card
 
 ### Reduced charging power
 
-If the Pico delivers less power than it should, a phase may not be connected correctly or a fuse may have tripped. By clicking "Normal" (Normal), you can view the voltages and currents, similar to the electricity meters.
+If the Pico delivers less power than it should, a phase may not be connected correctly, or a fuse may have tripped. By clicking on "Normal" ("Normal"), you can view the voltages and currents, similar to the electricity meters.
 
 ### Black screen (no display)
 
@@ -41,29 +41,29 @@ If the Pico delivers less power than it should, a phase may not be connected cor
 
 Meaning: 
 
-- The Pico screen shows nothing. 
+- Pico screen displays nothing. 
 
 Possible causes:
 
-- The Pico has no power
+- Pico has no power
 
-- The RCD has tripped
+- RCD has tripped
 
-- The Pico has an error in its local software
+- Pico has an error in the local software
 
 Action:
 
 - If the Pico is offline
 
-    - Step 1: Disconnect the power and switch it back on.
+    - Step 1: disconnect the power and switch it back on.
 
-    - Step 2: Check whether the application version is 1.xx ([Check hardware version](https://webforms.smart-me.com/connect/deviceoverview.aspx)). If so, [fill in the RMA](/rma-antragsformular-schweiz) with the error description: Black screen with application version 1.xx
+    - Step 2: Check whether Application Version 1.xx is installed ([Check hardware version](https://webforms.smart-me.com/connect/deviceoverview.aspx)); if so, [fill in an RMA](/rma-antragsformular-schweiz) with the error description: Black screen with Application Version 1.xx
 
     - Step 3: If this does not help, contact support.
 
-- If the Pico is online, it can be restarted via the smart-me portal. (Select the Pico / gear icon at the top right / Advanced actions (Erweiterte Aktionen) / Restart (Neustart))
+- If the Pico is online, it can be restarted via the smart-me portal. (Select Pico / gear icon at the top right / Advanced actions (Erweiterte Aktionen) / Restart (Neustart))
 
-- If the RCD trips, it may be an isolated incident. If it happens more often, please contact us. Except with the "IONIQ 5" and "Zoé": in isolated cases, these cars trip the RCD at the end of the charging session, and as a manufacturer of charging stations, we cannot change this.
+- If the RCD trips, it may be an isolated case. If it happens more frequently, please contact us. Except for the "IONIQ 5" and "Zoé": in isolated cases, these cars trip the RCD at the end of the charging session; as a manufacturer of charging stations, there is nothing we can do about this.
 
 </div>
 <div className="col col--4 bild--voll">
@@ -79,23 +79,23 @@ When a car is plugged in, the following should normally happen with
 
 - Authentication None 
 
-    - The standby screen disappears and a sequence with a charging start appears
+    - The standby image disappears and a sequence with a charging start appears
 
 - Authentication eCarUp Backend 
 
-    - The screen with "Auth RFID App" appears.
+    - the screen with "Auth RFID App" appears.
 
 
 If this is not the case, please proceed as follows
 
-- On the car, check whether the cable is plugged in correctly.
+- Check on the car that the cable is plugged in correctly.
 
-- On the Pico, make sure that the cable is pushed in all the way.
+- On the Pico, make sure that the cable is fully inserted.
 
 
 If it still does not respond, the station operator must check whether a cable is permanently attached to the station.
 
-- If this is the case, please make sure that the option "Cable always locked" (Kabel immer fest verriegelt) is activated in the smart-me portal. 
+- If this is the case, please make sure that the option "Cable always locked" ("Kabel immer fest verriegelt") is enabled in the smart-me portal. 
 
 - If this is not the case, please do so.
 
@@ -119,11 +119,11 @@ Possible causes:
 
 - A damp charging cable that is permanently connected.
 
-- A charging cable that froze overnight and thawed again.
+- Charging cable that froze overnight and thawed again.
 
-- A defect in the cable or car. This can be tested by having another car charge at the station or by charging the car that causes the error at another Pico.
+- Defect in the cable or car. This can be tested by having another car charge at the station or by charging the car causing the error at another Pico.
 
-- A defect in the Pico electronics, e.g. water damage.
+- Defect in the Pico electronics, e.g. water damage.
 
 
 
@@ -164,7 +164,7 @@ Display in the portal
 </div>
 <div className="col col--4 bild--voll">
 
-![Pico errors – Figure 3](/img/stoerungsbehebung-pico-fehler/03_EN.png)
+![Pico errors – Figure 3](/img/stoerungsbehebung-pico-fehler/03.png)
 
 </div>
 </div>
@@ -185,7 +185,7 @@ Meaning:
 
 Action: 
 
-- If a restart does not bring the desired result, an RMA must be filled in. Error description: Error 1
+- If a restart does not have the desired effect, an RMA must be filled in. Error description: Error 1
 
 </div>
 <div className="col col--4 bild--voll">
@@ -209,7 +209,7 @@ Meaning:
 
 Action: 
 
-- If a restart does not bring the desired result, an RMA must be filled in. Error description: Error 2
+- If a restart does not have the desired effect, an RMA must be filled in. Error description: Error 2
 
 </div>
 <div className="col col--4 bild--voll">
@@ -226,14 +226,14 @@ Action:
 
 Meaning:  
 
-- An error with the MID electricity measuring device
+- An error with the MID energy measuring device
 
 
 
 
 Action: 
 
-- If a restart does not bring the desired result, an RMA must be filled in. Error description: Error 3
+- If a restart does not have the desired effect, an RMA must be filled in. Error description: Error 3
 
 </div>
 <div className="col col--4 bild--voll">
@@ -250,7 +250,7 @@ Action:
 
 Meaning:  
 
-- The RCD test on the Pico failed.
+- RCD test on the Pico has failed.
 
 
 
@@ -307,12 +307,12 @@ Action:
 </div>
 <div className="col col--4 bild--voll">
 
-![Pico errors – Figure 10](/img/stoerungsbehebung-pico-fehler/10_EN.png)
+![Pico errors – Figure 10](/img/stoerungsbehebung-pico-fehler/10.png)
 
 </div>
 </div>
 
-### Car is not charging (bar is only one pixel wide and red)
+### Car does not charge (bar is only one pixel wide and red)
 
 <div className="row">
 <div className="col col--8">
@@ -370,20 +370,20 @@ Possible causes:
 
 Action:
 
-- Perform a firmware update if the version is lower than 0.0.29.
+- Carry out a firmware update if the version is lower than 0.0.29.
 
-- The display brightness of the Pico should be set to the minimum. This has the greatest effect, as less energy is generated directly inside the housing.
+- The display brightness of the Pico should be set to the minimum. This has the greatest effect, as less energy is then generated directly inside the housing.
 
 
 Car-specific problems
 
-- Hyundai Ioniq 5: In isolated cases, this car trips the RCD at the end of the charging session, and as a manufacturer of charging stations, we cannot change this, since the RCD trips independently of the charging station.
+- Hyundai Ioniq 5: In isolated cases, this car trips the RCD at the end of the charging session; as a manufacturer of charging stations, there is nothing we can do about this, since the RCD trips independently of the charging station.
 
-- Zoé: The older models must be configured with a start current of 10A, as they do not start charging at 6A. A test has shown that with a single-phase charging cable, charging also starts when only 6A start current is available. In isolated cases, this car trips the RCD at the end of the charging session, and as a manufacturer of charging stations, we cannot change this, since the RCD trips independently of the charging station.
+- Zoé: The older models must be configured with a start current of 10A, since they do not start charging with 6A. A test has shown that with a single-phase charging cable, charging also starts when only 6A start current is available. In isolated cases, this car trips the RCD at the end of the charging session; as a manufacturer of charging stations, there is nothing we can do about this, since the RCD trips independently of the charging station.
 
 - Renault Kangoo Electric: Only starts charging from 8A
 
-- Skoda Enyaq: It can sometimes take up to 1min 30sec until the charging session starts. Alternatively, deactivate the Car-ID.
+- Skoda Enyaq: It can sometimes take up to 1min 30sec for the charging session to start. Alternatively, deactivate the Car-ID.
 
 - Audi Q4: Charging does not start. 
 
@@ -393,9 +393,9 @@ Car-specific problems
 
 - Dacia Spring: Charging does not start. Solution: Install version 0.0.33 and deactivate the car-id on the Pico.
 
-- Hyundai Ioniq: The car only starts if the RFID card is held up first and the charging is then started. Alternatively, the Car-ID must be deactivated.
+- Hyundai Ioniq: The car only starts if the RFID card is presented first and charging is then started. Alternatively, the Car-ID must be deactivated.
 
-- Leapmotor / T03: Cannot cope with the phase switching. If charging is interrupted by the car after one minute, the door must be opened and closed several times on the car side.
+- Leapmotor / T03: Cannot cope with phase switching. When the car interrupts charging after one minute, the door must be opened and closed several times on the car.
 
 - Subaru Solterra: Only starts charging from 8A and with the Car-ID deactivated
 
@@ -403,4 +403,4 @@ Car-specific problems
 
 - Honda E:ny1: Only starts charging from 8A.
 
-- dongfeng box: Cannot cope with the phase switching. If charging is interrupted by the car after one minute, the door must be unlocked on the car side after 7 minutes, and it then starts charging again.
+- dongfeng box: Cannot cope with phase switching. When the car interrupts charging after one minute, the door must be unlocked on the car after 7 minutes, and it then starts charging again.

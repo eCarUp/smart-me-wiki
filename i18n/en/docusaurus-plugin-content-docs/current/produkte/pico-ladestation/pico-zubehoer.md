@@ -6,10 +6,10 @@ sidebar_label: 'Pico Accessories'
 ---
 ## 212070/VP Pico preparation kit
 
-The Pico preparation kit lets you pre-install additional charging stations that may be added later. The scope of delivery includes the base plate and a blanking cover.
+The Pico preparation kit allows you to pre-install additional charging stations for later. The scope of delivery includes the base plate and a blanking cover.
 
-As soon as an extension is due, the Pico electronics without mounting plate can be reordered under article number 212070/1.
-To mount it, click the Pico electronics into the mounting plate and screw them to the mounting plate.
+As soon as an expansion is due, the Pico electronics without mounting plate can be reordered under article number 212070/1.
+To install, click the Pico electronics into the mounting plate and screw them to it.
 
 ![Pico Accessories – Figure 1](/img/produkte-pico-ladestation-pico-zubehoer/01.jpg)
 
@@ -17,6 +17,6 @@ To mount it, click the Pico electronics into the mounting plate and screw them t
 
 ## 212070-CO Pico blanking cover (replacement)
 
-Replacement blanking cover for reordering in the event of vandalism or accidents.
+Replacement blanking cover for reordering in case of vandalism or accidents.
 
 ![Pico Accessories – Figure 3](/img/produkte-pico-ladestation-pico-zubehoer/02.jpg)

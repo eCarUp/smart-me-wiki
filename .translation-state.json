@@ -663,11 +663,11 @@
         "hash": "d78ee9c9f266d60d",
         "origin": "translated"
       },
-      "it": {
+      "fr": {
         "hash": "d78ee9c9f266d60d",
         "origin": "translated"
       },
-      "fr": {
+      "it": {
         "hash": "d78ee9c9f266d60d",
         "origin": "translated"
       }
@@ -772,15 +772,15 @@
     },
     "docs/konfiguration/billing/index.md": {
       "en": {
-        "hash": "946677a634aeaf5c",
+        "hash": "066c65e2100455ff",
         "origin": "translated"
       },
       "fr": {
-        "hash": "946677a634aeaf5c",
+        "hash": "066c65e2100455ff",
         "origin": "translated"
       },
       "it": {
-        "hash": "946677a634aeaf5c",
+        "hash": "066c65e2100455ff",
         "origin": "translated"
       }
     },
@@ -1363,11 +1363,11 @@
         "hash": "e65b82b0a5923d36",
         "origin": "translated"
       },
-      "it": {
+      "fr": {
         "hash": "e65b82b0a5923d36",
         "origin": "translated"
       },
-      "fr": {
+      "it": {
         "hash": "e65b82b0a5923d36",
         "origin": "translated"
       }
@@ -1797,11 +1797,11 @@
         "hash": "21f5eb28900744c6",
         "origin": "translated"
       },
-      "it": {
+      "fr": {
         "hash": "21f5eb28900744c6",
         "origin": "translated"
       },
-      "fr": {
+      "it": {
         "hash": "21f5eb28900744c6",
         "origin": "translated"
       }
@@ -1835,11 +1835,11 @@
       }
     },
     "docs/planung/projektkonfigurator.md": {
-      "fr": {
+      "en": {
         "hash": "28fab980c4d3849e",
         "origin": "translated"
       },
-      "en": {
+      "fr": {
         "hash": "28fab980c4d3849e",
         "origin": "translated"
       },
@@ -1909,11 +1909,11 @@
         "hash": "d408b993e1796083",
         "origin": "translated"
       },
-      "it": {
+      "fr": {
         "hash": "d408b993e1796083",
         "origin": "translated"
       },
-      "fr": {
+      "it": {
         "hash": "d408b993e1796083",
         "origin": "translated"
       }
@@ -2231,11 +2231,11 @@
         "hash": "c7e2817cecf304a0",
         "origin": "translated"
       },
-      "fr": {
+      "it": {
         "hash": "c7e2817cecf304a0",
         "origin": "translated"
       },
-      "it": {
+      "fr": {
         "hash": "c7e2817cecf304a0",
         "origin": "translated"
       }
@@ -2385,11 +2385,11 @@
         "hash": "6a747a9aaf185a6e",
         "origin": "translated"
       },
-      "it": {
+      "fr": {
         "hash": "6a747a9aaf185a6e",
         "origin": "translated"
       },
-      "fr": {
+      "it": {
         "hash": "6a747a9aaf185a6e",
         "origin": "translated"
       }
@@ -2469,11 +2469,11 @@
         "hash": "a9d1f5a01a10b7f9",
         "origin": "translated"
       },
-      "fr": {
+      "it": {
         "hash": "a9d1f5a01a10b7f9",
         "origin": "translated"
       },
-      "it": {
+      "fr": {
         "hash": "a9d1f5a01a10b7f9",
         "origin": "translated"
       }
@@ -2721,11 +2721,11 @@
         "hash": "d33e9b642a99c000",
         "origin": "translated"
       },
-      "fr": {
+      "it": {
         "hash": "d33e9b642a99c000",
         "origin": "translated"
       },
-      "it": {
+      "fr": {
         "hash": "d33e9b642a99c000",
         "origin": "translated"
       }

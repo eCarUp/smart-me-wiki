@@ -24,7 +24,7 @@ In questa pagina è disponibile una descrizione dei messaggi di errore più freq
 </div>
 <div className="col col--7 bild--mitte">
 
-![Finestra di dialogo „Emettere una fattura" (Rechnung erstellen) con periodo di conteggio, numero di fattura e i pulsanti Anteprima della fattura (Rechnungsvorschau), Emettere una fattura (Rechnung erstellen) ed Esporta (Exportieren)](/img/konfiguration-billing/14.png)
+![Finestra di dialogo „Emettere una fattura" (Rechnung erstellen) con periodo di conteggio, numero di fattura e i pulsanti Anteprima della fattura (Rechnungsvorschau), Emettere una fattura (Rechnung erstellen) ed Esporta (Exportieren)](/img/konfiguration-billing/14_IT.png)
 
 </div>
 </div>

@@ -1,14 +1,14 @@
 ---
 title: 'Gateway M-Bus'
 slug: '/produkte/m-bus-gateway'
-description: 'I gateway M-Bus smart-me leggono i contatori di energia con interfaccia M-Bus (EN 13757-2, -3) e trasmettono i dati automaticamente e in forma cifrata via WLAN al cloud smart-me.'
+description: 'I gateway M-Bus smart-me leggono i contatori di energia con interfaccia M-Bus (EN 13757-2, -3) e trasmettono i dati automaticamente e in forma crittografata via WLAN al cloud smart-me.'
 sidebar_label: 'Gateway M-Bus'
 ---
-I gateway M-Bus smart-me leggono i contatori di energia con interfaccia M-Bus (EN 13757-2, -3) e trasmettono i dati automaticamente e in forma cifrata via WLAN al cloud smart-me. Tramite il portale smart-me o la nostra interfaccia aperta, i valori dei diversi vettori energetici (acqua, calore, gas, temperatura) possono poi essere analizzati in modo flessibile ed esportati in sistemi di terzi.
+I gateway M-Bus smart-me leggono i contatori di energia con interfaccia M-Bus (EN 13757-2, -3) e trasmettono i dati automaticamente e in forma crittografata via WLAN al cloud smart-me. Tramite il portale smart-me o la nostra interfaccia aperta, i valori dei diversi vettori energetici (acqua, calore, gas, temperatura) possono poi essere analizzati in modo flessibile ed esportati in sistemi di terzi.
 
 ## I due dispositivi
 
-Entrambi i dispositivi offrono le stesse funzioni: si differenziano per il numero di carichi standard M-Bus, ossia per quanti contatori possono essere collegati a un gateway.
+Entrambi i dispositivi hanno le stesse funzioni: si differenziano per il numero di carichi standard M-Bus, ossia per quanti contatori possono essere collegati a un gateway.
 
 <Kacheln min="15rem">
 
@@ -37,13 +37,13 @@ Dati tecnici, schema di collegamento, funzioni dei tasti e download si trovano s
 Il gateway M-Bus legge oltre 1000 tipi di contatori di diversi produttori. Qui sotto trovi un elenco non esaustivo dei produttori di dispositivi compatibili.
 
 Nota: presta particolare attenzione a come è dichiarato il contatore. Può essere dichiarato come contatore di calore, contatore di calore / freddo, contatore dell'acqua o contatore elettrico.
-I contatori combinati che non sono dichiarati come contatori di calore / freddo potrebbero non funzionare correttamente in modalità combinata oppure funzionare solo come contatori di calore.
+I contatori combinati che non sono dichiarati come contatori di calore / freddo potrebbero non funzionare correttamente in modalità combinata o funzionare solo come contatori di calore.
 
 <Embed src="https://drive.google.com/file/d/1PVhN_1lLolihf6eNQ_1x7UxZK8cjE_hq/preview" height="700px" title="Drive, elenco di compatibilità M-Bus_Gateway.xlsx" />
 
 Elenco di compatibilità M-Bus\_Gateway.xlsx
 
-Anche tu dovresti comparire in questo elenco? Se il tuo prodotto supporta lo standard M-Bus EN 13757-2, -3 (in precedenza EN 1434-3), saremo lieti di inserirti tra i produttori di dispositivi compatibili! [Contattaci](/kontakt-schweiz).
+Anche tu dovresti essere in questo elenco? Se il tuo prodotto supporta lo standard M-Bus EN 13757-2, -3 (in precedenza EN 1434-3), saremo lieti di inserirti tra i produttori di dispositivi compatibili! [Contattaci](/kontakt-schweiz).
 
 ### Contatti dei produttori di dispositivi
 
@@ -75,7 +75,7 @@ Zofingerstrasse 61, CH-4665 Oftringen
 
 +41 62 746 99 00 · [www.ista-swiss.ch](https://www.ista-swiss.ch)
 
-André Huber (caposquadra / centro tecnico) · +41 62 746 99 10 · [andre.huber@ista-swiss.ch](mailto:andre.huber@ista-swiss.ch)
+André Huber (caposquadra / Technik Center) · +41 62 746 99 10 · [andre.huber@ista-swiss.ch](mailto:andre.huber@ista-swiss.ch)
 
 </Kachel>
 
@@ -85,7 +85,7 @@ Eichaustrasse 1, CH-9463 Oberriet
 
 +41 58 715 50 50 · [www.neovac.ch](https://www.neovac.ch)
 
-Heinz Marti (responsabile settore tecnico) · +41 58 715 56 90 · [heinz.marti@neovac.ch](mailto:heinz.marti@neovac.ch)
+Heinz Marti (responsabile area tecnica) · +41 58 715 56 90 · [heinz.marti@neovac.ch](mailto:heinz.marti@neovac.ch)
 
 </Kachel>
 
@@ -115,7 +115,7 @@ Steinackerstr. 55, CH-8902 Urdorf
 
 +41 43 455 65 00 · [www.techem.ch](https://www.techem.ch)
 
-Roger Holliger (gestione prodotti) · +41 43 455 65 16 · [roger.holliger@techem.ch](mailto:roger.holliger@techem.ch)
+Roger Holliger (gestione prodotto) · +41 43 455 65 16 · [roger.holliger@techem.ch](mailto:roger.holliger@techem.ch)
 
 </Kachel>
 
@@ -141,26 +141,26 @@ Brunnenbachstrasse 1, CH-8340 Hinwil
 
 ## Messa in servizio
 
-In queste pagine trovi tutte le informazioni utili per una messa in servizio corretta del gateway M-Bus.
+In queste pagine trovi tutte le informazioni rilevanti per una messa in servizio riuscita del gateway M-Bus.
 
 - [Preparazione della messa in servizio](/konfiguration/inbetriebnahme/smart-me-geraete#istruzioni-per-entrambi-gli-m-bus-gateway)
 
 - [Messa in servizio](/konfiguration/inbetriebnahme)
 
-- [Numerazione dei contatori combinati](/konfiguration/inbetriebnahme/smart-me-geraete)
+- [Numerazione per i contatori combinati](/konfiguration/inbetriebnahme/smart-me-geraete#numerazione-dei-contatori-combinati)
 
-- [Ricerca dei dispositivi del gateway M-Bus](/konfiguration/inbetriebnahme/smart-me-geraete#cercare-dispositivi-con-lm-bus-gateway)
+- [Ricerca di dispositivi gateway M-Bus](/konfiguration/inbetriebnahme/smart-me-geraete#cercare-dispositivi-con-lm-bus-gateway)
 
-- [Disattivare il rilevamento automatico dei dispositivi](/konfiguration/inbetriebnahme/smart-me-geraete)
+- [Disattivare il riconoscimento automatico dei dispositivi](/konfiguration/inbetriebnahme/smart-me-geraete#impedire-il-riconoscimento-di-nuovi-dispositivi-da-parte-dellm-bus-gateway)
 
 
 ## Prescrizioni di installazione M-Bus
 
 Così l'installazione riesce in un attimo
 
-- Tubi vuoti o canaline dalla centrale dati alle scatole di derivazione e agli strumenti di misura
+- Tubi vuoti o canaline dalla centrale dati alle scatole di derivazione e agli apparecchi di misura
 
-- Posa dei cavi elettrici verso tutti gli strumenti di misura e i componenti
+- Posa dei cavi elettrici verso tutti gli apparecchi di misura e i componenti
 
 - Scatole di derivazione / di collegamento piombabili in tutti i punti di serraggio e di collegamento
 
@@ -172,18 +172,18 @@ Così l'installazione riesce in un attimo
 Attenzione: non applicare tensione al gateway M-Bus smart-me. L'inserimento della tensione di esercizio può essere effettuato solo da un partner smart-me.
 
 Raccomandazione per la combinazione dei percorsi dei cavi
-Raccomandiamo di suddividere la posa delle linee bus in linee montanti e linee di diramazione:
+Raccomandiamo di suddividere la posa delle linee bus in linee montanti e linee di derivazione:
 
-![Gateway M-Bus – figura 6](/img/produkte-m-bus-gateway/06.png)
+![Gateway M-Bus – Figura 6](/img/produkte-m-bus-gateway/06.png)
 
-### Prescrizioni per l'installazione di cavi ed elettrica
+### Prescrizioni per l'installazione dei cavi e l'installazione elettrica
 
-In generale si applicano le prescrizioni SEV. Le linee bus dovrebbero essere il più corte possibile.
+In generale valgono le prescrizioni SEV. Le linee bus dovrebbero essere il più corte possibile.
 Si raccomandano i seguenti tipi di cavo:
 
-Linea montante: TT2×1,5 mm2 (preferito), lunghezza massima della linea = 1000 m
+Linea montante: TT2×1,5 mm2 (preferibile), lunghezza massima della linea = 1000 m
 
-Linea di diramazione: U72 1×4×0,8 mm2 (preferito), lunghezza massima della linea = 50 m
+Linea di derivazione: U72 1×4×0,8 mm2 (preferibile), lunghezza massima della linea = 50 m
 
 Nota: tutti i punti di derivazione, di collegamento e di giunzione devono essere piombabili.
 
@@ -193,12 +193,12 @@ La piombatura viene eseguita da un partner smart-me.
 
 Collegamenti/giunzioni:
 
-- Scatole AP: ad es. Woertz 78×78 mm
+- Scatole AP: p. es. Woertz 78×78 mm
 
 - Scatole UP: scatole di derivazione standard
 
 
-Giunzioni delle linee:
+Giunzioni dei conduttori:
 
 - Connettori a pressione «Scotchlok IDC» 0,5 ... 1,5 mm2
 
@@ -207,10 +207,10 @@ Giunzioni delle linee:
 
 ### A quale intervallo i contatori inviano i dati?
 
-In base all'intervallo impostato, i dati vengono letti in sequenza su ogni contatore M-Bus. La lettura di un contatore dura circa 3 secondi. I contatori vengono letti nell'ordine in cui sono elencati sotto il gateway M-Bus.
+In base all'intervallo impostato, i dati vengono letti in sequenza da ciascun contatore M-Bus. La lettura di un contatore dura circa 3 secondi. I contatori vengono letti nell'ordine in cui sono elencati sotto il gateway M-Bus.
 
 ## Descrizione tecnica del protocollo M-BUS
 
-Il cloud smart-me visualizza in linea di principio tutti i dati che il contatore invia tramite M-BUS. smart-me si attiene allo standard EN 13757-2, -3.
+Nel cloud smart-me vengono in linea di principio visualizzati tutti i dati che il contatore invia tramite M-BUS. smart-me si attiene allo standard EN 13757-2, -3.
 
 Alcuni esempi di mappatura dei telegrammi M-BUS: [Esempi: smart-me M-BUS OBIS Mapping](https://docs.google.com/spreadsheets/d/1YdANNycQFGBsSAA0OtO-GKNZQg42OdUJ03VKlixGZ1w/edit#gid=0)

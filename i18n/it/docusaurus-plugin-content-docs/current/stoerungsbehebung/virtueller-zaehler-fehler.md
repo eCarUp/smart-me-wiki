@@ -1,16 +1,16 @@
 ---
 title: 'Errori del contatore virtuale'
 slug: '/stoerungsbehebung/virtueller-zaehler-fehler'
-description: 'In questa pagina vengono illustrati gli errori noti relativi ai contatori virtuali.'
+description: 'Questa pagina illustra gli errori noti relativi ai contatori virtuali.'
 sidebar_label: 'Errori del contatore virtuale'
 ---
-In questa pagina vengono illustrati gli errori noti relativi ai contatori virtuali. 
+Questa pagina illustra gli errori noti relativi ai contatori virtuali. 
 
 Errore: "Formula non valida" ("Formel ungültig")
 
-Se si desidera creare un contatore virtuale e si riceve il seguente messaggio di errore.
+Quando si desidera creare un contatore virtuale e si riceve il seguente messaggio di errore.
 
-- Controlla se il contatore che vuoi aggiungere è offline.
+- Controlli se il contatore che si desidera aggiungere è offline.
 
 
 ![Errori del contatore virtuale – Figura 1](/img/stoerungsbehebung-virtueller-zaehler-fehler/01.png)
@@ -18,15 +18,15 @@ Se si desidera creare un contatore virtuale e si riceve il seguente messaggio di
 <div className="row">
 <div className="col col--7">
 
-Un contatore offline appare nella struttura delle cartelle come segue.
+Un contatore offline appare come segue nella struttura delle cartelle.
 
-In tal caso, vai alla pagina seguente:
+In questo caso, consulti la seguente pagina:
 
 [Contatore offline](/stoerungsbehebung/zaehler-offline)
 
-Se il contatore offline non serve più, è necessario eliminarlo e creare di nuovo il contatore virtuale.
+Se il contatore offline non è più necessario, occorre eliminarlo e creare nuovamente il contatore virtuale.
 
-A quel punto il problema dovrebbe essere risolto.
+Il problema dovrebbe quindi essere risolto.
 
 </div>
 <div className="col col--5 bild--mitte">

@@ -26,7 +26,7 @@ Cette page décrit les messages d'erreur les plus fréquents et les solutions po
 </div>
 <div className="col col--7 bild--mitte">
 
-![Boîte de dialogue « Établir une facture » (Rechnung erstellen) avec la période de décompte, le numéro de facture et les boutons Aperçu de la facture (Rechnungsvorschau), Établir une facture (Rechnung erstellen) et Exporter (Exportieren)](/img/konfiguration-billing/14.png)
+![Boîte de dialogue « Établir une facture » (Rechnung erstellen) avec la période de décompte, le numéro de facture et les boutons Aperçu de la facture (Rechnungsvorschau), Établir une facture (Rechnung erstellen) et Exporter (Exportieren)](/img/konfiguration-billing/14_FR.png)
 
 </div>
 </div>

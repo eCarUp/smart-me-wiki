@@ -10,7 +10,7 @@ This section systematically covers the error messages in Billing.
 
 The configuration of smart-me Billing is described here: [Billing](/konfiguration/billing) 
 
-In smart-me Billing, error messages are displayed in two places:
+smart-me Billing displays error messages in two places:
 
 - When calculating the virtual tariffs (if configured)
 
@@ -47,26 +47,26 @@ This message is displayed if no virtual tariffs have been calculated. This can h
 
 Billing has only just been set up
 
-- -   Cause: When Billing has just been created, you must press recalculate (neu rechnen) manually the first time
+- -   Cause: When Billing has just been created, you must press recalculate ("neu rechnen") manually the first time
 
-    - Solution: Press recalculate (neu rechnen)
+    - Solution: Press recalculate ("neu rechnen")
 
 
-Another error message is displayed below the message
+Another error message is shown below the message
 
 - -   Cause: The tariffs cannot be calculated if there are problems.
 
     - Solution: Resolve the error message below.
 
 
-Recalculate (neu rechnen) has only just been pressed
+Recalculate ("neu rechnen") has only just been pressed
 
 - -   Cause: It takes some time (1-2min) for the calculation to start.
 
     - Solution: Wait 1-2min
 
 
-No tariffs are defined for the current year
+No tariffs are stored for the current year
 
 - -   Cause: Billing requires valid tariffs for the entire billing period
 
@@ -80,14 +80,14 @@ Not the entire period is defined with a tariff. E.g. there is no tariff for 2019
     - Solution: Define tariffs from 2000 to 2099, or at least from commissioning until the end of the current year
 
 
-For the solar or battery tariff, the solar meter or total consumption meter has not been added.
+The solar meter or total consumption meter has not been added to the solar or battery tariff.
 
 - -   Cause: To calculate the split between grid and solar, solar tariffs require certain meters.
 
     - Solution: Check whether all solar and battery tariffs have the required meters assigned.
 
 
-The folder structure of the property has one level (billing units only), but it should have two levels (property and billing units).
+The folder structure of the property has one level (billing units only), but should have two levels (property and billing units).
 
 - -   Cause: The Billing structure has two levels and requires at least one billing unit.
 
@@ -98,13 +98,13 @@ The folder structure of the property has one level (billing units only), but it 
 <details id="evt001">
 <summary>EVT001: There must be at least one normal virtual tariff active, but for ValuePeriod &#123; ... &#125; there is none</summary>
 
-This message is displayed if there is not at least one valid grid tariff for the entire billing period. The curly brackets contain a point in time at which no grid tariff is valid (in UTC). 
+This message is displayed if at least one grid tariff is not valid for the entire billing period. The curly brackets contain a point in time at which no grid tariff is valid (in UTC). 
 
-- Solution 1: Define tariffs starting from the first transmitted value. E.g. from 5.8.2022 or earlier, 1.1.2000, then press "recalculate" ("neu rechnen").
+- Solution 1: Define tariffs starting from the first transmitted value, e.g. from 5.8.2022 or earlier, 1.1.2000, then press "recalculate" ("neu rechnen").
 
 - Solution 2: Define tariffs for the current year (e.g. until 31.12.2024), then press "recalculate" ("neu rechnen").
 
-- Solution 3: For peak/off-peak tariffs: Check whether they cover 24h. [If/Then Actions](/konfiguration/billing/stromtarife-definieren)
+- Solution 3: For peak/off-peak tariffs: Check whether they cover 24h. [If / Then Actions](/konfiguration/billing/stromtarife-definieren)
 
 - Solution 3: Press "recalculate" ("neu rechnen") and enter the date from which a valid tariff is configured.
 
@@ -115,22 +115,22 @@ This message is displayed if there is not at least one valid grid tariff for the
 
 This message is displayed if more than one grid tariff is valid at the same time. As a result, Billing cannot decide which tariff the consumption must be allocated to.
 
-- Solution 1: The tariffs have an overlapping start and end date for their validity.
+- Solution 1: The tariffs have an overlapping start and end date of validity.
 
-- Solution 2: For peak/off-peak tariffs: No condition is defined for either tariff. At least one of the two tariffs must have a condition (e.g. the peak tariff).
+- Solution 2: For peak/off-peak tariffs: No condition is set for either tariff. At least one of the two tariffs must have a condition (e.g. the peak tariff).
 
-- Solution 3: The if/then actions were configured incorrectly. This occurs especially when peak and off-peak tariffs are configured for both grid and solar electricity.
+- Solution 3: The if/then actions have been configured incorrectly. This occurs mainly when peak and off-peak tariffs are configured for both grid and solar electricity.
 
 </details>
 
 <details id="evt003">
 <summary>EVT003: For ValuePeriod ... the following virtual tariffs are active but erroneous: - Solar tariff ... is invalid because of: Solar Meter: Meter with id ....' does not exist</summary>
 
-This message is displayed if there is a problem with the meter assigned to a solar tariff.
+This message is displayed if there is a problem with a meter assigned to a solar tariff.
 
 - Solution 1: No meter has been assigned -> assign a meter
 
-- Solution 2: An old meter that has since been deleted was assigned -> assign a new meter
+- Solution 2: An old meter has been assigned that has since been deleted -> assign a new meter
 
 </details>
 
@@ -139,7 +139,7 @@ This message is displayed if there is a problem with the meter assigned to a sol
 
 One of the billing units contains a deleted meter.
 
-- Select the billing unit named in the error message, delete the deleted meter "not found" and assign a new meter if necessary
+- Select the billing unit specified in the error message, delete the deleted meter "not found" and assign a new meter if necessary
 
 </details>
 
@@ -152,14 +152,14 @@ This error message appears if no billing unit was found.
 
 - Solution 1:  Check the folder structure. [Info](/konfiguration/billing)
 
-- Solution 2: Create the property again. To do this, click add property (Liegenschaft hinzufügen) again in Billing under Configuration (Konfiguration) and select the same node. No data is lost in the process.
+- Solution 2: Create the property again. To do this, in Billing under Configuration (Konfiguration), click Add property (Liegenschaft hinzufügen) again and select the same node. No data is lost in the process.
 
 
-No billing units are listed under the external keys (at the end of the page).
+No billing units are listed under the external keys (at the bottom of the page).
 
 - -   Cause: The billing units were added to the property afterwards via drag-and-drop.
 
-    - Solution: The billing units must be created again. It is important to select the property folder each time and then choose "Add node" ("Knoten hinzufügen"). The name of the property folder must be displayed under "Parent folder" ("Übergeordneter Ordner").
+    - Solution: The billing units must be created again. It is important to select the property folder each time and then choose "Add node" ("Knoten hinzufügen"). The name of the property folder must be shown under "Parent folder" ("Übergeordneter Ordner").
 
 </details>
 
@@ -184,9 +184,9 @@ The virtual meter consists of meters that have been deleted.
 <details id="evt007">
 <summary>EVT007: Not all meters in the configuration may have the load profile or meter reading profile certification legally required for virtual tariffs. (Möglicherweise verfügen nicht alle Zähler in der Konfiguration über die für virtuelle Tarife gesetzlich vorgeschriebene Lastgang- oder Zählerstandgang-Zertifizierung.)</summary>
 
-This notice is purely informative and is displayed if third-party devices or meters not certified by smart-me are used. It has no effect on the calculation.
+This notice is purely informative and is displayed when third-party devices or meters not certified by smart-me are used. It has no effect on the calculation.
 
-With this notice, we want to ensure that the invoice issuer is aware that the [conformity of measuring devices](/planung/zertifizierungen-schweiz) is their own responsibility. This applies to all third-party devices and the smart-me single-phase meter.
+With this notice, we want to ensure that the invoicing party is aware that the [conformity of measuring devices](/planung/zertifizierungen-schweiz) is their own responsibility. This applies to all third-party devices and the smart-me single phase meter.
 
 Note: This message cannot be deactivated.
 
@@ -201,30 +201,30 @@ This message appears if not all the load profile data required to continue calcu
 
 - Removed meters must be [deactivated or deleted](/konfiguration/inbetriebnahme/zaehler-loeschen).
 
-- For vZEVs, the data is only sent daily. As a result, this message is always displayed until the next transmission. If the date is today, it can be ignored.
+- With vZEVs, the data is only sent daily. As a result, this message is always displayed until the next transmission. If the date is today, it can be ignored.
 
-- Meters must send load profile data. In the event of a defect, only live data may be sent, which is not suitable for billing. (15min load profile data is required.)
+- Meters must send load profile data. In the event of a defect, only live data may be sent; this is not suitable for billing. (15min load profile data is required.)
 
 </details>
 
 <details id="ebc010">
 <summary>EBC010: The costs of the battery price component do not match the virtual tariff costs (Die Kosten der Batteriepreiskomponente stimmen nicht mit den virtuellen Tarifkosten überein)</summary>
 
-This message only appears if tenant electricity is activated. It occurs if the tariff structure has been changed but the price components under Other items (Sonstige Positionen) have not yet been updated.
+This message only appears if tenant electricity is activated. It occurs when the tariff structure has been changed but the price components under Other items (Sonstige Positionen) have not yet been updated.
 
 </details>
 
 <details id="ebc011">
 <summary>EBC011: The costs of the grid or solar price components do not match the virtual tariff costs (Die Kosten der Netz- oder Solar-Preiskomponenten stimmen nicht mit den virtuellen Tarifkosten überein)</summary>
 
-This message only appears if tenant electricity is activated. It occurs if the tariff structure has been changed but the price components under Other items (Sonstige Positionen) have not yet been updated.
+This message only appears if tenant electricity is activated. It occurs when the tariff structure has been changed but the price components under Other items (Sonstige Positionen) have not yet been updated.
 
 </details>
 
 <details id="ebc012">
 <summary>EBC012: The costs of the solar price components do not match the virtual tariff costs. (Die Kosten der Solar-Preiskomponenten stimmen nicht mit den virtuellen Tarifkosten überein.)</summary>
 
-This message only appears if tenant electricity is activated. It occurs if the tariff structure has been changed but the price components under Other items (Sonstige Positionen) have not yet been updated.
+This message only appears if tenant electricity is activated. It occurs when the tariff structure has been changed but the price components under Other items (Sonstige Positionen) have not yet been updated.
 
 </details>
 
@@ -241,9 +241,9 @@ Possible causes:
 
 The tariffs were not calculated for the entire billing period
 
-- Cause: The calculation of the virtual tariffs has stopped due to an error message.
+- Cause: The calculation of the virtual tariffs stopped because of an error message.
 
-- Solution: Check the virtual tariffs in the property configuration in Billing. If an error message is displayed in the blue box, it must be resolved. If no message is displayed but the date "Last calculated value" ("Letzter berechneter Wert") is within the billing period, the calculation is still running and you need to be patient.
+- Solution: Check the virtual tariffs in the property configuration in Billing. If an error message is displayed in the blue box, it must be resolved. If no message is displayed but the date "Last calculated value" ("Letzter berechneter Wert") lies within the billing period, the calculation is still running and you need to be patient.
     Important: the calculation can take several hours, depending on the number of tariffs and meters.
 
 
@@ -265,33 +265,33 @@ The invoice is created empty
 
 - Cause: The folder structure is incorrect or no virtual tariffs were calculated for the entire billing period.
 
-- Solution: Check the virtual tariffs in the property configuration in Billing. If an error message is displayed in the blue box, it must be resolved. If a recalculation was made from a later date (e.g. billing is created for 2025; recalculation was made from 2026), no tariffs were calculated for the period. You must recalculate again, including the billing period.
+- Solution: Check the virtual tariffs in the property configuration in Billing. If an error message is displayed in the blue box, it must be resolved. If a recalculation was run from a later date (e.g. billing is created for 2025; recalculation was run from 2026), no tariffs were calculated for the period. You must recalculate again, including the billing period.
 
 
 A meter was offline for more than 2 months
 
-- Cause: If there is a gap, no virtual tariffs can be calculated.
+- Cause: Virtual tariffs cannot be calculated if there is a gap.
 
 - Solution: Check whether all data is available; if it is, you must recalculate. If data is not available, no invoice can be created for this period.
 
 
 The configuration has changed (folder structure, meter assignment, tariff structure/times)
 
-- Cause: No recalculation was made
+- Cause: No recalculation was run
 
 - Solution: You must recalculate.
 
 
 A meter is billed at more or less than 100%.
 
-- Cause: A meter (e.g. the common area meter) was split by percentage, but the shares do not add up to 100%
+- Cause: A meter (e.g. the common area meter) was distributed by percentage, but the shares do not add up to 100%
 
-- Solution: The meter must be billed at 100%. Note: If a meter is split across three units, one of the units must have 33.34%. (3x 33.33% is only 99.99%)
+- Solution: The meter must be billed at 100%. Note: If a meter is distributed across three units, one of the units must have 33.34%. (3x 33.33% is only 99.99%)
 
 
-vZEV data has been updated
+vZEV data was updated
 
-- Causes: For vZEVs, the energy supplier sends corrected data monthly.
+- Causes: With a vZEV, the utility sends corrected data monthly.
 
 - Solution: You must recalculate.
 
@@ -310,7 +310,7 @@ Possible causes:
 
 - The billing period (From) is before the installation day and/or the billing period (To) is in the future.
 
-- A meter was offline for more than 2 months and the billing period starts or ends in the period for which the data is no longer available. (Gap)
+- A meter was offline for longer than 2 months and the billing period starts or ends in the period for which the data is no longer available. (Gap)
 
 - The selected year is wrong.
 
@@ -321,15 +321,15 @@ Possible causes:
 
 **Possible causes:**
 
-- No valid billing address has been entered for the billing unit concerned (note the period) →  otherwise our system assumes that no tenant lives in the apartment and accordingly does not create an invoice. 
+- No valid billing address has been stored for the corresponding billing unit (note the period) →  otherwise our system assumes that no tenant lives in the apartment and accordingly does not generate an invoice. 
 
 - No meters have been assigned to the billing unit for billing. 
 
-- The folder structure is incorrect (see [2\. Create folder structure and assign meters](/konfiguration/billing))
+- The folder structure is wrong (see [2\. Create folder structure and assign meters](/konfiguration/billing))
 
-- For virtual tariffs: The tariffs are not valid in the desired invoice period (adjust the period of the tariffs if necessary).
+- With virtual tariffs: The tariffs are not valid in the desired invoicing period (adjust the period of the tariffs if necessary).
 
-- No billing address has been entered for the period. 
+- No billing address is stored for the period. 
 
 </details>
 
@@ -345,7 +345,7 @@ Your bexio login is no longer valid. You need to log in again.
 
 The currency is not set to CHF or EUR. 
 
-Login--> Billing (Rechnungserstellung) --> Settings (Einstellungen) --> Change currency and set it to "CHF" --> Save (Speichern).
+Login--> Billing (Rechnungserstellung) --> Settings (Einstellungen) --> Change currency (Währung ändern) and set to "CHF" --> Save (Speichern).
 
 </details>
 
@@ -354,52 +354,52 @@ Login--> Billing (Rechnungserstellung) --> Settings (Einstellungen) --> Change c
 
 The amount to be billed is negative. This can happen with Other items (Sonstige Positionen), e.g. refunds.
 
-This cannot be avoided. The invoice is still created (without a QR code).
+This cannot be avoided. The invoice is still created (without QR code).
 
 </details>
 
-## Error messages specific to peak demand tariffs
+## Error messages specific to peak consumption tariffs
 
 <details id="epk001">
 <summary>EPK001: Meter for grid electricity has not been configured (Zähler für Netzstrom wurde nicht konfiguriert)</summary>
 
 **Possible causes:**
 
-- In smart-me Billing, the balance meter was not assigned in the peak tariff.
+- In smart-me Billing, the balance meter has not been assigned to the peak tariff.
 
 
 
 
 Solving the problem: 
 
-- smart-me Billing --> Configuration (Konfiguration) --> Peak demand tariffs (Spitzenverbrauch Tarife) --> Edit (Editieren) --> Add balance meter (Bilanzzähler hinzufügen) --> Save (Speichern).
+- smart-me Billing --> Configuration (Konfiguration) --> Peak consumption tariffs (Spitzenverbrauch Tarife) --> Edit (Editieren) --> Add balance meter (Bilanzzähler hinzufügen) --> Save (Speichern).
 
 </details>
 
 <details id="epk002">
 <summary>EPK002: Peak load cost entries are missing for the billing period (Spitzenlastkosteneinträge fehlen für den Abrechnungszeitraum)</summary>
 
-The costs of the peak tariff have not been entered in smart-me Billing.
+The costs of the peak tariff have not been stored in smart-me Billing.
 
-Solution: smart-me Billing --> Configuration (Konfiguration) --> Peak demand tariffs (Spitzenverbrauch Tarife) --> Add costs (Kosten hinzufügen) --> Add price / kW (Preis / kW hinzufügen) --> Save (Speichern).
+Solution: smart-me Billing --> Configuration (Konfiguration) --> Peak consumption tariffs (Spitzenverbrauch Tarife) --> Add costs (Kosten hinzufügen) --> Add price / kW (Preis / kW hinzufügen) --> Save (Speichern).
 
 </details>
 
 <details id="epk003">
 <summary>EPK003: The grid consumption in the billing period could not be determined. (Der Netzverbrauch im Abrechnungszeitraum konnte nicht ermittelt werden.)</summary>
 
-The balance meter has not delivered any data.
+The balance meter did not deliver any data.
 
 - Cause: Without a balance meter, the peaks cannot be calculated if the type is set to "Consumption measurement" ("Verbrauchsmessung")
 
 - Solution: Check whether the values are available.
 
 
-The balance meter has not delivered data for an entire month.
+The balance meter did not deliver data for an entire month.
 
-- Cause: Values for the entire month are required to be able to bill peaks.
+- Cause: Values for the entire month are required to bill peaks.
 
-- Solution: Configure the peak tariff only from one month later. For the month with the gap, a peak demand can be created with "Assigned costs" ("Zugewiesenen Kosten"). 
+- Solution: Configure the peak tariff only from one month later. For the month with the gap, a peak consumption with "Assigned costs" ("Zugewiesenen Kosten") can be created. 
 
 </details>
 
@@ -408,7 +408,7 @@ The balance meter has not delivered data for an entire month.
 
 Only the solar tariff is billed
 
-- Cause: Peak demand is only applied to the grid tariff. 
+- Cause: Peak consumption is only applied to the grid tariff. 
 
 - Solution: Check whether the solar tariff has been configured correctly.
 
@@ -424,38 +424,38 @@ No consumption was measured
 ## VEWA-specific error messages
 
 <details id="werte-fehlen-auf-der-rechnung">
-<summary>The values are not displayed on the invoice at all, or are displayed as 0kWh, even though consumption has occurred.</summary>
+<summary>The values are not shown on the invoice at all or are shown as 0kWh, although consumption has occurred.</summary>
 
-A tariff (placeholder) must be entered for each energy type: heat, domestic hot water, etc.
+A tariff (placeholder) must be stored for each energy type: heat, domestic hot water, etc.
 
-Login --> Create invoice (Rechnung erstellen) --> Settings (Einstellungen) (top centre) --> Edit property (Liegenschaft editieren) --> Enter tariffs for heat / domestic hot water / etc. with 0 CHF. --> Save (Speichern).
+Login --> Create invoice (Rechnung erstellen) --> Settings (Einstellungen) (top centre) --> Edit property (Liegenschaft editieren) --> Store tariffs for heat / domestic hot water / etc. with 0 CHF. --> Save (Speichern).
 
 </details>
 
 <details id="word-und-excel-leer">
 <summary>Word & Excel files are created empty (0 bytes)</summary>
 
-These files can only be used outside of VEWA. If VEWA is activated, the buttons for them remain visible but only output empty files.
+These files can only be used outside of VEWA. If VEWA is activated, the buttons for them remain visible, but only output empty files.
 
 </details>
 
 <details id="ersatzwerte">
 <summary>No values for meter. Substitute values are used. (Keine Werte für Zähler. Es werden Ersatzwerte verwendet.)</summary>
 
-This error can occur and is not critical in every case. However, you should pay attention to how far the substitute value deviates from the requested value.
+This error can occur and is not critical in every case. However, pay attention to how far the substitute value deviates from the requested value.
 
 The error message appears after a deviation of 48h at the latest.
 
-Note: If necessary, check the reading interval of the M-Bus gateway so that it reads more often than every 2 days, to rule out that the error occurs systematically.
+Note: If necessary, check the read-out interval of the M-Bus gateway so that it reads out more often than every 2 days, to rule out that the error occurs systematically.
 
 </details>
 
 <details id="evw001">
 <summary>EVW001: Missing tenancy or vacancy! (Fehlendes Mietverhältnis oder Leerstand!)</summary>
 
-Please enter the missing tenancy or vacancy.
+Please add the missing tenancy or vacancy.
 
-Without this entry, the costs are allocated in full to the entered contracts, and the reference total energy is also formed only from these contracts. (Less energy than was actually consumed)
+Without this addition, the costs are billed in full to the entered contracts and the reference total energy is also formed only from these contracts. (Less energy than actually consumed)
 
 </details>
 
@@ -464,7 +464,7 @@ Without this entry, the costs are allocated in full to the entered contracts, an
 
 Check the vacancies and tenancies for double occupancy.
 
-Without the correction, the costs are allocated in full to the entered contracts, and the reference total energy is formed from too many contracts. (More energy than was actually consumed)
+Without the correction, the costs are billed in full to the entered contracts and the reference total energy is formed from too many contracts. (More energy than actually consumed)
 
 </details>
 
@@ -475,7 +475,7 @@ Without the correction, the costs are allocated in full to the entered contracts
 
 Possible causes:
 
-- smart-me Billing was created with 3 levels.
+- smart-me Billing was set up with 3 levels.
 
 - A folder was moved afterwards and still has old configurations saved.
 
@@ -486,15 +486,15 @@ Solution: See EVT005
 
 ## Topics explained in more detail:
 
-### Why does the virtual tariff produce a difference if the meter did not deliver any data at the time of the billing start (From) or billing end (To)?
+### Why does the virtual tariff produce a difference if the meter did not deliver any data at the start of billing (From) or the end of billing (To)?
 
 Possible reasons:
 
 - Commissioning was not completed
 
-- The meter was offline and did not subsequently deliver the load profile data
+- Meter was offline and did not deliver the load profile data afterwards
 
-- The meter was defective
+- Meter was defective
 
 
 Data basis for detecting the error:
@@ -505,27 +505,27 @@ smart-me Billing performs a check when creating an invoice. It compares the sum 
 
 Display of meter readings
 
-When an invoice is created, the determined meter readings are not displayed with a timestamp in smart-me Billing. To check whether the meter delivered data at the desired time, a report must be created.
+When an invoice is created, smart-me Billing does not display the determined meter readings with a timestamp. To check whether the meter delivered data at the desired time, a report must be created.
 
-For the report, you can select the property and generate a detailed consumption report PDF. This exports the data of all billing units (apartments) at once. 
+For the report, you can select the property and generate a Detailed consumption report PDF. This exports the data of all billing units (apartments) at once. 
 
-Select property --> Select Report at the top right --> Report type (Reporttyp) --> Detailed consumption report (PDF) (Verbrauchsreport detailliert (PDF))
+Select property --> Select Report (Report) at the top right --> Report type (Reporttyp) --> Detailed consumption report (PDF) (Verbrauchsreport detailliert (PDF))
 
-You can now check whether the period of the report deviates from the period of the reference value, the sum of one or more meters. If this is the case, no load profile data is available for the selected period.
+You can now check whether the period of the report deviates from the period of the reference quantity, the sum of one or more meters. If this is the case, no load profile data is available for the selected period.
 
 ![Billing error messages – Figure 7](/img/stoerungsbehebung-billing-fehlermeldungen/07.png)
 
 Display of virtual tariffs
 
-When an invoice is created, the determined virtual tariffs are displayed in the tariffs in smart-me Billing.
+When an invoice is created, smart-me Billing displays the determined virtual tariffs in the tariffs.
 
 ![Billing error messages – Figure 8](/img/stoerungsbehebung-billing-fehlermeldungen/08.png)
 
 Different handling of meter readings and virtual tariffs:
 
-Meter readings: For the electricity consumption, smart-me Billing uses the physical meter readings generated on the meter. If no meter reading is available at the time the billing starts or ends, smart-me Billing uses the meter reading closest to the desired date.
+Meter readings: For electricity consumption, smart-me Billing uses the physical meter readings generated on the meter. If no meter reading is available at the start or end of billing, smart-me Billing uses the meter reading closest to the desired date.
 
-Virtual tariffs: smart-me Billing calculates the virtual tariffs on the basis of the load profile data (physical meter readings). If no load profile data is available, e.g. for 1 week, it is interpolated. This means that our system takes the meter readings and assumes that consumption is constant every 15 minutes (load profile data). The virtual consumption is then calculated from this.
+Virtual tariffs: smart-me Billing calculates the virtual tariffs on the basis of the load profile data (physical meter readings). If no load profile data is available, e.g. for 1 week, it is interpolated. This means our system takes the meter readings and assumes that consumption is constant every 15 minutes (load profile data). The virtual consumption is then calculated from this.
 
 Simplified calculation example with correct data:
 
@@ -542,7 +542,7 @@ The virtual consumption is calculated. The split between peak, off-peak and sola
 
 Simplified calculation example with missing data:
 
-Apartment 1 sent a meter reading (load profile data) on 01.10.2023 00:00; this continued up to and including 25.10.2023 00:00. From 25.10.2023 00:00 to 15.11.2023 00:00, no load profile data is available.
+Apartment 1 sent a meter reading (load profile data) on 01.10.2023 00:00; this continued up to and including 25.10.2023 00:00. From 25.10.2023 00:00 until 15.11.2023 00:00 there is no load profile data.
 
 - Meter reading on 1.10.2023 00:00: 851 kWh
 
@@ -551,10 +551,10 @@ Apartment 1 sent a meter reading (load profile data) on 01.10.2023 00:00; this c
 - Meter reading on 15.11.2023 00:00: 950 kWh
 
 
-The meter reading for 31.10.2023 00:00 is not available. The meter reading closest to the date is 25.10.2023 00:00, so this is used for display and calculation in smart-me Billing.
+The meter reading for 31.10.2023 00:00 is not available. The closest meter reading to the date is 25.10.2023 00:00, so this is used for display and calculation in smart-me Billing.
 
 The meter reading is determined. 902-851 = 51 kWh (The consumption of 51 kWh is shown on the invoice under "Your share" ("Ihr Anteil"))
 
-The virtual consumption is calculated. Between 1.10.2023 00:00 and 25.10.2023 00:00, a consumption of 51 kWh is split between the peak, off-peak and solar tariff. Since data is missing from this point on, the missing load profile data is interpolated. The outage lasts 21 days. During this time, 950-902 = 48 kWh were consumed. With interpolation, this results in 2.29 kWh per day. In smart-me Billing, in addition to the 51 kWh, 6 days at 2.29 kWh are therefore billed, which results in 51 + 13.71 = 64.71 kWh.
+The virtual consumption is calculated. Between 1.10.2023 00:00 and 25.10.2023 00:00, a consumption of 51 kWh is split between peak, off-peak and solar tariff. Since data is missing from this point on, the missing load profile data is interpolated. The outage lasts 21 days. During this time, 950-902 = 48 kWh were consumed. With interpolation, this results in 2.29 kWh per day. In smart-me Billing, in addition to the 51 kWh, a further 6 days at 2.29 kWh are therefore billed, which results in 51 + 13.71 = 64.71 kWh.
 
 There is now a difference between the meter reading of 51 kWh and the virtual tariff of 64.71 kWh in smart-me Billing. This leads to the error message.

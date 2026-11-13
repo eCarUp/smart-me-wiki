@@ -1,5 +1,5 @@
 ---
-title: 'Formatting CSV numbers correctly'
+title: 'Formatting CSV Numbers Correctly'
 slug: '/stoerungsbehebung/csv-zahlen-richtig-formatieren'
 description: 'You open a CSV file in Excel and the numbers...'
 sidebar_label: 'Formatting CSV numbers correctly'
@@ -8,7 +8,7 @@ sidebar_label: 'Formatting CSV numbers correctly'
 
 You open a CSV file in Excel and the numbers... look broken.
 
-The problem is almost always the global confusion over separators (the battle between 1.000,50, 1,000.50, 1'000.50 and 1000.50). Unfortunately, Excel is somewhat stubborn here and expects a format on import that exactly matches your regional system settings.
+The problem is almost always the global confusion around separators (the battle between 1.000,50, 1,000.50, 1'000.50 and 1000.50). Unfortunately, Excel is somewhat stubborn here and expects a format on import that exactly matches your regional system settings.
 
 Since our smart-me system cannot yet export the perfect CSV format for every single region, a manual adjustment in Excel is sometimes necessary.
 
@@ -58,7 +58,7 @@ Below you will find two simple solutions to make sure Excel displays your data c
 
 - Advanced
 
-- Uncheck Use system separators
+- Uncheck "Use system separators"
 
     - Decimal separator ,  (comma)
 

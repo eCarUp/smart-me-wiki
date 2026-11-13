@@ -23,7 +23,7 @@ To carry out this billing, the necessary infrastructure and a consistent meterin
 
 <div className="bild--voll">
 
-![ZEV association for own consumption – Figure 1](/img/planung-zev-zusammenschluss-zum-eigenverbrauch/01.png)
+![ZEV association for own consumption – Figure 1](/img/planung-zev-zusammenschluss-zum-eigenverbrauch/01_EN.png)
 
 </div>
 
@@ -59,7 +59,7 @@ To carry out this billing, the necessary infrastructure and a consistent meterin
 
 <div className="bild--voll">
 
-![ZEV association for own consumption – Figure 2](/img/planung-zev-zusammenschluss-zum-eigenverbrauch/02.png)
+![ZEV association for own consumption – Figure 2](/img/planung-zev-zusammenschluss-zum-eigenverbrauch/02_EN.png)
 
 </div>
 
@@ -108,7 +108,7 @@ Ideal for planners and electrical professionals.
 
 <div className="bild--voll">
 
-![ZEV association for own consumption – Figure 3](/img/planung-zev-zusammenschluss-zum-eigenverbrauch/03.png)
+![ZEV association for own consumption – Figure 3](/img/planung-zev-zusammenschluss-zum-eigenverbrauch/03_EN.png)
 
 </div>
 
@@ -123,7 +123,7 @@ Ideal for planners and electrical professionals.
 
 <div className="bild--voll">
 
-![ZEV association for own consumption – Figure 4](/img/planung-zev-zusammenschluss-zum-eigenverbrauch/04.png)
+![ZEV association for own consumption – Figure 4](/img/planung-zev-zusammenschluss-zum-eigenverbrauch/04_EN.png)
 
 </div>
 
@@ -131,6 +131,6 @@ Ideal for planners and electrical professionals.
 
 <div className="bild--voll">
 
-![ZEV association for own consumption – Figure 5](/img/planung-zev-zusammenschluss-zum-eigenverbrauch/05.png)
+![ZEV association for own consumption – Figure 5](/img/planung-zev-zusammenschluss-zum-eigenverbrauch/05_EN.png)
 
 </div>

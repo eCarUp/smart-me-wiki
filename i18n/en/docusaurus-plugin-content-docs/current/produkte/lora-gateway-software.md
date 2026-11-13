@@ -1,16 +1,16 @@
 ---
 title: 'LoRa Gateway Software'
 slug: '/produkte/lora-gateway-software'
-description: 'LoRa stands for Long Range and is a radio technology with a long range and low data throughput.'
+description: 'LoRa stands for Long Range and refers to a radio technology with a long range and low data throughput.'
 sidebar_label: 'LoRa Gateway Software'
 ---
 ## Preface
 
-LoRa stands for Long Range and is a radio technology with a long range and low data throughput. This communication medium is particularly well suited to the wireless transmission of meter readings in plumbing and heating technology.
+LoRa stands for Long Range and refers to a radio technology with a long range and low data throughput. This communication medium is particularly suitable for the wireless transmission of meter readings in plumbing and heating technology.
 
-Compared to Wireless M-Bus, which was originally developed for transmitting meter data, LoRa stands out with its significantly greater range.
+Compared with Wireless M-Bus, which was designed specifically for transmitting meter data, LoRa stands out with its considerably longer range.
 
-Fewer gateways are needed per building to obtain all meter values from the individual apartments.
+Fewer gateways per building are needed to collect all meter values from the individual apartments.
 
 ## Structure
 
@@ -20,9 +20,9 @@ Fewer gateways are needed per building to obtain all meter values from the indiv
 
 With the smart-me LoRa Gateway solution, it is important that the sensors and energy meters are included in the compatibility list. If they are not listed, they are currently not compatible. 
 
-Get in touch with us – your meter or sensor can be integrated at short notice. Send an email to [support@smart-me.com](mailto:support@smart-me.com) with the subject "Neues LoRa Gerät" (New LoRa device)
+Get in touch with us. Your meter or sensor can be integrated at short notice. Send an email to [support@smart-me.com](mailto:support@smart-me.com) with the subject "Neues LoRa Gerät"
 
-In general, the smart-me Gateway solution supports the following types of energy meters and sensors:
+In general, the smart-me gateway solution supports the following types of energy meters and sensors:
 
 Energy meters:
 
@@ -44,9 +44,9 @@ Sensors:
 
 ### Compatibility limitations
 
-For technical reasons, electricity meters are not supported with LoRa. Due to the way LoRa works, the transmission rate and data reliability are not high enough for load profile billing as used in smart-me Billing. 
+For technical reasons, electricity meters are not supported with LoRa. Because of how LoRa works, the transmission rate and the data reliability are not high enough for load profile billing as performed by smart-me Billing. 
 
-For this reason, LoRa is used exclusively to record meter data for which sufficient reliability and functionality can be guaranteed.
+For this reason, LoRa is used only to record meter data for which sufficient reliability and functionality can be guaranteed.
 
 ## Tested LoRaWAN gateways
 
@@ -61,27 +61,27 @@ For this reason, LoRa is used exclusively to record meter data for which suffici
 - Milesight UG56
 
 
-Note: Untested devices can be integrated independently. Compatible devices only need the "Semtech" and "Data Packet Forwarder" options.
+Note: You can integrate untested devices yourself. Compatible devices only need the "Semtech" and "Data Packet Forwarder" options.
 
 ## Carrying out commissioning
 
 [Commissioning the LoRaWAN gateways](/konfiguration/inbetriebnahme/inbetriebnahme-lora)
 
-## Compatibility list for meters and sensors
+## Compatibility list of meters and sensors
 
 Is your meter or sensor not listed?
 
-Get in touch with us – your meter or sensor can be integrated at short notice. Send an email to [support@smart-me.com](mailto:support@smart-me.com) with the subject "Neues LoRa Gerät" (New LoRa device).
+Get in touch with us. Your meter or sensor can be integrated at short notice. Send an email to [support@smart-me.com](mailto:support@smart-me.com) with the subject "Neues LoRa Gerät".
 
 Requirements for an integration:
 
 - Device EUI
 
 - Application key for the device
-    (The key has 32 characters. It is supplied with the product; if not, it can be obtained from the current / previous billing provider.)
+    (The key has 32 characters. It is supplied with the product; if not, it can be obtained from the current or previous billing provider.)
 
 
-[](https://drive.google.com/open?id=12I3do1d8wZTKA1V9mhF1-rQm-Iw9ZP8P_16gi1OJw2w "Open Spreadsheet, LoRa Gateway Kompatibilitätsliste in new window")
+[](https://drive.google.com/open?id=12I3do1d8wZTKA1V9mhF1-rQm-Iw9ZP8P_16gi1OJw2w "Open spreadsheet, LoRa Gateway compatibility list in new window")
 
 <Embed src="https://docs.google.com/spreadsheets/d/12I3do1d8wZTKA1V9mhF1-rQm-Iw9ZP8P_16gi1OJw2w/htmlembed" height="720px" title="Spreadsheet, LoRa Gateway compatibility list" />
 
@@ -96,7 +96,7 @@ For example, field testers can be connected as manufacturer "GWF" and type "All"
 Tested with:
 \- Adeunis ARF8123AA 868 MHz
 
-## Distribution partners
+## Sales partners
 
 ### GWF AG
 
@@ -132,11 +132,11 @@ Alex Nanzer, Management
 
 ## Data quality and outage coverage
 
-LoRa technology is based on capturing and sending data. LoRaWAN gateways have no data storage and therefore cannot reconstruct incomplete data sets, as is otherwise the case with smart-me products.
+LoRa technology is based on recording and sending data. LoRaWAN gateways have no data storage and therefore cannot reconstruct incomplete data sets, as is otherwise the case with smart-me products.
 
 For this reason, LoRa is not equally suitable for all types of energy. 
 
-For heat / water and gas, a brief outage or a data gap is generally not a major obstacle and can be billed without problems if it is resolved in the medium term.
+For heat, water and gas, a brief outage or a data gap is generally not a major obstacle and can be billed without issues if it is resolved in the medium term.
 For electricity and its tariffing in 15-minute intervals, a medium-term resolution is not easy to achieve. In our view, LoRa is therefore not suitable for transmitting electricity data and billing it.
 
 That is why smart-me has developed its own hardware to ensure the necessary data reliability and completeness for electricity. 

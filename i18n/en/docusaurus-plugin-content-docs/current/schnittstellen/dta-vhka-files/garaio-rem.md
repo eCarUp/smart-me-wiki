@@ -1,22 +1,22 @@
 ---
 title: 'Garaio REM'
 slug: '/schnittstellen/dta-vhka-files/garaio-rem'
-description: 'Key information on billing with Garaio REM and smart-me'
+description: 'Key notes on billing with Garaio REM and smart-me'
 sidebar_label: 'Garaio REM'
 ---
-## Key information on billing with Garaio REM and smart-me
+## Key notes on billing with Garaio REM and smart-me
 
-- The billing and allocation of costs according to VEWA is carried out in the smart\-me system.
+- The billing and allocation of costs according to VEWA (consumption-based energy and water cost billing) takes place in the smart\-me system.
 
-- Every billing unit in Garaio REM that is to be queried must have a matching counterpart in smart-me.
+- Every billing unit in Garaio REM that is to be queried must exist congruently in smart-me.
 
 - For the billing to be correct, the tenancies and vacancies must be recorded in all units for every billing period!
 
-- Garaio REM supports only one billing period per ancillary costs group, so electricity must be billed in the same period as all other ancillary costs.
+- Garaio REM only supports one billing period per ancillary costs group, so electricity must be billed in the same period as all other ancillary costs.
 
-- The tenant list from Garaio REM is automatically reconciled with smart-me.
+- The tenant list from Garaio REM is automatically synchronised with smart-me.
 
-- Garaio REM cannot import values without a prior posting of values in the main cost centre.
+- Garaio REM cannot import any values without a prior booking of values in the main cost centre.
 
 
 ## Current implementation
@@ -33,24 +33,24 @@ Currently supported:
 
 Not supported:
 
-- Transferring several collective cost centres per main cost centre separately (can be supported later if there is strong demand in the field)
+- Transferring several collective cost centres per main cost centre separately (may be supported later if there is high demand in the field)
 
-- Transfer of consumption in kWh or as a price
+- Transferring consumption in kWh or as a price
     This function is not supported by Garaio REM in a way that adds value.
-    For this to work, the total kWh or the total price must have been posted in Garaio REM beforehand.
+    For this to work, the total kWh or the total price must have been booked in Garaio REM beforehand.
 
 
 ## Garaio REM import / export file and key definition in smart-me
 
 ### Defining keys in smart-me from a DTA-REM file
 
-In the file exported from GaraioREM you will find the relevant IDs for linking the export file with smart-me.
+In the file exported from GaraioREM, you will find the relevant IDs for linking the export file with smart-me.
 
-The relevant IDs are shown in blue and must be entered as follows.
+The relevant IDs are shown in blue and must be stored as follows.
 
 External key for a main cost centre:
 
-HauptkostenstellenID (100)
+Main cost centre ID (100)
 
 With separate cost centres, heat is linked to ID = 100
 
@@ -66,7 +66,7 @@ HausID +":"+ObjektID (01 and 30001 = 01:30001)
 
 
 
-During export, the result is entered as a per mille share at the position (marked in brown) for the entire collective cost centre and for the individual consumption per tenancy.
+During the export, the result is entered as a per mille share at the position (marked in brown) for the entire collective cost centre and for the individual consumption per tenancy.
 
 ![Garaio REM – Figure 1](/img/schnittstellen-dta-vhka-files-garaio-rem/01.png)
 
@@ -135,18 +135,18 @@ Each energy type has its own main cost centre and a collective cost centre with 
 - Cold water
 
 
-The cost posting on the Garaio REM side for local electricity and grid electricity can be handled using the overall summary and by entering the price in the smart-me tariff.
-The total price can then be posted in Garaio for the local electricity and grid electricity cost centres.
+The cost booking in Garaio REM for local electricity and grid electricity can be handled using the overall summary and by entering the price in the smart-me tariff.
+The total price can then be booked in Garaio for the local electricity and grid electricity cost centres.
 
-### Posting to cost centres in Garaio REM
+### Booking cost centres in Garaio REM
 
-If prior postings to the cost centres are required in Garaio REM, they can be taken from the summary CSV of each invoice created.
+If prior bookings to the cost centres are required in Garaio REM, they can be taken from the summary CSV of each invoice created.
 
 This is usually the case for solar electricity, grid electricity and the electricity costs of the heat pump / heating / boiler.
 
-When allocating solar electricity, this will often be necessary, as this information originates in the smart-me system.
+When allocating solar electricity, this will often be necessary, since this information originates in the smart-me system.
 
-For the other cost centres, external invoices are usually available and can be posted.
+For the other cost centres, there are usually external invoices that can be booked.
 
 1.  Open smart-me Billing via the Billing (Rechnungsstellung) tab
 
@@ -161,24 +161,24 @@ For the other cost centres, external invoices are usually available and can be p
 
 ![Garaio REM – Figure 4](/img/schnittstellen-dta-vhka-files-garaio-rem/04.png)
 
-It contains the kWh and m3 sold and the price per tariff, per billing unit and in total.
+It contains the kWh and m3 sold as well as the price per tariff, per billing unit and in total.
 
-With this total value of the respective tariff, a posting can be made in Garaio and then distributed accordingly in per mille with the DTA-REM file.
+With this total value of the respective tariff, a booking can be made in Garaio and then distributed accordingly in per mille using the DTA-REM file.
 
 ## Effect of the configuration on the exported figures
 
 VEWA option not activated:
 
 - Export in per mille per cost centre
-    In this case, 1000 per mille corresponds to the total consumption in kWh. The per mille in the contract refer the consumption to this total.
+    In this case, 1000 per mille corresponds to the total consumption in kWh. The per mille values in the contract refer the consumption to this total.
 
 
-VEWA option activated:
+VEWA option is activated:
 
-- If a single tariff is configured, 1000 per mille corresponds to the total price (total consumption \* tariff price), but at the same time also to the total consumption in kWh.
+- If a single tariff is stored, 1000 per mille corresponds to the total price (total consumption \* tariff price), but at the same time also to the total consumption in kWh.
 
-- If several tariffs are configured, e.g. grid electricity and solar electricity, 1000 per mille corresponds to the total price or to the total kWh of the respective tariff.
-    This allows the tariffs to be transferred separately into cost centres, with individual postings of the kWh or the price in Garaio REM.
+- If several tariffs are stored, e.g. grid electricity and solar electricity, 1000 per mille corresponds to the total price or the total kWh of the respective tariff.
+    This allows the tariffs to be transferred separately to cost centres, with individual bookings of the kWh or the price in Garaio REM.
     If you want to export the tariffs combined into one collective cost centre, entering a price for the tariff in smart-me is essential for the weighting.
 
     This is already the case, for example, if a single tariff (grid) and a peak tariff (grid) are to be transferred combined.

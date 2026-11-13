@@ -12,4 +12,4 @@ Dans cette section, vous trouverez de nouvelles applications expérimentales que
 
 Essayez-les tout simplement.
 
-![AppLAB – Figure 2](/img/konfiguration-applab/02.png)
+![AppLAB – Figure 2](/img/konfiguration-applab/02_EN.png)

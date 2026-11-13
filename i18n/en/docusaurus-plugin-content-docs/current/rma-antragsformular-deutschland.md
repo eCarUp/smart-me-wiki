@@ -4,7 +4,7 @@ slug: '/rma-antragsformular-deutschland'
 description: 'RMA application form for devices in Germany.'
 sidebar_label: 'RMA Germany'
 ---
-This page applies to Germany. There are [separate forms](/rma-antragsformular-schweiz) for Switzerland and Liechtenstein.
+This page applies to Germany. For Switzerland and Liechtenstein, there are [separate forms](/rma-antragsformular-schweiz).
 
 ## Application form for all smart-me devices
 

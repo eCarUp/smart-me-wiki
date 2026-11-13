@@ -6,15 +6,15 @@ sidebar_label: 'Garaio REM'
 ---
 ## Indicazioni principali per il conteggio con Garaio REM e smart-me
 
-- Il conteggio e la ripartizione dei costi secondo VEWA avvengono nel sistema smart\-me.
+- Il conteggio e la ripartizione dei costi secondo il CISE (Conteggio individuale delle spese dell'energia e dell'acqua) avvengono nel sistema smart\-me.
 
-- Ogni unità di conteggio in Garaio REM da interrogare deve esistere in modo congruente anche in smart-me.
+- Ogni unità di conteggio in Garaio REM che deve essere interrogata deve esistere in modo congruente in smart-me.
 
 - Affinché il conteggio sia corretto, per ogni periodo di conteggio devono essere registrati in tutte le unità i rapporti di locazione e gli sfitti!
 
-- Garaio REM supporta un solo periodo di conteggio per gruppo di spese accessorie; l'elettricità deve quindi essere conteggiata nello stesso periodo di tutte le altre spese accessorie.
+- Garaio REM supporta un solo periodo di conteggio per gruppo di spese accessorie, quindi l'elettricità deve essere conteggiata nello stesso periodo di tutte le altre spese accessorie.
 
-- L'elenco degli inquilini di Garaio REM viene allineato automaticamente con smart-me.
+- L'elenco degli inquilini di Garaio REM viene sincronizzato automaticamente con smart-me.
 
 - Garaio REM non può importare valori senza una precedente registrazione di valori nel centro di costo principale.
 
@@ -23,50 +23,50 @@ sidebar_label: 'Garaio REM'
 
 Attualmente supportato:
 
-- Esportazione di un centro di costo collettivo per ogni centro di costo principale come valore per mille
-    \- Costi di riscaldamento totali (calore e acqua calda sanitaria combinati come valore per mille)
-    \- Costi di riscaldamento e raffreddamento totali (calore, freddo e acqua calda sanitaria combinati come valore per mille)
-    \- Costi separati di calore, acqua calda sanitaria, freddo e acqua fredda come valore per mille
-    \- Costi dell'elettricità di rete separati o combinati (consumo di elettricità di rete ed elettricità di punta)
-    \- Costi dell'elettricità locale separati o combinati (solare, batteria)
+- Esportazione di un centro di costo collettivo per ogni centro di costo principale come valore in per mille
+    \- Spese di riscaldamento totali (calore e acqua calda sanitaria combinati come valore in per mille)
+    \- Spese di riscaldamento e raffreddamento totali (calore, freddo e acqua calda sanitaria combinati come valore in per mille)
+    \- Spese separate per calore, acqua calda sanitaria, freddo e acqua fredda come valore in per mille
+    \- Spese per l'elettricità di rete separate o combinate (prelievo dalla rete ed elettricità di punta)
+    \- Spese per l'elettricità locale separate o combinate (solare, batteria)
 
 
 Non supportato:
 
-- Trasmissione separata di più centri di costo collettivi per ogni centro di costo principale (in caso di forte richiesta dal campo potrà essere supportata in futuro)
+- Trasmissione separata di più centri di costo collettivi per centro di costo principale (potrà essere supportata in seguito in caso di forte richiesta sul campo)
 
 - Trasmissione dei consumi in kWh o come prezzo
-    Questa funzione non è supportata da Garaio REM in modo tale da rappresentare un valore aggiunto.
-    Affinché funzioni, la somma dei kWh o il prezzo totale deve essere stata registrata in precedenza in Garaio REM.
+    Questa funzione non è supportata da Garaio REM in modo tale da apportare un valore aggiunto.
+    Affinché funzioni, la somma dei kWh o il prezzo totale deve essere stato registrato in precedenza in Garaio REM.
 
 
 ## File di importazione / esportazione Garaio REM e definizione delle chiavi in smart-me
 
 ### Definire le chiavi in smart-me da un file DTA-REM
 
-Nel file esportato da GaraioREM trovi gli ID rilevanti per collegare il file di esportazione a smart-me.
+Nel file esportato da GaraioREM trovi gli ID rilevanti per collegare il file di esportazione con smart-me.
 
-Gli ID rilevanti sono evidenziati in blu e vanno registrati come segue.
+Gli ID rilevanti sono evidenziati in blu e devono essere registrati come segue.
 
 Chiave esterna per un centro di costo principale:
 
 HauptkostenstellenID (100)
 
-Con centri di costo separati, il calore viene collegato all'ID = 100
+Nel caso di centri di costo separati, il calore viene collegato all'ID = 100
 
-Con centri di costo combinati, più tariffe possono essere collegate allo stesso ID.
+Nel caso di centri di costo combinati, più tariffe possono essere collegate allo stesso ID.
 
-p.es. calore e acqua calda sanitaria = 100
+ad es. calore e acqua calda sanitaria = 100
 
 
 
-Chiave esterna per un oggetto abitativo in smart-me:
+Chiave esterna per un'unità abitativa in smart-me:
 
 HausID +":"+ObjektID (01 e 30001 = 01:30001)
 
 
 
-Il risultato come quota per mille viene inserito durante l'esportazione nel punto evidenziato in marrone, per l'intero centro di costo collettivo e per il consumo individuale di ogni rapporto di locazione.
+Il risultato come quota in per mille viene inserito durante l'esportazione nel punto (evidenziato in marrone) per l'intero centro di costo collettivo e per il consumo individuale per ogni rapporto di locazione.
 
 ![Garaio REM – Figura 1](/img/schnittstellen-dta-vhka-files-garaio-rem/01.png)
 
@@ -120,13 +120,13 @@ Il risultato come quota per mille viene inserito durante l'esportazione nel punt
 
           &lt;/Objekt>
 
-### Configurazione best practice
+### Configurazione consigliata
 
-Ogni tipo di energia ha un proprio centro di costo principale e un centro di costo collettivo con l'unità per mille
+Ogni tipo di energia dispone di un proprio centro di costo principale e di un centro di costo collettivo con l'unità per mille
 
 - Elettricità di rete (tariffe di rete e tariffe di punta)
 
-- Elettricità locale (tariffe dell'elettricità da batteria e / o solare)
+- Elettricità locale (tariffe per l'elettricità da batteria e / o solare)
 
 - Calore
 
@@ -135,14 +135,14 @@ Ogni tipo di energia ha un proprio centro di costo principale e un centro di cos
 - Acqua fredda
 
 
-La registrazione dei costi in Garaio REM per l'elettricità locale e l'elettricità di rete può essere gestita tramite il riepilogo generale e l'inserimento del prezzo nella tariffa smart-me.
-Il prezzo totale può quindi essere registrato in Garaio per il centro di costo elettricità locale ed elettricità di rete.
+La registrazione dei costi da parte di Garaio REM per l'elettricità locale e l'elettricità di rete può essere gestita tramite la panoramica generale e l'inserimento del prezzo nella tariffa smart-me.
+Il prezzo totale può quindi essere registrato in Garaio per i centri di costo elettricità locale ed elettricità di rete.
 
-### Effettuare la registrazione sui centri di costo in Garaio REM
+### Eseguire la registrazione sui centri di costo in Garaio REM
 
 Se in Garaio REM sono necessarie registrazioni preliminari sui centri di costo, queste possono essere ricavate dal riepilogo CSV (Zusammenfassung CSV) di ogni fattura emessa.
 
-Di solito ciò riguarda l'elettricità solare, l'elettricità di rete e i costi dell'elettricità della pompa di calore / del riscaldamento / del boiler.
+Di solito ciò avviene per l'elettricità solare, l'elettricità di rete e per i costi dell'elettricità della pompa di calore / del riscaldamento / del boiler.
 
 Per la ripartizione dell'elettricità solare ciò sarà necessario più spesso, poiché l'origine di questa informazione si trova nel sistema smart-me.
 
@@ -163,22 +163,22 @@ Per gli altri centri di costo sono di solito disponibili fatture esterne che pos
 
 Al suo interno si trovano i kWh e i m3 venduti e il prezzo per tariffa, per unità di conteggio e in totale.
 
-Con questo valore totale della rispettiva tariffa è possibile effettuare una registrazione in Garaio, che viene poi ripartita in modo corretto con il file DTA-REM in per mille.
+Con questo valore totale della rispettiva tariffa è possibile effettuare una registrazione in Garaio, che viene poi ripartita in modo corretto in per mille con il file DTA-REM.
 
 ## Influenza della configurazione sui valori esportati
 
-Opzione VEWA non attivata:
+Opzione CISE non attivata:
 
 - Esportazione in per mille per centro di costo
-    In questo caso 1000 per mille corrispondono all'intero consumo in kWh. I per mille nel contratto si riferiscono, in base al consumo, a questo totale.
+    In questo caso 1000 per mille corrispondono al consumo completo in kWh. I valori in per mille del contratto riferiscono il consumo a questo totale.
 
 
-Opzione VEWA attivata:
+Opzione CISE attivata:
 
 - Se è registrata una tariffa unica, 1000 per mille corrispondono al prezzo totale (consumo totale \* prezzo della tariffa), ma allo stesso tempo anche al consumo totale in kWh.
 
-- Se sono registrate più tariffe, p.es. elettricità di rete ed elettricità solare, 1000 per mille corrispondono al prezzo totale, ovvero al totale dei kWh della rispettiva tariffa.
+- Se sono registrate più tariffe, ad es. elettricità di rete ed elettricità solare, 1000 per mille corrispondono al prezzo totale, ovvero al totale dei kWh della rispettiva tariffa.
     In questo modo le tariffe possono essere trasmesse separatamente nei centri di costo, con registrazioni singole dei kWh o del prezzo in Garaio REM.
-    Se si desidera esportare le tariffe in forma aggregata in un centro di costo collettivo, è indispensabile inserire un prezzo nella tariffa in smart-me per la ponderazione.
+    Se si desidera esportare le tariffe in forma aggregata in un centro di costo collettivo, l'inserimento di un prezzo nella tariffa in smart-me è indispensabile per la ponderazione.
 
-    Questo è p.es. già il caso quando devono essere trasmesse insieme una tariffa unica (rete) e una tariffa di punta (rete).
+    Questo è ad es. già il caso quando una tariffa unica (rete) e una tariffa di punta (rete) devono essere trasmesse in forma combinata.

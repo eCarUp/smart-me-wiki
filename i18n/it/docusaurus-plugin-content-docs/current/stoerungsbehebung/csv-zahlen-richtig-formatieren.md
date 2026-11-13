@@ -8,11 +8,11 @@ sidebar_label: 'Formattare correttamente i numeri CSV'
 
 Apri un file CSV in Excel e i numeri... sembrano danneggiati.
 
-Il problema è quasi sempre la confusione globale tra i separatori (cioè la lotta tra 1.000,50, 1,000.50, 1'000.50 e 1000.50). Purtroppo Excel è piuttosto rigido e durante l'importazione si aspetta un formato che corrisponda esattamente alle impostazioni regionali del tuo sistema.
+Il problema è quasi sempre la confusione globale sui separatori (ovvero la battaglia tra 1.000,50, 1,000.50, 1'000.50 e 1000.50). Purtroppo Excel è piuttosto rigido e durante l'importazione si aspetta un formato che corrisponda esattamente alle tue impostazioni regionali di sistema.
 
 Poiché il nostro sistema smart-me al momento non è ancora in grado di esportare il formato CSV perfetto per ogni singola regione, a volte è necessario un adattamento manuale in Excel.
 
-Qui sotto trovi due semplici soluzioni per assicurarti che Excel visualizzi correttamente i tuoi dati.
+Di seguito trovi due semplici soluzioni per assicurarti che Excel visualizzi correttamente i tuoi dati.
 
 ### Modificare il CSV con Trova/Sostituisci
 
@@ -30,13 +30,13 @@ Qui sotto trovi due semplici soluzioni per assicurarti che Excel visualizzi corr
 
 - Premi Ctrl+H
 
-- Cerca "." (punto)
+- Trova "." (punto)
 
 - Sostituisci con "" (niente)
 
 - Sostituisci tutto
 
-- Cerca "," (virgola)
+- Trova "," (virgola)
 
 - Sostituisci con "." (punto)
 
@@ -58,7 +58,7 @@ Qui sotto trovi due semplici soluzioni per assicurarti che Excel visualizzi corr
 
 - Impostazioni avanzate
 
-- Deseleziona Usa separatori di sistema
+- Disattiva Usa separatori di sistema
 
     - Separatore decimale ,  (virgola)
 

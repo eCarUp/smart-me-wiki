@@ -1,14 +1,14 @@
 ---
-title: 'Formater correctement les nombres dans un CSV'
+title: 'Formater correctement les nombres CSV'
 slug: '/stoerungsbehebung/csv-zahlen-richtig-formatieren'
 description: 'Vous ouvrez un fichier CSV dans Excel et les nombres...'
 sidebar_label: 'Formater correctement les nombres CSV'
 ---
 ### Généralités
 
-Vous ouvrez un fichier CSV dans Excel et les nombres... semblent cassés.
+Vous ouvrez un fichier CSV dans Excel et les nombres... semblent corrompus.
 
-Le problème vient presque toujours de la grande confusion mondiale autour des séparateurs (autrement dit, la lutte entre 1.000,50, 1,000.50, 1'000.50 et 1000.50). Excel est malheureusement un peu têtu sur ce point et attend, lors de l'importation, un format qui correspond exactement à vos paramètres régionaux du système.
+Le problème vient presque toujours de la confusion mondiale autour des séparateurs (autrement dit, la bataille entre 1.000,50, 1,000.50, 1'000.50 et 1000.50). Excel est malheureusement un peu rigide sur ce point et attend, lors de l'importation, un format qui correspond exactement à vos paramètres régionaux du système.
 
 Comme notre système smart-me ne peut pas encore exporter le format CSV parfait pour chaque région, une adaptation manuelle dans Excel est parfois nécessaire.
 
@@ -16,12 +16,12 @@ Vous trouverez ci-dessous deux solutions simples pour vous assurer qu'Excel affi
 
 ### Modifier le CSV avec Rechercher/Remplacer
 
-- Sélectionnez toutes les valeurs dont le format est incorrect.
+- Sélectionnez toutes les valeurs mal formatées.
 
 - Appuyez sur Ctrl+H
 
 
-![Formater correctement les nombres dans un CSV – illustration 1](/img/stoerungsbehebung-csv-zahlen-richtig-formatieren/01.png)
+![Formater correctement les nombres CSV – Illustration 1](/img/stoerungsbehebung-csv-zahlen-richtig-formatieren/01.png)
 
 ### Modifier le CSV avec Rechercher/Remplacer
 
@@ -45,7 +45,7 @@ Vous trouverez ci-dessous deux solutions simples pour vous assurer qu'Excel affi
 </div>
 <div className="col col--8 bild--mitte">
 
-![Formater correctement les nombres dans un CSV – illustration 2](/img/stoerungsbehebung-csv-zahlen-richtig-formatieren/02.png)
+![Formater correctement les nombres CSV – Illustration 2](/img/stoerungsbehebung-csv-zahlen-richtig-formatieren/02.png)
 
 </div>
 </div>
@@ -58,11 +58,11 @@ Vous trouverez ci-dessous deux solutions simples pour vous assurer qu'Excel affi
 
 - Options avancées
 
-- Désactiver « Utiliser les séparateurs système »
+- Décocher Utiliser les séparateurs système
 
     - Séparateur décimal ,  (virgule)
 
     - Séparateur des milliers .  (point)
 
 
-![Formater correctement les nombres dans un CSV – illustration 3](/img/stoerungsbehebung-csv-zahlen-richtig-formatieren/03.png)
+![Formater correctement les nombres CSV – Illustration 3](/img/stoerungsbehebung-csv-zahlen-richtig-formatieren/03.png)

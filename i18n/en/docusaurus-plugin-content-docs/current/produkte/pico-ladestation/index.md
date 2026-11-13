@@ -4,13 +4,13 @@ slug: '/produkte/pico-ladestation'
 description: 'Pico is a MID-certified charging station with an integrated mobile network and WiFi interface for transmitting real-time data.'
 sidebar_label: 'Pico Charging Station'
 ---
-Pico is a MID-certified charging station with an integrated mobile network and WiFi interface for transmitting real-time data. The  charging station synchronises the measured values automatically and encrypted to the smart-me Cloud. The station can be integrated into the eCarUp backend and offers static and dynamic load management. The data can be exported to third-party systems and processed further in the smart-me Portal or via our open interface.
+Pico is a MID-certified charging station with an integrated mobile network and WiFi interface for transmitting real-time data. The  charging station automatically synchronises the measured values, encrypted, to the smart-me Cloud. The station can be integrated into the eCarUp backend and offers static and dynamic load management. The data can be exported to third-party systems and processed further in the smart-me Portal or via our open interface.
 
 ![Pico EV Charger – Figure 1](/img/produkte-pico-ladestation/01.png)
 
 ## Key installation notes at a glance
 
-- Pico has phase switching - please connect all phases according to the labelling (L1 = L1, L2 = L2, L3 = L3)
+- Pico has phase switching - Please connect all phases according to the labelling (L1 = L1, L2 = L2, L3 = L3)
 
 - For outdoor use in particular, follow the assembly instructions so that you do not forget any sealing elements. IP55 is only achieved with the sealing elements.
     [Installation and assembly instructions  (German)](https://docs.google.com/presentation/d/1d_ejgHn-M8dmJdRPlC1F2z5bBZTvtU89_p2z1f22_aw/export/pdf) 
@@ -18,7 +18,7 @@ Pico is a MID-certified charging station with an integrated mobile network and W
 - Tighten the sealing elements adequately and check that the seals are seated correctly.
 
 
-<Video src="YiiACL00jko" title="YouTube video, webinar recording release multilevel load management" />
+<Video src="YiiACL00jko" title="YouTube video, webinar recording: release of multilevel load management" />
 
 Multilevel load management (50 min)
 
@@ -38,9 +38,9 @@ Short video: Pico receives MID (2 min)
 
 - [MID certification](/planung/zertifizierungen-schweiz#certifications-for-charging-stations-in-switzerland) and load profile certification of the internal meter hardware thanks to the large display
 
-- Integrated fault protection devices 30mA AC according to IEC60947-2 and 6mA DC IEC62955
+- Integrated residual current protection devices 30mA AC according to IEC60947-2 and 6mA DC IEC62955
 
-- German [calibration law certification](/planung/zertifizierungen-deutschland) (Art. no. 242070, 2402070/1)
+- German [calibration law certification (Eichrecht)](/planung/zertifizierungen-deutschland#eichrecht) (Art. no. 242070, 2402070/1)
 
 - Easy assembly (small and light), suitable for flat ribbon cable
 
@@ -73,17 +73,17 @@ The configuration is covered in detail here: [Pico Configuration](/konfiguration
 | Maximum charging power | 22 kW at 32A three-phase<br />7.36 kW at 32A single-phase |
 | Smart meter | Integrated electricity meter (MID, CH load profile, DE calibration law) incl. security processor |
 | Phase balancing | Automatic phase balancing |
-| Load management | Automatic load management across multiple stations |
+| Load management | Automatic load management across several stations |
 | Identification | Automatic detection and identification of the car<br />RFID / NFC reader (JEWEL, MIFARE, FELICA, ISO14443, NFC_DEP, ISO14443_B, ISO15693) |
 | Communication | WLAN IEEE 802.11 b/g/n (2.4 GHz) and LTE Cat-M1 incl. SIM and data traffic for 10 years from 1nce, Modbus TCP, OCPP-J 1.6 |
 | Cloud connection | Connection to smart-me and eCarUp Cloud |
-| Safety | From year of manufacture 2024, SN 7002702: RCD Type-A (30mA AC) IEC 60947-2 + RDC-DD 6mA DC IEC 62955<br />Before year of manufacture 2024, up to SN 7002701: RDC-DD (30mA AC, 6mA DC) IEC 62955 |
+| Safety | From year of manufacture 2024, SN 7002702: RCD Typ-A (30mA AC) IEC 60947-2 + RDC-DD 6mA DC IEC 62955<br />Before year of manufacture 2024, up to SN 7002701: RDC-DD (30mA AC, 6mA DC) IEC 62955 |
 | Temperature range | -25°C to +40°C |
 | Mains voltage | 3x230/400V (+/- 10%) 50Hz |
 | Charging socket | IEC 62196-2 Type 2 |
-| Degree of protection | IP55 (indoor and outdoor) |
+| Protection class | IP55 (indoor and outdoor) |
 | Impact resistance | IK10 |
-| Environmental conditions | M1, E2 |
+| Ambient conditions | M1, E2 |
 | Load shedding | 2 potential-free inputs (4 states):<br />Vlow: ≤ 2V AC/DC<br />Vhigh: ≥ 12V AC/DC<br />Vmax: 48VDC/230VAC |
 | S0 output | 10'000 Imp/kWh |
 | Power connection | top, bottom, rear |
@@ -93,7 +93,7 @@ The configuration is covered in detail here: [Pico Configuration](/konfiguration
 | Cable cross-section | min. 2.5 mm², max. 10 mm², or 6.5 mm diameter with wire end ferrule |
 | Cable diameter | 10-20 mm |
 | Server location | Switzerland |
-| Last change | 03.06.2026 |
+| Last modified | 03.06.2026 |
 
 [Download data sheet (.pdf)](https://docs.google.com/presentation/d/1tq5HPM2mc4Br8264vKs_yjMv4HauvtQM0A0DY87EMks/export/pdf)
 
@@ -103,7 +103,7 @@ The configuration is covered in detail here: [Pico Configuration](/konfiguration
 
 What kind of standard is this?
 
-The ISO15118 standard is a communication standard between vehicle and charging station. It describes the physical requirements and protocols as well as the supported functions of this interface.
+The ISO15118 standard is a communication standard between vehicle and charging station. It describes the physical requirements and protocols, as well as the supported functions of this interface.
 
 The functions primarily include:
 
@@ -118,10 +118,10 @@ In the long term, the vehicle storage should be usable to stabilise the public g
 Is this already a reality?
 
 The use of this standard is still very limited. Various charging hardware and vehicle manufacturers are currently carrying out tests on this topic in order to align and further develop the communication.
-Plug & Charge solutions are in some cases already in operation in real life, but are not yet particularly widespread.
+Plug & Charge solutions are already partly in operation in real life but are not yet particularly widespread.
 
 V2G and V2H applications are already partly supported today by DC charging stations.
-The offering for V2G and V2H on the AC charging station side is currently still very limited or non-existent, because the necessary equipment is not available on the vehicle side.
+The range of V2G and V2H offerings for AC charging stations is currently still very limited or non-existent, because the necessary equipment is not available on the vehicle side.
 
 However, the first vehicle manufacturers have already announced vehicles that will have the technical equipment. At present, however, none of these vehicles can be purchased on the market. (As of 16.05.2025)
 
@@ -132,26 +132,26 @@ We are currently working intensively on implementing the functionalities.
 
 ### RCD / DC fault detection and load protection
 
-The integrated safety devices check their functionality fully automatically. 
+The integrated safety devices check their own functionality fully automatically. 
 
 - At least every 24 hours since the last check.
 
 - Whenever the device is restarted.
 
-If an error occurs during the self-checks, no power will be released and the information will be shown on the display.
-If an error occurs during the charging session, the power is interrupted and the error is shown on the display.
+If an error occurs during the self-checks, no current is released and the information is shown on the display.
+If an error occurs during a charging session, the current is interrupted and the error is shown on the display.
 
-The error can only be reset mechanically by unplugging and plugging the charging cable back into the charging station.
+The error can only be reset mechanically by unplugging and replugging the charging cable at the charging station.
 
 ## Display
 
-The behaviour of the display is described on the page [Pico display](/produkte/pico-ladestation/pico-display)
+The behaviour of the display is described on the page [Pico Display](/produkte/pico-ladestation/pico-display)
 
 ![Pico EV Charger – Figure 2](/img/produkte-pico-ladestation/02.png)
 
 ## Pico connections and dimensions
 
-![Pico EV Charger – Figure 3](/img/produkte-pico-ladestation/03_EN.jpg)
+![Pico EV Charger – Figure 3](/img/produkte-pico-ladestation/03.jpg)
 
 ### Connection diagram
 
@@ -172,11 +172,11 @@ The product can only be operated in 3-phase star connection or single-phase!
 
 Cable routing
 
-With Pico, the cables can be routed in and out at 5 points. 
+On Pico, cables can be routed in and out at 5 points. 
 
 Two at the top, two at the bottom and one through the back plate.
 
-For routing through the back plate, a hole with a diameter of 25-26mm must be drilled.
+For installation through the back plate, a hole with a diameter of 25-26mm must be drilled.
 
 Details on stand assembly can be found in the assembly instructions in the downloads.
 
@@ -200,14 +200,14 @@ For the configuration from no charging to maximum charging power, the signal is 
 COM is the neutral conductor; IN1 and IN2 must be supplied with a voltage for the ON signal. IN1 and IN2 do not generate any voltage; it must be provided externally.
 
 Caution:
-Load shedding can be wired either to all Picos or, at a minimum, to one in each load group. This function is also guaranteed without an internet connection.
+Load shedding can either be wired to all Picos or at least to one from each load group. This function is also guaranteed without an internet connection.
 
 Alternatively, load shedding can also be carried out via [multilevel load management](/konfiguration/multilevel-lastmanagement/mlm-konfigurieren#configuring-load-shedding) using meter input signals.
 
 </div>
 <div className="col col--5 bild--mitte">
 
-![Pico EV Charger – Figure 5](/img/produkte-pico-ladestation/05_EN.png)
+![Pico EV Charger – Figure 5](/img/produkte-pico-ladestation/05.png)
 
 ![Pico EV Charger – Figure 6](/img/produkte-pico-ladestation/06.png)
 
@@ -254,27 +254,27 @@ The safety instructions must be observed under all circumstances:
 
 - Read the entire manual carefully before installing and operating the product.
 
-- Danger to life due to high electrical voltage. Never make changes to components, software or connection cables without first disconnecting the power. For this reason, the corresponding upstream fuses must be removed and stored so that other persons cannot reinsert them unnoticed.
+- Danger to life due to high electrical voltage. Never make changes to components, software or connection cables without being de-energised. The corresponding upstream fuses must therefore be removed and stored in such a way that other persons cannot reinsert them unnoticed.
 
-- The product may only be installed, repaired or maintained by an authorised electrician. All applicable local, regional and national regulations for electrical installations must be observed. 
+- The product may only be installed, repaired or maintained by an approved qualified electrician. All applicable local, regional and national regulations for electrical installations must be observed. 
 
-- Serial numbers before 7002702 require an upstream RCD Type-A in order to meet national installation standards. See [Material recommendation RCD Type-A](/produkte/pico-ladestation/materialempfehlung-rcd-typ-a).
+- Serial numbers before 7002702 require a serial RCD Typ-A in order to meet national installation standards. See [Material recommendation RCD Typ-A](/produkte/pico-ladestation/materialempfehlung-rcd-typ-a).
 
-- The installation must not take place near flammable or explosive media, in flood-prone areas (underground car park) or in areas where there is a risk of running water. 
+- The installation must not take place near flammable or explosive media, in flood areas (underground car park) or in areas where there is a risk of running water. 
 
-- The product must be installed at a permanent location. The connections on the Pico and the back plate are designed for a limited number of plug-in cycles. 
+- The product must be installed at a permanent location. The connections on the Pico and the back plate are designed for a limited number of plug cycles. 
 
 - The product must be installed on a wall or structure with sufficient load-bearing capacity. 
 
-- The connection terminals in the back plate are live when the circuit is closed and must under no circumstances be brought into contact directly or with any objects other than the Pico electronics.
+- The connection terminals in the back plate are live when the circuit is closed and must under no circumstances come into contact, directly or with other objects, with anything other than the Pico electronics.
 
-- Depending on the type of installation, permits may be required before installation, e.g. if the building connection capacity is increased. 
+- Depending on the type of installation, permits may be required before installation, e.g. when increasing the building connection capacity. 
 
 - The charging station must be registered with the grid operator. 
 
 - The screws of the cable connections should be tightened with a torque of 3 Nm. The maximum diameter of the cable with wire end ferrule is 6.5mm.
 
-- The product must be operated in combination with a miniature circuit breaker. The short-circuit capacity of the miniature circuit breaker must correspond to the maximum short-circuit capacity of the connection point. For selectivity, one miniature circuit breaker may be sufficient for several charging stations. Observe the country-specific notes on our wiki. The stations can handle individual short circuits of up to 3kA without any problems.
+- The product must be operated in combination with a miniature circuit breaker. The short-circuit capacity of the miniature circuit breaker must correspond to the maximum short-circuit capacity of the connection point. For selectivity, one miniature circuit breaker may be sufficient for several charging stations. Observe the country-specific notes on our wiki. The stations can easily handle individual short circuits of up to 3kA.
 
 **Intended use:**
 
@@ -284,19 +284,19 @@ The safety instructions must be observed under all circumstances:
 
 **Operation:**
 
-- Never use or touch the product if it is damaged or not functioning properly. In an emergency (smoke, fire, sparks or other malfunctions), switch off the product immediately via the RCD switch and notify customer support. 
+- Never use or touch the product if it is damaged or not working properly. In an emergency (smoke, fire, sparks or other malfunctions), switch off the product immediately via the RCD switch and notify customer support. 
 
 - Do not extinguish the product with water or clean it with running water.
 
 - Do not immerse the product in water or other liquids. 
 
-- This product is not intended for operation by persons with limited physical, mental or sensory capabilities (including children) or by persons without knowledge of the product. 
+- This product is not intended for operation by persons with limited physical, mental or sensory abilities (including children) or persons without knowledge of the product. 
 
 - Make sure that children do not play with the product.
 
 - Never touch the contacts of the Type 2 charging socket and do not insert any foreign objects into the product. 
 
-- Never use the charging cable if it is damaged or if the connectors are wet or dirty. 
+- Never use the charging cable if it is damaged or the connections are wet or dirty. 
 
 - Do not use extension cables or non-approved adapters in combination with the product. 
 
@@ -320,28 +320,28 @@ The IEC 61851 standard stipulates that every car must always have at least 6 A a
 </details>
 
 <details id="benötigt-pico-einen-seriellen-rcd-typ-a-pro-ladestation">
-<summary>Does Pico require an upstream RCD Type-A per charging station?</summary>
+<summary>Does Pico require a serial RCD Typ-A per charging station?</summary>
 
-Pico charging stations with serial numbers before 7002701 require an upstream Type-A RCD 40A 30mA to meet national standards.
-The function is present in these devices but is not compliant.
-From serial number 7002702 or BY2024, the Pico no longer requires an upstream RCD; it is now integrated and compliant according to 60947-2.
+Pico charging stations with serial numbers before 7002701 require a serial Type-A RCD 40A 30mA to meet national standards.
+The function is present in these devices but not compliant.
+From serial number 7002702 or BY2024, the Pico no longer requires a serial RCD; it is now integrated and compliant with 60947-2.
 
-Which material is suitable for this is described under [Material recommendation RCD Type-A](/produkte/pico-ladestation/materialempfehlung-rcd-typ-a).
+Which material is suitable for this is described under [Material recommendation RCD Typ-A](/produkte/pico-ladestation/materialempfehlung-rcd-typ-a).
 
 </details>
 
 <details id="unterstützt-die-pico-ladestation-iso15118-für-plug--charge-und-v2g--v2h">
 <summary>Does the Pico charging station support ISO15118 for Plug & Charge and V2G / V2H?</summary>
 
-The Pico charging stations have all the technical equipment to support the ISO15118 and ISO15118-20 standard in the long term.
-Enabling the Pico to support the functions depends exclusively on software and does not require any hardware change or modification.
+The Pico charging stations have all the technical equipment to support the ISO15118 and ISO15118-20 standards in the long term.
+Enabling the Pico to support the functions depends exclusively on software and requires no hardware change or modification.
 
 Bidirectional charging V2H and V2G with the Pico:
-Enabling the Pico charging station for bidirectional charging under ISO15118-20 depends exclusively on the release and availability of the functions and equipment on the part of the vehicle and the vehicle manufacturer. The charging hardware of the Pico charging station does not represent a limitation in this respect.
+Enabling the Pico charging station for bidirectional charging under ISO15118-20 depends exclusively on the release and availability of the functions and equipment on the part of the vehicle and vehicle manufacturer. The charging hardware of the Pico charging station does not represent a limitation for this.
 
 The first vehicles capable of this that can actually be purchased are expected in the coming years.
 
-We are continuously working on developing these functions in our Pico charging station so that we are ready for that moment.
+We are continuously working on developing these functions in our Pico charging station in order to be ready for this moment.
 
 </details>
 

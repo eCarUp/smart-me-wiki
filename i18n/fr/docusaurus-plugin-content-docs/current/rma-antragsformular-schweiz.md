@@ -4,7 +4,7 @@ slug: '/rma-antragsformular-schweiz'
 description: 'Formulaire de demande pour tous les appareils smart-me :'
 sidebar_label: 'RMA Suisse'
 ---
-Cette page s'applique à la Suisse et au Liechtenstein. Pour l'Allemagne, il existe un [formulaire séparé](/rma-antragsformular-deutschland).
+Cette page s'applique à la Suisse et au Liechtenstein. Pour l'Allemagne, il existe un [formulaire distinct](/rma-antragsformular-deutschland).
 
 ## Formulaire de demande pour tous les appareils smart-me :
 
@@ -14,4 +14,4 @@ Si le support de fixation du compteur sur le rail DIN est défectueux ou manquan
 
 [Formulaire de demande RMA smart-me (EN) pour la Suisse et le Liechtenstein](https://docs.google.com/forms/d/e/1FAIpQLSeON_8431yZna77V1KBOx4hn_xZoWL06oKovGl00DL9HY6bXA/viewform?usp=sf_link)
 
-[Formulaire de RMA smart-me (FR) pour la Suisse et le Liechtenstein](https://docs.google.com/forms/d/e/1FAIpQLSe8onzF3kJ-qsD-JwWQfQnXH2LhX9_c4VI6cDGdrkdM_uu1ZQ/viewform?usp=sf_link)
+[smart-me Formulaire de RMA (FR) pour la Suisse et le Lichtenstein](https://docs.google.com/forms/d/e/1FAIpQLSe8onzF3kJ-qsD-JwWQfQnXH2LhX9_c4VI6cDGdrkdM_uu1ZQ/viewform?usp=sf_link)

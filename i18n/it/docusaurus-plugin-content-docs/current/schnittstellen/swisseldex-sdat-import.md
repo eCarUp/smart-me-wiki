@@ -1,8 +1,8 @@
 ---
-title: 'Importazione VZEV-Swisseldex (SDAT)'
+title: 'Importazione vRCP-Swisseldex (SDAT)'
 slug: '/schnittstellen/swisseldex-sdat-import'
 description: 'Per utilizzare l''importazione ti serve un abbonamento smart-me Professional per ogni punto di misura.'
-sidebar_label: 'Importazione VZEV-Swisseldex (SDAT)'
+sidebar_label: 'Importazione vRCP-Swisseldex (SDAT)'
 ---
 <Menueweg>Interfacce → Importazione da Swisseldex</Menueweg>
 
@@ -12,11 +12,11 @@ Per utilizzare l'importazione ti serve un abbonamento smart-me Professional per 
 
 ## Esportazione dei dati da parte del fornitore di energia
 
-Il fornitore di energia invia i dati al server swisseldex, dove smart-me può poi elaborarli.
+Il fornitore di energia invia i dati al server di Swisseldex; in seguito smart-me può elaborarli.
 
-Dati generali del destinatario smart-me sul server swisseldex.
+Indicazioni generali sul destinatario smart-me sul server di Swisseldex.
 
-- Indirizzo e-mail di contatto: [support@smart-me.com](mailto:support@smart-me.com)
+- E-mail di contatto: [support@smart-me.com](mailto:support@smart-me.com)
 
 - Numero di telefono di contatto: +41 41 511 09 70
 
@@ -36,9 +36,9 @@ Dati generali del destinatario smart-me sul server swisseldex.
 
     - EIC: 12X-00000020BN-B
 
-    - È necessario per l'invio dei dati se il partner Datahub registrato che ci invia i dati non dispone di una licenza. Il partner di mercato registrato con il ruolo di gestore della rete di distribuzione deve compilare il relativo modulo di swissldex: [Laufblatt\_Kommunikationspartner kopie von smart-me 10.04.2025](https://drive.google.com/uc?export=download&id=1shPYq-W8ziGMPIbz4d43oensDkoSjLRb) 
+    - È necessario per l'invio dei dati se il partner Datahub registrato che ci invia i dati non dispone di una licenza. Il partner di mercato registrato con il ruolo di gestore della rete di distribuzione deve compilare il relativo modulo di Swisseldex: [Laufblatt\_Kommunikationspartner kopie von smart-me 10.04.2025](https://drive.google.com/uc?export=download&id=1shPYq-W8ziGMPIbz4d43oensDkoSjLRb) 
 
-- Se è possibile scegliere un formato di dati, occorre scegliere Ebix. Attualmente smart-me supporta solo il formato Ebix per l'importazione
+- Se è possibile scegliere un formato dati, occorre selezionare Ebix. Attualmente smart-me supporta solo il formato Ebix per l'importazione
 
 
 ## Configurare l'importazione nell'account di destinazione
@@ -54,27 +54,27 @@ Dati generali del destinatario smart-me sul server swisseldex.
 
 4.  Accetta le autorizzazioni di accesso
 
-5.  Vai all'area Punti di misura (Messpunkte)
+5.  Passa all'area Punti di misura (Messpunkte)
 
 6.  Aggiungi come punti di misura tutti i numeri CH che ti sono stati comunicati.
 
-7.  Dopo la prima importazione dei dati dei punti di misura, questi sono visibili nella [configurazione dei contatori](/konfiguration/ordnerkonfiguration) e puoi aggiungerli alla struttura.
+7.  Quando i dati dei punti di misura sono stati importati per la prima volta, i punti di misura sono visibili nella [configurazione dei contatori](/konfiguration/ordnerkonfiguration), così da poterli aggiungere alla struttura.
 
 
-![Importazione VZEV-Swisseldex (SDAT) – Figura 1](/img/schnittstellen-swisseldex-sdat-import/01.png)
+![Importazione vRCP-Swisseldex (SDAT) – Figura 1](/img/schnittstellen-swisseldex-sdat-import/01.png)
 
-![Importazione VZEV-Swisseldex (SDAT) – Figura 2](/img/schnittstellen-swisseldex-sdat-import/02.png)
+![Importazione vRCP-Swisseldex (SDAT) – Figura 2](/img/schnittstellen-swisseldex-sdat-import/02.png)
 
 ## Funzionamento dell'elaborazione e della sostituzione dei dati
 
 ### Caricamento dei dati e calcolo delle tariffe
 
-Non appena disponibili, i dati importati tramite Swisseldex vengono importati automaticamente in smart-me nel numero del punto di misura (contatore) corrispondente.
+I dati importati tramite Swisseldex vengono importati automaticamente in smart-me, non appena disponibili, nel relativo numero del punto di misura (contatore).
 
-Il calcolo delle tariffe virtuali avviene in modo automatico e continuativo non appena sono disponibili i dati di tutti i punti di misura rilevanti per la tariffazione del RCP o del vRCP.
+Il calcolo delle tariffe virtuali avviene automaticamente e in modo continuativo non appena sono disponibili i dati di tutti i punti di misura rilevanti per la tariffazione dell'RCP o del vRCP.
 
 ### Sostituzione dei valori
 
-Per sostituire dati errati è sufficiente caricare nuovamente il file di importazione tramite Swisseldex. smart-me importa e sovrascrive automaticamente i dati.
+Per sostituire dati errati è sufficiente caricare di nuovo il file di importazione tramite Swisseldex. I dati vengono importati e sovrascritti automaticamente da smart-me.
 
 Dopo una tale sostituzione dei valori è necessario ricalcolare le tariffe virtuali a partire dalla data della sostituzione.

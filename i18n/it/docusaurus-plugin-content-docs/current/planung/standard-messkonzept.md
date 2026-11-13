@@ -23,7 +23,7 @@ Per poter effettuare questo conteggio occorrono l'infrastruttura necessaria e un
 
 <div className="bild--voll">
 
-![Schema di misura per l'elettricità per gli inquilini – Figura 1](/img/planung-standard-messkonzept/01.png)
+![Schema di misura per l'elettricità per gli inquilini – Figura 1](/img/planung-standard-messkonzept/01_IT.png)
 
 </div>
 
@@ -51,7 +51,7 @@ Per poter effettuare questo conteggio occorrono l'infrastruttura necessaria e un
 
 <div className="bild--voll">
 
-![Schema di misura per l'elettricità per gli inquilini – Figura 2](/img/planung-standard-messkonzept/02.png)
+![Schema di misura per l'elettricità per gli inquilini – Figura 2](/img/planung-standard-messkonzept/02_IT.png)
 
 </div>
 
@@ -89,7 +89,7 @@ La quantità di elettricità reimmessa nel registro di esportazione del contator
 
 <div className="bild--voll">
 
-![Schema di misura per l'elettricità per gli inquilini – Figura 3](/img/planung-standard-messkonzept/03.png)
+![Schema di misura per l'elettricità per gli inquilini – Figura 3](/img/planung-standard-messkonzept/03_IT.png)
 
 </div>
 
@@ -103,7 +103,7 @@ La quantità di elettricità reimmessa nel registro di esportazione del contator
 
 <div className="bild--voll">
 
-![Schema di misura per l'elettricità per gli inquilini – Figura 4](/img/planung-standard-messkonzept/04.png)
+![Schema di misura per l'elettricità per gli inquilini – Figura 4](/img/planung-standard-messkonzept/04_IT.png)
 
 </div>
 
@@ -111,6 +111,6 @@ La quantità di elettricità reimmessa nel registro di esportazione del contator
 
 <div className="bild--voll">
 
-![Schema di misura per l'elettricità per gli inquilini – Figura 5](/img/planung-standard-messkonzept/05.png)
+![Schema di misura per l'elettricità per gli inquilini – Figura 5](/img/planung-standard-messkonzept/05_IT.png)
 
 </div>

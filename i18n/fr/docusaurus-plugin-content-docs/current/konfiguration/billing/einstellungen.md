@@ -35,7 +35,7 @@ Paramètres concrets pour la TVA :
 </div>
 <div className="col col--5 bild--mitte">
 
-![Décompte de l'énergie – illustration 2](/img/konfiguration-billing/02.png)
+![Décompte de l'énergie – illustration 2](/img/konfiguration-billing/02_FR.png)
 
 </div>
 </div>

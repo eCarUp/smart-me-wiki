@@ -8,7 +8,7 @@ sidebar_label: 'Système smart-me et bornes tierces'
 
 <div className="bild--voll">
 
-![RCP smart-me et bornes tierces – illustration 1](/img/planung-elektromobilitaet-smart-me-zev-und-fremdstationen/01.png)
+![RCP smart-me et bornes tierces – illustration 1](/img/planung-elektromobilitaet-smart-me-zev-und-fremdstationen/01_FR.png)
 
 </div>
 

@@ -1,14 +1,14 @@
 ---
 title: 'Ebix Data Import'
 slug: '/schnittstellen/ebix-datenimport'
-description: 'smart-me offers automatic data import using the Ebix format'
+description: 'smart-me offers automatic data import in the Ebix format'
 sidebar_label: 'Ebix Data Import'
 ---
-smart-me offers automatic data import using the Ebix format
+smart-me offers automatic data import in the Ebix format
 
 ### Requirements
 
-Only smart-me Gold Partners can use the automatic data import. Further information about this licence model is available from Sales.
+Only smart-me Gold Partners can use the automatic data import. Further information about this licence model can be requested from Sales.
 
 ## Ebix (SDAT)
 
@@ -33,7 +33,7 @@ Server: ftp.smart-me.com
 
 Path: /Ebix/
 
-Username: "Email address of a sub-account of the partner"
+Username: "Email of a sub-account of the partner"
 
 Password: "The corresponding password"
 
@@ -41,10 +41,10 @@ The file size for the import is limited to 50 megabytes.
 
 ### Assignment to a User Account
 
-As soon as Ebix files have been uploaded to the servers by a user of the partner, the metering point ID is shown under "Configuration->Partner->Data Import" ("Konfiguration->Partner->Daten Import"):
+As soon as Ebix files have been uploaded to the servers by a user of the partner, the metering point ID is visible under "Configuration->Partner->Data Import" ("Konfiguration->Partner->Daten Import"):
 
-![Ebix data import – figure 1](/img/schnittstellen-ebix-datenimport/01.jpg)
+![Ebix Data Import – Figure 1](/img/schnittstellen-ebix-datenimport/01.jpg)
 
-The metering point can be assigned to a different user by clicking on edit (editieren):
+The metering point can be assigned to another user by clicking on edit (editieren):
 
-![Ebix data import – figure 2](/img/schnittstellen-ebix-datenimport/02.jpg)
+![Ebix Data Import – Figure 2](/img/schnittstellen-ebix-datenimport/02.jpg)

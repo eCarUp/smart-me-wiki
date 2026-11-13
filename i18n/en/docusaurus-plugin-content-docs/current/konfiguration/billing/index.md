@@ -1,24 +1,24 @@
 ---
 title: 'Energy Billing (Switzerland)'
 slug: '/konfiguration/billing'
-description: 'You need a smart-me Professional subscription to create energy cost billings.'
+description: 'You need a smart-me Professional subscription to create energy cost bills.'
 sidebar_label: 'Billing'
 naechste_schritte: [konfiguration/billing/einstellungen]
 vorheriger_schritt: konfiguration/wenndann-aktionen/alarme
 ---
 <Menueweg>Billing</Menueweg>
 
-<Knopf href="/konfiguration/billing-deutschland">Switch to billing for Germany</Knopf>
+<Knopf href="/konfiguration/billing-deutschland">Go to billing for Germany</Knopf>
 
 ### Prerequisite
 
-You need a smart-me Professional subscription to create energy cost billings. 
+You need a smart-me Professional subscription to create energy cost bills. 
 
 ## Configuring billing step by step
 
-This step-by-step guide is intended to help you configure your billing. Please note that this is only an example you can use for orientation. Depending on the structure of your property, there will be differences from our example. 
+This step-by-step guide is intended to support you in configuring your billing. Please note that this is only an example you can use for orientation. Depending on the setup of your property, there will be differences from our example. 
 
-Each step has its own page. You can go through them in order — the bottom of each page tells you how to continue — or jump straight to where you are right now.
+Each step has its own page. You can work through them in order — the bottom of each page tells you what comes next — or jump directly from here to wherever you currently are.
 
 <Ablauf land="ch" bis="konfiguration/billing/rechnung-erstellen" />
 
@@ -28,7 +28,7 @@ Each step has its own page. You can go through them in order — the bottom of e
 
 ## Webinar smart-me Billing from A to Z
 
-Our webinar explains step by step how to create energy cost billings with the billing tool:
+Our webinar explains step by step how to create energy cost bills with the billing tool:
 
 <div className="row">
 <div className="col col--6">
@@ -40,9 +40,9 @@ Our webinar explains step by step how to create energy cost billings with the bi
 
 <Video src="mK1HYLRtBUI" title="YouTube video, smart-me Billing - virtual tariffs, peak power, changing meter rental" />
 
-Video contents
+Video content
 
-- Configuring peak and off-peak tariff to a single tariff
+- Configuring peak tariff and off-peak tariff to a single tariff
 
 - Adjusting the prices of the virtual tariffs
 
@@ -58,28 +58,28 @@ Video contents
 <div className="row">
 <div className="col col--6 bild--mitte">
 
-<Embed src="https://drive.google.com/file/d/1vVJ5y0_sV8l2NgH8Pf-gJCn36MmDXWfe/preview" height="340px" title="Drive, Beispiel Energiekostenabrechnung.pdf" />
+<Embed src="https://drive.google.com/file/d/1vVJ5y0_sV8l2NgH8Pf-gJCn36MmDXWfe/preview" height="340px" title="Drive, example energy cost bill, Beispiel Energiekostenabrechnung.pdf" />
 
 [Example: electricity billing (.pdf)](https://drive.google.com/file/d/1vVJ5y0_sV8l2NgH8Pf-gJCn36MmDXWfe/view?usp=sharing)
 
 </div>
 <div className="col col--6 bild--mitte">
 
-<Embed src="https://drive.google.com/file/d/1-YR543M1bawFrKgrj-MsQR5Es_wKFzRu/preview" height="340px" title="Drive, Beispiel Rechnung VEWA Heizkosten.pdf" />
+<Embed src="https://drive.google.com/file/d/1-YR543M1bawFrKgrj-MsQR5Es_wKFzRu/preview" height="340px" title="Drive, example VEWA heating cost invoice, Beispiel Rechnung VEWA Heizkosten.pdf" />
 
 [Example: VEWA billing (.pdf)](https://drive.google.com/file/d/1-YR543M1bawFrKgrj-MsQR5Es_wKFzRu/view?usp=sharing)
 
 </div>
 </div>
 
-## Helpful notes on the tariff data
+## Useful notes on the tariff data
 
 ### Visualization
 
 <div className="row">
 <div className="col col--7">
 
-A new tile is now displayed in the default view of the folder of the billing unit (e.g. an apartment). It shows the meter readings for the virtual tariffs. Clicking this tile displays the load profile for the virtual tariffs. 
+A new tile is now shown in the default view of the folder of the billing unit (e.g. an apartment). It displays the meter readings for the virtual tariffs. Clicking this tile displays the load profile for the virtual tariffs. 
 
 </div>
 <div className="col col--5 bild--mitte">

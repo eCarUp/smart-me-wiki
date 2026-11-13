@@ -59,11 +59,11 @@ At this point, an official vZEV registration including all interested parties mu
 
 Once all of the above points have been fulfilled and around 3 months have passed, the vZEV can start operating.
 
-![Virtual ZEV (vZEV) – Figure 1](/img/planung-virtuelle-zev-vzev/01.png)
+![Virtual ZEV (vZEV) – Figure 1](/img/planung-virtuelle-zev-vzev/01_EN.png)
 
 ## Previous model landscape
 
-![Virtual ZEV (vZEV) – Figure 2](/img/planung-virtuelle-zev-vzev/02.png)
+![Virtual ZEV (vZEV) – Figure 2](/img/planung-virtuelle-zev-vzev/02_EN.png)
 
 ## vZEV models
 
@@ -75,7 +75,7 @@ Switching from the DSO model to a vZEV is easy.
 
 In principle, the previous DSO model is simply managed and billed privately as a vZEV and is thus detached from the DSO's services.
 
-![Virtual ZEV (vZEV) – Figure 3](/img/planung-virtuelle-zev-vzev/03.png)
+![Virtual ZEV (vZEV) – Figure 3](/img/planung-virtuelle-zev-vzev/03_EN.png)
 
 ### Multi-building vZEV (extended vZEV)
 
@@ -89,15 +89,15 @@ But not to the single-family house, as it is located outside the approved topolo
 
 The topology requirements for eligible participation in the vZEV are defined in more detail below.
 
-![Virtual ZEV (vZEV) – Figure 4](/img/planung-virtuelle-zev-vzev/04.png)
+![Virtual ZEV (vZEV) – Figure 4](/img/planung-virtuelle-zev-vzev/04_EN.png)
 
 ### Grid topologies for creating an extended vZEV
 
-![Virtual ZEV (vZEV) – Figure 5](/img/planung-virtuelle-zev-vzev/05.png)
+![Virtual ZEV (vZEV) – Figure 5](/img/planung-virtuelle-zev-vzev/05_EN.png)
 
-![Virtual ZEV (vZEV) – Figure 6](/img/planung-virtuelle-zev-vzev/06.png)
+![Virtual ZEV (vZEV) – Figure 6](/img/planung-virtuelle-zev-vzev/06_EN.png)
 
-![Virtual ZEV (vZEV) – Figure 7](/img/planung-virtuelle-zev-vzev/07.png)
+![Virtual ZEV (vZEV) – Figure 7](/img/planung-virtuelle-zev-vzev/07_EN.png)
 
 ## Possible members of a vZEV and metering technology
 
@@ -111,7 +111,7 @@ In a vZEV, different infrastructures from the grid operator and from the private
 
 - Individual apartments and houses without solar production with private metering or DSO metering.
 
-![Virtual ZEV (vZEV) – Figure 8](/img/planung-virtuelle-zev-vzev/08.png)
+![Virtual ZEV (vZEV) – Figure 8](/img/planung-virtuelle-zev-vzev/08_EN.png)
 
 ## Meter infrastructure for the vZEV tariff model
 
@@ -121,7 +121,7 @@ For the tariffs of the various models to work together, selected meter units are
 
 The following figure shows all relevant metering points required for correct balancing and tariff calculation for each infrastructure.
 
-![Virtual ZEV (vZEV) – Figure 9](/img/planung-virtuelle-zev-vzev/09.png)
+![Virtual ZEV (vZEV) – Figure 9](/img/planung-virtuelle-zev-vzev/09_EN.png)
 
 ### Ex-practice model (privatized former DSO model converted to a vZEV)
 
@@ -177,7 +177,7 @@ Properties of the energy suppliers' data:
 
 You can find detailed instructions for the data import here: [Details on the Swisseldex import](/schnittstellen/swisseldex-sdat-import)
 
-![Virtual ZEV (vZEV) – Figure 10](/img/planung-virtuelle-zev-vzev/10.png)
+![Virtual ZEV (vZEV) – Figure 10](/img/planung-virtuelle-zev-vzev/10_EN.png)
 
 ## FAQ
 

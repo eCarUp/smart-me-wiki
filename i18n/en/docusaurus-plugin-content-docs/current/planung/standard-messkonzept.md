@@ -23,7 +23,7 @@ To carry out this billing, the necessary infrastructure and a consistent meterin
 
 <div className="bild--voll">
 
-![Tenant electricity metering concept – Figure 1](/img/planung-standard-messkonzept/01.png)
+![Tenant electricity metering concept – Figure 1](/img/planung-standard-messkonzept/01_EN.png)
 
 </div>
 
@@ -51,7 +51,7 @@ To carry out this billing, the necessary infrastructure and a consistent meterin
 
 <div className="bild--voll">
 
-![Tenant electricity metering concept – Figure 2](/img/planung-standard-messkonzept/02.png)
+![Tenant electricity metering concept – Figure 2](/img/planung-standard-messkonzept/02_EN.png)
 
 </div>
 
@@ -89,7 +89,7 @@ The amount of electricity fed back in the export register of the balance meter c
 
 <div className="bild--voll">
 
-![Tenant electricity metering concept – Figure 3](/img/planung-standard-messkonzept/03.png)
+![Tenant electricity metering concept – Figure 3](/img/planung-standard-messkonzept/03_EN.png)
 
 </div>
 
@@ -103,7 +103,7 @@ The amount of electricity fed back in the export register of the balance meter c
 
 <div className="bild--voll">
 
-![Tenant electricity metering concept – Figure 4](/img/planung-standard-messkonzept/04.png)
+![Tenant electricity metering concept – Figure 4](/img/planung-standard-messkonzept/04_EN.png)
 
 </div>
 
@@ -111,6 +111,6 @@ The amount of electricity fed back in the export register of the balance meter c
 
 <div className="bild--voll">
 
-![Tenant electricity metering concept – Figure 5](/img/planung-standard-messkonzept/05.png)
+![Tenant electricity metering concept – Figure 5](/img/planung-standard-messkonzept/05_EN.png)
 
 </div>

@@ -25,7 +25,7 @@ Les points de mesure qui doivent être répartis et qui se trouvent dans le nœu
 </div>
 <div className="col col--6 bild--mitte">
 
-![Billing : décompter l'énergie – Figure 5](/img/konfiguration-billing/05.png)
+![Billing : décompter l'énergie – Figure 5](/img/konfiguration-billing/05_FR.png)
 
 </div>
 </div>

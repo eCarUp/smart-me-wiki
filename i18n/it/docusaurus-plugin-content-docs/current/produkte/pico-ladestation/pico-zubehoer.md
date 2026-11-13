@@ -8,8 +8,8 @@ sidebar_label: 'Accessori Pico'
 
 Il pacchetto di preparazione Pico consente di preinstallare eventuali ulteriori stazioni di ricarica. La fornitura comprende la piastra di base e una copertura cieca.
 
-Quando si rende necessario un ampliamento, l'elettronica Pico senza piastra di montaggio può essere ordinata successivamente con il numero di articolo 212070/1.
-Il montaggio avviene agganciando l'elettronica Pico nella piastra di montaggio e avvitandola alla piastra di montaggio.
+Non appena si rende necessario un ampliamento, l'elettronica Pico senza piastra di montaggio può essere riordinata con il numero di articolo 212070/1.
+Il montaggio avviene agganciando l'elettronica Pico alla piastra di montaggio e avvitandola alla stessa.
 
 ![Accessori Pico – Figura 1](/img/produkte-pico-ladestation-pico-zubehoer/01.jpg)
 

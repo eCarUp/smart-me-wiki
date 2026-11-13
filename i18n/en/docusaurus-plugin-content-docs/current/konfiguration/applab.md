@@ -12,4 +12,4 @@ In this section you will find new experimental apps that we are evaluating in or
 
 Just give them a try.
 
-![AppLAB – Figure 2](/img/konfiguration-applab/02.png)
+![AppLAB – Figure 2](/img/konfiguration-applab/02_EN.png)

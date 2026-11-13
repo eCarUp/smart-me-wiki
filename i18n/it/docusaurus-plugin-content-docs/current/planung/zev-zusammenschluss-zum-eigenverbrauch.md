@@ -23,7 +23,7 @@ Per poter effettuare questo conteggio sono necessari un'infrastruttura adeguata 
 
 <div className="bild--voll">
 
-![RCP Raggruppamento ai fini del consumo proprio – Figura 1](/img/planung-zev-zusammenschluss-zum-eigenverbrauch/01.png)
+![RCP Raggruppamento ai fini del consumo proprio – Figura 1](/img/planung-zev-zusammenschluss-zum-eigenverbrauch/01_IT.png)
 
 </div>
 
@@ -59,7 +59,7 @@ Per poter effettuare questo conteggio sono necessari un'infrastruttura adeguata 
 
 <div className="bild--voll">
 
-![RCP Raggruppamento ai fini del consumo proprio – Figura 2](/img/planung-zev-zusammenschluss-zum-eigenverbrauch/02.png)
+![RCP Raggruppamento ai fini del consumo proprio – Figura 2](/img/planung-zev-zusammenschluss-zum-eigenverbrauch/02_IT.png)
 
 </div>
 
@@ -108,7 +108,7 @@ Ideale per progettisti ed elettricisti.
 
 <div className="bild--voll">
 
-![RCP Raggruppamento ai fini del consumo proprio – Figura 3](/img/planung-zev-zusammenschluss-zum-eigenverbrauch/03.png)
+![RCP Raggruppamento ai fini del consumo proprio – Figura 3](/img/planung-zev-zusammenschluss-zum-eigenverbrauch/03_IT.png)
 
 </div>
 
@@ -123,7 +123,7 @@ Ideale per progettisti ed elettricisti.
 
 <div className="bild--voll">
 
-![RCP Raggruppamento ai fini del consumo proprio – Figura 4](/img/planung-zev-zusammenschluss-zum-eigenverbrauch/04.png)
+![RCP Raggruppamento ai fini del consumo proprio – Figura 4](/img/planung-zev-zusammenschluss-zum-eigenverbrauch/04_IT.png)
 
 </div>
 
@@ -131,6 +131,6 @@ Ideale per progettisti ed elettricisti.
 
 <div className="bild--voll">
 
-![RCP Raggruppamento ai fini del consumo proprio – Figura 5](/img/planung-zev-zusammenschluss-zum-eigenverbrauch/05.png)
+![RCP Raggruppamento ai fini del consumo proprio – Figura 5](/img/planung-zev-zusammenschluss-zum-eigenverbrauch/05_IT.png)
 
 </div>

@@ -15,11 +15,11 @@ sidebar_label: 'Immotop2 VHKA Configuration'
 
 ## Key notes on billing with Immotop2 and smart-me
 
-- The billing and allocation of costs according to VEWA takes place in the smart.me system.
+- The billing and allocation of costs according to VEWA (consumption-based energy and water cost billing) takes place in the smart.me system.
 
 - Every billing unit in Immotop2 that is to be queried must exist congruently in Smart-me
 
-- For the billing to be correct, the tenancies and vacancies must be recorded in all units for every billing period in Immotop2!
+- For the billing to be correct, the tenancies and vacancies must be recorded in all units in Immotop2 for every billing period!
 
 - Immotop2 only supports one billing period per ancillary cost group, so electricity must be billed in the same period as all other ancillary costs.
 
@@ -32,13 +32,13 @@ For Immotop2 and smart-me to be able to communicate with each other, the recorde
 
 ### Creating the required allocation keys in Immotop2
 
-So that the cost centers can be transmitted correctly, you must first make sure that the necessary keys are available on the client.
+For the cost centers to be transmitted correctly, you must first make sure that the necessary keys are available on the client.
 
-Under the "Basisdaten" tab, the corresponding allocation keys can be created under Verteilschlüssel-Definitionen.
+In the "Base data" ("Basisdaten") tab, the corresponding allocation keys can be created under allocation key definitions (Verteilschlüssel-Definitionen).
 
 If the costs are to be managed in the Immotop2 software, the per mille allocation key is a good choice.
 
-For locally produced electricity, the CHF allocation key is primarily suitable. for all cases.
+For locally produced electricity, the CHF allocation key is primarily suitable, in all cases.
 
 Allocation keys that are generally suitable:
 
@@ -46,21 +46,21 @@ Allocation keys that are generally suitable:
 
 - Cost center solar electricity: solar electricity by cost in CHF
 
-- Cost center heat and domestic hot water combined: heating share by consumption in per mille
+- Cost center heat and domestic hot water combined: heating ratio by consumption in per mille
 
 - Cost center heat: heating by consumption in per mille
 
 - Cost center domestic hot water: cost center domestic hot water by consumption in per mille
 
-![Immotop2 VHKA configuration – Figure 1](/img/schnittstellen-dta-vhka-files-immotop2/01.png)
+![Immotop2 VHKA configuration – figure 1](/img/schnittstellen-dta-vhka-files-immotop2/01.png)
 
-![Immotop2 VHKA configuration – Figure 2](/img/schnittstellen-dta-vhka-files-immotop2/02.png)
+![Immotop2 VHKA configuration – figure 2](/img/schnittstellen-dta-vhka-files-immotop2/02.png)
 
-### 1\. Create LG-Gruppe ancillary costs
+### 1\. Create the LG group for ancillary costs
 
 The prerequisite for billing is an existing client with created properties.
 
-Under the "LG-Gruppe-NK" section of each property or property group, a new LG-Gruppe-NK can be created.
+In the "LG-Gruppe-NK" area of each property or property group, a new LG-Gruppe-NK can be recorded.
 In it, the billing periods of the ancillary costs and the properties to which this group applies are defined. 
 
 - Several properties can share the same LG-Gruppe-NK, but then all costs of the properties must also converge on one cost account.
@@ -72,7 +72,7 @@ In it, the billing periods of the ancillary costs and the properties to which th
 <div className="row">
 <div className="col col--5">
 
-The cost groups can be created in the "Kostengruppen" section
+The cost groups can be created in the "Cost groups" ("Kostengruppen") area
 
 A cost group corresponds to a grouping of several cost accounts that are to be split together using a common allocation key.
 
@@ -89,9 +89,9 @@ Examples of cost groups:
 </div>
 <div className="col col--7 bild--mitte">
 
-![Immotop2 VHKA configuration – Figure 3](/img/schnittstellen-dta-vhka-files-immotop2/03.png)
+![Immotop2 VHKA configuration – figure 3](/img/schnittstellen-dta-vhka-files-immotop2/03.png)
 
-![Immotop2 VHKA configuration – Figure 4](/img/schnittstellen-dta-vhka-files-immotop2/04.png)
+![Immotop2 VHKA configuration – figure 4](/img/schnittstellen-dta-vhka-files-immotop2/04.png)
 
 </div>
 </div>
@@ -107,7 +107,7 @@ Function: heating water flows through the boiler for heat storage
 Cost group to be created:  
 
 Heating and domestic hot water costs
-with allocation key heat share type 09 by per mille or price
+with allocation key heat ratio type 09 by per mille or price
 
 
 
@@ -132,9 +132,9 @@ with allocation key domestic hot water separate type 02 by per mille or price
 
 ### 3\. Cost account to cost group assignment
 
-In the "Kostenkonten- Kostengruppen-Zuordnung" section, all relevant cost accounts can now be assigned to the cost groups.
+In the "Cost account to cost group assignment" ("Kostenkonten- Kostengruppen-Zuordnung") area, all relevant cost accounts can now be assigned to the cost groups.
 
-As an example for the heating and domestic hot water costs, the following accounts would now be linked to the cost group:
+For the heating and domestic hot water costs, for example, the following accounts would now be linked to the cost group:
 
 - Heating oil
 
@@ -149,23 +149,23 @@ As an example for the heating and domestic hot water costs, the following accoun
 - ...
 
 
-![Immotop2 VHKA configuration – Figure 5](/img/schnittstellen-dta-vhka-files-immotop2/05.png)
+![Immotop2 VHKA configuration – figure 5](/img/schnittstellen-dta-vhka-files-immotop2/05.png)
 
 ### 4\. Ancillary costs of the property
 
-On the property, the LG-Gruppe-NK can be added under the "Nebenkosten" tab.
+On the property, the LG-Gruppe-NK can be added under the "Ancillary costs" ("Nebenkosten") tab.
 
-This is where fixed or variable allocation keys for the billing are defined.
+This is where fixed or variable allocation keys for billing are defined.
 
 Allocation keys
-The available allocation keys depend on the allocation keys activated under Mandant --> Nebenkosten. If the relevant allocation keys are not available, additional allocation keys can be defined under "Basisdaten" --> "Verteilschlüsseldefinitionen".
+The available allocation keys depend on the allocation keys activated under Client --> Ancillary costs (Mandant --> Nebenkosten). If the relevant allocation keys are not available, additional allocation keys can be defined under "Base data" --> "Allocation key definitions" ("Basisdaten" --> "Verteilschlüsseldefinitionen").
 
 Examples:
 
-Name: Heating share by consumption
+Name: Heating ratio by consumption
 Unit: per mille
 Type: variable
-Meter reading company rate:
+Reading company rate:
 Total heat (heating and domestic hot water together, 09)
 
 
@@ -173,7 +173,7 @@ Total heat (heating and domestic hot water together, 09)
 Name: Grid electricity by cost
 Unit: CHF
 Type: variable
-Meter reading company rate:
+Reading company rate:
 Electricity (06)
 
 
@@ -181,7 +181,7 @@ Electricity (06)
 Name: Solar electricity by cost
 Unit: CHF
 Type: variable
-Meter reading company rate:
+Reading company rate:
 Electricity (06)
 
 
@@ -191,66 +191,66 @@ Electricity (06)
 1.  Activate allocation keys on the property
 
 
-![Immotop2 VHKA configuration – Figure 6](/img/schnittstellen-dta-vhka-files-immotop2/06.png)
+![Immotop2 VHKA configuration – figure 6](/img/schnittstellen-dta-vhka-files-immotop2/06.png)
 
 2\. Check activated allocation keys
 
-![Immotop2 VHKA configuration – Figure 7](/img/schnittstellen-dta-vhka-files-immotop2/07.png)
+![Immotop2 VHKA configuration – figure 7](/img/schnittstellen-dta-vhka-files-immotop2/07.png)
 
 3\. Assign allocation keys to the cost group
 
-![Immotop2 VHKA configuration – Figure 8](/img/schnittstellen-dta-vhka-files-immotop2/08.png)
+![Immotop2 VHKA configuration – figure 8](/img/schnittstellen-dta-vhka-files-immotop2/08.png)
 
 ### 6\. Export the DTA-VHKA file from Immotop2
 
-Once the configuration is complete, the exchange file can be created under Verarbeitung.
+Once the configuration is complete, the exchange file can be created under Processing (Verarbeitung).
 
 In the configuration, you can define exactly which objects in the property are to be queried. 
 
 Normally, you can simply query all of them.
 
-Important: QP-Standardformat (DTA-VKA) must be activated.
+Important: QP standard format (DTA-VKA) must be activated.
 
-![Immotop2 VHKA configuration – Figure 9](/img/schnittstellen-dta-vhka-files-immotop2/09.png)
+![Immotop2 VHKA configuration – figure 9](/img/schnittstellen-dta-vhka-files-immotop2/09.png)
 
-![Immotop2 VHKA configuration – Figure 10](/img/schnittstellen-dta-vhka-files-immotop2/10.png)
+![Immotop2 VHKA configuration – figure 10](/img/schnittstellen-dta-vhka-files-immotop2/10.png)
 
-![Immotop2 VHKA configuration – Figure 11](/img/schnittstellen-dta-vhka-files-immotop2/11.png)
+![Immotop2 VHKA configuration – figure 11](/img/schnittstellen-dta-vhka-files-immotop2/11.png)
 
-### Making cost center postings in Immotop2
+### Perform cost center booking in Immotop2
 
-If preceding postings to the cost centers are required in Immotop2, they can be taken from the summary CSV of each created invoice.
+If preceding bookings to the cost centers are required in Immotop2, they can be taken from the summary CSV of each invoice created.
 
 This is usually the case for solar electricity, grid electricity and the electricity costs of the heat pump / heating / boiler.
 
-When allocating solar electricity, this will be necessary more often, as the source of this information lies in the smart-me system.
+When allocating solar electricity, this will often be necessary, as the origin of this information lies in the smart-me system.
 
-For the other cost centers, external invoices are usually available that can be posted.
+For the other cost centers, external invoices are usually available that can be booked.
 
 1.  Open smart-me Billing via the Billing (Rechnungsstellung) tab
 
 2.  Select the property
 
-3.  Select the billing period and create an invoice
+3.  Select the invoicing period and create an invoice
 
-4.  Once the invoice for the matching period has been created, open the summary CSV (Zusammenfassung CSV)
+4.  Once the invoice for the appropriate period has been created, open the summary CSV
 
 
-![Immotop2 VHKA configuration – Figure 12](/img/schnittstellen-dta-vhka-files-immotop2/12.png)
+![Immotop2 VHKA configuration – figure 12](/img/schnittstellen-dta-vhka-files-immotop2/12.png)
 
-![Immotop2 VHKA configuration – Figure 13](/img/schnittstellen-dta-vhka-files-immotop2/13.png)
+![Immotop2 VHKA configuration – figure 13](/img/schnittstellen-dta-vhka-files-immotop2/13.png)
 
 It contains the kWh and m3 sold and the price per tariff, per billing unit and in total.
 
-With this total value of the respective tariff, a posting can be made in Immotop2 and then distributed accordingly by per mille with the DTA-VHKA file.
+With this total value of the respective tariff, a booking can be made in Immotop2 and then distributed accordingly with the DTA-VHKA file using per mille.
 
-## Defining the external keys using the request file
+## Define the external keys using the request file
 
 ### 1\. Link the DTA-VHKA file with external keys
 
 1.  Open the file in an editor
 
-2.  Identify the cost centers
+2.  Identify costcenters
     For each &lt;Costcenter>, an energy tariff must exist in smart-me
 
     E.g.:
@@ -261,17 +261,17 @@ With this total value of the respective tariff, a posting can be made in Immotop
     Tariffs can be combined automatically by entering the same ID for several tariffs.
 
 
-3.  Connect cost units with billing units
-    For each billing unit in smart-me, an ID from the file must be available. &lt;CostUnit>&lt;Id> must now be connected with the apartment via the external keys.
+3.  Connect costunits with billing units
+    For each billing unit in smart-me, an ID from the file must be available. &lt;CostUnit>&lt;Id> must now be connected to the apartment via the external keys.
 
     E.g.:
     3 1/2 room apartment ground floor right P2 (103-0.2) = ID 90
     3 1/2 room apartment ground floor right P1 = ID 91
 
 
-![Immotop2 VHKA configuration – Figure 14](/img/schnittstellen-dta-vhka-files-immotop2/14.png)
+![Immotop2 VHKA configuration – figure 14](/img/schnittstellen-dta-vhka-files-immotop2/14.png)
 
-### 2\. Connect cost centers (cost groups) with tariffs
+### 2\. Connect costcenters (cost groups) with tariffs
 
 For each &lt;Costcenter>, an energy tariff must exist in smart-me
 
@@ -284,34 +284,34 @@ Electricity off-peak tariff: ID=24
 
 Tariffs can be combined automatically by entering the same ID for several tariffs.
 
-Example: combined grid tariff cost center
+Example cost center grid tariff combined
 
 - Assign the same ID to the off-peak tariff and the peak tariff, e.g. 23
 
 
-![Immotop2 VHKA configuration – Figure 15](/img/schnittstellen-dta-vhka-files-immotop2/15.png)
+![Immotop2 VHKA configuration – figure 15](/img/schnittstellen-dta-vhka-files-immotop2/15.png)
 
-![Immotop2 VHKA configuration – Figure 16](/img/schnittstellen-dta-vhka-files-immotop2/16.png)
+![Immotop2 VHKA configuration – figure 16](/img/schnittstellen-dta-vhka-files-immotop2/16.png)
 
-### 3\. Connect cost units with billing units
+### 3\. Connect costunits with billing units
 
-For each billing unit in smart-me, an ID from the file must be available. &lt;CostUnit>&lt;Id> must now be connected with the apartment via the external keys.
+For each billing unit in smart-me, an ID from the file must be available. &lt;CostUnit>&lt;Id> must now be connected to the apartment via the external keys.
 
 
 
 Found at the very bottom of the configuration page in Billing.
 
-![Immotop2 VHKA configuration – Figure 17](/img/schnittstellen-dta-vhka-files-immotop2/17.png)
+![Immotop2 VHKA configuration – figure 17](/img/schnittstellen-dta-vhka-files-immotop2/17.png)
 
-### General conditions for a successful exchange
+### General requirements for a successful exchange
 
 ### Tenant list
 
-- Since the tenant lists are managed by the Immotop2 software, smart-me records the contract and also vacancies during the import and reflects them in the billing addresses.
+- Since the tenant lists are managed by the Immotop2 software, smart-me records the contract as well as vacancies during the import and reflects them in the billing addresses.
 
 
 
-![Immotop2 VHKA configuration – Figure 18](/img/schnittstellen-dta-vhka-files-immotop2/18.png)
+![Immotop2 VHKA configuration – figure 18](/img/schnittstellen-dta-vhka-files-immotop2/18.png)
 
 ### Living areas
 
@@ -323,29 +323,29 @@ Found at the very bottom of the configuration page in Billing.
 </div>
 <div className="col col--6 bild--mitte">
 
-![Immotop2 VHKA configuration – Figure 19](/img/schnittstellen-dta-vhka-files-immotop2/19.png)
+![Immotop2 VHKA configuration – figure 19](/img/schnittstellen-dta-vhka-files-immotop2/19.png)
 
 </div>
 </div>
 
 ### Configurations on the smart-me side for price output
 
-- For the price to be calculated, the living area must be specified for every billing unit.
+- For the price to be calculated, the living area must be specified for each billing unit.
 
 - VEWA must be activated and configured with the allocation keys for basic and variable costs per energy type.
 
-- A billing period must be recorded for each energy type. The costs must be maintained and valid tariffs must be recorded for electricity.
+- A billing period must be recorded for each energy type. The costs must be managed, and valid tariffs must be recorded for electricity.
 
 
-![Immotop2 VHKA configuration – Figure 20](/img/schnittstellen-dta-vhka-files-immotop2/20.png)
+![Immotop2 VHKA configuration – figure 20](/img/schnittstellen-dta-vhka-files-immotop2/20.png)
 
 ### 7\. Upload and export the DTA-VHKA file in smart-me
 
-![Immotop2 VHKA configuration – Figure 21](/img/schnittstellen-dta-vhka-files-immotop2/21.png)
+![Immotop2 VHKA configuration – figure 21](/img/schnittstellen-dta-vhka-files-immotop2/21.png)
 
-![Immotop2 VHKA configuration – Figure 22](/img/schnittstellen-dta-vhka-files-immotop2/22.png)
+![Immotop2 VHKA configuration – figure 22](/img/schnittstellen-dta-vhka-files-immotop2/22.png)
 
-1.  In Billing, navigate to "Invoices" ("Rechnungen") and then to the "Export" ("Exportieren") section
+1.  In Billing, navigate to "Invoices" ("Rechnungen") and then to the "Export" ("Exportieren") area
 
 
 2\. Select the export type and upload the file using "Export" ("Exportieren").
@@ -354,6 +354,6 @@ Found at the very bottom of the configuration page in Billing.
 
 ### 8\. Import the DTA-VHKA file into Immotop2
 
-![Immotop2 VHKA configuration – Figure 23](/img/schnittstellen-dta-vhka-files-immotop2/23.png)
+![Immotop2 VHKA configuration – figure 23](/img/schnittstellen-dta-vhka-files-immotop2/23.png)
 
-![Immotop2 VHKA configuration – Figure 24](/img/schnittstellen-dta-vhka-files-immotop2/10.png)
+![Immotop2 VHKA configuration – figure 24](/img/schnittstellen-dta-vhka-files-immotop2/10.png)

@@ -10,9 +10,9 @@ sidebar_label: 'Importation vRCP-Swisseldex (SDAT)'
 
 Vous avez besoin d'un abonnement smart-me Professional par point de mesure pour utiliser l'importation. 
 
-## Exportation des données par le fournisseur d'énergie
+## Exportation des données par le fournisseur d'électricité
 
-Le fournisseur d'énergie envoie les données au serveur swisseldex ; elles peuvent ensuite être traitées par smart-me.
+Le fournisseur d'électricité envoie les données au serveur swisseldex. smart-me peut ensuite les traiter.
 
 Informations générales sur le destinataire smart-me sur le serveur swisseldex.
 
@@ -36,21 +36,21 @@ Informations générales sur le destinataire smart-me sur le serveur swisseldex.
 
     - EIC : 12X-00000020BN-B
 
-    - Est nécessaire pour l'envoi des données si le partenaire Datahub enregistré qui nous envoie les données ne dispose pas de licence. Le partenaire de marché enregistré ayant le rôle de gestionnaire de réseau de distribution (GRD) doit remplir une fiche de circulation correspondante de swissldex : [Laufblatt\_Kommunikationspartner kopie von smart-me 10.04.2025](https://drive.google.com/uc?export=download&id=1shPYq-W8ziGMPIbz4d43oensDkoSjLRb) 
+    - Nécessaire pour l'envoi des données si le partenaire Datahub enregistré qui nous envoie les données ne dispose pas de licence. Le partenaire de marché enregistré ayant le rôle de gestionnaire de réseau de distribution (GRD) doit remplir la fiche de circulation correspondante de swissldex : [Laufblatt\_Kommunikationspartner kopie von smart-me 10.04.2025](https://drive.google.com/uc?export=download&id=1shPYq-W8ziGMPIbz4d43oensDkoSjLRb) 
 
-- Si un format de données peut être choisi, il faut choisir Ebix. Actuellement, smart-me prend uniquement en charge le format Ebix pour l'importation
+- Si un format de données peut être choisi, il faut choisir Ebix. À l'heure actuelle, smart-me ne prend en charge que le format Ebix pour l'importation
 
 
 ## Configurer l'importation dans le compte cible
 
-1.  La demande et l'autorisation des points de mesure concernés doivent être faites auprès du fournisseur d'énergie. Ceux-ci sont ensuite mis à la disposition de smart-me AG sur Swisseldex.
-    Le point de mesure est transmis par le fournisseur d'énergie avec son identifiant unique de point de mesure. L'identifiant se compose du code CH et d'un numéro à 33 chiffres.
+1.  La demande et l'autorisation des points de mesure concernés doivent être faites auprès du fournisseur d'électricité. Ceux-ci sont ensuite mis à la disposition de smart-me AG sur Swisseldex.
+    Le point de mesure est transmis par le fournisseur d'électricité avec son ID de point de mesure unique. L'ID se compose du code CH et d'un numéro à 33 chiffres.
 
     Exemple : CH637482974368378932BKL7389576492
 
 2.  Connectez-vous à votre compte vRCP ou RCP sur [www.smart-me.com](http://www.smart-me.com).
 
-3.  Accédez à la zone d'importation de votre compte vRCP ou RCP via [https://ftp.portal.smart-me.com/](https://ftp.portal.smart-me.com/).
+3.  Ouvrez la zone d'importation de votre compte vRCP ou RCP via [https://ftp.portal.smart-me.com/](https://ftp.portal.smart-me.com/).
 
 4.  Acceptez les autorisations d'accès
 
@@ -58,7 +58,7 @@ Informations générales sur le destinataire smart-me sur le serveur swisseldex.
 
 6.  Ajoutez tous les numéros CH qui vous ont été communiqués en tant que points de mesure.
 
-7.  Dès que les données des points de mesure ont été importées pour la première fois, les points de mesure sont visibles dans la [configuration des compteurs](/konfiguration/ordnerkonfiguration) afin de pouvoir les ajouter à la structure.
+7.  Dès que des données des points de mesure ont été importées pour la première fois, les points de mesure sont visibles dans la [configuration des compteurs](/konfiguration/ordnerkonfiguration) afin de pouvoir les ajouter à la structure.
 
 
 ![Importation vRCP-Swisseldex (SDAT) – Illustration 1](/img/schnittstellen-swisseldex-sdat-import/01.png)
@@ -69,7 +69,7 @@ Informations générales sur le destinataire smart-me sur le serveur swisseldex.
 
 ### Téléversement des données et calcul des tarifs
 
-Les données importées via Swisseldex sont automatiquement importées dans smart-me, dès qu'elles sont disponibles, vers le numéro de point de mesure (compteur) correspondant.
+Dès qu'elles sont disponibles, les données importées via Swisseldex sont automatiquement importées dans smart-me et attribuées au numéro de point de mesure (compteur) correspondant.
 
 Le calcul des tarifs virtuels s'effectue automatiquement et en continu dès que les données de tous les points de mesure pertinents pour la tarification du RCP ou du vRCP sont disponibles.
 
@@ -77,4 +77,4 @@ Le calcul des tarifs virtuels s'effectue automatiquement et en continu dès que 
 
 Pour remplacer des données erronées, il suffit de téléverser à nouveau le fichier d'importation via Swisseldex. Les données sont automatiquement importées et écrasées du côté de smart-me.
 
-Après un tel remplacement de valeurs, il est nécessaire de recalculer les tarifs virtuels à partir de la date de remplacement.
+Après un tel remplacement des valeurs, il est nécessaire de recalculer les tarifs virtuels à partir de la date de remplacement.

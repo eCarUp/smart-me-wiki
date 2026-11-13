@@ -35,7 +35,7 @@ Specific VAT settings:
 </div>
 <div className="col col--5 bild--mitte">
 
-![Energy Billing – Figure 2](/img/konfiguration-billing/02.png)
+![Energy Billing – Figure 2](/img/konfiguration-billing/02_EN.png)
 
 </div>
 </div>

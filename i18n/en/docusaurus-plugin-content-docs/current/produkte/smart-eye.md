@@ -1,42 +1,42 @@
 ---
 title: 'smart-eye'
 slug: '/produkte/smart-eye'
-description: 'The smart-eye brings energy meters according to the FNN specification for basic meters (modern metering devices) into the smart-me Cloud.'
+description: 'The smart-eye brings energy meters compliant with the FNN specification for basic meters (modern metering devices) into the smart-me Cloud.'
 sidebar_label: 'smart-eye'
 displayed_sidebar: wikiSidebar
 ---
-The smart-eye brings energy meters according to the FNN specification for basic meters (modern metering devices) into the smart-me Cloud. For this purpose, the smart-eye is attached to the optical INFO data interface. The energy data is then transmitted to the smart-me Cloud via local WiFi. Via the app or online login, consumption visualizations and, where applicable, data relevant to grid operation such as frequency, voltage or current can be accessed in near real time.
+The smart-eye brings energy meters compliant with the FNN specification for basic meters (modern metering devices) into the smart-me Cloud. For this purpose, the smart-eye is attached to the optical INFO data interface. The energy data is then transmitted to the smart-me Cloud via local WiFi. Using the app or the online login, you can view consumption visualizations in near real time and, where applicable, data relevant to grid operation such as frequency, voltage or current.
 
-Sales discontinued on 30.03.2021, support and cloud support are guaranteed until 30.03.2025.
+Sales discontinued on 30.03.2021; support and cloud support are guaranteed until 30.03.2025.
 
-The smart-me system is multi-utility capable: the readings of other meters, such as gas meters, can also be read and integrated into energy management. In addition, depending on the meter type, the smart-eye can automatically enter the PIN code for unlocking the extended data set. 
+The smart-me system is multi-utility capable: the measured values of other meters, such as gas meters, can also be read and integrated into energy management. In addition, depending on the meter type, the smart-eye can automatically enter the PIN code for unlocking the extended data set. 
 
 ![smart-eye – Figure 1](/img/produkte-smart-eye/01.jpg)
 
-## Functions
+## Features
 
 - Real-time visualization of the meter data
 
 - Automatic storage of the meter readings in the cloud
 
-- Data logger: storage of the measured values in the event of a connection failure and automatic synchronization with the cloud once the connection is restored
+- Data logger: measured values are stored during a connection failure and automatically synchronized to the cloud once the connection is restored
 
 - Encrypted WiFi connection to the smart-me Cloud
 
 - Comprehensive energy management, automatic billing, control and alarms via the smart-me Cloud
 
-- Simple installation with the free smart-me app for Android and iOS
+- Easy installation with the free smart-me app for Android and iOS
 
 
 <Video src="0bvtbGs8G94" title="YouTube video, smart eye for FNN basic meters" />
 
 Installation and commissioning of the smart-eye module
 
-## Technical data
+## Technical Data
 
 | Feature | Value |
 | --- | --- |
-| Supported meters | all meters according to the FNN specification for basic meters |
+| Supported meters | all meters compliant with the FNN specification for basic meters |
 | Operating voltage | USB Type C interface (5V) |
 | Interfaces | WiFi, INFO interface (communication with the meter) |
 | Data storage | 2 months |
@@ -49,29 +49,29 @@ Installation and commissioning of the smart-eye module
 | Temperature range | −40°C to 70°C |
 | Mounting | Magnetic |
 
-## Tested meters
+## Tested Meters
 
-[](https://drive.google.com/open?id=1WURxhIS6zPpfSeOv-tfZqnRQKIBkGNP9x4_n1r5iVds "Open Spreadsheet, Tested meters in new window")
+[](https://drive.google.com/open?id=1WURxhIS6zPpfSeOv-tfZqnRQKIBkGNP9x4_n1r5iVds "Open spreadsheet, tested meters in new window")
 
-<Embed src="https://docs.google.com/spreadsheets/d/1WURxhIS6zPpfSeOv-tfZqnRQKIBkGNP9x4_n1r5iVds/htmlembed?gid=0" height="493px" title="Spreadsheet, Tested meters" />
+<Embed src="https://docs.google.com/spreadsheets/d/1WURxhIS6zPpfSeOv-tfZqnRQKIBkGNP9x4_n1r5iVds/htmlembed?gid=0" height="493px" title="Spreadsheet, tested meters" />
 
 Tested meters
 
-## LED blink codes
+## LED Blink Codes
 
-[](https://drive.google.com/open?id=10sNiDg0g8cwomZ-aEWn7gpCKbZLiay4X1O_fOJmM-QY "Open Spreadsheet, smart-eye LED blink codes in new window")
+[](https://drive.google.com/open?id=10sNiDg0g8cwomZ-aEWn7gpCKbZLiay4X1O_fOJmM-QY "Open spreadsheet, smart-eye LED blink codes in new window")
 
 <Embed src="https://docs.google.com/spreadsheets/d/10sNiDg0g8cwomZ-aEWn7gpCKbZLiay4X1O_fOJmM-QY/htmlembed" height="216px" title="Spreadsheet, smart-eye LED blink codes" />
 
 smart-eye LED blink codes
 
-Changing the upload interval
+Change the upload interval
 
 - Log in to the smart-me portal
 
 - Select the meter
 
-- Select the gear icon at the top right
+- Click the gear icon at the top right
 
 - General settings (Allgemeine Einstellungen)
 

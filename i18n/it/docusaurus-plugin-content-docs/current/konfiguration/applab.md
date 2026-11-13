@@ -12,4 +12,4 @@ In questa sezione trovi nuove app sperimentali che stiamo valutando per offrire 
 
 Provale semplicemente.
 
-![AppLAB – Figura 2](/img/konfiguration-applab/02.png)
+![AppLAB – Figura 2](/img/konfiguration-applab/02_EN.png)

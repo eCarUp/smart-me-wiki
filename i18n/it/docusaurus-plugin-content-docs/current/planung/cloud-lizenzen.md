@@ -156,7 +156,7 @@ Nel conteggio RCP (raggruppamento ai fini del consumo proprio) è determinante q
 
 <div className="bild--voll">
 
-![Licenze cloud – Figura 1](/img/planung-cloud-lizenzen/01.png)
+![Licenze cloud – Figura 1](/img/planung-cloud-lizenzen/01_IT.png)
 
 </div>
 
@@ -164,6 +164,6 @@ Nel conteggio RCP (raggruppamento ai fini del consumo proprio) è determinante q
 
 <div className="bild--voll">
 
-![Licenze cloud – Figura 2](/img/planung-cloud-lizenzen/02.png)
+![Licenze cloud – Figura 2](/img/planung-cloud-lizenzen/02_IT.png)
 
 </div>

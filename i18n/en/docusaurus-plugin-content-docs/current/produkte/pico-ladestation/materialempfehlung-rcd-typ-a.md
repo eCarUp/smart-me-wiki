@@ -9,15 +9,15 @@ sidebar_label: 'Material recommendation RCD Typ-A'
 
 ### Woertz flat cable
 
-With its flat cables and connection boxes, Woertz offers a very elegant solution that is practically invisible.
+With its flat cables and connection boxes, Woertz offers a very elegant solution that remains virtually unnoticeable.
 
-49617 Woertz device enclosure for connection boxes 49615
+49617 Woertz device housing for connection boxes 49615
 
-Data sheet: [Woertz device enclosure data sheet](https://prod.woertz.ch/pim/upload/woertzData/datasheet/base/infoblatt_anschlussdose_5x16mm2.pdf)
+Datasheet: [Woertz device housing datasheet](https://prod.woertz.ch/pim/upload/woertzData/datasheet/base/infoblatt_anschlussdose_5x16mm2.pdf)
 
-Link: [Woertz device enclosure](https://prod.woertz.ch/web/woertz/de_CH/all/all/Verteiler%20Geh%C3%A4use%20zur%20Absicherung%20zu%2049615/$catalogue/woertzData/PR/49617/parameters/index.xhtml;jsessionid=8AFA07F090D67313B66C8CEED84B1195) 
+Link: [Woertz device housing](https://prod.woertz.ch/web/woertz/de_CH/all/all/Verteiler%20Geh%C3%A4use%20zur%20Absicherung%20zu%2049615/$catalogue/woertzData/PR/49617/parameters/index.xhtml;jsessionid=8AFA07F090D67313B66C8CEED84B1195) 
 
-Any DIN rail RCD Typ-A can be installed in this device enclosure, provided it is smaller than these dimensions:
+Any DIN rail RCD Typ-A can be installed in this device housing, provided it is smaller than these dimensions:
 
 h x w x d: 150mm x 100mm x 90mm
 

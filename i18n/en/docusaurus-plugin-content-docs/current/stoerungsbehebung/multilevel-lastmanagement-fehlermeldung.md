@@ -1,7 +1,7 @@
 ---
 title: 'Multilevel load management error message'
 slug: '/stoerungsbehebung/multilevel-lastmanagement-fehlermeldung'
-description: 'The load management group is probably not configured correctly: The value selected for cloud connection failure is not "Max.'
+description: 'The load management group is probably not configured correctly: "Max.'
 sidebar_label: 'Multilevel load management error message'
 ---
 <div className="row">
@@ -35,7 +35,7 @@ sidebar_label: 'Multilevel load management error message'
 
 ![Multilevel load management error message – Figure 5](/img/stoerungsbehebung-multilevel-lastmanagement-fehlermeldung/05.png)
 
-- No text entered in the "Name" ("Name") field
+- No text entered in the "Name" field
 
 
 <div className="row">
@@ -50,7 +50,7 @@ sidebar_label: 'Multilevel load management error message'
 
     The MLM must be configured again to restore the function.
 
-- Always delete the relevant Pico load groups from the MLM tree first and only then on the hardware, so that the configuration is not destroyed.
+- Always delete the relevant Pico load groups from the MLM tree first and then on the hardware, so as not to destroy the configuration.
 
 </div>
 </div>
@@ -58,15 +58,15 @@ sidebar_label: 'Multilevel load management error message'
 
 ## Too little current is always allocated to a group
 
-This can have the following causes:
+There may be the following reasons for this:
 
 - There is not enough capacity for all groups --> Reduce the group currents slightly to achieve a balance between the groups.
 
-- There is not enough capacity for all groups --> Temporarily reduce the group currents using the minimum current group setting per hour.
+- There is not enough capacity for all groups --> Temporarily reduce the group currents using the minimum current (Minimalstrom) group setting per hour.
 
 
 ## The groups are only ever provided with the internet failure current
 
 ![Multilevel load management error message – Figure 7](/img/stoerungsbehebung-multilevel-lastmanagement-fehlermeldung/07.png)
 
-- The MLM is not active and, as a safety measure, only distributes the internet failure current --> Activate MLM (MLM Aktivieren) and click Save (Speichern).
+- The MLM is not active and, as a safety measure, therefore only distributes the internet failure current --> Activate the MLM ("MLM Aktivieren") and press Save ("Speichern").

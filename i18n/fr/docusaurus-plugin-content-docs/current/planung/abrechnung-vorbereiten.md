@@ -90,7 +90,7 @@ Part en % du mix électrique = livraison du fournisseur / consommation totale de
 
 <div className="bild--voll">
 
-![Préparer le décompte / la rétribution – Figure 2](/img/planung-abrechnung-vorbereiten/02.png)
+![Préparer le décompte / la rétribution – Figure 2](/img/planung-abrechnung-vorbereiten/02_FR.png)
 
 </div>
 
@@ -112,7 +112,7 @@ Remarque 3 : l'application du mix électrique n'a pas pour rôle de gérer les r
 
 <div className="bild--voll">
 
-![Préparer le décompte / la rétribution – Figure 3](/img/planung-abrechnung-vorbereiten/03.png)
+![Préparer le décompte / la rétribution – Figure 3](/img/planung-abrechnung-vorbereiten/03_FR.png)
 
 </div>
 
@@ -139,7 +139,7 @@ Au total, la vente d'électricité solaire a ainsi généré 45.9 CHF.
 
 <div className="bild--voll">
 
-![Préparer le décompte / la rétribution – Figure 4](/img/planung-abrechnung-vorbereiten/04.png)
+![Préparer le décompte / la rétribution – Figure 4](/img/planung-abrechnung-vorbereiten/04_FR.png)
 
 </div>
 

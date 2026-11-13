@@ -56,7 +56,7 @@ Se sul nodo viene utilizzata una visualizzazione che accede ai dati dei contator
 </div>
 <div className="col col--8 bild--mitte">
 
-![Creare utenti – Figura 3](/img/konfiguration-benutzerkonfiguration/03.png)
+![Creare utenti – Figura 3](/img/konfiguration-benutzerkonfiguration/03_EN.png)
 
 </div>
 </div>

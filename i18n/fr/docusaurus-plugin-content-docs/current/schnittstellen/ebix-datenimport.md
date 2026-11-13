@@ -1,14 +1,14 @@
 ---
 title: 'Importation de données Ebix'
 slug: '/schnittstellen/ebix-datenimport'
-description: 'smart-me offre la possibilité d''importer automatiquement des données au format Ebix'
+description: 'smart-me offre la possibilité d''une importation automatique de données au format Ebix'
 sidebar_label: 'Importation de données Ebix'
 ---
-smart-me offre la possibilité d'importer automatiquement des données au format Ebix
+smart-me offre la possibilité d'une importation automatique de données au format Ebix
 
 ### Conditions préalables
 
-Seuls les partenaires Gold smart-me peuvent utiliser l'importation automatique de données. Vous pouvez demander de plus amples informations sur ce modèle de licence auprès du service des ventes.
+Seuls les partenaires Gold de smart-me peuvent utiliser l'importation automatique de données. Vous pouvez obtenir de plus amples informations sur ce modèle de licence auprès du service des ventes.
 
 ## Ebix (SDAT)
 
@@ -27,7 +27,7 @@ Les fichiers XML (Ebix) destinés à l'échange de données standardisé sur le 
 
 ### Téléversement des données
 
-Les fichiers peuvent être téléversés sur les serveurs FTP de smart-me par FTP ou par FTPS (TLS) :
+Les fichiers peuvent être chargés sur les serveurs FTP de smart-me par FTP ou par FTPS (TLS) :
 
 Serveur : ftp.smart-me.com
 
@@ -41,10 +41,10 @@ La taille des fichiers à importer est limitée à 50 mégaoctets.
 
 ### Attribution à un compte utilisateur
 
-Dès qu'un utilisateur du partenaire a téléversé des fichiers Ebix sur les serveurs, l'ID du point de mesure apparaît sous « Configuration->Partenaire->Importation de données » (Konfiguration->Partner->Daten Import) :
+Dès qu'un utilisateur du partenaire a chargé des fichiers Ebix sur les serveurs, l'ID du point de mesure apparaît sous « Configuration->Partenaire->Importation de données » (« Konfiguration->Partner->Daten Import ») :
 
 ![Importation de données Ebix – Illustration 1](/img/schnittstellen-ebix-datenimport/01.jpg)
 
-Le point de mesure peut être attribué à un autre utilisateur en cliquant sur modifier (editieren) :
+Vous pouvez attribuer le point de mesure à un autre utilisateur en cliquant sur modifier (editieren) :
 
 ![Importation de données Ebix – Illustration 2](/img/schnittstellen-ebix-datenimport/02.jpg)

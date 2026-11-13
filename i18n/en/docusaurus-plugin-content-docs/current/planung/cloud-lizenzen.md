@@ -156,7 +156,7 @@ For ZEV billing, the decisive factors are which tariff system is to be mapped an
 
 <div className="bild--voll">
 
-![Cloud License – Figure 1](/img/planung-cloud-lizenzen/01.png)
+![Cloud License – Figure 1](/img/planung-cloud-lizenzen/01_EN.png)
 
 </div>
 
@@ -164,6 +164,6 @@ For ZEV billing, the decisive factors are which tariff system is to be mapped an
 
 <div className="bild--voll">
 
-![Cloud License – Figure 2](/img/planung-cloud-lizenzen/02.png)
+![Cloud License – Figure 2](/img/planung-cloud-lizenzen/02_EN.png)
 
 </div>

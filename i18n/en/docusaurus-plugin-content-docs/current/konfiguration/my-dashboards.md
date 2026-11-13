@@ -12,7 +12,7 @@ Create a personalised energy map of your building.
 
 Use an image or a Google Maps view for this and display selected live values directly in the image.
 
-![My Dashboards – Figure 2](/img/konfiguration-my-dashboards/02.png)
+![My Dashboards – Figure 2](/img/konfiguration-my-dashboards/02_EN.png)
 
 ## My energy flow
 

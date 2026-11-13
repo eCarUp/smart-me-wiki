@@ -59,11 +59,11 @@ A questo punto occorre presentare al GRD una notifica ufficiale del vRCP con tut
 
 Una volta soddisfatti tutti i punti sopra elencati e dopo circa 3 mesi, il vRCP può entrare in funzione.
 
-![RCP virtuale (vRCP) – Figura 1](/img/planung-virtuelle-zev-vzev/01.png)
+![RCP virtuale (vRCP) – Figura 1](/img/planung-virtuelle-zev-vzev/01_IT.png)
 
 ## Panorama dei modelli finora esistenti
 
-![RCP virtuale (vRCP) – Figura 2](/img/planung-virtuelle-zev-vzev/02.png)
+![RCP virtuale (vRCP) – Figura 2](/img/planung-virtuelle-zev-vzev/02_IT.png)
 
 ## Modelli di vRCP
 
@@ -75,7 +75,7 @@ Il passaggio dal modello GRD al vRCP è facilmente possibile.
 
 In questo modo il precedente modello GRD viene in pratica semplicemente gestito e conteggiato privatamente come vRCP e risulta così svincolato dai servizi del GRD.
 
-![RCP virtuale (vRCP) – Figura 3](/img/planung-virtuelle-zev-vzev/03.png)
+![RCP virtuale (vRCP) – Figura 3](/img/planung-virtuelle-zev-vzev/03_IT.png)
 
 ### vRCP per più edifici (vRCP esteso)
 
@@ -89,15 +89,15 @@ Non però della casa unifamiliare, poiché questa si trova al di fuori della top
 
 I requisiti di topologia per la partecipazione legittima al vRCP sono definiti più in dettaglio qui sotto.
 
-![RCP virtuale (vRCP) – Figura 4](/img/planung-virtuelle-zev-vzev/04.png)
+![RCP virtuale (vRCP) – Figura 4](/img/planung-virtuelle-zev-vzev/04_IT.png)
 
 ### Topologie di rete per la creazione di un vRCP esteso
 
-![RCP virtuale (vRCP) – Figura 5](/img/planung-virtuelle-zev-vzev/05.png)
+![RCP virtuale (vRCP) – Figura 5](/img/planung-virtuelle-zev-vzev/05_IT.png)
 
-![RCP virtuale (vRCP) – Figura 6](/img/planung-virtuelle-zev-vzev/06.png)
+![RCP virtuale (vRCP) – Figura 6](/img/planung-virtuelle-zev-vzev/06_IT.png)
 
-![RCP virtuale (vRCP) – Figura 7](/img/planung-virtuelle-zev-vzev/07.png)
+![RCP virtuale (vRCP) – Figura 7](/img/planung-virtuelle-zev-vzev/07_IT.png)
 
 ## Possibili membri di un vRCP e tecnica di misura
 
@@ -111,7 +111,7 @@ In un vRCP possono incontrarsi diverse infrastrutture del gestore della rete di 
 
 - Singoli appartamenti e case senza produzione solare con misurazioni private o misurazioni del GRD.
 
-![RCP virtuale (vRCP) – Figura 8](/img/planung-virtuelle-zev-vzev/08.png)
+![RCP virtuale (vRCP) – Figura 8](/img/planung-virtuelle-zev-vzev/08_IT.png)
 
 ## Infrastruttura dei contatori per il modello tariffario vRCP
 
@@ -121,7 +121,7 @@ Affinché la tariffazione congiunta dei diversi modelli riesca, sono necessarie 
 
 Nell'immagine seguente sono indicati tutti i punti di misura rilevanti necessari per il corretto bilancio e la corretta tariffazione di ciascuna infrastruttura.
 
-![RCP virtuale (vRCP) – Figura 9](/img/planung-virtuelle-zev-vzev/09.png)
+![RCP virtuale (vRCP) – Figura 9](/img/planung-virtuelle-zev-vzev/09_IT.png)
 
 ### Ex modello pratico (modello ex GRD privatizzato verso il vRCP)
 
@@ -177,7 +177,7 @@ Caratteristiche dei dati delle aziende elettriche:
 
 Qui trovi una guida dettagliata all'importazione dei dati: [Dettagli sull'importazione da Swisseldex](/schnittstellen/swisseldex-sdat-import)
 
-![RCP virtuale (vRCP) – Figura 10](/img/planung-virtuelle-zev-vzev/10.png)
+![RCP virtuale (vRCP) – Figura 10](/img/planung-virtuelle-zev-vzev/10_IT.png)
 
 ## FAQ
 

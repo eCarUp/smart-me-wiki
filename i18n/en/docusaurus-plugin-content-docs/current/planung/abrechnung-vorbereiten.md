@@ -90,7 +90,7 @@ In this case, each supplier's percentage share of total consumption is calculate
 
 <div className="bild--voll">
 
-![Prepare Billing – Figure 2](/img/planung-abrechnung-vorbereiten/02.png)
+![Prepare Billing – Figure 2](/img/planung-abrechnung-vorbereiten/02_EN.png)
 
 </div>
 
@@ -112,7 +112,7 @@ Note 3: Applying the electricity mix is not intended to handle remuneration to i
 
 <div className="bild--voll">
 
-![Prepare Billing – Figure 3](/img/planung-abrechnung-vorbereiten/03.png)
+![Prepare Billing – Figure 3](/img/planung-abrechnung-vorbereiten/03_EN.png)
 
 </div>
 
@@ -139,7 +139,7 @@ In total, 45.9 CHF has now been generated from the sale of solar electricity.
 
 <div className="bild--voll">
 
-![Prepare Billing – Figure 4](/img/planung-abrechnung-vorbereiten/04.png)
+![Prepare Billing – Figure 4](/img/planung-abrechnung-vorbereiten/04_EN.png)
 
 </div>
 

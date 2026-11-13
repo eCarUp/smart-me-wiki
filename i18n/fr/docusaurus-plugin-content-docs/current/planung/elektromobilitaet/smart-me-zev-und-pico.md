@@ -10,7 +10,7 @@ sidebar_label: 'Système smart-me et Pico'
 
 <div className="bild--voll">
 
-![RCP smart-me et Pico – Illustration 1](/img/planung-elektromobilitaet-smart-me-zev-und-pico/01.png)
+![RCP smart-me et Pico – Illustration 1](/img/planung-elektromobilitaet-smart-me-zev-und-pico/01_FR.png)
 
 </div>
 

@@ -7,7 +7,7 @@ sidebar_label: 'Configurazione VHKA Immotop2'
 ## Formati di file VHKA supportati da Immotop2
 
 - Formato di file XML (standard DTA-VHKA)
-    Interrogazioni per centro di costo:
+    Richieste per centro di costo:
     \- Letture del contatore in m3 o kWh per unità d'uso
     \- Valori in per mille per unità d'uso
     \- Prezzo per unità d'uso
@@ -15,18 +15,18 @@ sidebar_label: 'Configurazione VHKA Immotop2'
 
 ## Indicazioni principali per il conteggio con Immotop2 e smart-me
 
-- Il conteggio e la ripartizione dei costi secondo VEWA avvengono nel sistema smart.me.
+- Il conteggio e la ripartizione dei costi secondo il CISE (Conteggio individuale delle spese dell'energia e dell'acqua) avvengono nel sistema smart.me.
 
-- Ogni unità di conteggio in Immotop2 che si desidera interrogare deve esistere in modo congruente in Smart-me
+- Ogni unità di conteggio in Immotop2 che deve essere richiesta deve esistere in modo congruente in Smart-me
 
 - Affinché il conteggio sia corretto, per ogni periodo di conteggio in Immotop2 devono essere registrati in tutte le unità i rapporti di locazione e gli sfitti!
 
-- Immotop2 supporta un solo periodo di conteggio per gruppo di spese accessorie, quindi l'elettricità deve essere conteggiata nello stesso periodo di tutte le altre spese accessorie.
+- Immotop2 supporta un solo periodo di conteggio per gruppo di spese accessorie; l'elettricità deve quindi essere conteggiata nello stesso periodo di tutte le altre spese accessorie.
 
 - L'elenco degli inquilini di Immotop2 viene sincronizzato automaticamente con smart-me.
 
 
-## Indicazioni di configurazione da parte di Immotop2
+## Indicazioni di configurazione per Immotop2
 
 Affinché Immotop2 e smart-me possano comunicare tra loro, le spese accessorie, i centri di costo e i gruppi di spese accessorie registrati devono corrispondere.
 
@@ -34,9 +34,9 @@ Affinché Immotop2 e smart-me possano comunicare tra loro, le spese accessorie, 
 
 Affinché i centri di costo possano essere trasmessi correttamente, occorre innanzitutto assicurarsi che le chiavi necessarie siano disponibili sul mandante.
 
-Nella scheda "Dati di base" ("Basisdaten") è possibile creare le chiavi di ripartizione corrispondenti in Definizioni delle chiavi di ripartizione (Verteilschlüssel-Definitionen).
+Nella scheda "Basisdaten" è possibile creare le chiavi di ripartizione corrispondenti in "Verteilschlüssel-Definitionen".
 
-Se si desidera gestire i costi nel software Immotop2, è indicata la chiave di ripartizione per mille.
+Se i costi devono essere gestiti nel software Immotop2, è indicata la chiave di ripartizione in per mille.
 
 Per l'elettricità prodotta localmente è indicata in primo luogo la chiave di ripartizione CHF. per tutti i casi.
 
@@ -44,7 +44,7 @@ Chiavi di ripartizione generalmente indicate:
 
 - Centro di costo elettricità di rete: elettricità di rete secondo i costi in CHF
 
-- Centro di costo energia solare: energia solare secondo i costi in CHF
+- Centro di costo elettricità solare: elettricità solare secondo i costi in CHF
 
 - Centro di costo calore e acqua calda sanitaria combinati: quota di riscaldamento secondo il consumo in per mille
 
@@ -60,31 +60,31 @@ Chiavi di ripartizione generalmente indicate:
 
 Il presupposto per un conteggio è un mandante esistente con immobili creati.
 
-Nella sezione "LG-Gruppe-NK" di ogni immobile o gruppo di immobili è possibile registrare un nuovo LG-Gruppe-NK.
+Nell'area "LG-Gruppe-NK" di ogni immobile o gruppo di immobili è possibile registrare un nuovo LG-Gruppe-NK.
 In esso vengono definiti i periodi di conteggio delle spese accessorie e gli immobili ai quali si applica questo gruppo. 
 
-- Più immobili possono condividere lo stesso LG-Gruppe-NK, ma in tal caso tutti i costi degli immobili devono confluire su un unico conto dei costi.
+- Più immobili possono condividere lo stesso LG-Gruppe-NK, ma in tal caso tutti i costi degli immobili devono confluire su un unico conto di costo.
     Gli immobili vengono gestiti insieme principalmente quando condividono il riscaldamento.
 
 
-### 2\. Gruppi di costi (centri di costo)
+### 2\. Gruppi di costo (centri di costo)
 
 <div className="row">
 <div className="col col--5">
 
-Nella sezione "Gruppi di costi" ("Kostengruppen") è possibile creare i gruppi di costi
+Nell'area "Kostengruppen" è possibile creare i gruppi di costo
 
-Il gruppo di costi corrisponde a un raggruppamento di più conti dei costi che devono essere ripartiti insieme tramite una chiave di ripartizione comune.
+Il gruppo di costo corrisponde a un raggruppamento di più conti di costo che devono essere ripartiti insieme tramite una chiave di ripartizione comune.
 
-Esempi di gruppi di costi:
+Esempi di gruppi di costo:
 
-- Gruppo di costi elettricità di rete
+- Gruppo di costo elettricità di rete
 
-- Gruppo di costi elettricità locale
+- Gruppo di costo elettricità locale
 
-- Gruppo di costi spese di riscaldamento (calore e acqua calda sanitaria combinati)
+- Gruppo di costo spese di riscaldamento (calore e acqua calda sanitaria combinati)
 
-- Gruppo di costi acqua fredda
+- Gruppo di costo acqua fredda
 
 </div>
 <div className="col col--7 bild--mitte">
@@ -96,7 +96,7 @@ Esempi di gruppi di costi:
 </div>
 </div>
 
-Esempio del gruppo di costi per sistemi di produzione di calore e di acqua calda sanitaria che si supportano a vicenda
+Esempio di gruppo di costo per produzione di calore e acqua calda sanitaria che si supportano a vicenda
 
 Pompa di calore con produzione di acqua calda sanitaria e resistenza elettrica (accoppiate)
 
@@ -104,15 +104,15 @@ Pompa di calore con produzione di acqua calda sanitaria e resistenza elettrica (
 Energia utilizzata: energia elettrica per entrambi
 Funzione: l'acqua di riscaldamento scorre attraverso il boiler per l'accumulo di calore
 
-Gruppo di costi da creare:  
+Gruppo di costo da creare:  
 
 Spese di riscaldamento e acqua calda sanitaria
-con chiave di ripartizione quota di calore tipo 09 in per mille o per prezzo
+con chiave di ripartizione quota di calore tipo 09 in per mille o secondo il prezzo
 
 
 
 
-Esempio di sistemi di produzione di calore e di acqua calda sanitaria che non si supportano a vicenda
+Esempio di sistemi di produzione di calore e acqua calda sanitaria che non si supportano a vicenda
 
 Riscaldamento a olio con boiler elettrico separato per l'acqua calda sanitaria
 
@@ -120,21 +120,21 @@ Riscaldamento a olio con boiler elettrico separato per l'acqua calda sanitaria
 Energia utilizzata: energia elettrica per il boiler, olio per il riscaldamento
 Funzione: nessun preriscaldamento dell'acqua calda sanitaria da parte del riscaldamento
 
-Gruppi di costi da creare:
+Gruppi di costo da creare:
 
 Spese di riscaldamento
-con chiave di ripartizione riscaldamento ambienti tipo 01 in per mille o per prezzo
+con chiave di ripartizione riscaldamento ambienti tipo 01 in per mille o secondo il prezzo
 
 Spese per l'acqua calda sanitaria
-con chiave di ripartizione acqua calda sanitaria separata tipo 02 in per mille o per prezzo
+con chiave di ripartizione acqua calda sanitaria separata tipo 02 in per mille o secondo il prezzo
 
 
 
-### 3\. Assegnazione conti dei costi - gruppi di costi
+### 3\. Assegnazione conti di costo – gruppi di costo
 
-Nella sezione "Assegnazione conti dei costi - gruppi di costi" ("Kostenkonten- Kostengruppen-Zuordnung") è ora possibile assegnare tutti i conti dei costi rilevanti ai gruppi di costi.
+Nell'area "Kostenkonten- Kostengruppen-Zuordnung" è ora possibile assegnare tutti i conti di costo rilevanti ai gruppi di costo.
 
-A titolo di esempio, per le spese di riscaldamento e acqua calda sanitaria verrebbero collegati al gruppo di costi ad es. i seguenti conti:
+Ad esempio, per le spese di riscaldamento e acqua calda sanitaria, al gruppo di costo verrebbero collegati p. es. i seguenti conti:
 
 - Olio combustibile
 
@@ -153,19 +153,19 @@ A titolo di esempio, per le spese di riscaldamento e acqua calda sanitaria verre
 
 ### 4\. Spese accessorie dell'immobile
 
-Sull'immobile, nella scheda "Spese accessorie" ("Nebenkosten"), è possibile aggiungere il LG-Gruppe-NK.
+Sull'immobile, nella scheda "Nebenkosten", è possibile aggiungere il LG-Gruppe-NK.
 
-In questo punto vengono definite le chiavi di ripartizione fisse o variabili per il conteggio.
+Qui vengono definite le chiavi di ripartizione fisse o variabili per il conteggio.
 
 Chiavi di ripartizione
-Le chiavi di ripartizione disponibili dipendono dalle chiavi di ripartizione attivate in Mandante --> Spese accessorie (Mandant --> Nebenkosten). Se le chiavi di ripartizione rilevanti non sono disponibili, è possibile definire chiavi di ripartizione aggiuntive in "Dati di base" --> "Definizioni delle chiavi di ripartizione" ("Basisdaten" --> "Verteilschlüsseldefinitionen").
+Le chiavi di ripartizione disponibili dipendono dalle chiavi di ripartizione attivate in Mandant --> Nebenkosten. Se le chiavi di ripartizione rilevanti non sono disponibili, è possibile definire ulteriori chiavi di ripartizione in "Basisdaten" --> "Verteilschlüsseldefinitionen".
 
 Esempi:
 
 Nome: quota di riscaldamento secondo il consumo
 Unità: per mille
 Tipo: variabile
-Set ditta di lettura:
+Record ditta di lettura:
 Calore totale (riscaldamento e acqua calda sanitaria insieme, 09)
 
 
@@ -173,15 +173,15 @@ Calore totale (riscaldamento e acqua calda sanitaria insieme, 09)
 Nome: elettricità di rete secondo i costi
 Unità: CHF
 Tipo: variabile
-Set ditta di lettura:
+Record ditta di lettura:
 Elettricità (06)
 
 
 
-Nome: energia solare secondo i costi
+Nome: elettricità solare secondo i costi
 Unità: CHF
 Tipo: variabile
-Set ditta di lettura:
+Record ditta di lettura:
 Elettricità (06)
 
 
@@ -197,17 +197,17 @@ Elettricità (06)
 
 ![Configurazione VHKA Immotop2 – Figura 7](/img/schnittstellen-dta-vhka-files-immotop2/07.png)
 
-3\. Assegnare la chiave di ripartizione al gruppo di costi
+3\. Assegnare le chiavi di ripartizione al gruppo di costo
 
 ![Configurazione VHKA Immotop2 – Figura 8](/img/schnittstellen-dta-vhka-files-immotop2/08.png)
 
 ### 6\. Esportare il file DTA-VHKA da Immotop2
 
-Al termine della configurazione, il file di scambio può essere creato in Elaborazione (Verarbeitung).
+Al termine della configurazione, il file di scambio può essere creato in "Verarbeitung".
 
-Nella configurazione è possibile definire con precisione quali oggetti dell'immobile devono essere interrogati. 
+Nella configurazione è possibile definire con precisione quali oggetti dell'immobile devono essere richiesti. 
 
-Normalmente è possibile interrogarli semplicemente tutti.
+Di norma è possibile richiederli semplicemente tutti.
 
 Importante: il formato standard QP (DTA-VKA) deve essere attivato.
 
@@ -219,21 +219,21 @@ Importante: il formato standard QP (DTA-VKA) deve essere attivato.
 
 ### Eseguire la registrazione sui centri di costo in Immotop2
 
-Se in Immotop2 sono necessarie registrazioni preliminari sui centri di costo, queste possono essere ricavate dal riepilogo CSV di ogni fattura emessa.
+Se in Immotop2 sono necessarie registrazioni preliminari sui centri di costo, queste possono essere ricavate dal CSV di riepilogo di ogni fattura creata.
 
-Di solito ciò avviene per l'energia solare, l'elettricità di rete e i costi dell'elettricità della pompa di calore / del riscaldamento / del boiler.
+Di solito ciò avviene per l'elettricità solare, l'elettricità di rete e i costi dell'elettricità della pompa di calore / del riscaldamento / del boiler.
 
-Per la ripartizione dell'energia solare ciò sarà necessario più spesso, poiché l'origine di questa informazione si trova nel sistema smart-me.
+Per la ripartizione dell'elettricità solare ciò sarà necessario più spesso, poiché l'origine di questa informazione si trova nel sistema smart-me.
 
 Per gli altri centri di costo sono di solito disponibili fatture esterne che possono essere registrate.
 
-1.  Accedi a smart-me Billing tramite la scheda Fatturazione (Rechnungsstellung)
+1.  Acceda a smart-me Billing tramite la scheda Fatturazione (Rechnungsstellung)
 
-2.  Seleziona l'immobile
+2.  Selezioni l'immobile
 
-3.  Seleziona il periodo di fatturazione ed emetti una fattura
+3.  Selezioni il periodo di fatturazione e crei una fattura
 
-4.  Quando la fattura del periodo corrispondente è stata emessa, apri il riepilogo CSV
+4.  Quando la fattura del periodo corrispondente è stata creata, apra il CSV di riepilogo
 
 
 ![Configurazione VHKA Immotop2 – Figura 12](/img/schnittstellen-dta-vhka-files-immotop2/12.png)
@@ -242,7 +242,7 @@ Per gli altri centri di costo sono di solito disponibili fatture esterne che pos
 
 Al suo interno si trovano i kWh e i m3 venduti e il prezzo per tariffa, per unità di conteggio e in totale.
 
-Con questo valore totale della rispettiva tariffa è possibile effettuare una registrazione in Immotop2 e quindi ripartirla correttamente in per mille con il file DTA-VHKA.
+Con questo valore totale della rispettiva tariffa è possibile effettuare una registrazione in Immotop2 e ripartirla poi correttamente in per mille con il file DTA-VHKA.
 
 ## Definire le chiavi esterne con l'aiuto del file di richiesta
 
@@ -258,20 +258,20 @@ Con questo valore totale della rispettiva tariffa è possibile effettuare una re
     Elettricità ore di punta: ID = 23
     Elettricità ore fuori punta: ID=24
     .
-    Le tariffe possono essere combinate automaticamente inserendo lo stesso ID in più tariffe.
+    Le tariffe possono essere combinate automaticamente inserendo lo stesso ID per più tariffe.
 
 
 3.  Collegare le Costunit alle unità di conteggio
     Per ogni unità di conteggio in smart-me deve essere disponibile un ID dal file. &lt;CostUnit>&lt;Id> deve ora essere collegato all'appartamento tramite le chiavi esterne.
 
     Es.:
-    Appartamento di 3 1/2 locali PT destra P2 (103-0.2) = ID 90
-    Appartamento di 3 1/2 locali PT destra P1 = ID 91
+    Appartamento 3 1/2 locali PT destra P2 (103-0.2) = ID 90
+    Appartamento 3 1/2 locali PT destra P1 = ID 91
 
 
 ![Configurazione VHKA Immotop2 – Figura 14](/img/schnittstellen-dta-vhka-files-immotop2/14.png)
 
-### 2\. Collegare i Costcenter (gruppo di costi) alle tariffe
+### 2\. Collegare i Costcenter (gruppo di costo) alle tariffe
 
 Per ogni &lt;Costcenter> deve esistere in smart-me una tariffa energetica
 
@@ -282,11 +282,11 @@ Elettricità ore fuori punta: ID=24
 
 
 
-Le tariffe possono essere combinate automaticamente inserendo lo stesso ID in più tariffe.
+Le tariffe possono essere combinate automaticamente inserendo lo stesso ID per più tariffe.
 
 Esempio centro di costo tariffa di rete combinata
 
-- Assegnare lo stesso ID alle ore fuori punta e alle ore di punta, ad es. 23
+- Assegnare lo stesso ID alle ore fuori punta e alle ore di punta, p. es. 23
 
 
 ![Configurazione VHKA Immotop2 – Figura 15](/img/schnittstellen-dta-vhka-files-immotop2/15.png)
@@ -299,7 +299,7 @@ Per ogni unità di conteggio in smart-me deve essere disponibile un ID dal file.
 
 
 
-Si trova in fondo alla pagina di configurazione in Billing.
+Si trova in fondo alla pagina di configurazione nel Billing.
 
 ![Configurazione VHKA Immotop2 – Figura 17](/img/schnittstellen-dta-vhka-files-immotop2/17.png)
 
@@ -318,7 +318,7 @@ Si trova in fondo alla pagina di configurazione in Billing.
 <div className="row">
 <div className="col col--6">
 
-- Poiché attualmente le superfici abitative non vengono riprese automaticamente dal software Immotop2, la superficie abitativa deve essere gestita e aggiornata da parte di smart-me.
+- Poiché attualmente le superfici abitative non vengono riprese automaticamente dal software Immotop2, la superficie abitativa deve essere gestita e aggiornata in smart-me.
 
 </div>
 <div className="col col--6 bild--mitte">
@@ -328,11 +328,11 @@ Si trova in fondo alla pagina di configurazione in Billing.
 </div>
 </div>
 
-### Configurazioni da parte di smart-me per l'emissione dei prezzi
+### Configurazioni in smart-me per l'output dei prezzi
 
 - Affinché il prezzo possa essere calcolato, per ogni unità di conteggio deve essere indicata la superficie abitativa.
 
-- VEWA deve essere attivato e configurato con le chiavi di ripartizione per i costi di base e variabili per ogni tipo di energia.
+- Il CISE deve essere attivato e configurato con le chiavi di ripartizione per i costi di base e variabili per tipo di energia.
 
 - Per ogni tipo di energia deve essere registrato un periodo di conteggio. I costi devono essere gestiti e per l'elettricità devono essere registrate tariffe valide.
 
@@ -345,12 +345,12 @@ Si trova in fondo alla pagina di configurazione in Billing.
 
 ![Configurazione VHKA Immotop2 – Figura 22](/img/schnittstellen-dta-vhka-files-immotop2/22.png)
 
-1.  In Billing, vai a "Fatture" ("Rechnungen") e poi nella sezione "Esporta" ("Exportieren")
+1.  Nel Billing, vada su "Fatture" (Rechnungen) e poi nell'area "Esporta" (Exportieren)
 
 
-2\. Seleziona il tipo di esportazione e carica il file tramite "Esporta" ("Exportieren").
+2\. Selezioni il tipo di esportazione e carichi il file tramite "Esporta" (Exportieren).
 
-3\. Scarica il file completato sul tuo computer tramite "Scarica" ("Herunterladen").
+3\. Scarichi il file completato sul Suo computer tramite "Scarica" (Herunterladen).
 
 ### 8\. Importare il file DTA-VHKA in Immotop2
 

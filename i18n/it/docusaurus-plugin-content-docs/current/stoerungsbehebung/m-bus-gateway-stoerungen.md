@@ -9,13 +9,13 @@ In questa pagina vengono trattati gli errori più frequenti relativi al gateway 
 <details id="nicht-alle-zaehler-gefunden">
 <summary>Il gateway non trova tutti i contatori</summary>
 
-Molti contatori M-Bus vengono alimentati dal gateway. Il nostro gateway supporta 50 carichi standard. 
+Molti contatori M-Bus ricevono l'alimentazione dal gateway. Il nostro gateway supporta 50 carichi standard. 
 
 - Avvia ancora 1-2 volte una ricerca. È possibile che il contatore non risponda sempre alla prima ricerca.
 
 - Verifica che la somma dei carichi non superi 50.
 
-- Linee troppo lunghe o contatori troppo sottili causano perdite sulle linee.
+- Cavi troppo lunghi o troppo sottili causano perdite sulle linee.
 
 - Non tutti i contatori M-Bus sono compatibili con il nostro gateway. L'elenco dei contatori compatibili si trova nella [pagina prodotto del gateway M-Bus](/produkte/m-bus-gateway)
 
@@ -24,13 +24,13 @@ Molti contatori M-Bus vengono alimentati dal gateway. Il nostro gateway supporta
 <details id="zu-viele-zaehler-inbetriebnahme">
 <summary>Il gateway trova più contatori di quelli installati (durante la messa in servizio)</summary>
 
-Motivo: numerazione dei contatori combinati
+Motivo: numerazione nei contatori combinati
 
-Il gateway M-Bus riconosce ogni volta un solo contatore in base all'indirizzo secondario, che di norma è riportato anche nel verbale di collaudo.
+Il gateway M-Bus riconosce un solo contatore per volta in base all'indirizzo secondario, che di norma è riportato anche nel protocollo di collaudo.
 
 I contatori combinati vengono poi visualizzati separatamente sul portale. Per questa applicazione smart-me utilizza una propria logica di numerazione.
 
-Tutti i contatori non rilevanti per il conteggio possono essere [disattivati](/konfiguration/inbetriebnahme/zaehler-loeschen) per risparmiare sui costi di licenza. L'eliminazione non è efficace, poiché il contatore ricompare sempre.
+Tutti i contatori non rilevanti per il conteggio possono essere [disattivati](/konfiguration/inbetriebnahme/zaehler-loeschen) per risparmiare sui costi di licenza. Eliminarli non serve, perché il contatore ricompare sempre.
 
 Se un contatore contiene più di 1 contatore, questi vengono numerati come segue:
 
@@ -53,19 +53,19 @@ Una connessione instabile può causare una trasmissione errata del numero di ser
 
 - -   Soluzione 1: questi contatori possono essere disattivati, in modo da evitare che occupino una licenza.
 
-    - Soluzione 2: impedire il riconoscimento di nuovi dispositivi
+    - Soluzione 2: impedire il rilevamento di nuovi dispositivi
 
 
-Come si impedisce il riconoscimento di nuovi dispositivi
+Come si impedisce il rilevamento di nuovi dispositivi
 
 - Seleziona il gateway M-Bus.
 
 
-- Seleziona l'ingranaggio del gateway M-Bus (in alto a destra). Nota: non selezionare l'ingranaggio superiore, che serve per la configurazione dei contatori, ma quello inferiore.
+- Seleziona la rotella dentata del gateway M-Bus (in alto a destra). Nota: non selezionare la rotella dentata superiore, che serve per la configurazione dei contatori, ma quella inferiore.
 
 - Modifica (Bearbeiten)
 
-- Spunta la casella "Don't allow to add additional meters".
+- Spunta "Don't allow to add additional meters".
 
 - Salva (Speichern)
 
@@ -75,16 +75,16 @@ Che effetto ha questa opzione?
 - Attivando l'opzione "Don't allow to add additional meters" si impedisce che vengano salvati dispositivi non ancora presenti nel cloud. 
 
 
-A cosa bisogna prestare attenzione?
+Cosa bisogna tenere presente?
 
-- Se si aggiungono nuovi dispositivi, questa opzione deve essere nuovamente disattivata prima della ricerca.
+- Se si aggiungono nuovi dispositivi, questa opzione deve essere disattivata prima della ricerca.
 
 
 Quando è consigliata questa opzione?
 
 - Quando nel portale compaiono ripetutamente dispositivi M-Bus che in realtà non esistono.
 
-- Per motivi preventivi :-)
+- A scopo preventivo :-)
 
 
 In quali casi può succedere?
@@ -94,7 +94,7 @@ In quali casi può succedere?
 
 Spiegazione tecnica
 
-- Il protocollo standardizzato M-Bus dispone di solo 1 byte per la somma di controllo. La somma di controllo serve a rilevare determinati errori nella trasmissione dei dati. Purtroppo 1 byte è poco e può portare ripetutamente a considerare corretto e valido un pacchetto di dati errato. In alcune installazioni in cui vengono impiegati gateway M-Bus, ciò fa sì che pacchetti corrotti vengano classificati come corretti e validi e vengano poi riconosciuti e aggiunti nel nostro cloud come nuovo dispositivo M-Bus. L'account passa quindi da Professional a Basic, poiché la copertura delle licenze non è più garantita.
+- Il protocollo standardizzato M-Bus dispone di solo 1 byte per la somma di controllo. La somma di controllo serve a rilevare determinati errori nella trasmissione dei dati. Purtroppo 1 byte è poco e può portare ripetutamente a considerare corretto e valido un pacchetto di dati errato. In alcune installazioni in cui vengono impiegati gateway M-Bus, ciò fa sì che pacchetti corrotti vengano classificati come corretti e validi e quindi riconosciuti e aggiunti nel nostro cloud come nuovo dispositivo M-Bus. L'account passa quindi da Professional a Basic, poiché la copertura delle licenze non è più garantita.
 
 
 ![Guasti del gateway M-Bus – Figura 3](/img/stoerungsbehebung-m-bus-gateway-stoerungen/03.png)
@@ -104,7 +104,7 @@ Spiegazione tecnica
 <details id="zaehler-offline">
 <summary>Il contatore M-Bus è offline</summary>
 
-- I contatori si disconnettono in modo irregolare, non sono sempre gli stessi contatori.
+- I contatori si disconnettono in modo irregolare e non sono sempre gli stessi.
 
     - I contatori impiegano circa 10 secondi per rispondere. Se l'intervallo di lettura è impostato troppo breve, non hanno la possibilità di farlo. 
 
@@ -115,16 +115,16 @@ Spiegazione tecnica
 
 - I contatori perdono la connessione sempre alla stessa ora del giorno (ora e minuto). 
 
-    - In questo caso è possibile che i contatori siano alimentati a batteria e che, per preservare la batteria, consentano solo un determinato numero di letture al giorno. 
+    - In questo caso è possibile che i contatori siano alimentati a batteria e, per preservare la batteria, consentano solo un determinato numero di letture al giorno. 
 
         - Soluzione: in questo caso l'intervallo di lettura può essere aumentato a 6 o 12 ore.
 
 
 
 
-- I contatori si disconnettono in modo irregolare, sono prevalentemente gli stessi contatori.
+- I contatori si disconnettono in modo irregolare e sono per lo più gli stessi.
 
-    - Disturbi esterni sulle linee, soprattutto in caso di linee più lunghe, possono causare trasmissioni errate.
+    - Disturbi esterni sulle linee, soprattutto se lunghe, possono causare trasmissioni errate.
 
         - Soluzione: mantenere corto il cablaggio dei contatori.
 
@@ -144,17 +144,17 @@ Spiegazione tecnica
 <details id="gateway-austauschen">
 <summary>Sostituire il gateway M-Bus</summary>
 
-- Installare il nuovo gateway M-Bus e spostare il cablaggio sul nuovo gateway.
+- Installa il nuovo gateway M-Bus e collega il cablaggio al nuovo gateway.
 
-- Mettere in servizio l'M-Bus.
+- Metti in servizio l'M-Bus.
 
-- Impostare l'intervallo di lettura sul portale.
+- Imposta l'intervallo di lettura sul portale.
 
-- Cercare i dispositivi.
+- Cerca i dispositivi.
 
-- Verificare che tutti i contatori M-Bus abbiano fornito valori aggiornati.
+- Verifica che tutti i contatori M-Bus abbiano fornito valori aggiornati.
 
 
-Nota: non è necessario modificare nulla nella configurazione smart-me e nel Billing per i contatori M-Bus esistenti.
+Nota: nella configurazione smart-me e nel Billing non occorre modificare nulla per i contatori M-Bus esistenti.
 
 </details>

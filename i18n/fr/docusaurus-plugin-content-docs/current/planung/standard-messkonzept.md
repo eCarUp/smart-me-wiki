@@ -23,7 +23,7 @@ Pour que ce décompte puisse être effectué, il faut l'infrastructure nécessai
 
 <div className="bild--voll">
 
-![Schéma de mesure pour l'électricité des locataires – Illustration 1](/img/planung-standard-messkonzept/01.png)
+![Schéma de mesure pour l'électricité des locataires – Illustration 1](/img/planung-standard-messkonzept/01_FR.png)
 
 </div>
 
@@ -51,7 +51,7 @@ Pour que ce décompte puisse être effectué, il faut l'infrastructure nécessai
 
 <div className="bild--voll">
 
-![Schéma de mesure pour l'électricité des locataires – Illustration 2](/img/planung-standard-messkonzept/02.png)
+![Schéma de mesure pour l'électricité des locataires – Illustration 2](/img/planung-standard-messkonzept/02_FR.png)
 
 </div>
 
@@ -89,7 +89,7 @@ La quantité de courant réinjecté dans le registre d'exportation du compteur d
 
 <div className="bild--voll">
 
-![Schéma de mesure pour l'électricité des locataires – Illustration 3](/img/planung-standard-messkonzept/03.png)
+![Schéma de mesure pour l'électricité des locataires – Illustration 3](/img/planung-standard-messkonzept/03_FR.png)
 
 </div>
 
@@ -103,7 +103,7 @@ La quantité de courant réinjecté dans le registre d'exportation du compteur d
 
 <div className="bild--voll">
 
-![Schéma de mesure pour l'électricité des locataires – Illustration 4](/img/planung-standard-messkonzept/04.png)
+![Schéma de mesure pour l'électricité des locataires – Illustration 4](/img/planung-standard-messkonzept/04_FR.png)
 
 </div>
 
@@ -111,6 +111,6 @@ La quantité de courant réinjecté dans le registre d'exportation du compteur d
 
 <div className="bild--voll">
 
-![Schéma de mesure pour l'électricité des locataires – Illustration 5](/img/planung-standard-messkonzept/05.png)
+![Schéma de mesure pour l'électricité des locataires – Illustration 5](/img/planung-standard-messkonzept/05_FR.png)
 
 </div>

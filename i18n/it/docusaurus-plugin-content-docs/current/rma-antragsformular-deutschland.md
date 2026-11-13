@@ -4,7 +4,7 @@ slug: '/rma-antragsformular-deutschland'
 description: 'Modulo di richiesta RMA per dispositivi in Germania.'
 sidebar_label: 'RMA Germania'
 ---
-Questa pagina vale per la Germania. Per la Svizzera e il Liechtenstein sono disponibili [moduli dedicati](/rma-antragsformular-schweiz).
+Questa pagina vale per la Germania. Per la Svizzera e il Liechtenstein sono disponibili [moduli specifici](/rma-antragsformular-schweiz).
 
 ## Modulo di richiesta per tutti i dispositivi smart-me
 

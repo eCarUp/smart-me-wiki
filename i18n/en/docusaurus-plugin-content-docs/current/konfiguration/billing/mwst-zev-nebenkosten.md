@@ -20,7 +20,7 @@ The aim is for VAT on a product to be paid only once in total, based on its valu
 
 <div className="bild--voll">
 
-![VAT ZEV / ancillary costs – Figure 1](/img/konfiguration-billing-mwst-zev-nebenkosten/01.png)
+![VAT ZEV / ancillary costs – Figure 1](/img/konfiguration-billing-mwst-zev-nebenkosten/01_EN.png)
 
 </div>
 
@@ -65,7 +65,7 @@ For each type of energy, it has to be decided individually whether VAT liability
 
 <div className="bild--voll">
 
-![VAT ZEV / ancillary costs – Figure 2](/img/konfiguration-billing-mwst-zev-nebenkosten/02.png)
+![VAT ZEV / ancillary costs – Figure 2](/img/konfiguration-billing-mwst-zev-nebenkosten/02_EN.png)
 
 </div>
 
@@ -112,7 +112,7 @@ Case 1:
 
 <div className="bild--voll">
 
-![VAT ZEV / ancillary costs – Figure 3](/img/konfiguration-billing-mwst-zev-nebenkosten/03.png)
+![VAT ZEV / ancillary costs – Figure 3](/img/konfiguration-billing-mwst-zev-nebenkosten/03_EN.png)
 
 </div>
 
@@ -193,7 +193,7 @@ Case 2:
 
 <div className="bild--voll">
 
-![VAT ZEV / ancillary costs – Figure 4](/img/konfiguration-billing-mwst-zev-nebenkosten/04.png)
+![VAT ZEV / ancillary costs – Figure 4](/img/konfiguration-billing-mwst-zev-nebenkosten/04_EN.png)
 
 </div>
 

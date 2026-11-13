@@ -10,13 +10,13 @@ smart-me offre la possibilità di esportare automaticamente i dati di misura in 
 
 ### Requisiti
 
-Per poter utilizzare Auto Export è necessaria una licenza smart-me Professional.
+Per poter utilizzare Auto Export, è necessaria una licenza smart-me Professional.
 
 ![Auto Export – Figura 1](/img/schnittstellen-auto-export/01.png)
 
-## Funzioni per i partner Gold
+## Funzioni per Goldpartner
 
-Se un account è assegnato a un partner Gold, all'utente vengono mostrati, oltre ai propri "Tipi di caricamento" ("Upload Arten") e "Formati di esportazione" ("Export Formate"), anche i "Tipi di caricamento" ("Upload Arten") e i "Formati di esportazione" ("Export Formate") già definiti dal partner Gold. In questo modo, ad esempio, le impostazioni FTP devono essere effettuate solo nell'account del partner e non sono né visibili né modificabili per l'utente normale. 
+Se un account è associato a un Goldpartner, all'utente vengono mostrati, oltre ai propri "Tipi di upload" ("Upload Arten") e "Formati di esportazione" ("Export Formate"), anche i "Tipi di upload" ("Upload Arten") e i "Formati di esportazione" ("Export Formate") già definiti dal Goldpartner. In questo modo, ad esempio, le impostazioni FTP devono essere configurate solo nell'account del partner e non sono visibili né modificabili dall'utente normale. 
 
 Per una migliore identificazione, le impostazioni ereditate sono evidenziate in blu.
 
@@ -24,11 +24,11 @@ Per una migliore identificazione, le impostazioni ereditate sono evidenziate in 
 
 ## Modifica di massa (riavviare l'esportazione)
 
-Tramite una modifica di massa è possibile riavviare le esportazioni in smart-me per più dispositivi contemporaneamente.
+Tramite una modifica di massa è possibile riavviare in smart-me le esportazioni per più dispositivi contemporaneamente.
 
 Ecco come funziona l'inserimento della data:
 
-Nella modifica occorre inserire la data dell'ultima esportazione riuscita. Il sistema calcola automaticamente il periodo successivo a partire da questa data.
+Nella modifica deve essere inserita la data dell'ultima esportazione riuscita. A partire da quella data, il sistema calcola automaticamente il periodo successivo.
 
 Esempio (esportazione giornaliera):
 
@@ -38,7 +38,7 @@ Esempio (esportazione giornaliera):
 
 - Il sistema avvia quindi l'esportazione per il 04.02.2026 (contenuto: dati del 03.02.2026 dalle 00:00 alle 23:59).
 
-Tenere conto della durata dell'elaborazione: la rigenerazione dei file di esportazione richiede tempo. Come valore indicativo si calcolano circa 45 minuti per singolo file.
+Tenere conto della durata dell'elaborazione: la rigenerazione dei file di esportazione richiede tempo. Come valore indicativo si considerano circa 45 minuti per singolo file.
 
 - Esportazione giornaliera: un mese intero (30 giorni = 30 file) richiede circa 22 ore.
 
@@ -61,30 +61,30 @@ Procedura:
 - Carichi il file CSV. Gli ID vengono sovrascritti direttamente nel sistema.
 
 
-Nota: se un punto di misura non è presente nel file CSV, non viene nemmeno modificato. In questo modo è possibile effettuare senza problemi anche una sostituzione parziale (ad es. solo 5 punti di misura su 50 in un account).
+Nota: se un punto di misura non è presente nel file CSV, non viene modificato. In questo modo è possibile effettuare senza problemi anche una sostituzione parziale (ad es. solo 5 dei 50 punti di misura di un account).
 
 ![Auto Export – Figura 4](/img/schnittstellen-auto-export/04.png)
 
-## Tipo di caricamento
+## Tipo di upload
 
 <div className="row">
 <div className="col col--5">
 
-Il tipo di caricamento (Upload Art) definisce come i dati devono essere caricati nel sistema esterno. Attualmente sono supportati i seguenti tipi:
+Il tipo di upload definisce come i dati devono essere caricati sul sistema esterno. Attualmente sono supportati i seguenti tipi:
 
-FTP: caricamento FTP (non crittografato)
+FTP: upload FTP (non crittografato)
 
-FTPs: caricamento FTP crittografato
+FTPs: upload FTP crittografato
 
-- La porta può essere indicata esplicitamente con un : ad es. ftp.smart-com:990
+- La porta può essere indicata esplicitamente con un :, ad es. ftp.smart-com:990
 
-sFTP (with username and password): caricamento FTP crittografato.
+sFTP (with username and password): upload FTP crittografato.
 
 - Nome utente e password
 
-sFTP (con file di chiave) (sFTP (mit Key File)): caricamento FTP crittografato. Al posto di una password viene utilizzato un file di chiave.
+sFTP (con key file) (sFTP (mit Key File)): upload FTP crittografato. Al posto di una password viene utilizzato un file di chiave.
 
-- Esempio di creazione di un file di chiave sFTP con openssl
+- Esempio di creazione di un key file sFTP con openssl
 
 - openssl genrsa -out key.pem 2048
 
@@ -104,11 +104,11 @@ Nota: la password non deve contenere i seguenti caratteri (&lt;, >, =)
 
 ## Formato di esportazione
 
-Il formato di esportazione (Export Format) definisce il formato del file per l'esportazione. Attualmente sono supportati i seguenti formati:
+Il formato di esportazione definisce il formato del file per l'esportazione. Attualmente sono supportati i seguenti formati:
 
 CSV: il formato è definito (CSV), ma il contenuto non è standardizzato.
 
-- Esportazione rudimentale nel formato CSV. L'esportazione dei valori del contatore viene definita tramite codici OBIS. Per i dettagli vedere la sezione sottostante.
+- Esportazione rudimentale in formato CSV. L'esportazione dei valori del contatore viene definita tramite codici Obis. Per i dettagli vedere la sezione sottostante.
 
 IS-E: esportazione in un sistema innosolv-Energie di Innosolv AG
 
@@ -126,7 +126,7 @@ IS-E peak export
 
 - Indica la potenza di punta.
 
-- Nota: 1) Nell'assegnazione (Zuordnung) selezionare la cartella con le tariffe virtuali, 2) nell'assegnazione, sotto Valori di misura da esportare (Zu exportierende Messwerte), selezionare "Tariffe virtuali (solo IS-E)" ("Virtuelle Tarife (nur IS-E)") e 3) nel formato di esportazione indicare ogni volta i numeri delle tariffe virtuali (Export Tariffs (peak)) presenti nello smart-me Billing.
+- Nota: 1) Nell'assegnazione selezionare la cartella con le tariffe virtuali e 2) nell'assegnazione, sotto Valori di misura da esportare (Zu exportierenden Messwerten), selezionare "Tariffe virtuali (solo IS-E)" ("Virtuelle Tarife (nur IS-E)") 3) Nel formato di esportazione indicare di volta in volta i numeri delle tariffe virtuali (Export Tariffs (peak)) presenti in smart-me Billing.
 
 IS-E Zeitreihen / IS-E Load profile: esportazione in un sistema innosolv-Energie di Innosolv AG
 
@@ -171,26 +171,26 @@ Impostare "Only basic data" su 0 per esportare l'energia reattiva
 
 L'esportazione automatica è composta da diverse configurazioni:
 
-ID del punto di misura (Messpunkt ID): definisce l'ID da assegnare a questo punto di misura. Questo ID viene utilizzato ad es. nel formato di esportazione mscons.
+ID punto di misura (Messpunkt ID): definisce l'ID da assegnare a questo punto di misura. Questo ID viene utilizzato ad es. nel formato di esportazione mscons.
 
 Contatore o cartella (Zähler oder Ordner): il contatore o la cartella da esportare.
 
 Formato di esportazione (Export Format): definisce il formato che può essere utilizzato per l'esportazione. Il formato di esportazione viene definito alla voce di menu "Formato di esportazione" ("Export Format").
 
-Tipo di caricamento (Upload Art): indica come i dati devono essere caricati nel sistema esterno. Il tipo di caricamento viene definito alla voce di menu "Tipo di caricamento" ("Upload Art").
+Tipo di upload (Upload Art): indica come i dati devono essere caricati nel sistema esterno. Il tipo di upload viene definito alla voce di menu "Tipo di upload" ("Upload Art").
 
 Intervallo di esportazione (Export Intervall): indica a quale intervallo devono essere esportati i dati.
 
-Attivazione dell'esportazione (Export Auslöser): definisce l'evento che attiva l'esportazione.
+Trigger di esportazione (Export Auslöser): definisce l'evento che avvia l'esportazione.
 
-- "Quando sono disponibili tutti i DATI DI MISURA" ("Wenn alle MESSDATEN vorhanden sind") attiva l'esportazione non appena tutti i dati sono disponibili. Se questi non sono mai completi (ad es. perché il valore iniziale era precedente all'installazione), l'esportazione non verrà mai attivata.
+- "Quando sono disponibili tutti i DATI DI MISURA" ("Wenn alle MESSDATEN vorhanden sind") avvia l'esportazione non appena tutti i dati sono disponibili. Se questi non sono mai completi (ad es. perché il valore iniziale era precedente all'installazione), l'esportazione non verrà mai avviata.
 
--  "12h dopo la data di fine" ("12h nach dem Enddatum") attiva l'esportazione 12 ore dopo, indipendentemente dal fatto che tutti i dati siano disponibili o meno.
+-  "12h dopo la data di fine" ("12h nach dem Enddatum") avvia l'esportazione 12 ore dopo, indipendentemente dal fatto che tutti i dati siano disponibili o meno.
 
-- Nota: Auto Export si avvia tra le 0:00 e l'1:00 e può durare fino a 3 ore.
+- Nota: Auto-Export si avvia tra le 0:00 e le 1:00 e può durare fino a 3 ore.
 
 
-Data di inizio prossima esportazione (Start Datum nächster Export): la data di inizio per la prossima esportazione dei dati. Se la data è nel passato, vengono esportati tutti i dati fino alla data attuale.
+Data di inizio della prossima esportazione (Start Datum nächster Export): la data di inizio per la prossima esportazione dei dati. Se la data è nel passato, vengono esportati tutti i dati fino alla data attuale.
 
 Valori di misura da esportare (Zu exportierende Messwerte): se seleziona una cartella con tariffe virtuali, può scegliere se esportare i valori di misura normali o le tariffe virtuali.
 
@@ -198,13 +198,13 @@ Valori di misura da esportare (Zu exportierende Messwerte): se seleziona una car
 
 ### Esportare le tariffe virtuali
 
-Se ha configurato tariffe virtuali nello smart-me Billing, può esportarle nell'IS-E. 
+Se ha configurato tariffe virtuali in smart-me Billing, può esportarle in IS-E. 
 
 Configurazione
 
-1.  Crei le tariffe virtuali nello smart-me Billing.  Si assicuri di impostare correttamente il numero della tariffa virtuale. Durante l'esportazione questo viene codificato come "tariffa" nel codice OBIS. Esempio: il numero di tariffa 3 dà come OBIS: (IS-E letture del contatore) 1-5:1.8.3 (1-5:1.8.&lt;numero tariffa>), (IS-E Vorschub) 1-5:1.9.3 (1-5:1.9.&lt;numero tariffa>)
+1.  Crei le tariffe virtuali in smart-me Billing.  Si assicuri di impostare correttamente il numero della tariffa virtuale. Durante l'esportazione, questo viene codificato come "tariffa" nel codice Obis. Esempio: il numero di tariffa 3 dà come risultato Obis: (letture del contatore IS-E) 1-5:1.8.3 (1-5:1.8.&lt;numero di tariffa>), (IS-E Vorschub) 1-5:1.9.3 (1-5:1.9.&lt;numero di tariffa>)
 
-2.  In "Auto Export", sotto "Assegnazione" ("Zuordnung"), selezioni la cartella con le tariffe virtuali e, sotto "Valori di misura da esportare" ("Zu exportierende Messwerte"), selezioni "Tariffe virtuali" ("Virtuelle Tarife"). 
+2.  In "Auto Export", sotto "Assegnazione" ("Zuordnung"), selezioni la cartella con le tariffe virtuali e sotto "Valori di misura da esportare" ("Zu exportierende Messwerte") selezioni "Tariffe virtuali" ("Virtuelle Tarife"). 
 
 
 ![Auto Export – Figura 9](/img/schnittstellen-auto-export/09.png)
@@ -222,25 +222,25 @@ Configurazione
 - [IS-E Peak export](https://drive.google.com/file/d/1isUBF_2xUpr6h8AeRtkupJvFkuMMSJM4/view?usp=sharing) 
 
 
-Codici OBIS
+Codici Obis
 
 I codici OBIS vengono utilizzati per descrivere un valore (del contatore). 
 
-[Codici OBIS (Excel)](https://drive.google.com/open?id=1eTs4ZXD9AUagGxNEQSof0IWHkZg54nsK6SyHp4ygDSc&authuser=0)
+[Codici Obis (Excel)](https://drive.google.com/open?id=1eTs4ZXD9AUagGxNEQSof0IWHkZg54nsK6SyHp4ygDSc&authuser=0)
 
-Suggerimento per la decodifica: su questo [sito web](https://www.kbr.de/de/obis-kennzeichen/obis-kennzeichen#obis-kennzeichensystem) può consultare la logica della codifica. Facendo clic su un mezzo, vede che cosa rappresentano le singole cifre del codice. 
+Suggerimento per la decodifica: su questo [sito web](https://www.kbr.de/de/obis-kennzeichen/obis-kennzeichen#obis-kennzeichensystem) può consultare la sistematica della codifica. Cliccando su un mezzo, vede che cosa rappresentano le singole cifre del codice. 
 
 ![Auto Export – Figura 10](/img/schnittstellen-auto-export/10.png)
 
 Il file di test csv è stato esportato con la configurazione riportata sopra.
 
-## Codici OBIS supportati
+## Codici Obis supportati
 
-I codici OBIS vengono utilizzati per descrivere un valore (del contatore): [Codici OBIS (Excel)](https://drive.google.com/open?id=1eTs4ZXD9AUagGxNEQSof0IWHkZg54nsK6SyHp4ygDSc&authuser=0)
+I codici OBIS vengono utilizzati per descrivere un valore (del contatore): [Codici Obis (Excel)](https://drive.google.com/open?id=1eTs4ZXD9AUagGxNEQSof0IWHkZg54nsK6SyHp4ygDSc&authuser=0)
 
-Suggerimento per la decodifica: su questo [sito web](https://www.kbr.de/de/obis-kennzeichen/obis-kennzeichen#obis-kennzeichensystem) può consultare la logica della codifica. Facendo clic su un mezzo, vede che cosa rappresentano le singole cifre del codice. 
+Suggerimento per la decodifica: su questo [sito web](https://www.kbr.de/de/obis-kennzeichen/obis-kennzeichen#obis-kennzeichensystem) può consultare la sistematica della codifica. Cliccando su un mezzo, vede che cosa rappresentano le singole cifre del codice. 
 
-### Codici OBIS IS-E
+### Codici Obis IS-E
 
 1-1:1.8.0: Active Energy Total Import
 
@@ -270,7 +270,7 @@ Suggerimento per la decodifica: su questo [sito web](https://www.kbr.de/de/obis-
 
 9-1:1.0.0: Hot water (m3)
 
-### Codici OBIS mscons
+### Codici Obis mscons
 
 1-1:1.29.0\*255: Active Energy Total Import (load profile)
 
@@ -292,7 +292,7 @@ Suggerimento per la decodifica: su questo [sito web](https://www.kbr.de/de/obis-
 
 9-1:1.29.0\*255: Hot water (load profile)
 
-### Codici OBIS CSV
+### Codici Obis CSV
 
 1-0:1.8.0\*255: Active Energy Total Import
 

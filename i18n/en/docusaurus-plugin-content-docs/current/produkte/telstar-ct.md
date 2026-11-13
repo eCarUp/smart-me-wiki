@@ -4,7 +4,7 @@ slug: '/produkte/telstar-ct'
 description: 'The smart-me Telstar CT is a MID-certified energy meter with an integrated WiFi interface for transmitting real-time data and a connection for external current transformers.'
 sidebar_label: '3-Phase Meter Telstar CT'
 ---
-The smart-me Telstar CT is a MID-certified energy meter with an integrated WiFi interface for transmitting real-time data and a connection for external current transformers. The meter automatically synchronizes the measured values to the smart-me Cloud in encrypted form. The data can be exported to third-party systems and processed further in the smart-me Portal or via our open interface. The meter has two digital outputs for controlling potential-free devices.
+The smart-me Telstar CT is a MID-certified energy meter with an integrated WiFi interface for transmitting real-time data and a connection for external current transformers. The meter automatically synchronizes the measured values to the smart-me Cloud in encrypted form. The data can be exported and processed further in the smart-me portal or via our open interface in third-party systems. The meter has two digital outputs for controlling potential-free devices.
 
 ![3-Phase Meter Telstar CT – Figure 1](/img/produkte-telstar-ct/01.png)
 
@@ -66,7 +66,7 @@ The smart-me Telstar CT is a MID-certified energy meter with an integrated WiFi 
 
 ## Technical requirements for the current transformers
 
-A wide range of current transformers can be used with the Telstar CT. The basic requirements are as follows:
+A wide variety of current transformers can be used with the Telstar CT. The basic requirements are as follows:
 
 - Current transformer ratio: 1:1 to 20'000:1 to 5:5 to 20'000:5
     The secondary number can be any integer between 1 and 5.
@@ -74,15 +74,15 @@ A wide range of current transformers can be used with the Telstar CT. The basic 
 
 - Output current: 1A to 5A
 
-- Output power: at least 1VA or higher (5VA recommended)
+- Output power: at least 1VA or higher (recommendation 5VA)
 
-- Type: split-core or solid-core
+- Type: open or closed
 
 - Accuracy class: 1 or better\*
 
 \*If the meters are to be used for billing, calibrated current transformers are required that meet at least class 0.5 or lower.
 
-You can find recommendations for current transformers and accessories on the page: [Current transformers and accessories](/drittprodukte/stromwandler) 
+You can find recommendations for current transformers and accessories on the page: [Current Transformers and accessories](/drittprodukte/stromwandler) 
 
 ## Display
 
@@ -115,7 +115,7 @@ You can find recommendations for current transformers and accessories on the pag
 </div>
 </div>
 
-The meter has a scrolling display. The items described below are shown one after another. After the last item, the first item is displayed again.
+The meter has a rolling display. The items described below are shown one after the other. After the last item, the first item is shown again.
 
 **Meter reading (OBIS code followed by meter reading)**
 
@@ -148,7 +148,7 @@ The meter has a scrolling display. The items described below are shown one after
 - PhL: 23 phase L1 not connected
 - PhL: 13 phase L2 not connected
 - PhL: 12 phase L3 not connected
-- Correct phase sequence: numbers are lit steadily
+- Correct phase sequence: numbers light up steadily
 - Incorrect phase sequence: numbers flash
 
 ## Dimensions and connections
@@ -161,7 +161,7 @@ The meter has a scrolling display. The items described below are shown one after
 
 ![3-Phase Meter Telstar CT – Figure 4](/img/produkte-telstar-ct/04.png)
 
-### Wiring diagram
+### Connection diagram
 
 ![3-Phase Meter Telstar CT – Figure 5](/img/produkte-telstar-ct/05.jpg)
 
@@ -170,7 +170,7 @@ The meter has a scrolling display. The items described below are shown one after
 <div className="row">
 <div className="col col--7">
 
-1.  Click the gear icon (Settings / Einstellungen) at the top right 
+1.  Top right on the gear icon (Settings (Einstellungen)) 
 
 2.  Edit (Editieren) 
 
@@ -178,7 +178,7 @@ The meter has a scrolling display. The items described below are shown one after
 
 4.  Enter the transformer ratio (Wandlerverhältnis) 
 
-5.  The transformer ratio can be locked. This protects against unwanted changes by unauthorized persons. To unlock the transformer ratio, the device must be installed again with the smart-me app. Deleting the device is not necessary for the reinstallation.
+5.  The transformer ratio can be locked. This serves as protection against unwanted changes by unauthorized persons. To unlock the transformer ratio, the device must be installed again with the smart-me app. It is not necessary to delete the device before reinstalling it.
 
 Note: Entering the transformer ratio does not change the historically stored data. For this reason, this step must be carried out immediately after commissioning.
 
@@ -194,27 +194,27 @@ Note: Entering the transformer ratio does not change the historically stored dat
 
 ![3-Phase Meter Telstar CT – Figure 7](/img/produkte-telstar-ct/07.png)
 
-T1 Button for installation
+T1 Button for the installation
 
-Pressing the T1 button for 10 seconds creates a local WiFi for the installation
+If button T1 is pressed for 10 seconds, a local WiFi is created for the installation
 
 T1 + T2 Restart
 
-Press the T1 and T2 buttons simultaneously for 10 seconds to force a restart.
+Press buttons T1 and T2 simultaneously for 10 seconds to force a restart.
 
 T2 Special functions
 
-Short: If T2 is pressed for >2s, the green LED toggles (from on to off or from off to on). When enabled, it shows the connection status 
+Short: If T2 is pressed >2s, the green LED toggles (from on to off or from off to on). When activated, it shows the connection status 
 
 🟢 Green steady: connected to the smart-me Cloud
 
  ☀︎ Green flashing: establishing connection or no connection
 
-Long: If T2 is pressed for >8s, the power display switches between active and reactive power. The calibration pulse LED also switches between active energy and reactive energy.
+Long: If T2 is pressed >8s, the power display toggles between active & reactive power. In addition, the calibration pulse LED switches between active energy and reactive energy.
 
-Very long: If T2 is pressed for >14s, the S0-0 pulse output switches between active power and reactive power.
+Very long: If T2 is pressed >14s, the S0-0 pulse output toggles between active power and reactive power.
 
-Note: This setting only changes what is shown on the display, not in the smart-me Cloud (app and website). If reactive energy is to be displayed in the Cloud, this must be set in the general settings (allgemeine Einstellungen). 
+Note: This setting only changes what is shown on the display, not in the smart-me Cloud (app and website). If the reactive energy is to be shown in the Cloud, this must be done in the general settings (allgemeine Einstellungen). 
 
 ## LED
 
@@ -243,9 +243,9 @@ Note: This setting only changes what is shown on the display, not in the smart-m
 
 🔴 Red LED - pulse LED
 
-- Shows the currently drawn active or reactive power at 1000 pulses/kWh or 1000 pulses/kVArh respectively. Whether active or reactive power is shown can be set with the T2 button.
+- Shows the currently consumed active or reactive power in 1000 pulses/kWh or 1000 pulses/kVArh. Whether active or reactive power is shown can be set with button T2.
 
-- For example: An LED marked "1000 pulses/kWh" flashes 1000 times when 1 kilowatt hour (kWh) of energy has been consumed or delivered. If the 1000 pulses were counted within 1 hour, a constant power of 1 kW was measured.
+- For example: An LED labelled “1000 pulses/kWh” flashes 1000 times when 1 kilowatt hour (kWh) of energy has been consumed or delivered. If the 1000 pulses were counted within 1 hour, a constant power of 1 kW was measured.
 
 </div>
 </div>
@@ -258,13 +258,13 @@ On one digital output, the Telstar CT has a relay that can switch up to 8A.
 
 ## Mesh technology
 
-If WiFi reception is very weak or unavailable, the Telstar CT automatically connects via the mesh function to another neighboring meter within range. This meter then handles communication with the smart-me Cloud. Mesh technology ensures that the meters have higher availability towards the smart-me Cloud. It is not possible to deactivate the mesh function on the meter. Specific restrictions apply when [Modbus TCP](/schnittstellen/modbus-tcp) is enabled.
+If WiFi reception is very weak or missing, the Telstar CT automatically connects via the mesh function to another neighbouring meter within range. This meter then takes over communication with the smart-me Cloud. Mesh technology ensures that the meters have higher availability towards the smart-me Cloud. It is not possible to deactivate the mesh function on the meter. Specific restrictions apply when [Modbus TCP](/schnittstellen/modbus-tcp) is activated.
 
 ## Current transformers and accessories
 
-You can find recommendations for current transformers and accessories on the page: [Current transformers and accessories](/drittprodukte/stromwandler) 
+You can find recommendations for current transformers and accessories on the page: [Current Transformers and accessories](/drittprodukte/stromwandler) 
 
-None of these products are sold by smart-me AG or offered as accessories at the time of purchase. Please buy these products directly from the manufacturer. 
+None of these products are sold by smart-me AG or offered as accessories with a purchase. Please buy these products directly from the manufacturer. 
 
 ### Shipping information
 
@@ -274,7 +274,7 @@ Article name: 3-Phasen Energiezähler Telstar CT MID Wifi
 
 Customs tariff number: 9028.3019
 
-Weight with packaging: 315g
+Weight including packaging: 315g
 
 ## Downloads and declaration of conformity
 
@@ -284,7 +284,7 @@ Weight with packaging: 315g
 
 [CE declaration of conformity](https://drive.google.com/file/d/1mcZJJhHeKQ1wN0q8yE8ROKnRZXx-wo3b/view?usp=sharing)
 
-[Wiring diagram ZIP files](https://drive.google.com/file/d/1aIXTi2VFA2XxJBLnIs_gOVc5GDLnuzYR/view?usp=share_link) (\*.DXF and \*.DWG data can be found in the ZIP archive)
+[Connection diagram ZIP files](https://drive.google.com/file/d/1aIXTi2VFA2XxJBLnIs_gOVc5GDLnuzYR/view?usp=share_link) (\*.DXF and \*.DWG data can be found in the ZIP archive)
 
 [Quick Starter](https://docs.google.com/document/d/1bADdFIt2XP22LaSkNoSgziUkUFZ5IIlIpH5qiHsI8YA/export?format=pdf)
 
@@ -297,7 +297,7 @@ Weight with packaging: 315g
 
 - In addition, at least every 330 seconds.
 
-- Furthermore, when one of the following events occurs:
+- Furthermore, whenever one of the following events occurs:
 
     - Meter reading change greater than 100Wh
 
@@ -307,13 +307,13 @@ Weight with packaging: 315g
 
     - Voltage change greater than 1V
 
-    - Every second when the meter is selected in the GUI (smart-me Portal)
+    - Every second when the meter is selected in the GUI (smart-me portal)
 
 </details>
 
 <details id="kann-ich-den-zählerstand-auf-null-zurücksetzen">
 <summary>Can I reset the meter reading to zero?</summary>
 
-No. Since our meters are used for billing, it is not possible to reset them.
+No. Because our meters are used for billing, it is not possible to reset them.
 
 </details>

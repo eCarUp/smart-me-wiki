@@ -1,21 +1,21 @@
 ---
-title: 'Soluzioni di piedistallo Pico'
+title: 'Soluzioni di piedistallo per Pico'
 slug: '/produkte/pico-ladestation/pico-standfuss'
 description: 'Ogni piedistallo Pico è composto da un piedistallo:'
 sidebar_label: 'Piedistallo Pico'
 ---
 
-Per la stazione di ricarica Pico sono disponibili due soluzioni di piedistallo.
+Per la stazione di ricarica Pico sono disponibili due possibili soluzioni di piedistallo.
 
 
 <div className="row">
 <div className="col col--6">
 
-## Piedistallo Pico smart-me
+## Piedistallo Pico di smart-me
 
 <div className="bild--mitte">
 
-![Piedistallo Pico – Figura 1](/img/produkte-pico-ladestation-pico-standfuss/01.jpg)
+![Piedistallo Pico – figura 1](/img/produkte-pico-ladestation-pico-standfuss/01.jpg)
 
 </div>
 
@@ -26,7 +26,7 @@ Per la stazione di ricarica Pico sono disponibili due soluzioni di piedistallo.
 
 <div className="bild--mitte">
 
-![Piedistallo Pico – Figura 13](/img/produkte-pico-ladestation-pico-standfuss/13.png)
+![Piedistallo Pico – figura 13](/img/produkte-pico-ladestation-pico-standfuss/13.png)
 
 </div>
 
@@ -40,7 +40,7 @@ Per la stazione di ricarica Pico sono disponibili due soluzioni di piedistallo.
 
 Ogni piedistallo Pico è composto da un piedistallo:
 
-- 212070-PL oppure 232070-PL 
+- 212070-PL o 232070-PL 
 
 e da una testa per il montaggio delle Pico (tutte le teste sono compatibili con entrambe le varianti di piedistallo)
 
@@ -53,20 +53,20 @@ e da una testa per il montaggio delle Pico (tutte le teste sono compatibili con 
 <div className="col col--6">
 
 ## Informazioni per l'ordinazione del piedistallo OnePole
-⚡NOVITÀ: la stazione di ricarica Pico è compatibile con la colonnina di ricarica universale di [ONEPOLE](https://onepole.no/de). Il supporto per la Pico e la colonnina di ricarica possono essere ordinati in diverse versioni direttamente nel webshop di Otto Fischer ➡️ [Supporto Pico](https://www.ottofischer.ch/de/item/halterung-onepole-pro-fur-pico-ladestation-896511561#item-downloads) e [Piedistalli ONEPOLE](https://www.ottofischer.ch/de/catalog/standfusse-5581978?q=&expanded_filters=id_brands&brands=20630654&limit=48&sort=abc_value). Per ulteriori informazioni contatta Otto Fischer.
+⚡NOVITÀ: la stazione di ricarica Pico è compatibile con la colonnina di ricarica universale di [ONEPOLE](https://onepole.no/de). Il supporto per la Pico e la colonnina di ricarica possono essere ordinati in diverse versioni direttamente nel webshop di Otto Fischer ➡️ [Supporto Pico](https://www.ottofischer.ch/de/item/halterung-onepole-pro-fur-pico-ladestation-896511561#item-downloads) e [piedistalli ONEPOLE](https://www.ottofischer.ch/de/catalog/standfusse-5581978?q=&expanded_filters=id_brands&brands=20630654&limit=48&sort=abc_value). Per ulteriori informazioni contattare Otto Fischer.
 
 
 
 ONEPOLE è sinonimo di soluzioni a colonna innovative, che convincono grazie al design modulare e all'elevata flessibilità. I prodotti, sviluppati e fabbricati in Norvegia, si distinguono per materiali di prima qualità, un'eccellente qualità di lavorazione e funzioni innovative e ben studiate. 
 
-![Piedistallo Pico – Figura 3](/img/produkte-pico-ladestation-pico-standfuss/03.jpg)
+![Piedistallo Pico – figura 3](/img/produkte-pico-ladestation-pico-standfuss/03.jpg)
 
 </div>
 </div>
 
 ## Varianti di piedistallo smart-me
 
-### 212070-PL Piedistallo Pico
+### 212070-PL piedistallo Pico
 
 <div className="row">
 <div className="col col--9">
@@ -77,14 +77,14 @@ Piedistallo universale con piastra di base secondo lo standard OPI-2020
 
 - Linee di alimentazione direttamente dal quadro di protezione alla stazione di ricarica.
 
-Il montaggio avviene su uno zoccolo in calcestruzzo con interasse dei fori secondo le istruzioni. Dettagli in Download Pico.
+Il montaggio avviene su uno zoccolo di calcestruzzo con interasse dei fori secondo le istruzioni. Dettagli nei download Pico.
 
 Superficie: zincata a caldo, verniciata a polvere e laccata in RAL 9004 nero segnale
 
 </div>
 <div className="col col--3 bild--mitte">
 
-![Piedistallo Pico – Figura 5](/img/produkte-pico-ladestation-pico-standfuss/05.png)
+![Piedistallo Pico – figura 5](/img/produkte-pico-ladestation-pico-standfuss/05.png)
 
 </div>
 </div>
@@ -92,16 +92,16 @@ Superficie: zincata a caldo, verniciata a polvere e laccata in RAL 9004 nero seg
 <div className="row">
 <div className="col col--6">
 
-### 232070-PL Piedistallo Pico con accesso di servizio
+### 232070-PL piedistallo Pico con accesso di servizio
 
 Piedistallo universale con piastra di base secondo lo standard OPI-2020
 
-- Coperchio di servizio per un facile cablaggio multiplo e per ispezioni periodiche
+- Coperchio di servizio per un facile cablaggio multiplo e ispezioni periodiche
 - Spazio per 2 interruttori differenziali o interruttori combinati FI/LS, scaricatori di sovratensione (SPD tipo 2) o altri apparecchi su guida DIN.
-- Linea di alimentazione e di uscita: max. 25mm2
+- Linea in entrata e in uscita: max. 25mm2
 - IP44
 - IK10
-- Scarico di trazione per la linea di alimentazione e di uscita
+- Scarico della trazione per linea in entrata e in uscita
 
 ### Contenuto della fornitura:
 
@@ -111,39 +111,39 @@ Piedistallo universale con piastra di base secondo lo standard OPI-2020
 - Morsettiere
 - Morsetti PE
 
-Il montaggio avviene su uno zoccolo in calcestruzzo con interasse dei fori secondo le istruzioni. Dettagli in Download Pico.
+Il montaggio avviene su uno zoccolo di calcestruzzo con interasse dei fori secondo le istruzioni. Dettagli nei download Pico.
 Superficie: zincata a caldo, verniciata a polvere e laccata in RAL 9004 nero segnale
 </div>
 
 <div className="col col--3">
 
-![Piedistallo Pico – Figura 4](/img/produkte-pico-ladestation-pico-standfuss/06.jpg)
+![Piedistallo Pico – figura 4](/img/produkte-pico-ladestation-pico-standfuss/06.jpg)
 
 </div>
 <div className="col col--3 bild--mitte">
 
-![Piedistallo Pico – Figura 7](/img/produkte-pico-ladestation-pico-standfuss/07.png)
+![Piedistallo Pico – figura 7](/img/produkte-pico-ladestation-pico-standfuss/07.png)
 
 </div>
 </div>
 
-## Varianti della testa del piedistallo
+## Varianti di testa del piedistallo
 
-### 232070-PL/PH1 e 232070-PL/PH2 Teste del piedistallo Pico con dock per cavo
+### 232070-PL/PH1 e 232070-PL/PH2 teste del piedistallo Pico con supporto per cavo
 
-Oltre al gancio per avvolgere il cavo, questa variante di testa dispone di supporti per la spina, che permettono di riporre l'estremità libera del cavo al riparo dall'acqua dopo la sessione di ricarica.
+Oltre al gancio per avvolgere il cavo, questa variante di testa dispone di supporti per la spina, per riporre l'estremità libera del cavo al riparo dall'acqua dopo la sessione di ricarica.
 
-Questa testa è particolarmente adatta alle stazioni di ricarica pubbliche con cavo fisso alla stazione di ricarica.
+Questa testa è particolarmente adatta per stazioni di ricarica pubbliche con cavo fisso alla stazione di ricarica.
 
 Le teste si adattano a tutte le varianti di piedistallo.
 
 <div className="row">
 <div className="col col--9">
 
-232070-PL/PH1 Testa del piedistallo Pico 1x Pico con dock per cavo
+232070-PL/PH1 testa del piedistallo Pico per 1x Pico con supporto per cavo
 
 Contenuto:
-- 1x dock per cavo lato destro (visto di fronte)
+- 1x supporto per cavo lato destro (visto di fronte)
 - 1x lamiera di fissaggio Pico
 - Gancio per cavo
 - Accessori
@@ -151,7 +151,7 @@ Contenuto:
 </div>
 <div className="col col--3 bild--mitte">
 
-![Piedistallo Pico – Figura 8](/img/produkte-pico-ladestation-pico-standfuss/08.jpg)
+![Piedistallo Pico – figura 8](/img/produkte-pico-ladestation-pico-standfuss/08.jpg)
 
 </div>
 </div>
@@ -159,10 +159,10 @@ Contenuto:
 <div className="row">
 <div className="col col--9">
 
-2302070-PL/PH2 Testa del piedistallo Pico 2x Pico con dock per cavo
+2302070-PL/PH2 testa del piedistallo Pico per 2x Pico con supporti per cavo
 
 Contenuto:
-- 2x dock per cavo lato destro e sinistro (visto di fronte)
+- 2x supporto per cavo lato destro e sinistro (visto di fronte)
 - 2x lamiera di fissaggio Pico
 - Gancio per cavo
 - Accessori
@@ -170,7 +170,7 @@ Contenuto:
 </div>
 <div className="col col--3 bild--mitte">
 
-![Piedistallo Pico – Figura 9](/img/produkte-pico-ladestation-pico-standfuss/09.jpg)
+![Piedistallo Pico – figura 9](/img/produkte-pico-ladestation-pico-standfuss/09.jpg)
 
 </div>
 </div>
@@ -180,7 +180,7 @@ Contenuto:
 <div className="row">
 <div className="col col--9">
 
-La fondazione del piedistallo può essere gettata in calcestruzzo sulla base delle informazioni sulla piastra di base riportate qui accanto.
+La fondazione del piedistallo può essere gettata in calcestruzzo sulla base delle informazioni sulla piastra di base riportate a lato.
 
 In alternativa è possibile realizzare o acquistare un prodotto di terzi.
 
@@ -189,7 +189,7 @@ In alternativa è possibile realizzare o acquistare un prodotto di terzi.
 </div>
 <div className="col col--3 bild--mitte">
 
-![Piedistallo Pico – Figura 12](/img/produkte-pico-ladestation-pico-standfuss/12.png)
+![Piedistallo Pico – figura 12](/img/produkte-pico-ladestation-pico-standfuss/12.png)
 
 </div>
 </div>
@@ -198,21 +198,21 @@ In alternativa è possibile realizzare o acquistare un prodotto di terzi.
 
 ### Scheda tecnica
 
-[Tedesco Scheda tecnica piedistallo normale](https://docs.google.com/presentation/d/1si1w-SH3aHQU52az51RVR9HrPD0mufsLQOErdtUNBa4/export/pdf) 
+[Scheda tecnica in tedesco piedistallo normale](https://docs.google.com/presentation/d/1si1w-SH3aHQU52az51RVR9HrPD0mufsLQOErdtUNBa4/export/pdf) 
 
-[Inglese Scheda tecnica Pole Basic](https://docs.google.com/presentation/d/1IuYdWO0DG7WzULnhqAxexFe0gn9lXIdqZV0Ld9o1H6o/export/pdf)
+[Scheda tecnica in inglese Pole Basic](https://docs.google.com/presentation/d/1IuYdWO0DG7WzULnhqAxexFe0gn9lXIdqZV0Ld9o1H6o/export/pdf)
 
-[Tedesco Scheda tecnica piedistallo con accesso di servizio](https://docs.google.com/presentation/d/1vXZHEhaVv1E9tLQlOHfZwsy3fsjYyuNT1oRlcegqa6U/export/pdf)
+[Scheda tecnica in tedesco piedistallo con accesso di servizio](https://docs.google.com/presentation/d/1vXZHEhaVv1E9tLQlOHfZwsy3fsjYyuNT1oRlcegqa6U/export/pdf)
 
-[Inglese Scheda tecnica Pole with maintenance door](https://docs.google.com/presentation/d/1VBIZ2DG4tslBIM0TSRMsgNX2amszNTXtAvYSFv2BoGM/export/pdf)
+[Scheda tecnica in inglese Pole with maintenance door](https://docs.google.com/presentation/d/1VBIZ2DG4tslBIM0TSRMsgNX2amszNTXtAvYSFv2BoGM/export/pdf)
 
 ### Istruzioni di installazione e montaggio
 
-[Tedesco Piedistallo normale 212070](https://docs.google.com/presentation/d/1etcIy6Ak87tHl1IKyR3vkeI8njKifNEZEblgoFnG31M/export/pdf)
+[Tedesco piedistallo normale 212070](https://docs.google.com/presentation/d/1etcIy6Ak87tHl1IKyR3vkeI8njKifNEZEblgoFnG31M/export/pdf)
 
 [Inglese Pole Basic 212070](https://docs.google.com/presentation/d/1E7xwrz-9SY61W5SjvSxstIjsqqrAiLNH807a-tYnoJQ/export/pdf)
 
-[Tedesco Piedistallo con accesso di servizio 232070](https://docs.google.com/presentation/d/1-qfhvkn-KJfgYRXNXX6ojoZRLsE73RIFFagtjkq18k4/export/pdf)
+[Tedesco piedistallo con accesso di servizio 232070](https://docs.google.com/presentation/d/1-qfhvkn-KJfgYRXNXX6ojoZRLsE73RIFFagtjkq18k4/export/pdf)
 
 [Inglese Pole with service door 232070](https://docs.google.com/presentation/d/1Jvp9VK24zobIH0hJ9eazLwURvVuZ0i0nczlmGKOL7H0/export/pdf)
 

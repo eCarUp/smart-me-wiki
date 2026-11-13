@@ -9,7 +9,7 @@ The smart-me Plug is a power meter, thermostat and timer in one. In addition, th
 
 Sales discontinued on 30.03.2021
 Technical support discontinued on 30.03.2025
-Hardware and cloud functions: operation still guaranteed
+Hardware and cloud functions: operation continues to be guaranteed
 
 ![Plug – Figure 1](/img/produkte-plug/01.jpg)
 

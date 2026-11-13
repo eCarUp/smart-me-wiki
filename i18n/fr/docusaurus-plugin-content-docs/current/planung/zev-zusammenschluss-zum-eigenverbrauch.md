@@ -23,7 +23,7 @@ Pour que ce décompte puisse être effectué, il faut l'infrastructure nécessai
 
 <div className="bild--voll">
 
-![RCP Regroupement dans le cadre de la consommation propre – Illustration 1](/img/planung-zev-zusammenschluss-zum-eigenverbrauch/01.png)
+![RCP Regroupement dans le cadre de la consommation propre – Illustration 1](/img/planung-zev-zusammenschluss-zum-eigenverbrauch/01_FR.png)
 
 </div>
 
@@ -59,7 +59,7 @@ Pour que ce décompte puisse être effectué, il faut l'infrastructure nécessai
 
 <div className="bild--voll">
 
-![RCP Regroupement dans le cadre de la consommation propre – Illustration 2](/img/planung-zev-zusammenschluss-zum-eigenverbrauch/02.png)
+![RCP Regroupement dans le cadre de la consommation propre – Illustration 2](/img/planung-zev-zusammenschluss-zum-eigenverbrauch/02_FR.png)
 
 </div>
 
@@ -108,7 +108,7 @@ Idéal pour les planificateurs et les électriciens.
 
 <div className="bild--voll">
 
-![RCP Regroupement dans le cadre de la consommation propre – Illustration 3](/img/planung-zev-zusammenschluss-zum-eigenverbrauch/03.png)
+![RCP Regroupement dans le cadre de la consommation propre – Illustration 3](/img/planung-zev-zusammenschluss-zum-eigenverbrauch/03_FR.png)
 
 </div>
 
@@ -123,7 +123,7 @@ Idéal pour les planificateurs et les électriciens.
 
 <div className="bild--voll">
 
-![RCP Regroupement dans le cadre de la consommation propre – Illustration 4](/img/planung-zev-zusammenschluss-zum-eigenverbrauch/04.png)
+![RCP Regroupement dans le cadre de la consommation propre – Illustration 4](/img/planung-zev-zusammenschluss-zum-eigenverbrauch/04_FR.png)
 
 </div>
 
@@ -131,6 +131,6 @@ Idéal pour les planificateurs et les électriciens.
 
 <div className="bild--voll">
 
-![RCP Regroupement dans le cadre de la consommation propre – Illustration 5](/img/planung-zev-zusammenschluss-zum-eigenverbrauch/05.png)
+![RCP Regroupement dans le cadre de la consommation propre – Illustration 5](/img/planung-zev-zusammenschluss-zum-eigenverbrauch/05_FR.png)
 
 </div>

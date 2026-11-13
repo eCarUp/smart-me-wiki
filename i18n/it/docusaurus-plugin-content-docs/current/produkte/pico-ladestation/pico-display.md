@@ -1,12 +1,12 @@
 ---
-title: 'Pico Display'
+title: 'Display della Pico'
 slug: '/produkte/pico-ladestation/pico-display'
 description: 'Questa pagina descrive il comportamento dello schermo della Pico.'
-sidebar_label: 'Pico Display'
+sidebar_label: 'Display della Pico'
 ---
 Questa pagina descrive il comportamento dello schermo della Pico.
 
-![Pico Display – figura 1](/img/produkte-pico-ladestation-pico-display/01.png)
+![Display della Pico – Figura 1](/img/produkte-pico-ladestation-pico-display/01.png)
 
 [Stazione di ricarica Pico](/produkte/pico-ladestation)
 
@@ -14,7 +14,7 @@ Questa pagina descrive il comportamento dello schermo della Pico.
 
 ## Display
 
-La descrizione della visualizzazione vale per tutte le [versioni del firmware](/konfiguration/firmware-update) a partire dalla 0.0.28.
+La descrizione della visualizzazione è valida per tutte le [versioni del firmware](/konfiguration/firmware-update) a partire dalla 0.0.28.
 
 ### Sequenza nessuna ricarica attiva
 
@@ -26,7 +26,7 @@ Viene visualizzata quando nessun veicolo è collegato e non è in corso alcuna r
 </div>
 <div className="col col--4 bild--mitte">
 
-![Pico Display – figura 2](/img/produkte-pico-ladestation-pico-display/01.png)
+![Display della Pico – Figura 2](/img/produkte-pico-ladestation-pico-display/01.png)
 
 </div>
 </div>
@@ -41,7 +41,7 @@ Viene visualizzata ripetutamente quando l'auto è collegata, ma la stazione non 
 </div>
 <div className="col col--4 bild--mitte">
 
-![Pico Display – figura 3](/img/produkte-pico-ladestation-pico-display/03.png)
+![Display della Pico – Figura 3](/img/produkte-pico-ladestation-pico-display/03.png)
 
 </div>
 </div>
@@ -54,7 +54,7 @@ Viene visualizzata ripetutamente quando l'auto è collegata, ma la stazione non 
 </div>
 <div className="col col--4 bild--mitte">
 
-![Pico Display – figura 4](/img/produkte-pico-ladestation-pico-display/04.png)
+![Display della Pico – Figura 4](/img/produkte-pico-ladestation-pico-display/04.png)
 
 </div>
 </div>
@@ -71,7 +71,7 @@ Viene visualizzata quando l'auto viene collegata e la Car-ID viene verificata.
 </div>
 <div className="col col--4 bild--mitte">
 
-![Pico Display – figura 5](/img/produkte-pico-ladestation-pico-display/05.png)
+![Display della Pico – Figura 5](/img/produkte-pico-ladestation-pico-display/05.png)
 
 </div>
 </div>
@@ -84,7 +84,7 @@ Viene visualizzata quando il veicolo non è autorizzato o la Car-ID non è regis
 </div>
 <div className="col col--4 bild--mitte">
 
-![Pico Display – figura 6](/img/produkte-pico-ladestation-pico-display/06.png)
+![Display della Pico – Figura 6](/img/produkte-pico-ladestation-pico-display/06.png)
 
 </div>
 </div>
@@ -97,7 +97,7 @@ Viene visualizzata quando il veicolo è autorizzato. In seguito la Pico passa al
 </div>
 <div className="col col--4 bild--mitte">
 
-![Pico Display – figura 7](/img/produkte-pico-ladestation-pico-display/07.png)
+![Display della Pico – Figura 7](/img/produkte-pico-ladestation-pico-display/07.png)
 
 </div>
 </div>
@@ -107,12 +107,12 @@ Viene visualizzata quando il veicolo è autorizzato. In seguito la Pico passa al
 <div className="row">
 <div className="col col--8">
 
-La tessera RFID viene verificata. Con una connessione molto buona è possibile che il testo non venga visualizzato affatto.
+La carta RFID viene verificata. Con una connessione molto buona può succedere che il testo non venga visualizzato affatto.
 
 </div>
 <div className="col col--4 bild--mitte">
 
-![Pico Display – figura 8](/img/produkte-pico-ladestation-pico-display/08.png)
+![Display della Pico – Figura 8](/img/produkte-pico-ladestation-pico-display/08.png)
 
 </div>
 </div>
@@ -125,7 +125,7 @@ Viene visualizzata quando l'RFID è autorizzato.
 </div>
 <div className="col col--4 bild--mitte">
 
-![Pico Display – figura 9](/img/produkte-pico-ladestation-pico-display/09.png)
+![Display della Pico – Figura 9](/img/produkte-pico-ladestation-pico-display/09.png)
 
 </div>
 </div>
@@ -133,12 +133,12 @@ Viene visualizzata quando l'RFID è autorizzato.
 <div className="row">
 <div className="col col--8">
 
-Viene visualizzata quando l'autorizzazione RFID è andata a buon fine e nessuna auto è collegata. Se un'auto è collegata, questa visualizzazione viene ignorata e la Pico passa alla "Sequenza ricarica attiva".
+Viene visualizzata quando l'autorizzazione RFID è riuscita e nessuna auto è collegata. Se un'auto è collegata, questa visualizzazione viene ignorata e la Pico passa alla "Sequenza ricarica attiva".
 
 </div>
 <div className="col col--4 bild--mitte">
 
-![Pico Display – figura 10](/img/produkte-pico-ladestation-pico-display/10.png)
+![Display della Pico – Figura 10](/img/produkte-pico-ladestation-pico-display/10.png)
 
 </div>
 </div>
@@ -151,7 +151,7 @@ Viene visualizzata quando l'RFID non è autorizzato. In seguito la Pico passa al
 </div>
 <div className="col col--4 bild--mitte">
 
-![Pico Display – figura 11](/img/produkte-pico-ladestation-pico-display/11.png)
+![Display della Pico – Figura 11](/img/produkte-pico-ladestation-pico-display/11.png)
 
 </div>
 </div>
@@ -168,7 +168,7 @@ La ricarica è stata abilitata correttamente con il codice QR.
 </div>
 <div className="col col--4 bild--mitte">
 
-![Pico Display – figura 12](/img/produkte-pico-ladestation-pico-display/12.png)
+![Display della Pico – Figura 12](/img/produkte-pico-ladestation-pico-display/12.png)
 
 </div>
 </div>
@@ -176,12 +176,12 @@ La ricarica è stata abilitata correttamente con il codice QR.
 <div className="row">
 <div className="col col--8">
 
-Viene visualizzata quando l'autorizzazione è andata a buon fine e nessuna auto è collegata. Se un'auto è collegata, questa visualizzazione viene ignorata e la Pico passa alla "Sequenza ricarica attiva".
+Viene visualizzata quando l'autorizzazione è riuscita e nessuna auto è collegata. Se un'auto è collegata, questa visualizzazione viene ignorata e la Pico passa alla "Sequenza ricarica attiva".
 
 </div>
 <div className="col col--4 bild--mitte">
 
-![Pico Display – figura 13](/img/produkte-pico-ladestation-pico-display/10.png)
+![Display della Pico – Figura 13](/img/produkte-pico-ladestation-pico-display/10.png)
 
 </div>
 </div>
@@ -198,7 +198,7 @@ Viene visualizzata quando l'autorizzazione è andata a buon fine e nessuna auto 
 </div>
 <div className="col col--4 bild--mitte">
 
-![Pico Display – figura 14](/img/produkte-pico-ladestation-pico-display/14.png)
+![Display della Pico – Figura 14](/img/produkte-pico-ladestation-pico-display/14.png)
 
 </div>
 </div>
@@ -210,14 +210,14 @@ Viene visualizzata quando l'autorizzazione è andata a buon fine e nessuna auto 
 
 Valore / Simbolo Descrizione
 
-32A Corrente di ricarica massima consentita 
+32A Corrente di ricarica max. consentita 
 
-Quando la corrente di ricarica massima viene aumentata dalla stazione, viene mostrata brevemente questa immagine con la nuova corrente di ricarica max.
+Quando la stazione aumenta la corrente di ricarica massima, viene visualizzata brevemente questa immagine con la nuova corrente di ricarica max.
 
 </div>
 <div className="col col--4 bild--mitte">
 
-![Pico Display – figura 15](/img/produkte-pico-ladestation-pico-display/15.png)
+![Display della Pico – Figura 15](/img/produkte-pico-ladestation-pico-display/15.png)
 
 </div>
 </div>
@@ -238,7 +238,7 @@ Batteria Nessun significato
 </div>
 <div className="col col--4 bild--mitte">
 
-![Pico Display – figura 16](/img/produkte-pico-ladestation-pico-display/16.png)
+![Display della Pico – Figura 16](/img/produkte-pico-ladestation-pico-display/16.png)
 
 </div>
 </div>
@@ -257,7 +257,7 @@ Valore / Simbolo Descrizione
 </div>
 <div className="col col--4 bild--mitte">
 
-![Pico Display – figura 17](/img/produkte-pico-ladestation-pico-display/17.png)
+![Display della Pico – Figura 17](/img/produkte-pico-ladestation-pico-display/17.png)
 
 </div>
 </div>
@@ -278,7 +278,7 @@ kW Unità della potenza visualizzata
 </div>
 <div className="col col--4 bild--mitte">
 
-![Pico Display – figura 18](/img/produkte-pico-ladestation-pico-display/18.png)
+![Display della Pico – Figura 18](/img/produkte-pico-ladestation-pico-display/18.png)
 
 </div>
 </div>
@@ -290,14 +290,14 @@ kW Unità della potenza visualizzata
 
 Valore / Simbolo Descrizione
 
-32A Corrente massima consentita 
+32A Corrente max. consentita 
 
-Quando la corrente di ricarica massima viene ridotta dalla stazione, viene mostrata brevemente questa immagine con la nuova corrente di ricarica max.
+Quando la stazione riduce la corrente di ricarica massima, viene visualizzata brevemente questa immagine con la nuova corrente di ricarica max.
 
 </div>
 <div className="col col--4 bild--mitte">
 
-![Pico Display – figura 19](/img/produkte-pico-ladestation-pico-display/19.png)
+![Display della Pico – Figura 19](/img/produkte-pico-ladestation-pico-display/19.png)
 
 </div>
 </div>
@@ -312,7 +312,7 @@ Valore / Simbolo Descrizione
 </div>
 <div className="col col--4 bild--mitte">
 
-![Pico Display – figura 20](/img/produkte-pico-ladestation-pico-display/20.png)
+![Display della Pico – Figura 20](/img/produkte-pico-ladestation-pico-display/20.png)
 
 </div>
 </div>
@@ -329,7 +329,7 @@ BYE Disconnessione riuscita
 </div>
 <div className="col col--4 bild--mitte">
 
-![Pico Display – figura 21](/img/produkte-pico-ladestation-pico-display/21.png)
+![Display della Pico – Figura 21](/img/produkte-pico-ladestation-pico-display/21.png)
 
 </div>
 </div>
@@ -348,7 +348,7 @@ Dopo la disconnessione, il consumo totale dell'ultima ricarica viene visualizzat
 </div>
 <div className="col col--4 bild--mitte">
 
-![Pico Display – figura 22](/img/produkte-pico-ladestation-pico-display/22.png)
+![Display della Pico – Figura 22](/img/produkte-pico-ladestation-pico-display/22.png)
 
 </div>
 </div>
@@ -362,12 +362,12 @@ Questa sequenza descrive il riavvio di una stazione tramite il portale
 
 Valore / Simbolo Descrizione
 
-BYE Segnale di riavvio
+BYE Segnale per il riavvio
 
 </div>
 <div className="col col--4 bild--mitte">
 
-![Pico Display – figura 23](/img/produkte-pico-ladestation-pico-display/21.png)
+![Display della Pico – Figura 23](/img/produkte-pico-ladestation-pico-display/21.png)
 
 </div>
 </div>
@@ -384,7 +384,7 @@ kWh Unità del consumo visualizzato
 </div>
 <div className="col col--4 bild--mitte">
 
-![Pico Display – figura 24](/img/produkte-pico-ladestation-pico-display/22.png)
+![Display della Pico – Figura 24](/img/produkte-pico-ladestation-pico-display/22.png)
 
 </div>
 </div>
@@ -397,7 +397,7 @@ Lo schermo rimane nero per circa 20 sec.
 </div>
 <div className="col col--4 bild--mitte">
 
-![Pico Display – figura 25](/img/produkte-pico-ladestation-pico-display/25.png)
+![Display della Pico – Figura 25](/img/produkte-pico-ladestation-pico-display/25.png)
 
 </div>
 </div>
@@ -407,12 +407,12 @@ Lo schermo rimane nero per circa 20 sec.
 
 È il primo segnale che la Pico si sta avviando.
 
-Al termine della sequenza di riavvio della stazione, la Pico passa alla sequenza della modalità MID
+Dopo la sequenza riavvio della stazione, la Pico passa alla sequenza MID Mode
 
 </div>
 <div className="col col--4 bild--mitte">
 
-![Pico Display – figura 26](/img/produkte-pico-ladestation-pico-display/26.png)
+![Display della Pico – Figura 26](/img/produkte-pico-ladestation-pico-display/26.png)
 
 </div>
 </div>
@@ -437,7 +437,7 @@ Guasto fatale
 </div>
 <div className="col col--4 bild--mitte">
 
-![Pico Display – figura 27](/img/produkte-pico-ladestation-pico-display/27.png)
+![Display della Pico – Figura 27](/img/produkte-pico-ladestation-pico-display/27.png)
 
 </div>
 </div>
@@ -453,7 +453,7 @@ SIM Error
 </div>
 <div className="col col--4 bild--mitte">
 
-![Pico Display – figura 28](/img/produkte-pico-ladestation-pico-display/28.png)
+![Display della Pico – Figura 28](/img/produkte-pico-ladestation-pico-display/28.png)
 
 </div>
 </div>
@@ -464,12 +464,12 @@ SIM Error
 
 Diode Error
 
-- Il diodo nell'auto non è corretto. Controllare il cavo di ricarica e il collegamento a spina con l'auto 
+- Il diodo nell'auto non è corretto. Verifichi il cavo di ricarica e il collegamento a spina con l'auto 
 
 </div>
 <div className="col col--4 bild--mitte">
 
-![Pico Display – figura 29](/img/produkte-pico-ladestation-pico-display/29.png)
+![Display della Pico – Figura 29](/img/produkte-pico-ladestation-pico-display/29.png)
 
 </div>
 </div>
@@ -480,12 +480,12 @@ Diode Error
 
 Cable Error
 
-- Il cavo di ricarica segnala un errore. Controllare che sia inserito correttamente. 
+- Il cavo di ricarica segnala un errore. Verifichi che sia collegato correttamente. 
 
 </div>
 <div className="col col--4 bild--mitte">
 
-![Pico Display – figura 30](/img/produkte-pico-ladestation-pico-display/30.png)
+![Display della Pico – Figura 30](/img/produkte-pico-ladestation-pico-display/30.png)
 
 </div>
 </div>
@@ -501,7 +501,7 @@ P Limit
 </div>
 <div className="col col--4 bild--mitte">
 
-![Pico Display – figura 31](/img/produkte-pico-ladestation-pico-display/31.png)
+![Display della Pico – Figura 31](/img/produkte-pico-ladestation-pico-display/31.png)
 
 </div>
 </div>
@@ -514,12 +514,12 @@ P Limit
 
 Warn RDC
 
-- L'RDC-DD 6mA secondo IEC 62955 (dispositivo di rilevamento della corrente di guasto continua) è intervenuto. La ricarica è stata interrotta per motivi di sicurezza. 
+- L'RDC-DD 6mA secondo IEC 62955 (dispositivo di rilevamento della corrente continua di guasto) è intervenuto. La ricarica è stata interrotta per motivi di sicurezza. 
 
 </div>
 <div className="col col--4 bild--mitte">
 
-![Pico Display – figura 32](/img/produkte-pico-ladestation-pico-display/32.png)
+![Display della Pico – Figura 32](/img/produkte-pico-ladestation-pico-display/32.png)
 
 </div>
 </div>
@@ -530,12 +530,12 @@ Warn RDC
 
 Offline
 
-- La stazione di ricarica non ha alcuna connessione con lo smart-me Cloud. 
+- La stazione di ricarica non ha alcuna connessione con il cloud smart-me. 
 
 </div>
 <div className="col col--4 bild--mitte">
 
-![Pico Display – figura 33](/img/produkte-pico-ladestation-pico-display/33.png)
+![Display della Pico – Figura 33](/img/produkte-pico-ladestation-pico-display/33.png)
 
 </div>
 </div>
@@ -547,14 +547,14 @@ Offline
 <div className="row">
 <div className="col col--8">
 
-Il LED si accende in arancione/rosso nell'angolo in alto a destra del display
+Il LED si accende in arancione/ rosso nell'angolo superiore destro del display
 
-- Indica un messaggio di errore. Al più tardi dopo 30 secondi, sullo schermo viene visualizzata l'immagine di errore (ad es. Cable Error).
+- Indica un messaggio di errore. Entro al massimo 30 secondi sullo schermo viene visualizzata l'immagine di errore (ad es. Cable Error).
 
 </div>
 <div className="col col--4 bild--mitte">
 
-![Pico Display – figura 34](/img/produkte-pico-ladestation-pico-display/34.png)
+![Display della Pico – Figura 34](/img/produkte-pico-ladestation-pico-display/34.png)
 
 </div>
 </div>
@@ -562,11 +562,11 @@ Il LED si accende in arancione/rosso nell'angolo in alto a destra del display
 
 
 
-### Modalità MID
+### MID Mode
 
-Per passare alla modalità MID si può fare clic su "Mostra lettura del contatore sul display" ("Zählerstand auf Display anzeigen") tramite l'azione avanzata nel portale smart-me, avviare o riavviare la stazione oppure utilizzare il sensore di luminosità.
+Per accedere alla modalità MID, è possibile cliccare tramite l'azione avanzata nel portale smart-me su "Mostra la lettura del contatore sul display" ("Zählerstand auf Display anzeigen"), avviare o riavviare la stazione oppure utilizzare il sensore di luminosità.
 
-Con una torcia puntata sul sensore di luminosità, l'utente può inserire il seguente codice lampeggiando: buio - luce - buio - luce - buio (ogni stato deve durare tra 1 e 5 secondi)
+Con una torcia puntata sul sensore di luminosità, l'utente può inserire il seguente codice lampeggiante: buio - luce - buio - luce - buio (ogni stato deve durare tra 1 e 5 secondi)
 
 <div className="row">
 <div className="col col--8">
@@ -578,7 +578,7 @@ Punto Sensore di luce
 </div>
 <div className="col col--4 bild--mitte">
 
-![Pico Display – figura 35](/img/produkte-pico-ladestation-pico-display/35.png)
+![Display della Pico – Figura 35](/img/produkte-pico-ladestation-pico-display/35.png)
 
 </div>
 </div>
@@ -587,7 +587,7 @@ Punto Sensore di luce
 <div className="col col--8">
 
 Valore / Simbolo Descrizione
-M Modalità MID attiva
+M MID-Mode attivo
 
 0.2.1 Versione e checksum secondo il codice OBIS
 
@@ -598,7 +598,7 @@ CRC 4F55 Checksum del firmware
 </div>
 <div className="col col--4 bild--mitte">
 
-![Pico Display – figura 36](/img/produkte-pico-ladestation-pico-display/36.png)
+![Display della Pico – Figura 36](/img/produkte-pico-ladestation-pico-display/36.png)
 
 </div>
 </div>
@@ -607,13 +607,13 @@ CRC 4F55 Checksum del firmware
 <div className="col col--8">
 
 Valore / Simbolo Descrizione
-M   Modalità MID attiva
+M   MID-Mode attivo
 
 F.F.0   Codice OBIS
 
 03   Codice di errore
 
-Viene visualizzato solo in presenza di un messaggio di errore. 
+Viene visualizzato solo se è presente un messaggio di errore. 
 
 Codice di errore Descrizione
 
@@ -629,7 +629,7 @@ x4: errore nel processo del display (checksum)
 </div>
 <div className="col col--4 bild--mitte">
 
-![Pico Display – figura 37](/img/produkte-pico-ladestation-pico-display/37.png)
+![Display della Pico – Figura 37](/img/produkte-pico-ladestation-pico-display/37.png)
 
 </div>
 </div>
@@ -638,16 +638,16 @@ x4: errore nel processo del display (checksum)
 <div className="col col--8">
 
 Valore / Simbolo Descrizione
-M Modalità MID attiva
+M MID-Mode attivo
 
 1.8.0 Codice OBIS
 
-00013.04 kWh La lettura del contatore in kWh con 2 decimali.
+00013.04 kWh La lettura del contatore in kWh con 2 cifre decimali.
 
 </div>
 <div className="col col--4 bild--mitte">
 
-![Pico Display – figura 38](/img/produkte-pico-ladestation-pico-display/38.png)
+![Display della Pico – Figura 38](/img/produkte-pico-ladestation-pico-display/38.png)
 
 </div>
 </div>

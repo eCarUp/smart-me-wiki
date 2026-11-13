@@ -12,7 +12,7 @@ smart-me exploite un connecteur qui permet à un assistant IA de travailler dire
 
 Techniquement, il s'agit d'un serveur MCP (Model Context Protocol, un standard ouvert permettant de donner à un assistant l'accès à un outil ou à une source de données) à l'adresse [https://mcp.smart-me.com/mcp](https://mcp.smart-me.com/mcp). Il n'y a rien à installer et aucune clé API à créer.
 
-Il agit en votre nom avec vos propres autorisations, il demande confirmation avant de modifier quoi que ce soit et il n'enregistre rien : aucun mot de passe, aucun jeton, aucune copie de vos données.
+Il agit en votre nom avec vos propres autorisations, il demande confirmation avant de modifier quoi que ce soit, et il n'enregistre rien : ni mot de passe, ni jeton, ni copie de vos données.
 
 ## Ce dont vous avez besoin
 
@@ -37,17 +37,17 @@ Ouvrez « Plugins » dans la barre latérale, recherchez « smart-me » et cliqu
 
 Dans le chat, vous appelez le connecteur avec @smart-me, par exemple : « @smart-me Montre-moi les 7 derniers jours du compteur solaire sous forme de graphique. »
 
-Remarque : ChatGPT peut transmettre au connecteur des conversations et des souvenirs pertinents comme contexte. Vous pouvez gérer cela dans les paramètres de ChatGPT ou déconnecter le connecteur à tout moment.
+Remarque : ChatGPT peut transmettre au connecteur des chats et des souvenirs pertinents comme contexte. Vous pouvez gérer cela dans les paramètres de ChatGPT ou couper la connexion à tout moment.
 
 
 ### Autres :
-Ajouter un serveur MCP personnalisé : https://mcp.smart-me.com/mcp
+Ajouter un serveur MCP personnalisé (Custom MCP Server) : https://mcp.smart-me.com/mcp
 
 
 
 La page de connexion smart-me s'ouvre. Connectez-vous comme d'habitude et confirmez l'accès. Votre mot de passe n'est jamais transmis à l'assistant.
 
-![AI Connector – Illustration 1](/img/schnittstellen-ai-connector/01.png)
+![AI Connector – illustration 1](/img/schnittstellen-ai-connector/01.png)
 
 ## Ce que vous pouvez demander
 
@@ -55,16 +55,16 @@ Dans n'importe quelle langue, pas seulement en anglais.
 
 Compteurs et consommation
 
-- « Quels compteurs se trouvent dans mon compte, et quelles valeurs affichent-ils actuellement ? »
+- « Quels compteurs se trouvent dans mon compte, et quelles valeurs affichent-ils en ce moment ? »
 
-- « Donne-moi la courbe de charge au quart d'heure du compteur principal pour mardi dernier et dis-moi quand a eu lieu la pointe. »
+- « Donne-moi la courbe de charge au quart d'heure du compteur principal pour mardi dernier et dis-moi quand le pic a eu lieu. »
 
 
 Bornes de recharge
 
 - « Y a-t-il une recharge en cours, et combien le groupe entier soutire-t-il ? »
 
-- « Montre-moi les sessions de recharge de la borne du garage ce mois-ci. »
+- « Montre-moi les sessions de recharge de la borne du garage pour ce mois-ci. »
 
 
 Décompte de l'autoconsommation (RCP)
@@ -76,14 +76,14 @@ Décompte de l'autoconsommation (RCP)
 
 Et bien plus encore !
 
-## Ce que le connecteur sait faire
+## Ce que le connecteur peut faire
 
-Lire : tous les compteurs du compte et leurs valeurs actuelles, les courbes de charge au quart d'heure et les séries journalières, l'arborescence des dossiers d'un immeuble, les bornes de recharge avec leurs sessions de recharge et leurs paramètres, les groupes de gestion de la charge ainsi que les tarifs, les postes de facture et la consommation d'un immeuble soumis au décompte.
+Lire : tous les compteurs du compte et leurs valeurs actuelles, les courbes de charge au quart d'heure et les séries journalières, l'arborescence des dossiers d'un immeuble, les bornes de recharge avec leurs sessions de recharge et leurs paramètres, les groupes de gestion de la charge ainsi que les tarifs, les positions de facture et la consommation d'un immeuble de décompte.
 
-Écrire, après votre confirmation : renommer des compteurs, créer et déplacer des dossiers, commuter un relais, envoyer une commande à une borne de recharge, définir des limites de courant, créer ou modifier des immeubles de décompte, des tarifs et des périodes de coûts VEWA.
+Écrire, après votre confirmation : renommer des compteurs, créer et déplacer des dossiers, commuter un relais, envoyer une commande à une borne de recharge, définir des limites de courant, créer ou modifier des immeubles de décompte, des tarifs et des périodes de coûts DIFEE.
 
-Chaque outil déclare s'il lit ou s'il écrit, afin qu'une opération d'écriture soit confirmée avant d'être exécutée. La suppression d'un dossier ou d'une borne de recharge se fait en deux étapes : la première montre ce qui serait supprimé, la seconde exige le nom exact.
+Chaque outil déclare s'il lit ou s'il écrit, afin qu'une opération d'écriture soit confirmée avant d'être effectuée. La suppression d'un dossier ou d'une borne de recharge se fait en deux étapes : la première montre ce qui disparaîtrait, la seconde exige le nom exact.
 
-Il n'est pas nécessaire de l'ajouter manuellement : le connecteur est officiellement publié et figure dans plusieurs répertoires — dans le Claude Connectors Directory, dans le registre MCP officiel sous com.smart-me/smart-me, chez Glama et dans le Raycast MCP Registry. Chez ChatGPT, la vérification est en cours.
+Il n'est pas nécessaire de le saisir à la main : le connecteur est officiellement publié et figure dans plusieurs répertoires — dans le Claude Connectors Directory, dans le MCP Registry officiel sous com.smart-me/smart-me, chez Glama et dans le Raycast MCP Registry. Chez ChatGPT, la vérification est en cours.
 
-En bref : smart-me met à disposition les compteurs d'un compte via un serveur MCP à l'adresse https://mcp.smart-me.com/mcp. Un assistant IA comme Claude ou ChatGPT peut ainsi lire directement depuis le compte de l'utilisateur les compteurs d'électricité, les compteurs de chaleur et les compteurs d'eau, les courbes de charge au quart d'heure, les bornes de recharge et le décompte RCP, et aussi les modifier après confirmation — sans installation, sans clé API, avec les autorisations de l'utilisateur connecté.
+En résumé : smart-me met à disposition les compteurs d'un compte via un serveur MCP à l'adresse https://mcp.smart-me.com/mcp. Un assistant IA comme Claude ou ChatGPT peut ainsi lire directement depuis le compte de l'utilisateur les compteurs d'électricité, les compteurs de chaleur et les compteurs d'eau, les courbes de charge au quart d'heure, les bornes de recharge et le décompte RCP, et aussi les modifier après confirmation — sans installation, sans clé API, avec les autorisations de l'utilisateur connecté.

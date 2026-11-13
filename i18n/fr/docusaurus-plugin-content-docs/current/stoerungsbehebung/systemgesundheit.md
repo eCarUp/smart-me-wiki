@@ -6,7 +6,7 @@ sidebar_label: 'Santé du système'
 ---
 <Menueweg>Système → Santé du système</Menueweg>
 
-La santé du système (Systemgesundheit) nécessite une licence Professional 
+La santé du système nécessite une licence Professional 
 
 Affichage :
 
@@ -16,30 +16,30 @@ Les appareils sont triés par type.
 
 - Appareils Pico (Pico Geräte) : bornes de recharge Pico
 
-- M-Bus Gateways (M-Bus Gateways) : toutes les passerelles
+- Passerelles M-Bus (M-Bus Gateways) : toutes les passerelles
 
 - Appareils M-Bus (M-Bus Geräte) :
-    tous les compteurs générés par la passerelle M-Bus.
+    tous les compteurs créés par la passerelle M-Bus.
 
 - Autres appareils (Andere Geräte) : appareils API ou importés
 
 
 Ordre :
 
-Les colonnes peuvent être triées, mais sont disposées par défaut de manière à ce que tous les appareils hors ligne apparaissent tout en haut.
+Les colonnes peuvent être triées, mais elles sont disposées par défaut de manière à ce que tous les appareils hors ligne apparaissent tout en haut.
 
 Device ID :
 
-Il s'agit de l'ID avec lequel ce compteur peut être adressé directement via l'API.
+Il s'agit de l'ID qui permet d'adresser directement ce compteur via l'API.
 
 
 
-![Santé du système – Figure 1](/img/stoerungsbehebung-systemgesundheit/01.png)
+![Santé du système – Illustration 1](/img/stoerungsbehebung-systemgesundheit/01.png)
 
 <div className="row">
 <div className="col col--4 bild--mitte">
 
-![Santé du système – Figure 2](/img/stoerungsbehebung-systemgesundheit/02.png)
+![Santé du système – Illustration 2](/img/stoerungsbehebung-systemgesundheit/02.png)
 
 </div>
 <div className="col col--8">

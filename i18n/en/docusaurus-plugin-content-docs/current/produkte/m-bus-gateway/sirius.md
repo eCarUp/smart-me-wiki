@@ -4,9 +4,9 @@ slug: '/produkte/m-bus-gateway/sirius'
 description: 'The smart-me M-Bus Gateway Sirius with integrated level converter for 250 M-Bus standard loads: technical data, connection diagram, button functions and downloads.'
 sidebar_label: 'M-Bus Gateway Sirius'
 ---
-The Sirius is the larger of the two devices: integrated level converter for 250 M-Bus standard loads, designed for large building infrastructures. The compatibility list, commissioning and installation instructions apply to both devices and can be found on the [overview page](/produkte/m-bus-gateway).
+The Sirius is the larger of the two devices: an integrated level converter for 250 M-Bus standard loads, designed for large building infrastructures. The compatibility list, commissioning and installation instructions apply to both devices and can be found on the [overview page](/produkte/m-bus-gateway).
 
-## Features
+## Functions
 
 - [Installation](/konfiguration/inbetriebnahme) with the free smart-me app.
 
@@ -15,7 +15,7 @@ The Sirius is the larger of the two devices: integrated level converter for 250 
 - Integrated power supply
 
 - Supports M-Bus devices according to EN 13757-2, -3 (formerly EN 1434-3).
-    The standard defines the protocol, but not the data it contains. Compliance with the standard alone is therefore no guarantee of actual functionality. Check our [compatibility list](/produkte/m-bus-gateway).
+    The standard defines the protocol, but not the data it contains. Compliance with the standard alone is therefore no guarantee that a device will actually work. Check our [compatibility list](/produkte/m-bus-gateway).
 
 - Billing with the [smart-me Billing Tool](/konfiguration/billing)
 
@@ -42,7 +42,7 @@ The Sirius is the larger of the two devices: integrated level converter for 250 
 | Number of M-BUS slaves | 250 standard loads |
 | M-BUS baud rate | 300, 2400, 9600 (automatic search and detection) |
 | Galvanic isolation | Yes |
-| Data storage | 131'056 readings<br />15min interval:<br />10 devices: ~136 days<br />50 devices: ~27 days<br />250 devices: ~5 days |
+| Data memory | 131'056 readings<br />15min interval:<br />10 devices: ~136 days<br />50 devices: ~27 days<br />250 devices: ~5 days |
 | Firmware update | Possible online |
 | EMC immunity | EN 61000-6-2 (industrial environment) |
 | EMC emission | EN 61000-6-3 (residential environment) |

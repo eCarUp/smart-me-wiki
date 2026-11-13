@@ -15,7 +15,7 @@ There are two possible stand solutions for the Pico charging station.
 
 <div className="bild--mitte">
 
-![Pico stand – figure 1](/img/produkte-pico-ladestation-pico-standfuss/01.jpg)
+![Pico stand – Figure 1](/img/produkte-pico-ladestation-pico-standfuss/01.jpg)
 
 </div>
 
@@ -26,7 +26,7 @@ There are two possible stand solutions for the Pico charging station.
 
 <div className="bild--mitte">
 
-![Pico stand – figure 13](/img/produkte-pico-ladestation-pico-standfuss/13.png)
+![Pico stand – Figure 13](/img/produkte-pico-ladestation-pico-standfuss/13.png)
 
 </div>
 
@@ -53,13 +53,13 @@ and one head for mounting the Picos (all heads are compatible with both stand va
 <div className="col col--6">
 
 ## Ordering Information OnePole Stand
-⚡NEW: the Pico charging station is compatible with the universal charging pole from [ONEPOLE](https://onepole.no/de). The bracket for the Pico and the charging pole can be ordered in different versions directly from the Otto Fischer webshop ➡️ [Pico bracket](https://www.ottofischer.ch/de/item/halterung-onepole-pro-fur-pico-ladestation-896511561#item-downloads) and [ONEPOLE stands](https://www.ottofischer.ch/de/catalog/standfusse-5581978?q=&expanded_filters=id_brands&brands=20630654&limit=48&sort=abc_value). For further information, please contact Otto Fischer.
+⚡NEW: the Pico charging station is compatible with the universal charging pole from [ONEPOLE](https://onepole.no/de). The bracket for the Pico and the charging pole can be ordered in various versions directly from the Otto Fischer webshop ➡️ [Pico bracket](https://www.ottofischer.ch/de/item/halterung-onepole-pro-fur-pico-ladestation-896511561#item-downloads) and [ONEPOLE stands](https://www.ottofischer.ch/de/catalog/standfusse-5581978?q=&expanded_filters=id_brands&brands=20630654&limit=48&sort=abc_value). For further information, please contact Otto Fischer.
 
 
 
-ONEPOLE stands for innovative pole solutions that impress with their modular design and high flexibility. Developed and manufactured in Norway, the products are characterised by first-class materials, excellent build quality and well-designed, innovative features. 
+ONEPOLE stands for innovative pole solutions that impress with their modular design and high flexibility. The products, developed and manufactured in Norway, are characterised by first-class materials, excellent build quality and well-thought-out, innovative features. 
 
-![Pico stand – figure 3](/img/produkte-pico-ladestation-pico-standfuss/03.jpg)
+![Pico stand – Figure 3](/img/produkte-pico-ladestation-pico-standfuss/03.jpg)
 
 </div>
 </div>
@@ -75,16 +75,16 @@ Universal stand with base plate according to the OPI-2020 standard
 
 - Mounting of 1-2 Pico charging stations.
 
-- Supply lines directly from the fuse box to the charging station.
+- Supply cables directly from the fuse box to the charging station.
 
-The stand is mounted on a concrete base with the hole pattern as per the instructions. Details under Pico downloads.
+Mounting is done on a concrete base with hole spacing according to the instructions. Details under Downloads Pico.
 
 Surface: hot-dip galvanised, powder-coated and painted in RAL 9004 signal black
 
 </div>
 <div className="col col--3 bild--mitte">
 
-![Pico stand – figure 5](/img/produkte-pico-ladestation-pico-standfuss/05.png)
+![Pico stand – Figure 5](/img/produkte-pico-ladestation-pico-standfuss/05.png)
 
 </div>
 </div>
@@ -98,10 +98,10 @@ Universal stand with base plate according to the OPI-2020 standard
 
 - Service cover for easy multiple wiring and recurring inspection
 - Space for 2 residual current circuit breakers or RCBOs, surge protection devices (SPD type 2) or other DIN rail devices.
-- Incoming and outgoing cables: max. 25mm2
+- Supply and outgoing cables: max. 25mm2
 - IP44
 - IK10
-- Cable strain relief for incoming and outgoing cables
+- Cable strain relief for supply and outgoing cables
 
 ### Scope of Delivery:
 
@@ -111,18 +111,18 @@ Universal stand with base plate according to the OPI-2020 standard
 - Terminal blocks
 - PE terminals
 
-The stand is mounted on a concrete base with the hole pattern as per the instructions. Details under Pico downloads.
+Mounting is done on a concrete base with hole spacing according to the instructions. Details under Downloads Pico.
 Surface: hot-dip galvanised, powder-coated and painted in RAL 9004 signal black
 </div>
 
 <div className="col col--3">
 
-![Pico stand – figure 4](/img/produkte-pico-ladestation-pico-standfuss/06.jpg)
+![Pico stand – Figure 4](/img/produkte-pico-ladestation-pico-standfuss/06.jpg)
 
 </div>
 <div className="col col--3 bild--mitte">
 
-![Pico stand – figure 7](/img/produkte-pico-ladestation-pico-standfuss/07.png)
+![Pico stand – Figure 7](/img/produkte-pico-ladestation-pico-standfuss/07.png)
 
 </div>
 </div>
@@ -131,7 +131,7 @@ Surface: hot-dip galvanised, powder-coated and painted in RAL 9004 signal black
 
 ### 232070-PL/PH1 and 232070-PL/PH2 Pico Stand Heads with Cable Dock
 
-In addition to the cable hook for coiling the cable, this head variant features connector holders for storing the loose end of the cable protected from water after the charging session.
+In addition to the cable hook for coiling the cable, this head variant has connector holders for storing the loose end of the cable protected from water after the charging session.
 
 This head is particularly suitable for public charging stations with a fixed cable on the charging station.
 
@@ -151,7 +151,7 @@ Contents:
 </div>
 <div className="col col--3 bild--mitte">
 
-![Pico stand – figure 8](/img/produkte-pico-ladestation-pico-standfuss/08.jpg)
+![Pico stand – Figure 8](/img/produkte-pico-ladestation-pico-standfuss/08.jpg)
 
 </div>
 </div>
@@ -170,7 +170,7 @@ Contents:
 </div>
 <div className="col col--3 bild--mitte">
 
-![Pico stand – figure 9](/img/produkte-pico-ladestation-pico-standfuss/09.jpg)
+![Pico stand – Figure 9](/img/produkte-pico-ladestation-pico-standfuss/09.jpg)
 
 </div>
 </div>
@@ -182,14 +182,14 @@ Contents:
 
 The stand foundation can be cast from concrete using the base plate information shown alongside.
 
-Alternatively, a third-party product can be produced or purchased.
+Alternatively, a third-party product can be made or purchased.
 
 [Third-party stand foundations](/drittprodukte/standfuss-fundamente)
 
 </div>
 <div className="col col--3 bild--mitte">
 
-![Pico stand – figure 12](/img/produkte-pico-ladestation-pico-standfuss/12.png)
+![Pico stand – Figure 12](/img/produkte-pico-ladestation-pico-standfuss/12.png)
 
 </div>
 </div>
@@ -198,7 +198,7 @@ Alternatively, a third-party product can be produced or purchased.
 
 ### Datasheet
 
-[German datasheet stand basic](https://docs.google.com/presentation/d/1si1w-SH3aHQU52az51RVR9HrPD0mufsLQOErdtUNBa4/export/pdf) 
+[German datasheet basic stand](https://docs.google.com/presentation/d/1si1w-SH3aHQU52az51RVR9HrPD0mufsLQOErdtUNBa4/export/pdf) 
 
 [English datasheet Pole Basic](https://docs.google.com/presentation/d/1IuYdWO0DG7WzULnhqAxexFe0gn9lXIdqZV0Ld9o1H6o/export/pdf)
 
@@ -208,7 +208,7 @@ Alternatively, a third-party product can be produced or purchased.
 
 ### Installation and Mounting Instructions
 
-[German stand basic 212070](https://docs.google.com/presentation/d/1etcIy6Ak87tHl1IKyR3vkeI8njKifNEZEblgoFnG31M/export/pdf)
+[German basic stand 212070](https://docs.google.com/presentation/d/1etcIy6Ak87tHl1IKyR3vkeI8njKifNEZEblgoFnG31M/export/pdf)
 
 [English Pole Basic 212070](https://docs.google.com/presentation/d/1E7xwrz-9SY61W5SjvSxstIjsqqrAiLNH807a-tYnoJQ/export/pdf)
 

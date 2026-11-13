@@ -478,6 +478,86 @@ den Filter nicht.
 
 ---
 
+## Eine Seite einer Rolle zuordnen
+
+Das Wiki bedient vier sehr verschiedene Leser, und oben rechts steht neben der
+Länderwahl ein zweiter Schalter dafür:
+
+| Rolle | Was sie sieht |
+| --- | --- |
+| **Installateur** (Vorgabe) | alles |
+| **Abrechnungsdienstleister** | alles zum Abrechnen: Ordner, Rechnungsstellung, VHKA-Files, Drittsysteme, Informationssicherheit |
+| **Verwalter** | Mieterwechsel, Benutzer, Tarife, Rechnung erstellen |
+| **Mieter** | seine App-Anleitung, News, Billy, FAQ, Kontakt |
+
+**Die vier sind Stufen, keine Kästchen.** Sie schachteln ineinander: Was der
+Mieter sieht, sieht der Verwalter auch, und so weiter bis zum Installateur.
+Deshalb trägt eine Seite genau eine Angabe — die **niedrigste** Rolle, die sie
+sehen darf — und keine Liste:
+
+```ts
+{type: 'doc', id: 'konfiguration/benutzerkonfiguration',
+ customProps: {rolle: 'verwalter'}},
+```
+
+Erlaubt sind `mieter`, `verwalter`, `abrechnung` und `installateur`. Beides
+zusammen geht auch:
+
+```ts
+{type: 'doc', id: 'konfiguration/billing/vewa-abrechnung',
+ customProps: {laender: ['ch'], rolle: 'abrechnung'}},
+```
+
+### Der Unterschied zur Länderwahl
+
+Hier ist es genau andersherum: **Ohne Angabe gehört eine Seite dem
+Installateur.** Das ist Absicht — die grosse Mehrheit der Seiten ist
+Installationswissen (Hardware, Planung, Inbetriebnahme, Störungen), und die
+müsste man sonst alle kennzeichnen. Eine neue Seite landet damit zunächst beim
+Installateur, bis jemand sie bewusst weiter öffnet.
+
+Zwei Regeln ersparen die Fleissarbeit:
+
+1. **Die Angabe vererbt sich nach unten.** Steht sie am Oberpunkt, gilt sie für
+   alles darin; ein Untereintrag mit eigener Angabe sticht die geerbte. An
+   „Rechnungsstellung Schweiz" steht einmal `verwalter`, und nur die
+   Einrichtungsseiten darin tragen zusätzlich `abrechnung`.
+2. **Ein Oberpunkt erscheint, sobald ein Eintrag darunter für die gewählte
+   Rolle sichtbar ist.** Die Störungsbehebung braucht keine eigene Angabe: Sie
+   taucht für den Abrechnungsdienstleister auf und zeigt ihm genau die fünf
+   Seiten, die für ihn gekennzeichnet sind.
+
+Kennzeichne also nur, was eine Seite **öffnet**, nicht, was sie zumacht.
+
+### Von aussen mit gesetzter Rolle verlinken
+
+An jede Adresse lässt sich `?rolle=verwalter` anhängen:
+
+```
+https://wiki.smart-me.com/nutzeranleitungen/verwalter?rolle=verwalter
+```
+
+Wer darüber kommt, hat die Rolle gleich eingestellt — praktisch für eine Mail
+an eine Verwaltung oder an einen Mieter. Mit `?land=` zusammen: einfach mit `&`
+verbinden.
+
+### Was der Filter nicht leistet
+
+Dasselbe wie beim Land: Er blendet nur die Navigation aus. Jede Seite bleibt
+über die Suche und über direkte Links erreichbar, und die Kachel-Übersichten
+auf den Einstiegsseiten zeigen weiterhin alles. **Der Filter ist Komfort, kein
+Zugriffsschutz** — was nicht für alle Augen bestimmt ist, gehört nicht ins
+Wiki.
+
+### Die Beschriftungen ändern oder eine Rolle ergänzen
+
+Die Rollen stehen in `src/rollen/index.ts`: ein Eintrag in `ROLLEN` mit seiner
+Stufe und ein Fall in `rollenName`. Die Namen in den anderen Sprachen liegen
+wie die Ländernamen in `i18n/en/code.json`, `i18n/fr/code.json` und
+`i18n/it/code.json` — `npm run translate` fasst diese Dateien nicht an.
+
+---
+
 ## Eine neue Seite anlegen
 
 1. Im Repository in den passenden Ordner unter `docs/` wechseln.

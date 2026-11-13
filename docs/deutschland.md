@@ -9,6 +9,8 @@ import Neuigkeiten from './_neuigkeiten.md';
 
 Diese Einstiegsseite gilt für Deutschland. Für Mieterstrom, Vertrieb und Support ist unser Tochterunternehmen smartRED dein Ansprechpartner; Hardware, Inbetriebnahme und Störungsbehebung gelten überall gleich.
 
+<Rollenwahl />
+
 ## Hilfe und Kontakt
 
 <Kacheln min="15rem">

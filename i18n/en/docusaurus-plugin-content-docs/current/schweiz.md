@@ -7,25 +7,27 @@ sidebar_label: 'Start Switzerland'
 
 import Neuigkeiten from './_neuigkeiten.md';
 
-This starting page applies to Switzerland and Liechtenstein. You can find topics such as ZEV (association for own consumption), vZEV (virtual ZEV), LEC (local electricity community) and VEWA (consumption-based energy and water cost billing) billing in the navigation on the left; hardware, commissioning and troubleshooting are the same everywhere.
+This starting page applies to Switzerland and Liechtenstein. You will find topics such as ZEV (association for own consumption), vZEV (virtual ZEV), LEC (local electricity community) and VEWA billing in the navigation on the left; hardware, commissioning and troubleshooting apply equally everywhere.
+
+<Rollenwahl />
 
 ## Help and contact
 
 <Kacheln min="15rem">
 
-<Kachel titel="Frequently asked questions" href="/faq">
+<Kachel titel="Häufige Fragen" href="/faq">
 
 Account, subscription and meters — the questions we receive most often.
 
 </Kachel>
 
-<Kachel titel="Contact Switzerland" href="/kontakt-schweiz">
+<Kachel titel="Kontakt Schweiz" href="/kontakt-schweiz">
 
 Sales, licences and technical support for Switzerland and Liechtenstein.
 
 </Kachel>
 
-<Kachel titel="Outages" href="/news/status">
+<Kachel titel="Störungen" href="/news/status">
 
 Current and resolved outages of the smart-me services.
 

@@ -7,7 +7,9 @@ sidebar_label: 'Accueil Suisse'
 
 import Neuigkeiten from './_neuigkeiten.md';
 
-Cette page d'accueil s'applique à la Suisse et au Liechtenstein. Vous trouverez dans la navigation à gauche des thèmes comme le RCP (regroupement dans le cadre de la consommation propre), le RCP virtuel (vRCP), la CEL (communauté électrique locale) et le décompte DIFEE (Décompte individuel des frais d'énergie et d'eau). Le matériel, la mise en service et le dépannage sont identiques partout.
+Cette page d'accueil s'applique à la Suisse et au Liechtenstein. Vous trouverez les thèmes tels que le RCP (regroupement dans le cadre de la consommation propre), le RCP virtuel (vRCP), la CEL (communauté électrique locale) et le décompte DIFEE (Décompte individuel des frais d'énergie et d'eau) dans la navigation à gauche ; le matériel, la mise en service et le dépannage sont identiques partout.
+
+<Rollenwahl />
 
 ## Aide et contact
 
@@ -15,7 +17,7 @@ Cette page d'accueil s'applique à la Suisse et au Liechtenstein. Vous trouverez
 
 <Kachel titel="Questions fréquentes" href="/faq">
 
-Compte, abonnement et compteurs : les questions qui nous parviennent le plus souvent.
+Compte, abonnement et compteurs — les questions qui nous parviennent le plus souvent.
 
 </Kachel>
 
@@ -25,9 +27,9 @@ Vente, licences et support technique pour la Suisse et le Liechtenstein.
 
 </Kachel>
 
-<Kachel titel="Dérangements" href="/news/status">
+<Kachel titel="Pannes" href="/news/status">
 
-Dérangements actuels et résolus des services smart-me.
+Pannes actuelles et résolues des services smart-me.
 
 </Kachel>
 

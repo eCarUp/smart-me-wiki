@@ -9,6 +9,8 @@ import Neuigkeiten from './_neuigkeiten.md';
 
 Diese Einstiegsseite gilt für die Schweiz und Liechtenstein. Themen wie ZEV, vZEV, LEG und die VEWA-Abrechnung findest du in der Navigation links; Hardware, Inbetriebnahme und Störungsbehebung gelten überall gleich.
 
+<Rollenwahl />
+
 ## Hilfe und Kontakt
 
 <Kacheln min="15rem">

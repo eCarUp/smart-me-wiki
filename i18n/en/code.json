@@ -397,6 +397,34 @@
   "landwahl.ueberschrift": {
     "message": "Country"
   },
+  "rolle.installateur": {
+    "message": "Installer",
+    "description": "Rolle im Rollenschalter: sieht alles"
+  },
+  "rolle.abrechnung": {
+    "message": "Billing service provider",
+    "description": "Rolle im Rollenschalter"
+  },
+  "rolle.verwalter": {
+    "message": "Property manager",
+    "description": "Rolle im Rollenschalter"
+  },
+  "rolle.mieter": {
+    "message": "Tenant",
+    "description": "Rolle im Rollenschalter"
+  },
+  "rollenwahl.ueberschrift": {
+    "message": "Role",
+    "description": "Beschriftung des Rollenschalters in der Kopfzeile"
+  },
+  "rollenkarte.titel": {
+    "message": "Narrow the navigation to your role",
+    "description": "Überschrift des Rollenhinweises auf den Einstiegsseiten"
+  },
+  "rollenkarte.erklaerung": {
+    "message": "Pick your role and the navigation on the left will only list what you need for your work — that saves searching. If something is missing, move up one role; the installer sees everything. You can change it at any time at the top right.",
+    "description": "Erklärung im Rollenhinweis auf den Einstiegsseiten"
+  },
   "menueweg.titel": {
     "message": "Navigation in the software"
   },

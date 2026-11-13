@@ -164,7 +164,7 @@ Affichage dans le portail
 </div>
 <div className="col col--4 bild--voll">
 
-![Erreurs Pico – Figure 3](/img/stoerungsbehebung-pico-fehler/03.png)
+![Erreurs Pico – Figure 3](/img/stoerungsbehebung-pico-fehler/03_EN.png)
 
 </div>
 </div>
@@ -307,7 +307,7 @@ Mesure :
 </div>
 <div className="col col--4 bild--voll">
 
-![Erreurs Pico – Figure 10](/img/stoerungsbehebung-pico-fehler/10.png)
+![Erreurs Pico – Figure 10](/img/stoerungsbehebung-pico-fehler/10_EN.png)
 
 </div>
 </div>

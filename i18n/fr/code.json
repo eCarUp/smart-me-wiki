@@ -397,6 +397,34 @@
   "landwahl.ueberschrift": {
     "message": "Pays"
   },
+  "rolle.installateur": {
+    "message": "Installateur",
+    "description": "Rolle im Rollenschalter: sieht alles"
+  },
+  "rolle.abrechnung": {
+    "message": "Prestataire de décompte",
+    "description": "Rolle im Rollenschalter"
+  },
+  "rolle.verwalter": {
+    "message": "Gérance",
+    "description": "Rolle im Rollenschalter"
+  },
+  "rolle.mieter": {
+    "message": "Locataire",
+    "description": "Rolle im Rollenschalter"
+  },
+  "rollenwahl.ueberschrift": {
+    "message": "Rôle",
+    "description": "Beschriftung des Rollenschalters in der Kopfzeile"
+  },
+  "rollenkarte.titel": {
+    "message": "Limiter la navigation à votre rôle",
+    "description": "Überschrift des Rollenhinweises auf den Einstiegsseiten"
+  },
+  "rollenkarte.erklaerung": {
+    "message": "Choisissez votre rôle : la navigation à gauche n’affichera plus que ce dont vous avez besoin pour votre travail — vous cherchez moins longtemps. S’il vous manque quelque chose, passez au rôle supérieur ; l’installateur voit tout. Vous pouvez changer à tout moment en haut à droite.",
+    "description": "Erklärung im Rollenhinweis auf den Einstiegsseiten"
+  },
   "menueweg.titel": {
     "message": "Navigation dans le logiciel"
   },

@@ -1,0 +1,64 @@
+/*
+ * Der Rollenhinweis steht mitten auf der Einstiegsseite, zwischen Einleitung
+ * und „Hilfe und Kontakt". Damit er dort nicht untergeht, sind die vier
+ * Schalter gross und blau — sie sollen auffallen wie eine Wahl und nicht wie
+ * eine Einstellung.
+ */
+.karte {
+  margin: 2rem 0;
+}
+
+.titel {
+  margin-bottom: 0.4rem;
+  font-size: 1.25rem;
+}
+
+.erklaerung {
+  margin-bottom: 1rem;
+  color: var(--ifm-color-emphasis-700);
+}
+
+.knoepfe {
+  display: grid;
+  gap: 0.75rem;
+  /* Gleich breite Spalten über die ganze Breite: So viele nebeneinander, wie
+     bei 10rem Mindestbreite Platz haben – auf dem Telefon also untereinander,
+     ohne feste Umbruchpunkte. */
+  grid-template-columns: repeat(auto-fit, minmax(min(10rem, 100%), 1fr));
+}
+
+.knopf {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* Doppelte Höhe einer gewöhnlichen Schaltfläche. Die Mindesthöhe statt
+     einer festen: „Abrechnungsdienstleister" bricht auf schmalen Spalten um
+     und braucht dann mehr. */
+  min-height: 5.25rem;
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--ifm-color-primary);
+  border-radius: var(--ifm-card-border-radius, 0.4rem);
+  background: var(--ifm-background-surface-color);
+  color: var(--ifm-color-primary);
+  font: inherit;
+  font-size: 1.05rem;
+  font-weight: var(--sm-fw-bold);
+  line-height: 1.3;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.knopf:hover {
+  background: var(--ifm-color-primary-contrast-background);
+  box-shadow: var(--ifm-global-shadow-lw);
+}
+
+/* Die geltende Rolle – ohne Wahl ist das der Installateur. Weiss statt der
+   Hintergrundfarbe: Das Blau bleibt in der dunklen Ansicht dasselbe, und
+   dunkle Schrift darauf wäre nicht zu lesen. */
+.gewaehlt,
+.gewaehlt:hover {
+  background: var(--ifm-color-primary);
+  color: #fff;
+}

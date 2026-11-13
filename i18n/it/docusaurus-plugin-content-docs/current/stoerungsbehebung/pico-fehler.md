@@ -164,7 +164,7 @@ Visualizzazione nel portale
 </div>
 <div className="col col--4 bild--voll">
 
-![Errori Pico – Figura 3](/img/stoerungsbehebung-pico-fehler/03.png)
+![Errori Pico – Figura 3](/img/stoerungsbehebung-pico-fehler/03_EN.png)
 
 </div>
 </div>
@@ -307,7 +307,7 @@ Misura:
 </div>
 <div className="col col--4 bild--voll">
 
-![Errori Pico – Figura 10](/img/stoerungsbehebung-pico-fehler/10.png)
+![Errori Pico – Figura 10](/img/stoerungsbehebung-pico-fehler/10_EN.png)
 
 </div>
 </div>

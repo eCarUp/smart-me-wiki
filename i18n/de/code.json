@@ -39,6 +39,34 @@
   "landwahl.ueberschrift": {
     "message": "Land"
   },
+  "rolle.installateur": {
+    "message": "Installateur",
+    "description": "Rolle im Rollenschalter: sieht alles"
+  },
+  "rolle.abrechnung": {
+    "message": "Abrechnungsdienstleister",
+    "description": "Rolle im Rollenschalter"
+  },
+  "rolle.verwalter": {
+    "message": "Verwalter",
+    "description": "Rolle im Rollenschalter"
+  },
+  "rolle.mieter": {
+    "message": "Mieter",
+    "description": "Rolle im Rollenschalter"
+  },
+  "rollenwahl.ueberschrift": {
+    "message": "Rolle",
+    "description": "Beschriftung des Rollenschalters in der Kopfzeile"
+  },
+  "rollenkarte.titel": {
+    "message": "Navigation auf deine Rolle eingrenzen",
+    "description": "Überschrift des Rollenhinweises auf den Einstiegsseiten"
+  },
+  "rollenkarte.erklaerung": {
+    "message": "Wähle deine Rolle, dann führt die Navigation links nur noch, was du für deine Arbeit brauchst — das spart Suchen. Fehlt dir etwas, nimm die nächsthöhere Rolle; der Installateur sieht alles. Ändern kannst du es jederzeit oben rechts.",
+    "description": "Erklärung im Rollenhinweis auf den Einstiegsseiten"
+  },
   "menueweg.titel": {
     "message": "Navigation in der Software",
     "description": "Überschrift über dem Menüweg durch das smart-me Portal"

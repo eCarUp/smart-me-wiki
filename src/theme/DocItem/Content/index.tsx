@@ -18,6 +18,12 @@
  *    Gesetzt wird einmal beim Öffnen der Seite, nicht bei jeder Änderung:
  *    Sonst liesse sich oben rechts auf einer Länderseite kein anderes Land
  *    mehr wählen, weil die Seite es sofort zurücksetzte.
+ *
+ * Die Rollenwahl steht ebenfalls auf den beiden Einstiegsseiten, aber nicht
+ * hier: Sie gehört mitten in den Text, zwischen Einleitung und „Hilfe und
+ * Kontakt", und das kann dieser Wrapper nicht — er kennt nur davor und
+ * danach. Im Markdown steht dafür `<Rollenwahl />`, siehe
+ * `src/theme/MDXComponents.tsx`.
  */
 import React, {useEffect, useRef} from 'react';
 import Content from '@theme-original/DocItem/Content';

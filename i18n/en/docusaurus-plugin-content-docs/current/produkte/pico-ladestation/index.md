@@ -151,7 +151,7 @@ The behaviour of the display is described on the page [Pico Display](/produkte/p
 
 ## Pico connections and dimensions
 
-![Pico EV Charger – Figure 3](/img/produkte-pico-ladestation/03.jpg)
+![Pico EV Charger – Figure 3](/img/produkte-pico-ladestation/03_EN.jpg)
 
 ### Connection diagram
 
@@ -207,7 +207,7 @@ Alternatively, load shedding can also be carried out via [multilevel load manage
 </div>
 <div className="col col--5 bild--mitte">
 
-![Pico EV Charger – Figure 5](/img/produkte-pico-ladestation/05.png)
+![Pico EV Charger – Figure 5](/img/produkte-pico-ladestation/05_EN.png)
 
 ![Pico EV Charger – Figure 6](/img/produkte-pico-ladestation/06.png)
 

@@ -397,6 +397,34 @@
   "landwahl.ueberschrift": {
     "message": "Paese"
   },
+  "rolle.installateur": {
+    "message": "Installatore",
+    "description": "Rolle im Rollenschalter: sieht alles"
+  },
+  "rolle.abrechnung": {
+    "message": "Fornitore di servizi di conteggio",
+    "description": "Rolle im Rollenschalter"
+  },
+  "rolle.verwalter": {
+    "message": "Amministrazione",
+    "description": "Rolle im Rollenschalter"
+  },
+  "rolle.mieter": {
+    "message": "Inquilino",
+    "description": "Rolle im Rollenschalter"
+  },
+  "rollenwahl.ueberschrift": {
+    "message": "Ruolo",
+    "description": "Beschriftung des Rollenschalters in der Kopfzeile"
+  },
+  "rollenkarte.titel": {
+    "message": "Limitare la navigazione al proprio ruolo",
+    "description": "Überschrift des Rollenhinweises auf den Einstiegsseiten"
+  },
+  "rollenkarte.erklaerung": {
+    "message": "Scegli il tuo ruolo: la navigazione a sinistra mostrerà solo ciò che ti serve per il tuo lavoro — così cerchi meno. Se manca qualcosa, passa al ruolo superiore; l’installatore vede tutto. Puoi cambiarlo in qualsiasi momento in alto a destra.",
+    "description": "Erklärung im Rollenhinweis auf den Einstiegsseiten"
+  },
   "menueweg.titel": {
     "message": "Navigazione nel software"
   },

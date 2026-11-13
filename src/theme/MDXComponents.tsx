@@ -7,6 +7,7 @@ import Video from '@site/src/components/Video';
 import {Kachel, Kacheln} from '@site/src/components/Kacheln';
 import Knopf from '@site/src/components/Knopf';
 import NurFuer from '@site/src/components/NurFuer';
+import RollenKarte from '@site/src/components/RollenKarte';
 
 /**
  * Global in allen Markdown-Dateien verfügbare Komponenten – so brauchen die
@@ -24,4 +25,7 @@ export default {
   Kachel,
   Knopf,
   NurFuer,
+  // Im Markdown steht `<Rollenwahl />`: Dort geht es um die Wahl,
+  // nicht um den Kasten, in dem sie steckt.
+  Rollenwahl: RollenKarte,
 };

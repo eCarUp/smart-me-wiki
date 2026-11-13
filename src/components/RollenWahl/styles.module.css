@@ -1,0 +1,27 @@
+/*
+ * Die Einträge im Menü sind Knöpfe, keine Links — sie führen nirgendwohin,
+ * sondern schalten um. Ohne diese Zurücksetzung malt der Browser sie als
+ * graue Kästchen und sie passen nicht zu den Menüs daneben.
+ */
+.eintrag {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  border: 0;
+  background: none;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+/*
+ * Die Person im Knopf der Kopfzeile sitzt mitten in einer Textzeile, neben
+ * dem Pfeil des Aufklappmenüs. `vertical-align` statt Flexbox: Docusaurus
+ * hängt diesen Pfeil als `::after` an den Link, und der verschöbe sich, wenn
+ * der Link plötzlich eine Flexbox wäre.
+ */
+.person {
+  display: inline-block;
+  margin-right: 0.3rem;
+  vertical-align: -0.2em;
+}

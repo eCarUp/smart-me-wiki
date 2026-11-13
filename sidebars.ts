@@ -4,6 +4,20 @@ import type {SidebarsConfig} from '@docusaurus/plugin-content-docs';
  * Bildet die Struktur des bisherigen Google-Sites-Wikis ab.
  * Erzeugt von scripts/migration/convert.ts – Reihenfolge und Beschriftungen
  * stammen aus der Navigation von dok.smart-me.com.
+ *
+ * Zwei Filter hängen an den Einträgen, beide in `customProps`:
+ *
+ *   laender: ['ch']      – eine Menge. Ohne Angabe gilt ein Eintrag überall.
+ *   rolle: 'verwalter'   – eine Schwelle: die niedrigste Rolle, die ihn sehen
+ *                          darf (mieter < verwalter < abrechnung <
+ *                          installateur). Ohne Angabe gehört er dem
+ *                          Installateur, der ohnehin alles sieht.
+ *
+ * Die Rolle vererbt sich nach unten, und ein Oberpunkt erscheint, sobald ein
+ * Eintrag darunter für die gewählte Rolle sichtbar ist — deshalb steht die
+ * Angabe hier nur dort, wo sie etwas öffnet. Ausgewertet wird beides in
+ * `src/theme/DocSidebarItem`; die Hintergründe stehen in `src/rollen` und
+ * `src/laender`.
  */
 const sidebars: SidebarsConfig = {
   wikiSidebar: [
@@ -15,10 +29,10 @@ const sidebars: SidebarsConfig = {
     // `displayed_sidebar: wikiSidebar`.
     //
     // Die beiden Einstiegsseiten. Wer „Alle Länder" gewählt hat, sieht beide.
-    {type: 'doc', id: 'schweiz', customProps: {laender: ['ch']}},
-    {type: 'doc', id: 'deutschland', customProps: {laender: ['de']}},
-    'support-ki-agent',
-    'faq',
+    {type: 'doc', id: 'schweiz', customProps: {laender: ['ch'], rolle: 'mieter'}},
+    {type: 'doc', id: 'deutschland', customProps: {laender: ['de'], rolle: 'mieter'}},
+    {type: 'doc', id: 'support-ki-agent', customProps: {rolle: 'mieter'}},
+    {type: 'doc', id: 'faq', customProps: {rolle: 'mieter'}},
     {
       type: 'category',
       label: 'Produkte',
@@ -98,10 +112,12 @@ const sidebars: SidebarsConfig = {
         {type: 'doc', id: 'planung/zertifizierungen-schweiz', customProps: {laender: ['ch']}},
         {type: 'doc', id: 'planung/zertifizierungen-deutschland', customProps: {laender: ['de']}},
         'planung/cloud-lizenzen',
-        {type: 'doc', id: 'planung/abrechnung-vorbereiten', customProps: {laender: ['ch']}},
+        {type: 'doc', id: 'planung/abrechnung-vorbereiten',
+         customProps: {laender: ['ch'], rolle: 'verwalter'}},
         {type: 'doc', id: 'planung/internetverbindung', customProps: {laender: ['ch']}},
         {type: 'doc', id: 'planung/internetverbindung-deutschland', customProps: {laender: ['de']}},
-        {type: 'doc', id: 'planung/vertrag-rechtliches', customProps: {laender: ['ch']}},
+        {type: 'doc', id: 'planung/vertrag-rechtliches',
+         customProps: {laender: ['ch'], rolle: 'verwalter'}},
         {type: 'doc', id: 'planung/messkonzept-notstromloesung', customProps: {laender: ['ch']}},
         {type: 'doc', id: 'planung/messkonzept-produzenten-hinter-haeuser', customProps: {laender: ['ch']}},
         {type: 'doc', id: 'planung/minergie', customProps: {laender: ['ch']}},
@@ -142,6 +158,9 @@ const sidebars: SidebarsConfig = {
         {
           type: 'category',
           label: 'Ordnerkonfiguration',
+          // Ordner anlegen und Zähler einhängen ist Sache des
+          // Abrechnungsdienstleisters; die Verwaltung erbt davon nichts.
+          customProps: {rolle: 'abrechnung'},
           link: {type: 'doc', id: 'konfiguration/ordnerkonfiguration/index'},
           items: [
             // Die Ordnerkonfiguration selbst gilt überall – welche Struktur
@@ -175,15 +194,24 @@ const sidebars: SidebarsConfig = {
           link: {type: 'doc', id: 'konfiguration/billing/index'},
           // Die ganze Kategorie gilt für die Schweiz – ZEV, VEWA, MWST. Die
           // Kennzeichnung steht am Oberpunkt, die Seiten darin erben sie.
-          customProps: {laender: ['ch']},
+          //
+          // Dasselbe für die Rolle: Die Verwaltung führt den Betrieb –
+          // Mieter, Tarife, Zahlungsdaten, VEWA, MWST und die Rechnung
+          // selbst. Nur die Einrichtung dahinter gehört dem
+          // Abrechnungsdienstleister und ist an den drei Seiten mit
+          // `rolle: 'abrechnung'` enger gefasst.
+          customProps: {laender: ['ch'], rolle: 'verwalter'},
           // Reihenfolge wie der Ablauf: Die Seiten stehen hier in genau der
           // Folge, in der die Schrittkette durch sie führt (siehe das
           // Frontmatter `naechste_schritte` und `<Ablauf>` auf der
           // Einstiegsseite). Wer links liest statt zu klicken, liest dasselbe.
           items: [
-            'konfiguration/billing/einstellungen',
-            'konfiguration/billing/konfiguration-rechnungsstellung',
-            'konfiguration/billing/zaehler-zuweisen',
+            {type: 'doc', id: 'konfiguration/billing/einstellungen',
+             customProps: {rolle: 'abrechnung'}},
+            {type: 'doc', id: 'konfiguration/billing/konfiguration-rechnungsstellung',
+             customProps: {rolle: 'abrechnung'}},
+            {type: 'doc', id: 'konfiguration/billing/zaehler-zuweisen',
+             customProps: {rolle: 'abrechnung'}},
             'konfiguration/billing/zahlungsdaten-erfassen',
             'konfiguration/billing/mieterspiegel-erfassen',
             {
@@ -209,7 +237,9 @@ const sidebars: SidebarsConfig = {
           // Die Namen müssen sich unterscheiden – Docusaurus bildet aus dem
           // Label den Übersetzungsschlüssel, und zwei gleiche Labels
           // kollidieren beim Bauen der anderen Sprachen.
-          customProps: {laender: ['de']},
+          //
+          // Rollen wie in der Schweizer Kategorie, siehe dort.
+          customProps: {laender: ['de'], rolle: 'verwalter'},
           // Reihenfolge wie der Ablauf, genau wie bei der Schweizer Kategorie.
           //
           // „Zähler zuweisen" steht bewusst zweimal in dieser Datei: Die Seite
@@ -219,16 +249,21 @@ const sidebars: SidebarsConfig = {
           // `leseLaender()` in plugins/schrittkette vereinigt die beiden
           // Kennzeichnungen zu ['ch', 'de'].
           items: [
-            'konfiguration/billing-deutschland/einstellungen',
-            'konfiguration/billing-deutschland/konfiguration-rechnungsstellung',
-            'konfiguration/billing/zaehler-zuweisen',
+            {type: 'doc', id: 'konfiguration/billing-deutschland/einstellungen',
+             customProps: {rolle: 'abrechnung'}},
+            {type: 'doc', id: 'konfiguration/billing-deutschland/konfiguration-rechnungsstellung',
+             customProps: {rolle: 'abrechnung'}},
+            {type: 'doc', id: 'konfiguration/billing/zaehler-zuweisen',
+             customProps: {rolle: 'abrechnung'}},
             'konfiguration/billing-deutschland/mieterspiegel-erfassen',
             'konfiguration/billing-deutschland/stromtarife-definieren',
             'konfiguration/billing-deutschland/sonstige-kosten',
             'konfiguration/billing-deutschland/rechnung-erstellen',
           ],
         },
-        'konfiguration/benutzerkonfiguration',
+        // Mieterwechsel und Subaccounts: das tägliche Geschäft der
+        // Verwaltung.
+        {type: 'doc', id: 'konfiguration/benutzerkonfiguration', customProps: {rolle: 'verwalter'}},
         'konfiguration/visualisierung',
         'konfiguration/my-dashboards',
         {
@@ -241,30 +276,45 @@ const sidebars: SidebarsConfig = {
         },
         'konfiguration/firmware-update',
         'konfiguration/technische-tools',
-        'konfiguration/applab',
+        {type: 'doc', id: 'konfiguration/applab', customProps: {rolle: 'verwalter'}},
       ],
     },
     {
       type: 'category',
       label: 'Störungsbehebung',
+      // Ohne Kennzeichnung bleibt der Oberpunkt beim Installateur – er
+      // erscheint aber trotzdem, sobald eine Seite darin für eine andere
+      // Rolle gekennzeichnet ist, und zeigt dann nur diese. Das sind die
+      // fünf, die im Betrieb und beim Abrechnen aufkommen; Pico, M-Bus,
+      // Telstar und Lastmanagement bleiben beim Installateur.
       items: [
-        'stoerungsbehebung/zaehler-offline',
+        {type: 'doc', id: 'stoerungsbehebung/zaehler-offline',
+         customProps: {rolle: 'verwalter'}},
         'stoerungsbehebung/pico-fehler',
         'stoerungsbehebung/multilevel-lastmanagement-fehlermeldung',
-        'stoerungsbehebung/billing-fehlermeldungen',
+        {type: 'doc', id: 'stoerungsbehebung/billing-fehlermeldungen',
+         customProps: {rolle: 'verwalter'}},
         'stoerungsbehebung/telstar-ct-inbetriebnahmefehler',
         'stoerungsbehebung/m-bus-gateway-stoerungen',
-        'stoerungsbehebung/differenzen-mit-dem-ew',
+        {type: 'doc', id: 'stoerungsbehebung/differenzen-mit-dem-ew',
+         customProps: {rolle: 'verwalter'}},
         'stoerungsbehebung/visualisierungsfehler',
-        'stoerungsbehebung/auto-export-fehler',
+        {type: 'doc', id: 'stoerungsbehebung/auto-export-fehler',
+         customProps: {rolle: 'verwalter'}},
         'stoerungsbehebung/virtueller-zaehler-fehler',
-        'stoerungsbehebung/csv-zahlen-richtig-formatieren',
+        {type: 'doc', id: 'stoerungsbehebung/csv-zahlen-richtig-formatieren',
+         customProps: {rolle: 'verwalter'}},
         'stoerungsbehebung/systemgesundheit',
       ],
     },
     {
       type: 'category',
       label: 'Drittsysteme',
+      // Die ganze Kategorie, nicht nur die Abrechnungspartner darin: Die
+      // Verwaltung sucht hier ihr eigenes Verwaltungsprogramm, wer
+      // abrechnet zusätzlich den Wechselrichter, dessen Zahlen in der
+      // Rechnung landen.
+      customProps: {rolle: 'verwalter'},
       link: {type: 'doc', id: 'drittsysteme/index'},
       items: [
         'drittsysteme/nebenkostenabrechnung',
@@ -312,8 +362,8 @@ const sidebars: SidebarsConfig = {
       label: 'Schnittstellen',
       items: [
         'schnittstellen/ein-und-ausgaenge',
-        'schnittstellen/api',
-        'schnittstellen/ai-connector',
+        {type: 'doc', id: 'schnittstellen/api', customProps: {rolle: 'verwalter'}},
+        {type: 'doc', id: 'schnittstellen/ai-connector', customProps: {rolle: 'verwalter'}},
         'schnittstellen/auto-export',
         {type: 'doc', id: 'schnittstellen/ebix-datenimport', customProps: {laender: ['ch']}},
         {type: 'doc', id: 'schnittstellen/swisseldex-sdat-import', customProps: {laender: ['ch']}},
@@ -322,7 +372,7 @@ const sidebars: SidebarsConfig = {
           label: 'DTA-VHKA Files',
           link: {type: 'doc', id: 'schnittstellen/dta-vhka-files/index'},
           // Am Oberpunkt gesetzt: Damit verschwinden die drei Unterseiten mit.
-          customProps: {laender: ['ch']},
+          customProps: {laender: ['ch'], rolle: 'verwalter'},
           items: [
             'schnittstellen/dta-vhka-files/abaimmo',
             'schnittstellen/dta-vhka-files/garaio-rem',
@@ -339,13 +389,17 @@ const sidebars: SidebarsConfig = {
       type: 'category',
       label: 'Nutzeranleitungen',
       items: [
-        'nutzeranleitungen/mieter',
-        'nutzeranleitungen/verwalter',
+        // Die Mieteranleitung sieht jeder – der Mieter, weil sie für ihn
+        // geschrieben ist, die Verwaltung, weil sie sie ihren Mietern
+        // erklärt.
+        {type: 'doc', id: 'nutzeranleitungen/mieter', customProps: {rolle: 'mieter'}},
+        {type: 'doc', id: 'nutzeranleitungen/verwalter', customProps: {rolle: 'verwalter'}},
       ],
     },
     {
       type: 'category',
       label: 'Informationssicherheit',
+      customProps: {rolle: 'abrechnung'},
       items: [
         'informationssicherheit/datensicherheit',
         'informationssicherheit/zaehlertransaktionen',
@@ -358,6 +412,9 @@ const sidebars: SidebarsConfig = {
     {
       type: 'category',
       label: 'News',
+      // Für alle, Firmware-Meldungen eingeschlossen: Wer eine Störung
+      // sucht, sucht sie in jeder Rolle.
+      customProps: {rolle: 'mieter'},
       items: [
         'news/firmware-release-notes',
         'news/app-release-notes',
@@ -373,8 +430,8 @@ const sidebars: SidebarsConfig = {
         'news/status/index',
       ],
     },
-    {type: 'doc', id: 'kontakt-schweiz', customProps: {laender: ['ch']}},
-    {type: 'doc', id: 'kontakt-deutschland', customProps: {laender: ['de']}},
+    {type: 'doc', id: 'kontakt-schweiz', customProps: {laender: ['ch'], rolle: 'mieter'}},
+    {type: 'doc', id: 'kontakt-deutschland', customProps: {laender: ['de'], rolle: 'mieter'}},
   ],
 };
 

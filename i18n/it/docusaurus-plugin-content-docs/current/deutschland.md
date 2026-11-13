@@ -1,31 +1,33 @@
 ---
 title: 'smart-me Wiki Germania'
 slug: '/deutschland'
-description: 'Punto di accesso per la Germania: novità, aiuto e contatto.'
+description: 'Punto di partenza per la Germania: novità, assistenza e contatti.'
 sidebar_label: 'Inizio Germania'
 ---
 
 import Neuigkeiten from './_neuigkeiten.md';
 
-Questa pagina iniziale vale per la Germania. Per l'elettricità per gli inquilini, la vendita e il supporto, il vostro interlocutore è la nostra società affiliata smartRED; hardware, messa in servizio e risoluzione dei problemi sono uguali ovunque.
+Questa pagina iniziale vale per la Germania. Per l'elettricità per gli inquilini, la vendita e l'assistenza, il tuo interlocutore è la nostra società affiliata smartRED; hardware, messa in servizio e risoluzione dei problemi sono uguali ovunque.
 
-## Aiuto e contatto
+<Rollenwahl />
+
+## Assistenza e contatti
 
 <Kacheln min="15rem">
 
-<Kachel titel="Domande frequenti" href="/faq">
+<Kachel titel="Häufige Fragen" href="/faq">
 
-Account, abbonamento e contatori — le domande che ci arrivano più spesso.
-
-</Kachel>
-
-<Kachel titel="Contatto Germania" href="/kontakt-deutschland">
-
-Vendita e supporto per la Germania tramite smartRED.
+Account, abbonamento e contatori: le domande che riceviamo più spesso.
 
 </Kachel>
 
-<Kachel titel="Guasti" href="/news/status">
+<Kachel titel="Kontakt Deutschland" href="/kontakt-deutschland">
+
+Vendita e assistenza per la Germania tramite smartRED.
+
+</Kachel>
+
+<Kachel titel="Störungen" href="/news/status">
 
 Guasti attuali e risolti dei servizi smart-me.
 

@@ -164,7 +164,7 @@ Display in the portal
 </div>
 <div className="col col--4 bild--voll">
 
-![Pico errors – Figure 3](/img/stoerungsbehebung-pico-fehler/03.png)
+![Pico errors – Figure 3](/img/stoerungsbehebung-pico-fehler/03_EN.png)
 
 </div>
 </div>
@@ -307,7 +307,7 @@ Action:
 </div>
 <div className="col col--4 bild--voll">
 
-![Pico errors – Figure 10](/img/stoerungsbehebung-pico-fehler/10.png)
+![Pico errors – Figure 10](/img/stoerungsbehebung-pico-fehler/10_EN.png)
 
 </div>
 </div>

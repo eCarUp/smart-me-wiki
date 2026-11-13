@@ -153,6 +153,10 @@ const config: Config = {
           label: 'Wiki',
         },
         {
+          type: 'custom-rollenWahl',
+          position: 'right',
+        },
+        {
           type: 'custom-landWahl',
           position: 'right',
         },

@@ -9,13 +9,15 @@ import Neuigkeiten from './_neuigkeiten.md';
 
 Cette page d'accueil s'applique à l'Allemagne. Pour l'électricité pour les locataires, la vente et le support, notre filiale smartRED est votre interlocuteur ; le matériel, la mise en service et le dépannage sont identiques partout.
 
+<Rollenwahl />
+
 ## Aide et contact
 
 <Kacheln min="15rem">
 
 <Kachel titel="Questions fréquentes" href="/faq">
 
-Compte, abonnement et compteurs — les questions qui nous parviennent le plus souvent.
+Compte, abonnement et compteur : les questions que nous recevons le plus souvent.
 
 </Kachel>
 
@@ -25,9 +27,9 @@ Vente et support pour l'Allemagne via smartRED.
 
 </Kachel>
 
-<Kachel titel="Perturbations" href="/news/status">
+<Kachel titel="Pannes" href="/news/status">
 
-Perturbations actuelles et résolues des services smart-me.
+Pannes actuelles et résolues des services smart-me.
 
 </Kachel>
 

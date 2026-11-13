@@ -9,6 +9,8 @@ import Neuigkeiten from './_neuigkeiten.md';
 
 This starting page applies to Germany. For tenant electricity, sales and support, our subsidiary smartRED is your point of contact; hardware, commissioning and troubleshooting are the same everywhere.
 
+<Rollenwahl />
+
 ## Help and contact
 
 <Kacheln min="15rem">

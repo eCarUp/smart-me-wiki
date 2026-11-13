@@ -55,9 +55,9 @@
     "message": "Multilevel Load Management",
     "description": "The label for category 'Multilevel Lastmanagement' in sidebar 'wikiSidebar'"
   },
-  "sidebar.wikiSidebar.category.Stoerungsbehebung": {
+  "sidebar.wikiSidebar.category.Störungsbehebung": {
     "message": "Troubleshooting",
-    "description": "The label for category 'Stoerungsbehebung' in sidebar 'wikiSidebar'"
+    "description": "The label for category 'Störungsbehebung' in sidebar 'wikiSidebar'"
   },
   "sidebar.wikiSidebar.category.Drittsysteme": {
     "message": "Third-Party Systems",
@@ -100,11 +100,11 @@
     "description": "The label for category 'M-Bus Gateways' in sidebar 'wikiSidebar'"
   },
   "sidebar.wikiSidebar.category.Rechnungsstellung Schweiz": {
-    "message": "Rechnungsstellung Schweiz",
+    "message": "Billing Switzerland",
     "description": "The label for category 'Rechnungsstellung Schweiz' in sidebar 'wikiSidebar'"
   },
   "sidebar.wikiSidebar.category.Rechnungsstellung Mieterstrom": {
-    "message": "Rechnungsstellung Mieterstrom",
+    "message": "Billing Tenant Electricity",
     "description": "The label for category 'Rechnungsstellung Mieterstrom' in sidebar 'wikiSidebar'"
   }
 }

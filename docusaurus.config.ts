@@ -34,7 +34,10 @@ const config: Config = {
 
   i18n: {
     defaultLocale: 'de',
-    locales: ['de', 'en', 'fr', 'it'],
+    // Reihenfolge im Sprachmenü: zuerst die Landessprachen der Schweiz,
+    // Englisch zuletzt. Die Liste bestimmt nur die Anzeige, nicht die
+    // Adressen — jede Sprache behält ihr Kürzel im Pfad.
+    locales: ['de', 'fr', 'it', 'en'],
     localeConfigs: {
       de: {label: 'Deutsch', htmlLang: 'de-CH'},
       en: {label: 'English', htmlLang: 'en'},

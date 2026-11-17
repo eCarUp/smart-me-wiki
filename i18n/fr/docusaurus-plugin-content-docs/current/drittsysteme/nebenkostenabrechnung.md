@@ -1,35 +1,35 @@
 ---
 title: 'Prestataires RCP, décompte des frais de chauffage et des charges accessoires'
 slug: '/drittsysteme/nebenkostenabrechnung'
-description: 'Pour utiliser les données de compteur de smart-me dans un décompte des charges accessoires, les compteurs doivent disposer d''une licence Professional.'
+description: 'Pour utiliser les données de compteurs smart-me dans un décompte des charges accessoires, les compteurs ont besoin d''une licence Professional.'
 sidebar_label: 'Prestataires charges accessoires'
 ---
-Pour utiliser les données de compteur de smart-me dans un décompte des charges accessoires, les compteurs doivent disposer d'une licence Professional.
+Pour utiliser les données de compteurs smart-me dans un décompte des charges accessoires, les compteurs ont besoin d'une licence Professional.
 
 [EN](https://doc.smart-me.com/third-party-systems/service-charge-settlement)
 
-Les prestataires suivants proposent des services de décompte basés sur notre plateforme smart-me. Ils reprennent également des installations qu'ils n'ont pas installées eux-mêmes et proposent, sur demande, uniquement le décompte.
+Les prestataires suivants proposent des services de décompte basés sur notre plateforme smart-me. Ils reprennent aussi des installations qu'ils n'ont pas installées eux-mêmes et proposent, sur demande, uniquement le décompte.
 
-## Services hautement automatisés/spécialisés avec Autobill :
+## Prestations hautement automatisées/spécialisées avec Autobill :
 
 <Kacheln min="22rem">
 
 <Kachel bild="/img/drittsysteme-nebenkostenabrechnung/01.png" titel="smart-me AG">
 
-Avec autobill, le décompte d'énergie passe d'une charge administrative chronophage à un service entièrement automatisé, qui prend tout en charge, de la mesure jusqu'à l'encaissement.
+Avec autobill, le décompte d'énergie passe d'une charge administrative chronophage à un service entièrement automatisé qui prend tout en charge, de la mesure jusqu'à l'encaissement.
 
 Riedstrasse 18, CH-6343 Rotkreuz · +41 41 511 09 99
 
 [autobill.ch](https://autobill.ch/) · [info@smart-me.com](mailto:info@smart-me.com)
 
-**Service Autobill**
+**Prestation Autobill**
 
 - Toujours en collaboration avec un partenaire smart-me (formation suivie)
 - Respect du schéma de mesure smart-me
 - Décompte uniquement avec du matériel smart-me
 - Configuration du module 1 par smart-me
 - Facturation RCP (regroupement dans le cadre de la consommation propre), max. 4x par an
-- Facturation DIFEE (Décompte individuel des frais d'énergie et d'eau) 1x par an (sans acompte)
+- Facturation DIFEE (Décompte individuel des frais d'énergie et d'eau) 1x par an (sans acomptes)
 - Durée minimale de 2 ans
 
 </Kachel>
@@ -48,6 +48,21 @@ Hauptstrasse 48, CH-6277 Kleinwangen · +41 41 510 06 25
 
 </Kachel>
 
+<Kachel bild="/img/drittsysteme-nebenkostenabrechnung/25.png" titel="ensawe ag">
+
+Bahnhofstrasse 73, CH-8887 Mels · +41 81 599 52 26
+
+[www.ensawe.ch](https://www.ensawe.ch/) · [info@ensawe.ch](mailto:info@ensawe.ch)
+
+- Services pour les clients finaux et les communautés de propriétaires par étages
+- Décomptes d'électricité pour les gérances immobilières
+- Décomptes de chaleur, d'eau, de froid, de gaz et d'électromobilité
+- Installation des dispositifs de mesure
+- Conseil pour les installations photovoltaïques
+- Encaissement des décomptes
+
+</Kachel>
+
 <Kachel bild="/img/drittsysteme-nebenkostenabrechnung/03.png" titel="Gerber AG Elektro + Energietechnik">
 
 Allmendingenweg 11, CH-3073 Gümligen · +41 31 950 60 70
@@ -56,11 +71,11 @@ Allmendingenweg 11, CH-3073 Gümligen · +41 31 950 60 70
 
 - Décompte indépendant du matériel (interface avec smart-me)
 - Envoi des factures par e-mail ou par courrier
-- Assistance pour la conception des tarifs
+- Soutien pour la conception des tarifs
 - Conseil en optimisation énergétique
-- Décompte pour RCP, vRCP et CEL (communauté électrique locale) (jusqu'à 4× par an)
+- Décompte pour RCP, vRCP et CEL (jusqu'à 4× par an)
 - En option : préparation des données pour l'exploitation Minergie
-- En option : service de piquet 24h par télémaintenance
+- En option : service de piquet 24h avec maintenance à distance
 - En option : mise à disposition d'un accès Internet
 
 </Kachel>
@@ -71,8 +86,8 @@ Blattenbach 8, CH-8636 Wald · +41 55 266 11 33
 
 [honegger.com](https://honegger.com/) · [info@honegger.com](mailto:info@honegger.com)
 
-- Décompte des installations E-Mobility, RCP et vRCP installées par nos soins
-- Nous planifions, réalisons et assurons le suivi de tout, d'une seule source
+- Décompte d'installations E-Mobility, RCP & vRCP installées par nos soins
+- Nous planifions, construisons et assurons le suivi de tout, d'une seule main
 - Décompte uniquement avec du matériel smart-me
 - Facturation trimestrielle
 - Durée minimale selon accord
@@ -88,7 +103,7 @@ Zürichstrasse 68, CH-6004 Luzern · +41 41 562 39 61
 - Décompte avec du matériel smart-me ou des fichiers SDAT
 - Configuration du module 1 par Liveno
 - Facturation RCP, max. 4x par an
-- Facturation DIFEE 1x par an (sans acompte)
+- Facturation DIFEE 1x par an (sans acomptes)
 
 </Kachel>
 
@@ -121,7 +136,7 @@ Morillonstrasse 77, CH-3007 Bern
 
 [info@blockstrom.com](mailto:info@blockstrom.com)
 
-encaissement en option
+en option avec encaissement
 
 </Kachel>
 
@@ -209,7 +224,7 @@ Route du Pissot 2, CH-1847 Rennaz
 
 [info@mg-partners.ch](mailto:info@mg-partners.ch)
 
-Prestation de service en français — prestation de service en français
+Prestation de service en français
 
 </Kachel>
 
@@ -251,7 +266,7 @@ Ebenaustrasse 10, CH-6048 Horw
 
 <Kachel bild="/img/drittsysteme-nebenkostenabrechnung/18.png" titel="Schibli AG">
 
-Centre de compétences Énergies renouvelables
+Centre de compétence Énergies renouvelables
 
 Klosbachstrasse 67, CH-8032 Zürich
 

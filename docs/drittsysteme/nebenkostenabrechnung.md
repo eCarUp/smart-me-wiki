@@ -48,6 +48,21 @@ Hauptstrasse 48, CH-6277 Kleinwangen · +41 41 510 06 25
 
 </Kachel>
 
+<Kachel bild="/img/drittsysteme-nebenkostenabrechnung/25.png" titel="ensawe ag">
+
+Bahnhofstrasse 73, CH-8887 Mels · +41 81 599 52 26
+
+[www.ensawe.ch](https://www.ensawe.ch/) · [info@ensawe.ch](mailto:info@ensawe.ch)
+
+- Dienstleistungen für Endkunden und Stockwerkeigentumsgemeinschaften
+- Stromabrechnungen für Immobilienverwaltungen
+- Wärme-, Wasser-, Kälte-, Gas- und E-Mobilitäts-Abrechnungen
+- Installation der Messeinrichtungen
+- Beratung für Photovoltaikanlagen
+- Inkasso der Abrechnungen
+
+</Kachel>
+
 <Kachel bild="/img/drittsysteme-nebenkostenabrechnung/03.png" titel="Gerber AG Elektro + Energietechnik">
 
 Allmendingenweg 11, CH-3073 Gümligen · +41 31 950 60 70

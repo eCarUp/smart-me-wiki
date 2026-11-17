@@ -2,7 +2,7 @@
 title: 'Fornitori di servizi RCP, conteggio delle spese di riscaldamento e accessorie'
 slug: '/drittsysteme/nebenkostenabrechnung'
 description: 'Per utilizzare i dati dei contatori smart-me in un conteggio delle spese accessorie, i contatori necessitano di una licenza Professional.'
-sidebar_label: 'Fornitori di servizi spese accessorie'
+sidebar_label: 'Fornitori servizi spese accessorie'
 ---
 Per utilizzare i dati dei contatori smart-me in un conteggio delle spese accessorie, i contatori necessitano di una licenza Professional.
 
@@ -27,7 +27,7 @@ Riedstrasse 18, CH-6343 Rotkreuz · +41 41 511 09 99
 - Sempre insieme a un partner smart-me (formazione frequentata)
 - Rispetto dello schema di misura smart-me
 - Conteggio solo con hardware smart-me
-- Configurazione del modulo 1 a cura di smart-me
+- Configurazione modulo 1 da parte di smart-me
 - Fatturazione RCP (raggruppamento ai fini del consumo proprio), max. 4x all'anno
 - Fatturazione CISE (Conteggio individuale delle spese dell'energia e dell'acqua) 1x all'anno (senza acconto)
 - Durata minima 2 anni
@@ -43,8 +43,23 @@ Hauptstrasse 48, CH-6277 Kleinwangen · +41 41 510 06 25
 - Conteggio RCP, RCP virtuale (vRCP) ed E-Mobility
 - Conteggio e incasso incl. configurazione del portale
 - Fatturazione fino a 4× all'anno
-- Conteggio CISE per millesimi 1× all'anno
+- Conteggio CISE in per mille 1× all'anno
 - Esercizio esclusivamente con hardware smart-me
+
+</Kachel>
+
+<Kachel bild="/img/drittsysteme-nebenkostenabrechnung/25.png" titel="ensawe ag">
+
+Bahnhofstrasse 73, CH-8887 Mels · +41 81 599 52 26
+
+[www.ensawe.ch](https://www.ensawe.ch/) · [info@ensawe.ch](mailto:info@ensawe.ch)
+
+- Servizi per clienti finali e comunioni di proprietari per piani
+- Conteggi dell'elettricità per amministrazioni immobiliari
+- Conteggi di calore, acqua, freddo, gas ed E-Mobility
+- Installazione degli apparecchi di misura
+- Consulenza per impianti fotovoltaici
+- Incasso dei conteggi
 
 </Kachel>
 
@@ -60,7 +75,7 @@ Allmendingenweg 11, CH-3073 Gümligen · +41 31 950 60 70
 - Consulenza per l'ottimizzazione energetica
 - Conteggio per RCP, vRCP e CEL (comunità elettrica locale) (fino a 4× all'anno)
 - Opzionale: preparazione dei dati per l'esercizio Minergie
-- Opzionale: servizio di picchetto 24h per la manutenzione a distanza
+- Opzionale: servizio di picchetto 24h con manutenzione remota
 - Opzionale: messa a disposizione dell'accesso a Internet
 
 </Kachel>
@@ -72,10 +87,10 @@ Blattenbach 8, CH-8636 Wald · +41 55 266 11 33
 [honegger.com](https://honegger.com/) · [info@honegger.com](mailto:info@honegger.com)
 
 - Conteggio di impianti E-Mobility, RCP e vRCP installati da noi stessi
-- Pianifichiamo, realizziamo e seguiamo tutto da un unico fornitore
+- Pianifichiamo, realizziamo e assistiamo tutto da un unico fornitore
 - Conteggio solo con hardware smart-me
 - Fatturazione trimestrale
-- Durata minima da concordare
+- Durata minima previo accordo
 
 </Kachel>
 
@@ -86,7 +101,7 @@ Zürichstrasse 68, CH-6004 Luzern · +41 41 562 39 61
 [liveno.ch](https://liveno.ch/) · [info@liveno.ch](mailto:info@liveno.ch)
 
 - Conteggio con hardware smart-me o file SDAT
-- Configurazione del modulo 1 a cura di Liveno
+- Configurazione modulo 1 da parte di Liveno
 - Fatturazione RCP, max. 4x all'anno
 - Fatturazione CISE 1x all'anno (senza acconto)
 
@@ -121,7 +136,7 @@ Morillonstrasse 77, CH-3007 Bern
 
 [info@blockstrom.com](mailto:info@blockstrom.com)
 
-opzionale con incasso
+opzionalmente con incasso
 
 </Kachel>
 
@@ -171,7 +186,7 @@ Grubenstrasse 7b, CH-3322 Urtenen-Schönbühl
 
 [info@enicon.ch](mailto:info@enicon.ch)
 
-Referente Urs Mori
+Persona di contatto Urs Mori
 
 </Kachel>
 
@@ -277,7 +292,7 @@ Delehala 36, LIE-9493 Mauren
 
 </Kacheln>
 
-## Software compatibile per il conteggio delle spese di riscaldamento e accessorie senza servizio
+## Software compatibili per il conteggio delle spese di riscaldamento e accessorie senza servizio
 
 <Kacheln min="12rem">
 
@@ -303,7 +318,7 @@ Delehala 36, LIE-9493 Mauren
 
 [www.limmobi.ch](http://www.limmobi.ch)
 
-[Documentazione dell'integrazione](/drittsysteme/limmobi)
+[Documentazione integrazione](/drittsysteme/limmobi)
 
 </Kachel>
 

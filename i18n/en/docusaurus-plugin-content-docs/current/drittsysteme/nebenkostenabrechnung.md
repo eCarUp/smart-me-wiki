@@ -1,16 +1,16 @@
 ---
-title: 'Service Providers for ZEV, Heating/Ancillary Cost Billing'
+title: 'ZEV service providers, heating/ancillary costs billing'
 slug: '/drittsysteme/nebenkostenabrechnung'
-description: 'To use smart-me meter data in an ancillary cost billing, the meters require a Professional license.'
-sidebar_label: 'Ancillary Cost Service Providers'
+description: 'To use smart-me meter data in an ancillary costs billing, the meters require a Professional licence.'
+sidebar_label: 'Ancillary costs service providers'
 ---
-To use smart-me meter data in an ancillary cost billing, the meters require a Professional license.
+To use smart-me meter data in an ancillary costs billing, the meters require a Professional licence.
 
 [EN](https://doc.smart-me.com/third-party-systems/service-charge-settlement)
 
 The following service providers offer billing services based on our smart-me platform. They also take on installations they did not install themselves and, on request, offer billing only for these.
 
-## Highly Automated/Specialized Services with Autobill:
+## Highly automated/specialised services with Autobill:
 
 <Kacheln min="22rem">
 
@@ -24,7 +24,7 @@ Riedstrasse 18, CH-6343 Rotkreuz · +41 41 511 09 99
 
 **Autobill service**
 
-- Always together with a smart-me partner (training completed)
+- Always together with a smart-me partner (training attended)
 - Compliance with the smart-me metering concept
 - Billing only with smart-me hardware
 - Module 1 configuration by smart-me
@@ -48,6 +48,21 @@ Hauptstrasse 48, CH-6277 Kleinwangen · +41 41 510 06 25
 
 </Kachel>
 
+<Kachel bild="/img/drittsysteme-nebenkostenabrechnung/25.png" titel="ensawe ag">
+
+Bahnhofstrasse 73, CH-8887 Mels · +41 81 599 52 26
+
+[www.ensawe.ch](https://www.ensawe.ch/) · [info@ensawe.ch](mailto:info@ensawe.ch)
+
+- Services for end customers and condominium owners' associations
+- Electricity billing for property management companies
+- Heat, water, cooling, gas and e-mobility billing
+- Installation of metering equipment
+- Consulting for photovoltaic systems
+- Debt collection for the bills
+
+</Kachel>
+
 <Kachel bild="/img/drittsysteme-nebenkostenabrechnung/03.png" titel="Gerber AG Elektro + Energietechnik">
 
 Allmendingenweg 11, CH-3073 Gümligen · +41 31 950 60 70
@@ -57,7 +72,7 @@ Allmendingenweg 11, CH-3073 Gümligen · +41 31 950 60 70
 - Hardware-independent billing (interface to smart-me)
 - Invoices sent by e-mail or post
 - Support with tariff design
-- Advice on energy optimization
+- Consulting on energy optimisation
 - Billing for ZEV, vZEV and LEC (up to 4× per year)
 - Optional: data preparation for Minergie operation
 - Optional: 24h on-call remote maintenance service
@@ -72,7 +87,7 @@ Blattenbach 8, CH-8636 Wald · +41 55 266 11 33
 [honegger.com](https://honegger.com/) · [info@honegger.com](mailto:info@honegger.com)
 
 - Billing of self-installed e-mobility, ZEV & vZEV installations
-- We plan, build and maintain everything from a single source
+- We plan, build and support everything from a single source
 - Billing only with smart-me hardware
 - Quarterly billing
 - Minimum term by arrangement
@@ -100,14 +115,14 @@ Kirchstrasse 18, CH-9200 Gossau SG · +41 71 388 20 10
 
 - Complete solution with installation and billing service for ZEV, vZEV, LEC and e-mobility
 - Billing for ZEV, vZEV, LEC and e-mobility
-- VEWA ancillary cost billing
-- Energy optimization
+- VEWA ancillary costs billing
+- Energy optimisation
 
 </Kachel>
 
 </Kacheln>
 
-## Other Service Providers:
+## Other service providers:
 
 <Kacheln>
 
@@ -251,7 +266,7 @@ Ebenaustrasse 10, CH-6048 Horw
 
 <Kachel bild="/img/drittsysteme-nebenkostenabrechnung/18.png" titel="Schibli AG">
 
-Competence Center for Renewable Energy
+Competence Centre for Renewable Energy
 
 Klosbachstrasse 67, CH-8032 Zürich
 
@@ -277,7 +292,7 @@ Delehala 36, LIE-9493 Mauren
 
 </Kacheln>
 
-## Compatible Software for Heating/Ancillary Cost Billing without Service
+## Compatible software for heating/ancillary costs billing without service
 
 <Kacheln min="12rem">
 

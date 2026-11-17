@@ -17,5 +17,9 @@
     display: flex;
     white-space: normal;
     text-align: center;
+    /* Ein einzelnes langes Wort wäre auch umbruchfähig noch breiter als der
+       Knopf — siehe die ausführliche Begründung in RollenKarte. */
+    overflow-wrap: anywhere;
+    hyphens: auto;
   }
 }

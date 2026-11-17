@@ -40,6 +40,21 @@
   font-size: 1.15rem;
   font-weight: var(--sm-fw-bold);
   text-decoration: none;
+  /*
+   * Lange Beschriftungen dürfen nicht über den Rand laufen. Zwei Angaben
+   * zusammen, und beide werden gebraucht:
+   *
+   * - `hyphens: auto` trennt nach den Silbenregeln der Seitensprache, also
+   *   „Abrechnungs-/dienstleister". Das setzt voraus, dass der Browser das
+   *   Trennwörterbuch der Sprache mitbringt — die gängigen tun das.
+   * - `overflow-wrap: anywhere` ist die Rückfallebene, falls nicht. Nur
+   *   `break-word` genügt hier nicht: Der Knopf ist eine Flexbox, und deren
+   *   Inhalt ist mindestens so breit wie das längste unteilbare Wort.
+   *   `break-word` ändert dieses Mindestmass nicht, `anywhere` schon — und
+   *   genau daran lief der Text bisher über die Kante.
+   */
+  overflow-wrap: anywhere;
+  hyphens: auto;
   transition: border-color 0.15s ease, box-shadow 0.15s ease;
 }
 

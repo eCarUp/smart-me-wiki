@@ -1,27 +1,48 @@
 /**
  * smart-me Branding für Docusaurus.
  *
- * Die Farb- und Schriftwerte selbst stehen in tokens.css und stammen
- * unverändert aus den smart-me Design Guidelines. Diese Datei bildet sie nur
- * auf die Variablen von Infima (dem Design-System von Docusaurus) ab.
+ * Die Farb-, Schrift- und Abstandswerte stehen in tokens.css und stammen
+ * unverändert aus dem smart-me Design System. Diese Datei bildet sie auf die
+ * Variablen von Infima ab, dem Design-System von Docusaurus.
  *
- * Umgesetzte Vorgaben aus den Guidelines:
- * - Primärfarbe ist smart-me Blau (#28599A), Grün ist unterstützende Farbe.
- * - Weiss als Grundfläche, Blau 5% (#F4F6FA) für ruhige Flächen.
- * - Schrift Noto Sans, Gewichte 400/500/700, höchstens drei pro Ansicht.
- * - Überschriften in smart-me Blau, Fliesstext #272727, linksbündig.
- * - Links im Fliesstext immer unterstrichen.
- * - Semantische Farbquartette für Hinweise und Warnungen.
+ * Umgesetzte Vorgaben aus dem Design System:
  *
- * Zu Schriftgrössen, Zeilenhöhen und Abständen schweigen die Guidelines – der
- * offene Punkt steht als TODO in tokens.css. Das Raster dafür stammt deshalb
- * aus einer fremden Quelle und ist unten im Abschnitt "Schrift- und
- * Abstandsraster" beschrieben. Es gehört bewusst nicht in tokens.css: die
- * Datei ist eine unveränderte Kopie der Guidelines.
+ * - Brand Blue (#2563EB) ist Akzent: Links, aktive Zustände, Fokus. Blau ist
+ *   nie Hintergrund ganzer Flächen.
+ * - Überschriften in Ink (#272727), Fliesstext in `sm-text-2` (#4E5259),
+ *   Meta in `sm-text-3`.
+ * - Weiss als Grund, `sm-surface` (#F1F2F4) als ruhige Fläche — graue Fläche
+ *   statt Schatten.
+ * - Hairlines in `sm-line` (#E3E5E9).
+ * - Radien aus der Skala: Badges 6, Navigation 8, klein 10, Buttons und
+ *   Bilder 12, innere Karten 16, Karten 20. Pillen nur für Daten-Legenden,
+ *   nie für Buttons.
+ * - Schrift Noto Sans 400/500/600/700, Code in JetBrains Mono — beides
+ *   mitgeliefert, keine Anfragen an Google Fonts.
+ * - Flattersatz, nie Blocksatz; Links im Fliesstext unterstrichen.
  *
- * Einen Dark Mode gibt es nicht: Er ist in den Guidelines nicht beschrieben,
- * und die semantischen Farbquartette sind auf hellen Grund gerechnet.
- * Abgeschaltet wird er in docusaurus.config.ts unter `colorMode`.
+ * Vier Dinge weichen bewusst ab oder sind bewusst stehen geblieben:
+ *
+ * 1. **Schriftgrössen und senkrechter Rhythmus bleiben unverändert.** Das
+ *    Design System ist für eine Marketing-Site gerechnet (H1 bis 184 px); ein
+ *    Wiki braucht eine Lesegrösse. Der Abschnitt "Schrift- und Abstandsraster"
+ *    weiter unten ist deshalb unangetastet.
+ * 2. **Hinweiskästen.** Das Design System kennt keine. Die vier Farbquartette
+ *    stehen deshalb unverändert aus der bisherigen Fassung hier — mitsamt dem
+ *    Grün für "Tipp", das das Design System auf seinen Flächen als Text- und
+ *    Flächenfarbe ausschliesst. Im Wiki trägt es eine Funktion, die das System
+ *    nicht abbildet; mit dem Design-Team zu klären.
+ * 3. **Überschriften stehen jetzt in Ink statt in Blau**, und `strong` ebenso.
+ *    Nach dem Design System ist Blau Akzent- und Linkfarbe; blieben
+ *    Hervorhebungen blau, wären sie von Links nicht zu unterscheiden.
+ * 4. **Die Fusszeile ist hell** mit einer kräftigen Haarlinie darüber, wie im
+ *    Footer-Modul des Systems. Dunkelblaue Flächen gibt es dort nicht mehr.
+ *
+ * Einen Dark Mode gibt es im Wiki weiterhin nicht; abgeschaltet in
+ * docusaurus.config.ts unter `colorMode`. Das Design System beschreibt
+ * inzwischen einen, und tokens.css bringt den Block `[data-theme="dark"]`
+ * bereits mit — das Einschalten wäre also vor allem eine Frage der
+ * Konfiguration und der Hinweiskästen.
  */
 
 /* ==========================================================================
@@ -29,74 +50,117 @@
    ========================================================================== */
 
 :root {
-  /* ---------- Primärfarbe: smart-me Blau ---------- */
+  /* ---------- Gewichte ----------
+     Das Design System führt die Gewichte in den `--text-*`-Kurzformen mit,
+     nicht als eigene Tokens. Die Bausteine des Wikis brauchen sie einzeln. */
+  --sm-fw-regular: 400;
+  --sm-fw-medium: 500;
+  --sm-fw-semibold: 600;
+  --sm-fw-bold: 700;
+
+  /* ---------- Primärfarbe: Brand Blue ----------
+     Die Treppe um die Primärfarbe läuft nach dunkel auf den Hover-Wert des
+     Systems (#1D4ED8) zu. Benutzt wird davon fast nur `dark` und `lightest`. */
   --ifm-color-primary: var(--sm-blue);
-  --ifm-color-primary-dark: #24508b;
-  --ifm-color-primary-darker: #224c83;
-  --ifm-color-primary-darkest: #1c3e6c;
-  --ifm-color-primary-light: #2c62a9;
-  --ifm-color-primary-lighter: #2e66b1;
-  --ifm-color-primary-lightest: #3576c8;
+  --ifm-color-primary-dark: var(--sm-blue-hover);
+  --ifm-color-primary-darker: #1b49cc;
+  --ifm-color-primary-darkest: #173ca8;
+  --ifm-color-primary-light: #4175ee;
+  --ifm-color-primary-lighter: #5484f0;
+  --ifm-color-primary-lightest: #82a6f5;
+  --ifm-color-primary-contrast-background: var(--sm-blue-tint);
+  --ifm-color-primary-contrast-foreground: var(--sm-blue-hover);
 
-  /* ---------- Semantische Farben ---------- */
-  --ifm-color-success: var(--sm-success);
-  --ifm-color-success-dark: var(--sm-success-dark);
-  --ifm-color-success-contrast-background: var(--sm-success-light);
-  --ifm-color-warning: var(--sm-warning);
-  --ifm-color-warning-dark: var(--sm-warning-dark);
-  --ifm-color-warning-contrast-background: var(--sm-warning-hover);
-  --ifm-color-danger: var(--sm-error);
-  --ifm-color-danger-dark: var(--sm-error-dark);
-  --ifm-color-danger-contrast-background: var(--sm-error-hover);
-  --ifm-color-info: var(--sm-info);
-  --ifm-color-info-dark: var(--sm-info-dark);
-  --ifm-color-info-contrast-background: var(--sm-info-hover);
+  /* ---------- Hinweiskästen ----------
+     Abweichung 2: unverändert aus der bisherigen Fassung, weil das Design
+     System keine Hinweiskästen beschreibt. Nur "Hinweis" ist auf das neue
+     Blau gezogen, damit es zum Rest der Seite passt. */
+  --ifm-color-success: #52ae32;
+  --ifm-color-success-dark: #3e722b;
+  --ifm-color-success-contrast-background: #eef7eb;
+  --ifm-color-warning: #ff9800;
+  --ifm-color-warning-dark: #d68100;
+  --ifm-color-warning-contrast-background: #fff0d9;
+  --ifm-color-danger: #d12604;
+  --ifm-color-danger-dark: #aa1f04;
+  --ifm-color-danger-contrast-background: #f8dfda;
+  --ifm-color-info: var(--sm-blue);
+  --ifm-color-info-dark: var(--sm-blue-hover);
+  --ifm-color-info-contrast-background: var(--sm-blue-tint);
 
-  /* ---------- Flächen ---------- */
-  --ifm-background-color: var(--sm-bg);
-  --ifm-background-surface-color: var(--sm-bg);
-  --ifm-color-emphasis-100: var(--sm-blue-5pct);
-  --ifm-color-emphasis-200: var(--sm-grey-400);
-  --ifm-color-emphasis-300: var(--sm-grey-500);
-  --ifm-toc-border-color: var(--sm-grey-500);
-  --ifm-hr-border-color: var(--sm-grey-500);
+  /* ---------- Flächen ----------
+     Weiss als Grund, `sm-surface` als ruhige Fläche, `sm-line` als Haarlinie.
+     `emphasis-100` ist in Infima die ruhige Fläche, `300` die Linie; die
+     Zwischenstufen hängen daran, damit nichts fremdes Grau durchschlägt. */
+  --ifm-background-color: var(--sm-page);
+  --ifm-background-surface-color: var(--sm-white);
+  --ifm-color-emphasis-0: var(--sm-page);
+  --ifm-color-emphasis-100: var(--sm-surface);
+  --ifm-color-emphasis-200: var(--sm-surface-hover);
+  --ifm-color-emphasis-300: var(--sm-line);
+  --ifm-color-emphasis-600: var(--sm-text-3);
+  --ifm-color-emphasis-700: var(--sm-text-2);
+  --ifm-color-emphasis-800: var(--sm-text);
+  --ifm-color-emphasis-900: var(--sm-text);
+  --ifm-toc-border-color: var(--sm-line);
+  --ifm-hr-border-color: var(--sm-line);
 
-  /* ---------- Schrift ---------- */
-  --ifm-font-family-base: var(--sm-font);
-  --ifm-heading-font-family: var(--sm-font);
-  --ifm-font-color-base: var(--sm-text);
+  /* ---------- Schrift ----------
+     Abweichung 3: Überschriften in Ink, nicht mehr in Blau. */
+  --ifm-font-family-base: var(--font-sans);
+  --ifm-font-family-monospace: var(--font-mono);
+  --ifm-heading-font-family: var(--font-sans);
+  --ifm-font-color-base: var(--sm-text-2);
+  --ifm-font-weight-light: var(--sm-fw-regular);
+  --ifm-font-weight-normal: var(--sm-fw-regular);
   --ifm-font-weight-semibold: var(--sm-fw-medium);
-  --ifm-font-weight-bold: var(--sm-fw-bold);
-  --ifm-heading-font-weight: var(--sm-fw-bold);
-  --ifm-heading-color: var(--sm-blue);
+  --ifm-font-weight-bold: var(--sm-fw-semibold);
+  --ifm-heading-font-weight: var(--sm-fw-semibold);
+  --ifm-heading-color: var(--sm-text);
 
-  /* ---------- Links: im Fliesstext immer unterstrichen ---------- */
-  --ifm-link-color: var(--sm-link);
-  --ifm-link-hover-color: var(--sm-blue-dark);
+  /* ---------- Links: im Fliesstext immer unterstrichen ----------
+     Brand Blue erreicht als Schrift auf Weiss 5.2:1 und ist im Design System
+     ausdrücklich auch Textfarbe. */
+  --ifm-link-color: var(--sm-blue-text);
+  --ifm-link-hover-color: var(--sm-blue-hover);
   --ifm-link-decoration: none;
 
-  /* ---------- Kanten ---------- */
-  --ifm-global-radius: var(--sm-radius-md);
-  --ifm-button-border-radius: var(--sm-radius-sm);
+  /* ---------- Kanten ----------
+     Aus der Radienskala des Systems. Buttons sind nie Pillen. */
+  --ifm-global-radius: var(--sm-r-lg);
+  --ifm-card-border-radius: var(--sm-r-xl);
+  --ifm-button-border-radius: var(--sm-r-md);
+  --ifm-pagination-nav-border-radius: var(--sm-r-lg);
+  --ifm-alert-border-radius: var(--sm-r-lg);
+  --ifm-alert-border-left-width: 3px;
+
+  /* ---------- Schatten ----------
+     "Graue Fläche statt Schatten": Das System kennt nur zwei, für Kopfzeile
+     und Menü. Infimas drei Stufen zeigen deshalb auf diese beiden. */
+  --ifm-global-shadow-lw: var(--sm-shadow-header);
+  --ifm-global-shadow-md: var(--sm-shadow-header);
+  --ifm-global-shadow-tl: var(--sm-shadow-menu);
 
   /* ---------- Navigation ---------- */
-  --ifm-navbar-background-color: var(--sm-bg);
-  --ifm-navbar-link-color: var(--sm-text);
-  --ifm-navbar-link-hover-color: var(--sm-blue);
-  --ifm-navbar-shadow: 0 1px 0 var(--sm-grey-500);
-  --ifm-menu-color: var(--sm-grey-900);
-  --ifm-menu-color-active: var(--sm-blue);
-  --ifm-menu-color-background-active: var(--sm-blue-10pct);
-  --ifm-menu-color-background-hover: var(--sm-blue-5pct);
-  --ifm-breadcrumb-color-active: var(--sm-blue);
-  --ifm-breadcrumb-item-background-active: var(--sm-blue-10pct);
+  --ifm-navbar-background-color: var(--sm-white);
+  --ifm-navbar-link-color: var(--sm-text-2);
+  --ifm-navbar-link-hover-color: var(--sm-blue-text);
+  --ifm-navbar-shadow: 0 1px 0 var(--sm-line);
+  --ifm-menu-color: var(--sm-text-2);
+  --ifm-menu-color-active: var(--sm-blue-text);
+  --ifm-menu-color-background-active: var(--sm-blue-tint);
+  --ifm-menu-color-background-hover: var(--sm-surface);
+  --ifm-menu-link-padding-vertical: 0.4rem;
+  --ifm-breadcrumb-color-active: var(--sm-blue-text);
+  --ifm-breadcrumb-item-background-active: var(--sm-blue-tint);
+  --ifm-breadcrumb-border-radius: var(--sm-r-nav);
 
-  /* ---------- Code ---------- */
-  /* Grösse, Innenabstand und Kante stehen im Abschnitt "Schrift- und
+  /* ---------- Code ----------
+     Grösse, Innenabstand und Kante stehen im Abschnitt "Schrift- und
      Abstandsraster". */
-  --ifm-code-background: var(--sm-blue-5pct);
-  --ifm-pre-background: var(--sm-blue-5pct);
-  --docusaurus-highlighted-code-line-bg: var(--sm-blue-10pct);
+  --ifm-code-background: var(--sm-surface);
+  --ifm-pre-background: var(--sm-surface);
+  --docusaurus-highlighted-code-line-bg: var(--sm-blue-tint);
 }
 
 /* ==========================================================================
@@ -179,7 +243,7 @@
   --ifm-code-font-size: 87.5%; /* 14px */
   --ifm-code-padding-vertical: 0.0625rem;
   --ifm-code-padding-horizontal: var(--wiki-space-1);
-  --ifm-code-border-radius: var(--sm-radius-sm);
+  --ifm-code-border-radius: var(--sm-r-badge);
 }
 
 /* Infima rechnet die Abstände der Überschriften als Vielfache von
@@ -245,14 +309,19 @@ h6 {
    Feinheiten aus den Guidelines
    ========================================================================== */
 
-/* Die Fusszeile in smart-me Blau dunkel. Infima setzt seine eigenen Werte auf
-   .footer--dark selbst, ein :root-Wert würde deshalb nicht greifen. */
-.footer--dark {
-  --ifm-footer-background-color: var(--sm-blue-dark);
-  --ifm-footer-color: var(--sm-grey-200);
-  --ifm-footer-link-color: var(--sm-blue-25pct);
-  --ifm-footer-link-hover-color: var(--sm-grey-200);
-  --ifm-footer-title-color: var(--sm-grey-200);
+/*
+ * Abweichung 4: Die Fusszeile steht hell auf dem Seitengrund, darüber die
+ * kräftige Haarlinie — so beschreibt das Design System sein Footer-Modul.
+ * Die dunkelblaue Fläche von früher gibt es dort nicht mehr. `footer.style`
+ * steht deshalb in docusaurus.config.ts auf `light`.
+ */
+.footer {
+  --ifm-footer-background-color: var(--sm-page);
+  --ifm-footer-color: var(--sm-text-2);
+  --ifm-footer-link-color: var(--sm-text-2);
+  --ifm-footer-link-hover-color: var(--sm-blue-text);
+  --ifm-footer-title-color: var(--sm-text);
+  border-top: 1px solid var(--sm-line-strong);
 }
 
 /* Links im Fliesstext sind immer unterstrichen. Navigation, Sidebar und
@@ -287,9 +356,18 @@ h6 {
   text-align: right;
 }
 
-/* Hervorhebungen im Fliesstext in smart-me Blau. */
+/* Abweichung 3: Hervorhebungen in Ink statt in Blau — Blau gehört den Links,
+   und zwei Blaus nebeneinander wären nicht auseinanderzuhalten. */
 .markdown strong {
-  color: var(--sm-blue);
+  font-weight: var(--sm-fw-semibold);
+  color: var(--sm-text);
+}
+
+/* Der Fokusrahmen des Design Systems, überall gleich. */
+:where(a, button, input, select, textarea, summary, [tabindex]):focus-visible {
+  outline: none;
+  box-shadow: var(--sm-focus-ring);
+  border-radius: var(--sm-r-sm);
 }
 
 /* Das Logo ist eine Wortmarke und darf nicht verändert werden. */
@@ -330,7 +408,7 @@ h6 {
      als Platzhalter erhalten und das Bild wird unverzerrt eingepasst. */
   object-fit: contain;
   object-position: left center;
-  border-radius: var(--sm-radius-sm);
+  border-radius: var(--sm-r-md);
 }
 
 /*
@@ -401,5 +479,5 @@ html:has(iframe[data-fuellen]) .pagination-nav {
 
 /* Ruhige Fläche für die Suchergebnisse und die Sidebar-Kopfzeile. */
 .theme-doc-sidebar-container {
-  background: var(--sm-blue-5pct);
+  background: var(--sm-surface);
 }

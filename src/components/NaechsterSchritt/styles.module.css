@@ -51,7 +51,7 @@
 }
 
 .titel {
-  font-weight: var(--sm-fw-bold);
+  font-weight: var(--sm-fw-semibold);
 }
 
 .pfeil {

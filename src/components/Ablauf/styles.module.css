@@ -58,7 +58,7 @@
   background: var(--ifm-color-primary);
   color: var(--ifm-background-surface-color);
   font-size: 0.95rem;
-  font-weight: var(--sm-fw-bold, 600);
+  font-weight: var(--sm-fw-semibold);
   line-height: 1;
 }
 
@@ -71,7 +71,7 @@
 }
 
 .titel {
-  font-weight: var(--sm-fw-bold, 600);
+  font-weight: var(--sm-fw-semibold);
 }
 
 .text {

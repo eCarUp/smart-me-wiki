@@ -74,10 +74,9 @@ const config: Config = {
         blog: false,
         theme: {
           customCss: [
-            // Noto Sans wird selbst ausgeliefert – keine Anfragen an Google Fonts.
-            require.resolve('@fontsource/noto-sans/400.css'),
-            require.resolve('@fontsource/noto-sans/500.css'),
-            require.resolve('@fontsource/noto-sans/700.css'),
+            // Noto Sans und JetBrains Mono bringt tokens.css selbst mit: die
+            // @font-face-Angaben am Dateiende zeigen auf src/css/fonts/ und
+            // werden mitgebaut — keine Anfragen an Google Fonts.
             // Unveraenderte Design Tokens, danach die Zuordnung auf Docusaurus.
             './src/css/tokens.css',
             './src/css/custom.css',
@@ -169,7 +168,9 @@ const config: Config = {
       ],
     },
     footer: {
-      style: 'dark',
+      // Hell, mit kräftiger Haarlinie darüber — so beschreibt das Design
+      // System sein Footer-Modul. Die Werte stehen in custom.css.
+      style: 'light',
       links: [
         {
           title: 'smart-me',

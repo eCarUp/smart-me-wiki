@@ -38,7 +38,7 @@
   grid-column: 2;
   font-size: var(--wiki-text-xs, 0.75rem);
   line-height: 1.35;
-  font-weight: var(--sm-fw-medium, 500);
+  font-weight: var(--sm-fw-medium);
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--ifm-color-emphasis-700);
@@ -54,7 +54,7 @@
 }
 
 .stufe {
-  font-weight: var(--sm-fw-bold, 600);
+  font-weight: var(--sm-fw-semibold);
 }
 
 .pfeil {

@@ -38,7 +38,7 @@
   background: var(--ifm-background-surface-color);
   color: var(--ifm-heading-color);
   font-size: 1.15rem;
-  font-weight: var(--sm-fw-bold);
+  font-weight: var(--sm-fw-semibold);
   text-decoration: none;
   /*
    * Lange Beschriftungen dürfen nicht über den Rand laufen. Zwei Angaben

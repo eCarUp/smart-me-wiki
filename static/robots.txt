@@ -1,0 +1,48 @@
+# smart-me Support-Wiki
+#
+# Das Wiki ist öffentlich und soll gefunden werden – von Suchmaschinen ebenso
+# wie von KI-Assistenten. Alle Crawler dürfen alles lesen. Die KI-Crawler sind
+# zusätzlich namentlich aufgeführt, damit die Freigabe ausdrücklich ist.
+#
+# Für Sprachmodelle gibt es den Inhalt zusätzlich am Stück:
+#   https://wiki.smart-me.com/llms.txt       (Inhaltsverzeichnis)
+#   https://wiki.smart-me.com/llms-full.txt  (vollständiger Text)
+# sowie unter /en/, /fr/ und /it/ für die Übersetzungen.
+
+User-agent: *
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+Sitemap: https://wiki.smart-me.com/sitemap.xml
+Sitemap: https://wiki.smart-me.com/en/sitemap.xml
+Sitemap: https://wiki.smart-me.com/fr/sitemap.xml
+Sitemap: https://wiki.smart-me.com/it/sitemap.xml

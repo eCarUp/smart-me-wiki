@@ -13,7 +13,7 @@
  */
 import {readdir, readFile, writeFile} from 'node:fs/promises';
 import {existsSync} from 'node:fs';
-import {join, sep} from 'node:path';
+import {join, posix, sep} from 'node:path';
 import type {LoadContext, Plugin} from '@docusaurus/types';
 import matter from 'gray-matter';
 import {leseLaender} from '../schrittkette';
@@ -70,19 +70,71 @@ function dokumentId(relativePath: string): string {
   return relativePath.replace(/\.mdx?$/, '');
 }
 
-async function collectPages(dir: string, laender: Record<string, string[]>): Promise<Page[]> {
+/**
+ * Ein Baustein ist eine Datei, deren Name oder Ordner mit `_` beginnt
+ * (`_neuigkeiten.md`). Docusaurus macht daraus keine eigene Seite – er wird nur
+ * per `import` in andere Seiten eingebunden. Als eigener Eintrag in `llms.txt`
+ * zeigte er deshalb auf eine Adresse, die es nicht gibt.
+ */
+export function istBaustein(relativePath: string): boolean {
+  return relativePath.split('/').some((teil) => teil.startsWith('_'));
+}
+
+/**
+ * Setzt eingebundene Bausteine in den Seitentext ein.
+ *
+ * Im Quelltext steht nur `import Neuigkeiten from './_neuigkeiten.md';` und
+ * später `<Neuigkeiten />`. Ein Modell, das `llms-full.txt` liest, sähe davon
+ * nur den Platzhalter – also kommt der Text des Bausteins an dessen Stelle, und
+ * die `import`-Zeile fällt weg. Unbekannte Importe bleiben stehen.
+ */
+export function bausteineEinsetzen(
+  body: string,
+  relativePath: string,
+  bausteine: Map<string, string>,
+): string {
+  const ordner = relativePath.includes('/') ? relativePath.slice(0, relativePath.lastIndexOf('/')) : '';
+  let ergebnis = body;
+  const importZeile = /^import\s+(\w+)\s+from\s+['"](\.{1,2}\/[^'"]+\.mdx?)['"];?[ \t]*\r?\n?/gm;
+  for (const [zeile, name, pfad] of body.matchAll(importZeile)) {
+    const ziel = posix.normalize(posix.join(ordner, pfad));
+    const text = bausteine.get(ziel);
+    if (text === undefined) continue;
+    ergebnis = ergebnis
+      .replace(zeile, '')
+      .replace(new RegExp(`<${name}\\s*/>`, 'g'), () => text);
+  }
+  return ergebnis.trim();
+}
+
+async function collectPages(
+  dir: string,
+  masterDir: string,
+  laender: Record<string, string[]>,
+): Promise<Page[]> {
   const files = await walk(dir);
-  const pages: Page[] = [];
+  const quellen: {relativePath: string; parsed: matter.GrayMatterFile<string>}[] = [];
+  const bausteine = new Map<string, string>();
   for (const file of files) {
-    const parsed = matter(await readFile(file, 'utf8'));
-    const data = parsed.data as {title?: string; description?: string; slug?: string};
     const relativePath = file.slice(dir.length + 1).split(sep).join('/');
+    // Eine Übersetzung ohne deutsche Vorlage baut Docusaurus nicht – die
+    // Adresse gibt es also nicht. Das kommt vor, wenn eine Seite unter `docs/`
+    // gelöscht wird und ihre Übersetzungen liegen bleiben.
+    if (!existsSync(join(masterDir, relativePath))) continue;
+    const parsed = matter(await readFile(file, 'utf8'));
+    if (istBaustein(relativePath)) bausteine.set(relativePath, parsed.content.trim());
+    else quellen.push({relativePath, parsed});
+  }
+
+  const pages: Page[] = [];
+  for (const {relativePath, parsed} of quellen) {
+    const data = parsed.data as {title?: string; description?: string; slug?: string};
     pages.push({
       relativePath,
       title: data.title ?? relativePath,
       description: data.description,
       slug: data.slug ?? `/${relativePath.replace(/(?:\/index)?\.mdx?$/, '')}`,
-      body: parsed.content.trim(),
+      body: bausteineEinsetzen(parsed.content.trim(), relativePath, bausteine),
       // Die Übersetzungen liegen unter denselben IDs wie das Deutsche.
       laender: laender[dokumentId(relativePath)] ?? [],
     });
@@ -155,7 +207,8 @@ export default function llmsTxtPlugin(context: LoadContext): Plugin<unknown> {
       // Gelesen wird sie mit derselben Funktion wie für die Schrittketten: eine
       // Seite kann in zwei Kategorien stehen („Zähler zuweisen" einmal unter der
       // Schweiz, einmal unter Mieterstrom), und dann gilt sie für beide Länder.
-      const pages = await collectPages(dir, leseLaender());
+      const masterDir = docsDirFor(context.siteDir, defaultLocale, defaultLocale);
+      const pages = await collectPages(dir, masterDir, leseLaender());
 
       if (pages.length === 0) {
         console.warn(`[llms-txt] Keine Inhalte für "${currentLocale}" – Dateien werden übersprungen.`);

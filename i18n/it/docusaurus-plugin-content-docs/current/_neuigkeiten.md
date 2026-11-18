@@ -1,18 +1,40 @@
+<details id="smart-me-im-energiemanagement-von-eniris" open>
+<summary>NOVITÀ: smart-me nella gestione dell'energia di Eniris</summary>
+
+<div className="row">
+<div className="col col--7">
+
+Il sistema di gestione dell'energia SmartgridOne di Eniris ora legge i dispositivi smart-me direttamente tramite Modbus TCP, senza passare dal cloud.
+
+Sono integrati il Telstar 80A, il Telstar CT e la stazione di ricarica Pico con commutazione delle fasi. In SmartgridOne sono disponibili come integrazione standard alla voce **Devices**. In Svizzera la distribuzione è affidata a Solarmarkt.
+
+[→ Maggiori dettagli](/drittsysteme/eniris)
+
+</div>
+<div className="col col--5 bild--mitte">
+
+![Logo di Eniris: un fulmine in un cerchio rosso accanto alla scritta ENIRIS](/img/drittsysteme-eniris/logo.png)
+
+</div>
+</div>
+
+</details>
+
 <NurFuer land="ch">
 
 <details id="zev-mit-notstromsystemen" open>
-<summary>NOVITÀ: RCP con sistemi di alimentazione d'emergenza</summary>
+<summary>NOVITÀ: RCP con sistemi di alimentazione di emergenza</summary>
 
-Ora puoi tariffare i sistemi di alimentazione d'emergenza in modo alternativo.  
+Ora puoi applicare una tariffazione alternativa ai sistemi di alimentazione di emergenza.  
 
-Poiché spesso manca lo spazio per il contatore solare, ora puoi tariffare semplicemente tramite l'allacciamento dell'edificio e il consumo totale, senza dover aggiungere in modo complicato il contatore solare.
+Poiché spesso manca lo spazio per il contatore solare, ora puoi tariffare semplicemente tramite l'allacciamento dell'edificio e il consumo totale, senza dover aggiungere con fatica il contatore solare.
 
-Seleziona a tal fine la tariffa solare incl. RCP virtuale (vRCP):
+Seleziona a tale scopo la tariffa solare incl. RCP virtuale (vRCP):
 \- Contatore di riferimento (Referenzzähler): Consumo e bilancio (Verbrauch und Bilanz)
 
-Ora le tariffe vengono calcolate correttamente senza contatore solare, risparmiando complicati lavori di montaggio e modifica.
+Ora le tariffe vengono calcolate correttamente senza contatore solare, risparmiando complicate installazioni e modifiche.
 
-Nota: se l'installazione di un contatore di energia solare è possibile, non esitare a farla. La copertura completa dello schema di misura può compensare dati errati dovuti a difetti dei contatori, mentre l'omissione sistematica priva di questa possibilità.
+Nota: se l'installazione di un contatore dell'energia solare è possibile, non esitare a farla. La copertura completa dello schema di misura può compensare dati errati dovuti a contatori difettosi, mentre l'omissione sistematica priva di questa possibilità.
 
 [Maggiori dettagli](/planung/messkonzept-notstromloesung)
 
@@ -23,13 +45,13 @@ Nota: se l'installazione di un contatore di energia solare è possibile, non esi
 </NurFuer>
 
 <details id="kleines-update-zum-solarmanager-ab-august-2026" open>
-<summary>Piccolo aggiornamento relativo a SolarManager da agosto 2026</summary>
+<summary>Piccolo aggiornamento sul SolarManager da agosto 2026</summary>
 
-Con il nuovo aggiornamento di SolarManager, i Pico non vengono più comandati tramite il numero di serie, ma tramite l'ID del gruppo di gestione del carico di livello 1.
+Con il nuovo aggiornamento del SolarManager, i Pico non vengono più comandati tramite il numero di serie, ma tramite l'ID del gruppo di gestione del carico di livello 1.
 
-Nel breve video ti mostro passo dopo passo come funziona, affinché tu possa effettuare correttamente le impostazioni sul lato smart-me.
+Nel breve video ti mostro passo dopo passo come funziona, così potrai effettuare correttamente le impostazioni sul lato smart-me.
 
-Ottimo da sapere: con l'aggiornamento è ora possibile la ricarica monofase a 6 A (ca. 1,4 kW), ideale per eccedenze fotovoltaiche ridotte. Come configurarla è descritto nella documentazione di SolarManager.
+Ottimo da sapere: con l'aggiornamento è ora possibile la ricarica monofase a 6 A (ca. 1,4 kW), ideale per eccedenze fotovoltaiche ridotte. Come configurarla è descritto nella documentazione del SolarManager.
 
 <Embed src="https://drive.google.com/file/d/1Oc3uuTCMusCJMHL7hjlJzFbkoFONHpm4/preview" aspect="1.350" title="Drive, solarmanager_update_2026.mp4" />
 
@@ -61,7 +83,7 @@ Fatturazione (Rechnungsstellung) --> Fatture (Rechnungen)
 <details id="aktualisierung-unserer-agb-datenschutzrichtlinien">
 <summary>Aggiornamento delle nostre CG e delle direttive sulla protezione dei dati</summary>
 
-Abbiamo modificato le nostre Condizioni generali (CG) e le dichiarazioni sulla protezione dei dati. Per regolamentare in modo giuridicamente ottimale il trattamento dei dati all'interno del nostro gruppo aziendale, i documenti sono stati integrati con un cosiddetto „Joint Controller Agreement“ (JCA). Le versioni aggiornate sono consultabili online da subito.
+Abbiamo aggiornato le nostre Condizioni generali (CG) e le dichiarazioni sulla protezione dei dati. Per regolamentare in modo ottimale dal punto di vista giuridico il trattamento dei dati all'interno del nostro gruppo aziendale, i documenti sono stati integrati con un cosiddetto «Joint Controller Agreement» (JCA). Le versioni aggiornate sono consultabili online da subito.
 
 [→ Alle CG e alle disposizioni sulla protezione dei dati](https://web.smart-me.com/agb-smart-me-ag/)
 
@@ -72,15 +94,15 @@ Abbiamo modificato le nostre Condizioni generali (CG) e le dichiarazioni sulla p
 
 Preparati al passaggio senza intoppi alla nostra nuova e moderna piattaforma. Ottieni una rapida panoramica su:  
 
-- Termine per gli ordini nel vecchio negozio: effettua gli ordini urgenti entro il 26\. giugno 2026 alle ore 11:00. Successivamente il vecchio sistema verrà disattivato. 
+- Termine per gli ordini nel vecchio negozio: effettua gli ordini urgenti entro il 26 giugno 2026 alle ore 11:00. Successivamente il vecchio sistema verrà disattivato. 
 
-- Soluzione transitoria via e-mail e telefono: durante la fase di transizione (29 giugno – 1° luglio) ordina in modo semplice direttamente da noi. 
+- Fase transitoria via e-mail e telefono: durante la fase di passaggio (29 giugno – 1° luglio) ordina direttamente da noi in modo semplice. 
 
-- Attivazione per gli account esistenti: utilizza il link di attivazione che riceverai il 30\. giugno via e-mail dal nostro nuovo fornitore di servizi Odoo.  
+- Attivazione per gli account esistenti: utilizza il link di attivazione che riceverai il 30 giugno via e-mail dal nostro nuovo fornitore di servizi Odoo.  
 
 - Sconti e prezzi abituali: continua a beneficiare delle tue condizioni individuali, già registrate nel nuovo sistema. 
 
-- Avvio della nuova piattaforma: dal 1\. luglio 2026 acquista in modo semplice e rapido nel nuovo negozio.
+- Avvio della nuova piattaforma: dal 1° luglio 2026 acquista in modo semplice e rapido nel nuovo negozio.
 
 </details>
 
@@ -93,7 +115,7 @@ Preparati al passaggio senza intoppi alla nostra nuova e moderna piattaforma. Ot
 
 - Componenti personalizzabili
 
-- Indicazione dedicata delle voci da inserire in smart-me Billing
+- Indicazione dedicata delle voci da inserire nello smart-me Billing
 
 [→ Al calcolatore delle tariffe elettriche e solari](/konfiguration/billing/stromtarife-definieren/stromtarif-rechner)
 
@@ -106,7 +128,7 @@ Preparati al passaggio senza intoppi alla nostra nuova e moderna piattaforma. Ot
 
 Ora puoi conteggiare ai tuoi inquilini anche le tariffe di rete dinamiche. 
 
-Importiamo la tariffa dinamica dal tuo fornitore e la applichiamo ogni 15 minuti al prelievo effettivo dalla rete del rispettivo consumatore.
+Importiamo la tariffa dinamica dal tuo provider e la applichiamo ogni 15 minuti al prelievo effettivo dalla rete del rispettivo consumatore.
 
 [→ Maggiori informazioni sulle tariffe](/konfiguration/billing/stromtarife-definieren)
 
@@ -119,11 +141,11 @@ Importiamo la tariffa dinamica dal tuo fornitore e la applichiamo ogni 15 minuti
 <details id="my-dashboards">
 <summary>Novità: My Dashboards</summary>
 
-Ti consente di creare dashboard personalizzati, come flussi di energia e rappresentazioni d'insieme del tuo edificio.
+Ti permette di creare dashboard personalizzati, come flussi di energia e rappresentazioni d'insieme del tuo edificio.
 
 ![Dati tecnici e manuali – Figura 7](/img/home/07.png)
 
-[→ Per saperne di più](/konfiguration/my-dashboards)
+[→ Scopri di più](/konfiguration/my-dashboards)
 
 - Mappa energetica
 
@@ -134,15 +156,15 @@ Ti consente di creare dashboard personalizzati, come flussi di energia e rappres
 </details>
 
 <details id="technische-tools">
-<summary>Novità: Ausili tecnici</summary>
+<summary>Novità: Strumenti tecnici</summary>
 
-Nella nuova sezione Ausili tecnici (Technische Tools) trovi strumenti per l'installazione e la manutenzione dell'impianto.
+Nella nuova sezione Strumenti tecnici trovi ausili per l'installazione e la manutenzione dell'impianto.
 
 ![Dati tecnici e manuali – Figura 9](/img/home/09.png)
 
-[→ Per saperne di più](/konfiguration/technische-tools)
+[→ Scopri di più](/konfiguration/technische-tools)
 
-- Verifica dell'installazione (Installationsprüfung)
+- Verifica dell'installazione
 
 ![Dati tecnici e manuali – Figura 10](/img/home/10.png)
 
@@ -155,24 +177,24 @@ La nuova sezione AppLAB è un'area sperimentale e mette a disposizione diverse f
 
 ![Dati tecnici e manuali – Figura 11](/img/home/11.png)
 
-[→ Per saperne di più](/konfiguration/applab)
+[→ Scopri di più](/konfiguration/applab)
 
-- Esploratore dei picchi di carico (Spitzenlast-Explorer)
+- Esploratore dei picchi di carico
 
-- Rapporto sulla potenza reattiva (Blindleistungsbericht)
+- Rapporto sulla potenza reattiva
 
-- Emulatore di batteria (Batterie-Emulator)
+- Emulatore di batteria
 
-- Rapporto ESG (ESG-Bericht)
+- Rapporto ESG
 
-- Assistente di configurazione Autobill (Autobill Einrichtungsassistent)
+- Assistente di configurazione Autobill
 
 </details>
 
 <details id="generalueberholung-ui">
 <summary>Novità: revisione generale dell'interfaccia utente</summary>
 
-L'intera interfaccia utente di smart-me ha ricevuto un design rinnovato.
+L'intera interfaccia utente di smart-me ha ricevuto un nuovo design.
 
 - Nell'utilizzo non è cambiato nulla.
 
@@ -183,15 +205,15 @@ L'intera interfaccia utente di smart-me ha ricevuto un design rinnovato.
 <details id="zev-performance-uebersicht">
 <summary>Novità: panoramica delle prestazioni RCP</summary>
 
-Verifica la produzione e i ricavi del tuo RCP (raggruppamento ai fini del consumo proprio) nella nuova visualizzazione "Prestazioni RCP" (ZEV Performance). Ottieni una rapida panoramica su:
+Verifica la produzione e i rendimenti del tuo RCP (raggruppamento ai fini del consumo proprio) nella nuova visualizzazione "Prestazioni RCP" ("ZEV Performance"). Ottieni una rapida panoramica su:
 
 - Flussi di energia con la nuova visualizzazione dei flussi di energia
 
-- Produzione di energia e ricavi
+- Produzione di energia e rendimento
 
 - Picchi di prelievo dalla rete e di immissione in rete
 
-- Identifica i giorni ad alta produzione con la visualizzazione heat map
+- Identifica i giorni ad alta produzione con la visualizzazione a mappa di calore
 
 - Analizza l'efficienza della tua batteria nel RCP
 
@@ -208,11 +230,11 @@ Verifica la produzione e i ricavi del tuo RCP (raggruppamento ai fini del consum
 
 Visualizzazioni esistenti:
 
-Le visualizzazioni esistenti ricevono un nuovo design. Vengono aggiornate automaticamente senza configurazione aggiuntiva.
+Le visualizzazioni esistenti ricevono un nuovo design. Vengono aggiornate automaticamente senza alcuna configurazione aggiuntiva.
 
 Nuova visualizzazione Pico:
 
-Scopri la nuova visualizzazione Pico, che mostra a colpo d'occhio tutti i punti di ricarica Pico e i relativi gruppi di ricarica – con assorbimento di corrente, occupazione, potenza massima assorbita e molto altro.
+Dai un'occhiata alla nuova visualizzazione Pico, che mostra a colpo d'occhio tutti i punti di ricarica Pico e i relativi gruppi di ricarica – con assorbimento di corrente, occupazione, potenza massima assorbita e molto altro.
 
 [→ Maggiori informazioni sulle nuove visualizzazioni](/konfiguration/visualisierung)
 
@@ -225,15 +247,15 @@ Scopri la nuova visualizzazione Pico, che mostra a colpo d'occhio tutti i punti 
 <details id="das-neue-m-bus-gateway-sirius-ist-da">
 <summary>È arrivato il nuovo gateway M-Bus Sirius!</summary>
 
-La nostra famiglia di prodotti continua a crescere: con Sirius lanciamo il nostro gateway più potente finora, pensato per grandi infrastrutture edilizie.
+La nostra famiglia di prodotti continua a crescere: con il Sirius lanciamo il nostro gateway più potente finora, pensato per le grandi infrastrutture edilizie.
 
 - Capacità enorme – Fino a 250 carichi standard M-Bus in un unico dispositivo. 
 
 - Multi-energia – Acqua, calore, freddo e gas gestiti centralmente. 
 
-- Massima sicurezza – Ampia memoria dati in caso di interruzioni della connessione.
+- Massima sicurezza – Enorme memoria dati in caso di interruzioni della connessione.
 
-[→ Maggiori informazioni su Sirius](/produkte/m-bus-gateway/sirius)
+[→ Maggiori informazioni sul Sirius](/produkte/m-bus-gateway/sirius)
 
 ![Dati tecnici e manuali – Figura 16](/img/home/16.jpg)
 
@@ -245,9 +267,9 @@ La nostra famiglia di prodotti continua a crescere: con Sirius lanciamo il nostr
 <div className="row">
 <div className="col col--6">
 
-Applicare l'IVA è un punto importante nel conteggio. Per non commettere errori, qui trovate una guida per indicare correttamente l'IVA nel vostro caso.
+Applicare l'IVA è un punto importante del conteggio. Per non commettere errori, qui trovate una guida per indicare correttamente l'IVA nel vostro caso.
 
-La legge sull'IVA relativa al RCP (raggruppamento ai fini del consumo proprio) cambia rapidamente quanto la tecnologia.
+La legge sull'IVA relativa al RCP (raggruppamento ai fini del consumo proprio) cambia rapidamente quanto la tecnica.
 
 [→ Maggiori informazioni per i nostri partner](/konfiguration/billing/mwst-zev-nebenkosten)
 

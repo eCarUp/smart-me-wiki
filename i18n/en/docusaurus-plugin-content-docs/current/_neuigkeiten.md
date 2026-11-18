@@ -1,18 +1,40 @@
+<details id="smart-me-im-energiemanagement-von-eniris" open>
+<summary>NEW: smart-me in Eniris energy management</summary>
+
+<div className="row">
+<div className="col col--7">
+
+The SmartgridOne energy management system from Eniris now reads smart-me devices directly via Modbus TCP, without going through the cloud.
+
+The integration covers the Telstar 80A, the Telstar CT and the Pico charging station with phase switching. In SmartgridOne, they are available under **Devices** as a standard integration. In Switzerland, distribution is handled by Solarmarkt.
+
+[→ More details](/drittsysteme/eniris)
+
+</div>
+<div className="col col--5 bild--mitte">
+
+![Eniris logo: a lightning bolt in a red circle next to the ENIRIS lettering](/img/drittsysteme-eniris/logo.png)
+
+</div>
+</div>
+
+</details>
+
 <NurFuer land="ch">
 
 <details id="zev-mit-notstromsystemen" open>
-<summary>NEW: ZEV (association for own consumption) with emergency power systems</summary>
+<summary>NEW: ZEV with emergency power systems</summary>
 
-You can now use an alternative tariff setup for emergency power systems.  
+You can now apply an alternative tariff structure to emergency power systems.  
 
-Since there is often no space for the solar meter, you can now simply set up the tariffs using the building connection and total consumption, without having to go to the trouble of adding the solar meter.
+Since there is often no space for the solar meter, you can now simply set tariffs using the building connection and total consumption, without having to go to the trouble of adding the solar meter.
 
 To do this, select the solar tariff incl. vZEV:
-\- Reference meter: Consumption and balance (Referenzzähler: Verbrauch und Bilanz)
+\- Reference meter (Referenzzähler): Consumption and balance (Verbrauch und Bilanz)
 
-The tariffs are now calculated correctly without a solar meter, saving you cumbersome installations and modifications.
+The tariffs are now calculated correctly without a solar meter, saving you cumbersome installation and conversion work.
 
-Note: If it is possible to install a solar power meter, please do not hesitate to do so. Complete coverage of the metering concept can compensate for incorrect data caused by meter defects; systematically omitting meters, however, removes this possibility.
+Note: If it is possible to install a solar power meter, please do not hesitate to do so. Full coverage of the metering concept can compensate for incorrect data caused by meter defects; systematically omitting meters removes this possibility.
 
 [More details](/planung/messkonzept-notstromloesung)
 
@@ -23,13 +45,13 @@ Note: If it is possible to install a solar power meter, please do not hesitate t
 </NurFuer>
 
 <details id="kleines-update-zum-solarmanager-ab-august-2026" open>
-<summary>Small update to SolarManager from August 2026</summary>
+<summary>Small update on SolarManager from August 2026</summary>
 
-With the new SolarManager update, Picos are no longer controlled via the serial number, but via the ID of the load management level 1 group.
+With the new SolarManager update, Picos are no longer controlled via their serial number, but via the ID of the load management level 1 group.
 
 In this short video, I show you step by step how this works so that you can configure the settings on the smart-me side correctly.
 
-This is great to know: the update makes single-phase charging at 6 A (approx. 1.4 kW) possible, which is ideal for smaller PV surpluses. You can find out how to configure this in the SolarManager documentation.
+Good to know: the update makes single-phase charging at 6 A (approx. 1.4 kW) possible, which is ideal for smaller PV surpluses. You can find out how to configure this in the SolarManager documentation.
 
 <Embed src="https://drive.google.com/file/d/1Oc3uuTCMusCJMHL7hjlJzFbkoFONHpm4/preview" aspect="1.350" title="Drive, solarmanager_update_2026.mp4" />
 
@@ -40,17 +62,17 @@ solarmanager\_update\_2026.mp4
 <details id="rechnungsvorschau-v1">
 <summary>NEW: Invoice preview V1</summary>
 
-You can now generate an invoice preview before you create final invoices.
+You can now generate an invoice preview before creating final invoices.
 
 - Check your configurations quickly and easily.
 
 - Validate your billing more easily
 
-- No more creating incorrect invoices without prior validation.
+- No more incorrect invoices created without prior validation.
 
 Where?
 
-Billing --> Invoices (Rechnungsstellung --> Rechnungen)
+Billing (Rechnungsstellung) --> Invoices (Rechnungen)
 
 ![Technical data & manuals – Figure 2](/img/home/02.png)
 
@@ -63,7 +85,7 @@ Billing --> Invoices (Rechnungsstellung --> Rechnungen)
 
 We have updated our General Terms and Conditions (GTC) and privacy policies. To regulate data processing within our group of companies in the best possible legal way, the documents have been supplemented with a so-called "Joint Controller Agreement" (JCA). The updated versions are now available online for review.
 
-[→ To the GTC & privacy policy](https://web.smart-me.com/agb-smart-me-ag/)
+[→ To the GTC & privacy policies](https://web.smart-me.com/agb-smart-me-ag/)
 
 </details><NurFuer land="ch">
 
@@ -72,15 +94,15 @@ We have updated our General Terms and Conditions (GTC) and privacy policies. To 
 
 Prepare for a smooth transition to our new, modern platform. Get a quick overview of:  
 
-- Order deadline in the old shop: Place urgent orders by 26 June 2026 at 11:00. After that, the old system will be shut down. 
+- Order deadline in the old shop: Place urgent orders by 26\. June 2026 at 11:00. After that, the old system will be shut down. 
 
-- Bridging by email & phone: During the transition phase (29 June – 1 July), simply order directly from us. 
+- Bridging via email & phone: During the transition phase (29 June – 1 July), simply order directly from us. 
 
-- Activation for existing accounts: Use the activation link you will receive by email on 30 June from our new service provider Odoo.  
+- Activation for existing accounts: Use the activation link you will receive by email on 30\. June from our new service provider Odoo.  
 
 - Familiar discounts & prices: Continue to benefit from your individual conditions, which are already stored in the new system. 
 
-- Launch of the new platform: From 1 July 2026, shop quickly and easily in the new shop.
+- Launch of the new platform: From 1\. July 2026, shop quickly and easily in the new shop.
 
 </details>
 
@@ -95,7 +117,7 @@ Prepare for a smooth transition to our new, modern platform. Get a quick overvie
 
 - Dedicated specification of the entries in smart-me Billing
 
-[→ To the electricity and solar tariff calculator](/konfiguration/billing/stromtarife-definieren/stromtarif-rechner)
+[→ To the tariff calculator for electricity and solar](/konfiguration/billing/stromtarife-definieren/stromtarif-rechner)
 
 ![Technical data & manuals – Figure 4](/img/home/04.png)
 
@@ -106,7 +128,7 @@ Prepare for a smooth transition to our new, modern platform. Get a quick overvie
 
 You can now also bill dynamic grid tariffs to your tenants. 
 
-We import the dynamic tariff from your provider and apply it every 15 minutes to the effective grid consumption of the respective consumer.
+We import the dynamic tariff from your provider and apply it every 15 minutes to the actual grid consumption of the respective consumer.
 
 [→ More information on tariffs](/konfiguration/billing/stromtarife-definieren)
 
@@ -119,7 +141,7 @@ We import the dynamic tariff from your provider and apply it every 15 minutes to
 <details id="my-dashboards">
 <summary>New: My Dashboards</summary>
 
-Lets you create personalized dashboards such as energy flows and overviews of your building.
+Allows you to create personalized dashboards such as energy flows and overview displays of your building.
 
 ![Technical data & manuals – Figure 7](/img/home/07.png)
 
@@ -136,7 +158,7 @@ Lets you create personalized dashboards such as energy flows and overviews of yo
 <details id="technische-tools">
 <summary>New: Technical Tools</summary>
 
-In the new Technical Tools (Technische Tools) section, you will find aids for installing and maintaining the installation.
+In the new Technical Tools (Technische Hilfsmittel) section, you will find tools for installation and maintenance of the installation.
 
 ![Technical data & manuals – Figure 9](/img/home/09.png)
 
@@ -151,7 +173,7 @@ In the new Technical Tools (Technische Tools) section, you will find aids for in
 <details id="applab">
 <summary>New: AppLAB</summary>
 
-The new AppLAB section is an experimental area that provides various features in order to test their effectiveness.
+The new AppLAB section is an experimental area and provides various features to test their effectiveness.
 
 ![Technical data & manuals – Figure 11](/img/home/11.png)
 
@@ -174,16 +196,16 @@ The new AppLAB section is an experimental area that provides various features in
 
 The entire smart-me UI has received a design refresh.
 
-- Nothing has changed in how it is used.
+- Nothing has changed in terms of usage.
 
 ![Technical data & manuals – Figure 12](/img/home/12.png)
 
 </details><NurFuer land="ch">
 
 <details id="zev-performance-uebersicht">
-<summary>New: ZEV Performance overview</summary>
+<summary>New: ZEV performance overview</summary>
 
-Check the production and yields of your ZEV (association for own consumption) in the new "ZEV Performance" visualization. Get a quick overview of:
+Check the production and yields of your ZEV in the new "ZEV Performance" visualization. Get a quick overview of:
 
 - Energy flows with the new energy flow visualization
 
@@ -208,11 +230,11 @@ Check the production and yields of your ZEV (association for own consumption) in
 
 Existing visualizations:
 
-Existing visualizations are getting a new design. They are updated automatically without any additional configuration.
+Existing visualizations receive a new design. They are updated automatically without any additional configuration.
 
 New Pico visualization:
 
-Take a look at the new Pico visualization, which shows all Pico charge points and their charging groups at a glance – with current consumption, occupancy, maximum power consumption and much more.
+Take a look at the new Pico visualization, which shows all Pico charge points and their charging groups at a glance – with current draw, occupancy, maximum power consumption and much more.
 
 [→ More information on the new visualizations](/konfiguration/visualisierung)
 
@@ -227,11 +249,11 @@ Take a look at the new Pico visualization, which shows all Pico charge points an
 
 Our product family continues to grow: with the Sirius, we are launching our most powerful gateway yet for large building infrastructures.
 
-- Massive capacity – Up to 250 M-Bus standard loads in one device. 
+- Massive capacity – Up to 250 M-Bus standard loads in a single device. 
 
 - Multi-energy – Water, heat, cooling and gas centrally under control. 
 
-- Maximum security – Huge data storage in case of connection failures.
+- Maximum security – Huge data storage in the event of connection failures.
 
 [→ More information on the Sirius](/produkte/m-bus-gateway/sirius)
 
@@ -240,14 +262,14 @@ Our product family continues to grow: with the Sirius, we are launching our most
 </details><NurFuer land="ch">
 
 <details id="mwst-richtig-verrechnen">
-<summary>NEW: VAT - Charging it correctly</summary>
+<summary>NEW: VAT – charging it correctly</summary>
 
 <div className="row">
 <div className="col col--6">
 
-Applying VAT is an important point in billing. To avoid mistakes, you will find instructions here on how to correctly show VAT for your case.
+Applying VAT is an important part of billing. To avoid mistakes, you will find instructions here on how to correctly show VAT for your case.
 
-VAT law on the ZEV (association for own consumption) is changing almost as quickly as the technology.
+VAT law for the ZEV is changing almost as quickly as the technology.
 
 [→ More information for our partners](/konfiguration/billing/mwst-zev-nebenkosten)
 

@@ -1,3 +1,25 @@
+<details id="smart-me-im-energiemanagement-von-eniris" open>
+<summary>NEU: smart-me im Energiemanagement von Eniris</summary>
+
+<div className="row">
+<div className="col col--7">
+
+Das Energiemanagementsystem SmartgridOne von Eniris liest smart-me Geräte neu direkt über Modbus TCP aus, ohne Umweg über die Cloud.
+
+Integriert sind der Telstar 80A, der Telstar CT und die Pico Ladestation mit Phasenumschaltung. In SmartgridOne stehen sie unter **Devices** als Standardintegration bereit. In der Schweiz läuft der Vertrieb über Solarmarkt.
+
+[→ Mehr Details](/drittsysteme/eniris)
+
+</div>
+<div className="col col--5 bild--mitte">
+
+![Logo von Eniris: ein Blitz in einem roten Kreis neben dem Schriftzug ENIRIS](/img/drittsysteme-eniris/logo.png)
+
+</div>
+</div>
+
+</details>
+
 <NurFuer land="ch">
 
 <details id="zev-mit-notstromsystemen" open>

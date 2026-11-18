@@ -7,8 +7,8 @@
  *
  * Umgesetzte Vorgaben aus dem Design System:
  *
- * - Brand Blue (#2563EB) ist Akzent: Links, aktive Zustände, Fokus. Blau ist
- *   nie Hintergrund ganzer Flächen.
+ * - Blau ist Akzent: Links, aktive Zustände, Fokus. Blau ist nie Hintergrund
+ *   ganzer Flächen. (Welches Blau: siehe Abweichung 5.)
  * - Überschriften in Ink (#272727), Fliesstext in `sm-text-2` (#4E5259),
  *   Meta in `sm-text-3`.
  * - Weiss als Grund, `sm-surface` (#F1F2F4) als ruhige Fläche — graue Fläche
@@ -21,7 +21,7 @@
  *   mitgeliefert, keine Anfragen an Google Fonts.
  * - Flattersatz, nie Blocksatz; Links im Fliesstext unterstrichen.
  *
- * Vier Dinge weichen bewusst ab oder sind bewusst stehen geblieben:
+ * Fünf Dinge weichen bewusst ab oder sind bewusst stehen geblieben:
  *
  * 1. **Schriftgrössen und senkrechter Rhythmus bleiben unverändert.** Das
  *    Design System ist für eine Marketing-Site gerechnet (H1 bis 184 px); ein
@@ -37,6 +37,9 @@
  *    Hervorhebungen blau, wären sie von Links nicht zu unterscheiden.
  * 4. **Die Fusszeile ist hell** mit einer kräftigen Haarlinie darüber, wie im
  *    Footer-Modul des Systems. Dunkelblaue Flächen gibt es dort nicht mehr.
+ * 5. **Das Blau ist smart-me Blau #28599A statt Brand Blue #2563EB.** Brand
+ *    Blue ist für das Wiki zu grell. Die Werte stehen als `--wiki-blue*`
+ *    weiter unten; tokens.css bleibt eine unveränderte Kopie.
  *
  * Einen Dark Mode gibt es im Wiki weiterhin nicht; abgeschaltet in
  * docusaurus.config.ts unter `colorMode`. Das Design System beschreibt
@@ -58,18 +61,28 @@
   --sm-fw-semibold: 600;
   --sm-fw-bold: 700;
 
-  /* ---------- Primärfarbe: Brand Blue ----------
-     Die Treppe um die Primärfarbe läuft nach dunkel auf den Hover-Wert des
-     Systems (#1D4ED8) zu. Benutzt wird davon fast nur `dark` und `lightest`. */
-  --ifm-color-primary: var(--sm-blue);
-  --ifm-color-primary-dark: var(--sm-blue-hover);
-  --ifm-color-primary-darker: #1b49cc;
-  --ifm-color-primary-darkest: #173ca8;
-  --ifm-color-primary-light: #4175ee;
-  --ifm-color-primary-lighter: #5484f0;
-  --ifm-color-primary-lightest: #82a6f5;
-  --ifm-color-primary-contrast-background: var(--sm-blue-tint);
-  --ifm-color-primary-contrast-foreground: var(--sm-blue-hover);
+  /* ---------- Wiki-Blau ----------
+     Abweichung 5: Das Wiki nimmt statt Brand Blue (#2563EB) das ruhigere
+     smart-me Blau #28599A. Brand Blue ist für die Marketing-Site gedacht und
+     wirkt auf langen Textseiten zu grell. tokens.css bleibt unverändert; die
+     drei Werte hier ersetzen nur im Wiki `sm-blue`/`sm-blue-text`,
+     `sm-blue-hover` und `sm-blue-tint`. Auf Weiss erreicht #28599A 7.3:1. */
+  --wiki-blue: #28599a;
+  --wiki-blue-hover: #1f4a82;
+  --wiki-blue-tint: #eef2f7;
+
+  /* ---------- Primärfarbe ----------
+     Treppe um das Wiki-Blau, nach dunkel auf den Hover-Wert zu. Benutzt wird
+     davon fast nur `dark` und `lightest`. */
+  --ifm-color-primary: var(--wiki-blue);
+  --ifm-color-primary-dark: var(--wiki-blue-hover);
+  --ifm-color-primary-darker: #1d4579;
+  --ifm-color-primary-darkest: #183a66;
+  --ifm-color-primary-light: #3e6aa4;
+  --ifm-color-primary-lighter: #4872a9;
+  --ifm-color-primary-lightest: #698bb8;
+  --ifm-color-primary-contrast-background: var(--wiki-blue-tint);
+  --ifm-color-primary-contrast-foreground: var(--wiki-blue-hover);
 
   /* ---------- Hinweiskästen ----------
      Abweichung 2: unverändert aus der bisherigen Fassung, weil das Design
@@ -84,9 +97,9 @@
   --ifm-color-danger: #d12604;
   --ifm-color-danger-dark: #aa1f04;
   --ifm-color-danger-contrast-background: #f8dfda;
-  --ifm-color-info: var(--sm-blue);
-  --ifm-color-info-dark: var(--sm-blue-hover);
-  --ifm-color-info-contrast-background: var(--sm-blue-tint);
+  --ifm-color-info: var(--wiki-blue);
+  --ifm-color-info-dark: var(--wiki-blue-hover);
+  --ifm-color-info-contrast-background: var(--wiki-blue-tint);
 
   /* ---------- Flächen ----------
      Weiss als Grund, `sm-surface` als ruhige Fläche, `sm-line` als Haarlinie.
@@ -119,10 +132,9 @@
   --ifm-heading-color: var(--sm-text);
 
   /* ---------- Links: im Fliesstext immer unterstrichen ----------
-     Brand Blue erreicht als Schrift auf Weiss 5.2:1 und ist im Design System
-     ausdrücklich auch Textfarbe. */
-  --ifm-link-color: var(--sm-blue-text);
-  --ifm-link-hover-color: var(--sm-blue-hover);
+     Das Wiki-Blau erreicht als Schrift auf Weiss 7.3:1. */
+  --ifm-link-color: var(--wiki-blue);
+  --ifm-link-hover-color: var(--wiki-blue-hover);
   --ifm-link-decoration: none;
 
   /* ---------- Kanten ----------
@@ -144,15 +156,15 @@
   /* ---------- Navigation ---------- */
   --ifm-navbar-background-color: var(--sm-white);
   --ifm-navbar-link-color: var(--sm-text-2);
-  --ifm-navbar-link-hover-color: var(--sm-blue-text);
+  --ifm-navbar-link-hover-color: var(--wiki-blue);
   --ifm-navbar-shadow: 0 1px 0 var(--sm-line);
   --ifm-menu-color: var(--sm-text-2);
-  --ifm-menu-color-active: var(--sm-blue-text);
-  --ifm-menu-color-background-active: var(--sm-blue-tint);
+  --ifm-menu-color-active: var(--wiki-blue);
+  --ifm-menu-color-background-active: var(--wiki-blue-tint);
   --ifm-menu-color-background-hover: var(--sm-surface);
   --ifm-menu-link-padding-vertical: 0.4rem;
-  --ifm-breadcrumb-color-active: var(--sm-blue-text);
-  --ifm-breadcrumb-item-background-active: var(--sm-blue-tint);
+  --ifm-breadcrumb-color-active: var(--wiki-blue);
+  --ifm-breadcrumb-item-background-active: var(--wiki-blue-tint);
   --ifm-breadcrumb-border-radius: var(--sm-r-nav);
 
   /* ---------- Code ----------
@@ -160,7 +172,7 @@
      Abstandsraster". */
   --ifm-code-background: var(--sm-surface);
   --ifm-pre-background: var(--sm-surface);
-  --docusaurus-highlighted-code-line-bg: var(--sm-blue-tint);
+  --docusaurus-highlighted-code-line-bg: var(--wiki-blue-tint);
 }
 
 /* ==========================================================================
@@ -319,7 +331,7 @@ h6 {
   --ifm-footer-background-color: var(--sm-page);
   --ifm-footer-color: var(--sm-text-2);
   --ifm-footer-link-color: var(--sm-text-2);
-  --ifm-footer-link-hover-color: var(--sm-blue-text);
+  --ifm-footer-link-hover-color: var(--wiki-blue);
   --ifm-footer-title-color: var(--sm-text);
   border-top: 1px solid var(--sm-line-strong);
 }

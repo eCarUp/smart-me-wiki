@@ -30,6 +30,8 @@ smart-me est un système de gestion de l'énergie ouvert. Avec smart-me, les val
 
 <Kachel bild="/img/drittsysteme-elmoove/logo.png" bildtext="elmoove" titel="Elmoove" href="/drittsysteme/elmoove" bildhoehe="4rem" mittig />
 
+<Kachel bild="/img/drittsysteme-eniris/logo.png" bildtext="Eniris" titel="Eniris" href="/drittsysteme/eniris" bildhoehe="4rem" mittig />
+
 </Kacheln>
 
 ### Logiciels de décompte des frais de chauffage et des charges accessoires
@@ -102,13 +104,13 @@ smart-me est un système de gestion de l'énergie ouvert. Avec smart-me, les val
 
 </Kacheln>
 
-### Webinaire « Planification d'un RCP »
+### Webinaire "Planification RCP"
 
 Découvrez si vous avez besoin d'un partenaire, expliqué simplement.
 
-<Video src="fb33ML8YTYA" title="Vidéo YouTube, webinaire &quot;Planification d'un RCP (regroupement dans le cadre de la consommation propre)&quot;" />
+<Video src="fb33ML8YTYA" title="Vidéo YouTube, webinaire &quot;Planification d'un RCP&quot;" />
 
-### Webinaire « Exporter les données énergétiques »
+### Webinaire "Exporter les données énergétiques"
 
 Aperçu des possibilités d'exportation.
 

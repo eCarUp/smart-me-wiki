@@ -210,6 +210,20 @@
         "origin": "translated"
       }
     },
+    "docs/drittsysteme/eniris.md": {
+      "it": {
+        "hash": "d9f010f6f9497483",
+        "origin": "translated"
+      },
+      "en": {
+        "hash": "d9f010f6f9497483",
+        "origin": "translated"
+      },
+      "fr": {
+        "hash": "d9f010f6f9497483",
+        "origin": "translated"
+      }
+    },
     "docs/drittsysteme/esmart.md": {
       "en": {
         "hash": "f8b86226087761d1",
@@ -282,15 +296,15 @@
     },
     "docs/drittsysteme/index.md": {
       "en": {
-        "hash": "ef4817dc92e20242",
+        "hash": "27c6de99b757b045",
         "origin": "translated"
       },
       "fr": {
-        "hash": "ef4817dc92e20242",
+        "hash": "27c6de99b757b045",
         "origin": "translated"
       },
       "it": {
-        "hash": "ef4817dc92e20242",
+        "hash": "27c6de99b757b045",
         "origin": "translated"
       }
     },

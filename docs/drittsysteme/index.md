@@ -30,6 +30,8 @@ smart-me ist ein offenes Energiemanagement-System. Mit smart-me können Strom-, 
 
 <Kachel bild="/img/drittsysteme-elmoove/logo.png" bildtext="elmoove" titel="Elmoove" href="/drittsysteme/elmoove" bildhoehe="4rem" mittig />
 
+<Kachel bild="/img/drittsysteme-eniris/logo.png" bildtext="Eniris" titel="Eniris" href="/drittsysteme/eniris" bildhoehe="4rem" mittig />
+
 </Kacheln>
 
 ### Heiz- und Nebenkostenabrechnungs Software

@@ -325,6 +325,7 @@ const sidebars: SidebarsConfig = {
         'drittsysteme/digital-republic',
         'drittsysteme/egonline',
         'drittsysteme/elmoove',
+        'drittsysteme/eniris',
         'drittsysteme/esmart',
         'drittsysteme/fairwalter',
         'drittsysteme/greenpocket',

@@ -22,6 +22,12 @@ automatisch über die Übersetzungs-Pipeline.
 
 ## Lokal starten
 
+Richtest du den Rechner zum ersten Mal ein, geh nach
+[LOKALINSTALLATION.md](./LOKALINSTALLATION.md) — Schritt für Schritt von der
+Installation von Git und Node.js bis zur laufenden Vorschau. Arbeitet ihr zu
+mehreren, steht der Ablauf mit Branches, Pull Requests und Merge-Konflikten in
+[ZUSAMMENARBEIT.md](./ZUSAMMENARBEIT.md).
+
 ```bash
 npm install
 npm start

@@ -815,13 +815,102 @@ Korrekturen reicht der Weg über GitHub oben völlig.
 
 ### Einmalig einrichten
 
-Vorausgesetzt werden [Node.js](https://nodejs.org) ab Version 20 und
-[Git](https://git-scm.com).
+Nötig sind drei kostenlose Programme: **Git** holt das Repository auf deinen
+Rechner, **Node.js** führt Docusaurus aus und bringt `npm` mit, **VS Code** ist
+der Editor. Unter Windows geht die Installation am schnellsten über `winget` in
+der PowerShell:
 
-```bash
+```powershell
+winget install --id Git.Git -e
+winget install --id OpenJS.NodeJS.LTS -e
+winget install --id Microsoft.VisualStudioCode -e
+```
+
+> **Danach das PowerShell-Fenster schliessen und ein neues öffnen.** Ein bereits
+> offenes Fenster kennt nur den Suchpfad von vorher und meldet `git` oder `node`
+> weiterhin als unbekannt, obwohl beides installiert ist. Das ist der mit
+> Abstand häufigste Stolperstein beim Einrichten.
+
+Kennt deine PowerShell `winget` nicht, lade die drei Programme von Hand herunter
+— [git-scm.com](https://git-scm.com/download/win),
+[nodejs.org](https://nodejs.org) (die **LTS**-Version) und
+[code.visualstudio.com](https://code.visualstudio.com). Die Standardeinstellungen
+der Installer passen.
+
+Im neuen Fenster prüfen. Jeder der drei Befehle muss eine Versionsnummer
+ausgeben, `node` mindestens `v20`:
+
+```powershell
+git --version
+node -v
+npm -v
+```
+
+### Skripte in PowerShell erlauben
+
+Windows blockiert das Ausführen von Skripten standardmässig, und `npm` ist eins.
+Erlaub es einmalig für deinen Benutzer — Administratorrechte braucht es dafür
+nicht:
+
+```powershell
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+```
+
+Die Rückfrage mit `J` bestätigen. Sperrt deine Firma diese Einstellung per
+Gruppenrichtlinie, schreib stattdessen überall `npm.cmd` statt `npm` — also
+`npm.cmd install` und `npm.cmd start`. Das umgeht die Richtlinie, ohne etwas zu
+verändern.
+
+### Das Wiki holen
+
+```powershell
 git clone https://github.com/eCarUp/smart-me-wiki.git
 cd smart-me-wiki
 npm install
+code .
+```
+
+`npm install` lädt Docusaurus und alle weiteren Pakete herunter und dauert ein
+bis zwei Minuten. **Ohne diesen Schritt** bricht jeder Startversuch mit
+`Der Befehl "docusaurus" … konnte nicht gefunden werden` ab. Fertig ist er, wenn
+kein rotes `ERR!` stehen bleibt und im Projekt ein Ordner `node_modules` liegt.
+
+`code .` öffnet den Ordner in VS Code. Das Terminal dort bekommst du über
+**Terminal → Neues Terminal**; es startet gleich im richtigen Ordner.
+
+Wer lieber ganz in VS Code bleibt, kann auch dort klonen: `F1` drücken,
+**Git: Clone** eintippen, die Adresse des Repositorys einfügen, einen
+Speicherort wählen und am Ende unten rechts auf **Öffnen** klicken.
+
+Und ganz ohne Git, nur zum Anschauen: im Repository oben rechts auf
+**Code → Download ZIP**, entpacken und den Ordner in VS Code über
+**Datei → Ordner öffnen** öffnen. `npm install` und `npm start` laufen damit
+genauso. Änderungen zurückschicken kannst du so allerdings nicht — dafür
+brauchst du Git.
+
+### Wenn beim Einrichten etwas klemmt
+
+| Meldung | Was dahintersteckt |
+| --- | --- |
+| `Die Benennung "git" wurde nicht als Name eines Cmdlet … erkannt` | Das Fenster kennt den neuen Suchpfad noch nicht, oder Git fehlt. Siehe unten. |
+| `npm : Die Datei …\npm.ps1 kann nicht geladen werden, da die Ausführung von Skripts auf diesem System deaktiviert ist` | Die `Set-ExecutionPolicy`-Zeile von oben fehlt noch. |
+| `Der Befehl "docusaurus" ist entweder falsch geschrieben oder konnte nicht gefunden werden` | `npm install` wurde noch nicht ausgeführt. |
+| `Unsupported engine` oder ein Abbruch beim Bauen | Node.js ist älter als Version 20. Mit `node -v` prüfen, die LTS-Version nachinstallieren, Fenster neu öffnen. |
+| `winget` wird nicht erkannt | Ältere Windows-Installation ohne App Installer. Die Programme von Hand installieren, Links oben. |
+
+Bleibt `git` unbekannt, obwohl du ein neues Fenster geöffnet hast, prüf zuerst,
+ob es überhaupt installiert ist:
+
+```powershell
+Test-Path "C:\Program Files\Git\cmd\git.exe"
+```
+
+`False` heisst: Die Installation lief nicht durch — nochmal starten und auf die
+Meldung am Ende achten. `True` heisst: Git ist da, nur das laufende Fenster
+kennt den Pfad nicht. Den lädst du so nach, ohne das Fenster zu schliessen:
+
+```powershell
+$env:Path = [System.Environment]::GetEnvironmentVariable("Path","Machine") + ";" + [System.Environment]::GetEnvironmentVariable("Path","User")
 ```
 
 ### Vorschau starten
@@ -923,11 +1012,22 @@ wenn etwas klemmt, siehst du es bei einer Seite schneller als bei hundert.
 | --- | --- |
 | `Not logged in · Please run /login` | `claude auth login` ausführen |
 | `Die Claude-Code-CLI wurde nicht gefunden` | mit dem Befehl oben installieren |
+| `Die Version von …\claude.exe ist mit der ausgeführten Windows-Version nicht kompatibel` | Die Installation wurde abgebrochen, `claude.exe` ist nur ein Platzhalter. Siehe unten. |
 | `Zeitüberschreitung nach 300s` | mit `--concurrency 1` wiederholen |
 | `Die Antwort beginnt nicht mit dem Frontmatter` | die Seite wurde nicht angefasst, einfach nochmal laufen lassen |
 
 Ein fehlgeschlagener Lauf hinterlässt keinen Schaden: Nur fertig übersetzte
 Seiten werden geschrieben, der Rest bleibt, wie er war.
+
+Die Meldung zu `claude.exe` hat eine eigene Ursache: Hat npm `ignore-scripts` gesetzt,
+bleibt nach `npm install -g @anthropic-ai/claude-code` nur eine wenige hundert
+Byte grosse Platzhalterdatei zurück, und Windows hält sie für ein Programm aus
+einer anderen Windows-Version. Nachinstallieren und die Einstellung umstellen:
+
+```powershell
+node "$env:APPDATA\npm\node_modules\@anthropic-ai\claude-code\install.cjs"
+npm config set ignore-scripts false
+```
 
 ### Hinterher prüfen
 

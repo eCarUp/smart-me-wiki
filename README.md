@@ -1,5 +1,10 @@
 # smart-me Support-Wiki
 
+| [Lokal einrichten](./LOKALINSTALLATION.md) | [Zu mehreren arbeiten](./ZUSAMMENARBEIT.md) | [Am Wiki mitarbeiten](./CONTRIBUTING.md) |
+| --- | --- | --- |
+| Git, Node.js und VS Code aufsetzen, Schritt für Schritt | Branch anlegen, zusammenführen, Konflikte lösen | Seiten, Bilder, Navigation, Übersetzungen |
+
+
 Das Support-Wiki der smart-me AG als [Docusaurus](https://docusaurus.io/)-Site.
 Es löst das bisherige Google-Sites-Wiki (`dok.smart-me.com`) ab und dient
 zugleich als Datenquelle für AI-Tools (Markdown im Repo + `llms.txt`).

@@ -11,11 +11,13 @@ steht in [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Das Prinzip
 
-- **`main` ist das, was online steht.** Darauf wird nie direkt gearbeitet.
+- **`main` ist das, was online steht.**
 - **Jeder arbeitet in einem eigenen Branch** — einer Abzweigung, in der nur du
-  schreibst. Was du dort tust, sieht niemand sonst, bis du es zeigst.
-- **Fertig heisst Pull Request.** Auf GitHub schlägst du vor, deinen Branch
-  nach `main` zu übernehmen. Jemand schaut drüber und führt ihn zusammen.
+  schreibst. Was du dort tust, stört niemanden.
+- **Fertig heisst: selbst zusammenführen.** Du holst dir `main` in deinen
+  Branch, prüfst, dass alles baut, und führst deinen Branch dann nach `main`.
+  **Pull Requests brauchen wir nicht** — wer die Änderung gemacht hat, bringt
+  sie auch nach `main`.
 - **Danach ist der Branch erledigt** und wird gelöscht. Für die nächste
   Änderung gibt es einen neuen.
 
@@ -24,10 +26,20 @@ Eng wird es nur dort, wo beide **dieselben Zeilen derselben Datei** ändern —
 dafür gibt es den Abschnitt
 [Wenn zwei dasselbe geändert haben](#wenn-zwei-dasselbe-geändert-haben).
 
+Weil niemand gegenliest, ist `npm run build` vor dem Zusammenführen die
+Prüfung. Rutscht trotzdem einmal etwas durch, ist das kein Drama: Der
+Veröffentlichungs-Lauf bricht ab, online bleibt der letzte funktionierende
+Stand, und du korrigierst es mit dem nächsten Commit.
+
 > Ein Pull Request mit dem Titel **„Übersetzungen aktualisieren"** taucht
-> regelmässig von selbst auf. Den erzeugt der Übersetzungs-Workflow, er gehört
-> niemandem. Nicht hineinarbeiten — nur zusammenführen, wenn die Sprachen
-> stimmen.
+> trotzdem regelmässig von selbst auf. Den erzeugt der Übersetzungs-Workflow,
+> er gehört niemandem. Nicht hineinarbeiten — nur zusammenführen, wenn die
+> Sprachen stimmen.
+
+> Für eine schnelle Korrektur an einer einzelnen Seite darfst du auch direkt
+> auf `main` arbeiten: **Pull**, ändern, committen, **Sync Changes**. Der
+> Branch lohnt sich, sobald es mehr als ein, zwei Seiten werden oder du länger
+> als einen Tag daran sitzt.
 
 ## Wo du gerade bist
 
@@ -93,8 +105,8 @@ geht — dein Branch liegt einfach auch auf GitHub.
 
 Das ist der Schritt, auf den es bei der Zusammenarbeit ankommt. Während du
 gearbeitet hast, haben andere `main` weiterentwickelt. Hol dir deren Stand in
-deinen Branch, **bevor** du den Pull Request öffnest — dann löst du mögliche
-Konflikte in Ruhe bei dir, statt dass sie im Pull Request auftauchen.
+deinen Branch, **bevor** du zusammenführst — dann löst du mögliche Konflikte in
+Ruhe bei dir, und der Schritt nach `main` läuft anschliessend glatt durch.
 
 1. **…** (*More Actions*) → **Fetch**.
 2. **Strg + Shift + P** → `Git: Merge...` → `origin/main` wählen.
@@ -113,29 +125,32 @@ npm run build
 `npm install` brauchst du nur, wenn sich `package-lock.json` geändert hat —
 schaden kann es nie. Danach **Sync Changes**.
 
-## Schritt 5: Den Pull Request öffnen
+**Erst weitergehen, wenn der Build durchläuft.** Das ist die einzige Prüfung,
+die zwischen dir und dem Live-Stand steht.
 
-1. Das Repository auf GitHub öffnen. Oben steht ein gelber Balken mit deinem
-   Branch und dem Knopf **Compare & pull request**.
-2. Titel und ein, zwei Sätze dazu, was geändert wurde und warum.
-3. **Create pull request**.
-4. Unten läuft automatisch eine Prüfung. Warte auf den **grünen Haken** — ein
-   rotes ✗ heisst, der Build ist gescheitert, meistens an einem Link, der ins
-   Leere zeigt. Ein Klick auf **Details** zeigt, woran es liegt. Du korrigierst
-   es in deinem Branch, committest und synchronisierst; der Pull Request
-   aktualisiert sich von selbst.
-5. Jemand aus dem Team schaut drüber und klickt auf **Merge pull request**,
-   danach auf **Delete branch**.
+## Schritt 5: Nach `main` zusammenführen
 
-Ab da ist die Änderung auf `main`, geht online und wird automatisch übersetzt.
-
-## Schritt 6: Aufräumen
-
-Nach dem Merge bei dir lokal:
+Jetzt bringst du deine Arbeit selbst nach `main`. Weil du in Schritt 4 schon
+`main` in deinen Branch geholt hast, ist das hier meist ein reines Nachziehen —
+Konflikte kommen an dieser Stelle normalerweise keine mehr.
 
 1. Unten links auf den Branch-Namen → `main` wählen.
 2. **…** (*More Actions*) → **Pull**.
-3. **Strg + Shift + P** → `Git: Delete Branch...` → den alten Branch wählen.
+3. **Strg + Shift + P** → `Git: Merge...` → deinen Branch wählen.
+4. **Sync Changes**.
+
+Ab da ist die Änderung auf `main`, geht online und wird automatisch übersetzt.
+
+Schau danach kurz auf GitHub unter **Actions** nach, ob die beiden Läufe grün
+durchgehen. Ist einer rot, ist nichts online gegangen — der bisherige Stand
+bleibt stehen, und du korrigierst es mit dem nächsten Commit. **Details** zeigt,
+woran es lag; meistens ein Link, der ins Leere zeigt.
+
+## Schritt 6: Aufräumen
+
+1. **Strg + Shift + P** → `Git: Delete Branch...` → den alten Branch wählen.
+2. Hast du ihn mit **Publish Branch** auf GitHub gelegt, lösch ihn auch dort:
+   im Repository auf **Branches**, dann das Papierkorb-Symbol.
 
 Für die nächste Änderung fängst du wieder bei Schritt 1 an.
 
@@ -198,8 +213,8 @@ Branch ist dann wieder so wie vor Schritt 4.
 | --- | --- |
 | `Your local changes ... would be overwritten by merge` | Du hast Änderungen, die noch nicht committet sind. Erst committen (Schritt 2), dann nochmal. |
 | `Updates were rejected because the remote contains work that you do not have` | Jemand hat in der Zwischenzeit gepusht. **Sync Changes** holt den Stand zuerst, danach geht der Push durch. |
-| Du hast aus Versehen auf `main` gearbeitet, **noch nicht committet** | Einfach jetzt einen Branch anlegen — die Änderungen wandern mit. |
-| Du hast aus Versehen auf `main` gearbeitet und **schon committet** | Nicht pushen. Branch anlegen (die Commits sind dann auch dort), dann `main` zurücksetzen lassen — frag dafür im Entwicklungsteam nach. |
+| Du hast auf `main` gearbeitet und willst doch einen Branch | Solange nichts committet ist: einfach jetzt einen anlegen, die Änderungen wandern mit. |
+| Ein Commit auf `main` war ein Fehler | Auf GitHub den Commit öffnen und auf **Revert** — das macht ihn mit einem Gegen-Commit rückgängig. Danach lokal **Pull**. |
 | Dein Branch ist völlig verfahren | Nichts geht verloren, was auf GitHub liegt. Im Zweifel: Ordner umbenennen, Repository neu klonen, Branch neu holen. |
 | VS Code zeigt Änderungen an Dateien, die du nie angefasst hast | Meist Zeilenenden. `.gitattributes` regelt das; melde es, statt die Dateien mitzucommitten. |
 
@@ -211,10 +226,12 @@ GitHub, und das lässt sich nur mit Mühe zurückholen.
 - **Sagt kurz, woran ihr arbeitet.** Eine Zeile im Chat — *„ich bin diese Woche
   an den Drittsysteme-Seiten"* — verhindert mehr Konflikte als jede Technik.
 - **Kleine Branches, kurze Laufzeit.** Ein Branch, der zwei Wochen offen ist,
-  kollidiert fast sicher. Lieber in zwei Pull Requests aufteilen.
-- **Nie direkt auf `main`**, auch wenn es technisch ginge.
-- **Pull Requests zügig anschauen.** Ein liegengebliebener Pull Request hält
-  die Arbeit von jemand anderem auf.
+  kollidiert fast sicher. Lieber in zwei Etappen aufteilen und die erste schon
+  zusammenführen.
+- **Vor dem Zusammenführen bauen.** `npm run build` ist bei uns die einzige
+  Prüfung — niemand fängt den Fehler sonst ab.
+- **Nicht auf einem Branch sitzen bleiben.** Fertig ist fertig: zusammenführen,
+  Branch löschen. Was wochenlang offen liegt, kollidiert und wird vergessen.
 
 ## Spickzettel
 
@@ -228,6 +245,7 @@ GitHub, und das lässt sich nur mit Mühe zurückholen.
 | Auf GitHub bringen | **Publish Branch**, danach **Sync Changes** |
 | Neuesten Stand holen, ohne zu ändern | **…** → **Fetch** |
 | `main` in meinen Branch holen | **Fetch**, dann `Git: Merge...` → `origin/main` |
+| Meinen Branch nach `main` bringen | auf `main` wechseln, **Pull**, `Git: Merge...` → mein Branch, **Sync Changes** |
 | Merge abbrechen | `Git: Abort Merge` |
 | Branch löschen | `Git: Delete Branch...` |
 

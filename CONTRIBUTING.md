@@ -72,16 +72,16 @@ kleines Fenster:
 
 - Ins erste Feld schreibst du kurz, was du geändert hast — zum Beispiel
   *„Telefonnummer im Support korrigiert"*.
-- Darunter wählst du **„Create a new branch for this commit and start a pull
-  request"**. Das ist der sichere Weg: deine Änderung wird erst geprüft.
-- Dann auf **„Propose changes"** und auf der nächsten Seite auf
-  **„Create pull request"**.
+- Darunter lässt du **„Commit directly to the main branch"** stehen. Mit Pull
+  Requests arbeiten wir im Wiki nicht.
+- Dann auf **„Commit changes"**.
 
-Fertig. Jemand aus dem Team schaut drüber und klickt auf „Merge". Danach ist die
-Änderung online und wird automatisch übersetzt.
+Fertig. Die Änderung ist online, sobald der Veröffentlichungs-Lauf
+durchgelaufen ist, und wird automatisch übersetzt.
 
-> Wenn du dir sicher bist und Schreibrechte hast, kannst du auch
-> **„Commit directly to the main branch"** wählen. Dann ist es sofort online.
+> Bist du dir unsicher, wähl stattdessen **„Create a new branch for this commit
+> and start a pull request"**. Dann liegt die Änderung erst einmal daneben, und
+> jemand kann drüberschauen, bevor sie online geht.
 
 ---
 
@@ -282,8 +282,8 @@ Bild am linken Rand der Spalte.
    dort heisst das Attribut so. Schreib es ab wie im Beispiel.
 2. **Jedes `<div>` wieder schliessen.** Im Beispiel sind es drei öffnende und
    drei schliessende. Fehlt ein `</div>`, bricht der Build mit einer
-   Fehlermeldung ab — die Seite geht also nicht kaputt online, du siehst beim
-   Pull Request ein rotes ✗.
+   Fehlermeldung ab — die Seite geht also nicht kaputt online, du siehst es auf
+   GitHub unter **Actions** als rotes ✗.
 3. **Leerzeilen um den Inhalt** sind nicht zwingend, machen den Quelltext aber
    deutlich lesbarer. Halt dich ans Beispiel, dann passt es.
 
@@ -622,9 +622,9 @@ Soll deine Seite eine eigene Gruppe mit Unterseiten werden, legst du einen
 Ordner mit einer `index.md` darin an und schreibst statt der einzelnen Zeile
 einen `category`-Block nach dem Muster oben.
 
-Arbeitest du über GitHub im Browser und traust dir das nicht zu: schreib
-einfach in die Beschreibung deines Pull Requests, wo die Seite hingehört.
-Jemand aus dem Entwicklungsteam trägt sie ein.
+Arbeitest du über GitHub im Browser und traust dir das nicht zu: schreib in die
+Commit-Nachricht, wo die Seite hingehört, und sag im Entwicklungsteam Bescheid.
+Jemand trägt sie dann ein.
 
 ---
 
@@ -832,7 +832,8 @@ npm install
 >
 > **Arbeitet ihr zu mehreren am Wiki?** Dann gehört
 > [ZUSAMMENARBEIT.md](ZUSAMMENARBEIT.md) dazu: Branch anlegen, `main`
-> nachziehen, Pull Request, und was bei einem Merge-Konflikt zu tun ist.
+> nachziehen, selbst zusammenführen, und was bei einem Merge-Konflikt zu tun
+> ist.
 
 ### Vorschau starten
 
@@ -1015,12 +1016,15 @@ haben — es entsteht also kein unnötiger Aufwand.
 
 ## Wenn etwas schiefgeht
 
-Nach jeder Änderung läuft automatisch eine Prüfung. Siehst du beim Pull Request
-ein **rotes ✗** statt eines grünen Hakens, hat der Build ein Problem gefunden —
-meistens ein Link, der ins Leere zeigt, oder eines der Sonderzeichen von oben.
+Nach jeder Änderung läuft automatisch eine Prüfung. Siehst du auf GitHub unter
+**Actions** ein **rotes ✗** statt eines grünen Hakens, hat der Build ein Problem
+gefunden — meistens ein Link, der ins Leere zeigt, oder eines der Sonderzeichen
+von oben.
 
-Das ist nicht schlimm und geht nicht online. Klick auf **„Details"**, um zu
-sehen, was fehlt, oder frag im Entwicklungsteam nach.
+Das ist nicht schlimm, und online geht es nicht: Bricht der Build ab, bleibt der
+zuletzt funktionierende Stand stehen. Klick auf **„Details"**, um zu sehen, was
+fehlt, oder frag im Entwicklungsteam nach. Korrigiert wird es mit dem nächsten
+Commit.
 
 Und falls doch einmal etwas kaputtgeht: In GitHub ist jede Änderung
 nachvollziehbar und lässt sich mit einem Klick rückgängig machen. Du kannst

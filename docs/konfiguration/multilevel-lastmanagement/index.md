@@ -16,10 +16,7 @@ Webinar Multilevel Lastmanagement (50 Min)
 
 - Alle Wenn/Dann-Regelungen mit Pico sind gelöscht worden, um keine gegenteiligen Befehle zum MLM zu senden.
 
-- Stand: 12.03.2024
-    Kein Anspruch für Lastabwurf über Telstar Eingangskontakte --> Release der Lösung in MLM folgt.
-
-- Lastmanagement geht nur mit Telstar CT / Telstar 80A oder Nimbus
+- Lastmanagement des MLM geht nur mit Telstar CT / Telstar 80A, alternativ können Picos direkt verdrahtet werden.
 
 
 ## Dynamisches Multilevel Lastmanagement

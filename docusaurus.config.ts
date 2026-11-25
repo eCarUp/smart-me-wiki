@@ -13,7 +13,7 @@ const baseUrl = process.env.BASE_URL ?? '/';
 const config: Config = {
   title: 'smart-me Support',
   tagline: 'Dokumentation und Support für smart-me Produkte',
-  favicon: 'img/smartme-logo.png',
+  favicon: 'img/favicon-sm.svg',
 
   url,
   baseUrl,

@@ -1012,6 +1012,26 @@ zusammenführen.
 Übersetzt werden nur Seiten, die sich seit der letzten Übersetzung geändert
 haben — es entsteht also kein unnötiger Aufwand.
 
+### Eine Seite von der Übersetzung ausnehmen
+
+Manche Seiten sind sprachspezifisch: Die Schulungsunterlagen gibt es je Sprache
+als eigene Seite mit eigenem Link, und eine maschinelle Übersetzung der
+deutschen Fassung wäre dort schlicht falsch. Solche Seiten bekommen eine Zeile
+im Kopfbereich:
+
+```yaml
+uebersetzen: false
+```
+
+Damit überspringt `npm run translate` die Seite in allen Sprachen. Es entsteht
+keine Fassung unter `i18n/`, und weil dort nichts liegt, meldet auch
+`npm run translate:check` nichts. Besucher einer anderen Sprachfassung
+bekommen die deutsche Seite zu sehen.
+
+**Sparsam einsetzen.** Für normale Inhalte ist die Übersetzung gewollt — diese
+Zeile ist für die Handvoll Seiten gedacht, die es bewusst nur in einer Sprache
+gibt.
+
 ---
 
 ## Wenn etwas schiefgeht

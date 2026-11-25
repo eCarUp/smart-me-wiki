@@ -48,6 +48,11 @@ Sprache der Hash der deutschen Datei, aus der die Fassung entstanden ist, und
 woher sie stammt. Die Datei gehört ins Repository und wird von den Scripts
 gepflegt — nicht von Hand ändern.
 
+Eine Seite mit `uebersetzen: false` im Frontmatter überspringt `planJobs` in
+allen Sprachen (`nichtUebersetzen` in `scripts/translate.ts`). Gedacht ist das
+für sprachspezifische Seiten wie die Schulungsunterlagen, die es je Sprache als
+eigene Seite gibt.
+
 `origin: 'translated'` heisst: von dieser Pipeline erzeugt.
 `origin: 'adopted'` heisst: eigenständig geschriebener Bestandsinhalt aus dem
 alten englischen Wiki. Solche Seiten dürfen strukturell von der deutschen

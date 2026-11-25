@@ -50,6 +50,23 @@ export function istTeilstueck(pfad: string): boolean {
   return pfad.split(/[\\/]/).some((teil) => teil.startsWith('_'));
 }
 
+/**
+ * Ist die Seite von der Übersetzung ausgenommen?
+ *
+ * Manche Seiten sind sprachspezifisch: Die Schulungsunterlagen etwa gibt es je
+ * Sprache als eigene Seite mit eigenem Link — eine maschinelle Übersetzung der
+ * deutschen Fassung wäre dort falsch. Solche Seiten tragen
+ *
+ *     uebersetzen: false
+ *
+ * im Frontmatter. `planJobs` überspringt sie dann in allen Sprachen, und weil
+ * keine Zielseite entsteht, lässt auch `translate:check` sie aus.
+ */
+export function nichtUebersetzen(inhalt: string): boolean {
+  const kopf = splitFrontmatter(inhalt);
+  return kopf ? kopf.lines.some((zeile) => /^uebersetzen:\s*false\s*$/.test(zeile)) : false;
+}
+
 const LANGUAGE_NAMES: Record<Locale, string> = {
   en: 'Englisch',
   fr: 'Französisch (Schweiz)',
@@ -153,6 +170,7 @@ export async function planJobs(opts: {
 
   for (const source of sources) {
     const content = await readFile(source, 'utf8');
+    if (nichtUebersetzen(content)) continue;
     const sourceHash = hashOf(content);
     const relativePath = source.slice(`${DOCS_ROOT}/`.length);
 

@@ -1,34 +1,34 @@
 ---
 title: 'Conteggio dell''energia (Svizzera)'
 slug: '/konfiguration/billing'
-description: 'Per poter emettere conteggi dei costi energetici ti serve un abbonamento smart-me Professional.'
+description: 'Per poter allestire i conteggi dei costi energetici ti serve un abbonamento smart-me Professional.'
 sidebar_label: 'Fatturazione'
 naechste_schritte: [konfiguration/billing/einstellungen]
 vorheriger_schritt: konfiguration/wenndann-aktionen/alarme
 ---
 <Menueweg>Fatturazione</Menueweg>
 
-<Knopf href="/konfiguration/billing-deutschland">Vai al conteggio per la Germania</Knopf>
+<Knopf href="/konfiguration/billing-deutschland">Al conteggio per la Germania</Knopf>
 
 ### Requisito
 
-Per poter emettere conteggi dei costi energetici ti serve un abbonamento smart-me Professional. 
+Per poter allestire i conteggi dei costi energetici ti serve un abbonamento smart-me Professional. 
 
 ## Configurare il conteggio passo dopo passo
 
-Con queste istruzioni passo dopo passo vogliamo aiutarti nella configurazione del tuo Billing. Tieni presente che si tratta solo di un esempio a cui puoi fare riferimento. A seconda della struttura del tuo immobile, ci saranno differenze rispetto al nostro esempio. 
+Con queste istruzioni passo dopo passo vogliamo aiutarti a configurare il tuo Billing. Tieni presente che si tratta solo di un esempio a cui puoi fare riferimento. A seconda della struttura del tuo immobile, ci saranno differenze rispetto al nostro esempio. 
 
-Ogni passo ha una propria pagina. Puoi seguirle in ordine — in fondo a ogni pagina è indicato come proseguire — oppure saltare direttamente da qui al punto in cui ti trovi.
+Ogni passo ha una sua pagina. Puoi seguirle in ordine (in fondo a ogni pagina trovi il passo successivo) oppure passare da qui direttamente al punto in cui ti trovi.
 
 <Ablauf land="ch" bis="konfiguration/billing/rechnung-erstellen" />
 
 ## Strumenti
 
-[Calcolatore delle tariffe elettriche smart-me](/konfiguration/billing/stromtarife-definieren/stromtarif-rechner)
+[Calcolatore della tariffa elettrica smart-me](/konfiguration/billing/stromtarife-definieren/stromtarif-rechner)
 
 ## Webinar smart-me Billing dalla A alla Z
 
-Nel nostro webinar viene spiegato passo dopo passo come emettere conteggi dei costi energetici con lo strumento Billing:
+Il nostro webinar spiega passo dopo passo come allestire i conteggi dei costi energetici con lo strumento Billing:
 
 <div className="row">
 <div className="col col--6">
@@ -91,9 +91,6 @@ Nella vista standard della cartella dell'unità di conteggio (ad es. un appartam
 
 ### Come viene ripartita l'energia solare
 
-<div className="row">
-<div className="col col--7">
-
 La piattaforma smart-me utilizza il contatore di produzione (contatore FV) per determinare la quantità di energia elettrica prodotta e il contatore virtuale del consumo totale per determinare la quantità di energia elettrica consumata. Da questi dati viene calcolata una quota percentuale di energia solare. 
 
 Ogni contatore elettrico (inquilino) ha quindi diritto alla stessa quota di energia solare ogni 15 minuti, ad es. il 40% del suo consumo in kWh.
@@ -110,10 +107,8 @@ Esempio di ripartizione dell'energia solare
 
 La precisione può essere migliorata configurando il contatore di bilancio per la tariffa solare.
 
-</div>
-<div className="col col--5 bild--mitte">
+<div className="bild--voll">
 
 ![Billing: conteggio dell'energia – Figura 13](/img/konfiguration-billing/13.png)
 
-</div>
 </div>

@@ -18,7 +18,7 @@ Vous avez besoin d'un abonnement smart-me Professional pour pouvoir établir des
 
 Ce guide étape par étape a pour but de vous aider à configurer votre Billing. Veuillez noter qu'il ne s'agit que d'un exemple dont vous pouvez vous inspirer. Selon la structure de votre immeuble, il y aura des différences par rapport à notre exemple. 
 
-Chaque étape a sa propre page. Vous pouvez les parcourir dans l'ordre — au bas de chaque page, vous trouverez la suite — ou passer directement d'ici à l'étape où vous en êtes.
+Chaque étape a sa propre page. Vous pouvez les parcourir dans l'ordre — au bas de chaque page figure la suite — ou passer directement d'ici à l'étape où vous en êtes.
 
 <Ablauf land="ch" bis="konfiguration/billing/rechnung-erstellen" />
 
@@ -79,24 +79,21 @@ Contenu de la vidéo
 <div className="row">
 <div className="col col--7">
 
-Dans la vue standard du dossier de l'unité de décompte (p. ex. un appartement), une nouvelle tuile s'affiche désormais. Elle indique les relevés du compteur pour les tarifs virtuels. Un clic sur cette tuile affiche le profil de charge des tarifs virtuels. 
+Une nouvelle tuile s'affiche désormais dans la vue standard du dossier de l'unité de décompte (p. ex. un appartement). Elle indique les relevés du compteur pour les tarifs virtuels. Un clic sur cette tuile affiche la courbe de charge des tarifs virtuels. 
 
 </div>
 <div className="col col--5 bild--mitte">
 
-![Billing : décompte de l'énergie – illustration 12](/img/konfiguration-billing/12.jpg)
+![Décompte de l'énergie – Illustration 12](/img/konfiguration-billing/12.jpg)
 
 </div>
 </div>
 
 ### Comment l'électricité solaire est-elle répartie
 
-<div className="row">
-<div className="col col--7">
-
 La plateforme smart-me utilise le compteur de production (compteur PV) pour déterminer la quantité d'électricité produite et le compteur virtuel de consommation totale pour déterminer la quantité d'électricité consommée. Une part en pourcentage de l'électricité solaire en est déduite. 
 
-Chaque compteur électrique (locataire) a ainsi droit à la même part d'électricité solaire par tranche de 15 minutes, p. ex. 40 % de sa consommation en kWh.
+Chaque compteur d'électricité (locataire) a ainsi droit à la même part d'électricité solaire par tranche de 15 minutes, p. ex. 40 % de sa consommation en kWh.
 
 Exemple de répartition de l'électricité solaire
 
@@ -110,10 +107,8 @@ Exemple de répartition de l'électricité solaire
 
 La précision peut être améliorée en configurant le compteur de bilan pour le tarif solaire.
 
-</div>
-<div className="col col--5 bild--mitte">
+<div className="bild--voll">
 
-![Billing : décompte de l'énergie – illustration 13](/img/konfiguration-billing/13.png)
+![Décompte de l'énergie – Illustration 13](/img/konfiguration-billing/13.png)
 
-</div>
 </div>

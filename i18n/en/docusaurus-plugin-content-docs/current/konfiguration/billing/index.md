@@ -10,15 +10,15 @@ vorheriger_schritt: konfiguration/wenndann-aktionen/alarme
 
 <Knopf href="/konfiguration/billing-deutschland">Go to billing for Germany</Knopf>
 
-### Prerequisite
+### Requirement
 
 You need a smart-me Professional subscription to create energy cost bills. 
 
-## Configuring billing step by step
+## Configure billing step by step
 
-This step-by-step guide is intended to support you in configuring your billing. Please note that this is only an example you can use for orientation. Depending on the setup of your property, there will be differences from our example. 
+This step-by-step guide is meant to help you configure your billing. Please note that this is only an example you can use as orientation. Depending on how your property is set up, there will be differences from our example. 
 
-Each step has its own page. You can work through them in order — the bottom of each page tells you what comes next — or jump directly from here to wherever you currently are.
+Each step has its own page. You can work through them in order — the bottom of each page tells you how to continue — or jump straight to the step you are at from here.
 
 <Ablauf land="ch" bis="konfiguration/billing/rechnung-erstellen" />
 
@@ -40,9 +40,9 @@ Our webinar explains step by step how to create energy cost bills with the billi
 
 <Video src="mK1HYLRtBUI" title="YouTube video, smart-me Billing - virtual tariffs, peak power, changing meter rental" />
 
-Video content
+Video contents
 
-- Configuring peak tariff and off-peak tariff to a single tariff
+- Configuring peak and off-peak tariff as a uniform tariff
 
 - Adjusting the prices of the virtual tariffs
 
@@ -58,14 +58,14 @@ Video content
 <div className="row">
 <div className="col col--6 bild--mitte">
 
-<Embed src="https://drive.google.com/file/d/1vVJ5y0_sV8l2NgH8Pf-gJCn36MmDXWfe/preview" height="340px" title="Drive, example energy cost bill, Beispiel Energiekostenabrechnung.pdf" />
+<Embed src="https://drive.google.com/file/d/1vVJ5y0_sV8l2NgH8Pf-gJCn36MmDXWfe/preview" height="340px" title="Drive, example energy cost bill.pdf" />
 
 [Example: electricity billing (.pdf)](https://drive.google.com/file/d/1vVJ5y0_sV8l2NgH8Pf-gJCn36MmDXWfe/view?usp=sharing)
 
 </div>
 <div className="col col--6 bild--mitte">
 
-<Embed src="https://drive.google.com/file/d/1-YR543M1bawFrKgrj-MsQR5Es_wKFzRu/preview" height="340px" title="Drive, example VEWA heating cost invoice, Beispiel Rechnung VEWA Heizkosten.pdf" />
+<Embed src="https://drive.google.com/file/d/1-YR543M1bawFrKgrj-MsQR5Es_wKFzRu/preview" height="340px" title="Drive, example invoice VEWA heating costs.pdf" />
 
 [Example: VEWA billing (.pdf)](https://drive.google.com/file/d/1-YR543M1bawFrKgrj-MsQR5Es_wKFzRu/view?usp=sharing)
 
@@ -79,7 +79,7 @@ Video content
 <div className="row">
 <div className="col col--7">
 
-A new tile is now shown in the default view of the folder of the billing unit (e.g. an apartment). It displays the meter readings for the virtual tariffs. Clicking this tile displays the load profile for the virtual tariffs. 
+A new tile is now shown in the default view of the folder of the billing unit (e.g. an apartment). It shows the meter readings for the virtual tariffs. Clicking this tile displays the load profile for the virtual tariffs. 
 
 </div>
 <div className="col col--5 bild--mitte">
@@ -89,10 +89,7 @@ A new tile is now shown in the default view of the folder of the billing unit (e
 </div>
 </div>
 
-### How the solar power is allocated
-
-<div className="row">
-<div className="col col--7">
+### How is the solar power allocated
 
 The smart-me platform uses the production meter (PV meter) to determine the amount of electricity generated and the virtual total consumption meter to determine the amount of electricity consumed. From this, a percentage share of solar power is calculated. 
 
@@ -110,10 +107,8 @@ Example of solar power allocation
 
 Accuracy can be improved by configuring the balance meter for the solar tariff.
 
-</div>
-<div className="col col--5 bild--mitte">
+<div className="bild--voll">
 
 ![Energy Billing – Figure 13](/img/konfiguration-billing/13.png)
 
-</div>
 </div>

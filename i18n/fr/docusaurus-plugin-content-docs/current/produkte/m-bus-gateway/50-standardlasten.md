@@ -1,21 +1,21 @@
 ---
-title: 'Passerelle M-Bus'
+title: 'M-Bus Gateway'
 slug: '/produkte/m-bus-gateway/50-standardlasten'
-description: 'La passerelle M-Bus smart-me avec convertisseur de niveau intégré pour 50 charges standard M-Bus : caractéristiques techniques, schéma de raccordement, fonction de la touche et téléchargements.'
-sidebar_label: 'Passerelle M-Bus'
+description: 'Le M-Bus Gateway smart-me avec convertisseur de niveau intégré pour 50 charges standard M-Bus : caractéristiques techniques, schéma de raccordement, fonction de la touche et téléchargements.'
+sidebar_label: 'M-Bus Gateway'
 ---
-La passerelle M-Bus avec convertisseur de niveau intégré pour 50 charges standard M-Bus. La liste de compatibilité, la mise en service et les prescriptions d'installation s'appliquent aux deux appareils et figurent sur la [page d'aperçu](/produkte/m-bus-gateway).
+Le M-Bus Gateway avec convertisseur de niveau intégré pour 50 charges standard M-Bus. La liste de compatibilité, la mise en service et les prescriptions d'installation s'appliquent aux deux appareils et figurent sur la [page d'aperçu](/produkte/m-bus-gateway).
 
 ## Fonctions
 
-- [Installation](/konfiguration/inbetriebnahme) avec l'app smart-me gratuite.
+- [Installation](/konfiguration/inbetriebnahme) avec l'application smart-me gratuite.
 
 - Convertisseur de niveau intégré pour 50 charges M-Bus
 
 - Bloc d'alimentation intégré
 
 - Prend en charge les appareils M-Bus selon EN 13757-2, -3 (anciennement EN 1434-3)
-    La norme définit le protocole, mais pas les données transmises. Le respect de la norme ne garantit donc pas à lui seul le bon fonctionnement effectif. Consultez notre [liste de compatibilité](/produkte/m-bus-gateway).
+    La norme définit le protocole, mais pas les données transmises. Le respect de la norme ne garantit donc pas à lui seul le fonctionnement effectif. Consultez notre [liste de compatibilité](/produkte/m-bus-gateway).
 
 - Facturation avec le [smart-me Billing Tool](/konfiguration/billing)
 
@@ -23,10 +23,10 @@ La passerelle M-Bus avec convertisseur de niveau intégré pour 50 charges stand
 
 - [Interfaces](/schnittstellen/api) via API, CSV, MSCONS et IS-E
 
-- Connexion de données chiffrée en temps réel vers le cloud smart-me
+- Connexion de données cryptée en temps réel vers le cloud smart-me
 
 
-![Passerelle M-Bus – Figure 1](/img/produkte-m-bus-gateway/01.jpg)
+![M-Bus Gateway – Figure 1](/img/produkte-m-bus-gateway/01.jpg)
 
 ## Caractéristiques techniques
 
@@ -35,7 +35,7 @@ La passerelle M-Bus avec convertisseur de niveau intégré pour 50 charges stand
 | Certification du produit | CE |
 | Tension réseau | 100-240 VAC 50/60 Hz |
 | Plage de température | -25°C à +55°C |
-| Humidité relative | Moyenne annuelle 75%, sans condensation<br />brièvement 95%, sans condensation |
+| Humidité relative | Moyenne annuelle 75 %, sans condensation<br />brièvement 95 %, sans condensation |
 | Interfaces | WLAN, M-BUS |
 | Communication | WLAN IEEE 802.11 b/g/n (2.4 GHz) |
 | Norme de sécurité WLAN | WEP, WPA-PSK/WPA2-PSK |
@@ -65,17 +65,17 @@ Poids avec emballage : 150g
 
 ## Schéma de raccordement
 
-![Passerelle M-Bus – Figure 2](/img/produkte-m-bus-gateway/02.png)
+![M-Bus Gateway – Figure 2](/img/produkte-m-bus-gateway/02.png)
 
 ## Fonction de la touche
 
-Touche T(4) pour l'installation
+T(4) Touche pour l'installation
 
-Un appui de 10 secondes sur la touche T(4) crée un réseau WiFi local pour l'installation
+Si la touche T(4) est maintenue enfoncée pendant 10 secondes, un réseau WiFi local est créé pour l'installation
 
 ## Dimensions
 
-![Passerelle M-Bus – Figure 3](/img/produkte-m-bus-gateway/03.png)
+![M-Bus Gateway – Figure 3](/img/produkte-m-bus-gateway/03.png)
 
 ## Téléchargements et déclaration de conformité
 
@@ -85,7 +85,7 @@ Un appui de 10 secondes sur la touche T(4) crée un réseau WiFi local pour l'in
 
 [Déclaration de conformité CE](https://drive.google.com/uc?export=download&id=1odJhCBvyeIZ6kSS7uz3Wtx1tB-1BQGSa)
 
-[Fichiers ZIP du schéma de raccordement](https://drive.google.com/uc?export=download&id=1aWqGhEJNUqLfAEyXakRlTvbjRjgCZhvd)
+[Schéma de raccordement fichiers ZIP](https://drive.google.com/uc?export=download&id=1aWqGhEJNUqLfAEyXakRlTvbjRjgCZhvd)
 
 (Les données \*.DXF et \*.DWG se trouvent dans l'archive ZIP)
 

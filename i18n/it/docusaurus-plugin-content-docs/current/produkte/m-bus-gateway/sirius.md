@@ -4,18 +4,18 @@ slug: '/produkte/m-bus-gateway/sirius'
 description: 'Il gateway M-Bus Sirius di smart-me con convertitore di livello integrato per 250 carichi standard M-Bus: dati tecnici, schema di collegamento, funzioni dei tasti e download.'
 sidebar_label: 'M-Bus Gateway Sirius'
 ---
-Il Sirius è il più grande dei due dispositivi: ha un convertitore di livello integrato per 250 carichi standard M-Bus ed è pensato per grandi infrastrutture edilizie. L'elenco di compatibilità, la messa in servizio e le prescrizioni d'installazione valgono per entrambi i dispositivi e si trovano nella [pagina panoramica](/produkte/m-bus-gateway).
+Il Sirius è il più grande dei due dispositivi: convertitore di livello integrato per 250 carichi standard M-Bus, pensato per grandi infrastrutture edilizie. L'elenco di compatibilità, la messa in servizio e le prescrizioni d'installazione valgono per entrambi i dispositivi e si trovano nella [pagina panoramica](/produkte/m-bus-gateway).
 
 ## Funzioni
 
-- [Installazione](/konfiguration/inbetriebnahme) con l'app gratuita di smart-me.
+- [Installazione](/konfiguration/inbetriebnahme) con l'app gratuita smart-me.
 
 - Convertitore di livello integrato per 250 carichi standard M-Bus
 
 - Alimentatore integrato
 
-- Supporta i dispositivi M-Bus secondo EN 13757-2, -3 (in precedenza EN 1434-3).
-    Lo standard definisce il protocollo, ma non i dati contenuti. Il rispetto della norma da solo non garantisce quindi il funzionamento effettivo. Consulta il nostro [elenco di compatibilità](/produkte/m-bus-gateway).
+- Supporta dispositivi M-Bus secondo EN 13757-2, -3 (in precedenza EN 1434-3).
+    Lo standard definisce il protocollo, ma non i dati contenuti. La sola conformità alla norma non garantisce quindi il funzionamento effettivo. Consulta il nostro [elenco di compatibilità](/produkte/m-bus-gateway).
 
 - Fatturazione con lo [smart-me Billing Tool](/konfiguration/billing)
 
@@ -23,7 +23,7 @@ Il Sirius è il più grande dei due dispositivi: ha un convertitore di livello i
 
 - [Interfacce](/schnittstellen/api) tramite API, CSV, MSCONS e IS-E
 
-- Connessione dati crittografata in tempo reale verso il cloud di smart-me
+- Connessione dati crittografata in tempo reale verso il cloud smart-me
 
 
 ![M-Bus Gateway Sirius – Figura 4](/img/produkte-m-bus-gateway/04.png)
@@ -40,26 +40,26 @@ Il Sirius è il più grande dei due dispositivi: ha un convertitore di livello i
 | Comunicazione | WLAN IEEE 802.11 b/g/n (2.4 GHz) |
 | Standard di sicurezza WLAN | WEP, WPA-PSK/WPA2-PSK |
 | Numero di slave M-BUS | 250 carichi standard |
-| Baud rate M-BUS | 300, 2400, 9600 (ricerca e rilevamento automatici) |
+| Baudrate M-BUS | 300, 2400, 9600 (ricerca e rilevamento automatici) |
 | Separazione galvanica | Presente |
 | Memoria dati | 131'056 letture<br />Intervallo di 15min:<br />10 dispositivi: ~136 giorni<br />50 dispositivi: ~27 giorni<br />250 dispositivi: ~5 giorni |
 | Aggiornamento del firmware | Possibile online |
 | Immunità EMC | EN 61000-6-2 (ambiente industriale) |
 | Emissioni EMC | EN 61000-6-3 (ambiente residenziale) |
-| Grado di protezione involucro/collegamenti, utilizzo | IP20 / IP51 (installato nel quadro elettrico), interno |
+| Grado di protezione involucro/collegamenti, utilizzo | IP20 / IP51 (installato in quadro elettrico), interni |
 | Montaggio | Guida DIN |
-| Dimensioni | 6 moduli, W:105mm H:90mm D:65.7mm |
-| Ubicazione dei server | Svizzera |
+| Dimensioni | 6 moduli, L:105mm A:90mm P:65.7mm |
+| Ubicazione del server | Svizzera |
 | Classe di protezione | II |
-| Volume di dati | ≤ 1KB per dispositivo per lettura |
+| Quantità di dati | ≤ 1KB per dispositivo per lettura |
 | Ultima modifica | 26.03.2026 |
 
 ## Informazioni di spedizione
 
-Numero d'articolo: 262090
-Nome dell'articolo: smart-me M-Bus Gateway Sirius
+Numero articolo: 262090
+Nome articolo: smart-me M-Bus Gateway Sirius
 
-Voce di tariffa doganale: 9028.9000
+Numero di tariffa doganale: 9028.9000
 
 Peso con imballaggio: 260g
 
@@ -77,7 +77,7 @@ Tasto di reset (T2)
 
 Premere brevemente una volta = Legge gli slave MBUS
 
-Pressione prolungata = Esegue la scansione dell'M-BUS
+Pressione prolungata = Esegue la scansione del M-BUS
 
 Tasto di installazione (T1) e tasto di reset (T2) contemporaneamente
 
@@ -85,9 +85,9 @@ Pressione prolungata = Riavvia il dispositivo
 
 ## Download e dichiarazione di conformità
 
-[Scheda tecnica in tedesco](https://drive.google.com/uc?export=download&id=1Z6PuaBpdTn4L-C8pjyz8fmIWStQGZ9wB)
+[Scheda tecnica tedesco](https://drive.google.com/uc?export=download&id=1Z6PuaBpdTn4L-C8pjyz8fmIWStQGZ9wB)
 
-[Scheda tecnica in inglese](https://drive.google.com/uc?export=download&id=1-5Mgp7s1IxnqqzxtS7tYg0dlcXQ8Bhjd)
+[Scheda tecnica inglese](https://drive.google.com/uc?export=download&id=1-5Mgp7s1IxnqqzxtS7tYg0dlcXQ8Bhjd)
 
 [Dichiarazione di conformità CE](https://drive.google.com/uc?export=download&id=1BC3GzxyQl_Rweyo2YkghBBnUSanmdk1J)
 

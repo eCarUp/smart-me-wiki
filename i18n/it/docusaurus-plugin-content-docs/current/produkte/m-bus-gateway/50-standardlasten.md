@@ -4,7 +4,7 @@ slug: '/produkte/m-bus-gateway/50-standardlasten'
 description: 'Lo smart-me M-Bus Gateway con convertitore di livello integrato per 50 carichi standard M-Bus: dati tecnici, schema di collegamento, funzione del tasto e download.'
 sidebar_label: 'M-Bus Gateway'
 ---
-L'M-Bus Gateway con convertitore di livello integrato per 50 carichi standard M-Bus. L'elenco di compatibilità, la messa in servizio e le istruzioni di installazione valgono per entrambi i dispositivi e si trovano nella [pagina di panoramica](/produkte/m-bus-gateway).
+L'M-Bus Gateway con convertitore di livello integrato per 50 carichi standard M-Bus. L'elenco di compatibilità, la messa in servizio e le istruzioni di installazione valgono per entrambi i dispositivi e si trovano nella [pagina panoramica](/produkte/m-bus-gateway).
 
 ## Funzioni
 
@@ -15,7 +15,7 @@ L'M-Bus Gateway con convertitore di livello integrato per 50 carichi standard M-
 - Alimentatore integrato
 
 - Supporta dispositivi M-Bus secondo EN 13757-2, -3 (in precedenza EN 1434-3)
-    Lo standard definisce il protocollo, ma non i dati contenuti. Il rispetto della norma da solo non garantisce quindi il funzionamento effettivo. Consultate il nostro [elenco di compatibilità](/produkte/m-bus-gateway).
+    Lo standard definisce il protocollo, ma non i dati contenuti. Il solo rispetto della norma non garantisce quindi il funzionamento effettivo. Verifichi il nostro [elenco di compatibilità](/produkte/m-bus-gateway).
 
 - Fatturazione con lo [smart-me Billing Tool](/konfiguration/billing)
 
@@ -23,7 +23,7 @@ L'M-Bus Gateway con convertitore di livello integrato per 50 carichi standard M-
 
 - [Interfacce](/schnittstellen/api) tramite API, CSV, MSCONS e IS-E
 
-- Connessione dati crittografata in tempo reale verso lo smart-me Cloud
+- Connessione dati crittografata in tempo reale con la smart-me Cloud
 
 
 ![M-Bus Gateway – Figura 1](/img/produkte-m-bus-gateway/01.jpg)
@@ -34,7 +34,7 @@ L'M-Bus Gateway con convertitore di livello integrato per 50 carichi standard M-
 | --- | --- |
 | Certificazione del prodotto | CE |
 | Tensione di rete | 100-240 VAC 50/60 Hz |
-| Intervallo di temperatura | Da -25°C a +55°C |
+| Intervallo di temperatura | da -25°C a +55°C |
 | Umidità relativa | Media annua 75%, senza condensa<br />temporaneamente 95%, senza condensa |
 | Interfacce | WLAN, M-BUS |
 | Comunicazione | WLAN IEEE 802.11 b/g/n (2.4 GHz) |
@@ -46,10 +46,10 @@ L'M-Bus Gateway con convertitore di livello integrato per 50 carichi standard M-
 | Aggiornamento del firmware | Possibile online |
 | Immunità EMC | EN 61000-6-2 (ambiente industriale) |
 | Emissioni EMC | EN 61000-6-3 (ambiente residenziale) |
-| Grado di protezione involucro/collegamenti, utilizzo | IP20 / IP51 (montato in quadro elettrico), interni |
+| Grado di protezione involucro/collegamenti, utilizzo | IP20 / IP51 (installato in quadro elettrico), interno |
 | Montaggio | Guida DIN |
-| Dimensioni | 2 moduli, L:90mm P:36mm A:65.7mm |
-| Ubicazione dei server | Svizzera |
+| Dimensioni | 2 moduli, L:90mm B:36mm H:65.7mm |
+| Ubicazione del server | Svizzera |
 | Classe di protezione | II |
 | Quantità di dati | ≤ 1KB per dispositivo per lettura |
 | Ultima modifica | 25.09.2023 |
@@ -79,13 +79,13 @@ Se il tasto T(4) viene premuto per 10 secondi, viene generata una rete WiFi loca
 
 ## Download e dichiarazione di conformità
 
-[Scheda tecnica tedesco](https://docs.google.com/presentation/d/121Tg5PlW5e64AX4FcuGbXd7CGFtsYCXUqwu613HSqhA/export/pdf)
+[Scheda tecnica in tedesco](https://docs.google.com/presentation/d/121Tg5PlW5e64AX4FcuGbXd7CGFtsYCXUqwu613HSqhA/export/pdf)
 
-[Scheda tecnica inglese](https://docs.google.com/presentation/d/1Hr73_7JLlAxQN-0gFWahg7htdQYM_JwMQ0E9I7TT6pM/export/pdf)
+[Scheda tecnica in inglese](https://docs.google.com/presentation/d/1Hr73_7JLlAxQN-0gFWahg7htdQYM_JwMQ0E9I7TT6pM/export/pdf)
 
 [Dichiarazione di conformità CE](https://drive.google.com/uc?export=download&id=1odJhCBvyeIZ6kSS7uz3Wtx1tB-1BQGSa)
 
-[Schema di collegamento file ZIP](https://drive.google.com/uc?export=download&id=1aWqGhEJNUqLfAEyXakRlTvbjRjgCZhvd)
+[File ZIP dello schema di collegamento](https://drive.google.com/uc?export=download&id=1aWqGhEJNUqLfAEyXakRlTvbjRjgCZhvd)
 
 (I dati \*.DXF e \*.DWG si trovano nell'archivio ZIP)
 

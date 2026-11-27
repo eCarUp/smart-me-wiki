@@ -1,5 +1,5 @@
 ---
-title: '3-Phase Meter Nimbus 100A'
+title: 'smart-me Nimbus 100A'
 slug: '/produkte/nimbus-100a'
 description: 'Mounting on meter mounting plate according to DIN43857-1'
 sidebar_label: '3-Phase Meter Nimbus 100A'
@@ -10,11 +10,11 @@ sidebar_label: '3-Phase Meter Nimbus 100A'
 
 [Meter plug-in terminals for Nimbus 100A](/drittprodukte/zaehlersteckklemmen-nimbus-100a)
 
-## Features
+## Functions
 
 - Mounting on meter mounting plate according to DIN43857-1
 
-- Communication with the smart-me Cloud: Wi-Fi 2.4 GHz
+- Communication to the smart-me Cloud: WLAN 2.4 GHz
 
 - Compatible with meter plug-in terminals (e.g. Hager and Seidl)
 
@@ -38,15 +38,15 @@ sidebar_label: '3-Phase Meter Nimbus 100A'
 
 The Nimbus meter was designed as a trustworthy "hardware oracle" to solve the critical oracle problem when connecting IoT devices to decentralized systems.
 
-The ECDSA signing process:
+The ECDSA signature process:
 
 1.  Hardware key: A private key is generated on a crypto coprocessor and never leaves it at any time.
 
-2.  Signing on the edge: Every 15 minutes, the meter readings (OCMF format) are signed with the private key using ECDSA over a SHA-256 hash function.
+2.  Signature on the edge: Every 15 minutes, the meter readings (OCMF format) are signed with the private key using ECDSA over a SHA-256 hash function.
 
 3.  Verifiable origin: The result is a data packet with a digital signature. Using the meter's public key, any application can verify beyond doubt that the data is authentic and unaltered.
 
-The Nimbus thus offers a hardware-based security guarantee that is superior to pure software solutions and provides the perfect foundation for robust P2P trading platforms, local electricity communities (LEC) and other decentralized energy services.
+The Nimbus thus offers a hardware-based security guarantee that is superior to purely software-based solutions and provides the perfect foundation for robust P2P trading platforms, local electricity communities (LEC) and other decentralized energy services.
 
 ## Technical data
 
@@ -60,27 +60,27 @@ The Nimbus thus offers a hardware-based security guarantee that is superior to p
 | Mains voltage | 3x230/400VAC 50Hz |
 | Current measuring range Imin-Iref(Imax) | 0.25-5(100)A |
 | Terminal cable cross-sections | 2.5-35 mm2 |
-| Measurement category | CAT III |
+| Measuring device category | CAT III |
 | Customer interface | DSMR P1 V5.0.2 , RJ12 socket |
 | Temperature range (operation, storage and transport) | -25°C to +70°C |
-| Rel. humidity | Annual average 75%, non-condensing<br />short-term 95%, non-condensing |
+| Rel. humidity | Annual average 75%, non-condensing<br />briefly 95%, non-condensing |
 | Altitude | up to 2000m |
 | Measured values | Active energy (kWh), active power (kW)<br />Reactive energy (kvarh), reactive power (kvar)<br />Current (A), voltage (V), power factor (cosφ) |
 | Self-consumption per phase | < 0.8W |
 | Tariffs | unlimited virtual tariffs in the smart-me Cloud |
 | Optical test output | 10'000 Imp/kWh |
-| Communication | Wi-Fi IEEE 802.11 b/g/n (2.4 GHz)<br />LTE CAT-M1 (plug-in module, optional) |
-| Wi-Fi security standard | WEP, WPA-PSK/WPA2-PSK |
+| Communication | WLAN IEEE 802.11 b/g/n (2.4 GHz)<br />LTE CAT-M1 (pluggable module, optional) |
+| WLAN security standard | WEP, WPA-PSK/WPA2-PSK |
 | Data storage (logbook & meter reading profile) | 9 months |
 | Data security | AES-128 CBC, signed 15min meter reading profile, format OCMF |
 | Housing | Protection rating: IP51 (installed on mounting plate)<br />Housing material: glass-fibre reinforced polycarbonate<br />Dimensions: W:171mm H:236mm D:59mm |
-| Environmental conditions | M1, E2, indoor |
+| Ambient conditions | M1, E2, indoor |
 | Mounting | Meter plate according to DIN 43857-1 |
 | Server location | Switzerland |
 | Protection class | II |
 | Rated impulse voltage (Uimp, Safety) | 6 kV |
 | Utilization category | UC 2 |
-| Last modified | 24.09.2025 |
+| Last change | 24.09.2025 |
 
 ## Display
 
@@ -100,7 +100,7 @@ The Nimbus thus offers a hardware-based security guarantee that is superior to p
 
 - Arrow Energy direction (right consumption / left delivery)
 
-- Reception (bars) Wi-Fi signal quality
+- Reception (bars) WLAN signal quality
 
 - 0000053.2 Meter reading
 
@@ -175,7 +175,7 @@ C.60.9 Error messages (page is only displayed if errors are present)
 
     0x1X: Logbook full
 
-- Symbol meter manipulation (magnet):  OBIS code C.51.6  Meter has been negatively influenced.
+- Symbol meter manipulation (magnet):  OBIS code C.51.6  Meter was negatively influenced.
 
 - Symbol terminal cover opened ( "G"):  OBIS code C.51.2  Terminal cover is open.
 
@@ -190,17 +190,17 @@ C.60.9 Error messages (page is only displayed if errors are present)
 
 **Meter reading profile (15min values)**
 
-Opening and leaving the memory:
+Opening and exiting the memory:
 
 - To enter the memory, press the display button T1 for 3-4 seconds.
 
-- To leave the memory, press the display button T1 again for 3-4 seconds or wait 60 seconds.
+- To exit the memory, press the display button T1 again for 3-4 seconds or wait for 60 seconds.
 
 - To move from one value to the next, briefly press the display button each time.
 
 **Meter reading profile:**
 
-- 1.8.0 and 2.8.0: OBIS codes shown in the memory
+- 1.8.0 and 2.8.0: OBIS codes mapped in the memory
 
 - 0001: Entry number in the memory 
 
@@ -226,21 +226,21 @@ The user of the NIMBUS meter receives the password from the provider.
 
 - Briefly pressing the button increases the first digit by 1.
 
-    If the digit is at 9, it changes back to 0 at the next button press.
+    If the digit is at 9, it changes back to 0 with the next button press.
 
 - If the button is not pressed for 2 - 3 seconds, the display automatically switches to the next digit. This digit flashes and any number can be set again.
 
-- Once the 4th digit has been set, password entry ends after 2 - 3 seconds and the password is checked.
+- Once the 4th digit has been set, the password entry ends after 2 - 3 seconds and the password is checked.
 
 - If the password is correct, the screen SMART-ME LOGBOOK is displayed.
 
 - If the password is incorrect, the password “FALSE” is displayed for a few seconds and the display switches back to normal mode on 
 
-- If there are no messages in the logbook yet (Total : NO ENTRY), the display switches back to normal mode on display screen 2 or 3.
+- If there is no message in the logbook yet (Total : NO ENTRY), the display switches back to normal mode on display screen 2 or 3.
 
 **Exiting the logbook display:**
 
-- To leave the logbook, the display button must be held down continuously for approx. 3 - 4 seconds. 
+- To exit the logbook, the display button must be held down continuously for approx. 3 - 4 seconds. 
 
 - If the display button is not pressed within 60 seconds, the display also switches back to normal mode on display screen 2 or 3.
 
@@ -252,7 +252,7 @@ C.60.9 :  OBIS code of the currently displayed message
 
     When the maximum possible number of messages is stored in the logbook, no further messages are stored ⇨ LOGBOOK FULL.
 
-    When LOGBOOK FULL, further changes to metrologically relevant parameters are no longer possible without breaking the metrological seal.
+    If LOGBOOK FULL, further changes to the metrologically relevant parameters are no longer possible without breaking the metrological seal.
 
 - Second and third line:
 
@@ -276,7 +276,7 @@ C.60.9 :  OBIS code of the currently displayed message
 
 - Meter restart (Meter OFF--> ON)
 
-- Meter has received a new calibration (New Meter Calibartion)
+- Meter has received new calibration (New Meter Calibartion)
 
 - Event logbook full (Last Stored Data, Logbook full)
 
@@ -288,18 +288,18 @@ C.60.9 :  OBIS code of the currently displayed message
 
 **Wiring**
 
-Stranded conductors, solid conductors and flexible wires between 4-35 mm2 are permitted as supply leads. Flexible wires may only be installed with suitable ferrules. Further information on the connection cables can be found in the Quickstarter Guide.
+Stranded conductors, solid conductors and flexible wires between 4-35 mm2 are permitted as supply lines. Flexible wires may only be installed with suitable ferrules. Further information on the connection cables can be found in the Quickstarter Guide.
 
 Screw drive: Torx 25
 
-Before installation, the supply leads must be de-energized and secured against tampering.
+Before installation, the supply lines must be de-energized and secured against tampering.
 
 Connection with looped-through neutral conductor
 
 ![smart-me Nimbus 100A – Figure 9](/img/produkte-nimbus-100a/09.png)
 
 Connection diagram with excitation neutral conductor
-(Neutral conductor may be significantly smaller than L1, L2 or L3)
+(neutral conductor may be significantly smaller than L1, L2 or L3)
 
 ![smart-me Nimbus 100A – Figure 10](/img/produkte-nimbus-100a/10.png)
 
@@ -307,15 +307,15 @@ Connection diagram with excitation neutral conductor
 
 Button 1 (T1)
 
-To connect the meter to a smart-me account, button 1 is pressed for 10 seconds during commissioning with the smart-me app. A device-specific Wi-Fi is then created, to which the mobile phone can connect in order to store the Wi-Fi credentials on the meter.
+To connect the meter to a smart-me account, button 1 is pressed for 10 seconds during commissioning with the smart-me app. A device-specific Wifi is then created, to which the mobile phone can connect in order to store the Wifi access data on the meter.
 
 Button 2 (T2)
 
-Button 2 opens the logbook and the meter reading profile. To display the meter reading profile, button 2 must be pressed for 4 seconds. The password can then be entered. The currently selected digit is indicated by flashing. To change this digit, briefly press button 2. After 10 seconds, the display moves one position to the right.
+Button 2 can be used to open the logbook and the meter reading profile. To display the meter reading profile, button 2 must be pressed for 4 seconds. The password can then be entered. The currently selected digit is indicated by flashing. To change this digit, briefly press button 2. After 10 seconds, the display moves one position to the right.
 
 Access passwords have 4 numeric digits.
 
-If the password is correct, the last entry of the meter reading profile is displayed. To display the next entry, briefly press button 2. If button 2 is not pressed for 60 seconds, the display returns to showing the meter reading.
+If the password is correct, the last entry of the meter reading profile is displayed. To display the next entry, briefly press button 2. If button 2 is not pressed for 60 seconds, the display switches back to showing the meter reading.
 
 - **P1 Interface**
 
@@ -329,7 +329,7 @@ If the password is correct, the last entry of the meter reading profile is displ
 
 - **L2** - Pulse LED - shows currently measured power at 10'000 Imp / kWh
 
-The pulse LED can display active and reactive energy. To switch from active to reactive power or vice versa, button T2 must be pressed 10 times at intervals of 1 sec. Whether active or reactive power is currently shown on the LED can be seen on the bottom line of the display.
+The pulse LED can display active and reactive energy. To switch from active to reactive power or vice versa, button T2 must be pressed 10 times at intervals of 1 sec. Whether active or reactive power is currently shown on the LED can be seen in the bottom line of the display.
 
 ![smart-me Nimbus 100A – Figure 11](/img/produkte-nimbus-100a/11.png)
 
@@ -337,8 +337,8 @@ The pulse LED can display active and reactive energy. To switch from active to r
 
 The P1 interface of the Nimbus allows third-party providers or end customers to reuse the measured data in their own control or analysis systems.
 
-This requires a P1 interface reader module with an RJ-12 plug.
-It must support the “P1 Companion Standard” from Netbeheer Nederland. Version 5.0.2 (26 February 2016).
+This requires a P1 interface reader module with an RJ-12 connector.
+It must support the “P1 Companion Standard” of Netbeheer Nederland. Version 5.0.2 (26.Februar.2016).
 
 Voltage:  5V DC, maximum load:  100mA DC, reinforced insulation against mains
 
@@ -350,11 +350,11 @@ Voltage:  5V DC, maximum load:  100mA DC, reinforced insulation against mains
 
 ## Cleaning
 
-Clean the device housing with a dry cloth. Do not use chemical cleaning agents! 
+Clean the housing of the device with a dry cloth. Do not use chemical cleaning agents! 
 
 ## Maintenance and warranty information
 
-The device is maintenance-free. In the event of damage (e.g. due to transport, storage), you must not carry out any repairs yourself. Opening the device voids the warranty. The same applies if a defect is attributable to external influences (e.g. lightning, water, fire, extreme temperatures and weather conditions) as well as improper or careless use or handling. The seals may only be broken by authorized persons! 
+The device is maintenance-free. In the event of damage (e.g. due to transport, storage), you must not carry out any repairs yourself. Opening the device voids the warranty claim. The same applies if a defect is attributable to external influences (e.g. lightning, water, fire, extreme temperatures and weather conditions) as well as improper or careless use or handling. The seals may only be broken by authorized persons! 
 
 ## Shipping information
 

@@ -26,7 +26,7 @@ The smart-me Telstar 80A is a MID-certified energy meter with an integrated WiFi
 
 - Encrypted real-time data connection to the smart-me Cloud 
 
-## Technical data
+## Technical Data
 
 | Feature | Value |
 | --- | --- |
@@ -37,7 +37,7 @@ The smart-me Telstar 80A is a MID-certified energy meter with an integrated WiFi
 | Mains voltage | 3x230/400VAC 50Hz |
 | Current measuring range Imin-Iref(Imax) | 0.25-5(80)A |
 | Conductor cross-section | 2.5 - 35 mm² |
-| Measuring instrument category | CAT III |
+| Measurement category | CAT III |
 | Temperature range | -25°C to +70°C |
 | Rel. humidity | Annual average 75%, non-condensing<br />short-term 95%, non-condensing |
 | Measured values | Active energy (kWh), active power (kW)<br />Reactive energy (kvarh), reactive power (kvar)<br />Current (A), voltage (V), power factor (cosφ) |
@@ -51,7 +51,7 @@ The smart-me Telstar 80A is a MID-certified energy meter with an integrated WiFi
 | Data rate | < 0.1 Mbit/s |
 | WLAN security standard | WEP, WPA-PSK/WPA2-PSK |
 | Data storage | 2 months |
-| Degree of protection housing/connections, use | IP20 / IP51 (installed in control cabinet), indoor |
+| Degree of protection housing/terminals, use | IP20 / IP51 (installed in control cabinet), indoor |
 | Mounting | DIN rail |
 | Dimensions | 5 modules, L:90mm W:90mm H:65.7mm |
 | Server location | Switzerland |
@@ -62,7 +62,7 @@ The smart-me Telstar 80A is a MID-certified energy meter with an integrated WiFi
 <div className="row">
 <div className="col col--7">
 
-**Value / symbol description**
+**Value / Symbol Description**
 
 - 1.8.1 OBIS code for the displayed meter reading
 
@@ -118,7 +118,7 @@ The meter has a rolling display. The items described below are shown one after t
 - Correct phase sequence: numbers are lit steadily
 - Incorrect phase sequence: numbers flash
 
-## Dimensions and connections
+## Dimensions and Connections
 
 \*.DXF and \*.DWG data can be found in the ZIP archive in the downloads.
 
@@ -137,17 +137,17 @@ The meter has a rolling display. The items described below are shown one after t
 </div>
 </div>
 
-### Connection diagram
+### Connection Diagram
 
 ![3-Phase Meter Telstar 80A – Figure 5](/img/produkte-telstar-80a/05.png)
 
-## Button functions
+## Button Functions
 
 ![3-Phase Meter Telstar 80A – Figure 6](/img/produkte-telstar-80a/06.png)
 
 T1 Button for installation
 
-If button T1 is pressed for 10 seconds, a local WiFi is created for the installation
+If button T1 is pressed for 10 seconds, this creates a local WiFi for the installation
 
 T1 + T2 Restart
 
@@ -155,7 +155,7 @@ Press buttons T1 and T2 simultaneously for 10 seconds to force a restart.
 
 T2 Special functions
 
-Short: If T2 is pressed >2s, the green LED toggles (from off to on or from on to off). When it is activated, it shows the connection status 
+Short: If T2 is pressed >2s, the green LED toggles (from off to on or from on to off). When activated, it indicates the connection status 
 
 🟢 Green steady: connected to smart-me Cloud
 
@@ -165,7 +165,7 @@ Long: If T2 is pressed >8s, the power display toggles between active and reactiv
 
 Very long: If T2 is pressed >14s, the S0-0 pulse output toggles between active power and reactive power.
 
-Note: This setting only changes what is shown on the display, not in the smart-me Cloud (app and website). If reactive energy is to be shown in the cloud, this must be set in the general settings (allgemeine Einstellungen). 
+Note: This setting only changes what is shown on the display, not in the smart-me Cloud (app and website). If reactive energy is to be displayed in the Cloud, this must be done in the general settings. 
 
 
 ## LED
@@ -178,7 +178,7 @@ Note: This setting only changes what is shown on the display, not in the smart-m
 </div>
 <div className="col col--7">
 
-🟢 Green LED - connection status
+🟢 Green LED - Connection status
 
 - Shows the status of the connection to the smart-me Cloud. a) Flashing = connection error b) Always on = connection OK
 
@@ -193,26 +193,26 @@ Note: This setting only changes what is shown on the display, not in the smart-m
 </div>
 <div className="col col--7">
 
-🔴 Red LED - pulse LED
+🔴 Red LED - Pulse LED
 
-- Shows the currently drawn active or reactive power in 1000 pulses/kWh or 1000 pulses/kVArh respectively. Whether active or reactive power is shown can be set with button T2.
+- Shows the currently consumed active or reactive power in 1000 pulses/kWh or 1000 pulses/kVArh. Whether active or reactive power is displayed can be set with button T2.
 
-- For example: An LED labelled “1000 pulses/kWh” flashes 1000 times when 1 kilowatt hour (kWh) of energy has been consumed or delivered. If the 1000 pulses were counted within 1 hour, a constant power of 1 kW was measured.
+- For example: An LED labelled "1000 pulses/kWh" flashes 1000 times when 1 kilowatt hour (kWh) of energy has been consumed or delivered. If the 1000 pulses were counted within 1 hour, a constant power of 1 kW was measured.
 
 </div>
 </div>
 
-## Configuring inputs and outputs
+## Configuring Inputs and Outputs
 
-The Telstar 80A has two digital outputs and one digital input, which can be used as pulse inputs and outputs or as a switchable potential-free contact. You can find details on the wiki page [Inputs and outputs](/schnittstellen/ein-und-ausgaenge) 
+The Telstar 80A has two digital outputs and one digital input, which can be used as pulse inputs and outputs or as a switchable potential-free contact. You can find details on the wiki page [Inputs and Outputs](/schnittstellen/ein-und-ausgaenge) 
 
-On one digital output, the Telstar 80A has a relay that can switch up to 8A.
+The Telstar 80A has a relay on one digital output that can switch up to 8A.
 
-## Mesh technology
+## Mesh Technology
 
-If WiFi reception is very weak or missing, the Telstar 80A automatically connects via the mesh function to another neighbouring meter within range. This meter then takes over communication with the smart-me Cloud. Mesh technology ensures that the meters achieve higher availability towards the smart-me Cloud. It is not possible to deactivate the mesh function on the meter. Specific restrictions apply when [Modbus TCP](/schnittstellen/modbus-tcp) is activated.
+If WiFi reception is very weak or absent, the Telstar 80A automatically connects via the mesh function to another neighbouring meter within range. This meter then handles communication with the smart-me Cloud. Mesh technology ensures that the meters have higher availability towards the smart-me Cloud. It is not possible to deactivate the mesh function on the meter. When [Modbus TCP](/schnittstellen/modbus-tcp) is activated, specific restrictions apply.
 
-## Shipping information
+## Shipping Information
 
 Article number: 202063
 Article name: smart-me 3-Phasen-Energiezähler 80A MID Telstar Wifi
@@ -221,7 +221,7 @@ Customs tariff number: 9028.3019
 
 Weight with packaging: 415g
 
-## Downloads and declaration of conformity
+## Downloads and Declaration of Conformity
 
 [Data sheet German](https://docs.google.com/presentation/d/1Kp-hwT2kkFY1yaaRTc2gtDwkJTZTEgnx3JlDgXhljGA/export/pdf)
 
@@ -240,11 +240,11 @@ Weight with packaging: 415g
 <details id="in-welchem-intervall-senden-die-zähler-daten">
 <summary>At what interval do the meters send data?</summary>
 
-- Every 15 minutes, i.e. at xx:00:00, xx:15:00, xx:30:00 and xx:45:00. This sends the data required for the load profile. If the connection is interrupted, this data is stored locally and sent later.
+- Every 15 minutes, i.e. at xx:00:00, xx:15:00, xx:30:00 and xx:45:00. This sends the data required for the load profile. In the event of a connection interruption, this data is stored locally and sent later.
 
 - In addition, at least every 330 seconds.
 
-- Furthermore, when one of the following events occurs:
+- Furthermore, whenever one of the following events occurs:
 
     - Meter reading change greater than 100Wh
 

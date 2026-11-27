@@ -7,7 +7,7 @@ displayed_sidebar: wikiSidebar
 ---
 The smart-me Meter is the first electricity meter that can be analysed and controlled from anywhere. No additional hardware is required. It uses the existing WiFi network and connects directly to the smart-me Cloud. This lets you conveniently view your energy consumption in real time.
 
-Sales discontinued on 01.01.2023, support and cloud services remain guaranteed.
+Sales discontinued on 01.01.2023, support and cloud service continue to be provided.
 
 ![Single Phase Meter 32A – Figure 1](/img/produkte-1-phasen-zaehler-32a/01.jpg)
 
@@ -31,7 +31,7 @@ Sales discontinued on 01.01.2023, support and cloud services remain guaranteed.
 
     - Real-time monitoring
 
-    - automatic billing ([smart-me Billing](/konfiguration/billing))
+    - Automatic billing ([smart-me Billing](/konfiguration/billing))
 
     - Control with [Event-related Actions](/konfiguration/wenndann-aktionen/ereignisaktionen) and [If / Then Actions](/konfiguration/wenndann-aktionen)
 
@@ -42,9 +42,9 @@ Sales discontinued on 01.01.2023, support and cloud services remain guaranteed.
 
 See [Commissioning](/konfiguration/inbetriebnahme) 
 
-## Technical data
+## Technical Data
 
-| Feature | Value |
+| Characteristic | Value |
 | --- | --- |
 | Accuracy | 1 according to IEC62053-21 |
 | Operating voltage | 85 - 253 VAC |
@@ -58,22 +58,22 @@ See [Commissioning](/konfiguration/inbetriebnahme)
 | Mounting | DIN rail |
 | Width | 2 modules, 36 x 90 mm |
 | Interfaces | WiFi, S0 |
-| S0 pulse value | 1000 pulses per kWh |
+| S0 pulse rate | 1000 pulses per kWh |
 | Self-consumption | &lt; 0.5 W |
 
 \*has no power supply of its own.
 
-## Configuring inputs and outputs
+## Configuring Inputs and Outputs
 
 The smart-me Meter has one output and one input, which can be used as pulse inputs and outputs or as a switchable potential-free contact. You can find details [here](/schnittstellen/ein-und-ausgaenge). 
 
-## Dimensions and connections
+## Dimensions and Connections
 
 ### Dimensions
 
 ![Single Phase Meter 32A – Figure 2](/img/produkte-1-phasen-zaehler-32a/02.png)
 
-### Wiring diagram
+### Wiring Diagram
 
 <div className="row">
 <div className="col col--5">
@@ -82,9 +82,9 @@ T1: Button for installation
 
 E1: Tariff switching (digital input)
 
-0V Tariff 1
+0V tariff 1
 
-\>25V Tariff 2
+\>25V tariff 2
 
 S0: Pulse output (potential-free contact)
 
@@ -96,13 +96,13 @@ S0: Pulse output (potential-free contact)
 </div>
 </div>
 
-## Changing the upload interval
+## Changing the Upload Interval
 
 - Log in to the smart-me portal
 
 - Select the meter
 
-- Select the gear icon at the top right
+- Click the gear icon at the top right
 
 - General settings (Allgemeine Einstellungen)
 
@@ -111,7 +111,7 @@ S0: Pulse output (potential-free contact)
 
 ## Downloads
 
-Data sheet
+Datasheet
 
 [English](https://docs.google.com/presentation/d/1O1cz4NZK6npzl57qoBdHt_beJFkcvKYcODeC6qGco7g/export/pdf)
 
@@ -121,4 +121,4 @@ Data sheet
 
 Technical data
 
-[CE declaration of conformity](https://docs.google.com/document/d/1t9Bj_Z8yZchoW1wGIWLeUEgj6M3Q893SPOGqkikALIs/export?format=pdf)
+[CE Declaration of Conformity](https://docs.google.com/document/d/1jhlrd_WrXDbfcPfKL1smzPJKY7GucNqGuaEJoNYAETw/export?format=pdf)

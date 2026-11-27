@@ -248,7 +248,7 @@ Datenblatt
 
 Technische Dokumente
 
-[Pico Quickstarter](https://docs.google.com/document/d/1jRLrb7J9hg7yreVMQyvvFeWXF4lVsgWtSucW4cy1XLk/export?format=pdf) 
+[Pico Quickstarter](https://drive.google.com/uc?export=download&id=1OfVvRApacU0ggG5UXHVTqx_S_Ki9nirk) 
 
 [Installations- und Montageanleitung (Englisch)](https://docs.google.com/presentation/d/1neEyGHF5XE-SPaIoc-QK9U5wIxvFdNY8GwCYq8-VsBU/export/pdf)
 
@@ -256,6 +256,6 @@ Technische Dokumente
 
 [Bohrlehre](https://drive.google.com/file/d/1lQSSDwsKE9JeS2QkbpUDcLRhpeezxYnP/view?usp=sharing)
 
-[Konformitätserklärung (nicht-MID)](https://drive.google.com/file/d/1Jx0MrqCpLrfEZa3ts7U19iJQQLQpyRww/view?usp=drive_link)
+[Konformitätserklärung (nicht-MID)](https://drive.google.com/file/d/1aRYllq76noG7vzloUdF_ufP0VbUbvc4i/view)
 
 [Anschlussschema ZIP Files](https://drive.google.com/file/d/1aVOLmWprogy2OizkcyH3kHsHntu0A8-D/view?usp=share_link)

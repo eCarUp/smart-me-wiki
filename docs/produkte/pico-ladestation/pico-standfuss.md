@@ -216,7 +216,7 @@ Alternativ kann ein Drittprodukt erzeugt oder eingekauft werden.
 
 [English Pole with service door 232070](https://docs.google.com/presentation/d/1Jvp9VK24zobIH0hJ9eazLwURvVuZ0i0nczlmGKOL7H0/export/pdf)
 
-[Quickstarter 212070 / 232070](https://docs.google.com/document/d/19Hp4eK43o-_NGerpnEkw-MIVr2FcFZlMv78Ic6f22Iw/export?format=pdf)
+[Quickstarter 212070 / 232070](https://drive.google.com/uc?export=download&id=1804PciZJa8gKfwTmF8jS60_EAo74anJT)
 
 [EU Konformitätserklärung](https://drive.google.com/uc?export=download&id=14h6QNwvbybeGwOvgesNnSBxI-GsjvXd9)
 

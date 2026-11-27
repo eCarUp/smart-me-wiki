@@ -95,4 +95,4 @@ Lange drücken = Startet das Gerät neu
 
 (\*.DXF Daten können im ZIP Archiv gefunden werden)
 
-[Quick Starter](https://docs.google.com/document/d/10vunXjLE-58nRRgmSjM1b9HP6bTFtvs7D-GCRscIxWw/export?format=pdf)
+[Quick Starter](https://drive.google.com/uc?export=download&id=1HPEEStr30hRV5BTY6f_-c6k8bzIeVYl3)

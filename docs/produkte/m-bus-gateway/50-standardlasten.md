@@ -89,4 +89,4 @@ Wenn die Taste T(4) für 10 Sekunden gedrückt wird, erzeugt dies ein lokales Wi
 
 (\*.DXF und \*.DWG Daten können im ZIP Archiv gefunden werden)
 
-[Quick Starter](https://docs.google.com/document/d/1JR1tvgsvp0dWkmVYG-stafguL_LFGnxfsjQzVaJ-3Zk/export?format=pdf)
+[Quick Starter](https://drive.google.com/uc?export=download&id=166L1n8Natu6uSsMkJbAbmSTQ8ZwP8X-x)

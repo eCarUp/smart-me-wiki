@@ -109,7 +109,7 @@ Gewicht mit Verpackung: 130g
 
 [Anschlussschema ZIP Files](https://drive.google.com/uc?export=download&id=1aY9_dMdLi2RjgHjk9y89Ibd_AIGwMUZW) (\*.DXF und \*.DWG Daten können im ZIP Archiv gefunden werden)
 
-[Quick Starter](https://docs.google.com/document/d/1XNv61P1L0gXvgaCT4bvFbou8h6rOBkNjgkRk9sUTS60/export?format=pdf)
+[Quick Starter](https://drive.google.com/uc?export=download&id=1CESFSxgh5MDDTbntfmQhcREc5zzwludl)
 
 ## FAQ
 

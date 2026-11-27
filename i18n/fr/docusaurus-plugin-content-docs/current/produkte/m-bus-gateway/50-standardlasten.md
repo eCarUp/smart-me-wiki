@@ -1,10 +1,10 @@
 ---
-title: 'M-Bus Gateway'
+title: 'Passerelle M-Bus'
 slug: '/produkte/m-bus-gateway/50-standardlasten'
-description: 'Le M-Bus Gateway smart-me avec convertisseur de niveau intégré pour 50 charges standard M-Bus : caractéristiques techniques, schéma de raccordement, fonction de la touche et téléchargements.'
-sidebar_label: 'M-Bus Gateway'
+description: 'La passerelle M-Bus smart-me avec convertisseur de niveau intégré pour 50 charges standard M-Bus : caractéristiques techniques, schéma de raccordement, fonction des touches et téléchargements.'
+sidebar_label: 'Passerelle M-Bus'
 ---
-Le M-Bus Gateway avec convertisseur de niveau intégré pour 50 charges standard M-Bus. La liste de compatibilité, la mise en service et les prescriptions d'installation s'appliquent aux deux appareils et figurent sur la [page d'aperçu](/produkte/m-bus-gateway).
+La passerelle M-Bus avec convertisseur de niveau intégré pour 50 charges standard M-Bus. La liste de compatibilité, la mise en service et les prescriptions d'installation s'appliquent aux deux appareils et figurent sur la [page d'aperçu](/produkte/m-bus-gateway).
 
 ## Fonctions
 
@@ -15,7 +15,7 @@ Le M-Bus Gateway avec convertisseur de niveau intégré pour 50 charges standard
 - Bloc d'alimentation intégré
 
 - Prend en charge les appareils M-Bus selon EN 13757-2, -3 (anciennement EN 1434-3)
-    La norme définit le protocole, mais pas les données transmises. Le respect de la norme ne garantit donc pas à lui seul le fonctionnement effectif. Consultez notre [liste de compatibilité](/produkte/m-bus-gateway).
+    La norme définit le protocole, mais pas les données transmises. Le respect de la norme ne garantit donc pas à lui seul le bon fonctionnement. Consultez notre [liste de compatibilité](/produkte/m-bus-gateway).
 
 - Facturation avec le [smart-me Billing Tool](/konfiguration/billing)
 
@@ -23,10 +23,10 @@ Le M-Bus Gateway avec convertisseur de niveau intégré pour 50 charges standard
 
 - [Interfaces](/schnittstellen/api) via API, CSV, MSCONS et IS-E
 
-- Connexion de données cryptée en temps réel vers le cloud smart-me
+- Connexion de données chiffrée en temps réel vers le cloud smart-me
 
 
-![M-Bus Gateway – Figure 1](/img/produkte-m-bus-gateway/01.jpg)
+![Passerelle M-Bus – Figure 1](/img/produkte-m-bus-gateway/01.jpg)
 
 ## Caractéristiques techniques
 
@@ -51,7 +51,7 @@ Le M-Bus Gateway avec convertisseur de niveau intégré pour 50 charges standard
 | Dimensions | 2 modules, L:90mm l:36mm H:65.7mm |
 | Emplacement des serveurs | Suisse |
 | Classe de protection | II |
-| Volume de données | ≤ 1KB par appareil et par relevé |
+| Volume de données | ≤ 1KB par appareil par relevé |
 | Dernière modification | 25.09.2023 |
 
 ## Informations d'expédition
@@ -65,17 +65,17 @@ Poids avec emballage : 150g
 
 ## Schéma de raccordement
 
-![M-Bus Gateway – Figure 2](/img/produkte-m-bus-gateway/02.png)
+![Passerelle M-Bus – Figure 2](/img/produkte-m-bus-gateway/02.png)
 
-## Fonction de la touche
+## Fonction des touches
 
-T(4) Touche pour l'installation
+Touche T(4) pour l'installation
 
 Si la touche T(4) est maintenue enfoncée pendant 10 secondes, un réseau WiFi local est créé pour l'installation
 
 ## Dimensions
 
-![M-Bus Gateway – Figure 3](/img/produkte-m-bus-gateway/03.png)
+![Passerelle M-Bus – Figure 3](/img/produkte-m-bus-gateway/03.png)
 
 ## Téléchargements et déclaration de conformité
 
@@ -89,4 +89,4 @@ Si la touche T(4) est maintenue enfoncée pendant 10 secondes, un réseau WiFi l
 
 (Les données \*.DXF et \*.DWG se trouvent dans l'archive ZIP)
 
-[Quick Starter](https://docs.google.com/document/d/1JR1tvgsvp0dWkmVYG-stafguL_LFGnxfsjQzVaJ-3Zk/export?format=pdf)
+[Quick Starter](https://drive.google.com/uc?export=download&id=166L1n8Natu6uSsMkJbAbmSTQ8ZwP8X-x)

@@ -1,11 +1,11 @@
 ---
 title: 'Plug'
 slug: '/produkte/plug'
-description: 'Le smart-me Plug est à la fois un appareil de mesure d''électricité, un thermostat et une minuterie.'
+description: 'Le smart-me Plug est à la fois un appareil de mesure de l''électricité, un thermostat et une minuterie.'
 sidebar_label: 'Plug'
 displayed_sidebar: wikiSidebar
 ---
-Le smart-me Plug est à la fois un appareil de mesure d'électricité, un thermostat et une minuterie. Le Plug peut en outre être commandé et surveillé via le portail web ou l'application. Pour cela, l'appareil se connecte à Internet via le réseau WLAN local. 
+Le smart-me Plug est à la fois un appareil de mesure de l'électricité, un thermostat et une minuterie. De plus, le Plug peut être commandé et surveillé via le portail web ou l'application. Pour cela, l'appareil se connecte à Internet via le réseau WLAN local. 
 
 Vente arrêtée le 30.03.2021
 Support technique arrêté le 30.03.2025
@@ -15,18 +15,18 @@ Matériel et fonctions cloud : le fonctionnement reste garanti
 
 ## Variantes
 
-Disponible dans les versions Europe, Suisse et Royaume-Uni.
+Disponible en versions Europe, Suisse et Grande-Bretagne.
 
 - Version UK : 3000W (230V, 13A)
 
-- Version européenne (prise de type F) : 3680W (230V, 16A)
+- Version européenne (Plug Type F) : 3680W (230V, 16A)
 
 - Version suisse : 2300W (230V, 10A)
 
 
 ## Fonctions
 
-- Appareil de mesure d'énergie : outre la puissance actuelle, le smart-me Plug mesure l'énergie, le courant, la tension et le facteur de puissance. smart-me garantit une précision de 99% (erreur max. de 1%).
+- Appareil de mesure de l'énergie : outre la puissance actuelle, le smart-me Plug mesure l'énergie, le courant, la tension et le facteur de puissance. smart-me garantit une précision de 99% (erreur max. de 1%).
 
 - Appareil de mesure de la température : surveillez la température en direct et analysez les données historiques.
 
@@ -39,9 +39,9 @@ Disponible dans les versions Europe, Suisse et Royaume-Uni.
 - Gestion complète de l'énergie dans le smart-me Cloud : 
 
 
-- -   -   Monitoring en temps réel
+- -   -   Surveillance en temps réel
 
-        - Commande avec des actions déclenchées par un événement et des actions si/alors
+        - Commande avec des actions déclenchées par un événement (Ereignis Aktionen) et des actions si/alors (Wenn / Dann Aktionen)
 
     - Installation simple avec l'application smart-me gratuite pour Android et iOS
 
@@ -50,7 +50,7 @@ Disponible dans les versions Europe, Suisse et Royaume-Uni.
 
 Vidéo d'installation
 
-## Caractéristiques techniques
+## Données techniques
 
 | Caractéristique | Valeur |
 | --- | --- |
@@ -71,7 +71,7 @@ Non.
 
 Fiche technique
 
-[Anglais](https://drive.google.com/file/d/0BwpiVx2zqRpUdjNFVXlOTHJJOFU/view)
+[Anglais](https://drive.google.com/file/d/1fiw6vzwrrNm7dGJ-hosgmU4phSAhQngb/view)
 
 [Français](https://drive.google.com/file/d/1VnE5HU_tP2jsktHAvjQ1vxVYLw-xrryl/view)
 
@@ -81,4 +81,4 @@ Documents techniques
 
 [Déclaration de conformité CE](https://drive.google.com/file/d/1d0K0SKzcBu2IlrQVivL5vYlBzcLc3jCr/view)
 
-[Quick Starter Guide (anglais et allemand)](https://drive.google.com/file/d/1NmyLZxozwF6wAiGIW20Ts5NOKpWQh01t/view)
+[Quick Starter Guide (anglais et allemand)](https://drive.google.com/uc?export=download&id=1h3o-D4nfyF49K0KgHlhOb-tYhPaGZ9kg)

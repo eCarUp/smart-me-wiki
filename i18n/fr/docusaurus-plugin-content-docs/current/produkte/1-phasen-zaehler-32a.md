@@ -1,13 +1,13 @@
 ---
 title: 'Compteur monophasé 32A'
 slug: '/produkte/1-phasen-zaehler-32a'
-description: 'Le smart-me Meter est le premier compteur électrique pouvant être analysé et piloté de n''importe où.'
+description: 'Le smart-me Meter est le premier compteur électrique qui peut être analysé et commandé de n''importe où.'
 sidebar_label: 'Compteur monophasé 32A'
 displayed_sidebar: wikiSidebar
 ---
-Le smart-me Meter est le premier compteur électrique pouvant être analysé et piloté de n'importe où. Aucun matériel supplémentaire n'est nécessaire. Il utilise le réseau WiFi existant et se connecte directement au smart-me Cloud. Vous pouvez ainsi consulter facilement votre consommation d'énergie en temps réel.
+Le smart-me Meter est le premier compteur électrique qui peut être analysé et commandé de n'importe où. Aucun matériel supplémentaire n'est nécessaire. Il utilise le réseau WiFi existant et se connecte directement au smart-me Cloud. Vous voyez ainsi confortablement votre consommation d'énergie en temps réel.
 
-Vente arrêtée le 01.01.2023, le support et la prise en charge cloud restent assurés.
+Vente arrêtée le 01.01.2023, le support et l'assistance cloud restent assurés.
 
 ![Compteur monophasé 32A – Illustration 1](/img/produkte-1-phasen-zaehler-32a/01.jpg)
 
@@ -23,17 +23,17 @@ Vente arrêtée le 01.01.2023, le support et la prise en charge cloud restent as
 
 - Classe de précision 1 selon IEC62053-21
 
-- Enregistreur de données intégré pour deux mois (en cas de coupure de connexion)
+- Enregistreur de données intégré pour deux mois (en cas de coupure de la connexion)
 
 - Connexion directe et chiffrée au smart-me Cloud (WiFi)
 
 - Gestion complète de l'énergie dans le smart-me Cloud : 
 
-    - Surveillance en temps réel
+    - Monitoring en temps réel
 
     - facturation automatique ([smart-me Billing](/konfiguration/billing))
 
-    - Pilotage avec des [actions déclenchées par un événement](/konfiguration/wenndann-aktionen/ereignisaktionen) et des [actions si/alors](/konfiguration/wenndann-aktionen)
+    - Commande avec des [actions déclenchées par un événement](/konfiguration/wenndann-aktionen/ereignisaktionen) et des [actions si/alors](/konfiguration/wenndann-aktionen)
 
 - Installation simple avec l'app smart-me gratuite pour [Android](https://play.google.com/store/apps/details?id=com.smart_me) et [iOS](https://apps.apple.com/ch/app/smart-me/id929146952?ign-mpt=uo%3D4)
 
@@ -65,7 +65,7 @@ Voir [Mise en service](/konfiguration/inbetriebnahme)
 
 ## Configurer les entrées et sorties
 
-Le smart-me Meter dispose d'une sortie et d'une entrée, qui peuvent être utilisées comme entrées et sorties d'impulsions ou comme contact commutable libre de potentiel. Vous trouverez plus de détails [ici](/schnittstellen/ein-und-ausgaenge). 
+Le smart-me Meter dispose d'une sortie et d'une entrée, qui peuvent être utilisées comme entrée et sortie d'impulsions ou comme contact libre de potentiel commutable. Vous trouverez les détails [ici](/schnittstellen/ein-und-ausgaenge). 
 
 ## Dimensions et raccordements
 
@@ -80,7 +80,7 @@ Le smart-me Meter dispose d'une sortie et d'une entrée, qui peuvent être utili
 
 T1 : touche pour l'installation
 
-E1 : commutation tarifaire (entrée numérique)
+E1 : commutation de tarif (entrée numérique)
 
 0V tarif 1
 
@@ -102,7 +102,7 @@ S0 : sortie d'impulsions (contact libre de potentiel)
 
 - sélectionner le compteur
 
-- en haut à droite, sélectionner la roue dentée
+- sélectionner la roue dentée en haut à droite
 
 - Paramètres généraux (Allgemeine Einstellungen)
 
@@ -121,4 +121,4 @@ Fiche technique
 
 Caractéristiques techniques
 
-[Déclaration de conformité CE](https://docs.google.com/document/d/1t9Bj_Z8yZchoW1wGIWLeUEgj6M3Q893SPOGqkikALIs/export?format=pdf)
+[Déclaration de conformité CE](https://docs.google.com/document/d/1jhlrd_WrXDbfcPfKL1smzPJKY7GucNqGuaEJoNYAETw/export?format=pdf)

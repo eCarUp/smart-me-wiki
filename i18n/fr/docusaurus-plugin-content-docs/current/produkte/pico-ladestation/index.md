@@ -4,25 +4,25 @@ slug: '/produkte/pico-ladestation'
 description: 'Pico est une borne de recharge certifiée MID dotée d''une interface de téléphonie mobile et WiFi intégrée pour la transmission de données en temps réel.'
 sidebar_label: 'Borne de recharge Pico'
 ---
-Pico est une borne de recharge certifiée MID dotée d'une interface de téléphonie mobile et WiFi intégrée pour la transmission de données en temps réel. La borne de recharge synchronise les valeurs mesurées de manière automatisée et chiffrée dans le cloud smart-me. La borne peut être intégrée dans le backend eCarUp et dispose d'une gestion de la charge statique et dynamique. Les données peuvent être exportées dans le portail smart-me ou, via notre interface ouverte, dans des systèmes tiers, puis y être traitées.
+Pico est une borne de recharge certifiée MID dotée d'une interface de téléphonie mobile et WiFi intégrée pour la transmission de données en temps réel. La borne de recharge synchronise les valeurs de mesure de manière automatisée et chiffrée dans le cloud smart-me. La borne peut être intégrée dans le backend eCarUp et dispose d'une gestion de la charge statique et dynamique. Les données peuvent être exportées et traitées dans le portail smart-me ou, via notre interface ouverte, dans des systèmes tiers.
 
 ![Borne de recharge Pico – Illustration 1](/img/produkte-pico-ladestation/01.png)
 
 ## Principales consignes d'installation en bref
 
-- Pico dispose d'une commutation de phases - Veuillez raccorder toutes les phases selon le marquage (L1 = L1, L2 = L2, L3 = L3)
+- Pico dispose d'une commutation de phases - veuillez raccorder toutes les phases conformément au marquage (L1 = L1, L2 = L2, L3 = L3)
 
-- En particulier pour une utilisation en extérieur, respectez les instructions de montage afin de ne pas oublier de produit d'étanchéité. L'indice IP55 n'est atteint qu'avec les produits d'étanchéité.
+- En cas d'utilisation en extérieur, respectez tout particulièrement les instructions de montage afin de n'oublier aucun élément d'étanchéité. L'indice IP55 n'est atteint qu'avec les éléments d'étanchéité.
     [Instructions d'installation et de montage  (allemand)](https://docs.google.com/presentation/d/1d_ejgHn-M8dmJdRPlC1F2z5bBZTvtU89_p2z1f22_aw/export/pdf) 
 
-- Serrez les produits d'étanchéité de manière adéquate et vérifiez la bonne position des joints.
+- Serrez les éléments d'étanchéité de manière adéquate et vérifiez l'assise des joints.
 
 
 <Video src="YiiACL00jko" title="Vidéo YouTube, enregistrement du webinaire sur le lancement de la gestion de la charge multiniveau" />
 
 Gestion de la charge multiniveau (50 min)
 
-<Video src="Bx9QOYZPWEk" title="Vidéo YouTube, certification MID Pico - Webinaire" />
+<Video src="Bx9QOYZPWEk" title="Vidéo YouTube, certification MID de Pico - webinaire" />
 
 Ce qui se cache derrière la certification MID (30 min)
 
@@ -40,17 +40,17 @@ Courte vidéo : Pico obtient la certification MID (2 min)
 
 - Dispositifs de protection contre les défauts intégrés 30mA AC selon IEC60947-2 et 6mA DC IEC62955
 
-- [Certification allemande selon le droit de l'étalonnage (Eichrecht)](/planung/zertifizierungen-deutschland#eichrecht) (n° d'art. 242070, 2402070/1)
+- [Certification Eichrecht](/planung/zertifizierungen-deutschland#eichrecht) allemande (n° d'art. 242070, 2402070/1)
 
 - Montage simple (petite et légère), adaptée au câble plat
 
-- Identification par RFID, application, CarID et préparée pour ISO 15118 (Plug & Charge)
+- Identification par RFID, app, CarID et préparée pour ISO 15118 (Plug & Charge)
 
-- Préparée pour la communication par courant porteur ISO15118 (Plug&Charge, V2H, V2G)
+- Préparée pour la communication Powerline ISO15118 (Plug&Charge, V2H, V2G)
 
 - Connexion de données chiffrée en temps réel vers les clouds smart-me et eCarUp 
 
-- [Installation](/konfiguration/inbetriebnahme) simple avec l'application smart-me gratuite.
+- [Installation](/konfiguration/inbetriebnahme) simple avec l'app smart-me gratuite.
 
 - Interfaces vers des systèmes tiers via API, CSV, MSCONS, IS-E et autres
 
@@ -60,37 +60,37 @@ Courte vidéo : Pico obtient la certification MID (2 min)
 
 ## Configurer Pico
 
-Vous trouverez des informations sur le montage, le mode MID, la manière de vérifier les sessions de recharge conformément au droit de l'étalonnage, les états et les messages d'erreur dans le [manuel d'installation (.pdf)](https://docs.google.com/presentation/d/1d_ejgHn-M8dmJdRPlC1F2z5bBZTvtU89_p2z1f22_aw/export/pdf) 
+Vous trouverez des informations sur le montage, le mode MID, la vérification des sessions de recharge conformément à la législation sur la métrologie, les états et les messages d'erreur dans le [manuel d'installation (.pdf)](https://docs.google.com/presentation/d/1d_ejgHn-M8dmJdRPlC1F2z5bBZTvtU89_p2z1f22_aw/export/pdf) 
 
 L'installation est traitée en détail ici : [Mise en service](/konfiguration/inbetriebnahme) 
 
-La configuration est traitée en détail ici : [Configuration Pico](/konfiguration/inbetriebnahme/pico-konfiguration) 
+La configuration est traitée en détail ici : [Configuration de Pico](/konfiguration/inbetriebnahme/pico-konfiguration) 
 
 ## Caractéristiques techniques
 
 | Caractéristique | Valeur |
 | --- | --- |
-| Puissance de charge maximale | 22 kW à 32A en triphasé<br />7.36 kW à 32A en monophasé |
-| Smart Meter | Compteur électrique intégré (MID, courbe de charge CH, droit de l'étalonnage DE) avec processeur de sécurité |
+| Puissance de recharge maximale | 22 kW à 32A en triphasé<br />7.36 kW à 32A en monophasé |
+| Smart Meter | Compteur d'électricité intégré (MID, courbe de charge CH, Eichrecht DE) incl. processeur de sécurité |
 | Équilibrage des phases | Équilibrage automatique des phases |
-| Gestion de la charge | Gestion automatique de la charge sur plusieurs bornes |
-| Identification | Détection et identification automatiques de la voiture<br />Lecteur RFID / NFC (JEWEL, MIFARE, FELICA, ISO14443, NFC_DEP, ISO14443_B, ISO15693) |
-| Communication | WLAN IEEE 802.11 b/g/n (2.4 GHz) et LTE Cat-M1 avec SIM et trafic de données pour 10 ans de 1nce, Modbus TCP, OCPP-J 1.6 |
+| Gestion de la charge | Gestion de la charge automatique sur plusieurs bornes |
+| Identification | Détection et identification automatiques du véhicule<br />Lecteur RFID / NFC (JEWEL, MIFARE, FELICA, ISO14443, NFC_DEP, ISO14443_B, ISO15693) |
+| Communication | WLAN IEEE 802.11 b/g/n (2.4 GHz) et LTE Cat-M1 incl. SIM et trafic de données pour 10 ans de 1nce, Modbus TCP, OCPP-J 1.6 |
 | Connexion au cloud | Connexion aux clouds smart-me et eCarUp |
-| Sécurité | Dès l'année de fabrication 2024, SN 7002702 : RCD Typ-A (30mA AC) IEC 60947-2 + RDC-DD 6mA DC IEC 62955<br />Avant l'année de fabrication 2024, jusqu'au SN 7002701 : RDC-DD (30mA AC, 6mA DC) IEC 62955 |
+| Sécurité | À partir de l'année de construction 2024, SN 7002702 : RCD Typ-A (30mA AC) IEC 60947-2 + RDC-DD 6mA DC IEC 62955<br />Avant l'année de construction 2024, jusqu'au SN 7002701 : RDC-DD (30mA AC, 6mA DC) IEC 62955 |
 | Plage de température | -25°C à +40°C |
-| Tension réseau | 3x230/400V (+/- 10%) 50Hz |
+| Tension de réseau | 3x230/400V (+/- 10%) 50Hz |
 | Prise de recharge | IEC 62196-2 Type 2 |
 | Indice de protection | IP55 (intérieur et extérieur) |
 | Degré de résistance aux chocs | IK10 |
 | Conditions ambiantes | M1, E2 |
 | Délestage | 2 entrées libres de potentiel (4 états) :<br />Vlow : ≤ 2V AC/DC<br />Vhigh : ≥ 12V AC/DC<br />Vmax : 48VDC/230VAC |
-| Sortie S0 | 10'000 imp/kWh |
+| Sortie S0 | 10'000 Imp/kWh |
 | Raccordement électrique | en haut, en bas, à l'arrière |
 | Type d'installation | Rail conducteur, câble plat, en étoile |
 | Dimensions | L:300 mm l:220 mm H:112 mm |
-| Poids avec plaque de montage | 3.8 kg |
-| Section de câble | min. 2.5 mm², max. 10 mm², ou 6.5 mm de diamètre avec embout |
+| Poids incl. plaque de montage | 3.8 kg |
+| Section de câble | min. 2.5 mm², max. 10 mm², ou 6.5 mm de diamètre avec embout de câble |
 | Diamètre de câble | 10-20 mm |
 | Emplacement des serveurs | Suisse |
 | Dernière modification | 03.06.2026 |
@@ -109,7 +109,7 @@ Les fonctions comprennent principalement :
 
 - Les autorisations de recharge pour Plug & Charge
 
-- La gestion de la recharge pour la charge et la décharge des véhicules (recharge unidirectionnelle, recharge bidirectionnelle pour V2H et V2G)
+- La gestion de la recharge et de la décharge des véhicules (recharge unidirectionnelle, recharge bidirectionnelle pour V2H et V2G)
 
 Quel est l'objectif de la norme ?
 L'objectif de cette norme est une intégration homogène du véhicule et de sa batterie dans le réseau public ou dans le système domestique en tant qu'unité de stockage.
@@ -117,31 +117,31 @@ L'objectif de cette norme est une intégration homogène du véhicule et de sa b
 
 Est-ce déjà une réalité aujourd'hui ?
 
-L'utilisation de cette norme est encore très limitée. Divers fabricants de matériel de recharge et de véhicules effectuent actuellement des tests sur ce sujet afin d'harmoniser et de développer la communication.
-Des solutions Plug & Charge sont déjà partiellement en service dans la pratique, mais ne sont pas encore très répandues.
+L'utilisation de cette norme est encore très limitée. Différents fabricants de matériel de recharge et de véhicules effectuent actuellement des tests à ce sujet afin d'harmoniser et de développer la communication.
+Des solutions Plug & Charge sont déjà partiellement en service dans la pratique, mais encore peu répandues.
 
-Les applications V2G et V2H sont déjà partiellement prises en charge aujourd'hui par les bornes de recharge DC.
+Les applications V2G et V2H sont déjà en partie prises en charge aujourd'hui par les bornes de recharge DC.
 L'offre V2G et V2H du côté des bornes de recharge AC est actuellement encore très limitée, voire inexistante, en raison de l'indisponibilité des équipements nécessaires du côté des véhicules.
 
-Les premiers constructeurs automobiles ont toutefois déjà annoncé des véhicules qui disposeront des équipements techniques. Actuellement, aucun de ces véhicules ne peut cependant encore être acheté sur le marché. (État au 16.05.2025)
+Les premiers constructeurs automobiles ont toutefois déjà annoncé des véhicules qui disposeront des équipements techniques. Actuellement, aucun de ces véhicules ne peut encore être acheté sur le marché. (État au 16.05.2025)
 
 Qu'est-ce que cela signifie pour votre borne de recharge Pico ?
 
 Votre borne de recharge Pico est entièrement préparée pour l'avenir. Une mise à jour logicielle suffira pour activer les fonctions sur votre Pico.
 Nous travaillons actuellement de manière intensive à l'implémentation de ces fonctionnalités.
 
-### RCD / détection des défauts de courant continu et protection de la charge
+### RCD / Détection des défauts de courant continu et protection de charge
 
 Les dispositifs de sécurité intégrés vérifient leur bon fonctionnement de manière entièrement automatique. 
 
-- Au moins toutes les 24 heures depuis le dernier contrôle.
+- Au moins toutes les 24 heures depuis la dernière vérification.
 
 - À chaque redémarrage de l'appareil.
 
-Si un défaut est détecté lors des autocontrôles, aucun courant n'est libéré et l'information s'affiche à l'écran.
-Si un défaut survient pendant la session de recharge, le courant est interrompu et le défaut s'affiche à l'écran.
+Si une erreur est constatée lors des autovérifications, le courant n'est pas libéré et l'information est affichée à l'écran.
+Si une erreur survient pendant la session de recharge, le courant est interrompu et l'erreur est affichée à l'écran.
 
-La réinitialisation du défaut ne peut se faire que mécaniquement, en débranchant puis en rebranchant le câble de recharge sur la borne de recharge.
+La réinitialisation de l'erreur ne peut se faire que mécaniquement, en débranchant puis en rebranchant le câble de recharge sur la borne de recharge.
 
 ## Écran
 
@@ -151,7 +151,7 @@ Le comportement de l'écran est décrit sur la page [Affichage Pico](/produkte/p
 
 ## Raccordements et dimensions de Pico
 
-![Borne de recharge Pico – Illustration 3](/img/produkte-pico-ladestation/03_EN.jpg)
+![Borne de recharge Pico – Illustration 3](/img/produkte-pico-ladestation/03.jpg)
 
 ### Schéma de raccordement
 
@@ -161,14 +161,14 @@ L2 : phase 2
 
 L3 : phase 3
 
-N : conducteur neutre
+N : conducteur neutre / neutre
 
 PE : conducteur de protection
 
 Le conducteur de protection doit être raccordé à la vis de raccordement supérieure, afin que le socle soit mis à la terre directement avec la borne.
 
 Attention :
-Le produit ne peut être exploité qu'en montage triphasé en étoile ou en monophasé !
+Le produit ne peut fonctionner qu'en montage triphasé en étoile ou en monophasé !
 
 Passages de câbles
 
@@ -176,9 +176,9 @@ Sur Pico, les câbles peuvent entrer et sortir à 5 endroits.
 
 Deux en haut, deux en bas et un à travers la plaque arrière.
 
-Pour un montage à travers la plaque arrière, un trou de 25-26mm de diamètre doit être percé.
+Pour le montage à travers la plaque arrière, un trou de 25-26mm de diamètre doit être percé.
 
-Vous trouverez les détails sur le montage sur socle dans les instructions de montage, dans les téléchargements.
+Vous trouverez les détails du montage sur socle dans les instructions de montage, dans les téléchargements.
 
 ### Délestage (entrées externes)
 
@@ -195,19 +195,19 @@ Délestage Pico
 
 Le délestage peut également être réalisé avec un seul signal disponible. 
 
-Pour une configuration allant de l'absence de recharge à la puissance de charge maximale, le signal est câblé sur IN1 et IN2 ainsi que sur COM. Pour une configuration allant de la puissance minimale de 6A à la puissance de charge maximale, le signal doit être câblé uniquement sur IN2 ainsi que sur COM.
+Pour la configuration allant de l'absence de recharge à la puissance de recharge maximale, le signal est câblé sur IN1 et IN2 ainsi que COM. Pour la configuration allant d'une puissance minimale de 6A à la puissance de recharge maximale, le signal doit uniquement être câblé sur IN2 ainsi que COM.
 
-COM est le conducteur neutre, IN1 et IN2 doivent être mis sous tension lors du signal ON. IN1 et IN2 ne génèrent pas de tension, celle-ci doit être fournie de l'extérieur.
+COM est le conducteur neutre ; IN1 et IN2 doivent être alimentés en tension lors du signal ON. IN1 et IN2 ne génèrent aucune tension, celle-ci doit être fournie par une source externe.
 
 Attention :
-Le délestage peut être câblé soit sur toutes les Pico, soit au minimum sur une Pico de chaque groupe de charge. Cette fonction est également garantie sans connexion Internet.
+Le délestage peut être câblé soit sur toutes les Pico, soit au minimum sur une de chaque groupe de charge. Cette fonction est garantie même sans connexion Internet.
 
-Le délestage peut aussi être réalisé via la [gestion de la charge multiniveau](/konfiguration/multilevel-lastmanagement/mlm-konfigurieren#configuration-du-délestage) au moyen des signaux d'entrée du compteur.
+Alternativement, le délestage peut aussi être réalisé via la [gestion de la charge multiniveau](/konfiguration/multilevel-lastmanagement/mlm-konfigurieren#configuration-du-délestage) au moyen de signaux d'entrée de compteurs.
 
 </div>
 <div className="col col--5 bild--mitte">
 
-![Borne de recharge Pico – Illustration 5](/img/produkte-pico-ladestation/05_EN.png)
+![Borne de recharge Pico – Illustration 5](/img/produkte-pico-ladestation/05.png)
 
 ![Borne de recharge Pico – Illustration 6](/img/produkte-pico-ladestation/06.png)
 
@@ -222,7 +222,7 @@ Les données \*.DXF et \*.DWG se trouvent dans l'archive ZIP, dans les télécha
 
 ## Informations d'expédition
 
-### 232070 et 242070 Borne de recharge smart-me Pico avec plaque de montage
+### 232070 et 242070 Borne de recharge smart-me Pico incl. plaque de montage
 
 Numéro de tarif douanier : 85044055
 
@@ -230,7 +230,7 @@ Poids avec emballage : 4.6 kg
 
 Taille de l'emballage : 400x300x200mm
 
-Colis par palette Europe : 72 pièces
+Colis par europalette : 72 pièces
 
 ### 232070/1 et 242070/1 Borne de recharge smart-me Pico sans plaque de montage
 
@@ -240,7 +240,7 @@ Poids avec emballage : 3.3 kg
 
 Taille de l'emballage : 400x300x200mm
 
-Colis par palette Europe : 72 pièces
+Colis par europalette : 72 pièces
 
 ## Accessoires
 
@@ -250,23 +250,23 @@ Colis par palette Europe : 72 pièces
 
 Les consignes de sécurité doivent être respectées en toutes circonstances :
 
-**Installation, entretien, réparation, mise en service :**
+**Installation, maintenance, réparation, mise en service :**
 
-- Lisez attentivement l'ensemble du manuel avant l'installation et l'utilisation du produit.
+- Lisez attentivement l'intégralité du manuel avant l'installation et l'utilisation du produit.
 
-- Danger de mort dû à la haute tension électrique. Ne jamais effectuer de modifications sur des composants, le logiciel ou les câbles de raccordement sans avoir mis l'installation hors tension. Les fusibles amont correspondants doivent donc être retirés et conservés de manière à ce que d'autres personnes ne puissent pas les remettre en place à votre insu.
+- Danger de mort dû à la haute tension électrique. Ne jamais effectuer de modifications sur les composants, le logiciel ou les câbles de raccordement sans avoir mis l'installation hors tension. Les fusibles amont correspondants doivent donc être retirés et conservés de manière à ce que d'autres personnes ne puissent pas les remettre en place à votre insu.
 
 - Le produit doit être installé, réparé ou entretenu exclusivement par un électricien qualifié agréé. Toutes les prescriptions communales, régionales et nationales en vigueur pour les installations électriques doivent être respectées. 
 
 - Les numéros de série antérieurs à 7002702 nécessitent un RCD Typ-A en série afin de satisfaire aux normes d'installation nationales. Voir [Recommandation de matériel RCD Typ-A](/produkte/pico-ladestation/materialempfehlung-rcd-typ-a).
 
-- L'installation ne doit pas être effectuée à proximité de substances inflammables ou explosives, dans des zones inondables (parking souterrain) ou dans des zones présentant un risque d'eau ruisselante. 
+- L'installation ne doit pas être effectuée à proximité de substances inflammables ou explosives, dans des zones inondables (parking souterrain) ou dans des zones où existe un risque d'eau ruisselante. 
 
 - Le produit doit être installé à un emplacement définitif. Les raccordements de la Pico et de la plaque arrière sont conçus pour un nombre limité de cycles d'enfichage. 
 
-- Le produit doit être installé sur un mur ou une structure ayant une capacité portante suffisante. 
+- Le produit doit être installé sur un mur ou une structure présentant une capacité portante suffisante. 
 
-- Les bornes de raccordement de la plaque arrière sont sous tension lorsque le circuit est fermé et ne doivent en aucun cas entrer en contact, directement ou par l'intermédiaire d'autres objets, avec autre chose que l'électronique Pico.
+- Les bornes de raccordement de la plaque arrière sont sous tension lorsque le circuit est fermé et ne doivent en aucun cas être mises en contact, directement ou avec d'autres objets, avec autre chose que l'électronique de la Pico.
 
 - Selon le type d'installation, des autorisations peuvent être nécessaires avant l'installation, p. ex. en cas d'augmentation de la puissance du raccordement de l'immeuble. 
 
@@ -274,23 +274,23 @@ Les consignes de sécurité doivent être respectées en toutes circonstances :
 
 - Les vis des raccordements de câbles doivent être serrées avec un couple de 3 Nm. Le diamètre maximal du câble avec embout est de 6.5mm.
 
-- Le produit doit être exploité en combinaison avec un disjoncteur de ligne. Le pouvoir de coupure en court-circuit du disjoncteur de ligne doit correspondre au pouvoir de coupure maximal en court-circuit du point de raccordement. Pour la sélectivité, un disjoncteur de ligne peut suffire pour plusieurs bornes de recharge. Tenez compte des indications spécifiques à chaque pays sur notre wiki. Les bornes peuvent supporter sans problème des courts-circuits individuels jusqu'à 3kA.
+- Le produit doit être utilisé en combinaison avec un disjoncteur de protection de ligne. Le pouvoir de coupure du disjoncteur de protection de ligne doit correspondre au courant de court-circuit maximal du point de raccordement. Pour la sélectivité, un disjoncteur de protection de ligne peut suffire pour plusieurs bornes de recharge. Tenez compte des indications spécifiques au pays sur notre wiki. Les bornes peuvent supporter sans problème des courts-circuits individuels jusqu'à 3kA.
 
 **Utilisation prévue :**
 
-- Ce produit est exclusivement destiné à la recharge de véhicules électriques équipés de batteries ne dégageant pas de gaz. Le produit ne doit être utilisé qu'avec un câble de recharge conforme à IEC 62196. Toute autre utilisation que celles indiquées ici est interdite.
+- Ce produit est exclusivement destiné à la recharge de véhicules à propulsion électrique équipés de batteries ne dégageant pas de gaz. Le produit ne doit être utilisé qu'avec un câble de recharge conforme à IEC 62196. Toute utilisation autre que celles indiquées ici est interdite.
 
-- L'appareil est destiné à une utilisation à l'intérieur et à l'extérieur.
+- L'appareil est prévu pour une utilisation à l'intérieur et à l'extérieur.
 
-**Exploitation :**
+**Fonctionnement :**
 
-- Ne jamais utiliser ni toucher le produit s'il est endommagé ou ne fonctionne pas correctement. En cas d'urgence (fumée, incendie, étincelles ou autre dysfonctionnement), couper immédiatement le produit au moyen du disjoncteur différentiel et avertir le support client. 
+- Ne jamais utiliser ni toucher le produit s'il est endommagé ou ne fonctionne pas correctement. En cas d'urgence (fumée, incendie, étincelles ou autre dysfonctionnement), couper immédiatement le produit via le disjoncteur différentiel et avertir le support client. 
 
 - Ne pas éteindre le produit avec de l'eau ni le nettoyer à l'eau courante.
 
-- Ne pas immerger le produit dans l'eau ou dans d'autres liquides. 
+- Ne pas plonger le produit dans l'eau ou dans d'autres liquides. 
 
-- Ce produit n'est pas destiné à être utilisé par des personnes aux capacités physiques, psychiques ou sensorielles réduites (y compris les enfants) ou par des personnes ne connaissant pas le produit. 
+- Ce produit n'est pas destiné à être utilisé par des personnes aux capacités physiques, mentales ou sensorielles réduites (y compris les enfants) ou par des personnes ne connaissant pas le produit. 
 
 - Il faut veiller à ce que les enfants ne jouent pas avec le produit.
 
@@ -300,11 +300,11 @@ Les consignes de sécurité doivent être respectées en toutes circonstances :
 
 - Ne pas utiliser de rallonges ni d'adaptateurs non homologués en combinaison avec le produit. 
 
-- Ne jamais plier le câble de recharge, rouler dessus ou l'exposer à une forte chaleur. 
+- Ne jamais plier le câble de recharge, rouler dessus ni l'exposer à une forte chaleur. 
 
 - Retirer le câble de recharge du support de recharge uniquement par la fiche. 
 
-- Ne pas poser le câble de recharge sur les voies de circulation des autres usagers et toujours le positionner de manière à éviter tout risque de trébuchement. 
+- Ne pas poser le câble de recharge sur les voies de circulation d'autres usagers et toujours le positionner de manière à éviter tout risque de trébuchement. 
 
 - Protéger le câble de recharge des intempéries telles que le rayonnement solaire direct, le vent, la pluie, l'humidité et l'eau, et ne jamais le brancher avec des mains humides ou mouillées. 
 
@@ -315,16 +315,16 @@ Les consignes de sécurité doivent être respectées en toutes circonstances :
 <details id="warum-reserviert-der-pico-immer-6a-in-der-lastgruppe-obwohl-das-auto-nicht-mehr-geladen-wird">
 <summary>Pourquoi la Pico réserve-t-elle toujours 6A dans le groupe de charge, alors que la voiture n'est plus en charge ?</summary>
 
-La norme IEC 61851 prescrit que chaque voiture doit toujours disposer d'au moins 6 A. La norme le prévoit ainsi afin qu'un chauffage auxiliaire puisse être alimenté par le réseau. Ou, si quelqu'un est absent pendant plusieurs semaines, afin que la batterie ne se décharge pas.
+La norme IEC 61851 prescrit que chaque voiture doit toujours disposer d'au moins 6 A. La norme le prévoit ainsi afin qu'un chauffage auxiliaire puisse être alimenté par le réseau. Ou, lorsque quelqu'un est absent pendant plusieurs semaines, afin que la batterie ne se décharge pas.
 
 </details>
 
 <details id="benötigt-pico-einen-seriellen-rcd-typ-a-pro-ladestation">
 <summary>Pico nécessite-t-elle un RCD Typ-A en série par borne de recharge ?</summary>
 
-Les bornes de recharge Pico dont le numéro de série est antérieur à 7002701 nécessitent un RCD Type A 40A 30mA en série pour satisfaire aux normes nationales.
+Les bornes de recharge Pico dont le numéro de série est antérieur à 7002701 nécessitent un RCD Typ-A 40A 30mA en série pour satisfaire aux normes nationales.
 La fonction est présente sur ces appareils, mais n'est pas conforme.
-À partir du numéro de série 7002702 ou de l'année de fabrication 2024 (BY2024), la Pico ne nécessite plus de RCD en série ; celui-ci est désormais intégré et conforme à 60947-2.
+À partir du numéro de série 7002702 ou BY2024, la Pico ne nécessite plus de RCD en série ; celui-ci est désormais intégré et conforme à 60947-2.
 
 Le matériel adapté est indiqué sous [Recommandation de matériel RCD Typ-A](/produkte/pico-ladestation/materialempfehlung-rcd-typ-a).
 
@@ -333,11 +333,11 @@ Le matériel adapté est indiqué sous [Recommandation de matériel RCD Typ-A](/
 <details id="unterstützt-die-pico-ladestation-iso15118-für-plug--charge-und-v2g--v2h">
 <summary>La borne de recharge Pico prend-elle en charge ISO15118 pour Plug & Charge et V2G / V2H ?</summary>
 
-Les bornes de recharge Pico disposent de tous les équipements techniques nécessaires pour prendre en charge à long terme les normes ISO15118 et ISO15118-20.
-L'activation de ces fonctions sur la Pico dépend exclusivement du logiciel et ne nécessite aucune modification ni adaptation du matériel.
+Les bornes de recharge Pico disposent de tous les équipements techniques pour prendre en charge à long terme les normes ISO15118 et ISO15118-20.
+L'activation de la prise en charge de ces fonctions sur la Pico dépend exclusivement du logiciel et ne nécessite aucune modification ni adaptation matérielle.
 
 Recharge bidirectionnelle V2H et V2G avec la Pico :
-La capacité de la borne de recharge Pico à effectuer une recharge bidirectionnelle selon ISO15118-20 dépend exclusivement de l'activation et de la disponibilité des fonctions et équipements du côté du véhicule et du constructeur automobile. Le matériel de recharge de la borne de recharge Pico ne constitue pas une limitation à cet égard.
+La capacité de la borne de recharge Pico à effectuer une recharge bidirectionnelle selon ISO15118-20 dépend exclusivement de l'activation et de la disponibilité des fonctions et équipements du côté du véhicule et du constructeur automobile. Le matériel de recharge de la borne de recharge Pico ne constitue aucune limitation à cet égard.
 
 Les premiers véhicules compatibles et effectivement disponibles à l'achat sont attendus dans les années à venir.
 
@@ -348,7 +348,7 @@ Nous travaillons en permanence au développement de ces fonctions dans notre bor
 <details id="kann-ich-den-zählerstand-auf-null-zurücksetzten">
 <summary>Puis-je remettre le relevé du compteur à zéro ?</summary>
 
-Non, comme nos compteurs sont utilisés pour des décomptes, il n'est pas possible de les remettre à zéro.
+Non, comme nos compteurs sont utilisés pour des décomptes, il n'est pas possible de les réinitialiser.
 
 </details>
 
@@ -362,7 +362,7 @@ Non, comme nos compteurs sont utilisés pour des décomptes, il n'est pas possib
 
 **Documents techniques**
 
-[Pico Quickstarter](https://docs.google.com/document/d/1jRLrb7J9hg7yreVMQyvvFeWXF4lVsgWtSucW4cy1XLk/export?format=pdf) 
+[Pico Quickstarter](https://drive.google.com/uc?export=download&id=1OfVvRApacU0ggG5UXHVTqx_S_Ki9nirk) 
 
 [Instructions d'installation et de montage (anglais)](https://docs.google.com/presentation/d/1neEyGHF5XE-SPaIoc-QK9U5wIxvFdNY8GwCYq8-VsBU/export/pdf)
 
@@ -372,4 +372,4 @@ Non, comme nos compteurs sont utilisés pour des décomptes, il n'est pas possib
 
 [Déclaration de conformité](https://drive.google.com/uc?export=download&id=1K-9mIHKMXTeqzOCc0-i9vRfSnFElSCnu)
 
-[Schéma de raccordement et schéma électrique – fichiers ZIP](https://drive.google.com/uc?export=download&id=1aVOLmWprogy2OizkcyH3kHsHntu0A8-D)
+[Schéma de raccordement et schéma électrique, fichiers ZIP](https://drive.google.com/uc?export=download&id=1aVOLmWprogy2OizkcyH3kHsHntu0A8-D)

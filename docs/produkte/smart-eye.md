@@ -86,4 +86,4 @@ Datenblatt
 
 Technische Dokumente
 
-[Quick Starter Guide](https://drive.google.com/file/d/1cfreWRx5zRDTSzjPYuchkZFk7RXvjVaJ/view?usp=sharing)
+[Quick Starter Guide](https://drive.google.com/uc?export=download&id=1JTCDaDu5M25GcBE7XhvTgunHdcIKZOu1)

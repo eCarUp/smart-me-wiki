@@ -10,9 +10,9 @@ displayed_sidebar: wikiSidebar
 
 Sales discontinued on 30.04.2021, support and cloud support are guaranteed until 30.03.2025.
 
-The Landis+Gyr Module brings the measurement data from the L+G E450 and E350 energy meters into the smart-me Cloud.
+The Landis+Gyr Module brings the measurement data of the L+G E450 and E350 energy meters into the smart-me Cloud.
 
-The module does not require any additional hardware. It uses the existing WiFi network and connects directly to the smart-me Cloud. This is the easiest way to analyse and optimise energy consumption in real time on your smartphone, tablet or computer.
+The module does not require any additional hardware. It uses the existing WiFi network and connects directly to the smart-me Cloud. This is the easiest way to analyze and optimize energy consumption in real time on your smartphone, tablet or computer.
 
 With a Professional subscription, the meter values can also be queried via the Modbus TCP interface.
 
@@ -24,13 +24,13 @@ With a Professional subscription, the meter values can also be queried via the M
 </div>
 </div>
 
-## Functions
+## Features
 
-- Real-time visualization of power, total meter reading (consumption and feed-in), tariff 1 and 2, reactive power and reactive energy
+- Real-time visualization of power, total meter reading (consumption and delivery), tariff 1 and 2, reactive power and reactive energy
 
-- Automatic saving of meter readings in the cloud
+- Automatic storage of meter readings in the cloud
 
-- Storage and automatic synchronisation of measured values in the event of a connection failure
+- Storage and automatic synchronization of measured values in the event of a connection failure
 
 - Contact output for controlling external devices
 
@@ -48,7 +48,7 @@ The battery can be removed again after commissioning, as the module is powered b
 
 <Video src="35_hjsvRtwM" title="YouTube video, smart-me for Landis+Gyr" />
 
-## Technical data
+## Technical Data
 
 | Feature | Value |
 | --- | --- |
@@ -66,9 +66,9 @@ The battery can be removed again after commissioning, as the module is powered b
 | Temperature range | −40°C to 70°C |
 | Mounting | Next to or on the L+G meter |
 
-Note: A 9V battery (9-volt block) is required briefly for the installation.
+Note: A 9V battery (9-volt block) is briefly required for the installation.
 
-## Configuring the CII interface
+## Configuring the CII Interface
 
 The CII interface (customer interface) of the Landis+Gyr meter (e.g. E450 or E350) must be activated. Follow the instructions to configure the interface correctly.
 
@@ -76,7 +76,7 @@ The CII interface (customer interface) of the Landis+Gyr meter (e.g. E450 or E35
 
 [Instructions for configuring the CII customer interface (English)](https://drive.google.com/file/d/15xeU3fX-mRMTf9cvwNhL76seJzEdX9aS/view)
 
-## Changing the upload interval
+## Changing the Upload Interval
 
 - Log in to the smart-me portal
 
@@ -89,11 +89,11 @@ The CII interface (customer interface) of the Landis+Gyr meter (e.g. E450 or E35
 
 ![Landis+Gyr Module – Figure 2](/img/produkte-landis-gyr-modul/02.png)
 
-## Successor product
+## Successor Product
 
 smart-me does not offer a successor product for L&G meters. 
 
-If you operate a smart-me ZEV (association for own consumption) and need a new solution for your measurement (e.g. HAK), the L&G module must be replaced by a [Telstar 80A](/produkte/telstar-80a) or [Telstar CT](/produkte/telstar-ct).
+If you operate a smart-me ZEV (association for own consumption) and need a new solution for your metering (e.g. at the building connection point), the L&G module must be replaced by a [Telstar 80A](/produkte/telstar-80a) or [Telstar CT](/produkte/telstar-ct).
 
 If measurements are carried out in a private setting for monitoring, home automation, etc., the [Telstar 80A](/produkte/telstar-80a) or [Telstar CT](/produkte/telstar-ct) can be installed at any time. If you are looking for a solution with your existing L&G meter, we recommend taking a look at this page. [https://gplug.ch/](https://gplug.ch/)
 
@@ -109,7 +109,7 @@ Data sheet
 
 Quick Starter Guide
 
-[English](https://drive.google.com/file/d/1g-0NPLA1wZNlnoJbn8fVC_goWalk9jqW/view)
+[English](https://drive.google.com/uc?export=download&id=1cvzkzOSgnGpbyLdbYc8-GS0edcnBupWg)
 
 Technical documents
 

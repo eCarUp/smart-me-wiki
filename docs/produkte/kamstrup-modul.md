@@ -198,7 +198,7 @@ Datenblatt
 
 Technische Dokumente
 
-[Quick Starter Guide](https://docs.google.com/document/d/1cS5WRL6pkD0gkrZ0FGVVKKvnGc2-kHdcpS_A88SyPlA/export?format=pdf)
+[Quick Starter Guide](https://drive.google.com/uc?export=download&id=1Iq9COF5y0LsKc1fSISNs2xG5KVEqlIMw)
 
 ## FAQ
 

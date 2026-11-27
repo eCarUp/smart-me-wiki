@@ -4,7 +4,7 @@ slug: '/produkte/telstar-80a'
 description: 'The smart-me Telstar 80A is a MID-certified energy meter with an integrated WiFi interface for transmitting real-time data.'
 sidebar_label: '3-Phase Meter Telstar 80A'
 ---
-The smart-me Telstar 80A is a MID-certified energy meter with an integrated WiFi interface for transmitting real-time data. The meter synchronizes the measured values automatically and encrypted to the smart-me Cloud. The data can be exported to third-party systems and processed further in the smart-me portal or via our open interface. The meter has two digital outputs for controlling potential-free devices.
+The smart-me Telstar 80A is a MID-certified energy meter with an integrated WiFi interface for transmitting real-time data. The meter synchronises the measured values automatically and in encrypted form to the smart-me Cloud. The data can be viewed in the smart-me Portal or exported to third-party systems via our open interface for further processing. The meter has two digital outputs for controlling potential-free devices.
 
 ![3-Phase Meter Telstar 80A – Figure 1](/img/produkte-telstar-80a/01.jpg)
 
@@ -26,7 +26,7 @@ The smart-me Telstar 80A is a MID-certified energy meter with an integrated WiFi
 
 - Encrypted real-time data connection to the smart-me Cloud 
 
-## Technical Data
+## Technical data
 
 | Feature | Value |
 | --- | --- |
@@ -37,7 +37,7 @@ The smart-me Telstar 80A is a MID-certified energy meter with an integrated WiFi
 | Mains voltage | 3x230/400VAC 50Hz |
 | Current measuring range Imin-Iref(Imax) | 0.25-5(80)A |
 | Conductor cross-section | 2.5 - 35 mm² |
-| Measurement category | CAT III |
+| Measuring category | CAT III |
 | Temperature range | -25°C to +70°C |
 | Rel. humidity | Annual average 75%, non-condensing<br />short-term 95%, non-condensing |
 | Measured values | Active energy (kWh), active power (kW)<br />Reactive energy (kvarh), reactive power (kvar)<br />Current (A), voltage (V), power factor (cosφ) |
@@ -62,7 +62,7 @@ The smart-me Telstar 80A is a MID-certified energy meter with an integrated WiFi
 <div className="row">
 <div className="col col--7">
 
-**Value / Symbol Description**
+**Value / symbol description**
 
 - 1.8.1 OBIS code for the displayed meter reading
 
@@ -118,7 +118,7 @@ The meter has a rolling display. The items described below are shown one after t
 - Correct phase sequence: numbers are lit steadily
 - Incorrect phase sequence: numbers flash
 
-## Dimensions and Connections
+## Dimensions and connections
 
 \*.DXF and \*.DWG data can be found in the ZIP archive in the downloads.
 
@@ -137,17 +137,17 @@ The meter has a rolling display. The items described below are shown one after t
 </div>
 </div>
 
-### Connection Diagram
+### Wiring diagram
 
 ![3-Phase Meter Telstar 80A – Figure 5](/img/produkte-telstar-80a/05.png)
 
-## Button Functions
+## Button functions
 
 ![3-Phase Meter Telstar 80A – Figure 6](/img/produkte-telstar-80a/06.png)
 
 T1 Button for installation
 
-If button T1 is pressed for 10 seconds, this creates a local WiFi for the installation
+If button T1 is pressed for 10 seconds, a local WiFi for the installation is created
 
 T1 + T2 Restart
 
@@ -155,17 +155,17 @@ Press buttons T1 and T2 simultaneously for 10 seconds to force a restart.
 
 T2 Special functions
 
-Short: If T2 is pressed >2s, the green LED toggles (from off to on or from on to off). When activated, it indicates the connection status 
+Short: If T2 is pressed >2s, the green LED toggles (from off to on or from on to off). When activated, it shows the connection status 
 
-🟢 Green steady: connected to smart-me Cloud
+🟢 Green steady: connected to the smart-me Cloud
 
 ❇️ Green flashing: establishing connection or no connection
 
-Long: If T2 is pressed >8s, the power display toggles between active and reactive power. In addition, the calibration pulse LED switches between active energy and reactive energy.
+Long: If T2 is pressed >8s, the power display switches between active and reactive power. The calibration pulse LED also switches between active energy and reactive energy.
 
-Very long: If T2 is pressed >14s, the S0-0 pulse output toggles between active power and reactive power.
+Very long: If T2 is pressed >14s, the S0-0 pulse output switches between active power and reactive power.
 
-Note: This setting only changes what is shown on the display, not in the smart-me Cloud (app and website). If reactive energy is to be displayed in the Cloud, this must be done in the general settings. 
+Note: This setting only changes the display on the meter, not in the smart-me Cloud (app and website). If reactive energy is to be displayed in the Cloud, this must be done in the general settings. 
 
 
 ## LED
@@ -178,7 +178,7 @@ Note: This setting only changes what is shown on the display, not in the smart-m
 </div>
 <div className="col col--7">
 
-🟢 Green LED - Connection status
+🟢 Green LED - connection status
 
 - Shows the status of the connection to the smart-me Cloud. a) Flashing = connection error b) Always on = connection OK
 
@@ -193,26 +193,26 @@ Note: This setting only changes what is shown on the display, not in the smart-m
 </div>
 <div className="col col--7">
 
-🔴 Red LED - Pulse LED
+🔴 Red LED - pulse LED
 
-- Shows the currently consumed active or reactive power in 1000 pulses/kWh or 1000 pulses/kVArh. Whether active or reactive power is displayed can be set with button T2.
+- Shows the currently consumed active or reactive power in 1000 pulses/kWh or 1000 pulses/kVArh. Whether active or reactive power is shown can be set with button T2.
 
-- For example: An LED labelled "1000 pulses/kWh" flashes 1000 times when 1 kilowatt hour (kWh) of energy has been consumed or delivered. If the 1000 pulses were counted within 1 hour, a constant power of 1 kW was measured.
+- For example: an LED marked "1000 pulses/kWh" flashes 1000 times when 1 kilowatt hour (kWh) of energy has been consumed or delivered. If the 1000 pulses were counted within 1 hour, a constant power of 1 kW was measured.
 
 </div>
 </div>
 
-## Configuring Inputs and Outputs
+## Configuring inputs and outputs
 
-The Telstar 80A has two digital outputs and one digital input, which can be used as pulse inputs and outputs or as a switchable potential-free contact. You can find details on the wiki page [Inputs and Outputs](/schnittstellen/ein-und-ausgaenge) 
+The Telstar 80A has two digital outputs and one digital input, which can be used as pulse inputs and outputs or as a switchable potential-free contact. You can find details on the wiki page [Input and Output Configuration](/schnittstellen/ein-und-ausgaenge) 
 
 The Telstar 80A has a relay on one digital output that can switch up to 8A.
 
-## Mesh Technology
+## Mesh technology
 
-If WiFi reception is very weak or absent, the Telstar 80A automatically connects via the mesh function to another neighbouring meter within range. This meter then handles communication with the smart-me Cloud. Mesh technology ensures that the meters have higher availability towards the smart-me Cloud. It is not possible to deactivate the mesh function on the meter. When [Modbus TCP](/schnittstellen/modbus-tcp) is activated, specific restrictions apply.
+If WiFi reception is very weak or missing, the Telstar 80A automatically connects via the mesh function to another neighbouring meter within range. This meter then takes over communication with the smart-me Cloud. Mesh technology ensures that the meters achieve higher availability towards the smart-me Cloud. It is not possible to deactivate the mesh function on the meter. Specific restrictions apply when [Modbus TCP](/schnittstellen/modbus-tcp) is activated.
 
-## Shipping Information
+## Shipping information
 
 Article number: 202063
 Article name: smart-me 3-Phasen-Energiezähler 80A MID Telstar Wifi
@@ -221,7 +221,7 @@ Customs tariff number: 9028.3019
 
 Weight with packaging: 415g
 
-## Downloads and Declaration of Conformity
+## Downloads and declaration of conformity
 
 [Data sheet German](https://docs.google.com/presentation/d/1Kp-hwT2kkFY1yaaRTc2gtDwkJTZTEgnx3JlDgXhljGA/export/pdf)
 
@@ -229,11 +229,11 @@ Weight with packaging: 415g
 
 [CE declaration of conformity](https://drive.google.com/uc?export=download&id=1mcZJJhHeKQ1wN0q8yE8ROKnRZXx-wo3b)
 
-[Connection diagram](https://drive.google.com/uc?export=download&id=1400_Edqq9WfG48wg-60NUsQZ5CrBbM5B)
+[Wiring diagram](https://drive.google.com/uc?export=download&id=1400_Edqq9WfG48wg-60NUsQZ5CrBbM5B)
 
-[Connection diagram ZIP files](https://drive.google.com/uc?export=download&id=1aKyx7qWyNh56Mrj-iAzfRxW_baVQtTmo) (\*.DXF and \*.DWG data can be found in the ZIP archive)
+[Wiring diagram ZIP files](https://drive.google.com/uc?export=download&id=1aKyx7qWyNh56Mrj-iAzfRxW_baVQtTmo) (\*.DXF and \*.DWG data can be found in the ZIP archive)
 
-[Quick Starter](https://docs.google.com/document/d/1qW-3HcgJ3si6LE-HPIYaLg9N9HZhR4PZgu0LJcP5_DY/export?format=pdf)
+[Quick Starter](https://drive.google.com/uc?export=download&id=15qeRH1Waaz7LrcnkoiDAmEFOS5l8Ce8D)
 
 ## FAQ
 
@@ -244,7 +244,7 @@ Weight with packaging: 415g
 
 - In addition, at least every 330 seconds.
 
-- Furthermore, whenever one of the following events occurs:
+- Furthermore, when one of the following events occurs:
 
     - Meter reading change greater than 100Wh
 
@@ -254,13 +254,13 @@ Weight with packaging: 415g
 
     - Voltage change greater than 1V
 
-    - Every second when the meter is selected in the GUI (smart-me portal)
+    - Every second while the meter is selected in the GUI (smart-me Portal)
 
 </details>
 
 <details id="kann-ich-den-zählerstand-auf-null-zurücksetzten">
 <summary>Can I reset the meter reading to zero?</summary>
 
-No, since our meters are used for billing, it is not possible to reset them.
+No. Since our meters are used for billing, it is not possible to reset them.
 
 </details>

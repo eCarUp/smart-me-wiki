@@ -36,7 +36,9 @@ Desidera diventare partner o partecipare a una formazione? Qui trova l'iscrizion
 
 <Kachel bild="/img/drittsysteme-smartred/01.png" bildtext="smartRED" titel="smartRED" href="https://www.smartred.de/kontakt/">
 
-Dieselstrasse 17, DE-89160 Dornstadt
+smart-me GmbH, Am Seerhein 6, DE-78467 Konstanz
+
++49 7531 957 33 55
 
 [info@smartred.de](mailto:info@smartred.de) · [www.smartred.de](https://www.smartred.de)
 
@@ -60,9 +62,9 @@ Il supporto tecnico per i partner certificati funziona come in Svizzera:
 
 <Kachel titel="Supporto tecnico">
 
-[support@smart-me.com](mailto:support@smart-me.com)
+[support@smartred.de](mailto:support@smartred.de)
 
-+41 41 511 09 70
++49 7531 957 33 55
 
 </Kachel>
 

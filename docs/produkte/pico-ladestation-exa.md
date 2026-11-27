@@ -248,7 +248,7 @@ Datenblatt
 
 Technische Dokumente
 
-[Pico Quickstarter](https://docs.google.com/document/d/1jRLrb7J9hg7yreVMQyvvFeWXF4lVsgWtSucW4cy1XLk/export?format=pdf) 
+[Pico Quickstarter](https://drive.google.com/uc?export=download&id=1OfVvRApacU0ggG5UXHVTqx_S_Ki9nirk) 
 
 [Installations- und Montageanleitung (Englisch)](https://docs.google.com/presentation/d/1neEyGHF5XE-SPaIoc-QK9U5wIxvFdNY8GwCYq8-VsBU/export/pdf)
 

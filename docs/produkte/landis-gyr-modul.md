@@ -109,7 +109,7 @@ Datenblatt
 
 Quick Starter Guide
 
-[Englisch](https://drive.google.com/file/d/1g-0NPLA1wZNlnoJbn8fVC_goWalk9jqW/view)
+[Englisch](https://drive.google.com/uc?export=download&id=1cvzkzOSgnGpbyLdbYc8-GS0edcnBupWg)
 
 Technische Dokumente
 

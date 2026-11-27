@@ -4,15 +4,15 @@ slug: '/produkte/1-phasen-zaehler-80a'
 description: 'The smart-me Single Phase Meter 80A is an energy meter with an integrated WiFi interface for transmitting real-time data.'
 sidebar_label: 'Single Phase Meter'
 ---
-The smart-me Single Phase Meter 80A is an energy meter with an integrated WiFi interface for transmitting real-time data. The meter synchronises the measured values automatically and in encrypted form to the smart-me Cloud. The data can be exported to third-party systems and processed further in the smart-me portal or via our open interface. The meter has a digital output for controlling potential-free devices.
+The smart-me Single Phase Meter 80A is an energy meter with an integrated WiFi interface for transmitting real-time data. The meter synchronises the measured values automatically and in encrypted form to the smart-me Cloud. The data can be exported and further processed in the smart-me portal or via our open interface in third-party systems. The meter has a digital output for controlling potential-free devices.
 
 ![Single Phase Meter 80A – Figure 1](/img/produkte-1-phasen-zaehler-80a/01.jpg)
 
-## Functions
+## Features
 
 - [Installation](/konfiguration/inbetriebnahme) with the free smart-me app.
 
-- Control with [if/then actions](/konfiguration/wenndann-aktionen) or [event actions](/konfiguration/wenndann-aktionen/ereignisaktionen)
+- Control with [if/then\-actions](/konfiguration/wenndann-aktionen) or [event actions](/konfiguration/wenndann-aktionen/ereignisaktionen)
 
 - [Visualizations](/konfiguration/visualisierung)
 
@@ -54,7 +54,7 @@ The smart-me Single Phase Meter 80A is an energy meter with an integrated WiFi i
 | Dimensions | 2 modules, L:90mm W:36mm H:65.7mm |
 | Server location | Switzerland |
 | Protection class | II |
-| Last change | 25.09.2023 |
+| Last modified | 25.09.2023 |
 
 ## Display
 
@@ -76,7 +76,7 @@ The meter alternately displays various values.
 
 ![Single Phase Meter 80A – Figure 2](/img/produkte-1-phasen-zaehler-80a/02.png)
 
-### Connection diagram
+### Wiring diagram
 
 ![Single Phase Meter 80A – Figure 3](/img/produkte-1-phasen-zaehler-80a/03.png)
 
@@ -84,11 +84,11 @@ The meter alternately displays various values.
 
 T(4) button for installation
 
-If the T(4) button is pressed for 10 seconds, a local WiFi for the installation is created
+Pressing the T(4) button for 10 seconds creates a local WiFi for the installation
 
 ## Configuring inputs and outputs
 
-The Single Phase Meter 80A has a digital output and a digital input, which can be used as pulse inputs and outputs or as a switchable potential-free contact. You can find details on the wiki page [Inputs and outputs](/schnittstellen/ein-und-ausgaenge) 
+The Single Phase Meter 80A has a digital output and a digital input, which can be used as pulse inputs and outputs or as a switchable potential-free contact. You can find details on the wiki page [Input and Output Configuration](/schnittstellen/ein-und-ausgaenge) 
 
 ## Shipping information
 
@@ -107,9 +107,9 @@ Weight including packaging: 130g
 
 [CE declaration of conformity](https://drive.google.com/uc?export=download&id=10y8f8oD-F35VTPD9ygTtsLqXAIbuyc3S)
 
-[Connection diagram ZIP files](https://drive.google.com/uc?export=download&id=1aY9_dMdLi2RjgHjk9y89Ibd_AIGwMUZW) (\*.DXF and \*.DWG data can be found in the ZIP archive)
+[Wiring diagram ZIP files](https://drive.google.com/uc?export=download&id=1aY9_dMdLi2RjgHjk9y89Ibd_AIGwMUZW) (\*.DXF and \*.DWG data can be found in the ZIP archive)
 
-[Quick Starter](https://docs.google.com/document/d/1XNv61P1L0gXvgaCT4bvFbou8h6rOBkNjgkRk9sUTS60/export?format=pdf)
+[Quick Starter](https://drive.google.com/uc?export=download&id=1CESFSxgh5MDDTbntfmQhcREc5zzwludl)
 
 ## FAQ
 
@@ -125,6 +125,6 @@ Weight including packaging: 130g
 <details id="kann-ich-den-zählerstand-auf-null-zurücksetzten">
 <summary>Can I reset the meter reading to zero?</summary>
 
-No, because our meters are used for billing, they cannot be reset.
+No, since our meters are used for billing, it is not possible to reset them.
 
 </details>

@@ -26,11 +26,11 @@ Avec un abonnement Professional, les valeurs du compteur peuvent également êtr
 
 ## Fonctions
 
-- Visualisation en temps réel de la puissance, du relevé du compteur total (soutirage et injection), du tarif 1 et 2, de la puissance réactive et de l'énergie réactive
+- Visualisation en temps réel de la puissance, du relevé du compteur total (soutirage et injection), des tarifs 1 et 2, de la puissance réactive et de l'énergie réactive
 
 - Enregistrement automatique des relevés du compteur dans le cloud
 
-- Enregistrement et synchronisation automatique des valeurs mesurées en cas de coupure de connexion
+- Enregistrement et synchronisation automatique des valeurs de mesure en cas de perte de connexion
 
 - Sortie de contact pour commander des appareils externes
 
@@ -48,7 +48,7 @@ La pile peut être retirée après la mise en service, car le module est aliment
 
 <Video src="35_hjsvRtwM" title="Vidéo YouTube, smart-me pour Landis+Gyr" />
 
-## Données techniques
+## Caractéristiques techniques
 
 | Caractéristique | Valeur |
 | --- | --- |
@@ -66,7 +66,7 @@ La pile peut être retirée après la mise en service, car le module est aliment
 | Plage de température | −40°C à 70°C |
 | Montage | À côté du compteur L+G ou sur celui-ci |
 
-Remarque : pour l'installation, une pile de 9V (pile bloc 9 volts) est nécessaire pendant un court instant.
+Remarque : une pile 9V (bloc 9 volts) est nécessaire brièvement pour l'installation.
 
 ## Configuration de l'interface CII
 
@@ -74,7 +74,7 @@ L'interface CII (interface client) du compteur Landis+Gyr (p. ex. E450 ou E350) 
 
 [Configuration standard de l'interface CII (anglais)](https://drive.google.com/file/d/1i9KXi5yAHfoNvlFB_08XW9oC2_65ujTF/view)
 
-[Instructions pour la configuration de l'interface client CII (anglais)](https://drive.google.com/file/d/15xeU3fX-mRMTf9cvwNhL76seJzEdX9aS/view)
+[Instructions de configuration de l'interface client CII (anglais)](https://drive.google.com/file/d/15xeU3fX-mRMTf9cvwNhL76seJzEdX9aS/view)
 
 ## Modifier l'intervalle de téléchargement
 
@@ -82,7 +82,7 @@ L'interface CII (interface client) du compteur Landis+Gyr (p. ex. E450 ou E350) 
 
 - Sélectionner le compteur
 
-- Sélectionner la roue dentée en haut à droite
+- Cliquer sur la roue dentée en haut à droite
 
 - Paramètres généraux (Allgemeine Einstellungen)
 
@@ -93,7 +93,7 @@ L'interface CII (interface client) du compteur Landis+Gyr (p. ex. E450 ou E350) 
 
 smart-me ne propose pas de produit successeur pour les compteurs L&G. 
 
-Si vous exploitez un RCP (regroupement dans le cadre de la consommation propre) smart-me et avez besoin d'une nouvelle solution pour votre mesure (p. ex. HAK), le module L&G doit être remplacé par un [Telstar 80A](/produkte/telstar-80a) ou un [Telstar CT](/produkte/telstar-ct).
+Si vous exploitez un RCP (regroupement dans le cadre de la consommation propre) smart-me et avez besoin d'une nouvelle solution pour votre mesure (p. ex. coffret de raccordement), le module L&G doit être remplacé par un [Telstar 80A](/produkte/telstar-80a) ou un [Telstar CT](/produkte/telstar-ct).
 
 Si des mesures sont effectuées dans le domaine privé pour le monitoring, la domotique, etc., le [Telstar 80A](/produkte/telstar-80a) ou le [Telstar CT](/produkte/telstar-ct) peut être installé à tout moment. Si vous cherchez une solution avec votre compteur L&G existant, nous vous recommandons de consulter cette page. [https://gplug.ch/](https://gplug.ch/)
 
@@ -109,10 +109,10 @@ Fiche technique
 
 Quick Starter Guide
 
-[Anglais](https://drive.google.com/file/d/1g-0NPLA1wZNlnoJbn8fVC_goWalk9jqW/view)
+[Anglais](https://drive.google.com/uc?export=download&id=1cvzkzOSgnGpbyLdbYc8-GS0edcnBupWg)
 
 Documents techniques
 
 [Configuration standard de l'interface CII (anglais)](https://drive.google.com/file/d/1i9KXi5yAHfoNvlFB_08XW9oC2_65ujTF/view)
 
-[Instructions pour la configuration de l'interface client CII (anglais)](https://drive.google.com/file/d/15xeU3fX-mRMTf9cvwNhL76seJzEdX9aS/view)
+[Instructions de configuration de l'interface client CII (anglais)](https://drive.google.com/file/d/15xeU3fX-mRMTf9cvwNhL76seJzEdX9aS/view)

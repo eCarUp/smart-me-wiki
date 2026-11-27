@@ -4,9 +4,9 @@ slug: '/produkte/m-bus-gateway/sirius'
 description: 'The smart-me M-Bus Gateway Sirius with integrated level converter for 250 M-Bus standard loads: technical data, connection diagram, button functions and downloads.'
 sidebar_label: 'M-Bus Gateway Sirius'
 ---
-The Sirius is the larger of the two devices: an integrated level converter for 250 M-Bus standard loads, designed for large building infrastructures. The compatibility list, commissioning and installation instructions apply to both devices and can be found on the [overview page](/produkte/m-bus-gateway).
+The Sirius is the larger of the two devices: integrated level converter for 250 M-Bus standard loads, designed for large building infrastructures. The compatibility list, commissioning and installation instructions apply to both devices and can be found on the [overview page](/produkte/m-bus-gateway).
 
-## Functions
+## Features
 
 - [Installation](/konfiguration/inbetriebnahme) with the free smart-me app.
 
@@ -15,7 +15,7 @@ The Sirius is the larger of the two devices: an integrated level converter for 2
 - Integrated power supply
 
 - Supports M-Bus devices according to EN 13757-2, -3 (formerly EN 1434-3).
-    The standard defines the protocol, but not the data it contains. Compliance with the standard alone therefore does not guarantee that a device will actually work. Check our [compatibility list](/produkte/m-bus-gateway).
+    The standard defines the protocol, but not the data it contains. Compliance with the standard alone is therefore no guarantee that a device will actually work. Check our [compatibility list](/produkte/m-bus-gateway).
 
 - Billing with the [smart-me Billing Tool](/konfiguration/billing)
 
@@ -95,4 +95,4 @@ Press and hold = Restarts the device
 
 (\*.DXF data can be found in the ZIP archive)
 
-[Quick Starter](https://docs.google.com/document/d/10vunXjLE-58nRRgmSjM1b9HP6bTFtvs7D-GCRscIxWw/export?format=pdf)
+[Quick Starter](https://drive.google.com/uc?export=download&id=1HPEEStr30hRV5BTY6f_-c6k8bzIeVYl3)

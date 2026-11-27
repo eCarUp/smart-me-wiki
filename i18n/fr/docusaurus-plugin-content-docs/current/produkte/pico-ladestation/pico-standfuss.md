@@ -1,7 +1,7 @@
 ---
 title: 'Solutions de socle Pico'
 slug: '/produkte/pico-ladestation/pico-standfuss'
-description: 'Chaque socle Pico se compose d''un socle :'
+description: 'Chaque socle Pico se compose d''un pied :'
 sidebar_label: 'Socle Pico'
 ---
 
@@ -15,7 +15,7 @@ Deux solutions de socle sont disponibles pour la borne de recharge Pico.
 
 <div className="bild--mitte">
 
-![Socle Pico – illustration 1](/img/produkte-pico-ladestation-pico-standfuss/01.jpg)
+![Socle Pico – Figure 1](/img/produkte-pico-ladestation-pico-standfuss/01.jpg)
 
 </div>
 
@@ -26,7 +26,7 @@ Deux solutions de socle sont disponibles pour la borne de recharge Pico.
 
 <div className="bild--mitte">
 
-![Socle Pico – illustration 13](/img/produkte-pico-ladestation-pico-standfuss/13.png)
+![Support Pico – Figure 13](/img/produkte-pico-ladestation-pico-standfuss/13.png)
 
 </div>
 
@@ -38,11 +38,11 @@ Deux solutions de socle sont disponibles pour la borne de recharge Pico.
 
 ## Informations de commande socle smart-me
 
-Chaque socle Pico se compose d'un socle :
+Chaque socle Pico se compose d'un pied :
 
 - 212070-PL ou 232070-PL 
 
-et d'une tête pour le montage des Picos (toutes les têtes sont compatibles avec les deux variantes de socle)
+et d'une tête pour le montage des Pico (toutes les têtes sont compatibles avec les deux variantes de socle)
 
 - 212070-PL/PH1
 - 212070-PL/PH2
@@ -53,20 +53,20 @@ et d'une tête pour le montage des Picos (toutes les têtes sont compatibles ave
 <div className="col col--6">
 
 ## Informations de commande socle OnePole
-⚡NOUVEAU : la borne de recharge Pico est compatible avec la colonne de recharge universelle de [ONEPOLE](https://onepole.no/de). Le support pour la Pico ainsi que la colonne de recharge peuvent être commandés en différentes versions directement dans la boutique en ligne d'Otto Fischer ➡️ [Support Pico](https://www.ottofischer.ch/de/item/halterung-onepole-pro-fur-pico-ladestation-896511561#item-downloads) et [Socles ONEPOLE](https://www.ottofischer.ch/de/catalog/standfusse-5581978?q=&expanded_filters=id_brands&brands=20630654&limit=48&sort=abc_value). Pour plus d'informations, veuillez contacter Otto Fischer.
+⚡NOUVEAU : la borne de recharge Pico est compatible avec la colonne de recharge universelle de [ONEPOLE](https://onepole.no/de). Le support pour la Pico ainsi que la colonne de recharge peuvent être commandés en différentes versions directement dans la boutique en ligne d'Otto Fischer ➡️ [Support Pico](https://www.ottofischer.ch/de/item/halterung-onepole-pro-fur-pico-ladestation-896511561#item-downloads) et [Socles ONEPOLE](https://www.ottofischer.ch/de/catalog/standfusse-5581978?q=&expanded_filters=id_brands&brands=20630654&limit=48&sort=abc_value). Pour de plus amples informations, veuillez contacter Otto Fischer.
 
 
 
-ONEPOLE est synonyme de solutions de colonnes innovantes, qui convainquent par leur conception modulaire et leur grande flexibilité. Développés et fabriqués en Norvège, ces produits se distinguent par des matériaux de premier ordre, une excellente qualité de finition et des fonctions innovantes et bien pensées. 
+ONEPOLE est synonyme de solutions de colonnes innovantes, qui convainquent par leur conception modulaire et leur grande flexibilité. Développés et fabriqués en Norvège, les produits se distinguent par des matériaux de premier choix, une excellente qualité de fabrication et des fonctions innovantes et bien pensées. 
 
-![Socle Pico – illustration 3](/img/produkte-pico-ladestation-pico-standfuss/03.jpg)
+![Support Pico – Figure 3](/img/produkte-pico-ladestation-pico-standfuss/03.jpg)
 
 </div>
 </div>
 
 ## Variantes de socle smart-me
 
-### 212070-PL Socle Pico
+### 212070-PL Support Pico
 
 <div className="row">
 <div className="col col--9">
@@ -77,14 +77,14 @@ Socle universel avec plaque de base selon la norme OPI-2020
 
 - Câbles d'alimentation directement du coffret de protection à la borne de recharge.
 
-Le montage s'effectue sur un socle en béton avec un entraxe de perçage selon les instructions. Détails sous Téléchargements Pico.
+Le montage s'effectue sur un socle en béton avec l'entraxe des trous selon les instructions. Détails sous Téléchargements Pico.
 
-Surface : galvanisée à chaud, revêtue par poudre et peinte en RAL 9004 noir de sécurité
+Surface : galvanisée à chaud, revêtue par poudre et laquée en RAL 9004 noir de sécurité
 
 </div>
 <div className="col col--3 bild--mitte">
 
-![Socle Pico – illustration 5](/img/produkte-pico-ladestation-pico-standfuss/05.png)
+![Support Pico – Figure 5](/img/produkte-pico-ladestation-pico-standfuss/05.png)
 
 </div>
 </div>
@@ -92,12 +92,12 @@ Surface : galvanisée à chaud, revêtue par poudre et peinte en RAL 9004 noir d
 <div className="row">
 <div className="col col--6">
 
-### 232070-PL Socle Pico avec accès de service
+### 232070-PL Support Pico avec accès de service
 
 Socle universel avec plaque de base selon la norme OPI-2020
 
-- Couvercle de service pour un câblage multiple simple et des inspections périodiques
-- Place pour 2 disjoncteurs différentiels ou disjoncteurs différentiels combinés (FI/LS), parafoudres (SPD type 2) ou autres appareils sur rail DIN.
+- Couvercle de service pour un câblage multiple simplifié et une inspection périodique
+- Place pour 2 disjoncteurs différentiels ou disjoncteurs combinés FI/LS, parafoudres (SPD type 2) ou autres appareils sur rail DIN.
 - Câble d'alimentation et de départ : max. 25mm2
 - IP44
 - IK10
@@ -111,27 +111,27 @@ Socle universel avec plaque de base selon la norme OPI-2020
 - Borniers
 - Bornes PE
 
-Le montage s'effectue sur un socle en béton avec un entraxe de perçage selon les instructions. Détails sous Téléchargements Pico.
-Surface : galvanisée à chaud, revêtue par poudre et peinte en RAL 9004 noir de sécurité
+Le montage s'effectue sur un socle en béton avec l'entraxe des trous selon les instructions. Détails sous Téléchargements Pico.
+Surface : galvanisée à chaud, revêtue par poudre et laquée en RAL 9004 noir de sécurité
 </div>
 
 <div className="col col--3">
 
-![Socle Pico – illustration 4](/img/produkte-pico-ladestation-pico-standfuss/06.jpg)
+![Support Pico – Figure 4](/img/produkte-pico-ladestation-pico-standfuss/06.jpg)
 
 </div>
 <div className="col col--3 bild--mitte">
 
-![Socle Pico – illustration 7](/img/produkte-pico-ladestation-pico-standfuss/07.png)
+![Support Pico – Figure 7](/img/produkte-pico-ladestation-pico-standfuss/07.png)
 
 </div>
 </div>
 
-## Variantes de tête de socle
+## Variantes de tête de support
 
-### 232070-PL/PH1 et 232070-PL/PH2 Têtes de socle Pico avec support de câble
+### 232070-PL/PH1 et 232070-PL/PH2 Têtes de support Pico avec station d'accueil de câble
 
-En plus du crochet pour enrouler le câble, cette variante de tête dispose de supports de connecteur permettant de ranger l'extrémité libre du câble à l'abri de l'eau après la session de recharge.
+En plus du crochet à câble permettant d'enrouler le câble, cette variante de tête dispose de supports de connecteur permettant de ranger l'extrémité libre du câble à l'abri de l'eau après la session de recharge.
 
 Cette tête convient particulièrement aux bornes de recharge publiques avec câble fixe sur la borne de recharge.
 
@@ -140,18 +140,18 @@ Les têtes s'adaptent à toutes les variantes de socle.
 <div className="row">
 <div className="col col--9">
 
-232070-PL/PH1 Tête de socle Pico 1x Pico avec support de câble
+232070-PL/PH1 Tête de support Pico 1x Pico avec station d'accueil de câble
 
 Contenu :
-- 1x support de câble côté droit (vu de face)
+- 1x station d'accueil de câble côté droit (vue de face)
 - 1x tôle de fixation Pico
-- Crochet pour câble
+- Crochet à câble
 - Accessoires
 
 </div>
 <div className="col col--3 bild--mitte">
 
-![Socle Pico – illustration 8](/img/produkte-pico-ladestation-pico-standfuss/08.jpg)
+![Support Pico – Figure 8](/img/produkte-pico-ladestation-pico-standfuss/08.jpg)
 
 </div>
 </div>
@@ -159,18 +159,18 @@ Contenu :
 <div className="row">
 <div className="col col--9">
 
-2302070-PL/PH2 Tête de socle Pico 2x Pico avec supports de câble
+2302070-PL/PH2 Tête de support Pico 2x Pico avec stations d'accueil de câble
 
 Contenu :
-- 2x support de câble côtés droit et gauche (vu de face)
+- 2x station d'accueil de câble côtés droit et gauche (vue de face)
 - 2x tôle de fixation Pico
-- Crochet pour câble
+- Crochet à câble
 - Accessoires
 
 </div>
 <div className="col col--3 bild--mitte">
 
-![Socle Pico – illustration 9](/img/produkte-pico-ladestation-pico-standfuss/09.jpg)
+![Support Pico – Figure 9](/img/produkte-pico-ladestation-pico-standfuss/09.jpg)
 
 </div>
 </div>
@@ -189,7 +189,7 @@ Il est également possible de fabriquer ou d'acheter un produit tiers.
 </div>
 <div className="col col--3 bild--mitte">
 
-![Socle Pico – illustration 12](/img/produkte-pico-ladestation-pico-standfuss/12.png)
+![Support Pico – Figure 12](/img/produkte-pico-ladestation-pico-standfuss/12.png)
 
 </div>
 </div>
@@ -198,7 +198,7 @@ Il est également possible de fabriquer ou d'acheter un produit tiers.
 
 ### Fiche technique
 
-[Fiche technique en allemand socle normal](https://docs.google.com/presentation/d/1si1w-SH3aHQU52az51RVR9HrPD0mufsLQOErdtUNBa4/export/pdf) 
+[Fiche technique en allemand socle standard](https://docs.google.com/presentation/d/1si1w-SH3aHQU52az51RVR9HrPD0mufsLQOErdtUNBa4/export/pdf) 
 
 [Fiche technique en anglais Pole Basic](https://docs.google.com/presentation/d/1IuYdWO0DG7WzULnhqAxexFe0gn9lXIdqZV0Ld9o1H6o/export/pdf)
 
@@ -208,7 +208,7 @@ Il est également possible de fabriquer ou d'acheter un produit tiers.
 
 ### Instructions d'installation et de montage
 
-[Allemand socle normal 212070](https://docs.google.com/presentation/d/1etcIy6Ak87tHl1IKyR3vkeI8njKifNEZEblgoFnG31M/export/pdf)
+[Allemand socle standard 212070](https://docs.google.com/presentation/d/1etcIy6Ak87tHl1IKyR3vkeI8njKifNEZEblgoFnG31M/export/pdf)
 
 [Anglais Pole Basic 212070](https://docs.google.com/presentation/d/1E7xwrz-9SY61W5SjvSxstIjsqqrAiLNH807a-tYnoJQ/export/pdf)
 
@@ -216,7 +216,7 @@ Il est également possible de fabriquer ou d'acheter un produit tiers.
 
 [Anglais Pole with service door 232070](https://docs.google.com/presentation/d/1Jvp9VK24zobIH0hJ9eazLwURvVuZ0i0nczlmGKOL7H0/export/pdf)
 
-[Quickstarter 212070 / 232070](https://docs.google.com/document/d/19Hp4eK43o-_NGerpnEkw-MIVr2FcFZlMv78Ic6f22Iw/export?format=pdf)
+[Quickstarter 212070 / 232070](https://drive.google.com/uc?export=download&id=1804PciZJa8gKfwTmF8jS60_EAo74anJT)
 
 [Déclaration de conformité UE](https://drive.google.com/uc?export=download&id=14h6QNwvbybeGwOvgesNnSBxI-GsjvXd9)
 

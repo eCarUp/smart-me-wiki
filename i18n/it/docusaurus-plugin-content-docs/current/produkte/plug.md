@@ -1,21 +1,21 @@
 ---
 title: 'Plug'
 slug: '/produkte/plug'
-description: 'Lo smart-me Plug è misuratore di corrente, termostato e timer in un unico dispositivo.'
+description: 'Lo smart-me Plug è misuratore di energia, termostato e timer in un unico dispositivo.'
 sidebar_label: 'Plug'
 displayed_sidebar: wikiSidebar
 ---
-Lo smart-me Plug è misuratore di corrente, termostato e timer in un unico dispositivo. Inoltre, il Plug può essere comandato e monitorato tramite portale web o app. A tale scopo, il dispositivo si connette a Internet tramite la rete WLAN locale. 
+Lo smart-me Plug è misuratore di energia, termostato e timer in un unico dispositivo. Inoltre, il Plug può essere comandato e monitorato tramite portale web o app. A tale scopo, il dispositivo si connette a Internet tramite la rete WLAN locale. 
 
 Vendita cessata il 30.03.2021
 Supporto tecnico cessato il 30.03.2025
-Hardware e funzioni cloud: funzionamento tuttora garantito
+Hardware e funzioni cloud: il funzionamento resta garantito
 
 ![Plug – Figura 1](/img/produkte-plug/01.jpg)
 
 ## Varianti
 
-Disponibile nelle versioni per Europa, Svizzera e Gran Bretagna.
+Disponibile nelle versioni Europa, Svizzera e Gran Bretagna.
 
 - Versione UK: 3000W (230V, 13A)
 
@@ -32,21 +32,21 @@ Disponibile nelle versioni per Europa, Svizzera e Gran Bretagna.
 
 - Interruttore a distanza: accenda o spenga la corrente tramite app o portale web. 
 
-- Timer: imposti a che ora il Plug deve commutare. 
+- Timer: imposti l'orario in cui il Plug deve commutare. 
 
-- Connessione diretta e crittografata allo smart-me Cloud (WiFi)
+- Connessione diretta e crittografata alla smart-me Cloud (WiFi)
 
-- Gestione completa dell'energia nello smart-me Cloud: 
+- Gestione completa dell'energia nella smart-me Cloud: 
 
 
 - -   -   Monitoraggio in tempo reale
 
         - Comando con azioni basate su eventi e azioni se/allora
 
-    - Installazione semplice con la smart-me App gratuita per Android e iOS
+    - Installazione semplice con l'app smart-me gratuita per Android e iOS
 
 
-<Video src="r1NFkuI7CUM" title="Video YouTube, installazione Plug" />
+<Video src="r1NFkuI7CUM" title="Video YouTube, installazione del Plug" />
 
 Video installazione
 
@@ -81,4 +81,4 @@ Documenti tecnici
 
 [Dichiarazione di conformità CE](https://drive.google.com/file/d/1d0K0SKzcBu2IlrQVivL5vYlBzcLc3jCr/view)
 
-[Quick Starter Guide (inglese e tedesco)](https://drive.google.com/file/d/1NmyLZxozwF6wAiGIW20Ts5NOKpWQh01t/view)
+[Quick Starter Guide (inglese e tedesco)](https://drive.google.com/uc?export=download&id=1h3o-D4nfyF49K0KgHlhOb-tYhPaGZ9kg)

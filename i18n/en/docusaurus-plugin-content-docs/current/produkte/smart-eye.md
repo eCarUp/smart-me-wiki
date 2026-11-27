@@ -5,21 +5,21 @@ description: 'The smart-eye brings energy meters compliant with the FNN specific
 sidebar_label: 'smart-eye'
 displayed_sidebar: wikiSidebar
 ---
-The smart-eye brings energy meters compliant with the FNN specification for basic meters (modern metering devices) into the smart-me Cloud. For this purpose, the smart-eye is attached to the optical INFO data interface. The energy data is then transmitted to the smart-me Cloud via local WiFi. Using the app or the online login, you can view consumption visualizations in near real time and, where applicable, data relevant to grid operation such as frequency, voltage or current.
+The smart-eye brings energy meters compliant with the FNN specification for basic meters (modern metering devices) into the smart-me Cloud. For this purpose, the smart-eye is attached to the optical INFO data interface. The energy data is then transmitted to the smart-me Cloud via local WiFi. Using the app or the online login, you can view consumption visualizations in near real time and, where applicable, grid-relevant data such as frequency, voltage or current.
 
-Sales discontinued on 30.03.2021; support and cloud support are guaranteed until 30.03.2025.
+Sales discontinued on 30.03.2021; support and cloud service are guaranteed until 30.03.2025.
 
-The smart-me system is multi-utility capable: the measured values of other meters, such as gas meters, can also be read and integrated into energy management. In addition, depending on the meter type, the smart-eye can automatically enter the PIN code for unlocking the extended data set. 
+The smart-me system supports multiple utilities: the readings of other meters, such as gas meters, can also be read and integrated into energy management. In addition, depending on the meter type, the smart-eye can automatically enter the PIN code that unlocks the extended data set. 
 
 ![smart-eye – Figure 1](/img/produkte-smart-eye/01.jpg)
 
 ## Features
 
-- Real-time visualization of the meter data
+- Real-time visualization of meter data
 
-- Automatic storage of the meter readings in the cloud
+- Automatic storage of meter readings in the cloud
 
-- Data logger: measured values are stored during a connection failure and automatically synchronized to the cloud once the connection is restored
+- Data logger: stores readings during a connection outage and automatically synchronizes them to the cloud once the connection is restored
 
 - Encrypted WiFi connection to the smart-me Cloud
 
@@ -32,7 +32,7 @@ The smart-me system is multi-utility capable: the measured values of other meter
 
 Installation and commissioning of the smart-eye module
 
-## Technical Data
+## Technical data
 
 | Feature | Value |
 | --- | --- |
@@ -49,29 +49,29 @@ Installation and commissioning of the smart-eye module
 | Temperature range | −40°C to 70°C |
 | Mounting | Magnetic |
 
-## Tested Meters
+## Tested meters
 
-[](https://drive.google.com/open?id=1WURxhIS6zPpfSeOv-tfZqnRQKIBkGNP9x4_n1r5iVds "Open spreadsheet, tested meters in new window")
+[](https://drive.google.com/open?id=1WURxhIS6zPpfSeOv-tfZqnRQKIBkGNP9x4_n1r5iVds "Open Spreadsheet, Tested meters in new window")
 
-<Embed src="https://docs.google.com/spreadsheets/d/1WURxhIS6zPpfSeOv-tfZqnRQKIBkGNP9x4_n1r5iVds/htmlembed?gid=0" height="493px" title="Spreadsheet, tested meters" />
+<Embed src="https://docs.google.com/spreadsheets/d/1WURxhIS6zPpfSeOv-tfZqnRQKIBkGNP9x4_n1r5iVds/htmlembed?gid=0" height="493px" title="Spreadsheet, Tested meters" />
 
 Tested meters
 
-## LED Blink Codes
+## LED blink codes
 
-[](https://drive.google.com/open?id=10sNiDg0g8cwomZ-aEWn7gpCKbZLiay4X1O_fOJmM-QY "Open spreadsheet, smart-eye LED blink codes in new window")
+[](https://drive.google.com/open?id=10sNiDg0g8cwomZ-aEWn7gpCKbZLiay4X1O_fOJmM-QY "Open Spreadsheet, smart-eye LED blink codes in new window")
 
 <Embed src="https://docs.google.com/spreadsheets/d/10sNiDg0g8cwomZ-aEWn7gpCKbZLiay4X1O_fOJmM-QY/htmlembed" height="216px" title="Spreadsheet, smart-eye LED blink codes" />
 
 smart-eye LED blink codes
 
-Change the upload interval
+Changing the upload interval
 
 - Log in to the smart-me portal
 
 - Select the meter
 
-- Click the gear icon at the top right
+- Select the gear icon at the top right
 
 - General settings (Allgemeine Einstellungen)
 
@@ -86,4 +86,4 @@ Data sheet
 
 Technical documents
 
-[Quick Starter Guide](https://drive.google.com/file/d/1cfreWRx5zRDTSzjPYuchkZFk7RXvjVaJ/view?usp=sharing)
+[Quick Starter Guide](https://drive.google.com/uc?export=download&id=1JTCDaDu5M25GcBE7XhvTgunHdcIKZOu1)

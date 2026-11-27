@@ -12,12 +12,12 @@ Le Sirius est le plus grand des deux appareils : convertisseur de niveau intégr
 
 - Convertisseur de niveau intégré pour 250 charges standard M-Bus
 
-- Alimentation intégrée
+- Bloc d'alimentation intégré
 
 - Prend en charge les appareils M-Bus selon EN 13757-2, -3 (anciennement EN 1434-3).
-    La norme définit le protocole, mais pas les données transmises. La conformité à la norme ne garantit donc pas à elle seule le bon fonctionnement. Consultez notre [liste de compatibilité](/produkte/m-bus-gateway).
+    La norme définit le protocole, mais pas les données contenues. Le respect de la norme ne garantit donc pas à lui seul le fonctionnement effectif. Consultez notre [liste de compatibilité](/produkte/m-bus-gateway).
 
-- Facturation avec le [smart-me Billing Tool](/konfiguration/billing)
+- Facturation avec l'[outil smart-me Billing](/konfiguration/billing)
 
 - [Visualisations](/konfiguration/visualisierung)
 
@@ -35,7 +35,7 @@ Le Sirius est le plus grand des deux appareils : convertisseur de niveau intégr
 | Certification du produit | CE |
 | Tension réseau | 230 VAC 50/60 Hz |
 | Plage de température | -20°C à +50°C |
-| Humidité relative | Moyenne annuelle 75 %, sans condensation<br />brièvement 95 %, sans condensation |
+| Humidité relative | Moyenne annuelle 75%, sans condensation<br />brièvement 95%, sans condensation |
 | Interfaces | WLAN, M-BUS |
 | Communication | WLAN IEEE 802.11 b/g/n (2.4 GHz) |
 | Norme de sécurité WLAN | WEP, WPA-PSK/WPA2-PSK |
@@ -95,4 +95,4 @@ Pression longue = redémarre l'appareil
 
 (Les données \*.DXF se trouvent dans l'archive ZIP)
 
-[Quick Starter](https://docs.google.com/document/d/10vunXjLE-58nRRgmSjM1b9HP6bTFtvs7D-GCRscIxWw/export?format=pdf)
+[Quick Starter](https://drive.google.com/uc?export=download&id=1HPEEStr30hRV5BTY6f_-c6k8bzIeVYl3)

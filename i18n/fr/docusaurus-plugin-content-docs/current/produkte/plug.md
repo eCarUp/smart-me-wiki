@@ -1,15 +1,15 @@
 ---
 title: 'Plug'
 slug: '/produkte/plug'
-description: 'Le smart-me Plug est à la fois un appareil de mesure d''électricité, un thermostat et une minuterie.'
+description: 'Le smart-me Plug est à la fois un appareil de mesure de l''électricité, un thermostat et une minuterie.'
 sidebar_label: 'Plug'
 displayed_sidebar: wikiSidebar
 ---
-Le smart-me Plug est à la fois un appareil de mesure d'électricité, un thermostat et une minuterie. De plus, le Plug peut être commandé et surveillé via le portail web ou l'application. Pour cela, l'appareil se connecte à Internet via le réseau WLAN local. 
+Le smart-me Plug est à la fois un appareil de mesure de l'électricité, un thermostat et une minuterie. De plus, le Plug peut être commandé et surveillé via le portail web ou l'application. Pour cela, l'appareil se connecte à Internet via le réseau WLAN local. 
 
 Vente arrêtée le 30.03.2021
 Support technique arrêté le 30.03.2025
-Matériel et fonctions cloud : fonctionnement toujours garanti
+Matériel et fonctions cloud : le fonctionnement reste garanti
 
 ![Plug – Illustration 1](/img/produkte-plug/01.jpg)
 
@@ -26,9 +26,9 @@ Disponible en versions Europe, Suisse et Grande-Bretagne.
 
 ## Fonctions
 
-- Appareil de mesure d'énergie : outre la puissance actuelle, le smart-me Plug mesure l'énergie, le courant, la tension et le facteur de puissance. smart-me garantit une précision de 99 % (erreur max. de 1 %).
+- Appareil de mesure de l'énergie : outre la puissance actuelle, le smart-me Plug mesure l'énergie, le courant, la tension et le facteur de puissance. smart-me garantit une précision de 99% (erreur max. de 1%).
 
-- Appareil de mesure de température : surveillez la température en direct et analysez les données historiques.
+- Appareil de mesure de la température : surveillez la température en direct et analysez les données historiques.
 
 - Interrupteur à distance : allumez ou éteignez le courant via l'application ou le portail web. 
 
@@ -41,7 +41,7 @@ Disponible en versions Europe, Suisse et Grande-Bretagne.
 
 - -   -   Surveillance en temps réel
 
-        - Commande par actions déclenchées par un événement et actions si/alors
+        - Commande avec des actions déclenchées par un événement (Ereignis Aktionen) et des actions si/alors (Wenn / Dann Aktionen)
 
     - Installation simple avec l'application smart-me gratuite pour Android et iOS
 
@@ -60,7 +60,7 @@ Vidéo d'installation
 | Fréquence (f) | 50/60Hz |
 | Courant (I) | 10A / 16A |
 | Indice de protection | IP20 |
-| Consommation propre | 0.1W |
+| Autoconsommation | 0.1W |
 | Dimensions | 95 x 54 x 29 mm (3.7 x 2.1 x 1.1 in) |
 
 ## Le relevé du compteur peut-il être réinitialisé ?
@@ -81,4 +81,4 @@ Documents techniques
 
 [Déclaration de conformité CE](https://drive.google.com/file/d/1d0K0SKzcBu2IlrQVivL5vYlBzcLc3jCr/view)
 
-[Quick Starter Guide (anglais et allemand)](https://drive.google.com/file/d/1NmyLZxozwF6wAiGIW20Ts5NOKpWQh01t/view)
+[Quick Starter Guide (anglais et allemand)](https://drive.google.com/uc?export=download&id=1h3o-D4nfyF49K0KgHlhOb-tYhPaGZ9kg)

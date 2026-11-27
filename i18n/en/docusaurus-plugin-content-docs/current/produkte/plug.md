@@ -5,7 +5,7 @@ description: 'The smart-me Plug is a power meter, thermostat and timer in one.'
 sidebar_label: 'Plug'
 displayed_sidebar: wikiSidebar
 ---
-The smart-me Plug is a power meter, thermostat and timer in one. In addition, the Plug can be controlled and monitored via the web portal or the app. To do this, the device connects to the internet via the local Wi-Fi network. 
+The smart-me Plug is a power meter, thermostat and timer in one. In addition, the Plug can be controlled and monitored via the web portal or app. To do this, the device connects to the internet via the local Wi-Fi network. 
 
 Sales discontinued on 30.03.2021
 Technical support discontinued on 30.03.2025
@@ -28,7 +28,7 @@ Available in European, Swiss and UK versions.
 
 - Energy meter: In addition to the current power, the smart-me Plug measures energy, current, voltage and power factor. smart-me guarantees an accuracy of 99% (max. 1% error).
 
-- Temperature meter: Monitor the temperature live and analyze historical data.
+- Temperature meter: Monitor the temperature live and analyse historical data.
 
 - Remote switch: Switch the power on or off via the app or web portal. 
 
@@ -81,4 +81,4 @@ Technical documents
 
 [CE declaration of conformity](https://drive.google.com/file/d/1d0K0SKzcBu2IlrQVivL5vYlBzcLc3jCr/view)
 
-[Quick Starter Guide (English and German)](https://drive.google.com/file/d/1NmyLZxozwF6wAiGIW20Ts5NOKpWQh01t/view)
+[Quick Starter Guide (English and German)](https://drive.google.com/uc?export=download&id=1h3o-D4nfyF49K0KgHlhOb-tYhPaGZ9kg)

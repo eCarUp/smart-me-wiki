@@ -227,11 +227,11 @@ Poids avec emballage : 415g
 
 [Fiche technique anglais](https://docs.google.com/presentation/d/1AuzVbDnoAHAyyoMNErOYJBa-0F5bUBsjTG5ghxqtLrY/export/pdf)
 
-[Déclaration de conformité CE](https://drive.google.com/file/d/1mcZJJhHeKQ1wN0q8yE8ROKnRZXx-wo3b/view?usp=sharing)
+[Déclaration de conformité CE](https://drive.google.com/uc?export=download&id=1mcZJJhHeKQ1wN0q8yE8ROKnRZXx-wo3b)
 
-[Schéma de raccordement](https://drive.google.com/file/d/1400_Edqq9WfG48wg-60NUsQZ5CrBbM5B/view?usp=sharing)
+[Schéma de raccordement](https://drive.google.com/uc?export=download&id=1400_Edqq9WfG48wg-60NUsQZ5CrBbM5B)
 
-[Schéma de raccordement fichiers ZIP](https://drive.google.com/file/d/1aKyx7qWyNh56Mrj-iAzfRxW_baVQtTmo/view?usp=share_link) (les fichiers \*.DXF et \*.DWG se trouvent dans l'archive ZIP)
+[Schéma de raccordement fichiers ZIP](https://drive.google.com/uc?export=download&id=1aKyx7qWyNh56Mrj-iAzfRxW_baVQtTmo) (les fichiers \*.DXF et \*.DWG se trouvent dans l'archive ZIP)
 
 [Quick Starter](https://docs.google.com/document/d/1qW-3HcgJ3si6LE-HPIYaLg9N9HZhR4PZgu0LJcP5_DY/export?format=pdf)
 

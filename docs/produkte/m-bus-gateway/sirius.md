@@ -85,13 +85,13 @@ Lange drücken = Startet das Gerät neu
 
 ## Downloads und Konformitätserklärung
 
-[Datenblatt Deutsch](https://drive.google.com/file/d/1Z6PuaBpdTn4L-C8pjyz8fmIWStQGZ9wB/view?usp=sharing)
+[Datenblatt Deutsch](https://drive.google.com/uc?export=download&id=1Z6PuaBpdTn4L-C8pjyz8fmIWStQGZ9wB)
 
-[Datenblatt Englisch](https://drive.google.com/file/d/1-5Mgp7s1IxnqqzxtS7tYg0dlcXQ8Bhjd/view?usp=sharing)
+[Datenblatt Englisch](https://drive.google.com/uc?export=download&id=1-5Mgp7s1IxnqqzxtS7tYg0dlcXQ8Bhjd)
 
-[CE-Konformitätserklärung](https://drive.google.com/file/d/1BC3GzxyQl_Rweyo2YkghBBnUSanmdk1J/view?usp=drive_link)
+[CE-Konformitätserklärung](https://drive.google.com/uc?export=download&id=1BC3GzxyQl_Rweyo2YkghBBnUSanmdk1J)
 
-[Anschlussschema ZIP Files](https://drive.google.com/file/d/1Ek2m9yTKiov2OZ5Yyt7GICimtmRaut30/view?usp=sharing)
+[Anschlussschema ZIP Files](https://drive.google.com/uc?export=download&id=1Ek2m9yTKiov2OZ5Yyt7GICimtmRaut30)
 
 (\*.DXF Daten können im ZIP Archiv gefunden werden)
 

@@ -368,8 +368,8 @@ Nein, da unsere Zähler für Abrechnungen verwendet werden, ist es nicht möglic
 
 [Installations- und Montageanleitung  (Deutsch)](https://docs.google.com/presentation/d/1d_ejgHn-M8dmJdRPlC1F2z5bBZTvtU89_p2z1f22_aw/export/pdf) 
 
-[Bohrlehre](https://drive.google.com/file/d/1lQSSDwsKE9JeS2QkbpUDcLRhpeezxYnP/view?usp=sharing)
+[Bohrlehre](https://drive.google.com/uc?export=download&id=1lQSSDwsKE9JeS2QkbpUDcLRhpeezxYnP)
 
-[Konformitätserklärung](https://drive.google.com/file/d/1K-9mIHKMXTeqzOCc0-i9vRfSnFElSCnu/view?usp=drive_link)
+[Konformitätserklärung](https://drive.google.com/uc?export=download&id=1K-9mIHKMXTeqzOCc0-i9vRfSnFElSCnu)
 
-[Anschlussschema und Stromlaufschema ZIP Files](https://drive.google.com/file/d/1aVOLmWprogy2OizkcyH3kHsHntu0A8-D/view?usp=share_link)
+[Anschlussschema und Stromlaufschema ZIP Files](https://drive.google.com/uc?export=download&id=1aVOLmWprogy2OizkcyH3kHsHntu0A8-D)

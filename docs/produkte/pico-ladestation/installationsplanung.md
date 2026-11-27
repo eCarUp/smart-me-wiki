@@ -76,7 +76,7 @@ Die Installation benötigt hier einen SPD Typ-1 Blitzschutz und Typ-2 Blitzschut
 
 ## Downloads
 
-[Anschlussschema und Stromlaufschema ZIP Files](https://drive.google.com/file/d/1aVOLmWprogy2OizkcyH3kHsHntu0A8-D/view?usp=share_link)
+[Anschlussschema und Stromlaufschema ZIP Files](https://drive.google.com/uc?export=download&id=1aVOLmWprogy2OizkcyH3kHsHntu0A8-D)
 
 # FAQ
 
@@ -134,4 +134,4 @@ Ist aber eine zusätzlicher Lastschutz von Nöten wird ein Lastschutz Modell mit
 
 ## Erweiterte Dokumentation und landesspezifische Hinweise
 
-[Schweiz: Stellungnahme der Electrosuisse - Installation von Ladestationen für EV, mehrere Ladestationen an gemeinsamer Speiseleitung](https://drive.google.com/file/d/1aquBK7Gip6DJxagCgB-_kwqEuozjCh07/view)
+[Schweiz: Stellungnahme der Electrosuisse - Installation von Ladestationen für EV, mehrere Ladestationen an gemeinsamer Speiseleitung](https://drive.google.com/uc?export=download&id=1aquBK7Gip6DJxagCgB-_kwqEuozjCh07)

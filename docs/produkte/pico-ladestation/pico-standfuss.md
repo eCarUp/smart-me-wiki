@@ -218,8 +218,8 @@ Alternativ kann ein Drittprodukt erzeugt oder eingekauft werden.
 
 [Quickstarter 212070 / 232070](https://docs.google.com/document/d/19Hp4eK43o-_NGerpnEkw-MIVr2FcFZlMv78Ic6f22Iw/export?format=pdf)
 
-[EU Konformitätserklärung](https://drive.google.com/file/d/14h6QNwvbybeGwOvgesNnSBxI-GsjvXd9/view?usp=drive_link)
+[EU Konformitätserklärung](https://drive.google.com/uc?export=download&id=14h6QNwvbybeGwOvgesNnSBxI-GsjvXd9)
 
 ### Zeichnungen
 
-[Produktzeichnungen](https://drive.google.com/file/d/13GTjtFquGr8UU0GyX8HJocX2Py2VeDgU/view?usp=sharing)
+[Produktzeichnungen](https://drive.google.com/uc?export=download&id=13GTjtFquGr8UU0GyX8HJocX2Py2VeDgU)

@@ -368,8 +368,8 @@ No, since our meters are used for billing, it is not possible to reset them.
 
 [Installation and assembly instructions  (German)](https://docs.google.com/presentation/d/1d_ejgHn-M8dmJdRPlC1F2z5bBZTvtU89_p2z1f22_aw/export/pdf) 
 
-[Drilling template](https://drive.google.com/file/d/1lQSSDwsKE9JeS2QkbpUDcLRhpeezxYnP/view?usp=sharing)
+[Drilling template](https://drive.google.com/uc?export=download&id=1lQSSDwsKE9JeS2QkbpUDcLRhpeezxYnP)
 
-[Declaration of conformity](https://drive.google.com/file/d/1K-9mIHKMXTeqzOCc0-i9vRfSnFElSCnu/view?usp=drive_link)
+[Declaration of conformity](https://drive.google.com/uc?export=download&id=1K-9mIHKMXTeqzOCc0-i9vRfSnFElSCnu)
 
-[Connection diagram and circuit diagram ZIP files](https://drive.google.com/file/d/1aVOLmWprogy2OizkcyH3kHsHntu0A8-D/view?usp=share_link)
+[Connection diagram and circuit diagram ZIP files](https://drive.google.com/uc?export=download&id=1aVOLmWprogy2OizkcyH3kHsHntu0A8-D)

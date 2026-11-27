@@ -85,13 +85,13 @@ Pression longue = redémarre l'appareil
 
 ## Téléchargements et déclaration de conformité
 
-[Fiche technique en allemand](https://drive.google.com/file/d/1Z6PuaBpdTn4L-C8pjyz8fmIWStQGZ9wB/view?usp=sharing)
+[Fiche technique en allemand](https://drive.google.com/uc?export=download&id=1Z6PuaBpdTn4L-C8pjyz8fmIWStQGZ9wB)
 
-[Fiche technique en anglais](https://drive.google.com/file/d/1-5Mgp7s1IxnqqzxtS7tYg0dlcXQ8Bhjd/view?usp=sharing)
+[Fiche technique en anglais](https://drive.google.com/uc?export=download&id=1-5Mgp7s1IxnqqzxtS7tYg0dlcXQ8Bhjd)
 
-[Déclaration de conformité CE](https://drive.google.com/file/d/1BC3GzxyQl_Rweyo2YkghBBnUSanmdk1J/view?usp=drive_link)
+[Déclaration de conformité CE](https://drive.google.com/uc?export=download&id=1BC3GzxyQl_Rweyo2YkghBBnUSanmdk1J)
 
-[Schéma de raccordement fichiers ZIP](https://drive.google.com/file/d/1Ek2m9yTKiov2OZ5Yyt7GICimtmRaut30/view?usp=sharing)
+[Schéma de raccordement fichiers ZIP](https://drive.google.com/uc?export=download&id=1Ek2m9yTKiov2OZ5Yyt7GICimtmRaut30)
 
 (Les données \*.DXF se trouvent dans l'archive ZIP)
 

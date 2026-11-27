@@ -368,8 +368,8 @@ No, poiché i nostri contatori vengono utilizzati per i conteggi, non è possibi
 
 [Istruzioni di installazione e montaggio (tedesco)](https://docs.google.com/presentation/d/1d_ejgHn-M8dmJdRPlC1F2z5bBZTvtU89_p2z1f22_aw/export/pdf) 
 
-[Dima di foratura](https://drive.google.com/file/d/1lQSSDwsKE9JeS2QkbpUDcLRhpeezxYnP/view?usp=sharing)
+[Dima di foratura](https://drive.google.com/uc?export=download&id=1lQSSDwsKE9JeS2QkbpUDcLRhpeezxYnP)
 
-[Dichiarazione di conformità](https://drive.google.com/file/d/1K-9mIHKMXTeqzOCc0-i9vRfSnFElSCnu/view?usp=drive_link)
+[Dichiarazione di conformità](https://drive.google.com/uc?export=download&id=1K-9mIHKMXTeqzOCc0-i9vRfSnFElSCnu)
 
-[File ZIP dello schema di collegamento e dello schema elettrico](https://drive.google.com/file/d/1aVOLmWprogy2OizkcyH3kHsHntu0A8-D/view?usp=share_link)
+[File ZIP dello schema di collegamento e dello schema elettrico](https://drive.google.com/uc?export=download&id=1aVOLmWprogy2OizkcyH3kHsHntu0A8-D)

@@ -85,13 +85,13 @@ Pressione prolungata = Riavvia il dispositivo
 
 ## Download e dichiarazione di conformità
 
-[Scheda tecnica in tedesco](https://drive.google.com/file/d/1Z6PuaBpdTn4L-C8pjyz8fmIWStQGZ9wB/view?usp=sharing)
+[Scheda tecnica in tedesco](https://drive.google.com/uc?export=download&id=1Z6PuaBpdTn4L-C8pjyz8fmIWStQGZ9wB)
 
-[Scheda tecnica in inglese](https://drive.google.com/file/d/1-5Mgp7s1IxnqqzxtS7tYg0dlcXQ8Bhjd/view?usp=sharing)
+[Scheda tecnica in inglese](https://drive.google.com/uc?export=download&id=1-5Mgp7s1IxnqqzxtS7tYg0dlcXQ8Bhjd)
 
-[Dichiarazione di conformità CE](https://drive.google.com/file/d/1BC3GzxyQl_Rweyo2YkghBBnUSanmdk1J/view?usp=drive_link)
+[Dichiarazione di conformità CE](https://drive.google.com/uc?export=download&id=1BC3GzxyQl_Rweyo2YkghBBnUSanmdk1J)
 
-[Schema di collegamento file ZIP](https://drive.google.com/file/d/1Ek2m9yTKiov2OZ5Yyt7GICimtmRaut30/view?usp=sharing)
+[Schema di collegamento file ZIP](https://drive.google.com/uc?export=download&id=1Ek2m9yTKiov2OZ5Yyt7GICimtmRaut30)
 
 (I dati \*.DXF si trovano nell'archivio ZIP)
 

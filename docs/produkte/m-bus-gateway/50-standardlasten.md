@@ -83,9 +83,9 @@ Wenn die Taste T(4) für 10 Sekunden gedrückt wird, erzeugt dies ein lokales Wi
 
 [Datenblatt Englisch](https://docs.google.com/presentation/d/1Hr73_7JLlAxQN-0gFWahg7htdQYM_JwMQ0E9I7TT6pM/export/pdf)
 
-[CE-Konformitätserklärung](https://docs.google.com/document/d/1DcX2xhoSa0i654ABunFbcA3ggE6kinu_O7UsLT10aT8/export?format=pdf)
+[CE-Konformitätserklärung](https://drive.google.com/uc?export=download&id=1odJhCBvyeIZ6kSS7uz3Wtx1tB-1BQGSa)
 
-[Anschlussschema ZIP Files](https://drive.google.com/file/d/1aWqGhEJNUqLfAEyXakRlTvbjRjgCZhvd/view?usp=sharing)
+[Anschlussschema ZIP Files](https://drive.google.com/uc?export=download&id=1aWqGhEJNUqLfAEyXakRlTvbjRjgCZhvd)
 
 (\*.DXF und \*.DWG Daten können im ZIP Archiv gefunden werden)
 

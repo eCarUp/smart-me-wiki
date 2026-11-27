@@ -378,11 +378,11 @@ Produttore: smart-me AG, Riedstrasse 18, 6343 Rotkreuz
 
 [Scheda tecnica inglese](https://docs.google.com/document/d/1rb7S8jR9PbH3F1A4RE9wVNmU8WbtwwjxydKl-hCU1qI/export?format=pdf)
 
-[Quick Starter](https://docs.google.com/document/d/1phDRJ66HykZ1iLdGiOnJHnGE1lK8t3DSuDcbuHEF5LY/export?format=pdf)
+[Quick Starter](https://drive.google.com/uc?export=download&id=1oyKY5yUPnoNRpJC1e0Gtf_TALMqbHeFH)
 
-[Dichiarazione di conformità](https://drive.google.com/file/d/17rSWI22a6nR7pHccIYKvocBXmn6ZP0QS/view?usp=drive_link)
+[Dichiarazione di conformità](https://drive.google.com/uc?export=download&id=17rSWI22a6nR7pHccIYKvocBXmn6ZP0QS)
 
-[Schema di collegamento e schema elettrico \_ZIP\_Files](https://drive.google.com/file/d/1GNkax4vqSrV27X_cSXFLTOW-COGTccYi/view?usp=sharing)
+[Schema di collegamento e schema elettrico \_ZIP\_Files](https://drive.google.com/uc?export=download&id=1GNkax4vqSrV27X_cSXFLTOW-COGTccYi)
 
 ## FAQ
 

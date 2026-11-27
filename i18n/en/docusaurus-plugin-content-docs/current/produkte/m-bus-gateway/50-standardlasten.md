@@ -83,9 +83,9 @@ Pressing button T(4) for 10 seconds creates a local WiFi for installation
 
 [Data sheet English](https://docs.google.com/presentation/d/1Hr73_7JLlAxQN-0gFWahg7htdQYM_JwMQ0E9I7TT6pM/export/pdf)
 
-[CE declaration of conformity](https://docs.google.com/document/d/1DcX2xhoSa0i654ABunFbcA3ggE6kinu_O7UsLT10aT8/export?format=pdf)
+[CE declaration of conformity](https://drive.google.com/uc?export=download&id=1odJhCBvyeIZ6kSS7uz3Wtx1tB-1BQGSa)
 
-[Connection diagram ZIP files](https://drive.google.com/file/d/1aWqGhEJNUqLfAEyXakRlTvbjRjgCZhvd/view?usp=sharing)
+[Connection diagram ZIP files](https://drive.google.com/uc?export=download&id=1aWqGhEJNUqLfAEyXakRlTvbjRjgCZhvd)
 
 (\*.DXF and \*.DWG data can be found in the ZIP archive)
 

@@ -76,7 +76,7 @@ In questo caso l'installazione richiede una protezione contro i fulmini SPD Typ-
 
 ## Download
 
-[Schema di collegamento e schema elettrico, file ZIP](https://drive.google.com/file/d/1aVOLmWprogy2OizkcyH3kHsHntu0A8-D/view?usp=share_link)
+[Schema di collegamento e schema elettrico, file ZIP](https://drive.google.com/uc?export=download&id=1aVOLmWprogy2OizkcyH3kHsHntu0A8-D)
 
 # FAQ
 
@@ -134,4 +134,4 @@ Se invece è necessaria una protezione da sovraccarico aggiuntiva, si raccomanda
 
 ## Documentazione estesa e indicazioni specifiche per paese
 
-[Svizzera: presa di posizione di Electrosuisse - Installazione di stazioni di ricarica per veicoli elettrici, più stazioni di ricarica su una linea di alimentazione comune](https://drive.google.com/file/d/1aquBK7Gip6DJxagCgB-_kwqEuozjCh07/view)
+[Svizzera: presa di posizione di Electrosuisse - Installazione di stazioni di ricarica per veicoli elettrici, più stazioni di ricarica su una linea di alimentazione comune](https://drive.google.com/uc?export=download&id=1aquBK7Gip6DJxagCgB-_kwqEuozjCh07)

@@ -85,13 +85,13 @@ Press and hold = Restarts the device
 
 ## Downloads and declaration of conformity
 
-[Data sheet German](https://drive.google.com/file/d/1Z6PuaBpdTn4L-C8pjyz8fmIWStQGZ9wB/view?usp=sharing)
+[Data sheet German](https://drive.google.com/uc?export=download&id=1Z6PuaBpdTn4L-C8pjyz8fmIWStQGZ9wB)
 
-[Data sheet English](https://drive.google.com/file/d/1-5Mgp7s1IxnqqzxtS7tYg0dlcXQ8Bhjd/view?usp=sharing)
+[Data sheet English](https://drive.google.com/uc?export=download&id=1-5Mgp7s1IxnqqzxtS7tYg0dlcXQ8Bhjd)
 
-[CE declaration of conformity](https://drive.google.com/file/d/1BC3GzxyQl_Rweyo2YkghBBnUSanmdk1J/view?usp=drive_link)
+[CE declaration of conformity](https://drive.google.com/uc?export=download&id=1BC3GzxyQl_Rweyo2YkghBBnUSanmdk1J)
 
-[Connection diagram ZIP files](https://drive.google.com/file/d/1Ek2m9yTKiov2OZ5Yyt7GICimtmRaut30/view?usp=sharing)
+[Connection diagram ZIP files](https://drive.google.com/uc?export=download&id=1Ek2m9yTKiov2OZ5Yyt7GICimtmRaut30)
 
 (\*.DXF data can be found in the ZIP archive)
 

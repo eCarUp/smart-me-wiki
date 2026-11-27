@@ -218,8 +218,8 @@ Alternatively, a third-party product can be made or purchased.
 
 [Quickstarter 212070 / 232070](https://docs.google.com/document/d/19Hp4eK43o-_NGerpnEkw-MIVr2FcFZlMv78Ic6f22Iw/export?format=pdf)
 
-[EU declaration of conformity](https://drive.google.com/file/d/14h6QNwvbybeGwOvgesNnSBxI-GsjvXd9/view?usp=drive_link)
+[EU declaration of conformity](https://drive.google.com/uc?export=download&id=14h6QNwvbybeGwOvgesNnSBxI-GsjvXd9)
 
 ### Drawings
 
-[Product drawings](https://drive.google.com/file/d/13GTjtFquGr8UU0GyX8HJocX2Py2VeDgU/view?usp=sharing)
+[Product drawings](https://drive.google.com/uc?export=download&id=13GTjtFquGr8UU0GyX8HJocX2Py2VeDgU)

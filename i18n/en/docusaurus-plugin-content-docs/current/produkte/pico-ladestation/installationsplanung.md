@@ -76,7 +76,7 @@ Here the installation requires SPD Type 1 and Type 2 lightning protection; other
 
 ## Downloads
 
-[Connection diagram and circuit diagram ZIP files](https://drive.google.com/file/d/1aVOLmWprogy2OizkcyH3kHsHntu0A8-D/view?usp=share_link)
+[Connection diagram and circuit diagram ZIP files](https://drive.google.com/uc?export=download&id=1aVOLmWprogy2OizkcyH3kHsHntu0A8-D)
 
 # FAQ
 
@@ -134,4 +134,4 @@ If additional overcurrent protection is required, however, a circuit breaker mod
 
 ## Extended documentation and country-specific notes
 
-[Switzerland: Electrosuisse statement - Installation of charging stations for EVs, multiple charging stations on a common supply line](https://drive.google.com/file/d/1aquBK7Gip6DJxagCgB-_kwqEuozjCh07/view)
+[Switzerland: Electrosuisse statement - Installation of charging stations for EVs, multiple charging stations on a common supply line](https://drive.google.com/uc?export=download&id=1aquBK7Gip6DJxagCgB-_kwqEuozjCh07)

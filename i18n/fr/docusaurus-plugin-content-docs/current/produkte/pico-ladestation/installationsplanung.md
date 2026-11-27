@@ -76,7 +76,7 @@ L'installation nécessite ici une protection contre la foudre SPD de type 1 et d
 
 ## Téléchargements
 
-[Schémas de raccordement et schémas électriques (fichiers ZIP)](https://drive.google.com/file/d/1aVOLmWprogy2OizkcyH3kHsHntu0A8-D/view?usp=share_link)
+[Schémas de raccordement et schémas électriques (fichiers ZIP)](https://drive.google.com/uc?export=download&id=1aVOLmWprogy2OizkcyH3kHsHntu0A8-D)
 
 # FAQ
 
@@ -134,4 +134,4 @@ Si un disjoncteur supplémentaire est toutefois nécessaire, un modèle avec un 
 
 ## Documentation complémentaire et remarques spécifiques aux pays
 
-[Suisse : prise de position d'Electrosuisse - Installation de bornes de recharge pour VE, plusieurs bornes de recharge sur une ligne d'alimentation commune](https://drive.google.com/file/d/1aquBK7Gip6DJxagCgB-_kwqEuozjCh07/view)
+[Suisse : prise de position d'Electrosuisse - Installation de bornes de recharge pour VE, plusieurs bornes de recharge sur une ligne d'alimentation commune](https://drive.google.com/uc?export=download&id=1aquBK7Gip6DJxagCgB-_kwqEuozjCh07)

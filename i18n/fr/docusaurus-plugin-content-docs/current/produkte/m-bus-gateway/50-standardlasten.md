@@ -83,9 +83,9 @@ Un appui de 10 secondes sur la touche T(4) crée un réseau WiFi local pour l'in
 
 [Fiche technique en anglais](https://docs.google.com/presentation/d/1Hr73_7JLlAxQN-0gFWahg7htdQYM_JwMQ0E9I7TT6pM/export/pdf)
 
-[Déclaration de conformité CE](https://docs.google.com/document/d/1DcX2xhoSa0i654ABunFbcA3ggE6kinu_O7UsLT10aT8/export?format=pdf)
+[Déclaration de conformité CE](https://drive.google.com/uc?export=download&id=1odJhCBvyeIZ6kSS7uz3Wtx1tB-1BQGSa)
 
-[Fichiers ZIP du schéma de raccordement](https://drive.google.com/file/d/1aWqGhEJNUqLfAEyXakRlTvbjRjgCZhvd/view?usp=sharing)
+[Fichiers ZIP du schéma de raccordement](https://drive.google.com/uc?export=download&id=1aWqGhEJNUqLfAEyXakRlTvbjRjgCZhvd)
 
 (Les données \*.DXF et \*.DWG se trouvent dans l'archive ZIP)
 

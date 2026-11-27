@@ -282,9 +282,9 @@ Weight including packaging: 315g
 
 [Data sheet English](https://docs.google.com/presentation/d/18m_q9MHgCx7ZJCGQnOY_EMU0SPnOfEqGXRiOpeSxHgA/export/pdf)
 
-[CE declaration of conformity](https://drive.google.com/file/d/1mcZJJhHeKQ1wN0q8yE8ROKnRZXx-wo3b/view?usp=sharing)
+[CE declaration of conformity](https://drive.google.com/uc?export=download&id=1mcZJJhHeKQ1wN0q8yE8ROKnRZXx-wo3b)
 
-[Connection diagram ZIP files](https://drive.google.com/file/d/1aIXTi2VFA2XxJBLnIs_gOVc5GDLnuzYR/view?usp=share_link) (\*.DXF and \*.DWG data can be found in the ZIP archive)
+[Connection diagram ZIP files](https://drive.google.com/uc?export=download&id=1aIXTi2VFA2XxJBLnIs_gOVc5GDLnuzYR) (\*.DXF and \*.DWG data can be found in the ZIP archive)
 
 [Quick Starter](https://docs.google.com/document/d/1bADdFIt2XP22LaSkNoSgziUkUFZ5IIlIpH5qiHsI8YA/export?format=pdf)
 

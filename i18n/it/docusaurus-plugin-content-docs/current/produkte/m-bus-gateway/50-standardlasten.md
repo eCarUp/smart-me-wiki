@@ -83,9 +83,9 @@ Se il tasto T(4) viene premuto per 10 secondi, viene generata una rete WiFi loca
 
 [Scheda tecnica inglese](https://docs.google.com/presentation/d/1Hr73_7JLlAxQN-0gFWahg7htdQYM_JwMQ0E9I7TT6pM/export/pdf)
 
-[Dichiarazione di conformità CE](https://docs.google.com/document/d/1DcX2xhoSa0i654ABunFbcA3ggE6kinu_O7UsLT10aT8/export?format=pdf)
+[Dichiarazione di conformità CE](https://drive.google.com/uc?export=download&id=1odJhCBvyeIZ6kSS7uz3Wtx1tB-1BQGSa)
 
-[Schema di collegamento file ZIP](https://drive.google.com/file/d/1aWqGhEJNUqLfAEyXakRlTvbjRjgCZhvd/view?usp=sharing)
+[Schema di collegamento file ZIP](https://drive.google.com/uc?export=download&id=1aWqGhEJNUqLfAEyXakRlTvbjRjgCZhvd)
 
 (I dati \*.DXF e \*.DWG si trovano nell'archivio ZIP)
 

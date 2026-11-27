@@ -282,9 +282,9 @@ Peso con imballaggio: 315g
 
 [Scheda tecnica inglese](https://docs.google.com/presentation/d/18m_q9MHgCx7ZJCGQnOY_EMU0SPnOfEqGXRiOpeSxHgA/export/pdf)
 
-[Dichiarazione di conformità CE](https://drive.google.com/file/d/1mcZJJhHeKQ1wN0q8yE8ROKnRZXx-wo3b/view?usp=sharing)
+[Dichiarazione di conformità CE](https://drive.google.com/uc?export=download&id=1mcZJJhHeKQ1wN0q8yE8ROKnRZXx-wo3b)
 
-[Schema di collegamento file ZIP](https://drive.google.com/file/d/1aIXTi2VFA2XxJBLnIs_gOVc5GDLnuzYR/view?usp=share_link) (i dati \*.DXF e \*.DWG si trovano nell'archivio ZIP)
+[Schema di collegamento file ZIP](https://drive.google.com/uc?export=download&id=1aIXTi2VFA2XxJBLnIs_gOVc5GDLnuzYR) (i dati \*.DXF e \*.DWG si trovano nell'archivio ZIP)
 
 [Quick Starter](https://docs.google.com/document/d/1bADdFIt2XP22LaSkNoSgziUkUFZ5IIlIpH5qiHsI8YA/export?format=pdf)
 

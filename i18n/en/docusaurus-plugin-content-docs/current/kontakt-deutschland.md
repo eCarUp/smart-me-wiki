@@ -8,7 +8,7 @@ This page applies to Germany. Switzerland and Liechtenstein have their [own cont
 
 ### Important to know
 
-smart-me is a hardware and technology supplier. We do not carry out projects, and we do not configure systems for end customers. Our technical support is generally available only to certified partners.
+smart-me is a hardware and technology supplier. We do not carry out projects and do not configure installations for end customers. Our technical support is generally available only to certified partners.
 
 In Germany, sales and support are handled by our subsidiary [smartRED](/drittsysteme/smartred).
 
@@ -16,13 +16,13 @@ In Germany, sales and support are handled by our subsidiary [smartRED](/drittsys
 
 <Kacheln min="18rem">
 
-<Kachel titel="Für Privatkunden" href="https://www.smartred.de/kontakt/">
+<Kachel titel="For private customers" href="https://www.smartred.de/kontakt/">
 
 As a private customer, contact smartRED. They will put you in touch with a partner near you.
 
 </Kachel>
 
-<Kachel titel="Partner werden" href="https://web.smart-me.com/partner-werden/">
+<Kachel titel="Become a partner" href="https://web.smart-me.com/partner-werden/">
 
 Would you like to become a partner or attend a training course? Register for the partner training here.
 
@@ -46,7 +46,7 @@ This tile takes you to the contact form.
 
 </Kachel>
 
-<Kachel titel="RMA / Rücksendungen" href="/rma-antragsformular-deutschland">
+<Kachel titel="RMA / Returns" href="/rma-antragsformular-deutschland">
 
 Devices from Germany are returned using the smartRED form.
 
@@ -60,7 +60,7 @@ Technical support for certified partners works the same way as in Switzerland:
 
 <Kacheln min="15rem">
 
-<Kachel titel="Technischer Support">
+<Kachel titel="Technical support">
 
 [support@smartred.de](mailto:support@smartred.de)
 
@@ -68,9 +68,9 @@ Technical support for certified partners works the same way as in Switzerland:
 
 </Kachel>
 
-<Kachel bild="/img/kontakt-schweiz/01.jpg" bildtext="TeamViewer für smart-me" titel="TeamViewer-Support" href="https://get.teamviewer.com/68stbb8">
+<Kachel bild="/img/kontakt-schweiz/01.jpg" bildtext="TeamViewer for smart-me" titel="TeamViewer support" href="https://get.teamviewer.com/68stbb8">
 
-Available only by prior arrangement by phone. Use this tile to download TeamViewer for smart-me.
+Only available by prior arrangement by phone. Use this tile to download TeamViewer for smart-me.
 
 </Kachel>
 

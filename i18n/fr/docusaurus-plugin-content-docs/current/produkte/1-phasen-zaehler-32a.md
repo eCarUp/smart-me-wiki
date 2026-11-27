@@ -1,15 +1,15 @@
 ---
 title: 'Compteur monophasé 32A'
 slug: '/produkte/1-phasen-zaehler-32a'
-description: 'Le smart-me Meter est le premier compteur électrique pouvant être analysé et commandé de n''importe où.'
+description: 'Le smart-me Meter est le premier compteur électrique qui peut être analysé et commandé de n''importe où.'
 sidebar_label: 'Compteur monophasé 32A'
 displayed_sidebar: wikiSidebar
 ---
-Le smart-me Meter est le premier compteur électrique pouvant être analysé et commandé de n'importe où. Aucun matériel supplémentaire n'est nécessaire. Il utilise le réseau WiFi existant et se connecte directement au cloud smart-me. Vous voyez ainsi confortablement votre consommation d'énergie en temps réel.
+Le smart-me Meter est le premier compteur électrique qui peut être analysé et commandé de n'importe où. Aucun matériel supplémentaire n'est nécessaire. Il utilise le réseau WiFi existant et se connecte directement au smart-me Cloud. Vous voyez ainsi confortablement votre consommation d'énergie en temps réel.
 
-Vente arrêtée le 01.01.2023 ; le support et l'assistance cloud restent assurés.
+Vente arrêtée le 01.01.2023, le support et l'assistance cloud restent assurés.
 
-![Compteur monophasé 32A – Figure 1](/img/produkte-1-phasen-zaehler-32a/01.jpg)
+![Compteur monophasé 32A – Illustration 1](/img/produkte-1-phasen-zaehler-32a/01.jpg)
 
 ## Fonctions
 
@@ -19,21 +19,21 @@ Vente arrêtée le 01.01.2023 ; le support et l'assistance cloud restent assuré
 
 - Compteur bidirectionnel
 
-- Interface à impulsions S0 supplémentaire
+- Interface d'impulsions S0 supplémentaire
 
 - Classe de précision 1 selon IEC62053-21
 
-- Enregistreur de données intégré pour deux mois (en cas de coupure de connexion)
+- Enregistreur de données intégré pour deux mois (en cas de coupure de la connexion)
 
-- Connexion directe et chiffrée au cloud smart-me (WiFi)
+- Connexion directe et chiffrée au smart-me Cloud (WiFi)
 
-- Gestion complète de l'énergie dans le cloud smart-me : 
+- Gestion complète de l'énergie dans le smart-me Cloud : 
 
-    - Surveillance en temps réel
+    - Monitoring en temps réel
 
-    - Facturation automatique ([smart-me Billing](/konfiguration/billing))
+    - facturation automatique ([smart-me Billing](/konfiguration/billing))
 
-    - Commande via des [actions déclenchées par un événement](/konfiguration/wenndann-aktionen/ereignisaktionen) et des [actions si/alors](/konfiguration/wenndann-aktionen)
+    - Commande avec des [actions déclenchées par un événement](/konfiguration/wenndann-aktionen/ereignisaktionen) et des [actions si/alors](/konfiguration/wenndann-aktionen)
 
 - Installation simple avec l'app smart-me gratuite pour [Android](https://play.google.com/store/apps/details?id=com.smart_me) et [iOS](https://apps.apple.com/ch/app/smart-me/id929146952?ign-mpt=uo%3D4)
 
@@ -42,7 +42,7 @@ Vente arrêtée le 01.01.2023 ; le support et l'assistance cloud restent assuré
 
 Voir [Mise en service](/konfiguration/inbetriebnahme) 
 
-## Données techniques
+## Caractéristiques techniques
 
 | Caractéristique | Valeur |
 | --- | --- |
@@ -65,20 +65,20 @@ Voir [Mise en service](/konfiguration/inbetriebnahme)
 
 ## Configurer les entrées et sorties
 
-Le smart-me Meter dispose d'une sortie et d'une entrée, utilisables comme entrée et sortie d'impulsions ou comme contact libre de potentiel commutable. Vous trouverez plus de détails [ici](/schnittstellen/ein-und-ausgaenge). 
+Le smart-me Meter dispose d'une sortie et d'une entrée, qui peuvent être utilisées comme entrée et sortie d'impulsions ou comme contact libre de potentiel commutable. Vous trouverez les détails [ici](/schnittstellen/ein-und-ausgaenge). 
 
 ## Dimensions et raccordements
 
 ### Dimensions
 
-![Compteur monophasé 32A – Figure 2](/img/produkte-1-phasen-zaehler-32a/02.png)
+![Compteur monophasé 32A – Illustration 2](/img/produkte-1-phasen-zaehler-32a/02.png)
 
 ### Schéma de raccordement
 
 <div className="row">
 <div className="col col--5">
 
-T1 : touche d'installation
+T1 : touche pour l'installation
 
 E1 : commutation de tarif (entrée numérique)
 
@@ -91,23 +91,23 @@ S0 : sortie d'impulsions (contact libre de potentiel)
 </div>
 <div className="col col--7 bild--mitte">
 
-![Compteur monophasé 32A – Figure 3](/img/produkte-1-phasen-zaehler-32a/03.png)
+![Compteur monophasé 32A – Illustration 3](/img/produkte-1-phasen-zaehler-32a/03.png)
 
 </div>
 </div>
 
 ## Modifier l'intervalle de téléversement
 
-- Se connecter au portail smart-me
+- se connecter au portail smart-me
 
-- Sélectionner le compteur
+- sélectionner le compteur
 
-- En haut à droite, sélectionner la roue dentée
+- sélectionner la roue dentée en haut à droite
 
 - Paramètres généraux (Allgemeine Einstellungen)
 
 
-![Compteur monophasé 32A – Figure 4](/img/produkte-1-phasen-zaehler-32a/04.png)
+![Compteur monophasé 32A – Illustration 4](/img/produkte-1-phasen-zaehler-32a/04.png)
 
 ## Téléchargements
 
@@ -119,6 +119,6 @@ Fiche technique
 
 [Italien](https://docs.google.com/presentation/d/18O5ef93R--nzwNl14Zb9gFJ2KFwUOkTXb247jtWSaHI/export/pdf)
 
-Données techniques
+Caractéristiques techniques
 
-[Déclaration de conformité CE](https://docs.google.com/document/d/17Ydylyan3-1PCV9zo0l7SwQUXJDPd-gBreaBJnBHapA/export?format=pdf)
+[Déclaration de conformité CE](https://docs.google.com/document/d/1jhlrd_WrXDbfcPfKL1smzPJKY7GucNqGuaEJoNYAETw/export?format=pdf)

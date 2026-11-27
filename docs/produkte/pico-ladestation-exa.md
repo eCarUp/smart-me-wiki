@@ -256,6 +256,6 @@ Technische Dokumente
 
 [Bohrlehre](https://drive.google.com/file/d/1lQSSDwsKE9JeS2QkbpUDcLRhpeezxYnP/view?usp=sharing)
 
-[Konformitätserklärung (nicht-MID)](https://drive.google.com/file/d/1P11cOh1ppJyU2rcr_aFs_YtDpIITtCZU/view)
+[Konformitätserklärung (nicht-MID)](https://drive.google.com/file/d/1aRYllq76noG7vzloUdF_ufP0VbUbvc4i/view)
 
 [Anschlussschema ZIP Files](https://drive.google.com/file/d/1aVOLmWprogy2OizkcyH3kHsHntu0A8-D/view?usp=share_link)

@@ -1,11 +1,11 @@
 ---
 title: 'Plug'
 slug: '/produkte/plug'
-description: 'The smart-me Plug is an energy meter, thermostat and timer in one.'
+description: 'The smart-me Plug is a power meter, thermostat and timer in one.'
 sidebar_label: 'Plug'
 displayed_sidebar: wikiSidebar
 ---
-The smart-me Plug is an energy meter, thermostat and timer in one. In addition, the Plug can be controlled and monitored via the web portal or app. To do this, the device connects to the internet via the local Wi-Fi network. 
+The smart-me Plug is a power meter, thermostat and timer in one. In addition, the Plug can be controlled and monitored via the web portal or the app. To do this, the device connects to the internet via the local Wi-Fi network. 
 
 Sales discontinued on 30.03.2021
 Technical support discontinued on 30.03.2025
@@ -28,7 +28,7 @@ Available in European, Swiss and UK versions.
 
 - Energy meter: In addition to the current power, the smart-me Plug measures energy, current, voltage and power factor. smart-me guarantees an accuracy of 99% (max. 1% error).
 
-- Temperature sensor: Monitor the temperature live and analyse historical data.
+- Temperature meter: Monitor the temperature live and analyze historical data.
 
 - Remote switch: Switch the power on or off via the app or web portal. 
 
@@ -50,7 +50,7 @@ Available in European, Swiss and UK versions.
 
 Video installation
 
-## Technical Data
+## Technical data
 
 | Feature | Value |
 | --- | --- |
@@ -63,15 +63,15 @@ Video installation
 | Self-consumption | 0.1W |
 | Dimensions | 95 x 54 x 29 mm (3.7 x 2.1 x 1.1 in) |
 
-## Can the meter reading be reset?
+## Can the meter reading be reset.
 
 No.
 
-## Downloads and Declaration of Conformity
+## Downloads and declaration of conformity
 
-Datasheet
+Data sheet
 
-[English](https://drive.google.com/file/d/1N0R4iOawhtielny0vWhJV65NqpSDL4SS/view)
+[English](https://drive.google.com/file/d/1fiw6vzwrrNm7dGJ-hosgmU4phSAhQngb/view)
 
 [French](https://drive.google.com/file/d/1VnE5HU_tP2jsktHAvjQ1vxVYLw-xrryl/view)
 
@@ -79,6 +79,6 @@ Datasheet
 
 Technical documents
 
-[CE Declaration of Conformity](https://drive.google.com/file/d/1d0K0SKzcBu2IlrQVivL5vYlBzcLc3jCr/view)
+[CE declaration of conformity](https://drive.google.com/file/d/1d0K0SKzcBu2IlrQVivL5vYlBzcLc3jCr/view)
 
 [Quick Starter Guide (English and German)](https://drive.google.com/file/d/1NmyLZxozwF6wAiGIW20Ts5NOKpWQh01t/view)

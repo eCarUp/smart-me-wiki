@@ -5,9 +5,9 @@ description: 'Lo smart-me Meter è il primo contatore elettrico che può essere 
 sidebar_label: 'Contatore monofase 32A'
 displayed_sidebar: wikiSidebar
 ---
-Lo smart-me Meter è il primo contatore elettrico che può essere analizzato e comandato da qualsiasi luogo. Non è necessario alcun hardware aggiuntivo. Utilizza la rete WiFi esistente e si connette direttamente alla smart-me Cloud. In questo modo si può consultare comodamente il proprio consumo energetico in tempo reale.
+Lo smart-me Meter è il primo contatore elettrico che può essere analizzato e comandato da qualsiasi luogo. Non è necessario alcun hardware aggiuntivo. Utilizza la rete WiFi esistente e si collega direttamente alla smart-me Cloud. In questo modo puoi vedere comodamente il tuo consumo di energia in tempo reale.
 
-Vendita cessata il 01.01.2023, assistenza e supporto cloud continuano a essere garantiti.
+Vendita cessata il 01.01.2023, supporto e servizio cloud restano garantiti.
 
 ![Contatore monofase 32A – Figura 1](/img/produkte-1-phasen-zaehler-32a/01.jpg)
 
@@ -15,7 +15,7 @@ Vendita cessata il 01.01.2023, assistenza e supporto cloud continuano a essere g
 
 - Contatore di energia monofase, 230 VAC 50/60 Hz
 
-- Misura diretta fino a 32 A
+- Misurazione diretta fino a 32 A
 
 - Contatore bidirezionale
 
@@ -23,11 +23,11 @@ Vendita cessata il 01.01.2023, assistenza e supporto cloud continuano a essere g
 
 - Classe di precisione 1 secondo IEC62053-21
 
-- Datalogger integrato per due mesi (in caso di interruzione della connessione)
+- Data logger integrato per due mesi (in caso di interruzione della connessione)
 
 - Connessione diretta e crittografata alla smart-me Cloud (WiFi)
 
-- Gestione energetica completa nella smart-me Cloud: 
+- Gestione completa dell'energia nella smart-me Cloud: 
 
     - Monitoraggio in tempo reale
 
@@ -50,22 +50,22 @@ Vedi [Messa in servizio](/konfiguration/inbetriebnahme)
 | Tensione di esercizio | 85 - 253 VAC |
 | Frequenza (f) | 50 / 60 Hz |
 | Corrente max. | 32 A (commutabile) |
-| Ingresso impulsi E1 | A potenziale zero\*, 25V - 253V AC/DC |
-| Uscita digitale / uscita impulsi S0 | A potenziale zero\*, Opto Power MOSFET, 5-48VDC / 5- 230 VAC, max. 550mW |
+| Ingresso a impulsi E1 | A potenziale zero\*, 25V - 253V AC/DC |
+| Uscita digitale / uscita a impulsi S0 | A potenziale zero\*, Opto Power MOSFET, 5-48VDC / 5- 230 VAC, max. 550mW |
 | Corrente di riferimento | 5 A |
 | Corrente di avviamento | &lt; 20 mA |
 | Tariffe | 2+ |
 | Montaggio | Guida DIN |
 | Larghezza | 2 moduli, 36 x 90 mm |
 | Interfacce | WiFi, S0 |
-| Valore impulsi S0 | 1000 impulsi per kWh |
+| Valore degli impulsi S0 | 1000 impulsi per kWh |
 | Autoconsumo | &lt; 0.5 W |
 
 \*non dispone di una propria alimentazione di tensione.
 
 ## Configurare ingressi e uscite
 
-Lo smart-me Meter dispone di un'uscita e di un ingresso, utilizzabili come ingressi e uscite a impulsi o come contatto a potenziale zero commutabile. Trovi i dettagli [qui](/schnittstellen/ein-und-ausgaenge). 
+Lo smart-me Meter dispone di un'uscita e di un ingresso, che possono essere utilizzati come ingressi e uscite a impulsi oppure come contatto commutabile a potenziale zero. Trovi i dettagli [qui](/schnittstellen/ein-und-ausgaenge). 
 
 ## Dimensioni e collegamenti
 
@@ -80,13 +80,13 @@ Lo smart-me Meter dispone di un'uscita e di un ingresso, utilizzabili come ingre
 
 T1: tasto per l'installazione
 
-E1: commutazione tariffaria (ingresso digitale)
+E1: commutazione della tariffa (ingresso digitale)
 
 0V tariffa 1
 
 \>25V tariffa 2
 
-S0: uscita impulsi (contatto a potenziale zero)
+S0: uscita a impulsi (contatto a potenziale zero)
 
 </div>
 <div className="col col--7 bild--mitte">
@@ -102,7 +102,7 @@ S0: uscita impulsi (contatto a potenziale zero)
 
 - selezionare il contatore
 
-- in alto a destra selezionare la rotella dentata
+- in alto a destra selezionare l'icona dell'ingranaggio
 
 - Impostazioni generali (Allgemeine Einstellungen)
 
@@ -121,4 +121,4 @@ Scheda tecnica
 
 Dati tecnici
 
-[Dichiarazione di conformità CE](https://docs.google.com/document/d/17Ydylyan3-1PCV9zo0l7SwQUXJDPd-gBreaBJnBHapA/export?format=pdf)
+[Dichiarazione di conformità CE](https://docs.google.com/document/d/1jhlrd_WrXDbfcPfKL1smzPJKY7GucNqGuaEJoNYAETw/export?format=pdf)

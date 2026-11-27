@@ -9,13 +9,13 @@ Lo smart-me Plug è misuratore di corrente, termostato e timer in un unico dispo
 
 Vendita cessata il 30.03.2021
 Supporto tecnico cessato il 30.03.2025
-Hardware e funzioni cloud: il funzionamento continua a essere garantito
+Hardware e funzioni cloud: funzionamento tuttora garantito
 
 ![Plug – Figura 1](/img/produkte-plug/01.jpg)
 
 ## Varianti
 
-Disponibile nelle versioni Europa, Svizzera e Regno Unito.
+Disponibile nelle versioni per Europa, Svizzera e Gran Bretagna.
 
 - Versione UK: 3000W (230V, 13A)
 
@@ -28,11 +28,11 @@ Disponibile nelle versioni Europa, Svizzera e Regno Unito.
 
 - Misuratore di energia: oltre alla potenza attuale, lo smart-me Plug misura l'energia, la corrente, la tensione e il fattore di potenza. smart-me garantisce una precisione del 99% (errore max. 1%).
 
-- Misuratore di temperatura: monitora la temperatura in tempo reale e analizza i dati storici.
+- Misuratore di temperatura: monitori la temperatura in tempo reale e analizzi i dati storici.
 
-- Interruttore remoto: accendi o spegni la corrente tramite app o portale web. 
+- Interruttore a distanza: accenda o spenga la corrente tramite app o portale web. 
 
-- Timer: imposta a che ora il Plug deve commutare. 
+- Timer: imposti a che ora il Plug deve commutare. 
 
 - Connessione diretta e crittografata allo smart-me Cloud (WiFi)
 
@@ -41,12 +41,12 @@ Disponibile nelle versioni Europa, Svizzera e Regno Unito.
 
 - -   -   Monitoraggio in tempo reale
 
-        - Controllo con azioni basate su eventi e azioni se/allora
+        - Comando con azioni basate su eventi e azioni se/allora
 
-    - Installazione semplice con l'app smart-me gratuita per Android e iOS
+    - Installazione semplice con la smart-me App gratuita per Android e iOS
 
 
-<Video src="r1NFkuI7CUM" title="Video YouTube, installazione del Plug" />
+<Video src="r1NFkuI7CUM" title="Video YouTube, installazione Plug" />
 
 Video installazione
 
@@ -71,7 +71,7 @@ No.
 
 Scheda tecnica
 
-[Inglese](https://drive.google.com/file/d/1N0R4iOawhtielny0vWhJV65NqpSDL4SS/view)
+[Inglese](https://drive.google.com/file/d/1fiw6vzwrrNm7dGJ-hosgmU4phSAhQngb/view)
 
 [Francese](https://drive.google.com/file/d/1VnE5HU_tP2jsktHAvjQ1vxVYLw-xrryl/view)
 

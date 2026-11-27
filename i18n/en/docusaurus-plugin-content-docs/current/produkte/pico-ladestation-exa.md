@@ -23,7 +23,7 @@ This article covers the first Pico generation (article number 202170exA). All in
 
 - Integrated load management and load balancing with phase balancing
 
-- Easy mounting (small and light), suitable for flat ribbon cable
+- Easy mounting (small and lightweight), suitable for flat ribbon cable
 
 - Identification via RFID, app, CarID and ready for ISO 15118 (Powerline)
 
@@ -36,15 +36,15 @@ This article covers the first Pico generation (article number 202170exA). All in
 
 ## Pico commissioning
 
-Before you can use your smart-me device, you have to connect it to your Wi-Fi network.
+Before you can use your smart-me device, you must connect it to your Wi-Fi network.
 
-1.  Connect your smartphone or tablet to the Wi-Fi.
+1.  Connect your smartphone or tablet to the Wi-Fi network.
 
 2.  Download and install the free smart-me app.
 
 3.  Start the app and create a free account
 
-4.  Click on "Add device" („Gerät hinzufügen“) (+) and follow the instructions.
+4.  Click "Add device" („Gerät hinzufügen“) (+) and follow the instructions.
 
     1.  1.  Select Wi-Fi or LTE (2.4Ghz or mobile)
 
@@ -52,7 +52,7 @@ Before you can use your smart-me device, you have to connect it to your Wi-Fi ne
 
         3.  Hold the supplied RFID card to the reader for 10 seconds
 
-        4.  Connect your mobile phone to the local Wi-Fi of the Pico (networks: smartme\_Serienummer) and keep it connected.
+        4.  Connect your mobile phone to the local Wi-Fi network of the Pico (networks: smartme\_Serienummer) and keep it connected.
 
         5.  Return to the app
 
@@ -69,7 +69,7 @@ The configuration is covered in detail here: [Pico Configuration](/konfiguration
 | --- | --- |
 | Maximum charging power | 22 kW at 32A three-phase, 7.36 kW at 32A single-phase |
 | Identification | Automatic detection and identification of the car, RFID / NFC reader (JEWEL, MIFARE, FELICA, ISO14443, NFC\_DEP, ISO14443\_B, ISO15693) |
-| Smart Meter | Integrated non-MID-certified electricity meter incl. security processor |
+| Smart Meter | Integrated non-MID certified electricity meter incl. security processor |
 | Phase balancing | Automatic phase balancing |
 | Load management | Automatic load management across multiple stations |
 | Communication | WiFi (2.4 GHz) and mobile communications (LTE) incl. SIM and data traffic for 10 years from [1nce](https://1nce.com/de/laenderabdeckung/), [Modbus TCP](/) |
@@ -95,7 +95,7 @@ The configuration is covered in detail here: [Pico Configuration](/konfiguration
 
 ![Pico EV Charger – Figure 2](/img/produkte-pico-ladestation-exa/02.jpg)
 
-### Connection diagram
+### Wiring diagram
 
 L1: Phase 1
 
@@ -117,13 +117,13 @@ The product can only be operated in 3-phase star connection or single-phase!
 
 Cable routing
 
-On Pico, the cables can be routed in and out at 5 points. 
+On the Pico, cables can be routed in and out at 5 points. 
 
 Two at the top, two at the bottom and one through the back plate.
 
-For routing through the back plate, a hole with a diameter of 25-26mm must be drilled.
+For mounting through the back plate, a hole with a diameter of 25-26mm must be drilled.
 
-Details on stand mounting can be found in the mounting instructions under Downloads.
+Details on mounting the stand can be found in the mounting instructions in the downloads.
 
 ### Load shedding (external inputs)
 
@@ -133,7 +133,7 @@ Details on stand mounting can be found in the mounting instructions under Downlo
 
 Pico load shedding
 
-Load shedding can also be implemented using only one available signal. 
+Load shedding can also be implemented with only one available signal. 
 
 For the configuration from no charging to maximum charging power, the signal is wired to IN1 and IN2  as well as COM.
 
@@ -141,11 +141,11 @@ For the configuration from 6A minimum power to maximum charging power, the signa
 
 
 
-Attention:
+Caution:
 Load shedding can either be wired to all Picos or at least to one from each load group.
 This function is also guaranteed without an internet connection.
 
-Alternatively, load shedding can also be done via the IF/THEN actions and Pico control.
+Alternatively, load shedding can also be implemented via the IF/THEN actions and Pico control.
 
 ![Pico EV Charger – Figure 3](/img/produkte-pico-ladestation-exa/03.png)
 
@@ -187,11 +187,11 @@ Installation, maintenance, repair, commissioning:
 
 - Read the entire manual carefully before installing and operating the product.
 
-- Danger to life due to high electrical voltage. Never make changes to components, software or connection cables without first disconnecting the power. To do so, remove the corresponding upstream fuses and store them so that other persons cannot reinsert them unnoticed.
+- Danger to life due to high electrical voltage. Never make changes to components, software or connection cables without the system being de-energized. For this reason, the corresponding upstream fuses must be removed and stored in such a way that other persons cannot reinsert them unnoticed.
 
-- The product may only be installed, repaired or maintained by an authorised electrician. All applicable local, regional and national regulations for electrical installations must be observed. 
+- The product may only be installed, repaired or serviced by a qualified electrician. All applicable local, regional and national regulations for electrical installations must be observed. 
 
-- The product must not be installed near flammable or explosive media, in flood-prone areas (underground car park) or in areas where there is a risk of running water. 
+- The installation must not take place near flammable or explosive media, in flood-prone areas (underground car park) or in areas where there is a risk of running water. 
 
 - The product must be installed at a permanent location. The connections on the Pico and the back plate are designed for a limited number of plug-in cycles. 
 
@@ -206,26 +206,26 @@ Installation, maintenance, repair, commissioning:
 
 Intended use:
 
-- This product is intended exclusively for charging electrically powered vehicles equipped with non-gassing batteries. The product may only be used with a charging cable according to IEC 62196. Any use other than that specified here is not permitted.
+- This product is intended exclusively for charging electrically powered vehicles equipped with non-gassing batteries. The product may only be used with a charging cable according to IEC 62196. Uses other than those specified here are not permitted.
 
 - The device is intended for indoor and outdoor use.
 
 
 Operation:
 
-- Never use or touch the product if it is damaged or not working properly. In an emergency (smoke, fire, sparks or other malfunctions), switch off the product immediately via the RCD switch and notify customer support. 
+- Never use or touch the product if it is damaged or not working properly. In an emergency (smoke, fire, sparks or other improper functioning), switch off the product immediately via the RCD switch and notify customer support. 
 
 - Do not extinguish the product with water or clean it with running water.
 
 - Do not immerse the product in water or other liquids. 
 
-- This product is not intended for operation by persons with limited physical, mental or sensory abilities (including children) or persons without knowledge of the product. 
+- This product is not intended for operation by persons with limited physical, mental or sensory abilities (including children) or by persons without knowledge of the product. 
 
 - Make sure that children do not play with the product.
 
-- Never touch the contacts of the Type 2 charging socket and do not insert any foreign objects into the product. 
+- Never touch the contacts of the Type 2 charging socket and do not insert foreign objects into the product. 
 
-- Never use the charging cable if it is damaged or if the connectors are wet or dirty. 
+- Never use the charging cable if it is damaged or the connectors are wet or dirty. 
 
 - Do not use extension cables or non-approved adapters in combination with the product. 
 
@@ -233,16 +233,16 @@ Operation:
 
 - Only pull the charging cable out of the charging holder by the plug. 
 
-- Do not place the charging cable in the path of other road users and always position it so that there is no risk of tripping. 
+- Do not lay the charging cable in the path of other road users and always position it so that there is no tripping hazard. 
 
-- Protect the charging cable from weather conditions such as direct sunlight, wind, rain, humidity and wetness, and never connect it with damp or wet hands. 
+- Protect the charging cable from weather influences such as direct sunlight, wind, rain, humidity and wetness, and never connect it with damp or wet hands. 
 
 - Do not use the product near strong electromagnetic fields or in the immediate vicinity of radio telephones.
 
 
 ## Downloads
 
-Datasheet
+Data sheet
 
 [English](https://docs.google.com/presentation/d/1GUdCrSlVUCWPzOxq2jCkzX2zmPm2k0qoOBliHyQPr2Q/export/pdf)
 
@@ -256,6 +256,6 @@ Technical documents
 
 [Drilling template](https://drive.google.com/file/d/1lQSSDwsKE9JeS2QkbpUDcLRhpeezxYnP/view?usp=sharing)
 
-[Declaration of conformity (non-MID)](https://drive.google.com/file/d/1P11cOh1ppJyU2rcr_aFs_YtDpIITtCZU/view)
+[Declaration of conformity (non-MID)](https://drive.google.com/file/d/1aRYllq76noG7vzloUdF_ufP0VbUbvc4i/view)
 
-[Connection diagram ZIP files](https://drive.google.com/file/d/1aVOLmWprogy2OizkcyH3kHsHntu0A8-D/view?usp=share_link)
+[Wiring diagram ZIP files](https://drive.google.com/file/d/1aVOLmWprogy2OizkcyH3kHsHntu0A8-D/view?usp=share_link)

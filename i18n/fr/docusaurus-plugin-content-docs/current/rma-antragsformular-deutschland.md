@@ -8,4 +8,4 @@ Cette page s'applique à l'Allemagne. Pour la Suisse et le Liechtenstein, il exi
 
 ## Formulaire de demande pour tous les appareils smart-me
 
-[Formulaire RMA smart-me (DE) pour l'Allemagne](https://www.smartred.de/kontakt/)
+[Formulaire RMA smart-me (DE) pour l'Allemagne](https://www.smartred.de/rma)

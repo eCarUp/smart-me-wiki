@@ -8,4 +8,4 @@ Questa pagina vale per la Germania. Per la Svizzera e il Liechtenstein sono disp
 
 ## Modulo di richiesta per tutti i dispositivi smart-me
 
-[Modulo RMA smart-me (DE) per la Germania](https://www.smartred.de/kontakt/)
+[Modulo RMA smart-me (DE) per la Germania](https://www.smartred.de/rma)

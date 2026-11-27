@@ -7,7 +7,7 @@ displayed_sidebar: wikiSidebar
 ---
 The smart-me Meter is the first electricity meter that can be analysed and controlled from anywhere. No additional hardware is required. It uses the existing WiFi network and connects directly to the smart-me Cloud. This lets you conveniently view your energy consumption in real time.
 
-Sales discontinued on 01.01.2023, support and cloud services remain guaranteed.
+Sales discontinued on 01.01.2023, support and cloud service remain guaranteed.
 
 ![Single Phase Meter 32A – Figure 1](/img/produkte-1-phasen-zaehler-32a/01.jpg)
 
@@ -31,9 +31,9 @@ Sales discontinued on 01.01.2023, support and cloud services remain guaranteed.
 
     - Real-time monitoring
 
-    - automatic billing ([smart-me Billing](/konfiguration/billing))
+    - Automatic billing ([smart-me Billing](/konfiguration/billing))
 
-    - Control with [Event-related Actions](/konfiguration/wenndann-aktionen/ereignisaktionen) and [If / Then Actions](/konfiguration/wenndann-aktionen)
+    - Control with [event actions](/konfiguration/wenndann-aktionen/ereignisaktionen) and [if/then actions](/konfiguration/wenndann-aktionen)
 
 - Easy installation with the free smart-me app for [Android](https://play.google.com/store/apps/details?id=com.smart_me) and [iOS](https://apps.apple.com/ch/app/smart-me/id929146952?ign-mpt=uo%3D4)
 
@@ -44,7 +44,7 @@ See [Commissioning](/konfiguration/inbetriebnahme)
 
 ## Technical data
 
-| Feature | Value |
+| Characteristic | Value |
 | --- | --- |
 | Accuracy | 1 according to IEC62053-21 |
 | Operating voltage | 85 - 253 VAC |
@@ -58,7 +58,7 @@ See [Commissioning](/konfiguration/inbetriebnahme)
 | Mounting | DIN rail |
 | Width | 2 modules, 36 x 90 mm |
 | Interfaces | WiFi, S0 |
-| S0 pulse value | 1000 pulses per kWh |
+| S0 pulse rate | 1000 pulses per kWh |
 | Self-consumption | &lt; 0.5 W |
 
 \*has no power supply of its own.
@@ -121,4 +121,4 @@ Data sheet
 
 Technical data
 
-[CE declaration of conformity](https://docs.google.com/document/d/1t9Bj_Z8yZchoW1wGIWLeUEgj6M3Q893SPOGqkikALIs/export?format=pdf)
+[CE declaration of conformity](https://docs.google.com/document/d/17Ydylyan3-1PCV9zo0l7SwQUXJDPd-gBreaBJnBHapA/export?format=pdf)

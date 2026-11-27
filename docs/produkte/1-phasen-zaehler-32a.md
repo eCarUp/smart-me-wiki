@@ -121,4 +121,4 @@ Datenblatt
 
 Technische Daten
 
-[CE-Konformitätserklärung](https://docs.google.com/document/d/1t9Bj_Z8yZchoW1wGIWLeUEgj6M3Q893SPOGqkikALIs/export?format=pdf)
+[CE-Konformitätserklärung](https://docs.google.com/document/d/17Ydylyan3-1PCV9zo0l7SwQUXJDPd-gBreaBJnBHapA/export?format=pdf)

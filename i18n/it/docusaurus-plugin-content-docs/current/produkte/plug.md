@@ -5,17 +5,17 @@ description: 'Lo smart-me Plug è misuratore di corrente, termostato e timer in 
 sidebar_label: 'Plug'
 displayed_sidebar: wikiSidebar
 ---
-Lo smart-me Plug è misuratore di corrente, termostato e timer in un unico dispositivo. Inoltre il Plug può essere comandato e monitorato tramite portale web o app. A tale scopo il dispositivo si connette a Internet tramite la rete WLAN locale. 
+Lo smart-me Plug è misuratore di corrente, termostato e timer in un unico dispositivo. Inoltre, il Plug può essere comandato e monitorato tramite portale web o app. A tale scopo, il dispositivo si connette a Internet tramite la rete WLAN locale. 
 
 Vendita cessata il 30.03.2021
 Supporto tecnico cessato il 30.03.2025
-Hardware e funzioni cloud: il funzionamento resta garantito
+Hardware e funzioni cloud: il funzionamento continua a essere garantito
 
 ![Plug – Figura 1](/img/produkte-plug/01.jpg)
 
 ## Varianti
 
-Disponibile nelle versioni Europa, Svizzera e Gran Bretagna.
+Disponibile nelle versioni Europa, Svizzera e Regno Unito.
 
 - Versione UK: 3000W (230V, 13A)
 
@@ -28,11 +28,11 @@ Disponibile nelle versioni Europa, Svizzera e Gran Bretagna.
 
 - Misuratore di energia: oltre alla potenza attuale, lo smart-me Plug misura l'energia, la corrente, la tensione e il fattore di potenza. smart-me garantisce una precisione del 99% (errore max. 1%).
 
-- Misuratore di temperatura: monitori la temperatura in tempo reale e analizzi i dati storici.
+- Misuratore di temperatura: monitora la temperatura in tempo reale e analizza i dati storici.
 
-- Interruttore remoto: accenda o spenga la corrente tramite app o portale web. 
+- Interruttore remoto: accendi o spegni la corrente tramite app o portale web. 
 
-- Timer: imposti l'orario in cui il Plug deve commutare. 
+- Timer: imposta a che ora il Plug deve commutare. 
 
 - Connessione diretta e crittografata allo smart-me Cloud (WiFi)
 
@@ -41,7 +41,7 @@ Disponibile nelle versioni Europa, Svizzera e Gran Bretagna.
 
 - -   -   Monitoraggio in tempo reale
 
-        - Comando con azioni basate su eventi e azioni se/allora
+        - Controllo con azioni basate su eventi e azioni se/allora
 
     - Installazione semplice con l'app smart-me gratuita per Android e iOS
 
@@ -63,7 +63,7 @@ Video installazione
 | Autoconsumo | 0.1W |
 | Dimensioni | 95 x 54 x 29 mm (3.7 x 2.1 x 1.1 in) |
 
-## È possibile azzerare la lettura del contatore?
+## È possibile azzerare la lettura del contatore.
 
 No.
 
@@ -71,7 +71,7 @@ No.
 
 Scheda tecnica
 
-[Inglese](https://drive.google.com/file/d/0BwpiVx2zqRpUdjNFVXlOTHJJOFU/view)
+[Inglese](https://drive.google.com/file/d/1N0R4iOawhtielny0vWhJV65NqpSDL4SS/view)
 
 [Francese](https://drive.google.com/file/d/1VnE5HU_tP2jsktHAvjQ1vxVYLw-xrryl/view)
 

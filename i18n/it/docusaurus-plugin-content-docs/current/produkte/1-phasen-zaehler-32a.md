@@ -5,7 +5,7 @@ description: 'Lo smart-me Meter è il primo contatore elettrico che può essere 
 sidebar_label: 'Contatore monofase 32A'
 displayed_sidebar: wikiSidebar
 ---
-Lo smart-me Meter è il primo contatore elettrico che può essere analizzato e comandato da qualsiasi luogo. Non è necessario alcun hardware aggiuntivo. Utilizza la rete WiFi esistente e si collega direttamente alla smart-me Cloud. In questo modo è possibile visualizzare comodamente il proprio consumo di energia in tempo reale.
+Lo smart-me Meter è il primo contatore elettrico che può essere analizzato e comandato da qualsiasi luogo. Non è necessario alcun hardware aggiuntivo. Utilizza la rete WiFi esistente e si connette direttamente alla smart-me Cloud. In questo modo si può consultare comodamente il proprio consumo energetico in tempo reale.
 
 Vendita cessata il 01.01.2023, assistenza e supporto cloud continuano a essere garantiti.
 
@@ -27,7 +27,7 @@ Vendita cessata il 01.01.2023, assistenza e supporto cloud continuano a essere g
 
 - Connessione diretta e crittografata alla smart-me Cloud (WiFi)
 
-- Gestione completa dell'energia nella smart-me Cloud: 
+- Gestione energetica completa nella smart-me Cloud: 
 
     - Monitoraggio in tempo reale
 
@@ -50,22 +50,22 @@ Vedi [Messa in servizio](/konfiguration/inbetriebnahme)
 | Tensione di esercizio | 85 - 253 VAC |
 | Frequenza (f) | 50 / 60 Hz |
 | Corrente max. | 32 A (commutabile) |
-| Ingresso a impulsi E1 | A potenziale zero\*, 25V - 253V AC/DC |
-| Uscita digitale / uscita a impulsi S0 | A potenziale zero\*, Opto Power MOSFET, 5-48VDC / 5- 230 VAC, max. 550mW |
+| Ingresso impulsi E1 | A potenziale zero\*, 25V - 253V AC/DC |
+| Uscita digitale / uscita impulsi S0 | A potenziale zero\*, Opto Power MOSFET, 5-48VDC / 5- 230 VAC, max. 550mW |
 | Corrente di riferimento | 5 A |
 | Corrente di avviamento | &lt; 20 mA |
 | Tariffe | 2+ |
 | Montaggio | Guida DIN |
 | Larghezza | 2 moduli, 36 x 90 mm |
 | Interfacce | WiFi, S0 |
-| Valore degli impulsi S0 | 1000 impulsi per kWh |
+| Valore impulsi S0 | 1000 impulsi per kWh |
 | Autoconsumo | &lt; 0.5 W |
 
 \*non dispone di una propria alimentazione di tensione.
 
 ## Configurare ingressi e uscite
 
-Lo smart-me Meter dispone di un'uscita e di un ingresso, che possono essere utilizzati come ingressi e uscite a impulsi oppure come contatto commutabile a potenziale zero. I dettagli sono disponibili [qui](/schnittstellen/ein-und-ausgaenge). 
+Lo smart-me Meter dispone di un'uscita e di un ingresso, utilizzabili come ingressi e uscite a impulsi o come contatto a potenziale zero commutabile. Trovi i dettagli [qui](/schnittstellen/ein-und-ausgaenge). 
 
 ## Dimensioni e collegamenti
 
@@ -78,15 +78,15 @@ Lo smart-me Meter dispone di un'uscita e di un ingresso, che possono essere util
 <div className="row">
 <div className="col col--5">
 
-T1: Tasto per l'installazione
+T1: tasto per l'installazione
 
-E1: Commutazione della tariffa (ingresso digitale)
+E1: commutazione tariffaria (ingresso digitale)
 
-0V Tariffa 1
+0V tariffa 1
 
-\>25V Tariffa 2
+\>25V tariffa 2
 
-S0: Uscita a impulsi (contatto a potenziale zero)
+S0: uscita impulsi (contatto a potenziale zero)
 
 </div>
 <div className="col col--7 bild--mitte">
@@ -98,11 +98,11 @@ S0: Uscita a impulsi (contatto a potenziale zero)
 
 ## Modificare l'intervallo di upload
 
-- Accedere al portale smart-me
+- accedere al portale smart-me
 
-- Selezionare il contatore
+- selezionare il contatore
 
-- In alto a destra selezionare la rotella dentata
+- in alto a destra selezionare la rotella dentata
 
 - Impostazioni generali (Allgemeine Einstellungen)
 
@@ -121,4 +121,4 @@ Scheda tecnica
 
 Dati tecnici
 
-[Dichiarazione di conformità CE](https://docs.google.com/document/d/1t9Bj_Z8yZchoW1wGIWLeUEgj6M3Q893SPOGqkikALIs/export?format=pdf)
+[Dichiarazione di conformità CE](https://docs.google.com/document/d/17Ydylyan3-1PCV9zo0l7SwQUXJDPd-gBreaBJnBHapA/export?format=pdf)

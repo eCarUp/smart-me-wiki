@@ -6,7 +6,7 @@ sidebar_label: 'Planification de l''installation'
 ---
 Pico peut être installée de différentes manières. Vous trouverez ici les variantes les plus courantes, décrites avec leurs exigences spécifiques.
 
-![Planification de l'installation – Illustration 1](/img/produkte-pico-ladestation-installationsplanung/01.png)
+![Planification de l'installation – Illustration 1](/img/produkte-pico-ladestation-installationsplanung/01_EN.png)
 
 ## Consignes générales d'installation
 
@@ -38,7 +38,7 @@ Toutes les bornes de recharge Pico à partir du numéro de série 7002702 dispos
 
 ### Installation de Pico sur câble plat ou avec des systèmes busbar
 
-![Planification de l'installation – Illustration 2](/img/produkte-pico-ladestation-installationsplanung/02.png)
+![Planification de l'installation – Illustration 2](/img/produkte-pico-ladestation-installationsplanung/02_EN.png)
 
 Remarque : 
 
@@ -46,11 +46,11 @@ Le courant de court-circuit ne doit être vérifié qu'au niveau de la plaque de
 
 ### Installation de Pico en repiquage interne ou avec le socle Pico Basic (212070-PL)
 
-![Planification de l'installation – Illustration 3](/img/produkte-pico-ladestation-installationsplanung/03.png)
+![Planification de l'installation – Illustration 3](/img/produkte-pico-ladestation-installationsplanung/03_EN.png)
 
 ### Installation de Pico avec le socle Pico avec couvercle de service (232070-PL)
 
-![Planification de l'installation – Illustration 4](/img/produkte-pico-ladestation-installationsplanung/04.png)
+![Planification de l'installation – Illustration 4](/img/produkte-pico-ladestation-installationsplanung/04_EN.png)
 
 ### Protection contre la foudre pour les installations extérieures d'infrastructure de recharge
 

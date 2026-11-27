@@ -91,9 +91,6 @@ In der Standardansicht des Ordners der Abrechnungseinheit (z. B. eine Wohnung) w
 
 ### Wie wird der Solarstrom aufgeteilt
 
-<div className="row">
-<div className="col col--7">
-
 Die smart-me-Plattform verwendet den Produktionszähler (PV-Zähler) zur Ermittlung der erzeugten Strommenge und den virtuellen Gesamtverbrauchszähler zur Ermittlung der verbrauchten Strommenge. Daraus wird ein prozentualer Anteil des Solarstroms berechnet. 
 
 Jeder Stromzähler (Mieter) hat somit Anspruch auf den gleichen Anteil an Solarstrom pro 15 Minuten, z.B. 40% seines Verbrauchs in kWh.
@@ -110,10 +107,8 @@ Beispiel für die Zuteilung von Solarstrom
 
 Die Genauigkeit kann verbessert werden, indem der Bilanzzähler für den Solartarif konfiguriert wird.
 
-</div>
-<div className="col col--5 bild--mitte">
+<div className="bild--voll">
 
 ![Billing: Energie abrechnen – Abbildung 13](/img/konfiguration-billing/13.png)
 
-</div>
 </div>

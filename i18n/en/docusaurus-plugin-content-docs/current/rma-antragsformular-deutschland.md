@@ -8,4 +8,4 @@ This page applies to Germany. For Switzerland and Liechtenstein, there are [sepa
 
 ## Application form for all smart-me devices
 
-[smart-me RMA form (DE) for Germany](https://www.smartred.de/kontakt/)
+[smart-me RMA form (DE) for Germany](https://www.smartred.de/rma)

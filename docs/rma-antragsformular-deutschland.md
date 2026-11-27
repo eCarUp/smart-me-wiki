@@ -8,4 +8,4 @@ Diese Seite gilt für Deutschland. Für die Schweiz und Liechtenstein gibt es [e
 
 ## Antragsformular für alle smart-me Geräte
 
-[smart-me RMA-Formular (DE) für Deutschland](https://www.smartred.de/kontakt/)
+[smart-me RMA-Formular (DE) für Deutschland](https://www.smartred.de/rma)
